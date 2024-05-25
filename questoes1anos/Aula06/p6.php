@@ -1,0 +1,988 @@
+<?php include '../../views/header.php'; ?>
+
+
+<div class="larguraBar">
+
+
+
+	<h1 class="h1"> Aula 06 – Revisão (aulas 01 a 05)</h1>
+
+	<div class="w3-container w3-white ">
+
+		<p><strong>Conteúdo:</strong></p>
+
+		<ul class="w3-padding-top">
+			<li>Conceitos fundamentais da Geografia: Espaço geográfico, território, lugar, paisagem e região;</li>
+			<li>Introdução à História da Cartografia; Mapas; Sistemas referenciais para localização espacial: pontos
+				cardeais; Rotação; coordenadas geográficas, longitude, latitude;</li>
+			<li>Fusos horários, GMT (Greenwich Mean time ou horário médio de Greenwich); Linha Internacional da Data;
+				Fuso horário brasileiro;</li>
+			<li>Escala geográfica; Escala cartográfica: numérica e gráfica;
+
+			</li>
+			<li>Projeções cilíndricas, cônicas e azimutais.</li>
+		</ul>
+
+	</div>
+
+
+
+
+
+
+	<form id="quiz" name="quiz" onsubmit="verificar()">
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 01</p>
+
+			<p> (UEL 2019) Leia o texto a seguir.</p>
+
+			<p> 1. Com o trabalho humano, o espaço geográfico está em constante mudança, em contínua
+				transformação e
+				movimento.</p>
+
+			<div class="w3-panel w3-leftbar w3-sand w3-margin">
+				<p> <em>"Todos os espaços são geográficos porque determinados pelo movimento da sociedade, da produção. Mas tanto a paisagem quanto o espaço resultam de movimentos superficiais e de fundo da sociedade, uma realidade de funcionamento unitário, um mosaico de relações, de formas, funções e sentidos"</em>.</p>
+				<p class="w3-small"> SANTOS, M. Metamorfose do Espaço habitado: Fundamentos
+					teóricos e metodológicos da Geografia. São Paulo: EDUSP, 2008, p.67.
+
+				</p>
+			</div>
+
+			<p>Com bases nesses conhecimentos, associe a coluna da esquerda com a coluna da direita.</p>
+
+			<div class="w3-container ">
+
+
+				<table class="w3-table-all  ">
+					<tr>
+						<th class="w3-center">Conceito</th>
+						<th class="w3-center">Definição</th>
+
+					</tr>
+					<tr>
+						<td>(I) Paisagem</td>
+						<td>(A) Caracteriza-se pela valorização das relações de afetividade desenvolvidas pelos indivíduos em relação ao ambiente, sendo o resultado de significados construídos pela experiência, com referenciais afetivos desenvolvidos ao longo da vida. </td>
+
+					</tr>
+					<tr>
+						<td> (II) Lugar</td>
+						<td>(B) Compreende tudo aquilo que nós vemos, o que nossa visão alcança: trata-se do domínio do visível, aquilo que a vista abarca. Forma-se não apenas de volumes, mas também de cores, movimentos, odores, sons etc. </td>
+
+					</tr>
+					<tr>
+						<td>(III) Território</td>
+						<td>(C) Sistema integrado de fluxos que se constitui por pontos de acesso, arcos de transmissão e nós ou polos de bifurcação, definindo-se pelo grau de acesso que eles oferecem, além de exibirem aspectos materiais, embora seu conteúdo seja imaterial.</td>
+
+					</tr>
+
+					<tr>
+						<td>(IV) Região </td>
+						<td>(D) Liga-se à formação econômica e social de uma nação, sendo produto do processo de apropriação e domínio social, cotidianamente, inscrevendo-se num campo de poder, de relações socioespaciais, nas quais a natureza exterior do homem está presente de diferentes maneiras. </td>
+
+					</tr>
+
+					<tr>
+						<td>(V) Rede</td>
+						<td>(E) É uma porção do espaço delimitada a partir do agrupamento de aspectos, em certa medida, homogêneos, seja por um critério físico-natural, socioeconômico, cultural, entre outros, que resulta em uma diferenciação de área.</td>
+
+					</tr>
+
+
+				</table>
+
+
+
+
+
+			</div>
+
+
+			<p>Assinale a alternativa que contém a associação correta. </p>
+
+			<p class="bordaQuestoes" id="q1a"><input type="radio" required="required" name="pq1" value="a"> a)
+				a) I-A, II-B, III-C, IV-E, V-D.</p>
+			<p class="bordaQuestoes" id="q1b"><input type="radio" required="required" name="pq1" value="b"> b)
+				b) I-A, II-D, III-C, IV-B, V-E. </p>
+			<p class="bordaQuestoes" id="q1c"><input type="radio" required="required" name="pq1" value="c"> c)
+				c) I-B, II-A, III-D, IV-E, V-C.</p>
+			<p class="bordaQuestoes" id="q1d"><input type="radio" required="required" name="pq1" value="d"> d)
+				d) I-B, II-D, III-A, IV-C, V-E.</p>
+			<p class="bordaQuestoes" id="q1e"><input type="radio" required="required" name="pq1" value="e"> e)
+				e) I-E, II-A, III-B, IV-C, V-D.</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p>A questão trata da apropriação e exploração dos diferentes elementos da natureza, a partir de conceitos básicos. Os processos sociais e culturais e suas expressões territoriais. A dimensão política do espaço geográfico. A leitura de diferentes linguagens e a produção de conhecimentos geográficos.</p>
+
+			<p>(I-B) PAISAGEM é tudo aquilo que nós vemos, o que nossa visão alcança. Pode ser definida como o domínio do visível, aquilo que a vista abarca. É formada não apenas de volumes, mas também de cores, movimentos, odores, sons etc. Dessa forma, a percepção é sempre um processo seletivo de apreensão. Precisa ser apreendida para além do que é visível, observável. Essa apreensão é a busca das explicações do que está por trás da paisagem, a busca dos significados do que aparece.</p>
+
+			<p>(II-A) LUGAR – Caracteriza-se pela valorização das relações de afetividade desenvolvidas pelos indivíduos em relação ao ambiente, sendo o resultado de significados construídos pela experiência. Trata-se de referenciais afetivos desenvolvidos ao longo da vida. Lugar se diferencia pela maneira como os fatores internos resistem aos externos, determinando as modalidades do impacto sobre a organização pré-existente. A partir desse choque, impõe-se uma nova combinação de variáveis, um novo arranjo, destinado a se manter em constante movimento. É onde a vida acontece, é o lócus do convívio social.</p>
+
+			<p>(III-D) TERRITÓRIO - Está ligada à formação econômica e social de uma nação, sendo produto do processo de apropriação e domínio social, cotidianamente, inscrevendo se num campo de poder, de relações socioespaciais, nas quais a natureza exterior do homem está presente de diferentes maneiras. Define-se também como sendo formada pela constelação dos recursos naturais – lagos, rios, planícies, montanhas e florestas – e também de recursos criados: estradas de ferro e de rodagem, condutos de toda ordem, barragens, açudes, cidades, o que for. É esse conjunto de todas as coisas, arranjadas em sistema, uma totalidade, ainda que inerte. Refere-se ao conceito de Milton Santos sobre o território usado (2000, p. 105), que se constitui como um todo complexo, em meio a uma trama de relações complementares e conflitantes. Daí o vigor do conceito, que convida a pensar processualmente as relações estabelecidas entre o lugar, a formação socioespacial e o mundo.</p>
+
+			<p>(IV-E) REGIÃO - É uma porção do espaço delimitada a partir do agrupamento de aspectos, em certa medida, homogêneos, seja por um critério físico-natural, socioeconômico, cultural, entre outros, que resulta em uma diferenciação de área. É também uma unidade administrativa, já que os Estados utilizam, para administração com fins de planejamento e hierarquia, a divisão regional. A região não é estática e engessada; ao contrário disso, ela é dinâmica.</p>
+
+			<p>(V-C) REDE – Esquematicamente, uma rede é um sistema integrado de fluxos. A rede é constituída por pontos de acesso, arcos de transmissão e nós ou polos de bifurcação. Numa rede, o valor dos lugares define-se pelo grau de acesso que eles oferecem ao conjunto da rede. As redes exibem aspectos materiais, como os computadores, cabos de fibra óptica e satélites de comunicação, mas seu conteúdo é imaterial.</p>
+
+			<p>Resposta letra c.</p>
+
+
+
+
+		</div>
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 02</p>
+
+			<p> (2020) Estado, nação, território e país são conceitos-chave da Geografia. Acerca desses temas
+				analise
+				os itens abaixo correlacionando-os de forma adequada: </p>
+
+
+			<div class="w3-container ">
+
+
+				<table class="w3-table-all  ">
+					<tr>
+						<th class="w3-center">Coluna 1-Conceito</th>
+						<th class="w3-center">Coluna 2-Descrição</th>
+
+					</tr>
+					<tr>
+						<td>(1) Estado</td>
+						<td>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) é politicamente delimitado por fronteiras, em geral habitado por uma comunidade com
+							história
+							própria. </td>
+
+					</tr>
+					<tr>
+						<td> (2) Nação </td>
+						<td>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) é a forma como a sociedade se organiza politicamente. </td>
+
+					</tr>
+					<tr>
+						<td>(3) Território </td>
+						<td>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) é a base física sobre a qual um Estado exerce sua soberania.</td>
+
+					</tr>
+
+					<tr>
+						<td>(4) País </td>
+						<td>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) é um coletivo humano com características comuns, como a língua e a religião. Os
+							membros dessa
+							coletividade estão ligados por laços históricos, étnicos e culturais. </td>
+
+					</tr>
+
+
+				</table>
+
+
+
+
+
+			</div>
+
+
+
+			<p>Assinale a alternativa que indica a sequência correta, de cima para baixo </p>
+
+
+
+
+			<p class="bordaQuestoes" id="q2a"><input type="radio" required="required" name="pq2" value="a"> a)
+				1 • 2 • 3 • 4. </p>
+			<p class="bordaQuestoes" id="q2b"><input type="radio" required="required" name="pq2" value="b"> b)
+				1 • 4 • 3 • 2. </p>
+			<p class="bordaQuestoes" id="q2c"><input type="radio" required="required" name="pq2" value="c"> c)
+				4 • 1 • 2 • 3. </p>
+			<p class="bordaQuestoes" id="q2d"><input type="radio" required="required" name="pq2" value="d">
+				d)
+				4 • 1 • 3 • 2. </p>
+			<p class="bordaQuestoes" id="q2e"><input type="radio" required="required" name="pq2" value="e"> e)
+				4 • 3 • 2 • 1.</p>
+		</div>
+
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p> País – Considerado um território físico de um Estado soberano, ligado mais a uma definição geométrica do
+				território.</p>
+
+			<p>Estado – entidade política responsável pela manutenção das normas, da fiscalização e da tributação.</p>
+
+			<p>Território – é um nome político para o espaço geográfico, onde o Estado estabelece suas relações de
+				soberania e poder.</p>
+
+			<p>Nação – Um povo com elementos sociais e culturais em comum. </p>
+
+
+
+
+		</div>
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 03</p>
+
+			<p>(UCS-RS 2017) observe o mapa abaixo:</p>
+
+			<div class="w3-center"><img src="p6q3.png" alt="Mapa-mundi" class="w3-mobile"></div>
+
+
+			<p>Considere as seguintes afirmativas.</p>
+
+			<p>I - Em relação ao Meridiano de Greenwich, a região Sul do Brasil está localizada no
+				Hemisfério Oriental.</p>
+
+			<p>II - Rússia, Canadá, Estados Unidos, China e Brasil têm a maior extensão territorial e, em
+				relação à Linha do Equador, estão localizados na porção Meridional.
+
+			<p>
+
+				III - As coordenadas geográficas da Ilha de Madagascar, na África, são: longitude 20ºS e latitude
+				50ºE.
+			</p>
+
+			<p>IV - As coordenadas geográficas aproximadas do Japão são: latitude 40ºN e longitude 140ºE.
+			</p>
+
+			<p>V - Em relação à Linha do Equador, Austrália e Portugal estão posicionados nos hemisférios
+				Meridional e Setentrional, respectivamente.</p>
+
+			<p>Das proposições acima</p>
+
+
+
+
+
+			<p class="bordaQuestoes" id="q3a"><input type="radio" required="required" name="pq3" value="a">
+				a) apenas IV está correta.</p>
+			<p class="bordaQuestoes" id="q3b"><input type="radio" required="required" name="pq3" value="b">
+				b) apenas V está correta. </p>
+			<p class="bordaQuestoes" id="q3c"><input type="radio" required="required" name="pq3" value="c">
+				c)apenas II, IV e V estão corretas. </p>
+			<p class="bordaQuestoes" id="q3d"><input type="radio" required="required" name="pq3" value="d">
+				d) apenas III e V estão corretas. </p>
+			<p class="bordaQuestoes" id="q3e"><input type="radio" required="required" name="pq3" value="e">
+				e) apenas IV e V estão corretas.</p>
+
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+			<p> I – Incorreta. A região Sul do Brasil está localizada totalmente no hemisfério Ocidental ou Leste
+				(East).</p>
+
+			<p>II – Incorreta. Esses países possuem a maior extensão territorial, mas não estão localizados no
+				hemisfério Sul, também chamado de Meridional ou Austral. Com exceção do Brasil, todos os outros países
+				citados estão localizados ao noirte da linha do Equador, no hemisfério Norte, Setentrional ou boreal.
+			</p>
+
+			<p>III – Incorreta. As coordenadas geográficas da ilha de Madagascar, conforme a figura, estão situadas na
+				Latitude 20ºS e Longitude 50ºE.</p>
+
+			<p>IV – Correta. O Japão está situado, conforme a figura, na Latitude 40º S e Longitude 140ºE (East –
+				Leste).</p>
+
+			<p>V – Correta. A localização geográfica da Austrália encontra-se totalmente ao sul da linha do Equador,
+				enquanto Portugal está localizado ao Norte dessa linha de referência.</p>
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 04</p>
+
+			<p>(UNESP 2018) No encerramento da temporada regular 2015-2016 da liga americana de
+				basquete, o ídolo do Los Angeles Lakers, Kobe Bryant, despediu-se das quadras numa partida
+				diante do Utah Jazz.
+				O jogo foi realizado na Califórnia, que fica no fuso horário 120º oeste, no dia 13.04.2016 às
+				19h30
+				(horário local). </p>
+
+
+
+			<p class="w3-small w3-right-align">(Http://sportv.globo.com. Adaptado.)</p>
+
+
+			<p>Ciente de que os EUA utilizavam o horário de verão, a última atuação do atleta foi
+				transmitida ao vivo às.</p>
+
+			<p class="bordaQuestoes" id="q4a"><input type="radio" required="required" name="pq4" value="a">
+				a)
+				22h30 do dia 13.04.2016 para o estado do Acre.</p>
+			<p class="bordaQuestoes" id="q4b"><input type="radio" required="required" name="pq4" value="b">
+				b) 21h30 do dia 13.04.2016 para a capital do Amazonas.</p>
+			<p class="bordaQuestoes" id="q4c"><input type="radio" required="required" name="pq4" value="c">
+				c)
+				00h30 do dia 14.04.2016 para o Distrito Federal.</p>
+			<p class="bordaQuestoes" id="q4d"><input type="radio" required="required" name="pq4" value="d">
+				d)
+				23h30 do dia 13.04.2016 para a cidade de São Paulo.</p>
+			<p class="bordaQuestoes" id="q4e"><input type="radio" required="required" name="pq4" value="e">
+				e)
+				01h30 do dia 14.04.2016 para o arquipélago Fernando de Noronha.</p>
+
+		</div>
+
+
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p>O objetivo da questão é descobrir o horário de transmissão da partida de basquete no horário local do
+				Brasil. Para tanto, temos que descobrir a diferença de fuso horário entre as localidades citadas, Los
+				Angeles, e o Brasil.</p>
+
+			<p>a) Incorreta. Rio Branco está localizada a 75ºOeste (120-75=45/15=3), portanto 18h30min +3h = 21h30min no
+				Acre.</p>
+
+			<p>b) Incorreta. Manaus está localizada a 60ºOeste (120-60=60/15=4), portanto 18h30min + 4h = 22h30min em
+				SP.</p>
+
+			<p>c) Incorreta. Brasília e São Paulo estão localizadas no mesmo fuso 45ºOeste (120-45=75/15=5, portanto
+				18h30min + 5h = 23h30min no DF e em SP.</p>
+
+			<p>d) Correta. Los Angeles está situada no fuso 120º Oeste, ou seja, atrasada em relação a Greenwich. Temos
+				que 120 / 15 = 8 horas. Para sabermos a diferença de horário entre Los Angeles e o Brasil, temos que
+				realizar a diferença (pois Los Angeles está localizada à Oeste do Brasil) entre essas localidades. </p>
+
+			<p>Vamos usar como referência o fuso brasileiro oficial, o de Brasília, localizado no fuso 45º Oeste de
+				Greenwich. </p>
+
+			<p>120 – 45 = 75.</p>
+
+			<p>75º é a diferença entre as duas localidades, dividido por 15º, descobrimos que 5 horas separam essas duas
+				cidades. </p>
+
+			<p>Como no momento da transmissão (19h30) estava sendo utilizado o horário de verão, temos que na realidade
+				o horário estava adiantado, uma hora. Portanto, temos que trabalhar com o horário oficial, que era
+				18h30.</p>
+
+			<p>Se somarmos 5h com 18h30, temos 23h30, que é o fuso oficial de Brasília e São Paulo.</p>
+
+			<p>Portanto, a resposta é a letra d.</p>
+
+			<p>e) Incorreta. Fernando de Noronha localizada a 30ºOeste (120-30=90/15=6, portanto 18h30min + 6h =
+				00h30min.</p>
+
+
+
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 05</p>
+
+			<p> (PUC-MG) Ao dividir os 360 graus da esfera terrestre pelas 24 horas de duração do
+				movimento de
+				__________, o resultado é 15 graus. A cada 15 graus que a Terra gira, passa-se uma hora. Assim,
+				cada
+				uma
+				das 24 divisões da Terra corresponde a um __________.</p>
+
+			<p> Para que o texto fique adequadamente preenchido, as lacunas devem ser completadas,
+				respectivamente,
+				por
+			</p>
+
+
+			<p class="bordaQuestoes" id="q5a"><input type="radio" required="required" name="pq5" value="a">
+				a)
+				translação e meridiano.</p>
+			<p class="bordaQuestoes" id="q5b"><input type="radio" required="required" name="pq5" value="b">
+				b)
+				translação e paralelo.</p>
+			<p class="bordaQuestoes" id="q5c"><input type="radio" required="required" name="pq5" value="c">
+				c)
+				rotação e círculo.</p>
+			<p class="bordaQuestoes" id="q5d"><input type="radio" required="required" name="pq5" value="d">
+				d)
+				rotação e fuso horário.</p>
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p> a) Falso – A translação é o movimento que a Terra realiza em torno do Sol, durante esse processo
+				são
+				gastos 365 dias e seis horas. Esse fenômeno é responsável pela alternância das estações do ano.
+				O
+				meridiano é uma linha geográfica imaginária.</p>
+
+			<p> b) Falso – A translação é o movimento que a Terra realiza em torno do Sol, durante esse processo
+				são
+				gastos 365 dias e seis horas. O paralelo, por sua vez, consiste no círculo menor perpendicular
+				ao
+				eixo
+				terrestre.</p>
+
+			<p> c) Falso – a rotação é o movimento que a Terra faz em torno de seu próprio eixo, sendo realizado
+				em,
+				aproximadamente, 24 horas. No entanto, círculo não tem relação com os fusos horários.</p>
+
+			<p> d) Verdadeiro – Denomina-se rotação o movimento que a Terra faz em torno do seu próprio eixo
+				(360°),
+				esse movimento é realizado em aproximadamente 24 horas. Os fusos horários foram estabelecidos
+				através da
+				divisão do eixo da Terra (360°) pelo tempo de duração do movimento de rotação (24 horas),
+				portanto,
+				temos o resultado de 15°, responsável por um fuso horário</p>
+
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 06</p>
+
+			<p>(UNCISAL-AL 2016) Antípodas são pessoas que se encontram em meridianos e paralelos
+				opostos,
+				ou
+				seja, em relação à outra pessoa, vive do outro lado da Terra, em um ponto diametralmente oposto.
+			</p>
+
+
+
+			<div class="w3-center"><img src="p6q6.png" alt="Mapa coordenadas" class="w3-mobile"></div>
+
+
+
+			<p>O antípoda de uma pessoa localizada no ponto A, mostrado no mapa, estará nas
+				coordenadas
+			</p>
+
+			<p class="w3-small">Http://www.freewebs.com/
+				manetsute/meridian.png. Acesso em: 03 nov.
+				2015.
+			</p>
+
+
+
+
+			<p class="bordaQuestoes" id="q6a"><input type="radio" required="required" name="pq6" value="a">
+				a)
+				20º N e 180º E. </p>
+			<p class="bordaQuestoes" id="q6b"><input type="radio" required="required" name="pq6" value="b">
+				b)
+				20º S e 140º W. </p>
+			<p class="bordaQuestoes" id="q6c"><input type="radio" required="required" name="pq6" value="c">
+				c)
+				70º N e 140º E. </p>
+			<p class="bordaQuestoes" id="q6d"><input type="radio" required="required" name="pq6" value="d">
+				d)
+				70º S e 180º E.</p>
+
+
+			<p class="bordaQuestoes" id="q6e"><input type="radio" required="required" name="pq6" value="e">
+				e)
+				90º S e 180º W. </p>
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p> Devido ao formato quase esférico da Terra é possível localizar pontos diametralmente opostos, as
+				chamadas antípodas. É bem simples o raciocínio: 1) para a Latitude, mantém-se o valor das coordenadas e
+				inverte-se o hemisfério. Ex. Se a latitude for 20º N, o seu ponto oposto será 20º S. Já para a
+				longitude, basta subtrair a longitude em 180º e inverter o hemisfério, porque a soma dos valores dever
+				ser 180º. Ex. Longitude 40ºE (Leste), temos 180º - 40º, e como resultado 140º W (Oeste). Resposta letra
+				b.</p>
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 07</p>
+
+			<p>(UERJ 2017) </p>
+
+			<div class="w3-center"><img src="p6q7.png" alt="Mapa trajeto tocha olímpica" class="w3-mobile">
+			</div>
+
+
+			<p> No mapa, o trajeto total da tocha olímpica em território brasileiro mede cerca de 72
+				cm,
+				considerando os trechos por via aérea e por terra.
+
+				A distância real, em quilômetros, percorrida pela tocha em seu trajeto completo, é de
+				aproximadamente:
+			</p>
+
+
+
+			<p class="bordaQuestoes" id="q7a"><input type="radio" required="required" name="pq7" value="a">
+				a)
+				3 600. </p>
+			<p class="bordaQuestoes" id="q7b"><input type="radio" required="required" name="pq7" value="b">
+				b)
+				7 000. </p>
+			<p class="bordaQuestoes" id="q7c"><input type="radio" required="required" name="pq7" value="c"> c)
+				36 000. </p>
+			<p class="bordaQuestoes" id="q7d"><input type="radio" required="required" name="pq7" value="d">
+				d)
+				70 000.</p>
+
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+
+
+			<p>A escala no canto direito inferior da representação mostra que esse mapa foi reduzido 50.000.000 de
+				vezes. Ou seja, cada centímetro no mapa representa 50.000.000 centímetros reais (1:50.000.000).</p>
+
+			<p>Como a questão pede para converter em quilômetros, sabe-se que cada quilômetro equivale a 100.000
+				centímetros. Logo, a escala equivalente a 1:50.000.000 cm é 1 centímetro para cada 500 quilômetros.</p>
+
+			<p>Como foram percorridos 72 centímetros do mapa:</p>
+
+			<p>72 x 500 = 36.000</p>
+
+			<p>Resposta final: a distância real percorrida pela tocha é de cerca de 36.000 quilômetros.</p>
+
+			<p>Alternativa correta: c) 36 000.</p>
+
+
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 08</p>
+
+			<p>(UNESP 2017) A escala cartográfica define a proporcionalidade entre a superfície do
+				terreno e sua
+				representação no mapa, podendo ser apresentada de modo gráfico ou numérico. </p>
+
+			<div class="w3-center"><img src="p6q8.png" alt="foto escala gráfica" class="w3-mobile"></div>
+
+			<p>A escala numérica correspondente à escala gráfica apresentada é: </p>
+
+
+
+
+
+			<p class="bordaQuestoes" id="q8a"><input type="radio" required="required" name="pq8" value="a">
+				a)
+				1:184 500 000. </p>
+			<p class="bordaQuestoes" id="q8b"><input type="radio" required="required" name="pq8" value="b">
+				b)
+				1:615 000. </p>
+			<p class="bordaQuestoes" id="q8c"><input type="radio" required="required" name="pq8" value="c">
+				c)
+				1:1 845 000. </p>
+			<p class="bordaQuestoes" id="q8d"><input type="radio" required="required" name="pq8" value="d">
+				d)
+				1:123 000 000.</p>
+			<p class="bordaQuestoes" id="q8e"><input type="radio" required="required" name="pq8" value="e">
+				e)
+				1:61 500 000.</p>
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+			<p> O gráfico demonstra que 1 cm corresponde a 615 km, ou seja, acrescentando cinco zeros para à
+				direita,
+				temos: 61 500 000 cm. Portanto, trata-se da escala 1: 61 500 000.</p>
+
+
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 09</p>
+
+			<p>(UERJ 2017)</p>
+
+
+
+			<div class="w3-center"><img src="p6q9.png" alt="Mapa religiões" class="w3-mobile"></div>
+
+
+			<p> O cartograma acima foi elaborado com a técnica da anamorfose, de modo que o tamanho
+				do
+				quadrilátero que representa cada país é proporcional ao tamanho de sua população. As cores, por
+				sua
+				vez,
+				indicam a religião majoritariamente seguida pelos fiéis de cada país. </p>
+
+			<p> Analisando o cartograma apresentado, observa-se a menor dispersão espacial de fiéis,
+				pelos
+				diferentes
+				países, na seguinte religião </p>
+
+
+			<p class="bordaQuestoes" id="q9a"><input type="radio" required="required" name="pq9" value="a">
+				a)
+				Budismo. </p>
+			<p class="bordaQuestoes" id="q9b"><input type="radio" required="required" name="pq9" value="b">
+				b)
+				Islamismo. </p>
+			<p class="bordaQuestoes" id="q9c"><input type="radio" required="required" name="pq9" value="c">
+				c)
+				Hinduísmo. </p>
+			<p class="bordaQuestoes" id="q9d"><input type="radio" required="required" name="pq9" value="d">
+				d)
+				Cristianismo. </p>
+
+
+
+		</div>
+
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+
+			<p>A questão objetiva identificar qual religião possui a menor dispersão no mundo, isto é, qual religião não
+				está distribuída por vários países ao longo do Planeta.</p>
+
+			<p>a) Incorreta. O Budismo está distribuído no sudeste asiático em vários países como: Tailândia, Vietnã,
+				Japão, Coreia do Sul, dentre outros.</p>
+
+			<p>b) Incorreta. O Islamismo está disperso por inúmeros países no Oriente Médio, no Norte da África e no
+				Sudeste asiático em diferentes vertentes como Sunita, Xiita e Ibadismo.</p>
+
+			<p>c) Correta. O Hinduísmo está localizado basicamente na Índia. Alguns fatores explicam essa reduzida
+				dispersão pelo mundo, como: sistemas de castas, conflitos internos, cultura e politeísmo há mais de 5
+				mil anos; crenças fortemente enraizadas na cultura, dentre outros.</p>
+
+			<p> d) Incorreta. O Cristianismo é a religião com uma grande dispersão territorial pelo mundo. Europa,
+				América, África, Oceania e alguns países do Sudeste asiático exemplificam sua distribuição geográfica
+				pelo globo.</p>
+		</div>
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 10</p>
+
+			<p>(PUC-SP 2017) Leia e observe o mapa:
+
+				"Todo mundo sabe que a literatura e a arte, da pintura à música, refletem uma sociedade e uma
+				cultura.
+				Menos conhecido, híbrido da escrita e da imagem, o mapa, representação gráfica do mundo, é
+				também o
+				retrato da época que o produziu."</p>
+
+
+			<div class="w3-center"><img src="p6q10.png" alt="Mapa antigo" class="w3-mobile"></div>
+
+			<p class="w3-small">
+
+				(Prefeitura de Paris. A descoberta dos Planos de Paris do XVI ao XVIII séculos. Paris: Agência
+				Cultural de Paris, 1994. p.5). Acesso em: 03 nov. 2015.
+			</p>
+
+
+			<p> Considerando o texto e o mapa como uma linguagem é correto dizer queConsiderando o
+				texto
+				e o
+				mapa como uma linguagem é correto dizer que</p>
+
+			<p class="bordaQuestoes" id="q10a"><input type="radio" required="required" name="pq10" value="a">
+				a) mapas de qualquer época são produtos científicos que não têm valor documental algum, se suas
+				representações não forem precisas em relação ao espaço representado.</p>
+			<p class="bordaQuestoes" id="q10b"><input type="radio" required="required" name="pq10" value="b">
+				b) um valor de um mapa histórico está no fato, entre outros, de que ele representa as técnicas
+				de
+				representação de uma época e os saberes que se possuíam sobre os lugares.</p>
+			<p class="bordaQuestoes" id="q10c"><input type="radio" required="required" name="pq10" value="c">
+				c) a equiparação do mapa com obras de arte se deve ao fato de que mapas históricos não tinham a
+				pretensão da verdade, apenas pretensões estéticas. </p>
+			<p class="bordaQuestoes" id="q10d"><input type="radio" required="required" name="pq10" value="d">
+				d) um mapa revela sua época, pois essa representação se caracteriza pela estrita expressão
+				apenas
+				daquilo que se conhece, não dando espaço para a imaginação.</p>
+
+
+
+		</div>
+
+		<div class="comentarios">
+			<p> <strong>Comentário</strong>: </p>
+
+			<p>a) Incorreta. Um mapa histórico, independente de sua precisão em representar fielmente à realidade,
+				revela, dentre outras coisas, a visão de mundo conhecido até aquela época. O pensamento de determinada
+				sociedade, a organização do espaço, além da arte na representação da realidade.</p>
+
+			<p>b) Correta. A cartografia é compreendida como um conjunto de técnicas utilizadas na produção de mapas,
+				cartas e outras formas de representação da superfície da Terra e de fenômenos socioeconômicos. Essas
+				técnicas foram se desenvolvendo através de avanços e retrocessos, junto ao caminhar da humanidade, sendo
+				possível, ao estudar mapas e cartas antigas, perceber os conhecimentos que uma civilização possuía e
+				como eles compreendiam o mundo.</p>
+
+			<p>Na Idade Média, por exemplo, os mapas possuíam uma série de imagens e símbolos religiosos. No mapa
+				apresentado, percebe-se o continente americano apenas pela metade, além de distorções muito evidentes
+				nas formas dos continentes já conhecidos, como a África e parte da Ásia.</p>
+
+			<p>c) Incorreta. O mapa pode ser considerado uma arte, pois também representa a realidade do mundo de uma
+				determinada época. Os mapas são também objetos estéticos devido a sua capacidade de ilustrar um lugar,
+				orientar deslocamentos e promover a localização.</p>
+
+			<p>d) Incorreta. Os mapas medievais, por exemplo, possuem muitas referências à imaginação, visões religiosas
+				sobre o mundo, monstros delimitando as fronteiras terrestres representando lugares desconhecidos pelos
+				seres humanos.</p>
+
+
+		</div>
+
+
+
+	</form>
+
+	<!-- Fim do formulário -->
+
+
+	<p id="numeroCorreto"></p>
+
+	<p id="mensagem" style="display:none"></p>
+
+
+	<!-- COLOCAR EM TODAS AS QUESTÕES -->
+	<div class="area">
+		<img src="../img1a.gif" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+	<div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+	<!-- Fim do conteúdo -->
+</div>
+
+
+
+<!-- Área das funções -->
+
+
+
+
+
+<script>
+
+
+
+
+function checar() {
+
+
+
+	var pq1 = document.quiz.pq1.value;
+	var pq2 = document.quiz.pq2.value;
+	var pq3 = document.quiz.pq3.value;
+	var pq4 = document.quiz.pq4.value;
+	var pq5 = document.quiz.pq5.value;
+	var pq6 = document.quiz.pq6.value;
+	var pq7 = document.quiz.pq7.value;
+	var pq8 = document.quiz.pq8.value;
+	var pq9 = document.quiz.pq9.value;
+	var pq10 = document.quiz.pq10.value;
+
+	var corretas = 0;
+
+
+	var cor = ["#99ff99", "#ee4466"];
+
+	if (pq1 == "c") {
+		corretas++;
+		document.getElementById("q1c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q1b").style.backgroundColor = cor[1];
+		document.getElementById("q1e").style.backgroundColor = cor[1];
+		document.getElementById("q1d").style.backgroundColor = cor[1];
+		document.getElementById("q1a").style.backgroundColor = cor[1];
+
+		document.getElementById("q1c").style.backgroundColor = cor[0];
+
+	}
+
+	if (pq2 == "d") {
+		corretas++;
+		document.getElementById("q2d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q2b").style.backgroundColor = cor[1];
+		document.getElementById("q2c").style.backgroundColor = cor[1];
+		document.getElementById("q2a").style.backgroundColor = cor[1];
+		document.getElementById("q2e").style.backgroundColor = cor[1];
+
+		document.getElementById("q2d").style.backgroundColor = cor[0];
+
+	}
+	if (pq3 == "e") {
+		corretas++;
+		document.getElementById("q3e").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q3b").style.backgroundColor = cor[1];
+		document.getElementById("q3c").style.backgroundColor = cor[1];
+		document.getElementById("q3d").style.backgroundColor = cor[1];
+		document.getElementById("q3a").style.backgroundColor = cor[1];
+
+		document.getElementById("q3e").style.backgroundColor = cor[0];
+
+	}
+	if (pq4 == "d") {
+		corretas++;
+		document.getElementById("q4d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q4b").style.backgroundColor = cor[1];
+		document.getElementById("q4c").style.backgroundColor = cor[1];
+		document.getElementById("q4a").style.backgroundColor = cor[1];
+		document.getElementById("q4e").style.backgroundColor = cor[1];
+
+		document.getElementById("q4d").style.backgroundColor = cor[0];
+
+	}
+	if (pq5 == "d") {
+		corretas++;
+		document.getElementById("q5d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q5b").style.backgroundColor = cor[1];
+		document.getElementById("q5c").style.backgroundColor = cor[1];
+		document.getElementById("q5a").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q5d").style.backgroundColor = cor[0];
+
+	}
+	if (pq6 == "b") {
+		corretas++;
+		document.getElementById("q6b").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q6a").style.backgroundColor = cor[1];
+		document.getElementById("q6c").style.backgroundColor = cor[1];
+		document.getElementById("q6d").style.backgroundColor = cor[1];
+		document.getElementById("q6e").style.backgroundColor = cor[1];
+
+		document.getElementById("q6b").style.backgroundColor = cor[0];
+
+	}
+	if (pq7 == "c") {
+		corretas++;
+		document.getElementById("q7c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q7b").style.backgroundColor = cor[1];
+		document.getElementById("q7a").style.backgroundColor = cor[1];
+		document.getElementById("q7d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q7c").style.backgroundColor = cor[0];
+
+	}
+	if (pq8 == "e") {
+		corretas++;
+		document.getElementById("q8e").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q8b").style.backgroundColor = cor[1];
+		document.getElementById("q8c").style.backgroundColor = cor[1];
+		document.getElementById("q8a").style.backgroundColor = cor[1];
+		document.getElementById("q8d").style.backgroundColor = cor[1];
+
+		document.getElementById("q8e").style.backgroundColor = cor[0];
+
+	}
+	if (pq9 == "c") {
+		corretas++;
+		document.getElementById("q9c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q9b").style.backgroundColor = cor[1];
+		document.getElementById("q9a").style.backgroundColor = cor[1];
+		document.getElementById("q9d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q9c").style.backgroundColor = cor[0];
+
+	}
+	if (pq10 == "b") {
+		corretas++;
+		document.getElementById("q10b").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q10a").style.backgroundColor = cor[1];
+		document.getElementById("q10c").style.backgroundColor = cor[1];
+		document.getElementById("q10d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q10b").style.backgroundColor = cor[0];
+
+	}
+
+
+	corLenta();
+	classEscurecer();
+	comentarios();
+
+
+
+
+	var incorrretas = 10 - corretas;
+	var mensagem = ["Parabéns!", "Foi bom!", "Melhor tentar novamente!"];
+
+	var imagem = ["../img1a.gif", "../img2b.gif", "../img3a.gif"];
+
+
+
+	var pontos;
+
+	if (corretas < 5) {
+		pontos = 2;
+
+	}
+
+	if (corretas >= 5 && corretas <= 7) {
+		pontos = 1;
+	}
+
+
+	if (corretas >= 7) {
+		pontos = 0;
+
+	}
+
+
+
+	document.getElementById("numeroCorreto").innerHTML = "Você acertou " + corretas + " e errou " + incorrretas + " do total de questões" + ", ou seja, " + (corretas * 100) / 10 + "%.";
+	document.getElementById("mensagem").innerHTML = mensagem[pontos];
+	document.getElementById("imagem").src = imagem[pontos];
+	document.getElementById("numeroCorreto").style.display = 'block';
+	document.getElementById("mensagem").style.display = 'block';
+	document.getElementById("imagem").style.display = 'block';
+
+
+
+
+
+}
+
+
+
+
+
+</script>
+
+
+<?php include '../../views/footer.php'; ?>

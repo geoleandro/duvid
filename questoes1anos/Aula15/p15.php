@@ -1,0 +1,1054 @@
+<?php include '../../views/header.php'; ?>
+
+
+
+<style>
+		.ImagemDialogo {
+			padding-top: 5%;
+			max-width: auto;
+			margin: 0 auto;
+			border: 10px solid #fff;
+			border-radius: 20px;
+			box-shadow: 0 0 10px #ccc;
+			background-image: url(" <?php echo URLSITE; ?>/images/dialogos/fotodialogo2.png");
+			background-size: cover;
+			background-position: top;
+		}
+
+
+		/* Mobile */
+
+		@media screen and (max-width: 600px) {
+
+			.ImagemDialogo {
+				padding-top: 5%;
+				max-width: auto;
+				margin: 0 auto;
+				border: 10px solid #fff;
+				border-radius: 20px;
+				box-shadow: 0 0 10px #ccc;
+				background-image: url(" <?php echo URLSITE; ?>/images/dialogos/fotodialogo2.png");
+				background-size: cover;
+				background-position: center;
+				z-index: 10;
+			}
+
+		}
+	</style>
+
+
+<div class="larguraBar">
+
+
+
+	<h1 class="h1"> Questões aula 15 – Formas do relevo terrestre </h1>
+
+
+	<p><strong>Conteúdo:</strong> Relevo; Planaltos; Planícies; Montanhas; Depressões; Sedimentação; erosão. </p>
+
+
+	<p><strong>Objetivo:</strong> Identificar e comparar as grandes unidades do relevo terrestre. </p>
+
+
+
+
+
+
+	<form id="quiz" name="quiz" onsubmit="verificar()">
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 01</p>
+
+			<p> (UCPEL 2016) O relevo corresponde às diversas configurações da crosta terrestre. A Geomorfologia,
+				disciplina científica que estuda as formas de relevo, sua origem, estrutura e os processos responsáveis
+				por sua evolução, apresenta diversas classificações das formas do relevo. Uma classificação que
+				compreende as principais formas de relevo apresenta os seguintes tipos:
+			</p>
+
+			<p>I. Áreas da superfície, localizadas em altitude inferior à das regiões próximas ou abaixo do nível do
+				mar, podem ser formadas de várias maneiras: por deslocamento do terreno, remoção de sedimentos,
+				dissolução de rochas ou até por queda de meteoritos.
+			</p>
+
+			<p>II. Grandes áreas elevadas, resultantes do choque de placas tectônicas, como o da Placa Euroasiática
+				Ocidental com a Indo-Australiana, que deu origem a um conjunto específico desse tipo de forma, também
+				são chamadas de dobramentos modernos.
+			</p>
+
+			<p>III. Elevações de altitudes variadas, em que predomina o processo de erosão e cuja composição rochosa
+				pode ser de rochas sedimentares, cristalinas ou metamórficas, apresentam superfície irregular, como
+				serras e chapadas, e são delimitadas por áreas rebaixadas em um dos lados.
+			</p>
+
+			<p>IV. Áreas de superfície relativamente plana, formadas por rochas sedimentares e nas quais predominam os
+				processos de decomposição e acúmulo de sedimentos, na maior parte das vezes, são encontradas em baixas
+				altitudes, mas também podem ocorrer em regiões elevadas.
+			</p>
+
+			<p> Os tipos de relevo descritos correspondem, respectivamente, a:</p>
+
+
+			<p class="bordaQuestoes" id="q1a"><input type="radio" required="required" name="pq1" value="a"> a)
+				I - Depressões; II - Planícies; III - Montanhas; IV - Planaltos.</p>
+
+
+			<p class="bordaQuestoes" id="q1b"><input type="radio" required="required" name="pq1" value="b"> b)
+				I - Planícies; II - Montanhas; III - Planaltos; IV - Depressões</p>
+
+
+			<p class="bordaQuestoes" id="q1c"><input type="radio" required="required" name="pq1" value="c"> c)
+				I - Montanhas; II - Planícies; III - Depressões; IV - Planaltos.</p>
+
+			<p class="bordaQuestoes" id="q1d"><input type="radio" required="required" id="pq1" name="pq1" value="d"> d)
+				I - Planaltos; II - Depressões; III - Planícies; IV - Montanhas.</p>
+
+			<p class="bordaQuestoes" id="q1e"><input type="radio" required="required" name="pq1" value="e"> e)
+				I - Depressões; II - Montanhas; III - Planaltos; IV - Planícies.</p>
+
+		</div>
+
+
+
+		<div class="comentarios">
+
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 02</p>
+
+			<p> (UFLA-MG 2011) Observe o esquema: </p>
+
+			<div class="w3-center"><img src="p15q2.png" alt="p15q2.png" class="w3-mobile"></div>
+
+			<p> Apresentam-se em seguida as proposições I e II:
+			<p>
+
+				I. Superfícies formadas pelo processo de sedimentação, com cerca de 200 m de altitude.
+			<p>
+
+				II. Superfícies que resultam do trabalho da erosão em áreas de bacias sedimentares.
+			<p>
+
+				Assinale a alternativa que apresenta a relação CORRETA entre o esquema e as proposições:</p>
+
+			<p class="bordaQuestoes" id="q2a"><input type="radio" required="required" name="pq2" value="a"> a)
+				A forma de relevo 3 associa-se à proposição II</p>
+
+			<p class="bordaQuestoes" id="q2b"><input type="radio" required="required" name="pq2" value="b"> b) A
+				forma de relevo 1 associa-se à proposição I </p>
+
+			<p class="bordaQuestoes" id="q2c"><input type="radio" required="required" id="pq2" name="pq2" value="c"> c)
+				A forma de relevo 1 associa-se à proposição II.</p>
+
+			<p class="bordaQuestoes" id="q2d"><input type="radio" required="required" name="pq2" value="d"> d)
+				A forma de relevo 2 associa-se à proposição I.</p>
+
+
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 03</p>
+
+			<p> (UFRGS 2019) Assinale a afirmação correta sobre o relevo da superfície terrestre e sua constante
+				transformação.</p>
+
+
+			<p class="bordaQuestoes" id="q3a"><input type="radio" required="required" name="pq3" value="a"> a) O relevo
+				terrestre é o resultado da ação de tectonismo, chuva, vento, cursos d'água, mares, geleira, sem envolver
+				a ação antrópica.
+
+			</p>
+			<p class="bordaQuestoes" id="q3b"><input type="radio" required="required" name="pq3" value="b"> b) A ação do
+				agente de erosão fluvial é considerada predominante em ambientes de climas com elevado regime de
+				precipitação e gera formas de relevo chamadas fiordes.
+
+			</p>
+			<p class="bordaQuestoes" id="q3c"><input type="radio" required="required" name="pq3" value="c"> c) A ação do
+				vento em ambientes desérticos e costeiros promove um processo deposicional contínuo e a ausência de
+				processos erosivos.
+
+			</p>
+			<p class="bordaQuestoes" id="q3d"><input type="radio" required="required" id="pq3" name="pq3" value="d"> d)
+				O intemperismo químico das rochas é responsável pelo processo progressivo de dissolução e pela ação da
+				chuva e dos cursos d'água.
+
+
+			</p>
+			<p class="bordaQuestoes" id="q3e"><input type="radio" required="required" name="pq3" value="e"> e) As
+				planícies envolvem elevações superiores a 200 metros e são diferenciadas das depressões, as quais estão
+				relacionadas a prolongados processos de erosão em sua gênese.
+
+			</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 04</p>
+
+			<p>(UFPR 2015) </p>
+
+			<div class="w3-panel w3-leftbar w3-sand w3-margin">
+				<p>“As formas ou conjuntos de formas de relevo participam da composição das paisagens em
+					diferentes escalas. Relevos de grandes dimensões, ao serem observados em um curto espaço de tempo,
+					mostram aparência estática e imutável; entretanto, estão sendo permanentemente trabalhados por
+					processos
+					erosivos ou deposicionais, desencadeados pelas condições climáticas existentes.</p>
+
+				<p> Esses processos, originados pelas forças exógenas, promovendo, ao longo de grandes períodos de
+					tempo, a
+					degradação (erosão) das áreas topograficamente elevadas e a agradação (deposição) nas áreas
+					topograficamente baixas, conduzem a uma tendência de nivelamento da superfície terrestre. </p>
+
+				<p> Isso só se completará caso não haja interferência das forças endógenas, que podem promover
+					soerguimentos
+					ou rebaixamentos terrestres. Há que se considerar, ainda, a ação conjunta das duas forças e as
+					implicações altimétricas geradas por ocorrências de variações do nível do mar”. </p>
+
+
+
+				<p class="w3-small"> Adaptado de MARQUES, J.S. Ciência Geomorfológica. In: GUERRA, A. J. T.; CUNHA, S.
+					B.
+					(Orgs.) Geomorfologia: uma atualização de bases e conceitos. Rio de Janeiro: Bertrand,1994, p.
+					23-45.
+				</p>
+
+			</div>
+
+
+
+
+
+
+			<p> Tendo como referência o texto acima e os conhecimentos de geomorfologia, a ciência que estuda as formas
+				do relevo, identifique as seguintes afirmativas como verdadeiras (V) ou falsas (F): </p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) O relevo é o resultado da atuação das chamadas forças endógenas e
+				exógenas. Os processos endógenos
+				estão associados à dinâmica das Placas Tectônicas e os exógenos relacionados à atuação climática. </p>
+
+			<p>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Durante a era Cenozoica, as formas de relevo, em grande escala,
+				permaneceram estáveis em consequência
+				do equilíbrio entre forças exógenas e endógenas. </p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Os deslizamentos de terra, fluxos de lama e detritos, que ocorrem em
+				grandes maciços rochosos, como
+				é o caso da Serra do Mar, apesar de resultarem muitas vezes em catástrofes e danos à população, podem
+				ser processos naturais de degradação, que participam da evolução das formas do relevo. </p>
+
+			<p> Assinale a alternativa que apresenta a sequência correta, de cima para baixo. </p>
+
+
+			<p class="bordaQuestoes" id="q4a"><input type="radio" required="required" name="pq4" value="a"> a) V – V – F
+				– F.
+
+			</p>
+			<p class="bordaQuestoes" id="q4b"><input type="radio" required="required" name="pq4" value="b"> b) F – V – F
+				– V.
+
+			</p>
+			<p class="bordaQuestoes" id="q4c"><input type="radio" required="required" name="pq4" value="c"> c) F – F – V
+				– V.
+
+			</p>
+			<p class="bordaQuestoes" id="q4d"><input type="radio" required="required" id="pq4" name="pq4" value="d"> d)
+				V – F – V – V.
+
+			</p>
+			<p class="bordaQuestoes" id="q4e"><input type="radio" required="required" name="pq4" value="e"> e) V – F – V
+				– F.
+
+			</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 05</p>
+
+			<p> (URCA CE) Sobre Relevo, assinale a alternativa <strong>incorreta</strong>. </p>
+
+			<p class="bordaQuestoes" id="q5a"><input type="radio" required="required" name="pq5" value="a"> a)
+				A "Tectônica de Placas" é a grande responsável pelos fenômenos que acontecem no interior da Terra: os
+				terremotos, as erupções vulcânicas e a formação das grandes cadeias de montanhas. </p>
+
+
+			<p class="bordaQuestoes" id="q5b"><input type="radio" required="required" id="pq5" name="pq5" value="b"> b)
+				Tanto a origem das formas de relevo quanto as modificações que elas sofrem com o tempo são resultantes
+				de forças internas (que provêm do clima, ou dos seres vivos) e forças externas (que deram origem às
+				rochas mais antigas, aos vulcões, aos dobramentos, etc.) da Terra. </p>
+
+			<p class="bordaQuestoes" id="q5c"><input type="radio" required="required" name="pq5" value="c"> c)
+				Depressões são áreas deprimidas ou rebaixadas em relação às regiões vizinhas; e Planícies são áreas
+				planas onde, normalmente, há sedimentação, isto é, acumulação ou deposição de sedimentos. </p>
+
+			<p class="bordaQuestoes" id="q5d"><input type="radio" required="required" name="pq5" value="d"> d)
+				Montanhas são as formas elevadas do relevo, que se destacam por apresentar altitudes superiores às das
+				regiões vizinhas. As mais elevadas são as que resultam de "dobramentos" e existem tanto nos continentes
+				quanto no fundo dos oceanos. </p>
+
+
+			<p class="bordaQuestoes" id="q5e"><input type="radio" required="required" name="pq5" value="e"> e)
+				Podemos definir relevo como sendo o modelado da superfície terrestre. As principais formas são:
+				montanhas, planaltos, planícies e depressões.</p>
+
+
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 06</p>
+
+			<p> (ENEM 2005) Um professor, apresentou em sua prova de geografia a figura a seguir e demandou dos alunos a
+				identificação das formas de relevo I e II. </p>
+
+			<div class="w3-center"><img src="p15q6.png" alt="p15q6.png" class="w3-mobile"></div>
+
+			<p> Acertaram a questão os alunos que a denominaram da seguinte forma: </p>
+
+			<p class="bordaQuestoes" id="q6a"><input type="radio" required="required" id="pq6" name="pq6" value="a"> a)
+				I – Planície, II – depressão relativa. </p>
+
+			<p class="bordaQuestoes" id="q6b"><input type="radio" required="required" name="pq6" value="b"> b)
+				I – Depressão relativa, II – Planície. </p>
+
+			<p class="bordaQuestoes" id="q6c"><input type="radio" required="required" name="pq6" value="c"> c)
+				I – Depressão absoluta, II – Planície. </p>
+
+
+			<p class="bordaQuestoes" id="q6d"><input type="radio" required="required" name="pq6" value="d"> d)
+				I – Planície, II – Planalto. </p>
+
+			<p class="bordaQuestoes" id="q6e"><input type="radio" required="required" name="pq6" value="e"> e)
+				I – Depressão absoluta, II – Planalto.</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<p> <strong>Comentário:</strong></p>
+
+			<p> A) A forma de relevo identificada com o número I corresponde a uma planície situada entre o oceano e a
+				escarpa de um planalto. O número II representa uma depressão relativa, área rebaixada situada entre
+				planaltos.</p>
+
+			<p>A planície junto ao litoral corresponde a uma área com baixa altitude, formada pela deposição de
+				sedimentos
+				provenientes do oceano e das regiões mais elevadas ao seu redor. A depressão relativa é geralmente
+				formada
+				por um longo processo erosivo (muitas vezes do tipo diferenciado) que origina formas relativamente
+				aplainadas, mais baixas que as áreas do seu entorno.</p>
+
+		</div>
+
+
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 07</p>
+
+			<p> (UFCG PB 2007) O relevo, dependendo da atuação dos agentes internos e externos, pode apresentar diversas
+				formas. Quanto às características das principais formas de relevo, é CORRETO dizer que:</p>
+
+			<p> I. As serras são relevos estreitos bem agrupados com topos regulares. Em geral, são alinhamentos de
+				montanhas recentes.</p>
+
+			<p> II. Os planaltos são as superfícies mais elevadas, com ondulações bruscas. Geralmente são delimitados
+				por planícies que os circundam.</p>
+
+			<p> III. As planícies são superfícies planas, de baixa altitude, nas quais, geralmente, os processos de
+				deposição são abundantes.</p>
+
+			<p> IV. As depressões são áreas rebaixadas. Sua origem pode estar ligada a processos de erosão ou a
+				afundamentos provocados por falhamentos.</p>
+
+			<p> V. As montanhas são elevações suaves e aluviais do terreno. São formadas por agrupamentos de morros e
+				escarpas sedimentares.</p>
+
+			<p> A sequência correta é: </p>
+
+			<p class="bordaQuestoes" id="q7a"><input type="radio" required="required" name="pq7" value="a"> a)
+				I, II e IV. </p>
+
+			<p class="bordaQuestoes" id="q7b"><input type="radio" required="required" id="pq7" name="pq7" value="b"> b)
+				III e IV.</p>
+
+			<p class="bordaQuestoes" id="q7c"><input type="radio" required="required" name="pq7" value="c"> c)
+				II, III e V.</p>
+
+			<p class="bordaQuestoes" id="q7d"><input type="radio" required="required" name="pq7" value="d"> d)
+				II e V. </p>
+
+			<p class="bordaQuestoes" id="q7e"><input type="radio" required="required" name="pq7" value="e"> e)
+				I e III.</p>
+
+
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 08</p>
+
+			<p> (2022) A figura seguinte representa o relevo da América Latina.</p>
+
+			<div class="w3-center"><img src="p15q8.png" alt="p15q8.png" class="w3-mobile"></div>
+
+			<p class="w3-small"> Fonte: adaptada de
+				https://pixabay.com/pt/mapa-do-mundo-mapa-mapa-de-relevo-1804890. Acesso
+				em: 10 abr. 2017.
+
+			</p>
+
+			<p> Associe os números apresentados na figura com as formas de relevo: </p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Planalto das Guianas </p>
+
+			<p>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Planície Amazônica</p>
+
+			<p>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Planalto Brasileiro</p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Cordilheira dos Andes </p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Planície Platina </p>
+
+			<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Sierra Madre </p>
+
+			<p>Assinale a alternativa que apresenta correta correspondência dos números e formas de relevos:</p>
+
+
+			<p class="bordaQuestoes" id="q8a"><input type="radio" required="required" id="pq8" name="pq8" value="a">
+				a) 3, 5, 6, 4, 2, 1.
+
+			</p>
+			<p class="bordaQuestoes" id="q8b"><input type="radio" required="required" name="pq8" value="b">
+				b) 5, 3, 2, 1, 4, 6.
+
+			</p>
+			<p class="bordaQuestoes" id="q8c"><input type="radio" required="required" name="pq8" value="c">
+				c) 4, 2, 6, 1, 5, 3.
+
+			</p>
+			<p class="bordaQuestoes" id="q8d"><input type="radio" required="required" name="pq8" value="d">
+				d) 3, 4, 5, 2, 6, 1.
+
+			</p>
+			<p class="bordaQuestoes" id="q8e"><input type="radio" required="required" name="pq8" value="e">
+				e) 3, 5, 4, 2, 6, 1.
+
+			</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+		</div>
+
+
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 09</p>
+
+			<p>(FUVEST 2023)</p>
+
+
+			<div class="w3-center"><img src="p15q9.png" alt="p15q8.png" class="w3-mobile"></div>
+
+			<p>A partir da figura, pode-se afirmar que as áreas com as condições naturais mais favoráveis à ocupação
+				humana são: </p>
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda9')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda9" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<p>Morros: São elevações de terreno com topo mais ou menos arredondado e encostas íngremes, formadas
+					pela erosão e pela ação de agentes externos como água, vento e gelo. Podem ser constituídos por
+					diferentes tipos de rochas e apresentar diferentes formas e altitudes.<br>
+					Terraços fluviais: São superfícies planas ou levemente inclinadas formadas por depósitos de
+					sedimentos carregados e depositados por rios ao longo do tempo. São encontrados ao longo das margens
+					dos rios e são geralmente mais elevados que a planície fluvial, sendo considerados áreas propícias
+					para agricultura e ocupação humana.<br>
+					Planície fluvial: É uma área de terreno plano ou levemente inclinado formada pelos sedimentos
+					depositados pelos rios durante suas cheias ao longo do tempo. São caracterizadas pela presença de
+					solos férteis e geralmente são utilizadas para a agricultura e outras atividades humanas.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+
+
+
+
+
+
+
+			</div>
+
+			<span onclick="Ajuda('resposta9')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta9" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A.
+					<br>Os topos mais aplainados dos morros ou a área de terraços fluviais, partes mais planas do
+					relevo; no entanto, variações nas cheias dos rios podem atingir as áreas de terraços, e a ocupação
+					dos topos pode comprometer as áreas de nascentes.
+				</p>
+
+			</div>
+
+			<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+
+				<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+					<div class="w3-col s6">
+						<div class="character">
+							<div class="balloon balao1" style="display: block;">
+								<div class="triangle triangleLeft"></div>
+								<span class="pad" id="segundaDupla1">Clique em próximo</span>
+							</div>
+							<img class="left" src=" <?php echo URLSITE; ?>/images/dialogos/npc1.gif" width="auto" height="auto" alt="Foto personagem Jéssica - Jogo Aventura Geográfica">
+						</div>
+					</div>
+
+					<!-- Segundo diálogo -->
+					<div class="w3-col s6">
+						<div class="character">
+							<div class="balloon balao2" style="display: none;">
+								<div class="triangle triangleRight"></div>
+								<span class="pad" id="segundaDupla2"></span>
+							</div>
+							<img class="right" src=" <?php echo URLSITE; ?>/images/dialogos/npc3.gif" width="auto" height="auto" alt="Foto personagem José - Jogo Aventura Geográfica">
+						</div>
+
+
+					</div>
+				</div>
+
+				<button id="botaoReiniciar2"
+					class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom btnIniciar"
+					onclick="reiniciarDialogo('segundaDupla',segundoDialogo)">Iniciar</button>
+
+				<button id="botaoDialogo2" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+					onclick="nextDialogue( 'segundaDupla', segundoDialogo, event)">Próximo</button>
+
+
+
+			</div>
+
+			<p class="bordaQuestoes" id="q9a"><input type="radio" required="required" name="pq9" value="a">
+				a) Os topos mais aplainados dos morros ou a área de terraços fluviais, partes mais planas do relevo; no
+				entanto, variações nas cheias dos rios podem atingir as áreas de terraços, e a ocupação dos topos pode
+				comprometer as áreas de nascentes.
+			</p>
+
+			<p class="bordaQuestoes" id="q9b"><input type="radio" required="required" name="pq9" value="b">
+				b) Entre os morros e a planície, áreas de maior declividade sujeitas a desabamentos; também deve evitar
+				os terraços fluviais por possuírem sedimentos consolidados, propensos à erosão.
+			</p>
+
+			<p class="bordaQuestoes" id="q9c"><input type="radio" required="required" name="pq9" value="c">
+				c) O sopé (base) das encostas dos morros ou a área da planície fluvial, partes planas do relevo sem
+				risco de deslizamentos de terra; além disso, a captação das águas para abastecimento público pode ser
+				aproveitada pela proximidade do canal fluvial.
+			</p>
+
+			<p class="bordaQuestoes" id="q9d"><input type="radio" required="required" id="pq9" name="pq9" value="d">
+				d) As áreas de planície com sedimentos inconsolidados resultantes das rochas cristalinas friáveis (que
+				se quebram facilmente); além disso, o desmatamento e acúmulo de lixo nas inundações podem soterrar o
+				curso fluvial retilíneo.
+			</p>
+
+			<p class="bordaQuestoes" id="q9e"><input type="radio" required="required" name="pq9" value="e">
+				e) Os morros com encostas mais inclinadas, suscetíveis a deslizamentos e assoreamentos; estes acabam por
+				prejudicar a conservação das áreas de nascentes que estão a jusante (rio abaixo) dos setores mais
+				elevados.
+			</p>
+		</div>
+
+
+
+		<div class="comentarios">
+			<p>a) Esta opção é considerada correta porque identifica corretamente os topos mais aplainados dos morros e
+				os terraços fluviais como áreas com condições naturais mais favoráveis à ocupação humana. Os topos mais
+				aplainados dos morros oferecem uma posição elevada, o que pode proporcionar vistas panorâmicas,
+				ventilação adequada e menor suscetibilidade a inundações. Além disso, os terraços fluviais são planícies
+				aluviais formadas ao longo do tempo pelo acúmulo de sedimentos depositados por rios, proporcionando
+				solos férteis para agricultura e acesso à água.</p>
+
+			<p>b) Esta opção está incorreta porque descreve áreas de maior declividade entre morros e planícies como
+				favoráveis à ocupação humana, quando na verdade essas áreas são mais propensas a desabamentos e outros
+				eventos geológicos adversos. Além disso, a afirmação de que se deve evitar os terraços fluviais por
+				possuírem sedimentos consolidados propensos à erosão não está correta. Os terraços fluviais são, na
+				verdade, áreas planas formadas por depósitos de sedimentos carregados pelos rios, e são considerados
+				propícios para ocupação humana e agricultura.</p>
+
+			<p>c) Esta opção está incorreta porque sugere que o sopé das encostas dos morros e a planície fluvial são
+				partes planas do relevo sem risco de deslizamentos de terra. Na realidade, o sopé das encostas dos
+				morros pode ser suscetível a deslizamentos, especialmente em áreas de maior declividade, e as planícies
+				fluviais podem estar sujeitas a inundações e outros riscos naturais. Além disso, a afirmação de que a
+				captação das águas para abastecimento público pode ser aproveitada pela proximidade do canal fluvial não
+				está necessariamente correta, pois a proximidade de um canal fluvial não garante a qualidade da água
+				para abastecimento público.</p>
+
+			<p>d) Esta opção está incorreta porque descreve áreas de planície com sedimentos inconsolidados resultantes
+				de rochas cristalinas friáveis como favoráveis à ocupação humana, quando na verdade essas áreas podem
+				ser instáveis e propensas a deslizamentos de terra e outros eventos geológicos adversos. Além disso, a
+				afirmação de que o desmatamento e acúmulo de lixo nas inundações podem soterrar o curso fluvial
+				retilíneo não está correta, pois o desmatamento e o acúmulo de lixo nas inundações podem causar
+				problemas ambientais, mas não necessariamente soterram cursos fluviais retilíneos.</p>
+
+			<p>e) Esta opção está incorreta porque descreve morros com encostas mais inclinadas como favoráveis à
+				ocupação humana, quando na verdade essas áreas são mais suscetíveis a deslizamentos e assoreamentos,
+				representando riscos para a segurança das populações que ali habitam. Além disso, a afirmação de que
+				esses morros acabam prejudicando a conservação das áreas de nascentes que estão a jusante dos setores
+				mais elevados não está necessariamente correta, pois o impacto dos morros na conservação das áreas de
+				nascentes pode variar dependendo de uma série de fatores geológicos e ambientais.</p>
+
+		</div>
+
+
+		<div class="w3-card">
+
+			<p class="p2">Questão 10</p>
+
+			<p> (UNICAMP 2023) </p>
+
+
+
+			<p>A figura a seguir apresenta um cenário em que se distinguem dois compartimentos de relevo na paisagem.
+			</p>
+
+
+			<div class="w3-center"><img src="p15q10.png" alt="Formas do relevo - Duvid Geografia" class="w3-mobile">
+			</div>
+
+			<p>No que se refere aos compartimentos de relevo na paisagem, é correto afirmar que o compartimento</p>
+
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda10')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda10" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<p><strong>Planalto:</strong> Terreno elevado com superfície relativamente plana e limites mais ou menos
+					abruptos, geralmente formado por processos erosivos.</p>
+				<p><strong>Planície:</strong> Terreno plano ou levemente ondulado, formado principalmente por processos
+					de deposição de sedimentos, como rios ou geleiras. <span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+
+
+
+
+			</div>
+
+			<span onclick="Ajuda('resposta10')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta10" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A.
+					<br>A é uma planície formada por processos exógenos que ocasionam a acumulação de materiais de
+					fontes diversas. As planícies podem sofrer a influência de falhamentos das rochas que servem de
+					substrato ao processo deposicional.
+				</p>
+
+			</div>
+
+			<p class="bordaQuestoes" id="q10a"><input type="radio" required="required" id="pq10" name="pq10" value="a">
+				a) A é uma planície formada por processos exógenos que ocasionam a acumulação de materiais de fontes
+				diversas. As planícies podem sofrer a influência de falhamentos das rochas que servem de substrato ao
+				processo deposicional.
+
+			</p>
+
+			<p class="bordaQuestoes" id="q10b"><input type="radio" required="required" name="pq10" value="b">
+				b) B é um planalto formado por rochas ígneas extrusivas, e apresenta formas de relevo esculpidas pela
+				atuação dos processos exógenos, a exemplo das chapadas, dos morros, das serras e das depressões.
+
+			</p>
+
+			<p class="bordaQuestoes" id="q10c"><input type="radio" required="required" name="pq10" value="c">
+				c) A é uma planície formada por depósitos arenosos e argilosos de origem exclusivamente fluvial. A
+				presença dos meandros abandonados indica que as formas de relevo desse compartimento não evoluem.
+
+			</p>
+
+			<p class="bordaQuestoes" id="q10d"><input type="radio" required="required" name="pq10" value="d">
+				d) B é um planalto formado por rochas ígneas, metamórficas ou sedimentares. Sua principal característica
+				está na atividade ativa dos processos tectônicos responsáveis pelo soerguimento das elevações e
+				manutenção das formas.
+
+			</p>
+
+
+
+
+		</div>
+
+
+
+		<div class="comentarios">
+
+
+			<p><strong>Comentário:</strong></p>
+
+			<p>A alternativa A está correta, pois descreve o compartimento como uma planície formada por processos
+				exógenos de acumulação de materiais. As planícies podem ser afetadas por falhamentos das rochas que
+				servem de base para o processo de deposição.</p>
+
+			<p>A alternativa B está incorreta, pois a figura representa um planalto e não uma planície. Além disso,
+				as chapadas são geralmente formadas por rochas sedimentares estratificadas, não por rochas ígneas
+				extrusivas.</p>
+
+			<p>A alternativa C está incorreta, pois a presença dos meandros abandonados indica uma evolução das
+				formas de relevo, sugerindo que se trata de uma planície fluvial, não de uma planície onde as formas
+				de relevo não evoluem.</p>
+
+			<p>A alternativa D está incorreta, pois um planalto é caracterizado pelo predomínio da erosão, não pela
+				atividade tectônica no soerguimento das elevações e na manutenção das formas.</p>
+		</div>
+
+
+
+
+
+
+
+	</form>
+
+	<!-- Fim do formulário -->
+
+
+	<p id="numeroCorreto"></p>
+
+	<p id="mensagem" style="display:none"></p>
+
+
+	<!-- COLOCAR EM TODAS AS QUESTÕES -->
+	<div class="area">
+		<img src="../img1a.gif" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+	<div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+	<!-- Fim do conteúdo -->
+</div>
+
+
+
+<!-- Área das funções -->
+
+
+<script>
+	const segundoDialogo = [{
+			speaker: "NPC1",
+			text: "Pai, se pudesse escolher, em qual desses lugares você construiria nossa casa: no morro, no terraço ou na planície a beira do rio?"
+		},
+		{
+			speaker: "NPC2",
+			text: "Bem, filha, é uma pergunta interessante. Cada local tem suas vantagens e desvantagens. No morro, teríamos uma vista incrível e um clima mais fresco, mas as encostas íngremes podem ser perigosas em caso de deslizamentos."
+		},
+		{
+			speaker: "NPC1",
+			text: "Entendi. E quanto às áreas próximas do rio?"
+		},
+		{
+			speaker: "NPC2",
+			text: "Já os terraços e as planície fluviais oferecem solo fértil e são propícios para a agricultura, mas devemos ficar atentos às cheias dos rios, que podem inundar essas áreas."
+		},
+		{
+			speaker: "NPC1",
+			text: "Ok. Obrigada por me ajudar a entender melhor essa questão !"
+		},
+		{
+			speaker: "NPC2",
+			text: "De nada minha filha."
+		}
+	];
+</script>
+
+
+
+<script>
+	function checar() {
+
+
+
+		var pq1 = document.quiz.pq1.value;
+		var pq2 = document.quiz.pq2.value;
+		var pq3 = document.quiz.pq3.value;
+		var pq4 = document.quiz.pq4.value;
+		var pq5 = document.quiz.pq5.value;
+		var pq6 = document.quiz.pq6.value;
+		var pq7 = document.quiz.pq7.value;
+		var pq8 = document.quiz.pq8.value;
+		var pq9 = document.quiz.pq9.value;
+		var pq10 = document.quiz.pq10.value;
+
+		var corretas = 0;
+
+
+		var cor = ["#99ff99", "#ee4466"];
+
+		if (pq1 == "d") {
+			corretas++;
+			document.getElementById("q1d").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q1b").style.backgroundColor = cor[1];
+			document.getElementById("q1c").style.backgroundColor = cor[1];
+			document.getElementById("q1a").style.backgroundColor = cor[1];
+			document.getElementById("q1e").style.backgroundColor = cor[1];
+
+			document.getElementById("q1d").style.backgroundColor = cor[0];
+
+		}
+
+		if (pq2 == "c") {
+			corretas++;
+			document.getElementById("q2c").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q2b").style.backgroundColor = cor[1];
+			document.getElementById("q2a").style.backgroundColor = cor[1];
+			document.getElementById("q2d").style.backgroundColor = cor[1];
+
+
+			document.getElementById("q2c").style.backgroundColor = cor[0];
+
+		}
+		if (pq3 == "d") {
+			corretas++;
+			document.getElementById("q3d").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q3b").style.backgroundColor = cor[1];
+			document.getElementById("q3c").style.backgroundColor = cor[1];
+			document.getElementById("q3a").style.backgroundColor = cor[1];
+			document.getElementById("q3e").style.backgroundColor = cor[1];
+
+			document.getElementById("q3d").style.backgroundColor = cor[0];
+
+		}
+		if (pq4 == "d") {
+			corretas++;
+			document.getElementById("q4d").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q4b").style.backgroundColor = cor[1];
+			document.getElementById("q4c").style.backgroundColor = cor[1];
+			document.getElementById("q4a").style.backgroundColor = cor[1];
+			document.getElementById("q4e").style.backgroundColor = cor[1];
+
+			document.getElementById("q4d").style.backgroundColor = cor[0];
+
+		}
+		if (pq5 == "b") {
+			corretas++;
+			document.getElementById("q5b").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q5a").style.backgroundColor = cor[1];
+			document.getElementById("q5c").style.backgroundColor = cor[1];
+			document.getElementById("q5d").style.backgroundColor = cor[1];
+			document.getElementById("q5e").style.backgroundColor = cor[1];
+
+			document.getElementById("q5b").style.backgroundColor = cor[0];
+
+		}
+		if (pq6 == "a") {
+			corretas++;
+			document.getElementById("q6a").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q6b").style.backgroundColor = cor[1];
+			document.getElementById("q6c").style.backgroundColor = cor[1];
+			document.getElementById("q6d").style.backgroundColor = cor[1];
+			document.getElementById("q6e").style.backgroundColor = cor[1];
+
+			document.getElementById("q6a").style.backgroundColor = cor[0];
+
+		}
+		if (pq7 == "b") {
+			corretas++;
+			document.getElementById("q7b").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q7a").style.backgroundColor = cor[1];
+			document.getElementById("q7c").style.backgroundColor = cor[1];
+			document.getElementById("q7d").style.backgroundColor = cor[1];
+			document.getElementById("q7e").style.backgroundColor = cor[1];
+
+			document.getElementById("q7b").style.backgroundColor = cor[0];
+
+		}
+		if (pq8 == "e") {
+			corretas++;
+			document.getElementById("q8e").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q8b").style.backgroundColor = cor[1];
+			document.getElementById("q8c").style.backgroundColor = cor[1];
+			document.getElementById("q8d").style.backgroundColor = cor[1];
+			document.getElementById("q8a").style.backgroundColor = cor[1];
+
+			document.getElementById("q8e").style.backgroundColor = cor[0];
+
+		}
+		if (pq9 == "a") {
+			corretas++;
+			document.getElementById("q9a").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q9b").style.backgroundColor = cor[1];
+			document.getElementById("q9c").style.backgroundColor = cor[1];
+			document.getElementById("q9d").style.backgroundColor = cor[1];
+			document.getElementById("q9e").style.backgroundColor = cor[1];
+
+			document.getElementById("q9a").style.backgroundColor = cor[0];
+
+		}
+		if (pq10 == "a") {
+			corretas++;
+			document.getElementById("q10a").style.backgroundColor = cor[0];
+		} else {
+			document.getElementById("q10b").style.backgroundColor = cor[1];
+			document.getElementById("q10c").style.backgroundColor = cor[1];
+			document.getElementById("q10d").style.backgroundColor = cor[1];
+
+
+			document.getElementById("q10a").style.backgroundColor = cor[0];
+
+		}
+
+
+
+		corLenta();
+		classEscurecer();
+		comentarios();
+
+
+
+
+		var incorrretas = 10 - corretas;
+		var mensagem = ["Parabéns!", "Foi bom!", "Melhor tentar novamente!"];
+
+		var imagem = ["../img1.gif", "../img2.gif", "../img3.gif"];
+
+
+
+
+		var pontos;
+
+		if (corretas < 5) {
+			pontos = 2;
+
+		}
+
+		if (corretas >= 5 && corretas <= 7) {
+			pontos = 1;
+		}
+
+
+		if (corretas >= 7) {
+			pontos = 0;
+
+		}
+
+
+
+		document.getElementById("numeroCorreto").innerHTML = "Você acertou " + corretas + " e errou " + incorrretas + " do total de questões" + ", ou seja, " + (corretas * 100) / 10 + "%.";
+		document.getElementById("mensagem").innerHTML = mensagem[pontos];
+		document.getElementById("imagem").src = imagem[pontos];
+		document.getElementById("numeroCorreto").style.display = 'block';
+		document.getElementById("mensagem").style.display = 'block';
+		document.getElementById("imagem").style.display = 'block';
+
+
+
+
+	}
+</script>
+
+
+
+
+<?php include '../../views/footer.php'; ?>

@@ -1,0 +1,296 @@
+body {
+  font-family: "Lato", sans-serif;
+
+  font-size: 1em;
+
+
+}
+
+
+
+
+
+.mySlides {
+  display: none
+}
+
+
+
+.mySlides img {
+  width: 1200px;
+  /* Define a largura fixa */
+  height: 600px;
+  /* Define a altura fixa */
+  object-fit: cover;
+  /* Garante que a imagem cubra todo o espaço, mantendo a proporção */
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+.CardPlayImg img:hover {
+  border: 2px solid yellow;
+}
+
+
+.dark-mode {
+  background-color: #333333;
+  color: white;
+}
+
+
+
+#iconeFooter {
+  width: 32px;
+  height: 32px;
+}
+
+.aumentar {
+
+  font-size: 0.7em;
+}
+
+
+.aumentar:hover {
+  color: #f5ff9e;
+  font-size: 0.8em;
+}
+
+
+.faIcone {
+  font-size: 1.5em;
+  /* Define o tamanho dos ícones para 24 pixels */
+
+}
+
+.faIcone:hover {
+  font-size: 1.6em;
+  /* Define o tamanho dos ícones para 24 pixels */
+
+}
+
+
+
+.fa-brands-tiktok {
+
+
+  display: inline-block;
+  width: 0.88em;
+  height: 1em;
+  --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath fill='%23000' d='M448 209.91a210.06 210.06 0 0 1-122.77-39.25v178.72A162.55 162.55 0 1 1 185 188.31v89.89a74.62 74.62 0 1 0 52.23 71.18V0h88a121.18 121.18 0 0 0 1.86 22.17A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14Z'/%3E%3C/svg%3E");
+  background-color: currentColor;
+  -webkit-mask-image: var(--svg);
+  mask-image: var(--svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+}
+
+
+.fa-brands-tiktok:hover {
+  font-size: 1.6em;
+  /* Define o tamanho dos ícones para 24 pixels */
+
+}
+
+#iconeFooter {
+  width: 32px;
+  height: 32px;
+}
+
+
+.fotosCapa img {
+  /* Estilos padrão */
+  width: 90%;
+  transition: width 0.5s;
+}
+
+.fotosCapa img:hover {
+  /* Estilos quando o mouse estiver sobre a imagem */
+  width: 92%;
+}
+
+
+
+#tamanhoPagina {
+  max-width: 1200px;
+}
+
+.Avisos {
+
+  max-width: 800px;
+
+  margin: 0 auto;
+  border: 10px solid #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #ccc;
+  background-image: url("/duvid/images/imagensCapa/cortica.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+.postit-tp4 {
+			
+  background: #ffffa5;
+  width: 70%;
+  height: auto;
+  color: #000;
+  padding: 5px;
+  font-family: pixel;
+  margin-bottom: 5px;
+  margin-top: -20px;
+  line-height: 20px;
+  position: relative;
+  font-size: 16px;
+  box-shadow: 2px 4px 6px #444;
+  -moz-box-shadow: 2px 4px 6px #444;
+  -webkit-box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+
+}
+
+
+
+
+.postit-tp9 {
+  background: #f5ff9e;
+  width: 30%;
+  /* Ajuste o tamanho conforme necessário */
+  padding: 5px;
+
+  margin: 20px;
+  /* Reduzi a margem para 40px */
+  text-align: center;
+  position: relative;
+  color: #000;
+  /* Corrigi a propriedade "Color" para "color" */
+
+  /* Aumentei o tamanho da fonte para 20px */
+  box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+}
+
+
+
+.postit-tp9>a {
+  text-decoration: none;
+
+
+}
+
+.postit-tp9:hover {
+
+  box-shadow: 4px 6px 8px #444;
+  transform: rotate(-2deg);
+
+}
+
+
+
+
+
+/* Código das capas 1, 2 e 3 anos */
+.larguraBar {
+  max-width: 700px;
+  margin: 0 auto;
+
+
+
+
+
+}
+
+.larguraBar p {
+  padding: 5px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8px;
+  margin-bottom: 0px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 8px;
+
+}
+
+.column>p {
+  text-align: center;
+  /* color: white; */
+}
+
+.column img {
+  margin-top: 16px;
+  vertical-align: middle;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .postit-tp9 {
+    width: 60%;
+    /* Reduzi o tamanho para 70% em telas de até 1200px */
+   margin: 20px;
+    /* Reduzi a margem para 30px em telas de até 1200px */
+
+    /* Reduzi o tamanho da fonte para 18px em telas de até 1200px */
+   
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column {
+      flex: 33.3%;
+      max-width: 33.3%;
+    }
+  }
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 500px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+
+  }
+
+  .Avisos {
+
+    max-width: 90%;
+
+    margin: 0 auto;
+    border: 10px solid #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #ccc;
+    background-image: url("/duvid/images/imagensCapa/cortica.jpg");
+    background-size: cover;
+    background-position: top;
+  }
+
+  .mySlides img {
+    width: 1200px;
+    /* Define a largura fixa */
+    height: 400px;
+    /* Define a altura fixa */
+    object-fit: cover;
+    /* Garante que a imagem cubra todo o espaço, mantendo a proporção */
+  }
+}

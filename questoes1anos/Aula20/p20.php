@@ -1,0 +1,697 @@
+<?php include '../../views/header.php'; ?>
+
+
+<div class="larguraBar">
+
+
+
+<h1 class="h1"> Questões aula 20 – Fundamentos de climatologia II. Fatores do clima </h1>
+
+
+<p><strong>Conteúdo:</strong> Latitude; Altitude; Maritimidade; Continentalidade; Correntes Marítimas; Monções;
+	Ventos
+	Alísios; Massas de ar. </p>
+
+
+<p><strong>Objetivo:</strong> Identificar e compreender o papel dos fatores climáticos na definição dos tipos de
+	clima no
+	mundo. </p>
+
+
+
+
+
+
+<form id="quiz" name="quiz" onsubmit="verificar()">
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 01</p>
+
+		<p>(UNESP 2022) Observe as imagens e o mapa. </p>
+		<div class="w3-center"><img src="p20q1.png" alt="p20q1" class="w3-mobile"></div>
+		
+
+
+
+		<p> O fenômeno esquematizado nas imagens, cuja área de ocorrência está delimitada no mapa, corresponde </p>
+
+		
+
+		<p class="bordaQuestoes" id="q1a"><input type="radio" required="required" id="pq1" name="pq1" value="a">
+
+			a) à condensação atmosférica, responsável pelo resfriamento do ar úmido em superfície, o que resulta na ocorrência de orvalho e de nevoeiro. 
+
+		</p>
+		<p class="bordaQuestoes" id="q1b"><input type="radio" required="required" name="pq1" value="b">
+
+			b) às monções de inverno e de verão, caracterizadas por sistemas de circulação atmosférica que determinam períodos de seca e chuva. 
+
+		</p>
+		<p class="bordaQuestoes" id="q1c"><input type="radio" required="required" name="pq1" value="c">
+
+			c) à frente estacionária, classificada como uma frente fria sem movimentação por um longo período, o que resulta em chuvas torrenciais. 
+
+		</p>
+		<p class="bordaQuestoes" id="q1d"><input type="radio" required="required" name="pq1" value="d">
+
+			d) à inversão térmica, provocada pela resistência aos movimentos de ar verticais que formam as precipitações convectivas. 
+
+		</p>
+		<p class="bordaQuestoes" id="q1e"><input type="radio" required="required" name="pq1" value="e">
+
+			e) às ressacas, constituídas por episódios de ventos fortes em direção ao litoral que geram ciclones extratropicais.
+
+		</p>
+
+	</div>
+
+
+
+	<div class="comentarios">
+
+		<p> <strong>Comentário:</strong></p>
+
+		<p> Os ventos monçônicos se destacam principalmente na região que abrange o Oceano Índico e causam seus efeitos no sul e sudeste asiático. Durante o verão do Hemisfério Norte, os ventos sopram quentes e úmidos do Índico para o sul da Ásia (Índia, principalmente) causando chuvas pela condensação da umidade por efeito orográfico nas cordilheiras da região. Durante o inverno, os ventos partem frios e secos do interior do continente asiático para o Índico, trazendo secas. Desse mecanismo dependem muitas atividades agrícolas do sul da Ásia. </p>
+	</div>
+
+
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 02</p>
+
+		<p> (CFTMG) Associe os tipos de chuva às suas respectivas características. </p>
+
+		<div class="w3-center"><img src="p20q2.png" alt="p20q2" class="w3-mobile"></div>
+
+
+		<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Resulta do deslocamento horizontal do ar que, em contato com as regiões elevadas, sofre condensação e
+			consequente precipitação. </p>
+
+		<p> (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) forma-se a partir do encontro de uma massa de ar frio com uma de ar quente. </p>
+
+		<p>(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;) Decorre da ascensão vertical do ar que, ao entrar em contato com as camadas de ar frio, sofre
+			condensação
+			e se precipita. </p>
+
+		<p> A sequência correta é</p>
+
+		<p class="bordaQuestoes" id="q2a"><input type="radio" required="required" name="pq2" value="a"> a)
+			1, 2, 3.</p>
+
+		<p class="bordaQuestoes" id="q2b"><input type="radio" required="required" name="pq2" value="b"> b)
+			1, 3, 2.</p>
+
+		<p class="bordaQuestoes" id="q2c"><input type="radio" required="required" id="pq2" name="pq2" value="c"> c)
+			2, 1, 3.</p>
+
+		<p class="bordaQuestoes" id="q2d"><input type="radio" required="required" name="pq2" value="d"> d)
+			3, 2, 1.</p>
+
+
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 03</p>
+
+		<p> (URCA 2014) Marque a única assertiva que traz somente fatores climáticos, isto é, aqueles que contribuem
+			para determinar as condições climáticas de uma região do globo. </p>
+
+		<p class="bordaQuestoes" id="q3a"><input type="radio" required="required" name="pq3" value="a"> a)
+			Correntes marítimas, temperatura do ar, umidade relativa do ar e amplitude térmica.</p>
+
+		<p class="bordaQuestoes" id="q3b"><input type="radio" required="required" name="pq3" value="b"> b)
+			Latitude, pressão altitude, hidrografia e massas de ar.</p>
+
+		<p class="bordaQuestoes" id="q3c"><input type="radio" required="required" id="pq3" name="pq3" value="c"> c)
+			Altitude, massas de ar, maritimidade e latitude. </p>
+
+
+		<p class="bordaQuestoes" id="q3d"><input type="radio" required="required" name="pq3" value="d"> d)
+			Hidrografia, correntes marítimas, latitude e pressão.</p>
+
+		<p class="bordaQuestoes" id="q3e"><input type="radio" required="required" name="pq3" value="e"> d)
+			Hidrografia, correntes marítimas, latitude e pressão.</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 04</p>
+
+		<p> (UCPEL 2013) Um dos elementos climáticos mais importantes para a humanidade é a temperatura atmosférica,
+			ou seja, o estado térmico do ar atmosférico, de frio ou de calor. A temperatura pode variar de um lugar
+			para outro, assim como em um mesmo lugar, no decorrer do tempo. </p>
+
+		<p>Sobre os fatores responsáveis pela variação da temperatura é correto afirmar que:</p>
+
+		<p class="bordaQuestoes" id="q4a"><input type="radio" required="required" id="pq4" name="pq4" value="a"> a)
+			a influência da latitude ocorre fundamentalmente devido à forma esférica da Terra. A insolação diminui a
+			partir do Equador em direção aos polos, assim a temperatura diminui com o aumento da latitude.</p>
+
+		<p class="bordaQuestoes" id="q4b"><input type="radio" required="required" name="pq4" value="b"> b)
+			altitude exerce grande influência, pois o calor é irradiado da superfície terrestre para cima e a
+			atmosfera aquece por irradiação. Quanto menor a altitude, mais rarefeito se torna o ar, ocorrendo menor
+			irradiação e aumento da temperatura.</p>
+
+		<p class="bordaQuestoes" id="q4c"><input type="radio" required="required" name="pq4" value="c"> c) a
+			temperatura é aumentada pela presença de serras, chapadas e planaltos nas regiões tropicais, via de
+			regra muito quentes, assim como, nas regiões temperadas, as altitudes acentuam ainda mais o rigor da
+			temperatura. </p>
+
+		<p class="bordaQuestoes" id="q4d"><input type="radio" required="required" name="pq4" value="d"> d)
+			a diferença do comportamento térmico das rochas e da água explica o aquecimento e resfriamento mais
+			lento dos continentes, fazendo com que as variações de temperatura nos oceanos sejam maiores.</p>
+
+		<p class="bordaQuestoes" id="q4e"><input type="radio" required="required" name="pq4" value="e"> e)
+			as correntes marítimas não apresentam capacidade de provocar alterações de temperatura nas áreas
+			litorâneas por onde circulam, apesar de possuírem temperaturas diferentes, podendo ser quentes, quando
+			se formam nas áreas equatoriais, ou frias, quando formadas nas áreas polares.</p>
+
+	</div>
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 05</p>
+
+		<p> (2022) São movimentos horizontais de grandes massas de água provocados pela rotação da Terra e pela ação dos
+			ventos constantes. Elas interagem com a dinâmica das massas de ar, influenciando o clima e definindo
+			áreas secas e chuvosas.</p>
+
+		<p> Assinale a alternativa correta relacionada à descrição acima:</p>
+
+		<p class="bordaQuestoes" id="q5a"><input type="radio" required="required" name="pq5" value="a"> a)
+			Fatores Climáticos</p>
+
+		<p class="bordaQuestoes" id="q5b"><input type="radio" required="required" name="pq5" value="b"> b)
+			Ventos alísios.</p>
+
+		<p class="bordaQuestoes" id="q5c"><input type="radio" required="required" name="pq5" value="c"> c)
+			Chuvas orográficas.</p>
+
+		<p class="bordaQuestoes" id="q5d"><input type="radio" required="required" id="pq5" name="pq5" value="d"> d)
+			Correntes marítimas.</p>
+
+		<p class="bordaQuestoes" id="q5e"><input type="radio" required="required" name="pq5" value="e"> e)
+			Maritimidade.</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 06</p>
+
+		<p> (UERN 2013) As figuras a seguir representam tipos climáticos predominantes no Sul e no Sudeste asiático.
+			As imagens retratam monções de:</p>
+
+		<div class="w3-center"><img src="p20q6.png" alt="p20q6" class="w3-mobile"></div>
+
+		<p class="bordaQuestoes" id="q6a"><input type="radio" required="required" name="pq6" value="a"> a)
+			verão (chuvosa) e de inverno (seca).</p>
+
+		<p class="bordaQuestoes" id="q6b"><input type="radio" required="required" name="pq6" value="b"> b)
+			verão (seca) e de inverno (chuvosa).</p>
+
+		<p class="bordaQuestoes" id="q6c"><input type="radio" required="required" name="pq6" value="c"> c)
+			inverno (chuvosa) e de verão (seca).</p>
+
+		<p class="bordaQuestoes" id="q6d"><input type="radio" required="required" id="pq6" name="pq6" value="d"> d)
+			inverno (seca) e de verão (chuvosa).</p>
+
+
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 07</p>
+
+		<p> (2022) Elevação vertical de um ponto qualquer da superfície terrestre em relação ao nível dos oceanos. À medida
+			que a altitude aumenta, a pressão e a densidade do ar diminuem, e as temperaturas ficam mais baixas.</p>
+
+		<p> Assinale a alternativa correta relacionada à descrição acima:<br>
+
+		<p class="bordaQuestoes" id="q7a"><input type="radio" required="required" id="pq7" name="pq7" value="a"> a)
+			Altitude.</p>
+
+		<p class="bordaQuestoes" id="q7b"><input type="radio" required="required" name="pq7" value="b"> b)
+			Massas de ar.</p>
+
+		<p class="bordaQuestoes" id="q7c"><input type="radio" required="required" name="pq7" value="c"> c)
+			Latitude.</p>
+
+		<p class="bordaQuestoes" id="q7d"><input type="radio" required="required" name="pq7" value="d"> d)
+			Maritimidade.</p>
+
+		<p class="bordaQuestoes" id="q7e"><input type="radio" required="required" name="pq7" value="e"> e)
+			Fatores climáticos.</p>
+	</div>
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 08</p>
+
+		<p> (2022) Constituem partes da atmosfera com considerável extensão horizontal e com características homogêneas de
+			temperatura, pressão e umidade. </p>
+
+		<div class="w3-center"><img src="p20q8.png" alt="p20q8" class="w3-mobile"></div>
+
+		<p> Assinale a alternativa correta relacionada à descrição acima. </p>
+
+		<p class="bordaQuestoes" id="q8a"><input type="radio" required="required" name="pq8" value="a">
+			a) Maritimidade. </p>
+
+		<p class="bordaQuestoes" id="q8b"><input type="radio" required="required" name="pq8" value="b"> b)
+			Chuvas frontais.</p>
+
+		<p class="bordaQuestoes" id="q8c"><input type="radio" required="required" name="pq8" value="c"> c)
+			Ventos alísios.</p>
+
+		<p class="bordaQuestoes" id="q8d"><input type="radio" required="required" id="pq8" name="pq8" value="d"> d)
+			Massas de ar.</p>
+
+		<p class="bordaQuestoes" id="q8e"><input type="radio" required="required" name="pq8" value="e"> e)
+			Continentalidade.</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 09</p>
+
+		<p> (MACKENZIE 2020)</p>
+
+		<h3 class="w3-center">CORRENTES MARÍTIMAS</h3>
+
+		<div class="w3-center"><img src="p20q9.png" alt="p20q9" class="w3-mobile"></div>
+
+
+		<p> As correntes marítimas se movimentam por todos os oceanos do mundo, transportando calor e, por isso,
+			apresentam influência direta no clima. As correntes frias, por exemplo, podem contribuir para a formação
+			de desertos.</p>
+
+		<p>Com base no mapa e no excerto de texto, escolha a alternativa que relacione, corretamente, as correntes
+			marítimas a seus respectivos desertos. </p>
+
+		<p class="bordaQuestoes" id="q9a"><input type="radio" required="required" id="pq9" name="pq9" value="a">
+
+			a) Corrente de Humboldt – deserto do Atacama.
+			Corrente de Benguela – deserto do Kalahari.
+
+
+		</p>
+		<p class="bordaQuestoes" id="q9b"><input type="radio" required="required" name="pq9" value="b">
+
+			b) Corrente de Benguela – deserto do Kalahari.
+			Corrente das Canárias – deserto da Namíbia.
+
+
+		</p>
+		<p class="bordaQuestoes" id="q9c"><input type="radio" required="required" name="pq9" value="c">
+
+			c) Corrente de Humboldt – deserto da Namíbia.
+			Corrente de Benguela – deserto de Vitória.
+
+
+		</p>
+		<p class="bordaQuestoes" id="q9d"><input type="radio" required="required" name="pq9" value="d">
+
+			d) Corrente do Japão – deserto de Gobi.
+			Corrente Australiana Ocidental – deserto de Vitória.
+
+
+		</p>
+		<p class="bordaQuestoes" id="q9e"><input type="radio" required="required" name="pq9" value="e">
+
+			e) Corrente da Califórnia – deserto do Colorado.
+			Corrente do Japão – deserto de Yuadomi.
+
+
+		</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 10</p>
+
+		<p>(MUNDO EDUCAÇÃO 2022)</p>
+
+		
+
+		<div class="w3-panel w3-leftbar w3-sand w3-margin">
+
+			<h4 class="w3-center w3-padding-top w3-margin"> <strong>Desmatamento da Amazônia interfere no ciclo das chuvas</strong> </h4>
+			<p>“Estudo mostra que o impacto da destruição da floresta pode alterar o clima do Brasil e de países
+				vizinhos. Nos últimos 30 anos, o Brasil já teve 600 mil quilômetros quadrados de terras desmatadas.”</p>
+
+				<p class="w3-small w3-right-align"> (Adaptado de: ANBA, 20/03/2009. Disponível em: http://www.anba.com.br/).
+				</p>
+		</div>
+
+			
+
+
+	
+
+
+		<p> O impacto do desmatamento da Amazônia sobre o regime de chuvas se dá pela seguinte questão: </p>
+
+
+		<p class="bordaQuestoes" id="q10a"><input type="radio" required="required" name="pq10" value="a">
+			a) aumento médio das temperaturas.</p>
+
+		<p class="bordaQuestoes" id="q10b"><input type="radio" required="required" name="pq10" value="b"> b)
+			contenção das reservas hídricas subterrâneas.</p>
+
+		<p class="bordaQuestoes" id="q10c"><input type="radio" required="required" id="pq10" name="pq10" value="c">
+			c) diminuição da emissão de umidade para a atmosfera.</p>
+
+		<p class="bordaQuestoes" id="q10d"><input type="radio" required="required" name="pq10" value="d">
+			d) intensificação da convergência das massas de ar.</p>
+
+		<p class="bordaQuestoes" id="q10e"><input type="radio" required="required" name="pq10" value="e">
+			e) aumento das anomalias climáticas cíclicas. </p>
+
+
+	</div>
+
+
+
+	<div class="comentarios">
+
+		<p> <strong>Comentário:</strong></p>
+
+		<p> A diminuição do regime de chuvas em função do desmatamento ocorre porque a Floresta Amazônica tem a
+			função de bombear uma maior umidade para a atmosfera. Com menos floresta, menos umidade é emitida para o
+			ar e menor é a intensidade das massas de ar úmido, responsáveis por boa parte das chuvas no país.
+			Alternativa correta: letra C. </p>
+
+	</div>
+
+
+
+</form>
+
+
+	<!-- Fim do formulário -->
+
+
+	<p id="numeroCorreto"></p>
+
+	<p id="mensagem" style="display:none"></p>
+
+
+	<!-- COLOCAR EM TODAS AS QUESTÕES -->
+	<div class="area">
+		<img src="../img1a.gif" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+	<div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+	<!-- Fim do conteúdo -->
+</div>
+
+
+
+<!-- Área das funções -->
+
+
+
+
+<script>
+
+
+function checar() {
+
+
+
+	var pq1 = document.quiz.pq1.value;
+	var pq2 = document.quiz.pq2.value;
+	var pq3 = document.quiz.pq3.value;
+	var pq4 = document.quiz.pq4.value;
+	var pq5 = document.quiz.pq5.value;
+	var pq6 = document.quiz.pq6.value;
+	var pq7 = document.quiz.pq7.value;
+	var pq8 = document.quiz.pq8.value;
+	var pq9 = document.quiz.pq9.value;
+	var pq10 = document.quiz.pq10.value;
+
+	var corretas = 0;
+
+
+	var cor = ["#99ff99", "#ee4466"];
+
+	if (pq1 == "b") {
+		corretas++;
+		document.getElementById("q1b").style.backgroundColor = cor[0];
+	} else {
+
+		document.getElementById("q1a").style.backgroundColor = cor[1];
+		document.getElementById("q1c").style.backgroundColor = cor[1];
+		document.getElementById("q1d").style.backgroundColor = cor[1];
+		document.getElementById("q1e").style.backgroundColor = cor[1];
+
+		document.getElementById("q1b").style.backgroundColor = cor[0];
+
+	}
+
+	if (pq2 == "c") {
+		corretas++;
+		document.getElementById("q2c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q2b").style.backgroundColor = cor[1];
+		document.getElementById("q2a").style.backgroundColor = cor[1];
+		document.getElementById("q2d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q2c").style.backgroundColor = cor[0];
+
+	}
+	if (pq3 == "c") {
+		corretas++;
+		document.getElementById("q3c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q3b").style.backgroundColor = cor[1];
+		document.getElementById("q3a").style.backgroundColor = cor[1];
+		document.getElementById("q3d").style.backgroundColor = cor[1];
+		document.getElementById("q3e").style.backgroundColor = cor[1];
+
+		document.getElementById("q3c").style.backgroundColor = cor[0];
+
+	}
+	if (pq4 == "a") {
+		corretas++;
+		document.getElementById("q4a").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q4b").style.backgroundColor = cor[1];
+		document.getElementById("q4c").style.backgroundColor = cor[1];
+		document.getElementById("q4d").style.backgroundColor = cor[1];
+		document.getElementById("q4e").style.backgroundColor = cor[1];
+
+		document.getElementById("q4a").style.backgroundColor = cor[0];
+
+	}
+	if (pq5 == "d") {
+		corretas++;
+		document.getElementById("q5d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q5b").style.backgroundColor = cor[1];
+		document.getElementById("q5c").style.backgroundColor = cor[1];
+		document.getElementById("q5a").style.backgroundColor = cor[1];
+		document.getElementById("q5e").style.backgroundColor = cor[1];
+
+		document.getElementById("q5d").style.backgroundColor = cor[0];
+
+	}
+	if (pq6 == "d") {
+		corretas++;
+		document.getElementById("q6d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q6b").style.backgroundColor = cor[1];
+		document.getElementById("q6c").style.backgroundColor = cor[1];
+		document.getElementById("q6a").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q6d").style.backgroundColor = cor[0];
+
+	}
+	if (pq7 == "a") {
+		corretas++;
+		document.getElementById("q7a").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q7b").style.backgroundColor = cor[1];
+		document.getElementById("q7c").style.backgroundColor = cor[1];
+		document.getElementById("q7d").style.backgroundColor = cor[1];
+		document.getElementById("q7e").style.backgroundColor = cor[1];
+
+		document.getElementById("q7a").style.backgroundColor = cor[0];
+
+	}
+	if (pq8 == "d") {
+		corretas++;
+		document.getElementById("q8d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q8b").style.backgroundColor = cor[1];
+		document.getElementById("q8c").style.backgroundColor = cor[1];
+		document.getElementById("q8a").style.backgroundColor = cor[1];
+		document.getElementById("q8e").style.backgroundColor = cor[1];
+
+		document.getElementById("q8d").style.backgroundColor = cor[0];
+
+	}
+	if (pq9 == "a") {
+		corretas++;
+		document.getElementById("q9a").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q9b").style.backgroundColor = cor[1];
+		document.getElementById("q9c").style.backgroundColor = cor[1];
+		document.getElementById("q9d").style.backgroundColor = cor[1];
+		document.getElementById("q9e").style.backgroundColor = cor[1];
+
+		document.getElementById("q9a").style.backgroundColor = cor[0];
+
+	}
+	if (pq10 == "c") {
+		corretas++;
+		document.getElementById("q10c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q10b").style.backgroundColor = cor[1];
+		document.getElementById("q10a").style.backgroundColor = cor[1];
+		document.getElementById("q10d").style.backgroundColor = cor[1];
+		document.getElementById("q10e").style.backgroundColor = cor[1];
+
+		document.getElementById("q10c").style.backgroundColor = cor[0];
+
+	}
+
+
+
+	corLenta();
+	classEscurecer();
+	comentarios();
+
+
+
+
+	var incorrretas = 10 - corretas;
+	var mensagem = ["Parabéns!", "Foi bom!", "Melhor tentar novamente!"];
+	var imagem = ["../img1.gif", "../img2.gif", "../img3.gif"];
+	var pontos;
+
+	if (corretas < 5) {
+		pontos = 2;
+
+	}
+
+	if (corretas >= 5 && corretas <= 7) {
+		pontos = 1;
+	}
+
+
+	if (corretas >= 7) {
+		pontos = 0;
+
+	}
+
+
+
+	document.getElementById("numeroCorreto").innerHTML = "Você acertou " + corretas + " e errou " + incorrretas + " do total de questões" + ", ou seja, " + (corretas * 100) / 10 + "%.";
+	document.getElementById("mensagem").innerHTML = mensagem[pontos];
+	document.getElementById("imagem").src = imagem[pontos];
+	document.getElementById("numeroCorreto").style.display = 'block';
+	document.getElementById("mensagem").style.display = 'block';
+	document.getElementById("imagem").style.display = 'block';
+
+
+
+
+
+}
+</script>
+
+
+<?php include '../../views/footer.php'; ?>

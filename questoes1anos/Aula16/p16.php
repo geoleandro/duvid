@@ -1,0 +1,717 @@
+<?php include '../../views/header.php'; ?>
+
+
+<div class="larguraBar">
+
+
+<h1 class="h1">Questões aula 16 – Solos: formação, uso e conservação </h1>
+
+
+<p><strong>Conteúdo:</strong> Solos; Pedogênese; Horizontes do solo; laterização; lixiviação; salinização e
+	desertificação.</p>
+
+
+<p><strong>Objetivo:</strong> Entender como se formam os solos, seus tipos mais comuns e identificar as formas de
+	uso que degradam ou conservam os solos. </p>
+
+
+
+
+
+
+
+<form id="quiz" name="quiz" onsubmit="verificar()">
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 01</p>
+
+		<p>(ENEM 2011) </p>
+			
+			<div class="w3-panel w3-leftbar w3-sand w3-margin">
+				<p>“Um dos principais objetivos de se dar continuidade às pesquisas em erosão dos solos é o de
+					procurar resolver os problemas oriundos desse processo, que, em última análise, geram uma série de
+					impactos ambientais.</p>
+
+				
+		<p>Além disso, para a adoção de técnicas de conservação dos solos, é preciso conhecer como a água executa
+			seu trabalho de remoção, transporte e deposição de sedimentos. A erosão causa, quase sempre, uma série
+			de problemas ambientais, em nível local ou até mesmo em grandes áreas”. </p>
+
+
+
+		<p class="w3-small">Adaptado de: GUERRA, A. J. T. Processos erosivos nas encostas. In: GUERRA, A. J. T.;
+			CUNHA, S. B. Geomorfologia: uma atualização de bases e conceitos. Rio de Janeiro: Bertrand Brasil, 2007.
+		</p>
+
+			</div>
+			
+			
+		 
+
+		<p> A preservação do solo, principalmente em áreas de encostas, pode ser uma solução para evitar catástrofes
+			em função da intensidade de fluxo hídrico. A prática humana que segue no caminho contrário a essa
+			solução é: </p>
+
+
+
+
+		<p class="bordaQuestoes" id="q1a"><input type="radio" required="required" name="pq1" value="a">
+			a) a aração.
+
+		</p>
+		<p class="bordaQuestoes" id="q1b"><input type="radio" required="required" name="pq1" value="b">
+			b) o terraceamento.
+
+		</p>
+		<p class="bordaQuestoes" id="q1c"><input type="radio" required="required" name="pq1" value="c">
+			c) o pousio.
+
+		</p>
+		<p class="bordaQuestoes" id="q1d"><input type="radio" required="required" name="pq1" value="d">
+			d) a drenagem.
+
+		</p>
+		<p class="bordaQuestoes" id="q1e"><input type="radio" required="required" id="pq1" name="pq1" value="e">
+			e) o desmatamento.
+
+		</p>
+
+	</div>
+
+
+
+	<div class="comentarios">
+
+		<p> <strong>Comentário:</strong></p>
+
+		<p> A alternativa correta é a E. Com o desmatamento os solos ficam expostos à ação dos agentes erosivos e há
+			grande aumento na velocidade de escoamento das águas pluviais, o que aumenta sua capacidade de
+			transportar sedimentos em suspensão. </p>
+	</div>
+
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 02</p>
+
+		<p>(UNICAMP 2013) Solo é a camada superior da superfície terrestre, onde se fixam as plantas, que dependem
+			de seu suporte físico, água e nutrientes. Um perfil de solo é representado na figura abaixo. Sobre o
+			perfil apresentado é correto afirmar que:</p>
+
+		<div class="w3-center"><img src="p16q2.png" alt="p10q1" class="w3-mobile"></div>
+
+		<p class="bordaQuestoes" id="q2a"><input type="radio" required="required" name="pq2" value="a"> a) O
+			horizonte (ou camada) O correspondente ao acúmulo de material orgânico que é gradualmente decomposto e
+			incorporado aos horizontes inferiores, acumulando-se nos horizontes B e C.</p>
+
+		<p class="bordaQuestoes" id="q2b"><input type="radio" required="required" name="pq2" value="b"> b) O
+			horizonte A apresenta muitos minerais não alterados da rocha que deu origem ao solo, sendo normalmente o
+			horizonte menos fértil do perfil.</p>
+
+		<p class="bordaQuestoes" id="q2c"><input type="radio" required="required" id="pq2" name="pq2" value="c"> c)
+			O horizonte C corresponde à transição entre solo e rocha, apresentando, normalmente, em seu interior,
+			fragmentos da rocha não alterada.</p>
+
+		<p class="bordaQuestoes" id="q2d"><input type="radio" required="required" name="pq2" value="d"> d) O
+			horizonte B apresenta baixo desenvolvimento do solo, sendo um dos primeiros horizontes a se formar e o
+			horizonte com a menor fertilidade em relação aos outros horizontes.</p>
+
+	</div>
+
+
+	<div class="comentarios">
+
+		<!-- <p> <strong>Comentário:</strong></p>
+
+	<p>  </p> -->
+	</div>
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 03</p>
+
+		<p>(UECE 2011) Aos processos de desagregação física ou decomposição química das rochas e ao desgaste e
+			remoção dos solos e das formações superficiais da terra, dá-se as denominações respectivas de: </p>
+
+		<p class="bordaQuestoes" id="q3a"><input type="radio" required="required" id="pq3" name="pq3" value="a"> a)
+			intemperismo e erosão.</p>
+
+		<p class="bordaQuestoes" id="q3b"><input type="radio" required="required" name="pq3" value="b"> b) erosão e
+			regolito. </p>
+
+		<p class="bordaQuestoes" id="q3c"><input type="radio" required="required" name="pq3" value="c"> c)
+			pedogênese e intemperismo. </p>
+
+		<p class="bordaQuestoes" id="q3d"><input type="radio" required="required" name="pq3" value="d"> d)
+			tectonismo e erosão.</p>
+
+	</div>
+
+	<div class="comentarios">
+
+		<!-- <p> <strong>Comentário:</strong></p>
+
+	<p>  </p> -->
+	</div>
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 04</p>
+
+		<p> (UFSM 2016) Em relação ao solo, considere as afirmativas a seguir. </p>
+
+		<p> I - É um sistema composto de materiais minerais e orgânicos formado pela intemperização das rochas que
+			fornecem os compostos minerais e, posteriormente, pela incorporação dos elementos orgânicos. </p>
+
+		<p> II - Forma-se em um intervalo de tempo, a partir da ação conjugada dos fatores de formação, como o
+			clima, o relevo, a ação dos organismos vivos e a vegetação, sobre a rocha matriz que constitui o
+			material de origem. </p>
+
+		<p> III - Constitui um recurso natural que é lentamente renovável, pois necessita de um tempo bastante longo
+			para se formar; seu equilíbrio é muito delicado, apresentando limitações e demandando cuidados para seu
+			uso.</p>
+
+		<p> Está(ão) correta(s) </p>
+
+
+
+
+		<p class="bordaQuestoes" id="q4a"><input type="radio" required="required" name="pq4" value="a">
+			a) apenas I.
+
+		</p>
+		<p class="bordaQuestoes" id="q4b"><input type="radio" required="required" name="pq4" value="b">
+			b) apenas III.
+
+		</p>
+		<p class="bordaQuestoes" id="q4c"><input type="radio" required="required" name="pq4" value="c">
+			c) apenas I e II.
+
+		</p>
+		<p class="bordaQuestoes" id="q4d"><input type="radio" required="required" name="pq4" value="d">
+			d) apenas II e III.
+
+		</p>
+		<p class="bordaQuestoes" id="q4e"><input type="radio" required="required" id="pq4" name="pq4" value="e">
+			e) I, II e III.
+
+		</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p>
+
+	<p> Colocar os comentários aqui. </p> -->
+	</div>
+
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 05</p>
+
+		<p> (CESGRANRIO 2010) A formação dos solos se dá por fatores como a ação do Sol, das chuvas e dos ventos,
+			que constituem o fenômeno conhecido como intemperismo. Dessa forma, as rochas vão se fragmentando e
+			alterando suas propriedades físicas e químicas. As partículas mais sujeitas aos efeitos do intemperismo
+			são aquelas que compõem as camadas: </p>
+
+
+
+
+
+		<p class="bordaQuestoes" id="q5a"><input type="radio" required="required" name="pq5" value="a"> a) de magma.
+		</p>
+
+
+		<p class="bordaQuestoes" id="q5b"><input type="radio" required="required" name="pq5" value="b"> b)
+			profundas.</p>
+
+		<p class="bordaQuestoes" id="q5c"><input type="radio" required="required" id="pq5" name="pq5" value="c"> c)
+			superficiais. </p>
+
+		<p class="bordaQuestoes" id="q5d"><input type="radio" required="required" name="pq5" value="d"> d)
+			intermediárias.
+
+		<p class="bordaQuestoes" id="q5e"><input type="radio" required="required" name="pq5" value="e"> e) da rocha
+			matriz. </p>
+
+
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p> 
+		
+		<p>   Colocar os comentários aqui.   </p> -->
+	</div>
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 06</p>
+
+		<p> (ENEM 2010) O esquema representa um processo de erosão em encosta. Que prática realizada por um agricultor pode
+			resultar em aceleração desse processo? </p>
+
+		<div class="w3-center"><img src="p16q6.png" alt="p16q6" class="w3-mobile"></div>
+
+		<p class="bordaQuestoes" id="q6a"><input type="radio" required="required" name="pq6" value="a"> a) Plantio
+			direto. </p>
+
+		<p class="bordaQuestoes" id="q6b"><input type="radio" required="required" name="pq6" value="b"> b)
+			Associação de culturas. </p>
+
+		<p class="bordaQuestoes" id="q6c"><input type="radio" required="required" name="pq6" value="c"> c)
+			Implantação de curvas de nível. </p>
+
+		<p class="bordaQuestoes" id="q6d"><input type="radio" required="required" id="pq6" name="pq6" value="d"> d)
+			Aração do solo, do topo ao vale</p>
+
+		<p class="bordaQuestoes" id="q6e"><input type="radio" required="required" name="pq6" value="e"> e)
+			Terraceamento na propriedade.</p>
+
+	</div>
+
+
+
+	<div class="comentarios">
+		<p> <strong>Comentário:</strong></p>
+
+		<p> A aração do topo da encosta ao vale, pode originar pequenas fraturas no solo, que com uma chuva intensa
+			e forte, levará grandes partes dos sedimentos arados para as partes mais baixas do relevo. A partir
+			dessas fraturas, voçorocas e ravinas (grandes buracos realizados pela erosão pluvial) são originados, já
+			que parte da vegetação que deveria absorver e infiltrar as águas pluviais foi retirada para o plantio.
+		</p>
+	</div>
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 07</p>
+
+		<p> (UEM 2006) A degradação dos solos transforma muitas regiões em desertos. Assinale a alternativa
+			incorreta sobre os fatores diretamente causadores de degradação do solo. </p>
+
+
+
+		<p class="bordaQuestoes" id="q7a"><input type="radio" required="required" id="pq7" name="pq7" value="a"> a)
+			O controle biológico de pragas e a adubação orgânica. </p>
+
+		<p class="bordaQuestoes" id="q7b"><input type="radio" required="required" name="pq7" value="b"> b) O
+			desmatamento e a consequente erosão dos horizontes do solo.</p>
+
+		<p class="bordaQuestoes" id="q7c"><input type="radio" required="required" name="pq7" value="c"> c) As
+			queimadas, que destroem a matéria orgânica. </p>
+
+		<p class="bordaQuestoes" id="q7d"><input type="radio" required="required" name="pq7" value="d"> d) A
+			lixiviação de nutrientes provocada pela ação das chuvas sobre os solos desprotegidos.</p>
+
+		<p class="bordaQuestoes" id="q7e"><input type="radio" required="required" name="pq7" value="e"> e) A
+			compactação do terreno provocada pela atividade pecuária </p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<!-- <p> <strong>Comentário:</strong></p> 
+		
+		<p>   Colocar os comentários aqui.   </p> -->
+	</div>
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 08</p>
+
+		<p> (UFMG 2006) Analise esta sequência de figuras, em que está representada a formação do solo ao longo do
+			tempo geológico, sabendo que as divisões que aparecem em cada figura e na legenda representam as etapas
+			dessa evolução: </p>
+
+		<div class="w3-center"><img src="p16q8.png" alt="p16q8" class="w3-mobile"></div>
+
+		<p> A partir dessa análise, é INCORRETO afirmar que essa sequência de figuras sugere que: </p>
+
+		<p class="bordaQuestoes" id="q8a"><input type="radio" required="required" name="pq8" value="a"> a) a
+			evolução e o aumento da espessura do solo estão condicionados à escala do tempo geológico.</p>
+
+		<p class="bordaQuestoes" id="q8b"><input type="radio" required="required" id="pq8" name="pq8" value="b"> b)
+			o crescimento aéreo e subterrâneo da vegetação é inversamente proporcional ao desenvolvimento do solo.
+		</p>
+
+		<p class="bordaQuestoes" id="q8c"><input type="radio" required="required" name="pq8" value="c"> c) o
+			desenvolvimento do solo, ao longo do tempo, resulta na sua diferenciação em horizontes.</p>
+
+		<p class="bordaQuestoes" id="q8d"><input type="radio" required="required" name="pq8" value="d"> d) o
+			material inorgânico presente no solo resulta de alterações ocorridas na rocha.</p>
+
+
+	</div>
+
+
+
+	<div class="comentarios">
+		<p> <strong>Comentário:</strong></p>
+
+		<p> Colocar os comentários aqui. </p>
+	</div>
+
+
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 09</p>
+
+		<p> (ENEM 1999) Um agricultor adquiriu alguns alqueires de terra para cultivar e residir no local. O desenho
+			abaixo representa parte de suas; </p>
+
+		<div class="w3-center"><img src="p16q9.png" alt="p16q8" class="w3-mobile"></div>
+
+		<p> Pensando em construir sua moradia no lado I do rio e plantar no lado II, o agricultor consultou seus
+			vizinhos e escutou as frases abaixo. Assinale a frase do vizinho que deu a sugestão mais correta: </p>
+
+
+
+		<p class="bordaQuestoes" id="q9a"><input type="radio" required="required" name="pq9" value="a">
+			a) “O terreno só se presta ao plantio, revolvendo o solo com arado.”
+
+		</p>
+		<p class="bordaQuestoes" id="q9b"><input type="radio" required="required" name="pq9" value="b">
+			b) “Não plante neste local, porque é impossível evitar a erosão”.
+
+		</p>
+		<p class="bordaQuestoes" id="q9c"><input type="radio" required="required" id="pq9" name="pq9" value="c">
+			c) “Pode ser utilizado, desde que se plante em curvas de nível”.
+
+		</p>
+		<p class="bordaQuestoes" id="q9d"><input type="radio" required="required" name="pq9" value="d">
+			d) “Você perderá sua plantação, quando as chuvas provocarem inundação”.
+
+		</p>
+		<p class="bordaQuestoes" id="q9e"><input type="radio" required="required" name="pq9" value="e">
+			e) “Plante forragem para pasto”.
+
+		</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<p> <strong>Comentário:</strong></p>
+
+		<p> A alternativa correta é a C. O cultivo respeitando as curvas de nível reduz a velocidade de escoamento
+			das águas pluviais e a intensidade da erosão, que, embora não possa ser totalmente evitada, pode ter sua
+			ação bastante diminuída com a utilização de técnicas que evitem danos maiores nas áreas de agricultura e
+			pecuária. As inundações acontecem nas superfícies planas dos fundos de vale e as encostas com
+			declividade acentuada não são apropriadas para a criação de gado. </p>
+	</div>
+
+
+
+	
+
+	<div class="w3-card-4">
+
+		<p class="p2">Questão 10</p>
+
+		<p>(ENEM 2023)</p>
+		<div class="w3-panel w3-leftbar w3-sand w3-margin">
+			<p>“Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande maioria das terras degradadas inicia esse processo com o desmatamento, que pode ser seguido por diversas formas de ocupação desordenada, como: corte de  <span
+				onclick="this.innerHTML='talude (terreno inclinado, rampa)'"><mark>taludes</mark></span> para a construção de casas, rodovias e ferrovias, agricultura, com uso da queimada, vários tipos de mineração, irrigação excessiva, crescimento desordenado das cidades, superpastoreio, uso do solo para diversos tipos de despejos industriais e domésticos, sem tratamento da área que recebe esses despejos; enfim, de uma forma ou de outra, os solos tornam-se degradados, sendo muitas vezes difícil, ou quase impossível, a sua recuperação.”</p>
+
+			<p class="w3-small">GUERRA, A. T. Degradação dos solos: conceitos e temas. In: GUERRA, A. T.; JORGE, M. C. O. (Org.). Degradação dos solos no Brasil. Rio de Janeiro: Difel, 2018.</p>
+		</div>
+
+	   <p>A partir da ocupação desordenada exporta no texto, o que impede a recuperação do recurso natural destacado é a</p>
+
+		<p>Qual dinâmica natural é responsável pelo fenômeno apresentado?</p>
+		<p class="bordaQuestoes" id="q10a"><input type="radio" required="required" name="pq10" value="a"> a) elevação da biomassa.</p>
+
+		<p class="bordaQuestoes" id="q10b"><input type="radio" required="required" name="pq10" value="b"> b) redução da salinização.</p>
+
+		<p class="bordaQuestoes" id="q10c"><input type="radio" required="required" name="pq10" value="c"> c) diminuição da fertilidade.</p>
+
+		<p class="bordaQuestoes" id="q10d"><input type="radio" required="required" name="pq10" value="d"> d) ampliação da microfauna.</p>
+
+		<p class="bordaQuestoes" id="q10e"><input type="radio" required="required" id="pq10" name="pq10" value="e">
+			e) decomposição do substrato.</p>
+	</div>
+
+
+
+	<div class="comentarios">
+		<p> <strong>Comentário:</strong></p>
+		<p>
+			a) elevação da biomassa:
+			Incorreto. A elevação da biomassa geralmente se refere ao aumento da quantidade de matéria orgânica em um ecossistema, o que pode ser benéfico para a recuperação do solo.
+		</p>
+		<p>
+			b) redução da salinização:
+			Incorreto. A salinização refere-se ao acúmulo de sais no solo, e a redução desse processo seria benéfica para a recuperação do solo.
+		</p>
+		<p>
+			c) diminuição da fertilidade:
+			Correto. A ocupação desordenada, com práticas como queimadas, agricultura sem manejo adequado, entre outras, pode resultar na diminuição da fertilidade do solo, tornando mais difícil a sua recuperação.
+		</p>
+		<p>
+			d) ampliação da microfauna:
+			Incorreto. A presença de uma microfauna saudável no solo pode ser benéfica para a recuperação do solo, não impedindo a sua recuperação.
+		</p>
+		<p>
+			e) decomposição do substrato:
+			Incorreto. A decomposição do substrato é um processo natural que contribui para a ciclagem de nutrientes no solo, não impedindo necessariamente a recuperação do solo.
+		</p>
+		<p>
+			Portanto, a alternativa correta é:
+			c) diminuição da fertilidade.
+			A ocupação desordenada pode levar à diminuição da fertilidade do solo devido a práticas inadequadas, dificultando sua recuperação.
+		</p>
+	</div>
+	
+
+
+</form>
+
+	<!-- Fim do formulário -->
+
+
+	<p id="numeroCorreto"></p>
+
+	<p id="mensagem" style="display:none"></p>
+
+
+	<!-- COLOCAR EM TODAS AS QUESTÕES -->
+	<div class="area">
+		<img src="../img1a.gif" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+	<div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+	<!-- Fim do conteúdo -->
+</div>
+
+
+
+<!-- Área das funções -->
+
+
+
+<script>
+
+
+
+
+function checar() {
+
+
+
+	var pq1 = document.quiz.pq1.value;
+	var pq2 = document.quiz.pq2.value;
+	var pq3 = document.quiz.pq3.value;
+	var pq4 = document.quiz.pq4.value;
+	var pq5 = document.quiz.pq5.value;
+	var pq6 = document.quiz.pq6.value;
+	var pq7 = document.quiz.pq7.value;
+	var pq8 = document.quiz.pq8.value;
+	var pq9 = document.quiz.pq9.value;
+	var pq10 = document.quiz.pq10.value;
+
+	var corretas = 0;
+
+
+	var cor = ["#99ff99", "#ee4466"];
+
+	if (pq1 == "e") {
+		corretas++;
+		document.getElementById("q1e").style.backgroundColor = cor[0];
+	} else {
+
+		document.getElementById("q1b").style.backgroundColor = cor[1];
+		document.getElementById("q1c").style.backgroundColor = cor[1];
+		document.getElementById("q1d").style.backgroundColor = cor[1];
+		document.getElementById("q1a").style.backgroundColor = cor[1];
+
+		document.getElementById("q1e").style.backgroundColor = cor[0];
+
+	}
+
+
+	if (pq2 == "c") {
+		corretas++;
+		document.getElementById("q2c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q2b").style.backgroundColor = cor[1];
+		document.getElementById("q2a").style.backgroundColor = cor[1];
+		document.getElementById("q2d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q2c").style.backgroundColor = cor[0];
+
+	}
+	if (pq3 == "a") {
+		corretas++;
+		document.getElementById("q3a").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q3b").style.backgroundColor = cor[1];
+		document.getElementById("q3c").style.backgroundColor = cor[1];
+		document.getElementById("q3d").style.backgroundColor = cor[1];
+
+		document.getElementById("q3a").style.backgroundColor = cor[0];
+
+	}
+	if (pq4 == "e") {
+		corretas++;
+		document.getElementById("q4e").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q4b").style.backgroundColor = cor[1];
+		document.getElementById("q4c").style.backgroundColor = cor[1];
+		document.getElementById("q4d").style.backgroundColor = cor[1];
+		document.getElementById("q4a").style.backgroundColor = cor[1];
+
+		document.getElementById("q4e").style.backgroundColor = cor[0];
+
+	}
+	if (pq5 == "c") {
+		corretas++;
+		document.getElementById("q5c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q5b").style.backgroundColor = cor[1];
+		document.getElementById("q5a").style.backgroundColor = cor[1];
+		document.getElementById("q5d").style.backgroundColor = cor[1];
+		document.getElementById("q5e").style.backgroundColor = cor[1];
+
+		document.getElementById("q5c").style.backgroundColor = cor[0];
+
+	}
+	if (pq6 == "d") {
+		corretas++;
+		document.getElementById("q6d").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q6b").style.backgroundColor = cor[1];
+		document.getElementById("q6c").style.backgroundColor = cor[1];
+		document.getElementById("q6a").style.backgroundColor = cor[1];
+		document.getElementById("q6e").style.backgroundColor = cor[1];
+
+		document.getElementById("q6d").style.backgroundColor = cor[0];
+
+	}
+	if (pq7 == "a") {
+		corretas++;
+		document.getElementById("q7a").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q7b").style.backgroundColor = cor[1];
+		document.getElementById("q7c").style.backgroundColor = cor[1];
+		document.getElementById("q7d").style.backgroundColor = cor[1];
+		document.getElementById("q7e").style.backgroundColor = cor[1];
+
+		document.getElementById("q7a").style.backgroundColor = cor[0];
+
+	}
+	if (pq8 == "b") {
+		corretas++;
+		document.getElementById("q8b").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q8a").style.backgroundColor = cor[1];
+		document.getElementById("q8c").style.backgroundColor = cor[1];
+		document.getElementById("q8d").style.backgroundColor = cor[1];
+
+
+		document.getElementById("q8b").style.backgroundColor = cor[0];
+
+	}
+	if (pq9 == "c") {
+		corretas++;
+		document.getElementById("q9c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q9b").style.backgroundColor = cor[1];
+		document.getElementById("q9a").style.backgroundColor = cor[1];
+		document.getElementById("q9d").style.backgroundColor = cor[1];
+		document.getElementById("q9e").style.backgroundColor = cor[1];
+
+		document.getElementById("q9c").style.backgroundColor = cor[0];
+
+	}
+	if (pq10 == "c") {
+		corretas++;
+		document.getElementById("q10c").style.backgroundColor = cor[0];
+	} else {
+		document.getElementById("q10b").style.backgroundColor = cor[1];
+		document.getElementById("q10e").style.backgroundColor = cor[1];
+		document.getElementById("q10d").style.backgroundColor = cor[1];
+		document.getElementById("q10a").style.backgroundColor = cor[1];
+
+		document.getElementById("q10c").style.backgroundColor = cor[0];
+
+	}
+
+
+
+	corLenta();
+	classEscurecer();
+	comentarios();
+
+
+
+
+	var incorrretas = 10 - corretas;
+	var mensagem = ["Parabéns!", "Foi bom!", "Melhor tentar novamente!"];
+
+	var imagem = ["../img1.gif", "../img2.gif", "../img3.gif"];
+
+
+
+	var pontos;
+
+	if (corretas < 5) {
+		pontos = 2;
+
+	}
+
+	if (corretas >= 5 && corretas <= 7) {
+		pontos = 1;
+	}
+
+
+	if (corretas >= 7) {
+		pontos = 0;
+
+	}
+
+
+
+	document.getElementById("numeroCorreto").innerHTML = "Você acertou " + corretas + " e errou " + incorrretas + " do total de questões" + ", ou seja, " + (corretas * 100) / 10 + "%.";
+	document.getElementById("mensagem").innerHTML = mensagem[pontos];
+	document.getElementById("imagem").src = imagem[pontos];
+	document.getElementById("numeroCorreto").style.display = 'block';
+	document.getElementById("mensagem").style.display = 'block';
+	document.getElementById("imagem").style.display = 'block';
+
+
+
+
+
+}
+</script>
+
+
+
+<?php include '../../views/footer.php'; ?>

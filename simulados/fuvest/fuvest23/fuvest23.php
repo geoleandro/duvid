@@ -1,0 +1,1525 @@
+<?php include '../../../views/header.php'; ?>
+
+
+<style>
+		.ImagemDialogo {
+			padding-top: 5%;
+			max-width: auto;
+			margin: 0 auto;
+			border: 10px solid #fff;
+			border-radius: 20px;
+			box-shadow: 0 0 10px #ccc;
+			background-image: url(" <?php echo URLSITE; ?>/images/dialogos/fotodialogo2.png");
+			background-size: cover;
+			background-position: top;
+		}
+
+
+		/* Mobile */
+
+		@media screen and (max-width: 600px) {
+
+			.ImagemDialogo {
+				padding-top: 5%;
+				max-width: auto;
+				margin: 0 auto;
+				border: 10px solid #fff;
+				border-radius: 20px;
+				box-shadow: 0 0 10px #ccc;
+				background-image: url(" <?php echo URLSITE; ?>/images/dialogos/fotodialogo2.png");
+				background-size: cover;
+				background-position: center;
+				z-index: 10;
+			}
+
+		}
+	</style>
+
+<div class="larguraBar">
+
+
+
+
+    <h1 class="h1"> Simulado Fuvest 2023 </h1>
+
+    <div class="w3-container w3-white ">
+
+        <p><strong>Conteúdo:</strong></p>
+
+
+        <!-- <ul style="list-style-type: none;"></ul> -->
+        <ul class="w3-padding-top">
+            <li>Os conceitos-chave com os quais a Geografia lida, seu vasto
+                campo de investigação e suas abordagens multiescalares
+                permitem classificá-la como uma das áreas mais fecundas
+                para o exercício da interdisciplinaridade e para a superação
+                de leituras e interpretações fragmentadas da realidade. Os conteúdos abordados foram:
+            </li>
+
+            <li> 
+                Agentes externos do relevo; Formas do relevo; Clima do Estado de São Paulo; Geografia agrária e uso de fertilizantes; Bacia hidrográfica do Brasil; Violência no espaço urbano; Terrorismo e conflitos na África; População mundial; Refugiados.
+            </li>
+
+
+
+        </ul>
+
+    </div>
+
+
+
+    <form id="quiz" name="quiz" onsubmit="verificar()">
+
+
+
+
+		<div class="w3-card-4 ">
+
+			<p class="p2">Questão 01</p>
+
+		
+            <p>(FUVEST 2023) A superfície terrestre muda conforme a frequência e a magnitude de processos naturais,
+				sendo alguns mais contínuos e outros mais irregulares. Alguns eventos podem mudar rapidamente a
+				superfície, enquanto outros a modificam lentamente.</p>
+
+			<div class="w3-center"><img src="fuvest23f01.png" alt="GRáfico sobre a mudança no tempo e espaço em milhões de anos - Duvid Geografia" class="w3-mobile"></div>
+
+			<p> Assinale a alternativa correspondente a descrição: </p>
+
+
+			<p>Com base nos dados apresentados, é possível afirmar que os números 1, 2 e 3 correspondem,
+				respectivamente, </p>
+
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda1')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda1" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+				<p>
+					A questão fala sobre como a superfície da Terra pode mudar ao longo do tempo por conta de diferentes
+					processos que acontecem na natureza. Algumas dessas mudanças acontecem rápido, outras demoram mais.
+					Os números 1, 2 e 3 representam esses tipos de mudanças. Para saber qual é qual, pense sobre o que
+					cada número poderia ser. Por exemplo, o que acontece rápido na Terra? E o que demora mais? Também é
+					importante pensar no tamanho e na frequência dessas mudanças. Depois de pensar sobre tudo isso, fica
+					mais fácil escolher qual número corresponde a qual tipo de mudança.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta1')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta1" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A.
+					<br>Ação eólica, erupções vulcânicas e soerguimento de cadeias montanhosas.
+				</p>
+
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q1a"><input type="radio" required="required" name="pq1" value="a">
+
+                    a) Ação eólica, erupções vulcânicas e soerguimento de cadeias montanhosas.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q1b"><input type="radio" required="required" name="pq1" value="b">
+
+					b) Depósitos minerais, abalos sísmicos e erupções vulcânicas.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q1c"><input type="radio" required="required" name="pq1" value="c">
+
+                    c) Formação de cavernas, ação eólica e soerguimento de cadeias montanhosas.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q1d"><input type="radio" required="required" name="pq1" value="d">
+
+                    d) Erupções vulcânicas, abalos sísmicos e depósitos minerais.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q1e"><input type="radio" required="required" name="pq1" value="e">
+
+                    e) Ação eólica, formação de cavernas e soerguimento de cadeias montanhosas.
+
+				</label>
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+                <p>a) Correta. A ação eólica é um processo contínuo que pode causar mudanças rápidas na superfície
+					terrestre, especialmente em áreas de desertos e regiões áridas. As erupções vulcânicas são eventos
+					que podem ocorrer de forma rápida como também intermediária ao longo do tempo e causar mudanças
+					significativas na paisagem. O soerguimento de cadeias montanhosas é um processo lento que ocorre ao
+					longo de milhões de anos. Portanto, os números 1, 2 e 3 correspondem, respectivamente, à ação
+					eólica, erupções vulcânicas e soerguimento de cadeias montanhosas, como indicado no enunciado.</p>
+				<p>b) Incorreta. Depósitos minerais não podem mudar rapidamente a superfície terrestre. Abalos sísmicos
+					também podem causar mudanças rápidas, mas não são representados na sequência de números indicada.
+					Erupções vulcânicas correspondem ao número 2, do gráfico.</p>
+				<p>c) Incorreta. A formação de cavernas é um processo que geralmente ocorre ao longo de períodos muito
+					longos. A ação eólica e o soerguimento de cadeias montanhosas estão corretamente associados aos
+					números 1 e 3, respectivamente.</p>
+				<p>d) Incorreta. Erupções vulcânicas estão corretamente associadas ao número 1, abalos sísmicos
+					corresponderiam ao número 2. Além disso, depósitos minerais possuem processo de formação lento.</p>
+				<p>e) Incorreta. A formação de cavernas e o soerguimento de cadeias montanhosas estão corretamente
+					associados aos números 1 e 3, respectivamente.</p>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 02</p>
+
+        
+
+			<p>(FUVEST 2023)</p>
+
+
+			<div class="w3-center"><img src="fuvest23f02.png" alt="Figura de relevo com morros, terraços e planície fluvial - Duvid Geografia" class="w3-mobile"></div>
+
+			<p>A partir da figura, pode-se afirmar que as áreas com as condições naturais mais favoráveis à ocupação
+				humana são: </p>
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda2')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda2" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<p>Morros: São elevações de terreno com topo mais ou menos arredondado e encostas íngremes, formadas
+					pela erosão e pela ação de agentes externos como água, vento e gelo. Podem ser constituídos por
+					diferentes tipos de rochas e apresentar diferentes formas e altitudes.<br>
+					Terraços fluviais: São superfícies planas ou levemente inclinadas formadas por depósitos de
+					sedimentos carregados e depositados por rios ao longo do tempo. São encontrados ao longo das margens
+					dos rios e são geralmente mais elevados que a planície fluvial, sendo considerados áreas propícias
+					para agricultura e ocupação humana.<br>
+					Planície fluvial: É uma área de terreno plano ou levemente inclinado formada pelos sedimentos
+					depositados pelos rios durante suas cheias ao longo do tempo. São caracterizadas pela presença de
+					solos férteis e geralmente são utilizadas para a agricultura e outras atividades humanas.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+
+
+
+
+
+
+
+			</div>
+
+			<span onclick="Ajuda('resposta2')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta2" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A.
+					<br>Os topos mais aplainados dos morros ou a área de terraços fluviais, partes mais planas do
+					relevo; no entanto, variações nas cheias dos rios podem atingir as áreas de terraços, e a ocupação
+					dos topos pode comprometer as áreas de nascentes.
+				</p>
+
+			</div>
+
+			<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+
+				<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+					<div class="w3-col s6">
+						<div class="character">
+							<div class="balloon balao1" style="display: block;">
+								<div class="triangle triangleLeft"></div>
+								<span class="pad" id="segundaDupla1">Clique em próximo</span>
+							</div>
+							<img class="left" src=" <?php echo URLSITE; ?>/images/dialogos/npc1.gif" width="auto" height="auto" alt="Foto personagem Jéssica - Jogo Aventura Geográfica">
+						</div>
+					</div>
+
+					<!-- Segundo diálogo -->
+					<div class="w3-col s6">
+						<div class="character">
+							<div class="balloon balao2" style="display: none;">
+								<div class="triangle triangleRight"></div>
+								<span class="pad" id="segundaDupla2"></span>
+							</div>
+							<img class="right" src=" <?php echo URLSITE; ?>/images/dialogos/npc3.gif" width="auto" height="auto" alt="Foto personagem José - Jogo Aventura Geográfica">
+						</div>
+
+
+					</div>
+				</div>
+
+				<button id="botaoReiniciar2"
+					class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom btnIniciar"
+					onclick="reiniciarDialogo('segundaDupla',segundoDialogo)">Iniciar</button>
+
+				<button id="botaoDialogo2" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+					onclick="nextDialogue( 'segundaDupla', segundoDialogo, event)">Próximo</button>
+
+
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q2a"><input type="radio" required="required" name="pq2" value="a">
+
+					a) Os topos mais aplainados dos morros ou a área de terraços fluviais, partes mais planas do relevo; no
+				entanto, variações nas cheias dos rios podem atingir as áreas de terraços, e a ocupação dos topos pode
+				comprometer as áreas de nascentes.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+
+				<label class="w3-hover-amber" id="q2b"><input type="radio" required="required" name="pq2" value="b">
+
+					b) Entre os morros e a planície, áreas de maior declividade sujeitas a desabamentos; também deve evitar
+				os terraços fluviais por possuírem sedimentos consolidados, propensos à erosão.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q2c"><input type="radio" required="required" name="pq2" value="c">
+
+                    c) O sopé (base) das encostas dos morros ou a área da planície fluvial, partes planas do relevo sem
+                    risco de deslizamentos de terra; além disso, a captação das águas para abastecimento público pode ser
+                    aproveitada pela proximidade do canal fluvial.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q2d"><input type="radio" required="required" name="pq2" value="d">
+
+					d) As áreas de planície com sedimentos inconsolidados resultantes das rochas cristalinas friáveis (que
+				se quebram facilmente); além disso, o desmatamento e acúmulo de lixo nas inundações podem soterrar o
+				curso fluvial retilíneo.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q2e"><input type="radio" required="required" name="pq2" value="e">
+
+					e) Os morros com encostas mais inclinadas, suscetíveis a deslizamentos e assoreamentos; estes acabam por
+				prejudicar a conservação das áreas de nascentes que estão a jusante (rio abaixo) dos setores mais
+				elevados.
+
+				</label>
+			</div>
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+                <p>a) Esta opção é considerada correta porque identifica corretamente os topos mais aplainados dos morros e
+                    os terraços fluviais como áreas com condições naturais mais favoráveis à ocupação humana. Os topos mais
+                    aplainados dos morros oferecem uma posição elevada, o que pode proporcionar vistas panorâmicas,
+                    ventilação adequada e menor suscetibilidade a inundações. Além disso, os terraços fluviais são planícies
+                    aluviais formadas ao longo do tempo pelo acúmulo de sedimentos depositados por rios, proporcionando
+                    solos férteis para agricultura e acesso à água.</p>
+    
+                <p>b) Esta opção está incorreta porque descreve áreas de maior declividade entre morros e planícies como
+                    favoráveis à ocupação humana, quando na verdade essas áreas são mais propensas a desabamentos e outros
+                    eventos geológicos adversos. Além disso, a afirmação de que se deve evitar os terraços fluviais por
+                    possuírem sedimentos consolidados propensos à erosão não está correta. Os terraços fluviais são, na
+                    verdade, áreas planas formadas por depósitos de sedimentos carregados pelos rios, e são considerados
+                    propícios para ocupação humana e agricultura.</p>
+    
+                <p>c) Esta opção está incorreta porque sugere que o sopé das encostas dos morros e a planície fluvial são
+                    partes planas do relevo sem risco de deslizamentos de terra. Na realidade, o sopé das encostas dos
+                    morros pode ser suscetível a deslizamentos, especialmente em áreas de maior declividade, e as planícies
+                    fluviais podem estar sujeitas a inundações e outros riscos naturais. Além disso, a afirmação de que a
+                    captação das águas para abastecimento público pode ser aproveitada pela proximidade do canal fluvial não
+                    está necessariamente correta, pois a proximidade de um canal fluvial não garante a qualidade da água
+                    para abastecimento público.</p>
+    
+                <p>d) Esta opção está incorreta porque descreve áreas de planície com sedimentos inconsolidados resultantes
+                    de rochas cristalinas friáveis como favoráveis à ocupação humana, quando na verdade essas áreas podem
+                    ser instáveis e propensas a deslizamentos de terra e outros eventos geológicos adversos. Além disso, a
+                    afirmação de que o desmatamento e acúmulo de lixo nas inundações podem soterrar o curso fluvial
+                    retilíneo não está correta, pois o desmatamento e o acúmulo de lixo nas inundações podem causar
+                    problemas ambientais, mas não necessariamente soterram cursos fluviais retilíneos.</p>
+    
+                <p>e) Esta opção está incorreta porque descreve morros com encostas mais inclinadas como favoráveis à
+                    ocupação humana, quando na verdade essas áreas são mais suscetíveis a deslizamentos e assoreamentos,
+                    representando riscos para a segurança das populações que ali habitam. Além disso, a afirmação de que
+                    esses morros acabam prejudicando a conservação das áreas de nascentes que estão a jusante dos setores
+                    mais elevados não está necessariamente correta, pois o impacto dos morros na conservação das áreas de
+                    nascentes pode variar dependendo de uma série de fatores geológicos e ambientais.</p>
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 03</p>
+
+			<p> (FUVEST 2023) O estado de São Paulo, por suas características climáticas, apresenta, no outono e no
+				inverno, probabilidade de ocorrência de geada. </p>
+
+			<div class="w3-center"><img src="fuvest23f03.png" alt="Mapa de ocorrência de geada no Estado de São Paulo - Duvid Geografia" class="w3-mobile"></div>
+
+			<p>Com base em seu conhecimento sobre o estado de São Paulo e os fatores que contribuem para a formação de
+				geadas, é correto inferir que a maior ocorrência de geadas no estado de São Paulo está associada </p>
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda3')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda3" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+				<p>
+					A questão quer saber sobre a relação entre geada e relevo. Essa ligação está relacionada à
+					influência que a topografia (variação do relevo) exerce sobre a temperatura do ar próximo à
+					superfície terrestre. Em áreas de relevo mais elevado, como montanhas e serras, o ar frio tende a se
+					acumular nas partes mais baixas durante a noite, formando o que é conhecido como inversão térmica.
+					Essa inversão térmica ocorre porque o ar frio é mais denso e tende a descer para áreas mais baixas,
+					enquanto o ar mais quente sobe para regiões mais altas.<br>
+					Durante a noite, quando as temperaturas estão mais baixas, o ar frio que se acumula nas partes
+					baixas do relevo pode resfriar rapidamente, levando à formação de geada. As áreas mais elevadas
+					também estão sujeitas a temperaturas mais baixas devido à maior exposição aos ventos frios e à
+					radiação noturna. Agora ficou mais fácil selecionar a alternativa correta.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta3')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta3" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A
+					<br> Às maiores altitudes da Serra da Mantiqueira, que contribuem para reduzir a temperatura do ar.
+				</p>
+
+			</div>
+
+
+		
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q3a"><input type="radio" required="required" name="pq3" value="a">
+
+					a) às maiores altitudes da Serra da Mantiqueira, que contribuem para reduzir a temperatura do ar.
+
+				</label>
+
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q3b"><input type="radio" required="required" name="pq3" value="b">
+
+					b) às baixas altitudes do Vale do rio Ribeira de Iguape, que contribuem para a entrada de ar frio.
+
+				</label>
+
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q3c"><input type="radio" required="required" name="pq3" value="c">
+
+					c) ao efeito da maritimidade, que injeta ar frio para o continente, diminuindo a temperatura do ar.
+
+				</label>
+
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q3d"><input type="radio" required="required" name="pq3" value="d">
+
+					d) às grandes extensões do Planalto Ocidental Paulista, que favorecem o acúmulo de ar frio.
+
+				</label>
+
+			</div>
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q3e"><input type="radio" required="required" name="pq3" value="e">
+
+					e) à ausência de cobertura vegetal em grande parte do território paulista, que potencializa o
+				resfriamento noturno.
+
+				</label>
+
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+				<p>a) Esta opção está correta. As maiores altitudes da Serra da Mantiqueira, localizada na divisa entre São Paulo e Minas Gerais, contribuem para a redução da temperatura do ar devido aos efeitos do relevo. A elevação do terreno faz com que o ar resfrie mais rapidamente, favorecendo a formação de geadas, principalmente durante o outono e inverno e, principalmente, somada a influência de massas de ar polares.</p>
+
+				<p>b) Esta opção está incorreta, pois as baixas altitudes do Vale do rio Ribeira de Iguape não estão diretamente associadas à maior ocorrência de geadas. Geralmente, áreas de baixa altitude tendem a ser menos suscetíveis a geadas devido à circulação do ar mais ampla, radiação solar mais eficiente e até formação de nuvens que atuam como “cobertor” que retém o calor próximo à superfície.
+				</p>
+	
+				<p>c) Esta opção está incorreta, pois o efeito da maritimidade geralmente atua no sentido de amenizar as
+					temperaturas, especialmente próximo ao litoral. A entrada de ar frio vindo do mar para o continente pode
+					até diminuir as temperaturas, mas não está diretamente associada à ocorrência de geadas.</p>
+	
+				<p>d) Esta opção está incorreta, pois as grandes extensões do Planalto Ocidental Paulista não são
+					necessariamente associadas à maior ocorrência de geadas. Embora o Planalto possa experimentar
+					temperaturas mais baixas durante o inverno, outros fatores, como altitude e relevo, desempenham um papel
+					mais significativo na formação de geadas.</p>
+	
+				<p>e) Esta opção está incorreta, pois a ausência de cobertura vegetal em grande parte do território paulista
+					pode influenciar o resfriamento noturno, mas não é o principal fator associado à ocorrência de geadas.
+					Outros elementos, como altitude e relevo, têm um impacto mais direto na formação de geadas.</p>
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 04</p>
+
+			<p>(FUVEST 2023) </p>
+
+			<div class="w3-center"><img src="fuvest23f04.png" alt="Lavouras que mais utilizam fertilizantes no Brasil - Duvid Geografia" class="w3-mobile"></div>
+
+
+			<p>A partir do gráfico e de seus conhecimentos sobre a dinâmica do espaço agrário brasileiro, é correto
+				afirmar que o uso de fertilizantes no Brasil ocorre, majoritariamente, </p>
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda4')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda4" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+				<p>
+					O objetivo da questão é reconhecer a relação entre o nível de capitalização da atividade agrícola,
+					expresso através do grau de intensividade do uso de fertilizantes, e orientação exportadora do
+					cultivar.
+					<br>
+					A partir da leitura do gráfico identifica-se que a soja, o milho, cana-de-açúcar, café e o algodão
+					são as quatro culturas que mais utilizam os agrotóxicos como insumo produtivo no Brasil. Não por
+					acaso, esses quatro produtos agrícolas estão entre os mais relevantes da pauta nacional de
+					exportações. Esse fato guarda relação com a correlação positiva que existe, na agricultura
+					brasileira, entre nível técnico da produção agropecuária e orientação da produção para o mercado
+					externo. É importante considerar essa associação entre uso de fertilizantes e o objetivo da produção
+					mostrada no gráfico e em qual região predomina esse tipo de prática.
+
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta4')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta4" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra D.
+					<br>Em  lavouras  mecanizadas,  destinadas  ao  mercado internacional,  com  predomínio  do  emprego  de  mão  de obra especializada, principalmente no Centro-Sul do país.  
+				</p>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q4a"><input type="radio" required="required" name="pq4" value="a">
+
+					a) em lavouras intensivas, em pequenas propriedades, com baixa  produtividade  e  pouco  emprego  de  tecnologia, direcionadas  ao  mercado  internacional  de  commodities, principalmente no Centro-Sul do país. 
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q4b"><input type="radio" required="required" name="pq4" value="b">
+					b) em lavouras extensivas, com elevado emprego de mão de obra, altíssima mecanização, com predomínio de adoção de práticas conservacionistas e baixo impacto ambiental, principalmente na região Norte do país. 
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q4c"><input type="radio" required="required" name="pq4" value="c">
+
+					c) em  lavouras  destinadas  ao  abastecimento  do  mercado interno, intensamente mecanizadas, com predomínio de grandes  propriedades  e  com  baixo  impacto  ambiental, principalmente na região Nordeste do país.  
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q4d"><input type="radio" required="required" name="pq4" value="d">
+
+					d) em  lavouras  mecanizadas,  destinadas  ao  mercado internacional,  com  predomínio  do  emprego  de  mão  de obra especializada, principalmente no Centro-Sul do país.  
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q4e"><input type="radio" required="required" name="pq4" value="e">
+
+					e) em lavouras extensivas, destinadas ao mercado externo, com  alta  mecanização  e  emprego  de  mão  de  obra especializada,  principalmente  nas  regiões  Norte  e Nordeste do país.
+
+				</label>
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+				<p>a) Esta opção está incorreta, pois descreve um cenário em que o uso de fertilizantes ocorre em pequenas propriedades com baixa produtividade, o que não condiz com a realidade do uso de fertilizantes, que tende a ser mais intenso em propriedades maiores e mais tecnificadas.</p>
+
+				<p>b)  Esta opção está incorreta, pois descreve um cenário em que o uso de fertilizantes ocorre em lavouras com baixo impacto ambiental, o que não é condizente com a realidade, já que o uso de fertilizantes pode ter impactos ambientais significativos, independentemente da região.</p>
+				
+				<p>c)  Esta opção está incorreta, pois descreve um cenário em que o uso de fertilizantes ocorre com baixo impacto ambiental, o que não é necessariamente verdadeiro, dado que o uso excessivo de fertilizantes pode resultar em poluição ambiental.</p>
+				
+				<p>d)  Esta opção está correta, pois descreve um cenário em que o uso de fertilizantes está associado a lavouras mecanizadas e voltadas para o mercado internacional, o que condiz com a realidade do agronegócio brasileiro.</p>
+				
+				<p>e) Esta opção está incorreta, pois atribui o uso de fertilizantes principalmente às regiões Norte e Nordeste do país, quando na verdade o Centro-Sul é a principal região agrícola do Brasil e onde há maior uso de fertilizantes.</p>
+
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 05</p>
+
+			<p>(FUVEST 2023) Observe a imagem de satélite a seguir: </p>
+
+
+			<div class="w3-center"><img src="fuvest23f05.png" alt="Bacias hidrográficas dos rios Tocantins e São Francisco - Duvid Geografia" class="w3-mobile"></div>
+
+			<p>Parte dos topos do Chapadão Ocidental Baiano, divisor de águas das bacias hidrográficas dos rios
+				Tocantins e São Francisco, é dominada por monocultura para exportação. </p>
+
+			<p>Com base na imagem e em seus conhecimentos, é correto afirmar que </p>
+
+
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda5')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda5" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+				<p>
+					Para chegar à resposta correta, é importante observar atentamente as informações fornecidas na imagem de satélite e relacioná-las aos conceitos geográficos envolvidos na questão. Analise como a presença das monoculturas no Chapadão Ocidental Baiano pode afetar as bacias hidrográficas dos rios Tocantins e São Francisco. Considere o papel dos divisores de águas e como eles podem influenciar na disseminação de substâncias, como os agrotóxicos, nessas áreas. Pense também na relação entre a localização das monoculturas e a proximidade das bacias hidrográficas. 
+					É comum que bancas examinadoras utilizem estratégias para testar a capacidade dos estudantes de interpretar corretamente as questões. Uma dessas estratégias é o uso de termos como "somente", "único" e outras palavras que possam induzir a uma interpretação incorreta.
+					
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta5')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta5" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra A.
+					<br>Tanto a bacia do rio Tocantins quanto a do São Francisco são  ameaçadas  por  contaminação  de  agrotóxicos  nas áreas  do  Chapadão,  cujos  divisores  topográficos  não impedem os fluxos subterrâneos das substâncias utilizadas nas monoculturas. 
+				</p>
+
+			</div>
+
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q5a"><input type="radio" required="required" name="pq5" value="a">
+
+					a) tanto a bacia do rio Tocantins quanto a do São Francisco são ameaçadas por contaminação de
+				agrotóxicos nas áreas do Chapadão, cujos divisores topográficos não impedem os fluxos subterrâneos das
+				substâncias utilizadas nas monoculturas.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q5b"><input type="radio" required="required" name="pq5" value="b">
+
+					b) a maior parte das áreas cultivadas localiza-se no estado do Tocantins, sendo erodidas pelos rios sem
+				conexão com o topo do Chapadão Ocidental Baiano, o que dificulta a dispersão dos agrotóxicos.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q5c"><input type="radio" required="required" name="pq5" value="c">
+
+					c) a bacia do rio São Francisco é ameaçada pelos agrotóxicos, pois os divisores de águas nas áreas do
+					Chapadão tendem a fluir as substâncias nas drenagens somente para o estado da Bahia.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q5d"><input type="radio" required="required" name="pq5" value="d">
+
+					d) tanto a bacia do rio Tocantins quanto do rio São Francisco se encontram distantes das áreas de topo
+				do Chapadão Ocidental Baiano onde estão as monoculturas, dificultando a efluência dos agrotóxicos em
+				ambos.
+
+				</label>
+			</div>
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q5e"><input type="radio" required="required" name="pq5" value="e">
+
+					e) a bacia do rio Tocantins é mais ameaçada do que a do São Francisco pela contaminação originada do uso
+				de agrotóxicos, pois os divisores de águas convergem para o estado do Tocantins.
+
+				</label>
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+				<p>a) Correta. Esta afirmação é correta porque menciona que as bacias do rio Tocantins e do São Francisco
+					são ameaçadas pela contaminação de agrotóxicos nas áreas do Chapadão. Além disso, ressalta que os
+					divisores topográficos não impedem os fluxos subterrâneos das substâncias utilizadas nas monoculturas, o
+					que significa que os agrotóxicos podem fluir livremente através do solo para as áreas circundantes,
+					incluindo as bacias hidrográficas dos rios Tocantins e São Francisco. Isso pode resultar na contaminação
+					das nascentes e cursos d'água dessas bacias, representando uma ameaça significativa para o meio ambiente
+					e para as comunidades que dependem desses recursos hídricos.</p>
+	
+				<p>b) Incorreta. Essa afirmação é incorreta porque não há informações na imagem que indiquem que a maior
+					parte das áreas cultivadas esteja localizada no estado do Tocantins. Além disso, não há evidências de
+					que as áreas cultivadas estejam sendo erodidas pelos rios sem conexão com o topo do Chapadão Ocidental
+					Baiano. A questão deixa claro que as áreas cultivadas estão no Chapadão, mas não especifica a
+					localização exata dentro do Chapadão.</p>
+	
+				<p>c) Incorreta. Não há evidências na imagem que sustentem que os divisores de águas nas áreas do Chapadão
+					fluam as substâncias nas drenagens apenas para o estado da Bahia. Além disso, não é mencionado na
+					questão que os agrotóxicos fluiriam apenas para o estado da Bahia. O texto apenas menciona que o
+					Chapadão atua como divisor de águas entre as bacias do Tocantins e do São Francisco, sem especificar
+					para onde os agrotóxicos fluem.</p>
+	
+				<p>d) Incorreta. Esta afirmação é incorreta porque não há informações na questão ou na imagem que indiquem
+					que as bacias do rio Tocantins e do São Francisco se encontram distantes das áreas de topo do Chapadão
+					Ocidental Baiano. O texto apenas menciona que o Chapadão atua como divisor de águas entre as duas
+					bacias, mas não fornece informações sobre a distância entre elas.</p>
+	
+				<p>e) Incorreta. Não há evidências na imagem que sugiram que os divisores de águas convergem para o estado
+					do Tocantins. Além disso, não há informações suficientes para determinar se a bacia do rio Tocantins é
+					mais ameaçada do que a do São Francisco pela contaminação de agrotóxicos. O texto apenas menciona que o
+					Chapadão atua como divisor de águas entre as duas bacias, mas não especifica como isso afeta a
+					contaminação por agrotóxicos em cada uma delas.</p>
+
+
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 06</p>
+
+			<p>(FUVEST 2023)</p>
+
+			<div class="w3-panel w3-leftbar w3-sand w3-margin">
+				<p>“Em nossa época, entretanto, devemos conceber o Estado contemporâneo como uma comunidade humana que, dentro dos limites de determinado território (...) reivindica o monopólio do uso legítimo da violência física. É, com efeito, próprio de nossa época não reconhecer, em relação a qualquer outro grupo ou aos indivíduos, o direito de fazer uso da violência, a não ser nos casos em que o Estado o tolere: o Estado se transforma, portanto, na única fonte do ‘direito’ à violência”.</p>
+
+				<p class="w3-small"> WEBER, Max. Ciência e Política: duas vocações. São Paulo: Cultrix, 1970.
+
+				</p>
+
+				<p>“Com a entrada das milícias na disputa por territórios no Rio de Janeiro, elas passaram a se digladiar pelo domínio geográfico das comunidades cariocas e fluminenses (...). Embora as milícias também comandem a comunidade com tirania e sua autoridade se mantenha à base de ameaças, como fazem os traficantes, e aqueles que contestam seu poder possam perder a vida e sofrer torturas, ao contrário do tráfico, os milicianos se vendem como fiadores de mercadorias valiosíssimas: ordem, estabilidade e possibilidade de planejar o futuro, aliança política com o Estado e a polícia. (...) O lado impopular desse modelo é que a maior parte das receitas para bancar o negócio vem da extorsão dos habitantes”.</p>
+
+				<p class="w3-small"> 
+					PAES MANSO, Bruno. A república das milícias. São Paulo: Todavia, 2020.
+					
+
+				</p>
+
+			</div>
+
+			
+
+			<p>A partir da definição de Estado proposta por Max Weber e de acordo com a citação de Paes Manso, como é possível analisar a atuação das milícias no Rio de Janeiro?</p>
+			
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda6')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom">
+				Ajuda:</span>
+
+			<div id="ajuda6" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<div class="w3-center"><img src="fuvest23f06.png" alt="Milícias dominante o território do Rio de Janeiro" class="w3-mobile"></div>
+				<p>
+					Ao comparar o que Max Weber define como o papel do Estado, que é ter o controle exclusivo sobre o uso legítimo da violência, com a maneira como as milícias atuam, percebe-se uma discrepância. Enquanto o Estado tem esse controle reconhecido legalmente, as milícias desafiam essa autoridade ao impor sua própria ordem por meio de métodos ilegais e violentos. É importante entender como cada um exerce sua autoridade e em que circunstâncias essa autoridade é considerada legítima para compreender melhor a questão.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente fazer sem ver a resposta.</span>
+
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta6')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta6" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra C.
+					<br>As milícias desafiam o monopólio do uso legítimo da violência física do Estado ao utilizar a violência ilegalmente para controlar determinados territórios.
+				</p>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q6a"><input type="radio" required="required" name="pq6" value="a">
+
+					a) As milícias, assim como o Estado, controlam a população e mantêm a ordem em determinado território com o uso ilegal da violência, da ameaça e da extorsão.
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q6b"><input type="radio" required="required" name="pq6" value="b">
+
+					b) As milícias contribuem para o exercício do monopólio do uso legítimo da violência pelo Estado, pois garantem a imposição da ordem e o controle do tráfico nos territórios que dominam.
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q6c"><input type="radio" required="required" name="pq6" value="c">
+
+					c) As milícias desafiam o monopólio do uso legítimo da violência física do Estado ao utilizar a violência ilegalmente para controlar determinados territórios.
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q6d"><input type="radio" required="required" name="pq6" value="d">
+
+					d) As milícias diferenciam-se dos traficantes ao atuar pacificamente em resposta à reivindicação popular por maior estabilidade e ordem nos territórios em que atuam.
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q6e"><input type="radio" required="required" name="pq6" value="e">
+
+					e) As milícias e os traficantes, assim como o Estado, possuem autonomia e legitimidade para usar a violência e controlar territórios.
+
+				</label>
+
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+				<p>a) Incorreta. Esta alternativa exagera ao afirmar que as milícias controlam a população e mantêm a ordem de forma semelhante ao Estado. Enquanto o Estado possui legitimidade e estrutura legal para exercer o controle social, as milícias operam à margem da lei, utilizando violência, ameaças e extorsão de maneira ilegal.</p>
+
+				<p>b) Incorreta. Esta alternativa distorce a função das milícias ao sugerir que elas contribuem para o exercício do monopólio estatal da violência. Na verdade, as milícias desafiam esse monopólio ao atuarem ilegalmente para controlar territórios, muitas vezes competindo com o Estado.</p>
+				
+				<p>c) Correta. Esta alternativa está correta porque reconhece que as milícias desafiam o monopólio do uso legítimo da violência pelo Estado ao empregar violência ilegal para controlar determinados territórios. Isso está alinhado com a definição de Max Weber sobre o Estado detentor do monopólio da violência legítima.</p>
+				
+				<p>d) Incorreta. Essa alternativa está equivocada ao sugerir que as milícias atuam pacificamente em resposta a uma demanda popular por estabilidade e ordem. Na verdade, as milícias frequentemente recorrem à violência e à intimidação para impor seu controle sobre as comunidades que dominam.</p>
+				
+				<p>e) Incorreta. Esta alternativa também está errada ao equiparar as milícias e os traficantes ao Estado em termos de autonomia e legitimidade para usar a violência. Enquanto o Estado possui um aparato legal e é reconhecido internacionalmente, as milícias e traficantes atuam de maneira ilegal e muitas vezes violenta, desafiando a autoridade estatal.</p>
+
+
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 07</p>
+
+			<p>(FUVEST 2023) Recentemente a região do Sahel, na África, vivenciou golpes de Estado em quatro países:
+				Sudão, Mali, Chade e Burkina Faso. Podem ser indicadas como causas da instabilidade política na região:
+			</p>
+
+
+			<div class="w3-center w3-padding"><img src="fuvest23f07.png"
+					alt="Foto do mapa da África representando a região do Sahel" class="w3-mobile"></div>
+
+
+
+
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda7')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda7" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+				<p>
+					A situação política turbulenta na região do Sahel, evidenciada pelos recentes golpes de Estado,
+					envolve
+					uma série de fatores complexos. Ao analisar as possíveis causas da instabilidade política na região,
+					é
+					importante considerar a história e as características socioeconômicas do Sahel. Refletir sobre a
+					presença histórica de potências estrangeiras, os impactos da colonização, as dinâmicas étnicas e
+					culturais e a distribuição de recursos naturais pode fornecer pistas importantes para identificar as
+					causas subjacentes dos golpes de Estado. Identificar o que a região não possui pode ajudar a
+					encontrar a
+					resposta correta.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+			</div>
+
+			<span onclick="Ajuda('resposta7')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta7" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra E.
+					<br>Escassez de recursos naturais, diversidade étnica e resquícios da colonização.
+				</p>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q7a"><input type="radio" required="required" name="pq7" value="a">
+
+					a) Atuação
+					de
+					potências estrangeiras, resquícios da
+					colonização e alto desenvolvimento tecnológico.
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q7b"><input type="radio" required="required" name="pq7" value="b">
+
+					b)
+					Abundância de
+					recursos naturais, atuação de movimentos separatistas e desigualdade socioeconômica.
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q7c"><input type="radio" required="required" name="pq7" value="c">
+
+					c) Escassez
+				de
+				recursos naturais, alto desenvolvimento tecnológico e diversidade étnica.
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q7d"><input type="radio" required="required" name="pq7" value="d">
+
+					d)
+					Desigualdade
+					socioeconômica, diversidade étnica e elevada produção agrícola.
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q7e"><input type="radio" required="required" name="pq7" value="e">
+
+					e) Escassez
+				de
+				recursos naturais, diversidade étnica e resquícios da colonização.
+				</label>
+			</div>
+
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+				<p>a) Incorreta. A atuação de potências estrangeiras e resquícios da colonização podem contribuir para a
+					instabilidade política em algumas regiões, mas o alto desenvolvimento tecnológico não é uma
+					característica da região, pelo contrário.</p>
+	
+				<p>b) Incorreta. A região do Sahel apresenta uma escassez de recursos. A atuação de movimentos separatistas
+					pode ser uma causa, mas não é a única. A desigualdade socioeconômica é uma das principais causas da
+					instabilidade política na região.</p>
+	
+				<p>c) Incorreta. O alto desenvolvimento tecnológico não é uma característica relevante na região.</p>
+	
+				<p>d) Incorreta. A diversidade étnica não é uma causa direta da instabilidade política no Sahel, mas sim um
+					aspecto cultural importante da região. A elevada produção agrícola também não está diretamente
+					relacionada à região, que sofre com carência de produção agrícola.</p>
+	
+				<p>e) Correta. A escassez de recursos naturais, a diversidade étnica e os resquícios da colonização são
+					causas significativas da instabilidade política no Sahel. A região enfrenta desafios socioeconômicos e
+					políticos complexos, incluindo disputas por recursos, tensões étnicas e legados históricos da
+					colonização europeia. Esses fatores contribuem para a instabilidade política e os golpes de Estado
+					frequentes na região.</p>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 08</p>
+
+			<p> (FUVEST 2023) O gráfico a seguir apresenta o registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período:</p>
+
+			<div class="w3-center"><img src="fuvest23f08.png" alt="Registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período - Duvid Geografia" class="w3-mobile"></div>
+
+		<p> A  partir  disso,  assinale  a  pirâmide  etária  que  melhor 
+			representa as informações projetadas para o ano de 2050:
+			</p>
+
+
+		<!-- Ajuda -->
+
+		<span onclick="Ajuda('ajuda8')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+			Ajuda:</span>
+
+		<div id="ajuda8" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+			<p>O número de mortos é maior do que o número de nascimentos a partir da coluna do ano de 2025 em diante. Isso sugere um envelhecimento da população e uma diminuição da taxa de natalidade em relação à taxa de mortalidade. Nesse caso, a pirâmide etária que melhor representaria essa situação seria uma pirâmide de base estreita com corpo e topo mais largo, indicando uma população com uma proporção maior de pessoas mais velhas em relação aos jovens. Essa forma é típica de uma pirâmide etária de envelhecimento, na qual a população idosa é maior em comparação com a população jovem. <span
+					class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+			</p>
+
+
+
+
+		</div>
+
+		<span onclick="Ajuda('resposta8')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+			Resposta:</span>
+
+
+		<div id="resposta8" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+			<p>Resposta: Letra B.
+				
+			</p>
+
+		</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q8a"><input type="radio" required="required" name="pq8" value="a">
+
+					<div class="w3-center"><img src="fuvest23f08a.png" alt="Pirâmide etária de uma região do mundo" class="w3-mobile"></div>
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q8b"><input type="radio" required="required" name="pq8" value="b">
+
+					<div class="w3-center"><img src="fuvest23f08b.png" alt="Pirâmide etária de uma região do mundo" class="w3-mobile"></div>
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q8c"><input type="radio" required="required" name="pq8" value="c">
+
+					<div class="w3-center"><img src="fuvest23f08c.png" alt="Pirâmide etária de uma região do mundo" class="w3-mobile"></div>
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q8d"><input type="radio" required="required" name="pq8" value="d">
+
+					<div class="w3-center"><img src="fuvest23f08d.png" alt="Pirâmide etária de uma região do mundo" class="w3-mobile"></div>
+
+				</label>
+
+			</div>
+
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q8e"><input type="radio" required="required" name="pq8" value="e">
+
+					<div class="w3-center"><img src="fuvest23f08e.png" alt="Pirâmide etária de uma região do mundo" class="w3-mobile"></div>
+				</label>
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+				<p>a) Incorreta. A pirâmide apresenta base larga indicando altas taxas de natalidade e corpo e topo estreito. O gráfico mostra o contrário, o nascimento de crianças está diminuindo.</p>
+				<p>b) Correta. A pirâmide com uma base mais estreita do que o corpo e um topo mais largo sugere uma baixa taxa de natalidade e uma concentração significativa de população em idade ativa, com potencial para contribuir para a força de trabalho (um bônus demográfico favorável). Por outro lado, uma pirâmide mais larga indica países desenvolvidos e maduros, com um número substancial de adultos e idosos.</p>
+				<p>c) Incorreta. A pirâmide possui base larga e topo muito estreito, indicando alta taxa de natalidade e baixa população idosa. O que é contrário ao gráfico mostrado na questão.</p>
+				<p>d) Incorreta. Além das características de um país subdesenvolvido, com base larga e topo estreito, o número de nascimento de crianças é muito maior do que outras pirâmides em milhões de habitantes.</p>
+				<p>e) Incorreta. A pirâmide apresenta base estreita, porém com corpo também reduzido indicando mortalidade de adultos, principalmente na faixa dos 30 anos. O que pode ser ocasionado por conflitos internos ou violência. Isso não é compatível com a queda gradual do número de nascimento apresentada no gráfico.</p>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+
+			<p class="p2">Questão 09</p>
+			<p> (FUVEST 2023) O mapa do continente africano a seguir reproduz as fronteiras étnicas anteriores ao
+				processo de colonização europeu (linhas pretas) e as fronteiras dos Estados Nacionais africanos, que
+				surgiram após a emancipação no século XX (linhas vermelhas):
+
+			</p>
+
+			<div class="w3-center"><img src="fuvest23f09.png" alt="t26q10" class="w3-mobile"></div>
+
+
+			<p>Com base na leitura do mapa, assinale a alternativa correta. </p>
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda9')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda9" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<p>Para identificar a alternativa correta, é importante observar as informações apresentadas no mapa e
+					compará-las com as opções fornecidas. Analisando as linhas pretas que representam as fronteiras
+					étnicas anteriores à colonização europeia e as linhas vermelhas que representam as fronteiras dos
+					Estados Nacionais africanos após a emancipação, podemos deduzir características sobre a diversidade
+					étnica e a formação dos Estados na África. <br>
+
+					Para identificar áreas com mais diversidade étnica e outras com menos, é necessário observar a
+					distribuição das fronteiras étnicas anteriores à colonização europeia. Geralmente, regiões com
+					muitas linhas pretas próximas umas das outras indicam uma maior diversidade étnica, pois representam
+					a presença de diferentes grupos étnicos vivendo na mesma área. Por outro lado, áreas com poucas ou
+					nenhuma linha preta indicam uma menor diversidade étnica, pois provavelmente são dominadas por um
+					único grupo étnico.
+					<span class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+
+
+
+
+			</div>
+
+
+
+			<span onclick="Ajuda('resposta9')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta9" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra C.
+					<br>A porção norte da África teve menor diversidade étnica, com o predomínio de população branca,
+					religião islâmica e língua árabe.
+
+
+				</p>
+
+			</div>
+
+
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q9a"><input type="radio" required="required" name="pq9" value="a">
+
+					a) A diversidade étnica
+				observada na região sul africana foi objeto de cobiça do tráfico transatlântico de escravizados para as
+				Américas. 
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q9b"><input type="radio" required="required" name="pq9" value="b">
+
+					b) O Chifre da África foi uma
+					área marcada por guerras travadas entre diferentes grupos étnicos, as quais impediram a construção de
+					unidades políticas nacionais.
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q9c"><input type="radio" required="required" name="pq9" value="c">
+
+					c) A porção norte da África
+					teve menor diversidade étnica, com o predomínio de população branca, religião islâmica e língua árabe.
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q9d"><input type="radio" required="required" name="pq9" value="d">
+
+					d) Após o processo de
+					emancipação, a quantidade de Estados Nacionais africanos ultrapassou numericamente as configurações
+					territoriais anteriores à colonização.
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q9e"><input type="radio" required="required" name="pq9" value="e">
+
+					e) As fronteiras dos Estados
+				Nacionais africanos foram traçadas a partir de solidariedades étnicas, e não por critérios geopolíticos
+				decorrentes da colonização.
+
+				</label>
+			</div>
+
+			<div class="comentarios">
+
+				<p> <strong>Comentário:</strong></p>
+
+				<p>a) Incorreta. A diversidade étnica observada na região sul africana não foi diretamente relacionada ao
+					tráfico transatlântico de escravizados para as Américas. Esse fenômeno estava mais concentrado em outras
+					regiões africanas, como a África Ocidental, região da Guiné e nas localidades de Angola.</p>
+				<p>b) Incorreta. Embora o Chifre da África tenha experimentado conflitos étnicos e políticos, esses
+					conflitos não impediram a construção de unidades políticas nacionais. Vários Estados nacionais foram
+					estabelecidos nessa área após a emancipação, como Etiópia, Somália, Djbouti, Eritreia, dentre outros.
+				</p>
+				<p>c) Correta. De fato, historicamente, a região do Norte da África teve uma população predominantemente
+					árabe, com uma forte presença da religião islâmica e o uso predominante da língua árabe. Essa área da
+					África, conforme o mapa, é conhecida por sua homogeneidade étnica em comparação com outras regiões do
+					continente, onde a diversidade étnica é maior. Essa característica étnica e cultural é uma das razões
+					pelas quais o Norte da África tem uma identidade distinta em relação a outras partes do continente.</p>
+				<p>d) Incorreta. Não há evidências de que a quantidade de Estados Nacionais africanos tenha ultrapassado
+					numericamente as configurações territoriais anteriores à colonização. Na verdade, muitas das fronteiras
+					dos Estados Nacionais africanos foram estabelecidas com base nos interesses coloniais das potências
+					europeias, muitas vezes ignorando as divisões étnicas e culturais locais.</p>
+				<p>e) Incorreta. As fronteiras dos Estados Nacionais africanos foram principalmente traçadas pelos
+					colonizadores europeus durante o período da colonização, frequentemente ignorando as divisões étnicas e
+					culturais existentes. Isso resultou em muitos casos de disputas étnicas e conflitos dentro desses
+					Estados após a independência.</p>
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<div class="w3-card-4">
+			<p class="p2">Questão 10</p>
+			<p>
+				(FUVEST 2023)
+			</p>
+
+			
+
+			<div class="w3-panel w3-leftbar w3-sand w3-margin">
+				<p>“Em um mapa produzido com a técnica da anamorfose geográfica, cada país é redesenhado de forma que seu polígono tenha uma deformação proporcional a um tema de interesse.  Com essa técnica, é possível visualizá-lo de uma forma mais direta e clara”.</p>
+
+				<p class="w3-small"> Disponível em https://educa.ibge.gov.br/. Adaptado.  </p>
+			</div>
+
+
+			<p>Observe o mapa com dados de 2015: </p>
+
+			<div class="w3-center"><img src="fuvest23f10.png" alt="Anamorfose - Duvid Geografia" class="w3-mobile"></div>
+
+			<p>Os dados representados no mapa são condizentes com: 
+
+			</p>
+
+			
+			<!-- Ajuda -->
+
+			<span onclick="Ajuda('ajuda10')" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom ">
+				Ajuda:</span>
+
+			<div id="ajuda10" class="w3-hide w3-container w3-leftbar w3-pale-yellow w3-margin">
+
+				<p>Ao analisar o mapa e observar os países destacados, como Síria, Afeganistão, Iraque e Sudão, é possível descartar algumas alternativas e se aproximar da resposta correta como a relação direta entre taxas de natalidade excepcionalmente altas. Também não são países que possuam alto nível de Produto Interno Bruto (PIB). Essa alternativa também pode ser descartada. Igualmente não são os países mais urbanizados do mundo e nem mesmo os maiores produtores de petróleo. <span
+						class="w3-smal w3-green w3-margin-bottom">Tente resolver sem ver a resposta</span>
+				</p>
+
+
+
+
+			</div>
+
+			<span onclick="Ajuda('resposta10')" class="w3-button w3-pale-green w3-margin-left w3-margin-bottom">
+				Resposta:</span>
+
+
+			<div id="resposta10" class="w3-hide w3-container w3-leftbar w3-pale-green w3-margin">
+
+				<p>Resposta: Letra E.
+					<br>Refugiados conforme o país de origem. 
+				</p>
+
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q10a"><input type="radio" name="pq10" value="a">
+
+					a) Número de nascimentos vivos. 
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q10b"><input type="radio" name="pq10" value="b">
+
+					b) Produto Interno Bruto. 
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding">
+				<label class="w3-hover-amber" id="q10c"><input type="radio" name="pq10" value="c">
+
+					c) Total de população urbana. 
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding ">
+				<label class="w3-hover-amber" id="q10d"><input type="radio" name="pq10" value="d">
+
+					d) Produção de petróleo. 
+
+				</label>
+			</div>
+
+			<div class="w3-container w3-padding w3-margin-bottom">
+				<label class="w3-hover-amber" id="q10e"><input type="radio" name="pq10" value="e">
+
+					e) Refugiados conforme o país de origem. 
+
+				</label>
+			</div>
+
+			<div class="comentarios">
+				<p><strong>Comentário:</strong></p>
+				<p>a) Incorreta. Os países com maiores taxas de natalidade ou número de nascimentos vivos tendem a ser países africanos, como Níger, Mali, Uganda e Zâmbia, devido a fatores como altas taxas de fertilidade e falta de acesso a métodos contraceptivos.</p>
+
+				<p>b) Incorreta. Para Produto Interno Bruto (PIB): Países com economias mais desenvolvidas, como Estados Unidos, China, Japão e Alemanha, poderiam ser destacados, pois geralmente apresentam os maiores PIBs do mundo devido ao tamanho de suas economias e diversidade de setores produtivos.</p>
+				
+				<p>c) Incorreta. Para Total de População Urbana: Países com alta urbanização, como Qatar, Singapura, Malta, Bélgica, poderiam ser ampliados, pois possuem grandes populações urbanas em centros urbanos densamente povoados.</p>
+				
+				<p>d) Incorreta. Para Produção de Petróleo: Países com grandes reservas de petróleo, como Arábia Saudita, Estados Unidos, Rússia e Canadá, poderiam ser ampliados, já que são os principais produtores e exportadores de petróleo do mundo, exercendo grande influência no mercado global de energia.</p>
+				
+				<p>e) Correta. A representação de refugiados conforme o país de origem seria condizente com o destaque de países como Síria, Afeganistão, Iraque e Sudão, que são algumas das principais nações de origem de refugiados devido a conflitos armados, perseguições políticas e violações dos direitos humanos em seus territórios. A anamorfose geográfica poderia ser utilizada para ressaltar visualmente a magnitude do deslocamento humano e a distribuição desigual de refugiados pelo mundo.</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+    <p id="numeroCorreto"></p>
+
+    <p id="mensagem" style="display:none"></p>
+
+
+	<div class="area">
+		<img src="../../img1a.gif" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+    <div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+    <!-- Fim do conteúdo -->
+	</div>
+
+
+	<script>
+
+		const segundoDialogo = [
+			{ speaker: "NPC1", text: "Pai, se pudesse escolher, em qual desses lugares você construiria nossa casa: no morro, no terraço ou na planície a beira do rio?" },
+			{ speaker: "NPC2", text: "Bem, filha, é uma pergunta interessante. Cada local tem suas vantagens e desvantagens. No morro, teríamos uma vista incrível e um clima mais fresco, mas as encostas íngremes podem ser perigosas em caso de deslizamentos." },
+			{ speaker: "NPC1", text: "Entendi. E quanto às áreas próximas do rio?" },
+			{ speaker: "NPC2", text: "Já os terraços e as planície fluviais oferecem solo fértil e são propícios para a agricultura, mas devemos ficar atentos às cheias dos rios, que podem inundar essas áreas." },
+			{ speaker: "NPC1", text: "Ok. Obrigada por me ajudar a entender melhor essa questão !" },
+			{ speaker: "NPC2", text: "De nada minha filha." }
+		];
+
+	</script>
+
+
+
+
+    <script>
+
+
+
+
+
+        function checar() {
+
+        
+
+            var respostasCertas = ["a", "a", "a", "d", "a", "c", "e", "b", "c", "e"];
+            var corretas = 0;
+            var incorrretas = 10 - corretas;
+            var cor = ["#99ff99", "#ee4466"];
+
+            for (var i = 0; i < 10; i++) {
+                let respostaUsuario = document.quiz["pq" + (i + 1)].value;
+                let respostaCerta = respostasCertas[i];
+
+                if (respostaUsuario == respostaCerta) {
+                    corretas++;
+                    document.getElementById("q" + (i + 1) + respostaCerta).style.backgroundColor = cor[0];
+                } else {
+                    document.getElementById("q" + (i + 1) + respostaCerta).style.backgroundColor = cor[0];
+                    for (var j = 0; j < document.quiz["pq" + (i + 1)].length; j++) {
+                        if (document.quiz["pq" + (i + 1)][j].value != respostaCerta) {
+                            document.getElementById("q" + (i + 1) + document.quiz["pq" + (i + 1)][j].value).style.backgroundColor = cor[1];
+                        }
+                    }
+                }
+
+            }
+
+
+            corLenta();
+            classEscurecer();
+            comentarios();
+
+            ExibirFeedback(corretas);
+            exibirResultados(corretas, incorrretas);
+
+
+        }
+
+
+        function exibirResultados(corretas, incorretas) {
+            const porcentagemCorretas = ((corretas * 100) / 10).toFixed(0); // Limita a duas casas decimais
+            const numeroCorreto = document.getElementById("numeroCorreto");
+            numeroCorreto.innerHTML = `Você acertou ${corretas} do total de 10 questões, ou seja, ${porcentagemCorretas}%.`;
+            numeroCorreto.style.display = 'block';
+        }
+
+        function ExibirFeedback(corretas) {
+
+            const mensagem = ["Parabéns!", "Foi bom!", "Melhor tentar novamente!"];
+            const imagem = ["../../img1.gif", "../../img2.gif", "../../img3.gif"];
+            let pontos;
+
+            if (corretas < 5) {
+                pontos = 2;
+            } else if (corretas >= 5 && corretas <= 7) {
+                pontos = 1;
+            }
+            else {
+                pontos = 0;
+            }
+
+            const mensagemElement = document.getElementById("mensagem");
+            mensagemElement.innerHTML = mensagem[pontos];
+            mensagemElement.style.display = 'block';
+
+            const imagemElement = document.getElementById("imagem");
+            imagemElement.src = imagem[pontos];
+            imagemElement.style.display = 'block';
+        }
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+<?php include '../../../views/footer.php'; ?>
