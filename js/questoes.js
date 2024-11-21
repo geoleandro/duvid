@@ -31,11 +31,23 @@ function verificar() {
     var button1 = document.getElementById("button1");
 
    
+
+    /*
+    if( QuestoesMarcadas.length < Aula.Questoes.length)
+    {
+        document.getElementById("aviso").style.display = "block";
+        document.getElementById("aviso").innerHTML = "É necessário selecionar todas as questões. Você escolheu " + radios.length + " até agora."
+        return;
+    }
+    */
      if (radios.length < 10)
     {
         document.getElementById("aviso").style.display = "block";
         document.getElementById("aviso").innerHTML = "É necessário selecionar todas as questões. Você escolheu " + radios.length + " até agora."
-       
+        /*
+        checar();
+        return;
+        */
     }
 
     else

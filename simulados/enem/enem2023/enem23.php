@@ -1310,16 +1310,11 @@
 			}
 
 		}
-
-
 		corLenta();
 		classEscurecer();
 		comentarios();
-
 		ExibirFeedback(corretas);
 		exibirResultados(corretas, incorrretas);
-
-
 	}
 
 
