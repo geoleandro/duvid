@@ -5,7 +5,7 @@
 
 
 <!-- Page content -->
-<div class="w3-content" style="max-width:1600px;margin-top:46px">
+<div class="w3-content" style="max-width:100%;margin-top:46px">
 
     <!-- Automatic Slideshow Images -->
     <div class="mySlides w3-display-container w3-center">
@@ -245,9 +245,9 @@
     <h2 class="w3-wide w3-center">Contato</h2>
     <p class="w3-opacity w3-center"><i>Críticas, sugestões, trabalhar em colaboração?</i></p>
 
-    <div class="w3-center"><i class="fa fa-map-marker"></i> Avaré, São Paulo<br>
+    <div class="w3-center"><i class="fa fa-map-marker"></i> Poços de Caldas, Minas Gerais<br>
 
-        <i class="fa fa-envelope"> </i> Email: leandro.henrique@ifsp.edu.br
+        <i class="fa fa-envelope"> </i> Email: leandro.hsilva@ifsuldeminas.edu.br
 
     </div>
 
