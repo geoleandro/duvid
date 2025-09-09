@@ -3,6 +3,17 @@
 
 
 <style>
+
+		.topico {
+			display: none;
+
+		}
+
+		.topico:nth-child(1),
+		.topico.mostrar {
+			display: block
+		}
+
 	#fundoQ {
 		background: url(tp1F01A.png), no-repeat;
 		width: 340px;
