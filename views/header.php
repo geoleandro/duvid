@@ -9,23 +9,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="<?php echo URLSITE; ?>/images/icon/favicon.ico">
 
+		<!-- Remover w3 css em breve-->
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<!-- -->
+
 		<link rel="stylesheet" href="<?php echo URLSITE; ?>/css/personalizado.css">
 		<link rel="stylesheet" href="<?php echo URLSITE; ?>/css/questoes.css">
-
-		<!-- Diálogos -->
+		
+		<!-- Css -->
 		<link rel="stylesheet" href="<?php echo URLSITE; ?>/css/dialogo.css">
-
-		<!-- Css Blog -->
 		<link rel="stylesheet" href="<?php echo URLSITE; ?>/css/blog.css">
+		<link rel="stylesheet" href="<?php echo URLSITE; ?>/css/bootstrap.min.css">
 
 		<!-- Css Textos -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<!-- Javascript -->
-		<script src="<?php echo URLSITE; ?>/js/personalizado.js" ></script>
+		
 
+
+		<!-- Javascript -->
+		<script src="<?php echo URLSITE; ?>/js/bootstrap.bundle.min.js" ></script>
+		<script src="<?php echo URLSITE; ?>/js/darkMode.js" ></script>
+
+		<script src="<?php echo URLSITE; ?>/js/personalizado.js" ></script>
 		<script src="<?php echo URLSITE; ?>/js/questoes.js" ></script>
 		<script src="<?php echo URLSITE; ?>/js/jstextos.js" ></script>
 		<script src="<?php echo URLSITE; ?>/js/dialogoContinuo.js" ></script>
@@ -35,76 +42,61 @@
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-	<div class="w3-top">
-		<div class="w3-bar w3-green w3-card">
-			<a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="AbrirNavBar()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-			<a href="<?php echo URLSITE; ?>" class="w3-bar-item w3-button w3-padding-large">Home</a>
 
-			<div class="w3-dropdown-click w3-hide-small">
-			<button onclick="AbrirDropDown('aulas')" class="w3-padding-large w3-button" title="More">Aulas <i class="fa fa-caret-down"></i></button>
-			<div id="aulas" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-				<a href="<?php echo URLSITE . '/pages/duvid1ano.php'; ?>" class="w3-bar-item w3-button">1º ano</a>
-				<a href="#" class="w3-bar-item w3-button">2º ano</a>
-				<a href="#" class="w3-bar-item w3-button">3º ano</a>
-			</div>
-			</div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary" >
+  <div class="container-fluid fs-5">
+    <a class="navbar-brand me-5" href="<?php echo URLSITE; ?>">Duvid</a>
 
-			<a href="<?php echo URLSITE . '/blog/blog.php'; ?>" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Blog</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="<?php echo URLSITE; ?>">Home</a>
+        </li>
+		<li class="nav-item dropdown mx-2">
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Aulas
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/pages/duvid1ano.php'; ?>">1º ano</a></li>
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/pages/duvid2ano.php'; ?>">2º ano</a></li>
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/pages/duvid3ano.php'; ?>">3º ano</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo URLSITE . '/blog/blog.php'; ?>">Blog</a>
+        </li>
+		<li class="nav-item mx-2">
+          <a class="nav-link" href="<?php echo URLSITE . '/pages/creditos.php'; ?>">Créditos</a>
+        </li>
+		<li class="nav-item">
+		  <a class="nav-link" href="<?php echo URLSITE . '/pages/instrucoesgerais.php'; ?>">Instruções gerais</a>
+        </li>
+        <li class="nav-item dropdown mx-2">
+          <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Simulados
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/simulados/capasimuladoenem.php'; ?>">Enem</a></li>
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/simulados/capasimuladofuvest.php'; ?>">Fuvest</a></li>
+            <li><a class="dropdown-item" href="<?php echo URLSITE . '/simulados/capasimuladounicamp.php'; ?>">Unicamp</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo URLSITE . '/pages/sobre.php'; ?>">Sobre</a>
+        </li>
+      </ul>
+      	<button class="btn btn-outline-secondary" type="button" id="themeToggle">
+			<span class="theme-icon">🌙</span> Modo Escuro
+    	</button>
+    </div>
+  </div>
+</nav>
 
-			<a href="<?php echo URLSITE . '/pages/creditos.php'; ?>" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Créditos</a>
 
-			<a href="<?php echo URLSITE . '/pages/instrucoesgerais.php'; ?>" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Instruções gerais</a>
-
-			<div class="w3-dropdown-click w3-hide-small">
-			<button onclick="AbrirDropDown('simulados')" class="w3-padding-large w3-button" title="More">Simulados <i class="fa fa-caret-down"></i></button>
-			<div id="simulados" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-				<a href="<?php echo URLSITE . '/simulados/capasimuladoenem.php'; ?>" class="w3-bar-item w3-button">Enem</a>
-				<a href="<?php echo URLSITE . '/simulados/capasimuladofuvest.php'; ?>" class="w3-bar-item w3-button">Fuvest</a>
-				<a href="<?php echo URLSITE . '/simulados/capasimuladounicamp.php'; ?>" class="w3-bar-item w3-button">Unicamp</a>
-			</div>
-			</div>
-			
-			<!-- <a href="<?php // echo URLSITE . '/pages/sobre.php'; ?>" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Sobre</a> -->
-
-			<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-
-			<a href="javascript:void(0)" onclick="DarkMode()" class="w3-padding-large w3-hover-red w3-right "><i class="fa fa-lightbulb-o"></i></a>
-		</div>
-	</div>
-
-	<!-- Navbar on small screens -->
-	<div id="navDemo" class="w3-bar-block w3-green w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-		<div class="w3-dropdown-click w3-hide-large">
-		<button onclick="AbrirDropDown('aulasnav')" class="w3-padding-large w3-button" title="More">Aulas <i class="fa fa-caret-down"></i></button>
-		<div id="aulasnav" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-			<a href="<?php echo URLSITE . '/pages/duvid1ano.php'; ?>" class="w3-bar-item w3-button">1º ano</a>
-			<a href="#" class="w3-bar-item w3-button">2º ano</a>
-			<a href="#" class="w3-bar-item w3-button">3º ano</a>
-		</div>
-	</div>
-
-	<a href="<?php echo URLSITE . '/blog/blog.php'; ?>" class="w3-bar-item w3-button w3-padding-large">Blog</a>
-	<a href="<?php echo URLSITE . '/pages/creditos.php'; ?>" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">Créditos</a>
-	<a href="<?php echo URLSITE . '/pages/instrucoesgerais.php'; ?>" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">Instruções gerais</a>
-
-	<div class="w3-dropdown-click w3-hide-large ">
-	<button onclick="AbrirDropDown('simuladosnav')" class="w3-padding-large w3-button" title="More">Simulados <i class="fa fa-caret-down"></i></button>
-		<div id="simuladosnav" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-		<a href="<?php echo URLSITE . '/simulados/capasimuladoenem.php'; ?>" class="w3-bar-item w3-button">Enem</a>
-			<a href="<?php echo URLSITE . '/simulados/capasimuladofuvest.php'; ?>" class="w3-bar-item w3-button">Fuvest</a>
-			<a href="<?php echo URLSITE . '/simulados/capasimuladounicamp.php'; ?>" class="w3-bar-item w3-button">Unicamp</a>
-		</div>
-	</div>
-	
-	<a href="<?php echo URLSITE . '/pages/sobre.php'; ?>" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">Sobre</a>
-	</div>
-</div>
-
-<!-- Botões para aumentar zoom -->
-<div class="w3-padding-top-48">
+<!-- Botões para aumentar zoom      ||        Sera revisado -->
+<!-- <div class="w3-padding-top-48">
 	<div class=" w3-padding w3-display-container w3-right">
 		<button class="w3-green w3-border w3-round-large  w3-margin-right" name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
 		<button class="w3-green w3-border w3-round-large " name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
 	</div>
-</div>
+</div> -->
