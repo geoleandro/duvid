@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../estilos/questoes.css">
+	<link rel="stylesheet" href="../estilos/w3.css">
+	<link rel="stylesheet" href="../estilos/dialogo.css">
+
+	<script src="../estilos/dialogoContinuo.js" defer></script>
+
+
+
+
+	<title>Diálogo entre NPCs</title>
+
+
+
+
+	<style>
+		.ImagemDialogo {
+			padding-top: 5%;
+			max-width: auto;
+			margin: 0 auto;
+			border: 10px solid #fff;
+			border-radius: 20px;
+			box-shadow: 0 0 10px #ccc;
+			background-image: url("../fotoIndex/fundo2.png");
+			background-size: cover;
+			background-position: top;
+		}
+
+
+		/* Mobile */
+
+		@media screen and (max-width: 600px) {
+
+			.ImagemDialogo {
+				padding-top: 5%;
+				max-width: auto;
+				margin: 0 auto;
+				border: 10px solid #fff;
+				border-radius: 20px;
+				box-shadow: 0 0 10px #ccc;
+				background-image: url("../fotoIndex/fundo2.png");
+				background-size: cover;
+				background-position: center;
+				z-index: 10;
+			}
+
+		}
+	</style>
+</head>
+
+
+<body>
+	<!-- <h1 class="w3-center">Duvid Geografia</h1> -->
+
+
+
+
+	<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+
+		<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+			<div class="w3-col s6">
+				<div class="character">
+					<div class="balloon balao1" style="display: block;">
+						<div class="triangle triangleLeft"></div>
+						<span class="pad" id="dialogue1">Clique em iniciar</span>
+					</div>
+					<img class="left" src="../fotoIndex/FotoDir.gif" width="auto" height="auto"
+						alt="Foto personagem Jéssica - Jogo Aventura Geográfica">
+				</div>
+			</div>
+
+			<!-- Segundo diálogo -->
+			<div class="w3-col s6">
+				<div class="character">
+					<div class="balloon balao2" style="display: none;">
+						<div class="triangle triangleRight"></div>
+						<span class="pad" id="dialogue2"></span>
+					</div>
+					<img class="right" src="../fotoIndex/person28.gif" width="auto" height="auto"
+						alt="Foto personagem Franciele - Jogo Aventura Geográfica">
+				</div>
+
+				<!-- <div class="container w3-mobile">
+						<label for="typingSpeed" class="w3-text-white">Velocidade de digitação:</label>
+						<input type="range" id="typingSpeed" min="30" max="150" step="1" value="30">
+					</div> -->
+			</div>
+		</div>
+
+
+		<button id="botaoReiniciar" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom btnIniciar"
+			onclick="reiniciarDialogo('dialogue', primeiroDialogo)">Iniciar</button>
+
+
+		<button id="botaoDialogo" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+			onclick="nextDialogue( 'dialogue', primeiroDialogo )">Próximo</button>
+
+
+		<!-- <span onclick=" showCurrentDialogue('dialogue',primeiroDialogo)" class="w3-button w3-pale-yellow w3-margin-left">
+			showDialogue:</span> -->
+
+	</div>
+
+
+	<!-- segundo dupla -->
+
+
+	<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+
+		<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+			<div class="w3-col s6">
+				<div class="character">
+					<div class="balloon balao1" style="display: block;">
+						<div class="triangle triangleLeft"></div>
+						<span class="pad" id="segundaDupla1">Clique em próximo</span>
+					</div>
+					<img class="left" src="../fotoIndex/FotoDir.gif" width="auto" height="auto"
+						alt="Foto personagem Jéssica - Jogo Aventura Geográfica">
+				</div>
+			</div>
+
+			<!-- Segundo diálogo -->
+			<div class="w3-col s6">
+				<div class="character">
+					<div class="balloon balao2" style="display: none;">
+						<div class="triangle triangleRight"></div>
+						<span class="pad" id="segundaDupla2"></span>
+					</div>
+					<img class="right" src="../fotoIndex/Pai.gif" width="auto" height="auto"
+						alt="Foto personagem Jo´se - Jogo Aventura Geográfica">
+				</div>
+
+
+			</div>
+		</div>
+
+		<button id="botaoReiniciar2" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom btnIniciar"
+			onclick="reiniciarDialogo('segundaDupla',segundoDialogo)">Iniciar</button>
+
+		<button id="botaoDialogo2" class="w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+			onclick="nextDialogue( 'segundaDupla', segundoDialogo)">Próximo</button>
+
+
+
+	</div>
+
+
+
+
+	<script>
+
+
+
+
+		// const primeiroDialogo = [
+		// 	{ speaker: "NPC1", text: " " },
+		// 	{ speaker: "NPC2", text: " " },
+		// 	{ speaker: "NPC1", text: " " },
+		// 	{ speaker: "NPC2", text: " " }
+		// ];
+
+		const segundoDialogo = [
+			{ speaker: "NPC1", text: "Pai, se pudesse escolher, em qual desses lugares você construiria nossa casa: no morro, no terraço ou na planície a beira do rio?" },
+			{ speaker: "NPC2", text: "Bem, filha, é uma pergunta interessante. Cada local tem suas vantagens e desvantagens. No morro, teríamos uma vista incrível e um clima mais fresco, mas as encostas íngremes podem ser perigosas em caso de deslizamentos." },
+			{ speaker: "NPC1", text: "Entendi. E quanto às áreas próximas do rio?" },
+			{ speaker: "NPC2", text: "Já os terraços e as planície fluviais oferecem solo fértil e são propícios para a agricultura, mas devemos ficar atentos às cheias dos rios, que podem inundar essas áreas." },
+			{ speaker: "NPC1", text: "Ok. Obrigada por me ajudar a entender melhor essa questão !" },
+			{ speaker: "NPC2", text: "De nada minha filha." }
+		];
+
+
+
+		const primeiroDialogo = [
+			{ speaker: "Jéssica", text: "Eu tô estudando com o Duvid Geografia." },
+			{ speaker: "Franciele", text: "Que legal! O que tem nele?" },
+			{ speaker: "Jéssica", text: "Muitas coisas: questões com ajuda e comentários; Textos com atividades práticas ao final." },
+			{ speaker: "Franciele", text: "Nossa, Jéssica, vou estudar também e ainda posso usar no celular!" },
+			{ speaker: "Jéssica", text: "Sim, meu professor que fez, é de graça!" },
+		];
+
+
+
+	</script>
+</body>
+
+</html>

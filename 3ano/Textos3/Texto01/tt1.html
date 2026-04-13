@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="../../../estilos/index-estilo.css">
+    <link rel="stylesheet" href="../../../estilos/navbar.css">
+    <link rel="stylesheet" href="../../../estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="../../../estilos/ModeloCss.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../fotoIndex/favicon.ico">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+
+    <script src="../../../js/duvid-cache.js" defer></script>
+    <script src="../../../js/duvid-db.js" defer></script>
+
+    <script src="../../../js/duvid-audio.js" defer></script>
+    <script src="../../../js/duvid-ui.js" defer></script>
+
+    <script src="../../../js/duvid-core.js" defer></script>
+
+    <script src="../../../estilos/jstextos-padrao.js" defer></script>
+    <script src="../../../js/abrirmenu.js" defer></script>
+    <script src="../../../js/carregar.js" defer></script>
+
+    <script src="../../../js/aulas-geral.js" defer></script>
+
+
+    <title>3º ano - Texto 01</title>
+
+
+
+    <style>
+        .topico {
+            display: block;
+        }
+
+        .topico:nth-child(1),
+        .topico.mostrar {
+            display: block
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <!-- Navigation (Stays on Top) -->
+
+
+        <div class="topico">
+
+
+            <div class="w3-padding-top-48">
+
+            </div>
+
+
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span> </p>
+
+                <p><strong>Objetivo:</strong> Caracterizar o mundo atual. Identificar e entender as principais
+                    características
+                    da sociedade no capitalismo atual, a divisão internacional do trabalho e suas desigualdades
+                    socioespaciais e
+                    os processos que ocorrem no espaço geográfico.</p>
+            </div>
+
+
+
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+
+        <!-- 
+        <div class="topico">
+
+
+            <p class="paragrafo " id="caixaNomeAluno">Digite seu nome</p>
+            <br>
+
+            <div class="area">
+                <input class="input" type="text" id="pq0" name="pq0">
+            </div>
+
+
+            <p id="resp0"></p>
+
+            <button id="buttonConfira" onclick="NomeAlunos('resp0','pq0')">Próximo </button>
+
+
+            <button id="buttonA" onclick="MostrarProximo(this); this.style.display='none'">Confirmar</button>
+            <hr>
+        </div> -->
+
+
+
+
+        <div class="topico ">
+
+            <h2> Introdução </h2>
+
+
+            <p> <span class="primeiraLetra">E</span>ssa última etapa do ensino médio promete ser muito agitada em
+                relação ao
+                aprendizado da Geografia. Isso porque vamos embarcar em uma jornada pela Geografia do mundo.
+            </p>
+
+
+            <p>Ao longo deste ano, exploraremos a população mundial, seu crescimento e movimentos demográficos.
+                Analisaremos
+                o desenvolvimento e qualidade de vida, abordando indicadores como educação, saúde e poder de consumo, e
+                sua
+                relação com o progresso das nações. Investigaremos o impacto da industrialização na formação de blocos
+                econômicos e na globalização. </p>
+
+            <p>Conheceremos diferentes regiões, como América do Norte, Américas Central e do Sul, África e Oriente
+                Médio,
+                compreendendo seus desafios, conflitos e desigualdades. Abordaremos também temas como agricultura, redes
+                de
+                transporte e comércio global. E ai, Estão preparados para explorar a diversidade da Ásia, Oceania e
+                União
+                Europeia, e desvendar os segredos da dinâmica do mundo atual? </p>
+
+            <p>Vamos lá! E para isso temos a honra de conhecer o maior geógrafo brasileiro de todos os tempos!</p>
+
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+                <h3>1. Como o autor descreve os três mundos (primeiro, segundo e terceiro) e o que essa visão sugere
+                    sobre
+                    as diferenças entre eles?</h3>
+                <h3>2. O autor critica o modelo atual de globalização. Quais são os principais problemas apontados e
+                    qual
+                    seria uma alternativa mais justa segundo ele?</h3>
+                <h3>3. De que maneira as redes geográficas são utilizadas como instrumentos de poder e controle no mundo
+                    globalizado?</h3>
+                <h3>4. Por que a globalização não deve ser vista como um processo imutável? Que fatores podem
+                    transformá-la?
+                </h3>
+                <h3>5. Como a globalização contribui para a exclusão social e para o surgimento de uma "contraordem"?
+                    Que
+                    papel a resistência e o desejo de mudança desempenham nesse contexto?</h3>
+
+                <h3>6. Qual a diferença entre crescimento econômico e desenvolvimento humano? Por que essa distinção é
+                    importante para compreender o mundo atual?</h3>
+
+                <h3>7. Explique como a Divisão Internacional do Trabalho reforça as desigualdades entre países
+                    desenvolvidos
+                    e subdesenvolvidos.</h3>
+
+                <h3>8. O que são desigualdades socioespaciais? Dê um exemplo presente no Brasil ou em sua cidade.</h3>
+
+                <h3>9. De que forma o avanço das tecnologias e da informação pode tanto ampliar oportunidades quanto
+                    aprofundar desigualdades no contexto da globalização?</h3>
+
+                <h3>10. Segundo uma perspectiva crítica da Geografia, qual deve ser o papel dos cidadãos e dos Estados
+                    na
+                    construção de um modelo de globalização mais justo e humano?</h3>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+
+
+
+
+        <div class="topico">
+
+
+
+
+            <div class="w3-center">
+
+                <h2 class="fontePixel"> <img src="micro2.png" alt="microfone" width="84" height="84"> Duvid - Podcast
+                </h2>
+
+                <p><strong>Duvid – Entrevista Milton Santos (1926-2001 - <em>in memoriam</em>)</strong>
+                </p>
+
+                <div class="w3-margin"><img id="imagem1" src="tt01f01.png" alt="tt01f01" class="w3-mobile">
+
+                    <span class="w3-small w3-margin-left" id="citacao1"> </span>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="w3-container w3-center w3-padding-32">
+                <h1 class="w3-xxlarge"><b>Milton Santos: O Pensar Crítico</b></h1>
+                <p class="w3-large">Adaptação didática do livro <i>"Por uma outra globalização"</i> (2001)</p>
+            </div>
+
+            <div class="w3-content" style="max-width:900px">
+
+                <div class="w3-container w3-yellow w3-padding-small w3-margin-bottom">
+                    <h3 class="w3-center">PÁGINA 1: OS TRÊS MUNDOS</h3>
+                </div>
+
+                <div class="w3-row-padding">
+                    <div class="w3-col m6 w3-margin-bottom">
+                        <img src="hq/quadro1.jpg" alt="Duvid Podcast" class="w3-image w3-mobile w3-card-2">
+                    </div>
+                    <div class="w3-col m6 w3-margin-bottom">
+                        <img src="hq/quadro2.jpg" alt="Pergunta do Duvid" class="w3-image w3-mobile w3-card-2">
+                    </div>
+                </div>
+
+                <div class="w3-margin w3-center">
+                    <img src="hq/quadro3.jpg" alt="Três Mundos Coexistindo" class="w3-image w3-mobile w3-card-4">
+                    <p class="w3-small w3-text-grey">Milton Santos explica a coexistência dos três mundos.</p>
+                </div>
+
+                <div class="w3-container w3-yellow w3-padding-small w3-margin-top w3-margin-bottom">
+                    <h3 class="w3-center">PÁGINA 2: FÁBULA E PERVERSIDADE</h3>
+                </div>
+
+                <div class="w3-row-padding">
+                    <div class="w3-col  w3-margin-bottom">
+                        <img src="hq/quadro4.jpg" alt="Globalização como Fábula" class="w3-image w3-mobile w3-card-2">
+                    </div>
+                    <div class="w3-col  w3-margin-bottom">
+                        <img src="hq/quadro5.jpg" alt="Globalização Perversa" class="w3-image w3-mobile w3-card-2">
+                    </div>
+                </div>
+
+                <div class="w3-row-padding">
+                    <div class="w3-col m6 w3-margin-bottom">
+                        <img src="hq/quadro6.jpg" alt="Duvid Questionando" class="w3-image w3-mobile">
+                    </div>
+                    <div class="w3-col m6 w3-margin-bottom">
+                        <img src="hq/quadro7.jpg" alt="Técnica e Política" class="w3-image w3-mobile">
+                    </div>
+
+                </div>
+
+                <div class="w3-margin w3-center">
+
+                    <img src="hq/quadro8.jpg" alt="Complexo de Objetos" class="w3-image w3-mobile">
+
+                </div>
+
+                <div class="w3-row-padding w3-center">
+                    <img src="hq/quadro9.jpg" alt="Mapa Mundi Desigual" class="w3-image w3-mobile w3-card-4">
+                    <p class="w3-small">A velocidade e a informação são para poucos.</p>
+                </div>
+
+                <div class="w3-container w3-yellow w3-padding-small w3-margin-top w3-margin-bottom">
+                    <h3 class="w3-center">PÁGINA 3: RESISTÊNCIA E POSSIBILIDADE</h3>
+                </div>
+
+                <div class="w3-margin w3-center">
+
+                    <img src="hq/quadro11.jpg" alt="Espaço não é neutro" class="w3-image w3-mobile w3-card-2">
+
+
+                </div>
+
+                <div class="w3-col s12 w3-margin-bottom w3-center">
+                    <div style="max-width: 500px; margin: 0 auto;">
+                        <img src="hq/quadro12.jpg" alt="Resistência no Brasil" class="w3-image w3-card-2">
+                    </div>
+                </div>
+                <div class="w3-margin w3-center">
+                    <img src="hq/quadro13.jpg" alt="Território como Abrigo" class="w3-image w3-mobile w3-card-2">
+                    <span class="w3-small w3-margin-left" id="citacao2">Cena inspirada na solidariedade horizontal de
+                        Milton
+                        Santos.</span>
+                </div>
+
+                <div class="w3-row-padding">
+                    <div class="w3-col  w3-margin-bottom">
+                        <img src="hq/quadro14.jpg" alt="O Mundo que pode ser" class="w3-image w3-mobile">
+                    </div>
+                    <div class="w3-col  w3-margin-bottom">
+                        <img src="hq/quadro15.jpg" alt="Tecnologia Social" class="w3-image w3-mobile">
+                    </div>
+                    <div class="w3-col  w3-margin-bottom">
+                        <img src="hq/quadro16.jpg" alt="Final: Solidariedade" class="w3-image w3-mobile">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w3-margin-bottom"></div>
+
+
+
+            <p><strong>Duvid:</strong> Bem-vindos ao Duvid Podcast! Hoje recebemos um convidado especial: o geógrafo
+                brasileiro Milton Santos, nascido na Bahia em 1926. Reconhecido internacionalmente, ele construiu uma
+                importante trajetória acadêmica, incluindo anos de trabalho em universidades no exterior, e deixou um
+                grande
+                legado para o estudo das relações entre espaço, sociedade e globalização. </p>
+
+            <p>Nesta conversa, vamos discutir as principais ideias de seu livro Por uma outra Globalização: do
+                pensamento
+                único à consciência universal, refletindo sobre o mundo atual e as possibilidades de transformá-lo. É
+                uma
+                honra recebê-lo conosco.</p>
+
+            <p> <strong>Prof. Milton Santos:</strong> Eu estou muito sensível em participar desse programa e conversar
+                sobre
+                Globalização,
+                que é nosso filé mignon, afinal. (risos).
+
+            </p>
+
+            <p><strong>Duvid:</strong> Prof. o Sr. poderia nos dizer, inicialmente, o que é o mundo hoje? </p>
+
+
+            <p><strong>Prof. Milton Santos:</strong> Certamente. Vivemos em um mundo confuso, não apenas porque ele é
+                complexo, mas porque é apresentado de forma confusa. Há um enorme avanço das ciências e das técnicas e
+                uma
+                aceleração da vida marcada pela velocidade. Para compreender esse mundo, é preciso reconhecer que ele
+                não é
+                único: na verdade, existem três mundos coexistindo em um só.</p>
+
+
+            <p><strong>Duvid:</strong> e quais seriam esses mundos, professor? </p>
+
+            <p><strong>Prof. Milton Santos:</strong> O primeiro é o mundo como nos fazem crer, onde a globalização
+                aparece
+                como uma fábula. Fala-se em aldeia global, integração entre os povos e igualdade de oportunidades, mas
+                isso
+                esconde o aumento das desigualdades e o fortalecimento do mercado financeiro.
+
+                O segundo é o mundo como ele é, marcado pela globalização perversa. Nele observamos desemprego, pobreza,
+                fome, crises constantes e exclusão social. A competitividade exagerada e o culto ao consumo substituem
+                valores como solidariedade.
+
+                O terceiro é o mundo como ele pode ser, baseado em uma outra globalização, mais humana. As mesmas
+                técnicas
+                que hoje servem ao capital poderiam ser utilizadas para atender às necessidades da população e
+                fortalecer a
+                cidadania.
+            </p>
+            <p><strong>Duvid:</strong> E de que forma esses mundos estão ligados à globalização? Como podemos defini-la?
+            </p>
+
+            <p><strong>Prof. Milton Santos:</strong> Eu creio que a <strong>globalização</strong> é, de certa forma, o
+                ápice
+                do processo de
+                internacionalização do mundo capitalista. Para entende-la, devemos analisar as técnicas e a política de
+                forma conjunta. As técnicas são esse aparato que estão a nossa disposição, como a internet por exemplo,
+                e a
+                política são as ações que asseguram como devemos usar todo esse emaranhado de objetos em um mercado,
+                agora
+                chamado de global.</p>
+
+            <p><strong>Duvid:</strong> E como o senhor define a globalização?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> A globalização é o ponto mais avançado do processo de
+                internacionalização do capitalismo. Para entendê-la, é preciso analisar conjuntamente as técnicas e a
+                política. As técnicas, como a internet e os computadores, só funcionam conforme decisões políticas e
+                interesses econômicos.
+            </p>
+
+            <p><strong>Duvid:</strong> O que diferencia a globalização atual de outros períodos históricos, como o
+                Império
+                Romano ou as grandes navegações?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> A principal diferença está no sistema técnico atual. Nunca antes
+                foi
+                possível agir em vários lugares ao mesmo tempo e conhecer acontecimentos do mundo inteiro de forma
+                imediata.
+                Hoje, cada lugar do planeta está conectado aos demais, ainda que de maneira desigual.</p>
+
+            <p><strong>Duvid:</strong> Então todos participam igualmente desse mundo globalizado?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Não. Essa é uma das grandes ilusões da globalização. A velocidade,
+                a
+                informação e as oportunidades estão disponíveis apenas para uma parte da população. O dinheiro circula
+                livremente pelo mundo, mas as pessoas não.
+            </p>
+
+
+            <div class="w3-margin"><img id="imagem2" src="tt01f02.png" alt="tt01f02" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao2"> </span>
+
+            </div>
+
+
+            <p><strong>Duvid:</strong> Isso ajuda a explicar por que as desigualdades continuam existindo?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Exatamente. O espaço não é neutro. O lugar onde uma pessoa vive
+                define
+                suas oportunidades como produtora, consumidora e cidadã. Pessoas com a mesma formação e renda podem ter
+                vidas muito diferentes dependendo do território em que estão. Por isso, nem tudo depende apenas do
+                esforço
+                individual.</p>
+
+            <p><strong>Duvid:</strong> O senhor considera a globalização atual negativa?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Eu a considero perversa. Há a violência da informação, usada para
+                manipular consciências por meio da publicidade, e a violência do dinheiro, que se tornou o centro do
+                mundo.
+                O ser humano deixou de ser prioridade. Vivemos uma época marcada pelo medo, pelo individualismo e pela
+                perda
+                da solidariedade.</p>
+
+            <p><strong>Duvid:</strong> Como isso afeta os países pobres, como o Brasil?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> O Brasil faz parte dessa globalização de forma desigual. Grande
+                parte
+                da população compõe o que chamo de nação passiva, que participa apenas de maneira marginal do mercado
+                global. Apesar disso, essa população cria formas próprias de resistência e mantém uma cultura viva,
+                ligada
+                ao território.</p>
+
+            <p><strong>Duvid:</strong> O território pode ser uma forma de resistência?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Sim. O território não é apenas o espaço físico, mas o chão mais a
+                população, com identidade e sentimento de pertencimento. Mesmo diante da globalização, o território
+                funciona
+                como abrigo, permitindo a criação de solidariedades e novas formas de organização da vida.</p>
+
+
+
+
+            <div class="w3-margin"><img id="imagem3" src="tt01f03.png" alt="tt01f03" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao3"> </span>
+
+
+            </div>
+
+            <p><strong>Duvid:</strong> Isso significa que pode existir uma outra globalização?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Sim. A globalização atual não é irreversível. O mundo não é feito
+                apenas do que existe, mas também do que pode existir. As técnicas atuais podem ser usadas de outra
+                maneira,
+                em favor da cidadania, da justiça social e da dignidade humana.
+            </p>
+
+            <p><strong>Duvid:</strong> Essa mudança pode partir de onde?</p>
+
+            <p><strong>Prof. Milton Santos:</strong> Ela não virá dos países centrais, mas dos países subdesenvolvidos.
+                É
+                nesses lugares que surge uma consciência crítica baseada na experiência da escassez e da exclusão. A
+                história ainda não acabou; ela está apenas começando.</p>
+
+            <p><strong>Duvid:</strong> Para finalizar, que mensagem o senhor deixaria aos estudantes?</p>
+
+
+            <p><strong>Prof. Milton Santos:</strong> A globalização atual pode ser transformada. Temos as condições
+                técnicas, materiais e intelectuais para construir um mundo mais humano. Quando colocarmos o ser humano
+                no
+                centro das ações, poderemos iniciar uma verdadeira história universal baseada na solidariedade.</p>
+
+
+
+
+            <div class="w3-margin"><img id="imagem4" src="tt01f04.png" alt="tt01f04" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao4"> </span>
+            </div>
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual é a visão do professor Milton Santos sobre os diferentes mundos existentes
+                    atualmente?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Existe apenas um mundo, conforme difundido pela globalização.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Existem três perspectivas diferentes sobre o mundo: o mundo como nos fazem crer
+                            (fábula), o
+                            mundo como ele é (perversidade), e a possibilidade de construir um outro mundo.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Existem múltiplos mundos, cada um com sua própria realidade e globalização.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: O território envolve fronteiras e poder!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="../../../fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>De acordo com o professor Milton Santos, qual é uma das perspectivas negativas da
+                    globalização?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="correto" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) A globalização como uma fábrica de perversidades, com aumento da pobreza e
+                            desigualdades.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) A globalização como um processo benéfico, que promove o desenvolvimento econômico e
+                            social.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) A globalização como uma utopia alcançável, que leva à igualdade global.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'para o professor a globalização amplia as desigualdades', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="../../../fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="topico">
+
+            <h2>O Mundo Atual: Desenvolvimento, Desigualdades e Globalização</h2>
+
+            <p>
+                Vivemos em um mundo marcado por profundas transformações econômicas, tecnológicas e sociais. Ao mesmo
+                tempo
+                em que observamos grandes avanços científicos, crescimento econômico e integração entre países, também
+                convivemos com desigualdades intensas, pobreza, exclusão social e diferenças significativas entre
+                regiões do
+                planeta.
+            </p>
+
+            <p>
+                Para compreender o mundo atual, é fundamental analisar alguns conceitos centrais da Geografia:
+                desenvolvimento e subdesenvolvimento, divisão internacional do trabalho, desigualdades socioespaciais e
+                globalização.
+            </p>
+
+            <p>
+                Durante muito tempo, os países foram classificados apenas como desenvolvidos ou subdesenvolvidos, com
+                base
+                principalmente em critérios econômicos, como renda e nível de industrialização. Os países desenvolvidos,
+                em
+                geral localizados na Europa, América do Norte e Japão, apresentam alto grau de industrialização, elevado
+                PIB, boa infraestrutura e amplo acesso à saúde, educação e tecnologia.
+            </p>
+
+            <p>
+                Já os países subdesenvolvidos, concentrados principalmente na África, América Latina e parte da Ásia,
+                enfrentam problemas como pobreza, desigualdade social, baixa industrialização, dependência econômica e
+                dificuldades no acesso a serviços básicos. Hoje, essa classificação é considerada limitada, pois existem
+                países emergentes, como Brasil, Índia e China, e porque o desenvolvimento envolve também qualidade de
+                vida,
+                medida por indicadores como o IDH.
+            </p>
+
+            <p>
+                A Divisão Internacional do Trabalho refere-se à especialização produtiva dos países na economia mundial.
+                Em
+                geral, os países desenvolvidos concentram atividades de maior valor agregado, como tecnologia, pesquisa
+                científica e serviços financeiros, enquanto países subdesenvolvidos ou emergentes se especializam na
+                exportação de matérias-primas, produção agrícola e uso de mão de obra barata, reforçando relações de
+                dependência econômica.
+            </p>
+
+            <p>
+                As desigualdades socioespaciais aparecem tanto entre países quanto dentro deles. Nas cidades, é comum a
+                convivência de áreas bem estruturadas com regiões marcadas pela precariedade. O lugar onde uma pessoa
+                vive
+                influencia diretamente suas oportunidades de estudo, trabalho e acesso a serviços, mostrando que o
+                espaço
+                geográfico é produzido de forma desigual.
+            </p>
+
+            <p>
+                A globalização intensifica as relações entre países por meio do avanço das tecnologias, dos transportes,
+                do
+                comércio e da circulação de capitais. Apesar de gerar avanços tecnológicos e maior circulação de
+                informações, ela também amplia desigualdades, beneficia grandes empresas e dificulta a vida de milhões
+                de
+                trabalhadores, evidenciando seus contrastes e contradições.
+            </p>
+
+            <p>
+                O mundo atual é marcado por fortes contrastes: grandes avanços convivem com pobreza e exclusão social. A
+                Geografia nos ajuda a compreender que essas desigualdades não são naturais, mas resultado de escolhas
+                políticas, econômicas e sociais, convidando à reflexão sobre modelos de desenvolvimento mais justos e
+                humanos.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
+                Próximo
+            </button>
+
+            <hr>
+
+        </div>
+
+
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="infograficot2" src="inforesumot1.jpg"
+                    alt="Infográfico resumo raio x da população" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+
+            <h2 id="centralizado"> As perguntas nos levam a questionar o <em>status quo</em> e a desafiar ideias
+                preestabelecidas, impulsionando o progresso e a transformação em todas as áreas do conhecimento.</h2>
+
+
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Como a globalização afeta as desigualdades econômicas e sociais entre os países?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                A globalização pode ampliar as desigualdades econômicas e sociais entre os países devido à assimetria de
+                recursos e poder. Por exemplo, a empresa multinacional Nike, sediada nos Estados Unidos, produz seus
+                produtos em países de mão de obra barata, como China, Vietnã e Indonésia. Embora isso possa trazer
+                empregos
+                e impulsionar a economia desses países, a maior parte do lucro e do controle sobre a marca e a cadeia de
+                suprimentos permanece concentrada nos países desenvolvidos, acentuando as disparidades econômicas e
+                sociais.
+
+            </p>
+
+
+
+
+
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Quais são as possíveis consequências da globalização para a cultura e identidade de um país?
+
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                A globalização pode levar à homogeneização cultural, à perda de tradições e à influência dominante de
+                certos
+                valores e estilos de vida. Um exemplo disso é a disseminação do cinema hollywoodiano ao redor do mundo.
+                Filmes de grandes estúdios como a Disney e a Marvel alcançam audiências globais, levando à popularização
+                da
+                cultura americana e influenciando as narrativas cinematográficas de outras regiões. Isso pode resultar
+                na
+                supressão ou marginalização das produções culturais locais, levantando questões sobre a preservação da
+                diversidade cultural.
+
+            </p>
+
+
+
+
+
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Como a tecnologia e a internet têm impulsionado a globalização?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                A tecnologia e a internet revolucionaram a forma como nos comunicamos e fazemos negócios, impulsionando
+                a
+                globalização. Um exemplo é o crescimento do comércio eletrônico e a presença de empresas como a Amazon.
+                Por
+                meio da plataforma online da Amazon, vendedores de diferentes partes do mundo podem alcançar
+                consumidores
+                internacionais, ampliando seus mercados e eliminando barreiras geográficas. Isso permite que pequenos
+                empreendedores tenham acesso a uma audiência global, promovendo a diversificação do comércio
+                internacional e
+                proporcionando maior conectividade econômica entre diferentes países. No entanto, é importante ressaltar
+                que
+                nem todos os países têm igual acesso e benefícios da tecnologia, o que pode perpetuar disparidades
+                digitais
+                entre nações desenvolvidas e em desenvolvimento.
+
+
+
+            </p>
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <br><br>
+
+
+            <hr>
+
+        </div>
+
+
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true, 
+        idFrase: 'respFinal', 
+        idGlobo: 'globinhorespFinal', 
+        classe: '', 
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+
+            <div class="area">
+                <p><img src="../../../fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64">
+                </p>
+            </div>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+
+
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+
+
+
+        </div>
+
+
+
+
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+
+            <div class="w3-row-padding">
+
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="postit-tp9 w3-green w3-card-4 pulsar">
+                        <a href="https://www.dw.com/..." target="_blank">
+                            <span class="w3-text-white">Quase metade da população mundial vive na pobreza</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="postit-tp9 w3-blue w3-card-4 pulsar">
+                        <a href="https://www.acnur.org/..." target="_blank">
+                            <span class="w3-text-white">108,4 milhões de pessoas deslocadas à força</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="postit-tp9 w3-white w3-card-4 pulsar">
+                        <a href="https://news.un.org/..." target="_blank">
+                            <span class="w3-text-black">Fome cresce no mundo e atinge 9,8% da população</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="w3-col m6 w3-margin-bottom">
+                    <div class="postit-tp9 w3-deep-orange w3-card-4 pulsar">
+                        <a href="https://cee.fiocruz.br/..." target="_blank">
+                            <span class="w3-text-white">2,2 bilhões de pessoas não têm água potável</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green"><strong><i class="fa fa-book"></i> Referências
+                        Bibliográficas</strong></h3>
+
+                <div class="w3-row-padding w3-margin-top">
+
+                    <div class="w3-col l4 m6 w3-margin-bottom">
+                        <div class="w3-card-4 w3-white w3-border-top w3-border-green"
+                            style="border-width: 6px !important; min-height: 180px;">
+                            <div class="w3-container w3-padding">
+                                <span class="w3-tag w3-green w3-small fontePixel">Livro Base</span>
+                                <p class="w3-margin-top">SANTOS, Mílton. <br><b>Por uma outra globalização</b>: do
+                                    pensamento único à consciência universal. <br>Rio de Janeiro: Record, 2000.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-col l4 m6 w3-margin-bottom">
+                        <div class="w3-card-4 w3-white w3-border-top w3-border-blue"
+                            style="border-width: 6px !important; min-height: 180px;">
+                            <div class="w3-container w3-padding">
+                                <span class="w3-tag w3-blue w3-small fontePixel">Geografia Crítica</span>
+                                <p class="w3-margin-top">SANTOS, Milton. <br><b>O espaço do cidadão</b>. <br>São Paulo:
+                                    Editora da USP, 2007.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w3-col l4 m6 w3-margin-bottom">
+                        <div class="w3-card-4 w3-white w3-border-top w3-border-deep-orange"
+                            style="border-width: 6px !important; min-height: 180px;">
+                            <div class="w3-container w3-padding">
+                                <span class="w3-tag w3-deep-orange w3-small fontePixel">Narrativa</span>
+                                <p class="w3-margin-top">VOGLER, Christopher. <br><b>A jornada do escritor</b>. <br>Rio
+                                    de
+                                    Janeiro: Nova Fronteira, 2006.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="w3-col l4 m6 w3-margin-bottom">
+                        <div class="w3-card-4 w3-white w3-border-top w3-border-purple"
+                            style="border-width: 6px !important; min-height: 180px;">
+                            <div class="w3-container w3-padding">
+                                <span class="w3-tag w3-purple w3-small fontePixel">Teoria Espacial</span>
+                                <p class="w3-margin-top">SOJA, Edward. <br><b>Postmetropolis</b>: Critical Studies of
+                                    Cities
+                                    and Regions. <br>Oxford: Blackwell, 2000.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+
+    <div id="footer-placeholder"></div>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

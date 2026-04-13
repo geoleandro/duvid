@@ -1,0 +1,2088 @@
+/* --- CONTEÚDO DA AULA --- */
+main {
+  background-color: white;
+  width: 100%;
+  max-width: 750px;
+  margin: 70px auto 20px auto;
+  /* Margin-top para não sumir sob a Navbar */
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+
+
+.balancar {
+  animation: shake 0.5s;
+  animation-iteration-count: 1;
+}
+
+.shake-erro {
+  animation: shake 0.5s cubic-bezier(.36, .07, .19, .97) both;
+}
+
+@keyframes shake {
+
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* Espaçamento para o Card de Aviso (Texto e Questões) */
+#aviso-status {
+  display: block;
+  width: 95%;
+  max-width: 750px;
+  margin: 70px auto 10px auto !important;
+  /* 70px de topo para descolar da Navbar */
+  padding: 0 10px;
+  z-index: 5;
+  /* Garante que fique abaixo do dropdown da Navbar se abrir */
+}
+
+/* Ajuste para o Main logo abaixo do aviso */
+#aviso-status+main {
+  margin-top: 10px !important;
+  /* Se tiver aviso, o main não precisa de 80px de topo */
+}
+
+/* Classe de erro para o botão tremer e mudar de cor */
+.btn-erro-animado {
+  background-color: #ffc107 !important;
+  /* Amarelo Amber para atenção */
+  color: #000 !important;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.5) !important;
+}
+
+
+#button1q {
+  display: block;
+  padding: 10px 15px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel
+}
+
+#buttonNome {
+  display: none;
+  padding: 10px 15px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel
+}
+
+::placeholder {
+  width: 100%;
+}
+
+.area {
+  min-height: 90px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+.areaFlex {
+  display: flex;
+}
+
+.areaFlex>button {
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.areaFlex>input {
+  margin: 10px;
+  padding: 20px;
+}
+
+.areaInline {
+  display: inline-block;
+}
+
+.areaInline>button {
+  margin: 10px;
+  padding: 20px;
+}
+
+.areaInline>input {
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.areaBlock {
+  display: block;
+  position: absolute;
+}
+
+.areaBlock>input {
+  margin: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+
+
+
+.centerBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  width: 100%
+}
+
+
+
+.bordaQuestoes {
+  text-align: left;
+  background: white;
+  border: solid lightgrey 0px;
+  height: auto;
+  padding: 3px;
+  width: auto;
+  border-radius: 2px;
+  box-shadow: 4px 4px 4px #888888;
+  word-wrap: break-word;
+  line-height: 30px;
+}
+
+.bordaQuestoes:hover {
+  background-color: #ccc
+}
+
+.btnHide {
+  display: none;
+  padding: 10px 15px;
+  margin: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel
+}
+
+/* Melhoria nos botões para parecerem clicáveis (Feedback tátil) */
+.btnShow {
+  display: block;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #69CB60;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 0 #39693b;
+  position: relative;
+  font-family: 'pixel', sans-serif;
+  transition: all 0.1s;
+}
+
+.btnShow:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #39693b;
+}
+
+.btnShow-tp1 {
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel
+}
+
+.button3 {
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px rgb(31, 26, 26);
+  position: relative;
+  font-family: pixel
+}
+
+.buttonB {
+  display: block;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px rgb(31, 26, 26);
+  position: relative;
+  font-family: pixel
+}
+
+.caixaFotos {
+  text-align: center;
+  height: auto;
+  padding: 5px;
+  width: auto;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centralizado2 {
+  margin-block: 50%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(241, 33, 189);
+}
+
+.citacao {
+  background: white;
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 12px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.comentarios {
+  display: none;
+}
+
+.ConteudoPainelFinal {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-image: url(globinhoPe.png) no-repeat;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.fixa {
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 40px;
+  background-color: #bda599fa;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  text-align: right;
+  font-family: "pixel";
+  box-shadow: 0px 0px 0px #151515 inset;
+  background-image: url(globinhoPe.png);
+  background-position: 260px;
+  background-repeat: no-repeat;
+  background-size: 32px;
+  z-index: 5;
+}
+
+.flex-container .box {
+  background-color: #fffffffa;
+  border: 1px solid;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: auto;
+  font-size: auto;
+  word-break: break-all;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Estilo para o campo de entrada de nome */
+.input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.input:focus {
+  border-color: #69CB60;
+}
+
+.margemDireita {
+  margin-right: 30px;
+}
+
+
+
+.nota {
+  display: none;
+  text-align: center;
+  padding: 10px;
+  font-family: pixel;
+  font-size: 20px
+}
+
+.paragrafo {
+  background: white;
+  border: none;
+  height: auto;
+  width: auto;
+  border-radius: 0px;
+  padding: 5px
+}
+
+.postit-tp1 {
+
+  width: auto;
+  height: auto;
+  padding: 20px;
+  font-family: pixel;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  line-height: 20px;
+  margin: center;
+  position: relative;
+  Color: white;
+  font-size: 20px;
+  box-shadow: 2px 4px 6px #444;
+  -moz-box-shadow: 2px 4px 6px #444;
+  -webkit-box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+}
+
+.postit-tp1>a {
+  text-decoration: none;
+}
+
+.postit-tp1>a:hover {
+  text-decoration: underline;
+}
+
+.primeiraLetra {
+  font-size: 44px;
+  font-family: cursive;
+  color: rgb(241, 33, 189);
+}
+
+.titulo2 {
+  display: block
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#adesivo {
+  display: flex;
+  justify-content: left;
+  margin-top: -160px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#balao {
+  display: inline-block;
+  /* ou float:left, vai do seu uso */
+  color: #b3d456;
+  background-color: #b3d456;
+  border-bottom: 10px solid #b3d456;
+  border-left: 10px solid transparent;
+  background-clip: padding-box;
+  padding: 0 10px 10px 10px;
+}
+
+.borda {
+  display: block;
+  background: white;
+  border: solid;
+  height: auto;
+  margin: 15px;
+  padding: 5px;
+  width: auto;
+  border-radius: 10px;
+}
+
+#button:active {
+  background-color: #69CB60FA;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+
+#button:hover {
+  background-color: #69CB60FA
+}
+
+#button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel;
+}
+
+#buttonA {
+  display: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #69CB60;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 0 #39693b;
+  position: relative;
+  font-family: 'pixel', sans-serif;
+  transition: all 0.1s;
+}
+
+#buttonConfira {
+  display: block;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin: 20px auto;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #69CB60;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 0 #39693b;
+  position: relative;
+  font-family: 'pixel', sans-serif;
+  transition: all 0.1s;
+}
+
+#buttonConfira1 {
+  display: block;
+  padding: 10px 15px;
+  margin: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0px #999;
+  position: relative;
+  font-family: pixel
+}
+
+#caixa {
+  font-size: 18px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+  background: #f89f76fa;
+  color: black;
+  font-weight: bold;
+  border: none black 0px;
+  height: auto;
+  padding: 5px;
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(27, 27, 27);
+  font-family: pixel
+}
+
+/* Caixas de Interação (Nome, Pergunta, etc) */
+.caixa,
+#caixaNomeAluno {
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: center;
+  background: #f1f1f1;
+  /* Cinza bem claro */
+  color: #333;
+  font-weight: bold;
+  border: 2px solid #ddd;
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 0px #ccc;
+  font-family: 'pixel', sans-serif;
+}
+
+
+#caixaPerguntas
+
+/* caixa perguntas  */
+  {
+  line-height: normal;
+  background: white;
+  border: solid 0.5px;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 14pt;
+  color: black;
+  font-weight: bold;
+  font-family: Arial;
+  box-shadow: 5px 10px 20px rgb(248, 27, 200) inset;
+}
+
+#centralizado {
+  margin-block: 30px;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(241, 33, 189);
+}
+
+#citacao6 {
+  height: auto;
+  padding: 5px;
+  width: auto;
+  font-size: 12px;
+}
+
+.divCaixa1 {
+  line-height: normal;
+  background: #cfb9c6fa;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  color: black;
+  font-family: pixel;
+}
+
+#divRef {
+  display: none;
+  width: 320px
+}
+
+/* Título Principal - Agora em Verde Duvid com borda suave */
+#h1 {
+  line-height: normal;
+  background: #69CB60;
+  /* Verde principal */
+  border-radius: 8px;
+  width: auto;
+  color: white;
+  /* Texto branco para melhor contraste */
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 0 #39693b;
+  /* Sombra sólida estilo cartoon */
+  font-family: 'pixel', sans-serif;
+  margin-bottom: 30px;
+}
+
+#imagem {
+  float: left;
+}
+
+#imagemRef {
+  float: left;
+  position: relative;
+}
+
+.mark2 {
+  background-color: rgb(219, 89, 159);
+  color: black;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 2px;
+  box-shadow: 2px 2px 20px #888888;
+}
+
+#mensagem {
+  display: none;
+  background: white;
+  border: solid;
+  height: auto;
+  padding: 5px;
+  width: auto;
+  border-radius: 10px;
+}
+
+#p3
+
+/* Caixa Para saber mais */
+  {
+  line-height: normal;
+  background: #69CB60FA;
+  border: none;
+  border-radius: 5px;
+  padding: 2%;
+  font-size: 14pt;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0px 0px 0px white inset;
+}
+
+/* Card de Questão (Melhorado) */
+.p4 {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto !important;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 15px !important;
+  font-family: 'Arial', sans-serif;
+  /* Texto da pergunta mais legível */
+  font-size: 16px;
+  color: #4b4b4b;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 0 #e5e5e5;
+  /* Efeito de profundidade */
+  text-align: left;
+  display: block;
+}
+
+.p4:hover:not([disabled]) {
+  background-color: #f7f7f7;
+  border-color: #69CB60;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #e5e5e5;
+}
+
+.p4:active:not([disabled]) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #e5e5e5;
+}
+
+/* Quando o botão for desativado (após o clique) */
+.p4:disabled {
+  cursor: not-allowed;
+  opacity: 1 !important;
+  /* NÃO deixa ficar transparente */
+  background-color: #f1f1f1 !important;
+  /* Cor sólida de fundo */
+  color: #4b4b4b !important;
+  /* Cor sólida do texto */
+  border: 2px solid #ddd !important;
+}
+
+/* Estilo para o feedback de texto (resp1) */
+#resp1 {
+  font-family: 'pixel', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+  color: #333;
+}
+
+#postit {
+  background: #ffffa5;
+  width: 250px;
+  height: 120px;
+  padding: 5px;
+  font-family: pixel;
+  margin-bottom: 5px;
+  margin-top: -20px;
+  line-height: 20px;
+  position: relative;
+  font-size: 24px;
+  box-shadow: 2px 4px 6px #444;
+  -moz-box-shadow: 2px 4px 6px #444;
+  -webkit-box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+}
+
+.postit {
+  background: #ffffa5;
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  font-family: pixel;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  line-height: 20px;
+  position: relative;
+  font-size: 24px;
+  box-shadow: 2px 4px 6px #444;
+  -moz-box-shadow: 2px 4px 6px #444;
+  -webkit-box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+}
+
+.postit>a {
+  text-decoration: none;
+}
+
+.postit>a:hover {
+  text-decoration: underline;
+}
+
+#progress {
+  border-radius: 20px;
+  height: 15px;
+  width: 100%;
+  appearance: none;
+  border: none;
+  background-color: #eee;
+}
+
+#progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 20px;
+}
+
+#progress::-webkit-progress-value {
+  background-color: #69CB60;
+  border-radius: 20px;
+  transition: width 0.5s ease;
+}
+
+#Questione {
+  background-color: #f1f1f1;
+  padding: 0.01em 16px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important
+}
+
+
+
+/* Este seletor garante que o conteúdo principal (Main) 
+   fique sempre no centro e com uma largura agradável */
+
+
+span,
+p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  font-family: pixel;
+  font-size: 16px;
+  border-collapse: collapse;
+  width: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  height: auto;
+  line-height: 20px;
+}
+
+textarea {
+  height: auto;
+  padding: 6px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #f8f8f8;
+  font-size: auto;
+  resize: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+ul.lista {
+  font-size: 18px;
+  margin: 20px
+}
+
+.topico {
+
+
+  background-color: white;
+}
+
+
+form>p {
+  padding: 15px;
+
+}
+
+a {
+  font-family: pixel;
+}
+
+.ladoDireito {
+  display: flex;
+  justify-content: right;
+}
+
+.margemTop {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+
+
+.margemAcima {
+  margin-top: 80px;
+}
+
+.margemAbaixo {
+  margin-bottom: 50px;
+}
+
+.larguraBar {
+  max-width: 700px;
+}
+
+.zoom {
+  animation: animatezoom 1s
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+.w3-animate-zoom {
+  animation: zoomPulo 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+@keyframes zoomPulo {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.4);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+/* Animação elástica para o conjunto (Globo + Número) */
+#painel-pontos.w3-animate-zoom {
+  animation: zoomPulo 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Animação do Número (Pulo Elástico) */
+.pulo-elastico {
+  animation: zoomPulo 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+/* Animação do Globinho (Giro com Motion Blur) */
+.giro-globinho {
+  animation: giroGlobinho 0.6s ease-in-out;
+}
+
+.item-resposta {
+  transition: background-color 0.5s ease, border-left 0.3s ease, opacity 0.5s ease;
+  border-left: 6px solid transparent;
+  /* Evita que a div "pule" quando a borda aparecer */
+}
+
+@keyframes giroGlobinho {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  50% {
+    transform: rotate(180deg) scale(1.3);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+@keyframes zoomPulo {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.35);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes giroComBlur {
+  0% {
+    transform: rotate(0deg);
+    filter: blur(0px) brightness(1);
+  }
+
+  50% {
+    transform: rotate(180deg);
+    /* Aplica o desfoque e brilho no meio da rotação */
+    filter: blur(1.5px) brightness(1.3) saturate(1.5);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    filter: blur(0px) brightness(1);
+  }
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 15px;
+
+}
+
+
+.fontePixel {
+  font-family: pixel;
+  line-height: 120%
+}
+
+.justificadoDireita {
+  display: flex;
+  justify-content: right;
+  position: relative
+}
+
+
+.justificadoEsquerda {
+  display: flex;
+  justify-content: left;
+  position: relative
+}
+
+/* Efeito de Card Acadêmico */
+.w3-card-4 {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.w3-card-4:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2) !important;
+}
+
+.w3-card-4 p {
+  font-size: 13px;
+  /* Um pouco menor para caber bem no card */
+  line-height: 1.4;
+  color: #444;
+}
+
+.w3-tag {
+  letter-spacing: 1px;
+}
+
+/* --- COMPATIBILIDADE DARK MODE PARA AULAS --- */
+
+
+
+/* Ajuste do Footer injetado */
+footer i.faIcone {
+  color: white !important;
+}
+
+/* --- BLINDAGEM DO DARK MODE --- */
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+/* Força os textos a ficarem brancos no modo escuro */
+body.dark-mode p,
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode span,
+body.dark-mode b,
+body.dark-mode strong {
+  color: #ffffff !important;
+}
+
+/* Mantém o fundo dos tópicos escuro */
+body.dark-mode .topico,
+body.dark-mode main {
+  background-color: #1e1e1e !important;
+  border-color: #333 !important;
+}
+
+/* Ajuste específico para a Navbar Injetada */
+body.dark-mode .w3-bar {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+body.dark-mode .w3-bar-item {
+  color: #ffffff !important;
+}
+
+/* Garante que o botão de fechar o modal não suma */
+body.dark-mode .w3-modal-content {
+  background-color: #222 !important;
+  color: #fff !important;
+}
+
+
+/* Força as caixas de destaque (como a w3-pale-yellow) a mudarem no Dark Mode */
+body.dark-mode .w3-pale-yellow,
+body.dark-mode .w3-light-grey,
+body.dark-mode .w3-amber {
+  background-color: #2d2d2d !important;
+  /* Cinza escuro suave */
+  color: #f5ff9e !important;
+  /* O seu amarelo de destaque para o texto */
+  border-left: 6px solid #f5ff9e !important;
+  /* Mantém a bordinha de destaque */
+}
+
+/* Garante que o título H2 dentro dessas caixas também fique visível */
+body.dark-mode .topico h2 {
+  color: #ffffff !important;
+}
+
+/* --- AJUSTE DARK MODE PARA O FOOTER --- */
+body.dark-mode footer.w3-green {
+  background-color: #1a1a1a !important;
+  /* Cinza quase preto */
+  color: #e0e0e0 !important;
+  /* Texto cinza claro */
+  border-top: 4px solid #4CAF50 !important;
+  /* Mantém uma linha verde fina no topo para estilo */
+}
+
+/* Garante que os links de política e textos do footer fiquem legíveis */
+body.dark-mode footer a,
+body.dark-mode footer p,
+body.dark-mode footer span {
+  color: #b0b0b0 !important;
+}
+
+/* Deixa os ícones das redes sociais brancos ou verde-claro no escuro */
+body.dark-mode footer .fa-brands {
+  color: #ffffff !important;
+}
+
+/* Estilo Adaptado (Dark Mode) */
+body.dark-mode .bloco-apoio-duvid {
+  background-color: #2d2d2d !important;
+  /* Cinza escuro */
+  border-left: 6px solid #fbc02d !important;
+  /* Amarelo mais fechado */
+  color: #eee;
+}
+
+
+body.dark-mode .bloco-apoio-duvid,
+body.dark-mode .bloco-apoio-duvid p,
+body.dark-mode .bloco-apoio-duvid span {
+  background-color: #1b1b1b !important;
+  /* Cor areia suave */
+  color: #ffffff !important;
+}
+
+body.dark-mode .bloco-apoio-duvid {
+  background-color: #1b1b1b !important;
+  color: #ffffff !important;
+  border-left-color: #fbc02d !important;
+  /* Um amarelo mais escuro/âmbar */
+}
+
+
+body.dark-mode img {
+  filter: brightness(.6) contrast(1.2);
+}
+
+/* --- DARK MODE: TAGS --- */
+body.dark-mode .duvid-tag-assunto {
+  background-color: #333 !important;
+  /* Fundo escuro para a tag */
+  color: #bbb !important;
+  /* Texto cinza claro */
+  border: 1px solid #444;
+}
+
+/* --- DARK MODE: DIFICULDADE (BADGES) --- */
+/* Mantemos as cores, mas ajustamos o brilho para não "ofuscar" no escuro */
+
+body.dark-mode .dificuldade-facil {
+  background-color: #1b2e1c !important;
+  color: #81c784 !important;
+  border-color: #2e7d32 !important;
+}
+
+body.dark-mode .dificuldade-medio {
+  background-color: #2e2111 !important;
+  color: #ffb74d !important;
+  border-color: #ef6c00 !important;
+}
+
+body.dark-mode .dificuldade-dificil {
+  background-color: #2d1313 !important;
+  color: #e57373 !important;
+  border-color: #c62828 !important;
+}
+
+
+body.dark-mode .duvid-img-container {
+  background-color: #222 !important;
+  /* Fundo do card da imagem */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode .duvid-img-principal,
+body.dark-mode .duvid-img-comentario {
+  filter: brightness(0.85) contrast(1.1);
+  /* Reduz o brilho para não ofuscar */
+  transition: filter 0.3s ease;
+}
+
+body.dark-mode .duvid-img-principal:hover {
+  filter: brightness(1);
+  /* Volta ao brilho normal se o aluno passar o mouse */
+}
+
+body.dark-mode .duvid-legenda-box {
+  background-color: #2a2a2a !important;
+  /* Faixa da legenda escura */
+}
+
+body.dark-mode .duvid-legenda-texto {
+  color: #aaa !important;
+  /* Texto da legenda cinza claro */
+}
+
+body.dark-mode .duvid-bloco-apoio {
+  background-color: #1e1e1e !important;
+  color: #ddd !important;
+  border-left-color: #4CAF50 !important;
+  /* Mantém o verde da marca */
+}
+
+body.dark-mode .duvid-texto-citacao {
+  color: #ccc !important;
+}
+
+body.dark-mode .duvid-fonte-texto {
+  color: #888 !important;
+}
+
+body.dark-mode .duvid-painel-dica {
+  background-color: #333 !important;
+  color: #bbb !important;
+  border: 1px solid #444;
+}
+
+/* Estilo Base (Light Mode) */
+.bloco-apoio-duvid {
+  background-color: #fdf5e6 !important;
+  /* Cor areia suave */
+  border-left: 6px solid #ffeb3b !important;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Painel de Pontos "Slim" (Fino) */
+#painel-pontos {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(4px);
+  /* Padding reduzido: 2px em cima/baixo e 10px nas laterais */
+  padding: 2px 10px !important;
+  /* Margem zero para não esticar a Navbar */
+  margin: 0 10px 0 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  /* Bordas bem arredondadas estilo pílula */
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  height: 32px;
+  /* Altura fixa para garantir que a barra não engorde */
+}
+
+/* Ajuste do número dentro do painel */
+#notaFixa {
+  font-size: 16px !important;
+  /* Diminuído levemente */
+  margin-right: 5px !important;
+  line-height: 1 !important;
+}
+
+
+
+/* Garante que botões dentro de modais NUNCA fiquem com cursor de bloqueio */
+.w3-modal-content button,
+.w3-modal-content span {
+  cursor: pointer !important;
+}
+
+
+
+
+
+/* Força o cursor de clique em todos os botões do modal */
+#id01 .w3-button,
+#id01 button {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  z-index: 10001 !important;
+}
+
+/* Remove qualquer bloqueio vindo de classes de "desativar" */
+#id01 .w3-button:disabled,
+#id01 button:disabled {
+  cursor: pointer !important;
+  opacity: 1 !important;
+}
+
+/* Garante que o modal seja a camada mais alta do site */
+.w3-modal {
+  z-index: 99999 !important;
+}
+
+.postit-tp9 {
+
+
+  width: 250px;
+  height: auto;
+  padding: 20px;
+  font-family: pixel;
+  margin-bottom: 60px;
+  margin-top: 60px;
+
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  Color: rgb(0, 0, 0);
+  font-size: 18px;
+  box-shadow: 2px 4px 6px #444;
+  -moz-box-shadow: 2px 4px 6px #444;
+  -webkit-box-shadow: 2px 4px 6px #444;
+  transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+}
+
+.postit-tp9>a {
+  text-decoration: none;
+}
+
+.postit-tp9>a:hover {
+  text-decoration: underline;
+}
+
+.pulsar {
+  transition: transform 500ms;
+  transition-timing-function: cubic-bezier(0.75, -3, .25, 4);
+}
+
+.pulsar:hover {
+  transform: scale(1.1);
+}
+
+.content {
+  display: none;
+  position: relative;
+
+}
+
+
+/* Container principal limitado a 800px para não perder qualidade */
+.hq-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  /* Divide em 6 partes para dar precisão */
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+.hq-grid img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  display: block;
+}
+
+/* CLASSE PARA 3 QUADROS POR LINHA (Padrão) */
+.tres-por-linha {
+  grid-column: span 2;
+}
+
+/* CLASSE PARA 2 QUADROS POR LINHA (Destaque Médio) */
+.dois-por-linha {
+  grid-column: span 3;
+}
+
+/* CLASSE PARA 1 QUADRO CENTRALIZADO (Grande Destaque) */
+.centro-grande {
+  grid-column: span 6;
+  max-width: 600px;
+  /* Opcional: para não esticar demais se a imagem for vertical */
+  margin: 0 auto;
+}
+
+
+/* --- CORREÇÃO PARA O BOTÃO NÃO SUMIR --- */
+
+
+
+button:disabled {
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+/* No ModeloCss.css */
+.p4:disabled {
+  opacity: 1 !important;
+  /* Essencial para as cores do JS aparecerem */
+  cursor: not-allowed;
+}
+
+/* --- AJUSTE DARK MODE PARA CAIXAS COLORIDAS --- */
+
+
+/* Container da Pergunta */
+.pergunta-bloco {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+/* Esconde o Radio Button Original */
+.radio-duvid {
+  display: none !important;
+}
+
+/* Isso faz com que as alternativas herdem o tamanho do container-questao */
+#container-questao .card-opcao span,
+#container-questao p,
+#container-questao label {
+  font-size: inherit !important;
+  line-height: 1.4;
+}
+
+/* Estilo do Card de Opção */
+.card-opcao {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fcfcfc;
+  border: 2px solid #eeeeee;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  font-size: 15px;
+  color: #444;
+}
+
+/* Efeito de Hover (Passar o mouse) */
+.card-opcao:hover {
+  background-color: #f0f7f7;
+  border-color: #009688;
+}
+
+/* ESTADO SELECIONADO: Quando o input vinculado está checado */
+.radio-duvid:checked+.card-opcao {
+  background-color: #e0f2f1;
+  /* Verde clarinho */
+  border-color: #009688;
+  /* Verde Teal */
+  color: #004d40;
+  font-weight: bold;
+  transform: scale(1.02);
+  /* Leve pulo */
+  box-shadow: 0 5px 15px rgba(0, 150, 136, 0.2);
+}
+
+/* BOTÃO DE AÇÃO - Menor e Centralizado */
+.btn-acao-duvid {
+  display: block;
+  /* Necessário para o margin auto funcionar */
+  width: 100%;
+  /* Largura base */
+  max-width: 350px;
+  /* LIMITE DE TAMANHO (Ajuste aqui se quiser maior ou menor) */
+  margin: 20px auto;
+  /* CENTRALIZA: 20px de espaço em cima/baixo e AUTO nas laterais */
+
+  background-color: #009688;
+  color: white;
+  padding: 12px 24px;
+  /* Espaçamento interno */
+  border: none;
+  border-radius: 50px;
+  /* Estilo pílula */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.btn-acao-duvid:hover {
+  background-color: #00796b;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Garante que o shake e a cor de erro continuem funcionando */
+.btn-acao-duvid.w3-amber {
+  background-color: #ffc107 !important;
+  color: #000 !important;
+}
+
+.mark-skill {
+  background-color: #fff3cd;
+  /* Amarelo alerta */
+  border-bottom: 2px dashed #ffc107;
+  cursor: help;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.mark-skill:hover {
+  background-color: #ffc107;
+  color: white;
+}
+
+.mark-skill.desbloqueado {
+  border-bottom: none;
+  animation: pulse-green 0.5s ease-in-out;
+}
+
+@keyframes pulse-green {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(40, 167, 69, 0.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.comentario-box {
+  max-height: 600px;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0 20px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.btn-final {
+  width: 85%;
+  max-width: 300px;
+  font-weight: bold;
+  padding: 15px;
+}
+
+
+
+.bibliografias {
+  display: none;
+}
+
+
+/* No seu arquivo CSS ou dentro de <style> */
+.grid-bibliografia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-livro {
+  height: 100%;
+  /* Faz o card preencher toda a coluna */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-livro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Container da imagem de apoio */
+.duvid-img-container {
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.duvid-img-principal {
+  max-height: 580px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Faixa da Legenda */
+.duvid-legenda-box {
+  background-color: #f1f1f1;
+  margin-top: 8px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  /* Substituí 'smaller' por rem para manter o padrão */
+
+  /* Centralização do Box */
+  display: flex;
+
+}
+
+/* 2. Textos de Apoio */
+.duvid-legenda-texto {
+  color: #666;
+  margin: 0;
+  line-height: 1.4;
+  text-align: center;
+  /* Centraliza o texto internamente */
+  width: 100%;
+  /* Garante que o texto ocupe o espaço para alinhar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Bloco de citação/texto de apoio */
+.duvid-bloco-apoio {
+
+  border-left: 6px solid #009688;
+  background-color: #fdf5e6;
+  /* w3-light-grey */
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.duvid-texto-citacao {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top: 0;
+  /* Garante que não haja margem no topo do texto */
+  display: block;
+  /* Ajuda no alinhamento vertical */
+}
+
+.duvid-fonte-texto {
+  font-size: 0.85rem !important;
+  color: #757575;
+  /* w3-text-grey */
+  text-align: right;
+  margin-top: 10px;
+  line-height: 1.2;
+  display: block;
+  /* Garante que o alinhamento à direita funcione */
+  width: 100%;
+}
+
+.duvid-legenda-apoio {
+  font-size: 11px;
+  /* w3-tiny */
+  color: #4CAF50;
+  /* w3-text-green */
+  margin-top: 5px;
+
+
+}
+
+/* 3. Cabeçalho */
+.duvid-header-questao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.duvid-titulo-questao {
+  padding: auto;
+  color: #666;
+}
+
+.duvid-ano-questao {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* 4. Dicas */
+.duvid-dica-titulo {
+  margin-top: 0;
+}
+
+/* 5. Legendas */
+.duvid-legenda-box {
+  background-color: #f9f9f9;
+  padding: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #eee;
+}
+
+.duvid-legenda-texto {
+  font-size: 11px;
+  color: #666;
+  margin: 0;
+  text-align: left;
+}
+
+
+/* Container da Dica (O painel amarelo) */
+.duvid-painel-dica {
+  border-left: 6px solid #ffc107 !important;
+  /* Amarelo/Dourado */
+  background-color: #ffffcc !important;
+  /* w3-pale-yellow */
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 16px;
+  position: relative;
+}
+
+/* Título da Dica */
+.duvid-dica-titulo {
+  margin-top: 0;
+  color: #ff9800;
+  /* Laranja para contraste */
+  font-family: 'Courier New', Courier, monospace;
+  /* fontePixel */
+}
+
+/* Botão Fechar (o X) */
+.duvid-dica-fechar {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: #999;
+}
+
+.duvid-dica-fechar:hover {
+  color: #333;
+}
+
+/* Badges de Dificuldade */
+.duvid-badge-dificuldade {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 4px;
+}
+
+/* Cores por Nível */
+.dificuldade-facil {
+  background-color: #e8f5e9;
+  /* Verde claro */
+  color: #2e7d32;
+  border: 1px solid #c8e6c9;
+}
+
+.dificuldade-medio {
+  background-color: #fff3e0;
+  /* Laranja claro */
+  color: #ef6c00;
+  border: 1px solid #ffe0b2;
+}
+
+.dificuldade-dificil {
+  background-color: #ffebee;
+  /* Vermelho claro */
+  color: #c62828;
+  border: 1px solid #ffcdd2;
+}
+
+/* Tags de Assunto */
+.duvid-tag-assunto {
+  background: #f0f0f0;
+  color: #666;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  margin-right: 5px;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+.container-tags {
+  display: flex;
+  flex-wrap: wrap;
+  /* Isso faz as tags pularem de linha sozinhas */
+  gap: 5px;
+  /* Espaço entre elas */
+  margin-bottom: 15px;
+}
+
+/* Container da Instituição e Ano */
+.duvid-info-instituicao {
+  padding-left: 15px;
+  /* Alinha com o texto da questão */
+  margin-bottom: 15px;
+  display: block;
+}
+
+/* XP flutuante — aparece, sobe e some */
+.xp-flutuante {
+    position: fixed;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    pointer-events: none;
+    z-index: 99999;
+    /* Duração de 2.5s para ser perceptível, mas não lenta demais */
+   animation: xp-subir 2.5s ease-out forwards;
+}
+
+.xp-flutuante.erro {
+  color: #ef5350;
+}
+
+
+@keyframes xp-subir {
+    0% { 
+        opacity: 0; 
+        /* Adicionado 'px' ao -5 */
+        transform: translate(-50%, -5px) scale(0.6); 
+    }
+    25% { 
+        opacity: 1; 
+        transform: translate(-80%, -10px) scale(1.1); 
+    }
+    85% { 
+        opacity: 1; 
+        transform: translate(-120%, -15px) scale(1); 
+    }
+    100% { 
+        opacity: 0; 
+        transform: translate(-140%, -20px) scale(0.8); 
+    }
+}
+
+
+.duvid-coracoes-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    background: #fff8f8;
+    border-radius: 10px;
+    border: 1px solid #ffebee;
+}
+
+.coracao-questao {
+    font-size: 22px;
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+
+.coracao-questao.perdido {
+    filter: grayscale(1);
+    opacity: 0.25;
+    transform: scale(0.8);
+}
+
+.aviso-vidas {
+    font-size: 12px;
+    font-weight: 500;
+    color: #c62828;
+    margin-left: 4px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query para dispositivos móveis */
+/* --- AJUSTES PARA DISPOSITIVOS MÓVEIS (UNIFICADO 600px) --- */
+@media (max-width: 600px) {
+
+  /* 1. Ajuste do Body e Main */
+  body {
+    padding: 0 !important;
+    /* Remove paddings que causam scroll lateral */
+  }
+
+  main {
+    margin-top: 60px;
+    /* Reduz o espaço do topo no celular */
+    padding: 15px;
+    /* Respiro interno menor para ganhar tela */
+    border-radius: 0;
+    /* Remove arredondamento para ocupar a largura toda */
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* 2. Estilo para Histórias/Quadrinhos (HQ) */
+  .mobile-story-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .full-width-mobile {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .duo-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Mantém dois quadrinhos lado a lado */
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+
+  /* 3. Ajuste de Textos e Títulos no Mobile */
+  #h1 {
+    font-size: 1.2em;
+    /* Diminui o título para não quebrar em 3 linhas */
+    padding: 15px 10px;
+  }
+
+  .w3-large {
+    font-size: 16px !important;
+    /* Garante leitura confortável sem ser gigante */
+  }
+
+  .duvid-header-questao {
+    flex-direction: row;
+    /* Mantém na mesma linha se couber */
+    flex-wrap: wrap;
+    /* Se não couber, joga o "MÉDIO" para baixo */
+    align-items: center;
+  }
+
+  .duvid-titulo-questao {
+    font-size: 1.2rem;
+    align-items: center;
+    /* No celular, centraliza o alinhamento vertical */
+    /* Diminui um pouco o tamanho no celular */
+  }
+
+  .duvid-badge-dificuldade {
+    font-size: 9px;
+    padding: 3px 8px;
+
+  }
+
+  /* Garante que as tags não criem barra de rolagem lateral */
+  .duvid-tag-assunto {
+    font-size: 10px;
+    margin-bottom: 5px;
+    /* Espaço entre as linhas de tags */
+  }
+}

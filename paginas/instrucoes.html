@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Duvid - Instruções </title>
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="../estilos/index-estilo.css">
+	<link rel="stylesheet" href="../estilos/rpg-sistema.css">
+	<link rel="stylesheet" href="../estilos/navbar.css">
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../fotoIndex/favicon.ico">
+
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+		crossorigin="anonymous"></script>
+
+	<script src="/js/duvid-core.js" defer></script>
+
+	<script src="/js/duvid-db.js" defer></script>
+
+	<script src="/js/duvid-audio.js" defer></script>
+	<script src="/js/duvid-ui.js" defer></script>
+
+	<script src="/js/carregar.js" defer></script>
+	<script src="/js/abrirmenu.js" defer></script>
+
+
+
+	<style>
+		/* Tipografia Híbrida para melhor leitura */
+		h1,
+		h2,
+		h3,
+		h4 {
+			font-family: 'pixel', sans-serif;
+			text-transform: uppercase;
+		}
+
+		/* Fonte de leitura clara para as instruções */
+		p,
+		li,
+		label,
+		input {
+			font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
+			line-height: 1.6;
+			font-size: 1.05em;
+		}
+
+		.sessao-instrucao {
+			margin-bottom: 25px;
+			padding: 15px;
+			border-left: 5px solid #4ade80;
+			/* Verde tema */
+			background-color: rgba(0, 0, 0, 0.02);
+		}
+
+		body.dark-mode .sessao-instrucao {
+			background-color: rgba(255, 255, 255, 0.05);
+		}
+
+		.btn-link {
+			transition: 0.3s;
+			text-decoration: none;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+
+		.btn-link:hover {
+			transform: scale(1.02);
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="header-placeholder"></div>
+
+	<div class="w3-content" style="max-width:1000px; margin-top: 80px; margin-bottom: 100px;">
+
+		<div class="w3-container w3-white w3-card-4 w3-margin w3-padding-32 w3-round-large card-ano">
+			<h1 class="w3-center w3-text-green"><b>Como serão nossas aulas?</b></h1>
+			<p class="w3-center w3-opacity">Guia de jornada e metodologia de aprendizado</p>
+			<hr>
+
+			<div class="w3-container">
+				<p>Bem-vindos! Na disciplina de Geografia vamos estudar o <b>Espaço Geográfico</b> e o mundo ao nosso
+					redor! Abaixo, veja como nossa jornada está organizada:</p>
+			</div>
+
+			<div class="w3-row-padding w3-margin-top">
+				<div class="sessao-instrucao">
+					<h3 class="w3-text-green"><i class="fa fa-chalkboard-teacher"></i> Dinâmica das Aulas</h3>
+					<p>Introdução rápida do tema -> Leitura e interpretação (App Duvid/Site) -> Desafios em grupo ->
+						Revisão final para consolidar o conhecimento.</p>
+				</div>
+
+				<div class="sessao-instrucao">
+					<h3 class="w3-text-green"><i class="fa fa-gamepad"></i> Metodologia</h3>
+					<p>A metodologia da plataforma Duvid fundamenta-se na Pedagogia Histórico-Crítica. O processo de
+						ensino-aprendizagem é estruturado em cinco momentos interdependentes: partimos da Prática Social
+						Inicial, conectando o conteúdo geográfico à realidade vivida pelos estudantes; avançamos para a
+						Problematização e Instrumentalização, onde ferramentas científicas e conceitos clássicos são
+						mobilizados para diferenciar do senso comum; e culminamos na Catarse e em uma nova Prática
+						Social Final, promovendo uma síntese mental que transforma o aluno em um sujeito crítico e
+						consciente de seu papel na transformação do espaço geográfico.</p>
+				</div>
+
+				<div class="sessao-instrucao">
+					<h3 class="w3-text-green"><i class="fa fa-star"></i> Avaliação e Pesos</h3>
+					<ul class="w3-ul">
+						<li><i class="fa fa-laptop-code"></i> <b>Avaliação objetiva(Peso 4):</b> Realizada em
+							laboratório com correção automática para verificação da síntese mental (Catarse).</li>
+						<li><i class="fa fa-users"></i> <b>Estudo Dirigido (Peso 3):</b> Exercícios de
+							instrumentalização no caderno com acompanhamento docente.</li>
+						<li><i class="fa fa-user-check"></i> <b>Práticas Sociais e Coletivas (Peso 3):</b> Trabalhos em
+							grupo com quadrinhos, leitura de textos e sugestões de atividades, como debates, criação de conteúdo, etc. disponíveis na plataforma Duvid.</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="w3-container">
+				<h2 class="w3-center"><i class="fa fa-link"></i> Recursos e Downloads</h2>
+
+				<div class="w3-row-padding w3-margin-top">
+					<div class="w3-half w3-padding">
+						<div class="w3-card w3-light-grey w3-padding w3-round">
+							<h4><i class="fa fa-lock"></i> Acesso aos Grupos</h4>
+							<p class="w3-small">Digite a senha para acessar o painel de desenvolvimento.</p>
+							<form action="../arquivosphp/logingrupos.php" method="POST"
+								onsubmit="return validateForm()">
+								<input class="w3-input w3-border w3-round" type="password" id="password" name="password"
+									placeholder="Senha...">
+								<button class="w3-button w3-green w3-block w3-margin-top w3-round"
+									type="submit">Entrar</button>
+							</form>
+							<p id="errorMessage" class="w3-text-red w3-small w3-center"></p>
+						</div>
+					</div>
+
+					<div class="w3-half w3-padding">
+						<h4><i class="fa fa-download"></i> Arquivos do Jogo</h4>
+						<a href="https://drive.google.com/file/d/1i479qRAbNm38qVuRXydsDx5nR8pIRt5e/view?usp=sharing"
+							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Demo Android (.apk)</a>
+
+						<a href="https://drive.google.com/drive/folders/15cTExhiIohHhbDrESx7xycLqXgfYRUgA?usp=sharing"
+							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Aseprite (Pixel
+							Art)</a>
+
+						<a href="https://drive.google.com/drive/folders/1z06k1Z9Y5Ch35Ug31TxdApbVXHN6r4sc?usp=sharing"
+							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Pasta Geral do Jogo</a>
+					</div>
+				</div>
+			</div>
+
+
+
+			<hr>
+			<hr>
+			<div class="w3-container w3-center w3-padding-16">
+				<h4 class="w3-text-grey">Gerenciar Meu Progresso</h4>
+				<p class="w3-small">Deseja recomeçar a jornada e ver os cards cinzas novamente?</p>
+
+				<button onclick="document.getElementById('modalReset').style.display='block'"
+					class="w3-button w3-white w3-border w3-border-red w3-round-large w3-hover-red w3-text-red">
+					<i class="fa fa-refresh"></i> Limpar Tudo e Reiniciar
+				</button>
+			</div>
+
+			<div id="modalReset" class="w3-modal">
+				<div class="w3-modal-content w3-card-4 w3-animate-zoom w3-round-large"
+					style="max-width:400px; margin-top: 80px; margin-bottom: 50px;">
+
+					<div class="w3-container w3-center w3-padding-32">
+						<span onclick="document.getElementById('modalReset').style.display='none'"
+							class="w3-button w3-display-topright w3-round-large">&times;</span>
+
+						<h3 class="fontePixel w3-text-red">Atenção!</h3>
+						<p id="msgPersonalizada">Deseja realmente apagar todo o seu progresso?</p>
+
+						<img src="../fotoIndex/globinhoPe.png" width="100" class="w3-animate-bottom">
+						<br><br>
+
+						<div class="w3-row-padding">
+							<div class="w3-half w3-margin-bottom">
+								<button class="w3-button w3-red w3-round w3-block" onclick="executarReset()">
+									Sim, Apagar
+								</button>
+							</div>
+							<div class="w3-half">
+								<button class="w3-button w3-light-grey w3-round w3-block"
+									onclick="document.getElementById('modalReset').style.display='none'">
+									Cancelar
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="w3-container w3-center w3-margin-top">
+				<p class="w3-small">Dúvidas? Quer trabalhar em colaboração com sugestões? Entre em contato:
+					<br><b>leandro.hsilva@ifsuldeminas.edu.br</b>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer-placeholder"></div>
+
+
+
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-DPX55DSFZ0');
+
+
+	</script>
+
+	<script>
+		// 1. Configurações Iniciais ao carregar a página
+		document.addEventListener('DOMContentLoaded', function () {
+			const nome = localStorage.getItem("duvid_nome") || "Estudante";
+			const msg = document.getElementById("msgPersonalizada");
+			if (msg) msg.innerHTML = `Olá <b>${nome.toUpperCase()}</b>, deseja apagar seu histórico e reiniciar a jornada?`;
+		});
+
+	</script>
+
+
+	<script>
+		function validateForm() {
+			var password = document.getElementById("password").value;
+			if (password === "") {
+				document.getElementById("errorMessage").innerHTML = "Por favor, digite a senha.";
+				return false;
+			}
+			return true;
+		}
+	</script>
+</body>
+
+</html>

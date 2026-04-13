@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../../../estilos/fade.css">
+    <link rel="stylesheet" href="../../../estilos/ModeloCss.css">
+    <link rel="stylesheet" href="../../../estilos/w3.css">
+    <link rel="stylesheet" href="../../../estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../fotoIndex/favicon.ico">
+
+    <script src="../../../estilos/jstextos.js" defer></script>
+    <script src="../../../estilos/glossario.js" defer></script>
+
+    <title>1º ano - Texto 22 – Mudanças climáticas locais </title>
+
+
+
+
+    <style>
+        body {
+            overflow-x: hidden;
+            /* impede scroll lateral */
+        }
+
+        span,
+        p {
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
+
+
+        .topico {
+            display: none;
+        }
+
+        .topico:nth-child(1),
+        .topico.mostrar {
+            display: block
+        }
+
+        .postit-tp9 {
+
+
+            width: 250px;
+            height: auto;
+            padding: 20px;
+            font-family: pixel;
+            margin-bottom: 60px;
+            margin-top: 60px;
+
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            Color: rgb(0, 0, 0);
+            font-size: 18px;
+            box-shadow: 2px 4px 6px #444;
+            -moz-box-shadow: 2px 4px 6px #444;
+            -webkit-box-shadow: 2px 4px 6px #444;
+            transform: rotate(-3deg);
+            -moz-transform: rotate(-3deg);
+            -webkit-transform: rotate(-3deg);
+            -o-transform: rotate(-3deg);
+            -ms-transform: rotate(-3deg);
+        }
+
+        .postit-tp9>a {
+            text-decoration: none;
+        }
+
+        .postit-tp9>a:hover {
+            text-decoration: underline;
+        }
+
+        .pulsar {
+            transition: transform 500ms;
+            transition-timing-function: cubic-bezier(0.75, -3, .25, 4);
+        }
+
+        .pulsar:hover {
+            transform: scale(1.1);
+        }
+
+        .content {
+            display: none;
+            position: relative;
+
+        }
+
+
+        /* Estilo pinterest */
+
+
+
+
+
+        /* Media Query para dispositivos móveis */
+        @media screen and (max-width: 640px) {}
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="topico">
+
+        <div class="centerBar">
+
+            <!-- Navigation (Stays on Top) -->
+            <div class="w3-top w3-bar w3-black  larguraBar ">
+
+                <a href="../../../Duvid1Ano.html" class=" w3-button  margemTop w3-large ">1º ano</a>
+
+                <span class="w3-bar-item w3-button margemTop" id="notaFixa"></span>
+
+                <span class="w3-bar-item w3-button "><img id="imagem50" src="../../../fotoIndex/globinhoPe.png"
+                        alt="tp3Foto4" width="32" height="32"></span>
+
+            </div>
+        </div>
+
+        <div class="w3-padding-top-48">
+            <div class="w3-white larguraBar w3-padding ladoDireito">
+
+                <div class="margemDireita"><button class="w3-green w3-border w3-round-large " name="decrease-font"
+                        id="decrease-font" title="Diminuir fonte">A -</button></div>
+                <div class="margemDireita"><button class="w3-green w3-border w3-round-large" name="increase-font"
+                        id="increase-font" title="Aumentar fonte">A +</button></div>
+            </div>
+        </div>
+
+
+
+        <h1 id="h1"> Texto 22 – Mudanças climáticas locais </h1>
+
+
+        <p><strong> Conteúdo:</strong> Ilhas de calor; Inversão térmica; Chuva ácida; Desertificação; Desmatamento.
+
+
+        </p>
+
+        <p><strong>Objetivo:</strong> Identificar as mudanças climáticas locais, principalmente aquelas ligadas às áreas
+            urbanas, e entender os processos que as causam e as consequências para as pessoas que vivem nessas áreas.
+        </p>
+
+        <button class="btnShow"
+            onclick="MostrarProximo(this);  Play('../../../audios/inicioNome.mp3'); this.style.display='none'">Iniciar</button>
+        <hr>
+
+    </div>
+
+
+    <div class="topico">
+
+
+        <p class="paragrafo " id="caixaNomeAluno">Digite seu nome</p>
+        <br>
+
+        <div class="area">
+            <input class="input" type="text" id="pq0" name="pq0">
+        </div>
+
+
+        <p id="resp0"></p>
+
+        <button id="buttonConfira" onclick="NomeAlunos('resp0','pq0')">Próximo </button>
+
+
+        <button id="buttonA" onclick="MostrarProximo(this); this.style.display='none'">Confirmar</button>
+        <hr>
+    </div>
+
+
+
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b> Introdução</b></h2>
+
+
+
+
+
+        <p>
+        <p> <span class="primeiraLetra">N</span>a aula passada, falamos sobre as mudanças climáticas globais, como
+            aquecimento global, El Niño, La Niña, camada de ozônio e efeito estufa. Vimos como esses processos acontecem
+            em escala planetária e o quanto eles podem impactar a vida dos seres vivos, inclusive a nossa.
+        </p>
+
+        <p>
+            Agora, em , vamos
+            Hoje, vamos mudar um pouco o foco e observar o que acontece bem pertinho da gente, no nosso dia a dia nas
+            cidades. Vamos entender <span class="w3-text-indigo"><b>as mudanças climáticas locais</b></span>, ou seja,
+            aquelas que acontecem no espaço onde vivemos.
+        </p>
+
+
+
+
+
+        <button class="btnShow w3-button w3-indigo w3-round"
+            onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+
+
+
+    <div id="sumario" class="topico w3-padding-64">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+            <h3>1. O que é a inversão térmica e por que ela agrava a poluição nas cidades?</h3>
+            <h3>2. Por que o fenômeno da inversão térmica ocorre com mais frequência no inverno?</h3>
+            <h3>3. O que são ilhas de calor e quais são suas principais causas?</h3>
+            <h3>4. Qual é a relação entre o crescimento urbano e a formação das ilhas de calor?</h3>
+            <h3>5. O que é a chuva ácida e como ela se forma?</h3>
+            <h3>6. Quais são os impactos da chuva ácida no ambiente e nas cidades?</h3>
+            <h3>7. O que é a desertificação e como a ação humana acelera esse processo?</h3>
+            <h3>8. Quais são as principais consequências da desertificação para a população local?</h3>
+            <h3>9. Quais são as causas mais comuns do desmatamento no Brasil?</h3>
+            <h3>10. De que forma o desmatamento contribui para o aquecimento global?</h3>
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b>1. Inversão Térmica</b></h2>
+
+        <p>
+            Em condições normais, o ar próximo ao solo é aquecido durante o dia e sobe, misturando-se com o ar mais frio
+            das
+            camadas superiores. Esse movimento ajuda a <span class="w3-text-blue"><b>dispersar a poluição</b></span> e a
+            renovar o ar das cidades.
+        </p>
+
+        <p>
+            Na <span class="termo clima" 
+      data-palavra="Inversão Térmica" 
+      data-definicao="Fenômeno atmosférico em que uma camada de ar quente impede que o ar frio e poluído próximo ao solo suba, dificultando a dispersão de poluentes.">
+      inversão térmica
+</span>, o processo se inverte: o ar frio, mais pesado,
+            fica preso
+            perto do solo, enquanto o ar quente permanece acima, criando uma espécie de tampa. Assim, os poluentes não
+            conseguem subir
+            e acabam se concentrando nas áreas mais baixas da atmosfera.
+        </p>
+
+        <p>
+            Esse fenômeno é mais comum em <span class="w3-text-blue"><b>dias frios</b></span>, com pouco vento e poucas
+            nuvens, principalmente no inverno.
+            Nessas condições, a atmosfera fica estável, o que impede a circulação do ar e favorece o acúmulo de
+            poluição.
+        </p>
+
+        <p>
+            As principais consequências são o <span class="w3-text-deep-orange"><b>aumento da poluição
+                    atmosférica</b></span>,
+            a <b>piora da qualidade do ar</b> e o <b>crescimento de doenças respiratórias</b> entre a população urbana.
+            Um exemplo clássico é São Paulo, que já enfrentou vários episódios de inversão térmica com forte acúmulo de
+            fumaça
+            sobre a cidade.
+        </p>
+
+        <div class="w3-margin"><img id="imagem1" src="tp22f01.png" alt="tp22f01"
+                class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
+
+            <span class="w3-small w3-margin-left" id="citacao1"> </span>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b>2. Ilhas de Calor</b></h2>
+
+        <div class="w3-margin"><img id="imagem2" src="tp22f02.png" alt="tp22f02"
+                class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
+            <span class="w3-small w3-margin-left" id="citacao2"> </span>
+        </div>
+
+        <p>
+            As <span class="termo clima" 
+      data-palavra="Ilha de Calor" 
+      data-definicao="Área urbana que apresenta temperaturas mais altas que as regiões vizinhas, causada pela falta de vegetação e pelo acúmulo de calor em construções e asfaltos.">
+      ilhas de calor
+</span>acontecem quando uma cidade ou área urbana fica
+            mais quente do que as regiões ao seu redor.
+            Isso ocorre porque construções como prédios, ruas e estacionamentos absorvem o calor do Sol e o liberam
+            lentamente,
+            enquanto áreas naturais — florestas, parques e rios — ajudam a resfriar o ar.
+        </p>
+
+        <p>
+            Dessa forma, as cidades se transformam em verdadeiros <span class="w3-text-blue"><b>“bolsões de
+                    calor”</b></span>,
+            apresentando temperaturas mais altas durante o dia e até mesmo à noite, quando comparadas às regiões
+            próximas.
+            Esse fenômeno pode ocorrer tanto em cidades grandes quanto pequenas, em diferentes estações do ano.
+        </p>
+
+        <p>
+            Entre as principais causas estão a <span class="w3-text-blue"><b>redução da vegetação</b></span>,
+            o uso de materiais urbanos que acumulam calor (como asfalto e concreto), e o excesso de prédios que
+            dificultam a circulação do ar. Além disso, as atividades humanas e a poluição contribuem para intensificar o
+            problema.
+        </p>
+
+        <p>
+            As ilhas de calor podem elevar as temperaturas urbanas em até 7 °C em relação às áreas vizinhas,
+            afetando a qualidade do ar, o conforto térmico e até o consumo de energia das cidades.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b>3. Chuva Ácida</b></h2>
+
+        <div class="w3-margin"><img id="imagem3" src="tp22f03.png" alt="tp22f03"
+                class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
+
+            <span class="w3-small w3-margin-left" id="citacao3"> </span>
+
+        </div>
+
+        <p>
+            A <span class="termo clima" 
+      data-palavra="Chuva Ácida" 
+      data-definicao="Precipitação contaminada por gases poluentes como dióxido de enxofre e óxidos de nitrogênio, que tornam a água mais ácida e prejudicial ao ambiente.">
+      chuva ácida</span> é um tipo de precipitação — como chuva, neblina,
+            granizo ou até poeira —
+            que contém ácidos fortes, principalmente o <span class="w3-text-blue"><b>ácido sulfúrico (H₂SO₄)</b></span>
+            e o <span class="w3-text-blue"><b>ácido nítrico (HNO₃)</b></span>. Ela ocorre quando gases poluentes
+            liberados
+            na atmosfera se misturam com a água das nuvens e retornam à superfície terrestre.
+        </p>
+
+        <p>
+            A principal causa desse fenômeno é a <span class="w3-text-blue"><b>emissão de gases poluentes</b></span>
+            como o dióxido de enxofre (SO₂)
+            e os óxidos de nitrogênio (NOx), resultantes da queima de combustíveis fósseis, das atividades industriais e
+            do uso intenso de veículos.
+            Esses gases podem se espalhar pelo vento e atingir até regiões sem indústrias.
+        </p>
+
+        <p>
+            Quando esses poluentes reagem com a água e o oxigênio na atmosfera, formam ácidos que se misturam às nuvens
+            e depois caem sobre a Terra com a chuva. Isso torna lagos, rios e solos mais ácidos, afetando plantas,
+            animais e
+            também as construções urbanas.
+        </p>
+
+        <p>
+            Além dos danos ambientais e à infraestrutura, a chuva ácida também contribui para a <span
+                class="w3-text-blue"><b>piora da qualidade do ar</b></span>,
+            podendo causar problemas respiratórios nas pessoas e aumentar os impactos da poluição nas cidades.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b>4. Desertificação</b></h2>
+
+        <div class="w3-margin"><img id="imagem4" src="tp22f04.png" alt="tp22f04"
+                class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
+
+            <span class="w3-small w3-margin-left" id="citacao4">
+            </span>
+
+        </div>
+
+        <p>
+            A 
+<span class="termo clima" 
+      data-palavra="Desertificação" 
+      data-definicao="Processo de degradação do solo em regiões áridas e semiáridas, causado pela ação humana e pelas mudanças climáticas, tornando a terra infértil.">
+      desertificação
+</span> é o processo em que terras antes férteis
+            se degradam e passam a se parecer com desertos, tornando-se secas, pobres em nutrientes e com pouca
+            vegetação.
+            Esse fenômeno pode ocorrer por causas naturais, como <span class="w3-text-blue"><b>mudanças
+                    climáticas</b></span> e secas prolongadas,
+            ou pela ação humana.
+        </p>
+
+        <p>
+            Entre as principais causas estão o <span class="w3-text-blue"><b>desmatamento</b></span>,
+            a agricultura intensiva, o pastoreio excessivo e a exploração descontrolada da água e dos recursos naturais.
+            Essas práticas reduzem a capacidade do solo de se regenerar e o tornam mais vulnerável à erosão.
+        </p>
+
+        <p>
+            As consequências são graves: perda da biodiversidade, diminuição da produtividade agrícola,
+            escassez de água e migração forçada de populações rurais. Regiões como o Sahel (na África),
+            o Mar de Aral (na Ásia Central) e o deserto de Gobi (na China) são exemplos marcantes desse processo.
+        </p>
+
+        <p>
+            O combate à desertificação passa por ações de <span class="w3-text-blue"><b>reflorestamento</b></span>,
+            uso consciente da água, práticas agrícolas sustentáveis e cooperação internacional,
+            como a <span class="w3-text-blue"><b>Convenção da ONU de Combate à Desertificação</b></span>.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+
+    <div class="topico w3-pale-blue w3-round-large w3-margin-top w3-padding-32">
+
+        <h2 class="w3-text-indigo"><b>5. Desmatamento</b></h2>
+
+        <div class="w3-margin"><img id="imagem5" src="tp22f05.png" alt="tp22f05"
+                class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
+
+            <span class="w3-small w3-margin-left" id="citacao5"> </span>
+        </div>
+
+        <p>
+            O 
+<span class="termo clima" 
+      data-palavra="Desmatamento" 
+      data-definicao="Retirada total ou parcial da vegetação nativa para outros usos, como agricultura e pecuária, causando perda de biodiversidade e agravando o aquecimento global.">
+      desmatamento
+</span>
+ é a remoção total ou parcial da cobertura vegetal
+            natural,
+            geralmente para dar lugar à <span class="w3-text-blue"><b>agricultura</b></span>, pecuária, mineração ou
+            expansão urbana.
+            Segundo a FAO, as florestas cobrem cerca de 31% da superfície da Terra, e mais da metade está concentrada em
+            países como
+            Brasil, Canadá, Rússia, China e Estados Unidos.
+        </p>
+
+        <p>
+            As principais causas do desmatamento são a <span class="w3-text-blue"><b>agricultura comercial</b></span>,
+            responsável por quase 40% do desmatamento tropical, seguida pela agricultura de subsistência e pela
+            exploração de madeira.
+            Desde 1990, o planeta perdeu aproximadamente 420 milhões de hectares de florestas.
+        </p>
+
+        <p>
+            Na Amazônia, o desmatamento é um problema grave: o Brasil já perdeu cerca de 69,5 milhões de hectares até
+            2021.
+            As consequências incluem perda da biodiversidade, aumento dos gases de efeito estufa, erosão do solo,
+            redução da qualidade da água e agravamento das mudanças climáticas.
+        </p>
+
+        <p>
+            Para combater esse problema, o Brasil estabeleceu a meta de <span class="w3-text-blue"><b>desmatamento zero
+                    até 2030</b></span>.
+            As ações incluem práticas sustentáveis, monitoramento e fiscalização, proteção de terras indígenas e
+            incentivos econômicos,
+            como o <span class="w3-text-blue"><b>Fundo Amazônia</b></span> e o pagamento por serviços ambientais.
+            O Plano PPCDAm é um exemplo de sucesso, tendo reduzido o desmatamento em 83% entre 2004 e 2012.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+
+    <div class="topico">
+
+
+        <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span> <strong>Por que o desmatamento é considerado uma das maiores
+                    ameaças ao meio ambiente?</strong> </p>
+            <p><span class="primeiraLetra">R:</span>
+                O desmatamento destrói ecossistemas inteiros, causa a perda de biodiversidade e contribui para o
+                <b>aquecimento global</b> devido ao aumento da emissão de dióxido de carbono (CO₂).
+                Além disso, afeta o ciclo da água e reduz a qualidade de vida das populações locais.
+            </p>
+        </div>
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span> <strong>Como o desmatamento na Amazônia pode impactar outras
+                    regiões do Brasil?</strong></p>
+            <p><span class="primeiraLetra">R:</span>
+                A Amazônia influencia o clima de todo o país por meio dos chamados <b>rios voadores</b>,
+                massas de ar úmidas que ajudam a formar chuvas. Quando há desmatamento, essas correntes diminuem,
+                afetando a agricultura, os reservatórios de água e o clima em regiões distantes, como o Sudeste.
+            </p>
+        </div>
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span><strong>O que cada pessoa pode fazer para ajudar a reduzir o
+                    desmatamento?</strong></p>
+            <p><span class="primeiraLetra">R:</span>
+                Pequenas ações fazem diferença, como <b>consumir produtos de origem sustentável</b>,
+                evitar o desperdício, apoiar projetos de reflorestamento e cobrar políticas públicas de preservação
+                ambiental.
+                A conscientização é o primeiro passo para proteger as florestas.
+            </p>
+        </div>
+
+
+
+
+
+        <div class=" w3-light-gray w3-padding" id="glossario">
+            <h2>📖 Você aprendeu sobre:</h2>
+            <ul id="lista-glossario"></ul>
+        </div>
+
+
+        <p class="w3-right-align">
+            <a href="#sumario" class="w3-button w3-small w3-indigo w3-round">⬅ Voltar às Questões</a>
+        </p>
+
+
+
+        <button class="btnShow"
+            onclick="MostrarProximo(this); MostrarFrase('respFinal','globinhorespFinal', '', 'esse desafio foi bem interessante, você já pode finalizar sua lição','10');this.style.display='none'">Proximo</button>
+
+
+        <p id="respFinal"></p>
+
+        <div class="area">
+            <p><img src="../../../fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                    alt="globinhorespFinal" width="64" height="64">
+            </p>
+        </div>
+        <hr>
+
+    </div>
+
+
+
+
+    <div class="topico">
+
+
+        <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+
+
+        <div class="w3-container">
+
+
+
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content w3-card-4 w3-animate-bottom" style="max-width:600px">
+
+                    <div class="w3-center w3-padding-48">
+                        <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-xlarge w3-hover-red w3-display-topright"
+                            title="Close Modal">&times;</span>
+
+
+
+                        <div class="nota">
+
+                        </div>
+
+                        <img src="../../../fotoIndex/globinhoPe.png" alt="Avatar" style="width:20%"
+                            class="w3-circle w3-animate-zoom ">
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="w3-padding-48">
+        <span id="numero"></span>
+        <span id="txtBarra">0%</span>
+        <progress value="0" max="100" id="progress"></progress>
+    </div>
+
+
+
+
+    <div class="bibliografias">
+
+        <h3><strong>Para saber mais:</strong></h3>
+
+
+
+        <div class="area">
+
+
+            <div class="postit-tp9 w3-yellow">
+
+                <a href="https://www.bbc.com/portuguese/articles/crg8lg80xlwo" target="_blank">
+                    Combustíveis fósseis: a humanidade vai conseguir viver sem eles?
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h3> <strong> Referências bibliográficas </strong></h3>
+
+
+
+
+        <p>MARIANO, Maryelle Florêncio (et al.). <strong>Geografia do Brasil.</strong> Londrina: Editora e Distribuidora
+            Educacional S.A., 2018.</p>
+
+
+
+        <p> VESENTINI, José William.<strong> Geografia</strong>: o mundo em transição. Ensino médio. 2. ed. - São
+            Paulo: Ática, 2013.
+        </p>
+
+
+
+
+
+
+    </div>
+    <br><br>
+
+
+
+
+
+
+    <script>
+
+
+
+
+
+
+
+
+        function MostrarProximo(parametro) {
+
+            var oculto = parametro.parentNode; // Obter qual é o elemento pai do botão
+            var proximo = oculto.nextElementSibling; // Obter qual é o elemento seguinte ao pai
+
+            if (!proximo.classList.contains('mostrar')) // Verificar se o seguinte já foi mostrado
+            {
+                proximo.classList.add('mostrar'); // Mostrar o seguinte
+                addProgressBar();
+                // numButton();
+                ApagaButton();
+                RemoveBalancarGlobo();//retirar no Kodular
+
+                document.getElementById("notaFixa").innerHTML = nota.toFixed(1);
+
+                // 👇 Ativa o glossário nos novos termos dentro da div revelada
+                ativarGlossario(proximo);
+
+            }
+
+        }
+
+        function addProgressBar() {
+            var barra = document.getElementById("progress");
+            txtBarra = document.getElementById("txtBarra");
+
+            i = Math.round(100 / 10);
+            barra.value += i;
+
+            if (barra.value >= 100) {
+                barra.value = 100;
+            }
+
+            txtBarra.innerHTML = barra.value + "%";
+
+        }
+
+
+
+
+    </script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

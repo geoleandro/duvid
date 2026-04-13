@@ -1,0 +1,8 @@
+# Impede que qualquer pessoa acesse o arquivo de configuração pelo navegador
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Opcional: Impede a listagem de arquivos da pasta
+Options -Indexes

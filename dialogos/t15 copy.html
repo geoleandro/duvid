@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+	<title>Modelo de Diálogo independente</title>
+
+	<link rel="stylesheet" href="../estilos/questoes.css">
+	<link rel="stylesheet" href="../estilos/w3.css">
+	<link rel="stylesheet" href="../estilos/dialogo.css">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../fotoIndex/favicon.ico">
+
+	<script src="../estilos/javascript.js" defer></script>
+
+	<script src="../estilos/script-dialogo.js" defer></script>
+
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+		crossorigin="anonymous"></script>
+
+
+
+	<style>
+		.ImagemDialogo {
+			padding-top: 5%;
+			max-width: auto;
+			margin: 0 auto;
+			border: 10px solid #fff;
+			border-radius: 20px;
+			box-shadow: 0 0 10px #ccc;
+			background-image: url("../fotoIndex/fotoDialogo1.png");
+			background-size: cover;
+			background-position: top;
+		}
+
+
+		/* Mobile */
+
+		@media screen and (max-width: 600px) {
+
+			.ImagemDialogo {
+				padding-top: 5%;
+				max-width: auto;
+				margin: 0 auto;
+				border: 10px solid #fff;
+				border-radius: 20px;
+				box-shadow: 0 0 10px #ccc;
+				background-image: url("../fotoIndex/fotoDialogo2.png");
+				background-size: cover;
+				background-position: center;
+				z-index: 10;
+			}
+
+		}
+	</style>
+
+
+
+</head>
+
+<body>
+
+
+	<!-- Navigation (Stays on Top) -->
+	<div class="w3-top w3-bar w3-black larguraBar w3-large">
+
+		<div class="w3-container">
+
+			<a href="../index.html" class=" w3-button  margemTop  ">Home</a>
+			<a href="../Duvid3Ano.html" class=" w3-button">3º ano</a>
+
+			<a href="../blog/blog.html" class=" w3-button  margemTop  ">Blog</a>
+			<a href="../paginas/sobre.html" class=" w3-button  margemTop  ">Sobre</a>
+
+
+		</div>
+
+	</div>
+
+
+
+
+
+	<h1 class="h1"> Questões aula 15 - As redes do espaço geográfico </h1>
+
+
+	<p><strong>Conteúdo:</strong> Redes; Fluxos internacionais: pessoas, informações, dinheiro, mercadorias; Empresas
+		Multinacionais; Tecnologias da informação; Globalização; </p>
+
+
+	<p><strong>Objetivo:</strong> Entender as relações entre os principais fluxos na era da globalização através das
+		redes e seu papel na dinâmica do espaço geográfico atual. Identificar diferentes tipos de redes pelo mundo. </p>
+
+
+	<div class="w3-padding-top-24">
+		<div class="w3-white larguraBar w3-padding flex-container">
+
+			<div class="margemDireita"><button class="w3-green w3-border w3-round-large " name="decrease-font"
+					id="decrease-font" title="Diminuir fonte">A -</button></div>
+			<div class="margemDireita"><button class="w3-green w3-border w3-round-large" name="increase-font"
+					id="increase-font" title="Aumentar fonte">A +</button></div>
+		</div>
+	</div>
+
+
+
+
+	<form id="quiz" name="quiz" onsubmit="verificar()">
+
+		<!-- Card de diálogo 1 -->
+		<div class="w3-card-4">
+			<div class="dialogo-secao" id="secao-carro">
+				<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+					<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+						<div class="w3-col s6">
+							<div class="character">
+								<div class="balloon balao1" style="display: none;">
+									<div class="triangle triangleLeft"></div>
+									<span class="pad npc-texto"></span>
+								</div>
+								<img class="left" src="../../../fotoIndex/FotoDir.gif" alt="Jéssica">
+							</div>
+						</div>
+
+						<div class="w3-col s6">
+							<div class="character">
+								<div class="balloon balao2" style="display: none;">
+									<div class="triangle triangleRight"></div>
+									<span class="pad npc-texto"></span>
+								</div>
+								<img class="right" src="../../../fotoIndex/person28.gif" alt="Franciele">
+							</div>
+						</div>
+					</div>
+
+					<button class="btnProximo w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+						onclick="avancar('carro')">Iniciar Diálogo</button>
+					<button class="btnReiniciar w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+						onclick="reiniciar('carro')" disabled>Reiniciar</button>
+				</div>
+			</div>
+		</div>
+
+		<!-- Segundo diálogo -->
+
+		<div class="w3-card-4">
+
+
+
+			<div class="dialogo-secao" id="secao-outraQuestao">
+				<div class="ImagemDialogo w3-container w3-mobile w3-margin-top w3-margin-bottom w3-responsive">
+					<div class="w3-container w3-mobile w3-margin-top w3-responsive">
+						<div class="w3-col s6">
+							<div class="character">
+								<div class="balloon balao1" style="display: none;">
+									<div class="triangle triangleLeft"></div>
+									<span class="pad npc-texto"></span>
+								</div>
+								<img class="left" src="../../../fotoIndex/FotoDir.gif" alt="Jéssica">
+							</div>
+						</div>
+
+						<div class="w3-col s6">
+							<div class="character">
+								<div class="balloon balao2" style="display: none;">
+									<div class="triangle triangleRight"></div>
+									<span class="pad npc-texto"></span>
+								</div>
+								<img class="right" src="../../../fotoIndex/person28.gif" alt="Franciele">
+							</div>
+						</div>
+					</div>
+
+					<button class="btnProximo w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+						onclick="avancar('outraQuestao')">Iniciar Diálogo</button>
+					<button class="btnReiniciar w3-button w3-pale-yellow w3-margin-left w3-margin-bottom"
+						onclick="reiniciar('outraQuestao')" disabled>Reiniciar</button>
+				</div>
+			</div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+	</form>
+
+
+
+
+	<p id="numeroCorreto"></p>
+
+	<p id="mensagem" style="display:none"></p>
+
+
+	<div class="area">
+		<img src="../fotoIndex/globinhoPe.png" id="imagem" style="display:none" alt="imagem" width="280" height="200">
+	</div>
+
+
+
+
+	<div id="aviso" class="w3-panel w3-yellow">
+
+	</div>
+
+
+	<div class="area w3-padding-64"><input id="button1" type="button" value="Conferir" onclick="verificar()"></div>
+
+
+
+
+	<script>
+		function Ajuda(id) {
+			var x = document.getElementById(id);
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
+
+	<script>
+		const bancoDeDados = {
+			"carro": [
+				{ speaker: "NPC1", text: "Ei, Franciele, você viu o texto sobre a produção do carro esportivo?" },
+				{ speaker: "NPC2", text: "Vi sim, Jéssica. Parece uma verdadeira bagunça geográfica!" },
+				{ speaker: "NPC1", text: "Totalmente! Financiamento em um país, montagem em outro..." },
+				{ speaker: "NPC2", text: "A tecnologia da informação é que une tudo isso." }
+			],
+			"outraQuestao": [
+				{ speaker: "NPC1", text: "Olá! Vamos estudar outro tema?" },
+				{ speaker: "NPC2", text: "Com certeza, estou pronta!" }
+			]
+		};
+	</script>
+
+	<script>
+		// 	const dialogues = [
+		// 		{ speaker: "NPC1", text: "Ei, Franciele, você viu o texto de ajuda que o professor passou sobre a produção do carro esportivo?" },
+		// 		{ speaker: "NPC2", text: "Vi sim, Jéssica. Parece que a coisa toda é uma verdadeira bagunça geográfica, não é?" },
+		// 		{ speaker: "NPC1", text: "Totalmente. Financiamento em um país, projeto em outro, montagem em vários lugares... É loucura!" },
+		// 		{ speaker: "NPC2", text: "Mas o que mais me chamou a atenção foi a parte sobre a importância da tecnologia da informação nisso tudo." },
+		// 		{ speaker: "NPC1", text: "Verdade, parece que a chave para lidar com toda essa complexidade está na organização interligada entre várias localidades." },
+		// 		{ speaker: "NPC2", text: "Exato! Com um sistema eficiente, todas essas partes dispersas podem ser coordenadas de maneira integrada." },
+		// 		{ speaker: "NPC1", text: "E aí, você acha que conseguimos pegar essa pista para a resposta da questão?" },
+		// 		{ speaker: "NPC2", text: "Com certeza! Vamos lá!" }
+		// 	];
+
+		// 	let currentDialogueIndex = 0;
+		// 	const typingSound = new Audio('../../../audios/dialogsound.mp3');
+		// 	const botaoDialogo = document.getElementById('botaoDialogo');
+		// 	const botaoReiniciar = document.getElementById('botaoReiniciar');
+
+		// 	function esconderTodosOsBaloes() {
+		// 		const baloes = document.querySelectorAll('.balloon');
+		// 		baloes.forEach(balao => {
+		// 			balao.style.display = 'none';
+		// 		});
+		// 	}
+
+		// 	function showCurrentDialogue() {
+		// 		botaoReiniciar.disabled = true;
+
+		// 		// 1. ESCONDE OS BALÕES ANTES DE MOSTRAR O NOVO
+		// 		esconderTodosOsBaloes();
+
+		// 		const currentDialogue = dialogues[currentDialogueIndex];
+
+		// 		// Define qual ID de diálogo usar (dialogue1 para NPC1, dialogue2 para NPC2)
+		// 		const dialogueId = currentDialogue.speaker === "NPC1" ? "dialogue1" : "dialogue2";
+		// 		const dialogueElement = document.getElementById(dialogueId);
+
+		// 		dialogueElement.textContent = '';
+		// 		let currentIndex = 0;
+
+		// 		// Som com Loop para não parar no meio
+		// 		typingSound.loop = true;
+		// 		typingSound.currentTime = 0;
+		// 		typingSound.play().catch(e => console.log("Interação necessária para som"));
+
+		// 		// Exibe apenas o balão do falante atual
+		// 		dialogueElement.parentElement.style.display = 'block';
+		// 		botaoDialogo.disabled = true;
+
+		// 		function addLetter() {
+		// 			if (currentIndex < currentDialogue.text.length) {
+		// 				dialogueElement.textContent += currentDialogue.text.charAt(currentIndex);
+		// 				currentIndex++;
+		// 				setTimeout(addLetter, 30);
+		// 			} else {
+		// 				// Finaliza som e libera botão
+		// 				typingSound.pause();
+		// 				typingSound.loop = false;
+		// 				botaoDialogo.disabled = false;
+
+		// 				// Se for o último diálogo, libera o reiniciar
+		// 				if (currentDialogueIndex === dialogues.length - 1) {
+		// 					botaoDialogo.innerHTML = "Fim do diálogo";
+		// 					botaoDialogo.disabled = true;
+		// 					botaoReiniciar.disabled = false;
+		// 				}
+		// 			}
+		// 		}
+
+		// 		addLetter();
+		// 	}
+
+		// 	function nextDialogue() {
+		// 		if (currentDialogueIndex < dialogues.length) {
+		// 			showCurrentDialogue();
+		// 			currentDialogueIndex++;
+		// 			botaoDialogo.innerHTML = "Próximo";
+		// 		}
+		// 	}
+
+		// 	function reiniciarDialogo() {
+		// 		currentDialogueIndex = 0;
+		// 		document.getElementById('dialogue1').textContent = '';
+		// 		document.getElementById('dialogue2').textContent = '';
+		// 		document.getElementById('wrapper-balao1').style.display = 'none';
+		// 		document.getElementById('wrapper-balao2').style.display = 'none';
+		// 		botaoDialogo.innerHTML = "Iniciar Diálogo";
+		// 		botaoDialogo.disabled = false;
+		// 		botaoReiniciar.disabled = true;
+		// 	}
+		// </script>
+
+	<script>
+
+		// Nome do arquivo: script-universal.js
+		// O que fazer: Este código substitui o anterior e gerencia múltiplos diálogos.
+
+
+
+	</script>
+
+
+</body>
+
+</html>

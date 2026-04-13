@@ -1,0 +1,23 @@
+A fazer:
+
+Adicionar a função RemoverBalanco nos textos do 1º e 2º anos
+
+
+
+Feito:
+
+
+
+TEXTOS
+
+- Fonte #button - 18px.
+- textarea centralizado
+- mudar a fonte dos textos
+
+-
+
+- para play store
+
+
+
+

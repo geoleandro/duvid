@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModeloTimeLine</title>
+
+    <link rel="stylesheet" href="../../../estilos/questoes.css">
+    <link rel="stylesheet" href="../../../estilos/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../../../fotoIndex/favicon.ico">
+
+    <script src="../../../estilos/javascript.js" defer></script>
+    <script src="../../../estilos/estiloBalao.js" defer></script>
+
+
+
+
+    <style>
+        .character {
+            position: relative;
+        }
+
+        /* Imagem alinhada à esquerda */
+        img.left {
+            margin-left: -10%;
+            margin-top: 10%;
+            padding: auto;
+            cursor: pointer;
+        }
+
+        /* Imagem alinhada à direita */
+        img.right {
+            margin-left: -10%;
+            margin-top: 10%;
+            padding: auto;
+            cursor: pointer;
+        }
+
+        .w3-row {
+            padding-top: 5%;
+            max-width: 89%;
+            margin: 0 auto;
+            border: 10px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px #ccc;
+            /* background-image: url("../Aula03/p3q1a.png");
+            background-size: cover;
+            background-position: auto; */
+        }
+
+        .balloon {
+            position: absolute;
+            display: flex;
+
+            background-color: #fff;
+            border-radius: 10px;
+
+            min-width: 80%;
+            min-height: 20%;
+
+            padding: 2%;
+
+            border: 3px solid #3a3a3a85;
+            box-shadow: 0 0 10px #474747a2;
+         
+
+
+
+        }
+
+        .balao1 {
+           
+            opacity: 0.1;
+            transition: opacity 1.5s;
+
+        }
+
+        .balao2 {
+          
+            opacity: 0.1;
+            transition: opacity 1.5s;
+        }
+
+        .fadeBaloon {
+            opacity: 1;
+                       
+        }
+
+        .triangle {
+            position: absolute;
+            width: 0;
+            height: 0;
+            transform: rotate(45deg);
+
+            border-top: 20px solid transparent;
+            border-bottom: none;
+            z-index: 10;
+            max-width: 100%;
+            width: auto;
+            bottom: -10px;
+            /* ajusta a posição do triângulo para baixo */
+        }
+
+        .triangleLeft {
+            border-right: 20px solid #7e7e7e6b;
+            left: 50%;
+        }
+
+        .triangleRight {
+            border-right: 20px solid #7e7e7e6b;
+            left: 30%;
+        }
+
+        .pad {
+            padding: 2%;
+            padding-right: 2%;
+        }
+
+
+        /* .left {
+
+            left: auto;
+            bottom: auto;
+        }
+
+        .right {
+            right: auto;
+            bottom: auto;
+        } */
+
+        @media screen and (max-width: 600px) {
+          
+
+            .w3-row {
+                max-width: 320px;
+                padding-top: 5%;
+                max-width: 85%;
+                margin: 0 auto;
+                border: 10px solid #fff;
+                border-radius: 20px;
+                box-shadow: 0 0 10px #ccc;
+                /* background-image: url("../Aula03/p3q1a.png");
+            background-size: cover;
+            background-position: auto; */
+            }
+
+            .balloon {
+                position: relative;
+                display: inline-block;
+
+                background-color: #fff;
+                border-radius: 10px;
+                min-width: 70%;
+                min-height: 50px;
+                padding: 5%;
+
+                border: 1px solid #3a3a3a85;
+                box-shadow: 0 0 10px #474747a2;
+
+
+
+            }
+
+
+
+            .pad {
+                padding: 5%;
+
+            }
+
+
+            .triangle {
+                position: absolute;
+                width: 0;
+                height: 0;
+                transform: rotate(45deg);
+
+                border-top: 20px solid transparent;
+                border-bottom: none;
+                z-index: 10;
+                max-width: auto;
+                width: auto;
+                bottom: -10px;
+                /* ajusta a posição do triângulo para baixo */
+            }
+
+            .triangleLeft {
+                border-right: 20px solid #7e7e7e6b;
+                left: 30%;
+            }
+
+            .triangleRight {
+                border-right: 20px solid #7e7e7e6b;
+                left: 30%;
+            }
+
+            /* Imagem alinhada à esquerda */
+            img.left {
+                margin-left: -50%;
+                margin-top: -30%;
+                cursor: pointer;
+
+            }
+
+            /* Imagem alinhada à direita */
+            img.right {
+                margin-left: -20%;
+                margin-top: -30%;
+                cursor: pointer;
+
+            }
+
+        }
+
+        #typingSpeed {
+            width: 100px;
+            /* largura do controle deslizante */
+            background-color: #407943;
+        }
+
+        #typingSpeed::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            /* remove o estilo padrão do polegar */
+            appearance: none;
+            width: 20px;
+            /* largura do polegar */
+            height: 20px;
+            /* altura do polegar */
+
+            /* cor do polegar */
+            cursor: pointer;
+        }
+
+        #typingSpeed::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background-color: #39693b;
+            cursor: pointer;
+        }
+
+        input[type=range] {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 10px;
+            background-color: #ddd;
+            border-radius: 5px;
+            outline: none;
+            margin: 10px 0;
+        }
+
+        input[type=range]:hover {
+            cursor: pointer;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: #76a176;
+            margin-top: -5px;
+        }
+
+        input[type=range]::-moz-range-thumb {
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: #3a493a;
+        }
+    </style>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+    <div class="topico">
+
+        <div class="centerBar">
+
+            <!-- Navigation (Stays on Top) -->
+            <div class="w3-top w3-bar w3-black  larguraBar ">
+
+                <a href="../../../Duvid2Ano.html" class=" w3-button  margemTop w3-large ">2º ano</a>
+
+                <span class="w3-bar-item w3-button margemTop" id="notaFixa"></span>
+
+                <span class="w3-bar-item w3-button "><img id="imagem50" src="../../../fotoIndex/globinhoPe.png"
+                        alt="tp3Foto4" width="32" height="32"></span>
+
+            </div>
+        </div>
+
+        <div class="w3-padding-top-48">
+            <div class="w3-white larguraBar w3-padding ladoDireito">
+
+                <div class="margemDireita"><button class="w3-green w3-border w3-round-large " name="decrease-font"
+                        id="decrease-font" title="Diminuir fonte">A -</button></div>
+                <div class="margemDireita"><button class="w3-green w3-border w3-round-large" name="increase-font"
+                        id="increase-font" title="Aumentar fonte">A +</button></div>
+            </div>
+        </div>
+
+
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+        <p></p>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="w3-row w3-container w3-mobile">
+
+        <div class="w3-col s6">
+            <div class="character ">
+                <div class="balloon balao1" id="baloon1">
+                    <div class="triangle triangleLeft"></div>
+                    <span id="demo1" class="pad ">Clique na personagem</span>
+                </div>
+                <img id="demo1-img"
+                    onclick="ShowDialog(['Ei, Franciele, Você conhece o site Duvid - Geografia?' ,' É super legal porque tem um monte de textos e exercícios sobre geografia, tudo de graça. ', 
+                    'Têm um monte de conteúdo sobre geografia para o ensino médio, sabe?',
+                    'Ele explica tudo direitinho, com textos e imagens bem bacanas.', 
+                    'E ainda tem um monte de questões interativas para praticar e testar nosso conhecimento.'], 
+
+                    'demo1');"
+                    class="left" src="FotoDir.png" width="auto" height="auto" alt="FotoDir">
+
+
+            </div>
+        </div>
+        <div class="w3-col s6">
+            <div class="character ">
+                <div class="balloon balao2 " id="baloon2">
+                    <div class="triangle triangleRight"></div>
+                    <span id="demo2" class="pad">Clique na personagem</span>
+                </div>
+                <img id="demo2-img"
+                    onclick="ShowSecondDialog(['Nossa Jéssica, que demais!', 
+                    'Eu sempre tive um pouco de dificuldade em geografia.', 
+                    'Talvez esse site pode me ajudar!.',
+                    'Vou dar uma olhada agora mesmo!', 
+                    'Obrigada por avisar!'], 'demo2');"
+                    class="right" src="person28.png" width="auto" height="auto" alt="FotoDir">
+
+            </div>
+
+            <div class="container w3-mobile">
+                <label for="typingSpeed">Velocidade de digitação:</label>
+                <input type="range" id="typingSpeed" min="30" max="150" step="1" value="50">
+            </div>
+
+
+            <div class="w3-container w3-mobile">
+                <button Class="w3-button w3-bar-item w3-green w3-border" onclick="resetDialogVariables()">Reiniciar</button>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+    <script>
+
+
+
+        // function typeWriter(text, idBalao, contadorLetras) {
+
+        //         var txt = '';
+        //         if (!txt) {
+        //             txt = text;
+
+        //         if (contadorLetras < txt.length) {
+        //             document.getElementById(idBalao).innerHTML += txt.charAt(contadorLetras);
+        //             contadorLetras++;
+        //             setTimeout(function () {
+        //                 typeWriter(txt, idBalao, contadorLetras);
+        //             }, 50);
+        //         } else {
+        //            console.log("acabou dialogo");
+
+        //         }
+        //     }
+        // }
+
+
+
+
+
+
+    </script>
+
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics  -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>
