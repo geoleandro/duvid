@@ -13,10 +13,10 @@
 
     <!-- CSS local primeiro — chega antes de qualquer coisa externa -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="/estilos/index-estilo.css">
-    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
-    <link rel="stylesheet" href="/estilos/navbar.css">
-    <link rel="stylesheet" href="/estilos/trilha-niveis.css">
+    <link rel="stylesheet" href="estilos/index-estilo.css">
+    <link rel="stylesheet" href="estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+    <link rel="stylesheet" href="estilos/trilha-niveis.css">
 
     <!-- 3 fontes viram 1 requisição só -->
     <link rel="stylesheet"
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="fotoIndex/favicon.ico">
 
 
     <script src="/js/duvid-cache.js" defer></script>
@@ -74,7 +74,7 @@
     <main id="conteudo-principal">
 
         <div class="w3-display-container w3-animate-opacity w3-padding-48">
-            <img src="/fotoIndex/duvid-banner1.png" width="1200" height="400" style="width:100%; height:auto;"
+            <img src="fotoIndex/duvid-banner1.png" width="1200" height="400" style="width:100%; height:auto;"
                 fetchpriority="high" alt="Duvid Geografia Banner" class="w3-card-4">
 
             <div class="w3-display-middle w3-margin-top w3-center">
@@ -269,7 +269,7 @@
                             <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
                                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">1º ANO</h3>
                                 <div class="w3-padding">
-                                    <a href="/Duvid1Ano.html">
+                                    <a href="Duvid1Ano.php">
                                         <img src="fotoIndex/imagensCapa/capa1ano.png" loading="lazy" alt="Capa 1º Ano"
                                             class="w3-round w3-hover-opacity w3-margin-bottom"
                                             style="width:100%; max-width: 250px;">
@@ -290,7 +290,7 @@
                             <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
                                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">2º ANO</h3>
                                 <div class="w3-padding">
-                                    <a href="/Duvid2Ano.html">
+                                    <a href="Duvid2Ano.php">
                                         <img src="fotoIndex/imagensCapa/capa2ano.png" loading="lazy" alt="Capa 2º Ano"
                                             class="w3-round w3-hover-opacity w3-margin-bottom"
                                             style="width:100%; max-width: 250px;">
@@ -309,7 +309,7 @@
                             <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
                                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">3º ANO</h3>
                                 <div class="w3-padding">
-                                    <a href="/Duvid3Ano.html">
+                                    <a href="Duvid3Ano.php">
                                         <img src="fotoIndex/imagensCapa/capa3ano.png" loading="lazy" alt="Capa 3º Ano"
                                             class="w3-round w3-hover-opacity w3-margin-bottom"
                                             style="width:100%; max-width: 250px;">
@@ -345,7 +345,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="paginas/sobre.html"
                                 class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/projeto-icone.png" alt="Projeto" class="img-pixel-icon"><br>
+                                <img src="fotoIndex/icones/projeto-icone.png" alt="Projeto" class="img-pixel-icon"><br>
                                 <span class="w3-large">O Projeto</span>
                             </a>
                         </div>
@@ -353,7 +353,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="https://www.youtube.com/@duvidgeografia" target="_blank"
                                 class="w3-button w3-block w3-white w3-card w3-hover-red w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/youtube-icone.png" alt="YouTube" class="img-pixel-icon"><br>
+                                <img src="fotoIndex/icones/youtube-icone.png" alt="YouTube" class="img-pixel-icon"><br>
                                 <span class="w3-large">YouTube</span>
                             </a>
                         </div>
@@ -361,7 +361,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="blog/blog.html"
                                 class="w3-button w3-block w3-white w3-card w3-hover-blue w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/duvidblog-icone.png"
+                                <img src="fotoIndex/icones/duvidblog-icone.png"
                                     alt="Duvid Blog icon with stylized text and design elements representing the blog section of the platform"
                                     class="img-pixel-icon"><br>
                                 <span class="w3-large">Duvid Blog</span>
@@ -371,7 +371,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="simulados/capasimuladogeral.html"
                                 class="w3-button w3-block w3-white w3-card w3-hover-pink w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/simulado-icone.png"
+                                <img src="fotoIndex/icones/simulado-icone.png"
                                     alt="Simulados icon with clipboard and checkmark symbol on light background"
                                     class="img-pixel-icon"><br>
                                 <span class="w3-large">Simulados</span>
@@ -381,7 +381,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="paginas/livrosgeografia.html"
                                 class="w3-button w3-block w3-white w3-card w3-hover-orange w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/biblioteca-icone.png" alt="Biblioteca"
+                                <img src="fotoIndex/icones/biblioteca-icone.png" alt="Biblioteca"
                                     class="img-pixel-icon"><br>
                                 <span class="w3-large">Biblioteca</span>
                             </a>
@@ -391,7 +391,7 @@
                         <div class="w3-col l4 m6 w3-margin-bottom">
                             <a href="atividades/atividades.html"
                                 class="w3-button w3-block w3-white w3-card w3-hover-yellow w3-padding-24 w3-round-large">
-                                <img src="/fotoIndex/icones/atividades-icone.png" alt="Atividades"
+                                <img src="fotoIndex/icones/atividades-icone.png" alt="Atividades"
                                     class="img-pixel-icon"><br>
                                 <span class="w3-large">Atividades</span>
                             </a>
@@ -420,7 +420,7 @@
                     <!-- CARD POPULAÇÃO -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/populacao-icone.png" alt="População"
+                            <img src="fotoIndex/icones/populacao-icone.png" alt="População"
                                 class="img-widget-hero"><br>
                             <span class="w3-large w3-text-green"><b>Mundo Pulsa</b></span>
                             <div id="populacao-live" class="w3-large w3-text-dark-grey"
@@ -434,7 +434,7 @@
                     <!-- CARD DÓLAR -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/dolar-icone.png" alt="Economia" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/dolar-icone.png" alt="Economia" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-orange"><b>Dólar Comercial</b></span>
                             <div class="w3-large w3-text-dark-grey"><b id="dolar-valor">R$ --</b></div>
                             <p class="w3-tiny w3-opacity w3-margin-0">Cotação em tempo real</p>
@@ -446,7 +446,7 @@
                     <!-- CARD PETRÓLEO -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/petroleo-icone.png" alt="Petróleo" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/petroleo-icone.png" alt="Petróleo" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-dark-grey"><b>Petróleo Brent</b></span>
                             <div id="petroleo-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">U$
                                 109,25</div>
@@ -458,7 +458,7 @@
                     <!-- CARD PETRÓLEO -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/clima-icone.png" alt="Clima" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/clima-icone.png" alt="Clima" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-blue">
                                 <b id="cidade-nome">Poços de Caldas</b>
                                 <i class="fa fa-search w3-small w3-opacity w3-hover-text-blue" style="cursor:pointer"
@@ -481,7 +481,7 @@
                     <!-- CARD POPULAÇÃO BRASIL -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/popbrasil-icone.png" alt="População Brasil"
+                            <img src="fotoIndex/icones/popbrasil-icone.png" alt="População Brasil"
                                 class="img-widget-hero"><br>
                             <span class="w3-large w3-text-green"><b>Habitantes</b></span>
                             <div id="pop-brasil-live" class="w3-large w3-text-dark-grey" style="font-weight: bold;">
@@ -493,7 +493,7 @@
                     <!-- CARD IBOVESPA -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/ibovespa-icone.png" alt="Ibovespa" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/ibovespa-icone.png" alt="Ibovespa" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-purple"><b>Ibovespa</b></span>
                             <div id="ibov-pontos" class="w3-large w3-text-dark-grey" style="font-weight: bold;">
                                 Carregando...</div>
@@ -504,7 +504,7 @@
                     <!-- CARD TAXA SELIC -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/selic-icone.png" alt="Selic" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/selic-icone.png" alt="Selic" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-red"><b>Taxa Selic</b></span>
                             <div id="selic-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">--%
                             </div>
@@ -515,7 +515,7 @@
                     <!-- CARD INFLAÇÃO IPCA -->
                     <div class="w3-col l3 m6 s6 w3-margin-bottom">
                         <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="/fotoIndex/icones/ipca-icone.png" alt="Inflação" class="img-widget-hero"><br>
+                            <img src="fotoIndex/icones/ipca-icone.png" alt="Inflação" class="img-widget-hero"><br>
                             <span class="w3-large w3-text-orange"><b>Inflação IPCA</b></span>
                             <div id="ipca-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">--%</div>
                             <p class="w3-tiny w3-opacity w3-margin-0">Acumulado 12 meses</p>

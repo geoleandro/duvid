@@ -184,7 +184,7 @@
                 document.body.style.opacity = "0";
 
                 setTimeout(() => {
-                    window.location.href = "home.html";
+                    window.location.href = "home.php";
                 }, 500);
             }, 4000);
         });

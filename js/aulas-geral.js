@@ -3,7 +3,7 @@ async function carregarAulas(ano) {
     if (!grid) return;
 
     try {
-       const aulas = await DuvidCache.get(`/js/aulas-${ano}ano.json`); // << NOVO
+       const aulas = await DuvidCache.get(`js/aulas-${ano}ano.json`); // << NOVO
          
        // 1. Atualiza o Painel de RPG no topo
         mostrarProgressoGlobal(aulas, ano);
@@ -248,7 +248,7 @@ async function atualizarResumoHome() {
 
     for (const ano of anos) {
         try {
-            const aulas = await DuvidCache.get(`/js/aulas-${ano}ano.json`); // << NOVO
+            const aulas = await DuvidCache.get(`js/aulas-${ano}ano.json`); // << NOVO
 
             const aulasValidas = aulas.filter(a => a && a.id !== undefined);
             const total = aulasValidas.length;

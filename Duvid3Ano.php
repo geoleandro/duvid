@@ -8,8 +8,8 @@
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="estilos/index-estilo.css">
-    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
-    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
     <link rel="stylesheet" href="estilos/aulas-estilo.css">
 
     <link rel="shortcut icon" type="image/x-icon" href="fotoIndex/favicon.ico">
@@ -18,18 +18,18 @@
 
 
 
-    <script src="/js/duvid-cache.js" defer></script>
-    <script src="/js/duvid-core.js" defer></script>
+    <script src="js/duvid-cache.js" defer></script>
+    <script src="js/duvid-core.js" defer></script>
 
-    <script src="/js/duvid-db.js" defer></script>
+    <script src="js/duvid-db.js" defer></script>
 
-    <script src="/js/duvid-audio.js" defer></script>
-    <script src="/js/duvid-ui.js" defer></script>
+    <script src="js/duvid-audio.js" defer></script>
+    <script src="js/duvid-ui.js" defer></script>
 
-    <script src="/js/carregar.js" defer></script>
-    <script src="/js/aulas-geral.js" defer></script>
-    <script src="/js/abrirmenu.js" defer></script>
-    <script src="/estilos/jstextos-padrao.js"></script>
+    <script src="js/carregar.js" defer></script>
+    <script src="js/aulas-geral.js" defer></script>
+    <script src="js/abrirmenu.js" defer></script>
+    <script src="estilos/jstextos-padrao.js"></script>
 
 </head>
 
