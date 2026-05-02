@@ -6,3 +6,4 @@
 
 # Opcional: Impede a listagem de arquivos da pasta
 Options -Indexes
+AddType application/x-httpd-php .html

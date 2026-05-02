@@ -252,7 +252,7 @@ async function carregarFrase() {
         f.style.opacity = 0;
         if (imgAutor) imgAutor.style.opacity = 0;
 
-        const frases = await DuvidCache.get('/estilos/frases.json'); // << NOVO
+        const frases = await DuvidCache.get('estilos/frases.json'); // << NOVO
 
         setTimeout(() => {
             const aleatoria = frases[Math.floor(Math.random() * frases.length)];
@@ -260,7 +260,7 @@ async function carregarFrase() {
             if (a) a.innerText = `— ${aleatoria.autor}`;
 
             if (imgAutor && aleatoria.imagem) {
-                imgAutor.src = "/" + aleatoria.imagem;
+                imgAutor.src = (typeof duvidUrl === "function") ? duvidUrl(aleatoria.imagem) : aleatoria.imagem;
                 imgAutor.onload = () => {
                     imgAutor.style.display = 'block';
                     imgAutor.style.opacity = 1;

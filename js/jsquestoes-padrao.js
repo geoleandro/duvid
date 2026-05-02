@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function carregarDados(id) {
     try {
         const anoPasta = id.startsWith('1') ? '1ano' : id.startsWith('2') ? '2ano' : '3ano';
-        const url = `/questoes/${anoPasta}/${id}.json`;
+        const url = `questoes/${anoPasta}/${id}.json`;
 
         const dadosBrutos = await DuvidCache.get(url); // << NOVO
 

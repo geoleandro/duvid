@@ -1,1 +1,75 @@
 arquivosphp/config.php
+
+# ============================================
+# Configurações sensíveis (senhas, chaves API)
+# ============================================
+arquivosphp/config.php
+
+# ============================================
+# Composer / PHPMailer
+# ============================================
+# A vendor é gerada por `composer install` a partir do composer.json
+# e composer.lock — não vai para o repo.
+lib/vendor/
+
+# ============================================
+# XAMPP — pasta do dashboard padrão, não é do projeto
+# ============================================
+xampp/
+
+# ============================================
+# Editores / IDEs
+# ============================================
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+.history/
+
+# ============================================
+# Sistema operacional
+# ============================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+._*
+
+# ============================================
+# Logs (PHP / Apache)
+# ============================================
+*.log
+error_log
+access_log
+
+# ============================================
+# Arquivos temporários / backup
+# ============================================
+*.tmp
+*.bak
+*.swp
+*~
+*.orig
+
+# ============================================
+# Variáveis de ambiente (caso adote no futuro)
+# ============================================
+.env
+.env.local
+
+# ============================================
+# Vídeos (arquivos pesados — não vão para o repo)
+# ============================================
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.flv
+*.webm
+*.m4v

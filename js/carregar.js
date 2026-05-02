@@ -2,14 +2,27 @@ document.addEventListener("DOMContentLoaded", function () {
     injetarComponentesGlobais();
     aplicarTemaSalvo();
     inicializarControleFonte();
-
+    resolverImagensBase();
 });
+
+// Resolve <img data-base-src="foo/bar.png"> usando a base do projeto.
+// Útil para imagens dentro de header/footer que precisam funcionar em
+// qualquer profundidade de página.
+function resolverImagensBase() {
+    const imgs = document.querySelectorAll('img[data-base-src]');
+    imgs.forEach(img => {
+        const path = img.dataset.baseSrc;
+        if (!path) return;
+        img.src = (typeof duvidUrl === "function") ? duvidUrl(path) : path;
+    });
+}
 async function injetarComponentesGlobais() {
     const carregarRecurso = async (id, path) => {
         const container = document.getElementById(id);
         if (container && container.innerHTML.trim() === "") {
             try {
-                const res = await fetch(path);
+                const finalUrl = (typeof duvidUrl === "function") ? duvidUrl(path) : path;
+                const res = await fetch(finalUrl);
                 if (res.ok) {
                     container.innerHTML = await res.text();
                     return true;
@@ -22,9 +35,12 @@ async function injetarComponentesGlobais() {
     };
 
     // 1. Carrega o Header e trata o painel de pontos
-    const hOk = await carregarRecurso('header-placeholder', '/includes/header.html');
+    const hOk = await carregarRecurso('header-placeholder', 'includes/header.php');
     
     if (hOk) {
+        // Resolve imagens com data-base-src dentro do header recém-injetado
+        if (typeof resolverImagensBase === "function") resolverImagensBase();
+
         const painel = document.getElementById("painel-pontos");
         
         // Verifica se deve mostrar o globinho
@@ -43,7 +59,7 @@ async function injetarComponentesGlobais() {
     }
 
     // 2. Carrega o Footer e atualiza o ano
-    const fOk = await carregarRecurso('footer-placeholder', '/includes/footer.html');
+    const fOk = await carregarRecurso('footer-placeholder', 'includes/footer.php');
 
     if (fOk) {
         const spanAno = document.getElementById('ano-atual');
@@ -157,5 +173,4 @@ function voltarAoTopo() {
 window.onscroll = function () {
     mostrarBotaoTopo();
 };
-
 

@@ -576,9 +576,12 @@ async function configurarSEOAutomatico(id, tipo = 'texto') {
 
 
     try {
-        // CORREÇÃO AQUI: Use crases (atrás do P no teclado) e verifique o caminho
-        // Se o arquivo estiver em /js/aulas-1ano.json, o caminho abaixo está correto
-        const caminhoJson = `/js/aulas-${ano}ano.json`;
+        // Caminho relativo à raiz do projeto — duvidUrl() prefixa a base correta
+        // (resolve para /duvid/js/... quando o site mora em /duvid/, ou /js/...
+        // quando o site está na raiz).
+        const caminhoJson = (typeof duvidUrl === "function")
+            ? duvidUrl(`js/aulas-${ano}ano.json`)
+            : `js/aulas-${ano}ano.json`;
 
         const res = await fetch(caminhoJson);
 

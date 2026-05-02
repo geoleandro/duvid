@@ -1,0 +1,130 @@
+<div class="w3-top" style="z-index: 1000; left: 0; right: 0;">
+    <div class="w3-bar w3-green w3-card w3-left-align w3-medium">
+
+        <a href="/home.php" class="w3-bar-item w3-button w3-padding-small w3-margin-left"><i
+                class="fa fa-home"></i></a>
+
+        <a href="/atividades/atividades.html"
+            class="w3-bar-item w3-button w3-padding-small w3-hide-small">ATIVIDADES</a>
+
+        <div class="w3-dropdown-click w3-hide-small">
+            <button onclick="AbrirDropDown('aulas')" class="w3-padding-small w3-button">
+                AULAS <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="aulas" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
+                <a href="/Duvid1Ano.php" class="w3-bar-item w3-button">1º ano</a>
+                <a href="/Duvid2Ano.php" class="w3-bar-item w3-button">2º ano</a>
+                <a href="/Duvid3Ano.php" class="w3-bar-item w3-button">3º ano</a>
+            </div>
+        </div>
+
+        <a href="/blog/blog.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">BLOG</a>
+
+
+        <a href="/paginas/creditos.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">CRÉDITOS</a>
+
+
+        <a href="/paginas/instrucoes.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">INSTRUÇÕES</a>
+
+        <div class="w3-dropdown-click w3-hide-small">
+            <button onclick="AbrirDropDown('simulados')" class="w3-padding-small w3-button">
+                SIMULADOS <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="simulados" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
+                <a href="/simulados/capasimuladoenem.html" class="w3-bar-item w3-button">Enem</a>
+                <a href="/simulados/capasimuladofuvest.html" class="w3-bar-item w3-button">Fuvest</a>
+                <a href="/simulados/capasimuladounesp.html" class="w3-bar-item w3-button">Unesp</a>
+                <a href="/simulados/capasimuladounicamp.html" class="w3-bar-item w3-button">Unicamp</a>
+            </div>
+        </div>
+
+
+
+        <div class="w3-right" style="display: flex; align-items: center; height: 45px; gap: 5px;">
+
+            <!-- Medalha de Patente: -->
+            <!-- <img id="medalha-header" src="/fotoIndex/icones/duvid-patentes-novato.png" alt="Patente" class="pixel-art-icon"
+                    style="width: 45px; height: auto; image-rendering: pixelated;" title="patente atual do aluno"> -->
+
+            <div id="painel-pontos" class="w3-round-large w3-green w3-card-2 w3-hide"
+                style="display: flex; align-items: center; padding: 2px 10px; margin-right: 5px; height: 32px;">
+
+
+
+                <div class="caixa-total-dourada">
+                    <span id="saldoTotalHeader" class="fontePixel">0.0</span>
+                </div>
+
+                <div style="border-right: 1px solid rgba(255,255,255,0.4); height: 20px; margin-right: 8px;"></div>
+
+                <div style="display: flex; align-items: center;">
+                    <span id="notaFixa" class="fontePixel"
+                        style="font-size: 16px; color: white; margin-right: 5px;">0.0</span>
+                    <img id="imagem50" alt="globo" width="22" height="22" data-base-src="fotoIndex/globinhoPe.png">
+                </div>
+            </div>
+
+
+
+            <div class="font-controls " style="display: flex; align-items: center;">
+                <button id="decrease-font" class="font-btn" style="padding: 2px 8px;">A-</button>
+                <button id="increase-font" class="font-btn" style="padding: 2px 8px;">A+</button>
+            </div>
+
+
+
+            <button class="w3-button" id="toggle-dark-mode" style="padding: 8px 12px;">
+                <i class="fa fa-moon fa-fw"></i>
+            </button>
+
+            <a class="w3-bar-item w3-button w3-hide-large w3-hide-medium w3-hover-white" href="#"
+                onclick="AbrirNavBar(); return false;" style="padding: 8px 16px;">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<div id="navDemo" class="w3-bar-block w3-green w3-hide w3-hide-large w3-hide-medium w3-top w3-left-align"
+    style="margin-top:46px; z-index: 999;">
+
+    <!-- 1. LINK SIMPLES -->
+    <a href="/atividades/atividades.html" class="w3-bar-item w3-button w3-padding-large"
+        onclick="AbrirNavBar()">ATIVIDADES</a>
+
+    <!-- 2. DROPDOWN (Corrigido com w3-left-align e estilo de reset) -->
+    <div class="w3-dropdown-click w3-left-align ">
+        <button onclick="AbrirDropDown('aulas-mobile')" class="w3-button w3-block  w3-padding-large"
+            style="text-align: left; width: 100%; border: none; background: inherit;">
+            AULAS <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="aulas-mobile" class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
+            <a href="/Duvid1Ano.php" class="w3-bar-item w3-button w3-padding">1º ano</a>
+            <a href="/Duvid2Ano.php" class="w3-bar-item w3-button w3-padding">2º ano</a>
+            <a href="/Duvid3Ano.php" class="w3-bar-item w3-button w3-padding">3º ano</a>
+        </div>
+    </div>
+
+    <!-- 3. LINKS SIMPLES -->
+    <a href="/blog/blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">BLOG</a>
+    <a href="/paginas/creditos.html" class="w3-bar-item w3-button w3-padding-large"
+        onclick="AbrirNavBar()">CRÉDITOS</a>
+    <a href="/paginas/instrucoes.html" class="w3-bar-item w3-button w3-padding-large"
+        onclick="AbrirNavBar()">INSTRUÇÕES</a>
+
+    <!-- 4. DROPDOWN SIMULADOS (Corrigido) -->
+    <div class="w3-dropdown-click w3-left-align">
+        <button onclick="AbrirDropDown('simulados-mobile')" class="w3-button w3-block  w3-padding-large"
+            style="text-align: left; width: 100%; border: none; background: inherit;">
+            SIMULADOS <i class="fa fa-caret-down"></i>
+        </button>
+        <div id="simulados-mobile" class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
+            <a href="/simulados/capasimuladoenem.html" class="w3-bar-item w3-button w3-padding">Enem</a>
+            <a href="/simulados/capasimuladofuvest.html" class="w3-bar-item w3-button w3-padding">Fuvest</a>
+            <a href="/simulados/capasimuladounesp.html" class="w3-bar-item w3-button w3-padding">Unesp</a>
+            <a href="/simulados/capasimuladounicamp.html" class="w3-bar-item w3-button w3-padding">Unicamp</a>
+        </div>
+    </div>
+</div>
