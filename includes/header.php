@@ -4,7 +4,7 @@
         <a href="/home.php" class="w3-bar-item w3-button w3-padding-small w3-margin-left"><i
                 class="fa fa-home"></i></a>
 
-        <a href="/atividades/atividades.html"
+        <a href="/atividades/atividades.php"
             class="w3-bar-item w3-button w3-padding-small w3-hide-small">ATIVIDADES</a>
 
         <div class="w3-dropdown-click w3-hide-small">
@@ -18,23 +18,23 @@
             </div>
         </div>
 
-        <a href="/blog/blog.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">BLOG</a>
+        <a href="/blog/blog.php" class="w3-bar-item w3-button w3-padding-small w3-hide-small">BLOG</a>
 
 
-        <a href="/paginas/creditos.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">CRÉDITOS</a>
+        <a href="/paginas/creditos.php" class="w3-bar-item w3-button w3-padding-small w3-hide-small">CRÉDITOS</a>
 
 
-        <a href="/paginas/instrucoes.html" class="w3-bar-item w3-button w3-padding-small w3-hide-small">INSTRUÇÕES</a>
+        <a href="/paginas/instrucoes.php" class="w3-bar-item w3-button w3-padding-small w3-hide-small">INSTRUÇÕES</a>
 
         <div class="w3-dropdown-click w3-hide-small">
             <button onclick="AbrirDropDown('simulados')" class="w3-padding-small w3-button">
                 SIMULADOS <i class="fa fa-caret-down"></i>
             </button>
             <div id="simulados" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-                <a href="/simulados/capasimuladoenem.html" class="w3-bar-item w3-button">Enem</a>
-                <a href="/simulados/capasimuladofuvest.html" class="w3-bar-item w3-button">Fuvest</a>
-                <a href="/simulados/capasimuladounesp.html" class="w3-bar-item w3-button">Unesp</a>
-                <a href="/simulados/capasimuladounicamp.html" class="w3-bar-item w3-button">Unicamp</a>
+                <a href="/simulados/capasimuladoenem.php" class="w3-bar-item w3-button">Enem</a>
+                <a href="/simulados/capasimuladofuvest.php" class="w3-bar-item w3-button">Fuvest</a>
+                <a href="/simulados/capasimuladounesp.php" class="w3-bar-item w3-button">Unesp</a>
+                <a href="/simulados/capasimuladounicamp.php" class="w3-bar-item w3-button">Unicamp</a>
             </div>
         </div>
 
@@ -91,7 +91,7 @@
     style="margin-top:46px; z-index: 999;">
 
     <!-- 1. LINK SIMPLES -->
-    <a href="/atividades/atividades.html" class="w3-bar-item w3-button w3-padding-large"
+    <a href="/atividades/atividades.php" class="w3-bar-item w3-button w3-padding-large"
         onclick="AbrirNavBar()">ATIVIDADES</a>
 
     <!-- 2. DROPDOWN (Corrigido com w3-left-align e estilo de reset) -->
@@ -108,10 +108,10 @@
     </div>
 
     <!-- 3. LINKS SIMPLES -->
-    <a href="/blog/blog.html" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">BLOG</a>
-    <a href="/paginas/creditos.html" class="w3-bar-item w3-button w3-padding-large"
+    <a href="/blog/blog.php" class="w3-bar-item w3-button w3-padding-large" onclick="AbrirNavBar()">BLOG</a>
+    <a href="/paginas/creditos.php" class="w3-bar-item w3-button w3-padding-large"
         onclick="AbrirNavBar()">CRÉDITOS</a>
-    <a href="/paginas/instrucoes.html" class="w3-bar-item w3-button w3-padding-large"
+    <a href="/paginas/instrucoes.php" class="w3-bar-item w3-button w3-padding-large"
         onclick="AbrirNavBar()">INSTRUÇÕES</a>
 
     <!-- 4. DROPDOWN SIMULADOS (Corrigido) -->
@@ -121,10 +121,10 @@
             SIMULADOS <i class="fa fa-caret-down"></i>
         </button>
         <div id="simulados-mobile" class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
-            <a href="/simulados/capasimuladoenem.html" class="w3-bar-item w3-button w3-padding">Enem</a>
-            <a href="/simulados/capasimuladofuvest.html" class="w3-bar-item w3-button w3-padding">Fuvest</a>
-            <a href="/simulados/capasimuladounesp.html" class="w3-bar-item w3-button w3-padding">Unesp</a>
-            <a href="/simulados/capasimuladounicamp.html" class="w3-bar-item w3-button w3-padding">Unicamp</a>
+            <a href="/simulados/capasimuladoenem.php" class="w3-bar-item w3-button w3-padding">Enem</a>
+            <a href="/simulados/capasimuladofuvest.php" class="w3-bar-item w3-button w3-padding">Fuvest</a>
+            <a href="/simulados/capasimuladounesp.php" class="w3-bar-item w3-button w3-padding">Unesp</a>
+            <a href="/simulados/capasimuladounicamp.php" class="w3-bar-item w3-button w3-padding">Unicamp</a>
         </div>
     </div>
 </div>

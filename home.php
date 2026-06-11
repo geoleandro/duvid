@@ -146,7 +146,7 @@
                             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">1º ANO</h3>
                             <div class="w3-padding">
                                 <a href="Duvid1Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa1ano.png" loading="lazy" alt="Capa 1º Ano"
+                                    <img src="fotoIndex/imagensCapa/capa1ano.webp" loading="lazy" alt="Capa 1º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
                                         style="width:100%; max-width:250px;">
                                 </a>
@@ -165,7 +165,7 @@
                             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">2º ANO</h3>
                             <div class="w3-padding">
                                 <a href="Duvid2Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa2ano.png" loading="lazy" alt="Capa 2º Ano"
+                                    <img src="fotoIndex/imagensCapa/capa2ano.webp" loading="lazy" alt="Capa 2º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
                                         style="width:100%; max-width:250px;">
                                 </a>
@@ -184,7 +184,7 @@
                             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">3º ANO</h3>
                             <div class="w3-padding">
                                 <a href="Duvid3Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa3ano.png" loading="lazy" alt="Capa 3º Ano"
+                                    <img src="fotoIndex/imagensCapa/capa3ano.webp" loading="lazy" alt="Capa 3º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
                                         style="width:100%; max-width:250px;">
                                 </a>
@@ -223,7 +223,7 @@
                 <div class="w3-row-padding w3-center">
 
                     <div class="w3-third w3-margin-bottom">
-                        <a href="paginas/sobre.html"
+                        <a href="paginas/sobre.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/projeto-icone.png" alt="Projeto" class="img-pixel-icon"><br>
                             <span class="w3-large">O Projeto</span>
@@ -239,7 +239,7 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <a href="blog/blog.html"
+                        <a href="blog/blog.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-blue w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/duvidblog-icone.png" alt="Blog" class="img-pixel-icon"><br>
                             <span class="w3-large">Blog</span>
@@ -247,7 +247,7 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <a href="simulados/capasimuladogeral.html"
+                        <a href="simulados/capasimuladogeral.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-pink w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/simulado-icone.png" alt="Simulados" class="img-pixel-icon"><br>
                             <span class="w3-large">Simulados</span>
@@ -255,7 +255,7 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <a href="paginas/livrosgeografia.html"
+                        <a href="paginas/livrosgeografia.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-orange w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/biblioteca-icone.png" alt="Biblioteca"
                                 class="img-pixel-icon"><br>
@@ -264,7 +264,7 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <a href="atividades/atividades.html"
+                        <a href="atividades/atividades.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-yellow w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/atividades-icone.png" alt="Atividades"
                                 class="img-pixel-icon"><br>

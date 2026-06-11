@@ -15,7 +15,7 @@
         style="text-decoration:none; color: white;"></a>
 
     <p class="w3-medium">
-        <a href="/paginas/politicaPrivacidade.html" target="_blank">Política de Privacidade</a>
+        <a href="/paginas/politicaPrivacidade.php" target="_blank">Política de Privacidade</a>
     </p>
 
     <div class="w3-container w3-medium">

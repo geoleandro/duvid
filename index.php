@@ -149,7 +149,7 @@
 <body>
 
    <div class="container">
-    <img src="fotoIndex/DuvidCapa.jpg" alt="Duvid RPG" class="capa-rpg w3-animate-zoom">
+    <img src="fotoIndex/DuvidCapa.webp" alt="Duvid RPG" class="capa-rpg w3-animate-zoom">
     
     <div class="loader-box">
         <h2 class="pixel-text w3-animate-bottom gold-pulse">

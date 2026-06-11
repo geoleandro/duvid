@@ -51,7 +51,7 @@
 </style>
 
 <body class="w3-light-grey">
-    <div id="header-placeholder"></div>
+    <?php include __DIR__ . '/includes/header.php'; ?>
 
     <main class="w3-content" style="max-width:1100px; margin-top: 80px;">
 
@@ -83,7 +83,7 @@
 
 
 
-    <div id="footer-placeholder"></div>
+    <?php include __DIR__ . '/includes/footer.php'; ?>
 
 
 
