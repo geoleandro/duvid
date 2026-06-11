@@ -1,5 +1,15 @@
 [
  {
+    "id": 3,
+    "titulo": "Projeto: Geografia em Quadrinhos",
+    "tema": "Cartografia",
+    "nivel": "1º ano EM",
+    "descricao": "Produção coletiva de uma revista em quadrinhos pelos alunos (grupos de 3): cada equipe transforma um dos 11 temas do bimestre (cartografia, projeções, sensoriamento, tectônica, relevo) em uma HQ de uma página (frente e verso). Avaliação substitutiva.",
+    "bncc": "EM13CHS106, EM13CHS204",
+    "link": "projeto-geografia-quadrinhos.pdf",
+    "tag": "Projeto"
+},
+ {
     "id": 2,
     "titulo": "Projeto: Criando um País Fictício",
     "tema": "Geopolítica",
