@@ -105,6 +105,9 @@
       const nomeArquivo = window.location.pathname;
       const anoPagina = nomeArquivo.match(/\d+/) ? nomeArquivo.match(/\d+/)[0] : "1";
 
+      // Aguarda sincronização com o banco antes de colorir os cards
+      if (typeof DuvidDB !== "undefined" && DuvidDB.pronto) await DuvidDB.pronto;
+
       // Desenha os cards das aulas na tela
       if (typeof carregarAulas === "function") {
         await carregarAulas(anoPagina);

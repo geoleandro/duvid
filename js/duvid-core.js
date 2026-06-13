@@ -106,7 +106,7 @@ function inicializarAula(tipo) {
     const aulaID = params.get('id');
 
     if (aulaID) {
-        const jaConcluiu = localStorage.getItem(`concluido_${tipo}_${aulaID}`) === "true";
+        const jaConcluiu = DuvidDB.estaConcluido(aulaID, tipo);
         if (jaConcluiu) {
             console.log(`Modo Revisão: ${tipo} ${aulaID} já finalizado.`);
             // Opcional: injetar aviso visual
@@ -121,45 +121,33 @@ function inicializarAula(tipo) {
 
 
 function executarReset() {
-    // 1. Efeito visual: Sobe a página
+    // "Sair / Trocar de conta": remove só a identidade LOCAL.
+    // O progresso (globinhos, conclusões, conquistas) continua no banco e
+    // volta quando o aluno entrar de novo com nome + PIN.
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
+    localStorage.removeItem(NOME_CHAVE);
+    localStorage.removeItem(ALUNO_ID_CHAVE);
+    DuvidDB._cache.globinhos = 0;
+    DuvidDB._cache.conclusoes = {};
+    DuvidDB._cache.alunoId = null;
 
-
-    // 2. Limpeza Inteligente do LocalStorage
-    const chaves = Object.keys(localStorage);
-    chaves.forEach(key => {
-        // Verifica se a chave começa com os prefixos do sistema
-        const isConcluido = key.startsWith("concluido_");
-        const isDuvid = key.startsWith("duvid_");
-
-        // Também garante a limpeza das chaves específicas que você definiu no topo
-        const isChaveGlobal = (key === DB_CHAVE || key === NOME_CHAVE);
-
-        if (isConcluido || isDuvid || isChaveGlobal) {
-            localStorage.removeItem(key);
-            console.log(`Chave removida: ${key}`);
-        }
-    });
-
-    // 3. Feedback Visual no Modal (com o texto de RPG)
     const modalContent = document.querySelector("#modalReset .w3-container");
     if (modalContent) {
         modalContent.innerHTML = `
             <div class="w3-animate-zoom w3-center w3-padding-32">
-                <h3 class="w3-text-red fontePixel"><b>SISTEMA REBOOTADO!</b></h3>
+                <h3 class="w3-text-green fontePixel"><b>VOCÊ SAIU!</b></h3>
                 <img src="../fotoIndex/globinhoPe.png" width="80" class="w3-spin w3-margin">
-                <p>Formatando banco de dados...<br><b>Aguarde a reinicialização.</b></p>
+                <p>Seu progresso ficou salvo.<br><b>Até logo!</b></p>
             </div>
         `;
     }
 
-    // 4. Som e Redirecionamento
-    if (typeof playSom === "function") playSom('erro');
+    if (typeof playSom === "function") playSom('acerto');
 
     setTimeout(() => {
-        // Volta para a Splash Screen para o aluno colocar o nome novamente
-        window.location.href = "../index.html";
+        // Volta para a tela inicial para o próximo aluno entrar
+        window.location.href = "../index.php";
     }, 2200);
 }
 
@@ -208,20 +196,62 @@ function gerenciarIdentificacaoHome() {
 }
 
 function NomeAlunos(respid, inputid) {
-    const nome = document.getElementById(inputid).value;
-    if (nome.trim() !== "") {
-        // CORREÇÃO AQUI: De setNome para salvarNome
-        DuvidDB.salvarNome(nome);
+    const nome   = document.getElementById(inputid)?.value.trim() ?? '';
+    const email  = document.getElementById('pq-email')?.value.trim() ?? '';
+    const pin    = document.getElementById('pq-pin')?.value.trim()   ?? '';
+    const turma  = document.getElementById('pq-turma')?.value.trim() ?? '';
+    const erroEl = document.getElementById('login-erro');
 
-        // Troca as telas
-        document.getElementById('form-identificacao').style.display = 'none';
-        document.getElementById('display-identificado').style.display = 'block';
-        document.getElementById('nome-aluno-texto').innerText = nome.toUpperCase();
-        document.getElementById('resumo-geral').style.display = 'block';
-
-        // GATILHO 2
-        atualizarSistemaNivelHome();
+    function mostrarErro(msg) {
+        if (erroEl) { erroEl.textContent = msg; erroEl.style.display = 'block'; }
     }
+    function limparErro() {
+        if (erroEl) erroEl.style.display = 'none';
+    }
+
+    const apenasLetras = nome.replace(/[^a-zA-ZÀ-ÿ]/g, '');
+    if (apenasLetras.length < 3) {
+        mostrarErro('Digite um nome válido (mínimo 3 letras).');
+        document.getElementById(inputid)?.focus();
+        return;
+    }
+
+    if (document.getElementById('pq-email')) {
+        const emailOk = email && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        if (!emailOk) {
+            mostrarErro('Digite um e-mail válido.');
+            document.getElementById('pq-email')?.focus();
+            return;
+        }
+        if (!/^\d{4}$/.test(pin)) {
+            mostrarErro('O PIN deve ter exatamente 4 números.');
+            document.getElementById('pq-pin')?.focus();
+            return;
+        }
+    }
+
+    limparErro();
+
+    DuvidDB.salvarNome(nome, email, pin, turma)
+        .then(dados => {
+            if (!dados) return;
+            if (dados.erro && !dados.bloqueado) {
+                mostrarErro(dados.erro);
+                if (dados.campo === 'codigo_turma') document.getElementById('pq-turma')?.focus();
+                return;
+            }
+            if (dados.bloqueado) {
+                mostrarErro(dados.erro || 'Nome já em uso. Verifique seu PIN.');
+                return;
+            }
+            document.getElementById('form-identificacao').style.display = 'none';
+            document.getElementById('display-identificado').style.display = 'block';
+            document.getElementById('nome-aluno-texto').innerText = nome.toUpperCase();
+            const resumo = document.getElementById('resumo-geral');
+            if (resumo) resumo.style.display = 'block';
+            if (typeof atualizarSistemaNivelHome === 'function') atualizarSistemaNivelHome();
+        })
+        .catch(() => mostrarErro('Erro ao conectar. Tente novamente.'));
 }
 
 
@@ -282,7 +312,7 @@ async function carregarFrase() {
 
 function sincronizarNomeGlobal() {
     // 1. Pega o nome atualizado
-    const nomeSalvo = localStorage.getItem(NOME_CHAVE);
+    const nomeSalvo = DuvidDB.getNome();
     if (!nomeSalvo) return; // Se não tem nome, não faz nada
 
     // 2. Atualiza no Header das Aulas (se houver o ID 'nome-aluno-header')
@@ -330,7 +360,7 @@ function revelarParentese(elemento, definicao) {
     if (typeof playSom === "function") playSom('acerto');
 
     if (typeof DuvidDB !== "undefined") {
-        DuvidDB.addGlobinhos(2);
+        DuvidDB.addGlobinhos(2, 'glossario');
         if (typeof atualizarInterface === "function") atualizarInterface();
         if (typeof feedbackVisualAcerto === "function") feedbackVisualAcerto();
     }

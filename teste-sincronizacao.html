@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teste de Sincronização — Globinhos & Conclusões</title>
+<style>
+  body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:760px;margin:24px auto;padding:0 16px;color:#1a1a1a}
+  h1{font-size:20px}
+  fieldset{border:1px solid #ccc;border-radius:8px;margin-bottom:16px}
+  label{display:inline-block;min-width:130px}
+  input{padding:6px 8px;border:1px solid #bbb;border-radius:6px;width:120px}
+  button{padding:9px 16px;border:0;border-radius:8px;background:#2196f3;color:#fff;font-weight:600;cursor:pointer}
+  button:disabled{opacity:.5;cursor:not-allowed}
+  .log{background:#0f1720;color:#d6e2f0;padding:12px;border-radius:8px;white-space:pre-wrap;
+       font-family:ui-monospace,Consolas,monospace;font-size:13px;line-height:1.5;margin-top:12px}
+  .pass{color:#4ade80;font-weight:700}
+  .fail{color:#f87171;font-weight:700}
+  .info{color:#93c5fd}
+  .muted{color:#94a3b8}
+  small{color:#555}
+</style>
+</head>
+<body>
+  <h1>Teste de Sincronização — Globinhos &amp; Conclusões</h1>
+  <p><small>Abra esta página em <code>http://localhost/teste-sincronizacao.html</code> (mesma origem das APIs).
+  Os testes <b>gravam dados reais</b> — use uma conta de teste.</small></p>
+
+  <fieldset>
+    <legend>Parâmetros</legend>
+    <p><label for="aid">ID do aluno:</label><input id="aid" type="number" placeholder="ex: 1"></p>
+    <p><label for="nome">ou criar/buscar nome:</label><input id="nome" type="text" placeholder="ex: TESTE_BOT" style="width:200px"></p>
+    <p><label for="aula">ID da aula (conclusão):</label><input id="aula" type="number" value="101"></p>
+    <p>
+      <button id="btnPrep">1. Preparar aluno</button>
+      <button id="btnRun" disabled>2. Rodar testes</button>
+    </p>
+  </fieldset>
+
+  <div id="log" class="log">Aguardando…</div>
+
+<script>
+const API = '/api';
+const logEl = document.getElementById('log');
+let alunoId = null;
+
+function line(txt, cls){ logEl.innerHTML += '\n' + (cls?`<span class="${cls}">${txt}</span>`:txt); }
+function clear(){ logEl.innerHTML = ''; }
+async function jget(url){ const r = await fetch(url); return r.json(); }
+async function jpost(url, body){
+  const r = await fetch(url,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+  let data=null; try{ data = await r.json(); }catch(e){}
+  return {status:r.status, data};
+}
+
+// ---- Preparar: cria ou busca o aluno ----
+document.getElementById('btnPrep').onclick = async () => {
+  clear();
+  const idIn = parseInt(document.getElementById('aid').value);
+  const nome = document.getElementById('nome').value.trim();
+  try{
+    if (idIn){
+      const d = await jget(`${API}/aluno.php?id=${idIn}`);
+      if(!d.encontrado){ line(`✗ Aluno id=${idIn} não encontrado.`,'fail'); return; }
+      alunoId = d.id;
+    } else if (nome){
+      const r = await jpost(`${API}/aluno.php`, {nome, globinhos_iniciais:0});
+      if(!r.data || !r.data.id){ line('✗ Falha ao criar/buscar por nome: '+JSON.stringify(r.data),'fail'); return; }
+      alunoId = r.data.id;
+      line(`${r.data.criado?'Criado':'Encontrado'} aluno "${nome}".`,'info');
+    } else { line('Informe um ID ou um nome.','fail'); return; }
+
+    const d = await jget(`${API}/aluno.php?id=${alunoId}`);
+    line(`✓ Aluno pronto: id=${alunoId} | globinhos=${d.globinhos} | conclusões=${(d.conclusoes||[]).length}`,'pass');
+    document.getElementById('aid').value = alunoId;
+    document.getElementById('btnRun').disabled = false;
+  }catch(e){ line('✗ Erro: '+e.message,'fail'); }
+};
+
+// ---- Rodar a bateria de testes ----
+document.getElementById('btnRun').onclick = async () => {
+  document.getElementById('btnRun').disabled = true;
+  const aulaId = parseInt(document.getElementById('aula').value) || 101;
+  let passes=0, fails=0;
+  const ok  = (c,m)=>{ line((c?'✓ ':'✗ ')+m, c?'pass':'fail'); c?passes++:fails++; };
+
+  try{
+    // ===== TESTE 1: globinhos.php vivo + soma atômica em paralelo =====
+    line('\n=== TESTE 1: globinhos.php (5x +20 em paralelo) ===','info');
+    const base = (await jget(`${API}/aluno.php?id=${alunoId}`)).globinhos;
+    line(`baseline = ${base}`,'muted');
+
+    const N=5, Q=20;
+    const resps = await Promise.all(
+      Array.from({length:N}, ()=> jpost(`${API}/globinhos.php`, {aluno_id:alunoId, quantidade:Q, tipo:'teste'}))
+    );
+    const erro500 = resps.find(r=>r.status>=500 || (r.data && r.data.erro));
+    ok(!erro500, erro500
+        ? `globinhos.php retornou erro (era o bug fatal!): status=${erro500.status} ${JSON.stringify(erro500.data)}`
+        : `globinhos.php respondeu 200 em todas as ${N} chamadas`);
+    line('novo_total por chamada: '+resps.map(r=>r.data&&r.data.novo_total).join(', '),'muted');
+
+    const depois = (await jget(`${API}/aluno.php?id=${alunoId}`)).globinhos;
+    const esperado = base + N*Q;
+    ok(depois===esperado, `soma atômica: esperado ${esperado}, banco = ${depois}`);
+
+    // ===== TESTE 2: conclusão persiste e volta para colorir o card =====
+    line('\n=== TESTE 2: progresso.php (concluir texto + questões) ===','info');
+    const rt = await jpost(`${API}/progresso.php`, {aluno_id:alunoId, aula_id:aulaId, tipo:'texto'});
+    const rq = await jpost(`${API}/progresso.php`, {aluno_id:alunoId, aula_id:aulaId, tipo:'questoes'});
+    ok(rt.status===200 && rq.status===200, `progresso.php respondeu 200 (texto + questões)`);
+    line(`texto: ${JSON.stringify(rt.data)}`,'muted');
+    line(`questões: ${JSON.stringify(rq.data)}`,'muted');
+
+    const dd = await jget(`${API}/aluno.php?id=${alunoId}`);
+    const temT = (dd.conclusoes||[]).some(c=>c.aula_id===aulaId && c.tipo==='texto');
+    const temQ = (dd.conclusoes||[]).some(c=>c.aula_id===aulaId && c.tipo==='questoes');
+    ok(temT, `aluno.php devolve conclusão TEXTO da aula ${aulaId} (card ficaria verde/parcial)`);
+    ok(temQ, `aluno.php devolve conclusão QUESTÕES da aula ${aulaId}`);
+    line(`conclusões agora: ${JSON.stringify(dd.conclusoes)}`,'muted');
+
+    // ===== TESTE 3: não dá globinhos duas vezes pela mesma conclusão =====
+    line('\n=== TESTE 3: anti-dupla-contagem (re-concluir) ===','info');
+    const antes = dd.globinhos;
+    const rrep = await jpost(`${API}/progresso.php`, {aluno_id:alunoId, aula_id:aulaId, tipo:'texto'});
+    const fim = (await jget(`${API}/aluno.php?id=${alunoId}`)).globinhos;
+    ok(rrep.data && rrep.data.ja_concluido===true && fim===antes,
+       `re-concluir não somou de novo (ja_concluido=${rrep.data&&rrep.data.ja_concluido}, ${antes}→${fim})`);
+
+    line(`\n──────── RESULTADO: ${passes} passou(aram), ${fails} falhou(aram) ────────`,
+         fails===0?'pass':'fail');
+  }catch(e){ line('✗ Erro inesperado: '+e.message,'fail'); }
+  document.getElementById('btnRun').disabled = false;
+};
+</script>
+</body>
+</html>

@@ -310,12 +310,39 @@
 
                 <div id="form-identificacao" style="display:none;" class="w3-center">
                     <p class="w3-large"><b>Bem-vindo ao Duvid!</b></p>
-                    <p>Para começar a ganhar globinhos, digite seu nome:</p>
-                    <input class="w3-input w3-border w3-round w3-margin-bottom" type="text" id="pq0"
-                        style="max-width:300px; margin:auto;">
-                    <button class="w3-button w3-green w3-round-large" onclick="NomeAlunos('resp0','pq0')">
-                        <b>Começar Jornada</b>
-                    </button>
+                    <p>Crie sua conta para salvar seu progresso e ganhar globinhos!</p>
+
+                    <div style="max-width:320px; margin:auto;">
+                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="text"
+                            id="pq0" placeholder="Seu nome (ex: João Silva)"
+                            autocomplete="nickname" style="margin-bottom:10px;">
+
+                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="email"
+                            id="pq-email" placeholder="Seu e-mail"
+                            autocomplete="email" style="margin-bottom:10px;">
+
+                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="password"
+                            id="pq-pin" placeholder="PIN de 4 dígitos (ex: 1234)"
+                            maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
+                            autocomplete="new-password" style="margin-bottom:10px;">
+
+                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="text"
+                            id="pq-turma" placeholder="Código da turma (opcional)"
+                            autocapitalize="characters" style="margin-bottom:6px; text-transform:uppercase;">
+                        <p style="font-size:0.78rem; color:#888; margin:0 0 16px;">
+                            Seu professor passou um código? Digite aqui. Sem código, você entra na turma livre.
+                        </p>
+
+                        <p id="login-erro" class="w3-text-red" style="display:none; font-size:0.9rem;"></p>
+
+                        <button class="w3-button w3-green w3-round-large w3-block"
+                            onclick="NomeAlunos('resp0','pq0')">
+                            <b>🚀 Começar Jornada</b>
+                        </button>
+                        <p style="font-size:0.8rem; color:#888; margin-top:8px;">
+                            Já tem conta? Digite o mesmo nome e PIN.
+                        </p>
+                    </div>
                 </div>
 
                 <div id="display-identificado" style="display:none;" class="w3-container w3-padding-16">

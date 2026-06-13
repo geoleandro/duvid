@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
 }
 
 $pdo   = getDB();
-$turma = $_GET['turma'] ?? null;   // ex: "1ano", "2ano", "3ano"
+$turma = $_GET['turma'] ?? null;   // código da turma, ex: "GEO-1A-2026"
 $top   = min((int)($_GET['top'] ?? 50), 100); // máx 100 por segurança
 
 // -----------------------------------------------------------
@@ -35,9 +35,9 @@ $sql    = "SELECT * FROM ranking";
 $params = [];
 
 if ($turma) {
-    // Filtra por turma — útil para o professor ver só sua sala
-    $sql .= " WHERE turma = :turma";
-    $params[':turma'] = $turma;
+    // Filtra pelo código da turma — útil para o professor ver só sua sala
+    $sql .= " WHERE turma_codigo = :turma";
+    $params[':turma'] = strtoupper(trim($turma));
 }
 
 $sql .= " LIMIT :top";

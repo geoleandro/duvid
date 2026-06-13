@@ -5,11 +5,24 @@
 //  Use: $pdo = getDB();
 // =============================================================
 
-define('DB_HOST',    'mysql.duvid.com.br');
-define('DB_NAME',    'duvid');
-define('DB_USER',    'duvid');
-define('DB_PASS',    'Sucesso26');
-define('DB_PORT',    '3306');
+// Detecta ambiente automaticamente pelo servidor
+$_isLocal = in_array($_SERVER['SERVER_NAME'] ?? 'localhost', ['localhost', '127.0.0.1', '::1']);
+
+if ($_isLocal) {
+    // Banco local (XAMPP — testes)
+    define('DB_HOST', 'localhost');
+    define('DB_NAME', 'duvid');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');
+    define('DB_PORT', '3306');
+} else {
+    // Banco online (produção — duvid.com.br)
+    define('DB_HOST', 'mysql.duvid.com.br');
+    define('DB_NAME', 'duvid');
+    define('DB_USER', 'duvid');
+    define('DB_PASS', 'Sucesso26');
+    define('DB_PORT', '3306');
+}
 define('DB_CHARSET', 'utf8mb4');
 
 function getDB(): PDO {

@@ -1,9 +1,16 @@
 // --- 1. CONFIGURAÇÃO DE CORES E TEXTOS ---
 const DuvidUI = {
     // 2. ATUALIZAÇÃO DO SALDO (HEADER E HOME)
+    formatarGlobinhos: function (valor) {
+        valor = Math.floor(valor);
+        if (valor >= 1000000) return (valor / 1000000).toFixed(1).replace('.0','') + 'M';
+        if (valor >= 1000)    return (valor / 1000).toFixed(1).replace('.0','') + 'k';
+        return valor.toString();
+    },
+
     atualizarInterface: function () {
         const progresso = DuvidDB.getProgressoRPG();
-        const saldoFormatado = Math.floor(progresso.saldoAtual).toString();
+        const saldoFormatado = this.formatarGlobinhos(progresso.saldoAtual);
 
         this.atualizarMedalhas(progresso.patente);
 
@@ -17,12 +24,13 @@ const DuvidUI = {
         // 1. Atualiza Header (Globinhos Dourados)
         const elHeader = document.getElementById("saldoTotalHeader");
         if (elHeader) {
-            // Se o valor mudou, dá um "pulso" visual
             if (elHeader.innerText !== saldoFormatado) {
                 elHeader.classList.add('w3-animate-zoom');
                 setTimeout(() => elHeader.classList.remove('w3-animate-zoom'), 500);
             }
             elHeader.innerText = saldoFormatado;
+            // Ajusta tamanho da fonte para caber no badge
+            elHeader.style.fontSize = saldoFormatado.length > 4 ? '13px' : '';
         }
         // Atualiza Nota da Aula (Nota Fixa Branca)
         const elNota = document.getElementById("notaFixa");
@@ -381,7 +389,7 @@ const DuvidUI = {
             this.feedbackVisualAcerto();  // ← só giro + pulo, sem confete
             this.mostrarXPFlutuante(pontos, true);  // << NOVO
             if (typeof DuvidDB !== "undefined") {
-                DuvidDB.addGlobinhos(pontos);
+                DuvidDB.addGlobinhos(pontos, 'questoes');
             }
         } else {
             playSom('erro');
@@ -678,6 +686,7 @@ function feedbackVisualErro() {
 function avisoSelecaoPendente(btn) {
     DuvidUI.avisoSelecaoPendente(btn);
 }
+
 function executarGatilhoResultado(c, p) {
     DuvidUI.executarGatilhoResultado(c, p);
-}
+}

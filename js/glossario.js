@@ -274,7 +274,7 @@
 
         // -- 5. +2 Globinhos
         if (typeof DuvidDB !== 'undefined' && DuvidDB.addGlobinhos) {
-          DuvidDB.addGlobinhos(2);
+          DuvidDB.addGlobinhos(2, 'glossario');
           if (typeof atualizarInterface === 'function') atualizarInterface();
           if (typeof feedbackVisualAcerto === 'function') feedbackVisualAcerto();
         }

@@ -1,43 +1,42 @@
 // =============================================================
-//  duvid-db.js  —  v2.0  (Híbrido localStorage + MySQL)
-//
-//  ESTRATÉGIA DE MIGRAÇÃO (sem quebrar nada):
-//  • Leituras síncronas continuam via cache/localStorage
-//    → todos os callers existentes funcionam sem alteração
-//  • Escritas vão para localStorage IMEDIATAMENTE (UI não trava)
-//    e para a API PHP em background (banco é a fonte da verdade)
-//  • Na inicialização (DOMContentLoaded) sincroniza banco → local
-//    → se o aluno usou outro dispositivo, os dados voltam
+//  duvid-db.js  —  v2.1  (Híbrido localStorage + MySQL + Login)
 // =============================================================
 
-// --- CONSTANTES (iguais à v1 — não alterar) ---
 const DB_CHAVE       = "duvid_globinhos";
 const NOME_CHAVE     = "duvid_nome";
 const PATENTE_CHAVE  = "duvid_patente";
 const NIVEL_CHAVE    = "duvid_lvl";
-const ALUNO_ID_CHAVE = "duvid_aluno_id";   // << NOVO: id do banco
+const ALUNO_ID_CHAVE = "duvid_aluno_id";
+// localStorage é cache de sessão — banco sempre vence no próximo sincronizarComBanco
 
 const RECOMPENSA_TEXTO    = 10;
-const RECOMPENSA_QUESTOES = 10;
+const RECOMPENSA_QUESTOES = 20;  // igual ao RECOMPENSA_GERAL do jsquestoes-padrao
 const RECOMPENSA_GERAL    = 20;
 const TIPO_CONCLUSAO = { TEXTO: 'texto', QUESTOES: 'questoes' };
-
-// Ajuste se o site estiver em subpasta (ex: '/duvid/api')
 const API_BASE = '/api';
 
 // =============================================================
 const DuvidDB = {
 
-    // Cache em memória — evita leituras repetidas no localStorage
-    _cache: {
-        globinhos:  null,
-        conclusoes: null,
-        alunoId:    null,
+    _cache: { globinhos: null, conclusoes: null, alunoId: null },
+
+    // Nº de gravações (globinhos.php / progresso.php) ainda esperando resposta.
+    _pendentes: 0,
+
+    // Reconcilia o cache com o total autoritativo do banco.
+    // - Enquanto há gravações em voo, só aceita valores MAIORES (evita que
+    //   uma resposta antiga reverta um ganho já aplicado por outra paralela).
+    // - Quando é a última resposta pendente, o banco passa a ser a verdade
+    //   absoluta — aceita inclusive valores menores, corrigindo qualquer
+    //   dupla contagem otimista (ex.: reward de aula já concluída) sem reload.
+    _reconciliar: function (novoTotal) {
+        if (novoTotal === undefined || novoTotal === null) return;
+        if (this._pendentes <= 0 || novoTotal > (this._cache.globinhos || 0)) {
+            this._cache.globinhos = novoTotal;
+            if (typeof atualizarInterface === "function") atualizarInterface();
+        }
     },
 
-    // ----------------------------------------------------------
-    // INTERNO: retorna o id do aluno salvo no banco
-    // ----------------------------------------------------------
     _getAlunoId: function () {
         if (this._cache.alunoId) return this._cache.alunoId;
         const id = parseInt(localStorage.getItem(ALUNO_ID_CHAVE));
@@ -45,14 +44,11 @@ const DuvidDB = {
         return id || null;
     },
 
-    // ----------------------------------------------------------
-    // INTERNO: POST genérico para a API, silencioso em caso de falha
-    // ----------------------------------------------------------
     _post: function (endpoint, body) {
-        return fetch(`${API_BASE}/${endpoint}`, {
-            method:  'POST',
+        return fetch(API_BASE + '/' + endpoint, {
+            method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body:    JSON.stringify(body),
+            body: JSON.stringify(body),
         }).then(r => r.json()).catch(() => null);
     },
 
@@ -63,29 +59,29 @@ const DuvidDB = {
         return localStorage.getItem(NOME_CHAVE) || "";
     },
 
-    salvarNome: function (nome) {
-        if (nome.trim() === "") return false;
+    salvarNome: function (nome, email, pin, codigoTurma) {
+        email = email || '';
+        pin   = pin   || '';
+        codigoTurma = codigoTurma || '';
+        if (!nome || nome.trim() === "") return Promise.resolve(null);
         nome = nome.trim();
         localStorage.setItem(NOME_CHAVE, nome);
 
-        // Cria/busca aluno no banco e salva o id localmente
-        this._post('aluno.php', { nome })
-            .then(dados => {
-                if (!dados || !dados.id) return;
-                this._cache.alunoId = dados.id;
+        const payload = { nome: nome, globinhos_iniciais: 0 };
+        if (email)       payload.email        = email;
+        if (pin)         payload.pin          = pin;
+        if (codigoTurma) payload.codigo_turma = codigoTurma;
+
+        return this._post('aluno.php', payload)
+            .then(function(dados) {
+                if (!dados || !dados.id) return dados;
+                DuvidDB._cache.alunoId = dados.id;
                 localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
-
-                // Banco prevalece se tiver mais globinhos
-                // (aluno pode ter usado outro dispositivo)
-                const local = this._cache.globinhos ?? parseInt(localStorage.getItem(DB_CHAVE) ?? 0);
-                if (dados.globinhos > local) {
-                    this._cache.globinhos = dados.globinhos;
-                    localStorage.setItem(DB_CHAVE, dados.globinhos);
-                    if (typeof atualizarInterface === "function") atualizarInterface();
-                }
+                // Banco é fonte de verdade — só cache, sem localStorage para globinhos
+                DuvidDB._cache.globinhos = dados.globinhos;
+                if (typeof atualizarInterface === "function") atualizarInterface();
+                return dados;
             });
-
-        return true;
     },
 
     setNome: function (nome) { return this.salvarNome(nome); },
@@ -94,81 +90,82 @@ const DuvidDB = {
     //  GLOBINHOS
     // ==========================================================
     getGlobinhos: function () {
-        if (this._cache.globinhos === null) {
-            const saldo = localStorage.getItem(DB_CHAVE);
-            this._cache.globinhos = saldo ? parseInt(saldo) : 0;
-        }
-        return this._cache.globinhos;
+        // Cache populado pelo sincronizarComBanco — sem localStorage
+        return this._cache.globinhos || 0;
     },
 
-    addGlobinhos: function (quantidade) {
-        // 1. Estado anterior (para detectar level-up)
-        const saldoAnterior = this.getGlobinhos();
-        const lvlAnterior   = this.getProgressoRPG().lvl;
+    addGlobinhos: function (quantidade, tipo) {
+        quantidade = Number(quantidade);
+        if (!quantidade) return;
 
-        // 2. Soma local imediata (UI não trava)
-        const novoSaldo = saldoAnterior + Number(quantidade);
-        this._cache.globinhos = novoSaldo;
-        localStorage.setItem(DB_CHAVE, novoSaldo);
+        // Atualiza cache imediatamente (UI não pisca)
+        const lvlAnterior = this.getProgressoRPG().lvl;
+        this._cache.globinhos = (this._cache.globinhos || 0) + quantidade;
 
-        // 3. Feedback visual
         const progressoAtual = this.verificarConquistas();
         if (progressoAtual.lvl > lvlAnterior) {
-            if (typeof playSomFinal     === "function") playSomFinal(true);
+            if (typeof playSomFinal        === "function") playSomFinal(true);
             if (typeof dispararComemoracao === "function") dispararComemoracao(true);
             this.exibirNotificacaoLevelUp(progressoAtual);
         } else {
             if (typeof playSom === "function") playSom('acerto');
         }
 
-        window.ganhosAtuais = (window.ganhosAtuais || 0) + Number(quantidade);
+        window.ganhosAtuais = (window.ganhosAtuais || 0) + quantidade;
         if (typeof atualizarInterface === "function") atualizarInterface();
+
+        // Persiste no banco em background
+        var alunoId = this._getAlunoId();
+        if (alunoId) {
+            this._pendentes++;
+            this._post('globinhos.php', {
+                aluno_id:  alunoId,
+                quantidade: quantidade,
+                tipo:       tipo || 'bonus'
+            }).then(function(dados) {
+                DuvidDB._pendentes--;
+                DuvidDB._reconciliar(dados ? dados.novo_total : null);
+            });
+        }
     },
 
     // ==========================================================
-    //  CONCLUSÕES
+    //  CONCLUSOES
     // ==========================================================
     estaConcluido: function (idAula, tipo) {
-        // Monta cache de conclusões uma única vez
-        if (this._cache.conclusoes === null) {
-            this._cache.conclusoes = {};
-            for (let i = 0; i < localStorage.length; i++) {
-                const chave = localStorage.key(i);
-                if (chave && chave.startsWith('concluido_')) {
-                    this._cache.conclusoes[chave] = localStorage.getItem(chave);
-                }
-            }
-        }
-        return this._cache.conclusoes[`concluido_${tipo}_${idAula}`] === "true";
+        // Cache populado pelo sincronizarComBanco (via API)
+        if (!this._cache.conclusoes) return false;
+        return this._cache.conclusoes['concluido_' + tipo + '_' + idAula] === true;
     },
 
-    salvarConclusao: function (idAula, tipo) {
-        const chave = `concluido_${tipo}_${idAula}`;
+    salvarConclusao: function (idAula, tipo, bonus) {
+        bonus = bonus || 0;
+        var chave = 'concluido_' + tipo + '_' + idAula;
 
-        // 1. Cache e localStorage — imediato
-        if (this._cache.conclusoes === null) this._cache.conclusoes = {};
-        this._cache.conclusoes[chave] = "true";
-        localStorage.setItem(chave, "true");
+        if (!this._cache.conclusoes) this._cache.conclusoes = {};
+        this._cache.conclusoes[chave] = true;
 
-        // 2. Envia para o banco em background
-        const alunoId = this._getAlunoId();
-        console.log('[DuvidDB] salvarConclusao → alunoId:', alunoId, '| aulaId:', idAula, '| tipo:', tipo);
+        // Atualização otimista: reflete o reward antes da resposta do banco
+        var rewardEsperado = (tipo === 'texto' ? RECOMPENSA_TEXTO : RECOMPENSA_QUESTOES) + bonus;
+        this._cache.globinhos = (this._cache.globinhos || 0) + rewardEsperado;
+        if (typeof atualizarInterface === "function") atualizarInterface();
+
+        var alunoId = this._getAlunoId();
         if (alunoId) {
-            this._post('progresso.php', { aluno_id: alunoId, aula_id: idAula, tipo })
-                .then(dados => {
-                    console.log('[DuvidDB] progresso.php resposta:', dados);
-                    if (!dados || dados.ja_concluido) return;
-                    if (dados.novo_total !== undefined) {
-                        this._cache.globinhos = dados.novo_total;
-                        localStorage.setItem(DB_CHAVE, dados.novo_total);
-                        if (typeof atualizarInterface === "function") atualizarInterface();
-                    }
+            this._pendentes++;
+            this._post('progresso.php', { aluno_id: alunoId, aula_id: idAula, tipo: tipo, bonus: bonus })
+                .then(function(dados) {
+                    DuvidDB._pendentes--;
+                    if (!dados) return;
+                    // Reconcilia com o banco. Se a aula já estava concluída,
+                    // o servidor devolve o total real (sem o reward duplicado),
+                    // e _reconciliar corrige o excesso otimista quando não há
+                    // outras gravações em voo.
+                    DuvidDB._reconciliar(dados.novo_total);
                     if (dados.conquistas_novas && dados.conquistas_novas.length > 0) {
-                        dados.conquistas_novas.forEach(c => this._exibirConquista(c));
+                        dados.conquistas_novas.forEach(function(c) { DuvidDB._exibirConquista(c); });
                     }
                 });
-        } else {
-            console.warn('[DuvidDB] salvarConclusao ignorado — aluno_id não encontrado no localStorage');
         }
     },
 
@@ -178,130 +175,125 @@ const DuvidDB = {
     RANKING_SISTEMA: [
         { lvl: 1, patente: 'NOVATO',          min: 0,     max: 1000,  cor: '#9d9d9d' },
         { lvl: 2, patente: 'EXPLORADOR',       min: 1001,  max: 3500,  cor: '#4caf50' },
-        { lvl: 3, patente: 'CARTÓGRAFO',       min: 3501,  max: 8000,  cor: '#2196f3' },
+        { lvl: 3, patente: 'CARTOGRAFO',       min: 3501,  max: 8000,  cor: '#2196f3' },
         { lvl: 4, patente: 'ESTRATEGISTA',     min: 8001,  max: 15000, cor: '#9c27b0' },
-        { lvl: 5, patente: 'GEÓGRAFO SÊNIOR',  min: 15001, max: 20000, cor: '#ff9800' },
+        { lvl: 5, patente: 'GEOGRAFO SENIOR',  min: 15001, max: 20000, cor: '#ff9800' },
         { lvl: 6, patente: 'LENDA DA TERRA',   min: 20001, max: 99999, cor: '#f44336' },
     ],
 
     getProgressoRPG: function () {
-        const saldo = this.getGlobinhos();
-        const idx   = this.RANKING_SISTEMA.findIndex(r => saldo >= r.min && saldo <= r.max);
-        const info  = this.RANKING_SISTEMA[idx !== -1 ? idx : this.RANKING_SISTEMA.length - 1];
+        var saldo = this.getGlobinhos();
+        var idx   = this.RANKING_SISTEMA.findIndex(function(r) { return saldo >= r.min && saldo <= r.max; });
+        var info  = this.RANKING_SISTEMA[idx !== -1 ? idx : this.RANKING_SISTEMA.length - 1];
         return {
-            lvl:           info.lvl,
-            patente:       info.patente,
-            cor:           info.cor,
-            proximoLvl:    info.max,
-            xpMinimo:      info.min,
+            lvl:            info.lvl,
+            patente:        info.patente,
+            cor:            info.cor,
+            proximoLvl:     info.max,
+            xpMinimo:       info.min,
             progressoBarra: Math.min(Math.max((saldo / info.max) * 100, 2), 100),
-            saldoAtual:    saldo,
+            saldoAtual:     saldo,
         };
     },
 
     verificarConquistas: function () {
-        const progresso = this.getProgressoRPG();
-        localStorage.setItem(PATENTE_CHAVE, progresso.patente);
-        localStorage.setItem(NIVEL_CHAVE,   progresso.lvl);
-        return progresso;
+        return this.getProgressoRPG();
     },
 
     getProgressoAcademico: function (aulas) {
         if (!Array.isArray(aulas) || aulas.length === 0) {
             return { concluidas: 0, total: 0, porc: 0 };
         }
-        const validas   = aulas.filter(a => a && a.id);
-        const total     = validas.length;
-        const concluidas = validas.filter(a =>
-            this.estaConcluido(a.id, TIPO_CONCLUSAO.TEXTO) &&
-            this.estaConcluido(a.id, TIPO_CONCLUSAO.QUESTOES)
-        ).length;
-        return { concluidas, total, porc: total > 0 ? Math.round((concluidas / total) * 100) : 0 };
+        var validas    = aulas.filter(function(a) { return a && a.id; });
+        var total      = validas.length;
+        var concluidas = validas.filter(function(a) {
+            return DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.TEXTO) &&
+                   DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.QUESTOES);
+        }).length;
+        return { concluidas: concluidas, total: total, porc: total > 0 ? Math.round((concluidas / total) * 100) : 0 };
     },
 
     // ==========================================================
-    //  NOTIFICAÇÕES VISUAIS
+    //  NOTIFICACOES VISUAIS
     // ==========================================================
     exibirNotificacaoLevelUp: function (progresso) {
-        const el = document.createElement('div');
-        el.innerHTML = `
-            <div class="w3-animate-zoom w3-card-4 w3-round-large w3-padding"
-                 style="position:fixed;top:20px;left:50%;transform:translateX(-50%);
-                        z-index:10000;text-align:center;background:${progresso.cor};
-                        color:white;min-width:250px;">
-                <i class="fa fa-arrow-up w3-xlarge"></i><br>
-                <b class="w3-large">SUBIU DE NÍVEL!</b><br>
-                <span>Agora você é um <b>${progresso.patente}</b></span><br>
-                <span class="w3-tag w3-white w3-text-black w3-round w3-margin-top">
-                    Level ${progresso.lvl}
-                </span>
-            </div>`;
+        var el = document.createElement('div');
+        el.innerHTML = '<div class="w3-animate-zoom w3-card-4 w3-round-large w3-padding" style="position:fixed;top:20px;left:50%;transform:translateX(-50%);z-index:10000;text-align:center;background:' + progresso.cor + ';color:white;min-width:250px;"><i class="fa fa-arrow-up w3-xlarge"></i><br><b class="w3-large">SUBIU DE NIVEL!</b><br><span>Agora voce e um <b>' + progresso.patente + '</b></span><br><span class="w3-tag w3-white w3-text-black w3-round w3-margin-top">Level ' + progresso.lvl + '</span></div>';
         document.body.appendChild(el);
-        setTimeout(() => {
+        setTimeout(function() {
             el.classList.add('w3-animate-opacity');
-            setTimeout(() => el.remove(), 500);
+            setTimeout(function() { el.remove(); }, 500);
         }, 5000);
     },
 
     _exibirConquista: function (conquista) {
-        const el = document.createElement('div');
-        el.innerHTML = `
-            <div class="w3-animate-zoom w3-card-4 w3-round-large w3-padding"
-                 style="position:fixed;bottom:20px;right:20px;z-index:10000;
-                        text-align:center;background:#333;color:white;min-width:200px;">
-                <span style="font-size:2rem">${conquista.icone || '🏆'}</span><br>
-                <b>Conquista desbloqueada!</b><br>
-                <span>${conquista.nome}</span>
-            </div>`;
+        var el = document.createElement('div');
+        el.innerHTML = '<div class="w3-animate-zoom w3-card-4 w3-round-large w3-padding" style="position:fixed;bottom:20px;right:20px;z-index:10000;text-align:center;background:#333;color:white;min-width:200px;"><span style="font-size:2rem">' + (conquista.icone || '') + '</span><br><b>Conquista desbloqueada!</b><br><span>' + conquista.nome + '</span></div>';
         document.body.appendChild(el);
-        setTimeout(() => {
+        setTimeout(function() {
             el.classList.add('w3-animate-opacity');
-            setTimeout(() => el.remove(), 500);
+            setTimeout(function() { el.remove(); }, 500);
         }, 4000);
     },
 
     // ==========================================================
-    //  SINCRONIZAÇÃO COM O BANCO (chamada automática no load)
-    //
-    //  Por que isso é importante?
-    //  Se o aluno fez aulas em outro dispositivo, o banco tem
-    //  o total real. Sem isso, dois dispositivos ficam desincronizados.
+    //  SINCRONIZACAO COM O BANCO
     // ==========================================================
+    // Aplica resposta do banco ao cache local
+    _aplicarDadosBanco: function (dados) {
+        DuvidDB._cache.alunoId = dados.id;
+        localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
+        DuvidDB._cache.globinhos = dados.globinhos;
+        DuvidDB._cache.conclusoes = {};
+        if (dados.conclusoes) {
+            dados.conclusoes.forEach(function(c) {
+                DuvidDB._cache.conclusoes['concluido_' + c.tipo + '_' + c.aula_id] = true;
+            });
+        }
+        if (typeof atualizarInterface === "function") atualizarInterface();
+    },
+
     sincronizarComBanco: function () {
-        const nome = this.getNome();
-        if (!nome) return; // aluno ainda não se identificou
+        var nome    = this.getNome();
+        var alunoId = this._getAlunoId();
+        if (!nome) return Promise.resolve();
 
-        fetch(`${API_BASE}/aluno.php?nome=${encodeURIComponent(nome)}`)
-            .then(r => r.json())
-            .then(dados => {
+        var url = alunoId
+            ? (API_BASE + '/aluno.php?id=' + alunoId)
+            : (API_BASE + '/aluno.php?nome=' + encodeURIComponent(nome));
+
+        return fetch(url)
+            .then(function(r) { return r.json(); })
+            .then(function(dados) {
                 if (!dados.encontrado) {
-                    // Aluno não existe no banco ainda → cria agora
-                    // Passa os globinhos do localStorage para não começar do zero
-                    const globinhosLocais = parseInt(localStorage.getItem(DB_CHAVE) || 0);
-                    return this._post('aluno.php', { nome, globinhos_iniciais: globinhosLocais })
-                        .then(novo => {
-                            if (!novo || !novo.id) return;
-                            this._cache.alunoId = novo.id;
-                            localStorage.setItem(ALUNO_ID_CHAVE, novo.id);
-                            if (typeof atualizarInterface === "function") atualizarInterface();
-                        });
+                    if (alunoId) {
+                        localStorage.removeItem(ALUNO_ID_CHAVE);
+                        DuvidDB._cache.alunoId = null;
+                        return fetch(API_BASE + '/aluno.php?nome=' + encodeURIComponent(nome))
+                            .then(function(r) { return r.json(); })
+                            .then(function(d) {
+                                if (d && d.encontrado) DuvidDB._aplicarDadosBanco(d);
+                            })
+                            .catch(function() {});
+                    }
+                    return;
                 }
-
-                // Salva o id (fundamental para as próximas escritas)
-                this._cache.alunoId = dados.id;
-                localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
-
-                // Banco prevalece sobre localStorage
-                this._cache.globinhos = dados.globinhos;
-                localStorage.setItem(DB_CHAVE, dados.globinhos);
-
-                // Atualiza UI com dados frescos
-                if (typeof atualizarInterface === "function") atualizarInterface();
+                DuvidDB._aplicarDadosBanco(dados);
             })
-            .catch(() => {}); // offline? localStorage assume o controle
+            .catch(function() {});
     },
 
 };
 
-// Sincroniza com o banco assim que o DOM estiver pronto
-document.addEventListener('DOMContentLoaded', () => DuvidDB.sincronizarComBanco());
+// DuvidDB.pronto: Promise resolvida quando o cache de conclusões está populado.
+// Use `await DuvidDB.pronto` antes de renderizar cards que dependem de estaConcluido().
+//
+// IMPORTANTE: a sincronização dispara JÁ (no carregamento do script), e NÃO
+// dentro de um listener de DOMContentLoaded. Motivo: este arquivo é incluído
+// com <script defer>, que só executa DEPOIS que o parser registrou os listeners
+// de DOMContentLoaded inline da página. Se DuvidDB.pronto fosse criado dentro
+// de um listener daqui, o listener da página (registrado antes) rodaria primeiro,
+// encontraria DuvidDB.pronto === undefined, pularia o `await` e renderizaria os
+// cards com o cache de conclusões ainda vazio — por isso os cards nunca ficavam
+// coloridos. Como defer garante o DOM já parseado, sincronizar agora é seguro.
+DuvidDB.pronto = DuvidDB.sincronizarComBanco() || Promise.resolve();

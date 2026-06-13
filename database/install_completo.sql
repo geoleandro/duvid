@@ -27,14 +27,17 @@ CREATE TABLE IF NOT EXISTS alunos (
     id              INT AUTO_INCREMENT PRIMARY KEY,
     nome            VARCHAR(100) NOT NULL UNIQUE,
     email           VARCHAR(150) DEFAULT NULL UNIQUE,
+    pin_hash        VARCHAR(255) DEFAULT NULL,
     senha_hash      VARCHAR(255) DEFAULT NULL,
     turma           ENUM('1ano','2ano','3ano','livre') NOT NULL DEFAULT 'livre',
+    turma_id        INT          DEFAULT NULL,
     globinhos_total INT          NOT NULL DEFAULT 0,
     lvl             TINYINT      NOT NULL DEFAULT 1,
     patente         VARCHAR(50)  NOT NULL DEFAULT 'NOVATO',
     criado_em       TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
     atualizado_em   TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP
-                    ON UPDATE CURRENT_TIMESTAMP
+                    ON UPDATE CURRENT_TIMESTAMP,
+    INDEX idx_aluno_turma (turma_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE IF NOT EXISTS progresso_aulas (
@@ -84,11 +87,19 @@ CREATE TABLE IF NOT EXISTS conquistas_alunos (
 CREATE TABLE IF NOT EXISTS turmas (
     id          INT AUTO_INCREMENT PRIMARY KEY,
     nome        VARCHAR(100) NOT NULL,
+    codigo      VARCHAR(40)  DEFAULT NULL UNIQUE,   -- código de matrícula que o aluno digita
     ano_escolar TINYINT      NOT NULL,
     senha       VARCHAR(100) DEFAULT NULL,
     ativa       TINYINT(1)   NOT NULL DEFAULT 1,
     criado_em   TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- Turma padrão "Livre" (quem não digitar código entra aqui)
+INSERT IGNORE INTO turmas (nome, codigo, ano_escolar, ativa) VALUES ('Livre', 'LIVRE', 0, 1);
+
+-- Vínculo aluno → turma (criado depois que ambas as tabelas existem)
+ALTER TABLE alunos
+    ADD CONSTRAINT fk_aluno_turma FOREIGN KEY (turma_id) REFERENCES turmas(id) ON DELETE SET NULL;
 
 CREATE TABLE IF NOT EXISTS provas (
     id              INT AUTO_INCREMENT PRIMARY KEY,
@@ -126,7 +137,9 @@ CREATE OR REPLACE VIEW ranking AS
 SELECT
     a.id,
     a.nome,
-    a.turma,
+    a.turma_id,
+    t.nome   AS turma_nome,
+    t.codigo AS turma_codigo,
     a.globinhos_total,
     a.lvl,
     a.patente,
@@ -136,8 +149,10 @@ SELECT
        AND p.concluido_questoes = 1) AS aulas_100,
     COUNT(DISTINCT ca.conquista_id)  AS conquistas
 FROM alunos a
+LEFT JOIN turmas t             ON t.id = a.turma_id
 LEFT JOIN conquistas_alunos ca ON ca.aluno_id = a.id
-GROUP BY a.id, a.nome, a.turma, a.globinhos_total, a.lvl, a.patente
+GROUP BY a.id, a.nome, a.turma_id, t.nome, t.codigo,
+         a.globinhos_total, a.lvl, a.patente
 ORDER BY a.globinhos_total DESC;
 
 -- =============================================================

@@ -278,26 +278,19 @@ function contarAulasConcluidas(anoPrefixo) {
 
     // 1. Criamos o prefixo de busca usando a nossa constante Global
     // Isso vai gerar algo como "concluido_questoes_"
-    const prefixoBusca = `concluido_${TIPO_CONCLUSAO.QUESTOES}_`;
+    // Lê do cache (populado pelo sincronizarComBanco, sem localStorage)
+    const cache = DuvidDB._cache.conclusoes || {};
+    const prefixoQ = 'concluido_' + TIPO_CONCLUSAO.QUESTOES + '_';
+    const prefixoT = 'concluido_' + TIPO_CONCLUSAO.TEXTO + '_';
 
-    for (let i = 0; i < localStorage.length; i++) {
-        let chave = localStorage.key(i);
-
-        // 2. Procuramos as chaves que começam com o prefixo + o ano (ex: 1 para 1º ano)
-        if (chave.startsWith(prefixoBusca + anoPrefixo)) {
-
-            // Extraímos o ID da aula da chave (ex: de "concluido_questoes_101" sobra "101")
-            let idAula = chave.replace(prefixoBusca, "");
-
-            // 3. Usamos o nosso "Gerente" DuvidDB para checar se o texto também foi lido
-            // Passamos a constante TIPO_CONCLUSAO.TEXTO para garantir a simetria
-            const textoLido = DuvidDB.estaConcluido(idAula, TIPO_CONCLUSAO.TEXTO);
-
-            if (textoLido) {
-                contagem++;
+    Object.keys(cache).forEach(function(chave) {
+        if (chave.startsWith(prefixoQ)) {
+            const idAula = chave.replace(prefixoQ, '');
+            if (idAula.startsWith(String(anoPrefixo))) {
+                if (cache[prefixoT + idAula]) contagem++;
             }
         }
-    }
+    });
 
     return contagem;
 }

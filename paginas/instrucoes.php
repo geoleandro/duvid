@@ -162,12 +162,13 @@
 			<hr>
 			<hr>
 			<div class="w3-container w3-center w3-padding-16">
-				<h4 class="w3-text-grey">Gerenciar Meu Progresso</h4>
-				<p class="w3-small">Deseja recomeçar a jornada e ver os cards cinzas novamente?</p>
+				<h4 class="w3-text-grey">Minha Conta</h4>
+				<p class="w3-small">Vai emprestar o computador para outro aluno? Saia da sua conta. Seu progresso
+					fica salvo e volta quando você entrar de novo com seu nome e PIN.</p>
 
 				<button onclick="document.getElementById('modalReset').style.display='block'"
 					class="w3-button w3-white w3-border w3-border-red w3-round-large w3-hover-red w3-text-red">
-					<i class="fa fa-refresh"></i> Limpar Tudo e Reiniciar
+					<i class="fa fa-sign-out-alt"></i> Sair / Trocar de conta
 				</button>
 			</div>
 
@@ -179,8 +180,10 @@
 						<span onclick="document.getElementById('modalReset').style.display='none'"
 							class="w3-button w3-display-topright w3-round-large">&times;</span>
 
-						<h3 class="fontePixel w3-text-red">Atenção!</h3>
-						<p id="msgPersonalizada">Deseja realmente apagar todo o seu progresso?</p>
+						<h3 class="fontePixel w3-text-red">Sair da conta</h3>
+						<p id="msgPersonalizada">Deseja sair desta conta neste aparelho?</p>
+						<p class="w3-small w3-text-grey">Seu progresso continua salvo. É só entrar de novo com seu
+							nome e PIN para recuperar tudo.</p>
 
 						<img src="/fotoIndex/globinhoPe.png" width="100" class="w3-animate-bottom">
 						<br><br>
@@ -188,7 +191,7 @@
 						<div class="w3-row-padding">
 							<div class="w3-half w3-margin-bottom">
 								<button class="w3-button w3-red w3-round w3-block" onclick="executarReset()">
-									Sim, Apagar
+									Sim, Sair
 								</button>
 							</div>
 							<div class="w3-half">
@@ -231,7 +234,7 @@
 		document.addEventListener('DOMContentLoaded', function () {
 			const nome = localStorage.getItem("duvid_nome") || "Estudante";
 			const msg = document.getElementById("msgPersonalizada");
-			if (msg) msg.innerHTML = `Olá <b>${nome.toUpperCase()}</b>, deseja apagar seu histórico e reiniciar a jornada?`;
+			if (msg) msg.innerHTML = `Olá <b>${nome.toUpperCase()}</b>, deseja sair desta conta neste aparelho?`;
 		});
 
 	</script>

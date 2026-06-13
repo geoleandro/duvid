@@ -32,32 +32,16 @@ header('Access-Control-Allow-Headers: Content-Type');
 
 require_once __DIR__ . '/../includes/conexao.php';
 
-// Recompensas — espelham as constantes do duvid-db.js
+// Recompensas — espelham as constantes do duvid-db.js e jsquestoes-padrao.js
+// RECOMPENSA_QUESTOES = 20 porque o JS usa RECOMPENSA_GERAL (20) ao completar questões
 const RECOMPENSA_TEXTO    = 10;
-const RECOMPENSA_QUESTOES = 10;
+const RECOMPENSA_QUESTOES = 20;
 
 // -----------------------------------------------------------
 // Mesma lógica RPG do aluno.php
 // Por que copiar? Porque cada API é independente — não importa
-// a outra. No futuro extraímos para includes/rpg.php.
 // -----------------------------------------------------------
-function calcularRPG(int $globinhos): array {
-    $ranking = [
-        ['lvl'=>1, 'patente'=>'NOVATO',          'min'=>0,     'max'=>1000],
-        ['lvl'=>2, 'patente'=>'EXPLORADOR',       'min'=>1001,  'max'=>3500],
-        ['lvl'=>3, 'patente'=>'CARTÓGRAFO',       'min'=>3501,  'max'=>8000],
-        ['lvl'=>4, 'patente'=>'ESTRATEGISTA',     'min'=>8001,  'max'=>15000],
-        ['lvl'=>5, 'patente'=>'GEÓGRAFO SÊNIOR',  'min'=>15001, 'max'=>20000],
-        ['lvl'=>6, 'patente'=>'LENDA DA TERRA',   'min'=>20001, 'max'=>99999],
-    ];
-    $info = end($ranking);
-    foreach ($ranking as $r) {
-        if ($globinhos >= $r['min'] && $globinhos <= $r['max']) {
-            $info = $r; break;
-        }
-    }
-    return $info;
-}
+require_once __DIR__ . '/../includes/rpg.php';
 
 // -----------------------------------------------------------
 // Verifica e desbloqueia conquistas que o aluno ainda não tem.
@@ -124,6 +108,7 @@ $body    = json_decode(file_get_contents('php://input'), true) ?? [];
 $alunoId = (int)($body['aluno_id'] ?? 0);
 $aulaId  = (int)($body['aula_id']  ?? 0);
 $tipo    = $body['tipo'] ?? '';   // "texto" ou "questoes"
+$bonus   = max(0, (int)($body['bonus']    ?? 0));  // globinhos extras (ex: BONUS_VIDAS)
 
 // Validação básica
 if (!$alunoId || !$aulaId || !in_array($tipo, ['texto', 'questoes'])) {
@@ -164,8 +149,9 @@ if ($progAtual && $progAtual[$campoConcluido] == 1) {
     ]);
 }
 
-// Define quantidade de globinhos a ganhar
-$quantidade = ($tipo === 'texto') ? RECOMPENSA_TEXTO : RECOMPENSA_QUESTOES;
+// Define quantidade de globinhos a ganhar (+ bonus por vidas intactas, se houver)
+$baseQuantidade = ($tipo === 'texto') ? RECOMPENSA_TEXTO : RECOMPENSA_QUESTOES;
+$quantidade     = $baseQuantidade + $bonus;
 $lvlAnterior = (int)$aluno['lvl'];
 
 // -----------------------------------------------------------
@@ -188,25 +174,24 @@ try {
     ");
     $upsert->execute([':aluno' => $alunoId, ':aula' => $aulaId, ':qtd1' => $quantidade, ':qtd2' => $quantidade]);
 
-    // 2. Soma globinhos ao total do aluno e atualiza lvl/patente em cache
-    $novoTotal = (int)$aluno['globinhos_total'] + $quantidade;
+    // 2. Soma globinhos atomicamente (UPDATE direto evita race condition
+    //    com chamadas paralelas de globinhos.php)
+    $pdo->prepare("UPDATE alunos SET globinhos_total = globinhos_total + :q WHERE id = :id")
+        ->execute([':q' => $quantidade, ':id' => $alunoId]);
+
+    // Lê o total real pós-update dentro da mesma transação
+    $stTotal = $pdo->prepare("SELECT globinhos_total FROM alunos WHERE id = :id");
+    $stTotal->execute([':id' => $alunoId]);
+    $novoTotal = (int)$stTotal->fetchColumn();
     $rpg       = calcularRPG($novoTotal);
 
-    $upAluno = $pdo->prepare("
-        UPDATE alunos
-        SET globinhos_total = :total, lvl = :lvl, patente = :patente
-        WHERE id = :id
-    ");
-    $upAluno->execute([
-        ':total'   => $novoTotal,
-        ':lvl'     => $rpg['lvl'],
-        ':patente' => $rpg['patente'],
-        ':id'      => $alunoId,
-    ]);
+    $pdo->prepare("UPDATE alunos SET lvl = :lvl, patente = :patente WHERE id = :id")
+        ->execute([':lvl' => $rpg['lvl'], ':patente' => $rpg['patente'], ':id' => $alunoId]);
 
     // 3. Registra no log de auditoria
     //    Por que logar? Para o professor ver "João ganhou 10 globinhos
     //    lendo o texto da aula 101 às 14h23".
+    $tipoLog = $bonus > 0 ? $tipo . '_bonus' : $tipo;
     $log = $pdo->prepare("
         INSERT INTO globinhos_log (aluno_id, aula_id, tipo, quantidade)
         VALUES (:aluno, :aula, :tipo, :qtd)
@@ -214,7 +199,7 @@ try {
     $log->execute([
         ':aluno' => $alunoId,
         ':aula'  => $aulaId,
-        ':tipo'  => $tipo,
+        ':tipo'  => $tipoLog,
         ':qtd'   => $quantidade,
     ]);
 

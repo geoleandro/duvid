@@ -1,9 +1,10 @@
 [
   {
     "id": 1,
-    "ano": "2022",
-    "imagem_apoio": "p1q1.png",
-    "texto_apoio": "<p class=\"w3-sand\"> \"O homem também vai impondo à natureza suas próprias formas, a que podemos chamar de formas ou objetos culturais, artificiais, históricos. Estas formas históricas não são as mesmas através dos tempos; aqueles acréscimos dos tempos primitivos são diferentes dos atuais. Hoje, as formas impostas à natureza são muito mais complexas, resultado também de uma série de heranças. </p> <p class=\"w3-sand\"> A natureza conhece um processo de humanização cada vez maior, ganhando a cada passo elementos que são resultado da cultura. Torna-se cada dia mais culturalizada, mais artificializada, mais humanizada. [...]. No processo de desenvolvimento humano, não há uma separação do homem e da natureza. A natureza se socializa e o homem se naturaliza\".</p> <p class=\"w3-small w3-sand\"> (Milton Santos. Metamorfoses do espaço habitado, 1997).</p>",
+    "ano": "2023",
+  
+    "texto_apoio": "O homem também vai impondo à natureza suas próprias formas, a que podemos chamar de formas ou objetos culturais, artificiais, históricos. Estas formas históricas não são as mesmas através dos tempos; aqueles acréscimos dos tempos primitivos são diferentes dos atuais. Hoje, as formas impostas à natureza são muito mais complexas, resultado também de uma série de heranças./n/n A natureza conhece um processo de humanização cada vez maior, ganhando a cada passo elementos que são resultado da cultura. Torna-se cada dia mais culturalizada, mais artificializada, mais humanizada. [...]. No processo de desenvolvimento humano, não há uma separação do homem e da natureza. A natureza se socializa e o homem se naturaliza",
+    "fonte_apoio":"(Milton Santos. Metamorfoses do espaço habitado, 1997).",
     "pergunta": "De acordo com o autor, é correto afirmar que:",
     "alternativas": [
       "o homem e a natureza constituem elementos opostos e dissociados, já que mantêm poucas relações entre si, evoluindo, do ponto de vista da organização e funcionamento, paralelamente.",

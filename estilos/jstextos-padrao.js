@@ -313,8 +313,8 @@ function mostraCinza() {
     if (aulaID && typeof DuvidDB !== "undefined") {
         const jaConcluiu = DuvidDB.estaConcluido(aulaID, TIPO_CONCLUSAO.TEXTO);
         if (!jaConcluiu) {
+            // salvarConclusao já adiciona RECOMPENSA_TEXTO ao banco
             DuvidDB.salvarConclusao(aulaID, TIPO_CONCLUSAO.TEXTO);
-            DuvidDB.addGlobinhos(RECOMPENSA_TEXTO);
         }
     }
 

@@ -214,7 +214,13 @@
                 </div>
 
                 <div class="w3-container w3-padding-16">
-                    <button onclick="location.reload()"
+                    <button id="btn-revisao-erros" onclick="iniciarRevisao()"
+                        class="w3-button w3-amber w3-round-large w3-block w3-margin-bottom w3-padding-large"
+                        style="font-weight: bold; display:none;">
+                        📋 REVISAR OS ERROS
+                    </button>
+
+                    <button id="btn-tentar-novamente" onclick="location.reload()"
                         class="w3-button w3-light-grey w3-round-large w3-block w3-margin-bottom w3-padding-large"
                         style="font-weight: bold;">
                         🔄 REFAZER SIMULADO

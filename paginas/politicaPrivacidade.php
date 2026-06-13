@@ -68,36 +68,67 @@
         <div class="w3-container w3-white w3-card-4 w3-margin w3-padding-32 w3-round-large">
 
             <h1 class="w3-center w3-text-green"><b>Política de Privacidade</b></h1>
-            <p class="w3-center w3-opacity">Última atualização: 26/02/2026</p>
+            <p class="w3-center w3-opacity">Última atualização: 13/06/2026</p>
             <hr>
 
             <div class="w3-container">
                 <div class="sessao-privacidade">
-                    <p>Esta Política descreve como o projeto <strong>Duvid</strong> lida com seus dados. O desenvolvedor
-                        Leandro Henrique da Silva construiu os aplicativos <strong>Duvid Geografia</strong> como
-                        ferramentas gratuitas para a Educação Básica.</p>
+                    <p>Esta Política descreve como o projeto <strong>Duvid Geografia</strong>, desenvolvido por
+                        <strong>Leandro Henrique da Silva</strong>, coleta, usa e protege os dados dos estudantes que
+                        criam uma conta na plataforma. Ao criar uma conta, o aluno (ou seu responsável) concorda com
+                        os termos abaixo.</p>
                 </div>
 
-                <h3><i class="fa fa-shield-alt"></i> 1. Coleta e Uso de Dados</h3>
-                <p>Os aplicativos Duvid Geografia funcionam de forma <strong>offline</strong> e <strong>NÃO
-                        coletam</strong>, não armazenam e não compartilham nenhuma informação pessoal, financeira,
-                    contatos ou arquivos do dispositivo.</p>
+                <h3><i class="fa fa-database"></i> 1. Quais dados coletamos</h3>
+                <p>Para salvar o progresso e permitir o ranking por turma, ao se cadastrar coletamos:</p>
+                <ul>
+                    <li><strong>Nome</strong> (ou apelido) informado pelo aluno;</li>
+                    <li><strong>E-mail</strong>, usado como identificador e contato de recuperação;</li>
+                    <li><strong>PIN de 4 dígitos</strong>, armazenado de forma <strong>criptografada (hash)</strong> —
+                        nunca guardamos o PIN em texto legível;</li>
+                    <li><strong>Código/identificação da turma</strong>, quando informado;</li>
+                    <li><strong>Dados de progresso</strong>: pontos ("globinhos"), aulas concluídas e conquistas.</li>
+                </ul>
+                <p>Não coletamos dados financeiros, documentos, contatos do aparelho ou localização.</p>
 
-                <h3><i class="fa fa-cookie-bite"></i> 2. Cookies e Rastreamento</h3>
-                <p>Por ser um ambiente offline e focado em privacidade, não utilizamos cookies ou tecnologias de
-                    rastreamento dentro dos aplicativos.</p>
+                <h3><i class="fa fa-bullseye"></i> 2. Como usamos os dados</h3>
+                <p>Os dados são usados exclusivamente para: identificar o aluno e salvar seu progresso entre
+                    dispositivos; exibir o ranking da turma; e permitir que o professor acompanhe o desempenho da sua
+                    sala. Não vendemos nem usamos esses dados para fins publicitários.</p>
 
-                <h3><i class="fa fa-external-link-alt"></i> 3. Links Externos</h3>
-                <p>O aplicativo pode conter links para o Google Forms (sugestões voluntárias). O preenchimento é
-                    opcional e não há coleta automatizada de dados de identificação.</p>
+                <h3><i class="fa fa-server"></i> 3. Onde os dados ficam armazenados</h3>
+                <p>As informações ficam em um banco de dados no servidor de hospedagem do projeto. O acesso é
+                    restrito ao desenvolvedor e ao professor responsável pela turma. O PIN é sempre armazenado em
+                    formato de hash, não sendo possível recuperá-lo em texto puro.</p>
 
-                <h3><i class="fa fa-child"></i> 4. Privacidade de Crianças</h3>
-                <p>Em conformidade com as normas de proteção, os aplicativos não coletam intencionalmente nenhuma
-                    informação de crianças menores de 13 anos.</p>
+                <h3><i class="fa fa-cookie-bite"></i> 4. Cookies, anúncios e análise de uso</h3>
+                <p>Este site utiliza serviços do Google que podem usar cookies: o <strong>Google Analytics</strong>
+                    (medição de acessos) e o <strong>Google AdSense</strong> (exibição de anúncios). Esses serviços
+                    podem coletar dados de navegação conforme as políticas do Google. Você pode gerenciar
+                    preferências de anúncios em
+                    <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
 
-                <h3><i class="fa fa-envelope"></i> 5. Alterações e Contato</h3>
-                <p>Esta política pode ser atualizada periodicamente para refletir melhorias. Para dúvidas, entre em
-                    contato: <br>
+                <h3><i class="fa fa-child"></i> 5. Crianças e adolescentes</h3>
+                <p>O Duvid Geografia é voltado a estudantes da Educação Básica, podendo incluir menores de idade.
+                    O cadastro de crianças e adolescentes deve ser feito <strong>com o conhecimento e o consentimento
+                    dos pais ou responsáveis</strong>, ou no contexto escolar sob supervisão do professor. Recomenda-se
+                    informar o mínimo de dados necessário (é permitido usar apenas o primeiro nome ou um apelido).
+                    Pais, responsáveis ou a escola podem solicitar a exclusão dos dados a qualquer momento.</p>
+
+                <h3><i class="fa fa-user-shield"></i> 6. Seus direitos (LGPD)</h3>
+                <p>Conforme a Lei Geral de Proteção de Dados (Lei nº 13.709/2018), o titular pode solicitar a qualquer
+                    momento o <strong>acesso</strong>, a <strong>correção</strong> ou a <strong>exclusão</strong> dos
+                    seus dados, bem como revogar o consentimento. Para isso, basta entrar em contato pelo e-mail
+                    abaixo.</p>
+
+                <h3><i class="fa fa-share-alt"></i> 7. Compartilhamento</h3>
+                <p>Não compartilhamos nem vendemos dados pessoais a terceiros. Os dados podem transitar apenas pelos
+                    provedores necessários ao funcionamento do site (hospedagem e os serviços do Google citados
+                    acima).</p>
+
+                <h3><i class="fa fa-envelope"></i> 8. Alterações e contato</h3>
+                <p>Esta política pode ser atualizada periodicamente. Para dúvidas ou solicitações sobre seus dados,
+                    entre em contato: <br>
                     <strong>leandro.hsilva@ifsuldeminas.edu.br</strong>
                 </p>
             </div>

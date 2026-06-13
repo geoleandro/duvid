@@ -10,6 +10,7 @@ const BONUS_VIDAS = 20; // globinhos extras por terminar sem perder vida
 let combo = 0;
 // << NOVO: modo revisão
 let questoesErradas = [];
+let emRevisao = false; // quando true, refazer as erradas NÃO re-pontua por questão
 const COMBO_NIVEIS = [
     { minimo: 7, nome: '🌟 Lendário!',  bonus: 15 },
     { minimo: 5, nome: '⚡ Imparável!', bonus: 10 },
@@ -100,6 +101,7 @@ async function carregarDados(id) {
 
         // Embaralha uma cópia — não o original cacheado
         questoes = embaralharArray([...dadosBrutos]); // << spread para não mutar o cache
+        emRevisao = false; // início normal: pontua por questão
         renderizarQuestao();
         configurarSEOAutomatico(id, 'questao');
 
@@ -342,7 +344,9 @@ function verificar() {
         const bonusCombo = nivelCombo ? nivelCombo.bonus : 0;
         // No marco de combo (3/5/7) toca SÓ a fanfarra chiptune: suprime o MP3
         // de acerto para os dois não soarem juntos. Fora do marco, MP3 normal.
-        DuvidUI.executarGatilhoResultado(true, RECOMPENSA_QUESTOES + bonusCombo, { semSomAcerto: ehMarcoCombo });
+        // Na revisão das erradas não re-pontua por questão (evita farm de globinhos)
+        const pontosQuestao = emRevisao ? 0 : RECOMPENSA_QUESTOES + bonusCombo;
+        DuvidUI.executarGatilhoResultado(true, pontosQuestao, { semSomAcerto: ehMarcoCombo });
         if (ehMarcoCombo) playSomCombo();
         nota++;
     } else {
@@ -498,13 +502,12 @@ function finalizar() {
     // 1. Persistência
     if (typeof DuvidDB !== "undefined" && aulaID) {
         if (aprovado) {
-            DuvidDB.salvarConclusao(aulaID, TIPO_CONCLUSAO.QUESTOES);
-            DuvidDB.addGlobinhos(RECOMPENSA_GERAL);
+            const jaConcluiu = DuvidDB.estaConcluido(aulaID, TIPO_CONCLUSAO.QUESTOES);
 
-            // Bônus extra por vidas intactas
-            if (ganhouBonus) {
-                DuvidDB.addGlobinhos(BONUS_VIDAS);
-            }
+            // salvarConclusao já envia RECOMPENSA_QUESTOES + bonus ao banco.
+            // addGlobinhos separado causaria dupla contagem.
+            const bonusAdicional = ganhouBonus ? BONUS_VIDAS : 0;
+            DuvidDB.salvarConclusao(aulaID, TIPO_CONCLUSAO.QUESTOES, bonusAdicional);
         }
     }
 
@@ -524,6 +527,7 @@ function iniciarRevisao() {
     nota = 0;
     vidas = TOTAL_VIDAS;
     combo = 0;
+    emRevisao = true;                     // revisão: não re-pontua por questão
     questoes = embaralharArray(erradas);
 
     const modal = document.getElementById('id01');
@@ -540,6 +544,7 @@ function tentarNovamente() {
     vidas = TOTAL_VIDAS;
     combo = 0;
     questoesErradas = [];
+    emRevisao = false;            // sessão nova pontua normalmente
 
     // Fecha o modal
     const modal = document.getElementById('id01');
