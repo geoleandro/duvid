@@ -7,6 +7,8 @@
 
 // Detecta ambiente automaticamente pelo servidor
 $_isLocal = in_array($_SERVER['SERVER_NAME'] ?? 'localhost', ['localhost', '127.0.0.1', '::1']);
+// Constante acessível dentro das funções (variáveis globais não entram em escopo de função)
+define('IS_LOCAL', $_isLocal);
 
 if ($_isLocal) {
     // Banco local (XAMPP — testes)
@@ -43,12 +45,16 @@ function getDB(): PDO {
         try {
             $pdo = new PDO($dsn, DB_USER, DB_PASS, $options);
         } catch (PDOException $e) {
+            // Registra o erro completo no log do servidor (não vai para o usuário)
+            error_log('[Duvid] Falha na conexão com o banco: ' . $e->getMessage());
             http_response_code(500);
             header('Content-Type: application/json');
-            die(json_encode([
-                'erro'    => 'Falha na conexão com o banco.',
-                'detalhe' => $e->getMessage()   // remova em produção
-            ]));
+            $resposta = ['erro' => 'Falha na conexão com o banco.'];
+            // O detalhe técnico só aparece no ambiente local; em produção fica oculto.
+            if (IS_LOCAL) {
+                $resposta['detalhe'] = $e->getMessage();
+            }
+            die(json_encode($resposta));
         }
     }
 

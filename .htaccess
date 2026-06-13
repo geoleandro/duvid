@@ -30,6 +30,15 @@ RewriteRule ^(.+)\.html$ /$1.php [R=301,L]
     Deny from all
 </Files>
 
+# Bloqueia páginas de teste/depuração (caso subam sem querer)
+<FilesMatch "^teste.*\.(html|php)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Bloqueia toda a pasta de scripts do banco (database/)
+RewriteRule ^database/ - [F,L]
+
 # -------------------------------------------------------
 # PHP como padrão para extensão .php
 # -------------------------------------------------------
