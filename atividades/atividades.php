@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duvid - Atividades</title>
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/atividades-estilo.css">
@@ -18,11 +18,13 @@
         crossorigin="anonymous"></script>
 
 
-    <script src="/js/duvid-cache.js" defer></script>
     <script src="/js/duvid-core.js" defer></script>
+
     <script src="/js/duvid-db.js" defer></script>
+
     <script src="/js/duvid-audio.js" defer></script>
     <script src="/js/duvid-ui.js" defer></script>
+
     <script src="/js/carregar.js" defer></script>
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/atividades-duvid.js" defer></script>
@@ -81,6 +83,11 @@
 
 
     <?php include __DIR__ . '/../includes/footer.php'; ?>
+
+    <button onclick="voltarAoTopo()" id="btn-topo" class="w3-button w3-green w3-padding w3-round-large"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;">
+        <i class="fa fa-arrow-up"></i>
+    </button>
 
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>

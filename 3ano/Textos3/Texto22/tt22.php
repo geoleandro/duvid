@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>3º ano - Texto 22 - Américas Central e do Sul: características gerais</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula anterior vimos as características do México e do Canadá, países
+            que formam o bloco USMCA com os Estados Unidos. </p>
+
+
+        <p>Na aula de hoje vamos estudar os problemas da América Central e do Sul, além de suas principais
+            peculiaridades. </p>
+
+
+
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+            <h3>1. Qual é a importância geopolítica da América Central e do Sul?</h3>
+            <h3>2. Quais são as principais características físicas das regiões da América Central e do Sul?</h3>
+            <h3>3. Como a colonização europeia impactou a América Central e do Sul?</h3>
+            <h3>4. Quais foram os desafios enfrentados pelos países da América Central e do Sul após a independência?
+            </h3>
+            <h3>5. Em que aspectos a Revolução Cubana se destacou na América Latina?</h3>
+            <h3>6. Como o embargo econômico dos Estados Unidos afetou Cuba?</h3>
+            <h3>7. O que diferencia Cuba dos outros países latino-americanos em termos de sistema econômico e político?
+            </h3>
+            <h3>8. Qual é o papel do Mercosul na economia da América do Sul?</h3>
+            <h3>9. Quais são as principais características econômicas dos países andinos?</h3>
+            <h3>10. Quais são os desafios e limitações econômicas enfrentados pela América Latina devido à dependência
+                de commodities?</h3>
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+        <h2>1. Introdução</h2>
+
+        <div class="w3-margin"><img id="imagem1" src="tt22f01.png" alt="tt22f01" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao1" > </span>
+           
+           </div>
+
+        <p>A América Central é uma região situada entre a América do Norte e a América do Sul, composta por sete países:
+            Belize, Guatemala, Honduras, El Salvador, Nicarágua, Costa Rica e Panamá. Geograficamente, a região é
+            caracterizada por cadeias montanhosas que se estendem ao longo de sua extensão, além de vulcões ativos e uma
+            rica biodiversidade.</p>
+
+        <p>A América do Sul, por sua vez, é dividida em várias sub-regiões, incluindo os Países Andinos e o Cone Sul,
+            onde se destaca o Mercosul, um importante bloco econômico. Ambas as regiões têm uma grande importância
+            geopolítica devido à riqueza em recursos naturais, como petróleo, minérios e biodiversidade.</p>
+
+        <p>Além disso, a América Central possui uma relevância estratégica por sua proximidade ao Canal do Panamá, uma
+            das rotas comerciais mais importantes do mundo.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+<div class="topico">
+
+        <div class="w3-pale-blue">
+
+        <h2>2. Características Físicas</h2>
+
+        <div class="w3-margin"><img id="imagem2" src="tt22f02.png" alt="tt22f02" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2">  </span>
+        </div>
+	   
+
+        <p>A América Central e do Sul são regiões com uma diversidade física impressionante, que vai desde altas
+            montanhas até florestas densas. O relevo é uma das características mais marcantes, com a presença dominante
+            das cadeias montanhosas, especialmente os Andes. Esta cordilheira, que se estende por aproximadamente 7.000
+            km ao longo da costa oeste da América do Sul, é a mais extensa do mundo e atinge alturas superiores a 6.900
+            metros, no Monte Aconcágua, na Argentina.</p>
+
+        <p>Além dos Andes, a região abriga vastas áreas de florestas tropicais, como a Amazônia, a maior floresta
+            tropical do mundo, que cobre partes de nove países sul-americanos. Essas florestas são não apenas cruciais
+            para a biodiversidade global, mas também desempenham um papel vital na regulação do clima da Terra.</p>
+
+        <p>Em termos de clima, a América Central e do Sul oferecem uma grande variedade. O clima equatorial predomina na
+            Amazônia, onde as chuvas são abundantes durante todo o ano, sustentando a densa vegetação tropical. Em
+            contraste, o Deserto do Atacama, no Chile, é um dos lugares mais secos do planeta, com algumas áreas que não
+            recebem chuvas há séculos.</p>
+
+        <p>As savanas, como o Cerrado no Brasil, também fazem parte do mosaico climático da região, caracterizadas por
+            estações de chuva e seca bem definidas. Este bioma é uma das savanas mais ricas em biodiversidade do mundo,
+            abrigando milhares de espécies de plantas e animais.</p>
+
+        <p>Essa combinação de relevo variado e climas diversos torna a América Central e do Sul uma região de grande
+            importância ecológica e geográfica, além de ser um verdadeiro tesouro natural que continua a fascinar
+            cientistas e viajantes de todo o mundo.</p>
+
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+<div class="topico">
+
+        <h2>3. Colonização</h2>
+
+        <div class="w3-margin"><img id="imagem3" src="tt22f03.png" alt="tt22f03" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao3" >  </span>
+            
+            </div>
+    
+        <p>A história da América Central e do Sul é marcada por um longo período de colonização europeia, que moldou profundamente a cultura, a religião e as línguas dessas regiões. Os colonizadores, principalmente espanhóis e portugueses, chegaram ao Novo Mundo no final do século XV, atraídos pela promessa de riquezas e novas terras. A influência europeia é evidente até hoje, com o espanhol e o português sendo as línguas predominantes, e o cristianismo, especialmente o catolicismo, profundamente enraizado na vida social e cultural.</p>
+    
+        <p>A colonização não foi um processo pacífico. Pelo contrário, foi marcada pela exploração intensa dos recursos naturais e pela subjugação das populações indígenas. Ouro, prata e outros recursos foram extraídos em grandes quantidades e enviados para a Europa, enriquecendo as metrópoles coloniais à custa das economias locais e das vidas de milhões de pessoas.</p>
+    
+        <p>Um aspecto sombrio dessa era foi o uso massivo de mão de obra escrava africana, especialmente no Brasil e nas plantações de açúcar no Caribe. Milhões de africanos foram forçados a atravessar o Atlântico em condições desumanas para trabalhar em minas, plantações e em diversas outras atividades econômicas, contribuindo para a formação de sociedades profundamente desiguais.</p>
+    
+        <p>Mesmo após a independência dos países da América Central e do Sul, muitas das estruturas de poder e desigualdades sociais estabelecidas durante a colonização persistiram. As elites coloniais mantiveram seu poder e influência, enquanto a maioria da população continuou a enfrentar desafios relacionados à pobreza e à falta de acesso a oportunidades. Este legado colonial ainda é evidente hoje, influenciando a dinâmica social, econômica e política da região.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    
+    </div>
+<div class="topico">
+
+
+        <div class="w3-pale-yellow">
+
+        <h2>4. Independência Política e Subdesenvolvimento</h2>
+
+        <div class="w3-margin"><img id="imagem4" src="tt22f04.png" alt="tt22f04" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao4" >  </span>
+            
+            </div>
+    
+        <p>Os movimentos de independência na América Central e do Sul marcaram o início do século XIX, com a maioria dos países da região se libertando do domínio colonial europeu. Inspirados pelas revoluções nos Estados Unidos e na França, líderes como Simón Bolívar e José de San Martín se destacaram na luta pela liberdade, resultando na criação de nações independentes. No entanto, a independência não trouxe automaticamente prosperidade ou estabilidade política.</p>
+    
+        <p>Após a independência, muitos países enfrentaram dificuldades significativas para se desenvolver tanto politicamente quanto economicamente. A transição do colonialismo para a independência foi frequentemente marcada por instabilidade, com golpes de Estado, ditaduras e guerras civis. A falta de experiência em autogoverno, combinada com a influência contínua das elites coloniais, contribuiu para um cenário político volátil. Além disso, a economia das novas nações continuou a depender fortemente da exportação de matérias-primas, como café, açúcar e minerais, para os mercados europeus e, mais tarde, para os Estados Unidos.</p>
+    
+        <p>Essa dependência econômica de produtos primários manteve a região vulnerável a flutuações nos preços globais, limitando o crescimento econômico e perpetuando o subdesenvolvimento. A falta de diversificação econômica significava que qualquer queda nos preços das commodities poderia ter impactos devastadores nas economias locais, exacerbando as desigualdades sociais e econômicas.</p>
+    
+        <p>Para tentar superar esses desafios, diversas iniciativas regionais foram lançadas ao longo do tempo. Organizações como o Mercosul e a UNASUL surgiram com o objetivo de promover a integração econômica e política entre os países da região, buscando fortalecer as economias locais e reduzir a dependência de mercados externos. Essas iniciativas têm o potencial de aumentar a cooperação regional, melhorar a infraestrutura e criar condições mais favoráveis para o desenvolvimento sustentável. Contudo, a plena realização desses objetivos ainda enfrenta obstáculos significativos, como as diferenças políticas e econômicas entre os países membros e as pressões externas.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    
+    </div>
+<div class="topico">
+
+        <h2>5. Questão Cubana</h2>
+
+        <div class="w3-margin"><img id="imagem5" src="tt22f05.png" alt="tt22f05" class="w3-mobile" >
+		  
+			<span class="w3-small w3-margin-left" id="citacao5" > Fonte: https://otrabalho.org.br/ </span>
+		   </div>
+    
+        <p>Cuba ocupa um lugar único na história e na geopolítica da América Latina. A Revolução Cubana de 1959, liderada por Fidel Castro, transformou radicalmente o país, estabelecendo um governo socialista que desafiou a hegemonia dos Estados Unidos na região. Antes da revolução, Cuba era amplamente influenciada pelos interesses econômicos e políticos dos EUA, com uma economia baseada no turismo, no açúcar e em outras exportações. A revolução, no entanto, trouxe profundas mudanças sociais e econômicas, incluindo a nacionalização de indústrias, a reforma agrária e o estabelecimento de um sistema de saúde e educação gratuitos.</p>
+    
+        <p>Um dos eventos mais marcantes da história recente de Cuba foi o embargo econômico imposto pelos Estados Unidos em 1962, que continua em vigor até hoje. O embargo foi uma resposta direta à aliança de Cuba com a União Soviética durante a Guerra Fria e à expropriação de propriedades americanas na ilha. Esse bloqueio econômico teve um impacto devastador na economia cubana, limitando o acesso a produtos básicos, tecnologia e mercados internacionais. Apesar dessas dificuldades, o governo cubano conseguiu manter seu sistema socialista e implementar políticas sociais que continuam a ser um marco distintivo do país.</p>
+    
+        <p>Cuba se destaca como uma exceção na América Latina por sua adesão ao socialismo em uma região predominantemente composta por economias de mercado. Enquanto a maioria dos países latino-americanos adotou políticas neoliberais nas últimas décadas, Cuba permaneceu firme em seu modelo econômico e político, com um controle centralizado e uma economia planificada. Isso resultou em um desenvolvimento econômico diferente, com avanços notáveis em áreas como a saúde e a educação, mas também com limitações significativas em termos de crescimento econômico e inovação tecnológica.</p>
+    
+        <p>A posição única de Cuba também gerou impactos regionais significativos. As relações de Cuba com os Estados Unidos têm sido historicamente tensas, culminando na Crise dos Mísseis de 1962, que quase levou a um conflito nuclear. No entanto, Cuba também recebeu apoio de outros países latino-americanos, especialmente em fóruns internacionais como a ONU, onde a maioria das nações da região condena o embargo americano e apoia o direito de Cuba à autodeterminação. Apesar das dificuldades econômicas, Cuba continua a exercer uma influência cultural e política desproporcional ao seu tamanho, sendo um símbolo de resistência e soberania na América Latina.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    
+    </div>
+<div class="topico">
+
+        <div class="w3-pale-red">
+
+        <h2>6. Economia da Região</h2>
+
+        <div class="w3-margin"><img id="imagem6" src="tt22f06.png" alt="tt22f06" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao6" > </span>
+            
+            </div>
+    
+        <p>A economia da América Latina é marcada por uma forte dependência da exportação de commodities, o que desempenha um papel crucial na estabilidade e no crescimento econômico de muitos países da região. Produtos como petróleo, café, minérios e soja são os principais motores das exportações, gerando receitas vitais para os governos locais. No entanto, essa dependência também torna as economias vulneráveis às flutuações nos preços globais dessas commodities, o que pode resultar em crises econômicas quando os preços caem drasticamente. Por exemplo, países como a Venezuela, altamente dependente do petróleo, enfrentaram sérias dificuldades econômicas quando o preço do barril despencou no mercado internacional.</p>
+    
+        <p>Dentro desse contexto econômico, o Mercosul (Mercado Comum do Sul) emerge como uma importante iniciativa de integração regional. Fundado em 1991, o bloco reúne Brasil, Argentina, Paraguai, Uruguai e, em períodos anteriores, a Venezuela, com o objetivo de promover o livre comércio e a cooperação econômica entre os países membros. O Mercosul busca não apenas facilitar o comércio intra-regional, mas também fortalecer a posição dos países sul-americanos no cenário econômico global. No entanto, o bloco enfrenta desafios significativos, como as disparidades econômicas entre os países membros e a necessidade de maior integração política e econômica.</p>
+    
+        <p>Os países andinos, que incluem nações como Peru, Bolívia, Colômbia e Equador, apresentam uma economia caracterizada por uma forte dependência da mineração e da agricultura de subsistência. O Peru e a Bolívia, por exemplo, possuem vastos recursos minerais, incluindo cobre, prata, zinco e lítio, que são exportados para todo o mundo. Esses recursos são fundamentais para a economia desses países, mas a riqueza gerada nem sempre se traduz em melhorias significativas nas condições de vida da população local. A agricultura de subsistência também desempenha um papel importante, especialmente nas áreas rurais, onde muitas famílias dependem do cultivo de pequenos lotes de terra para sua sobrevivência.</p>
+    
+        <p>Essa combinação de fatores econômicos cria uma paisagem complexa na América Latina, onde a riqueza natural convive com desafios estruturais, como a desigualdade social e a falta de diversificação econômica. A dependência de commodities, enquanto fornece uma base econômica importante, também limita o desenvolvimento a longo prazo e a resiliência dessas economias a choques externos. Por isso, muitos países da região têm buscado alternativas para diversificar suas economias e reduzir a vulnerabilidade associada à dependência de commodities.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+        </div>
+
+    </div>
+
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-bottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+</html>

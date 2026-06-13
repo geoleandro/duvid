@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "instituicao": "CESUPA",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "ciclo da borracha",
+      "urbanização colonial",
+      "Amazônia",
+      "economia de exportação"
+    ],
+    "texto_apoio": "“A urbanização no século XIX seria menos fruto da expansão do mercado interno, e mais reflexo da expansão do mercado internacional e do desenvolvimento da economia de exportação de produtos tropicais destinados aos mercados europeu e americano do norte e setores subsidiários.”",
+    "fonte_apoio": "(Fonte: Costa, Emília Viotti da. Da Monarquia à República: momentos decisivos. 3ª ed. São Paulo: Brasiliense, 1985, p. 218.)",
+    "pergunta": "Segundo a historiadora Emília Viotti:\n\nNo caso da Amazônia do final do século XIX e início do XX, a urbanização está atrelada à economia do (da)",
+    "alternativas": [
+      "cacau, atividade extrativista cuja mão de obra era indígena, rendia muito lucro à região, porque a Amazônia era o único mercado exportador para a Europa e Estados Unidos, propiciando a instalação de modernos serviços urbanos.",
+      "pecuária, que propiciou um grande desenvolvimento à capital paraense e à Ilha do Marajó, território onde ficavam localizadas as fazendas de propriedade de estrangeiros que instalaram modernos frigoríficos na cidade, fabricados na Inglaterra.",
+      "mineração, recurso natural em que os investidores estrangeiros mantinham total controle da exploração e em contrapartida ofereciam modernos equipamentos urbanos como os bondes elétricos e a instalação de bancos para dar suporte ao empreendimento, como o London Bank.",
+      "borracha, que em seu apogeu propiciou a aceleração da urbanização, com investimentos nos serviços públicos urbanos, inclusive os governantes tinham por hábito contratar firmas estrangeiras, como a Pará Gás Company, firma inglesa, para o serviço de iluminação a gás das ruas da cidade de Belém."
+    ],
+    "correta": 3,
+    "ajuda": "Lembre-se que o ciclo da borracha foi o grande motor econômico da Amazônia no final do século XIX. Pense em qual produto tropical foi responsável pelos grandes investimentos urbanos em Belém e Manaus nesse período. Analise quais alternativas mencionam serviços urbanos modernos e a presença de empresas estrangeiras ligadas a esse produto.",
+    "comentario": "O ciclo da borracha (1850–1920) transformou Belém e Manaus em cidades de porte europeu, com teatro, bondes elétricos e iluminação a gás financiados pela exportação do látex. A hegemonia amazônica no mercado mundial durou até a concorrência das plantações asiáticas derrubarem os preços. Esse período ilustra como a urbanização colonial-exportadora beneficiava as elites locais sem distribuir renda para a população."
+  },
+  {
+    "id": 2,
+    "instituicao": "UPE",
+    "ano": "2018",
+    "dificuldade": "dificil",
+    "tags": [
+      "formação territorial",
+      "subespaços brasileiros",
+      "Milton Santos",
+      "ciclos econômicos"
+    ],
+    "texto_apoio": "“O Brasil foi, durante muitos séculos, um grande arquipélago, formado por subespaços, que evoluíram, segundo lógicas próprias, ditadas em grande parte por suas relações com o mundo exterior. Havia, sem dúvida, para cada um desses subespaços, polos dinâmicos internos. Estes, porém, tinham entre si escassa relação, não sendo interdependentes”.",
+    "fonte_apoio": "Mílton Santos. A urbanização brasileira, 1993. Adaptado.",
+    "pergunta": "Analise o texto a seguir:\n\nSobre o assunto tratado pelo geógrafo Mílton Santos, analise as afirmativas a seguir:\n\n1) A distribuição descontínua das atividades econômicas pelo território brasileiro originou as regiões voltadas para o mercado externo.\n\n2) A falta de integração entre os subespaços configurou um modelo de ocupação baseado em ilhas econômicas.\n\n3) O primeiro grande arquipélago econômico foi o do açúcar em Minas Gerais, depois o ciclo do café no Nordeste e, posteriormente, o ciclo do ouro no Sudeste.\n\n4) A maior parte do território brasileiro passou a se integrar à economia nacional somente no início do século XX, sob o comando do eixo Rio - São Paulo.\n\n5) A ocupação e a expansão do território brasileiro ocorreram inicialmente de Oeste para Leste, começando pela Amazônia e estendendo-se para o litoral.\n\nEstão CORRETAS",
+    "alternativas": [
+      "1 e 5, apenas.",
+      "3 e 4, apenas.",
+      "1 e 2, apenas.",
+      "2, 4 e 5, apenas.",
+      "1, 2, 3, 4 e 5."
+    ],
+    "correta": 2,
+    "ajuda": "Analise cada afirmativa com atenção: lembre-se de que o Brasil colonial era descrito como um 'arquipélago' de subespaços voltados para o exterior. Pense na direção real da ocupação do território brasileiro (do litoral para o interior) e na sequência histórica dos ciclos econômicos. Identifique quais afirmativas são compatíveis com a ideia de ilhas econômicas sem integração interna.",
+    "comentario": "Milton Santos desenvolveu o conceito de circuitos da economia urbana — o circuito superior (grandes empresas, bancos, tecnologia) e o inferior (pequeno comércio, informalidade) — para explicar a dualidade do espaço urbano nos países subdesenvolvidos. Essa divisão não é apenas econômica; ela reflete a herança colonial e a modernização seletiva que caracteriza o capitalismo periférico."
+  },
+  {
+    "id": 3,
+    "instituicao": "FUVEST",
+    "ano": "2012",
+    "dificuldade": "dificil",
+    "tags": [
+      "bandeiras paulistas",
+      "biomas brasileiros",
+      "Mata Atlântica",
+      "Cerrado"
+    ],
+    "fonte_apoio": "Fonte: Jobson de A. Arruda Atlas Histórico. Editora Árica, 1989. Adaptado.",
+    "imagem_apoio": "2ano/img/201/s1q4.png",
+    "pergunta": "No mapa atual do Brasil, reproduzido abaixo, foram indicadas as rotas percorridas por algumas bandeiras paulistas no século XVII.\n\nNas rotas indicadas no mapa, os bandeirantes",
+    "alternativas": [
+      "mantinham-se, desde a partida e durante o trajeto, em áreas não florestais. No percurso, enfrentavam períodos de seca, alternados com outros de chuva intensa.",
+      "mantinham-se, desde a partida e durante o trajeto, em ambientes de florestas densas. No percurso, enfrentavam chuva frequente e muito abundante o ano todo.",
+      "deixavam ambientes florestais, adentrando áreas de campos. No percurso, enfrentavam períodos muito longos de seca, com chuvas apenas ocasionais.",
+      "deixavam ambientes de florestas densas, adentrando áreas de campos e matas mais esparsas. No percurso, enfrentavam períodos de seca, alternados com outros de chuva intensa.",
+      "deixavam áreas de matas mais esparsas, adentrando ambientes de florestas densas. No percurso, enfrentavam períodos muito longos de chuva, com seca apenas ocasional."
+    ],
+    "correta": 3,
+    "ajuda": "Observe as rotas das bandeiras no mapa e pense em qual bioma estava o planalto paulista no século XVII. As bandeiras partiam da Mata Atlântica em direção ao interior do continente, adentrando o Cerrado e o sertão. Considere as características climáticas de cada região atravessada: florestas densas, campos abertos e os padrões de chuva de cada área.",
+    "comentario": "As bandeiras paulistas do século XVII percorreram o interior do Brasil em busca de ouro e de apresamento de indígenas, cruzando os cerrados e atingindo regiões que hoje formam Minas Gerais, Goiás e Mato Grosso. Esse movimento foi decisivo para a expansão do território luso além dos limites do Tratado de Tordesilhas, consolidando a ocupação do interior continental."
+  },
+  {
+    "id": 4,
+    "instituicao": "UNB",
+    "ano": "2011",
+    "dificuldade": "media",
+    "tags": [
+      "formação territorial",
+      "Estrada Real",
+      "mineração colonial",
+      "urbanização"
+    ],
+    "fonte_apoio": "G.D. Calaes; G.Ferreira (Eds). A estrada real e a transferência da corte portuguesa. Programa Rumys – Projeto Estrada Real. Rio de Janeiro: CETEM/MCT/CNPq/CYTED, 2009, p. 36 (com adaptações).",
+    "pergunta": "Em termos de contribuição para o ordenamento territorial, sobressai, na Região de Influência da Estrada Real, o processo de ocupação e de constituição de núcleos pioneiros de atividade econômica — como foram os polos de mineração —, e a criação e a organização de aldeias, vilas e cidades, muitas das quais incorporavam arruamentos, infraestruturas, serviços básicos e técnicas construtivas do mais elevado nível tecnológico, equivalente àquele prevalente no Portugal de correspondente época.\n\nA partir das informações acima, julgue o item.\n\nA maneira como houve a formação espacial do território brasileiro ajuda a explicar e, ao mesmo tempo, influencia as práticas sociais relacionadas ao comércio, ao dia a dia e ao exercício de políticas públicas. Essa formação vincula-se, também, aos recortes da sociedade fundamentados no conceito de classe social.",
+    "alternativas": [
+      "CERTO.",
+      "ERRADO."
+    ],
+    "correta": 0,
+    "ajuda": "Reflita sobre o que significa 'formação espacial do território' e como as atividades econômicas coloniais moldaram a ocupação do espaço. Pense em como o passado econômico e social de uma região influencia as relações sociais e as práticas de hoje. A questão afirma que há uma ligação entre formação territorial e estrutura de classes — avalie se isso é verdadeiro ou falso com base no conhecimento histórico.",
+    "comentario": "A Estrada Real conectava as minas de ouro de Minas Gerais aos portos do litoral fluminense e paulista, estruturando o território colonial em torno da extração e exportação de metais preciosos. Esse eixo viário influenciou a urbanização do interior e gerou cidades históricas como Ouro Preto, Tiradentes e Diamantina, hoje Patrimônio da Humanidade."
+  },
+  {
+    "id": 5,
+    "instituicao": "FURG",
+    "ano": "2010",
+    "dificuldade": "facil",
+    "tags": [
+      "povoamento do Brasil",
+      "litoral colonial",
+      "economia canavieira",
+      "século XVI"
+    ],
+    "pergunta": "Com base nos processos de povoamento do território brasileiro ocorridos no século XVI, pode-se inferir que:",
+    "alternativas": [
+      "O desmatamento da Floresta Amazônica e do Cerrado para a implantação da atividade pecuária e de lavouras comerciais de grãos.",
+      "A descoberta de ouro e de diamantes, nos estados de Goiás, Mato Grosso e Minas Gerais, contribuíram para a formação de cidades.",
+      "A ocupação se limitava ao Litoral, e a principal atividade econômica era o cultivo da cana, para produção de açúcar, ocorrendo também outras atividades relacionadas à produção mercantil.",
+      "As lavouras de café, no estado de São Paulo, atraíram imigrantes europeus na condição de assalariados e proprietários rurais.",
+      "As lavouras canavieiras e a criação de gado pelo sistema de confinamento foram atividades que contribuíram para a efetiva ocupação do espaço brasileiro."
+    ],
+    "correta": 2,
+    "ajuda": "Lembre-se de que o século XVI foi o período inicial da colonização, marcado pela exploração do litoral. Pense em qual atividade econômica dominava o litoral nordestino nesse século e qual tipo de ocupação era predominante. Descarte as alternativas que descrevem fenômenos ocorridos em séculos posteriores (XVIII ou XIX).",
+    "comentario": "No século XVI, o litoral brasileiro concentrava toda a vida econômica e populacional da colônia, com a plantation canavieira dominando o Nordeste. O interior permanecia praticamente inabitado pelos colonizadores, sendo território indígena — a ocupação interiorana só avançaria com as bandeiras e, sobretudo, com o ciclo do ouro no século XVIII."
+  },
+  {
+    "id": 6,
+    "instituicao": "FUVEST",
+    "ano": "2002",
+    "dificuldade": "media",
+    "tags": [
+      "formação territorial",
+      "ciclo do ouro",
+      "integração territorial",
+      "mineração"
+    ],
+    "pergunta": "Quanto à formação do território brasileiro, podemos afirmar que",
+    "alternativas": [
+      "a mineração, no século XVIII, foi importante na integração do território devido às relações com o Sul, provedor de charque e mulas, e com o Rio de Janeiro, por onde escoava o ouro.",
+      "a pecuária no rio São Francisco, desenvolvida a partir das numerosas vilas da Zona da Mata foi um elemento importante na integração do território nacional.",
+      "a economia baseada, no século XVI, na exploração das drogas do sertão integrou a porção Centro-Oeste à região Sul.",
+      "a economia açucareira do Nordeste brasileiro, baseada no binômio 'plantation' e escravidão, foi a responsável pela incorporação, ao Brasil, de territórios pertencentes à Espanha.",
+      "a extração do pau-brasil, promovida pelos paulistas, por meio das entradas e bandeiras, foi importante na expansão das fronteiras do território brasileiro."
+    ],
+    "correta": 0,
+    "ajuda": "Pense em como cada ciclo econômico contribuiu para a integração ou expansão do território brasileiro. A mineração no século XVIII gerou fluxos comerciais entre diferentes regiões — pense em quais eram os fornecedores de alimentos e animais para as zonas mineradoras e por onde o ouro era escoado. Analise a relação entre as regiões produtoras e os centros de distribuição.",
+    "comentario": "A mineração setecentista foi o primeiro grande vetor de integração territorial do Brasil, criando fluxos entre Minas Gerais, o Nordeste produtor de alimentos e o Sul fornecedor de charque e muares. Diferentemente do açúcar litorâneo, o ouro atraiu população para o interior, gerando uma rede urbana mais densa e diversificada na região das Gerais."
+  },
+  {
+    "id": 7,
+    "instituicao": "",
+    "ano": "2020",
+    "dificuldade": "facil",
+    "tags": [
+      "latifúndio",
+      "estrutura fundiária",
+      "propriedade rural"
+    ],
+    "pergunta": "É uma propriedade agrícola de grande extensão pertencente a uma única pessoa, uma família ou empresa e que se caracteriza pela exploração extensiva de seus recursos.",
+    "alternativas": [
+      "Grandes Navegações.",
+      "Plantation.",
+      "Latifúndio.",
+      "Pau-Brasil."
+    ],
+    "correta": 2,
+    "ajuda": "Pense nas características de uma grande propriedade rural: extensão, propriedade concentrada em poucos donos e exploração extensiva dos recursos. Compare essa definição com os conceitos listados nas alternativas. Lembre-se de distinguir latifúndio (estrutura fundiária) de plantation (sistema de produção).",
+    "comentario": "O latifúndio é herança direta do sistema de sesmarias colonial — grandes extensões cedidas pela Coroa portuguesa a fidalgos. Hoje, o Brasil tem o Índice de Gini fundiário entre os mais altos do mundo: 1% dos proprietários concentram cerca de 45% das terras. O MST surge nesse contexto como resposta organizada à concentração histórica."
+  },
+  {
+    "id": 8,
+    "instituicao": "",
+    "ano": "2021",
+    "dificuldade": "facil",
+    "tags": [
+      "Tratado de Madri",
+      "uti possidetis",
+      "formação territorial",
+      "fronteiras brasileiras"
+    ],
+    "pergunta": "Assinado em 1750, praticamente garantiu a atual extensão territorial do Brasil. O novo acordo anulou o Tratado de Tordesilhas e determinou que as terras pertenciam a quem de fato as ocupasse, seguindo o princípio de uti possidetis (permanência legal do atual proprietário)",
+    "alternativas": [
+      "Metais preciosos.",
+      "Cana-de-açúcar.",
+      "Tratado de Tordesilhas.",
+      "Tratado de Madri."
+    ],
+    "correta": 3,
+    "ajuda": "Lembre-se de que o Tratado de Tordesilhas dividia as terras entre Portugal e Espanha com base em uma linha meridiana, sem considerar a ocupação real. Pense em qual tratado posterior usou o princípio do uti possidetis para reconhecer as terras já ocupadas pelos portugueses. Identifique qual documento garantiu a atual extensão territorial do Brasil.",
+    "comentario": "O Tratado de Madri (1750) substituiu o de Tordesilhas aplicando o princípio do uti possidetis — quem ocupa, possui. Com isso, Portugal legalizou as conquistas das bandeiras e garantiu territórios que ultrapassavam em muito a linha dos 46°W, resultando em um Brasil com quase 8,5 milhões de km², muito maior do que o previsto pelo acordo anterior."
+  },
+  {
+    "id": 9,
+    "instituicao": "",
+    "ano": "2020",
+    "dificuldade": "facil",
+    "tags": [
+      "economia canavieira",
+      "urbanização colonial",
+      "litoral nordestino",
+      "plantation"
+    ],
+    "pergunta": "Surgiram com a integração entre a atividade agrícola canavieira, a atividade industrial (agroindústria canavieira) e o setor de exportação do produto (transportes), os quais aumentavam progressivamente com a crescente importação de escravos africanos e manufaturados europeus, principalmente em Salvador, Recife e no litoral.",
+    "alternativas": [
+      "Cana-de-açúcar.",
+      "Metais preciosos.",
+      "Centros urbanos.",
+      "Tratado de Madri."
+    ],
+    "correta": 2,
+    "ajuda": "Pense em como a economia canavieira gerou não apenas produção agrícola, mas também atividades comerciais, industriais e de transporte. Considere que o crescimento do comércio em torno do açúcar levou à formação e ao fortalecimento de cidades portuárias no litoral nordestino. Analise qual das opções descreve esse processo de surgimento urbano.",
+    "comentario": "As cidades surgidas em torno da agroindústria canavieira não eram simples vilas; elas abrigavam engenhos, igrejas, mercados e mão de obra livre e escravizada, configurando os primeiros centros urbanos do Brasil colonial. Esse padrão de urbanização dependente da monocultura exportadora influenciou a concentração espacial da riqueza que persiste até hoje no Nordeste."
+  },
+  {
+    "id": 10,
+    "instituicao": "",
+    "ano": "2021",
+    "dificuldade": "facil",
+    "tags": [
+      "plantation",
+      "trabalho escravo",
+      "economia colonial",
+      "monocultura"
+    ],
+    "pergunta": "Uma unidade de produção caracterizada pela presença da grande propriedade (latifúndio), pela monocultura (cana-de-açúcar) e pelo trabalho escravo (inicialmente indígena, posteriormente africano), cuja produção se destinava basicamente ao mercado europeu, do qual ela dependia:",
+    "alternativas": [
+      "Pau-Brasil.",
+      "Plantation.",
+      "Latifúndio.",
+      "Fronteiras."
+    ],
+    "correta": 1,
+    "ajuda": "Lembre-se das características do sistema plantation: grande propriedade, monocultura e trabalho escravo destinados ao mercado externo. Pense em qual conceito específico une esses três elementos dentro de um único sistema produtivo colonial. Diferencie plantation (sistema de produção) de latifúndio (apenas estrutura de propriedade).",
+    "comentario": "A plantation canavieira resume o modelo colonial clássico: latifúndio, monocultura e trabalho escravo voltados exclusivamente para o mercado externo. Esse sistema não gerou diversificação econômica interna; ao contrário, criou uma estrutura de dependência que, mesmo após a abolição da escravatura em 1888, manteve o Nordeste como região de baixo desenvolvimento relativo."
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UEG",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "rede urbana",
+      "hierarquia urbana",
+      "cidades",
+      "distribuição espacial"
+    ],
+    "pergunta": "Atualmente, no Brasil, as cidades, ao se distribuírem espacialmente, formam uma rede urbana ou um conjunto de centros que funcionam de forma articulada e, por isso, expressam a dimensão socioespacial da sociedade conforme uma hierarquia urbana. Segundo as Regiões de Influência das Cidades (REGIC) estabelecidas pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 2007, cidades como Goiânia, Belém e Manaus são caracterizadas como.",
+    "alternativas": [
+      "centros sub-regionais.",
+      "metrópoles nacionais.",
+      "metrópoles.",
+      "capitais regionais.",
+      "metrópoles globais."
+    ],
+    "correta": 2,
+    "ajuda": "A rede urbana brasileira é hierárquica. Pense nos diferentes níveis: metrópoles globais, nacionais, regionais, capitais regionais e centros sub-regionais. O enunciado descreve cidades que articulam pequenas regiões — qual nível é esse?",
+    "comentario": "As metrópoles ocupam o topo da hierarquia urbana brasileira, exercendo funções de comando sobre redes regionais e nacionais. São Paulo é a principal metrópole nacional, seguida por Rio de Janeiro e Brasília como metrópoles nacionais de segundo nível, e por capitais regionais como Manaus, Recife e Porto Alegre. Essa hierarquia foi mapeada pelo IBGE no estudo REGIC (Regiões de Influência das Cidades)."
+  },
+  {
+    "id": 2,
+    "instituicao": "IFSULDEMINAS",
+    "ano": "2017",
+    "dificuldade": "facil",
+    "tags": [
+      "urbanização mundial",
+      "população urbana",
+      "crescimento das cidades"
+    ],
+    "pergunta": "A maioria da população mundial vive nas cidades. Segundo dados e previsão da Divisão de População da ONU, no início do século XX, a população urbana era de 14%. Em 2010 era de 51,6% e chegará a 67% em 2050. Observe as alternativas abaixo, a respeito de rede e hierarquia urbanas, e assinale a que for CORRETA:",
+    "alternativas": [
+      "A rede urbana é formada por um sistema de cidades de um mesmo país que se interligam às outras, exclusivamente, por meio de sistemas de transportes (rodoviário, aéreo, fluvial e marítimo) por onde ocorrem os fluxos de mercadorias.",
+      "Megacidades são aglomerações urbanas, de países desenvolvidos, que possuem mais de 10 milhões de habitantes.",
+      "As cidades globais são os nós da rede urbana mundial, pois oferecem os melhores e mais variados tipos de serviços, diversificada atividade industrial, centros de pesquisa e tecnologia e lazer, por isso comandam a economia no mundo.",
+      "As redes de cidades mais densas e articuladas se desenvolveram em países emergentes e subdesenvolvidos devido ao elevado contingente populacional."
+    ],
+    "correta": 2,
+    "ajuda": "A questão trata de conceitos sobre redes urbanas e cidades globais. Megacidades não são exclusivas de países desenvolvidos — várias estão em países emergentes como China, Índia e Brasil. Analise cada alternativa com cuidado.",
+    "comentario": "As cidades globais — como Nova York, Londres, Tóquio e São Paulo — funcionam como centros de comando da economia mundial, concentrando bolsas de valores, sedes de multinacionais, centros de pesquisa e serviços financeiros avançados. Elas conectam as redes de fluxos de capital, informação e pessoas em escala planetária, sendo os principais nós da globalização. Sua influência transcende fronteiras nacionais, organizando o espaço geográfico mundial."
+  },
+  {
+    "id": 3,
+    "instituicao": "UEG",
+    "ano": "2017",
+    "dificuldade": "facil",
+    "tags": [
+      "conurbação",
+      "metropolização",
+      "crescimento urbano",
+      "fusão de cidades"
+    ],
+    "pergunta": "Uma conurbação caracteriza-se por",
+    "alternativas": [
+      "áreas urbanas superpostas espacial e politicamente.",
+      "um conjunto de áreas integradas política e socioeconomicamente.",
+      "sobreposição de duas ou mais cidades pelo seu crescimento vertical.",
+      "conjunto espacial caracterizado pela ausência de serviços coletivos comuns.",
+      "superposição ou encontro de duas cidades em razão de seu crescimento horizontal."
+    ],
+    "correta": 4,
+    "ajuda": "Conurbação envolve crescimento horizontal de cidades vizinhas. Lembre-se que não há sobreposição política nem vertical — é um processo físico de fusão das manchas urbanas pelo crescimento contínuo dos perímetros urbanos.",
+    "comentario": "A conurbação é o processo pelo qual cidades vizinhas têm seu crescimento urbano horizontal fundido, eliminando os limites físicos entre elas. Diferente da metropolização — que implica relação hierárquica — a conurbação é essencialmente morfológica: dois ou mais tecidos urbanos que se tocam e se superpõem. Exemplos no Brasil incluem os municípios da Grande São Paulo e da Região dos Lagos no Rio de Janeiro."
+  },
+  {
+    "id": 4,
+    "instituicao": "UEFS-BA",
+    "ano": "2017",
+    "dificuldade": "dificil",
+    "tags": [
+      "rede urbana brasileira",
+      "mapa",
+      "urbanização",
+      "hierarquia das cidades"
+    ],
+    "imagem_apoio": "2ano/img/228/s28q4.png",
+    "pergunta": "Analise o mapa.\n\nConsiderando as cidades e a urbanização brasileira, é correto afirmar que o mapa apresenta",
+    "alternativas": [
+      "o sistema de conurbação nacional.",
+      "as regiões de influência das metrópoles.",
+      "as grandes metrópoles nacionais.",
+      "a hierarquia dos centros urbanos.",
+      "a conexão de megalópoles brasileiras."
+    ],
+    "correta": 1,
+    "ajuda": "O mapa provavelmente mostra as regiões de influência das cidades brasileiras. Pense na hierarquia urbana do IBGE (REGIC): cada metrópole polariza uma região. Qual conceito melhor descreve esse fenômeno de atração e influência?",
+    "comentario": "O mapa das regiões de influência das cidades, produzido pelo estudo REGIC do IBGE, classifica as cidades brasileiras conforme sua capacidade de polarizar serviços, comércio e fluxos em seu entorno. As metrópoles têm maior alcance de influência, enquanto cidades locais atendem apenas sua área imediata. Esse mapeamento é essencial para o planejamento regional e a alocação de equipamentos públicos."
+  },
+  {
+    "id": 5,
+    "instituicao": "IFPE",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "metrópoles brasileiras",
+      "mapa",
+      "maiores concentrações urbanas"
+    ],
+    "imagem_apoio": "2ano/img/228/s28q5.png",
+    "pergunta": "As cidades destacadas no mapa abaixo correspondem às maiores concentrações urbanas da atualidade. Com base nisso e na distribuição geográfica dessas cidades, assinale a alternativa que indica o conceito mais apropriado para designá-las na geografia do mundo atual.",
+    "alternativas": [
+      "Megacidades – pois correspondem às maiores concentrações urbanas do mundo atual, distribuídas predominantemente nos países subdesenvolvidos.",
+      "Metrópoles mundiais - conceito utilizado para se referir às cidades mais ricas do globo, que funcionam como sede das empresas transnacionais.",
+      "Cidades inteligentes - pois as cidades citadas correspondem às que mais possuem empresas de inovação, particularmente as ligadas à tecnologia da informação.",
+      "Cidades globais - por serem as mais importantes que integram a economia globalizada, onde funcionam as principais bolsas de valores no período atual.",
+      "Megalópoles – por compreenderem as mais ricas concentrações urbanas no espaço mundial atual, fortemente concentradas nos países mais populosos."
+    ],
+    "correta": 0,
+    "ajuda": "As maiores concentrações urbanas do mundo incluem megacidades de países em desenvolvimento. Analise o conceito correto: megacidades têm mais de 10 milhões de habitantes, mas não necessariamente são as mais ricas ou tecnológicas.",
+    "comentario": "As megacidades são aglomerações urbanas com mais de 10 milhões de habitantes, concentradas principalmente em países em desenvolvimento da Ásia, África e América Latina, onde o crescimento urbano foi mais acelerado. Tóquio, Delhi, Xangai, São Paulo e Cidade do México estão entre as maiores. Esse crescimento acelerado gera desafios enormes de mobilidade, habitação, saneamento e governança metropolitana."
+  },
+  {
+    "id": 6,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "Rio de Janeiro",
+      "região metropolitana",
+      "relação cidade-entorno",
+      "rede urbana"
+    ],
+    "texto_apoio": "“O Rio de Janeiro tem projeção imediata no próprio estado e no Espírito Santo, em parcela do sul do estado da Bahia, e na Zona da Mata, em Minas Gerais, onde tem influência dividida com Belo Horizonte. Compõem a rede urbana do Rio de Janeiro, entre outras cidades: Vitória, Juiz de Fora, Cachoeiro de Itapemirim, Campos dos Goytacazes, Volta Redonda – Barra Mansa, Teixeira de Freitas, Angra dos Reis e Teresópolis”.",
+    "fonte_apoio": "Disponível em: http://ibge.gov.br. Acesso em: 9 jul. 2015 (adaptado).",
+    "pergunta": "O conceito que expressa a relação entre o espaço apresentado e a cidade do Rio de Janeiro é:",
+    "alternativas": [
+      "Frente pioneira.",
+      "Zona de transição.",
+      "Região polarizada.",
+      "Área de conurbação.",
+      "Periferia metropolitana."
+    ],
+    "correta": 2,
+    "ajuda": "A questão trata da relação espacial entre um município e a cidade do Rio de Janeiro. Pense nos conceitos de área metropolitana, conurbação e polarização. Qual deles descreve melhor a dependência funcional de uma cidade menor em relação à metrópole?",
+    "comentario": "A região polarizada é o território organizado em torno de um centro urbano que fornece serviços e emprego para as cidades menores ao seu redor. O Rio de Janeiro polariza uma vasta região no Sudeste, atraindo consumidores, estudantes e trabalhadores de cidades fluminenses e de estados vizinhos. Essa relação de polarização estrutura a rede urbana e determina os fluxos de pessoas, mercadorias e serviços."
+  },
+  {
+    "id": 7,
+    "instituicao": "UNICAMP",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "rede urbana brasileira",
+      "hierarquia urbana",
+      "cidades médias"
+    ],
+    "texto_apoio": "“Em termos genéricos, a rede urbana constitui-se no conjunto de centros urbanos funcionalmente articulados entre si. É, portanto, um tipo particular de rede na qual os vértices ou nós representam os diferentes núcleos de povoamento dotados de funções urbanas, e as linhas representam os diversos fluxos entre esses centros”.",
+    "fonte_apoio": "Adaptado de Roberto Lobato Corrêa, Trajetórias Geográficas. Rio de Janeiro: Bertrand Brasil, 2001.",
+    "pergunta": "Sobre a rede urbana Brasileira é correto afirmar que:",
+    "alternativas": [
+      "formou-se a partir do interior do continente, com o nascimento das cidades “boca de sertão”, funcionais para o povoamento e a exploração do ouro.",
+      "já no início do século XIX, ela deixou de seguir o modelo dendrítico implantado desde o início da colonização para atender à economia agroexportadora.",
+      "a partir da segunda metade do século XX, a industrialização implicou forte articulação inter-regional, gerando uma rede urbana de porte nacional.",
+      "na atualidade, destaca-se a monofuncionalidade dos principais centros que a formam, dada a especialização das funções urbanas requerida na globalização."
+    ],
+    "correta": 2,
+    "ajuda": "A rede urbana brasileira se formou seguindo os ciclos econômicos históricos: litoral no período colonial, interior com o café e depois com a industrialização. Pense em como isso criou uma rede densa no Sudeste e mais dispersa no interior.",
+    "comentario": "A industrialização do Brasil, concentrada no Sudeste a partir dos anos 1950, criou uma rede urbana de caráter nacional ao integrar regiões produtoras de matérias-primas ao polo industrial paulista. Estradas, ferrovias e infraestrutura logística conectaram cidades de diferentes tamanhos em uma hierarquia funcional. Esse processo consolidou São Paulo como metrópole nacional e gerou a macrocefalia urbana que caracteriza o país."
+  },
+  {
+    "id": 8,
+    "instituicao": "UNB",
+    "ano": "2012",
+    "dificuldade": "media",
+    "tags": [
+      "estrutura interna das cidades",
+      "urbanização",
+      "desigualdade urbana"
+    ],
+    "texto_apoio": "“Até 1970, a região metropolitana de São Paulo foi a “Pasárgada” brasileira: ali se instalaram as principais indústrias, com os melhores empregos. Com a crise de 1980 e a interrupção do ciclo de expansão econômica do país, ocorreu uma reestruturação do mercado de trabalho, e o mapa migratório brasileiro começou a apontar para novas direções”.",
+    "fonte_apoio": "L. P. Juttel. Rotas migratórias: norte e centro-oeste, novos polos de migração. In: Ciência e Cultura, v. 59, n.o 4, 2007 (com adaptações).",
+    "pergunta": "Com relação ao assunto tratado no texto acima, julgue o item subsequente.\n\nVerifica-se, na reestruturação da rede urbana brasileira, motivada por fluxos migratórios, o crescimento de cidades de porte médio que aumentam seu raio de influência.",
+    "alternativas": [
+      "Certo.",
+      "Errado."
+    ],
+    "correta": 0,
+    "ajuda": "A reestruturação da rede urbana brasileira envolve novos fluxos econômicos e de pessoas. O item avalia se há uma tendência de descentralização ou de reforço da hierarquia tradicional. Leia com atenção a afirmativa apresentada.",
+    "comentario": "A reestruturação da rede urbana brasileira nas últimas décadas envolveu o fortalecimento de cidades médias como polos regionais de serviços e indústria. Cidades como Ribeirão Preto, Uberlândia e Joinville ganharam funções antes exclusivas das metrópoles, descentralizando parcialmente a rede. Esse processo é impulsionado pela desconcentração industrial, agronegócio e expansão do setor de serviços para o interior."
+  },
+  {
+    "id": 9,
+    "instituicao": "UNEMAT",
+    "ano": "2012",
+    "dificuldade": "media",
+    "tags": [
+      "urbanização",
+      "rede urbana brasileira",
+      "metropolização"
+    ],
+    "pergunta": "Sobre o processo de urbanização e a rede urbana brasileira, analise as seguintes assertivas:\n\nI. No Brasil, o processo de urbanização deslanchou após a 2ª Guerra Mundial, junto com a industrialização implantada na Região Sudeste.\n\nII. O processo de urbanização brasileiro apoiou-se essencialmente no êxodo rural, que teve como causa a formação de uma superpopulação relativa no campo.\n\nIII. O processo de urbanização no Brasil apresenta-se de forma homogênea entre as diferentes regiões do país. Esse fato reflete a inexistência de divergências socioeconômicas entre as regiões brasileiras.\n\nIV. Na rede urbana brasileira aparecem duas metrópoles globais: São Paulo e Belo Horizonte.\n\nV. Na Região Centro-Oeste, Brasília destaca-se como metrópole nacional e Goiânia como metrópole regional.\n\nAssinale a alternativa correta:",
+    "alternativas": [
+      "Somente IV é verdadeira.",
+      "Somente I, II e V são verdadeiras.",
+      "Somente III e IV são verdadeiras.",
+      "Somente II e III são verdadeiras.",
+      "Somente IV e V são verdadeiras."
+    ],
+    "correta": 1,
+    "ajuda": "As assertivas tratam do processo de urbanização brasileiro. Analise cada uma: o processo se intensificou após a Segunda Guerra, a violência urbana tem causas sociais e o Centro-Oeste se urbanizou com Brasília e o agronegócio.",
+    "comentario": "A urbanização brasileira foi marcada por forte concentração no Sudeste até os anos 1970, quando a rede urbana era relativamente simples. Com o tempo, o crescimento do agronegócio no Centro-Oeste, a industrialização do Sul e os projetos amazônicos diversificaram a rede, criando novos polos regionais. As afirmativas I, II e V sintetizam corretamente esse processo de complexificação da hierarquia urbana."
+  },
+  {
+    "id": 10,
+    "instituicao": "PUC-RS",
+    "ano": "2008",
+    "dificuldade": "dificil",
+    "tags": [
+      "crescimento urbano",
+      "metrópoles",
+      "mapa",
+      "desigualdade regional"
+    ],
+    "imagem_apoio": "2ano/img/228/s28q10.png",
+    "pergunta": "INSTRUÇÃO: Para responder à questão, analise os mapas e as afirmativas referentes ao aumento das cidades com mais de 500 mil habitantes no Brasil, preenchendo os parênteses com V para verdadeiro e F para falso.\n\nQuanto às cidades brasileiras com mais de 500 mil habitantes, afirma-se:\n\n( ) A maior concentração de cidades deste porte ocorre na região Norte do Brasil\n\n( ) Dentre as causas para o aumento das cidades deste porte no país, é correto citar o êxodo rural.\n\n( ) Esse aumento vincula-se à oferta de empregos no setor industrial, favorecido pela migração de indústrias dos grandes centros para essas cidades.\n\n( ) Suas vantagens competitivas em relação às grandes cidades, como isenção de impostos municipais e oferta de mais infra- estrutura, facilitam o aumento dos ganhos sobre o capital investido, contribuindo para o aumento do número destas cidades.\n\nA sequência correta de preenchimento dos parênteses é:",
+    "alternativas": [
+      "V - F - F – F.",
+      "F - F - F - V.",
+      "V - V - V - F.",
+      "F - V - V - V.",
+      "V - V - V – V."
+    ],
+    "correta": 3,
+    "ajuda": "As afirmativas sobre crescimento urbano devem ser analisadas com os dados do mapa. Pense em como o Brasil cresceu em cidades com mais de 500 mil habitantes e se isso ocorreu de forma concentrada ou distribuída pelo território.",
+    "comentario": "O aumento do número de cidades com mais de 500 mil habitantes no Brasil reflete a consolidação de uma rede urbana policêntrica, com múltiplos polos regionais além das tradicionais metrópoles do Sudeste. Esse crescimento se deu especialmente no Centro-Oeste, Norte e Nordeste, impulsionado pelo agronegócio e por investimentos públicos em infraestrutura. Os mapas evidenciam a interiorização e redistribuição da urbanização brasileira."
+  }
+]

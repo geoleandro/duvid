@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UDESC",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "zonas polares",
+      "clima polar",
+      "glaciologia"
+    ],
+    "pergunta": "- Analise as proposições em relação às zonas polares.\n\nI. Uma das razões do continente antártico ser mais frio, que as áreas polares do norte (Groenlândia, Alasca, etc.), é o fato de apresentar altitudes superiores às dessas áreas.\n\nII. Sobre o continente antártico existem permanentes camadas de gelo, que chegam a atingir até 2 km de espessura.\n\nIII. Na zona polar ártica existem algumas áreas habitadas por povos de tecnologia rudimentar como os esquimós e os lapões.\n\nIV. O inverno, nos dois polos, pode durar até seis meses sem sol (noite polar).\n\nV. Na Antártida os rios permanecem congelados a maior parte do ano e suas águas correm apenas em alguns meses.\n\nAssinale a alternativa correta:",
+    "alternativas": [
+      "Somente as afirmativas II e IV são verdadeiras.",
+      "somente as afirmativas I, II e V são verdadeiras.",
+      "somente as afirmativas I e III são verdadeiras.",
+      "somente a afirmativa V é verdadeira.",
+      "Todas as afirmativas são verdadeiras."
+    ],
+    "correta": 4,
+    "comentario": "A Antártica é coberta por uma calota de gelo com espessura média de 2.160 m — o que eleva sua altitude média (2.300 m) e a torna mais fria que o Ártico, onde o gelo flutua sobre o oceano (menos isolante). A Ártica é um oceano gelado; a Antártica é um continente coberto de gelo. Essa diferença é fundamental para entender as temperaturas extremas de cada polo.",
+    "ajuda": "As zonas polares apresentam características extremas: temperaturas muito baixas, pouca precipitação (são desertos frios), luz solar com incidência rasante e ausência de noite no verão polar (sol da meia-noite). Avalie cada proposição considerando essas condições."
+  },
+  {
+    "id": 2,
+    "instituicao": "FAG",
+    "ano": "2015",
+    "dificuldade": "media",
+    "tags": [
+      "Antártica",
+      "zonas polares",
+      "glaciologia"
+    ],
+    "pergunta": "A Antártica tem em torno de 14 milhões de km2 permanentemente cobertos de gelo, como um gigantesco deserto branco e muito frio. O continente Antártico rodeia o polo Sul e é o único lugar da Terra sem história, mitos ou lendas, pois jamais existiu população humana nativa. Atualmente, a população desse continente é formada por:",
+    "alternativas": [
+      "pesquisadores de todas as partes do mundo.",
+      "pesquisadores que extraem o petróleo da região.",
+      "ambientalistas que defendem a ocupação humana no continente.",
+      "nativos oriundos do polo Norte na tentativa de se adequar às mesmas condições climáticas.",
+      "refugiados de várias partes do mundo, já que na Antártica não possui leis de extradição clandestina."
+    ],
+    "correta": 0,
+    "comentario": "A Antártica não tem população permanente — apenas estações científicas de pesquisa de 30 países, com população flutuante de ~1.000 pessoas no inverno e ~5.000 no verão. É governada pelo Tratado da Antártica (1959), que a designa zona de paz e cooperação científica internacional, proibindo atividades militares e mineração. O Brasil tem a Estação Comandante Ferraz desde 1984.",
+    "ajuda": "A Antártica é um continente de gelo sobre terra firme, enquanto o Ártico é gelo flutuando sobre o oceano. O gelo antártico contém cerca de 70% da água doce do planeta. Se derretesse completamente, o nível dos mares subiria em torno de 58 metros."
+  },
+  {
+    "id": 3,
+    "instituicao": "UDESC",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "glaciologia",
+      "iceberg",
+      "zonas polares"
+    ],
+    "imagem_apoio": "1ano/img/131/p31q3.png",
+    "pergunta": "Analise as proposições sobre o iceberg.\n\nI. Iceberg são pedaços de gelo que se deslocam de geleiras.\n\nII. Mares e correntes marítimas agem sobre o gelo que fica submerso nas bordas dos continentes, movimentando-o para cima e para baixo, provocando fraturas que levam à separação do bloco de gelo, formando o iceberg.\n\nIII. O iceberg, por ser composto de água, fica metade para dentro do oceano e metade para fora. Isto acontece porque a densidade do gelo é menor que a densidade da água salgada.\n\nIV. Os icebergs são levados pelas correntes marítimas, mas seu movimento é também influenciado pelo vento que atua sobre a parte submersa.\n\nAssinale a alternativa correta.",
+    "alternativas": [
+      "Somente as afirmativas I e II são verdadeiras.",
+      "Somente as afirmativas I, III e IV são verdadeiras.",
+      "Somente as afirmativas II e IV são verdadeiras.",
+      "Somente a afirmativa II é verdadeira.",
+      "Todas as afirmativas são verdadeiras."
+    ],
+    "correta": 0,
+    "comentario": "Icebergs formam-se quando fragmentos de geleiras ou da barreira de gelo antártica se desprendem e derivam no oceano. Podem ter volumes gigantescos — o iceberg A76A (2021) tinha 4.320 km², maior que a Ilha de Maiorca. Apenas ~10% do iceberg fica acima da água (daí a expressão 'ponta do iceberg'). Com o aquecimento global, a frequência de desprendimento aumentou.",
+    "ajuda": "Os icebergs são fragmentos de geleiras que se desprendem e flutuam no mar. Como o gelo é menos denso que a água do mar, apenas cerca de 10% do iceberg fica visível acima da superfície. Avalie as afirmativas sobre sua formação, composição e deslocamento."
+  },
+  {
+    "id": 4,
+    "instituicao": "UERJ",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "aquecimento global",
+      "zonas polares",
+      "mudanças climáticas"
+    ],
+    "texto_apoio": "(NOVA) GUERRA FRIA SOBRE O ÁRTICO “Mesmo divergindo sobre as causas do fenômeno, a comunidade científica é unânime: o Ártico está derretendo. Segundo um estudo da Arctic Climate Impact Assessment (ACIA), publicado em 2004, 4.998.000 km2 de geleiras desapareceram ao longo dos últimos 30 anos.”",
+    "fonte_apoio": "Adaptado de http://diplo.uol.com.br",
+    "imagem_apoio": "1ano/img/131/p31q4.png",
+    "pergunta": "No mapa e na reportagem, apresentam-se informações que remetem a possíveis alterações na economia e na política da Região Ártica, fruto da combinação de eventos como a mundialização do capitalismo e o aquecimento global.\n\nDois significativos interesses estratégicos que podem produzir uma redefinição da geopolítica do Ártico são:",
+    "alternativas": [
+      "instalação de bases militares e monitoramento do tráfego aéreo.",
+      "aproveitamento da biodiversidade e expansão do mar territorial.",
+      "exploração de recursos minerais e controle de novas rotas marítimas.",
+      "utilização de reservas de água potável e aproveitamento da energia hidroelétrica."
+    ],
+    "correta": 2,
+    "comentario": "O derretimento do gelo ártico abre novas rotas de navegação (Passagem do Nordeste pela Sibéria e Passagem do Noroeste pelo Canadá), reduzindo significativamente distâncias entre Europa, Ásia e América. Ao mesmo tempo, expõe recursos minerais antes inacessíveis — petróleo, gás, minerais estratégicos — gerando disputas geopolíticas entre países árticos (Rússia, EUA, Noruega, Canadá, Dinamarca).",
+    "ajuda": "O mapa e a reportagem abordam mudanças na extensão do gelo polar, relacionadas ao aquecimento global. A redução do gelo ártico está vinculada ao aumento das temperaturas globais, e pode ter impactos sobre rotas marítimas, ecossistemas polares e o nível do mar."
+  },
+  {
+    "id": 5,
+    "instituicao": "UFMG",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "Antártica",
+      "zonas polares",
+      "questões ambientais"
+    ],
+    "imagem_apoio": "1ano/img/131/p31q5.png",
+    "pergunta": "Analise este mapa:\n\nA Antártida e áreas oceânicas e continentais periféricas.\n\nA partir dessa análise e considerando-se outros conhecimentos sobre o assunto, é INCORRETO afirmar que",
+    "alternativas": [
+      "a Antártida é um continente coberto por uma imensa capa de gelo de água doce, cercada de águas oceânicas, cujo equilíbrio ambiental é de interesse planetário.",
+      "a península lançada em direção à Terra do Fogo é a menos desfavorável à presença do homem na região, pois possibilitou a criação de estações permanentes de pesquisa.",
+      "a tundra, própria de climas muito frios, encontra condições favoráveis para se desenvolver amplamente nessa região e se constitui a base de uma cadeia alimentar diversificada.",
+      "o Círculo Polar Antártico limita, praticamente, o Continente à Zona Polar e, por isso, a Antártida é o mais extenso e contínuo domínio de climas polares continentais da Terra."
+    ],
+    "correta": 2,
+    "comentario": "A tundra é a formação vegetal das regiões subpolares e polares, caracterizada por ausência de árvores, domínio de musgos, liquens, gramíneas e arbustos rasteiros. Desenvolve-se em climas de tundra com verões curtos e frescos (temperatura média do mês mais quente < 10°C) e invernos rigorosos. A periferia da Antártica (ilhas subantárticas) e todo o Ártico têm tundra.",
+    "ajuda": "A Antártida tem importância geopolítica, científica e ambiental: é governada pelo Tratado da Antártica (1959), que proíbe atividades militares e mineração; abriga estações de pesquisa científica de vários países; e é fundamental para a regulação climática global."
+  },
+  {
+    "id": 6,
+    "instituicao": "FDF",
+    "ano": "2013",
+    "dificuldade": "media",
+    "tags": [
+      "aquecimento global",
+      "zonas polares",
+      "mudanças climáticas"
+    ],
+    "pergunta": "Com as ameaças de risco ecológico e as polêmicas que cercam o tema do aquecimento global, são recorrentes as referências às zonas polares do planeta. Afinal elas são as zonas mais frias do globo e os sinais do aquecimento seriam mais facilmente notados nelas. A respeito das características dessas zonas, é correto afirmar que",
+    "alternativas": [
+      "banquisas se formam nas áreas continentais enquanto os glaciares se formam nos oceanos, e por isso, deles (os glaciares) se desprendem os icebergs.",
+      "os icebergs são fenômenos da Zona Polar Sul e se constituem de blocos de água salgada congelada que se desprendem das banquisas dessa área do planeta.",
+      "banquisa quer dizer gelo continental e, por isso, esse elemento é o principal constituinte da calota polar Sul.",
+      "a Zona Polar Norte tem maior predomínio das banquisas, que correspondem ao congelamento das águas salgadas dos mares e oceanos.",
+      "geleiras (ou glaciares) correspondem ao congelamento das águas salgadas ( 2º C), e são densas estruturas de gelo que dominam a paisagem da Zona Polar Norte.a"
+    ],
+    "correta": 3,
+    "comentario": "A Zona Polar Norte (Ártico) é predominantemente oceânica — o Oceano Ártico coberto de gelo marinho (banquisa), com apenas algumas ilhas e a faixa costeira dos continentes. A banquisa é gelo de água salgada que flutua; é diferente das geleiras, que são gelo de água doce que se formam em terra. Com o aquecimento global, a extensão da banquisa ártica diminui drasticamente.",
+    "ajuda": "O aquecimento global ameaça os ecossistemas polares por meio do derretimento do gelo, da elevação do nível do mar e da alteração dos padrões de circulação oceânica. Identifique qual risco ecológico específico está sendo discutido e qual é a posição do texto sobre o tema."
+  },
+  {
+    "id": 7,
+    "instituicao": "UECE",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "zonas polares",
+      "clima polar",
+      "Ártico"
+    ],
+    "imagem_apoio": "1ano/img/131/p31q7.png",
+    "pergunta": "Nas regiões de altas latitudes e próximas ao Círculo Polar Ártico, os horizontes superficiais do solo permanecem gelados. É comum, durante poucos meses do ano, a ocorrência de um tipo de vegetação de pequeno porte e que é constituído, basicamente, por musgos e liquens. Assinale a alternativa que contém essa vegetação.",
+    "alternativas": [
+      "Estepe.",
+      "Araucárias.",
+      "Tundra.",
+      "Campos cerrados."
+    ],
+    "correta": 2,
+    "comentario": "A tundra é a formação vegetal das regiões circumpolares do hemisfério norte, onde o permafrost (solo permanentemente congelado) impede o crescimento de árvores. Musgos, liquens, gramíneas e pequenos arbustos dominam a paisagem. Com o aquecimento global, a tundra está 'arborizando' — arbustos e árvores baixas avançam para latitudes antes inacessíveis.",
+    "ajuda": "Nas regiões de altas latitudes, o permafrost é uma camada de solo permanentemente congelada que impede a drenagem da água e a decomposição da matéria orgânica. Seu derretimento, causado pelo aquecimento global, libera metano (CH₄), um potente gás de efeito estufa."
+  },
+  {
+    "id": 8,
+    "instituicao": "",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "Antártica",
+      "tratado da Antártica",
+      "geopolítica"
+    ],
+    "pergunta": "Com base no Tratado da Antártica, assinale a alternativa correta:",
+    "alternativas": [
+      "pretensão de posse sobre partes de seu território, como os geograficamente próximos do continente (Argentina, Austrália e Chile, por exemplo), mas, também, por países distantes (como França e Reino Unido). Esse tratado expirou em 2012.",
+      "Entre suas principais determinações, estão a utilização da Antártica para fins pacíficos, a liberdade para a investigação científica, a promoção da cooperação científica e da transparência dos resultados obtidos, a renúncia a qualquer disputa sobre a soberania territorial no continente, porém operações e bases militares são permitidas no continente.",
+      "Atualmente, o Tratado Antártico está sendo revisto para que os países que possuem bases científicas no continente possam explorá-lo devido à grande abundância de petróleo e gás natural.",
+      "Atualmente a Antártica possui um grande depósito de lixo radioativo, isto só é permitido porque a região não é habitada.",
+      "Além das questões de ordem territorial e política, o Tratado da Antártica também dispõe sobre questões relativas à conservação ambiental do continente. Entre suas resoluções, destacam-se a proibição de testes nucleares e descarte de resíduos radioativos, a proibição de toda a atividade comercial de recursos minerais e a exigência de Estudo de Impacto Ambiental (EIA) de todas as atividades desenvolvidas no continente."
+    ],
+    "correta": 4,
+    "comentario": "O Tratado da Antártica (1959) é um dos mais bem-sucedidos acordos internacionais: proíbe atividades militares, testes nucleares e disposição de resíduos radioativos; preserva a liberdade de pesquisa científica e garante o intercâmbio de dados. O Protocolo de Madri (1991) adicionou a proteção ambiental, proibindo a mineração por 50 anos (revisável em 2048).",
+    "ajuda": "O Tratado da Antártica (1959) estabelece que o continente deve ser usado apenas para fins pacíficos e científicos, proibindo testes nucleares e depósito de resíduos radioativos. Avalie cada alternativa com base nas disposições desse tratado."
+  },
+  {
+    "id": 9,
+    "instituicao": "UEPB",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "tipos climáticos mundiais",
+      "faixas climáticas",
+      "clima polar"
+    ],
+    "pergunta": "Associe as faixas climáticas do globo, apresentadas na coluna 1 às suas respectivas características, descritas na coluna 2.\n\nA sequência correta das assertivas é:",
+    "alternativas": [
+      "4 2 3 1.",
+      "3 1 4 2.",
+      "2 1 4 3.",
+      "3 4 2 1.",
+      "1 3 2 4."
+    ],
+    "correta": 1,
+    "comentario": "As faixas climáticas globais correlacionam-se com a latitude: zona equatorial (chuvas abundantes, temperatura alta constante), zona tropical (alternância seca/chuva), zona temperada (quatro estações definidas), zona polar (frios extremos, gelo permanente). Cada zona tem características de temperatura, pressão e precipitação distintas que moldam os biomas e as atividades humanas.",
+    "ajuda": "As faixas climáticas do globo se dividem em: tropical (entre os trópicos, quente), subtropical, temperada, subpolar e polar. Associe cada faixa às suas características de temperatura, precipitação e vegetação."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFF",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "Antártica",
+      "zonas polares",
+      "biodiversidade"
+    ],
+    "pergunta": "A Antártida é um continente gelado de aproximadamente 14.000.000 km². Lá não existem cidades, indústrias ou campos agricultáveis, porém muitos países reivindicam parcelas do seu território.\n\nTal fato pode ser explicado porque:",
+    "alternativas": [
+      "A posição da Antártida no extremo do Hemisfério Norte é ideal para localização de bases militares para o controle do Oceano Atlântico.",
+      "O buraco na camada de ozônio sobre o continente antártico é alvo de preocupações e exige rigoroso controle ambiental.",
+      "A grossa camada de gelo que encobre as terras da Antártida é um depósito natural e seguro para os resíduos radiativos de usinas nucleares.",
+      "No subsolo da Antártida constatou-se a presença de jazidas de minerais estratégicos, especialmente carvão e petróleo.",
+      "No ano 2.000 entra em vigor o “Tratado Antártico”, que prevê a instalação de bases militares e expedições colonizadoras na Antártida."
+    ],
+    "correta": 3,
+    "comentario": "O subsolo antártico contém importantes reservas de minerais estratégicos — carvão, petróleo, gás natural, ferro, cobre, ouro e urânio. A exploração é proibida pelo Protocolo ao Tratado da Antártica até 2048 (revisável). A perspectiva de mineração futura impulsiona interesses geopolíticos de países com reclamações territoriais — Chile, Argentina, Noruega, Austrália e Reino Unido.",
+    "ajuda": "A Antártida é o continente mais frio, mais seco e mais ventoso do planeta. Sua temperatura média é de -57°C no interior e sua cobertura de gelo tem até 4.776 metros de espessura. O Tratado da Antártica regula sua gestão internacional desde 1959."
+  }
+]

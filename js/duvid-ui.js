@@ -3,9 +3,16 @@ const DuvidUI = {
     // 2. ATUALIZAÇÃO DO SALDO (HEADER E HOME)
     atualizarInterface: function () {
         const progresso = DuvidDB.getProgressoRPG();
-        const saldoFormatado = progresso.saldoAtual.toFixed(1);
+        const saldoFormatado = Math.floor(progresso.saldoAtual).toString();
 
         this.atualizarMedalhas(progresso.patente);
+
+        // 0. Mostra o painel se o aluno já tem nome (estava oculto por padrão)
+        const painel = document.getElementById("painel-pontos");
+        if (painel && DuvidDB.getNome()) {
+            painel.classList.remove('w3-hide');
+            painel.style.display = 'flex';
+        }
 
         // 1. Atualiza Header (Globinhos Dourados)
         const elHeader = document.getElementById("saldoTotalHeader");
@@ -21,7 +28,7 @@ const DuvidUI = {
         const elNota = document.getElementById("notaFixa");
         if (elNota) {
             let valorAula = (typeof window.ganhosAtuais !== 'undefined') ? window.ganhosAtuais : 0;
-            elNota.innerText = Number(valorAula).toFixed(1);
+            elNota.innerText = Math.floor(Number(valorAula)).toString();
         }
 
         // Se estiver na Home, dispara a atualização do Painel RPG
@@ -264,8 +271,8 @@ const DuvidUI = {
             painelPontos.classList.add('pulo-elastico');
         }
 
-        // // 3. Atualiza os números na tela
-        // this.atualizarInterface();
+       
+        // atualizarInterface();
     },
 
     feedbackVisualErro: function () {
@@ -367,9 +374,9 @@ const DuvidUI = {
         });
     },
 
-    executarGatilhoResultado: function (correto, pontos = 0) {
+    executarGatilhoResultado: function (correto, pontos = 0, opcoes = {}) {
         if (correto) {
-            playSom('acerto');
+            if (!opcoes.semSomAcerto) playSom('acerto');
             this.dispararComemoracao();   // ← usa o método do objeto, não a global
             this.feedbackVisualAcerto();  // ← só giro + pulo, sem confete
             this.mostrarXPFlutuante(pontos, true);  // << NOVO
@@ -383,7 +390,7 @@ const DuvidUI = {
         }
     },
 
-exibirModalSimulado: function (passou, acertos, total, ganhouBonus = false) {
+exibirModalSimulado: function (passou, acertos, total, ganhouBonus = false, totalErros = 0) {
     const modal = document.getElementById('id01');
     if (!modal) return;
 
@@ -427,10 +434,17 @@ exibirModalSimulado: function (passou, acertos, total, ganhouBonus = false) {
         if (typeof playSomFinal === "function") playSomFinal(false);
     }
 
-    // Botão de tentar novamente — só aparece se não passou
+    // Botão de refazer — só aparece se não passou
     const btnTentar = document.getElementById('btn-tentar-novamente');
-    if (btnTentar) {
-        btnTentar.style.display = passou ? 'none' : 'block';
+    if (btnTentar) btnTentar.style.display = passou ? 'none' : 'block';
+
+    // Botão de revisão — aparece sempre que tiver erros (passou ou não)
+    const btnRevisao = document.getElementById('btn-revisao-erros');
+    if (btnRevisao) {
+        btnRevisao.style.display = totalErros > 0 ? 'block' : 'none';
+        if (totalErros > 0) {
+            btnRevisao.innerHTML = `📋 REVISAR OS ${totalErros} ERRO${totalErros > 1 ? 'S' : ''}`;
+        }
     }
 
     modal.style.display = 'block';
@@ -576,12 +590,9 @@ async function configurarSEOAutomatico(id, tipo = 'texto') {
 
 
     try {
-        // Caminho relativo à raiz do projeto — duvidUrl() prefixa a base correta
-        // (resolve para /duvid/js/... quando o site mora em /duvid/, ou /js/...
-        // quando o site está na raiz).
-        const caminhoJson = (typeof duvidUrl === "function")
-            ? duvidUrl(`js/aulas-${ano}ano.json`)
-            : `js/aulas-${ano}ano.json`;
+        // CORREÇÃO AQUI: Use crases (atrás do P no teclado) e verifique o caminho
+        // Se o arquivo estiver em /js/aulas-1ano.json, o caminho abaixo está correto
+        const caminhoJson = `/js/aulas-${ano}ano.json`;
 
         const res = await fetch(caminhoJson);
 
@@ -669,4 +680,4 @@ function avisoSelecaoPendente(btn) {
 }
 function executarGatilhoResultado(c, p) {
     DuvidUI.executarGatilhoResultado(c, p);
-}
+}

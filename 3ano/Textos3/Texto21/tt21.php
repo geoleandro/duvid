@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>3º ano - Texto 21 - América do Norte: Canadá e México.</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula anterior vimos o pode militar, político, econômico e cultural dos Estados Unidos. </p>
+
+
+        <p>Na aula de hoje vamos estudar o bloco econômico USMCA e as características dos países vizinhos à essa grande potência: México e Canadá. </p>
+
+
+
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+            
+            <h3>1. O que levou à substituição do NAFTA pelo USMCA e quais foram as principais áreas de atualização?</h3>
+            <h3>2. Como o USMCA busca proteger o meio ambiente entre os países signatários?</h3>
+            <h3>3. Explique como o USMCA influencia a regionalização da produção na América do Norte.</h3>
+            <h3>4. Quais são os principais desafios geopolíticos que o USMCA enfrenta?</h3>
+            <h3>5. Descreva as características climáticas do Canadá e como isso afeta a distribuição da população.</h3>
+            <h3>6. Qual a importância dos recursos hídricos para a economia canadense consoante ao território do país?</h3>
+            <h3>7. Explique a importância das indústrias maquiladoras para a economia mexicana.</h3>
+            <h3>8. Qual é o papel das comunidades indígenas na história e na sociedade contemporânea do México?</h3>
+            <h3>9. Como a geografia influencia as relações comerciais entre México e Estados Unidos?</h3>
+            <h3>10. Discuta as implicações do referendo de 1995 sobre a independência de Quebec e seu impacto na política canadense.</h3>
+        </div>
+        
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+<div class="topico">
+        <h2>Introdução ao USMCA (antigo NAFTA)</h2>
+
+        <div class="w3-margin"><img id="imagem1" src="tt21f01.png" alt="tt21f01" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao1" > </span>
+           
+           </div>
+    
+    
+        <p>O USMCA (Acordo Estados Unidos-México-Canadá), que substituiu o NAFTA, é um tratado de livre comércio que regula as relações econômicas entre os três países da América do Norte: Canadá, Estados Unidos e México. Ele foi assinado em 30 de novembro de 2018 e entrou em vigor em 1º de julho de 2020, após longas negociações que buscaram modernizar o NAFTA, que estava em vigor desde 1994. O USMCA atualiza as regras comerciais para refletir as mudanças econômicas e tecnológicas das últimas décadas, abordando questões como comércio digital, proteção ambiental, direitos trabalhistas e propriedade intelectual.</p>
+    
+        <p><strong>Aspectos Econômicos e Comerciais</strong><br>
+        Comércio Digital: O USMCA inclui pela primeira vez capítulos específicos sobre o comércio digital, estabelecendo regras para o livre fluxo de dados entre os países, a proteção de informações pessoais e a eliminação de barreiras desnecessárias ao comércio eletrônico.<br>
+        Proteção ao Meio Ambiente: O acordo reforça os compromissos ambientais, exigindo que os países signatários mantenham padrões de proteção ambiental e incentivem práticas comerciais sustentáveis. Isso inclui o combate ao comércio ilegal de espécies selvagens e a pesca não regulamentada.<br>
+        Direitos Trabalhistas: O USMCA introduz regras mais rígidas sobre direitos trabalhistas, especialmente no México, onde as novas normas visam melhorar as condições de trabalho e aumentar os salários. Isso foi visto como uma tentativa de reduzir a disparidade entre os salários no México e nos Estados Unidos e Canadá.</p>
+    
+        <p><strong>Impacto Geográfico</strong><br>
+        Regionalização da Produção: O USMCA incentiva uma maior regionalização da produção na América do Norte, com regras de origem mais rígidas para a fabricação de automóveis. Agora, para que os automóveis se qualifiquem para isenção de tarifas, 75% de seus componentes devem ser fabricados na região, um aumento em relação aos 62,5% exigidos pelo NAFTA.<br>
+        Integração das Cadeias Produtivas: A proximidade geográfica entre os três países facilita a integração das cadeias produtivas. Por exemplo, é comum que peças de um automóvel cruzem as fronteiras diversas vezes durante o processo de fabricação, aproveitando as especializações regionais.<br>
+        Desenvolvimento das Regiões Fronteiriças: A zona fronteiriça entre os Estados Unidos e o México, em particular, se tornou um importante corredor de comércio e produção. Cidades como Tijuana, Ciudad Juárez e Monterrey no México, e San Diego, El Paso e Laredo nos EUA, desempenham papéis cruciais na logística e manufatura de produtos exportados para os Estados Unidos e Canadá.</p>
+    
+        <p><strong>Fato Interessante</strong><br>
+        Sob o NAFTA, o comércio entre os três países triplicou, tornando a América do Norte uma das regiões mais integradas economicamente no mundo. Em termos geográficos, isso levou ao desenvolvimento de infraestruturas de transporte sofisticadas, como rodovias, ferrovias e portos que facilitam o movimento eficiente de mercadorias através das fronteiras. A integração econômica também promoveu o crescimento de cidades e regiões transfronteiriças, que agora dependem fortemente do comércio internacional.</p>
+    
+        <p><strong>Considerações Geopolíticas</strong><br>
+        Dependência Mútua: Embora o USMCA tenha reforçado a interdependência econômica entre os três países, ele também destacou suas diferenças e tensões. O acordo é visto como uma forma de equilibrar essas relações, mas as disputas sobre tarifas, subsídios agrícolas e políticas ambientais permanecem, refletindo as complexas dinâmicas geopolíticas da região.<br>
+        Impacto na Soberania: Para o México e o Canadá, uma preocupação persistente é o impacto do acordo na soberania nacional, especialmente no que diz respeito à capacidade de implementar políticas econômicas e ambientais que possam divergir das expectativas dos Estados Unidos, a maior economia do bloco.<br>
+        O USMCA é, portanto, não apenas um acordo comercial, mas também um mecanismo que molda as relações econômicas e políticas na América do Norte, com implicações significativas para a geografia econômica da região.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+        <div class="w3-pale-green">
+        <h2>Canadá: Aspectos Gerais</h2>
+
+        <div class="w3-margin"><img id="imagem3" src="tt21f03.png" alt="tt21f03" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao3" > Fonte: Organizado pelo autor. </span>
+            
+            </div>
+    
+        <p><strong>Clima e Vegetação</strong><br>
+        O Canadá, o segundo maior país do mundo em área territorial, é famoso por seu clima variado, que vai desde as regiões árticas no norte até climas mais temperados no sul. A maior parte do território canadense está localizada em zonas de clima subártico e polar, onde as temperaturas no inverno podem cair abaixo de -30°C, especialmente nas províncias do norte e nos Territórios do Noroeste, Yukon e Nunavut. As florestas boreais, compostas principalmente de coníferas, dominam grande parte da paisagem canadense, sendo uma das maiores reservas de florestas contínuas do mundo. Já nas regiões mais ao sul, como nas províncias de Ontário e Quebec, o clima é temperado, com verões mais quentes e invernos menos rigorosos, permitindo uma vegetação mais diversificada, incluindo florestas temperadas decíduas.</p>
+    
+        <p><strong>Fato Interessante:</strong> A maior parte da população canadense vive perto da fronteira com os EUA, onde o clima é mais ameno e as condições para agricultura e habitação são mais favoráveis. Cerca de 75% dos canadenses vivem a menos de 150 km da fronteira com os Estados Unidos, concentrados principalmente nas regiões metropolitanas de Toronto, Montreal e Vancouver.</p>
+    
+        <p><strong>Hidrografia</strong><br>
+        O Canadá possui uma das maiores reservas de água doce do mundo, abrigando cerca de 20% de toda a água doce do planeta. A rede hidrográfica canadense é composta por milhares de lagos, rios e cursos d'água que desempenham um papel crucial na economia e na ecologia do país. Os Grandes Lagos, localizados na fronteira entre o Canadá e os Estados Unidos, são uma das maiores e mais importantes bacias de água doce do mundo. O Rio São Lourenço, que conecta os Grandes Lagos ao Oceano Atlântico, é uma importante via de transporte e comércio, especialmente para a província de Quebec e a região dos Grandes Lagos.</p>
+    
+        <p><strong>Fato Interessante:</strong> O Lago Superior, parte dos Grandes Lagos, é o maior lago de água doce do mundo em termos de área e contém 10% da água doce superficial do mundo.</p>
+
+        <div class="w3-margin"><img id="imagem2" src="tt21f02.png" alt="tt21f02" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2"> </span>
+        </div>
+	   
+    
+        <p><strong>Economia</strong><br>
+        A economia canadense é altamente diversificada, com uma forte presença de setores baseados em recursos naturais, como mineração, petróleo e gás. As províncias de Alberta, Saskatchewan e Terra Nova e Labrador são ricas em recursos energéticos, incluindo petróleo, gás natural e areias betuminosas. O Canadá também é um dos maiores produtores e exportadores de madeira e papel, com vastas florestas que sustentam essa indústria.</p>
+    
+        <p>Além dos recursos naturais, o Canadá tem uma economia moderna e desenvolvida, com setores como tecnologia da informação, biotecnologia, manufatura e serviços financeiros desempenhando papéis importantes. A cidade de Toronto, em Ontário, é o maior centro financeiro do país e uma das principais cidades globais no setor financeiro.</p>
+    
+        <p><strong>Fato Interessante:</strong> O Canadá é o quinto maior produtor mundial de petróleo, com grande parte de sua produção proveniente das areias betuminosas de Alberta. Apesar de sua grande dependência da indústria de recursos naturais, o Canadá tem feito esforços significativos para diversificar sua economia e investir em tecnologias verdes.</p>
+    
+        <p><strong>Cultura e Multiculturalismo</strong><br>
+        O Canadá é amplamente reconhecido por sua política de multiculturalismo, que foi oficialmente adotada em 1971. Essa política reflete o compromisso do país em reconhecer e celebrar a diversidade cultural, incentivando a integração das comunidades étnicas sem forçá-las a abandonar suas identidades culturais. Toronto, a maior cidade do Canadá, é um exemplo vivo dessa diversidade, com mais de 50% de sua população nascida fora do país e centenas de idiomas sendo falados em suas ruas.</p>
+    
+        <p><strong>Fato Interessante:</strong> Em 1971, o Canadá se tornou o primeiro país do mundo a adotar oficialmente uma política de multiculturalismo. Isso foi um marco na história do país, promovendo uma visão inclusiva e diversa da sociedade canadense.</p>
+    
+        <p><strong>A Questão do Quebec</strong><br>
+        O Quebec é a única província canadense com uma população majoritariamente francófona, e sua forte identidade cultural e linguística tem sido uma fonte de tensões políticas ao longo da história canadense. Desde a década de 1960, o movimento separatista em Quebec tem lutado pela independência da província, argumentando que a cultura e a língua francesa devem ser protegidas e promovidas de forma mais autônoma do resto do Canadá.</p>
+    
+        <p>Em 1995, o Quebec realizou um referendo sobre a independência, que foi rejeitada por uma margem extremamente estreita, com 50,58% dos votos contra a separação. Desde então, o movimento separatista perdeu força, mas a questão da identidade quebequense continua a ser um tema central na política da província.</p>
+    
+        <p><strong>Fato Interessante:</strong> Em 1995, o referendo sobre a independência de Quebec foi rejeitado por apenas 54.288 votos, de um total de mais de 7,5 milhões de votos, destacando a profunda divisão na província sobre a questão.</p>
+    
+        <p><strong>Considerações Finais</strong><br>
+        O Canadá, com seu vasto território e diversidade cultural, é um país de contrastes geográficos e sociais. Desde as geladas tundras do norte até as movimentadas metrópoles do sul, o país oferece uma rica tapeçaria de paisagens e culturas. A questão do Quebec e a política de multiculturalismo são exemplos de como o Canadá navega as complexidades de sua identidade nacional em um mundo globalizado.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+
+        <h2>México: Aspectos Gerais</h2>
+
+        <div class="w3-margin"><img id="imagem4" src="tt21f04.png" alt="tt21f04" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao4" >  </span>
+            
+            </div>
+    
+        <p><strong>Economia</strong><br>
+        O México possui uma economia mista, sendo a 15ª maior economia do mundo em termos de PIB nominal. O país combina setores industriais avançados com uma significativa produção agrícola. A economia mexicana é altamente diversificada, com indústrias que vão desde a manufatura de automóveis e eletrônicos até a produção de alimentos e têxteis. A agricultura também desempenha um papel importante, especialmente na produção de milho, abacate, frutas cítricas e café, produtos que são exportados para diversos países.</p>
+    
+        <p>O México é um dos maiores produtores de petróleo do mundo, com reservas significativas localizadas principalmente no Golfo do México. A estatal Pemex, Petróleos Mexicanos, é a maior empresa do país e desempenha um papel crucial na economia, embora o setor tenha enfrentado desafios nos últimos anos devido à queda nos preços do petróleo e à necessidade de modernização.</p>
+    
+        <p><strong>Fato Interessante:</strong> O México é o maior exportador mundial de abacates, com a maior parte das exportações indo para os Estados Unidos. A demanda por abacates aumentou significativamente nos últimos anos, impulsionada pela popularidade do guacamole e por tendências alimentares saudáveis.</p>
+    
+        <p><strong>Indústrias Maquiladoras</strong><br>
+        As indústrias maquiladoras são um dos pilares da economia mexicana, especialmente nas regiões fronteiriças com os Estados Unidos. Essas fábricas de montagem operam sob um regime especial que permite a importação de matérias-primas e componentes isentos de impostos, desde que os produtos finais sejam exportados. As maquiladoras estão concentradas em cidades como Tijuana, Ciudad Juárez e Matamoros, que se beneficiam da proximidade com o mercado dos Estados Unidos.</p>
+    
+        <p>Essas indústrias empregam milhões de trabalhadores mexicanos e são responsáveis por uma parte significativa das exportações do país. Elas produzem uma vasta gama de bens, incluindo eletrônicos, automóveis, roupas e produtos médicos.</p>
+    
+        <p><strong>Fato Interessante:</strong> Em 2022, as maquiladoras representaram cerca de 50% das exportações mexicanas, destacando a importância desse setor para a economia nacional.</p>
+    
+        <p><strong>Questão Indígena</strong><br>
+        O México tem uma herança indígena rica e diversificada, com mais de 60 grupos indígenas reconhecidos oficialmente, incluindo os maias, nahuas, zapotecas e mixtecas. Estes povos têm desempenhado papéis fundamentais na história do México, contribuindo para sua cultura, língua e tradições.</p>
+    
+        <p>No entanto, as comunidades indígenas têm enfrentado desafios significativos, incluindo a marginalização social, a falta de acesso a serviços básicos e a perda de terras ancestrais. Muitos movimentos indígenas têm se mobilizado para defender seus direitos e buscar reconhecimento e justiça social.</p>
+    
+        <p>O Exército Zapatista de Libertação Nacional (EZLN), um dos movimentos indígenas mais conhecidos, surgiu em 1994 no estado de Chiapas. Os zapatistas, liderados pelo Subcomandante Marcos (agora conhecido como Subcomandante Galeano), se opuseram ao NAFTA e exigiram a autonomia indígena, direitos à terra e a proteção de suas culturas.</p>
+    
+        <p><strong>Fato Interessante:</strong> O levante zapatista em 1994 coincidiu com a entrada em vigor do NAFTA, e trouxe atenção internacional para as questões indígenas e as desigualdades sociais no México.</p>
+    
+        <p><strong>Fronteiras</strong><br>
+        A fronteira entre México e Estados Unidos, que se estende por cerca de 3.145 km, é uma das mais movimentadas e politicamente sensíveis do mundo. A fronteira é uma região complexa, marcada por intensas atividades comerciais e por desafios relacionados à migração, tráfico de drogas e segurança.</p>
+    
+        <p>Milhões de pessoas atravessam legalmente a fronteira todos os anos para trabalhar, estudar ou fazer compras. No entanto, a migração ilegal e o tráfico de drogas são problemas persistentes, que têm gerado tensões políticas entre os dois países. A construção de muros e barreiras físicas ao longo da fronteira, especialmente durante a administração do ex-presidente dos EUA Donald Trump, tem sido um ponto de controvérsia e debate internacional.</p>
+    
+        <p><strong>Fato Interessante:</strong> A cidade de Tijuana, na fronteira com San Diego, Califórnia, é um dos pontos de entrada mais movimentados do mundo, com milhões de cruzamentos legais registrados anualmente.</p>
+    
+        <p><strong>Considerações Finais</strong><br>
+        O México é um país de contrastes, onde a modernidade industrial coexiste com uma rica herança cultural indígena. As indústrias maquiladoras e o setor de petróleo são vitais para a economia, mas as questões sociais e políticas, como os direitos indígenas e a segurança nas fronteiras, continuam a ser desafios significativos. A história e a geografia do México moldam suas complexas dinâmicas sociais e econômicas, fazendo do país um estudo fascinante das interações entre tradição e modernidade.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+        </div>
+
+    </div>
+
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-bottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+</html>

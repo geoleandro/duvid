@@ -1,0 +1,237 @@
+[
+  {
+    "id": 1,
+    "instituicao": "ENEM",
+    "ano": "2019",
+    "dificuldade": "media",
+    "tags": [
+      "bônus demográfico",
+      "estrutura etária",
+      "crescimento econômico",
+      "demografia"
+    ],
+    "fonte_apoio": "GOIS, A. O Globo, 5 abr. 2015 (adaptado).",
+    "pergunta": "O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutura populacional fica favorável ao crescimento econômico. Isso acontece porque há proporcionalmente menos crianças na população, e o percentual de idosos ainda não é alto.\n\nA ação estatal que contribui para o aproveitamento do bônus demográfico é o estímulo à:",
+    "alternativas": [
+      "atração de imigrantes.",
+      "elevação da carga tributária.",
+      "qualificação da mão de obra.",
+      "admissão de exilados políticos.",
+      "concessão de aposentadorias."
+    ],
+    "correta": 2,
+    "comentario": "O bônus demográfico representa uma janela de oportunidade econômica: quando a proporção de pessoas em idade ativa supera a de dependentes, o país pode investir mais em saúde, educação e infraestrutura. Para aproveitar essa janela, o Estado precisa qualificar essa força de trabalho — caso contrário, o potencial se perde em desemprego.",
+    "ajuda": "O bônus demográfico ocorre quando a população em idade ativa supera a inativa. Pense em qual condição esse grupo mais numeroso precisa reunir para efetivamente impulsionar a economia e não apenas aumentar os índices de desemprego."
+  },
+  {
+    "id": 2,
+    "instituicao": "ENEM",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "transição demográfica",
+      "natalidade",
+      "Europa",
+      "fecundidade"
+    ],
+    "texto_apoio": "“Os países industriais adotaram uma concepção diferente das relações familiares e do lugar da fecundidade na vida familiar e social. A preocupação de garantir uma transmissão integral das vantagens econômicas e sociais adquiridas tem como resultado uma ação voluntária de limitação do número de nascimentos”.",
+    "fonte_apoio": "GEORGE, P. Panorama do mundo atual. São Paulo: Difusão Europeia do Livro, 1968 (adaptado).",
+    "pergunta": "Em meados do século XX, o fenômeno social descrito contribuiu para o processo europeu de:",
+    "alternativas": [
+      "estabilização da pirâmide etária.",
+      "conclusão da transição demográfica.",
+      "contenção da entrada de imigrantes.",
+      "elevação do crescimento vegetativo.",
+      "formação de espaços superpovoados."
+    ],
+    "correta": 1,
+    "comentario": "A transição demográfica na Europa do pós-guerra foi marcada pela queda da natalidade entre famílias burguesas que limitavam voluntariamente o número de filhos para manter o padrão de vida. Esse processo contribuiu para completar a transição demográfica europeia, com pirâmides etárias cada vez mais envelhecidas.",
+    "ajuda": "No pós-Segunda Guerra, a Europa precisou reconstruir sua economia e suprir a falta de mão de obra. Pense em que fenômeno demográfico isso provocou no continente europeu nas décadas de 1950 e 1960."
+  },
+  {
+    "id": 3,
+    "instituicao": "UNESP",
+    "ano": "2011",
+    "dificuldade": "media",
+    "tags": [
+      "crescimento populacional",
+      "pirâmide etária",
+      "projeção demográfica",
+      "continentes"
+    ],
+    "imagem_apoio": "3ano/img/302/t2q3.png",
+    "pergunta": "Analise o gráfico sobre a evolução ocorrida e a perspectiva de crescimento da população mundial no período de 1950 a 2050.\n\nPopulação, 1950-2050\n\nA partir da análise do gráfico, pode-se afirmar que",
+    "alternativas": [
+      "a população da América do Norte apresenta um expressivo crescimento populacional no período de 1950 a 2050, superando a taxa de crescimento da África.",
+      "a Ásia apresenta o maior total absoluto da população mundial, mas perde para a Oceania no ritmo do crescimento populacional em termos relativos, em todo o período analisado.",
+      "a Europa, no período de 2005 a 2050, projeta um crescimento negativo, com índices que mostram uma redução populacional.",
+      "a África apresenta o menor crescimento em termos absolutos no período de 1950 a 2050, perdendo sua posição de segunda colocada entre as regiões mais populosas do mundo.",
+      "a América do Norte apresenta o maior crescimento populacional em termos absolutos no período de 1950 a 2050 e é mais populosa do que a América Latina e Caribe."
+    ],
+    "correta": 2,
+    "comentario": "A Ásia concentra mais da metade da população mundial, o que garante seu domínio absoluto no ranking das maiores aglomerações urbanas. Em contrapartida, a Europa apresenta tendência de estagnação e possível declínio populacional a partir de 2030, reflexo do envelhecimento e das baixas taxas de natalidade.",
+    "ajuda": "Ao analisar gráficos populacionais, diferencie crescimento absoluto (total de pessoas) de crescimento relativo (porcentual). A Europa envelhece e pode até perder população, enquanto a África e a Ásia ainda crescem aceleradamente."
+  },
+  {
+    "id": 4,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "facil",
+    "tags": [
+      "envelhecimento populacional",
+      "pirâmide etária",
+      "mercado de trabalho"
+    ],
+    "imagem_apoio": "3ano/img/302/t2q4.png",
+    "pergunta": "Uma consequência socioeconômica para os países que vivenciam o fenômeno demográfico ilustrado é a diminuição da:",
+    "alternativas": [
+      "oferta de mão de obra nacional.",
+      "média de expectativa de vida.",
+      "disponibilidade de serviços de saúde.",
+      "despesa de natureza previdenciária.",
+      "imigração de trabalhadores qualificados."
+    ],
+    "correta": 0,
+    "comentario": "Quando a natalidade cai, a proporção de jovens que entram no mercado de trabalho diminui progressivamente. Em países como Japão e Alemanha, essa realidade já gera escassez de mão de obra e pressão sobre o sistema previdenciário, pois há menos trabalhadores ativos sustentando mais aposentados.",
+    "ajuda": "Quando a natalidade cai, a pirâmide etária de um país tende a inverter-se, com menos jovens e mais idosos. Pense em quais consequências socioeconômicas isso gera, especialmente no mercado de trabalho e na previdência social."
+  },
+  {
+    "id": 5,
+    "instituicao": "FTD",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "PEA",
+      "população economicamente ativa",
+      "estrutura ocupacional"
+    ],
+    "imagem_apoio": "3ano/img/302/t2q5.png",
+    "pergunta": "Analisando os dados apresentados no gráfico, fica evidente que a população mundial:",
+    "alternativas": [
+      "possui pelo menos 20% de seu total fora da PEA (População Economicamente Ativa).",
+      "está concentrada em atividades primárias.",
+      "atua predominantemente em atividades informais.",
+      "está concentrada em profissões que exigem altíssima qualificação.",
+      "de agricultores é maior do que a de jovens fora da PEA."
+    ],
+    "correta": 0,
+    "comentario": "A PEA (População Economicamente Ativa) inclui todas as pessoas em idade de trabalhar, mas uma fatia significativa — jovens, idosos e desempregados — está fora dela. O gráfico revela que pelo menos 20% da população mundial não integra a PEA, refletindo as desigualdades nas estruturas etárias entre continentes.",
+    "ajuda": "A PEA (População Economicamente Ativa) é o grupo que está trabalhando ou procurando emprego. Ao analisar gráficos sobre estrutura etária e ocupação, observe se a maior fatia está em atividades formais, informais ou fora do mercado de trabalho."
+  },
+  {
+    "id": 6,
+    "instituicao": "UFTM",
+    "ano": "2010",
+    "dificuldade": "media",
+    "tags": [
+      "transição demográfica",
+      "natalidade",
+      "mortalidade",
+      "crescimento vegetativo"
+    ],
+    "imagem_apoio": "3ano/img/302/t2q6.png",
+    "pergunta": "Considere o gráfico.\n\nFases da transição demográfica\n\nConsidere as afirmações\n\nI. A primeira fase de transição demográfica é marcada pelo rápido crescimento da população, como consequência da queda da mortalidade e manutenção das elevadas taxas de natalidade.\n\nII. A segunda fase caracteriza-se pela diminuição das taxas de fecundidade, provocando queda da taxa de natalidade mais acentuada que a de mortalidade e diminuindo o ritmo de crescimento da população.\n\nIII. A terceira fase, encontrada em diversos países europeus, é denominada de fase de estabilização demográfica.\n\nIV. O Brasil ainda se encontra na primeira fase da transição demográfica, apesar das melhorias das condições médico-sanitárias.\n\nEstá CORRETO apenas o que se afirma em:",
+    "alternativas": [
+      "I e II.",
+      "II e III.",
+      "III e IV.",
+      "I, II e III.",
+      "II, III e IV."
+    ],
+    "correta": 3,
+    "comentario": "A Transição Demográfica é um modelo que descreve as mudanças nas taxas de natalidade e mortalidade ao longo do desenvolvimento. O Brasil concluiu sua transição: a mortalidade caiu primeiro (com saneamento e medicina), depois a natalidade seguiu. Hoje o país tem uma pirâmide com base em estreitamento.",
+    "ajuda": "A Transição Demográfica descreve as mudanças nas taxas de natalidade e mortalidade ao longo do desenvolvimento de um país. Na primeira fase, ambas são altas; nas fases seguintes, a mortalidade cai antes da natalidade, gerando explosão demográfica."
+  },
+  {
+    "id": 7,
+    "instituicao": "MACKENZIE-SP",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "envelhecimento global",
+      "países em desenvolvimento",
+      "expectativa de vida"
+    ],
+    "pergunta": "Hoje, a população idosa no mundo é de aproximadamente 650 milhões de habitantes. Segundo a ONU, a perspectiva para 2050 é de que o mundo tenha 2 bilhões de pessoas com mais de 60 anos.\n\nAssinale a Alternativa que corresponde à CORRETA distribuição demográfica de idosos no planeta, nesse período.",
+    "alternativas": [
+      "A população idosa terá uma distribuição demográfica homogênea, devido à conquista de recursos na área de saúde, que atingirão a maior parte da população mundial.",
+      "A maior parte da população idosa estará concentrada nos países desenvolvidos, onde o investimento no social é alto, gerando uma elevada expectativa de vida.",
+      "A distribuição da população idosa terá uma maior concentração entre os países ricos e emergentes, por terem maior acesso à tecnologia da medicina",
+      "A maior concentração de idosos estará em países subdesenvolvidos, proveniente do elevado crescimento vegetativo de hoje.",
+      "O maior número de idosos se concentrará no continente europeu, devido ao crescimento e à expansão da União Europeia, que proporcionará igualdade de tecnologia e tratamentos médicos à sua população."
+    ],
+    "correta": 3,
+    "comentario": "Em 2050, a maioria absoluta dos idosos estará nos países em desenvolvimento — especialmente Ásia, América Latina e África —, pois hoje esses países ainda têm populações jovens que envelhecerão nas próximas décadas. Os países ricos já envelheceram; o envelhecimento nos países pobres ainda está por vir.",
+    "ajuda": "O envelhecimento populacional é um fenômeno global, mas desigual: países ricos já envelheceram, enquanto países em desenvolvimento têm populações mais jovens hoje, mas envelhecerão rapidamente. Pense em onde estará a maior concentração de idosos em 2050."
+  },
+  {
+    "id": 8,
+    "instituicao": "FUVEST",
+    "ano": "2023",
+    "dificuldade": "dificil",
+    "tags": [
+      "pirâmide etária",
+      "mortalidade",
+      "natalidade",
+      "projeção demográfica"
+    ],
+    "imagem_apoio": "3ano/img/302/t2q8.png",
+    "texto_apoio": "O número de mortos é maior do que o número de nascimentos a partir da coluna do ano de 2025 em diante. Isso sugere um envelhecimento da população e uma diminuição da taxa de natalidade em relação à taxa de mortalidade. Nesse caso, a pirâmide etária que melhor representaria essa situação seria uma pirâmide de base estreita com corpo e topo mais largo, indicando uma população com uma proporção maior de pessoas mais velhas em relação aos jovens. Essa forma é típica de uma pirâmide etária de envelhecimento, na qual a população idosa é maior em comparação com a população jovem. Tente resolver sem ver a resposta",
+    "pergunta": "O gráfico a seguir apresenta o registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período:\n\nA partir disso, assinale a pirâmide etária que melhor representa as informações projetadas para o ano de 2050:",
+    "alternativas": [
+      "Letra A",
+      "Letra B",
+      "Letra C",
+      "Letra D",
+      "Letra E"
+    ],
+    "correta": 1,
+    "comentario": "Quando as mortes superam os nascimentos numa região, a pirâmide etária passa a ter base estreita (poucos jovens) e topo largo (muitos idosos). Esse padrão é típico da Europa atual, onde a longevidade é alta e a fecundidade está abaixo da taxa de reposição de 2,1 filhos por mulher.",
+    "ajuda": "Quando mortes e nascimentos se aproximam e depois as mortes superam os nascimentos em uma região, a pirâmide etária tende a mostrar base estreita (poucos jovens) e topo mais amplo (muitos idosos). Relacione esse padrão à pirâmide correta."
+  },
+  {
+    "id": 9,
+    "instituicao": "URCA",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "teoria reformista",
+      "malthusianismo",
+      "crescimento populacional",
+      "desenvolvimento"
+    ],
+    "pergunta": "Ao longo da evolução da humanidade, várias teorias são criadas para explicar fenômenos naturais, e não têm sido diferente quando se estuda a dinâmica sociodemográfica, pois várias teorias têm procurado explicar a relação existente entre crescimento populacional e desenvolvimento econômico.\n\nIdentifique abaixo a assertiva que se enquadra a Teoria Reformista:",
+    "alternativas": [
+      "O controle da natalidade deve ser efetivada pelo Estado, no sentido de impedir o rápido crescimento demográfico e o surgimento de áreas superpovoadas com altos índices de pobreza, como os que ocorrem no nordeste brasileiro;",
+      "A existência de Países Subdesenvolvidos é resultado do acelerado crescimento demográfico;",
+      "O estado de miséria e pobreza são responsáveis pelo crescimento da população, sendo necessárias mudanças socioeconômicas que permitam a distribuição de renda e o acesso à educação, à saúde e ao mercado de trabalho;",
+      "O acelerado crescimento demográfico trará consequências graves sobre os ecossistemas tropicais e equatoriais, sendo necessário o controle da natalidade como forma de garantir a conservação do patrimônio ambiental;",
+      "A miséria e a pobreza são consequências do crescimento da população, sendo necessárias mudanças que permitam o acesso à saúde e ao tratamento abortivo."
+    ],
+    "correta": 2,
+    "comentario": "A Teoria Reformista, ao contrário do malthusianismo, argumenta que a pobreza e a miséria são causas do crescimento populacional acelerado — não consequências. Populações sem acesso à educação, saúde e emprego tendem a ter mais filhos como estratégia de sobrevivência e segurança na velhice.",
+    "ajuda": "A teoria neomalthusiana defende que o crescimento demográfico precisa ser controlado para evitar a pobreza, enquanto a teoria reformista argumenta que a miséria é causa, não consequência, do crescimento populacional. Analise qual perspectiva cada alternativa representa."
+  },
+  {
+    "id": 10,
+    "instituicao": "BRASIL ESCOLA",
+    "ano": "2022",
+    "dificuldade": "facil",
+    "tags": [
+      "malthusianismo",
+      "controle da natalidade",
+      "teoria demográfica"
+    ],
+    "pergunta": "Thomas R. Malthus defendia a tese de que a população crescia em patamares superiores aos da produção de alimentos, o que causaria graves convulsões sociais em razão do excesso de pessoas no mundo. Como solução para esse problema, Malthus propôs:",
+    "alternativas": [
+      "a difusão de métodos de controle da natalidade, como medicamentos e acessórios que inibissem a natalidade.",
+      "o controle moral da população de baixa renda, que só deveria ter filhos caso pudesse sustentá-los.",
+      "a revolução na forma de produzir alimentos, que deveriam aumentar em termos quantitativos e qualitativos.",
+      "a distribuição de renda, de forma que as populações mais ricas, em minoria, deveriam ceder mais recursos para a maioria pobre.",
+      "a expansão de infraestruturas sociais, com melhorias também nos campos da saúde, educação e segurança."
+    ],
+    "correta": 1,
+    "comentario": "Malthus propôs o 'freio preventivo' — a abstinência sexual e o adiamento do casamento — como solução moral para o crescimento demográfico. Era contrário a qualquer auxílio aos pobres, pois acreditava que isso incentivaria a reprodução sem controle. Esse pensamento influenciou políticas demográficas conservadoras por décadas.",
+    "ajuda": "Malthus acreditava no controle moral da população como solução para a superpopulação. Lembre-se de que ele era contrário a qualquer forma de auxílio governamental aos pobres e defendia a abstinência como método de controle da natalidade."
+  }
+]

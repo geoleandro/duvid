@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>2º ano - Texto 17</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico ">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula passada, entramos em contato com os principais problemas
+            climáticos do Brasil e sobre a influência das massas de ar, intervenções no relevo para tratar dessa
+            questão.
+        </p>
+
+
+        <p>Hoje, vamos relacionar o principal parceiro do clima: a vegetação em nosso país. Nessa primeira parte vamos
+            conhecer a Floresta amazônica, a Mata Atlântica e a Mata de Araucárias e seus problemas.</p>
+
+        <p>O Brasil é conhecido pela exuberância de sua vegetação, mas também pela sua ação predatória ao longo dos
+            séculos. </p>
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>Mata dos Cocais</h2>
+
+        
+		  <div class="w3-margin"><img id="imagem1" src="ts17f01.png" alt="ts17f01" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao1" >Fonte: https://conhecimentocientifico.r7.com </span>
+           
+           </div>
+
+        <p><strong>Localização e Características Gerais:</strong></p>
+        <p>A Mata dos Cocais é uma região de transição localizada entre a Floresta Amazônica (a oeste), a Caatinga (a
+            leste) e o Cerrado (ao sul). Ela se estende pelos estados do Maranhão, Piauí, partes do Ceará e norte do
+            Tocantins, sob o domínio do clima tropical.</p>
+
+        <p><strong>Vegetação Predominante:</strong></p>
+
+         
+		   <div class="w3-margin"><img id="imagem2" src="ts17f02.png" alt="ts17f02" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2">  </span>
+        </div>
+        <p>Predominam as palmáceas, sendo as espécies mais conhecidas:</p>
+        <ul>
+            <li><strong>Babaçu:</strong> Uma palmeira cuja extração do coco é fundamental para a economia local.</li>
+            <li><strong>Carnaúba:</strong> Surge ao longo dos rios e terrenos alagados, conhecida por suas folhas
+                cerosas utilizadas na produção de cera.</li>
+            <li><strong>Buriti:</strong> Outra espécie de palmeira, típica de áreas alagadas, cujos frutos e palmeiras
+                são usados de diversas formas.</li>
+        </ul>
+
+        <p><strong>Interferência Humana e Impactos:</strong></p>
+        <p><strong>Extrativismo Vegetal:</strong> A extração do coco de babaçu é uma atividade tradicional e econômica
+            crucial para a região, alimentando tanto o mercado local quanto a indústria de cosméticos.</p>
+        <p><strong>Indústria de Cosméticos:</strong> A região é notável pela exploração de recursos naturais para a
+            produção de cosméticos, especialmente aqueles derivados do coco de babaçu.</p>
+        <p><strong>Desmatamento e Degradação Ambiental:</strong> A pressão econômica para a extração de recursos e a
+            expansão agrícola tem levado ao desmatamento e à degradação do ecossistema da Mata dos Cocais.</p>
+        <p><strong>Sustentabilidade:</strong> Iniciativas de manejo sustentável e conservação são essenciais para
+            mitigar os impactos da exploração humana e garantir a preservação da biodiversidade local.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <h2>Pantanal</h2>
+
+        <div class="w3-margin"><img id="imagem3" src="ts17f03.png" alt="ts17f03" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao3" > Fonte: Wikipedia. </span>
+            
+            </div>
+
+        <p><strong>Localização e Características Gerais:</strong></p>
+        <p>O Pantanal é a maior planície alagada do mundo, situado principalmente nos estados do Mato Grosso e Mato
+            Grosso do Sul, além de partes menores na Bolívia e Paraguai. Este bioma é caracterizado por sua vasta rede
+            de rios, lagoas e áreas alagadiças.</p>
+
+        <p><strong>Vegetação Predominante:</strong></p>
+        <p>A vegetação do Pantanal é uma combinação de espécies de cerrado, floresta amazônica e chaco boliviano,
+            incluindo gramíneas, arbustos e árvores esparsas.</p>
+
+        <p><strong>Interferência Humana e Impactos:</strong></p>
+        <p><strong>Pecuária Extensiva:</strong> A criação de gado é a principal atividade econômica, causando alterações
+            no solo e na vegetação.</p>
+
+            <div class="w3-margin"><img id="imagem4" src="ts17f04.png" alt="ts17f04" class="w3-mobile" >
+		   
+                <span class="w3-small w3-margin-left" id="citacao4" > Fonte: www.brasil.com </span>
+                
+                </div>
+            
+
+
+
+
+        <p><strong>Queimadas e Desmatamento:</strong> Práticas de manejo inadequado e queimadas sazonais contribuem para
+            a degradação do ecossistema.</p>
+        <p><strong>Turismo Sustentável:</strong> A promoção de turismo ecológico tem surgido como uma alternativa
+            econômica e ambientalmente sustentável.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <h2>Cerrado</h2>
+
+        <div class="w3-margin"><img id="imagem5" src="ts17f05.png" alt="ts17f05" class="w3-mobile" >
+		  
+			<span class="w3-small w3-margin-left" id="citacao5" > Fonte: Organizado pelo autor. </span>
+		   </div>
+
+        <p><strong>Localização e Características Gerais:</strong></p>
+        <p>O Cerrado, o segundo maior bioma da América do Sul, cobre aproximadamente 25% do território brasileiro,
+            incluindo Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, e partes de outros estados.</p>
+
+        <p><strong>Vegetação Predominante:</strong></p>
+        <p>A vegetação é composta por uma mistura de gramíneas, arbustos e árvores esparsas adaptadas ao clima
+            sazonalmente seco.</p>
+
+        <p><strong>Interferência Humana e Impactos:</strong></p>
+        <p><strong>Agronegócio:</strong> A expansão da agricultura e pecuária tem levado ao desmatamento extensivo do
+            Cerrado.</p>
+        <p><strong>Perda de Biodiversidade:</strong> A destruição do habitat natural ameaça inúmeras espécies endêmicas.
+        </p>
+        <p><strong>Iniciativas de Conservação:</strong> Programas de conservação e recuperação de áreas degradadas são
+            essenciais para preservar este bioma único.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <h2>Caatinga</h2>
+
+
+        <div class="w3-margin"><img id="imagem6" src="ts17f06.png" alt="ts17f06" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao6" >  </span>
+            
+            </div>
+        
+    
+        <p><strong>Localização e Características Gerais:</strong></p>
+        <p>A Caatinga é um bioma exclusivo do Brasil, cobrindo cerca de 10% do território nacional, predominantemente no Nordeste.</p>
+    
+        <p><strong>Vegetação Predominante:</strong></p>
+        <p>Caracteriza-se por uma vegetação xerófila, adaptada ao clima semiárido, incluindo cactos, arbustos espinhosos e árvores de pequeno porte.</p>
+    
+        <p><strong>Interferência Humana e Impactos:</strong></p>
+        <p><strong>Agricultura de Subsistência:</strong> Práticas agrícolas inadequadas contribuem para a degradação do solo.</p>
+        <p><strong>Desertificação:</strong> A exploração excessiva e as mudanças climáticas intensificam os processos de desertificação.</p>
+        <p><strong>Projetos de Sustentabilidade:</strong> Iniciativas de manejo sustentável e recuperação ambiental são vitais para a regeneração do bioma.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <h2>Pampas</h2>
+
+        <div class="w3-margin"><img id="imagem7" src="ts17f07.png" alt="ts17f07" class="w3-mobile" >
+		  
+            <span class="w3-small w3-margin-left" id="citacao7" >  </span>
+            </div>
+        
+    
+        <p><strong>Localização e Características Gerais:</strong></p>
+        <p>Os Pampas estão localizados principalmente no Rio Grande do Sul, estendendo-se até o Uruguai e Argentina. Este bioma é caracterizado por vastas planícies cobertas por gramíneas.</p>
+    
+        <p><strong>Vegetação Predominante:</strong></p>
+        <p>A vegetação dos Pampas é composta principalmente por gramíneas e poucas árvores, adaptadas ao clima temperado com estações bem definidas.</p>
+    
+        <p><strong>Interferência Humana e Impactos:</strong></p>
+        <p><strong>Pecuária e Agricultura:</strong> A principal atividade econômica, que impacta o solo e a vegetação.</p>
+        <p><strong>Erosão do Solo:</strong> O manejo inadequado das pastagens pode levar à erosão e perda de fertilidade do solo.</p>
+        <p><strong>Conservação de Pastagens Naturais:</strong> Programas de manejo sustentável são necessários para manter a saúde ecológica do bioma.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span> <strong>
+                    Qual é a situação atual do Cerrado em relação à sua cobertura original e qual é o impacto do
+                    agronegócio nessa região?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span>
+                O Cerrado atualmente conta com algo em torno de 48% de sua cobertura original. O agronegócio,
+                especialmente o plantio da soja, tem desempenhado um papel significativo na transformação dessa região.
+                A expansão das fronteiras agrícolas tem levado à conversão de matas nativas em grandes áreas de
+                monocultura, conhecidas como desertos verdes, o que resulta na perda de biodiversidade e na degradação
+                dos ecossistemas naturais do Cerrado.
+            </p>
+        </div>
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span> <strong>
+                    Como o clima e a pluviosidade do Pantanal influenciam as inundações periódicas, e quais são as
+                    causas dessas inundações?
+                </strong></p>
+            <p><span class="primeiraLetra">R:</span>
+                No Pantanal, os índices de pluviosidade são inferiores aos verificados na maior parte da região
+                Centro-Oeste. As inundações periódicas nessa região são mais justificadas pela topografia da Bacia do
+                rio Paraguai do que pelo volume das chuvas. As chuvas, concentradas no verão, juntamente com a
+                topografia plana da bacia, resultam em extensas áreas alagadas, que são características do Pantanal.
+            </p>
+        </div>
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span><strong>
+                    Quais são os principais conflitos que surgem no Cerrado e Pampas devido às práticas agrícolas e ao
+                    uso da terra?
+                </strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span>
+                No Cerrado, os principais conflitos envolvem camponeses e pequenos agricultores que enfrentam a expansão
+                do agronegócio, que muitas vezes leva à desapropriação de terras e à degradação ambiental. Nos Pampas, a
+                vegetação é composta por gramíneas em uma área de clima subtropical, e a eliminação da cobertura vegetal
+                para a prática agrícola pode levar a processos de arenização, que é a transformação do solo em areia.
+                Essa degradação do solo pode reduzir a produtividade agrícola e causar conflitos entre agricultores e
+                defensores da conservação ambiental.
+            </p>
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
+        <br><br>
+
+        <hr>
+
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

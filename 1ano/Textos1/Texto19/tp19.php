@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>1º ano - Texto 19 - Fundamentos de climatologia I</title>
+
+</head>
+
+
+
+<?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+<div id="aviso-status" class="w3-margin-top"></div>
+
+<main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+    <div class="topico">
+        <div class="w3-padding-top-48"></div>
+
+        <h1 id="h1"></h1>
+
+        <!-- Futuro audio -->
+        <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+            <div class="w3-row">
+                <div class="w3-col s2 m1 w3-center">
+                    <i class="fa fa-headphones w3-xxlarge"></i>
+                </div>
+                <div class="w3-col s10 m11 w3-padding-small">
+                    <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                </div>
+            </div>
+            <audio controls style="width:100%; margin-top: 10px;">
+                <source id="audioSource" src="" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="w3-container w3-padding-16">
+            <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+            <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+        </div>
+
+        <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+            <i class="fa fa-play"></i> Iniciar Aula
+        </button>
+        <hr>
+    </div>
+
+    <div class="topico">
+
+        <div class="w3-container w3-padding w3-round-large ">
+
+            <h2>Introdução</h2>
+
+
+
+            <p>
+                <span class="primeiraLetra"><strong>N</strong></span>a aula anterior estudamos os
+                solos, entendendo como eles se formam, como são utilizados
+                e de que forma podem ser conservados. Agora, vamos olhar para o
+                céu!
+            </p>
+
+            <div class="w3-panel w3-sand w3-leftbar w3-round-large">
+                <p >
+                    A Climatologia é como uma lente que revela os segredos da atmosfera.
+                    Com ela, entendemos não apenas o presente, mas também o futuro do planeta.
+                </p>
+            </div>
+
+            <p>
+                Nesta aula, vamos dar os primeiros passos no estudo da
+                Climatologia, a área da Geografia que analisa os fenômenos que
+                acontecem
+                na atmosfera da Terra.
+                Vamos entender o que é o clima, o que é o
+                tempo e conhecer os
+                elementos do clima, que são:
+                temperatura,
+                umidade,
+                pressão atmosférica,
+                ventos e
+                precipitação.
+            </p>
+
+            <div class="w3-panel w3-sand w3-border-left w3-round-large">
+                <p >
+                    Dica de leitura visual:
+                    Pense no clima como a personalidade da atmosfera
+                    e no tempo como seu humor diário.
+                </p>
+            </div>
+
+            <p>
+                Compreender esses elementos é essencial para interpretar as
+                mudanças no tempo,
+                entender os tipos de clima e perceber como esses fenômenos
+                afetam o nosso dia a dia.
+            </p>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+
+    <div id="sumario" class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+
+            <h3>1. O que é a atmosfera e qual a sua principal função para a vida na Terra?</h3>
+            <h3>2. Quais são as principais fontes dos gases que compõem a atmosfera terrestre?</h3>
+            <h3>3. Qual a composição básica da atmosfera em termos de gases principais?</h3>
+            <h3>4. Por que o vapor d’água é considerado essencial para os processos climáticos?</h3>
+            <h3>5. Como a atmosfera é dividida em camadas de acordo com a temperatura?</h3>
+            <h3>6. Qual a diferença entre tempo e clima?</h3>
+            <h3>7. O que diferencia meteorologia de climatologia?</h3>
+            <h3>8. O que são massas de ar e como podem ser classificadas?</h3>
+            <h3>9. O que é pressão atmosférica e como Evangelista Torricelli a descobriu?</h3>
+            <h3>10. Qual a importância dos ventos para o equilíbrio climático do planeta?</h3>
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+    <div class="topico"> <!-- azul clarinho no bloco inteiro -->
+
+
+
+        <h2 class="w3-xxlarge w3-serif">1. O que é a atmosfera da Terra?</h2>
+
+        <div class="w3-margin w3-center">
+            <img id="imagem1a" src="tp19f01a.png" alt="tp19f01a" class="w3-image w3-card w3-round w3-hover-shadow">
+            <span class="w3-small" id="citacao1a"></span>
+        </div>
+
+        <p >
+            A atmosfera é uma camada de gases que envolve todo o planeta
+            Terra, funcionando como um grande cobertor protetor.
+            Ela mantém temperaturas adequadas à vida e protege os organismos da
+            <span class="termo clima" data-palavra="Radiação Ultravioleta"
+                data-definicao="Tipo de radiação emitida pelo Sol, invisível ao olho humano, que pode causar queimaduras e câncer de pele quando em excesso.">
+                radiação ultravioleta
+            </span>.
+        </p>
+
+        <p >
+            Esses gases existem desde a formação da Terra, há bilhões de anos, e foram sendo transformados ao longo
+            do tempo. Suas fontes são diversas:
+        </p>
+
+        <ul class="w3-ul w3-margin-left">
+            <li>Atividade geológica (como vulcões);</li>
+            <li>Impactos de meteoros;</li>
+            <li>Vida orgânica (plantas, animais, microrganismos);</li>
+            <li>Atividades humanas, como a indústria e a queima de combustíveis.</li>
+        </ul>
+
+        <p >
+            Essa mistura de gases não é homogênea. Sua composição, temperatura e densidade variam conforme a
+            altitude: quanto mais alto, mais rarefeito é o ar.
+        </p>
+
+        <p >
+            A gravidade mantém essa camada no lugar.
+            Ela é mais densa próxima ao solo e vai ficando leve conforme subimos.
+            Para se ter ideia, os primeiros 29 km concentram cerca de 98% da massa da atmosfera.
+        </p>
+
+        <p >
+            Sua principal função é proteger a vida:
+            filtra radiações perigosas, regula a temperatura do planeta e permite os
+            ciclos do ar e da água,
+            indispensáveis à existência.
+        </p>
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
+            Próximo
+        </button>
+
+
+    </div>
+
+    <div class="topico">
+
+        <div class=" w3-round-large">
+
+
+            <h2>2. Composição da Atmosfera</h2>
+
+            <p>
+                Mesmo sendo muito fina em relação ao tamanho da Terra
+                (representa apenas 0,0001% da massa total do planeta),
+                a atmosfera é essencial para a manutenção da vida.
+            </p>
+
+            <p>
+                Ela é formada por uma mistura de gases invisíveis, que garantem a respiração, a fotossíntese
+                e o equilíbrio térmico do planeta:
+            </p>
+
+            <div class="w3-margin">
+                <img id="imagem1b" src="tp19f01b.png" alt="tp19f01b" class="w3-mobile w3-card w3-round">
+                <span class="w3-small w3-margin-left" id="citacao1b"></span>
+            </div>
+
+            <p>Nitrogênio (N₂) – 78%
+                Gás mais abundante da atmosfera. Não participa diretamente da respiração, mas é fundamental
+                no ciclo do nitrogênio, que ajuda no crescimento das plantas.
+            </p>
+
+            <p>Oxigênio (O₂) – 21%
+                Essencial para a respiração de animais e microrganismos. Também permite a combustão,
+                inclusive no corpo humano, quando usamos a energia dos alimentos.
+            </p>
+
+            <p>Argônio (Ar) – 0,0934%
+                Gás nobre, sem cor, cheiro ou sabor, que quase não reage com outros elementos.
+            </p>
+
+            <p>Dióxido de Carbono (CO₂) – 0,033%<br>
+                Apesar de estar em pequena quantidade, é fundamental.
+                As plantas o utilizam na fotossíntese e ele participa do
+                <span class="termo ciencia" data-palavra="Efeito Estufa"
+                    data-definicao="Processo natural em que gases da atmosfera retêm parte do calor do Sol, mantendo a Terra aquecida. O excesso desses gases intensifica o aquecimento global.">
+                    efeito estufa
+                </span>, ajudando a manter o planeta aquecido.
+                Contudo, seu excesso tem causado problemas como o aquecimento global.
+            </p>
+
+            <p>
+                Além desses, existem outros gases em menor quantidade, como o
+                vapor d’água, o ozônio (O₃), o hélio (He),
+                o metano (CH₄) e o hidrogênio (H₂).
+            </p>
+
+            <div class="w3-panel w3-sand w3-round w3-border-left w3-margin">
+
+                <p><em>Curiosidade:</em> Mesmo em pequenas concentrações, esses gases
+                    "menores" podem ter grande impacto no clima e na vida na Terra.
+                    O vapor d’água, por exemplo, é essencial para fenômenos como chuvas, nevoeiros e geadas.
+                </p>
+            </div>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+    <div class="topico">
+
+        <div class=" w3-round-large ">
+            <h2>3. Estrutura da Atmosfera</h2>
+
+            <p>
+                A atmosfera é como uma grande “capa de gases” que envolve a Terra e torna a vida possível.
+                Ela pode ser dividida de várias formas: por composição, por temperatura e por
+                função.
+                Vamos conhecer cada uma delas:
+            </p>
+
+        </div>
+
+
+        <div class="w3-container w3-round-large">
+
+
+
+
+            <h3> Divisão por Composição</h3>
+
+            <div class="w3-panel w3-sand w3-round">
+                <p>Homosfera: Vai do solo até cerca de 80 km. Aqui os gases estão bem misturados
+                    (nitrogênio e oxigênio). É onde fica a
+                    <span class="termo ciencia" data-palavra="Camada de Ozônio"
+                        data-definicao="Região da estratosfera rica em ozônio (O₃), responsável por filtrar a radiação ultravioleta do Sol.">
+                        camada de ozônio
+                    </span>, fundamental para a vida.
+                </p>
+            </div>
+
+            <div class="w3-panel w3-sand w3-round">
+                <p>Heterosfera: Acima de 80 km. Os gases se separam: os mais pesados (oxigênio e
+                    nitrogênio)
+                    ficam
+                    abaixo, e os mais leves (hidrogênio e hélio) acima.</p>
+            </div>
+
+            <h3> Divisão por Temperatura</h3>
+
+            <div class="w3-panel w3-round">
+                <p>Troposfera: Até 18 km de altura. É onde vivemos e onde ocorrem os fenômenos do clima
+                    (chuvas, ventos, nuvens). Quanto mais alto, mais frio.</p>
+            </div>
+
+            <div class="w3-panel w3-sand w3-round">
+                <p>Estratosfera: De 18 a 50 km. Contém a camada de ozônio e é usada por aviões comerciais
+
+                    devido à estabilidade do ar.</p>
+            </div>
+
+            <div class="w3-panel w3-round">
+                <p>Mesosfera: De 50 a 80 km. A parte mais fria da atmosfera (até -90°C). Os meteoros
+                    queimam
+                    aqui,
+                    formando as “estrelas cadentes” .</p>
+            </div>
+
+            <div class="w3-panel w3-sand w3-round">
+                <p>Termosfera: Vai de 80 até 500 km. Apesar das altas temperaturas (até 1.200°C), o ar
+                    rarefeito
+                    impede a sensação de calor. Aqui acontecem as auroras boreais e está a Estação Espacial
+                    Internacional .</p>
+            </div>
+
+            <div class="w3-panel w3-round">
+                <p>Exosfera: A camada mais externa, onde a atmosfera se mistura com o espaço sideral. É a
+                    região
+                    em que orbitam muitos satélites .</p>
+            </div>
+
+            <h3> Divisão por Função</h3>
+
+            <div class="w3-panel w3-sand w3-round">
+                <p>Ozonosfera: Rica em ozônio, localizada na estratosfera. Filtra os raios ultravioleta
+                    perigosos
+                    do Sol, sem os quais a vida seria inviável.</p>
+            </div>
+
+            <div class="w3-panel w3-round">
+                <p>Ionosfera: Acima da mesosfera. Reflete ondas de rádio e absorve radiações do
+                    espaço, sendo
+                    essencial para as comunicações.</p>
+            </div>
+
+            <div>
+                <img id="imagem1" src="tp19f01.png" alt="Camadas da atmosfera" class="w3-mobile w3-card w3-round">
+                <span class="w3-small w3-margin-left" id="citacao1"></span>
+            </div>
+        </div>
+
+        <!-- Frase de abertura em destaque -->
+
+        <div class="w3-panel w3-center w3-topbar w3-bottombar w3-light-gray">
+            <span class="w3-large w3-serif">
+                A atmosfera é como uma grande “capa de gases” que envolve a Terra,
+                tornando a <span class="w3-xlarge w3-center w3-serif">vida
+                    possível.</span>
+            </span>
+        </div>
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+    <div class="topico">
+
+        <div class=" w3-padding w3-round-large">
+            <h2 class="w3-round">4. Tempo e Clima: Qual a diferença?</h2>
+
+            <p><span class="termo ciencia" data-palavra="Tempo"
+                    data-definicao="Condição momentânea da atmosfera em um local, como sol, chuva ou vento.">Tempo</span>
+                e <span class="termo ciencia" data-palavra="Clima"
+                    data-definicao="Média histórica das condições atmosféricas de uma região, ao longo de 30 anos ou mais.">Clima</span>
+                parecem a mesma coisa, mas não são! </p>
+
+            <p> O clima é como a “personalidade” da atmosfera (se uma região costuma ser
+                chuvosa, seca,
+                fria ou quente).
+                Já o tempo é o “humor” dela em um dia específico (se está ensolarado ou chuvoso
+                hoje).
+            </p>
+
+            <div class="w3-panel w3-sand w3-border w3-round">
+                <h3>Meteorologia vs Climatologia</h3>
+                <p>Meteorologia: ciência que observa e prevê o tempo de curto prazo, analisando variáveis
+                    como
+                    temperatura e vento.</p>
+                <p>Climatologia: parte da meteorologia que estuda padrões históricos de longo prazo para
+                    entender
+                    os tipos de clima .</p>
+            </div>
+
+            <div class="w3-panel w3-sand w3-border w3-round">
+                <h3>Geografia + Clima </h3>
+                <p>O estudo do clima ajuda a compreender como ele “molda o mapa”:</p>
+                <ul class="w3-ul w3-border ">
+                    <li> Relevo: ventos e chuvas esculpem montanhas e vales.</li>
+                    <li> Vegetação: define os biomas (florestas, desertos, savanas).</li>
+                    <li> Solo: influencia a fertilidade e a agricultura.</li>
+                    <li>‍‍‍ Atividades humanas: afeta a arquitetura, a cultura e o modo de vida.</li>
+                </ul>
+            </div>
+
+            <div class="w3-panel w3-sand w3-round">
+                <h3>Elementos do Clima </h3>
+                <p>São os atributos medidos para entender tempo e clima:</p>
+                <p> Temperatura: calor do ar.
+                    Umidade: vapor de água presente.
+                    Pressão atmosférica: peso do ar sobre a superfície.
+                    Precipitação: chuva, neve, granizo.</p>
+            </div>
+
+
+
+        </div>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
+            Próximo</button>
+        <hr>
+    </div>
+
+    <div class="topico">
+
+        <div class=" w3-round-large ">
+
+            <h2> 5. Massas de ar e pressão atmosférica</h2>
+
+            <p>Massas de ar</p>
+
+            <div class="w3-margin ">
+                <img id="imagem6b" src="tp19f06b.png" alt="tp19f06b" class="w3-mobile w3-image w3-round">
+                <span class="w3-small w3-margin-left" id="citacao6b">Fonte: Wikipédia</span>
+            </div>
+
+            <p>As <span class="termo clima" data-palavra="Massas de ar"
+                    data-definicao="Grandes porções da atmosfera com características semelhantes de temperatura, umidade e pressão, que podem se deslocar e modificar o clima de uma região.">massas
+                    de ar</span>
+                são grandes porções da atmosfera que apresentam características semelhantes de temperatura,
+                pressão e
+                umidade.</p>
+
+            <p>Classificação por temperatura:
+                Quentes → nas baixas latitudes.
+                Frias → nas latitudes médias.<br>
+                Glaciais → nas altas latitudes.</p>
+
+            <p>Classificação por umidade:
+                Úmidas → formadas sobre mares e oceanos.<br>
+                Secas → formadas sobre continentes.</p>
+
+            <p>Combinação de temperatura e umidade:</p>
+            <ul class="w3-ul w3-border ">
+                <li> Quente e úmida → baixas latitudes, sobre oceanos (ex.: Amazônia).</li>
+                <li> Quente e seca → baixas latitudes, sobre continentes.</li>
+                <li> Fria e úmida → médias latitudes, sobre oceanos.</li>
+                <li> Fria e seca → médias/altas latitudes, sobre continentes.</li>
+            </ul>
+
+            <h3> Pressão atmosférica e vapor d’água</h3>
+
+            <div class="w3-margin w3-center">
+                <img id="imagem8" src="tp19f08.png" alt="tp19f08" class="w3-mobile w3-image w3-round">
+                <span class="w3-small w3-margin-left" id="citacao8">Fonte: geoconceicao.blogspot.com</span>
+            </div>
+
+            <p>A pressão atmosférica é a força exercida pelo peso da atmosfera sobre a superfície
+                terrestre. Essa
+                pressão é causada pela gravidade e varia conforme a latitude, a altitude e as
+                condições
+                climáticas.</p>
+
+            <p>Exemplo: quando subimos uma montanha, sentimos o ar “mais leve”. Isso ocorre porque quanto
+                maior a
+                altitude, menor a densidade do ar, e portanto, menor a pressão.</p>
+
+            <p>Fatores que influenciam:
+                Temperatura: ar quente → menos denso → menor pressão.<br>
+                Ar frio → mais denso → maior pressão.</p>
+
+            <div class="w3-panel w3-sand w3-border w3-round w3-margin">
+                <h4> Curiosidade histórica</h4>
+                <p>A pressão atmosférica foi descoberta pelo físico Evangelista Torricelli (1608–1647),
+                    que
+                    construiu o primeiro barômetro de mercúrio. Ele mostrou que, ao nível do mar, a
+                    pressão é
+                    capaz de sustentar uma coluna de 76 cm de mercúrio (Hg).</p>
+            </div>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo </button>
+        <hr>
+
+    </div>
+
+    <div class="topico">
+
+        <h2>6. O Ciclo da Água e a Umidade do Ar</h2>
+
+        <div class="w3-margin">
+            <img id="imagem2" src="tp19f02.png" alt="tp19f02" class="w3-mobile w3-card w3-round w3-hover-shadow">
+            <span class="w3-small w3-margin-left" id="citacao2">Fonte: Wikipédia</span>
+        </div>
+
+        <p>A água está em constante circulação entre a superfície e a atmosfera, no chamado ciclo hidrológico.</p>
+
+        <p>• O Sol aquece mares e rios, causando evaporação .
+            • O vapor sobe, resfria e ocorre a condensação, formando
+            nuvens.
+            • Quando o vapor retorna em forma líquida ou sólida, temos a precipitação (chuva, neve ou granizo).</p>
+
+        <p>A umidade do ar é a quantidade de vapor d’água presente na
+            atmosfera.</p>
+
+        <p>• Alta umidade → menor pressão, pois o ar úmido é menos denso.
+            • O vapor vem da evaporação (águas superficiais) e da transpiração
+            de plantas e seres vivos.</p>
+
+        <h2>7. Precipitações</h2>
+
+        <div class="w3-margin">
+            <img id="imagem7" src="tp19f07.png" alt="tp19f07" class="w3-mobile w3-card w3-round w3-hover-shadow">
+            <span class="w3-small w3-margin-left" id="citacao7">Fonte: Wikipédia</span>
+        </div>
+
+        <p>A precipitação é toda forma de água que cai da atmosfera
+            (chuva,
+            neve, granizo, garoa).</p>
+
+        <p>Ela devolve a água à superfície e é essencial no ciclo da água e na definição dos climas regionais.</p>
+
+      <div class="w3-panel">
+            <p><strong >Principais tipos:</strong></p>
+
+            <p>• <span ><b>Convectiva:</b></span> ar quente sobe rápido → chuvas fortes e
+                rápidas
+                (ex.: chuvas de verão).<br>
+                • <span>Orográfica:</b></span> ar úmido sobe por barreira de relevo →
+                chuva
+                intensa no lado do vento e seca no oposto (ex.: Serra do Mar).<br>
+                • <span><b>Frontal:</b></span> encontro de massas de ar quente e frio
+                →
+                chuvas longas ou tempestades (ex.: frentes frias no Sul/Sudeste).<br>
+                • <span><b>Ciclônica:</b></span> em áreas de baixa pressão → chuvas
+                ligadas
+                a ciclones (ex.: ciclones no Atlântico Sul).</p>
+
+        </div>
+
+
+
+        <button class="btnShow w3-button w3-indigo w3-round-large"
+            onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico w3-border w3-margin-top">
+
+        <div class=" w3-round-large w3-padding-large">
+
+            <h2 class="w3-text-blue ">8. Ventos 🌬️</h2>
+
+            <div class="w3-panel w3-sand ">
+                <p>O vento resulta do deslocamento de ar de uma área de <span class="w3-text-red"><b>alta
+                            pressão</b></span> para outra de <span class="w3-text-blue"><b>baixa
+                            pressão</b></span>.</p>
+                <p>Chama-se <span class="w3-text-green"><b>brisa</b> 🌿</span> uma circulação de ar de fraca a
+                    moderada
+                    intensidade próxima à superfície, afetando até cerca de 200 metros de altitude.</p>
+                <p>Ventos locais podem dominar quando os ventos globais são fracos, como nas <span
+                        class="w3-text-orange"><b>brisas marítima/terrestre</b> 🌊🏞️</span>.</p>
+            </div>
+
+            <div class="w3-panel w3-sand ">
+                <p><b>Importância climática:</b> realizam o equilíbrio térmico entre altas e baixas
+                    latitudes e
+                    transportam vapor d’água e umidade dos oceanos e mares para os continentes.</p>
+                <p><b>Indicadores 🧭:</b> direção (pontos cardeais) e velocidade (m/s, km/h ou nós).</p>
+            </div>
+
+            <div class="w3-panel w3-sand ">
+                <p><b>Conceitos:</b></p>
+                <p>• <span class="w3-text-purple"><b>Barlavento</b></span>: lado de onde o vento vem.<br>
+                    • <span class="w3-text-teal"><b>Sotavento</b></span>: lado para onde o vento sopra.</p>
+            </div>
+
+            <div class="w3-margin">
+                <img id="imagem3" src="tp19f03.png" alt="tp19f03" class="w3-mobile w3-card w3-round w3-hover-shadow">
+                <span class="w3-small w3-margin-left w3-text-gray" id="citacao3">Fonte: Universidade Federal de
+                    Santa
+                    Maria, Geografia</span>
+            </div>
+
+            <div class="w3-panel w3-sand">
+                <p><b>Variação de pressão atmosférica 🌪️:</b></p>
+                <p>• Movimentos ascendentes – baixa pressão na superfície e alta pressão em altitude.<br>
+                    • Movimentos descendentes – alta pressão na superfície e baixa pressão em altitude.</p>
+            </div>
+
+            <div class="w3-margin">
+                <img id="imagem4" src="tp19f04.png" alt="tp19f04" class="w3-mobile w3-card w3-round w3-hover-shadow">
+                <span class="w3-small w3-margin-left w3-text-gray" id="citacao4">Fonte: Universidade Federal de
+                    Santa
+                    Maria, Geografia</span>
+            </div>
+
+            <div class="w3-panel w3-sand">
+                <p><b>Sistemas de pressão:</b></p>
+                <p>• <span ><b>Baixa pressão (ciclone)</b></span>: ar quente sobe,
+                    gerando <span class="w3-text-purple"><b>convergência</b></span>. Associado a tempo instável,
+                    nuvens e chuvas.
+                    Movimento em espiral: hemisfério sul ⟳ horário, hemisfério norte ⟲ anti-horário.</p>
+                <p>• <span><b>Alta pressão (anticiclone) ❄️</b></span>: ar frio desce e
+                    diverge,
+                    reduzindo nuvens. Associado a tempo estável, céu aberto e ausência de chuvas. Pode causar
+                    estiagens
+                    e ondas de calor.</p>
+            </div>
+
+            <div class="w3-margin">
+                <img id="imagem5" src="tp19f05.png" alt="tp19f05" class="w3-mobile w3-card w3-round w3-hover-shadow">
+                <span class="w3-small w3-margin-left w3-text-gray" id="citacao5">Fonte: Universidade Federal de
+                    Santa
+                    Maria, Geografia</span>
+            </div>
+
+            <div class="w3-margin">
+                <img id="imagem6" src="tp19f06.png" alt="tp19f06" class="w3-mobile w3-card w3-round w3-hover-shadow">
+                <span class="w3-small w3-margin-left w3-text-gray" id="citacao6">Fonte: Universidade Federal de
+                    Santa
+                    Maria, Geografia</span>
+            </div>
+
+        </div>
+
+        <button class="btnShow w3-button w3-indigo w3-round-large"
+            onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+[
+  {
+    "id": 1,
+    "instituicao": "MUNDO EDUCAÇÃO",
+    "ano": "2022",
+    "dificuldade": "facil",
+    "tags": [
+      "urbanização brasileira",
+      "migrações internas",
+      "Sudeste",
+      "crescimento urbano"
+    ],
+    "pergunta": "As cidades da região Sudeste do Brasil foram as que mais receberam migrantes oriundos do campo (êxodo rural) e também de outras regiões do país (migrações regionais), fato que se deu de forma mais acentuada na década de 1970 e nos anos posteriores. Assim, o Sudeste consolidou-se como a região mais urbanizada do país. Tal ocorrência pode explicar-se:",
+    "alternativas": [
+      "pelas preferências culturais dos migrantes.",
+      "pela maior presença de indústrias e empregos.",
+      "pela maior receptividade da população local.",
+      "pelo processo de marcha para o litoral do país.",
+      "pela alto preço do solo nas demais regiões."
+    ],
+    "correta": 1,
+    "ajuda": "A região Sudeste concentrou as indústrias desde os anos 1930. Pense nos fatores que atraíram migrantes: infraestrutura, empregos e urbanização. Qual fator econômico foi o mais determinante nesse processo?",
+    "comentario": "O êxodo rural brasileiro acelerou-se nas décadas de 1950 a 1980, impulsionado pela industrialização do Sudeste — especialmente em São Paulo — que oferecia empregos na indústria e serviços com salários superiores aos da agricultura. As cidades do interior nordestino e as pequenas cidades do Sul perderam população jovem para os polos industriais, que se tornaram os principais destinos dos migrantes em busca de mobilidade social."
+  },
+  {
+    "id": 2,
+    "instituicao": "UNESP",
+    "ano": "2019",
+    "dificuldade": "dificil",
+    "tags": [
+      "dinâmica urbana",
+      "rede urbana",
+      "mapa",
+      "urbanização"
+    ],
+    "imagem_apoio": "2ano/img/227/s27q2.png",
+    "pergunta": "Analise o mapa.\n\nConsiderando a dinâmica urbana brasileira, as áreas vermelha e verde no mapa correspondem a:",
+    "alternativas": [
+      "cinturões entre as áreas industriais de duas cidades.",
+      "intersecções entre as áreas periurbanas de duas cidades.",
+      "conurbações entre as regiões metropolitanas de duas cidades.",
+      "integrações entre as áreas de conservação de duas cidades.",
+      "sobreposições entre as áreas de influência de duas cidades."
+    ],
+    "correta": 4,
+    "ajuda": "O mapa mostra duas áreas que se encontram ou se sobrepõem. Pense nos conceitos de crescimento urbano horizontal e fusão de cidades vizinhas. Quando duas regiões metropolitanas crescem e se encontram, como chamamos isso?",
+    "comentario": "As zonas de influência de duas cidades vizinhas podem se sobrepor em áreas intermediárias, criando regiões disputadas por ambos os centros urbanos. Esse fenômeno é representado em mapas de rede urbana pelas áreas de transição onde consumidores e usuários de serviços podem escolher entre dois polos. A sobreposição indica concorrência entre cidades e é estudada pela teoria dos lugares centrais de Christaller."
+  },
+  {
+    "id": 3,
+    "instituicao": "FUVEST",
+    "ano": "2019",
+    "dificuldade": "dificil",
+    "tags": [
+      "urbanização brasileira",
+      "mapa",
+      "metropolização",
+      "rede urbana"
+    ],
+    "texto_apoio": "“A metropolização de São Paulo foi induzida pela industrialização no século XX. Nas últimas décadas, o deslocamento de parte da indústria da metrópole e o crescimento do setor terciário avançado revelam a primazia do capital financeiro, que se articula com o setor imobiliário e produz, por exemplo, os edifícios corporativos, sede deste terciário”.",
+    "fonte_apoio": "Carlos, A.F.A. São Paulo: do capital industrial ao capital financeiro. In: Carlos, A.F.A. e Oliveira. A.U. Geografias de São Paulo: a metrópole do século XXI. São Paulo. Adaptado.",
+    "imagem_apoio": "2ano/img/227/s27q3.png",
+    "pergunta": "Com base no texto e no mapa, é correto afirmar que:",
+    "alternativas": [
+      "o crescimento do terciário avançado indica o aumento de estabelecimentos industriais, ambos dispersos em São Paulo.",
+      "a produção industrial em São Paulo está concentrada nas áreas centrais, o que induziu a proliferação de edifícios corporativos.",
+      "os edifícios corporativos concentram a produção de manufaturados e, em São Paulo, estão concentrados nas áreas de maior densidade populacional.",
+      "o setor terciário avançado ocupa os edifícios corporativos e está concentrado em poucos distritos da metrópole de São Paulo no momento atual.",
+      "a desconcentração industrial em São Paulo foi acompanhada da dispersão do setor terciário avançado."
+    ],
+    "correta": 3,
+    "ajuda": "O mapa mostra a concentração de edifícios corporativos em São Paulo. O setor terciário avançado (finanças, consultoria, tecnologia) tende a se concentrar em poucos distritos centrais ou eixos específicos. Isso é dispersão ou concentração?",
+    "comentario": "A metropolização terciária avançada refere-se à concentração de serviços de alto valor agregado — finanças, consultorias, tecnologia e sedes corporativas — em poucos bairros das grandes metrópoles. Em São Paulo, eixos como a Avenida Paulista e a Faria Lima concentram os principais centros financeiros e empresariais do Brasil, enquanto periferias e cidades menores oferecem serviços básicos. Essa concentração espacial do terciário avançado aprofunda as desigualdades intraurbanas."
+  },
+  {
+    "id": 4,
+    "instituicao": "FTD",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "urbanização",
+      "planejamento urbano",
+      "associação de conceitos"
+    ],
+    "texto_apoio": "“[…] Com mais de 20 milhões de habitantes e papel importante na produção industrial brasileira, São Paulo é a única cidade latino-americana que aparece entre as mais poderosas do planeta daqui até 2030. Mas as metrópoles que deverão crescer mais são Lima, no Peru, e Monterrey, no México. “Esse crescimento se sustentará no tempo porque a economia peruana está sintonizada para o avanço do capital, e se preparou bem em termos de infraestrutura para manter essa tendência. Não é o que ocorre com outras megacidades como São Paulo e Cidade do México, que possuem problemas sérios de infraestrutura”, afirmou Holt [Richard Holt, diretor de investigação de cidades globais da Oxford Economics]. A infraestrutura é um dos grandes desafios do crescimento urbano, e demanda uma política conjunta de habitação, saúde, educação e transporte – algo que, normalmente, ultrapassa a capacidade das autoridades”.",
+    "fonte_apoio": "JUSTO, Marcelo. SP é única brasileira em ranking de 50 cidades com maior crescimento econômico até 2030. BBC Brasil, 5 fev. 2016. isponível em: www.bbc.com/portuguese/Notícias/2016/02/>. Acesso em: 6 abr. 2016.",
+    "pergunta": "O texto salienta a importância de associar:",
+    "alternativas": [
+      "urbanização e infraestrutura.",
+      "economia e escolaridade.",
+      "industrialização e urbanização.",
+      "metropolização e cultura.",
+      "violência e urbanização."
+    ],
+    "correta": 0,
+    "ajuda": "O texto destaca a relação entre dois processos urbanos. Pense em qual par de conceitos explica melhor a formação das metrópoles brasileiras e seus problemas sociais associados ao crescimento industrial acelerado.",
+    "comentario": "A urbanização sem infraestrutura adequada gera déficits crônicos de saneamento, transporte e habitação que comprometem a qualidade de vida urbana. O texto enfatiza que o crescimento das cidades deve ser acompanhado de investimentos em infraestrutura — como redes de água, esgoto e transporte público — para que seja sustentável. Planejar cidades implica antecipar demandas e prover serviços proporcionais ao crescimento populacional."
+  },
+  {
+    "id": 5,
+    "instituicao": "FMT",
+    "ano": "2015",
+    "dificuldade": "facil",
+    "tags": [
+      "urbanização",
+      "crescimento urbano",
+      "taxa de urbanização"
+    ],
+    "pergunta": "A urbanização ocorre quando a população no meio urbano cresce a taxas maiores que a população total. É resultado, principalmente do êxodo rural. Sobre a urbanização brasileira, assinale a alternativa INCORRETA.",
+    "alternativas": [
+      "A aglomeração populacional, em metrópoles é o resultado de fatores de expulsão do campo, em decorrência da concentração de terras, baixos salários e da expectativa pela maior oferta de empregos, que as cidades exercem sobre as correntes migratórias.",
+      "A intensa e acelerada urbanização brasileira resultou em uma série de problemas sociais urbanos, como o aumento do número de favelas, a falta de infraestrutura e todo o tipo de violência.",
+      "O eixo São Paulo-Rio de Janeiro tornou-se a primeira megalópole do Brasil e a primeira da América do Sul.c",
+      "As desigualdades no ritmo da urbanização refletem as disparidades econômicas e a inserção diferenciada década região brasileira na economia nacional.",
+      "A maior parte da população que se dirige às cidades, no Brasil, é empregada no setor secundário, ou seja é absorvida principalmente pelo processo de industrialização."
+    ],
+    "correta": 4,
+    "ajuda": "A urbanização no Brasil foi acelerada e desigual. Pense nas afirmativas sobre megalópoles, êxodo rural, desigualdades regionais e setores de emprego. Qual delas está incorreta: a maioria dos migrantes vai para o setor secundário ou terciário?",
+    "comentario": "A afirmativa está incorreta: no Brasil, a maior parte da população que migrou para as cidades foi absorvida principalmente pelo setor terciário — comércio, serviços domésticos e informais — e não pela indústria. O processo de urbanização brasileira foi mais rápido que a industrialização, gerando uma massa de trabalhadores urbanos sem emprego industrial. Esse fenômeno é chamado de 'urbanização sem industrialização' ou 'urbanização periférica'."
+  },
+  {
+    "id": 6,
+    "instituicao": "UDESC",
+    "ano": "2010",
+    "dificuldade": "facil",
+    "tags": [
+      "conurbação",
+      "metropolização",
+      "região metropolitana",
+      "urbanização"
+    ],
+    "pergunta": "Assinale a alternativa que contém a descrição correta do processo de conurbação:",
+    "alternativas": [
+      "É a reunião de cidades em torno de atividades comuns, formando redes econômicas especializadas em varejo ou atacado.",
+      "Conurbação é o movimento de trabalhadores que, diuturnamente, se deslocam para realizarem atividades de trabalho em municípios vizinhos.",
+      "Conurbação é o nome que se dá para o crescimento de duas ou mais cidades vizinhas, que acabam por formar um único aglomerado urbano. Em geral, numa conurbação existe uma cidade principal e uma (ou várias) cidade(s)-satélite.",
+      "Conurbação é o nome que se dá ao processo de êxodo rural que culmina na metropolização de áreas industriais recentes, formadas por polos econômicos.",
+      "É quando \"cidades locais\" se veem polarizadas por centros regionais que exercem influência sobre as vilas e as áreas rurais e suas vizinhanças."
+    ],
+    "correta": 2,
+    "ajuda": "Conurbação é um processo físico-territorial. Lembre-se que ela ocorre quando cidades vizinhas crescem horizontalmente até que suas áreas urbanas se fundem, formando uma mancha contínua sem fronteiras visíveis entre elas.",
+    "comentario": "A conurbação é o processo de fusão físico-territorial de duas ou mais cidades que crescem horizontalmente até se tocarem, perdendo os limites entre suas manchas urbanas. Nas regiões metropolitanas, isso cria continuidades urbanas com identidades distintas — cidade principal e cidades-satélite —, mas integradas funcionalmente em termos de trabalho, comércio e serviços. O Grande ABC paulista é um exemplo clássico desse processo no Brasil."
+  },
+  {
+    "id": 7,
+    "instituicao": "UNIFESP-SP",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "metropolização",
+      "urbanização brasileira",
+      "desigualdade urbana"
+    ],
+    "pergunta": "No Brasil, em decorrência do processo de urbanização, verificou-se uma intensa metropolização, da qual resultaram:",
+    "alternativas": [
+      "cidades médias, que se industrializaram após a abertura econômica da década de 1990, como Campinas e Ouro Preto.",
+      "metrópoles nacionais, sedes do poder econômico e político do país, como São Paulo, Brasília e Rio de Janeiro.",
+      "cidades mundiais, que receberam vultosos investimentos externos no início do século XXI, como Belo Horizonte e Rio de Janeiro.",
+      "megacidades dispersas pelo país, graças ao retorno de imigrantes, como Manaus, Goiânia e Curitiba.",
+      "metrópoles regionais, que constituem a primeira megalópole do país, como Fortaleza, Recife e Salvador."
+    ],
+    "correta": 1,
+    "ajuda": "As metrópoles brasileiras podem ser classificadas por sua importância: nacionais, regionais e globais. São Paulo e Rio de Janeiro são metrópoles nacionais. Brasília é capital política. Cuidado com a classificação de 'metrópoles globais'.",
+    "comentario": "As metrópoles nacionais concentram as funções de comando econômico e político do território, sendo sede de grandes empresas, instituições financeiras e órgãos governamentais. São Paulo lidera como metrópole econômica nacional; Brasília é a sede do poder federal; e Rio de Janeiro mantém funções culturais e financeiras de alcance nacional. Essas três cidades formam o núcleo da rede urbana brasileira de nível superior."
+  },
+  {
+    "id": 8,
+    "instituicao": "UFJF-MG",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "urbanização acelerada",
+      "metropolização",
+      "migração campo-cidade"
+    ],
+    "pergunta": "A segunda metade do século XX foi caracterizada, no Brasil, pelo acelerado processo de urbanização. Considerando esse processo, é INCORRETO afirmar que a urbanização intensa contribuiu, no país, para:",
+    "alternativas": [
+      "a formação de megalópoles em regiões de forte concentração industrial, como Belo Horizonte e Curitiba.",
+      "a transferência de grande contingente populacional do campo para as cidades, processo esse denominado êxedo rural.",
+      "o agravamento dos problemas ambientais típicos das grandes aglomerações, tais como as ilhas de calor urbano e os elevados índices de poluição do ar.",
+      "o desenvolvimento da conurbação, sobretudo nas transferências de grande contingente populacional do campo para as cidades, processo esse denominado êxedo rural.",
+      "Regiões metropolitanas que abrigam grande número de população."
+    ],
+    "correta": 0,
+    "ajuda": "A questão pede a alternativa INCORRETA sobre urbanização no Brasil. Lembre-se que o Brasil não tem megalópoles formadas em Belo Horizonte e Curitiba — a megalópole é no eixo São Paulo–Rio de Janeiro. Identifique a afirmativa falsa.",
+    "comentario": "A afirmativa está incorreta: as megalópoles brasileiras não se formaram em torno de Belo Horizonte e Curitiba, mas sim no eixo São Paulo–Rio de Janeiro–Belo Horizonte, que concentra a maior continuidade urbana do país. Megalópoles são aglomerações de metrópoles interligadas; no Brasil, esse processo ainda está em formação e é mais visível no litoral do Sudeste. Curitiba integra a região Sul com dinâmica própria, mas não configura megalópole."
+  },
+  {
+    "id": 9,
+    "instituicao": "UFG",
+    "ano": "2006",
+    "dificuldade": "media",
+    "tags": [
+      "urbanização",
+      "países subdesenvolvidos",
+      "metropolização",
+      "segunda metade do século XX"
+    ],
+    "pergunta": "A urbanização dos países subdesenvolvidos constitui um fenômeno marcante da segunda metade do século XX. As características desse fenômeno, na América Latina, expressas na paisagem urbana das metrópoles, são decorrentes da:",
+    "alternativas": [
+      "instalação de indústrias de bens de produção nos arredores das pequenas cidades e próximas às fontes de matéria-prima.",
+      "industrialização tardia e da modernização das atividades agrícolas, conjugadas à concentração de pessoas nas grandes cidades.",
+      "aglomeração humana e do aumento do poder aquisitivo da população, favorecidos pela expansão do capital financeiro na economia",
+      "inovação tecnológica e do aumento da produtividade das indústrias de bens de consumo, para suprirem as necessidades da vida urbana",
+      "implementação de parque industrial e da regulação, por meio do planejamento governamental, de deslocamentos populacionais para as cidades."
+    ],
+    "correta": 1,
+    "ajuda": "A urbanização latino-americana foi tardia, rápida e associada à industrialização e ao êxodo rural. Pense nas causas estruturais: modernização agrícola que expulsou trabalhadores e industrialização que atraiu populações para as cidades.",
+    "comentario": "A urbanização nos países subdesenvolvidos combinou industrialização tardia — que não gerou empregos suficientes — com modernização agrícola que expulsou trabalhadores do campo. Esse duplo processo criou cidades com crescimento acelerado mas infraestrutura precária e alto desemprego. O resultado foi a formação de periferias, favelas e economias informais urbanas características do Sul Global."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFVJM-MG",
+    "ano": "2006",
+    "dificuldade": "media",
+    "tags": [
+      "urbanização",
+      "metropolização",
+      "favelização",
+      "processos urbanos"
+    ],
+    "pergunta": "Considerando as características da urbanização, são processos em curso no Brasil os a seguir relacionados, EXCETO a:",
+    "alternativas": [
+      "urbanização constatada em algumas regiões com a introdução de atividades dos setores secundário e terciário no campo.",
+      "desmetropolização que vem ocorrendo como resultado da significativa elevação dos custos operacionais das indústrias nos grandes centros urbanos.",
+      "formação de regiões metropolitanas em torno de cidades que não ocupam a posição de capitais estaduais.",
+      "reversão da megalopolização no Sudeste que se verificava no final do século anterior, como consequência de políticas públicas adotadas nos municípios envolvidos."
+    ],
+    "correta": 3,
+    "ajuda": "A questão pede a alternativa que NÃO é um processo em curso no Brasil. Pense: a megalopolização no Sudeste cessou ou continuou? A reversão da megalopolização seria uma inversão da tendência histórica de concentração urbana.",
+    "comentario": "A afirmativa é falsa: no Brasil não ocorreu reversão da megalopolização no Sudeste por políticas públicas municipais. O que houve foi desconcentração relativa com o crescimento de cidades médias, mas o Sudeste mantém a maior concentração urbana do país. A megalopolização — fusão de áreas metropolitanas — continua sendo uma tendência, especialmente no eixo São Paulo–Campinas–Santos e no Rio de Janeiro."
+  }
+]

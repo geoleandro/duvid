@@ -20,13 +20,68 @@ document.addEventListener('DOMContentLoaded', () => {
             atualizarInterface();
         }
 
-        // 3. Opcional: Um único delay curto de segurança 
+        // 3. Opcional: Um único delay curto de segurança
         // apenas se o seu JSON de metadados demorar a carregar o DOM.
         setTimeout(() => {
             if (typeof atualizarInterface === "function") atualizarInterface();
         }, 100);
     }
+
+    // 4. Botão discreto "Salvar PDF" no primeiro tópico (cabeçalho da aula)
+    injetarBotaoSalvarPDF();
 });
+
+
+// --- BOTÃO DISCRETO DE SALVAR EM PDF ---
+// Injeta um link pequeno no primeiro .topico para o professor/aluno baixar o
+// conteúdo da aula como PDF, usando o diálogo nativo de impressão do navegador.
+function injetarBotaoSalvarPDF() {
+    const primeiroTopico = document.querySelector('.topico');
+    if (!primeiroTopico) return;
+    if (primeiroTopico.querySelector('.btn-salvar-pdf')) return; // idempotente
+
+    const wrapper = document.createElement('div');
+    wrapper.className = 'btn-salvar-pdf-wrapper w3-center';
+    wrapper.style.cssText = 'margin-top: 8px;';
+
+    const link = document.createElement('a');
+    link.className = 'btn-salvar-pdf w3-text-grey w3-small';
+    link.style.cssText = 'cursor: pointer; text-decoration: none; border-bottom: 1px dotted #999;';
+    link.innerHTML = '<i class="fa fa-file-pdf-o"></i> Salvar este texto em PDF';
+    link.title = 'Abre o diálogo de impressão — escolha "Salvar como PDF"';
+    link.onclick = (e) => {
+        e.preventDefault();
+        // Marca o body para o CSS @media print mostrar todos os tópicos
+        document.body.classList.add('imprimindo-texto');
+        window.print();
+        // Remove a classe depois (Chrome dispara afterprint)
+        setTimeout(() => {
+            document.body.classList.remove('imprimindo-texto');
+        }, 500);
+    };
+
+    wrapper.appendChild(link);
+
+    // POSICIONAMENTO (em ordem de preferência):
+    //   1. Logo após o painel "OUVIR AULA" (se existir <audio> no primeiro tópico)
+    //   2. Antes do bloco Conteúdo/Objetivo (fallback)
+    //   3. Antes do <hr> do primeiro tópico (fallback)
+    //   4. Final do primeiro tópico (último recurso)
+    const audio = primeiroTopico.querySelector('audio');
+    const painelAudio = audio ? audio.closest('.w3-panel') : null;
+    const blocoConteudo = primeiroTopico.querySelector('#descricao-aula')?.closest('.w3-container');
+    const hr = primeiroTopico.querySelector('hr');
+
+    if (painelAudio && painelAudio.parentNode === primeiroTopico) {
+        painelAudio.insertAdjacentElement('afterend', wrapper);
+    } else if (blocoConteudo && blocoConteudo.parentNode === primeiroTopico) {
+        primeiroTopico.insertBefore(wrapper, blocoConteudo);
+    } else if (hr && hr.parentNode === primeiroTopico) {
+        primeiroTopico.insertBefore(wrapper, hr);
+    } else {
+        primeiroTopico.appendChild(wrapper);
+    }
+}
 
 
 
@@ -56,6 +111,64 @@ function MostrarProximo(botao) {
 }
 
 
+
+// ── Botões auxiliares ──────────────────────────────────────────
+function MostraButton(id) {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'block';
+}
+function EscondeButton(id) {
+    const el = document.getElementById(id);
+    if (el) el.style.display = 'none';
+}
+
+// ── Exercício de múltiplas checkboxes ─────────────────────────
+// Uso: confereBox('acertou!', 'resp40', 'globinho40', [1,2,4])
+// respostasCorretas: array com os índices (1-based) das checkboxes certas
+// O botão "Próximo" (id="buttoncheck2") só aparece quando o aluno acerta tudo
+function confereBox(mensagem, idFrase, idGlobinho, respostasCorretas) {
+    const form     = document.getElementById('check');
+    const frase    = document.getElementById(idFrase);
+    const globo    = document.getElementById(idGlobinho);
+
+    // Coleta quais checkboxes estão marcadas (índice 1-based)
+    const checkboxes = form
+        ? form.querySelectorAll('input[type="checkbox"]')
+        : document.querySelectorAll('input[type="checkbox"]');
+
+    const marcadas = [];
+    checkboxes.forEach((cb, i) => { if (cb.checked) marcadas.push(i + 1); });
+
+    // Compara marcadas com corretas (tamanho + conteúdo)
+    const corretas = respostasCorretas || [];
+    const acertou  =
+        marcadas.length === corretas.length &&
+        marcadas.every(n => corretas.includes(n));
+
+    if (acertou) {
+        // Feedback positivo
+        if (frase)  frase.innerHTML  = nomeEstudante + ', ' + mensagem + '.';
+        if (globo)  globo.style.display = 'block';
+
+        // Pontuação
+        nota += 2;
+        const notaEl = document.getElementById('notaFixa');
+        if (notaEl) notaEl.innerHTML = nota.toFixed(1);
+
+        // Áudio de acerto (se disponível)
+        if (typeof Play === 'function') Play('../audio1.mp3');
+
+        // Desabilita checkboxes e troca botões
+        checkboxes.forEach(cb => cb.disabled = true);
+        EscondeButton('buttoncheck1');
+        MostraButton('buttoncheck2');
+
+    } else {
+        // Feedback negativo — mantém "Próximo" escondido
+        if (frase) frase.innerHTML = nomeEstudante + ', marque apenas as opções corretas para prosseguir.';
+        if (typeof Play2 === 'function') Play2('../audio2.mp3');
+    }
+}
 
 function ProcessarResposta(selecionado, config) {
     let { correto, idFrase, idGlobo, nomeGrupo, mensagem, pontos } = config;
@@ -327,10 +440,13 @@ async function injetarMetadadosAula() {
     const ano = anoMatch[1];
 
     try {
-        const aulas = await DuvidCache.get(`js/aulas-${ano}ano.json`); // << NOVO
+        const aulas = await DuvidCache.get(`/js/aulas-${ano}ano.json`); // << NOVO
 
-        // 2. Busca os dados da aula atual no JSON (Usando o "pulo do gato" sênior)
-        const aulaDados = aulas.find(a => a.linkTexto && a.linkTexto.includes(aulaArquivo));
+        // 2. Busca os dados da aula atual no JSON
+        // Usa optional chaining (?.) para não quebrar se linkTexto for null
+        // (ex: aulas de revisão que só têm questões, sem texto)
+        if (!Array.isArray(aulas) || !aulaArquivo) return;
+        const aulaDados = aulas.find(a => a.linkTexto?.includes(aulaArquivo));
 
         if (aulaDados) {
             tituloAulaGlobal = aulaDados.titulo;
@@ -343,10 +459,16 @@ async function injetarMetadadosAula() {
             const desc = document.getElementById('descricao-aula');
             if (desc) desc.innerText = aulaDados.conteudo;
 
+            const obj = document.getElementById('objetivo-aula');
+            if (obj && aulaDados.objetivo) obj.innerText = aulaDados.objetivo;
+
+            const audioSource = document.getElementById('audioSource');
+            if (audioSource && aulaDados.audio) audioSource.src = aulaDados.audio;
+
             configurarSEOAutomatico(aulaDados.id, 'texto');
 
-              await injetarBibliografiaAula(aulaDados.bibliografia);
-              await injetarLinksAula(aulaDados.links);
+            await injetarBibliografiaAula(aulaDados.bibliografia);
+            await injetarLinksAula(aulaDados.links);
         }
     } catch (e) {
         console.error("Erro ao injetar metadados:", e);
@@ -367,81 +489,92 @@ function Aparecer(imagem, paragrafo) {
 
 
 /**
- * Valida respostas abertas de forma flexível
- * @param {string} inputId - ID do campo de texto
- * @param {string} gabarito - Resposta correta esperada
- * @param {string} feedbackId - Onde exibir o texto de retorno
- * @param {HTMLElement} btn - O botão que foi clicado
- * @param {string} globinhoId - ID da imagem do globinho
+ * Valida respostas abertas de forma flexível.
+ * A resposta do aluno é aceita se CONTIVER o gabarito (case-insensitive).
+ *
+ * @param {string}      inputId    - ID do campo de texto
+ * @param {string}      gabarito   - Palavra/frase correta esperada
+ * @param {string}      feedbackId - ID do <p> onde exibir o retorno
+ * @param {HTMLElement} btn        - O botão "Conferir" clicado
+ * @param {string}      globinhoId - ID da imagem do globinho
  */
 function validarAberta(inputId, gabarito, feedbackId, btn, globinhoId) {
-    const inputElement = document.getElementById(inputId);
-    const feedbackElement = document.getElementById(feedbackId);
+    const inputEl    = document.getElementById(inputId);
+    const feedbackEl = document.getElementById(feedbackId);
+    const globoEl    = document.getElementById(globinhoId);
 
-    // 1. Tratamento da string (O "pulo do gato" sênior)
-    // Converte para minúsculo e remove espaços inúteis no início/fim
-    let respostaUser = inputElement.value.toLowerCase().trim();
+    const respostaUser = inputEl.value.toLowerCase().trim();
 
-    // 2. Lógica de validação
-    if (respostaUser === "") {
-        feedbackElement.innerHTML = "<span class='w3-text-red'>Escreva algo antes de conferir!</span>";
-        playSom('erro'); // ou Play2("../audio2.mp3");
+    // 1. Vazio
+    if (respostaUser === '') {
+        feedbackEl.innerHTML = "<span class='w3-text-red'>Escreva algo antes de conferir!</span>";
+        if (typeof Play2 === 'function') Play2('../audio2.mp3');
         return;
     }
 
-    // Compara a resposta (pode usar regex se quiser aceitar "no noroeste" e "noroeste")
-    if (respostaUser.includes(gabarito)) {
-        // ACERTO
-        inputElement.disabled = true;
-        inputElement.classList.add("w3-pale-green");
+    // 2. Compara (contém o gabarito)
+    if (respostaUser.includes(gabarito.toLowerCase())) {
+        // ── ACERTO ──────────────────────────────────────────────
+        inputEl.disabled = true;
+        inputEl.classList.remove('w3-border-red');
+        inputEl.classList.add('w3-pale-green');
         btn.style.display = 'none';
 
-        feedbackElement.innerHTML = `<span class='w3-text-green'><b>Correto!</b> A resposta é ${gabarito}.</span>`;
+        feedbackEl.innerHTML = `<span class='w3-text-green'><b>Correto! ✔</b></span>`;
 
-        // Gamificação
-        document.getElementById(globinhoId).style.display = "inline-block";
-        executarGatilhoResultado(true, 10); // Função do seu UI.js que soma pontos e faz confete
+        if (globoEl) {
+            globoEl.style.display  = 'inline-block';
+            globoEl.style.filter   = 'none';
+            globoEl.classList.add('pulo-elastico');
+        }
 
-        // Verifica se todas do bloco foram respondidas para mostrar o "Próximo"
-        verificarProgressoBloco();
+        // Pontuação interna
+        nota += 2;
+        const notaEl = document.getElementById('notaFixa');
+        if (notaEl) notaEl.innerHTML = nota.toFixed(1);
+
+        if (typeof Play === 'function') Play('../audio1.mp3');
+        if (typeof executarGatilhoResultado === 'function') executarGatilhoResultado(true, 2);
+
+        // Libera o botão "Próximo" quando todo o bloco estiver resolvido
+        verificarProgressoBloco(btn);
+
     } else {
-        // ERRO
-        inputElement.classList.add("w3-border-red");
-        feedbackElement.innerHTML = "<span class='w3-text-red'>Tente novamente! Observe a rosa dos ventos.</span>";
-        playSom('erro');
+        // ── ERRO ────────────────────────────────────────────────
+        inputEl.classList.add('w3-border-red');
+        feedbackEl.innerHTML = "<span class='w3-text-red'>Não é bem isso — tente novamente!</span>";
+        if (typeof Play2 === 'function') Play2('../audio2.mp3');
     }
 }
 
 /**
- * Verifica se todas as perguntas do tópico atual foram respondidas
- * para liberar o botão de próximo de forma automática.
+ * Verifica se todos os inputs de texto do bloco já foram respondidos.
+ * Quando sim, exibe o botão "Próximo" do tópico.
+ *
+ * @param {HTMLElement} [triggerEl] - Elemento que disparou a ação
+ *   (usado para localizar o tópico pai via closest).
+ *   Se omitido, busca o primeiro tópico visível.
  */
-function verificarProgressoBloco() {
-    // 1. Encontra o tópico que está visível no momento
-    const topicoAtual = document.querySelector('.topico.mostrar');
+function verificarProgressoBloco(triggerEl) {
+    // 1. Acha o tópico pai
+    const topicoAtual = triggerEl
+        ? triggerEl.closest('.topico')
+        : document.querySelector('.topico.mostrar') ||
+          document.querySelector('.topico:first-child');
     if (!topicoAtual) return;
 
-    // 2. Conta quantos inputs de texto ou rádio existem neste tópico
-    // (Ajuste os seletores conforme sua necessidade)
-    const perguntas = topicoAtual.querySelectorAll('input[type="text"], .grupo-respostas');
-    const totalPerguntas = perguntas.length;
+    // 2. Conta apenas inputs de texto (ignora radios, checkboxes, botões)
+    const perguntas   = topicoAtual.querySelectorAll('input[type="text"]');
+    const respondidas = topicoAtual.querySelectorAll('input[type="text"]:disabled');
 
-    // 3. Conta quantos desses já foram "concluídos" (Inputs desativados)
-    const respondidas = topicoAtual.querySelectorAll('input:disabled').length;
+    if (perguntas.length === 0 || respondidas.length < perguntas.length) return;
 
-    // Se for um bloco de rádio, a lógica muda um pouco, 
-    // mas para campos de texto desativados:
-    if (respondidas >= totalPerguntas && totalPerguntas > 0) {
-        // 4. Localiza o botão de próximo deste tópico específico e o exibe
-        const btnNext = topicoAtual.querySelector('.btnShow[style*="display: none"], .btnHide');
-        if (btnNext) {
-            btnNext.style.display = 'block';
-            btnNext.classList.add('w3-animate-zoom'); // Efeito visual de "liberado"
-
-            // Opcional: Tocar um som de "Seção Concluída"
-            if (typeof playSom === 'function') playSom('click');
-
-        }
+    // 3. Exibe o botão "Próximo" do bloco
+    const btnNext = topicoAtual.querySelector('.btnHide');
+    if (btnNext) {
+        btnNext.style.display = 'block';
+        btnNext.classList.add('w3-animate-zoom');
+        if (typeof Play === 'function') Play('../audio1.mp3');
     }
 }
 
@@ -453,7 +586,7 @@ const injetarModalFinalizacao = () => {
         <div class="w3-modal-content w3-card-4 w3-animate-zoom w3-round-large" style="max-width:450px">
             <div class="w3-container w3-padding-32 w3-center">
                 <div class="w3-margin-bottom pulse">
-                    <img id="modal-img-globinho" src="../../../fotoIndex/globinhoPe.png" width="64" height="64">
+                    <img id="modal-img-globinho" src="/fotoIndex/globinhoPe.png" width="64" height="64">
                 </div>
                 <h2 id="modal-titulo" class="fontePixel"></h2>
                 <div class="w3-padding-16">
@@ -497,7 +630,7 @@ const injetarModalFinalizacao = () => {
  */
 async function carregarBibliografias() {
     try {
-        const biblio = await DuvidCache.get('js/bibliografias.json');
+        const biblio = await DuvidCache.get('/js/bibliografias.json');
         return biblio || null;
     } catch (e) {
         console.error("Erro ao carregar bibliografias.json:", e);
@@ -589,7 +722,7 @@ async function injetarBibliografiaAula(chaves, containerId = 'biblio-gerada') {
  */
 async function carregarLinks() {
     try {
-        const links = await DuvidCache.get('js/links.json');
+        const links = await DuvidCache.get('/js/links.json');
         return links || null;
     } catch (e) {
         console.error("Erro ao carregar links.json:", e);
@@ -668,3 +801,29 @@ async function injetarLinksAula(chaves, containerId = 'links-gerados') {
 
 // Chama a injeção automaticamente quando o script carregar
 document.addEventListener('DOMContentLoaded', injetarModalFinalizacao);
+
+
+// ── Frases aleatórias para a seção P&R ──────────────────────────────────────
+const PR_FRASES = [
+    "Essas perguntas parecem simples. Elas não são.",
+    "Todo geógrafo começou com exatamente essas dúvidas.",
+    "As perguntas que ninguém faz em voz alta, mas todo mundo tem.",
+    "Pergunta boa não é a mais difícil. É a mais honesta.",
+    "Antes de responder, você precisava saber o que perguntar.",
+    "Não existe pergunta boba. Existe pergunta não feita.",
+    "Questionar é o que separa quem entende do que passou os olhos.",
+    "Toda descoberta começa com uma dúvida que alguém teve coragem de fazer.",
+    "A ciência avança porque alguém achou que valia a pena perguntar.",
+    "Se você teve essa dúvida, está no caminho certo.",
+    "A pergunta que parece óbvia costuma ser a mais difícil de responder.",
+    "Quem não pergunta, não aprende. Quem pergunta aprende mais."
+];
+
+function sortearFrasePR() {
+    const el = document.getElementById('titulo-pr');
+    if (!el) return;
+    const i = Math.floor(Math.random() * PR_FRASES.length);
+    el.textContent = PR_FRASES[i];
+}
+
+document.addEventListener('DOMContentLoaded', sortearFrasePR);

@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UERJ",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "Estado Islâmico",
+      "ISIS",
+      "terrorismo",
+      "Oriente Médio",
+      "geopolítica"
+    ],
+    "imagem_apoio": "3ano/img/328/t28q1.png",
+    "pergunta": "Entre 2014 e 2017, derrotar o Estado Islâmico (ISIS) foi uma das prioridades da política externa dos Estados Unidos. Ao final de 2017, o ISIS foi considerado militarmente derrotado, perdendo o controle de praticamente todos os territórios que havia conquistado na Síria e no Iraque.\n\nA charge aponta a existência de uma incoerência entre os seguintes aspectos da política externa estadunidense no Oriente Médio:",
+    "alternativas": [
+      "alinhamento étnico e liberdade religiosa.",
+      "fundamento ideológico e interesse econômico.",
+      "conservadorismo social e protagonismo ambiental.",
+      "multilateralismo diplomático e unilateralismo bélico."
+    ],
+    "correta": 1,
+    "comentario": "A charge ironiza a incoerência entre o discurso ideológico americano (democracia, direitos humanos) e seus interesses econômicos no Oriente Médio: os EUA combateram o Estado Islâmico, mas mantiveram alianças com regimes autoritários que financiavam esses grupos — como a Arábia Saudita. O petróleo explica muito dessa contradição.",
+    "ajuda": "O Estado Islâmico (ISIS) surgiu da combinação de radicalismo religioso sunita com ressentimentos políticos de ex-militares iraquianos. Pense em qual par de fatores — ideológico e geopolítico — melhor explica a origem e a sustentação desse grupo."
+  },
+  {
+    "id": 2,
+    "instituicao": "ENEM",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "crise humanitária",
+      "deslocamento forçado",
+      "conflito",
+      "refugiados"
+    ],
+    "texto_apoio": "“Em Beirute, no Líbano, quando perguntado sobre onde se encontram os refugiados sírios, a resposta do homem é imediata: “em todos os lugares e em lugar nenhum”. Andando ao acaso, não é raro ver , sob um prédio ou num canto de calçada, ao abrigo do vento, uma família refugiada em volta de uma refeição frugal posta sobre jornais como se fossem guardanapos. Também se vê de vez em quando uma tenda com a sigla ACNUR (Alto Comissariado das Nações Unidas para Refugiados), erguida em um dos raros terrenos vagos da capital”.",
+    "fonte_apoio": "JABER, H. Quem realmente acolhe os refugiados? Le Monde Diplomatique Brasil, out. 2015 (adaptado).",
+    "pergunta": "O cenário descrito aponta para uma crise humanitária que é explicada pelo processo de:",
+    "alternativas": [
+      "Migração massiva de pessoas atingidas por catástrofe natural.",
+      "Hibridização cultural de grupos caracterizados por homogeneidade social.",
+      "Desmobilização voluntária de militantes cooptados por seitas extremistas.",
+      "Peregrinação religiosa de fiéis orientados por lideranças fundamentalistas.",
+      "Desterritorialização forçada de populações afetadas por conflitos armados."
+    ],
+    "correta": 4,
+    "comentario": "O conflito na Síria (desde 2011) gerou uma das maiores crises de refugiados desde a Segunda Guerra Mundial: mais de 6,6 milhões de sírios fugiram para outros países. O Líbano, com menos de 5 milhões de habitantes, recebeu mais de 1 milhão de refugiados sírios — o maior número per capita do mundo.",
+    "ajuda": "O texto descreve uma situação de crise humanitária com deslocamento forçado de populações. No Oriente Médio, guerras civis e conflitos étnicos geram milhões de deslocados internos e refugiados. Identifique qual conceito geográfico descreve melhor esse processo."
+  },
+  {
+    "id": 3,
+    "instituicao": "ENEM",
+    "ano": "2018",
+    "dificuldade": "dificil",
+    "tags": [
+      "Israel",
+      "Palestina",
+      "sionismo",
+      "ocupação",
+      "geopolítica"
+    ],
+    "fonte_apoio": "DEMANT, P. Israel: a crise próxima. História, n. 2. jul.-dez. 2014.",
+    "pergunta": "A situação demográfica de Israel é muito particular. Desde 1967, a esquerda sionista afirma que Israel deveria se desfazer rapidamente da Cisjordânia e da Faixa de Gaza, argumentando a partir de uma lógica demográfica aparentemente inexorável. Devido à taxa de nascimento árabe ser muito mais elevada, a anexação dos territórios palestinos, formal ou informal, acarretaria dentro de uma ou duas gerações uma maioria árabe \"entre o rio e o mar\".\n\nA preocupação apresentada no texto revela um aspecto da condução política desse Estado identificado ao(à)",
+    "alternativas": [
+      "abdicação da interferência militar em conflito local.",
+      "busca da preeminência étnica sobre o espaço nacional.",
+      "admissão da participação proativa em blocos regionais.",
+      "rompimento com os interesses geopolíticos das potências globais.",
+      "compromisso com as resoluções emanadas dos organismos internacionais."
+    ],
+    "correta": 1,
+    "comentario": "A questão demográfica de Israel é geopolítica: se a Cisjordânia e Gaza fossem formalmente anexadas, a população árabe eventualmente superaria a judaica, tornando inviável um Estado judeu democrático. Esse argumento demográfico motiva os sionistas de esquerda a defenderem uma solução de dois Estados.",
+    "ajuda": "O conflito israelense-palestino envolve disputas territoriais, étnicas e religiosas. A esquerda sionista mencionada defende uma solução de dois Estados como saída democrática. Pense em qual objetivo político essa posição busca alcançar."
+  },
+  {
+    "id": 4,
+    "instituicao": "UEA-SIS",
+    "ano": "2018",
+    "dificuldade": "dificil",
+    "tags": [
+      "Israel",
+      "Palestina",
+      "mapa",
+      "fronteiras",
+      "ocupação"
+    ],
+    "imagem_apoio": "3ano/img/328/t28q4.png",
+    "pergunta": "Concernente à questão entre Israel e Palestina, as linhas “construído” e “projetado” no mapa correspondem.",
+    "alternativas": [
+      "à transposição de água potável, que é utilizada para irrigar os cultivos jordanianos.",
+      "ao trecho georreferenciado que deveria caracterizar a fronteira de Israel.",
+      "à rota que exporta manufaturas israelenses à Jordânia.",
+      "ao muro que isola os palestinos, controlado pelo exército israelense.",
+      "à parcela do território que corresponde à chamada Faixa de Gaza."
+    ],
+    "correta": 3,
+    "comentario": "A Barreira de Separação israelense (também chamada de 'muro da vergonha' pelos palestinos) consiste em cerca de 700 km de muro de concreto e cercas eletrônicas que separam Israel e os assentamentos judaicos dos territórios palestinos. A Corte Internacional de Justiça declarou sua construção ilegal em 2004.",
+    "ajuda": "O muro de separação israelense (Barreira da Cisjordânia) isola os territórios palestinos e é criticado internacionalmente. O mapa provavelmente mostra as linhas de construção e projetadas dessa estrutura. Identifique qual alternativa descreve corretamente o que as linhas representam."
+  },
+  {
+    "id": 5,
+    "instituicao": "ENEM",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "ONU",
+      "resolução",
+      "Oriente Médio",
+      "geopolítica",
+      "divisão territorial"
+    ],
+    "texto_apoio": "“Palestinos se agruparam em frente a aparelhos de televisão e telas montadas ao ar livre em Ramalah, na Cisjordânia, para acompanhar o voto da resolução que pedia o reconhecimento da chamada Palestina como um Estado observador não membro da Organização das Nações Unidas (ONU). O objetivo era esperar pelo nascimento, ao menos-formal, de um Estado palestino. Depois da aprovação da resolução, centenas de pessoas foram à praça da cidade com bandeiras palestinas, soltaram fogos de artifício, fizeram buzinaços e dançaram pelas ruas. Aprovada com 138 votos dos 193 da Assembleia-Geral, a Comentário: eleva o status do Estado palestino perante a organização. Palestinos comemoram elevação de status na ONU com bandeiras e fogos”.",
+    "fonte_apoio": "Disponível em: http://folha.com. Acesso em: 4 dez. 2012 (adaptado)",
+    "pergunta": "A mencionada resolução da ONU referendou o (a)",
+    "alternativas": [
+      "delimitação institucional das fronteiras territoriais.",
+      "aumento da qualidade de vida da população local.",
+      "implementação do tratado de paz com os israelenses.",
+      "apoio da comunidade internacional à demanda nacional.",
+      "equiparação da condição política com a dos demais países."
+    ],
+    "correta": 3,
+    "comentario": "Em novembro de 2012, a ONU aprovou por 138 votos a 9 o reconhecimento da Palestina como Estado observador não membro — um passo simbólico importante que demonstrou o amplo apoio internacional à criação de um Estado palestino independente, apesar da oposição de Israel e dos EUA.",
+    "ajuda": "As resoluções da ONU sobre o conflito israelense-palestino frequentemente abordam questões como o status de Jerusalém, o direito de retorno dos refugiados e a criação de um Estado palestino. Identifique qual resolução específica o texto menciona e o que ela referendou."
+  },
+  {
+    "id": 6,
+    "instituicao": "UNB",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "conflito palestino-israelense",
+      "história",
+      "território",
+      "animação"
+    ],
+    "imagem_apoio": "3ano/img/328/t28q6.png",
+    "pergunta": "Um desenho animado irônico, satírico e inteligente, feito pela cartunista norte-americana Nina Paley, mostra o conflito histórico pelo domínio da região conhecida como Terra Santa. O desenho, intitulado This Land is Mine, ilustra a matança dos povos habitantes daquela região. This Land is Mine é uma paródia de The Exodus Song. Esta música era uma espécie de trilha sonora do sionismo norte-americano nas décadas de 60 e 70 do século passado para expressar o direito judaico sobre Israel. Ao colocar a música para todos os que estão em guerra cantarem, também se está criticando a canção original. Respeitando a cronologia das guerras, o desenho animado representa todas elas em torno da Terra Santa — nome bíblico que compreende o território de Israel, da Cisjordânia e de parte da Jordânia, que teria sido prometida ao povo judeu no Antigo Testamento.\n\nConsiderando o texto e a imagem anteriormente apresentados, julgue o item.\n\nO texto menciona áreas situadas na região modernamente conhecida como Oriente Médio. Além de estratégica para a economia e a geopolítica do mundo contemporâneo, essa região é o berço histórico das três grandes religiões monoteístas: judaísmo, cristianismo e islamismo. Por adotar uma doutrina universalista desde a sua criação até os dias atuais, o Islã não se envolveu com questões de ordem política.",
+    "alternativas": [
+      "Certa.",
+      "Errada."
+    ],
+    "correta": 1,
+    "comentario": "A afirmação de que o Islã nunca se envolveu com questões políticas é errada. Ao contrário: o Islã integra política e religião desde sua fundação — o califado islâmico era simultaneamente uma entidade religiosa e política. Movimentos como os Irmãos Muçulmanos, Hamas e Hezbollah são exemplos políticos contemporâneos.",
+    "ajuda": "O cartum de Nina Paley sobre o conflito histórico pela terra entre judeus e palestinos provavelmente apresenta uma visão irônica sobre o ciclo de violência e reivindicações territoriais. Avalie se a afirmativa sobre o conteúdo do cartum é correta ou errada."
+  },
+  {
+    "id": 7,
+    "instituicao": "URCA",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "Síria",
+      "guerra civil",
+      "Assad",
+      "rebeldes",
+      "conflito"
+    ],
+    "pergunta": "O conflito neste País nasceu do embate entre as forças leais ao Presidente Bashar Al¬Assad e os rebeldes que são contra a permanência dele no poder. Em 2011, seguindo o exemplo de outros países árabes, os habitantes protestaram contra o líder autoritário. A reação do governo foi imediata e violenta e muitos moradores pegaram em armas.\n\nFoi o início da guerra civil n(o)a:",
+    "alternativas": [
+      "Turquia.",
+      "Síria.",
+      "Arábia Saudita.",
+      "Iraque.",
+      "Irã."
+    ],
+    "correta": 1,
+    "comentario": "A Guerra Civil Síria começou em março de 2011 com protestos da Primavera Árabe contra o regime autoritário de Bashar al-Assad. A repressão violenta transformou os protestos em guerra civil, com a intervenção de múltiplos atores externos (Rússia, EUA, Turquia, Irã, Arábia Saudita) convertendo o país em campo de batalha geopolítico.",
+    "ajuda": "A Guerra Civil Síria começou em 2011 com protestos da Primavera Árabe e evoluiu para um conflito complexo envolvendo o governo de Assad, rebeldes, o Estado Islâmico e potências estrangeiras. Identifique qual país o texto descreve."
+  },
+  {
+    "id": 8,
+    "instituicao": "UPF",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "Oriente Médio",
+      "conflitos",
+      "petróleo",
+      "geopolítica",
+      "guerras"
+    ],
+    "pergunta": "O Oriente Médio nas últimas décadas tem sido abalado por vários conflitos, como a Guerra do Líbano, o conflito Irã/Iraque, a Guerra do Golfo e a questão Palestina.\n\nAssinale a alternativa cujo fator informado apresenta a melhor relação com a origem dessa situação conflituosa.",
+    "alternativas": [
+      "A criação do Estado de Israel, sob a tutela alemã-britânica, numa região de ricas reservas de petróleo.",
+      "O emaranhado de diferentes culturas, religiões e interesses estrangeiros numa área localizada a meio caminho entre a Ásia, a Europa e a África.",
+      "A disputa das poucas terras favoráveis ao cultivo numa área desértica, como as encontradas na planície da Mesopotâmia.",
+      "Os grandes lucros provenientes do petróleo que beneficiam apenas uma pequena parte da população nos países árabes.",
+      "O aumento, de forma rápida e acentuada, do preço do barril de petróleo nos países membros da OPEP (Organização dos Países Exportadores de Petróleo)."
+    ],
+    "correta": 1,
+    "comentario": "O Oriente Médio é permanentemente instável por ser o ponto de confluência de três civilizações (árabe, persa, judaica), três religiões monoteístas (judaísmo, cristianismo, islamismo), três impérios extintos (otomano, britânico, americano) e as maiores reservas de petróleo do planeta.",
+    "ajuda": "O Oriente Médio é marcado por conflitos relacionados a questões religiosas (sunitas x xiitas), territoriais (Israel-Palestina), petrolíferas e de influência externa. Identifique qual fator estrutural é a principal causa dos conflitos nessa região."
+  },
+  {
+    "id": 9,
+    "instituicao": "UPF",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "conflito palestino-israelense",
+      "questão palestina",
+      "Oriente Médio"
+    ],
+    "imagem_apoio": "3ano/img/328/t28q9.png",
+    "pergunta": "Iniciado em 1948, o conflito palestino- israelense constituiu, no Oriente Médio, o que se convencionou chamar de Questão Palestina, e que, ainda hoje, está longe de ser resolvida. A charge a seguir faz referência a esse conflito, apontando para o fato de que nem israelenses, nem palestinos são donos da razão numa região marcada pela violência.\n\nAssinale a alternativa que indica a razão pela qual se deu o início do conflito palestino-israelense.",
+    "alternativas": [
+      "A exigência, pelos países do Oriente Médio, do cumprimento do Plano da ONU para a região da Palestina, que criava, em todo o território, o Estado Palestino, no final da Segunda Guerra Mundial.",
+      "A incapacidade dos países vencedores da Segunda Guerra de garantir a paz no Ocidente nos anos posteriores ao conflito, provocando uma fuga em massa de judeus para a Palestina.",
+      "O estabelecimento de uma instabilidade nas relações internacionais, pelo recém-criado Estado de Israel, que contava com o apoio dos Estados Unidos, da União Soviética e da ONU.",
+      "A recusa árabe a partilha da Palestina, imposta pela ONU, que submeteu a maior parte do território ao controle do recém- criado Estado de Israel, sem que se respeitasse a soberania dos povos dessa região.",
+      "A extinção oficial do mandato britânico sobre a Palestina, no final da Segunda Guerra, com reconhecimento imediato, pelos países vencedores, da independência de todos os países do Oriente Médio."
+    ],
+    "correta": 3,
+    "comentario": "A criação do Estado de Israel em 1948, com base no plano de partilha da ONU, levou à primeira Guerra Árabe-Israelense. Os palestinos chamam esse evento de 'Nakba' (catástrofe): cerca de 700 mil árabes foram expulsos ou fugiram de suas casas, criando o problema dos refugiados palestinos que persiste até hoje.",
+    "ajuda": "O conflito palestino-israelense tem origem em 1948 com a criação do Estado de Israel e a consequente expulsão de árabes palestinos (a Nakba). Pense em qual evento histórico está na raiz da questão palestina como ela é conhecida hoje."
+  },
+  {
+    "id": 10,
+    "instituicao": "ESPCEX",
+    "ano": "2012",
+    "dificuldade": "media",
+    "tags": [
+      "conflito árabe-israelense",
+      "criação de Israel",
+      "Palestina",
+      "ONU"
+    ],
+    "pergunta": "O conflito árabe-israelense está relacionado com a criação de um Estado judeu na Palestina em 1948. Essa região era então habitada por árabes muçulmanos que se opuseram à divisão das terras. As guerras entre os dois povos transformaram o Oriente Médio numa das regiões mais instáveis do globo.\n\nLeia as afirmações abaixo sobre esse conflito e suas origens:\n\nI – A ONU não apoiou e se absteve de qualquer envolvimento no processo de criação do Estado de Israel, já que pretendia evitar o surgimento de novos conflitos após a Segunda Guerra Mundial.\n\nII – A mais decisiva das guerras árabe-israelenses, do ponto de vista da alteração das fronteiras, foi a Guerra dos Seis Dias, em 1967, quando Israel ocupou o Sinai, a Faixa de Gaza, Cisjordânia e as Colinas de Golan.\n\nIII – Os conflitos acabaram levando à formação de campos de refugiados, onde passaram a viver milhares de palestinos.\n\nIV – Em 1973, com a Guerra do Yom Kippur, a OPEP interrompeu o fornecimento de petróleo para os países aliados de Israel, provocando grande aumento no preço do produto.\n\nV – Durante a Guerra Fria, os Estados Unidos e a União Soviética buscaram uma política neutra e não tiveram nenhum envolvimento nas guerras árabe-israelenses.\n\nAssinale a única alternativa em que todos os itens estão corretos",
+    "alternativas": [
+      "II, III, IV e V.",
+      "II, III e IV.",
+      "I, II, III e IV.",
+      "II, IV e V.",
+      "I, IV e V."
+    ],
+    "correta": 1,
+    "comentario": "As afirmativas corretas são II, III e IV: a Guerra dos Seis Dias (1967) redefiniu as fronteiras ao ocupar Sinai, Gaza, Cisjordânia e Golã; os conflitos geraram campos de refugiados palestinos; e a Guerra do Yom Kippur (1973) desencadeou o embargo petrolífero da OPEP. A afirmativa I é falsa (a ONU votou pela partilha) e a V é falsa (EUA e URSS estiveram muito envolvidos).",
+    "ajuda": "O conflito árabe-israelense envolve múltiplas dimensões: religiosa, territorial, histórica e geopolítica. Avalie as afirmativas sobre as causas e consequências desse conflito, identificando quais são corretas com base nos fatos históricos."
+  }
+]

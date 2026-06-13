@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "instituicao": "CESMAC",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "sistemas agrícolas",
+      "agricultura tradicional",
+      "produção alimentar"
+    ],
+    "pergunta": "Apesar da expansão da agricultura moderna, os chamados sistemas agrícolas tradicionais persistem em diversos países do mundo. Em relação a esses sistemas agrícolas tradicionais, assinale a alternativa que apresenta as características da Rizicultura Asiática.",
+    "alternativas": [
+      "essa prática agrícola teve início na expansão do colonialismo europeu em diversos países tropicais; ela ocorre em grandes extensões de terras e com produção de monocultura, destinada à exportação.",
+      "essa prática agrícola é realizada em áreas de planícies, mas pode ser feita em lugares de relevo acidentado, com técnicas de terraceamento, com a produção destinada ao abastecimento interno.",
+      "esse sistema agrícola, geralmente é aplicado em pequenas propriedades rurais, emprega mão-de-obra familiar e técnicas bastante rudimentares de cultivo, utilizando as queimadas.",
+      "nesse sistema agrícola a terra é o meio de garantir a subsistência da família, acrescida da pecuária extensiva.",
+      "essa prática agrícola desenvolve-se em áreas pouco integradas ao sistema agrícola capitalista, utilizando a técnica do pousio, para a regeneração parcial da fertilidade do solo."
+    ],
+    "correta": 1,
+    "comentario": "A rizicultura asiática de jardinagem é um dos sistemas agrícolas mais intensivos do mundo: cultiva arroz em terraços inundados (técnica milenar), com mão de obra familiar intensa e produção destinada ao consumo local. Essa prática alimenta mais de 3 bilhões de pessoas na Ásia e é símbolo de adaptação humana ao relevo montanhoso.",
+    "ajuda": "Os sistemas agrícolas tradicionais (itinerante, de subsistência) convivem com a agricultura moderna. Pense em quais características definem esses sistemas — baixo uso de insumos, integração com o ecossistema local e técnicas ancestrais."
+  },
+  {
+    "id": 2,
+    "instituicao": "UFAL",
+    "ano": "2014",
+    "dificuldade": "facil",
+    "tags": [
+      "pecuária intensiva",
+      "confinamento",
+      "agronegócio"
+    ],
+    "fonte_apoio": "Disponível em: http://www.revistaplantar. Acesso em: 30/11/2013.",
+    "imagem_apoio": "3ano/img/313/t13q2.png",
+    "pergunta": "A pecuária desenvolvida com o gado confinado, utilizando ração, cuidados sanitários constantes, visando a precocidade do crescimento e do abate ou o aumento da produção de leite é conhecida como criação.",
+    "alternativas": [
+      "intensiva.",
+      "extensiva.",
+      "semi-intensiva.",
+      "semiextensiva.",
+      "natural."
+    ],
+    "correta": 0,
+    "comentario": "A pecuária intensiva ou confinada representa o modelo industrial de criação animal: os animais são mantidos em espaços fechados, com ração balanceada, vacinação contínua e controle rigoroso do crescimento. Esse sistema maximiza a produtividade por área, mas gera debates sobre bem-estar animal e impacto ambiental.",
+    "ajuda": "A pecuária pode ser classificada conforme o uso do espaço e a intensidade tecnológica. Quando os animais são confinados com ração e cuidados sanitários para acelerar o crescimento, isso representa a forma mais intensiva de criação. Identifique o termo correto."
+  },
+  {
+    "id": 3,
+    "instituicao": "UERJ",
+    "ano": "2013",
+    "dificuldade": "dificil",
+    "tags": [
+      "agronegócio",
+      "espaço agrário",
+      "EUA",
+      "belt system"
+    ],
+    "imagem_apoio": "3ano/img/313/t13q3.png",
+    "pergunta": "Espaço agropecuário norte-americano no início do século XXI\n\nA agricultura norte-americana é organizada de acordo com o modelo empresarial, o que torna o espaço agropecuário do país fortemente vinculado à lógica econômica.\n\nO principal fator locacional que explica a posição do Dairy Belt é a presença de:",
+    "alternativas": [
+      "sistema universitário desenvolvido.",
+      "mercado consumidor urbano expressivo.",
+      "rede de transporte propícia à exportação.",
+      "topografia plana favorável à mecanização."
+    ],
+    "correta": 1,
+    "comentario": "O Dairy Belt (Cinturão do Leite) nos EUA localiza-se nos estados do nordeste (Wisconsin, Minnesota, Nova York) próximos a grandes centros urbanos como Chicago e Nova York. A lógica é econômica: o leite é perecível, então a produção deve estar perto do mercado consumidor para reduzir custos de transporte e perda do produto.",
+    "ajuda": "A agricultura norte-americana é caracterizada pelo modelo empresarial (agrobusiness), com grande mecanização e integração com o mercado global. Pense em qual fator logístico é fundamental para viabilizar a exportação em grande escala que define esse modelo."
+  },
+  {
+    "id": 4,
+    "instituicao": "UEMG",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "revolução verde",
+      "agronegócio",
+      "matéria-prima agrícola",
+      "industrialização"
+    ],
+    "pergunta": "A partir do final do século XIX, o consumo de alimentos pela população e de matérias-primas agrícolas, pelo setor industrial, atingiu patamares sem precedentes na história das sociedades. Nesse contexto estabeleceu-se a chamada agropecuária comercial moderna. Em relação à agropecuária comercial moderna, todas as afirmações constantes das alternativas a seguir estão corretas, EXCETO:",
+    "alternativas": [
+      "Nesse sistema agrícola, grande parte das propriedades rurais é administrada como uma empresa.",
+      "O nível de tecnicismo aplicado na agropecuária comercial moderna dispensa a mão de obra especializada.",
+      "Os altos custos dos equipamentos e dos insumos fazem com que a agropecuária moderna seja viável, especialmente, em médias e grandes propriedades rurais.",
+      "A agropecuária moderna é caracterizada pelo uso intensivo de recursos tecnológicos no campo."
+    ],
+    "correta": 1,
+    "comentario": "A agropecuária comercial moderna distingue-se da tradicional pelo uso intensivo de tecnologia: sementes transgênicas, mecanização, irrigação, fertilizantes e agrotóxicos. A afirmativa incorreta é a de que dispensa mão de obra especializada — ao contrário, esse modelo exige técnicos agrícolas e operadores de máquinas qualificados.",
+    "ajuda": "A agropecuária moderna distingue-se da tradicional pela intensidade tecnológica, pela escala de produção e pelo grau de integração ao mercado. Identifique qual alternativa descreve corretamente as características estruturais da produção agropecuária moderna."
+  },
+  {
+    "id": 5,
+    "instituicao": "UEL",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "transgênicos",
+      "biotecnologia",
+      "agricultura moderna"
+    ],
+    "imagem_apoio": "3ano/img/313/t13q5.png",
+    "pergunta": "Sobre sementes transgênicas no mundo contemporâneo, é correto afirmar.",
+    "alternativas": [
+      "Têm constituído a base da agricultura familiar em expansão, razão pela qual o atual governo do Paraná vem defendendo seu uso.",
+      "A atuação de empresas que fabricam sementes transgênicas diminui a possibilidade de criação de monopólios no setor de alimentos.",
+      "O uso de sementes transgênicas se expande, mesmo não havendo consenso científico sobre os seus efeitos no corpo humano pelo seu consumo em longo prazo.",
+      "O uso de sementes transgênicas tem resultado na diminuição dos subsídios agrícolas dos países centrais a seus produtores rurais locais.",
+      "A utilização de transgênicos foi consensual entre movimentos sociais e organismos internacionais como tentativa de solucionar os problemas da crise alimentar."
+    ],
+    "correta": 2,
+    "comentario": "As sementes transgênicas concentram o controle da cadeia alimentar nas mãos de poucas corporações (Monsanto/Bayer, Syngenta, Pioneer). Apesar dos ganhos de produtividade, geram dependência dos agricultores por novas sementes a cada safra e levantam questões sobre soberania alimentar e biodiversidade.",
+    "ajuda": "As sementes transgênicas concentram o controle da produção alimentar nas mãos de poucas empresas multinacionais. Isso gera dependência dos agricultores e questionamentos sobre biodiversidade e soberania alimentar. Avalie qual afirmativa sobre transgênicos é correta."
+  },
+  {
+    "id": 6,
+    "instituicao": "UFPE",
+    "ano": "2008",
+    "dificuldade": "facil",
+    "tags": [
+      "definição agrária",
+      "conceito geográfico",
+      "sistemas de cultivo"
+    ],
+    "texto_apoio": "“É um tipo de sistema agrícola primitivo, adotado historicamente nos ecossistemas de floresta tropical, em que o ser humano derruba trecho da floresta, queimando-o como preparo da terra para o cultivo de subsistência, obtendo durante poucos anos (4 a 6) alimento e, posteriormente, abandonando essa área que se tornou improdutiva. Passa então a ocupar novo trecho de floresta e assim por diante. A área inicial abandonada, onde se estabeleceu vegetação secundária, após cerca de 20 anos, poderá ser novamente utilizada para o cultivo”.",
+    "pergunta": "Essa é a definição do:",
+    "alternativas": [
+      "Sistema de “Plantation”.",
+      "Sistema Intensivo.",
+      "Sistema de Agricultura Vazante.",
+      "Sistema de Agricultura Itinerante.",
+      "Sistema de Rotação de Culturas."
+    ],
+    "correta": 3,
+    "comentario": "A agricultura itinerante (ou de corte e queima) é um dos sistemas mais antigos da humanidade, praticado por povos indígenas na Amazônia e em florestas tropicais. A área cultivada é abandonada após alguns anos, quando o solo se esgota, e o processo se repete — necessitando de grandes extensões de terra.",
+    "ajuda": "O texto descreve um sistema agrícola específico. Pense nas características do Plantation (monocultura para exportação), da Rotação de Culturas (alternância para recuperar o solo) e da Agricultura Itinerante (corte e queima) para identificar o sistema correto."
+  },
+  {
+    "id": 7,
+    "instituicao": "ENEM",
+    "ano": "2005",
+    "dificuldade": "facil",
+    "tags": [
+      "agropecuária",
+      "produção agrícola",
+      "sistemas de cultivo"
+    ],
+    "fonte_apoio": "*Soja, Trigo, Milho, Arroz e Algodão **Previsão Obs.: Há ainda 13 milhões de hectares utilizados por plantações das chamadas culturas permanentes, como hortifrutigranjeiros. (Fontes: Censo Agropecuário, Instituto Brasileiro de Geografia e Estatística (IBGE) e Ministério da Agricultura)",
+    "imagem_apoio": "3ano/img/313/t13q7.png",
+    "pergunta": "",
+    "alternativas": [
+      "ocorreu um aumento da produtividade agrícola devido à significativa mecanização de algumas lavouras, como a da soja.",
+      "verificou-se um incremento na produção de grãos proporcionalmente à incorporação de novas terras produtivas.",
+      "registrou-se elevada produção de grãos em virtude do uso intensivo de mão de obra pelas empresas rurais.",
+      "houve um salto na produção de grãos, a partir de 91, em decorrência do total de exportações feitas por pequenos agricultores.",
+      "constataram-se ganhos tanto na produção quanto na produtividade agrícolas resultantes da efetiva reforma agrária executada."
+    ],
+    "correta": 0,
+    "comentario": "O gráfico mostra que a produção brasileira de grãos cresceu exponencialmente nas últimas décadas sem aumento proporcional da área cultivada. Isso comprova o avanço da mecanização e da biotecnologia — especialmente na soja — como motores do aumento de produtividade na agricultura brasileira.",
+    "ajuda": "A Revolução Verde introduziu sementes de alto rendimento, fertilizantes e agrotóxicos, aumentando a produtividade mas gerando dependência tecnológica e problemas ambientais. Avalie qual consequência o gráfico ou texto indica como resultado desse processo."
+  },
+  {
+    "id": 8,
+    "instituicao": "UFRGS",
+    "ano": "2005",
+    "dificuldade": "media",
+    "tags": [
+      "produção agrícola mundial",
+      "condições físicas",
+      "diversidade agrária"
+    ],
+    "pergunta": "A produção agrícola é diversificada mundialmente devido às distintas condições físicas, econômicas, tecnológicas e culturais das regiões geográficas.\n\nA seguir, no primeiro bloco, são citados quatro sistemas agrícolas. No segundo bloco, são apresentadas as caracterizações de três deles.\n\nAssocie adequadamente as caracterizações aos respectivos sistemas.\n\n1. Agricultura de jardinagem\n\n2. Agricultura de \"plantation\"\n\n3. Agricultura moderna\n\n4. Agricultura ecológica\n\n( ) Predomínio de pequenas ou médias propriedades especializadas na rizicultura, que adotam técnicas milenares de cultivo e utilizam mão de obra familiar.\n\n( ) Produção obtida em médias e grandes propriedades altamente capitalizadas, que apresentam alta produtividade em decorrência, entre outros fatores, da seleção de sementes e da mecanização intensiva.\n\n( ) Produção obtida em pequenas e médias propriedades com mão de obra familiar, com uso de técnicas de controle biológico e informacional, fertilizantes orgânicos e rotação de culturas.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "alternativas": [
+      "4 - 1 - 2.",
+      "2 - 4 - 1.",
+      "1 - 3 - 4.",
+      "1 - 3 - 2.",
+      "2 - 1 - 4."
+    ],
+    "correta": 2,
+    "comentario": "A sequência correta associa: Agricultura de Jardinagem (arroz em planícies com mão de obra familiar intensa) à rizicultura asiática; Agricultura Moderna (grande propriedade mecanizada e capitalizada) ao agronegócio; Agricultura Ecológica (pequenas e médias propriedades com técnicas sustentáveis) à produção orgânica.",
+    "ajuda": "A produção agrícola varia conforme o clima, o relevo, a tecnologia disponível e a cultura de cada região. Para associar regiões a características agrícolas, pense nas condições físicas e no nível tecnológico de cada área geográfica mencionada."
+  },
+  {
+    "id": 9,
+    "instituicao": "ENEM",
+    "ano": "2005",
+    "dificuldade": "media",
+    "tags": [
+      "transgênicos",
+      "soja",
+      "biotecnologia",
+      "herbicida"
+    ],
+    "pergunta": "A Embrapa possui uma linhagem de soja transgênica resistente ao herbicida IMAZAPIR. A planta está passando por testes de segurança nutricional e ambiental, processo que exige cerca de três anos. Uma linhagem de soja transgênica requer a produção inicial de 200 plantas resistentes ao herbicida e destas são selecionadas as dez mais \"estáveis\", com maior capacidade de gerar descendentes também resistentes. Esses descendentes são submetidos a doses de herbicida três vezes superiores às aplicadas nas lavouras convencionais.\n\nEm seguida, as cinco melhores são separadas e apenas uma delas é levada a testes de segurança. Os riscos ambientais da soja transgênica são pequenos, já que ela não tem possibilidade de cruzamento com outras plantas e o perigo de polinização cruzada com outro tipo de soja é de apenas 1%.\n\nA soja transgênica, segundo o texto, apresenta baixo risco ambiental porque:",
+    "alternativas": [
+      "a resistência ao herbicida não é estável e assim não passa para as plantas-filhas.",
+      "as doses de herbicida aplicadas nas plantas são 3 vezes superiores às usuais.",
+      "a capacidade da linhagem de cruzar com espécies selvagens é inexistente.",
+      "a linhagem passou por testes nutricionais e após três anos foi aprovada.",
+      "a linhagem obtida foi testada rigorosamente em relação a sua segurança."
+    ],
+    "correta": 2,
+    "comentario": "O baixo risco ambiental da soja transgênica da Embrapa deve-se à quase impossibilidade de cruzamento com espécies selvagens — o que evitaria a dispersão incontrolada do gene de resistência ao herbicida. Esse é um critério central na avaliação de segurança ambiental de organismos geneticamente modificados.",
+    "ajuda": "O processo de aprovação de organismos geneticamente modificados envolve testes de segurança ambiental e alimentar. A questão sobre a soja transgênica da Embrapa exige identificar qual aspecto do processo ainda precisava ser avaliado conforme o texto."
+  },
+  {
+    "id": 10,
+    "instituicao": "MACKENZIE",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "técnicas de cultivo",
+      "sistemas agrícolas",
+      "agricultura mundial"
+    ],
+    "pergunta": "A respeito das técnicas de cultivos e de sistemas agrícolas praticados no mundo, marque (V) para verdadeiro e (F) para falso.\n\n( ) A Agricultura Itinerante representa um dos primeiros sistemas praticados pelo homem. Nela, as técnicas estão ligadas à derrubada de mata nativa com o objetivo de liberação do solo para o cultivo, à queima para limpeza do terreno e é desprovida de investimentos financeiros. Um exemplo desse tipo de prática é a coivara.\n\n( ) A Agricultura de Jardinagem surgiu nas regiões centrais da Austrália e é um reflexo da adaptação dos povos às condições naturais. Com a intensa sazonalidade das monções, caracteriza-se por um tipo de cultivo onde a divisão do terreno em seções viabiliza o cultivo da rizicultura de inundação. Essa prática milenar coloca o país como maior produtor de grãos do mundo.\n\n( ) A Agricultura Comercial é uma modalidade onde a produção se faz em larga escala e é voltada para os mercados externo e interno. Pode ser dividida em Intensiva ou Extensiva. A primeira é praticada em pequenas propriedades com uso reduzido de fertilizantes, defensivos químicos e baixos investimentos de capitais e pesquisa científica. Já a segunda visa o mercado externo e tem como base a mão de obra qualificada e uso de alta tecnologia.\n\n( ) A hidroponia e a Agricultura Orgânica são consideradas as produções do futuro. A primeira é uma técnica que dispensa a necessidade de solo. Os vegetais são cultivados em tubos onde recebem uma solução rica em nutrientes e, assim, se desenvolvem. A segunda consiste no uso de elementos naturais para realização da produção, pois não são utilizados defensivos químicos ou agrotóxicos. Valorizam a rotação de culturas e o uso consciente dos recursos hídricos.\n\nAssinale a alternativa que apresenta a sequência correta, de cima para baixo.",
+    "alternativas": [
+      "F-V-V-F.",
+      "F-V-F-V.",
+      "V-F-F-V.",
+      "V-V-V-V.",
+      "V-F-V-V."
+    ],
+    "correta": 2,
+    "comentario": "A sequência correta é V-F-F-V: a Agricultura Itinerante (verdadeira, pois usa coivara e queima); a Agricultura de Jardinagem (falsa, pois surgiu na Ásia Monçônica, não na Austrália); a Agricultura Comercial (falsa, pois a Intensiva usa alta tecnologia, não baixa); a Hidroponia e Orgânica (verdadeiras).",
+    "ajuda": "Para avaliar as afirmativas sobre sistemas agrícolas, lembre-se: a Agricultura Itinerante é a mais primitiva; o Plantation é voltado para exportação e monocultura; a Rotação de Culturas é sustentável; a agricultura de precisão usa tecnologia avançada."
+  }
+]

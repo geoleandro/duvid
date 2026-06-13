@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "instituicao": "",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "regiões industriais",
+      "mapa",
+      "distribuição econômica"
+    ],
+    "imagem_apoio": "3ano/img/320/t20q1.png",
+    "pergunta": "De acordo com o mapa abaixo dos Estados Unidos, as regiões em destaque estão relacionadas, com exceção da alternativa:",
+    "alternativas": [
+      "o Silicon Valley, o Vale do Silício, importante na fabricação de chips de computador e de condutores para comunicações, repleto de boas universidades com centros de pesquisa de alta tecnologia.",
+      "a região Sul, tradicionalmente agrícola e pouco industrializada, onde no passado apenas a indústrias têxtil se destacava. Passou a apresentar uma importante diversidade industrial com o desenvolvimento petrolífero da década de 1950.",
+      "na região que se estende de Boston a Washington, ao longo de 600 km da costa atlântica. Ali se localizam grandes metrópoles como Nova York, Filadélfia e Baltimore, concentrando as maiores rendes do país e poder político.",
+      "a região dos Grandes Lagos – Michigan, Ontário, com o canal Erie, que constitui uma verdadeira bacia marítima no interior do território, no qual existe hoje uma megalópole, que engloba as cidades de Chicago e Pittsburg."
+    ],
+    "correta": 1,
+    "comentario": "A questão pede a alternativa que NÃO está relacionada às regiões destacadas nos EUA. A alternativa incorreta é a B, sobre a região Sul: antes da guerra civil era agrícola (escravista), e na segunda metade do século XX tornou-se um importante polo industrial graças ao petróleo do Texas e às indústrias do Sun Belt.",
+    "ajuda": "A questão pede a alternativa que NÃO se relaciona às regiões destacadas dos EUA. Lembre-se das principais regiões econômicas americanas: Vale do Silício (tecnologia, Califórnia), Sun Belt (industria mais recente), Rust Belt (industrialização clássica, Grandes Lagos), e o Sul agrícola."
+  },
+  {
+    "id": 2,
+    "instituicao": "",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "indústria",
+      "mineração",
+      "distribuição espacial"
+    ],
+    "imagem_apoio": "3ano/img/320/t20q2.png",
+    "pergunta": "O mapa abaixo apresenta a distribuição da indústria e da mineração nos EUA. Sobre as áreas de maior concentração industrial, assinale a alternativa correta. Trata-se do(a):",
+    "alternativas": [
+      "região Sul e Sudeste: destacam-se o setor siderúrgico no estado do Alabama, a indústria têxtil na Geórgia (Atlanta) e o grande centro poli industrial (petróleo e informática) no Texas (Houston, Galveston) e Louisiana (New Orleans).",
+      "região Oeste: a produção industrial é diversificada (aeronáutica, eletrônica), destacando-se os polos industriais de Los Angeles, San Francisco, Portland e Seattle.",
+      "região Nordeste (litoral do Atlântico e sul dos Grandes lagos), é a região de maior continuidade espacial de indústrias do mundo, concentrando mais de 60% das indústrias dos EUA, envolvendo cidades como Nova York, Filadélfia, Chicago, Detroit, Boston, Pittsburgh, Cleveland, Buffalo, Baltimore e outras.",
+      "Sun Belt (Cinturão do Sol) que se estende do estado da Califórnia até o Texas. Essa indústria baseia-se num processo de produção mais moderno, com intensa automação e informatização, em que a mão de obra, menos numerosa, apresenta alto grau de qualificação."
+    ],
+    "correta": 2,
+    "comentario": "A maior concentração industrial dos EUA está na região do Corredor Industrial Nordeste, estendendo-se do litoral atlântico (Boston-Washington) aos Grandes Lagos (Chicago-Detroit). Essa região concentrou historicamente mais de 60% das indústrias americanas graças ao carvão, ao ferro e às vias aquáticas.",
+    "ajuda": "A concentração industrial nos EUA segue uma lógica histórica: o Nordeste (Corredor Industrial) foi o berço da industrialização, mas o Sun Belt atraiu indústrias mais recentes graças ao clima favorável e incentivos fiscais. Identifique a região com maior concentração industrial."
+  },
+  {
+    "id": 3,
+    "instituicao": "UEA",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "agropecuária",
+      "produção agrícola",
+      "potência agrícola"
+    ],
+    "fonte_apoio": "(https://exame.abril.com.br. Adaptado.)",
+    "pergunta": "Ao longo de um século e meio, os Estados Unidos se transformaram na maior potência agrícola da história. No entanto, o clima favorável e o solo fértil explicam só parte da impressionante expansão. De acordo com a Organização das Nações Unidas para Alimentação e Agricultura (FAO), são produzidas no país, em média, 9 toneladas de grãos por hectare, mais que o dobro da taxa brasileira. Desde a década de 1990, a área plantada praticamente não aumenta, mas a safra cresceu 2% ao ano, em média.\n\nUma das características da produção agrícola dos Estados Unidos é:",
+    "alternativas": [
+      "a firme recusa à produção de alimentos transgênicos, o que garante alta aceitação do mercado.",
+      "o desinteresse no emprego da biotecnologia, o que mantém prestigiados os saberes tradicionais.",
+      "a fraca atuação na produção e distribuição de insumos agrícolas pelo mundo, o que valoriza soluções locais.",
+      "a discreta intervenção do Estado por meio de subsídios e práticas protecionistas, o que assegura o livre-comércio.",
+      "o elevado grau de mecanização nas várias etapas do processo de cultivo, o que garante alta produtividadee) o elevado grau de mecanização nas várias etapas do processo de cultivo, o que garante alta produtividade."
+    ],
+    "correta": 4,
+    "comentario": "A agricultura norte-americana é altamente mecanizada: uma única fazenda no Meio-Oeste pode ser operada por poucas pessoas com tratores gigantes e colheitadeiras automáticas. Esse elevado grau de mecanização explica como os EUA produzem 9 toneladas de grãos por hectare — mais que o dobro da média brasileira.",
+    "ajuda": "A agricultura norte-americana é altamente mecanizada, subsidiada pelo governo e integrada ao agronegócio global. Pense em qual característica tecnológica e organizacional explica a gigantesca produtividade agrícola dos EUA."
+  },
+  {
+    "id": 4,
+    "instituicao": "UECE",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "papel geopolítico",
+      "ordem mundial",
+      "hegemonia"
+    ],
+    "pergunta": "Assinale com V ou F, conforme seja verdadeiro ou falso, o que se diz a seguir sobre o papel dos Estados Unidos da América na geopolítica e na geoeconomia internacionais.\n\n( ) Continuam sendo a maior potência política e econômica do mundo, pois sua superioridade militar é esmagadora e o país ainda detém o maior produto interno bruto (PIB) do planeta.\n\n( ) têm no seu mais recente presidente eleito, Donald Trump, um reconhecido conservador no que tange às ações de política externa em relação a países como Irã, Venezuela e Coreia do Norte.\n\n( ) Fortaleceram importante posição de liderança ambiental global ao assumir compromissos na luta contra os efeitos das mudanças climáticas, em especial durante o Acordo de Paris sobre Mudança do Clima.\n\n( ) com a crise econômica sentida nos últimos anos, o país tem desenvolvido uma política de desmilitarização e redução dos custos com armamentos, fato que já resultou numa diminuição das tensões internacionais com países inimigos.\n\nEstá correta, de cima para baixo, a seguinte sequência",
+    "alternativas": [
+      "F, V, F, V.",
+      "V, F, V, F.",
+      "F, V, F, F.",
+      "V, F, V, V."
+    ],
+    "correta": 2,
+    "comentario": "A sequência correta é V-F-F-V: os EUA são a maior potência militar e econômica (V); Trump não foi reconhecido como conservador em política externa, adotando postura isolacionista (F); os EUA se retiraram do Acordo de Paris sob Trump (F); os EUA mantêm gastos militares gigantescos, sem desmilitarização (F).",
+    "ajuda": "Os EUA são a maior potência econômica e militar do mundo, mas apresentam desigualdades internas significativas. Avalie as afirmativas sobre o papel geopolítico e geoeconômico dos EUA, verificando quais são verdadeiras e quais são falsas."
+  },
+  {
+    "id": 5,
+    "instituicao": "ENEM",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "Guerra do Golfo",
+      "ONU",
+      "Oriente Médio",
+      "intervenção militar"
+    ],
+    "fonte_apoio": "HOBSBAWM, E. Globalização, democracia e terrorismo. São Paulo: Cia. das Letras, 2007",
+    "pergunta": "A primeira Guerra do Golfo, genuinamente apoiada pelas Nações Unidas e pela comunidade internacional, assim como a reação imediata ao Onze de Setembro, demonstravam a força da posição dos Estados Unidos na era pós-soviética.\n\nUm aspecto que explica a força dos Estados Unidos. Apontada pelo texto, reside no:",
+    "alternativas": [
+      "poder de suas bases militares espalhadas ao redor do mundo.",
+      "alinhamento geopolítico da Rússia em relação aos EUA.",
+      "política de expansionismo territorial exercida sobre Cuba.",
+      "aliança estratégica com países produtores de petróleo como Kuwait e Irã.",
+      "incorporação da China à Organização do Tratado do Atlântico Norte (Otan)."
+    ],
+    "correta": 0,
+    "comentario": "A força dos EUA no pós-Guerra Fria baseou-se na projeção de poder militar global, com 800 bases militares em mais de 70 países. Essa presença foi usada para justificar intervenções no Iraque e no Afeganistão após o 11 de setembro, revelando como a superpotência americana se projeta além de suas fronteiras.",
+    "ajuda": "Após os atentados de 11 de setembro de 2001, os EUA iniciaram guerras no Afeganistão e no Iraque sob a doutrina da 'Guerra ao Terror'. Pense em qual fator geopolítico explica a progressiva perda de legitimidade internacional da liderança americana."
+  },
+  {
+    "id": 6,
+    "instituicao": "FUVEST",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "charge",
+      "geopolítica",
+      "hegemonia"
+    ],
+    "imagem_apoio": "3ano/img/320/t20q6.png",
+    "pergunta": "Tendo em vista o que a charge pretende expressar e a data de sua publicação, dentre as legendas propostas abaixo, a mais adequada para essa charge é:",
+    "alternativas": [
+      "Suspensão do embargo econômico a Cuba por parte dos EUA.",
+      "Devolução aos cubanos da área ocupada pelos EUA em Guantánamo",
+      "Fim do embargo das exportações petrolíferas cubanas.",
+      "Retomada das relações diplomáticas entre os EUA e Cuba.",
+      "Transferência de todos os presos políticos de Guantánamo, para prisões norte-americanas."
+    ],
+    "correta": 3,
+    "comentario": "Em 2015, os EUA e Cuba anunciaram a restauração de suas relações diplomáticas após 54 anos de ruptura. Barack Obama e Raúl Castro chegaram a um acordo histórico que incluía a reabertura de embaixadas — simbolizando o fim da Guerra Fria no Caribe, décadas após o término do conflito global.",
+    "ajuda": "A charge foi publicada em um momento específico da história diplomática entre EUA e Cuba. Lembre-se de que em 2014-2015 houve uma tentativa de normalização das relações diplomáticas entre os dois países. Identifique qual evento a charge retrata."
+  },
+  {
+    "id": 7,
+    "instituicao": "UERJ",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "hispânicos",
+      "imigração",
+      "demografia"
+    ],
+    "texto_apoio": "Cresce a proporção de latinos nos EUA “Já se sabe que a população latina está mudando a face dos Estados Unidos, e os números confirmam: a cada 30 segundos nasce no país uma pessoa dessa origem. Os latinos são 14,2% da população, 40,5 milhões de pessoas. De acordo com os dados do censo americano, os latinos representam o segmento mais jovem”.",
+    "fonte_apoio": "PILAR MARRERO Adaptado de http://politicainternacional-jorge.blogspot.com",
+    "pergunta": "O texto faz referência ao aumento da proporção de hispânicos na população estadunidense.\n\nAlém da imigração elevada, esse aumento é consequência direta do seguinte aspecto demográfico característico desse grupo:",
+    "alternativas": [
+      "estrutura etária associada a altas taxas de natalidade",
+      "taxa de emigração marcada por percentual elevado de idosos.",
+      "população economicamente ativa concentrada nas áreas rurais.",
+      "sobre mortalidade masculina gerada por condições precárias de trabalho."
+    ],
+    "correta": 0,
+    "comentario": "A população hispânica nos EUA tem uma estrutura etária jovem e taxas de natalidade mais elevadas que a média americana. Isso explica seu crescimento além da imigração: a fecundidade de famílias latinas supera a de famílias brancas não hispânicas, acelerando o crescimento desse grupo demograficamente.",
+    "ajuda": "A população hispânica nos EUA cresce não apenas pela imigração, mas também por uma dinâmica demográfica específica. Pense em qual característica demográfica — taxas de natalidade, estrutura etária, fecundidade — explica esse crescimento além da imigração."
+  },
+  {
+    "id": 8,
+    "instituicao": "PUC-RJ",
+    "ano": "2007",
+    "dificuldade": "media",
+    "tags": [
+      "11 de setembro",
+      "terrorismo",
+      "EUA",
+      "geopolítica"
+    ],
+    "pergunta": "sobre o significado e os desdobramentos dos atentados terroristas de 11 de setembro de 2001, estão corretas as afirmações abaixo, À EXCEÇÃO DE:",
+    "alternativas": [
+      "Os ataques terroristas provocaram mudanças no cotidiano da população norte-americana, como o crescimento da vigilância e restrições à liberdade e à privacidade dos cidadãos.",
+      "A partir do atentado, o governo Bush introduziu na política externa americana o princípio da “guerra preventiva”, segundo o qual os Estados Unidos têm o direito de atacar países que possam representar uma ameaça política futura.",
+      "A reação do governo norte-americano aos atentados aumentou a tensão nas relações internacionais entre aliados importantes dos Estados Unidos, como a Alemanha e a França, que demonstraram algum descontentamento com a política unilateral adotada pelo governo Bush.",
+      "Devido aos avanços tecnológicos, ocorreu uma expressiva diminuição dos gastos militares e do número de vítimas, desde então, em comparação com os tempos da Guerra Fria.",
+      "Os ataques terroristas fizeram ressurgir a ideia de que os conflitos no século XXI seriam explicados pela existência de um conflito entre dois modelos de civilização."
+    ],
+    "correta": 3,
+    "comentario": "A afirmativa incorreta é a D: houve aumento, não diminuição, dos gastos militares e do número de vítimas de conflitos pós-11/09. As guerras no Afeganistão e Iraque custaram mais de 6 trilhões de dólares e causaram centenas de milhares de mortes, representando o maior esforço militar americano desde o Vietnã.",
+    "ajuda": "Os atentados de 11 de setembro de 2001 transformaram a política externa americana e o mundo. A questão pede a afirmativa INCORRETA. Lembre-se das consequências reais: aumento da segurança interna, invasões militares, surgimento de novos conflitos étnicos e religiosos."
+  },
+  {
+    "id": 9,
+    "instituicao": "MACKENZIE",
+    "ano": "2004",
+    "dificuldade": "media",
+    "tags": [
+      "EUA",
+      "hegemonia",
+      "expansionismo",
+      "política externa"
+    ],
+    "pergunta": "Historicamente, os E.U.A. sempre adotaram políticas expansionistas que garantiram sua hegemonia política, econômica e militar sobre o planeta. Dentre elas, podemos exemplificar a Doutrina Monroe, do século XIX, de caráter continental, que colocava a América Latina sob o controle daquele país; a Doutrina Truman, pós a Segunda Guerra Mundial, de caráter planetário, que adotou uma política de contenção do avanço socialista; e, atualmente, a Doutrina Bush, que tem como princípio básico:",
+    "alternativas": [
+      "anexar ao seu território qualquer área do planeta. Caso um antigo território colonial que queira se juntar aos E.U.A., essa questão deva ser decidida apenas entre os seus habitantes e o governo americano.",
+      "despertar o sentimento de superioridade do povo norte-americano, de descendência europeia, diante das demais nações do planeta, em especial, dos denominados “Países do Sul”.",
+      "estabelecer uma identidade de interesses entre os E.U.A. e os seus vizinhos latino-americanos, propondo a cooperação para o desenvolvimento comum, instituindo dessa forma, a ALCA (Área de Livre Comércio das Américas).",
+      "perpetuar uma posição dominante, impedindo abertamente o surgimento de qualquer outra potência capaz de desafiar sua liderança. A palavra de ordem é agir previamente contra qualquer inimigo em potencial, mesmo na inexistência de agressão prévia.",
+      "orientar uma estratégia de intervenções militares, visando à sustentação de governos aliados aos E.U.A. que se submetam à uma situação de protetorado, permitindo a ação de investimentos diretos e indiretos de transnacionais norte-americanas em seus territórios."
+    ],
+    "correta": 3,
+    "comentario": "A Doutrina Bush (2002) consagrou o princípio da 'guerra preventiva': os EUA reservam-se o direito de atacar qualquer país considerado ameaça potencial, mesmo sem agressão prévia. Essa doutrina foi usada para justificar a invasão do Iraque em 2003, gerando uma das maiores crises de legitimidade da política externa americana.",
+    "ajuda": "A Doutrina Monroe ('América para os americanos') e outras doutrinas de política externa dos EUA orientaram sua atuação hegemônica no continente americano. Pense em qual princípio geopolítico melhor define a estratégia histórica de dominação americana."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFSM",
+    "ano": "1999",
+    "dificuldade": "facil",
+    "tags": [
+      "Vale do Silício",
+      "tecnologia",
+      "inovação",
+      "EUA"
+    ],
+    "pergunta": "Assinale a alternativa que contempla as principais características do Vale do Silício (Silicon Valley), nos EUA.",
+    "alternativas": [
+      "Formado pela erosão glacial, constitui-se numa área de preservação permanente, onde se destacam as faias, sequoias e bétulas, espécies típicas da ﬂoresta boreal.",
+      "É uma das principais áreas de extração mineral, sobretudo de silício, cobre e ferro, altamente prejudicada pela degradação do meio ambiente.",
+      "Também conhecido por cinturão agrícola (belt’s), constitui-se na principal área produtora de cereais dos EUA, sobretudo de milho e trigo, além da pecuária intensiva.",
+      "Localizado no Nordeste dos EUA, constitui-se numa área de antiga concentração industrial, destacando-se as indústrias de bens de produção pela abundância de matérias-primas, energia e mão-de-obra e pela facilidade de transporte.",
+      "Localizado no oeste dos EUA, próximo a importantes centros de pesquisa, forma um complexo industrial com destaque para os ramos típicos da Terceira Revolução Industrial."
+    ],
+    "correta": 4,
+    "comentario": "O Vale do Silício (Santa Clara, Califórnia) tornou-se o maior polo tecnológico do mundo graças à proximidade com Stanford e Berkeley, ao ambiente de empreendedorismo e capital de risco, e ao clima favorável. Abriga empresas como Google, Apple, Meta e Intel — centro da Terceira e Quarta Revoluções Industriais.",
+    "ajuda": "O Vale do Silício é o principal polo tecnológico dos EUA, localizado na Califórnia, próximo a universidades como Stanford e Berkeley. Pense em quais características — localização, tipo de indústria, ambiente de inovação — definem esse polo tecnológico."
+  }
+]

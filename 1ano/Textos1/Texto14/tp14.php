@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>1º ano - Texto 14 - Estrutura geológica e formas do relevo terrestre.</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+            
+            <h3>1. O que são crátons e quais são suas principais características?</h3>
+            <h3>2. Como o relevo influencia a distribuição da população? Dê exemplos do texto.</h3>
+            <h3>3. Explique como os dobramentos modernos se formam e cite exemplos.</h3>
+            <h3>4. Qual é a importância econômica das bacias sedimentares mencionadas no texto?</h3>
+            <h3>5. Qual é a diferença entre planaltos e planícies em termos de processos de formação?</h3>
+            <h3>6. Descreva o que caracteriza as depressões e dê exemplos de depressão absoluta e relativa.</h3>
+            <h3>7. Como o tipo de rocha afeta a formação dos solos e suas características?</h3>
+            <h3>8. Quais são as principais formas de relevo terrestre descritas no texto, e como elas influenciam as atividades humanas?</h3>
+            <h3>9. Qual é a relação entre a geologia de uma região e sua economia, segundo o texto?</h3>
+            <h3>10. Como o texto explica a interação entre as atividades humanas e as estruturas geológicas?</h3>
+        </div>
+        
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+<div class="topico">
+
+        <h2>Investigando as Formas da Superfície Terrestre</h2>
+
+        <div class="w3-margin"><img id="imagem6" src="tp14f6.png" alt="tp14f6" class="w3-mobile" >
+                   
+            <span class="w3-small w3-margin-left" id="citacao6" >  </span>
+            
+            </div>
+        
+
+        <p>O estudo do relevo terrestre envolve a análise da interação entre as diferentes rochas que compõem a crosta e
+            os formatos variados da superfície. Para compreender esses fenômenos, é fundamental aplicar o método
+            científico, que nos permite observar e interpretar os processos e suas relações. Vamos ver como isso se
+            aplica na geografia:</p>
+
+        <p><strong>Relacionar variáveis:</strong></p>
+
+        <p>Como o relevo influencia a distribuição da população? – Em áreas montanhosas, por exemplo, a ocupação tende a
+            ser menor devido à dificuldade de acesso e ao relevo acidentado. Já regiões planas, como planícies, são mais
+            propensas ao desenvolvimento urbano e agrícola.</p>
+
+        <p>Como o tipo de rocha afeta a formação do solo? – Rochas sedimentares, por exemplo, tendem a formar solos
+            férteis e mais adequados à agricultura, enquanto rochas ígneas, como o basalto, dão origem a solos mais
+            ricos em nutrientes, mas, às vezes, com dificuldade de retenção de água.</p>
+
+        <p><strong>Observação e análise crítica:</strong></p>
+
+        <p>A geografia não apenas estuda como o espaço interfere nas atividades humanas, mas também como essas
+            atividades, por sua vez, transformam o espaço. Por exemplo, áreas de bacias sedimentares são frequentemente
+            ocupadas por atividades de exploração de petróleo e gás, enquanto escudos cristalinos são focos de
+            mineração.</p>
+
+        <p>A partir dessas questões, investigaremos as estruturas geológicas que compõem e sustentam as diversas formas
+            da superfície terrestre, compreendendo melhor a dinâmica da crosta e como esses fatores influenciam a
+            ocupação e a utilização dos territórios.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-padding">
+
+        <h2>Estrutura Geológica</h2>
+
+        <div class="w3-margin"><img id="imagem1" src="tp14f1.png" alt="tp14f1" class="w3-mobile" >
+                   
+            <span class="w3-small w3-margin-left" id="citacao1" > </span>
+           
+           </div>
+    
+
+        <p>As estruturas geológicas são grandes corpos rochosos que compõem a crosta terrestre, formadas ao longo de
+            bilhões de anos por processos tectônicos e de sedimentação. Cada tipo de estrutura tem características,
+            idades e processos formativos distintos, moldando as paisagens e o relevo que conhecemos hoje. Vamos
+            detalhar cada uma delas:</p>
+
+        <p><strong>Crátons</strong><br>
+
+            <div class="w3-margin"><img id="imagem2" src="tp14f2.png" alt="tp14f2" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao2">  </span>
+            </div>
+           
+            Os crátons são as partes mais antigas da crosta terrestre, formadas durante o período Pré-Cambriano, há
+            cerca de 3,8 bilhões de anos. Eles são compostos por rochas extremamente resistentes, e suas superfícies
+            geralmente apresentam um desgaste acentuado devido à ação de agentes erosivos ao longo de milhões de anos.
+            Os crátons são divididos em dois tipos:</p>
+
+        <p><strong>Escudos cristalinos:</strong> Estas são áreas onde as rochas cristalinas estão expostas na
+            superfície, geralmente formadas por rochas metamórficas e magmáticas. São regiões antigas e estáveis que
+            passaram por intensa erosão.</p>
+
+        <p><strong>Exemplos:</strong> O Escudo Brasileiro ocupa grande parte do território do Brasil e é subdividido em
+            diferentes escudos regionais, como o Escudo Atlântico e o Escudo Guaporé. Já o Escudo Canadense cobre parte
+            do Canadá e do norte dos Estados Unidos, e é conhecido por abrigar alguns dos minerais mais antigos do
+            planeta.</p>
+
+        <p><strong>Características:</strong> Em geral, esses escudos sustentam formações de relevo com média elevação e
+            são ricos em minerais metálicos, como ouro, ferro e níquel.</p>
+
+        <p><strong>Plataformas:</strong> São superfícies cratônicas cobertas por espessas camadas de sedimentos
+            acumulados ao longo do tempo, formando as chamadas bacias sedimentares. Essas plataformas são geralmente
+            planas e compõem a base estrutural de muitos continentes.</p>
+
+        <p><strong>Exemplo:</strong> A Plataforma Sul-Americana é uma das maiores do mundo e estende-se por boa parte da
+            América do Sul. A Plataforma Siberiana é outra extensa região, localizada na Rússia, cobrindo uma vasta área
+            de paisagem plana.</p>
+
+        <p><strong>Dobramentos Modernos</strong><br>
+            Os dobramentos são formados quando placas tectônicas se chocam, forçando as rochas a dobrarem e ondularem em
+            formações elevadas. Esses dobramentos são divididos entre modernos e antigos, sendo que os modernos formam
+            as grandes cadeias montanhosas do planeta, caracterizadas por elevadas altitudes e alta instabilidade
+            geológica.</p>
+
+        <p><strong>Exemplos de dobramentos modernos:</strong> A Cordilheira dos Andes, localizada ao longo da costa
+            oeste da América do Sul, se formou a partir do choque entre as placas Sul-Americana e de Nazca e abriga o
+            pico Aconcágua, com 6.962 metros de altitude, o ponto mais alto do continente. Outro exemplo é o Himalaia,
+            formado pela colisão entre as placas Indiana e Eurasiática, o que originou o Monte Everest, o pico mais alto
+            do mundo, com 8.848 metros.</p>
+
+        <p><strong>Exemplos de dobramentos antigos:</strong> Montanhas como os Montes Apalaches (EUA) e a Serra do Mar
+            (Brasil) são formadas por dobramentos antigos e, por isso, mais desgastadas e com altitudes menores, devido
+            à ação de milhões de anos de erosão.</p>
+
+        <p><strong>Bacias Sedimentares</strong><br>
+            As bacias sedimentares são áreas onde grandes quantidades de sedimentos se acumularam ao longo do tempo,
+            sendo muitas vezes o resultado de antigos mares e lagos que, ao secarem, deixaram camadas de sedimentos que
+            se transformaram em rochas sedimentares. Essas bacias são essenciais para a economia, pois abrigam recursos
+            minerais importantes, como petróleo, gás natural e carvão mineral.</p>
+
+        <p><strong>Exemplo:</strong> A Bacia Sedimentar Amazônica é uma das maiores bacias sedimentares do mundo,
+            cobrindo grande parte da Amazônia brasileira. Ela tem um papel fundamental na extração de recursos minerais,
+            e recentemente, descobriu-se que pode conter reservas significativas de petróleo e gás natural. Outra bacia
+            importante é a Bacia do Paraná, que cobre partes do Brasil, Paraguai, Uruguai e Argentina e abriga grandes
+            reservas de carvão mineral.</p>
+
+        <p><strong>Características econômicas:</strong> Essas áreas também são fontes de água subterrânea e de depósitos
+            fósseis, sendo essenciais para a agricultura e para a extração de minerais energéticos.</p>
+
+        <p><strong>Importância das Estruturas Geológicas</strong><br>
+            As estruturas geológicas têm impacto direto na configuração do relevo e na ocupação humana, além de serem
+            fundamentais para a economia de vários países. Regiões de escudos cristalinos são ricas em recursos minerais
+            metálicos, enquanto as bacias sedimentares são fontes de hidrocarbonetos e água subterrânea. Os dobramentos
+            modernos, embora ricos em minerais, apresentam desafios logísticos para a ocupação humana devido ao relevo
+            acidentado.</p>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <h2>Principais Formas do Relevo Terrestre</h2>
+
+
+        <div class="w3-margin"><img id="imagem7" src="tp14f7.png" alt="tp14f7" class="w3-mobile" >
+                  
+            <span class="w3-small w3-margin-left" id="citacao7" >  </span>
+            </div>
+        
+    
+        <p>As formas de relevo da superfície terrestre são resultado das interações entre diferentes estruturas geológicas e processos erosivos e de sedimentação. A seguir, vamos explorar os principais tipos de relevo e alguns de seus exemplos marcantes:</p>
+    
+        <p><strong>Planaltos:</strong><br>
+        Caracterizam-se por áreas mais elevadas, onde o processo de erosão é mais intenso que o de sedimentação, desgastando as rochas ao longo do tempo.<br>
+        <strong>Exemplos:</strong> incluem as chapadas brasileiras, como a Chapada Diamantina, com seus altos paredões e vales, e as serras, como a Serra do Espinhaço, que apresentam terrenos acidentados e elevadas altitudes.</p>
+    
+        <p><strong>Planícies:</strong><br>
+        São áreas predominantemente planas, onde o processo de sedimentação supera o de erosão, acumulando sedimentos trazidos pelo vento, pelas águas ou pelo gelo.<br>
+        <strong>Exemplos:</strong> Localizam-se em regiões próximas a corpos d'água, como as planícies litorâneas, e ao longo de grandes rios, como a planície do Pantanal no Brasil, que é alagada em períodos chuvosos, favorecendo a biodiversidade local.</p>
+    
+        <p><strong>Montanhas:</strong><br>
+        Resultam de intensos processos tectônicos que dobram ou falham as rochas, formando grandes elevações. Estas áreas podem ultrapassar altitudes de 300 metros, abrigando algumas das paisagens mais espetaculares do planeta.<br>
+        <strong>Exemplos:</strong> o Monte Everest (Ásia), o ponto mais alto do mundo com 8.848 metros, e o Aconcágua (América do Sul), o pico mais alto das Américas com 6.960 metros, ambos formados por movimentos orogênicos.</p>
+    
+        <p><strong>Depressões:</strong><br>
+        São áreas rebaixadas em relação ao entorno, formadas principalmente por processos erosivos prolongados. Podem estar abaixo do nível do mar (depressão absoluta) ou em áreas mais baixas que as regiões vizinhas (depressão relativa).<br>
+        <strong>Exemplos:</strong> o Mar Morto, com cerca de 430 metros abaixo do nível do mar, é uma das depressões absolutas mais conhecidas, e a depressão Sertaneja no nordeste brasileiro, uma depressão relativa que possui altitudes mais baixas em relação ao terreno ao seu redor.</p>
+    
+        <p>Essas formas de relevo, moldadas ao longo de milhões de anos, influenciam a ocupação humana, o desenvolvimento de ecossistemas e as atividades econômicas de cada região, oferecendo um panorama variado e dinâmico da superfície terrestre.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+                <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+            </div>
+
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

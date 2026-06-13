@@ -1,0 +1,36 @@
+Options -Indexes
+
+# -------------------------------------------------------
+# Redireciona URLs antigos .html para .php
+# Garante que links salvos/indexados continuem funcionando
+# -------------------------------------------------------
+RewriteEngine On
+
+# Se o arquivo .php existir, redireciona .html → .php (301 permanente)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)\.html$ /$1.php [R=301,L]
+
+# Alternativa: se o .html foi acessado diretamente mas existe .php equivalente
+RewriteCond %{REQUEST_URI} \.html$
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} -f
+RewriteCond %{DOCUMENT_ROOT}/%1.php -f
+RewriteRule ^(.+)\.html$ /$1.php [R=301,L]
+
+# -------------------------------------------------------
+# Segurança: bloqueia acesso direto a arquivos sensíveis
+# -------------------------------------------------------
+<FilesMatch "\.(sql|log|env|sh|py|git)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<Files "conexao.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# -------------------------------------------------------
+# PHP como padrão para extensão .php
+# -------------------------------------------------------
+AddType application/x-httpd-php .php

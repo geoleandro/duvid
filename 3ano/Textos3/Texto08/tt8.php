@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+     <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+        <link rel="stylesheet" href="/estilos/memory-game.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+
+    <script src="/js/duvid-core.js" defer></script>
+
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+
+    <script src="/js/aulas-geral.js" defer></script>
+     <script src="/js/memory-game.js" defer></script>
+
+
+
+
+
+    <title></title>
+
+
+
+    <style>
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <!-- Navigation (Stays on Top) -->
+
+
+        <div class="topico">
+
+
+            <div class="w3-padding-top-48">
+
+            </div>
+
+
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span> </p>
+
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender a constituição do meio técnico-científico-informacional e sua relação
+            com os processos industriais no período atual da globalização.</span></p>
+            </div>
+
+
+
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+
+
+        <div class="topico">
+
+            <h2> Introdução </h2>
+
+
+            <p> <span class="primeiraLetra">N</span>aula passada vimos que a Revolução Industrial mudou o mundo.
+                Máquinas a
+                vapor, produção têxtil mecanizada e ferrovias - tudo isso transformou a produção e a sociedade no final
+                do
+                século XVIII. </p>
+
+            <p> Mas o que aconteceu depois dessa revolução inicial? Como chegamos ao mundo atual de alta tecnologia e
+                globalização? É isso que vamos explorar hoje! </p>
+
+            <p>
+                No período atual, vivemos em um mundo interconectado, onde a informação e a tecnologia moldam nossa
+                economia
+                e nossas vidas de maneiras inimagináveis na época da Revolução Industrial. </p>
+
+            <p>Nesta aula, vamos desvendar o meio técnico-científico-informacional, entender o Fordismo, o Keynesianismo
+                e
+                como as multinacionais se encaixam na Nova Divisão Internacional do Trabalho (NDIT).</p>
+
+            <p>Por que é tão importante estudar tudo isso? Bem, compreender esses conceitos nos ajuda a decifrar a
+                complexidade da economia global de hoje. Além disso, nos prepara para analisar criticamente o mundo ao
+                nosso
+                redor, entendendo seus impactos sociais, econômicos e ambientais. Vamos lá!</p>
+
+
+
+
+            <div class="w3-margin">
+                <img id="imagem1" src="tt08f01.png" alt="tt08f01" class="w3-mobile" ondblclick="zoomIn('imagem1')"
+                    oncontextmenu="zoomOut('imagem1'); return false;">
+
+                <span class="w3-small w3-margin-left" id="citacao1"> Fonte: pexels.com </span>
+            </div>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje: </h2>
+
+
+
+
+            <div class="w3-pale-yellow">
+
+
+                <h3>1. O que foi a Revolução Industrial e como ela transformou a produção e a sociedade?</h3>
+
+
+                <h3>2. Como a industrialização impactou as cidades e as estruturas sociais?</h3>
+
+                <h3>3. Quais países se destacaram no desenvolvimento industrial durante a fase concorrencial da
+                    história do capitalismo?</h3>
+
+                <h3>4. Explique o conceito de globalização e como ela está relacionada à industrialização.</h3>
+
+                <h3>5. Cite exemplos de países que se tornaram potências manufatureiras devido à globalização.</h3>
+
+                <h3>6. Qual é o papel das multinacionais na economia global? Dê exemplos de empresas multinacionais.
+                </h3>
+
+                <h3>7. Explique o Fordismo e como ele revolucionou a produção em massa.</h3>
+
+                <h3>8. O que é o Keynesianismo e como ele propõe que o Estado intervenha na economia?</h3>
+
+                <h3>9. Descreva o Meio Técnico-Científico-Informacional (MTCI) e sua importância na era
+                    contemporânea.</h3>
+
+                <h3>10. Como a Nova Divisão Internacional do Trabalho (NDIT) mudou a forma como o trabalho e a
+                    produção estão organizados em nível global? Dê exemplos de países envolvidos nesse processo.
+                </h3>
+
+
+
+            </div>
+
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+            <h2> Industrialização e globalização</h2>
+
+
+
+
+            <p> Você já parou para pensar como nossas vidas foram transformadas pela <strong>industrialização</strong>?
+                Imagine sair da era das pequenas produções artesanais para um mundo de fábricas gigantescas, máquinas
+                avançadas e produtos em larga escala. Isso é a industrialização!</p>
+
+            <div class="w3-margin"><img id="imagem2" src="tt08f02.png" alt="ts01f02" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao2"> Fonte: pexel.com </span>
+
+            </div>
+
+
+
+
+            <p> A industrialização não apenas mudou a forma como produzimos, mas também transformou economias e
+                sociedades.
+                Aqueles tempos em que a agricultura era a principal atividade econômica deram lugar a uma nova era de
+                produção em massa. Com a adoção de tecnologias avançadas e máquinas poderosas, fábricas surgiram por
+                toda
+                parte, impulsionando o crescimento econômico e criando empregos.</p>
+
+            <p>Mas não para por aí! Essa revolução industrial também mudou nossas cidades. O crescimento urbano foi
+                acelerado, a migração de áreas rurais para áreas urbanas se intensificou e novas estruturas sociais
+                surgiram. </p>
+
+            <div class="w3-margin"><img id="imagem13" src="tt08f13.png" alt="tt08f013" class="w3-mobile">
+            </div>
+
+            <p>Na história do capitalismo, países como os da Europa Ocidental, América Anglo-Saxônica e Japão se
+                destacaram
+                por seu desenvolvimento industrial durante a fase concorrencial. Eles conseguiram construir economias
+                fortes
+                que se mantêm até hoje como as regiões mais industrializadas do mundo. Por outro lado, outras nações
+                industrializadas seguiram um caminho diferente, impulsionadas pelo Estado ou pela ascensão do
+                capitalismo
+                monopolista e exportação de capitais. Esse processo resultou em uma distribuição desigual da indústria
+                pelo
+                mundo, refletindo as diferentes formas de desenvolvimento econômico ao longo do tempo.</p>
+
+
+            <p>Agora, vamos falar sobre a globalização. É como se o mundo todo estivesse cada vez mais conectado, não é
+                mesmo? E adivinha quem teve um papel crucial nisso? A industrialização! </p>
+
+            <p>A <strong>globalização</strong> é o processo pelo qual países, economias e culturas se integram e se
+                conectam
+                em escala mundial. E adivinha quem foi o grande impulsionador desse processo? A industrialização! </p>
+
+            <p> China, Índia e Alemanha são exemplos brilhantes desse fenômeno. A China, conhecida por suas fábricas que
+                produzem de tudo, desde eletrônicos até roupas, se tornou uma potência manufatureira global. Isso
+                impulsionou sua economia a níveis estratosféricos, tornando-a uma das principais exportadoras do mundo.
+            </p>
+
+            <div class="w3-margin"><img id="imagem3" src="tt08f03.png" alt="tt08f03" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao3"> Cidade de Shenzhen, o “Vale do Silício chinês”.
+                    Fonte:
+                    https://gauchazh.clicrbs.coml</span>
+            </div>
+
+
+
+
+            <p> A Índia não ficou para trás! Com sua indústria de tecnologia da informação em alta, cidades como
+                Bangalore e
+                Hyderabad se destacam como centros globais de serviços de software e outsourcing. Um verdadeiro boom
+                tecnológico!</p>
+
+            <div class="w3-margin"><img id="imagem4" src="tt08f04.png" alt="tt08f04" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao4"> Bangalore, ìndia. Fonte: pexel.com </span>
+            </div>
+
+
+
+
+            <p> E que tal a Alemanha? Ah, a Alemanha! Conhecida por sua indústria automobilística de renome mundial,
+                como
+                Volkswagen, BMW e Mercedes-Benz, ela é líder na produção de veículos e tecnologia automotiva. Os carros
+                alemães são sinônimos de qualidade e estão em alta demanda em todo o mundo.</p>
+
+            <div class="w3-margin"><img id="imagem5" src="tt08f05.png" alt="tt08f05" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao5"> Fonte:
+                    https://www.pexels.com/pt-br/procurar/alemanha/
+                </span>
+            </div>
+
+
+
+            <p> Agora, vamos para os dados! Em 2021, a China se tornou a maior economia do mundo em termos de PIB em
+                paridade de poder de compra. A Índia é o terceiro maior produtor de aço do mundo, refletindo seu
+                crescimento
+                industrial. </p>
+
+            <p>Mas nem tudo são flores. A industrialização também traz seus desafios. Como lidar com os impactos no meio
+                ambiente? E a migração das áreas rurais para as urbanas, quais os impactos sociais? E a desigualdade
+                econômica, como ela é afetada pela concentração de indústrias em determinadas regiões? </p>
+
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+
+        <div class="topico">
+
+            <p class="caixa"> Agora é com você!</p>
+
+            <h3> Pergunta para reflexão: Qual o papel das multinacionais nesse cenário de industrialização e
+                globalização?
+                Como as relações comerciais entre países foram influenciadas por esse processo? E a tecnologia, como ela
+                tem
+                facilitado toda essa integração industrial global?</h3>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+
+
+        <div class="topico">
+
+            <h2> Meio Técnico-Científico-Informacional (MTCI) </h2>
+
+
+
+
+            <p>Vamos agora adentrar o fascinante mundo do Meio Técnico-Científico-Informacional, ou simplesmente MTCI.
+                Esse
+                conceito, cunhado pelo renomado geógrafo brasileiro Milton Santos, é essencial para compreendermos a era
+                contemporânea e a forma como a tecnologia e a informação moldam nossa sociedade. </p>
+
+            <div class="w3-margin"><img id="imagem6" src="tt08f06.png" alt="tt08f06" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: pexel.com </span>
+            </div>
+
+
+
+            <p> Milton Santos define o MTCI como um conjunto de técnicas, métodos e sistemas utilizados na produção
+                contemporânea, aliados ao conhecimento científico e à difusão massiva de informações. É como se fosse o
+                cérebro por trás da economia globalizada, guiando os processos industriais e as interações sociais.</p>
+
+            <h3> Importância do MTCI na Era Contemporânea</h3>
+
+            <p> Para entendermos a importância do MTCI, basta olharmos ao nosso redor: smartphones que conectam pessoas
+                em
+                diferentes continentes, fábricas automatizadas que produzem em alta escala, algoritmos que guiam as
+                decisões
+                financeiras. Tudo isso faz parte do MTCI.</p>
+
+            <p> Na era contemporânea, o MTCI se tornou um pilar fundamental da economia, impulsionando a inovação, a
+                produtividade e a competitividade das nações no cenário global.</p>
+
+            <h3> Como a Tecnologia e a Informação Moldam os Processos Industriais e a Economia Global</h3>
+
+            <p> Vamos agora mergulhar um pouco mais fundo nesse universo. A tecnologia e a informação estão
+                intrinsecamente
+                ligadas aos processos industriais modernos.</p>
+
+            <p>Por exemplo, a automação nas fábricas permite uma produção mais eficiente e rápida, reduzindo custos e
+                aumentando a competitividade das empresas no mercado global.</p>
+
+            <div class="w3-margin"><img id="imagem7" src="tt08f07.png" alt="tt08f07" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao7"> Automação nas fábricas. Fonte: Pixalbay. </span>
+
+
+            </div>
+
+            <p>Além disso, a informação é o combustível da economia atual. Empresas que conseguem coletar, analisar e
+                utilizar dados de forma eficaz têm uma vantagem significativa.</p>
+
+            <h3>Exemplos Práticos do MTCI</h3>
+
+            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
+
+                <p>Vamos trazer alguns exemplos práticos para ilustrar o MTCI em ação:</p>
+
+                <div class="w3-margin">
+
+                    <ul>
+                        <li>Indústria 4.0: Este é um termo que se refere à quarta revolução industrial, onde a fusão de
+                            tecnologias está transformando os processos de produção. Robôs colaborativos, Internet das
+                            Coisas
+                            (IoT) e análise de dados em tempo real são alguns dos pilares dessa revolução.</li>
+                        <li>Cidades Inteligentes: Aqui vemos o MTCI aplicado no contexto urbano. Sensores que monitoram
+                            o
+                            tráfego, sistemas de iluminação inteligente que economizam energia e aplicativos que
+                            facilitam a
+                            vida dos cidadãos são exemplos disso.</li>
+                        <li>Logística Global: A forma como mercadorias são transportadas pelo mundo também é
+                            influenciada
+                            pelo
+                            MTCI. Rastreamento por GPS, sistemas de gestão de estoque automatizados e algoritmos de
+                            otimização
+                            de rotas são essenciais para uma logística eficiente.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <h3>Comparação entre Países no Uso do MTCI</h3>
+
+            <p>Para entendermos melhor a aplicação do MTCI, podemos comparar diferentes países:</p>
+
+            <p><strong>Estados Unidos:</strong> Uma potência no uso do MTCI, os Estados Unidos são líderes em inovação
+                tecnológica. Empresas
+                como Google, Apple e Amazon são exemplos de como a tecnologia impulsiona a economia americana.</p>
+
+            <p><strong>Japão</strong>: Conhecido pela sua eficiência e precisão, o Japão utiliza o MTCI em sua indústria
+                automotiva, na
+                robótica e em sistemas de transporte avançados.</p>
+
+
+            <p><strong>Brasil</strong>: O Brasil ainda está em processo de adoção plena do MTCI, mas já vemos avanços.
+                Startups de
+                tecnologia, aplicativos de serviços e automação industrial são alguns exemplos do uso crescente da
+                tecnologia no país.</p>
+
+
+
+            <div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+
+                <h4><strong>Resumo da Definição de MTCI por Milton Santos</strong></h4>
+
+
+
+                <p> <img src="tt08f12.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:160px">LO
+                    Meio Técnico-Científico-Informacional (MTCI), conforme definido pelo renomado geógrafo brasileiro
+                    Milton
+                    Santos, representa uma nova fase na evolução da sociedade moderna. Nesta fase, a interação entre
+                    ciência, tecnologia e mercado se torna central para entendermos as dinâmicas globais. O MTCI reflete
+                    a
+                    profunda interação entre ciência e técnica, a ponto de alguns autores preferirem o termo
+                    "tecnociência"
+                    para ressaltar a inseparabilidade desses conceitos e práticas.</p>
+
+                <p>O MTCI é marcado pela presença do mercado global, onde a ciência e a tecnologia se tornam
+                    impulsionadoras
+                    do crescimento econômico e das mudanças sociais. Os objetos técnicos dessa fase são simultaneamente
+                    técnicos e informacionais, visto que surgem como informação e têm a informação como principal
+                    energia de
+                    funcionamento. Milton Santos destaca que a união entre técnica, ciência e mercado global oferece uma
+                    nova interpretação à questão ambiental, uma vez que as mudanças na natureza também se subordinam a
+                    essa
+                    lógica.</p>
+
+                <p>Neste período, observamos uma transformação profunda da paisagem e dos espaços geográficos. A
+                    natureza
+                    natural começa a recuar diante do avanço da técnica, e os espaços são cada vez mais requalificados
+                    para
+                    atender aos interesses dos atores hegemônicos da economia, cultura e política. O MTCI, portanto, é a
+                    face geográfica da globalização, onde o espaço tende a funcionar como uma unidade, seguindo uma
+                    lógica
+                    global que se impõe a todos os territórios e contribui para os processos encadeados da globalização.
+                    É
+                    uma nova era em que a informação se torna o vetor fundamental do processo social, moldando a vida e
+                    a
+                    interação humana em escala global.</p>
+
+
+
+
+            </div>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+            <h2> Fordismo: A Revolução da Produção em Massa </h2>
+
+
+
+
+            <p>Vamos começar com o Fordismo, uma verdadeira revolução na forma como produzimos bens. Imagine-se nos anos
+                1900, lá nos Estados Unidos. Henry Ford, o cara por trás da famosa Ford Motors, sacudiu o mundo com uma
+                ideia simples, mas genial: a linha de produção em massa. </p>
+
+            <div class="w3-margin"><img id="imagem8" src="tt08f08.png" alt="tt08f08" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao8"> Fonte: Estudo prático/fordismo.</span>
+
+            </div>
+
+
+
+
+            <p> Isso mesmo, pessoal! O Fordismo trouxe a ideia de que, ao dividir o trabalho em tarefas simples e
+                repetitivas, era possível aumentar a eficiência e reduzir custos. O resultado? Carros, por exemplo, que
+                antes eram um luxo para poucos, se tornaram acessíveis para a classe média.</p>
+
+            <p> E não foi só nos EUA não, meus amigos. Olha só o Japão! Depois da Segunda Guerra Mundial, o país adotou
+                o
+                Fordismo e virou potência automobilística com empresas como Toyota e Honda dominando o mercado global.
+            </p>
+
+            <h3> Keynesianismo: O Estado como Regulador da Economia</h3>
+
+            <p> Agora vamos falar do Keynesianismo, uma abordagem econômica que ganhou destaque após a Grande Depressão
+                nos
+                anos 1930. Imagina o caos econômico daquela época, com desemprego em alta e empresas fechando as portas.
+            </p>
+
+            <p> Foi aí que John Maynard Keynes entrou em cena com uma ideia inovadora: o Estado precisava intervir na
+                economia para estimular o crescimento. Ele propôs aumentar os gastos públicos em momentos de crise,
+                investir
+                em obras públicas e reduzir impostos para incentivar o consumo.</p>
+
+            <p> E olha só que interessante, pessoal! O Brasil, lá nos anos 1950 e 1960, abraçou o Keynesianismo com o
+                governo de Juscelino Kubitschek. A construção de Brasília e a implementação de políticas de
+                industrialização
+                foram alguns dos resultados dessa abordagem.</p>
+
+            <h4>Duas Ideias, um Impacto Global</h4>
+
+            <p>E assim, pessoal, vimos como o Fordismo revolucionou a produção em massa, tornando produtos acessíveis
+                para o
+                grande público. E o Keynesianismo trouxe a noção de que o Estado pode e deve intervir na economia para
+                promover o crescimento e estabilidade.</p>
+
+            <p>Essas ideias, que surgiram em contextos históricos diferentes, tiveram um impacto global. De carros nos
+                Estados Unidos à produção de tecnologia no Japão, do crescimento econômico no Brasil às políticas de
+                estímulo na Europa, o Fordismo e o Keynesianismo moldaram o mundo em que vivemos hoje.</p>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+
+        <div class="topico">
+
+            <h2> Empresas Multinacionais: Gigantes da Economia Global </h2>
+
+
+
+
+            <p> Para começar, vamos entender o que são as empresas multinacionais. São aquelas grandes empresas que
+                operam
+                em diversos países ao redor do mundo, não se limitando às fronteiras nacionais. Elas têm uma presença
+                poderosa e influente na economia global, muitas vezes dominando setores inteiros.</p>
+
+            <p> Vamos pensar em exemplos concretos. A gigante do varejo, Walmart, é um exemplo clássico de
+                multinacional.
+                Com lojas em mais de 25 países e uma enorme cadeia de suprimentos, o Walmart é uma força a ser
+                considerada
+                no mundo do comércio global.</p>
+
+            <div class="w3-margin"><img id="imagem9" src="tt08f09.png" alt="tt08f09" class="w3-mobile">
+
+                <span class="w3-small w3-margin-left" id="citacao9"> Fonte:
+                    https://www.aedb.br/seget/arquivos/artigos21/20332218.pdf </span>
+            </div>
+
+
+
+
+            <p> Outro exemplo é a Apple. Com seus produtos icônicos como o iPhone e o MacBook, a Apple tem fábricas e
+                escritórios em diversos países, coordenando uma complexa cadeia de produção global.</p>
+
+            <h4> O Papel das Multinacionais na Economia</h4>
+
+            <p> Essas empresas não apenas vendem produtos, mas também moldam a economia global. Elas influenciam as
+                políticas governamentais, a distribuição de recursos e até mesmo as tendências de consumo.</p>
+
+            <p>As multinacionais também têm um grande impacto nos países onde operam. Por um lado, podem trazer empregos
+                e
+                investimentos, mas por outro, também podem gerar questões de desigualdade, exploração e impactos
+                ambientais.
+            </p>
+
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+            <h2> Nova Divisão Internacional do Trabalho (NDIT) </h2>
+
+
+
+
+            <p> Agora vamos falar sobre a NDIT, que é a forma como o trabalho e a produção estão organizados em nível
+                global.</p>
+
+            <p> Antes, tínhamos uma divisão simples entre países desenvolvidos, que produziam bens de alto valor
+                agregado, e
+                países em desenvolvimento, que forneciam mão de obra barata e recursos naturais.</p>
+
+            <h4> Mudanças na Divisão do Trabalho</h4>
+
+            <p> Mas a NDIT mudou isso. Agora, vemos uma complexa rede de produção global, onde diferentes etapas do
+                processo
+                produtivo são feitas em diferentes países. Por exemplo, um carro pode ser projetado nos EUA, ter suas
+                peças
+                fabricadas na China, montado no México e vendido na Europa.</p>
+
+            <h4> Exemplos de Países na NDIT</h4>
+
+            <p> Vamos olhar para alguns exemplos concretos. A China se tornou conhecida como a "fábrica do mundo", com
+                suas
+                enormes fábricas produzindo uma variedade impressionante de produtos para exportação.</p>
+
+            <p> O México, por sua vez, se destaca na montagem de produtos eletrônicos e automóveis, muitas vezes em
+                parceria
+                com empresas dos EUA.</p>
+
+            <p>E o Brasil, com sua vasta agricultura e recursos naturais, muitas vezes fornece matéria-prima para essas
+                cadeias de produção globais.</p>
+
+            <div class="w3-panel w3-leftbar w3-pale-yellow w3-margin w3-padding">
+
+                <h4>Questões para Reflexão:</h4>
+
+                <p>Agora, vamos nos questionar um pouco. Como essa nova divisão do trabalho afeta os empregos e salários
+                    nos
+                    diferentes países? Quais são as consequências sociais e ambientais dessa interconexão global? </p>
+
+                <p> Será que os benefícios econômicos das multinacionais estão sendo distribuídos de forma justa? E como
+                    podemos pensar em um modelo econômico mais sustentável e equitativo em um mundo cada vez mais
+                    globalizado?</p>
+
+                <p>Estas são apenas algumas questões para nos fazer pensar sobre a realidade complexa em que vivemos,
+                    onde
+                    as fronteiras econômicas se tornam cada vez mais difusas e interligadas. A economia global é uma
+                    teia
+                    intricada de relações, e compreendê-la é o primeiro passo para transformá-la de maneira positiva.
+                </p>
+
+            </div>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <div class="topico">
+
+            <p class="caixa">Reforce seu conhecimento</p>
+
+            <h4>Selecione os conceitos com seus pares correspondentes:</h4>
+
+            <!-- O jogo monta aqui automaticamente -->
+            <div id="memory-game-root"></div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
+                Próximo
+            </button>
+            <hr>
+        </div>
+
+
+
+        
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot8" src="inforesumot8.png"
+                    alt="Infográfico resumo raio x da população" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+
+
+
+
+
+        <div class="topico">
+
+            <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+                    Qual foi o impacto da Revolução Industrial na vida das pessoas comuns?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> A Revolução Industrial teve diversos impactos na vida das pessoas
+                comuns.
+                Entre eles, o surgimento das fábricas e o aumento da urbanização levaram a mudanças nas condições de
+                trabalho
+                e no estilo de vida das pessoas. Muitos trabalhadores passaram a viver em áreas urbanas próximas às
+                fábricas,
+                enfrentando longas jornadas de trabalho e condições precárias.</p>
+
+            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Como a globalização afeta o consumo de
+                    produtos
+                    ao redor do mundo?</strong></p>
+
+            <p><span class="primeiraLetra">R:</span> A globalização impacta diretamente o consumo de produtos ao redor
+                do
+                mundo. Com a interconexão das economias, produtos fabricados em um país podem ser facilmente encontrados
+                e
+                consumidos em outros. Isso leva a uma maior diversidade de produtos disponíveis, mas também pode
+                resultar em
+                padrões de consumo padronizados em todo o mundo.</p>
+
+            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+                    Como a tecnologia tem influenciado a indústria moderna?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span> A tecnologia tem sido fundamental para a indústria moderna,
+                possibilitando
+                a automação de processos, o desenvolvimento de novos materiais e produtos, e a otimização da produção.
+                Máquinas avançadas, robótica e a digitalização de processos têm aumentado a eficiência e a produtividade
+                nas
+                fábricas, resultando em uma indústria mais ágil e competitiva.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <br><br>
+
+            <hr>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true, 
+        idFrase: 'respFinal', 
+        idGlobo: 'globinhorespFinal', 
+        classe: '', 
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64">
+                </p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO 13: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- ===== SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS ===== -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+
+
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+
+    </script>
+
+
+  <script>
+        /* Título exibido no cabeçalho do jogo */
+        window.MEMORY_TITLE = 'Industrialização';
+
+        /* Pares de conceitos — mínimo 2, máximo recomendado 8 */
+        window.PAIRS = [
+            {
+                id: 1,
+                emoji: '🏭',
+                concept: 'Industrialização',
+                pair: 'Fábricas',
+                group: 'Produção',
+                color: '#1D9E75'
+            },
+            {
+                id: 2,
+                emoji: '🌐',
+                concept: 'Globalização',
+                pair: 'Conexão mundial',
+                group: 'Economia',
+                color: '#185FA5'
+            },
+            {
+                id: 3,
+                emoji: '💡',
+                concept: 'Tecnologia',
+                pair: 'Inovação',
+                group: 'MTCI',
+                color: '#BA7517'
+            },
+            {
+                id: 4,
+                emoji: '🏢',
+                concept: 'Multinacionais',
+                pair: 'Presença global',
+                group: 'Empresas',
+                color: '#993556'
+            },
+            {
+                id: 5,
+                emoji: '🔩',
+                concept: 'Fordismo',
+                pair: 'Produção em massa',
+                group: 'Sistemas',
+                color: '#534AB7'
+            },
+            {
+                id: 6,
+                emoji: '🏛️',
+                concept: 'Keynesianismo',
+                pair: 'Intervenção estatal',
+                group: 'Política econômica',
+                color: '#993C1D'
+            },
+        ];
+    </script>
+
+
+</body>
+
+</html>

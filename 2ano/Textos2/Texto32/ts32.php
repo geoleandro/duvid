@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Fontes de energia III: energias renováveis, matriz energética brasileira e transição energética global">
+    <meta property="og:title" content="Texto 32 - Fontes de energia III">
+    <meta property="og:description" content="Energia solar, eólica, hidrogênio verde e a matriz energética do Brasil: quem produz, quem consome e quem decide o futuro da energia">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+
+    <title></title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender as principais fontes de energia renovável (solar, eólica, biomassa, hidrogênio verde); analisar a matriz energética brasileira e suas vantagens e contradições; entender o que é transição energética e quais são os interesses em disputa nesse processo.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Prática Social Inicial -->
+        <div class="topico">
+
+            <h2>De onde vem a energia que você usa?</h2>
+
+            <p><span class="primeiraLetra">Q</span>uando você liga a televisão, carrega o celular ou acende a luz do seu quarto, de onde vem essa energia? Você sabe se a sua cidade é abastecida por uma usina hidrelétrica, por parques eólicos ou por painéis solares? Já ouviu falar em apagão? Já a conta de luz em casa ficou mais cara em algum período de seca?</p>
+
+            <p>E no mundo: você sabe por que a Europa entrou em crise de energia em 2022 quando a Rússia invadiu a Ucrânia? Por que certos países brigam por campos de petróleo? Por que a China domina a produção de painéis solares?</p>
+
+            <p>Anote no caderno: <strong>Você sabe de onde vem a energia elétrica da sua casa? Você acha que o Brasil vai conseguir abastecer sua população sem queimar combustíveis fósseis? Quais são os desafios?</strong></p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: Problematização -->
+        <div class="topico">
+
+            <h2>O problema que esta aula vai ajudar a entender</h2>
+
+            <p>A humanidade queima combustíveis fósseis (petróleo, carvão, gás natural) desde a Revolução Industrial, e isso aqueceu o planeta em 1,2 grau Celsius em média. O Acordo de Paris (2015) estabeleceu a meta de limitar o aquecimento a 1,5 grau, o que exige uma transformação radical na forma como produzimos e consumimos energia.</p>
+
+            <p>O Brasil está numa posição privilegiada: tem uma das matrizes elétricas mais renováveis do mundo, com mais de 80% da energia elétrica vindo de fontes limpas. Mas ainda depende do petróleo para o transporte e do gás para a indústria. A pergunta desta aula é: <strong>qual é o verdadeiro papel do Brasil na transição energética global, quem se beneficia e quem paga o preço das escolhas energéticas que fazemos?</strong></p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Fontes renováveis -->
+        <div class="topico">
+
+            <div class="w3-pale-blue">
+
+            <h2>As principais fontes de energia renovável</h2>
+
+            <p>A <span class="termo" data-palavra="Energia Solar" data-definicao="Energia obtida pela conversão da radiação solar em eletricidade (através de painéis fotovoltaicos) ou em calor (coletores solares térmicos). É renovável, inesgotável e não emite poluentes durante a geração. O custo dos painéis fotovoltaicos caiu mais de 90% entre 2010 e 2023, tornando a energia solar a mais barata da história da humanidade em muitas regiões. O Brasil tem um dos maiores potenciais solares do mundo, especialmente no Nordeste.">energia solar</span> é obtida por painéis fotovoltaicos que convertem a luz do sol em eletricidade. Em 2023, o Brasil ultrapassou 30 GW de capacidade instalada solar, tornando-se um dos dez maiores mercados do mundo. O Nordeste, especialmente a Bahia e o Piauí, concentra os maiores parques solares do país. Uma das grandes vantagens é a geração distribuída: um conjunto de painéis no telhado de uma casa pode abastecer a residência e ainda vender o excedente para a rede elétrica.</p>
+
+            <p>A <span class="termo" data-palavra="Energia Eólica" data-definicao="Energia obtida pela conversão da força do vento em eletricidade por meio de turbinas eólicas. É renovável e não emite poluentes. O Brasil é um dos maiores produtores eólicos do mundo, com destaque para o Nordeste (especialmente Rio Grande do Norte, Ceará e Bahia), onde os ventos são constantes e fortes. A energia eólica offshore (turbinas instaladas no mar) é a nova fronteira do setor.">energia eólica</span> é gerada por aerogeradores. O Brasil é um dos maiores produtores eólicos do mundo, especialmente no Nordeste, onde os ventos alísios são constantes e previsíveis. Em 2023, a energia eólica respondeu por cerca de 14% da eletricidade produzida no país. O Rio Grande do Norte é o estado com maior capacidade instalada.</p>
+
+            <p>A <span class="termo" data-palavra="Biomassa" data-definicao="Matéria orgânica de origem vegetal ou animal usada como fonte de energia. Inclui a cana-de-açúcar (para produção de etanol), o bagaço da cana (queimado para gerar eletricidade), resíduos florestais e agrícolas, biogás produzido pela decomposição de matéria orgânica, e óleos vegetais (para biodiesel). O Brasil é líder mundial na produção de etanol de cana-de-açúcar, que abastece mais de 30% da frota de veículos leves do país.">biomassa</span> engloba a cana-de-açúcar (etanol), o bagaço da cana (eletricidade), resíduos florestais e biogás. O Brasil é o maior exportador mundial de etanol de cana e um dos maiores produtores de biodiesel. O setor sucroenergético gera emprego e renda, mas levanta questões sobre uso da terra: plantações de cana ocupam grandes áreas que poderiam ser usadas para alimentos.</p>
+
+            <p>O <span class="termo" data-palavra="Hidrogênio Verde" data-definicao="Hidrogênio produzido pela eletrólise da água usando energia elétrica renovável (solar ou eólica). Ao ser queimado, emite apenas vapor d'água, sem CO2. É considerado um dos combustíveis do futuro para setores de difícil descarbonização, como aço, cimento, aviação e navegação. O Brasil tem potencial para ser um dos maiores produtores mundiais de hidrogênio verde, especialmente no Nordeste, onde a combinação de sol e vento barato é ideal para a eletrólise.">hidrogênio verde</span> é a nova fronteira energética: produzido com eletricidade renovável, ao ser queimado emite apenas vapor d'água. O Brasil quer ser um grande exportador de hidrogênio verde, aproveitando seu potencial solar e eólico, especialmente no Nordeste. O Porto do Pecém, no Ceará, já é polo de projetos nessa área.</p>
+
+            <div class="w3-margin">
+                <img src="ts32f01.png" alt="Infográfico da matriz elétrica brasileira em 2023 mostrando a participação de cada fonte"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Infográfico da matriz elétrica brasileira em breve</div>'">
+                <span class="w3-small w3-margin-left">Matriz elétrica brasileira em 2023. Fonte: ONS/ANEEL.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Brasil tem mais de 80% de sua matriz elétrica proveniente de fontes renováveis, sendo a hidroeletricidade a principal. No entanto, em anos de seca severa, o país enfrenta risco de apagão e aumento das tarifas de energia. Qual contradição esse fato revela sobre a matriz energética brasileira?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>Abandonar renováveis e investir em termelétricas a gás e carvão, mais estáveis</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>Diversificar com solar e eólica, reduzindo a dependência excessiva da hidroeletricidade</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>A matriz renovável é instável; países desenvolvidos preferem nuclear e gás como base</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'A matriz é renovável, mas dependente: hidroeletricidade responde por ~60% — solar e eólica são essenciais para diversificar.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 6: Transição energética e geopolítica -->
+        <div class="topico">
+
+            <h2>Transição energética: quem ganha e quem perde</h2>
+
+            <p>A <span class="termo" data-palavra="Transição Energética" data-definicao="Processo de substituição progressiva dos combustíveis fósseis (petróleo, carvão, gás natural) por fontes de energia renovável (solar, eólica, hidrogênio verde, biomassa) como principal base da economia global. Motivada pela necessidade de reduzir as emissões de gases do efeito estufa e conter as mudanças climáticas. Envolve transformações profundas na indústria, no transporte, na geopolítica e no mercado de trabalho.">transição energética</span> não é apenas uma questão tecnológica: é um processo político e econômico que redistribui o poder entre países e setores. Países que dependem da exportação de petróleo (Arábia Saudita, Rússia, Venezuela) perdem influência quando o mundo abandona os combustíveis fósseis. Países com abundância de sol, vento e minerais críticos (lítio, cobalto, terras raras) podem ganhar posição na nova ordem energética.</p>
+
+            <p>O Brasil está bem posicionado na transição: tem solar, eólica, hidro, biomassa e reservas de lítio (essencial para as baterias dos carros elétricos) em Minas Gerais. Mas há contradições: o Brasil também é um dos maiores produtores de petróleo do mundo, com o pré-sal. Como conciliar a exploração de petróleo com os compromissos climáticos? Esse debate está no centro da política energética brasileira.</p>
+
+            <h3>Minerais críticos: a nova corrida</h3>
+
+            <p>As energias renováveis não são "gratuitas" em termos de materiais. Um painel solar precisa de silício, prata e outros minerais. Uma bateria de carro elétrico precisa de lítio, cobalto e manganês. Uma turbina eólica offshore usa quantidades enormes de aço e terras raras. Isso criou uma nova geopolítica dos minerais críticos, com disputas por reservas de lítio na América do Sul (triângulo do lítio: Argentina, Bolívia e Chile) e de cobalto no Congo.</p>
+
+            <p>A China domina a cadeia de processamento de quase todos os minerais críticos: mesmo que o lítio seja extraído no Chile ou no Congo, é processado majoritariamente na China antes de virar bateria. Isso cria uma dependência geopolítica que preocupa Europa e Estados Unidos.</p>
+
+            <div class="w3-margin">
+                <img src="ts32f02.png" alt="Mapa dos principais países produtores de minerais críticos para a transição energética: lítio, cobalto e terras raras"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Mapa de minerais críticos em breve</div>'">
+                <span class="w3-small w3-margin-left">Distribuição mundial das reservas de lítio, cobalto e terras raras — minerais essenciais para a transição energética. Fonte: USGS, 2023.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Brasil possui vastas reservas de lítio em Minas Gerais e um alto potencial para produção de hidrogênio verde no Nordeste. Considerando o contexto da transição energética global, a melhor estratégia para o Brasil seria:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Exportar lítio bruto e hidrogênio verde sem processamento, para receita imediata</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>Processar o lítio e o hidrogênio verde internamente, agregando valor à matéria-prima</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>Proteger as reservas de lítio, pois sua extração causa danos ambientais maiores que os benefícios</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Exportar lítio bruto = vender commodity. Exportar baterias = exportar tecnologia e empregos qualificados.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Contradições e desafios -->
+        <div class="topico">
+
+            <div class="w3-pale-green">
+
+            <h2>Contradições da transição: quem paga a conta?</h2>
+
+            <p>A transição energética não é igualitária. Os países que mais emitiram CO2 ao longo dos últimos 200 anos (Europa, Estados Unidos) são os que mais pediram para os países em desenvolvimento abandonarem os combustíveis fósseis. Mas esses mesmos países se desenvolveram queimando carvão e petróleo, e os países pobres ainda dependem dessas fontes para crescer.</p>
+
+            <p>No Brasil, há contradições internas também. O etanol de cana é uma energia renovável, mas a expansão do canavial empurou a pecuária e a soja para o Cerrado e a Amazônia, contribuindo para o desmatamento. Os parques eólicos do Nordeste geram energia limpa, mas foram instalados em territórios de comunidades indígenas e quilombolas sem consulta adequada. Usinas hidrelétricas são renováveis, mas alagam territórios, deslocam populações e impactam ecossistemas. A transição energética não é automaticamente justa: ela precisa ser planejada para não reproduzir velhas desigualdades com novas tecnologias.</p>
+
+            <div class="w3-margin">
+                <img src="ts32f03.png" alt="Gráfico mostrando as emissões históricas de CO2 por país desde 1850, evidenciando a responsabilidade diferenciada de países ricos e pobres"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Gráfico de emissões históricas em breve</div>'">
+                <span class="w3-small w3-margin-left">Emissões históricas acumuladas de CO2 por país desde 1850. Fonte: Our World in Data, 2023.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.5: Texto-fonte -->
+        <div class="topico">
+
+            <div class="duvid-bloco-apoio">
+                <div class="duvid-texto-citacao">
+                    "A transição energética é apresentada como solução técnica para a crise climática. Mas ela é também um processo geopolítico e social. Quem detém as reservas de minerais críticos, quem domina as tecnologias de processamento e quem financia a infraestrutura de energia limpa determina quem serão os vencedores e perdedores da nova economia de baixo carbono. Os países do Sul Global, que menos contribuíram para o aquecimento global e mais sofrerão seus impactos, correm o risco de se tornarem novamente fornecedores de matérias-primas para o enriquecimento dos países do Norte, mesmo nessa nova ordem energética supostamente mais verde."
+                </div>
+                <div class="duvid-fonte-texto">Adaptado de SVAMPA, Maristella. Las fronteras del neoextractivismo en América Latina. Guadalajara: CALAS, 2019.</div>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin-top">
+                <p><strong>Responda no caderno antes de continuar:</strong></p>
+                <p>1. O texto aponta que os países do Sul Global "correm o risco de se tornarem novamente fornecedores de matérias-primas." Relacione essa ideia com o conceito de neoextrativismo e explique como o Brasil pode evitar essa armadilha em relação ao lítio e ao hidrogênio verde.</p>
+                <p>2. A transição energética é ambientalmente necessária. Mas ela é socialmente justa? Quem paga o preço das mudanças que a transição exige e quem colhe os benefícios?</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Catarse -->
+        <div class="topico">
+
+            <div>
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Antes de estudar esta aula, você provavelmente achava que a energia renovável era simplesmente "a solução" para os problemas ambientais: limpa, gratuita e boa para todos. Agora você vê que a transição energética é um processo complexo, cheio de contradições políticas, econômicas e sociais. Há disputas por minerais críticos, riscos de um novo ciclo extrativista para países em desenvolvimento, e impactos socioambientais das próprias energias "limpas."</p>
+
+            <p>O Brasil tem uma posição privilegiada: matriz elétrica já bastante renovável, potencial solar e eólico imenso, reservas de lítio e capacidade de produzir hidrogênio verde. Mas ter recursos não é suficiente. A história do petróleo, do minério de ferro e da soja mostrou que exportar matéria-prima sem agregar valor mantém o país na periferia da economia mundial. A transição energética só será transformadora para o Brasil se vier acompanhada de industrialização, ciência, tecnologia e políticas que garantam que os benefícios sejam distribuídos para quem precisa.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> energias renováveis (solar, eólica, biomassa, hidrogênio verde); matriz energética (conjunto de fontes usadas por um país); transição energética (substituição dos fósseis por renováveis); minerais críticos (lítio, cobalto, terras raras para as novas tecnologias); responsabilidade diferenciada (países ricos emitiram mais e devem liderar a transição).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O etanol é realmente uma energia limpa?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Depende de como se avalia. O etanol de cana queima e libera CO2, mas esse CO2 foi retirado da atmosfera pela própria cana durante o crescimento, o que torna o balanço de carbono próximo de zero. Isso é diferente do petróleo, cujo carbono estava armazenado há milhões de anos e, ao queimar, aumenta o CO2 atmosférico. Mas há questões: a expansão do canavial pode desmatar e emitir carbono; os trabalhadores do corte de cana (antes da mecanização) tinham condições de trabalho exaustivas; e grandes áreas plantadas com cana podem competir com a produção de alimentos. O etanol é mais limpo que a gasolina, mas não é neutro em relação a impactos ambientais e sociais.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que o Brasil ainda investe no pré-sal se quer ser verde?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> É uma contradição real da política energética brasileira. O pré-sal é um ativo econômico enorme: exportar petróleo gera divisas que o governo usa para financiar saúde, educação e programas sociais. Abandonar essa receita imediatamente seria um choque econômico severo. O argumento do governo é que pode haver um período de transição em que o Brasil exporta petróleo enquanto investindo os lucros na construção da nova matriz. Mas há um risco: se a transição global for mais rápida do que se espera, o Brasil pode ficar com ativos de petróleo encalhados ("stranded assets"). O debate não tem resposta fácil, mas ignorá-lo seria um erro histórico.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O que é energia nuclear e por que o Brasil não usa mais?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> A energia nuclear é gerada pela fissão do urânio (ou outros elementos pesados), liberando calor que movimenta turbinas. Não emite CO2 durante a geração, mas produz resíduos radioativos de difícil descarte. O Brasil tem duas usinas nucleares em Angra dos Reis (RJ) e uma terceira em construção (Angra 3). Com apenas 2% da geração elétrica, a nuclear tem papel pequeno na matriz brasileira. Por quê? Custos de construção altíssimos, tempos de obra longíssimos (Angra 3 está em construção há décadas) e o debate público sobre riscos. Com sol e vento abundantes, o Brasil tem alternativas mais rápidas e baratas para expandir a geração limpa.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Produção - Prática Social Final -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o novo olhar.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>O Brasil na transição energética</h3>
+                <p><strong>Atividade individual</strong></p>
+
+                <p>No início desta aula você refletiu sobre de onde vem a energia que você usa. Agora, com os conceitos aprendidos, escreva uma análise de 15 a 20 linhas respondendo:</p>
+
+                <p><strong>1.</strong> Quais são as vantagens da matriz energética brasileira em relação a países que dependem de combustíveis fósseis?</p>
+                <p><strong>2.</strong> Quais são as contradições e limitações dessa matriz (dependência da hidroeletricidade, uso de termelétricas em anos de seca, impactos das grandes usinas)?</p>
+                <p><strong>3.</strong> O que o Brasil precisaria fazer para se tornar um líder global na transição energética e, ao mesmo tempo, garantir que os benefícios dessa transição cheguem à população mais pobre?</p>
+                <p class="w3-small w3-text-grey">Dica: o Operador Nacional do Sistema Elétrico (ONS) publica dados em tempo real sobre a geração de energia por fonte em ons.org.br.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que é matriz energética? Como a matriz elétrica brasileira se diferencia da maioria dos países do mundo?</h3>
+
+                <h3>2. Explique como funciona a energia solar fotovoltaica e cite as vantagens do Brasil para desenvolver essa fonte.</h3>
+
+                <h3>3. O que é energia eólica? Por que o Nordeste brasileiro concentra os maiores parques eólicos do país?</h3>
+
+                <h3>4. O que é hidrogênio verde? Por que ele é considerado um combustível do futuro e qual é o potencial do Brasil nessa área?</h3>
+
+                <h3>5. Por que a dependência excessiva da hidroeletricidade torna a matriz elétrica brasileira vulnerável às variações climáticas?</h3>
+
+                <h3>6. O que são minerais críticos? Como a disputa por esses recursos está criando uma nova geopolítica energética global?</h3>
+
+                <h3>7. O que é transição energética? Quais países têm mais responsabilidade histórica nas mudanças climáticas e, portanto, mais obrigação de liderar e financiar essa transição?</h3>
+
+                <h3>8. O etanol de cana-de-açúcar é uma energia renovável, mas tem contradições sociais e ambientais. Quais são essas contradições?</h3>
+
+                <h3>9. Por que os países do Sul Global, como o Brasil, correm o risco de reproduzir relações de dependência na nova economia de baixo carbono, mesmo sendo grandes produtores de energias renováveis e minerais críticos?</h3>
+
+                <h3>10. Como o Brasil pode usar sua posição privilegiada na transição energética (sol, vento, lítio, hidrogênio verde) para agregar valor internamente e reduzir as desigualdades regionais, especialmente no Nordeste?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 14: Transição final -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 15: Finalizar -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SECAO FINAL -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+            <br><br>
+            <div class="w3-padding-48">
+                <span id="numero"></span>
+                <span id="txtBarra">0%</span>
+                <progress value="0" max="100" id="progress"></progress>
+            </div>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

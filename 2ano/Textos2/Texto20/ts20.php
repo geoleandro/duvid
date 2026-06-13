@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>2º ano - Texto 20 - Geografia agrária III – o uso da terra e as questões socioambientais</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico ">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula passada vimos a produção agropecuária brasileira e os tipos de cultivo.
+        </p>
+
+
+        <p>Na aula de hoje veremos o impacto disso no território em relação à biodiversidade, além das áreas de preservação no território brasileiro.</p>
+
+     
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+            
+            <h3>1. O que a modernização agrícola trouxe além do aumento da produtividade?</h3>
+            <h3>2. O que são transgênicos?</h3>
+            <h3>3. Qual é a principal controvérsia associada ao uso de transgênicos?</h3>
+            <h3>4. Qual é a porcentagem de soja transgênica cultivada no Brasil?</h3>
+            <h3>5. Qual é o impacto do uso intensivo de agrotóxicos?</h3>
+            <h3>6. O que é soberania alimentar?</h3>
+            <h3>7. Qual movimento no Brasil busca promover a soberania alimentar e como?</h3>
+            <h3>8. Qual bioma brasileiro é significativamente afetado pelo desmatamento causado pela expansão agrícola?</h3>
+            <h3>9. O que são áreas de preservação permanente (APPs)?</h3>
+        </div>
+        
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+</div>
+
+<div class="topico">
+
+        <h2>A modernização agrícola</h2>
+    
+        <p>A modernização agrícola trouxe avanços significativos na produtividade, mas também levantou diversas questões socioambientais. Para entender esses impactos, exploramos temas como transgênicos, agrotóxicos, soberania alimentar, desmatamento, agroecologia, áreas de preservação, reservas naturais e outras técnicas e práticas agrícolas.</p>
+    
+        <p><strong>Transgênicos</strong></p>
+
+        <div class="w3-margin"><img id="imagem1" src="ts20f01.png" alt="tt20f01" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao1" >Fonte: g1.com </span>
+           
+           </div>
+    
+              
+     
+        <p>Os transgênicos são organismos geneticamente modificados (OGMs), cujos códigos genéticos foram alterados para melhorar características como resistência a pragas e produtividade. No Brasil, a soja transgênica é amplamente cultivada, representando mais de 96% da produção total de soja do país. Embora os transgênicos possam aumentar a produção e reduzir o uso de pesticidas, eles também geram controvérsias sobre a segurança alimentar e o impacto ambiental a longo prazo.</p>
+        <p><em>Exemplo Prático:</em> A soja RR (Roundup Ready) é um tipo de soja geneticamente modificada para ser resistente ao herbicida glifosato. Isso permite aos agricultores aplicar o herbicida diretamente nas lavouras, eliminando as ervas daninhas sem afetar a soja. No entanto, o uso intensivo de glifosato tem sido associado à resistência de ervas daninhas e à contaminação ambiental.</p>
+    
+        <p><strong>Agrotóxicos</strong></p>
+
+      
+	   
+        <div class="w3-margin"><img id="imagem2" src="ts20f02.png" alt="ts20f02" class="w3-mobile">
+         <span class="w3-small w3-margin-left" id="citacao2"> Fonte: poder360.com </span>
+     </div>
+        <p>Os agrotóxicos são produtos químicos usados para controlar pragas, doenças e ervas daninhas nas plantações. O Brasil é um dos maiores consumidores de agrotóxicos do mundo. O uso intensivo desses produtos tem levantado preocupações quanto à saúde humana, contaminação do solo e água, e a resistência de pragas.</p>
+        <p><em>Dados do Brasil:</em> Em 2019, o Brasil aprovou o registro de mais de 400 novos agrotóxicos. Estudos indicam que aproximadamente 20% dos alimentos consumidos no país contêm resíduos de agrotóxicos acima dos limites permitidos.</p>
+
+
+        <div class="w3-margin"><img id="imagem3" src="ts20f03.png" alt="ts20f03" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao3" >  </span>
+            
+            </div>
+        
+    
+        <p><strong>Soberania Alimentar</strong></p>
+        <p>Soberania alimentar refere-se ao direito dos povos de definirem suas próprias políticas e estratégias sustentáveis de produção, distribuição e consumo de alimentos, assegurando o acesso a alimentos nutritivos e culturalmente adequados.</p>
+        <p><em>Exemplo Prático:</em> No Brasil, movimentos como o MST (Movimento dos Trabalhadores Rurais Sem Terra) defendem a reforma agrária e a agroecologia como caminhos para garantir a soberania alimentar. Eles promovem a produção de alimentos sem o uso de agrotóxicos e a preservação das sementes crioulas.</p>
+
+
+        <div class="w3-margin"><img id="imagem4" src="ts20f04.png" alt="ts20f04" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao4" >Fonte: https://www.brasildefatope.com.br/2021/07/12/soberania-alimentar-25-anos-de-construcao </span>
+            
+            </div>
+    
+        <p><strong>Desmatamento</strong></p>
+        <p>A modernização agrícola, especialmente a expansão da fronteira agrícola, tem contribuído significativamente para o desmatamento no Brasil. A Amazônia e o Cerrado são biomas particularmente afetados pela conversão de florestas em áreas agrícolas e pastagens.</p>
+        <p><em>Dados do Brasil:</em> Entre agosto de 2019 e julho de 2020, o desmatamento na Amazônia brasileira aumentou 9,5%, atingindo 11.088 km². A principal causa é a expansão agrícola e pecuária.</p>
+
+
+        <div class="w3-margin"><img id="imagem5" src="ts20f05.png" alt="ts20f05" class="w3-mobile" >
+		  
+			<span class="w3-small w3-margin-left" id="citacao5" > Fonte: https://mundoeducacao.uol.com.br/geografia/degradacao-cerrado.htm</span>
+		   </div>
+	   
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+
+        <div class="w3-panel w3-pale-yellow w3-padding">
+
+
+        <h2>Agroecologia</h2>
+    
+        
+        <div class="w3-margin"><img id="imagem6" src="ts20f06.png" alt="ts20f06" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao6" >  </span>
+            
+            </div>
+        <p><strong></strong></p>
+        <p>A agroecologia propõe práticas agrícolas que respeitam os processos ecológicos, a biodiversidade e a sustentabilidade social. Ela integra conhecimentos tradicionais com técnicas modernas para promover sistemas agrícolas sustentáveis e resilientes.</p>
+        <p><em>Exemplo Prático:</em> A técnica agroflorestal, que combina cultivos agrícolas com árvores, é usada em várias regiões do Brasil. Um exemplo é o projeto Agroflorestal no assentamento Sepé Tiaraju, no Paraná, onde a integração de árvores frutíferas e madeira com cultivos anuais tem aumentado a produtividade e a sustentabilidade ambiental.</p>
+    
+        <p><strong>Áreas de Preservação</strong></p>
+        <p>As áreas de preservação permanente (APPs) e as reservas legais são mecanismos importantes no Brasil para proteger recursos hídricos, a biodiversidade e prevenir desastres naturais.</p>
+
+
+
+        <div class="w3-margin"><img id="imagem7" src="ts20f07.png" alt="ts20f07" class="w3-mobile" >
+		  
+            <span class="w3-small w3-margin-left" id="citacao7" >  </span>
+            </div>
+        
+        <p><em>Exemplo Prático:</em> As margens do Rio São Francisco são áreas de preservação permanente que ajudam a proteger as nascentes e a qualidade da água. As APPs garantem a conservação de matas ciliares, fundamentais para a proteção do solo e da água.</p>
+    
+        <p><strong>Reservas Naturais</strong></p>
+        <p>Reservas naturais no Brasil incluem Parques Nacionais, Florestas Nacionais e Reservas Extrativistas, que variam em termos de uso permitido e níveis de proteção.</p>
+        <p><em>Exemplo Prático:</em> O Parque Nacional do Iguaçu, no Paraná, é um exemplo de área protegida que permite apenas atividades científicas e turísticas controladas. Já a Reserva Extrativista Chico Mendes, no Acre, permite o uso sustentável dos recursos naturais por populações tradicionais, combinando conservação com desenvolvimento socioeconômico.</p>
+    
+        <p><strong>Técnica de Controle Biológico</strong></p>
+        <p>O controle biológico é uma técnica que utiliza organismos vivos para controlar pragas agrícolas. Em vez de usar agrotóxicos, os agricultores introduzem predadores naturais das pragas nas lavouras.</p>
+        <p><em>Exemplo Prático:</em> O uso de joaninhas para controlar pulgões em plantações de hortaliças é uma prática comum no Brasil, reduzindo a necessidade de pesticidas químicos e promovendo um ecossistema agrícola mais equilibrado.</p>
+    
+        <p><strong>Uso de Fertilizantes</strong></p>
+        <p>Os fertilizantes são essenciais para repor nutrientes no solo e aumentar a produtividade agrícola. No entanto, o uso excessivo pode levar à contaminação dos cursos d'água e à degradação do solo.</p>
+        <p><em>Dados do Brasil:</em> O Brasil é um dos maiores consumidores de fertilizantes do mundo. A agricultura brasileira depende fortemente de fertilizantes sintéticos, especialmente em culturas como soja, milho e cana-de-açúcar.</p>
+
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+  
+
+    <h2>Utilização de Madeira de Reflorestamento</h2>
+    <p>A madeira de reflorestamento é uma alternativa sustentável à extração de madeira de florestas nativas. Ela contribui para a redução do desmatamento e promove a sustentabilidade.</p>
+    <p><em>Exemplo Prático:</em> No Brasil, o eucalipto é amplamente utilizado em projetos de reflorestamento para produção de papel, celulose e carvão vegetal. A prática ajuda a conservar as florestas nativas e a fornecer uma fonte renovável de madeira.</p>
+
+    <p><strong>Impermeabilização do Solo</strong></p>
+    <p>A impermeabilização do solo ocorre quando a superfície do solo é coberta por materiais que impedem a infiltração de água, como concreto e asfalto. Isso pode levar a problemas como inundações e erosão do solo.</p>
+    <p><em>Exemplo Prático:</em> A expansão urbana desordenada em áreas agrícolas pode resultar na impermeabilização do solo, aumentando o escoamento superficial e diminuindo a recarga dos aquíferos.</p>
+
+    <p><strong>Grilagem de Terras</strong></p>
+
+    <div class="w3-margin"><img id="imagem8" src="ts20f08.png" alt="8" class="w3-mobile" >
+   
+        <span class="w3-small w3-margin-left" id="citacao8" > Fonte: ecodebate.com </span>
+       
+       </div>
+    <p>A grilagem de terras é a apropriação ilegal de terras públicas ou privadas por meio de fraudes e falsificações de documentos. Este fenômeno é comum em regiões de expansão agrícola no Brasil.</p>
+    <p><em>Exemplo Prático:</em> Na Amazônia, a grilagem de terras é um problema sério, com grandes áreas de floresta sendo ilegalmente convertidas em pastagens ou áreas agrícolas, exacerbando o desmatamento e os conflitos fundiários.</p>
+
+    <p><strong>Diversidade de Vida no Solo com o Aumento da Matéria Orgânica</strong></p>
+    <p>O aumento da matéria orgânica no solo melhora sua fertilidade e promove a diversidade biológica, incluindo microrganismos benéficos, minhocas e outros organismos que ajudam na decomposição e ciclagem de nutrientes.</p>
+    <p><em>Exemplo Prático:</em> A adição de composto orgânico nas plantações de hortaliças melhora a estrutura do solo, aumenta a retenção de água e nutrientes, e promove uma maior diversidade de vida no solo, resultando em plantas mais saudáveis e produtivas.</p>
+
+    <p><strong>Utilização Sustentável dos Recursos Naturais</strong></p>
+    <p>A utilização sustentável dos recursos naturais envolve práticas que não esgotem os recursos e permitam sua renovação para as futuras gerações.</p>
+    <p><em>Exemplo Prático:</em> A prática de rotação de culturas, uso de adubação verde e conservação de nascentes são exemplos de técnicas que promovem a sustentabilidade na agricultura brasileira, garantindo a manutenção dos recursos naturais a longo prazo.</p>
+
+    <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+    <hr>
+
+</div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>ModeloScrowLento</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+
+        <p>div </p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+
+        <p>div 1</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+
+        <p>div 2</p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <div class="w3-center">
+
+            <h2 class="fontePixel"> <img src="micro2.png" alt="microfone" width="84" height="84"> Duvid - Podcast
+            </h2>
+
+            <p><strong>Aventuras climáticas pelo Brasil: a jornada do ganhador do concurso de redação</strong>
+            </p>
+
+        </div>
+
+
+
+        <p><strong>Duvid:</strong>
+
+            Olá e bem-vindos ao Duvid Podcast! Hoje vamos entrevistar o ganhador do concurso de redação sobre o Brasil.
+            Um estudante do ensino médio que escreveu sobre a diversidade climática no país e ganhou o prêmio de
+            participar de uma expedição para conhecer as diferentes regiões do Brasil. Acompanhado por geógrafos
+            renomados, esse jovem teve a oportunidade única de vivenciar de perto as características climáticas de cada
+            região e aprender sobre a importância do clima para a paisagem e a vida na terra. Então, vamos ouvir sobre
+            essa incrível jornada e como foi participar desse projeto para o ganhador do concurso.
+
+        </p>
+
+
+        <!-- <div class="w3-margin"><img id="imagem1" src="ts14f01.png" alt="ts01f01" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao1"> Moreira (2016). </span>
+
+        </div> -->
+
+
+
+
+
+        <!-- <img src="ts14f01.png" usemap="#image-map"> -->
+
+        <map name="image-map">
+            <area target="" alt="Belem" id="Belem" title="Belem" href="#" coords="400,150,315,108" shape="rect"
+                onclick="openModal('Belem', event); return false;" />
+
+            <area target="" alt="Salvador" id="Salvador" title="Salvador" href="#" coords="552,316,455,262" shape="rect"
+                onclick="openModal('Salvador', event); return false;" />
+
+            <area target="" alt="Brasilia" id="Brasilia" title="Brasilia" href="#" coords="287,272,401,329" shape="rect"
+                onclick="openModal('Brasilia', event); return false;" />
+
+            <area target="" alt="Belo Horizonte" id="BH" title="Belo Horizonte" href="#" coords="288,347,434,413"
+                shape="rect" onclick="openModal('BH', event); return false;" />
+
+            <area target="" alt="Porto Alegre" id="PortoAlegre" title="Porto Alegre" href="#" coords="291,478,414,534"
+                shape="rect" onclick="openModal('PortoAlegre', event); return false;" />
+        </map>
+
+
+
+
+
+
+
+
+        <div class="w3-center w3-padding-top-48">
+
+            <picture>
+                <source srcset="ts14f01B.png" usemap="#map-mobile" media="(max-width:700px)">
+                <img src="ts14f01.png" usemap="#image-map" alt="Logo Duvid">
+
+            </picture>
+
+
+        </div>
+
+        <div class="btn-modal w3-center w3-padding-top-48 w3-mobile">
+
+            <button onclick="openModal('Belem', event); return false;"
+                class="btn-open-modal w3-margin w3-green">Belém</button>
+            <button onclick="openModal('Salvador', event); return false;"
+                class="btn-open-modal w3-margin w3-green">Salvador</button>
+            <button onclick="openModal('Brasilia', event); return false;"
+                class="btn-open-modal w3-margin w3-green">Brasília</button>
+            <button onclick="openModal('BH', event); return false;" class="btn-open-modal w3-margin w3-green">Belo
+                Horizonte</button>
+            <button onclick="openModal('PortoAlegre', event); return false;"
+                class="btn-open-modal w3-margin w3-green">Porto Alegre</button>
+        </div>
+
+
+
+
+        <div id="Belem" class="content">
+
+            <div class="map-container">
+
+                <div class="card">
+
+                    <div class="card-text">
+                        <h2>Belém - PA</h2>
+                        <div class="card-image">
+                            <span onclick="closeModal();" class="w3-button w3-red w3-display-topright">&times;</span>
+                            <img src="ts14f02.png" alt="Climograma">
+                        </div>
+                        <p>O climograma da cidade de Belém do Pará é caracterizado por temperaturas quentes e chuvas
+                            abundantes ao longo do ano, com uma estação seca menos definida. As temperaturas médias
+                            variam pouco durante o ano, com mínimas em torno de 24°C e máximas entre 29°C e 32°C. A
+                            precipitação é elevada, com valores mensais acima de 100 mm na maioria dos meses, com
+                            exceção dos meses de agosto a outubro, que são os menos chuvosos.<br>
+
+                            A média anual de temperatura em Belém do Pará é de aproximadamente 26°C, enquanto a média
+                            anual de precipitação é de cerca de 2100 mm.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div id="Salvador" class="content">
+
+            <div class="map-container">
+
+                <div class="card">
+
+                    <div class="card-text">
+                        <h2>Salvador - BA</h2>
+                        <div class="card-image">
+                            <span onclick="closeModal();" class="w3-button w3-red w3-display-topright">&times;</span>
+                            <img src="ts14f03.png" alt="Climograma">
+                        </div>
+                        <p>A partir dos dados do climograma, pode-se observar que a cidade de Salvador apresenta
+                            temperaturas médias relativamente estáveis durante o ano, variando entre mínimas de 23°C a
+                            26°C e máximas de 25°C a 28°C. A precipitação é mais elevada nos meses de abril a julho, com
+                            valores acima de 135 mm por mês, e mais baixa nos meses de outubro a dezembro, com valores
+                            abaixo de 70 mm por mês.<br>
+
+                            A média anual de temperatura em Salvador é de cerca de 25°C, enquanto a média anual de
+                            precipitação é de aproximadamente 1200 mm.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="Brasilia" class="content">
+
+            <div class="map-container">
+
+                <div class="card">
+
+                    <div class="card-text">
+                        <h2>Brasília - DF</h2>
+                        <div class="card-image">
+                            <span onclick="closeModal();" class="w3-button w3-red w3-display-topright">&times;</span>
+                            <img src="ts14f04.png" alt="Climograma">
+                        </div>
+                        <p>A partir dos dados do climograma, pode-se observar que a cidade de Brasília apresenta uma
+                            grande variação de temperatura ao longo do ano, com mínimas que podem chegar a 14°C no
+                            inverno e máximas que podem atingir 29°C no verão. A precipitação é mais elevada nos meses
+                            de janeiro a março, com valores acima de 200 mm por mês, e mais baixa nos meses de junho a
+                            agosto, com valores abaixo de 12 mm por mês.<br>
+
+                            A média anual de temperatura em Brasília é de cerca de 22°C, enquanto a média anual de
+                            precipitação é de aproximadamente 1118 mm.
+
+
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="BH" class="content">
+
+            <div class="map-container">
+
+                <div class="card">
+
+                    <div class="card-text">
+                        <h2>Belo Horizonte - MG</h2>
+                        <div class="card-image">
+                            <span onclick="closeModal();" class="w3-button w3-red w3-display-topright">&times;</span>
+                            <img src="ts14f05.png" alt="Climograma">
+                        </div>
+                        <p>A partir dos dados do climograma, pode-se observar que a cidade de Belo Horizonte apresenta
+                            uma temperatura média anual em torno de 20°C, com temperaturas mínimas que podem chegar a
+                            12°C no inverno e máximas que podem atingir 28°C no verão. A precipitação é mais elevada nos
+                            meses de dezembro a fevereiro, com valores acima de 160 mm por mês, e mais baixa nos meses
+                            de junho a agosto, com valores abaixo de 20 mm por mês.<br>
+
+                            A média anual de precipitação em Belo Horizonte é de cerca de 1381 mm.
+
+
+
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="PortoAlegre" class="content">
+
+            <div class="map-container">
+
+                <div class="card">
+
+                    <div class="card-text">
+                        <h2>Porto Alegre - RS</h2>
+                        <div class="card-image">
+                            <span onclick="closeModal();" class="w3-button w3-red w3-display-topright">&times;</span>
+                            <img src="ts14f06.png" alt="Climograma">
+                        </div>
+                        <p>A partir dos dados do climograma, é possível observar que a temperatura mínima varia entre
+                            8°C e 20°C ao longo do ano, enquanto a temperatura máxima varia de 17°C a 29°C. Isso indica
+                            que a cidade tem invernos frios e verões quentes, com uma amplitude térmica
+                            significativa.<br>
+
+                            A precipitação na cidade de Porto Alegre é distribuída de forma relativamente uniforme ao
+                            longo do ano, com a média de chuvas mensal variando entre 96mm e 146mm. A cidade tem uma
+                            estação chuvosa no verão, que vai de dezembro a março, quando a precipitação é mais intensa.
+                            A precipitação anual média é de 1386mm.<br>
+
+                            As médias de temperatura são de 13.8°C para a mínima e 22.8°C para a máxima. A média de
+                            precipitação mensal é de 115.5mm e a soma total de chuvas anual é de 1386mm.
+
+
+
+
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa"> Teste seu conhecimento</p>
+
+
+        <h4>Em relação aos diferentes tipos de clima encontrados no país, é correto afirmar que:</h4>
+
+
+        <button class="desativar1 area p4 w3-padding w3-margin pulsar "
+            onclick=" MostrarProximo(this);RetirarPontos('resp1','globinho1', 'desativar1','0');this.style.backgroundColor='tomato'">
+
+            a) O clima tropical úmido é caracterizado por altas temperaturas e baixa umidade, predominando nas regiões
+            Norte e Nordeste do Brasil.
+
+        </button>
+
+        <button class="desativar1 area p4 w3-padding w3-margin pulsar "
+            onclick="MostrarProximo(this); MostrarFrase('resp1','globinho1', 'desativar1', 'essa condição climática é resultado da influência de massas de ar polar e tropical, que se alternam durante o ano e provocam essa variação térmica sazonal','2'); this.style.backgroundColor='lightgreen'">
+
+            b) O clima subtropical apresenta verões quentes e úmidos e invernos frios e secos, sendo predominante na
+            região Sul do país.
+
+        </button>
+
+
+
+
+        <button class="desativar1 area p4 w3-padding w3-margin pulsar "
+            onclick="MostrarProximo(this); RetirarPontos('resp1','globinho1', 'desativar1','0');this.style.backgroundColor='tomato'">
+
+            c) O clima equatorial é marcado por temperaturas moderadas e chuvas frequentes durante todo o ano,
+            predominando em grande parte do Centro-Oeste brasileiro.
+
+
+        </button>
+
+
+
+
+
+
+        <p id="resp1"></p>
+
+        <div class="area">
+            <p><img src="/fotoIndex/globinhoPe.png" id="globinho1" class="pulsar" style="display:none"
+                    alt="globinho1" width="64" height="64">
+            </p>
+        </div>
+
+
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa"> Teste seu conhecimento</p>
+
+        <h4>Sobre o clima semiárido, é correto afirmar que:</h4>
+
+
+        <button class="desativar2 area p4 w3-padding w3-margin pulsar"
+            onclick="MostrarProximo(this); MostrarFrase('resp2','globinho2', 'desativar2', 'isso ocorre devido à influência das correntes de ar que, ao passar pelas áreas de baixa pressão, provocam a evaporação da umidade, gerando pouca precipitação','2'); this.style.backgroundColor='lightgreen'">
+
+            a) Apresenta baixa umidade do ar e chuvas escassas, comum em regiões do Nordeste e parte do Sudeste do
+            Brasil (MG).
+
+        </button>
+
+        <button class="desativar2 area p4 w3-padding w3-margin pulsar "
+            onclick=" MostrarProximo(this);RetirarPontos('resp2','globinho2', 'desativar2','0');this.style.backgroundColor='tomato'">
+
+            b) É caracterizado por chuvas abundantes durante todo o ano, permitindo o cultivo de diversas culturas
+            agrícolas.
+        </button>
+
+
+
+
+
+        <button class="desativar2 area p4 w3-padding w3-margin pulsar"
+            onclick="MostrarProximo(this); RetirarPontos('resp2','globinho2', 'desativar2','0');this.style.backgroundColor='tomato'">
+
+            c) O clima semiárido é encontrado apenas em regiões de altitude elevada, com temperaturas amenas ao longo do
+            ano.
+        </button>
+
+
+
+
+
+
+        <p id="resp2"></p>
+
+        <div class="area">
+            <p><img src="/fotoIndex/globinhoPe.png" id="globinho2" class="pulsar" style="display:none"
+                    alt="globinho2" width="64" height="64">
+            </p>
+        </div>
+
+
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa"> Teste seu conhecimento</p>
+
+
+        <h4>Sobre o clima tropical de altitude, é correto afirmar que:</h4>
+
+
+
+
+
+
+
+        <button class="desativar3 area p4 w3-padding w3-margin pulsar"
+            onclick="MostrarProximo(this); RetirarPontos('resp3','globinho3', 'desativar3','0');this.style.backgroundColor='tomato'">
+
+            a) É encontrado apenas em regiões do Nordeste, caracterizado por temperaturas amenas e baixa umidade do ar.
+
+        </button>
+
+
+
+        <button class="desativar3 area p4 w3-padding w3-margin pulsar"
+            onclick=" MostrarProximo(this);RetirarPontos('resp3','globinho3', 'desativar3','0');this.style.backgroundColor='tomato'">
+
+            b) Apresenta temperaturas elevadas durante todo o ano e chuvas abundantes, sendo predominante em regiões da
+            Amazônia.
+
+        </button>
+
+        <button class="desativar3 area p4 w3-padding w3-margin pulsar"
+            onclick="MostrarProximo(this); MostrarFrase('resp3','globinho3', 'desativar3', 'a redução da temperatura ocorre devido à diminuição da pressão atmosférica, o que acaba reduzindo a capacidade do ar de reter o calor','2'); this.style.backgroundColor='lightgreen'">
+
+            c) Possui temperaturas mais baixas em função da altitude, comumente encontrado em regiões serranas do
+            Sudeste e do Sul do país.
+
+        </button>
+
+
+
+        <p id="resp3"></p>
+
+        <div class="area">
+            <p><img src="/fotoIndex/globinhoPe.png" id="globinho3" class="pulsar" style="display:none"
+                    alt="globinho3" width="64" height="64">
+            </p>
+        </div>
+
+
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+
+        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+
+                Qual é a relação entre clima e desenvolvimento econômico no Brasil?
+            </strong> </p>
+
+        <p><span class="primeiraLetra">R:</span>
+
+            O clima é um fator determinante para o desenvolvimento econômico de um país. No Brasil, as regiões com clima
+            favorável ao cultivo de alimentos e produção de energia hidrelétrica, como o Sul e Sudeste, são as mais
+            desenvolvidas economicamente. Por outro lado, regiões com clima desfavorável, como o semiárido nordestino,
+            têm um desenvolvimento econômico mais baixo. Além disso, as mudanças climáticas podem afetar o
+            desenvolvimento econômico, pois eventos climáticos extremos, como secas ou enchentes, podem impactar a
+            produção agrícola e a infraestrutura.
+
+        </p>
+
+
+
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+
+                Como o clima influencia a produção agrícola no Brasil?
+
+            </strong></p>
+
+        <p><span class="primeiraLetra">R:</span>
+
+            O clima é um fator determinante na produção agrícola no Brasil, pois a maioria das culturas depende de
+            condições climáticas favoráveis para se desenvolver. As regiões com clima tropical úmido, como o Norte e
+            Nordeste, são ideais para o cultivo de frutas tropicais e grãos como milho e feijão. Já o clima subtropical
+            do Sul do país é adequado para a produção de grãos de inverno, como trigo e cevada. Além disso, eventos
+            climáticos extremos, como secas ou geadas, podem afetar negativamente a produção agrícola e gerar impactos
+            econômicos significativos.
+
+
+        </p>
+
+
+
+
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+
+                Como o clima afeta a geração de energia no Brasil?
+            </strong></p>
+
+        <p><span class="primeiraLetra">R:</span>
+
+            A geração de energia hidrelétrica é uma das principais fontes de energia no Brasil, e o clima tem um papel
+            crucial nesse processo. A disponibilidade de água é influenciada pelo regime de chuvas, que pode variar de
+            acordo com o clima de cada região. Por exemplo, a região Norte do Brasil, que possui clima Equatorial úmido,
+            tem um regime de chuvas constante e abundante, o que favorece a geração de energia hidrelétrica. Já a região
+            Nordeste, com clima semiárido, enfrenta períodos prolongados de seca, o que pode reduzir a capacidade de
+            geração de energia hidrelétrica. Além disso, eventos climáticos extremos, como secas ou enchentes, podem
+            afetar a geração de energia e a infraestrutura energética do país.
+
+
+        </p>
+
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
+        <br><br>
+
+
+
+
+
+
+
+        <hr>
+
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

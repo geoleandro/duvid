@@ -1,0 +1,227 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UNESP",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "ciclones",
+      "dinâmica atmosférica",
+      "massas de ar"
+    ],
+    "imagem_apoio": "1ano/img/120/p20q1.png",
+    "pergunta": "Observe as imagens e o mapa.\n\nO fenômeno esquematizado nas imagens, cuja área de ocorrência está delimitada no mapa, corresponde",
+    "alternativas": [
+      "à condensação atmosférica, responsável pelo resfriamento do ar úmido em superfície, o que resulta na ocorrência de orvalho e de nevoeiro.",
+      "às monções de inverno e de verão, caracterizadas por sistemas de circulação atmosférica que determinam períodos de seca e chuva.",
+      "à frente estacionária, classificada como uma frente fria sem movimentação por um longo período, o que resulta em chuvas torrenciais.",
+      "à inversão térmica, provocada pela resistência aos movimentos de ar verticais que formam as precipitações convectivas.",
+      "às ressacas, constituídas por episódios de ventos fortes em direção ao litoral que geram ciclones extratropicais."
+    ],
+    "correta": 1,
+    "comentario": "As monções são sistemas de ventos sazonais causados pela diferença de aquecimento entre continentes e oceanos. No verão, o continente asiático aquece mais que o Oceano Índico, gerando baixa pressão e atraindo ventos úmidos do mar (monção de verão — período chuvoso). No inverno, o processo inverte e ventos secos sopram do continente para o mar (período seco).",
+    "ajuda": "O fenômeno esquematizado nas imagens provavelmente é um ciclone tropical, um tornado, uma frente fria ou um fenômeno de circulação oceânica. Observe as características visuais (espiral, direção de rotação, área de ocorrência no mapa) para identificá-lo corretamente."
+  },
+  {
+    "id": 2,
+    "instituicao": "CFTMG",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "tipos de chuva",
+      "precipitação",
+      "dinâmica atmosférica"
+    ],
+    "imagem_apoio": "1ano/img/120/p20q2.png",
+    "pergunta": "Associe os tipos de chuva às suas respectivas características.\n\n( ) Resulta do deslocamento horizontal do ar que, em contato com as regiões elevadas, sofre condensação e consequente precipitação.\n\n( ) forma-se a partir do encontro de uma massa de ar frio com uma de ar quente.\n\n( ) Decorre da ascensão vertical do ar que, ao entrar em contato com as camadas de ar frio, sofre condensação e se precipita.\n\nA sequência correta é",
+    "alternativas": [
+      "1, 2, 3.",
+      "1, 3, 2.",
+      "2, 1, 3.",
+      "3, 2, 1."
+    ],
+    "correta": 2,
+    "comentario": "As três formas de precipitação têm origens distintas: a frontal resulta do encontro de massas de ar com diferentes temperaturas (frentes frias do sul do Brasil); a orográfica ocorre quando o ar úmido é forçado a subir pelas montanhas (Serra do Mar, Andes); a convectiva resulta do aquecimento intenso do solo que faz o ar subir rapidamente (chuvas de verão no Centro-Oeste).",
+    "ajuda": "Existem três tipos principais de chuva: convectiva (por aquecimento da superfície e ascensão do ar quente), orográfica (quando o ar úmido é forçado a subir por um relevo) e frontal (encontro de massas de ar quente e frio). Associe cada característica ao tipo correto."
+  },
+  {
+    "id": 3,
+    "instituicao": "URCA",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "fatores climáticos",
+      "clima",
+      "elementos climáticos"
+    ],
+    "pergunta": "Marque a única assertiva que traz somente fatores climáticos, isto é, aqueles que contribuem para determinar as condições climáticas de uma região do globo.",
+    "alternativas": [
+      "Correntes marítimas, temperatura do ar, umidade relativa do ar e amplitude térmica.",
+      "Latitude, pressão altitude, hidrografia e massas de ar.",
+      "Altitude, massas de ar, maritimidade e latitude.",
+      "Hidrografia, correntes marítimas, latitude e pressão.",
+      "Hidrografia, correntes marítimas, latitude e pressão."
+    ],
+    "correta": 2,
+    "comentario": "Os fatores climáticos determinam as condições atmosféricas em longo prazo. Altitude, massas de ar, maritimidade e latitude são fatores — causas que condicionam o clima. Temperatura, pressão e precipitação são elementos — o que se mede e resulta da ação dos fatores. A confusão entre fatores e elementos é um erro comum em questões de vestibular.",
+    "ajuda": "Os fatores climáticos determinam as condições climáticas de uma região (como latitude, altitude, maritimidade, correntes marítimas e massas de ar), enquanto os elementos climáticos são os resultados mensuráveis dessas condições (temperatura, precipitação, umidade). Identifique quais itens são fatores e quais são elementos."
+  },
+  {
+    "id": 4,
+    "instituicao": "UCPEL",
+    "ano": "2013",
+    "dificuldade": "media",
+    "tags": [
+      "temperatura",
+      "elementos climáticos",
+      "fatores climáticos"
+    ],
+    "pergunta": "Um dos elementos climáticos mais importantes para a humanidade é a temperatura atmosférica, ou seja, o estado térmico do ar atmosférico, de frio ou de calor. A temperatura pode variar de um lugar para outro, assim como em um mesmo lugar, no decorrer do tempo.\n\nSobre os fatores responsáveis pela variação da temperatura é correto afirmar que:",
+    "alternativas": [
+      "a influência da latitude ocorre fundamentalmente devido à forma esférica da Terra. A insolação diminui a partir do Equador em direção aos polos, assim a temperatura diminui com o aumento da latitude.",
+      "altitude exerce grande influência, pois o calor é irradiado da superfície terrestre para cima e a atmosfera aquece por irradiação. Quanto menor a altitude, mais rarefeito se torna o ar, ocorrendo menor irradiação e aumento da temperatura.",
+      "a temperatura é aumentada pela presença de serras, chapadas e planaltos nas regiões tropicais, via de regra muito quentes, assim como, nas regiões temperadas, as altitudes acentuam ainda mais o rigor da temperatura.",
+      "a diferença do comportamento térmico das rochas e da água explica o aquecimento e resfriamento mais lento dos continentes, fazendo com que as variações de temperatura nos oceanos sejam maiores.",
+      "as correntes marítimas não apresentam capacidade de provocar alterações de temperatura nas áreas litorâneas por onde circulam, apesar de possuírem temperaturas diferentes, podendo ser quentes, quando se formam nas áreas equatoriais, ou frias, quando formadas nas áreas polares."
+    ],
+    "correta": 0,
+    "comentario": "A latitude influencia a temperatura porque a forma esférica da Terra faz com que os raios solares incidam de forma oblíqua nas latitudes mais altas, distribuindo a mesma energia por uma área maior. No Equador, os raios incidem perpendicularmente, concentrando mais calor. Por isso, a temperatura diminui progressivamente do Equador em direção aos polos.",
+    "ajuda": "A temperatura atmosférica é influenciada pela latitude (maior nas regiões equatoriais, menor nos polos), altitude (diminui ~6°C por 1.000m), maritimidade (ameniza as variações) e correntes marítimas (quentes aquecem, frias resfriam). Identifique qual fator está sendo abordado na questão."
+  },
+  {
+    "id": 5,
+    "instituicao": "",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "correntes marítimas",
+      "oceanos",
+      "circulação oceânica"
+    ],
+    "pergunta": "São movimentos horizontais de grandes massas de água provocados pela rotação da Terra e pela ação dos ventos constantes. Elas interagem com a dinâmica das massas de ar, influenciando o clima e definindo áreas secas e chuvosas.\n\nAssinale a alternativa correta relacionada à descrição acima:",
+    "alternativas": [
+      "Fatores Climáticos",
+      "Ventos alísios.",
+      "Chuvas orográficas.",
+      "Correntes marítimas.",
+      "Maritimidade."
+    ],
+    "correta": 3,
+    "comentario": "As correntes marítimas são movimentos horizontais de grandes massas de água oceânica, causados pela rotação da Terra (efeito Coriolis) e pela ação dos ventos constantes. Correntes quentes elevam a temperatura e a umidade das regiões litorâneas (ex: Corrente do Brasil); correntes frias reduzem a temperatura e podem gerar desertos costeiros (ex: Corrente de Humboldt — Atacama).",
+    "ajuda": "As correntes marítimas de superfície são provocadas principalmente pelos ventos alísios e pelas forças geradas pela rotação da Terra (efeito Coriolis). Elas se deslocam de forma circular — sentido horário no Hemisfério Norte e anti-horário no Hemisfério Sul."
+  },
+  {
+    "id": 6,
+    "instituicao": "UERN",
+    "ano": "2013",
+    "dificuldade": "dificil",
+    "tags": [
+      "tipos climáticos",
+      "clima subtropical",
+      "fatores climáticos"
+    ],
+    "imagem_apoio": "1ano/img/120/p20q6.png",
+    "pergunta": "As figuras a seguir representam tipos climáticos predominantes no Sul e no Sudeste asiático. As imagens retratam monções de:",
+    "alternativas": [
+      "verão (chuvosa) e de inverno (seca).",
+      "verão (seca) e de inverno (chuvosa).",
+      "inverno (chuvosa) e de verão (seca).",
+      "inverno (seca) e de verão (chuvosa)."
+    ],
+    "correta": 3,
+    "comentario": "O clima das monções domina o sul e o sudeste asiático, especialmente na Índia e Bangladesh. O inverno (monção seca) traz ventos frios e secos do interior do continente, com meses sem chuva. O verão (monção úmida) traz ventos carregados de umidade do Oceano Índico, provocando chuvas torrenciais que podem causar enchentes catastróficas.",
+    "ajuda": "O clima monção é caracterizado por uma estação chuvosa intensa no verão (quando os ventos sopram do oceano para o continente) e uma estação seca no inverno (quando os ventos se invertem). Esse padrão predomina no Sul e Sudeste Asiático."
+  },
+  {
+    "id": 7,
+    "instituicao": "",
+    "ano": "2022",
+    "dificuldade": "facil",
+    "tags": [
+      "altitude",
+      "fatores climáticos",
+      "temperatura"
+    ],
+    "pergunta": "Elevação vertical de um ponto qualquer da superfície terrestre em relação ao nível dos oceanos. À medida que a altitude aumenta, a pressão e a densidade do ar diminuem, e as temperaturas ficam mais baixas.\n\nAssinale a alternativa correta relacionada à descrição acima:",
+    "alternativas": [
+      "Altitude.",
+      "Massas de ar.",
+      "Latitude.",
+      "Maritimidade.",
+      "Fatores climáticos."
+    ],
+    "correta": 0,
+    "comentario": "A altitude é um dos fatores climáticos mais importantes: a cada 100 m de elevação, a temperatura cai cerca de 0,6°C (gradiente adiabático). Por isso, cidades como Bogotá (2.600 m) e Quito (2.850 m), apesar de equatoriais, têm clima ameno. No Brasil, Gramado (RS) e Campos do Jordão (SP) são exemplos de cidades com clima mais frio pela altitude.",
+    "ajuda": "A altitude é a elevação de um ponto em relação ao nível do mar. Ela influencia diretamente a temperatura (quanto maior a altitude, menor a temperatura) e a precipitação. Não confunda altitude com latidude (distância do Equador) ou longitude (distância de Greenwich)."
+  },
+  {
+    "id": 8,
+    "instituicao": "",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "massas de ar",
+      "dinâmica atmosférica",
+      "frentes"
+    ],
+    "imagem_apoio": "1ano/img/120/p20q8.png",
+    "pergunta": "Constituem partes da atmosfera com considerável extensão horizontal e com características homogêneas de temperatura, pressão e umidade.\n\nAssinale a alternativa correta relacionada à descrição acima.",
+    "alternativas": [
+      "Maritimidade.",
+      "Chuvas frontais.",
+      "Ventos alísios.",
+      "Massas de ar.",
+      "Continentalidade."
+    ],
+    "correta": 3,
+    "comentario": "As massas de ar são grandes volumes de atmosfera com temperatura, pressão e umidade relativamente homogêneas, que se formam sobre regiões extensas. No Brasil, as principais massas de ar são: Equatorial Continental (quente e úmida), Tropical Atlântica (quente e úmida), Polar Atlântica (fria e úmida) e Tropical Continental (quente e seca). Elas determinam o tempo e o clima regional.",
+    "ajuda": "As massas de ar são grandes porções de atmosfera com características homogêneas. Elas são classificadas pela região de origem: equatorial (quente e úmida), tropical (quente), polar (fria), marítima (úmida) ou continental (seca). Identifique as partes da atmosfera descritas."
+  },
+  {
+    "id": 9,
+    "instituicao": "MACKENZIE",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "correntes marítimas",
+      "oceanos",
+      "circulação oceânica"
+    ],
+    "imagem_apoio": "1ano/img/120/p20q9.png",
+    "pergunta": "As correntes marítimas se movimentam por todos os oceanos do mundo, transportando calor e, por isso, apresentam influência direta no clima. As correntes frias, por exemplo, podem contribuir para a formação de desertos.\n\nCom base no mapa e no excerto de texto, escolha a alternativa que relacione, corretamente, as correntes marítimas a seus respectivos desertos.",
+    "alternativas": [
+      "Corrente de Humboldt – deserto do Atacama. Corrente de Benguela – deserto do Kalahari.",
+      "Corrente de Benguela – deserto do Kalahari. Corrente das Canárias – deserto da Namíbia.",
+      "Corrente de Humboldt – deserto da Namíbia. Corrente de Benguela – deserto de Vitória.",
+      "Corrente do Japão – deserto de Gobi. Corrente Australiana Ocidental – deserto de Vitória.",
+      "Corrente da Califórnia – deserto do Colorado. Corrente do Japão – deserto de Yuadomi."
+    ],
+    "correta": 0,
+    "comentario": "A Corrente de Humboldt (fria, corre ao longo da costa do Chile e Peru) esfria o litoral ocidental da América do Sul e estabiliza a atmosfera, inibindo a formação de nuvens e chuvas — originando o Deserto do Atacama. A Corrente de Benguela (fria, África ocidental) produz efeito semelhante no sul da África, contribuindo para o Deserto do Namibe e o Kalahari semiárido.",
+    "ajuda": "As correntes marítimas quentes elevam a temperatura e a evaporação das regiões costeiras próximas, aumentando as chuvas; as correntes frias inibem a evaporação e contribuem para a formação de desertos costeiros. Identifique qual corrente influencia a região descrita."
+  },
+  {
+    "id": 10,
+    "instituicao": "MUNDO EDUCAÇÃO",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "desmatamento",
+      "regime de chuvas",
+      "dinâmica atmosférica"
+    ],
+    "texto_apoio": "“Estudo mostra que o impacto da destruição da floresta pode alterar o clima do Brasil e de países vizinhos. Nos últimos 30 anos, o Brasil já teve 600 mil quilômetros quadrados de terras desmatadas.”",
+    "fonte_apoio": "(Adaptado de: ANBA, 20/03/2009. Disponível em: http://www.anba.com.br/).",
+    "pergunta": "O impacto do desmatamento da Amazônia sobre o regime de chuvas se dá pela seguinte questão:",
+    "alternativas": [
+      "aumento médio das temperaturas.",
+      "contenção das reservas hídricas subterrâneas.",
+      "diminuição da emissão de umidade para a atmosfera.",
+      "intensificação da convergência das massas de ar.",
+      "aumento das anomalias climáticas cíclicas."
+    ],
+    "correta": 2,
+    "comentario": "A floresta amazônica funciona como uma bomba d'água: absorve chuvas, armazena água no solo e na biomassa e libera vapor de água pela evapotranspiração — criando 'rios voadores' que transportam umidade para o Sul e Sudeste do Brasil. O desmatamento rompe esse ciclo, reduzindo a umidade atmosférica e podendo causar secas severas no interior do continente.",
+    "ajuda": "O desmatamento da Amazônia reduz a evapotranspiração das plantas, diminuindo o vapor d'água disponível para a formação de chuvas. Esse fenômeno compromete os 'rios voadores', que são fluxos de umidade que abastecem de chuva o Centro-Oeste e o Sul do Brasil."
+  }
+]

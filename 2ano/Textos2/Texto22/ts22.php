@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>2º ano - Texto 22 - Fontes de energia II</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico ">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">A</span>matriz energética de um país refere-se ao conjunto de todas as fontes de energia disponíveis para suprir suas necessidades, incluindo energia elétrica, calor e combustível. 
+        </p>
+
+
+        <p>No Brasil, a matriz energética é diversificada, com predominância de fontes renováveis, como a hidroeletricidade. A matriz elétrica, por outro lado, é especificamente voltada para as fontes de energia que geram eletricidade.</p>
+
+     
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+            
+            <h3>1. O que é matriz energética e como ela se diferencia da matriz elétrica?</h3>
+            <h3>2. Quais são as principais características das usinas hidrelétricas no Brasil?</h3>
+            <h3>3. Por que a Usina de Belo Monte é considerada uma obra controversa?</h3>
+            <h3>4. Como a Usina de Itaipu exemplifica a cooperação internacional?</h3>
+            <h3>5. Quais são as principais vantagens e desvantagens das usinas termoelétricas?</h3>
+            <h3>6. Quais são os riscos associados às usinas nucleares e como esses riscos são exemplificados pelos acidentes de Chernobyl e Fukushima?</h3>
+            <h3>7. Por que o Brasil precisa diversificar sua matriz energética e quais fontes de energia alternativas podem ser exploradas?</h3>
+            <h3>8. Como o sistema de transmissão interligado contribui para a distribuição de energia no Brasil?</h3>
+            <h3>9. Qual é a importância da Usina de Tucuruí para o projeto de mineração de Grande Carajás?</h3>
+            <h3>10. Como a matriz energética do Brasil se destaca no cenário global e quais são os desafios enfrentados para o futuro?</h3>
+        </div>
+        
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+<div class="topico">
+
+        <div class="w3-pale-green">
+
+        <h2>Resumo da Matriz Energética Brasileira</h2>
+    
+        <p><strong>Matriz Energética Brasileira:</strong> Conjunto de fontes de energia disponíveis no Brasil.</p>
+        
+        <p><strong>Matriz Elétrica:</strong> Focada na geração de eletricidade.</p>
+    
+        <p><strong>Usinas Hidrelétricas:</strong> Utilizam a força da água para gerar energia. Exemplos:
+            <ul>
+                <li><strong>Belo Monte:</strong> 11.233 MW, localizada no rio Xingu.</li>
+                <li><strong>Itaipu:</strong> 14.000 MW, projeto binacional (Brasil e Paraguai), rio Paraná.</li>
+                <li><strong>Tucuruí:</strong> 8.370 MW, rio Tocantins, foco na mineração de alumínio.</li>
+            </ul>
+        </p>
+    
+        <p><strong>Termoelétricas:</strong> Produzem energia pela queima de combustíveis fósseis. 
+            <ul>
+                <li><strong>Vantagens:</strong> Proximidade dos centros consumidores, independência climática.</li>
+                <li><strong>Desvantagens:</strong> Alta poluição, custos elevados.</li>
+            </ul>
+        </p>
+    
+        <p><strong>Usinas Nucleares:</strong> Utilizam a fissão nuclear de urânio. Exemplos:
+            <ul>
+                <li><strong>Angra 1:</strong> 640 MW.</li>
+                <li><strong>Angra 2:</strong> 1.350 MW.</li>
+                <li><strong>Angra 3:</strong> 1.405 MW (em construção).</li>
+            </ul>
+        </p>
+    
+        <p><strong>Sistema Nacional de Energia Elétrica:</strong> Sistema interligado que distribui energia por todo o Brasil.
+            <ul>
+                <li><strong>Desafios:</strong> Segurança energética, sustentabilidade, diversificação da matriz.</li>
+            </ul>
+        </p>
+
+
+        </div>  
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <h2>Usinas Hidrelétricas</h2>
+    
+        <p>As usinas hidrelétricas utilizam a força da água para gerar energia, representando cerca de 60% da matriz energética do Brasil.</p>
+    
+        <p>Essa fonte de energia é renovável e considerada menos agressiva ao meio ambiente, apesar de seus impactos socioambientais, como o alagamento de áreas extensas e o deslocamento de comunidades ribeirinhas.</p>
+    
+        <p><strong>Exemplos de usinas hidrelétricas importantes:</strong></p>
+    
+        <p><strong>Usina de Belo Monte:</strong> Localizada no rio Xingu, na bacia amazônica, próxima a Altamira (PA). Será a maior usina inteiramente brasileira e uma das maiores do mundo. O projeto é controverso, devido ao seu impacto ambiental significativo, incluindo a perda de cobertura vegetal e fauna, e o deslocamento de tribos indígenas. Capacidade instalada: 11.233 MW. Previsão de término da obra: 2020 (embora algumas turbinas já estivessem operando antes disso).</p>
+
+        <div class="w3-margin"><img id="imagem1" src="ts22f01.png" alt="ts22f01" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao1" >Usina de Belo Monte </span>
+           
+           </div>
+    
+        <p><strong>Usina de Itaipu:</strong> Situada no rio Paraná, na fronteira entre Brasil e Paraguai. É uma das maiores usinas hidrelétricas do mundo em capacidade instalada, com 14.000 MW. Representa um exemplo de cooperação internacional, sendo um projeto binacional entre Brasil e Paraguai. Itaipu responde por cerca de 15% da energia consumida no Brasil e 90% no Paraguai.</p>
+
+        <div class="w3-margin"><img id="imagem2" src="ts22f02.png" alt="ts22f02" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2"> Usina de Itaipu </span>
+        </div>
+    
+        <p><strong>Usina de Tucuruí:</strong> Localizada no rio Tocantins, no Estado do Pará, a cerca de 300 km de Belém. A usina foi construída principalmente para fornecer energia elétrica barata para o projeto de mineração de Grande Carajás, incluindo a indústria de alumínio. Capacidade instalada: 8.370 MW.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <h2>Termoelétricas</h2>
+
+        <div class="w3-margin"><img id="imagem3" src="ts22f03.png" alt="ts22f03" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao3" >  </span>
+            
+            </div>
+    
+        <p>As usinas termoelétricas produzem energia pela queima de combustíveis fósseis, como carvão, gás natural e óleo diesel.</p>
+    
+        <p>Essas usinas são mais poluentes, liberando grandes quantidades de gases de efeito estufa e podendo causar chuva ácida.</p>
+    
+        <p>No Brasil, as termoelétricas correspondem a menos de 10% da energia produzida no país, sendo utilizadas principalmente em períodos de seca, quando os níveis dos reservatórios hidrelétricos estão baixos.</p>
+    
+        <p><strong>Pontos importantes:</strong></p>
+        <p><strong>Vantagens:</strong> Podem ser instaladas em locais próximos aos centros consumidores e não dependem de condições climáticas.</p>
+        <p><strong>Desvantagens:</strong> Poluição ambiental e custos elevados devido à dependência de combustíveis fósseis.</p>
+    
+        <h2>Usinas Nucleares</h2>
+
+        <div class="w3-margin"><img id="imagem4" src="ts22f04.png" alt="ts22f04" class="w3-mobile" >
+		   
+            <span class="w3-small w3-margin-left" id="citacao4" >  </span>
+            
+            </div>
+    
+        <p>As usinas nucleares utilizam o calor gerado pela fissão nuclear de átomos de urânio para produzir eletricidade. No Brasil, as usinas nucleares estão localizadas em Angra dos Reis, no Estado do Rio de Janeiro, com as plantas Angra 1 e Angra 2 operando, e Angra 3 em construção.</p>
+    
+        <p><strong>Características das usinas nucleares:</strong></p>
+        <p><strong>Capacidade instalada:</strong> Angra 1 (640 MW), Angra 2 (1.350 MW), e Angra 3 (1.405 MW) após a conclusão.</p>
+        <p><strong>Vantagens:</strong> Baixa emissão de poluentes, alta eficiência energética e abundância de urânio no mundo.</p>
+        <p><strong>Desvantagens:</strong> Risco de acidentes nucleares, como Chernobyl (1986) e Fukushima (2011), e o problema do lixo radioativo, que permanece perigoso por milhares de anos.</p>
+    
+        <h2>Comparação das Fontes de Energia</h2>
+    
+        <p><strong>Hidrelétricas:</strong> Fonte renovável e menos poluente, mas com impacto ambiental significativo devido ao alagamento e deslocamento de populações.</p>
+        <p><strong>Termoelétricas:</strong> Dependência de combustíveis fósseis, alta emissão de gases poluentes, mas com vantagem de estar menos dependente de fatores climáticos.</p>
+        <p><strong>Nucleares:</strong> Alta eficiência e baixa emissão de poluentes, mas com riscos elevados e desafios no gerenciamento de resíduos.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <div class="w3-pale-red">
+
+        <h2>Sistema Nacional de Energia Elétrica</h2>
+
+        <div class="w3-margin"><img id="imagem5" src="ts22f05.png" alt="ts22f05" class="w3-mobile" >
+		  
+			<span class="w3-small w3-margin-left" id="citacao5" > Fonte: THÉRY, Hervé; MELLO-THÉRY (2024). </span>
+		   </div>
+	   
+    
+        <p>O Brasil possui um sistema de transmissão interligado, que permite a distribuição de energia entre diferentes regiões do país, otimizando o uso das diversas fontes de energia disponíveis.</p>
+    
+        <p>Esse sistema é fundamental para garantir a estabilidade do fornecimento de energia, especialmente em um país com dimensões continentais como o Brasil.</p>
+    
+        <p><strong>Desafios atuais:</strong></p>
+        <p><strong>Segurança energética:</strong> Garantir a oferta contínua de energia, especialmente em períodos de seca, quando a capacidade hidrelétrica pode ser reduzida.</p>
+        <p><strong>Sustentabilidade:</strong> Equilibrar a necessidade de expansão da capacidade energética com a preservação ambiental e o desenvolvimento sustentável.</p>
+        <p><strong>Diversificação da matriz:</strong> Investir em fontes de energia alternativas, como solar e eólica, para reduzir a dependência de hidrelétricas e termoelétricas.</p>
+    
+        <h2>Conclusão</h2>
+    
+        <p>Entender a matriz energética brasileira é crucial para compreender as oportunidades e desafios do desenvolvimento sustentável do país. Com uma matriz predominantemente renovável, o Brasil se destaca no cenário global, mas enfrenta desafios na diversificação de fontes e na garantia de segurança energética para o futuro.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

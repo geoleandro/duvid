@@ -1,0 +1,229 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UESPI",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "conferências ambientais",
+      "questões ambientais globais",
+      "políticas ambientais"
+    ],
+    "pergunta": "A questão ambiental nos dias atuais é tomada como preocupação mundial. Várias conferências vêm sendo promovidas pelas Nações Unidas na tentativa de estabelecer acordos para minimizar os impactos ambientais em escala global e conflitos decorrentes da possibilidade de escassez de recursos naturais. Considerando a relevância da temática, leia as afirmações e marque a alternativa CORRETA.\n\nI - Os desastres naturais acontecem porque existem muitas pessoas que vivem em locais nos quais podem ocorrer eventos naturais potencialmente catastróficos e quase todas as áreas habitadas do mundo estão sujeitas a esses desastres.\n\nII - Os danos ambientais são resultados da poluição da atmosfera associada à industrialização, principalmente dos países desenvolvidos. Outros países em desenvolvimento tentam acelerar o processo de industrialização, intensificando a degradação ambiental. Esse é um problema mundial, pois afeta diretamente as atividades humanas, em diferentes regiões do mundo e as medidas para conter, ou minimizar estes impactos devem envolver a cooperação internacional.\n\nIII - Os diversos desastres naturais, como terremotos, incêndios, inundações e tempestades, espacialmente distribuídos na superfície terrestre, são diretamente relacionados ao meio físico.",
+    "alternativas": [
+      "Somente a afirmativa III é correta.",
+      "Somente a afirmativa II é correta.",
+      "Somente a afirmativa I é correta.",
+      "Todas as afirmativas estão corretas.",
+      "Todas as afirmativas estão erradas."
+    ],
+    "correta": 4,
+    "comentario": "As conferências ambientais da ONU produziram marcos históricos importantes: Estocolmo (1972) criou o PNUMA; a Rio-92 gerou a Agenda 21 e as Convenções do Clima e da Biodiversidade; o Protocolo de Kyoto (1997) estabeleceu metas de redução de emissões; e o Acordo de Paris (2015) comprometeu todos os países. Afirmar que 'todas as afirmativas estão erradas' só é correto se houver erros específicos identificados no enunciado.",
+    "ajuda": "As principais conferências ambientais mundiais (Estocolmo 1972, Rio-92, Kyoto 1997, Rio+20 2012, Paris 2015) marcam a evolução da governança ambiental internacional. Identifique o que cada conferência representou como avanço ou retrocesso nas políticas de proteção ambiental."
+  },
+  {
+    "id": 2,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "aquecimento global",
+      "mudanças climáticas",
+      "efeito estufa"
+    ],
+    "fonte_apoio": "AROEIRA. Disponível em: http:appsodia.ig.com.br. Acesso em: 19 jun. 2012 (adaptado.)",
+    "imagem_apoio": "1ano/img/134/p34q2.png",
+    "pergunta": "O processo ambiental ao qual a charge faz referência tende a se agravar em função do(a)",
+    "alternativas": [
+      "expansão gradual das áreas de desertificação.",
+      "aumento acelerado do nível médio dos oceanos.",
+      "controle eficaz da emissão antrópica de gases poluentes.",
+      "crescimento paulatino do uso de fontes energéticas alternativas.",
+      "dissenso político entre países componentes de acordos climáticos internacionais."
+    ],
+    "correta": 4,
+    "comentario": "O desacordo político entre países sobre metas climáticas — especialmente entre potências emissoras como EUA, China, Índia e Brasil — é um dos principais fatores que dificultam a implementação efetiva dos acordos climáticos. A saída dos EUA do Acordo de Paris no governo Trump (2017-2021) demonstrou como decisões nacionais podem comprometer compromissos coletivos globais.",
+    "ajuda": "A charge faz referência a um processo ambiental específico (desmatamento, poluição, aquecimento global, desertificação). Identifique o processo representado e avalie qual atividade humana contribui mais para seu agravamento."
+  },
+  {
+    "id": 3,
+    "instituicao": "ACAFE",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "questões ambientais globais",
+      "impactos ambientais",
+      "desenvolvimento sustentável"
+    ],
+    "texto_apoio": "“Podemos definir bioma como um conjunto de ecossistemas que funcionam de forma estável. Um bioma é caracterizado por um tipo principal de vegetação (num mesmo bioma podem existir diversos tipos de vegetação). Os seres vivos de um bioma vivem de forma adaptada às condições da natureza (vegetação, chuva, umidade, calor, etc.) existentes. Os biomas brasileiros caracterizam-se, no geral, por uma grande diversidade de animais e vegetais (biodiversidade)”.",
+    "fonte_apoio": "Fonte: http:www.suapesquisa.com/geografia.htm",
+    "pergunta": "Nesse sentido, assinale a alternativa correta.",
+    "alternativas": [
+      "Pelo que se depreende do texto, nos diferentes biomas encontramos ecossistemas diversos, isto é, cada bioma pode conter vários ecossistemas.",
+      "Biomas e ecossistemas são sinônimos, com características distintas.",
+      "A diversidade biológica é maior nos ecossistemas que nos biomas.",
+      "Os ecossistemas brasileiros apresentam maior diversidade biológica que os biomas."
+    ],
+    "correta": 0,
+    "comentario": "Um bioma é uma grande unidade de paisagem definida por características de vegetação, clima e biodiversidade. Dentro de um bioma podem existir vários ecossistemas distintos — por exemplo, o bioma Cerrado tem campos limpos, campos sujos, cerradão, matas de galeria e veredas, cada um com seus ecossistemas específicos. Bioma é uma categoria de maior abrangência que ecossistema.",
+    "ajuda": "O texto provavelmente aborda um tema de geopolítica ambiental, como a disputa por recursos naturais, a soberania sobre biodiversidade ou os conflitos em torno da matriz energética. Identifique a posição correta dentre as alternativas."
+  },
+  {
+    "id": 4,
+    "instituicao": "UEPB",
+    "ano": "2011",
+    "dificuldade": "facil",
+    "tags": [
+      "recursos energéticos",
+      "consumo de energia",
+      "sustentabilidade"
+    ],
+    "texto_apoio": "\"Todas as atividades humanas, desde o surgimento da humanidade na Terra, implicam no chamado ´consumo` de energia. Isto porque para produzir bens necessários à vida, produzir alimentos, prazer e bem-estar, não há como não consumir energia, ou melhor, não converter energia. Vida humana e conversão de energia são sinônimos e não existe qualquer possibilidade de separar um do outro.\"",
+    "fonte_apoio": "(WALDMAN, Maurício. Para onde vamos? S.d., p. 10. Disponível em: http://www.mw.pro.br>)",
+    "pergunta": "Apesar de toda importância do consumo de energia para a vida moderna, podemos afirmar que sua forma de utilização no mundo contemporâneo continua a ser insustentável porque:",
+    "alternativas": [
+      "o consumo de energia é desigual entre ricos e pobres, sendo que os pobres continuam a utilizar fontes arcaicas que são muito mais danosas ao meio.",
+      "as chamadas fontes alternativas que são não-poluentes são de custos elevadíssimos e só podem ser produzidas em pequena escala para consumo muito reduzido.",
+      "a energia hidroelétrica que assumiu a liderança no consumo mundial necessita da construção de grandes represas que causam grandes impactos ambientais.",
+      "as principais matrizes energéticas do mundo continuam a ser o petróleo e o carvão, que são fontes não-renováveis e muito poluentes.",
+      "a energia nuclear, que é a solução mais viável para a questão energética do mundo, depende do enriquecimento do urânio, cuja tecnologia é controlada por poucos países e inacessível para a grande maioria."
+    ],
+    "correta": 3,
+    "comentario": "O petróleo e o carvão mineral seguem sendo as principais fontes de energia do mundo, respondendo por mais de 50% da matriz energética global. Apesar do crescimento espetacular das renováveis (solar e eólica dobraram sua participação em menos de uma década), a dependência dos fósseis persiste pela infraestrutura instalada, pelo custo de transição e por interesses políticos e econômicos.",
+    "ajuda": "O consumo de energia é essencial para o desenvolvimento, mas sua produção e uso geram impactos ambientais. O desafio está em garantir energia de forma ambientalmente responsável, reduzindo emissões e diversificando a matriz energética com fontes renováveis."
+  },
+  {
+    "id": 5,
+    "instituicao": "UNIFOR CE",
+    "ano": "2010",
+    "dificuldade": "media",
+    "tags": [
+      "questões ambientais globais",
+      "PNUMA",
+      "impactos ambientais"
+    ],
+    "pergunta": "Os principais relatórios do Programa das Nações Unidas para o Meio Ambiente abordam os problemas centrais que afligem a humanidade; dentre eles, destacamos: a concentração de gás carbônico na atmosfera; a crescente escassez de água potável; a degradação dos solos por erosão; a poluição dos rios, lagos, zonas costeiras e baías; os desmatamentos constantes; e o crescimento da população e suas mudanças de padrão do consumo, que geram mais resíduos poluentes, principalmente nas áreas urbanas.\n\nJá os principais agentes poluentes são: a camada de ozônio, produzida pela acumulação de gases na atmosfera, e os resíduos nucleares que atingem negativamente a natureza e o ambiente humano. O maior problema detectado é a elevação da temperatura global.\n\nCom relação a essas questões ambientais, a nova ordem internacional tem exigido das nações mudanças em seus modelos de produção, evoluindo para o conceito de desenvolvimento sustentável.\n\nA respeito deste assunto, é CORRETO afirmar:",
+    "alternativas": [
+      "A necessidade de crescimento econômico, quer da indústria ou da agropecuária não pode prescindir da preocupação de sua sustentabilidade.",
+      "Desses problemas todos, o único agente poluente a preocupar é o que produz resíduos nucleares.",
+      "Por serem problemas que afetam a todos, a preocupação ambiental é amplamente respeitada pelas nações mais desenvolvidas.",
+      "A preocupação do controle ambiental sempre esteve presente entre as nações, desde a Revolução Industrial do século XVIII.",
+      "As mudanças de padrão de consumo, principalmente dos países industrializados têm contribuído para reduzir os riscos ambientais."
+    ],
+    "correta": 0,
+    "comentario": "O PNUMA (Programa das Nações Unidas para o Meio Ambiente) é o principal órgão ambiental da ONU. Seus relatórios como o GEO (Global Environment Outlook) documentam os principais problemas ambientais — mudanças climáticas, perda de biodiversidade, poluição, escassez hídrica — e propõem políticas de desenvolvimento sustentável que compatibilizem crescimento econômico com limites ecológicos.",
+    "ajuda": "O Programa das Nações Unidas para o Meio Ambiente (PNUMA) publica regularmente relatórios sobre o estado do planeta, identificando problemas como perda de biodiversidade, poluição e mudanças climáticas. Relacione o conteúdo descrito aos temas abordados nesses relatórios."
+  },
+  {
+    "id": 6,
+    "instituicao": "UFG",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "questões ambientais globais",
+      "políticas ambientais",
+      "sustentabilidade"
+    ],
+    "pergunta": "A questão ambiental, uma das principais pautas do espaço contemporâneo mundial, possibilitou o surgimento de várias vertentes e concepções políticas. É característica do Preservacionismo:",
+    "alternativas": [
+      "estabelecer códigos normativos e práticas de proteção aos recursos naturais.",
+      "associar o uso dos recursos naturais ao progresso industrial.",
+      "desenvolver medidas em comum acordo com populações envolvidas.",
+      "desenvolver técnicas de contenção de problemas ambientais urbanos e rurais.",
+      "definir áreas prioritárias para o uso sustentável da biodiversidade."
+    ],
+    "correta": 0,
+    "comentario": "O direito ambiental internacional estabelece normas e práticas para proteger os recursos naturais: acordos sobre biodiversidade (CDB), clima (UNFCCC), oceanos (UNCLOS), espécies ameaçadas (CITES) e substâncias tóxicas (Convenção de Estocolmo). A codificação de normas ambientais é um avanço histórico — mas sua efetividade depende dos mecanismos de fiscalização e cumprimento.",
+    "ajuda": "A questão ambiental no espaço contemporâneo envolve conflitos de interesses entre desenvolvimento econômico e preservação ambiental, entre países ricos (maiores emissores históricos) e pobres (mais vulneráveis), e entre o presente e as gerações futuras."
+  },
+  {
+    "id": 7,
+    "instituicao": "UNIMONTES-MG",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "biogeografia",
+      "biomas mundiais",
+      "biodiversidade"
+    ],
+    "texto_apoio": "“O estudo das características mais significativas dos seres vivos e de sua distribuição pela superfície terrestre é objeto de diferentes disciplinas, entre elas a Geografia, que desenvolve esse estudo por um ramo específico, a Biogeografia.”",
+    "fonte_apoio": "ALMEIDA, M. Geografia Global - Geral e do Brasil. São Paulo: Escala Educacional, 2008.",
+    "pergunta": "Leia o texto.\n\nEsse ramo da Geografia estuda, entre outros temas, a distribuição da vegetação que é influenciada pelos seguintes fatores, EXCETO",
+    "alternativas": [
+      "O clima, através da temperatura, da umidade, da luminosidade e dos ventos, faz com que a vegetação se desenvolva de acordo com o fornecimento desses elementos.",
+      "O solo serve como sustentação física da planta e fonte de nutrição, por isso, quanto mais fértil o solo, mais nutrida será a vegetação.",
+      "O tipo de rocha de uma área determinará as características da vegetação, uma vez que os nutrientes da rocha alimentam os vegetais.",
+      "O relevo interfere indiretamente no desenvolvimento da vegetação, pois altera as condições edáficas e climáticas."
+    ],
+    "correta": 2,
+    "comentario": "A biogeografia estuda a distribuição dos seres vivos no espaço geográfico e seus determinantes históricos e ecológicos. A vegetação de uma região é influenciada pelo clima (temperatura, chuvas), pelo solo e pelo substrato rochoso. Afirmar que o tipo de rocha 'determina' a vegetação é incorreto como afirmação exclusiva — o clima é o fator dominante; a rocha é um condicionante secundário via composição do solo.",
+    "ajuda": "O ramo da Geografia que estuda a distribuição da vegetação, os biomas e as interações entre os seres vivos e o ambiente físico é a Biogeografia. Ela analisa como clima, solo e relevo determinam a distribuição das espécies e das formações vegetais."
+  },
+  {
+    "id": 8,
+    "instituicao": "UECE",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "zonas polares",
+      "clima polar",
+      "Ártico"
+    ],
+    "pergunta": "Nas regiões de altas latitudes e próximas ao Círculo Polar Ártico, os horizontes superficiais do solo permanecem gelados. É comum, durante poucos meses do ano, a ocorrência de um tipo de vegetação de pequeno porte e que é constituído, basicamente, por musgos e liquens.\n\nAssinale a alternativa que contém essa vegetação.",
+    "alternativas": [
+      "Estepe.",
+      "Araucárias.",
+      "Tundra.",
+      "Campos cerrados."
+    ],
+    "correta": 2,
+    "comentario": "A tundra ocorre nas latitudes próximas ao Círculo Polar Ártico, onde o permafrost impede o desenvolvimento de raízes profundas e a estação de crescimento é brevíssima (menos de 3 meses). Musgos, liquens e gramíneas rasteiras dominam a paisagem. É um dos biomas mais sensíveis ao aquecimento global — o permafrost derretendo libera metano e CO₂ armazenados há milênios.",
+    "ajuda": "Nas altas latitudes, o permafrost é uma camada de solo permanentemente congelada que cobre grande parte da Sibéria, Alasca e Canadá. O aquecimento global está causando seu degelo, o que libera metano (gás de efeito estufa) e compromete edificações e infraestrutura."
+  },
+  {
+    "id": 9,
+    "instituicao": "UEL",
+    "ano": "2007",
+    "dificuldade": "facil",
+    "tags": [
+      "biogeografia",
+      "biomas mundiais",
+      "biodiversidade"
+    ],
+    "texto_apoio": "“Há uma área de pesquisa ligada à ecologia que analisa essencialmente como as espécies reagem aos diferentes tipos de solo, climas e formas de relevo. Tais estudos geraram um grande volume de conhecimentos sobre o papel limitante desempenhado pelos fatores abióticos na distribuição: sobre a natureza, sobre a estrutura das comunidades e sobre a capacidade fisiológica dos seres vivos de suportar as condições de determinados ambientes. Esse conhecimento tem sido muito útil na agricultura, na biologia da conservação, no planejamento ambiental, entre outros.\"",
+    "fonte_apoio": "Fonte: FURLAN, S. A. In: VENTURI, L. A. B. (org.), Praticando Geografia, técnicas de campo e laboratório. São Paulo: Oficina de Textos, 2005, p. 99.",
+    "pergunta": "Assinale a alternativa correta que corresponde à área de pesquisa mencionada no texto:",
+    "alternativas": [
+      "Biogeografia.",
+      "Geomorfologia.",
+      "Ecologia.",
+      "Fitogeografia.",
+      "Zoogeografia."
+    ],
+    "correta": 0,
+    "comentario": "A biogeografia é o ramo da geografia (e da biologia) que estuda a distribuição dos seres vivos no espaço e no tempo, investigando por que determinadas espécies ocorrem em determinados lugares. Analisa a influência de fatores abióticos (clima, relevo, solo) e históricos (deriva continental, glaciações) sobre a distribuição da biodiversidade global.",
+    "ajuda": "O texto provavelmente descreve a Biogeografia ou a Ecologia Geográfica — ramos que estudam a distribuição dos seres vivos no espaço, a relação entre fatores abióticos (clima, solo, relevo) e as comunidades biológicas. Identifique qual área de pesquisa corresponde à descrição."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFPB",
+    "ano": "2006",
+    "dificuldade": "media",
+    "tags": [
+      "biomas mundiais",
+      "paisagens naturais",
+      "questões ambientais"
+    ],
+    "pergunta": "No que se refere às grandes paisagens naturais e suas modificações, é correto afirmar:",
+    "alternativas": [
+      "Os desertos correspondem às áreas que sofreram modificações resultantes da exploração irracional do petróleo.",
+      "As pradarias e as estepes apresentam modificações drásticas, na sua biodiversidade, devido à introdução de espécies arbóreas típicas da savana.",
+      "A tundra é uma vegetação rasteira bastante alterada pela expansão agrícola nas áreas circumpolares.",
+      "A savana corresponde a um bioma característico de áreas temperadas e subtropicais, com impactos ambientais resultantes da introdução dos transgênicos.",
+      "As florestas equatoriais e tropicais, as mais ricas em biodiversidade, sofrem grandes impactos ambientais decorrentes da ação das madeireiras."
+    ],
+    "correta": 4,
+    "comentario": "As florestas equatoriais e tropicais — Amazônia, floresta do Congo, florestas do Sudeste Asiático — abrigam mais de 50% da biodiversidade terrestre do planeta, mas ocupam menos de 10% da superfície. Estão sob pressão crescente do desmatamento para agricultura, pecuária e mineração. A preservação dessas florestas é considerada prioridade global para manter a biodiversidade e regular o clima.",
+    "ajuda": "As grandes paisagens naturais foram profundamente modificadas pelo ser humano. O desmatamento, a urbanização e a agricultura industrial transformaram biomas inteiros. Avalie cada afirmativa considerando a dinâmica entre preservação e uso do espaço geográfico."
+  }
+]

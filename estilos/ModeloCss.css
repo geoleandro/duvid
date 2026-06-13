@@ -954,9 +954,13 @@ ul.lista {
 }
 
 .topico {
-
-
+  display: none;
   background-color: white;
+}
+
+.topico:nth-child(1),
+.topico.mostrar {
+  display: block;
 }
 
 
@@ -1211,6 +1215,27 @@ body.dark-mode .w3-amber {
   /* Mantém a bordinha de destaque */
 }
 
+/* Bloco verde (Catarse — "O que mudou no seu olhar?") */
+body.dark-mode .w3-pale-green {
+  background-color: #1a3a1a !important;
+  color: #a5d6a7 !important;
+  border-left-color: #4caf50 !important;
+}
+
+/* Bloco azul (seções de destaque azul) */
+body.dark-mode .w3-pale-blue {
+  background-color: #0d2035 !important;
+  color: #90caf9 !important;
+  border-left-color: #42a5f5 !important;
+}
+
+/* Bloco vermelho claro (seções de atenção) */
+body.dark-mode .w3-pale-red {
+  background-color: #2a1010 !important;
+  color: #ef9a9a !important;
+  border-left-color: #e53935 !important;
+}
+
 /* Garante que o título H2 dentro dessas caixas também fique visível */
 body.dark-mode .topico h2 {
   color: #ffffff !important;
@@ -1377,10 +1402,11 @@ body.dark-mode .duvid-painel-dica {
 
 /* Ajuste do número dentro do painel */
 #notaFixa {
-  font-size: 16px !important;
+  font-size: 22px !important;
   /* Diminuído levemente */
   margin-right: 5px !important;
   line-height: 1 !important;
+  
 }
 
 
@@ -1608,6 +1634,13 @@ button:disabled {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.btn-acao-duvid:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
 /* Garante que o shake e a cor de erro continuem funcionando */
 .btn-acao-duvid.w3-amber {
   background-color: #ffc107 !important;
@@ -1708,7 +1741,6 @@ button:disabled {
 }
 
 .duvid-img-principal {
-  max-height: 580px;
   width: 100%;
   object-fit: contain;
   border-radius: 4px;
@@ -2085,4 +2117,89 @@ button:disabled {
     margin-bottom: 5px;
     /* Espaço entre as linhas de tags */
   }
+}
+
+/* ============================================================
+   IMPRESSÃO / SALVAR COMO PDF
+   Ativado quando o aluno clica no botão "Salvar este texto em PDF"
+   (jstextos-padrao.js adiciona .imprimindo-texto no body antes do
+   window.print). Esconde menus, áudios, botões interativos e
+   força todos os tópicos a aparecerem juntos.
+   ============================================================ */
+@media print {
+
+    /* Esconde elementos de navegação e interativos */
+    .w3-top,
+    #header-placeholder,
+    #footer-placeholder,
+    .w3-bottom,
+    #btn-topo,
+    .btn-salvar-pdf-wrapper,
+    .btn-salvar-pdf,
+    #aviso-status,
+    .btnShow,
+    .pergunta-bloco,
+    .duvid-coracoes-container,
+    audio,
+    iframe,
+    ins.adsbygoogle,
+    .duvid-painel-dica,
+    #modal-dica,
+    #id01,
+    #duvid-gif-overlay {
+        display: none !important;
+    }
+
+    /* Mostra TODOS os tópicos (sobrepõe o display:none padrão) */
+    .topico {
+        display: block !important;
+        page-break-inside: avoid;
+        padding: 0 !important;
+        background: white !important;
+    }
+
+    /* Fundo branco e remove sombras (economiza tinta) */
+    html,
+    body,
+    main,
+    .w3-card,
+    .w3-card-2,
+    .w3-card-4 {
+        background: white !important;
+        box-shadow: none !important;
+    }
+
+    /* Largura total no PDF */
+    main {
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 8px !important;
+    }
+
+    /* Painel "Ouvir aula" e "Questões para responder no caderno"
+       continuam visíveis mas sem fundo colorido */
+    .w3-pale-yellow,
+    .w3-light-grey {
+        background: white !important;
+    }
+
+    /* Quebra de página entre h1 grandes (cada seção inicia em nova página) */
+    h1 {
+        page-break-before: avoid;
+        page-break-after: avoid;
+    }
+
+    /* Imagens não cortam no meio */
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+
+    /* Garante que a barra de progresso (0%) fique escondida */
+    progress,
+    #txtBarra,
+    #numero {
+        display: none !important;
+    }
+}
 }

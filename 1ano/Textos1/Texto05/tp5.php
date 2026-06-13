@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="description" />
+        <meta content="" property="og:title" />
+        <meta content="" property="og:description" />
+        <meta content="" property="og:image" />
+        <link href="/estilos/index-estilo.css" rel="stylesheet" />
+        <link href="/estilos/w3.css" rel="stylesheet" />
+        <link href="/estilos/navbar.css" rel="stylesheet" />
+        <link href="/estilos/rpg-sistema.css" rel="stylesheet" />
+        <link href="/estilos/ModeloCss.css" rel="stylesheet" />
+        <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+        <script async="" crossorigin="anonymous"
+                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"></script>
+        <script defer="" src="/js/duvid-cache.js"></script>
+        <script defer="" src="/js/duvid-db.js"></script>
+        <script defer="" src="/js/duvid-audio.js"></script>
+        <script defer="" src="/js/duvid-ui.js"></script>
+        <script defer="" src="/js/duvid-core.js"></script>
+        <script defer="" src="/estilos/jstextos-padrao.js"></script>
+        <script defer="" src="/js/abrirmenu.js"></script>
+        <script defer="" src="/js/carregar.js"></script>
+        <script defer="" src="/js/aulas-geral.js"></script>
+        <title>1º ano - Texto 05</title>
+</head>
+
+<body>
+        <?php include __DIR__ . '/../../../includes/header.php'; ?>
+        <div class="w3-margin-top" id="aviso-status"></div>
+        <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+                <div class="topico">
+                        <div class="w3-padding-top-48"></div>
+                        <h1 id="h1"></h1>
+                        <!-- Futuro audio -->
+                        <div
+                                class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                                <div class="w3-row">
+                                        <div class="w3-col s2 m1 w3-center">
+                                                <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                                        </div>
+                                        <div class="w3-col s10 m11 w3-padding-small">
+                                                <b class="fontePixel">OUVIR AULA</b>
+                                                <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com
+                                                        narração exclusiva.</p>
+                                        </div>
+                                </div>
+                                <audio controls="" style="width:100%; margin-top: 10px;">
+                                        <source id="audioSource" src="" type="audio/mp3" />
+                                </audio>
+                        </div>
+                        <div class="w3-container w3-padding-16">
+                                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+                        </div>
+                        <button class="btnShow"
+                                onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                                <i class="fa fa-play"></i> Iniciar Aula
+                        </button>
+                        <hr />
+                </div>
+                <div class="topico">
+                        <h2> Introdução </h2>
+                        <p> <span class="primeiraLetra">N</span>a aula passada, vimos a importância da escala
+                                cartográfica e geográfica para representarmos a realidade através dos mapas. </p>
+                        <p>Agora, do ponto de vista global, veremos como projetar o globo terrestre (que possui uma
+                                forma de esfera) em um plano. O caminho para se tornar um explorador do espaço
+                                geográfico é árduo, mas
+                                também é gratificante.</p>
+                        <p> As projeções cartográficas realizam essa transformação da realidade tridimensional em
+                                planos bidimensionais. Vamos conhecer os diferentes tipos de projeções, seu impacto na
+                                descoberta de novas
+                                áreas pelo Planeta e aprofundar no estudo sobre a produção cartográfica.</p>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+                <div class="topico">
+                        <div class="w3-panel w3-leftbar w3-pale-yellow w3-margin w3-padding">
+                                <h2> Questões a serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+                                <h3>1. O que são projeções cartográficas e qual é o seu objetivo principal?</h3>
+                                <h3>2. Explique brevemente os três tipos básicos de projeções cartográficas: cilíndrica,
+                                        cônica e plana.</h3>
+                                <h3>3. Por que os cartógrafos precisaram desenvolver diferentes tipos de projeções?</h3>
+                                <h3>4. Descreva as características principais da Projeção de Mercator e mencione para
+                                        que
+                                        ela é mais
+                                        adequada.</h3>
+                                <h3>5. Qual é a principal crítica à Projeção de Mercator em relação à representação dos
+                                        continentes?</h3>
+                                <h3>6. Explique a Projeção de Peter e quais são suas principais características.</h3>
+                                <h3>7. Por que a Projeção de Peter foi considerada uma tentativa de romper com uma visão
+                                        colonialista do
+                                        mundo?</h3>
+                                <h3>8. O que são Projeções Planas ou Azimutais e qual é a sua característica principal?
+                                </h3>
+                                <h3>9. Como as Projeções Cônicas funcionam e em que situações elas são mais utilizadas?
+                                </h3>
+                                <h3>10. O que são anamorfoses geográficas e como elas diferem das projeções
+                                        cartográficas
+                                        tradicionais?</h3>
+                        </div>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='block'">Próximo</button>
+                        <hr />
+                </div>
+                <div class="topico">
+                        <h2> Introdução </h2>
+                        <p> <span class="primeiraLetra">N</span>a aula passada, vimos a importância da escala
+                                cartográfica e geográfica para representarmos a realidade através dos mapas. </p>
+                        <p>Agora, do ponto de vista global, veremos como projetar o globo terrestre (que possui uma
+                                forma de esfera) em um plano. O caminho para se tornar um explorador do espaço
+                                geográfico é árduo, mas
+                                também é gratificante.</p>
+                        <p> As projeções cartográficas realizam essa transformação da realidade tridimensional em
+                                planos bidimensionais. Vamos conhecer os diferentes tipos de projeções, seu impacto na
+                                descoberta de novas
+                                áreas pelo Planeta e aprofundar no estudo sobre a produção cartográfica.</p>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+                <div class="topico">
+                        <h2> <strong>O que é uma projeção cartográfica?</strong></h2>
+                        <p>Já sabemos alguns elementos dos mapas, como o título, a legenda, a escala, até fizemos uma
+                                planta da escola! Agora, vamos discutir o problema de representar algo que é 3D em uma
+                                folha, por exemplo,
+                                que é 2D, ou possui somente duas dimensões. </p>
+                        <p>Os cartógrafos quebraram a cabeça para tornarem os mapas os mais fiéis possíveis à
+                                realidade. Para isso, utilizaram bastante a Matemática com diversos cálculos. Utilizaram
+                                as coordenadas
+                                geográficas para poder representar a superfície terrestre em um mapa. Tudo isso está
+                                ligado as projeções
+                                cartográficas. </p>
+                        <p><span id="mark2"> <strong>Projeções cartográficas </strong></span> - Constituem métodos
+                                matemáticos
+                                para se projetar uma esfera em um plano. Uma região de escala grande como um município
+                                ao ser representada
+                                em um mapa não sofre muitas distorções. Entretanto, para representar um mapa-múndi, há
+                                muitas dificuldades
+                                em manter as formas dos continentes, sua área e posições sem distorcê-los. Há diversos
+                                tipos de se projetar
+                                uma esfera em um plano: </p>
+                        <p> A ideia principal é <span onclick="Aparecer('imagem1','citacao1')"><mark>esta:</mark></span>
+                        </p>
+                        <img alt="tp5f1" class="w3-mobile" id="imagem1" src="tp5f1.png" style="display:none" />
+                        <span class="paragrafo citacao" id="citacao1" style="display:none"> Fonte: Organizado pelo
+                                autor.
+                        </span>
+                        <p> A partir desse modelo são projetados pontos possíveis da superfície terrestre. São mais de
+                                200 tipos de projeções.</p>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+                <div class="topico">
+                        <h2> <strong>Quais os tipos de projeções existentes?</strong></h2>
+                        <p>Existem três tipos básicos de projeções cartográficas: a <strong>cilíndrica</strong>, a
+                                <strong>cônica</strong> e a <strong> plana</strong> ou azimutal, conforme as imagens
+                                <span onclick="Aparecer('imagem2','citacao2')"><mark>abaixo:</mark></span>
+                        </p>
+                        <div class="area"><img alt="tp5f2" class="w3-mobile" id="imagem2" src="tp5f2.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao2" style="display:none"> Fonte: Fonte: Moreira e Sene
+                                (2016, p. 60).
+                        </span>
+                        <p> Observe que na projeção <span
+                                        onclick="Aparecer('imagem3','citacao3')"><mark>cilíndrica</mark></span> o
+                                globo terrestre parece estar
+                                envolvido por um cilindro de papel no qual são projetados os paralelos e os meridianos.
+                        </p>
+                        <div class="area"><img alt="tp5f3" class="w3-mobile" id="imagem3" src="tp5f3.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao3" style="display:none"> Fonte: Moreira e Sene (2016,
+                                p. 60). </span>
+                        <p> Na projeção <strong>azimutal</strong> ou <span
+                                        onclick="Aparecer('imagem4','citacao4')"><mark>plana</mark></span>,a Terra
+                                parece ser tangenciada em
+                                qualquer ponto por um pedaço de papel no qual são projetados os paralelos e os
+                                meridianos. Quando o globo é
+                                tangenciado num dos polos, dizemos que se trata de uma projeção polar.</p>
+                        <div class="area"><img alt="tp5f4" class="w3-mobile" id="imagem4" src="tp5f4.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao4" style="display:none"> Fonte: Fonte: Moreira e Sene
+                                (2016, p. 60).
+                        </span>
+                        <p> Já na projeção <span onclick="Aparecer('imagem5','citacao5')"><mark>cônica</mark></span>,
+                                o globo parece estar envolvido por um cone de papel no qual são projetados os paralelos
+                                e os meridianos.
+                        </p>
+                        <div class="area"><img alt="tp5f5" class="w3-mobile" id="imagem5" src="tp5f5.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao5" style="display:none"> Fonte: Organizado pelo
+                                autor.
+                        </span>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+                <div class="topico pergunta-bloco w3-container w3-padding-24">
+                        <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+                        <h4 class="fontePixel"><b>Quais são os três tipos principais de projeções cartográficas?</b>
+                        </h4>
+                        <div class="grupo-respostas w3-margin-top">
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p1a" name="pergunta1" type="radio"
+                                                value="errado" />
+                                        <label class="card-opcao" for="p1a">
+                                                <span>a) Cilíndrico, perpendicular e cônico.</span>
+                                        </label>
+                                </div>
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p1b" name="pergunta1" type="radio"
+                                                value="correto" />
+                                        <label class="card-opcao" for="p1b">
+                                                <span>b) Cilíndrico, plano ou azimutal e cônico.</span>
+                                        </label>
+                                </div>
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p1c" name="pergunta1" type="radio"
+                                                value="errado" />
+                                        <label class="card-opcao" for="p1c">
+                                                <span>c) Cilíndrico, cônico e esférico.</span>
+                                        </label>
+                                </div>
+                        </div>
+                        <div class="w3-margin-top">
+                                <button class="btn-acao-duvid"
+                                        onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'legal, essa foi bem fácil, ganhou seu primeiro globinho. Este é, aliás, a projeção mais próxima da realidade que temos', '10')">
+                                        Confirmar Resposta
+                                </button>
+                        </div>
+                        <p class="w3-center w3-padding w3-large" id="resp1"></p>
+                        <div class="area w3-center">
+                                <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png"
+                                        style="display:none" width="64" />
+                        </div>
+                </div>
+                <div class="topico">
+                        <h2> As projeções distorcem a realidade?</h2>
+                        <p>Sabemos que todo mapa é uma representação aproximada do espaço terrestre, na medida que
+                                depende do objetivo de o pesquisador escolher o que representar. Por isso que a escolha
+                                do tipo de projeção
+                                já direciona a leitura do mundo e valoriza algum aspecto da realidade. </p>
+                        <p> O globo terrestre não possui distorções, pois mostra diretamente como é na realidade o
+                                Planeta. Sua desvantagem é que, na prática, é difícil ter uma visão do todo ao mesmo
+                                tempo.<span onclick="Aparecer('imagem6','citacao6')"><mark> Veja aqui:</mark></span></p>
+                        <div class="area"><img alt="tp5f6" class="w3-mobile" id="imagem6" src="tp5f6.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao6" style="display:none"> Fonte: Carvalho e Araújo
+                                (2011). </span>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+                <div class="topico pergunta-bloco w3-container w3-padding-24">
+                        <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+                        <h4 class="fontePixel"><b></b></h4>
+                        <div class="grupo-respostas w3-margin-top">
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p2a" name="pergunta2" type="radio"
+                                                value="errado" />
+                                        <label class="card-opcao" for="p2a">
+                                                <span>a) permitir representar fielmente a realidade com todos seus
+                                                        detalhes.</span>
+                                        </label>
+                                </div>
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p2b" name="pergunta2" type="radio"
+                                                value="errado" />
+                                        <label class="card-opcao" for="p2b">
+                                                <span>b) gerar distorções em todo o mapa.</span>
+                                        </label>
+                                </div>
+                                <div class="item-resposta">
+                                        <input class="radio-duvid" id="p2c" name="pergunta2" type="radio"
+                                                value="correto" />
+                                        <label class="card-opcao" for="p2c">
+                                                <span>c) gerar distorções em algumas áreas do mapa.</span>
+                                        </label>
+                                </div>
+                        </div>
+                        <div class="w3-margin-top">
+                                <button class="btn-acao-duvid"
+                                        onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Legal, essa foi bem fácil, ganhou seu primeiro globinho', '10')">
+                                        Confirmar Resposta
+                                </button>
+                        </div>
+                        <p class="w3-center w3-padding w3-large" id="resp2"></p>
+                        <div class="area w3-center">
+                                <img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png"
+                                        style="display:none" width="64" />
+                        </div>
+                </div>
+                <div class="topico">
+                        <h2> <strong>Projeções Cilíndricas</strong> </h2>
+                        <h3> Projeção de Mercator</h3>
+                        <p> A projeção mais famosa utilizada até hoje foi elaborada pelo cartógrafo, matemático e
+                                geógrafo belga Gerardus Mercator na segunda metade do século XVI. </p>
+                        <p>Ela é perfeita para navegação, principalmente nas regiões intertropicais (entre os trópicos
+                                de Câncer e de Capricórnio) pois as direções podem ser traçadas em linhas retas sobre o
+                                mapa. <span onclick="Aparecer('imagem7','citacao7')"><mark>Veja abaixo:</mark></span>
+                        </p>
+                        <div class="area"><img alt="tp5f7" class="w3-mobile" id="imagem7" src="tp5f7.png"
+                                        style="display:none" />
+                        </div>
+                        <span class="paragrafo citacao" id="citacao7" style="display:none"> Fonte: Fonte: Wikipedia.
+                        </span>
+                        <div class="w3-panel w3-light-gray">
+                                <p> <strong>Principais características</strong>:</p>
+                                <ul>
+                                        <li>
+                                                <p>Apresenta paralelos retos e horizontais e os meridianos retos e
+                                                        verticais;</p>
+                                        </li>
+                                        <li>
+                                                <p>Possui uma deformação exagerada nas regiões de elevadas latitudes;
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>é a mais utilizada para representação total da Terra
+                                                        <em>(mapas-múndi)</em>.
+                                                </p>
+                                        </li>
+                                        <li>
+                                                <p>é <strong>conforme</strong>, isto é, preserva os ângulos e formas dos
+                                                        continentes,
+                                                        mas distorce a área (a proporção do tamanho dos países).</p>
+                                        </li>
+                                </ul>
+                        </div>
+                        <p> As distorções visíveis podem ser observadas no tamanho da Groelândia, por exemplo, em
+                                comparação à da América do Sul. Como a Groenlândia está situada em altas latitudes, a
+                                distorção é maior.
+                                Outra deformidade ocorre na Antártida, deixando-a com uma área bem maior. Por outro
+                                lado, o contorno dos
+                                continentes é bem desenhado e de fácil visualização.</p>
+                        <p> Essa projeção foi muito utilizada na época da expansão marítima do século XVI e reflete a
+                                visão eurocêntrica do mundo, ou seja, tendo a Europa no “centro de visão” do mapa.
+                                (Faria, 2016).</p>
+                        <p>Os mapas carregam as ideologias e a cultura de quem os produziu. Ele revela, nesse caso, o
+                                contexto de domínio de um grupo ou nação sobre outra, resumindo: a geopolítica. Não é à
+                                toa que esse tipo de
+                                mapa com a Europa no centro serviu para alimentar durante séculos a ideia na qual os
+                                países “de cima” são
+                                superiores aos “de baixo”. Mas nem todas as projeções seguem essas ideias deterministas.
+                        </p>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <br />
+                        <hr />
+                </div>
+
+
+
+                <div class="topico">
+
+
+                        <h2> Projeção de Peter</h2>
+
+                        <p> Na década de 1970, após muitas outras projeções terem sido realizadas, o historiador e
+                                cartógrafo Arno Peters aperfeiçoou a projeção cilíndrica de James Gall do final do
+                                século XIX e elaborou uma
+                                projeção que preservava as áreas dos continentes, o qual ficou conhecida como <span
+                                        onclick="Aparecer('imagem8','citacao8')"><mark>projeção
+                                                equivalente.</mark></span> </p>
+
+                        <div class="area"><img id="imagem8" src="tp5f8.png" alt="tp5f8" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao8" style=display:none> Fonte: Wikipedia. </span>
+
+
+                        <p>Nessa projeção há um destaque aos países de baixas latitudes, uma vez que buscou preservar
+                                suas áreas (tamanho) originais. Por outro lado, atendeu aos interesses dos Estados que
+                                se tornaram
+                                independentes após a Segunda Guerra Mundial (1939-1945) e que, nesse período, eram
+                                considerados
+                                subdesenvolvidos, a maioria desses países estão, de fato, na parte sul do globo. Foi
+                                considerada uma das
+                                formas para romper com uma visão colonialista do mundo. </p>
+
+                        <p> Percebe-se um alongamento dos continentes no sentido norte-sul. A Groenlândia nesse mapa,
+                                agora aparece bem menor que o Brasil e a África.</p>
+
+
+
+                        <div class="w3-panel w3-light-gray">
+
+                                <p> <strong>Principais características</strong>:</p>
+
+                                <ul>
+
+
+                                        <li>
+                                                <p>Altera as formas para manter as reais proporções dos continentes;</p>
+                                        </li>
+
+                                        <li>
+                                                <p>Apesar de deformar as áreas, procura mantê-las mais próximas do
+                                                        tamanho real;
+                                                </p>
+                                        </li>
+
+                                        <li>
+                                                <p>Destaca o continente africano no centro;</p>
+                                        </li>
+
+                                        <li>
+                                                <p>Propõe a valorização do mundo subdesenvolvido, mostrando sua área
+                                                        real.</p>
+                                        </li>
+
+
+                                </ul>
+                        </div>
+
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr>
+
+
+                </div>
+
+                <div class="topico">
+
+
+                        <h1> <strong>Projeções Planas ou Azimutais</strong></h1>
+
+
+                        <p>A projeção plana ocorre quando um plano toca um ponto (tangencia) do globo para
+
+                                <span onclick="Aparecer('imagem9','citacao9')"><mark>mapeá-lo.</mark></span>
+                        </p>
+
+                        <div class="area"><img id="imagem9" src="tp5f9.png" alt="tp5f9" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao9" style=display:none> Fonte: Organizado pelo autor.
+                        </span>
+
+                        <p> Os pontos que não tocam o plano são prolongados e daí que surgem as distorções. Nessa
+                                projeção, qualquer ponto do globo pode ser tornar o centro do mapa. Nesse caso, as
+                                distorções se aproximam
+                                de zero. À medida em que nos afastamos do centro da projeção, as distorções aumentam
+                                bastante
+                                (sistematicamente).</p>
+
+
+                        <p><span onclick="Aparecer('imagem10','citacao10')"><mark>Veja</mark></span> esse exemplo em
+                                que o <strong>centro da projeção</strong> é o encontro da latitude 0º e da longitude 0º.
+                        </p>
+
+
+
+                        <div class="area"><img id="imagem10" src="tp5f10.png" alt="tp5f10" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <p class="paragrafo citacao" id="citacao10" style=display:none> Fonte: Organizado pelo autor.
+                        </p>
+
+                        <p>Ou uma projeção plana da
+
+                                <span onclick="Aparecer('imagem11','citacao11')"><mark>América do Norte.</mark></span>
+                        </p>
+
+
+                        <div class="area"><img id="imagem11" src="tp5f11.png" alt="tp5f11" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+                        <span class="paragrafo citacao" id="citacao11" style=display:none> Fonte: Organizado pelo autor.
+                        </span>
+
+
+
+                        <p> Essa projeção está muito ligada a geopolítica (as relações de poder entre as nações), pois
+                                o cartógrafo pode direcionar o centro das atenções para qualquer território no mundo.
+                        </p>
+
+
+                        <p>Também é muito utilizada para navegações aérea e marítima. A Organização das Nações Unidas
+                                – <span onclick="Aparecer('imagem12','citacao12')"><mark>ONU</mark></span> a utiliza
+                                como seu mapa-símbolo.
+                                Na época da Guerra Fria, esse tipo de projeção era utilizado para representar o mundo
+                                bipolar, isto é, a
+                                antiga divisão entre Estados Unidos e União Soviética. </p>
+
+
+
+
+                        <div class="area"><img id="imagem12" src="tp5f12.png" alt="tp5f12" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao12" style=display:none> Fonte: Wikipedia. </span>
+
+
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr>
+
+                </div>
+
+                <div class="topico">
+
+
+
+                        <h1> <strong>Projeções cônicas</strong></h1>
+
+
+                        <p>A projeção <span onclick="Aparecer('imagem13','citacao13')"><mark>cônica</mark></span>
+                                ocorre a partir de um cone imaginário em que os meridianos formam uma rede de linhas
+                                retas, que convergem
+                                (que vão para um local em comum) para um ponto, e os paralelos formam círculos
+                                concêntricos (com o mesmo
+                                centro, um dentro do outro). </p>
+
+                        <div class="area"><img id="imagem13" src="tp5f13.png" alt="tp5f13" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao13" style=display:none> Fonte: Organizado pelo autor.
+                        </span>
+
+
+                        <div class="w3-panel w3-light-gray">
+                                <p><strong>Principais características</strong>: </p>
+                                <ul>
+                                        <li>Apresenta paralelos circulares e meridianos radiais, isto é, retas que se
+                                                originam de um
+                                                único ponto;
+                                        </li>
+                                        <li>É usado principalmente para representar países ou regiões de latitudes
+                                                intermediarias (não
+                                                diretamente nos polos ou no equador), mas pode ser usada por outras
+                                                latitudes.
+                                        </li>
+                                </ul>
+                        </div>
+
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr>
+
+                </div>
+
+
+
+                <div class="topico">
+
+
+                        <h2> Anamorfoses</h2>
+
+                        <p>
+                                Existem outros tipos de mapas que não chegam a ser uma projeção cartográfica, mas sim
+                                mapas temáticos que
+                                distorcem as áreas dos continentes ou países de acordo com as informações que norteiam o
+                                mapa.
+                        </p>
+
+                        <p> São chamadas de <strong>anamorfose geográfica</strong>, em que cada país é redesenhado de
+                                forma que seu polígono sofre uma deformação proporcional a um tema como a população dos
+                                países, ou outra
+                                variável.</p>
+
+                        <p> Exemplo. A população da China que é, aproximadamente de 1,5 bilhão de pessoas e da Índia
+                                com 1.4 bilhão irão aparecer maiores no <span
+                                        onclick="Aparecer('imagem15','citacao15')"><mark>mapa.</mark></span> </p>
+
+                        <div class="area"><img id="imagem15" src="tp5f15.png" alt="tp4f14" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao15" style=display:none> Fonte: Organizado pelo autor.
+                        </span>
+
+                        <p>Nesse mapa, por exemplo, o Paquistão que tem uma área de 796 100 km² , muito menor do que a
+                                do Brasil (8.515.759) km² possui sua forma aumentada. </p>
+
+                        <p> Já com a Rússia ocorre o inverso, com uma área territorial de 17.098.250 km2, quase o
+                                dobro da área do Brasil, teve seu polígono deformado e diminuído, pois possui uma
+                                população um pouco menor
+                                que o Brasil.</p>
+
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr>
+
+                </div>
+
+
+                <div class="topico margemAcima">
+
+
+                        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+
+                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong> Existe uma projeção que está no
+                                        meio
+                                        termo, entre a projeção de Mercator e a de Peters?</strong> </p>
+
+                        <p><span class="primeiraLetra">R:</span> Há a projeção cilíndrica de Robinson elaborada pelo
+                                cartógrafo e geógrafo norte-americano Arthur <span
+                                        onclick="Aparecer('imagem16','citacao16')"><mark>Robinson</mark></span>
+                                (1915-2004). O interessante é
+                                que os meridianos estão em forma de curva ou elipse, enquanto os paralelos permanecem
+                                retos. Ela é chamada
+                                de <strong>afilática</strong>, pois não deforma tanto as áreas e nem as formas dos
+                                continentes. Por isso é a
+                                mais utilizada para representar o globo terrestre. </p>
+
+
+
+                        <div class="area"><img id="imagem16" src="tp5f16.png" alt="tp4f16" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao16" style=display:none> Fonte:
+                                commons.wilimedia.org.</span>
+
+
+                        <p> Ainda dentro das projeções cilíndricas, destaca-se a de <span
+                                        onclick="Aparecer('imagem17','citacao17')"><mark>Mollweide</mark></span> , com
+                                meridianos igualmente
+                                curvos e de forma elíptica, uma pouco mais achatada nos polos. A vantagem desta é que as
+                                zonas centrais
+                                possuem grande exatidão em seu desenho, mas as extremidades apresentam grandes
+                                distorções. </p>
+
+
+
+
+                        <div class="area"><img id="imagem17" src="tp5f17.png" alt="tp5f17" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao17" style=display:none> Fonte: commons.wilimedia.org.
+                        </span>
+
+                        <p>E uma última projeção, para ilustrar, refere-se a de <span
+                                        onclick="Aparecer('imagem18','citacao18')"><mark>Goode,</mark></span> chamada de
+                                projeção descontínua ou
+                                interrompida.</p>
+
+
+                        <div class="area"><img id="imagem18" src="tp5f18.png" alt="tp4f18" class="w3-mobile"
+                                        style=display:none>
+                        </div>
+
+
+                        <span class="paragrafo citacao" id="citacao18" style=display:none> Fonte: Organizado pelo autor.
+                        </span>
+
+                        <p> Ao segmentar algumas áreas dos oceanos Pacífico, Atlântico e Índico, ele queria manter as
+                                formas das terras emersas totalmente conservada, com exceção da Antártica e Groenlândia.
+                                Sua vantagem está
+                                em representar temas como a distribuição de indústrias, Recursos minerais ou de
+                                indicadores socioeconômicos.
+                        </p>
+
+                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Hoje em dia, com a existência de
+                                        satélites e internet, ainda precisamos de projeções cartográficas?</strong> </p>
+
+                        <p><span class="primeiraLetra">R:</span> Essa é uma ótima pergunta. O assunto sobre a união da
+                                tecnologia com a produção cartográfica é fundamental e vamos ver esse assunto também na
+                                próxima aula. Os
+                                mapas nos ajudam na compreensão espacial das coisas, dos processos que os eventos
+                                humanos ou naturais criam.
+                                Hoje, mais do que nunca, o mundo se encontra praticamente todo mapeado. Mesmo as áreas
+                                não visitadas, estão
+                                potencialmente sendo fotografadas pelos satélites. Por isso o espaço tem uma importância
+                                fundamental no
+                                mundo atual. Todos os lugares foram atingidos, direta ou indiretamente, pelo processo
+                                produtivo, o que cria
+                                uma hierarquização entre os agentes. Cada ponto do território mapeado torna-se único,
+                                repleto de
+                                potencialidades, sociais, naturais etc.</p>
+
+
+                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Quais temas de estudo os mapas
+                                        podem
+                                        representar?</strong> </p>
+
+                        <p><span class="primeiraLetra">R:</span> Os mapas temáticos podem nos dar uma visão de
+                                conjunto sobre inúmeros tópicos, quais sejam: sobre o papel da informação no mundo
+                                atual; o grau de
+                                tecnologia empregado nas atividades produtivas, o funcionamento do crédito pelo
+                                território, o intercâmbio de
+                                bens naturais e sociais pelos Estados, dentre inúmeros outros. Nesse sentido, os mapas
+                                não servem apenas
+                                para localização estrita, mas para analisar processos que estão ocorrendo, como a
+                                pandemia de Covid-19 que
+                                se espalhou por todo o Planeta.</p>
+
+
+
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Desafio!</button>
+                        <br><br>
+
+                        <hr>
+
+                </div>
+
+                <!-- <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="infograficotp5" src="inforesumotp5.png"
+                    alt="Infográfico resumo raio x da população" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div> -->
+
+
+
+        
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <div class="bibliografias w3-content w3-padding-64" id="final-da-aula" style="max-width:700px">
+            <hr />
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+            <br /><br />
+            <div class="w3-padding-48">
+                <span id="numero"></span>
+                <span id="txtBarra">0%</span>
+                <progress id="progress" max="100" value="0"></progress>
+            </div>
+        </div>
+    </main>
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+</body>
+
+</html>

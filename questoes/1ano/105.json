@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UESC",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "cartografia",
+      "distorções cartográficas"
+    ],
+    "pergunta": "Os conhecimentos sobre projeções cartográficas e uso de mapas possibilitam afirmar:",
+    "alternativas": [
+      "A projeção azimutal fornece uma visão eurocêntrica do mundo e, por isso, ela não é mais utilizada.",
+      "As distorções da representação, nas projeções cilíndricas, são maiores no Equador e menores nos polos.",
+      "A projeção de Peters é a única que não pretende privilegiar nenhum continente, porque ela reproduz rigorosamente a realidade.",
+      "A projeção cônica só pode ser utilizada para representar grandes regiões, porque as distorções são pequenas entre os trópicos, não representando, portanto, a realidade das áreas mapeadas.",
+      "As projeções cartográficas permitem que, na construção dos mapas temáticos, os meridianos e os paralelos terrestres sejam transformados de uma realidade tridimensional para uma realidade bidimensional."
+    ],
+    "correta": 4,
+    "comentario": "As projeções cartográficas transformam a superfície esférica da Terra em um plano bidimensional, permitindo a criação de mapas temáticos com meridianos e paralelos. Toda projeção gera algum tipo de distorção (de área, forma, distância ou ângulo), pois é matematicamente impossível representar uma esfera em um plano sem deformações.",
+    "ajuda": "As projeções cartográficas sempre introduzem alguma distorção ao transformar a superfície esférica da Terra em um plano. Cada tipo de projeção preserva algumas propriedades (formas, áreas, distâncias, ângulos) e distorce outras. Identifique qual propriedade cada projeção prioriza.",
+    "feedbacks": {
+      "0": "A projeção azimutal não é eurocêntrica. Ela mostra o mundo a partir de um ponto focal (geralmente o Polo Norte), sem privilegiar a Europa. Além disso, ela ainda é usada hoje, inclusive no emblema da ONU.",
+      "1": "Nas projeções cilíndricas ocorre o contrário: as distorções são menores próximo ao Equador (linha de tangência do cilindro) e maiores nos polos, onde regiões como a Groenlândia aparecem enormemente ampliadas.",
+      "2": "A projeção de Peters não reproduz a realidade com rigor, pois ela preserva as áreas proporcionais às reais, mas distorce as formas dos continentes. Nenhuma projeção reproduz a realidade sem sacrificar alguma propriedade geométrica.",
+      "3": "Há uma contradição interna: se as distorções são pequenas entre os trópicos, a projeção cônica é justamente adequada para essas latitudes. A afirmação de que ela 'não representa a realidade entre os trópicos' contradiz a premissa da própria alternativa."
+    }
+  },
+  {
+    "id": 2,
+    "instituicao": "UNIFACEF-SP",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "cartografia",
+      "produtos cartográficos",
+      "projeções cartográficas"
+    ],
+    "fonte_apoio": "(Www.worldmapper.org)",
+    "imagem_apoio": "1ano/img/105/p5q2.jpg",
+    "pergunta": "Observe um exemplo de produto cartográfico.\n\nÉ correto afirmar que a técnica utilizada no cartograma tem como objetivo",
+    "alternativas": [
+      "demonstrar a dinâmica e a velocidade de transformação dos dados.",
+      "oferecer a percepção imediata da proporção do fenômeno e do lugar onde ele ocorre.",
+      "questionar o senso comum que diminui a importância dos países subdesenvolvidos nas representações cartográficas.",
+      "proporcionar uma dificuldade analítica ao leitor acerca da orientação espacial dos dados.",
+      "valorizar a expressão subjetiva do cartógrafo ao romper com os diferentes tipos de projeções."
+    ],
+    "correta": 1,
+    "comentario": "Os cartogramas de anamorfose distorcem o tamanho dos territórios proporcionalmente ao fenômeno representado (população, renda, casos de doença etc.). Isso permite uma percepção visual imediata da intensidade e localização do fenômeno, mesmo que os contornos geográficos fiquem deformados em relação ao mapa convencional.",
+    "ajuda": "Observe o produto cartográfico e identifique se ele preserva as formas dos territórios (projeção conforme), as áreas (projeção equivalente) ou tenta equilibrar as duas (projeção afilática). O tipo de grade de paralelos e meridianos é uma pista importante.",
+    "feedbacks": {
+      "0": "O cartograma de anamorfose não representa dinâmica nem velocidade de transformação; para isso, seriam necessários mapas em série temporal. A anamorfose distorce o tamanho dos territórios para mostrar a intensidade de um fenômeno num dado momento.",
+      "2": "Embora a projeção de Peters tenha um objetivo político semelhante, a técnica do cartograma de anamorfose não tem como objetivo questionar o senso comum geopolítico. Ela é uma ferramenta de visualização: mostra proporcionalmente o volume de um fenômeno por território.",
+      "3": "O objetivo do cartograma de anamorfose é facilitar a leitura, não dificultá-la. As distorções dos territórios tornam visualmente imediata a comparação entre regiões: o leitor percebe de relance onde o fenômeno é mais intenso.",
+      "4": "O cartograma de anamorfose não é expressão subjetiva: segue regras matemáticas precisas para redimensionar os territórios proporcionalmente a um fenômeno mensurável. Ele não rompe com as projeções, mas usa a base territorial delas e apenas altera os tamanhos."
+    }
+  },
+  {
+    "id": 3,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "ONU",
+      "cartografia"
+    ],
+    "imagem_apoio": "1ano/img/105/p5q3a.jpg",
+    "imagem_apoio_2": "1ano/img/105/p5q3b.jpg",
+    "pergunta": "A ONU faz referência a uma projeção cartográfica em seu logotipo. A figura que ilustra o modelo dessa projeção é:\n\nAssinale a alternativa que corresponde a figura acima:",
+    "alternativas": [
+      "Letra A.",
+      "Letra B.",
+      "Letra C.",
+      "Letra D.",
+      "Letra E."
+    ],
+    "correta": 0,
+    "comentario": "A ONU adota a Projeção Azimutal (ou Polar) em seu emblema, que mostra o mundo visto do Polo Norte, com os continentes irradiando-se a partir do centro. Essa projeção preserva ângulos a partir do ponto central e é adequada para representar distribuições globais de forma equilibrada, sem privilegiar um único continente.",
+    "ajuda": "O logotipo da ONU utiliza uma projeção que mostra o mundo visto do Polo Norte, com os continentes dispostos ao redor do centro. Pense em qual projeção produz esse efeito circular característico.",
+    "feedbacks": {
+      "1": "Esta figura não corresponde à projeção do emblema da ONU. O logo da ONU usa a projeção azimutal polar: visão circular com o Polo Norte no centro e os continentes irradiando-se simetricamente ao redor.",
+      "2": "Esta figura não é a projeção azimutal polar. No emblema da ONU, os meridianos partem do centro (Polo Norte) como raios, e os paralelos formam círculos concêntricos ao redor, padrão típico da projeção azimutal.",
+      "3": "Esta figura não representa a projeção usada no emblema da ONU. A projeção azimutal polar tem contorno circular e coloca o Polo Norte como ponto focal central, sem privilegiar nenhuma região do globo.",
+      "4": "Esta figura não corresponde ao tipo de projeção do emblema da ONU. A ONU adotou a projeção azimutal polar justamente por sua aparência equânime, que não amplia nem diminui nenhuma região em detrimento de outra."
+    }
+  },
+  {
+    "id": 4,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "projeção de Mercator",
+      "distorções cartográficas"
+    ],
+    "imagem_apoio": "1ano/img/105/p5q4.jpg",
+    "pergunta": "A projeção cartográfica do mapa configura-se como hegemônica desde a sua elaboração, no século XVI. A sua principal contribuição inovadora foi a.",
+    "alternativas": [
+      "redução comparativa das terras setentrionais.",
+      "manutenção da proporção real das áreas representadas.",
+      "consolidação das técnicas utilizadas nas cartas medievais.",
+      "valorização dos continentes recém-descobertos pelas Grandes Navegações.",
+      "adoção de um plano em que os paralelos fazem ângulos constantes com os meridianos."
+    ],
+    "correta": 4,
+    "comentario": "A Projeção de Mercator, desenvolvida pelo cartógrafo flamengo Gerardus Mercator em 1569, é uma projeção cilíndrica conforme que preserva os ângulos (útil para navegação), mas distorce as áreas, especialmente próximo aos polos. Por isso, a Groenlândia parece maior que a África no mapa, embora seja 14 vezes menor na realidade.",
+    "ajuda": "A projeção de Mercator, criada no século XVI, foi desenvolvida para fins náuticos e representa os meridianos como linhas paralelas verticais. Pense em que tipo de distorção isso gera, especialmente nas áreas próximas aos polos, e por que ela ainda é hegemônica.",
+    "feedbacks": {
+      "0": "A projeção de Mercator faz o oposto: ela amplia, não reduz, as terras nas altas latitudes (regiões setentrionais). Por isso, a Groenlândia parece maior do que a África no mapa de Mercator, embora seja cerca de 14 vezes menor na realidade.",
+      "1": "A projeção de Mercator não preserva as áreas reais — ela é uma projeção conforme, que preserva ângulos e formas locais, mas distorce fortemente as áreas. Países tropicais aparecem muito menores do que realmente são em relação às regiões polares.",
+      "2": "Mercator rompeu com as cartas medievais, não as consolidou. A cartografia medieval não seguia regras matemáticas sistemáticas; Mercator introduziu uma grade com ângulos constantes que permitia traçar rotas de navegação como linhas retas (loxodrômicas).",
+      "3": "A projeção de Mercator não favorece os continentes recém-descobertos nas latitudes tropicais — ao contrário, ela amplia desproporcionalmente as regiões do norte (Europa, América do Norte), em detrimento das regiões tropicais onde ficam a maioria dos territórios então descobertos."
+    }
+  },
+  {
+    "id": 5,
+    "instituicao": "UNICAMP",
+    "ano": "2015",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "distorções cartográficas",
+      "cartografia"
+    ],
+    "imagem_apoio": "1ano/img/105/p5q5.jpg",
+    "pergunta": "A representação de uma esfera num plano estabelece um desafio técnico resolvido a partir de distintas formas de projeção, cada uma delas adequada a um objetivo. Faça a correspondência entre cada um dos mapas e sua correta projeção.",
+    "alternativas": [
+      "A, cônica; B, azimutal; C, cilíndrica.",
+      "A, cilíndrica; B, cônica; C, azimutal.",
+      "A, azimutal; B, cilíndrica; C, cônica.",
+      "A, cilíndrica; B, azimutal; C, cônica."
+    ],
+    "correta": 1,
+    "comentario": "Existem três famílias de projeções cartográficas: a cilíndrica (imagina-se um cilindro envolto ao globo), a cônica (um cone apoiado no globo) e a azimutal/plana (um plano tangente ao globo). Cada uma preserva certas propriedades geométricas e distorce outras, sendo escolhida conforme o uso pretendido do mapa.",
+    "ajuda": "Ao transformar uma esfera em um plano, há sempre deformações. As projeções cilíndricas, cônicas e planas/azimutais se diferenciam pelo 'ponto de contato' entre a superfície plana e o globo. Pense em qual parte do globo cada tipo de projeção representa com maior fidelidade.",
+    "feedbacks": {
+      "0": "Se A fosse cônica, seus paralelos seriam arcos curvos e os meridianos convergiriam para os polos. Mas no mapa A, os paralelos e meridianos são linhas retas e paralelas entre si, o que é característica inequívoca da projeção cilíndrica.",
+      "2": "Se A fosse azimutal, o mapa teria aparência circular com os meridianos irradiando de um ponto central. O mapa A apresenta meridianos e paralelos retos e perpendiculares, típico da projeção cilíndrica, não da azimutal.",
+      "3": "Esta sequência posiciona B como azimutal, mas B tem paralelos em arcos concêntricos e meridianos que convergem para um polo — características da projeção cônica. A projeção azimutal (C) é a que apresenta visão circular a partir de um ponto central."
+    }
+  },
+  {
+    "id": 6,
+    "instituicao": "UNESP",
+    "ano": "2015",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "distorções cartográficas",
+      "cartografia"
+    ],
+    "imagem_apoio": "1ano/img/105/p5q6.jpg",
+    "pergunta": "Analise as diferentes projeções cartográficas.\n\nConsiderando conhecimentos geográficos sobre projeções cartográficas, é correto afirmar que elas",
+    "alternativas": [
+      "respeitam os mesmos graus de proporcionalidade, conformidade, equidistância e orientação, regras e convenções que garantem rigor na representação do planeta.",
+      "podem ser admitidas como representações fiéis da realidade, pois expressam de forma precisa e rigorosa o planeta como ele é.",
+      "trazem consigo diferentes formas de representação do planeta, buscando difundir ideologias e determinadas visões de mundo.",
+      "se caracterizam pela objetividade e neutralidade, sem que fatores de ordem política, técnica ou cultural tenham influência sobre as formas de representação do planeta.",
+      "são relações métricas entre a superfície do planeta e as áreas representadas no mapa, não apresentando distorções e deformações em relação à realidade."
+    ],
+    "correta": 2,
+    "comentario": "Nenhuma projeção cartográfica é neutra, pois todas carregam escolhas políticas e culturais. A Projeção de Peters, por exemplo, foi criada para corrigir a visão eurocêntrica da Projeção de Mercator, representando os continentes com áreas proporcionais às reais. A escolha de qual projeção usar em um mapa reflete visões de mundo e pode reforçar ou questionar hegemonias geopolíticas.",
+    "ajuda": "Cada projeção tem vantagens e desvantagens. A projeção conforme preserva ângulos e formas locais, mas distorce áreas; a equivalente preserva áreas, mas distorce formas. Pense em qual tipo de projeção seria mais adequado para cada uso (navegação, política, análise de área etc.).",
+    "feedbacks": {
+      "0": "As diferentes projeções cartográficas têm graus distintos de proporcionalidade, conformidade e equidistância, e não os mesmos para todas. Cada projeção preserva certas propriedades e sacrifica outras. Uma projeção que mantém as formas (conforme) distorce as áreas; a que mantém as áreas (equivalente) distorce as formas.",
+      "1": "Nenhuma projeção reproduz o planeta com fidelidade total. É matematicamente impossível planificar uma superfície esférica sem deformações. Toda projeção introduz algum tipo de distorção: de área, de forma, de distância ou de ângulo.",
+      "3": "As projeções cartográficas não são neutras: a escolha de qual projeção usar, de qual região centralizar e de quais áreas ampliar é sempre influenciada por fatores culturais, políticos e técnicos. A própria hegemonia da Projeção de Mercator é um exemplo disso.",
+      "4": "A escala é, de fato, uma relação métrica entre mapa e realidade, mas isso não elimina as distorções das projeções. Pelo contrário, toda projeção introduz deformações em área, forma, distância ou ângulo, deformações que coexistem com a escala do mapa."
+    }
+  },
+  {
+    "id": 7,
+    "instituicao": "UEMG",
+    "ano": "2010",
+    "dificuldade": "dificil",
+    "tags": [
+      "projeções cartográficas",
+      "distorções cartográficas",
+      "sistemas de projeção"
+    ],
+    "texto_apoio": "A transferência de uma imagem da superfície curva da esfera terrestre para o plano da carta sempre produz deformações, isoladas ou conjuntas, de várias naturezas: na forma, em área, em distâncias e em ângulo. As projeções cartográficas foram desenvolvidas para tentar oferecer uma solução conveniente para essas dicotomias.",
+    "fonte_apoio": "BOCHICCHIO,Vincenzo Raffaele. Atlas Mundo Atual. Ed. Atual. 2003.",
+    "pergunta": "Analise as informações e as ilustrações seguintes:\n\nConsidere os conceitos, a seguir, que relacionam as informações do texto com as ilustrações 1, 2 e 3, acima. Depois, assinale a alternativa que aponta a sequência correta dessa relação.\n\n( ) os meridianos convergem para os polos e os paralelos são arcos concêntricos situados a igual distância uns dos outros.\n\n( ) a projeção deforma as superfícies nas altas latitudes, mantendo as baixas latitudes em forma e dimensão mais próximas do real.\n\n( ) a construção se organiza em volta de um ponto central chamado 'centro de projeção'.\n\nEstá CORRETA a relação sequencial indicada em:",
+    "alternativas": [
+      "1 – 2 – 3.",
+      "2 – 3 – 1.",
+      "3 – 1 – 2.",
+      "3 – 2 – 1.",
+      "2 – 1 - 3."
+    ],
+    "correta": 3,
+    "comentario": "A 1ª afirmação (meridianos convergentes e paralelos em arcos) descreve a projeção cônica (figura 3). A 2ª (distorção nas altas latitudes, fidelidade nas baixas) descreve a projeção cilíndrica, como Mercator (figura 2). A 3ª (organização em torno de um ponto central) descreve a projeção azimutal/plana (figura 1). Portanto, a sequência correta é 3 – 2 – 1.",
+    "ajuda": "Ao analisar projeções cartográficas, observe como os paralelos e meridianos são representados: paralelos horizontais e meridianos convergindo nos polos sugerem uma projeção cônica; meridianos e paralelos todos retos indicam projeção cilíndrica.",
+    "feedbacks": {
+      "0": "A sequência 1–2–3 inverteria completamente as correspondências. A 1ª afirmação (meridianos convergentes, paralelos em arcos) descreve a cônica, não a figura 1. A 3ª afirmação (centro de projeção) descreve a azimutal, não a figura 3.",
+      "1": "Nesta sequência, a 1ª afirmação corresponderia à figura 2 (cilíndrica). Mas meridianos convergentes nos polos e paralelos em arcos concêntricos descrevem a projeção cônica, não a cilíndrica, que tem meridianos e paralelos retos.",
+      "2": "Nesta sequência, a 1ª afirmação está correta (figura 3 = cônica), mas a 2ª corresponderia à figura 1 (azimutal). A projeção que distorce as altas latitudes e preserva as baixas é a cilíndrica (figura 2), não a azimutal.",
+      "4": "Nesta sequência, a 1ª afirmação estaria associada à figura 2 (cilíndrica). A projeção com meridianos convergentes nos polos e paralelos em arcos concêntricos é a cônica, correspondente à figura 3, não à figura 2."
+    }
+  },
+  {
+    "id": 8,
+    "instituicao": "ENEM",
+    "ano": "2009",
+    "dificuldade": "media",
+    "tags": [
+      "projeções cartográficas",
+      "poder geopolítico",
+      "distorções cartográficas"
+    ],
+    "texto_apoio": "\"Quem e com que interesse dita o que é o norte e o sul? Defendo a chamada Escola do Sul por que na realidade, nosso Norte é o Sul. Não deve haver norte, senão em oposição ao nosso sul. Por isso colocamos o mapa ao revés, desde já, e então teremos a justa ideia de nossa posição, e não como querem no resto do mundo. A ponta da América assinala insistentemente o sul, nosso norte\"",
+    "fonte_apoio": "TORRES-GARCÍA, J. Universalismo construtivo. Buenos Aires: Poseidón, 1941. (Com adaptações).",
+    "imagem_apoio": "1ano/img/105/p5q8.jpg",
+    "pergunta": "O desenho do artista uruguaio Joaquin Torres-García trabalha com uma representação diferente da usual da América Latina. Em artigo publicado em 1941, em que apresenta a imagem e trata do assunto, Joaquin afirma:\n\nO referido autor, no texto e imagem acima,",
+    "alternativas": [
+      "privilegiou a visão dos colonizadores da América",
+      "questionou as noções eurocêntricas sobre o mundo.",
+      "resgatou a imagem da América como centro do mundo.",
+      "defendeu a Doutrina Monroe expressa no lema \"América para os americanos\".",
+      "propôs que o sul fosse chamado de norte e vice-versa."
+    ],
+    "correta": 1,
+    "comentario": "O mapa invertido de Torres-García, com o Sul no topo, desafia a convenção ocidental que coloca o Norte acima. Essa inversão questiona a ideia de que o Norte é naturalmente 'superior', uma construção cultural que influencia como percebemos o mundo. A representação do espaço geográfico nunca é apenas técnica; ela também é política.",
+    "ajuda": "O artista uruguaio Torres-García inverteu o mapa do continente americano, colocando o Sul acima. Isso questiona a convencionalidade da representação cartográfica: a orientação norte-acima não é uma verdade geográfica, mas uma escolha histórica e cultural.",
+    "feedbacks": {
+      "0": "A obra de Torres-García faz justamente o oposto: critica a visão dos colonizadores europeus ao inverter o mapa. Colocar o Sul acima é uma contestação explícita da perspectiva colonial e eurocêntrica que estabeleceu o Norte como referência dominante.",
+      "2": "O texto não coloca a América como 'centro' geográfico do mundo — ele questiona a hierarquia Norte-Sul. Torres-García não propõe uma nova hegemonia americana, mas critica a existência de qualquer visão que hierarquize os espaços com base em convenções culturais europeias.",
+      "3": "A Doutrina Monroe ('América para os americanos') é um princípio político norte-americano de não intervenção europeia nas Américas. Torres-García faz uma crítica cultural e cartográfica, não política-diplomática. Sua crítica mira a hegemonia cultural europeia sobre a representação do mundo, não as relações geopolíticas entre continentes.",
+      "4": "Torres-García não propõe renomear os hemisférios geograficamente. No texto, ele usa 'Norte' no sentido de referência e destino ('nosso Norte é o Sul'), não como proposta de mudar a nomenclatura cartográfica. Sua provocação é sobre orientação cultural, não sobre terminologia."
+    }
+  },
+  {
+    "id": 9,
+    "instituicao": "UNIMONTES-MG",
+    "ano": "2008",
+    "dificuldade": "facil",
+    "tags": [
+      "projeções cartográficas",
+      "meridianos",
+      "paralelos"
+    ],
+    "imagem_apoio": "1ano/img/105/p5q9.jpg",
+    "pergunta": "A partir da projeção dos meridianos e paralelos geográficos, a forma cartográfica representada na figura é construída em:",
+    "alternativas": [
+      "um cilindro tangente à superfície de referência, desenvolvendo, a seguir, o cilindro num plano.",
+      "uma esfera tangente à superfície de referência, desenvolvendo, a seguir, o globo num plano.",
+      "um cone tangente à superfície de referência, desenvolvendo, a seguir, o cone num plano.",
+      "qualquer ponto da superfície de referência por um pedaço de papel num plano."
+    ],
+    "correta": 0,
+    "comentario": "Na projeção cilíndrica, imagina-se um cilindro tangente ao globo (geralmente no Equador). Os meridianos e paralelos são projetados sobre o cilindro, que depois é desenrolado num plano. As áreas próximas ao Equador (tangência) sofrem menos distorção; já nos polos, as distorções são máximas.",
+    "ajuda": "As projeções cartográficas se classificam, entre outros critérios, por sua superfície de projeção: cilíndrica (rola um cilindro ao redor do globo), cônica (um cone) ou plana/azimutal (um plano). Identifique as características de cada tipo pela forma como representam meridianos e paralelos.",
+    "feedbacks": {
+      "1": "Não existe projeção que use outra esfera como superfície intermediária — isso seria projetar a Terra em si mesma, sem resultado útil. As projeções cartográficas usam superfícies geometricamente 'planificáveis' (cilindro, cone ou plano), que podem ser desenroladas em um plano sem rasgar.",
+      "2": "Na projeção cônica, um cone (e não um cilindro) é tangente ao globo. O resultado é um mapa em que os meridianos convergem para um ponto e os paralelos formam arcos concêntricos, diferente do padrão de meridianos e paralelos retos da projeção cilíndrica mostrada na figura.",
+      "3": "Esta descrição aproxima-se da projeção plana ou azimutal, em que um plano é tangente ao globo em um único ponto (como o Polo Norte ou o Polo Sul). A projeção cilíndrica usa especificamente um cilindro envolvendo o globo, gerando um padrão de grade retangular ao ser 'desenrolado'."
+    }
+  },
+  {
+    "id": 10,
+    "instituicao": "UNICAMP",
+    "ano": "2021",
+    "dificuldade": "media",
+    "tags": [
+      "cartografia temática",
+      "mapas temáticos",
+      "representação cartográfica"
+    ],
+    "fonte_apoio": "(Rosely Sampaio Archela e Hervé Théry, Orientação metodológica para construção e leitura de mapas temáticos. Revista Confins. n.3. 2008, p. 1-36.)",
+    "imagem_apoio": "1ano/img/105/p5q10.jpg",
+    "pergunta": "Os mapas temáticos são elaborados com a utilização de técnicas que objetivam a melhor visualização e comunicação, distinguindo-se essencialmente dos topográficos, que representam fenômenos de qualquer natureza, geograficamente distribuídos sobre a superfície terrestre. O nível de organização dos dados, qualitativos, ordenados ou quantitativos, de um mapa está diretamente relacionado ao método de mapeamento e à utilização de variáveis visuais adequadas à sua representação.\n\nOs mapas temáticos anteriores mostram o cenário brasileiro da pandemia em 7 de julho de 2020. O mapa 1 apresenta o número de casos confirmados de Covid19 por ente federativo e o mapa 2, a taxa de incidência da Covid19 por Estado brasileiro. No que se refere à análise dos dados representados nos mapas, é correto afirmar:",
+    "alternativas": [
+      "O objetivo do mapa 1 é apresentar os dados de forma quantitativa, enquanto o mapa 2 prioriza uma apresentação qualitativa dos dados.",
+      "Os mapas 1 e 2 apresentam dados absolutos qualitativos referentes à Covid19 obtidos em órgãos oficiais do governo federal.",
+      "O mapa 1 apresenta os dados absolutos dos casos confirmados de Covid19, enquanto o mapa 2 apresenta a proporção de casos por milhão de habitantes.",
+      "Os mapas 1 e 2 apresentam dados proporcionais referentes à Covid19, pois não é possível apresentar com exatidão dados da área de saúde."
+    ],
+    "correta": 2,
+    "comentario": "Os mapas coropléticos utilizam gradações de cor ou sombreamento para representar a intensidade de um fenômeno por unidade territorial. Já os cartogramas de símbolo proporcional usam figuras geométricas em tamanhos variáveis. A escolha da técnica influencia diretamente a percepção visual e a interpretação dos dados pelo leitor.",
+    "ajuda": "Os mapas temáticos utilizam diferentes técnicas para representar dados: coropletas (cores ou sombreados por área), isopletas (linhas de igual valor), cartogramas (anamorfose, onde o tamanho do território varia conforme a grandeza representada) e pontos. Identifique qual técnica melhor serve a cada tipo de informação.",
+    "feedbacks": {
+      "0": "A distinção correta não é qualitativa × quantitativa: ambos os mapas apresentam dados quantitativos (números). A diferença real é entre dados absolutos (mapa 1: total de casos por estado) e dados relativos ou proporcionais (mapa 2: taxa de incidência por habitante).",
+      "1": "Nenhum dos mapas apresenta dados qualitativos (categorias sem medida numérica, como tipo de vegetação ou uso do solo). Ambos mostram dados quantitativos. Além disso, o mapa 1 apresenta dados absolutos (total de casos), não relativos — a alternativa mistura os dois conceitos incorretamente.",
+      "3": "Apenas o mapa 2 apresenta dados proporcionais (taxa de incidência por milhão de habitantes). O mapa 1 apresenta dados absolutos (número total de casos por estado). A afirmação de que 'não é possível apresentar com exatidão dados de saúde' é incorreta — dados epidemiológicos são sistematicamente coletados e registrados com precisão."
+    }
+  }
+]

@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="O espaço das cidades: gentrificação, segregação socioespacial, mobilidade urbana e especulação imobiliária">
+    <meta property="og:title" content="Texto 29 - O espaço das cidades">
+    <meta property="og:description" content="Por que as cidades são divididas: quem mora onde, quem pode se mover e quem paga o preço da especulação imobiliária">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+
+    <title></title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender como o espaço interno das cidades é organizado de forma desigual; entender os conceitos de segregação socioespacial, gentrificação, especulação imobiliária e mobilidade urbana; analisar por que a localização na cidade determina o acesso a direitos e oportunidades.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Prática Social Inicial -->
+        <div class="topico">
+
+            <h2>O bairro onde você mora diz quem você é?</h2>
+
+            <p><span class="primeiraLetra">P</span>ense no bairro onde você mora. Qual é o tempo de deslocamento até o centro ou até o seu trabalho ou escola? O transporte público passa perto? Há parques, praças, hospitais, bibliotecas, supermercados de qualidade? Se você precisasse chamar um táxi ou aplicativo de transporte às 23h, ele viria?</p>
+
+            <p>Agora pense num bairro rico da sua cidade ou de uma cidade grande que você conhece. Compare: o que tem lá que não tem onde você está? O que a localização do bairro diz sobre quem pode morar lá?</p>
+
+            <p>Anote no caderno: <strong>Você acha que o lugar onde alguém mora dentro da cidade afeta suas chances de vida? Por quê?</strong> Guarde essa resposta. Ao final, você vai ver que existe um nome para esse fenômeno.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: Problematização -->
+        <div class="topico">
+
+            <h2>O problema que esta aula vai ajudar a entender</h2>
+
+            <p>Em São Paulo, o tempo médio de deslocamento casa-trabalho para quem mora na periferia é de quase 2 horas por trajeto. Quem mora nos bairros centrais chega ao trabalho em 20 minutos. Essa diferença não é geográfica: é social. Ela é resultado de décadas de investimento público concentrado em certas áreas e abandono de outras.</p>
+
+            <p>A pergunta desta aula não é "o que é periferia" mas <strong>por que as cidades são divididas da forma que são, quem decide onde cada grupo social pode morar e quem lucra com essa divisão.</strong> Porque a segregação das cidades não é acidente nem resultado de escolhas individuais: é produto de políticas de habitação, do mercado imobiliário, da distribuição de infraestrutura e do poder político que decide onde o Estado investe.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Segregação socioespacial -->
+        <div class="topico">
+
+            <div class="w3-pale-blue">
+
+            <h2>Segregação socioespacial: a cidade dividida</h2>
+
+            <p>A <span class="termo" data-palavra="Segregação Socioespacial" data-definicao="Processo pelo qual diferentes grupos sociais ocupam partes distintas do espaço urbano, com os mais ricos concentrados em áreas com melhor infraestrutura, serviços e segurança, e os mais pobres empurrados para periferias com menor acesso a serviços públicos. No Brasil, esse processo é intensificado pela desigualdade de renda e pela especulação imobiliária que eleva os preços das áreas centrais.">segregação socioespacial</span> é o processo pelo qual grupos sociais diferentes são separados no espaço urbano. No Brasil, ela tem uma lógica clara: quanto maior a renda, mais perto do centro; quanto menor a renda, mais longe, na periferia. Mas não é só questão de distância. É também questão de acesso a serviços, infraestrutura, segurança e qualidade de vida.</p>
+
+            <p>Historicamente, essa separação foi incentivada por políticas públicas que investiram saneamento, iluminação, asfalto e transporte nos bairros de classe média e alta, e deixaram a periferia para depois. O "depois" muitas vezes nunca veio. E quando os bairros periféricos finalmente receberam alguma infraestrutura, o mercado imobiliário reagiu: os preços subiram, e quem não podia pagar foi empurrado ainda mais para fora.</p>
+
+            <h3>Como a segregação se reproduz</h3>
+
+            <p>A segregação não se reproduz só pelo preço dos imóveis. Ela também age por meio do sistema escolar público (escolas de periferia tendem a ter menos recursos que as de bairros centrais), do sistema de saúde (UBS sobrecarregadas nas periferias, hospitais de referência no centro), do transporte (quem mora longe paga mais em tempo e dinheiro para trabalhar) e até da segurança pública (a maioria das vítimas de violência urbana mora na periferia).</p>
+
+            <p>O resultado é que a <strong>localização dentro da cidade vira um fator de reprodução da desigualdade</strong>. Não é apenas que os pobres moram longe porque ganham menos: é que morar longe faz com que seja mais difícil ganhar mais, porque se perde mais tempo no transporte, gasta-se mais em deslocamento, e acessa-se escolas e serviços piores.</p>
+
+            <div class="w3-margin">
+                <img src="ts29f01.png" alt="Mapa de São Paulo mostrando a distribuição de renda por bairro e a correlação com acesso a serviços públicos"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Mapa de segregação urbana em breve</div>'">
+                <span class="w3-small w3-margin-left">Distribuição de renda e acesso a serviços por bairro em São Paulo. Fonte: IBGE, Censo 2022.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Em uma cidade brasileira de médio porte, o poder público decide construir um novo parque, revitalizar praças e instalar ciclovias num bairro central de classe média. Paralelamente, bairros periféricos da mesma cidade seguem sem saneamento básico completo e com transporte público precário. Com base no conceito de segregação socioespacial, esse processo:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>É neutro, pois o Estado deve maximizar o retorno dos investimentos públicos</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>Aprofunda a segregação, pois aumenta a diferença de qualidade de vida entre centro e periferia</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>Resolve a segregação no longo prazo, pois melhorias no centro acabam beneficiando a periferia</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'A segregação se reproduz: o Estado investe onde a renda já é maior, aprofundando o abismo entre centro e periferia.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 6: Gentrificação e especulação -->
+        <div class="topico">
+
+            <h2>Gentrificação e especulação imobiliária</h2>
+
+            <p>A <span class="termo" data-palavra="Gentrificação" data-definicao="Processo de valorização de um bairro popular ou deteriorado por meio de reformas, chegada de comércio e serviços de classe média e alta e investimentos públicos, que resultam na expulsão gradual dos moradores originais de baixa renda, incapazes de pagar os novos preços dos aluguéis e imóveis. O termo vem do inglês 'gentry' (pequena nobreza) e foi cunhado pela socióloga Ruth Glass em 1964 ao observar o que acontecia com bairros operários de Londres.">gentrificação</span> é o processo pelo qual um bairro popular ou deteriorado passa por uma valorização que expulsa seus moradores originais. Começa com artistas e jovens de classe média que se mudam para um bairro barato e pitoresco. Os bares e restaurantes surgem. A mídia cobre. Os imóveis se valorizam. Os aluguéis sobem. E os moradores originais, que não podem pagar os novos preços, precisam sair.</p>
+
+            <p>No Brasil, exemplos de gentrificação incluem o bairro da Lapa em São Paulo, a Zona Portuária do Rio de Janeiro (revitalizada para a Copa e as Olimpíadas) e o Centro Histórico de Salvador. Em todos os casos, o discurso era de revitalização e desenvolvimento. Na prática, os moradores originais foram deslocados, e os novos usuários dos espaços são de renda muito superior.</p>
+
+            <p>A <span class="termo" data-palavra="Especulação Imobiliária" data-definicao="Prática de comprar terrenos ou imóveis não para uso, mas para revenda futura a preços maiores, retendo-os enquanto espera pela valorização da área. No Brasil, a especulação imobiliária contribui para o encarecimento do solo urbano, o espraiamento das cidades (já que os pobres precisam ir mais longe para encontrar terra barata) e a existência de grandes áreas vazias dentro das cidades enquanto falta moradia acessível.">especulação imobiliária</span> é o mecanismo econômico que está por trás de grande parte desse processo. Proprietários de terrenos retêm a terra esperando que a área valorize, sem construir ou usar o espaço. Isso encarece o solo urbano, empurra os pobres para terrenos mais distantes e cria cidades espraiadas e desconexas. O Estatuto da Cidade (lei federal de 2001) criou instrumentos para combater isso, como o IPTU progressivo e a usucapião urbana, mas sua aplicação é inconsistente.</p>
+
+            <div class="w3-margin">
+                <img src="ts29f02.png" alt="Antes e depois da gentrificação na Zona Portuária do Rio de Janeiro: bairros populares dando lugar a empreendimentos de luxo"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Imagem de gentrificação urbana em breve</div>'">
+                <span class="w3-small w3-margin-left">Zona Portuária do Rio de Janeiro antes e após a revitalização para os Jogos Olímpicos de 2016.</span>
+            </div>
+
+            <h3>Mobilidade urbana: quem pode se mover</h3>
+
+            <p>A <span class="termo" data-palavra="Mobilidade Urbana" data-definicao="Capacidade das pessoas de se deslocarem dentro da cidade para acessar trabalho, educação, saúde, lazer e outros serviços. Engloba todos os modos de transporte: a pé, de bicicleta, transporte público (ônibus, metrô, trem) e transporte individual (carro, moto, aplicativos). No Brasil, a mobilidade urbana é profundamente desigual: quem mora na periferia gasta muito mais tempo e dinheiro nos deslocamentos do que quem mora em áreas centrais.">mobilidade urbana</span> é a capacidade de as pessoas se deslocarem pela cidade. No Brasil, ela é radicalmente desigual. Quem tem carro particular ou mora perto do metrô se move com facilidade. Quem depende de ônibus na periferia pode gastar de 3 a 5 horas por dia em deslocamentos, além de pagar uma parcela significativa do salário em passagens.</p>
+
+            <p>Essa imobilidade tem consequências diretas para a vida das pessoas: menos tempo com a família, mais dificuldade de estudar depois do trabalho, mais cansaço acumulado. E tem consequência também para a cidade: o trânsito caótico das metrópoles brasileiras é em grande parte resultado de um modelo de mobilidade que privilegiou o carro particular (com investimento em vias e vagas) em detrimento do transporte público de qualidade.</p>
+
+            <div class="w3-margin">
+                <img src="ts29f03.png" alt="Gráfico comparando o tempo médio de deslocamento casa-trabalho para moradores de diferentes bairros de São Paulo"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Gráfico de tempo de deslocamento em breve</div>'">
+                <span class="w3-small w3-margin-left">Tempo médio de deslocamento por faixa de renda em São Paulo. Fonte: Metrô SP, Pesquisa de Origem e Destino, 2017.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Um bairro histórico e popular de uma grande cidade brasileira passa por um processo de valorização imobiliária após receber investimentos públicos em revitalização cultural. Em poucos anos, os aluguéis triplicam, bares e restaurantes sofisticados substituem o comércio local, e os moradores antigos precisam se mudar para a periferia. Esse processo é chamado de:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Conurbação, pois a cidade está crescendo e incorporando novos bairros à sua malha urbana</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>Especulação imobiliária, com retenção de imóveis para venda futura a preços maiores</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="correto" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>Gentrificação, com expulsão dos moradores originais e substituição por grupos de maior renda</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Gentrificação: valorização do espaço + expulsão dos moradores originais. A especulação pode estar presente, mas o processo completo é a gentrificação.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Direito à cidade -->
+        <div class="topico">
+
+            <div class="w3-pale-green">
+
+            <h2>O direito à cidade e as políticas urbanas</h2>
+
+            <p>O filósofo Henri Lefebvre cunhou o conceito de <strong>direito à cidade</strong> nos anos 1960: a ideia de que todos os habitantes têm direito não apenas a um teto, mas a usar, fruir e transformar o espaço urbano de acordo com suas necessidades. Isso inclui acesso à mobilidade, ao lazer, aos serviços públicos, à participação nas decisões sobre o uso do espaço.</p>
+
+            <p>No Brasil, o Estatuto da Cidade (2001) incorporou parte dessa ideia ao criar instrumentos jurídicos para garantir que a propriedade urbana cumpra sua função social. O IPTU progressivo pode taxar mais pesado terrenos ociosos em áreas valorizadas. A usucapião urbana garante o direito de moradia para quem ocupa irregularmente um terreno há mais de 5 anos sem oposição do proprietário. As Zonas Especiais de Interesse Social (ZEIS) reservam partes do solo urbano para habitação popular.</p>
+
+            <p>Na prática, porém, a aplicação dessas ferramentas depende de vontade política. Pouquíssimas prefeituras aplicam o IPTU progressivo de forma efetiva. O Programa Minha Casa Minha Vida, criado em 2009, construiu milhões de unidades habitacionais, mas frequentemente em regiões distantes dos centros, reforçando a periferização ao invés de combatê-la.</p>
+
+            <div class="w3-margin">
+                <img src="ts29f04.png" alt="Mapa mostrando a localização dos empreendimentos do Minha Casa Minha Vida em relação aos centros urbanos das principais cidades brasileiras"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Mapa de empreendimentos habitacionais em breve</div>'">
+                <span class="w3-small w3-margin-left">Localização dos empreendimentos do Minha Casa Minha Vida em relação aos centros urbanos. Fonte: Ministério das Cidades, 2018.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.5: Texto-fonte -->
+        <div class="topico">
+
+            <div class="duvid-bloco-apoio">
+                <div class="duvid-texto-citacao">
+                    "A segregação residencial é um processo que marca profundamente a vida das pessoas nas cidades brasileiras. Ela se expressa não apenas na distância física entre bairros ricos e pobres, mas na diferença abissal de acesso a escolas, hospitais, transporte, lazer e segurança. Morar num bairro periférico não é apenas estar longe do centro: é estar distante dos direitos. A cidade se torna, assim, um mecanismo de reprodução da desigualdade social. Não porque as pessoas escolheram morar longe, mas porque o mercado imobiliário e o Estado — por ação ou omissão — organizaram o espaço de forma a concentrar os investimentos onde a renda já é maior."
+                </div>
+                <div class="duvid-fonte-texto">Adaptado de MARICATO, Ermínia. Brasil, cidades: alternativas para a crise urbana. Petrópolis: Vozes, 2001.</div>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin-top">
+                <p><strong>Responda no caderno antes de continuar:</strong></p>
+                <p>1. Ermínia Maricato afirma que a cidade é "um mecanismo de reprodução da desigualdade social". Com base no que você estudou, explique como a segregação socioespacial reforça as desigualdades de renda, educação e saúde entre moradores de diferentes bairros.</p>
+                <p>2. O texto diz que a segregação resulta do mercado imobiliário e do Estado "por ação ou omissão." Dê um exemplo de como o Estado age ativamente para produzir segregação e um exemplo de como age por omissão.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Catarse -->
+        <div class="topico">
+
+            <div>
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Antes de estudar esta aula, você provavelmente via os bairros pobres e ricos como resultado natural das diferenças de renda: quem ganha mais, mora melhor. Agora você vê que a organização do espaço urbano não é neutra nem natural: é produzida por políticas de investimento, pelo mercado imobiliário e por decisões políticas que historicamente favoreceram certos grupos e certos territórios.</p>
+
+            <p>A favela não está onde está porque as pessoas escolheram morar ali. Está ali porque o Estado não forneceu alternativas, porque a especulação imobiliária encareceu as áreas centrais, e porque os programas habitacionais foram construídos longe de tudo. A gentrificação não é desenvolvimento: é deslocamento com estética renovada. E o trânsito caótico das cidades não é tragédia inevitável: é consequência de décadas de prioridade ao carro e abandono do transporte público.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> segregação socioespacial (separação dos grupos sociais no espaço urbano); gentrificação (valorização que expulsa moradores originais); especulação imobiliária (retenção de terra esperando valorização); mobilidade urbana (capacidade de deslocamento na cidade); direito à cidade (acesso equitativo ao espaço e aos serviços urbanos); Estatuto da Cidade (lei brasileira que regula o uso do solo urbano).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Gentrificação é sempre ruim?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> O debate é legítimo. A revitalização de áreas degradadas pode trazer melhorias reais: segurança pública, infraestrutura, comércio. O problema não é a melhoria em si, mas quem fica e quem vai embora depois da melhoria. Se a valorização expulsa os moradores originais que moravam lá antes de qualquer investimento, o processo é gentrificação com suas consequências sociais negativas. O ideal seriam políticas de "gentrificação inclusiva": melhorar sem expulsar, por meio de aluguel social, ZEIS e IPTU progressivo para terrenos ociosos. Mas isso exige vontade política que frequentemente não existe.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O que é o Estatuto da Cidade e por que ele importa?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> O Estatuto da Cidade (Lei 10.257/2001) é a principal lei federal sobre política urbana brasileira. Ele regulamentou o capítulo de política urbana da Constituição de 1988, que afirma que a propriedade urbana deve cumprir sua função social. O Estatuto criou instrumentos como: IPTU progressivo (taxar mais terrenos ociosos em áreas valorizadas), direito de preempção (prefeitura tem preferência na compra de imóveis), outorga onerosa (cobrar pela construção acima do coeficiente básico de aproveitamento do terreno) e usucapião urbana coletiva. É uma lei avançada no papel, mas subaproveitada na prática.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que o Brasil tem tanto trânsito?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> O caos no trânsito das cidades brasileiras é resultado de décadas de política que privilegiou o carro. As cidades foram projetadas para o automóvel: largas avenidas, viadutos, estacionamentos subsidiados, financiamento facilitado para compra de veículo (inclusive com isenção de IPI em alguns momentos). O transporte público, em contrapartida, recebeu menos investimento, tem tarifa alta e qualidade irregular. O resultado é que quem pode comprar um carro, compra. E com mais carros nas ruas, o trânsito piora para todos, inclusive para os ônibus, o que leva mais pessoas a comprar carros. É um ciclo. A solução passaria por metrô, BRT, ciclovias integradas e tarifas acessíveis no transporte coletivo — mas essas medidas exigem investimento público que raramente é prioridade.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Produção - Prática Social Final -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o novo olhar.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>Mapeando a desigualdade da sua cidade</h3>
+                <p><strong>Atividade individual</strong></p>
+
+                <p>No início desta aula você refletiu sobre o quanto o bairro onde você mora afeta suas chances de vida. Agora, com os conceitos aprendidos, responda:</p>
+
+                <p><strong>1.</strong> Você observa segregação socioespacial na sua cidade? Descreva um exemplo concreto: qual área concentra mais serviços e infraestrutura e qual área tem menos acesso?</p>
+                <p><strong>2.</strong> Existe algum bairro na sua cidade que passou por um processo de valorização nos últimos anos? Moradores foram deslocados? É possível identificar elementos de gentrificação?</p>
+                <p><strong>3.</strong> Como é a mobilidade urbana onde você vive? Quanto tempo você leva para ir ao trabalho, escola ou hospital? Esse tempo seria diferente se você morasse em outro bairro?</p>
+                <p class="w3-small w3-text-grey">Dica: o IBGE disponibiliza dados de rendimento médio por setor censitário, que permitem visualizar a segregação socioespacial de qualquer cidade brasileira.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que é segregação socioespacial? Por que ela não é apenas uma consequência da diferença de renda entre as pessoas?</h3>
+
+                <h3>2. Explique como a localização dentro da cidade pode reproduzir e aprofundar as desigualdades de renda, saúde e educação de uma família.</h3>
+
+                <h3>3. O que é gentrificação? Cite um exemplo brasileiro e explique quem perde e quem ganha com o processo.</h3>
+
+                <h3>4. O que é especulação imobiliária e como ela contribui para o espraiamento das cidades e para o encarecimento da moradia?</h3>
+
+                <h3>5. O que é mobilidade urbana? Por que ela é desigual nas cidades brasileiras?</h3>
+
+                <h3>6. O que o conceito de "direito à cidade" de Henri Lefebvre significa? Por que ele vai além do simples direito à moradia?</h3>
+
+                <h3>7. Quais instrumentos o Estatuto da Cidade criou para combater a especulação imobiliária e garantir que a propriedade cumpra sua função social?</h3>
+
+                <h3>8. Por que o Programa Minha Casa Minha Vida, mesmo construindo muitas unidades habitacionais, foi criticado por reforçar a segregação socioespacial?</h3>
+
+                <h3>9. Um bairro popular recebe investimentos públicos em cultura e lazer e começa a atrair moradores de renda mais alta. Os aluguéis sobem e os moradores antigos precisam sair. Quem se beneficia desse processo? Quem paga o preço? Como o poder público poderia intervir para evitar a expulsão dos moradores originais?</h3>
+
+                <h3>10. Qual a relação entre o modelo de mobilidade urbana (que privilegiou o carro particular) e a segregação socioespacial? Quem mais sofre com o trânsito caótico das metrópoles brasileiras?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 14: Transição final -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 15: Finalizar -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SECAO FINAL -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+            <br><br>
+            <div class="w3-padding-48">
+                <span id="numero"></span>
+                <span id="txtBarra">0%</span>
+                <progress value="0" max="100" id="progress"></progress>
+            </div>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>3º ano - Texto 17 - União Europeia l: o processo de integração</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">A</span>nteriormente, estudamos o comércio mundial, a questão das exportações e
+            importações pelo mundo. </p>
+
+
+        <p> Na aula de hoje veremos a dinâmica da formação da União Europeia e seu processo histórico e geográfico de
+            integração.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+            <h3>
+                1. O que é a União Europeia (UE)? <br>
+                2. Quais são as principais instituições da UE e suas funções? <br>
+                3. Qual é o objetivo da Política Agrícola Comum (PAC) da UE? <br>
+                4. O que visa a Política de Coesão da UE? <br>
+                5. Qual é o propósito do Mercado Único da UE? <br>
+                6. O que é uma organização supranacional? <br>
+                7. Quais são as vantagens da integração supranacional, como na UE? <br>
+                8. Quais são as desvantagens da integração supranacional? <br>
+                9. O que foi a Comunidade Europeia do Carvão e do Aço (CECA)? <br>
+                10. Qual foi o impacto do Mercado Comum Europeu (MCE) estabelecido pelo Tratado de Roma em 1957? <br>
+            </h3>
+
+        </div>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+            <h2>A importância da União Europeia no cenário mundial</h2>
+
+            <p>A União Europeia (UE) é uma das organizações supranacionais mais influentes do mundo, composta por 27
+                países membros. Ela surgiu como um esforço para promover a paz, a estabilidade e a prosperidade na
+                Europa após as devastadoras guerras mundiais.</p>
+
+            <p>A UE tem um impacto significativo em várias áreas, incluindo economia, política, comércio, direitos
+                humanos, meio ambiente e legislação. Com uma população de cerca de 447 milhões de pessoas, a União
+                Europeia é uma das maiores economias do mundo, sendo um ator chave em acordos comerciais globais e na
+                promoção de políticas internacionais de sustentabilidade e direitos humanos.</p>
+
+            <p>A sua moeda, o euro, é a segunda moeda mais negociada no mundo. A UE também representa um modelo de
+                integração regional que inspira outras regiões do mundo.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+<div class="topico">
+
+            <h2>Características geográficas do continente Europeu</h2>
+
+            <div class="w3-margin"><img id="imagem1" src="tt17f01.png" alt="Mapa político do continente europeu - Duvid Geografia" class="w3-mobile" >
+		   
+                <span class="w3-small w3-margin-left" id="citacao1" > </span>
+               
+             </div>
+
+            <p>A. Diversidade geográfica</p>
+
+            <p>A Europa é um continente com uma diversidade geográfica impressionante, o que contribui para sua rica
+                variedade de culturas, climas e ecossistemas. Vamos explorar os principais aspectos dessa diversidade
+                geográfica.</p>
+
+            <p>1. Regiões Montanhosas</p>
+
+            <div class="w3-margin"><img id="imagem2" src="tt17f02.png" alt="Mapa físico do continente europeu - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao2">  </span>
+            </div>
+
+
+
+            <p>Alpes: Uma das cadeias montanhosas mais conhecidas, localizada no centro da Europa, atravessando países
+                como França, Suíça, Itália, Áustria e Alemanha. Os Alpes são famosos por suas paisagens deslumbrantes e
+                são um destino popular para esportes de inverno.</p>
+            <p>Pireneus: Localizados na fronteira entre a França e a Espanha, os Pireneus são outra importante cadeia
+                montanhosa, conhecida por suas belas trilhas e biodiversidade.</p>
+            <p>Cárpatos: Esta cadeia montanhosa estende-se pela Europa Central e Oriental, passando por países como
+                Romênia, Ucrânia, Polônia, Eslováquia e Hungria. São conhecidos pela sua grande variedade de flora e
+                fauna.</p>
+
+            <p>2. Planícies</p>
+            <p>Planície do Norte da Europa: Estende-se desde a França até a Rússia, passando por países como Alemanha,
+                Polônia e Dinamarca. Esta planície é caracterizada por terras férteis e é uma das regiões agrícolas mais
+                importantes da Europa.</p>
+            <p>Planície Húngara: Também conhecida como a Grande Planície Húngara, é uma vasta área plana na Hungria e
+                partes da Sérvia e Romênia, essencial para a agricultura e pecuária da região.</p>
+
+            <p>3. Rios Importantes</p>
+
+            <div class="w3-margin"><img id="imagem3" src="tt17f03.png" alt="Mapa da hidrografia do continente europeu - Duvid Geografia" class="w3-mobile" >
+		   
+                <span class="w3-small w3-margin-left" id="citacao3" > </span>
+                
+                </div>
+            <p>Reno: Um dos rios mais importantes da Europa, nasce nos Alpes suíços e flui através da Alemanha,
+                desembocando no Mar do Norte. O Reno é crucial para o transporte fluvial e comércio na Europa.</p>
+            <p>Danúbio: O segundo maior rio da Europa, atravessa 10 países, incluindo Alemanha, Áustria, Hungria, e
+                Romênia, antes de desaguar no Mar Negro. O Danúbio é vital para a navegação e a economia das regiões que
+                atravessa.</p>
+
+            <p>4. Climas Variados</p>
+
+
+            <div class="w3-margin"><img id="imagem4" src="tt17f04.png" alt="Mapa do clima do continente europeu - Duvid Geografia" class="w3-mobile" >
+		   
+                <span class="w3-small w3-margin-left" id="citacao4" >  </span>
+                
+                </div>
+            
+            
+            <p>Mediterrâneo: Encontrado nas regiões ao redor do Mar Mediterrâneo, como sul da Espanha, Itália, Grécia e
+                sul da França. Caracterizado por verões quentes e secos e invernos suaves e chuvosos.</p>
+            <p>Continental: Presente no interior da Europa, como na Alemanha, Polônia e Hungria. Caracteriza-se por
+                verões quentes e invernos frios, com grandes variações de temperatura entre as estações.</p>
+            <p>Oceânico: Prevalente nas áreas costeiras do noroeste da Europa, como Reino Unido, França e Noruega.
+                Caracterizado por um clima ameno, com pouca variação de temperatura entre as estações e chuvas
+                distribuídas ao longo do ano.</p>
+
+            <p>5. Diversidade de Ecossistemas</p>
+
+            <div class="w3-margin"><img id="imagem5" src="tt17f05.png" alt="Mapa da vegetação do continente europeu - Duvid Geografia" class="w3-mobile" >
+		  
+                <span class="w3-small w3-margin-left" id="citacao5" > </span>
+               </div>
+            <p>Florestas Temperadas: Como a Floresta Negra na Alemanha e as florestas da Escandinávia, ricas em
+                biodiversidade e importantes para o equilíbrio ambiental.</p>
+            <p>Zonas Árticas: Encontradas no extremo norte da Europa, como na Noruega, Suécia e Finlândia. Essas regiões
+                são caracterizadas por um clima muito frio e ecossistemas únicos, como tundras e florestas boreais.</p>
+
+            <p>A diversidade geográfica da Europa não só influencia a vida das pessoas e a economia dos países, mas
+                também molda a cultura e as tradições da região. Ao estudar essas características, podemos compreender
+                melhor os desafios e as oportunidades que cada região enfrenta, assim como a riqueza cultural que essa
+                diversidade geográfica proporciona.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+<div class="topico">
+
+
+            <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-padding">
+
+            <h2>Processo de Integração na Europa</h2>
+        
+            <p>A. Comunidade Europeia do Carvão e do Aço (CECA)</p>
+            <p>A Comunidade Europeia do Carvão e do Aço (CECA) foi criada em 1951 pelo Tratado de Paris, marcando o início do processo de integração europeia. Este foi o primeiro esforço para criar uma instituição supranacional na Europa, com o objetivo de promover a cooperação econômica entre os países europeus. A CECA focava na administração conjunta dos recursos de carvão e aço, que eram essenciais para a indústria e a reconstrução pós-Segunda Guerra Mundial. O objetivo principal era garantir que esses recursos fossem utilizados de forma eficiente e pacífica, eliminando a competição que poderia levar a novos conflitos. Os países fundadores da CECA foram França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo. A criação da CECA resultou na redução de rivalidades econômicas e políticas, servindo de modelo para futuras integrações europeias.</p>
+        
+            <p>B. Mercado Comum Europeu (MCE)</p>
+            <p>O Mercado Comum Europeu (MCE) foi estabelecido pelo Tratado de Roma em 1957, representando uma evolução da CECA para uma integração mais abrangente. O principal objetivo do MCE era criar um mercado comum que permitisse a livre circulação de bens, serviços, capital e pessoas entre os países membros. Isso foi feito para eliminar barreiras comerciais e promover uma economia mais integrada e competitiva. O impacto econômico do MCE foi significativo, com um aumento substancial no comércio intraeuropeu e um crescimento econômico notável. A criação do MCE também estimulou a cooperação política e social entre os países membros, gerando benefícios como maior eficiência econômica, redução de custos e preços para os consumidores.</p>
+        
+            <p>C. Tratado de Maastricht</p>
+            <p>O Tratado de Maastricht, assinado em 1992, foi um marco decisivo no processo de integração europeia. Seu principal objetivo era estabelecer a União Europeia (UE) e criar uma moeda única, o Euro. O tratado é sustentado por três pilares principais: a Política Externa e de Segurança Comum (PESC), a cooperação em assuntos de Justiça e Assuntos Internos (JAI), e a União Econômica e Monetária (UEM). A PESC visa coordenar a política externa e de defesa entre os países membros, enquanto a cooperação em JAI busca harmonizar as políticas de justiça e segurança. A UEM, por sua vez, promove a integração econômica e monetária, culminando na introdução do Euro como moeda única. O Tratado de Maastricht foi crucial para aprofundar a integração europeia e fortalecer a união entre os países membros, promovendo estabilidade econômica e política na região.</p>
+        
+            <h2>União Europeia (UE)</h2>
+        
+            <p>Estrutura e Funcionamento</p>
+            <p>A União Europeia (UE) é uma organização supranacional complexa e única, composta por várias instituições que desempenham funções específicas para garantir o funcionamento eficiente e democrático da união. Aqui estão as principais instituições da UE:</p>
+
+
+            <div class="w3-margin"><img id="imagem6" src="tt17f06.png" alt="Mapa dos membros da União Europeia por ano de ingresso - Duvid Geografia" class="w3-mobile" >
+		   
+                <span class="w3-small w3-margin-left" id="citacao6" >  </span>
+                
+                </div>
+        
+            <p>Parlamento Europeu: Este é o órgão legislativo diretamente eleito pelos cidadãos dos Estados-Membros. O Parlamento Europeu é responsável por aprovar leis, juntamente com o Conselho da União Europeia, e por supervisionar outras instituições da UE. Ele também adota o orçamento da UE.</p>
+        
+            <p>Comissão Europeia: A Comissão Europeia é o braço executivo da UE e é responsável por propor legislação, implementar decisões, manter os tratados e cuidar do dia-a-dia da União. É composta por um representante de cada país membro, conhecido como comissário.</p>
+        
+            <p>Conselho da União Europeia: Também conhecido como Conselho de Ministros, é composto por ministros de cada Estado-Membro, dependendo do assunto em discussão (por exemplo, agricultura, economia). Ele partilha o poder legislativo e orçamental com o Parlamento Europeu.</p>
+        
+            <p>Conselho Europeu: Composto pelos Chefes de Estado ou de Governo dos países membros, o Conselho Europeu define a orientação política geral e as prioridades da União. É liderado por um Presidente, eleito pelos seus membros.</p>
+        
+            <p>Tribunal de Justiça da União Europeia: Garante que a legislação da UE seja interpretada e aplicada da mesma forma em todos os Estados-Membros. Resolve disputas legais entre governos nacionais e instituições europeias e pode também, em algumas circunstâncias, ser acionado por indivíduos, empresas ou organizações.</p>
+        
+            <p>Banco Central Europeu (BCE): Responsável pela política monetária da Zona Euro, o BCE visa manter a estabilidade de preços e realizar políticas econômicas e monetárias na União.</p>
+        
+            <p>Principais Políticas da UE</p>
+        
+            <p>Política Agrícola Comum (PAC): Criada para apoiar os agricultores da UE, garantir um fornecimento estável de alimentos a preços acessíveis e promover o desenvolvimento rural. A PAC tem sido crucial para modernizar a agricultura europeia e assegurar a sustentabilidade ambiental.</p>
+        
+            <p>Política de Coesão: Visa reduzir as disparidades econômicas e sociais entre as regiões da UE. Financia projetos de infraestrutura, desenvolvimento urbano, educação, saúde e emprego, especialmente nas regiões menos desenvolvidas.</p>
+        
+            <p>Mercado Único: Permite a livre circulação de bens, serviços, pessoas e capitais entre os Estados-Membros. Visa criar um espaço sem fronteiras internas para aumentar a eficiência econômica e a competitividade global.</p>
+        
+            <p>Política de Concorrência: Garantir que a competição no mercado interno não seja distorcida. Inclui a regulamentação contra práticas empresariais como monopólios, cartéis e fusões que podem prejudicar a livre concorrência.</p>
+
+            </div>
+        
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        
+        </div>
+<div class="topico">
+
+            <div class="w3-panel w3-pale-green w3-leftbar w3-border-green w3-padding">
+
+            <h2>Definição de Organização Supranacional</h2>
+        
+            <p>Uma organização supranacional é uma entidade formada por vários países que concordam em delegar parte de sua soberania a esta entidade para alcançar objetivos comuns. Estas organizações têm autoridade para tomar decisões e impor leis aos seus membros. A União Europeia é um exemplo típico de uma organização supranacional porque seus Estados-Membros transferiram parte de sua soberania para instituições da UE, permitindo-lhes tomar decisões vinculativas sobre uma ampla gama de assuntos.</p>
+        
+            <h2>Vantagens e Desvantagens da Integração Supranacional</h2>
+        
+            <p>Vantagens:</p>
+        
+            <p>Paz e Estabilidade: A integração europeia ajudou a promover a paz e a estabilidade no continente, especialmente após as duas Guerras Mundiais. A cooperação e a interdependência econômica reduzem a probabilidade de conflitos.</p>
+            <p>Crescimento Econômico: O mercado único da UE criou uma área de comércio livre que impulsiona o crescimento econômico. As políticas comuns, como a PAC e os fundos de coesão, apoiam o desenvolvimento regional e setorial.</p>
+            <p>Influência Global: A UE, como bloco, tem mais peso nas negociações internacionais e pode influenciar decisões globais sobre comércio, meio ambiente e segurança.</p>
+        
+            <p>Desvantagens:</p>
+        
+            <p>Perda de Soberania: Os Estados-Membros cedem parte de sua autoridade nacional, o que pode ser visto como uma perda de controle sobre assuntos internos. Decisões importantes são tomadas em Bruxelas, longe dos eleitores locais.</p>
+            <p>Complexidade Burocrática: A estrutura da UE é complexa, com múltiplas instituições e procedimentos. Isso pode levar a uma tomada de decisão lenta e ineficaz.</p>
+            <p>Desafios Políticos: A diversidade de interesses e culturas entre os Estados-Membros pode levar a conflitos e dificuldades em alcançar consensos. Questões como migração e política fiscal são áreas onde a discordância pode ser significativa.</p>
+
+            </div>
+        
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        
+        </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+            </div>
+
+        </div>
+
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-bottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+</html>

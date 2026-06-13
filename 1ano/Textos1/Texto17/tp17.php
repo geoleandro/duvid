@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>1º ano - Texto 17 - Solos: formação, uso e conservação</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico">
+        <div class="w3-pale-yellow">
+            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+            
+            <h3>1. O que é o solo e quais são os elementos que o compõem?</h3>
+            <h3>2. Por que o solo é considerado essencial para a vida no planeta?</h3>
+            <h3>3. Explique o que é pedogênese e quais são os fatores que influenciam esse processo.</h3>
+            <h3>4. O que são os horizontes do solo e qual é a função de cada um?</h3>
+            <h3>5. Quais são as principais características do solo argiloso? Quais são suas vantagens e desvantagens?</h3>
+            <h3>6. Compare o solo arenoso e o solo orgânico em termos de retenção de água e fertilidade.</h3>
+            <h3>7. O que é lixiviação e como ela afeta o solo? Quais práticas podem minimizar esse problema?</h3>
+            <h3>8. Explique o processo de laterização e como ele influencia a produtividade do solo.</h3>
+            <h3>9. O que é desertificação e quais fatores contribuem para esse processo?</h3>
+            <h3>10. Por que a conservação do solo é considerada fundamental para o equilíbrio ambiental e a segurança alimentar?</h3>
+        </div>
+        
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+<div class="topico">
+
+        <h2>O que é o Solo?</h2>
+
+        <div class="w3-margin"><img id="imagem1" src="tp17f01.png" alt="tp17f01" class="w3-mobile" >
+                   
+            <span class="w3-small w3-margin-left" id="citacao1" > Fonte: Brasil Escola.</span>
+           
+           </div>
+    
+              
+    
+    
+        <p>O solo é a camada superficial da crosta terrestre, essencial para a vida no planeta. Ele é composto por uma mistura de materiais minerais, como areia, silte e argila, além de matéria orgânica em decomposição (húmus), água e ar. Essa camada é formada ao longo de milhares ou até milhões de anos, por meio de processos como o intemperismo, que fragmenta e altera as rochas originais, transformando-as em partículas menores que se combinam com resíduos orgânicos.</p>
+    
+        <p>O solo desempenha um papel vital na manutenção dos ecossistemas, funcionando como um reservatório de nutrientes essenciais para as plantas e um habitat para uma infinidade de organismos, como bactérias, fungos, minhocas e pequenos insetos. Ele também age como uma esponja, retendo água e contribuindo para o ciclo hidrológico, além de ser uma barreira protetora que previne a erosão e regula o clima ao armazenar carbono.</p>
+    
+        <p>Embora o solo seja um recurso natural renovável, sua formação é extremamente lenta. A criação de apenas 1 centímetro de solo fértil pode levar centenas de anos, dependendo das condições ambientais, como o tipo de rocha, o clima, a vegetação e a atividade biológica da região. Por isso, o uso sustentável e a conservação do solo são cruciais para garantir a segurança alimentar, o equilíbrio ambiental e a sobrevivência das gerações futuras.</p>
+    
+        <p>Além de sua importância ecológica, o solo também tem relevância econômica e cultural. Ele sustenta atividades humanas como a agricultura, a pecuária e a construção civil. Diferentes tipos de solos influenciam diretamente os tipos de vegetação e o modo de vida das populações que vivem em uma determinada área. Por exemplo, solos férteis favorecem o cultivo de alimentos, enquanto solos arenosos ou pedregosos podem dificultar a prática agrícola, exigindo técnicas específicas para sua utilização.</p>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+
+        <div class="w3-pale-green">
+
+        <h2>Pedogênese – O Processo de Formação do Solo</h2>
+
+        <div class="w3-margin"><img id="imagem2" src="tp17f02.png" alt="tp17f02" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2"> </span>
+        </div>
+           
+    
+        <p>A pedogênese é o conjunto de processos naturais que levam à formação e evolução do solo ao longo do tempo, a partir da interação de fatores como rocha matriz, clima, organismos vivos, relevo e tempo. Esse processo é lento e dinâmico, moldando o solo de acordo com as condições ambientais de cada região.</p>
+    
+        <p>O resultado da pedogênese é a criação de camadas horizontais distintas, conhecidas como horizontes do solo, que refletem as transformações químicas, físicas e biológicas ocorridas ao longo do tempo. Essas camadas são visíveis em perfis de solo e desempenham funções específicas:</p>
+    
+        <p><strong>Horizonte O:</strong> É a camada superficial mais rica em matéria orgânica, formada por folhas, galhos, restos de animais e outros materiais em decomposição, que se transformam em húmus. Essa camada é fundamental para a fertilidade do solo e sua capacidade de sustentar a vida vegetal.</p>
+    
+        <p><strong>Horizonte A:</strong> Localizado abaixo do horizonte O, este horizonte é uma mistura de minerais e matéria orgânica. Ele tem uma cor escura devido à presença de húmus e é a camada mais diretamente envolvida nos processos agrícolas, sendo conhecida como "solo arável".</p>
+    
+        <p><strong>Horizonte B:</strong> Situado abaixo do horizonte A, esta camada é formada principalmente por materiais minerais, como argila e óxidos de ferro e alumínio. É menos fértil do que os horizontes acima, mas desempenha um papel importante na retenção de água e nutrientes.</p>
+    
+        <p><strong>Horizonte C:</strong> É a camada mais profunda do perfil do solo e consiste na rocha matriz em estágio de decomposição. Esse horizonte fornece os minerais que influenciam as características químicas e físicas dos horizontes superiores.</p>
+    
+        <p><strong>Fatores que Influenciam a Pedogênese:</strong></p>
+        <ul>
+            <li><strong>Material de Origem (Rocha Matriz):</strong> A composição mineralógica da rocha influencia a textura, os nutrientes disponíveis e as características químicas do solo. Por exemplo, rochas graníticas podem originar solos arenosos, enquanto rochas basálticas geram solos argilosos mais férteis.</li>
+            <li><strong>Clima:</strong> A temperatura e a precipitação controlam o ritmo do intemperismo, que pode ser químico (em climas úmidos e quentes) ou físico (em climas secos e frios).</li>
+            <li><strong>Organismos:</strong> Plantas, animais e microorganismos contribuem para a decomposição da matéria orgânica e para a reciclagem de nutrientes no solo, além de ajudar na formação da estrutura do solo.</li>
+            <li><strong>Relevo:</strong> Influencia a movimentação da água e o acúmulo ou perda de materiais no solo. Áreas de encostas, por exemplo, podem ter solos mais rasos devido à erosão, enquanto áreas de planície tendem a acumular sedimentos e nutrientes.</li>
+            <li><strong>Tempo:</strong> A formação do solo é um processo lento. Solos jovens têm horizontes pouco desenvolvidos, enquanto solos antigos apresentam horizontes bem definidos e podem sofrer processos de degradação ao longo do tempo.</li>
+        </ul>
+    
+        <p><strong>Importância dos Horizontes do Solo:</strong> Os horizontes do solo são indicadores diretos de sua saúde, fertilidade e capacidade de sustentação de ecossistemas e atividades humanas. A compreensão desses horizontes permite o manejo mais sustentável do solo, prevenindo problemas como a compactação, a erosão e a perda de nutrientes.</p>
+    
+        <p>Esses processos pedogenéticos também explicam a diversidade de solos encontrados no planeta, desde os férteis solos argilosos das áreas tropicais até os solos arenosos de desertos e litorais. Cada tipo de solo, condicionado pelos horizontes e pelo ambiente, requer práticas específicas para ser preservado ou utilizado de forma sustentável.</p>
+
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+        <h2>Tipos de Solo</h2>
+
+        <div class="w3-margin"><img id="imagem3" src="tp17f03.png" alt="tp17f03" class="w3-mobile" >
+                   
+            <span class="w3-small w3-margin-left" id="citacao3" >  </span>
+            
+            </div>
+        
+    
+        <p>Os solos variam significativamente em sua composição, textura e fertilidade, influenciando diretamente sua capacidade de sustentar vegetação e atividades humanas. Três tipos principais de solo apresentam características distintas:</p>
+    
+        <h3>Solo Argiloso</h3>
+    
+        <p>O solo argiloso é caracterizado por partículas de tamanho muito pequeno, que se aglutinam facilmente, formando uma estrutura compacta.</p>
+    
+        <p><strong>Características:</strong></p>
+        <ul>
+            <li><strong>Alta retenção de água e nutrientes:</strong> Devido à sua textura fina, o solo argiloso armazena água e elementos essenciais, como cálcio, potássio e ferro, tornando-o fértil para a agricultura.</li>
+            <li><strong>Resistência à erosão:</strong> Sua estrutura densa dificulta o transporte de partículas pela ação do vento ou da água, reduzindo a perda de material superficial.</li>
+            <li><strong>Uso comum:</strong> É amplamente utilizado na fabricação de tijolos e cerâmicas devido à sua plasticidade quando úmido e à resistência quando seco.</li>
+        </ul>
+    
+        <p><strong>Desafios:</strong></p>
+        <ul>
+            <li>Quando muito compactado, pode dificultar a drenagem e a infiltração de água, prejudicando algumas culturas agrícolas.</li>
+        </ul>
+    
+        <h3>Solo Arenoso</h3>
+    
+        <p>O solo arenoso possui partículas grandes e pouco coesas, conferindo-lhe características muito específicas.</p>
+    
+        <p><strong>Características:</strong></p>
+        <ul>
+            <li><strong>Baixa retenção de água e nutrientes:</strong> Os poros grandes entre as partículas facilitam o escoamento da água, o que impede o armazenamento adequado de nutrientes.</li>
+            <li><strong>Alta permeabilidade:</strong> A água infiltra-se rapidamente, tornando-o menos propício para culturas que exigem alta disponibilidade hídrica.</li>
+        </ul>
+    
+        <p><strong>Uso comum:</strong></p>
+        <ul>
+            <li>Esse solo é encontrado em regiões litorâneas e semiáridas e pode ser utilizado para atividades como o cultivo de culturas adaptadas a solos secos ou para a construção de estradas e estruturas que necessitam de alta drenagem.</li>
+        </ul>
+    
+        <p><strong>Desafios:</strong></p>
+        <ul>
+            <li>Devido à falta de nutrientes e à baixa retenção de umidade, ele requer práticas de manejo específicas, como adubação e irrigação, para melhorar sua produtividade agrícola.</li>
+        </ul>
+    
+        <h3>Solo Orgânico</h3>
+    
+        <p>O solo orgânico é formado principalmente por matéria orgânica em decomposição, misturada com areia e argila, o que o torna altamente fértil.</p>
+    
+        <p><strong>Características:</strong></p>
+        <ul>
+            <li><strong>Riqueza em matéria orgânica:</strong> Compostos derivados da decomposição de restos de plantas e animais conferem alta fertilidade, ideal para a agricultura.</li>
+            <li><strong>Alta retenção de nutrientes:</strong> A matéria orgânica ajuda a manter os nutrientes disponíveis por mais tempo para as plantas.</li>
+            <li><strong>Textura única:</strong> Sua composição combina o melhor de solos argilosos e arenosos, equilibrando retenção de água e boa drenagem.</li>
+        </ul>
+    
+        <p><strong>Uso comum:</strong></p>
+        <ul>
+            <li>Amplamente utilizado em áreas agrícolas de alta produtividade e na recuperação de solos degradados.</li>
+        </ul>
+    
+        <p><strong>Desafios:</strong></p>
+        <ul>
+            <li>Esse tipo de solo pode estar sujeito à compactação e à decomposição rápida de matéria orgânica, especialmente em climas tropicais, o que exige cuidados constantes com práticas de manejo.</li>
+        </ul>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+<div class="topico">
+
+            <h2>Problemas nos Solos</h2>
+
+
+            <div class="w3-margin"><img id="imagem4" src="tp17f04.png" alt="tp17f04" class="w3-mobile" >
+                   
+                <span class="w3-small w3-margin-left" id="citacao4" >  </span>
+                
+                </div>
+        
+            <p><strong>Ravinação:</strong> A ravinação é um tipo de erosão que ocorre em áreas de encostas, quando a água da chuva escorre pela superfície do solo em maior quantidade do que consegue infiltrar. Esse processo provoca a formação de fissuras e sulcos pouco profundos, que se ampliam com o tempo. A falta de vegetação nesses locais agrava o problema, pois não há cobertura para proteger o solo.</p>
+        
+            <p><strong>Laterização:</strong> Esse processo ocorre devido à concentração excessiva de minerais como ferro e alumínio no solo, geralmente em regiões tropicais com clima quente e úmido. A laterização resulta na formação de uma camada endurecida (rocha ferruginosa), que reduz a capacidade do solo de reter água e impede o desenvolvimento de vegetação. Essa camada torna o solo menos produtivo para a agricultura.</p>
+        
+            <p><strong>Lixiviação:</strong> A lixiviação é o processo pelo qual os nutrientes presentes na camada superficial do solo são carregados para camadas mais profundas pela ação da água das chuvas. Esse problema é mais comum em regiões de alta pluviosidade e pode levar ao empobrecimento do solo. A prática do terraceamento, que consiste na criação de rampas niveladas em terrenos inclinados, ajuda a reduzir a velocidade do escoamento da água e minimizar a lixiviação.</p>
+        
+            <p><strong>Salinização:</strong> A salinização ocorre em climas áridos e semiáridos, onde há alta evaporação e pouca infiltração de água. Esse processo provoca o acúmulo de sais como sódio, potássio e magnésio no solo, tornando-o alcalino e menos adequado para o cultivo agrícola. Irrigação inadequada em solos mal drenados também pode intensificar a salinização.</p>
+        
+            <p><strong>Desertificação:</strong> A desertificação é o processo de degradação do solo em regiões de clima árido, semiárido e subúmido seco. Nessas áreas, a baixa pluviosidade (menos de 1400 mm anuais) combinada com altas taxas de evaporação supera a infiltração de água, levando ao empobrecimento do solo e à perda da vegetação. Esse problema pode ser agravado por atividades humanas como desmatamento, pastoreio excessivo e práticas agrícolas inadequadas.</p>
+        
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        
+        </div>
+
+<div class="topico">
+
+        <div class="w3-pale-red">
+
+        <h2>Uso e Conservação dos Solos</h2>
+
+        <div class="w3-margin"><img id="imagem5" src="tp17f05.png" alt="tp17f05" class="w3-mobile" >
+                  
+                        <span class="w3-small w3-margin-left" id="citacao5" >  </span>
+                   </div>
+
+    
+        <p>O uso inadequado dos solos, como desmatamento, monocultura e práticas agrícolas sem planejamento, resulta em sua degradação, perda de fertilidade e aumento da erosão. Para garantir a conservação dos solos e sua sustentabilidade, é essencial adotar práticas de manejo responsáveis:</p>
+    
+        <h3>Rotatividade de Culturas</h3>
+        <p>Consiste em alternar diferentes tipos de plantações ao longo do tempo, evitando o esgotamento dos nutrientes específicos do solo e reduzindo pragas e doenças.</p>
+    
+        <h3>Plantio Direto</h3>
+        <p>Técnica que mantém a cobertura do solo com restos de culturas anteriores, protegendo-o contra a erosão, melhorando sua estrutura e reduzindo a compactação.</p>
+    
+        <h3>Reflorestamento</h3>
+        <p>Replantio de árvores em áreas desmatadas para recuperar solos degradados, controlar a erosão e aumentar a retenção de água.</p>
+    
+        <h3>Terraceamento</h3>
+        <p>Construção de rampas ou degraus em terrenos inclinados para reduzir a velocidade do escoamento da água, prevenindo a lixiviação e erosão.</p>
+    
+        <p>Essas práticas são fundamentais para o uso sustentável do solo, garantindo sua produtividade e preservando-o para as futuras gerações.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+                <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+            </div>
+
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

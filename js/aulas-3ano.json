@@ -4,40 +4,109 @@
     "titulo": "A Geografia no período atual",
     "imagem": "fotoIndex/3ano/aula01.webp",
     "conteudo": "Globalização. Desigualdades socioespaciais; Divisão Internacional do trabalho.",
-    "linkTexto": "3ano/Textos3/Texto01/tt1.html?id=301",
-    "linkQuestoes": "questoes/modelo-questoes.html?id=301"
+    "objetivo": "Caracterizar o mundo atual. Identificar e entender as principais características da sociedade no capitalismo atual, a divisão internacional do trabalho e suas desigualdades socioespaciais e os processos que ocorrem no espaço geográfico.",
+    "audio": null,
+    "linkTexto": "3ano/Textos3/Texto01/tt1.php?id=301",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=301",
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "SantosEspacoCidadao",
+      "Vogler",
+      "Soja",
+      "Vesentini",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "BrasilEscolaMiltonSantos",
+      "BrasilEscolaDIT",
+      "DWPobreza",
+      "ACNURDeslocados",
+      "UNFome"
+    ]
   },
   {
     "id": 302,
     "titulo": "A população no mundo",
     "imagem": "fotoIndex/3ano/aula02.webp",
     "conteudo": "Conceito de demografia: taxas de mortalidade, natalidade e fecundidade. Transição demográfica. Estrutura etária. Teorias populacionais.",
-    "linkTexto": "3ano/Textos3/Texto02/tt2.html?id=302",
-    "linkQuestoes": "3ano/Aulas3/Aula02/t2.html"
+    "objetivo": "Entender e aplicar os principais conceitos da demografia: taxas de mortalidade, natalidade e fecundidade, transição demográfica, teorias demográficas e estrutura da população.",
+    "audio": null,
+    "linkTexto": "3ano/Textos3/Texto02/tt2.php?id=302",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=302",
+    "bibliografia": [
+      "Candelori",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "ONUPopulacaoMundial"
+    ]
   },
   {
     "id": 303,
     "titulo": "Migrações internacionais",
     "imagem": "fotoIndex/3ano/aula03.webp",
     "conteudo": "Tipos de movimentos populacionais: voluntário, forçado e controlado; Imigrantes; Refugiados; Xenofobia.",
-    "linkTexto": "3ano/Textos3/Texto03/tt3.html?id=303",
-    "linkQuestoes": "3ano/Aulas3/Aula03/t3.html"
+    "linkTexto": "3ano/Textos3/Texto03/tt3.php?id=303",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=303",
+    "objetivo": "Caracterizar e analisar os principais conceitos relativos aos fluxos de pessoas no mundo.",
+    "audio": null,
+    "bibliografia": [
+      "Candelori",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "ACNURDeslocados",
+      "ACNURVenezuela",
+      "ACNURAfricaRefugiados"
+    ]
   },
   {
     "id": 304,
     "titulo": "Os fatores do desenvolvimento",
     "imagem": "fotoIndex/3ano/aula04.webp",
     "conteudo": "População Economicamente Ativa (PEA); Setores econômicos; Fatores do desenvolvimento: educação, saúde e alimentação.",
-    "linkTexto": "3ano/Textos3/Texto04/tt4.html?id=304",
-    "linkQuestoes": "3ano/Aulas3/Aula04/t4.html"
+    "linkTexto": "3ano/Textos3/Texto04/tt4.php?id=304",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=304",
+    "objetivo": "Comparar dados sobre educação, saúde, moradia, poder de consumo e outros para entender os determinantes do desenvolvimento. Relacionar o desenvolvimento econômico com as diferentes situações de distribuição da população entre os três setores da economia.",
+    "audio": null,
+    "bibliografia": [
+      "Vogler",
+      "Skolnick",
+      "BNCC",
+      "Simielli"
+    ],
+    "links": [
+      "DWPobreza",
+      "UNFome",
+      "ONUPopulacaoMundial"
+    ]
   },
   {
     "id": 305,
     "titulo": "Como medir o desenvolvimento?",
     "imagem": "fotoIndex/3ano/aula05.webp",
     "conteudo": "Produto Interno Bruto (PIB); Índice de Desenvolvimento Humano (IDH); Índice de GINI.",
-    "linkTexto": "3ano/Textos3/Texto05/tt5.html?id=305",
-    "linkQuestoes": "3ano/Aulas3/Aula05/t5.html"
+    "linkTexto": "3ano/Textos3/Texto05/tt5.php?id=305",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=305",
+    "objetivo": "Citar e explicar as tentativas de medir o desenvolvimento, com destaque para o PIB, o IDH, o índice GINI e a desigualdade de acesso a elementos fundamentais.",
+    "audio": null,
+    "bibliografia": [
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "DWPobreza",
+      "IBGECidades",
+      "ONUPopulacaoMundial"
+    ]
   },
   {
     "id": 306,
@@ -45,49 +114,121 @@
     "imagem": "fotoIndex/3ano/aula06.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 01 a 05.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula06/t6.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=306",
+    "objetivo": null,
+    "audio": null
   },
- {
-  "id": 307,
-  "titulo": "Industrialização mundial I",
-  "imagem": "fotoIndex/3ano/aula07.webp",
-  "conteudo": "Meio natural; Meio técnico; Revolução Industrial; Divisão Internacional do Trabalho; Tipos de indústrias.",
-  "linkTexto": "3ano/Textos3/Texto07/tt7.html?id=307",
-  "linkQuestoes": "3ano/Aulas3/Aula07/t7.html",
-  "bibliografia": ["SantosPatricia", "SantosNatureza", "Vesentini", "Skolnick"],
-  "links": [ "NerdologiaRevolucaoIndustrial",  "NatGeoRevolucaoIndustrial",  "BrasilEscolaDIT",  "KardiaMeioTecnico"]
-},
+  {
+    "id": 307,
+    "titulo": "Industrialização mundial I",
+    "imagem": "fotoIndex/3ano/aula07.webp",
+    "conteudo": "Meio natural; Meio técnico; Revolução Industrial; Divisão Internacional do Trabalho; Tipos de indústrias.",
+    "linkTexto": "3ano/Textos3/Texto07/tt7.php?id=307",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=307",
+    "bibliografia": [
+      "SantosPatricia",
+      "SantosNatureza",
+      "Vesentini",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "NerdologiaRevolucaoIndustrial",
+      "NatGeoRevolucaoIndustrial",
+      "BrasilEscolaDIT",
+      "KardiaMeioTecnico"
+    ],
+    "objetivo": "Estudar a formação do meio técnico e identificar suas características fundamentais. Relacionar tais características ao processo de industrialização.",
+    "audio": null
+  },
   {
     "id": 308,
     "titulo": "Industrialização mundial II",
     "imagem": "fotoIndex/3ano/aula08.webp",
     "conteudo": "Globalização; Meio técnico-científico-informacional; Fordismo; Keynesianismo; Multinacionais.",
-    "linkTexto": "3ano/Textos3/Texto08/tt8.html?id=308",
-    "linkQuestoes": "3ano/Aulas3/Aula08/t8.html"
+    "linkTexto": "3ano/Textos3/Texto08/tt8.php?id=308",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=308",
+    "bibliografia": [
+      "SantosPatricia",
+      "SantosNatureza",
+      "Vesentini",
+      "Skolnick",
+      "BNCC",
+      "SantosGlobalizacao"
+    ],
+    "links": [
+      "NerdologiaRevolucaoIndustrial",
+      "NatGeoRevolucaoIndustrial",
+      "BrasilEscolaDIT",
+      "KardiaMeioTecnico"
+    ],
+    "objetivo": "Compreender a constituição do meio técnico-científico-informacional e sua relação com os processos industriais no período atual da globalização.",
+    "audio": null
   },
   {
     "id": 309,
     "titulo": "Industrialização mundial III",
     "imagem": "fotoIndex/3ano/aula09.webp",
     "conteudo": "Acumulação flexível; Concentração da atividade industrial; Neoliberalismo; Capitalismo monopolista.",
-    "linkTexto": "3ano/Textos3/Texto09/tt9.html?id=309",
-    "linkQuestoes": "3ano/Aulas3/Aula09/t9.html"
+    "linkTexto": "3ano/Textos3/Texto09/tt9.php?id=309",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=309",
+    "objetivo": "Compreender os novos processos no capitalismo global relacionadas as mudanças na lógica de produção industrial no atual período.",
+    "audio": null,
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "BrasilEscolaDIT",
+      "NatGeoRevolucaoIndustrial",
+      "BangladeshTextil"
+    ]
   },
   {
     "id": 310,
     "titulo": "Geopolítica e regionalização I",
     "imagem": "fotoIndex/3ano/aula10.webp",
     "conteudo": "Ordem Bipolar; Guerra Fria; Imperialismo; Regionalização; OTAN.",
-    "linkTexto": "3ano/Textos3/Texto10/tt10.html?id=310",
-    "linkQuestoes": "3ano/Aulas3/Aula10/t10.html"
+    "linkTexto": "3ano/Textos3/Texto10/tt10.php?id=310",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=310",
+    "objetivo": "Comparar e compreender as diferentes formas de regionalização do mundo ao longo das últimas décadas. Destacar a importância das mudanças políticas e econômicas na regionalização. Descrever brevemente as ordens mundiais, focando até o período da Guerra Fria e suas consequências.",
+    "audio": null,
+    "bibliografia": [
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "40MapasMundo",
+      "BBCMapaMundoReal",
+      "GallPetersBBC"
+    ]
   },
   {
     "id": 311,
     "titulo": "Geopolítica e regionalização II",
     "imagem": "fotoIndex/3ano/aula11.webp",
     "conteudo": "Nova Ordem Mundial; Blocos Econômicos; Nacionalismo; Novos conflitos Mundiais.",
-    "linkTexto": "3ano/Textos3/Texto11/tt11.html?id=311",
-    "linkQuestoes": "3ano/Aulas3/Aula11/t11.html"
+    "linkTexto": "3ano/Textos3/Texto11/tt11.php?id=311",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=311",
+    "objetivo": "Caracterizar a ordem mundial pós-Guerra Fria. Destacar as diferentes visões sobre a organização do poder político e econômico no espaço mundial na atualidade. Destacar a importância dos blocos econômicos nessa nova ordem, assim como entender os diferentes níveis de integração que caracterizam tais organizações.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "SantosGlobalizacao",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "40MapasMundo",
+      "AgenciaBrasilBRICS"
+    ]
   },
   {
     "id": 312,
@@ -95,55 +236,137 @@
     "imagem": "fotoIndex/3ano/aula12.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 07 a 11.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula12/t12.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=312",
+    "objetivo": null,
+    "audio": null
   },
   {
     "id": 313,
     "titulo": "Agropecuária mundial",
     "imagem": "fotoIndex/3ano/aula13.webp",
     "conteudo": "Práticas agrícolas; Condições socioterritoriais; Formas de acesso à terra; Técnicas e relações de trabalho; Sistemas agrícolas.",
-    "linkTexto": "3ano/Textos3/Texto13/tt13.html?id=313",
-    "linkQuestoes": "3ano/Aulas3/Aula13/t13.html"
+    "linkTexto": "3ano/Textos3/Texto13/tt13.php?id=313",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=313",
+    "objetivo": "Identificar e compreender as condições sociais e territoriais que determinam as práticas agrícolas, com destaque para as formas de acesso à terra e para as técnicas e relações de trabalho utilizadas. Descrever e comparar alguns exemplos de sistemas agrícolas existentes hoje no mundo.",
+    "audio": null,
+    "bibliografia": [
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "UNFome",
+      "AgenciaBrasilExportacoes",
+      "ONUAgua"
+    ]
   },
   {
     "id": 314,
     "titulo": "A urbanização mundial",
     "imagem": "fotoIndex/3ano/aula14.webp",
     "conteudo": "Urbanização; Metropolização; População urbana; Cidades globais; Megacidades; Êxodo rural.",
-    "linkTexto": "3ano/Textos3/Texto14/tt14.html?id=314",
-    "linkQuestoes": "3ano/Aulas3/Aula14/t14.html"
+    "linkTexto": "3ano/Textos3/Texto14/tt14.php?id=314",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=314",
+    "objetivo": "Compreender o processo de urbanização mundial e as transformações do espaço geográfico decorrente da dinâmica da população urbana no mundo.",
+    "audio": null,
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "Vesentini",
+      "BNCC"
+    ],
+    "links": [
+      "ONUPopulacaoMundial",
+      "AgenciaBrasilUrbanizacao",
+      "AgenciaBrasilMetropoles"
+    ]
   },
   {
     "id": 315,
     "titulo": "As redes do espaço geográfico",
     "imagem": "fotoIndex/3ano/aula15.webp",
     "conteudo": "Fluxos internacionais: pessoas, informações, dinheiro e mercadorias; Empresas Multinacionais; Tecnologias da informação.",
-    "linkTexto": "3ano/Textos3/Texto15/tt15.html?id=315",
-    "linkQuestoes": "3ano/Aulas3/Aula15/t15.html"
+    "linkTexto": "3ano/Textos3/Texto15/tt15.php?id=315",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=315",
+    "objetivo": "Entender as relações entre os principais fluxos na era da globalização e seu papel na dinâmica do espaço geográfico atual. Identificar diferentes tipos de redes pelo mundo.",
+    "audio": null,
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "SantosNatureza",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "BrasilEscolaMiltonSantos",
+      "KardiaMeioTecnico",
+      "40MapasMundo"
+    ]
   },
   {
     "id": 316,
     "titulo": "Comércio multilateral",
     "imagem": "fotoIndex/3ano/aula16.webp",
     "conteudo": "Blocos comerciais; Organização Mundial do Comércio (OMC); Balança Comercial; Exportações e importações.",
-    "linkTexto": "3ano/Textos3/Texto16/tt16.html?id=316",
-    "linkQuestoes": "3ano/Aulas3/Aula16/t16.html"
+    "linkTexto": "3ano/Textos3/Texto16/tt16.php?id=316",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=316",
+    "objetivo": "Relacionar as mudanças no comércio internacional no atual período da globalização.",
+    "audio": null,
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "AgenciaBrasilBRICS",
+      "AgenciaBrasilExportacoes",
+      "ChinaBrasil"
+    ]
   },
   {
     "id": 317,
     "titulo": "União Europeia I",
     "imagem": "fotoIndex/3ano/aula17.webp",
     "conteudo": "Características geográficas da Europa; Processo de integração: CECA, MCE, UE; Tratado de Maastricht.",
-    "linkTexto": "3ano/Textos3/Texto17/tt17.html?id=317",
-    "linkQuestoes": "3ano/Aulas3/Aula17/t17.html"
+    "linkTexto": "3ano/Textos3/Texto17/tt17.php?id=317",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=317",
+    "objetivo": "Entender o processo de integração que resultou na União Europeia. Destacar a importância da CECA, do MCE e da UE e dos Tratados de Roma e Maastrich. Discutir a noção de organização supranacional.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "AgenciaBrasilBRICS",
+      "40MapasMundo"
+    ]
   },
   {
     "id": 318,
     "titulo": "União Europeia II",
     "imagem": "fotoIndex/3ano/aula18.webp",
     "conteudo": "Crise econômica; Conflitos separatistas (Bascos, Catalunha, Irlanda do Norte); Brexit; Imigração e Xenofobia.",
-    "linkTexto": "3ano/Textos3/Texto18/tt18.html?id=318",
-    "linkQuestoes": "3ano/Aulas3/Aula18/t18.html"
+    "linkTexto": "3ano/Textos3/Texto18/tt18.php?id=318",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=318",
+    "objetivo": "Identificar e compreender os principais conflitos na Europa atualmente.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "AgenciaBrasilBRICS",
+      "40MapasMundo"
+    ]
   },
   {
     "id": 319,
@@ -151,41 +374,98 @@
     "imagem": "fotoIndex/3ano/aula19.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 13 a 18.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula19/t19.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=319",
+    "objetivo": null,
+    "audio": null
   },
   {
     "id": 320,
     "titulo": "América do Norte: Estados Unidos",
     "imagem": "fotoIndex/3ano/aula20.webp",
     "conteudo": "Agricultura; Poder militar; Industrialização; Imigração; Geopolítica norte-americana.",
-    "linkTexto": "3ano/Textos3/Texto20/tt20.html?id=320",
-    "linkQuestoes": "3ano/Aulas3/Aula20/t20.html"
+    "linkTexto": "3ano/Textos3/Texto20/tt20.php?id=320",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=320",
+    "objetivo": "Entender a posição de poder dos EUA em escala global após o fim da Guerra Fria. Identificar as principais regiões agrícolas e industriais dos EUA.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "40MapasMundo",
+      "BBCMapaMundoReal"
+    ]
   },
   {
     "id": 321,
     "titulo": "América do Norte: Canadá e México",
     "imagem": "fotoIndex/3ano/aula21.webp",
     "conteudo": "USMCA (antigo NAFTA); Canadá e o multiculturalismo; México: questão indígena e fronteiras.",
-    "linkTexto": "3ano/Textos3/Texto21/tt21.html?id=321",
-    "linkQuestoes": "3ano/Aulas3/Aula21/t21.html"
+    "linkTexto": "3ano/Textos3/Texto21/tt21.php?id=321",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=321",
+    "objetivo": "Relacionar o bloco econômico USMCA (antigo NAFTA) e sua relação entre Canadá, EUA e México. Identificar aspectos físicos e humanos do Canadá e México. Caracterizar a questão do Quebec e a influência da questão indígena na política mexicana.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "40MapasMundo",
+      "UNODCNarcotrafico"
+    ]
   },
   {
     "id": 322,
     "titulo": "Américas Central e do Sul",
     "imagem": "fotoIndex/3ano/aula22.webp",
     "conteudo": "Aspectos gerais; Países Andinos; Economia; Mercosul; Embargo a Cuba.",
-    "linkTexto": "3ano/Textos3/Texto22/tt22.html?id=322",
-    "linkQuestoes": "3ano/Aulas3/Aula22/t22.html"
+    "linkTexto": "3ano/Textos3/Texto22/tt22.php?id=322",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=322",
+    "objetivo": "Relacionar o bloco econômico USMCA (antigo NAFTA) e sua relação entre Canadá, EUA e México. Identificar aspectos físicos e humanos do Canadá e México. Caracterizar a questão do Quebec e a influência da questão indígena na política mexicana.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "BBCGuerrilhas",
+      "UNODCNarcotrafico",
+      "ACNURVenezuela",
+      "CNNBrasilCuba"
+    ]
   },
   {
     "id": 323,
     "titulo": "Conflitos e política na América",
     "imagem": "fotoIndex/3ano/aula23.webp",
     "conteudo": "Guerrilhas; Narcotráfico; Situação política na Venezuela, Cuba e Bolívia.",
-    "linkTexto": "3ano/Textos3/Texto23/tt23.html?id=323",
-    "linkQuestoes": "3ano/Aulas3/Aula23/t23.html",
-    "bibliografia": ["SantosGlobalizacao", "Vesentini", "BNCC"],
-    "links": ["BBCGuerrilhas", "UNODCNarcotrafico", "ACNURVenezuela", "CNNBrasilCuba"]
+    "linkTexto": "3ano/Textos3/Texto23/tt23.php?id=323",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=323",
+    "bibliografia": [
+      "SantosGlobalizacao",
+      "Vesentini",
+      "BNCC",
+      "Saviani",
+      "Gasparin",
+      "Sader"
+    ],
+    "links": [
+      "BBCGuerrilhas",
+      "UNODCNarcotrafico",
+      "ACNURVenezuela",
+      "CNNBrasilCuba"
+    ],
+    "objetivo": "Compreender a relação entre guerrilhas e narcotráfico na América Latina. Identificar as principais crises políticas em Cuba, Venezuela e Bolívia, analisando seus contextos históricos e suas consequências sociais.",
+    "audio": null
   },
   {
     "id": 324,
@@ -193,47 +473,131 @@
     "imagem": "fotoIndex/3ano/aula24.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 20 a 23.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula24/t24.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=324",
+    "objetivo": null,
+    "audio": null
   },
   {
     "id": 325,
     "titulo": "África I - Diversidade natural",
     "imagem": "fotoIndex/3ano/aula25.webp",
     "conteudo": "Clima; Vegetação; Relevo; Hidrografia; Principais problemas ambientais do continente.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula25/t25.html"
+    "linkTexto": "3ano/Textos3/Texto25/tt25.php?id=325",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=325",
+    "objetivo": "Conhecer a diversidade natural do continente africano: relevo (Rift Valley, planaltos, Saara), clima e vegetação (simetria equatorial, savana, Sahel, floresta do Congo), hidrografia (Nilo, Congo, Niger, Zambeze) e principais problemas ambientais (desertificação, desmatamento, injustiça climática). Compreender que os problemas ambientais africanos têm causas históricas ligadas à exploração colonial dos recursos naturais.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC",
+      "Maathai",
+      "Saviani",
+      "Gasparin"
+    ],
+    "links": [
+      "UNEPAfrica",
+      "GrandeMusalhVerde"
+    ]
   },
   {
     "id": 326,
     "titulo": "África II - Panorama atual",
     "imagem": "fotoIndex/3ano/aula26.webp",
     "conteudo": "Colonização e independência; Reservas minerais; Economia e Agricultura; Blocos econômicos africanos.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula26/t26.html"
+    "linkTexto": "3ano/Textos3/Texto26/tt26.php?id=326",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=326",
+    "objetivo": "Compreender o processo de colonização e descolonização da África e suas consequências no presente. Analisar criticamente a riqueza mineral africana e o fenômeno da maldição dos recursos. Conhecer a estrutura econômica e agrícola do continente e os projetos de integração regional, como a União Africana e a AfCFTA.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC",
+      "Rodney",
+      "Maathai",
+      "Saviani",
+      "Gasparin"
+    ],
+    "links": [
+      "BBCDiamantesSangue",
+      "AgenciaBrasilAfCFTA"
+    ]
   },
   {
     "id": 327,
     "titulo": "África III - Conflitos",
     "imagem": "fotoIndex/3ano/aula27.webp",
     "conteudo": "Apartheid; Guerras Civis; Genocídios; Crise de refugiados; Terrorismo na África.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula27/t27.html"
+    "linkTexto": "3ano/Textos3/Texto27/tt27.php?id=327",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=327",
+    "objetivo": "Compreender as causas históricas e estruturais dos principais conflitos africanos: apartheid, genocídio de Ruanda, guerras civis ligadas a recursos naturais, crise de refugiados e surgimento de grupos terroristas como Boko Haram e Al-Shabaab. Relacionar esses conflitos ao legado colonial e ao conceito de estado falido.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC",
+      "Mamdani",
+      "Rodney",
+      "Maathai",
+      "Saviani",
+      "Gasparin"
+    ],
+    "links": [
+      "ACNURAfricaRefugiados",
+      "BBCRuanda"
+    ]
   },
   {
     "id": 328,
     "titulo": "Conflitos no Oriente Médio",
     "imagem": "fotoIndex/3ano/aula28.webp",
     "conteudo": "Diversidade cultural; Importância do petróleo; Questão palestina e libanesa.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula28/t28.html"
+    "linkTexto": "3ano/Textos3/Texto28/tt28.php?id=328",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=328",
+    "objetivo": "Compreender a diversidade cultural, étnica e religiosa do Oriente Médio. Analisar o papel do petróleo na geopolítica regional e nas intervenções militares estrangeiras. Entender as origens históricas e o desenvolvimento da questão palestina (Declaração Balfour, Nakba, ocupação desde 1967). Conhecer o caso libanês como exemplo de fragilidade política em contexto de diversidade religiosa.",
+    "audio": null,
+    "bibliografia": [
+      "Boniface",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC",
+      "Said",
+      "Saviani",
+      "Gasparin"
+    ],
+    "links": [
+      "ACNURPalestina",
+      "BBCOrienteMedio"
+    ]
   },
   {
     "id": 329,
     "titulo": "Golfo Pérsico e Turquia",
     "imagem": "fotoIndex/3ano/aula29.webp",
     "conteudo": "Irã; Iraque; A questão dos Curdos; Turquia e conflitos estratégicos no Golfo.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula29/t29.html"
+    "linkTexto": "3ano/Textos3/Texto29/tt29.php?id=329",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=329",
+    "objetivo": "Compreender a geopolitica do Golfo Pérsico, o autoritarismo rentista das monarquias do petróleo, a guerra do Iêmen e a posição estratégica da Turquia entre a Europa e o Oriente Médio.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "Said",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "GolfoIemen",
+      "TurquiaCurdos"
+    ]
   },
   {
     "id": 330,
@@ -241,47 +605,124 @@
     "imagem": "fotoIndex/3ano/aula30.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 25 a 29.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula30/t30.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=330",
+    "objetivo": null,
+    "audio": null
   },
   {
     "id": 331,
     "titulo": "Subcontinente indiano",
     "imagem": "fotoIndex/3ano/aula31.webp",
     "conteudo": "Afeganistão; Guerras; Índia e sua diversidade étnica; Intervenções estrangeiras na Ásia Central.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula31/t31.html"
+    "linkTexto": "3ano/Textos3/Texto31/tt31.php?id=331",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=331",
+    "objetivo": "Analisar a diversidade do subcontinente indiano, o sistema de castas, a Partição de 1947, o conflito Índia-Paquistão e as contradições do desenvolvimento indiano.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "DrezeSen",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "IndiaCastas",
+      "BangladeshTextil"
+    ]
   },
   {
     "id": 332,
     "titulo": "Rússia - Características gerais",
     "imagem": "fotoIndex/3ano/aula32.webp",
     "conteudo": "Federação Russa: aspectos físicos, impactos do fim da URSS e conflitos no Cáucaso.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula32/t32.html"
+    "linkTexto": "3ano/Textos3/Texto32/tt32.php?id=332",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=332",
+    "objetivo": "Compreender o território russo, seus recursos naturais, a dissolução da URSS, o modelo político de Putin e as consequências globais da guerra na Ucrânia.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "Mearsheimer",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "RussiaUcrania",
+      "RussiaPermafrost"
+    ]
   },
   {
     "id": 333,
     "titulo": "O dinamismo da China",
     "imagem": "fotoIndex/3ano/aula33.webp",
     "conteudo": "Modelo político-econômico; Hidrografia; Poder militar; O socialismo chinês no século XXI.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula33/t33.html"
+    "linkTexto": "3ano/Textos3/Texto33/tt33.php?id=333",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=333",
+    "objetivo": "Analisar o modelo de desenvolvimento chinês (capitalismo de Estado), a Nova Rota da Seda, a relação Brasil-China e a ascensão da China como potência tecnológica e geopolítica.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "Chang",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "ChinaNovaRota",
+      "ChinaBrasil"
+    ]
   },
   {
     "id": 334,
     "titulo": "Conflitos internos na China",
     "imagem": "fotoIndex/3ano/aula34.webp",
     "conteudo": "Tibete e Xinjiang; Relações com Taiwan e Hong Kong; Mar do Sul da China; Questão Norte-Coreana.",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula34/t34.html"
+    "linkTexto": "3ano/Textos3/Texto34/tt34.php?id=334",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=334",
+    "objetivo": "Compreender os conflitos internos da China: a situação dos uigures em Xinjiang, o Tibet, a perda de autonomia de Hong Kong e a questão de Taiwan no contexto da rivalidade sino-americana.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "HRW",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "ChinaXinjiang",
+      "HongKongLei"
+    ]
   },
   {
     "id": 335,
     "titulo": "Japão, Tigres e Oceania",
     "imagem": "fotoIndex/3ano/aula35.webp",
-    "conteudo": "Reconstrução do Japão; Novos Tigres Asiáticos; Oceania (Austrália e Nova Zelândia).",
-    "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula35/t35.html"
+    "conteudo": "Japão: industrialização e modelo econômico. Tigres Asiáticos: Coreia do Sul, Taiwan, Cingapura e Hong Kong. Oceania: Austrália e Nova Zelândia.",
+    "linkTexto": "3ano/Textos3/Texto35/tt35.php?id=335",
+    "linkQuestoes": "questoes/modelo-questoes.php?id=335",
+    "objetivo": "Analisar o desenvolvimento econômico do Japão e dos Tigres Asiáticos, o modelo de Estado desenvolvimentista, e a vulnerabilidade dos pequenos países insulares da Oceania diante das mudanças climáticas.",
+    "audio": null,
+    "bibliografia": [
+      "Saviani",
+      "Gasparin",
+      "Chang",
+      "Vesentini",
+      "Vogler",
+      "Skolnick",
+      "BNCC"
+    ],
+    "links": [
+      "JapaoTigres",
+      "OceaniaClima"
+    ]
   },
   {
     "id": 336,
@@ -289,6 +730,8 @@
     "imagem": "fotoIndex/3ano/aula36.webp",
     "conteudo": "Revisão dos conteúdos abordados nas aulas 31 a 35.",
     "linkTexto": null,
-    "linkQuestoes": "3ano/Aulas3/Aula36/t36.html"
+    "linkQuestoes": "questoes/modelo-questoes.php?id=336",
+    "objetivo": null,
+    "audio": null
   }
 ]

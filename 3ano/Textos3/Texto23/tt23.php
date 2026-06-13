@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Guerrilhas, narcotráfico e crises políticas na América Latina: Venezuela, Cuba e Bolívia">
+    <meta property="og:title" content="Texto 23 - Conflitos e política na América">
+    <meta property="og:description" content="Por que surgem guerrilhas? O que alimenta o narcotráfico? O que aconteceu com Venezuela, Cuba e Bolívia?">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+
+    <title>3º ano - Texto 23 - Conflitos e política na América</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 0: ABERTURA -->
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="audiott23.mp3" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: PRÁTICA SOCIAL INICIAL -->
+        <div class="topico">
+
+            <h2>Antes de começar: o que você já sabe?</h2>
+
+            <p><span class="primeiraLetra">V</span>ocê já viu no jornal ou nas redes sociais alguma notícia sobre tráfico de drogas, guerrilha ou crise política em algum país da América Latina? Talvez tenha ouvido falar de venezuelanos que chegaram ao Brasil fugindo de crise, ou de colombianos atingidos pela violência do narcotráfico.</p>
+
+            <p>Pense nestas perguntas antes de começar:</p>
+
+            <ul>
+                <li>Você conhece ou já ouviu falar de alguém que veio da Venezuela, Colômbia ou Cuba para o Brasil? Por que essas pessoas saíram de seus países?</li>
+                <li>Quando você vê notícia sobre "guerrilha" ou "narcotráfico", o que passa pela sua cabeça? Você acha que são problemas de mau caráter das pessoas envolvidas, ou tem alguma explicação mais profunda?</li>
+                <li>Por que você acha que países tão ricos em petróleo (Venezuela) ou em recursos naturais (Bolívia) ainda têm tanta pobreza?</li>
+            </ul>
+
+            <p>Guarde suas respostas. No final desta aula, você vai ver que tem muito mais a dizer do que imaginava.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: PROBLEMATIZAÇÃO -->
+        <div class="topico">
+
+            <h2>O problema que esta aula vai iluminar</h2>
+
+            <p><span class="primeiraLetra">P</span>or que jovens entram para guerrilhas ou para o tráfico em países como Colômbia, Peru e México? Por que a Venezuela, dona das maiores reservas de petróleo do mundo, virou o país de onde mais pessoas fogem na América Latina? E por que Cuba, que resistiu por mais de 60 anos ao bloqueio norte-americano, ainda divide tanto as opiniões no mundo?</p>
+
+            <p>Esses não são problemas de má sorte ou de mau caráter: são resultado de estruturas históricas de desigualdade, dependência econômica e interferência de potências externas. Esta aula vai ajudá-lo a enxergar essas raízes.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: GUERRILHAS NA AMÉRICA LATINA -->
+        <div class="topico">
+
+            <div class="w3-pale-green">
+            <h2>Guerrilhas na América Latina</h2>
+
+            <p><span class="primeiraLetra">O</span> termo <span class="termo" data-palavra="Guerrilha" data-definicao="Forma de combate irregular praticada por grupos armados que atuam fora das estruturas militares convencionais do Estado. O nome vem do espanhol 'guerra pequena'. Na América Latina, as guerrilhas tiveram seu auge nas décadas de 1960-1980, fortemente influenciadas pela Revolução Cubana de 1959 e pelo contexto da Guerra Fria.">guerrilha</span> designa uma forma de combate irregular praticada por grupos armados que atuam fora das estruturas militares convencionais do Estado. Na América Latina, os movimentos guerrilheiros tiveram seu auge nas décadas de 1960, 1970 e 1980, fortemente influenciados pela Revolução Cubana de 1959 e pelo contexto da Guerra Fria, quando Estados Unidos e União Soviética disputavam influência ideológica e geopolítica no continente.</p>
+
+            <p>Entre os principais grupos guerrilheiros da história latino-americana:</p>
+
+            <ul>
+                <li><strong>FARC (Forças Armadas Revolucionárias da Colômbia):</strong> fundada em 1964, foi o maior grupo guerrilheiro do hemisfério ocidental. Atuou por décadas financiada, em grande parte, pelo narcotráfico. Em 2016, assinou um acordo de paz com o governo colombiano, embora dissidências continuem ativas.</li>
+                <li><strong>ELN (Exército de Libertação Nacional, Colômbia):</strong> de inspiração marxista e influência da teologia da libertação, permanece ativo até os dias atuais e mantém negociações intermitentes com o Estado.</li>
+                <li><strong>Sendero Luminoso (Peru):</strong> grupo maoísta surgido nos anos 1980, responsável por grave violência contra populações civis. Foi parcialmente desarticulado após a prisão de seu líder, Abimael Guzmán, em 1992.</li>
+                <li><strong>Tupamaros (Uruguai):</strong> movimento urbano dos anos 1960-1970, derrotado militarmente, mas cujos integrantes mais tarde participaram da vida política democrática do país.</li>
+            </ul>
+
+            <p>A maioria dos movimentos guerrilheiros surgiu em contextos de extrema desigualdade social, ausência de representação política e repressão de regimes autoritários. Com o fim das ditaduras e a redemocratização da região nos anos 1980-1990, muitos grupos se desmobilizaram ou se transformaram em partidos políticos.</p>
+
+            </div>
+
+            <div class="w3-margin w3-margin-top">
+                <img src="tt23f01.png" alt="Mapa dos principais movimentos guerrilheiros na América Latina e suas áreas de atuação histórica"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f5e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Mapa das guerrilhas latino-americanas em breve</div>'">
+                <span class="w3-small w3-margin-left">Principais movimentos guerrilheiros na América Latina (séc. XX). Fonte: elaboração própria.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: NARCOTRÁFICO -->
+        <div class="topico">
+
+            <h2>Narcotráfico</h2>
+
+            <p><span class="primeiraLetra">O</span> narcotráfico constitui um dos maiores desafios para os Estados latino-americanos. A produção e o comércio ilegal de drogas, sobretudo a cocaína derivada da folha de coca, estão profundamente enraizados na geografia, na economia e na política da região andina.</p>
+
+            <p>A Colômbia, o Peru e a Bolívia concentram a maior parte da produção mundial de coca. O chamado <span class="termo" data-palavra="Triângulo Andino" data-definicao="Região formada por Colômbia, Peru e Bolívia, responsável por quase toda a produção mundial de folha de coca e cocaína. O clima dos Andes, a pobreza rural e a falta de alternativas econômicas para pequenos agricultores explicam por que o cultivo da coca persiste mesmo sob forte pressão dos governos e dos Estados Unidos.">Triângulo Andino</span> é a principal zona produtora, de onde a droga é exportada para os mercados da América do Norte, Europa e outras regiões. O México tornou-se o principal corredor de escoamento para os Estados Unidos, com cartéis extremamente poderosos que rivalizam com o próprio Estado.</p>
+
+            <p>A relação entre narcotráfico e guerrilha é histórica: grupos como as FARC utilizaram a taxação do tráfico de drogas como forma de financiamento, prática conhecida como <span class="termo" data-palavra="Narcoguerrilha" data-definicao="Prática em que grupos armados irregulares (guerrilhas) se financiam por meio da taxação, proteção ou controle direto do comércio de drogas ilegais. As FARC colombianas são o exemplo mais estudado: cobravam pedágio dos produtores de coca em áreas sob seu controle, o que garantia recursos para manter a guerrilha ativa por décadas.">narcoguerrilha</span>. Em contrapartida, os cartéis também passaram a atuar politicamente, corrompendo funcionários e intimidando a sociedade civil.</p>
+
+            <p>As consequências do narcotráfico são múltiplas: violência urbana e rural, enfraquecimento das instituições democráticas, deslocamento forçado de populações, impactos ambientais pelo desmatamento associado às plantações ilegais e a manutenção de ciclos de pobreza em comunidades dependentes do cultivo ilícito.</p>
+
+            <div class="w3-margin w3-margin-top">
+                <img src="tt23f02.png" alt="Infográfico mostrando as rotas do narcotráfico da América Latina para os mercados consumidores"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Mapa das rotas do narcotráfico em breve</div>'">
+                <span class="w3-small w3-margin-left">Rotas do narcotráfico latino-americano. Fonte: UNODC, Relatório Mundial sobre Drogas, 2023.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 6: QUESTÃO PRÁTICA 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>As FARC utilizaram o narcotráfico como principal fonte de financiamento por décadas. Essa prática recebe o nome de:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>Narcopolítica eleitoral</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>Narcoguerrilha</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>Narcoestado governamental</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Narcoguerrilha: grupos armados taxam o tráfico. No narcoestado é diferente: o próprio governo controla o tráfico.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 7: VENEZUELA, CUBA E BOLÍVIA -->
+        <div class="topico">
+
+            <div class="w3-pale-blue">
+            <h2>Venezuela, Cuba e Bolívia: três trajetórias políticas</h2>
+
+            <h3>Venezuela</h3>
+
+            <p><span class="primeiraLetra">A</span> Venezuela possui as maiores reservas de petróleo do mundo, o que durante décadas sustentou programas sociais e garantiu relativa estabilidade econômica. No entanto, a dependência excessiva do petróleo tornou o país extremamente vulnerável às oscilações do mercado internacional.</p>
+
+            <p>Com a chegada de Hugo Chávez ao poder em 1999, a Venezuela adotou o modelo do chamado <span class="termo" data-palavra="Socialismo do Século XXI" data-definicao="Modelo político-econômico proposto por Hugo Chávez que propõe superar o capitalismo por meios democráticos e eleitorais, distinto do socialismo soviético tradicional. Na prática, envolveu forte intervenção estatal, nacionalizações, programas sociais (as 'missões') financiados pelo petróleo e retórica antiimperialista. Críticos apontam o autoritarismo crescente e a insustentabilidade do modelo quando os preços do petróleo caíram.">socialismo do século XXI</span>, com ampla intervenção estatal na economia, nacionalização de empresas e redistribuição de renda por meio de programas sociais. A morte de Chávez em 2013 e a queda dos preços do petróleo a partir de 2014 aprofundaram a crise sob Nicolás Maduro.</p>
+
+            <p>Desde então, a Venezuela enfrenta hiperinflação, escassez de alimentos e medicamentos, e uma crise migratória com mais de 7 milhões de venezuelanos que deixaram o país até meados dos anos 2020.</p>
+
+            <h3>Cuba</h3>
+
+            <p>Cuba é o único país do continente americano com regime de partido único desde a Revolução de 1959, liderada por Fidel Castro. A ilha tornou-se símbolo da resistência ao imperialismo norte-americano durante a Guerra Fria e influenciou diretamente o surgimento de guerrilhas em toda a América Latina.</p>
+
+            <p>O regime cubano é reconhecido por conquistas em educação e saúde, mas também criticado pela restrição às liberdades civis e políticas. O <span class="termo" data-palavra="Embargo Econômico" data-definicao="Bloqueio econômico imposto pelos Estados Unidos a Cuba desde 1962, que proíbe empresas norte-americanas e de países aliados de comerciar com a ilha. É um dos embargos mais longos da história moderna e contribui, segundo o governo cubano e organismos internacionais, para as dificuldades econômicas da população. A ONU vota anualmente pela suspensão do embargo, sempre com aprovação esmagadora.">embargo econômico</span> norte-americano, vigente desde 1962, contribuiu para o isolamento da ilha e para as dificuldades econômicas da população.</p>
+
+            <p>Após a morte de Fidel Castro em 2016 e a transição para Miguel Díaz-Canel em 2018, Cuba enfrenta novos desafios: escassez, apagões, êxodo e protestos populares inéditos, como os de julho de 2021.</p>
+
+            <h3>Bolívia</h3>
+
+            <p>A Bolívia tem maioria de população indígena, e essa característica teve papel central na ascensão de Evo Morales, que em 2006 tornou-se o primeiro presidente indígena da história boliviana, eleito pelo <span class="termo" data-palavra="MAS (Movimento ao Socialismo)" data-definicao="Partido político boliviano fundado em 1995 por movimentos sociais, principalmente os cocaleiros (agricultores de coca). O MAS é o maior partido da esquerda boliviana. Sob Evo Morales (2006-2019) e Luis Arce (2020-), promoveu a nacionalização do gás natural, redução da pobreza e reconhecimento dos direitos indígenas na Constituição de 2009.">MAS (Movimento ao Socialismo)</span>. Seu governo promoveu a nacionalização do setor de hidrocarbonetos e implementou políticas que reduziram significativamente a pobreza no país.</p>
+
+            <p>Em 2019, após eleição disputada e acusações de fraude, Morales renunciou sob pressão militar e deixou o país. Para uns, foi um golpe de Estado; para outros, resposta a irregularidades eleitorais. Luis Arce, também do MAS, venceu as eleições de 2020 e retomou o governo, consolidando o retorno da esquerda ao poder.</p>
+
+            </div>
+
+            <div class="w3-margin w3-margin-top">
+                <img src="tt23f03.png" alt="Mapa político da América do Sul destacando Venezuela, Cuba e Bolívia com indicadores de crise"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e3f2fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Mapa político da América Latina em breve</div>'">
+                <span class="w3-small w3-margin-left">Venezuela, Cuba e Bolívia: trajetórias políticas do século XXI. Fonte: elaboração própria com dados da CEPAL, 2023.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8: QUESTÃO PRÁTICA 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A crise econômica e humanitária da Venezuela, intensificada a partir de 2014, está diretamente relacionada a qual fator estrutural?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Ausência de recursos</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>Dependência do turismo</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="correto" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>Dependência do petróleo</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Venezuela tem as maiores reservas de petróleo, mas quando o preço caiu em 2014 toda a economia colapsou — maldição dos recursos.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8.5: TEXTO-FONTE -->
+        <div class="topico">
+
+            <div class="duvid-bloco-apoio w3-margin-top">
+                <p class="w3-small w3-text-grey">TEXTO DE APOIO</p>
+                <blockquote>
+                    <p>"A esquerda latino-americana surge de um continente marcado pela desigualdade mais extrema do planeta, pela dependência externa, pela violência das elites e pelo intervencionismo norte-americano. Compreender seus sucessos e fracassos exige olhar para essas condições estruturais, não apenas para as escolhas dos governantes."</p>
+                </blockquote>
+                <p class="w3-small">SADER, Emir. <em>A nova toupeira: os caminhos da esquerda latino-americana.</em> São Paulo: Boitempo, 2009, p. 23.</p>
+            </div>
+
+            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+
+                <p><strong>Com base no texto de Sader e no que você estudou, responda:</strong></p>
+
+                <p><strong>1.</strong> O autor diz que é preciso olhar para "condições estruturais, não apenas para as escolhas dos governantes". O que ele quer dizer com isso? Cite um exemplo da aula (Venezuela, Cuba ou Bolívia) para ilustrar sua resposta.</p>
+
+                <p><strong>2.</strong> Sader menciona "intervencionismo norte-americano" como um fator que explica a situação da América Latina. Como o embargo a Cuba e as sanções à Venezuela se encaixam nessa análise? Quem se beneficia e quem paga o custo?</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: CATARSE -->
+        <div class="topico">
+
+            <div class="w3-pale-green w3-padding w3-round-large">
+
+            <h2>O que mudou no seu olhar?</h2>
+
+            <p><span class="primeiraLetra">A</span>ntes parecia que guerrilhas eram simplesmente terrorismo, que o narcotráfico era resultado do mau caráter de criminosos e que a Venezuela colapsou por má gestão de um governo populista. Agora você vê que esses fenômenos têm raízes em estruturas históricas: desigualdade social extrema, ausência de representação política, dependência de commodities e interferência de potências externas. Não são problemas de pessoas, são problemas de sistemas.</p>
+
+            <p>Entender isso não significa aceitar a violência das guerrilhas ou do narcotráfico. Significa entender por que eles existem, para poder pensar em como superá-los de verdade.</p>
+
+            </div>
+
+            <p class="w3-margin-top"><strong>Conceitos estudados nesta aula:</strong></p>
+            <ul>
+                <li>Guerrilha e narcoguerrilha</li>
+                <li>Triângulo Andino e rotas do narcotráfico</li>
+                <li>Socialismo do século XXI e crise venezuelana</li>
+                <li>Embargo econômico a Cuba</li>
+                <li>MAS e a questão indígena na Bolívia</li>
+            </ul>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: PERGUNTAS E RESPOSTAS -->
+        <div class="topico">
+
+            <h2 id="titulo-pr"></h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>Por que as guerrilhas surgiram com tanta força na América Latina no século XX?</strong>
+            </p>
+            <p>As guerrilhas emergiram num contexto de extrema desigualdade social, regimes autoritários e influência da Guerra Fria. A Revolução Cubana de 1959 demonstrou que era possível tomar o poder por meios armados, inspirando movimentos em toda a região. A ausência de canais democráticos legítimos levou parcelas da população a optar pela luta armada como alternativa de transformação social.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>Qual é a diferença entre o uso tradicional da coca e o narcotráfico?</strong>
+            </p>
+            <p>A folha de coca é utilizada há milênios pelos povos indígenas andinos para fins medicinais, culturais e religiosos. O narcotráfico envolve o processamento químico da folha para produzir cocaína, cujo comércio ilegal gera violência, corrupção e desequilíbrio institucional. Confundir os dois é ignorar a história e a cultura dos povos andinos.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>O que é o "socialismo do século XXI" proposto por Chávez?</strong>
+            </p>
+            <p>É um modelo que propõe superar o capitalismo por meios democráticos e eleitorais, com forte intervenção estatal, nacionalizações e programas sociais financiados pela renda do petróleo. Seus defensores destacam a redução da pobreza; seus críticos apontam o autoritarismo crescente e a insustentabilidade do modelo quando os preços do petróleo caíram.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <br><br>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: FICHA DE CONCEITOS -->
+        <div class="topico">
+
+            <h2>Ficha de conceitos</h2>
+
+            <div id="ficha-conceitos"></div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: PRODUÇÃO (PRÁTICA SOCIAL FINAL) -->
+        <div class="topico">
+
+            <h2>Produção</h2>
+
+            <p><span class="primeiraLetra">N</span>o início desta aula, você foi questionado sobre pessoas que conhece que vieram de países em crise, sobre notícias de guerrilha e narcotráfico, e sobre por que países ricos ainda têm tanta pobreza.</p>
+
+            <p>Agora, com o que você aprendeu, faça uma das atividades abaixo:</p>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding">
+
+                <p><strong>Opção A:</strong> Escolha um dos três países estudados (Venezuela, Cuba ou Bolívia) e escreva um texto de 15 a 20 linhas explicando a crise daquele país. Use pelo menos três conceitos do glossário desta aula e mostre as causas estruturais, não apenas os eventos recentes.</p>
+
+                <p><strong>Opção B:</strong> Se você conhece alguém que veio de um país latino-americano em crise, escreva um relato explicando, com o olhar da Geografia, por que aquela pessoa precisou sair de seu país. Se não conhece ninguém, escolha um personagem (um jovem colombiano, uma família venezuelana) e escreva a história usando os conceitos da aula.</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: QUESTÕES NO CADERNO -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow w3-padding w3-round-large">
+            <h2>Questões para responder no caderno</h2>
+
+            <h3>1. O que são guerrilhas? Explique como esse tipo de organização se diferencia dos exércitos regulares dos Estados.</h3>
+
+            <h3>2. De que forma a Revolução Cubana de 1959 influenciou o surgimento de movimentos guerrilheiros em outros países da América Latina? Cite ao menos dois exemplos.</h3>
+
+            <h3>3. Explique a relação entre o narcotráfico e os grupos guerrilheiros na América Latina, utilizando o conceito de narcoguerrilha.</h3>
+
+            <h3>4. Por que a Colômbia, o Peru e a Bolívia são os principais produtores de coca no mundo? Quais fatores geográficos, históricos e sociais explicam essa concentração?</h3>
+
+            <h3>5. Descreva as principais causas da crise política e econômica da Venezuela a partir de 2013. Como a dependência do petróleo contribuiu para o agravamento dessa crise?</h3>
+
+            <h3>6. O que foi o bloqueio econômico imposto pelos Estados Unidos a Cuba? Quais foram suas consequências para a economia e para a população cubana?</h3>
+
+            <h3>7. (ANALÍTICA) O governo cubano garante saúde e educação para toda a população, mas restringe liberdades civis e políticas. Como você analisa essa contradição? O que um indicador como o IDH captura e o que ele deixa de fora nesse caso?</h3>
+
+            <h3>8. (ANALÍTICA) A Venezuela é o país com as maiores reservas de petróleo do mundo e, ao mesmo tempo, um dos que mais gera refugiados. Quem se beneficiou da riqueza do petróleo venezuelano ao longo das décadas? E quem pagou o custo da crise? Use argumentos dos conteúdos estudados.</h3>
+
+            <h3>9. Explique a importância da folha de coca na cultura dos povos indígenas bolivianos e como esse tema se tornou um ponto de tensão nas relações entre a Bolívia e os Estados Unidos.</h3>
+
+            <h3>10. (ANALÍTICA) Compare os casos da Venezuela, Cuba e Bolívia: os três países adotaram modelos de esquerda e enfrentaram pressão dos Estados Unidos. Por que os resultados foram tão diferentes? O que explica o colapso venezuelano, a resistência cubana e a relativa estabilidade boliviana?</h3>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 14: TRANSIÇÃO PARA AS QUESTÕES FINAIS -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fundamental para entender a geopolítica da América Latina. Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 15: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+
+</html>

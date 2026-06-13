@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UEL",
+    "ano": "2019",
+    "dificuldade": "media",
+    "tags": [
+      "geopolítica",
+      "Guerra Fria",
+      "mapa",
+      "blocos mundiais"
+    ],
+    "fonte_apoio": "Fonte: Adaptado de: VESENTINI, J. W. O Ensino de Geografia e as Mudanças Recentes do Espaço Geográfico Mundial. São Paulo: Ática, 1992.",
+    "imagem_apoio": "3ano/img/310/t10q1.png",
+    "pergunta": "Analise o mapa a seguir.\n\nComo base no mapa e nos conhecimentos da geopolítica mundial no século XX, atribua V (verdadeiro) ou F (falso) às afirmativas a seguir.\n\n( ) O término da Segunda Guerra Mundial inaugurou o período denominado Guerra Fria marcado pelo confronto ideológico entre a URSS e os EUA, gerando diversos conflitos por disputas de territórios.\n\n( ) Fidel Castro se aproximou do bloco socialista, do qual nasceu um plano que levou a uma das maiores crises políticas da Guerra Fria: o conflito entre a União Soviética e os Estados Unidos (1962), designado como a Crise dos Mísseis em Cuba.\n\n( ) A Organização do Tratado do Atlântico Norte (OTAN) é uma aliança militar fundada no princípio da segurança coletiva com o objetivo de manter a paz entre os países membros e a democracia dentro deles.\n\n( ) A corrida armamentista constitui-se em uma característica secundária deste período, já que a questão central da geopolítica, pós Segunda Guerra Mundial, foi a disseminação da organização espacial mundial multipolar.\n\n( ) A designação de “fria” vinculou-se a um período geopolítico no qual se destacava a abstenção das superpotências nos conflitos militares nas áreas periféricas do mundo, de forma que os norte-americanos e os soviéticos se desvincularam de guerras localizadas em outras partes do mundo.\n\nAssinale a alternativa que contém, de cima para baixo, a sequência correta.",
+    "alternativas": [
+      "V, V, V, F, F.",
+      "V, V, F, F, F.",
+      "V, F, F, V, V.",
+      "F, F, V, V, V.",
+      "F, F, F, V, V."
+    ],
+    "correta": 0,
+    "comentario": "A Guerra Fria reorganizou o mundo em dois blocos antagônicos: o capitalista (liderado pelos EUA com a OTAN) e o socialista (liderado pela URSS com o Pacto de Varsóvia). Conflitos como a Crise dos Mísseis em Cuba (1962) levaram o mundo à beira de um confronto nuclear, definindo décadas de tensão geopolítica.",
+    "ajuda": "A Guerra Fria reorganizou o mundo em dois blocos liderados pelos EUA e pela URSS. Ao analisar o mapa e as afirmativas, lembre-se das características de cada bloco e do contexto do pós-Segunda Guerra Mundial — o Plano Marshall, a OTAN e o Pacto de Varsóvia."
+  },
+  {
+    "id": 2,
+    "instituicao": "ENEM",
+    "ano": "2019",
+    "dificuldade": "facil",
+    "tags": [
+      "direitos humanos",
+      "ONU",
+      "Declaração Universal",
+      "ordem mundial"
+    ],
+    "pergunta": "A Declaração Universal dos Direitos Humanos, adotada e proclamada pela Assembleia Geral da ONU na Comentário: 217-A, de 10 de dezembro de 1948, foi um acontecimento histórico de grande relevância. Ao afirmar, pela primeira vez em escala planetária, o papel dos direitos humanos na convivência coletiva, pode ser considerada um evento inaugural de uma nova concepção de vida internacional.\n\nLAFER, C. Declaração Universal dos Direitos Humanos (1948). In: MAGNOLI, D. (Org.). História da paz. São Paulo: Contexto, 2008.\n\nA declaração citada no texto introduziu uma nova concepção nas relações internacionais ao possibilitar a:",
+    "alternativas": [
+      "superação da soberania estatal.",
+      "defesa dos grupos vulneráveis.",
+      "redução da truculência belicista.",
+      "impunidade dos atos criminosos.",
+      "inibição dos choques civilizacionais c) redução da truculência belicista."
+    ],
+    "correta": 1,
+    "comentario": "A Declaração Universal dos Direitos Humanos (1948) emergiu do horror do Holocausto e das atrocidades da Segunda Guerra. Pela primeira vez na história, um documento internacional afirmou que os direitos humanos são universais e inalienáveis, permitindo que a comunidade internacional intervenha quando Estados violam esses direitos.",
+    "ajuda": "A Declaração Universal dos Direitos Humanos de 1948 foi criada no pós-guerra para proteger indivíduos contra abusos de poder. Pense em qual objetivo principal ela representava em um contexto marcado pelo Holocausto e pelas atrocidades da guerra."
+  },
+  {
+    "id": 3,
+    "instituicao": "ENEM",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "fronteiras",
+      "geopolítica",
+      "territorialidade",
+      "contemporaneidade"
+    ],
+    "texto_apoio": "TEXTO I As fronteiras, ao mesmo tempo que se separam, unem a articulam, por elas passando discursos de legitimação da ordem social tanto quanto do conflito. CUNHA, L. Terras lusitanas e gentes dos brasis: a nação e seu retrato literário. Revista Ciências Sociais, n. 2, 2009. TEXTO II As últimas barreiras ao livre movimento de dinheiro e das mercadorias e informação que rendem dinheiro andam de mãos dadas com a pressão para cavar novos fossos e erigir novas muralhas que barrem o movimento daqueles que em consequência perdem, física ou espiritualmente, suas raízes. BAUMAN, Z. Globalização: as consequências humanas. Rio de Janeiro: Jorge Zahar; 1999.",
+    "pergunta": "A ressignificação contemporânea de ideia de fronteira compreende a:",
+    "alternativas": [
+      "Liberação da circulação de pessoas.",
+      "Preponderância dos limites naturais.",
+      "Supressão dos obstáculos aduaneiros.",
+      "Desvalorização da noção de nacionalismo.",
+      "Seletividade dos mecanismos segregadores."
+    ],
+    "correta": 4,
+    "comentario": "A globalização ressignificou o conceito de fronteira: enquanto capitais e mercadorias circulam livremente, trabalhadores e migrantes enfrentam barreiras crescentes. As fronteiras tornaram-se seletivas — abertas para o capital, fechadas para os pobres — revelando a natureza desigual do processo de integração global.",
+    "ajuda": "As fronteiras contemporâneas não são apenas linhas físicas, mas também barreiras seletivas. Pense em como a globalização transformou o conceito de fronteira — ela não foi eliminada, mas tornou-se cada vez mais seletiva e excludente."
+  },
+  {
+    "id": 4,
+    "instituicao": "ENEM",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "Guerra Fria",
+      "bipolaridade",
+      "URSS",
+      "EUA"
+    ],
+    "texto_apoio": "Os soviéticos tinham chegado a Cuba muito cedo na década de 1960, esgueirando-se pela fresta aberta pela imediata hostilidade norte-americana em relação ao processo social revolucionário. Durante três décadas os soviéticos mantiveram sua presença em Cuba com bases e ajuda militar, mas, sobretudo, com todo o apoio econômico que, como saberíamos anos mais tarde, mantinha o país à tona, embora nos deixasse em dívida com os irmãos soviéticos – e depois com seus herdeiros russos – por cifras que chegavam a US$ 32 bilhões. Ou seja, o que era oferecido em nome da solidariedade socialista tinha um preço definido. PADURA, L. Cuba e os russos. Folha de São Paulo, 19 jul 2014 (adaptado).",
+    "pergunta": "O texto indica que durante a Guerra Fria as relações internas em um mesmo bloco foram marcadas pelo (a)",
+    "alternativas": [
+      "busca da neutralidade política.",
+      "estímulo à competição comercial.",
+      "subordinação à potência hegemônica",
+      "elasticidade das fronteiras geográficas.",
+      "compartilhamento de pesquisas científicas."
+    ],
+    "correta": 2,
+    "comentario": "A relação Cuba-URSS ilustra como a solidariedade socialista tinha um preço: a URSS sustentou a economia cubana por décadas, mas gerou uma dependência que custou caro com o colapso soviético em 1991. Dentro de cada bloco na Guerra Fria, os menores aliados eram subordinados às superpotências dominantes.",
+    "ajuda": "Durante a Guerra Fria, os países alinhados a cada superpotência não eram parceiros iguais — subordinavam-se à potência dominante. Pense em qual dinâmica política caracterizou as relações dentro de cada bloco (capitalista e socialista)."
+  },
+  {
+    "id": 5,
+    "instituicao": "UPE",
+    "ano": "2018",
+    "dificuldade": "facil",
+    "tags": [
+      "Guerra Fria",
+      "rivalidade",
+      "EUA",
+      "URSS",
+      "corrida armamentista"
+    ],
+    "imagem_apoio": "3ano/img/310/t10q5.png",
+    "pergunta": "Observe a imagem a seguir:\n\nA charge aponta para o clima de rivalidade existente durante toda a Guerra Fria. Tem-se como consequência(s) sociopolítica (s) do fim dessa disputa",
+    "alternativas": [
+      "o fim dos conflitos assimétricos e o estabelecimento de uma paz perpétua.",
+      "a construção de uma Nova Ordem Mundial estabelecida pela globalização.",
+      "o alvorecer de uma nova hegemonia mundial, agora advinda da Ásia com a China.",
+      "a crise dos organismos multilaterais de cooperação e a falência dos blocos econômicos.",
+      "a construção de novas áreas de contenção geopolíticas na América do Sul, como na Argentina"
+    ],
+    "correta": 1,
+    "comentario": "Com o fim da Guerra Fria e a dissolução da URSS em 1991, o mundo deixou de ser bipolar e tornou-se multipolar. A Nova Ordem Mundial trouxe novos conflitos regionais étnicos e religiosos, a expansão da OTAN para o Leste Europeu e o surgimento de novas potências como China e Índia.",
+    "ajuda": "Com o fim da Guerra Fria (1991), o mundo passou de bipolar a multipolar. Pense em quais consequências geopolíticas surgiram após a dissolução da URSS — novos conflitos regionais, reorganização das alianças militares e surgimento de novos atores."
+  },
+  {
+    "id": 6,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "Guerra Fria",
+      "conflito indireto",
+      "bipolaridade",
+      "geopolítica"
+    ],
+    "texto_apoio": "A Guerra Fria foi, acima de tudo, um produto da heterogeneidade da organização interna e da prática internacional — e somente poderia ser encerrada pela obtenção de uma nova homogeneidade. O resultado disto foi que, enquanto os dois sistemas distintos existiram, o conflito da Guerra Fria estava destinado a continuar: a Guerra Fria não poderia terminar com o compromisso ou a convergência, mas somente com a prevalência de um destes sistemas sobre o outro. HALLIDAY, F. Repensando as relações internacionais. Porto Alegre: EdUFRGS, 1999.",
+    "pergunta": "A caracterização da Guerra Fria apresentada pelo texto implica interpretá-la como um(a)",
+    "alternativas": [
+      "esforço de homogenização do sistema internacional negociado entre Estados Unidos e União Soviética.",
+      "guerra, visando o estabelecimento de um renovado sistema social, híbrido de socialismo e capitalismo.",
+      "conflito intersistêmico em que países capitalistas e socialistas competiriam até o fim pelo poder de influência em escala mundial.",
+      "compromisso capitalista de transformar as sociedades homogêneas dos países socialistas em democracias liberais.",
+      "enfrentamento bélico entre capitalismo e socialismo pela homogeneização social de suas respectivas áreas de influência política."
+    ],
+    "correta": 2,
+    "comentario": "A Guerra Fria foi essencialmente um conflito de sistemas: capitalismo x socialismo. Como os dois sistemas eram incompatíveis, não havia possibilidade de compromisso — a disputa só poderia terminar com a prevalência de um sobre o outro, o que ocorreu com o colapso da URSS em 1991.",
+    "ajuda": "A Guerra Fria foi chamada de 'fria' porque os EUA e a URSS nunca se confrontaram diretamente em combate. O conflito se manifestou por meio de guerras por procuração, corrida armamentista e confronto ideológico. Identifique qual definição melhor a caracteriza."
+  },
+  {
+    "id": 7,
+    "instituicao": "FMJ",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "geopolítica",
+      "ordem mundial",
+      "fragmentação territorial"
+    ],
+    "texto_apoio": "“1) Estabilizou o “equilíbrio de poder” internacional, deslocando as esferas de choque para a oposição entre os dois sistemas, conformando os conflitos e rivalidades da política mundial; 2) forjou um novo sistema internacional, cuja lógica articulou as relações entre as nações; 3) constitui-se num conflito ideológico que, propagando-se através da mídia, atingiu culturalmente a sociedade e sua conduta”.",
+    "fonte_apoio": "(L. Lothar C. Hein. www.historia.uff.br.)",
+    "pergunta": "O fragmento faz referência:",
+    "alternativas": [
+      "à Guerra Fria.",
+      "às origens da Primeira Guerra Mundial.",
+      "ao Entre Guerras.",
+      "ao avanço nazifascista.",
+      "à Descolonização da África e da Ásia."
+    ],
+    "correta": 0,
+    "comentario": "A Guerra Fria estabeleceu um 'equilíbrio de terror' baseado na ameaça de destruição mútua assegurada (MAD). Ela também foi uma guerra ideológica que se infiltrou na cultura, na mídia e nas sociedades — gerando um imaginário político de conflito entre democracia liberal e comunismo.",
+    "ajuda": "O texto descreve um período histórico de tensão internacional com características específicas: confronto ideológico, corrida armamentista e divisão do mundo em dois blocos. Identifique a qual período histórico esse fragmento se refere."
+  },
+  {
+    "id": 8,
+    "instituicao": "ENEM",
+    "ano": "2013",
+    "dificuldade": "media",
+    "tags": [
+      "ONU",
+      "OTAN",
+      "organização internacional",
+      "ordem mundial"
+    ],
+    "texto_apoio": "“O papel da Organização do Tratado do Atlântico Norte (Otan) alterou-se desde sua origem em 1949. A Otan é uma aliança militar que se funda sobre um tratado de segurança coletiva, o qual, por sua vez, indica a criação de uma organização internacional com o objetivo de manter a democracia, a paz e a segurança dos seus integrantes. No começo dos anos de 1990, em função dos conflitos nos Bálcãs, a Otan declarou que a instabilidade na Europa Central afetava diretamente a segurança dos seus membros. Foi então iniciada a primeira operação militar fora do território dos países-membros. Desde então ela expandiu sua área de interesse para África, Oriente Médio e Ásia”.",
+    "fonte_apoio": "BERTAZZO, J. Atuação da Otan no Pós-Guerra Fria: implicações para a segurança nacional e para a ONU. Contexto Internacional, Rio de Janeiro, jan.-jun. 2010 (adaptado).",
+    "pergunta": "Os objetivos dessa organização, nos diferentes períodos descritos, são, respectivamente:",
+    "alternativas": [
+      "Financiar a indústria bélica – garantir atuação global.",
+      "Conter a expansão socialista – realizar ataques preventivos",
+      "Combater a ameaça soviética – promover auxílio humanitário.",
+      "Minimizar a influência estadunidense – apoiar organismos multilaterais.",
+      "Reconstruir o continente devastado – assegurar estabilidade geopolítica."
+    ],
+    "correta": 1,
+    "comentario": "A OTAN foi criada em 1949 para conter a expansão soviética na Europa. Com o fim da URSS, redefiniu seus objetivos: passou a intervir em conflitos regionais nos Bálcãs, no Afeganistão e no Oriente Médio, ampliando sua atuação para além do Atlântico Norte como a principal aliança militar ocidental.",
+    "ajuda": "A OTAN foi criada em 1949 como aliança militar ocidental durante a Guerra Fria. Com o fim da URSS, ela redefiniu seus objetivos. Identifique qual par de objetivos — o original e o atual — corresponde corretamente às diferentes fases da organização."
+  },
+  {
+    "id": 9,
+    "instituicao": "UFRJ",
+    "ano": "2013",
+    "dificuldade": "media",
+    "tags": [
+      "regionalização",
+      "América",
+      "critérios geográficos",
+      "divisão continental"
+    ],
+    "imagem_apoio": "3ano/img/310/t10q9.png",
+    "pergunta": "Os mapas a seguir apresentam duas formas de regionalização do continente americano.\n\nConsiderando que a regionalização do espaço geográfico se realiza a partir de diferentes critérios, a divisão regional desse continente representada no:",
+    "alternativas": [
+      "mapa 2 está definida a partir de aspectos físico-ambientais.",
+      "mapa 1 está baseada em elementos político-territoriais.",
+      "mapa 1 está definida a partir de aspectos socioeconômicos.",
+      "mapa 2 está baseada em elementos histórico-culturais."
+    ],
+    "correta": 3,
+    "comentario": "As regionalizações do continente americano podem usar critérios físico-naturais (América do Norte, Central e do Sul), histórico-culturais (Anglo-saxônica x Latina) ou socioeconômicos (desenvolvidos x em desenvolvimento). Cada critério revela aspectos diferentes da organização do espaço americano.",
+    "ajuda": "A regionalização do espaço geográfico pode ser feita com base em critérios físicos, culturais, econômicos ou políticos. Ao analisar dois mapas diferentes do continente americano, identifique qual critério cada mapa utilizou para definir suas regiões."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFSCAR",
+    "ano": "2008",
+    "dificuldade": "media",
+    "tags": [
+      "regionalização",
+      "ordem mundial",
+      "divisão geopolítica"
+    ],
+    "imagem_apoio": "3ano/img/310/t10q10.png",
+    "pergunta": "Observe o mapa.\n\nA regionalização do mundo adotada nesse mapa corresponde a:",
+    "alternativas": [
+      "um espaço descontínuo baseado inteiramente nos fluxos econômicos e político-militares.",
+      "um espaço contínuo baseado nos traços fisiográficos de cada área (relevo e clima, principalmente).",
+      "um espaço descontínuo fundamentado nas relações de poder entre Estados.",
+      "um espaço contínuo fundamentado em traços histórico-culturais e econômicos comuns a cada área.",
+      "um espaço contínuo-descontínuo alicerçado na inovação tecnológica e nos recursos humanos de cada área."
+    ],
+    "correta": 3,
+    "comentario": "A regionalização do espaço mundial pode ser feita com base em critérios físicos (climas, relevos), humanos (culturas, línguas, religiões) ou econômicos (desenvolvidos/em desenvolvimento). Um mapa que respeita fronteiras contínuas com base em traços histórico-culturais comuns é a forma mais tradicional de regionalização.",
+    "ajuda": "Um mapa que agrupa países em regiões pode usar diferentes critérios: físico-naturais, culturais, econômicos ou históricos. Ao analisar o mapa, observe se as regiões respeitam fronteiras físicas contínuas ou se agrupam áreas descontínuas por critérios humanos."
+  }
+]

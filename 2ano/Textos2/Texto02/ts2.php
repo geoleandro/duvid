@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>2º ano - Texto 02</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula sobre a formação do território brasileiro vimos como o Brasil
+            ganhou os contornos atuais com suas fronteiras e o peso do tipo de colonização que tivemos para a sociedade
+            e junto com seu território no período atual. </p>
+
+        <p>Nesta aula teremos uma introdução no processo de regionalizar um espaço, ou seja, dividi-lo em regiões.
+            Veremos que se trata de algo muito mais complexo do que se pensa. Vamos iniciar os estudos sobre três
+            possibilidades de dividir o Brasil e porque isso é muito importante para o planejamento da sociedade. </p>
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>O Brasil e suas diferenças regionais </h2>
+
+
+
+
+        <p>Quando aprendemos a observar por nós mesmos a realidade, tudo faz mais sentido. Os livros podem nos ajudar,
+            mas a vontade de compreender porque determinada realidade é do jeito que é, questioná-la, torna-se uma
+            prática fundamental para o ser humano. </p>
+
+        <p>O Brasil é imenso e suas regiões são incrivelmente desiguais entre si. Não há nada de mais ser diferente um
+            do outro, mas no caso do território, ele é um quadro de vida, um chão habitado por uma população. Assim como
+            nenhum indivíduo escolhe o local de nascimento, nasce ao acaso, o território deve tratar a todos igualmente,
+            oferendo os objetos e infraestruturas adequadas a todos os habitantes, sem exceção. Por isso o território
+            não pode perpetuar diferenças. </p>
+
+        <p>O território brasileiro sofreu vários transformações durante os séculos. Veja o mapa abaixo: </p>
+
+
+        <div class="w3-margin"><img id="imagem1" src="ts02f01.png" alt="ts02f01" class="w3-mobile">
+
+
+            <span class="w3-small w3-margin-left" id="citacao1"> Fonte: Fonte: https://novaescola.org.br.
+                Acesso em: 03 jul. 2022.
+            </span>
+        </div>
+
+
+
+
+        <p> Lembra que o território foi considerado um <span
+                onclick="document.getElementById('arquipelago').style.display='block'"
+                class="w3-yellow">arquipélago</span> econômico? Por conta da sua falta de integração entre as regiões e
+            ainda mais com a colonização de Portugal que exigia e organizava toda a produção daqui para a Metrópole.</p>
+
+
+        <div id="arquipelago" class="w3-modal w3-margin-top">
+            <div class="w3-modal-content">
+                <div class="w3-container w3-padding">
+                    <span onclick="document.getElementById('arquipelago').style.display='none'"
+                        class="w3-button w3-red w3-display-topright">&times;</span>
+                    <p>"O Brasil foi, durante muitos séculos, um grande arquipélago, formado por subespaços, que
+                        evoluíram, segundo lógicas próprias, ditadas em grande parte por suas relações com o mundo
+                        exterior. Havia, sem dúvida, para cada um desses subespaços, polos dinâmicos internos. Estes,
+                        porém, tinham entre si escassa relação, não sendo interdependentes". <span
+                            class="w3-small">Mílton Santos. A Urbanização brasileira, 1993. Adaptado</span>.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <p>Isso dificultou muito a integração nacional. Até 1930, as atividades econômicas desenvolvidas no Brasil:
+            canavieira, mineradora e cafeeira, borracha, dentre outras destinaram-se ao mercado externo. Pós-1930,
+            ocorreu tentativas de início do abastecimento do mercado interno. Também por influência da
+            <span
+                onclick="this.innerHTML='conjuntura (combinação ou concorrência de acontecimentos ou eventos num dado momento; circunstância, situação.)'"><mark>conjuntura</mark></span>
+            internacional.
+        </p>
+
+        <p>As iniciativas para a construção desse espaço nacional integrado ocorreu com mais força com a
+            industrialização, a partir de 1930 e consolidado a partir da década de 1950. Como exemplo, temos a mudança
+            da Capital nacional - A sede político-administrativa do país transferiu-se para o Centro-Oeste, com a
+            criação de Brasília (1960). Esse evento Impulsionou a integração dessa região com o restante do Brasil,
+            principalmente após a década de 1970.</p>
+
+        <p>Será que esse processo de integração nacional deu conta de igualar a vidas nas regiões brasileiras, ele já se
+            completou? Vamos ver como ocorreu esse processo no
+            Brasil.
+        </p>
+
+        <h2>A regionalização ao longo do tempo</h2>
+
+
+        <p>A divisão regional do Brasil em cinco regiões é a única possível? Por que não poderíamos ter outra forma de
+            dividir o território? Os objetos naturais como rios, relevo ou hidrografia respeitam os limites estaduais ou
+            municipais?</p>
+
+        <p>Regionalizar um espaço parece mesmo ser complicado. Entretanto, tudo começa com um critério. </p>
+
+        <p>No início do século XX por exemplo, especificamente em 1913, o professor de Geografia Delgado de Carvalho
+            propôs uma regionalização para o Brasil oficial baseado em critérios naturais da geografia física. Ele
+            selecionou a vegetação, o clima, a hidrografia e deve ter falado: “Agora senhores ministros, o Brasil será
+            dividido em regiões com base no que a Natureza nos presenteou”. Talvez não tenha sido exatamente essas
+            palavras. Mais o que importa é que ele usou critérios que não mudam muito ao longo do tempo, como a paisagem
+            natural. Observe ao mapa para ver como era o Brasil nessa época.</p>
+
+        <h4 class="w3-center"><strong>Divisão regional do Brasil em 1913</strong></h4>
+
+        <div class="w3-margin"><img id="imagem2" src="ts02f02.png" alt="ts02f02" class="w3-mobile"></div>
+
+        <p>Está bem, mas mudou muita coisa comparado ao mapa de hoje? Temos que observar atentamente o mapa elaborar
+            essa análise. A região Norte, que era chamada de Setentrional só tinha dois Estados e um território.
+            Amazonas, Pará e o território do Acre, recém comprado da Bolívia. Na região Central só havia dois Estados:
+            Goiás e Mato Grosso. São Paulo fazia parte da região Meridional, outro nome para Sul com Paraná, Santa
+            Catarina e Rio Grande do Sul. A Bahia estava na região Oriental junto com Rio de Janeiro (que era a capital
+            do país na época), Minas Gerais e Espírito Santo. Já a região Norte-Oriental era formada pelo Maranhão,
+            Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas e Sergipe, praticamente o que é atualmente.
+        </p>
+
+        <p>Como o governo queria incentivar o povoamento para o interior do país foi criado na década de 1930 o IBGE,
+            que é o Instituto Brasileiro de Geografia e Estatística. </p>
+
+        <p>Após muitas reuniões com várias propostas, o IBGE resolveu modificar um pouco a proposta anterior e lançar um
+            nova versão na década de 1940.</p>
+
+        <h4 class="w3-center"><strong>Divisão regional do Brasil em 1945</strong></h4>
+
+        <div class="w3-margin"><img id="imagem3" src="ts02f03.png" alt="ts02f03" class="w3-mobile"></div>
+
+        <p>Nessa proposta houve muita alteração. Por exemplo, na criação de diversas territórios federais como o de
+            Fernando de Noronha, do Amapá, de Rio Branco, do Guaporé, de Ponta Porâ, do Iguaçu, quer dizer muita
+            divisão. Mais as mudanças não pararam por ai. Veja você mesmo no mapa:</p>
+
+        <h4 class="w3-center"><strong>Divisão regional do Brasil em 1960</strong></h4>
+
+        <div class="w3-margin"><img id="imagem4" src="ts02f04.png" alt="ts02f04" class="w3-mobile"></div>
+
+        <p>A inauguração da Capital de Brasília, como já vimos para contribuir para a integração nacional em 1960 marcou
+            essa regionalização.</p>
+
+        <p>Além disso, Guaporé se transforma em Rondônia, Ponta Porâ foi incorporado no Mato Grosso e Iguaçu ao Paraná.
+            Criação do Estado do Guanabara com a capital em Niterói.</p>
+
+        <p>A configuração com a qual estamos acostumados começa a ganhar forma. Como o IBGE fazia essa divisão? Bom,
+            eles utilizavam as características homogêneas de uma região, por isso era chamada de Região homogênea (as
+            características que eram comuns na área). Através das médias estatísticas dos dados espaciais como renda,
+            mortalidade, clima ou vegetação para se tentar criar uma divisão regional mais científica. </p>
+
+        <p>Um dos principais problemas dessa regionalização é que ela desconsidera o fata de que os fenômenos naturais e
+            sociais não coincidem com os limites dos Estados. Porém, o objetivo dessa regionalização que foi se
+            aprimorando ao longo do tempo, desde 1940, partiu da necessidade de identificar os diferentes espaços
+            existentes no país com seus respectivos potenciais de recursos e aspectos socioeconômicos, para promover uma
+            melhor inserção no mercado nacional emergente.</p>
+
+        <p>Vejamos o mapa atual do território brasileiro. Você ainda acha que estudar geografia é decorar capitais? </p>
+
+        <h4 class="w3-center"><strong>Divisão regional do Brasil a partir da Constituição de 1988</strong></h4>
+
+        <div class="w3-margin"><img id="imagem5" src="ts02f05.png" alt="ts02f05" class="w3-mobile"></div>
+
+        <p>Após a redemocratização do país e aprovação da Nova Constituição em 1988, o território brasileiro se
+            consolida nas suas atuais fronteiras. Para chegar até aqui foi preciso muita discussão e decisões técnicas e
+            políticas. Vejamos algumas delas.</p>
+
+        <p>Em primeiro lugar o território do Acre foi finalmente reconhecido ou elevado à categoria de Estado. Rio
+            Branco passa a ser Roraima e ocorre a fusão dos Estados da Guanabara e do Rio de Janeiro com a transferência
+            da capital de Niterói para a cidade maravilhosa. O Estado do Mato Grosso era enorme, então foi dividido com
+            a criação do Estado do Mato Grosso do Sul em 1977, para um país isso é bem recente. Rondônia também se
+            transformou em Estado e foi criado Tocantins e anexado à Região Norte. E Fernando de Noronha foi anexado ao
+            Estado de Pernambuco. Chegamos a essa configuração, conforme o mapa e a tabela abaixo:</p>
+
+
+        <div class="w3-margin"><img id="imagem10" src="ts02f010.png" alt="ts02f010" class="w3-mobile">
+
+            <span class="w3-small">https://www.labgis.uerj.br/noticias/
+                populacao-estimada-do-pais-chega-a-2133-milhoes-de-habitantes-em-2021. Acesso em: 10 jul. 2022.</span>
+
+        </div>
+
+
+
+        <div class="w3-margin">
+            <table class="w3-table w3-striped w3-centered">
+                <tr>
+                    <th>Posição</th>
+                    <th>Região</th>
+                    <th>População</th>
+                    <th>% da pop. total</th>
+                </tr>
+                <tr>
+                    <td>(1) </td>
+                    <td>Região Sudeste</td>
+                    <td>89.632.912 </td>
+                    <td>42,04% </td>
+                </tr>
+                <tr>
+                    <td>(2) </td>
+                    <td>Região Nordeste
+                    </td>
+                    <td>57.667.842 </td>
+                    <td>27,09% </td>
+
+                </tr>
+                <tr>
+                    <td>(3) </td>
+                    <td>Região Sul </td>
+                    <td>30.402.587 </td>
+                    <td>14,26%</td>
+                </tr>
+                <tr>
+                    <td>(4) </td>
+                    <td>Região Norte </td>
+                    <td>18.906.962 </td>
+                    <td>8,82% </td>
+                </tr>
+                <tr>
+                    <td>(5) </td>
+                    <td>Região Centro-Oeste
+                    </td>
+                    <td>16.707.336</td>
+                    <td>7,79% </td>
+                </tr>
+            </table>
+            <span class="w3-small">IBGE. Estimativa Populacional 2021.(PDF). FTP IBGE. ibge.gov.br. Acesso em: 10 jul.
+                2022.</span>
+        </div>
+
+
+
+        <p>A primeira observação sobre essa divisão regional (na próxima aula vamos analisar a distribuição da
+            população) do IBGE é a de que ela não é muito rigorosa, pois os limites das Regiões coincidem com aqueles
+            dos Estados, o que não é verdadeiro na realidade. Um rio não tem preferência sobre qual Estado ele tem seu
+            curso. </p>
+
+        <p>A Floresta Amazônica, por exemplo, é muito maior do que o Estado do Amazonas, prolonga-se para outros Estados
+            e inclusive países, como Maranhão, Mato Grosso, Pará, Tocantins, Rondônia, Roraima, e as nações vizinhas
+            como o Peru, Colômbia, Bolívia, Equador e Venezuela, Guiana, Suriname e Guiana Francesa. Vejamos o mapa:</p>
+
+        <div class="w3-margin"><img id="imagem9" src="ts02f09.png" alt="ts02f09" class="w3-mobile"></div>
+
+        <p>Outra região que se enquadra nesse exemplo é a do Polígono das Secas no sertão nordestino. Ela abrange não
+            somente a região Nordeste oficial, mas o norte de Minas Gerais. O Norte do Paraná igualmente tem mais
+            relação com São Paulo, tanto pela colonização, como economicamente, do que o restante dos Estados do Sul do
+            Brasil. Mato Grosso do Sul também possui essa ligação com São Paulo mais intensa e pertence à Região
+            Centro-Oeste. </p>
+
+        <p>Outra dificuldade da atual divisão regional é que o território nacional é muito extenso e pouco povoado no
+            seu interior. A realidade do movimento populacional, ou seja, das migrações dificulta uma regionalização
+            muito ligado aos elementos naturais. Com a expansão das <strong>fronteiras agrícolas</strong>, quer dizer o
+            avanço da produção agropecuária sobre o meio natural com a derrubada de florestas e mudanças nas paisagens
+            naturais são bastante dinâmicas. E o IBGE já não possui tanta infraestrutura para acompanhar essas
+            transformações, sendo uma órgão mais ligado à coleta das informações do que ao planejamento intenso do
+            território como já foi.</p>
+
+        <p>Agora vamos parar e pensar um pouco sobre tudo isso. Quais as vantagens e desvantagens dessa regionalização
+            do IBGE? O que você acha que vai ocorrer no futuro? Hoje o Brasil tem vinte e seis Estados e mais o Distrito
+            Federal na sua divisão político-administrativa. Novos Estados serão criados? Por que? Como e quando? Existem
+            já projetos para isso no Congresso? Uma divisão em regiões menores seria mais adequada?</p>
+
+        <p>São questões muito importantes para o desenvolvimento da sociedade e do território. Não há como separar um do
+            outro. E as outras formas de regionalização do Brasil? É o que veremos a seguir.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa">Reforce seu conhecimento</p>
+
+        <div class="container">
+            <h4 class="">Selecione os conceitos com as imagens correspondentes e relacione as capitais com seus Estados:
+            </h4>
+            <!-- <div class="w3-margin">Acertos: <span id="score">0</span></div> -->
+            <div class="cards">
+
+
+                <div class="card" data-animal="1">
+                    <p>Regionalização</p>
+                </div>
+
+                <div class="card" data-animal="1">
+                    <img src="ts02mapa02.png" alt="Acre">
+                </div>
+
+
+                <div class="card" data-animal="2">
+                    <img src="ts02mapa05.png" alt="Pará">
+                </div>
+
+                <div class="card" data-animal="2">
+                    <p>Belém</p>
+                </div>
+
+                <div class="card" data-animal="3">
+                    <p>Rio Branco</p>
+                </div>
+
+                <div class="card" data-animal="3">
+                    <img src="ts02mapa01.png" alt="Regionalização">
+                </div>
+
+                <div class="card" data-animal="4">
+                    <img src="ts02mapa03.png" alt="Amapá">
+                </div>
+
+                <div class="card" data-animal="4">
+                    <p>Macapá</p>
+                </div>
+
+                <div class="card" data-animal="5">
+                    <img src="ts02mapa04.png" alt="Roraima">
+                </div>
+
+                <div class="card" data-animal="5">
+                    <p>Boa Vista</p>
+                </div>
+
+                <div class="card" data-animal="6">
+                    <img src="ts02mapa06.png" alt="Rondônia">
+                </div>
+
+                <div class="card" data-animal="6">
+                    <p>Porto Velho</p>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+
+
+
+        <br>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+
+        <hr>
+
+
+
+    </div>
+
+<div class="topico">
+
+        <h2> A regionalização Geoeconômica</h2>
+
+
+
+
+        <p>Outro critério utilizado para dividir o Brasil em regiões baseia-se histórico-econômica do país. O geógrafo
+            Pedro Geiger organizou na década de 1960 as <strong>regiões geoeconômicas</strong> e dividiu o país em três
+            áreas extensas: Amazônia, Nordeste e Centro-Sul. Ela não é a oficial mas considera também a recente
+            modernização econômica que ocorreu no espaço urbano e no campo e estabeleceu novas formas de vínculo entre
+            os lugares do território brasileiro. </p>
+
+        <div class="w3-margin"><img id="imagem6" src="ts02f06.png" alt="ts02f06" class="w3-mobile">
+            <span class="w3-small w3-margin-left"> Fonte: Fonte: Vesentini (2013). </span>
+        </div>
+
+
+
+        <p>A <strong>região Amazônica</strong> compreende toda a extensão da floresta Amazônica localizada em território
+            brasileiro. Integrada por todos os estados da região Norte, além do Mato Grosso (exceto sua porção sul) e
+            Oeste do Maranhão. É uma região que apresenta baixa densidade demográfica e foi a última grande região do
+            país a ser ocupada. </p>
+
+        <p>As atividades econômicas desenvolvidas são: a agropecuária, que constitui o setor econômico mais importante,
+            extrativismo vegetal, mineração e o setor industrial, com destaque para a zona industrial de Manaus. </p>
+
+
+        <p>A <strong>região do Centro-Sul</strong> ou o complexo regional do Centro-Sul abrange a quase um terço do
+            território nacional, compreende aos estados das regiões Sul e Sudeste (exceto o extremo norte de Minas
+            Gerais), ao estado de Goiás, Mato Grosso do Sul, extremo sul do Mato Grosso (marco da fronteira
+            agropecuária) e extremo sul do Tocantins. </p>
+
+
+        <p> É o complexo regional mais desenvolvido economicamente, abriga a maior parte do parque industrial, das áreas
+            de atividades agrícolas mais modernas, dos bancos, mercados de capitais, empresas transnacionais, comércios
+            e universidades do país. É extremamente urbanizado.</p>
+
+        <p>A <strong>região Nordeste </strong>nessa regionalização geoeconômica vai desde a porção leste do Maranhão até
+            o norte de Minas Gerais, incluindo todos os estados nordestinos. Abrange cerca de 30% do território
+            nacional. </p>
+
+        <div class="w3-margin"><img id="imagem7" src="ts02f07.png" alt="ts02f07" class="w3-mobile"></div>
+
+        <p>É a região onde ocorreu o processo de povoamento do país. Possui grandes contrastes naturais e
+            socioeconômicos entre as áreas litorâneas, mais urbanizadas, industrializadas e desenvolvidas
+            economicamente, e o interior com predomínio de clima semiárido e grandes problemas sociais. As atividades
+            são desenvolvidas no: Zona da mata, Agreste, Sertão e Meio-Norte. </p>
+
+        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
+            <ul>
+                <li>
+                    Zona da Mata - Predominam as grandes propriedades agrícolas que praticam a monocultura canavieira
+                    destinada para a exportação do açúcar. Além da cana, ocorre o cultivo do cacau e do fumo. Destaca-se
+                    também a produção de sal marinho, principalmente no Rio Grande do Norte.
+                </li>
+
+                <li>
+                    Agreste - A principal atividade econômica nos trechos mais secos do agreste é a pecuária extensiva;
+                    nos trechos mais úmidos é a agricultura de subsistência e a pecuária leiteira.
+                </li>
+
+                <li>
+                    Sertão - Pecuária extensiva e de corte, agricultura (milho, feijão e cana-de-açúcar) e o cultivo
+                    irrigado de frutas e flores. Nas áreas litorâneas ocorre a extração de sal. Também há a presença de
+                    indústrias (polo têxtil e de confecções).
+                </li>
+
+                <li>
+                    Meio Norte - Extrativismo vegetal, agricultura tradicional de algodão, cana-de-açúcar e arroz.
+                </li>
+
+
+
+
+            </ul>
+
+        </div>
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa"> Teste seu conhecimento</p>
+
+
+        <h4> Assinale todas as alternativas que satisfazem as características da regionalização do IBGE:
+        </h4>
+
+        <form id="check">
+            <input type="checkbox" id="r1" name="r1">
+            <label> a construção de Brasilía objetivou a integração nacional.</label><br><br>
+
+            <input type="checkbox" id="r3" name="r3">
+            <label> preocupa-se com a formação histórico-social.</label><br><br>
+
+            <input type="checkbox" id="r2" name="r2">
+            <label>baseado nas regiões homogêneas.</label><br><br>
+
+
+            <input type="checkbox" id="r4" name="r4">
+            <label>Ela não é cientificamente rigorosa, pois seus limites coincidem com os Estados.</label><br>
+
+
+
+        </form>
+
+        <button class="btnShow" id="buttoncheck1"
+            onclick="confereBox('acertou, parabéns. A regionalização geoeconômica é que se preocupa com a formação histórica da sociedade', 'resp40','globinho40')">Conferir</button>
+
+
+
+        <p id="resp40"></p>
+
+
+        <div class="area">
+            <p><img src="/fotoIndex/globinhoPe.png" id="globinho40" style="display:none" alt="globinho40"
+                    width="64" height="64">
+            </p>
+        </div>
+
+        <button class="btnHide" id="buttoncheck2"
+            onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+
+        <hr>
+
+    </div>
+
+<div class="topico">
+
+        <h2> A regionalização a partir do meio técnico-científico-informacional – Os “Quatro Brasis”</h2>
+
+
+
+
+        <p> Essa divisão regional se baseia na difusão do <strong>meio técnico-científico-informacional</strong>,
+            conceito elaborado pelo geógrafo Milton Santos. Trata, além de outras coisas, da informação e das finanças e
+            como essas variáveis estão irradiadas de maneiras desiguais e distintas pelo território brasileiro. É
+            chamada de "quatro brasis". É dividida em: Região Concentrada, formada pelo Sudeste e Sul, o Nordeste, O
+            Centro-Oeste e a Amazônia.</p>
+
+        <div class="w3-margin"><img id="imagem8" src="ts02f08.png" alt="ts02f08" class="w3-mobile"></div>
+
+        <p>O critério para estabelecer essa nova regionalização é diferente das outras pois se baseia no conceito de
+            meio-técnico-científico-informacional. É como ver o território pelo acréscimo de ciência, tecnologia e
+            informação. Quais regiões apresentam melhores infraestruturas que permitem um fluxo maior de capital,
+            dinheiro, informação e outras regiões ou cidades em que o tempo é mais lento e a comunicação não é
+            igualmente veloz. É como ver o território à noite e observar a presença de iluminação distribuída
+            desigualmente por toda sua extensão, com diferenças entre as regiões. Há áreas com poucas densidade
+            industrial, internet e comunicação, enquanto há outras com rodovias modernas, produção e distribuição de
+            produtos de forma eficaz em rede pelo território. </p>
+
+        <p>A <strong>Região Concentrada</strong> une as regiões Sul e Sudeste devido a maior densidade do
+            meio-técnico-científico-informacional representado pela intensa urbanização, padrão de consumo, atividades
+            ligadas ao setor de finanças, assistência técnica e mais adaptada a globalização do que outras regiões. </p>
+
+
+        <p>A cidade de São Paulo comanda esse processo sendo o polo nacional dessas atividades. A posição de São Paulo
+            na vida econômica nacional é muito relevante e sua influência ultrapassa a região metropolitana. Sem falar
+            na sede de eventos de todos os tipos, culturais, econômicos e com a presença de tecnologia e pesquisa tanto
+            na cidade como no campo. A metrópole paulista comanda o território por concentrar à informação, os serviços
+            e a tomada de decisões. </p>
+
+
+        <p>Nessa regionalização há regiões que ganham e outras que perdem. Por exemplo, a fuga de indústrias do chamado
+            ABCD paulista, localizado na região metropolitana de São Paulo, para o interior ou para outros Estados que
+            oferecem mais vantagens como isenção de impostos, doações de terreno, dentre outros fatores. Nesse sentido a
+            região Sul ganha esses estabelecimentos e São Paulo conhece um empobrecimento em pleno período da
+            globalização. </p>
+
+
+        <p> Outra característica dessa região é a intensa mecanização do campo como o exemplo da produção de laranja,
+            cana-de-açúcar no Estado de São Paulo para a exportação de suco e produção de álcool. Aviação agrícola,
+            controle de pesticidas com fertilizantes produzindo mais com em áreas cada vez menores. Além da alta
+            densidade de supermercados, Shopping-centers, atividades de saúde, ensino e lazer.</p>
+
+        <p>Na região <strong>Centro-Oeste</strong> sob esta perspectiva, acrescida agora com o Estado do Tocantins, além
+            de Mato Groso, Mato Grosso do Sul e Goiás temos uma ocupação mais recente. A principal característica dessa
+            região é a implantação do meio-técnico-científico-informacional sob um meio natural para a constituição de
+            uma agricultura moderna, com fazendas mecanizadas e a produção globalizada de soja, milho, algodão, arroz, e
+            da pecuária de corte para exportação de carnes. </p>
+
+        <p>A região <strong>Nordeste</strong> que inclui os nove Estados igualmente a regionalização do IBGE: Maranhão,
+            Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe e Bahia. É a região que apresenta o
+            traço mais forte da colonização por ser a primeira de povoamento europeu e foi a principal região econômica
+            do Brasil colonial com importantes cidades como Salvador (era capital), Recife e São Luís. O meio
+            técnico-científico-informacional se deu de forma pontual e pouco densa, isto é, espalhado em razão das
+            atividades que se praticava nessa área como uma agricultura pouco intensiva devido a estrutura das
+            propriedades na época. O trabalho na agricultura apresenta um índice menor de mecanização do que na Região
+            Concentrada. A urbanização também não é tão intensa e a rede de cidades ainda reflete as marcas do passado.
+            Claro que há exceções, como em tudo na ciência. </p>
+
+
+        <p> Existem áreas bastante tecnificadas porque são atividades voltadas para o comércio externo e atende
+            requisitos globalizados como as áreas irrigadas do vale do Rio São Francisco com produção de manga, uva e
+            vinhos durante todo o ano.</p>
+
+
+        <p>A <strong>Amazônia</strong> nesta perspectiva de regionalização é aquela região sem o Estado de Tocantins,
+            porém com o Pará, Amapá, Roraima, Amazonas (o Estado), Acre e Rondônia. É uma região pouco povoada, ou seja,
+            baixa densidade populacional (menos de um habitante por quilômetro quadrado) e baixa densidade técnica. A
+            circulação, predominantemente, ocorre por vias fluviais e aéreas para a interligação entre os lugares. O
+            meio natural nesta região ainda possui uma relevância extraordinária. As hidrovias como a Madeira-Amazonas
+            por exemplo, servem para o escoamento de soja do Mato Grosso e Rondônia. </p>
+
+        <p>A capital Manaus seria um ponto no território onde se concentram uma fluidez ligada à globalização com
+            conexões mais dinâmica devido à <span onclick="document.getElementById('manaus').style.display='block'"
+                class="w3-yellow">Zona Franca de Manaus como polo industrial.</span> </p>
+
+
+
+
+        <div id="manaus" class="w3-modal w3-margin-top">
+            <div class="w3-modal-content">
+                <div class="w3-container">
+                    <span onclick="document.getElementById('manaus').style.display='none'"
+                        class="w3-button w3-red w3-display-topright">&times;</span>
+                    <p>
+                        "Uma área de livre comércio de importação e exportação e de incentivos fiscais especiais,
+                        estabelecida com a finalidade de criar no interior da Amazônia um centro industrial, comercial e
+                        agropecuário dotado de condições econômicas que permitam seu desenvolvimento, em face dos
+                        fatores locais e da grande distância, a que se encontram, os centros consumidores de seus
+                        produtos”. <span class="w3-small">Decreto de Lei nº 288, de 28 de fevereiro de 1967</span>.
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <p> É uma região contraditória, pois ao mesmo tempo em que há pouca conhecimento ainda sobre os reinos vegetal e
+            animal da sua enorme extensão, tem-se um monitoramento por modernos satélites e radares.</p>
+
+
+        <p>Ao final desse curso sobre a<strong> Geografia do Brasil</strong> retomaremos com mais profundidade as
+            características das regiões brasileiras realizando uma síntese de suas dinâmicas. </p>
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <p class="caixa">Reforce seu conhecimento</p>
+
+        <div class="container">
+            <h4 class="">Selecione os conceitos com as imagens correspondentes e relacione as capitais com seus Estados:
+            </h4>
+            <!-- <div class="w3-margin">Acertos: <span id="score">0</span></div> -->
+            <div class="cards">
+
+
+                <div class="card" data-animal="7">
+                    <p>Maceió</p>
+                </div>
+
+                <div class="card" data-animal="7">
+                    <img src="ts02mapa07.png" alt="Alagoas">
+                </div>
+
+
+                <div class="card" data-animal="8">
+                    <img src="ts02f08.png" alt="Meio técnico cientifico">
+                </div>
+
+                <div class="card" data-animal="8">
+                    <p>Meio-técnico-científico-informacional</p>
+                </div>
+
+                <div class="card" data-animal="9">
+                    <p>Regionalização Geoeconômica </p>
+                </div>
+
+                <div class="card" data-animal="9">
+                    <img src="ts02f06.png" alt="Geoeconômica">
+                </div>
+
+                <div class="card" data-animal="10">
+                    <img src="ts02mapa08.png" alt="Espírito Santo">
+                </div>
+
+                <div class="card" data-animal="10">
+                    <p>Vitória</p>
+                </div>
+
+                <div class="card" data-animal="11">
+                    <img src="ts02mapa09.png" alt="Rio Grande do Sul">
+                </div>
+
+                <div class="card" data-animal="11">
+                    <p>Porto Alegre</p>
+                </div>
+
+                <div class="card" data-animal="12">
+                    <img src="ts02mapa010.png" alt="Aracaju">
+                </div>
+
+                <div class="card" data-animal="12">
+                    <p>Aracaju </p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <br>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+
+        <hr>
+
+
+
+    </div>
+
+<div class="topico">
+
+
+        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+
+
+        <div class="borda">
+
+            <p> <span class="primeiraLetra">P:</span> <strong>
+
+                    Por quanto tempo vai durar a divisão territorial do Brasil?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Quando estudamos o Brasil e vemos a maneira pela qual a maioria da
+                população tem ou deveria ter acesso aos bens necessários à uma vida digna, principalmente nas
+                periferias, podemos começar a questionar a razão de um município, Estado ou região ser do jeito que é. O
+                recorte atual do Brasil significa o que para a maioria da população? Ele deve ser permanente, rígido,
+                imutável para sempre? Vimos na história do Brasil os diversos movimentos para modificar seus limites
+                internos com amplas revoltas e guerras internas. Se cada época cria necessidades novas, também
+                precisaríamos de novos recortes territoriais para atender a sociedade. Como sabemos, a Geografia
+                preocupa-se com a sociedade e seu entorno, seu território. Se as regiões são desarticuladas, perpetuam a
+                pobreza, novos problemas da mesma forma, requerem novas soluções e o território não pode ficar
+                “congelado” no tempo sob o risco de vivermos em uma espaço cada vez mais desigual.</p>
+        </div>
+
+
+
+
+        <div class="borda">
+
+            <p> <span class="primeiraLetra">P:</span> <strong>Qual a relação entre os mapas e o estudo do território
+                    brasileiro?</strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Vimos inúmeros mapas e esse conhecimento está relacionado a Cartografia. A Geografia usa a Cartografia
+                como uma linguagem para revelar as relações sociais que ocorrem com o território. Os mapas nos permitem
+                visualizar adequadamente os problemas do país como áreas vazias de escolas, postos de saúde em
+                determinada cidade ou região. Nas cidades podemos constatar as desigualdades entre o centro e a
+                periferia, a faltar de saneamento básico, de bens culturais e de lazer. Tudo isso está mapeado,
+                inclusive por satélites modernos. Com toda essa informação é possível tomar decisões políticas para
+                satisfazer as necessidades atuais da sociedade.
+            </p>
+        </div>
+
+
+        <div class="borda">
+            <p> <span class="primeiraLetra">P:</span><strong> Por que no Brasil se diz que há três poderes? </strong>
+            </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Artigo 2º da Constituição Federal diz o seguinte: São Poderes da União, independentes e harmônicos entre
+                si, o Legislativo, o Executivo e o Judiciário.
+                O Executivo, o Legislativo e o Judiciário são poderes interdependentes, ou seja, devem trabalhar
+                coordenados entre si e fiscalizar uns aos outros. </p>
+
+            <p> O <strong>Executivo</strong> é a instância de poder político que executa as leis e cuida da
+                administração. É exercido, no plano federal, pelo presidente com seus ministros; tem sede no Palácio do
+                Planalto. Em nivel estadual, é exercido pelos governadores e secretários e, na esfera municipal, pelos
+                prefeitos e secretários. </p>
+
+            <p> O <strong>Legislativo</strong> é o poder encarregado de fazer as leis. Em nivel federal, é exercido pelo
+                Congresso Nacional, composto pelo Senado e pela Câmara dos Deputados. Em nível estadual, é exercido pela
+                Assembleia Legislativa e, nos municípios, pela Câmara de Vereadores. </p>
+
+            <p> O poder <strong>Judiciário</strong> é o poder encarregado de fazer com que as leis sejam cumpridas,
+                garantindo os direitos dos indivíduos. Tem sede no Supremo Tribunal Federal, em Brasília. Além do
+                Supremo Tribunal Federal, é exercido pelo Superior Tribunal de Justiça, pelos tribunais eleitorais, de
+                justiça e do trabalho, entre outros órgãos. </p>
+
+        </div>
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
+        <br><br>
+
+
+
+        <hr>
+
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

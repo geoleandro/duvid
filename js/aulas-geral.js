@@ -3,7 +3,7 @@ async function carregarAulas(ano) {
     if (!grid) return;
 
     try {
-       const aulas = await DuvidCache.get(`js/aulas-${ano}ano.json`); // << NOVO
+       const aulas = await DuvidCache.get(`/js/aulas-${ano}ano.json`); // << NOVO
          
        // 1. Atualiza o Painel de RPG no topo
         mostrarProgressoGlobal(aulas, ano);
@@ -16,9 +16,10 @@ async function carregarAulas(ano) {
             return `
             <div class="column" style="margin-bottom: 25px;">
                 <div class="wrapper" style="position: relative;">
-                    <img class="w3-round-large w3-card w3-hover-opacity" 
-                         src="${aula.imagem}" 
-                         alt="${aula.titulo}" 
+                    <img class="w3-round-large w3-card w3-hover-opacity"
+                         src="${aula.imagem}"
+                         alt="${aula.titulo}"
+                         loading="lazy"
                          onclick="document.getElementById('div${aula.id}').style.display='block'"
                          style="width:100%; cursor:pointer; transition: 0.5s; ${status.estilo}">
                     ${status.icone}
@@ -96,9 +97,7 @@ function gerarHtmlModal(aula, status) {
                     <strong>Conteúdo:</strong> ${aula.conteudo}
                 </div>
                 <div class="w3-container w3-padding-16">
-                    <a href="${aula.linkTexto}" class="w3-button ${status.concluido.texto ? 'w3-green' : 'w3-teal'} btn-aula">
-                        ${status.btnTexto}
-                    </a>
+                    ${aula.linkTexto ? `<a href="${aula.linkTexto}" class="w3-button ${status.concluido.texto ? 'w3-green' : 'w3-teal'} btn-aula">${status.btnTexto}</a>` : ''}
                     <a href="${aula.linkQuestoes}" class="w3-button ${status.concluido.quest ? 'w3-blue' : 'w3-yellow'} btn-aula">
                         ${status.btnQuest}
                     </a>
@@ -248,7 +247,7 @@ async function atualizarResumoHome() {
 
     for (const ano of anos) {
         try {
-            const aulas = await DuvidCache.get(`js/aulas-${ano}ano.json`); // << NOVO
+            const aulas = await DuvidCache.get(`/js/aulas-${ano}ano.json`); // << NOVO
 
             const aulasValidas = aulas.filter(a => a && a.id !== undefined);
             const total = aulasValidas.length;

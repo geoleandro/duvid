@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+
+    <title>3º ano - Texto 15 - Geografia das Redes</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+
+        </div>
+
+<div class="topico">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula passada, vimos o que é urbanização, suas causas e consequências
+            para o espaço geográfico. </p>
+
+        <p>Nesta aula, exploraremos outro elemento do espaço: as redes geográficas e seu papel na dinâmica do mundo
+            atual. </p>
+
+        <p>Discutiremos sobre os diferentes tipos de redes, os fluxos internacionais, o papel das empresas
+            multinacionais, as tecnologias da informação e a globalização e faremos uma atividade prática ao final da
+            aula.</p>
+
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+<div class="topico">
+        <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
+            <ol>
+                <li>O que são redes geográficas e qual é a sua importância na dinâmica do espaço geográfico atual?</li>
+
+                <li>Explique o papel das redes técnicas na globalização e dê exemplos de infraestruturas que fazem parte
+                    dessas redes.</li>
+
+                <li>Quais são os principais tipos de redes na atualidade e qual é a função de cada uma delas? Dê
+                    exemplos de cada tipo de rede.</li>
+                <li>Quais são os desafios enfrentados pelo Sul-Global devido à falta de infraestrutura de rede? Como
+                    essa falta de infraestrutura afeta a soberania dos Estados nacionais?</li>
+                <li>Por que a distribuição desigual de datacenters pelo mundo contribui para os desafios enfrentados
+                    pelo Sul-Global? Explique.</li>
+            </ol>
+        </div>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
+
+        <h2>Introdução</h2>
+    
+        <p>Revisão: Urbanização e suas implicações para o espaço geográfico.</p>
+    
+        <p>Tema da Aula: Redes geográficas e sua importância na dinâmica global.</p>
+    
+        <h2>Redes Geográficas</h2>
+    
+        <p>Definição: Conexões que permitem a circulação de pessoas, informações, mercadorias, e dinheiro.</p>
+    
+        <p>Exemplos:</p>
+        <ul>
+            <li>Redes de transporte (estradas, ferrovias, portos, aeroportos).</li>
+            <li>Conexões virtuais (internet, redes de telefonia).</li>
+            <li>Cadeias de produção globais (ex: empresa WEG).</li>
+        </ul>
+    
+        <h2>Redes Técnicas</h2>
+    
+        <p>Definição: Infraestruturas que possibilitam a movimentação de informações e recursos.</p>
+    
+        <p>Exemplos:</p>
+        <ul>
+            <li>Internet e sua importância global.</li>
+            <li>Cabos submarinos de fibra óptica.</li>
+            <li>Sistemas de logística e cadeias de suprimentos.</li>
+        </ul>
+    
+        <h2>Redes Financeiras</h2>
+    
+        <p>Definição: Circulação de capital em escala global.</p>
+    
+        <p>Exemplo:</p>
+        <ul>
+            <li>Rede de agências bancárias do Banco do Brasil.</li>
+        </ul>
+    
+        <h2>Redes Informacionais</h2>
+    
+        <p>Definição: Tecnologias da informação que permitem acesso instantâneo à informação.</p>
+    
+        <p>Exemplos:</p>
+        <ul>
+            <li>Internet.</li>
+            <li>Redes de comunicação via satélite e fibra óptica.</li>
+        </ul>
+    
+        <h2>Redes de Empresas ou Empresas em Rede</h2>
+    
+        <p>Definição: Estruturas que conectam unidades de produção e parceiros comerciais globalmente.</p>
+    
+        <p>Exemplo:</p>
+        <ul>
+            <li>Amazon e sua rede de centros de distribuição no Brasil.</li>
+        </ul>
+    
+        <h2>Desafios do Sul-Global</h2>
+    
+        <p>Falta de Infraestrutura de Rede: Acesso limitado à internet e sistemas de transporte de dados deficientes.</p>
+    
+        <p>Impacto na Soberania: Dificuldades em exercer controle sobre a circulação de informações e proteger dados.</p>
+    
+        <p>Distribuição Desigual de Datacenters: Concentração em países desenvolvidos, criando disparidades tecnológicas.</p>
+
+        </div>
+    
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    
+    </div>
+<div class="topico">
+        <h2>Definição de Redes Geográficas:</h2>
+
+        <div class="w3-margin"><img id="imagem1" src="tt15f01.png"
+                alt="Foto do globo terrestre rodeado por conexões em rede" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao1">Fonte: freepik.com </span>
+
+        </div>
+        <p>As redes geográficas são como teias que conectam diferentes lugares do mundo, permitindo a circulação de
+            pessoas, informações, mercadorias e dinheiro. Imagine-as como grandes linhas invisíveis que unem cidades,
+            países e continentes. Um exemplo claro de rede geográfica são as redes de transporte, como estradas,
+            ferrovias, portos e aeroportos, que facilitam a movimentação de pessoas e produtos de um lugar para outro.
+        </p>
+
+
+
+        <p>Além disso, as redes geográficas também englobam as conexões virtuais, como a internet e as redes de
+            telefonia, que nos permitem estar conectados instantaneamente com pessoas do outro lado do mundo. Por
+            exemplo, hoje em dia é possível conversar com alguém que esteja do outro lado do planeta em tempo real
+            através de aplicativos de mensagens ou redes sociais.</p>
+
+        <p>Outro exemplo importante de rede geográfica são as cadeias de produção globais, onde componentes de um
+            produto são fabricados em diferentes países e depois montados em outro lugar. </p>
+
+
+        <div class="w3-margin"><img id="imagem2" src="tt15f02.png" alt="Mapa mostrando a presença global da Empresa WEG"
+                class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao2"> Fonte: weg </span>
+        </div>
+
+
+        <p> Por exemplo, a empresa brasileira WEG, especializada em tecnologia elétrica e automação, faz parte de
+            diversas cadeias de produção globais. Seus motores elétricos, por exemplo, podem ter componentes fabricados
+            em diferentes países, como ímãs produzidos na China, carcaças fabricadas no Brasil e sistemas de controle
+            desenvolvidos na Alemanha. </p>
+
+        <p>Esses componentes são então integrados em fábricas ao redor do mundo para produzir os produtos finais. Essa
+            interconexão entre diferentes países e empresas é essencial para a eficiência e competitividade no mercado
+            globalizado, demonstrando como as redes geográficas impactam diretamente a economia e a produção em escala
+            global.</p>
+
+        <p>É importante entender que as redes geográficas não são apenas físicas, mas também envolvem ações e interações
+            entre pessoas e lugares. Por exemplo, o turismo é uma forma de rede geográfica, onde pessoas viajam para
+            diferentes destinos em busca de lazer, cultura ou aventura, contribuindo para a integração entre diferentes
+            regiões do mundo.</p>
+
+        <div class="w3-margin"><img id="imagem3" src="tt15f03.png" alt="Gráfico sobre o turismo internacional em 2022"
+                class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao3"> </span>
+
+        </div>
+
+        <p>Portanto, as redes geográficas são fundamentais para a compreensão da organização e funcionamento do mundo
+            contemporâneo, permitindo a interligação e interdependência entre os diversos espaços e sociedades. Entender
+            como essas redes funcionam é essencial para compreendermos os desafios e oportunidades da globalização e da
+            vida em um mundo cada vez mais conectado.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+        <h2>Redes Técnicas:</h2>
+        <p>As redes técnicas são como as veias e artérias do mundo moderno, responsáveis por conectar e possibilitar a
+            movimentação de informações, recursos e mercadorias em escala global. Elas desempenham um papel crucial na
+            era da globalização, permitindo a interconexão entre diferentes partes do mundo e facilitando a integração
+            econômica entre países e regiões.</p>
+
+        <div class="w3-margin"><img id="imagem4" src="tt15f04.png"
+                alt="Figura sobre os países com mais usuários de internet no mundo" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao4">Fonte: https://www.folhape.com.br/ </span>
+
+        </div>
+
+        <p>Um exemplo claro de rede técnica é a internet, que se tornou uma ferramenta indispensável para a comunicação
+            e troca de informações em todo o mundo. Por meio da internet, é possível enviar e receber mensagens, acessar
+            conteúdo multimídia, realizar transações comerciais e até mesmo trabalhar remotamente, conectando pessoas e
+            organizações independentemente da distância física.</p>
+
+        <p>Além da internet, as redes técnicas também englobam sistemas de transporte, como estradas, ferrovias, portos
+            e aeroportos, que permitem a circulação de mercadorias e pessoas entre diferentes localidades. Essas
+            infraestruturas são essenciais para o funcionamento da economia global, possibilitando o comércio
+            internacional e o fluxo de bens e serviços entre os países.</p>
+
+        <div class="w3-margin"><img id="imagem5" src="tt15f05.png" alt="Mapa sobre os fluxos aéreos no mundo"
+                class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao5"> Fonte: Atlas Geográfico Escolar – IBGE. </span>
+        </div>
+
+
+        <p>Outro exemplo importante de rede técnica são os cabos submarinos de fibra óptica, que constituem a espinha
+            dorsal da internet mundial, permitindo a transmissão rápida e eficiente de dados entre continentes. Esses
+            cabos são responsáveis por conectar países e continentes e garantir a comunicação instantânea em escala
+            global.</p>
+
+
+        <div class="w3-margin"><img id="imagem6" src="tt15f06.png"
+                alt="Cabo submarino mostrando conexões na América Latina" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao6">Fonte: https://olhardigital.com.br </span>
+
+        </div>
+
+
+        <p>Além disso, as redes técnicas também incluem sistemas de logística e cadeias de suprimentos globais, que
+            coordenam o transporte, armazenamento e distribuição de mercadorias em todo o mundo. Esses sistemas são
+            fundamentais para garantir o abastecimento de produtos e matérias-primas em diferentes partes do mundo,
+            contribuindo para a eficiência e competitividade das empresas no mercado globalizado.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+        <h2>Redes Financeiras:</h2>
+        <p>As redes financeiras são responsáveis pela circulação rápida do capital em escala global. Elas conectam
+            instituições financeiras, como bancos, bolsas de valores e fundos de investimento, permitindo a realização
+            de transações financeiras complexas em questão de segundos.</p>
+
+
+        <div class="w3-margin"><img id="imagem7" src="tt15f07.png"
+                alt="Número de agências por banco em dezembro de 2022 no Brasil" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao7"> Fonte: Organizado pelo autor. </span>
+        </div>
+
+        <p>Um exemplo da rede de agências bancárias no Brasil é a rede do Banco do Brasil, uma das maiores instituições
+            financeiras do país. O Banco do Brasil possui milhares de agências espalhadas por todo o território
+            nacional, conectando áreas urbanas e rurais, grandes centros financeiros e regiões mais remotas. Essa
+            extensa rede de agências bancárias permite que os clientes tenham acesso a uma variedade de serviços
+            financeiros, como abertura de contas, empréstimos, investimentos e pagamentos, contribuindo para a inclusão
+            financeira e para a movimentação da economia em diferentes localidades do Brasil.</p>
+
+        <h2>Redes Informacionais:</h2>
+
+        <p>As redes informacionais são baseadas em tecnologias da informação, como a internet, e permitem o acesso
+            instantâneo à informação em qualquer lugar do mundo. A internet é o exemplo mais proeminente de rede
+            informacional, conectando bilhões de dispositivos e possibilitando a comunicação e troca de dados em tempo
+            real.</p>
+
+
+
+        <div class="w3-margin"><img id="imagem8" src="tt15f08.png" alt="Rede de comunicação via satélite"
+                class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao8"> </span>
+
+        </div>
+
+
+        <p>Além da internet, as redes informacionais também incluem redes de comunicação via satélite, fibra óptica e
+            telefonia móvel, que permitem a troca de informações em alta velocidade e em escala global. Essas redes
+            desempenham um papel crucial na disseminação de conhecimento, na comunicação entre pessoas e na coordenação
+            de atividades em diferentes partes do mundo.</p>
+
+        <h2>Redes de Empresas ou Empresas em Rede:</h2>
+
+        <p>As redes de empresas, ou empresas em rede, são estruturas organizacionais que visam otimizar a atividade
+            produtiva em escala global. Elas conectam diferentes unidades de produção, fornecedores, distribuidores e
+            parceiros comerciais, permitindo uma coordenação eficiente das operações empresariais em todo o mundo.</p>
+
+        <p>A Amazon é um exemplo emblemático de empresa em rede que opera em escala global. No Brasil, a Amazon
+            estabeleceu uma rede de centros de distribuição estrategicamente localizados para atender à demanda dos
+            clientes em todo o país. Esses centros de distribuição, como o localizado em Cajamar, São Paulo, são
+            responsáveis por receber, armazenar e distribuir os produtos vendidos pela empresa aos consumidores
+            brasileiros. </p>
+
+        <div class="w3-margin"><img id="imagem10" src="tt15f10.png"
+                alt="Centro de distribuição da Amazon em Cajamar, São Paulo." class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao10"> Fonte:
+                https://todologisticanews.com/site/amazon-novo-centro-de-distribuicao-em-cajamar/ </span>
+        </div>
+
+        <p> Por meio dessa infraestrutura logística, a Amazon consegue agilizar a entrega de encomendas e oferecer um
+            serviço de qualidade aos seus clientes, contribuindo para a sua operação eficiente em escala global.</p>
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+        <h2>Controle da Informação nas Redes do Mundo Atual</h2>
+        <p>Vamos discutir os desafios enfrentados pelo <span
+                onclick="document.getElementById('Sul-Global').style.display='block'"
+                class="w3-yellow">Sul-Global</span> devido à falta de infraestrutura de rede, que levanta questões
+            cruciais sobre a soberania dos Estados nacionais nessa parte do mundo.</p>
+
+
+
+
+        <div id="Sul-Global" class="w3-modal w3-margin-top">
+            <div class="w3-modal-content">
+                <div class="w3-container w3-padding">
+                    <span onclick="document.getElementById('Sul-Global').style.display='none'"
+                        class="w3-button w3-red w3-display-topright">&times;</span>
+                    <p><strong>Países do Sul-Global</strong> é um termo frequentemente utilizado para se referir a
+                        países em desenvolvimento ou emergentes. Esses países são caracterizados por uma série de
+                        indicadores socioeconômicos, como baixa renda per capita, infraestrutura limitada, altos índices
+                        de pobreza, acesso restrito a serviços básicos de saúde e educação, além de enfrentarem desafios
+                        significativos no desenvolvimento econômico e social.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <h3>Falta de Infraestrutura de Rede:</h3>
+        <p>No Sul-Global, muitas regiões enfrentam uma grave escassez de infraestrutura de rede, incluindo acesso
+            limitado à internet de alta velocidade, redes de comunicação deficientes e sistemas de transporte de dados
+            subdesenvolvidos. Essa falta de infraestrutura dificulta o acesso à informação, a comunicação eficaz e a
+            participação na economia digital global.</p>
+
+        <h3><span onclick="document.getElementById('Soberania').style.display='block'"
+                class="w3-yellow">Soberania</span> dos Estados Nacionais:</h3>
+
+
+
+        <div id="Soberania" class="w3-modal w3-margin-top">
+            <div class="w3-modal-content">
+                <div class="w3-container w3-padding">
+                    <span onclick="document.getElementById('Soberania').style.display='none'"
+                        class="w3-button w3-red w3-display-topright">&times;</span>
+                    <p><strong>Soberania</strong> é o princípio fundamental que estabelece o poder supremo e
+                        incontestável de um Estado sobre seu território, governo, população e assuntos internos e
+                        externos. Em outras palavras, é a autoridade máxima que um Estado possui para governar a si
+                        mesmo, sem interferência externa de outros Estados ou autoridades. A soberania é um elemento
+                        essencial da organização política e jurídica dos Estados modernos, sendo um dos pilares do
+                        direito internacional. Ela implica o direito exclusivo de um Estado de tomar decisões e exercer
+                        controle sobre seus próprios assuntos, incluindo questões políticas, econômicas, sociais,
+                        culturais e de segurança.
+
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <p>A ausência de infraestrutura de rede no Sul-Global levanta preocupações sobre a soberania dos Estados
+            nacionais nessa parte do mundo. Sem uma infraestrutura de rede robusta e eficiente, os governos podem
+            enfrentar dificuldades para exercer controle sobre a circulação de informações, proteger os dados pessoais
+            dos cidadãos e regular as atividades online dentro de suas fronteiras.</p>
+
+        <h3>Datacenters no Mundo:</h3>
+        <p>Além disso, a distribuição desigual de datacenters pelo mundo também contribui para os desafios enfrentados
+            pelo Sul-Global. Os datacenters são infraestruturas essenciais para o armazenamento e processamento de dados
+            na era digital. </p>
+
+
+        <div class="w3-margin"><img id="imagem9" src="tt15f09.png" alt="tt15f09" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao9"> Fonte: Datacenter Baxtel da empresa Google, Holanda.
+            </span>
+        </div>
+
+
+
+
+        <p> No entanto, a maioria dos datacenters está concentrada em países desenvolvidos, enquanto as regiões do
+            Sul-Global têm uma presença significativamente menor. </p>
+
+
+        <p> Isso cria disparidades no acesso à tecnologia e na capacidade de processar e utilizar dados, afetando a
+            capacidade dessas regiões de competir no cenário global e de exercer controle sobre seus próprios dados.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+
+        <h2 id="centralizado">"A pergunta não é uma marca de ignorância, mas sim um sinal de inteligência."
+            (Sócrates).</h2>
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+                Como as redes geográficas podem influenciar o desenvolvimento econômico de uma região?
+            </strong> </p>
+
+        <p><span class="primeiraLetra">R:</span> As redes geográficas podem influenciar o desenvolvimento econômico de
+            uma
+            região ao facilitar o transporte de mercadorias, promover o turismo, estimular a migração de mão de obra e
+            atrair investimentos para áreas estratégicas.</p>
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+                Quais são os impactos ambientais das infraestruturas de rede, como estradas e ferrovias, nas regiões
+                atravessadas?
+            </strong></p>
+
+        <p><span class="primeiraLetra">R:</span> As infraestruturas de rede, como estradas e ferrovias, podem causar
+            impactos ambientais significativos, incluindo fragmentação de habitats naturais, poluição do ar e da água,
+            desmatamento e perda de biodiversidade.</p>
+
+        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+                Qual é a importância das redes geográficas na distribuição de recursos naturais e na exploração de
+                oportunidades econômicas?
+            </strong></p>
+
+        <p><span class="primeiraLetra">R:</span> As redes geográficas desempenham um papel fundamental na distribuição
+            de
+            recursos naturais e na exploração de oportunidades econômicas ao conectar áreas produtoras de
+            matérias-primas
+            com centros de consumo e áreas de produção industrial, facilitando o comércio e a especialização econômica.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
+        <br><br>
+
+        <hr>
+
+    </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+        </div>
+
+    </div>
+
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-bottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+</html>

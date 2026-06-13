@@ -64,42 +64,62 @@
                     <div class="secao-credito">
                         <h3 class="w3-text-green"><i class="fa fa-university"></i> Apoio Institucional</h3>
                         <p><b>IFSP</b> - Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</p>
-                        <p><b>Inova-IFSP</b> - Agência de Inovação e Transferência de Tecnologia</p>
+                        <p><b>INOVA-IFSP</b> - Agência de Inovação e Transferência de Tecnologia</p>
+                        <p><b>IFSULDEMINAS</b> - Instituto Federal de Educação, Ciência e Tecnologia do Sul de Minas</p>
                         <a href="https://www.ifsp.edu.br/" class="w3-button w3-light-grey w3-round w3-small"
                             target="_blank">Visitar Site IFSP</a>
                     </div>
 
                     <div class="secao-credito">
                         <h3 class="w3-text-green"><i class="fa fa-code"></i> Programação e Artes</h3>
-                        <p><b>Prof. Dr. Leandro Henrique da Silva</b> (Coordenação, Programação e Artes)</p>
+                        <p>Prof. Dr. Leandro Henrique da Silva (Coordenação, Programação e Artes)</p>
                         <a href="http://lattes.cnpq.br/4928799349990756" target="_blank" class="w3-text-blue">Currículo
                             Lattes</a>
+                    </div>
 
+                    <div class="secao-credito w3-margin-bottom">
+                        <h3 class="w3-text-green"><i class="fa fa-users"></i> Projeto de Extensão - IFSULDEMINAS</h3>
+                        <p class="w3-opacity">Modernização da plataforma Duvid</p>
+
+                        <div class="w3-container w3-border-left w3-border-green">
+                            <p><strong>2025</strong></p>
+                            <p class="w3-small"><strong>Programação:</strong></p>
+                            <ul class="w3-ul w3-small">
+                                <li>João Miguel Soares Mansano - Eng. Computação - IFSULDEMINAS</li>
+                                <li>Thauan Stanziola Souza Vieira - Integrado Téc. em informática</li>
+                            </ul>
+
+                            <p class="w3-small"><strong>Conteúdo:</strong></p>
+                            <ul class="w3-ul w3-small">
+                                <li>Felipe Coutinho Bernardes - Licenciatura em Geografia - UNIFAL</li>
+                                <li>Gabrielle Barbosa Lopes - Mestrado em Geografia - UNIFAL</li>
+                            </ul>
+
+                            <p><strong>2026</strong></p>
+                            <ul class="w3-ul w3-small">
+                                <li><b>Arte visual:</b> Samuel Silva - Integrado Téc. em informática</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
                 <div class="w3-half">
-                    <div class="secao-credito w3-margin-bottom">
-                        <h3 class="w3-text-green"><i class="fa fa-users"></i> Projeto de Extensão - IFSULDEMINAS</h3>
-                        <p class="w3-opacity">Produção de material didático (Poços de Caldas)</p>
-
-                        <div class="w3-container w3-border-left w3-border-green">
-                            <p><strong>2025</strong></p>
-                            <ul class="w3-ul w3-small">
-                                <li><b>Programação:</b> João Miguel Soares Mansano & Thauan Stanziola Souza Vieira</li>
-                                <li><b>Conteúdo:</b> Felipe Coutinho Bernardes & Gabrielle Barbosa Lopes</li>
-                            </ul>
-                        </div>
-                    </div>
-
                     <div class="secao-credito">
                         <h3 class="w3-text-green"><i class="fa fa-gamepad"></i> Projeto de Ensino - Jogo Digital</h3>
 
                         <div class="w3-container w3-border-left w3-border-green">
                             <p><strong>2025 - 2026</strong></p>
+                            <p class="w3-small"><strong>Programação:</strong></p>
                             <ul class="w3-ul w3-small">
-                                <li><b>Programação:</b> Cecília Ramos da Silva</li>
-                                <li><b>Artes:</b> Elisa Miglioranzi Monteiro</li>
+                                <li>Cecília Ramos da Silva - Eng. Computação - IFSULDEMINAS</li>
+                                <li>Leticia Maria Batista Carneiro - Eng. Computação - IFSULDEMINAS</li>
+                                <li>Paulo Vitor Moterani Fulaneto - Eng. Computação - IFSULDEMINAS</li>
+                            </ul>
+
+                            <p class="w3-small"><strong>Artes</strong></p>
+                            <ul class="w3-ul w3-small">
+                                <li>Elisa Miglioranzi Monteiro - Integrado Téc. em informática</li>
+                                <li>Miguel Caetano Carneiro - Integrado Téc. em informática</li>
                             </ul>
                         </div>
                     </div>

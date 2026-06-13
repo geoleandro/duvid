@@ -2,27 +2,14 @@ document.addEventListener("DOMContentLoaded", function () {
     injetarComponentesGlobais();
     aplicarTemaSalvo();
     inicializarControleFonte();
-    resolverImagensBase();
-});
 
-// Resolve <img data-base-src="foo/bar.png"> usando a base do projeto.
-// Útil para imagens dentro de header/footer que precisam funcionar em
-// qualquer profundidade de página.
-function resolverImagensBase() {
-    const imgs = document.querySelectorAll('img[data-base-src]');
-    imgs.forEach(img => {
-        const path = img.dataset.baseSrc;
-        if (!path) return;
-        img.src = (typeof duvidUrl === "function") ? duvidUrl(path) : path;
-    });
-}
+});
 async function injetarComponentesGlobais() {
     const carregarRecurso = async (id, path) => {
         const container = document.getElementById(id);
         if (container && container.innerHTML.trim() === "") {
             try {
-                const finalUrl = (typeof duvidUrl === "function") ? duvidUrl(path) : path;
-                const res = await fetch(finalUrl);
+                const res = await fetch(path);
                 if (res.ok) {
                     container.innerHTML = await res.text();
                     return true;
@@ -35,12 +22,9 @@ async function injetarComponentesGlobais() {
     };
 
     // 1. Carrega o Header e trata o painel de pontos
-    const hOk = await carregarRecurso('header-placeholder', 'includes/header.php');
+    const hOk = await carregarRecurso('header-placeholder', '/includes/header.html');
     
     if (hOk) {
-        // Resolve imagens com data-base-src dentro do header recém-injetado
-        if (typeof resolverImagensBase === "function") resolverImagensBase();
-
         const painel = document.getElementById("painel-pontos");
         
         // Verifica se deve mostrar o globinho
@@ -51,7 +35,7 @@ async function injetarComponentesGlobais() {
             // Sincroniza a nota inicial se ela já existir no script da aula
             if (typeof nota !== 'undefined') {
                 const displayNota = document.getElementById("notaFixa");
-                if (displayNota) displayNota.innerHTML = nota.toFixed(1);
+                if (displayNota) displayNota.innerHTML = Math.floor(nota);
             }
         } else if (painel) {
             painel.style.display = "none"; // Garante que fique oculto na Home/Blog
@@ -59,7 +43,7 @@ async function injetarComponentesGlobais() {
     }
 
     // 2. Carrega o Footer e atualiza o ano
-    const fOk = await carregarRecurso('footer-placeholder', 'includes/footer.php');
+    const fOk = await carregarRecurso('footer-placeholder', '/includes/footer.html');
 
     if (fOk) {
         const spanAno = document.getElementById('ano-atual');
@@ -69,7 +53,30 @@ async function injetarComponentesGlobais() {
     // 3. Inicializa as ferramentas de acessibilidade
     if (typeof aplicarTemaSalvo === "function") aplicarTemaSalvo(); // Garante o tema antes do ícone
     if (typeof inicializarLogicaDarkMode === "function") inicializarLogicaDarkMode();
+    if (typeof inicializarLogicaSom === "function") inicializarLogicaSom();
     if (typeof inicializarControleFonte === "function") inicializarControleFonte();
+}
+
+// Botão de som na navbar — mesmo padrão do dark-mode (delegação de clique,
+// pois o header é injetado de forma assíncrona). O estado real vive no DuvidAudio.
+function inicializarLogicaSom() {
+    const upIcon = () => {
+        const btn = document.getElementById('toggle-som');
+        if (!btn) return;
+        const mudo = (typeof somEstaMudo === "function") && somEstaMudo();
+        btn.innerHTML = mudo
+            ? '<i class="fa fa-volume-off fa-fw"></i>'
+            : '<i class="fa fa-volume-up fa-fw"></i>';
+        btn.title = mudo ? 'Som desligado' : 'Som ligado';
+    };
+    document.addEventListener('click', (e) => {
+        const btn = e.target.closest('#toggle-som');
+        if (btn) {
+            if (typeof toggleSom === "function") toggleSom();
+            upIcon();
+        }
+    });
+    upIcon();
 }
 
 /**
@@ -77,12 +84,13 @@ async function injetarComponentesGlobais() {
  * baseada na existência de elementos de aula.
  */
 function verificarSeEhAula() {
-    // Procura pela barra de progresso ou pelos tópicos da aula
-    const temProgresso = document.getElementById("progress");
-    const temTopicos = document.querySelector(".topico");
-    
-    // Retorna verdadeiro se qualquer um dos dois existir
-    return !!(temProgresso || temTopicos);
+    // Textos: têm barra de progresso ou tópicos
+    const temProgresso   = document.getElementById("progress");
+    const temTopicos     = document.querySelector(".topico");
+    // Questões: têm container-questao
+    const temQuestoes    = document.getElementById("container-questao");
+
+    return !!(temProgresso || temTopicos || temQuestoes);
 }
 
 
@@ -173,4 +181,5 @@ function voltarAoTopo() {
 window.onscroll = function () {
     mostrarBotaoTopo();
 };
+
 

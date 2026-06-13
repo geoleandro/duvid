@@ -1,0 +1,232 @@
+[
+  {
+    "id": 1,
+    "instituicao": "ENEM",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "sustentabilidade",
+      "desenvolvimento sustentável",
+      "questões ambientais"
+    ],
+    "texto_apoio": "“A produtividade ecológica articula-se com uma produtividade tecnológica, porque não se deve renunciar a todas as possibilidades da ciência e da técnica, e sim reencaminhar muitas delas para a construção desse novo paradigma produtivo. Essa construção social, porém, não pode ser guiada por um planejamento centralizado da tecnologia normatizada pela ecologia. A alma dessa nova economia humana são os valores culturais. Cada cultura dá significado a seus conhecimentos, a sua natureza, recriando-a e abrindo o fluxo de possibilidades de coevolução, articulando o pensamento humano com o potencial da natureza. ”",
+    "fonte_apoio": "LEFF, E. Discursos sustentáveis. São Paulo: Cortez, 2010 (adaptado).",
+    "pergunta": "O paradigma produtivo apresentado no texto tem como base a harmonização entre tecnologia e ecologia e propõe uma sustentabilidade pautada no(a)",
+    "alternativas": [
+      "ideia de natureza intocada.",
+      "lógica de mercado internacional.",
+      "respeito ao saber local comunitário.",
+      "desenvolvimento de cultivos orgânicos.",
+      "retorno às práticas agrícolas arcaicas."
+    ],
+    "correta": 2,
+    "comentario": "O desenvolvimento sustentável que respeita o saber local comunitário é chamado de etnodesenvolvimento ou agroecologia. Povos indígenas e comunidades tradicionais possuem conhecimento milenar sobre uso dos recursos naturais sem esgotá-los. Reconhecer esse saber na formulação de políticas ambientais é fundamental — e é exatamente o que a Convenção sobre Diversidade Biológica (CDB) preconiza.",
+    "ajuda": "O paradigma produtivo descrito provavelmente é o desenvolvimento sustentável, a economia circular ou a ecologia industrial. Identifique como o texto caracteriza a relação entre tecnologia e ecologia nesse modelo e avalie qual alternativa melhor representa essa ideia."
+  },
+  {
+    "id": 2,
+    "instituicao": "FUVEST",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "resíduos sólidos",
+      "poluição",
+      "questões ambientais"
+    ],
+    "fonte_apoio": "http://www.revistapesquisafapesp.br, maio de 2016.",
+    "imagem_apoio": "1ano/img/132/p32q2.png",
+    "pergunta": "Nas últimas décadas, descobriu-se que os volumosos e inadequados descartes de resíduos plásticos e de outros materiais sintéticos, mesmo quando realizados nos continentes, podem resultar em consideráveis depósitos em áreas distantes nos oceanos e mares, seja em seu fundo, na coluna d’água, ou na sua superfície. Como consequência, ocorrem mudanças físicas, químicas e ecológicas nesses oceanos e mares, em que alguns desses depósitos já atingem a escala planetária, como é o caso dos materiais plásticos flutuantes representados na figura.\n\nOs depósitos flutuantes representados na figura apresentam-se.",
+    "alternativas": [
+      "com padrões concentrados na parte interna dos giros oceânicos do Pacífico norte e sul, locais de menor atividade das grandes correntes marinhas.",
+      "com maior acumulação no litoral de ambos os hemisférios, devido à atuação de importantes correntes marinhas nessas áreas.",
+      "mais volumosos no hemisfério norte, em função das menores temperaturas de suas águas, o que faz aumentar a velocidade de correntes, como a do Peru e a do Japão.",
+      "com concentrações idênticas em ambos os hemisférios, devido à forte atuação de importantes correntes marinhas que transitam do hemisfério norte ao sul.",
+      "mais concentrados e abundantes no hemisfério norte, devido à grande mobilidade de importantes correntes marinhas, como a de Humboldt e a de Madagascar."
+    ],
+    "correta": 0,
+    "comentario": "As 'ilhas de plástico' nos oceanos concentram-se nos giros oceânicos — correntes circulares criadas pela rotação da Terra e pelos ventos. Os plásticos levados pelos rios convergem nesses giros e ficam presos. O Great Pacific Garbage Patch (Pacífico Norte) é o mais conhecido, com ~1,6 milhão de km² de microplásticos e plásticos flutuantes — duas vezes o tamanho do Texas.",
+    "ajuda": "Os resíduos plásticos e outros materiais descartados inadequadamente acumulam-se nos oceanos, solos e ar, causando poluição ambiental severa. A microplástico é um dos maiores problemas atuais, contaminando cadeias alimentares marinhas e até o sangue humano."
+  },
+  {
+    "id": 3,
+    "instituicao": "CFTMG",
+    "ano": "2017",
+    "dificuldade": "dificil",
+    "tags": [
+      "questões ambientais globais",
+      "cartografia temática",
+      "impactos ambientais"
+    ],
+    "imagem_apoio": "1ano/img/132/p32q3.png",
+    "pergunta": "Observe o mapa em sequência.\n\nA partir da análise do mapa, é INCORRETO afirmar que a vegetação primária indicada pela letra.",
+    "alternativas": [
+      "C, caracteriza-se por espécies latifoliadas de grande porte, com regimes pluviométricos elevados.",
+      "D, possui um perfil morfológico diverso, englobando desde campos herbáceos até árvores esparsas.",
+      "B, é relativamente homogênea, sendo historicamente impactada pela exploração da madeira.",
+      "A, é marcada pela presença de pequenos vegetais espaçados entre si, com predominância de líquens e musgos."
+    ],
+    "correta": 0,
+    "comentario": "A vegetação primária indicada como C no mapa — geralmente floresta tropical densa — é caracterizada por espécies latifoliadas (folhas largas) de grande porte e regimes pluviométricos elevados (acima de 1.500-2.000 mm/ano). Afirmar o contrário — que essa vegetação não tem essas características — é incorreto segundo os conceitos de biogeografia.",
+    "ajuda": "O mapa provavelmente representa a cobertura vegetal atual de um bioma em comparação com sua extensão original. A questão pede a alternativa INCORRETA. Verifique as afirmativas: taxa de desmatamento, localização geográfica, ameaças à biodiversidade."
+  },
+  {
+    "id": 4,
+    "instituicao": "ENEM",
+    "ano": "2015",
+    "dificuldade": "media",
+    "tags": [
+      "questões ambientais globais",
+      "políticas ambientais",
+      "sustentabilidade"
+    ],
+    "texto_apoio": "“A questão ambiental, uma das principais pautas contemporâneas, possibilitou o surgimento de concepções políticas diversas, dentre as quais se destaca a preservação ambiental, que sugere uma ideia de intocabilidade da natureza e impede o seu aproveitamento econômico sob qualquer justificativa.”",
+    "fonte_apoio": "PORTO-GONÇALVES, C. W. A globalização da natureza e a natureza da globalização. Rio de Janeiro: Civilização Brasileira, 2006 (adaptado).",
+    "pergunta": "Considerando as atuais concepções políticas sobre a questão ambiental, a dinâmica caracterizada no texto quanto à proteção do meio ambiente está baseada na:",
+    "alternativas": [
+      "prática econômica sustentável.",
+      "contenção de impactos ambientais.",
+      "utilização progressiva dos recursos naturais.",
+      "proibição permanente da exploração da natureza.",
+      "definição de áreas prioritárias para a exploração econômica."
+    ],
+    "correta": 3,
+    "comentario": "A proibição permanente da exploração da natureza não é uma posição adotada por nenhum governo ou acordo internacional — ela seria inviável do ponto de vista econômico e social. O debate ambiental contemporâneo centra-se no uso sustentável dos recursos, que permite a exploração desde que dentro dos limites de regeneração dos ecossistemas e com distribuição justa dos benefícios.",
+    "ajuda": "A questão aborda as concepções políticas sobre a questão ambiental, como o ambientalismo radical, o ecologismo moderado e o desenvolvimento sustentável. Identifique qual corrente política melhor se encaixa à caracterização descrita."
+  },
+  {
+    "id": 5,
+    "instituicao": "UCS",
+    "ano": "2013",
+    "dificuldade": "facil",
+    "tags": [
+      "efeito estufa",
+      "aquecimento global",
+      "gases de efeito estufa"
+    ],
+    "imagem_apoio": "1ano/img/132/p32q5.png",
+    "pergunta": "O efeito estufa é um processo em que o calor proveniente do Sol é absorvido pela Terra e posteriormente é irradiado para a atmosfera, onde parte desse calor fica retido devido à presença de gases, como o vapor d’água, o gás carbônico e o metano.\n\nAnalise a veracidade (V) ou a falsidade (F) das afirmações a seguir, relacionadas ao efeito estufa.\n\n( ) O efeito estufa é um processo natural que, se não existisse, tornaria a Terra um planeta gelado e inabitável para a maioria dos seres vivos.\n\n( ) O aumento da emissão de gases, como o gás carbônico e o metano, pode gerar um aumento na retenção de calor na atmosfera, aquecendo nosso planeta.\n\n( ) uma fonte emissora de metano é o rebanho de gado bovino, pois tais animais eliminam grandes quantidades desse gás, proveniente do metabolismo dos seus tratos digestórios.\n\n( ) A quantidade de gás carbônico na atmosfera vem aumentando desde a Revolução Industrial.\n\nAssinale a alternativa que preenche corretamente os parênteses, de cima para baixo.",
+    "alternativas": [
+      "V – F – F – V.",
+      "F – V – V – F.",
+      "F – F – V – F.",
+      "V – V – F – V.",
+      "V – V – V – V."
+    ],
+    "correta": 4,
+    "comentario": "O efeito estufa natural é essencial para a vida — sem ele, a temperatura média da Terra seria de -18°C. Os gases de efeito estufa (CO₂, metano, vapor d'água, N₂O) absorvem a radiação infravermelha emitida pela Terra e a re-irradiam para a superfície. O problema atual é a intensificação antrópica desse efeito, que está elevando a temperatura global além dos limites históricos.",
+    "ajuda": "O efeito estufa é um fenômeno natural essencial para a manutenção da temperatura da Terra. O problema é o efeito estufa intensificado pela queima de combustíveis fósseis, que aumenta a concentração de CO₂, metano e outros gases e eleva a temperatura média global."
+  },
+  {
+    "id": 6,
+    "instituicao": "ENEM",
+    "ano": "2011",
+    "dificuldade": "media",
+    "tags": [
+      "resíduos sólidos",
+      "consumo",
+      "questões ambientais"
+    ],
+    "texto_apoio": "“Como os combustíveis energéticos, as tecnologias da informação são, hoje em dia, indispensáveis em todos os setores econômicos. Através delas, um maior número de produtores é capaz de inovar e a obsolescência de bens e serviços se acelera. Longe de estender a vida útil dos equipamentos e a sua capacidade de reparação, o ciclo de vida desses produtos diminui, resultando em maior necessidade de matéria-prima para a fabricação de novos.”",
+    "fonte_apoio": "GROSSARD, C. Le Monde Diplomatique Brasil. Ano 3, nº 36, 2010 (adaptado)",
+    "pergunta": "A postura consumista de nossa sociedade indica a crescente produção de lixo, principalmente nas áreas urbanas, o que, associado a modos incorretos de deposição,",
+    "alternativas": [
+      "provoca a contaminação do solo e do lençol freático, ocasionando assim graves problemas socioambientais, que se adensarão com a continuidade da cultura do consumo desenfreado.",
+      "produz efeitos perversos nos ecossistemas, que são sanados por cadeias de organismos decompositores que assumem o papel de eliminadores dos resíduos depositados em lixões.",
+      "multiplica o número de lixões a céu aberto, considerados atualmente a ferramenta capaz de resolver de forma simplificada e barata o problema de deposição de resíduos nas grandes cidades.",
+      "estimula o empreendedorismo social, visto que um grande número de pessoas, os catadores, têm livre acesso aos lixões, sendo assim incluídos na cadeia produtiva dos resíduos tecnológicos.",
+      "possibilita a ampliação da quantidade de rejeitos que podem ser destinados a associações e cooperativas de catadores de materiais recicláveis, financiados por instituições da sociedade civil ou pelo poder público."
+    ],
+    "correta": 0,
+    "comentario": "O lixo urbano, ao ser disposto de forma inadequada (lixões a céu aberto), contamina o solo e os lençóis freáticos pelo lixiviado (chorume) — líquido escuro e tóxico gerado pela decomposição dos resíduos. Além disso, gera metano (gás de efeito estufa) e atrai vetores de doenças. No Brasil, apesar da Política Nacional de Resíduos Sólidos (2010), ainda existem milhares de lixões ativos.",
+    "ajuda": "A sociedade consumista gera volumes crescentes de resíduos sólidos, especialmente plásticos. As políticas de gestão de resíduos seguem a hierarquia: reduzir, reutilizar, reciclar, recuperar energia e, por último, disposição em aterros."
+  },
+  {
+    "id": 7,
+    "instituicao": "ENEM",
+    "ano": "2010",
+    "dificuldade": "media",
+    "tags": [
+      "questões ambientais",
+      "impactos ambientais",
+      "desenvolvimento econômico"
+    ],
+    "texto_apoio": "“A poluição e outras ofensas ambientais ainda não tinham esse nome, mas já eram largamente notadas no século XIX, nas grandes cidades inglesas e continentais. E a própria chegada ao campo das estradas de ferro suscitou protestos. A reação antimaquinista, protagonizada pelos diversos luddismos, antecipa a batalha atual dos ambientalistas. Esse era, então, o combate social contra os miasmas urbanos”.",
+    "fonte_apoio": "SANTOS M. A natureza do espaço: técnica e tempo, razão e emoção. São Paulo: EDUSP, 2002 (adaptado).",
+    "pergunta": "O crescente desenvolvimento técnico-produtivo impõe modificações na paisagem e nos objetos culturais vivenciados pelas sociedades. De acordo com o texto, pode-se dizer que tais movimentos sociais emergiram e se expressaram por meio:",
+    "alternativas": [
+      "das ideologias conservacionistas, com milhares de adeptos no meio urbano.",
+      "das políticas governamentais de preservação dos objetos naturais e culturais.",
+      "das teorias sobre a necessidade de harmonização entre técnica e natureza.",
+      "dos boicotes aos produtos das empresas exploradoras e poluentes.",
+      "da contestação à degradação do trabalho, das tradições e da natureza."
+    ],
+    "correta": 4,
+    "comentario": "As sociedades tradicionais e povos indígenas resistem à imposição do modelo produtivo capitalista — que mercantiliza a natureza, degrada o trabalho e destrói as tradições culturais. Essa resistência é ao mesmo tempo ambiental, cultural e política. Os conflitos por território entre agronegócio e povos originários no Brasil expressam essa tensão de forma dramática.",
+    "ajuda": "O desenvolvimento técnico-produtivo modifica a paisagem ao substituir formas naturais por formas artificiais (urbanização, indústria, agronegócio). Identifique quais transformações estão sendo descritas e avalie seus impactos ambientais e sociais."
+  },
+  {
+    "id": 8,
+    "instituicao": "UFMG",
+    "ano": "2010",
+    "dificuldade": "dificil",
+    "tags": [
+      "sustentabilidade",
+      "desenvolvimento sustentável",
+      "questões ambientais"
+    ],
+    "imagem_apoio": "1ano/img/132/p32q8.png",
+    "pergunta": "Analise este fluxograma:\n\nA partir da análise desse fluxograma e considerando-se outros conhecimentos sobre o assunto, é INCORRETO afirmar que:",
+    "alternativas": [
+      "a inflamabilidade da floresta decorre de ações humanas associadas, direta ou indiretamente, a causas naturais.",
+      "a redução da cobertura florestal, ao comprometer a evapotranspiração, pode, a longo prazo, acarretar redução das chuvas.",
+      "o aumento do número e da intensidade das queimadas na Amazônia pode tornar-se, num ciclo vicioso, um processo de retroalimentação.",
+      "o fenômeno El Niño tem relação direta, mas favorável, com a redução das queimadas na Amazônia brasileira."
+    ],
+    "correta": 3,
+    "comentario": "El Niño aquece as águas do Pacífico Equatorial e altera os padrões de precipitação globais. No Brasil, tende a aumentar as chuvas no Sul e causar seca no Norte e Nordeste, inclusive na Amazônia. Isso, paradoxalmente, pode aumentar o risco de incêndios na floresta em anos de El Niño forte — quando a Amazônia sofre déficit hídrico e as queimadas se propagam mais facilmente.",
+    "ajuda": "O fluxograma representa provavelmente um ciclo de impactos ambientais, como o ciclo do carbono, o ciclo dos resíduos ou a relação entre desmatamento e erosão. Identifique a lógica de causa e efeito no diagrama e avalie as conclusões possíveis."
+  },
+  {
+    "id": 9,
+    "instituicao": "FCMMG",
+    "ano": "2017",
+    "dificuldade": "facil",
+    "tags": [
+      "desenvolvimento sustentável",
+      "sustentabilidade",
+      "questões ambientais"
+    ],
+    "pergunta": "A definição mais aceita para se considerar o desenvolvimento como sustentável é a de que ele deve ser capaz de suprir as necessidades da geração atual, sem comprometer a capacidade de atender às necessidades das futuras gerações. A ideia é que as atividades humanas não esgotem os recursos naturais, como a água limpa, as terras aráveis e as florestas. Ao mesmo tempo, todo desenvolvimento deve garantir condições de educação, de moradia e de saúde que forneçam vida digna à população.\n\nCom relação ao que se deve considerar sobre o desenvolvimento sustentável e as atitudes que os países devem tomar na sua consecução, todas as afirmações abaixo estão corretas, EXCETO:",
+    "alternativas": [
+      "Se os países não mudarem os diversos modelos predatórios e inconsequentes de desenvolvimento em direção a um modelo mais sustentável, muitas regiões do planeta sofrerão as consequências da degradação ambiental, como a intensificação de fenômenos naturais (secas, tsunamis, furacões), a queda na produtividade de alimentos e o consequente aumento da fome.",
+      "Um projeto de desenvolvimento busca o bem-estar social e a concentração de benefícios do país para a população. Isso significa, entre outras atitudes, manter a infraestrutura, ampliar o fornecimento de energia fóssil e garantir o acesso à educação universitária. Desenvolvimento implica apenas a geração de riquezas e se confunde com crescimento econômico.",
+      "Há inúmeros problemas na garantia do desenvolvimento baseado no tripé da sustentabilidade. Um deles é a falta de planejamento no crescimento das cidades, o que leva a enchentes, grandes engarrafamentos, excesso de poluição e redução das áreas verdes. Além disso, a especulação imobiliária tende a marginalizar a população de baixa renda, às vezes obrigada a ocupar terrenos irregulares e impróprios.",
+      "A sustentabilidade pode estar presente no nosso cotidiano de maneiras muito simples. Ao separar o lixo em casa, economizar água, desligar as luzes quando necessário, escolher eletrodomésticos que economizem energia, usar produtos biodegradáveis, priorizar o transporte público e reduzir o consumo supérfluo, o cidadão está colaborando com a sustentabilidade do planeta."
+    ],
+    "correta": 1,
+    "comentario": "O desenvolvimento sustentável visa satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras. Mas esse conceito enfrenta tensões reais: o crescimento econômico baseado em exportação de commodities (soja, minério, petróleo) gera renda a curto prazo, mas pode esgotar recursos e degradar ecossistemas de forma irreversível a longo prazo.",
+    "ajuda": "O desenvolvimento sustentável, conceito popularizado pelo Relatório Brundtland (1987), é definido como o desenvolvimento que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atender às suas próprias necessidades."
+  },
+  {
+    "id": 10,
+    "instituicao": "UFRJ",
+    "ano": "2026",
+    "dificuldade": "dificil",
+    "tags": [
+      "questões ambientais",
+      "desenvolvimento econômico",
+      "impactos ambientais"
+    ],
+    "pergunta": "A inevitável devastação ambiental decorrente do processo de desenvolvimento industrial é um \"quadro\" que começa a se modificar a partir da defesa pública de um novo conceito: O DESENVOLVIMENTO SUSTENTÁVEL.\n\nO uso dessa expressão tem a finalidade de:",
+    "alternativas": [
+      "sustentar a inevitável necessidade do desenvolvimento.",
+      "garantir que o desenvolvimento contemporâneo não se sustenta.",
+      "sustentar o meio ambiente em detrimento do desenvolvimento.",
+      "propor a conciliação do desenvolvimento com o meio ambiente.",
+      "divulgar a insustentável situação do meio ambiente."
+    ],
+    "correta": 3,
+    "comentario": "O relatório Brundtland (1987) definiu desenvolvimento sustentável como 'aquele que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atenderem as suas próprias necessidades'. Esse conceito foi adotado nas grandes conferências ambientais — Estocolmo (1972), Rio-92, Rio+20 — e orienta os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.",
+    "ajuda": "O texto provavelmente questiona se a devastação ambiental é inevitável ou se pode ser reconciliada com o desenvolvimento econômico. Identifique a posição do autor e avalie qual alternativa melhor representa o argumento sobre os limites do crescimento industrial."
+  }
+]

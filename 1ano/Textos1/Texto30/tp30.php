@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Biogeografia II: biomas temperados, florestas caducifólias, taiga, estepes e vegetação mediterrânea">
+    <meta property="og:title" content="Texto 30 - Biogeografia II">
+    <meta property="og:description" content="Biomas temperados: distribuição mundial, florestas, estepes e clima mediterrâneo">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+
+    <title></title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Identificar os principais biomas temperados e sua distribuição mundial; compreender os fatores climáticos que os diferenciam entre si e dos biomas tropicais; analisar as adaptações vegetais às quatro estações e ao frio prolongado; reconhecer no mapa-múndi as florestas caducifólias, a taiga, as estepes, as pradarias e a vegetação mediterrânea.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Abertura pela realidade do aluno -->
+        <div class="topico">
+
+            <h2>A árvore que sabe que o inverno vem</h2>
+
+            <p><span class="primeiraLetra">I</span>magine a mesma árvore fotografada quatro vezes no mesmo ano. Em março, ela está coberta de flores. Em julho, de folhas verdes densas. Em outubro, as folhas ficam amarelas, laranja e vermelhas. Em dezembro, os galhos estão completamente nus, como esqueletos contra o céu cinza. Essa sequência existe porque a árvore responde às mudanças de temperatura e de horas de luz ao longo das estações. Ela não tem cérebro. Mas tem sensores químicos que percebem quando o dia está encurtando e disparam o processo de perda das folhas antes que o frio intenso chegue.</p>
+
+            <p>Agora pense numa palmeira ou numa seringueira da Amazônia. Ela não passa por essa transformação. As folhas ficam verdes o ano todo, o crescimento nunca para, não há inverno para se preparar. A diferença não é genética no sentido simples: é climática. A árvore caducifólia e a amazônica evoluíram em ambientes tão diferentes que suas estratégias de sobrevivência se tornaram opostas.</p>
+
+            <p>Na aula anterior, você aprendeu a lógica dos biomas tropicais. Agora você vai conhecer os biomas que vivem com as quatro estações: as florestas temperadas, a taiga, as estepes e a vegetação mediterrânea. Cada um deles tem uma solução própria para o mesmo problema: como sobreviver ao frio e à neve.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: O problema -->
+        <div class="topico">
+
+            <p class="caixa">Antes de continuar: um problema para pensar.</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p>A Rússia tem a maior extensão de florestas do mundo: mais de 800 milhões de hectares, quase o dobro do Brasil. Apesar disso, é um país com graves problemas de abastecimento de água e solo, e não figura entre os países de maior biodiversidade do planeta.</p>
+
+                <p>A Amazônia tem menos da metade da área florestal da Rússia, mas concentra mais espécies do que todas as florestas russas somadas. Como você explica essa diferença? O que faz uma floresta ser rica em biodiversidade, além de ser grande?</p>
+
+                <p>Escreva sua hipótese antes de continuar.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Conteúdo 1 — O que define os biomas temperados -->
+        <div class="topico">
+
+            <h2>O que significa viver com quatro estações</h2>
+
+            <p>Os <span class="termo" data-palavra="Bioma Temperado" data-definicao="Conjunto de biomas que ocorre nas latitudes médias do planeta, entre 25° e 60° de latitude, caracterizado pela presença de quatro estações bem definidas, com verões quentes e invernos frios que podem incluir neve. A vegetação é adaptada ao período de dormência no frio.">biomas temperados</span> ocupam as latitudes médias do planeta, entre 25° e 60° de latitude, nos dois hemisférios. Diferentemente dos trópicos, onde a temperatura alta é constante e a variação é apenas na chuva, nas latitudes temperadas a temperatura muda drasticamente entre as estações. O verão pode ser quente e úmido. O inverno pode trazer neve, geadas e temperaturas abaixo de zero por semanas. Essa oscilação térmica é o fator dominante que organiza a vida vegetal nessas regiões.</p>
+
+            <p>As plantas que vivem sob essas condições enfrentam um problema concreto: manter folhas vivas em temperaturas negativas é termicamente ineficiente e fisicamente perigoso. A água dentro das células congela, expande e destrói a membrana celular. Existem duas saídas evolutivas para esse problema. A primeira é a <span class="termo" data-palavra="Deciduidade" data-definicao="Estratégia vegetal de perder as folhas durante o inverno para reduzir a perda de água e o gasto energético em períodos de frio intenso ou seca prolongada. As plantas deciduais entram em dormência e retomam o crescimento na primavera.">deciduidade</span>: perder as folhas no outono, entrar em dormência durante o inverno e retomar o crescimento na primavera. A segunda é produzir folhas altamente especializadas que resistem ao congelamento, como as agulhas dos pinheiros e ciprestes, revestidas de cera e com formato que reduz a perda de calor.</p>
+
+            <h3>A posição no mapa: faixas entre os trópicos e os polos</h3>
+
+            <p>No mapa-múndi, os biomas temperados aparecem como uma faixa que começa logo acima dos trópicos e vai até as regiões subpolares. No hemisfério norte, essa faixa cobre grande parte da Europa, o norte da China e do Japão, o leste e o centro dos Estados Unidos e o sul do Canadá. No hemisfério sul, essa faixa é muito menor, porque há menos massa continental nessas latitudes: cobre o sul do Brasil, o Uruguai, a Argentina, o Chile e a Nova Zelândia. A diferença de tamanho entre os dois hemisférios temperados tem consequências diretas sobre a distribuição dos biomas e sobre o peso histórico da Europa e da América do Norte no desenvolvimento industrial e agrícola.</p>
+
+            <p>Dentro das latitudes temperadas, a posição em relação ao oceano continua sendo decisiva. Regiões costeiras têm clima mais ameno, com invernos menos severos e verões mais frescos. O oceano funciona como regulador térmico, armazenando calor no verão e cedendo no inverno. Regiões continentais, afastadas do oceano, têm verões muito quentes e invernos muito frios. Esse contraste entre clima oceânico e clima continental dentro das mesmas latitudes explica por que a vegetação varia tanto de uma região para outra mesmo quando a latitude é similar.</p>
+
+            <div class="w3-margin">
+                <img src="tp30F01.png" alt="Mapa mundial dos biomas temperados — distribuição latitudinal" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Mapa em breve</div>'">
+                <span class="w3-small w3-margin-left">Distribuição dos biomas temperados no mundo. Observe a maior extensão no hemisfério norte. Fonte: WWF Global.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Duas cidades estão na mesma latitude (45°N), mas uma fica na costa atlântica da Europa e a outra no interior da Rússia. A cidade do interior tem invernos muito mais rigorosos do que a cidade costeira. O principal fator que explica essa diferença é:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>A altitude: cidades no interior ficam em terrenos mais elevados, onde faz mais frio</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>A influência oceânica: o oceano ameniza as temperaturas nas cidades costeiras, enquanto o interior continental tem variação térmica muito maior</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>A cobertura vegetal: florestas densas no interior retêm o frio e impedem que o calor se disperse</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o oceano tem altíssima capacidade de armazenar calor. No verão, absorve energia. No inverno, libera lentamente, aquecendo o ar das costas. O interior continental não tem esse efeito regulador: o ar esfria e aquece de forma muito mais extrema. Por isso o interior da Rússia registra -40°C no inverno enquanto Lisboa, na mesma latitude aproximada, raramente passa de 0°C.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 6: Conteúdo 2 — Floresta caducifólia e taiga -->
+        <div class="topico">
+
+            <h2>As duas grandes florestas do mundo temperado</h2>
+
+            <p>Nas latitudes entre 25° e 50°, onde a temperatura permite um verão suficientemente quente para o crescimento vegetal e um inverno moderado, encontramos as <span class="termo" data-palavra="Floresta Caducifólia Temperada" data-definicao="Floresta das latitudes médias composta por árvores que perdem as folhas no outono (carvalhos, faias, bordos, freixos). Ocorre na Europa ocidental, leste dos EUA e leste da Ásia. Tem quatro estações bem definidas e solo rico em matéria orgânica.">florestas caducifólias temperadas</span>, também chamadas de florestas decíduas. As árvores que dominam esse bioma, como carvalhos, faias, bordos e freixos, perdem as folhas completamente no outono e ficam dormentes durante o inverno. Quando a primavera chega, o crescimento recomeça com rapidez, aproveitando o alongamento dos dias e o aquecimento progressivo.</p>
+
+            <p>Esse bioma existiu em grande extensão na Europa, no leste da América do Norte e no leste da Ásia. São exatamente as regiões onde as primeiras grandes civilizações industriais se desenvolveram: Inglaterra, França, Alemanha, Japão, costa leste dos Estados Unidos. Não é coincidência. O solo das florestas caducifólias é um dos mais férteis do planeta: a decomposição anual das folhas caídas gera uma camada espessa de húmus que sustenta agricultura produtiva. Esse solo foi o que permitiu a agricultura europeia e norte-americana prosperar. E também é o que tornou o desmatamento dessas florestas tão extenso: hoje, restam menos de 25% da cobertura original da floresta caducifólia europeia.</p>
+
+            <h3>A taiga: a maior floresta do planeta</h3>
+
+            <p>Se você subir mais no mapa, entre 50° e 70° de latitude norte, encontra um tipo de floresta completamente diferente: a <span class="termo" data-palavra="Taiga" data-definicao="Floresta boreal de coníferas que se estende pelo norte da Rússia, Canadá e Escandinávia, entre 50° e 70° de latitude. É o maior bioma terrestre do planeta em área, caracterizado por invernos extremos, verões curtos e árvores como pinheiros, abetos e laríceos que resistem ao congelamento.">taiga</span>, também chamada de floresta boreal. Com cerca de 17 milhões de km², a taiga é o maior bioma florestal do planeta em área, maior que a própria Amazônia. Ela se estende de forma quase contínua pelo norte da Rússia, da Escandinávia, do Canadá e do Alasca.</p>
+
+            <p>A vegetação dominante da taiga são as coníferas: pinheiros, abetos, laríceos e ciprestes. Suas folhas em forma de agulha têm uma camada de cera que impede o congelamento da água interna e reduz a perda de umidade durante o inverno longo. A forma cônica das árvores faz a neve escorregar dos galhos em vez de acumulá-la e quebrá-los. Cada detalhe da morfologia das plantas da taiga é uma resposta ao frio prolongado. O inverno dura de seis a nove meses, com temperaturas que podem chegar a -50°C no interior siberiano. O verão é curto, mas intenso: com dias de até 20 horas de luz solar, a vegetação cresce depressa para compensar o tempo perdido.</p>
+
+            <h3>A taiga e o solo congelado</h3>
+
+            <p>Sob grande parte da taiga existe o <span class="termo" data-palavra="Permafrost" data-definicao="Camada de solo permanentemente congelada que existe sob a superfície em regiões de alta latitude. Na taiga e na tundra, o permafrost pode ter dezenas de metros de espessura e armazena enormes quantidades de carbono orgânico. Seu derretimento pelo aquecimento global libera CO₂ e metano na atmosfera.">permafrost</span>: uma camada de solo permanentemente congelada que pode ter dezenas de metros de profundidade. As raízes das árvores não conseguem penetrar nessa camada, o que explica por que a taiga tem árvores relativamente baixas para uma floresta. O permafrost também impede a drenagem da água, criando um ambiente encharcado na superfície durante o curto verão. Isso dá à taiga seu aspecto característico: árvores densas, chão pantanoso e silêncio quase absoluto, interrompido apenas pelo vento e pelos pássaros migratórios que chegam no verão.</p>
+
+            <p>O permafrost é também um dos maiores estoques de carbono do planeta: estima-se que ele contenha o dobro de carbono que existe atualmente na atmosfera. Com o aquecimento global, o permafrost está derretendo em taxas preocupantes, liberando CO₂ e metano e criando um ciclo de retroalimentação que acelera ainda mais o aquecimento. O que acontece com a taiga nas próximas décadas é uma das maiores incógnitas da crise climática global.</p>
+
+            <div class="w3-margin">
+                <img src="tp30F02.png" alt="Floresta boreal (taiga) no inverno — Sibéria" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Taiga siberiana no inverno. As coníferas mantêm suas agulhas o ano todo, ao contrário das folhosas caducifólias. Fonte: NASA Earth Observatory.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A taiga é o maior bioma florestal do planeta em área, mas tem muito menos biodiversidade do que a floresta amazônica, que é menor. Qual é a principal explicação para essa diferença?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>A taiga foi muito mais desmatada pelo ser humano do que a Amazônia, o que reduziu sua biodiversidade original</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>O inverno longo e extremo da taiga limita o número de espécies capazes de sobreviver; a Amazônia tem energia solar constante e temperatura alta o ano todo, permitindo cadeias alimentares muito mais complexas</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>A taiga tem solo pobre em nutrientes, enquanto a Amazônia tem o solo mais fértil do planeta</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o gradiente latitudinal de biodiversidade que você estudou na aula anterior: quanto mais próximo do equador, mais espécies. A taiga tem energia solar limitada por meses, invernos que eliminam qualquer espécie sem adaptações específicas e um verão curto demais para a maioria dos ciclos reprodutivos. Na Amazônia, o calor e a umidade constantes permitem nichos ecológicos infinitamente mais variados. O solo da taiga, aliás, é ácido e pobre.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Conteúdo 3 — Estepes, pradarias e vegetação mediterrânea -->
+        <div class="topico">
+
+            <h2>Quando as árvores desistem e os campos tomam conta</h2>
+
+            <p>Nem toda região de latitude temperada tem floresta. Nas partes mais secas das latitudes médias, onde a chuva é insuficiente para sustentar árvores em quantidade, os campos abertos dominam. São as <span class="termo" data-palavra="Estepe e Pradaria" data-definicao="Biomas de campos com gramíneas que ocorrem nas latitudes temperadas com precipitação entre 250 e 700 mm/ano, insuficiente para sustentar florestas. As pradarias têm clima mais úmido e gramíneas mais altas; as estepes têm clima mais seco e vegetação mais rala. Exemplos: Great Plains (EUA), Pampas (América do Sul), estepe eurasiana.">estepes e pradarias</span>. Esses biomas aparecem no mapa como grandes extensões abertas, sem árvores ou com árvores muito esparsas, cobrindo partes dos continentes que ficam afastadas da influência oceânica ou protegidas por cadeias de montanhas que bloqueiam a umidade.</p>
+
+            <p>As maiores pradarias do mundo são os Great Plains norte-americanos, que se estendem do Texas até o sul do Canadá. São também os campos que alimentam os rebanhos bovinos e os campos de trigo e milho que fazem dos Estados Unidos o maior exportador agrícola do planeta. Na América do Sul, os pampas cobrem o sul do Brasil (Rio Grande do Sul), o Uruguai e o nordeste da Argentina, com um clima mais úmido e gramíneas mais altas. Na Eurásia, a estepe se estende da Ucrânia até a Mongólia em quase 8.000 km de campos abertos, a maior extensão de pradaria contínua do planeta. Na Ásia Central, essa estepe foi o corredor por onde se moveram os povos nômades que conectaram China e Europa ao longo de milênios.</p>
+
+            <h3>A vegetação mediterrânea: verão seco, inverno chuvoso</h3>
+
+            <p>Um dos biomas mais peculiares das latitudes temperadas é a <span class="termo" data-palavra="Vegetação Mediterrânea" data-definicao="Bioma que ocorre em cinco regiões do mundo com clima mediterrâneo: verão quente e seco, inverno ameno e chuvoso. Caracterizado por arbustos e árvores de baixo porte com folhas coriáceas adaptadas à seca estival. Ocorre no sul da Europa, Califórnia, Chile central, sul da África e sul da Austrália.">vegetação mediterrânea</span>. O nome vem do Mar Mediterrâneo, mas o bioma não existe só ali. Ele aparece em cinco regiões separadas do planeta, todas com o mesmo tipo de clima: verões quentes e secos e invernos amenos e chuvosos. Além do sul da Europa e do norte da África, ocorre na Califórnia (EUA), no Chile central, no extremo sul da África do Sul e no canto sudoeste da Austrália.</p>
+
+            <p>Essa distribuição em cinco manchas desconectadas é um dos exemplos mais impressionantes do conceito de zonalidade climática. Regiões que nunca tiveram contato entre si desenvolveram vegetações visualmente semelhantes porque vivem sob as mesmas condições climáticas. As plantas dessas cinco regiões têm folhas coriáceas (duras, revestidas de cera) que resistem à seca do verão, produzem óleos aromáticos que reduzem a herbivoria e muitas são adaptadas ao fogo, que ocorre naturalmente no verão quente e seco. O resultado visual é uma paisagem de arbustos baixos, árvores retorcidas e montanhas cobertas de vegetação densa mas de baixo porte, chamada de maquis na Europa, chaparral na Califórnia, fynbos na África do Sul e mallee na Austrália.</p>
+
+            <h3>Por que o Mediterrâneo ficou famoso e os outros quatro não</h3>
+
+            <p>A resposta é histórica e cultural. O Mediterrâneo europeu foi o berço das civilizações grega e romana, que expandiram seu modelo agrícola, arquitetônico e político por toda a Europa. A oliveira, a videira e o trigo, culturas adaptadas ao clima mediterrâneo, se tornaram símbolos da cultura ocidental. As outras quatro regiões com o mesmo bioma, na Califórnia, no Chile, na África do Sul e na Austrália, foram colonizadas mais tarde e por isso ficaram à sombra da narrativa europeia. Mas em termos de biodiversidade, o fynbos sul-africano, por exemplo, tem mais espécies de plantas por km² do que qualquer região da bacia mediterrânea europeia.</p>
+
+            <div class="w3-margin">
+                <img src="tp30F03.png" alt="Comparação: estepe eurasiana, pampas e vegetação mediterrânea" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Estepe, pradaria e vegetação mediterrânea: campos abertos e adaptações à sazonalidade. Fonte: NASA/USGS.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.5: Texto-fonte -->
+        <div class="topico">
+
+            <h2>Leia e analise</h2>
+
+            <div class="duvid-bloco-apoio">
+                <div class="duvid-texto-citacao">
+                    "A taiga siberiana armazena aproximadamente 300 gigatoneladas de carbono em sua biomassa e no permafrost. As temperaturas no Ártico estão aumentando quatro vezes mais rápido do que a média global. Com o descongelamento progressivo do permafrost, o carbono ali estocado começa a ser liberado na forma de dióxido de carbono e metano, criando um ciclo de retroalimentação positiva: mais carbono na atmosfera aumenta o aquecimento, o aquecimento descongela mais permafrost, que libera mais carbono. Modelos climáticos estimam que esse processo, se não controlado, pode adicionar o equivalente a 10 a 20 anos de emissões humanas atuais à atmosfera até 2100."
+                </div>
+                <div class="duvid-fonte-texto">Adaptado de National Geographic e IPCC Sexto Relatório de Avaliação, 2022</div>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin-top">
+                <p><strong>Responda no caderno antes de continuar:</strong></p>
+                <p>1. O texto descreve um ciclo de retroalimentação positiva envolvendo o permafrost. Explique esse ciclo com suas palavras: por que ele é chamado de "positivo" mesmo sendo prejudicial?</p>
+                <p>2. O problema do permafrost ocorre na Sibéria e no Ártico canadense, regiões habitadas por pequenas populações. Por que esse processo deveria preocupar quem vive no Brasil, a milhares de quilômetros de distância?</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Síntese crítica -->
+        <div class="topico">
+
+            <h2>O que conecta florestas, campos e arbustos num único padrão</h2>
+
+            <p>Você acabou de percorrer os principais biomas das latitudes médias. Floresta caducifólia, taiga, estepe, pradaria, vegetação mediterrânea: cinco biomas distintos, com vegetações, faunas e solos completamente diferentes. Mas todos eles respondem à mesma pergunta de formas diferentes: como viver onde o inverno existe?</p>
+
+            <p>A floresta caducifólia responde perdendo as folhas. A taiga responde com agulhas impermeáveis e crescimento acelerado no verão curto. A estepe responde abandonando as árvores e apostando nas gramíneas, que rebroram rápido depois do fogo e do frio. A vegetação mediterrânea responde com folhas coriáceas e raízes profundas que passam a seca do verão em dormência parcial. Cada estratégia é eficiente no ambiente que a selecionou. Nenhuma funcionaria fora dele.</p>
+
+            <p>O problema central da crise climática nos biomas temperados não é o calor em si. É a velocidade da mudança. As espécies que vivem nesses biomas evoluíram para responder a um ritmo específico de variação sazonal. Quando as estações mudam de padrão mais rápido do que a evolução consegue acompanhar, as espécies ficam dessincronizadas: flores que abrem antes dos polinizadores chegarem, pássaros que migram antes das pragas de insetos que sustentam seus filhotes, árvores que brotam cedo e têm as folhas destruídas por geadas tardias. O aquecimento global não vai necessariamente destruir os biomas temperados de imediato. Mas vai desorganizar os ciclos que os mantêm funcionando.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Infográfico -->
+        <div class="topico">
+
+            <h2>Infográfico: resumo da aula</h2>
+
+            <div class="w3-margin">
+                <img src="inforesumot30.png" alt="Infográfico resumo Biogeografia II — biomas temperados" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.5: Perguntas que qualquer aluno teria -->
+        <div class="topico">
+
+            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que as folhas ficam coloridas no outono antes de cair?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> As folhas verdes têm clorofila, o pigmento que captura luz para a fotossíntese. Quando o dia encurta no outono, a árvore começa a destruir a clorofila e a reabsorver os nutrientes dela. Com a clorofila sumindo, outros pigmentos que estavam lá o tempo todo mas mascarados pelo verde ficam visíveis: carotenoides (amarelo e laranja) e antocianinas (vermelho e roxo). As cores do outono não são produzidas pelo frio. Elas já estavam escondidas embaixo do verde. O frio só remove a máscara.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Os pampas do sul do Brasil fazem parte do mesmo bioma que os campos do interior dos Estados Unidos?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> São biomas equivalentes mas não idênticos. Os dois são pradarias temperadas, com gramíneas dominando, invernos frios e verões quentes. Mas as espécies são diferentes, o solo tem composições distintas e o clima tem particularidades locais. O que os une é a lógica: mesma latitude, mesma lógica de precipitação insuficiente para floresta, mesma dominância de herbáceas. Em biogeografia, biomas equivalentes em continentes diferentes são chamados de biomas análogos: mesma estrutura, espécies diferentes.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que a Califórnia tem o mesmo bioma que o sul da Europa se ficam em lados opostos do oceano?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque a posição geográfica relativa ao oceano é a mesma. Tanto o Mediterrâneo europeu quanto a Califórnia estão na costa oeste de seus respectivos continentes, entre 30° e 45° de latitude. Nessa posição, a circulação geral da atmosfera traz ventos quentes e secos no verão (ventos descendentes subtropicais) e chuvas no inverno (frentes polares). O clima resultante é identico em caráter mesmo com oceanos diferentes. Isso é o que a biogeografia chama de convergência adaptativa: ambientes iguais produzem soluções vegetais similares em lugares completamente separados.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Produção final -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o que você aprendeu.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>Um bioma, dois continentes</h3>
+                <p><strong>Atividade individual</strong></p>
+
+                <p>Escolha um dos biomas temperados estudados nesta aula (floresta caducifólia, taiga, estepe/pradaria ou vegetação mediterrânea). Pesquise uma região do mundo onde esse bioma existe e escreva um texto de 15 a 20 linhas respondendo:</p>
+                <p><strong>1.</strong> Quais são as características climáticas da região (temperatura, chuva, estações)?</p>
+                <p><strong>2.</strong> Quais são as principais adaptações das plantas e dos animais a esse clima?</p>
+                <p><strong>3.</strong> Qual é o uso humano predominante desse bioma (agricultura, pecuária, extração de madeira, urbanização)?</p>
+                <p><strong>4.</strong> O que está ameaçado nesse bioma e por quê?</p>
+                <p class="w3-small w3-text-grey">Fontes sugeridas: WWF Biomes (worldwildlife.org/biomes), National Geographic Biomes, IBGE Biomas.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que são biomas temperados? Em quais latitudes estão localizados e por que têm quatro estações bem definidas?</h3>
+                <h3>2. O que é deciduidade? Por que as árvores das florestas temperadas perdem as folhas no outono?</h3>
+                <h3>3. Qual é a diferença entre as estratégias vegetais das florestas caducifólias e das coníferas da taiga para enfrentar o inverno?</h3>
+                <h3>4. O que é permafrost? Por que seu derretimento é considerado um risco climático global?</h3>
+                <h3>5. Por que a taiga tem a maior área florestal do planeta mas muito menos biodiversidade do que a Amazônia?</h3>
+                <h3>6. O que são estepes e pradarias? Quais condições climáticas impedem o crescimento de florestas nessas regiões?</h3>
+                <h3>7. Cite três exemplos de pradarias ou estepes em continentes diferentes e explique o que elas têm em comum.</h3>
+                <h3>8. Descreva as características do clima mediterrâneo e explique como a vegetação se adapta à seca do verão e às chuvas do inverno.</h3>
+                <h3>9. Em quais cinco regiões do planeta ocorre a vegetação mediterrânea? O que explica essa distribuição descontínua em continentes diferentes?</h3>
+                <h3>10. O texto da síntese afirma que o aquecimento global "vai desorganizar os ciclos" dos biomas temperados. O que isso significa? Dê um exemplo concreto de dessincronização ecológica.</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: TRANSIÇÃO FINAL -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-boottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+
+</html>

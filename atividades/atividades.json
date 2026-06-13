@@ -1,12 +1,22 @@
 [
  {
-    "id": 3,
+    "id": 4,
     "titulo": "Projeto: Geografia em Quadrinhos",
     "tema": "Cartografia",
     "nivel": "1º ano EM",
-    "descricao": "Produção coletiva de uma revista em quadrinhos pelos alunos (grupos de 3): cada equipe transforma um dos 11 temas do bimestre (cartografia, projeções, sensoriamento, tectônica, relevo) em uma HQ de uma página (frente e verso). Avaliação substitutiva.",
+    "descricao": "Produção coletiva de uma revista em quadrinhos pelos alunos (grupos de 3): Avaliação substitutiva.",
     "bncc": "EM13CHS106, EM13CHS204",
     "link": "projeto-geografia-quadrinhos.pdf",
+    "tag": "Projeto"
+},
+ {
+    "id": 3,
+    "titulo": "A Jornada do Herói — Criação de Jogo",
+    "tema": "Narrativa e Geografia",
+    "nivel": "2º ano EM",
+    "descricao": "Projeto de criação de jogo integrando Geografia e a estrutura narrativa da Jornada do Herói (Vogler).",
+    "bncc": "EM13CHS101, EM13CHS106, EM13LGG602",
+    "link": "jornada-heroi-2ano.pdf",
     "tag": "Projeto"
 },
  {

@@ -1,0 +1,228 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UNCISAL",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "fatores climáticos",
+      "dinâmica atmosférica",
+      "elementos climáticos"
+    ],
+    "imagem_apoio": "1ano/img/123/p23q1.png",
+    "pergunta": "A dinâmica da atmosfera é influenciada por vários fatores climáticos, determinando tipos variados de precipitação. O processo de formação de chuva mostrado na figura é denominado de",
+    "alternativas": [
+      "convectiva.",
+      "frontal.",
+      "ocasional.",
+      "ciclônica.",
+      "orográfica."
+    ],
+    "correta": 4,
+    "comentario": "A chuva orográfica (ou de relevo) forma-se quando massas de ar úmido são forçadas a subir pelas encostas das montanhas. Ao ascender, o ar resfria, atinge o ponto de orvalho e condensa — formando nuvens e precipitação na encosta de barlavento. A encosta de sotavento (sombra de chuva) recebe ar seco e pode ter clima árido, como no Sertão nordestino por influência da Chapada Diamantina.",
+    "ajuda": "O clima é determinado pela combinação de elementos (temperatura, precipitação, umidade) que variam em função de fatores como latitude, altitude, maritimidade, continentalidade e correntes marinhas. Identifique qual combinação de fatores define o tipo climático descrito."
+  },
+  {
+    "id": 2,
+    "instituicao": "UEFS BA",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "fatores climáticos",
+      "elementos climáticos",
+      "clima"
+    ],
+    "pergunta": "Os elementos climáticos caracterizam o clima, que são definidos por fatores ou fenômenos.A partir dos conhecimentos sobre os elementos e fatores climáticos, marque V nas afirmativas verdadeiras e F, nas falsas.\n\n( ) As áreas sob a influência da continentalidade apresentam temperatura mais elevadas, devido à baixa umidade relativa do ar.\n\n( ) O impacto do desmatamento no clima recai sobre o regime de chuvas, em decorrência da diminuição da emissão de umidade para atmosfera.\n\n( ) Os movimentos das massas de ar e dos ventos resultam da desigual distribuição de energia solar nas diversas latitudes.\n\n( ) Na circulação atmosférica, as massas de ar de características diferentes entram em contato entre si, dando origem ás frentes frias e, como consequência, as chuvas orográficas.\n\n( ) As áreas anticiclonais se caracterizam pelas baixas temperaturas e altas pressões e são dispersoras de vento.\n\nA alternativa que apresenta a sequência correta, de cima para baixo, é a",
+    "alternativas": [
+      "F V F F V.",
+      "F V V F V.",
+      "V V F V F.",
+      "V F V V F.",
+      "F F V F V."
+    ],
+    "correta": 1,
+    "comentario": "Os elementos climáticos (temperatura, precipitação, pressão, umidade, ventos) são os fenômenos mensuráveis que caracterizam o estado da atmosfera. Os fatores climáticos (latitude, altitude, maritimidade, continentalidade, correntes marítimas, massas de ar) são as causas que condicionam esses elementos. Saber distingui-los é fundamental para analisar climas regionais.",
+    "ajuda": "Os elementos climáticos são os parâmetros mensuráveis do clima (temperatura, precipitação, ventos, umidade); os fatores climáticos são os condicionantes que determinam esses valores (latitude, altitude, continentalidade etc.). Identifique qual é qual nas afirmativas."
+  },
+  {
+    "id": 3,
+    "instituicao": "FUVEST",
+    "ano": "2022",
+    "dificuldade": "media",
+    "tags": [
+      "impactos ambientais",
+      "oceanos",
+      "recursos naturais"
+    ],
+    "imagem_apoio": "1ano/img/123/p23q3.png",
+    "pergunta": "No dia 23 de março de 2021 o mega navio Ever Given, de 220.000 toneladas e 400 m de comprimento, encalhou no Canal de Suez no Egito em rota para o porto de Rotterdam, Holanda, ficando atravessado e preso pelas extremidades. O navio reflutuou no dia 29 do mesmo mês em razão das condições de vento e maré, além da operação promovida por rebocadores.\n\nCom base nos dados fornecidos e em seus conhecimentos, pode-se atribuir o reflutuamento do Ever Given às seguintes condições:",
+    "alternativas": [
+      "Formação de um gradiente de pressão entre Ásia e África, com ventos de Sudoeste e rebaixamento do nível da água do mar pela maré de quadratura.",
+      "Formação de um gradiente de pressão entre Europa e África, com ventos de Noroeste e elevação do nível da água do mar pela maré de sizígia.",
+      "Formação de um gradiente de pressão entre Europa e África, com ventos de Sudeste e elevação do nível da água do mar pela maré de quadratura.",
+      "Formação de um gradiente de pressão entre África e Europa, com ventos de Nordeste e rebaixamento do nível da água do mar pela maré de sizígia.",
+      "Formação de um gradiente de pressão entre Ásia e Europa, com predomínio de calmarias e vazante do nível da água do mar pela maré neutra."
+    ],
+    "correta": 1,
+    "comentario": "O Canal de Suez conecta o Mar Mediterrâneo ao Mar Vermelho, sendo a rota marítima mais importante entre Europa e Ásia. Quando o navio Ever Given encalhou em março de 2021, bloqueou o canal por 6 dias, causando atraso para cerca de 400 navios e prejuízos estimados em US$ 9 bilhões/dia ao comércio global. O episódio evidenciou a fragilidade das cadeias de suprimento globais.",
+    "ajuda": "O bloqueio do Canal de Suez pelo navio Ever Given em 2021 interrompeu o fluxo do comércio marítimo global. Pense em qual aspecto geográfico ou geopolítico esse episódio evidencia: a importância das rotas oceânicas para o comércio internacional."
+  },
+  {
+    "id": 4,
+    "instituicao": "FDV",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "aquecimento global",
+      "mudanças climáticas",
+      "efeito estufa"
+    ],
+    "fonte_apoio": "(Disponível em: www.publico.pt/desporto/noticia/o-futebol. Acesso em: 07 set. 2015)",
+    "pergunta": "Leia atentamente o texto abaixo.\n\n“O tema não é novo e tem originado muita discussão. A própria FIFA sente desconforto com o assunto, que está longe de ser resolvido. Na América do Sul, sempre que há um jogo com alguma importância, seja para a Taça Libertadores, Copa América ou apuramento para um Mundial, os media noticiam-no e reacende-se a polêmica: equipes e seleções de países andinos – Bolívia, Colômbia, Equador e Peru – tiram clara vantagem do fator casa. Por vezes, conseguem resultados desnivelados, que banalizam equipes mais dotadas e, para desagrado dos argentinos, brasileiros e uruguaios, chegam a eliminá-las [...].”\n\nSabe-se que cada região apresenta um clima próprio, que corresponde ao comportamento da atmosfera ao longo de determinado período, influenciado por um conjunto diferenciado de fatores climáticos. Nos países andinos citados no trecho, o fator determinante da suposta “vantagem” é a:",
+    "alternativas": [
+      "latitude.",
+      "longitude.",
+      "altitude.",
+      "continentalidade.",
+      "maritimidade."
+    ],
+    "correta": 2,
+    "comentario": "A altitude reduz a pressão atmosférica e, com ela, a quantidade de oxigênio disponível — fator que afeta o desempenho físico dos atletas. Em Doha (Qatar, ~10 m), o ar é denso e quente; em La Paz (Bolivia, ~3.640 m), a pressão é cerca de 35% menor que ao nível do mar. A FIFA e entidades esportivas debatem se jogos em altitudes extremas são seguros e justos.",
+    "ajuda": "O texto aborda um debate geográfico atual, provavelmente sobre geopolítica, fronteiras, recursos naturais ou identidade territorial. Identifique a posição defendida no texto e avalie qual alternativa a descreve com maior fidelidade."
+  },
+  {
+    "id": 5,
+    "instituicao": "",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "desertificação",
+      "fatores climáticos",
+      "clima árido"
+    ],
+    "pergunta": "(UDESC 2017 Sobre os fatores climáticos que interferem na formação de desertos pelo globo, assinale a alternativa correta.",
+    "alternativas": [
+      "As vertentes a barlavento de cordilheiras são menos suscetíveis à chegada de umidade que as vertentes a sotavento, sendo, por isso, aquelas mais suscetíveis à formação de desertos que estas.",
+      "Correntes marítimas frias tornam estável a atmosfera dos locais, promovendo a formação de desertos no litoral.",
+      "A continentalidade é um importante fator formador de desertos, pois diz respeito a distância de áreas oceânicas, como é o caso do deserto do Atacama.",
+      "Áreas com predomínio de sistemas de baixa pressão atmosférica são mais suscetíveis à formação de desertos que as áreas com predomínio de sistemas de alta pressão.",
+      "Depressões interplanálticas são áreas fortemente suscetíveis à desertificação na região equatorial."
+    ],
+    "correta": 1,
+    "comentario": "Correntes marítimas frias resfiam o ar sobre elas, impedindo a formação de nuvens e chuvas nas costas adjacentes. A Corrente de Benguela (costa africana ocidental) cria o Deserto do Namibe; a Corrente de Humboldt, o Atacama. Já correntes quentes (Corrente do Golfo) elevam a temperatura e a umidade, fazendo com que a Europa Ocidental seja mais temperada do que sua latitude sugeriria.",
+    "ajuda": "Os desertos se formam em regiões com baixa precipitação, que pode ser causada por: alta pressão subtropical, continentalidade (distância do mar), sombra de chuva (atrás de montanhas) ou correntes marítimas frias. Identifique qual fator é determinante na região descrita."
+  },
+  {
+    "id": 6,
+    "instituicao": "IFSULDEMINAS",
+    "ano": "2017",
+    "dificuldade": "media",
+    "tags": [
+      "fatores climáticos",
+      "altitude",
+      "continentalidade"
+    ],
+    "pergunta": "Correlacione, de forma correta, os fatores climáticos:\n\nMarque a alternativa CORRETA.",
+    "alternativas": [
+      "1-d, 2-a, 3-c, 4-b.",
+      "1-c, 2-b, 3-d, 4-a.",
+      "1-a, 2-c, 3-d, 4-b.",
+      "1-b, 2-d, 3-a, 4-c.",
+      "1-c, 2-d, 3-b, 4-a."
+    ],
+    "correta": 1,
+    "comentario": "Os fatores climáticos atuam de formas distintas: a latitude determina a incidência solar; a altitude modifica a temperatura pelo gradiente adiabático; a maritimidade/continentalidade define a amplitude térmica; e as massas de ar trazem características de calor, frio, umidade ou secura para as regiões que influenciam. Correlacioná-los corretamente exige compreender os mecanismos físicos por trás de cada um.",
+    "ajuda": "Relacione cada fator climático à sua influência: a latitude determina a intensidade da radiação solar; a altitude diminui a temperatura; a maritimidade atenua as variações térmicas; as correntes oceânicas quentes elevam a umidade e a temperatura. Verifique qual associação está correta."
+  },
+  {
+    "id": 7,
+    "instituicao": "IFPE",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "aquecimento global",
+      "efeito estufa",
+      "mudanças climáticas"
+    ],
+    "imagem_apoio": "1ano/img/123/p23q7.png",
+    "pergunta": "A figura abaixo representa dois fenômenos climáticos muito comentados na atualidade, cujos nomes aparecem nas lacunas 1 e 2 do texto a seguir.\n\nO ____1______ ocorre naturalmente e é fundamental para a existência de vida no nosso planeta, pois equilibra a temperatura da Terra. Porém, quando agravado pela intervenção humana, através da emissão de poluentes, especialmente o CO2, faz com que uma maior quantidade de radiação solar seja absorvida, elevando as temperaturas e provocando o _______2_________ , que tem sido tema das muitas discussões sobre as mudanças climáticas da atualidade.\n\nAssinale a alternativa que completa corretamente as lacunas 1 e 2 do texto.",
+    "alternativas": [
+      "Lacuna 1: Inversão térmica/ Lacuna 2: Efeito estufa.",
+      "Lacuna 1: Efeito estufa/ Lacuna 2: Aquecimento global.",
+      "Lacuna 1: Aquecimento global/ Lacuna 2: Inversão térmica.",
+      "Lacuna 1: Aquecimento global/ Lacuna 2: Efeito estufa.",
+      "Lacuna 1: Efeito estufa/ Lacuna2: Inversão térmica."
+    ],
+    "correta": 1,
+    "comentario": "O efeito estufa é o processo natural pelo qual gases atmosféricos (CO₂, vapor d'água, metano) retêm parte da radiação infravermelha emitida pela Terra, mantendo a temperatura média em ~15°C. O aquecimento global é o intensificação desse efeito pela emissão antropogênica de GEE, elevando a temperatura além dos limites históricos. Um é natural e necessário; o outro é uma perturbação.",
+    "ajuda": "Os dois fenômenos representados provavelmente são o efeito estufa e o aquecimento global, ou El Niño e La Niña, ou inversão térmica e ilha de calor. Identifique cada fenômeno pelas setas e elementos gráficos da figura e associe às suas características."
+  },
+  {
+    "id": 8,
+    "instituicao": "UEPB",
+    "ano": "2011",
+    "dificuldade": "media",
+    "tags": [
+      "fenômenos climáticos",
+      "El Niño",
+      "La Niña"
+    ],
+    "pergunta": "Associe os fenômenos climáticos citados na coluna 1 às suas respectivas características descritas na coluna 2.\n\nA sequência correta da enumeração é",
+    "alternativas": [
+      "4 2 5 1 3.",
+      "3 2 1 5 4.",
+      "2 1 3 5 4.",
+      "5 2 4 1 3.",
+      "1 3 2 4 5."
+    ],
+    "correta": 0,
+    "comentario": "Fenômenos climáticos como El Niño, ilhas de calor e desertificação têm causas e consequências distintas. El Niño aquece o Pacífico e altera chuvas globalmente; as ilhas de calor são fenômeno urbano local; a desertificação resulta de degradação ambiental em zonas áridas. Associar corretamente cada fenômeno às suas características é fundamental para análises climáticas e ambientais.",
+    "ajuda": "Os fenômenos climáticos como El Niño, La Niña, monções, ciclones e frentes frias têm distribuições geográficas específicas e impactos regionais distintos. Associe cada fenômeno às suas características de formação, localização e efeito sobre o clima."
+  },
+  {
+    "id": 9,
+    "instituicao": "FUVEST",
+    "ano": "2020",
+    "dificuldade": "media",
+    "tags": [
+      "desertificação",
+      "degradação ambiental",
+      "questões ambientais"
+    ],
+    "fonte_apoio": "BRASIL, Ministério do Meio Ambiente. Disponível em http://www.mma.gov.br/.",
+    "pergunta": "O processo de desertificação é definido como a degradação ambiental e socioambiental, particularmente nas zonas áridas, semiáridas e subúmidas, resultantes de vários fatores e vetores, incluindo as variações e alterações climáticas e as atividades humanas.\n\nDentre as medidas mais adequadas para mitigação dos efeitos da desertificação encontra(m)‐se",
+    "alternativas": [
+      "a construção de rodovias que permitam às populações mais diretamente atingidas pela seca se deslocarem diariamente para áreas mais úmidas.",
+      "o uso das áreas de meia encosta como alternativa para expansão das áreas de produção de culturas temporárias e lavouras permanentes.",
+      "o plantio de espécies exóticas que apresentam crescimento rápido e podem reduzir os efeitos da desertificação e da seca, como o eucalipto, por exemplo.",
+      "a prevenção, recuperação e reabilitação de terras parcial ou totalmente degradadas com a recomposição de espécies nativas.",
+      "os programas de incentivo para a instalação de fossas sépticas que dispensam a implantação de um sistema hídrico de saneamento básico."
+    ],
+    "correta": 3,
+    "comentario": "A desertificação é a degradação de terras em zonas áridas, semiáridas e subúmidas secas, causada por variações climáticas e ações humanas (sobrepastoreio, desmatamento, agricultura inadequada). A prevenção envolve recuperação da cobertura vegetal com espécies nativas adaptadas — não plantas exóticas —, que estabilizam o solo e restabelecem os ciclos hídricos locais.",
+    "ajuda": "A desertificação ocorre em terras secas e semiáridas e é acelerada pela ação humana (desmatamento, superexploração do solo, irrigação inadequada). Suas consequências incluem perda de biodiversidade, êxodo rural e insegurança alimentar. Identifique a região e o processo descrito."
+  },
+  {
+    "id": 10,
+    "instituicao": "IFSULDEMINAS",
+    "ano": "2018",
+    "dificuldade": "media",
+    "tags": [
+      "ilha de calor urbana",
+      "clima urbano",
+      "impactos ambientais"
+    ],
+    "texto_apoio": "“Tinta especial criada para esconder aviões de satélites espiões reflete o sol e refresca asfalto, ajudando moradores a enfrentar ondas de calor. Os ventiladores de teto e os aparelhos de ar-condicionado conseguiram apenas aliviar os efeitos da sufocante onda de calor que atingiu o sul da Califórnia recentemente. Foram dias em que a maioria dos moradores de Los Angeles desejaram morar em um dos bairros que há algumas semanas testa uma nova ideia para combater as altas temperaturas. Trata-se do CoolSeal (\"selo fresco\", em tradução livre), uma espécie de pintura de cor cinza claro que \"refresca\" o asfalto e que foi criada para combater o chamado fenômeno da \"ilha de calor\" urbana.”",
+    "fonte_apoio": "Fonte: BBC BRASIL. (29 de SETEMBRO de 2017). G1. Acesso em: 29 set. 2017, disponível em G1 NATUREZA:",
+    "pergunta": "Observe a reportagem:\n\nSobre o fenômeno “ilhas de calor” urbanas, é correto afirmar:",
+    "alternativas": [
+      "É um fenômeno climático, caracterizado pelo aumento da temperatura média nas áreas intensamente urbanizadas. Está associado à elevada concentração de poluentes na atmosfera, à impermeabilização do solo, à presença intensa de asfalto e concreto e à diminuição das áreas verdes.",
+      "É um fenômeno formado pela mistura de substâncias químicas, originadas principalmente da queima de combustíveis fósseis com o vapor de água na atmosfera. Quando ocorre a precipitação, o fenômeno polui as águas, corrói edificações e monumentos e afeta a vegetação.",
+      "É uma condição meteorológica que ocorre quando uma camada de ar quente se sobrepõe a uma camada de ar frio, impedindo o movimento da camada de ar ascendente.",
+      "O fenômeno é caracterizado pelo aumento da temperatura média do planeta, em função do aumento da emissão de gases poluentes na atmosfera, derivados da queima de combustíveis fósseis, e o desmatamento das florestas."
+    ],
+    "correta": 0,
+    "comentario": "As ilhas de calor urbanas são fenômenos climáticos locais criados pela substituição da vegetação e do solo permeável por superfícies artificiais (asfalto, concreto). Isso aumenta a absorção de calor durante o dia e libera à noite, mantendo temperaturas urbanas de 3 a 8°C acima das áreas rurais. Em cidades tropicais como São Paulo, o fenômeno intensifica o consumo de energia e o desconforto térmico.",
+    "ajuda": "As ilhas de calor urbanas se formam porque as superfícies impermeáveis (asfalto, concreto) absorvem mais calor do que a vegetação, e as emissões de veículos e indústrias elevam ainda mais a temperatura. Identifique o que a reportagem apresenta como causa ou solução para esse fenômeno."
+  }
+]

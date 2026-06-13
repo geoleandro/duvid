@@ -1,0 +1,235 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UNB",
+    "ano": "2019",
+    "dificuldade": "media",
+    "tags": [
+      "desmatamento",
+      "questão ambiental",
+      "Amazônia",
+      "agropecuária"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q1.png",
+    "pergunta": "Considerando a charge abaixo, assinale a opção correta.\n\nO crescimento do desmatamento em diversos biomas no território brasileiro é causado pela",
+    "alternativas": [
+      "intensificação do processo de urbanização e expansão das áreas urbanas no país.",
+      "exploração mineral e retirada de vegetação para a extração de minérios.",
+      "intensificação da exploração madeireira para a exportação.",
+      "expansão do agronegócio e das áreas de produção agropecuária."
+    ],
+    "correta": 3,
+    "ajuda": "Observe a charge e pense em qual atividade econômica é a principal responsável pelo desmatamento dos biomas brasileiros. Lembre-se de que a expansão das fronteiras agrícolas (soja, pecuária) avança sobre biomas como Amazônia e Cerrado. Qual setor econômico tem motivado historicamente a derrubada de florestas no Brasil?",
+    "comentario": "O desmatamento nos biomas brasileiros está diretamente ligado à expansão da fronteira agrícola, especialmente do agronegócio da soja e da pecuária extensiva. A Amazônia perdeu mais de 20% de sua cobertura original; o Cerrado já teve mais de 50% devastado. Esse avanço do agronegócio sobre áreas nativas tem acelerado a crise climática, a perda de biodiversidade e os conflitos fundiários com povos indígenas e comunidades tradicionais."
+  },
+  {
+    "id": 2,
+    "instituicao": "",
+    "ano": "2019",
+    "dificuldade": "facil",
+    "tags": [
+      "mata de araucária",
+      "bioma Mata Atlântica",
+      "vegetação brasileira",
+      "Sul do Brasil"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q2.png",
+    "pergunta": "Marque a alternativa que não corresponde a uma característica da mata de araucária.",
+    "alternativas": [
+      "Apresenta vegetação típica de regiões de clima subtropical.",
+      "Possui árvores aciculifoliadas, com folhas em forma de agulha, finas e alongadas.",
+      "A Mata de Araucária pode ser encontrada no estado de São Paulo e na Região Sul do território brasileiro",
+      "A Mata de Araucária é um bioma com pouca devastação, permanecendo com sua área intacta.",
+      "O relevo onde se localiza a Mata de Araucária apresenta altitudes que variam entre 800 e 1.300 metros."
+    ],
+    "correta": 3,
+    "ajuda": "Lembre-se das características da Mata de Araucárias: vegetação típica de clima subtropical, com pinheiros de folhas em forma de agulha (aciculifoliadas), em altitudes entre 800 e 1.300 metros no Sul do Brasil e sul de São Paulo. Atenção: a questão pede a alternativa que NÃO corresponde a uma característica real desse bioma.",
+    "comentario": "A Mata de Araucária (Floresta Ombrófila Mista) é um dos biomas mais devastados do Brasil: restam apenas 3–5% de sua cobertura original nos estados do Sul (PR, SC, RS). Ao contrário do que afirma a alternativa incorreta, a Mata de Araucária sofreu intensa exploração madeireira durante o século XX, tornando-se uma das formações vegetais mais ameaçadas do território brasileiro."
+  },
+  {
+    "id": 3,
+    "instituicao": "IFSULDEMINAS",
+    "ano": "2018",
+    "dificuldade": "facil",
+    "tags": [
+      "biomas brasileiros",
+      "vegetação brasileira",
+      "identificação de bioma"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q3.png",
+    "pergunta": "Observe as figuras e responda:\n\nAs informações anteriores se referem a:",
+    "alternativas": [
+      "Mata Atlântica.",
+      "Campos.",
+      "Mata de Araucárias.",
+      "Cerrado.",
+      "Mata de Cocais."
+    ],
+    "correta": 2,
+    "ajuda": "Observe as figuras e pense em qual bioma brasileiro possui pinheiro-do-paraná (Araucaria angustifolia) como espécie dominante, clima subtropical, ocorrendo em altitudes mais elevadas do Sul do Brasil. Qual bioma corresponde às imagens e características apresentadas?",
+    "comentario": "A Mata de Araucárias (Floresta Ombrófila Mista) caracteriza-se pela dominância do pinheiro-do-paraná (Araucaria angustifolia), adaptado ao clima subtropical frio do Sul do Brasil. Seu pinhão (semente) é um alimento tradicional das populações do Sul e de povos indígenas. A devastação dessa floresta para uso madeireiro e agrícola no século XX reduziu sua área a menos de 5% do original."
+  },
+  {
+    "id": 4,
+    "instituicao": "UNICAMP",
+    "ano": "2017",
+    "dificuldade": "dificil",
+    "tags": [
+      "zona costeira",
+      "ecossistemas litorâneos",
+      "manguezal",
+      "restinga"
+    ],
+    "pergunta": "A zona costeira brasileira abriga diversos ecossistemas de elevada relevância ambiental. Destacam-se, entre muitos outros, os manguezais. A respeito desse ecossistema costeiro, é correto afirmar que são",
+    "alternativas": [
+      "áreas de extensões aquáticas dispostas em paralelo ao litoral e isoladas por cordões litorâneos; mantêm comunicação por canais com as águas fluviais e marinhas, possibilitando a deposição e circulação de sedimentos originados dos dois ambientes e dos ventos.",
+      "unidades geomorfológicas arenosas formadas pela ação permanente dos ventos, apresentando pouca ou nenhuma cobertura vegetal e variação de acúmulo de sedimentos; podem contribuir para a recarga dos lençóis freáticos.",
+      "áreas de planície arenosa de origem marinha de grande fragilidade ambiental; apresentam variação de cobertura vegetal em diferentes estágios sucessionais e variação de topografia do terreno; contêm zonas inundáveis e não inundáveis.",
+      "ambientes de transição, ecótono, entre áreas marinhas e terrestres, ricos em sedimentos constituídos de matéria orgânica e nutrientes; predomina vegetação arbustiva, que sobrevive em ambientes de permanente inundação."
+    ],
+    "correta": 3,
+    "ajuda": "Pense nas características dos manguezais: são ecossistemas costeiros de transição entre o ambiente terrestre e marinho, com vegetação adaptada a solos alagados e ricos em matéria orgânica. Lembre-se de que o manguezal é um ecótono (zona de transição) que serve como berçário para peixes e crustáceos. Qual alternativa descreve corretamente esse ecossistema?",
+    "comentario": "Os manguezais são ecossistemas costeiros de transição entre o ambiente marinho e terrestre, ocorrendo em estuários, baías e lagoas protegidas ao longo do litoral brasileiro. São berçários naturais de peixes, camarões e caranguejos, filtradores de nutrientes e barreiras contra erosão costeira. Apesar de sua importância ecológica, são ameaçados pela especulação imobiliária e pela aquicultura industrial."
+  },
+  {
+    "id": 5,
+    "instituicao": "ENEM",
+    "ano": "2016",
+    "dificuldade": "media",
+    "tags": [
+      "caatinga",
+      "adaptações vegetais",
+      "semiárido",
+      "vegetação xerófita"
+    ],
+    "pergunta": "A vegetação apresenta adaptações ao ambiente, como plantas arbóreas e arbustivas com raízes que se expandem horizontalmente, permitindo forte ancoragem no substrato lamacento; raízes que se expandem verticalmente, por causa da baixa oxigenação do substrato; folhas que têm glândulas para eliminar o excesso de sais; folhas que podem apresentar cutícula espessa para reduzir a perda de água por evaporação. As características descritas referem-se a plantas adaptadas ao bioma:",
+    "alternativas": [
+      "Cerrado.",
+      "Pampas.",
+      "Pantanal.",
+      "Manguezal.",
+      "Mata de Cocais."
+    ],
+    "correta": 3,
+    "ajuda": "Leia as adaptações descritas: raízes horizontais para ancoragem no substrato lamacento, raízes verticais para captar oxigênio, folhas com glândulas para eliminar sal, cutícula espessa. Pense em qual bioma ou ecossistema costeiro possui plantas com essas adaptações ao excesso de sal e à inundação periódica.",
+    "comentario": "O manguezal é identificado pela vegetação adaptada à salinidade, com raízes aéreas (pneumatóforos) que sustentam as plantas no substrato lamoso e permitem a troca gasosa em solos com pouco oxigênio. Essa adaptação morfológica é única e define o manguezal como um ecossistema especializado nas zonas de interface oceano-continente, protegendo o litoral e sustentando cadeias alimentares marinhas."
+  },
+  {
+    "id": 6,
+    "instituicao": "UNESP",
+    "ano": "2014",
+    "dificuldade": "media",
+    "tags": [
+      "bioma Amazônia",
+      "floresta tropical",
+      "tipos de floresta",
+      "várzea"
+    ],
+    "pergunta": "Mata de terra firme, mata de várzea e igapó são formações vegetais típicas deste bioma. Em razão do processo de uso e ocupação do território brasileiro e das ações dirigidas à preservação dos recursos naturais realizadas nas últimas décadas, este bioma constitui-se também naquele que guarda as maiores extensões de floresta nativa no Brasil, ainda que seu desmatamento não tenha sido completamente cessado.\n\nO texto refere-se ao bioma.",
+    "alternativas": [
+      "Cerrado.",
+      "Mata Atlântica.",
+      "Pampa.",
+      "Caatinga.",
+      "Amazônico."
+    ],
+    "correta": 4,
+    "ajuda": "Leia a descrição: formações de mata de terra firme, mata de várzea e igapó, maior extensão de floresta nativa do Brasil, desmatamento ainda ativo. Pense em qual bioma possui esses três tipos de formações florestais e ainda concentra a maior área de floresta nativa do país. Qual bioma é esse?",
+    "comentario": "A Floresta Amazônica apresenta três formações principais conforme a relação com as águas: mata de terra firme (nunca inundada, mais densa), mata de várzea (inundada sazonalmente pelos rios de água branca) e igapó (permanentemente inundada por rios de água preta ou clara). Essa diversidade interna explica a enorme biodiversidade amazônica, com espécies altamente especializadas para cada tipo de ambiente."
+  },
+  {
+    "id": 7,
+    "instituicao": "UFRR",
+    "ano": "2013",
+    "dificuldade": "media",
+    "tags": [
+      "bioma Amazônia",
+      "floresta amazônica",
+      "biodiversidade",
+      "paisagem"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q7.png",
+    "pergunta": "Com 4,2 milhões de quilômetros quadrados, a Amazônia é o maior bioma brasileiro. A paisagem é dominada pela floresta amazônica e pelos mais de mil rios que constituem a maior bacia hidrográfica do mundo. O bioma oferece ainda outros ecossistemas: matas de terra firme, florestas inundadas, várzeas, igapós, campos abertos e manchas de cerrado. Contudo, apesar da baixa densidade demográfica da região, a exploração irracional de seus recursos naturais já afetou mais de 20% do bioma.\n\nA principal causa do avanço da fronteira agrícola sobre o bioma Amazônia é o plantio:",
+    "alternativas": [
+      "do café;",
+      "do milho;",
+      "da soja;",
+      "do trigo;",
+      "do feijão."
+    ],
+    "correta": 2,
+    "ajuda": "Observe o mapa e pense em qual cultura agrícola avança sobre a Amazônia como principal causa do desmatamento. Lembre-se de que a expansão da fronteira agrícola do Centro-Oeste em direção ao Norte está associada principalmente ao plantio de uma oleaginosa de exportação muito valorizada no mercado global.",
+    "comentario": "O avanço da soja sobre a Amazônia é o principal motor do desmatamento atual na região. A fronteira agrícola tem avançado pelo Arco do Desmatamento — faixa que vai do Maranhão ao Acre — convertendo floresta nativa em lavouras. Esse processo está associado à grilagem de terras públicas, às queimadas criminosas e ao enfraquecimento dos órgãos de fiscalização ambiental."
+  },
+  {
+    "id": 8,
+    "instituicao": "UEL",
+    "ano": "2011",
+    "dificuldade": "dificil",
+    "tags": [
+      "domínios morfoclimáticos",
+      "Ab'Saber",
+      "vegetação brasileira",
+      "biomas"
+    ],
+    "texto_apoio": "“O nome hileia proposto por Humboldt para o sistema muito característico encontrado em toda a extensão da Planície Amazônica, desde os contrafortes dos Andes até o oceano Atlântico, tem simplesmente o significado de bosque, ou coleção de matéria vegetal. Na verdade, uma densa floresta tropical úmida, constituída de diferentes estratos arbóreos, isto é, árvores de diversas alturas, formando como que distintas camadas de copas superpostas, cada qual adaptada a diferentes condições ambientais, sobretudo quanto à luminosidade. Sendo essas copas muito densas e entrelaçadas entre si, a penetração dos raios solares através delas é muito precária e limitada, dificultando o desenvolvimento de plantas rasteiras ou mesmo arbustos que não poderiam dispensar a presença da luz para a realização da fotossíntese”.",
+    "pergunta": "Leia o texto a seguir:\n\nCom base no texto e nos conhecimentos sobre o domínio morfoclimático amazônico, mais da metade do volume de água atmosférica que forma as chuvas ocorre devido:",
+    "alternativas": [
+      "aos ventos alísios da região nordeste.",
+      "aos ventos alísios da região sudeste.",
+      "à transpiração das plantas e à evaporação direta.",
+      "às massas tropicais pacíficas.",
+      "à corrente de Humboldt."
+    ],
+    "correta": 2,
+    "ajuda": "Leia o texto sobre a hileia amazônica de Humboldt. Pense na questão do ciclo hidrológico da Amazônia: de onde vem a maior parte da água que forma as chuvas na região? A floresta é fundamental para o ciclo das chuvas porque as plantas liberam vapor d'água pela transpiração, que retorna como chuva. Qual processo é responsável por mais da metade do volume de água das chuvas amazônicas?",
+    "comentario": "O ciclo hidrológico da Amazônia depende da transpiração das plantas para 'reciclar' a umidade atmosférica: as florestas liberam vapor d'água que forma os 'rios voadores', responsáveis pelas chuvas no Centro-Oeste, Sudeste e Sul do Brasil. O desmatamento interrompe esse ciclo, reduzindo as chuvas regionais e ameaçando a agricultura e os reservatórios hidrelétricos bem além das fronteiras da Amazônia."
+  },
+  {
+    "id": 9,
+    "instituicao": "PUC-RJ",
+    "ano": "2011",
+    "dificuldade": "facil",
+    "tags": [
+      "floresta tropical",
+      "biodiversidade",
+      "bioma Amazônia"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q9.png",
+    "pergunta": "Em relação às florestas tropicais úmidas é CORRETO Afirmar que:",
+    "alternativas": [
+      "se localizam nas mais altas latitudes do planeta.",
+      "são constituídas de baixa a média biodiversidade.",
+      "são os ecossistemas mais bem preservados da Terra.",
+      "têm uma composição de flora predominantemente latifoliada.",
+      "reduzem a umidade do ar através da evapotranspiração"
+    ],
+    "correta": 3,
+    "ajuda": "Pense nas características das florestas tropicais úmidas: localizam-se nas baixas latitudes (próximas ao Equador), apresentam altíssima biodiversidade, são os ecossistemas mais ameaçados do mundo e têm vegetação latifoliada (de folhas largas). Analise cada afirmativa e identifique qual descreve corretamente uma característica real dessas florestas.",
+    "comentario": "As florestas tropicais úmidas (incluindo a Amazônia) são caracterizadas por vegetação latifoliada — folhas largas, adaptadas à máxima captação de luz solar difusa sob o dossel. Esse tipo de folha contrasta com as aciculifoliadas (em forma de agulha, típicas das coníferas de clima frio). A latifoliação é uma adaptação ao clima quente e úmido, onde a perda de água por evapotranspiração é intensa."
+  },
+  {
+    "id": 10,
+    "instituicao": "ENEM",
+    "ano": "2001",
+    "dificuldade": "media",
+    "tags": [
+      "Mata Atlântica",
+      "desmatamento",
+      "fragmentação florestal",
+      "litoral brasileiro"
+    ],
+    "imagem_apoio": "2ano/img/216/s16q10.png",
+    "pergunta": "A Mata Atlântica, que originalmente se estendia por todo o litoral brasileiro, do Ceará ao Rio Grande do Sul, ostenta hoje o triste título de uma das florestas mais devastadas do mundo. Com mais de 1 milhão de quilômetros quadrados, hoje restam apenas 5% da vegetação original, como mostram as figuras.\n\nConsiderando as características histórico-geográficas do Brasil e a partir da análise das figuras é correto afirmar que:",
+    "alternativas": [
+      "as transformações climáticas, especialmente na Região Nordeste, interferiram fortemente na diminuição dessa floresta úmida.",
+      "nas três últimas décadas, o grau de desenvolvimento regional impediu que a devastação da Mata Atlântica fosse maior do que a registrada.",
+      "as atividades agrícolas, aliadas ao extrativismo vegetal, têm se constituído, desde o período colonial, na principal causa da devastação da Mata Atlântica.",
+      "a taxa de devastação dessa floresta tem seguido o sentido oposto ao do crescimento populacional de cada uma das Regiões afetadas.",
+      "o crescimento industrial, na década de 50, foi o principal fator de redução da cobertura vegetal na faixa litorânea do Brasil, especialmente da região Nordeste."
+    ],
+    "correta": 2,
+    "ajuda": "Observe os mapas mostrando a cobertura original e o estado atual da Mata Atlântica. Pense em por que essa floresta foi tão devastada: ela cobre exatamente o litoral brasileiro, onde a colonização começou e onde as maiores cidades se desenvolveram. Qual causa histórica explica a devastação continuada desde o período colonial?",
+    "comentario": "A Mata Atlântica é o bioma mais devastado do Brasil: de uma extensão original de 1,3 milhão de km², restam apenas cerca de 12–16% de remanescentes florestais, fragmentados e isolados. Essa devastação começou no século XVI com a extração do pau-brasil, continuou com a cana-de-açúcar, o café e o processo de urbanização, tornando a Mata Atlântica um dos hotspots de biodiversidade mais ameaçados do planeta."
+  }
+]

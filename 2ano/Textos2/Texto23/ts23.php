@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Transição demográfica, estrutura etária, pirâmide etária e teorias populacionais no Brasil">
+    <meta property="og:title" content="Texto 23 - População II: Dinâmica Demográfica">
+    <meta property="og:description" content="Taxas de natalidade e mortalidade, transição demográfica, pirâmide etária e teorias populacionais">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+
+    <title></title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender as taxas de natalidade, mortalidade e fecundidade; analisar as fases da transição demográfica no Brasil; interpretar pirâmides etárias e a estrutura etária da população; conhecer as principais teorias populacionais, como o malthusianismo, o neomalthusianismo e a teoria reformista.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Introducao -->
+        <div class="topico">
+
+            <h2>Introdução</h2>
+
+            <p><span class="primeiraLetra">E</span>m 2041, o Brasil deve atingir o pico máximo de sua população: cerca de 220 milhões de pessoas. Depois disso, o número começa a cair. Essa projeção do IBGE não e um dado neutro: ela revela que o país esta no meio de uma das transformações mais profundas de sua história, chamada de <span class="termo" data-palavra="Transição Demográfica" data-definicao="Processo pelo qual uma população passa de um regime com altas taxas de natalidade e mortalidade para um regime com taxas baixas em ambas. Resulta em envelhecimento progressivo da população e desaceleração do crescimento. O Brasil viveu essa transição de forma acelerada a partir da segunda metade do século XX.">transição demográfica</span>.</p>
+
+            <p>Para entender o que esta acontecendo com a população brasileira e mundial, precisamos dominar os instrumentos que os geógrafos e demografos usam para medir como as populações nascem, crescem, envelhecem e morrem. E preciso também entender por que essa dinamica importa: a forma como uma população envelhece define as políticas de previdência, saúde, educação e mercado de trabalho de um país por décadas.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: Taxas demograficas -->
+        <div class="topico">
+
+            <h2>Taxas de Natalidade, Mortalidade e Fecundidade</h2>
+
+            <p>A análise demográfica começa por tres indicadores fundamentais que medem o ritmo com que uma população cresce ou diminui.</p>
+
+            <p>A <span class="termo" data-palavra="Taxa de Natalidade" data-definicao="Numero de nascimentos vivos por mil habitantes em um determinado ano. Calculada dividindo o numero de nascimentos pela populacao total e multiplicando por 1.000. No Brasil, caiu de 30 nascimentos por mil habitantes em 1980 para cerca de 13 em 2022, reflexo direto da transição demográfica.">taxa de natalidade</span> mede o número de nascimentos por mil habitantes em um ano. No Brasil, essa taxa era de cerca de 30 nascimentos por mil habitantes em 1980 e chegou a aproximadamente 13 por mil em 2022, queda influenciada pela urbanização, maior participação das mulheres no mercado de trabalho e acesso a métodos contraceptivos.</p>
+
+            <p>A <span class="termo" data-palavra="Taxa de Mortalidade" data-definicao="Numero de obitos por mil habitantes em um determinado ano. No Brasil, caiu de 10,5 obitos por mil em 1980 para cerca de 6,5 em 2022, graças a avanços na saude publica, saneamento basico e acesso a medicamentos. Desigualdades regionais persistem: Norte e Nordeste ainda enfrentam taxas mais elevadas em certas faixas etarias.">taxa de mortalidade</span> mede o número de óbitos por mil habitantes no mesmo período. No Brasil, caiu de 10,5 em 1980 para cerca de 6,5 em 2022, reflexo de melhorias no sistema de saúde, saneamento básico e avanços médicos. Regiões como Norte e Nordeste ainda apresentam desigualdades nesse indicador.</p>
+
+            <p>A <span class="termo" data-palavra="Taxa de Fecundidade" data-definicao="Numero medio de filhos que uma mulher tem ao longo de sua vida fertil (entre 15 e 49 anos). Diferente da taxa de natalidade, que e calculada sobre o total da populacao, a fecundidade diz respeito especificamente as mulheres em idade reprodutiva. No Brasil, caiu de 6,28 filhos por mulher em 1960 para 1,57 em 2023, abaixo do nivel de reposição (2,1 filhos).">taxa de fecundidade</span> indica o número médio de filhos que uma mulher tem ao longo de sua vida. Em 1960, a taxa brasileira era de 6,28 filhos por mulher; em 2023, chegou a 1,57, bem abaixo do nível de reposição populacional, que e de 2,1 filhos. Isso significa que, sem imigração expressiva, o Brasil não consegue mais repor a própria população no longo prazo.</p>
+
+            <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue w3-round-large w3-padding-16 w3-margin-top">
+                <p><strong>Atenção para o ENEM:</strong> taxa de natalidade e calculada sobre TODA a população; taxa de fecundidade e calculada especificamente sobre as mulheres em idade fertil (15 a 49 anos). Sao indicadores diferentes e aparecem em questões separadas.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Questao pratica 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Em 2023, o IBGE revelou que a taxa de fecundidade brasileira atingiu 1,57 filho por mulher, abaixo do nível de reposição (2,1). O que esse dado indica sobre o futuro da população brasileira?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>A população cresce aceleradamente, pois a taxa ainda e positiva</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>Sem imigração significativa, a população tende a envelhecer e diminuir no longo prazo, pois cada geração não se repoe completamente</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>A taxa de fecundidade não tem relação com o crescimento populacional; o que importa e a taxa de natalidade</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o nivel de reposicao e 2,1 filhos por mulher: abaixo dele, cada geracao produz menos pessoas do que a anterior. Com 1,57, o Brasil esta em trajetoria de reducao populacion al no longo prazo. O IBGE projeta que o pico populacion al ocorra em 2041 (220 milhoes) e que a partir de 2042 a populacao comece a diminuir. O processo ja e visivel: a base da piramide etaria brasileira esta estreitando.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 5: Transicao demografica -->
+        <div class="topico">
+
+            <div class="w3-pale-blue">
+
+            <h2>Transição Demográfica</h2>
+
+            <p>A transição demográfica e o processo pelo qual uma população passa de um padrao de altas natalidade e mortalidade para um padrao de baixas taxas em ambas. Esse percurso não e imediato: ele passa por fases com dinamicas distintas que explicam por que alguns países ainda crescem muito enquanto outros ja estão em declinio populacional.</p>
+
+            <p><strong>Fase 1 (Pre-transicional):</strong> Altas taxas de natalidade e mortalidade. O crescimento populacional e lento, pois muitos nascem mas muitos também morrem cedo. Era o padrao predominante antes do século XIX na maioria dos países.</p>
+
+            <p><strong>Fase 2 (Transição inicial):</strong> A mortalidade cai por causa de melhorias em saúde pública, vacinas e saneamento, mas a natalidade continua alta. Resultado: crescimento populacional acelerado. O Brasil viveu essa fase nas décadas de 1950 e 1960, quando a população explodia mas as famílias ainda tinham muitos filhos.</p>
+
+            <p><strong>Fase 3 (Transição intermediaria):</strong> A natalidade comeca a cair, impulsionada pela urbanização, maior escolaridade feminina, acesso a contraceptivos e mudancas culturais. O crescimento desacelera. O Brasil passou por essa fase nas décadas de 1970 e 1980.</p>
+
+            <p><strong>Fase 4 (Transição avancada):</strong> Tanto a natalidade quanto a mortalidade estão baixas. O crescimento e mínimo ou negativo. A população envelhece. Países como Japao, Alemanha e Italia ja estão nessa fase. O Brasil se aproxima dela.</p>
+
+            <div class="w3-margin">
+                <img src="ts23f01.png" alt="Grafico das fases da transicao demografica" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Grafico em breve: fases da transição demográfica</div>'">
+                <span class="w3-small w3-margin-left">As quatro fases da transição demográfica e o comportamento das taxas de natalidade e mortalidade em cada uma. Fonte: elaborado pelo autor.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 6: Estrutura etaria e piramide -->
+        <div class="topico">
+
+            <h2>Estrutura Etária e Pirâmide Etária</h2>
+
+            <p>A <span class="termo" data-palavra="Estrutura Etária" data-definicao="Distribuicao da populacao segundo grupos de idade, geralmente dividida em tres grandes faixas: populacao jovem (0 a 14 anos), populacao adulta em idade ativa (15 a 64 anos) e populacao idosa (65 anos ou mais). A estrutura etaria influencia diretamente as demandas por servicos publicos: escolas, hospitais, previdencia social.">estrutura etária</span> de uma população descreve como os habitantes estão distribuidos entre as diferentes faixas de idade. Ela determina quais serviços públicos serao mais demandados e qual e a capacidade produtiva de um país: uma população predominantemente jovem precisa de escolas e emprego; uma população velha precisa de hospitais e previdência.</p>
+
+            <p>O instrumento visual mais usado para representar a estrutura etária e a <span class="termo" data-palavra="Pirâmide Etária" data-definicao="Representacao grafica da distribuicao da populacao por sexo e faixas de idade. As barras horizontais mostram cada faixa etaria, com homens de um lado e mulheres do outro. O formato da piramide revela o estagio de transicao demografica: base larga indica alta natalidade; base estreita com topo largo indica envelhecimento.">pirâmide etária</span>. Ela organiza a população em barras horizontais por faixas de cinco anos, com homens de um lado e mulheres do outro. O formato da pirâmide conta a história demográfica de um país.</p>
+
+            <h3>Tipos de pirâmide etária</h3>
+
+            <p><strong>Pirâmide expansiva (base larga, topo estreito):</strong> Alta natalidade, alta mortalidade em idades mais avancadas. População majoritariamente jovem e em crescimento acelerado. Típica de países em desenvolvimento com transição demográfica inicial, como varios países da Africa Subsaariana.</p>
+
+            <p><strong>Pirâmide constritiva (base estreitando):</strong> Natalidade em queda, mortalidade também caindo. Base menor que o grupo adulto. Crescimento desacelerado. O Brasil dos anos 2000 se enquadrava nessa categoria.</p>
+
+            <p><strong>Pirâmide regressiva (base estreita, topo largo):</strong> Baixissima natalidade e alta expectativa de vida. A população envelhece e pode comeca a diminuir. Japao, Alemanha e Italia são exemplos classicos.</p>
+
+            <p>O Brasil de 2022 mostra uma pirâmide constritiva caminhando para regressiva: o Censo 2022 revelou que, pela primeira vez, o grupo de pessoas acima de 65 anos (10,9% da população) cresceu proporcionalmente mais do que o grupo de crianças ate 14 anos (19,8%). Em 2010, a população com 65 anos ou mais era 7,4% do total.</p>
+
+            <div class="w3-margin">
+                <img src="ts23f02.png" alt="Evolucao da piramide etaria brasileira de 1970 a 2022" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>Pirâmide etária em breve</div>'">
+                <span class="w3-small w3-margin-left">Evolução da pirâmide etária brasileira: 1970, 2000 e 2022. A base vai estreitando enquanto o topo alarga. Fonte: IBGE, Censo 2022.</span>
+            </div>
+
+            <h3>O bônus demográfico</h3>
+
+            <p>Ha um período da transição demográfica chamado de <span class="termo" data-palavra="Bônus Demográfico" data-definicao="Periodo em que a populacao em idade ativa (15 a 64 anos) e proporcionalmente maior do que a populacao dependente (criancas e idosos). Gera uma janela de oportunidade economica: mais trabalhadores, menos dependentes, potencial de poupanca e investimento elevado. O Brasil viveu o bonus demografico entre as decadas de 1970 e 2020, e esse periodo esta se encerrando.">bônus demográfico</span>: quando a população em idade ativa e proporcionalmente maior que a população dependente (crianças mais idosos). O Brasil viveu esse bônus entre as décadas de 1970 e 2020. Agora, com o envelhecimento acelerado, o bônus esta se encerrando: a proporção de idosos cresce enquanto a de jovens cai, aumentando a carga sobre trabalhadores e o sistema de previdência.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questao pratica 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Censo 2022 mostrou que o Brasil tem mais pessoas acima de 65 anos do que crianças abaixo de 5 anos pela primeira vez na história. Qual e a interpretação geográfica correta desse dado?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>A pirâmide permanece expansiva, pois ainda ha crescimento absoluto da população</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>A pirâmide etária brasileira esta em processo de envelhecimento: a base estreita enquanto o topo alarga, sinal de transição demográfica avancada com queda da natalidade e aumento da expectativa de vida</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>O dado indica aumento da mortalidade infantil, o que reduziu o grupo de crianças pequenas</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o dado e classico da transicao demografica avancada: a natalidade cai (menos criancas nascendo), a expectativa de vida sobe (mais idosos vivendo por mais tempo). Resultado: a base da piramide estreita enquanto o topo alarga. O Brasil vai do bonus demografico para o envelhecimento. Isso tem consequencias diretas para previdencia, saude e mercado de trabalho.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Teorias populacionais -->
+        <div class="topico">
+
+            <div class="w3-pale-green">
+
+            <h2>Teorias Populacionais</h2>
+
+            <p>O crescimento da população mundial sempre gerou debate: ele e um problema ou uma oportunidade? Quem deve controla-lo e como? As principais teorias populacionais oferecem respostas diferentes, e cada uma delas tem implicações políticas e econômicas concretas.</p>
+
+            <h3>Malthusianismo</h3>
+
+            <p>Thomas Malthus, economista britanico, publicou em 1798 o "Ensaio sobre o Principio da População". Sua tese central: a população cresce em progressão geometrica (2, 4, 8, 16...) enquanto a produção de alimentos cresce em progressão aritmetica (2, 4, 6, 8...). Inevitavelmente, afirmava Malthus, a população superaria os recursos disponíveis.</p>
+
+            <p>Para Malthus, existem dois tipos de frenos ao crescimento excessivo. Os "freios preventivos": celibato, casamento tardio e abstinencia sexual. Os "freios positivos": fome, guerras, doencas e epidemias, que matam o excesso de população. Para Malthus, a miseria era consequencia natural do crescimento excessivo da população, não um problema de distribuição de riqueza.</p>
+
+            <p>Critica central ao malthusianismo: Malthus não previu a revolução agricola e tecnologica do século XX. A produção de alimentos cresceu muito mais rápido do que ele imaginava (revolução verde, adubos quimicos, sementes modificadas). A fome atual não e falta de alimentos no mundo, mas problema de distribuição e acesso.</p>
+
+            <h3>Neomalthusianismo</h3>
+
+            <p>Os <span class="termo" data-palavra="Neomalthusianismo" data-definicao="Corrente que retoma as preocupacoes de Malthus sobre superpopulacao, mas com foco na degradacao ambiental e esgotamento de recursos. Defende politicas ativas de controle demografico, como programas de planejamento familiar e acesso a contraceptivos, especialmente em paises pobres. Critica: ignora que o consumo desigual e mais determinante que o tamanho da populacao.">neomalthusianos</span> do século XX retomaram as preocupações de Malthus, mas com um novo argumento: o problema não e so a falta de alimentos, mas o esgotamento geral dos recursos naturais e a degradação ambiental causada pelo crescimento populacional. Defendem políticas ativas de planejamento familiar e controle de natalidade.</p>
+
+            <p>Critica: países ricos, com populações estabilizadas ou em declinio, consomem muito mais recursos per capita do que países pobres com alta natalidade. Um americano médio consome cerca de 5 vezes mais recursos que um brasileiro médio, que por sua vez consome mais que um habitante da Africa Subsaariana. O problema e o padrao de consumo, não apenas o tamanho da população.</p>
+
+            <h3>Teoria Reformista (ou Transicional)</h3>
+
+            <p>Os reformistas, influenciados por economistas e demografos do século XX, argumentam que o controle do crescimento populacional não e o caminho: o desenvolvimento econômico e social que naturalmente reduz a fecundidade. Quando países melhoram educação (especialmente feminina), saúde e renda, as taxas de fecundidade caem por conta própria, sem necessidade de políticas coercitivas de controle de natalidade.</p>
+
+            <p>A evidencia empirica apoia essa visao: todos os países que passaram por desenvolvimento econômico solido vivenciaram queda espontânea da fecundidade. O problema para os reformistas não e quantidade de pessoas, mas desigualdade e falta de acesso a bens básicos.</p>
+
+            <h3>Teoria Marxista</h3>
+
+            <p>Para os marxistas, o problema populacional não existe de forma independente: a miseria não vem de "excesso de pessoas", mas de relações de produção injustas que concentram riqueza. Karl Marx chamou a teoria malthusiana de "panfleto a favor da burguesia" porque ela culpa os pobres pela própria pobreza, ao inves de questionar a distribuição do produto do trabalho. Para os marxistas, o crescimento populacional em si não e o problema: o problema e o capitalismo que não distribui os frutos da produção.</p>
+
+            <div class="w3-margin">
+                <img src="ts23f03.png" alt="Quadro comparativo das teorias populacionais" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Quadro comparativo em breve</div>'">
+                <span class="w3-small w3-margin-left">Comparativo entre as principais teorias populacionais: causas, soluções propostas e criticas. Fonte: elaborado pelo autor.</span>
+            </div>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Resumo -->
+        <div class="topico">
+
+            <div class="w3-light-blue">
+
+            <h2>Resumo</h2>
+
+            <p><strong>Taxas demográficas:</strong> Natalidade mede nascimentos por mil habitantes; mortalidade mede óbitos por mil; fecundidade mede filhos por mulher. No Brasil: natalidade caiu de 30 (1980) para 13 (2022); mortalidade caiu de 10,5 para 6,5; fecundidade caiu de 6,28 (1960) para 1,57 (2023), abaixo do nível de reposição.</p>
+
+            <p><strong>Transição demográfica:</strong> Quatro fases, da alta natalidade e mortalidade ate o envelhecimento com baixas taxas em ambas. O Brasil esta na fase avancada: população cresce pouco e envelhece rápido. Pico demográfico previsto para 2041.</p>
+
+            <p><strong>Estrutura etária e pirâmide:</strong> Pirâmide expansiva = população jovem; constritiva = transição; regressiva = envelhecimento. O Brasil 2022 tem pirâmide constritiva-regressiva. Bônus demográfico esta se encerrando.</p>
+
+            <p><strong>Teorias populacionais:</strong> Malthusianismo (população cresce mais que alimentos, miseria e freio natural); neomalthusianismo (esgotamento ambiental requer controle de natalidade); teoria reformista (desenvolvimento e que reduz fecundidade naturalmente); teoria marxista (miseria vem de desigualdade, não de excesso de pessoas).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Qual a diferenca entre taxa de natalidade e taxa de fecundidade?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> A taxa de natalidade mede nascimentos em relação a TODA a população (por mil habitantes, independente de sexo ou idade). A taxa de fecundidade mede filhos em relação as mulheres em idade fertil (15 a 49 anos). Exemplo: um país com muita população idosa pode ter baixa natalidade mesmo que as mulheres jovens ainda tenham varios filhos, porque a base de calcul o inclui todo o povo. Nas provas do ENEM, o enunciado geralmente deixa claro qual das duas esta sendo usada, mas saber a diferenca e essencial para interpretar graficos e tabelas corretamente.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que a população do Brasil ainda cresce se a fecundidade esta abaixo de 2,1?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque ha inercia demográfica: mesmo com fecundidade baixa, a geração de mulheres jovens atual (nascida quando a fecundidade ainda era mais alta) e numerosa, e os filhos que elas dao a luz são suficientes para superar as mortes por um tempo. E como um carro que você tirou o pe do acelerador: ele não para imediatamente, vai desacelerando ate parar. O pico desta desaceleração no Brasil e previsto para 2041. A partir de 2042, o número de mortes deve superar o de nascimentos.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O bônus demográfico e automaticamente positivo para a economia?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Não automaticamente. O bônus demográfico cria uma janela de oportunidade: mais trabalhadores, menos dependentes, potencial de poupança e investimento elevado. Mas essa janela so se converte em crescimento se o país tiver políticas adequadas de emprego, educação e saúde. Varios países da America Latina, incluindo o Brasil, tiveram o bônus demográfico mas não conseguiram aproveita-lo plenamente por causa de desigualdade e baixa qualidade educacional. Agora que o bônus esta se encerrando, a janela fecha sem ter sido totalmente aberta.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Producao -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o que você aprendeu.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>Analisando a pirâmide etária do seu município</h3>
+                <p><strong>Atividade individual ou em dupla</strong></p>
+
+                <p>Acesse o site <strong>cidades.ibge.gov.br</strong>, busque o seu município e encontre os dados de estrutura etária do Censo 2022. Escreva um texto de 15 a 20 linhas respondendo:</p>
+                <p><strong>1.</strong> Qual e o perfil etário do seu município? A pirâmide e expansiva, constritiva ou regressiva?</p>
+                <p><strong>2.</strong> Qual teoria populacional melhor explica os dados encontrados? Por que?</p>
+                <p><strong>3.</strong> Quais são os principais desafios para o seu município nas proximas duas décadas, considerando a estrutura etária atual?</p>
+                <p class="w3-small w3-text-grey">Dica: compare com o município vizinho ou com a média estadual. Municípios grandes e industriais tendem a envelhecer mais rápido do que municípios rurais.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questoes para o caderno -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. Qual e a tendencia da taxa de mortalidade no Brasil nas últimas décadas? Quais fatores explicam essa mudanca?</h3>
+
+                <h3>2. Como a taxa de natalidade brasileira mudou desde 1980? Cite pelo menos tres fatores que influenciaram essa queda.</h3>
+
+                <h3>3. O que e taxa de fecundidade e qual e sua diferenca em relação a taxa de natalidade?</h3>
+
+                <h3>4. Descreva as quatro fases da transição demográfica. Em qual fase o Brasil se encontra atualmente?</h3>
+
+                <h3>5. O que e pirâmide etária? Como o formato de uma pirâmide revela o estágio demográfico de um país?</h3>
+
+                <h3>6. O que e bônus demográfico? Por que se diz que o Brasil perdeu parte de sua janela demográfica?</h3>
+
+                <h3>7. Explique a tese central de Thomas Malthus. Qual e a principal critica contemporânea ao malthusianismo?</h3>
+
+                <h3>8. Qual e a diferenca entre a teoria neomalthusiana e a teoria reformista sobre o crescimento populacional?</h3>
+
+                <h3>9. Como os marxistas criticam a teoria de Malthus? Qual e a causa da miseria para eles?</h3>
+
+                <h3>10. A população brasileira comecara a diminuir em 2042 segundo o IBGE. Quais são os principais desafios sociais e econômicos que isso representa para o país?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 14: Transicao final -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema {TITULO} e fantastico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 15: Finalizar -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SECAO FINAL: PARA SABER MAIS + REFERENCIAS -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+            <br><br>
+            <div class="w3-padding-48">
+                <span id="numero"></span>
+                <span id="txtBarra">0%</span>
+                <progress value="0" max="100" id="progress"></progress>
+            </div>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>
