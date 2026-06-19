@@ -33,7 +33,8 @@
       "industrialização",
       "economia"
     ],
-    "pergunta": "Novos Tigres Asiáticos é um terno que se refere às economias dos cinco países do Sudeste asiático (Malásia, Vietnã, Tailândia, Indonésia e Filipinas) que apresentavam características econômicas e de desenvolvimento social semelhantes aos “velhos” tigres asiáticos (Coréia do Sul, Taiwan, Hong Kong e Cingapura). Esses experimentaram um crescimento econômico expressivo para a região.\n\nA principal característica dos Novos Tigres foi:",
+    "texto_apoio": "Novos Tigres Asiáticos é um terno que se refere às economias dos cinco países do Sudeste asiático (Malásia, Vietnã, Tailândia, Indonésia e Filipinas) que apresentavam características econômicas e de desenvolvimento social semelhantes aos “velhos” tigres asiáticos (Coréia do Sul, Taiwan, Hong Kong e Cingapura). Esses experimentaram um crescimento econômico expressivo para a região.",
+    "pergunta": "A principal característica dos Novos Tigres foi:",
     "alternativas": [
       "investir no modelo baseado na substituição de importação, o mesmo que foi implantado na América Latina.",
       "o amplo recebimento de investimentos estrangeiros, principalmente das empresas multinacionais.",
@@ -107,7 +108,8 @@
       "desconcentração industrial",
       "Ásia"
     ],
-    "pergunta": "A partir da década de 1950, empresas transnacionais promoveram uma rápida expansão da industrialização para diversas regiões do planeta. Os países foram escolhidos em função do mercado consumidor e das condições favoráveis para a implantação da atividade industrial. Em relação ao assunto, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\n\nI. Os Novos Tigres Asiáticos (como Malásia e Vietnã) industrializaram-se a partir do modelo plataformas de exportação. As empresas transnacionais instalam-se no país e exportam para outros países, onde o produto é montado.\n\nII. Os Tigres Asiáticos (Coreia do Sul, Taiwan, Cingapura e Hong Kong) construíram parque industrial voltado para o mercado internacional, abastecendo-o com produtos de tecnologia avançada. Investimentos em educação produziram uma mão de obra qualificada, embora barata.\n\nIII. A China adotou o modelo de liberalização da economia, atraindo capitais para as Zonas Econômicas Especiais e para as cidades abertas, com baixíssimo custo da mão de obra. Dessa forma, tornou-se grande produtora de manufaturas, com parque industrial bastante diversificado.\n\nIV. O Brasil adotou o modelo de substituição de importações, que previa a proteção do mercado interno, a proibição da entrada de manufaturados estrangeiros e a participação intensiva do capital nacional.",
+    "texto_apoio": "A partir da década de 1950, empresas transnacionais promoveram uma rápida expansão da industrialização para diversas regiões do planeta. Os países foram escolhidos em função do mercado consumidor e das condições favoráveis para a implantação da atividade industrial.",
+    "pergunta": "Em relação ao assunto, analise as assertivas e assinale a alternativa que aponta a(s) correta(s).\n\nI. Os Novos Tigres Asiáticos (como Malásia e Vietnã) industrializaram-se a partir do modelo plataformas de exportação. As empresas transnacionais instalam-se no país e exportam para outros países, onde o produto é montado.\n\nII. Os Tigres Asiáticos (Coreia do Sul, Taiwan, Cingapura e Hong Kong) construíram parque industrial voltado para o mercado internacional, abastecendo-o com produtos de tecnologia avançada. Investimentos em educação produziram uma mão de obra qualificada, embora barata.\n\nIII. A China adotou o modelo de liberalização da economia, atraindo capitais para as Zonas Econômicas Especiais e para as cidades abertas, com baixíssimo custo da mão de obra. Dessa forma, tornou-se grande produtora de manufaturas, com parque industrial bastante diversificado.\n\nIV. O Brasil adotou o modelo de substituição de importações, que previa a proteção do mercado interno, a proibição da entrada de manufaturados estrangeiros e a participação intensiva do capital nacional.",
     "alternativas": [
       "I, II, III e IV.",
       "Apenas I, II e III.",
@@ -130,7 +132,8 @@
       "território",
       "localização"
     ],
-    "pergunta": "A Austrália é, em extensão territorial, o sexto maior país da Terra. Localiza-se em uma ilha na Oceania e não faz fronteira terrestre com outro país. Possui uma população de aproximadamente 24 milhões de habitantes.\n\nAs maiores concentrações populacionais da Austrália ocorrem nas proximidades do seu vasto litoral leste e sudeste, pois",
+    "texto_apoio": "A Austrália é, em extensão territorial, o sexto maior país da Terra. Localiza-se em uma ilha na Oceania e não faz fronteira terrestre com outro país. Possui uma população de aproximadamente 24 milhões de habitantes.",
+    "pergunta": "As maiores concentrações populacionais da Austrália ocorrem nas proximidades do seu vasto litoral leste e sudeste, pois",
     "alternativas": [
       "na porção centro-noroeste existem dobramentos modernos que impossibilitam o estabelecimento de cidades pela constante ação de terremotos.",
       "a porção centro-oriental do país é habitada por aborígenes que não aceitaram a presença do holandês colonizador e impediram outros assentamentos.",
@@ -153,7 +156,8 @@
       "cultura do trabalho",
       "dedicação profissional"
     ],
-    "pergunta": "Karoshi é uma palavra japonesa que significa morte por excesso de trabalho. O Ministério da Saúde, Trabalho e Bem-Estar do Japão supervisionou 4 561 empresas em novembro de 2014 e descobriu que, em 2 300 delas, havia registros de horas extras ilegais. Desse total, 715 empresas tinham funcionários realizando individualmente mais de 100 horas extras por mês. Em 153 empresas, o número de horas extras realizado por alguns funcionários havia subido para 150 horas e, em 35, superou as 200 horas extras mensais por funcionário, trazendo, dessa forma, riscos à saúde e consequentemente à vida dos trabalhadores.\n\nSegundo dados oficiais, cerca de 200 japoneses morrem por ano por causa do excesso de horas de trabalho.\n\nO aumento do número de casos de karoshi verificados no Japão se deve, principalmente,",
+    "texto_apoio": "Karoshi é uma palavra japonesa que significa morte por excesso de trabalho. O Ministério da Saúde, Trabalho e Bem-Estar do Japão supervisionou 4 561 empresas em novembro de 2014 e descobriu que, em 2 300 delas, havia registros de horas extras ilegais. Desse total, 715 empresas tinham funcionários realizando individualmente mais de 100 horas extras por mês. Em 153 empresas, o número de horas extras realizado por alguns funcionários havia subido para 150 horas e, em 35, superou as 200 horas extras mensais por funcionário, trazendo, dessa forma, riscos à saúde e consequentemente à vida dos trabalhadores.\n\nSegundo dados oficiais, cerca de 200 japoneses morrem por ano por causa do excesso de horas de trabalho.",
+    "pergunta": "O aumento do número de casos de karoshi verificados no Japão se deve, principalmente,",
     "alternativas": [
       "ao atraso econômico do Japão, ainda decorrente da derrota desse país na Segunda Guerra Mundial.",
       "aos baixos salários pagos a todos os trabalhadores japoneses, que se veem obrigados a trabalhar até o esgotamento.",
@@ -224,7 +228,8 @@
       "sistema mundial",
       "potência industrial"
     ],
-    "pergunta": "A posição do Japão no sistema mundial vem assumindo notável proeminência, com especial destaque no período que se segue à Segunda Guerra Mundial. Isto significa dizer que a presença japonesa pelo mundo afora se traduz, mais explicitamente, pela crescente conquista de fatias do mercado internacional.\n\nMarque a opção FALSA a respeito da realidade japonesa.",
+    "texto_apoio": "A posição do Japão no sistema mundial vem assumindo notável proeminência, com especial destaque no período que se segue à Segunda Guerra Mundial. Isto significa dizer que a presença japonesa pelo mundo afora se traduz, mais explicitamente, pela crescente conquista de fatias do mercado internacional.",
+    "pergunta": "Marque a opção FALSA a respeito da realidade japonesa.",
     "alternativas": [
       "O Japão teria tudo para ser apenas mais um arquipélago do oceano Pacífico, compondo um arco montanhoso e vulcânico, não fossem alguns traços que lhe conferem uma individualização em seu contexto socioespacial, ligada a seu caráter de potência industrial; sua capacidade de incorporar inovações ocidentais, partindo por vias autônomas para uma revolução tecnológica e uma interpenetração entre tradição e modernidade que permite falar numa \"versão japonesa\" de desenvolvimento.",
       "Apesar do destaque no desenvolvimento econômico, o Japão enfrenta grandes adversidades naturais, reveladas pela grande distância que separa a costa japonesa do setor continental mais próximo; pelas dificuldades climáticas vinculadas a um regime monçônico e por uma instabilidade geológica expressiva.",

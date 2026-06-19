@@ -33,9 +33,10 @@
       "poluição",
       "questões ambientais"
     ],
+    "texto_apoio": "Nas últimas décadas, descobriu-se que os volumosos e inadequados descartes de resíduos plásticos e de outros materiais sintéticos, mesmo quando realizados nos continentes, podem resultar em consideráveis depósitos em áreas distantes nos oceanos e mares, seja em seu fundo, na coluna d’água, ou na sua superfície. Como consequência, ocorrem mudanças físicas, químicas e ecológicas nesses oceanos e mares, em que alguns desses depósitos já atingem a escala planetária, como é o caso dos materiais plásticos flutuantes representados na figura.",
     "fonte_apoio": "http://www.revistapesquisafapesp.br, maio de 2016.",
     "imagem_apoio": "1ano/img/132/p32q2.png",
-    "pergunta": "Nas últimas décadas, descobriu-se que os volumosos e inadequados descartes de resíduos plásticos e de outros materiais sintéticos, mesmo quando realizados nos continentes, podem resultar em consideráveis depósitos em áreas distantes nos oceanos e mares, seja em seu fundo, na coluna d’água, ou na sua superfície. Como consequência, ocorrem mudanças físicas, químicas e ecológicas nesses oceanos e mares, em que alguns desses depósitos já atingem a escala planetária, como é o caso dos materiais plásticos flutuantes representados na figura.\n\nOs depósitos flutuantes representados na figura apresentam-se.",
+    "pergunta": "Os depósitos flutuantes representados na figura apresentam-se.",
     "alternativas": [
       "com padrões concentrados na parte interna dos giros oceânicos do Pacífico norte e sul, locais de menor atividade das grandes correntes marinhas.",
       "com maior acumulação no litoral de ambos os hemisférios, devido à atuação de importantes correntes marinhas nessas áreas.",
@@ -103,8 +104,9 @@
       "aquecimento global",
       "gases de efeito estufa"
     ],
+    "texto_apoio": "O efeito estufa é um processo em que o calor proveniente do Sol é absorvido pela Terra e posteriormente é irradiado para a atmosfera, onde parte desse calor fica retido devido à presença de gases, como o vapor d’água, o gás carbônico e o metano.",
     "imagem_apoio": "1ano/img/132/p32q5.png",
-    "pergunta": "O efeito estufa é um processo em que o calor proveniente do Sol é absorvido pela Terra e posteriormente é irradiado para a atmosfera, onde parte desse calor fica retido devido à presença de gases, como o vapor d’água, o gás carbônico e o metano.\n\nAnalise a veracidade (V) ou a falsidade (F) das afirmações a seguir, relacionadas ao efeito estufa.\n\n( ) O efeito estufa é um processo natural que, se não existisse, tornaria a Terra um planeta gelado e inabitável para a maioria dos seres vivos.\n\n( ) O aumento da emissão de gases, como o gás carbônico e o metano, pode gerar um aumento na retenção de calor na atmosfera, aquecendo nosso planeta.\n\n( ) uma fonte emissora de metano é o rebanho de gado bovino, pois tais animais eliminam grandes quantidades desse gás, proveniente do metabolismo dos seus tratos digestórios.\n\n( ) A quantidade de gás carbônico na atmosfera vem aumentando desde a Revolução Industrial.\n\nAssinale a alternativa que preenche corretamente os parênteses, de cima para baixo.",
+    "pergunta": "Analise a veracidade (V) ou a falsidade (F) das afirmações a seguir, relacionadas ao efeito estufa.\n\n( ) O efeito estufa é um processo natural que, se não existisse, tornaria a Terra um planeta gelado e inabitável para a maioria dos seres vivos.\n\n( ) O aumento da emissão de gases, como o gás carbônico e o metano, pode gerar um aumento na retenção de calor na atmosfera, aquecendo nosso planeta.\n\n( ) uma fonte emissora de metano é o rebanho de gado bovino, pois tais animais eliminam grandes quantidades desse gás, proveniente do metabolismo dos seus tratos digestórios.\n\n( ) A quantidade de gás carbônico na atmosfera vem aumentando desde a Revolução Industrial.\n\nAssinale a alternativa que preenche corretamente os parênteses, de cima para baixo.",
     "alternativas": [
       "V – F – F – V.",
       "F – V – V – F.",
@@ -196,7 +198,8 @@
       "sustentabilidade",
       "questões ambientais"
     ],
-    "pergunta": "A definição mais aceita para se considerar o desenvolvimento como sustentável é a de que ele deve ser capaz de suprir as necessidades da geração atual, sem comprometer a capacidade de atender às necessidades das futuras gerações. A ideia é que as atividades humanas não esgotem os recursos naturais, como a água limpa, as terras aráveis e as florestas. Ao mesmo tempo, todo desenvolvimento deve garantir condições de educação, de moradia e de saúde que forneçam vida digna à população.\n\nCom relação ao que se deve considerar sobre o desenvolvimento sustentável e as atitudes que os países devem tomar na sua consecução, todas as afirmações abaixo estão corretas, EXCETO:",
+    "texto_apoio": "A definição mais aceita para se considerar o desenvolvimento como sustentável é a de que ele deve ser capaz de suprir as necessidades da geração atual, sem comprometer a capacidade de atender às necessidades das futuras gerações. A ideia é que as atividades humanas não esgotem os recursos naturais, como a água limpa, as terras aráveis e as florestas. Ao mesmo tempo, todo desenvolvimento deve garantir condições de educação, de moradia e de saúde que forneçam vida digna à população.",
+    "pergunta": "Com relação ao que se deve considerar sobre o desenvolvimento sustentável e as atitudes que os países devem tomar na sua consecução, todas as afirmações abaixo estão corretas, EXCETO:",
     "alternativas": [
       "Se os países não mudarem os diversos modelos predatórios e inconsequentes de desenvolvimento em direção a um modelo mais sustentável, muitas regiões do planeta sofrerão as consequências da degradação ambiental, como a intensificação de fenômenos naturais (secas, tsunamis, furacões), a queda na produtividade de alimentos e o consequente aumento da fome.",
       "Um projeto de desenvolvimento busca o bem-estar social e a concentração de benefícios do país para a população. Isso significa, entre outras atitudes, manter a infraestrutura, ampliar o fornecimento de energia fóssil e garantir o acesso à educação universitária. Desenvolvimento implica apenas a geração de riquezas e se confunde com crescimento econômico.",

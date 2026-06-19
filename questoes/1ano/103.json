@@ -150,8 +150,8 @@
     "instituicao": "FUVEST",
     "ano": "2002",
     "imagem_apoio": "1ano/img/103/p3q6.png",
-    "texto_apoio": "",
-    "pergunta": "A Terra gira sobre ela mesma de Oeste para Leste. Assim, teoricamente, todos os pontos, no mesmo fuso horário, têm a mesma hora. Com base nessas informações e no mapa, podemos afirmar que:",
+    "texto_apoio": "A Terra gira sobre ela mesma de Oeste para Leste. Assim, teoricamente, todos os pontos, no mesmo fuso horário, têm a mesma hora",
+    "pergunta": "Com base nessas informações e no mapa, podemos afirmar que:",
     "alternativas": [
       "há três horários diferentes, aumentando para leste; sendo o primeiro fuso horário até 5°E, o segundo de 5° a 30°E e o terceiro depois de 30°E.",
       "as horas serão exatamente as mesmas em todas essas cidades, porque elas se situam na linha imaginária de 50°N.",

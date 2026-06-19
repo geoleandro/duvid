@@ -10,8 +10,9 @@
       "adaptação",
       "vulnerabilidade"
     ],
+    "texto_apoio": "A interface clima/sociedade pode ser considerada em termos de ajustamento à extensão e aos modos como as sociedades funcionam em uma relação harmônica com seu clima. O homem e suas sociedades são vulneráveis às variações climáticas. A vulnerabilidade é a medida pela qual uma sociedade é suscetível de sofrer por causas climáticas.",
     "fonte_apoio": "AYOADE, J. O. Introdução a climatologia para os trópicos. Rio de Janeiro: Bertrand Brasil, 2010 (adaptado).",
-    "pergunta": "A interface clima/sociedade pode ser considerada em termos de ajustamento à extensão e aos modos como as sociedades funcionam em uma relação harmônica com seu clima. O homem e suas sociedades são vulneráveis às variações climáticas. A vulnerabilidade é a medida pela qual uma sociedade é suscetível de sofrer por causas climáticas.\n\nConsiderando o tipo de relação entre ser humano e condição climática apresentado no texto, uma sociedade torna-se mais vulnerável quando",
+    "pergunta": "Considerando o tipo de relação entre ser humano e condição climática apresentado no texto, uma sociedade torna-se mais vulnerável quando",
     "alternativas": [
       "concentra suas atividades no setor primário.",
       "apresenta estoques elevados de alimentos.",
@@ -56,9 +57,10 @@
       "redes de transporte",
       "rotas globais"
     ],
+    "texto_apoio": "Um consultor canadense, Michael Markieta, desenvolveu um sistema de visualização das rotas de tráfego aéreo ao redor do globo que recria o mapa-múndi, como mostra a imagem. Atualmente, há 58 mil rotas aéreas cruzando os céus nos cinco continentes. Na imagem revelada por Markieta, não causa surpresa o fato de que os pontos mais densos aparecem em áreas onde muitas rotas seguem o mesmo trajeto e têm como destino as maiores cidades do mundo.",
     "fonte_apoio": "Adaptado de vegakosmonaut.blogspot.com.br, 11/06/2013.",
     "imagem_apoio": "3ano/img/319/t19q3.png",
-    "pergunta": "Um consultor canadense, Michael Markieta, desenvolveu um sistema de visualização das rotas de tráfego aéreo ao redor do globo que recria o mapa-múndi, como mostra a imagem. Atualmente, há 58 mil rotas aéreas cruzando os céus nos cinco continentes. Na imagem revelada por Markieta, não causa surpresa o fato de que os pontos mais densos aparecem em áreas onde muitas rotas seguem o mesmo trajeto e têm como destino as maiores cidades do mundo.\n\nNessa representação das rotas do transporte aéreo comercial, o mapa ilustra a seguinte mudança na geopolítica internacional contemporânea:",
+    "pergunta": "Nessa representação das rotas do transporte aéreo comercial, o mapa ilustra a seguinte mudança na geopolítica internacional contemporânea:",
     "alternativas": [
       "aculturação de áreas periféricas",
       "metropolização de regiões rurais",
@@ -172,8 +174,9 @@
       "agricultura",
       "tecnologia"
     ],
+    "texto_apoio": "A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas. Atualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total.",
     "fonte_apoio": "TUNDISI, J G Recursos hídricos no futuro: problemas e soluções Estudos Avançados. n 63, 2008 (adaptado)",
-    "pergunta": "A demanda mundial para a produção de alimentos aumenta progressivamente a taxas muito altas. Atualmente, na maioria dos países, continentes e regiões, a água consumida na agricultura é de cerca de 70% da disponibilidade total.\n\nPara que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)",
+    "pergunta": "Para que haja a redução da pressão sobre o recurso natural mencionado, a expansão da agricultura demanda melhorias no(a)",
     "alternativas": [
       "fertilização química do solo.",
       "escoamento hídrico do terreno.",
@@ -196,7 +199,8 @@
       "desigualdade",
       "fluxos"
     ],
-    "pergunta": "O espaço global é formado por redes desiguais, emaranhadas em escalas e níveis diferentes, que se sobrepõem e se prolongam umas sobre as outras. Esse processo de recriação dos espaços geográficos apresenta algumas características. Sobre elas, analise os itens a seguir:\n\n1. exacerbação das especializações produtivas no nível do espaço.\n\n2. concentração da produção em unidades menores, com o aumento da relação entre produto e superfície.\n\n3. aceleração de todas as formas de circulação e seu papel crescente na regulação das atividades localizadas.\n\n4. instituição de um novo papel da organização dos processos de regulação na constituição das regiões.\n\n5. transformação dos territórios nacionais em espaços nacionais da economia internacional.\n\nEstão CORRETOS",
+    "texto_apoio": "O espaço global é formado por redes desiguais, emaranhadas em escalas e níveis diferentes, que se sobrepõem e se prolongam umas sobre as outras. Esse processo de recriação dos espaços geográficos apresenta algumas características.",
+    "pergunta": "Sobre elas, analise os itens a seguir:\n\n1. exacerbação das especializações produtivas no nível do espaço.\n\n2. concentração da produção em unidades menores, com o aumento da relação entre produto e superfície.\n\n3. aceleração de todas as formas de circulação e seu papel crescente na regulação das atividades localizadas.\n\n4. instituição de um novo papel da organização dos processos de regulação na constituição das regiões.\n\n5. transformação dos territórios nacionais em espaços nacionais da economia internacional.\n\nEstão CORRETOS",
     "alternativas": [
       "1 e 2, apenas.",
       "1, 2 e 3, apenas.",

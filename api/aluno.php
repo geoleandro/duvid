@@ -1,23 +1,24 @@
 <?php
 // =============================================================
-//  api/aluno.php  —  v2.2  (com email + PIN + conclusoes no cache)
+//  api/aluno.php  —  v2.3  (session auth)
 // =============================================================
+
+require_once __DIR__ . '/../includes/conexao.php';
+startSecureSession();   // deve vir antes de qualquer header()
 
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST');
+header('Access-Control-Allow-Methods: GET, POST, PATCH');
 header('Access-Control-Allow-Headers: Content-Type');
-
-require_once __DIR__ . '/../includes/conexao.php';
 
 function calcularRPG(int $globinhos): array {
     $ranking = [
-        ['lvl'=>1, 'patente'=>'NOVATO',          'min'=>0,     'max'=>1000,  'cor'=>'#9d9d9d'],
-        ['lvl'=>2, 'patente'=>'EXPLORADOR',       'min'=>1001,  'max'=>3500,  'cor'=>'#4caf50'],
-        ['lvl'=>3, 'patente'=>'CARTOGRAFO',       'min'=>3501,  'max'=>8000,  'cor'=>'#2196f3'],
-        ['lvl'=>4, 'patente'=>'ESTRATEGISTA',     'min'=>8001,  'max'=>15000, 'cor'=>'#9c27b0'],
-        ['lvl'=>5, 'patente'=>'GEOGRAFO SENIOR',  'min'=>15001, 'max'=>20000, 'cor'=>'#ff9800'],
-        ['lvl'=>6, 'patente'=>'LENDA DA TERRA',   'min'=>20001, 'max'=>99999, 'cor'=>'#f44336'],
+        ['lvl'=>1, 'patente'=>'NOVATO',          'min'=>0,     'max'=>1499,  'cor'=>'#9d9d9d'],
+        ['lvl'=>2, 'patente'=>'EXPLORADOR',       'min'=>1500,  'max'=>3499,  'cor'=>'#4caf50'],
+        ['lvl'=>3, 'patente'=>'CARTÓGRAFO',       'min'=>3500,  'max'=>6499,  'cor'=>'#2196f3'],
+        ['lvl'=>4, 'patente'=>'ESTRATEGISTA',     'min'=>6500,  'max'=>9499,  'cor'=>'#9c27b0'],
+        ['lvl'=>5, 'patente'=>'GEÓGRAFO SÊNIOR',  'min'=>9500,  'max'=>12999, 'cor'=>'#ff9800'],
+        ['lvl'=>6, 'patente'=>'LENDA DA TERRA',   'min'=>13000, 'max'=>99999, 'cor'=>'#f44336'],
     ];
     $info = end($ranking);
     foreach ($ranking as $r) {
@@ -107,6 +108,9 @@ function montarRespostaAluno(array $aluno, PDO $pdo): array {
         'turma_id'       => isset($aluno['turma_id']) ? (int)$aluno['turma_id'] : null,
         'turma_nome'     => $turmaNome,
         'turma_codigo'   => $turmaCodigo,
+        'estado'         => $aluno['estado']  ?? null,
+        'cidade'         => $aluno['cidade']  ?? null,
+        'escola'         => $aluno['escola']  ?? null,
         'globinhos'      => (int)$aluno['globinhos_total'],
         'lvl'            => $rpg['lvl'],
         'patente'        => $rpg['patente'],
@@ -152,11 +156,15 @@ if ($metodo === 'GET') {
 // POST: cadastro ou login com nome + email + PIN
 if ($metodo === 'POST') {
     $body  = json_decode(file_get_contents('php://input'), true) ?? [];
-    $nome  = trim($body['nome']  ?? '');
-    $email = trim($body['email'] ?? '');
-    $pin   = trim($body['pin']   ?? '');
+    $nome   = trim($body['nome']   ?? '');
+    $email  = trim($body['email']  ?? '');
+    $pin    = trim($body['pin']    ?? '');
     $codigoTurma = trim($body['codigo_turma'] ?? '');
     $globinhosIniciais = max(0, (int)($body['globinhos_iniciais'] ?? 0));
+    // Campos opcionais de localização (ranking nacional)
+    $estado = strtoupper(trim($body['estado'] ?? ''));
+    $cidade = trim($body['cidade'] ?? '');
+    $escola = trim($body['escola'] ?? '');
 
     // E-mail e PIN agora são OBRIGATÓRIOS — não criamos mais contas sem credenciais.
     if ($nome === '')  jsonResponse(['erro' => 'Nome e obrigatorio.'], 400);
@@ -207,6 +215,9 @@ if ($metodo === 'POST') {
             $stmt->execute([':id' => $aluno['id']]);
             $aluno = $stmt->fetch();
         }
+        // Grava sessão — a partir daqui o aluno está autenticado
+        session_regenerate_id(true);
+        $_SESSION['aluno_id'] = (int)$aluno['id'];
         jsonResponse(['criado' => false] + montarRespostaAluno($aluno, $pdo));
     }
 
@@ -216,8 +227,8 @@ if ($metodo === 'POST') {
 
     try {
         $ins = $pdo->prepare(
-            "INSERT INTO alunos (nome, email, pin_hash, turma_id, globinhos_total, lvl, patente)
-             VALUES (:nome, :email, :pin, :turma, :glob, :lvl, :patente)"
+            "INSERT INTO alunos (nome, email, pin_hash, turma_id, globinhos_total, lvl, patente, estado, cidade, escola)
+             VALUES (:nome, :email, :pin, :turma, :glob, :lvl, :patente, :estado, :cidade, :escola)"
         );
         $ins->execute([
             ':nome'    => $nome,
@@ -227,6 +238,9 @@ if ($metodo === 'POST') {
             ':glob'    => $globinhosIniciais,
             ':lvl'     => $rpg['lvl'],
             ':patente' => $rpg['patente'],
+            ':estado'  => $estado ?: null,
+            ':cidade'  => $cidade ?: null,
+            ':escola'  => $escola ?: null,
         ]);
         $novoId = $pdo->lastInsertId();
     } catch (PDOException $e) {
@@ -240,7 +254,76 @@ if ($metodo === 'POST') {
     $stmt->execute([':id' => $novoId]);
     $aluno = $stmt->fetch();
 
+    // Grava sessão — novo aluno autenticado imediatamente após o cadastro
+    session_regenerate_id(true);
+    $_SESSION['aluno_id'] = (int)$aluno['id'];
     jsonResponse(['criado' => true] + montarRespostaAluno($aluno, $pdo));
+}
+
+// PATCH: editar perfil (nome, estado, cidade, escola)
+// Requer: id + pin para autenticar. Nome novo deve ser único.
+if ($metodo === 'PATCH') {
+    $body  = json_decode(file_get_contents('php://input'), true) ?? [];
+    $id    = (int)($body['id']  ?? 0);
+    $pin   = trim($body['pin']  ?? '');
+
+    if (!$id || $pin === '') {
+        jsonResponse(['erro' => 'id e pin sao obrigatorios.'], 400);
+    }
+
+    // Carrega o aluno atual
+    $st = $pdo->prepare("SELECT * FROM alunos WHERE id = :id LIMIT 1");
+    $st->execute([':id' => $id]);
+    $aluno = $st->fetch();
+
+    if (!$aluno) jsonResponse(['erro' => 'Aluno nao encontrado.'], 404);
+
+    // Valida PIN — o aluno precisa se autenticar antes de alterar dados
+    if (!$aluno['pin_hash'] || !password_verify($pin, $aluno['pin_hash'])) {
+        jsonResponse(['erro' => 'PIN incorreto.', 'campo' => 'pin'], 401);
+    }
+
+    // Campos editáveis (só atualiza o que foi enviado)
+    $novoNome  = isset($body['nome'])   ? trim($body['nome'])           : null;
+    $novoEst   = isset($body['estado']) ? strtoupper(trim($body['estado'])) : null;
+    $novaCid   = isset($body['cidade']) ? trim($body['cidade'])         : null;
+    $novaEsc   = isset($body['escola']) ? trim($body['escola'])         : null;
+
+    // Valida nome novo se foi enviado
+    if ($novoNome !== null) {
+        if (strlen($novoNome) < 2) {
+            jsonResponse(['erro' => 'Nome deve ter pelo menos 2 caracteres.', 'campo' => 'nome'], 400);
+        }
+        // Verifica unicidade (ignora o próprio id)
+        $chk = $pdo->prepare("SELECT id FROM alunos WHERE nome = :nome AND id != :id LIMIT 1");
+        $chk->execute([':nome' => $novoNome, ':id' => $id]);
+        if ($chk->fetch()) {
+            jsonResponse(['erro' => 'Este nome ja esta em uso por outro aluno.', 'campo' => 'nome'], 409);
+        }
+    }
+
+    // Monta SET dinâmico — só atualiza campos enviados
+    $sets   = [];
+    $params = [':id' => $id];
+
+    if ($novoNome !== null) { $sets[] = 'nome = :nome';     $params[':nome']   = $novoNome; }
+    if ($novoEst  !== null) { $sets[] = 'estado = :estado'; $params[':estado'] = $novoEst ?: null; }
+    if ($novaCid  !== null) { $sets[] = 'cidade = :cidade'; $params[':cidade'] = $novaCid ?: null; }
+    if ($novaEsc  !== null) { $sets[] = 'escola = :escola'; $params[':escola'] = $novaEsc ?: null; }
+
+    if (empty($sets)) {
+        jsonResponse(['erro' => 'Nenhum campo para atualizar.'], 400);
+    }
+
+    $pdo->prepare("UPDATE alunos SET " . implode(', ', $sets) . " WHERE id = :id")
+        ->execute($params);
+
+    // Retorna aluno atualizado
+    $st = $pdo->prepare("SELECT * FROM alunos WHERE id = :id");
+    $st->execute([':id' => $id]);
+    $aluno = $st->fetch();
+
+    jsonResponse(['atualizado' => true] + montarRespostaAluno($aluno, $pdo));
 }
 
 jsonResponse(['erro' => 'Metodo nao suportado.'], 405);

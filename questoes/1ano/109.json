@@ -9,8 +9,9 @@
       "litosfera",
       "movimentos das placas"
     ],
+    "texto_apoio": "A Litosfera é fragmentada em placas que deslizam, convergem e se separam umas em relação às outras à medida que se movimentam sobre a Astenosfera. Essa dinâmica compõe a Tectônica de Placas, reconhecida inicialmente pelo cientista alemão Alfred Wegener, que elaborou a teoria da Deriva Continental no início do século XX, tal como demonstrado a seguir.\n\nAs bases da teoria de Wegener seguiram inúmeras evidências deixadas na superfície dos continentes ao longo do tempo geológico.",
     "imagem_apoio": "1ano/img/109/p9q1.png",
-    "pergunta": "A Litosfera é fragmentada em placas que deslizam, convergem e se separam umas em relação às outras à medida que se movimentam sobre a Astenosfera. Essa dinâmica compõe a Tectônica de Placas, reconhecida inicialmente pelo cientista alemão Alfred Wegener, que elaborou a teoria da Deriva Continental no início do século XX, tal como demonstrado a seguir.\n\nAs bases da teoria de Wegener seguiram inúmeras evidências deixadas na superfície dos continentes ao longo do tempo geológico. Considerando as figuras e seus conhecimentos, indique o fator básico que influenciou o raciocínio de Wegener.",
+    "pergunta": "Considerando as figuras e seus conhecimentos, indique o fator básico que influenciou o raciocínio de Wegener.",
     "alternativas": [
       "As repartições internas atuais dos continentes no Hemisfério Norte.",
       "A continuidade dos sistemas fluviais entre América e África.",
@@ -20,7 +21,13 @@
     ],
     "correta": 3,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A teoria da deriva continental elaborada por Wegener surgiu quando o climatólogo alemão leu um\r\n                    artigo no\r\n                    qual dizia que foram encontrados fósseis de animais e de plantas na costa sul-americana e na costa\r\n                    africana. Após isso, ele iniciou uma pesquisa para comprovar que esse nunca poderiam ter\r\n                    ultrapassado a\r\n                    fronteira marinha, mesmo assim eram encontrados em diferentes continentes pelo mundo, indicando\r\n                    dessa\r\n                    forma a existência, no passado, de um supercontinente unificado.</p>\n<p>\r\n                    a) Incorreta. Não foi as divisões internas do continente norte-americano o principal fator para a\r\n                    busca\r\n                    de confirmação das hipóteses de que os continentes estivessem unidos em uma única massa continental\r\n                    no\r\n                    passado.\r\n                </p>\n<p>\r\n                    b) Incorreta. Os sistemas fluviais são os rios e não há evidência de que eles estavam unidos no\r\n                    passado.\r\n                    São necessárias mais evidências para enriquecer a teoria da deriva continental.\r\n                </p>\n<p>\r\n                    c) Incorreta. Wegener comparou evidências com argumento paleontológicos, como fósseis e morfológicos\r\n                    tal\r\n                    como as formas dos continentes distantes um do outro. Não há, portanto, evidência suficientes\r\n                    somente no\r\n                    continente do hemisfério sul que confirmem a teoria da Pangeia.\r\n                </p>\n<p>\r\n                    d) Correta. Essa semelhança geométrica entre as costas da África e da América do Sul já havia sido\r\n                    notado desde que os primeiros mapas com maior grau de precisão foram elaborados a partir do século\r\n                    XVI.A\r\n                    partir dessa ideia, Wegener criou sua hipótese e foi em busca de provas para confirmá-la.\r\n                </p>\n<p>\r\n                    e) Incorreta. Atualmente não há um único oceano. O Pantalassa (do grego <em>pan</em> – tudo e\r\n                    <em>thalassa</em> –\r\n                    oceano)\r\n                    era o vasto oceano que rodeava a Pangeia. Portanto, trata-se do oceano descoberto após a formulação\r\n                    da\r\n                    teoria da deriva continental e das placas tectônica e não uma evidência para confirma a teoria de\r\n                    Wegener.\r\n                </p>",
-    "ajuda": "A teoria da Tectônica de Placas descreve como a litosfera está dividida em grandes blocos que se movem sobre a astenosfera. Esses movimentos ocorrem por correntes de convecção no manto e são responsáveis por vulcanismos, terremotos e formação de montanhas."
+    "ajuda": "A teoria da Tectônica de Placas descreve como a litosfera está dividida em grandes blocos que se movem sobre a astenosfera. Esses movimentos ocorrem por correntes de convecção no manto e são responsáveis por vulcanismos, terremotos e formação de montanhas.",
+    "feedbacks": {
+      "0": "As divisões internas dos continentes do Hemisfério Norte não foram o ponto de partida de Wegener. Ele se baseou principalmente no encaixe das costas e em evidências como fósseis iguais em continentes separados.",
+      "1": "Não há continuidade de sistemas fluviais entre a América e a África, e os rios não foram a evidência usada por Wegener. O que chamou sua atenção foi a semelhança entre os contornos das costas.",
+      "2": "Não existem ligações de terra atuais entre os continentes do Hemisfério Sul; eles estão separados pelo oceano. A pista que inspirou Wegener foi justamente o encaixe das costas hoje separadas.",
+      "4": "O oceano único (Pantalassa) é parte da reconstrução da Pangeia proposta pela teoria, não a observação inicial que a inspirou. O fator básico foi a semelhança dos contornos das costas da América do Sul e da África."
+    }
   },
   {
     "id": 2,
@@ -44,7 +51,13 @@
     ],
     "correta": 2,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>\r\n                    a) Incorreta. O ciclo hidrológico está relacionado a troca de água entre a hidrosfera, a atmosfera e\r\n                    as águas superficiais e subterrâneas do Planeta, não permitiria a junção dos continentes, conforme a\r\n                    figura.\r\n                </p>\n<p>\r\n                    b) Incorreta. O processo erosivo refere-se a remoção e deslocamento do material superficial da Terra\r\n                    através do vento, da água, da ação do gelo e não na composição das estruturas geológicas.\r\n                </p>\n<p>\r\n                    c) Correta. A estrutura geológica é o resultado das poderosas forças tectônicas que ocorrem dentro\r\n                    do Planeta. Caso essa estrutura fosse estática, isto é, sem movimento, a Pangeia, um grande\r\n                    continente que existiu entre 500 milhões e 240 milhões de anos atrás, poderia ser regionalizado\r\n                    conforme apresentado na figura.\r\n                </p>\n<p>\r\n                    d) Incorreta. Índice pluviométrico é uma medida em milímetros, resultado do somatório da quantidade\r\n                    da precipitação de água (chuva, neve, granizo) num determinado local durante um dado período. O\r\n                    instrumento utilizado para este fim recebe o nome de pluviômetro.\r\n                </p>\n<p>\r\n                    e) Incorreta. A pressão atmosférica é aquela exercida pela atmosfera sobre a superfície. A pressão é\r\n                    a força exercida por unidade de área, neste caso a força exercida pelo ar em um determinado ponto da\r\n                    superfície.\r\n                </p>",
-    "ajuda": "Se a Terra fosse plana, como seria a divisão política dos países? Pense nas consequências práticas de uma superfície sem curvas: sem latitudes, sem fusos horários, sem meridianos convergindo nos polos. Analise quais das afirmações geopolíticas fariam sentido nesse contexto."
+    "ajuda": "A imagem mostra uma divisão política sobre os continentes ainda unidos (como na Pangeia). Para que essa configuração permanecesse, seria preciso que uma determinada característica do planeta não mudasse com o tempo. Pense em qual delas, se fosse estável, manteria os continentes na mesma posição.",
+    "feedbacks": {
+      "0": "O ciclo hidrológico é a troca de água entre atmosfera, superfície e subsolo. Ele não tem relação com a posição dos continentes nem os manteria unidos.",
+      "1": "O processo erosivo desgasta e desloca o material da superfície, mas não é o que define a posição dos continentes. A imagem depende da estabilidade da estrutura geológica.",
+      "3": "O índice pluviométrico mede a quantidade de chuva de um lugar. Não tem nenhuma influência sobre a posição dos continentes ao longo do tempo geológico.",
+      "4": "A pressão atmosférica é a força do ar sobre a superfície. Não interfere no movimento das placas nem manteria os continentes na configuração da imagem."
+    }
   },
   {
     "id": 3,
@@ -67,7 +80,13 @@
     ],
     "correta": 0,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p> I) Correta. De acordo com a teoria de placas tectônicas, a crosta oceânica se forma através da saída\r\n                    do magma pela fenda localizado na Dorsal Mesoatlântica. A causa desse processo refere-se as\r\n                    correntes de convecção diretamente advinda do magma, responsáveis por esse movimento. Nesse sentido,\r\n                    os continentes africano e americano continuam se afastamento à uma taxa de aproximadamente 2 cm por\r\n                    ano.</p>\n<p>\r\n\r\n                    II) Correta. Desde 1968 navios equipados com máquinas perfuradoras vem cavando buracos profundos na\r\n                    crosta oceânica. Eles medem a espessura dos sedimentos próximos a fenda, bem como a presença de\r\n                    fósseis nas rochas basálticas. Com isso, foi possível verificar idades distintas de fósseis e dar\r\n                    suporte a teoria do afastamento das placas tectônicas.\r\n                </p>\n<p>\r\n                    III) Correta. A correspondência de fósseis, plantas e animais terrestres nos atuais continentes, que\r\n                    antes estavam separados por milhares de quilômetros e por um oceano é uma outra evidência que\r\n                    sustentou a hipótese da Deriva Continental de Alfred Wegener.\r\n                </p>\n<p>\r\n                    IV) Incorreta. A cadeia montanhosa Dorsal Mesoatlântica está localizada nos limites de placas\r\n                    divergentes, onde uma nova crosta oceânica se forma a partir da separação de duas placas tectônicas,\r\n                    a sul-americana e africana. Veja na imagem abaixo:\r\n                </p>\n<div class=\"w3-center\"><img alt=\"Separação-Continentes\" class=\"w3-mobile\" src=\"p9q3a.png\"/></div>",
-    "ajuda": "A Dorsal Atlântica é uma cadeia de montanhas submarinas onde há separação de placas e surgimento de novo material rochoso. Avalie cada afirmativa sobre esse processo de formação crustal divergente."
+    "ajuda": "A Dorsal Atlântica é uma cadeia de montanhas submarinas onde há separação de placas e surgimento de novo material rochoso. Avalie cada afirmativa sobre esse processo de formação crustal divergente.",
+    "feedbacks": {
+      "1": "Inclui a afirmativa IV, que é falsa. A Dorsal Atlântica não resultou de um choque entre placas, e sim da separação (divergência) entre a placa sul-americana e a africana, onde se forma nova crosta oceânica.",
+      "2": "Inclui a afirmativa IV (falsa, a Dorsal é divergente, não de choque) e exclui a I, que está correta: os continentes continuam se afastando.",
+      "3": "Inclui a afirmativa IV (falsa) e deixa de fora a II, que está correta: rochas mais jovens perto da dorsal indicam placas divergentes.",
+      "4": "Marca todas como corretas, mas a IV é falsa: a Dorsal Atlântica forma-se pela separação das placas (limite divergente), não por um choque entre elas."
+    }
   },
   {
     "id": 4,
@@ -90,7 +109,13 @@
     ],
     "correta": 0,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>a) Correta. As setas na figura além de indicarem o movimento das placas, revela se os limites são\r\n                    divergentes, convergentes ou transformante. De maneira geral, as placas podem se mover de 1 até 15\r\n                    cm por ano. As modernas tecnologias como satélites, lasers, GPS, permitem essa constatação de forma\r\n                    consistente. Lembrando que esse movimento das placas tectônicas pode gerar terremotos e vulcanismo\r\n                    no Planeta.</p>\n<p>b) Incorreta. As correntes marítimas são responsáveis, dentre outras coisas, pelo transporte de\r\n                    grandes massas de águas em distintas temperaturas de um local a outro do Planeta Esse processo é\r\n                    causado pelo movimento de rotação da Terra, dinâmica dos ventos, pela gravidade, efeito de\r\n                    Coriolis). As correntes podem ser quentes ou frias, influenciando o clima nos continentes,\r\n                    alterações nos biomas, etc.</p>\n<p>c) Incorreta. As direções e taxa de crescimento do assoalho oceânico são realizadas com modernas\r\n                    tecnologias e envolvem o estudo da orientação do campo magnético presentes nas rochas. Fato não\r\n                    apresentado na imagem.</p>\n<p>d) Incorreta. As correntes de ressurgência possuem relação com as correntes marítimas e ocorrem\r\n                    quando grandes corpos de água profunda e de temperatura fria ascendem para a superfície dos oceanos.\r\n                    As principais localidades desses fenômenos são as áreas costeiras.</p>\n<p>e) Incorreta. O Manto terrestre é a camada intermediária situada abaixo da crosta terrestre e acima\r\n                    do núcleo da Terra formado, grosso modo, por rochas em estado de fusão com características que\r\n                    variam de pastosa a fluída.</p>",
-    "ajuda": "As setas em um mapa de placas tectônicas geralmente indicam a direção do movimento das placas. Identifique se o movimento representado é divergente (afastamento), convergente (colisão) ou transformante (deslizamento lateral), e associe ao fenômeno geológico correspondente."
+    "ajuda": "As setas em um mapa de placas tectônicas geralmente indicam a direção do movimento das placas. Identifique se o movimento representado é divergente (afastamento), convergente (colisão) ou transformante (deslizamento lateral), e associe ao fenômeno geológico correspondente.",
+    "feedbacks": {
+      "1": "As correntes marítimas são deslocamentos de massas de água nos oceanos, causados por ventos e rotação da Terra. As setas do mapa indicam o movimento das placas litosféricas, não das águas.",
+      "2": "A direção e a expansão do assoalho oceânico são estudadas pelo magnetismo das rochas, não pelas setas mostradas. As setas representam o movimento das placas.",
+      "3": "As correntes de ressurgência são águas profundas e frias que sobem à superfície em áreas costeiras, um fenômeno oceânico. Não é isso que as setas do mapa indicam.",
+      "4": "O manto se movimenta por correntes de convecção no interior da Terra, mas as setas do mapa mostram o resultado disso na superfície: a direção do movimento das placas litosféricas."
+    }
   },
   {
     "id": 5,
@@ -113,7 +138,13 @@
     ],
     "correta": 3,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>I – Correta.</p>\n<p>II – Correta.</p>\n<p>III – Incorreta. Os Andes da América do Sul estão formados acima de uma zona de subducção. A crosta\r\n                    abaixo é quente e espessa por conta da concentração de magma. Ela se formou pela convergência entre\r\n                    as placas de Nazca e da América do Sul. Devido a isso, é considerada um dobramento moderno da Era\r\n                    Cenozoica do Período Terciário. </p>\n<p>IV – Correta.</p>",
-    "ajuda": "Alfred Wegener propôs a teoria da Deriva Continental em 1912, com base no encaixe dos continentes, fossilização de espécies similares em continentes separados e coincidência de formações rochosas. Avalie as afirmativas sobre suas evidências e limitações."
+    "ajuda": "Alfred Wegener propôs a teoria da Deriva Continental em 1912, com base no encaixe dos continentes, fossilização de espécies similares em continentes separados e coincidência de formações rochosas. Avalie as afirmativas sobre suas evidências e limitações.",
+    "feedbacks": {
+      "0": "Inclui a afirmativa III, que é falsa, e deixa de fora a II e a IV. A III erra ao dizer que os Andes se formaram pelo choque das placas do Pacífico e Sul-Americana: na verdade é a placa de Nazca que converge com a Sul-Americana.",
+      "1": "Inclui a afirmativa III (falsa) e exclui a I e a IV, que estão corretas. O erro da III é atribuir os Andes ao choque com a placa do Pacífico, quando se trata da placa de Nazca.",
+      "2": "As afirmativas I e II estão corretas, mas a III é falsa: os Andes resultam da convergência entre a placa de Nazca e a Sul-Americana, e não da placa do Pacífico. Faltou também a IV.",
+      "4": "Marca todas como corretas, mas a III é falsa: os Andes se formaram pela subducção da placa de Nazca sob a Sul-Americana, não pelo choque com a placa do Pacífico."
+    }
   },
   {
     "id": 6,
@@ -136,7 +167,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p> Comentário:</p>\r\n        \r\n                    <p> Colocar os comentários aqui. </p> -->",
-    "ajuda": "Os termos vulcanismo, tectonismo (ou epirogenismo), sismo e orogênese descrevem processos geológicos distintos. Relacione cada termo à sua definição: movimento vertical lento da crosta, formação de montanhas, tremor de terra, saída de material do interior terrestre."
+    "ajuda": "Os termos da questão são vulcanismo, terremoto, epicentro e hipocentro. Lembre-se: o hipocentro é o foco, o ponto no interior onde a ruptura começa; o epicentro é a projeção desse foco na superfície; o terremoto é a vibração gerada pela ruptura; e o vulcanismo é a saída do calor e do material do interior da Terra.",
+    "feedbacks": {
+      "0": "Você acertou 1-d (vulcanismo) e 2-b (terremoto), mas trocou os dois últimos. O epicentro (3) é a projeção na superfície, descrita em 'c'; e o hipocentro (4) é o foco onde a ruptura começa, descrito em 'a'.",
+      "1": "Quase todas as associações estão fora do lugar. O vulcanismo (1) corresponde a 'd' (saída do calor interno, lavas e gases), não a 'a'. Releia cada definição com calma.",
+      "2": "Só a associação do epicentro (3-c) está correta. O vulcanismo (1) é 'd', o terremoto (2) é 'b' e o hipocentro (4) é 'a' (o foco onde a ruptura se inicia).",
+      "3": "Aqui só o hipocentro (4-a) ficou certo. O vulcanismo (1) é 'd', o terremoto (2) é 'b' e o epicentro (3) é 'c' (a projeção da ruptura na superfície)."
+    }
   },
   {
     "id": 7,
@@ -148,8 +185,9 @@
       "tectônica de placas",
       "formação dos continentes"
     ],
+    "texto_apoio": "A \"Teoria da Tectônica das Placas\" procura explicar a formação dos continentes e dos oceanos, assim como do relevo submarino. Juntamente com a \"Teoria da Deriva Continental\" temos o apoio para a explicação de uma série de fenômenos que ocorrem em nosso planeta.",
     "imagem_apoio": "1ano/img/109/p9q7.png",
-    "pergunta": "A \"Teoria da Tectônica das Placas\" procura explicar a formação dos continentes e dos oceanos, assim como do relevo submarino. Juntamente com a \"Teoria da Deriva Continental\" temos o apoio para a explicação de uma série de fenômenos que ocorrem em nosso planeta. Observe a figura a seguir.\n\nCom relação ao tema, é correto afirmar que",
+    "pergunta": "Observe a figura a seguir.\n\nCom relação ao tema, é correto afirmar que",
     "alternativas": [
       "as mudanças climáticas ocorridas ao longo do tempo não podem ser associadas à divisão do continente único até a configuração atual que modificou a distribuição das superfícies sólidas e líquidas do planeta.",
       "a teoria da deriva continental explica a gênese dos dobramentos modernos (Andes, Montanhas Rochosas, Himalaia, entre outros) que teriam ocorrido pelo afastamento entre as placas.",
@@ -159,7 +197,13 @@
     ],
     "correta": 4,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>a) Incorreta. A tectônica de placas pode influenciar o clima através do vulcanismo, mudanças\r\n                    atmosféricas, glaciações, cadeias de montanhas.</p>\n<p>b) Incorreta. É a teoria das placas tectônicas que explicam a gênese dos dobramentos modernos.\r\n                    Wegener, com a hipótese da Deriva Continental, não conseguiu explicar quais as causas do movimento\r\n                    dos continentes, sendo reforçada após a Segunda Guerra Mundial, pela teoria das Placas tectônicas a\r\n                    partir da exploração submarina da crosta oceânica.</p>\n<p>c) Incorreta. Os processos erosivos são explicados através da ação do intemperismo, isto é, as\r\n                    alterações físicas e químicas dos materiais rochosos que ocorre na superfície terrestre., </p>\n<p>d) Incorreta. A formação da crosta oceânica está intimamente ligada aos processos tectônicos, por\r\n                    exemplo, processo divergente onde o magma ascende sobre o fundo dos oceanos e rompe pela fenda da\r\n                    dorsal Mesoatlântica.</p>\n<p>e) Correta. A distribuição de plantas e fósseis é consistente com a ideia de que os continentes\r\n                    estavam unidos há milhões de anos. Isso foi um fato fundamental para a hipótese da Deriva\r\n                    Continental.</p>",
-    "ajuda": "A teoria da Tectônica de Placas explica a formação dos oceanos, das cadeias de montanhas e dos cinturões vulcânicos. Lembre-se que ela substituiu a teoria da Deriva Continental de Wegener ao acrescentar o mecanismo explicativo das correntes de convecção no manto."
+    "ajuda": "A teoria da Tectônica de Placas explica a formação dos oceanos, das cadeias de montanhas e dos cinturões vulcânicos. Lembre-se que ela substituiu a teoria da Deriva Continental de Wegener ao acrescentar o mecanismo explicativo das correntes de convecção no manto.",
+    "feedbacks": {
+      "0": "É o contrário: as mudanças climáticas ao longo do tempo PODEM ser associadas à divisão dos continentes, pois a nova distribuição de terras e mares alterou correntes e climas.",
+      "1": "Os dobramentos modernos (Andes, Himalaia) se formam por convergência (choque) de placas, não por afastamento. Além disso, quem explica sua origem é a Tectônica de Placas, e não a Deriva Continental, que não esclarecia as causas do movimento.",
+      "2": "Os processos erosivos que esculpem o relevo são explicados pelo intemperismo e pela ação de água, vento e gelo, não pela tectônica de placas, que trata da dinâmica interna.",
+      "3": "Pelo contrário: os fundos oceânicos têm intensa atividade sísmica e vulcânica, justamente nas dorsais, onde o magma ascende e novas porções de crosta se formam."
+    }
   },
   {
     "id": 8,
@@ -181,7 +225,13 @@
     ],
     "correta": 3,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>a) Correta. </p>\n<p>b) Correta. </p>\n<p>c) Correta. </p>\n<p>d) Incorreta. Ocorre o contrário, a Litosfera que é a camada superficial da Terra e flutua na\r\n                    Astenosfera, uma camada fundida logo abaixo da litosfera. </p>\n<p>e) Correta. </p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre placas tectônicas. Pense nas características corretas: as placas se movem lentamente (centímetros por ano), os terremotos ocorrem nas bordas das placas, existem placas oceânicas e continentais, e os movimentos são causados por correntes de convecção."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre placas tectônicas. Pense nas características corretas: as placas se movem lentamente (centímetros por ano), os terremotos ocorrem nas bordas das placas, existem placas oceânicas e continentais, e os movimentos são causados por correntes de convecção.",
+    "feedbacks": {
+      "0": "A questão pede a alternativa INCORRETA, e esta está correta: os Andes surgiram mesmo do choque entre as placas de Nazca e Sul-Americana no Terciário. Logo, não é a resposta.",
+      "1": "A questão pede a INCORRETA, e esta está correta: o Himalaia resultou da colisão entre as porções continentais da Índia e da Ásia. Portanto, não é a resposta.",
+      "2": "A questão pede a INCORRETA, e esta está correta: as setas indicam mesmo movimentos convergentes (choque) e divergentes (separação). Não é a resposta procurada.",
+      "4": "A questão pede a INCORRETA, e esta está correta: os 'hot spots' são pontos de intenso vulcanismo onde o magma ascende. A única alternativa errada é a que inverte litosfera e astenosfera (é a litosfera que flutua sobre a astenosfera, e não o contrário)."
+    }
   },
   {
     "id": 9,
@@ -204,7 +254,13 @@
     ],
     "correta": 2,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p> 1 - Convergente: duas placas se movem em direção uma da outra. O resultado disso é que a mais densa\r\n                    entra por baixo da outra. </p>\n<p> 2 - Transformante: duas placas se movem horizontalmente deslizando e provocando atritos uma sobre a\r\n                    outra. Nesse movimento não há destruição de placas, podendo ocorrer falhas. </p>\n<p> 3 - Divergente: duas placas se movem em sentido opostos da outra. Na maioria dos casos, o magma\r\n                    preenche o espaço entre as placas. </p>",
-    "ajuda": "As interações entre placas tectônicas geram diferentes feições no relevo: zonas de subducção (placa oceânica mergulha sob a continental) formam fossas e arcos vulcânicos; zonas divergentes formam dorsais e riftes; zonas de colisão continental formam grandes cordilheiras."
+    "ajuda": "As interações entre placas tectônicas geram diferentes feições no relevo: zonas de subducção (placa oceânica mergulha sob a continental) formam fossas e arcos vulcânicos; zonas divergentes formam dorsais e riftes; zonas de colisão continental formam grandes cordilheiras.",
+    "feedbacks": {
+      "0": "Os nomes estão trocados. O esquema em que as placas se chocam é convergente, não transformante. Transformante é quando elas deslizam lateralmente, e divergente é quando se separam.",
+      "1": "As associações estão invertidas. Quando as placas se chocam (esquema 1) é convergente, e não divergente; divergente é quando elas se afastam.",
+      "3": "As descrições se contradizem: chamar de transformante um esquema em que 'as placas se separam' está errado. Separação é divergência; choque é convergência; e transformante é deslizamento lateral.",
+      "4": "Há um erro na descrição: convergente é quando as placas se chocam, não quando 'se separam'. Quem se separa é a placa divergente."
+    }
   },
   {
     "id": 10,
@@ -219,16 +275,22 @@
     "texto_apoio": "“A Cordilheira do Himalaia tem mais de 50 milhões de anos, sendo classificada como a maior cordilheira do planeta. Originário da língua sânscrito, comum na região, seu nome quer dizer “morada da neve”. É possível encontrar nessa cordilheira as quinze maiores montanhas do mundo. Ao todo, existem mais de cem picos, que contam com altitudes bem maiores que 7 000 m. O Everest, considerado o ponto mais alto da Terra, tem nada menos que 8 848 m de altitude, e continua crescendo, aproximadamente, 0,8 mm a cada ano.”",
     "fonte_apoio": "Disponível em: https://meioambiente.culturamix.com. Acesso em: 12 nov. 2021 (adaptado).",
     "imagem_apoio": "1ano/img/109/p9q10.png",
-    "pergunta": "Qual dinâmica natural é responsável pelo fenômeno apresentado?\n\nO objetivo da questão é identificar a dinâmica natural responsável pelo fenômeno geológico relacionado à formação e crescimento da Cordilheira do Himalaia. As alternativas apresentadas abordam diferentes processos geológicos, sendo: a) Derrame de lava vulcânica: Refere-se à liberação de lava fundida na superfície da Terra através de erupções vulcânicas. b) Encontro de placas tectônicas: Trata-se do movimento das placas que compõem a crosta terrestre, resultando em fenômenos como a formação de montanhas, terremotos e vulcões. c) Ação do intemperismo químico: Envolve a decomposição química das rochas através de processos como a hidrólise e a oxidação. d) Sedimentação de erosão eólica: Refere-se ao transporte e deposição de sedimentos pela ação do vento. e) Derretimento de geleiras glaciais: Consiste no processo de fusão das geleiras devido ao aumento da temperatura. Tente resolver sem ver a resposta\n\nO objetivo da questão é identificar a dinâmica natural responsável pelo fenômeno geológico relacionado à formação e crescimento da Cordilheira do Himalaia. As alternativas apresentadas abordam diferentes processos geológicos, sendo:\n\na) Derrame de lava vulcânica: Refere-se à liberação de lava fundida na superfície da Terra através de erupções vulcânicas.\n\nb) Encontro de placas tectônicas: Trata-se do movimento das placas que compõem a crosta terrestre, resultando em fenômenos como a formação de montanhas, terremotos e vulcões.\n\nc) Ação do intemperismo químico: Envolve a decomposição química das rochas através de processos como a hidrólise e a oxidação.\n\nd) Sedimentação de erosão eólica: Refere-se ao transporte e deposição de sedimentos pela ação do vento.\n\ne) Derretimento de geleiras glaciais: Consiste no processo de fusão das geleiras devido ao aumento da temperatura.\n\nResposta: Letra B Encontro de placas tectônicas.",
+    "pergunta": "Qual dinâmica natural é responsável pelo fenômeno apresentado?",
     "alternativas": [
       "Derrame de lava vulcânica.",
       "Encontro de placas tectônicas.",
       "Ação do intemperismo químico.",
       "Sedimentação de erosão eólica.",
-      "e Derretimento de geleiras glaciais."
+      "Derretimento de geleiras glaciais."
     ],
     "correta": 1,
     "comentario": "<p> <strong>Comentário:</strong></p>\n<p>\r\n                    a) Derrame de lava vulcânica:\r\n                    Incorreto. O derrame de lava vulcânica pode criar formações geológicas como vulcões e cordilheiras, mas não é o principal responsável pelo fenômeno descrito no texto.\r\n                </p>\n<p>\r\n                    b) Encontro de placas tectônicas:\r\n                    Correto. A Cordilheira do Himalaia é formada pelo choque entre as placas tectônicas da Índia e da Ásia. Esse encontro está levando à elevação das montanhas e ao crescimento contínuo do Everest.\r\n                </p>\n<p>\r\n                    c) Ação do intemperismo químico:\r\n                    Incorreto. O intemperismo químico refere-se à decomposição de rochas pela ação de substâncias químicas, não está diretamente relacionado à formação de cordilheiras.\r\n                </p>\n<p>\r\n                    d) Sedimentação de erosão eólica:\r\n                    Incorreto. A erosão eólica envolve a ação do vento na remoção de partículas de solo e rochas, não é o processo responsável pela formação de grandes cordilheiras como o Himalaia.\r\n                </p>\n<p>\r\n                    e) Derretimento de geleiras glaciais:\r\n                    Incorreto. O derretimento de geleiras glaciais pode afetar a paisagem, mas não é o processo principal que cria cordilheiras como o Himalaia.\r\n                </p>\n<p>\r\n                    Portanto, a alternativa correta é:\r\n                    b) Encontro de placas tectônicas.\r\n                    Essa é a dinâmica natural responsável pela formação da Cordilheira do Himalaia, onde a colisão entre as placas tectônicas da Índia e da Ásia está elevando continuamente a região e formando as maiores montanhas do mundo.\r\n                </p>",
-    "ajuda": "Identifique o fenômeno natural representado na figura, observando se há movimentação de placas, atividade vulcânica, formação de relevo ou sismo. Relacione o fenômeno à sua causa tectônica."
+    "ajuda": "Identifique o fenômeno natural representado na figura, observando se há movimentação de placas, atividade vulcânica, formação de relevo ou sismo. Relacione o fenômeno à sua causa tectônica.",
+    "feedbacks": {
+      "0": "O derrame de lava vulcânica forma vulcões e platôs, mas não é o que ergue o Himalaia. A cordilheira nasce do choque entre as placas da Índia e da Ásia, não de erupções.",
+      "2": "O intemperismo químico decompõe as rochas (hidrólise, oxidação); ele desgasta o relevo, não constrói cordilheiras. O Himalaia se forma pela colisão de placas.",
+      "3": "A erosão eólica transporta e deposita sedimentos pela ação do vento, esculpindo e desgastando o relevo. Não é capaz de erguer uma cordilheira como o Himalaia.",
+      "4": "O derretimento de geleiras altera a paisagem, mas não levanta montanhas. O crescimento contínuo do Everest se deve ao choque entre as placas tectônicas da Índia e da Ásia."
+    }
   }
 ]

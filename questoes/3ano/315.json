@@ -112,8 +112,8 @@
       "redefinição de regiões administrativas."
     ],
     "correta": 3,
-    "ajuda": "O texto fala sobre como o mundo econômico não é mais organizado em camadas bem definidas, onde grandes centros urbanos se conectavam apenas com economias adjacentes. Em vez disso, tudo está mesclado e interconectado, com interdependências de curto e longo alcance que não podem ser separadas. Isso sugere que a complexidade dos espaços urbanos contemporâneos é resultado da articulação de redes multiescalares, ou seja, conexões que ocorrem em diferentes escalas geográficas, desde o local até o global.",
-    "comentario": "A complexidade dos espaços urbanos contemporâneos resulta da articulação de redes em múltiplas escalas (multiescalar): fluxos locais e globais se interpenetram. Um bairro periférico de São Paulo está conectado a cadeias produtivas globais pelo consumo, enquanto decisões tomadas em Nova York afetam o emprego local."
+    "comentario": "A complexidade dos espaços urbanos contemporâneos resulta da articulação de redes em múltiplas escalas (multiescalar): fluxos locais e globais se interpenetram. Um bairro periférico de São Paulo está conectado a cadeias produtivas globais pelo consumo, enquanto decisões tomadas em Nova York afetam o emprego local.",
+    "ajuda": "O texto fala sobre como o mundo econômico não é mais organizado em camadas bem definidas, onde grandes centros urbanos se conectavam apenas com economias adjacentes. Em vez disso, tudo está mesclado e interconectado, com interdependências de curto e longo alcance que não podem ser separadas. Isso sugere que a complexidade dos espaços urbanos contemporâneos é resultado da articulação de redes multiescalares, ou seja, conexões que ocorrem em diferentes escalas geográficas, desde o local até o global."
   },
   {
     "id": 6,
@@ -151,8 +151,9 @@
       "homogeneização",
       "identidade"
     ],
+    "texto_apoio": "A globalização é um fenômeno que tem várias dimensões: além da econômica, a mais evidente e perceptível, também possui a social, a cultural e a política, entre outras de menor impacto. Entretanto, todas essas dimensões se materializam no espaço geográfico em suas diversas escalas: mundial, nacional, regional e local. Os lugares estão conectados a uma rede de fluxos, controlada a partir de poucos centros de poder econômico e político. Entretanto, não são todos os lugares que estão integrados ao sistema-mundo.",
     "fonte_apoio": "(SENE, E. de; MOREIRA, J. C. Geografia Geral e do Brasil: espaço geográfico e globalizado. 2 ed. São Paulo: Scipione, 2013)",
-    "pergunta": "A globalização é um fenômeno que tem várias dimensões: além da econômica, a mais evidente e perceptível, também possui a social, a cultural e a política, entre outras de menor impacto. Entretanto, todas essas dimensões se materializam no espaço geográfico em suas diversas escalas: mundial, nacional, regional e local. Os lugares estão conectados a uma rede de fluxos, controlada a partir de poucos centros de poder econômico e político. Entretanto, não são todos os lugares que estão integrados ao sistema-mundo.\n\nAssinale a alternativa CORRETA:",
+    "pergunta": "Assinale a alternativa CORRETA:",
     "alternativas": [
       "No mundo globalizado vem ocorrendo a diminuição progressiva da desigualdade entre os povos, uma vez que a globalização integra todos os países do mundo.",
       "A globalização é um fenômeno que promove abertura de economias em um processo de integração, ao mesmo tempo em que exclui determinadas regiões, atividades e segmentos sociais.",
@@ -184,8 +185,8 @@
       "gestão centralizada e protecionismo econômico."
     ],
     "correta": 3,
-    "ajuda": "Imagina um carro esportivo sendo feito, mas cada pedacinho dele está acontecendo em lugares diferentes ao redor do mundo. Algumas partes são financiadas em um país, desenhadas em outro, montadas em vários lugares e até a propaganda é feita em diferentes países. Isso tudo precisa de um sistema que conecte tudo isso de forma bem organizada, senão não daria certo, né? Então, essa organização tem que ser capaz de juntar todas as etapas do carro esportivo, desde o começo até a propaganda, de um jeito que tudo funcione certinho. E aí, o texto também fala sobre os eletrônicos modernos e a propaganda global, mostrando como a tecnologia é super importante nesse processo. Então, uma dica para descobrir a resposta é pensar em uma organização que consiga lidar com toda essa mistura de jeito eficiente e bem coordenado.",
-    "comentario": "A produção global de um único produto (como o carro do texto) envolve dezenas de países e fábricas coordenadas em tempo real. Isso só é possível graças à organização em rede (cadeias produtivas transnacionais) e às tecnologias de informação e comunicação que permitem coordenação simultânea entre diferentes continentes."
+    "comentario": "A produção global de um único produto (como o carro do texto) envolve dezenas de países e fábricas coordenadas em tempo real. Isso só é possível graças à organização em rede (cadeias produtivas transnacionais) e às tecnologias de informação e comunicação que permitem coordenação simultânea entre diferentes continentes.",
+    "ajuda": "Imagina um carro esportivo sendo feito, mas cada pedacinho dele está acontecendo em lugares diferentes ao redor do mundo. Algumas partes são financiadas em um país, desenhadas em outro, montadas em vários lugares e até a propaganda é feita em diferentes países. Isso tudo precisa de um sistema que conecte tudo isso de forma bem organizada, senão não daria certo, né? Então, essa organização tem que ser capaz de juntar todas as etapas do carro esportivo, desde o começo até a propaganda, de um jeito que tudo funcione certinho. E aí, o texto também fala sobre os eletrônicos modernos e a propaganda global, mostrando como a tecnologia é super importante nesse processo. Então, uma dica para descobrir a resposta é pensar em uma organização que consiga lidar com toda essa mistura de jeito eficiente e bem coordenado."
   },
   {
     "id": 9,

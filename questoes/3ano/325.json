@@ -10,7 +10,8 @@
       "clima",
       "vegetação"
     ],
-    "pergunta": "A África Mediterrânea está localizada ao norte do deserto do Saara e possui características físicas e humanas semelhantes às dos países do Oriente Médio. Seu clima é desértico, o idioma é o árabe e a principal religião é o Islamismo. Qual desses países africano não apresenta essas características, ou seja, não compõe a África Mediterrânea.",
+    "texto_apoio": "A África Mediterrânea está localizada ao norte do deserto do Saara e possui características físicas e humanas semelhantes às dos países do Oriente Médio. Seu clima é desértico, o idioma é o árabe e a principal religião é o Islamismo.",
+    "pergunta": "Qual desses países africano não apresenta essas características, ou seja, não compõe a África Mediterrânea.",
     "alternativas": [
       "Líbia",
       "Egito.",
@@ -83,7 +84,8 @@
       "vegetação",
       "África"
     ],
-    "pergunta": "Leia o texto a seguir.\n\nO clima tropical ocupa cerca de metade do continente, onde apresenta temperaturas elevadas durante todo o ano e duas estações bem distintas: chuvosa no verão e seca no inverno. A vegetação predominante deste clima é uma transição entre a floresta úmida e as áreas áridas e semiáridas do norte e do sul do continente. Neste domínio, a vegetação apresenta árvores e arbustos de portes variados e dispersos na paisagem e plantas rasteiras (capins e gramíneas) que recobrem o solo (semelhante ao do cerrado brasileiro). O texto anterior descreve a formação vegetal típica do clima tropical africano e que também foi cenário natural de alguns filmes famosos com Tarzan e Sheena (a rainha da selva).\n\nAssinale a alternativa referente a esta paisagem vegetal",
+    "texto_apoio": "O clima tropical ocupa cerca de metade do continente, onde apresenta temperaturas elevadas durante todo o ano e duas estações bem distintas: chuvosa no verão e seca no inverno. A vegetação predominante deste clima é uma transição entre a floresta úmida e as áreas áridas e semiáridas do norte e do sul do continente. Neste domínio, a vegetação apresenta árvores e arbustos de portes variados e dispersos na paisagem e plantas rasteiras (capins e gramíneas) que recobrem o solo (semelhante ao do cerrado brasileiro). O texto anterior descreve a formação vegetal típica do clima tropical africano e que também foi cenário natural de alguns filmes famosos com Tarzan e Sheena (a rainha da selva).",
+    "pergunta": "Assinale a alternativa referente a esta paisagem vegetal",
     "alternativas": [
       "Desertos.",
       "Savanas.",

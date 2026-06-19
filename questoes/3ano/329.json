@@ -110,7 +110,8 @@
       "conflito étnico",
       "separatismo"
     ],
-    "pergunta": "Na Turquia, o conflito do Estado com os curdos existe há 25 anos. Criado em 1978, o Partido dos Trabalhadores do Curdistão quer a criação de um novo Estado independente na porção asiática da Turquia, especificamente no sudeste da antiga Anatólia. Indique a alternativa sobre o conflito na Turquia que melhor caracteriza a razão exposta.",
+    "texto_apoio": "Na Turquia, o conflito do Estado com os curdos existe há 25 anos. Criado em 1978, o Partido dos Trabalhadores do Curdistão quer a criação de um novo Estado independente na porção asiática da Turquia, especificamente no sudeste da antiga Anatólia.",
+    "pergunta": "Indique a alternativa sobre o conflito na Turquia que melhor caracteriza a razão exposta.",
     "alternativas": [
       "Luta étnica para ampliação dos direitos políticos.",
       "Luta pela liberdade religiosa.",
@@ -182,8 +183,9 @@
       "riqueza natural",
       "geopolítica"
     ],
+    "texto_apoio": "O Iraque, no Oriente Médio, conta com uma população de cerca de 30 milhões de habitantes e é dono de uma das maiores reservas de petróleo do planeta e de um dos mais ricos patrimônios arqueológicos do mundo. Mergulhado em um conflito que se arrasta desde a ocupação militar ocorrida em março de 2003, a população vive um dia-a-dia de atentados terroristas, mortes e violência que parece não ter fim.",
     "imagem_apoio": "3ano/img/329/t29q8.png",
-    "pergunta": "O Iraque, no Oriente Médio, conta com uma população de cerca de 30 milhões de habitantes e é dono de uma das maiores reservas de petróleo do planeta e de um dos mais ricos patrimônios arqueológicos do mundo. Mergulhado em um conflito que se arrasta desde a ocupação militar ocorrida em março de 2003, a população vive um dia-a-dia de atentados terroristas, mortes e violência que parece não ter fim.\n\nLeia as afirmativas seguintes.\n\nI. Dentre os fatos que geram maior insegurança no Iraque na atualidade, estão os constantes atentados. O alvo desses ataques é sempre a população islâmica sunita, que é a maioria e vive sob a perseguição da minoria xiita. Os xiitas estão no poder desde que o Iraque foi criado pelo Império Britânico.\n\nII. Um dos motivos para o agravamento constante da situação no Iraque é que a presença de forças de ocupação estrangeiras reforça o nacionalismo e acirra a ação dos fundamentalistas contra o invasor.\n\nIII. O medo de que a Revolução Islâmica se alastrasse para outras nações do Oriente Médio fez com que os EUA apoiassem Saddam Hussein na invasão ao Irã, em 1980. A condenação de Saddam, em 2006, ocorreu por crimes que cometeu quando era importante aliado estadunidense.\n\nIV. Nos EUA, o alto custo da guerra não inibe o déficit orçamentário do país, entretanto a eleição para o Congresso demonstrou a rejeição ao Partido Democrata, do presidente Bush. O resultado foi influenciado pela insatisfação do eleitorado com a permanência das tropas na guerra.",
+    "pergunta": "Leia as afirmativas seguintes.\n\nI. Dentre os fatos que geram maior insegurança no Iraque na atualidade, estão os constantes atentados. O alvo desses ataques é sempre a população islâmica sunita, que é a maioria e vive sob a perseguição da minoria xiita. Os xiitas estão no poder desde que o Iraque foi criado pelo Império Britânico.\n\nII. Um dos motivos para o agravamento constante da situação no Iraque é que a presença de forças de ocupação estrangeiras reforça o nacionalismo e acirra a ação dos fundamentalistas contra o invasor.\n\nIII. O medo de que a Revolução Islâmica se alastrasse para outras nações do Oriente Médio fez com que os EUA apoiassem Saddam Hussein na invasão ao Irã, em 1980. A condenação de Saddam, em 2006, ocorreu por crimes que cometeu quando era importante aliado estadunidense.\n\nIV. Nos EUA, o alto custo da guerra não inibe o déficit orçamentário do país, entretanto a eleição para o Congresso demonstrou a rejeição ao Partido Democrata, do presidente Bush. O resultado foi influenciado pela insatisfação do eleitorado com a permanência das tropas na guerra.",
     "alternativas": [
       "I e II.",
       "III e IV.",

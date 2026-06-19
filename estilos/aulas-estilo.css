@@ -33,6 +33,22 @@ h1, h2, h3, h4 {
     box-sizing: border-box;
 }
 
+/* Grid responsivo estilo galeria (Notion): o nº de colunas se ajusta sozinho à
+   largura da tela, sem fixar 4 por linha. Ajuste o "170px" para deixar os cards
+   maiores (menos colunas) ou menores (mais colunas). */
+#grid-aulas.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 18px;
+    align-items: start;
+}
+#grid-aulas .column {
+    flex: none;
+    max-width: none;
+    width: auto;
+    padding: 0;
+}
+
 /* Estilo do Card (Texto da Aula) */
 .column p {
     text-align: center;

@@ -57,7 +57,8 @@
       "população relativa",
       "distribuição populacional"
     ],
-    "pergunta": "A expressão ____________________, também chamada de “população relativa”, refere-se à proporção entre quantidade de pessoas presentes em um dado território em relação à área que ocupam. É um importante índice capaz de indicar quando há um grande número de habitantes em áreas reduzidas ou quando ocorrem casos de vazios territoriais.\n\nAssinale a alternativa que preenche corretamente a lacuna indicada no texto:",
+    "texto_apoio": "A expressão ____________________, também chamada de “população relativa”, refere-se à proporção entre quantidade de pessoas presentes em um dado território em relação à área que ocupam. É um importante índice capaz de indicar quando há um grande número de habitantes em áreas reduzidas ou quando ocorrem casos de vazios territoriais.",
+    "pergunta": "Assinale a alternativa que preenche corretamente a lacuna indicada no texto:",
     "alternativas": [
       "Demografia.",
       "Densidade Demográfica.",
@@ -160,20 +161,20 @@
       "baixa taxa de natalidade e alta expectativa de vida."
     ],
     "correta": 1,
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "comentario": "Os países subdesenvolvidos são caracterizados pela dependência de capital externo e por profundas desigualdades sociais, que limitam seu desenvolvimento econômico e social.",
     "ajuda": "Desenvolvimento é diferente de crescimento: crescimento é apenas aumento do PIB, enquanto desenvolvimento inclui melhoria social, educação e saúde. Pense em qual característica define um país subdesenvolvido, diferenciando crescimento de desenvolvimento."
   },
   {
     "id": 8,
-    "instituicao": "",
-    "ano": "2026",
+    "instituicao": "UDESC",
+    "ano": "2017",
     "dificuldade": "media",
     "tags": [
       "subdesenvolvimento",
       "países periféricos",
       "desigualdade global"
     ],
-    "pergunta": "(UDESC 2017 Muitos países são denominados subdesenvolvidos. Analise as proposições em relação ao subdesenvolvimento e as suas características principais.\n\nI. A grande desigualdade social e a dependência tecnológica e econômica são elementos essenciais para a definição de subdesenvolvimento.\n\nII. Devido à modernização, na última década, nas áreas de agricultura, estrutura industrial e geração de energia elétrica, o Brasil deixou de ser um país subdesenvolvido e passou a ser classificado como desenvolvido.\n\nIII. Em geral, os países subdesenvolvidos têm sua economia baseada na exportação de produtos primários e importação de produtos industrializados com elevada tecnologia.\n\nIV. A agricultura de subsistência é a principal forma de manutenção de países subdesenvolvidos, pois esses não apresentam relações com o mercado externo.\n\nV. São países, em geral, com elevadas taxas de dívidas externas e têm como credores grupos financeiros internacionais, cujas sedes se localizam em países desenvolvidos.\n\nAssinale a alternativa correta.",
+    "pergunta": "Muitos países são denominados subdesenvolvidos. Analise as proposições em relação ao subdesenvolvimento e as suas características principais.\n\nI. A grande desigualdade social e a dependência tecnológica e econômica são elementos essenciais para a definição de subdesenvolvimento.\n\nII. Devido à modernização, na última década, nas áreas de agricultura, estrutura industrial e geração de energia elétrica, o Brasil deixou de ser um país subdesenvolvido e passou a ser classificado como desenvolvido.\n\nIII. Em geral, os países subdesenvolvidos têm sua economia baseada na exportação de produtos primários e importação de produtos industrializados com elevada tecnologia.\n\nIV. A agricultura de subsistência é a principal forma de manutenção de países subdesenvolvidos, pois esses não apresentam relações com o mercado externo.\n\nV. São países, em geral, com elevadas taxas de dívidas externas e têm como credores grupos financeiros internacionais, cujas sedes se localizam em países desenvolvidos.\n\nAssinale a alternativa correta.",
     "alternativas": [
       "Somente as afirmativas I, II e IV são verdadeiras.",
       "Somente as afirmativas III, IV e V são verdadeiras.",
@@ -182,7 +183,7 @@
       "Todas as afirmativas são verdadeiras."
     ],
     "correta": 2,
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> \nA afirmativa I é verdadeira, pois a desigualdade social e a dependência econômica e tecnológica são características marcantes dos países subdesenvolvidos.\nA afirmativa II é falsa, pois o Brasil ainda é considerado um país em desenvolvimento, não tendo alcançado o status de desenvolvido. \nA afirmativa III é verdadeira, já que muitos países subdesenvolvidos dependem da exportação de produtos primários e importam produtos industrializados. \nA afirmativa IV é falsa, pois embora a agricultura de subsistência exista em alguns países subdesenvolvidos, muitos deles têm relações comerciais com o mercado externo. \nA afirmativa V é verdadeira, pois muitos países subdesenvolvidos enfrentam altas taxas de dívida externa e dependem de credores internacionais localizados em países desenvolvidos.</p>",
     "ajuda": "Os países subdesenvolvidos compartilham características como dependência econômica, desigualdade social, baixa industrialização e dívida externa. Avalie quais afirmativas sobre subdesenvolvimento são verdadeiras e quais confundem causas com consequências."
   },
   {
@@ -196,8 +197,9 @@
       "trabalho de cuidado",
       "gênero"
     ],
+    "texto_apoio": "Conforme definição da Organização Internacional do Trabalho (OIT), o trabalho de cuidado envolve dois tipos de atividades: as diretas, como alimentar um bebê ou cuidar de um doente, e as indiretas, como cozinhar ou limpar. O gráfico apresenta a desigualdade de gênero no trabalho de cuidado no mundo, expressa pela diferença entre homens e mulheres quanto ao tempo e à remuneração.",
     "imagem_apoio": "3ano/img/306/t6q9.png",
-    "pergunta": "Conforme definição da Organização Internacional do Trabalho (OIT), o trabalho de cuidado envolve dois tipos de atividades: as diretas, como alimentar um bebê ou cuidar de um doente, e as indiretas, como cozinhar ou limpar. O gráfico apresenta a desigualdade de gênero no trabalho de cuidado no mundo, expressa pela diferença entre homens e mulheres quanto ao tempo e à remuneração.\n\nA partir dos dados apresentados, é correto afirmar que as regiões com maior e menor desigualdade são, respectivamente:",
+    "pergunta": "A partir dos dados apresentados, é correto afirmar que as regiões com maior e menor desigualdade são, respectivamente:",
     "alternativas": [
       "África; Europa/Ásia Central.",
       "Américas; África.",

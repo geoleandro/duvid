@@ -76,7 +76,8 @@
       "elementos climáticos",
       "fatores climáticos"
     ],
-    "pergunta": "Um dos elementos climáticos mais importantes para a humanidade é a temperatura atmosférica, ou seja, o estado térmico do ar atmosférico, de frio ou de calor. A temperatura pode variar de um lugar para outro, assim como em um mesmo lugar, no decorrer do tempo.\n\nSobre os fatores responsáveis pela variação da temperatura é correto afirmar que:",
+    "texto_apoio": "Um dos elementos climáticos mais importantes para a humanidade é a temperatura atmosférica, ou seja, o estado térmico do ar atmosférico, de frio ou de calor. A temperatura pode variar de um lugar para outro, assim como em um mesmo lugar, no decorrer do tempo.",
+    "pergunta": "Sobre os fatores responsáveis pela variação da temperatura é correto afirmar que:",
     "alternativas": [
       "a influência da latitude ocorre fundamentalmente devido à forma esférica da Terra. A insolação diminui a partir do Equador em direção aos polos, assim a temperatura diminui com o aumento da latitude.",
       "altitude exerce grande influência, pois o calor é irradiado da superfície terrestre para cima e a atmosfera aquece por irradiação. Quanto menor a altitude, mais rarefeito se torna o ar, ocorrendo menor irradiação e aumento da temperatura.",
@@ -187,8 +188,9 @@
       "oceanos",
       "circulação oceânica"
     ],
+    "texto_apoio": "As correntes marítimas se movimentam por todos os oceanos do mundo, transportando calor e, por isso, apresentam influência direta no clima. As correntes frias, por exemplo, podem contribuir para a formação de desertos.",
     "imagem_apoio": "1ano/img/120/p20q9.png",
-    "pergunta": "As correntes marítimas se movimentam por todos os oceanos do mundo, transportando calor e, por isso, apresentam influência direta no clima. As correntes frias, por exemplo, podem contribuir para a formação de desertos.\n\nCom base no mapa e no excerto de texto, escolha a alternativa que relacione, corretamente, as correntes marítimas a seus respectivos desertos.",
+    "pergunta": "Com base no mapa e no excerto de texto, escolha a alternativa que relacione, corretamente, as correntes marítimas a seus respectivos desertos.",
     "alternativas": [
       "Corrente de Humboldt – deserto do Atacama. Corrente de Benguela – deserto do Kalahari.",
       "Corrente de Benguela – deserto do Kalahari. Corrente das Canárias – deserto da Namíbia.",

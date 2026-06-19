@@ -139,7 +139,28 @@ CREATE TABLE IF NOT EXISTS progresso_aulas (
 
 
 -- -------------------------------------------------------------
--- 5. LOG DE GLOBINHOS (auditoria)
+-- 5. RESPOSTAS POR AULA (diagnóstico do professor)
+--    Uma linha por aluno×aula; a última tentativa sobrescreve.
+--    erradas_json: [{"pergunta":"...","correta":"..."}]
+--    Alimentada por api/respostas.php após cada sessão de questões.
+-- -------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS respostas_aulas (
+    id             INT       AUTO_INCREMENT PRIMARY KEY,
+    aluno_id       INT       NOT NULL,
+    aula_id        SMALLINT  NOT NULL,
+    total_questoes TINYINT   NOT NULL DEFAULT 0,
+    acertos        TINYINT   NOT NULL DEFAULT 0,
+    erradas_json   TEXT      DEFAULT NULL,
+    tentativas     INT       NOT NULL DEFAULT 0,
+    atualizado_em  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    UNIQUE KEY uq_resp_aluno_aula (aluno_id, aula_id),
+    FOREIGN KEY (aluno_id) REFERENCES alunos(id) ON DELETE CASCADE,
+    FOREIGN KEY (aula_id)  REFERENCES aulas(id)  ON DELETE CASCADE
+) ENGINE=InnoDB;
+
+
+-- -------------------------------------------------------------
+-- 6. LOG DE GLOBINHOS (auditoria)
 --    Cada ganho/perda fica registrado com tipo e contexto.
 -- -------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS globinhos_log (
@@ -253,19 +274,34 @@ CREATE OR REPLACE VIEW ranking AS
 SELECT
     a.id,
     a.nome,
-    t.nome                                              AS turma,
+    a.turma_id,
+    t.nome   AS turma_nome,
+    t.codigo AS turma_codigo,
+    a.estado,
+    a.cidade,
+    a.escola,
     a.globinhos_total,
     a.lvl,
     a.patente,
     (SELECT COUNT(*) FROM progresso_aulas p
      WHERE p.aluno_id = a.id
        AND p.concluido_texto = 1
-       AND p.concluido_questoes = 1)                   AS aulas_100,
-    COUNT(DISTINCT ca.conquista_id)                    AS conquistas
+       AND p.concluido_questoes = 1)                          AS aulas_100,
+    COUNT(DISTINCT ca.conquista_id)                           AS conquistas,
+    -- Estatísticas de questões (respostas_aulas)
+    COALESCE(SUM(ra.total_questoes), 0)                       AS total_questoes_respondidas,
+    COALESCE(SUM(ra.acertos), 0)                              AS total_acertos,
+    ROUND(
+        COALESCE(SUM(ra.acertos), 0) /
+        NULLIF(COALESCE(SUM(ra.total_questoes), 0), 0) * 100
+    , 1)                                                      AS media_acertos_pct
 FROM alunos a
-JOIN turmas t ON t.id = a.turma_id
+LEFT JOIN turmas t             ON t.id = a.turma_id
 LEFT JOIN conquistas_alunos ca ON ca.aluno_id = a.id
-GROUP BY a.id, a.nome, t.nome, a.globinhos_total, a.lvl, a.patente
+LEFT JOIN respostas_aulas ra   ON ra.aluno_id = a.id
+GROUP BY a.id, a.nome, a.turma_id, t.nome, t.codigo,
+         a.estado, a.cidade, a.escola,
+         a.globinhos_total, a.lvl, a.patente
 ORDER BY a.globinhos_total DESC;
 
 

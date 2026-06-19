@@ -31,7 +31,8 @@
       "zonas polares",
       "glaciologia"
     ],
-    "pergunta": "A Antártica tem em torno de 14 milhões de km2 permanentemente cobertos de gelo, como um gigantesco deserto branco e muito frio. O continente Antártico rodeia o polo Sul e é o único lugar da Terra sem história, mitos ou lendas, pois jamais existiu população humana nativa. Atualmente, a população desse continente é formada por:",
+    "texto_apoio": "A Antártica tem em torno de 14 milhões de km2 permanentemente cobertos de gelo, como um gigantesco deserto branco e muito frio. O continente Antártico rodeia o polo Sul e é o único lugar da Terra sem história, mitos ou lendas, pois jamais existiu população humana nativa.",
+    "pergunta": "Atualmente, a população desse continente é formada por:",
     "alternativas": [
       "pesquisadores de todas as partes do mundo.",
       "pesquisadores que extraem o petróleo da região.",
@@ -122,7 +123,8 @@
       "zonas polares",
       "mudanças climáticas"
     ],
-    "pergunta": "Com as ameaças de risco ecológico e as polêmicas que cercam o tema do aquecimento global, são recorrentes as referências às zonas polares do planeta. Afinal elas são as zonas mais frias do globo e os sinais do aquecimento seriam mais facilmente notados nelas. A respeito das características dessas zonas, é correto afirmar que",
+    "texto_apoio": "Com as ameaças de risco ecológico e as polêmicas que cercam o tema do aquecimento global, são recorrentes as referências às zonas polares do planeta. Afinal elas são as zonas mais frias do globo e os sinais do aquecimento seriam mais facilmente notados nelas.",
+    "pergunta": "A respeito das características dessas zonas, é correto afirmar que",
     "alternativas": [
       "banquisas se formam nas áreas continentais enquanto os glaciares se formam nos oceanos, e por isso, deles (os glaciares) se desprendem os icebergs.",
       "os icebergs são fenômenos da Zona Polar Sul e se constituem de blocos de água salgada congelada que se desprendem das banquisas dessa área do planeta.",
@@ -144,8 +146,9 @@
       "clima polar",
       "Ártico"
     ],
+    "texto_apoio": "Nas regiões de altas latitudes e próximas ao Círculo Polar Ártico, os horizontes superficiais do solo permanecem gelados. É comum, durante poucos meses do ano, a ocorrência de um tipo de vegetação de pequeno porte e que é constituído, basicamente, por musgos e liquens.",
     "imagem_apoio": "1ano/img/131/p31q7.png",
-    "pergunta": "Nas regiões de altas latitudes e próximas ao Círculo Polar Ártico, os horizontes superficiais do solo permanecem gelados. É comum, durante poucos meses do ano, a ocorrência de um tipo de vegetação de pequeno porte e que é constituído, basicamente, por musgos e liquens. Assinale a alternativa que contém essa vegetação.",
+    "pergunta": "Assinale a alternativa que contém essa vegetação.",
     "alternativas": [
       "Estepe.",
       "Araucárias.",

@@ -104,8 +104,9 @@
       "conflitos",
       "colonialismo"
     ],
+    "texto_apoio": "Uma das contradições que afetam as sociedades africanas é a não correspondência entre as fronteiras territoriais dos diversos Estados-nacionais e as divisões entre grupos étnicos locais, como se observa no mapa abaixo:",
     "imagem_apoio": "3ano/img/330/t30q5.png",
-    "pergunta": "Uma das contradições que afetam as sociedades africanas é a não correspondência entre as fronteiras territoriais dos diversos Estados-nacionais e as divisões entre grupos étnicos locais, como se observa no mapa abaixo:\n\nNa maioria dos países africanos, essa contradição provoca, principalmente, o seguinte efeito:",
+    "pergunta": "Na maioria dos países africanos, essa contradição provoca, principalmente, o seguinte efeito:",
     "alternativas": [
       "déficit comercial.",
       "instabilidade política.",
@@ -127,7 +128,8 @@
       "conflito armado",
       "África Austral"
     ],
-    "pergunta": "Há muito tempo o continente africano tem sido palco de conflitos violentos. Em Angola, o confronto envolveu organizações armadas que disputavam o poder desde a independência daquele país. Na República Democrática do Congo, as disputas envolveram o Estado e grupos armados; na Serra Leoa, a guerra civil durou de 1991 a 2002. Intermediários interessados na guerra, em alguns casos, a estimulam fornecendo armas e soldados; em outros casos, apoiam governos ou a guerrilha de oposição. Os produtos disputados pelo Estado e por grupos armados nesses três países Africanos são",
+    "texto_apoio": "Há muito tempo o continente africano tem sido palco de conflitos violentos. Em Angola, o confronto envolveu organizações armadas que disputavam o poder desde a independência daquele país. Na República Democrática do Congo, as disputas envolveram o Estado e grupos armados; na Serra Leoa, a guerra civil durou de 1991 a 2002. Intermediários interessados na guerra, em alguns casos, a estimulam fornecendo armas e soldados; em outros casos, apoiam governos ou a guerrilha de oposição.",
+    "pergunta": "Os produtos disputados pelo Estado e por grupos armados nesses três países Africanos são",
     "alternativas": [
       "diamante e petróleo.",
       "defensivos agrícolas e gás natural.",
@@ -149,7 +151,8 @@
       "radicalismo",
       "Estados paralelos"
     ],
-    "pergunta": "A Maioria dos estados paralelos do Oriente médio é de natureza teocrática, levando quase sempre uma política ao radicalismo. Esses Estados só podem ser controlados por ditaduras onde o poder é concentrado na mão de um homem que por meio da repressão controla esses insurgentes.\n\nIniciada na maioria das vezes por grupos dissidentes, o conflito no Oriente Médio ganha maior proporção devido:",
+    "texto_apoio": "A Maioria dos estados paralelos do Oriente médio é de natureza teocrática, levando quase sempre uma política ao radicalismo. Esses Estados só podem ser controlados por ditaduras onde o poder é concentrado na mão de um homem que por meio da repressão controla esses insurgentes.",
+    "pergunta": "Iniciada na maioria das vezes por grupos dissidentes, o conflito no Oriente Médio ganha maior proporção devido:",
     "alternativas": [
       "à continuação do apoio extremamente armado, do governo coreano, em território palestino gerando ódio e revolta perante ao povo israelita.",
       "o forte apoio norte americano à presença de Israel na região. Fator esse gerador de instabilidade, pois se Israel não for um país extremamente armado e apoiado por potências corre o risco de não mais existir.",

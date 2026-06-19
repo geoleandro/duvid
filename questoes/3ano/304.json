@@ -10,8 +10,9 @@
       "economia",
       "produção alimentar"
     ],
+    "texto_apoio": "O setor primário é um campo extremamente importante para a economia, pois carrega consigo a responsabilidade de fornecer as matérias-primas, que podem ser diretamente consumidas ou convertidas em mercadorias e produtos de base.",
     "imagem_apoio": "3ano/img/304/t4q1.png",
-    "pergunta": "O setor primário é um campo extremamente importante para a economia, pois carrega consigo a responsabilidade de fornecer as matérias-primas, que podem ser diretamente consumidas ou convertidas em mercadorias e produtos de base. Uma peculiaridade desse setor que pode, eventualmente, impactar todo o mercado é:",
+    "pergunta": "Uma peculiaridade desse setor que pode, eventualmente, impactar todo o mercado é:",
     "alternativas": [
       "a grande necessidade de incentivos fiscais públicos",
       "o elevado e constante custo dos investimentos.",
@@ -34,8 +35,10 @@
       "setores econômicos",
       "mecanização"
     ],
+    "texto_apoio": "Nas antigas sociedades agrárias, a ocupação agrícola chegou a representar quatro em cada cinco postos de trabalho. Com a passagem para a sociedade urbana e industrial, a partir do século 19, o emprego da mão de obra no setor secundário das economias (construção civil e manufatura) chegou a alcançar quase dois quintos do total da ocupação, especialmente nos países de industrialização madura..\n\nE desde a segunda metade do século passado a nova transição da sociedade industrial aponta para a concentração dos postos de trabalho no setor terciário (serviços e comércio). Nas economias desenvolvidas, o setor de serviços responde por 83% do emprego da mão de obra [...]..",
+    "fonte_apoio": "POCHMANN, M. O desafio do emprego no novo mundo dos serviços. Rede Brasil Atual, 15/08/2014. Disponível em:",
     "imagem_apoio": "3ano/img/304/t4q2.png",
-    "pergunta": "Nas antigas sociedades agrárias, a ocupação agrícola chegou a representar quatro em cada cinco postos de trabalho. Com a passagem para a sociedade urbana e industrial, a partir do século 19, o emprego da mão de obra no setor secundário das economias (construção civil e manufatura) chegou a alcançar quase dois quintos do total da ocupação, especialmente nos países de industrialização madura..\n\nE desde a segunda metade do século passado a nova transição da sociedade industrial aponta para a concentração dos postos de trabalho no setor terciário (serviços e comércio). Nas economias desenvolvidas, o setor de serviços responde por 83% do emprego da mão de obra [...]..\n\n(POCHMANN, M. O desafio do emprego no novo mundo dos serviços. Rede Brasil Atual, 15/08/2014. Disponível em:\n\nO esvaziamento progressivo da mão de obra do setor secundário mencionado pelo texto deve-se principalmente:",
+    "pergunta": "O esvaziamento progressivo da mão de obra do setor secundário mencionado pelo texto deve-se principalmente:",
     "alternativas": [
       "ao processo de constituição da revolução verde.",
       "ao caráter especulativo do capital financeiro.",
@@ -57,9 +60,10 @@
       "desenvolvimento econômico",
       "desigualdade regional"
     ],
+    "texto_apoio": "“Segundo o “Relatório de Investimento Estrangeiro Direto 2013” (fDi Report. 2013) [1], produzido pelo grupo inglês “Financial Times”, [...] há uma tendência de terciarização da economia global, o que significa afirmar que o volume de investimentos passa agora a se concentrar na área de serviços, destacando-se que nos últimos cinco anos ele tinha se concentrado na formatação de plataformas industriais em diversos países [...]”.",
     "fonte_apoio": "(BLUM, G. Tendências da terciarização da economia global: principais setores de “Investimento Estrangeiro Direto”. Ceiri Newspaper. Disponível em: http://www.jornal.ceiri.com.br).",
     "imagem_apoio": "3ano/img/304/t4q3.png",
-    "pergunta": "“Segundo o “Relatório de Investimento Estrangeiro Direto 2013” (fDi Report. 2013) [1], produzido pelo grupo inglês “Financial Times”, [...] há uma tendência de terciarização da economia global, o que significa afirmar que o volume de investimentos passa agora a se concentrar na área de serviços, destacando-se que nos últimos cinco anos ele tinha se concentrado na formatação de plataformas industriais em diversos países [...]”.\n\nUm dos fatores, em termos macroeconômicos, que mais facilitaram a terciarização da economia foi:",
+    "pergunta": "Um dos fatores, em termos macroeconômicos, que mais facilitaram a terciarização da economia foi:",
     "alternativas": [
       "o avanço da globalização e a implantação de tecnologias no mundo do trabalho.",
       "a difusão de perspectivas econômicas intervencionistas pelo mundo.",
@@ -82,9 +86,10 @@
       "segurança alimentar",
       "produção agrícola"
     ],
+    "texto_apoio": "Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO), anualmente, 1,3 bilhão de toneladas de alimentos (30% da produção total no planeta) é perdido em dois processos: o desperdício que se relaciona ao descarte de alimentos em bom estado e a perda ao longo da cadeia produtiva. O desperdício representa 46% e é muito maior nas regiões mais ricas. As perdas relativas ao circuito de produção representam 54% do total e são maiores nos países em desenvolvimento.",
     "fonte_apoio": "https://nacoesunidas.org/fao‐30‐de‐toda‐a‐comida‐produzida‐no‐mundo‐vaiparar‐no‐lixo. Adaptado.",
     "imagem_apoio": "3ano/img/304/t4q4.png",
-    "pergunta": "Segundo a Organização das Nações Unidas para a Alimentação e a Agricultura (FAO), anualmente, 1,3 bilhão de toneladas de alimentos (30% da produção total no planeta) é perdido em dois processos: o desperdício que se relaciona ao descarte de alimentos em bom estado e a perda ao longo da cadeia produtiva. O desperdício representa 46% e é muito maior nas regiões mais ricas. As perdas relativas ao circuito de produção representam 54% do total e são maiores nos países em desenvolvimento.\n\nCom base nas informações da FAO e em seus conhecimentos, indique a afirmação correta.",
+    "pergunta": "Com base nas informações da FAO e em seus conhecimentos, indique a afirmação correta.",
     "alternativas": [
       "A produção de alimentos vem decaindo mundialmente devido aos problemas na logística de produção, o que tem provocado aumento da insegurança alimentar.",
       "Nos continentes mais desenvolvidos, a perda de alimentos devido ao sistema de transporte e armazenamento é a principal causa da inexistência da insegurança alimentar.",
@@ -154,7 +159,8 @@
       "desigualdade social",
       "índices de desenvolvimento"
     ],
-    "pergunta": "Não é simples estabelecer critérios para aferir as condições de vida de uma população, mas é sempre verdade que quem não tem o que comer está em situação de carência extrema. A Organização das Nações Unidas para Agricultura e Alimentação (FAO) calculou a existência de 923 milhões de pessoas com fome no mundo em 2007.\n\nUm fator agravante para esse fato é/são",
+    "texto_apoio": "Não é simples estabelecer critérios para aferir as condições de vida de uma população, mas é sempre verdade que quem não tem o que comer está em situação de carência extrema. A Organização das Nações Unidas para Agricultura e Alimentação (FAO) calculou a existência de 923 milhões de pessoas com fome no mundo em 2007.",
+    "pergunta": "Um fator agravante para esse fato é/são",
     "alternativas": [
       "a desigualdade de acesso (de poder de compra) aos alimentos, cada vez mais caros, que exclui parcelas de população já comprometidas com a falta de uma nutrição adequada.",
       "o índice de crescimento vegetativo mundial, que tem sido superior ao índice de produção de alimentos no Planeta, reafirmando a Teoria Malthusiana.",

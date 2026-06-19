@@ -109,7 +109,7 @@
        saber o que fazer imediatamente
   ======================================= -->
         <div class="w3-display-container w3-animate-opacity">
-            <img src="fotoIndex/duvid-banner1.png" width="1200" height="630" style="width:100%; height:auto;"
+            <img src="fotoIndex/duvid-banner.webp" width="1200" height="630" style="width:100%; height:auto;"
                 fetchpriority="high" alt="Duvid Geografia Banner" class="w3-card-4 duvid-banner">
 
             <div class="w3-display-middle w3-center w3-hide-medium w3-hide-small" style="padding: 0 16px;">
@@ -333,6 +333,51 @@
                             Seu professor passou um código? Digite aqui. Sem código, você entra na turma livre.
                         </p>
 
+                        <!-- Campos opcionais: localização para ranking nacional -->
+                        <details id="detalhes-localizacao" style="margin-bottom:14px; text-align:left;">
+                            <summary style="cursor:pointer; font-size:0.85rem; color:#555; font-weight:600; user-select:none;">
+                                🌎 Adicionar escola e localização <span style="font-size:0.75rem; color:#aaa; font-weight:400;">(opcional — para ranking nacional)</span>
+                            </summary>
+                            <div style="margin-top:10px; display:flex; flex-direction:column; gap:8px;">
+                                <select class="w3-select w3-border w3-round" id="pq-estado" style="height:38px;">
+                                    <option value="">— Estado —</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                </select>
+                                <input class="w3-input w3-border w3-round" type="text"
+                                    id="pq-cidade" placeholder="Cidade"
+                                    autocomplete="address-level2">
+                                <input class="w3-input w3-border w3-round" type="text"
+                                    id="pq-escola" placeholder="Nome da escola"
+                                    autocomplete="organization">
+                            </div>
+                        </details>
+
                         <p id="login-erro" class="w3-text-red" style="display:none; font-size:0.9rem;"></p>
 
                         <button class="w3-button w3-green w3-round-large w3-block"
@@ -381,6 +426,12 @@
                         <div class="w3-col s6 w3-left-align">XP ATUAL: <span id="xp-atual">0</span></div>
                         <div class="w3-col s6 w3-right-align">PRÓXIMO NÍVEL: <span id="xp-proximo">100</span></div>
                     </div>
+
+                    <a href="/paginas/ranking.php"
+                        class="w3-button w3-green w3-round-large w3-block w3-margin-top"
+                        style="white-space:normal; line-height:1.4;">
+                        🏆 Ver ranking da minha turma
+                    </a>
                 </div>
 
                 <div id="resumo-geral" class="w3-row-padding w3-margin-top" style="display:none;">
@@ -592,6 +643,186 @@
 
 
 
+
+    <!-- ══════════════════════════════════════════════════════
+         Modal: Editar Perfil
+         Aberto por prepararTrocaNome() em duvid-core.js
+    ══════════════════════════════════════════════════════ -->
+    <div id="modal-editar-perfil" style="
+        display:none; position:fixed; inset:0; z-index:9999;
+        background:rgba(0,0,0,.5); align-items:center; justify-content:center;">
+
+        <div style="
+            background:#fff; border-radius:16px; padding:28px 24px;
+            width:min(420px, 92vw); box-shadow:0 8px 32px rgba(0,0,0,.2);
+            position:relative;">
+
+            <!-- Fechar -->
+            <button onclick="fecharModalPerfil()" style="
+                position:absolute; top:12px; right:14px;
+                background:none; border:none; font-size:1.3rem;
+                cursor:pointer; color:#888; line-height:1;">×</button>
+
+            <h3 style="margin:0 0 4px; color:#1b5e20; font-size:1.2rem;">
+                <i class="fa fa-pencil"></i> Editar perfil
+            </h3>
+            <p style="margin:0 0 20px; color:#888; font-size:.82rem;">
+                Confirme seu PIN para salvar alterações.
+            </p>
+
+            <!-- Nome -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                Nome de usuário
+            </label>
+            <input id="ep-nome" type="text" maxlength="50"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                       border-radius:10px; font-size:.95rem; box-sizing:border-box;
+                       margin-bottom:14px; font-family:inherit;">
+
+            <!-- Estado -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                Estado <span style="font-weight:400; color:#aaa;">(opcional)</span>
+            </label>
+            <select id="ep-estado" style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                    border-radius:10px; font-size:.9rem; box-sizing:border-box; margin-bottom:14px; font-family:inherit;">
+                <option value="">— Estado —</option>
+                <option value="AC">Acre</option><option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option><option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option><option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option><option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
+                <option value="PB">Paraíba</option><option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+
+            <!-- Cidade -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                Cidade <span style="font-weight:400; color:#aaa;">(opcional)</span>
+            </label>
+            <input id="ep-cidade" type="text" maxlength="100" placeholder="Ex: Poços de Caldas"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                       border-radius:10px; font-size:.9rem; box-sizing:border-box;
+                       margin-bottom:14px; font-family:inherit;">
+
+            <!-- Escola -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                Escola <span style="font-weight:400; color:#aaa;">(opcional)</span>
+            </label>
+            <input id="ep-escola" type="text" maxlength="150" placeholder="Ex: IFSuldeminas"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                       border-radius:10px; font-size:.9rem; box-sizing:border-box;
+                       margin-bottom:14px; font-family:inherit;">
+
+            <!-- PIN de confirmação -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                PIN <span style="color:#c62828;">*</span>
+            </label>
+            <input id="ep-pin" type="password" maxlength="4" placeholder="4 dígitos"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                       border-radius:10px; font-size:1rem; box-sizing:border-box;
+                       margin-bottom:6px; font-family:monospace; letter-spacing:4px;">
+
+            <p id="ep-erro" style="color:#c62828; font-size:.82rem; margin:0 0 14px; display:none;"></p>
+
+            <button onclick="salvarEdicaoPerfil()" id="ep-btn"
+                style="width:100%; padding:11px; background:linear-gradient(135deg,#2e7d32,#43a047);
+                       color:#fff; border:none; border-radius:10px; font-size:.95rem;
+                       font-weight:700; cursor:pointer;">
+                <i class="fa fa-check"></i> Salvar alterações
+            </button>
+        </div>
+    </div>
+
+    <script>
+    function fecharModalPerfil() {
+        document.getElementById('modal-editar-perfil').style.display = 'none';
+    }
+
+    // Fecha ao clicar fora do card
+    document.getElementById('modal-editar-perfil')
+        .addEventListener('click', function(e) {
+            if (e.target === this) fecharModalPerfil();
+        });
+
+    async function salvarEdicaoPerfil() {
+        const nome   = document.getElementById('ep-nome').value.trim();
+        const estado = document.getElementById('ep-estado').value;
+        const cidade = document.getElementById('ep-cidade').value.trim();
+        const escola = document.getElementById('ep-escola').value.trim();
+        const pin    = document.getElementById('ep-pin').value.trim();
+        const erro   = document.getElementById('ep-erro');
+        const btn    = document.getElementById('ep-btn');
+
+        erro.style.display = 'none';
+
+        if (!nome) { mostrarEpErro('Digite um nome.'); return; }
+        if (!pin)  { mostrarEpErro('Digite seu PIN para confirmar.'); return; }
+
+        btn.disabled = true;
+        btn.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Salvando…';
+
+        const id = DuvidDB.getId?.();
+        if (!id) { mostrarEpErro('Sessão inválida. Recarregue a página.'); btn.disabled=false; return; }
+
+        try {
+            const resp = await fetch('/api/aluno.php', {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ id, pin, nome, estado, cidade, escola }),
+            });
+            const dados = await resp.json();
+
+            if (dados.erro) {
+                mostrarEpErro(dados.erro);
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fa fa-check"></i> Salvar alterações';
+                return;
+            }
+
+            // Atualiza o cache local com os novos dados
+            if (typeof DuvidDB.atualizarCache === 'function') {
+                DuvidDB.atualizarCache(dados);
+            } else {
+                // Fallback: grava campos críticos manualmente
+                localStorage.setItem('duvidNome', dados.nome);
+            }
+
+            fecharModalPerfil();
+
+            // Atualiza o nome exibido na home sem recarregar
+            const el = document.getElementById('nome-aluno-texto');
+            if (el) el.textContent = dados.nome.toUpperCase();
+
+            // Mostra confirmação rápida
+            const tag = document.createElement('span');
+            tag.textContent = ' ✔ Salvo!';
+            tag.style.cssText = 'color:#2e7d32; font-size:.8rem; font-weight:700;';
+            el?.parentNode?.appendChild(tag);
+            setTimeout(() => tag.remove(), 2500);
+
+        } catch(e) {
+            mostrarEpErro('Falha na conexão. Tente novamente.');
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fa fa-check"></i> Salvar alterações';
+        }
+
+        btn.disabled = false;
+        btn.innerHTML = '<i class="fa fa-check"></i> Salvar alterações';
+    }
+
+    function mostrarEpErro(msg) {
+        const el = document.getElementById('ep-erro');
+        el.textContent    = msg;
+        el.style.display  = 'block';
+    }
+    </script>
 
     <!-- Footer -->
 

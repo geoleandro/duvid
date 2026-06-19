@@ -11,7 +11,8 @@
       "Israel",
       "Palestina"
     ],
-    "pergunta": "Dois eventos marcaram a diplomacia brasileira em relação ao Oriente Médio no início de 2019. Um deles foi o voto contra a resolução da ONU que pedia a desocupação militar das Colinas de Golã e sua devolução à Síria. Outro evento foi o anúncio de transferência da embaixada brasileira de Tel Aviv para Jerusalém, mesmo não tendo sido levada adiante até setembro de 2019. Em relação a esses eventos, é correto afirmar que ele representa",
+    "texto_apoio": "Dois eventos marcaram a diplomacia brasileira em relação ao Oriente Médio no início de 2019. Um deles foi o voto contra a resolução da ONU que pedia a desocupação militar das Colinas de Golã e sua devolução à Síria. Outro evento foi o anúncio de transferência da embaixada brasileira de Tel Aviv para Jerusalém, mesmo não tendo sido levada adiante até setembro de 2019.",
+    "pergunta": "Em relação a esses eventos, é correto afirmar que ele representa",
     "alternativas": [
       "I ‐ uma aproximação do Brasil em relação à posição dos EUA. II ‐ Um potencial distanciamento do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
       "I ‐ um distanciamento do Brasil em relação à posição da Palestina e uma aproximação em relação ao conjunto de países árabes. II ‐ Uma potencial aproximação do Brasil em relação à posição da maioria dos países do Conselho de Segurança da ONU.",
@@ -34,7 +35,8 @@
       "pós-Guerra Fria",
       "geopolítica"
     ],
-    "pergunta": "A Nova Ordem Mundial assinala o fim da bipolaridade entre União Soviética e Estados Unidos. Então, a partir do início do século XXI, os norte-americanos iniciaram uma guerra ao terrorismo, que passou a ser o novo adversário dos EUA no cenário internacional. Um evento que pode assinalar essa nova empreitada é:",
+    "texto_apoio": "A Nova Ordem Mundial assinala o fim da bipolaridade entre União Soviética e Estados Unidos. Então, a partir do início do século XXI, os norte-americanos iniciaram uma guerra ao terrorismo, que passou a ser o novo adversário dos EUA no cenário internacional.",
+    "pergunta": "Um evento que pode assinalar essa nova empreitada é:",
     "alternativas": [
       "A Guerra do Iraque, cujo objetivo era aniquilar o terrorista internacional Saddam Hussein.",
       "A caçada e morte de Osama Bin Laden, em 2 de Maio de 2011.",
@@ -125,8 +127,9 @@
       "Aliança do Pacífico",
       "livre-comércio"
     ],
+    "texto_apoio": "México, Colômbia, Peru e Chile decidiram seguir um caminho mais curto para a integração regional. Os quatro países, em meados de 2012, criaram a Aliança do Pacífico e eliminaram, em 2013, as tarifas aduaneiras de 90% do total de produtos comercializados entre suas fronteiras.",
     "fonte_apoio": "OLIVEIRA, E. Aliança do Pacífico se fortalece e Mercosul fica à sua sombra. O Globo, 24 fev. 2013 (adaptado).",
-    "pergunta": "México, Colômbia, Peru e Chile decidiram seguir um caminho mais curto para a integração regional. Os quatro países, em meados de 2012, criaram a Aliança do Pacífico e eliminaram, em 2013, as tarifas aduaneiras de 90% do total de produtos comercializados entre suas fronteiras.\n\nO acordo descrito no texto teve como objetivo econômico para os países-membros:",
+    "pergunta": "O acordo descrito no texto teve como objetivo econômico para os países-membros:",
     "alternativas": [
       "promover a livre circulação de trabalhadores.",
       "fomentar a competitividade no mercado externo.",
@@ -198,7 +201,8 @@
       "desenvolvimento econômico",
       "geopolítica"
     ],
-    "pergunta": "Na presente conjuntura histórica, alguns países, antes considerados como subdesenvolvidos e que atualmente se encontram melhor situados social e economicamente, são classificados como países emergentes. Observa-se que, nesse conjunto dos emergentes, alguns países destacam-se em relação aos outros. Eles constituem o BRIC, grupo formado pelo Brasil, Rússia, Índia e China. Esses países integram também o G20, um conjunto mais amplo que está conseguindo, aos poucos, intervir na reconfiguração da Nova Ordem Mundial, um protagonismo antes circunscrito ao G8.\n\nConsiderando a literatura sobre o tema, identifique as características comuns a todos os países do BRIC:",
+    "texto_apoio": "Na presente conjuntura histórica, alguns países, antes considerados como subdesenvolvidos e que atualmente se encontram melhor situados social e economicamente, são classificados como países emergentes. Observa-se que, nesse conjunto dos emergentes, alguns países destacam-se em relação aos outros. Eles constituem o BRIC, grupo formado pelo Brasil, Rússia, Índia e China. Esses países integram também o G20, um conjunto mais amplo que está conseguindo, aos poucos, intervir na reconfiguração da Nova Ordem Mundial, um protagonismo antes circunscrito ao G8.",
+    "pergunta": "Considerando a literatura sobre o tema, identifique as características comuns a todos os países do BRIC:",
     "alternativas": [
       "Participam do grupo das 8 nações mais ricas e industrializadas do mundo, são membros da OTAN e grandes potências bélicas mundiais.",
       "Apresentam limitada importância no cenário econômico mundial, são potências regionais secundárias e grandes importadores de matérias-primas.b",
@@ -221,7 +225,8 @@
       "geopolítica",
       "guerras contemporâneas"
     ],
-    "pergunta": "O mundo tem vivido inúmeros conflitos regionais de repercussão global que, por um lado, envolvem intervenções de tropas de diferentes países e, por outro lado, resultam em discussões na Organização das Nações Unidas. Considere as seguintes afirmações:\n\nI. Povos primitivos precisam ser tutelados pela diplomacia internacional ou reprimidos por forças de nações desenvolvidas, para que conflitos locais ou regionais não perturbem o equilíbrio mundial.\n\nII. Razões estratégicas, de localização geográfica, de orientação política ou de concentração de recursos naturais, fazem com que certas regiões ou países sejam alvo de interesses, preocupações e intervenções internacionais.\n\nIII. Diferenças étnicas, culturais, políticas ou religiosas, com raízes históricas, têm resultado em preconceito, desrespeito e segregação, gerando tensões que repercutem em conflitos existentes entre diferentes nações. O envolvimento global em conflitos regionais é, corretamente, explicado em",
+    "texto_apoio": "O mundo tem vivido inúmeros conflitos regionais de repercussão global que, por um lado, envolvem intervenções de tropas de diferentes países e, por outro lado, resultam em discussões na Organização das Nações Unidas.",
+    "pergunta": "Considere as seguintes afirmações:\n\nI. Povos primitivos precisam ser tutelados pela diplomacia internacional ou reprimidos por forças de nações desenvolvidas, para que conflitos locais ou regionais não perturbem o equilíbrio mundial.\n\nII. Razões estratégicas, de localização geográfica, de orientação política ou de concentração de recursos naturais, fazem com que certas regiões ou países sejam alvo de interesses, preocupações e intervenções internacionais.\n\nIII. Diferenças étnicas, culturais, políticas ou religiosas, com raízes históricas, têm resultado em preconceito, desrespeito e segregação, gerando tensões que repercutem em conflitos existentes entre diferentes nações. O envolvimento global em conflitos regionais é, corretamente, explicado em",
     "alternativas": [
       "I, apenas.",
       "II, apenas.",

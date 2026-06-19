@@ -141,7 +141,8 @@
       "agentes endógenos",
       "agentes exógenos"
     ],
-    "pergunta": "A crosta terrestre sofreu, no decorrer da história da Terra, processos endógenos presentes na formação do relevo.\n\nEm relação aos processos endógenos presentes nessa formação, considere as afirmativas a seguir.\n\nI. Orogenia de dobramento resulta de pressões horizontais que formam ondulações no terreno em estruturas plásticas.\n\nII. Orogenia de falhamento é submetida a um esforço interno de grande intensidade (vertical ou inclinado) sobre rochas de estruturas rígidas que se quebram.\n\nIII. Diastrofismo resulta de movimentos da crosta produzidos por processos tectônicos provocados e propagados pela energia interna da Terra.\n\nIV. Dobramentos geológicos resultam de pressões verticais que ocorrem, geralmente, sobre as rochas basálticas.\n\nAssinale a alternativa correta.",
+    "texto_apoio": "A crosta terrestre sofreu, no decorrer da história da Terra, processos endógenos presentes na formação do relevo.",
+    "pergunta": "Em relação aos processos endógenos presentes nessa formação, considere as afirmativas a seguir.\n\nI. Orogenia de dobramento resulta de pressões horizontais que formam ondulações no terreno em estruturas plásticas.\n\nII. Orogenia de falhamento é submetida a um esforço interno de grande intensidade (vertical ou inclinado) sobre rochas de estruturas rígidas que se quebram.\n\nIII. Diastrofismo resulta de movimentos da crosta produzidos por processos tectônicos provocados e propagados pela energia interna da Terra.\n\nIV. Dobramentos geológicos resultam de pressões verticais que ocorrem, geralmente, sobre as rochas basálticas.\n\nAssinale a alternativa correta.",
     "alternativas": [
       "Somente as afirmativas I e II são corretas.",
       "Somente as afirmativas I e IV são corretas.",
@@ -187,9 +188,10 @@
       "erosão",
       "karst"
     ],
+    "texto_apoio": "Tal fenômeno geológico consiste na formação de grandes buracos causados por chuvas e intempéries em solos onde a vegetação é escassa, que ficam assim cascalhentos e suscetíveis de carregamento por enxurradas. Ocorre no Sul, Sudeste e Centro-Oeste do Brasil e está geralmente associado ao uso e ao tipo do solo, ao substrato geológico, às características climáticas, hidrológicas e ao relevo.",
     "fonte_apoio": "(www.agencia.cnptia.embrapa.br. Adaptado.)",
     "imagem_apoio": "1ano/img/112/p12q9.png",
-    "pergunta": "Tal fenômeno geológico consiste na formação de grandes buracos causados por chuvas e intempéries em solos onde a vegetação é escassa, que ficam assim cascalhentos e suscetíveis de carregamento por enxurradas. Ocorre no Sul, Sudeste e Centro-Oeste do Brasil e está geralmente associado ao uso e ao tipo do solo, ao substrato geológico, às características climáticas, hidrológicas e ao relevo.\n\nO fenômeno descrito no excerto denomina-se",
+    "pergunta": "O fenômeno descrito no excerto denomina-se",
     "alternativas": [
       "eutrofização.",
       "lixiviação.",

@@ -9,8 +9,9 @@
       "estruturas geológicas",
       "agentes endógenos"
     ],
+    "texto_apoio": "As feições de relevo, observadas na parte emersa da crosta terrestre, denunciam, muitas vezes, aspectos relacionados à estrutura geológica e às condições climáticas atuais e antigas.",
     "imagem_apoio": "1ano/img/118/p18q1.png",
-    "pergunta": "As feições de relevo, observadas na parte emersa da crosta terrestre, denunciam, muitas vezes, aspectos relacionados à estrutura geológica e às condições climáticas atuais e antigas. Com relação a esse tema, observe a figura a seguir:\n\nSe alguém perguntasse “Que tipo de rocha contribui para que se desenvolvam essas feições de relevo? ”, a resposta CORRETA seria",
+    "pergunta": "Com relação a esse tema, observe a figura a seguir:\n\nSe alguém perguntasse “Que tipo de rocha contribui para que se desenvolvam essas feições de relevo? ”, a resposta CORRETA seria",
     "alternativas": [
       "Sedimento argiloso.",
       "Gnaisse.",
@@ -32,7 +33,9 @@
       "rochas",
       "tipos de rocha"
     ],
-    "pergunta": "O Ciclo das Rochas é uma teia complexa de transformações da matéria, estas, às vezes, desde muito rápidas até extremamente lentas, que, em conjunto, no contexto da Tectônica de Placas, determinam modificações no reino mineral. O Ciclo das Rochas constitui um modo sintético de representar as inúmeras possibilidades pelas quais, ao longo do Tempo Geológico, um tipo de rocha pode transformar-se em outro\n\nFonte: Carneiro C. D. R., Gonçalves P. W., Lopes O. R. 2009. O Ciclo das Rochas na Natureza. Terra e Didática, 5(1):50-62. Disponível em http://www.ige.unicamp.br /terraedidatica/\n\nAnalise as proposições a respeito do Ciclo das Rochas:\n\nI. A rocha, quando passa por processos intempéricos, forma camadas de materiais desagregados onde se formam os solos, processo que recebe o nome de pedogênese.\n\nII. As rochas sedimentares são formadas pela deposição e diagênese de sedimentos provenientes de outras rochas ou de materiais de origem biogênica ou, ainda, da precipitação química de minerais.\n\nIII. As rochas metamórficas têm sua origem no resfriamento do magma, nas quais o tamanho dos cristais, geralmente, é proporcional ao tempo de resfriamento do magma: quanto mais lenta a cristalização de um magma, maiores os tamanhos dos cristais formados.\n\nIV. O calor, a umidade, os organismos e o relevo determinam o grau de atuação de cada um dos três processos básicos de intemperismo: físico, químico e biológico.\n\nAssinale a alternativa correta:",
+    "texto_apoio": "O Ciclo das Rochas é uma teia complexa de transformações da matéria, estas, às vezes, desde muito rápidas até extremamente lentas, que, em conjunto, no contexto da Tectônica de Placas, determinam modificações no reino mineral. O Ciclo das Rochas constitui um modo sintético de representar as inúmeras possibilidades pelas quais, ao longo do Tempo Geológico, um tipo de rocha pode transformar-se em outro",
+    "fonte_apoio": "Carneiro C. D. R., Gonçalves P. W., Lopes O. R. 2009. O Ciclo das Rochas na Natureza. Terra e Didática, 5(1):50-62. Disponível em http://www.ige.unicamp.br /terraedidatica/",
+    "pergunta": "Analise as proposições a respeito do Ciclo das Rochas:\n\nI. A rocha, quando passa por processos intempéricos, forma camadas de materiais desagregados onde se formam os solos, processo que recebe o nome de pedogênese.\n\nII. As rochas sedimentares são formadas pela deposição e diagênese de sedimentos provenientes de outras rochas ou de materiais de origem biogênica ou, ainda, da precipitação química de minerais.\n\nIII. As rochas metamórficas têm sua origem no resfriamento do magma, nas quais o tamanho dos cristais, geralmente, é proporcional ao tempo de resfriamento do magma: quanto mais lenta a cristalização de um magma, maiores os tamanhos dos cristais formados.\n\nIV. O calor, a umidade, os organismos e o relevo determinam o grau de atuação de cada um dos três processos básicos de intemperismo: físico, químico e biológico.\n\nAssinale a alternativa correta:",
     "alternativas": [
       "Somente as afirmativas I, II e III são verdadeiras.",
       "Somente as afirmativas I, II e IV são verdadeiras.",
@@ -54,7 +57,8 @@
       "relevo",
       "províncias geológicas"
     ],
-    "pergunta": "Os diferentes tipos de províncias geológicas revelam as diferentes feições do relevo enquanto expressões das diferentes temporalidades que marcam o passado geológico do planeta Terra. Por seus processos formativos, as estruturas geológicas com condições mais favoráveis à formação de combustíveis fósseis são:",
+    "texto_apoio": "Os diferentes tipos de províncias geológicas revelam as diferentes feições do relevo enquanto expressões das diferentes temporalidades que marcam o passado geológico do planeta Terra.",
+    "pergunta": "Por seus processos formativos, as estruturas geológicas com condições mais favoráveis à formação de combustíveis fósseis são:",
     "alternativas": [
       "as bacias sedimentares.",
       "os maciços antigos.",
@@ -76,8 +80,9 @@
       "relevo",
       "erosão marinha"
     ],
+    "texto_apoio": "As áreas costeiras, em diversas partes do mundo, apresentam variadas formas de relevo. Umas são de caráter erosivo, enquanto outras são resultantes da deposição e, às vezes, decorrem das ações dos movimentos crustais. Na fotografia abaixo, observa-se uma feição de relevo típica de alguns ambientes costeiros.",
     "imagem_apoio": "1ano/img/118/p18q4.png",
-    "pergunta": "As áreas costeiras, em diversas partes do mundo, apresentam variadas formas de relevo. Umas são de caráter erosivo, enquanto outras são resultantes da deposição e, às vezes, decorrem das ações dos movimentos crustais. Na fotografia abaixo, observa-se uma feição de relevo típica de alguns ambientes costeiros.\n\nAs características geomorfológicas vistas na paisagem permitem concluir que esse relevo é do tipo",
+    "pergunta": "As características geomorfológicas vistas na paisagem permitem concluir que esse relevo é do tipo",
     "alternativas": [
       "Falha de rejeito horizontal.",
       "Falésia.",
@@ -122,7 +127,8 @@
       "fontes alternativas de energia",
       "recursos energéticos"
     ],
-    "pergunta": "Suponha que você seja um consultor e foi contratado para assessorar a implantação de uma matriz energética em um pequeno país com as seguintes características: região plana, chuvosa e com ventos constantes, dispondo de poucos recursos hídricos e sem reservatórios de combustíveis fósseis.\n\nDe acordo com as características desse país, a matriz energética de menor impacto e risco ambientais é a baseada na energia",
+    "texto_apoio": "Suponha que você seja um consultor e foi contratado para assessorar a implantação de uma matriz energética em um pequeno país com as seguintes características: região plana, chuvosa e com ventos constantes, dispondo de poucos recursos hídricos e sem reservatórios de combustíveis fósseis.",
+    "pergunta": "De acordo com as características desse país, a matriz energética de menor impacto e risco ambientais é a baseada na energia",
     "alternativas": [
       "dos biocombustíveis, pois tem menos impacto ambiental e maior disponibilidade.",
       "solar, pelo seu baixo custo e pelas características do país favoráveis à sua implantação.",
@@ -189,7 +195,8 @@
       "combustíveis fósseis",
       "energia renovável"
     ],
-    "pergunta": "Para resolver a questão, leia o texto a seguir, sobre fontes de energia, e selecione as palavras/expressões que preenchem correta e coerentemente as lacunas.\n\nO _________ foi importante fonte de energia para a Primeira Revolução Industrial. Atualmente as maiores reservas estão localizadas no hemisfério _______. É um dos principais responsáveis pela __________, pois sua queima libera grande quantidade de óxido de enxofre na atmosfera.",
+    "texto_apoio": "O _________ foi importante fonte de energia para a Primeira Revolução Industrial. Atualmente as maiores reservas estão localizadas no hemisfério _______. É um dos principais responsáveis pela __________, pois sua queima libera grande quantidade de óxido de enxofre na atmosfera.",
+    "pergunta": "Para resolver a questão, leia o texto a seguir, sobre fontes de energia, e selecione as palavras/expressões que preenchem correta e coerentemente as lacunas.",
     "alternativas": [
       "carvão mineral – norte – chuva ácida.",
       "petróleo – sul – poluição dos oceanos.",

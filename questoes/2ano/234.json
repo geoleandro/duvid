@@ -18,8 +18,8 @@
       "o norte do Paraná é ocupado, hoje, pela soja e outros cultivos, que gradativamente, substituíram os cafezais"
     ],
     "correta": 2,
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a Região Sul. Lembre-se que a agricultura sulina é altamente modernizada, com mecanização intensa especialmente no Paraná e Rio Grande do Sul. Uma afirmativa sobre baixo grau de modernização seria falsa.",
-    "comentario": "O Sul do Brasil é uma das regiões com agricultura mais modernizada do país, com alto grau de mecanização, uso intensivo de insumos e integração ao agronegócio global. Culturas como soja, milho, trigo e avicultura/suinocultura são altamente tecnificadas, especialmente no Rio Grande do Sul, Santa Catarina e oeste do Paraná. Afirmar que o grau de modernização é predominantemente baixo é incorreto e contradiz os dados do IBGE sobre uso de tecnologia no campo sulista."
+    "comentario": "O Sul do Brasil é uma das regiões com agricultura mais modernizada do país, com alto grau de mecanização, uso intensivo de insumos e integração ao agronegócio global. Culturas como soja, milho, trigo e avicultura/suinocultura são altamente tecnificadas, especialmente no Rio Grande do Sul, Santa Catarina e oeste do Paraná. Afirmar que o grau de modernização é predominantemente baixo é incorreto e contradiz os dados do IBGE sobre uso de tecnologia no campo sulista.",
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a Região Sul. Lembre-se que a agricultura sulina é altamente modernizada, com mecanização intensa especialmente no Paraná e Rio Grande do Sul. Uma afirmativa sobre baixo grau de modernização seria falsa."
   },
   {
     "id": 2,
@@ -41,8 +41,8 @@
       "O planalto Paranaense foi ocupado, no século passado, por imigrantes japoneses, que se dedicaram à agricultura em grandes propriedades, cultivando principalmente cana-de- açúcar."
     ],
     "correta": 0,
-    "ajuda": "A colonização do Sul do Brasil foi feita por imigrantes europeus, especialmente alemães e italianos, que se estabeleceram em diferentes sub-regiões. Pense em qual região foi colonizada por esses imigrantes e quais atividades desenvolveram.",
-    "comentario": "A colonização do Sul do Brasil por imigrantes alemães e italianos, a partir do século XIX, criou um padrão fundiário baseado em pequenas e médias propriedades policultoras, distinto das grandes fazendas monocultures do restante do país. Essa estrutura agrária favoreceu o surgimento de cooperativas agrícolas e a diversificação produtiva. As encostas da Serra Gaúcha e do Vale do Itajaí foram os principais destinos desses colonos europeus."
+    "comentario": "A colonização do Sul do Brasil por imigrantes alemães e italianos, a partir do século XIX, criou um padrão fundiário baseado em pequenas e médias propriedades policultoras, distinto das grandes fazendas monocultures do restante do país. Essa estrutura agrária favoreceu o surgimento de cooperativas agrícolas e a diversificação produtiva. As encostas da Serra Gaúcha e do Vale do Itajaí foram os principais destinos desses colonos europeus.",
+    "ajuda": "A colonização do Sul do Brasil foi feita por imigrantes europeus, especialmente alemães e italianos, que se estabeleceram em diferentes sub-regiões. Pense em qual região foi colonizada por esses imigrantes e quais atividades desenvolveram."
   },
   {
     "id": 3,
@@ -63,8 +63,8 @@
       "à criação da última fronteira agrícola da Amazônia, no extremo norte do país, dentro da política de descentralização econômica, estimulando a recente implantação da rizicultura."
     ],
     "correta": 2,
-    "ajuda": "A área destacada no mapa é uma região de fronteira no extremo norte do Brasil. Pense nas disputas fundiárias e indígenas nessa região: qual reserva indígena gerou grande polêmica envolvendo arrozeiros e povos originários?",
-    "comentario": "A Terra Indígena Raposa Serra do Sol, em Roraima, foi palco de longa disputa entre comunidades indígenas Macuxi, Wapichana e outras e rizicultores não indígenas que ocuparam parte da reserva desde os anos 1970. Em 2009, o STF confirmou a demarcação contínua da reserva, determinando a saída dos arrozeiros. O caso evidencia o conflito estrutural entre os direitos territoriais indígenas e os interesses do agronegócio na Amazônia."
+    "comentario": "A Terra Indígena Raposa Serra do Sol, em Roraima, foi palco de longa disputa entre comunidades indígenas Macuxi, Wapichana e outras e rizicultores não indígenas que ocuparam parte da reserva desde os anos 1970. Em 2009, o STF confirmou a demarcação contínua da reserva, determinando a saída dos arrozeiros. O caso evidencia o conflito estrutural entre os direitos territoriais indígenas e os interesses do agronegócio na Amazônia.",
+    "ajuda": "A área destacada no mapa é uma região de fronteira no extremo norte do Brasil. Pense nas disputas fundiárias e indígenas nessa região: qual reserva indígena gerou grande polêmica envolvendo arrozeiros e povos originários?"
   },
   {
     "id": 4,
@@ -88,8 +88,8 @@
       "surgimento do arco do desmatamento, com áreas agrícolas ocupando terras antes cobertas por ﬂorestas e cerrados."
     ],
     "correta": 4,
-    "ajuda": "As frentes de expansão na Amazônia avançam sobre a floresta, transformando o uso do solo. Pense no que caracteriza esse processo: conversão de floresta em pastagem ou lavoura, gerando o chamado 'arco do desmatamento'.",
-    "comentario": "O 'arco do desmatamento' é a faixa de fronteira agrícola que avança sobre a Amazônia ao longo do sul e leste da floresta, de Rondônia ao Pará e Maranhão. As frentes de expansão — pecuária, soja, madeireiros — abrem estradas ilegais, desmatam e convertem floresta em pastagem ou lavoura. Esse processo transforma progressivamente o bioma amazônico, com graves consequências para o clima global e a biodiversidade."
+    "comentario": "O 'arco do desmatamento' é a faixa de fronteira agrícola que avança sobre a Amazônia ao longo do sul e leste da floresta, de Rondônia ao Pará e Maranhão. As frentes de expansão — pecuária, soja, madeireiros — abrem estradas ilegais, desmatam e convertem floresta em pastagem ou lavoura. Esse processo transforma progressivamente o bioma amazônico, com graves consequências para o clima global e a biodiversidade.",
+    "ajuda": "As frentes de expansão na Amazônia avançam sobre a floresta, transformando o uso do solo. Pense no que caracteriza esse processo: conversão de floresta em pastagem ou lavoura, gerando o chamado 'arco do desmatamento'."
   },
   {
     "id": 5,
@@ -113,8 +113,8 @@
       "O Agreste, localizado na extremidade ocidental do Nordeste, corresponde a uma faixa de terra que se estende paralelamente à Zona da Mata, sendo uma área de transição entre o Sertão árido e a floresta Amazônica superúmida."
     ],
     "correta": 2,
-    "ajuda": "O mapa mostra as sub-regiões do Nordeste brasileiro. Analise as características de cada uma: Zona da Mata (úmida, açúcar), Agreste (transição), Sertão (semiárido, pecuária extensiva) e Meio-Norte. Qual afirmativa é correta?",
-    "comentario": "O Sertão semiárido nordestino é marcado por vegetação de caatinga adaptada à escassez de chuvas, relevo de inselbergs e chapadas, e rios intermitentes que só correm no período chuvoso. Esse regime hídrico irregular cria as secas periódicas que historicamente causaram migrações em massa e sofrimento às populações sertanejas. A drenagem intermitente é uma das características mais marcantes dessa região fitogeográfica."
+    "comentario": "O Sertão semiárido nordestino é marcado por vegetação de caatinga adaptada à escassez de chuvas, relevo de inselbergs e chapadas, e rios intermitentes que só correm no período chuvoso. Esse regime hídrico irregular cria as secas periódicas que historicamente causaram migrações em massa e sofrimento às populações sertanejas. A drenagem intermitente é uma das características mais marcantes dessa região fitogeográfica.",
+    "ajuda": "O mapa mostra as sub-regiões do Nordeste brasileiro. Analise as características de cada uma: Zona da Mata (úmida, açúcar), Agreste (transição), Sertão (semiárido, pecuária extensiva) e Meio-Norte. Qual afirmativa é correta?"
   },
   {
     "id": 6,
@@ -127,8 +127,9 @@
       "Nordeste",
       "vegetação"
     ],
+    "texto_apoio": "Do litoral do Ceará e do Rio Grande do Norte até o médio São Francisco, estende-se uma mancha semiárida, dentro do domínio tropical, abrangendo quase 1 milhão de km².",
     "imagem_apoio": "2ano/img/234/s34q6.png",
-    "pergunta": "Do litoral do Ceará e do Rio Grande do Norte até o médio São Francisco, estende-se uma mancha semiárida, dentro do domínio tropical, abrangendo quase 1 milhão de km².\n\nEm relação às características do clima e da vegetação desta área, analise as afirmativas a seguir:\n\nI. As médias térmicas anuais elevadas e as ações dos ventos originam índices de evaporação maiores que os de precipitação.\n\nII. As médias pluviométricas inferiores a 600 mm anuais dão origem a áreas secas bem marcadas com indícios de desertificação.\n\nIII. A semiaridez é percebida no quadro natural pela vegetação xerófila e pelo escoamento temporário dos rios.\n\nAs afirmativas CORRETAS são:",
+    "pergunta": "Em relação às características do clima e da vegetação desta área, analise as afirmativas a seguir:\n\nI. As médias térmicas anuais elevadas e as ações dos ventos originam índices de evaporação maiores que os de precipitação.\n\nII. As médias pluviométricas inferiores a 600 mm anuais dão origem a áreas secas bem marcadas com indícios de desertificação.\n\nIII. A semiaridez é percebida no quadro natural pela vegetação xerófila e pelo escoamento temporário dos rios.\n\nAs afirmativas CORRETAS são:",
     "alternativas": [
       "I.",
       "II.",
@@ -137,8 +138,8 @@
       "I, II e III."
     ],
     "correta": 4,
-    "ajuda": "As afirmativas tratam do Semiárido nordestino. Lembre-se que o sertão nordestino tem longa ocupação histórica (pecuária extensiva desde o século XVII), com regime de chuvas irregular e problemas crônicos de seca.",
-    "comentario": "O Semiárido nordestino é a região mais seca e sujeita a secas do Brasil, abrangendo partes do Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe, Bahia e norte de Minas Gerais. As afirmativas I, II e III descrevem corretamente as características dessa região: predominância da caatinga, pluviometria irregular, altas temperaturas e dependência do rio São Francisco como principal fonte de água perene."
+    "comentario": "O Semiárido nordestino é a região mais seca e sujeita a secas do Brasil, abrangendo partes do Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe, Bahia e norte de Minas Gerais. As afirmativas I, II e III descrevem corretamente as características dessa região: predominância da caatinga, pluviometria irregular, altas temperaturas e dependência do rio São Francisco como principal fonte de água perene.",
+    "ajuda": "As afirmativas tratam do Semiárido nordestino. Lembre-se que o sertão nordestino tem longa ocupação histórica (pecuária extensiva desde o século XVII), com regime de chuvas irregular e problemas crônicos de seca."
   },
   {
     "id": 7,
@@ -162,8 +163,8 @@
       "I, II e III."
     ],
     "correta": 4,
-    "ajuda": "O mapa mostra a expansão da cana-de-açúcar em direção ao Pantanal. Analise as afirmativas sobre impactos dessa expansão: pressão sobre recursos hídricos, ameaça à biodiversidade e competição com outras culturas.",
-    "comentario": "A expansão da cana-de-açúcar sobre o Pantanal ameaça um dos maiores wetlands do mundo, cuja biodiversidade depende de um delicado equilíbrio hidrológico. O desmatamento nas cabeceiras dos rios que alimentam o Pantanal aumenta a erosão e o assoreamento, comprometendo as cheias sazonais que fertilizam a planície. As afirmativas I, II e III estão corretas ao identificar os riscos da expansão canavieira para esse ecossistema único."
+    "comentario": "A expansão da cana-de-açúcar sobre o Pantanal ameaça um dos maiores wetlands do mundo, cuja biodiversidade depende de um delicado equilíbrio hidrológico. O desmatamento nas cabeceiras dos rios que alimentam o Pantanal aumenta a erosão e o assoreamento, comprometendo as cheias sazonais que fertilizam a planície. As afirmativas I, II e III estão corretas ao identificar os riscos da expansão canavieira para esse ecossistema único.",
+    "ajuda": "O mapa mostra a expansão da cana-de-açúcar em direção ao Pantanal. Analise as afirmativas sobre impactos dessa expansão: pressão sobre recursos hídricos, ameaça à biodiversidade e competição com outras culturas."
   },
   {
     "id": 8,
@@ -187,8 +188,8 @@
       "a construção de barragens, para que o nível das águas dos rios seja mantido, sobretudo na estiagem, sem prejudicar os ecossistemas."
     ],
     "correta": 3,
-    "ajuda": "O Pantanal é a maior planície alagável do mundo. Sua biodiversidade depende do ciclo hídrico: cheias e secas sazonais. Pense em qual ação protege mais efetivamente esse equilíbrio — controlar o desmatamento nas cabeceiras dos rios que o abastecem.",
-    "comentario": "O Pantanal é a maior planície inundável do mundo e sua dinâmica ecológica depende das cheias e vazantes sazonais dos rios que drenam as bordas da bacia. O desmatamento nas nascentes e encostas aumenta a erosão, assoreando os rios e alterando o regime de inundações que sustenta a fauna e a flora pantaneiras. O controle do desmatamento nas cabeceiras é, portanto, a medida mais eficaz para preservar o ecossistema."
+    "comentario": "O Pantanal é a maior planície inundável do mundo e sua dinâmica ecológica depende das cheias e vazantes sazonais dos rios que drenam as bordas da bacia. O desmatamento nas nascentes e encostas aumenta a erosão, assoreando os rios e alterando o regime de inundações que sustenta a fauna e a flora pantaneiras. O controle do desmatamento nas cabeceiras é, portanto, a medida mais eficaz para preservar o ecossistema.",
+    "ajuda": "O Pantanal é a maior planície alagável do mundo. Sua biodiversidade depende do ciclo hídrico: cheias e secas sazonais. Pense em qual ação protege mais efetivamente esse equilíbrio — controlar o desmatamento nas cabeceiras dos rios que o abastecem."
   },
   {
     "id": 9,
@@ -201,7 +202,8 @@
       "perfil socioeconômico",
       "regiões brasileiras"
     ],
-    "pergunta": "O Brasil, em virtude da sua extensão territorial, apresenta uma grande diversidade regional em termos físico-ambientais, como também sociais, culturais e, principalmente, econômicos.\n\nAtente ao que se diz a respeito da diversidade das regiões do Brasil.\n\nI. Na Região Nordeste, o grande número de cidades litorâneas e seus atrativos particulares contribuem para o desenvolvimento do turismo e para o fortalecimento da economia.\n\nII. A Região Centro-Oeste é a maior região do Brasil, correspondendo a aproximadamente 42% do território nacional, e possui uma população de cerca de 15,8 milhões de habitantes.\n\nIII. Segundo o IBGE, a Região Sudeste concentra aproximadamente 40% da população brasileira. O que a torna a região mais populosa e povoada do País.\n\nEstá correto o que se afirma apenas em",
+    "texto_apoio": "O Brasil, em virtude da sua extensão territorial, apresenta uma grande diversidade regional em termos físico-ambientais, como também sociais, culturais e, principalmente, econômicos.",
+    "pergunta": "Atente ao que se diz a respeito da diversidade das regiões do Brasil.\n\nI. Na Região Nordeste, o grande número de cidades litorâneas e seus atrativos particulares contribuem para o desenvolvimento do turismo e para o fortalecimento da economia.\n\nII. A Região Centro-Oeste é a maior região do Brasil, correspondendo a aproximadamente 42% do território nacional, e possui uma população de cerca de 15,8 milhões de habitantes.\n\nIII. Segundo o IBGE, a Região Sudeste concentra aproximadamente 40% da população brasileira. O que a torna a região mais populosa e povoada do País.\n\nEstá correto o que se afirma apenas em",
     "alternativas": [
       "I e III.",
       "I.",
@@ -209,8 +211,8 @@
       "II."
     ],
     "correta": 0,
-    "ajuda": "As afirmativas tratam das regiões brasileiras em termos físico-ambientais e socioeconômicos. Analise cada proposição com base nos dados reais de cada região: industrialização, agronegócio, desigualdade e distribuição da população.",
-    "comentario": "A extensão continental do Brasil cria uma enorme diversidade físico-ambiental, com seis biomas distintos, múltiplos domínios climáticos e sistemas hidrográficos variados. Essa diversidade é um patrimônio que impõe responsabilidades de gestão e conservação, mas também oportunidades para diferentes modelos de desenvolvimento regional. As afirmativas I e III estão corretas ao destacar aspectos fundamentais dessa diversidade geográfica."
+    "comentario": "A extensão continental do Brasil cria uma enorme diversidade físico-ambiental, com seis biomas distintos, múltiplos domínios climáticos e sistemas hidrográficos variados. Essa diversidade é um patrimônio que impõe responsabilidades de gestão e conservação, mas também oportunidades para diferentes modelos de desenvolvimento regional. As afirmativas I e III estão corretas ao destacar aspectos fundamentais dessa diversidade geográfica.",
+    "ajuda": "As afirmativas tratam das regiões brasileiras em termos físico-ambientais e socioeconômicos. Analise cada proposição com base nos dados reais de cada região: industrialização, agronegócio, desigualdade e distribuição da população."
   },
   {
     "id": 10,
@@ -223,7 +225,8 @@
       "Sudeste",
       "indústria brasileira"
     ],
-    "pergunta": "O processo de desenvolvimento industrial no Brasil produziu uma concentração das indústrias na região Sudeste do país, sobretudo na cidade de São Paulo.\n\nAtualmente, observamos uma tendência à desconcentração industrial e, ainda que as indústrias permaneçam no Sudeste, a intensa transformação proporcionada pelo desenvolvimento científico vem produzindo uma reorganização do espaço industrial. O espaço geográfico brasileiro vem se tornando mais fluido e revela novas localizações para as indústrias. A partir dessas informações, analise as afirmativas abaixo: I. O aumento dos custos dos terrenos e imóveis nas grandes metrópoles tornou esses locais menos atrativos para as indústrias. II. A evolução das tecnologias e infraestrutura de transporte e comunicação aumentou os custos de transferência das indústrias. III. A pressão exercida pela força dos sindicatos que reivindicam melhorias tanto dos salários quanto das condições de trabalho contribuiu para o deslocamento das indústrias. IV. O elevado custo da produção nos centros urbanos exigiu um novo arranjo espacial das indústrias, o que foi facilitado pelos avanços científicos. Está CORRETO o que se afirma apenas em:\n\nO espaço geográfico brasileiro vem se tornando mais fluido e revela novas localizações para as indústrias.\n\nA partir dessas informações, analise as afirmativas abaixo:\n\nI. O aumento dos custos dos terrenos e imóveis nas grandes metrópoles tornou esses locais menos atrativos para as indústrias.\n\nII. A evolução das tecnologias e infraestrutura de transporte e comunicação aumentou os custos de transferência das indústrias.\n\nIII. A pressão exercida pela força dos sindicatos que reivindicam melhorias tanto dos salários quanto das condições de trabalho contribuiu para o deslocamento das indústrias.\n\nIV. O elevado custo da produção nos centros urbanos exigiu um novo arranjo espacial das indústrias, o que foi facilitado pelos avanços científicos.\n\nEstá CORRETO o que se afirma apenas em:",
+    "texto_apoio": "O processo de desenvolvimento industrial no Brasil produziu uma concentração das indústrias na região Sudeste do país, sobretudo na cidade de São Paulo.\n\nAtualmente, observamos uma tendência à desconcentração industrial e, ainda que as indústrias permaneçam no Sudeste, a intensa transformação proporcionada pelo desenvolvimento científico vem produzindo uma reorganização do espaço industrial. O espaço geográfico brasileiro vem se tornando mais fluido e revela novas localizações para as indústrias.",
+    "pergunta": "A partir dessas informações, analise as afirmativas abaixo:\n\nI. O aumento dos custos dos terrenos e imóveis nas grandes metrópoles tornou esses locais menos atrativos para as indústrias.\n\nII. A evolução das tecnologias e infraestrutura de transporte e comunicação aumentou os custos de transferência das indústrias.\n\nIII. A pressão exercida pela força dos sindicatos que reivindicam melhorias tanto dos salários quanto das condições de trabalho contribuiu para o deslocamento das indústrias.\n\nIV. O elevado custo da produção nos centros urbanos exigiu um novo arranjo espacial das indústrias, o que foi facilitado pelos avanços científicos.\n\nEstá CORRETO o que se afirma apenas em:",
     "alternativas": [
       "II, III e IV.",
       "I, II e III.",
@@ -231,7 +234,7 @@
       "I, III e IV."
     ],
     "correta": 3,
-    "ajuda": "As afirmativas tratam da desconcentração industrial e do desenvolvimento regional no Brasil. Pense em por que as indústrias começaram a se deslocar do Sudeste a partir dos anos 1970 e quais regiões foram beneficiadas por esse processo.",
-    "comentario": "A desconcentração industrial no Brasil a partir dos anos 1970 redistribuiu atividades do eixo Rio-São Paulo para o interior paulista, Sul, Centro-Oeste e Nordeste, impulsionada por incentivos fiscais, infraestrutura e custos menores. As afirmativas I, III e IV descrevem corretamente esse processo: migração de plantas industriais, papel dos incentivos governamentais e consolidação de novas regiões produtivas. O Sudeste mantém a liderança, mas o mapa industrial brasileiro tornou-se mais distribuído."
+    "comentario": "A desconcentração industrial no Brasil a partir dos anos 1970 redistribuiu atividades do eixo Rio-São Paulo para o interior paulista, Sul, Centro-Oeste e Nordeste, impulsionada por incentivos fiscais, infraestrutura e custos menores. As afirmativas I, III e IV descrevem corretamente esse processo: migração de plantas industriais, papel dos incentivos governamentais e consolidação de novas regiões produtivas. O Sudeste mantém a liderança, mas o mapa industrial brasileiro tornou-se mais distribuído.",
+    "ajuda": "As afirmativas tratam da desconcentração industrial e do desenvolvimento regional no Brasil. Pense em por que as indústrias começaram a se deslocar do Sudeste a partir dos anos 1970 e quais regiões foram beneficiadas por esse processo."
   }
 ]

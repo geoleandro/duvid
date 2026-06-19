@@ -82,7 +82,8 @@
       "economia",
       "IDH"
     ],
-    "pergunta": "O Canadá é um dos países mais desenvolvidos do mundo atual, com uma economia dinâmica, alto nível cultural e grande desenvolvimento tecnológico. Porém, enfrenta alguns problemas internos, ligados ao baixo contingente populacional e à dificuldade de ocupação de um espaço natural anecúmeno. Uma das opções abaixo NÃO está de acordo com a distribuição da população canadense. Assinale-a:",
+    "texto_apoio": "O Canadá é um dos países mais desenvolvidos do mundo atual, com uma economia dinâmica, alto nível cultural e grande desenvolvimento tecnológico. Porém, enfrenta alguns problemas internos, ligados ao baixo contingente populacional e à dificuldade de ocupação de um espaço natural anecúmeno.",
+    "pergunta": "Uma das opções abaixo NÃO está de acordo com a distribuição da população canadense. Assinale-a:",
     "alternativas": [
       "A grande aglomeração populacional, na região sudeste, é explicada pelo poder econômico formado pelas Províncias de Quebec e Ontário, as mais industrializadas.",
       "Por ser uma nova área industrial, as Províncias Atlânticas apresentam uma recente concentração populacional.",
@@ -106,6 +107,7 @@
       "fronteira"
     ],
     "texto_apoio": "Dois professores universitários americanos instalaram gangorras que atravessam a cerca de ferro que separa os Estados Unidos do México. O brinquedo fica em um trecho da fronteira entre El Paso (EUA) e Ciudad Juaréz (México) e é uma forma de unir, de maneira “lúdica”, os dois países. “O que é feito de um lado tem impacto no outro. E isso é o que a gangorra faz. Exatamente isso”, disse o arquiteto Ronald Real, um dos idealizadores do brinquedo.",
+    "imagem_apoio": "3ano/img/321/t21q5.png",
     "fonte_apoio": "Adaptado de g1.globo.com, 30/07/2019.",
     "pergunta": "Os aspectos das relações binacionais enfatizados pelos idealizadores do brinquedo são:",
     "alternativas": [
@@ -128,9 +130,10 @@
       "integração regional",
       "objetivos econômicos"
     ],
+    "texto_apoio": "Os blocos econômicos são agrupamentos de países de uma mesma região ou mesmo continente, com o objetivo de estabelecer relações comerciais entre si, visando a melhoria do mercado e das relações diplomáticas. Contudo, só no ano de 2018 temos assistido a mudanças na configuração de alguns blocos, como a saída do Reino Unido da União Europeia, as promessas do presidente Donald Trump de retirar os Estados Unidos do Nafta, assim como as discussões que poderão levar a exclusão da Venezuela do Mercosul.",
     "fonte_apoio": "Fonte: https://commons.wikimedia.org/wiki/File:Map_of_NAFTA.jpg. Acesso em: 12/11/2018.",
     "imagem_apoio": "3ano/img/321/t21q6.png",
-    "pergunta": "Os blocos econômicos são agrupamentos de países de uma mesma região ou mesmo continente, com o objetivo de estabelecer relações comerciais entre si, visando a melhoria do mercado e das relações diplomáticas. Contudo, só no ano de 2018 temos assistido a mudanças na configuração de alguns blocos, como a saída do Reino Unido da União Europeia, as promessas do presidente Donald Trump de retirar os Estados Unidos do Nafta, assim como as discussões que poderão levar a exclusão da Venezuela do Mercosul. Com base neste enunciado é CORRETO afirmar:",
+    "pergunta": "Com base neste enunciado é CORRETO afirmar:",
     "alternativas": [
       "Está sendo concretizado um novo momento político e econômico global que levará ao fim dos blocos econômicos.",
       "A existência dos blocos econômicos assegura a manutenção da bipolaridade mundial.",
@@ -222,7 +225,8 @@
       "formação territorial",
       "colonização"
     ],
-    "pergunta": "UFPE 2008) O Canadá teve forjadas a Geografia e a História, basicamente, ao longo dos 570 km do vale do rio São Lourenço, onde se situam algumas das mais importantes cidades daquele país, como Quebec, Ottawa, Toronto e Montreal. Com relação a este país da América do Norte, é correto afirmar que seu principal problema geopolítico:",
+    "texto_apoio": "O Canadá teve forjadas a Geografia e a História, basicamente, ao longo dos 570 km do vale do rio São Lourenço, onde se situam algumas das mais importantes cidades daquele país, como Quebec, Ottawa, Toronto e Montreal.",
+    "pergunta": "Com relação a este país da América do Norte, é correto afirmar que seu principal problema geopolítico:",
     "alternativas": [
       "são os conflitos étnicos verificados na parte meridional do país.",
       "são os conflitos de migrantes canadenses com autoridades de fronteira dos Estados Unidos, ao sul.",

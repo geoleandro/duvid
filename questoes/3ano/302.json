@@ -10,8 +10,9 @@
       "crescimento econômico",
       "demografia"
     ],
+    "texto_apoio": "O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutura populacional fica favorável ao crescimento econômico. Isso acontece porque há proporcionalmente menos crianças na população, e o percentual de idosos ainda não é alto.",
     "fonte_apoio": "GOIS, A. O Globo, 5 abr. 2015 (adaptado).",
-    "pergunta": "O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutura populacional fica favorável ao crescimento econômico. Isso acontece porque há proporcionalmente menos crianças na população, e o percentual de idosos ainda não é alto.\n\nA ação estatal que contribui para o aproveitamento do bônus demográfico é o estímulo à:",
+    "pergunta": "A ação estatal que contribui para o aproveitamento do bônus demográfico é o estímulo à:",
     "alternativas": [
       "atração de imigrantes.",
       "elevação da carga tributária.",
@@ -175,8 +176,8 @@
       "natalidade",
       "projeção demográfica"
     ],
-    "imagem_apoio": "3ano/img/302/t2q8.png",
     "texto_apoio": "O número de mortos é maior do que o número de nascimentos a partir da coluna do ano de 2025 em diante. Isso sugere um envelhecimento da população e uma diminuição da taxa de natalidade em relação à taxa de mortalidade. Nesse caso, a pirâmide etária que melhor representaria essa situação seria uma pirâmide de base estreita com corpo e topo mais largo, indicando uma população com uma proporção maior de pessoas mais velhas em relação aos jovens. Essa forma é típica de uma pirâmide etária de envelhecimento, na qual a população idosa é maior em comparação com a população jovem. Tente resolver sem ver a resposta",
+    "imagem_apoio": "3ano/img/302/t2q8.png",
     "pergunta": "O gráfico a seguir apresenta o registro histórico e a projeção do total de mortes e nascimentos em certa região do mundo em dado período:\n\nA partir disso, assinale a pirâmide etária que melhor representa as informações projetadas para o ano de 2050:",
     "alternativas": [
       "Letra A",
@@ -200,7 +201,8 @@
       "crescimento populacional",
       "desenvolvimento"
     ],
-    "pergunta": "Ao longo da evolução da humanidade, várias teorias são criadas para explicar fenômenos naturais, e não têm sido diferente quando se estuda a dinâmica sociodemográfica, pois várias teorias têm procurado explicar a relação existente entre crescimento populacional e desenvolvimento econômico.\n\nIdentifique abaixo a assertiva que se enquadra a Teoria Reformista:",
+    "texto_apoio": "Ao longo da evolução da humanidade, várias teorias são criadas para explicar fenômenos naturais, e não têm sido diferente quando se estuda a dinâmica sociodemográfica, pois várias teorias têm procurado explicar a relação existente entre crescimento populacional e desenvolvimento econômico.",
+    "pergunta": "Identifique abaixo a assertiva que se enquadra a Teoria Reformista:",
     "alternativas": [
       "O controle da natalidade deve ser efetivada pelo Estado, no sentido de impedir o rápido crescimento demográfico e o surgimento de áreas superpovoadas com altos índices de pobreza, como os que ocorrem no nordeste brasileiro;",
       "A existência de Países Subdesenvolvidos é resultado do acelerado crescimento demográfico;",

@@ -56,8 +56,9 @@
       "EUA",
       "belt system"
     ],
+    "texto_apoio": "A agricultura norte-americana é organizada de acordo com o modelo empresarial, o que torna o espaço agropecuário do país fortemente vinculado à lógica econômica.",
     "imagem_apoio": "3ano/img/313/t13q3.png",
-    "pergunta": "Espaço agropecuário norte-americano no início do século XXI\n\nA agricultura norte-americana é organizada de acordo com o modelo empresarial, o que torna o espaço agropecuário do país fortemente vinculado à lógica econômica.\n\nO principal fator locacional que explica a posição do Dairy Belt é a presença de:",
+    "pergunta": "O principal fator locacional que explica a posição do Dairy Belt é a presença de:",
     "alternativas": [
       "sistema universitário desenvolvido.",
       "mercado consumidor urbano expressivo.",
@@ -79,7 +80,8 @@
       "matéria-prima agrícola",
       "industrialização"
     ],
-    "pergunta": "A partir do final do século XIX, o consumo de alimentos pela população e de matérias-primas agrícolas, pelo setor industrial, atingiu patamares sem precedentes na história das sociedades. Nesse contexto estabeleceu-se a chamada agropecuária comercial moderna. Em relação à agropecuária comercial moderna, todas as afirmações constantes das alternativas a seguir estão corretas, EXCETO:",
+    "texto_apoio": "A partir do final do século XIX, o consumo de alimentos pela população e de matérias-primas agrícolas, pelo setor industrial, atingiu patamares sem precedentes na história das sociedades. Nesse contexto estabeleceu-se a chamada agropecuária comercial moderna.",
+    "pergunta": "Em relação à agropecuária comercial moderna, todas as afirmações constantes das alternativas a seguir estão corretas, EXCETO:",
     "alternativas": [
       "Nesse sistema agrícola, grande parte das propriedades rurais é administrada como uma empresa.",
       "O nível de tecnicismo aplicado na agropecuária comercial moderna dispensa a mão de obra especializada.",
@@ -148,7 +150,7 @@
     ],
     "fonte_apoio": "*Soja, Trigo, Milho, Arroz e Algodão **Previsão Obs.: Há ainda 13 milhões de hectares utilizados por plantações das chamadas culturas permanentes, como hortifrutigranjeiros. (Fontes: Censo Agropecuário, Instituto Brasileiro de Geografia e Estatística (IBGE) e Ministério da Agricultura)",
     "imagem_apoio": "3ano/img/313/t13q7.png",
-    "pergunta": "",
+    "pergunta": "Considerando os conhecimentos sobre o espaço agrário brasileiro e os dados apresentados no gráfico, é correto afirmar que, no período indicado,",
     "alternativas": [
       "ocorreu um aumento da produtividade agrícola devido à significativa mecanização de algumas lavouras, como a da soja.",
       "verificou-se um incremento na produção de grãos proporcionalmente à incorporação de novas terras produtivas.",
@@ -170,7 +172,8 @@
       "condições físicas",
       "diversidade agrária"
     ],
-    "pergunta": "A produção agrícola é diversificada mundialmente devido às distintas condições físicas, econômicas, tecnológicas e culturais das regiões geográficas.\n\nA seguir, no primeiro bloco, são citados quatro sistemas agrícolas. No segundo bloco, são apresentadas as caracterizações de três deles.\n\nAssocie adequadamente as caracterizações aos respectivos sistemas.\n\n1. Agricultura de jardinagem\n\n2. Agricultura de \"plantation\"\n\n3. Agricultura moderna\n\n4. Agricultura ecológica\n\n( ) Predomínio de pequenas ou médias propriedades especializadas na rizicultura, que adotam técnicas milenares de cultivo e utilizam mão de obra familiar.\n\n( ) Produção obtida em médias e grandes propriedades altamente capitalizadas, que apresentam alta produtividade em decorrência, entre outros fatores, da seleção de sementes e da mecanização intensiva.\n\n( ) Produção obtida em pequenas e médias propriedades com mão de obra familiar, com uso de técnicas de controle biológico e informacional, fertilizantes orgânicos e rotação de culturas.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
+    "texto_apoio": "A produção agrícola é diversificada mundialmente devido às distintas condições físicas, econômicas, tecnológicas e culturais das regiões geográficas.",
+    "pergunta": "A seguir, no primeiro bloco, são citados quatro sistemas agrícolas. No segundo bloco, são apresentadas as caracterizações de três deles.\n\nAssocie adequadamente as caracterizações aos respectivos sistemas.\n\n1. Agricultura de jardinagem\n\n2. Agricultura de \"plantation\"\n\n3. Agricultura moderna\n\n4. Agricultura ecológica\n\n( ) Predomínio de pequenas ou médias propriedades especializadas na rizicultura, que adotam técnicas milenares de cultivo e utilizam mão de obra familiar.\n\n( ) Produção obtida em médias e grandes propriedades altamente capitalizadas, que apresentam alta produtividade em decorrência, entre outros fatores, da seleção de sementes e da mecanização intensiva.\n\n( ) Produção obtida em pequenas e médias propriedades com mão de obra familiar, com uso de técnicas de controle biológico e informacional, fertilizantes orgânicos e rotação de culturas.\n\nA sequência correta de preenchimento dos parênteses, de cima para baixo, é:",
     "alternativas": [
       "4 - 1 - 2.",
       "2 - 4 - 1.",
@@ -193,7 +196,8 @@
       "biotecnologia",
       "herbicida"
     ],
-    "pergunta": "A Embrapa possui uma linhagem de soja transgênica resistente ao herbicida IMAZAPIR. A planta está passando por testes de segurança nutricional e ambiental, processo que exige cerca de três anos. Uma linhagem de soja transgênica requer a produção inicial de 200 plantas resistentes ao herbicida e destas são selecionadas as dez mais \"estáveis\", com maior capacidade de gerar descendentes também resistentes. Esses descendentes são submetidos a doses de herbicida três vezes superiores às aplicadas nas lavouras convencionais.\n\nEm seguida, as cinco melhores são separadas e apenas uma delas é levada a testes de segurança. Os riscos ambientais da soja transgênica são pequenos, já que ela não tem possibilidade de cruzamento com outras plantas e o perigo de polinização cruzada com outro tipo de soja é de apenas 1%.\n\nA soja transgênica, segundo o texto, apresenta baixo risco ambiental porque:",
+    "texto_apoio": "A Embrapa possui uma linhagem de soja transgênica resistente ao herbicida IMAZAPIR. A planta está passando por testes de segurança nutricional e ambiental, processo que exige cerca de três anos. Uma linhagem de soja transgênica requer a produção inicial de 200 plantas resistentes ao herbicida e destas são selecionadas as dez mais \"estáveis\", com maior capacidade de gerar descendentes também resistentes. Esses descendentes são submetidos a doses de herbicida três vezes superiores às aplicadas nas lavouras convencionais.\n\nEm seguida, as cinco melhores são separadas e apenas uma delas é levada a testes de segurança. Os riscos ambientais da soja transgênica são pequenos, já que ela não tem possibilidade de cruzamento com outras plantas e o perigo de polinização cruzada com outro tipo de soja é de apenas 1%.",
+    "pergunta": "A soja transgênica, segundo o texto, apresenta baixo risco ambiental porque:",
     "alternativas": [
       "a resistência ao herbicida não é estável e assim não passa para as plantas-filhas.",
       "as doses de herbicida aplicadas nas plantas são 3 vezes superiores às usuais.",

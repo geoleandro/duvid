@@ -11,19 +11,27 @@ $_isLocal = in_array($_SERVER['SERVER_NAME'] ?? 'localhost', ['localhost', '127.
 define('IS_LOCAL', $_isLocal);
 
 if ($_isLocal) {
-    // Banco local (XAMPP — testes)
+    // Banco local (XAMPP — sem senha, seguro)
     define('DB_HOST', 'localhost');
     define('DB_NAME', 'duvid');
     define('DB_USER', 'root');
     define('DB_PASS', '');
     define('DB_PORT', '3306');
 } else {
-    // Banco online (produção — duvid.com.br)
-    define('DB_HOST', 'mysql.duvid.com.br');
-    define('DB_NAME', 'duvid');
-    define('DB_USER', 'duvid');
-    define('DB_PASS', 'Sucesso26');
-    define('DB_PORT', '3306');
+    // Banco de produção — lê credenciais do arquivo .env (fora do código-fonte)
+    $_envPath = __DIR__ . '/../config/.env';
+    $_env = @parse_ini_file($_envPath);
+    if (!$_env || empty($_env['DB_PASS'])) {
+        error_log('[Duvid] Arquivo config/.env nao encontrado ou incompleto: ' . $_envPath);
+        http_response_code(500);
+        die(json_encode(['erro' => 'Configuracao do servidor indisponivel.']));
+    }
+    define('DB_HOST', $_env['DB_HOST'] ?? 'localhost');
+    define('DB_NAME', $_env['DB_NAME'] ?? 'duvid');
+    define('DB_USER', $_env['DB_USER'] ?? 'duvid');
+    define('DB_PASS', $_env['DB_PASS']);
+    define('DB_PORT', $_env['DB_PORT'] ?? '3306');
+    unset($_env, $_envPath); // limpa da memória após uso
 }
 define('DB_CHARSET', 'utf8mb4');
 
@@ -62,9 +70,35 @@ function getDB(): PDO {
 }
 
 // Helper: resposta JSON padronizada para as APIs
-function jsonResponse(array $dados, int $status = 200): never {
+function jsonResponse(array $dados, int $status = 200): void {
     http_response_code($status);
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($dados, JSON_UNESCAPED_UNICODE);
     exit;
+}
+
+// Helper: inicia sessão segura e retorna aluno_id autenticado.
+// Chame no topo de qualquer endpoint que exija login de aluno.
+// Em caso de sessão inválida, encerra com HTTP 401.
+function requireAuth(): int {
+    ini_set('session.cookie_httponly', 1);
+    ini_set('session.cookie_samesite', 'Strict');
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
+    $id = (int)($_SESSION['aluno_id'] ?? 0);
+    if (!$id) {
+        jsonResponse(['erro' => 'Nao autenticado.', 'login_required' => true], 401);
+    }
+    return $id;
+}
+
+// Helper: inicia sessão segura sem exigir autenticação.
+// Use em aluno.php para iniciar/gravar a sessão no login/cadastro.
+function startSecureSession(): void {
+    ini_set('session.cookie_httponly', 1);
+    ini_set('session.cookie_samesite', 'Strict');
+    if (session_status() === PHP_SESSION_NONE) {
+        session_start();
+    }
 }

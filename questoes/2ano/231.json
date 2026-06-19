@@ -10,7 +10,8 @@
       "migração campo-cidade",
       "crescimento urbano"
     ],
-    "pergunta": "É o processo através do qual ocorre a transferência da população do campo para as cidades, tornando-as mais populosas que as áreas rurais. É associado, de forma geral, ao processo de industrialização e, no Brasil, ao longo do século XX, ocorreu de forma rápida e, na maioria das vezes, sem planejamento, o que tem provocado diversos problemas relacionados à falta de infraestrutura. Qual processo foi descrito?",
+    "texto_apoio": "É o processo através do qual ocorre a transferência da população do campo para as cidades, tornando-as mais populosas que as áreas rurais. É associado, de forma geral, ao processo de industrialização e, no Brasil, ao longo do século XX, ocorreu de forma rápida e, na maioria das vezes, sem planejamento, o que tem provocado diversos problemas relacionados à falta de infraestrutura.",
+    "pergunta": "Qual processo foi descrito?",
     "alternativas": [
       "Êxodo urbano.",
       "Urbanização.",
@@ -19,8 +20,8 @@
       "Periferização."
     ],
     "correta": 1,
-    "ajuda": "O enunciado descreve a transferência da população do campo para as cidades. Pense nos conceitos de urbanização, êxodo rural, conurbação e desmetropolização. Qual deles descreve especificamente esse processo de crescimento das cidades?",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p> -->",
+    "ajuda": "O enunciado descreve a transferência da população do campo para as cidades. Pense nos conceitos de urbanização, êxodo rural, conurbação e desmetropolização. Qual deles descreve especificamente esse processo de crescimento das cidades?"
   },
   {
     "id": 2,
@@ -42,8 +43,8 @@
       "A urbanização brasileira representa a passagem do Brasil para o estágio de país desenvolvido e moderno. Isso, porque o aumento da população nas cidades foi acompanhado pelo planejamento urbano, evitando assim problemas socioeconômicos."
     ],
     "correta": 4,
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a urbanização brasileira. Lembre-se: a urbanização não transformou o Brasil em país desenvolvido, e o processo foi marcado por segregação e desigualdade, não por desenvolvimento pleno.",
-    "comentario": "<!-- \r\n\t\t\t\t<p> <strong>Comentário:</strong></p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p> -->"
+    "comentario": "<!-- \r\n\t\t\t\t<p> <strong>Comentário:</strong></p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p> -->",
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a urbanização brasileira. Lembre-se: a urbanização não transformou o Brasil em país desenvolvido, e o processo foi marcado por segregação e desigualdade, não por desenvolvimento pleno."
   },
   {
     "id": 3,
@@ -66,8 +67,8 @@
       "concentrada, reflexo da ocupação em pequenos centros urbanos."
     ],
     "correta": 3,
-    "ajuda": "O mapa revela a distribuição das cidades no território brasileiro. Pense na rede urbana nacional: ela é uniforme ou concentrada? As diferentes densidades de cidades refletem as desigualdades históricas e econômicas regionais.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "O mapa revela a distribuição das cidades no território brasileiro. Pense na rede urbana nacional: ela é uniforme ou concentrada? As diferentes densidades de cidades refletem as desigualdades históricas e econômicas regionais."
   },
   {
     "id": 4,
@@ -79,9 +80,9 @@
       "metropolização",
       "problemas urbanos"
     ],
-    "texto_apoio": "Para quem é real a rede urbana? “Na grande cidade, há cidadãos de diversas ordens ou classes, desde o que, farto de recursos, pode utilizar a metrópole toda, até o que, por falta de meios, somente a utiliza parcialmente, como se fosse uma pequena cidade, uma cidade local. A rede urbana, o sistema de cidades, também tem significados diversos segundo a posição financeira do indivíduo. Há, num extremo, os que podem utilizar todos os recursos aí presentes (...). Na outra extremidade, há os que nem podem levar ao mercado o que produzem, que desconhecem o destino que vai ter o resultado do seu próprio trabalho, os que, pobres de recursos, são prisioneiros do lugar, isto é, dos preços e das carências locais”.)",
+    "texto_apoio": "Para quem é real a rede urbana? <br><br>“Na grande cidade, há cidadãos de diversas ordens ou classes, desde o que, farto de recursos, pode utilizar a metrópole toda, até o que, por falta de meios, somente a utiliza parcialmente, como se fosse uma pequena cidade, uma cidade local. A rede urbana, o sistema de cidades, também tem significados diversos segundo a posição financeira do indivíduo. Há, num extremo, os que podem utilizar todos os recursos aí presentes (...). Na outra extremidade, há os que nem podem levar ao mercado o que produzem, que desconhecem o destino que vai ter o resultado do seu próprio trabalho, os que, pobres de recursos, são prisioneiros do lugar, isto é, dos preços e das carências locais”.)",
     "fonte_apoio": "SANTOS, Milton. O espaço do cidadão. São Paulo: Nobel, 1987. p.112.",
-    "pergunta": "",
+    "pergunta": "A situação descrita sobre a realidade dos cidadãos, em relação à grande cidade e à rede urbana, se refere diretamente ao processo de",
     "alternativas": [
       "alienação sociopolítica dos consumidores.",
       "segregação socioespacial dos habitantes.",
@@ -90,8 +91,8 @@
       "verticalização de bairros suburbanos."
     ],
     "correta": 1,
-    "ajuda": "A questão provavelmente mostra uma imagem de área urbana com condomínios fechados e favelas próximas. Pense em qual processo geográfico descreve essa separação espacial entre ricos e pobres dentro da mesma cidade.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "A questão provavelmente mostra uma imagem de área urbana com condomínios fechados e favelas próximas. Pense em qual processo geográfico descreve essa separação espacial entre ricos e pobres dentro da mesma cidade."
   },
   {
     "id": 5,
@@ -114,8 +115,8 @@
       "A correlação entre domicílios vagos e déficit habitacional explica-se, em grande medida, pela especulação imobiliária, que mantém imóveis fechados."
     ],
     "correta": 3,
-    "ajuda": "O gráfico mostra domicílios vagos e déficit habitacional coexistindo. Pense por que existem tantos imóveis vazios enquanto há falta de moradia: o mercado imobiliário e a especulação determinam quem tem acesso à habitação.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A alternativa D está correta: o problema de acesso à moradia para uma ampla parcela da população\r\n\t\t\t\t\tbrasileira deve-se à grande quantidade de imóveis vagos no país, muitos deles ociosos pela atitude\r\n\t\t\t\t\tespeculativa de donos, que preferem deixá-los fechados a alugá-los por preços mais baixos. Esse fato\r\n\t\t\t\t\tafeta a população mais pobre, que não tem renda suficiente para acesso a moradia através do aluguel\r\n\t\t\t\t\tou da compra.</p>\n<p> A alternativa A está errada porque as políticas habitacionais estatais não conseguem atender\r\n\t\t\t\t\tplenamente a população com necessidade de moradia, prolongando o problema do déficit habitacional\r\n\t\t\t\t\tbrasileiro.</p>\n<p>A alternativa B está incorreta porque o gráfico indica que nem todas as áreas urbanas do país têm\r\n\t\t\t\t\tmais imóveis vagos do que déficit; isso não ocorre, por exemplo, no Estado de São Paulo e na Região\r\n\t\t\t\t\tMetropolitana de São Paulo.</p>\n<p> A alternativa C está incorreta porque o déficit habitacional brasileiro atinge sobretudo as\r\n\t\t\t\t\tpopulações de baixa renda, diferentemente do que aponta a alternativa ao afirmar que todas as\r\n\t\t\t\t\tclasses sociais são atingidas da mesma maneira pela falta de acesso a moradia.</p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A alternativa D está correta: o problema de acesso à moradia para uma ampla parcela da população\r\n\t\t\t\t\tbrasileira deve-se à grande quantidade de imóveis vagos no país, muitos deles ociosos pela atitude\r\n\t\t\t\t\tespeculativa de donos, que preferem deixá-los fechados a alugá-los por preços mais baixos. Esse fato\r\n\t\t\t\t\tafeta a população mais pobre, que não tem renda suficiente para acesso a moradia através do aluguel\r\n\t\t\t\t\tou da compra.</p>\n<p> A alternativa A está errada porque as políticas habitacionais estatais não conseguem atender\r\n\t\t\t\t\tplenamente a população com necessidade de moradia, prolongando o problema do déficit habitacional\r\n\t\t\t\t\tbrasileiro.</p>\n<p>A alternativa B está incorreta porque o gráfico indica que nem todas as áreas urbanas do país têm\r\n\t\t\t\t\tmais imóveis vagos do que déficit; isso não ocorre, por exemplo, no Estado de São Paulo e na Região\r\n\t\t\t\t\tMetropolitana de São Paulo.</p>\n<p> A alternativa C está incorreta porque o déficit habitacional brasileiro atinge sobretudo as\r\n\t\t\t\t\tpopulações de baixa renda, diferentemente do que aponta a alternativa ao afirmar que todas as\r\n\t\t\t\t\tclasses sociais são atingidas da mesma maneira pela falta de acesso a moradia.</p>",
+    "ajuda": "O gráfico mostra domicílios vagos e déficit habitacional coexistindo. Pense por que existem tantos imóveis vazios enquanto há falta de moradia: o mercado imobiliário e a especulação determinam quem tem acesso à habitação."
   },
   {
     "id": 6,
@@ -139,8 +140,8 @@
       "alteração da organização da paisagem geográfica."
     ],
     "correta": 4,
-    "ajuda": "O texto descreve mudanças na paisagem e na convivência social das grandes cidades. Pense em como a verticalização, os condomínios fechados e os shopping centers transformam o espaço público e as relações sociais urbanas.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> O espaço urbano é uma paisagem geográfica dinâmica, porque reflete as contínuas transformações da\r\n\t\t\t\t\tsociedade. Por exemplo, um dos processos que altera as feições das paisagens urbanas é a\r\n\t\t\t\t\tgentrificação, que, através do avanço da especulação imobiliária, resulta na intensificação de\r\n\t\t\t\t\tespaços fechados e verticalizados, o que reduz o convívio social.</p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> O espaço urbano é uma paisagem geográfica dinâmica, porque reflete as contínuas transformações da\r\n\t\t\t\t\tsociedade. Por exemplo, um dos processos que altera as feições das paisagens urbanas é a\r\n\t\t\t\t\tgentrificação, que, através do avanço da especulação imobiliária, resulta na intensificação de\r\n\t\t\t\t\tespaços fechados e verticalizados, o que reduz o convívio social.</p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "O texto descreve mudanças na paisagem e na convivência social das grandes cidades. Pense em como a verticalização, os condomínios fechados e os shopping centers transformam o espaço público e as relações sociais urbanas."
   },
   {
     "id": 7,
@@ -153,8 +154,9 @@
       "função social da cidade",
       "legislação"
     ],
+    "texto_apoio": "No aniversário de 20 anos do Estatuto da Cidade, é fundamental refletir sobre o seu legado nas cidades brasileiras. Seu grande avanço consiste em definir instrumentos claros para um planejamento urbano com propósito social e calcado na gestão democrática da cidade, viabilizando, na prática, o reconhecimento da função social da propriedade.",
     "fonte_apoio": "(https://diplomatique.org.br, 06.07.2021. Adaptado.)",
-    "pergunta": "No aniversário de 20 anos do Estatuto da Cidade, é fundamental refletir sobre o seu legado nas cidades brasileiras. Seu grande avanço consiste em definir instrumentos claros para um planejamento urbano com propósito social e calcado na gestão democrática da cidade, viabilizando, na prática, o reconhecimento da função social da propriedade.\n\nConsiste um exemplo de descumprimento da função social da propriedade nas cidades",
+    "pergunta": "Consiste um exemplo de descumprimento da função social da propriedade nas cidades",
     "alternativas": [
       "a concentração de linhas de transporte público nas periferias, em detrimento do grande número de trabalhadores que moram nas áreas centrais.",
       "a presença de imóveis ociosos em áreas com boa infraestrutura coexistindo com a realidade precária das periferias.",
@@ -163,8 +165,8 @@
       "a centralização dos empregos em áreas com boa infraestrutura, em detrimento da população desempregada que reside nas periferias."
     ],
     "correta": 1,
-    "ajuda": "O Estatuto da Cidade define a função social da propriedade. Pense na contradição entre imóveis ociosos em áreas bem servidas e a falta de moradia nas periferias. Qual situação melhor ilustra a não aplicação desse princípio?",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A especulação imobiliária é a causa da manutenção de um grande número de imóveis desocupados, em\r\n\t\t\t\t\táreas bem servidas pela infraestrutura urbana.</p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A especulação imobiliária é a causa da manutenção de um grande número de imóveis desocupados, em\r\n\t\t\t\t\táreas bem servidas pela infraestrutura urbana.</p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "O Estatuto da Cidade define a função social da propriedade. Pense na contradição entre imóveis ociosos em áreas bem servidas e a falta de moradia nas periferias. Qual situação melhor ilustra a não aplicação desse princípio?"
   },
   {
     "id": 8,
@@ -177,8 +179,9 @@
       "urbanização",
       "impacto ambiental"
     ],
+    "texto_apoio": "A ampliação das áreas urbanizadas, devido à construção de áreas impermeabilizadas, repercute na capacidade de infiltração das águas no solo, favorecendo o escoamento superficial, a concentração das enxurradas e a ocorrência de ondas de cheia. A urbanização afeta o funcionamento do ciclo hidrológico, pois interfere no rearranjo dos armazenamentos e na trajetória das águas.",
     "fonte_apoio": "CHRISTOFOLETTI, A. Aplicabilidade do conhecimento geomorfológico nos projetos de planejamento. In: GUERRA, A. J. T.; CUNHA, S. B. (Org.). Geomorfologia: uma atualização de bases e conceitos. Rio de Janeiro: Bertrand Brasil, 2008.",
-    "pergunta": "A ampliação das áreas urbanizadas, devido à construção de áreas impermeabilizadas, repercute na capacidade de infiltração das águas no solo, favorecendo o escoamento superficial, a concentração das enxurradas e a ocorrência de ondas de cheia. A urbanização afeta o funcionamento do ciclo hidrológico, pois interfere no rearranjo dos armazenamentos e na trajetória das águas.\n\nConsiderando esse contexto, que fator contribui para a diminuição das enchentes em áreas urbanas?",
+    "pergunta": "Considerando esse contexto, que fator contribui para a diminuição das enchentes em áreas urbanas?",
     "alternativas": [
       "Pavimentação das vias.",
       "Criação de espaços verdes.",
@@ -187,8 +190,8 @@
       "Assoreamento dos canais de drenagem."
     ],
     "correta": 1,
-    "ajuda": "A impermeabilização urbana aumenta o escoamento superficial e reduz a infiltração. Para resolver enchentes, não basta construir galerias — é preciso aumentar a permeabilidade do solo. Qual solução construtiva vai nessa direção?",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "A impermeabilização urbana aumenta o escoamento superficial e reduz a infiltração. Para resolver enchentes, não basta construir galerias — é preciso aumentar a permeabilidade do solo. Qual solução construtiva vai nessa direção?"
   },
   {
     "id": 9,
@@ -210,8 +213,8 @@
       "a formação de ilhas de calor."
     ],
     "correta": 4,
-    "ajuda": "A poluição do ar nas cidades tem relação com a concentração de atividades industriais e de veículos. Pense nas consequências diretas para o microclima urbano: o calor gerado pelas atividades humanas cria um fenômeno térmico específico.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "A poluição do ar nas cidades tem relação com a concentração de atividades industriais e de veículos. Pense nas consequências diretas para o microclima urbano: o calor gerado pelas atividades humanas cria um fenômeno térmico específico."
   },
   {
     "id": 10,
@@ -235,7 +238,7 @@
       "I, II e III."
     ],
     "correta": 4,
-    "ajuda": "As afirmativas tratam dos problemas da periferia metropolitana de São Paulo. Pense em mobilidade urbana, distância do centro de empregos, falta de infraestrutura e os desafios diários dos moradores dessas áreas.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "As afirmativas tratam dos problemas da periferia metropolitana de São Paulo. Pense em mobilidade urbana, distância do centro de empregos, falta de infraestrutura e os desafios diários dos moradores dessas áreas."
   }
 ]

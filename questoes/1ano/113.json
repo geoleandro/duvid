@@ -56,7 +56,8 @@
       "tipos de rocha",
       "minerais"
     ],
-    "pergunta": "A rocha é um agregado natural formado por um ou mais minerais. De acordo com sua origem, as rochas podem ser classificadas de diferentes maneiras.\n\nLeia as informações sobre os diferentes tipos de rochas, classificadas quanto à origem.\n\nI. São formadas pelo resfriamento e pela solidificação do magma pastoso. Uma grande parte dessas rochas é bastante antiga e resistente. Predominam entre ela o granito e o diabásio. Constituem o embasamento rochoso dos continentes.\n\nII. São formadas a partir das transformações sofridas por outras rochas. Essas mudanças ocorrem, quando as rochas são submetidas ao calor e à pressão do interior da Terra. A rocha transformada adquire novas características e tem sua composição alterada.\n\nIII. São rochas de origem química, em que os sedimentos se acumulam e se consolidam em camadas ou estratos. Decorrem dos processos que desgastam e sedimentam a superfície terrestre.\n\nÉ correto afirmar que os tipos de rochas referidos são, respectivamente,",
+    "texto_apoio": "A rocha é um agregado natural formado por um ou mais minerais. De acordo com sua origem, as rochas podem ser classificadas de diferentes maneiras.",
+    "pergunta": "Leia as informações sobre os diferentes tipos de rochas, classificadas quanto à origem.\n\nI. São formadas pelo resfriamento e pela solidificação do magma pastoso. Uma grande parte dessas rochas é bastante antiga e resistente. Predominam entre ela o granito e o diabásio. Constituem o embasamento rochoso dos continentes.\n\nII. São formadas a partir das transformações sofridas por outras rochas. Essas mudanças ocorrem, quando as rochas são submetidas ao calor e à pressão do interior da Terra. A rocha transformada adquire novas características e tem sua composição alterada.\n\nIII. São rochas de origem química, em que os sedimentos se acumulam e se consolidam em camadas ou estratos. Decorrem dos processos que desgastam e sedimentam a superfície terrestre.\n\nÉ correto afirmar que os tipos de rochas referidos são, respectivamente,",
     "alternativas": [
       "estalactite, estalagmite e minerais.",
       "minerais, sedimentares e estalactite.",
@@ -78,9 +79,10 @@
       "ciclo das rochas",
       "tipos de rocha"
     ],
+    "texto_apoio": "As rochas, que podem ser divididas em três grandes grupos, estão em constante transformação, passando de um tipo a outro, em virtude das dinâmicas interna e externa da Terra. O chamado “Ciclo das Rochas” ilustra as diversas possibilidades de transformação de um tipo de rocha em outro.",
     "fonte_apoio": "(Wilson Teixeira et al. (Orgs.). Decifrando a Terra, 2009. Adaptado.)",
     "imagem_apoio": "1ano/img/113/p13q4.png",
-    "pergunta": "As rochas, que podem ser divididas em três grandes grupos, estão em constante transformação, passando de um tipo a outro, em virtude das dinâmicas interna e externa da Terra. O chamado “Ciclo das Rochas” ilustra as diversas possibilidades de transformação de um tipo de rocha em outro.\n\nA partir do exame da figura, é correto afirmar que as letras X, Y e Z correspondem, respectivamente, a:",
+    "pergunta": "A partir do exame da figura, é correto afirmar que as letras X, Y e Z correspondem, respectivamente, a:",
     "alternativas": [
       "metamórficas, sedimentares e ígneas.",
       "metamórficas, ígneas e sedimentares.",
@@ -189,7 +191,8 @@
       "fósseis",
       "tempo geológico"
     ],
-    "pergunta": "[…] Utilizando um novo método de datação de rochas, pesquisadores relacionaram com precisão a Província Magmática do Atlântico Central, série de grandes erupções ocorridas há cerca de 200 milhões de anos, com a Quarta Grande Extinção pela qual a Terra passou.\n\nO texto permite identificar que as rochas estudadas foram:",
+    "texto_apoio": "[…] Utilizando um novo método de datação de rochas, pesquisadores relacionaram com precisão a Província Magmática do Atlântico Central, série de grandes erupções ocorridas há cerca de 200 milhões de anos, com a Quarta Grande Extinção pela qual a Terra passou.",
+    "pergunta": "O texto permite identificar que as rochas estudadas foram:",
     "alternativas": [
       "expelidas desde o núcleo em estado sólido.",
       "formadas a partir da solidificação do magma.",

@@ -10,8 +10,9 @@
       "Europa",
       "xenofobia"
     ],
+    "texto_apoio": "Os gráficos acima são parte do resultado de uma pesquisa feita em 2015 sobre a percepção dos cidadãos de diferentes países acerca do fenômeno migratório.\n\nA diferença entre o percentual médio estimado pelos que responderam à pergunta e o percentual real de imigrantes em cada população nacional expressa uma grande preocupação de cidadãos europeus na atualidade.",
     "imagem_apoio": "3ano/img/303/t3q1.png",
-    "pergunta": "Os gráficos acima são parte do resultado de uma pesquisa feita em 2015 sobre a percepção dos cidadãos de diferentes países acerca do fenômeno migratório.\n\nA diferença entre o percentual médio estimado pelos que responderam à pergunta e o percentual real de imigrantes em cada população nacional expressa uma grande preocupação de cidadãos europeus na atualidade.\n\nUma consequência direta dessa preocupação é:",
+    "pergunta": "Uma consequência direta dessa preocupação é:",
     "alternativas": [
       "ampliação dos programas de proteção social.",
       "intensificação dos conflitos de caráter militar.",
@@ -58,8 +59,9 @@
       "países desenvolvidos",
       "tráfico humano"
     ],
+    "texto_apoio": "Os movimentos de deslocamento de populações é um tema central na pauta de discussões dos governos nacionais e das organizações internacionais como a ONU e a Comunidade Europeia. Em face das medidas tomadas pela maioria dos países desenvolvidos no intento de restringir a entrada de imigrantes, o tráfico destes tem se intensificado. No mapa acima, alguns dos movimentos migratórios são representados por setas, indicando as principais áreas e os países de saída e de destino. O processo de migração internacional pode ser desencadeado por diversos fatores, entre os quais pode-se citar: desastres ambientais; guerras; perseguições políticas, étnicas ou culturais; oportunidades de estudo e trabalho; melhores condições de vida.",
     "imagem_apoio": "3ano/img/303/t3q3.png",
-    "pergunta": "Os movimentos de deslocamento de populações é um tema central na pauta de discussões dos governos nacionais e das organizações internacionais como a ONU e a Comunidade Europeia. Em face das medidas tomadas pela maioria dos países desenvolvidos no intento de restringir a entrada de imigrantes, o tráfico destes tem se intensificado. No mapa acima, alguns dos movimentos migratórios são representados por setas, indicando as principais áreas e os países de saída e de destino. O processo de migração internacional pode ser desencadeado por diversos fatores, entre os quais pode-se citar: desastres ambientais; guerras; perseguições políticas, étnicas ou culturais; oportunidades de estudo e trabalho; melhores condições de vida.\n\nA partir da observação do mapa e do texto acima, é possível afirmar:\n\nI. Nas áreas do mapa onde o contraste de desenvolvimento econômico e social entre países vizinhos é acentuado, observam-se fluxos migratórios.\n\nII. No mapa, constata-se que os fluxos migratórios regionais são mais frequentes que os intercontinentais.\n\nIII. Os fluxos sul-norte são predominantes e estão relacionados à dependência cultural, econômica e histórica dos países chamados subdesenvolvidos em relação aos países ditos desenvolvidos.\n\nIV. A Europa Ocidental é o principal destino dos movimentos migratórios mundiais, seguido pelos fluxos para os EUA.\n\nEstão corretas apenas as afirmativas",
+    "pergunta": "A partir da observação do mapa e do texto acima, é possível afirmar:\n\nI. Nas áreas do mapa onde o contraste de desenvolvimento econômico e social entre países vizinhos é acentuado, observam-se fluxos migratórios.\n\nII. No mapa, constata-se que os fluxos migratórios regionais são mais frequentes que os intercontinentais.\n\nIII. Os fluxos sul-norte são predominantes e estão relacionados à dependência cultural, econômica e histórica dos países chamados subdesenvolvidos em relação aos países ditos desenvolvidos.\n\nIV. A Europa Ocidental é o principal destino dos movimentos migratórios mundiais, seguido pelos fluxos para os EUA.\n\nEstão corretas apenas as afirmativas",
     "alternativas": [
       "I e III.",
       "II e IV.",
@@ -152,7 +154,8 @@
       "diáspora",
       "fluxos populacionais"
     ],
-    "pergunta": "um tema recorrente no debate contemporâneo é a migração global. A Organização das Nações Unidas estima que existam 232 milhões de migrantes em todo o mundo . Há, atualmente, mais mobilidade que em qualquer outra época da história mundial. Comparando a migração atual com a do século XIX, é correto afirmar:",
+    "texto_apoio": "um tema recorrente no debate contemporâneo é a migração global. A Organização das Nações Unidas estima que existam 232 milhões de migrantes em todo o mundo . Há, atualmente, mais mobilidade que em qualquer outra época da história mundial.",
+    "pergunta": "Comparando a migração atual com a do século XIX, é correto afirmar:",
     "alternativas": [
       "até o século XIX, as nações norte-americanas destacaram-se como emissoras de migrantes, enquanto, hoje em dia, encontram-se entre as principais receptoras desses fluxos, sobretudo os originários do continente africano.",
       "Diferentemente do que ocorreu no século XIX, os recursos envolvidos são um traço diferenciador na atualidade, pois remessas enviadas por migrantes originários de nações pobres, como Haiti e Jamaica, são, muitas vezes, utilizadas para sustentar suas famílias no país de origem, além de representarem parte significativa do PIB desses países.",

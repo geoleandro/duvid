@@ -3,7 +3,7 @@
     "id": 1,
     "ano": "2023",
   
-    "texto_apoio": "O homem também vai impondo à natureza suas próprias formas, a que podemos chamar de formas ou objetos culturais, artificiais, históricos. Estas formas históricas não são as mesmas através dos tempos; aqueles acréscimos dos tempos primitivos são diferentes dos atuais. Hoje, as formas impostas à natureza são muito mais complexas, resultado também de uma série de heranças./n/n A natureza conhece um processo de humanização cada vez maior, ganhando a cada passo elementos que são resultado da cultura. Torna-se cada dia mais culturalizada, mais artificializada, mais humanizada. [...]. No processo de desenvolvimento humano, não há uma separação do homem e da natureza. A natureza se socializa e o homem se naturaliza",
+    "texto_apoio": "O homem também vai impondo à natureza suas próprias formas, a que podemos chamar de formas ou objetos culturais, artificiais, históricos. Estas formas históricas não são as mesmas através dos tempos; aqueles acréscimos dos tempos primitivos são diferentes dos atuais. Hoje, as formas impostas à natureza são muito mais complexas, resultado também de uma série de heranças.<br><br> A natureza conhece um processo de humanização cada vez maior, ganhando a cada passo elementos que são resultado da cultura. Torna-se cada dia mais culturalizada, mais artificializada, mais humanizada. [...]. No processo de desenvolvimento humano, não há uma separação do homem e da natureza. A natureza se socializa e o homem se naturaliza",
     "fonte_apoio":"(Milton Santos. Metamorfoses do espaço habitado, 1997).",
     "pergunta": "De acordo com o autor, é correto afirmar que:",
     "alternativas": [
@@ -33,7 +33,8 @@
     "id": 2,
     "ano": "2021",
     "imagem_apoio": "",
-    "texto_apoio": "<p class=\"w3-sand\">O espaço geográfico é fruto de um processo que ocorre ao longo da história das diversas sociedades humanas; dessa forma, representa interesses, técnicas e valores dessas mesmas sociedades, que o constroem segundo suas necessidades. Então, é possível dizer que ele reflete o estágio de desenvolvimento dos meios técnicos de cada sociedade”.</p> <p class=\"w3-small w3-sand\"> (SILVA, A. C. et. al. Geografia contextos e redes 01. 1º ed. São Paulo: Moderna, 2013. p.19).</p>",
+    "texto_apoio": "O espaço geográfico é fruto de um processo que ocorre ao longo da história das diversas sociedades humanas; dessa forma, representa interesses, técnicas e valores dessas mesmas sociedades, que o constroem segundo suas necessidades. Então, é possível dizer que ele reflete o estágio de desenvolvimento dos meios técnicos de cada sociedade”. ",
+    "fonte_apoio": "(SILVA, A. C. et. al. Geografia contextos e redes 01. 1º ed. São Paulo: Moderna, 2013. p.19)",
     "pergunta": "No trecho acima, observa a noção de espaço geográfico vinculada:",
     "alternativas": [
       "ao emprego aleatório de ferramentas desprovidas de seus contextos.",

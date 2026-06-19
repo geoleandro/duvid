@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-adsense-account" content="ca-pub-5408157966429216">
     <title>Política de Privacidade - Duvid</title>
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -101,12 +100,9 @@
                     restrito ao desenvolvedor e ao professor responsável pela turma. O PIN é sempre armazenado em
                     formato de hash, não sendo possível recuperá-lo em texto puro.</p>
 
-                <h3><i class="fa fa-cookie-bite"></i> 4. Cookies, anúncios e análise de uso</h3>
-                <p>Este site utiliza serviços do Google que podem usar cookies: o <strong>Google Analytics</strong>
-                    (medição de acessos) e o <strong>Google AdSense</strong> (exibição de anúncios). Esses serviços
-                    podem coletar dados de navegação conforme as políticas do Google. Você pode gerenciar
-                    preferências de anúncios em
-                    <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
+                <h3><i class="fa fa-cookie-bite"></i> 4. Cookies e análise de uso</h3>
+                <p>Este site utiliza o <strong>Google Analytics</strong> para medição de acessos, que pode usar
+                    cookies de forma anônima. O Duvid Geografia é um projeto gratuito, sem exibição de anúncios.</p>
 
                 <h3><i class="fa fa-child"></i> 5. Crianças e adolescentes</h3>
                 <p>O Duvid Geografia é voltado a estudantes da Educação Básica, podendo incluir menores de idade.

@@ -25,12 +25,13 @@
 //  }
 // =============================================================
 
+require_once __DIR__ . '/../includes/conexao.php';
+$sessionAlunoId = requireAuth();   // encerra com 401 se não estiver logado
+
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST');
 header('Access-Control-Allow-Headers: Content-Type');
-
-require_once __DIR__ . '/../includes/conexao.php';
 
 // Recompensas — espelham as constantes do duvid-db.js e jsquestoes-padrao.js
 // RECOMPENSA_QUESTOES = 20 porque o JS usa RECOMPENSA_GERAL (20) ao completar questões
@@ -115,6 +116,11 @@ if (!$alunoId || !$aulaId || !in_array($tipo, ['texto', 'questoes'])) {
     jsonResponse(['erro' => 'aluno_id, aula_id e tipo (texto|questoes) são obrigatórios.'], 400);
 }
 
+// Valida que o aluno_id do body bate com a sessão autenticada
+if ($alunoId !== $sessionAlunoId) {
+    jsonResponse(['erro' => 'Acesso negado.'], 403);
+}
+
 $pdo = getDB();
 
 // Verifica se aluno e aula existem
@@ -187,21 +193,6 @@ try {
 
     $pdo->prepare("UPDATE alunos SET lvl = :lvl, patente = :patente WHERE id = :id")
         ->execute([':lvl' => $rpg['lvl'], ':patente' => $rpg['patente'], ':id' => $alunoId]);
-
-    // 3. Registra no log de auditoria
-    //    Por que logar? Para o professor ver "João ganhou 10 globinhos
-    //    lendo o texto da aula 101 às 14h23".
-    $tipoLog = $bonus > 0 ? $tipo . '_bonus' : $tipo;
-    $log = $pdo->prepare("
-        INSERT INTO globinhos_log (aluno_id, aula_id, tipo, quantidade)
-        VALUES (:aluno, :aula, :tipo, :qtd)
-    ");
-    $log->execute([
-        ':aluno' => $alunoId,
-        ':aula'  => $aulaId,
-        ':tipo'  => $tipoLog,
-        ':qtd'   => $quantidade,
-    ]);
 
     $pdo->commit();
 

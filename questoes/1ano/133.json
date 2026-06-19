@@ -9,8 +9,9 @@
       "aquecimento global",
       "Protocolo de Kyoto"
     ],
+    "texto_apoio": "A China e a União Europeia preparam um comunicado conjunto reforçando o compromisso com o Acordo de Paris, numa resposta à saída dos EUA do pacto. No documento, Pequim e Bruxelas — com apoio de todos os 28 países-membros do bloco — comprometem-se com a implementação total do acordo.",
     "fonte_apoio": "(Fonte: O Globo. Adaptado.)",
-    "pergunta": "A China e a União Europeia preparam um comunicado conjunto reforçando o compromisso com o Acordo de Paris, numa resposta à saída dos EUA do pacto. No documento, Pequim e Bruxelas — com apoio de todos os 28 países-membros do bloco — comprometem-se com a implementação total do acordo.\n\nO Acordo de Paris, desestabilizado pela saída norte-americana, tem como um de seus compromissos:",
+    "pergunta": "O Acordo de Paris, desestabilizado pela saída norte-americana, tem como um de seus compromissos:",
     "alternativas": [
       "a suspensão de metas de despoluição para os países emergentes.",
       "a realização de investimentos na prospecção de novos campos de petróleo.",
@@ -148,7 +149,8 @@
       "impactos ambientais",
       "atividades humanas"
     ],
-    "pergunta": "No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, sendo constante, nos fóruns internacionais e nas instâncias nacionais, a referência à sustentabilidade como princípio orientador de ações e propostas que deles emanam.\n\nA sustentabilidade explica-se pela:",
+    "texto_apoio": "No presente, observa-se crescente atenção aos efeitos da atividade humana, em diferentes áreas, sobre o meio ambiente, sendo constante, nos fóruns internacionais e nas instâncias nacionais, a referência à sustentabilidade como princípio orientador de ações e propostas que deles emanam.",
+    "pergunta": "A sustentabilidade explica-se pela:",
     "alternativas": [
       "incapacidade de se manter uma atividade econômica ao longo do tempo sem causar danos ao meio ambiente.",
       "incompatibilidade entre crescimento econômico acelerado e preservação de recursos naturais e de fontes não renováveis de energia.",
@@ -170,7 +172,8 @@
       "gases de efeito estufa",
       "acordos ambientais internacionais"
     ],
-    "pergunta": "Dados do Protocolo de Kyoto indicam que em 1990 países como Alemanha, Austrália, Canadá, Estados Unidos da América, Federação Russa, Reino Unido da Grã-Bretanha e Irlanda do Norte, França, Itália, Japão e Polônia eram responsáveis por cerca de 87% das emissões de CO2 na atmosfera. Em relação a esse Protocolo é correto afirmar:",
+    "texto_apoio": "Dados do Protocolo de Kyoto indicam que em 1990 países como Alemanha, Austrália, Canadá, Estados Unidos da América, Federação Russa, Reino Unido da Grã-Bretanha e Irlanda do Norte, França, Itália, Japão e Polônia eram responsáveis por cerca de 87% das emissões de CO2 na atmosfera.",
+    "pergunta": "Em relação a esse Protocolo é correto afirmar:",
     "alternativas": [
       "O Protocolo de Kyoto representa uma grande inovação nas políticas globais para o meio ambiente, pois, além de fixar uma meta de redução sobre os níveis de emissão de gases na atmosfera, cria um sistema de créditos de emissões entre países.",
       "O Protocolo de Kyoto determina a todos os países que, em curto prazo, estes reduzam os níveis de emissão de gases responsáveis pelo efeito estufa no planeta.",

@@ -33,8 +33,9 @@
       "energia elétrica",
       "matriz energética"
     ],
+    "texto_apoio": "O Brasil já produz uma grande parcela de sua eletricidade de fontes renováveis de energia. Dessas, 60% são de energia hidrelétrica, enquanto 20% são de outras fontes, como eólica, biomassa e fotovoltaica. Entretanto, a grande parcela de energia hidrelétrica também traz desafios, que são acentuados pelas mudanças climáticas e períodos de seca. Hoje em dia, regularmente ocorrem gargalos que são compensados com combustíveis fósseis. Isso, por sua vez, está levando a um aumento de emissões de gases de efeito estufa e a uma subida nos preços da energia. O Brasil planeja expandir outras fontes de energia renováveis, tais como a energia solar e a eólica, e ampliar sua eficiência energética. Prevê-se que a participação da energia eólica e solar se multiplicará significativamente.",
     "fonte_apoio": "Internet: www.giz.de (com adaptações).",
-    "pergunta": "O Brasil já produz uma grande parcela de sua eletricidade de fontes renováveis de energia. Dessas, 60% são de energia hidrelétrica, enquanto 20% são de outras fontes, como eólica, biomassa e fotovoltaica. Entretanto, a grande parcela de energia hidrelétrica também traz desafios, que são acentuados pelas mudanças climáticas e períodos de seca. Hoje em dia, regularmente ocorrem gargalos que são compensados com combustíveis fósseis. Isso, por sua vez, está levando a um aumento de emissões de gases de efeito estufa e a uma subida nos preços da energia. O Brasil planeja expandir outras fontes de energia renováveis, tais como a energia solar e a eólica, e ampliar sua eficiência energética. Prevê-se que a participação da energia eólica e solar se multiplicará significativamente.\n\nConsiderando os aspectos abordados no texto precedente, julgue o seguinte item.\n\nO biodiesel é um combustível gerado a partir de biomassa vegetal (óleos vegetais) ou animal (gorduras animais) e pode substituir o óleo diesel em caminhões de carga.",
+    "pergunta": "Considerando os aspectos abordados no texto precedente, julgue o seguinte item.\n\nO biodiesel é um combustível gerado a partir de biomassa vegetal (óleos vegetais) ou animal (gorduras animais) e pode substituir o óleo diesel em caminhões de carga.",
     "alternativas": [
       "Certo",
       "Errado"
@@ -119,7 +120,8 @@
       "biodiesel",
       "energia renovável"
     ],
-    "pergunta": "O biodiesel é um combustível feito a partir de plantas (óleos vegetais) ou de animais (gordura animal), com a finalidade de substituir o óleo diesel em automóveis pesados, como caminhões. Esses óleos (vegetais ou animais) são misturados com etanol, proveniente da cana-de-açúcar, ou metanol, que pode ser obtido a partir da biomassa de madeiras. Ou seja, é um combustível orgânico e renovável. Dentre as benesses ambientais da produção e uso do biodiesel para a Terra, destaca-se a:",
+    "texto_apoio": "O biodiesel é um combustível feito a partir de plantas (óleos vegetais) ou de animais (gordura animal), com a finalidade de substituir o óleo diesel em automóveis pesados, como caminhões. Esses óleos (vegetais ou animais) são misturados com etanol, proveniente da cana-de-açúcar, ou metanol, que pode ser obtido a partir da biomassa de madeiras. Ou seja, é um combustível orgânico e renovável.",
+    "pergunta": "Dentre as benesses ambientais da produção e uso do biodiesel para a Terra, destaca-se a:",
     "alternativas": [
       "redução de emprego no campo, diminuindo-se a renda e o êxodo rural.",
       "ampliação do uso de áreas florestadas, gerando-se maior biodiversidade.",

@@ -100,7 +100,8 @@
       "formação do solo",
       "pedologia"
     ],
-    "pergunta": "A formação dos solos se dá por fatores como a ação do Sol, das chuvas e dos ventos, que constituem o fenômeno conhecido como intemperismo. Dessa forma, as rochas vão se fragmentando e alterando suas propriedades físicas e químicas. As partículas mais sujeitas aos efeitos do intemperismo são aquelas que compõem as camadas:",
+    "texto_apoio": "A formação dos solos se dá por fatores como a ação do Sol, das chuvas e dos ventos, que constituem o fenômeno conhecido como intemperismo. Dessa forma, as rochas vão se fragmentando e alterando suas propriedades físicas e químicas.",
+    "pergunta": "As partículas mais sujeitas aos efeitos do intemperismo são aquelas que compõem as camadas:",
     "alternativas": [
       "de magma.",
       "profundas.",
@@ -189,8 +190,9 @@
       "tipos de solo",
       "agricultura"
     ],
+    "texto_apoio": "Um agricultor adquiriu alguns alqueires de terra para cultivar e residir no local. O desenho abaixo representa parte de suas;\n\nPensando em construir sua moradia no lado I do rio e plantar no lado II, o agricultor consultou seus vizinhos e escutou as frases abaixo. ",
     "imagem_apoio": "1ano/img/117/p17q9.png",
-    "pergunta": "Um agricultor adquiriu alguns alqueires de terra para cultivar e residir no local. O desenho abaixo representa parte de suas;\n\nPensando em construir sua moradia no lado I do rio e plantar no lado II, o agricultor consultou seus vizinhos e escutou as frases abaixo. Assinale a frase do vizinho que deu a sugestão mais correta:",
+    "pergunta": "Assinale a frase do vizinho que deu a sugestão mais correta:",
     "alternativas": [
       "“O terreno só se presta ao plantio, revolvendo o solo com arado.”",
       "“Não plante neste local, porque é impossível evitar a erosão”.",

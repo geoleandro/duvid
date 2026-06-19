@@ -100,8 +100,9 @@
       "relevo",
       "agentes endógenos"
     ],
+    "texto_apoio": "As estruturas que formam a superfície refletem os eventos geológicos da história do Planeta. No passado, mares rasos cobriram vastas extensões, que atualmente constituem planícies, e cordilheiras montanhosas emergiram dos oceanos, como revelam, por exemplo, registros fósseis descobertos nos Andes",
     "fonte_apoio": "(MAGNOLI, D.; ARAÚJO, R. Geografia geral: projeto de ensino de Geografia. São Paulo: Moderna, 2010, p. 37.).",
-    "pergunta": "As estruturas que formam a superfície refletem os eventos geológicos da história do Planeta. No passado, mares rasos cobriram vastas extensões, que atualmente constituem planícies, e cordilheiras montanhosas emergiram dos oceanos, como revelam, por exemplo, registros fósseis descobertos nos Andes\n\nCom base nas informações contidas no texto e nos conhecimentos sobre as estruturas geológicas da Terra, marque V nas afirmativas verdadeiras e F, nas falsas.\n\n( ) A estrutura geológica da superfície terrestre continua em mutação e constitui o embasamento do modelado terrestre.\n\n( ) as terras imersas exibem dorsais submarinas e fossas abissais, ambas relacionadas a movimentos de placas tectônicas.\n\n( ) os escudos cristalinos são dobramentos modernos surgidos do entrechoque de massas continentais, quando se formou a Pangeia.\n\n( ) as bacias sedimentares, formadas ao longo do Período Pré-Cambriano, são resultantes da solidificação do material magmático e da ascensão das rochas até a superfície.\n\n( ) os dobramentos modernos assinalaram episódios de acomodação tectônica, que ocorreram ao longo do litoral e, no Brasil, estão concentrados na porção meridional.\n\nA alternativa que indica a sequência correta, de cima para baixo, é a:",
+    "pergunta": "Com base nas informações contidas no texto e nos conhecimentos sobre as estruturas geológicas da Terra, marque V nas afirmativas verdadeiras e F, nas falsas.\n\n( ) A estrutura geológica da superfície terrestre continua em mutação e constitui o embasamento do modelado terrestre.\n\n( ) as terras imersas exibem dorsais submarinas e fossas abissais, ambas relacionadas a movimentos de placas tectônicas.\n\n( ) os escudos cristalinos são dobramentos modernos surgidos do entrechoque de massas continentais, quando se formou a Pangeia.\n\n( ) as bacias sedimentares, formadas ao longo do Período Pré-Cambriano, são resultantes da solidificação do material magmático e da ascensão das rochas até a superfície.\n\n( ) os dobramentos modernos assinalaram episódios de acomodação tectônica, que ocorreram ao longo do litoral e, no Brasil, estão concentrados na porção meridional.\n\nA alternativa que indica a sequência correta, de cima para baixo, é a:",
     "alternativas": [
       "V V F F F.",
       "F F V V V.",
@@ -146,7 +147,8 @@
       "agentes internos",
       "agentes externos"
     ],
-    "pergunta": "O relevo, dependendo da atuação dos agentes internos e externos, pode apresentar diversas formas. Quanto às características das principais formas de relevo, é CORRETO dizer que:\n\nI. As serras são relevos estreitos bem agrupados com topos regulares. Em geral, são alinhamentos de montanhas recentes.\n\nII. Os planaltos são as superfícies mais elevadas, com ondulações bruscas. Geralmente são delimitados por planícies que os circundam.\n\nIII. As planícies são superfícies planas, de baixa altitude, nas quais, geralmente, os processos de deposição são abundantes.\n\nIV. As depressões são áreas rebaixadas. Sua origem pode estar ligada a processos de erosão ou a afundamentos provocados por falhamentos.\n\nV. As montanhas são elevações suaves e aluviais do terreno. São formadas por agrupamentos de morros e escarpas sedimentares.\n\nA sequência correta é:",
+    "texto_apoio": "O relevo, dependendo da atuação dos agentes internos e externos, pode apresentar diversas formas.",
+    "pergunta": "Quanto às características das principais formas de relevo, é CORRETO dizer que:\n\nI. As serras são relevos estreitos bem agrupados com topos regulares. Em geral, são alinhamentos de montanhas recentes.\n\nII. Os planaltos são as superfícies mais elevadas, com ondulações bruscas. Geralmente são delimitados por planícies que os circundam.\n\nIII. As planícies são superfícies planas, de baixa altitude, nas quais, geralmente, os processos de deposição são abundantes.\n\nIV. As depressões são áreas rebaixadas. Sua origem pode estar ligada a processos de erosão ou a afundamentos provocados por falhamentos.\n\nV. As montanhas são elevações suaves e aluviais do terreno. São formadas por agrupamentos de morros e escarpas sedimentares.\n\nA sequência correta é:",
     "alternativas": [
       "I, II e IV.",
       "III e IV.",
@@ -169,8 +171,8 @@
       "classificação do relevo"
     ],
     "texto_apoio": "A figura seguinte representa o relevo da América Latina.",
-    "imagem_apoio": "1ano/img/114/p14q8.png",
     "fonte_apoio": "Fonte: adaptada de https://pixabay.com/pt/mapa-do-mundo-mapa-mapa-de-relevo-1804890. Acesso em: 10 abr. 2017.",
+    "imagem_apoio": "1ano/img/114/p14q8.png",
     "pergunta": "Associe os números apresentados na figura com as formas de relevo:\n\n(     ) Planalto das Guianas\n\n(     ) Planície Amazônica\n\n(     ) Planalto Brasileiro\n\n(     ) Cordilheira dos Andes\n\n(     ) Planície Platina\n\n(     ) Sierra Madre\n\nAssinale a alternativa que apresenta correta correspondência dos números e formas de relevos:",
     "alternativas": [
       "3, 5, 6, 4, 2, 1.",
@@ -202,8 +204,8 @@
       " As áreas de planície com sedimentos inconsolidados resultantes das rochas cristalinas friáveis (que se quebram facilmente); além disso, o desmatamento e acúmulo de lixo nas inundações podem soterrar o curso fluvial retilíneo."
     ],
     "correta": 0,
-    "ajuda": "Observe as formas de relevo apresentadas na figura e considere as características de cada uma delas, como a topografia, a presença de água e os riscos associados à ocupação humana. Analise quais áreas oferecem condições mais favoráveis para a construção de moradias, infraestrutura e atividades econômicas, levando em conta fatores como segurança, acesso a recursos naturais e sustentabilidade ambiental.",
-    "comentario": "Letra A. Esta opção é considerada correta porque identifica corretamente os topos mais aplainados dos morros e os terraços fluviais como áreas com condições naturais mais favoráveis à ocupação humana. Os topos mais aplainados dos morros oferecem uma posição elevada, o que pode proporcionar vistas panorâmicas, ventilação adequada e menor suscetibilidade a inundações. Além disso, os terraços fluviais são planícies aluviais formadas ao longo do tempo pelo acúmulo de sedimentos depositados por rios, proporcionando solos férteis para agricultura e acesso à água."
+    "comentario": "Letra A. Esta opção é considerada correta porque identifica corretamente os topos mais aplainados dos morros e os terraços fluviais como áreas com condições naturais mais favoráveis à ocupação humana. Os topos mais aplainados dos morros oferecem uma posição elevada, o que pode proporcionar vistas panorâmicas, ventilação adequada e menor suscetibilidade a inundações. Além disso, os terraços fluviais são planícies aluviais formadas ao longo do tempo pelo acúmulo de sedimentos depositados por rios, proporcionando solos férteis para agricultura e acesso à água.",
+    "ajuda": "Observe as formas de relevo apresentadas na figura e considere as características de cada uma delas, como a topografia, a presença de água e os riscos associados à ocupação humana. Analise quais áreas oferecem condições mais favoráveis para a construção de moradias, infraestrutura e atividades econômicas, levando em conta fatores como segurança, acesso a recursos naturais e sustentabilidade ambiental."
   },
   {
     "id": 10,
@@ -225,7 +227,7 @@
       "B é um planalto formado por rochas ígneas, metamórficas ou sedimentares. Sua principal característica está na atividade ativa dos processos tectônicos responsáveis pelo soerguimento das elevações e manutenção das formas."
     ],
     "correta": 0,
-    "ajuda": "Planalto: Terreno elevado com superfície relativamente plana e limites mais ou menos abruptos, geralmente formado por processos erosivos. Planície: Terreno plano ou levemente ondulado, formado principalmente por processos de deposição de sedimentos, como rios ou geleiras.",
-    "comentario": "As planícies são formas de relevo originadas pela deposição de sedimentos em áreas planas e de baixa altitude. Formam-se em várzeas fluviais, planícies costeiras e deltas. São áreas de grande fertilidade agrícola (várzeas do Rio São Francisco) mas vulneráveis a inundações. Os processos exógenos (erosão e deposição) são responsáveis por sua formação."
+    "comentario": "As planícies são formas de relevo originadas pela deposição de sedimentos em áreas planas e de baixa altitude. Formam-se em várzeas fluviais, planícies costeiras e deltas. São áreas de grande fertilidade agrícola (várzeas do Rio São Francisco) mas vulneráveis a inundações. Os processos exógenos (erosão e deposição) são responsáveis por sua formação.",
+    "ajuda": "Planalto: Terreno elevado com superfície relativamente plana e limites mais ou menos abruptos, geralmente formado por processos erosivos. Planície: Terreno plano ou levemente ondulado, formado principalmente por processos de deposição de sedimentos, como rios ou geleiras."
   }
 ]

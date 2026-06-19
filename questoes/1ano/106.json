@@ -96,8 +96,9 @@
       "cálculo de horário",
       "longitude"
     ],
+    "texto_apoio": "No encerramento da temporada regular 2015-2016 da liga americana de basquete, o ídolo do Los Angeles Lakers, Kobe Bryant, despediu-se das quadras numa partida diante do Utah Jazz. O jogo foi realizado na Califórnia, que fica no fuso horário 120º oeste, no dia 13.04.2016 às 19h30 (horário local).",
     "fonte_apoio": "(Http://sportv.globo.com. Adaptado.)",
-    "pergunta": "No encerramento da temporada regular 2015-2016 da liga americana de basquete, o ídolo do Los Angeles Lakers, Kobe Bryant, despediu-se das quadras numa partida diante do Utah Jazz. O jogo foi realizado na Califórnia, que fica no fuso horário 120º oeste, no dia 13.04.2016 às 19h30 (horário local).\n\nCiente de que os EUA utilizavam o horário de verão, a última atuação do atleta foi transmitida ao vivo às.",
+    "pergunta": "Ciente de que os EUA utilizavam o horário de verão, a última atuação do atleta foi transmitida ao vivo às.",
     "alternativas": [
       "22h30 do dia 13.04.2016 para o estado do Acre.",
       "21h30 do dia 13.04.2016 para a capital do Amazonas.",
@@ -125,7 +126,8 @@
       "longitude",
       "fuso horário"
     ],
-    "pergunta": "Ao dividir os 360 graus da esfera terrestre pelas 24 horas de duração do movimento de __________, o resultado é 15 graus. A cada 15 graus que a Terra gira, passa-se uma hora. Assim, cada uma das 24 divisões da Terra corresponde a um __________.\n\nPara que o texto fique adequadamente preenchido, as lacunas devem ser completadas, respectivamente, por",
+    "texto_apoio": "Ao dividir os 360 graus da esfera terrestre pelas 24 horas de duração do movimento de __________, o resultado é 15 graus. A cada 15 graus que a Terra gira, passa-se uma hora. Assim, cada uma das 24 divisões da Terra corresponde a um __________.",
+    "pergunta": "Para que o texto fique adequadamente preenchido, as lacunas devem ser completadas, respectivamente, por",
     "alternativas": [
       "translação e meridiano.",
       "translação e paralelo.",
@@ -266,7 +268,8 @@
     ],
     "fonte_apoio": "(Prefeitura de Paris. A descoberta dos Planos de Paris do XVI ao XVIII séculos. Paris: Agência Cultural de Paris, 1994. p.5). Acesso em: 03 nov. 2015.",
     "imagem_apoio": "1ano/img/106/p6q10.png",
-    "pergunta": "Leia e observe o mapa: \"Todo mundo sabe que a literatura e a arte, da pintura à música, refletem uma sociedade e uma cultura. Menos conhecido, híbrido da escrita e da imagem, o mapa, representação gráfica do mundo, é também o retrato da época que o produziu.\"\n\nConsiderando o texto e o mapa como uma linguagem é correto dizer queConsiderando o texto e o mapa como uma linguagem é correto dizer que",
+    "texto_apoio": "Todo mundo sabe que a literatura e a arte, da pintura à música, refletem uma sociedade e uma cultura. Menos conhecido, híbrido da escrita e da imagem, o mapa, representação gráfica do mundo, é também o retrato da época que o produziu.",
+    "pergunta": "Considerando o texto e o mapa como uma linguagem é correto dizer que",
     "alternativas": [
       "mapas de qualquer época são produtos científicos que não têm valor documental algum, se suas representações não forem precisas em relação ao espaço representado.",
       "um valor de um mapa histórico está no fato, entre outros, de que ele representa as técnicas de representação de uma época e os saberes que se possuíam sobre os lugares.",

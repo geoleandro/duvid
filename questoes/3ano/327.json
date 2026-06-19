@@ -105,7 +105,8 @@
       "colonialismo",
       "guerra civil"
     ],
-    "pergunta": "País da África Austral que se tornou independente em 1975 após séculos de colonialismo europeu. No período do interior à independência, a terra passou a ser propriedade do Estado, com predomínio de uso pela população camponesa e com forte participação das mulheres na produção agrícola familiar. De 1976-1992 vivenciou intensos conflitos produzidos pela guerra civil envolvendo dois dos principais grupos armados do país. O texto acima faz referência ao seguinte país:",
+    "texto_apoio": "País da África Austral que se tornou independente em 1975 após séculos de colonialismo europeu. No período do interior à independência, a terra passou a ser propriedade do Estado, com predomínio de uso pela população camponesa e com forte participação das mulheres na produção agrícola familiar. De 1976-1992 vivenciou intensos conflitos produzidos pela guerra civil envolvendo dois dos principais grupos armados do país.",
+    "pergunta": "O texto acima faz referência ao seguinte país:",
     "alternativas": [
       "Congo.",
       "África do Sul.",
@@ -176,8 +177,9 @@
       "extremismo religioso",
       "Nigéria"
     ],
+    "texto_apoio": "O grupo Boko Haram, autor do sequestro, em abril de 2014, de mais de duzentas estudantes, que, posteriormente, segundo os líderes do grupo, seriam vendidas, nasceu de uma seita que atraiu seguidores com um discurso crítico em relação ao regime local. Pregando um islã radical e rigoroso, Mohammed Yusuf, um dos fundadores, acusava os valores ocidentais, instaurados pelos colonizadores britânicos, de serem a fonte de todos os males sofridos pelo país. Boko Haram significa “a educação ocidental é pecaminosa” em haussa, uma das línguas faladas no país.",
     "fonte_apoio": "www.cartacapital.com.br. Acessado em 13/05/2014. Adaptado.",
-    "pergunta": "O grupo Boko Haram, autor do sequestro, em abril de 2014, de mais de duzentas estudantes, que, posteriormente, segundo os líderes do grupo, seriam vendidas, nasceu de uma seita que atraiu seguidores com um discurso crítico em relação ao regime local. Pregando um islã radical e rigoroso, Mohammed Yusuf, um dos fundadores, acusava os valores ocidentais, instaurados pelos colonizadores britânicos, de serem a fonte de todos os males sofridos pelo país. Boko Haram significa “a educação ocidental é pecaminosa” em haussa, uma das línguas faladas no país.\n\nO texto se refere:",
+    "pergunta": "O texto se refere:",
     "alternativas": [
       "a uma dissidência da Al’Qaeda no Iraque, que passou a atuar no país após a morte de Sadam Hussein.",
       "a um grupo terrorista atuante nos Emirados Árabes, país economicamente mais dinâmico da região.",
@@ -200,8 +202,9 @@
       "guerra civil",
       "conflito"
     ],
+    "texto_apoio": "O país nasce a partir de um acordo de paz firmado em 2005, após 12 anos de uma guerra civil que deixou 1,5 milhão de mortos. Apesar de possuir grandes reservas de petróleo, eIe surge como um dos Estados mais pobres do mundo. Sua independência está sendo celebrada sem que as fronteiras entre o sul e o norte já estejam completamente definidas.",
     "fonte_apoio": "Fonte: NASSIF Luis, Online. Texto adaptado. Disponível em:. Acesso em: 12 set. 2011. (Adaptado)",
-    "pergunta": "O país nasce a partir de um acordo de paz firmado em 2005, após 12 anos de uma guerra civil que deixou 1,5 milhão de mortos. Apesar de possuir grandes reservas de petróleo, eIe surge como um dos Estados mais pobres do mundo. Sua independência está sendo celebrada sem que as fronteiras entre o sul e o norte já estejam completamente definidas.\n\nNesse contexto, as informações referem-se à criação da(o)",
+    "pergunta": "Nesse contexto, as informações referem-se à criação da(o)",
     "alternativas": [
       "Líbia do Sul.",
       "Etiópia do Sul.",

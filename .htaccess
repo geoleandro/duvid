@@ -6,6 +6,10 @@ Options -Indexes
 # -------------------------------------------------------
 RewriteEngine On
 
+# O jogo Unity (WebGL) é servido como arquivos estáticos.
+# Esta linha impede QUALQUER reescrita dentro de /jogo/ (incluindo .html → .php).
+RewriteRule ^jogo/ - [L]
+
 # Se o arquivo .php existir, redireciona .html → .php (301 permanente)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

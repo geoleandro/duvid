@@ -207,7 +207,8 @@
       "escala numérica",
       "escala gráfica"
     ],
-    "pergunta": "A escala cartográfica expressa as dimensões presentes em um mapa e a sua correspondência no terreno, ou seja, é uma abstração adotada que permite transpor a realidade terrestre para o mapa mantendo as proporções. Considerando a distância de 6 cm entre dois municípios em um mapa com escala numérica de 1: 1.000.000, qual é a distância, em linha reta, entre eles?",
+    "texto_apoio": "A escala cartográfica expressa as dimensões presentes em um mapa e a sua correspondência no terreno, ou seja, é uma abstração adotada que permite transpor a realidade terrestre para o mapa mantendo as proporções.",
+    "pergunta": "Considerando a distância de 6 cm entre dois municípios em um mapa com escala numérica de 1: 1.000.000, qual é a distância, em linha reta, entre eles?",
     "alternativas": [
       "0,6 km.",
       "6 km.",

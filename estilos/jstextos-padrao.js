@@ -1,3 +1,6 @@
+// Marca esta como página de aula (texto) → o badge de pontos da navbar aparece aqui.
+window.DUVID_PAGINA_AULA = true;
+
 document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const id = params.get('id');
@@ -393,8 +396,7 @@ function mostrarNota() {
     if (typeof playSomFinal === "function") playSomFinal(passou);
 
     if (passou && typeof dispararComemoracao === "function") {
-        dispararComemoracao();
-        setTimeout(dispararComemoracao, 500);
+        dispararComemoracao('aprovado');
     }
 
     // 3. EXIBIÇÃO

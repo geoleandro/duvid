@@ -20,8 +20,8 @@
       "I, II e III."
     ],
     "correta": 0,
-    "ajuda": "Analise cada afirmativa sobre o sistema elétrico e o mapa separadamente. Lembre-se que o Brasil tem matriz elétrica predominantemente hidrelétrica, mas enfrenta riscos em períodos de seca. Verifique quais afirmativas estão de acordo com os dados reais.",
-    "comentario": "O Brasil possui a maior rede de transmissão de energia elétrica da América Latina, integrando diferentes regiões em um sistema interligado nacional. Apesar da produção hidrelétrica ser concentrada em poucas bacias (como Paraná e Tocantins), a transmissão distribui essa energia para todo o país, incluindo o Nordeste que depende também da energia eólica. A afirmativa I está correta ao destacar essa integração."
+    "comentario": "O Brasil possui a maior rede de transmissão de energia elétrica da América Latina, integrando diferentes regiões em um sistema interligado nacional. Apesar da produção hidrelétrica ser concentrada em poucas bacias (como Paraná e Tocantins), a transmissão distribui essa energia para todo o país, incluindo o Nordeste que depende também da energia eólica. A afirmativa I está correta ao destacar essa integração.",
+    "ajuda": "Analise cada afirmativa sobre o sistema elétrico e o mapa separadamente. Lembre-se que o Brasil tem matriz elétrica predominantemente hidrelétrica, mas enfrenta riscos em períodos de seca. Verifique quais afirmativas estão de acordo com os dados reais."
   },
   {
     "id": 2,
@@ -43,8 +43,8 @@
       "foi uma iniciativa conjunta dos governos militares do Brasil e do Paraguai, que teve forte impacto geoestratégico na região do Rio da Prata."
     ],
     "correta": 4,
-    "ajuda": "A construção de Itaipu ocorreu nos anos 1970-1980, durante as ditaduras militares do Brasil e do Paraguai. Reflita sobre os impactos geopolíticos, socioambientais e energéticos dessa obra para a América do Sul.",
-    "comentario": "Itaipu foi construída no contexto da Guerra Fria, quando Brasil e Paraguai buscavam afirmar influência sobre a bacia do Rio da Prata, disputada também com a Argentina. A usina alterou o equilíbrio geopolítico regional ao aproximar os dois governos militares e reduzir a influência argentina, representando um marco na geopolítica sul-americana. O Tratado de Itaipu (1973) estabeleceu condições que favoreciam claramente o Brasil."
+    "comentario": "Itaipu foi construída no contexto da Guerra Fria, quando Brasil e Paraguai buscavam afirmar influência sobre a bacia do Rio da Prata, disputada também com a Argentina. A usina alterou o equilíbrio geopolítico regional ao aproximar os dois governos militares e reduzir a influência argentina, representando um marco na geopolítica sul-americana. O Tratado de Itaipu (1973) estabeleceu condições que favoreciam claramente o Brasil.",
+    "ajuda": "A construção de Itaipu ocorreu nos anos 1970-1980, durante as ditaduras militares do Brasil e do Paraguai. Reflita sobre os impactos geopolíticos, socioambientais e energéticos dessa obra para a América do Sul."
   },
   {
     "id": 3,
@@ -67,8 +67,8 @@
       "proximidade de fronteiras internacionais estratégicas."
     ],
     "correta": 0,
-    "ajuda": "Compare as hidrelétricas da tabela levando em conta a relação entre área alagada e potência instalada. Uma vantagem territorial significa inundar menos para gerar mais. Qual usina apresenta melhor desempenho nessa relação?",
-    "comentario": "Belo Monte se destaca por ter uma das menores razões área inundada/potência instalada entre as grandes hidrelétricas brasileiras. Comparada a Sobradinho e Tucuruí, que alagaram enormes extensões de terra, Belo Monte inundou uma área relativamente pequena para sua capacidade de geração. Esse aspecto técnico foi usado como argumento em sua defesa ambiental, embora a usina tenha gerado grande impacto social e ecológico no Xingu."
+    "comentario": "Belo Monte se destaca por ter uma das menores razões área inundada/potência instalada entre as grandes hidrelétricas brasileiras. Comparada a Sobradinho e Tucuruí, que alagaram enormes extensões de terra, Belo Monte inundou uma área relativamente pequena para sua capacidade de geração. Esse aspecto técnico foi usado como argumento em sua defesa ambiental, embora a usina tenha gerado grande impacto social e ecológico no Xingu.",
+    "ajuda": "Compare as hidrelétricas da tabela levando em conta a relação entre área alagada e potência instalada. Uma vantagem territorial significa inundar menos para gerar mais. Qual usina apresenta melhor desempenho nessa relação?"
   },
   {
     "id": 4,
@@ -90,8 +90,8 @@
       "O carvão mineral, o gás natural e o urânio são fontes de energia não-renováveis, apesar de muito utilizadas no mundo. Exemplos de fontes potenciais de energia renováveis estão na biomassa (sobretudo no etanol derivado da cana-de-açúcar), na lenha, no sol, nos ventos e também em dejetos animais e humanos."
     ],
     "correta": 0,
-    "ajuda": "A questão pede a alternativa CORRETA sobre fontes de energia no Brasil. Revise cada afirmativa: o petróleo não é a principal fonte de energia elétrica, e o pré-sal fica no litoral sudeste. Identifique a que está factualmente correta.",
-    "comentario": "A principal fonte de energia elétrica do Brasil são as hidrelétricas, que respondem por mais de 60% da geração — não o petróleo, que alimenta termelétricas usadas apenas como complemento em períodos de crise hídrica. As usinas termelétricas citadas na afirmativa incorreta têm papel secundário e operam com custo mais elevado e maior emissão de poluentes. O Brasil possui uma matriz elétrica predominantemente renovável e de base hídrica."
+    "comentario": "A principal fonte de energia elétrica do Brasil são as hidrelétricas, que respondem por mais de 60% da geração — não o petróleo, que alimenta termelétricas usadas apenas como complemento em períodos de crise hídrica. As usinas termelétricas citadas na afirmativa incorreta têm papel secundário e operam com custo mais elevado e maior emissão de poluentes. O Brasil possui uma matriz elétrica predominantemente renovável e de base hídrica.",
+    "ajuda": "A questão pede a alternativa CORRETA sobre fontes de energia no Brasil. Revise cada afirmativa: o petróleo não é a principal fonte de energia elétrica, e o pré-sal fica no litoral sudeste. Identifique a que está factualmente correta."
   },
   {
     "id": 5,
@@ -103,7 +103,8 @@
       "geração de energia",
       "localização de usinas"
     ],
-    "pergunta": "Deseja-se instalar uma estação de geração de energia elétrica em um município localizado no interior de um pequeno vale cercado de altas montanhas de difícil acesso. A cidade é cruzada por um rio, que é fonte de água para consumo, irrigação das lavouras de subsistência e pesca. Na região, que possui pequena extensão territorial, a incidência solar é alta o ano todo. A estação em questão irá abastecer apenas o município apresentado.\n\nQual forma de obtenção de energia, entre as apresentadas, é a mais indicada para ser implantada nesse município de modo a causar o menor impacto ambiental?",
+    "texto_apoio": "Deseja-se instalar uma estação de geração de energia elétrica em um município localizado no interior de um pequeno vale cercado de altas montanhas de difícil acesso. A cidade é cruzada por um rio, que é fonte de água para consumo, irrigação das lavouras de subsistência e pesca. Na região, que possui pequena extensão territorial, a incidência solar é alta o ano todo. A estação em questão irá abastecer apenas o município apresentado.",
+    "pergunta": "Qual forma de obtenção de energia, entre as apresentadas, é a mais indicada para ser implantada nesse município de modo a causar o menor impacto ambiental?",
     "alternativas": [
       "Termoelétrica, pois é possível utilizar a água do rio no sistema de refrigeração.",
       "Eólica, pois a geografia do local é própria para a captação desse tipo de energia.",
@@ -112,8 +113,8 @@
       "Hidrelétrica, pois o rio que corta o município é suficiente para abastecer a usina construída."
     ],
     "correta": 3,
-    "ajuda": "O enunciado descreve um vale cercado de montanhas — um relevo que não favorece ventos fortes e tem um rio. Analise qual fonte de energia seria mais viável nesse contexto físico específico, considerando o recurso natural disponível.",
-    "comentario": "A energia solar fotovoltaica é ideal para regiões com alto índice de irradiação solar e sem rios caudalosos, como pequenos vales do interior. Painéis solares captam a radiação direta e a convertem em eletricidade sem necessidade de grandes obras civis, sendo escaláveis e de baixo impacto ambiental. O Brasil é um dos países com maior potencial solar do mundo, especialmente no Nordeste e Centro-Oeste."
+    "comentario": "A energia solar fotovoltaica é ideal para regiões com alto índice de irradiação solar e sem rios caudalosos, como pequenos vales do interior. Painéis solares captam a radiação direta e a convertem em eletricidade sem necessidade de grandes obras civis, sendo escaláveis e de baixo impacto ambiental. O Brasil é um dos países com maior potencial solar do mundo, especialmente no Nordeste e Centro-Oeste.",
+    "ajuda": "O enunciado descreve um vale cercado de montanhas — um relevo que não favorece ventos fortes e tem um rio. Analise qual fonte de energia seria mais viável nesse contexto físico específico, considerando o recurso natural disponível."
   },
   {
     "id": 6,
@@ -126,8 +127,9 @@
       "capacidade instalada",
       "bacias hidrográficas"
     ],
+    "texto_apoio": "Os dados referentes à área alagada por uma represa e à potência produzida pela hidroelétrica possibilitam comparar a relação entre os danos causados à natureza e o benefício trazido pela produção de energia.",
     "imagem_apoio": "2ano/img/222/s22q6.png",
-    "pergunta": "Responder à questão com base no quadro a seguir, que trata das hidroelétricas brasileiras\n\nOs dados referentes à área alagada por uma represa e à potência produzida pela hidroelétrica possibilitam comparar a relação entre os danos causados à natureza e o benefício trazido pela produção de energia.\n\nConsiderando somente as informações do quadro, é correto dizer que o projeto que mais onerou o ambiente, em termos da relação entre área inundada e potência da hidroelétrica, foi o de:",
+    "pergunta": "Considerando somente as informações do quadro, é correto dizer que o projeto que mais onerou o ambiente, em termos da relação entre área inundada e potência da hidroelétrica, foi o de:",
     "alternativas": [
       "Sobradinho.",
       "Furnas.",
@@ -136,8 +138,8 @@
       "Itaipu."
     ],
     "correta": 0,
-    "ajuda": "A questão pede a usina com maior área alagada em relação à potência. Observe os dados da tabela com atenção e calcule ou compare as proporções. A usina menos eficiente em termos de área por MW será a resposta.",
-    "comentario": "A usina de Sobradinho, no Rio São Francisco, criou o maior lago artificial do Brasil em extensão, inundando cerca de 4.214 km² e deslocando mais de 70 mil pessoas. Sua área alagada supera proporcionalmente a de outras grandes hidrelétricas brasileiras, tornando-a o caso mais emblemático de impacto territorial de uma usina no país. Os dados do quadro confirmam Sobradinho como a de maior área relativa inundada."
+    "comentario": "A usina de Sobradinho, no Rio São Francisco, criou o maior lago artificial do Brasil em extensão, inundando cerca de 4.214 km² e deslocando mais de 70 mil pessoas. Sua área alagada supera proporcionalmente a de outras grandes hidrelétricas brasileiras, tornando-a o caso mais emblemático de impacto territorial de uma usina no país. Os dados do quadro confirmam Sobradinho como a de maior área relativa inundada.",
+    "ajuda": "A questão pede a usina com maior área alagada em relação à potência. Observe os dados da tabela com atenção e calcule ou compare as proporções. A usina menos eficiente em termos de área por MW será a resposta."
   },
   {
     "id": 7,
@@ -150,7 +152,8 @@
       "questão ambiental",
       "riscos"
     ],
-    "pergunta": "Um problema ainda não resolvido da geração nuclear de eletricidade é a destinação dos rejeitos radiativos, o chamado \"lixo atômico\". Os rejeitos mais ativos ficam por um período em piscinas de aço inoxidável nas próprias usinas antes de ser, como os demais rejeitos, acondicionados em tambores que são dispostos em áreas cercadas ou encerrados em depósitos subterrâneos secos, como antigas minas de sal. A complexidade do problema do lixo atômico, comparativamente a outros lixos com substâncias tóxicas, se deve ao fato de:",
+    "texto_apoio": "Um problema ainda não resolvido da geração nuclear de eletricidade é a destinação dos rejeitos radiativos, o chamado \"lixo atômico\". Os rejeitos mais ativos ficam por um período em piscinas de aço inoxidável nas próprias usinas antes de ser, como os demais rejeitos, acondicionados em tambores que são dispostos em áreas cercadas ou encerrados em depósitos subterrâneos secos, como antigas minas de sal.",
+    "pergunta": "A complexidade do problema do lixo atômico, comparativamente a outros lixos com substâncias tóxicas, se deve ao fato de:",
     "alternativas": [
       "emitir radiações nocivas, por milhares de anos, em um processo que não tem como ser interrompido artificialmente.",
       "acumular-se em quantidades bem maiores do que o lixo industrial convencional, faltando assim locais para reunir tanto material.",
@@ -159,8 +162,8 @@
       "emitir radiações e gases que podem destruir a camada de ozônio e agravar o efeito estufa."
     ],
     "correta": 0,
-    "ajuda": "O lixo atômico é composto de materiais radioativos com meia-vida de milhares de anos. Pense no que define a principal característica preocupante desses rejeitos: não é o volume, mas a natureza da radiação e a impossibilidade de neutralizá-la artificialmente.",
-    "comentario": "Os rejeitos radioativos de usinas nucleares permanecem perigosos por milhares a milhões de anos, dependendo dos isótopos envolvidos. Ao contrário dos resíduos químicos comuns, a radioatividade é um processo físico espontâneo que não pode ser interrompido artificialmente — os núcleos instáveis decaem em seu próprio ritmo. Esse fato torna o armazenamento seguro dos rejeitos um dos maiores desafios da energia nuclear."
+    "comentario": "Os rejeitos radioativos de usinas nucleares permanecem perigosos por milhares a milhões de anos, dependendo dos isótopos envolvidos. Ao contrário dos resíduos químicos comuns, a radioatividade é um processo físico espontâneo que não pode ser interrompido artificialmente — os núcleos instáveis decaem em seu próprio ritmo. Esse fato torna o armazenamento seguro dos rejeitos um dos maiores desafios da energia nuclear.",
+    "ajuda": "O lixo atômico é composto de materiais radioativos com meia-vida de milhares de anos. Pense no que define a principal característica preocupante desses rejeitos: não é o volume, mas a natureza da radiação e a impossibilidade de neutralizá-la artificialmente."
   },
   {
     "id": 8,
@@ -181,8 +184,8 @@
       "As hidrelétricas brasileiras estão concentradas nos rios da Bacia Amazônica, em função das vantagens de instalação que essa região proporciona."
     ],
     "correta": 1,
-    "ajuda": "A questão trata do potencial hidrelétrico brasileiro e suas características. Lembre-se que Itaipu é binacional (Brasil e Paraguai) e que Tucuruí foi construída na Amazônia para atender projetos minerais como Carajás e Alunorte.",
-    "comentario": "A hidrelétrica de Tucuruí, no Pará, foi construída nos anos 1980 para abastecer os projetos do Programa Grande Carajás, que incluíam a mineração de ferro e a produção de alumínio pela Albrás em Barcarena. Essa lógica de construção de grandes obras para servir interesses industriais e exportadores é típica do desenvolvimentismo brasileiro, que priorizava o crescimento econômico sem considerar os impactos socioambientais."
+    "comentario": "A hidrelétrica de Tucuruí, no Pará, foi construída nos anos 1980 para abastecer os projetos do Programa Grande Carajás, que incluíam a mineração de ferro e a produção de alumínio pela Albrás em Barcarena. Essa lógica de construção de grandes obras para servir interesses industriais e exportadores é típica do desenvolvimentismo brasileiro, que priorizava o crescimento econômico sem considerar os impactos socioambientais.",
+    "ajuda": "A questão trata do potencial hidrelétrico brasileiro e suas características. Lembre-se que Itaipu é binacional (Brasil e Paraguai) e que Tucuruí foi construída na Amazônia para atender projetos minerais como Carajás e Alunorte."
   },
   {
     "id": 9,
@@ -194,7 +197,8 @@
       "setor residencial",
       "eficiência energética"
     ],
-    "pergunta": "O setor residencial brasileiro é, depois da indústria, o que mais consome energia elétrica. A participação do setor residencial no consumo total de energia cresceu de forma bastante acelerada nos últimos anos.\n\nEsse crescimento pode ser explicado:\n\nI. pelo processo de urbanização no país, com a migração da população rural para as cidades.\n\nII. pela busca por melhor qualidade de vida com a maior utilização de sistemas de refrigeração, iluminação e aquecimento.\n\nIII. pela substituição de determinadas fontes de energia - a lenha, por exemplo - pela energia elétrica.\n\nDentre as explicações apresentadas",
+    "texto_apoio": "O setor residencial brasileiro é, depois da indústria, o que mais consome energia elétrica. A participação do setor residencial no consumo total de energia cresceu de forma bastante acelerada nos últimos anos.",
+    "pergunta": "Esse crescimento pode ser explicado:\n\nI. pelo processo de urbanização no país, com a migração da população rural para as cidades.\n\nII. pela busca por melhor qualidade de vida com a maior utilização de sistemas de refrigeração, iluminação e aquecimento.\n\nIII. pela substituição de determinadas fontes de energia - a lenha, por exemplo - pela energia elétrica.\n\nDentre as explicações apresentadas",
     "alternativas": [
       "apenas III é correta.",
       "apenas I e II são corretas.",
@@ -203,8 +207,8 @@
       "I, II e III são corretas."
     ],
     "correta": 4,
-    "ajuda": "As afirmativas tratam do consumo de energia elétrica no setor residencial. Analise cada proposição sobre tendências de consumo, eficiência energética e fatores socioeconômicos que influenciam o uso doméstico de energia.",
-    "comentario": "O setor residencial brasileiro é altamente dependente de energia elétrica para iluminação, refrigeração e equipamentos eletroeletrônicos. A combinação de ineficiência energética dos eletrodomésticos, tarifas crescentes e falta de políticas robustas de eficiência explica sua alta participação no consumo nacional. Medidas como selos de eficiência energética e tarifas progressivas incentivam o uso racional da eletricidade."
+    "comentario": "O setor residencial brasileiro é altamente dependente de energia elétrica para iluminação, refrigeração e equipamentos eletroeletrônicos. A combinação de ineficiência energética dos eletrodomésticos, tarifas crescentes e falta de políticas robustas de eficiência explica sua alta participação no consumo nacional. Medidas como selos de eficiência energética e tarifas progressivas incentivam o uso racional da eletricidade.",
+    "ajuda": "As afirmativas tratam do consumo de energia elétrica no setor residencial. Analise cada proposição sobre tendências de consumo, eficiência energética e fatores socioeconômicos que influenciam o uso doméstico de energia."
   },
   {
     "id": 10,
@@ -217,8 +221,9 @@
       "fontes renováveis",
       "ciclo energético"
     ],
+    "texto_apoio": "O diagrama a seguir representa a energia solar que atinge a Terra e sua utilização na geração de eletricidade. A energia solar é responsável pela manutenção do ciclo da água, pela movimentação doar, e pelo ciclo do carbono que ocorre através da fotossíntese dos vegetais, da decomposição e da respiração dos seres vivos, além da formação de combustíveis fósseis.",
     "imagem_apoio": "2ano/img/222/s22q10.png",
-    "pergunta": "O diagrama a seguir representa a energia solar que atinge a Terra e sua utilização na geração de eletricidade. A energia solar é responsável pela manutenção do ciclo da água, pela movimentação doar, e pelo ciclo do carbono que ocorre através da fotossíntese dos vegetais, da decomposição e da respiração dos seres vivos, além da formação de combustíveis fósseis.\n\nNo diagrama estão representadas as duas modalidades mais comuns de usinas elétricas, as hidroelétricas e as termoelétricas. No Brasil, a construção de usinas hidroelétricas deve ser incentivada porque essas:\n\nI. utilizam fontes renováveis, o que não ocorre com as termoelétricas que utilizam fontes que necessitam de bilhões de anos para serem reabastecidas.\n\nII. apresentam impacto ambiental nulo, pelo represamento das águas no curso normal dos rios.\n\nIII. Aumentam o índice pluviométrico da região de seca do Nordeste, pelo represamento de águas.\n\nDas três afirmações lidas, somente:",
+    "pergunta": "No diagrama estão representadas as duas modalidades mais comuns de usinas elétricas, as hidroelétricas e as termoelétricas. No Brasil, a construção de usinas hidroelétricas deve ser incentivada porque essas:\n\nI. utilizam fontes renováveis, o que não ocorre com as termoelétricas que utilizam fontes que necessitam de bilhões de anos para serem reabastecidas.\n\nII. apresentam impacto ambiental nulo, pelo represamento das águas no curso normal dos rios.\n\nIII. Aumentam o índice pluviométrico da região de seca do Nordeste, pelo represamento de águas.\n\nDas três afirmações lidas, somente:",
     "alternativas": [
       "I está correta.",
       "II está correta.",
@@ -227,7 +232,7 @@
       "II e III estão corretas"
     ],
     "correta": 0,
-    "ajuda": "O diagrama mostra como a energia solar é captada e convertida em eletricidade. Analise cada afirmativa sobre eficiência, perdas e usos da energia solar. Verifique quais são compatíveis com os princípios físicos da geração fotovoltaica.",
-    "comentario": "A energia solar chega à Terra em forma de radiação eletromagnética e pode ser convertida em eletricidade por células fotovoltaicas ou em calor por coletores solares. A eficiência de conversão depende da tecnologia dos painéis e da irradiação disponível no local. O diagrama evidencia que apenas uma fração da energia solar incidente é efetivamente aproveitada, com perdas por reflexão, calor e limitações tecnológicas."
+    "comentario": "A energia solar chega à Terra em forma de radiação eletromagnética e pode ser convertida em eletricidade por células fotovoltaicas ou em calor por coletores solares. A eficiência de conversão depende da tecnologia dos painéis e da irradiação disponível no local. O diagrama evidencia que apenas uma fração da energia solar incidente é efetivamente aproveitada, com perdas por reflexão, calor e limitações tecnológicas.",
+    "ajuda": "O diagrama mostra como a energia solar é captada e convertida em eletricidade. Analise cada afirmativa sobre eficiência, perdas e usos da energia solar. Verifique quais são compatíveis com os princípios físicos da geração fotovoltaica."
   }
 ]

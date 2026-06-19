@@ -103,7 +103,8 @@
       "floresta tropical",
       "biodiversidade"
     ],
-    "pergunta": "As florestas tropicais úmidas contribuem muito para a manutenção da vida no planeta, por meio do chamado sequestro de carbono atmosférico. Resultados de observações sucessivas, nas últimas décadas, indicam que a floresta amazônica é capaz de absorver até 300 milhões de toneladas de carbono por ano. Conclui-se, portanto, que as florestas exercem importante papel no controle.",
+    "texto_apoio": "As florestas tropicais úmidas contribuem muito para a manutenção da vida no planeta, por meio do chamado sequestro de carbono atmosférico. Resultados de observações sucessivas, nas últimas décadas, indicam que a floresta amazônica é capaz de absorver até 300 milhões de toneladas de carbono por ano.",
+    "pergunta": "Conclui-se, portanto, que as florestas exercem importante papel no controle.",
     "alternativas": [
       "das chuvas ácidas, que decorrem da liberação, na atmosfera, do dióxido de carbono resultante dos desmatamentos por queimadas.",
       "das inversões térmicas, causadas pelo acúmulo de dióxido de carbono resultante da não-dispersão dos poluentes para as regiões mais altas da atmosfera.",

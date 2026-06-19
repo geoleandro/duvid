@@ -31,7 +31,8 @@
       "índice de desenvolvimento humano",
       "saúde educação renda"
     ],
-    "pergunta": "O Índice de Desenvolvimento Humano (IDH), criado pela ONU, avalia com mais precisão as condições humanas e sociais de um país. Assinale a alternativa que apresente os indicadores utilizados na determinação do IDH.\n\nAssinale a alternativa que apresente os indicadores utilizados na determinação do IDH.",
+    "texto_apoio": "O Índice de Desenvolvimento Humano (IDH), criado pela ONU, avalia com mais precisão as condições humanas e sociais de um país.",
+    "pergunta": "Assinale a alternativa que apresente os indicadores utilizados na determinação do IDH.",
     "alternativas": [
       "Consumo de calorias, taxa de analfabetismo, número de médicos por 1.000 habitantes.",
       "Renda per capita, escolaridade, taxa de alfabetização entre adultos e expectativa de vida ao nascer.",
@@ -165,8 +166,9 @@
       "educação",
       "renda"
     ],
+    "texto_apoio": "O Índice de Desenvolvimento Humano Municipal (IDH-M) é composto por três indicadores: longevidade, educação e renda. No Brasil, o IDH-M cresceu 47,5% entre 1991 e 2010, conforme os mapas.",
     "imagem_apoio": "3ano/img/305/t5q8.png",
-    "pergunta": "O Índice de Desenvolvimento Humano Municipal (IDH-M) é composto por três indicadores: longevidade, educação e renda. No Brasil, o IDH-M cresceu 47,5% entre 1991 e 2010, conforme os mapas.\n\nGeograficamente, o desenvolvimento humano no Brasil apresenta mudanças decorrentes dos seguintes fatores principais:",
+    "pergunta": "Geograficamente, o desenvolvimento humano no Brasil apresenta mudanças decorrentes dos seguintes fatores principais:",
     "alternativas": [
       "erradicação do analfabetismo – elevação do PIB.",
       "desaceleração do desemprego – incremento da industrialização.",
@@ -187,8 +189,9 @@
       "desigualdade de renda",
       "estatística social"
     ],
+    "texto_apoio": "O Coeficiente de Gini é uma relação estatística para medir a desigualdade social, incluindo a distribuição de renda, e varia de 0 (zero) a 1 (um). O gráfico apresenta, no período de 2005 a 2009, os coeficientes encontrados em alguns países do G20, onde para a distribuição de renda o coeficiente 0 corresponde à completa igualdade na renda (todos detêm a mesma renda per capita) e o coeficiente 1 corresponde à completa desigualdade entre as rendas.",
     "imagem_apoio": "3ano/img/305/t5q9.png",
-    "pergunta": "O Coeficiente de Gini é uma relação estatística para medir a desigualdade social, incluindo a distribuição de renda, e varia de 0 (zero) a 1 (um). O gráfico apresenta, no período de 2005 a 2009, os coeficientes encontrados em alguns países do G20, onde para a distribuição de renda o coeficiente 0 corresponde à completa igualdade na renda (todos detêm a mesma renda per capita) e o coeficiente 1 corresponde à completa desigualdade entre as rendas.\n\nA partir da análise do gráfico, é correto afirmar que, no período e dentre os países analisados,",
+    "pergunta": "A partir da análise do gráfico, é correto afirmar que, no período e dentre os países analisados,",
     "alternativas": [
       "o Brasil é o segundo país com maior desigualdade na distribuição de renda dentre os países do G20.",
       "o Brasil apresenta a melhor taxa de distribuição de renda dos países da América Latina.",

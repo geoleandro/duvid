@@ -19,7 +19,13 @@
     ],
     "correta": 2,
     "comentario": "O GPS (Sistema de Posicionamento Global) funciona por trilateração: três ou mais satélites emitem sinais, e o receptor calcula sua posição com base no tempo de chegada desses sinais. O sensoriamento remoto usa sensores embarcados em satélites ou aeronaves para captar energia refletida pela superfície terrestre, gerando imagens sem contato físico.",
-    "ajuda": "O GPS e o sensoriamento remoto são ferramentas de geotecnologia que utilizam satélites e sensores para coletar dados espaciais. Pense em como essas ferramentas são aplicadas em situações do cotidiano e na gestão do território."
+    "ajuda": "O GPS e o sensoriamento remoto são ferramentas de geotecnologia que utilizam satélites e sensores para coletar dados espaciais. Pense em como essas ferramentas são aplicadas em situações do cotidiano e na gestão do território.",
+    "feedbacks": {
+      "0": "Aqui o item II foi marcado como falso, mas ele é verdadeiro: o GPS informa latitude, longitude e altitude. O erro de leitura está no item I, que é o único falso, porque o GPS é uma constelação com número definido de satélites (cerca de 24 ativos), e não vagamente 'dezenas'.",
+      "1": "O item IV foi marcado como falso, mas é verdadeiro: essas tecnologias realmente detectam queimadas e avaliam danos de secas e inundações. O único item falso é o I, pela imprecisão de dizer 'dezenas de satélites'.",
+      "3": "Esta opção considera todos os itens verdadeiros, mas o item I é falso. O GPS é formado por uma constelação definida (cerca de 24 satélites ativos); descrevê-lo como 'dezenas de satélites' é considerado impreciso pela banca. Os itens II, III e IV estão corretos.",
+      "4": "Vários itens foram mal avaliados aqui: o II (latitude, longitude e altitude) e o IV (acompanhar queimadas e avaliar prejuízos) são verdadeiros. Só o item I é falso, pela imprecisão sobre o número de satélites do GPS."
+    }
   },
   {
     "id": 2,
@@ -42,7 +48,13 @@
     ],
     "correta": 4,
     "comentario": "As imagens de satélite e fotografias aéreas são ferramentas complementares: fotografias aéreas têm alta resolução e são ideais para análises locais; imagens de satélite cobrem áreas maiores com periodicidade regular, sendo úteis para monitoramento ambiental. Ambas passam por processos de correção geométrica antes de serem usadas em análises.",
-    "ajuda": "As imagens de sensoriamento remoto capturam a energia refletida ou emitida pela superfície terrestre em diferentes comprimentos de onda. Analise as figuras e verifique qual afirmativa descreve corretamente como os sensores interpretam essas informações."
+    "ajuda": "As imagens de sensoriamento remoto capturam a energia refletida ou emitida pela superfície terrestre em diferentes comprimentos de onda. Analise as figuras e verifique qual afirmativa descreve corretamente como os sensores interpretam essas informações.",
+    "feedbacks": {
+      "0": "A afirmativa I está correta, mas não é a única. As afirmativas II (nem todo produto de sensoriamento é liberado para uso civil) e III (imagens periódicas servem ao monitoramento ambiental e à geopolítica) também são verdadeiras.",
+      "1": "A afirmativa II está correta, porém as outras duas também. A I distingue bem imagens de satélite (escala pequena) de fotografias aéreas (escala grande), e a III aponta o valor das imagens periódicas. As três estão certas.",
+      "2": "As afirmativas II e III estão corretas, mas faltou incluir a I, que também é verdadeira: imagens de satélite servem a mapas temáticos de escala pequena e fotografias aéreas a cartas topográficas de escala grande.",
+      "3": "As afirmativas I e III estão corretas, mas a II também é verdadeira: nem todos os produtos de sensoriamento remoto são disponibilizados para uso civil, pois muitos têm uso militar ou restrito. As três estão certas."
+    }
   },
   {
     "id": 3,
@@ -66,7 +78,13 @@
     ],
     "correta": 2,
     "comentario": "O sensoriamento remoto amplia a percepção humana ao captar radiação eletromagnética — visível, infravermelha, micro-ondas — refletida ou emitida pela superfície terrestre. Tem aplicações em monitoramento de desmatamento (PRODES/INPE), previsão de safras, mapeamento de enchentes, detecção de incêndios e defesa nacional.",
-    "ajuda": "O sensoriamento remoto permite observar o território a distância, por meio de satélites ou aeronaves, sem contato direto. Avalie cada afirmativa sobre suas capacidades e limitações: ele detecta calor? Distinção de culturas? Movimento de pessoas?"
+    "ajuda": "O sensoriamento remoto permite observar o território a distância, por meio de satélites ou aeronaves, sem contato direto. Avalie cada afirmativa sobre suas capacidades e limitações: ele detecta calor? Distinção de culturas? Movimento de pessoas?",
+    "feedbacks": {
+      "0": "A afirmativa I está correta, mas não é a única. A II (obter informações sem contato físico com o alvo) e a III (uso de radiação eletromagnética de fontes naturais e artificiais) também estão corretas.",
+      "1": "A afirmativa III está correta, porém a I e a II também. A I define o sensoriamento como ampliação dos sentidos, e a II descreve a obtenção de dados sem contato físico. As três são verdadeiras.",
+      "3": "As afirmativas I e III estão corretas, mas faltou a II, que também é verdadeira: o sensoriamento remoto obtém informações de um alvo sem contato físico com ele. As três estão certas.",
+      "4": "A afirmativa II está correta, mas as outras duas também. A I (ampliar os sentidos naturais) e a III (uso da radiação eletromagnética do Sol, da Terra ou de radares) também são verdadeiras."
+    }
   },
   {
     "id": 4,
@@ -87,7 +105,12 @@
     ],
     "correta": 2,
     "comentario": "O geoprocessamento integra dados espaciais de diversas fontes (satélites, GPS, sensores) em Sistemas de Informação Geográfica (SIG/GIS). Esses sistemas permitem sobrepor camadas de informação (relevo, vegetação, uso do solo), realizar análises espaciais e gerar mapas temáticos. Não depende exclusivamente de satélites — pode usar dados de campo, censos e aerofotogrametria.",
-    "ajuda": "O geoprocessamento integra dados geográficos de diferentes fontes para análise espacial. Pense em como ele permite sobrepor camadas de informação (uso do solo, relevo, hidrografia) para apoiar decisões de planejamento urbano ou ambiental."
+    "ajuda": "O geoprocessamento integra dados geográficos de diferentes fontes para análise espacial. Pense em como ele permite sobrepor camadas de informação (uso do solo, relevo, hidrografia) para apoiar decisões de planejamento urbano ou ambiental.",
+    "feedbacks": {
+      "0": "Atenção: a questão pede a alternativa INCORRETA. Esta afirmação está correta, pois o geoprocessamento realmente depende de softwares e equipamentos para tratar os dados. Logo, não é a resposta.",
+      "1": "A questão pede a alternativa INCORRETA, e esta está correta: a aerofotogrametria (fotografias aéreas) é de fato uma ferramenta usada no geoprocessamento. Por isso não é a resposta procurada.",
+      "3": "A questão pede a alternativa INCORRETA, e esta está correta: imagens de satélite de alta resolução podem, sim, ser usadas para espionagem. A única afirmação falsa é a de que os mapas digitais dependem 'única e exclusivamente' dos satélites, ignorando dados de campo, censos e aerofotogrametria."
+    }
   },
   {
     "id": 5,
@@ -99,7 +122,9 @@
       "geotecnologias",
       "imagens de satélite"
     ],
-    "pergunta": "O sensoriamento remoto é um recurso técnico para ampliar os sentidos naturais do homem. É um dispositivo ou equipamento (câmara fotográfica, radar, satélite) que capta e registra, sob a forma de imagens, a energia refletida ou emitida pelas áreas, acidentes, objetos e acontecimentos do meio ambiente, incluindo os acidentes naturais e culturais.\n\nOLIVEIRA, Cêurio. In: COELHO, Amorim. Geografia geral: o espaço natural e socioeconômico. São Paulo: Moderna, 1992.\n\nCom base no texto e nos conhecimentos sobre sensoriamento remoto e representações cartográficas, é correto afirmar:",
+    "texto_apoio": "O sensoriamento remoto é um recurso técnico para ampliar os sentidos naturais do homem. É um dispositivo ou equipamento (câmara fotográfica, radar, satélite) que capta e registra, sob a forma de imagens, a energia refletida ou emitida pelas áreas, acidentes, objetos e acontecimentos do meio ambiente, incluindo os acidentes naturais e culturais.",
+    "fonte_apoio": "OLIVEIRA, Cêurio. In: COELHO, Amorim. Geografia geral: o espaço natural e socioeconômico. São Paulo: Moderna, 1992.",
+    "pergunta": "Com base no texto e nos conhecimentos sobre sensoriamento remoto e representações cartográficas, é correto afirmar:",
     "alternativas": [
       "As fotografias feitas por satélites dispensam todos os tipos de cartas geográficas temáticas.",
       "A totalidade da superfície terrestre pode ser visualizada através de uma única foto feita por satélite..",
@@ -109,7 +134,13 @@
     ],
     "correta": 4,
     "comentario": "O sensoriamento remoto inclui fotografias aéreas (avião ou drone) e imagens de satélite. As fotografias aéreas oferecem alta resolução espacial e são ideais para mapeamentos detalhados. Já as imagens de satélite cobrem áreas maiores com revisita periódica. Ambas são insumos para análises de SIG e monitoramento ambiental.",
-    "ajuda": "O sensoriamento remoto amplia a percepção humana ao registrar comprimentos de onda além do visível (infravermelho, micro-ondas). Reflita sobre suas aplicações: mapeamento de vegetação, monitoramento de queimadas, análise de umidade do solo."
+    "ajuda": "O sensoriamento remoto amplia a percepção humana ao registrar comprimentos de onda além do visível (infravermelho, micro-ondas). Reflita sobre suas aplicações: mapeamento de vegetação, monitoramento de queimadas, análise de umidade do solo.",
+    "feedbacks": {
+      "0": "É um exagero. As imagens de satélite complementam as cartas temáticas, mas não dispensam todas elas. Muitos mapas exigem dados de campo e interpretação que a foto sozinha não fornece.",
+      "1": "Nenhum satélite registra toda a superfície da Terra em uma única foto. Cada imagem cobre uma faixa do território; o planeta inteiro só é representado pela junção de muitas imagens (mosaico).",
+      "2": "As imagens de radar não oferecem detalhes milimétricos a ponto de detectar pragas individuais nas lavouras. A resolução do sensoriamento remoto é bem maior que isso; pragas exigem observação em campo.",
+      "3": "O mapa-múndi tem escala pequena (mostra uma área enorme com pouco detalhe), justamente o contrário de 'grande escala'. Por isso não é a representação mais perfeita nem a mais detalhada."
+    }
   },
   {
     "id": 6,
@@ -130,7 +161,12 @@
     ],
     "correta": 1,
     "comentario": "As geotecnologias englobam GPS (posicionamento), sensoriamento remoto (obtenção de imagens), geoprocessamento (análise digital) e SIG (sistema de gerenciamento de dados espaciais). Cada uma tem função específica, mas são frequentemente usadas em conjunto — o GPS geocodifica pontos de campo que alimentam o SIG, por exemplo.",
-    "ajuda": "Associe cada geotecnologia (GPS, SIG, sensoriamento remoto, cartografia digital) à sua definição ou função principal. Pense em como cada uma coleta, processa ou apresenta informações geoespaciais."
+    "ajuda": "Associe cada geotecnologia (GPS, SIG, sensoriamento remoto, cartografia digital) à sua definição ou função principal. Pense em como cada uma coleta, processa ou apresenta informações geoespaciais.",
+    "feedbacks": {
+      "0": "A sequência não respeita a função de cada geotecnologia. Releia ligando cada item à sua tarefa específica: GPS localiza pontos, o sensoriamento remoto obtém imagens, o geoprocessamento analisa os dados e o SIG os gerencia.",
+      "2": "A ordem está trocada. Confira especialmente qual tecnologia coleta a posição (GPS) e qual capta as imagens (sensoriamento remoto); nesta opção elas não estão no lugar certo.",
+      "3": "A correspondência ficou fora de ordem. Compare item por item: associe primeiro cada geotecnologia à sua definição e só depois monte a sequência de números, de cima para baixo."
+    }
   },
   {
     "id": 7,
@@ -152,7 +188,13 @@
     ],
     "correta": 1,
     "comentario": "O sensoriamento remoto utiliza fotos aéreas, imagens de radar (que atravessam nuvens) e imagens de satélite multiespectrais. Radares são particularmente úteis na Amazônia e regiões permanentemente cobertas por nuvens. O SRTM da NASA, por exemplo, mapeou o relevo global com radar em 2000.",
-    "ajuda": "O sensoriamento remoto usa sensores passivos (que captam energia solar refletida) e ativos (que emitem e captam seu próprio sinal, como o radar). Reflita sobre qual tipo de sensor é mais útil em cada situação: durante a noite, sob nuvens, em áreas remotas."
+    "ajuda": "O sensoriamento remoto usa sensores passivos (que captam energia solar refletida) e ativos (que emitem e captam seu próprio sinal, como o radar). Reflita sobre qual tipo de sensor é mais útil em cada situação: durante a noite, sob nuvens, em áreas remotas.",
+    "feedbacks": {
+      "0": "Cartas náuticas e marítimas são produtos cartográficos prontos, não materiais captados pela técnica de sensoriamento remoto. O radar é o único item válido aqui, mas os outros dois não se encaixam.",
+      "2": "Telescópios servem à observação astronômica e altímetros medem altitude; não são os materiais de imagem do sensoriamento remoto. Apenas o satélite, sozinho, não completa a resposta.",
+      "3": "Astrolábio, bússola e clinômetro são instrumentos antigos de navegação e topografia, anteriores ao sensoriamento remoto. Eles não captam imagens da superfície a distância.",
+      "4": "Termógrafo, bússola e curvímetro são instrumentos de medição (temperatura, direção, distância em mapas), não fontes de imagem do sensoriamento remoto."
+    }
   },
   {
     "id": 8,
@@ -175,7 +217,13 @@
     ],
     "correta": 2,
     "comentario": "O sensoriamento remoto é essencial para o monitoramento ambiental em tempo quase real. O INPE usa imagens de satélite para detectar desmatamento na Amazônia (sistema DETER) e calcular a taxa anual (PRODES). Em 2023, o Brasil registrou a menor taxa de desmatamento desde 2015, graças em parte ao uso intensivo dessas tecnologias.",
-    "ajuda": "O sensoriamento remoto tem diversas aplicações práticas, como monitoramento de desmatamento, avaliação de safras, detecção de enchentes e planejamento urbano. Identifique na questão qual aplicação está sendo descrita e qual tecnologia é mais adequada para cada caso."
+    "ajuda": "O sensoriamento remoto tem diversas aplicações práticas, como monitoramento de desmatamento, avaliação de safras, detecção de enchentes e planejamento urbano. Identifique na questão qual aplicação está sendo descrita e qual tecnologia é mais adequada para cada caso.",
+    "feedbacks": {
+      "0": "Fluxos monetários internacionais são dados econômicos, não captados por sensores sobre a superfície terrestre. Esse não é o objetivo do sensoriamento remoto.",
+      "1": "Monitorar a tectônica global é apenas uma aplicação específica, não o objetivo principal. O sensoriamento remoto serve a um propósito mais amplo: obter imagens e dados variados da superfície.",
+      "3": "Acompanhar a circulação aérea é uma função do controle de tráfego aéreo (radares específicos), não o objetivo central do sensoriamento remoto, que é coletar dados da superfície terrestre.",
+      "4": "Diagnosticar migrações envolve dados sociais e demográficos, não imagens da superfície. Essa não é a finalidade principal do sensoriamento remoto."
+    }
   },
   {
     "id": 9,
@@ -198,7 +246,13 @@
     ],
     "correta": 0,
     "comentario": "O sensoriamento remoto capta dados sobre a superfície terrestre sem contato direto, usando sensores que registram energia eletromagnética refletida ou emitida. As principais aplicações incluem mapeamento de uso do solo, monitoramento de recursos hídricos, previsão agrícola e resposta a desastres naturais.",
-    "ajuda": "Ao interpretar imagens de satélite, é fundamental distinguir entre resolução espacial (tamanho do menor objeto detectável), espectral (faixas de comprimento de onda captadas) e temporal (frequência de revisita da área). Verifique qual afirmativa confunde ou descreve corretamente esses conceitos."
+    "ajuda": "Ao interpretar imagens de satélite, é fundamental distinguir entre resolução espacial (tamanho do menor objeto detectável), espectral (faixas de comprimento de onda captadas) e temporal (frequência de revisita da área). Verifique qual afirmativa confunde ou descreve corretamente esses conceitos.",
+    "feedbacks": {
+      "1": "Há uma contradição: o sensoriamento remoto capta dados a distância do alvo, e não 'próximo' dele, como afirma esta alternativa. É justamente essa observação remota que define a técnica.",
+      "2": "O erro está em dizer que a interpretação pode ser feita 'por qualquer pessoa'. A análise de imagens de sensoriamento remoto exige conhecimento técnico para distinguir alvos, resoluções e classes de objetos.",
+      "3": "Ao contrário do que diz a alternativa, o sensoriamento remoto inclui, sim, o processamento digital de imagens. É justamente esse tratamento que permite extrair informações úteis dos dados captados.",
+      "4": "O especialista humano continua sendo necessário. O sensoriamento remoto não descarta o analista: é ele quem reconhece e classifica os objetos identificados nas imagens."
+    }
   },
   {
     "id": 10,
@@ -221,6 +275,12 @@
     ],
     "correta": 2,
     "comentario": "O GPS opera por trilateração: o receptor mede o tempo que o sinal leva para chegar de cada satélite e calcula a distância até eles. Com dados de pelo menos 3 satélites, determina a posição 2D; com 4 ou mais, calcula também a altitude. Hoje, o sistema é fundamental para navegação, logística, agricultura de precisão e serviços de emergência.",
-    "ajuda": "A tirinha faz uma crítica bem-humorada ao uso exagerado de tecnologias de localização no cotidiano. Pense em que reflexão geográfica ela sugere sobre a dependência humana de ferramentas digitais de orientação e mapeamento."
+    "ajuda": "A tirinha faz uma crítica bem-humorada ao uso exagerado de tecnologias de localização no cotidiano. Pense em que reflexão geográfica ela sugere sobre a dependência humana de ferramentas digitais de orientação e mapeamento.",
+    "feedbacks": {
+      "0": "A tecnologia (GPS) está certa, mas a descrição não. Captar e registrar imagens a distância por sensores é a definição de sensoriamento remoto, e não de GPS, que serve para determinar posição.",
+      "1": "A tirinha trata de localização e posicionamento, função do GPS, e não do sensoriamento remoto. Além disso, a descrição apresentada mistura conceitos das duas tecnologias.",
+      "3": "Aqui há dois enganos: a tecnologia da tirinha é o GPS, não o sensoriamento remoto; e 'banco de dados que gerencia informações espaciais' descreve, na verdade, um SIG (Sistema de Informação Geográfica).",
+      "4": "A tecnologia (GPS) está certa, mas o GPS não funciona por meio de cartas topográficas articuladas. Ele determina a posição por trilateração, calculando distâncias a partir dos sinais de vários satélites."
+    }
   }
 ]

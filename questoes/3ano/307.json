@@ -169,7 +169,8 @@
       "espaço geográfico",
       "urbanização"
     ],
-    "pergunta": "A Primeira Revolução Industrial provocou uma grande transformação no espaço geográfico. A esse respeito, leia as afirmações abaixo.\n\nI. Aconteceu um intenso processo de urbanização, e as cidades passaram a comandar as atividades econômicas e a organização do espaço geográfico.\n\nII. Com a ampliação da divisão internacional do trabalho, alguns países europeus especializaram-se na produção industrial, controlando o mercado mundial de produtos industrializados.\n\nIII. Aconteceram grandes mudanças no modo de produção, sem implicações na organização política e territorial da Europa.\n\nAssinale a alternativa correta.",
+    "texto_apoio": "A Primeira Revolução Industrial provocou uma grande transformação no espaço geográfico.",
+    "pergunta": "A esse respeito, leia as afirmações abaixo.\n\nI. Aconteceu um intenso processo de urbanização, e as cidades passaram a comandar as atividades econômicas e a organização do espaço geográfico.\n\nII. Com a ampliação da divisão internacional do trabalho, alguns países europeus especializaram-se na produção industrial, controlando o mercado mundial de produtos industrializados.\n\nIII. Aconteceram grandes mudanças no modo de produção, sem implicações na organização política e territorial da Europa.\n\nAssinale a alternativa correta.",
     "alternativas": [
       "Apenas I é verdadeira.",
       "Apenas III é verdadeira.",

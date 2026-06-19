@@ -10,7 +10,8 @@
       "potência mundial",
       "BRICS"
     ],
-    "pergunta": "A China é um dos países que mais cresceu nas últimas décadas e tem se projetado como potência no sistema internacional, por isso alguns analistas consideram o século XXI como “o século chinês”.\n\nAs afirmativas a seguir exemplificam corretamente o protagonismo da política externa da China no mundo atual à exceção de uma. Assinale-a.",
+    "texto_apoio": "A China é um dos países que mais cresceu nas últimas décadas e tem se projetado como potência no sistema internacional, por isso alguns analistas consideram o século XXI como “o século chinês”.",
+    "pergunta": "As afirmativas a seguir exemplificam corretamente o protagonismo da política externa da China no mundo atual à exceção de uma. Assinale-a.",
     "alternativas": [
       "Durante o governo Trump aumentou o distanciamento entre os Estados Unidos e a China, que se colocou como defensora do multilateralismo frente ao isolacionismo norte-americano.",
       "A nova Rota da Seda (One Belt, One Road), que liga a China à Ásia Central e à Europa, por meio de investimento em ferrovias e portos, ampliou a influência externa da China.",
@@ -80,7 +81,8 @@
       "populações",
       "economias emergentes"
     ],
-    "pergunta": "China e Índia são dois gigantes que possuem inúmeras semelhanças, como, por exemplo, o fato de serem os países mais populosos do mundo e fazerem parte dos chamados BRICS. Apesar disso, guardam inúmeras características que os diferenciam entre si.\n\nSobre as diferenças entre esses dois gigantes, podemos citar os fatos de que, enquanto:\n\nI – a Índia baseia sua matriz energética no petróleo e na energia nuclear, a China prioriza o gás natural e o carvão mineral.\n\nII – a China implantou um rígido programa de controle de natalidade, a Índia não tem demonstrado a mesma preocupação ao longo das últimas décadas.\n\nIII – a China dispõe de uma maior diversidade cultural, a Índia possui uma cultura milenar, o que lhe garante maior homogeneidade étnica e linguística.\n\nIV – o modelo econômico chinês privilegiou a produção industrial, a Índia está se convertendo numa economia de serviços, na qual se destacam setores como tecnologia da informação e biotecnologia.\n\nAssinale a alternativa que apresenta todas as afirmativas corretas, dentre as listadas acima.",
+    "texto_apoio": "China e Índia são dois gigantes que possuem inúmeras semelhanças, como, por exemplo, o fato de serem os países mais populosos do mundo e fazerem parte dos chamados BRICS. Apesar disso, guardam inúmeras características que os diferenciam entre si.",
+    "pergunta": "Sobre as diferenças entre esses dois gigantes, podemos citar os fatos de que, enquanto:\n\nI – a Índia baseia sua matriz energética no petróleo e na energia nuclear, a China prioriza o gás natural e o carvão mineral.\n\nII – a China implantou um rígido programa de controle de natalidade, a Índia não tem demonstrado a mesma preocupação ao longo das últimas décadas.\n\nIII – a China dispõe de uma maior diversidade cultural, a Índia possui uma cultura milenar, o que lhe garante maior homogeneidade étnica e linguística.\n\nIV – o modelo econômico chinês privilegiou a produção industrial, a Índia está se convertendo numa economia de serviços, na qual se destacam setores como tecnologia da informação e biotecnologia.\n\nAssinale a alternativa que apresenta todas as afirmativas corretas, dentre as listadas acima.",
     "alternativas": [
       "I e II.",
       "I e III.",
@@ -125,8 +127,9 @@
       "disputa territorial",
       "plataforma petrolífera"
     ],
+    "texto_apoio": "No início de maio de 2014, a instalação da plataforma petrolífera de perfuração HYSY-981 nas águas contestadas do Mar da China Meridional suscitou especulações sobre as motivações chinesas. Na avaliação de diversos observadores ocidentais, Pequim pretendeu, com esse gesto, demonstrar que pode impor seu controle e dissuadir outros países de seguir com suas reivindicações de direito de exploração dessas águas, como é o caso do Vietnã e das Filipinas.",
     "fonte_apoio": "KLARE, MT. A guerra pelo petróleo se joga no mar. Le Monde Diplomatique Brasil, abr. 2015.",
-    "pergunta": "No início de maio de 2014, a instalação da plataforma petrolífera de perfuração HYSY-981 nas águas contestadas do Mar da China Meridional suscitou especulações sobre as motivações chinesas. Na avaliação de diversos observadores ocidentais, Pequim pretendeu, com esse gesto, demonstrar que pode impor seu controle e dissuadir outros países de seguir com suas reivindicações de direito de exploração dessas águas, como é o caso do Vietnã e das Filipinas.\n\nA ação da China em relação à situação descrita no texto evidencia um conflito que tem como foco o(a):",
+    "pergunta": "A ação da China em relação à situação descrita no texto evidencia um conflito que tem como foco o(a):",
     "alternativas": [
       "Distribuição das zonas econômicas especiais.",
       "Monopólio das inovações tecnológicas extrativas.",
@@ -150,8 +153,9 @@
       "erosão",
       "geomorfologia"
     ],
+    "texto_apoio": "A partir das imagens a seguir, pode-se inferir a progressão do delta do rio Huang Ho (Rio Amarelo), na costa leste da China, famoso pelo transporte de sedimentos conhecidos por loess. De 1979 a 2000, alterou-se consideravelmente a morfologia do delta, com o aparecimento de feições recentes sobrepostas a outras, que levaram milhões de anos para se formar.",
     "imagem_apoio": "3ano/img/333/t33q7.png",
-    "pergunta": "A partir das imagens a seguir, pode-se inferir a progressão do delta do rio Huang Ho (Rio Amarelo), na costa leste da China, famoso pelo transporte de sedimentos conhecidos por loess. De 1979 a 2000, alterou-se consideravelmente a morfologia do delta, com o aparecimento de feições recentes sobrepostas a outras, que levaram milhões de anos para se formar.\n\nCom base na comparação entre as imagens de satélite e em seus conhecimentos, assinale a afirmação correta.",
+    "pergunta": "Com base na comparação entre as imagens de satélite e em seus conhecimentos, assinale a afirmação correta.",
     "alternativas": [
       "A situação verificada deve-se aos efeitos das ondas e marés que comandam a deposição de sedimentos no delta, sem haver influência continental no processo, já que a topografia costeira permite que o oceano alcance o interior do continente.",
       "A modificação na morfologia deve-se às grandes chuvas que ocorrem a montante desse delta e, por tratar-se de drenagem endorreica, o rio carrega considerável volume de sedimentos grosseiros e blocos rochosos, que, aos poucos, depositam-se ao longo da costa.",
@@ -174,8 +178,9 @@
       "socialismo de mercado",
       "Deng Xiaoping"
     ],
+    "texto_apoio": "O principal articulador do atual modelo econômico chinês argumenta que o mercado é só um instrumento econômico, que se emprega de forma indistinta tanto no capitalismo como no socialismo. Porém os próprios chineses já estão sentindo, na sua sociedade, o seu real significado: o mercado não é algo neutro, ou um instrumental técnico que possibilita à sociedade utilizá-lo para a construção e edificação do socialismo. Ele é, ao contrário do que diz o articulador, um instrumento do capitalismo e é inerente à sua estrutura como modo de produção. A sua utilização está levando a uma polarização da sociedade chinesa.",
     "fonte_apoio": "OLIVEIRA, A. A Revolução Chinesa. Caros Amigos, 31 jan. 2011 (adaptado).",
-    "pergunta": "O principal articulador do atual modelo econômico chinês argumenta que o mercado é só um instrumento econômico, que se emprega de forma indistinta tanto no capitalismo como no socialismo. Porém os próprios chineses já estão sentindo, na sua sociedade, o seu real significado: o mercado não é algo neutro, ou um instrumental técnico que possibilita à sociedade utilizá-lo para a construção e edificação do socialismo. Ele é, ao contrário do que diz o articulador, um instrumento do capitalismo e é inerente à sua estrutura como modo de produção. A sua utilização está levando a uma polarização da sociedade chinesa.\n\nNo texto, as reformas econômicas ocorridas na China são colocadas como antagônicas à construção de um país socialista. Nesse contexto, a característica fundamental do socialismo, à qual o modelo econômico chinês atual se contrapõe é a",
+    "pergunta": "No texto, as reformas econômicas ocorridas na China são colocadas como antagônicas à construção de um país socialista. Nesse contexto, a característica fundamental do socialismo, à qual o modelo econômico chinês atual se contrapõe é a",
     "alternativas": [
       "desestatização da economia.",
       "instauração de um partido único.",

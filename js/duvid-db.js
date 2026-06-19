@@ -7,6 +7,9 @@ const NOME_CHAVE     = "duvid_nome";
 const PATENTE_CHAVE  = "duvid_patente";
 const NIVEL_CHAVE    = "duvid_lvl";
 const ALUNO_ID_CHAVE = "duvid_aluno_id";
+const ESTADO_CHAVE   = "duvid_estado";
+const CIDADE_CHAVE   = "duvid_cidade";
+const ESCOLA_CHAVE   = "duvid_escola";
 // localStorage é cache de sessão — banco sempre vence no próximo sincronizarComBanco
 
 const RECOMPENSA_TEXTO    = 10;
@@ -59,10 +62,44 @@ const DuvidDB = {
         return localStorage.getItem(NOME_CHAVE) || "";
     },
 
-    salvarNome: function (nome, email, pin, codigoTurma) {
+    // Retorna o id do aluno logado (útil para chamadas externas)
+    getId: function () {
+        return this._getAlunoId();
+    },
+
+    // Retorna snapshot do cache atual (para preencher formulários)
+    getCache: function () {
+        return Object.assign({}, this._cache);
+    },
+
+    // Atualiza o cache local com a resposta do PATCH /api/aluno.php
+    // Garante que nome, estado, cidade, escola ficam sincronizados
+    atualizarCache: function (dados) {
+        if (!dados) return;
+        if (dados.nome)   localStorage.setItem(NOME_CHAVE, dados.nome);
+        if (dados.id)     { this._cache.alunoId = dados.id; localStorage.setItem(ALUNO_ID_CHAVE, dados.id); }
+        if (dados.estado !== undefined) localStorage.setItem(ESTADO_CHAVE, dados.estado || '');
+        if (dados.cidade !== undefined) localStorage.setItem(CIDADE_CHAVE, dados.cidade || '');
+        if (dados.escola !== undefined) localStorage.setItem(ESCOLA_CHAVE, dados.escola || '');
+        if (dados.globinhos !== undefined) this._cache.globinhos = dados.globinhos;
+    },
+
+    // Lê localização salva localmente (para preencher o modal de edição)
+    getLocalizacao: function () {
+        return {
+            estado: localStorage.getItem(ESTADO_CHAVE) || '',
+            cidade: localStorage.getItem(CIDADE_CHAVE) || '',
+            escola: localStorage.getItem(ESCOLA_CHAVE) || '',
+        };
+    },
+
+    salvarNome: function (nome, email, pin, codigoTurma, estado, cidade, escola) {
         email = email || '';
         pin   = pin   || '';
         codigoTurma = codigoTurma || '';
+        estado = (estado || '').toUpperCase();
+        cidade = cidade || '';
+        escola = escola || '';
         if (!nome || nome.trim() === "") return Promise.resolve(null);
         nome = nome.trim();
         localStorage.setItem(NOME_CHAVE, nome);
@@ -71,12 +108,19 @@ const DuvidDB = {
         if (email)       payload.email        = email;
         if (pin)         payload.pin          = pin;
         if (codigoTurma) payload.codigo_turma = codigoTurma;
+        if (estado)      payload.estado       = estado;
+        if (cidade)      payload.cidade       = cidade;
+        if (escola)      payload.escola       = escola;
 
         return this._post('aluno.php', payload)
             .then(function(dados) {
                 if (!dados || !dados.id) return dados;
                 DuvidDB._cache.alunoId = dados.id;
                 localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
+                // Persiste localização para preencher modal de edição depois
+                localStorage.setItem(ESTADO_CHAVE, dados.estado || '');
+                localStorage.setItem(CIDADE_CHAVE, dados.cidade || '');
+                localStorage.setItem(ESCOLA_CHAVE, dados.escola || '');
                 // Banco é fonte de verdade — só cache, sem localStorage para globinhos
                 DuvidDB._cache.globinhos = dados.globinhos;
                 if (typeof atualizarInterface === "function") atualizarInterface();
@@ -105,7 +149,7 @@ const DuvidDB = {
         const progressoAtual = this.verificarConquistas();
         if (progressoAtual.lvl > lvlAnterior) {
             if (typeof playSomFinal        === "function") playSomFinal(true);
-            if (typeof dispararComemoracao === "function") dispararComemoracao(true);
+            if (typeof dispararComemoracao === "function") dispararComemoracao('nivel');
             this.exibirNotificacaoLevelUp(progressoAtual);
         } else {
             if (typeof playSom === "function") playSom('acerto');
@@ -173,12 +217,12 @@ const DuvidDB = {
     //  SISTEMA RPG
     // ==========================================================
     RANKING_SISTEMA: [
-        { lvl: 1, patente: 'NOVATO',          min: 0,     max: 1000,  cor: '#9d9d9d' },
-        { lvl: 2, patente: 'EXPLORADOR',       min: 1001,  max: 3500,  cor: '#4caf50' },
-        { lvl: 3, patente: 'CARTOGRAFO',       min: 3501,  max: 8000,  cor: '#2196f3' },
-        { lvl: 4, patente: 'ESTRATEGISTA',     min: 8001,  max: 15000, cor: '#9c27b0' },
-        { lvl: 5, patente: 'GEOGRAFO SENIOR',  min: 15001, max: 20000, cor: '#ff9800' },
-        { lvl: 6, patente: 'LENDA DA TERRA',   min: 20001, max: 99999, cor: '#f44336' },
+        { lvl: 1, patente: 'NOVATO',          min: 0,     max: 1499,  cor: '#9d9d9d' },
+        { lvl: 2, patente: 'EXPLORADOR',       min: 1500,  max: 3499,  cor: '#4caf50' },
+        { lvl: 3, patente: 'CARTÓGRAFO',       min: 3500,  max: 6499,  cor: '#2196f3' },
+        { lvl: 4, patente: 'ESTRATEGISTA',     min: 6500,  max: 9499,  cor: '#9c27b0' },
+        { lvl: 5, patente: 'GEÓGRAFO SÊNIOR',  min: 9500,  max: 12999, cor: '#ff9800' },
+        { lvl: 6, patente: 'LENDA DA TERRA',   min: 13000, max: 99999, cor: '#f44336' },
     ],
 
     getProgressoRPG: function () {
@@ -280,7 +324,12 @@ const DuvidDB = {
                 }
                 DuvidDB._aplicarDadosBanco(dados);
             })
-            .catch(function() {});
+            .catch(function(e) {
+                // Não quebra a página, mas deixa rastro no console.
+                // Se a API devolver erro de PHP em vez de JSON, é aqui que aparece —
+                // e os cards ficam cinzas porque as conclusões não chegaram.
+                console.warn('[DuvidDB] Falha ao sincronizar com o banco (cards podem ficar cinzas):', e);
+            });
     },
 
 };

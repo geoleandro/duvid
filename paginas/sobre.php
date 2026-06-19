@@ -116,6 +116,13 @@
                     </video>
                 </div>
 
+                 <div class="w3-center" style="margin-top: 20px; margin-bottom: 20px; clear: both;">
+                    <a href="/jogo/index.html" target="_blank" class="w3-button w3-blue w3-round-large"
+                        style="display: inline-block; width: 100%; max-width: 400px; text-decoration: none;">
+                        Clique aqui para jogar o <br>Aventura Geográfica (Versão Web)
+                    </a>
+                </div>
+
                 <p>O jogo conta a história de Jéssica e sua investigação ambiental, unindo o enredo ao conteúdo
                     geográfico.</p>
 

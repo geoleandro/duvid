@@ -200,6 +200,9 @@ function NomeAlunos(respid, inputid) {
     const email  = document.getElementById('pq-email')?.value.trim() ?? '';
     const pin    = document.getElementById('pq-pin')?.value.trim()   ?? '';
     const turma  = document.getElementById('pq-turma')?.value.trim() ?? '';
+    const estado = document.getElementById('pq-estado')?.value.trim() ?? '';
+    const cidade = document.getElementById('pq-cidade')?.value.trim() ?? '';
+    const escola = document.getElementById('pq-escola')?.value.trim() ?? '';
     const erroEl = document.getElementById('login-erro');
 
     function mostrarErro(msg) {
@@ -232,7 +235,7 @@ function NomeAlunos(respid, inputid) {
 
     limparErro();
 
-    DuvidDB.salvarNome(nome, email, pin, turma)
+    DuvidDB.salvarNome(nome, email, pin, turma, estado, cidade, escola)
         .then(dados => {
             if (!dados) return;
             if (dados.erro && !dados.bloqueado) {
@@ -256,18 +259,31 @@ function NomeAlunos(respid, inputid) {
 
 
 function prepararTrocaNome() {
-    const form = document.getElementById('form-identificacao');
-    const display = document.getElementById('display-identificado');
-    const input = document.getElementById('pq0');
+    // Tenta abrir o modal de edição de perfil (definido em home.php)
+    const modal = document.getElementById('modal-editar-perfil');
+    if (modal) {
+        const loc = (typeof DuvidDB !== 'undefined' && DuvidDB.getLocalizacao)
+            ? DuvidDB.getLocalizacao() : {};
+        document.getElementById('ep-nome').value   = DuvidDB.getNome() || '';
+        document.getElementById('ep-estado').value = loc.estado || '';
+        document.getElementById('ep-cidade').value = loc.cidade || '';
+        document.getElementById('ep-escola').value = loc.escola || '';
+        document.getElementById('ep-pin').value    = '';
+        const erroEl = document.getElementById('ep-erro');
+        if (erroEl) erroEl.style.display = 'none';
+        modal.style.display = 'flex';
+        setTimeout(() => document.getElementById('ep-nome')?.select(), 50);
+        return;
+    }
 
-    // Inverte a visualização
+    // Fallback para páginas sem o modal
+    const form    = document.getElementById('form-identificacao');
+    const display = document.getElementById('display-identificado');
+    const input   = document.getElementById('pq0');
     if (display) display.style.display = 'none';
     if (form) {
         form.style.display = 'block';
-        if (input) {
-            input.value = DuvidDB.getNome();
-            input.focus();
-        }
+        if (input) { input.value = DuvidDB.getNome(); input.focus(); }
     }
 }
 

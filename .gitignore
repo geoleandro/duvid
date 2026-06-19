@@ -4,6 +4,7 @@ arquivosphp/config.php
 # Configurações sensíveis (senhas, chaves API)
 # ============================================
 arquivosphp/config.php
+config/.env
 
 # ============================================
 # Composer / PHPMailer

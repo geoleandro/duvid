@@ -55,6 +55,20 @@ CREATE TABLE IF NOT EXISTS progresso_aulas (
     FOREIGN KEY (aula_id)  REFERENCES aulas(id)  ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+CREATE TABLE IF NOT EXISTS respostas_aulas (
+    id             INT       AUTO_INCREMENT PRIMARY KEY,
+    aluno_id       INT       NOT NULL,
+    aula_id        SMALLINT  NOT NULL,
+    total_questoes TINYINT   NOT NULL DEFAULT 0,
+    acertos        TINYINT   NOT NULL DEFAULT 0,
+    erradas_json   TEXT      DEFAULT NULL,
+    tentativas     INT       NOT NULL DEFAULT 0,
+    atualizado_em  TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    UNIQUE KEY uq_resp_aluno_aula (aluno_id, aula_id),
+    FOREIGN KEY (aluno_id) REFERENCES alunos(id) ON DELETE CASCADE,
+    FOREIGN KEY (aula_id)  REFERENCES aulas(id)  ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 CREATE TABLE IF NOT EXISTS globinhos_log (
     id         INT AUTO_INCREMENT PRIMARY KEY,
     aluno_id   INT      NOT NULL,
@@ -140,18 +154,32 @@ SELECT
     a.turma_id,
     t.nome   AS turma_nome,
     t.codigo AS turma_codigo,
+    a.estado,
+    a.cidade,
+    a.escola,
     a.globinhos_total,
     a.lvl,
     a.patente,
-    (SELECT COUNT(*) FROM progresso_aulas p
+    -- Aulas 100% concluídas (texto + questões)
+    (SELECT COUNT(*)
+     FROM progresso_aulas p
      WHERE p.aluno_id = a.id
        AND p.concluido_texto = 1
-       AND p.concluido_questoes = 1) AS aulas_100,
-    COUNT(DISTINCT ca.conquista_id)  AS conquistas
+       AND p.concluido_questoes = 1)                          AS aulas_100,
+    COUNT(DISTINCT ca.conquista_id)                           AS conquistas,
+    -- Estatísticas de questões (vindas de respostas_aulas)
+    COALESCE(SUM(ra.total_questoes), 0)                       AS total_questoes_respondidas,
+    COALESCE(SUM(ra.acertos), 0)                              AS total_acertos,
+    ROUND(
+        COALESCE(SUM(ra.acertos), 0) /
+        NULLIF(COALESCE(SUM(ra.total_questoes), 0), 0) * 100
+    , 1)                                                      AS media_acertos_pct
 FROM alunos a
 LEFT JOIN turmas t             ON t.id = a.turma_id
 LEFT JOIN conquistas_alunos ca ON ca.aluno_id = a.id
+LEFT JOIN respostas_aulas ra   ON ra.aluno_id = a.id
 GROUP BY a.id, a.nome, a.turma_id, t.nome, t.codigo,
+         a.estado, a.cidade, a.escola,
          a.globinhos_total, a.lvl, a.patente
 ORDER BY a.globinhos_total DESC;
 
@@ -162,12 +190,14 @@ ORDER BY a.globinhos_total DESC;
 INSERT IGNORE INTO conquistas (nome, descricao, icone, tipo, valor_necessario) VALUES
 ('Primeira Missão',  'Conclua sua primeira aula (texto + questões)', '🌍', 'aulas_concluidas',  1),
 ('Explorador',       'Conclua 5 aulas',                              '🧭', 'aulas_concluidas',  5),
-('Geógrafo',         'Conclua 10 aulas',                             '📚', 'aulas_concluidas', 10),
-('Mestre do 1º Ano', 'Conclua todas as 34 aulas do 1º ano',         '🎓', 'aulas_concluidas', 34),
-('Globinheiro',      'Acumule 1.000 globinhos',                      '🌐', 'globinhos_total',  1000),
+('Aprendiz de Geógrafo','Conclua 10 aulas',                          '📚', 'aulas_concluidas', 10),
+('Mestre do 1º Ano', 'Conclua 34 aulas',                            '🎓', 'aulas_concluidas', 34),
+('Mestre do 2º Ano', 'Conclua 70 aulas (1º + 2º ano)',             '🎓', 'aulas_concluidas', 70),
+('Mestre do 3º Ano', 'Conclua todas as 106 aulas',                  '🏆', 'aulas_concluidas', 106),
+('Colecionador de Globinhos','Acumule 1.000 globinhos',             '🌐', 'globinhos_total',  1000),
 ('Cartógrafo Rico',  'Acumule 3.500 globinhos',                      '💎', 'globinhos_total',  3500),
-('Estrategista',     'Acumule 8.000 globinhos',                      '🏅', 'globinhos_total',  8000),
-('Lenda da Terra',   'Acumule 20.000 globinhos',                     '👑', 'globinhos_total', 20000),
+('Barão da Geografia','Acumule 8.000 globinhos',                     '🏅', 'globinhos_total',  8000),
+('Lenda da Terra',   'Acumule 13.000 globinhos',                     '👑', 'globinhos_total', 13000),
 ('Linguista',        'Desbloqueie 10 termos do glossário',           '📖', 'glossario',          10),
 ('Erudito',          'Desbloqueie 50 termos do glossário',           '🔬', 'glossario',          50),
 ('Nota 10!',         'Tire nota máxima em qualquer prova',           '⭐', 'prova_nota10',        1);

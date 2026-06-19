@@ -1,9 +1,35 @@
-<button onclick="voltarAoTopo()" id="btn-topo"
-    class="w3-button w3-green w3-padding w3-round-large w3-right w3-margin-right" title="Voltar ao topo">
+<div class="w3-padding-top-48"></div>
+
+<!-- Botão flutuante: aparece após rolar 300px, fixo no canto inferior direito -->
+<button onclick="voltarAoTopo()" id="btn-topo" title="Voltar ao topo" style="
+    display: none;
+    position: fixed;
+    bottom: 24px;
+    right: 20px;
+    z-index: 998;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: none;
+    background: #2e7d32;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+    transition: opacity .2s, transform .2s;
+">
     <i class="fa fa-arrow-up"></i>
 </button>
 
-<div class="w3-padding-top-48"></div>
+<script>
+(function () {
+    const btn = document.getElementById('btn-topo');
+    if (!btn) return;
+    window.addEventListener('scroll', function () {
+        btn.style.display = window.scrollY > 300 ? 'block' : 'none';
+    }, { passive: true });
+})();
+</script>
 
 <footer class="w3-container w3-padding-24 w3-center w3-green w3-xlarge">
 

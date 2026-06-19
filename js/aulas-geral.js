@@ -157,9 +157,7 @@ function gerarCabecalhoPainel(nome, rpg) {
                 <h4 class="w3-margin-0 " style="font-size: 1.1em; ">
                     <span class="w3-tag w3-round w3-small w3-green"><strong>LEVEL</strong> ${rpg.lvl}</span> 
                     Olá, <b class="w3-text-green">${nome.toUpperCase()}</b>
-                    <button onclick="prepararTrocaNome()" class="w3-button w3-tiny w3-round-xlarge w3-light-grey">
-                        <i class="fa fa-pencil"></i>
-                    </button>
+                  
                 </h4>
                 <p class="w3-tiny w3-text-grey w3-margin-0">Patente: <b style="color:${rpg.cor}">${rpg.patente}</b></p>
             </div>

@@ -32,7 +32,9 @@
       "movimentos sociais",
       "crítica ao sistema financeiro"
     ],
-    "pergunta": "Saudado por centenas de militantes de movimentos sociais de quarenta países, o Papa Francisco encerrou no dia 09/07/2015 o 2º Encontro Mundial dos Movimentos Populares, em Santa Cruz de La Sierra, na Bolívia. Segundo ele, a “globalização da esperança, que nasce dos povos e cresce entre os pobres, deve substituir esta globalização da exclusão e da indiferença”.\n\nDisponível em: http://cartamaior.com.br. Acesso em: 15 jul. 2015 (adaptado).\n\nNo texto há uma crítica ao seguinte aspecto do mundo globalizado:",
+    "texto_apoio": "Saudado por centenas de militantes de movimentos sociais de quarenta países, o Papa Francisco encerrou no dia 09/07/2015 o 2º Encontro Mundial dos Movimentos Populares, em Santa Cruz de La Sierra, na Bolívia. Segundo ele, a “globalização da esperança, que nasce dos povos e cresce entre os pobres, deve substituir esta globalização da exclusão e da indiferença”.",
+    "fonte_apoio": "Disponível em: http://cartamaior.com.br. Acesso em: 15 jul. 2015 (adaptado).",
+    "pergunta": "No texto há uma crítica ao seguinte aspecto do mundo globalizado:",
     "alternativas": [
       "Liberdade política.",
       "Mobilidade humana.",
@@ -79,7 +81,8 @@
       "crise econômica",
       "indústria automotiva"
     ],
-    "pergunta": "Detroit foi símbolo mundial da indústria automotiva. Chegou a abrigar quase 2 milhões de habitantes entre as décadas de 1960 e 1970. Em 2010, porém, havia perdido mais de um milhão de habitantes. O espaço urbano entrou em colapso, com fábricas em ruínas, casas abandonadas, supressão de serviços públicos essenciais, crescimento da pobreza e do desemprego. Em 2013, foi decretada a falência da cidade. Essa crise urbana vivida por Detroit resulta dos seguintes processos:",
+    "texto_apoio": "Detroit foi símbolo mundial da indústria automotiva. Chegou a abrigar quase 2 milhões de habitantes entre as décadas de 1960 e 1970. Em 2010, porém, havia perdido mais de um milhão de habitantes. O espaço urbano entrou em colapso, com fábricas em ruínas, casas abandonadas, supressão de serviços públicos essenciais, crescimento da pobreza e do desemprego. Em 2013, foi decretada a falência da cidade.",
+    "pergunta": "Essa crise urbana vivida por Detroit resulta dos seguintes processos:",
     "alternativas": [
       "ascensão do taylorismo; protecionismo econômico e concorrência com capitais europeus; deslocamento de indústrias para cidades vizinhas.",
       "consolidação do regime de acumulação fordista; protecionismo econômico e concorrência com capitais europeus; deslocamento de indústrias para outros países;",
@@ -101,7 +104,8 @@
       "privatizações",
       "ajuste fiscal"
     ],
-    "pergunta": "A partir do final dos anos 1980, e sobretudo nos anos 1990, vários países da América Latina com grandes dívidas internacionais e em crise econômica passaram a adotar uma série de políticas econômicas sob a determinação de organismos, como o Fundo Monetário Internacional (FMI) e o Banco Mundial.\n\nO marco para essa mudança foi o chamado Consenso de Washington (1989). Essas políticas pautavam-se por privatizações em setores estratégicos nacionais e contenção de gastos públicos, mesmo em áreas básicas como saúde e educação. Esta tendência de política econômica denom.",
+    "texto_apoio": "A partir do final dos anos 1980, e sobretudo nos anos 1990, vários países da América Latina com grandes dívidas internacionais e em crise econômica passaram a adotar uma série de políticas econômicas sob a determinação de organismos, como o Fundo Monetário Internacional (FMI) e o Banco Mundial.\n\nO marco para essa mudança foi o chamado Consenso de Washington (1989). Essas políticas pautavam-se por privatizações em setores estratégicos nacionais e contenção de gastos públicos, mesmo em áreas básicas como saúde e educação.",
+    "pergunta": "Esta tendência de política econômica denom.",
     "alternativas": [
       "Neoliberalismo.",
       "Bipolaridade.",

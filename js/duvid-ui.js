@@ -14,11 +14,18 @@ const DuvidUI = {
 
         this.atualizarMedalhas(progresso.patente);
 
-        // 0. Mostra o painel se o aluno já tem nome (estava oculto por padrão)
+        // 0. O badge de pontos da navbar só aparece nas páginas de TEXTO e de
+        //    QUESTÕES (marcadas com window.DUVID_PAGINA_AULA). Na home e demais
+        //    páginas ele fica oculto — a home já mostra os pontos no seu painel.
         const painel = document.getElementById("painel-pontos");
-        if (painel && DuvidDB.getNome()) {
-            painel.classList.remove('w3-hide');
-            painel.style.display = 'flex';
+        if (painel) {
+            if (window.DUVID_PAGINA_AULA && DuvidDB.getNome()) {
+                painel.classList.remove('w3-hide');
+                painel.style.display = 'flex';
+            } else {
+                painel.classList.add('w3-hide');
+                painel.style.display = 'none';
+            }
         }
 
         // 1. Atualiza Header (Globinhos Dourados)
@@ -143,54 +150,59 @@ const DuvidUI = {
 
     // 4. ANIMAÇÕES (Confete e Contador)
     // 4. ANIMAÇÕES (Confete e Contador)
-    dispararComemoracao: function () {
-        // Verifica se a biblioteca confetti está carregada
+    // Comemoração com confete, com EFEITO ESCOLHIDO PELO EVENTO (não mais aleatório).
+    // tipo: 'acerto' | 'aprovado' | 'perfeita' | 'nivel'
+    dispararComemoracao: function (tipo) {
         if (typeof confetti !== "function") {
             console.warn("Biblioteca 'canvas-confetti' não encontrada.");
             return;
-        } // <--- Fecha o IF aqui e continua a função
+        }
 
-        // --- SEU BLOCO GIGANTE DE 10 EFEITOS ---
-        const estilo = Math.floor(Math.random() * 10) + 1;
-        const duration = 3000;
-        const animationEnd = Date.now() + duration;
-        // Aumentei o zIndex para 99999 para garantir que apareça nas questões
-        const defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 99999 };
+        // Compatibilidade: chamadas antigas passavam `true` para "subiu de nível".
+        if (tipo === true) tipo = 'nivel';
+        tipo = tipo || 'acerto';
 
-        function randomInRange(min, max) { return Math.random() * (max - min) + min; }
+        var defaults = { startVelocity: 30, spread: 360, ticks: 60, zIndex: 99999 };
 
-        switch (estilo) {
-            case 1: confetti({ ...defaults, particleCount: 150, origin: { y: 0.6 } }); break;
-            case 2:
-                confetti({ ...defaults, particleCount: 100, angle: 60, spread: 55, origin: { x: 0, y: 0.8 } });
-                confetti({ ...defaults, particleCount: 100, angle: 120, spread: 55, origin: { x: 1, y: 0.8 } });
+        switch (tipo) {
+            // Acerto de questão — comemoração curta e discreta
+            case 'acerto':
+                confetti({ ...defaults, particleCount: 60, spread: 60, startVelocity: 35, origin: { y: 0.7 } });
                 break;
-            case 3:
-                var interval = setInterval(function () {
-                    var timeLeft = animationEnd - Date.now();
-                    if (timeLeft <= 0) return clearInterval(interval);
-                    var particleCount = 50 * (timeLeft / duration);
-                    confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.1, 0.3), y: Math.random() - 0.2 } });
-                    confetti({ ...defaults, particleCount, origin: { x: randomInRange(0.7, 0.9), y: Math.random() - 0.2 } });
-                }, 250);
+
+            // Concluiu o texto ou passou nas questões — canhões dos dois lados
+            case 'aprovado':
+                confetti({ ...defaults, particleCount: 110, angle: 60, spread: 55, origin: { x: 0, y: 0.8 } });
+                confetti({ ...defaults, particleCount: 110, angle: 120, spread: 55, origin: { x: 1, y: 0.8 } });
                 break;
-            case 4: confetti({ ...defaults, particleCount: 150, spread: 70, origin: { y: 0.6 }, colors: ['#FFD700', '#FFA500', '#FFFACD'] }); break;
-            case 5: confetti({ ...defaults, particleCount: 200, spread: 160, colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff'] }); break;
-            case 6: confetti({ ...defaults, particleCount: 80, spread: 120, startVelocity: 45, gravity: 0.5 }); break;
-            case 7: confetti({ ...defaults, particleCount: 100, spread: 100, origin: { y: 0 }, gravity: 0.3, startVelocity: 0 }); break;
-            case 8: confetti({ ...defaults, particleCount: 150, angle: 90, spread: 30, startVelocity: 60, origin: { y: 1 } }); break;
-            case 9:
-                confetti({ ...defaults, particleCount: 100, origin: { x: 0.3, y: 0.7 } });
-                setTimeout(() => { confetti({ ...defaults, particleCount: 100, origin: { x: 0.7, y: 0.7 } }); }, 300);
+
+            // Aula perfeita (sem erros) — chuva dourada em duas ondas
+            case 'perfeita':
+                confetti({ ...defaults, particleCount: 160, spread: 80, origin: { y: 0.6 }, colors: ['#FFD700', '#FFA500', '#FFFACD'] });
+                setTimeout(function () {
+                    confetti({ ...defaults, particleCount: 120, spread: 100, origin: { y: 0.5 }, colors: ['#FFD700', '#FFC300', '#FFFACD'] });
+                }, 350);
                 break;
-            case 10:
-                var end = Date.now() + 5000;
+
+            // Subiu de nível — grande explosão colorida + chuva lateral por 2,5s
+            case 'nivel':
+                confetti({ ...defaults, particleCount: 200, spread: 160, colors: ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff'] });
+                var fim = Date.now() + 2500;
                 (function frame() {
-                    confetti({ ...defaults, particleCount: 2, angle: 60, spread: 55, origin: { x: 0 } });
-                    confetti({ ...defaults, particleCount: 2, angle: 120, spread: 55, origin: { x: 1 } });
-                    if (Date.now() < end) requestAnimationFrame(frame);
+                    confetti({ ...defaults, particleCount: 3, angle: 60, spread: 55, origin: { x: 0 } });
+                    confetti({ ...defaults, particleCount: 3, angle: 120, spread: 55, origin: { x: 1 } });
+                    if (Date.now() < fim) requestAnimationFrame(frame);
                 }());
                 break;
+
+            // Marco de combo (3/5/7 acertos seguidos) — rajada "em chamas"
+            case 'combo':
+                confetti({ ...defaults, particleCount: 90, spread: 110, startVelocity: 45, origin: { y: 0.6 }, colors: ['#ff6b00', '#ff0000', '#ffd000', '#ff9100'] });
+                break;
+
+            // Qualquer outro caso — comemoração padrão moderada
+            default:
+                confetti({ ...defaults, particleCount: 80, spread: 70, origin: { y: 0.6 } });
         }
     }, // <--- FECHA A FUNÇÃO dispararComemoracao AQUI
 
@@ -385,7 +397,7 @@ const DuvidUI = {
     executarGatilhoResultado: function (correto, pontos = 0, opcoes = {}) {
         if (correto) {
             if (!opcoes.semSomAcerto) playSom('acerto');
-            this.dispararComemoracao();   // ← usa o método do objeto, não a global
+            this.dispararComemoracao('acerto');   // efeito curto e discreto
             this.feedbackVisualAcerto();  // ← só giro + pulo, sem confete
             this.mostrarXPFlutuante(pontos, true);  // << NOVO
             if (typeof DuvidDB !== "undefined") {
@@ -430,13 +442,11 @@ exibirModalSimulado: function (passou, acertos, total, ganhouBonus = false, tota
     if (passou) {
         if (typeof playSomFinal === "function") playSomFinal(true);
         if (ganhouBonus) {
-            // Confete duplo para o bônus
-            if (typeof dispararComemoracao === "function") {
-                dispararComemoracao();
-                setTimeout(dispararComemoracao, 600);
-            }
+            // Aula perfeita → chuva dourada (o próprio efeito já vem em duas ondas)
+            if (typeof dispararComemoracao === "function") dispararComemoracao('perfeita');
         } else {
-            if (typeof dispararComemoracao === "function") dispararComemoracao();
+            // Passou → canhões laterais
+            if (typeof dispararComemoracao === "function") dispararComemoracao('aprovado');
         }
     } else {
         if (typeof playSomFinal === "function") playSomFinal(false);
@@ -670,8 +680,8 @@ function atualizarInterface() {
     DuvidUI.atualizarInterface();
 }
 
-function dispararComemoracao() {
-    DuvidUI.dispararComemoracao();
+function dispararComemoracao(tipo) {
+    DuvidUI.dispararComemoracao(tipo);
 }
 
 // No final do duvid-ui.js

@@ -270,9 +270,10 @@
       "mapas temáticos",
       "representação cartográfica"
     ],
+    "texto_apoio": "Os mapas temáticos são elaborados com a utilização de técnicas que objetivam a melhor visualização e comunicação, distinguindo-se essencialmente dos topográficos, que representam fenômenos de qualquer natureza, geograficamente distribuídos sobre a superfície terrestre. O nível de organização dos dados, qualitativos, ordenados ou quantitativos, de um mapa está diretamente relacionado ao método de mapeamento e à utilização de variáveis visuais adequadas à sua representação.",
     "fonte_apoio": "(Rosely Sampaio Archela e Hervé Théry, Orientação metodológica para construção e leitura de mapas temáticos. Revista Confins. n.3. 2008, p. 1-36.)",
     "imagem_apoio": "1ano/img/105/p5q10.jpg",
-    "pergunta": "Os mapas temáticos são elaborados com a utilização de técnicas que objetivam a melhor visualização e comunicação, distinguindo-se essencialmente dos topográficos, que representam fenômenos de qualquer natureza, geograficamente distribuídos sobre a superfície terrestre. O nível de organização dos dados, qualitativos, ordenados ou quantitativos, de um mapa está diretamente relacionado ao método de mapeamento e à utilização de variáveis visuais adequadas à sua representação.\n\nOs mapas temáticos anteriores mostram o cenário brasileiro da pandemia em 7 de julho de 2020. O mapa 1 apresenta o número de casos confirmados de Covid19 por ente federativo e o mapa 2, a taxa de incidência da Covid19 por Estado brasileiro. No que se refere à análise dos dados representados nos mapas, é correto afirmar:",
+    "pergunta": "Os mapas temáticos anteriores mostram o cenário brasileiro da pandemia em 7 de julho de 2020. O mapa 1 apresenta o número de casos confirmados de Covid19 por ente federativo e o mapa 2, a taxa de incidência da Covid19 por Estado brasileiro. No que se refere à análise dos dados representados nos mapas, é correto afirmar:",
     "alternativas": [
       "O objetivo do mapa 1 é apresentar os dados de forma quantitativa, enquanto o mapa 2 prioriza uma apresentação qualitativa dos dados.",
       "Os mapas 1 e 2 apresentam dados absolutos qualitativos referentes à Covid19 obtidos em órgãos oficiais do governo federal.",

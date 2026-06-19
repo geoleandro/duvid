@@ -81,9 +81,10 @@
       "neoliberalismo",
       "globalização financeira"
     ],
+    "texto_apoio": "Ao se analisar o mundo na era das redes, constata-se que a economia mundial esteve organizada, até por volta da década de 1970, sobre o complexo das tecnologias baseadas em recursos como petróleo, eletricidade, eletrônica e indústria química. Após essa década, surgiu um novo ciclo de inovações, que veio a ser denominado de revolução tecno-científica.",
     "fonte_apoio": "Fonte: (TERRA, Lygia; GUIMARÃES, Raul Borges; ARAÚJO, Regina. Geografia: Conexões – Caderno do estudante. Parte I. 2 ed. São Paulo: Moderna, 2010. Adaptado).",
     "imagem_apoio": "3ano/img/312/t12q4.png",
-    "pergunta": "Ao se analisar o mundo na era das redes, constata-se que a economia mundial esteve organizada, até por volta da década de 1970, sobre o complexo das tecnologias baseadas em recursos como petróleo, eletricidade, eletrônica e indústria química. Após essa década, surgiu um novo ciclo de inovações, que veio a ser denominado de revolução tecno-científica.\n\nObserve o esquema abaixo e complete as lacunas numeradas com as expressões que identificam as características do meio técnico e do meio técnico-científico-informacional.\n\nA sequência correta de preenchimento das lacunas, na ordem de 1 a 4, é:",
+    "pergunta": "Observe o esquema abaixo e complete as lacunas numeradas com as expressões que identificam as características do meio técnico e do meio técnico-científico-informacional.\n\nA sequência correta de preenchimento das lacunas, na ordem de 1 a 4, é:",
     "alternativas": [
       "telefonia fixa / redes de transporte / finanças / comércio.",
       "indústria / comércio / redes de comunicação de alta tecnologia / telefonia fixa.",
@@ -105,8 +106,9 @@
       "geopolítica tecnológica",
       "cadeia produtiva global"
     ],
+    "texto_apoio": "A escassez global de semicondutores continua a ter estranhas repercussões, sobretudo do ponto de vista geopolítico. Há um ano as indústrias lutam para se abastecer com chips eletrônicos que equipam aparelhos do dia a dia, de computadores a torradeiras, passando pelas máquinas de lavar e consoles de videogames. O episódio atual, no entanto, surge em um contexto marcado por um questionamento geral a respeito dos benefícios da globalização e do declínio da atividade industrial no Ocidente.",
     "fonte_apoio": "Evgeny Morzorov. “Devemos temer um colapso eletrônico?”. Le Monde Diplomatique Brasil, agosto/2021. Adaptado.",
-    "pergunta": "A escassez global de semicondutores continua a ter estranhas repercussões, sobretudo do ponto de vista geopolítico. Há um ano as indústrias lutam para se abastecer com chips eletrônicos que equipam aparelhos do dia a dia, de computadores a torradeiras, passando pelas máquinas de lavar e consoles de videogames. O episódio atual, no entanto, surge em um contexto marcado por um questionamento geral a respeito dos benefícios da globalização e do declínio da atividade industrial no Ocidente.\n\nO texto refere-se a uma questão geopolítica contemporânea: a disputa pelos semicondutores na indústria mundial. Sobre esse assunto, indique a alternativa correta:",
+    "pergunta": "O texto refere-se a uma questão geopolítica contemporânea: a disputa pelos semicondutores na indústria mundial. Sobre esse assunto, indique a alternativa correta:",
     "alternativas": [
       "A produção de semicondutores está concentrada no sudeste asiático, nos países da 1ª e 2ª geração dos Tigres Asiáticos, tais como Taiwan, Coreia do Sul, Cingapura e Indonésia.",
       "Nos últimos 20 anos, EUA e Europa vêm perdendo destaque na produção de semicondutores em decorrência da queda acentuada de investimentos em pesquisa e inovação.",
@@ -176,7 +178,8 @@
       "OTAN",
       "blocos militares"
     ],
-    "pergunta": "Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista.\n\nEssa divisão europeia ficou conhecida como",
+    "texto_apoio": "Do ponto de vista geopolítico, a Guerra Fria dividiu a Europa em dois blocos. Essa divisão propiciou a formação de alianças antagônicas de caráter militar, como a OTAN, que aglutinava os países do bloco ocidental, e o Pacto de Varsóvia, que concentrava os do bloco oriental. É importante destacar que, na formação da OTAN, estão presentes, além dos países do oeste europeu, os EUA e o Canadá. Essa divisão histórica atingiu igualmente os âmbitos político e econômico que se refletia pela opção entre os modelos capitalista e socialista.",
+    "pergunta": "Essa divisão europeia ficou conhecida como",
     "alternativas": [
       "Cortina de Ferro.",
       "Muro de Berlim.",

@@ -3,8 +3,9 @@
     "id": 1,
     "ano": "ENEM 2019",
     "imagem_apoio": "",
-    "texto_apoio": "<h3 class=\"w3-center\"> <strong>Os moradores de Utqiagvik passaram dois meses quase totalmente na escuridão</strong> </h3> <p>Os habitantes desta pequena cidade no Alasca — o estado dos Estados Unidos mais ao norte — já estão acostumados a longas noites sem ver a luz do dia. <br>Em 18 de novembro de 2018, seus pouco mais de 4 mil habitantes viram o último pôr do sol do ano. A oportunidade seguinte para ver a luz do dia ocorreu no dia 23 de janeiro de 2019, às 13 h 04 min (horário local).</p> <p>O fenômeno descrito está relacionado ao fato de a cidade citada ter uma posição geográfica condicionada pela</p> <p class=\"w3-small\"> Disponível em: http://www.bbc.com. Acesso em: 16 maio 2019 (adaptado). </p>",
-    "pergunta": "",
+    "texto_apoio": "Os moradores de Utqiagvik passaram dois meses quase totalmente na escuridão</strong> </h3> <p>Os habitantes desta pequena cidade no Alasca — o estado dos Estados Unidos mais ao norte — já estão acostumados a longas noites sem ver a luz do dia. <br>Em 18 de novembro de 2018, seus pouco mais de 4 mil habitantes viram o último pôr do sol do ano. A oportunidade seguinte para ver a luz do dia ocorreu no dia 23 de janeiro de 2019, às 13 h 04 min (horário local)",
+    "fonte_apoio": "(http://www.bbc.com. Acesso em: 16 maio 2019 (adaptado).)",
+    "pergunta": "O fenômeno descrito está relacionado ao fato de a cidade citada ter uma posição geográfica condicionada pela",
     "alternativas": [
       " continentalidade.",
       " maritimidade.",
@@ -202,7 +203,8 @@
     "id": 8,
     "ano": "2026",
     "imagem_apoio": "",
-    "texto_apoio": "O jardim de caminhos que se bifurcam (....) Uma lâmpada aclarava a plataforma, mas os rostos dos meninos ficavam na sombra. Um me perguntou: O senhor vai à casa do Dr. Stephen Albert? Sem aguardar resposta, outro disse: A casa fica longe daqui, mas o senhor não se perderá se tomar esse caminho à esquerda e se em cada encruzilhada do caminho dobrar à esquerda.</p> <p class=\"citacao w3-sand w3-small\"> (Adaptado. Borges, J. Ficções. Rio de Janeiro: Globo, 1997. p.96.) </p>",
+    "texto_apoio": "O jardim de caminhos que se bifurcam (....) Uma lâmpada aclarava a plataforma, mas os rostos dos meninos ficavam na sombra. Um me perguntou: O senhor vai à casa do Dr. Stephen Albert? Sem aguardar resposta, outro disse: A casa fica longe daqui, mas o senhor não se perderá se tomar esse caminho à esquerda e se em cada encruzilhada do caminho dobrar à esquerda.",
+    "fonte_apoio": "(Jorge Luis Borges. O jardim de caminhos que se bifurcam",
     "pergunta": "Quanto à cena descrita acima, considere que:</p>\n\n\t\t\t<p>I - o sol nasce à direita dos meninos</p>\n\n\t\t\t<p>II - o senhor seguiu o conselho dos meninos, tendo encontrado duas encruzilhadas até a casa.</p>\n\n\t\t\t<p>Concluiu-se que o senhor caminhou, respectivamente, nos sentidos",
     "alternativas": [
       "oeste, sul e leste.",

@@ -1,3 +1,6 @@
+// Marca esta como página de aula (questões) → o badge de pontos da navbar aparece aqui.
+window.DUVID_PAGINA_AULA = true;
+
 let questoes = [];
 let indiceAtual = 0;
 let nota = 0;
@@ -11,6 +14,7 @@ let combo = 0;
 // << NOVO: modo revisão
 let questoesErradas = [];
 let emRevisao = false; // quando true, refazer as erradas NÃO re-pontua por questão
+const PONTOS_POR_QUESTAO = 10; // globinhos por cada questão acertada
 const COMBO_NIVEIS = [
     { minimo: 7, nome: '🌟 Lendário!',  bonus: 15 },
     { minimo: 5, nome: '⚡ Imparável!', bonus: 10 },
@@ -345,7 +349,7 @@ function verificar() {
         // No marco de combo (3/5/7) toca SÓ a fanfarra chiptune: suprime o MP3
         // de acerto para os dois não soarem juntos. Fora do marco, MP3 normal.
         // Na revisão das erradas não re-pontua por questão (evita farm de globinhos)
-        const pontosQuestao = emRevisao ? 0 : RECOMPENSA_QUESTOES + bonusCombo;
+        const pontosQuestao = emRevisao ? 0 : PONTOS_POR_QUESTAO + bonusCombo;
         DuvidUI.executarGatilhoResultado(true, pontosQuestao, { semSomAcerto: ehMarcoCombo });
         if (ehMarcoCombo) playSomCombo();
         nota++;
@@ -508,6 +512,32 @@ function finalizar() {
             // addGlobinhos separado causaria dupla contagem.
             const bonusAdicional = ganhouBonus ? BONUS_VIDAS : 0;
             DuvidDB.salvarConclusao(aulaID, TIPO_CONCLUSAO.QUESTOES, bonusAdicional);
+        }
+    }
+
+    // 1b. Registra as questões erradas desta tentativa (diagnóstico do professor).
+    //     Enviado em toda tentativa real (não na revisão), passando ou não —
+    //     justamente quem reprova é quem mais erra.
+    if (!emRevisao && typeof DuvidDB !== "undefined" && aulaID) {
+        var alunoIdResp = DuvidDB._getAlunoId();
+        if (alunoIdResp) {
+            var erradasPayload = questoesErradas.map(function (q) {
+                return {
+                    pergunta: q.pergunta,
+                    correta: (q.alternativas && q.alternativas[q.correta]) || ''
+                };
+            });
+            fetch('/api/respostas.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    aluno_id: alunoIdResp,
+                    aula_id:  aulaID,
+                    total:    total,
+                    acertos:  acertos,
+                    erradas:  erradasPayload
+                })
+            }).catch(function () {});
         }
     }
 

@@ -1,0 +1,14 @@
+# =============================================================
+#  Jogo Unity (WebGL) — servir como arquivos estáticos
+# =============================================================
+
+# Desliga qualquer reescrita herdada da raiz (evita .html -> .php)
+RewriteEngine Off
+
+# Ao abrir /jogo/ , carregar o index.html do jogo
+DirectoryIndex index.html
+
+# Tipos MIME corretos para o build do Unity (sem compressão)
+AddType application/wasm           .wasm
+AddType application/octet-stream   .data
+AddType text/javascript           .js

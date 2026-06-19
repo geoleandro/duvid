@@ -78,7 +78,8 @@
       "regionalização",
       "integração econômica"
     ],
-    "pergunta": "Embora não seja recente, a tendência de regionalização do mundo em blocos econômicos acelerou-se no final dos anos 1980 e durante os anos 1990. Isso coincide com o fim da Guerra Fria e com o processo da globalização. A expansão capitalista encontra barreiras para a livre circulação de capitais e merca do rias e a criação de blocos econômicos é uma tentativa de diminuir essas barreiras em escala regional. Entre esses blocos econômicos, emerge a União Europeia.\n\nSobre a União Europeia, é incorreto afirmar:",
+    "texto_apoio": "Embora não seja recente, a tendência de regionalização do mundo em blocos econômicos acelerou-se no final dos anos 1980 e durante os anos 1990. Isso coincide com o fim da Guerra Fria e com o processo da globalização. A expansão capitalista encontra barreiras para a livre circulação de capitais e merca do rias e a criação de blocos econômicos é uma tentativa de diminuir essas barreiras em escala regional. Entre esses blocos econômicos, emerge a União Europeia.",
+    "pergunta": "Sobre a União Europeia, é incorreto afirmar:",
     "alternativas": [
       "Os países europeus, para fazer frente à ameaça comunista, de um lado, e à hegemonia do capitalismo norte-americano, de outro, acabaram com antigas rivalidades e aprofundaram a integração como forma de fortalecimento de suas economias.",
       "A adoção do euro como moeda única tem como objetivo não só facilitar as transações comerciais e bancárias entre os países-membros da União Europeia, mas também resolver as diferenças socioeconômicas entre eles.",
@@ -146,8 +147,9 @@
       "integração econômica",
       "resposta geopolítica"
     ],
+    "texto_apoio": "Em torno da Alemanha, 1992, formou-se o bloco econômico denominado União Europeia, UE, uma resposta coletiva das nações da Europa ocidental à nova conjuntura mundial.",
     "fonte_apoio": "BRAICK, Patrícia Ramos; MOTA, Myriam Becho. História: das cavernas ao terceiro milênio, e. 2. São Paulo: Moderna, 2010, p. 239. Adaptado",
-    "pergunta": "Em torno da Alemanha, 1992, formou-se o bloco econômico denominado União Europeia, UE, uma resposta coletiva das nações da Europa ocidental à nova conjuntura mundial.\n\nDo texto e dos conhecimentos sobre a política europeia no final do século XX, é possível inferir que a criação da União Europeia obedeceu a motivações, predominantemente,",
+    "pergunta": "Do texto e dos conhecimentos sobre a política europeia no final do século XX, é possível inferir que a criação da União Europeia obedeceu a motivações, predominantemente,",
     "alternativas": [
       "ideológicas, reunindo países não alinhados para confrontarem a força da União Soviética",
       "estratégicas, procurando proteger o continente do avanço imperialista norte-americano.",
@@ -194,7 +196,8 @@
       "ampliação",
       "história da integração"
     ],
-    "pergunta": "A União Europeia é formada por 27 países que foram aderindo aos poucos aos países fundadores: Alemanha, Bélgica, França, Itália, Luxemburgo e Holanda. Essa organização tem por objetivo propiciar a cooperação econômica e política dos seus membros. Analise as afirmativas que apresentam os objetivos da União Europeia.\n\nI – Integrar as políticas relativas ao sistema judiciário e aos impostos sobre importação e exportação;\n\nII – Aperfeiçoar as condições de livre comércio entre os países-membros;\n\nIII – Reduzir as desigualdades sociais e econômicas entre as regiões;\n\nIV – Fomentar o desenvolvimento econômico dos países em fase de crescimento.\n\nAssinale a alternativa correta.",
+    "texto_apoio": "A União Europeia é formada por 27 países que foram aderindo aos poucos aos países fundadores: Alemanha, Bélgica, França, Itália, Luxemburgo e Holanda. Essa organização tem por objetivo propiciar a cooperação econômica e política dos seus membros.",
+    "pergunta": "Analise as afirmativas que apresentam os objetivos da União Europeia.\n\nI – Integrar as políticas relativas ao sistema judiciário e aos impostos sobre importação e exportação;\n\nII – Aperfeiçoar as condições de livre comércio entre os países-membros;\n\nIII – Reduzir as desigualdades sociais e econômicas entre as regiões;\n\nIV – Fomentar o desenvolvimento econômico dos países em fase de crescimento.\n\nAssinale a alternativa correta.",
     "alternativas": [
       "Somente as afirmativas I, III e IV são verdadeiras.",
       "Somente as afirmativas II e IV são verdadeiras.",

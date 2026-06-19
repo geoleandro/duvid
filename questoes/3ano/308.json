@@ -123,8 +123,9 @@
       "desindustrialização",
       "serviços"
     ],
+    "texto_apoio": "A diversidade de atividades relacionadas ao setor terciário reforça a tendência mais geral de desindustrialização de muitos dos países desenvolvidos sem que estes, contudo, percam o comando da economia. Essa mudança implica nova divisão internacional do trabalho, que não é mais apoiada na clara segmentação setorial das atividades econômicas.",
     "fonte_apoio": "RIO, G. A. P. A espacialidade da economia. In: CASTRO, I. E.: GOMES. P. C. C.; CORRÊA, R. L. (Org.). Olhares geográficos: modos de ver e viver o espaço. Rio de Janeiro: Bertrand Brasil, 2012 (adaptado",
-    "pergunta": "A diversidade de atividades relacionadas ao setor terciário reforça a tendência mais geral de desindustrialização de muitos dos países desenvolvidos sem que estes, contudo, percam o comando da economia. Essa mudança implica nova divisão internacional do trabalho, que não é mais apoiada na clara segmentação setorial das atividades econômicas.\n\nNesse contexto, o fenômeno descrito tem como um de seus resultados a:",
+    "pergunta": "Nesse contexto, o fenômeno descrito tem como um de seus resultados a:",
     "alternativas": [
       "saturação do setor secundário.",
       "ampliação dos direitos laborais.",
@@ -171,8 +172,9 @@
       "globalização",
       "empresas transnacionais"
     ],
+    "texto_apoio": "A terceira revolução industrial consolidou-se com o aprofundamento da globalização. Nesse contexto, tornou-se hegemônica a configuração do espaço mundial determinada, dentre outros aspectos, pelo meio técnico-científico-informacional, segundo assinala o professor Milton Santos. Essa configuração pode ser representada a partir do mapa a seguir.",
     "imagem_apoio": "3ano/img/308/t8q8.png",
-    "pergunta": "A terceira revolução industrial consolidou-se com o aprofundamento da globalização. Nesse contexto, tornou-se hegemônica a configuração do espaço mundial determinada, dentre outros aspectos, pelo meio técnico-científico-informacional, segundo assinala o professor Milton Santos. Essa configuração pode ser representada a partir do mapa a seguir.\n\nConsiderando o exposto, conclui-se que a Organização do Espaço Mundial representada no mapa está corretamente caracterizada em:",
+    "pergunta": "Considerando o exposto, conclui-se que a Organização do Espaço Mundial representada no mapa está corretamente caracterizada em:",
     "alternativas": [
       "A distribuição regular da tecnologia no espaço mundial reproduz o fato de que os países mais ricos sempre investiram mais em educação do que os países pobres.",
       "A ocorrência de desenvolvimento de uma nova modalidade da Divisão Internacional do Trabalho estabelece a histórica dominação dos países ricos sobre os pobres, através do controle da técnica, da ciência e da informação.",
@@ -195,7 +197,8 @@
       "organização do trabalho",
       "produção em série"
     ],
-    "pergunta": "Para otimizar a produção fabril no século XIX, duas teorias se destacaram: o taylorismo e o fordismo . Leia e analise as afirmativas sobre os desdobramentos concretos dessas teorias.\n\nI - O taylorismo propunha uma série de normas para elevar a produtividade, por meio da maximização da eficiência da mão-de-obra, aprimorando a racionalização do trabalho e pagando prêmios pela produtividade.\n\nII - O fordismo impunha uma série de normas para aumentar a eficiência econômica de uma empresa. Entre elas, exigia que a produção fosse especializada e verticalizada.\n\nIII - Produção especializada significa produzir um só produto em massa, ou em série, apoiando-se no trabalho especializado e em uma tecnologia que aumente a produtividade por operário.\n\nIV - O taylorismo foi muito benéfico à organização dos trabalhadores europeus que, por isso, criaram vários sindicatos e várias leis de proteção ao trabalhador.\n\nV - Tanto o taylorismo como o fordismo só chegaram ao Brasil em 1980.\n\nAssinale a alternativa correta.",
+    "texto_apoio": "Para otimizar a produção fabril no século XIX, duas teorias se destacaram: o taylorismo e o fordismo .",
+    "pergunta": "Leia e analise as afirmativas sobre os desdobramentos concretos dessas teorias.\n\nI - O taylorismo propunha uma série de normas para elevar a produtividade, por meio da maximização da eficiência da mão-de-obra, aprimorando a racionalização do trabalho e pagando prêmios pela produtividade.\n\nII - O fordismo impunha uma série de normas para aumentar a eficiência econômica de uma empresa. Entre elas, exigia que a produção fosse especializada e verticalizada.\n\nIII - Produção especializada significa produzir um só produto em massa, ou em série, apoiando-se no trabalho especializado e em uma tecnologia que aumente a produtividade por operário.\n\nIV - O taylorismo foi muito benéfico à organização dos trabalhadores europeus que, por isso, criaram vários sindicatos e várias leis de proteção ao trabalhador.\n\nV - Tanto o taylorismo como o fordismo só chegaram ao Brasil em 1980.\n\nAssinale a alternativa correta.",
     "alternativas": [
       "Somente as afirmativas I, II e III são verdadeiras.",
       "Somente as afirmativas I e V são verdadeiras.",
@@ -218,7 +221,8 @@
       "competição empresarial",
       "mercado global"
     ],
-    "pergunta": "A expansão, em escala planetária, das atividades das multinacionais fez crescer entre essas empresas a disputa por partes cada vez maiores de um mercado consumidor atualmente integrado pelo processo de globalização.\n\nAssinale, a seguir, a alternativa em que NÃO foram apresentados elementos característicos das empresas multinacionais.",
+    "texto_apoio": "A expansão, em escala planetária, das atividades das multinacionais fez crescer entre essas empresas a disputa por partes cada vez maiores de um mercado consumidor atualmente integrado pelo processo de globalização.",
+    "pergunta": "Assinale, a seguir, a alternativa em que NÃO foram apresentados elementos característicos das empresas multinacionais.",
     "alternativas": [
       "Diminuição do tamanho das unidades de produção, com o uso de alta tecnologia.",
       "Otimização dos processos de produção, diminuindo, por exemplo, os desperdícios com matérias-primas.",

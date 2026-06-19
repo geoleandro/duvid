@@ -81,8 +81,9 @@
       "tarifas alfandegárias",
       "América Latina"
     ],
+    "texto_apoio": "Os blocos econômicos têm por objetivo a redução e/ou eliminação das tarifas alfandegárias. Sua formação proporciona maior dinamismo nas relações comerciais entre os países integrantes. Nesse sentido, os países da América Platina, juntamente com o Brasil, integram um bloco econômico visando maior flexibilidade nas importações e exportações de produtos.",
     "imagem_apoio": "3ano/img/322/t22q4.png",
-    "pergunta": "Os blocos econômicos têm por objetivo a redução e/ou eliminação das tarifas alfandegárias. Sua formação proporciona maior dinamismo nas relações comerciais entre os países integrantes. Nesse sentido, os países da América Platina, juntamente com o Brasil, integram um bloco econômico visando maior flexibilidade nas importações e exportações de produtos. Esse bloco é:",
+    "pergunta": "Esse bloco é:",
     "alternativas": [
       "APEC – Cooperação Econômica da Ásia e do Pacífico.",
       "CAN – Comunidade Andina.",
@@ -127,7 +128,8 @@
       "história colonial",
       "Caribe"
     ],
-    "pergunta": "A República do Haiti é um pequeno país, que possui cerca de 10 milhões de habitantes, dos quais a grande maioria negra. A língua oficial é o francês e o crioulo, e a capital chama-se Porto Príncipe. O quadro social do país é bastante precário, em 2014 os jornais noticiaram a busca dos haitianos por trabalho no Brasil. Assinale a alternativa que contém o nome do continente onde o Haiti se localiza.",
+    "texto_apoio": "A República do Haiti é um pequeno país, que possui cerca de 10 milhões de habitantes, dos quais a grande maioria negra. A língua oficial é o francês e o crioulo, e a capital chama-se Porto Príncipe. O quadro social do país é bastante precário, em 2014 os jornais noticiaram a busca dos haitianos por trabalho no Brasil.",
+    "pergunta": "Assinale a alternativa que contém o nome do continente onde o Haiti se localiza.",
     "alternativas": [
       "América do Norte.",
       "América Central.",
@@ -225,7 +227,8 @@
       "educação",
       "socialismo"
     ],
-    "pergunta": "Apesar do embargo econômico, sua população desfruta de excelentes indicadores nas áreas da saúde e educação. Com clima favorável ao desenvolvimento das monoculturas de cana-de-açúcar e tabaco, sua economia gradativamente se diversifica, com o reaquecimento do setor turístico e com a exportação de produtos biotecnológicos e serviços de saúde.\n\nO texto refere-se:",
+    "texto_apoio": "Apesar do embargo econômico, sua população desfruta de excelentes indicadores nas áreas da saúde e educação. Com clima favorável ao desenvolvimento das monoculturas de cana-de-açúcar e tabaco, sua economia gradativamente se diversifica, com o reaquecimento do setor turístico e com a exportação de produtos biotecnológicos e serviços de saúde.",
+    "pergunta": "O texto refere-se:",
     "alternativas": [
       "ao arquipélago de Madagascar, no leste africano.",
       "à ilha de Taiwan, no sudeste asiático.",

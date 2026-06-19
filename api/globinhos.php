@@ -10,14 +10,17 @@
 //  GET  { aluno_id }  → retorna saldo atual
 // =============================================================
 
+require_once __DIR__ . '/../includes/conexao.php';
+require_once __DIR__ . '/../includes/rpg.php';
+
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') { http_response_code(204); exit; }
 
-require_once __DIR__ . '/../includes/conexao.php';
-require_once __DIR__ . '/../includes/rpg.php';
+// ── Autenticação: GET lê saldo (requer sessão), POST escreve (requer sessão + validação) ──
+$sessionAlunoId = requireAuth();
 
 // jsonResponse() já vem de conexao.php — não redeclarar (causava fatal error).
 // Conexão obtida pelo singleton getDB() (não existe $pdo global em conexao.php).
@@ -27,6 +30,8 @@ $pdo = getDB();
 if ($_SERVER['REQUEST_METHOD'] === 'GET') {
     $id = (int)($_GET['aluno_id'] ?? 0);
     if (!$id) jsonResponse(['erro' => 'aluno_id obrigatorio'], 400);
+    // Garante que o aluno só consulta o próprio saldo
+    if ($id !== $sessionAlunoId) jsonResponse(['erro' => 'Acesso negado.'], 403);
     $st = $pdo->prepare("SELECT globinhos_total FROM alunos WHERE id = :id");
     $st->execute([':id' => $id]);
     $row = $st->fetch();
@@ -42,6 +47,11 @@ $tipo       = trim($body['tipo'] ?? 'bonus');
 
 if (!$alunoId || $quantidade <= 0) {
     jsonResponse(['erro' => 'aluno_id e quantidade obrigatorios'], 400);
+}
+
+// Valida que o aluno_id do body bate com a sessão autenticada
+if ($alunoId !== $sessionAlunoId) {
+    jsonResponse(['erro' => 'Acesso negado.'], 403);
 }
 
 $pdo->beginTransaction();
@@ -66,9 +76,6 @@ try {
         $pdo->prepare("UPDATE alunos SET lvl = :lvl, patente = :pat WHERE id = :id")
             ->execute([':lvl' => $rpg['lvl'], ':pat' => $rpg['patente'], ':id' => $alunoId]);
     }
-
-    $pdo->prepare("INSERT INTO globinhos_log (aluno_id, aula_id, tipo, quantidade) VALUES (:a, NULL, :t, :q)")
-        ->execute([':a' => $alunoId, ':t' => $tipo, ':q' => $quantidade]);
 
     $pdo->commit();
 } catch (Exception $e) {

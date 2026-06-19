@@ -33,7 +33,8 @@
       "biodiversidade",
       "hidrografia"
     ],
-    "pergunta": "A água é uma condição básica para a vida no planeta Terra. Mantém a biodiversidade e impulsiona os ciclos biogeoquímicos, por exemplo. Como tem, também, importância para a economia dos continentes, ela precisa ser melhor gerenciada. Sobre os problemas referentes aos recursos hídricos em escala global, analise os itens a seguir:\n\n1- Esses problemas podem ser muito bem sintetizados no conjunto de situações que resultam do crescimento populacional, da intensa urbanização e da contaminação de recursos hídricos superficiais e subterrâneos.\n\n2- O aumento da população e a urbanização provocam uma intensa pressão de usos múltiplos dos recursos hídricos e impactos na qualidade da água.\n\n3- A infraestrutura de baixa qualidade ou incompleta ocasiona distribuição ineficiente da água tratada e perdas de boa parte dela.\n\n4- É necessário ampliar, em escala global, a mobilização pública no processo de decisão e desenvolver a capacidade de informação eficiente para melhorar a educação relacionada à água.\n\n5- Todos os processos relativos à água estão inter-relacionados, são de natureza complexa, dinâmicos e demandam conhecimento multidisciplinar.\n\nEstão CORRETOS:",
+    "texto_apoio": "A água é uma condição básica para a vida no planeta Terra. Mantém a biodiversidade e impulsiona os ciclos biogeoquímicos, por exemplo. Como tem, também, importância para a economia dos continentes, ela precisa ser melhor gerenciada.",
+    "pergunta": "Sobre os problemas referentes aos recursos hídricos em escala global, analise os itens a seguir:\n\n1- Esses problemas podem ser muito bem sintetizados no conjunto de situações que resultam do crescimento populacional, da intensa urbanização e da contaminação de recursos hídricos superficiais e subterrâneos.\n\n2- O aumento da população e a urbanização provocam uma intensa pressão de usos múltiplos dos recursos hídricos e impactos na qualidade da água.\n\n3- A infraestrutura de baixa qualidade ou incompleta ocasiona distribuição ineficiente da água tratada e perdas de boa parte dela.\n\n4- É necessário ampliar, em escala global, a mobilização pública no processo de decisão e desenvolver a capacidade de informação eficiente para melhorar a educação relacionada à água.\n\n5- Todos os processos relativos à água estão inter-relacionados, são de natureza complexa, dinâmicos e demandam conhecimento multidisciplinar.\n\nEstão CORRETOS:",
     "alternativas": [
       "apenas 1 e 4.",
       "apenas 2 e 5.",
@@ -80,8 +81,9 @@
       "recursos hídricos",
       "aquíferos"
     ],
+    "texto_apoio": "O uso intenso das águas Subterrâneas sem planejamento tem causado sérios prejuízos à sociedade, ao usuário e ao meio ambiente. Em várias partes do mundo, percebe-se que a exploração de forma incorreta tem levado a perdas do próprio aquífero.",
     "fonte_apoio": "TEIXEIRA, W. et al. Decifrando a Terra. São Paulo: Cia. Editora Nacional, 2009 (adaptado).",
-    "pergunta": "O uso intenso das águas Subterrâneas sem planejamento tem causado sérios prejuízos à sociedade, ao usuário e ao meio ambiente. Em várias partes do mundo, percebe-se que a exploração de forma incorreta tem levado a perdas do próprio aquífero.\n\nNo texto, apontam-se dificuldades associadas ao uso de um importante recurso natural. Um problema derivado de sua utilização e uma respectiva causa para sua ocorrência são:",
+    "pergunta": "No texto, apontam-se dificuldades associadas ao uso de um importante recurso natural. Um problema derivado de sua utilização e uma respectiva causa para sua ocorrência são:",
     "alternativas": [
       "Contaminação do aquífero — Contenção imprópria do ingresso direto de água superficial.",
       "Intrusão salina — Extração reduzida da água doce do subsolo.",
@@ -173,7 +175,8 @@
       "reutilização da água",
       "sustentabilidade"
     ],
-    "pergunta": "A necessidade de água tem tornado cada vez mais importante a reutilização planejada desse recurso. Entretanto, os processos de tratamento de águas para seu reaproveitamento nem sempre as tornam potáveis, o que leva a restrições em sua utilização.\n\nAssim, dentre os possíveis empregos para a denominada “água de reuso”, recomenda-se:",
+    "texto_apoio": "A necessidade de água tem tornado cada vez mais importante a reutilização planejada desse recurso. Entretanto, os processos de tratamento de águas para seu reaproveitamento nem sempre as tornam potáveis, o que leva a restrições em sua utilização.",
+    "pergunta": "Assim, dentre os possíveis empregos para a denominada “água de reuso”, recomenda-se:",
     "alternativas": [
       "o uso doméstico, para preparo de alimentos.",
       "o uso em laboratórios, para a produção de fármacos.",
@@ -195,8 +198,9 @@
       "escassez de água",
       "sustentabilidade"
     ],
+    "texto_apoio": "A falta de água doce no planeta será, possivelmente, um dos mais graves problemas deste século. Prevê-se que, nos próximos vinte anos, a quantidade de água doce disponível para cada habitante será drasticamente reduzida.",
     "imagem_apoio": "1ano/img/127/p27q9.png",
-    "pergunta": "A falta de água doce no planeta será, possivelmente, um dos mais graves problemas deste século. Prevê-se que, nos próximos vinte anos, a quantidade de água doce disponível para cada habitante será drasticamente reduzida.\n\nPor meio de seus diferentes usos e consumos, as atividades humanas interferem no ciclo da água, alterando:",
+    "pergunta": "Por meio de seus diferentes usos e consumos, as atividades humanas interferem no ciclo da água, alterando:",
     "alternativas": [
       "a quantidade total, mas não a qualidade da água disponível no planeta.",
       "a qualidade da água e sua quantidade disponível para o consumo das populações.",
@@ -218,7 +222,8 @@
       "escassez de água",
       "questões ambientais"
     ],
-    "pergunta": "A possível escassez de água é uma das maiores preocupações da atualidade, considerada por alguns especialistas como o desafio maior do novo século. No entanto, tão importante quanto aumentar a oferta é investir na preservação da qualidade e no reaproveitamento da água de que dispomos hoje.\n\nA ação humana tem provocado algumas alterações quantitativas e qualitativas da água:\n\nI. Contaminação de lençóis freáticos.\n\nII. Diminuição da umidade do solo.\n\nIII. Enchentes e inundações.\n\nPode-se afirmar que as principais ações humanas associadas às alterações I, II e III são respectivamente:",
+    "texto_apoio": "A possível escassez de água é uma das maiores preocupações da atualidade, considerada por alguns especialistas como o desafio maior do novo século. No entanto, tão importante quanto aumentar a oferta é investir na preservação da qualidade e no reaproveitamento da água de que dispomos hoje.",
+    "pergunta": "A ação humana tem provocado algumas alterações quantitativas e qualitativas da água:\n\nI. Contaminação de lençóis freáticos.\n\nII. Diminuição da umidade do solo.\n\nIII. Enchentes e inundações.\n\nPode-se afirmar que as principais ações humanas associadas às alterações I, II e III são respectivamente:",
     "alternativas": [
       "uso de fertilizantes e aterros sanitários / lançamento de gases poluentes / canalização de córregos e rios.",
       "lançamento de lixo nas ruas / uso de fertilizantes / construção de aterros sanitários.",

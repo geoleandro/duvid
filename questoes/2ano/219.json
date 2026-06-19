@@ -20,8 +20,8 @@
       "Os combustíveis fósseis representam mais de 50% da oferta de energia, tanto no Brasil quanto no mundo."
     ],
     "correta": 4,
-    "ajuda": "Observe com atenção a proporção de cada fonte no gráfico, tanto para o Brasil quanto para o restante do mundo. Lembre-se que o Brasil é destaque mundial no uso de hidrelétricas e biocombustíveis. Compare qual país tem mais renováveis e qual tem mais fósseis.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "Observe com atenção a proporção de cada fonte no gráfico, tanto para o Brasil quanto para o restante do mundo. Lembre-se que o Brasil é destaque mundial no uso de hidrelétricas e biocombustíveis. Compare qual país tem mais renováveis e qual tem mais fósseis."
   },
   {
     "id": 2,
@@ -44,8 +44,8 @@
       "mesotérmico úmido."
     ],
     "correta": 2,
-    "ajuda": "Climogramas mostram temperatura e precipitação ao longo do ano. Foque na amplitude térmica, no ritmo das chuvas e na ausência de inverno frio. Isso ajuda a distinguir entre clima tropical, equatorial, subtropical e de altitude.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "Climogramas mostram temperatura e precipitação ao longo do ano. Foque na amplitude térmica, no ritmo das chuvas e na ausência de inverno frio. Isso ajuda a distinguir entre clima tropical, equatorial, subtropical e de altitude."
   },
   {
     "id": 3,
@@ -58,7 +58,8 @@
       "divisão climática",
       "territórios climáticos"
     ],
-    "pergunta": "De acordo com a influência de massas de ar, podemos dividir o território brasileiro em cinco principais tipos climáticos. Relacione a 2ª coluna de acordo com a 1ª e indique a alternativa correta:\n\nI. Clima Equatorial Úmido\n\nII. Clima Litorâneo Úmido\n\nIII. Clima Tropical Alternadamente Úmido e Seco\n\nIV. Clima Tropical tendendo a Seco ou Semiárido\n\nV. Clima Subtropical Úmido.\n\n( ) É um tipo de clima tropical, portanto quente, com médias anuais de pluviosidade geralmente inferiores a 1.000mm. As chuvas se concentram num período curto como no interior do Estado da Paraíba, por exemplo.\n\n( ) As médias pluviométricas oscilam entre 1.500 e 2.000 mm/ano; abrangendo a porção do território brasileiro próxima ao litoral, desde o Rio Grande do Norte até a parte setentrional do Estado de São Paulo.\n\n( ) Abrange a porção do território brasileiro localizada ao sul do Trópico de Capricórnio; é o tipo de clima classificado como “mesotérmico”, isto é, de temperaturas médias.\n\n( ) Abrange a Amazônia brasileira; quente e úmido, da convergência dos alísios.\n\n( ) É um clima tropical típico, quente e semiúmido com uma estação chuvosa (verão) e outra seca (inverno). Abrange Mato Grosso do Sul, Minas Gerais, trechos da Bahia e do Ceará, Maranhão e Piauí.",
+    "texto_apoio": "De acordo com a influência de massas de ar, podemos dividir o território brasileiro em cinco principais tipos climáticos.",
+    "pergunta": "Relacione a 2ª coluna de acordo com a 1ª e indique a alternativa correta:\n\nI. Clima Equatorial Úmido\n\nII. Clima Litorâneo Úmido\n\nIII. Clima Tropical Alternadamente Úmido e Seco\n\nIV. Clima Tropical tendendo a Seco ou Semiárido\n\nV. Clima Subtropical Úmido.\n\n( ) É um tipo de clima tropical, portanto quente, com médias anuais de pluviosidade geralmente inferiores a 1.000mm. As chuvas se concentram num período curto como no interior do Estado da Paraíba, por exemplo.\n\n( ) As médias pluviométricas oscilam entre 1.500 e 2.000 mm/ano; abrangendo a porção do território brasileiro próxima ao litoral, desde o Rio Grande do Norte até a parte setentrional do Estado de São Paulo.\n\n( ) Abrange a porção do território brasileiro localizada ao sul do Trópico de Capricórnio; é o tipo de clima classificado como “mesotérmico”, isto é, de temperaturas médias.\n\n( ) Abrange a Amazônia brasileira; quente e úmido, da convergência dos alísios.\n\n( ) É um clima tropical típico, quente e semiúmido com uma estação chuvosa (verão) e outra seca (inverno). Abrange Mato Grosso do Sul, Minas Gerais, trechos da Bahia e do Ceará, Maranhão e Piauí.",
     "alternativas": [
       "IV; II; V; I; III.",
       "II; V; IV; III; I.",
@@ -67,8 +68,8 @@
       "III; V; IV; II; I."
     ],
     "correta": 0,
-    "ajuda": "Relacione cada tipo climático com a massa de ar que predomina em sua região. Lembre-se que o Brasil tem cinco grandes domínios climáticos influenciados por massas equatoriais, tropicais e polares. Use a lógica de localização geográfica para ordenar corretamente.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "Relacione cada tipo climático com a massa de ar que predomina em sua região. Lembre-se que o Brasil tem cinco grandes domínios climáticos influenciados por massas equatoriais, tropicais e polares. Use a lógica de localização geográfica para ordenar corretamente."
   },
   {
     "id": 4,
@@ -81,7 +82,8 @@
       "semiárido",
       "Nordeste"
     ],
-    "pergunta": "A vegetação apresenta adaptações ao ambiente, como plantas arbóreas e arbustivas com raízes que se expandem horizontalmente, permitindo forte ancoragem no substrato lamacento; raízes que se expandem verticalmente, por causa da baixa oxigenação do substrato; folhas que têm glândulas para eliminar o excesso de sais; folhas que podem apresentar cutícula espessa para reduzir a perda de água por evaporação. As características descritas referem-se a plantas adaptadas ao bioma:",
+    "texto_apoio": "A vegetação apresenta adaptações ao ambiente, como plantas arbóreas e arbustivas com raízes que se expandem horizontalmente, permitindo forte ancoragem no substrato lamacento; raízes que se expandem verticalmente, por causa da baixa oxigenação do substrato; folhas que têm glândulas para eliminar o excesso de sais; folhas que podem apresentar cutícula espessa para reduzir a perda de água por evaporação.",
+    "pergunta": "As características descritas referem-se a plantas adaptadas ao bioma:",
     "alternativas": [
       "Cerrado.",
       "Pampas.",
@@ -90,8 +92,8 @@
       "Mata de Cocais."
     ],
     "correta": 3,
-    "ajuda": "A descrição menciona raízes horizontais para ancoragem e adaptações específicas ao ambiente. Pense em qual bioma brasileiro tem alternância entre períodos secos e úmidos, com solos sujeitos a inundações e salinidade — isso limita muito as opções.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>Bioma caracterizado pelo solo lamacento, com baixa oxigenação, no qual as raízes apresentam\r\n\t\t\t\t\tpneumatóforos para captação do gás. Por estar localizado na região costeira, a salinidade da água\r\n\t\t\t\t\texige da vegetação glândulas nas folhas para eliminação do excesso de sais.\r\n\r\n\r\n\r\n\r\n\t\t\t</p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>Bioma caracterizado pelo solo lamacento, com baixa oxigenação, no qual as raízes apresentam\r\n\t\t\t\t\tpneumatóforos para captação do gás. Por estar localizado na região costeira, a salinidade da água\r\n\t\t\t\t\texige da vegetação glândulas nas folhas para eliminação do excesso de sais.\r\n\r\n\r\n\r\n\r\n\t\t\t</p>",
+    "ajuda": "A descrição menciona raízes horizontais para ancoragem e adaptações específicas ao ambiente. Pense em qual bioma brasileiro tem alternância entre períodos secos e úmidos, com solos sujeitos a inundações e salinidade — isso limita muito as opções."
   },
   {
     "id": 5,
@@ -115,8 +117,8 @@
       "apresenta desvantagem em termos de ganho para a flora."
     ],
     "correta": 0,
-    "ajuda": "Queimadas controladas no Cerrado têm uma função ecológica ligada ao ciclo natural desse bioma. Reflita sobre o papel do fogo na renovação da vegetação e na biodiversidade, diferenciando práticas tradicionais de degradação ambiental.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> Segundo as informações do enunciado, a prática de queimadas controladas pode contribuir para a\r\n\t\t\t\t\tmanutenção da biodiversidade do Cerrado e, até mesmo, provocar um aumento discreto de espécies\r\n\t\t\t\t\tvegetais. A rebrota de algumas espécies do Cerrado depende da ação do fogo que ocorre naturalmente\r\n\t\t\t\t\tem sua área de abrangência no território nacional, onde predomina o clima tropical marcado por\r\n\t\t\t\t\tseveros períodos de estiagem durante o inverno.</p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> Segundo as informações do enunciado, a prática de queimadas controladas pode contribuir para a\r\n\t\t\t\t\tmanutenção da biodiversidade do Cerrado e, até mesmo, provocar um aumento discreto de espécies\r\n\t\t\t\t\tvegetais. A rebrota de algumas espécies do Cerrado depende da ação do fogo que ocorre naturalmente\r\n\t\t\t\t\tem sua área de abrangência no território nacional, onde predomina o clima tropical marcado por\r\n\t\t\t\t\tseveros períodos de estiagem durante o inverno.</p>",
+    "ajuda": "Queimadas controladas no Cerrado têm uma função ecológica ligada ao ciclo natural desse bioma. Reflita sobre o papel do fogo na renovação da vegetação e na biodiversidade, diferenciando práticas tradicionais de degradação ambiental."
   },
   {
     "id": 6,
@@ -140,8 +142,8 @@
       "estabilização da fertilidade do solo."
     ],
     "correta": 0,
-    "ajuda": "As tecnologias descritas no texto visam otimizar processos no campo ou na indústria. Pense no objetivo principal dessas inovações: controle, eficiência, produção ou fertilidade? Relacione a inovação com seu impacto mais direto no processo produtivo.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A tecnologia hoje disponível permite aos agricultores um monitoramento cada vez maior da produção\r\n\t\t\t\t\tagrícola, tornando a atividade cada vez mais independente das variações ambientais. </p>\n<p> a) Correta. A introdução de novas tecnologias no campo promove a adequação das etapas produtivas a\r\n\t\t\t\t\tprocessos que as otimizam, reforçando a expansão de uma agricultura científica globalizada que\r\n\t\t\t\t\tconfere racionalidade e aumento da produtividade à atividade agrícola moderna.\r\n\t\t\t\t</p>\n<p>\r\n\t\t\t\t\tb) Incorreta. O texto não faz menção ao aspecto econômico de valorização fundiária no campo, mas a\r\n\t\t\t\t\telementos técnicos vinculados à produção. </p>\n<p> c) Incorreta. Embora irrigação seja um processo utilizado para corrigir a ausência de umidade dos\r\n\t\t\t\t\tsolos, o tema principal que o texto aborda vincula-se à implementação de tecnologias no campo e às\r\n\t\t\t\t\tmudanças que isso ocasiona. </p>\n<p> d) Incorreta. A divisão do trabalho na propriedade agrícola tecnificada tem sido restrita pelo uso\r\n\t\t\t\t\tde tecnologias automatizadas capazes de centralizar cada vez mais o controle de todas as etapas da\r\n\t\t\t\t\tprodução. </p>\n<p>\r\n\t\t\t\t\te) Incorreta. O excerto apresentado fala da vulnerabilidade dos solos associada à variação dos\r\n\t\t\t\t\tníveis de umidade, sujeitos a medições para estabelecer a quantidade de água de que a planta\r\n\t\t\t\t\tnecessita além de abordar como os elementos técnicos podem contribui para estabelecer os objetivos\r\n\t\t\t\t\tprodutos pretendidos. Portanto, não há certeza sobrea estabilidade da influência dos elementos\r\n\t\t\t\t\tnaturais na atividade agrícola, tampouco se menciona o `fator fertilidade dos solos no âmbito da\r\n\t\t\t\t\tquestão.\r\n\r\n\r\n\t\t\t\t</p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> A tecnologia hoje disponível permite aos agricultores um monitoramento cada vez maior da produção\r\n\t\t\t\t\tagrícola, tornando a atividade cada vez mais independente das variações ambientais. </p>\n<p> a) Correta. A introdução de novas tecnologias no campo promove a adequação das etapas produtivas a\r\n\t\t\t\t\tprocessos que as otimizam, reforçando a expansão de uma agricultura científica globalizada que\r\n\t\t\t\t\tconfere racionalidade e aumento da produtividade à atividade agrícola moderna.\r\n\t\t\t\t</p>\n<p>\r\n\t\t\t\t\tb) Incorreta. O texto não faz menção ao aspecto econômico de valorização fundiária no campo, mas a\r\n\t\t\t\t\telementos técnicos vinculados à produção. </p>\n<p> c) Incorreta. Embora irrigação seja um processo utilizado para corrigir a ausência de umidade dos\r\n\t\t\t\t\tsolos, o tema principal que o texto aborda vincula-se à implementação de tecnologias no campo e às\r\n\t\t\t\t\tmudanças que isso ocasiona. </p>\n<p> d) Incorreta. A divisão do trabalho na propriedade agrícola tecnificada tem sido restrita pelo uso\r\n\t\t\t\t\tde tecnologias automatizadas capazes de centralizar cada vez mais o controle de todas as etapas da\r\n\t\t\t\t\tprodução. </p>\n<p>\r\n\t\t\t\t\te) Incorreta. O excerto apresentado fala da vulnerabilidade dos solos associada à variação dos\r\n\t\t\t\t\tníveis de umidade, sujeitos a medições para estabelecer a quantidade de água de que a planta\r\n\t\t\t\t\tnecessita além de abordar como os elementos técnicos podem contribui para estabelecer os objetivos\r\n\t\t\t\t\tprodutos pretendidos. Portanto, não há certeza sobrea estabilidade da influência dos elementos\r\n\t\t\t\t\tnaturais na atividade agrícola, tampouco se menciona o `fator fertilidade dos solos no âmbito da\r\n\t\t\t\t\tquestão.\r\n\r\n\r\n\t\t\t\t</p>",
+    "ajuda": "As tecnologias descritas no texto visam otimizar processos no campo ou na indústria. Pense no objetivo principal dessas inovações: controle, eficiência, produção ou fertilidade? Relacione a inovação com seu impacto mais direto no processo produtivo."
   },
   {
     "id": 7,
@@ -154,8 +156,9 @@
       "domínios morfoclimáticos",
       "geomorfologia"
     ],
+    "texto_apoio": "A presunção de que a superfície das chapadas e chapadões representa uma velha peneplanície é corroborada pelo fato de que ela é coberta por acumulações superficiais, tais como massas de areia, camadas de cascalhos e seixos e pela ocorrência generalizada de concreções ferruginosas que formam uma crosta laterítica, denominada “canga”.",
     "fonte_apoio": "WEIBEL, L. Disponível em: http://biblioteca.ibge.gov.br. Acesso em: 8 jul. 2015 (adaptado).",
-    "pergunta": "A presunção de que a superfície das chapadas e chapadões representa uma velha peneplanície é corroborada pelo fato de que ela é coberta por acumulações superficiais, tais como massas de areia, camadas de cascalhos e seixos e pela ocorrência generalizada de concreções ferruginosas que formam uma crosta laterítica, denominada “canga”.\n\nQual tipo climático favorece o processo de alteração do solo descrito no texto?",
+    "pergunta": "Qual tipo climático favorece o processo de alteração do solo descrito no texto?",
     "alternativas": [
       "Árido, com déficit hídrico.",
       "Subtropical, com baixas temperaturas.",
@@ -164,8 +167,8 @@
       "Equatorial, com pluviosidade abundante."
     ],
     "correta": 3,
-    "ajuda": "Chapadas e chapadões são formas de relevo planas em altitude, e a sazonalidade das chuvas é característica dos climas tropicais. Relacione as condições climáticas com a formação dos solos e a cobertura vegetal dessas superfícies antigas.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>A região descrita no texto apresenta características típicas da região central do País, na qual se\r\n\t\t\t\t\tdestaca o intenso processo erosivo. Nestas regiões, predominam o ambiente tropical típico, com\r\n\t\t\t\t\tchuvas concentradas no verão. </p>\n<p>a) Incorreto. Nessa alternativa, o clima árido não permite a sazonalidade chuvosa necessária à\r\n\t\t\t\t\tformação do processo de laterização. </p>\n<p> b) Incorreto. O clima subtropical não traz as condições necessárias à formação de cangas e do solo\r\n\t\t\t\t\tproposto no enunciado devido ao menor volume de chuvas e ausência de sazonalidade.</p>\n<p> c) Incorreto. O clima Temperado, apesar de ser sazonal, não traz o volume de chuvas necessário e nem\r\n\t\t\t\t\tas condições necessárias à formação de cangas e do solo proposto no enunciado.</p>\n<p>d) Correto. O clima tropical traz perfeitamente as condições necessárias à formação de cangas e do\r\n\t\t\t\t\tsolo proposto no enunciado, pois tem sazonalidade contribuindo tanto para o processo erosivo quanto\r\n\t\t\t\t\tpara o processo de laterização. </p>\n<p>e) Incorreto. Sempre deve haver sazonalidade hídrica para haver laterização, e chuvas constantes não\r\n\t\t\t\t\ttrazem essas condições.</p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>A região descrita no texto apresenta características típicas da região central do País, na qual se\r\n\t\t\t\t\tdestaca o intenso processo erosivo. Nestas regiões, predominam o ambiente tropical típico, com\r\n\t\t\t\t\tchuvas concentradas no verão. </p>\n<p>a) Incorreto. Nessa alternativa, o clima árido não permite a sazonalidade chuvosa necessária à\r\n\t\t\t\t\tformação do processo de laterização. </p>\n<p> b) Incorreto. O clima subtropical não traz as condições necessárias à formação de cangas e do solo\r\n\t\t\t\t\tproposto no enunciado devido ao menor volume de chuvas e ausência de sazonalidade.</p>\n<p> c) Incorreto. O clima Temperado, apesar de ser sazonal, não traz o volume de chuvas necessário e nem\r\n\t\t\t\t\tas condições necessárias à formação de cangas e do solo proposto no enunciado.</p>\n<p>d) Correto. O clima tropical traz perfeitamente as condições necessárias à formação de cangas e do\r\n\t\t\t\t\tsolo proposto no enunciado, pois tem sazonalidade contribuindo tanto para o processo erosivo quanto\r\n\t\t\t\t\tpara o processo de laterização. </p>\n<p>e) Incorreto. Sempre deve haver sazonalidade hídrica para haver laterização, e chuvas constantes não\r\n\t\t\t\t\ttrazem essas condições.</p>",
+    "ajuda": "Chapadas e chapadões são formas de relevo planas em altitude, e a sazonalidade das chuvas é característica dos climas tropicais. Relacione as condições climáticas com a formação dos solos e a cobertura vegetal dessas superfícies antigas."
   },
   {
     "id": 8,
@@ -188,8 +191,8 @@
       "Durante o Inverno, a Massa Equatorial Atlântica tem sua atuação restringida devido ao avanço da Massa Tropical Atlântica, que se desloca em função do avanço da Massa Polar Atlântica."
     ],
     "correta": 0,
-    "ajuda": "A questão pede a alternativa que NÃO descreve corretamente os movimentos das massas de ar. Revise o comportamento de cada massa durante o inverno e o verão, lembrando que a Massa Equatorial Continental (mEc) é quente e úmida apesar de continental.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>Embora a região Norte do país permaneça sob a influência da Massa Equatorial Continental, é comum que no inverno a Massa de ar Polar avance sobre o interior do país, provocando redução das temperaturas em todas as regiões. Quando esse fenômeno acontece na região Norte, ele recebe o nome de friagem. </p>"
+    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>Embora a região Norte do país permaneça sob a influência da Massa Equatorial Continental, é comum que no inverno a Massa de ar Polar avance sobre o interior do país, provocando redução das temperaturas em todas as regiões. Quando esse fenômeno acontece na região Norte, ele recebe o nome de friagem. </p>",
+    "ajuda": "A questão pede a alternativa que NÃO descreve corretamente os movimentos das massas de ar. Revise o comportamento de cada massa durante o inverno e o verão, lembrando que a Massa Equatorial Continental (mEc) é quente e úmida apesar de continental."
   },
   {
     "id": 9,
@@ -202,7 +205,8 @@
       "conceito geográfico",
       "biomas"
     ],
-    "pergunta": "Domínio morfoclimático foi um conceito usado por Aziz Nacib Ab’Saber e representa a combinação de uma série de elementos atuais como relevos, climas, vegetações, solos e hidrografias. As interações desses elementos formam as unidades paisagísticas. Dessa forma, o segundo maior domínio morfoclimático do Brasil é formado por áreas relativamente planas, de clima que apresenta inverno seco e verão bastante chuvoso, além de espécies vegetais com gramíneas, arbustos e árvores que apresentam folhas endurecidas, galhos tortuosos e cascas grossas. Esse domínio é conhecido com o nome de:",
+    "texto_apoio": "Domínio morfoclimático foi um conceito usado por Aziz Nacib Ab’Saber e representa a combinação de uma série de elementos atuais como relevos, climas, vegetações, solos e hidrografias. As interações desses elementos formam as unidades paisagísticas. Dessa forma, o segundo maior domínio morfoclimático do Brasil é formado por áreas relativamente planas, de clima que apresenta inverno seco e verão bastante chuvoso, além de espécies vegetais com gramíneas, arbustos e árvores que apresentam folhas endurecidas, galhos tortuosos e cascas grossas.",
+    "pergunta": "Esse domínio é conhecido com o nome de:",
     "alternativas": [
       "Cerrado.",
       "Caatinga.",
@@ -210,8 +214,8 @@
       "Mata dos Cocais."
     ],
     "correta": 0,
-    "ajuda": "Domínios morfoclimáticos de Ab'Saber combinam clima, relevo, vegetação e solo em uma unidade coesa. A característica mencionada na questão — como tipo de solo laterítico, vegetação de galeria ou paisagem específica — aponta para um domínio específico.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "Domínios morfoclimáticos de Ab'Saber combinam clima, relevo, vegetação e solo em uma unidade coesa. A característica mencionada na questão — como tipo de solo laterítico, vegetação de galeria ou paisagem específica — aponta para um domínio específico."
   },
   {
     "id": 10,
@@ -234,7 +238,7 @@
       "terras periodicamente alagáveis."
     ],
     "correta": 4,
-    "ajuda": "O Pantanal é uma planície sedimentar sujeita a alagamentos sazonais. Pense nas características físicas mais marcantes desse bioma: relevo, regime hídrico e vegetação. Isso ajuda a identificar a opção que melhor o descreve geograficamente.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->",
+    "ajuda": "O Pantanal é uma planície sedimentar sujeita a alagamentos sazonais. Pense nas características físicas mais marcantes desse bioma: relevo, regime hídrico e vegetação. Isso ajuda a identificar a opção que melhor o descreve geograficamente."
   }
 ]

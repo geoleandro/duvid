@@ -148,7 +148,8 @@
       "clima continental",
       "vegetação"
     ],
-    "pergunta": "O clima continental que se manifesta nas altas latitudes condiciona o desenvolvimento desta vegetação, caracterizada por árvores de grande porte e relativamente homogêneas. Já foi intensamente explorada para retirada da madeira. Atualmente, o reflorestamento tem reduzido o impacto dessa exploração.\n\nO texto refere-se à seguinte formação vegetal:",
+    "texto_apoio": "O clima continental que se manifesta nas altas latitudes condiciona o desenvolvimento desta vegetação, caracterizada por árvores de grande porte e relativamente homogêneas. Já foi intensamente explorada para retirada da madeira. Atualmente, o reflorestamento tem reduzido o impacto dessa exploração.",
+    "pergunta": "O texto refere-se à seguinte formação vegetal:",
     "alternativas": [
       "Tundra.",
       "Floresta Equatorial.",

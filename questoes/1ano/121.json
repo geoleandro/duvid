@@ -104,7 +104,8 @@
       "escassez de água",
       "sustentabilidade"
     ],
-    "pergunta": "À medida que a demanda por água aumenta, as reservas desse recurso vão se tornando imprevisíveis. Modelos matemáticos que analisam os efeitos das mudanças climáticas sobre a disponibilidade de água no futuro indicam que haverá escassez em muitas regiões do planeta. São esperadas mudanças nos padrões de precipitação, pois:",
+    "texto_apoio": "À medida que a demanda por água aumenta, as reservas desse recurso vão se tornando imprevisíveis. Modelos matemáticos que analisam os efeitos das mudanças climáticas sobre a disponibilidade de água no futuro indicam que haverá escassez em muitas regiões do planeta.",
+    "pergunta": "São esperadas mudanças nos padrões de precipitação, pois:",
     "alternativas": [
       "O maior aquecimento implica menor formação de nuvens e, consequentemente, a eliminação de áreas úmidas e subúmidas do globo.",
       "As chuvas frontais ficarão restritas ao tempo de permanência da frente em uma determinada localidade, o que limitará a produtividade das atividades agrícolas.",
@@ -126,8 +127,9 @@
       "La Niña",
       "dinâmica climática"
     ],
+    "texto_apoio": "O aumento da temperatura média do oceano Pacífico nos meses de dezembro, janeiro e fevereiro entre a América do Sul e a Oceania, apresentado como uma mancha na gravura ao lado, é um velho fenômeno reconhecido por navegadores europeus e pelo povo inca, desde o século XVI, mas que só passou a ser estudado a partir do final do século XX.",
     "imagem_apoio": "1ano/img/121/p21q6.png",
-    "pergunta": "O aumento da temperatura média do oceano Pacífico nos meses de dezembro, janeiro e fevereiro entre a América do Sul e a Oceania, apresentado como uma mancha na gravura ao lado, é um velho fenômeno reconhecido por navegadores europeus e pelo povo inca, desde o século XVI, mas que só passou a ser estudado a partir do final do século XX. Sobre esse fenômeno, é CORRETO afirmar que se trata do (a):",
+    "pergunta": "Sobre esse fenômeno, é CORRETO afirmar que se trata do (a):",
     "alternativas": [
       "El Niño, que se forma nos meses de inverno no hemisfério sul do planeta, acarretando chuvas desenfreadas em algumas regiões do planeta e secas em outras",
       "La Niña, que ocorre no verão e provoca veranicos na costa ocidental da América do Norte e ressacas violentas na América do Sul.",
@@ -193,8 +195,9 @@
       "efeito estufa",
       "mudanças climáticas"
     ],
+    "texto_apoio": "Fenômeno de origem complexa e ainda obscura. Suspeita-se de um componente antropogênico, quantificado pelo aumento da concentração na atmosfera de gases, como o CO2, da queima de combustíveis fósseis, além da emissão espontânea de metano no processo digestivo de vários mamíferos.",
     "fonte_apoio": "(Folha de S. Paulo. Caderno Mais, 21 set. 2003. p.6)",
-    "pergunta": "Fenômeno de origem complexa e ainda obscura. Suspeita-se de um componente antropogênico, quantificado pelo aumento da concentração na atmosfera de gases, como o CO2, da queima de combustíveis fósseis, além da emissão espontânea de metano no processo digestivo de vários mamíferos.\n\nO texto refere-se ao problema:",
+    "pergunta": "O texto refere-se ao problema:",
     "alternativas": [
       "Do aquecimento global.",
       "Do buraco da camada de ozônio.",
