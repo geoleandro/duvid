@@ -28,17 +28,7 @@
 
         <a href="/paginas/instrucoes.php" class="w3-bar-item w3-button w3-padding-small w3-hide-small">INSTRUÇÕES</a>
 
-        <div class="w3-dropdown-click w3-hide-small">
-            <button onclick="AbrirDropDown('simulados')" class="w3-padding-small w3-button">
-                SIMULADOS <i class="fa fa-caret-down"></i>
-            </button>
-            <div id="simulados" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-                <a href="/simulados/capasimuladoenem.php" class="w3-bar-item w3-button">Enem</a>
-                <a href="/simulados/capasimuladofuvest.php" class="w3-bar-item w3-button">Fuvest</a>
-                <a href="/simulados/capasimuladounesp.php" class="w3-bar-item w3-button">Unesp</a>
-                <a href="/simulados/capasimuladounicamp.php" class="w3-bar-item w3-button">Unicamp</a>
-            </div>
-        </div>
+        <a href="/simulados/capasimuladogeral.php" class="w3-bar-item w3-button w3-padding-small w3-hide-small">SIMULADOS</a>
 
           <div class="w3-dropdown-click w3-hide-small">
             <button onclick="AbrirDropDown('turma-menu')" class="w3-padding-small w3-button">
@@ -145,19 +135,9 @@
     <a href="/paginas/instrucoes.php" class="w3-bar-item w3-button w3-padding-large"
         onclick="AbrirNavBar()">INSTRUÇÕES</a>
 
-    <!-- 4. DROPDOWN SIMULADOS (Corrigido) -->
-    <div class="w3-dropdown-click w3-left-align">
-        <button onclick="AbrirDropDown('simulados-mobile')" class="w3-button w3-block  w3-padding-large"
-            style="text-align: left; width: 100%; border: none; background: inherit;">
-            SIMULADOS <i class="fa fa-caret-down"></i>
-        </button>
-        <div id="simulados-mobile" class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
-            <a href="/simulados/capasimuladoenem.php" class="w3-bar-item w3-button w3-padding">Enem</a>
-            <a href="/simulados/capasimuladofuvest.php" class="w3-bar-item w3-button w3-padding">Fuvest</a>
-            <a href="/simulados/capasimuladounesp.php" class="w3-bar-item w3-button w3-padding">Unesp</a>
-            <a href="/simulados/capasimuladounicamp.php" class="w3-bar-item w3-button w3-padding">Unicamp</a>
-        </div>
-    </div>
+    <!-- SIMULADOS — link direto -->
+    <a href="/simulados/capasimuladogeral.php" class="w3-bar-item w3-button w3-padding-large"
+        onclick="AbrirNavBar()">SIMULADOS</a>
 
 
      <!-- 3. DROPDOWN TURMA (mobile) -->

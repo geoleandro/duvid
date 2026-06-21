@@ -5,10 +5,10 @@
     "ano": "2021",
     "dificuldade": "media",
     "tags": [
-      "Aquífero Guarani",
+      "aquífero guarani",
       "hidrografia",
       "recursos hídricos",
-      "América do Sul"
+      "américa do sul"
     ],
     "texto_apoio": "O Sistema Aquífero Guarani abrange parte dos territórios da Argentina, do Brasil, do Paraguai e do Uruguai. Possui um volume acumulado de 37.000 km3 e área estimada de 1.087.000 km2. Na parte brasileira estende-se por oito Estados: Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina e São Paulo.",
     "fonte_apoio": "Disponível em https://www.mma.gov.br/.",
@@ -21,7 +21,7 @@
       "Os aquíferos estão em profundidades que impossibilitam seu uso para atividades humanas, incluindo aqueles usos destinados a fins menos nobres, como lavagem de calçadas e praças."
     ],
     "correta": 0,
-    "comentario": "Aquíferos são formações geológicas porosas ou fraturadas capazes de armazenar e transmitir água subterrânea em volume explorável. O Aquífero Guarani, um dos maiores do mundo, abastece cidades e estâncias termais de quatro países sul-americanos, sendo estratégico para a segurança hídrica regional. Sua recarga depende das chuvas que infiltram nas áreas aflorantes, principalmente no Brasil.",
+    "comentario": "<p>Aquíferos são formações geológicas porosas ou fraturadas capazes de armazenar e transmitir água subterrânea em volume explorável. O Aquífero Guarani, um dos maiores do mundo, abastece cidades e estâncias termais de quatro países sul-americanos, sendo estratégico para a segurança hídrica regional. Sua recarga depende das chuvas que infiltram nas áreas aflorantes, principalmente no Brasil.</p>",
     "ajuda": "Aquíferos são reservatórios subterrâneos de água armazenados em rochas porosas ou fraturadas. Lembre-se que eles fazem parte do ciclo hidrológico, são acessíveis por poços e são utilizados para abastecimento em diversas partes do mundo."
   },
   {
@@ -43,7 +43,7 @@
       "A bacia hidrográfica do São Francisco é a que possui a maior possibilidade de navegação no Brasil."
     ],
     "correta": 4,
-    "comentario": "O rio São Francisco é o principal rio de integração nacional, mas sua extensão navegável é limitada por cachoeiras e obras de engenharia. A bacia Amazônica possui o maior potencial de navegação do Brasil, com milhares de quilômetros de rios perenes e profundos que cortam a floresta. A afirmativa sobre o São Francisco está incorreta pois confunde importância histórica com capacidade de navegação.",
+    "comentario": "<p>O rio São Francisco é o principal rio de integração nacional, mas sua extensão navegável é limitada por cachoeiras e obras de engenharia. A bacia Amazônica possui o maior potencial de navegação do Brasil, com milhares de quilômetros de rios perenes e profundos que cortam a floresta. A afirmativa sobre o São Francisco está incorreta pois confunde importância histórica com capacidade de navegação.</p>",
     "ajuda": "A questão pede a alternativa INCORRETA sobre bacias hidrográficas brasileiras. Revise os dados de cada bacia: extensão, localização, potencial navegável. A bacia do São Francisco é navegável, mas é a maior em navegação interna?"
   },
   {
@@ -67,7 +67,7 @@
       "Amazônica, Tocantins-Araguaia e Paraguai."
     ],
     "correta": 3,
-    "comentario": "As três maiores regiões hidrográficas brasileiras — Amazônica, São Francisco e Paraná — concentram o maior volume de água doce e os mais importantes sistemas de geração de energia hidrelétrica do país. A bacia Amazônica é a maior do mundo em vazão; a do Paraná abriga Itaipu e Tucuruí; e o São Francisco é o único grande rio inteiramente brasileiro com regime perene no Semiárido.",
+    "comentario": "<p>As três maiores regiões hidrográficas brasileiras — Amazônica, São Francisco e Paraná — concentram o maior volume de água doce e os mais importantes sistemas de geração de energia hidrelétrica do país. A bacia Amazônica é a maior do mundo em vazão; a do Paraná abriga Itaipu e Tucuruí; e o São Francisco é o único grande rio inteiramente brasileiro com regime perene no Semiárido.</p>",
     "ajuda": "O mapa apresenta 12 regiões hidrográficas. Analise as características de cada uma: a que ocupa 45% do território, a mais importante para transposição e a maior em potencial hidrelétrico. Use o raciocínio eliminatório."
   },
   {
@@ -92,7 +92,7 @@
       "os rios apresentam regimes fluviais diferentes: o rio A corresponde ao Regime Pluvial Tropical e o rio B representa o Regime Pluvial Semiárido."
     ],
     "correta": 3,
-    "comentario": "O regime fluvial descreve a variação da vazão de um rio ao longo do ano, sendo determinado principalmente pelo regime de chuvas da bacia. Rios de clima tropical têm cheias bem definidas no verão e secas no inverno — o regime pluvial tropical. Já no Semiárido, as chuvas são escassas e irregulares, gerando rios com regime intermitente ou semiárido, como mostrado no gráfico.",
+    "comentario": "<p>O regime fluvial descreve a variação da vazão de um rio ao longo do ano, sendo determinado principalmente pelo regime de chuvas da bacia. Rios de clima tropical têm cheias bem definidas no verão e secas no inverno — o regime pluvial tropical. Já no Semiárido, as chuvas são escassas e irregulares, gerando rios com regime intermitente ou semiárido, como mostrado no gráfico.</p>",
     "ajuda": "Os gráficos de vazão mostram o regime fluvial dos rios ao longo do ano. Identifique qual regime corresponde ao tropical (com estiagem no inverno) e qual ao equatorial (com chuvas mais regulares). Isso define qual captação é mais segura."
   },
   {
@@ -117,7 +117,7 @@
       "o centro-oeste é a região que concentra a maior quantidade de recursos hídricos no Brasil."
     ],
     "correta": 1,
-    "comentario": "O Brasil possui cerca de 12% da água doce superficial do planeta, mas sua distribuição é profundamente desigual: a Amazônia, com baixa densidade demográfica, concentra mais de 80% dos recursos hídricos, enquanto o Nordeste Semiárido e o Sudeste — as regiões mais populosas — têm disponibilidade per capita muito menor. Essa desigualdade natural é agravada pela poluição e gestão ineficiente.",
+    "comentario": "<p>O Brasil possui cerca de 12% da água doce superficial do planeta, mas sua distribuição é profundamente desigual: a Amazônia, com baixa densidade demográfica, concentra mais de 80% dos recursos hídricos, enquanto o Nordeste Semiárido e o Sudeste — as regiões mais populosas — têm disponibilidade per capita muito menor. Essa desigualdade natural é agravada pela poluição e gestão ineficiente.</p>",
     "ajuda": "O Brasil tem distribuição desigual de água e população. Lembre-se que a Amazônia concentra a maior parte dos recursos hídricos, mas tem baixa densidade demográfica. O Sudeste é o mais populoso e tem menor disponibilidade relativa de água."
   },
   {
@@ -126,7 +126,7 @@
     "ano": "2016",
     "dificuldade": "media",
     "tags": [
-      "usina hidrelétrica de Itaipu",
+      "usina hidrelétrica de itaipu",
       "impacto ambiental",
       "hidrografia",
       "energia"
@@ -142,7 +142,7 @@
       "a usina hidrelétrica, localizada na fronteira entre Brasil e Paraguai, foi construída durante a ditadura militar brasileira e inundou mais de trinta territórios dos Guarani."
     ],
     "correta": 4,
-    "comentario": "A construção de Itaipu na fronteira Brasil-Paraguai, durante as ditaduras militares dos dois países na década de 1970, inundou vasta área que incluía territórios tradicionais dos Guarani, além das Sete Quedas do Iguaçu. O projeto foi imposto sem consulta às comunidades afetadas, evidenciando como grandes obras de infraestrutura podem apagar culturas e territórios indígenas em nome do desenvolvimento.",
+    "comentario": "<p>A construção de Itaipu na fronteira Brasil-Paraguai, durante as ditaduras militares dos dois países na década de 1970, inundou vasta área que incluía territórios tradicionais dos Guarani, além das Sete Quedas do Iguaçu. O projeto foi imposto sem consulta às comunidades afetadas, evidenciando como grandes obras de infraestrutura podem apagar culturas e territórios indígenas em nome do desenvolvimento.</p>",
     "ajuda": "A questão trata da construção de Itaipu e seus impactos sobre populações indígenas. Identifique o contexto histórico correto: período da ditadura militar, localização na fronteira Brasil-Paraguai e o impacto sobre comunidades Guarani."
   },
   {
@@ -165,7 +165,7 @@
       "a Bacia do Parnaíba apresenta planaltos acidentados, bom aproveitamento hidrelétrico e interligação a outras bacias."
     ],
     "correta": 1,
-    "comentario": "A Bacia Amazônica ocupa uma enorme depressão continental com relevo predominantemente plano, o que favorece a formação de rios meandrosos — que fazem curvas — e áreas de várzea inundáveis. O clima equatorial garante chuvas abundantes durante todo o ano, resultando em altíssimos índices pluviométricos e na maior descarga fluvial do planeta.",
+    "comentario": "<p>A Bacia Amazônica ocupa uma enorme depressão continental com relevo predominantemente plano, o que favorece a formação de rios meandrosos — que fazem curvas — e áreas de várzea inundáveis. O clima equatorial garante chuvas abundantes durante todo o ano, resultando em altíssimos índices pluviométricos e na maior descarga fluvial do planeta.</p>",
     "ajuda": "Analise as características de cada bacia: regime hídrico, relevo, pluviosidade e aproveitamento econômico. A Bacia Amazônica tem relevo plano, rios meândricos e alta pluviosidade — verifique se as outras descrições são coerentes."
   },
   {
@@ -189,7 +189,7 @@
       "Interromper o fornecimento de água para a lavoura e para o consumo humano, a fim de que a água seja transferida para outros rios."
     ],
     "correta": 1,
-    "comentario": "A Lei das Águas de 1997 estabelece que a água é um bem público e que, em situação de escassez, o abastecimento humano e a dessedentação de animais têm prioridade sobre outros usos, como a irrigação agrícola. Esse princípio de gestão integrada é fundamental para conciliar demandas conflitantes em bacias com múltiplos usuários, como o São Francisco.",
+    "comentario": "<p>A Lei das Águas de 1997 estabelece que a água é um bem público e que, em situação de escassez, o abastecimento humano e a dessedentação de animais têm prioridade sobre outros usos, como a irrigação agrícola. Esse princípio de gestão integrada é fundamental para conciliar demandas conflitantes em bacias com múltiplos usuários, como o São Francisco.</p>",
     "ajuda": "A Lei das Águas estabelece que a água é um bem público e que o uso humano tem prioridade. Diante de um conflito entre irrigação agrícola e abastecimento humano, aplique esses princípios para identificar a decisão juridicamente correta."
   },
   {
@@ -198,10 +198,10 @@
     "ano": "2006",
     "dificuldade": "media",
     "tags": [
-      "Aquífero Guarani",
+      "aquífero guarani",
       "recursos hídricos subterrâneos",
       "hidrografia",
-      "América do Sul"
+      "américa do sul"
     ],
     "texto_apoio": "“O aquífero Guarani, mega reservatório hídrico subterrâneo da América do Sul, com 1,2 milhão de km2, não é o \"mar de água doce\" que se pensava existir. Enquanto em algumas áreas a água é excelente, em outras, é inacessível, escassa ou não-potável. O aquífero pode ser dividido em quatro grandes compartimentos. No compartimento Oeste, há boas condições estruturais que proporcionam recarga rápida a partir das chuvas e as águas são, em geral, de boa qualidade e potáveis. Já no compartimento Norte-Alto Uruguai, o sistema encontra-se coberto por rochas vulcânicas, a profundidades que variam de 350 m a 1.200 m. Suas águas são muito antigas, datando da Era Mesozoica, e não são potáveis em grande parte da área, com elevada salinidade, sendo que os altos teores de fluoretos e de sódio podem causar alcalinização do solo”.",
     "fonte_apoio": "Scientific American Brasil, n∘ 47, abr./2006 (com adaptações).",
@@ -215,7 +215,7 @@
       "o uso das águas do compartimento Norte-Alto Uruguai para irrigação deixaria ácido o solo."
     ],
     "correta": 2,
-    "comentario": "O Aquífero Guarani é transfronteiriço e sua exploração requer mapeamento detalhado das zonas de recarga, profundidade e qualidade química da água. O uso inadequado pode comprometer sua recarga natural e contaminar o reservatório, afetando populações em quatro países. Por isso, o conhecimento técnico aprofundado é condição indispensável para seu uso sustentável.",
+    "comentario": "<p>O Aquífero Guarani é transfronteiriço e sua exploração requer mapeamento detalhado das zonas de recarga, profundidade e qualidade química da água. O uso inadequado pode comprometer sua recarga natural e contaminar o reservatório, afetando populações em quatro países. Por isso, o conhecimento técnico aprofundado é condição indispensável para seu uso sustentável.</p>",
     "ajuda": "O Aquífero Guarani é um dos maiores reservatórios de água doce subterrânea do mundo. Lembre-se que suas águas participam do ciclo hidrológico, têm temperatura variável por compartimento e seu uso requer estudo das características locais."
   },
   {
@@ -225,9 +225,9 @@
     "dificuldade": "dificil",
     "tags": [
       "chapadão",
-      "Cerrado",
+      "cerrado",
       "nascentes",
-      "Aquífero Guarani"
+      "aquífero guarani"
     ],
     "texto_apoio": "Para chegar à resposta correta, é importante observar atentamente as informações fornecidas na imagem de satélite e relacioná-las aos conceitos geográficos envolvidos na questão. Analise como a presença das monoculturas no Chapadão Ocidental Baiano pode afetar as bacias hidrográficas dos rios Tocantins e São Francisco. Considere o papel dos divisores de águas e como eles podem influenciar na disseminação de substâncias, como os agrotóxicos, nessas áreas. Pense também na relação entre a localização das monoculturas e a proximidade das bacias hidrográficas. É comum que bancas examinadoras utilizem estratégias para testar a capacidade dos estudantes de interpretar corretamente as questões. Uma dessas estratégias é o uso de termos como \"somente\", \"único\" e outras palavras que possam induzir a uma interpretação incorreta. Tente resolver sem ver a resposta",
     "imagem_apoio": "2ano/img/221/s21q10.png",
@@ -240,7 +240,7 @@
       "a bacia do rio Tocantins é mais ameaçada do que a do São Francisco pela contaminação originada do uso de agrotóxicos, pois os divisores de águas convergem para o estado do Tocantins."
     ],
     "correta": 0,
-    "comentario": "O Chapadão Ocidental Baiano é uma área de pivô central com intensa agricultura de soja irrigada, cujos agrotóxicos e fertilizantes infiltram no solo e atingem os lençóis freáticos que alimentam tanto a bacia do Tocantins quanto a do São Francisco. Os divisores topográficos não impedem esses fluxos subterrâneos, tornando a contaminação um problema de escala regional e interestadual.",
+    "comentario": "<p>O Chapadão Ocidental Baiano é uma área de pivô central com intensa agricultura de soja irrigada, cujos agrotóxicos e fertilizantes infiltram no solo e atingem os lençóis freáticos que alimentam tanto a bacia do Tocantins quanto a do São Francisco. Os divisores topográficos não impedem esses fluxos subterrâneos, tornando a contaminação um problema de escala regional e interestadual.</p>",
     "ajuda": "O mapa mostra cultivos agrícolas nos topos do Chapadão Baiano, divisor das bacias do Tocantins e São Francisco. Pense no sentido do escoamento da água: os agrotóxicos aplicados nas chapadas drenam para qual bacia conforme o relevo?"
   }
 ]

@@ -6,7 +6,7 @@
     "dificuldade": "media",
     "tags": [
       "desmatamento",
-      "IBAMA",
+      "ibama",
       "fiscalização ambiental",
       "questão ambiental"
     ],
@@ -21,7 +21,7 @@
       "Intensificação da drenagem do solo de várzea."
     ],
     "correta": 2,
-    "comentario": "O controle biológico utiliza predadores naturais, parasitas ou patógenos para combater pragas, reduzindo a necessidade de agrotóxicos. As abelhas são polinizadoras essenciais para cerca de 70% das culturas agrícolas comerciais do mundo — sua extinção comprometeria diretamente a produção de alimentos. Substituir inseticidas neonicotinoides pelo controle biológico protege tanto os polinizadores quanto a produtividade agrícola.",
+    "comentario": "<p>O controle biológico utiliza predadores naturais, parasitas ou patógenos para combater pragas, reduzindo a necessidade de agrotóxicos. As abelhas são polinizadoras essenciais para cerca de 70% das culturas agrícolas comerciais do mundo — sua extinção comprometeria diretamente a produção de alimentos. Substituir inseticidas neonicotinoides pelo controle biológico protege tanto os polinizadores quanto a produtividade agrícola.</p>",
     "ajuda": "O texto fala sobre abelhas sendo intoxicadas por agrotóxicos em monoculturas. Pense em qual prática agrícola reduziria o uso de agrotóxicos e, ao mesmo tempo, protegeria os polinizadores. Descarte opções que intensifiquem o modelo atual."
   },
   {
@@ -46,7 +46,7 @@
       "em lavouras extensivas, destinadas ao mercado externo, com alta mecanização e emprego de mão de obra especializada, principalmente nas regiões Norte e Nordeste do país."
     ],
     "correta": 3,
-    "comentario": "A modernização do campo brasileiro, especialmente no Centro-Sul, criou grandes lavouras mecanizadas voltadas para o agronegócio exportador. Esse modelo concentra terras e tecnologia, demandando mão de obra especializada em vez de trabalhadores braçais. O contraste com a agricultura familiar do Nordeste evidencia a desigualdade regional no desenvolvimento do espaço agrário.",
+    "comentario": "<p>A modernização do campo brasileiro, especialmente no Centro-Sul, criou grandes lavouras mecanizadas voltadas para o agronegócio exportador. Esse modelo concentra terras e tecnologia, demandando mão de obra especializada em vez de trabalhadores braçais. O contraste com a agricultura familiar do Nordeste evidencia a desigualdade regional no desenvolvimento do espaço agrário.</p>",
     "ajuda": "O uso de fertilizantes no Brasil está associado a um modelo agrícola específico. Reflita sobre as características do agronegócio brasileiro: é intensivo em capital e tecnologia, voltado para exportação e com alta mecanização. Isso define o perfil do uso de fertilizantes."
   },
   {
@@ -58,7 +58,7 @@
       "extrativismo vegetal",
       "silvicultura",
       "produção florestal",
-      "biomas"
+      "bioma"
     ],
     "imagem_apoio": "2ano/img/220/s20q3.png",
     "pergunta": "Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de:",
@@ -70,7 +70,7 @@
       "retração da indústria alimentícia."
     ],
     "correta": 2,
-    "comentario": "A silvicultura — cultivo planejado de florestas, como eucalipto e pinus — expandiu-se no Brasil como alternativa ao extrativismo vegetal predatório. O reflorestamento garante abastecimento contínuo de madeira sem desmatamento de florestas nativas, respondendo pela queda do extrativismo e aumento da madeira cultivada nos gráficos de produção florestal.",
+    "comentario": "<p>A silvicultura — cultivo planejado de florestas, como eucalipto e pinus — expandiu-se no Brasil como alternativa ao extrativismo vegetal predatório. O reflorestamento garante abastecimento contínuo de madeira sem desmatamento de florestas nativas, respondendo pela queda do extrativismo e aumento da madeira cultivada nos gráficos de produção florestal.</p>",
     "ajuda": "O gráfico mostra a variação entre extrativismo vegetal e silvicultura ao longo do tempo. Lembre-se que silvicultura envolve plantio de árvores, como eucalipto, enquanto o extrativismo usa florestas nativas. A tendência recente favorece qual das duas?"
   },
   {
@@ -82,7 +82,7 @@
       "legislação ambiental",
       "compensação ambiental",
       "normas ambientais",
-      "APP"
+      "app"
     ],
     "texto_apoio": "Para se adequar às normas ambientais atuais, as construtoras precisam prever em suas obras a questão do uso de materiais de modo a minimizar os impactos causados no local. Entre esses materiais está o chamado concregrama ou pisograma, que é um tipo de revestimento composto por peças de concreto com áreas vazadas, preenchidas com solo gramado. As figuras apresentam essas duas formas de piso feitos de concreto.",
     "imagem_apoio": "2ano/img/220/s20q4.png",
@@ -95,7 +95,7 @@
       "salinização."
     ],
     "correta": 0,
-    "comentario": "A impermeabilização do solo em áreas urbanas impede a infiltração da água da chuva, aumentando o escoamento superficial e os riscos de enchentes. Materiais impermeáveis como asfalto e concreto ampliam o impacto ambiental das obras, por isso as normas ambientais exigem medidas compensatórias como jardins de chuva e pavimentos permeáveis.",
+    "comentario": "<p>A impermeabilização do solo em áreas urbanas impede a infiltração da água da chuva, aumentando o escoamento superficial e os riscos de enchentes. Materiais impermeáveis como asfalto e concreto ampliam o impacto ambiental das obras, por isso as normas ambientais exigem medidas compensatórias como jardins de chuva e pavimentos permeáveis.</p>",
     "ajuda": "A questão trata de impermeabilização do solo em construções urbanas. Pense no que acontece quando o solo fica coberto por cimento ou asfalto: a água não infiltra, aumentando o escoamento superficial. Qual problema ambiental urbano isso causa?"
   },
   {
@@ -105,7 +105,7 @@
     "dificuldade": "media",
     "tags": [
       "desmatamento",
-      "Amazônia",
+      "amazônia",
       "questão ambiental",
       "agropecuária"
     ],
@@ -120,7 +120,7 @@
       "Os grandes projetos de infraestrutura causam degradação da floresta amazônica, com intensidade moderada e temporária, auxiliando a regularização fundiária."
     ],
     "correta": 2,
-    "comentario": "O desmatamento na Amazônia é alimentado pela grilagem de terras — falsificação de documentos para apropriar áreas públicas —, pela extração ilegal de madeira e pela abertura de rodovias que facilitam o acesso ao interior da floresta. Esses fatores atuam em conjunto, criando o chamado 'arco do desmatamento' no Pará, Mato Grosso e Rondônia.",
+    "comentario": "<p>O desmatamento na Amazônia é alimentado pela grilagem de terras — falsificação de documentos para apropriar áreas públicas —, pela extração ilegal de madeira e pela abertura de rodovias que facilitam o acesso ao interior da floresta. Esses fatores atuam em conjunto, criando o chamado 'arco do desmatamento' no Pará, Mato Grosso e Rondônia.</p>",
     "ajuda": "O texto descreve o avanço do desmatamento na Amazônia ligado a grilagem e grandes obras. Identifique qual alternativa descreve corretamente as causas estruturais desse problema, sem minimizar seus efeitos ou deslocar a responsabilidade."
   },
   {
@@ -129,7 +129,7 @@
     "ano": "2016",
     "dificuldade": "media",
     "tags": [
-      "Mata Atlântica",
+      "mata atlântica",
       "desmatamento",
       "fragmentação florestal",
       "litoral"
@@ -144,7 +144,7 @@
       "Todas as afirmativas são incorretas."
     ],
     "correta": 0,
-    "comentario": "A Mata Atlântica é um dos biomas mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original. Sua destruição está ligada à ocupação histórica do litoral brasileiro, onde se concentram as maiores cidades e atividades econômicas do país. Apesar da fragmentação, o bioma ainda abriga enorme biodiversidade e serve como corredor ecológico.",
+    "comentario": "<p>A Mata Atlântica é um dos biomas mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original. Sua destruição está ligada à ocupação histórica do litoral brasileiro, onde se concentram as maiores cidades e atividades econômicas do país. Apesar da fragmentação, o bioma ainda abriga enorme biodiversidade e serve como corredor ecológico.</p>",
     "ajuda": "As afirmativas tratam da Mata Atlântica e seus impactos ambientais. Analise cada item separadamente: verifique se os dados sobre fragmentação, espécies endêmicas e usos do solo são corretos conforme o que você estudou sobre esse bioma."
   },
   {
@@ -169,7 +169,7 @@
       "cria condições para o estabelecimento de espécies pioneiras com a diminuição da insolação sobre o solo."
     ],
     "correta": 2,
-    "comentario": "A prática agroecológica que incorpora matéria orgânica ao solo estimula a vida microbiana e de organismos como minhocas, restaurando a estrutura do solo degradado. Solos biologicamente ativos apresentam maior retenção de água, ciclagem de nutrientes e resistência à erosão, recuperando a capacidade produtiva sem depender de insumos químicos.",
+    "comentario": "<p>A prática agroecológica que incorpora matéria orgânica ao solo estimula a vida microbiana e de organismos como minhocas, restaurando a estrutura do solo degradado. Solos biologicamente ativos apresentam maior retenção de água, ciclagem de nutrientes e resistência à erosão, recuperando a capacidade produtiva sem depender de insumos químicos.</p>",
     "ajuda": "A questão aborda recuperação de ecossistemas degradados por agricultura intensiva. Pense no que é necessário para restaurar a biodiversidade do solo: diversidade de organismos, matéria orgânica, cobertura vegetal. Qual prática promove isso?"
   },
   {
@@ -194,7 +194,7 @@
       "uso de agrotóxicos nas plantações."
     ],
     "correta": 4,
-    "comentario": "O Brasil é o maior consumidor de agrotóxicos do mundo, um reflexo do modelo agroexportador baseado em monoculturas de larga escala. O uso excessivo de pesticidas contamina solos, rios e aquíferos, além de gerar resistência em pragas e intoxicar trabalhadores rurais. A charge critica a naturalização desse modelo como sinônimo de produtividade.",
+    "comentario": "<p>O Brasil é o maior consumidor de agrotóxicos do mundo, um reflexo do modelo agroexportador baseado em monoculturas de larga escala. O uso excessivo de pesticidas contamina solos, rios e aquíferos, além de gerar resistência em pragas e intoxicar trabalhadores rurais. A charge critica a naturalização desse modelo como sinônimo de produtividade.</p>",
     "ajuda": "A charge critica o uso de agrotóxicos na produção agrícola brasileira. Observe os elementos visuais da imagem e relacione-os à crítica implícita sobre saúde, ambiente e modelo produtivo. O que a imagem exagera para provocar reflexão?"
   },
   {
@@ -218,7 +218,7 @@
       "modernização logística de plantios convencionais."
     ],
     "correta": 1,
-    "comentario": "A produção sustentável busca atender às necessidades presentes sem comprometer os recursos para as gerações futuras. Práticas como agroflorestas, rotação de culturas e manejo integrado de pragas permitem produzir alimentos enquanto conservam o ecossistema. Esse modelo é especialmente relevante em comunidades tradicionais e de agricultura familiar.",
+    "comentario": "<p>A produção sustentável busca atender às necessidades presentes sem comprometer os recursos para as gerações futuras. Práticas como agroflorestas, rotação de culturas e manejo integrado de pragas permitem produzir alimentos enquanto conservam o ecossistema. Esse modelo é especialmente relevante em comunidades tradicionais e de agricultura familiar.</p>",
     "ajuda": "A prática produtiva apresentada é uma alternativa ao modelo convencional. Pense em práticas agroecológicas que preservam a biodiversidade e os recursos naturais. O objetivo é identificar o conceito que melhor classifica essa abordagem."
   },
   {
@@ -243,7 +243,7 @@
       "Regulamentar o uso de sementes selecionadas."
     ],
     "correta": 0,
-    "comentario": "A agricultura familiar e orgânica enfrenta desvantagens competitivas frente ao agronegócio, pois opera em menor escala e acessa menos crédito e tecnologia. Subsídios estatais a pequenos produtores compensam essa assimetria, garantindo alimentos mais saudáveis e diversificados nos mercados locais. Países como França e Japão utilizam esse mecanismo para preservar sua cultura alimentar e agrícola.",
+    "comentario": "<p>A agricultura familiar e orgânica enfrenta desvantagens competitivas frente ao agronegócio, pois opera em menor escala e acessa menos crédito e tecnologia. Subsídios estatais a pequenos produtores compensam essa assimetria, garantindo alimentos mais saudáveis e diversificados nos mercados locais. Países como França e Japão utilizam esse mecanismo para preservar sua cultura alimentar e agrícola.</p>",
     "ajuda": "A questão trata da agricultura orgânica e agroecológica no Brasil. Pense no papel do Estado em regular, estimular ou restringir práticas agrícolas. Qual ação governamental seria mais coerente com o fomento à produção orgânica familiar?"
   }
 ]

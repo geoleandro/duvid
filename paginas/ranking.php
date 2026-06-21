@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . '/../includes/auth_aluno.php'; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 

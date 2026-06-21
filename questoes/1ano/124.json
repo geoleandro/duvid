@@ -18,7 +18,7 @@
       "1B, 2C, 3C, 4A, 5B."
     ],
     "correta": 2,
-    "comentario": "Os oceanos têm características específicas que variam com a localização. O Oceano Pacífico é o maior e mais profundo; o Atlântico é o mais salgado em média; o Índico é o mais quente. As zonas pelágicas e bentônicas classificam as regiões oceânicas por profundidade e incidência de luz, condicionando a diversidade marinha de cada área.",
+    "comentario": "<p>Os oceanos têm características específicas que variam com a localização. O Oceano Pacífico é o maior e mais profundo; o Atlântico é o mais salgado em média; o Índico é o mais quente. As zonas pelágicas e bentônicas classificam as regiões oceânicas por profundidade e incidência de luz, condicionando a diversidade marinha de cada área.</p>",
     "ajuda": "Os oceanos cobrem cerca de 71% da superfície terrestre e possuem características físicas distintas: temperatura (mais quente na superfície), salinidade (maior em mares fechados e zonas tropicais), pressão (aumenta com a profundidade) e correntes (superficiais e profundas)."
   },
   {
@@ -41,7 +41,7 @@
       "V - V - V - V - V."
     ],
     "correta": 2,
-    "comentario": "Uma bacia hidrográfica é uma área drenada por um rio principal e seus afluentes, delimitada pelos divisores de águas (pontos mais altos do terreno). Todas as precipitações que caem dentro da bacia convergem para o mesmo exutório (foz). O estudo das bacias é fundamental para gestão de recursos hídricos, prevenção de enchentes e planejamento ambiental.",
+    "comentario": "<p>Uma bacia hidrográfica é uma área drenada por um rio principal e seus afluentes, delimitada pelos divisores de águas (pontos mais altos do terreno). Todas as precipitações que caem dentro da bacia convergem para o mesmo exutório (foz). O estudo das bacias é fundamental para gestão de recursos hídricos, prevenção de enchentes e planejamento ambiental.</p>",
     "ajuda": "Uma bacia hidrográfica é a área de captação da água das chuvas que drena para um mesmo rio principal, delimitada por divisores de água (serras ou planaltos). Avalie as afirmativas sobre sua dinâmica hidrológica: tributários, foz, bacia exorreica ou endorreica."
   },
   {
@@ -63,7 +63,7 @@
       "A diminuição da chuva no Brasil tem sido o maior problema ligado à falta de água para abastecer as cidades."
     ],
     "correta": 0,
-    "comentario": "A água é fundamental para a vida, mas apenas 2,5% do total do planeta é doce — e a maior parte está em geleiras e aquíferos profundos de difícil acesso. A poluição por esgotos domésticos, agrotóxicos agrícolas e efluentes industriais compromete as fontes superficiais. No Brasil, embora rico em água doce, há desigualdade regional grave: a Amazônia tem 73% dos recursos hídricos, mas pouquíssima população.",
+    "comentario": "<p>A água é fundamental para a vida, mas apenas 2,5% do total do planeta é doce — e a maior parte está em geleiras e aquíferos profundos de difícil acesso. A poluição por esgotos domésticos, agrotóxicos agrícolas e efluentes industriais compromete as fontes superficiais. No Brasil, embora rico em água doce, há desigualdade regional grave: a Amazônia tem 73% dos recursos hídricos, mas pouquíssima população.</p>",
     "ajuda": "A água está distribuída de forma desigual no planeta: 97% são salgadas (oceanos e mares); dos 3% de água doce, a maior parte está congelada em geleiras; apenas 0,01% está disponível em rios e lagos para uso humano. Pense nas implicações dessa distribuição para o abastecimento."
   },
   {
@@ -86,7 +86,7 @@
       "a ausência da mata ciliar intensifica o escoamento da água sobre a superfície e dificulta a sua infiltração no solo, o que diminui o volume dos lençóis freáticos e reduz a disponibilidade de água nas nascentes dos cursos d’água."
     ],
     "correta": 4,
-    "comentario": "A mata ciliar protege os rios de várias formas: suas raízes consolidam as margens e impedem erosão; a sombra controla a temperatura da água; e a vegetação retarda o escoamento superficial, favorecendo a infiltração. Sem ela, a água corre mais rápido para os rios, carregando sedimentos que assoreiam o leito e reduzem a disponibilidade hídrica nos períodos secos.",
+    "comentario": "<p>A mata ciliar protege os rios de várias formas: suas raízes consolidam as margens e impedem erosão; a sombra controla a temperatura da água; e a vegetação retarda o escoamento superficial, favorecendo a infiltração. Sem ela, a água corre mais rápido para os rios, carregando sedimentos que assoreiam o leito e reduzem a disponibilidade hídrica nos períodos secos.</p>",
     "ajuda": "A tirinha aborda um tema relacionado ao uso ou disponibilidade de água. Identifique a mensagem central da crítica: desperdício, poluição, privatização, distribuição desigual? Avalie qual alternativa melhor expressa essa crítica."
   },
   {
@@ -109,7 +109,7 @@
       "todas as afirmativas estão corretas."
     ],
     "correta": 3,
-    "comentario": "No ciclo hidrológico, a evaporação é maior sobre os oceanos (70% da superfície terrestre, com alta insolação e vento constante) do que sobre os continentes. A precipitação sobre os continentes excede a evaporação, e o excedente retorna aos oceanos pelos rios. A transpiração das plantas (evapotranspiração) contribui com cerca de 15% da umidade atmosférica global.",
+    "comentario": "<p>No ciclo hidrológico, a evaporação é maior sobre os oceanos (70% da superfície terrestre, com alta insolação e vento constante) do que sobre os continentes. A precipitação sobre os continentes excede a evaporação, e o excedente retorna aos oceanos pelos rios. A transpiração das plantas (evapotranspiração) contribui com cerca de 15% da umidade atmosférica global.</p>",
     "ajuda": "O ciclo hidrológico envolve evaporação (maior nos oceanos), precipitação, escoamento superficial e infiltração. A evapotranspiração é maior nas florestas tropicais. Avalie cada afirmativa sobre onde e como a água se movimenta nesse ciclo."
   },
   {
@@ -131,7 +131,7 @@
       "Fenômeno marítimo relacionado ao aquecimento anormal das águas."
     ],
     "correta": 0,
-    "comentario": "As correntes marítimas são movimentos horizontais de água oceânica gerados pela força dos ventos, pela diferença de densidade (temperatura e salinidade) e pela rotação da Terra (efeito Coriolis). Correntes quentes como a do Golfo aqueceu Europa Ocidental; correntes frias como a de Humboldt criaram o Atacama. São transportadoras de calor fundamentais para o sistema climático global.",
+    "comentario": "<p>As correntes marítimas são movimentos horizontais de água oceânica gerados pela força dos ventos, pela diferença de densidade (temperatura e salinidade) e pela rotação da Terra (efeito Coriolis). Correntes quentes como a do Golfo aqueceu Europa Ocidental; correntes frias como a de Humboldt criaram o Atacama. São transportadoras de calor fundamentais para o sistema climático global.</p>",
     "ajuda": "As correntes marítimas são deslocamentos contínuos de grandes volumes de água oceânica. Elas podem ser superficiais (movidas pelos ventos) ou profundas (movidas por diferenças de temperatura e salinidade — circulação termohalina). Identifique qual tipo é descrito."
   },
   {
@@ -155,7 +155,7 @@
       "II e III."
     ],
     "correta": 3,
-    "comentario": "Os oceanos regulam o clima global por duas razões principais: sua enorme capacidade de absorver e liberar calor lentamente atenua as variações de temperatura nas costas; e as correntes oceânicas redistribuem calor dos trópicos em direção aos polos. Sem os oceanos, a variação climática seria muito mais extrema, com verões mais quentes e invernos mais frios.",
+    "comentario": "<p>Os oceanos regulam o clima global por duas razões principais: sua enorme capacidade de absorver e liberar calor lentamente atenua as variações de temperatura nas costas; e as correntes oceânicas redistribuem calor dos trópicos em direção aos polos. Sem os oceanos, a variação climática seria muito mais extrema, com verões mais quentes e invernos mais frios.</p>",
     "ajuda": "Os oceanos influenciam o clima por meio de sua alta capacidade calorífica (amenizando temperaturas), da evaporação que alimenta as chuvas e das correntes que redistribuem calor pelo planeta. Avalie quais das afirmativas descrevem corretamente essa influência."
   },
   {
@@ -177,7 +177,7 @@
       "todos os rios brasileiros, com exceção do Amazonas, possuem regime pluvial."
     ],
     "correta": 3,
-    "comentario": "O divisor de águas é a linha topográfica (cumeada, espigão) que separa duas bacias hidrográficas distintas. Toda a precipitação que cai de um lado do divisor escoa para uma bacia; do outro lado, para outra. Não é um rio — ao contrário, é a fronteira entre bacias. A Serra do Mar divide as bacias que drenam para o interior do Brasil das que drenam para o litoral.",
+    "comentario": "<p>O divisor de águas é a linha topográfica (cumeada, espigão) que separa duas bacias hidrográficas distintas. Toda a precipitação que cai de um lado do divisor escoa para uma bacia; do outro lado, para outra. Não é um rio — ao contrário, é a fronteira entre bacias. A Serra do Mar divide as bacias que drenam para o interior do Brasil das que drenam para o litoral.</p>",
     "ajuda": "A questão pede a alternativa INCORRETA sobre hidrografia. Pense nos conceitos básicos: rio é um curso d'água natural; bacia hidrográfica é a área de drenagem; divisor de águas é o limite entre bacias; afluente drena para o rio principal; foz é onde o rio deságua."
   },
   {
@@ -199,7 +199,7 @@
       "As rochas situadas junto à superfície terrestre estão sujeitas à ação de processos de intemperismo (físico e biológico) e produzem os chamados mantos de alteração."
     ],
     "correta": 2,
-    "comentario": "A infiltração da água no solo é um processo que depende da textura do solo (areia permite mais que argila), da cobertura vegetal (raízes criam canais) e do estado de saturação (solo seco infiltra mais). Em superfície, a taxa de infiltração tende a ser maior quando o solo ainda está seco; à medida que satura, a taxa diminui — o contrário do que afirma a alternativa incorreta.",
+    "comentario": "<p>A infiltração da água no solo é um processo que depende da textura do solo (areia permite mais que argila), da cobertura vegetal (raízes criam canais) e do estado de saturação (solo seco infiltra mais). Em superfície, a taxa de infiltração tende a ser maior quando o solo ainda está seco; à medida que satura, a taxa diminui — o contrário do que afirma a alternativa incorreta.</p>",
     "ajuda": "A água é fundamental para o desenvolvimento das sociedades e das atividades econômicas. Sua distribuição desigual pelo planeta cria zonas de abundância e escassez. Avalie as alternativas considerando os fatores naturais (clima, relevo, hidrografia) e humanos que determinam essa distribuição."
   },
   {
@@ -222,7 +222,7 @@
       "O regime de chuvas das áreas semiáridas."
     ],
     "correta": 2,
-    "comentario": "O ciclo hidrológico é o circuito fechado da água na Terra: evaporação dos oceanos → condensação em nuvens → precipitação → escoamento superficial e infiltração → rios → oceanos (ou evapotranspiração → retorno ao ciclo). A energia solar e a gravidade são os motores do processo. O ciclo distribui água doce pelo planeta e sustenta toda a vida terrestre.",
+    "comentario": "<p>O ciclo hidrológico é o circuito fechado da água na Terra: evaporação dos oceanos → condensação em nuvens → precipitação → escoamento superficial e infiltração → rios → oceanos (ou evapotranspiração → retorno ao ciclo). A energia solar e a gravidade são os motores do processo. O ciclo distribui água doce pelo planeta e sustenta toda a vida terrestre.</p>",
     "ajuda": "O fenômeno representado na figura provavelmente é o ciclo hidrológico, uma bacia hidrográfica, correntes marítimas ou algum outro processo relacionado à água. Identifique os elementos do esquema (evaporação, precipitação, escoamento) e associe à alternativa correta."
   }
 ]

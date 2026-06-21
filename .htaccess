@@ -22,6 +22,29 @@ RewriteCond %{DOCUMENT_ROOT}/%1.php -f
 RewriteRule ^(.+)\.html$ /$1.php [R=301,L]
 
 # -------------------------------------------------------
+# Força HTTPS em produção
+# -------------------------------------------------------
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^localhost [NC]
+RewriteCond %{HTTP_HOST} !^127\.0\.0\.1
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# -------------------------------------------------------
+# Headers de segurança
+# -------------------------------------------------------
+<IfModule mod_headers.c>
+    # Impede que o site seja carregado em iframe (clickjacking)
+    Header always set X-Frame-Options "SAMEORIGIN"
+    # Impede o browser de "adivinhar" o tipo do arquivo
+    Header always set X-Content-Type-Options "nosniff"
+    # Não envia a URL de origem em links externos
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    # Remove o header que expõe que o servidor é Apache
+    Header always unset X-Powered-By
+    Header always unset Server
+</IfModule>
+
+# -------------------------------------------------------
 # Segurança: bloqueia acesso direto a arquivos sensíveis
 # -------------------------------------------------------
 <FilesMatch "\.(sql|log|env|sh|py|git)$">

@@ -21,7 +21,7 @@
       "São típicas da Mata Atlântica, podendo ocorrer também em áreas de Pampa, Cerrado e Caatinga e ocupar terrenos que alcançam até 1000 m de altitude; o Bioma da Mata Atlântica encontra-se atualmente ameaçado pela ocupação humana."
     ],
     "correta": 4,
-    "comentario": "A Mata Atlântica é um dos hotspots de biodiversidade mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original após séculos de ocupação humana. A jararaca é endêmica desse bioma e sua presença em áreas de Pampa, Cerrado e Caatinga indica a plasticidade ecológica de algumas espécies. A fragmentação da Mata Atlântica ameaça não só a fauna, mas também populações humanas que dependem dos serviços ecossistêmicos da floresta.",
+    "comentario": "<p>A Mata Atlântica é um dos hotspots de biodiversidade mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original após séculos de ocupação humana. A jararaca é endêmica desse bioma e sua presença em áreas de Pampa, Cerrado e Caatinga indica a plasticidade ecológica de algumas espécies. A fragmentação da Mata Atlântica ameaça não só a fauna, mas também populações humanas que dependem dos serviços ecossistêmicos da floresta.</p>",
     "ajuda": "A questão trata da distribuição geográfica da jararaca segundo o Atlas de Serpentes. Lembre-se que a Mata Atlântica é um bioma de zona temperada e tropical úmida no leste do Brasil. A jararaca ocorre principalmente nesse bioma e em áreas adjacentes."
   },
   {
@@ -31,7 +31,7 @@
     "dificuldade": "media",
     "tags": [
       "desmatamento",
-      "Amazônia",
+      "amazônia",
       "questão ambiental",
       "degradação florestal"
     ],
@@ -46,7 +46,7 @@
       "o senso comum sobre a elevada fertilidade do solo paulista."
     ],
     "correta": 0,
-    "comentario": "O discurso de que o desmatamento da Amazônia é necessário ao crescimento econômico é a narrativa dominante que legitima a destruição florestal. Esse argumento ignora que a Amazônia desmatada perde sua capacidade de gerar chuvas (os 'rios voadores'), regular o clima regional e sustentar a biodiversidade — serviços que têm valor econômico imenso e não substituível. A crítica ao desmatamento não é antidesenvolvimento, mas rejeição de um modelo destrutivo de curto prazo.",
+    "comentario": "<p>O discurso de que o desmatamento da Amazônia é necessário ao crescimento econômico é a narrativa dominante que legitima a destruição florestal. Esse argumento ignora que a Amazônia desmatada perde sua capacidade de gerar chuvas (os 'rios voadores'), regular o clima regional e sustentar a biodiversidade — serviços que têm valor econômico imenso e não substituível. A crítica ao desmatamento não é antidesenvolvimento, mas rejeição de um modelo destrutivo de curto prazo.</p>",
     "ajuda": "O texto critica o discurso de que o desmatamento é necessário para o crescimento econômico. Pense nos dados: a Amazônia desmatada representa apenas 14,5% do PIB agropecuário. O que isso revela sobre a real necessidade do desmatamento?"
   },
   {
@@ -57,7 +57,7 @@
     "tags": [
       "desastre ambiental",
       "barragem",
-      "Brumadinho",
+      "brumadinho",
       "questão ambiental"
     ],
     "texto_apoio": "No dia 25 de janeiro de 2019, ocorreu o rompimento da barragem da mina do Córrego do Feijão, localizado geograficamente na região metropolitana de Belo Horizonte (Brumadinho), resultando no maior desastre com rejeitos de mineração e vítimas fatais, até então, registrado no Brasil.",
@@ -70,7 +70,7 @@
       "O ciclo de vetores, responsável pela disseminação de doenças foi pouco alterado, o que, para a população, é benéfico, pois impossibilita o surto de doenças como a dengue e a febre amarela."
     ],
     "correta": 3,
-    "comentario": "O desastre de Brumadinho (2019) lançou lama de rejeitos de minério no rio Paraopeba, contaminando suas águas com metais pesados e destruindo a biota aquática. A recuperação de rios afetados por rejeitos mineiros é possível, mas lenta e cara, envolvendo desassoreamento, biorremediação com microrganismos e repovoamento de espécies. A tragédia expôs os riscos das barragens de mineração construídas pelo método a montante, hoje proibido no Brasil.",
+    "comentario": "<p>O desastre de Brumadinho (2019) lançou lama de rejeitos de minério no rio Paraopeba, contaminando suas águas com metais pesados e destruindo a biota aquática. A recuperação de rios afetados por rejeitos mineiros é possível, mas lenta e cara, envolvendo desassoreamento, biorremediação com microrganismos e repovoamento de espécies. A tragédia expôs os riscos das barragens de mineração construídas pelo método a montante, hoje proibido no Brasil.</p>",
     "ajuda": "A tragédia de Brumadinho em 2019 foi causada pelo rompimento de uma barragem de rejeitos. Pense nas consequências para o rio Paraopeba: contaminação por metais pesados, assoreamento e destruição de ecossistemas. Qual medida de recuperação é mais viável?"
   },
   {
@@ -81,7 +81,7 @@
     "tags": [
       "desertificação",
       "degradação ambiental",
-      "Nordeste",
+      "nordeste",
       "questão ambiental"
     ],
     "texto_apoio": "O processo de desertificação é definido como a degradação ambiental e socioambiental, particularmente nas zonas áridas, semiáridas e subúmidas, resultantes de vários fatores e vetores, incluindo as variações e alterações climáticas e as atividades humanas.",
@@ -95,7 +95,7 @@
       "os programas de incentivo para a instalação de fossas sépticas que dispensam a implantação de um sistema hídrico de saneamento básico."
     ],
     "correta": 3,
-    "comentario": "A desertificação no Semiárido nordestino é agravada pelo desmatamento da Caatinga, pastagem excessiva e técnicas agrícolas inadequadas que esgotam o solo. Para combatê-la, é necessário recompor a vegetação nativa, utilizar técnicas de contenção da erosão e praticar agricultura de baixo impacto. A prevenção é mais eficaz e barata que a recuperação de terras já desertificadas, que pode levar décadas.",
+    "comentario": "<p>A desertificação no Semiárido nordestino é agravada pelo desmatamento da Caatinga, pastagem excessiva e técnicas agrícolas inadequadas que esgotam o solo. Para combatê-la, é necessário recompor a vegetação nativa, utilizar técnicas de contenção da erosão e praticar agricultura de baixo impacto. A prevenção é mais eficaz e barata que a recuperação de terras já desertificadas, que pode levar décadas.</p>",
     "ajuda": "A desertificação é um processo de degradação ambiental em zonas semiáridas. A prevenção é mais eficaz do que a recuperação. Pense em práticas que restauram a cobertura vegetal nativa e recuperam a capacidade produtiva do solo."
   },
   {
@@ -119,7 +119,7 @@
       "retomada da desregulamentação estatal."
     ],
     "correta": 1,
-    "comentario": "Os desastres em barragens de rejeitos mineiros, como Mariana (2015) e Brumadinho (2019), revelam a lógica da acumulação capitalista que subordina a segurança e o meio ambiente ao lucro de curto prazo. A primazia da acumulação se manifesta na negligência com a manutenção das estruturas, na pressão para reduzir custos operacionais e na captura regulatória que enfraquece a fiscalização ambiental. O resultado são tragédias anunciadas que destroem vidas e territórios.",
+    "comentario": "<p>Os desastres em barragens de rejeitos mineiros, como Mariana (2015) e Brumadinho (2019), revelam a lógica da acumulação capitalista que subordina a segurança e o meio ambiente ao lucro de curto prazo. A primazia da acumulação se manifesta na negligência com a manutenção das estruturas, na pressão para reduzir custos operacionais e na captura regulatória que enfraquece a fiscalização ambiental. O resultado são tragédias anunciadas que destroem vidas e territórios.</p>",
     "ajuda": "Os desastres causados por barragens de rejeitos revelam uma lógica econômica que prioriza lucro sobre segurança. Pense em qual dinâmica do capitalismo contemporâneo — acumulação, regulação ou racionalização — melhor explica essas tragédias."
   },
   {
@@ -143,7 +143,7 @@
       "V – V – F – F."
     ],
     "correta": 2,
-    "comentario": "O aumento da permeabilidade do solo não está diretamente associado às chuvas ácidas — na verdade, a impermeabilização urbana é o problema oposto. As afirmativas verdadeiras refletem corretamente que a chuva ácida acidifica solos e corpos d'água, prejudicando ecossistemas e estruturas de concreto e metal, enquanto as falsas introduzem distorções ou invertem causalidades. A sequência F-V-V-F indica discriminação correta entre fatos e erros conceituais.",
+    "comentario": "<p>O aumento da permeabilidade do solo não está diretamente associado às chuvas ácidas — na verdade, a impermeabilização urbana é o problema oposto. As afirmativas verdadeiras refletem corretamente que a chuva ácida acidifica solos e corpos d'água, prejudicando ecossistemas e estruturas de concreto e metal, enquanto as falsas introduzem distorções ou invertem causalidades. A sequência F-V-V-F indica discriminação correta entre fatos e erros conceituais.</p>",
     "ajuda": "As afirmativas tratam de desertificação e permeabilidade do solo. Lembre-se que o desmatamento e o uso intensivo do solo reduzem a infiltração da água e aumentam a erosão. Analise cada proposição com esses princípios em mente."
   },
   {
@@ -152,9 +152,9 @@
     "ano": "2023",
     "dificuldade": "media",
     "tags": [
-      "RESEX",
+      "resex",
       "reservas extrativistas",
-      "Amazônia",
+      "amazônia",
       "unidades de conservação"
     ],
     "texto_apoio": "“A Amazônia brasileira ganhou destaque nos últimos anos nos noticiários da mídia nacional e estrangeira, face ao avanço de graves problemas socioambientais. Nesse contexto, as unidades de conservação, como as Reservas Extrativistas (RESEX), introduzidas pela Lei 9.985 em 18/07/2000, cumprem um papel importante na preservação ambiental e na proteção social”.",
@@ -166,7 +166,7 @@
       "públicas, destinadas às populações tradicionais para residência e extrativismo sustentável; quando autorizado pelo Estado, grandes empresas podem explorar recursos naturais em larga escala. Crescem dentro das RESEX os impactos ambientais e a expulsão de população."
     ],
     "correta": 1,
-    "comentario": "As Reservas Extrativistas (RESEXs) são unidades de conservação de uso sustentável onde populações tradicionais — seringueiros, ribeirinhos, pescadores — têm direito de moradia e uso dos recursos naturais. Elas surgiram como resposta às lutas do movimento seringueiro liderado por Chico Mendes nos anos 1980. Paradoxalmente, o entorno das RESEXs frequentemente sofre pressão crescente do desmatamento e do agronegócio, ameaçando a integridade das reservas.",
+    "comentario": "<p>As Reservas Extrativistas (RESEXs) são unidades de conservação de uso sustentável onde populações tradicionais — seringueiros, ribeirinhos, pescadores — têm direito de moradia e uso dos recursos naturais. Elas surgiram como resposta às lutas do movimento seringueiro liderado por Chico Mendes nos anos 1980. Paradoxalmente, o entorno das RESEXs frequentemente sofre pressão crescente do desmatamento e do agronegócio, ameaçando a integridade das reservas.</p>",
     "ajuda": "As Reservas Extrativistas (RESEX) são uma categoria de Unidade de Conservação de uso sustentável. Diferentemente das terras indígenas, são áreas públicas destinadas a populações tradicionais ribeirinhas e extrativistas, não indígenas."
   },
   {
@@ -175,7 +175,7 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "APA",
+      "apa",
       "área de proteção ambiental",
       "unidades de conservação",
       "objetivos"
@@ -189,7 +189,7 @@
       "conservar a diversidade biológica em áreas privadas, mediante compromisso assumido com os órgãos ambientais e os proprietários."
     ],
     "correta": 0,
-    "comentario": "As Áreas de Proteção Ambiental (APAs) são unidades de conservação de uso sustentável que permitem certo nível de ocupação humana e atividades econômicas reguladas. Seu objetivo é disciplinar o uso do território em áreas extensas, conciliando conservação ambiental com desenvolvimento econômico e qualidade de vida das populações locais. Diferem das unidades de proteção integral, onde atividades humanas são muito mais restritas.",
+    "comentario": "<p>As Áreas de Proteção Ambiental (APAs) são unidades de conservação de uso sustentável que permitem certo nível de ocupação humana e atividades econômicas reguladas. Seu objetivo é disciplinar o uso do território em áreas extensas, conciliando conservação ambiental com desenvolvimento econômico e qualidade de vida das populações locais. Diferem das unidades de proteção integral, onde atividades humanas são muito mais restritas.</p>",
     "ajuda": "As APAs (Áreas de Proteção Ambiental) são unidades de conservação de uso sustentável. Elas permitem certa ocupação humana e atividades econômicas reguladas. Pense em como esse modelo difere das unidades de proteção integral."
   },
   {
@@ -198,7 +198,7 @@
     "ano": "2023",
     "dificuldade": "dificil",
     "tags": [
-      "emissão de CO2",
+      "emissão de co2",
       "municípios brasileiros",
       "questão ambiental",
       "aquecimento global"
@@ -213,7 +213,7 @@
       "grande extensão territorial e baixa densidade demográfica foram responsáveis pela maior emissão de CO², o que se correlaciona com o avanço do desmatamento e incêndio florestal."
     ],
     "correta": 3,
-    "comentario": "Os municípios brasileiros que mais emitem gases de efeito estufa por mudança de uso da terra são geralmente grandes e pouco populosos, localizados na fronteira agrícola amazônica, onde o desmatamento e as queimadas convertem floresta em pasto ou lavoura. A emissão de CO₂ nesses municípios não está relacionada à densidade industrial, mas ao vandalismo florestal em larga escala. Esse dado evidencia que o desmatamento é a principal fonte de emissões do Brasil.",
+    "comentario": "<p>Os municípios brasileiros que mais emitem gases de efeito estufa por mudança de uso da terra são geralmente grandes e pouco populosos, localizados na fronteira agrícola amazônica, onde o desmatamento e as queimadas convertem floresta em pasto ou lavoura. A emissão de CO₂ nesses municípios não está relacionada à densidade industrial, mas ao vandalismo florestal em larga escala. Esse dado evidencia que o desmatamento é a principal fonte de emissões do Brasil.</p>",
     "ajuda": "A tabela mostra os municípios que mais emitem CO² no Brasil. Pense nas causas: municípios com grande extensão territorial e baixa densidade demográfica podem ter altas emissões por desmatamento, mesmo sem grande população."
   },
   {
@@ -237,7 +237,7 @@
       "flexibilização de legislação ambiental."
     ],
     "correta": 0,
-    "comentario": "A apropriação de terras devolutas — terras públicas sem destinação definida — por meio de grilagem é o mecanismo central do conflito agrário na Amazônia e em outras regiões de fronteira. Grileiros falsificam documentos, expulsam populações tradicionais e desmatam para 'valorizar' a terra, transformando área pública em propriedade privada lucrativa. Esse processo alimenta a violência no campo e o desmatamento ilegal, sendo o problema central apontado pelo autor.",
+    "comentario": "<p>A apropriação de terras devolutas — terras públicas sem destinação definida — por meio de grilagem é o mecanismo central do conflito agrário na Amazônia e em outras regiões de fronteira. Grileiros falsificam documentos, expulsam populações tradicionais e desmatam para 'valorizar' a terra, transformando área pública em propriedade privada lucrativa. Esse processo alimenta a violência no campo e o desmatamento ilegal, sendo o problema central apontado pelo autor.</p>",
     "ajuda": "O texto provavelmente critica a flexibilização da legislação ambiental como fator que estimula o desmatamento. Pense em qual mudança legal ou institucional cria o ambiente permissivo que facilita a apropriação ilegal de terras."
   }
 ]

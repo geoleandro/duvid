@@ -5,7 +5,7 @@
     "ano": "2019",
     "dificuldade": "facil",
     "tags": [
-      "clima do Brasil",
+      "clima do brasil",
       "tipos climáticos",
       "características climáticas"
     ],
@@ -18,7 +18,7 @@
       "4, 1, 3, 2."
     ],
     "correta": 1,
-    "comentario": "O Brasil possui uma diversidade climática notável para um país tropical: do equatorial úmido amazônico ao subtropical do Sul, passando pelo semiárido nordestino e o tropical de altitude do Sudeste. Essa variedade resulta de fatores como latitude, altitude, continentalidade e massas de ar — o que torna o ensino dos climas brasileiros um exercício de síntese de vários elementos da geografia física.",
+    "comentario": "<p>O Brasil possui uma diversidade climática notável para um país tropical: do equatorial úmido amazônico ao subtropical do Sul, passando pelo semiárido nordestino e o tropical de altitude do Sudeste. Essa variedade resulta de fatores como latitude, altitude, continentalidade e massas de ar — o que torna o ensino dos climas brasileiros um exercício de síntese de vários elementos da geografia física.</p>",
     "ajuda": "Lembre-se das características de cada tipo climático brasileiro: o Tropical tem duas estações (seca e chuvosa), o Equatorial tem chuvas o ano todo, o Subtropical tem temperaturas variáveis o ano todo e o Semiárido tem pouca chuva e altas temperaturas. Associe cada descrição ao tipo climático correto e monte a sequência pedida."
   },
   {
@@ -28,7 +28,7 @@
     "dificuldade": "facil",
     "tags": [
       "clima tropical",
-      "Cerrado",
+      "cerrado",
       "clima sazonal",
       "tipos climáticos"
     ],
@@ -42,7 +42,7 @@
       "Clima equatorial úmido."
     ],
     "correta": 0,
-    "comentario": "O clima tropical, com chuvas concentradas no verão e seca no inverno, é o mais abrangente do Brasil, cobrindo o Planalto Central, parte do Nordeste e do Sudeste. Essa sazonalidade marcada — verão chuvoso, inverno seco — define os ritmos agrícolas e hidrológicos de regiões como Minas Gerais, Goiás e Mato Grosso do Sul, influenciando a disponibilidade de água e a produção de energia hidroelétrica.",
+    "comentario": "<p>O clima tropical, com chuvas concentradas no verão e seca no inverno, é o mais abrangente do Brasil, cobrindo o Planalto Central, parte do Nordeste e do Sudeste. Essa sazonalidade marcada — verão chuvoso, inverno seco — define os ritmos agrícolas e hidrológicos de regiões como Minas Gerais, Goiás e Mato Grosso do Sul, influenciando a disponibilidade de água e a produção de energia hidroelétrica.</p>",
     "ajuda": "Leia a descrição do clima: quente e semiúmido, com estação chuvosa no verão e seca no inverno, amplitude térmica anual elevada, abrangendo estados como MG, GO, SP e parte do Nordeste. Pense em qual tipo climático combina duas estações bem marcadas, calor e uma estação seca definida. Identifique o clima correto dentre as alternativas."
   },
   {
@@ -51,7 +51,7 @@
     "ano": "2022",
     "dificuldade": "facil",
     "tags": [
-      "clima do Brasil",
+      "clima do brasil",
       "tipos climáticos",
       "distribuição dos climas"
     ],
@@ -64,7 +64,7 @@
       "– Clima Desértico."
     ],
     "correta": 3,
-    "comentario": "O clima tropical é o dominante no Brasil por uma razão geográfica simples: a maior parte do território está entre o Equador e o Trópico de Capricórnio, recebendo alta insolação ao longo do ano. A alternância entre estação seca e chuvosa, característica desse clima, molda os biomas do Cerrado e da Caatinga, além de determinar os padrões de uso agrícola do solo no Brasil central.",
+    "comentario": "<p>O clima tropical é o dominante no Brasil por uma razão geográfica simples: a maior parte do território está entre o Equador e o Trópico de Capricórnio, recebendo alta insolação ao longo do ano. A alternância entre estação seca e chuvosa, característica desse clima, molda os biomas do Cerrado e da Caatinga, além de determinar os padrões de uso agrícola do solo no Brasil central.</p>",
     "ajuda": "Pense no clima que ocupa a maior extensão do território brasileiro. Lembre-se de que o Brasil é um país de latitudes tropicais e que o clima dominante no interior do país possui duas estações bem marcadas: uma chuvosa e quente no verão e uma seca no inverno. Qual tipo climático predomina no Brasil?"
   },
   {
@@ -73,7 +73,7 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "clima do Brasil",
+      "clima do brasil",
       "diversidade climática",
       "tipos climáticos"
     ],
@@ -86,7 +86,7 @@
       "Temperaturas elevadas com umidade durante todo o ano vinda do oceano (i); temperaturas amenas, fortes chuvas no verão e aridez no inverno (ii)."
     ],
     "correta": 1,
-    "comentario": "O semiárido nordestino (clima semiárido) é caracterizado por chuvas escassas e irregulares (menos de 800mm/ano) e temperaturas elevadas, gerando um balanço hídrico deficitário. Já a Amazônia (clima equatorial) combina calor intenso e umidade constante, com chuvas bem distribuídas ao longo do ano. Essas diferenças climáticas têm enorme impacto sobre a biodiversidade, a população e o desenvolvimento econômico de cada região.",
+    "comentario": "<p>O semiárido nordestino (clima semiárido) é caracterizado por chuvas escassas e irregulares (menos de 800mm/ano) e temperaturas elevadas, gerando um balanço hídrico deficitário. Já a Amazônia (clima equatorial) combina calor intenso e umidade constante, com chuvas bem distribuídas ao longo do ano. Essas diferenças climáticas têm enorme impacto sobre a biodiversidade, a população e o desenvolvimento econômico de cada região.</p>",
     "ajuda": "Pense nas características climáticas das duas regiões mencionadas: o interior do Nordeste possui clima semiárido (temperaturas elevadas, chuvas escassas e irregulares), enquanto a região Norte tem clima equatorial (temperaturas elevadas e alta umidade durante todo o ano). Qual alternativa associa corretamente as características de cada região?"
   },
   {
@@ -95,9 +95,9 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "neve no Brasil",
+      "neve no brasil",
       "clima subtropical",
-      "Santa Catarina",
+      "santa catarina",
       "frente fria"
     ],
     "texto_apoio": "Em algumas localidades do Estado de Santa Catarina, costuma-se registrar neve durante o período de inverno, caso de São Joaquim e de outros municípios da região serrana.",
@@ -109,7 +109,7 @@
       "Altitudes abaixo de 1.000 metros; latitude entre 66° N e 90° N."
     ],
     "correta": 0,
-    "comentario": "A neve em Santa Catarina ocorre em municípios serranos como São Joaquim, Urupema e Bom Jardim da Serra, situados acima de 1.000 metros de altitude e em latitudes ao sul do Trópico de Capricórnio. A combinação de altitude elevada (que reduz a temperatura) e latitude subtropical (que permite a entrada de massas de ar polar) são as condições necessárias para que a neve se forme no Brasil.",
+    "comentario": "<p>A neve em Santa Catarina ocorre em municípios serranos como São Joaquim, Urupema e Bom Jardim da Serra, situados acima de 1.000 metros de altitude e em latitudes ao sul do Trópico de Capricórnio. A combinação de altitude elevada (que reduz a temperatura) e latitude subtropical (que permite a entrada de massas de ar polar) são as condições necessárias para que a neve se forme no Brasil.</p>",
     "ajuda": "Pense nos dois fatores que favorecem a ocorrência de neve em São Joaquim (SC): latitude subtropical (abaixo do Trópico de Capricórnio) e altitude elevada (acima de 1.000 metros). Ambos contribuem para temperaturas mais baixas. Identifique qual alternativa combina corretamente esses dois fatores geográficos."
   },
   {
@@ -119,7 +119,7 @@
     "dificuldade": "dificil",
     "tags": [
       "tipos climáticos",
-      "clima do Brasil",
+      "clima do brasil",
       "climograma",
       "análise climática"
     ],
@@ -133,7 +133,7 @@
       "1C; 2A; 3B; 4D."
     ],
     "correta": 4,
-    "comentario": "A distribuição dos climas no Brasil segue um padrão latitudinal e altitudinal: equatorial na Amazônia (calor e umidade constantes), tropical no Planalto Central (verão chuvoso, inverno seco), semiárido no sertão nordestino (secas prolongadas) e subtropical no Sul (invernos frios com geadas). Cada tipo climático define um bioma, uma economia agrária e um conjunto de desafios específicos para as populações que habitam essas regiões.",
+    "comentario": "<p>A distribuição dos climas no Brasil segue um padrão latitudinal e altitudinal: equatorial na Amazônia (calor e umidade constantes), tropical no Planalto Central (verão chuvoso, inverno seco), semiárido no sertão nordestino (secas prolongadas) e subtropical no Sul (invernos frios com geadas). Cada tipo climático define um bioma, uma economia agrária e um conjunto de desafios específicos para as populações que habitam essas regiões.</p>",
     "ajuda": "Observe o mapa com as áreas climáticas A, B, C e D e leia as quatro descrições. Associe cada descrição à área correspondente: chuvas abundantes o ano todo (equatorial, Amazônia), chuvas escassas e irregulares (semiárido, Nordeste), duas estações (tropical, Centro-Oeste) e temperaturas amenas com chuvas regulares (subtropical, Sul). Monte a sequência correta."
   },
   {
@@ -143,7 +143,7 @@
     "dificuldade": "facil",
     "tags": [
       "clima subtropical",
-      "Sul do Brasil",
+      "sul do brasil",
       "frentes frias",
       "temperatura"
     ],
@@ -157,7 +157,7 @@
       "Depressões, altitude e massas de ar."
     ],
     "correta": 3,
-    "comentario": "O clima subtropical úmido do Sul do Brasil é influenciado pelas massas de ar polar (MPA), que avançam periodicamente pelo continente, trazendo frentes frias e geadas no inverno. Latitude, altitude e a ausência de barreiras montanhosas no sul do continente facilitam a penetração dessas massas frias até o Brasil meridional, diferenciando-o climaticamente do restante do país.",
+    "comentario": "<p>O clima subtropical úmido do Sul do Brasil é influenciado pelas massas de ar polar (MPA), que avançam periodicamente pelo continente, trazendo frentes frias e geadas no inverno. Latitude, altitude e a ausência de barreiras montanhosas no sul do continente facilitam a penetração dessas massas frias até o Brasil meridional, diferenciando-o climaticamente do restante do país.</p>",
     "ajuda": "Pense nos fatores que influenciam o clima do Sul do Brasil: latitude elevada (mais próxima dos pólos), altitude das serras e a atuação da Massa Polar Atlântica. Esses fatores combinados explicam os invernos rigorosos e a ocorrência esporádica de neve. Qual combinação de fatores é determinante para a neve no sul do país?"
   },
   {
@@ -166,7 +166,7 @@
     "ano": "2023",
     "dificuldade": "media",
     "tags": [
-      "clima de São Paulo",
+      "clima de são paulo",
       "estações do ano",
       "regime de chuvas",
       "clima tropical"
@@ -182,7 +182,7 @@
       "à ausência de cobertura vegetal em grande parte do território paulista, que potencializa o resfriamento noturno."
     ],
     "correta": 0,
-    "comentario": "As geadas em São Paulo ocorrem especialmente na Serra da Mantiqueira e no Planalto Paulistano, onde altitudes acima de 800–1.200 metros reduzem as temperaturas mínimas noturnas a valores próximos ou abaixo de zero. Essa dinâmica distingue o clima tropical de altitude do Sudeste — com invernos frios e secos — do clima tropical típico das áreas de baixa altitude.",
+    "comentario": "<p>As geadas em São Paulo ocorrem especialmente na Serra da Mantiqueira e no Planalto Paulistano, onde altitudes acima de 800–1.200 metros reduzem as temperaturas mínimas noturnas a valores próximos ou abaixo de zero. Essa dinâmica distingue o clima tropical de altitude do Sudeste — com invernos frios e secos — do clima tropical típico das áreas de baixa altitude.</p>",
     "ajuda": "A questão aborda a formação de geadas no estado de São Paulo. Lembre-se que as geadas ocorrem quando o ar frio se acumula em áreas de maior altitude durante a noite, resfriando abaixo de 0°C. Pense em qual região de São Paulo possui as maiores altitudes e, portanto, as condições mais propícias para a formação de geada."
   },
   {
@@ -206,7 +206,7 @@
       "(1) clima subtropical; (2) clima tropical."
     ],
     "correta": 0,
-    "comentario": "O Brasil possui dois grandes grupos climáticos em seu território: o tropical (com subtipos equatorial, semiárido, de altitude e úmido) e o subtropical, restrito ao Sul do país. Essa diferença fundamental é determinada principalmente pela latitude: ao norte do Trópico de Capricórnio predominam climas tropicais quentes; ao sul, o subtropical introduz invernos frios e chuvas bem distribuídas ao longo do ano.",
+    "comentario": "<p>O Brasil possui dois grandes grupos climáticos em seu território: o tropical (com subtipos equatorial, semiárido, de altitude e úmido) e o subtropical, restrito ao Sul do país. Essa diferença fundamental é determinada principalmente pela latitude: ao norte do Trópico de Capricórnio predominam climas tropicais quentes; ao sul, o subtropical introduz invernos frios e chuvas bem distribuídas ao longo do ano.</p>",
     "ajuda": "Observe o mapa dos tipos climáticos do Brasil. Pense na localização de cada número no mapa: o número 1 está no interior do Centro-Oeste/parte do Nordeste (clima tropical) e o número 2 está na região Norte próxima ao Equador (clima equatorial). Associe corretamente cada número ao tipo climático."
   },
   {
@@ -229,7 +229,7 @@
       "O climograma I representa as características do clima de áreas do Sul do Brasil."
     ],
     "correta": 2,
-    "comentario": "O climograma II, com baixas precipitações e temperaturas elevadas ao longo do ano, é típico do semiárido nordestino, onde a irregularidade das chuvas e a alta evapotranspiração criam um balanço hídrico negativo. Essa realidade climática está na raiz dos problemas estruturais do Nordeste: seca, convivência com a escassez de água e desafios para a agricultura familiar no sertão.",
+    "comentario": "<p>O climograma II, com baixas precipitações e temperaturas elevadas ao longo do ano, é típico do semiárido nordestino, onde a irregularidade das chuvas e a alta evapotranspiração criam um balanço hídrico negativo. Essa realidade climática está na raiz dos problemas estruturais do Nordeste: seca, convivência com a escassez de água e desafios para a agricultura familiar no sertão.</p>",
     "ajuda": "Observe os dois climogramas e analise temperatura e pluviosidade em cada mês. Pense: qual climograma mostra chuvas escassas, irregulares e temperaturas elevadas o ano todo? Esse padrão corresponde ao clima semiárido nordestino. Qual climograma mostra chuvas bem distribuídas e temperaturas amenas? Identifique cada um corretamente."
   }
 ]

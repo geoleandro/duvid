@@ -1,3 +1,32 @@
+<?php
+// ── Detecta vestibulares disponíveis em /simulados/bancos/ ────────────
+$bancosDir = __DIR__ . '/bancos';
+$arquivos  = glob($bancosDir . '/*.json') ?: [];
+
+// Mapeamento fixo: nome do vestibular → imagem da capa
+$configVest = [
+    'ENEM'    => ['img' => '/simulados/enem/capaenem.png',       'alt' => 'Simulado ENEM'],
+    'FUVEST'  => ['img' => '/simulados/fuvest/capafuvest.png',   'alt' => 'Simulado FUVEST'],
+    'UNESP'   => ['img' => '/simulados/unesp/capaunesp.png',     'alt' => 'Simulado UNESP'],
+    'UNICAMP' => ['img' => '/simulados/unicamp/capaunicamp.png', 'alt' => 'Simulado UNICAMP'],
+];
+
+// Agrupa anos por vestibular (só os que têm JSON)
+$disponiveis = [];
+foreach ($arquivos as $f) {
+    $nome = basename($f, '.json');
+    if (preg_match('/^([a-z]+)(\d{4})/', $nome, $m)) {
+        $vest = strtoupper($m[1]);
+        $disponiveis[$vest][] = $m[2];
+    }
+}
+// Ordena anos desc por vestibular
+foreach ($disponiveis as &$anos) {
+    rsort($anos);
+}
+unset($anos);
+ksort($disponiveis);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,7 +36,7 @@
     <meta property="og:image" content="/simulados/capageral.jpg">
     <title>Duvid - Simulados de Geografia</title>
 
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
@@ -51,6 +80,7 @@
         .card-simulado {
             transition: transform 0.3s;
             text-align: center;
+            position: relative;
         }
 
         .card-simulado:hover {
@@ -68,12 +98,45 @@
             margin-top: 10px;
             font-weight: bold;
         }
+
+        /* Badge de anos disponíveis */
+        .badge-anos {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2e7d32;
+            border-radius: 20px;
+            padding: 2px 10px;
+            font-size: .72rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+
+        /* Botão "Iniciar simulado" que aparece no hover */
+        .card-simulado .btn-iniciar-card {
+            display: block;
+            margin: 8px auto 0;
+            padding: 6px 18px;
+            background: #4CAF50;
+            color: #fff;
+            border-radius: 20px;
+            font-size: .8rem;
+            font-weight: 700;
+            text-decoration: none;
+            opacity: 0;
+            transition: opacity .2s;
+        }
+        .card-simulado:hover .btn-iniciar-card {
+            opacity: 1;
+        }
+
+        /* Dark mode */
+        body.dark-mode .badge-anos { background: #1b5e20; color: #a5d6a7; }
     </style>
 </head>
 
 <body class="w3-light-grey">
 
-    <?php include __DIR__ . '/../includes/header.php'; ?>
+    <div id="header-placeholder"></div>
 
     <div class="w3-content" style="max-width:1000px; margin-top: 80px; margin-bottom: 100px;">
 
@@ -96,36 +159,19 @@
                 </div>
             </div>
 
-            <div class="grid-simulados larguraBar">
-
-                <div class="card-simulado">
-                    <a href="/simulados/capasimuladoenem.php">
-                        <img src="/simulados/enem/capaenem.png" alt="Simulado ENEM">
-                        <p>ENEM</p>
-                    </a>
-                </div>
-
-                <div class="card-simulado">
-                    <a href="/simulados/capasimuladofuvest.php">
-                        <img src="/simulados/fuvest/capafuvest.png" alt="Simulado FUVEST">
-                        <p>FUVEST</p>
-                    </a>
-                </div>
-
-                <div class="card-simulado">
-                    <a href="/simulados/capasimuladounesp.php">
-                        <img src="/simulados/unesp/capaunesp.png" alt="Simulado UNESP">
-                        <p>UNESP</p>
-                    </a>
-                </div>
-
-                <div class="card-simulado">
-                    <a href="/simulados/capasimuladounicamp.php">
-                        <img src="/simulados/unicamp/capaunicamp.png" alt="Simulado UNICAMP">
-                        <p>UNICAMP</p>
-                    </a>
-                </div>
-
+            <div class="w3-container larguraBar w3-center w3-margin-top w3-margin-bottom">
+                <?php if (!empty($disponiveis)):
+                    // Monta resumo dos disponíveis (ex: "ENEM · FUVEST")
+                    $listaVest = implode(' &nbsp;·&nbsp; ', array_keys($disponiveis));
+                ?>
+                <p class="w3-text-grey w3-small w3-margin-bottom">
+                    Disponível: <b><?= $listaVest ?></b>
+                </p>
+                <?php endif; ?>
+                <a href="/simulados/simulado.php"
+                   class="w3-button w3-green w3-round-large w3-large w3-padding-large">
+                    <i class="fa fa-play"></i> &nbsp;Escolher Simulado
+                </a>
             </div>
 
             <div class="w3-container w3-center w3-margin-top">
@@ -134,7 +180,7 @@
         </div>
     </div>
 
-    <?php include __DIR__ . '/../includes/footer.php'; ?>
+    <div id="footer-placeholder"></div>
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
     <script>

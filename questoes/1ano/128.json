@@ -19,7 +19,7 @@
       "os rios e as suas paisagens adjacentes que compõem as bacias hidrográficas representam a base dos estudos geoquímicos e ambientais."
     ],
     "correta": 1,
-    "comentario": "A bacia hidrográfica como unidade de análise espacial permite integrar todos os impactos humanos — desmatamento, urbanização, agricultura, mineração — e avaliar seus efeitos sobre o ciclo hidrológico de forma sistêmica. A Lei das Águas brasileira (9.433/1997) adotou a bacia como unidade de planejamento, criando os Comitês de Bacia Hidrográfica para gestão participativa.",
+    "comentario": "<p>A bacia hidrográfica como unidade de análise espacial permite integrar todos os impactos humanos — desmatamento, urbanização, agricultura, mineração — e avaliar seus efeitos sobre o ciclo hidrológico de forma sistêmica. A Lei das Águas brasileira (9.433/1997) adotou a bacia como unidade de planejamento, criando os Comitês de Bacia Hidrográfica para gestão participativa.</p>",
     "ajuda": "Uma bacia hidrográfica é delimitada pelos divisores de água (espigões ou serras) e inclui todos os cursos d'água que convergem para um rio principal. Ela é usada como unidade de gestão territorial porque integra aspectos naturais (solo, vegetação, hidrologia) e humanos (uso do solo)."
   },
   {
@@ -29,8 +29,8 @@
     "dificuldade": "media",
     "tags": [
       "fenômenos climáticos",
-      "El Niño",
-      "La Niña"
+      "el niño",
+      "la niña"
     ],
     "texto_apoio": "“O ciclo da água é um ciclo biogeoquímico que garante que a água circule pelo meio físico e pelos seres vivos. Esse processo depende da luz solar, que garante a evaporação da água, dando início ao ciclo. O vapor de água sobe para camadas mais altas da atmosfera e condensa-se, formando nuvens, pequenas gotículas de água no estado líquido. Quando essas nuvens ficam carregadas, ocorre a precipitação (chuva), ou na forma líquida ou nas formas de granizo e de neve. A água da chuva, então, retorna para a Terra, podendo seguir diferentes caminhos, como voltar para lagos e rios ou infiltrar-se no solo, conforme a imagem a seguir”.",
     "fonte_apoio": "SANTOS, Vanessa dos. Ciclo da água, 2019. Disponível: https://brasilescola.uol.com.br/biologia/ciclo-agua.htm (Adaptado).",
@@ -43,7 +43,7 @@
       "evaporação, precipitação e transpiração."
     ],
     "correta": 4,
-    "comentario": "O ciclo hidrológico envolve três processos principais: evaporação (passagem da água líquida para vapor pela energia solar), precipitação (condensação e queda do vapor como chuva ou neve) e transpiração (liberação de vapor d'água pelas plantas). A transpiração somada à evaporação forma a evapotranspiração — processo fundamental para a regulação climática e o ciclo da água.",
+    "comentario": "<p>O ciclo hidrológico envolve três processos principais: evaporação (passagem da água líquida para vapor pela energia solar), precipitação (condensação e queda do vapor como chuva ou neve) e transpiração (liberação de vapor d'água pelas plantas). A transpiração somada à evaporação forma a evapotranspiração — processo fundamental para a regulação climática e o ciclo da água.</p>",
     "ajuda": "Os fenômenos A, B e C provavelmente se referem a processos do ciclo hidrológico (evaporação, precipitação, infiltração) ou a feições geomorfológicas fluviais (erosão, deposição, meandramento). Identifique cada fenômeno pela imagem ou pela descrição fornecida."
   },
   {
@@ -65,7 +65,7 @@
       "Grandes cadeias montanhosas no fundo dos oceanos."
     ],
     "correta": 4,
-    "comentario": "As dorsais oceânicas são grandes cadeias montanhosas subaquáticas formadas nas zonas de divergência das placas tectônicas, onde o magma emerge e cria nova crosta oceânica. A Dorsal Mesatlântica tem mais de 16.000 km de extensão e altura de 2.000 a 3.000 metros acima do assoalho oceânico adjacente. São os maiores relevos do planeta em extensão.",
+    "comentario": "<p>As dorsais oceânicas são grandes cadeias montanhosas subaquáticas formadas nas zonas de divergência das placas tectônicas, onde o magma emerge e cria nova crosta oceânica. A Dorsal Mesatlântica tem mais de 16.000 km de extensão e altura de 2.000 a 3.000 metros acima do assoalho oceânico adjacente. São os maiores relevos do planeta em extensão.</p>",
     "ajuda": "Dorsais oceânicas são cadeias de montanhas submarinas que se formam nas zonas de separação de placas tectônicas, onde o magma emerge e cria nova crosta oceânica. O termo 'dorsal' vem do latim e significa 'costas' ou 'espinha dorsal'."
   },
   {
@@ -88,7 +88,7 @@
       "Dorsal Oceânica."
     ],
     "correta": 1,
-    "comentario": "O talude continental é a zona de transição entre a plataforma continental rasa e o fundo oceânico profundo, com declividade mais acentuada (3° a 6°). É uma feição importante para a exploração de petróleo e para a compreensão da margem passiva dos continentes — no caso do Brasil, a margem atlântica formada pela abertura do Oceano Atlântico há ~130 Ma.",
+    "comentario": "<p>O talude continental é a zona de transição entre a plataforma continental rasa e o fundo oceânico profundo, com declividade mais acentuada (3° a 6°). É uma feição importante para a exploração de petróleo e para a compreensão da margem passiva dos continentes — no caso do Brasil, a margem atlântica formada pela abertura do Oceano Atlântico há ~130 Ma.</p>",
     "ajuda": "O desenho esquemático provavelmente representa uma estrutura geológica como uma sinclinal, anticlinal, fossa tectônica (graben) ou horste. Identifique o tipo de estrutura pelos padrões de dobramentos ou falhas visíveis."
   },
   {
@@ -109,7 +109,7 @@
       "F, V, F, F."
     ],
     "correta": 0,
-    "comentario": "A geomorfologia fluvial estuda as formas criadas pelos rios na paisagem. No alto curso, prevalecem vales encaixados e corredeiras; no médio curso, meandros e planícies de inundação; no baixo curso, deposição sedimentar, deltas e planícies costeiras. O perfil longitudinal de um rio tende ao 'perfil de equilíbrio' — curva côncava que equilibra erosão e deposição.",
+    "comentario": "<p>A geomorfologia fluvial estuda as formas criadas pelos rios na paisagem. No alto curso, prevalecem vales encaixados e corredeiras; no médio curso, meandros e planícies de inundação; no baixo curso, deposição sedimentar, deltas e planícies costeiras. O perfil longitudinal de um rio tende ao 'perfil de equilíbrio' — curva côncava que equilibra erosão e deposição.</p>",
     "ajuda": "A geomorfologia fluvial estuda as formas criadas pelos rios: meandros, leques aluviais, terraços, planícies de inundação (várzeas). Avalie cada afirmativa verificando se descreve corretamente o processo de erosão, transporte ou deposição dos rios."
   },
   {
@@ -134,7 +134,7 @@
       "onde há a necessidade de se fazer economia de água potável, ocorrem as maiores concentrações populacionais do planeta, esse é o caso da Europa ocidental."
     ],
     "correta": 1,
-    "comentario": "A coincidência entre áreas de maior concentração populacional (sul asiático, norte da África, Oriente Médio) e áreas de escassez hídrica é um dos principais desafios geopolíticos do século XXI. Regiões densamente habitadas com pouca água dependem de aquíferos fósseis (não recarregáveis), dessalinização (cara) ou importação virtual de água via alimentos.",
+    "comentario": "<p>A coincidência entre áreas de maior concentração populacional (sul asiático, norte da África, Oriente Médio) e áreas de escassez hídrica é um dos principais desafios geopolíticos do século XXI. Regiões densamente habitadas com pouca água dependem de aquíferos fósseis (não recarregáveis), dessalinização (cara) ou importação virtual de água via alimentos.</p>",
     "ajuda": "A comparação entre dois mapas (de diferentes épocas, escalas ou temáticas) permite identificar mudanças no espaço geográfico ao longo do tempo ou diferenças entre regiões. Observe o que mudou ou diverge entre os mapas e tire uma conclusão."
   },
   {
@@ -158,7 +158,7 @@
       "criação de incentivos fiscais para o cultivo de produtos orgânicos."
     ],
     "correta": 0,
-    "comentario": "A ampliação de sistemas de reutilização hídrica é a solução mais racional para garantir o abastecimento sem aumentar a exploração de mananciais. Inclui: reúso de efluentes tratados para irrigação, resfriamento industrial e lavagem urbana. O Brasil tem potencial enorme nessa área, mas o aproveitamento ainda é incipiente — menos de 1% dos efluentes tratados é reutilizado.",
+    "comentario": "<p>A ampliação de sistemas de reutilização hídrica é a solução mais racional para garantir o abastecimento sem aumentar a exploração de mananciais. Inclui: reúso de efluentes tratados para irrigação, resfriamento industrial e lavagem urbana. O Brasil tem potencial enorme nessa área, mas o aproveitamento ainda é incipiente — menos de 1% dos efluentes tratados é reutilizado.</p>",
     "ajuda": "O uso da água é profundamente desigual entre as nações: países industrializados consomem mais água per capita; países com economias agrícolas exportam água 'virtual' embutida em seus produtos. Analise quais fatores determinam essa desigualdade."
   },
   {
@@ -180,7 +180,7 @@
       "A diminuição da chuva no Brasil tem sido o maior problema ligado à falta de água para abastecer as cidades e as áreas rurais."
     ],
     "correta": 1,
-    "comentario": "A poluição hídrica compromete os recursos de água doce em escala global. Fontes pontuais (indústrias, esgoto urbano) e difusas (runoff agrícola) contaminam rios, lagos e aquíferos. Os desequilíbrios ambientais — como desmatamento e mudanças climáticas — agravam a situação ao alterar os regimes de chuvas e reduzir a disponibilidade hídrica em várias regiões.",
+    "comentario": "<p>A poluição hídrica compromete os recursos de água doce em escala global. Fontes pontuais (indústrias, esgoto urbano) e difusas (runoff agrícola) contaminam rios, lagos e aquíferos. Os desequilíbrios ambientais — como desmatamento e mudanças climáticas — agravam a situação ao alterar os regimes de chuvas e reduzir a disponibilidade hídrica em várias regiões.</p>",
     "ajuda": "Para ser considerada potável, a água deve estar livre de patógenos, metais pesados e compostos químicos tóxicos, e respeitar parâmetros de pH, turbidez e cloro residual. O tratamento da água potável passa por coagulação, floculação, decantação, filtração e desinfecção."
   },
   {
@@ -204,7 +204,7 @@
       "A diminuição da chuva no Brasil tem sido o maior problema ligado à falta de água para abastecer as cidades."
     ],
     "correta": 0,
-    "comentario": "Os aquíferos e os rios sofrem poluição doméstica, industrial e agrícola. Efluentes não tratados lançados em corpos hídricos causam eutrofização (excesso de nutrientes), redução do oxigênio dissolvido e mortandade de peixes. No Brasil, apenas cerca de 50% dos esgotos são tratados antes de ser lançados nos rios — um dos principais problemas ambientais nacionais.",
+    "comentario": "<p>Os aquíferos e os rios sofrem poluição doméstica, industrial e agrícola. Efluentes não tratados lançados em corpos hídricos causam eutrofização (excesso de nutrientes), redução do oxigênio dissolvido e mortandade de peixes. No Brasil, apenas cerca de 50% dos esgotos são tratados antes de ser lançados nos rios — um dos principais problemas ambientais nacionais.</p>",
     "ajuda": "A imagem abaixo provavelmente representa o ciclo hidrológico, uma bacia hidrográfica ou alguma feição de relevo associada à água. Identifique os elementos representados (rios, lagos, aquíferos, evaporação) e relacione à alternativa que melhor os descreve."
   },
   {
@@ -214,7 +214,7 @@
     "dificuldade": "facil",
     "tags": [
       "recursos hídricos",
-      "Dia Mundial da Água",
+      "dia mundial da água",
       "sustentabilidade"
     ],
     "texto_apoio": "Em 22 de março, comemora-se o Dia Mundial da Água, data criada pela ONU em 1993, com o objetivo de chamar a atenção para a escassez desse recurso, bem como para conscientizar as pessoas sobre a necessidade de preservação e reaproveitamento da água de que dispomos hoje.",
@@ -229,7 +229,7 @@
       "I, III e V."
     ],
     "correta": 4,
-    "comentario": "O Dia Mundial da Água (22 de março) foi criado pela ONU em 1993 para alertar sobre o uso sustentável dos recursos hídricos. As metas dos ODS (Objetivo de Desenvolvimento Sustentável 6) incluem garantir acesso à água potável e saneamento básico para todos até 2030. No Brasil, mais de 100 milhões de pessoas ainda não têm acesso a esgoto tratado.",
+    "comentario": "<p>O Dia Mundial da Água (22 de março) foi criado pela ONU em 1993 para alertar sobre o uso sustentável dos recursos hídricos. As metas dos ODS (Objetivo de Desenvolvimento Sustentável 6) incluem garantir acesso à água potável e saneamento básico para todos até 2030. No Brasil, mais de 100 milhões de pessoas ainda não têm acesso a esgoto tratado.</p>",
     "ajuda": "O Dia Mundial da Água (22 de março) foi criado em 1992 na Eco-92. O planeta tem cerca de 1,4 bilhão de km³ de água, mas apenas 2,5% é doce, e a maior parte está congelada. Pense em como esse contexto se relaciona ao tema da questão."
   }
 ]

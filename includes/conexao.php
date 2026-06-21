@@ -83,6 +83,7 @@ function jsonResponse(array $dados, int $status = 200): void {
 function requireAuth(): int {
     ini_set('session.cookie_httponly', 1);
     ini_set('session.cookie_samesite', 'Strict');
+    ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1'); // HTTPS only em produção
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }
@@ -98,6 +99,7 @@ function requireAuth(): int {
 function startSecureSession(): void {
     ini_set('session.cookie_httponly', 1);
     ini_set('session.cookie_samesite', 'Strict');
+    ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1'); // HTTPS only em produção
     if (session_status() === PHP_SESSION_NONE) {
         session_start();
     }

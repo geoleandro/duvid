@@ -11,6 +11,7 @@ const TOTAL_VIDAS = 3;
 const BONUS_VIDAS = 20; // globinhos extras por terminar sem perder vida
 // << NOVO: sistema de combo
 let combo = 0;
+let errosSeguidos = 0; // erros consecutivos para personagem de suporte
 // << NOVO: modo revisão
 let questoesErradas = [];
 let emRevisao = false; // quando true, refazer as erradas NÃO re-pontua por questão
@@ -343,6 +344,7 @@ function verificar() {
         // ACERTO — mostra resposta correta normalmente
         DuvidUI.estilizarResultadoQuestao(resp, q.correta);
         combo++;
+        errosSeguidos = 0;
         const ehMarcoCombo = COMBO_NIVEIS.some(n => n.minimo === combo);
         const nivelCombo = COMBO_NIVEIS.find(n => combo >= n.minimo);
         const bonusCombo = nivelCombo ? nivelCombo.bonus : 0;
@@ -356,6 +358,23 @@ function verificar() {
     } else {
         // ERRO — não revela a resposta, só some as alternativas
         combo = 0;
+        errosSeguidos++;
+        if (errosSeguidos >= 3) {
+            const nome = (typeof DuvidDB !== 'undefined' && DuvidDB.getNome())
+                ? DuvidDB.getNome().split(' ')[0]
+                : null;
+            const msgBase = nome
+                ? `Ei, ${nome}! Essa parte é difícil.`
+                : 'Essa parte é difícil!';
+            const dica = q.ajuda || null;
+            window.dispatchEvent(new CustomEvent('duvid:suporte', {
+                detail: {
+                    msg: msgBase + (dica ? ' Aqui vai uma dica:' : ' Continue tentando!'),
+                    dica: dica
+                }
+            }));
+            errosSeguidos = 0;
+        }
         questoesErradas.push(q);
         perderVida();
         DuvidUI.executarGatilhoResultado(false, 0);

@@ -5,9 +5,9 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Iraque",
+      "iraque",
       "invasão",
-      "EUA",
+      "eua",
       "2003",
       "geopolítica"
     ],
@@ -21,7 +21,7 @@
       "A invasão do Iraque pelos EUA teve por justificativa a acusação de que o governo de Sadam Hussein produzia armas de destruição em massa."
     ],
     "correta": 4,
-    "comentario": "A invasão do Iraque em 2003 pelos EUA e Reino Unido foi feita sem autorização do Conselho de Segurança da ONU e sem evidências concretas de armas de destruição em massa — que nunca foram encontradas. Foi considerada ilegal pelo então Secretário-Geral da ONU Kofi Annan, gerando uma crise de legitimidade da política externa americana.",
+    "comentario": "<p>A invasão do Iraque em 2003 pelos EUA e Reino Unido foi feita sem autorização do Conselho de Segurança da ONU e sem evidências concretas de armas de destruição em massa — que nunca foram encontradas. Foi considerada ilegal pelo então Secretário-Geral da ONU Kofi Annan, gerando uma crise de legitimidade da política externa americana.</p>",
     "ajuda": "A invasão do Iraque em 2003 pelos EUA não teve apoio da ONU e gerou grande controvérsia internacional. O texto provavelmente discute os fundamentos ou as consequências dessa invasão. Identifique qual afirmativa o texto permite confirmar ou refutar."
   },
   {
@@ -31,7 +31,7 @@
     "dificuldade": "media",
     "tags": [
       "cultura árabe",
-      "Oriente Médio",
+      "oriente médio",
       "diversidade cultural",
       "islamismo"
     ],
@@ -46,7 +46,7 @@
       "Árabe é o nome da região geográfica em que habitam os povos islâmicos."
     ],
     "correta": 2,
-    "comentario": "Árabe refere-se a uma identidade étnico-linguística (povos que falam árabe como língua nativa), enquanto muçulmano refere-se à fé islâmica. Há 400 milhões de muçulmanos não árabes na Indonésia, Paquistão, Bangladesh e Irã — e há árabes cristãos no Líbano e na Síria. Os dois conceitos não são sinônimos.",
+    "comentario": "<p>Árabe refere-se a uma identidade étnico-linguística (povos que falam árabe como língua nativa), enquanto muçulmano refere-se à fé islâmica. Há 400 milhões de muçulmanos não árabes na Indonésia, Paquistão, Bangladesh e Irã — e há árabes cristãos no Líbano e na Síria. Os dois conceitos não são sinônimos.</p>",
     "ajuda": "Árabe e muçulmano não são sinônimos: árabe é uma identidade étnico-linguística, enquanto muçulmano é uma identidade religiosa. Há muçulmanos não árabes (turcos, persas, indonésios) e árabes não muçulmanos (cristãos libaneses, por exemplo)."
   },
   {
@@ -57,7 +57,7 @@
     "tags": [
       "curdos",
       "território",
-      "Oriente Médio",
+      "oriente médio",
       "minoria étnica"
     ],
     "imagem_apoio": "3ano/img/329/t29q3.png",
@@ -70,7 +70,7 @@
       "assumiram grande protagonismo durante a ocupação do Iraque pelos Estados Unidos, pois eram os principais apoiadores políticos e econômicos de Saddam Hussein."
     ],
     "correta": 2,
-    "comentario": "Os curdos são o maior grupo étnico sem Estado nacional do mundo: cerca de 35-40 milhões de pessoas distribuídas entre Turquia (maioria), Irã, Iraque e Síria. A questão curda é uma das mais complexas do Oriente Médio — nenhum dos quatro países aceita a criação de um Estado curdo independente.",
+    "comentario": "<p>Os curdos são o maior grupo étnico sem Estado nacional do mundo: cerca de 35-40 milhões de pessoas distribuídas entre Turquia (maioria), Irã, Iraque e Síria. A questão curda é uma das mais complexas do Oriente Médio — nenhum dos quatro países aceita a criação de um Estado curdo independente.</p>",
     "ajuda": "Os curdos são o maior grupo étnico sem Estado nacional do mundo, com cerca de 30-40 milhões de pessoas espalhadas pela Turquia, Síria, Iraque e Irã. Identifique qual alternativa descreve corretamente a situação geopolítica dos curdos."
   },
   {
@@ -79,9 +79,9 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "Nova Ordem Mundial",
-      "Oriente Médio",
-      "fronteiras",
+      "nova ordem mundial",
+      "oriente médio",
+      "fronteira",
       "instabilidade"
     ],
     "texto_apoio": "“Sua origem está no Iraque, onde um importante braço da rede terrorista Al-Qaeda se instalou no vácuo de poder produzido pela invasão liderada pelos EUA e posterior derrubada de Saddam Hussein. (...) Dois fatores ressuscitaram a Al-Qaeda no Iraque – a alienação, por parte do governo xiita iraquiano, dos sunitas moderados que combateram a Al-Qaeda; e a guerra civil síria, que fez do país um polo atrativo de radicais sunitas como o Afeganistão fora na década de 1980. Por trás da alienação sunita no Iraque e da guerra civil síria, está a perversa dinâmica da rivalidade entre o Irã (xiita) e a Arábia Saudita e outras monarquias do Golfo Pérsico (sunitas). Esses dois blocos são rivais geopolíticos há décadas, mas a disputa vem-se acirrando, e ganhando contornos sectários, desde a recente ascensão do Irã, proporcionada pelas invasões norte-americanas que derrubaram Saddam Hussein, no Iraque, e o Talibã, no Afeganistão. Hoje, o centro dessa disputa é a Síria.”",
@@ -95,7 +95,7 @@
       "Hezbollah."
     ],
     "correta": 2,
-    "comentario": "O Estado Islâmico (ISIS/DAESH) foi fundado por Abu Bakr al-Baghdadi e proclamou um califado em 2014 em partes do Iraque e da Síria. Surgiu no vácuo de poder gerado pela invasão americana do Iraque e pela guerra civil síria, recrutando sunitas marginalizados e jihadistas radicais de todo o mundo.",
+    "comentario": "<p>O Estado Islâmico (ISIS/DAESH) foi fundado por Abu Bakr al-Baghdadi e proclamou um califado em 2014 em partes do Iraque e da Síria. Surgiu no vácuo de poder gerado pela invasão americana do Iraque e pela guerra civil síria, recrutando sunitas marginalizados e jihadistas radicais de todo o mundo.</p>",
     "ajuda": "O Estado Islâmico (ISIS/DAESH) surgiu na região entre Iraque e Síria, proclamando um califado. É diferente da OLP, do Hezbollah ou da Jihad islâmica. Identifique qual organização o texto descreve com base nas características mencionadas."
   },
   {
@@ -104,9 +104,9 @@
     "ano": "2012",
     "dificuldade": "media",
     "tags": [
-      "Turquia",
+      "turquia",
       "curdos",
-      "PKK",
+      "pkk",
       "conflito étnico",
       "separatismo"
     ],
@@ -120,7 +120,7 @@
       "Luta pela fronteira entre os países onde existem grandes reservas minerais a serem exploradas comercialmente."
     ],
     "correta": 0,
-    "comentario": "O PKK (Partido dos Trabalhadores do Curdistão), fundado em 1978 por Abdullah Öcalan, travou uma guerra de guerrilha contra o Estado turco por décadas, causando mais de 40 mil mortos. O objetivo central é a autonomia política e o reconhecimento cultural dos curdos na Turquia, que os historicamente reprimiu.",
+    "comentario": "<p>O PKK (Partido dos Trabalhadores do Curdistão), fundado em 1978 por Abdullah Öcalan, travou uma guerra de guerrilha contra o Estado turco por décadas, causando mais de 40 mil mortos. O objetivo central é a autonomia política e o reconhecimento cultural dos curdos na Turquia, que os historicamente reprimiu.</p>",
     "ajuda": "Os curdos na Turquia lutam pelo reconhecimento de sua identidade cultural e por autonomia política. O PKK (Partido dos Trabalhadores do Curdistão) liderou essa luta por décadas. Identifique qual é o objetivo central dessa luta conforme o texto."
   },
   {
@@ -129,9 +129,9 @@
     "ano": "2011",
     "dificuldade": "media",
     "tags": [
-      "Irã",
-      "República Islâmica",
-      "Revolução Iraniana",
+      "irã",
+      "república islâmica",
+      "revolução iraniana",
       "geopolítica"
     ],
     "pergunta": "O Irã é oficialmente uma República Islâmica, conhecido até a primeira metade do século XX apenas como Pérsia. Em 1979 houve uma revolução que fez aquele país sair da condição de Monarquia Autocrática para República Islâmica. Sobre o Irã e a condição de República Islâmica, é incorreto afirmar que:",
@@ -143,7 +143,7 @@
       "recentemente o Irã foi acusado pela comunidade internacional de possuir armas nucleares."
     ],
     "correta": 2,
-    "comentario": "A alternativa incorreta é a C: o Irã persa não é árabe — os iranianos são persas, com língua (farsi) e cultura distintas do mundo árabe. O Irã é o maior país xiita do mundo, enquanto a maioria dos árabes é sunita. Essa diferença entre árabe e islâmico é fundamental para entender os conflitos do Oriente Médio.",
+    "comentario": "<p>A alternativa incorreta é a C: o Irã persa não é árabe — os iranianos são persas, com língua (farsi) e cultura distintas do mundo árabe. O Irã é o maior país xiita do mundo, enquanto a maioria dos árabes é sunita. Essa diferença entre árabe e islâmico é fundamental para entender os conflitos do Oriente Médio.</p>",
     "ajuda": "A Revolução Iraniana de 1979 depôs o Xá Reza Pahlevi (apoiado pelos EUA) e estabeleceu uma República Islâmica teocrática liderada pelo Aiatolá Khomeini. Pense em qual alternativa descreve corretamente os fatos históricos relacionados ao Irã."
   },
   {
@@ -152,9 +152,9 @@
     "ano": "2011",
     "dificuldade": "media",
     "tags": [
-      "Mesopotâmia",
+      "mesopotâmia",
       "localização histórica",
-      "Iraque",
+      "iraque",
       "região geográfica"
     ],
     "texto_apoio": "“É o mapa mais antigo que sobreviveu até hoje, foi encontrado na região da Mesopotâmia e representa o mapa de Ga-Sur. Desenhado por volta de 2 300 a.C., em um tablete de argila cozida, medindo 7 centímetros, tão pequeno que cabe na palma da mão, ele representa o rio Eufrates cercado por montanhas”.",
@@ -169,7 +169,7 @@
       "no Irã."
     ],
     "correta": 1,
-    "comentario": "A Mesopotâmia, entre os rios Tigre e Eufrates, é considerada o berço da civilização: foi onde surgiram as primeiras cidades, a escrita cuneiforme, os primeiros sistemas legais (Código de Hamurabi) e a agricultura irrigada. Hoje essa região histórica corresponde principalmente ao território do Iraque.",
+    "comentario": "<p>A Mesopotâmia, entre os rios Tigre e Eufrates, é considerada o berço da civilização: foi onde surgiram as primeiras cidades, a escrita cuneiforme, os primeiros sistemas legais (Código de Hamurabi) e a agricultura irrigada. Hoje essa região histórica corresponde principalmente ao território do Iraque.</p>",
     "ajuda": "A Mesopotâmia (entre os rios Tigre e Eufrates) é considerada o berço das primeiras civilizações. Hoje, essa região histórica corresponde principalmente ao território do Iraque. Identifique em qual país atual essa região geográfica está localizada."
   },
   {
@@ -178,7 +178,7 @@
     "ano": "2007",
     "dificuldade": "media",
     "tags": [
-      "Iraque",
+      "iraque",
       "petróleo",
       "riqueza natural",
       "geopolítica"
@@ -194,7 +194,7 @@
       "II e III."
     ],
     "correta": 3,
-    "comentario": "As afirmativas corretas são II e III: a presença de forças estrangeiras reforça o nacionalismo e o fundamentalismo iraquiano; e os EUA apoiaram Saddam Hussein na guerra contra o Irã (1980-88), antes de combatê-lo. A afirmativa I é falsa (a maioria xiita é que perseguia a minoria sunita, e não o contrário).",
+    "comentario": "<p>As afirmativas corretas são II e III: a presença de forças estrangeiras reforça o nacionalismo e o fundamentalismo iraquiano; e os EUA apoiaram Saddam Hussein na guerra contra o Irã (1980-88), antes de combatê-lo. A afirmativa I é falsa (a maioria xiita é que perseguia a minoria sunita, e não o contrário).</p>",
     "ajuda": "O Iraque tem uma população com três grandes grupos: árabes sunitas, árabes xiitas e curdos. Essa divisão étnico-religiosa é fundamental para entender os conflitos internos do país. Avalie as afirmativas sobre o Iraque com base nessa estrutura."
   },
   {
@@ -203,9 +203,9 @@
     "ano": "2006",
     "dificuldade": "media",
     "tags": [
-      "Irã",
-      "Iraque",
-      "conflitos",
+      "irã",
+      "iraque",
+      "conflito",
       "guerra",
       "petróleo"
     ],
@@ -218,7 +218,7 @@
       "Segunda Guerra do Golfo, em 2003, quando a Organização das Nações Unidas (ONU) convocou os Estados Unidos e a Inglaterra para que invadissem o Iraque e expropriassem suas áreas petrolíferas."
     ],
     "correta": 0,
-    "comentario": "A alternativa correta é a A: a Revolução Iraniana de 1979 derrubou o Xá pró-americano e instalou a República Islâmica teocrática. A guerra Irã-Iraque (1980-88) foi o conflito mais mortífero do Oriente Médio no século XX, com mais de 1 milhão de mortos — não foi um conflito típico da Guerra Fria.",
+    "comentario": "<p>A alternativa correta é a A: a Revolução Iraniana de 1979 derrubou o Xá pró-americano e instalou a República Islâmica teocrática. A guerra Irã-Iraque (1980-88) foi o conflito mais mortífero do Oriente Médio no século XX, com mais de 1 milhão de mortos — não foi um conflito típico da Guerra Fria.</p>",
     "ajuda": "A relação Irã-Iraque foi marcada pela Guerra Irã-Iraque (1980-1988) e pelo histórico de rivalidade xiita-sunita. O Iraque também invadiu o Kuwait em 1990, gerando a Guerra do Golfo. Identifique qual sequência de eventos é apresentada corretamente."
   },
   {
@@ -227,9 +227,9 @@
     "ano": "2003",
     "dificuldade": "media",
     "tags": [
-      "Iraque",
+      "iraque",
       "invasão dos aliados",
-      "EUA",
+      "eua",
       "geopolítica",
       "petróleo"
     ],
@@ -242,7 +242,7 @@
       "III e IV."
     ],
     "correta": 2,
-    "comentario": "As afirmativas corretas são I e III: o Iraque está localizado na Ásia (Oriente Médio), região de grande produção petrolífera; e Bagdá foi invadida pelas forças aliadas (EUA e UK) em abril de 2003. A afirmativa II é falsa (o Iraque não é banhado pelo Mediterrâneo, mas pelo Golfo Pérsico) e IV é falsa (o Iraque tem extensas planícies aluviais).",
+    "comentario": "<p>As afirmativas corretas são I e III: o Iraque está localizado na Ásia (Oriente Médio), região de grande produção petrolífera; e Bagdá foi invadida pelas forças aliadas (EUA e UK) em abril de 2003. A afirmativa II é falsa (o Iraque não é banhado pelo Mediterrâneo, mas pelo Golfo Pérsico) e IV é falsa (o Iraque tem extensas planícies aluviais).</p>",
     "ajuda": "O Iraque foi invadido pelos EUA em 2003 sob o pretexto de possuir armas de destruição em massa — o que não foi confirmado. Avalie as afirmativas sobre essa invasão e suas consequências para o Iraque e para a ordem internacional."
   }
 ]

@@ -5,8 +5,8 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "regionalização do Brasil",
-      "regiões IBGE",
+      "regionalização do brasil",
+      "regiões ibge",
       "divisão regional"
     ],
     "pergunta": "Considerando dados e informações relativos ao sistema regional do Brasil, assinale a afirmação verdadeira.",
@@ -17,7 +17,7 @@
       "Na região Nordeste do país, é flagrante a transformação causada pelo dinamismo econômico que fortaleceu as cidades médias em detrimento do tradicional papel central das metrópoles."
     ],
     "correta": 0,
-    "comentario": "A Região Norte ainda é marcada pela circulação fluvial como principal meio de transporte, reflexo de uma ocupação histórica dispersa ao longo dos rios amazônicos. Já o Centro-Oeste experimentou uma modernização acelerada a partir dos anos 1970 com a expansão da fronteira agrícola e a construção de Brasília, criando uma dinâmica territorial muito diferente da Amazônia tradicional.",
+    "comentario": "<p>A Região Norte ainda é marcada pela circulação fluvial como principal meio de transporte, reflexo de uma ocupação histórica dispersa ao longo dos rios amazônicos. Já o Centro-Oeste experimentou uma modernização acelerada a partir dos anos 1970 com a expansão da fronteira agrícola e a construção de Brasília, criando uma dinâmica territorial muito diferente da Amazônia tradicional.</p>",
     "ajuda": "Lembre-se das características de cada região do Brasil: Norte com circulação fluvial e rodoviária abrindo a floresta, Nordeste com suas metrópoles tradicionais, Sul como região de colonização europeia e industrialização, e Sudeste como centro financeiro e demográfico. Analise qual afirmativa descreve corretamente a dinâmica espacial de cada região sem erros ou inversões."
   },
   {
@@ -26,7 +26,7 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "Geiger",
+      "geiger",
       "regiões geoeconômicas",
       "regionalização",
       "divisão regional"
@@ -40,7 +40,7 @@
       "às características naturais e à formação socioespacial"
     ],
     "correta": 3,
-    "comentario": "A regionalização de Geiger (1967) em Amazônia, Nordeste e Centro-Sul usou critérios socioeconômicos e históricos, não apenas administrativos. Isso permitiu capturar as desigualdades regionais reais do Brasil: o Centro-Sul industrializado e moderno, o Nordeste marcado pela herança colonial e a Amazônia com sua dinâmica própria de fronteira.",
+    "comentario": "<p>A regionalização de Geiger (1967) em Amazônia, Nordeste e Centro-Sul usou critérios socioeconômicos e históricos, não apenas administrativos. Isso permitiu capturar as desigualdades regionais reais do Brasil: o Centro-Sul industrializado e moderno, o Nordeste marcado pela herança colonial e a Amazônia com sua dinâmica própria de fronteira.</p>",
     "ajuda": "Pense nos critérios usados por Geiger para dividir o Brasil em três complexos geoeconômicos (Centro-Sul, Nordeste e Amazônia). Ele não usou apenas limites naturais nem apenas limites estaduais — analise qual combinação de critérios melhor explica sua proposta. Lembre-se de que a proposta de Geiger considera o processo histórico de formação econômica de cada região."
   },
   {
@@ -49,7 +49,7 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "Brasília",
+      "brasília",
       "transferência da capital",
       "regionalização",
       "integração nacional"
@@ -63,7 +63,7 @@
       "oferecer menor liberdade e autonomia para a atuação dos deputados e senadores."
     ],
     "correta": 3,
-    "comentario": "Transferir a capital para Brasília foi uma estratégia geopolítica deliberada de JK: interiorizar o desenvolvimento, integrar o Centro-Oeste ao restante do país e criar um símbolo de modernidade. A construção de Brasília (1956–1960) foi financiada pelo capital estrangeiro e pelo endividamento público, sendo o ápice do projeto desenvolvimentista do período.",
+    "comentario": "<p>Transferir a capital para Brasília foi uma estratégia geopolítica deliberada de JK: interiorizar o desenvolvimento, integrar o Centro-Oeste ao restante do país e criar um símbolo de modernidade. A construção de Brasília (1956–1960) foi financiada pelo capital estrangeiro e pelo endividamento público, sendo o ápice do projeto desenvolvimentista do período.</p>",
     "ajuda": "Lembre-se dos objetivos declarados da construção de Brasília no governo JK: interiorizar o desenvolvimento, integrar o país e ocupar o vasto território central. Pense em qual dessas finalidades melhor explica a transferência da capital para o Planalto Central. Descarte alternativas que mencionam objetivos não relacionados ao projeto de integração nacional."
   },
   {
@@ -72,7 +72,7 @@
     "ano": "2009",
     "dificuldade": "media",
     "tags": [
-      "Milton Santos",
+      "milton santos",
       "regiões brasileiras",
       "regionalização",
       "espaço geográfico"
@@ -88,7 +88,7 @@
       "não há diferenças significativas entre a Região Concentrada e a Região Nordeste no que diz respeito às redes de transporte e comunicação."
     ],
     "correta": 0,
-    "comentario": "Milton Santos e Maria Laura Silveira propuseram em 'O Brasil: território e sociedade no início do século XXI' (2001) uma leitura do espaço nacional pela densidade das técnicas e da informação. Essa abordagem supera a visão meramente geográfico-administrativa e capta as desigualdades no acesso à modernização, diferenciando o 'Brasil luminoso' do 'Brasil opaco'.",
+    "comentario": "<p>Milton Santos e Maria Laura Silveira propuseram em 'O Brasil: território e sociedade no início do século XXI' (2001) uma leitura do espaço nacional pela densidade das técnicas e da informação. Essa abordagem supera a visão meramente geográfico-administrativa e capta as desigualdades no acesso à modernização, diferenciando o 'Brasil luminoso' do 'Brasil opaco'.</p>",
     "ajuda": "Lembre-se de que Milton Santos e Maria Laura Silveira propuseram uma regionalização baseada na densidade das técnicas, ciência e informação no território. A 'Região Concentrada' reúne as áreas mais desenvolvidas tecnologicamente. Pense em qual critério principal orienta essa divisão e qual alternativa a descreve corretamente."
   },
   {
@@ -97,8 +97,8 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "regionalização do Brasil",
-      "IBGE",
+      "regionalização do brasil",
+      "ibge",
       "planejamento regional",
       "regiões"
     ],
@@ -112,7 +112,7 @@
       "incorporar os critérios naturais."
     ],
     "correta": 0,
-    "comentario": "A regionalização oficial do IBGE em cinco regiões segue limites estaduais, o que facilita o planejamento governamental e a coleta de dados estatísticos. Embora seja criticada por não refletir as dinâmicas econômicas reais, sua vantagem prática é a compatibilidade com a divisão político-administrativa, indispensável para políticas públicas e repasse de verbas.",
+    "comentario": "<p>A regionalização oficial do IBGE em cinco regiões segue limites estaduais, o que facilita o planejamento governamental e a coleta de dados estatísticos. Embora seja criticada por não refletir as dinâmicas econômicas reais, sua vantagem prática é a compatibilidade com a divisão político-administrativa, indispensável para políticas públicas e repasse de verbas.</p>",
     "ajuda": "Observe as duas formas de regionalização apresentadas e pense: qual delas coincide com os limites político-administrativos dos estados? Esse tipo de regionalização facilita o planejamento governamental porque os dados censitários e orçamentários seguem essa divisão. Analise qual vantagem é específica de respeitar os limites estaduais."
   },
   {
@@ -122,8 +122,8 @@
     "dificuldade": "media",
     "tags": [
       "regiões geoeconômicas",
-      "Centro-Sul",
-      "Geiger",
+      "centro-sul",
+      "geiger",
       "industrialização"
     ],
     "pergunta": "Com relação ao Centro-Sul, uma das regiões geoeconômicas do Brasil, assinale o que for correto.\n\n01) Representa a região de ocupação mais antiga do país, sendo que durante três séculos foi a região mais rica e povoada do país, tendo a cana-de-açúcar como a principal riqueza do Brasil Colônia.\n\n02) As práticas mais modernas da agropecuária encontram-se nessa região, especialmente no interior de São Paulo, Rio Grande do Sul e Minas Gerais.\n\n03) É a região mais povoada, urbanizada e industrializada do país, representada pelas importantes áreas industrializadas da Grande São Paulo, Grande Rio de Janeiro, Grande Belo Horizonte e Grande Porto Alegre.\n\n04) É a maior das três regiões geoeconômicas em extensão, seguida pelo Nordeste e pela Amazônia.\n\n05) Aí se registram as mais constantes lutas pela posse de terras envolvendo posseiros, indígenas, grileiros, empresas e até o Estado.",
@@ -135,7 +135,7 @@
       "FFVVF."
     ],
     "correta": 2,
-    "comentario": "O Centro-Sul de Geiger concentra o maior PIB, a maior rede urbana e a infraestrutura mais densa do Brasil, resultado da industrialização iniciada em São Paulo no final do século XIX com o café. Essa região absorveu os maiores fluxos imigratórios europeus e asiáticos, o que diversificou sua base produtiva e impulsionou o desenvolvimento industrial.",
+    "comentario": "<p>O Centro-Sul de Geiger concentra o maior PIB, a maior rede urbana e a infraestrutura mais densa do Brasil, resultado da industrialização iniciada em São Paulo no final do século XIX com o café. Essa região absorveu os maiores fluxos imigratórios europeus e asiáticos, o que diversificou sua base produtiva e impulsionou o desenvolvimento industrial.</p>",
     "ajuda": "Analise cada afirmativa sobre o Centro-Sul usando V ou F: pense em quais estados compõem essa região geoeconômica e quais características se aplicam a ela. Lembre-se de que a região de ocupação mais antiga é o Nordeste, não o Centro-Sul. Avalie cuidadosamente a afirmativa sobre a extensão territorial dos complexos."
   },
   {
@@ -145,9 +145,9 @@
     "dificuldade": "media",
     "tags": [
       "complexos regionais",
-      "Amazônia",
-      "Nordeste",
-      "Centro-Sul"
+      "amazônia",
+      "nordeste",
+      "centro-sul"
     ],
     "pergunta": "A divisão do território brasileiro em 3 grandes complexos regionais - Amazônia, Nordeste e Centro-Sul - tem a vantagem de caracterizar.",
     "alternativas": [
@@ -158,7 +158,7 @@
       "a especialidade do processo socioeconômico, considerando a gênese histórica de cada complexo."
     ],
     "correta": 4,
-    "comentario": "A regionalização geoeconômica de Geiger tem como principal mérito considerar a gênese histórica de cada complexo, reconhecendo que o Nordeste foi moldado pela economia açucareira, a Amazônia pela lógica extrativista e o Centro-Sul pela industrialização. Esse critério histórico-econômico revela as raízes estruturais das desigualdades regionais brasileiras.",
+    "comentario": "<p>A regionalização geoeconômica de Geiger tem como principal mérito considerar a gênese histórica de cada complexo, reconhecendo que o Nordeste foi moldado pela economia açucareira, a Amazônia pela lógica extrativista e o Centro-Sul pela industrialização. Esse critério histórico-econômico revela as raízes estruturais das desigualdades regionais brasileiras.</p>",
     "ajuda": "Pense no que diferencia os três complexos geoeconômicos de Geiger: Amazônia (expansão recente, baixa densidade, recursos naturais), Nordeste (ocupação colonial, seca, desigualdade) e Centro-Sul (industrialização, urbanização, economia diversificada). A questão pergunta qual vantagem essa divisão em três complexos oferece. Foque no critério histórico-econômico que orienta essa classificação."
   },
   {
@@ -181,7 +181,7 @@
       "se apenas os textos I e II."
     ],
     "correta": 3,
-    "comentario": "Os três complexos geoeconômicos propostos por Geiger (Amazônia, Nordeste e Centro-Sul) são unidades com coerência interna definida por processos históricos, econômicos e sociais. Essa classificação tridimensional capta melhor as assimetrias do desenvolvimento brasileiro do que a divisão em cinco regiões do IBGE, por ir além dos limites administrativos.",
+    "comentario": "<p>Os três complexos geoeconômicos propostos por Geiger (Amazônia, Nordeste e Centro-Sul) são unidades com coerência interna definida por processos históricos, econômicos e sociais. Essa classificação tridimensional capta melhor as assimetrias do desenvolvimento brasileiro do que a divisão em cinco regiões do IBGE, por ir além dos limites administrativos.</p>",
     "ajuda": "Analise cada texto (I, II, III) sobre os três complexos geoeconômicos. Pense nas características de cada um: o Centro-Sul como polo econômico dominante, o Nordeste com sua estrutura fundiária concentrada e o Complexo Amazônico em processo de ocupação. Avalie a veracidade de cada afirmativa antes de escolher a alternativa."
   },
   {
@@ -204,7 +204,7 @@
       "Amazônia, Nordeste e Centro-Sul."
     ],
     "correta": 4,
-    "comentario": "A regionalização geoeconômica combina critérios geográficos (clima, relevo, vegetação) com critérios econômicos (nível de industrialização, infraestrutura, renda) para identificar grandes unidades espaciais coesas. Amazônia, Nordeste e Centro-Sul emergem dessa análise como os três grandes complexos que sintetizam a heterogeneidade estrutural do território brasileiro.",
+    "comentario": "<p>A regionalização geoeconômica combina critérios geográficos (clima, relevo, vegetação) com critérios econômicos (nível de industrialização, infraestrutura, renda) para identificar grandes unidades espaciais coesas. Amazônia, Nordeste e Centro-Sul emergem dessa análise como os três grandes complexos que sintetizam a heterogeneidade estrutural do território brasileiro.</p>",
     "ajuda": "Leia cada afirmativa com atenção e associe-a a uma das três regiões geoeconômicas. Pense: qual região se distribui por nove estados com baixa densidade demográfica e características naturais marcantes? Qual concentra 30% da população com sub-regiões bem definidas? Qual inclui as áreas mais industrializadas?"
   },
   {
@@ -214,9 +214,9 @@
     "dificuldade": "media",
     "tags": [
       "complexos regionais",
-      "Amazônia",
-      "Nordeste",
-      "regionalização de Geiger"
+      "amazônia",
+      "nordeste",
+      "regionalização de geiger"
     ],
     "texto_apoio": "\"O geógrafo Pedro Pinchas Geiger propôs, em 1967, a divisão regional do Brasil em três regiões geoeconômicas ou complexos regionais (...). Essa divisão regional tem por base as características geoeconômicas e a formação histórico-econômica do Brasil. (...)\"",
     "fonte_apoio": "(ADAS, M. \"Geografia: o Brasil e suas regiões geoeconômicas\". São Paulo: Moderna, 1996. p. 52 e 67.)",
@@ -229,7 +229,7 @@
       "De integração dos povos da floresta - de economia agropecuária moderna - de expulsão de mão de obra."
     ],
     "correta": 3,
-    "comentario": "A associação de Geiger é precisa: a Amazônia como fronteira de expansão agrícola e extrativista; o Nordeste moldado pela colonização açucareira e pelo semiárido; e o Centro-Sul como coração industrial e econômico do país. Essa tríade explica tanto as potencialidades quanto as profundas desigualdades regionais que ainda marcam o Brasil contemporâneo.",
+    "comentario": "<p>A associação de Geiger é precisa: a Amazônia como fronteira de expansão agrícola e extrativista; o Nordeste moldado pela colonização açucareira e pelo semiárido; e o Centro-Sul como coração industrial e econômico do país. Essa tríade explica tanto as potencialidades quanto as profundas desigualdades regionais que ainda marcam o Brasil contemporâneo.</p>",
     "ajuda": "Lembre-se das características dos três complexos de Geiger: a Amazônia como fronteira de expansão agrícola com baixa densidade, o Nordeste como região de origem colonial voltada à economia açucareira e o Centro-Sul como região mais urbanizada e industrializada. Associe cada complexo à sua caracterização histórico-econômica correta."
   }
 ]

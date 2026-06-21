@@ -121,10 +121,13 @@ function inicializarAula(tipo) {
 
 
 function executarReset() {
-    // "Sair / Trocar de conta": remove só a identidade LOCAL.
-    // O progresso (globinhos, conclusões, conquistas) continua no banco e
-    // volta quando o aluno entrar de novo com nome + PIN.
+    // "Sair / Trocar de conta": destrói a sessão PHP no servidor
+    // e remove a identidade local. O progresso continua no banco
+    // e volta quando o aluno entrar de novo com nome + PIN.
     window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Destrói sessão PHP antes de limpar o localStorage
+    fetch('/api/logout.php', { method: 'POST' }).catch(() => {});
 
     localStorage.removeItem(NOME_CHAVE);
     localStorage.removeItem(ALUNO_ID_CHAVE);

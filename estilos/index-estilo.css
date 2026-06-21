@@ -1,5 +1,8 @@
-/* Impede o balanço lateral no site todo */
-html,
+/* Impede o balanco lateral no site todo */
+html {
+    max-width: 100%;
+    overflow-x: hidden; /* nao colocar position:relative aqui — quebra scroll no mobile */
+}
 body {
     max-width: 100%;
     overflow-x: hidden;

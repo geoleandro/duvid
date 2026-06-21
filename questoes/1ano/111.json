@@ -18,8 +18,14 @@
       "pela manifestação de agentes externos, especialmente a erosão antrópica."
     ],
     "correta": 3,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Incorreta. O tectonismo é o responsável pelos terremotos e erupções vulcânicas. </p>\n<p> b) Incorreta. A intrusão magmática ocorre quando o resfriamento do magma se manifesta lentamente no\r\n\t\t\t\t\tinterior da crosta, não sendo responsável por esculpir os fiordes. </p>\n<p> c) Incorreta. A erosão glacial pode erodir profundamente seus vales do que a ação pluvial ou das\r\n\t\t\t\t\tchuvas. </p>\n<p> d) Correta. Os Fiordes são vales íngremes que foram esculpidos pelas geleiras e, depois, inundados\r\n\t\t\t\t\tpelo mar quando o gelo derreteu e elevou o nível do mar. </p>\n<p> e) Incorreta. Embora a capacidade de interferência humana seja considerável no Planeta, a formação\r\n\t\t\t\t\tdos Fiordes envolve um conjunto de características ligadas a ocorrência de geleiras esculpindo\r\n\t\t\t\t\tparedes rochosas. </p>",
-    "ajuda": "Os fiordes são vales glaciais inundados pelo mar, formados pela ação de geleiras que escavaram profundamente o terreno durante períodos de glaciação. Pense em qual agente externo (glacial) é responsável por esse tipo de escultura do relevo."
+    "comentario": "<p>a) Incorreta. O tectonismo é o responsável pelos terremotos e erupções vulcânicas.</p>\n<p>b) Incorreta. A intrusão magmática ocorre quando o resfriamento do magma se manifesta lentamente no\r\n interior da crosta, não sendo responsável por esculpir os fiordes.</p>\n<p>c) Incorreta. A erosão glacial pode erodir profundamente seus vales do que a ação pluvial ou das\r\n chuvas.</p>\n<p>d) Correta. Os Fiordes são vales íngremes que foram esculpidos pelas geleiras e, depois, inundados\r\n pelo mar quando o gelo derreteu e elevou o nível do mar.</p>\n<p>e) Incorreta. Embora a capacidade de interferência humana seja considerável no Planeta, a formação\r\n dos Fiordes envolve um conjunto de características ligadas a ocorrência de geleiras esculpindo\r\n paredes rochosas.</p>",
+    "ajuda": "Os fiordes são vales glaciais inundados pelo mar, formados pela ação de geleiras que escavaram profundamente o terreno durante períodos de glaciação. Pense em qual agente externo (glacial) é responsável por esse tipo de escultura do relevo.",
+    "feedbacks": {
+      "0": "O tectonismo é um agente interno responsável por terremotos e vulcões, não pela escultura de vales costeiros. Os fiordes resultam da ação glacial, um processo externo.",
+      "1": "A intrusão magmática resfria-se no interior da crosta e não esculpe vales profundos nas costas. Os fiordes foram escavados por geleiras que depois foram inundadas pelo mar.",
+      "2": "A erosão pluvial não tem energia suficiente para escavar vales tão profundos e íngremes quanto os fiordes. Esse trabalho intenso é feito exclusivamente pelas geleiras.",
+      "4": "Os fiordes foram formados há milhares de anos pelas geleiras, muito antes de qualquer ação humana significativa. A erosão antrópica não tem escala nem força para criar essas feições."
+    }
   },
   {
     "id": 2,
@@ -41,8 +47,14 @@
       "uma falésia cristalina, devido à intensa abrasão marinha e a resistência das rochas."
     ],
     "correta": 3,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Incorreta. Cuesta é um tipo de relevo onde uma parte possui maior inclinação, isto é, bastante\r\n\t\t\t\t\tíngreme, enquanto a outra parte é suave. Ocorre em áreas de bacias sedimentares. </p>\n<p> b) Incorreta. O dobramento moderno são estruturas geológicas causadas pela ação do tectonismo e\r\n\t\t\t\t\testão relacionadas à formação de montanhas e picos com as maiores altitudes no Planeta. </p>\n<p> c) Incorreta. De modo geral a denominação de Serra envolve um conjunto de formas de relevo\r\n\t\t\t\t\tacidentadas, como um conjunto de montanhas. </p>\n<p> d) Correta. Os vales são formados por uma depressão alongada, desgastadas ao longo do tempo pela\r\n\t\t\t\t\tação das águas correntes. A sua forma tem relação direta com o clima e tipos de solos da região e\r\n\t\t\t\t\tdos agentes erosivos que nele atual, como rios ou geleiras. As formas básicas dos vales são o\r\n\t\t\t\t\tformato em U e o formado em V. </p>\n<p> e) Incorreta. A falésia é uma escarpa costeira localizada na linha de contato entre a terra e o mar.\r\n\t\t\t\t\tÉ ocasionada pela erosão da água marítima. </p>",
-    "ajuda": "As figuras representam a formação sequencial de uma feição geomorfológica. Observe a progressão das formas e identifique se o agente modelador é fluvial (rio), glacial (gelo), eólico (vento) ou marinho (ondas e marés)."
+    "comentario": "<p>a) Incorreta. Cuesta é um tipo de relevo onde uma parte possui maior inclinação, isto é, bastante\r\n íngreme, enquanto a outra parte é suave. Ocorre em áreas de bacias sedimentares.</p>\n<p>b) Incorreta. O dobramento moderno são estruturas geológicas causadas pela ação do tectonismo e\r\n estão relacionadas à formação de montanhas e picos com as maiores altitudes no Planeta.</p>\n<p>c) Incorreta. De modo geral a denominação de Serra envolve um conjunto de formas de relevo\r\n acidentadas, como um conjunto de montanhas.</p>\n<p>d) Correta. Os vales são formados por uma depressão alongada, desgastadas ao longo do tempo pela\r\n ação das águas correntes. A sua forma tem relação direta com o clima e tipos de solos da região e\r\n dos agentes erosivos que nele atual, como rios ou geleiras. As formas básicas dos vales são o\r\n formato em U e o formado em V.</p>\n<p>e) Incorreta. A falésia é uma escarpa costeira localizada na linha de contato entre a terra e o mar.\r\n É ocasionada pela erosão da água marítima.</p>",
+    "ajuda": "As figuras representam a formação sequencial de uma feição geomorfológica. Observe a progressão das formas e identifique se o agente modelador é fluvial (rio), glacial (gelo), eólico (vento) ou marinho (ondas e marés).",
+    "feedbacks": {
+      "0": "A cuesta é um relevo assimétrico típico de bacias sedimentares — diferente da formação progressiva de um vale fluvial mostrada nas figuras. São processos e resultados distintos.",
+      "1": "Dobramentos modernos resultam de forças internas (tectônicas) que comprimem as rochas em grandes escalas. As figuras mostram um processo externo e progressivo de erosão por água.",
+      "2": "Serras resultam de processos erosivos diferenciais em conjuntos de rochas resistentes, não de uma sequência de aprofundamento gradual como a das figuras.",
+      "4": "Falésias formam-se pela abrasão das ondas na linha costeira, não pela erosão fluvial progressiva mostrada na sequência. São agentes e resultados completamente diferentes."
+    }
   },
   {
     "id": 3,
@@ -63,8 +75,14 @@
       "os cânions e as morainas."
     ],
     "correta": 0,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Correta. Os deltas são formas de relevo resultado da ação do depósito sedimentar na foz dos rios,\r\n\t\t\t\t\tlembrando um leque ou a letra grega delta. Já as falésias originam-se da ação erosiva do mar através\r\n\t\t\t\t\tda abrasão das ondas nas rochas. </p>\n<p> b) Incorreta. Os fiordes são resultados da ação das geleiras, hoje encontram-se, em sua maioria,\r\n\t\t\t\t\tsubmersos. </p>\n<p> c) Incorreta. As restingas são faixas de vegetação com solos arenosos nas planícies litorâneas. Por\r\n\t\t\t\t\toutro lado, as torrentes são cursos d’água que ocorrem ocasionalmente devido à forte precipitação em\r\n\t\t\t\t\tterrenos íngremes ou de montanhas. </p>\n<p> d) Incorreta. As enxurradas são grandes quantidades de água resultado de intensa chuva e ocorre de\r\n\t\t\t\t\tforma violenta. </p>\n<p> e) Incorreta. Os cânions são formações tipo vale com paredes altas e fundo estreito. Moraina são\r\n\t\t\t\t\tsedimentos rochosos acumulados e arrastados por uma geleira ao longo de sua trajetória. </p>",
-    "ajuda": "Os agentes externos (ou exógenos) do relevo incluem chuva, vento, temperatura, organismos vivos e a gravidade. Eles atuam por meio de intemperismo (desagregação das rochas), erosão (transporte) e deposição (sedimentação). Identifique qual processo está sendo descrito."
+    "comentario": "<p>a) Correta. Os deltas são formas de relevo resultado da ação do depósito sedimentar na foz dos rios,\r\n lembrando um leque ou a letra grega delta. Já as falésias originam-se da ação erosiva do mar através\r\n da abrasão das ondas nas rochas.</p>\n<p>b) Incorreta. Os fiordes são resultados da ação das geleiras, hoje encontram-se, em sua maioria,\r\n submersos.</p>\n<p>c) Incorreta. As restingas são faixas de vegetação com solos arenosos nas planícies litorâneas. Por\r\n outro lado, as torrentes são cursos d’água que ocorrem ocasionalmente devido à forte precipitação em\r\n terrenos íngremes ou de montanhas.</p>\n<p>d) Incorreta. As enxurradas são grandes quantidades de água resultado de intensa chuva e ocorre de\r\n forma violenta.</p>\n<p>e) Incorreta. Os cânions são formações tipo vale com paredes altas e fundo estreito. Moraina são\r\n sedimentos rochosos acumulados e arrastados por uma geleira ao longo de sua trajetória.</p>",
+    "ajuda": "Os agentes externos (ou exógenos) do relevo incluem chuva, vento, temperatura, organismos vivos e a gravidade. Eles atuam por meio de intemperismo (desagregação das rochas), erosão (transporte) e deposição (sedimentação). Identifique qual processo está sendo descrito.",
+    "feedbacks": {
+      "1": "Fiordes resultam da ação glacial, não de rios. Estuários são a zona de mistura entre rio e mar — não são criados pela ação erosiva do mar sobre a rocha, como as falésias.",
+      "2": "Restingas são faixas litorâneas formadas por deposição marinha, não pela erosão do mar. Torrentes são cursos d'água ocasionais de encosta, não formas criadas pela ação dos rios.",
+      "3": "Enxurradas são fenômenos temporários de escoamento pluvial, não formas de relevo criadas pelos rios. Dunas resultam da deposição eólica (vento), não da ação do mar.",
+      "4": "Cânions são, de fato, resultado da erosão fluvial. Mas morainas são depósitos de geleiras — não têm relação com a ação do mar. A segunda metade da alternativa está errada."
+    }
   },
   {
     "id": 4,
@@ -86,8 +104,14 @@
       "As afirmativas 1, 2 e 3 são verdadeiras."
     ],
     "correta": 3,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> 1 – Incorreta. O assoreamento consiste no processo de acumulação de material detrítico causado pela\r\n\t\t\t\t\terosão, porém em baixas altitudes, quando os rios não conseguem transportar toda a carga sedimentar.\r\n\t\t\t\t\tEsses sedimentos podem ser acumulados no fundo de rios, lagos ou reservatórios. </p>\n<p> 2 – Correta. </p>\n<p> 3 – Correta. </p>",
-    "ajuda": "A geomorfologia estuda as formas do relevo e os processos que as originam. As formas são classificadas de acordo com o agente formador (fluvial, eólico, glacial, cárstico, costeiro) e pelo processo dominante (erosão ou deposição). Identifique qual conceito a questão está abordando."
+    "comentario": "<p>1 – Incorreta. O assoreamento consiste no processo de acumulação de material detrítico causado pela\r\n erosão, porém em baixas altitudes, quando os rios não conseguem transportar toda a carga sedimentar.\r\n Esses sedimentos podem ser acumulados no fundo de rios, lagos ou reservatórios.</p>\n<p>2 – Correta.</p>\n<p>3 – Correta.</p>",
+    "ajuda": "A geomorfologia estuda as formas do relevo e os processos que as originam. As formas são classificadas de acordo com o agente formador (fluvial, eólico, glacial, cárstico, costeiro) e pelo processo dominante (erosão ou deposição). Identifique qual conceito a questão está abordando.",
+    "feedbacks": {
+      "0": "A afirmativa 2 também está correta: escorregamentos e corridas de detritos em regiões serranas são processos que causam grandes danos sociais. Considerar apenas a 3 é incompleto.",
+      "1": "A afirmativa 1 está incorreta: o assoreamento ocorre em baixas altitudes (fundos de rios e lagos), não nas áreas mais elevadas. Incluir a 1 leva ao erro.",
+      "2": "A afirmativa 1 está errada — assoreamento é deposição em áreas baixas, não nos topos de morros. Além disso, a 2 está correta e foi excluída indevidamente.",
+      "4": "A afirmativa 1 está incorreta: assoreamento é o acúmulo de sedimentos em áreas baixas (leitos de rios, reservatórios), não nas zonas íngremes do relevo. Marcar todas as três é um erro."
+    }
   },
   {
     "id": 5,
@@ -110,8 +134,14 @@
       "Sedimentação fluvial."
     ],
     "correta": 0,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Correta. Fortes ventos podem remover muito material do solo ou esculpir, através da abrasão, as\r\n\t\t\t\t\trochas na paisagem. Em rochas sedimentares, mais maleáveis, o vento pode esculpir pilares suaves com\r\n\t\t\t\t\tcristas ou mesmo durante tempestades a ação do vento pode provocar granes destruição. </p>\n<p> b) Incorreta. A erosão glacial tem relação com a ação das geleiras seja nas encostas, movendo grande\r\n\t\t\t\t\tquantidade de material rochoso ou mesmo esculpindo Fiordes, vales, rios etc. </p>\n<p> c) Incorreta. O tectonismo ruptural estuda a estrutura geológica do Planeta, a dinâmica de suas\r\n\t\t\t\t\tcamadas e sua relação com o tectonismo. </p>\n<p> d) Incorreta. Neotectônica é o estudo dos eventos tectônicos mais recentes desde o Terciário\r\n\t\t\t\t\tSuperior ou que ainda ocorrem associados as últimas tensões da crosta terrestre. É um agente interno\r\n\t\t\t\t\tdo relevo. </p>\n<p> e) Incorreta. A sedimentação fluvial é representada por uma porção de terra predominante plana\r\n\t\t\t\t\tlocalizada às margens de um rio, onde ocorre inundações periódicas. </p>",
-    "ajuda": "Os processos endógenos (internos) formam estruturas como montanhas, planaltos e bacias; os exógenos (externos) esculpem e desgastam essas estruturas. Pense em quais feições visíveis na paisagem são resultado de erosão, deposição ou movimento de massa."
+    "comentario": "<p>a) Correta. Fortes ventos podem remover muito material do solo ou esculpir, através da abrasão, as\r\n rochas na paisagem. Em rochas sedimentares, mais maleáveis, o vento pode esculpir pilares suaves com\r\n cristas ou mesmo durante tempestades a ação do vento pode provocar granes destruição.</p>\n<p>b) Incorreta. A erosão glacial tem relação com a ação das geleiras seja nas encostas, movendo grande\r\n quantidade de material rochoso ou mesmo esculpindo Fiordes, vales, rios etc.</p>\n<p>c) Incorreta. O tectonismo ruptural estuda a estrutura geológica do Planeta, a dinâmica de suas\r\n camadas e sua relação com o tectonismo.</p>\n<p>d) Incorreta. Neotectônica é o estudo dos eventos tectônicos mais recentes desde o Terciário\r\n Superior ou que ainda ocorrem associados as últimas tensões da crosta terrestre. É um agente interno\r\n do relevo.</p>\n<p>e) Incorreta. A sedimentação fluvial é representada por uma porção de terra predominante plana\r\n localizada às margens de um rio, onde ocorre inundações periódicas.</p>",
+    "ajuda": "Os processos endógenos (internos) formam estruturas como montanhas, planaltos e bacias; os exógenos (externos) esculpem e desgastam essas estruturas. Pense em quais feições visíveis na paisagem são resultado de erosão, deposição ou movimento de massa.",
+    "feedbacks": {
+      "1": "A erosão glacial atua onde há geleiras — em altas latitudes ou altitudes elevadas. As feições esculpidas na foto (pilares, formas arredondadas em rocha) são marcas típicas da ação eólica.",
+      "2": "O tectonismo ruptural é um agente interno que provoca falhas e fraturas nas rochas — não é responsável pelo desgaste superficial e pela escultura de formas arredondadas visíveis na foto.",
+      "3": "A neotectônica estuda tensões recentes da crosta terrestre, sendo um agente interno. Não explica o desgaste e a escultura externa das rochas observada na paisagem da foto.",
+      "4": "A sedimentação fluvial deposita material em planícies e deltas. Não esculpe pilares ou formas em rocha como as que aparecem na paisagem visualizada."
+    }
   },
   {
     "id": 6,
@@ -133,8 +163,14 @@
       "Estão corretas as alternativas I, II e IV."
     ],
     "correta": 3,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> I – Correta. </p>\n<p> II – Correta. </p>\n<p> III – Correta. </p>\n<p> IV – Correta. </p>\n<p> V – Correta. </p>",
-    "ajuda": "Em regiões tropicais úmidas com encostas íngremes, os movimentos de massa (deslizamentos, escorregamentos) são favorecidos pela combinação de chuvas intensas, solo saturado e declividade acentuada. Pense em qual fator mais contribui para desencadear esses eventos."
+    "comentario": "<p>I – Correta.</p>\n<p>II – Correta.</p>\n<p>III – Correta.</p>\n<p>IV – Correta.</p>\n<p>V – Correta.</p>",
+    "ajuda": "Em regiões tropicais úmidas com encostas íngremes, os movimentos de massa (deslizamentos, escorregamentos) são favorecidos pela combinação de chuvas intensas, solo saturado e declividade acentuada. Pense em qual fator mais contribui para desencadear esses eventos.",
+    "feedbacks": {
+      "0": "A II e a IV também estão corretas. A II descreve os movimentos de massa como processos naturais de modelagem do relevo, e a IV define corretamente os critérios de classificação desses movimentos.",
+      "1": "A I também está correta: topografia, regime de chuvas, espessura do manto de alteração e retirada da vegetação são fatores reais e reconhecidos que influenciam os movimentos de massa.",
+      "2": "Além da I, as afirmativas II, III, IV e V também estão corretas. A questão apresenta um conjunto de afirmativas todas verdadeiras sobre a dinâmica dos movimentos de massa.",
+      "4": "A III e a V também estão corretas. A III descreve a ocupação de encostas por populações de baixa renda — realidade amplamente documentada nas grandes cidades brasileiras."
+    }
   },
   {
     "id": 7,
@@ -156,8 +192,14 @@
       "Paisagem desértica; sedimentação; dunas."
     ],
     "correta": 0,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Correta. Na imagem observa-se um lago, isto é, uma acumulação de água em um terreno com depressão\r\n\t\t\t\t\t(afundado). A sedimentação ocorre quando o curso d’água transporte seu material erodido para áreas\r\n\t\t\t\t\tmais baixas e os deposita no fundo dos rios, lagos ou deltas, dentre outros. </p>\n<p> b) Incorreta. A paisagem pode ocorrer em água doce, não somente marinha. O assoreamento é o acúmulo\r\n\t\t\t\t\tde sedimentos no leito dos rios. Não há falésias na figura, ou seja, grandes paredões esculpidos no\r\n\t\t\t\t\tlitoral pela ação da água do mar. </p>\n<p> c) Incorreta. A abrasão ocorre quando o vento é o agente de erosão principal nas rochas. O terraço\r\n\t\t\t\t\tsão áreas de planície antiga quando o rio estava esculpindo seu leito e acumularam sedimentos ao\r\n\t\t\t\t\tlongo do tempo, deixando uma área mais alta em volta dos rios. </p>\n<p> d) Incorreta. Não se trata de uma área de acúmulo de águas da chuva (pluvial) e não ocorre\r\n\t\t\t\t\tdesmatamento, mas sim o crescimento da área verde em detrimento do lago. </p>\n<p> e) Incorreta. Não se trata de uma paisagem desértica, mas sim de um lago desaparecendo devido a ação\r\n\t\t\t\t\tde agentes externo do relevo. </p>",
-    "ajuda": "A figura mostra a evolução de uma forma de relevo associada à ação fluvial. Observe os estágios: um meandro se desenvolve gradualmente a partir de uma curva no rio até formar um lago em formato de ferradura (oxbow lake). Identifique a etapa representada."
+    "comentario": "<p>a) Correta. Na imagem observa-se um lago, isto é, uma acumulação de água em um terreno com depressão\r\n (afundado). A sedimentação ocorre quando o curso d’água transporte seu material erodido para áreas\r\n mais baixas e os deposita no fundo dos rios, lagos ou deltas, dentre outros.</p>\n<p>b) Incorreta. A paisagem pode ocorrer em água doce, não somente marinha. O assoreamento é o acúmulo\r\n de sedimentos no leito dos rios. Não há falésias na figura, ou seja, grandes paredões esculpidos no\r\n litoral pela ação da água do mar.</p>\n<p>c) Incorreta. A abrasão ocorre quando o vento é o agente de erosão principal nas rochas. O terraço\r\n são áreas de planície antiga quando o rio estava esculpindo seu leito e acumularam sedimentos ao\r\n longo do tempo, deixando uma área mais alta em volta dos rios.</p>\n<p>d) Incorreta. Não se trata de uma área de acúmulo de águas da chuva (pluvial) e não ocorre\r\n desmatamento, mas sim o crescimento da área verde em detrimento do lago.</p>\n<p>e) Incorreta. Não se trata de uma paisagem desértica, mas sim de um lago desaparecendo devido a ação\r\n de agentes externo do relevo.</p>",
+    "ajuda": "A figura mostra a evolução de uma forma de relevo associada à ação fluvial. Observe os estágios: um meandro se desenvolve gradualmente a partir de uma curva no rio até formar um lago em formato de ferradura (oxbow lake). Identifique a etapa representada.",
+    "feedbacks": {
+      "1": "A figura mostra um lago em processo de desaparecimento por sedimentação (paisagem lacustre), não uma costa marinha. O resultado final é o desaparecimento do lago, não a formação de falésia.",
+      "2": "Abrasão é o desgaste por vento ou ondas do mar nas rochas — não ocorre em lago. A figura mostra sedimentação lacustre, e o resultado é o desaparecimento do lago, não a formação de terraço.",
+      "3": "O processo mostrado é natural (sedimentação), não causado por desmatamento. O resultado final é o desaparecimento do lago pelo acúmulo progressivo de sedimentos, não revegetação.",
+      "4": "A figura não mostra uma paisagem desértica, mas um lago em processo de colmatação (preenchimento por sedimentos). Dunas são formas eólicas de regiões áridas, incompatíveis com o que a figura representa."
+    }
   },
   {
     "id": 8,
@@ -178,8 +220,14 @@
       "O vulcanismo é um dos principais meios de construção do relevo terrestre, responsável por um grande número de ilhas no chamado \"círculo de fogo\"."
     ],
     "correta": 0,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Correta. A erosão possui uma ação superficial de remoção do material quebrado pelo intemperismo\r\n\t\t\t\t\tpor meio de agentes externos do relevo. </p>\n<p> b) Incorreta. O tectonismo é um agente interno que contribui para a formação do relevo. </p>\n<p> c) Incorreta. O intemperismo químico produz a dissolução química das dos minerais do qual as rochas\r\n\t\t\t\t\tsão formadas. </p>\n<p> d) Incorreta. O vento tem dificuldade em coletar partículas húmidas, logo as regiões desérticas\r\n\t\t\t\t\tsofrem mais esse tipo de ação erosiva do que as regiões tropicais. </p>\n<p> e) Incorreta. O Vulcanismo também é um agente interno do relevo e não externo como pede a questão.\r\n\t\t\t\t</p>",
-    "ajuda": "Os agentes externos modelam o relevo por meio de três processos sequenciais: intemperismo (desagregação in loco), erosão (remoção e transporte dos fragmentos) e sedimentação (deposição). Pense em como cada agente (rio, vento, gelo, mar) realiza esses processos."
+    "comentario": "<p>a) Correta. A erosão possui uma ação superficial de remoção do material quebrado pelo intemperismo\r\n por meio de agentes externos do relevo.</p>\n<p>b) Incorreta. O tectonismo é um agente interno que contribui para a formação do relevo.</p>\n<p>c) Incorreta. O intemperismo químico produz a dissolução química das dos minerais do qual as rochas\r\n são formadas.</p>\n<p>d) Incorreta. O vento tem dificuldade em coletar partículas húmidas, logo as regiões desérticas\r\n sofrem mais esse tipo de ação erosiva do que as regiões tropicais.</p>\n<p>e) Incorreta. O Vulcanismo também é um agente interno do relevo e não externo como pede a questão.</p>",
+    "ajuda": "Os agentes externos modelam o relevo por meio de três processos sequenciais: intemperismo (desagregação in loco), erosão (remoção e transporte dos fragmentos) e sedimentação (deposição). Pense em como cada agente (rio, vento, gelo, mar) realiza esses processos.",
+    "feedbacks": {
+      "1": "O tectonismo é um agente interno do relevo (falhamentos, dobramentos, sismos). A questão pede sobre agentes externos — o tectonismo não se enquadra nessa categoria.",
+      "2": "Essa alternativa confunde os tipos de intemperismo: a desintegração mecânica das rochas é característica do intemperismo físico, não do químico. O intemperismo químico dissolve e altera a composição dos minerais.",
+      "3": "O vento é mais erosivo em regiões áridas e semiáridas, onde o solo está seco e exposto. Em regiões tropicais úmidas, a vegetação e a umidade reduzem consideravelmente a ação eólica.",
+      "4": "O vulcanismo é um agente interno do relevo, não externo. A questão pede sobre agentes externos — o vulcanismo não pertence a essa categoria, independentemente de suas consequências na superfície."
+    }
   },
   {
     "id": 9,
@@ -202,8 +250,14 @@
       "Ação eólica, formação de cavernas e soerguimento de cadeias montanhosas."
     ],
     "correta": 0,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p>a) Correta. A ação eólica é um processo contínuo que pode causar mudanças rápidas na superfície\r\n\t\t\t\t\tterrestre, especialmente em áreas de desertos e regiões áridas. As erupções vulcânicas são eventos\r\n\t\t\t\t\tque podem ocorrer de forma rápida como também intermediária ao longo do tempo e causar mudanças\r\n\t\t\t\t\tsignificativas na paisagem. O soerguimento de cadeias montanhosas é um processo lento que ocorre ao\r\n\t\t\t\t\tlongo de milhões de anos. Portanto, os números 1, 2 e 3 correspondem, respectivamente, à ação\r\n\t\t\t\t\teólica, erupções vulcânicas e soerguimento de cadeias montanhosas, como indicado no enunciado.</p>\n<p>b) Incorreta. Depósitos minerais não podem mudar rapidamente a superfície terrestre. Abalos sísmicos\r\n\t\t\t\t\ttambém podem causar mudanças rápidas, mas não são representados na sequência de números indicada.\r\n\t\t\t\t\tErupções vulcânicas correspondem ao número 2, do gráfico.</p>\n<p>c) Incorreta. A formação de cavernas é um processo que geralmente ocorre ao longo de períodos muito\r\n\t\t\t\t\tlongos. A ação eólica e o soerguimento de cadeias montanhosas estão corretamente associados aos\r\n\t\t\t\t\tnúmeros 1 e 3, respectivamente.</p>\n<p>d) Incorreta. Erupções vulcânicas estão corretamente associadas ao número 1, abalos sísmicos\r\n\t\t\t\t\tcorresponderiam ao número 2. Além disso, depósitos minerais possuem processo de formação lento.</p>\n<p>e) Incorreta. A formação de cavernas e o soerguimento de cadeias montanhosas estão corretamente\r\n\t\t\t\t\tassociados aos números 1 e 3, respectivamente.</p>",
-    "ajuda": "A frequência e a magnitude dos processos naturais determinam a velocidade de mudança do relevo. Processos lentos (intemperismo) atuam continuamente; processos episódicos (terremotos, vulcões) causam mudanças rápidas e intensas. Identifique qual tipo de processo está sendo analisado."
+    "comentario": "<p>a) Correta. A ação eólica é um processo contínuo que pode causar mudanças rápidas na superfície\r\n terrestre, especialmente em áreas de desertos e regiões áridas. As erupções vulcânicas são eventos\r\n que podem ocorrer de forma rápida como também intermediária ao longo do tempo e causar mudanças\r\n significativas na paisagem. O soerguimento de cadeias montanhosas é um processo lento que ocorre ao\r\n longo de milhões de anos. Portanto, os números 1, 2 e 3 correspondem, respectivamente, à ação\r\n eólica, erupções vulcânicas e soerguimento de cadeias montanhosas, como indicado no enunciado.</p>\n<p>b) Incorreta. Depósitos minerais não podem mudar rapidamente a superfície terrestre. Abalos sísmicos\r\n também podem causar mudanças rápidas, mas não são representados na sequência de números indicada.\r\n Erupções vulcânicas correspondem ao número 2, do gráfico.</p>\n<p>c) Incorreta. A formação de cavernas é um processo que geralmente ocorre ao longo de períodos muito\r\n longos. A ação eólica e o soerguimento de cadeias montanhosas estão corretamente associados aos\r\n números 1 e 3, respectivamente.</p>\n<p>d) Incorreta. Erupções vulcânicas estão corretamente associadas ao número 1, abalos sísmicos\r\n corresponderiam ao número 2. Além disso, depósitos minerais possuem processo de formação lento.</p>\n<p>e) Incorreta. A formação de cavernas e o soerguimento de cadeias montanhosas estão corretamente\r\n associados aos números 1 e 3, respectivamente.</p>",
+    "ajuda": "A frequência e a magnitude dos processos naturais determinam a velocidade de mudança do relevo. Processos lentos (intemperismo) atuam continuamente; processos episódicos (terremotos, vulcões) causam mudanças rápidas e intensas. Identifique qual tipo de processo está sendo analisado.",
+    "feedbacks": {
+      "1": "Depósitos minerais formam-se ao longo de eras geológicas e não mudam rapidamente a superfície, sendo incompatíveis com a posição 1 do gráfico. Além disso, abalos sísmicos e erupções estão em posições trocadas.",
+      "2": "A formação de cavernas é um processo muito lento de dissolução química ao longo de milênios — incompatível com a alta frequência e rapidez do processo indicado pelo número 1 no gráfico.",
+      "3": "As erupções vulcânicas correspondem ao número 2 (magnitude alta, frequência intermediária), não ao 1. Depósitos minerais também têm formação lenta demais para ocupar a posição 3.",
+      "4": "A formação de cavernas é um processo lento de dissolução, incompatível com a posição 2 do gráfico (que exige maior impacto e frequência, como as erupções vulcânicas)."
+    }
   },
   {
     "id": 10,
@@ -224,7 +278,12 @@
       "intemperismo."
     ],
     "correta": 1,
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> a) Incorreta. Embora o intemperismo químico possa colaborar na dissolução das rochas, na imagem\r\n\t\t\t\t\tapresentada o fator principal causador da desintegração da rocha são as raízes da árvore. </p>\n<p> b) Correta. O intemperismo pode ser causado por atividades biológicas como raízes de plantas que\r\n\t\t\t\t\tampliam as fraturas das rochas, ou animais de vários tamanhos que procuram abrigo e comida no\r\n\t\t\t\t\tinterior dessas fraturas, além de líquens que produzem ácidos que potencializam a desintegração e\r\n\t\t\t\t\tdissolução dos minerais. </p>\n<p> c) Incorreta. O intemperismo físico está ligado as variações de temperatura que ocasionam dilatações\r\n\t\t\t\t\te contrações nas rochas; ou mesmo a ação do gelo durante sua cristalização e aumento de volume\r\n\t\t\t\t\tcausando fissuras de rochas e de seus minerais. </p>\n<p> d) Incorreta. Não foi o intemperismo geral, mas sim um intemperismo particular ligado a agentes\r\n\t\t\t\t\tbiológicos. </p>",
-    "ajuda": "O intemperismo mecânico (físico) fragmenta as rochas sem alterar sua composição química, enquanto o intemperismo químico decompõe os minerais e altera a composição da rocha. Exemplos: variação de temperatura (mecânico), ação de raízes de plantas (mecânico e químico), chuva ácida (químico)."
+    "comentario": "<p>a) Incorreta. Embora o intemperismo químico possa colaborar na dissolução das rochas, na imagem\r\n apresentada o fator principal causador da desintegração da rocha são as raízes da árvore.</p>\n<p>b) Correta. O intemperismo pode ser causado por atividades biológicas como raízes de plantas que\r\n ampliam as fraturas das rochas, ou animais de vários tamanhos que procuram abrigo e comida no\r\n interior dessas fraturas, além de líquens que produzem ácidos que potencializam a desintegração e\r\n dissolução dos minerais.</p>\n<p>c) Incorreta. O intemperismo físico está ligado as variações de temperatura que ocasionam dilatações\r\n e contrações nas rochas; ou mesmo a ação do gelo durante sua cristalização e aumento de volume\r\n causando fissuras de rochas e de seus minerais.</p>\n<p>d) Incorreta. Não foi o intemperismo geral, mas sim um intemperismo particular ligado a agentes\r\n biológicos.</p>",
+    "ajuda": "O intemperismo mecânico (físico) fragmenta as rochas sem alterar sua composição química, enquanto o intemperismo químico decompõe os minerais e altera a composição da rocha. Exemplos: variação de temperatura (mecânico), ação de raízes de plantas (mecânico e químico), chuva ácida (químico).",
+    "feedbacks": {
+      "0": "O intemperismo químico altera a composição dos minerais pela ação de água e reações químicas. O enunciado descreve raízes, roedores e organismos — isso é ação biológica, não química.",
+      "2": "O intemperismo físico fragmenta rochas por variação de temperatura, pressão ou gelo. A ação de raízes, algas e bactérias descrita no enunciado é de natureza biológica, não mecânica.",
+      "3": "A resposta genérica 'intemperismo' não identifica o agente específico. O enunciado descreve claramente a ação de organismos vivos (raízes, roedores, bactérias), o que define o tipo biológico."
+    }
   }
 ]

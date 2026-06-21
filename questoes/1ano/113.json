@@ -9,19 +9,25 @@
       "rochas",
       "minerais"
     ],
-    "texto_apoio": "Rocha é um agregado natural, formada por um ou mais minerais, ou ainda mineraloides — vidro vulcânico e matéria orgânica -, constituindo a parte essencial da crosta terrestre. Elas podem ser classificadas de acordo com sua composição química, sua forma estrutural, ou sua textura, porém a sua classificação mais utilizada se refere aos processos de sua formação. Pelas suas origens-formação, as rochas são classificadas como ígneas ou magmáticas, sedimentares e metamórficas. As rochas magmáticas foram formadas de magma, dentro da crosta, por resfriamento lento ou fora dela, resfriando rapidamente; as sedimentares, pela deposição de sedimentos e, posterior compressão destes, e as rochas metamórficas por qualquer uma das primeiras duas categorias e, posteriormente, modificadas pelos efeitos de temperatura e de pressão. Essas formações são de grande utilidade para o ser humano e, atualmente, as rochas são utilizadas na construção civil de diversas formas. Elas são retiradas da natureza em estado bruto e, em seguida, são modeladas de acordo com a finalidade de uso.",
+    "texto_apoio": "Rocha é um agregado natural, formada por um ou mais minerais, ou ainda mineraloides — vidro vulcânico e matéria orgânica -, constituindo a parte essencial da crosta terrestre. Elas podem ser classificadas de acordo com sua composição química, sua forma estrutural, ou sua textura, porém a sua classificação mais utilizada se refere aos processos de sua formação. Pelas suas origens-formação, as rochas são classificadas como ígneas ou magmáticas, sedimentares e metamórficas. As rochas magmáticas foram formadas de magma, dentro da crosta, por resfriamento lento ou fora dela, resfriando rapidamente; as sedimentares, pela deposição de sedimentos e, posterior compressão destes, e as rochas metamórficas por qualquer uma das primeiras duas categorias e, posteriormente, modificadas pelos efeitos de temperatura e de pressão. \n\nEssas formações são de grande utilidade para o ser humano e, atualmente, as rochas são utilizadas na construção civil de diversas formas. Elas são retiradas da natureza em estado bruto e, em seguida, são modeladas de acordo com a finalidade de uso.",
     "fonte_apoio": "Fonte: http://www.cprm.gov.br",
     "pergunta": "Leia o texto a seguir para responder à questão\n\nSão exemplos de rochas magmáticas e metamórficas e suas utilidades, respectivamente",
     "alternativas": [
-      "Letra A.",
-      "Letra B.",
-      "Letra C.",
-      "Letra D.",
-      "Letra E."
+      "Magmática - Arenito; Utilidade - Construção de estradas; Metamórfica - Granito; Utilidade - Ornamentação.",
+      "Magmática - Diabásio; Utilidade - Vidro; Metamórfica - Calcário; Utilidade - Cimento.",
+      "Magmática - Gnaisse; Utilidade - Gesso; Metamórfica - Carvão Mineral; Utilidade - Ímã.",
+      "Magmática - Quartzito; Utilidade - Paredes; Metamórfica - Calcita; Utilidade - Cal.",
+      "Magmática - Basalto; Utilidade - Brita; Metamórfica - Mármore; Utilidade - Construção Civil."
     ],
-    "correta": 0,
-    "comentario": "As rochas magmáticas (ou ígneas) formam-se pelo resfriamento e solidificação do magma. O granito (intrusivo/plutônico) resfria lentamente no interior da crosta, formando cristais grandes. O basalto (extrusivo/vulcânico) resfria rapidamente na superfície, com cristais pequenos. O mármore é metamórfico (calcário transformado pelo calor/pressão) e o calcário é sedimentar.",
-    "ajuda": "As rochas se dividem em três grupos: magmáticas (formadas pelo resfriamento do magma), sedimentares (formadas pelo acúmulo e compactação de sedimentos) e metamórficas (formadas pela transformação de outras rochas por calor e pressão). Associe cada exemplo ao seu grupo."
+    "correta": 4,
+    "comentario": "<p>As rochas magmáticas (ou ígneas) formam-se pelo resfriamento e solidificação do magma. O granito (intrusivo/plutônico) resfria lentamente no interior da crosta, formando cristais grandes. O basalto (extrusivo/vulcânico) resfria rapidamente na superfície, com cristais pequenos. O mármore é metamórfico (calcário transformado pelo calor/pressão) e o calcário é sedimentar.</p>",
+    "ajuda": "As rochas se dividem em três grupos: magmáticas (formadas pelo resfriamento do magma), sedimentares (formadas pelo acúmulo e compactação de sedimentos) e metamórficas (formadas pela transformação de outras rochas por calor e pressão). Associe cada exemplo ao seu grupo.",
+    "feedbacks": {
+      "0": "Arenito é rocha sedimentar (não magmática) e granito é magmático intrusivo (não metamórfico). Essa alternativa inverte a classificação dos dois exemplos.",
+      "1": "Calcário é rocha sedimentar, não metamórfica. Diabásio é magmático, mas vidro vem do quartzo/areia — a utilidade atribuída ao diabásio também está errada.",
+      "2": "Gnaisse é rocha metamórfica, não magmática. Carvão mineral é rocha sedimentar orgânica, não metamórfica. Essa alternativa erra a classificação dos dois exemplos.",
+      "3": "Quartzito é rocha metamórfica (não magmática) e calcita é um mineral, não uma rocha metamórfica. A alternativa confunde mineral com rocha e inverte os grupos."
+    }
   },
   {
     "id": 2,
@@ -43,8 +49,14 @@
       "II, III e IV."
     ],
     "correta": 3,
-    "comentario": "O ciclo das rochas descreve as transformações entre os três tipos: magmáticas → metamórficas (calor e pressão) → sedimentares (erosão, transporte e deposição) → podem fundir-se e retornar ao magma. Fósseis são encontrados apenas em rochas sedimentares, pois esse é o único ambiente com condições de preservar restos orgânicos ao longo do tempo.",
-    "ajuda": "O ciclo das rochas é um processo contínuo em que os três tipos de rocha se transformam uns nos outros sob influência de calor, pressão, erosão e sedimentação. Identifique os processos que transformam cada tipo em outro e a sequência mostrada no infográfico."
+    "comentario": "<p>O ciclo das rochas descreve as transformações entre os três tipos: magmáticas → metamórficas (calor e pressão) → sedimentares (erosão, transporte e deposição) → podem fundir-se e retornar ao magma. Fósseis são encontrados apenas em rochas sedimentares, pois esse é o único ambiente com condições de preservar restos orgânicos ao longo do tempo.</p>",
+    "ajuda": "O ciclo das rochas é um processo contínuo em que os três tipos de rocha se transformam uns nos outros sob influência de calor, pressão, erosão e sedimentação. Identifique os processos que transformam cada tipo em outro e a sequência mostrada no infográfico.",
+    "feedbacks": {
+      "0": "A II também está correta: diagênese é exatamente o conjunto de processos que consolidam sedimentos inconsolidados em rocha sedimentar. Excluir a II deixa a resposta incompleta.",
+      "1": "A III está incorreta: arenito é rocha sedimentar e granito é magmático intrusivo — nenhum dos dois é metamórfico. A I e a II, que foram excluídas, estão corretas.",
+      "2": "A III está incorreta: arenito é sedimentar e granito é magmático. Incluir a III invalida a combinação. Além disso, a IV — que está correta — foi excluída indevidamente.",
+      "4": "A III está incorreta: arenito é sedimentar (não metamórfico) e granito é magmático. A I, que está correta sobre rochas plutônicas, foi excluída sem razão."
+    }
   },
   {
     "id": 3,
@@ -66,8 +78,14 @@
       "ígneas, metamórficas e sedimentares."
     ],
     "correta": 4,
-    "comentario": "As rochas são classificadas em três grupos: magmáticas (origem no resfriamento do magma), metamórficas (rochas pré-existentes transformadas por calor e/ou pressão) e sedimentares (formadas pelo acúmulo e litificação de sedimentos). Cada grupo tem importância econômica distinta: granito (construção), calcário (cimento), carvão e petróleo (energia — sedimentares).",
-    "ajuda": "Para classificar as rochas corretamente, lembre-se: magmáticas intrusivas (granito) resfriaram lentamente no interior; magmáticas extrusivas (basalto) resfriaram rapidamente na superfície; metamórficas (mármore, quartzito) foram transformadas por pressão e calor; sedimentares (calcário, arenito) são formadas por sedimentos."
+    "comentario": "<p>As rochas são classificadas em três grupos: magmáticas (origem no resfriamento do magma), metamórficas (rochas pré-existentes transformadas por calor e/ou pressão) e sedimentares (formadas pelo acúmulo e litificação de sedimentos). Cada grupo tem importância econômica distinta: granito (construção), calcário (cimento), carvão e petróleo (energia — sedimentares).</p>",
+    "ajuda": "Para classificar as rochas corretamente, lembre-se: magmáticas intrusivas (granito) resfriaram lentamente no interior; magmáticas extrusivas (basalto) resfriaram rapidamente na superfície; metamórficas (mármore, quartzito) foram transformadas por pressão e calor; sedimentares (calcário, arenito) são formadas por sedimentos.",
+    "feedbacks": {
+      "0": "Estalactites e estalagmites são formações de calcário em cavernas, não tipos de rocha. A questão pede os três grandes grupos de rochas conforme a origem, não formações geológicas específicas.",
+      "1": "Minerais são os constituintes das rochas, não um grupo de rochas. O grupo I (resfriamento do magma) define as rochas magmáticas ou ígneas — não os minerais em geral.",
+      "2": "O grupo II descreve transformação por calor e pressão — isso define as metamórficas, não as sedimentares. A ordem para II e III está trocada nessa alternativa.",
+      "3": "Ígneas e magmáticas são sinônimos — a alternativa repete o mesmo grupo para I e II, quando II descreve claramente metamórficas (transformação por calor e pressão). O grupo III (sedimentos em camadas) é sedimentar, não 'minerais'."
+    }
   },
   {
     "id": 4,
@@ -87,12 +105,18 @@
       "metamórficas, sedimentares e ígneas.",
       "metamórficas, ígneas e sedimentares.",
       "sedimentares, metamórficas e ígneas.",
-      "sedimentares, metamórficas e ígneas.",
+      "sedimentares, ígneas e metamórficas.",
       "ígneas, sedimentares e metamórficas."
     ],
     "correta": 2,
-    "comentario": "As rochas sedimentares formam-se pelo acúmulo, compactação e cimentação de sedimentos (fragmentos de outras rochas, restos orgânicos, minerais precipitados). O processo é chamado litificação. As bacias sedimentares são as principais reservas de petróleo, gás natural e carvão mineral do planeta — recursos de origem orgânica fossilizada.",
-    "ajuda": "O ciclo das rochas descreve como os três tipos se inter-transformam: rochas magmáticas podem se fragmentar e dar origem a sedimentares; estas, sob pressão e calor, tornam-se metamórficas; estas, ao fundir, geram novo magma. Identifique em qual estágio do ciclo a questão se situa."
+    "comentario": "<p>As rochas sedimentares formam-se pelo acúmulo, compactação e cimentação de sedimentos (fragmentos de outras rochas, restos orgânicos, minerais precipitados). O processo é chamado litificação. As bacias sedimentares são as principais reservas de petróleo, gás natural e carvão mineral do planeta — recursos de origem orgânica fossilizada.</p>",
+    "ajuda": "O ciclo das rochas descreve como os três tipos se inter-transformam: rochas magmáticas podem se fragmentar e dar origem a sedimentares; estas, sob pressão e calor, tornam-se metamórficas; estas, ao fundir, geram novo magma. Identifique em qual estágio do ciclo a questão se situa.",
+    "feedbacks": {
+      "0": "No ciclo, X forma-se por deposição/sedimentação (sedimentares), Y por calor e pressão (metamórficas) e Z pelo resfriamento do magma (ígneas). Essa alternativa troca as posições de X e Y.",
+      "1": "X no ciclo indica sedimentares (formadas por deposição), não metamórficas. Metamórficas resultam da transformação por calor e pressão de rochas preexistentes — elas ocupam outro ponto do ciclo.",
+      "3": "Essa alternativa é idêntica à correta (sedimentares, metamórficas e ígneas) — possível erro de digitação na questão. Se você viu uma diferença na imagem original, reavalie com base nos processos do ciclo.",
+      "4": "A posição Y corresponde a metamórficas (calor e pressão), não a sedimentares. A posição Z corresponde a ígneas (magma), não a metamórficas — essa alternativa troca Y e Z entre si."
+    }
   },
   {
     "id": 5,
@@ -114,8 +138,14 @@
       "metamórficas, pois os animais representados precisavam estar perto de locais quentes."
     ],
     "correta": 1,
-    "comentario": "Fósseis são preservados principalmente em rochas sedimentares porque a deposição gradual de sedimentos pode soterrar e conservar restos de organismos. Os dinossauros do Período Jurássico (201-145 Ma) viveram em ambientes onde seus restos foram cobertos por sedimentos fluviais ou lacustres, que posteriormente litificaram. Rochas magmáticas e metamórficas destroem os fósseis.",
-    "ajuda": "Os fósseis geralmente são encontrados em rochas sedimentares, pois os restos de organismos são soterrados e preservados por sedimentos ao longo do tempo. A questão envolve identificar o tipo de rocha que contém os fósseis descritos e o período geológico ao qual pertencem."
+    "comentario": "<p>Fósseis são preservados principalmente em rochas sedimentares porque a deposição gradual de sedimentos pode soterrar e conservar restos de organismos. Os dinossauros do Período Jurássico (201-145 Ma) viveram em ambientes onde seus restos foram cobertos por sedimentos fluviais ou lacustres, que posteriormente litificaram. Rochas magmáticas e metamórficas destroem os fósseis.</p>",
+    "ajuda": "Os fósseis geralmente são encontrados em rochas sedimentares, pois os restos de organismos são soterrados e preservados por sedimentos ao longo do tempo. A questão envolve identificar o tipo de rocha que contém os fósseis descritos e o período geológico ao qual pertencem.",
+    "feedbacks": {
+      "0": "Mesmo que vulcões tenham causado extinções, fósseis não se formam em rochas magmáticas: o calor extremo do magma destrói qualquer resto orgânico. A preservação de fósseis exige soterramento gradual por sedimentos.",
+      "2": "Rochas magmáticas como o granito e o basalto são altamente resistentes — não são facilmente erodidas. E fósseis não se formam nelas: o magma incinera qualquer vestígio orgânico durante a solidificação.",
+      "3": "As camadas sedimentares representam eventos de deposição (acúmulo de sedimentos), não de erosão. A alternativa confunde erosão com sedimentação — processos opostos na dinâmica do relevo.",
+      "4": "Os animais não vivem dentro de rochas, e o argumento sobre 'locais quentes' não tem fundamento. As altas temperaturas e pressões que formam metamórficas destruiriam qualquer fóssil, não o conservariam."
+    }
   },
   {
     "id": 6,
@@ -135,8 +165,13 @@
       "Os movimentos tectônicos verticais são chamados de orogênese, tendo sido as grandes cordilheiras atuais formadas por esses movimentos."
     ],
     "correta": 3,
-    "comentario": "Os processos endógenos que constroem o relevo incluem: a orogênese (formação de montanhas por dobramento e falhamento de rochas em zonas de convergência de placas) e o vulcanismo. Os Andes, Himalaia e Alpes são exemplos de cadeias formadas por orogênese. Já o movimento epirogênico provoca soerguimento ou rebaixamento de grandes blocos continentais.",
-    "ajuda": "O relevo é modelado por forças endógenas (internas: vulcanismo, tectonismo) e exógenas (externas: erosão, intemperismo). As estruturas rochosas influenciam diretamente a forma do relevo: rochas mais resistentes formam planaltos e serras; menos resistentes originam planícies e depressões."
+    "comentario": "<p>Os processos endógenos que constroem o relevo incluem: a orogênese (formação de montanhas por dobramento e falhamento de rochas em zonas de convergência de placas) e o vulcanismo. Os Andes, Himalaia e Alpes são exemplos de cadeias formadas por orogênese. Já o movimento epirogênico provoca soerguimento ou rebaixamento de grandes blocos continentais.</p>",
+    "ajuda": "O relevo é modelado por forças endógenas (internas: vulcanismo, tectonismo) e exógenas (externas: erosão, intemperismo). As estruturas rochosas influenciam diretamente a forma do relevo: rochas mais resistentes formam planaltos e serras; menos resistentes originam planícies e depressões.",
+    "feedbacks": {
+      "0": "A questão pede a INCORRETA, e esta está correta: intemperismo engloba de fato processos físicos, químicos e biológicos que desintegram e decompõem as rochas na superfície. Portanto, não é a resposta.",
+      "1": "A questão pede a INCORRETA, e esta está correta: temperatura, chuva e vento influenciam fortemente o intemperismo e geram o manto de alteração sobre as rochas. Portanto, não é a resposta.",
+      "2": "A questão pede a INCORRETA, e esta está correta: as bacias sedimentares recebem de fato os sedimentos produzidos pelo intemperismo e transportados pela erosão. Portanto, não é a resposta."
+    }
   },
   {
     "id": 7,
@@ -156,8 +191,13 @@
       "As rochas extrusivas são formadas quando o magma se resfria e se solidifica no interior da crosta terrestre, dando origem a rochas como o basalto e o arenito."
     ],
     "correta": 0,
-    "comentario": "As rochas magmáticas dividem-se em intrusivas (plutônicas), que resfriaram lentamente no interior da crosta (granito, gabro — cristais grosseiros) e extrusivas (vulcânicas), que resfriaram rapidamente na superfície (basalto, riolito — cristais finos ou vítreos). O granito é a rocha mais abundante na crosta continental.",
-    "ajuda": "A crosta terrestre é composta pelos três grupos de rochas. As sedimentares cobrem cerca de 75% da superfície emersa, mas representam apenas 5% do volume total da crosta. O granito (magmático intrusivo) é o tipo mais abundante em volume na crosta continental."
+    "comentario": "<p>As rochas magmáticas dividem-se em intrusivas (plutônicas), que resfriaram lentamente no interior da crosta (granito, gabro — cristais grosseiros) e extrusivas (vulcânicas), que resfriaram rapidamente na superfície (basalto, riolito — cristais finos ou vítreos). O granito é a rocha mais abundante na crosta continental.</p>",
+    "ajuda": "A crosta terrestre é composta pelos três grupos de rochas. As sedimentares cobrem cerca de 75% da superfície emersa, mas representam apenas 5% do volume total da crosta. O granito (magmático intrusivo) é o tipo mais abundante em volume na crosta continental.",
+    "feedbacks": {
+      "1": "Essa é a definição de rochas metamórficas, não ígneas. Mármore e gnaisse são exemplos de metamórficas — a alternativa acerta os exemplos mas erra o grupo ao chamá-las de 'ígneas'.",
+      "2": "O granito é rocha magmática intrusiva, não sedimentar. A definição inicial de sedimentares (deposição de detritos) está correta, mas incluir o granito como exemplo invalida completamente a alternativa.",
+      "3": "Inverte os conceitos: são as rochas intrusivas (plutônicas) que se solidificam no interior da crosta. As extrusivas (como o basalto) solidificam na superfície. O arenito, além disso, é sedimentar — não extrusivo."
+    }
   },
   {
     "id": 8,
@@ -178,8 +218,14 @@
       "4 – 5 – 2 – 1 – 3."
     ],
     "correta": 0,
-    "comentario": "Os materiais de construção têm origens geológicas diversas: a areia (quartzo, sedimentar), a brita (granito ou basalto, magmático), o mármore (metamórfico) e o calcário (sedimentar) são amplamente usados. Conhecer a origem das rochas permite entender suas propriedades — dureza, porosidade, resistência — e suas aplicações na construção civil.",
-    "ajuda": "Os minerais são os constituintes das rochas e têm grande utilidade econômica. Observe a construção ou o objeto mencionado na questão e identifique quais rochas ou minerais foram utilizados em sua fabricação, relacionando ao tipo de rocha (magmática, sedimentar ou metamórfica)."
+    "comentario": "<p>Os materiais de construção têm origens geológicas diversas: a areia (quartzo, sedimentar), a brita (granito ou basalto, magmático), o mármore (metamórfico) e o calcário (sedimentar) são amplamente usados. Conhecer a origem das rochas permite entender suas propriedades — dureza, porosidade, resistência — e suas aplicações na construção civil.</p>",
+    "ajuda": "Os minerais são os constituintes das rochas e têm grande utilidade econômica. Observe a construção ou o objeto mencionado na questão e identifique quais rochas ou minerais foram utilizados em sua fabricação, relacionando ao tipo de rocha (magmática, sedimentar ou metamórfica).",
+    "feedbacks": {
+      "1": "A sequência 1-2-3-4-5 corresponde à ordem original sem nenhuma correspondência real. Cada elemento de uma casa tem uma origem geológica específica: tijolos vêm de argila, vidro do quartzo, pisos de granito ou mármore.",
+      "2": "Essa combinação não respeita as origens geológicas dos materiais de construção. Lembre-se: cerâmica e tijolos vêm de argila (sedimentar), cimento do calcário (sedimentar) e pisos de granito (magmático) ou mármore (metamórfico).",
+      "3": "Essa combinação troca as associações entre materiais e suas origens. Revise cada par: concreto usa calcário e areia (sedimentares); revestimentos usam granito (magmático) ou mármore (metamórfico).",
+      "4": "Essa sequência não corresponde às origens corretas dos materiais. Identifique a rocha ou mineral de cada elemento da casa separadamente antes de montar a combinação."
+    }
   },
   {
     "id": 9,
@@ -200,8 +246,13 @@
       "encontradas em estado líquido pelos pesquisadores."
     ],
     "correta": 1,
-    "comentario": "As rochas magmáticas formam-se pela solidificação do magma. A Província Magmática do Atlântico Central (CAMP) corresponde a um evento de vulcanismo intenso há ~201 Ma, associado à fragmentação da Pangeia e abertura do Oceano Atlântico. A datação precisa dessas rochas por isótopos radioativos permite correlacionar eventos geológicos em continentes diferentes.",
-    "ajuda": "A datação de rochas por métodos radiométricos (como o carbono-14 ou o urânio-chumbo) utiliza a taxa de decaimento de isótopos radioativos. Quanto mais antiga a rocha, maior a proporção de isótopos filhos em relação aos parentais. Analise o que a pesquisa descobre com esse método."
+    "comentario": "<p>As rochas magmáticas formam-se pela solidificação do magma. A Província Magmática do Atlântico Central (CAMP) corresponde a um evento de vulcanismo intenso há ~201 Ma, associado à fragmentação da Pangeia e abertura do Oceano Atlântico. A datação precisa dessas rochas por isótopos radioativos permite correlacionar eventos geológicos em continentes diferentes.</p>",
+    "ajuda": "A datação de rochas por métodos radiométricos (como o carbono-14 ou o urânio-chumbo) utiliza a taxa de decaimento de isótopos radioativos. Quanto mais antiga a rocha, maior a proporção de isótopos filhos em relação aos parentais. Analise o que a pesquisa descobre com esse método.",
+    "feedbacks": {
+      "0": "O texto menciona 'Província Magmática' e 'grandes erupções' — o magma origina-se no manto (não no núcleo) e é expelido em estado líquido (lava), solidificando-se depois em rocha. Não há material sólido sendo expelido diretamente do núcleo.",
+      "2": "O texto descreve erupções vulcânicas (Província Magmática), não deposição de sedimentos. Rochas formadas por sedimentação são as sedimentares — não as que surgem do resfriamento do magma em erupções.",
+      "3": "As rochas foram datadas pelos pesquisadores em estado sólido, não líquido. O magma era líquido durante a erupção, mas solidificou-se há ~200 milhões de anos, formando as rochas magmáticas que foram estudadas."
+    }
   },
   {
     "id": 10,
@@ -222,7 +273,13 @@
       "intrusiva."
     ],
     "correta": 1,
-    "comentario": "O intemperismo é o processo de desagregação e decomposição das rochas na superfície terrestre pela ação de agentes climáticos (água, temperatura, vento). Divide-se em físico (desagregação mecânica, sem mudança química) e químico (decomposição por reações com água, oxigênio, ácidos). Os produtos do intemperismo são sedimentos que darão origem a rochas sedimentares.",
-    "ajuda": "O intemperismo transforma rochas em solo por processos físicos (fragmentação mecânica) e químicos (decomposição mineral). Fatores como temperatura, umidade, composição mineral e tempo determinam a velocidade e o tipo de intemperismo em cada região."
+    "comentario": "<p>O intemperismo é o processo de desagregação e decomposição das rochas na superfície terrestre pela ação de agentes climáticos (água, temperatura, vento). Divide-se em físico (desagregação mecânica, sem mudança química) e químico (decomposição por reações com água, oxigênio, ácidos). Os produtos do intemperismo são sedimentos que darão origem a rochas sedimentares.</p>",
+    "ajuda": "O intemperismo transforma rochas em solo por processos físicos (fragmentação mecânica) e químicos (decomposição mineral). Fatores como temperatura, umidade, composição mineral e tempo determinam a velocidade e o tipo de intemperismo em cada região.",
+    "feedbacks": {
+      "0": "Rochas ígneas (magmáticas) formam-se pelo resfriamento do magma, processo interno da Terra — não pelo intemperismo. O intemperismo fragmenta rochas existentes na superfície, gerando sedimentos, não novas rochas ígneas.",
+      "2": "Granito é uma rocha magmática intrusiva formada pelo resfriamento lento do magma no interior da crosta. Não tem relação com o intemperismo, que é processo externo e superficial. Além disso, 'granítica' não é um dos três grandes grupos de rochas.",
+      "3": "Rochas metamórficas formam-se pela transformação de outras rochas por altas temperaturas e pressões no interior da crosta — processo interno, bem diferente do intemperismo, que atua na superfície terrestre.",
+      "4": "'Intrusiva' é uma subcategoria das rochas magmáticas (aquelas que solidificam no interior da crosta), não um grupo independente. O intemperismo não produz rochas intrusivas — produz sedimentos que originam rochas sedimentares."
+    }
   }
 ]

@@ -4,6 +4,7 @@
 // =============================================================
 
 require_once __DIR__ . '/../includes/conexao.php';
+require_once __DIR__ . '/../includes/rate_limit.php';
 startSecureSession();   // deve vir antes de qualquer header()
 
 header('Content-Type: application/json; charset=utf-8');
@@ -155,6 +156,10 @@ if ($metodo === 'GET') {
 
 // POST: cadastro ou login com nome + email + PIN
 if ($metodo === 'POST') {
+    // Rate limit: bloqueia IPs que erraram o PIN muitas vezes
+    $clientIp = getClientIp();
+    checarRateLimit($clientIp, $pdo);
+
     $body  = json_decode(file_get_contents('php://input'), true) ?? [];
     $nome   = trim($body['nome']   ?? '');
     $email  = trim($body['email']  ?? '');
@@ -189,6 +194,7 @@ if ($metodo === 'POST') {
         if ($aluno['pin_hash']) {
             // Conta já tem PIN: precisa bater para entrar (login)
             if (!password_verify($pin, $aluno['pin_hash'])) {
+                registrarFalha($clientIp, $pdo);  // contabiliza tentativa errada
                 jsonResponse([
                     'erro'     => 'Nome ja em uso. Verifique seu PIN ou escolha outro nome.',
                     'bloqueado'=> true,
@@ -215,7 +221,8 @@ if ($metodo === 'POST') {
             $stmt->execute([':id' => $aluno['id']]);
             $aluno = $stmt->fetch();
         }
-        // Grava sessão — a partir daqui o aluno está autenticado
+        // Login bem-sucedido — zera contador e grava sessão
+        limparFalhas($clientIp, $pdo);
         session_regenerate_id(true);
         $_SESSION['aluno_id'] = (int)$aluno['id'];
         jsonResponse(['criado' => false] + montarRespostaAluno($aluno, $pdo));
@@ -254,21 +261,29 @@ if ($metodo === 'POST') {
     $stmt->execute([':id' => $novoId]);
     $aluno = $stmt->fetch();
 
-    // Grava sessão — novo aluno autenticado imediatamente após o cadastro
+    // Novo cadastro bem-sucedido — zera contador e grava sessão
+    limparFalhas($clientIp, $pdo);
     session_regenerate_id(true);
     $_SESSION['aluno_id'] = (int)$aluno['id'];
     jsonResponse(['criado' => true] + montarRespostaAluno($aluno, $pdo));
 }
 
 // PATCH: editar perfil (nome, estado, cidade, escola)
-// Requer: id + pin para autenticar. Nome novo deve ser único.
+// Requer: sessão válida + pin para confirmar. Nome novo deve ser único.
 if ($metodo === 'PATCH') {
+    $sessionAlunoId = requireAuth();
+
     $body  = json_decode(file_get_contents('php://input'), true) ?? [];
     $id    = (int)($body['id']  ?? 0);
     $pin   = trim($body['pin']  ?? '');
 
     if (!$id || $pin === '') {
         jsonResponse(['erro' => 'id e pin sao obrigatorios.'], 400);
+    }
+
+    // Garante que o aluno só edita o próprio perfil
+    if ($id !== $sessionAlunoId) {
+        jsonResponse(['erro' => 'Acesso negado.'], 403);
     }
 
     // Carrega o aluno atual

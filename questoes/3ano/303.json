@@ -7,7 +7,7 @@
     "tags": [
       "imigração",
       "extrema-direita",
-      "Europa",
+      "europa",
       "xenofobia"
     ],
     "texto_apoio": "Os gráficos acima são parte do resultado de uma pesquisa feita em 2015 sobre a percepção dos cidadãos de diferentes países acerca do fenômeno migratório.\n\nA diferença entre o percentual médio estimado pelos que responderam à pergunta e o percentual real de imigrantes em cada população nacional expressa uma grande preocupação de cidadãos europeus na atualidade.",
@@ -20,7 +20,7 @@
       "fortalecimento dos acordos de integração econômica."
     ],
     "correta": 2,
-    "comentario": "A percepção exagerada do número de imigrantes é um fenômeno documentado em toda a Europa: pesquisas mostram que os europeus estimam o percentual de imigrantes como 2 a 3 vezes maior do que ele realmente é. Esse medo amplificado alimenta partidos de extrema-direita anti-imigração e a adoção de políticas mais restritivas.",
+    "comentario": "<p>A percepção exagerada do número de imigrantes é um fenômeno documentado em toda a Europa: pesquisas mostram que os europeus estimam o percentual de imigrantes como 2 a 3 vezes maior do que ele realmente é. Esse medo amplificado alimenta partidos de extrema-direita anti-imigração e a adoção de políticas mais restritivas.</p>",
     "ajuda": "Quando pessoas superestimam o percentual de imigrantes em seu país, esse medo amplificado tende a alimentar discursos políticos de extrema direita. Pense em que consequência política emerge da percepção equivocada sobre a imigração."
   },
   {
@@ -31,8 +31,8 @@
     "tags": [
       "refugiados",
       "deslocamento forçado",
-      "ONU",
-      "Segunda Guerra Mundial"
+      "onu",
+      "segunda guerra mundial"
     ],
     "texto_apoio": "“A perseguição aos judeus e a outros grupos étnicos e religiosos, durante a Segunda Guerra Mundial, alertou o mundo para a necessidade de ampliar a proteção internacional às vítimas de perseguição e de estruturar um programa de asilo que envolvesse o maior número possível de países. Em meados dos anos 2010, o mundo conheceu o início de uma crise provocada pelo deslocamento geográfico de pessoas em dimensões globais. Trata-se da maior crise desta natureza desde a Segunda Guerra Mundial. Segundo dados da ONU, o número de pessoas deslocadas por guerras, perseguições de toda ordem e conflito, além daquelas que se deslocam devido a eventos ambientais extremos, atingia cerca de 60 milhões, considerando os que se deslocaram interna e externamente. Um dos maiores fluxos dessas pessoas passou a ocorrer do Oriente Médio e da África em direção à Europa”.",
     "fonte_apoio": "LUCCI, A. et al. Território e Sociedade no Mundo Globalizado. Ensino Médio, 3. São Paulo: Saraiva, 2017, p. 185. Adaptado",
@@ -45,7 +45,7 @@
       "repatriado."
     ],
     "correta": 1,
-    "comentario": "Refugiado é quem cruza fronteiras internacionais fugindo de perseguição política, guerra ou violação grave de direitos humanos. Difere do migrante econômico, que escolhe mudar de país voluntariamente. O status de refugiado é reconhecido pela Convenção de Genebra de 1951 e garante proteção jurídica internacional.",
+    "comentario": "<p>Refugiado é quem cruza fronteiras internacionais fugindo de perseguição política, guerra ou violação grave de direitos humanos. Difere do migrante econômico, que escolhe mudar de país voluntariamente. O status de refugiado é reconhecido pela Convenção de Genebra de 1951 e garante proteção jurídica internacional.</p>",
     "ajuda": "Refugiado é quem foge de perseguição política, guerra ou violação de direitos humanos, diferente do migrante econômico. Identifique qual termo descreve exatamente essa situação de deslocamento forçado para outro país."
   },
   {
@@ -69,7 +69,7 @@
       "II, III e IV."
     ],
     "correta": 2,
-    "comentario": "Os fluxos migratórios tendem a ser mais intensos entre países com grandes diferenças de desenvolvimento ou que compartilham história colonial. A maioria dos migrantes internacionais se desloca primeiro para países vizinhos ou da mesma região, tornando os fluxos regionais mais frequentes que os intercontinentais.",
+    "comentario": "<p>Os fluxos migratórios tendem a ser mais intensos entre países com grandes diferenças de desenvolvimento ou que compartilham história colonial. A maioria dos migrantes internacionais se desloca primeiro para países vizinhos ou da mesma região, tornando os fluxos regionais mais frequentes que os intercontinentais.</p>",
     "ajuda": "As políticas de controle migratório pelos países desenvolvidos tentam equilibrar dois imperativos: a necessidade de mão de obra e o controle das fronteiras. Avalie quais afirmativas descrevem corretamente as contradições dessas políticas."
   },
   {
@@ -79,7 +79,7 @@
     "dificuldade": "media",
     "tags": [
       "refugiados",
-      "ACNUR",
+      "acnur",
       "conflitos regionais",
       "deslocamento populacional"
     ],
@@ -93,7 +93,7 @@
       "São majoritariamente provenientes do Oriente Médio, África e Ásia, deslocam‐se, forçadamente, devido a longas guerras, em grande parte para países e/ou regiões fronteiriços"
     ],
     "correta": 4,
-    "comentario": "Em 2017, os sírios eram a maior população refugiada do mundo, com mais de 6 milhões de pessoas deslocadas pela guerra civil iniciada em 2011. A maioria buscou abrigo em países vizinhos — Turquia, Líbano, Jordânia —, demonstrando que os refugiados se deslocam primeiro para as regiões mais próximas.",
+    "comentario": "<p>Em 2017, os sírios eram a maior população refugiada do mundo, com mais de 6 milhões de pessoas deslocadas pela guerra civil iniciada em 2011. A maioria buscou abrigo em países vizinhos — Turquia, Líbano, Jordânia —, demonstrando que os refugiados se deslocam primeiro para as regiões mais próximas.</p>",
     "ajuda": "Os maiores contingentes de refugiados no mundo vêm de zonas de conflito prolongado. Lembre-se de que a Síria lidera esse ranking e que os países de destino são frequentemente vizinhos ou próximos, não necessariamente os mais ricos."
   },
   {
@@ -118,7 +118,7 @@
       "desconcentração espacial da produção."
     ],
     "correta": 1,
-    "comentario": "A revolução das comunicações digitais — internet, telefonia móvel e redes sociais — transformou radicalmente os fluxos migratórios. Migrantes passaram a trocar informações em tempo real sobre rotas, oportunidades de trabalho e remessas financeiras, potencializando a mobilidade humana global no início do século XXI.",
+    "comentario": "<p>A revolução das comunicações digitais — internet, telefonia móvel e redes sociais — transformou radicalmente os fluxos migratórios. Migrantes passaram a trocar informações em tempo real sobre rotas, oportunidades de trabalho e remessas financeiras, potencializando a mobilidade humana global no início do século XXI.</p>",
     "ajuda": "As migrações do final do século XX aceleraram-se sobretudo com o desenvolvimento das tecnologias de informação e comunicação. Pense em qual avanço tecnológico facilitou mais diretamente o contato entre migrantes e o fluxo de informações sobre destinos possíveis."
   },
   {
@@ -128,7 +128,7 @@
     "dificuldade": "facil",
     "tags": [
       "migração internacional",
-      "Europa",
+      "europa",
       "fluxos migratórios"
     ],
     "imagem_apoio": "3ano/img/303/t3q6.png",
@@ -140,7 +140,7 @@
       "assumem distintas direções, sendo que uma das rotas dos imigrantes para a Europa inicia-se em países do Oriente Médio e da costa oriental do norte da África, indo até a Grécia, com travessia pelo mar Mediterrâneo."
     ],
     "correta": 3,
-    "comentario": "As rotas migratórias para a Europa pelo Mar Mediterrâneo partem principalmente da Turquia (rota do Leste Europeu), da Líbia e da Tunísia (rota central). Migrantes do Oriente Médio e da África arriscam travessias perigosas em embarcações precárias, muitas vezes em mãos de traficantes.",
+    "comentario": "<p>As rotas migratórias para a Europa pelo Mar Mediterrâneo partem principalmente da Turquia (rota do Leste Europeu), da Líbia e da Tunísia (rota central). Migrantes do Oriente Médio e da África arriscam travessias perigosas em embarcações precárias, muitas vezes em mãos de traficantes.</p>",
     "ajuda": "As migrações contemporâneas são multidirecionais e motivadas por crises econômicas, guerras e perseguições. Avalie qual alternativa descreve com mais precisão as rotas reais de migração para a Europa, especialmente pelo Mediterrâneo."
   },
   {
@@ -150,7 +150,7 @@
     "dificuldade": "media",
     "tags": [
       "migração global",
-      "ONU",
+      "onu",
       "diáspora",
       "fluxos populacionais"
     ],
@@ -164,7 +164,7 @@
       "O movimento migratório do continente africano para a Ásia foi significativo no século XIX e, atualmente, apresenta importante crescimento decorrente de políticas de cooperação internacional (Ásia/África) para o desenvolvimento socioeconômico africano, especialmente para Angola e África do Sul."
     ],
     "correta": 1,
-    "comentario": "As remessas de imigrantes são uma fonte vital de divisas para países como Índia, México e Filipinas, superando em muitos casos o volume de ajuda externa oficial. Ao contrário do século XIX, quando europeus emigravam para as Américas, hoje os fluxos partem principalmente dos países em desenvolvimento para os ricos.",
+    "comentario": "<p>As remessas de imigrantes são uma fonte vital de divisas para países como Índia, México e Filipinas, superando em muitos casos o volume de ajuda externa oficial. Ao contrário do século XIX, quando europeus emigravam para as Américas, hoje os fluxos partem principalmente dos países em desenvolvimento para os ricos.</p>",
     "ajuda": "Compare as migrações do século XIX com as atuais: no século XIX, europeus emigravam para as Américas; hoje, os fluxos se inverteram. Pense em quais características novas marcam a migração contemporânea em termos financeiros e geográficos."
   },
   {
@@ -189,7 +189,7 @@
       "a fuga decorrente de conflitos políticos e o fortalecimento de políticas sociais."
     ],
     "correta": 0,
-    "comentario": "A busca por melhores condições de trabalho é o principal fator de expulsão nos fluxos migratórios contemporâneos. Ao mesmo tempo, os países receptores — especialmente europeus e norte-americanos — endureceram suas políticas migratórias, construindo muros físicos e barreiras legais para controlar a entrada de estrangeiros.",
+    "comentario": "<p>A busca por melhores condições de trabalho é o principal fator de expulsão nos fluxos migratórios contemporâneos. Ao mesmo tempo, os países receptores — especialmente europeus e norte-americanos — endureceram suas políticas migratórias, construindo muros físicos e barreiras legais para controlar a entrada de estrangeiros.</p>",
     "ajuda": "As migrações têm causas estruturais ligadas à busca de melhores condições de trabalho e de vida. Ao mesmo tempo, os países receptores têm endurecido suas políticas de controle. Identifique qual combinação de fatores explica os deslocamentos recentes."
   },
   {
@@ -200,7 +200,7 @@
     "tags": [
       "migração internacional",
       "conflitos espaciais",
-      "fronteiras",
+      "fronteira",
       "xenofobia"
     ],
     "pergunta": "Um dos principais traços da dinâmica demográfica mundial é a migração internacional, que recria conflitos espaciais de diferentes ordens. Esse tipo de migração é explicado",
@@ -212,7 +212,7 @@
       "pelo aumento global do desemprego, que gera miséria nas nações de baixo índice de desenvolvimento humano."
     ],
     "correta": 4,
-    "comentario": "O aumento do desemprego estrutural nos países de baixo IDH, combinado com a facilidade de comunicação e transporte, impulsionou as migrações internacionais. A globalização conectou o mundo economicamente, mas distribuiu seus benefícios de forma desigual — criando pressão migratória das periferias para os centros.",
+    "comentario": "<p>O aumento do desemprego estrutural nos países de baixo IDH, combinado com a facilidade de comunicação e transporte, impulsionou as migrações internacionais. A globalização conectou o mundo economicamente, mas distribuiu seus benefícios de forma desigual — criando pressão migratória das periferias para os centros.</p>",
     "ajuda": "A migração internacional resulta de uma combinação de fatores de expulsão (pobreza, conflitos) e atração (emprego, segurança). Avalie qual alternativa melhor explica as migrações a partir de uma perspectiva econômica estrutural."
   },
   {
@@ -238,7 +238,7 @@
       "Refugiados conforme o país de origem."
     ],
     "correta": 4,
-    "comentario": "Ao analisar o mapa e observar os países destacados, como Síria, Afeganistão, Iraque e Sudão, é possível descartar algumas alternativas e se aproximar da resposta correta como a relação direta entre taxas de natalidade excepcionalmente altas. Também não são países que possuam alto nível de Produto Interno Bruto (PIB). Essa alternativa também pode ser descartada. Igualmente não são os países mais urbanizados do mundo e nem mesmo os maiores produtores de petróleo. Tente resolver sem ver a resposta.",
+    "comentario": "<p>Ao analisar o mapa e observar os países destacados, como Síria, Afeganistão, Iraque e Sudão, é possível descartar algumas alternativas e se aproximar da resposta correta como a relação direta entre taxas de natalidade excepcionalmente altas. Também não são países que possuam alto nível de Produto Interno Bruto (PIB). Essa alternativa também pode ser descartada. Igualmente não são os países mais urbanizados do mundo e nem mesmo os maiores produtores de petróleo. Tente resolver sem ver a resposta.</p>",
     "ajuda": "Ao observar um mapa de refugiados, identifique os países com maior destaque: Síria, Afeganistão e Iraque são os maiores emissores de refugiados por causa de conflitos armados prolongados. Descarte as alternativas que associem esses países a outros contextos."
   }
 ]

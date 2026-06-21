@@ -21,7 +21,7 @@
       "o resultante processo de desarticulação territorial."
     ],
     "correta": 2,
-    "comentario": "O setor primário é o único cujo resultado depende diretamente do clima e das condições meteorológicas. Uma seca severa, uma geada fora de época ou um furacão podem destruir safras inteiras e provocar choques nos mercados globais de alimentos — como ocorreu com a soja brasileira em 2021 durante a crise hídrica.",
+    "comentario": "<p>O setor primário é o único cujo resultado depende diretamente do clima e das condições meteorológicas. Uma seca severa, uma geada fora de época ou um furacão podem destruir safras inteiras e provocar choques nos mercados globais de alimentos — como ocorreu com a soja brasileira em 2021 durante a crise hídrica.</p>",
     "ajuda": "O setor primário (agricultura, pecuária, extrativismo) tem uma característica estrutural que o torna vulnerável a fatores que outros setores não enfrentam. Pense em qual variável está fora do controle humano e afeta diretamente a produção."
   },
   {
@@ -47,7 +47,7 @@
       "à retração das leis trabalhistas nas fábricas."
     ],
     "correta": 3,
-    "comentario": "A mecanização agrícola e a automação industrial reduziram drasticamente a necessidade de mão de obra em atividades repetitivas nos setores primário e secundário. Esse processo de desemprego estrutural — onde máquinas substituem trabalhadores permanentemente — é uma das principais forças por trás da expansão do setor de serviços.",
+    "comentario": "<p>A mecanização agrícola e a automação industrial reduziram drasticamente a necessidade de mão de obra em atividades repetitivas nos setores primário e secundário. Esse processo de desemprego estrutural — onde máquinas substituem trabalhadores permanentemente — é uma das principais forças por trás da expansão do setor de serviços.</p>",
     "ajuda": "A passagem da sociedade agrária para a industrial gerou o processo de mecanização agrícola. Pense em como a automação das fazendas afetou o número de postos de trabalho no campo e o que acontece com quem perde emprego nesse processo."
   },
   {
@@ -72,7 +72,7 @@
       "o deslocamento financeiro para as atividades industrializadas."
     ],
     "correta": 0,
-    "comentario": "A terceirização da economia ocorreu porque a globalização e a tecnologia permitiram fragmentar as cadeias produtivas: indústrias migraram para países de menor custo, enquanto os centros de poder mantiveram serviços de alto valor agregado — finanças, tecnologia, pesquisa — gerando a predominância do setor terciário nos países ricos.",
+    "comentario": "<p>A terceirização da economia ocorreu porque a globalização e a tecnologia permitiram fragmentar as cadeias produtivas: indústrias migraram para países de menor custo, enquanto os centros de poder mantiveram serviços de alto valor agregado — finanças, tecnologia, pesquisa — gerando a predominância do setor terciário nos países ricos.</p>",
     "ajuda": "A terciarização da economia global significa que os serviços crescem mais do que a indústria e a agricultura. Pense em qual processo econômico e tecnológico explica essa tendência de deslocamento das atividades produtivas em escala mundial."
   },
   {
@@ -82,7 +82,7 @@
     "dificuldade": "facil",
     "tags": [
       "desperdício alimentar",
-      "FAO",
+      "fao",
       "segurança alimentar",
       "produção agrícola"
     ],
@@ -98,7 +98,7 @@
       "Os dois diferentes processos que causam a enorme perda de alimentos no mundo refletem as desigualdades econômicas e sociais existentes entre os continentes."
     ],
     "correta": 4,
-    "comentario": "Os dois processos de perda alimentar refletem desigualdades estruturais: nos países ricos, o desperdício ocorre no varejo e no consumo (excesso de compra, padrões estéticos); nos países pobres, a perda ocorre na colheita e no armazenamento por falta de infraestrutura. No total, 30% dos alimentos produzidos globalmente nunca chegam à mesa.",
+    "comentario": "<p>Os dois processos de perda alimentar refletem desigualdades estruturais: nos países ricos, o desperdício ocorre no varejo e no consumo (excesso de compra, padrões estéticos); nos países pobres, a perda ocorre na colheita e no armazenamento por falta de infraestrutura. No total, 30% dos alimentos produzidos globalmente nunca chegam à mesa.</p>",
     "ajuda": "O texto distingue dois processos de perda de alimentos: o desperdício nos países ricos (no ponto de venda e consumo) e a perda nos países pobres (na colheita, transporte e armazenamento). Avalie qual alternativa reflete essa desigualdade estrutural corretamente."
   },
   {
@@ -122,7 +122,7 @@
       "ajuste de políticas econômicas e incentivos fiscais."
     ],
     "correta": 3,
-    "comentario": "O economista Amartya Sen desenvolveu a ideia de desenvolvimento como expansão das liberdades humanas. Para ele, crescimento do PIB importa apenas como meio — não como fim. Educação, saúde e participação política são dimensões essenciais do desenvolvimento que o PIB sozinho não captura.",
+    "comentario": "<p>O economista Amartya Sen desenvolveu a ideia de desenvolvimento como expansão das liberdades humanas. Para ele, crescimento do PIB importa apenas como meio — não como fim. Educação, saúde e participação política são dimensões essenciais do desenvolvimento que o PIB sozinho não captura.</p>",
     "ajuda": "Desenvolvimento não é apenas crescimento econômico (aumento do PIB), mas também melhoria das condições de vida e exercício da cidadania. Identifique qual alternativa articula corretamente esses dois aspectos — o econômico e o social."
   },
   {
@@ -146,7 +146,7 @@
       "pouco interferem na segurança dos cidadãos locais."
     ],
     "correta": 1,
-    "comentario": "Investimentos em educação e programas de renda mínima reduzem a vulnerabilidade de jovens a situações de risco social. O estudo do Banco Mundial citado demonstrou que manter jovens na escola — por meio de programas como o Bolsa Família — impacta diretamente na queda dos índices de violência e criminalidade.",
+    "comentario": "<p>Investimentos em educação e programas de renda mínima reduzem a vulnerabilidade de jovens a situações de risco social. O estudo do Banco Mundial citado demonstrou que manter jovens na escola — por meio de programas como o Bolsa Família — impacta diretamente na queda dos índices de violência e criminalidade.</p>",
     "ajuda": "Políticas públicas em educação e economia impactam diretamente os índices sociais. Pense na relação entre escolaridade, renda e violência ao analisar qual consequência social o texto destaca como efeito de boas políticas públicas."
   },
   {
@@ -169,7 +169,7 @@
       "as empresas que dominam o comércio de grãos no mercado internacional e tendem a garantir apenas em seus países de origem um consumo ideal de calorias/homem/dia, do tipo fast-food."
     ],
     "correta": 0,
-    "comentario": "A fome e a subnutrição persistem não por falta absoluta de alimentos no planeta, mas pela desigualdade no acesso. O preço crescente dos alimentos em mercados globalizados exclui populações pobres, especialmente em países afetados por conflitos ou com má distribuição de renda — um problema de acesso, não de produção.",
+    "comentario": "<p>A fome e a subnutrição persistem não por falta absoluta de alimentos no planeta, mas pela desigualdade no acesso. O preço crescente dos alimentos em mercados globalizados exclui populações pobres, especialmente em países afetados por conflitos ou com má distribuição de renda — um problema de acesso, não de produção.</p>",
     "ajuda": "A fome e a subnutrição têm causas principalmente socioeconômicas, não apenas falta de produção de alimentos. Pense em quais fatores estruturais — pobreza, desigualdade, guerras — impedem o acesso da população a uma alimentação adequada."
   },
   {
@@ -193,7 +193,7 @@
       "o uso de organismos geneticamente modificados na agricultura tem reduzido a subnutrição nas regiões mais pobres do planeta."
     ],
     "correta": 2,
-    "comentario": "Mais de 1 bilhão de pessoas subnutridas em 2009 representavam cerca de 15% da população mundial. As causas estruturais — desigualdades econômicas, pobreza extrema, conflitos armados e instabilidade política — impedem que a produção agrícola existente chegue a quem mais precisa.",
+    "comentario": "<p>Mais de 1 bilhão de pessoas subnutridas em 2009 representavam cerca de 15% da população mundial. As causas estruturais — desigualdades econômicas, pobreza extrema, conflitos armados e instabilidade política — impedem que a produção agrícola existente chegue a quem mais precisa.</p>",
     "ajuda": "O texto aborda as causas da fome e da subnutrição no mundo. Lembre-se de que existem alimentos suficientes no planeta, mas a distribuição é desigual. Avalie qual alternativa identifica corretamente as causas estruturais desse problema."
   },
   {
@@ -202,7 +202,7 @@
     "ano": "2008",
     "dificuldade": "media",
     "tags": [
-      "IDH",
+      "idh",
       "desenvolvimento desigual",
       "países pobres e ricos"
     ],
@@ -216,7 +216,7 @@
       "Países desenvolvidos diminuem taxas de alfabetização e estabilizam investimentos em ciência e tecnologia."
     ],
     "correta": 3,
-    "comentario": "A tabela revela uma correlação positiva entre investimento em educação, ciência e tecnologia e desenvolvimento socioeconômico. Países com maiores taxas de alfabetização e gastos em P&D concentram as maiores economias globais — confirmando que o capital humano é a base do desenvolvimento sustentável.",
+    "comentario": "<p>A tabela revela uma correlação positiva entre investimento em educação, ciência e tecnologia e desenvolvimento socioeconômico. Países com maiores taxas de alfabetização e gastos em P&D concentram as maiores economias globais — confirmando que o capital humano é a base do desenvolvimento sustentável.</p>",
     "ajuda": "Para interpretar os dados da tabela, observe quais países têm altos índices de alfabetização e investimento em ciência e tecnologia, e como isso se relaciona com o desenvolvimento econômico e social. Pense em qual título resume essa relação."
   },
   {
@@ -239,7 +239,7 @@
       "a taxa de mortalidade infantil é diretamente proporcional ao nível de escolaridade das mães e independe das condições sanitárias básicas."
     ],
     "correta": 0,
-    "comentario": "A educação materna é um fator determinante para a saúde infantil, mesmo em contextos de infraestrutura sanitária precária. Mães com maior escolaridade adotam melhores práticas de higiene, nutrição e busca por cuidados médicos, reduzindo a mortalidade infantil mesmo sem saneamento básico de qualidade.",
+    "comentario": "<p>A educação materna é um fator determinante para a saúde infantil, mesmo em contextos de infraestrutura sanitária precária. Mães com maior escolaridade adotam melhores práticas de higiene, nutrição e busca por cuidados médicos, reduzindo a mortalidade infantil mesmo sem saneamento básico de qualidade.</p>",
     "ajuda": "A tabela relaciona escolaridade materna, saneamento básico e mortalidade infantil. Lembre-se de que saúde e educação são fatores complementares: mesmo com saneamento precário, mães mais educadas tendem a ter filhos mais saudáveis. Analise as relações cuidadosamente."
   }
 ]

@@ -1,3 +1,4 @@
+<?php $loginRequired = !empty($_GET['login_required']); ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -283,6 +284,14 @@
        Não bloqueia o visitante novo.
   ======================================= -->
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+
+            <?php if ($loginRequired): ?>
+            <div class="w3-panel w3-yellow w3-round-large w3-card-2" style="padding:14px 20px; display:flex; align-items:center; gap:12px;">
+                <i class="fa fa-lock w3-large"></i>
+                <span>Você precisa estar logado para acessar essa página. Faça login abaixo. 👇</span>
+            </div>
+            <?php endif; ?>
+
             <div class="NomeHome w3-container w3-white w3-card-2 w3-round-large w3-margin-top w3-padding-16"
                 id="container-login">
 
@@ -822,6 +831,16 @@
         el.textContent    = msg;
         el.style.display  = 'block';
     }
+
+    // Scroll suave até o formulário de login quando vier de redirecionamento
+    (function () {
+        const params = new URLSearchParams(window.location.search);
+        if (!params.get('login_required')) return;
+        window.addEventListener('load', function () {
+            const el = document.getElementById('container-login');
+            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        });
+    })();
     </script>
 
     <!-- Footer -->

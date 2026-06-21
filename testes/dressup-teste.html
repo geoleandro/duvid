@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Texto de Aula — Cartografia</title>
+  <link rel="stylesheet" href="/estilos/w3.css">
+  <link rel="stylesheet" href="/estilos/ModeloCss.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body { padding-top: 60px; }
+    .texto-aula {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px 20px 40px;
+      line-height: 1.8;
+      font-size: 1.05rem;
+      color: #1e293b;
+    }
+    body.dark-mode .texto-aula { color: #e2e8f0; }
+    .texto-aula h1 { font-size: 1.6rem; margin-bottom: 8px; }
+    .texto-aula h2 { font-size: 1.2rem; margin: 24px 0 8px; color: #15803d; }
+    .texto-aula p  { margin-bottom: 16px; }
+    .topico {
+      background: #f0fdf4;
+      border-left: 4px solid #16a34a;
+      padding: 12px 16px;
+      border-radius: 4px;
+      margin: 20px 0;
+    }
+    body.dark-mode .topico { background: #052e16; }
+
+    /* dark mode toggle */
+    #toggle-dark {
+      position: fixed; top: 10px; right: 12px;
+      background: #1f2937; color: #fff; border: none;
+      border-radius: 6px; padding: 6px 12px; cursor: pointer;
+      font-size: 0.85rem; z-index: 999;
+    }
+  </style>
+</head>
+<body>
+
+<button id="toggle-dark" onclick="document.body.classList.toggle('dark-mode')">🌙 Dark</button>
+
+<div class="texto-aula">
+
+  <h1>🗺️ Cartografia: A Linguagem dos Mapas</h1>
+  <p><strong>Cartografia</strong> é a ciência e a arte de elaborar mapas e cartas geográficas.
+  Desde a Antiguidade, os seres humanos buscam representar o espaço ao redor — seja para
+  navegar, comerciar ou entender o território em que vivem.</p>
+
+  <h2>Elementos de um mapa</h2>
+  <p>Todo mapa possui elementos essenciais: <strong>título</strong>, <strong>escala</strong>,
+  <strong>legenda</strong>, <strong>orientação</strong> (rosa dos ventos ou seta norte) e
+  <strong>projeção cartográfica</strong>. Sem esses elementos, o mapa perde confiabilidade
+  como documento geográfico.</p>
+
+  <div class="topico">
+    <strong>💡 Conceito-chave:</strong> Escala é a relação matemática entre a distância
+    no mapa e a distância real no terreno. Escala 1:100.000 significa que 1 cm no mapa
+    equivale a 1 km na realidade.
+  </div>
+
+  <h2>Projeções cartográficas</h2>
+  <p>Como a Terra é esférica, qualquer representação plana gera distorções. As principais
+  projeções são a <em>Mercator</em> (conforme — preserva ângulos), a <em>Peters</em>
+  (equivalente — preserva áreas) e as projeções <em>azimutal</em> e <em>cônica</em>,
+  cada uma com usos específicos.</p>
+
+  <p>A projeção Mercator, usada historicamente para a navegação marítima, distorce as
+  dimensões dos continentes próximos aos polos — por isso a Groenlândia parece maior
+  que a África nos mapas tradicionais, o que não corresponde à realidade.</p>
+
+  <h2>Coordenadas geográficas</h2>
+  <p>A localização de qualquer ponto na Terra é dada pela interseção de dois sistemas
+  de linhas imaginárias: <strong>paralelos</strong> (latitude, de 0° no Equador a 90°
+  nos polos) e <strong>meridianos</strong> (longitude, de 0° em Greenwich a 180°
+  na linha da data).</p>
+
+  <hr style="margin: 32px 0; border: none; border-top: 1px solid #e2e8f0;">
+
+  <!-- ── GLOBINHO DRESS UP ── -->
+  <div class="globinho-dressup"
+       data-tema="cartografia"
+       data-aluno="0">
+  </div>
+
+</div>
+
+<script>
+  // Simula DuvidDB para o teste (sem sessão PHP)
+  const DuvidDB = {
+    addGlobinhos: function(qtd, tipo) {
+      console.log('[DEMO] +' + qtd + ' globinhos — tipo: ' + tipo);
+      // Mostra toast visual
+      const t = document.createElement('div');
+      t.textContent = '+' + qtd + ' 🌍 globinhos!';
+      t.style.cssText = 'position:fixed;bottom:20px;right:20px;background:#10b981;color:#fff;padding:10px 18px;border-radius:8px;font-family:VT323,monospace;font-size:1.2rem;z-index:9999;';
+      document.body.appendChild(t);
+      setTimeout(() => t.remove(), 3000);
+    }
+  };
+</script>
+<script src="/js/globinho-dressup.js"></script>
+
+</body>
+</html>

@@ -5,7 +5,7 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Índia",
+      "índia",
       "industrialização",
       "potência emergente",
       "desenvolvimento"
@@ -19,7 +19,7 @@
       "cultivar forte sentimento de unidade nacional, advindo do processo de descolonização."
     ],
     "correta": 1,
-    "comentario": "O sistema de castas do hinduísmo divide a sociedade em grupos hierárquicos hereditários (brâmanes, xátrias, vaixás, sudras) e os 'intocáveis' (dalits). Apesar de proibido pela Constituição indiana de 1950, o sistema persiste na prática social, limitando as oportunidades de mobilidade para centenas de milhões de pessoas.",
+    "comentario": "<p>O sistema de castas do hinduísmo divide a sociedade em grupos hierárquicos hereditários (brâmanes, xátrias, vaixás, sudras) e os 'intocáveis' (dalits). Apesar de proibido pela Constituição indiana de 1950, o sistema persiste na prática social, limitando as oportunidades de mobilidade para centenas de milhões de pessoas.</p>",
     "ajuda": "A Índia é um país de enorme diversidade étnica, linguística e religiosa, com mais de 1,4 bilhão de habitantes. Uma das suas marcas históricas é o sistema de castas, que estrutura socialmente a população. Identifique qual característica cultural singular é destacada no texto."
   },
   {
@@ -28,8 +28,8 @@
     "ano": "2019",
     "dificuldade": "media",
     "tags": [
-      "Mianmar",
-      "Rohingya",
+      "mianmar",
+      "rohingya",
       "perseguição étnica",
       "genocídio"
     ],
@@ -44,7 +44,7 @@
       "China; hindu e budista."
     ],
     "correta": 0,
-    "comentario": "Os Rohingyas são uma minoria muçulmana que vive em Mianmar, um país de maioria budista. Perseguidos pelo exército e grupos extremistas, refugiaram-se principalmente em Bangladesh (país muçulmano vizinho). A ONU classificou o caso como genocídio — um dos piores casos de limpeza étnica do século XXI.",
+    "comentario": "<p>Os Rohingyas são uma minoria muçulmana que vive em Mianmar, um país de maioria budista. Perseguidos pelo exército e grupos extremistas, refugiaram-se principalmente em Bangladesh (país muçulmano vizinho). A ONU classificou o caso como genocídio — um dos piores casos de limpeza étnica do século XXI.</p>",
     "ajuda": "A minoria Rohingya é um grupo étnico muçulmano que vive em Mianmar, um país de maioria budista. O conflito tem raízes em tensões religiosas e étnicas. Pense em qual país recebeu os refugiados Rohingya e qual é a relação religiosa entre os grupos envolvidos."
   },
   {
@@ -55,7 +55,7 @@
     "tags": [
       "topografia",
       "clima",
-      "Ásia meridional",
+      "ásia meridional",
       "relevo"
     ],
     "texto_apoio": "TEXTO I\n\n Quando um exército atravessa montanhas, florestas, zonas de precipícios, ou marcha ao longo de desfiladeiros, alagadiços ou pântanos, ou qualquer outro terreno onde a deslocação é árdua, está em terreno difícil. O terreno onde é apertado e a sua saída é tortuosa e onde uma pequena força inimiga pode atacar a minha, embora maior, é cercado. \n\nTZU, S. A arte da guerra. São Paulo: Martin Claret, 2001. \n\nTEXTO II\n\n O objetivo principal era encontrar e matar Osama Bin Laden. Onde ele se esconde? Não podemos esquecer a dificuldade de ocupação do país, que possui um relevo montanhoso, cheio de cavernas, onde fica fácil, para quem está acostumado com esse relevo, esconder-se. \n\nOLIVEIRA, M. G.; SANTOS, M. S, Ásia: uma visão histórica, política e econômica do continente, Rio de Janeiro: E-Papers, 2009 (adaptado).",
@@ -68,7 +68,7 @@
       "Domínio cognitivo da configuração espacial."
     ],
     "correta": 4,
-    "comentario": "O relevo do Afeganistão e do subcontinente indiano (Himalaia, Hindu Kush) condiciona profundamente a estratégia militar e a vida cotidiana. Montanhas como o Hindu Kush criaram refúgios impenetráveis para guerrilheiros por séculos — desde os exércitos de Alexandre até as tropas americanas no século XXI.",
+    "comentario": "<p>O relevo do Afeganistão e do subcontinente indiano (Himalaia, Hindu Kush) condiciona profundamente a estratégia militar e a vida cotidiana. Montanhas como o Hindu Kush criaram refúgios impenetráveis para guerrilheiros por séculos — desde os exércitos de Alexandre até as tropas americanas no século XXI.</p>",
     "ajuda": "O relevo montanhoso (Himalaia, Hindu Kush) influencia profundamente a organização do espaço na Ásia Meridional e Central: dificulta o acesso, cria fronteiras naturais e molda as estratégias militares. Pense em qual aspecto da vida humana é mais diretamente condicionado pela topografia."
   },
   {
@@ -77,7 +77,7 @@
     "ano": "2017",
     "dificuldade": "media",
     "tags": [
-      "Índia",
+      "índia",
       "emigração",
       "diáspora",
       "tecnologia",
@@ -93,7 +93,7 @@
       "ampliação das exportações da indústria"
     ],
     "correta": 1,
-    "comentario": "Os indianos que emigram para o Vale do Silício, Canadá e Austrália enviam remessas financeiras que representam uma fonte importante de divisas para a Índia — o maior receptor mundial de remessas. Em 2022, a Índia recebeu mais de 100 bilhões de dólares em remessas, equivalente a 3% do PIB nacional.",
+    "comentario": "<p>Os indianos que emigram para o Vale do Silício, Canadá e Austrália enviam remessas financeiras que representam uma fonte importante de divisas para a Índia — o maior receptor mundial de remessas. Em 2022, a Índia recebeu mais de 100 bilhões de dólares em remessas, equivalente a 3% do PIB nacional.</p>",
     "ajuda": "A emigração de profissionais qualificados (brain drain) pode parecer negativa, mas gera um benefício financeiro importante para o país de origem. Pense em qual mecanismo econômico os emigrantes indianos ativam ao mandar dinheiro de volta para suas famílias."
   },
   {
@@ -102,9 +102,9 @@
     "ano": "2017",
     "dificuldade": "media",
     "tags": [
-      "Paquistão",
-      "conflitos",
-      "Ásia",
+      "paquistão",
+      "conflito",
+      "ásia",
       "geopolítica",
       "terrorismo"
     ],
@@ -118,7 +118,7 @@
       "I, II e IV."
     ],
     "correta": 2,
-    "comentario": "As afirmativas I, II e III são corretas: o Paquistão tem violência étnica (conflitos entre pashtuns, punjabis e balúchis); a Caxemira é disputada desde 1947 entre Índia e Paquistão; e ambos os países têm capacidade nuclear declarada — tornando essa rivalidade uma das mais perigosas do mundo.",
+    "comentario": "<p>As afirmativas I, II e III são corretas: o Paquistão tem violência étnica (conflitos entre pashtuns, punjabis e balúchis); a Caxemira é disputada desde 1947 entre Índia e Paquistão; e ambos os países têm capacidade nuclear declarada — tornando essa rivalidade uma das mais perigosas do mundo.</p>",
     "ajuda": "O mapa de conflitos na Ásia mostra regiões com tensões internas e externas. O Paquistão, a Índia, o Afeganistão e países do Sudeste Asiático têm diferentes tipos de conflitos. Avalie quais afirmativas descrevem corretamente a situação de cada país no mapa."
   },
   {
@@ -143,7 +143,7 @@
       "conquista da autodeterminação."
     ],
     "correta": 1,
-    "comentario": "A alteridade — a capacidade de reconhecer e respeitar o outro em sua diferença — é o valor cultural que o texto desafia. O autor demonstra que a mesma ação (patriotismo de uma criança) é interpretada de forma radicalmente diferente dependendo de quem a pratica — revelando um padrão duplo cultural e geopolítico.",
+    "comentario": "<p>A alteridade — a capacidade de reconhecer e respeitar o outro em sua diferença — é o valor cultural que o texto desafia. O autor demonstra que a mesma ação (patriotismo de uma criança) é interpretada de forma radicalmente diferente dependendo de quem a pratica — revelando um padrão duplo cultural e geopolítico.</p>",
     "ajuda": "O texto apresenta um desafio cultural envolvendo perspectivas diferentes. O conceito de alteridade refere-se à capacidade de reconhecer e respeitar o outro em sua diferença. Identifique qual valor ou habilidade cultural está sendo exercido na situação descrita."
   },
   {
@@ -153,8 +153,8 @@
     "dificuldade": "media",
     "tags": [
       "territorialização",
-      "conflitos",
-      "Ásia",
+      "conflito",
+      "ásia",
       "geopolítica"
     ],
     "texto_apoio": "“A Índia deu um passo alto no setor de teleatendimento para países mais desenvolvidos, como os Estados Unidos e as nações europeias. Atualmente mais de 245 mil indianos realizam ligações para todas as partes do mundo a fim de oferecer cartões de crédito ou telefones celulares ou cobrar contas em atraso”.",
@@ -169,7 +169,7 @@
       "custo da mão de obra local."
     ],
     "correta": 4,
-    "comentario": "A instalação de empresas de call center na Índia reflete o baixo custo da mão de obra qualificada em inglês. Com salários 5-10 vezes menores que nos EUA ou Reino Unido, e com uma das maiores populações de falantes de inglês do mundo, a Índia tornou-se o principal polo global de terceirização de serviços.",
+    "comentario": "<p>A instalação de empresas de call center na Índia reflete o baixo custo da mão de obra qualificada em inglês. Com salários 5-10 vezes menores que nos EUA ou Reino Unido, e com uma das maiores populações de falantes de inglês do mundo, a Índia tornou-se o principal polo global de terceirização de serviços.</p>",
     "ajuda": "O processo de territorialização de empresas em determinada região depende de fatores econômicos, logísticos e culturais. O texto provavelmente descreve por que certas empresas se instalam no sul ou sudeste asiático. Pense em qual fator produtivo é o mais determinante nessa escolha."
   },
   {
@@ -178,9 +178,9 @@
     "ano": "2014",
     "dificuldade": "media",
     "tags": [
-      "Afeganistão",
+      "afeganistão",
       "geopolítica",
-      "Taliban",
+      "taliban",
       "conflito",
       "invasão"
     ],
@@ -193,7 +193,7 @@
       "Fazendo fronteira com o Irã e Paquistão, constitui-se numa espécie de elo entre o Oriente Médio e o subcontinente Indiano."
     ],
     "correta": 3,
-    "comentario": "A alternativa incorreta sobre o Afeganistão é a D: o país tem população predominantemente islâmica (99%) e grande heterogeneidade étnica — pashtuns, tajiques, hazaras, uzbiques. Essa diversidade étnica foi um dos fatores da guerra civil e da dificuldade de construção de um Estado nacional coeso.",
+    "comentario": "<p>A alternativa incorreta sobre o Afeganistão é a D: o país tem população predominantemente islâmica (99%) e grande heterogeneidade étnica — pashtuns, tajiques, hazaras, uzbiques. Essa diversidade étnica foi um dos fatores da guerra civil e da dificuldade de construção de um Estado nacional coeso.</p>",
     "ajuda": "A questão pede a alternativa INCORRETA sobre o Afeganistão. Lembre-se das características: relevo montanhoso, país islâmico, passou por regime talibã nos anos 1990, e foi invadido pelos EUA em 2001. Identifique qual informação contradiz a realidade afegã."
   },
   {
@@ -202,7 +202,7 @@
     "ano": "2013",
     "dificuldade": "media",
     "tags": [
-      "Ásia",
+      "ásia",
       "regionalização",
       "subcontinente indiano",
       "diversidade"
@@ -217,7 +217,7 @@
       "Oriente Médio e Ásia Meridional."
     ],
     "correta": 2,
-    "comentario": "A Ásia pode ser regionalizada em: Oriente Médio (árabe-islâmico), Ásia Meridional (subcontinente indiano, hinduísta-islâmico), Ásia Central (turco-muçulmana), Sudeste Asiático (budista-hindu-islâmico) e Leste Asiático (confuciano-budista). Cada sub-região tem características culturais e religiosas próprias.",
+    "comentario": "<p>A Ásia pode ser regionalizada em: Oriente Médio (árabe-islâmico), Ásia Meridional (subcontinente indiano, hinduísta-islâmico), Ásia Central (turco-muçulmana), Sudeste Asiático (budista-hindu-islâmico) e Leste Asiático (confuciano-budista). Cada sub-região tem características culturais e religiosas próprias.</p>",
     "ajuda": "A Ásia pode ser dividida em grandes sub-regiões com base em critérios culturais e religiosos: Oriente Médio (islâmico-árabe), Ásia Meridional (hindu-islâmico), Ásia Central, Sudeste Asiático e Leste Asiático (confuciano). Pense em qual par de sub-regiões corresponde ao mapa."
   },
   {
@@ -243,7 +243,7 @@
       "crença espiritual das gerações mais velhas e a modernização da doutrina religiosa."
     ],
     "correta": 2,
-    "comentario": "O paradoxo descrito é a tensão entre a tradição consuetudinária (que tolera crimes de honra) e os princípios jurídicos modernos (que os condenam). Países como Turquia e Paquistão criaram leis contra esses crimes sob pressão internacional, mas a prática persistia, revelando o conflito entre ordem legal e costumes tribais.",
+    "comentario": "<p>O paradoxo descrito é a tensão entre a tradição consuetudinária (que tolera crimes de honra) e os princípios jurídicos modernos (que os condenam). Países como Turquia e Paquistão criaram leis contra esses crimes sob pressão internacional, mas a prática persistia, revelando o conflito entre ordem legal e costumes tribais.</p>",
     "ajuda": "O paradoxo mencionado no texto refere-se a culturas islâmicas que apresentam contradições entre valores tradicionais e práticas modernas, especialmente em relação ao papel da mulher. Pense em qual aspecto dessa contradição o texto exemplifica."
   }
 ]

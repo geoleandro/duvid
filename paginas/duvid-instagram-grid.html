@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>@duvidgeo — Grid de Lançamento v2</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Lora:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;600;700&display=swap');
+
+  :root {
+    --verde-escuro: #1B4332;
+    --verde: #2D6A4F;
+    --verde-light: #40916C;
+    --azul-profundo: #0F2340;
+    --azul: #0077B6;
+    --amarelo: #FFD166;
+    --laranja: #EF6C00;
+    --preto: #1A1A2E;
+    --branco: #F8F8F2;
+    --cinza: #9E9E9E;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #111118;
+    color: var(--branco);
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: #0F0F1A;
+    border-bottom: 1px solid #222;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .profile-pic {
+    width: 68px; height: 68px;
+    border-radius: 50%;
+    background: var(--verde);
+    display: flex; align-items: center; justify-content: center;
+    border: 2px solid #333;
+    outline: 2px solid var(--verde-light);
+    outline-offset: 2px;
+    font-size: 30px;
+    flex-shrink: 0;
+  }
+  .profile-info { flex: 1; }
+  .handle {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);
+    margin-bottom: 2px;
+  }
+  .bio {
+    font-size: 12px;
+    color: #bbb;
+    line-height: 1.5;
+    margin-top: 4px;
+  }
+  .bio em {
+    color: var(--verde-light);
+    font-style: normal;
+  }
+  .stats {
+    display: flex; gap: 20px;
+  }
+  .stat { text-align: center; }
+  .stat .num { font-weight: 700; font-size: 15px; color: var(--branco); }
+  .stat .label { font-size: 10px; color: #666; margin-top: 2px; }
+
+  /* ── DESTAQUES ── */
+  .destaques {
+    background: #0F0F1A;
+    padding: 14px 24px 18px;
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #1a1a1a;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .destaque-item {
+    display: flex; flex-direction: column; align-items: center; gap: 6px;
+    flex-shrink: 0;
+  }
+  .destaque-ring {
+    width: 54px; height: 54px;
+    border-radius: 50%;
+    background: #1a1a2e;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+    border: 1.5px solid #333;
+  }
+  .destaque-label { font-size: 9px; color: #888; }
+
+  /* ── TAB BAR ── */
+  .tab-bar {
+    background: #0F0F1A;
+    display: flex;
+    border-bottom: 1px solid #1a1a1a;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  .tab {
+    flex: 1; text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    border-bottom: 1.5px solid transparent;
+  }
+  .tab.active { color: var(--branco); border-bottom-color: var(--branco); }
+
+  .grid-hint {
+    text-align: center;
+    padding: 10px 16px;
+    font-size: 10px;
+    color: #444;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  /* ── GRID ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    padding: 0 2px 2px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  .post-card {
+    aspect-ratio: 1;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .post-card:hover .post-overlay { opacity: 1; }
+  .post-card:hover { z-index: 2; }
+
+  .post-inner {
+    width: 100%; height: 100%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 12px 10px;
+    text-align: center;
+    position: relative;
+  }
+
+  .post-num {
+    position: absolute;
+    top: 7px; left: 8px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 6px;
+    color: rgba(255,255,255,0.25);
+  }
+
+  .post-overlay {
+    position: absolute; inset: 0;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity .2s;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+  }
+
+  /* ── POST BACKGROUNDS ── */
+  /* P1 Manifesto */
+  .p1 { background: #1A1A2E; }
+  /* P2 Krishnamurti */
+  .p2 { background: #1B4332; }
+  /* P3 Aprender junto */
+  .p3 { background: #0F2340; }
+  /* P4 Não odeia geo */
+  .p4 { background: #16213E; }
+  /* P5 Mundo fascina */
+  .p5 { background: #0D2137; }
+  /* P6 Globinho */
+  .p6 { background: #2D6A4F; }
+  /* P7 Colaborativo */
+  .p7 { background: #1B3A2F; }
+  /* P8 Curiosidade */
+  .p8 { background: #FFD166; }
+  /* P9 Convite */
+  .p9 { background: #111118; }
+
+  /* ── TIPOGRAFIA DOS POSTS ── */
+  .post-quote {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 9.5px;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 6px;
+  }
+  .post-attr {
+    font-size: 7.5px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 0.5px;
+  }
+  .post-frase {
+    font-family: 'Inter', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .post-detalhe {
+    font-size: 7.5px;
+    color: rgba(255,255,255,0.5);
+    margin-top: 5px;
+    line-height: 1.4;
+  }
+
+  /* ── GLOBINHO PIXEL ── */
+  .globinho-svg { image-rendering: pixelated; }
+
+  /* ── MODAL ── */
+  .modal-overlay {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: #13131F;
+    border-radius: 14px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 92vh;
+    overflow-y: auto;
+    border: 1px solid #222;
+    animation: up .2s ease;
+  }
+  @keyframes up {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+
+  .modal-post-preview {
+    aspect-ratio: 1;
+    width: 100%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    padding: 36px;
+    position: relative;
+    border-radius: 14px 14px 0 0;
+    text-align: center;
+  }
+
+  .modal-close {
+    position: absolute; top: 14px; right: 14px;
+    background: rgba(0,0,0,0.4);
+    border: none; color: rgba(255,255,255,0.7);
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-close:hover { color: #fff; }
+
+  .modal-post-num {
+    position: absolute; top: 14px; left: 16px;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 7px;
+    color: rgba(255,255,255,0.3);
+  }
+
+  .modal-quote {
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #fff;
+    text-shadow: 0 2px 12px rgba(0,0,0,0.5);
+    margin-bottom: 12px;
+  }
+  .modal-attr {
+    font-size: 12px;
+    color: rgba(255,255,255,0.5);
+    letter-spacing: 1px;
+  }
+
+  .modal-body {
+    padding: 22px 24px 30px;
+  }
+
+  .modal-tags {
+    display: flex; gap: 8px; flex-wrap: wrap;
+    margin-bottom: 18px;
+  }
+  .mtag {
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    border: 1px solid #2a2a3a;
+    color: #888;
+  }
+  .mtag strong { color: var(--verde-light); }
+
+  .msection {
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #444;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .modal-legenda {
+    background: #0a0a12;
+    border-radius: 10px;
+    padding: 16px 18px;
+    font-size: 13px;
+    line-height: 1.75;
+    color: #ccc;
+    white-space: pre-line;
+    border-left: 2px solid var(--verde);
+    margin-bottom: 18px;
+  }
+
+  .modal-arte {
+    background: #0a0a12;
+    border-radius: 10px;
+    padding: 14px 18px;
+    font-size: 12px;
+    line-height: 1.8;
+    color: #aaa;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    white-space: pre-line;
+    border-left: 2px solid #333;
+    margin-bottom: 18px;
+  }
+
+  .modal-hashtags {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin-bottom: 16px;
+  }
+  .ht {
+    background: rgba(64,145,108,0.12);
+    color: var(--verde-light);
+    padding: 3px 9px;
+    border-radius: 12px;
+    font-size: 10px;
+    border: 1px solid rgba(64,145,108,0.25);
+  }
+
+  .slide-item {
+    background: #0a0a12;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 6px;
+    font-size: 11.5px;
+    color: #bbb;
+    border-left: 2px solid #333;
+    display: flex; gap: 10px;
+  }
+  .slide-n {
+    color: var(--verde-light);
+    font-weight: 700;
+    font-size: 11px;
+    flex-shrink: 0;
+    width: 16px;
+    padding-top: 1px;
+  }
+
+  .nota {
+    background: rgba(255,209,102,0.06);
+    border: 1px solid rgba(255,209,102,0.15);
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 11px;
+    color: rgba(255,209,102,0.7);
+    line-height: 1.6;
+  }
+  .nota::before { content: "✏ Nota de produção — "; font-weight: 600; }
+
+  /* ── FOOTER ── */
+  .footer {
+    text-align: center; padding: 20px 16px;
+    font-size: 10px; color: #333;
+    max-width: 640px; margin: 0 auto;
+  }
+  .footer a { color: var(--verde-light); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<!-- PERFIL -->
+<div class="header">
+  <div class="profile-pic">🌍</div>
+  <div class="profile-info">
+    <div class="handle">duvidgeo</div>
+    <div class="bio">
+      Geo sem medo. Aprenda porque o mundo é fascinante,<br>
+      não porque a prova cobra.<br>
+      <em>duvid.com.br</em>
+    </div>
+  </div>
+  <div class="stats">
+    <div class="stat"><div class="num">9</div><div class="label">posts</div></div>
+    <div class="stat"><div class="num">—</div><div class="label">seguidores</div></div>
+    <div class="stat"><div class="num">—</div><div class="label">seguindo</div></div>
+  </div>
+</div>
+
+<!-- DESTAQUES -->
+<div class="destaques">
+  <div class="destaque-item"><div class="destaque-ring">🌍</div><div class="destaque-label">Geo do Dia</div></div>
+  <div class="destaque-item"><div class="destaque-ring">🎮</div><div class="destaque-label">Como Jogar</div></div>
+  <div class="destaque-item"><div class="destaque-ring">🏆</div><div class="destaque-label">Ranking</div></div>
+  <div class="destaque-item"><div class="destaque-ring">📖</div><div class="destaque-label">Blog</div></div>
+  <div class="destaque-item"><div class="destaque-ring">✨</div><div class="destaque-label">Conquistas</div></div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab active">⊞</div>
+  <div class="tab">☰</div>
+  <div class="tab">🏷</div>
+</div>
+
+<div class="grid-hint">clique em qualquer post para ver legenda e detalhes</div>
+
+<!-- GRID 3×3 — ordem Instagram: P7 P8 P9 / P4 P5 P6 / P1 P2 P3 -->
+<div class="grid">
+
+  <!-- linha topo -->
+  <div class="post-card p7" onclick="openModal(7)">
+    <div class="post-inner">
+      <div class="post-num">P7</div>
+      <div class="post-quote" style="font-size:8px;">"A aprendizagem é a própria essência da humildade: aprender de tudo e de todos."</div>
+      <div class="post-attr">— Krishnamurti</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p8" onclick="openModal(8)">
+    <div class="post-inner" style="background:#FFD166;width:100%;height:100%;justify-content:center;">
+      <div class="post-num" style="color:rgba(0,0,0,0.2);">P8</div>
+      <div style="font-family:'Lora',serif;font-size:14px;font-weight:700;color:#1A1A2E;line-height:1.5;">Curiosidade<br>não tem<br>nota.</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p9" onclick="openModal(9)">
+    <div class="post-inner">
+      <div class="post-num">P9</div>
+      <!-- Globinho pixel art SVG -->
+      <svg class="globinho-svg" width="44" height="50" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;opacity:0.9;">
+        <rect x="3" y="0" width="6" height="1" fill="#40916C"/>
+        <rect x="1" y="1" width="10" height="1" fill="#40916C"/>
+        <rect x="0" y="2" width="12" height="5" fill="#52B788"/>
+        <rect x="1" y="7" width="10" height="2" fill="#40916C"/>
+        <rect x="3" y="9" width="6" height="2" fill="#2D6A4F"/>
+        <rect x="2" y="3" width="2" height="2" fill="#1A1A2E"/>
+        <rect x="8" y="3" width="2" height="2" fill="#1A1A2E"/>
+        <rect x="3" y="3" width="1" height="1" fill="#fff"/>
+        <rect x="9" y="3" width="1" height="1" fill="#fff"/>
+        <rect x="4" y="6" width="4" height="1" fill="#1A1A2E"/>
+        <rect x="3" y="5" width="1" height="1" fill="#1A1A2E"/>
+        <rect x="8" y="5" width="1" height="1" fill="#1A1A2E"/>
+      </svg>
+      <div class="post-frase" style="font-family:'Lora',serif;font-style:italic;font-size:8.5px;line-height:1.6;">Geo sem medo.<br>É isso que estamos<br>construindo.</div>
+      <div style="font-family:'Press Start 2P',monospace;font-size:5.5px;color:var(--verde-light);margin-top:8px;">duvid.com.br</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <!-- linha meio -->
+  <div class="post-card p4" onclick="openModal(4)">
+    <div class="post-inner">
+      <div class="post-num">P4</div>
+      <div class="post-frase" style="font-size:11px;line-height:1.7;">Você não odeia<br>geografia.</div>
+      <div style="width:24px;height:1px;background:rgba(255,255,255,0.2);margin:8px auto;"></div>
+      <div class="post-frase" style="font-size:11px;line-height:1.7;color:rgba(255,255,255,0.6);">Você odeia<br>como ela foi<br>ensinada.</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p5" onclick="openModal(5)">
+    <div class="post-inner">
+      <div class="post-num">P5</div>
+      <div class="post-frase" style="font-size:8px;color:rgba(255,255,255,0.5);margin-bottom:6px;font-weight:400;">Por que São Paulo tem<br>mais engarrafamentos<br>que qualquer cidade<br>europeia de mesmo<br>tamanho?</div>
+      <div style="width:20px;height:1px;background:rgba(255,255,255,0.1);margin:4px auto;"></div>
+      <div class="post-frase" style="font-size:7px;color:rgba(255,255,255,0.35);font-weight:400;">desliza ›</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p6" onclick="openModal(6)">
+    <div class="post-inner">
+      <div class="post-num">P6</div>
+      <svg class="globinho-svg" width="40" height="46" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:8px;">
+        <rect x="3" y="0" width="6" height="1" fill="#74C69D"/>
+        <rect x="1" y="1" width="10" height="1" fill="#74C69D"/>
+        <rect x="0" y="2" width="12" height="5" fill="#95D5B2"/>
+        <rect x="1" y="7" width="10" height="2" fill="#74C69D"/>
+        <rect x="3" y="9" width="6" height="2" fill="#52B788"/>
+        <rect x="2" y="3" width="2" height="2" fill="#1A1A2E"/>
+        <rect x="8" y="3" width="2" height="2" fill="#1A1A2E"/>
+        <rect x="3" y="3" width="1" height="1" fill="#fff"/>
+        <rect x="9" y="3" width="1" height="1" fill="#fff"/>
+        <rect x="3" y="6" width="6" height="1" fill="#1A1A2E"/>
+      </svg>
+      <div class="post-frase" style="font-size:8px;line-height:1.6;">Ele não vai<br>te cobrar.<br>Vai te acompanhar.</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <!-- linha base (publicados primeiro) -->
+  <div class="post-card p1" onclick="openModal(1)">
+    <div class="post-inner">
+      <div class="post-num">P1</div>
+      <div style="font-family:'Lora',serif;font-style:italic;font-size:9px;line-height:1.8;color:rgba(255,255,255,0.9);text-align:center;">
+        Você vai aprender<br>geo aqui.<br><br>
+        <span style="color:rgba(255,255,255,0.4);font-size:8px;">Não porque vai cair<br>na prova.</span>
+      </div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p2" onclick="openModal(2)">
+    <div class="post-inner">
+      <div class="post-num">P2</div>
+      <div class="post-quote" style="font-size:9.5px;line-height:1.7;">"Uma mente com<br>medo nunca é livre."</div>
+      <div class="post-attr" style="margin-top:8px;">— Krishnamurti</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+  <div class="post-card p3" onclick="openModal(3)">
+    <div class="post-inner">
+      <div class="post-num">P3</div>
+      <div class="post-frase" style="font-size:9px;line-height:1.7;">Você não está<br>competindo com<br>seu colega.</div>
+      <div style="width:20px;height:1px;background:rgba(255,255,255,0.15);margin:7px auto;"></div>
+      <div class="post-frase" style="font-size:9px;line-height:1.7;color:rgba(255,255,255,0.5);">Estão construindo<br>algo juntos.</div>
+    </div>
+    <div class="post-overlay">ver post</div>
+  </div>
+
+</div>
+
+<div class="footer">
+  Mockup v2 · <a href="https://duvid.com.br">duvid.com.br</a> · @duvidgeo
+</div>
+
+<!-- ═══════════════════ MODAL ═══════════════════ -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeOutside(event)">
+<div class="modal" id="modalEl">
+
+  <div class="modal-post-preview" id="mBg">
+    <button class="modal-close" onclick="closeModal()">✕</button>
+    <div class="modal-post-num" id="mNum"></div>
+    <div class="modal-quote" id="mQuote"></div>
+    <div class="modal-attr" id="mAttr"></div>
+  </div>
+
+  <div class="modal-body">
+    <div class="modal-tags" id="mTags"></div>
+
+    <div class="msection">Texto da arte (o que aparece no post)</div>
+    <div class="modal-arte" id="mArte"></div>
+
+    <div class="msection">Legenda</div>
+    <div class="modal-legenda" id="mLeg"></div>
+
+    <div id="mSlidesWrap" style="display:none;margin-bottom:18px;">
+      <div class="msection">Slides</div>
+      <div id="mSlides"></div>
+    </div>
+
+    <div class="msection">Hashtags</div>
+    <div class="modal-hashtags" id="mHt"></div>
+
+    <div id="mNotaWrap" style="display:none;">
+      <div class="nota" id="mNota"></div>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<script>
+const POSTS = {
+  1: {
+    bg: '#1A1A2E',
+    num: 'POST 1 — Publicar primeiro',
+    quote: 'Você vai aprender geo aqui.\n\nNão porque vai cair na prova.\n\nPortanto o mundo é muito mais interessante do que qualquer prova consegue medir.',
+    attr: '',
+    formato: 'Imagem única',
+    tipo: 'Manifesto de abertura',
+    arte: `Você vai aprender geo aqui.
+
+Não porque vai cair na prova.
+
+Porque o mundo é muito mais
+interessante do que qualquer
+prova consegue medir.`,
+    legenda: `Esse é o Duvid.
+
+Não é um cursinho. Não é uma lista de conteúdos para decorar.
+É um lugar onde a geografia existe porque o mundo existe.
+
+Bem-vindo(a).
+
+duvid.com.br`,
+    slides: [],
+    hashtags: ['#duvidgeo','#geografiasemmedo','#aprender','#educacao','#ensinomedio','#geografiagamificada'],
+    nota: 'Tipografia grande, bastante respiro entre as linhas. O branco ao redor da frase é parte do design. Resistir ao impulso de encher o frame.'
+  },
+  2: {
+    bg: '#1B4332',
+    num: 'POST 2 — Dia 2',
+    quote: '"Uma mente com medo\nnunca é livre."',
+    attr: '— Krishnamurti',
+    formato: 'Imagem única',
+    tipo: 'Krishnamurti · Filosofia',
+    arte: `"Uma mente com medo
+nunca é livre."
+
+— Krishnamurti`,
+    legenda: `A escola ensinou a maior parte de nós a ter medo.
+
+Medo de errar. Medo de não saber. Medo de não passar.
+
+A gente acredita que aprender funciona ao contrário disso.
+
+duvid.com.br`,
+    slides: [],
+    hashtags: ['#duvidgeo','#krishnamurti','#educacao','#aprendersemmedo','#geografiasemmedo','#ensinomedio'],
+    nota: 'Esse post não explica. Não tem CTA urgente. Ele só diz e deixa o silêncio trabalhar. Uma frase. Uma assinatura. Nada mais.'
+  },
+  3: {
+    bg: '#0F2340',
+    num: 'POST 3 — Dia 3',
+    quote: 'Você não está competindo com seu colega.\n\nEstão construindo algo juntos.',
+    attr: '',
+    formato: 'Carrossel (3 slides)',
+    tipo: 'Colaborativo · Sistema',
+    arte: `Você não está
+competindo com
+seu colega.
+
+Estão construindo
+algo juntos.`,
+    legenda: `A maioria dos apps de estudo usa ranking para criar ansiedade individual.
+
+A gente fez diferente. Aqui o ranking é coletivo: quando você estuda, sua turma inteira avança.
+
+Desliza pra entender como funciona.`,
+    slides: [
+      'Slide 1: "Você não está competindo com seu colega. Estão construindo algo juntos."',
+      'Slide 2: "No Duvid, o ranking é por turma e por escola. Quando você faz uma aula, sua turma sobe." — com ilustração pixel do sistema',
+      'Slide 3: Globinho + "O Globinho não persegue você. Ele só aparece quando você aparece. — duvid.com.br"'
+    ],
+    hashtags: ['#duvidgeo','#aprenderjuntos','#colaborativo','#geografiagamificada','#educacao','#ensinomedio','#geografiasemmedo'],
+    nota: ''
+  },
+  4: {
+    bg: '#16213E',
+    num: 'POST 4 — Dia 4',
+    quote: 'Você não odeia\ngeografia.\n\nVocê odeia como ela\nfoi ensinada.',
+    attr: '',
+    formato: 'Carrossel (4 slides)',
+    tipo: 'Provocação · Educação',
+    arte: `Você não odeia
+geografia.
+
+[slide 2]
+
+Você odeia
+como ela foi
+ensinada.`,
+    legenda: `Essa é a coisa que mais ouvi como professor: "eu não gosto de geo".
+
+Não acredito nisso. Acredito que não gostam da versão da geo que receberam.
+
+Uma que pede para decorar, não para entender.
+Uma que avalia por medo, não por curiosidade.
+
+Desliza.`,
+    slides: [
+      'Slide 1: "Você não odeia geografia." — texto grande, fundo escuro',
+      'Slide 2: "Você odeia como ela foi ensinada." — mesmo visual, revelação',
+      'Slide 3: "Decorar capitais não é aprender. Entender por que as capitais estão onde estão — isso é aprender."',
+      'Slide 4: "A diferença está no método. E na intenção. O Duvid existe para isso. — duvid.com.br"'
+    ],
+    hashtags: ['#duvidgeo','#educacao','#geografiasemmedo','#professor','#ensinomedio','#aprender','#geografiagamificada'],
+    nota: 'O ritmo lento entre slides (uma ideia por slide) é intencional. Deixa a pessoa processar cada frase antes da próxima.'
+  },
+  5: {
+    bg: '#0D2137',
+    num: 'POST 5 — Dia 5',
+    quote: 'Por que São Paulo tem mais engarrafamentos do que qualquer cidade europeia de mesmo tamanho?',
+    attr: '↓ desliza',
+    formato: 'Carrossel (4 slides)',
+    tipo: 'O mundo é fascinante',
+    arte: `Por que São Paulo tem mais
+engarrafamentos do que
+qualquer cidade europeia
+de mesmo tamanho?`,
+    legenda: `A geografia não é uma lista de capitais.
+
+É a ciência que explica por que o mundo é assim — e não de outro jeito.
+
+Desliza.`,
+    slides: [
+      'Slide 1: A pergunta — "Por que São Paulo tem mais engarrafamentos do que qualquer cidade europeia de mesmo tamanho?"',
+      'Slide 2: Resposta (parte 1) — crescimento horizontal, especulação imobiliária, indústria automobilística dos anos 50',
+      'Slide 3: Resposta (parte 2) — como geo urbana, história econômica e política pública se cruzam num único congestionamento',
+      'Slide 4: "Esse tipo de pergunta não cabe num vestibular de múltipla escolha. Mas é exatamente o tipo de coisa que a geografia existe para responder. — duvid.com.br"'
+    ],
+    hashtags: ['#duvidgeo','#geografiaurbana','#saopaulao','#geonavidareal','#educacao','#geografiagamificada','#ensinomedio'],
+    nota: ''
+  },
+  6: {
+    bg: '#2D6A4F',
+    num: 'POST 6 — Dia 6',
+    quote: 'Ele não vai te cobrar.\nEle vai te acompanhar.',
+    attr: '— sobre o Globinho',
+    formato: 'Carrossel (3 slides)',
+    tipo: 'Apresentação do Globinho',
+    arte: `Esse é o Globinho.
+
+Ele não vai te cobrar.
+Ele vai te acompanhar.`,
+    legenda: `O mascote do Duvid não tem notificação de streak.
+
+Ele não te manda mensagem às 22h dizendo que você vai perder tudo.
+
+Ele só está lá quando você está.`,
+    slides: [
+      'Slide 1: Globinho pixel art + "Esse é o Globinho. Ele não vai te cobrar. Ele vai te acompanhar."',
+      'Slide 2: "Ele aparece quando você termina uma aula. Quando acerta uma questão. Quando sua turma sobe no ranking. Não quando você falha."',
+      'Slide 3: "Alguns mascotes existem para criarem culpa quando você some. O Globinho existe para celebrar quando você volta. — duvid.com.br"'
+    ],
+    hashtags: ['#duvidgeo','#globinho','#mascote','#geografiagamificada','#aprender','#educacao','#ensinomedio'],
+    nota: 'Referência implícita ao Duolingo — quem conhece vai entender. Quem não conhece vai achar o Globinho simpático de qualquer forma.'
+  },
+  7: {
+    bg: '#1B3A2F',
+    num: 'POST 7 — Dia 7',
+    quote: '"A aprendizagem é a própria essência da humildade:\naprender de tudo e de todos."',
+    attr: '— Krishnamurti',
+    formato: 'Carrossel (4 slides)',
+    tipo: 'Colaborativo · Krishnamurti',
+    arte: `"A aprendizagem é a
+própria essência da
+humildade: aprender de
+tudo e de todos."
+
+— Krishnamurti`,
+    legenda: `A maioria dos sistemas de ranking coloca as pessoas umas contra as outras.
+
+A gente acredita que o oposto funciona melhor: quando sua turma sobe, você sobe. Quando você estuda, sua escola avança.
+
+Desliza.`,
+    slides: [
+      'Slide 1: Citação de Krishnamurti — tipografia limpa, fundo verde escuro',
+      'Slide 2: "No Duvid, um aluno que estuda não só avança para si mesmo. Ele puxa a turma inteira."',
+      'Slide 3: "O ranking por escola não é para envergonhar quem está embaixo. É para mostrar o que é possível quando todo mundo contribui."',
+      'Slide 4: "Geo coletiva. Aprender junto. — duvid.com.br"'
+    ],
+    hashtags: ['#duvidgeo','#aprenderjuntos','#colaborativo','#krishnamurti','#educacao','#geografiagamificada','#ensinomedio','#geografiasemmedo'],
+    nota: ''
+  },
+  8: {
+    bg: '#FFD166',
+    num: 'POST 8 — Dia 8',
+    quote: 'Curiosidade\nnão tem nota.',
+    attr: '',
+    formato: 'Imagem única',
+    tipo: 'Frase · Filosofia do Duvid',
+    arte: `Curiosidade
+não tem nota.`,
+    legenda: `Quando a escola dá nota para tudo, a curiosidade vira risco.
+
+Se eu perguntar algo fora do assunto, vou parecer que não sei.
+Se eu errar, vai contar contra mim.
+
+Então a gente para de perguntar.
+
+O Duvid existe para desfazer isso.
+
+duvid.com.br`,
+    slides: [],
+    hashtags: ['#duvidgeo','#curiosidade','#educacao','#aprendersemmedo','#geografiasemmedo','#ensinomedio'],
+    nota: 'O mais simples visualmente dos 9 posts — e talvez o mais forte. Fundo amarelo, tipografia escura, uma frase. Não colocar mais nada.'
+  },
+  9: {
+    bg: '#111118',
+    num: 'POST 9 — Fecha o grid',
+    quote: 'Geo sem medo.\n\nÉ isso que estamos construindo.\n\nEntra.',
+    attr: 'duvid.com.br',
+    formato: 'Imagem única',
+    tipo: 'Convite final',
+    arte: `Geo sem medo.
+
+É isso que estamos
+construindo.
+
+Entra.
+duvid.com.br`,
+    legenda: `Nove posts. Uma ideia só.
+
+Aprender não precisa doer.
+A geografia não precisa ser chata.
+O estudo não precisa ser solitário.
+
+O Duvid é gratuito e está esperando.
+
+duvid.com.br`,
+    slides: [],
+    hashtags: ['#duvidgeo','#geografiasemmedo','#aprender','#educacao','#geografiagamificada','#ensinomedio','#aprenderjuntos'],
+    nota: 'Fecha o ciclo dos 9 posts. Tom de convite, não de comercial. "Entra" — não "ACESSE AGORA".'
+  }
+};
+
+function openModal(n) {
+  const p = POSTS[n];
+  document.getElementById('mBg').style.background = p.bg;
+  document.getElementById('mNum').textContent = p.num;
+  document.getElementById('mQuote').textContent = p.quote;
+  document.getElementById('mAttr').textContent = p.attr;
+
+  // quote color for p8
+  document.getElementById('mQuote').style.color = n === 8 ? '#1A1A2E' : '#fff';
+  document.getElementById('mAttr').style.color = n === 8 ? 'rgba(26,26,46,0.5)' : 'rgba(255,255,255,0.5)';
+  document.getElementById('mNum').style.color = n === 8 ? 'rgba(26,26,46,0.2)' : 'rgba(255,255,255,0.25)';
+
+  document.getElementById('mTags').innerHTML = `
+    <div class="mtag"><strong>Formato:</strong> ${p.formato}</div>
+    <div class="mtag"><strong>Tipo:</strong> ${p.tipo}</div>
+  `;
+
+  document.getElementById('mArte').textContent = p.arte;
+  document.getElementById('mLeg').textContent = p.legenda;
+
+  const sw = document.getElementById('mSlidesWrap');
+  if (p.slides.length) {
+    sw.style.display = 'block';
+    document.getElementById('mSlides').innerHTML = p.slides.map((s,i) =>
+      `<div class="slide-item"><div class="slide-n">${i+1}</div><div>${s}</div></div>`
+    ).join('');
+  } else {
+    sw.style.display = 'none';
+  }
+
+  document.getElementById('mHt').innerHTML = p.hashtags.map(h =>
+    `<span class="ht">${h}</span>`
+  ).join('');
+
+  const nw = document.getElementById('mNotaWrap');
+  if (p.nota) {
+    nw.style.display = 'block';
+    document.getElementById('mNota').textContent = p.nota;
+  } else {
+    nw.style.display = 'none';
+  }
+
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+function closeOutside(e) {
+  if (e.target === document.getElementById('modalOverlay')) closeModal();
+}
+</script>
+</body>
+</html>

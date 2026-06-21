@@ -22,7 +22,7 @@
       "todas as proposições."
     ],
     "correta": 2,
-    "comentario": "A queda da mortalidade infantil no Brasil foi resultado de avanços combinados em saneamento básico, vacinação, programas de aleitamento materno e assistência ao pré-natal. Países em desenvolvimento que alcançaram melhores indicadores de saúde infantil passaram por transições demográficas mais rápidas, com queda posterior da natalidade. As proposições I, II e III refletem corretamente esse processo de desenvolvimento humano.",
+    "comentario": "<p>A queda da mortalidade infantil no Brasil foi resultado de avanços combinados em saneamento básico, vacinação, programas de aleitamento materno e assistência ao pré-natal. Países em desenvolvimento que alcançaram melhores indicadores de saúde infantil passaram por transições demográficas mais rápidas, com queda posterior da natalidade. As proposições I, II e III refletem corretamente esse processo de desenvolvimento humano.</p>",
     "ajuda": "O gráfico mostra taxas de mortalidade infantil em diferentes países. Analise cada proposição comparando os dados: tendências de queda, diferenças entre países desenvolvidos e em desenvolvimento. Elimine as que contradizem os dados do gráfico."
   },
   {
@@ -34,7 +34,7 @@
       "transição demográfica",
       "crescimento populacional",
       "pirâmide etária",
-      "Brasil"
+      "brasil"
     ],
     "texto_apoio": "“Estamos vivendo uma nova fase na história, uma mudança no patamar da presença humana na Terra. O crescimento explosivo da população, que nos levou ao presente marco de 7 bilhões de pessoas, com a atual projeção de 10 bilhões em meados do século XXI, é uma realidade histórico-social de pouco mais de 200 anos”.",
     "fonte_apoio": "https://museudoamanha.org.br/",
@@ -48,7 +48,7 @@
       "O crescimento vegetativo brasileiro apresentou aumento, já que parcela significativa de mão de obra feminina foi dispensada influenciando no aumento do número de crianças de 0 a 4 anos."
     ],
     "correta": 0,
-    "comentario": "O envelhecimento da população brasileira segue a tendência global de transição demográfica, com queda na natalidade e aumento da expectativa de vida. Esse processo pressiona os sistemas de saúde pública, que precisam se reorganizar para atender doenças crônicas e degenerativas típicas da terceira idade. A pirâmide etária com topo mais largo indica demanda crescente por cuidados geriátricos, aposentadorias e políticas de longevidade.",
+    "comentario": "<p>O envelhecimento da população brasileira segue a tendência global de transição demográfica, com queda na natalidade e aumento da expectativa de vida. Esse processo pressiona os sistemas de saúde pública, que precisam se reorganizar para atender doenças crônicas e degenerativas típicas da terceira idade. A pirâmide etária com topo mais largo indica demanda crescente por cuidados geriátricos, aposentadorias e políticas de longevidade.</p>",
     "ajuda": "A pirâmide etária projetada para 2020 tem base mais estreita e topo mais largo. Isso indica envelhecimento populacional, redução da natalidade e aumento da expectativa de vida. Pense nas consequências para políticas públicas e mercado de trabalho."
   },
   {
@@ -60,7 +60,7 @@
       "transição demográfica",
       "pirâmide etária",
       "estrutura etária",
-      "Brasil"
+      "brasil"
     ],
     "pergunta": "Em seu processo de transição demográfica, a população brasileira registrou mudanças relacionadas à revolução médico-sanitária. Essas mudanças provocaram:\n\nAlternativas",
     "alternativas": [
@@ -71,7 +71,7 @@
       "a redução da taxa de fertilidade e a diminuição da população absoluta."
     ],
     "correta": 0,
-    "comentario": "A revolução médico-sanitária do século XX — com antibióticos, vacinas e saneamento — reduziu drasticamente a mortalidade no Brasil sem que houvesse queda imediata na natalidade. Esse descompasso gerou um boom populacional nas décadas de 1950 a 1970. Posteriormente, a urbanização, o acesso à educação feminina e os métodos contraceptivos levaram à queda da fecundidade e ao aumento da expectativa de vida.",
+    "comentario": "<p>A revolução médico-sanitária do século XX — com antibióticos, vacinas e saneamento — reduziu drasticamente a mortalidade no Brasil sem que houvesse queda imediata na natalidade. Esse descompasso gerou um boom populacional nas décadas de 1950 a 1970. Posteriormente, a urbanização, o acesso à educação feminina e os métodos contraceptivos levaram à queda da fecundidade e ao aumento da expectativa de vida.</p>",
     "ajuda": "A revolução médico-sanitária reduziu a mortalidade por doenças infecciosas, mas a natalidade demorou a cair. Isso gerou crescimento populacional acelerado. Reflita sobre quais indicadores demográficos foram mais diretamente afetados."
   },
   {
@@ -83,7 +83,7 @@
       "envelhecimento populacional",
       "estrutura etária",
       "política pública",
-      "Brasil"
+      "brasil"
     ],
     "texto_apoio": "BRASIL JÁ TEM 30,2 MILHÕES DE IDOSOS “A população com 60 anos ou mais de idade passou de 25,4 milhões em 2012 para 30,2 milhões em 2017, um aumento de 18,8% em cinco anos. O crescimento evidencia o envelhecimento gradativo dos brasileiros e foi constatado na pesquisa “Características Gerais dos Domicílios e dos Moradores 2017”, divulgada no dia 26 de abril de 2017 pelo IBGE. As mulheres são maioria com 16,9 milhões (56% dos idosos)”.",
     "fonte_apoio": "Fonte: Diário de Pernambuco. Disponível em: www.diariodepernambuco.com.br. Acesso em: 13 ago. 2018. (adaptado)",
@@ -97,7 +97,7 @@
       "desigualdades Desenvolver políticas públicas que visem aprofundar as entre homens e mulheres jovens."
     ],
     "correta": 2,
-    "comentario": "O envelhecimento populacional impõe ao Estado reformas estruturais em sistemas de previdência social, saúde e assistência ao idoso. A razão de dependência — proporção de idosos em relação à população economicamente ativa — tende a aumentar, pressionando as finanças públicas. Políticas públicas proativas incluem ampliação de UTIs geriátricas, centros-dia e reformas previdenciárias que reflitam a nova realidade demográfica.",
+    "comentario": "<p>O envelhecimento populacional impõe ao Estado reformas estruturais em sistemas de previdência social, saúde e assistência ao idoso. A razão de dependência — proporção de idosos em relação à população economicamente ativa — tende a aumentar, pressionando as finanças públicas. Políticas públicas proativas incluem ampliação de UTIs geriátricas, centros-dia e reformas previdenciárias que reflitam a nova realidade demográfica.</p>",
     "ajuda": "O envelhecimento populacional exige adaptação das políticas públicas. Pense em quais áreas são diretamente afetadas pelo aumento da proporção de idosos: saúde, previdência, mobilidade. Descarte alternativas que não se referem a esse grupo específico."
   },
   {
@@ -120,7 +120,7 @@
       "Aumento da renovação da população economicamente ativa."
     ],
     "correta": 1,
-    "comentario": "O crescimento vegetativo corresponde à diferença entre taxa de natalidade e taxa de mortalidade. Com a queda acentuada da fecundidade registrada no Brasil entre 1940 e 2010, o ritmo de crescimento da população diminuiu significativamente. Esse processo marca a segunda fase da transição demográfica, em que a população envelhece e o crescimento natural se desacelera.",
+    "comentario": "<p>O crescimento vegetativo corresponde à diferença entre taxa de natalidade e taxa de mortalidade. Com a queda acentuada da fecundidade registrada no Brasil entre 1940 e 2010, o ritmo de crescimento da população diminuiu significativamente. Esse processo marca a segunda fase da transição demográfica, em que a população envelhece e o crescimento natural se desacelera.</p>",
     "ajuda": "O gráfico mostra queda na taxa de fecundidade total entre 1940 e 2010. Uma menor fecundidade significa menos filhos por mulher. Qual é a consequência demográfica mais direta dessa tendência para a estrutura etária da população?"
   },
   {
@@ -132,7 +132,7 @@
       "pirâmide etária",
       "envelhecimento populacional",
       "estrutura demográfica",
-      "Brasil"
+      "brasil"
     ],
     "imagem_apoio": "2ano/img/223/s23q6.png",
     "pergunta": "Na pirâmide etária brasileira, o alargamento do topo e o estreitamento da base sugerem, ao longo das décadas, uma população com",
@@ -144,7 +144,7 @@
       "queda no número absoluto de jovens e baixa taxa de fecundidade."
     ],
     "correta": 1,
-    "comentario": "A pirâmide etária com topo alargado e base estreita é característica de países em estágio avançado de transição demográfica, onde a mortalidade foi controlada e a fecundidade caiu abaixo do nível de reposição. No Brasil, esse padrão se consolidou a partir dos anos 1990, com expectativa de vida ultrapassando 75 anos e taxa de fecundidade abaixo de 1,8 filho por mulher nas regiões mais urbanizadas.",
+    "comentario": "<p>A pirâmide etária com topo alargado e base estreita é característica de países em estágio avançado de transição demográfica, onde a mortalidade foi controlada e a fecundidade caiu abaixo do nível de reposição. No Brasil, esse padrão se consolidou a partir dos anos 1990, com expectativa de vida ultrapassando 75 anos e taxa de fecundidade abaixo de 1,8 filho por mulher nas regiões mais urbanizadas.</p>",
     "ajuda": "A pirâmide etária com topo largo e base estreita indica baixa natalidade e alta longevidade. Pense no que isso significa para cada indicador: a expectativa de vida é alta, a natalidade é baixa, mas isso não equivale a queda no número absoluto de adultos imediatamente."
   },
   {
@@ -167,7 +167,7 @@
       "ampliação da expectativa média de vida."
     ],
     "correta": 3,
-    "comentario": "A transição demográfica brasileira acelerou-se nas últimas décadas do século XX, com melhoria do acesso à saúde, urbanização e empoderamento feminino reduzindo a fecundidade. Simultaneamente, o controle das doenças infecciosas e a melhoria nutricional ampliaram a longevidade. O resultado é uma população que vive mais, mas com menos nascimentos por mulher, configurando o envelhecimento progressivo da pirâmide.",
+    "comentario": "<p>A transição demográfica brasileira acelerou-se nas últimas décadas do século XX, com melhoria do acesso à saúde, urbanização e empoderamento feminino reduzindo a fecundidade. Simultaneamente, o controle das doenças infecciosas e a melhoria nutricional ampliaram a longevidade. O resultado é uma população que vive mais, mas com menos nascimentos por mulher, configurando o envelhecimento progressivo da pirâmide.</p>",
     "ajuda": "O texto descreve o comportamento demográfico atual do Brasil. Lembre-se que o Brasil está em fase avançada de transição demográfica: queda da natalidade, queda da mortalidade e aumento da expectativa de vida são as tendências dominantes."
   },
   {
@@ -190,7 +190,7 @@
       "Apenas I e III estão corretas."
     ],
     "correta": 2,
-    "comentario": "Thomas Malthus argumentou no século XVIII que o crescimento populacional tende a superar a produção de alimentos, levando a crises periódicas de fome e miséria. As afirmativas I e II descrevem distorções ou usos ideológicos do malthusianismo, como culpar os pobres pela superpopulação. Apenas a afirmativa III está correta ao contextualizar criticamente as ideias de Malthus dentro de sua época histórica.",
+    "comentario": "<p>Thomas Malthus argumentou no século XVIII que o crescimento populacional tende a superar a produção de alimentos, levando a crises periódicas de fome e miséria. As afirmativas I e II descrevem distorções ou usos ideológicos do malthusianismo, como culpar os pobres pela superpopulação. Apenas a afirmativa III está correta ao contextualizar criticamente as ideias de Malthus dentro de sua época histórica.</p>",
     "ajuda": "O texto apresenta ideias sobre controle populacional. Relacione as proposições com as teorias demográficas: malthusianismo defende que a superpopulação leva à miséria; o neomalthusianismo propõe controle ativo da natalidade. Verifique quais afirmativas estão corretas."
   },
   {
@@ -213,7 +213,7 @@
       "População residente."
     ],
     "correta": 1,
-    "comentario": "A densidade demográfica, ou população relativa, expressa a quantidade média de habitantes por unidade de área (geralmente km²). É um indicador útil para comparar a distribuição da população entre diferentes territórios, mas não revela desigualdades internas — regiões com mesma densidade podem ter padrões de ocupação muito distintos, como áreas metropolitanas densas e vastas zonas rurais vazias.",
+    "comentario": "<p>A densidade demográfica, ou população relativa, expressa a quantidade média de habitantes por unidade de área (geralmente km²). É um indicador útil para comparar a distribuição da população entre diferentes territórios, mas não revela desigualdades internas — regiões com mesma densidade podem ter padrões de ocupação muito distintos, como áreas metropolitanas densas e vastas zonas rurais vazias.</p>",
     "ajuda": "A expressão em questão se refere à relação entre número de pessoas e área territorial. Pense na definição exata de densidade demográfica: é justamente essa razão entre quantidade de habitantes e extensão do território."
   },
   {
@@ -237,7 +237,7 @@
       "equidade no setor de telecomunicações."
     ],
     "correta": 2,
-    "comentario": "O acesso à informação é profundamente desigual no mundo, com concentração de infraestrutura digital nos países ricos e nas grandes cidades. O mapa evidencia que a chamada 'divisão digital' segue a lógica do subdesenvolvimento: países do Sul Global têm menor penetração de internet, televisão e meios de comunicação, perpetuando a exclusão informacional. Essa desigualdade reforça assimetrias econômicas e políticas entre nações.",
+    "comentario": "<p>O acesso à informação é profundamente desigual no mundo, com concentração de infraestrutura digital nos países ricos e nas grandes cidades. O mapa evidencia que a chamada 'divisão digital' segue a lógica do subdesenvolvimento: países do Sul Global têm menor penetração de internet, televisão e meios de comunicação, perpetuando a exclusão informacional. Essa desigualdade reforça assimetrias econômicas e políticas entre nações.</p>",
     "ajuda": "O mapa provavelmente mostra acesso à internet ou a tecnologias da informação. Pense em como essas tecnologias são distribuídas no mundo: países desenvolvidos têm maior acesso, criando uma divisão digital global. Qual conceito isso expressa?"
   }
 ]

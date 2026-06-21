@@ -19,7 +19,7 @@
       "O segundo maior número dessas aglomerações encontra-se em países da África, as quais se caracterizam por baixo IDH."
     ],
     "correta": 0,
-    "comentario": "Dentre as 20 maiores aglomerações urbanas do mundo, a maioria está na Ásia — incluindo megacidades de países desenvolvidos (Tóquio, Osaka) e em desenvolvimento (Delhi, Xangai, Daca). Isso reflete tanto o alto padrão de vida japonês quanto o crescimento acelerado de metrópoles asiáticas emergentes.",
+    "comentario": "<p>Dentre as 20 maiores aglomerações urbanas do mundo, a maioria está na Ásia — incluindo megacidades de países desenvolvidos (Tóquio, Osaka) e em desenvolvimento (Delhi, Xangai, Daca). Isso reflete tanto o alto padrão de vida japonês quanto o crescimento acelerado de metrópoles asiáticas emergentes.</p>",
     "ajuda": "As megacidades estão concentradas principalmente na Ásia, especialmente em países de grande população como China, Índia, Japão e Indonésia. Ao analisar o gráfico, verifique em qual continente está a maioria das 20 maiores aglomerações urbanas do mundo."
   },
   {
@@ -42,7 +42,7 @@
       "metrópole dispersa e fragmentada, organizada exclusivamente por uma estrutura hierárquica de fluxos materiais."
     ],
     "correta": 0,
-    "comentario": "A metrópole contemporânea é dispersa e policêntrica: diferentes funções (comércio, serviços, indústria) se distribuem por toda a área metropolitana, sem um único centro dominante. Fluxos imateriais (internet, finanças) permitem essa dispersão, conectando lugares distantes como se fossem contíguos.",
+    "comentario": "<p>A metrópole contemporânea é dispersa e policêntrica: diferentes funções (comércio, serviços, indústria) se distribuem por toda a área metropolitana, sem um único centro dominante. Fluxos imateriais (internet, finanças) permitem essa dispersão, conectando lugares distantes como se fossem contíguos.</p>",
     "ajuda": "A metrópole contemporânea não é mais um centro urbano compacto e coeso, mas uma área espalhada, fragmentada e policêntrica. Pense em como a globalização e o avanço dos transportes transformaram a forma urbana das grandes cidades."
   },
   {
@@ -66,7 +66,7 @@
       "Grau de modernização de atividades econômicas."
     ],
     "correta": 4,
-    "comentario": "Em 2007, pela primeira vez na história, a população urbana mundial superou a rural. Mas esse processo foi muito diferente entre continentes: nos países ricos, foi gradual e acompanhou a industrialização (séculos XVIII-XX); nos países em desenvolvimento, foi rápido e gerou megacidades com enorme pobreza urbana.",
+    "comentario": "<p>Em 2007, pela primeira vez na história, a população urbana mundial superou a rural. Mas esse processo foi muito diferente entre continentes: nos países ricos, foi gradual e acompanhou a industrialização (séculos XVIII-XX); nos países em desenvolvimento, foi rápido e gerou megacidades com enorme pobreza urbana.</p>",
     "ajuda": "A urbanização ocorre de formas diferentes conforme o nível de desenvolvimento econômico de cada país. Nos países ricos, foi gradual e acompanhou a industrialização; nos países em desenvolvimento, foi rápida e gerou problemas sociais. Identifique qual fator explica essa diferença."
   },
   {
@@ -90,7 +90,7 @@
       "Refere-se a um conjunto de regiões metropolitanas, que formam áreas com maior número de população do planeta."
     ],
     "correta": 3,
-    "comentario": "Cidades globais são centros de comando da economia mundial: concentram sedes de corporações transnacionais, mercados financeiros, escritórios de consultoria e tomada de decisões estratégicas. Nova York, Londres e Tóquio são classificadas como cidades globais Alfa++ — o nível mais alto na hierarquia urbana mundial.",
+    "comentario": "<p>Cidades globais são centros de comando da economia mundial: concentram sedes de corporações transnacionais, mercados financeiros, escritórios de consultoria e tomada de decisões estratégicas. Nova York, Londres e Tóquio são classificadas como cidades globais Alfa++ — o nível mais alto na hierarquia urbana mundial.</p>",
     "ajuda": "As cidades globais são classificadas por seu grau de importância nas redes de poder econômico, financeiro e cultural. Pense em qual conceito se aplica à fusão ou junção de duas ou mais metrópoles que formam uma grande área urbana contínua."
   },
   {
@@ -100,9 +100,9 @@
     "dificuldade": "media",
     "tags": [
       "urbanização",
-      "África",
-      "Ásia",
-      "América Latina",
+      "áfrica",
+      "ásia",
+      "américa latina",
       "países em desenvolvimento"
     ],
     "texto_apoio": "Embora haja dados comuns que dão unidade ao fenômeno da urbanização na África, na Ásia e na América Latina, os impactos são distintos em cada continente e mesmo dentro de cada país, ainda que as modernizações se deem com o mesmo conjunto de inovações.",
@@ -116,7 +116,7 @@
       "econômico, em função da revolução agrícola que transformou o campo e a cidade e contribuiu para fixação do homem ao lugar."
     ],
     "correta": 2,
-    "comentario": "A urbanização na África, Ásia e América Latina compartilha um traço: foi impulsionada pelo fluxo campo-cidade de populações sem perspectiva no meio rural. Esse êxodo gerou crescimento acelerado das cidades, mas sem infraestrutura adequada — resultado comum nas três regiões, apesar das diferenças regionais.",
+    "comentario": "<p>A urbanização na África, Ásia e América Latina compartilha um traço: foi impulsionada pelo fluxo campo-cidade de populações sem perspectiva no meio rural. Esse êxodo gerou crescimento acelerado das cidades, mas sem infraestrutura adequada — resultado comum nas três regiões, apesar das diferenças regionais.</p>",
     "ajuda": "A urbanização na África, Ásia e América Latina compartilha características como pobreza urbana, infraestrutura precária e crescimento acelerado, mas com diferenças regionais importantes. Pense em qual fator econômico ou histórico é comum a esses continentes."
   },
   {
@@ -138,7 +138,7 @@
       "Atualmente, a poluição do ar, do solo e da água, a poluição visual e sonora e o trânsito caótico são problemas que afetam principalmente as cidades médias dos países subdesenvolvidos. Esses problemas já foram resolvidos nas megalópoles e nas cidades globais, tanto nos países ricos, como nos países em desenvolvimento."
     ],
     "correta": 4,
-    "comentario": "A alternativa incorreta afirma que poluição e trânsito caótico foram 'resolvidos' nas megalópoles dos países ricos. Na realidade, problemas como congestionamentos, poluição e desigualdade urbana persistem em metrópoles ricas como Los Angeles e Paris, embora com perfis diferentes das cidades do Sul Global.",
+    "comentario": "<p>A alternativa incorreta afirma que poluição e trânsito caótico foram 'resolvidos' nas megalópoles dos países ricos. Na realidade, problemas como congestionamentos, poluição e desigualdade urbana persistem em metrópoles ricas como Los Angeles e Paris, embora com perfis diferentes das cidades do Sul Global.</p>",
     "ajuda": "A questão pede a afirmativa INCORRETA sobre a urbanização mundial. Lembre-se de que a urbanização nos países desenvolvidos ocorreu de forma mais gradual, enquanto nos países em desenvolvimento foi mais rápida e desorganizada. Identifique qual afirmativa distorce essa realidade."
   },
   {
@@ -162,7 +162,7 @@
       "a descentralização das atividades e serviços para cidades menores ocasiona perda de poder econômico e político das cidades hegemônicas das redes urbanas"
     ],
     "correta": 3,
-    "comentario": "As redes urbanas hierárquicas conectam cidades de diferentes tamanhos em uma estrutura funcional: metrópoles globais, nacionais, regionais e locais. O desenvolvimento das tecnologias de comunicação e transporte permitiu articular essas redes em escala planetária, criando o fenômeno das cidades globais.",
+    "comentario": "<p>As redes urbanas hierárquicas conectam cidades de diferentes tamanhos em uma estrutura funcional: metrópoles globais, nacionais, regionais e locais. O desenvolvimento das tecnologias de comunicação e transporte permitiu articular essas redes em escala planetária, criando o fenômeno das cidades globais.</p>",
     "ajuda": "A complexificação dos espaços urbanos inclui a descentralização de funções (shoppings, centros médicos, universidades fora do centro) e a formação de redes urbanas hierárquicas. Pense em qual afirmativa descreve corretamente esse processo."
   },
   {
@@ -172,7 +172,7 @@
     "dificuldade": "media",
     "tags": [
       "megacidades",
-      "metrópoles",
+      "metrópole",
       "mapa urbano",
       "distribuição espacial"
     ],
@@ -186,7 +186,7 @@
       "as localizadas no Oriente Médio são expressivas em número, em razão do desenvolvimento econômico gerado pelo petróleo."
     ],
     "correta": 0,
-    "comentario": "Tóquio é a maior megacidade do mundo, com cerca de 37 milhões de habitantes na área metropolitana. Seu crescimento acelerado ocorreu no pós-Segunda Guerra Mundial, impulsionado pelo 'milagre econômico japonês'. As megacidades da América Latina (São Paulo, Cidade do México) cresceram pelo êxodo rural intenso.",
+    "comentario": "<p>Tóquio é a maior megacidade do mundo, com cerca de 37 milhões de habitantes na área metropolitana. Seu crescimento acelerado ocorreu no pós-Segunda Guerra Mundial, impulsionado pelo 'milagre econômico japonês'. As megacidades da América Latina (São Paulo, Cidade do México) cresceram pelo êxodo rural intenso.</p>",
     "ajuda": "As megacidades se concentram principalmente em países em desenvolvimento, especialmente na Ásia e na América Latina. Esse crescimento acelerado resulta de migração rural-urbana intensa e alta natalidade, e não necessariamente de alto padrão de vida."
   },
   {
@@ -209,7 +209,7 @@
       "aumento populacional europeu constante"
     ],
     "correta": 1,
-    "comentario": "Os gráficos de projeção populacional mostram que o crescimento urbano continuará nas próximas décadas, especialmente nos países em desenvolvimento. A urbanização é um processo global irreversível: hoje mais de 55% da população mundial vive em cidades, percentual que deve superar 70% até 2050.",
+    "comentario": "<p>Os gráficos de projeção populacional mostram que o crescimento urbano continuará nas próximas décadas, especialmente nos países em desenvolvimento. A urbanização é um processo global irreversível: hoje mais de 55% da população mundial vive em cidades, percentual que deve superar 70% até 2050.</p>",
     "ajuda": "Os gráficos de projeção populacional revelam tendências demográficas para as próximas décadas. Compare as trajetórias de países desenvolvidos (com envelhecimento e estagnação) e de países em desenvolvimento (com crescimento ainda acelerado)."
   },
   {
@@ -234,7 +234,7 @@
       "I, II e III."
     ],
     "correta": 4,
-    "comentario": "As três proposições estão corretas: o crescimento do setor terciário nas cidades (I), a maior propensão ao turismo e lazer mercantilizado entre urbanitas (II) e a reorganização do espaço em múltiplas escalas por demandas de lazer (III) — desde a habitação até o turismo internacional — são tendências do mundo globalizado.",
+    "comentario": "<p>As três proposições estão corretas: o crescimento do setor terciário nas cidades (I), a maior propensão ao turismo e lazer mercantilizado entre urbanitas (II) e a reorganização do espaço em múltiplas escalas por demandas de lazer (III) — desde a habitação até o turismo internacional — são tendências do mundo globalizado.</p>",
     "ajuda": "A sociedade urbana contemporânea é marcada pela concentração demográfica e pela dispersão das atividades no espaço. Avalie as proposições sobre urbanização e identifique quais delas são falsas ou contraditórias com as tendências atuais."
   }
 ]

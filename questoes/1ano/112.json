@@ -20,8 +20,14 @@
       "é de uso restrito devido a ser um setor estratégico e de garantia de soberania nacional, pois, por meio das imagens, as fronteiras nacionais podem ficar mais bem protegidas."
     ],
     "correta": 3,
-    "comentario": "A cartografia moderna tem aplicações em inúmeros setores socioeconômicos: logística e transporte (GPS e mapas digitais), agricultura de precisão (imagens de satélite), urbanismo (SIG), defesa nacional (cartografia militar) e turismo (mapas interativos). Essa versatilidade confere à produção cartográfica relevância crescente na economia global.",
-    "ajuda": "O texto aborda uma técnica cartográfica específica. Leia com atenção as características descritas (precisão, uso de sensores, imagens digitais etc.) e identifique a qual técnica ou método cartográfico elas se referem."
+    "comentario": "<p>A cartografia moderna tem aplicações em inúmeros setores socioeconômicos: logística e transporte (GPS e mapas digitais), agricultura de precisão (imagens de satélite), urbanismo (SIG), defesa nacional (cartografia militar) e turismo (mapas interativos). Essa versatilidade confere à produção cartográfica relevância crescente na economia global.</p>",
+    "ajuda": "O texto aborda uma técnica cartográfica específica. Leia com atenção as características descritas (precisão, uso de sensores, imagens digitais etc.) e identifique a qual técnica ou método cartográfico elas se referem.",
+    "feedbacks": {
+      "0": "O texto descreve o sensoriamento remoto como uma técnica com 'milhares de possibilidades de informação' usada em vários setores. Afirmar que é de uso restrito contradiz diretamente o que o texto apresenta.",
+      "1": "O texto não afirma que o sensoriamento remoto elimina distorções cartográficas. Essa conclusão extrapola o que foi descrito — o texto foca nas possibilidades de informação geradas, não na correção de distorções.",
+      "2": "O texto descreve justamente o contrário: uma tecnologia sofisticada que gera 'milhares de possibilidades de informação' para múltiplos setores. Não há nenhum indício de que a cartografia seja uma ciência marginal.",
+      "4": "O texto não restringe o sensoriamento remoto à esfera da soberania nacional. Ele menciona aplicações amplas como vegetação, minerais e concentrações — muito além do contexto de fronteiras."
+    }
   },
   {
     "id": 2,
@@ -42,8 +48,14 @@
       "altímetro, GPS, astrolábio."
     ],
     "correta": 2,
-    "comentario": "O sensoriamento remoto capta dados da superfície terrestre sem contato físico, usando sensores em aviões ou satélites. As principais fontes de dados são: fotografias aéreas (alta resolução local), imagens de radar (penetram nuvens) e imagens de satélite multiespectrais (monitoramento de amplas áreas). O INPE usa esse conjunto para monitorar o desmatamento amazônico.",
-    "ajuda": "O sensoriamento remoto é uma técnica que obtém informações sobre objetos ou áreas sem contato físico direto, por meio de sensores instalados em satélites ou aeronaves. Avalie o que a questão afirma sobre suas aplicações ou limitações."
+    "comentario": "<p>O sensoriamento remoto capta dados da superfície terrestre sem contato físico, usando sensores em aviões ou satélites. As principais fontes de dados são: fotografias aéreas (alta resolução local), imagens de radar (penetram nuvens) e imagens de satélite multiespectrais (monitoramento de amplas áreas). O INPE usa esse conjunto para monitorar o desmatamento amazônico.</p>",
+    "ajuda": "O sensoriamento remoto é uma técnica que obtém informações sobre objetos ou áreas sem contato físico direto, por meio de sensores instalados em satélites ou aeronaves. Avalie o que a questão afirma sobre suas aplicações ou limitações.",
+    "feedbacks": {
+      "0": "Termógrafo, bússola e curvímetro são instrumentos de medição direta em campo — não captam dados da superfície à distância. O sensoriamento remoto usa sensores em aeronaves e satélites, não esses equipamentos.",
+      "1": "Cartas marítimas e topográficas são produtos cartográficos prontos (mapas), não técnicas de coleta de dados. Apenas o radar se aproxima do sensoriamento remoto, mas sozinho não define o conjunto da técnica.",
+      "3": "Telescópio, bússola e clinômetro são instrumentos de observação e medição direta. Nenhum deles capta informações da superfície terrestre à distância como fazem os sensores instalados em satélites.",
+      "4": "Altímetro, GPS e astrolábio são instrumentos de posicionamento e medição — não sensores que captam dados da superfície terrestre remotamente. O GPS localiza, mas não faz leitura remota do terreno."
+    }
   },
   {
     "id": 3,
@@ -51,8 +63,8 @@
     "ano": "2021",
     "dificuldade": "facil",
     "tags": [
-      "estrutura interna da Terra",
-      "camadas da Terra",
+      "estrutura interna da terra",
+      "camadas da terra",
       "litosfera"
     ],
     "pergunta": "A Terra é dividida em diferentes camadas com características e composições distintas.\n\nSobre a estrutura e a dinâmica interna da Terra, assinale a alternativa incorreta:",
@@ -63,8 +75,13 @@
       "O manto é a camada intermediária entre o núcleo e a crosta. Os materiais que compõem o manto, em altíssima temperatura, formam o magma, que se movimenta através de correntes de convecção. É dessa camada que provêm as lavas que chegam à superfície quando ocorrem erupções vulcânicas."
     ],
     "correta": 0,
-    "comentario": "A crosta terrestre (litosfera) é a camada mais externa, dividida em crosta continental (granito, 30-50 km) e crosta oceânica (basalto, 5-10 km). As placas tectônicas são fragmentos da litosfera que se movem sobre a astenosfera. A crosta oceânica é mais jovem e mais densa, sendo reciclada nas zonas de subducção onde mergulha sob a continental.",
-    "ajuda": "As camadas da Terra (crosta, manto e núcleo) diferem em composição química, estado físico e temperatura. A crosta oceânica é mais fina e densa (basáltica); a continental é mais espessa e menos densa (granítica). Identifique qual afirmativa melhor descreve essas diferenças."
+    "comentario": "<p>A crosta terrestre (litosfera) é a camada mais externa, dividida em crosta continental (granito, 30-50 km) e crosta oceânica (basalto, 5-10 km). As placas tectônicas são fragmentos da litosfera que se movem sobre a astenosfera. A crosta oceânica é mais jovem e mais densa, sendo reciclada nas zonas de subducção onde mergulha sob a continental.</p>",
+    "ajuda": "As camadas da Terra (crosta, manto e núcleo) diferem em composição química, estado físico e temperatura. A crosta oceânica é mais fina e densa (basáltica); a continental é mais espessa e menos densa (granítica). Identifique qual afirmativa melhor descreve essas diferenças.",
+    "feedbacks": {
+      "1": "A questão pede a alternativa INCORRETA, e esta está correta: o núcleo tem de fato porção interna (sólida) e externa (líquida), e o campo magnético origina-se da dinâmica do núcleo externo. Portanto, não é a resposta.",
+      "2": "A questão pede a INCORRETA, e esta está correta: o conhecimento das camadas internas da Terra foi obtido indiretamente, principalmente pelo estudo das ondas sísmicas e pesquisas do fundo oceânico. Portanto, não é a resposta.",
+      "3": "A questão pede a INCORRETA, e esta está correta: o manto é de fato a camada intermediária, com magma em convecção que alimenta as erupções vulcânicas. Portanto, não é a resposta."
+    }
   },
   {
     "id": 4,
@@ -85,8 +102,14 @@
       "Os períodos Pré-cambriano e Carbonífero, da era Mesozóica, correspondem ao tempo de formação das grandes jazidas de carvão mineral e dos vegetais superiores, como as coníferas."
     ],
     "correta": 1,
-    "comentario": "A Era Cenozoica (início há ~65 Ma) marca o grande desenvolvimento dos mamíferos após a extinção dos dinossauros. É dividida em Paleógeno, Neógeno e Quaternário. O Homo sapiens surgiu no Quaternário, há aproximadamente 300.000 anos na África. Os Andes e o Himalaia também se formaram durante o Cenozoico, por colisão de placas tectônicas.",
-    "ajuda": "As Eras Geológicas representam grandes divisões do tempo geológico. Da mais antiga para a mais recente: Pré-Cambriana (vida unicelular), Paleozoica (invertebrados, peixes, répteis), Mesozoica (dinossauros, Pangeia), Cenozoica (mamíferos, ser humano). Relacione cada era às suas características."
+    "comentario": "<p>A Era Cenozoica (início há ~65 Ma) marca o grande desenvolvimento dos mamíferos após a extinção dos dinossauros. É dividida em Paleógeno, Neógeno e Quaternário. O Homo sapiens surgiu no Quaternário, há aproximadamente 300.000 anos na África. Os Andes e o Himalaia também se formaram durante o Cenozoico, por colisão de placas tectônicas.</p>",
+    "ajuda": "As Eras Geológicas representam grandes divisões do tempo geológico. Da mais antiga para a mais recente: Pré-Cambriana (vida unicelular), Paleozoica (invertebrados, peixes, répteis), Mesozoica (dinossauros, Pangeia), Cenozoica (mamíferos, ser humano). Relacione cada era às suas características.",
+    "feedbacks": {
+      "0": "Cretáceo e Jurássico são períodos da Era Mesozóica, não Paleozóica. A separação dos continentes a partir da Pangeia também ocorreu durante o Mesozóico — a alternativa mistura eras e períodos incorretamente.",
+      "2": "O Pré-Cambriano é o período mais longo da história da Terra (de 4,6 bilhões a ~540 Ma), marcado pelo surgimento da vida unicelular — não pela formação de praias modernas e deltas fluviais.",
+      "3": "Quaternário e Terciário pertencem à Era Cenozóica, não à Mesozóica. Os dinossauros desapareceram justamente no limite Mesozóico-Cenozóico, há cerca de 66 Ma.",
+      "4": "O Pré-Cambriano não é um período da Era Mesozóica — é um supereão que antecede todos os eons. O Carbonífero pertence à Era Paleozóica. A alternativa confunde a classificação geológica."
+    }
   },
   {
     "id": 5,
@@ -107,8 +130,14 @@
       "II, III e IV."
     ],
     "correta": 4,
-    "comentario": "A tectônica de placas reconhece três tipos de movimentos: convergente (colisão, formando montanhas ou zonas de subducção), divergente (afastamento, criando dorsais oceânicas) e transformante (deslizamento lateral, causando terremotos como na Falha de San Andreas). A maioria dos vulcões e sismos ocorre nas bordas das placas.",
-    "ajuda": "A teoria da Tectônica de Placas é suportada por evidências como: simetria magnética do fundo oceânico, fossilização de espécies em continentes separados, distribuição de terremotos e vulcões nas bordas de placas. Avalie cada afirmativa com base nessas evidências."
+    "comentario": "<p>A tectônica de placas reconhece três tipos de movimentos: convergente (colisão, formando montanhas ou zonas de subducção), divergente (afastamento, criando dorsais oceânicas) e transformante (deslizamento lateral, causando terremotos como na Falha de San Andreas). A maioria dos vulcões e sismos ocorre nas bordas das placas.</p>",
+    "ajuda": "A teoria da Tectônica de Placas é suportada por evidências como: simetria magnética do fundo oceânico, fossilização de espécies em continentes separados, distribuição de terremotos e vulcões nas bordas de placas. Avalie cada afirmativa com base nessas evidências.",
+    "feedbacks": {
+      "0": "A afirmativa I está incorreta: além de convergentes e divergentes, existem movimentos transformantes (deslizamento lateral entre placas, como na Falha de San Andreas). Incluir a I leva ao erro.",
+      "1": "A IV também está correta: Wegener formulou a teoria da deriva continental no livro 'A origem dos continentes e oceanos'. Excluir a IV deixa a resposta incompleta.",
+      "2": "A afirmativa I está incorreta — há três tipos de movimento de placas (convergente, divergente e transformante), não apenas dois. Incluir a I invalida essa alternativa.",
+      "3": "A I está incorreta (três tipos de movimento, não dois). Além disso, a III está correta e foi excluída: em colisão entre placa continental e oceânica, a oceânica mergulha por ser mais densa."
+    }
   },
   {
     "id": 6,
@@ -128,8 +157,13 @@
       "O mapeamento do fundo oceânico levou à descoberta de evidências que comprovaram o movimento dos continentes confirmando a Deriva Continental (1915) e fornecendo os argumentos para elaboração da Tectônica de Placas (1960)."
     ],
     "correta": 3,
-    "comentario": "O mapeamento do fundo oceânico nos anos 1950-60 revelou as dorsais oceânicas — cadeias montanhosas subaquáticas onde novo material basáltico emerge do manto. Esse processo de expansão do assoalho oceânico confirmou a teoria da deriva continental de Wegener e levou à formulação da Teoria das Placas Tectônicas, a grande síntese da geologia moderna.",
-    "ajuda": "A Tectônica de Placas foi desenvolvida nas décadas de 1960-70, reunindo evidências do fundo oceânico (expansão das dorsais) com a ideia de Wegener sobre a Deriva Continental. Esse marco científico explicou a distribuição de vulcões, terremotos e cadeias montanhosas."
+    "comentario": "<p>O mapeamento do fundo oceânico nos anos 1950-60 revelou as dorsais oceânicas — cadeias montanhosas subaquáticas onde novo material basáltico emerge do manto. Esse processo de expansão do assoalho oceânico confirmou a teoria da deriva continental de Wegener e levou à formulação da Teoria das Placas Tectônicas, a grande síntese da geologia moderna.</p>",
+    "ajuda": "A Tectônica de Placas foi desenvolvida nas décadas de 1960-70, reunindo evidências do fundo oceânico (expansão das dorsais) com a ideia de Wegener sobre a Deriva Continental. Esse marco científico explicou a distribuição de vulcões, terremotos e cadeias montanhosas.",
+    "feedbacks": {
+      "0": "Há dois erros aqui: zonas de subducção formam-se em limites convergentes (não divergentes) e a placa oceânica é mais densa (não menos densa) que a continental — por isso ela mergulha sob a outra.",
+      "1": "Wegener propôs a deriva continental, não as correntes de convecção. Estas foram formuladas por Arthur Holmes e outros geofísicos como mecanismo do movimento das placas, décadas depois de Wegener.",
+      "2": "Os tremores no norte de Minas Gerais ocorrem no interior da placa Sul-Americana, longe de qualquer limite de placas. Atribuí-los a 'fenômenos comuns nos limites de placas' é geograficamente incorreto."
+    }
   },
   {
     "id": 7,
@@ -151,8 +185,14 @@
       "Somente as afirmativas II, III e IV são corretas."
     ],
     "correta": 3,
-    "comentario": "Os processos endógenos (internos) que moldam o relevo incluem: vulcanismo (extrusão de magma), tectonismo (movimentos de placas) e sismismo (terremotos). O vulcanismo cria montanhas e ilhas vulcânicas; o tectonismo origina cordilheiras por dobramento; os sismos podem reconfigurar a topografia rapidamente. São responsáveis pela construção do relevo.",
-    "ajuda": "Os processos endógenos (internos) da Terra, como vulcanismo e tectonismo, formam e deformam a crosta terrestre ao longo do tempo geológico. Eles são responsáveis pela formação das grandes estruturas do relevo, como montanhas dobradas e bacias sedimentares."
+    "comentario": "<p>Os processos endógenos (internos) que moldam o relevo incluem: vulcanismo (extrusão de magma), tectonismo (movimentos de placas) e sismismo (terremotos). O vulcanismo cria montanhas e ilhas vulcânicas; o tectonismo origina cordilheiras por dobramento; os sismos podem reconfigurar a topografia rapidamente. São responsáveis pela construção do relevo.</p>",
+    "ajuda": "Os processos endógenos (internos) da Terra, como vulcanismo e tectonismo, formam e deformam a crosta terrestre ao longo do tempo geológico. Eles são responsáveis pela formação das grandes estruturas do relevo, como montanhas dobradas e bacias sedimentares.",
+    "feedbacks": {
+      "0": "A III também está correta: diastrofismo designa o conjunto de movimentos tectônicos da crosta, incluindo orogênese e epirogênese. Excluir a III é um erro.",
+      "1": "A IV está incorreta — dobramentos resultam de pressões horizontais (não verticais) sobre rochas sedimentares plásticas, não sobre rochas basálticas. A III, correta, foi excluída indevidamente.",
+      "2": "A IV está incorreta: dobramentos geológicos resultam de pressões horizontais em rochas sedimentares plásticas, não de pressões verticais sobre basalto. Incluir a IV invalida essa combinação.",
+      "4": "A IV está incorreta (dobramentos = pressão horizontal em rochas plásticas, não vertical em basalto). A I está correta e foi excluída — a orogenia de dobramento é de fato causada por pressões horizontais."
+    }
   },
   {
     "id": 8,
@@ -175,8 +215,14 @@
       "Convecção: ascendência de material magmático do manto para a superfície da crosta."
     ],
     "correta": 2,
-    "comentario": "Os hot spots são pontos fixos de atividade magmática intensa no interior do manto, independentes das bordas de placas. O Havaí é o exemplo clássico: enquanto a placa do Pacífico se move sobre o hot spot, surgem ilhas vulcânicas em cadeia. A ilha mais jovem (grande ilha do Havaí) está diretamente sobre o hot spot ativo.",
-    "ajuda": "A sequência de imagens representa um processo geológico ou geomorfológico. Observe a transformação progressiva das formas e identifique o agente responsável (erosão fluvial, movimentos de massa, dissolução química, ação glacial)."
+    "comentario": "<p>Os hot spots são pontos fixos de atividade magmática intensa no interior do manto, independentes das bordas de placas. O Havaí é o exemplo clássico: enquanto a placa do Pacífico se move sobre o hot spot, surgem ilhas vulcânicas em cadeia. A ilha mais jovem (grande ilha do Havaí) está diretamente sobre o hot spot ativo.</p>",
+    "ajuda": "A sequência de imagens representa um processo geológico ou geomorfológico. Observe a transformação progressiva das formas e identifique o agente responsável (erosão fluvial, movimentos de massa, dissolução química, ação glacial).",
+    "feedbacks": {
+      "0": "A subducção ocorre em limites convergentes de placas e não explica a formação de ilhas em cadeia sobre um ponto fixo no interior de uma placa. A sequência mostra ilhas surgindo enquanto a placa se move sobre uma fonte fixa.",
+      "1": "A obducção é o empurrão da crosta oceânica sobre a continental em limites convergentes — não explica a formação de ilhas vulcânicas em sequência sobre um ponto fixo no interior de uma placa.",
+      "3": "A epirogenia refere-se a movimentos verticais lentos da crosta (soerguimento ou subsidência) em escala continental — não à geração de ilhas vulcânicas em cadeia acima de um ponto fixo do manto.",
+      "4": "A convecção do manto explica o movimento geral das placas, mas não a formação de ilhas em cadeia sobre um ponto fixo. Os hot spots são fenômenos distintos: fontes estacionárias de calor que perfuram a placa em movimento."
+    }
   },
   {
     "id": 9,
@@ -200,8 +246,14 @@
       "laterização."
     ],
     "correta": 2,
-    "comentario": "O voçorocamento é um processo erosivo grave em que sulcos profundos (voçorocas) se formam pelo escoamento concentrado da água, especialmente em solos argilosos desprotegidos de vegetação. É comum em áreas de pastagem degradada no Cerrado e Nordeste do Brasil. A remoção da cobertura vegetal é o principal fator desencadeante.",
-    "ajuda": "As dolinas são depressões circulares formadas pela dissolução de rochas calcárias pela água levemente ácida (intemperismo químico). Esse processo, chamado de carste, cria feições típicas como cavernas, sumidouros e campos de dolinas."
+    "comentario": "<p>O voçorocamento é um processo erosivo grave em que sulcos profundos (voçorocas) se formam pelo escoamento concentrado da água, especialmente em solos argilosos desprotegidos de vegetação. É comum em áreas de pastagem degradada no Cerrado e Nordeste do Brasil. A remoção da cobertura vegetal é o principal fator desencadeante.</p>",
+    "ajuda": "As dolinas são depressões circulares formadas pela dissolução de rochas calcárias pela água levemente ácida (intemperismo químico). Esse processo, chamado de carste, cria feições típicas como cavernas, sumidouros e campos de dolinas.",
+    "feedbacks": {
+      "0": "Eutrofização é o enriquecimento excessivo de nutrientes em corpos d'água, causando proliferação de algas. Não tem relação com a formação de grandes buracos e sulcos erosivos no solo descritos no texto.",
+      "1": "Lixiviação é a lavagem de nutrientes para camadas profundas do solo pela água das chuvas. É um processo pedológico — não forma grandes buracos ou ravinas por escoamento concentrado como os descritos no texto.",
+      "3": "Arenização é a transformação de solos em campos de areia, fenômeno típico do Rio Grande do Sul. Não corresponde à formação de grandes sulcos e buracos por escoamento concentrado de água em solos argilosos.",
+      "4": "Laterização é a formação de solos lateríticos ricos em ferro e alumínio pelo intemperismo químico intenso em climas tropicais. Não causa os buracos e ravinas profundas descritos no texto."
+    }
   },
   {
     "id": 10,
@@ -224,7 +276,13 @@
       "laterização."
     ],
     "correta": 0,
-    "comentario": "A erosão é o conjunto de processos que desgastam, removem e transportam materiais da superfície terrestre pela ação da água, vento, gelo ou gravidade. Nas imagens da questão, os sulcos, ravinas e sedimentação no fundo de vales evidenciam erosão hídrica acelerada — frequentemente causada por desmatamento e uso inadequado do solo.",
-    "ajuda": "Observe as figuras e identifique o processo geológico ou geomorfológico que as conecta. Pense se o processo é de ordem interna (magmático, tectônico) ou externa (erosivo, deposicional, químico)."
+    "comentario": "<p>A erosão é o conjunto de processos que desgastam, removem e transportam materiais da superfície terrestre pela ação da água, vento, gelo ou gravidade. Nas imagens da questão, os sulcos, ravinas e sedimentação no fundo de vales evidenciam erosão hídrica acelerada — frequentemente causada por desmatamento e uso inadequado do solo.</p>",
+    "ajuda": "Observe as figuras e identifique o processo geológico ou geomorfológico que as conecta. Pense se o processo é de ordem interna (magmático, tectônico) ou externa (erosivo, deposicional, químico).",
+    "feedbacks": {
+      "1": "Lixiviação é a remoção de nutrientes do solo pela percolação da água em profundidade — é um processo pedológico interno ao solo, não o desgaste e transporte superficial mostrado nas figuras.",
+      "2": "Assoreamento é o depósito de sedimentos no leito de rios e reservatórios — é o resultado final da erosão, não o processo de desgaste e remoção de material que as figuras representam.",
+      "3": "O voçorocamento é um tipo específico e grave de erosão por sulcos profundos. As figuras mostram erosão em sentido amplo (ação de vento, água, gelo), não apenas voçorocas.",
+      "4": "Laterização é um processo de formação de solos tropicais ricos em óxidos de ferro e alumínio. Não é o processo de desgaste e transporte de material pela água e vento mostrado nas figuras."
+    }
   }
 ]

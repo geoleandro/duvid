@@ -31,7 +31,7 @@
 })();
 </script>
 
-<footer class="w3-container w3-padding-24 w3-center w3-green w3-xlarge">
+<footer class="w3-container w3-padding-24 w3-center w3-green w3-xlarge" style="padding-bottom: max(24px, env(safe-area-inset-bottom, 24px))">
 
     <a class="fa-brands fa-instagram w3-margin-right" href="https://www.instagram.com/leandrohenriquedasilva/"
         target="_blank" style="text-decoration:none; color: white;"></a>
@@ -52,3 +52,7 @@
     <p class="w3-medium"><i class="fa fa-map-marker"></i> Poços de Caldas, Minas Gerais.</p>
     <p class="w3-medium"><i class="fa fa-envelope"></i> leandro.hsilva@ifsuldeminas.edu.br</p>
 </footer>
+
+<!-- ── Jéssica Walker ── sprite decorativo que convida ao jogo ── -->
+<div id="jessica-walker-container" style="height:0;overflow:hidden;line-height:0"></div>
+<script src="/js/jessica-walker.js" defer></script>

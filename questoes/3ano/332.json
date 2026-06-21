@@ -5,10 +5,10 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
+      "rússia",
       "geopolítica",
       "história",
-      "Guerra Fria"
+      "guerra fria"
     ],
     "texto_apoio": "TEXTO A intervenção da Rússia na crise no Leste da Ucrânia reacendeu a tensão entre os aliados da Otan e Moscou. Os EUA informaram que pretendem instalar armamento pesado no Leste da Europa, plano criticado pelo governo russo. Em resposta, a Rússia anunciou o reforço de seu arsenal nuclear, novos mísseis balísticos intercontinentais, descritos como “capazes de superar sistemas de defesa mais avançados”. STEWART, P. Disponível em: http://noticias.uol.com.br. Acesso em: 26 jun. 2015 (adaptado). TEXTO Os Estados Unidos e seus aliados não vão deixar a Rússia “nos arrastar de volta ao passado”, disse o secretário de Defesa dos Estados Unidos em um discurso em Berlim, dia 22 de junho de 2015, quando acusou o governo russo de tentar recriar uma esfera de influência da era soviética. Disponível em: http://oglobo.globo.com. Acesso em: 26 jun. 2015 (adaptado).",
     "pergunta": "Que tema da geopolítica da segunda metade do século XX é o fundamento histórico da referência feita ao passado?",
@@ -20,7 +20,7 @@
       "Terrorismo internacional."
     ],
     "correta": 2,
-    "comentario": "O fundamento histórico da referência 'ao passado' no texto é a corrida armamentista da Guerra Fria: a rivalidade nuclear entre EUA e URSS, com a acumulação de ogivas atômicas e sistemas de defesa antimísseis. A crise na Ucrânia reacendeu esse padrão de competição bélica que o fim da Guerra Fria parecia ter superado.",
+    "comentario": "<p>O fundamento histórico da referência 'ao passado' no texto é a corrida armamentista da Guerra Fria: a rivalidade nuclear entre EUA e URSS, com a acumulação de ogivas atômicas e sistemas de defesa antimísseis. A crise na Ucrânia reacendeu esse padrão de competição bélica que o fim da Guerra Fria parecia ter superado.</p>",
     "ajuda": "A questão pede o tema da geopolítica da segunda metade do século XX que fundamenta a referência histórica do texto. A Guerra Fria foi marcada por corrida armamentista, espionagem e confronto ideológico. Identifique qual desses temas é o fundamento histórico mencionado."
   },
   {
@@ -29,11 +29,11 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
-      "Crimeia",
+      "rússia",
+      "crimeia",
       "anexação",
       "geopolítica",
-      "Putin"
+      "putin"
     ],
     "texto_apoio": "“O presidente russo, Vladimir Putin, inaugurou em maio de 2018 o trecho rodoviário de nova ponte que liga a Rússia continental à Península da Crimeia, anexada à Russia em 2014. A Crimeia, uma ex-república autônoma que integrava a Ucrânia, foi anexada pela Rússia durante uma grave crise que culminou num conflito entre forças leais ao governo ucraniano e milícias separatistas apoiadas por Moscou. A Ucrânia denunciou a construção como uma flagrante violação das leis internacionais. Putin dirigiu um enorme caminhão Kamaz, de fabricação russa, pelos 19 quilômetros da ponte sobre o estreito de Kerch. Em discurso, o presidente exaltou a construção da ponte de 3,6 bilhões de dólares como um feito histórico e prometeu novas obras de infraestrutura na península”.",
     "fonte_apoio": "Adaptado de dw.com.",
@@ -46,7 +46,7 @@
       "integração territorial."
     ],
     "correta": 3,
-    "comentario": "A construção da Ponte do Estreito de Kerch (2018), ligando a Rússia à Crimeia, é um ato de integração territorial que simboliza a consolidação da anexação de 2014. A Crimeia foi incorporada à Rússia após referendo contestado internacionalmente, e a ponte materializa fisicamente essa incorporação.",
+    "comentario": "<p>A construção da Ponte do Estreito de Kerch (2018), ligando a Rússia à Crimeia, é um ato de integração territorial que simboliza a consolidação da anexação de 2014. A Crimeia foi incorporada à Rússia após referendo contestado internacionalmente, e a ponte materializa fisicamente essa incorporação.</p>",
     "ajuda": "A Crimeia foi anexada pela Rússia em 2014, após um referendo contestado internacionalmente. A construção de uma ponte ligando a Rússia à Crimeia é um símbolo dessa incorporação territorial. Pense em qual processo político-territorial a ponte representa."
   },
   {
@@ -55,7 +55,7 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
+      "rússia",
       "diversidade étnica",
       "população",
       "território"
@@ -71,7 +71,7 @@
       "os climas frios trazem como consequência o ateísmo, professado por 25,8% da população."
     ],
     "correta": 1,
-    "comentario": "A análise correta do texto é a B: além do cristianismo ortodoxo dominante, a Rússia tem minorias religiosas significativas, incluindo muçulmanos (chechenos, tártaros, bashkires) e judeus. Com mais de 180 etnias reconhecidas, a Rússia é um dos países mais multiétnicos do mundo — apesar do domínio russo.",
+    "comentario": "<p>A análise correta do texto é a B: além do cristianismo ortodoxo dominante, a Rússia tem minorias religiosas significativas, incluindo muçulmanos (chechenos, tártaros, bashkires) e judeus. Com mais de 180 etnias reconhecidas, a Rússia é um dos países mais multiétnicos do mundo — apesar do domínio russo.</p>",
     "ajuda": "A Rússia é um país de enorme diversidade étnica, com mais de 100 grupos étnicos, mas com predomínio russo (cerca de 80%). A questão pede uma conclusão sobre essa diversidade. Pense em qual afirmativa a análise do texto permite confirmar sobre a composição étnica russa."
   },
   {
@@ -80,7 +80,7 @@
     "ano": "2020",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
+      "rússia",
       "exportação de grãos",
       "comércio internacional",
       "agricultura"
@@ -96,7 +96,7 @@
       "A vegetação da Tundra facilita a prática agrícola devido a profundidade de seu solo, o qual nunca congela."
     ],
     "correta": 2,
-    "comentario": "A alternativa correta sobre a relação entre transporte e agricultura na Rússia é a C: o Rio Volga é o principal eixo de transporte fluvial russo, conectando a região central ao Mar Cáspio e permitindo o escoamento da produção agrícola. O desenvolvimento de canais e ferrovias complementa essa rede hidroviária.",
+    "comentario": "<p>A alternativa correta sobre a relação entre transporte e agricultura na Rússia é a C: o Rio Volga é o principal eixo de transporte fluvial russo, conectando a região central ao Mar Cáspio e permitindo o escoamento da produção agrícola. O desenvolvimento de canais e ferrovias complementa essa rede hidroviária.</p>",
     "ajuda": "A Rússia é um grande produtor e exportador de grãos. A Sibéria, apesar do clima rigoroso, tem extensas planícies agricultáveis. Pense em qual alternativa descreve corretamente as condições naturais que possibilitam ou limitam a produção agrícola russa."
   },
   {
@@ -105,8 +105,8 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
-      "Ferrovia Transiberiana",
+      "rússia",
+      "ferrovia transiberiana",
       "clima",
       "relevo",
       "diversidade"
@@ -120,7 +120,7 @@
       "Planície Russa, Montes Urais, Planalto Central Siberiano e Planalto de Aldan."
     ],
     "correta": 3,
-    "comentario": "A Ferrovia Transiberiana percorre de oeste para leste: Planície Russa (ocidental) → Montes Urais (divisória Europa-Ásia) → Planalto Central Siberiano → Planalto de Aldan (extremo leste). Com 9.289 km, é a ferrovia mais longa do mundo e permite integrar a Sibéria ao restante da Rússia.",
+    "comentario": "<p>A Ferrovia Transiberiana percorre de oeste para leste: Planície Russa (ocidental) → Montes Urais (divisória Europa-Ásia) → Planalto Central Siberiano → Planalto de Aldan (extremo leste). Com 9.289 km, é a ferrovia mais longa do mundo e permite integrar a Sibéria ao restante da Rússia.</p>",
     "ajuda": "A Ferrovia Transiberiana atravessa a Rússia de oeste a leste, passando por diferentes unidades de relevo. A sequência correta é: Planície Russa → Montes Urais (divisor Europa-Ásia) → Planície Siberiana → Planalto Central Siberiano → extremo leste."
   },
   {
@@ -129,8 +129,8 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "fim da União Soviética",
-      "Rússia",
+      "fim da união soviética",
+      "rússia",
       "ordem mundial",
       "transformações"
     ],
@@ -145,7 +145,7 @@
       "I, II, III e IV."
     ],
     "correta": 2,
-    "comentario": "As afirmativas I, II e III são corretas: a Rússia é potência nuclear e detém as maiores reservas de recursos minerais do mundo; tem invernos extremos, especialmente na Sibéria; e integra os BRICS desde 2006. A afirmativa IV é incorreta: a Rússia fortaleceu sua aliança com a China após as sanções ocidentais.",
+    "comentario": "<p>As afirmativas I, II e III são corretas: a Rússia é potência nuclear e detém as maiores reservas de recursos minerais do mundo; tem invernos extremos, especialmente na Sibéria; e integra os BRICS desde 2006. A afirmativa IV é incorreta: a Rússia fortaleceu sua aliança com a China após as sanções ocidentais.</p>",
     "ajuda": "Com o fim da URSS, a Rússia perdeu território, população e influência, mas manteve poder nuclear e recursos naturais. Pense em quais afirmativas descrevem corretamente as transformações geopolíticas e econômicas da Rússia no período pós-soviético."
   },
   {
@@ -154,7 +154,7 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
+      "rússia",
       "recursos naturais",
       "petróleo",
       "gás natural"
@@ -168,7 +168,7 @@
       "I, II e IV."
     ],
     "correta": 4,
-    "comentario": "As afirmativas I, II e V estão corretas: a Rússia é um dos países mais ricos em recursos minerais; é um dos maiores exportadores de gás natural; e tem importantes usinas hidrelétricas no Volga e na Sibéria. A afirmativa III é parcialmente incorreta (os minerais são nos Urais, não apenas em bacias sedimentares).",
+    "comentario": "<p>As afirmativas I, II e V estão corretas: a Rússia é um dos países mais ricos em recursos minerais; é um dos maiores exportadores de gás natural; e tem importantes usinas hidrelétricas no Volga e na Sibéria. A afirmativa III é parcialmente incorreta (os minerais são nos Urais, não apenas em bacias sedimentares).</p>",
     "ajuda": "A Rússia é um dos países mais ricos em recursos naturais do mundo: petróleo, gás natural, madeira, minerais e água doce. Avalie as afirmativas sobre a distribuição e a importância desses recursos para a economia e a geopolítica russa."
   },
   {
@@ -177,9 +177,9 @@
     "ano": "2015",
     "dificuldade": "media",
     "tags": [
-      "União Soviética",
-      "EUA",
-      "Guerra Fria",
+      "união soviética",
+      "eua",
+      "guerra fria",
       "bipolaridade",
       "corrida armamentista"
     ],
@@ -192,7 +192,7 @@
       "a Rússia, na atualidade, pode ser considerada um dos países com maior diversidade de etnias convivendo em seu território e é o principal centro de poder político e militar na região."
     ],
     "correta": 3,
-    "comentario": "A alternativa correta é a D: a Rússia é o maior país do mundo em extensão territorial (17 milhões de km²) e um dos países com maior diversidade étnica, mantendo-se como o principal centro de poder político e militar da região euroasiática após a dissolução da URSS.",
+    "comentario": "<p>A alternativa correta é a D: a Rússia é o maior país do mundo em extensão territorial (17 milhões de km²) e um dos países com maior diversidade étnica, mantendo-se como o principal centro de poder político e militar da região euroasiática após a dissolução da URSS.</p>",
     "ajuda": "A Rússia herdou da URSS um vasto território e arsenal nuclear, mas sua economia passou por uma grave crise nos anos 1990. Pense em qual afirmativa descreve corretamente a situação da Rússia contemporânea em relação ao seu legado soviético."
   },
   {
@@ -201,7 +201,7 @@
     "ano": "2008",
     "dificuldade": "media",
     "tags": [
-      "Rússia",
+      "rússia",
       "geopolítica",
       "política externa",
       "expansionismo"
@@ -217,7 +217,7 @@
       "conservou, sempre, a sua preeminência graças ao incomparável poderio militar."
     ],
     "correta": 3,
-    "comentario": "A alternativa D descreve corretamente a trajetória da Rússia: de força política (comunismo revolucionário) a força militar (Exército Vermelho) e depois a força econômica (petróleo e gás). O texto de Timothy Garton Ash resume em três décadas as transformações do poder russo.",
+    "comentario": "<p>A alternativa D descreve corretamente a trajetória da Rússia: de força política (comunismo revolucionário) a força militar (Exército Vermelho) e depois a força econômica (petróleo e gás). O texto de Timothy Garton Ash resume em três décadas as transformações do poder russo.</p>",
     "ajuda": "A trajetória da Rússia no sistema internacional foi marcada por altos e baixos: superpotência na Guerra Fria, colapso nos anos 1990 e tentativa de recuperação no século XXI. Identifique qual afirmativa melhor descreve essa trajetória com base no texto."
   },
   {
@@ -226,8 +226,8 @@
     "ano": "2001",
     "dificuldade": "media",
     "tags": [
-      "Tchetchênia",
-      "Rússia",
+      "tchetchênia",
+      "rússia",
       "separatismo",
       "conflito",
       "petróleo"
@@ -242,7 +242,7 @@
       "Jazidas de petróleo e gás natural; atuação de grupos terroristas tchetchenos que, tendo na religião ortodoxa ponto de união, desafiam o poder de Moscou."
     ],
     "correta": 0,
-    "comentario": "A Rússia recusou a independência tchetchena porque a região é crucial: controla oleodutos que levam petróleo e gás do Mar Cáspio até a Europa, tem posição geográfica estratégica no Cáucaso e sua independência poderia encorajar outros movimentos separatistas (Dagestão, Chuvássia) na Federação.",
+    "comentario": "<p>A Rússia recusou a independência tchetchena porque a região é crucial: controla oleodutos que levam petróleo e gás do Mar Cáspio até a Europa, tem posição geográfica estratégica no Cáucaso e sua independência poderia encorajar outros movimentos separatistas (Dagestão, Chuvássia) na Federação.</p>",
     "ajuda": "A Tchetchênia é uma república dentro da Federação Russa que tentou se separar nos anos 1990. A Rússia reagiu militarmente. Pense em qual interesse estratégico — petróleo, posição geográfica, oleodutos — motivou a Rússia a não abrir mão dessa região."
   }
 ]

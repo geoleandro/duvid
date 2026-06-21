@@ -22,7 +22,7 @@
     ],
     "correta": 0,
     "ajuda": "A charge critica a modernização agrícola e suas contradições. Pense: a mecanização aumentou a produtividade, mas o que aconteceu com o emprego rural? Qual é a principal contradição social desse processo no Brasil?",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> O Brasil apresenta uma grande contradição no seu espaço agrário. Enquanto ano após ano as safras\r\n\t\t\t\t\tbatem recordes de produção, ainda há uma grande parcela da população com subnutrição. Os avanços na\r\n\t\t\t\t\tbiotecnologia ajudaram na expansão das terras agricultáveis, mas não apagaram os problemas de\r\n\t\t\t\t\tdesigualdade social no campo. </p>\n<!-- <p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p>\r\n\t\r\n\t\t\t\t<p>  </p> -->"
+    "comentario": "<p>O Brasil apresenta uma grande contradição no seu espaço agrário. Enquanto ano após ano as safras\r\n batem recordes de produção, ainda há uma grande parcela da população com subnutrição. Os avanços na\r\n biotecnologia ajudaram na expansão das terras agricultáveis, mas não apagaram os problemas de\r\n desigualdade social no campo.</p>\n<!-- <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->"
   },
   {
     "id": 2,
@@ -30,7 +30,7 @@
     "ano": "2018",
     "dificuldade": "media",
     "tags": [
-      "Cerrado",
+      "cerrado",
       "recursos hídricos",
       "nascentes",
       "bacias hidrográficas"
@@ -46,7 +46,7 @@
     ],
     "correta": 2,
     "ajuda": "O Cerrado é chamado de 'berço das águas' por alimentar grandes bacias hidrográficas. O aquífero mencionado é formado em rochas sedimentares permeáveis. Lembre-se que o Guarani está associado à Bacia Sedimentar do Paraná.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 3,
@@ -71,7 +71,7 @@
     ],
     "correta": 2,
     "ajuda": "O debate energético envolve o equilíbrio entre oferta, demanda e impacto ambiental. Analise cada afirmativa: a energia nuclear tem riscos e o debate sobre Belo Monte foi legítimo. Qual alternativa apresenta uma visão equilibrada e factualmente correta?",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 4,
@@ -81,7 +81,7 @@
     "tags": [
       "geração de energia",
       "fontes renováveis",
-      "hidrelétricas",
+      "hidrelétrica",
       "energia eólica"
     ],
     "pergunta": "Com relação à geração de energia no Brasil, analise as proposições abaixo:\n\nI. A construção de grandes usinas hidrelétricas ocorreu a partir da Segunda Guerra Mundial em função da aceleração da industrialização e contou com altos investimentos por parte do Estado.\n\nII. A Usina de Itaipu começou a ser construída em meados da década de 1970, como parte do esforço do governo Geisel em aumentar a produção de energia sem levar em conta o impacto ambiental provocado por essa gigantesca obra.\n\nIII. A construção de usinas nucleares em Angra dos Reis evitou o colapso do abastecimento de energia nos grandes centros urbanos do país e trouxe uma alternativa à nossa dependência na geração de energia baseada essencialmente nas hidrelétricas.\n\nAssinale a alternativa correta.",
@@ -94,7 +94,7 @@
     ],
     "correta": 0,
     "ajuda": "As afirmativas tratam da geração hidrelétrica no Brasil. Lembre-se que as grandes usinas foram construídas principalmente a partir dos anos 1950-60, durante a industrialização. Analise se as proposições sobre histórico e localização são corretas.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p> -->\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p> -->\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 5,
@@ -117,7 +117,7 @@
     ],
     "correta": 0,
     "ajuda": "O gráfico e o mapa apresentam dados sobre distribuição populacional. Identifique a contradição: um país pode ser muito populoso mas ter baixa densidade, ou vice-versa. Qual caso apresenta essa aparente contradição entre população total e proporção mundial?",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> O mapa evidencia a elevada população brasileira, quinta maior do mundo, o que contribui\r\n\t\t\t\t\tsignificativamente para o percentual populacional da América do Sul, mesmo sendo esse percentual\r\n\t\t\t\t\tbaixo quando comparado com o da maioria dos continentes. </p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<p>O mapa evidencia a elevada população brasileira, quinta maior do mundo, o que contribui\r\n significativamente para o percentual populacional da América do Sul, mesmo sendo esse percentual\r\n baixo quando comparado com o da maioria dos continentes.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 6,
@@ -126,7 +126,7 @@
     "dificuldade": "media",
     "tags": [
       "censo demográfico",
-      "IBGE",
+      "ibge",
       "dados populacionais",
       "estrutura demográfica"
     ],
@@ -140,7 +140,7 @@
     ],
     "correta": 3,
     "ajuda": "O IBGE divulga dados sobre composição racial da população brasileira. Pense em como esses dados devem ser usados para orientar políticas públicas que reduzam desigualdades históricas entre grupos populacionais.",
-    "comentario": "<p> <strong>Comentário:</strong></p>\n<p> Em função do processo histórico nacional, determinados grupos segundo a cor da pele viram-se\r\n\t\t\t\t\tmarginalizados no desenvolvimento da sociedade, seja do ponto de vista econômico, educacional,\r\n\t\t\t\t\tsocial etc. A pesquisa do IBGE vai permitir que a sociedade brasileira, por intermédio de seus\r\n\t\t\t\t\trepresentantes, possa estabelecer mecanismos de correção, recuperando assim direitos de grupos\r\n\t\t\t\t\tminoritários. </p>\n<!-- <p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<p>Em função do processo histórico nacional, determinados grupos segundo a cor da pele viram-se\r\n marginalizados no desenvolvimento da sociedade, seja do ponto de vista econômico, educacional,\r\n social etc. A pesquisa do IBGE vai permitir que a sociedade brasileira, por intermédio de seus\r\n representantes, possa estabelecer mecanismos de correção, recuperando assim direitos de grupos\r\n minoritários.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 7,
@@ -151,7 +151,7 @@
       "trabalho feminino",
       "mercado de trabalho",
       "desigualdade de gênero",
-      "PEA"
+      "pea"
     ],
     "pergunta": "No Brasil, a presença feminina em postos de trabalho cresceu, mas ainda não é elevada em cargos de chefia, quando comparada a dos homens.\n\nIsso se deve à:",
     "alternativas": [
@@ -163,7 +163,7 @@
     ],
     "correta": 1,
     "ajuda": "A sub-representação feminina em cargos de chefia não se explica por falta de qualificação. Pense nos obstáculos estruturais e culturais que as mulheres enfrentam no mercado de trabalho, mesmo sendo maioria nas universidades.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 8,
@@ -188,7 +188,7 @@
     ],
     "correta": 1,
     "ajuda": "A letra de música descreve problemas urbanos nas periferias. Pense nas causas estruturais da segregação socioespacial: especulação imobiliária, falta de políticas habitacionais e concentração de pobreza em áreas periféricas.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 9,
@@ -198,7 +198,7 @@
     "tags": [
       "migrações internas",
       "fluxos migratórios",
-      "Brasil"
+      "brasil"
     ],
     "imagem_apoio": "2ano/img/226/s26q9.png",
     "pergunta": "Sobre as migrações internas no espaço brasileiro, é correto afirmar:",
@@ -211,7 +211,7 @@
     ],
     "correta": 0,
     "ajuda": "A questão pede a alternativa CORRETA sobre migrações internas. Lembre-se que as migrações internas brasileiras têm causas históricas e econômicas complexas, e que a região Sul não é 'excludente' — ela recebeu muitos imigrantes europeus.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   },
   {
     "id": 10,
@@ -233,6 +233,6 @@
     ],
     "correta": 2,
     "ajuda": "A questão pede a alternativa INCORRETA sobre migrações no Brasil. Analise cada afirmativa: o êxodo rural não cessou nos anos 1980 — ele diminuiu, mas continuou. Identifique a que distorce os fatos históricos.",
-    "comentario": "<!-- <p> <strong>Comentário:</strong></p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p>\r\n\r\n\t\t\t\t<p> </p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
   }
 ]
