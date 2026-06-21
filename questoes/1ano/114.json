@@ -19,7 +19,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As áreas sedimentares são bacias tectonicamente rebaixadas onde sedimentos se acumulam ao longo de milhões de anos. Essas bacias concentram petróleo, gás e carvão — recursos fósseis formados pela decomposição de matéria orgânica soterrada. No Brasil, a Bacia de Santos e a Bacia de Campos são exemplos fundamentais para a economia do pré-sal.</p>",
-    "ajuda": "As estruturas geológicas refletem a história de formação da crosta terrestre. Os crátons (escudos cristalinos) são as mais antigas e estáveis; as faixas dobradas são mais jovens e originadas por colisão de placas; as bacias sedimentares acumulam sedimentos sobre essas estruturas."
+    "ajuda": "As estruturas geológicas refletem a história de formação da crosta terrestre. Os crátons (escudos cristalinos) são as mais antigas e estáveis; as faixas dobradas são mais jovens e originadas por colisão de placas; as bacias sedimentares acumulam sedimentos sobre essas estruturas.",
+    "feedbacks": {
+      "0": "Bacias sedimentares não são constituídas por rochas pré-cambrianas resistentes — são formadas por sedimentos depositados ao longo de várias eras. Rochas antigas e resistentes do Pré-Cambriano caracterizam os escudos cristalinos, não as bacias.",
+      "1": "Maciços antigos (crátons/escudos) são áreas estabilizadas tectonicamente há muito tempo, não submetidas a forças recentes. Cadeias montanhosas originadas por tectonismo terciário descrevem os dobramentos modernos, não os maciços.",
+      "3": "Dobramentos modernos são estruturas tectonicamente instáveis (com vulcões e sismos), não estáveis. Petróleo, carvão e gás natural concentram-se em bacias sedimentares, não em dobramentos modernos.",
+      "4": "Os escudos cristalinos são exatamente o oposto: áreas de grande estabilidade tectônica, com as rochas mais antigas da crosta (pré-cambrianas). São tectonicamente estáveis, não instáveis."
+    }
   },
   {
     "id": 2,
@@ -42,7 +48,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As três grandes estruturas geológicas da litosfera continental são: crátons (ou escudos antigos — rochas estáveis do Pré-Cambriano), bacias sedimentares (áreas rebaixadas com acúmulo de sedimentos) e cadeias orogênicas (montanhas jovens formadas por colisão de placas). O Brasil tem predominância de escudos cristalinos e bacias sedimentares.</p>",
-    "ajuda": "A litosfera está em constante transformação, mas é possível identificar grandes domínios estruturais: crátons (núcleos rígidos e antigos), cinturões orogênicos (montanhas dobradas) e bacias sedimentares (depressões preenchidas por sedimentos). Identifique cada domínio no contexto da questão."
+    "ajuda": "A litosfera está em constante transformação, mas é possível identificar grandes domínios estruturais: crátons (núcleos rígidos e antigos), cinturões orogênicos (montanhas dobradas) e bacias sedimentares (depressões preenchidas por sedimentos). Identifique cada domínio no contexto da questão.",
+    "feedbacks": {
+      "0": "Planossolos e alissolos são tipos de solo (classificação pedológica), não estruturas geológicas da litosfera. A questão pede os três grandes conjuntos de estruturas rochosas dos continentes.",
+      "1": "Nitossolos e cambissolos são tipos de solo, não estruturas geológicas. As três grandes estruturas da litosfera continental são crátons, bacias sedimentares e cadeias orogênicas.",
+      "2": "Argissolos e planossolos são classificações de solos, não estruturas geológicas. Apenas as cadeias orogênicas, nessa alternativa, são uma estrutura geológica da litosfera.",
+      "4": "Cambissolos, vertissolos e alissolos são todos tipos de solo — nenhum é uma estrutura geológica. A resposta correta envolve crátons, bacias sedimentares e cadeias orogênicas."
+    }
   },
   {
     "id": 3,
@@ -65,7 +77,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O mapa geológico do Brasil revela que os escudos cristalinos (Escudo Brasileiro e das Guianas) ocupam grandes áreas e concentram minérios metálicos (ferro, bauxita, ouro). As bacias sedimentares (Amazônica, do Parnaíba, do Paraná) são ricas em petróleo, gás e carvão. As dobras recentes (Andes) só aparecem nos países vizinhos — o Brasil não tem cordilheiras jovens.</p>",
-    "ajuda": "O mapa das estruturas geológicas mostra a distribuição de crátons, bacias sedimentares e faixas dobradas no Brasil ou no mundo. Crátons correspondem geralmente a planaltos antigos; faixas dobradas, a serras e montanhas; bacias sedimentares, a planícies e depressões."
+    "ajuda": "O mapa das estruturas geológicas mostra a distribuição de crátons, bacias sedimentares e faixas dobradas no Brasil ou no mundo. Crátons correspondem geralmente a planaltos antigos; faixas dobradas, a serras e montanhas; bacias sedimentares, a planícies e depressões.",
+    "feedbacks": {
+      "0": "A I está incorreta: as montanhas a oeste (Andes) são muito mais elevadas que as cadeias do leste, que são antigas e erodidas. A alternativa inverte a comparação. A III e a IV, corretas, foram excluídas.",
+      "1": "A I está incorreta — os Andes (oeste) superam em altitude as serras do leste sul-americano. Incluir a I e excluir a II e III resulta numa combinação com erros em três das quatro afirmativas.",
+      "2": "A II também está correta: as bacias sedimentares são as estruturas geológicas de maior extensão na superfície terrestre. Excluí-la deixa a resposta incompleta.",
+      "3": "A I está incorreta: as montanhas a oeste (Andes) são mais elevadas que as do leste, não o contrário. Incluir a I invalida a combinação, mesmo que II e III estejam corretas."
+    }
   },
   {
     "id": 4,
@@ -84,11 +102,17 @@
       "F F V V.",
       "V V F F.",
       "V F V V.",
-      "V F V V."
+      "F V F F."
     ],
     "correta": 0,
     "comentario": "<p>O granito é a rocha ígnea intrusiva mais abundante na crosta continental. As rochas sedimentares formam-se pela litificação de sedimentos — não pela solidificação do magma. O processo de metamorfismo transforma rochas pré-existentes pela ação de calor e pressão, sem fundição completa, gerando rochas como gnaisse, quartzito e mármore.</p>",
-    "ajuda": "Avalie cada afirmativa sobre rochas e estruturas geológicas: o granito é de fato a rocha intrusiva mais abundante na crosta continental; rochas sedimentares cobrem grande parte da superfície emersa; rochas metamórficas resultam da transformação por calor e pressão. Verifique a coerência de cada proposição."
+    "ajuda": "Avalie cada afirmativa sobre rochas e estruturas geológicas: o granito é de fato a rocha intrusiva mais abundante na crosta continental; rochas sedimentares cobrem grande parte da superfície emersa; rochas metamórficas resultam da transformação por calor e pressão. Verifique a coerência de cada proposição.",
+    "feedbacks": {
+      "1": "A I está errada como F: granito é de fato a rocha ígnea intrusiva mais abundante na crosta continental (V). E a III está errada como V: litificação em áreas profundas produz rochas plutônicas (intrusivas), não vulcânicas.",
+      "2": "A II está errada como V: sedimentares também se formam a partir de outras sedimentares e de matéria orgânica — o 'somente' invalida a afirmativa. A IV está errada como F: gnaisse e mármore são de fato metamórficas (V).",
+      "3": "A III está errada como V: solidificação em áreas profundas da crosta gera rochas intrusivas (plutônicas), não vulcânicas. Rochas vulcânicas formam-se pelo resfriamento rápido do magma na superfície.",
+      "4": "Essa alternativa é idêntica à anterior (possível erro de digitação). A III continua incorreta como V: litificação em profundidade = rocha plutônica (intrusiva), não vulcânica."
+    }
   },
   {
     "id": 5,
@@ -112,7 +136,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As bacias sedimentares foram formadas em épocas geológicas diversas. Os mares rasos que cobriam partes do Brasil no Paleozoico (ex: Bacia do Parnaíba) depositaram sedimentos que hoje contêm registro fóssil e reservas de gás. A identificação das eras geológicas nas formações sedimentares é feita pelos fósseis-guia encontrados em cada camada.</p>",
-    "ajuda": "As estruturas geológicas refletem diferentes idades e origens. Crátons são núcleos antigos e estáveis; bacias sedimentares se formam em áreas deprimidas; dobramentos modernos resultam de colisões de placas recentes. Identifique qual estrutura é descrita ou representada na questão."
+    "ajuda": "As estruturas geológicas refletem diferentes idades e origens. Crátons são núcleos antigos e estáveis; bacias sedimentares se formam em áreas deprimidas; dobramentos modernos resultam de colisões de placas recentes. Identifique qual estrutura é descrita ou representada na questão.",
+    "feedbacks": {
+      "1": "A I está errada como F: a superfície terrestre continua em mutação e o embasamento rochoso determina o modelado do relevo (V). A II também está errada como F: o fundo oceânico tem dorsais e fossas ligadas ao tectonismo (V).",
+      "2": "A II está errada como F: as terras imersas (fundos oceânicos) exibem dorsais e fossas diretamente relacionadas ao movimento das placas (V). A III está errada como V: escudos cristalinos são estruturas antigas e estáveis, não dobramentos modernos.",
+      "3": "A I está errada como F: a crosta continua em transformação e o embasamento rochoso condiciona o relevo (V). A IV está errada como V: bacias sedimentares formam-se por deposição de sedimentos, não por solidificação de magma.",
+      "4": "A III, IV e V estão erradas. Escudos não são dobramentos modernos; bacias sedimentares não resultam de solidificação de magma; e no Brasil não existem dobramentos modernos — eles estão nos países andinos vizinhos."
+    }
   },
   {
     "id": 6,
@@ -135,7 +165,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As formas do relevo incluem planícies (áreas baixas e planas formadas por deposição sedimentar) e depressões relativas (áreas rebaixadas em relação às regiões vizinhas, mas não necessariamente ao nível do mar). A depressão sertaneja no Nordeste brasileiro é um exemplo de depressão relativa esculpida pela erosão em rochas cristalinas.</p>",
-    "ajuda": "O professor apresentou uma figura com formas de relevo e pediu aos alunos que as identificassem. Lembre-se das formas de relevo: planalto (superfície elevada, com bordas em escarpa), planície (superfície plana e baixa, de deposição) e depressão (superfície mais baixa que as áreas ao redor)."
+    "ajuda": "O professor apresentou uma figura com formas de relevo e pediu aos alunos que as identificassem. Lembre-se das formas de relevo: planalto (superfície elevada, com bordas em escarpa), planície (superfície plana e baixa, de deposição) e depressão (superfície mais baixa que as áreas ao redor).",
+    "feedbacks": {
+      "1": "Essa alternativa inverte as duas formas: I é a planície (área plana e baixa formada por deposição), não a depressão relativa. A depressão relativa é a II, área rebaixada em relação às adjacentes.",
+      "2": "I é uma planície (superfície plana de deposição sedimentar), não uma depressão absoluta (que seria abaixo do nível do mar). A II é depressão relativa, não planície.",
+      "3": "I está corretamente identificada como planície. Mas II é depressão relativa (área rebaixada em relação às vizinhas), não planalto (área elevada com bordas em escarpa).",
+      "4": "I é planície, não depressão absoluta. E II é depressão relativa, não planalto. Ambas as identificações estão erradas nessa alternativa."
+    }
   },
   {
     "id": 7,
@@ -158,7 +194,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O relevo brasileiro é predominantemente composto por planaltos e depressões, com poucas planícies em termos de extensão. Os planaltos formam-se por processos erosivos em estruturas elevadas; as planícies, por deposição sedimentar em áreas rebaixadas. A classificação de Ab'Sáber divide o relevo brasileiro em planaltos, planícies e depressões.</p>",
-    "ajuda": "As formas do relevo são classificadas em planaltos, planícies e depressões, dependendo da altitude e da origem (erosão ou deposição). O relevo também pode ser qualificado como sendo de origem estrutural (condicionado pelo tipo de rocha) ou agradacional (formado por deposição de sedimentos)."
+    "ajuda": "As formas do relevo são classificadas em planaltos, planícies e depressões, dependendo da altitude e da origem (erosão ou deposição). O relevo também pode ser qualificado como sendo de origem estrutural (condicionado pelo tipo de rocha) ou agradacional (formado por deposição de sedimentos).",
+    "feedbacks": {
+      "0": "A I está incorreta: serras têm cristas irregulares (não regulares) e não são necessariamente recentes. A II também está incorreta: planaltos são bordejados por escarpas e depressões, não por planícies que os 'circundam'.",
+      "2": "A II está incorreta: planaltos são superfícies elevadas com bordas abruptas, e seus limites não são só planícies. A V está incorreta: montanhas têm elevações íngremes (não suaves) e não se formam por 'escarpas sedimentares'.",
+      "3": "A II e a V estão ambas incorretas. Planaltos têm bordas em escarpa (não 'ondulações bruscas'); montanhas são elevações abruptas, não 'suaves e aluviais' formadas por morros sedimentares.",
+      "4": "A I está incorreta: serras têm topos irregulares e recortados, não regulares. Associar a I (incorreta) à III (correta) não forma uma combinação válida."
+    }
   },
   {
     "id": 8,
@@ -183,7 +225,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O relevo brasileiro é classificado em: Planalto das Guianas (escudo cristalino, extremo norte), Planície Amazônica (deposição fluvial), Planalto Central Brasileiro (escudo antigo), Depressão do São Francisco, Planalto da Borborema, entre outros. Essa diversidade estrutural reflete diferentes histórias geológicas e processos de erosão e deposição.</p>",
-    "ajuda": "Para associar os números da figura às formas de relevo brasileiras, identifique características como altitude, declividade, tipo de rocha e processo formador. O Planalto das Guianas é antigo e cristalino; a Planície Amazônica é sedimentar e plana; a Depressão Periférica é escavada pela erosão."
+    "ajuda": "Para associar os números da figura às formas de relevo brasileiras, identifique características como altitude, declividade, tipo de rocha e processo formador. O Planalto das Guianas é antigo e cristalino; a Planície Amazônica é sedimentar e plana; a Depressão Periférica é escavada pela erosão.",
+    "feedbacks": {
+      "0": "Essa sequência troca as posições do Planalto Brasileiro e da Planície Platina. O Planalto Brasileiro ocupa o centro-leste do Brasil; a Planície Platina fica ao sul, entre Brasil, Argentina e Paraguai — em posições distintas no mapa.",
+      "1": "Essa combinação inverte várias formas de relevo. Lembre-se: a Cordilheira dos Andes percorre toda a borda oeste da América do Sul; a Sierra Madre fica ao norte (México/América Central); os planaltos ocupam o interior do Brasil.",
+      "2": "Essa sequência erra a localização dos Andes e das planícies. Os Andes ficam ao longo da costa oeste do continente; a Planície Amazônica ocupa o centro-norte; o Planalto das Guianas está ao norte do rio Amazonas.",
+      "3": "Essa combinação troca as posições da Planície Amazônica e do Planalto Brasileiro. A Planície Amazônica acompanha a bacia do rio Amazonas; o Planalto Brasileiro ocupa o centro-sul do Brasil — posições claramente distintas no mapa."
+    }
   },
   {
     "id": 9,
@@ -205,7 +253,12 @@
     ],
     "correta": 0,
     "comentario": "<p>Letra A. Esta opção é considerada correta porque identifica corretamente os topos mais aplainados dos morros e os terraços fluviais como áreas com condições naturais mais favoráveis à ocupação humana. Os topos mais aplainados dos morros oferecem uma posição elevada, o que pode proporcionar vistas panorâmicas, ventilação adequada e menor suscetibilidade a inundações. Além disso, os terraços fluviais são planícies aluviais formadas ao longo do tempo pelo acúmulo de sedimentos depositados por rios, proporcionando solos férteis para agricultura e acesso à água.</p>",
-    "ajuda": "Observe as formas de relevo apresentadas na figura e considere as características de cada uma delas, como a topografia, a presença de água e os riscos associados à ocupação humana. Analise quais áreas oferecem condições mais favoráveis para a construção de moradias, infraestrutura e atividades econômicas, levando em conta fatores como segurança, acesso a recursos naturais e sustentabilidade ambiental."
+    "ajuda": "Observe as formas de relevo apresentadas na figura e considere as características de cada uma delas, como a topografia, a presença de água e os riscos associados à ocupação humana. Analise quais áreas oferecem condições mais favoráveis para a construção de moradias, infraestrutura e atividades econômicas, levando em conta fatores como segurança, acesso a recursos naturais e sustentabilidade ambiental.",
+    "feedbacks": {
+      "1": "A questão pede as áreas mais FAVORÁVEIS. Áreas de alta declividade entre morros e planície são de fato perigosas, mas a segunda parte erra: terraços fluviais têm sedimentos consolidados e são justamente mais seguros para ocupação.",
+      "2": "O sopé das encostas recebe os sedimentos deslizados pelos morros (colúvio) e está sujeito a soterramento. A planície fluvial (várzea) é vulnerável a inundações periódicas — ambas oferecem riscos que tornam essas áreas menos favoráveis.",
+      "3": "Sedimentos inconsolidados oferecem fundação fraca para construções e são vulneráveis à erosão. Essa alternativa descreve condições de risco, não de favorabilidade — o oposto do que a questão pede."
+    }
   },
   {
     "id": 10,
@@ -228,6 +281,11 @@
     ],
     "correta": 0,
     "comentario": "<p>As planícies são formas de relevo originadas pela deposição de sedimentos em áreas planas e de baixa altitude. Formam-se em várzeas fluviais, planícies costeiras e deltas. São áreas de grande fertilidade agrícola (várzeas do Rio São Francisco) mas vulneráveis a inundações. Os processos exógenos (erosão e deposição) são responsáveis por sua formação.</p>",
-    "ajuda": "Planalto: Terreno elevado com superfície relativamente plana e limites mais ou menos abruptos, geralmente formado por processos erosivos. Planície: Terreno plano ou levemente ondulado, formado principalmente por processos de deposição de sedimentos, como rios ou geleiras."
+    "ajuda": "Planalto: Terreno elevado com superfície relativamente plana e limites mais ou menos abruptos, geralmente formado por processos erosivos. Planície: Terreno plano ou levemente ondulado, formado principalmente por processos de deposição de sedimentos, como rios ou geleiras.",
+    "feedbacks": {
+      "1": "Limitar a formação de planaltos a 'rochas ígneas extrusivas' é incorreto — planaltos podem assentar sobre qualquer tipo de rocha. A parte sobre formas exógenas (chapadas, morros) está correta, mas a restrição ao tipo de rocha invalida a alternativa.",
+      "2": "O erro está em 'exclusivamente fluvial': planícies podem ser formadas por fontes diversas (fluvial, marinha, eólica). Além disso, afirmar que o relevo 'não evolui' porque há meandros abandonados é incorreto — o relevo está sempre em transformação.",
+      "3": "Planaltos são modelados principalmente por processos exógenos (erosão diferencial), não por 'atividade ativa dos processos tectônicos'. Tectônica ativa caracteriza dobramentos modernos e zonas sísmicas, não planaltos em geral."
+    }
   }
 ]

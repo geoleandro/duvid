@@ -9,19 +9,25 @@
       "temperatura",
       "clima"
     ],
-    "texto_apoio": "“Todas as moléculas de uma parcela de ar contribuem para a pressão atmosférica. Como o vapor d’água é um gás, ele também contribui com um valor de pressão parcial, conhecido como pressão de vapor (e), aumentando ou diminuindo a pressão atmosférica. Quando a pressão de vapor (e) atinge seu valor máximo possível para uma determinada temperatura do ar, diz-se que o ar está saturado de umidade ou, em outras palavras, que o ar está cheio de vapor. Tem-se, portanto, a pressão de vapor de saturação (es). A umidade relativa é a razão entre a pressão de vapor e) e a pressão de vapor de saturação (es).”",
+    "texto_apoio": "Todas as moléculas de uma parcela de ar contribuem para a pressão atmosférica. Como o vapor d’água é um gás, ele também contribui com um valor de pressão parcial, conhecido como pressão de vapor (e), aumentando ou diminuindo a pressão atmosférica. Quando a pressão de vapor (e) atinge seu valor máximo possível para uma determinada temperatura do ar, diz-se que o ar está saturado de umidade ou, em outras palavras, que o ar está cheio de vapor. Tem-se, portanto, a pressão de vapor de saturação (es). A umidade relativa é a razão entre a pressão de vapor e) e a pressão de vapor de saturação (es).",
     "fonte_apoio": "(Ercília T. Steinke. Climatologia fácil, 2012. Adaptado.)",
     "pergunta": "Leia o excerto e analise as três afirmações a seguir.\n\nI. A temperatura caracteriza uma variável para determinarmos a pressão de vapor de saturação.\n\nII. Os valores relativos à umidade do ar expressam a real quantidade de vapor d’água existente no ar, em milímetros.\n\nIII. Quanto maior a umidade relativa do ar, maiores são as chances de chuva, pois a atmosfera está próxima do ponto de saturação.\n\nEstá correto o que se afirma em:",
     "alternativas": [
       "I e II, apenas.",
-      "I e II, apenas.",
+      "I e III, apenas.",
       "I, II e III.",
       "III, apenas.",
       "II e III, apenas."
     ],
     "correta": 1,
     "comentario": "<p>A pressão atmosférica e a temperatura são os dois principais elementos que definem as condições do tempo e determinam os padrões climáticos. A temperatura varia com latitude, altitude e maritimidade; a pressão, com altitude e temperatura do ar. Juntos, esses elementos governam a circulação geral da atmosfera e a formação de ventos e chuvas.</p>",
-    "ajuda": "Temperatura, pressão atmosférica, umidade, precipitação e ventos são os principais elementos do clima. Cada um é influenciado por fatores como latitude, altitude, maritimidade, continentalidade e massas de ar. Avalie cada afirmativa com base nessa distinção entre elementos e fatores."
+    "ajuda": "Temperatura, pressão atmosférica, umidade, precipitação e ventos são os principais elementos do clima. Cada um é influenciado por fatores como latitude, altitude, maritimidade, continentalidade e massas de ar. Avalie cada afirmativa com base nessa distinção entre elementos e fatores.",
+    "feedbacks": {
+      "0": "A afirmativa I está correta (a temperatura determina a pressão de vapor de saturação), e a afirmativa III também é verdadeira (maior umidade relativa aproxima o ar da saturação, favorecendo a precipitação). A afirmativa II é incorreta: umidade relativa é uma razão (e/es), sem unidade em milímetros. Milímetros medem precipitação, não umidade relativa do ar.",
+      "2": "A afirmativa II é incorreta: umidade relativa é uma razão (e/es), sem unidade em milímetros. Milímetros medem precipitação, não umidade relativa do ar. A afirmativa I é verdadeira, e a III também é.",
+      "3": "A afirmativa III está correta (maior umidade relativa aproxima o ar da saturação, favorecendo a precipitação), mas considerar apenas a III descarta a afirmativa I — que também é verdadeira, pois a temperatura determina a pressão de vapor de saturação.",
+      "4": "A afirmativa II é incorreta: umidade relativa é uma razão (e/es), sem unidade em milímetros. Milímetros medem precipitação, não umidade relativa do ar. Combinar II (falsa) com III (verdadeira) resulta em alternativa incorreta."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Os ventos e ciclones formam-se onde há gradientes acentuados de pressão atmosférica: o ar desloca-se das áreas de alta pressão (anticiclones) para as de baixa pressão (ciclones). Quanto maior a diferença de pressão entre dois pontos, mais forte é o vento. Os furacões e tufões são exemplos extremos desse fenômeno em zonas tropicais oceânicas.</p>",
-    "ajuda": "A distribuição de um fenômeno climático pelo espaço geográfico é condicionada por fatores físicos do meio. Pense em qual característica — altitude, latitude, proximidade do mar, tipo de vegetação — é indispensável para que o fenômeno descrito ocorra."
+    "ajuda": "A distribuição de um fenômeno climático pelo espaço geográfico é condicionada por fatores físicos do meio. Pense em qual característica, altitude, latitude, proximidade do mar, tipo de vegetação, é indispensável para que o fenômeno descrito ocorra.",
+    "feedbacks": {
+      "0": "A cobertura vegetal arbórea influencia a umidade local, mas não é a condição necessária para a distribuição do fenômeno climático representado. Sistemas de vento e ciclones formam-se por diferenças de pressão atmosférica, independentemente do tipo de vegetação.",
+      "1": "Barreiras orográficas são relevantes para chuvas orográficas, mas não são a condição necessária para o fenômeno da imagem. Ciclones e sistemas de vento formam-se por gradientes de pressão — não dependem de montanhas.",
+      "3": "O albedo (refletividade) da superfície influencia o balanço de energia, mas não é a condição necessária para a distribuição do fenômeno representado. Ventos e ciclones dependem fundamentalmente de gradientes de pressão atmosférica.",
+      "4": "Correntes marinhas influenciam a temperatura oceânica e o clima costeiro, mas não são a condição necessária para o fenômeno da imagem. Sistemas de ventos e ciclones dependem de gradientes de pressão, não de convergência de correntes marinhas."
+    }
   },
   {
     "id": 3,
@@ -67,7 +79,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As brisas marinhas e terrestres resultam do aquecimento diferencial entre o continente e o oceano. Durante o dia, a terra aquece mais rápido que o mar, criando baixa pressão no continente; o ar mais fresco do mar sopra para a terra (brisa marítima). À noite, o processo inverte: a terra esfria mais rápido e o vento sopra do continente para o mar (brisa terrestre).</p>",
-    "ajuda": "As brisas litorâneas resultam da diferença de aquecimento entre a terra (aquece e esfria mais rápido) e o mar (aquece e esfria mais lentamente). Durante o dia, a brisa sopra do mar para a terra; à noite, o processo se inverte. Identifique qual parte do ciclo está representada nas imagens."
+    "ajuda": "As brisas litorâneas resultam da diferença de aquecimento entre a terra (aquece e esfria mais rápido) e o mar (aquece e esfria mais lentamente). Durante o dia, a brisa sopra do mar para a terra; à noite, o processo se inverte. Identifique qual parte do ciclo está representada nas imagens.",
+    "feedbacks": {
+      "0": "A uniformidade de pressão resultaria em ausência de ventos, pois os ventos sopram justamente em direção às áreas de menor pressão. Se a pressão fosse uniforme, não haveria deslocamento de ar nem brisa litorânea.",
+      "2": "Quedas acentuadas de médias térmicas reduziriam a energia disponível para diferenças de pressão e movimentos de ar. As brisas dependem do ciclo diário de aquecimento e resfriamento diferencial terra-mar — não de uma queda geral de temperaturas.",
+      "3": "A umidade relativa influencia a formação de nuvens e precipitações, mas não é a causa direta das brisas litorâneas. As brisas são produzidas pela diferença de temperatura (e pressão) entre terra e mar — independente da umidade.",
+      "4": "Variações altimétricas geram ventos anabáticos e catabáticos em regiões montanhosas — não brisas litorâneas costeiras. As brisas marinhas e terrestres ocorrem em regiões planas costeiras, pelo aquecimento diferencial de terra e mar."
+    }
   },
   {
     "id": 4,
@@ -92,7 +110,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A atmosfera divide-se em camadas com características distintas: troposfera (0-12 km, clima e vida), estratosfera (12-50 km, camada de ozônio), mesosfera (50-80 km), termosfera/ionosfera (80-500 km) e exosfera (acima de 500 km). Na exosfera, a densidade do ar é mínima e predominam átomos leves de hidrogênio e hélio — a transição para o espaço.</p>",
-    "ajuda": "A atmosfera é composta principalmente por nitrogênio (78%) e oxigênio (21%), com traços de outros gases. Ela é dividida em camadas: troposfera (onde ocorre o clima), estratosfera (camada de ozônio), mesosfera, termosfera e exosfera. Identifique qual camada ou propriedade a questão aborda."
+    "ajuda": "A atmosfera é composta principalmente por nitrogênio (78%) e oxigênio (21%), com traços de outros gases. Ela é dividida em camadas: troposfera (onde ocorre o clima), estratosfera (camada de ozônio), mesosfera, termosfera e exosfera. Identifique qual camada ou propriedade a questão aborda.",
+    "feedbacks": {
+      "0": "A estratosfera não é a camada mais externa — a exosfera é a mais distante da Terra. Além disso, o ozônio estratosférico concentra-se entre 15 e 35 km de altitude (não apenas a 22 km) e representa grande parte, não 'pequena parte', do ozônio total.",
+      "1": "A termosfera estende-se de cerca de 80 a 500 km — não até 5.000 km (essa seria a exosfera e além). Além disso, a termosfera não é 'muito concentrada': a densidade do ar lá é extremamente baixa, embora seja importante para rádio e televisão.",
+      "2": "Na mesosfera, a temperatura cai com a altitude, chegando a cerca de -90°C no topo — ao contrário do que afirma a alternativa. O aumento de temperatura com a altitude ocorre na estratosfera (ozônio absorve UV) e na termosfera.",
+      "3": "A descrição da troposfera tem elementos corretos (75-80% da massa atmosférica, temperatura diminui com a altitude), mas não é a alternativa correta — a questão pede qual afirmação está correta sobre as camadas, e a alternativa sobre a exosfera (índice 4) é a mais precisa."
+    }
   },
   {
     "id": 5,
@@ -114,7 +138,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Os ciclones tropicais (furacões no Atlântico, tufões no Pacífico) formam-se sobre oceanos tropicais com temperatura da superfície acima de 26°C. O ar quente e úmido sobe rapidamente, cria baixa pressão intensa no centro (olho do ciclone), e ventos em espiral convergem em sentido anti-horário no hemisfério norte e horário no sul (efeito Coriolis).</p>",
-    "ajuda": "Os ciclones são sistemas de baixa pressão com ventos que circulam no sentido anti-horário no Hemisfério Norte e horário no Hemisfério Sul (lei de Buys Ballot). Observe a imagem e identifique o hemisfério e as características do sistema representado."
+    "ajuda": "Os ciclones são sistemas de baixa pressão com ventos que circulam no sentido anti-horário no Hemisfério Norte e horário no Hemisfério Sul (lei de Buys Ballot). Observe a imagem e identifique o hemisfério e as características do sistema representado.",
+    "feedbacks": {
+      "0": "Os ciclones são sistemas de BAIXA pressão — o ar converge em espiral para o centro onde a pressão é mínima. Um ciclone nunca corresponde a uma área de alta pressão; as áreas de alta pressão são os anticiclones.",
+      "1": "Os ciclones não ocorrem independentemente da pressão atmosférica — são definidos justamente pela existência de uma área de baixa pressão intensa. O hemisfério também é determinante: o efeito Coriolis muda o sentido de rotação.",
+      "2": "O ciclone representado na imagem gira em sentido horário, o que é característico do Hemisfério Sul. No Hemisfério Norte, os ciclones giram no sentido anti-horário. O hemisfério indicado nesta alternativa está errado."
+    }
   },
   {
     "id": 6,
@@ -137,7 +166,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A circulação geral da atmosfera é movida pela diferença de aquecimento entre o Equador (muito calor, baixa pressão) e os polos (frio, alta pressão). Isso gera células de circulação: célula de Hadley (tropicais), de Ferrel (temperadas) e Polar. Os ventos alísios, as monções e os jatos equatoriais são expressões dessa circulação global.</p>",
-    "ajuda": "Os sistemas atmosféricos de alta pressão (anticiclones) são associados a tempo estável e seco; os de baixa pressão (ciclones) estão ligados ao tempo instável, com chuvas e ventos fortes. Avalie cada afirmativa com base no comportamento esperado de cada sistema."
+    "ajuda": "Os sistemas atmosféricos de alta pressão (anticiclones) são associados a tempo estável e seco; os de baixa pressão (ciclones) estão ligados ao tempo instável, com chuvas e ventos fortes. Avalie cada afirmativa com base no comportamento esperado de cada sistema.",
+    "feedbacks": {
+      "0": "A afirmativa I é verdadeira (circulação resulta do aquecimento diferencial e da rotação), mas ela é apenas parte da resposta. As afirmativas II e III também são corretas: os alísios relacionam-se com a célula de Hadley (II) e as correntes convectivas redistribuem calor e umidade (III).",
+      "1": "A afirmativa III é verdadeira — as células de Hadley, Ferrel e Polar deslocam-se e redistribuem calor e umidade em diferentes latitudes. Mas as afirmativas I e II também são corretas, tornando esta alternativa incompleta.",
+      "2": "As afirmativas I e II são corretas, mas a III também é correta — as correntes convectivas (células atmosféricas) encontram-se em diferentes latitudes redistribuindo calor e umidade. Excluir a III é um erro.",
+      "3": "As afirmativas II e III são corretas, mas a I também é correta — a circulação geral da atmosfera resulta das diferenças de aquecimento entre latitudes e da rotação terrestre (efeito Coriolis). Excluir a I é incorreto."
+    }
   },
   {
     "id": 7,
@@ -160,7 +195,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Os três tipos de precipitação são: convectiva (ar quente sobe, condensa rápido — chuvas tropicais intensas e locais), frontal (encontro de massas de ar quente e fria — chuvas persistentes nas frentes frias) e orográfica (ar úmido empurrado pelas montanhas sobe e resfria — chuvas na encosta a barlavento). O Brasil experimenta os três tipos.</p>",
-    "ajuda": "As massas de ar são grandes volumes de ar com características homogêneas de temperatura e umidade. No Brasil, as principais massas de ar são: Equatorial Continental (quente e úmida), Polar Atlântica (fria e úmida), Tropical Atlântica (quente e úmida) e Tropical Continental (quente e seca). Associe cada sigla ou descrição à massa correta."
+    "ajuda": "As massas de ar são grandes volumes de ar com características homogêneas de temperatura e umidade. No Brasil, as principais massas de ar são: Equatorial Continental (quente e úmida), Polar Atlântica (fria e úmida), Tropical Atlântica (quente e úmida) e Tropical Continental (quente e seca). Associe cada sigla ou descrição à massa correta.",
+    "feedbacks": {
+      "0": "Esta sequência coloca a orográfica no tipo I e a frontal no tipo II, mas a chuva orográfica depende de barreiras montanhosas — não é a chuva por ascensão convectiva do tipo I. A convectiva ocorre pelo aquecimento superficial do ar, sem barreiras físicas.",
+      "1": "Esta sequência inverte orográfica e convectiva. A chuva convectiva (tipo I) é gerada pelo aquecimento do ar superficial que sobe verticalmente; a orográfica (tipo III) ocorre quando o ar é barrado fisicamente por montanhas.",
+      "3": "Esta sequência coloca a frontal no tipo I, mas chuvas frontais ocorrem no encontro de massas de ar quente e fria — não no processo de convecção térmica localizada do tipo I. Convectiva e frontal têm mecanismos distintos.",
+      "4": "Esta sequência inverte convectiva e orográfica. A convectiva (tipo I) é gerada pelo aquecimento da superfície que eleva o ar úmido; a orográfica (tipo III) ocorre quando o relevo força o ar a subir mecanicamente."
+    }
   },
   {
     "id": 8,
@@ -183,7 +224,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Os ventos sempre sopram de áreas de maior pressão para áreas de menor pressão. Esse princípio governa desde as brisas locais até os grandes sistemas de ventos globais (alísios, ventos de oeste). A intensidade do vento é proporcional ao gradiente de pressão — quanto maior a diferença entre as pressões, mais forte o vento.</p>",
-    "ajuda": "Os deslocamentos das massas de ar no Brasil são influenciados pelas diferenças de pressão e temperatura entre regiões. Observe a figura e identifique a direção de deslocamento de cada massa, sua origem e as características climáticas que ela traz."
+    "ajuda": "Os deslocamentos das massas de ar no Brasil são influenciados pelas diferenças de pressão e temperatura entre regiões. Observe a figura e identifique a direção de deslocamento de cada massa, sua origem e as características climáticas que ela traz.",
+    "feedbacks": {
+      "1": "Os deslocamentos das massas de ar dependem fundamentalmente das diferenças de pressão atmosférica. O vento é exatamente o movimento do ar de regiões de maior pressão para menor — afirmar independência da pressão contradiz o princípio básico da meteorologia.",
+      "2": "A umidade influencia a densidade e as características das massas de ar, mas não é o fator primário que determina o sentido do deslocamento. O que move as massas de ar são os gradientes de pressão, não os gradientes de umidade.",
+      "3": "As massas de ar não se deslocam necessariamente de áreas secas para áreas úmidas — elas seguem gradientes de pressão, podendo levar umidade do oceano para o interior dos continentes. A umidade é uma característica da massa, não um fator direcional.",
+      "4": "As massas de ar raramente se movem entre áreas de mesma temperatura — são justamente as diferenças de temperatura que geram diferenças de pressão e movem o ar. Se as temperaturas fossem iguais, a pressão seria uniforme e não haveria deslocamento."
+    }
   },
   {
     "id": 9,
@@ -205,7 +252,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A formação do solo é resultado da interação de cinco fatores: material de origem (rocha-mãe), clima (temperatura e chuva), relevo (drenagem e erosão), organismos (fauna e flora do solo) e tempo (duração do processo pedogenético). Em regiões tropicais úmidas, o processo é acelerado pelo calor e pela chuva, gerando solos profundos.</p>",
-    "ajuda": "Os principais elementos que atuam na formação do solo incluem clima (temperatura e chuva), organismos vivos (vegetação e fauna do solo), material de origem (rocha-mãe), relevo e tempo. Identifique quais desses fatores são listados nas alternativas."
+    "ajuda": "Os principais elementos que atuam na formação do solo incluem clima (temperatura e chuva), organismos vivos (vegetação e fauna do solo), material de origem (rocha-mãe), relevo e tempo. Identifique quais desses fatores são listados nas alternativas.",
+    "feedbacks": {
+      "0": "A alternativa restringe os elementos apenas aos naturais, excluindo o ser humano. As atividades humanas (agricultura, desmatamento, urbanização) têm impacto significativo nos processos pedológicos e são reconhecidas como fatores atuais de formação e degradação do solo.",
+      "1": "O tectonismo é responsável pelas grandes estruturas geológicas e formas do relevo, mas não é o principal agente da decomposição diária da rocha que origina o solo. O intemperismo (físico, químico e biológico) é o processo pedogenético direto.",
+      "2": "Esta alternativa também exclui o ser humano ('todavia, não tem nenhuma influência'), o que é incorreto no contexto atual. O manejo humano — irrigação, agrotóxicos, compactação, desmatamento — modifica profundamente as características dos solos.",
+      "3": "Desastres extremos (terremotos, tsunamis, furacões) podem expor rochas ou depositar sedimentos, mas não são os agentes principais da pedogênese. A formação do solo é um processo lento e contínuo controlado por clima, biota, relevo, tempo e material de origem."
+    }
   },
   {
     "id": 10,
@@ -228,6 +281,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A mata e os bosques mantêm a umidade local pela evapotranspiração — as plantas liberam vapor d'água pelas folhas, contribuindo para a formação de nuvens e chuvas. Estudos do INPE demonstraram que o desmatamento da Amazônia reduz as chuvas regionais por diminuir esse fluxo de vapor. Isso também impacta o regime pluviométrico do Sul e Sudeste do Brasil (rios voadores).</p>",
-    "ajuda": "Em áreas tropicais, a convecção térmica (aquecimento da superfície → ar sobe → nuvens cumulonimbos → chuvas convectivas) é o principal mecanismo de precipitação. O desenho provavelmente representa esse ciclo; observe os movimentos do ar e a formação de nuvens."
+    "ajuda": "Em áreas tropicais, a convecção térmica (aquecimento da superfície → ar sobe → nuvens cumulonimbos → chuvas convectivas) é o principal mecanismo de precipitação. O desenho provavelmente representa esse ciclo; observe os movimentos do ar e a formação de nuvens.",
+    "feedbacks": {
+      "0": "A amplitude térmica diuturna em matas é moderada pela cobertura vegetal, não 'grande'. Além disso, matas não mantêm nuvens baixas pela amplitude — é a evapotranspiração intensa que eleva a umidade e favorece a formação de nuvens e precipitações.",
+      "1": "Em áreas com escassa cobertura vegetal, o ar tende a ser mais quente e seco — não frio e seco. A ausência de vegetação aumenta o albedo e reduz a evapotranspiração, diminuindo a umidade disponível para formação de nuvens e chuvas.",
+      "3": "Em plantações (monocultura), as amplitudes térmicas são maiores pela ausência de sombreamento contínuo, não menores. A evapotranspiração em monoculturas é menor e mais irregular do que em florestas nativas, resultando em menos chuvas.",
+      "4": "Em áreas de vegetação abundante, o ar tende a ser mais quente e úmido (não frio e rarefeito) pela intensa evapotranspiração. Nuvens cumulonimbos formam-se pela convecção provocada pelo calor — elas sobem verticalmente, não descem sobre as matas."
+    }
   }
 ]

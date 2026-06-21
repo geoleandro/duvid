@@ -590,6 +590,22 @@ function getFraseAnalise() {
     return frases[Math.floor(Math.random() * frases.length)];
 }
 
+function getFraseSuporteGlobinho() {
+    const frases = [
+        'Respira fundo. Você consegue!',
+        'Calma, sem pressa. Geografia se aprende com atenção.',
+        'Errar faz parte. Continue explorando!',
+        'Pausa. Releia o enunciado com calma.',
+        'Não desista! Cada erro te aproxima do objetivo.',
+        'Vai com calma. O mapa se revela aos poucos.',
+        'Respira. Você está no caminho certo.',
+        'Atenção aos detalhes. Você chega lá!',
+        'Tranquilo! Geografia é um mundo a descobrir.',
+        'Um passo de cada vez. Você está evoluindo!'
+    ];
+    return frases[Math.floor(Math.random() * frases.length)];
+}
+
 
 /**
  * Mestre de Metadados: Busca no JSON do ano correto e aplica o SEO

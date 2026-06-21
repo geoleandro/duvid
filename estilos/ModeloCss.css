@@ -2203,3 +2203,37 @@ button:disabled {
     }
 }
 }
+/* ── Botão de reporte de problema em questões ── */
+.btn-reporte-problema {
+    background: none;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: #777;
+    cursor: pointer;
+    transition: all .2s;
+}
+.btn-reporte-problema:hover {
+    border-color: #4caf50;
+    color: #4caf50;
+    background: rgba(76,175,80,.06);
+}
+
+/* ── Botão "Melhorar esta aula" — nos textos das aulas ── */
+.btn-melhorar-aula {
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 6px 18px;
+    font-size: 13px;
+    color: #999;
+    cursor: pointer;
+    transition: all .2s;
+    letter-spacing: .3px;
+}
+.btn-melhorar-aula:hover {
+    border-color: #4caf50;
+    color: #4caf50;
+    background: rgba(76,175,80,.06);
+}

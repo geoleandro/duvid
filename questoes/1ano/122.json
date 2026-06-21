@@ -20,7 +20,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O smog industrial (ou clássico) forma-se nas cidades com forte atividade industrial em dias frios e úmidos, quando a inversão térmica impede a dispersão dos poluentes. É composto principalmente de SO₂ e material particulado liberados pelas indústrias. O grande smog de Londres em 1952 matou mais de 4.000 pessoas em 4 dias, levando ao Clean Air Act britânico.</p>",
-    "ajuda": "O smog é formado pela combinação de poluentes industriais e veiculares com a umidade do ar, especialmente em dias frios e com pouca circulação de ventos. Identifique em qual tipo de ambiente ele ocorre com mais frequência e quais são seus efeitos sobre a saúde."
+    "ajuda": "O smog é formado pela combinação de poluentes industriais e veiculares com a umidade do ar, especialmente em dias frios e com pouca circulação de ventos. Identifique em qual tipo de ambiente ele ocorre com mais frequência e quais são seus efeitos sobre a saúde.",
+    "feedbacks": {
+      "0": "O smog fotoquímico ocorre em dias quentes e ensolarados, com origem em veículos (NOₓ e hidrocarbonetos), e forma ozônio troposférico pela ação da luz solar. Não ocorre em dias frios e úmidos nem tem dióxido de enxofre como poluente principal.",
+      "1": "O smog fotoquímico ocorre em dias quentes e ensolarados, não frios e úmidos. Sua origem está em gases de veículos (NOₓ e hidrocarbonetos), não em gases industriais. A descrição mistura características dos dois tipos de smog.",
+      "2": "O smog industrial ocorre em dias FRIOS e ÚMIDOS, com inversão térmica que prende poluentes próximo ao solo. Os gases do smog industrial vêm das indústrias (SO₂ e material particulado), não dos veículos. A alternativa inverteu as condições dos dois tipos."
+    }
   },
   {
     "id": 2,
@@ -43,7 +48,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A urbanização desordenada degrada o meio ambiente por múltiplas vias: impermeabilização do solo (enchentes), remoção da vegetação (ilhas de calor), geração de efluentes (poluição hídrica) e emissão de gases (poluição do ar). Cidades planejadas com arborização, parques, drenagem e transporte público eficiente conseguem mitigar esses impactos.</p>",
-    "ajuda": "A afirmação apresentada provavelmente trata de poluição atmosférica, efeito estufa, ilhas de calor ou degradação ambiental urbana. Avalie criticamente a afirmação e identifique qual alternativa a confirma, nega ou complementa corretamente."
+    "ajuda": "A afirmação apresentada provavelmente trata de poluição atmosférica, efeito estufa, ilhas de calor ou degradação ambiental urbana. Avalie criticamente a afirmação e identifique qual alternativa a confirma, nega ou complementa corretamente.",
+    "feedbacks": {
+      "0": "O crescimento das áreas urbanizadas, com impermeabilização e supressão da vegetação, AUMENTA as temperaturas médias urbanas (ilhas de calor), não as diminui. A afirmação do enunciado é verdadeira, mas esta alternativa descreve incorretamente o efeito térmico da urbanização.",
+      "1": "O ser humano pré-histórico não produzia estruturas urbanas artificiais como asfalto, concreto e grandes edificações. As mudanças climáticas percebidas nas cidades modernas estão relacionadas exatamente a essas estruturas, algo ausente na Pré-História.",
+      "3": "A urbanização modifica o microclima em qualquer grande cidade, independentemente de proximidade oceânica. Restringir o fenômeno das ilhas de calor a cidades sem influência marítima é incorreto: o efeito ocorre amplamente em metrópoles costeiras também.",
+      "4": "As cidades modificam a parte inferior da troposfera de forma concreta: criam ilhas de calor, intensificam chuvas convectivas e alteram a umidade relativa. Afirmar que as cidades não causam transformações atmosféricas contradiz décadas de pesquisa em climatologia urbana."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A escala geográfica é fundamental para entender fenômenos ambientais: a poluição atmosférica pode ser local (smog urbano), regional (chuva ácida) ou global (aquecimento global). O mesmo processo — queima de combustível fóssil — produz efeitos em escalas diferentes. Pensar em múltiplas escalas é uma das habilidades centrais da análise geográfica.</p>",
-    "ajuda": "A escala geográfica se refere ao nível de análise: local (bairro, cidade), regional (estado, país) ou global (planeta). Pense em como um problema ambiental pode ter causas locais mas impactos globais, ou causas globais que se manifestam localmente."
+    "ajuda": "A escala geográfica se refere ao nível de análise: local (bairro, cidade), regional (estado, país) ou global (planeta). Pense em como um problema ambiental pode ter causas locais mas impactos globais, ou causas globais que se manifestam localmente.",
+    "feedbacks": {
+      "0": "A afirmativa I está errada: a chuva ácida é um problema regional, não global; e os compostos como SO₂ e NOₓ ficam na troposfera, não alcançam a estratosfera. Incluir a I e a V (inversão térmica como fenômeno global) torna esta alternativa incorreta.",
+      "2": "A afirmativa V é falsa: a inversão térmica é um fenômeno local e urbano, com escala de abrangência local, não global. Incluí-la junto com as corretas III e IV torna esta alternativa incorreta.",
+      "3": "A afirmativa I é falsa (chuva ácida é regional e os compostos ficam na troposfera). Selecionar apenas I e II, excluindo as corretas III e IV, torna esta alternativa incompleta e incorreta.",
+      "4": "A afirmativa V é falsa: a inversão térmica tem escala de abrangência local, não global. Incluir a V como verdadeira torna esta alternativa incorreta, mesmo que a II e a IV sejam corretas."
+    }
   },
   {
     "id": 4,
@@ -90,7 +107,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As ilhas de calor urbanas são combatidas com arborização (evapotranspiração resfria o ar), criação de parques e corredores verdes, telhados verdes, superfícies de cores claras (refletem mais calor) e limitação da verticalização densa que impede a circulação do vento. Cidades como Medellín (Colômbia) e Cingapura são referências em soluções biofílicas urbanas.</p>",
-    "ajuda": "As ilhas de calor urbanas são fenômenos em que a temperatura nas cidades é mais alta do que nas áreas rurais ao redor. Elas são causadas pela impermeabilização do solo, ausência de vegetação, calor emitido por veículos e indústrias e pela geometria dos edifícios que retém o calor."
+    "ajuda": "As ilhas de calor urbanas são fenômenos em que a temperatura nas cidades é mais alta do que nas áreas rurais ao redor. Elas são causadas pela impermeabilização do solo, ausência de vegetação, calor emitido por veículos e indústrias e pela geometria dos edifícios que retém o calor.",
+    "feedbacks": {
+      "0": "Diminuir as áreas de infiltração agravaria o escoamento superficial e as ilhas de calor. As medidas eficazes são o oposto: ampliar a infiltração com solo permeável, vegetação e parques urbanos.",
+      "1": "Abrir novas vias para automóveis aumenta o tráfego e as emissões de poluentes, piorando a qualidade do ar. A abertura de mais vias é uma medida contraproducente para reduzir as ilhas de calor e a poluição atmosférica.",
+      "2": "Aumentar as áreas pavimentadas intensifica a absorção de calor e reduz a infiltração de água, agravando as ilhas de calor. Mesmo com melhoria no transporte público e combustíveis menos poluentes, a pavimentação adicional é prejudicial.",
+      "3": "A criação de linhas de trem e metrô é benéfica para o transporte e reduz emissões, mas a pavimentação e saneamento de bairros periféricos não reduz diretamente as ilhas de calor. A medida mais eficaz para isso é a arborização e criação de áreas verdes permeáveis."
+    }
   },
   {
     "id": 5,
@@ -113,7 +136,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A inversão térmica ocorre quando uma camada de ar quente 'tampa' o ar frio próximo ao solo, impedindo a dispersão vertical dos poluentes. O ar 2 (quente) atua como uma tampa que confina o ar 3 (frio e poluído) junto à superfície. É mais comum em regiões com relevo encaixado, como São Paulo no inverno — situação que agrava dramaticamente a qualidade do ar.</p>",
-    "ajuda": "A figura provavelmente representa um ciclo ambiental, uma emissão de poluentes ou um processo climático. Identifique os elementos da figura (setas, fontes, destinos) e relacione-os ao processo descrito em cada alternativa."
+    "ajuda": "A figura provavelmente representa um ciclo ambiental, uma emissão de poluentes ou um processo climático. Identifique os elementos da figura (setas, fontes, destinos) e relacione-os ao processo descrito em cada alternativa.",
+    "feedbacks": {
+      "0": "A ilha de calor urbana tem dinâmica diferente da descrita. Na ilha de calor, o ar mais quente fica na área urbana densa, sem a configuração de camadas de ar frio aprisionado descrita para a inversão térmica.",
+      "1": "Na inversão térmica, a camada de ar mais frio fica próxima à superfície e é retida pela camada quente acima. A alternativa erra ao dizer que poluentes ficam sobre a cidade por 'baixas temperaturas do ar 3', invertendo a lógica das camadas.",
+      "3": "A frente fria resulta do deslocamento de ar polar em grande escala, não da compressão entre camadas de ar próximas à superfície. A configuração mostrada na figura não corresponde ao padrão de uma frente fria, mas sim à inversão térmica.",
+      "4": "Na inversão térmica, o ar quente fica ACIMA do ar frio, não abaixo. O ar mais quente é menos denso e mais leve, portanto sobe. A alternativa inverte a lógica física da situação, colocando o ar quente abaixo do frio."
+    }
   },
   {
     "id": 6,
@@ -137,7 +166,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A piora da qualidade do ar em São Paulo nas últimas análises da CETESB está ligada ao aumento da frota de veículos, especialmente caminhões e motos a diesel (que emitem material particulado fino — MP2,5). A expansão da frota motorizada supera os ganhos tecnológicos em eficiência dos motores, resultando em mais emissões absolutas na região metropolitana.</p>",
-    "ajuda": "A qualidade do ar é medida por indicadores como o índice de material particulado (PM2.5 e PM10), dióxido de nitrogênio (NO₂), ozônio troposférico e monóxido de carbono. Os principais responsáveis pela piora da qualidade do ar em São Paulo são os veículos automotores."
+    "ajuda": "A qualidade do ar é medida por indicadores como o índice de material particulado (PM2.5 e PM10), dióxido de nitrogênio (NO₂), ozônio troposférico e monóxido de carbono. Os principais responsáveis pela piora da qualidade do ar em São Paulo são os veículos automotores.",
+    "feedbacks": {
+      "0": "A piora da qualidade do ar em São Paulo não se deveu ao crescimento industrial na capital e no litoral, mas ao aumento da frota de veículos. Os dados da CETESB apontam veículos automotores como principal fonte de poluição urbana na Grande São Paulo.",
+      "2": "O ozônio não é emitido diretamente pelos veículos: ele é gerado secundariamente pela reação de NOₓ e hidrocarbonetos com a luz solar. Além disso, o programa Proálcool e os bicombustíveis não foram causa da piora apontada nos dados da CETESB.",
+      "3": "As ilhas de calor têm seus efeitos intensificados, não atenuados, pelo aumento da poluição. Afirmar que o aquecimento das ilhas de calor foi atenuado no centro da metrópole contraria o que ocorre na realidade.",
+      "4": "A piora não foi causada pelo crescimento econômico do interior, mas pelo aumento da frota de veículos na Grande São Paulo. Além disso, o Brasil possui legislação de controle de emissões (PROCONVE), portanto a afirmação de ausência de legislação é incorreta."
+    }
   },
   {
     "id": 7,
@@ -161,7 +196,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As ilhas de calor urbanas formam-se porque as superfícies artificiais da cidade (asfalto, concreto, telhados) absorvem mais calor que a vegetação e o solo nu. A ausência de vegetação elimina a evapotranspiração refrescante. Esse fenômeno faz com que as áreas centrais densamente construídas sejam até 5-8°C mais quentes que os arredores rurais.</p>",
-    "ajuda": "Os grandes centros urbano-industriais concentram emissões de poluentes, produção de resíduos sólidos e impermeabilização do solo. Esses fatores geram ilhas de calor, enchentes e poluição atmosférica. Identifique qual problema ambiental é destacado na questão."
+    "ajuda": "Os grandes centros urbano-industriais concentram emissões de poluentes, produção de resíduos sólidos e impermeabilização do solo. Esses fatores geram ilhas de calor, enchentes e poluição atmosférica. Identifique qual problema ambiental é destacado na questão.",
+    "feedbacks": {
+      "0": "A inversão térmica ocorre quando ar quente fica acima do ar frio, impedindo a dispersão de poluentes. A invasão do ar polar não é sua causa direta; a inversão pode ocorrer naturalmente por diferenças locais de temperatura, não apenas com irrupção polar.",
+      "2": "A chuva ácida resulta da combinação de poluentes (SO₂ e NOₓ) com a umidade do ar, não da substituição de vegetação por construções. Não tem relação direta com a geometria dos edifícios ou o tráfego de veículos representados na figura.",
+      "3": "A poluição sonora não é um fenômeno visual representável como na figura e não está associada às causas climáticas (impermeabilização, retirada de vegetação) descritas no contexto. Não é um impacto gerado pelas trocas de energia entre superfície e atmosfera.",
+      "4": "A poluição visual (outdoors, placas) não resulta da substituição da cobertura vegetal por construções nem eleva a temperatura. Não é um impacto ambiental gerado pelas trocas de energia entre superfície e atmosfera descritas na questão."
+    }
   },
   {
     "id": 8,
@@ -183,7 +224,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As construções urbanas (prédios altos, asfalto, concreto) absorvem calor durante o dia e o irradiam à noite, criando células de calor que impedem o resfriamento natural. Isso aumenta o consumo de energia para ar-condicionado, intensifica smog fotoquímico e pode agravar a saúde respiratória da população. É um círculo vicioso de urbanização e aquecimento local.</p>",
-    "ajuda": "A degradação ambiental no Brasil resulta de um modelo histórico de ocupação territorial baseado na exploração intensiva dos recursos naturais, com pouca regulação e fiscalização. Pense em como esse padrão se manifesta em diferentes biomas e regiões."
+    "ajuda": "A degradação ambiental no Brasil resulta de um modelo histórico de ocupação territorial baseado na exploração intensiva dos recursos naturais, com pouca regulação e fiscalização. Pense em como esse padrão se manifesta em diferentes biomas e regiões.",
+    "feedbacks": {
+      "0": "A questão pede a alternativa que NAO descreve corretamente um processo de degradação. A contaminação de rios por mercúrio do garimpo de ouro é um processo real e bem documentado no Brasil. Esta alternativa descreve corretamente um processo de degradação ambiental.",
+      "1": "A questão pede a alternativa que NAO descreve corretamente um processo de degradação. A erosão do solo ligada a monocultura em ecossistemas frágeis é um processo de degradação real e amplamente documentado. Esta alternativa descreve corretamente um processo degradante.",
+      "3": "A questão pede a alternativa que NAO descreve corretamente um processo de degradação. O consumo de vastas superfícies de vegetação pela expansão urbana e de infraestrutura é um processo de degradação ambiental real no Brasil. Esta alternativa está correta e não deve ser marcada.",
+      "4": "A questão pede a alternativa que NAO descreve corretamente um processo de degradação. O comprometimento dos escoamentos hidrográficos por dejetos industriais e esgoto é um problema ambiental real e documentado. Esta alternativa descreve corretamente um processo degradante."
+    }
   },
   {
     "id": 9,
@@ -207,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A poluição atmosférica nas cidades é causada principalmente por veículos (CO, NOₓ, hidrocarbonetos, MP) e indústrias (SO₂, MP). A legislação brasileira (PROCONVE) exige catalisadores em carros novos desde 1997, reduzindo muito as emissões por veículo. Contudo, o crescimento da frota nas grandes metrópoles continua sendo um desafio para a qualidade do ar.</p>",
-    "ajuda": "A expansão das atividades econômicas nas cidades gera poluição do ar, da água e do solo, além de produção crescente de resíduos sólidos. Identifique qual atividade econômica ou padrão de consumo está mais diretamente ligado ao problema descrito."
+    "ajuda": "A expansão das atividades econômicas nas cidades gera poluição do ar, da água e do solo, além de produção crescente de resíduos sólidos. Identifique qual atividade econômica ou padrão de consumo está mais diretamente ligado ao problema descrito.",
+    "feedbacks": {
+      "1": "A afirmativa II é falsa: a inversão térmica não é 'fenômeno tipicamente antrópico', pois pode ocorrer naturalmente por condições meteorológicas. Selecionar I e II como corretas inclui uma afirmativa falsa.",
+      "2": "A afirmativa III é falsa: o efeito estufa é descrito como 'dispersão de calor', quando na verdade é a RETENÇÃO de calor pela atmosfera. Selecionar apenas a III como correta está errado.",
+      "3": "A afirmativa II é falsa (inversão térmica não é exclusivamente antrópica) e a IV é falsa (construções aumentam a irradiação de calor à noite, não a diminuem). Selecionar II e IV como corretas está errado.",
+      "4": "A afirmativa IV é falsa: as construções urbanas (asfalto, concreto) AUMENTAM a retenção de calor em relação às zonas rurais com vegetação, não diminuem a irradiação. Selecionar apenas a IV como correta está errado."
+    }
   },
   {
     "id": 10,
@@ -230,6 +283,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O smog fotoquímico forma-se pela ação da luz solar sobre poluentes emitidos por automóveis (NOₓ e hidrocarbonetos), gerando ozônio troposférico e outros oxidantes. O smog industrial resulta da queima industrial de carvão (SO₂ e fuligem). O smog fotoquímico é predominante em cidades ensolaradas e quentes; o industrial, em regiões frias com inversão térmica.</p>",
-    "ajuda": "A poluição atmosférica tem como principais fontes os veículos automotores (óxidos de nitrogênio, monóxido de carbono, material particulado) e a indústria (enxofre, solventes, metais pesados). Avalie quais fontes são descritas na questão e seus impactos à saúde."
+    "ajuda": "A poluição atmosférica tem como principais fontes os veículos automotores (óxidos de nitrogênio, monóxido de carbono, material particulado) e a indústria (enxofre, solventes, metais pesados). Avalie quais fontes são descritas na questão e seus impactos à saúde.",
+    "feedbacks": {
+      "1": "A sequencia 1-2-3 nao é a correta para a correspondência entre os fenômenos climáticos e suas características. Reveja as definições de smog fotoquímico e smog industrial, diferenciando condições climáticas e fontes de poluição de cada um.",
+      "2": "A sequencia 2-1-3 inverte a correspondência entre dois dos fenômenos climáticos e suas características. As definições diferem em relação às condições climáticas (quente/ensolarado vs. frio/úmido) e às fontes de poluição (veículos vs. indústrias).",
+      "3": "A sequencia 3-2-1 nao é a correta. Ela inverte a associação entre pelo menos dois dos fenômenos e suas características, trocando especialmente os critérios de condições climáticas e fontes de poluição de cada tipo.",
+      "4": "A sequencia 1-3-2 nao é a correta para associar os fenômenos climáticos às características listadas. Ela erra na correspondência entre pelo menos dois dos fenômenos, invertendo suas fontes de poluição e condições de ocorrência."
+    }
   }
 ]

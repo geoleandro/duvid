@@ -21,7 +21,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O calcário é uma rocha sedimentar formada principalmente por carbonato de cálcio (CaCO₃). Em regiões com calcário, a água ligeiramente ácida dissolve a rocha ao longo de milênios, criando o relevo cárstico: cavernas, sumidouros, dolinas e lagos subterrâneos. O Parque Estadual do Alto Ribeira (SP) e a Chapada Diamantina (BA) têm excelentes exemplos.</p>",
-    "ajuda": "As formas do relevo emergido da crosta terrestre revelam a história geológica da região: rochas dobradas indicam colisão de placas; falhas indicam fraturas na crosta; planaltos sobre crátons indicam estabilidade tectônica. Analise o que as feições do relevo descrito revelam sobre o passado geológico."
+    "ajuda": "As formas do relevo emergido da crosta terrestre revelam a história geológica da região: rochas dobradas indicam colisão de placas; falhas indicam fraturas na crosta; planaltos sobre crátons indicam estabilidade tectônica. Analise o que as feições do relevo descrito revelam sobre o passado geológico.",
+    "feedbacks": {
+      "0": "O sedimento argiloso forma planícies aluviais e solos impermeáveis, não o relevo cárstico com cavernas e dolinas. A argila não sofre dissolução química pela água levemente ácida como o calcário.",
+      "1": "O gnaisse é uma rocha metamórfica resistente que origina serras e maciços rochosos. Sua resistência ao intemperismo químico impede a formação de cavernas e sumidouros típicos do relevo cárstico.",
+      "2": "O granito é uma rocha ígnea muito resistente que origina formas arredondadas como 'pães de açúcar'. Não sofre dissolução pela água ácida — ao contrário do calcário, suporta o intemperismo sem criar feições cársticas.",
+      "4": "O quartzo é um mineral extremamente resistente ao intemperismo químico e físico. Por ser tão estável, permanece mesmo depois que outros minerais são erodidos — não forma cavernas por dissolução."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O ciclo das rochas é contínuo: rochas magmáticas podem ser erodidas e gerar sedimentos que formam rochas sedimentares; estas podem ser metamorfizadas pelo calor e pressão; e rochas metamórficas podem fundir e gerar novo magma. Fósseis só existem em rochas sedimentares. Não existe ordem obrigatória no ciclo — qualquer tipo pode transformar-se em outro.</p>",
-    "ajuda": "O ciclo das rochas é um processo cíclico em que rochas magmáticas, sedimentares e metamórficas se transformam umas nas outras ao longo do tempo geológico. Identifique quais processos (fusão, resfriamento, erosão, sedimentação, metamorfismo) conectam os tipos de rocha entre si."
+    "ajuda": "O ciclo das rochas é um processo cíclico em que rochas magmáticas, sedimentares e metamórficas se transformam umas nas outras ao longo do tempo geológico. Identifique quais processos (fusão, resfriamento, erosão, sedimentação, metamorfismo) conectam os tipos de rocha entre si.",
+    "feedbacks": {
+      "0": "A afirmativa III é falsa: rochas metamórficas originam-se da transformação de outras rochas por calor e pressão — não do resfriamento do magma, que gera rochas ígneas/magmáticas. Esta alternativa inclui a III erroneamente.",
+      "2": "A afirmativa III é falsa (metamórficas não vêm do resfriamento do magma), tornando incorreta qualquer alternativa que a inclua. Além disso, a afirmativa II é verdadeira e não deve ser excluída.",
+      "3": "A afirmativa III é falsa — ela descreve a origem das rochas magmáticas, não das metamórficas. As afirmativas I, II e IV são todas verdadeiras, portanto a correta é a que combina apenas essas três.",
+      "4": "A afirmativa II é verdadeira (rochas sedimentares formam-se por deposição e diagênese) e a IV também é verdadeira. Mas a IV sozinha é insuficiente — I e II também são verdadeiras e devem ser incluídas."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As bacias sedimentares são depressões da crosta onde sedimentos se acumulam por longos períodos. São as principais reservas de combustíveis fósseis (petróleo, gás natural, carvão) porque a matéria orgânica soterrada nessas bacias é transformada pela pressão e calor em hidrocarbonetos ao longo de milhões de anos.</p>",
-    "ajuda": "As províncias geológicas refletem a estrutura interna da crosta e condicionam as formas do relevo. Crátons originam planaltos e serras antigas; bacias sedimentares originam planícies e depressões; dobramentos recentes originam cadeias montanhosas."
+    "ajuda": "As províncias geológicas refletem a estrutura interna da crosta e condicionam as formas do relevo. Crátons originam planaltos e serras antigas; bacias sedimentares originam planícies e depressões; dobramentos recentes originam cadeias montanhosas.",
+    "feedbacks": {
+      "1": "Os maciços antigos (crátons) são compostos de rochas cristalinas antigas e resistentes, sem as condições de acúmulo de matéria orgânica necessárias para a formação de combustíveis fósseis. Petróleo e carvão não se formam em rochas ígneas ou metamórficas.",
+      "2": "As plataformas cristalinas são extensas áreas de rochas antigas, estáveis e impermeáveis. Combustíveis fósseis exigem sedimentação de matéria orgânica em rochas porosas — o que não ocorre nessas estruturas cristalinas.",
+      "3": "Os dobramentos antigos (Urais, Apalaches) são cadeias montanhosas velhas compostas de rochas dobradas. As reservas de fósseis nessas regiões estão nas bacias sedimentares adjacentes, não nos próprios dobramentos.",
+      "4": "Os dobramentos modernos (Andes, Himalaia, Alpes) são zonas de intensa atividade tectônica recente. Há pouco tempo e condições inadequadas para acúmulo de matéria orgânica em quantidade explorável — são as bacias adjacentes que contêm o petróleo."
+    }
   },
   {
     "id": 4,
@@ -92,7 +110,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As falésias são formas de relevo costeiro erosivo, caracterizadas por paredões rochosos verticais formados pela ação das ondas na base da costa. São comuns no litoral nordestino brasileiro (falésias de Morro Branco e Beberibe, no Ceará) e em costas expostas à ação intensa das ondas. Em contraste, as praias são feições de deposição sedimentar.</p>",
-    "ajuda": "As áreas costeiras apresentam formas de relevo específicas como falésias (costões rochosos escarpados), praias (deposição de areia), recifes (estruturas de coral ou rocha) e estuários (desembocadura de rios). Identifique a feição descrita na questão."
+    "ajuda": "As áreas costeiras apresentam formas de relevo específicas como falésias (costões rochosos escarpados), praias (deposição de areia), recifes (estruturas de coral ou rocha) e estuários (desembocadura de rios). Identifique a feição descrita na questão.",
+    "feedbacks": {
+      "0": "Uma falha de rejeito horizontal é uma estrutura tectônica de deslocamento lateral de blocos rochosos — é uma feição geológica interna, não uma forma de relevo costeiro erosivo. Não se apresenta como paredão vertical na linha da costa.",
+      "2": "Costa dobrada refere-se a uma linha de costa com muitas reentrâncias e penínsulas formadas pela erosão diferencial de rochas dobradas — não é uma feição isolada de paredão rochoso vertical como a da imagem.",
+      "3": "Costa tectônica é formada por movimentos de soerguimento ou afundamento de blocos por falhas geológicas, gerando praias encaixadas e costões irregulares. Não é a denominação específica do paredão rochoso erosivo da imagem.",
+      "4": "Os atóis são ilhas circulares de coral ao redor de uma lagoa central, formadas pelo afundamento de vulcões cobertos por recifes. Não têm relação com os paredões rochosos de erosão marinha típicos de costas expostas."
+    }
   },
   {
     "id": 5,
@@ -115,7 +139,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As fontes de energia renováveis são aquelas que se regeneram naturalmente em escala humana: solar (radiação), eólica (vento), maremotriz (marés), hidráulica (rios) e biomassa (matéria orgânica). Destaca-se a maremotriz, que aproveita a energia cinética das marés — ainda pouco explorada no Brasil, mas com grande potencial no litoral maranhense e paraense.</p>",
-    "ajuda": "As fontes de energia renováveis são aquelas que se regeneram naturalmente, como solar, eólica, hidroelétrica, geotérmica e de biomassa. As não renováveis incluem petróleo, carvão, gás natural e urânio. Classifique as opções listadas segundo esse critério."
+    "ajuda": "As fontes de energia renováveis são aquelas que se regeneram naturalmente, como solar, eólica, hidroelétrica, geotérmica e de biomassa. As não renováveis incluem petróleo, carvão, gás natural e urânio. Classifique as opções listadas segundo esse critério.",
+    "feedbacks": {
+      "0": "A energia nuclear é obtida pela fissão de urânio — um recurso mineral finito e não renovável. Fontes renováveis são as que se regeneram naturalmente em escala humana (sol, vento, marés), o que exclui a nuclear desta categoria.",
+      "2": "O carvão mineral é um combustível fóssil não renovável, formado ao longo de milhões de anos. Incluí-lo entre fontes renováveis é incorreto: carvão é finito e não se regenera em escala humana.",
+      "3": "O carvão mineral é não renovável — fóssil finito. Embora a hidráulica seja renovável, misturá-la com o carvão torna o conjunto incorreto como grupo de fontes renováveis.",
+      "4": "Carvão mineral e energia nuclear são não renováveis: o carvão é fóssil e o urânio (da nuclear) também é finito. Apenas a energia eólica dessa alternativa é renovável — a combinação está errada."
+    }
   },
   {
     "id": 6,
@@ -138,7 +168,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A energia eólica é ideal para ilhas pequenas e isoladas por ser limpa (zero emissões operacionais), renovável e compatível com regiões de ventos constantes. Não gera resíduos radioativos (como nuclear) nem depende de rios (como hidrelétrica). O Brasil é o maior produtor eólico da América Latina, com capacidade instalada superior a 25 GW.</p>",
-    "ajuda": "Para escolher a matriz energética mais adequada para uma região, avalie os recursos naturais disponíveis (sol, vento, água, biomassa), o impacto ambiental de cada opção, o custo de implantação e a regularidade de abastecimento. Analise qual combinação atende melhor às condições descritas."
+    "ajuda": "Para escolher a matriz energética mais adequada para uma região, avalie os recursos naturais disponíveis (sol, vento, água, biomassa), o impacto ambiental de cada opção, o custo de implantação e a regularidade de abastecimento. Analise qual combinação atende melhor às condições descritas.",
+    "feedbacks": {
+      "0": "A bioenergia exige plantio agrícola em larga escala — difícil em um país pequeno e plano sem muito espaço. Além disso, pode competir com a produção de alimentos e não é necessariamente a de 'menor impacto ambiental'.",
+      "1": "O país descrito é 'chuvoso', o que reduz a eficiência dos painéis solares. Além disso, o enunciado destaca 'ventos constantes' como característica relevante — essa vantagem específica não é aproveitada pela energia solar.",
+      "2": "A energia nuclear gera resíduos radioativos de difícil descarte e envolve risco de acidentes graves. Em um país pequeno e densamente habitado, a nuclear representa o maior risco ambiental — o oposto do que a questão pede.",
+      "3": "A energia hidráulica requer rios com volume e desnível adequados, mas o país tem 'poucos recursos hídricos' — tornando-a inviável. Ademais, barragens em território plano e pequeno causam grande impacto ambiental e territorial."
+    }
   },
   {
     "id": 7,
@@ -160,7 +196,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os solos consolidam-se a partir de processos exógenos: intemperismo (desagregação das rochas), erosão (remoção e transporte) e deposição (acúmulo de sedimentos). A pedogênese — formação do solo — depende do clima, da rocha matriz, da topografia, dos organismos e do tempo. Em climas tropicais úmidos, forma-se o latossolo profundo e vermelho típico do Cerrado.</p>",
-    "ajuda": "O solo é um recurso essencial para a produção de alimentos, regulação hídrica e manutenção da biodiversidade. Sua degradação por práticas inadequadas compromete a produtividade agrícola e aumenta o risco de erosão, assoreamento de rios e desertificação."
+    "ajuda": "O solo é um recurso essencial para a produção de alimentos, regulação hídrica e manutenção da biodiversidade. Sua degradação por práticas inadequadas compromete a produtividade agrícola e aumenta o risco de erosão, assoreamento de rios e desertificação.",
+    "feedbacks": {
+      "0": "Os solos não são 'ambientes de erosão e acúmulo de sedimentos' — essa definição se aplica às planícies aluviais e bacias hidrográficas. Os solos consolidam-se pelo intemperismo da rocha e pela incorporação de matéria orgânica.",
+      "2": "O solo não é o ponto de partida para a formação de rochas — é o inverso. As rochas se formam por processos geológicos (solidificação do magma, diagênese, metamorfismo) e é a partir das rochas que o solo se desenvolve.",
+      "3": "A alteração mineralógica por pressão do ar não é uma característica pedológica reconhecida. A pedogênese é controlada por clima, biota, rocha-mãe e tempo — não pela pressão atmosférica.",
+      "4": "Solos sem compostos orgânicos (húmus) são os menos férteis. A matéria orgânica melhora a estrutura do solo, retém água e disponibiliza nutrientes. Sua ausência é característica de solos degradados, não de solos produtivos."
+    }
   },
   {
     "id": 8,
@@ -183,7 +225,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O assoreamento ocorre quando sedimentos (areia, argila, silte) se acumulam no leito de rios, lagos ou reservatórios, reduzindo sua profundidade e capacidade de armazenamento. É causado principalmente pelo desmatamento das matas ciliares e erosão das margens. O assoreamento compromete a navegação fluvial, o abastecimento de água e as usinas hidrelétricas.</p>",
-    "ajuda": "O problema ambiental representado na figura provavelmente é erosão, assoreamento, desmatamento ou poluição hídrica. Identifique qual atividade humana está causando o impacto e como ele se manifesta na paisagem."
+    "ajuda": "O problema ambiental representado na figura provavelmente é erosão, assoreamento, desmatamento ou poluição hídrica. Identifique qual atividade humana está causando o impacto e como ele se manifesta na paisagem.",
+    "feedbacks": {
+      "0": "As voçorocas são ravinas profundas causadas por erosão concentrada — embora de origem antrópica, têm aspecto visual diferente: são escavações profundas no terreno, não acúmulo de sedimentos no leito de rios.",
+      "2": "A lixiviação é o processo de lavagem de nutrientes e partículas finas do solo para horizontes mais profundos ou para o lençol freático. É um processo pedogenético interno, não um impacto visível no leito de rios.",
+      "3": "A laterização é o enriquecimento relativo em ferro e alumínio em solos tropicais úmidos ao longo de milênios. Não ocorre 'no leito fluvial' — é um processo pedogenético de longa duração, não um problema ambiental visível nas margens dos rios.",
+      "4": "Movimentos de massa (deslizamentos, solifluxão) envolvem o deslocamento de solo ou rocha encosta abaixo. Embora possam contribuir indiretamente para o assoreamento, não são o fenômeno ambiental diretamente representado na imagem."
+    }
   },
   {
     "id": 9,
@@ -206,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O carvão mineral é extraído principalmente no Sul do Brasil (RS e SC) e concentra-se no hemisfério norte (China, EUA, Índia). Sua queima libera SO₂ e NOₓ, que se combinam com a umidade da atmosfera formando a chuva ácida — um dos principais problemas ambientais das regiões industriais da Europa e China, que danifica florestas, rios e monumentos históricos.</p>",
-    "ajuda": "Ao analisar fontes de energia, considere: renováveis (solar, eólica, hidrelétrica, biomassa) versus não renováveis (fósseis e nuclear); impacto ambiental; custo; disponibilidade regional. Identifique qual alternativa melhor descreve os critérios apresentados no texto."
+    "ajuda": "Ao analisar fontes de energia, considere: renováveis (solar, eólica, hidrelétrica, biomassa) versus não renováveis (fósseis e nuclear); impacto ambiental; custo; disponibilidade regional. Identifique qual alternativa melhor descreve os critérios apresentados no texto.",
+    "feedbacks": {
+      "1": "O petróleo não foi o principal combustível da Primeira Revolução Industrial — foi o carvão mineral, especialmente na Inglaterra a partir do século XVIII. O petróleo só ganhou protagonismo energético no século XX.",
+      "2": "O petróleo não foi a energia da Primeira Revolução Industrial (foi o carvão). Além disso, a chuva ácida é associada principalmente ao SO₂ da queima de carvão — o petróleo produz menos enxofre e é mais ligado à poluição do ar por CO e NOₓ.",
+      "3": "As maiores reservas de carvão mineral estão no hemisfério norte (China, EUA, Rússia, Índia) — não no sul. A parte sobre chuva ácida está correta, mas o hemisfério indicado está errado.",
+      "4": "O petróleo não foi o principal combustível da Primeira Revolução Industrial — foi o carvão. A combinação 'petróleo – norte – chuva ácida' mistura informações: o protagonismo histórico do carvão é substituído incorretamente pelo petróleo."
+    }
   },
   {
     "id": 10,
@@ -228,6 +282,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As bacias sedimentares são as únicas estruturas geológicas onde petróleo e gás natural se acumulam em quantidades exploráveis. A rocha reservatório precisa ser porosa (para armazenar o petróleo) e estar coberta por uma rocha impermeável (selante) que impeça a migração do hidrocarboneto. No Brasil, o pré-sal encontra-se em rochas carbonáticas sob camadas de sal.</p>",
-    "ajuda": "As reservas petrolíferas estão associadas a bacias sedimentares, onde rochas porosas e permeáveis acumularam hidrocarbonetos ao longo de milhões de anos. No Brasil, as principais reservas estão no pré-sal, sob espessa camada de sal no fundo do Oceano Atlântico."
+    "ajuda": "As reservas petrolíferas estão associadas a bacias sedimentares, onde rochas porosas e permeáveis acumularam hidrocarbonetos ao longo de milhões de anos. No Brasil, as principais reservas estão no pré-sal, sob espessa camada de sal no fundo do Oceano Atlântico.",
+    "feedbacks": {
+      "0": "Os escudos cristalinos são formações de rochas ígneas e metamórficas antigas, densas e impermeáveis. Não há condições para o acúmulo e aprisionamento de hidrocarbonetos nessas rochas — o petróleo precisa de rochas porosas e de uma camada selante.",
+      "2": "Os dobramentos cenozoicos (Andes, Himalaia) são cadeias montanhosas jovens com intensa atividade tectônica. Os dobramentos em si não são a estrutura reservatório — são as bacias sedimentares adjacentes a eles que acumulam petróleo.",
+      "3": "As placas tectônicas são as grandes divisões da litosfera — são conceitos estruturais globais, não formações geológicas específicas onde o petróleo se concentra. O petróleo acumula-se em bacias sedimentares situadas sobre as placas.",
+      "4": "Os aluviões quaternários são depósitos recentes e rasos de sedimentos fluviais. Embora sejam sedimentares, são muito jovens e pouco espessos para acumular hidrocarbonetos em quantidade explorável — o petróleo exige soterramento e pressão por milhões de anos."
+    }
   }
 ]

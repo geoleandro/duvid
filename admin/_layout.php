@@ -17,6 +17,7 @@ $nav = [
     ['slug'=>'alunos',          'icone'=>'👥', 'label'=>'Alunos',              'href'=>'/admin/alunos.php'],
     ['slug'=>'ranking-escolas', 'icone'=>'🏆', 'label'=>'Ranking Escolar',     'href'=>'/admin/ranking-escolas.php'],
     ['slug'=>'aulas-stats',     'icone'=>'📚', 'label'=>'Desempenho por Aula', 'href'=>'/admin/aulas-stats.php'],
+    ['slug'=>'reportes',        'icone'=>'⚠️',  'label'=>'Reportes',            'href'=>'/admin/reportes.php'],
 ];
 ?>
 <!DOCTYPE html>

@@ -829,3 +829,106 @@ function sortearFrasePR() {
 }
 
 document.addEventListener('DOMContentLoaded', sortearFrasePR);
+
+// ── Botão "Nos ajude a melhorar" nos textos das aulas ───────────────────────
+// Injeta um botão flutuante no rodapé do texto para reportar problemas.
+// aulaID vem de duvid-cache.js (variável global disponível em todas as aulas).
+
+document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(() => {
+        // Injeta ANTES do rodapé, dentro do conteúdo
+        const footer = document.querySelector('footer, #rodape, .w3-footer, .rodape-aula');
+        const wrapper = document.createElement('div');
+        wrapper.style.cssText = 'text-align:center;padding:24px 0 8px';
+        wrapper.innerHTML = `
+            <button onclick="abrirModalReporteTexto()" class="btn-melhorar-aula">
+                ✍️ Melhorar esta aula
+            </button>
+        `;
+        if (footer) {
+            footer.parentNode.insertBefore(wrapper, footer);
+        } else {
+            document.body.appendChild(wrapper);
+        }
+    }, 600);
+});
+
+function abrirModalReporteTexto() {
+    const existing = document.getElementById('modal-reporte-texto');
+    if (existing) existing.remove();
+
+    const modal = document.createElement('div');
+    modal.id = 'modal-reporte-texto';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px';
+    modal.innerHTML = `
+        <div style="background:#fff;border-radius:12px;padding:24px;max-width:420px;width:100%;box-shadow:0 8px 32px rgba(0,0,0,.2)">
+            <h4 style="margin:0 0 4px">✍️ Sua contribuição importa</h4>
+            <p style="margin:0 0 16px;color:#666;font-size:14px">Encontrou algo que pode melhorar? Nos ajude a construir o Duvid.</p>
+
+            <label style="font-size:14px;font-weight:bold">Tipo de problema:</label>
+            <select id="reporte-texto-tipo" style="width:100%;margin:6px 0 14px;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px">
+                <option value="ortografia">✏️ Erro de ortografia/digitação</option>
+                <option value="confusa">🤔 Explicação confusa ou imprecisa</option>
+                <option value="imagem">🖼️ Problema com imagem</option>
+                <option value="outro">💬 Outro</option>
+            </select>
+
+            <label style="font-size:14px;font-weight:bold">Detalhes (opcional):</label>
+            <textarea id="reporte-texto-msg" rows="3" maxlength="500"
+                placeholder="Descreva o problema..."
+                style="width:100%;margin:6px 0 16px;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px;resize:vertical;box-sizing:border-box"></textarea>
+
+            <div style="display:flex;gap:8px;justify-content:flex-end">
+                <button onclick="document.getElementById('modal-reporte-texto').remove()"
+                        style="padding:8px 16px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer">
+                    Cancelar
+                </button>
+                <button onclick="enviarReporteTexto()"
+                        id="btn-enviar-reporte-texto"
+                        style="padding:8px 20px;border:none;border-radius:6px;background:#e65100;color:#fff;font-weight:bold;cursor:pointer">
+                    Enviar
+                </button>
+            </div>
+            <p id="reporte-texto-status" style="margin:8px 0 0;font-size:13px;text-align:center;display:none"></p>
+        </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+}
+
+async function enviarReporteTexto() {
+    const tipo     = document.getElementById('reporte-texto-tipo').value;
+    const mensagem = document.getElementById('reporte-texto-msg').value.trim();
+    const status   = document.getElementById('reporte-texto-status');
+    const btn      = document.getElementById('btn-enviar-reporte-texto');
+    const aulaRef  = typeof aulaID !== 'undefined' ? aulaID : (new URLSearchParams(location.search).get('id') || 'texto');
+
+    btn.disabled = true;
+    btn.textContent = 'Enviando...';
+
+    try {
+        const res = await fetch('/api/reporte.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ aula_id: aulaRef, questao_num: 0, tipo, mensagem })
+        });
+        const data = await res.json();
+        status.style.display = 'block';
+        if (data.ok) {
+            status.style.color = '#2e7d32';
+            status.textContent = '✅ Obrigado! Vamos verificar em breve.';
+            setTimeout(() => document.getElementById('modal-reporte-texto')?.remove(), 2000);
+        } else {
+            status.style.color = '#c62828';
+            status.textContent = data.erro || 'Erro ao enviar.';
+            btn.disabled = false;
+            btn.textContent = 'Enviar';
+        }
+    } catch {
+        status.style.display = 'block';
+        status.style.color = '#c62828';
+        status.textContent = 'Erro de conexão.';
+        btn.disabled = false;
+        btn.textContent = 'Enviar';
+    }
+}

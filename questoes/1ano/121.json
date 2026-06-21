@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A aceleração do tempo de acumulação do capital impõe ritmos que contrariam os ciclos naturais: florestas levam séculos para crescer, mas são derrubadas em horas; rios levam milênios para formar seus leitos, mas são poluídos em décadas. A irredutibilidade da natureza ao tempo do mercado é o núcleo do conflito ambiental contemporâneo.</p>",
-    "ajuda": "O excerto provavelmente trata de mudanças climáticas, escassez hídrica ou aquecimento global. Identifique a tese central do texto e avalie qual alternativa a reproduz com mais fidelidade, sem exagero nem distorção do argumento original."
+    "ajuda": "O excerto provavelmente trata de mudanças climáticas, escassez hídrica ou aquecimento global. Identifique a tese central do texto e avalie qual alternativa a reproduz com mais fidelidade, sem exagero nem distorção do argumento original.",
+    "feedbacks": {
+      "0": "O texto argumenta o oposto: o aumento da produtividade é justamente uma das causas do efeito estufa e da produção de lixo, por submeter a natureza ao ritmo do capital. A ideia de que mais produtividade resolveria esses problemas contradiz a tese central.",
+      "1": "O texto afirma explicitamente o contrário: a humanidade criou problemas como o lixo e o efeito estufa ao tentar dominar a natureza. Apresentar o lixo como um problema superado contraria diretamente o argumento apresentado.",
+      "2": "O texto afirma que a natureza tem seus próprios tempos, que são submetidos ao ritmo do capital. A alternativa inverte essa relação ao dizer que os tempos capitalistas são subordinados à natureza, o que contradiz o argumento central do texto.",
+      "3": "A irreversibilidade da produção de lixo é apresentada no texto como característica intrínseca da degradação da matéria. A aceleração do capital não elimina essa irreversibilidade; ao contrário, a intensifica."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Os modelos climáticos do IPCC indicam que a redução das emissões de carbono é a medida mais eficaz para conter o aquecimento global. As projeções mostram que limitar o aquecimento a 1,5°C requer emissões líquidas zero por volta de 2050. Sem ação, o aumento de temperatura pode ultrapassar 3°C até 2100, com consequências severas para ecossistemas e populações costeiras.</p>",
-    "ajuda": "Para minimizar as mudanças climáticas simuladas, pense em ações que reduzam as emissões de gases de efeito estufa ou aumentem a capacidade de absorção de carbono. Avalie cada alternativa com base em sua eficácia científica e abrangência."
+    "ajuda": "Para minimizar as mudanças climáticas simuladas, pense em ações que reduzam as emissões de gases de efeito estufa ou aumentem a capacidade de absorção de carbono. Avalie cada alternativa com base em sua eficácia científica e abrangência.",
+    "feedbacks": {
+      "0": "A expansão do transporte marítimo aumenta o consumo de combustíveis fósseis nas embarcações, elevando as emissões de CO₂. Essa alternativa contribui para o aquecimento, não para sua mitigação.",
+      "1": "Incentivar fluxos migratórios pode aumentar a demanda por energia e recursos nas regiões de destino. Não há relação direta entre migrações e a redução das mudanças climáticas mostradas nas simulações.",
+      "2": "Monitorar atividades vulcânicas é importante para prevenção de desastres, mas não é medida capaz de reduzir a temperatura média e a pluviosidade em escala global. Erupções têm efeitos temporários e imprevisíveis sobre o clima.",
+      "4": "As termoelétricas que queimam combustíveis fósseis emitem CO₂ e outros gases de efeito estufa. Priorizá-las agravaria o aquecimento e as mudanças climáticas mostradas nas simulações, sendo o oposto do que a questão pede."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A hipótese da 'bomba de carbono primitiva' sugere que as primeiras civilizações agrícolas (há ~8.000 anos) iniciaram o aumento do CO₂ atmosférico ao desmatar florestas para o plantio. A queima e decomposição das árvores liberam o carbono estocado na biomassa. Essa ideia, do geógrafo William Ruddiman, desafia a narrativa de que o impacto humano no clima é fenômeno apenas industrial.</p>",
-    "ajuda": "As primeiras atividades humanas organizadas estão relacionadas ao surgimento da agricultura e da pecuária, há cerca de 10.000 anos, no Neolítico. Esse processo de sedentarização transformou a relação entre o ser humano e o ambiente natural."
+    "ajuda": "As primeiras atividades humanas organizadas estão relacionadas ao surgimento da agricultura e da pecuária, há cerca de 10.000 anos, no Neolítico. Esse processo de sedentarização transformou a relação entre o ser humano e o ambiente natural.",
+    "feedbacks": {
+      "0": "O texto foca no impacto do plantio (desmatamento para abrir roças), não no cozimento de alimentos. A queima de alimentos libera muito menos CO₂ do que a derrubada e queima de florestas.",
+      "2": "A pesquisa não menciona a domesticação de animais como causa da elevação do CO₂ de 8.000 anos atrás. A hipótese é específica: o desmatamento para plantio de cereais e leguminosas foi a causa.",
+      "3": "O texto especifica que as árvores foram derrubadas para o plantio, não para fabricação de casas e móveis. A hipótese aponta a abertura de áreas para agricultura, não a exploração madeireira.",
+      "4": "A fabricação de cerâmicas ocorria nesse período, mas o texto não a menciona como causa. A pesquisa aponta o desmatamento para o plantio como fator principal, e a produção de cerâmica tinha escala muito mais limitada."
+    }
   },
   {
     "id": 4,
@@ -92,7 +110,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A destruição das florestas tropicais afeta o clima global por dois mecanismos: a redução da absorção de CO₂ (menos biomassa fotossintetizante) e o aumento das emissões pela queima e decomposição da madeira. O CO₂ é um gás de efeito estufa que retém calor na atmosfera — contribuindo para o aquecimento em latitudes altas, inclusive nos polos.</p>",
-    "ajuda": "As charges retratam de forma crítica e humorística uma situação geográfica ou ambiental. Identifique o tema de cada charge e depois infira o que ambas têm em comum — podem tratar de consumo, poluição, desigualdade ou mudanças climáticas."
+    "ajuda": "As charges retratam de forma crítica e humorística uma situação geográfica ou ambiental. Identifique o tema de cada charge e depois infira o que ambas têm em comum — podem tratar de consumo, poluição, desigualdade ou mudanças climáticas.",
+    "feedbacks": {
+      "0": "Os regimes climáticos da Terra têm padrões bem estabelecidos, como zonas climáticas e circulação geral da atmosfera. As charges não sugerem ausência de padrões, mas sim a perturbação deles pela ação humana.",
+      "1": "As intervenções humanas são mais intensas em regiões tropicais e nas maiores economias do mundo. As charges não sugerem que as intervenções polares superam as demais; ao contrário, os polos aparecem como vítimas dos impactos globais.",
+      "2": "As queimadas contribuem para o aquecimento global, mas eliminá-las isoladamente não deteria todo o processo. O aquecimento tem múltiplas causas e as charges não restringem a solução somente às queimadas.",
+      "4": "As charges sugerem o oposto: os parâmetros climáticos modificados pelo homem têm alcance global (afetam os polos), enquanto os processos naturais locais têm abrangência mais limitada. A alternativa inverteu a escala de cada um."
+    }
   },
   {
     "id": 5,
@@ -115,7 +139,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O ciclo hidrológico é profundamente afetado pelo aquecimento global: temperaturas mais altas intensificam a evaporação, carregando mais vapor d'água para a atmosfera. Isso intensifica chuvas em algumas regiões e secas em outras. Atividades humanas como irrigação, desmatamento e impermeabilização do solo também alteram significativamente os fluxos de água.</p>",
-    "ajuda": "A escassez de água doce é agravada pelo crescimento populacional, pela contaminação de aquíferos, pelo desperdício no uso agrícola e pelo desvio de rios para irrigação. Pense em qual fator está sendo mais enfatizado no contexto da questão."
+    "ajuda": "A escassez de água doce é agravada pelo crescimento populacional, pela contaminação de aquíferos, pelo desperdício no uso agrícola e pelo desvio de rios para irrigação. Pense em qual fator está sendo mais enfatizado no contexto da questão.",
+    "feedbacks": {
+      "0": "O aquecimento global intensifica a evaporação, o que aumenta a formação de nuvens em algumas regiões e concentra mais precipitação em áreas específicas. Afirmar que mais calor elimina todas as áreas úmidas é uma simplificação que não corresponde aos modelos climáticos.",
+      "1": "O aquecimento global altera a intensidade e a frequência das frentes, não simplesmente limita sua duração. Além disso, a relação com a produtividade agrícola é real, mas o mecanismo descrito nesta alternativa está incorreto.",
+      "2": "O aquecimento global aumenta a aridez em algumas regiões, mas também intensifica as chuvas em outras. Afirmar que toda a terra ficará mais árida é incorreto: os modelos climáticos apontam redistribuição irregular das precipitações.",
+      "3": "O derretimento das geleiras eleva o nível do mar, mas isso não reduz necessariamente as chuvas nos continentes. A precipitação sobre os continentes depende de fatores atmosféricos distintos do nível do mar."
+    }
   },
   {
     "id": 6,
@@ -138,7 +168,12 @@
     ],
     "correta": 2,
     "comentario": "<p>La Niña é o fenômeno oposto ao El Niño: o resfriamento anômalo das águas do Pacífico Equatorial intensifica os alísios e altera a circulação atmosférica global. No Brasil, La Niña tende a causar seca no Norte e Nordeste e chuvas intensas no Sul. Em anos de La Niña forte, as safras do Nordeste são severamente prejudicadas.</p>",
-    "ajuda": "O El Niño é um fenômeno climático associado ao aquecimento anormal das águas do Oceano Pacífico Equatorial, que altera os padrões de chuva e temperatura em diversas regiões do mundo. No Brasil, causa seca no Nordeste e chuvas excessivas no Sul."
+    "ajuda": "O El Niño é um fenômeno climático associado ao aquecimento anormal das águas do Oceano Pacífico Equatorial, que altera os padrões de chuva e temperatura em diversas regiões do mundo. No Brasil, causa seca no Nordeste e chuvas excessivas no Sul.",
+    "feedbacks": {
+      "0": "O texto de apoio descreve um AUMENTO da temperatura do oceano Pacífico, que é a característica do El Niño, não do La Niña. Esta alternativa confunde os dois fenômenos e descreve incorretamente o La Niña como aquecimento.",
+      "1": "Atencao: esta alternativa é identica a alternativa 2, provavel erro de cadastro na questao. A descrição apresentada para La Niña (veranicos na costa americana do Norte e ressacas na América do Sul) não corresponde aos efeitos típicos do fenômeno no Brasil.",
+      "3": "A La Niña provoca estiagem no Nordeste e sul da Amazônia, e chuvas no Sul do Brasil. Esta alternativa inverte os efeitos ao afirmar 'estiagem no Sul e chuvas no Nordeste', o que seria mais próximo de um El Niño forte."
+    }
   },
   {
     "id": 7,
@@ -161,7 +196,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As geleiras são sensíveis indicadores paleoclimáticos: seu recuo expõe camadas de rocha antes cobertas (depósitos glaciais antigos), permitindo calcular a taxa e extensão do derretimento. O monitoramento por satélite e expedições de campo mostra que glaciares na Patagônia, Alasca, Ártico e Antártica estão recuando em ritmo acelerado desde o século XX.</p>",
-    "ajuda": "As geleiras funcionam como registros climáticos ('arquivos de gelo'), pois suas camadas preservam bolhas de ar atmosférico de diferentes épocas. O recuo das geleiras é um dos principais indicadores do aquecimento global observado nas últimas décadas."
+    "ajuda": "As geleiras funcionam como registros climáticos ('arquivos de gelo'), pois suas camadas preservam bolhas de ar atmosférico de diferentes épocas. O recuo das geleiras é um dos principais indicadores do aquecimento global observado nas últimas décadas.",
+    "feedbacks": {
+      "0": "O aporte de sedimentos nas partes baixas resulta da ação erosiva e de transporte, não indica aumento de precipitação pluvial. Além disso, a comparação entre precipitação pluvial e nival não é o indicador principal de mudança climática das geleiras.",
+      "1": "Os lagos glaciais são formados pelo derretimento e podem crescer com o recuo das geleiras. A relação causal descrita está invertida: maior aporte de água doce no mar resultaria do derretimento, não da retração dos lagos.",
+      "3": "A maior precipitação nival (neve) representaria ganho de massa nas geleiras, não perda. Se houvesse mais neve, as geleiras cresceriam, não recuariam. O indicador do aquecimento é justamente a REDUÇÃO da neve acumulada e o recuo das geleiras.",
+      "4": "A ampliação da escavação dos vales glaciais indicaria aumento do movimento das geleiras, não necessariamente desequilíbrio de temperatura. Medir a erosão glacial para indicar temperatura global é metodologicamente impreciso."
+    }
   },
   {
     "id": 8,
@@ -183,7 +224,13 @@
     ],
     "correta": 2,
     "comentario": "<p>El Niño é o aquecimento anômalo das águas do Oceano Pacífico tropical. Ocorre em ciclos irregulares de 2 a 7 anos e provoca alterações na circulação atmosférica global: no Brasil, causa seca no Norte e Nordeste e chuvas excessivas no Sul. La Niña é o fenômeno inverso (resfriamento) e tem efeitos opostos. Juntos, formam o ciclo ENOS (El Niño-Oscilação Sul).</p>",
-    "ajuda": "El Niño e La Niña são fenômenos opostos: El Niño aquece as águas do Pacífico Equatorial e altera os padrões de chuva; La Niña resfria essas águas e provoca efeitos contrários. Ambos fazem parte de um ciclo chamado ENOS (El Niño–Oscilação Sul)."
+    "ajuda": "El Niño e La Niña são fenômenos opostos: El Niño aquece as águas do Pacífico Equatorial e altera os padrões de chuva; La Niña resfria essas águas e provoca efeitos contrários. Ambos fazem parte de um ciclo chamado ENOS (El Niño–Oscilação Sul).",
+    "feedbacks": {
+      "0": "O texto descreve o El Niño como aquecimento e a La Niña como resfriamento, não o inverso. A alternativa inverte os dois fenômenos, contrariando a definição estabelecida pela comunidade científica.",
+      "1": "La Niña é o resfriamento das águas, não o aquecimento. Além disso, afirmar que La Niña 'sempre ocorre antes de El Niño' é incorreto: os dois fenômenos são independentes e não seguem uma ordem fixa e obrigatória.",
+      "3": "Ambos os fenômenos dizem respeito ao mesmo oceano e não se restringem a locais distintos como Peru e América Central. El Niño e La Niña são fenômenos de escala do Pacífico Equatorial como um todo.",
+      "4": "El Niño não é um fenômeno localizado próximo à Oceania, mas sim das costas da América do Sul (Peru e Chile). E La Niña não ocorre exclusivamente próxima ao Peru: é um fenômeno de escala do Pacífico Equatorial inteiro."
+    }
   },
   {
     "id": 9,
@@ -207,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O aquecimento global é o aumento da temperatura média da Terra causado, principalmente, pelo acúmulo de gases de efeito estufa (CO₂, CH₄, N₂O) na atmosfera. Suas causas incluem a queima de combustíveis fósseis, desmatamento e pecuária. Há consenso científico — reafirmado pelo IPCC — de que a causa dominante do aquecimento atual é a ação humana (componente antropogênico).</p>",
-    "ajuda": "O fenômeno descrito provavelmente é o aquecimento global ou o efeito estufa intensificado. A combinação de causas naturais e antrópicas (queima de combustíveis fósseis, desmatamento) contribui para o aumento da concentração de gases de efeito estufa na atmosfera."
+    "ajuda": "O fenômeno descrito provavelmente é o aquecimento global ou o efeito estufa intensificado. A combinação de causas naturais e antrópicas (queima de combustíveis fósseis, desmatamento) contribui para o aumento da concentração de gases de efeito estufa na atmosfera.",
+    "feedbacks": {
+      "1": "O buraco na camada de ozônio é causado pelos CFCs, não pelos gases de efeito estufa mencionados no texto. O texto cita CO₂ e metano, associados ao aquecimento global, não à depleção de ozônio.",
+      "2": "A chuva ácida é causada por dióxido de enxofre (SO₂) e óxidos de nitrogênio (NOₓ). O texto menciona CO₂ e metano, que são gases de efeito estufa associados ao aquecimento global, não à formação de ácidos nas chuvas.",
+      "3": "As correntes marítimas são fenômenos oceânicos influenciados pela rotação da Terra e pelos ventos. Não têm relação direta com o aumento de CO₂ ou metano descrito no texto.",
+      "4": "As ilhas de calor são fenômenos urbanos locais causados pela substituição de vegetação por superfícies artificiais. O texto trata de fenômeno de escala global com componente antrópico desde 8.000 anos atrás, o que não corresponde às ilhas de calor."
+    }
   },
   {
     "id": 10,
@@ -228,6 +281,11 @@
     ],
     "correta": 1,
     "comentario": "<p>A camada de ozônio (O₃) na estratosfera absorve a radiação UV-B e UV-C do Sol, protegendo os seres vivos de danos genéticos e cânceres de pele. Os clorofluorcarbonos (CFCs), usados em refrigeradores e aerossóis, destroem o ozônio cataliticamente. O Protocolo de Montreal (1987) proibiu progressivamente os CFCs, e a camada de ozônio apresenta sinais de recuperação.</p>",
-    "ajuda": "A destruição da camada de ozônio é causada principalmente por CFCs (clorofluorocarbonos) e outros halogênios que reagem quimicamente com o ozônio estratosférico. O Protocolo de Montreal (1987) foi o principal acordo internacional para reduzir essas substâncias."
+    "ajuda": "A destruição da camada de ozônio é causada principalmente por CFCs (clorofluorocarbonos) e outros halogênios que reagem quimicamente com o ozônio estratosférico. O Protocolo de Montreal (1987) foi o principal acordo internacional para reduzir essas substâncias.",
+    "feedbacks": {
+      "0": "Na sequência FVV, a terceira afirmativa seria verdadeira, mas o ozônio protetor está na estratosfera, não na troposfera. O ozônio troposférico é um poluente, não o protetor dos raios UV. A terceira afirmativa é FALSA.",
+      "2": "Na sequência FFV, a terceira afirmativa seria verdadeira, mas o ozônio protetor está na estratosfera, não na troposfera. Além disso, apenas 95% da radiação UV sendo absorvida precisa conferência. A terceira afirmativa é FALSA.",
+      "3": "Na sequência VFV, a primeira seria verdadeira, mas o Protocolo de Kyoto regula gases de efeito estufa (CO₂, CH₄, N₂O), não os CFCs. Os CFCs são regulados pelo Protocolo de Montreal (1987). A primeira afirmativa é FALSA."
+    }
   }
 ]

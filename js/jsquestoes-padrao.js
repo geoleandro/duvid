@@ -360,18 +360,8 @@ function verificar() {
         combo = 0;
         errosSeguidos++;
         if (errosSeguidos >= 3) {
-            const nome = (typeof DuvidDB !== 'undefined' && DuvidDB.getNome())
-                ? DuvidDB.getNome().split(' ')[0]
-                : null;
-            const msgBase = nome
-                ? `Ei, ${nome}! Essa parte é difícil.`
-                : 'Essa parte é difícil!';
-            const dica = q.ajuda || null;
             window.dispatchEvent(new CustomEvent('duvid:suporte', {
-                detail: {
-                    msg: msgBase + (dica ? ' Aqui vai uma dica:' : ' Continue tentando!'),
-                    dica: dica
-                }
+                detail: { msg: getFraseSuporteGlobinho() }
             }));
             errosSeguidos = 0;
         }
@@ -468,10 +458,102 @@ function exibirPainelFeedback(isCorreto, questao, indiceSelecionado) {
                </p>`;
     }
 
+    // Botão de contribuição — aparece após verificar (acerto ou erro)
+    const q = questoes[indiceAtual];
+    const numQuestao = q ? (q.num || (indiceAtual + 1)) : (indiceAtual + 1);
+    txt.innerHTML += `
+        <div style="margin-top:14px;text-align:center">
+            <button onclick="abrirModalReporte(${numQuestao})"
+                    class="btn-melhorar-aula"
+                    title="Encontrou algo que pode melhorar? Nos conta!">
+                ✍️ Melhorar esta questão
+            </button>
+        </div>
+    `;
+
     feedback.classList.remove('w3-hide');
 }
 
+// ── Modal de reporte ──────────────────────────────────────────
+function abrirModalReporte(questaoNum) {
+    const existing = document.getElementById('modal-reporte');
+    if (existing) existing.remove();
 
+    const modal = document.createElement('div');
+    modal.id = 'modal-reporte';
+    modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center;padding:16px';
+    modal.innerHTML = `
+        <div style="background:#fff;border-radius:12px;padding:24px;max-width:420px;width:100%;box-shadow:0 8px 32px rgba(0,0,0,.2)">
+            <h4 style="margin:0 0 4px">✍️ Sua contribuição importa</h4>
+            <p style="margin:0 0 16px;color:#666;font-size:14px">Questão ${questaoNum} — encontrou algo que pode melhorar? Nos conta, você faz parte disso.</p>
+
+            <label style="font-size:14px;font-weight:bold">Tipo de problema:</label>
+            <select id="reporte-tipo" style="width:100%;margin:6px 0 14px;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px">
+                <option value="gabarito">❌ Gabarito errado</option>
+                <option value="ortografia">✏️ Erro de ortografia/digitação</option>
+                <option value="confusa">🤔 Questão confusa ou mal formulada</option>
+                <option value="imagem">🖼️ Problema com imagem</option>
+                <option value="outro">💬 Outro</option>
+            </select>
+
+            <label style="font-size:14px;font-weight:bold">Detalhes (opcional):</label>
+            <textarea id="reporte-msg" rows="3" maxlength="500"
+                placeholder="Descreva o problema..."
+                style="width:100%;margin:6px 0 16px;padding:8px;border:1px solid #ddd;border-radius:6px;font-size:14px;resize:vertical;box-sizing:border-box"></textarea>
+
+            <div style="display:flex;gap:8px;justify-content:flex-end">
+                <button onclick="document.getElementById('modal-reporte').remove()"
+                        style="padding:8px 16px;border:1px solid #ddd;border-radius:6px;background:#fff;cursor:pointer">
+                    Cancelar
+                </button>
+                <button onclick="enviarReporte(${questaoNum})"
+                        id="btn-enviar-reporte"
+                        style="padding:8px 20px;border:none;border-radius:6px;background:#4caf50;color:#fff;font-weight:bold;cursor:pointer">
+                    Enviar
+                </button>
+            </div>
+            <p id="reporte-status" style="margin:8px 0 0;font-size:13px;text-align:center;display:none"></p>
+        </div>
+    `;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+}
+
+async function enviarReporte(questaoNum) {
+    const tipo     = document.getElementById('reporte-tipo').value;
+    const mensagem = document.getElementById('reporte-msg').value.trim();
+    const status   = document.getElementById('reporte-status');
+    const btn      = document.getElementById('btn-enviar-reporte');
+
+    btn.disabled = true;
+    btn.textContent = 'Enviando...';
+
+    try {
+        const res = await fetch('/api/reporte.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ aula_id: aulaID, questao_num: questaoNum, tipo, mensagem })
+        });
+        const data = await res.json();
+        status.style.display = 'block';
+        if (data.ok) {
+            status.style.color = '#2e7d32';
+            status.textContent = '✅ Obrigado! Vamos verificar em breve.';
+            setTimeout(() => document.getElementById('modal-reporte')?.remove(), 2000);
+        } else {
+            status.style.color = '#c62828';
+            status.textContent = data.erro || 'Erro ao enviar. Tente novamente.';
+            btn.disabled = false;
+            btn.textContent = 'Enviar';
+        }
+    } catch {
+        status.style.display = 'block';
+        status.style.color = '#c62828';
+        status.textContent = 'Erro de conexão. Tente novamente.';
+        btn.disabled = false;
+        btn.textContent = 'Enviar';
+    }
+}
 
 const gerarImagemComentario = (q) => {
     if (!q.imagem_comentario) return '';

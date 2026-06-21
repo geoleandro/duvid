@@ -21,7 +21,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O texto aborda o impacto provocado pelas atividades mineradoras nas dinâmicas territoriais de\r\n diversos grupos sociais, como quilombolas, ribeirinhos e povos indígenas. Segundo o excerto, a\r\n atividade mineradora traz como principal consequência a reconstrução de identidades e dinâmicas\r\n territoriais dos grupos afetados, caracterizando um rompimento dos tradicionais vínculos\r\n estabelecidos entre os próprios membros e com o espaço que ocupam. Trata-se, portanto, de uma\r\n relação marcada pelo rompimento de vínculos locais.</p>",
-    "ajuda": "O texto relaciona atividade econômica a uma forma específica de organização social. Identifique se o trecho descreve uma relação de exploração do trabalho, dependência energética, impacto ambiental ou algum modelo de desenvolvimento sustentável."
+    "ajuda": "O texto relaciona atividade econômica a uma forma específica de organização social. Identifique se o trecho descreve uma relação de exploração do trabalho, dependência energética, impacto ambiental ou algum modelo de desenvolvimento sustentável.",
+    "feedbacks": {
+      "0": "O texto não menciona falta de incentivo cultural como fator em jogo. O excerto descreve a dificuldade de grupos tradicionais de reproduzir suas dinâmicas territoriais pela mineração — o que caracteriza rompimento de vínculos locais, não ausência de cultura.",
+      "2": "Embora o texto mencione falta de compensação econômica, o aspecto central é o impacto nas identidades e dinâmicas territoriais — um rompimento de vínculos. A carência financeira é mencionada, mas não é a relação principal descrita.",
+      "3": "O texto não descreve práticas agroecológicas — ao contrário, relata os impactos da mineração industrial sobre comunidades tradicionais. Esta alternativa é incoerente com o conteúdo do excerto.",
+      "4": "O texto afirma explicitamente que muitas comunidades não recebem nem compensação econômica e têm suas dinâmicas territoriais destruídas. A alternativa contradiz diretamente o que o excerto descreve."
+    }
   },
   {
     "id": 2,
@@ -42,7 +48,10 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Brasil tem uma das maiores participações de energias renováveis em sua matriz elétrica, com destaque para a hidroeletricidade. Analise as demais fontes renováveis (eólica, solar, biomassa) e seus potenciais e limitações no contexto brasileiro."
+    "ajuda": "O Brasil tem uma das maiores participações de energias renováveis em sua matriz elétrica, com destaque para a hidroeletricidade. Analise as demais fontes renováveis (eólica, solar, biomassa) e seus potenciais e limitações no contexto brasileiro.",
+    "feedbacks": {
+      "1": "O biodiesel é de fato produzido a partir de óleos vegetais ou gorduras animais e pode substituir o diesel em veículos pesados, como caminhões. Afirmar que é 'Errado' contradiz a definição apresentada no próprio texto de apoio da questão."
+    }
   },
   {
     "id": 3,
@@ -63,7 +72,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n -->",
-    "ajuda": "Analise cada afirmativa sobre fontes de energia: a solar depende da incidência de radiação; a eólica, dos ventos; a hidrelétrica, dos rios. Cada uma tem vantagens (renovabilidade, baixa emissão) e desvantagens (impacto ambiental, intermitência). Verifique a consistência de cada proposição."
+    "ajuda": "Analise cada afirmativa sobre fontes de energia: a solar depende da incidência de radiação; a eólica, dos ventos; a hidrelétrica, dos rios. Cada uma tem vantagens (renovabilidade, baixa emissão) e desvantagens (impacto ambiental, intermitência). Verifique a consistência de cada proposição.",
+    "feedbacks": {
+      "1": "As afirmativas III e IV não são ambas corretas: a III confunde rochas metamórficas com magmáticas (origem no resfriamento do magma), e a IV descreve geotérmica como proveniente das marés (o que é errado — isso é maremotriz). Apenas I, II e IV são verdadeiras.",
+      "2": "A afirmativa III é falsa: rochas metamórficas originam-se da transformação de outras rochas por calor e pressão sem fundir — não do resfriamento do magma, que é a origem das rochas magmáticas (ígneas). Esta alternativa inclui a III erroneamente.",
+      "3": "As afirmativas I e II são verdadeiras, mas a III é falsa (metamórficas não vêm do resfriamento do magma). Como a IV é verdadeira (intemperismo depende de calor, umidade, organismos e relevo), a alternativa correta é I, II e IV."
+    }
   },
   {
     "id": 4,
@@ -85,7 +99,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As fontes alternativas de energia (solar, eólica, geotérmica, maremotriz, biomassa) são chamadas de renováveis porque se regeneram naturalmente. Sua principal vantagem é a menor emissão de gases de efeito estufa em comparação aos combustíveis fósseis."
+    "ajuda": "As fontes alternativas de energia (solar, eólica, geotérmica, maremotriz, biomassa) são chamadas de renováveis porque se regeneram naturalmente. Sua principal vantagem é a menor emissão de gases de efeito estufa em comparação aos combustíveis fósseis.",
+    "feedbacks": {
+      "0": "A energia nuclear utiliza a fissão de átomos de urânio em reatores controlados, não o calor interno da Terra. Embora a fissão produza calor, sua fonte é uma reação atômica artificial — não a geotermia natural.",
+      "1": "A energia ondomotriz (undimotriz) é gerada pelo movimento das ondas do mar, não pelo calor interno da Terra. É uma fonte marinha distinta da geotérmica, que explora o gradiente térmico das camadas profundas da crosta.",
+      "3": "A energia eólica é gerada pelo movimento do vento (massas de ar em deslocamento), não pelo calor interno da Terra. A eólica é uma fonte atmosférica, enquanto a geotérmica aproveita o calor do magma e da crosta profunda.",
+      "4": "A energia maremotriz é gerada pela variação das marés (atração gravitacional da Lua e do Sol sobre os oceanos), não pelo calor interno da Terra. É uma fonte oceânica completamente distinta da geotérmica."
+    }
   },
   {
     "id": 5,
@@ -108,7 +128,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O consumo de energia per capita é um indicador do nível de desenvolvimento de um país. Países industrializados consomem muito mais energia do que países subdesenvolvidos. Analise o que isso revela sobre os padrões de produção e consumo global."
+    "ajuda": "O consumo de energia per capita é um indicador do nível de desenvolvimento de um país. Países industrializados consomem muito mais energia do que países subdesenvolvidos. Analise o que isso revela sobre os padrões de produção e consumo global.",
+    "feedbacks": {
+      "0": "A eficiência energética reduz desperdício e custos, mas não reestrutura os sistemas de produção de forma a limitar a sociedade. Ao contrário, permite produzir mais com menos energia, ampliando as possibilidades de bem-estar.",
+      "1": "A eficiência energética reduz a dependência de petróleo ao diminuir o consumo total. Ela não redesenha alianças políticas para aumentar o consumo de fósseis — é o oposto: quanto mais eficiente o uso, menor a necessidade de combustíveis.",
+      "2": "A eficiência energética não redistribui recursos entre países de forma igualitária por si só — essa é uma questão geopolítica mais ampla. Seu impacto principal é a redução do consumo e dos impactos ambientais dentro de cada organização.",
+      "3": "A eficiência energética pode contribuir para valorizar renováveis ao reduzir demanda, mas não extingue necessariamente todos os subsídios públicos ao setor energético. Subsídios dependem de políticas governamentais específicas, não apenas da eficiência."
+    }
   },
   {
     "id": 6,
@@ -131,7 +157,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O biodiesel é uma importante alternativa para a substituição de combustíveis fósseis, como o petróleo\r\n e o gás natural, portanto, contribui para a diminuição da emissão de poluentes na atmosfera.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O biodiesel é um biocombustível produzido a partir de óleos vegetais ou gordura animal, podendo ser misturado ao diesel mineral. Ele é considerado uma alternativa mais sustentável por ser renovável e ter menor emissão líquida de CO₂, mas apresenta desafios ligados ao uso do solo."
+    "ajuda": "O biodiesel é um biocombustível produzido a partir de óleos vegetais ou gordura animal, podendo ser misturado ao diesel mineral. Ele é considerado uma alternativa mais sustentável por ser renovável e ter menor emissão líquida de CO₂, mas apresenta desafios ligados ao uso do solo.",
+    "feedbacks": {
+      "0": "A produção agrícola de biomassa (cana, soja, dendê) para biodiesel gera empregos rurais — a afirmativa inverte a realidade. A alternativa descreve um impacto negativo inexistente.",
+      "1": "O biodiesel não amplia necessariamente áreas florestadas — há preocupação com desmatamento para plantio de oleaginosas. A biodiversidade não é automaticamente aumentada pela expansão agrícola para biocombustíveis.",
+      "2": "A elevação de preços dos derivados de biodiesel não é uma 'bênção ambiental'. A principal vantagem ambiental é a substituição de combustíveis fósseis por fontes renováveis com menor emissão líquida de CO₂.",
+      "3": "A produção em larga escala de biodiesel aumenta o uso de água na irrigação — isso pode ser uma desvantagem ambiental, não um benefício. A alternativa descreve um impacto potencialmente negativo como se fosse vantagem."
+    }
   },
   {
     "id": 7,
@@ -148,11 +180,16 @@
       "1 – 2 – 3.",
       "2 – 1 – 3.",
       "2 – 3 – 1.",
-      "2 – 3 – 1."
+      "3 – 1 – 3."
     ],
     "correta": 1,
-    "comentario": "<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As fontes alternativas de energia incluem solar (fotovoltaica e térmica), eólica, geotérmica, maremotriz e de biomassa. Associe cada termo à sua definição: qual usa o calor da Terra? Qual aproveita o movimento das marés? Qual transforma a luz em eletricidade?"
+    "comentario": "A energia eólica é obtida por meio da intensidade dos ventos, a geotérmica provém do calor gerado no interior do planeta e a biomassa é obtida por meio da queima de plantas, madeira, matérias vegetais e animais",
+    "ajuda": "As fontes alternativas de energia incluem solar (fotovoltaica e térmica), eólica, geotérmica, maremotriz e de biomassa. Associe cada termo à sua definição: qual usa o calor da Terra? Qual aproveita o movimento das marés? Qual transforma a luz em eletricidade?",
+    "feedbacks": {
+      "0": "A sequência 1–2–3 associaria geotérmica ao vento, eólica ao calor da Terra e biomassa à queima, quer dizer, tudo errado. O vento gera energia eólica,, o calor interno da Terra gera geotérmica e a queima de matéria orgânica gera biomassa ",
+      "2": "A sequência 2–3–1 seria: eólica ao vento (correto), depois biomassa ao calor da Terra (errado) e geotérmica à queima de matéria orgânica (errado). A geotérmica vem do calor interno da Terra (=1) e a biomassa da queima orgânica (=3).",
+      "3": "A sequência 3–1–3 associaria biomassa ao vento, geotérmica ao calor da Terra e biomassa à queima, quer dizer, tudo errado. O vento gera energia eólica (=2), o calor interno da Terra gera geotérmica (=1) e a queima de matéria orgânica gera biomassa (=3)."
+    }
   },
   {
     "id": 8,
@@ -175,7 +212,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Correta. Letra C. Como mostrado na imagem, a grande presença de CO2, efeito da queima de combustíveis\r\n pela indústria e por automóveis, tem um grande impacto sobre alguns seres vivos marinhos como:\r\n moluscos, corais, equinodermos e microrganismos com carapaça.</p>",
-    "ajuda": "O impacto ambiental descrito provavelmente está relacionado à construção de usinas (hidrelétricas, termelétricas) ou à extração de combustíveis. Identifique qual atividade energética causa o tipo de degradação ambiental mencionado e quais fatores a intensificam."
+    "ajuda": "O impacto ambiental descrito provavelmente está relacionado à construção de usinas (hidrelétricas, termelétricas) ou à extração de combustíveis. Identifique qual atividade energética causa o tipo de degradação ambiental mencionado e quais fatores a intensificam.",
+    "feedbacks": {
+      "0": "A impermeabilização do solo urbano agrava inundações locais, mas não é a causa da acidificação dos oceanos mostrada na imagem. A acidificação oceânica resulta da absorção de CO₂ atmosférico — gerado principalmente pela queima de combustíveis fósseis.",
+      "1": "O El Niño é uma variabilidade climática natural que afeta o regime de chuvas e temperaturas oceânicas, mas não causa a acidificação sistemática dos oceanos. A acidificação é um processo crônico vinculado ao aumento de CO₂ atmosférico.",
+      "3": "A vaporização dos oceanos não é um mecanismo de acidificação — o derretimento das geleiras eleva o nível do mar e dilui a salinidade. A acidificação ocorre pela absorção de CO₂ da atmosfera, que forma ácido carbônico na água.",
+      "4": "A extinção de organismos marinhos produtores de oxigênio é consequência da acidificação, não sua causa. O processo é: queima de fósseis → aumento de CO₂ → absorção pelo mar → ácido carbônico → acidificação → impacto nos organismos."
+    }
   },
   {
     "id": 9,
@@ -199,7 +242,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A utilização de fontes renováveis de energia, por meio da utilização de elementos como mar (maremotriz), ar (eólica), sol (solar) e lixo (biomassa), produz uma ampla diminuição da emissão de gases poluentes. Sendo assim, as matrizes renováveis de energia possibilitam um menor impacto no meio ambiente e uma maior manutenção das condições biológicas locais.</p>",
-    "ajuda": "A transição para fontes renováveis de energia é um dos desafios do desenvolvimento sustentável. A substituição de combustíveis fósseis por fontes como solar e eólica em ilhas ou parques nacionais representa uma iniciativa de descarbonização local."
+    "ajuda": "A transição para fontes renováveis de energia é um dos desafios do desenvolvimento sustentável. A substituição de combustíveis fósseis por fontes como solar e eólica em ilhas ou parques nacionais representa uma iniciativa de descarbonização local.",
+    "feedbacks": {
+      "0": "Expandir a oferta de energia para o turismo pode ser uma consequência do projeto, mas não é a motivação central. O texto enfatiza a substituição de diesel por fontes limpas oriundas do próprio ambiente natural da ilha.",
+      "2": "O barateamento dos custos pode ser um efeito colateral, mas o texto foca na substituição do diesel por fontes renováveis locais para preservar as condições ecológicas do parque — não na redução de custos.",
+      "3": "O desenvolvimento de 'unidades complementares' é vago e não corresponde à motivação descrita. O projeto substitui geradores a diesel por fontes do ambiente local (vento, sol, mar, lixo) para reduzir impacto ambiental na área de proteção.",
+      "4": "Reduzir gastos com transporte de combustível pode ser um benefício adicional, mas o texto foca na diversificação das fontes para preservar as condições ecológicas da ilha, não na logística de transporte do continente."
+    }
   },
   {
     "id": 10,
@@ -221,6 +270,12 @@
     ],
     "correta": 3,
     "comentario": "<p>As usinas eólicas utilizam como elemento gerador de energia o vento. Além disso, ocupam uma pequena área, podem ser instaladas em um terreno com outras práticas econômicas, e não produzem resíduos. Desse modo, elas produzem baixo impacto no meio ambiente.</p>",
-    "ajuda": "As usinas eólicas transformam a energia cinética dos ventos em energia elétrica por meio de turbinas. Elas são mais eficientes em regiões com ventos constantes, como o Nordeste brasileiro e regiões costeiras. Analise as vantagens e limitações dessa fonte de energia."
+    "ajuda": "As usinas eólicas transformam a energia cinética dos ventos em energia elétrica por meio de turbinas. Elas são mais eficientes em regiões com ventos constantes, como o Nordeste brasileiro e regiões costeiras. Analise as vantagens e limitações dessa fonte de energia.",
+    "feedbacks": {
+      "0": "A elevada emissão de poluentes é uma desvantagem, não uma vantagem da energia eólica. Usinas eólicas não emitem gases de efeito estufa durante operação — a questão pede as vantagens, e poluição é exatamente o oposto.",
+      "1": "O Brasil já é um dos maiores produtores de energia eólica da América Latina, especialmente no Nordeste e em regiões costeiras. A alternativa afirma que é impossível empregar a eólica no Brasil, o que contradiz a realidade.",
+      "2": "A energia eólica utiliza tecnologia moderna e sofisticada de aerogeradores (turbinas que convertem energia cinética em elétrica). Afirmar que não usa tecnologia moderna está factualmente errado.",
+      "4": "Regiões litorâneas são justamente ideais para usinas eólicas, pois ventos costeiros são constantes e intensos. O litoral é um dos melhores ambientes para eólica offshore — a afirmativa está completamente errada."
+    }
   }
 ]

@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As refinarias de petróleo precisam de infraestrutura de circulação eficiente (oleodutos, gasodutos, portos, ferrovias e rodovias) para receber o petróleo bruto e distribuir os derivados (gasolina, diesel, querosene, nafta). A REPLAN em Paulínia-SP, a maior refinaria do Brasil, está no interior do estado mas conectada a São Paulo por dutos e rodovias.</p>",
-    "ajuda": "A instalação de refinarias de petróleo envolve fatores logísticos como proximidade de portos ou oleodutos para receber o petróleo bruto, e infraestrutura para distribuir os derivados. Pense em como a localização geográfica influencia a viabilidade técnica e econômica de uma refinaria."
+    "ajuda": "A instalação de refinarias de petróleo envolve fatores logísticos como proximidade de portos ou oleodutos para receber o petróleo bruto, e infraestrutura para distribuir os derivados. Pense em como a localização geográfica influencia a viabilidade técnica e econômica de uma refinaria.",
+    "feedbacks": {
+      "0": "A proximidade a sedes petroquímicas é útil, mas não é o fator determinante mencionado no texto. O texto enfatiza a necessidade de localização próxima tanto das áreas de produção quanto dos centros de consumo, o que exige infraestrutura de circulação.",
+      "1": "O texto não menciona zonas de importação como fator locacional determinante. O fator central é a logística de transporte — oleodutos, rodovias e portos — para receber o petróleo bruto e distribuir os derivados.",
+      "2": "Polos tecnológicos podem influenciar inovação, mas não são o fator locacional citado no texto. As refinarias priorizam a proximidade de centros de consumo e áreas de produção, o que requer infraestrutura de circulação.",
+      "3": "Mão de obra é um fator secundário na localização de refinarias. O texto destaca que o fator mais importante é a localização próxima às áreas de produção e centros de consumo, exigindo infraestrutura de transporte eficiente."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O petróleo forma-se pela decomposição de matéria orgânica (algas e plâncton marinhos) soterrada em bacias sedimentares ao longo de milhões de anos — o que confirma que regiões desérticas atuais já foram oceanos no passado geológico. A Arábia Saudita, hoje deserta, foi um mar raso no Mesozoico, o que explica suas imensas reservas.</p>",
-    "ajuda": "Os combustíveis fósseis (petróleo, carvão e gás natural) são recursos não renováveis formados ao longo de milhões de anos. Pense nos impactos de sua queima (emissão de CO₂ e poluentes), sua distribuição geopolítica desigual e as alternativas energéticas que estão sendo desenvolvidas."
+    "ajuda": "Os combustíveis fósseis (petróleo, carvão e gás natural) são recursos não renováveis formados ao longo de milhões de anos. Pense nos impactos de sua queima (emissão de CO₂ e poluentes), sua distribuição geopolítica desigual e as alternativas energéticas que estão sendo desenvolvidas.",
+    "feedbacks": {
+      "1": "Os combustíveis fósseis são finitos e de formação geológica lentíssima (milhões de anos), não contínua em escala humana. Seu consumo acelerado excede em muito a taxa de formação natural, tornando-os recursos esgotáveis.",
+      "2": "O consumo atual de combustíveis fósseis é enormemente superior à deposição natural de biomassa. A reposição geológica leva milhões de anos, enquanto as reservas existentes serão esgotadas em séculos.",
+      "3": "O texto afirma que os combustíveis fósseis se formaram muito antes da existência humana — não nos últimos 100 anos. Os seres humanos apenas exploram esses recursos acumulados, não os geraram.",
+      "4": "O texto não sugere que carvão se transforma em petróleo — são recursos distintos. O carvão provém de vegetais terrestres soterrados; o petróleo, de organismos marinhos; ambos se formam em condições geológicas diferentes."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As bacias sedimentares são as únicas estruturas geológicas onde se acumulam combustíveis fósseis (petróleo, gás e carvão), pois esses recursos se formam da matéria orgânica soterrada sob camadas de sedimentos. No Brasil, a Bacia de Santos (pré-sal) e a Bacia de Campos concentram as maiores reservas offshore de petróleo do país.</p>",
-    "ajuda": "O relevo influencia diretamente as atividades humanas: planícies facilitam a agricultura e a urbanização; montanhas dificultam o transporte mas favorecem o turismo; planaltos oferecem condições intermediárias. Identifique como cada forma de relevo condiciona o uso do espaço."
+    "ajuda": "O relevo influencia diretamente as atividades humanas: planícies facilitam a agricultura e a urbanização; montanhas dificultam o transporte mas favorecem o turismo; planaltos oferecem condições intermediárias. Identifique como cada forma de relevo condiciona o uso do espaço.",
+    "feedbacks": {
+      "0": "Os fenômenos meteorológicos descrevem o tempo atmosférico (condições de curto prazo), não o clima (médias de longo prazo). Dizer que 'o dia está frio' é uma observação de tempo, não uma referência ao clima.",
+      "1": "A matéria orgânica concentra-se principalmente nos horizontes superficiais do solo (O e A), não em todas as camadas. Nas camadas mais profundas predominam minerais e rocha alterada, com pouca ou nenhuma matéria orgânica.",
+      "2": "Os Andes, Himalaia e Rochosas são dobramentos modernos (Mesozoico e Cenozoico), não formações do Arqueano. São áreas de intensa atividade tectônica atual — o oposto da estabilidade tectônica mencionada.",
+      "4": "Os solos das bacias sedimentares não apresentam necessariamente todos os horizontes. Sua fertilidade depende da composição dos sedimentos e do clima local, podendo ser muito variada — inclusive infértil."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O petróleo é uma mistura complexa de hidrocarbonetos (compostos de carbono e hidrogênio) de origem orgânica fóssil. Na refinaria, passa pelo processo de destilação fracionada: o óleo cru é aquecido e seus componentes separam-se por ponto de ebulição em diferentes frações — GLP, gasolina, querosene, óleo diesel, nafta e asfalto.</p>",
-    "ajuda": "O petróleo é um recurso mineral de origem fóssil formado pela decomposição de matéria orgânica (animais e plantas marinhos) ao longo de milhões de anos, sob condições de calor e pressão em rochas sedimentares. Identifique qual alternativa descreve corretamente essa origem e composição."
+    "ajuda": "O petróleo é um recurso mineral de origem fóssil formado pela decomposição de matéria orgânica (animais e plantas marinhos) ao longo de milhões de anos, sob condições de calor e pressão em rochas sedimentares. Identifique qual alternativa descreve corretamente essa origem e composição.",
+    "feedbacks": {
+      "0": "Esta alternativa descreve o gás natural, não o petróleo. Ambos são combustíveis fósseis, mas o gás natural é gasoso (principalmente metano), enquanto o petróleo é uma mistura líquida de hidrocarbonetos refinada por destilação fracionada.",
+      "1": "Esta alternativa descreve o conceito genérico de 'combustível' (tudo que pode ser queimado), não especificamente o petróleo. A definição do petróleo é precisa: mistura líquida de hidrocarbonetos de origem fóssil.",
+      "3": "Esta alternativa descreve formas gerais de energia (química, mecânica, térmica etc.), não a definição de petróleo. O petróleo é uma substância específica — mistura de hidrocarbonetos — refinada em produtos como gasolina, diesel e querosene."
+    }
   },
   {
     "id": 5,
@@ -112,7 +135,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O gás natural é um combustível fóssil encontrado associado ao petróleo ou em reservatórios independentes em bacias sedimentares. É composto principalmente de metano (CH₄) e tem menor emissão de CO₂ que o carvão e o petróleo. Pode substituir o diesel em veículos pesados e é usado amplamente na indústria petroquímica e na geração de energia elétrica.</p>",
-    "ajuda": "O gás natural é frequentemente encontrado associado ao petróleo em reservatórios de rochas sedimentares. É composto principalmente por metano (CH₄) e é considerado o combustível fóssil mais limpo em termos de emissão de CO₂ por unidade de energia produzida."
+    "ajuda": "O gás natural é frequentemente encontrado associado ao petróleo em reservatórios de rochas sedimentares. É composto principalmente por metano (CH₄) e é considerado o combustível fóssil mais limpo em termos de emissão de CO₂ por unidade de energia produzida.",
+    "feedbacks": {
+      "0": "Esta alternativa descreve o petróleo (mistura de hidrocarbonetos refinada por destilação fracionada), não o gás natural. O gás natural é composto principalmente de metano (CH₄) e está no estado gasoso.",
+      "1": "Esta alternativa descreve o carvão mineral (rocha sedimentar combustível classificada em turfa, linhito, hulha e antracito). O gás natural é um combustível fóssil gasoso formado de modo semelhante ao petróleo, mas predominantemente metano.",
+      "3": "Esta alternativa descreve o conceito geral de 'combustível', não o gás natural especificamente. O gás natural é um combustível fóssil gasoso composto principalmente de metano, encontrado em reservatórios no subsolo junto ao petróleo."
+    }
   },
   {
     "id": 6,
@@ -136,7 +164,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Apesar do crescimento das renováveis, o petróleo e o carvão ainda respondem por mais de 50% da matriz energética mundial. Os países em desenvolvimento têm consumo crescente, e a transição energética é desigual — países ricos investem em solar e eólica, enquanto nações pobres ainda dependem de carvão e lenha. A geopolítica do petróleo segue influenciando conflitos globais.</p>",
-    "ajuda": "O uso de energia é essencial para o desenvolvimento humano, mas seu consumo desigual e os impactos ambientais são grandes desafios. Pense nas diferenças de consumo energético entre países desenvolvidos e subdesenvolvidos e nos problemas ambientais causados pelo uso de combustíveis fósseis."
+    "ajuda": "O uso de energia é essencial para o desenvolvimento humano, mas seu consumo desigual e os impactos ambientais são grandes desafios. Pense nas diferenças de consumo energético entre países desenvolvidos e subdesenvolvidos e nos problemas ambientais causados pelo uso de combustíveis fósseis.",
+    "feedbacks": {
+      "0": "As fontes 'arcaicas' usadas por populações pobres (lenha, biomassa) têm impacto local, mas não são as principais causadoras da insustentabilidade global. O problema central é a dependência do petróleo e carvão em grande escala pelas economias industriais.",
+      "1": "As fontes renováveis já competem em custo com combustíveis fósseis em muitas regiões e são produzidas em larga escala. A insustentabilidade energética não decorre do custo elevado das renováveis, mas da predominância global dos combustíveis fósseis.",
+      "2": "A energia hidráulica não lidera o consumo mundial — o petróleo ainda é a maior fonte de energia primária no planeta. O principal problema de insustentabilidade é a dependência de fósseis não renováveis e altamente poluentes, não das hidrelétricas.",
+      "4": "A energia nuclear não é consensualmente a 'solução mais viável' e seus resíduos radioativos são um problema ambiental sério. A insustentabilidade energética decorre sobretudo da dependência global do petróleo e carvão, que são finitos e emitem CO₂."
+    }
   },
   {
     "id": 7,
@@ -160,7 +194,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O hidrocarboneto (petróleo e gás) alimenta tanto o setor produtivo quanto o de consumo. Com o crescimento econômico de países emergentes como China, Índia e Brasil, a demanda energética global aumentou enormemente nas últimas décadas. A dependência do petróleo é estrutural: está na base do plástico, fertilizantes, transporte e geração elétrica.</p>",
-    "ajuda": "O capitalismo incentiva o aumento do consumo de energia, mas a matriz energética global ainda é altamente dependente de combustíveis fósseis. Analise as consequências econômicas, geopolíticas e ambientais dessa dependência e quais alternativas estão sendo desenvolvidas."
+    "ajuda": "O capitalismo incentiva o aumento do consumo de energia, mas a matriz energética global ainda é altamente dependente de combustíveis fósseis. Analise as consequências econômicas, geopolíticas e ambientais dessa dependência e quais alternativas estão sendo desenvolvidas.",
+    "feedbacks": {
+      "0": "A estabilização da população não reduziria automaticamente o consumo de petróleo, pois o consumo per capita cresce com o desenvolvimento econômico. O gráfico mostra que a demanda cresce mais pelo aumento do consumo individual do que pelo crescimento populacional.",
+      "1": "O consumo gradativo de fósseis não equaliza o acesso — ao contrário, gera disputas geopolíticas. O acesso ao petróleo é historicamente desigual entre países produtores e consumidores.",
+      "2": "Não há relação direta entre natalidade e utilização energética que permita 'controle de crises'. O consumo de energia é determinado principalmente pelo nível de industrialização e renda, não pela taxa de natalidade.",
+      "4": "As reservas de petróleo não impedem a expansão industrial nas economias desenvolvidas — países ricos são grandes consumidores e importadores. O gráfico mostra crescimento contínuo do consumo, não limitação pela distribuição das reservas."
+    }
   },
   {
     "id": 8,
@@ -181,7 +221,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Os combustíveis fósseis (petróleo, carvão e gás natural) emitem CO₂ e outros gases de efeito estufa quando queimados, contribuindo para o aquecimento global. A substituição por fontes renováveis (solar, eólica, hidrelétrica) reduz as emissões e é central nos Acordos de Paris (2015). Afirmar que essa substituição é 'positiva por favorecer o combate ao aquecimento' é correto.</p>",
-    "ajuda": "As três principais fontes de energia no mundo (petróleo, carvão e gás natural) são chamadas de combustíveis fósseis por serem formadas a partir de restos orgânicos soterrados. Elas dominam a matriz energética global apesar de serem não renováveis e altamente poluidoras."
+    "ajuda": "As três principais fontes de energia no mundo (petróleo, carvão e gás natural) são chamadas de combustíveis fósseis por serem formadas a partir de restos orgânicos soterrados. Elas dominam a matriz energética global apesar de serem não renováveis e altamente poluidoras.",
+    "feedbacks": {
+      "0": "Afirmar que os fósseis são 'abundantes e economicamente vantajosos para países em desenvolvimento' é impreciso — muitos importam petróleo a preços altos gerando déficits. Além disso, são finitos e poluidores, o que torna a avaliação muito mais negativa.",
+      "1": "A principal contaminação dos recursos hídricos pelos fósseis é indireta (derrames, chuva ácida). Afirmar que são 'a principal forma de poluição hídrica' é exagerado e não corresponde ao maior impacto, que é a emissão de gases de efeito estufa.",
+      "2": "A dependência dos fósseis não é positiva: são finitos e sua queima é a principal causa do aquecimento global. Uma avaliação positiva só seria válida se os enormes impactos ambientais e sociais fossem completamente desconsiderados."
+    }
   },
   {
     "id": 9,
@@ -200,11 +245,16 @@
       "destilação fracionada.",
       "separação de misturas orgânicas.",
       "ampliação da octanagem.",
-      "ampliação da octanagem."
+      "pulverização para o refino."
     ],
-    "correta": 1,
-    "comentario": "<p>O petróleo bruto é uma mistura de hidrocarbonetos — compostos orgânicos formados por carbono e hidrogênio. Para separar seus componentes (gasolina, diesel, GLP etc.), usa-se a destilação fracionada, técnica baseada na diferença de pontos de ebulição de cada fração. Esse processo é o pilar da indústria de refino.</p>",
-    "ajuda": "O petróleo é extraído de rochas sedimentares porosas, especialmente em bacias sedimentares offshore (no fundo do mar) ou onshore (em terra). A cadeia produtiva inclui exploração, extração, refino e distribuição. Identifique em qual etapa ou característica a questão está focada."
+    "correta": 0,
+    "comentario": "<p>O petróleo bruto é uma mistura de hidrocarbonetos, ou seja, compostos orgânicos formados por carbono e hidrogênio. Para separar seus componentes (gasolina, diesel, GLP etc.), usa-se a técnica baseada na diferença de pontos de ebulição de cada fração. Esse processo é o pilar da indústria de refino.</p>",
+    "ajuda": "O petróleo é extraído de rochas sedimentares porosas, especialmente em bacias sedimentares offshore (no fundo do mar) ou onshore (em terra). A cadeia produtiva inclui exploração, extração, refino e distribuição. Identifique em qual etapa ou característica a questão está focada.",
+    "feedbacks": {
+      "1": "Esta alternativa é uma descrição genérica e não representa o nome técnico do processo. A destilação fracionada é a técnica específica utilizada para separar os componentes do petróleo.",
+      "2": "A octanagem mede a resistência da gasolina à detonação antecipada nos motores, não é o processo de separação do petróleo bruto. A ampliação da octanagem é uma etapa posterior ao refino, não o processo principal descrito na questão.",
+      "3": "A pulverização para o refino não é um termo técnico reconhecido na indústria do petróleo. O processo correto de separação dos componentes do petróleo é a destilação fracionada, que utiliza diferenças de ponto de ebulição para separar os hidrocarbonetos."
+    }
   },
   {
     "id": 10,
@@ -226,6 +276,11 @@
     ],
     "correta": 3,
     "comentario": "<p>O petróleo bruto é uma mistura de hidrocarbonetos — compostos orgânicos formados por carbono e hidrogênio. Para separar seus componentes (gasolina, diesel, GLP etc.), usa-se a destilação fracionada, técnica baseada na diferença de pontos de ebulição de cada fração. Esse processo é o pilar da indústria de refino.</p>",
-    "ajuda": "O petróleo é extraído de rochas sedimentares porosas, especialmente em bacias sedimentares offshore (no fundo do mar) ou onshore (em terra). A cadeia produtiva inclui exploração, extração, refino e distribuição. Identifique em qual etapa ou característica a questão está focada."
+    "ajuda": "O petróleo é extraído de rochas sedimentares porosas, especialmente em bacias sedimentares offshore (no fundo do mar) ou onshore (em terra). A cadeia produtiva inclui exploração, extração, refino e distribuição. Identifique em qual etapa ou característica a questão está focada.",
+    "feedbacks": {
+      "0": "O carvão mineral não é obtido por destilação do petróleo — são recursos distintos de origem e composição diferentes. A destilação fracionada é o processo de refino do petróleo; o carvão é extraído diretamente de minas e usado na combustão.",
+      "1": "O carvão mineral não é obtido por fissão nuclear e não é considerado uma fonte limpa de energia. A fissão nuclear é o princípio das usinas nucleares, sem relação com a formação ou uso do carvão mineral.",
+      "2": "Esta alternativa descreve a biomassa (queima de madeira e galhos), não o carvão mineral. O carvão mineral é um recurso geológico formado ao longo de milhões de anos pelo soterramento de matéria vegetal — não é simplesmente lenha."
+    }
   }
 ]

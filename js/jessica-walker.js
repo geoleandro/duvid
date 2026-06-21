@@ -8,6 +8,9 @@
 
   if (window.location.pathname.startsWith('/jogo')) return;
   if (document.querySelector('meta[name="jessica-walker"][content="off"]')) return;
+  var HOME_PATHS = ['/', '/index.php', '/index.html', '/home.php'];
+  var isHome = HOME_PATHS.indexOf(window.location.pathname) !== -1;
+  var isQuestoes = window.location.pathname.indexOf('/questoes/') !== -1 || window.location.pathname.indexOf('modelo-questoes') !== -1;
 
   // ── Helpers globais ────────────────────────────────────────────────────────
   function isMobile() { return window.innerWidth <= 768; }
@@ -186,7 +189,7 @@
 
   // ── Personagens ────────────────────────────────────────────────────────────
 
-  createWalker({
+  if (isHome) createWalker({
     id:        'jessica',
     sheet:     '/fotoIndex/jessica/jessica-spritesheet.png',
     sheetCols: 8,  sheetRows: 3,
@@ -205,30 +208,33 @@
     zIndex:    500
   });
 
-  createWalker({
-    id:        'globinho',
-    sheet:     '/fotoIndex/globinho/globinho-walk.png',
-    sheetCols: 8,  sheetRows: 2,
-    frameW:    128, frameH: 128,
-    walkRow:   0,  walkCols: 5,  walkFps: 10,
-    idleRow:   1,  idleCols: 2,  idleFps: 4,
-    flipWalk:  false, flipIdle: false,
-    direction: 'right',
-    speedPx:   55,
-    heightDt:  80,  heightMob: 56,
-    bottom:    '45px',
-    pauseProb: 0.15,
-    walkDelay: 22000, gapMin: 25000, gapMax: 50000,
-    zIndex:    499
-  });
+  var HOME_PATHS = ['/', '/home.php', '/home.html'];
+  if (isHome) {
+    createWalker({
+      id:        'globinho',
+      sheet:     '/fotoIndex/globinho/globinho-walk.png',
+      sheetCols: 8,  sheetRows: 2,
+      frameW:    128, frameH: 128,
+      walkRow:   0,  walkCols: 5,  walkFps: 10,
+      idleRow:   1,  idleCols: 2,  idleFps: 4,
+      flipWalk:  false, flipIdle: false,
+      direction: 'right',
+      speedPx:   55,
+      heightDt:  80,  heightMob: 56,
+      bottom:    '45px',
+      pauseProb: 0.15,
+      walkDelay: 22000, gapMin: 25000, gapMax: 50000,
+      zIndex:    499
+    });
+  }
 
   // ── Personagem de Suporte (estilo Duolingo) ────────────────────────────────
   var SUP = {
     sheet:     '/fotoIndex/suporte/suporte-walk.png',
-    sheetCols: 8, sheetRows: 1,
+    sheetCols: 6, sheetRows: 1,
     frameW:    128, frameH: 128,
-    idleRow:   0, idleCols: 8, idleFps: 6,
-    heightDt:  180, heightMob: 120,
+    idleRow:   0, idleCols: 6, idleFps: 8,
+    heightDt:  128, heightMob: 90,
     flipX:     false
   };
 
@@ -239,27 +245,27 @@
   function supW()  { return Math.round(SUP.frameW * supSc()); }
 
   (function initSupport() {
+    if (!isHome && !isQuestoes) return;
     var css = [
-      '#jessica-suporte{position:fixed;bottom:0;right:16px;z-index:600;',
-      'display:flex;flex-direction:row;align-items:flex-end;',
-      'transform:translateX(110%);transition:transform 0.4s cubic-bezier(0.34,1.1,0.64,1);}',
+      '#jessica-suporte{position:fixed;bottom:0;left:0;z-index:600;',
+      'display:flex;flex-direction:column;align-items:center;',
+      'transform:translateX(-110%);transition:transform 0.4s cubic-bezier(0.34,1.1,0.64,1);}',
       '#jessica-suporte.sup-visible{transform:translateX(0);}',
       '#jessica-sup-sprite{image-rendering:auto;',
       'background-repeat:no-repeat;background-image:url("' + SUP.sheet + '");}',
       '@keyframes sup-anim{from{background-position:0px var(--sup-ry);}to{background-position:var(--sup-aw) var(--sup-ry);}}',
       '#jessica-sup-sprite.sup-idle{animation:sup-anim var(--sup-dur) steps(' + SUP.idleCols + ') infinite;}',
       '#jessica-sup-bubble{position:relative;background:#fffde7;color:#222;',
-      'border:2px solid #333;box-shadow:3px 3px 0 #333;',
-      'padding:10px 14px;font-size:13px;font-family:monospace;line-height:1.5;',
-      'max-width:220px;margin-bottom:20px;border-radius:2px;align-self:flex-end;}',
-      '#jessica-sup-bubble::after{content:"";position:absolute;',
-      'right:-11px;bottom:16px;border:6px solid transparent;border-left-color:#333;}',
+      'border:2px solid #555;box-shadow:2px 2px 6px rgba(0,0,0,0.18);',
+      'padding:12px 16px;font-size:13px;font-family:sans-serif;line-height:1.5;',
+      'max-width:240px;margin-bottom:8px;border-radius:16px;}',
+
       '#jessica-sup-close{position:absolute;top:3px;right:7px;background:none;',
       'border:none;cursor:pointer;font-size:18px;line-height:1;color:#555;padding:0;}',
       '#jessica-sup-dica{display:block;margin-top:6px;padding-top:6px;',
       'border-top:1px dashed #aaa;font-size:12px;color:#555;}',
-      'body.dark-mode #jessica-sup-bubble{background:#1a2035;color:#e0e0e0;border-color:#90caf9;box-shadow:3px 3px 0 #90caf9;}',
-      'body.dark-mode #jessica-sup-bubble::after{border-left-color:#90caf9;}',
+      'body.dark-mode #jessica-sup-bubble{background:#1a2035;color:#e0e0e0;border-color:#90caf9;box-shadow:2px 2px 6px rgba(0,0,0,0.4);}',
+      '',
       'body.dark-mode #jessica-sup-dica{color:#aaa;border-top-color:#444;}'
     ].join('');
 
@@ -289,6 +295,11 @@
     supSpr.style.setProperty('--sup-ry',  rowY + 'px');
     supSpr.classList.add('sup-idle');
 
+    // Pré-carrega o áudio de suporte para evitar atraso
+    document.addEventListener('click', function() {
+      if (typeof DuvidAudio !== 'undefined') DuvidAudio.inicializar();
+    }, { once: true });
+
     window.addEventListener('duvid:suporte', function (e) {
       var d = (e && e.detail) || {};
       if (supTimer) clearTimeout(supTimer);
@@ -296,15 +307,12 @@
       var btn = document.createElement('button');
       btn.id = 'jessica-sup-close'; btn.innerHTML = '&times;'; btn.onclick = hideSupport;
       var msg = document.createElement('span');
-      msg.textContent = d.msg || 'Essa parte e dificil! Continue tentando!';
+      msg.textContent = d.msg || 'Respira fundo. Você consegue!';
       supBub.appendChild(btn);
       supBub.appendChild(msg);
-      if (d.dica) {
-        var dEl = document.createElement('span'); dEl.id = 'jessica-sup-dica';
-        dEl.textContent = d.dica; supBub.appendChild(dEl);
-      }
       supEl.classList.add('sup-visible');
-      supTimer = setTimeout(hideSupport, 9000);
+      if (typeof DuvidAudio !== 'undefined') DuvidAudio.play('suporte');
+      supTimer = setTimeout(hideSupport, 7000);
     });
   }());
 

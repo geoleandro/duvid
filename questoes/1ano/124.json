@@ -19,7 +19,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Os oceanos têm características específicas que variam com a localização. O Oceano Pacífico é o maior e mais profundo; o Atlântico é o mais salgado em média; o Índico é o mais quente. As zonas pelágicas e bentônicas classificam as regiões oceânicas por profundidade e incidência de luz, condicionando a diversidade marinha de cada área.</p>",
-    "ajuda": "Os oceanos cobrem cerca de 71% da superfície terrestre e possuem características físicas distintas: temperatura (mais quente na superfície), salinidade (maior em mares fechados e zonas tropicais), pressão (aumenta com a profundidade) e correntes (superficiais e profundas)."
+    "ajuda": "Os oceanos cobrem cerca de 71% da superfície terrestre e possuem características físicas distintas: temperatura (mais quente na superfície), salinidade (maior em mares fechados e zonas tropicais), pressão (aumenta com a profundidade) e correntes (superficiais e profundas).",
+    "feedbacks": {
+      "0": "A sequencia de correspondências não é correta para os oceanos indicados. Reveja as propriedades específicas de cada oceano (temperatura, salinidade, profundidade) para identificar a associação correta com cada código da coluna.",
+      "1": "Esta sequencia não corresponde à associação correta das características de cada oceano. Os oceanos têm dados físicos distintos que devem ser relacionados corretamente a cada código indicado.",
+      "3": "Esta sequencia não corresponde à associação correta. Reveja os dados de profundidade, temperatura e salinidade de cada oceano indicado para encontrar a correspondência certa com cada código."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Uma bacia hidrográfica é uma área drenada por um rio principal e seus afluentes, delimitada pelos divisores de águas (pontos mais altos do terreno). Todas as precipitações que caem dentro da bacia convergem para o mesmo exutório (foz). O estudo das bacias é fundamental para gestão de recursos hídricos, prevenção de enchentes e planejamento ambiental.</p>",
-    "ajuda": "Uma bacia hidrográfica é a área de captação da água das chuvas que drena para um mesmo rio principal, delimitada por divisores de água (serras ou planaltos). Avalie as afirmativas sobre sua dinâmica hidrológica: tributários, foz, bacia exorreica ou endorreica."
+    "ajuda": "Uma bacia hidrográfica é a área de captação da água das chuvas que drena para um mesmo rio principal, delimitada por divisores de água (serras ou planaltos). Avalie as afirmativas sobre sua dinâmica hidrológica: tributários, foz, bacia exorreica ou endorreica.",
+    "feedbacks": {
+      "0": "A sequencia F-V-V-V-F está errada. A primeira afirmativa é VERDADEIRA: uma bacia hidrográfica é de fato formada por um rio principal que recebe afluentes, captando as águas das chuvas e das nascentes. Além disso, a quinta afirmativa também é VERDADEIRA.",
+      "1": "A sequencia V-F-F-V-F está errada. A segunda afirmativa é VERDADEIRA: a bacia é delimitada pelo relevo e os divisores de água são os pontos mais altos. A terceira também é VERDADEIRA: a foz em delta com formação de ilhas e ramos é descrita corretamente.",
+      "3": "A sequencia F-F-F-F-F está errada porque as afirmativas I, II, III e V são verdadeiras. A bacia hidrográfica é delimitada pelo relevo, a foz em delta tem ilhas fluviais, e a maior parte das grandes bacias drena para os oceanos.",
+      "4": "A sequencia V-V-V-V-V está errada porque a quarta afirmativa é FALSA. A dinâmica de escoamento e a infiltração de água ESTÃO associadas ao tipo de ocupação do solo: solos impermeabilizados aumentam o escoamento e reduzem a infiltração."
+    }
   },
   {
     "id": 3,
@@ -64,7 +75,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A água é fundamental para a vida, mas apenas 2,5% do total do planeta é doce — e a maior parte está em geleiras e aquíferos profundos de difícil acesso. A poluição por esgotos domésticos, agrotóxicos agrícolas e efluentes industriais compromete as fontes superficiais. No Brasil, embora rico em água doce, há desigualdade regional grave: a Amazônia tem 73% dos recursos hídricos, mas pouquíssima população.</p>",
-    "ajuda": "A água está distribuída de forma desigual no planeta: 97% são salgadas (oceanos e mares); dos 3% de água doce, a maior parte está congelada em geleiras; apenas 0,01% está disponível em rios e lagos para uso humano. Pense nas implicações dessa distribuição para o abastecimento."
+    "ajuda": "A água está distribuída de forma desigual no planeta: 97% são salgadas (oceanos e mares); dos 3% de água doce, a maior parte está congelada em geleiras; apenas 0,01% está disponível em rios e lagos para uso humano. Pense nas implicações dessa distribuição para o abastecimento.",
+    "feedbacks": {
+      "1": "Os desvios de água e a construção de hidrelétricas historicamente AMPLIAM os conflitos entre usuários (irrigação, abastecimento, geração de energia, pesca). A alternativa apresenta o oposto do que ocorre na prática.",
+      "2": "A geração de energia hidrelétrica tem impactos ambientais significativos: altera o regime dos rios, inunda áreas, desloca populações e fragmenta ecossistemas aquáticos. Afirmar que assegura a sustentabilidade do meio ambiente local é incorreto.",
+      "3": "O Brasil é um dos países com maior disponibilidade de água doce do planeta, detendo cerca de 12% dos recursos hídricos superficiais mundiais. Afirmar que o Brasil possui pouca quantidade de água superficial e subterrânea contraria essa realidade.",
+      "4": "A escassez hídrica no Brasil não é causada apenas pela diminuição das chuvas, mas principalmente pela má distribuição geográfica e pelo uso inadequado dos recursos. O problema é agravado pela gestão deficiente, não somente pela pluviosidade."
+    }
   },
   {
     "id": 4,
@@ -87,7 +104,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A mata ciliar protege os rios de várias formas: suas raízes consolidam as margens e impedem erosão; a sombra controla a temperatura da água; e a vegetação retarda o escoamento superficial, favorecendo a infiltração. Sem ela, a água corre mais rápido para os rios, carregando sedimentos que assoreiam o leito e reduzem a disponibilidade hídrica nos períodos secos.</p>",
-    "ajuda": "A tirinha aborda um tema relacionado ao uso ou disponibilidade de água. Identifique a mensagem central da crítica: desperdício, poluição, privatização, distribuição desigual? Avalie qual alternativa melhor expressa essa crítica."
+    "ajuda": "A tirinha aborda um tema relacionado ao uso ou disponibilidade de água. Identifique a mensagem central da crítica: desperdício, poluição, privatização, distribuição desigual? Avalie qual alternativa melhor expressa essa crítica.",
+    "feedbacks": {
+      "0": "As matas ciliares PROTEGEM os solos da erosão e mantêm as margens dos cursos d'água estabilizadas pelas raízes. Sua ausência aumenta a erosão e o assoreamento; não contribui para melhorar a qualidade da água.",
+      "1": "Pelo Código Florestal Brasileiro (Lei 12.651/2012), as matas ciliares são Áreas de Preservação PERMANENTE, não temporária. A extensão mínima varia conforme a largura do rio, mas a proteção é permanente, não temporária.",
+      "2": "As matas ciliares funcionam como corredores ecológicos que PERMITEM o deslocamento da fauna entre fragmentos de habitat, não que o impedem. A alternativa inverte a função dos corredores ecológicos.",
+      "3": "A retirada das matas ciliares é proibida pelo Código Florestal Brasileiro, mesmo em atividades agrícolas ou de urbanização. Afirmar que é permitida em casos de desenvolvimento econômico contradiz a legislação ambiental vigente."
+    }
   },
   {
     "id": 5,
@@ -110,7 +133,13 @@
     ],
     "correta": 3,
     "comentario": "<p>No ciclo hidrológico, a evaporação é maior sobre os oceanos (70% da superfície terrestre, com alta insolação e vento constante) do que sobre os continentes. A precipitação sobre os continentes excede a evaporação, e o excedente retorna aos oceanos pelos rios. A transpiração das plantas (evapotranspiração) contribui com cerca de 15% da umidade atmosférica global.</p>",
-    "ajuda": "O ciclo hidrológico envolve evaporação (maior nos oceanos), precipitação, escoamento superficial e infiltração. A evapotranspiração é maior nas florestas tropicais. Avalie cada afirmativa sobre onde e como a água se movimenta nesse ciclo."
+    "ajuda": "O ciclo hidrológico envolve evaporação (maior nos oceanos), precipitação, escoamento superficial e infiltração. A evapotranspiração é maior nas florestas tropicais. Avalie cada afirmativa sobre onde e como a água se movimenta nesse ciclo.",
+    "feedbacks": {
+      "0": "A afirmativa I é FALSA: a evaporação é maior nos oceanos, que têm maior superfície de água, menor variação de temperatura e ventos constantes. Incluir a I falsa junto com as outras torna esta alternativa incorreta.",
+      "1": "As afirmativas III e IV são corretas, mas a questão pede a opção com mais afirmativas verdadeiras. A afirmativa II (vegetação transpira) e a V (interferência humana é possível) também são verdadeiras, tornando esta resposta incompleta.",
+      "2": "A afirmativa I é FALSA (a evaporação é maior nos oceanos, não nos continentes). Mesmo que II e V sejam verdadeiras, incluir a I falsa torna esta alternativa incorreta.",
+      "4": "Todas as afirmativas estarem corretas seria errado porque a afirmativa I é FALSA. A evaporação é maior nos oceanos do que nos continentes, pois os oceanos têm enorme superfície de água livre exposta à radiação solar."
+    }
   },
   {
     "id": 6,
@@ -132,7 +161,12 @@
     ],
     "correta": 0,
     "comentario": "<p>As correntes marítimas são movimentos horizontais de água oceânica gerados pela força dos ventos, pela diferença de densidade (temperatura e salinidade) e pela rotação da Terra (efeito Coriolis). Correntes quentes como a do Golfo aqueceu Europa Ocidental; correntes frias como a de Humboldt criaram o Atacama. São transportadoras de calor fundamentais para o sistema climático global.</p>",
-    "ajuda": "As correntes marítimas são deslocamentos contínuos de grandes volumes de água oceânica. Elas podem ser superficiais (movidas pelos ventos) ou profundas (movidas por diferenças de temperatura e salinidade — circulação termohalina). Identifique qual tipo é descrito."
+    "ajuda": "As correntes marítimas são deslocamentos contínuos de grandes volumes de água oceânica. Elas podem ser superficiais (movidas pelos ventos) ou profundas (movidas por diferenças de temperatura e salinidade — circulação termohalina). Identifique qual tipo é descrito.",
+    "feedbacks": {
+      "1": "A alternativa descreve as massas de ar, que são grandes porções de ar com características homogêneas de temperatura e umidade. As correntes marítimas são movimentos de água, não de ar.",
+      "2": "A descrição corresponde à capacidade calorífica dos oceanos (maritimidade), não às correntes marítimas. As correntes marítimas são movimentos horizontais contínuos de água oceânica, não a propriedade do oceano de conservar calor.",
+      "3": "A alternativa descreve o El Niño, que é o aquecimento anormal das águas do Pacífico Equatorial. As correntes marítimas são movimentos permanentes e contínuos de água oceânica, distintos de fenômenos episódicos de aquecimento."
+    }
   },
   {
     "id": 7,
@@ -156,7 +190,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Os oceanos regulam o clima global por duas razões principais: sua enorme capacidade de absorver e liberar calor lentamente atenua as variações de temperatura nas costas; e as correntes oceânicas redistribuem calor dos trópicos em direção aos polos. Sem os oceanos, a variação climática seria muito mais extrema, com verões mais quentes e invernos mais frios.</p>",
-    "ajuda": "Os oceanos influenciam o clima por meio de sua alta capacidade calorífica (amenizando temperaturas), da evaporação que alimenta as chuvas e das correntes que redistribuem calor pelo planeta. Avalie quais das afirmativas descrevem corretamente essa influência."
+    "ajuda": "Os oceanos influenciam o clima por meio de sua alta capacidade calorífica (amenizando temperaturas), da evaporação que alimenta as chuvas e das correntes que redistribuem calor pelo planeta. Avalie quais das afirmativas descrevem corretamente essa influência.",
+    "feedbacks": {
+      "0": "A afirmativa I está correta, mas não é a única verdadeira. A afirmativa III também é verdadeira: os oceanos contêm a amplitude térmica nas regiões litorâneas pela alta capacidade calorífica da água e aumento da umidade. Escolher apenas I é incompleto.",
+      "1": "A afirmativa II é FALSA: os oceanos não mantêm temperaturas baixas durante todo o ano em todas as regiões costeiras. Correntes quentes (como a Corrente do Brasil) aquecem as costas. Não é uma influência geral dos oceanos manter 'baixas temperaturas'.",
+      "2": "A afirmativa II é falsa (os oceanos não mantêm obrigatoriamente baixas temperaturas em todas as costas). Combinar a verdadeira I com a falsa II torna esta alternativa incorreta.",
+      "4": "A afirmativa II é falsa: os oceanos não mantêm temperaturas baixas o ano todo em todas as regiões costeiras. Combinar a falsa II com a verdadeira III torna esta alternativa incorreta."
+    }
   },
   {
     "id": 8,
@@ -178,7 +218,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O divisor de águas é a linha topográfica (cumeada, espigão) que separa duas bacias hidrográficas distintas. Toda a precipitação que cai de um lado do divisor escoa para uma bacia; do outro lado, para outra. Não é um rio — ao contrário, é a fronteira entre bacias. A Serra do Mar divide as bacias que drenam para o interior do Brasil das que drenam para o litoral.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre hidrografia. Pense nos conceitos básicos: rio é um curso d'água natural; bacia hidrográfica é a área de drenagem; divisor de águas é o limite entre bacias; afluente drena para o rio principal; foz é onde o rio deságua."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre hidrografia. Pense nos conceitos básicos: rio é um curso d'água natural; bacia hidrográfica é a área de drenagem; divisor de águas é o limite entre bacias; afluente drena para o rio principal; foz é onde o rio deságua.",
+    "feedbacks": {
+      "0": "A questão pede a alternativa INCORRETA sobre hidrografia. A definição de 'regime' como variação da quantidade de água no leito de um rio ao longo do ano é CORRETA. Esta alternativa descreve adequadamente o conceito de regime hidrológico.",
+      "1": "A questão pede a alternativa INCORRETA. A foz em delta é corretamente descrita: ocorre quando o rio deposita sedimentos no final de seu curso, formando ilhas e ramos fluviais. Esta alternativa está correta e não deve ser marcada.",
+      "2": "A questão pede a alternativa INCORRETA. A rede de drenagem é de fato importante para a prática da irrigação agrícola. Esta alternativa descreve uma relação correta entre hidrografia e uso da água.",
+      "4": "A questão pede a alternativa INCORRETA. A afirmativa de que todos os rios brasileiros, exceto o Amazonas, têm regime pluvial é aceita no ensino médio. O Amazonas tem regime misto (pluvial e nival dos Andes). Esta alternativa não é a incorreta."
+    }
   },
   {
     "id": 9,
@@ -200,7 +246,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A infiltração da água no solo é um processo que depende da textura do solo (areia permite mais que argila), da cobertura vegetal (raízes criam canais) e do estado de saturação (solo seco infiltra mais). Em superfície, a taxa de infiltração tende a ser maior quando o solo ainda está seco; à medida que satura, a taxa diminui — o contrário do que afirma a alternativa incorreta.</p>",
-    "ajuda": "A água é fundamental para o desenvolvimento das sociedades e das atividades econômicas. Sua distribuição desigual pelo planeta cria zonas de abundância e escassez. Avalie as alternativas considerando os fatores naturais (clima, relevo, hidrografia) e humanos que determinam essa distribuição."
+    "ajuda": "A água é fundamental para o desenvolvimento das sociedades e das atividades econômicas. Sua distribuição desigual pelo planeta cria zonas de abundância e escassez. Avalie as alternativas considerando os fatores naturais (clima, relevo, hidrografia) e humanos que determinam essa distribuição.",
+    "feedbacks": {
+      "0": "A questão pede a alternativa INCORRETA sobre hidrologia. A afirmativa sobre o papel da água como agente modelador do relevo (erosão, intemperismo) é CORRETA. A água age de fato no comportamento mecânico dos solos e das rochas.",
+      "1": "A questão pede a alternativa INCORRETA. A afirmativa sobre a redistribuição da água precipitada em escoamento e infiltração é CORRETA como descrição geral do ciclo hidrológico. A água que não evapora ou não é interceptada realmente escoa ou se infiltra.",
+      "3": "A questão pede a alternativa INCORRETA. A afirmativa de que a infiltração é controlada pela natureza do solo, sua textura e estrutura é CORRETA e bem documentada em pedologia. Os solos efetivamente determinam a capacidade de infiltração.",
+      "4": "A questão pede a alternativa INCORRETA. A afirmativa sobre o intemperismo físico e biológico nas rochas próximas à superfície e a formação de mantos de alteração é CORRETA e amplamente documentada em geomorfologia."
+    }
   },
   {
     "id": 10,
@@ -223,6 +275,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O ciclo hidrológico é o circuito fechado da água na Terra: evaporação dos oceanos → condensação em nuvens → precipitação → escoamento superficial e infiltração → rios → oceanos (ou evapotranspiração → retorno ao ciclo). A energia solar e a gravidade são os motores do processo. O ciclo distribui água doce pelo planeta e sustenta toda a vida terrestre.</p>",
-    "ajuda": "O fenômeno representado na figura provavelmente é o ciclo hidrológico, uma bacia hidrográfica, correntes marítimas ou algum outro processo relacionado à água. Identifique os elementos do esquema (evaporação, precipitação, escoamento) e associe à alternativa correta."
+    "ajuda": "O fenômeno representado na figura provavelmente é o ciclo hidrológico, uma bacia hidrográfica, correntes marítimas ou algum outro processo relacionado à água. Identifique os elementos do esquema (evaporação, precipitação, escoamento) e associe à alternativa correta.",
+    "feedbacks": {
+      "0": "A formação de chuvas frontais envolve a interação de dois sistemas de massas de ar distintos, representada por frentes no mapa. A figura provavelmente mostra o movimento cíclico da água entre superfície e atmosfera, com evaporação, condensação e precipitação, que é o ciclo hidrológico.",
+      "1": "A invasão do mar sobre áreas continentais (transgressão marinha) seria representada por setas horizontais do oceano para a terra, não por um ciclo de movimentos verticais e de retorno. A figura representa o processo circular do ciclo hidrológico.",
+      "3": "A evapotranspiração potencial é a taxa máxima de perda de água pela superfície para a atmosfera. Embora seja parte do ciclo hidrológico, a figura provavelmente representa o ciclo completo (evaporação, condensação, precipitação, infiltração), não somente uma taxa.",
+      "4": "O regime de chuvas das áreas semiáridas é representado por gráficos de distribuição temporal de precipitação, não por um esquema de movimentos cíclicos da água. A figura representa o ciclo hidrológico completo."
+    }
   }
 ]

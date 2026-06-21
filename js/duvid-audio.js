@@ -6,7 +6,8 @@ const AUDIO_PATHS = {
     dica: ['/audios/dica.mp3'],     // << ao abrir a dica do professor
     finalBom: '/audios/notaFinal.mp3',
     finalRuim: '/audios/notaFinal2.mp3',
-    inicio: '/audios/inicioNome.mp3'
+    inicio: '/audios/inicioNome.mp3',
+    suporte: ['/audios/suporte.mp3']
 };
 
 // --- 2. MOTOR DE ÁUDIO ---
