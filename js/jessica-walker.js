@@ -68,7 +68,7 @@
     walker.appendChild(sprite);
     root.appendChild(walker);
 
-    function openGame(e) { e.preventDefault(); window.open(c.gamePath || '/jogo/index.html', '_blank'); }
+    function openGame(e) { e.preventDefault(); if (c.onClick) { c.onClick(e); } else { window.open(c.gamePath || '/jogo/index.html', '_blank'); } }
     walker.addEventListener('click',    openGame);
     walker.addEventListener('touchend', openGame, { passive: false });
 
@@ -181,18 +181,44 @@
 
     gapTimer = setTimeout(beginWalk, c.walkDelay || 4000);
 
+    function showText(text, duration) {
+      if (!bubble) return;
+      if (bubble._hideTimer) clearTimeout(bubble._hideTimer);
+      bubble.textContent = text;
+      bubble.classList.add('show');
+      bubble._hideTimer = setTimeout(function() { bubble.classList.remove('show'); }, duration || 3000);
+    }
+
     return {
-      forceWalk: beginWalk,
-      stop: function () { clearTimeout(gapTimer); cancelAnimationFrame(rafId); }
+      forceWalk:  beginWalk,
+      stop:       function () { clearTimeout(gapTimer); cancelAnimationFrame(rafId); },
+      showText:   showText,
+      getEl:      function () { return walker; }
     };
+  }
+
+  // ── Fundo / Diorama ────────────────────────────────────────────────────────
+  if (isHome) {
+    var fundoStyle = document.createElement('style');
+    fundoStyle.textContent = '#duvid-fundo{display:block;width:100%;line-height:0;pointer-events:none;}#duvid-fundo img{width:100%;height:auto;display:block;}';
+    document.head.appendChild(fundoStyle);
+    var fundoEl = document.createElement('div'); fundoEl.id = 'duvid-fundo';
+    var fundoImg = document.createElement('img'); fundoImg.src = '/fotoIndex/tileset/fundo.webp'; fundoImg.alt = '';
+    fundoEl.appendChild(fundoImg);
+    var footer = document.querySelector('footer');
+    if (footer) footer.parentNode.insertBefore(fundoEl, footer);
+    else document.body.appendChild(fundoEl);
   }
 
   // ── Personagens ────────────────────────────────────────────────────────────
 
-  if (isHome) createWalker({
+  var wJessica  = null;
+  var wGlobinho = null;
+
+  if (isHome) wJessica = createWalker({
     id:        'jessica',
     sheet:     '/fotoIndex/jessica/jessica-spritesheet.png',
-    sheetCols: 8,  sheetRows: 3,
+    sheetCols: 8,  sheetRows: 2,
     frameW:    128, frameH: 128,
     walkRow:   0,  walkCols: 6,  walkFps: 12,
     idleRow:   1,  idleCols: 2,  idleFps: 4,
@@ -200,7 +226,8 @@
     flipIdle:  false,
     direction: 'left',
     speedPx:   45,
-    heightDt:  160, heightMob: 100,
+    heightDt:  100, heightMob: 70,
+    bottom:    '45px',
     pauseProb: 0.20,
     walkDelay: 4000,  gapMin: 15000, gapMax: 30000,
     bubbles:   true,
@@ -208,9 +235,9 @@
     zIndex:    500
   });
 
-  var HOME_PATHS = ['/', '/home.php', '/home.html'];
+  var HOME_PATHS2 = ['/', '/home.php', '/home.html'];
   if (isHome) {
-    createWalker({
+    wGlobinho = createWalker({
       id:        'globinho',
       sheet:     '/fotoIndex/globinho/globinho-walk.png',
       sheetCols: 8,  sheetRows: 2,
@@ -222,10 +249,48 @@
       speedPx:   55,
       heightDt:  80,  heightMob: 56,
       bottom:    '45px',
-      pauseProb: 0.15,
-      walkDelay: 22000, gapMin: 25000, gapMax: 50000,
-      zIndex:    499
+      pauseProb: 0.90,
+      walkDelay: 3000, gapMin: 5000, gapMax: 8000,
+      zIndex:    499,
+      bubbles:   true,
+      texts:     ['Vamos trabalhar juntos?', 'Contribua com o Duvid!', 'Tem uma ideia? Me conta!'],
+      onClick:   function() { abrirModalMural(); }
     });
+  }
+
+  // ── Detector de encontro Globinho × Jéssica ───────────────────────────────
+  if (isHome && wJessica && wGlobinho) {
+    var encontroCooldown = false;
+    var ENCONTRO_FRASES = [
+      { globinho: 'E aí, Jéssica!', jessica: 'Oi, Globinho! 🌍' },
+      { globinho: 'Bora estudar?',             jessica: 'Topa! Aventura Geográfica!' },
+      { globinho: 'Que saudade!',              jessica: 'Eu sabia que te encontrava aqui!' },
+      { globinho: 'Vai uma questão?',     jessica: 'Aceito o desafio!' }
+    ];
+    var encontroIdx = 0;
+    setInterval(function () {
+      if (encontroCooldown) return;
+      var elG = wGlobinho.getEl();
+      var elJ = wJessica.getEl();
+      if (!elG || !elJ) return;
+      if (elG.style.display === 'none' || elJ.style.display === 'none') return;
+      var rG = elG.getBoundingClientRect();
+      var rJ = elJ.getBoundingClientRect();
+      // Só conta se ambos estão visualmente dentro do viewport
+      var onScreenG = rG.right > 0 && rG.left < window.innerWidth;
+      var onScreenJ = rJ.right > 0 && rJ.left < window.innerWidth;
+      if (!onScreenG || !onScreenJ) return;
+      var centerG = rG.left + rG.width / 2;
+      var centerJ = rJ.left + rJ.width / 2;
+      if (Math.abs(centerG - centerJ) < 120) {
+        encontroCooldown = true;
+        var par = ENCONTRO_FRASES[encontroIdx % ENCONTRO_FRASES.length];
+        encontroIdx++;
+        wGlobinho.showText(par.globinho, 3500);
+        setTimeout(function () { wJessica.showText(par.jessica, 3000); }, 400);
+        setTimeout(function () { encontroCooldown = false; }, 30000);
+      }
+    }, 300);
   }
 
   // ── Personagem de Suporte (estilo Duolingo) ────────────────────────────────
@@ -319,6 +384,123 @@
   function hideSupport() {
     if (supTimer) { clearTimeout(supTimer); supTimer = null; }
     if (supEl) supEl.classList.remove('sup-visible');
+  }
+
+  // ── Modal Mural Colaborativo ───────────────────────────────────────────────
+  (function initMural() {
+    if (!isHome) return;
+    var css = [
+      '#mural-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:700;align-items:center;justify-content:center;}',
+      '#mural-overlay.aberto{display:flex;}',
+      '#mural-modal{background:#fff;border-radius:16px;padding:28px 24px;max-width:480px;width:90%;max-height:90vh;overflow-y:auto;position:relative;font-family:sans-serif;}',
+      '#mural-modal h2{margin:0 0 6px;font-size:1.3rem;color:#2e7d32;}',
+      '#mural-modal p.sub{margin:0 0 20px;color:#666;font-size:0.9rem;}',
+      '.mural-opcoes{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px;}',
+      '.mural-card{border:2px solid #e0e0e0;border-radius:12px;padding:14px 10px;text-align:center;cursor:pointer;transition:border-color 0.2s,background 0.2s;}',
+      '.mural-card:hover,.mural-card.ativo{border-color:#2e7d32;background:#f1f8f1;}',
+      '.mural-card span.ic{font-size:1.8rem;display:block;margin-bottom:6px;}',
+      '.mural-card span.label{font-size:0.82rem;font-weight:600;color:#333;}',
+      '#mural-form{display:none;}#mural-form.visivel{display:block;}',
+      '#mural-form textarea{width:100%;box-sizing:border-box;border:2px solid #ccc;border-radius:8px;padding:10px;font-size:0.9rem;resize:vertical;min-height:100px;margin-bottom:12px;}',
+      '#mural-form textarea:focus{border-color:#2e7d32;outline:none;}',
+      '#mural-enviar{background:#2e7d32;color:#fff;border:none;border-radius:8px;padding:10px 24px;font-size:0.95rem;font-weight:bold;cursor:pointer;width:100%;}',
+      '#mural-enviar:hover{background:#1b5e20;}',
+      '#mural-status{display:none;padding:10px;border-radius:8px;text-align:center;margin-top:10px;font-size:0.9rem;}',
+      '#mural-fechar{position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#999;}',
+      'body.dark-mode #mural-modal{background:#1a2035;color:#e0e0e0;}',
+      'body.dark-mode .mural-card{border-color:#444;color:#e0e0e0;}',
+      'body.dark-mode .mural-card.ativo{background:#1e3a2f;}'
+    ].join('');
+    var s = document.createElement('style'); s.textContent = css;
+    document.head.appendChild(s);
+
+    var opcoes = [
+      { ic: '\u{1F4DD}', label: 'Enviar uma quest\u00E3o', tipo: 'questao', placeholder: 'Cole ou escreva a quest\u00E3o aqui...' },
+      { ic: '\u{1F4C4}', label: 'Enviar um texto',          tipo: 'texto',   placeholder: 'Compartilhe um texto sobre Geografia...' },
+      { ic: '\u{1F3A8}', label: 'Pixel art tem\u00E1tica', tipo: 'pixelart',placeholder: 'Descreva o tema da sua pixel art...' },
+      { ic: '\u{1F4A1}', label: 'Sugest\u00E3o',           tipo: 'sugestao',placeholder: 'Qual funcionalidade voc\u00EA gostaria de ver?' }
+    ];
+
+    var overlay = document.createElement('div'); overlay.id = 'mural-overlay';
+    var modal   = document.createElement('div'); modal.id   = 'mural-modal';
+    modal.innerHTML = '<button id="mural-fechar">&times;</button><h2>\uD83C\uDF0D Mural Duvid</h2><p class="sub">Contribua com o Globinho! Escolha o que quer enviar:</p>';
+
+    var grid = document.createElement('div'); grid.className = 'mural-opcoes';
+    var tipoAtivo = '';
+    opcoes.forEach(function(op) {
+      var card = document.createElement('div'); card.className = 'mural-card';
+      card.innerHTML = '<span class="ic">' + op.ic + '</span><span class="label">' + op.label + '</span>';
+      card.addEventListener('click', function() {
+        document.querySelectorAll('.mural-card').forEach(function(c){ c.classList.remove('ativo'); });
+        card.classList.add('ativo');
+        tipoAtivo = op.tipo;
+        formEl.querySelector('textarea').placeholder = op.placeholder;
+        formEl.classList.add('visivel');
+        statusEl.style.display = 'none';
+      });
+      grid.appendChild(card);
+    });
+
+    var formEl = document.createElement('div'); formEl.id = 'mural-form';
+    formEl.innerHTML = '<textarea id="mural-texto" rows="4"></textarea><button id="mural-enviar">Enviar contribui\u00E7\u00E3o</button><div id="mural-status"></div>';
+    var statusEl = formEl.querySelector('#mural-status');
+    modal.appendChild(grid); modal.appendChild(formEl);
+    overlay.appendChild(modal); document.body.appendChild(overlay);
+
+    document.getElementById('mural-fechar').onclick = fecharMural;
+    overlay.addEventListener('click', function(e){ if (e.target === overlay) fecharMural(); });
+    document.getElementById('mural-enviar').addEventListener('click', function() {
+      var texto = document.getElementById('mural-texto').value.trim();
+      if (!texto || !tipoAtivo) return;
+      var btn = document.getElementById('mural-enviar');
+      btn.disabled = true; btn.textContent = 'Enviando...';
+      fetch('/api/mural.php', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ tipo: tipoAtivo, conteudo: texto }) })
+      .then(function(r){
+        if (r.status === 401 || r.status === 403) throw { auth: true };
+        return r.json();
+      })
+      .then(function(d){
+        statusEl.style.display = 'block';
+        if (d.ok) {
+          statusEl.style.cssText = 'display:block;background:#e8f5e9;color:#2e7d32;';
+          statusEl.textContent = '\u2705 Enviado! Obrigado pela contribui\u00E7\u00E3o!';
+          document.getElementById('mural-texto').value = '';
+          setTimeout(fecharMural, 2500);
+        } else {
+          statusEl.style.cssText = 'display:block;background:#ffebee;color:#c62828;';
+          statusEl.textContent = '\u274C ' + (d.erro || 'Tente novamente.');
+        }
+        btn.disabled = false; btn.textContent = 'Enviar contribui\u00E7\u00E3o';
+      })
+      .catch(function(err){
+        statusEl.style.display = 'block';
+        if (err && err.auth) {
+          statusEl.style.cssText = 'display:block;background:#fff3e0;color:#e65100;';
+          statusEl.textContent = '\uD83D\uDD12 Voc\u00EA precisa estar logado para contribuir.';
+        } else {
+          statusEl.style.cssText = 'display:block;background:#ffebee;color:#c62828;';
+          statusEl.textContent = '\u274C Erro de conex\u00E3o.';
+        }
+        btn.disabled = false; btn.textContent = 'Enviar contribui\u00E7\u00E3o';
+      });
+    });
+  }());
+
+  function abrirModalMural() {
+    var el = document.getElementById('mural-overlay');
+    if (el) el.classList.add('aberto');
+  }
+  function abrirModalMural() {
+    var el = document.getElementById('mural-overlay');
+    if (el) el.classList.add('aberto');
+  }
+  function fecharMural() {
+    var el = document.getElementById('mural-overlay');
+    if (el) {
+      el.classList.remove('aberto');
+      document.querySelectorAll('.mural-card').forEach(function(c){ c.classList.remove('ativo'); });
+      var f = document.getElementById('mural-form'); if (f) f.classList.remove('visivel');
+    }
   }
 
 })();
