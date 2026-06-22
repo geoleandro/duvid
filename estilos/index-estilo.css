@@ -507,3 +507,5 @@ body.dark-mode #frase {
     }
 
 }
+/* Animação global usada nos modais injetados via JS */
+@keyframes zoomIn { from { transform:scale(.85); opacity:0 } to { transform:scale(1); opacity:1 } }

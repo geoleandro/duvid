@@ -81,10 +81,12 @@ function jsonResponse(array $dados, int $status = 200): void {
 // Chame no topo de qualquer endpoint que exija login de aluno.
 // Em caso de sessão inválida, encerra com HTTP 401.
 function requireAuth(): int {
-    ini_set('session.cookie_httponly', 1);
-    ini_set('session.cookie_samesite', 'Strict');
-    ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1'); // HTTPS only em produção
     if (session_status() === PHP_SESSION_NONE) {
+        // Só configura o cookie se a sessão ainda não foi iniciada
+        ini_set('session.cookie_httponly', 1);
+        ini_set('session.cookie_samesite', IS_LOCAL ? 'Strict' : 'Lax');
+        ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1');
+        ini_set('session.cookie_domain', IS_LOCAL ? '' : '.duvid.com.br');
         session_start();
     }
     $id = (int)($_SESSION['aluno_id'] ?? 0);
@@ -97,10 +99,11 @@ function requireAuth(): int {
 // Helper: inicia sessão segura sem exigir autenticação.
 // Use em aluno.php para iniciar/gravar a sessão no login/cadastro.
 function startSecureSession(): void {
-    ini_set('session.cookie_httponly', 1);
-    ini_set('session.cookie_samesite', 'Strict');
-    ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1'); // HTTPS only em produção
     if (session_status() === PHP_SESSION_NONE) {
+        ini_set('session.cookie_httponly', 1);
+        ini_set('session.cookie_samesite', IS_LOCAL ? 'Strict' : 'Lax');
+        ini_set('session.cookie_secure', IS_LOCAL ? '0' : '1');
+        ini_set('session.cookie_domain', IS_LOCAL ? '' : '.duvid.com.br');
         session_start();
     }
 }

@@ -286,9 +286,10 @@
         <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
 
             <?php if ($loginRequired): ?>
-            <div class="w3-panel w3-yellow w3-round-large w3-card-2" style="padding:14px 20px; display:flex; align-items:center; gap:12px;">
+            <div id="banner-login-required" class="w3-panel w3-yellow w3-round-large w3-card-2"
+                 style="padding:14px 20px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
                 <i class="fa fa-lock w3-large"></i>
-                <span>Você precisa estar logado para acessar essa página. Faça login abaixo. 👇</span>
+                <span id="banner-login-texto">Você precisa estar logado para acessar essa página. Faça login abaixo. 👇</span>
             </div>
             <?php endif; ?>
 
@@ -782,11 +783,22 @@
 
         try {
             const resp = await fetch('/api/aluno.php', {
-                method: 'PATCH',
+                method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ id, pin, nome, estado, cidade, escola }),
+                body: JSON.stringify({ acao: 'editar_perfil', id, pin, nome, estado, cidade, escola }),
             });
-            const dados = await resp.json();
+            let dados;
+            try {
+                dados = await resp.json();
+            } catch(_) {
+                // Resposta não é JSON — servidor retornou HTML de erro
+                const texto = await resp.text().catch(() => '');
+                console.error('[editar_perfil] resposta não-JSON (HTTP ' + resp.status + '):', texto.substring(0, 300));
+                mostrarEpErro('Erro ' + resp.status + ' do servidor. Veja o console para detalhes.');
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fa fa-check"></i> Salvar alterações';
+                return;
+            }
 
             if (dados.erro) {
                 mostrarEpErro(dados.erro);
@@ -869,6 +881,20 @@
             if (typeof carregarFrase === "function") {
                 carregarFrase();
                 setInterval(carregarFrase, 10000);
+            }
+
+            // Atualiza o banner de login_required: se temos o nome no localStorage,
+            // a sessão expirou — personaliza a mensagem imediatamente, sem esperar API
+            const banner = document.getElementById('banner-login-required');
+            if (banner) {
+                const nome = localStorage.getItem('duvid_nome') || '';
+                if (nome) {
+                    document.getElementById('banner-login-texto').innerHTML =
+                        'Sua sessão expirou, <b>' + nome.toUpperCase() + '</b>. ' +
+                        '<button onclick="_mostrarRelogin(null)" style="margin-left:8px;padding:4px 14px;' +
+                        'border-radius:6px;border:none;background:#2e7d32;color:#fff;cursor:pointer;font-weight:700">' +
+                        '🔑 Entrar novamente</button>';
+                }
             }
         });
     </script>

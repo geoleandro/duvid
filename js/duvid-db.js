@@ -21,7 +21,7 @@ const API_BASE = '/api';
 // =============================================================
 const DuvidDB = {
 
-    _cache: { globinhos: null, conclusoes: null, alunoId: null },
+    _cache: { globinhos: null, conclusoes: null, alunoId: null, sessaoAtiva: false },
 
     // Nº de gravações (globinhos.php / progresso.php) ainda esperando resposta.
     _pendentes: 0,
@@ -115,7 +115,8 @@ const DuvidDB = {
         return this._post('aluno.php', payload)
             .then(function(dados) {
                 if (!dados || !dados.id) return dados;
-                DuvidDB._cache.alunoId = dados.id;
+                DuvidDB._cache.alunoId    = dados.id;
+                DuvidDB._cache.sessaoAtiva = true; // login bem-sucedido = sessão ativa
                 localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
                 // Persiste localização para preencher modal de edição depois
                 localStorage.setItem(ESTADO_CHAVE, dados.estado || '');
@@ -285,7 +286,8 @@ const DuvidDB = {
     // ==========================================================
     // Aplica resposta do banco ao cache local
     _aplicarDadosBanco: function (dados) {
-        DuvidDB._cache.alunoId = dados.id;
+        DuvidDB._cache.alunoId    = dados.id;
+        DuvidDB._cache.sessaoAtiva = dados.sessao_ativa === true;
         localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
         DuvidDB._cache.globinhos = dados.globinhos;
         DuvidDB._cache.conclusoes = {};
@@ -295,6 +297,11 @@ const DuvidDB = {
             });
         }
         if (typeof atualizarInterface === "function") atualizarInterface();
+    },
+
+    // Retorna true se o aluno tem sessão PHP ativa no servidor
+    temSessao: function () {
+        return DuvidDB._cache.sessaoAtiva === true;
     },
 
     sincronizarComBanco: function () {

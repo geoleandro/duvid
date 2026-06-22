@@ -262,6 +262,12 @@ function NomeAlunos(respid, inputid) {
 
 
 function prepararTrocaNome() {
+    // Se não tem sessão PHP ativa, mostra prompt de re-login em vez do editor
+    if (typeof DuvidDB !== 'undefined' && !DuvidDB.temSessao()) {
+        _mostrarRelogin(prepararTrocaNome); // após login, reabre esta função
+        return;
+    }
+
     // Tenta abrir o modal de edição de perfil (definido em home.php)
     const modal = document.getElementById('modal-editar-perfil');
     if (modal) {
@@ -290,6 +296,102 @@ function prepararTrocaNome() {
     }
 }
 
+
+// Exibe mini-modal pedindo PIN para restaurar a sessão PHP sem re-cadastro
+// callback: função a chamar após login bem-sucedido (null = só fecha o modal)
+function _mostrarRelogin(callback) {
+    // Remove qualquer relogin anterior
+    const antigo = document.getElementById('modal-relogin');
+    if (antigo) antigo.remove();
+    window._reloginCallback = callback || null;
+
+    const nome = DuvidDB.getNome() || '';
+    const div = document.createElement('div');
+    div.id = 'modal-relogin';
+    div.onclick = function(e) { if (e.target === div) div.remove(); };
+    div.style.cssText = 'position:fixed;inset:0;z-index:10000;background:rgba(0,0,0,.55);' +
+        'backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center';
+
+    div.innerHTML = `
+        <div style="background:#fff;border-radius:16px;padding:32px 24px;
+                    width:min(380px,92vw);box-shadow:0 8px 40px rgba(0,0,0,.25);
+                    text-align:center;position:relative;animation:zoomIn .2s ease">
+            <button onclick="document.getElementById('modal-relogin').remove()"
+                style="position:absolute;top:12px;right:14px;background:none;
+                border:none;font-size:22px;cursor:pointer;color:#999">&times;</button>
+            <img src="/fotoIndex/globinhoPe.png" width="60" style="margin-bottom:8px">
+            <h3 style="margin:0 0 4px;font-size:1.1rem">Olá de volta, <b>${nome.toUpperCase()}</b>!</h3>
+            <p style="font-size:.85rem;color:#666;margin:0 0 20px">
+                Sua sessão expirou. Digite seu PIN para continuar.
+            </p>
+            <input id="rl-pin" type="password" inputmode="numeric" maxlength="4"
+                placeholder="PIN (4 dígitos)"
+                style="width:100%;padding:11px;border:1px solid #ddd;border-radius:8px;
+                font-size:1.1rem;text-align:center;letter-spacing:6px;box-sizing:border-box;margin-bottom:8px">
+            <div id="rl-erro" style="color:#e53935;font-size:.82rem;min-height:18px;margin-bottom:8px"></div>
+            <button id="rl-btn" onclick="_executarRelogin()"
+                style="width:100%;padding:12px;background:#2e7d32;color:#fff;
+                border:none;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer">
+                Entrar
+            </button>
+        </div>`;
+
+    document.body.appendChild(div);
+    setTimeout(() => document.getElementById('rl-pin')?.focus(), 80);
+
+    // Enter no PIN aciona o botão
+    div.querySelector('#rl-pin').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') _executarRelogin();
+    });
+}
+
+async function _executarRelogin() {
+    const pin  = (document.getElementById('rl-pin')?.value || '').trim();
+    const nome = DuvidDB.getNome() || '';
+    const erro = document.getElementById('rl-erro');
+    const btn  = document.getElementById('rl-btn');
+
+    if (!pin || pin.length !== 4) { erro.textContent = 'Digite os 4 dígitos do PIN.'; return; }
+
+    btn.disabled = true;
+    btn.textContent = 'Entrando…';
+    erro.textContent = '';
+
+    try {
+        const resp = await fetch('/api/aluno.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ nome, pin }),
+        });
+        const dados = await resp.json();
+
+        if (dados.erro) {
+            erro.textContent = dados.erro;
+            btn.disabled = false;
+            btn.textContent = 'Entrar';
+            return;
+        }
+
+        // Sessão restaurada — atualiza cache e fecha o modal
+        DuvidDB._cache.sessaoAtiva = true;
+        if (typeof DuvidDB.atualizarCache === 'function') DuvidDB.atualizarCache(dados);
+        document.getElementById('modal-relogin')?.remove();
+
+        // Esconde o banner de sessão expirada se existir
+        const banner = document.getElementById('banner-login-required');
+        if (banner) banner.style.display = 'none';
+
+        // Executa callback (ex: abrir modal de edição) ou apenas fecha
+        if (typeof window._reloginCallback === 'function') {
+            window._reloginCallback();
+        }
+
+    } catch(e) {
+        erro.textContent = 'Falha na conexão. Tente novamente.';
+        btn.disabled = false;
+        btn.textContent = 'Entrar';
+    }
+}
 
 // DEPOIS: fetch só na primeira vez
 async function carregarFrase() {

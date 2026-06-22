@@ -7,11 +7,17 @@
 //       (antes de qualquer output HTML)
 // =============================================================
 
+// Detecta ambiente (mesmo critério do conexao.php)
+$_authIsLocal = in_array($_SERVER['SERVER_NAME'] ?? 'localhost', ['localhost', '127.0.0.1', '::1']);
+
 ini_set('session.cookie_httponly', 1);
-ini_set('session.cookie_samesite', 'Strict');
+ini_set('session.cookie_samesite', $_authIsLocal ? 'Strict' : 'Lax');
+ini_set('session.cookie_secure', $_authIsLocal ? '0' : '1');
+ini_set('session.cookie_domain', $_authIsLocal ? '' : '.duvid.com.br'); // aceita www e sem www
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+unset($_authIsLocal);
 
 if (empty($_SESSION['aluno_id'])) {
     header('Location: /home.php?login_required=1');

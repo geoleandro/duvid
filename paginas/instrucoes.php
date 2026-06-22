@@ -166,44 +166,12 @@
 				<p class="w3-small">Vai emprestar o computador para outro aluno? Saia da sua conta. Seu progresso
 					fica salvo e volta quando você entrar de novo com seu nome e PIN.</p>
 
-				<button onclick="document.getElementById('modalReset').style.display='block'"
+				<button onclick="document.getElementById('modalReset').classList.add('aberto')"
 					class="w3-button w3-white w3-border w3-border-red w3-round-large w3-hover-red w3-text-red">
 					<i class="fa fa-sign-out-alt"></i> Sair / Trocar de conta
 				</button>
 			</div>
 
-			<div id="modalReset" class="w3-modal">
-				<div class="w3-modal-content w3-card-4 w3-animate-zoom w3-round-large"
-					style="max-width:400px; margin-top: 80px; margin-bottom: 50px;">
-
-					<div class="w3-container w3-center w3-padding-32">
-						<span onclick="document.getElementById('modalReset').style.display='none'"
-							class="w3-button w3-display-topright w3-round-large">&times;</span>
-
-						<h3 class="fontePixel w3-text-red">Sair da conta</h3>
-						<p id="msgPersonalizada">Deseja sair desta conta neste aparelho?</p>
-						<p class="w3-small w3-text-grey">Seu progresso continua salvo. É só entrar de novo com seu
-							nome e PIN para recuperar tudo.</p>
-
-						<img src="/fotoIndex/globinhoPe.png" width="100" class="w3-animate-bottom">
-						<br><br>
-
-						<div class="w3-row-padding">
-							<div class="w3-half w3-margin-bottom">
-								<button class="w3-button w3-red w3-round w3-block" onclick="executarReset()">
-									Sim, Sair
-								</button>
-							</div>
-							<div class="w3-half">
-								<button class="w3-button w3-light-grey w3-round w3-block"
-									onclick="document.getElementById('modalReset').style.display='none'">
-									Cancelar
-								</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 
 
 
@@ -214,6 +182,46 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- Modal Sair — fora de qualquer card para o overlay cobrir a tela toda -->
+	<div id="modalReset" onclick="if(event.target===this)this.classList.remove('aberto')" style="
+		display:none; position:fixed; inset:0; z-index:9999;
+		background:rgba(0,0,0,.55); backdrop-filter:blur(3px);
+		align-items:center; justify-content:center;">
+		<div style="
+			background:#fff; border-radius:16px; max-width:380px; width:92%;
+			padding:36px 28px 28px; text-align:center; position:relative;
+			box-shadow:0 8px 40px rgba(0,0,0,.25); animation:zoomIn .2s ease;">
+
+			<button onclick="document.getElementById('modalReset').classList.remove('aberto')"
+				style="position:absolute;top:12px;right:14px;background:none;border:none;
+				font-size:22px;cursor:pointer;color:#999;line-height:1">&times;</button>
+
+			<img src="/fotoIndex/globinhoPe.png" width="72" style="margin-bottom:12px">
+			<h3 class="fontePixel" style="color:#e53935;margin:0 0 8px">Sair da conta</h3>
+			<p id="msgPersonalizada" style="margin:0 0 4px;font-size:.95rem">Deseja sair desta conta?</p>
+			<p style="font-size:.8rem;color:#888;margin:0 0 24px">Seu progresso fica salvo. É só entrar de novo com nome e PIN.</p>
+
+			<div style="display:flex;gap:10px">
+				<button onclick="executarReset()"
+					style="flex:1;padding:11px;border-radius:8px;border:none;background:#e53935;
+					color:#fff;font-weight:700;cursor:pointer;font-size:.95rem">
+					Sim, sair
+				</button>
+				<button onclick="document.getElementById('modalReset').classList.remove('aberto')"
+					style="flex:1;padding:11px;border-radius:8px;border:1px solid #ddd;
+					background:#f5f5f5;color:#444;cursor:pointer;font-size:.95rem">
+					Cancelar
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<style>
+	@keyframes zoomIn { from { transform:scale(.85); opacity:0 } to { transform:scale(1); opacity:1 } }
+	#modalReset { display:none }
+	#modalReset.aberto { display:flex !important }
+	</style>
 
 	<?php include __DIR__ . '/../includes/footer.php'; ?>
 

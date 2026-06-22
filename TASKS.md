@@ -24,6 +24,10 @@
 - [ ] **Conquistas compartilháveis para Stories `Instagram`**
 
 ## ✅ FEITO
+- [x] **Fix sessão www vs sem-www (cookie_domain) `Infraestrutura`**
+- [x] **Editar perfil — migrado de PATCH para POST `Infraestrutura`**
+- [x] **Re-login automático quando sessão expira `Infraestrutura`**
+- [x] **Sistema de reporte de problemas (questões + textos) `Comunidade`**
 - [x] **Security hardening — sessão PHP nas APIs**
 - [x] **.env para credenciais do banco**
 - [x] **Rate limit no login (10 tentativas / 15 min)**
