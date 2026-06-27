@@ -20,7 +20,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A busca por riquezas minerais — ouro em Minas Gerais e Goiás, diamantes em Mato Grosso — foi o principal motor da penetração no interior brasileiro nos séculos XVII e XVIII. Ao contrário do açúcar, concentrado no litoral, a mineração criou uma rede urbana interior densa, gerando cidades históricas que hoje integram o patrimônio cultural brasileiro.</p>",
-    "ajuda": "Pense nos fatores que impulsionaram a penetração no interior do Brasil nos séculos XVII e XVIII. Qual atividade econômica levou os bandeirantes e sertanistas a avançar rumo ao interior? Lembre-se de que a busca por riquezas minerais (ouro e pedras preciosas) foi o grande motor da ocupação do Planalto Central e de Minas Gerais."
+    "ajuda": "Pense nos fatores que impulsionaram a penetração no interior do Brasil nos séculos XVII e XVIII. Qual atividade econômica levou os bandeirantes e sertanistas a avançar rumo ao interior? Lembre-se de que a busca por riquezas minerais (ouro e pedras preciosas) foi o grande motor da ocupação do Planalto Central e de Minas Gerais.",
+    "feedbacks": {
+      "0": "A cana-de-açúcar e o algodão foram atividades econômicas do litoral nordestino, sem impacto direto na expansão das fronteiras para o interior. A expansão territorial para o Centro-Oeste e o interior do Brasil foi motivada pela busca de metais preciosos, não pelas culturas litorâneas.",
+      "2": "O café foi cultivado principalmente em São Paulo a partir do século XIX, em regiões já ocupadas e relativamente próximas ao litoral. O cultivo cafeeiro não motivou a expansão original das fronteiras para as regiões interiores do Brasil colonial.",
+      "3": "A expansão da soja pelo Centro-Oeste é um fenômeno contemporâneo, iniciado nas décadas de 1970 e 1980, muito posterior ao período colonial de formação do território. Esse processo não foi responsável pela expansão das fronteiras originais do Brasil.",
+      "4": "A transferência da capital da colônia para o Rio de Janeiro, em 1763, foi uma decisão administrativa motivada pelo ciclo do ouro, e não a causa da expansão das fronteiras. Essa mudança foi consequência do desenvolvimento do interior, e não o fator que impulsionou a expansão territorial."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A pecuária e a mineração foram os grandes 'conquistadores' dos sertões brasileiros: a pecuária avançou pelo Nordeste interior e pelo Sul; a mineração, pelo Centro-Oeste e Sudeste. Esses movimentos, impulsionados pela demanda por alimentos e mão de obra das regiões mineradoras, integraram o território nacional muito além dos limites litorâneos da colonização inicial.</p>",
-    "ajuda": "Pense em quais atividades econômicas dos séculos XVII e XVIII exigiam deslocamento para o interior do território. A pecuária expandiu-se pelo sertão nordestino e pelo planalto, enquanto a mineração atraiu populações para o Centro-Oeste e Minas Gerais. Qual dessas duas atividades — ou ambas — foi responsável pela conquista dos sertões?"
+    "ajuda": "Pense em quais atividades econômicas dos séculos XVII e XVIII exigiam deslocamento para o interior do território. A pecuária expandiu-se pelo sertão nordestino e pelo planalto, enquanto a mineração atraiu populações para o Centro-Oeste e Minas Gerais. Qual dessas duas atividades — ou ambas — foi responsável pela conquista dos sertões?",
+    "feedbacks": {
+      "0": "A construção de feitorias no litoral foi uma estratégia da fase inicial da colonização, voltada para o comércio do pau-brasil, sem relação com a expansão para o interior. As feitorias eram pontos de coleta costeiros, e não instrumentos de conquista dos sertões.",
+      "2": "A grilagem de terras é uma prática ilegal contemporânea de falsificação de documentos para apropriação indevida de terras. A conquista dos sertões foi realizada pelas bandeiras e expedições oficiais no período colonial, e não por meio da grilagem.",
+      "3": "A elaboração de políticas aduaneiras refere-se à regulamentação do comércio exterior, sem relação com a expansão geográfica do território colonial. As políticas aduaneiras eram instrumentos fiscais da metrópole, e não meios de conquista territorial.",
+      "4": "A realocação de agroindústrias é um fenômeno contemporâneo de redistribuição de indústrias processadoras de produtos agropecuários, sem conexão histórica com a formação do território colonial. Esse processo não tem relação com a conquista dos sertões do período colonial."
+    }
   },
   {
     "id": 3,
@@ -66,7 +78,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A regionalização geoeconômica proposta por Geiger identifica o Nordeste como região marcada pela herança colonial açucareira e pelo semiárido, com características socioeconômicas distintas das demais regiões. Essa delimitação não segue fronteiras estaduais rígidas, mas sim a coerência histórica e econômica que define os complexos regionais brasileiros.</p>",
-    "ajuda": "Leia o texto de Milton Santos sobre a 'Região Concentrada'. Pense em qual parte do Brasil apresenta maior densidade técnica, urbanização intensa e padrão de consumo mais elevado. Essa região não coincide com nenhuma divisão geográfica oficial do IBGE — ela se refere ao eixo mais desenvolvido do país."
+    "ajuda": "Leia o texto de Milton Santos sobre a 'Região Concentrada'. Pense em qual parte do Brasil apresenta maior densidade técnica, urbanização intensa e padrão de consumo mais elevado. Essa região não coincide com nenhuma divisão geográfica oficial do IBGE — ela se refere ao eixo mais desenvolvido do país.",
+    "feedbacks": {
+      "0": "O Sertão é uma sub-região do Nordeste brasileiro, caracterizada pelo clima semiárido e pela baixa industrialização. Não é um dos grandes complexos regionais do Brasil e não corresponde à região de maior industrialização e dinamismo econômico.",
+      "1": "O Agreste é uma faixa de transição entre o litoral úmido e o Sertão semiárido no Nordeste. Não é um dos grandes complexos regionais e não apresenta as características de industrialização e dinamismo econômico do Centro-Sul.",
+      "2": "O Pantanal é uma planície alagável no Centro-Oeste, caracterizada pela pecuária extensiva e pelo ecoturismo. Não é um complexo regional do Brasil e não representa a área de maior industrialização e urbanização do país.",
+      "4": "O Meio-Norte é uma sub-região de transição entre o Nordeste semiárido e a Amazônia, com baixa industrialização. Não é um dos grandes complexos regionais e não corresponde à área de maior dinamismo econômico do Brasil."
+    }
   },
   {
     "id": 4,
@@ -88,7 +106,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As regiões geoeconômicas de Geiger — Amazônia, Nordeste e Centro-Sul — foram definidas pelo processo histórico de formação e pelo nível de modernização econômica de cada área. Esse critério é mais analítico do que a divisão oficial do IBGE, pois captura as raízes estruturais das desigualdades regionais e não apenas os limites político-administrativos.</p>",
-    "ajuda": "Lembre-se dos critérios da regionalização geoeconômica de Geiger: ele usou o processo histórico e econômico de formação de cada região, não apenas limites naturais ou político-administrativos. Pense em qual alternativa descreve corretamente esse critério de regionalização sem confundi-lo com outros tipos."
+    "ajuda": "Lembre-se dos critérios da regionalização geoeconômica de Geiger: ele usou o processo histórico e econômico de formação de cada região, não apenas limites naturais ou político-administrativos. Pense em qual alternativa descreve corretamente esse critério de regionalização sem confundi-lo com outros tipos.",
+    "feedbacks": {
+      "0": "A divisão em complexos regionais não respeita necessariamente a delimitação político-administrativa dos estados; alguns estados são divididos entre dois complexos diferentes. Minas Gerais, por exemplo, possui partes inseridas no Nordeste e outras no Centro-Sul.",
+      "1": "O Maranhão não é incluído integralmente no Complexo Amazônico; parte dele integra o Meio-Norte ou o Complexo Nordestino. A divisão usa critérios socioeconômicos e históricos, e não apenas a localização geográfica ou o dinamismo econômico de um estado.",
+      "2": "A proposta de complexos regionais não se baseia principalmente em aspectos naturais ou em regiões homogêneas do ponto de vista físico. Ela é fundamentada no processo histórico de formação econômica e na modernização das atividades produtivas.",
+      "4": "Minas Gerais não é incluído integralmente no Complexo Nordestino; sua porção mais dinâmica, com o polo industrial de Belo Horizonte, integra o Complexo Centro-Sul. A divisão usa critérios econômicos e históricos, e não apenas características climatobotânicas."
+    }
   },
   {
     "id": 5,
@@ -112,7 +136,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A formação étnica brasileira é resultado de séculos de miscigenação entre indígenas, africanos escravizados e europeus colonizadores, além de imigrantes posteriores. Esse processo, longe de ser harmônico, foi marcado por violência e dominação — o que explica por que a miscigenação não eliminou as desigualdades raciais, que persistem nos indicadores socioeconômicos contemporâneos.</p>",
-    "ajuda": "Analise cada afirmativa (V ou F) sobre a formação étnica da população brasileira. Pense: os descendentes de portugueses são a maioria, não a minoria. A Lei Afonso Arinos era considerada branda. O Movimento Negro Unificado surgiu nos anos 1970. Avalie cada afirmativa com cuidado."
+    "ajuda": "Analise cada afirmativa (V ou F) sobre a formação étnica da população brasileira. Pense: os descendentes de portugueses são a maioria, não a minoria. A Lei Afonso Arinos era considerada branda. O Movimento Negro Unificado surgiu nos anos 1970. Avalie cada afirmativa com cuidado.",
+    "feedbacks": {
+      "0": "Esta combinação classifica a primeira afirmativa como verdadeira e as demais como falsas, contrariando o gabarito. O conjunto correto indica que apenas a primeira afirmativa é falsa, sendo a segunda e a terceira verdadeiras.",
+      "1": "Esta combinação classifica corretamente a primeira e a segunda afirmativas, mas também classifica a terceira como falsa. A terceira afirmativa é verdadeira, e não falsa como indicado nessa alternativa.",
+      "2": "Esta combinação classifica a primeira afirmativa como verdadeira e a segunda como falsa, invertendo o gabarito em ambas. A primeira é falsa e a segunda é verdadeira, conforme o gabarito correto.",
+      "4": "Esta combinação classifica as duas primeiras afirmativas como verdadeiras e a terceira como falsa. No entanto, a primeira é falsa e a terceira é verdadeira, contrariando o gabarito em dois pontos."
+    }
   },
   {
     "id": 6,
@@ -134,7 +164,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Os povos indígenas têm direito constitucional à demarcação de suas terras (Art. 231 da CF/1988), reconhecendo que sua existência como comunidade cultural depende do território. Esse direito não é concessão do Estado, mas reconhecimento de uma ocupação pré-colonial — os indígenas habitavam o Brasil milênios antes da chegada dos portugueses em 1500.</p>",
-    "ajuda": "Pense no direito dos povos indígenas à demarcação de suas terras: esse direito se baseia no princípio de que eles são os habitantes originários do território brasileiro. Analise qual alternativa descreve corretamente esse fundamento jurídico sem distorcer a realidade das lutas e conquistas indígenas no Brasil."
+    "ajuda": "Pense no direito dos povos indígenas à demarcação de suas terras: esse direito se baseia no princípio de que eles são os habitantes originários do território brasileiro. Analise qual alternativa descreve corretamente esse fundamento jurídico sem distorcer a realidade das lutas e conquistas indígenas no Brasil.",
+    "feedbacks": {
+      "0": "As relações coletivas de trabalho nas aldeias não acabaram completamente entre os povos indígenas; muitas comunidades mantêm práticas tradicionais de trabalho coletivo. Além disso, a noção de propriedade privada da terra é estranha à cultura de muitos povos indígenas, que se relacionam coletivamente com o território.",
+      "2": "Embora o reconhecimento de direitos indígenas tenha avançado em certos períodos, o processo de demarcação de terras é ainda incompleto e permanentemente contestado. Afirmar genericamente que os indígenas têm recebido garantias importantes ignora a realidade de retrocessos e disputas políticas e jurídicas em torno de seus direitos.",
+      "3": "As taxas de alfabetização dos povos indígenas no Brasil são historicamente inferiores às da população não indígena, e não superiores. Além disso, a preservação das línguas e tradições indígenas não depende apenas da alfabetização formal, mas de políticas de educação bilíngue e de proteção territorial efetiva."
+    }
   },
   {
     "id": 7,
@@ -159,7 +194,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A estrutura fundiária brasileira, herdada do latifúndio colonial, transformou a terra em ativo especulativo para as elites agrárias, muito além de um meio de produção. Grandes proprietários historicamente usaram a terra como garantia de poder político e social, resistindo à reforma agrária e perpetuando a concentração que coloca o Brasil entre os países com maior desigualdade fundiária do mundo.</p>",
-    "ajuda": "Leia o texto de Caio Prado Júnior sobre a estrutura fundiária brasileira. Pense nas características históricas que marcam a propriedade rural no Brasil: grandes latifúndios voltados para a exportação, com trabalho explorado. Qual alternativa descreve corretamente essa estrutura fundiária concentrada?"
+    "ajuda": "Leia o texto de Caio Prado Júnior sobre a estrutura fundiária brasileira. Pense nas características históricas que marcam a propriedade rural no Brasil: grandes latifúndios voltados para a exportação, com trabalho explorado. Qual alternativa descreve corretamente essa estrutura fundiária concentrada?",
+    "feedbacks": {
+      "0": "O predomínio de atividades pastoris descreve uma característica econômica de algumas regiões, e não a estrutura fundiária do campo brasileiro. A questão refere-se à forma de organização da propriedade, cuja principal característica é a concentração da terra em latifúndios, e não o tipo de atividade econômica.",
+      "1": "A presença de minifúndios especializados descreve a estrutura de pequenas propriedades diversificadas, o oposto da realidade fundiária brasileira. A estrutura agrária é historicamente caracterizada pelo latifúndio e pela concentração da terra, e não pelo predomínio de pequenas propriedades.",
+      "2": "O conceito de fazendas comunitárias não corresponde à estrutura dominante da propriedade rural no Brasil. As fazendas comunitárias são experiências pontuais e alternativas, muito distantes do modelo dominante de latifúndio voltado à exportação de commodities.",
+      "4": "A distribuição equilibrada de terras é o oposto da realidade fundiária brasileira, marcada por um dos maiores índices de concentração fundiária do mundo. O Índice de Gini fundiário do Brasil revela altíssima concentração, incompatível com a ideia de distribuição equilibrada."
+    }
   },
   {
     "id": 8,
@@ -182,7 +223,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A distribuição desigual da terra no Brasil é visível nos dados fundiários: a imensa maioria dos estabelecimentos rurais são pequenas propriedades (menos de 100 ha), mas elas ocupam uma fração minúscula da área total. Inversamente, poucos latifúndios concentram a maior parte do território agrícola, configurando uma das estruturas fundiárias mais concentradas do planeta.</p>",
-    "ajuda": "Observe o gráfico sobre a distribuição de propriedades rurais no Brasil. Pense: se há grande quantidade de propriedades pequenas (até 100 ha) ocupando apenas uma pequena parcela da área total, enquanto poucos imóveis grandes ocupam a maior parte da área — o que isso revela sobre a distribuição da terra? Identifique qual alternativa descreve corretamente essa desigualdade."
+    "ajuda": "Observe o gráfico sobre a distribuição de propriedades rurais no Brasil. Pense: se há grande quantidade de propriedades pequenas (até 100 ha) ocupando apenas uma pequena parcela da área total, enquanto poucos imóveis grandes ocupam a maior parte da área — o que isso revela sobre a distribuição da terra? Identifique qual alternativa descreve corretamente essa desigualdade.",
+    "feedbacks": {
+      "0": "Esta alternativa inverte o dado correto ao afirmar que as pequenas propriedades (até 100 ha) ocupam a maior parcela da área total. Na realidade, são as grandes propriedades que concentram a maior parte da área, enquanto as pequenas, embora numerosas, ocupam parcela reduzida do território.",
+      "1": "Esta alternativa afirma que a distribuição é equitativa, quando os dados apontam para grande concentração fundiária. Além disso, as grandes propriedades (mais de 1000 ha) concentrando a maior parcela da área evidencia justamente desigualdade, e não equidade na distribuição.",
+      "3": "Esta alternativa descreve propriedades de 100 a 1000 ha como poucas em número mas ocupando a maior parcela da área, e classifica isso como distribuição equitativa. Isso contradiz os dados reais, que mostram que a concentração nas grandes propriedades gera desigualdade, não equilíbrio.",
+      "4": "Esta alternativa descreve as grandes propriedades (mais de 1000 ha) como correspondendo à menor parcela da área ocupada, o que seria o inverso da realidade. Na estrutura fundiária brasileira, as grandes propriedades concentram a maior parte da área total, gerando a desigualdade fundiária característica do país."
+    }
   },
   {
     "id": 9,
@@ -206,7 +253,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O relevo brasileiro é dominado por planaltos, planícies e depressões — não por montanhas elevadas. Essa configuração resulta da antiguidade geológica do território: sem dobramentos modernos como os Andes, o Brasil teve bilhões de anos de erosão que aplainaram as antigas cadeias montanhosas, deixando superfícies tabulares, chapadas e baixas planícies.</p>",
-    "ajuda": "Lembre-se das classificações do relevo brasileiro segundo diferentes geógrafos. A questão trata das formas gerais do relevo segundo uma classificação específica. Pense nos três grandes tipos: planícies (deposição), planaltos (erosão maior que deposição) e depressões (áreas rebaixadas). Identifique qual alternativa lista corretamente essas formas."
+    "ajuda": "Lembre-se das classificações do relevo brasileiro segundo diferentes geógrafos. A questão trata das formas gerais do relevo segundo uma classificação específica. Pense nos três grandes tipos: planícies (deposição), planaltos (erosão maior que deposição) e depressões (áreas rebaixadas). Identifique qual alternativa lista corretamente essas formas.",
+    "feedbacks": {
+      "0": "A classificação do relevo de Jurandyr Ross não inclui Colinas e Montanhas como categorias principais. As unidades fundamentais são planícies, planaltos e depressões, sendo as demais formas subdivisões dessas categorias maiores.",
+      "1": "Peneplanos não fazem parte da classificação de Jurandyr Ross; esse conceito pertence a classificações geomorfológicas mais antigas. Além disso, Montanhas não são uma categoria independente na classificação de Ross, mas parte dos planaltos.",
+      "2": "A classificação de Jurandyr Ross divide o relevo em planícies, planaltos e depressões, e não inclui Serras como categoria principal. As serras são feições dentro dos planaltos, e não uma categoria independente.",
+      "3": "Esta combinação mistura subformas (serras e chapadas) com a categoria principal (planaltos) e omite planícies e depressões. A classificação de Ross utiliza as três grandes categorias: planícies, planaltos e depressões."
+    }
   },
   {
     "id": 10,
@@ -230,6 +283,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O relevo brasileiro repousa sobre duas grandes estruturas geológicas: bacias sedimentares (onde se acumulam sedimentos e se formam reservatórios de petróleo e carvão) e áreas cristalinas (escudos e maciços antigos, ricos em minérios metálicos). Os agentes exógenos — erosão, deposição fluvial — esculpem essas estruturas ao longo de milênios, criando as diversas formas de relevo que compõem o mosaico geográfico nacional.</p>",
-    "ajuda": "Pense nas características geológicas do Brasil: o substrato é composto por formações sedimentares recentes e estruturas cristalinas antigas. Os fatores exógenos (erosão, intemperismo, sedimentação) são responsáveis pela modelagem atual do relevo. Identifique qual combinação de palavras preenche corretamente as lacunas sobre a formação e transformação do relevo brasileiro."
+    "ajuda": "Pense nas características geológicas do Brasil: o substrato é composto por formações sedimentares recentes e estruturas cristalinas antigas. Os fatores exógenos (erosão, intemperismo, sedimentação) são responsáveis pela modelagem atual do relevo. Identifique qual combinação de palavras preenche corretamente as lacunas sobre a formação e transformação do relevo brasileiro.",
+    "feedbacks": {
+      "1": "As rochas cristalinas são as formações mais antigas e profundas, e as sedimentares se depositam sobre elas, e não o contrário. A inversão da ordem entre cristalinas e sedimentares torna essa sequência incorreta.",
+      "2": "As rochas basálticas são um tipo específico de rocha ígnea, e não o termo adequado para descrever o conjunto de formações que recobrem o embasamento. Além disso, os agentes que modelam o relevo brasileiro são predominantemente exógenos, como erosão e intemperismo, e não endógenos.",
+      "3": "Embora a sequência sedimentares e cristalinas esteja na ordem correta, os agentes que modelam o relevo brasileiro são principalmente exógenos, como o intemperismo e a erosão. O Brasil está longe das zonas de contato entre placas, tornando os agentes endógenos pouco atuantes.",
+      "4": "Rochas basálticas são um tipo específico de rocha ígnea vulcânica, e não a categoria adequada para descrever as formações que recobrem o embasamento cristalino. A sequência correta utiliza o termo sedimentares para descrever essas formações depositadas sobre as rochas cristalinas."
+    }
   }
 ]

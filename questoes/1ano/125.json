@@ -19,7 +19,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A plataforma continental é a parte mais rasa do fundo oceânico, com profundidade geralmente inferior a 200 m e declividade suave. Nessa zona, a luz solar penetra, possibilitando fotossíntese e grande diversidade marinha. É nas plataformas que se concentra a maior parte da pesca comercial mundial e onde se instalam plataformas de exploração de petróleo offshore.</p>",
-    "ajuda": "A plataforma continental é a porção submersa da crosta continental que se estende desde a linha de costa até o talude continental. Ela é rasa, com até 200m de profundidade, e tem grande importância econômica (pesca, extração de petróleo, minerais)."
+    "ajuda": "A plataforma continental é a porção submersa da crosta continental que se estende desde a linha de costa até o talude continental. Ela é rasa, com até 200m de profundidade, e tem grande importância econômica (pesca, extração de petróleo, minerais).",
+    "feedbacks": {
+      "0": "A plataforma continental recebe bastante luz solar por ser rasa, não pouca. A penetração de luz é justamente o que favorece a fotossíntese e a vida marinha, tornando a pouca profundidade um fator positivo, não limitante.",
+      "1": "A plataforma continental tem declividade suave, não forte declive. O forte declive é característica do talude continental. Além disso, o acúmulo de sedimentos não resulta do ciclo das marés, mas da ação dos rios e da erosão costeira.",
+      "2": "As cadeias montanhosas submarinas formam-se por atividade vulcânica e tectônica, não pela separação das placas que gerou os continentes. A plataforma continental é a extensão submersa do continente e não foi formada por esse processo.",
+      "4": "A intensa atividade vulcânica está associada às dorsais oceânicas e zonas de subducção, não à plataforma continental. A plataforma é uma área geologicamente estável, de baixo relevo subaquático, adjacente à margem dos continentes."
+    }
   },
   {
     "id": 2,
@@ -42,7 +48,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A plataforma continental é a área preferencial para a exploração de petróleo offshore, pois a menor lâmina d'água facilita a instalação de plataformas. O Brasil tem uma das maiores plataformas continentais do mundo (700.000 km²), e é nela — especialmente nas Bacias de Campos e Santos — que se localiza o pré-sal, uma das maiores descobertas de petróleo do século XXI.</p>",
-    "ajuda": "O relevo oceânico inclui: plataforma continental (rasa, junto à costa), talude continental (inclinado), planície abissal (profunda e plana), dorsais oceânicas (cadeias montanhosas no fundo do mar), fossas oceânicas (depressões profundas). Identifique a feição que mais interessa ao geólogo descrito."
+    "ajuda": "O relevo oceânico inclui: plataforma continental (rasa, junto à costa), talude continental (inclinado), planície abissal (profunda e plana), dorsais oceânicas (cadeias montanhosas no fundo do mar), fossas oceânicas (depressões profundas). Identifique a feição que mais interessa ao geólogo descrito.",
+    "feedbacks": {
+      "1": "O talude é a encosta íngreme que conecta a plataforma continental ao fundo oceânico profundo. Não é a área rasa de maior biodiversidade costeira: o talude é mais profundo e recebe menos luz solar, o que reduz sua produtividade biológica.",
+      "2": "A região pelágica é a zona de água aberta oceânica (coluna d'água), não o relevo submerso adjacente ao continente. Ela vai da superfície às profundidades, abrangendo várias estruturas do assoalho marinho.",
+      "3": "A dorsal oceânica é uma cadeia montanhosa submarina no centro dos oceanos, formada pela separação de placas. Não é a faixa rasa e sedimentar junto às costas dos continentes que caracteriza a plataforma continental.",
+      "4": "A região abissal é a zona de maior profundidade oceânica, com altíssima pressão, pouca ou nenhuma luz solar e temperatura próxima de zero. Não é a área rasa e produtiva junto à costa, que define a plataforma continental."
+    }
   },
   {
     "id": 3,
@@ -65,7 +77,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O relevo submarino inclui, da borda continental para o interior do oceano: plataforma continental (rasa, sedimentar), talude (declive acentuado), planície abissal (fundo plano), dorsais oceânicas (cadeias vulcânicas) e fossas marinhas (as zonas mais profundas, como a Fossa das Marianas, com quase 11 km). Essa sequência reflete a estrutura e a história geológica do assoalho oceânico.</p>",
-    "ajuda": "A morfologia da superfície terrestre varia conforme a posição: nas bordas continentais há plataformas e taludes; nos fundos oceânicos há planícies abissais, dorsais e fossas. Em terra, temos planaltos, planícies, depressões e montanhas. Identifique as feições descritas."
+    "ajuda": "A morfologia da superfície terrestre varia conforme a posição: nas bordas continentais há plataformas e taludes; nos fundos oceânicos há planícies abissais, dorsais e fossas. Em terra, temos planaltos, planícies, depressões e montanhas. Identifique as feições descritas.",
+    "feedbacks": {
+      "1": "Esta sequencia coloca o talude antes da plataforma continental, mas a plataforma fica junto à costa (menor profundidade) e vem antes do talude. A ordem não respeita a progressão do relevo do litoral para as profundezas oceânicas.",
+      "2": "Nesta sequencia o talude aparece antes da plataforma, invertendo a ordem correta. A plataforma continental é mais rasa e costeira; o talude vem depois dela, ligando a plataforma à bacia oceânica profunda.",
+      "3": "Nesta sequencia a dorsal oceânica aparece logo após a plataforma continental, mas a dorsal está no centro dos oceanos, muito além do talude e da bacia oceânica. A ordem não corresponde à progressão do relevo da costa para o centro oceânico.",
+      "4": "Nesta sequencia o talude aparece antes da plataforma continental, invertendo a ordem. A plataforma está junto à costa, depois vem o talude, a bacia oceânica, a dorsal e, nos pontos de maior profundidade, as fossas oceânicas."
+    }
   },
   {
     "id": 4,
@@ -89,7 +107,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As dorsais oceânicas são cadeias de montanhas subaquáticas onde o magma emerge e cria nova crosta oceânica — o processo de expansão do assoalho oceânico. Nas zonas de divergência das placas, o vulcanismo e os sismos são mais frequentes. A Dorsal Mesatlântica divide o Atlântico ao meio e cresce 2-3 cm por ano, afastando América e Europa/África.</p>",
-    "ajuda": "O nascimento de um oceano segue o ciclo de Wilson: rifteamento continental (abertura de uma fossa), formação de um mar estreito (como o Mar Vermelho), expansão oceânica (como o Atlântico atual). Identifique em qual estágio do processo a questão está focada."
+    "ajuda": "O nascimento de um oceano segue o ciclo de Wilson: rifteamento continental (abertura de uma fossa), formação de um mar estreito (como o Mar Vermelho), expansão oceânica (como o Atlântico atual). Identifique em qual estágio do processo a questão está focada.",
+    "feedbacks": {
+      "0": "A vida mais abundante no oceano não está no talude, mas na plataforma continental, onde a água é rasa e recebe luz solar adequada. O talude é mais profundo e tem menor incidência luminosa, reduzindo sua produtividade biológica.",
+      "2": "O movimento mais importante das águas oceânicas não são as ondas ou vagas, mas sim as correntes oceânicas, que transportam calor, nutrientes e espécies por grandes distâncias. As ondas são superficiais e têm alcance muito mais limitado.",
+      "3": "O maior oceano do mundo é o Pacífico, não o Atlântico. O Pacífico cobre mais de um terço da superfície do planeta e tem a maior profundidade média. O Atlântico, embora importante, é menor.",
+      "4": "A energia das marés pode ser aproveitada em regiões com amplitude de marés significativa, não apenas onde há grande profundidade. Usinas de maré operam justamente em estuários e regiões litorâneas rasas, onde a variação do nível do mar é grande."
+    }
   },
   {
     "id": 5,
@@ -112,7 +136,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Dos 1,4 bilhão de km³ de água no planeta, apenas cerca de 2,5% é doce. Desse total, 68,9% está em geleiras e calotas polares, 30,8% em aquíferos subterrâneos e apenas 0,3% em rios, lagos e superfícies acessíveis. Ou seja, menos de 1% da água doce está facilmente disponível para o consumo humano — tornando a conservação hídrica vital.</p>",
-    "ajuda": "A maior parte da água do planeta é salgada (97%), e a água doce representa apenas 3%, sendo que 2,5% está em geleiras. A água subterrânea (aquíferos) é a maior reserva de água doce líquida. Avalie qual afirmativa descreve corretamente essa distribuição."
+    "ajuda": "A maior parte da água do planeta é salgada (97%), e a água doce representa apenas 3%, sendo que 2,5% está em geleiras. A água subterrânea (aquíferos) é a maior reserva de água doce líquida. Avalie qual afirmativa descreve corretamente essa distribuição.",
+    "feedbacks": {
+      "0": "As águas subterrâneas representam cerca de 30% da ÁGUA DOCE, não de toda a água do planeta. A maior parte da água (cerca de 97%) é salgada nos oceanos. Das águas doces totais, as geleiras armazenam mais do que os aquíferos.",
+      "1": "As águas subterrâneas podem ser contaminadas por agrotóxicos, fertilizantes, vazamentos de combustíveis e lixiviação de aterros. A afirmação de que são livres de qualquer contaminação é incorreta e contradiz problemas ambientais conhecidos.",
+      "2": "As geleiras são reservatórios de água DOCE, não salgada. Elas armazenam cerca de 68% de toda a água doce do planeta, mas essa água fica retida em forma sólida em regiões polares e montanhas, não recarregando diretamente os aquíferos.",
+      "3": "A água doce está distribuída de forma muito desigual no planeta: a Amazônia, a Bacia do Congo e o Sudeste Asiático concentram grande parte, enquanto regiões áridas e semiáridas sofrem escassez intensa. A distribuição não é igualitária."
+    }
   },
   {
     "id": 6,
@@ -134,7 +164,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O Oceano Pacífico é o maior e mais profundo de todos, cobrindo mais de um terço da superfície terrestre (~165 milhões de km²). É circundado pelo Anel de Fogo — a zona mais sismicamente e vulcanicamente ativa do planeta, responsável por 90% dos terremotos do mundo. Sua extensão é maior que a soma de todas as massas continentais.</p>",
-    "ajuda": "As correntes oceânicas influenciam o clima das regiões costeiras: correntes quentes (como a Corrente do Brasil) elevam a temperatura e a umidade; correntes frias (como a Corrente de Humboldt) resfriam e dessecam o ar, contribuindo para a formação de desertos costeiros."
+    "ajuda": "As correntes oceânicas influenciam o clima das regiões costeiras: correntes quentes (como a Corrente do Brasil) elevam a temperatura e a umidade; correntes frias (como a Corrente de Humboldt) resfriam e dessecam o ar, contribuindo para a formação de desertos costeiros.",
+    "feedbacks": {
+      "0": "O Oceano Índico é o terceiro maior oceano, não o segundo. O Atlântico é o segundo maior. Além disso, o Índico não é o mais frio do planeta: os mais frios são os mares polares (Ártico e Antártico).",
+      "1": "Mares e oceanos não são sinônimos: os mares são menores, geralmente parcialmente fechados por terras e menos profundos que os oceanos. O Mar Mediterrâneo, por exemplo, tem profundidade média muito inferior à dos grandes oceanos.",
+      "2": "A posição geográfica influencia diretamente a temperatura das águas oceânicas: oceanos próximos ao Equador são mais quentes e os de altas latitudes são mais frios. As correntes marítimas também transportam calor ou frio entre as regiões.",
+      "4": "Os oceanos contêm cerca de 97% de toda a água do planeta, enquanto a água dos rios e lagos representa uma fração mínima. Afirmar que ambos têm quantidades equivalentes contradiz completamente a distribuição hídrica global."
+    }
   },
   {
     "id": 7,
@@ -155,7 +191,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Os hemisférios boreal (norte) e austral (sul) têm distribuições muito distintas de continentes e oceanos. O hemisfério norte tem mais terra (Europa, Ásia, América do Norte, norte da África); o sul tem muito mais oceano (Pacífico Sul, Atlântico Sul, Índico). Portanto, continentes e bacias oceânicas não têm dimensões equivalentes nos dois hemisférios.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre as águas oceânicas. Pense nas propriedades dos oceanos: salinidade média de 35‰, temperatura variando com latitude e profundidade, pressão crescente com a profundidade, existência de correntes superficiais e profundas."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre as águas oceânicas. Pense nas propriedades dos oceanos: salinidade média de 35‰, temperatura variando com latitude e profundidade, pressão crescente com a profundidade, existência de correntes superficiais e profundas.",
+    "feedbacks": {
+      "0": "A afirmativa sobre os oceanos como vias de circulação histórica é um aspecto cultural e geopolítico, não uma característica física dos oceanos e continentes. A questão pede uma característica geofísica, e esta alternativa foca no uso humano histórico.",
+      "2": "As correntes marítimas não circulam apenas próximas aos continentes: elas percorrem extensas rotas pelo centro dos oceanos também, como a Corrente do Golfo no Atlântico. A alternativa limita incorretamente sua localização às costas continentais.",
+      "3": "A dinâmica atmosférica não é condicionada apenas pelas forças físicas dos oceanos. A circulação das massas de ar é resultado da interação entre a diferença de temperatura de continentes e oceanos, a rotação da Terra e outros fatores complexos."
+    }
   },
   {
     "id": 8,
@@ -176,7 +217,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Os oceanos são a principal fonte de água que abastece os continentes via ciclo hidrológico. A evaporação dos oceanos fornece a maior parte do vapor d'água que forma as nuvens e precipita como chuva ou neve sobre os continentes. Estima-se que ~86% da evaporação global ocorre nos oceanos, com o restante provindo de rios, lagos e transpiração das plantas.</p>",
-    "ajuda": "Os oceanos têm importância estratégica como rotas de comércio, fonte de alimentos (pesca), recursos minerais (petróleo, gás, manganês), regulação climática e biodiversidade. Identifique qual função dos oceanos é destacada na questão."
+    "ajuda": "Os oceanos têm importância estratégica como rotas de comércio, fonte de alimentos (pesca), recursos minerais (petróleo, gás, manganês), regulação climática e biodiversidade. Identifique qual função dos oceanos é destacada na questão.",
+    "feedbacks": {
+      "0": "A vida no mar é mais abundante nas zonas eufóticas rasas (plataforma continental), não nas regiões abissais. As regiões abissais têm pouca ou nenhuma luz, o que limita drasticamente a produção primária e a biodiversidade.",
+      "2": "O papel dos oceanos no ciclo hidrológico é fundamental, não insignificante: eles fornecem cerca de 86% da evaporação total do planeta, sendo a principal fonte do vapor de água que origina as precipitações nos continentes.",
+      "3": "O Brasil tem grande interesse na exploração da plataforma continental: o pré-sal é um dos maiores campos de petróleo do mundo, localizado sob o fundo oceânico da plataforma brasileira. A afirmativa contraria a realidade geoeconômica do país."
+    }
   },
   {
     "id": 9,
@@ -200,7 +246,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A Dorsal Mesoatlântica é uma cordilheira subaquática de ~16.000 km de extensão que percorre o Oceano Atlântico de norte a sul. É uma zona de divergência entre as placas Sul-Americana e Africana — à medida que se afastam, magma sobe e cria nova crosta oceânica. Seu vulcanismo ativo inclui a ilha de Surtsey (Islândia) e as Ilhas Canárias.</p>",
-    "ajuda": "A crosta terrestre apresenta feições variadas tanto em terra quanto no fundo dos oceanos. As dorsais oceânicas são montanhas submarinas que marcam as zonas de separação das placas tectônicas; as fossas oceânicas são as depressões mais profundas do planeta."
+    "ajuda": "A crosta terrestre apresenta feições variadas tanto em terra quanto no fundo dos oceanos. As dorsais oceânicas são montanhas submarinas que marcam as zonas de separação das placas tectônicas; as fossas oceânicas são as depressões mais profundas do planeta.",
+    "feedbacks": {
+      "0": "A Dorsal Mesoatlântica não é uma cadeia muito erodida: ela é geologicamente jovem e ativa, com vulcanismo e sismicidade contínuos. A ideia de uma cadeia muito erodida contradiz a natureza dinâmica e recente dessa formação.",
+      "1": "A Dorsal Mesoatlântica não é de origem sedimentar: ela se formou pelo afastamento das placas tectônicas e pela ascensão de magma. Além disso, ela não está 'muito erodida', pois ainda é uma feição geológica ativa e relativamente jovem.",
+      "3": "A Dorsal Mesoatlântica não se originou de vulcões hoje extintos: a atividade vulcânica na dorsal é contínua e atual, sendo responsável por ilhas como Islândia e Açores. A dorsal é uma feição geologicamente ativa, não extinta.",
+      "4": "A Dorsal Mesoatlântica não é de origem sedimentar: ela é formada pelo magma que sobe da astenosfera nas zonas de divergência das placas. A origem sedimentar é típica de bacias e planícies abissais, não de dorsais oceânicas."
+    }
   },
   {
     "id": 10,
@@ -223,6 +275,12 @@
     ],
     "correta": 4,
     "comentario": "<p>As dorsais oceânicas são as maiores cadeias montanhosas do planeta, todas subaquáticas. Formam um sistema global de ~70.000 km. Nos eixos das dorsais há vulcanismo ativo e rifts (fendas) onde as placas se afastam. As cordilheiras oceânicas são, portanto, a expressão topográfica da tectônica divergente — o berço de nova crosta terrestre.</p>",
-    "ajuda": "Nas dorsais oceânicas, a separação das placas cria novas fraturas por onde o magma emerge e se resfria, formando nova crosta oceânica. As formas de relevo típicas dessa zona são: vale de rifte central (graben), escarpas laterais e montes submarinos recém-formados."
+    "ajuda": "Nas dorsais oceânicas, a separação das placas cria novas fraturas por onde o magma emerge e se resfria, formando nova crosta oceânica. As formas de relevo típicas dessa zona são: vale de rifte central (graben), escarpas laterais e montes submarinos recém-formados.",
+    "feedbacks": {
+      "0": "As fossas subductivas são as depressões mais profundas dos oceanos, formadas onde uma placa mergulha sob outra. São feições rebaixadas, não cadeias montanhosas. Não correspondem ao relevo oceânico elevado descrito na questão.",
+      "1": "As plataformas continentais são extensões submersas rasas dos continentes, adjacentes às costas. Não são estruturas elevadas formadas pela separação de placas nem se localizam no centro dos oceanos.",
+      "2": "As ilhas vulcânicas são elevações isoladas no oceano formadas pela acumulação de lavas. Não são cadeias contínuas de montanhas que acompanham o centro dos oceanos como as dorsais oceânicas.",
+      "3": "As depressões absolutas são as áreas mais baixas dos oceanos, como as fossas marinhas. São feições rebaixadas, o oposto das cadeias de montanhas que se elevam no fundo oceânico."
+    }
   }
 ]

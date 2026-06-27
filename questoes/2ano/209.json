@@ -21,7 +21,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A descentralização industrial brasileira, intensificada a partir dos anos 1990, fragmentou o território produtivo antes concentrado no eixo São Paulo–Rio. Novas plantas industriais passaram a se instalar no interior de São Paulo, em estados do Sul e até no Nordeste (indústria têxtil e calçadista), atraídas por isenções fiscais, menores custos de mão de obra e expansão das redes de transporte.</p>",
-    "ajuda": "Lembre-se de que a desconcentração industrial no Brasil levou empresas a se instalarem em novas regiões, cada uma com especializações produtivas distintas. Pense no conceito de 'nova divisão territorial do trabalho': cada lugar passa a oferecer aptidões específicas para a produção. Qual processo econômico-geográfico melhor explica essa especialização e fragmentação do território?"
+    "ajuda": "Lembre-se de que a desconcentração industrial no Brasil levou empresas a se instalarem em novas regiões, cada uma com especializações produtivas distintas. Pense no conceito de 'nova divisão territorial do trabalho': cada lugar passa a oferecer aptidões específicas para a produção. Qual processo econômico-geográfico melhor explica essa especialização e fragmentação do território?",
+    "feedbacks": {
+      "0": "A guerra fiscal amplia a disputa entre estados pela atração de empresas, mas não é o conceito principal que explica a segmentação do território decorrente da redistribuição da indústria. A descentralização industrial é o processo mais amplo que engloba esse fenômeno.",
+      "1": "A especulação imobiliária beneficia áreas com maior infraestrutura, mas não é o processo que segmenta o território ao distribuir a atividade industrial pelo espaço. Trata-se de um fenômeno do mercado fundiário urbano, distinto da lógica de redistribuição espacial da produção.",
+      "3": "A economia de mercado é um sistema econômico amplo, e não o conceito que explica a redistribuição espacial da indústria no território. O equilíbrio entre capital direto e indireto também não é uma característica definidora da economia de mercado.",
+      "4": "A regulamentação da economia pode influenciar a localização industrial por meio de políticas públicas, mas não é o conceito central que explica a segmentação do território. A descentralização industrial, com suas consequências espaciais, é o processo que melhor descreve o fenômeno abordado."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O período JK (1956–1961) marcou a industrialização pesada no Brasil: com o Plano de Metas, o Estado associou capital público e estrangeiro para instalar a indústria automobilística, de bens de capital e de energia. A chegada de montadoras como Volkswagen, Ford e GM no ABC paulista transformou o Brasil de país agrário-exportador em economia industrial, mas aprofundou a dependência tecnológica e o endividamento externo.</p>",
-    "ajuda": "Pense nas características da industrialização pesada do período JK (1956-1961): entrada de capital estrangeiro, criação de indústrias de bens de consumo duráveis (automóveis), Plano de Metas. Analise cada afirmativa e identifique qual descreve corretamente a associação entre capital estatal, estrangeiro e a localização das novas indústrias."
+    "ajuda": "Pense nas características da industrialização pesada do período JK (1956-1961): entrada de capital estrangeiro, criação de indústrias de bens de consumo duráveis (automóveis), Plano de Metas. Analise cada afirmativa e identifique qual descreve corretamente a associação entre capital estatal, estrangeiro e a localização das novas indústrias.",
+    "feedbacks": {
+      "1": "O Plano de Metas de JK (1956-1961) visava diversificar e aprofundar a industrialização, não apenas incrementar o que já existia em São Paulo e Rio de Janeiro. O Plano de Metas buscava a instalação de novos setores industriais, especialmente automóveis e energia, avançando além da industrialização existente.",
+      "2": "A indústria têxtil brasileira se desenvolveu no final do século XIX e início do XX, em período anterior ao descrito na questão. A industrialização do período abordado envolveu a instalação de bens de capital com capital estatal e estrangeiro, e não a indústria têxtil de caráter nacionalista.",
+      "3": "As montadoras instalaram-se no ABC Paulista, ao longo do eixo das rodovias Anchieta e depois a Imigrantes, e não na direção de Ribeirão Preto. A Via Anhanguera levava ao interior do estado, mas as montadoras concentraram-se no Grande ABC, e não nessa direção.",
+      "4": "A substituição de importações caracteriza a industrialização brasileira desde os anos 1930, mas a fase específica do Plano de Metas avançou para além da simples substituição, instalando indústrias de bens de capital com capital estrangeiro. Além disso, a industrialização não se definiu principalmente pela abundância de mão de obra."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A escravidão foi um freio estrutural à industrialização brasileira: trabalho escravo não gera mercado consumidor, e sem demanda interna não há incentivo para a produção industrial. Enquanto EUA e Europa construíam fábricas no século XIX, o Brasil ainda dependia do trabalho forçado e das exportações de café, retardando em décadas a transição para uma economia industrial.</p>",
-    "ajuda": "Pense nos obstáculos históricos à industrialização brasileira: a escravidão limitava o mercado interno, pois escravos não eram consumidores. A produção agrária exportadora não gerava demanda por manufaturas nacionais. Analise qual alternativa identifica corretamente o principal entrave estrutural à industrialização no século XIX."
+    "ajuda": "Pense nos obstáculos históricos à industrialização brasileira: a escravidão limitava o mercado interno, pois escravos não eram consumidores. A produção agrária exportadora não gerava demanda por manufaturas nacionais. Analise qual alternativa identifica corretamente o principal entrave estrutural à industrialização no século XIX.",
+    "feedbacks": {
+      "0": "A independência do Brasil em 1822 foi tardia em relação à revolução industrial inglesa, mas países como Alemanha e Itália se industrializaram décadas depois sem que isso impedisse seu desenvolvimento. O atraso industrial não se explica pela independência tardia, mas pela estrutura socioeconômica baseada na escravidão.",
+      "1": "O Brasil possui reservas significativas de minério de ferro, especialmente no Quadrilátero Ferrífero e em Carajás. A falta de carvão mineral foi um obstáculo real, mas afirmar que o país não tinha matérias-primas fundamentais é uma generalização que ignora os abundantes recursos naturais disponíveis.",
+      "2": "A elite agrária do século XIX dificultava a industrialização, mas a questão da moeda valorizada encarecendo manufaturas não é a explicação central para o atraso industrial. Além disso, afirmar que não houve nenhum interesse na industrialização ignora iniciativas como as do Visconde de Mauá.",
+      "3": "A afirmação de que o povo brasileiro não tinha vocação para o trabalho industrial é uma explicação de caráter racista e culturalista, refutada pela historiografia. O atraso industrial decorreu da estrutura econômica escravista e da limitação do mercado interno, e não de características culturais dos trabalhadores."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O salto industrial dos anos 1940 no Brasil está diretamente ligado à criação da CSN (Companhia Siderúrgica Nacional) em Volta Redonda (1941), durante o governo Vargas. O aço nacional, antes importado, passou a abastecer a nascente indústria de bens de capital. Esse momento marca a passagem da fase de substituição de importações leves para a industrialização pesada, com forte protagonismo do Estado.</p>",
-    "ajuda": "Observe a tabela de crescimento industrial por região. Pense em qual período e qual região apresentaram maior crescimento industrial e por quê. Lembre-se de que a industrialização de base (siderurgia, energia, mineração) foi implantada no Sudeste nos anos 1940, com a criação da CSN em Volta Redonda. Associe o crescimento regional ao processo histórico."
+    "ajuda": "Observe a tabela de crescimento industrial por região. Pense em qual período e qual região apresentaram maior crescimento industrial e por quê. Lembre-se de que a industrialização de base (siderurgia, energia, mineração) foi implantada no Sudeste nos anos 1940, com a criação da CSN em Volta Redonda. Associe o crescimento regional ao processo histórico.",
+    "feedbacks": {
+      "0": "O Brasil não era um país efetivamente industrializado nas décadas de 1920 e 1940; a industrialização era incipiente e concentrada em bens de consumo leves. Além disso, a produção industrial era fortemente concentrada no Sudeste, e não distribuída igualmente pelo território.",
+      "1": "O crescimento industrial dos anos 1940 não libertou o Brasil da dependência de financiamentos externos; ao contrário, a industrialização sempre dependeu de capital estrangeiro e estatal. Essa dependência perdurou ao longo de todo o processo de industrialização.",
+      "3": "O fraco crescimento industrial da região Norte não está associado à composição racial da população, mas à estrutura econômica extrativista e à falta de infraestrutura. Explicações raciais para o desenvolvimento econômico regional são equivocadas e cientificamente refutadas.",
+      "4": "O crescimento industrial do Nordeste não se deve à mão de obra de descendentes de escravos como fator específico de localização. A industrialização nordestina foi limitada pela falta de infraestrutura, pelo modelo agroexportador e pela concorrência com o Sudeste."
+    }
   },
   {
     "id": 5,
@@ -113,7 +137,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O paradoxo do Brasil — industrializado e subdesenvolvido — revela que industrialização não é sinônimo de desenvolvimento. O país construiu um parque industrial diversificado, mas manteve desigualdades sociais estruturais, dependência tecnológica e concentração de renda. O subdesenvolvimento brasileiro é qualitativo: o PIB cresceu, mas a distribuição de seus benefícios permaneceu profundamente desigual.</p>",
-    "ajuda": "Lembre-se de que industrialização e urbanização não eliminam automaticamente o subdesenvolvimento. Pense no conceito de subdesenvolvimento: ele está relacionado à desigualdade social, à dependência tecnológica e econômica, e não apenas ao grau de urbanização ou industrialização. Qual alternativa melhor articula esses conceitos?"
+    "ajuda": "Lembre-se de que industrialização e urbanização não eliminam automaticamente o subdesenvolvimento. Pense no conceito de subdesenvolvimento: ele está relacionado à desigualdade social, à dependência tecnológica e econômica, e não apenas ao grau de urbanização ou industrialização. Qual alternativa melhor articula esses conceitos?",
+    "feedbacks": {
+      "1": "O subdesenvolvimento não é superado automaticamente com a industrialização e a urbanização; países podem ser industrializados e urbanizados com profundas desigualdades. O Brasil é exemplo de país industrializado com alto grau de desigualdade social.",
+      "2": "A industrialização brasileira não eliminou o subdesenvolvimento; ao contrário, reproduziu desigualdades sociais e regionais profundas. Afirmar que o subdesenvolvimento é apenas uma etapa a ser superada ignora a permanência estrutural das desigualdades no país.",
+      "3": "A visão dos dois Brasis é uma simplificação que ignora as desigualdades intrarregionais. O Nordeste não é homogeneamente rural e atrasado, pois possui metrópoles como Recife, Salvador e Fortaleza; o Centro-Sul também apresenta regiões pobres e desiguais.",
+      "4": "As regiões brasileiras não permaneceram como ilhas econômicas voltadas exclusivamente ao exterior; a industrialização criou fluxos internos de mercadorias, capitais e pessoas. A integração do mercado interno foi justamente um dos resultados do processo de industrialização brasileiro."
+    }
   },
   {
     "id": 6,
@@ -137,7 +167,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A industrialização tardia do Brasil gerou dependência estrutural da economia europeia e americana: faltava capital, tecnologia e mão de obra qualificada. Esse atraso resultou na necessidade de importar máquinas, tomar empréstimos e abrir o mercado ao capital estrangeiro — perpetuando relações assimétricas que a teoria da dependência, de Cardoso e Faletto, buscou explicar.</p>",
-    "ajuda": "Leia o texto de Paul Singer sobre a estrutura econômica do Brasil pós-independência. Pense em qual relação o Brasil manteve com a economia europeia: exportador de produtos primários, dependente de capitais externos para infraestrutura. Qual alternativa descreve corretamente essa dependência e seu impacto no processo de industrialização tardia?"
+    "ajuda": "Leia o texto de Paul Singer sobre a estrutura econômica do Brasil pós-independência. Pense em qual relação o Brasil manteve com a economia europeia: exportador de produtos primários, dependente de capitais externos para infraestrutura. Qual alternativa descreve corretamente essa dependência e seu impacto no processo de industrialização tardia?",
+    "feedbacks": {
+      "0": "O Brasil não se industrializou rapidamente no período colonial; a colônia era baseada na exportação de produtos primários, sem industrialização. O desenvolvimento industrial começou apenas no século XX, muito após o período colonial.",
+      "1": "O Brasil não extinguiu completamente as estruturas coloniais com a industrialização; o latifúndio e o trabalho precarizado persistiram mesmo após a abolição da escravidão. A industrialização coexistiu com relações de trabalho muito desiguais.",
+      "3": "O capital estrangeiro que chegou ao Brasil contribuiu para a construção de infraestrutura de serviços urbanos, como ferrovias, serviços de gás e eletricidade. Afirmar que não trouxe ganhos para a infraestrutura urbana contradiz o papel dos investimentos britânicos e americanos nesses setores.",
+      "4": "A industrialização brasileira não foi estimulada diretamente pela Grã-Bretanha; os britânicos preferiam o Brasil como mercado consumidor de seus manufaturados, e não como concorrente industrial. Os investimentos britânicos focaram em infraestrutura (ferrovias, bancos), e não no desenvolvimento da indústria local."
+    }
   },
   {
     "id": 7,
@@ -158,7 +194,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O período Vargas (1930–1945) consolidou a substituição da mão de obra imigrante pela nacional, com a criação da CLT (1943) e os direitos trabalhistas. Ao mesmo tempo, o populismo varguista direcionou a política industrial para a construção de um mercado interno capaz de absorver a produção nacional, rompendo com o modelo exclusivamente agroexportador da República Velha.</p>",
-    "ajuda": "Pense no período de 1930 a 1955 na industrialização brasileira: o Estado assumiu um papel central com a criação de empresas estatais (Petrobras, CSN, Vale do Rio Doce) e estímulo à indústria de base. Getúlio Vargas foi o grande protagonista desse processo. Qual alternativa descreve corretamente as transformações desse período na organização industrial?"
+    "ajuda": "Pense no período de 1930 a 1955 na industrialização brasileira: o Estado assumiu um papel central com a criação de empresas estatais (Petrobras, CSN, Vale do Rio Doce) e estímulo à indústria de base. Getúlio Vargas foi o grande protagonista desse processo. Qual alternativa descreve corretamente as transformações desse período na organização industrial?",
+    "feedbacks": {
+      "0": "A internacionalização por meio de grandes complexos industriais não é a caracterização do momento histórico descrito. Essa alternativa descreve uma fase posterior e mais avançada, e não o momento de consolidação da industrialização nacional com mão de obra própria.",
+      "1": "A abertura das fronteiras ao capital estrangeiro com incentivos fiscais e cambiais descreve a política neoliberal dos anos 1990, e não o momento da industrialização nacional consolidada. As características descritas correspondem a uma fase diferente do processo de industrialização.",
+      "2": "A definição das condições para a industrialização a partir da produção cafeeira e da imigração descreve a fase inicial da industrialização brasileira, anterior ao momento de consolidação com mão de obra nacional. Essa alternativa corresponde ao período do final do século XIX e início do XX."
+    }
   },
   {
     "id": 8,
@@ -180,7 +221,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A industrialização brasileira passou por fases distintas: produção de bens de consumo leve (têxteis, alimentos) até os anos 1950; bens de consumo durável e bens de capital (automóveis, aço) com JK; e complexificação tecnológica com o regime militar. Cada fase aprofundou a urbanização e a concentração industrial no Sudeste, especialmente em São Paulo.</p>",
-    "ajuda": "Analise cada afirmativa (V ou F) sobre as etapas da industrialização brasileira. Pense: Vargas criou empresas estatais de infraestrutura? JK abriu ao capital estrangeiro (automobilístico)? O regime militar se apoiou no capital privado nacional e evitou endividamento? Os anos 1990 trouxeram privatizações neoliberais? As multinacionais controlam as indústrias leves hoje?"
+    "ajuda": "Analise cada afirmativa (V ou F) sobre as etapas da industrialização brasileira. Pense: Vargas criou empresas estatais de infraestrutura? JK abriu ao capital estrangeiro (automobilístico)? O regime militar se apoiou no capital privado nacional e evitou endividamento? Os anos 1990 trouxeram privatizações neoliberais? As multinacionais controlam as indústrias leves hoje?",
+    "feedbacks": {
+      "0": "F - F - V - F - V classifica as afirmativas I e II como falsas e a V como verdadeira, contrariando o gabarito. As afirmativas I e II são verdadeiras, e a V é falsa conforme a combinação correta.",
+      "1": "F - F - V - V - V classifica as afirmativas I e II como falsas e a V como verdadeira, invertendo o gabarito em ambos os casos. As afirmativas I e II são verdadeiras, e a V é falsa.",
+      "2": "V - V - F - F - V classifica a afirmativa IV como falsa e a V como verdadeira, invertendo o gabarito em ambos os casos. A afirmativa IV é verdadeira, e a V é falsa conforme o gabarito correto.",
+      "3": "F - V - V - V - F classifica a afirmativa I como falsa, quando ela é verdadeira. O gabarito correto indica que as afirmativas I e II são verdadeiras, a III é falsa, a IV é verdadeira e a V é falsa."
+    }
   },
   {
     "id": 9,
@@ -204,7 +251,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A economia agroexportadora foi o modelo econômico dominante no Brasil desde o século XVI até a industrialização do século XX. Baseada na produção de commodities para o mercado externo (açúcar, ouro, borracha, café), essa estrutura manteve o país como exportador de matérias-primas e importador de manufaturados, criando a dependência econômica que a industrialização posterior tentaria romper.</p>",
-    "ajuda": "Observe a figura e o texto sobre a economia agroexportadora. Pense no modelo econômico do Brasil colonial e imperial: exportação de produtos primários (cana, látex, algodão) para o mercado externo, formação de uma elite rural ligada à grande propriedade e ao trabalho escravo. Qual conceito descreve corretamente esse modelo econômico?"
+    "ajuda": "Observe a figura e o texto sobre a economia agroexportadora. Pense no modelo econômico do Brasil colonial e imperial: exportação de produtos primários (cana, látex, algodão) para o mercado externo, formação de uma elite rural ligada à grande propriedade e ao trabalho escravo. Qual conceito descreve corretamente esse modelo econômico?",
+    "feedbacks": {
+      "0": "A desconcentração industrial é um processo que ocorreu a partir dos anos 1970, com a redistribuição das indústrias para além do Sudeste. Esse processo é posterior à fase descrita, que corresponde à base econômica que antecedeu e viabilizou a industrialização.",
+      "2": "A modernização periférica descreve o processo de modernização que alcançou apenas parcialmente as regiões e setores do Brasil, e não a fase econômica que antecedeu a industrialização. Não é o conceito que melhor caracteriza a base econômica que criou as condições para a industrialização.",
+      "3": "A economia urbano-industrial é a fase que resultou da industrialização, e não a que a antecedeu. A questão pede o conceito da fase econômica que precedeu e possibilitou a industrialização, que é a economia agroexportadora.",
+      "4": "A substituição de importações foi a estratégia industrial adotada a partir dos anos 1930, dentro do próprio processo de industrialização. Não é o conceito que define a fase econômica anterior à industrialização, mas uma estratégia dentro do processo industrial."
+    }
   },
   {
     "id": 10,
@@ -226,6 +279,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O domínio cafeeiro no Sudeste foi a principal alavanca da industrialização brasileira: o café gerou o capital acumulado para investir em fábricas, atraiu imigrantes europeus que forneceram mão de obra industrial, e criou a infraestrutura ferroviária que conectou São Paulo ao porto de Santos. Por isso, São Paulo tornou-se o centro industrial do Brasil, enquanto outras regiões permaneceram à margem do processo.</p>",
-    "ajuda": "Pense nos fatores que explicam a concentração industrial em São Paulo e Rio de Janeiro no final do século XIX e início do XX. A cafeicultura gerou acumulação de capital e atraiu imigrantes europeus que formaram mão de obra assalariada para as fábricas. Qual alternativa combina corretamente os fatores históricos que impulsionaram a industrialização no Sudeste?"
+    "ajuda": "Pense nos fatores que explicam a concentração industrial em São Paulo e Rio de Janeiro no final do século XIX e início do XX. A cafeicultura gerou acumulação de capital e atraiu imigrantes europeus que formaram mão de obra assalariada para as fábricas. Qual alternativa combina corretamente os fatores históricos que impulsionaram a industrialização no Sudeste?",
+    "feedbacks": {
+      "0": "A cafeicultura gerou um mercado interno, e não externo, como base para a industrialização. Além disso, não foram casas de importação por emigrantes os principais agentes da industrialização, mas sim a acumulação de capital dos cafeicultores e a chegada de imigrantes como mão de obra.",
+      "2": "A mineração não foi a atividade econômica dominante em São Paulo que criou as condições para a industrialização. Foi a cafeicultura, e não a mineração, que gerou acumulação de capital e infraestrutura para a industrialização paulista no final do século XIX e início do XX.",
+      "3": "A mineração em São Paulo não foi a atividade que permitiu a acumulação de capital para a industrialização; esse papel foi da cafeicultura. Além disso, o fluxo foi de imigrantes chegando ao Brasil, e não de emigrantes saindo do país.",
+      "4": "A abolição da escravidão em 1888 criou demanda por mão de obra assalariada, mas não foi o principal fator de concentração da população no Sudeste para fins de industrialização. O motor da industrialização paulista foi a acumulação de capital da cafeicultura associada à imigração estrangeira."
+    }
   }
 ]

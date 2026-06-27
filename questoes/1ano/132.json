@@ -21,7 +21,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O desenvolvimento sustentável que respeita o saber local comunitário é chamado de etnodesenvolvimento ou agroecologia. Povos indígenas e comunidades tradicionais possuem conhecimento milenar sobre uso dos recursos naturais sem esgotá-los. Reconhecer esse saber na formulação de políticas ambientais é fundamental — e é exatamente o que a Convenção sobre Diversidade Biológica (CDB) preconiza.</p>",
-    "ajuda": "O paradigma produtivo descrito provavelmente é o desenvolvimento sustentável, a economia circular ou a ecologia industrial. Identifique como o texto caracteriza a relação entre tecnologia e ecologia nesse modelo e avalie qual alternativa melhor representa essa ideia."
+    "ajuda": "O paradigma produtivo descrito provavelmente é o desenvolvimento sustentável, a economia circular ou a ecologia industrial. Identifique como o texto caracteriza a relação entre tecnologia e ecologia nesse modelo e avalie qual alternativa melhor representa essa ideia.",
+    "feedbacks": {
+      "0": "A ideia de 'natureza intocada' é o conceito de preservação radical que exclui a presença humana dos ecossistemas. Não corresponde à agroecologia, que integra o manejo humano sustentável com o respeito aos saberes tradicionais das comunidades.",
+      "1": "A lógica de mercado internacional é justamente o que a agroecologia critica: a monocultura para exportação e a dependência de insumos externos são características do agronegócio convencional, o oposto da agricultura agroecológica.",
+      "3": "O cultivo orgânico é um passo importante, mas não esgota o conceito de agroecologia. A agroecologia incorpora saberes locais, diversidade de cultivos, autonomia das comunidades e relações sociais sustentáveis, indo além do cultivo orgânico isolado.",
+      "4": "A agroecologia não é um retorno a 'práticas agrícolas arcaicas': ela incorpora conhecimento científico moderno junto ao saber local. Não é um retrocesso tecnológico, mas uma síntese entre tradição e inovação orientada pela sustentabilidade."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As 'ilhas de plástico' nos oceanos concentram-se nos giros oceânicos — correntes circulares criadas pela rotação da Terra e pelos ventos. Os plásticos levados pelos rios convergem nesses giros e ficam presos. O Great Pacific Garbage Patch (Pacífico Norte) é o mais conhecido, com ~1,6 milhão de km² de microplásticos e plásticos flutuantes — duas vezes o tamanho do Texas.</p>",
-    "ajuda": "Os resíduos plásticos e outros materiais descartados inadequadamente acumulam-se nos oceanos, solos e ar, causando poluição ambiental severa. A microplástico é um dos maiores problemas atuais, contaminando cadeias alimentares marinhas e até o sangue humano."
+    "ajuda": "Os resíduos plásticos e outros materiais descartados inadequadamente acumulam-se nos oceanos, solos e ar, causando poluição ambiental severa. A microplástico é um dos maiores problemas atuais, contaminando cadeias alimentares marinhas e até o sangue humano.",
+    "feedbacks": {
+      "1": "As ilhas de lixo plástico não se acumulam no litoral, mas no interior dos oceanos, onde os giros oceânicos concentram os detritos flutuantes. As correntes costeiras tendem a afastar o lixo da costa para o interior dos giros.",
+      "2": "A concentração de plásticos oceânicos não se dá por causa das temperaturas mais baixas do Hemisfério Norte. A formação das ilhas de lixo depende dos padrões dos giros oceânicos e da quantidade de plástico gerado, não da temperatura da água.",
+      "3": "As concentrações de lixo plástico não são idênticas em ambos os hemisférios: o Hemisfério Norte, com maior densidade industrial e populacional, gera mais plástico. Os padrões de correntes dos dois hemisférios também são distintos, criando acúmulos desiguais.",
+      "4": "Os plásticos não se concentram mais no Hemisfério Norte apenas pela 'grande mobilidade de correntes'. O fator determinante são os giros oceânicos subtropicais que aprisionam o lixo flutuante em seu centro. O giro do Pacífico Norte tem o maior acúmulo conhecido."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A vegetação primária indicada como C no mapa — geralmente floresta tropical densa — é caracterizada por espécies latifoliadas (folhas largas) de grande porte e regimes pluviométricos elevados (acima de 1.500-2.000 mm/ano). Afirmar o contrário — que essa vegetação não tem essas características — é incorreto segundo os conceitos de biogeografia.</p>",
-    "ajuda": "O mapa provavelmente representa a cobertura vegetal atual de um bioma em comparação com sua extensão original. A questão pede a alternativa INCORRETA. Verifique as afirmativas: taxa de desmatamento, localização geográfica, ameaças à biodiversidade."
+    "ajuda": "O mapa provavelmente representa a cobertura vegetal atual de um bioma em comparação com sua extensão original. A questão pede a alternativa INCORRETA. Verifique as afirmativas: taxa de desmatamento, localização geográfica, ameaças à biodiversidade.",
+    "feedbacks": {
+      "1": "A descrição de 'perfil morfológico diverso, campos herbáceos até árvores esparsas' corresponde a um bioma de savana ou cerrado (D), não à floresta tropical densa de grande porte indicada em C na figura.",
+      "2": "A descrição 'relativamente homogênea, historicamente impactada pela exploração da madeira' corresponde melhor à floresta boreal/taiga (B), com suas coníferas homogêneas. Não descreve a floresta tropical latifoliada de grande biodiversidade.",
+      "3": "A descrição 'pequenos vegetais espaçados, com predominância de líquens e musgos' corresponde à tundra (A), bioma polar de vegetação rasteira. Não descreve a floresta tropical densa de grande porte com dossel contínuo."
+    }
   },
   {
     "id": 4,
@@ -92,7 +109,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A proibição permanente da exploração da natureza não é uma posição adotada por nenhum governo ou acordo internacional — ela seria inviável do ponto de vista econômico e social. O debate ambiental contemporâneo centra-se no uso sustentável dos recursos, que permite a exploração desde que dentro dos limites de regeneração dos ecossistemas e com distribuição justa dos benefícios.</p>",
-    "ajuda": "A questão aborda as concepções políticas sobre a questão ambiental, como o ambientalismo radical, o ecologismo moderado e o desenvolvimento sustentável. Identifique qual corrente política melhor se encaixa à caracterização descrita."
+    "ajuda": "A questão aborda as concepções políticas sobre a questão ambiental, como o ambientalismo radical, o ecologismo moderado e o desenvolvimento sustentável. Identifique qual corrente política melhor se encaixa à caracterização descrita.",
+    "feedbacks": {
+      "0": "O desenvolvimento sustentável não se limita a 'práticas econômicas sustentáveis' isoladas. Ele busca conciliar crescimento econômico, equidade social e preservação ambiental de forma integrada, não apenas tornar práticas econômicas individualmente sustentáveis.",
+      "1": "A contenção de impactos ambientais é um objetivo parcial do desenvolvimento sustentável, não sua definição completa. O desenvolvimento sustentável vai além de mitigar impactos: busca conciliação entre crescimento, equidade e preservação de forma estrutural.",
+      "2": "A 'utilização progressiva dos recursos naturais' descreve exatamente o modelo de exploração que o desenvolvimento sustentável critica. O uso progressivo e sem limites é o modelo convencional, não o sustentável, que exige uso dentro dos limites de regeneração dos ecossistemas.",
+      "4": "A 'definição de áreas prioritárias para exploração econômica' é um instrumento de gestão territorial, não a definição de desenvolvimento sustentável. Pode compor um plano sustentável, mas não define o conceito em sua totalidade."
+    }
   },
   {
     "id": 5,
@@ -116,7 +139,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O efeito estufa natural é essencial para a vida — sem ele, a temperatura média da Terra seria de -18°C. Os gases de efeito estufa (CO₂, metano, vapor d'água, N₂O) absorvem a radiação infravermelha emitida pela Terra e a re-irradiam para a superfície. O problema atual é a intensificação antrópica desse efeito, que está elevando a temperatura global além dos limites históricos.</p>",
-    "ajuda": "O efeito estufa é um fenômeno natural essencial para a manutenção da temperatura da Terra. O problema é o efeito estufa intensificado pela queima de combustíveis fósseis, que aumenta a concentração de CO₂, metano e outros gases e eleva a temperatura média global."
+    "ajuda": "O efeito estufa é um fenômeno natural essencial para a manutenção da temperatura da Terra. O problema é o efeito estufa intensificado pela queima de combustíveis fósseis, que aumenta a concentração de CO₂, metano e outros gases e eleva a temperatura média global.",
+    "feedbacks": {
+      "0": "A sequencia V-F-F-V indica que a segunda e a terceira afirmativas seriam falsas, mas ambas são verdadeiras. Nesta questão, todas as quatro afirmativas são verdadeiras.",
+      "1": "A sequencia F-V-V-F indica que a primeira e a quarta afirmativas seriam falsas, mas ambas são verdadeiras. Nesta questão, todas as quatro proposições são corretas.",
+      "2": "A sequencia F-F-V-F indica que apenas a terceira afirmativa seria verdadeira, mas as demais também são verdadeiras. Todas as quatro afirmativas desta questão estão corretas.",
+      "3": "A sequencia V-V-F-V indica que a terceira afirmativa seria falsa, mas ela é verdadeira. Todas as quatro afirmativas desta questão são verdadeiras."
+    }
   },
   {
     "id": 6,
@@ -140,7 +169,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O lixo urbano, ao ser disposto de forma inadequada (lixões a céu aberto), contamina o solo e os lençóis freáticos pelo lixiviado (chorume) — líquido escuro e tóxico gerado pela decomposição dos resíduos. Além disso, gera metano (gás de efeito estufa) e atrai vetores de doenças. No Brasil, apesar da Política Nacional de Resíduos Sólidos (2010), ainda existem milhares de lixões ativos.</p>",
-    "ajuda": "A sociedade consumista gera volumes crescentes de resíduos sólidos, especialmente plásticos. As políticas de gestão de resíduos seguem a hierarquia: reduzir, reutilizar, reciclar, recuperar energia e, por último, disposição em aterros."
+    "ajuda": "A sociedade consumista gera volumes crescentes de resíduos sólidos, especialmente plásticos. As políticas de gestão de resíduos seguem a hierarquia: reduzir, reutilizar, reciclar, recuperar energia e, por último, disposição em aterros.",
+    "feedbacks": {
+      "1": "Os efeitos do descarte inadequado de resíduos não são 'sanados por cadeias de organismos decompositores'. Plásticos, metais pesados e substâncias químicas persistem no ambiente por décadas ou séculos, bem além da capacidade de decomposição biológica.",
+      "2": "Os lixões a céu aberto são um problema ambiental grave, não 'ferramentas capazes de resolver o problema do lixo'. São a pior forma de disposição de resíduos: contaminam o solo e o lençol freático e geram vetores de doenças.",
+      "3": "Os catadores desempenham papel social importante na reciclagem, mas afirmar que o descarte inadequado 'estimula o empreendedorismo social' é uma distorção. A precarização do trabalho dos catadores é um problema social a ser superado, não uma solução positiva para o lixo.",
+      "4": "O descarte inadequado de resíduos não amplia os rejeitos destinados a cooperativas de reciclagem: o lixo descartado irregularmente vai para lixões ou o meio ambiente, não para cooperativas. A alternativa inverte completamente o funcionamento da gestão de resíduos."
+    }
   },
   {
     "id": 7,
@@ -164,7 +199,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As sociedades tradicionais e povos indígenas resistem à imposição do modelo produtivo capitalista — que mercantiliza a natureza, degrada o trabalho e destrói as tradições culturais. Essa resistência é ao mesmo tempo ambiental, cultural e política. Os conflitos por território entre agronegócio e povos originários no Brasil expressam essa tensão de forma dramática.</p>",
-    "ajuda": "O desenvolvimento técnico-produtivo modifica a paisagem ao substituir formas naturais por formas artificiais (urbanização, indústria, agronegócio). Identifique quais transformações estão sendo descritas e avalie seus impactos ambientais e sociais."
+    "ajuda": "O desenvolvimento técnico-produtivo modifica a paisagem ao substituir formas naturais por formas artificiais (urbanização, indústria, agronegócio). Identifique quais transformações estão sendo descritas e avalie seus impactos ambientais e sociais.",
+    "feedbacks": {
+      "0": "As ideologias conservacionistas são uma das expressões do ambientalismo, mas não explicam por si sós o surgimento do movimento ecológico. O ambientalismo emergiu também de movimentos sociais mais amplos de contestação ao modelo de desenvolvimento industrial.",
+      "1": "As políticas governamentais de preservação foram em muitos casos uma resposta às pressões dos movimentos sociais, não seu ponto de partida. Elas acompanharam as demandas sociais e não foram a origem do movimento ecológico.",
+      "2": "As teorias sobre harmonização entre técnica e natureza fazem parte do debate ambiental, mas não explicam o surgimento do movimento ecológico em sua raiz histórica e social. O ambientalismo tem origens mais amplas de contestação ao modelo industrial.",
+      "3": "Os boicotes a empresas poluentes são uma tática do ambientalismo, não sua origem histórica. O movimento ecológico surgiu de uma contestação mais profunda ao modelo de desenvolvimento industrial que degrada simultaneamente o trabalho, as tradições e a natureza."
+    }
   },
   {
     "id": 8,
@@ -186,7 +227,12 @@
     ],
     "correta": 3,
     "comentario": "<p>El Niño aquece as águas do Pacífico Equatorial e altera os padrões de precipitação globais. No Brasil, tende a aumentar as chuvas no Sul e causar seca no Norte e Nordeste, inclusive na Amazônia. Isso, paradoxalmente, pode aumentar o risco de incêndios na floresta em anos de El Niño forte — quando a Amazônia sofre déficit hídrico e as queimadas se propagam mais facilmente.</p>",
-    "ajuda": "O fluxograma representa provavelmente um ciclo de impactos ambientais, como o ciclo do carbono, o ciclo dos resíduos ou a relação entre desmatamento e erosão. Identifique a lógica de causa e efeito no diagrama e avalie as conclusões possíveis."
+    "ajuda": "O fluxograma representa provavelmente um ciclo de impactos ambientais, como o ciclo do carbono, o ciclo dos resíduos ou a relação entre desmatamento e erosão. Identifique a lógica de causa e efeito no diagrama e avalie as conclusões possíveis.",
+    "feedbacks": {
+      "0": "A questao pede a afirmativa INCORRETA. A inflamabilidade da floresta decorrente de ações humanas (desmatamento, abertura de pastagens) é um fato bem documentado. Esta afirmativa está CORRETA e não deve ser marcada como a incorreta.",
+      "1": "A questao pede a afirmativa INCORRETA. A redução da cobertura florestal comprometendo a evapotranspiração pode reduzir as chuvas regionais a longo prazo, criando ciclos de degradação. Esta afirmativa está CORRETA e não deve ser marcada.",
+      "2": "A questao pede a afirmativa INCORRETA. O aumento das queimadas gerando um ciclo vicioso (mais fogo resseca a floresta, tornando-a mais suscetível a novos incêndios) é uma dinâmica real e cientificamente documentada. Esta afirmativa está CORRETA e não deve ser marcada."
+    }
   },
   {
     "id": 9,
@@ -208,7 +254,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O desenvolvimento sustentável visa satisfazer as necessidades do presente sem comprometer a capacidade das gerações futuras. Mas esse conceito enfrenta tensões reais: o crescimento econômico baseado em exportação de commodities (soja, minério, petróleo) gera renda a curto prazo, mas pode esgotar recursos e degradar ecossistemas de forma irreversível a longo prazo.</p>",
-    "ajuda": "O desenvolvimento sustentável, conceito popularizado pelo Relatório Brundtland (1987), é definido como o desenvolvimento que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atender às suas próprias necessidades."
+    "ajuda": "O desenvolvimento sustentável, conceito popularizado pelo Relatório Brundtland (1987), é definido como o desenvolvimento que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atender às suas próprias necessidades.",
+    "feedbacks": {
+      "0": "Esta alternativa apresenta uma condicional sobre os modelos predatórios de desenvolvimento que pode ser verdadeira, mas o texto completo pode conter imprecisões ou ir além do que os dados permitem afirmar. A alternativa 1 descreve com mais precisão o que é um projeto de desenvolvimento.",
+      "2": "Afirmar que há 'inúmeros problemas na GARANTIA' do desenvolvimento sustentável coloca um nível de ceticismo que pode não corresponder ao foco da questão. A alternativa 1 descreve de forma mais direta e precisa o objetivo do desenvolvimento buscado.",
+      "3": "A sustentabilidade no cotidiano é uma ideia válida, mas a afirmativa incompleta desta alternativa não captura a dimensão mais ampla e estrutural do desenvolvimento sustentável que a questão aborda."
+    }
   },
   {
     "id": 10,
@@ -230,6 +281,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O relatório Brundtland (1987) definiu desenvolvimento sustentável como 'aquele que atende às necessidades do presente sem comprometer a capacidade das gerações futuras de atenderem as suas próprias necessidades'. Esse conceito foi adotado nas grandes conferências ambientais — Estocolmo (1972), Rio-92, Rio+20 — e orienta os Objetivos de Desenvolvimento Sustentável (ODS) da ONU.</p>",
-    "ajuda": "O texto provavelmente questiona se a devastação ambiental é inevitável ou se pode ser reconciliada com o desenvolvimento econômico. Identifique a posição do autor e avalie qual alternativa melhor representa o argumento sobre os limites do crescimento industrial."
+    "ajuda": "O texto provavelmente questiona se a devastação ambiental é inevitável ou se pode ser reconciliada com o desenvolvimento econômico. Identifique a posição do autor e avalie qual alternativa melhor representa o argumento sobre os limites do crescimento industrial.",
+    "feedbacks": {
+      "0": "Sustentar 'a inevitável necessidade do desenvolvimento' não reflete o debate sobre desenvolvimento sustentável, que questiona os modelos de crescimento sem limites. O desenvolvimento sustentável não aceita o crescimento como necessidade inevitável e irrestrita.",
+      "1": "Afirmar que 'o desenvolvimento contemporâneo não se sustenta' é uma crítica, não uma proposta. O desenvolvimento sustentável busca reformar e reorientar o desenvolvimento, não simplesmente negar sua sustentabilidade atual.",
+      "2": "Sustentar 'o meio ambiente em detrimento do desenvolvimento' é a posição preservacionista radical, não a do desenvolvimento sustentável. O conceito busca equilibrar as duas dimensões, não sacrificar uma pela outra.",
+      "4": "Divulgar 'a insustentável situação do meio ambiente' é um objetivo diagnóstico dos movimentos ambientalistas, não a definição de desenvolvimento sustentável. O desenvolvimento sustentável propõe soluções e conciliação, não apenas o diagnóstico do problema."
+    }
   }
 ]

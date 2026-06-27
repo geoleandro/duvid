@@ -20,7 +20,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A bacia hidrográfica como unidade de análise espacial permite integrar todos os impactos humanos — desmatamento, urbanização, agricultura, mineração — e avaliar seus efeitos sobre o ciclo hidrológico de forma sistêmica. A Lei das Águas brasileira (9.433/1997) adotou a bacia como unidade de planejamento, criando os Comitês de Bacia Hidrográfica para gestão participativa.</p>",
-    "ajuda": "Uma bacia hidrográfica é delimitada pelos divisores de água (espigões ou serras) e inclui todos os cursos d'água que convergem para um rio principal. Ela é usada como unidade de gestão territorial porque integra aspectos naturais (solo, vegetação, hidrologia) e humanos (uso do solo)."
+    "ajuda": "Uma bacia hidrográfica é delimitada pelos divisores de água (espigões ou serras) e inclui todos os cursos d'água que convergem para um rio principal. Ela é usada como unidade de gestão territorial porque integra aspectos naturais (solo, vegetação, hidrologia) e humanos (uso do solo).",
+    "feedbacks": {
+      "0": "Os impactos no sistema hidrológico são importantes, mas a gestão por bacias hidrográficas tem abrangência mais ampla do que apenas aspectos comerciais e de mineração. Ela envolve todos os usos da água e do território, não apenas atividades econômicas específicas.",
+      "2": "Os aspectos do ambiente NÃO podem ser estudados isoladamente na perspectiva da bacia hidrográfica: ela é justamente um modelo integrador. A degradação de um afluente afeta toda a bacia, e o desmatamento em uma sub-bacia impacta a vazão do rio principal.",
+      "3": "Os rios e suas paisagens adjacentes são componentes importantes da bacia hidrográfica, mas a bacia não se resume a eles. Ela inclui toda a área de drenagem delimitada pelos divisores de água, englobando vertentes, topos e toda a superfície que escoa para aquele sistema fluvial."
+    }
   },
   {
     "id": 2,
@@ -44,7 +49,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O ciclo hidrológico envolve três processos principais: evaporação (passagem da água líquida para vapor pela energia solar), precipitação (condensação e queda do vapor como chuva ou neve) e transpiração (liberação de vapor d'água pelas plantas). A transpiração somada à evaporação forma a evapotranspiração — processo fundamental para a regulação climática e o ciclo da água.</p>",
-    "ajuda": "Os fenômenos A, B e C provavelmente se referem a processos do ciclo hidrológico (evaporação, precipitação, infiltração) ou a feições geomorfológicas fluviais (erosão, deposição, meandramento). Identifique cada fenômeno pela imagem ou pela descrição fornecida."
+    "ajuda": "Os fenômenos A, B e C provavelmente se referem a processos do ciclo hidrológico (evaporação, precipitação, infiltração) ou a feições geomorfológicas fluviais (erosão, deposição, meandramento). Identifique cada fenômeno pela imagem ou pela descrição fornecida.",
+    "feedbacks": {
+      "0": "O fluxo superficial, a evaporação e a condensação são partes do ciclo, mas 'fluxo superficial' não é uma das etapas fundamentais do ciclo hidrológico. As etapas mais representativas são a evaporação (entrada na atmosfera), a transpiração e a precipitação (retorno à superfície).",
+      "1": "A infiltração e o escoamento de neve são partes do ciclo, mas 'transporte' não é uma etapa consagrada do ciclo hidrológico. O ciclo é definido primariamente pela evaporação, precipitação e transpiração, não pelo transporte e pela infiltração como etapas principais.",
+      "2": "O fluxo de água subterrânea e a absorção das plantas são processos do ciclo, mas não suas etapas mais representativas. O 'fluxo na superfície' é uma consequência da precipitação. As etapas fundamentais são evaporação, transpiração e precipitação.",
+      "3": "A transpiração e a sublimação são partes do ciclo, mas a 'infiltração' é um processo de armazenamento, não uma das três etapas principais. Além disso, a sublimação é uma etapa secundária em climas tropicais, bem menos relevante que a evaporação."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As dorsais oceânicas são grandes cadeias montanhosas subaquáticas formadas nas zonas de divergência das placas tectônicas, onde o magma emerge e cria nova crosta oceânica. A Dorsal Mesatlântica tem mais de 16.000 km de extensão e altura de 2.000 a 3.000 metros acima do assoalho oceânico adjacente. São os maiores relevos do planeta em extensão.</p>",
-    "ajuda": "Dorsais oceânicas são cadeias de montanhas submarinas que se formam nas zonas de separação de placas tectônicas, onde o magma emerge e cria nova crosta oceânica. O termo 'dorsal' vem do latim e significa 'costas' ou 'espinha dorsal'."
+    "ajuda": "Dorsais oceânicas são cadeias de montanhas submarinas que se formam nas zonas de separação de placas tectônicas, onde o magma emerge e cria nova crosta oceânica. O termo 'dorsal' vem do latim e significa 'costas' ou 'espinha dorsal'.",
+    "feedbacks": {
+      "0": "As zonas de descontinuidades sísmicas são divisões internas da Terra (como a descontinuidade de Mohorovičić), não estruturas do assoalho oceânico. As dorsais oceânicas são cadeias montanhosas visíveis no fundo do mar, não limites internos da crosta.",
+      "1": "Os vales glaciais são formados pela erosão de geleiras em áreas continentais e montanhosas, não no fundo dos oceanos. As dorsais oceânicas são estruturas tectônicas submarinas formadas pela divergência de placas, sem relação com a ação glacial.",
+      "2": "Planaltos de origem cristalina são formações continentais compostas por rochas antigas. Não descrevem as cadeias montanhosas submarinas formadas pela ascensão de magma nas zonas de divergência das placas oceânicas.",
+      "3": "As formas de relevo litorâneo (praias, falésias, restingas, estuários) estão na transição entre continentes e oceanos, não no interior profundo dos oceanos onde as dorsais oceânicas se localizam."
+    }
   },
   {
     "id": 4,
@@ -89,7 +106,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O talude continental é a zona de transição entre a plataforma continental rasa e o fundo oceânico profundo, com declividade mais acentuada (3° a 6°). É uma feição importante para a exploração de petróleo e para a compreensão da margem passiva dos continentes — no caso do Brasil, a margem atlântica formada pela abertura do Oceano Atlântico há ~130 Ma.</p>",
-    "ajuda": "O desenho esquemático provavelmente representa uma estrutura geológica como uma sinclinal, anticlinal, fossa tectônica (graben) ou horste. Identifique o tipo de estrutura pelos padrões de dobramentos ou falhas visíveis."
+    "ajuda": "O desenho esquemático provavelmente representa uma estrutura geológica como uma sinclinal, anticlinal, fossa tectônica (graben) ou horste. Identifique o tipo de estrutura pelos padrões de dobramentos ou falhas visíveis.",
+    "feedbacks": {
+      "0": "A planície abissal é a área mais plana e profunda do fundo oceânico, localizada após o talude. Não é a encosta íngreme entre a plataforma e o fundo profundo: essa encosta é o talude continental.",
+      "2": "A plataforma continental é a extensão rasa dos continentes sob o oceano, que termina onde começa o talude. Não é a encosta íngreme: é a área plana e rasa que precede o mergulho abrupto do talude em direção às profundezas.",
+      "3": "O delta-estuário é uma feição formada na desembocadura dos rios, não no relevo oceânico profundo. Não é uma estrutura de relevo submarine entre a plataforma e o fundo oceânico.",
+      "4": "A dorsal oceânica é uma cadeia montanhosa no centro dos oceanos, formada pela separação das placas. É uma feição de relevo positivo (elevado) no centro dos oceanos, não a encosta íngreme adjacente ao continente."
+    }
   },
   {
     "id": 5,
@@ -110,7 +133,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A geomorfologia fluvial estuda as formas criadas pelos rios na paisagem. No alto curso, prevalecem vales encaixados e corredeiras; no médio curso, meandros e planícies de inundação; no baixo curso, deposição sedimentar, deltas e planícies costeiras. O perfil longitudinal de um rio tende ao 'perfil de equilíbrio' — curva côncava que equilibra erosão e deposição.</p>",
-    "ajuda": "A geomorfologia fluvial estuda as formas criadas pelos rios: meandros, leques aluviais, terraços, planícies de inundação (várzeas). Avalie cada afirmativa verificando se descreve corretamente o processo de erosão, transporte ou deposição dos rios."
+    "ajuda": "A geomorfologia fluvial estuda as formas criadas pelos rios: meandros, leques aluviais, terraços, planícies de inundação (várzeas). Avalie cada afirmativa verificando se descreve corretamente o processo de erosão, transporte ou deposição dos rios.",
+    "feedbacks": {
+      "1": "A sequencia V,F,V,V indica que a segunda afirmativa seria falsa, mas ela é verdadeira. Apenas a terceira afirmativa é falsa nesta questão. Reveja cada proposição para identificar corretamente qual é falsa.",
+      "2": "A sequencia F,F,V,V indica que tanto a primeira quanto a segunda afirmativa seriam falsas, mas ambas são verdadeiras. A única afirmativa falsa nesta questão é a terceira.",
+      "3": "A sequencia F,V,F,F indica que a primeira, terceira e quarta afirmativas seriam falsas. Na verdade, apenas a terceira é falsa; as demais (primeira, segunda e quarta) são verdadeiras."
+    }
   },
   {
     "id": 6,
@@ -135,7 +163,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A coincidência entre áreas de maior concentração populacional (sul asiático, norte da África, Oriente Médio) e áreas de escassez hídrica é um dos principais desafios geopolíticos do século XXI. Regiões densamente habitadas com pouca água dependem de aquíferos fósseis (não recarregáveis), dessalinização (cara) ou importação virtual de água via alimentos.</p>",
-    "ajuda": "A comparação entre dois mapas (de diferentes épocas, escalas ou temáticas) permite identificar mudanças no espaço geográfico ao longo do tempo ou diferenças entre regiões. Observe o que mudou ou diverge entre os mapas e tire uma conclusão."
+    "ajuda": "A comparação entre dois mapas (de diferentes épocas, escalas ou temáticas) permite identificar mudanças no espaço geográfico ao longo do tempo ou diferenças entre regiões. Observe o que mudou ou diverge entre os mapas e tire uma conclusão.",
+    "feedbacks": {
+      "0": "As maiores concentrações populacionais não ocorrem apenas onde há grande disponibilidade de água. O Nordeste brasileiro, o Oriente Médio e partes da Índia combinam alta densidade demográfica com escassez relativa. A disponibilidade hídrica não é o único fator determinante.",
+      "2": "Existe sim uma relação entre concentração populacional e disponibilidade de água: historicamente populações se instalam próximas a fontes. Negar qualquer relação ignora um dos fatores históricos de ocupação do território. A relação não é nula.",
+      "3": "As regiões de escassez hídrica não são necessariamente as de menor concentração: Índia, China e partes do Oriente Médio combinam alta densidade com escassez relativa. A afirmativa inverte a relação que se observa em muitas regiões populosas com água escassa.",
+      "4": "A necessidade de economia de água não é indicador direto de alta concentração populacional. A economia hídrica é necessária em regiões áridas independentemente da densidade demográfica. A relação causal proposta nesta alternativa não tem sustentação geográfica."
+    }
   },
   {
     "id": 7,
@@ -159,7 +193,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A ampliação de sistemas de reutilização hídrica é a solução mais racional para garantir o abastecimento sem aumentar a exploração de mananciais. Inclui: reúso de efluentes tratados para irrigação, resfriamento industrial e lavagem urbana. O Brasil tem potencial enorme nessa área, mas o aproveitamento ainda é incipiente — menos de 1% dos efluentes tratados é reutilizado.</p>",
-    "ajuda": "O uso da água é profundamente desigual entre as nações: países industrializados consomem mais água per capita; países com economias agrícolas exportam água 'virtual' embutida em seus produtos. Analise quais fatores determinam essa desigualdade."
+    "ajuda": "O uso da água é profundamente desigual entre as nações: países industrializados consomem mais água per capita; países com economias agrícolas exportam água 'virtual' embutida em seus produtos. Analise quais fatores determinam essa desigualdade.",
+    "feedbacks": {
+      "1": "A expansão da irrigação por aspersão pode AUMENTAR o consumo total de água na agricultura, pois amplia a área irrigada. Embora seja mais eficiente por hectare que a inundação, aumentar a área irrigada sem reduzir o consumo total não eleva a disponibilidade hídrica.",
+      "2": "O controle do desmatamento ajuda a preservar aquíferos e o regime de chuvas a longo prazo, mas não aumenta diretamente a disponibilidade imediata de água. É uma medida preventiva, não a mais eficaz para ampliar a disponibilidade no curto prazo.",
+      "3": "As técnicas tradicionais de produção variam muito e não garantem, por si só, maior disponibilidade de água. Algumas são intensivas em água e dependem de chuva irregular, sem contribuição direta para aumentar a disponibilidade hídrica.",
+      "4": "Incentivos fiscais para cultivo orgânico reduzem o uso de agrotóxicos e podem melhorar a qualidade da água, mas não aumentam diretamente a QUANTIDADE disponível. A questão pede a medida mais eficaz para ampliar a disponibilidade, não apenas melhorar a qualidade."
+    }
   },
   {
     "id": 8,
@@ -181,7 +221,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A poluição hídrica compromete os recursos de água doce em escala global. Fontes pontuais (indústrias, esgoto urbano) e difusas (runoff agrícola) contaminam rios, lagos e aquíferos. Os desequilíbrios ambientais — como desmatamento e mudanças climáticas — agravam a situação ao alterar os regimes de chuvas e reduzir a disponibilidade hídrica em várias regiões.</p>",
-    "ajuda": "Para ser considerada potável, a água deve estar livre de patógenos, metais pesados e compostos químicos tóxicos, e respeitar parâmetros de pH, turbidez e cloro residual. O tratamento da água potável passa por coagulação, floculação, decantação, filtração e desinfecção."
+    "ajuda": "Para ser considerada potável, a água deve estar livre de patógenos, metais pesados e compostos químicos tóxicos, e respeitar parâmetros de pH, turbidez e cloro residual. O tratamento da água potável passa por coagulação, floculação, decantação, filtração e desinfecção.",
+    "feedbacks": {
+      "0": "Os recursos hídricos não estão equitativamente distribuídos: a Amazônia concentra enorme volume, enquanto o Oriente Médio e o Nordeste brasileiro sofrem escassez severa. Afirmar que há grande disponibilidade bem distribuída contraria os dados geográficos e hidrológicos.",
+      "2": "O Brasil possui enorme disponibilidade de água superficial e subterrânea, sendo um dos países com maior volume de água doce do mundo (cerca de 12% do total global). Afirmar que o Brasil tem 'pouca água' contradiz completamente a realidade.",
+      "3": "O maior estoque de água doce está nas geleiras e calotas polares (cerca de 68%), não nos lençóis freáticos. As águas subterrâneas representam cerca de 30% do total de água doce, sendo mais abundantes que rios e lagos, mas não que as geleiras.",
+      "4": "A diminuição das chuvas é um problema em algumas regiões, mas o principal comprometimento dos recursos hídricos resulta da poluição, do desmatamento, do desperdício e da má gestão. Reduzir o problema apenas às chuvas é uma simplificação."
+    }
   },
   {
     "id": 9,
@@ -205,7 +251,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Os aquíferos e os rios sofrem poluição doméstica, industrial e agrícola. Efluentes não tratados lançados em corpos hídricos causam eutrofização (excesso de nutrientes), redução do oxigênio dissolvido e mortandade de peixes. No Brasil, apenas cerca de 50% dos esgotos são tratados antes de ser lançados nos rios — um dos principais problemas ambientais nacionais.</p>",
-    "ajuda": "A imagem abaixo provavelmente representa o ciclo hidrológico, uma bacia hidrográfica ou alguma feição de relevo associada à água. Identifique os elementos representados (rios, lagos, aquíferos, evaporação) e relacione à alternativa que melhor os descreve."
+    "ajuda": "A imagem abaixo provavelmente representa o ciclo hidrológico, uma bacia hidrográfica ou alguma feição de relevo associada à água. Identifique os elementos representados (rios, lagos, aquíferos, evaporação) e relacione à alternativa que melhor os descreve.",
+    "feedbacks": {
+      "1": "Os desvios de água para irrigação e hidrelétricas geram conflitos, mas são atividades que podem ser geridas de forma menos impactante. A afirmativa de que apenas geram conflitos sem possibilidade de mitigação é parcial e não descreve o comprometimento global dos recursos hídricos.",
+      "2": "A geração de energia hidrelétrica causa impactos ambientais significativos: inunda áreas, desloca comunidades, altera o regime fluvial e fragmenta ecossistemas aquáticos. Afirmar que assegura a sustentabilidade do meio ambiente local é incorreto.",
+      "3": "O Brasil detém aproximadamente 12% dos recursos hídricos superficiais mundiais, sendo um dos países mais ricos em água doce do planeta. Afirmar que o Brasil 'possui pouca quantidade de água' contradiz completamente os dados sobre os recursos hídricos brasileiros.",
+      "4": "A diminuição das chuvas é um problema específico em algumas regiões, mas o comprometimento hídrico global envolve também poluição, desmatamento, gestão inadequada e uso excessivo. Reduzir toda a problemática à pluviosidade é incorreto e incompleto."
+    }
   },
   {
     "id": 10,
@@ -230,6 +282,12 @@
     ],
     "correta": 4,
     "comentario": "<p>O Dia Mundial da Água (22 de março) foi criado pela ONU em 1993 para alertar sobre o uso sustentável dos recursos hídricos. As metas dos ODS (Objetivo de Desenvolvimento Sustentável 6) incluem garantir acesso à água potável e saneamento básico para todos até 2030. No Brasil, mais de 100 milhões de pessoas ainda não têm acesso a esgoto tratado.</p>",
-    "ajuda": "O Dia Mundial da Água (22 de março) foi criado em 1992 na Eco-92. O planeta tem cerca de 1,4 bilhão de km³ de água, mas apenas 2,5% é doce, e a maior parte está congelada. Pense em como esse contexto se relaciona ao tema da questão."
+    "ajuda": "O Dia Mundial da Água (22 de março) foi criado em 1992 na Eco-92. O planeta tem cerca de 1,4 bilhão de km³ de água, mas apenas 2,5% é doce, e a maior parte está congelada. Pense em como esse contexto se relaciona ao tema da questão.",
+    "feedbacks": {
+      "0": "A combinação II, III e IV não é a correta. A proposição II contém uma incorreção que a torna falsa, e a proposição IV também apresenta um erro. Apenas as proposições I, III e V são verdadeiras nesta questão.",
+      "1": "A combinação I, II e V não é a correta. A proposição II contém uma incorreção que a torna falsa. Incluí-la junto com as corretas I e V torna esta alternativa incorreta.",
+      "2": "A combinação III, IV e V não é a correta. A proposição IV contém uma incorreção que a torna falsa. Além disso, a proposição I, que é verdadeira, foi excluída desta alternativa.",
+      "3": "A combinação I, II e IV não é a correta. As proposições II e IV contêm incorreções que as tornam falsas. Selecionar estas duas junto com a verdadeira I não corresponde ao gabarito."
+    }
   }
 ]

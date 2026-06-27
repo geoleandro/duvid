@@ -48,18 +48,9 @@
 
 
 
-    <div class="w3-container w3-center w3-padding-top-64 w3-margin-bottom ">
-        <h1 class="extrafonte w3-hide-small "><b>Duvid Blog</b></h1>
-
-    </div>
-
-
-    <!-- Image header -->
-    <div class="w3-display-container" id="home">
-        <img class="w3-image" src="/blog/capaBlog.jpg" alt="Foto de uma praia - Duvid Geografia">
-        <div class="w3-display-left w3-padding">
-            <h1 class="w3-jumbo w3-text-white w3-hide-large"><b>DUVID BLOG</b></h1>
-        </div>
+    <!-- Banner do blog -->
+    <div id="home">
+        <img src="/blog/capaBlog.svg" alt="Mapa mundi pixel art - Duvid Blog">
     </div>
 
 

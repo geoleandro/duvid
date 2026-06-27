@@ -1,7 +1,22 @@
 # 🌍 Duvid — Roadmap
 
 > Fonte de verdade do projeto. Atualizar aqui + no board Notion a cada sessão.
-> Última atualização: 2026-06-18
+> Última atualização: 2026-06-23
+
+---
+
+## ✅ Entregue (junho 2026)
+
+- **Sessão PHP + segurança de login** — `requireAuth()`, `startSecureSession()`, `session.cookie_domain=.duvid.com.br`, SameSite=Lax. Sessão funciona em `www.` e domínio raiz.
+- **Rate limit por IP** — `includes/rate_limit.php` + tabela `tentativas_login`: 10 tentativas → bloqueio 15 min.
+- **Reporte de erros em questões** — `api/reporte.php` + tabela `reportes` + botão em `jsquestoes-padrao.js` + listagem no admin.
+- **Sistema de turmas permanentes** — `turma_id` FK; professor cria via `criar-turma.php`; aluno entra pelo código no cadastro ou depois via edição de perfil.
+- **Edição de perfil pós-cadastro** — modal com nome/estado/cidade/escola/código de turma; POST com `acao: 'editar_perfil'` (PATCH bloqueado no host).
+- **Re-login por PIN** — mini modal quando sessão expira; pre-preenche campo PIN no modal de edição subsequente.
+- **Ranking redesenhado** — tabs Minha Turma / Geral; card "minha posição" no topo; código da turma visível discretamente no subtítulo; medal sem número duplicado.
+- **`sessao_ativa` no frontend** — GET `aluno.php` retorna flag; `DuvidDB.temSessao()` disponível para decisão de re-login.
+- **Credenciais em `.env`** — produção lê `config/.env`; local usa constantes fixas.
+- **Login simplificado** — conta com PIN existente só precisa de nome + PIN (sem e-mail).
 
 ---
 

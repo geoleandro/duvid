@@ -19,7 +19,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Um curso de água divide-se em três seções: curso superior (próximo à nascente — maior energia, erosão intensa, vales encaixados), curso médio (equilíbrio entre erosão e deposição, surgem meandros) e curso inferior (perto da foz — energia reduzida, deposição predomina, planícies de inundação e deltas). A nascente é o ponto de origem; a foz, onde o rio deságua em outro corpo hídrico.</p>",
-    "ajuda": "Um curso d'água tem nascente (onde começa), foz (onde termina, em outro rio, lago ou mar), e cursos superior (alto, próximo à nascente, com mais erosão), médio e inferior (baixo, próximo à foz, com mais deposição). Identifique cada elemento na figura."
+    "ajuda": "Um curso d'água tem nascente (onde começa), foz (onde termina, em outro rio, lago ou mar), e cursos superior (alto, próximo à nascente, com mais erosão), médio e inferior (baixo, próximo à foz, com mais deposição). Identifique cada elemento na figura.",
+    "feedbacks": {
+      "0": "Esta alternativa inverte o curso superior e o inferior: a nascente fica no curso superior (início do rio), não no inferior (onde o rio deságua). A alternativa coloca a nascente em C e a foz em A, o que está invertido.",
+      "1": "A nomenclatura 'curso montanhoso' não é uma denominação técnica dos cursos fluviais. Os termos corretos são curso superior (próximo à nascente), curso médio e curso inferior (próximo à foz), sem relação com a presença de montanhas.",
+      "3": "Esta alternativa associa os cursos a processos geomorfológicos (erosão, transporte, sedimentação), não às posições do perfil longitudinal. Embora esses processos ocorram nesses cursos, a questão pede a identificação das posições A, B e C, não dos processos dominantes."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Recurso hídrico é a água disponível para uso econômico — para abastecimento, irrigação, geração de energia, navegação ou uso industrial. Nem toda água doce é recurso hídrico: geleiras e aquíferos profundos de difícil acesso técnico ou econômico não se enquadram nessa definição. A gestão de recursos hídricos é regulada no Brasil pela Lei das Águas (Lei 9.433/1997).</p>",
-    "ajuda": "Recurso hídrico é a parcela da água que pode ser utilizada pelo ser humano para alguma finalidade econômica ou social. Nem toda a água é considerada recurso hídrico: a água salgada, por exemplo, só o é quando há tecnologia para seu aproveitamento."
+    "ajuda": "Recurso hídrico é a parcela da água que pode ser utilizada pelo ser humano para alguma finalidade econômica ou social. Nem toda a água é considerada recurso hídrico: a água salgada, por exemplo, só o é quando há tecnologia para seu aproveitamento.",
+    "feedbacks": {
+      "1": "Esta alternativa descreve a água como recurso natural renovável essencial à vida, sem o critério econômico de uso e disponibilidade. Recursos hídricos implica a utilidade e disponibilidade para exploração humana, não apenas a existência de água na natureza.",
+      "2": "Esta alternativa descreve toda a água líquida de superfície e subsolo sem relacionar ao critério econômico. O conceito de recursos hídricos não é apenas a água existente em rios, lagos e aquíferos, mas aquela disponível e utilizável economicamente.",
+      "3": "Esta alternativa descreve toda a água doce do planeta, mas recursos hídricos não se limitam à água doce: inclui também água salobra utilizada economicamente. Além disso, não exige que a água esteja disponível para uso, o que é essencial ao conceito.",
+      "4": "Esta alternativa descreve todos os estados físicos da água sem relacionar ao critério de disponibilidade e uso econômico. Os recursos hídricos são especificamente a água disponível para exploração, não toda a água existente no planeta."
+    }
   },
   {
     "id": 3,
@@ -65,7 +76,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O divisor de drenagem (ou divisor de águas) é a linha topográfica que delimita os limites de uma bacia hidrográfica. Toda a chuva que cai dentro dos limites da bacia escoa para o mesmo rio principal. Nas zonas de cabeceira, o divisor coincide geralmente com os pontos mais altos do relevo (serras, chapadas), enquanto o interior da bacia drena para o rio principal.</p>",
-    "ajuda": "A dinâmica fluvial envolve três processos: erosão (desgaste do leito e margens), transporte (carreamento de sedimentos) e deposição (acúmulo de sedimentos). Pense em qual trecho do rio (superior, médio ou inferior) cada processo predomina."
+    "ajuda": "A dinâmica fluvial envolve três processos: erosão (desgaste do leito e margens), transporte (carreamento de sedimentos) e deposição (acúmulo de sedimentos). Pense em qual trecho do rio (superior, médio ou inferior) cada processo predomina.",
+    "feedbacks": {
+      "0": "A erosão fluvial é maior onde a velocidade da água é maior (alto curso, com maior declividade), não onde o fluxo é menor. Além disso, a área de deposição fica no baixo curso, onde a velocidade diminui, não onde o fluxo de drenagem é menor.",
+      "2": "O ganho de água no sistema fluvial vem das chuvas, afluentes e nascentes, não do fluxo que chega aos oceanos (que é a saída do sistema). A evaporação também é perda, não ganho. A alternativa confunde entradas e saídas do sistema fluvial.",
+      "3": "Os rios depositam sedimentos principalmente no baixo curso e nas planícies de inundação, não apenas nos canais adjacentes. A deposição não ocorre somente no período de cheia, mas ao longo de todo o curso onde a velocidade da água diminui.",
+      "4": "Esta afirmativa é parcialmente verdadeira (sedimentos têm funções ecológicas), mas não define o conceito de divisor de drenagem nem como a bacia hidrográfica é delimitada. A questão pede a afirmativa correta sobre a delimitação da bacia."
+    }
   },
   {
     "id": 4,
@@ -88,7 +105,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p>Colocar os comentários aqui.</p> -->",
-    "ajuda": "Várzea é uma planície fluvial de inundação que se forma ao longo dos rios, resultado do transbordamento periódico das águas. Ela é ecologicamente importante e propícia à agricultura por ser fertilizada pelo material depositado durante as cheias."
+    "ajuda": "Várzea é uma planície fluvial de inundação que se forma ao longo dos rios, resultado do transbordamento periódico das águas. Ela é ecologicamente importante e propícia à agricultura por ser fertilizada pelo material depositado durante as cheias.",
+    "feedbacks": {
+      "1": "A planície de inundação sofre inundações PERIÓDICAS ANUAIS, não apenas em anos muito chuvosos. As inundações anuais fazem parte do funcionamento natural do rio e depositam sedimentos férteis que enriquecem o solo das várzeas.",
+      "2": "Esta alternativa descreve a planície com inundações periódicas anuais (correto), mas contém erro no restante da descrição. A alternativa 0 descreve de forma completa e correta as características da planície de inundação fluvial.",
+      "3": "Esta alternativa combina inundações apenas em anos muito chuvosos (incorreto) com características equivocadas sobre a planície. A planície de inundação (várzea) sofre alagamentos periódicos anuais como parte do ciclo hidrológico natural do rio."
+    }
   },
   {
     "id": 5,
@@ -111,7 +133,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Os rios canalizados perdem suas funções ecológicas: eliminam várzeas, destroem habitats aquáticos, aumentam a velocidade de escoamento (agravando enchentes a jusante) e impedem a infiltração natural da água. A canalização foi amplamente adotada no século XX em cidades brasileiras, mas hoje é reconhecida como solução ultrapassada — tendência é 'renaturalizar' rios.</p>",
-    "ajuda": "A canalização de rios elimina a sinuosidade natural e as zonas de amortecimento das cheias. Isso aumenta a velocidade do escoamento e reduz a infiltração, o que pode intensificar enchentes e prejudicar a biodiversidade aquática. Compare as consequências dos dois sistemas."
+    "ajuda": "A canalização de rios elimina a sinuosidade natural e as zonas de amortecimento das cheias. Isso aumenta a velocidade do escoamento e reduz a infiltração, o que pode intensificar enchentes e prejudicar a biodiversidade aquática. Compare as consequências dos dois sistemas.",
+    "feedbacks": {
+      "0": "A afirmativa I é verdadeira, mas esta alternativa seleciona apenas a I, excluindo a afirmativa II que também é verdadeira. Quando mais de uma proposição é correta, a resposta deve incluir todas as verdadeiras.",
+      "1": "A afirmativa II é verdadeira, mas esta alternativa exclui a afirmativa I que também é verdadeira. Selecionar apenas a II deixa de fora uma proposição correta.",
+      "2": "A afirmativa III não é verdadeira no contexto desta questão. Selecionar apenas a III como correta está errado, pois as proposições I e II são as verdadeiras.",
+      "4": "A afirmativa III não é verdadeira no contexto desta questão. Incluí-la junto com as corretas I e II torna esta alternativa incorreta, pois o enunciado pede apenas as proposições verdadeiras."
+    }
   },
   {
     "id": 6,
@@ -133,7 +161,12 @@
     ],
     "correta": 0,
     "comentario": "<p>No alto curso (superior) dos rios, prevalece a erosão vertical — o rio escava seu leito em forma de V, criando vales encaixados e corredeiras. A deposição de sedimentos ocorre principalmente no baixo curso (inferior), onde a velocidade diminui e os materiais transportados se acumulam formando planícies de inundação e deltas. Afirmar o oposto é incorreto.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a dinâmica dos rios. Pense em: os rios correm de cotas mais altas para mais baixas; o regime fluvial é influenciado pelo clima; o meandramento é natural em planícies; a erosão é maior na margem côncava e a deposição na convexa."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a dinâmica dos rios. Pense em: os rios correm de cotas mais altas para mais baixas; o regime fluvial é influenciado pelo clima; o meandramento é natural em planícies; a erosão é maior na margem côncava e a deposição na convexa.",
+    "feedbacks": {
+      "1": "Embora o baixo curso seja de fato o domínio da deposição com formação de planícies, esta alternativa não descreve o alto curso nem identifica corretamente todos os aspectos pedidos. A questão provavelmente pede a afirmativa inteiramente correta sobre os cursos fluviais.",
+      "2": "Nas desembocaduras, a deposição é feita com materiais sedimentares FINOS (argilas, siltes e areias finas), não com sedimentos grosseiros e seixos. Os sedimentos mais grosseiros ficam retidos no alto curso, onde a velocidade da água é maior.",
+      "3": "O perfil longitudinal de um rio é traçado da nascente à foz, mostrando a variação de altitude ao longo do curso. Esta alternativa contém imprecisões na definição de perfil transversal e na descrição dos aspectos do vale fluvial."
+    }
   },
   {
     "id": 7,
@@ -157,7 +190,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os rios têm componentes específicos: nascente (ponto de origem, geralmente em área elevada), afluentes (rios menores que deságuam no principal), meandros (curvas sinuosas do leito no baixo curso), foz em delta (deposição sedimentar na foz), margem esquerda (lado esquerdo olhando da nascente para a foz) e margem direita (lado direito nessa mesma orientação).</p>",
-    "ajuda": "Os rios foram fundamentais para o surgimento das primeiras civilizações (Nilo, Tigre e Eufrates, Indo, Huang He) por fornecerem água, solos férteis, alimentos e vias de transporte. Identifique qual aspecto da importância histórica e econômica dos rios a questão está abordando."
+    "ajuda": "Os rios foram fundamentais para o surgimento das primeiras civilizações (Nilo, Tigre e Eufrates, Indo, Huang He) por fornecerem água, solos férteis, alimentos e vias de transporte. Identifique qual aspecto da importância histórica e econômica dos rios a questão está abordando.",
+    "feedbacks": {
+      "0": "Esta sequencia coloca o numero 4 na posição da nascente e o numero 1 na posição da foz, mas a figura indica os numeros diferentes para cada feição. Reveja a identificação de cada elemento fluvial na figura para encontrar a correspondência correta.",
+      "2": "Esta sequencia troca as posições do meandro e da margem esquerda em relação à figura. A associação de cada numero com a feição fluvial correta (nascente, afluente, meandro, foz, margens) deve seguir o que está indicado na imagem.",
+      "3": "Esta sequencia troca as posições do afluente e da foz em delta, além de outras feições. Cada numero da figura corresponde a uma feição fluvial específica, e esta alternativa inverte pelo menos dois desses pares.",
+      "4": "Esta sequencia coloca o numero 2 na nascente e o numero 1 no afluente, invertendo as posições em relação à figura. A correspondência correta entre os numeros e as feições fluviais é diferente da indicada nesta alternativa."
+    }
   },
   {
     "id": 8,
@@ -179,7 +218,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O Brasil detém 12% da água doce superficial do mundo e tem 8 grandes regiões hidrográficas (segundo a ANA). Porém, a distribuição é muito desigual: a Amazônia concentra cerca de 73% dos recursos hídricos nacionais, mas abriga menos de 10% da população. O semiárido nordestino tem apenas 3% da água e enfrenta problemas crônicos de escassez.</p>",
-    "ajuda": "A distribuição da água doce no planeta é extremamente desigual: concentrada em poucos países (Brasil, Rússia, Canadá, China, EUA). Observe a legenda do mapa e identifique quais regiões têm maior ou menor disponibilidade hídrica."
+    "ajuda": "A distribuição da água doce no planeta é extremamente desigual: concentrada em poucos países (Brasil, Rússia, Canadá, China, EUA). Observe a legenda do mapa e identifique quais regiões têm maior ou menor disponibilidade hídrica.",
+    "feedbacks": {
+      "0": "O Brasil não apresenta distribuição homogênea dos recursos hídricos: a Amazônia concentra enorme abundância, enquanto o Nordeste semiárido sofre com escassez severa. Afirmar que há grande disponibilidade bem distribuída contraria a realidade hídrica brasileira.",
+      "1": "As regiões de escassez de água não são necessariamente as de menor população: o Nordeste brasileiro, com escassez hídrica severa, abriga dezenas de milhões de habitantes. A correlação inversa absoluta entre escassez e densidade não se aplica.",
+      "2": "As zonas polares têm grande quantidade de água em forma de gelo, mas essa água NÃO é facilmente utilizável: está sólida, em locais remotos e de difícil acesso. A afirmação de que é 'facilmente utilizável por ser água doce' está incorreta."
+    }
   },
   {
     "id": 9,
@@ -201,7 +245,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O ciclo hidrológico garante que o nível dos mares se mantenha estável: as águas dos rios que chegam ao mar são compensadas pela evaporação oceânica, que retorna ao continente como chuva. O balanço hídrico global é fechado — toda água evaporada retorna ao ciclo. Variações no nível do mar ocorrem por fusão de geleiras ou tectonismo, não pelo aporte dos rios.</p>",
-    "ajuda": "O nível do mar não sobe continuamente porque o ciclo hidrológico é fechado: a água dos rios retorna ao oceano, mas também evapora, precipita e volta a circular. O balanço entre evaporação e precipitação mantém o nível médio dos oceanos relativamente estável."
+    "ajuda": "O nível do mar não sobe continuamente porque o ciclo hidrológico é fechado: a água dos rios retorna ao oceano, mas também evapora, precipita e volta a circular. O balanço entre evaporação e precipitação mantém o nível médio dos oceanos relativamente estável.",
+    "feedbacks": {
+      "1": "As geleiras formam-se com água doce precipitada (neve), não com água dos oceanos. Além disso, a formação de geleiras polares não é o mecanismo que explica por que os oceanos não perdem volume com a drenagem dos rios: é a evaporação e o ciclo hidrológico que fecham esse balanço.",
+      "2": "As marés são causadas pela força gravitacional da Lua e do Sol, não pela água dos rios. Os rios não têm escala nem força para gerar marés oceânicas. A afirmativa confunde dois fenômenos completamente diferentes.",
+      "3": "O volume de água dos rios não é insignificante para o equilíbrio hidrológico: os rios retornam aos oceanos a água que evaporou, fechando o ciclo. Afirmar que a 'água doce diminui de volume com o calor global' confunde evaporação com desaparecimento permanente.",
+      "4": "A água doce dos rios é MENOS densa que a água salgada dos oceanos, portanto não afunda: ela se mistura gradualmente nas regiões estuarinas. A afirmativa sobre água 'comprimida pela escuridão' não tem fundamento científico algum."
+    }
   },
   {
     "id": 10,
@@ -224,6 +274,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A erosão fluvial no alto curso é intensificada pela combinação de: grande vazão (mais massa d'água), alta velocidade (declividade elevada) e transporte de sedimentos abrasivos que desgastam o leito rochoso. Esse processo aprofunda o vale progressivamente ao longo do tempo geológico. A competência do rio (tamanho máximo dos fragmentos que pode transportar) aumenta com a velocidade.</p>",
-    "ajuda": "A erosão fluvial aprofunda o vale ao longo do tempo geológico por um processo chamado incisão fluvial. Quanto maior a energia do rio (declividade e vazão), maior o poder erosivo. Esse processo é mais intenso nos cursos superiores dos rios."
+    "ajuda": "A erosão fluvial aprofunda o vale ao longo do tempo geológico por um processo chamado incisão fluvial. Quanto maior a energia do rio (declividade e vazão), maior o poder erosivo. Esse processo é mais intenso nos cursos superiores dos rios.",
+    "feedbacks": {
+      "0": "Vazão elevada combinada com pequena velocidade é contraditório no alto curso de rios com grande declividade: maior declividade implica maior velocidade e maior capacidade erosiva. A combinação de alta vazão com baixa velocidade é típica do baixo curso.",
+      "1": "Baixa pluviosidade não caracteriza o alto curso de rios com grande vazão, pois altos volumes de água dependem de alta precipitação ou degelo. Além disso, baixa declividade é característica do baixo curso, não do alto, que é mais íngreme.",
+      "3": "Baixa declividade do terreno não é característica do alto curso: o alto curso é a região de maior declividade, onde a energia erosiva é maior. É a alta declividade que possibilita a alta velocidade e o grande transporte de sedimentos.",
+      "4": "Vazão elevada com baixa declividade e baixa pluviosidade é uma combinação contraditória. A baixa declividade é característica do baixo curso e a baixa pluviosidade reduziria a vazão, não a aumentaria."
+    }
   }
 ]

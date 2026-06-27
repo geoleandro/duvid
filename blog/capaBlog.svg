@@ -1,0 +1,53 @@
+<svg width="100%" viewBox="0 0 680 280" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Duvid Blog Banner</title>
+<desc>Banner geográfico pixel art em verde escuro para o blog Duvid</desc>
+<rect width="680" height="280" fill="#0a1f0a"/>
+<line x1="0" y1="40" x2="680" y2="40" stroke="#173517" stroke-width="0.5"/>
+<line x1="0" y1="90" x2="680" y2="90" stroke="#173517" stroke-width="0.5"/>
+<line x1="0" y1="140" x2="680" y2="140" stroke="#254d1a" stroke-width="1.2" stroke-dasharray="4,6"/>
+<line x1="0" y1="190" x2="680" y2="190" stroke="#173517" stroke-width="0.5"/>
+<line x1="0" y1="240" x2="680" y2="240" stroke="#173517" stroke-width="0.5"/>
+<line x1="40" y1="0" x2="40" y2="280" stroke="#173517" stroke-width="0.5"/>
+<line x1="140" y1="0" x2="140" y2="280" stroke="#173517" stroke-width="0.5"/>
+<line x1="240" y1="0" x2="240" y2="280" stroke="#173517" stroke-width="0.5"/>
+<line x1="340" y1="0" x2="340" y2="280" stroke="#254d1a" stroke-width="1.2" stroke-dasharray="4,6"/>
+<line x1="440" y1="0" x2="440" y2="280" stroke="#173517" stroke-width="0.5"/>
+<line x1="540" y1="0" x2="540" y2="280" stroke="#173517" stroke-width="0.5"/>
+<line x1="640" y1="0" x2="640" y2="280" stroke="#173517" stroke-width="0.5"/>
+<polygon points="57,73 248,57 248,90 215,112 198,123 140,123 140,107 107,79" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<polygon points="207,129 282,134 282,151 257,201 232,201 215,151" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<polygon points="323,62 390,62 398,79 390,101 349,101 332,96 323,90" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<polygon points="307,99 432,99 432,129 415,151 394,169 370,178 349,179 310,173 307,140" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<polygon points="390,62 638,62 573,101 565,129 507,134 465,129 448,116 432,99 398,79" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<polygon points="532,162 597,157 597,182 565,184 532,182 528,168" fill="#2e7d32" stroke="#43a047" stroke-width="1"/>
+<circle cx="130" cy="105" r="3" fill="#a5d6a7"/>
+<circle cx="182" cy="175" r="3" fill="#a5d6a7"/>
+<circle cx="355" cy="80" r="3" fill="#a5d6a7"/>
+<circle cx="365" cy="130" r="3" fill="#a5d6a7"/>
+<circle cx="490" cy="108" r="3" fill="#a5d6a7"/>
+<circle cx="560" cy="170" r="3" fill="#a5d6a7"/>
+<line x1="130" y1="105" x2="355" y2="80" stroke="#66bb6a" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.65"/>
+<line x1="355" y1="80" x2="490" y2="108" stroke="#66bb6a" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.65"/>
+<line x1="182" y1="175" x2="365" y2="130" stroke="#66bb6a" stroke-width="0.8" stroke-dasharray="4,3" opacity="0.65"/>
+<circle cx="25" cy="22" r="1.5" fill="#c8e6c9" opacity="0.75"/>
+<circle cx="62" cy="11" r="1" fill="#c8e6c9" opacity="0.55"/>
+<circle cx="610" cy="14" r="1.5" fill="#c8e6c9" opacity="0.75"/>
+<circle cx="655" cy="28" r="1" fill="#c8e6c9" opacity="0.6"/>
+<circle cx="657" cy="258" r="1.5" fill="#c8e6c9" opacity="0.5"/>
+<circle cx="22" cy="260" r="1" fill="#c8e6c9" opacity="0.5"/>
+<rect x="0" y="0" width="680" height="7" fill="#1b5e20"/>
+<rect x="0" y="273" width="680" height="7" fill="#1b5e20"/>
+<rect x="0" y="0" width="7" height="280" fill="#1b5e20"/>
+<rect x="673" y="0" width="7" height="280" fill="#1b5e20"/>
+<rect x="7" y="7" width="7" height="7" fill="#4CAF50"/>
+<rect x="666" y="7" width="7" height="7" fill="#4CAF50"/>
+<rect x="7" y="266" width="7" height="7" fill="#4CAF50"/>
+<rect x="666" y="266" width="7" height="7" fill="#4CAF50"/>
+<rect x="50" y="128" width="580" height="76" fill="#0a1f0a" opacity="0.58" rx="3"/>
+<text x="340" y="170" text-anchor="middle" font-family="'Courier New',monospace" font-weight="800" font-size="50" fill="#ffffff" letter-spacing="5">DUVID BLOG</text>
+<text x="340" y="191" text-anchor="middle" font-family="'Courier New',monospace" font-weight="400" font-size="12" fill="#a5d6a7" letter-spacing="3">GEOGRAFIA · EDUCAÇÃO · MUNDO</text>
+<text x="16" y="44" font-family="monospace" font-size="7.5" fill="#4CAF50" opacity="0.75">75°N</text>
+<text x="16" y="94" font-family="monospace" font-size="7.5" fill="#4CAF50" opacity="0.75">45°N</text>
+<text x="19" y="144" font-family="monospace" font-size="7.5" fill="#4CAF50" opacity="0.9">0°</text>
+<text x="16" y="194" font-family="monospace" font-size="7.5" fill="#4CAF50" opacity="0.75">45°S</text>
+</svg>

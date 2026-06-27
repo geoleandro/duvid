@@ -332,8 +332,8 @@ function aplicarEstadoFinalAula() {
     const elementos = document.querySelectorAll(seletores);
 
     elementos.forEach(el => {
-        // FILTRO DE EXCEÇÃO: Ignora Header, Modal e Bibliografia
-        if (el.closest('.bibliografias') || el.closest('#id01') || el.closest('#header-placeholder')) {
+        // FILTRO DE EXCEÇÃO: Ignora Header, Modal, Bibliografia e botão de melhoria
+        if (el.closest('.bibliografias') || el.closest('#id01') || el.closest('#header-placeholder') || el.classList.contains('btn-melhorar-aula')) {
             return; // Pula este elemento
         }
 

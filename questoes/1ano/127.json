@@ -21,7 +21,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A erosão resulta da remoção e transporte de partículas do solo pela água, vento ou outros agentes. Quando a cobertura vegetal é retirada (desmatamento, pastoreio excessivo) e o solo perde sua estrutura, o processo erosivo se acelera progressivamente. Em regiões semiáridas, a erosão pode levar à desertificação — transformando áreas produtivas em paisagens áridas.</p>",
-    "ajuda": "A intensa interferência humana em um ecossistema, como a irrigação excessiva e o desvio de rios, pode causar o ressecamento de lagos e a degradação do solo, levando à desertificação. O caso do Mar de Aral, na Ásia Central, é um dos exemplos mais dramáticos desse processo."
+    "ajuda": "A intensa interferência humana em um ecossistema, como a irrigação excessiva e o desvio de rios, pode causar o ressecamento de lagos e a degradação do solo, levando à desertificação. O caso do Mar de Aral, na Ásia Central, é um dos exemplos mais dramáticos desse processo.",
+    "feedbacks": {
+      "1": "A salinização é o acúmulo de sais no solo, comum em regiões áridas com irrigação inadequada. Ela causa degradação, mas não é o processo que remove e transporta partículas do solo causando assoreamento de rios.",
+      "2": "A laterização é o empobrecimento do solo tropical pela lixiviação de nutrientes, formando solo de argila endurecida. Não é o processo mecânico de remoção e transporte de partículas que caracteriza a questão.",
+      "3": "A compactação é o adensamento do solo pela pressão de máquinas, animais ou chuva intensa. Embora reduza a infiltração e favoreça o escoamento, não remove e transporta partículas do solo causando assoreamento.",
+      "4": "A sedimentação é o processo de DEPOSIÇÃO de partículas transportadas, não de remoção. É a consequência da erosão, não sua causa. O assoreamento dos rios resulta justamente da erosão que produz os sedimentos que serão depositados."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A crise hídrica global é multidimensional: envolve quantidade (distribuição desigual de chuvas), qualidade (poluição industrial, agrícola e doméstica), acesso (infraestrutura de saneamento) e gestão (uso ineficiente, desperdício). Todos esses fatores interagem e se retroalimentam — a poluição reduz a quantidade disponível; o desperdício intensifica a escassez.</p>",
-    "ajuda": "A água é considerada um recurso estratégico porque é essencial para a vida, a produção de alimentos e a geração de energia. Sua distribuição desigual e o crescente consumo humano criam tensões geopolíticas em diversas regiões do mundo."
+    "ajuda": "A água é considerada um recurso estratégico porque é essencial para a vida, a produção de alimentos e a geração de energia. Sua distribuição desigual e o crescente consumo humano criam tensões geopolíticas em diversas regiões do mundo.",
+    "feedbacks": {
+      "0": "Os problemas 2, 3 e 5 também comprometem os recursos hídricos. O lançamento de resíduos sólidos urbanos (2), o esgoto doméstico não tratado (3) e o saneamento inadequado (5) contaminam aquíferos e cursos de água. Excluí-los torna a lista incompleta.",
+      "1": "Os problemas 1 e 4 também comprometem os recursos hídricos. O vazamento de postos de combustível (1) contamina lençóis freáticos com hidrocarbonetos, e o uso indevido de agrotóxicos (4) é causa reconhecida de poluição de aquíferos.",
+      "2": "Os problemas 4 e 5 também ameaçam os recursos hídricos. Os agrotóxicos e fertilizantes (4) contaminam lençóis freáticos, e obras de saneamento inadequadas (5) permitem percolação de contaminantes no solo. Excluí-los deixa a lista incompleta.",
+      "3": "O problema 1 (vazamento de postos de combustível) também compromete os recursos hídricos subterrâneos, pois hidrocarbonetos penetram no solo e contaminam aquíferos. Excluir o problema 1 torna esta alternativa incompleta."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Mar de Aral era o quarto maior lago do mundo, na Ásia Central (atual Cazaquistão/Uzbequistão). Nas décadas de 1960-90, a União Soviética desviou os rios Amu Dárie e Sir Dárie para irrigar plantações de algodão no deserto. O mar reduziu-se a menos de 10% do tamanho original, deixando barcos encalhados no deserto e criando uma crise humanitária e ambiental grave.</p>",
-    "ajuda": "O Mar de Aral, localizado entre o Cazaquistão e o Uzbequistão, perdeu mais de 80% de seu volume entre 1960 e 2000 devido ao desvio de seus rios alimentadores para irrigação. Esse caso exemplifica os impactos da gestão inadequada dos recursos hídricos."
+    "ajuda": "O Mar de Aral, localizado entre o Cazaquistão e o Uzbequistão, perdeu mais de 80% de seu volume entre 1960 e 2000 devido ao desvio de seus rios alimentadores para irrigação. Esse caso exemplifica os impactos da gestão inadequada dos recursos hídricos.",
+    "feedbacks": {
+      "0": "O desmatamento das áreas periféricas não foi a causa principal do desastre do Mar de Aral. A região já era árida e a vegetação escassa. A causa foi o desvio das águas dos rios Amu Dária e Sir Dária para irrigação em larga escala.",
+      "1": "Embora a industrialização tenha contribuído marginalmente, não foi a causa principal do desaparecimento do Mar de Aral. O desastre foi causado pelo desvio das águas para irrigação agrícola, não pelo crescimento industrial desordenado.",
+      "3": "O Mar de Aral não teve hidrelétricas como causa principal de sua redução. A causa foi o DESVIO total das águas dos rios afluentes para canais de irrigação. Hidrelétricas retêm a água, mas o problema do Aral foi o consumo completo pela irrigação.",
+      "4": "O Mar de Aral está em região deserta e pouco populosa, não circundado por grandes áreas urbanas. A causa do desastre foi a irrigação em escala massiva para cultivar algodão e arroz na região árida da Ásia Central, não a ocupação urbana."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Os aquíferos subterrâneos são reservatórios naturais de água doce armazenada em rochas porosas. Sua exploração descontrolada pode causar: rebaixamento do lençol freático, subsidência (afundamento do solo), intrusão de água salgada em aquíferos costeiros e contaminação por atividades superficiais (fertilizantes, combustíveis). A recarga dos aquíferos é lenta — leva décadas a séculos.</p>",
-    "ajuda": "O uso excessivo de águas subterrâneas sem respeitar a taxa de recarga natural dos aquíferos leva ao rebaixamento do lençol freático, subsidência do solo e salinização das águas. Identifique quais consequências estão sendo descritas na questão."
+    "ajuda": "O uso excessivo de águas subterrâneas sem respeitar a taxa de recarga natural dos aquíferos leva ao rebaixamento do lençol freático, subsidência do solo e salinização das águas. Identifique quais consequências estão sendo descritas na questão.",
+    "feedbacks": {
+      "1": "A intrusão salina ocorre quando a extração EXCESSIVA de água doce em regiões costeiras permite que a água do mar avance pelo aquífero. A solução não é apenas 'extração reduzida', mas equilibrar a extração com a recarga natural.",
+      "2": "A superexploração de poços resulta da extração excessiva além da capacidade de recarga, não da 'construção ineficaz de captações'. A alternativa confunde a causa (extração excessiva) com um aspecto técnico secundário de construção.",
+      "3": "O rebaixamento do nível da água ocorre quando o bombeamento SUPERA a reposição natural, não quando é equivalente a ela. Um bombeamento equivalente à reposição seria o cenário ideal de uso sustentável, não a causa do problema.",
+      "4": "O encarecimento da exploração não está associado à conservação vegetal. A manutenção da cobertura vegetal favorece a recarga dos aquíferos ao aumentar a infiltração, sendo uma prática que beneficia, não encarece, a exploração sustentável."
+    }
   },
   {
     "id": 5,
@@ -116,7 +140,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A América do Sul possui a maior concentração de água doce per capita do mundo, especialmente pela Bacia Amazônica. Contudo, a distribuição interna é desigual: o Nordeste brasileiro tem baixo índice pluviométrico e concentração de população em áreas de risco hídrico. No nível global, a Ásia Central, o Oriente Médio e o norte da África enfrentam as crises hídrica mais severas.</p>",
-    "ajuda": "A crise hídrica global é causada tanto pela escassez natural de água em certas regiões quanto pelo consumo excessivo e pela poluição. Os setores que mais consomem água são: agricultura (70%), indústria (20%) e uso doméstico (10%)."
+    "ajuda": "A crise hídrica global é causada tanto pela escassez natural de água em certas regiões quanto pelo consumo excessivo e pela poluição. Os setores que mais consomem água são: agricultura (70%), indústria (20%) e uso doméstico (10%).",
+    "feedbacks": {
+      "0": "Embora o consumo agrícola global supere 70%, a tendência futura não é necessariamente de manutenção: países com maior eficiência hídrica na agricultura têm reduzido esse percentual. A afirmativa sobre a tendência futura contém imprecisão.",
+      "1": "O maior estoque de água doce está nas geleiras e calotas polares (cerca de 68%), não nas águas subterrâneas. As geleiras superam em volume as águas subterrâneas. A alternativa inverteu a hierarquia dos estoques de água doce.",
+      "2": "Aproximadamente 2,5% da água do planeta é doce, não 1/4 (25%). A afirmação de que é 'apenas 1/4' superestima em cerca de dez vezes a proporção real de água doce em relação ao total hídrico do planeta.",
+      "4": "A área intertropical chuvosa não garante grandes estoques de água subterrânea facilmente acessíveis. Muitos aquíferos importantes estão em regiões áridas e semiáridas. A disponibilidade de águas subterrâneas depende também de geologia e recarga, não só do regime de chuvas."
+    }
   },
   {
     "id": 6,
@@ -139,7 +169,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A escassez hídrica combina fatores naturais (clima árido, seco, irregularidade pluviométrica) com fatores antrópicos (desmatamento, poluição, uso excessivo na irrigação). Em regiões como o Nordeste semiárido, a irregularidade natural das chuvas é intensificada pelo desmatamento da Caatinga, que reduz a capacidade de retenção de umidade do solo.</p>",
-    "ajuda": "O texto provavelmente aborda um conflito pelo uso da água, uma política de gestão hídrica ou um projeto de revitalização de bacias. Identifique a posição defendida e avalie qual alternativa a representa de forma mais precisa."
+    "ajuda": "O texto provavelmente aborda um conflito pelo uso da água, uma política de gestão hídrica ou um projeto de revitalização de bacias. Identifique a posição defendida e avalie qual alternativa a representa de forma mais precisa.",
+    "feedbacks": {
+      "0": "O consumo doméstico direto para preparo de alimentos não é o maior setor de consumo global de água. A agricultura consome mais de 70% da água disponível no mundo, sendo o setor mais demandante, não o consumo doméstico.",
+      "2": "No Brasil, a água superficial (rios, lagos, represas) é a principal fonte de abastecimento urbano, não a subterrânea. As grandes cidades brasileiras dependem majoritariamente de rios e reservatórios de superfície para seu abastecimento.",
+      "3": "A escassez de água não resulta exclusivamente de políticas inadequadas: fatores naturais como regime de chuvas, localização geográfica e distribuição desigual dos recursos hídricos também são determinantes. Ignorar o componente físico-geográfico é um erro."
+    }
   },
   {
     "id": 7,
@@ -163,7 +198,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As regiões mais afetadas pela escassez hídrica são: África Subsaariana (baixa pluviometria e infraestrutura precária), Ásia Central (como o caso do Mar de Aral) e Oriente Médio (regiões áridas com alta demanda e sem rios caudalosos). O Relatório do PNUMA aponta que 40% da população mundial vive em situação de estresse hídrico.</p>",
-    "ajuda": "As regiões mais afetadas pela escassez de água são: Oriente Médio, Norte da África, Sahel africano, Índia e partes do México e da Austrália. No Brasil, o Semiárido Nordestino é a região com maior vulnerabilidade hídrica."
+    "ajuda": "As regiões mais afetadas pela escassez de água são: Oriente Médio, Norte da África, Sahel africano, Índia e partes do México e da Austrália. No Brasil, o Semiárido Nordestino é a região com maior vulnerabilidade hídrica.",
+    "feedbacks": {
+      "0": "Os Estados Unidos, a União Europeia e a Austrália têm disponibilidade hídrica relativamente adequada. Embora tenham zonas áridas (como o interior da Austrália e o sudoeste dos EUA), não são as regiões de maior escassez hídrica severa no planeta.",
+      "1": "Arizona é uma região dos EUA, não uma unidade de comparação global equivalente a continentes. Além disso, embora o Nordeste brasileiro tenha irregularidade pluviométrica, não figura entre as regiões de maior escassez absoluta comparado ao Oriente Médio e Ásia Central.",
+      "3": "A América do Norte em geral não é região de alta escassez hídrica. A África Central e o Sudeste Asiático também não são as mais críticas: o Sudeste asiático tem alta pluviosidade e a África Central tem as chuvas da Bacia do Congo. As regiões mais graves são o norte africano, Oriente Médio e Ásia Central.",
+      "4": "A África Central e o Sudeste Asiático não são as regiões de maior escassez: o Sudeste asiático tem alto índice pluviométrico e a África Central conta com chuvas abundantes. As regiões mais críticas são o norte da África, o Oriente Médio e a Ásia Central."
+    }
   },
   {
     "id": 8,
@@ -186,7 +227,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A lavagem de ruas e espaços públicos com água reciclada (tratada para reúso não potável) é uma das aplicações mais eficientes na gestão hídrica urbana. Permite preservar a água potável para consumo humano, reduzindo a pressão sobre mananciais. Cidades como Singapura e partes da Austrália são referências mundiais em sistemas de reúso urbano de água.</p>",
-    "ajuda": "A reutilização planejada da água (reúso) inclui práticas como tratamento de esgoto para irrigação, reúso industrial e aproveitamento de água de chuva. É uma estratégia fundamental para reduzir a pressão sobre os recursos hídricos."
+    "ajuda": "A reutilização planejada da água (reúso) inclui práticas como tratamento de esgoto para irrigação, reúso industrial e aproveitamento de água de chuva. É uma estratégia fundamental para reduzir a pressão sobre os recursos hídricos.",
+    "feedbacks": {
+      "0": "O uso doméstico para preparo de alimentos consome quantidade relativamente pequena de água em comparação com outros setores. Além disso, é um uso essencial à saúde pública e difícil de ser reduzido ou classificado como desperdício.",
+      "1": "Os laboratórios usam água em quantidades muito menores do que os setores agrícola, industrial e urbano. O uso laboratorial representa uma fração mínima do consumo total de água tratada, não competindo com os demais setores.",
+      "2": "O abastecimento de reservatórios e mananciais é uma operação de gestão dos recursos hídricos, não um 'uso' de água tratada. Não é uma categoria de consumo que se compare aos demais usos finais em termos de desperdício.",
+      "3": "O banho e a higiene pessoal consomem água, mas representam fração menor que a irrigação agrícola e o uso industrial. São usos necessários à saúde pública, não categorias de desperdício prioritárias no contexto da questão."
+    }
   },
   {
     "id": 9,
@@ -210,7 +257,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A crise hídrica global deste século é definida tanto pela quantidade quanto pela qualidade da água disponível. O crescimento demográfico, a urbanização, a industrialização e as mudanças climáticas aumentam a demanda e degradam a oferta simultaneamente. Países como Índia, China e partes da África devem enfrentar conflitos sérios por água já nas próximas décadas.</p>",
-    "ajuda": "A escassez de água doce é um dos maiores desafios ambientais do século XXI. Ela é causada por mudanças climáticas, crescimento populacional, poluição de aquíferos e má gestão dos recursos. Identifique qual aspecto o texto está enfatizando."
+    "ajuda": "A escassez de água doce é um dos maiores desafios ambientais do século XXI. Ela é causada por mudanças climáticas, crescimento populacional, poluição de aquíferos e má gestão dos recursos. Identifique qual aspecto o texto está enfatizando.",
+    "feedbacks": {
+      "0": "O ciclo hidrológico não garante apenas a quantidade: a poluição pode permanecer nos lençóis freáticos, rios e lagos mesmo após os processos do ciclo. Afirmar que o ciclo garante a quantidade sem interferir na qualidade é incorreto.",
+      "2": "O ciclo hidrológico não se limita às águas do subsolo: ele envolve oceanos, rios, lagos, vapor atmosférico, geleiras e águas subterrâneas. Restringi-lo apenas ao subsolo terrestre ignora a maior parte dos processos do ciclo.",
+      "3": "A disponibilidade de água não inclui apenas a água superficial (rios e lagos): as águas subterrâneas, as precipitações e os reservatórios artificiais também fazem parte da disponibilidade hídrica. A alternativa limita incorretamente o conceito.",
+      "4": "O regime de chuvas é apenas um componente da disponibilidade hídrica. Rios, lagos, aquíferos e neve acumulada também integram a disponibilidade de água, que vai muito além do simples regime pluviométrico."
+    }
   },
   {
     "id": 10,
@@ -233,6 +286,12 @@
     ],
     "correta": 2,
     "comentario": "<p>As principais causas da contaminação das águas subterrâneas incluem: uso de fertilizantes e pesticidas na agricultura (que infiltram no solo), criação de aterros sanitários inadequados (lixiviado) e impermeabilização do solo urbano (impede recarga dos aquíferos). O desmatamento também contribui ao reduzir a infiltração e aumentar o escoamento superficial.</p>",
-    "ajuda": "A possível escassez de água é uma questão de segurança hídrica global. As soluções incluem: dessalinização, captação de água de chuva, reúso de águas tratadas, melhoria das redes de distribuição e mudanças nos padrões de consumo. Avalie qual alternativa descreve a situação mais fielmente."
+    "ajuda": "A possível escassez de água é uma questão de segurança hídrica global. As soluções incluem: dessalinização, captação de água de chuva, reúso de águas tratadas, melhoria das redes de distribuição e mudanças nos padrões de consumo. Avalie qual alternativa descreve a situação mais fielmente.",
+    "feedbacks": {
+      "0": "Esta alternativa inclui 'lançamento de gases poluentes' como causa direta de contaminação de rios, mas gases atmosféricos afetam a água principalmente via chuva ácida, de forma indireta e regional. O impacto mais direto e documentado vem de fertilizantes, desmatamento e impermeabilização.",
+      "1": "Atencao: esta alternativa é identica à alternativa 3. O 'lançamento de lixo nas ruas' afeta a drenagem urbana, mas não é a principal causa de contaminação dos recursos hídricos. Fertilizantes, desmatamento e impermeabilização têm impacto mais direto e abrangente sobre os cursos de água.",
+      "3": "Atencao: esta alternativa é identica à alternativa 1. O 'lançamento de lixo nas ruas' afeta a drenagem urbana superficial, mas o lixo nas vias públicas não contamina diretamente aquíferos e rios como os fertilizantes agrícolas e o desmatamento fazem.",
+      "4": "A construção de barragens altera o regime dos rios e causa impactos ambientais, mas não é a principal causa de contaminação por poluição. As barragens modificam o fluxo, mas não introduzem poluentes químicos diretamente como os fertilizantes e os aterros sanitários mal gerenciados."
+    }
   }
 ]

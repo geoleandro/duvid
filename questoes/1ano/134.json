@@ -20,7 +20,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As conferências ambientais da ONU produziram marcos históricos importantes: Estocolmo (1972) criou o PNUMA; a Rio-92 gerou a Agenda 21 e as Convenções do Clima e da Biodiversidade; o Protocolo de Kyoto (1997) estabeleceu metas de redução de emissões; e o Acordo de Paris (2015) comprometeu todos os países. Afirmar que 'todas as afirmativas estão erradas' só é correto se houver erros específicos identificados no enunciado.</p>",
-    "ajuda": "As principais conferências ambientais mundiais (Estocolmo 1972, Rio-92, Kyoto 1997, Rio+20 2012, Paris 2015) marcam a evolução da governança ambiental internacional. Identifique o que cada conferência representou como avanço ou retrocesso nas políticas de proteção ambiental."
+    "ajuda": "As principais conferências ambientais mundiais (Estocolmo 1972, Rio-92, Kyoto 1997, Rio+20 2012, Paris 2015) marcam a evolução da governança ambiental internacional. Identifique o que cada conferência representou como avanço ou retrocesso nas políticas de proteção ambiental.",
+    "feedbacks": {
+      "0": "Esta alternativa indica que somente a afirmativa III é correta, mas a afirmativa III também está errada. Todas as afirmativas apresentadas contêm incorreções e nenhuma pode ser considerada verdadeira.",
+      "1": "Esta alternativa indica que somente a afirmativa II é correta, mas a afirmativa II também está errada. Nenhuma das afirmativas apresentadas na questão está correta.",
+      "2": "Esta alternativa indica que somente a afirmativa I é correta, mas a afirmativa I também está errada. Todas as afirmativas da questão contêm erros factuais ou conceituais.",
+      "3": "Esta alternativa indica que todas as afirmativas são corretas, mas todas contêm erros. Aceitar todas como verdadeiras ignoraria os erros factuais ou conceituais presentes em cada uma das proposições."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O desacordo político entre países sobre metas climáticas — especialmente entre potências emissoras como EUA, China, Índia e Brasil — é um dos principais fatores que dificultam a implementação efetiva dos acordos climáticos. A saída dos EUA do Acordo de Paris no governo Trump (2017-2021) demonstrou como decisões nacionais podem comprometer compromissos coletivos globais.</p>",
-    "ajuda": "A charge faz referência a um processo ambiental específico (desmatamento, poluição, aquecimento global, desertificação). Identifique o processo representado e avalie qual atividade humana contribui mais para seu agravamento."
+    "ajuda": "A charge faz referência a um processo ambiental específico (desmatamento, poluição, aquecimento global, desertificação). Identifique o processo representado e avalie qual atividade humana contribui mais para seu agravamento.",
+    "feedbacks": {
+      "0": "A expansão das áreas de desertificação é uma CONSEQUÊNCIA das mudanças climáticas, não um obstáculo à implementação dos acordos. As dificuldades dos acordos climáticos são políticas e econômicas, não causadas pela ocorrência da desertificação.",
+      "1": "O aumento do nível dos oceanos também é uma consequência das mudanças climáticas, não um obstáculo às negociações. A elevação do mar não cria dificuldades para os processos diplomáticos sobre o clima.",
+      "2": "O controle eficaz das emissões antrópicas é justamente o OBJETIVO dos acordos climáticos, não uma dificuldade à sua implementação. Se esse controle já fosse eficaz, os acordos já teriam cumprido suas metas.",
+      "3": "O crescimento do uso de fontes energéticas alternativas é uma tendência POSITIVA, que contribui para os objetivos dos acordos climáticos. Não é um obstáculo: ao contrário, é parte do caminho para cumpri-los."
+    }
   },
   {
     "id": 3,
@@ -67,7 +79,12 @@
     ],
     "correta": 0,
     "comentario": "<p>Um bioma é uma grande unidade de paisagem definida por características de vegetação, clima e biodiversidade. Dentro de um bioma podem existir vários ecossistemas distintos — por exemplo, o bioma Cerrado tem campos limpos, campos sujos, cerradão, matas de galeria e veredas, cada um com seus ecossistemas específicos. Bioma é uma categoria de maior abrangência que ecossistema.</p>",
-    "ajuda": "O texto provavelmente aborda um tema de geopolítica ambiental, como a disputa por recursos naturais, a soberania sobre biodiversidade ou os conflitos em torno da matriz energética. Identifique a posição correta dentre as alternativas."
+    "ajuda": "O texto provavelmente aborda um tema de geopolítica ambiental, como a disputa por recursos naturais, a soberania sobre biodiversidade ou os conflitos em torno da matriz energética. Identifique a posição correta dentre as alternativas.",
+    "feedbacks": {
+      "1": "Biomas e ecossistemas não são sinônimos: um bioma é uma grande unidade geográfica com clima e vegetação característicos, enquanto um ecossistema é uma unidade funcional de interação entre organismos e ambiente. Um bioma pode conter vários ecossistemas distintos.",
+      "2": "A diversidade biológica não é necessariamente maior nos ecossistemas do que nos biomas: biomas tropicais podem conter ecossistemas com enorme biodiversidade. Além disso, comparar diversidade entre biomas e ecossistemas de forma absoluta não tem sentido conceitual.",
+      "3": "Os biomas e ecossistemas brasileiros não podem ser comparados em termos de 'maior diversidade' de forma absoluta: os biomas brasileiros (Amazônia, Cerrado, Mata Atlântica) estão entre os mais biodiversos do mundo. A afirmativa não faz sentido nesse contexto."
+    }
   },
   {
     "id": 4,
@@ -91,7 +108,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O petróleo e o carvão mineral seguem sendo as principais fontes de energia do mundo, respondendo por mais de 50% da matriz energética global. Apesar do crescimento espetacular das renováveis (solar e eólica dobraram sua participação em menos de uma década), a dependência dos fósseis persiste pela infraestrutura instalada, pelo custo de transição e por interesses políticos e econômicos.</p>",
-    "ajuda": "O consumo de energia é essencial para o desenvolvimento, mas sua produção e uso geram impactos ambientais. O desafio está em garantir energia de forma ambientalmente responsável, reduzindo emissões e diversificando a matriz energética com fontes renováveis."
+    "ajuda": "O consumo de energia é essencial para o desenvolvimento, mas sua produção e uso geram impactos ambientais. O desafio está em garantir energia de forma ambientalmente responsável, reduzindo emissões e diversificando a matriz energética com fontes renováveis.",
+    "feedbacks": {
+      "0": "Embora o consumo energético seja desigual entre ricos e pobres, afirmar que os pobres 'continuam utilizando' apenas fontes específicas é uma simplificação. Países em desenvolvimento usam uma mistura de fontes, e a afirmativa não é o conteúdo central que a questão avalia.",
+      "1": "As fontes alternativas de energia não são mais 'de custos elevadíssimos e exclusivas de países ricos': os preços de energia solar e eólica caíram drasticamente nas últimas décadas, tornando-as competitivas com combustíveis fósseis em muitas regiões do mundo.",
+      "2": "A energia hidroelétrica não assumiu a liderança no consumo mundial de energia: os combustíveis fósseis (petróleo, carvão e gás natural) ainda dominam amplamente a matriz energética global. A hidroeletricidade é relevante em países específicos, mas não é a líder global.",
+      "4": "A energia nuclear não é consensualmente a 'solução mais viável' para a questão energética: tem altos custos, riscos de acidentes (Chernobyl, Fukushima) e o problema dos resíduos radioativos de longa durabilidade. Sua viabilidade como solução universal é amplamente questionada."
+    }
   },
   {
     "id": 5,
@@ -114,7 +137,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O PNUMA (Programa das Nações Unidas para o Meio Ambiente) é o principal órgão ambiental da ONU. Seus relatórios como o GEO (Global Environment Outlook) documentam os principais problemas ambientais — mudanças climáticas, perda de biodiversidade, poluição, escassez hídrica — e propõem políticas de desenvolvimento sustentável que compatibilizem crescimento econômico com limites ecológicos.</p>",
-    "ajuda": "O Programa das Nações Unidas para o Meio Ambiente (PNUMA) publica regularmente relatórios sobre o estado do planeta, identificando problemas como perda de biodiversidade, poluição e mudanças climáticas. Relacione o conteúdo descrito aos temas abordados nesses relatórios."
+    "ajuda": "O Programa das Nações Unidas para o Meio Ambiente (PNUMA) publica regularmente relatórios sobre o estado do planeta, identificando problemas como perda de biodiversidade, poluição e mudanças climáticas. Relacione o conteúdo descrito aos temas abordados nesses relatórios.",
+    "feedbacks": {
+      "1": "Afirmar que 'o único agente poluente a preocupar é o que produz resíduos nucleares' ignora a enorme gama de poluentes com impactos documentados: gases de efeito estufa, plásticos, metais pesados, agrotóxicos e esgoto não tratado causam danos imensos e amplamente comprovados.",
+      "2": "A preocupação ambiental não é 'amplamente respeitada pelos governos': muitos países e setores econômicos resistem às regulamentações ambientais por interesses de curto prazo. Os acordos climáticos têm sido consistentemente descumpridos por parte dos signatários.",
+      "3": "A preocupação com o controle ambiental não 'sempre esteve presente desde a Revolução Industrial': foi a Revolução Industrial que gerou poluição em escala sem precedentes. O controle ambiental emergiu como pauta política somente no século XX, especialmente após 1972.",
+      "4": "As mudanças de padrão de consumo dos países industrializados avançaram de forma insuficiente. Afirmar que essas mudanças 'têm contribuído para resolver os problemas ambientais' é prematuro: as emissões globais de CO₂ continuaram crescendo na maior parte do período recente."
+    }
   },
   {
     "id": 6,
@@ -136,7 +165,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O direito ambiental internacional estabelece normas e práticas para proteger os recursos naturais: acordos sobre biodiversidade (CDB), clima (UNFCCC), oceanos (UNCLOS), espécies ameaçadas (CITES) e substâncias tóxicas (Convenção de Estocolmo). A codificação de normas ambientais é um avanço histórico — mas sua efetividade depende dos mecanismos de fiscalização e cumprimento.</p>",
-    "ajuda": "A questão ambiental no espaço contemporâneo envolve conflitos de interesses entre desenvolvimento econômico e preservação ambiental, entre países ricos (maiores emissores históricos) e pobres (mais vulneráveis), e entre o presente e as gerações futuras."
+    "ajuda": "A questão ambiental no espaço contemporâneo envolve conflitos de interesses entre desenvolvimento econômico e preservação ambiental, entre países ricos (maiores emissores históricos) e pobres (mais vulneráveis), e entre o presente e as gerações futuras.",
+    "feedbacks": {
+      "1": "Associar o uso dos recursos naturais ao progresso industrial é exatamente o modelo predatório que as políticas ambientais visam superar. A função da política ambiental é controlar e limitar os impactos da industrialização, não vincular os recursos à expansão industrial.",
+      "2": "Desenvolver medidas em comum acordo com populações é uma estratégia de gestão participativa, não a principal função das políticas ambientais institucionais. A função primária é o estabelecimento de normas e práticas que regulem o uso e protejam os recursos naturais.",
+      "3": "Desenvolver técnicas de contenção de problemas ambientais é parte da resposta, mas não define a função essencial das políticas ambientais. A função central é estabelecer os códigos normativos e práticas que regulam toda a relação entre sociedade e recursos naturais.",
+      "4": "Definir áreas prioritárias para o uso sustentável da biodiversidade é um instrumento de política ambiental, não sua definição completa. A função mais abrangente das políticas ambientais é o estabelecimento de normas e práticas que regulam toda a exploração dos recursos naturais."
+    }
   },
   {
     "id": 7,
@@ -159,7 +194,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A biogeografia estuda a distribuição dos seres vivos no espaço geográfico e seus determinantes históricos e ecológicos. A vegetação de uma região é influenciada pelo clima (temperatura, chuvas), pelo solo e pelo substrato rochoso. Afirmar que o tipo de rocha 'determina' a vegetação é incorreto como afirmação exclusiva — o clima é o fator dominante; a rocha é um condicionante secundário via composição do solo.</p>",
-    "ajuda": "O ramo da Geografia que estuda a distribuição da vegetação, os biomas e as interações entre os seres vivos e o ambiente físico é a Biogeografia. Ela analisa como clima, solo e relevo determinam a distribuição das espécies e das formações vegetais."
+    "ajuda": "O ramo da Geografia que estuda a distribuição da vegetação, os biomas e as interações entre os seres vivos e o ambiente físico é a Biogeografia. Ela analisa como clima, solo e relevo determinam a distribuição das espécies e das formações vegetais.",
+    "feedbacks": {
+      "0": "O clima influencia de fato a vegetação por meio de temperatura, umidade e ventos. No entanto, a afirmativa pode conter uma simplificação ou imprecisão sobre como cada fator climático específico se traduz no tipo de vegetação, tornando-a incorreta como formulada.",
+      "1": "O solo fornece sustentação e nutrientes, mas a relação entre solo e vegetação não é tão direta como descrito. Solos férteis podem ter vegetação menos diversa (como pradarias) e solos pobres podem ter florestas muito diversas (como partes da Amazônia em latossolo). A relação é mais complexa.",
+      "3": "O relevo interfere indiretamente na vegetação ao alterar temperatura, precipitação e exposição solar. A afirmativa está parcialmente correta, mas pode conter imprecisões sobre o mecanismo específico de interferência, tornando-a incorreta como formulada."
+    }
   },
   {
     "id": 8,
@@ -181,7 +221,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A tundra ocorre nas latitudes próximas ao Círculo Polar Ártico, onde o permafrost impede o desenvolvimento de raízes profundas e a estação de crescimento é brevíssima (menos de 3 meses). Musgos, liquens e gramíneas rasteiras dominam a paisagem. É um dos biomas mais sensíveis ao aquecimento global — o permafrost derretendo libera metano e CO₂ armazenados há milênios.</p>",
-    "ajuda": "Nas altas latitudes, o permafrost é uma camada de solo permanentemente congelada que cobre grande parte da Sibéria, Alasca e Canadá. O aquecimento global está causando seu degelo, o que libera metano (gás de efeito estufa) e compromete edificações e infraestrutura."
+    "ajuda": "Nas altas latitudes, o permafrost é uma camada de solo permanentemente congelada que cobre grande parte da Sibéria, Alasca e Canadá. O aquecimento global está causando seu degelo, o que libera metano (gás de efeito estufa) e compromete edificações e infraestrutura.",
+    "feedbacks": {
+      "0": "A estepe é uma formação herbácea de regiões temperadas e semiáridas, com gramíneas e arbustos esparsos. Não é a vegetação típica das regiões polares com permafrost, musgos e líquens que a questão descreve.",
+      "1": "As araucárias são coníferas características do Sul do Brasil e de alguns países andinos. Não são vegetação polar: não sobrevivem em climas de permafrost com temperaturas extremamente baixas durante longos meses.",
+      "3": "Os campos cerrados (Cerrado) são uma savana tropical brasileira, com alternância de estação seca e chuvosa. Não são a vegetação polar de musgos, líquens e pequenas plantas rasteiras do clima subpolar extremo."
+    }
   },
   {
     "id": 9,
@@ -205,7 +250,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A biogeografia é o ramo da geografia (e da biologia) que estuda a distribuição dos seres vivos no espaço e no tempo, investigando por que determinadas espécies ocorrem em determinados lugares. Analisa a influência de fatores abióticos (clima, relevo, solo) e históricos (deriva continental, glaciações) sobre a distribuição da biodiversidade global.</p>",
-    "ajuda": "O texto provavelmente descreve a Biogeografia ou a Ecologia Geográfica — ramos que estudam a distribuição dos seres vivos no espaço, a relação entre fatores abióticos (clima, solo, relevo) e as comunidades biológicas. Identifique qual área de pesquisa corresponde à descrição."
+    "ajuda": "O texto provavelmente descreve a Biogeografia ou a Ecologia Geográfica — ramos que estudam a distribuição dos seres vivos no espaço, a relação entre fatores abióticos (clima, solo, relevo) e as comunidades biológicas. Identifique qual área de pesquisa corresponde à descrição.",
+    "feedbacks": {
+      "1": "A geomorfologia é o estudo das formas do relevo e dos processos que as geram. Não é a disciplina que estuda a distribuição geográfica dos organismos vivos (flora e fauna) na superfície terrestre.",
+      "2": "A ecologia estuda as interações entre os organismos e seu ambiente. Embora relacionada com a distribuição dos seres vivos, não é a disciplina especializada na distribuição geográfica de espécies sobre a superfície terrestre.",
+      "3": "A fitogeografia é o estudo da distribuição geográfica das PLANTAS especificamente. É uma subdisciplina da biogeografia, mas se restringe à flora, não abrangendo a fauna nem a distribuição geral de todos os organismos vivos.",
+      "4": "A zoogeografia é o estudo da distribuição geográfica dos ANIMAIS especificamente. É uma subdisciplina da biogeografia, mas se limita à fauna, não abrangendo a flora nem a distribuição geral de todos os organismos vivos."
+    }
   },
   {
     "id": 10,
@@ -227,6 +278,12 @@
     ],
     "correta": 4,
     "comentario": "<p>As florestas equatoriais e tropicais — Amazônia, floresta do Congo, florestas do Sudeste Asiático — abrigam mais de 50% da biodiversidade terrestre do planeta, mas ocupam menos de 10% da superfície. Estão sob pressão crescente do desmatamento para agricultura, pecuária e mineração. A preservação dessas florestas é considerada prioridade global para manter a biodiversidade e regular o clima.</p>",
-    "ajuda": "As grandes paisagens naturais foram profundamente modificadas pelo ser humano. O desmatamento, a urbanização e a agricultura industrial transformaram biomas inteiros. Avalie cada afirmativa considerando a dinâmica entre preservação e uso do espaço geográfico."
+    "ajuda": "As grandes paisagens naturais foram profundamente modificadas pelo ser humano. O desmatamento, a urbanização e a agricultura industrial transformaram biomas inteiros. Avalie cada afirmativa considerando a dinâmica entre preservação e uso do espaço geográfico.",
+    "feedbacks": {
+      "0": "Os desertos não correspondem a 'áreas que sofreram modificações resultantes da exploração irracional': a maioria dos desertos são formações naturais condicionadas pelo clima. A desertificação é o avanço do deserto por ação humana, que não se confunde com os desertos naturais originais.",
+      "1": "As pradarias e estepes sofrem modificações pela agropecuária, não pela 'mineração extensiva'. A pecuária extensiva e a agricultura mecanizada são os principais agentes de transformação desses biomas, não a mineração, que é mais característica de outras regiões.",
+      "2": "A tundra não sofre expansão agrícola em escala relevante: seu clima extremamente frio inviabiliza a agricultura. A principal ameaça à tundra é o derretimento do permafrost pelo aquecimento global e a exploração pontual de petróleo e gás em algumas regiões.",
+      "3": "A savana não corresponde a um bioma de 'áreas temperadas e subtropicais': as savanas são biomas TROPICAIS (Cerrado no Brasil, Bushveld na África, savana australiana). O bioma de áreas temperadas com formação aberta herbácea seria a estepe ou a pradaria."
+    }
   }
 ]

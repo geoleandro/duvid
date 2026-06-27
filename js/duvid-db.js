@@ -21,7 +21,7 @@ const API_BASE = '/api';
 // =============================================================
 const DuvidDB = {
 
-    _cache: { globinhos: null, conclusoes: null, alunoId: null, sessaoAtiva: false },
+    _cache: { globinhos: null, conclusoes: null, alunoId: null, sessaoAtiva: false, turmaNome: null, turmaCodigo: null },
 
     // Nº de gravações (globinhos.php / progresso.php) ainda esperando resposta.
     _pendentes: 0,
@@ -286,8 +286,10 @@ const DuvidDB = {
     // ==========================================================
     // Aplica resposta do banco ao cache local
     _aplicarDadosBanco: function (dados) {
-        DuvidDB._cache.alunoId    = dados.id;
-        DuvidDB._cache.sessaoAtiva = dados.sessao_ativa === true;
+        DuvidDB._cache.alunoId     = dados.id;
+        DuvidDB._cache.sessaoAtiva  = dados.sessao_ativa === true;
+        DuvidDB._cache.turmaNome    = dados.turma_nome   || null;
+        DuvidDB._cache.turmaCodigo  = dados.turma_codigo || null;
         localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
         DuvidDB._cache.globinhos = dados.globinhos;
         DuvidDB._cache.conclusoes = {};

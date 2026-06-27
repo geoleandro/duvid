@@ -19,7 +19,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A população indígena brasileira, estimada em cerca de 900 mil pessoas, passou por séculos de genocídio físico e cultural, mas vive hoje uma retomada demográfica significativa. A maioria habita a Amazônia Legal, onde estão as terras indígenas demarcadas que representam cerca de 13% do território nacional. O crescimento atual reflete tanto a recuperação biológica quanto o aumento do autoidentificação étnica.</p>",
-    "ajuda": "Lembre-se de que a população indígena brasileira sofreu drástica redução após o contato com os colonizadores europeus. Pense em como essa realidade se reflete nos dados atuais: a população indígena cresceu ou diminuiu? Em que áreas do Brasil a maioria dos indígenas vive atualmente? Analise cada alternativa à luz do conhecimento sobre a demografia indígena contemporânea."
+    "ajuda": "Lembre-se de que a população indígena brasileira sofreu drástica redução após o contato com os colonizadores europeus. Pense em como essa realidade se reflete nos dados atuais: a população indígena cresceu ou diminuiu? Em que áreas do Brasil a maioria dos indígenas vive atualmente? Analise cada alternativa à luz do conhecimento sobre a demografia indígena contemporânea.",
+    "feedbacks": {
+      "0": "As populações indígenas isoladas na Amazônia não são caracterizadas por predominância de idosos, mas sim por estrutura etária jovem, típica de populações com alta natalidade. Além disso, o isolamento em grandes aldeias com idosos predominantes não corresponde aos dados demográficos sobre essas comunidades.",
+      "1": "A população indígena atual é muito menor do que a estimada para o período pré-colonial, quando havia milhões de nativos antes do extermínio causado pela colonização. Embora o número de etnias catalogadas seja expressivo, o contingente demográfico total é muito inferior ao existente no século XVI.",
+      "2": "A dicotomia proposta, com crescimento no Centro-Sul e redução na Amazônia, inverte a realidade demográfica das populações indígenas. A Amazônia concentra a maior parte da população indígena do país e registrou crescimento demográfico nas últimas décadas."
+    }
   },
   {
     "id": 2,
@@ -44,7 +49,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A formação do povo brasileiro é inseparável do projeto colonial português: a miscigenação não foi um fenômeno espontâneo e harmônico, mas resultado de violência, escravidão e exploração. A Coroa incentivou a ocupação territorial usando a população como instrumento de conquista, gerando uma sociedade miscigenada marcada por profundas desigualdades raciais e sociais.</p>",
-    "ajuda": "Leia o texto de Darcy Ribeiro com atenção: ele fala de um 'povo novo' surgido da confluência de povos, mas que existia para servir ao mercado externo. Pense em quem foram os agentes desse processo colonial e qual era a finalidade econômica da colonização. Identifique qual alternativa descreve corretamente tanto os agentes quanto o objetivo econômico da formação do povo brasileiro."
+    "ajuda": "Leia o texto de Darcy Ribeiro com atenção: ele fala de um 'povo novo' surgido da confluência de povos, mas que existia para servir ao mercado externo. Pense em quem foram os agentes desse processo colonial e qual era a finalidade econômica da colonização. Identifique qual alternativa descreve corretamente tanto os agentes quanto o objetivo econômico da formação do povo brasileiro.",
+    "feedbacks": {
+      "0": "A colonização portuguesa não tinha como objetivo criar um mercado interno amplo e diversificado no Brasil; o projeto colonial era de exploração para benefício da metrópole. O empreendimento colonial era mercantil e extrativista, voltado ao atendimento das demandas do comércio europeu.",
+      "1": "Os povos africanos não foram conquistadores de novos territórios; eles foram trazidos à força como mão de obra escravizada para servir ao projeto colonial europeu. Além disso, o modelo econômico implantado era dependente do mercado externo, sem autonomia para os povos colonizados.",
+      "2": "Os povos ameríndios habitavam o território antes da chegada europeia e foram as principais vítimas da colonização, não seus agentes. O projeto implantado foi de exploração mercantil portuguesa, voltado ao exterior, e não ao progresso técnico e econômico nacional dos colonizados.",
+      "4": "Embora os europeus tenham sido os agentes da colonização, a alternativa descreve o modelo econômico como autônomo e voltado ao mercado local, quando era justamente dependente e orientado para a metrópole. A colonização portuguesa caracterizou-se pela exploração mercantil em benefício de Portugal, não pela construção de autonomia local."
+    }
   },
   {
     "id": 3,
@@ -68,7 +79,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A concentração populacional no litoral brasileiro é herança direta da colonização: os portugueses ocuparam a costa para facilitar o escoamento das riquezas para a metrópole. Essa lógica exportadora criou cidades litorâneas densamente habitadas enquanto o interior permanecia vazio demograficamente — padrão que só começou a mudar com a interiorização promovida por Brasília e pelo agronegócio.</p>",
-    "ajuda": "Pense nos fatores históricos que explicam por que a maior parte da população brasileira se concentra no litoral: a colonização começou pela costa, os portos eram centros de comércio e as primeiras cidades surgiram litorâneas. Analise se as regiões Nordeste, Sudeste e Sul concentram ou não a maior parte da população e se os vazios demográficos do Norte e Centro-Oeste têm população absoluta elevada."
+    "ajuda": "Pense nos fatores históricos que explicam por que a maior parte da população brasileira se concentra no litoral: a colonização começou pela costa, os portos eram centros de comércio e as primeiras cidades surgiram litorâneas. Analise se as regiões Nordeste, Sudeste e Sul concentram ou não a maior parte da população e se os vazios demográficos do Norte e Centro-Oeste têm população absoluta elevada.",
+    "feedbacks": {
+      "1": "As metrópoles brasileiras como São Paulo, Rio de Janeiro, Salvador, Recife e Fortaleza se localizam justamente no litoral ou em suas imediações. Afirmar que grande número das metrópoles não se localiza próximo ao litoral contradiz a distribuição espacial das principais cidades do país.",
+      "2": "As regiões Nordeste, Sudeste e Sul não ocupam a maior parte do território; as regiões Norte e Centro-Oeste são as maiores em extensão. Além disso, essas três regiões concentram sim a maior parte da população brasileira, sendo o Sudeste o mais populoso.",
+      "3": "As regiões Norte e Centro-Oeste apresentam baixa densidade demográfica e não possuem população absoluta elevada em comparação com o total nacional. A maior parte da população brasileira se concentra no Sudeste, Nordeste e Sul, e não nas regiões de vastos espaços pouco habitados.",
+      "4": "As principais atividades econômicas do Brasil, como indústria e serviços, estão concentradas nas regiões metropolitanas costeiras, e não no interior. O agronegócio avançou para o Centro-Oeste, mas os centros financeiros, industriais e de serviços ainda estão no litoral e nas grandes metrópoles."
+    }
   },
   {
     "id": 4,
@@ -92,7 +109,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O Brasil é resultado de uma das maiores miscigenações étnicas da história: indígenas, africanos escravizados e europeus colonizadores, além de imigrantes asiáticos e do Oriente Médio. Essa diversidade, porém, foi construída sobre relações de poder assimétricas — a escravidão africana e o extermínio indígena — o que explica as persistentes desigualdades raciais no país.</p>",
-    "ajuda": "Analise cada afirmativa (I a V) sobre a formação étnica brasileira. Pense: os colonizadores europeus respeitaram as culturas indígenas? O trabalho escravo gerou preconceito racial? Quando e onde os japoneses chegaram ao Brasil? O português foi dominante em todo o território desde o início? Avalie a veracidade de cada afirmativa."
+    "ajuda": "Analise cada afirmativa (I a V) sobre a formação étnica brasileira. Pense: os colonizadores europeus respeitaram as culturas indígenas? O trabalho escravo gerou preconceito racial? Quando e onde os japoneses chegaram ao Brasil? O português foi dominante em todo o território desde o início? Avalie a veracidade de cada afirmativa.",
+    "feedbacks": {
+      "0": "Esta combinação inclui a afirmativa II, que contém informações incorretas sobre o tema. O conjunto correto de afirmativas verdadeiras se restringe às de número I, III e IV.",
+      "1": "Esta combinação inclui as afirmativas II e V, que apresentam equívocos, e exclui a afirmativa I, que é correta. As afirmativas II e V possuem erros que as tornam inválidas como respostas verdadeiras.",
+      "2": "Esta combinação exclui as afirmativas I e III, que são corretas, e inclui as afirmativas II, IV e V. As afirmativas II e V contêm erros que impedem sua inclusão no conjunto de respostas verdadeiras.",
+      "4": "Esta combinação inclui a afirmativa V, que não é correta, e exclui a afirmativa III, que é verdadeira. A afirmativa V apresenta informação incorreta sobre o tema abordado."
+    }
   },
   {
     "id": 5,
@@ -117,7 +140,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Pense em qual parte do Brasil recebeu maior fluxo de imigrantes italianos e alemães no século XIX. Lembre-se de que esses grupos vieram principalmente como colonos para trabalhar em pequenas propriedades e substituir a mão de obra escrava. Associe essa imigração à região onde a colonização europeia foi mais intensa e onde esses grupos deixaram marcas culturais visíveis."
+    "ajuda": "Pense em qual parte do Brasil recebeu maior fluxo de imigrantes italianos e alemães no século XIX. Lembre-se de que esses grupos vieram principalmente como colonos para trabalhar em pequenas propriedades e substituir a mão de obra escrava. Associe essa imigração à região onde a colonização europeia foi mais intensa e onde esses grupos deixaram marcas culturais visíveis.",
+    "feedbacks": {
+      "0": "A Amazônia Ocidental é marcada por baixíssima densidade demográfica, cobertura florestal densa e fraca integração econômica. Essa região não apresenta as características de dinamismo industrial e urbano que definem o complexo descrito, próprio do Centro-Sul.",
+      "1": "A Amazônia Oriental, que inclui partes do Pará e Maranhão, possui alguma atividade agropecuária e mineral, mas não concentra a dinâmica industrial e de serviços descrita. As características de maior intensidade econômica e urbanização correspondem ao Centro-Sul.",
+      "2": "O Nordeste brasileiro é historicamente marcado por desigualdades socioeconômicas e é uma das regiões de maior emigração do país. As características de alta industrialização e urbanização descritas correspondem ao Centro-Sul, enquanto o Nordeste apresenta os menores índices de industrialização entre as grandes regiões.",
+      "4": "O Centro-Oeste é caracterizado pela expansão do agronegócio moderno, com densidade urbana inferior à do Centro-Sul. As características de maior concentração industrial e urbana do Brasil descrevem o Centro-Sul, e não o Centro-Oeste."
+    }
   },
   {
     "id": 6,
@@ -136,13 +165,19 @@
     "alternativas": [
       "VVV.",
       "FVV.",
-      "FVV.",
+      "VVF.",
       "FVF.",
       "VFV."
     ],
     "correta": 3,
     "comentario": "<p>A transição demográfica brasileira foi acelerada: em poucas décadas a taxa de fecundidade caiu de cerca de 6 filhos por mulher (1960) para menos de 2 (2020), impulsionada pela urbanização, pelo acesso à educação feminina e aos métodos contraceptivos. Hoje o Brasil enfrenta envelhecimento populacional e queda da população em idade ativa, o que pressiona a Previdência Social.</p>",
-    "ajuda": "Analise cada afirmativa (V ou F) sobre a fecundidade no Brasil. Lembre-se de que a queda da fecundidade está ligada à urbanização, ao avanço da escolaridade feminina e ao acesso a métodos contraceptivos — não à necessidade de mão de obra no campo. Pense também nas consequências do envelhecimento populacional para o mercado de trabalho e para os gastos sociais do Estado."
+    "ajuda": "Analise cada afirmativa (V ou F) sobre a fecundidade no Brasil. Lembre-se de que a queda da fecundidade está ligada à urbanização, ao avanço da escolaridade feminina e ao acesso a métodos contraceptivos — não à necessidade de mão de obra no campo. Pense também nas consequências do envelhecimento populacional para o mercado de trabalho e para os gastos sociais do Estado.",
+    "feedbacks": {
+      "0": "Esta combinação classifica todas as três afirmativas como verdadeiras, quando a primeira e a terceira são falsas. Apenas a segunda afirmativa é correta; as afirmativas I e III contêm erros que as tornam inválidas.",
+      "1": "Esta combinação classifica corretamente a afirmativa I como falsa, mas também classifica a afirmativa III como verdadeira, o que é incorreto. Apenas a afirmativa II é verdadeira; a afirmativa III é falsa assim como a I. ATENCAO: esta alternativa é identica à alternativa 2.",
+      "2": "Esta combinação classifica corretamente a afirmativa I como falsa, mas também classifica a afirmativa III como verdadeira, o que é incorreto. Apenas a afirmativa II é verdadeira; a afirmativa III é falsa assim como a I. ATENCAO: esta alternativa é identica à alternativa 1.",
+      "4": "Esta combinação classifica a afirmativa II como falsa, quando ela é justamente a única verdadeira das três. Além disso, classifica as afirmativas I e III como verdadeiras, quando ambas são falsas, invertendo completamente o gabarito."
+    }
   },
   {
     "id": 7,
@@ -166,7 +201,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Lembre-se de que o Projeto Nova Cartografia Social ensina povos tradicionais a mapear seus próprios territórios. Pense no que significa para uma comunidade indígena ou quilombola ter a capacidade de produzir seu próprio mapa. Esse processo promove reconhecimento, autonomia e fortalecimento de qual aspecto da vida dessas comunidades?"
+    "ajuda": "Lembre-se de que o Projeto Nova Cartografia Social ensina povos tradicionais a mapear seus próprios territórios. Pense no que significa para uma comunidade indígena ou quilombola ter a capacidade de produzir seu próprio mapa. Esse processo promove reconhecimento, autonomia e fortalecimento de qual aspecto da vida dessas comunidades?",
+    "feedbacks": {
+      "0": "A expansão da fronteira agrícola representa uma ameaça às comunidades tradicionais e indígenas, ao contrário do que seria esperado do processo descrito. A questão aborda a proteção e o reconhecimento de direitos, e não a expansão de atividades que frequentemente violam esses direitos.",
+      "1": "A remoção de populações nativas contraria os objetivos das políticas de reconhecimento territorial e de direitos coletivos. O processo descrito busca garantir a permanência e os direitos das comunidades em seus territórios, e não o seu deslocamento forçado.",
+      "3": "A superação da condição de pobreza é um objetivo social amplo que pode ser consequência indireta das políticas descritas, mas não o conceito central que as define. A questão foca no reconhecimento cultural e territorial específico, que é a valorização das identidades coletivas.",
+      "4": "A implantação de projetos agroindustriais em territórios indígenas e quilombolas é apontada como violação dos direitos dessas comunidades. Esse tipo de projeto se opõe à valorização das identidades coletivas e ao respeito pelos modos de vida tradicionais."
+    }
   },
   {
     "id": 8,
@@ -191,7 +232,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Leia o texto sobre os censos e pense: o Brasil realizou vários recenseamentos ao longo do tempo, mas nem sempre incluiu a variável 'cor ou raça'. Pense no que isso significa para as políticas públicas de correção de desigualdades. A questão pede uma avaliação crítica sobre a heterogeneidade da população brasileira e os critérios de recenseamento — qual alternativa reconhece a dificuldade de medir essa diversidade sem afirmar equivocadamente que há 'democracia racial'?"
+    "ajuda": "Leia o texto sobre os censos e pense: o Brasil realizou vários recenseamentos ao longo do tempo, mas nem sempre incluiu a variável 'cor ou raça'. Pense no que isso significa para as políticas públicas de correção de desigualdades. A questão pede uma avaliação crítica sobre a heterogeneidade da população brasileira e os critérios de recenseamento — qual alternativa reconhece a dificuldade de medir essa diversidade sem afirmar equivocadamente que há 'democracia racial'?",
+    "feedbacks": {
+      "0": "A população brasileira apresenta grande diversidade étnica, mas não homogeneidade de características, como comprovam os dados sobre desigualdades de renda, educação e saúde entre grupos raciais. A ideia de homogeneidade racial ignora as diferenças verificadas pelo IBGE entre os grupos classificados por cor da pele.",
+      "2": "O conceito de democracia racial foi amplamente criticado e refutado por pesquisadores, pois encobre desigualdades raciais documentadas no Brasil. Os dados do IBGE demonstram diferenças significativas de escolaridade, expectativa de vida e rendimentos entre grupos, contrariando a tese do equilíbrio racial.",
+      "3": "No Brasil, o princípio da autodeclaração não confere poderes ao Estado para determinar a classificação racial do indivíduo; ao contrário, é o próprio cidadão quem se autodeclara. O recenseador apenas registra a declaração do indivíduo, sem aplicar critérios externos de classificação étnica.",
+      "4": "A heterogeneidade da população brasileira é uma realidade social estrutural que não muda com a alteração dos critérios de recenseamento do IBGE. As desigualdades raciais são fenômenos sociais concretos que independem da metodologia de classificação adotada pelo instituto."
+    }
   },
   {
     "id": 9,
@@ -213,7 +260,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Apesar de avanços legais como as cotas raciais (Lei 12.711/2012) e o Estatuto da Igualdade Racial (2010), os indicadores socioeconômicos mostram que negros e pardos ainda ganham em média 40% menos que brancos no Brasil. Esse dado contradiz a narrativa de 'democracia racial' e evidencia que políticas públicas específicas têm sim reduzido — não agravado — as desigualdades históricas.</p>",
-    "ajuda": "Atenção: a questão pede a alternativa INCORRETA sobre a população negra brasileira. Analise cada afirmativa com cuidado: os índices de escolaridade, renda e saúde melhoraram, mas ainda há desigualdade. Pense se a desigualdade racial no Brasil tem se agravado ou se as políticas públicas de inclusão geraram alguma melhoria nos indicadores."
+    "ajuda": "Atenção: a questão pede a alternativa INCORRETA sobre a população negra brasileira. Analise cada afirmativa com cuidado: os índices de escolaridade, renda e saúde melhoraram, mas ainda há desigualdade. Pense se a desigualdade racial no Brasil tem se agravado ou se as políticas públicas de inclusão geraram alguma melhoria nos indicadores.",
+    "feedbacks": {
+      "0": "As melhorias no acesso à educação formal produziram reduções verificáveis nas diferenças de escolaridade entre negros e brancos em alguns períodos. Afirmar que tais melhorias não foram capazes de gerar qualquer avanço subestima os progressos documentados, mesmo que insuficientes para eliminar a desigualdade.",
+      "1": "Os índices de escolaridade, renda e pobreza da população negra registraram melhoras entre 1996 e 2006. A alternativa reconhece melhoras nos indicadores, mas não chega a afirmar o agravamento das desigualdades nos anos seguintes, que é a conclusão mais importante sobre o tema.",
+      "2": "A afirmação de que brancos vivem com quase o dobro da renda mensal per capita dos negros descreve uma disparidade pontual, mas não indica se essa diferença está se agravando ao longo do tempo. A questão busca a alternativa que melhor descreve o cenário de intensificação das desigualdades e a ausência de políticas efetivas.",
+      "3": "Afirmar que negros entram mais cedo no mercado de trabalho é sustentado por dados, mas a afirmação de que deixam o mercado mais tarde do que os brancos não é consistentemente verificada. Além disso, essa alternativa descreve apenas um aspecto pontual, sem tratar da questão mais ampla do agravamento das desigualdades raciais."
+    }
   },
   {
     "id": 10,
@@ -238,6 +291,12 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n -->",
-    "ajuda": "Analise cada afirmativa (I, II, III) sobre a composição étnica da população brasileira. Pense: o aumento de autodeclarados pretos tem relação com políticas afirmativas e campanhas de valorização da identidade? A queda de brancos se explica pela taxa de fecundidade? Pretos e pardos somados são maioria na população brasileira? Avalie cada uma com base em dados do IBGE."
+    "ajuda": "Analise cada afirmativa (I, II, III) sobre a composição étnica da população brasileira. Pense: o aumento de autodeclarados pretos tem relação com políticas afirmativas e campanhas de valorização da identidade? A queda de brancos se explica pela taxa de fecundidade? Pretos e pardos somados são maioria na população brasileira? Avalie cada uma com base em dados do IBGE.",
+    "feedbacks": {
+      "0": "Esta combinação seleciona apenas a afirmativa I, ignorando a afirmativa III, que também apresenta informações corretas. A resposta completa inclui duas afirmativas verdadeiras, sendo insuficiente marcar apenas uma delas.",
+      "1": "A afirmativa II contém equívocos que a tornam incorreta sobre o tema abordado. As afirmativas verdadeiras são a I e a III, e não a II.",
+      "2": "Esta combinação seleciona apenas a afirmativa III, desconsiderando a afirmativa I, que também é verdadeira. O gabarito exige o reconhecimento de que ambas as afirmativas I e III são corretas.",
+      "4": "A afirmativa II contém erros que impedem sua inclusão no conjunto de respostas verdadeiras. Apenas as afirmativas I e III estão corretas; a inclusão da II invalida essa combinação."
+    }
   }
 ]

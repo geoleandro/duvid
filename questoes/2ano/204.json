@@ -21,7 +21,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A violência no campo brasileiro é estrutural: conflitos por terra envolvem grilagem, pistolagem e expansão do agronegócio sobre territórios de posseiros, quilombolas e indígenas, especialmente na Amazônia e no Cerrado. O avanço de monocultivos de soja e da mineração intensifica esses conflitos, colocando o Brasil entre os países com maior número de mortes relacionadas à terra no mundo.</p>",
-    "ajuda": "Observe o gráfico e pense em qual região do Brasil há maior concentração de conflitos fundiários. Lembre-se de que a região Norte, especialmente a Amazônia, é palco de disputas entre grileiros, posseiros, garimpeiros e madeireiros. Associe a motivação dos conflitos ao avanço de monocultivos e projetos minerais sobre terras tradicionais."
+    "ajuda": "Observe o gráfico e pense em qual região do Brasil há maior concentração de conflitos fundiários. Lembre-se de que a região Norte, especialmente a Amazônia, é palco de disputas entre grileiros, posseiros, garimpeiros e madeireiros. Associe a motivação dos conflitos ao avanço de monocultivos e projetos minerais sobre terras tradicionais.",
+    "feedbacks": {
+      "0": "O conflito entre agricultores familiares e culturas de cana e algodão é característico do Nordeste e partes do Sudeste, não da região Norte. A questão descreve o tipo de conflito mais expressivo atualmente, que envolve grileiros e posseiros em áreas de fronteira mineral e madeireira na região Norte.",
+      "1": "A fragmentação de propriedades por herança gera disputas de natureza civil, bem diferentes dos conflitos violentos entre grileiros e posseiros em áreas de fronteira. Além disso, a questão situa o conflito mais expressivo na região Norte, onde predominam disputas por terras em áreas de expansão.",
+      "2": "A rivalidade entre trabalhadores rurais e criadores extensivos no Pantanal e nas chapadas mato-grossenses não é o tipo de conflito mais expressivo no Brasil em termos de violência fundiária. Os conflitos mais graves envolvem grilagem e posseiros em áreas de expansão madeireira e mineral na região Norte."
+    }
   },
   {
     "id": 2,
@@ -46,7 +51,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A modernização conservadora da agricultura brasileira (anos 1960–70) aumentou a produtividade via mecanização e uso de agrotóxicos, mas concentrou ainda mais a terra. O crédito subsidiado do PRONAF beneficiou principalmente grandes proprietários, expulsando pequenos agricultores para as periferias urbanas — a chamada 'urbanização da pobreza rural'.</p>",
-    "ajuda": "Pense no que significa 'modernização conservadora' da agricultura: houve aumento de produtividade com uso de máquinas e insumos, mas sem redistribuição de terras. Analise se a mecanização incluiu ou excluiu trabalhadores rurais. Considere como a concentração fundiária se intensificou mesmo com a modernização do campo."
+    "ajuda": "Pense no que significa 'modernização conservadora' da agricultura: houve aumento de produtividade com uso de máquinas e insumos, mas sem redistribuição de terras. Analise se a mecanização incluiu ou excluiu trabalhadores rurais. Considere como a concentração fundiária se intensificou mesmo com a modernização do campo.",
+    "feedbacks": {
+      "0": "A modernização conservadora intensificou o êxodo rural ao substituir mão de obra por máquinas, ao contrário do que afirma essa alternativa. A expulsão de trabalhadores rurais para as cidades foi uma das principais consequências da modernização agrícola, não a contenção do êxodo.",
+      "2": "A modernização agrícola, parte do pacote da Revolução Verde, veio acompanhada de investimentos em infraestrutura de escoamento, como estradas, silos e portos. Afirmar que não criou condições para o escoamento da produção contraria o histórico de expansão logística agrícola no Brasil a partir dos anos 1970.",
+      "3": "A modernização da agricultura manteve e aprofundou a dependência brasileira da produção e exportação de commodities agrícolas primários. Afirmar que ela desvinculou a agricultura dos produtos primários é incorreto, pois o modelo agroexportador foi justamente reforçado pela modernização.",
+      "4": "A modernização conservadora intensificou as relações capitalistas no campo, mas a sindicalização dos trabalhadores rurais não foi impedida; ao contrário, o MST surgiu justamente como resposta às suas consequências. O direito à sindicalização rural foi garantido pela Constituição de 1988."
+    }
   },
   {
     "id": 3,
@@ -69,7 +80,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A modernização agrícola brasileira, especialmente com a Revolução Verde, introduziu sementes modificadas, fertilizantes e máquinas que elevaram a produtividade, mas sem alterar a estrutura da propriedade da terra. O resultado foi uma agropecuária tecnologicamente avançada convivendo com uma das concentrações fundiárias mais elevadas do mundo, confirmando que modernização tecnológica não implica reforma social.</p>",
-    "ajuda": "Lembre-se do conceito de 'modernização conservadora': a tecnologia avançou no campo brasileiro, mas a estrutura fundiária permaneceu concentrada. Pense em qual aspecto da modernização agrícola não foi reformado. Analise qual alternativa descreve corretamente a permanência de um problema histórico mesmo diante da modernização."
+    "ajuda": "Lembre-se do conceito de 'modernização conservadora': a tecnologia avançou no campo brasileiro, mas a estrutura fundiária permaneceu concentrada. Pense em qual aspecto da modernização agrícola não foi reformado. Analise qual alternativa descreve corretamente a permanência de um problema histórico mesmo diante da modernização.",
+    "feedbacks": {
+      "0": "O êxodo rural foi intensificado, e não reduzido, pela modernização conservadora, que substituiu trabalhadores por máquinas. A expulsão do campo alimentou o crescimento desordenado das periferias urbanas, ao contrário do que sugere essa alternativa.",
+      "1": "A modernização da agricultura aumentou significativamente a capacidade produtiva do campo por meio da mecanização, uso de insumos e sementes melhoradas. Afirmar que ela restringiu a capacidade produtiva contradiz o aumento expressivo da produtividade agrícola brasileira a partir dos anos 1970.",
+      "2": "A modernização conservadora acelerou o desmatamento para abertura de novas áreas agricultáveis no Cerrado e na Amazônia. Afirmar que ela limitou a quantidade de áreas destinadas ao desmatamento contraria o histórico de destruição ambiental associado à expansão do agronegócio.",
+      "3": "A modernização agrícola priorizou a produção de commodities para exportação, e não a distribuição de alimentos para a população de baixa renda. A concentração em monocultivos de exportação contribuiu para a persistência da fome e da insegurança alimentar no Brasil mesmo durante o boom agrícola."
+    }
   },
   {
     "id": 4,
@@ -95,7 +112,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A estrutura fundiária brasileira é uma das mais concentradas do mundo, com um Gini de terra próximo a 0,87. Essa realidade tem raízes no período colonial, quando as sesmarias criaram os latifúndios, e foi perpetuada pela Lei de Terras de 1850, que transformou a terra em mercadoria inacessível para ex-escravos e imigrantes pobres. A reforma agrária permanece como pauta irrealizada.</p>",
-    "ajuda": "Pense no conceito de Índice de Gini aplicado à terra: quanto mais próximo de 1, maior a concentração fundiária. O texto afirma que a concentração de terra no Brasil até aumentou. Avalie qual alternativa reconhece que a questão fundiária é histórica, grave e ainda não resolvida no Brasil, sem distorcer os fatos sobre a reforma agrária."
+    "ajuda": "Pense no conceito de Índice de Gini aplicado à terra: quanto mais próximo de 1, maior a concentração fundiária. O texto afirma que a concentração de terra no Brasil até aumentou. Avalie qual alternativa reconhece que a questão fundiária é histórica, grave e ainda não resolvida no Brasil, sem distorcer os fatos sobre a reforma agrária.",
+    "feedbacks": {
+      "1": "A reforma agrária não promoveu a inclusão social dos trabalhadores rurais de forma abrangente; os assentamentos frequentemente carecem de infraestrutura, crédito e assistência técnica. A falta de suporte pós-assentamento limita a capacidade dos trabalhadores de se inserirem plenamente no mercado produtivo.",
+      "2": "A reforma agrária não aumentou de forma significativa a capacidade produtiva das pequenas propriedades, pois muitos assentamentos sofrem com falta de apoio governamental. Sem políticas complementares de crédito e assistência técnica, a produtividade e a sustentabilidade dos assentamentos são comprometidas.",
+      "3": "A reforma agrária incide sobre propriedades improdutivas que não cumprem a função social da terra, distribuindo-as para agricultores familiares que produzem principalmente para o mercado interno. As monoculturas de exportação e a degradação ambiental são características do agronegócio em grandes propriedades, não das unidades resultantes da reforma agrária.",
+      "4": "A legislação brasileira sobre compra de terras por estrangeiros passou por regulamentações e debates, mas nunca proibiu de forma definitiva essa prática. Além disso, mesmo que houvesse tal proibição, ela não resolveria a concentração fundiária entre proprietários brasileiros, que é o cerne do problema."
+    }
   },
   {
     "id": 5,
@@ -120,7 +143,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O debate sobre reforma agrária polariza proprietários rurais, que a veem como ameaça à produtividade e à segurança jurídica, e movimentos sociais como o MST, que a entendem como correção de uma injustiça histórica. Ambos reconhecem a concentração fundiária como fato, mas divergem sobre suas causas e soluções — reflexo de um conflito político e econômico ainda não resolvido.</p>",
-    "ajuda": "Leia os dois textos com atenção: o primeiro defende a reforma agrária como correção de injustiça histórica, o segundo a critica como ineficiente. Pense em qual argumento cada autor usa: o primeiro foca na distribuição injusta da terra; o segundo prefere propriedades produtivas e geradoras de emprego. Identifique em que ponto os dois textos se opõem fundamentalmente."
+    "ajuda": "Leia os dois textos com atenção: o primeiro defende a reforma agrária como correção de injustiça histórica, o segundo a critica como ineficiente. Pense em qual argumento cada autor usa: o primeiro foca na distribuição injusta da terra; o segundo prefere propriedades produtivas e geradoras de emprego. Identifique em que ponto os dois textos se opõem fundamentalmente.",
+    "feedbacks": {
+      "0": "A reforma agrária não tem como objetivo a crítica ao minifúndio camponês, pois o minifúndio é justamente a pequena propriedade que a reforma pode ajudar a viabilizar. A redução do inchaço urbano pode ser uma consequência indireta, mas não é o fundamento político da reforma agrária.",
+      "1": "A reforma agrária não visa prioritariamente a ampliação da renda nacional nem a prioridade ao mercado externo; seu objetivo é a justiça social no campo e o abastecimento do mercado interno. O agronegócio exportador, e não a reforma agrária, é o setor voltado à ampliação das receitas externas.",
+      "2": "A reforma agrária não busca conter a mecanização agrícola, que é um processo técnico vinculado ao agronegócio. O combate ao êxodo rural pode ser um efeito esperado, mas não é o objetivo central expresso na política de reforma agrária.",
+      "3": "A privatização de empresas estatais e o estímulo ao crescimento econômico são políticas macroeconômicas distintas da reforma agrária. Esses objetivos pertencem à agenda liberal, sem relação direta com a distribuição de terras e a correção das desigualdades históricas no campo."
+    }
   },
   {
     "id": 6,
@@ -145,7 +174,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O gráfico da estrutura fundiária brasileira revela uma pirâmide invertida: poucos latifúndios ocupam a maior parte da área agrícola, enquanto milhões de minifúndios disputam uma fatia minúscula do território. Esse padrão é medido pelo Índice de Gini, em que o Brasil registra valores próximos a 0,87 — entre os mais altos do mundo —, evidenciando a profunda desigualdade na distribuição da terra.</p>",
-    "ajuda": "Observe o gráfico sobre a relação entre número e área dos imóveis rurais no Brasil. Pense: se há muitos imóveis pequenos ocupando pouca área e poucos imóveis grandes ocupando muita área, isso indica concentração ou dispersão fundiária? Identifique qual alternativa descreve corretamente essa relação."
+    "ajuda": "Observe o gráfico sobre a relação entre número e área dos imóveis rurais no Brasil. Pense: se há muitos imóveis pequenos ocupando pouca área e poucos imóveis grandes ocupando muita área, isso indica concentração ou dispersão fundiária? Identifique qual alternativa descreve corretamente essa relação.",
+    "feedbacks": {
+      "1": "O Brasil possui uma das maiores extensões de terras agricultáveis do mundo, sendo um dos maiores produtores agropecuários globais. O problema fundiário não é a escassez de terras, mas a concentração excessiva nas mãos de poucos proprietários, evidenciada pelo alto índice de Gini fundiário.",
+      "2": "A estrutura agrária brasileira é historicamente marcada pelo latifúndio, e não pelo predomínio de minifúndios. O índice de Gini fundiário do Brasil é um dos mais elevados do mundo, indicando altíssima concentração da terra em grandes propriedades.",
+      "3": "A agricultura familiar ocupa uma parcela menor das terras agricultáveis do Brasil em comparação ao agronegócio de larga escala. A estrutura fundiária brasileira é caracterizada pela concentração da terra em grandes propriedades, e não pela primazia da agricultura familiar em termos de área.",
+      "4": "Os plantations modernos, representados pelo agronegócio exportador, são a forma dominante de exploração agrícola nas grandes propriedades do Brasil. Afirmar que eles são débeis contradiz o papel do Brasil como um dos maiores exportadores mundiais de commodities como soja, milho, carne e açúcar."
+    }
   },
   {
     "id": 7,
@@ -170,7 +205,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O 'Bico do Papagaio', região no encontro do Pará, Tocantins e Maranhão, concentra historicamente os maiores índices de conflitos por terra do Brasil. A expansão da fronteira agrícola sobre terras de posseiros e indígenas, associada à ausência do Estado e à ação de grileiros, transforma essa área em um epicentro de violência rural que os dados do INCRA e da CPT sistematicamente confirmam.</p>",
-    "ajuda": "Observe o mapa dos conflitos agrários entre 1985 e 1996. Pense em qual região do Brasil concentra o maior número de mortes: o Bico do Papagaio fica na confluência dos estados do Pará, Tocantins e Maranhão, área de grande tensão entre posseiros e fazendeiros. Analise qual alternativa indica corretamente a região com os números mais expressivos de conflitos."
+    "ajuda": "Observe o mapa dos conflitos agrários entre 1985 e 1996. Pense em qual região do Brasil concentra o maior número de mortes: o Bico do Papagaio fica na confluência dos estados do Pará, Tocantins e Maranhão, área de grande tensão entre posseiros e fazendeiros. Analise qual alternativa indica corretamente a região com os números mais expressivos de conflitos.",
+    "feedbacks": {
+      "0": "A região das Missões Jesuíticas, no sul do Rio Grande do Sul, não é apontada historicamente como a de maior violência fundiária no Brasil. Os conflitos mais graves ocorrem em regiões de fronteira agrícola, como o Bico do Papagaio, na confluência de Tocantins, Pará e Maranhão.",
+      "2": "A região do oeste baiano apresenta conflitos relacionados à expansão do agronegócio, mas não é apontada como a área com o maior número de mortes por disputas fundiárias. Os registros históricos indicam o Bico do Papagaio como a região de maior violência agrária do país.",
+      "3": "O norte do Mato Grosso concentra disputas relacionadas à soja e à pecuária, mas não é identificado como o mais violento do país em termos de mortes por conflitos fundiários. O Bico do Papagaio supera o Mato Grosso nos registros históricos de violência agrária.",
+      "4": "A Zona da Mata mineira é uma região consolidada de agricultura familiar e cafeicultura, sem o histórico de violência fundiária intensa das áreas de fronteira. Os conflitos mais expressivos ocorrem em regiões de expansão de fronteiras econômicas no Norte do país, e não em regiões agrícolas estabelecidas como a Zona da Mata mineira."
+    }
   },
   {
     "id": 8,
@@ -192,7 +233,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A reforma agrária vai além de distribuir terra: envolve crédito, assistência técnica, infraestrutura e acesso a mercados para que os assentados possam produzir de forma sustentável. Sem esses elementos complementares, as famílias assentadas enfrentam dificuldades de permanência no campo — o que explica por que muitos assentamentos falham mesmo quando a desapropriação ocorre.</p>",
-    "ajuda": "Lembre-se de que a reforma agrária visa redistribuir terras improdutivas para trabalhadores sem terra, garantindo condições de produção. Pense na diferença entre desapropriar e redistribuir terras: os dois processos são necessários, mas a reforma agrária envolve também suporte para que o assentado produza. Identifique a definição mais completa e correta."
+    "ajuda": "Lembre-se de que a reforma agrária visa redistribuir terras improdutivas para trabalhadores sem terra, garantindo condições de produção. Pense na diferença entre desapropriar e redistribuir terras: os dois processos são necessários, mas a reforma agrária envolve também suporte para que o assentado produza. Identifique a definição mais completa e correta.",
+    "feedbacks": {
+      "0": "A reforma agrária incide sobre propriedades improdutivas que não cumprem a função social da terra, e não sobre propriedades produtivas. Redistribuir terras produtivas configuraria expropriação injustificada, contrariando a Constituição de 1988, que determina a desapropriação apenas de imóveis que descumpram a função social.",
+      "2": "A reforma agrária é uma política estrutural de redistribuição fundiária, não apenas um incentivo à produção agrária. Além disso, ela não está vinculada exclusivamente ao Ministério do Desenvolvimento Agrário, envolvendo o INCRA e outras instâncias do Estado.",
+      "3": "A reforma agrária é voltada prioritariamente a trabalhadores rurais sem terra que vivem em situação de pobreza, e não exige que o beneficiário tenha condições para pagar pela terra. O acesso à terra é um direito social, e o Estado tem responsabilidade de oferecer suporte para que os assentados possam produzir.",
+      "4": "A reforma agrária não é uma doação de terras para o Governo; ela consiste na desapropriação de terras improdutivas de proprietários privados e na redistribuição para famílias sem terra. São os trabalhadores assentados, e não o Governo, os responsáveis pela produção nas terras recebidas."
+    }
   },
   {
     "id": 9,
@@ -215,7 +262,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A reforma agrária brasileira esbarra em um paradoxo: além do alto custo da desapropriação, os assentamentos precisam de infraestrutura completa (estradas, escolas, saúde, crédito) para serem viáveis. Sem esse pacote de políticas complementares, os assentados frequentemente abandonam as terras e retornam às periferias urbanas, perpetuando o ciclo de exclusão que a reforma pretendia romper.</p>",
-    "ajuda": "Pense nos principais obstáculos para a realização da reforma agrária no Brasil: interesse político dos grandes proprietários, custo de desapropriação, necessidade de infraestrutura para os assentados. Analise qual alternativa identifica corretamente um fator real que dificulta a implementação efetiva da reforma. Descarte alternativas com afirmações falsas sobre a legislação ou o interesse dos camponeses."
+    "ajuda": "Pense nos principais obstáculos para a realização da reforma agrária no Brasil: interesse político dos grandes proprietários, custo de desapropriação, necessidade de infraestrutura para os assentados. Analise qual alternativa identifica corretamente um fator real que dificulta a implementação efetiva da reforma. Descarte alternativas com afirmações falsas sobre a legislação ou o interesse dos camponeses.",
+    "feedbacks": {
+      "0": "A luta por terra no Brasil é um dos movimentos sociais mais expressivos do mundo, evidenciada pelas ocupações e mobilizações do MST. Afirmar que camponeses sem terra não têm interesse em adquirir propriedades ignora décadas de organização política e luta dos trabalhadores rurais.",
+      "1": "O preço pago pelo Governo nas desapropriações é baseado no valor de mercado das propriedades, seguindo rito judicial. Além disso, o objetivo da reforma agrária é fazer cumprir a função social da propriedade, e não depende do interesse financeiro dos proprietários desapropriados.",
+      "2": "Os movimentos que lutam pela reforma agrária, como o MST, são organizações representativas com décadas de história e reconhecimento. O principal obstáculo à reforma agrária é a resistência política dos grandes proprietários e a falta de vontade política dos governos, não a corrupção dos movimentos sociais.",
+      "4": "O Brasil possui milhões de hectares de terras improdutivas que não cumprem a função social da propriedade, conforme registros do cadastro rural do INCRA. Afirmar que há pequeno número de terras improdutivas contradiz os dados fundiários brasileiros, que mostram vastas extensões de terras ociosas."
+    }
   },
   {
     "id": 10,
@@ -239,6 +292,11 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Leia o texto sobre o surgimento do MST e observe a ilustração. Pense em como a mecanização do campo gerou êxodo rural e concentrou ainda mais as terras. Analise qual alternativa descreve corretamente o papel do MST e os conflitos fundiários no Brasil, sem distorcer a realidade histórica da questão agrária."
+    "ajuda": "Leia o texto sobre o surgimento do MST e observe a ilustração. Pense em como a mecanização do campo gerou êxodo rural e concentrou ainda mais as terras. Analise qual alternativa descreve corretamente o papel do MST e os conflitos fundiários no Brasil, sem distorcer a realidade histórica da questão agrária.",
+    "feedbacks": {
+      "0": "A desigual distribuição de terras no Brasil não é herança de um modelo econômico recentemente implantado; ela remonta ao sistema de sesmarias do período colonial, séculos atrás. Além disso, a modernização agrícola está associada ao aumento do êxodo rural, não à fixação do homem no campo.",
+      "2": "A luta por terra é o elemento central da questão agrária brasileira e a principal pauta dos movimentos sociais rurais como o MST. Afirmar que essa luta não é a mais importante e que os movimentos são frágeis e sem expressão contraria a evidência histórica das grandes mobilizações rurais e seu impacto nas políticas públicas.",
+      "3": "A modernização da agricultura e da pecuária é profundamente desequilibrada no Brasil, concentrada no Centro-Oeste, Sul e Sudeste, com o Norte e o Nordeste bem mais precários tecnologicamente. Além disso, a modernização não resultou em farta dieta alimentar para toda a população, pois a fome e a insegurança alimentar persistem em vastas parcelas da sociedade."
+    }
   }
 ]

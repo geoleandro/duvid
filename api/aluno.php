@@ -193,10 +193,11 @@ if ($metodo === 'POST') {
             jsonResponse(['erro' => 'PIN incorreto.', 'campo' => 'pin'], 401);
         }
 
-        $novoNome = isset($body['nome'])   ? trim($body['nome'])                : null;
-        $novoEst  = isset($body['estado']) ? strtoupper(trim($body['estado']))  : null;
-        $novaCid  = isset($body['cidade']) ? trim($body['cidade'])              : null;
-        $novaEsc  = isset($body['escola']) ? trim($body['escola'])              : null;
+        $novoNome   = isset($body['nome'])         ? trim($body['nome'])                      : null;
+        $novoEst    = isset($body['estado'])       ? strtoupper(trim($body['estado']))        : null;
+        $novaCid    = isset($body['cidade'])       ? trim($body['cidade'])                    : null;
+        $novaEsc    = isset($body['escola'])       ? trim($body['escola'])                    : null;
+        $novoTurma  = isset($body['codigo_turma']) ? trim($body['codigo_turma'])              : null;
 
         if ($novoNome !== null) {
             if (strlen($novoNome) < 2)
@@ -207,11 +208,20 @@ if ($metodo === 'POST') {
                 jsonResponse(['erro' => 'Este nome ja esta em uso por outro aluno.', 'campo' => 'nome'], 409);
         }
 
+        // Resolve código de turma se foi enviado
+        $novoTurmaId = null;
+        if ($novoTurma !== null) {
+            $novoTurmaId = resolverTurmaId($novoTurma, $pdo);
+            if ($novoTurmaId === null)
+                jsonResponse(['erro' => 'Código de turma inválido.', 'campo' => 'codigo_turma'], 400);
+        }
+
         $sets = []; $params = [':id' => $id];
-        if ($novoNome !== null) { $sets[] = 'nome = :nome';     $params[':nome']   = $novoNome; }
-        if ($novoEst  !== null) { $sets[] = 'estado = :estado'; $params[':estado'] = $novoEst ?: null; }
-        if ($novaCid  !== null) { $sets[] = 'cidade = :cidade'; $params[':cidade'] = $novaCid ?: null; }
-        if ($novaEsc  !== null) { $sets[] = 'escola = :escola'; $params[':escola'] = $novaEsc ?: null; }
+        if ($novoNome    !== null) { $sets[] = 'nome = :nome';       $params[':nome']     = $novoNome; }
+        if ($novoEst     !== null) { $sets[] = 'estado = :estado';   $params[':estado']   = $novoEst ?: null; }
+        if ($novaCid     !== null) { $sets[] = 'cidade = :cidade';   $params[':cidade']   = $novaCid ?: null; }
+        if ($novaEsc     !== null) { $sets[] = 'escola = :escola';   $params[':escola']   = $novaEsc ?: null; }
+        if ($novoTurmaId !== null) { $sets[] = 'turma_id = :turma';  $params[':turma']    = $novoTurmaId; }
 
         if (empty($sets)) jsonResponse(['erro' => 'Nenhum campo para atualizar.'], 400);
 

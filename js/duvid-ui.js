@@ -242,6 +242,16 @@ const DuvidUI = {
 
         this._atualizarElemento('rank-nome', progresso.patente);
 
+        // Turma: mostra nome + código discretamente
+        const turmaInfo   = document.getElementById('turma-info');
+        const turmaNome   = DuvidDB._cache.turmaNome;
+        const turmaCodigo = DuvidDB._cache.turmaCodigo;
+        if (turmaInfo && turmaNome && turmaCodigo !== 'LIVRE') {
+            document.getElementById('turma-nome-label').textContent  = turmaNome;
+            document.getElementById('turma-codigo-label').textContent = turmaCodigo ? '· ' + turmaCodigo : '';
+            turmaInfo.style.display = 'block';
+        }
+
         // 2. ESTILO DINÂMICO
         const tag = this._atualizarElemento('lvl-tag', `LEVEL ${progresso.lvl}`);
         if (tag) tag.style.backgroundColor = progresso.cor;

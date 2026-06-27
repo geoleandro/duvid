@@ -509,3 +509,43 @@ body.dark-mode #frase {
 }
 /* Animação global usada nos modais injetados via JS */
 @keyframes zoomIn { from { transform:scale(.85); opacity:0 } to { transform:scale(1); opacity:1 } }
+
+/* ── Dark Mode — "NOVATO" e ícones FontAwesome ─────────────────────────────── */
+body.dark-mode #rank-nome,
+body.dark-mode .w3-text-black {
+    color: #e0e0e0 !important;
+}
+
+/* Todos os ícones fa que não têm cor explícita ficam brancos */
+body.dark-mode .fa:not(.w3-text-amber):not(.w3-text-green):not(.w3-text-red):not(.w3-text-teal) {
+    color: #ffffff !important;
+}
+
+/* Botão de editar nome (w3-light-grey vira escuro, lápis fica branco) */
+body.dark-mode button.w3-light-grey {
+    background-color: #333 !important;
+    color: #fff !important;
+}
+
+/* ── Dark Mode — Monitor Global e Monitor Brasil ───────────────────────────── */
+body.dark-mode .w3-text-dark-grey {
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .card-widget p,
+body.dark-mode .card-widget small,
+body.dark-mode .card-widge p,
+body.dark-mode .card-widge small {
+    color: #aaa !important;
+}
+
+/* Números sem classe de cor explícita (temp, petróleo) */
+body.dark-mode .card-widget b,
+body.dark-mode .card-widge b {
+    color: #e0e0e0;
+}
+
+/* Quick links — labels dos botões */
+body.dark-mode .w3-button .w3-large {
+    color: #e0e0e0 !important;
+}

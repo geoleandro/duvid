@@ -2202,7 +2202,7 @@ button:disabled {
         display: none !important;
     }
 }
-}
+
 /* ── Botão de reporte de problema em questões ── */
 .btn-reporte-problema {
     background: none;
@@ -2231,6 +2231,7 @@ button:disabled {
     cursor: pointer;
     transition: all .2s;
     letter-spacing: .3px;
+    color: #ffffff;
 }
 .btn-melhorar-aula:hover {
     border-color: #4caf50;

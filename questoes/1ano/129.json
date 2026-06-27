@@ -20,7 +20,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A floresta pluvial (rainforest) amazônica é o maior bioma florestal contínuo do mundo, com megadiversidade — abriga ~10% de todas as espécies do planeta. Sua principal ameaça são as queimadas associadas à expansão agropecuária (soja, gado), que destroíram cerca de 20% da floresta original. O desmatamento da Amazônia contribui significativamente para as emissões brasileiras de CO₂.</p>",
-    "ajuda": "Os biomas brasileiros incluem: Amazônia (floresta equatorial), Cerrado (savana tropical), Mata Atlântica (floresta tropical), Caatinga (vegetação de semiárido), Pampa (campo subtropical) e Pantanal (zona úmida tropical). Cada um tem características climáticas e de biodiversidade específicas."
+    "ajuda": "Os biomas brasileiros incluem: Amazônia (floresta equatorial), Cerrado (savana tropical), Mata Atlântica (floresta tropical), Caatinga (vegetação de semiárido), Pampa (campo subtropical) e Pantanal (zona úmida tropical). Cada um tem características climáticas e de biodiversidade específicas.",
+    "feedbacks": {
+      "0": "Esta alternativa associa a floresta amazônica a 'matas tropicais e subtropicais', classificação genérica e imprecisa. Além disso, aponta 'secas prolongadas' como ameaça, quando a principal ameaça é o desmatamento para agropecuária, não secas naturais prolongadas.",
+      "2": "Esta alternativa associa a floresta amazônica a 'savanas', o que está completamente errado. As savanas (como o Cerrado) são ecossistemas abertos com fisionomia, biodiversidade e funcionamento ecológico completamente distintos da floresta equatorial.",
+      "3": "Esta alternativa identifica corretamente 'florestas pluviais', mas aponta 'desertificação' como ameaça principal, quando a principal ameaça é o desmatamento por queimadas e abertura de pastagens para agropecuária, não a desertificação.",
+      "4": "Esta alternativa associa a floresta amazônica a 'savanas', o que está completamente errado. As savanas são formações vegetais abertas (arbóreo-arbustivas), muito diferentes da densa floresta pluvial tropical da Amazônia."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A floresta equatorial tem estrutura vertical complexa: o dossel superior (25-40 m) é formado por árvores emergentes; o dossel intermediário, por espécies arbóreas menores e palmeiras; o sub-bosque, por arbustos e plantas adaptadas à sombra; e o estrato herbáceo no nível do solo. Essa estratificação permite o aproveitamento máximo da luz e abriga biodiversidade enorme.</p>",
-    "ajuda": "O perfil da vegetação mostrado na figura representa a estratificação vertical de um bioma florestal. Identifique se trata de floresta tropical (estratos múltiplos, alta diversidade), savana (estrato herbáceo e arbóreo esparso) ou floresta de coníferas (uniforme e menos diversa)."
+    "ajuda": "O perfil da vegetação mostrado na figura representa a estratificação vertical de um bioma florestal. Identifique se trata de floresta tropical (estratos múltiplos, alta diversidade), savana (estrato herbáceo e arbóreo esparso) ou floresta de coníferas (uniforme e menos diversa).",
+    "feedbacks": {
+      "1": "A descrição corresponde à savana: dois estratos (lenhoso arbóreo-arbustivo e herbáceo-subarbustivo) com fisionomia aberta. Não descreve a floresta equatorial, que tem dossel contínuo de árvores altas e enorme biodiversidade em clima quente e úmido.",
+      "2": "A descrição corresponde à tundra: vegetação de pequeno porte (musgos, líquens, gramíneas) em clima frio extremo. Não descreve a floresta equatorial, que se caracteriza por grande porte das árvores, dossel contínuo e elevada biodiversidade.",
+      "3": "A descrição corresponde à floresta boreal (taiga): vegetação homogênea com coníferas em clima frio. Não descreve a floresta equatorial, que tem enorme heterogeneidade de espécies e se localiza em baixas latitudes com calor e umidade constantes.",
+      "4": "A descrição corresponde à vegetação mediterrânea (arbustos adaptados ao verão seco e quente). Não descreve a floresta equatorial, que precisa de chuvas abundantes e bem distribuídas ao longo do ano para se desenvolver."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A floresta amazônica influencia o regime de chuvas local e regional por meio da evapotranspiração. Estudos mostram que as florestas criam 'rios voadores' — fluxos aéreos de vapor que transportam umidade para o interior do continente. Portanto, onde há floresta densa, chove mais — e o desmatamento rompe esse ciclo, reduzindo as chuvas nas regiões afetadas.</p>",
-    "ajuda": "A Amazônia tem um papel ativo no ciclo hidrológico regional: as árvores liberam vapor d'água pela transpiração, alimentando nuvens e chuvas. A perda das florestas reduz a evapotranspiração e pode alterar o regime de chuvas, criando um ciclo de retroalimentação negativo."
+    "ajuda": "A Amazônia tem um papel ativo no ciclo hidrológico regional: as árvores liberam vapor d'água pela transpiração, alimentando nuvens e chuvas. A perda das florestas reduz a evapotranspiração e pode alterar o regime de chuvas, criando um ciclo de retroalimentação negativo.",
+    "feedbacks": {
+      "0": "A afirmativa 'onde chove, há floresta' é parcialmente verdadeira, mas inverte a relação de causa e consequência no contexto amazônico. Os rios voadores mostram que É a própria floresta que, pela evapotranspiração, gera boa parte da chuva que cai sobre ela.",
+      "2": "A proximidade dos oceanos é importante para regiões costeiras, mas não explica as chuvas no interior da Amazônia. Grande parte das chuvas amazônicas vem da reciclagem do vapor d'água pela própria floresta via evapotranspiração, não diretamente dos oceanos.",
+      "3": "A afirmativa 'apesar da chuva, a floresta cresce' inverte a relação: a floresta não cresce apesar das chuvas, ela se beneficia das chuvas e ainda CONTRIBUI para gerá-las pela evapotranspiração. A relação floresta-chuva é de mútua dependência.",
+      "4": "As chuvas amazônicas não se restringem ao interior do continente nem dependem exclusivamente da floresta interior. O ciclo envolve ventos alísios trazendo umidade do Atlântico e a floresta reciclando essa umidade continente adentro. É um processo mais amplo."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A savana é uma formação vegetal característica de climas tropicais com estação seca definida, onde gramíneas dominam e árvores aparecem esparsas ou em grupos. O Cerrado brasileiro é a maior savana tropical do mundo em biodiversidade, com mais de 12.000 espécies de plantas. Apesar disso, já perdeu mais de 50% de sua cobertura original para a agropecuária.</p>",
-    "ajuda": "Os biomas são definidos por combinações específicas de clima, solo, relevo e vida. A Amazônia é o maior bioma florestal tropical do mundo; o Cerrado é o mais biodiverso entre as savanas; a Caatinga é a única savana estépica tropical do Brasil. Identifique o bioma com base nas características descritas."
+    "ajuda": "Os biomas são definidos por combinações específicas de clima, solo, relevo e vida. A Amazônia é o maior bioma florestal tropical do mundo; o Cerrado é o mais biodiverso entre as savanas; a Caatinga é a única savana estépica tropical do Brasil. Identifique o bioma com base nas características descritas.",
+    "feedbacks": {
+      "0": "As estepes são formações herbáceas de regiões áridas ou semiáridas de clima temperado, com vegetação predominantemente graminosa. Diferem das savanas por não apresentarem a estação seca e chuvosa típica do tropical e pela ausência de estrato arbóreo significativo.",
+      "1": "A floresta equatorial se caracteriza por altas temperaturas e alta pluviosidade constante, sem estação seca definida. Difere da savana pela densa cobertura arbórea contínua e pela ausência de uma estação seca prolongada que induza a adaptações xerófilas.",
+      "2": "A floresta de coníferas (taiga) é caracterizada por vegetação homogênea dominada por pinheiros e abetos em climas frios. Não é uma formação típica de regiões de clima tropical quente e seco com alternância de duas estações marcadas."
+    }
   },
   {
     "id": 5,
@@ -114,7 +137,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As florestas tropicais são os maiores 'sumidouros de carbono' da Terra, absorvendo CO₂ pela fotossíntese. Quando desmatadas, esse carbono é liberado — tanto pela queima quanto pela decomposição da madeira. O desmatamento é responsável por cerca de 11% das emissões globais de GEE. Preservar as florestas é, portanto, uma das estratégias mais custo-efetivas para mitigar o aquecimento global.</p>",
-    "ajuda": "As florestas tropicais úmidas armazenam carbono, regulam o clima, protegem os solos, mantêm o ciclo da água e abrigam mais de 50% das espécies do planeta. O desmatamento libera o carbono armazenado e contribui para as mudanças climáticas."
+    "ajuda": "As florestas tropicais úmidas armazenam carbono, regulam o clima, protegem os solos, mantêm o ciclo da água e abrigam mais de 50% das espécies do planeta. O desmatamento libera o carbono armazenado e contribui para as mudanças climáticas.",
+    "feedbacks": {
+      "0": "A chuva ácida resulta da emissão de dióxido de enxofre (SO₂) e óxidos de nitrogênio (NOₓ) por indústrias e veículos, não do CO₂ de queimadas florestais. O CO₂ é o principal gás de efeito estufa, mas não é o agente formador de chuva ácida.",
+      "1": "As inversões térmicas são fenômenos meteorológicos locais causados por condições de temperatura, não pelo acúmulo de CO₂. O dióxido de carbono não provoca inversões térmicas diretamente; ele atua como gás de efeito estufa na escala global.",
+      "2": "A destruição da camada de ozônio é causada pelos clorofluorcarbonetos (CFCs) e outros halocarbonos, não pelo CO₂. O dióxido de carbono não reage com o ozônio estratosférico; ele contribui para o aquecimento global por outro mecanismo.",
+      "4": "A eutrofização é o enriquecimento excessivo de corpos d'água por nutrientes (nitrogênio e fósforo), principalmente de fertilizantes e esgoto. O CO₂ de queimadas florestais não causa eutrofização de rios e lagos."
+    }
   },
   {
     "id": 6,
@@ -137,7 +166,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A floresta pluvial tropical (rainforest) é caracterizada por alta pluviosidade anual (superior a 2.000 mm), temperatura elevada e constante e ausência de estação seca definida. Ocorre próxima ao Equador — Amazônia, Bacia do Congo e Sudeste Asiático. É o bioma de maior biodiversidade do planeta, abrigando estimados 50% de todas as espécies conhecidas.</p>",
-    "ajuda": "A formação vegetal descrita como 'floresta' pode ser tropical úmida (densa, sempre verde), tropical seca (decídua na estação seca) ou de coníferas (boreais). Identifique as características que a diferenciam de outras formações, como savanas ou campos."
+    "ajuda": "A formação vegetal descrita como 'floresta' pode ser tropical úmida (densa, sempre verde), tropical seca (decídua na estação seca) ou de coníferas (boreais). Identifique as características que a diferenciam de outras formações, como savanas ou campos.",
+    "feedbacks": {
+      "0": "A floresta temperada ocorre em regiões de clima temperado, com estações marcadas e variação de temperatura entre verão e inverno. Não corresponde à vegetação de baixas latitudes, com calor e chuvas abundantes o ano todo ou bem distribuídas.",
+      "1": "A floresta de coníferas (taiga) se desenvolve em regiões de clima frio, com verões curtos e invernos longos e rigorosos. Não corresponde à vegetação densa e biodiversa de clima tropical úmido de baixas latitudes.",
+      "2": "A floresta subtropical ocorre em latitudes médias, com temperaturas mais amenas que a tropical e chuvas bem distribuídas. Ela se diferencia da floresta pluvial tropical por suas espécies, menor calor e por incluir árvores decíduas ou semidecíduas.",
+      "3": "A floresta estacional (tropical seca) perde parte de suas folhas na estação seca. Embora seja tropical, difere da floresta pluvial tropical por ter uma estação seca definida que induz a queda das folhas e reduz a densidade do dossel."
+    }
   },
   {
     "id": 7,
@@ -159,7 +194,12 @@
     ],
     "correta": 0,
     "comentario": "<p>Com o aumento da precipitação, a vegetação torna-se mais densa e as espécies arbóreas dominam sobre as gramíneas e arbustos. Acima de 1.000-1.500 mm anuais, surgem florestas densas; abaixo de 250 mm, predominam desertos. Nos níveis intermediários (savanas, cerrado, caatinga), coexistem estratos herbáceos, arbustivos e arbóreos — criando a diversidade de fisionomias vegetais.</p>",
-    "ajuda": "O diagrama relaciona precipitação com a distribuição das principais formações vegetais. Quanto maior a precipitação, mais exuberante e densa tende a ser a vegetação. Identifique quais biomas se situam nos extremos do eixo de pluviosidade."
+    "ajuda": "O diagrama relaciona precipitação com a distribuição das principais formações vegetais. Quanto maior a precipitação, mais exuberante e densa tende a ser a vegetação. Identifique quais biomas se situam nos extremos do eixo de pluviosidade.",
+    "feedbacks": {
+      "1": "A afirmativa de que a densidade populacional das espécies diminui à medida que decresce a pluviosidade está incorreta como regra geral. Em geral, maior pluviosidade sustenta maior diversidade e densidade de espécies, não o contrário.",
+      "2": "Os biomas florestais são condicionados principalmente por temperatura e disponibilidade hídrica, mas também por solo, relevo e altitude. Dizer que se concentram apenas onde 'não há restrições climáticas' é uma simplificação que ignora outros fatores limitantes.",
+      "3": "A existência das comunidades florestais é condicionada por múltiplos fatores interagindo: temperatura, pluviosidade, solo, relevo e altitude. Atribuir a explicação a um único fator dominante é incorreto e contraria a abordagem ecológica atual."
+    }
   },
   {
     "id": 8,
@@ -183,7 +223,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Os biomas são grandes conjuntos de ecossistemas com características de vegetação, clima, fauna e solo semelhantes. Cada bioma pode conter múltiplos ecossistemas distintos — por exemplo, o bioma Amazônia engloba várzeas, terras firmes, igapós e campinaranas. A heterogeneidade interna é uma característica dos biomas, não um erro de definição.</p>",
-    "ajuda": "A biosfera é a camada da Terra habitada pelos seres vivos. A questão pede a alternativa INCORRETA. Pense no que é correto: a biosfera se estende da profundidade dos oceanos à atmosfera; é formada por todos os ecossistemas; é influenciada e influencia os outros compartimentos do sistema Terra."
+    "ajuda": "A biosfera é a camada da Terra habitada pelos seres vivos. A questão pede a alternativa INCORRETA. Pense no que é correto: a biosfera se estende da profundidade dos oceanos à atmosfera; é formada por todos os ecossistemas; é influenciada e influencia os outros compartimentos do sistema Terra.",
+    "feedbacks": {
+      "0": "A afirmativa sobre a integração das esferas terrestres é verdadeira, mas esta alternativa não trata diretamente dos grandes biomas do planeta. A questão pede a afirmativa que descreve corretamente os biomas, e esta foca nas esferas de forma genérica.",
+      "1": "A afirmativa de que alterações climáticas causariam impacto na biosfera é verdadeira. No entanto, a questão pede a afirmativa que descreve os grandes biomas de forma mais precisa e específica, e a alternativa 2 trata diretamente da heterogeneidade dos biomas.",
+      "3": "A afirmativa de que a radiação solar é fonte primária de energia para os seres vivos é verdadeira. No entanto, ela não descreve especificamente os biomas como associações vegetais. A questão pede a alternativa que conceitua corretamente os grandes biomas do planeta.",
+      "4": "A afirmativa de que os organismos estão 'programados geneticamente' para ciclos ambientais é uma simplificação. Os organismos têm adaptações genéticas, mas os ciclos são condicionados por múltiplos fatores ambientais além da programação genética."
+    }
   },
   {
     "id": 9,
@@ -206,7 +252,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As modificações ambientais de uma região ao longo do tempo geológico podem ser inferidas pela análise de pólen fóssil, sedimentos e fauna. A diminuição da aridez ao longo dos últimos 20.000 anos em determinada região indica aumento das chuvas — possivelmente relacionado ao fim da última glaciação e redistribuição das massas de ar globais no Holoceno.</p>",
-    "ajuda": "O esquema representa modificações ambientais ao longo do tempo, provavelmente mostrando a degradação de um bioma. Identifique a sequência de mudanças (desmatamento → erosão → perda de biodiversidade) e avalie qual alternativa as descreve corretamente."
+    "ajuda": "O esquema representa modificações ambientais ao longo do tempo, provavelmente mostrando a degradação de um bioma. Identifique a sequência de mudanças (desmatamento → erosão → perda de biodiversidade) e avalie qual alternativa as descreve corretamente.",
+    "feedbacks": {
+      "0": "O contexto da questão se refere a um período de aquecimento e umidificação que expandiu a cobertura vegetal, não a um evento de degelo significativo. A ação erosiva glacial não é o que descreve esse cenário paleogeográfico.",
+      "1": "A diversidade biológica não foi reduzida nesse período: o aquecimento e a umidificação do clima favorecem a expansão e diversificação da vida vegetal e animal. A redução de biodiversidade ocorre em eventos de extinção ou glaciações intensas, não de aquecimento úmido.",
+      "2": "O contexto sugere aquecimento e umidificação, não resfriamento. A expansão da cobertura vegetal e a diminuição da aridez são consequências do aumento de temperatura e umidade, não de uma queda de temperatura.",
+      "4": "O desenvolvimento florestal não resultou de queda da temperatura: florestas tropicais se desenvolvem em climas quentes e úmidos. A expansão da vegetação foi favorecida pelo aumento da umidade (diminuição da aridez), não pelo resfriamento do ambiente."
+    }
   },
   {
     "id": 10,
@@ -228,6 +280,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As savanas (incluindo o Cerrado e as savanas africanas) têm alta biodiversidade vegetal e faunística, adaptada à alternância de chuva e seca. A fauna africana das savanas (leões, elefantes, girafas, zebras) é extraordinariamente diversa. Afirmar que a savana tem 'fauna pobre e pouco diversificada' é incorreto — o bioma abriga algumas das concentrações de megafauna mais ricas do planeta.</p>",
-    "ajuda": "As savanas (cerrados, campos e similares) são vegetações tropicais com estação seca definida, solo pobre e vegetação adaptada ao fogo. A questão pede a alternativa INCORRETA. Pense: as savanas têm alta biodiversidade, mas menor densidade florestal que as florestas tropicais."
+    "ajuda": "As savanas (cerrados, campos e similares) são vegetações tropicais com estação seca definida, solo pobre e vegetação adaptada ao fogo. A questão pede a alternativa INCORRETA. Pense: as savanas têm alta biodiversidade, mas menor densidade florestal que as florestas tropicais.",
+    "feedbacks": {
+      "0": "A flora e fauna das savanas são de fato submetidas à alternância seca e chuva, mas a fauna das savanas africanas é notoriamente RICA e diversificada (leões, elefantes, girafas, zebras). Afirmar que a fauna de savana é 'pobre e pouco diversificada' contradiz a realidade ecológica.",
+      "2": "As atividades pastoris nas savanas geralmente implicam a modificação da vegetação nativa para gramíneas mais palatáveis ao gado. Afirmar que são 'desnecessárias' as alterações na vegetação original contradiz o que ocorre na prática da pecuária extensiva em savanas.",
+      "3": "As savanas estão em áreas de latitudes subtropicais e tropicais, onde prevalecem climas com estação seca definida. Embora a descrição geográfica seja parcialmente correta, a questão testa especificamente o conceito de produtividade biológica das savanas.",
+      "4": "As savanas são de fato abertas e permitem passagem de raios solares ao solo. No entanto, a pequena produtividade não se deve à falta de luz solar, mas à estação seca prolongada que limita a produção primária e a ciclagem de nutrientes ao longo do ano."
+    }
   }
 ]

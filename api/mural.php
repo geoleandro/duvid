@@ -41,14 +41,19 @@ if ((int)$spam->fetchColumn() >= 5) {
     jsonResponse(['erro' => 'Limite de contribuições diárias atingido.'], 429);
 }
 
+// Sem try/catch: PDO já está em ERRMODE_EXCEPTION; erro vira 500 com JSON via getDB()
+$ip = $_SERVER['HTTP_X_FORWARDED_FOR'] ?? $_SERVER['REMOTE_ADDR'] ?? null;
+$ip = $ip ? substr(trim(explode(',', $ip)[0]), 0, 45) : null;
+
 $st = $pdo->prepare(
-    "INSERT INTO mural (aluno_id, tipo, conteudo)
-     VALUES (:a, :t, :c)"
+    "INSERT INTO mural (aluno_id, tipo, conteudo, ip_address)
+     VALUES (:a, :t, :c, :ip)"
 );
-$st->execute([
-    ':a' => $alunoId,
-    ':t' => $tipo,
-    ':c' => $conteudo,
-]);
+try {
+    $st->execute([':a' => $alunoId, ':t' => $tipo, ':c' => $conteudo, ':ip' => $ip]);
+} catch (PDOException $e) {
+    error_log('[Duvid/mural] Falha no INSERT: ' . $e->getMessage());
+    jsonResponse(['erro' => 'Erro ao salvar. Tente novamente.'], 500);
+}
 
 jsonResponse(['ok' => true]);

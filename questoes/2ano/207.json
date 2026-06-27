@@ -19,7 +19,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Aziz Ab'Saber ampliou o trabalho de Aroldo Azevedo introduzindo o critério morfoclimático: não basta classificar as formas do relevo, é preciso entender como o clima as criou. Já Jurandyr Ross, nos anos 1980, usou o Projeto RADAM Brasil para criar uma taxonomia hierárquica que identifica planaltos, planícies e depressões como as três grandes categorias do relevo nacional.</p>",
-    "ajuda": "Lembre-se das contribuições de cada geógrafo para o estudo do relevo brasileiro: Aroldo de Azevedo usou critério altimétrico simples, Aziz Ab'Saber adotou o critério morfoclimático e Jurandyr Ross utilizou morfoestrutura, morfoescultura e morfoclimática. Pense em qual geógrafo ampliou o trabalho do anterior acrescentando o critério climático. Analise qual alternativa descreve corretamente cada contribuição."
+    "ajuda": "Lembre-se das contribuições de cada geógrafo para o estudo do relevo brasileiro: Aroldo de Azevedo usou critério altimétrico simples, Aziz Ab'Saber adotou o critério morfoclimático e Jurandyr Ross utilizou morfoestrutura, morfoescultura e morfoclimática. Pense em qual geógrafo ampliou o trabalho do anterior acrescentando o critério climático. Analise qual alternativa descreve corretamente cada contribuição.",
+    "feedbacks": {
+      "0": "Aroldo de Azevedo não utilizou sensoriamento remoto e imagens de satélite, tecnologias que não estavam disponíveis na época de seus estudos (décadas de 1940 e 1950). Além disso, o critério morfoclimático que relaciona formas de relevo ao clima é de Ab'Saber, e não de Azevedo.",
+      "1": "Jurandyr Ross não se baseou nos estudos de Aroldo Azevedo; ele usou dados altimétricos e morfoestruturais publicados pelo IBGE para propor sua classificação. Além disso, Ross identificou seis grandes unidades de relevo, e não oito como afirma essa alternativa.",
+      "2": "Os estudos de Ab'Saber e Azevedo não têm em comum o uso de sensoriamento remoto; Azevedo trabalhou em período anterior a essa tecnologia. O que diferencia os geógrafos é justamente o critério utilizado: Azevedo usou geomorfologia geral, e Ab'Saber empregou o critério morfoclimático."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A classificação de Jurandyr Ross, adotada pelo IBGE, organiza o relevo brasileiro em três grandes unidades: planaltos (áreas elevadas modeladas pela erosão), planícies (terrenos baixos e planos de deposição) e depressões (áreas rebaixadas, inferiores ao entorno). Essa tripartição simplifica a complexidade geomorfológica do país e é amplamente usada no ensino e no planejamento territorial.</p>",
-    "ajuda": "Lembre-se que a classificação de Jurandyr Ross divide o relevo brasileiro em três grandes formas: planaltos (onde a erosão é maior que a deposição), planícies (onde a deposição supera a erosão) e depressões (áreas rebaixadas em relação ao entorno). Descarte as alternativas que incluem formas que não fazem parte dessa classificação, como montanhas ou dobramentos modernos."
+    "ajuda": "Lembre-se que a classificação de Jurandyr Ross divide o relevo brasileiro em três grandes formas: planaltos (onde a erosão é maior que a deposição), planícies (onde a deposição supera a erosão) e depressões (áreas rebaixadas em relação ao entorno). Descarte as alternativas que incluem formas que não fazem parte dessa classificação, como montanhas ou dobramentos modernos.",
+    "feedbacks": {
+      "0": "Dobramentos Modernos não fazem parte da classificação do relevo de Jurandyr Ross, que se baseia em formas, e não em estruturas geológicas. Os dobramentos modernos são uma categoria geológica, e não uma forma de relevo na classificação de Ross.",
+      "1": "Escudos Cristalinos e Bacias Sedimentares são categorias geológicas, e não formas de relevo na proposta de Ross. A classificação utiliza critérios morfológicos: planaltos, planícies e depressões.",
+      "3": "Plataforma Continental, Talude e Fossa Abissal são subdivisões do fundo oceânico, e não formas do relevo continental. Essas categorias pertencem à geomorfologia marinha, e não à classificação do relevo terrestre proposta por Ross.",
+      "4": "Chapadas são uma subforma dos planaltos, e Bacias Sedimentares são uma categoria geológica. Nenhuma delas é uma categoria principal na classificação de Jurandyr Ross, que usa planaltos, planícies e depressões como unidades fundamentais."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As chapadas são formas tabulares típicas do Brasil Central e do Nordeste, resultado da erosão diferencial em sequências sedimentares horizontais. Sua superfície plana é valorizada pela agricultura mecanizada — o que explica a devastação do Cerrado sobre as chapadas para o plantio de soja. Chapada dos Guimarães (MT), dos Veadeiros (GO) e Diamantina (BA) são exemplos emblemáticos.</p>",
-    "ajuda": "Observe a foto da chapada e pense em suas características: superfície plana no topo, encostas com declive acentuado, formação em rochas sedimentares. Lembre-se de que as chapadas são formas típicas do Cerrado e do Nordeste, formadas por erosão diferencial em planaltos sedimentares. Identifique em qual região e sobre qual tipo de rocha essa forma de relevo predomina."
+    "ajuda": "Observe a foto da chapada e pense em suas características: superfície plana no topo, encostas com declive acentuado, formação em rochas sedimentares. Lembre-se de que as chapadas são formas típicas do Cerrado e do Nordeste, formadas por erosão diferencial em planaltos sedimentares. Identifique em qual região e sobre qual tipo de rocha essa forma de relevo predomina.",
+    "feedbacks": {
+      "0": "As chapadas não se formam pela ação do vento, e não se distribuem principalmente em terrenos cristalinos. Elas se formam em planaltos sedimentares pela ação erosiva das águas correntes e das chuvas, e ocorrem no Nordeste e no Centro-Oeste, e não na Amazônia.",
+      "1": "As chapadas não se localizam no litoral da região Sul, e a erosão marinha não é o processo de sua formação. Elas são formas de relevo do interior do país, especialmente do Nordeste e do Centro-Oeste, distantes do litoral sul.",
+      "2": "As chapadas não se concentram no interior das regiões Sul e Sudeste, nem se formam pelo intemperismo de rochas cristalinas. Elas ocorrem predominantemente no Nordeste e no Centro-Oeste, em planaltos sedimentares submetidos à erosão hídrica.",
+      "3": "As chapadas não são restritas ao litoral Norte-Nordeste, e a chuva sobre terrenos cristalinos não explica sua formação. As chapadas são formas interiores do relevo, abundantes no Planalto Central e no interior do Nordeste, em terrenos sedimentares."
+    }
   },
   {
     "id": 4,
@@ -90,7 +107,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Sul do Brasil, na fronteira com o Mercosul (Argentina, Uruguai e Paraguai), é dominado por planaltos — especialmente o Planalto Meridional, formado por derrames basálticos que geraram solos férteis. Essa configuração geográfica favoreceu a ocupação agrícola europeia (especialmente de italianos e alemães) e a integração econômica com os países platinos.</p>",
-    "ajuda": "Observe o mapa com a classificação de Ross e localize as grandes unidades de relevo em cada porção do território. Pense: o Sul do Brasil é dominado por planaltos (Planalto Meridional), a Amazônia por planícies e a faixa litorânea por depressões. Analise qual alternativa associa corretamente cada porção do território à forma de relevo predominante."
+    "ajuda": "Observe o mapa com a classificação de Ross e localize as grandes unidades de relevo em cada porção do território. Pense: o Sul do Brasil é dominado por planaltos (Planalto Meridional), a Amazônia por planícies e a faixa litorânea por depressões. Analise qual alternativa associa corretamente cada porção do território à forma de relevo predominante.",
+    "feedbacks": {
+      "0": "A faixa litorânea brasileira não é caracterizada por depressões, mas por planícies costeiras e serras escarpadas como a Serra do Mar. As depressões são formas mais comuns no interior, como a Depressão Sertaneja e a Depressão do Alto Paraguai.",
+      "1": "A Amazônia Legal apresenta extensa planície, mas não é toda ela formada por planícies; o sul do Pará, o norte do Mato Grosso e outras sub-regiões apresentam planaltos e serras. A classificação generaliza excessivamente a diversidade de formas de relevo da Amazônia Legal.",
+      "3": "A região Sul do Brasil não é caracterizada por planícies como forma predominante; ela apresenta o Planalto Meridional e a Depressão Central do Rio Grande do Sul. O predomínio de planícies na região Sul é uma simplificação incorreta do seu relevo.",
+      "4": "O Pantanal é uma das maiores planícies inundáveis do mundo, e não uma região de planaltos. Afirmar que o Pantanal é caracterizado por planaltos contradiz a própria definição desse bioma, que é uma extensa depressão sedimentar alagável."
+    }
   },
   {
     "id": 5,
@@ -113,7 +136,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Para Ab'Saber, o planalto é a forma de relevo que ocupa a maior parte do território brasileiro, resultado de antigas superfícies de aplainamento que foram soerguidas e depois erodidas. Essa predominância de planaltos explica a escassez de grandes planícies interiores no Brasil (com exceção da Amazônica e do Pantanal), ao contrário do que ocorre na Argentina ou na Sibéria.</p>",
-    "ajuda": "Lembre-se da classificação de Aziz Ab'Saber: ele utilizou critérios morfoclimáticos para definir as grandes unidades do relevo brasileiro. Pense em qual forma de relevo predomina no território brasileiro segundo esse geógrafo. A resposta envolve a forma de relevo mais representativa do interior do país, acima das planícies costeiras e amazônicas."
+    "ajuda": "Lembre-se da classificação de Aziz Ab'Saber: ele utilizou critérios morfoclimáticos para definir as grandes unidades do relevo brasileiro. Pense em qual forma de relevo predomina no território brasileiro segundo esse geógrafo. A resposta envolve a forma de relevo mais representativa do interior do país, acima das planícies costeiras e amazônicas.",
+    "feedbacks": {
+      "0": "A Depressão Central não é a principal forma de relevo do Brasil. As depressões são áreas rebaixadas que ocupam extensão menor do que os planaltos, sendo o Planalto Brasileiro a forma predominante no território nacional.",
+      "1": "Planícies e Terras Baixas representam parcela menor do relevo brasileiro, concentrada na Amazônia, no Pantanal e no litoral. O domínio do relevo é o Planalto Brasileiro, com altitudes modestas mas de grande extensão territorial.",
+      "3": "A Planície Costeira é forma de relevo restrita à faixa litorânea, com extensão muito limitada em relação ao total do território. O Planalto Brasileiro abrange a maior parte do interior do país e é considerado a principal forma de relevo.",
+      "4": "O Planalto das Guianas ocupa apenas a porção norte do Brasil, na Amazônia setentrional. A principal forma de relevo do território como um todo é o Planalto Brasileiro, e não o Planalto das Guianas, de extensão bem mais restrita."
+    }
   },
   {
     "id": 6,
@@ -137,7 +166,12 @@
     ],
     "correta": 0,
     "comentario": "<p>As estruturas pré-cambrianas do Brasil — escudos cristalinos e plataformas — são as bases geológicas do território nacional. Sua estabilidade tectônica explica a ausência de terremotos e vulcões significativos no país. Sobre essas estruturas antigas, a erosão secular esculpiu os planaltos, inselbergs e chapadas que caracterizam o relevo brasileiro.</p>",
-    "ajuda": "Leia a citação de Jurandyr Ross com atenção: ele distingue a idade das estruturas geológicas da idade das formas de relevo. Pense que as estruturas são antigas (Pré-Cambriano), mas as formas atuais são resultado de processos erosivos mais recentes. Qual alternativa descreve corretamente essa distinção entre estruturação geológica e modelagem geomorfológica?"
+    "ajuda": "Leia a citação de Jurandyr Ross com atenção: ele distingue a idade das estruturas geológicas da idade das formas de relevo. Pense que as estruturas são antigas (Pré-Cambriano), mas as formas atuais são resultado de processos erosivos mais recentes. Qual alternativa descreve corretamente essa distinção entre estruturação geológica e modelagem geomorfológica?",
+    "feedbacks": {
+      "1": "Os mares de morros resultam da intensa ação do intemperismo químico e da erosão em rochas cristalinas, e não da ausência de intemperismo. É justamente o intenso intemperismo tropical que produziu as formas arredondadas características da Serra da Mantiqueira.",
+      "2": "O relevo brasileiro não foi modelado sobre um arcabouço geológico recente da Era Cenozoica; sua estrutura é muito mais antiga, pertencendo principalmente ao Pré-Cambriano. As formas do relevo atual são relativamente recentes, mas o embasamento rochoso é muito antigo.",
+      "3": "Os planaltos e serras de Goiás-Minas não preservam suas formas originais do Pré-Cambriano sem grandes alterações; ao contrário, foram intensamente transformados por processos erosivos ao longo de milhões de anos. O caráter residual indica que o relevo foi muito modificado, restando apenas as partes mais resistentes à erosão."
+    }
   },
   {
     "id": 7,
@@ -161,7 +195,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O Escudo Brasileiro é uma das grandes unidades geológicas do país, composto por rochas ígneas e metamórficas do Pré-Cambriano, muito antigas e estáveis. É nessas rochas cristalinas que se concentram os minérios metálicos mais valiosos do Brasil — ferro, ouro, manganês, cobre — pois foram formados por processos magmáticos e hidrotermais ao longo de bilhões de anos.</p>",
-    "ajuda": "Observe a tabela geológico-estrutural apresentada e identifique as características do item III: rochas cristalinas antigas, formação no Pré-Cambriano, alta resistência à erosão. Pense em qual estrutura geológica brasileira possui essas características — um grande bloco estável de rochas cristalinas que forma planaltos e depressões."
+    "ajuda": "Observe a tabela geológico-estrutural apresentada e identifique as características do item III: rochas cristalinas antigas, formação no Pré-Cambriano, alta resistência à erosão. Pense em qual estrutura geológica brasileira possui essas características — um grande bloco estável de rochas cristalinas que forma planaltos e depressões.",
+    "feedbacks": {
+      "1": "A Depressão Periférica é uma forma de relevo rebaixada entre a Serra do Mar e o Planalto Ocidental, sem relação com o embasamento cristalino dos escudos. Ela é uma forma de erosão diferencial em rochas sedimentares, e não uma estrutura de embasamento.",
+      "2": "Os Dobramentos Terciários não existem como estrutura geológica significativa no Brasil. O país é marcado pela estabilidade tectônica da Placa Sul-Americana, e eventuais reativações do Terciário são irrelevantes para a caracterização do embasamento rochoso brasileiro.",
+      "3": "A Bacia do Paraná é uma bacia sedimentar que contém principalmente rochas sedimentares e basálticas do Cretáceo. O embasamento cristalino que constitui a base do relevo descrito pertence ao Escudo Brasileiro, e não à Bacia do Paraná.",
+      "4": "A Planície Amazônica é uma forma de relevo de deposição recente, constituída por sedimentos fluviais. Ela não corresponde ao embasamento rochoso de rochas cristalinas antigas do Escudo Brasileiro."
+    }
   },
   {
     "id": 8,
@@ -184,7 +224,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A ausência de cadeias montanhosas no Brasil explica-se pela ausência de dobramentos modernos: o Brasil está localizado em uma placa tectônica estável (Placa Sul-Americana), longe das zonas de subducção que formam cadeias como os Andes. As serras brasileiras, como a da Mantiqueira e do Mar, resultam de falhas e soerguimento de blocos, não de colisão de placas.</p>",
-    "ajuda": "Lembre-se de que cadeias montanhosas (como os Andes, Alpes e Himalaia) se formam por dobramentos modernos, resultado de colisões entre placas tectônicas. O Brasil está localizado no interior de uma placa tectônica estável, sem colisões com outras placas. Pense em qual característica tectônica explica a ausência de grandes cadeias montanhosas no território brasileiro."
+    "ajuda": "Lembre-se de que cadeias montanhosas (como os Andes, Alpes e Himalaia) se formam por dobramentos modernos, resultado de colisões entre placas tectônicas. O Brasil está localizado no interior de uma placa tectônica estável, sem colisões com outras placas. Pense em qual característica tectônica explica a ausência de grandes cadeias montanhosas no território brasileiro.",
+    "feedbacks": {
+      "0": "A afirmação de que houve pouca atuação dos agentes externos no relevo brasileiro é incorreta; ao contrário, o relevo foi intensamente desgastado pelo intemperismo e pela erosão ao longo de centenas de milhões de anos. São justamente os agentes externos que explicam as baixas altitudes dos planaltos.",
+      "2": "O Brasil está posicionado no interior da Placa Sul-Americana, longe das zonas de subducção, e não é caracterizado por intensas atividades tectônicas. A ausência de tectonismo recente intenso é justamente uma das razões para as baixas altitudes do relevo brasileiro.",
+      "3": "O Brasil possui extensas bacias sedimentares, como as do Paraná, do Amazonas e do Parnaíba. A escassez de depósitos sedimentares não é uma característica do território brasileiro, e tampouco explica as modestas altitudes do relevo.",
+      "4": "A ação humana pode modificar o relevo localmente, mas não é a causa das modestas altitudes do relevo brasileiro. Essas baixas altitudes são resultado da ausência de dobramentos modernos e da intensa erosão ao longo de milhões de anos, e não de ação antrópica."
+    }
   },
   {
     "id": 9,
@@ -208,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Jurandyr Ross, a partir do Projeto RADAM Brasil nos anos 1980, mapeou o relevo nacional com precisão inédita, identificando planaltos, planícies e depressões como as três categorias fundamentais. Essa classificação tornou-se referência oficial e é usada pelo IBGE até hoje, substituindo classificações anteriores que misturavam critérios geomorfológicos e geológicos de forma menos rigorosa.</p>",
-    "ajuda": "Lembre-se que Jurandyr Ross classificou o relevo brasileiro em três tipos gerais com base em morfoestrutura, morfoescultura e morfoclimática. Pense nas formas básicas que ele identificou: áreas onde erosão predomina, áreas de acumulação sedimentar e áreas rebaixadas. Identifique a tríade correta dessas formas na classificação de Ross."
+    "ajuda": "Lembre-se que Jurandyr Ross classificou o relevo brasileiro em três tipos gerais com base em morfoestrutura, morfoescultura e morfoclimática. Pense nas formas básicas que ele identificou: áreas onde erosão predomina, áreas de acumulação sedimentar e áreas rebaixadas. Identifique a tríade correta dessas formas na classificação de Ross.",
+    "feedbacks": {
+      "1": "Serras, montanhas e cordilheiras são feições associadas a dobramentos modernos e atividade tectônica intensa, praticamente ausentes no Brasil. A classificação do relevo brasileiro usa as categorias planaltos, planícies e depressões, que descrevem melhor a realidade geomorfológica do país.",
+      "2": "Escudos cristalinos são uma categoria geológica, e não uma forma de relevo. A classificação geomorfológica usa planaltos, planícies e depressões, e não estruturas geológicas como os escudos cristalinos.",
+      "3": "Crátons são estruturas geológicas estáveis de rochas cristalinas, e bacias oceânicas pertencem ao relevo submarino. A classificação das formas do relevo terrestre brasileiro usa planaltos, planícies e depressões, e não estruturas geológicas ou formas do fundo oceânico.",
+      "4": "Bacias sedimentares e crátons são categorias geológicas, e cordilheiras são formas de dobramentos modernos quase inexistentes no Brasil. A classificação geomorfológica do relevo brasileiro usa planaltos, planícies e depressões."
+    }
   },
   {
     "id": 10,
@@ -231,6 +283,12 @@
     ],
     "correta": 2,
     "comentario": "<p>As formas atuais do relevo brasileiro são recentes, mesmo que as estruturas geológicas que as sustentam sejam antigas. Os processos erosivos (rios, chuvas, temperatura) esculpiram continuamente as rochas pré-cambrianas, criando os planaltos, chapadas e depressões que vemos hoje. Essa distinção entre estrutura geológica (antiga) e forma do relevo (recente) é fundamental para a geomorfologia brasileira.</p>",
-    "ajuda": "Pense nos fatores que determinam a formação do relevo: fatores endógenos (tectonismo, vulcanismo) constroem as estruturas; fatores exógenos (erosão, intemperismo, sedimentação) modelam as formas. O Brasil tem estrutura antiga, mas a modelagem do relevo atual é resultado de forças exógenas ao longo do tempo. Qual alternativa descreve corretamente essa relação entre estrutura antiga e formas recentes?"
+    "ajuda": "Pense nos fatores que determinam a formação do relevo: fatores endógenos (tectonismo, vulcanismo) constroem as estruturas; fatores exógenos (erosão, intemperismo, sedimentação) modelam as formas. O Brasil tem estrutura antiga, mas a modelagem do relevo atual é resultado de forças exógenas ao longo do tempo. Qual alternativa descreve corretamente essa relação entre estrutura antiga e formas recentes?",
+    "feedbacks": {
+      "0": "O Brasil não possui grandes cadeias de montanhas resultantes de derrames magmáticos recentes; seu relevo é dominado por planaltos antigos e desgastados. Os derrames basálticos da Bacia do Paraná são antigos (Cretáceo) e resultaram em planaltos, e não em cadeias de montanhas.",
+      "1": "O Brasil está no interior da Placa Sul-Americana, longe das zonas de subducção, e não favorece a formação de dobramentos recentes. É justamente a posição intracratônica que explica a ausência de dobramentos modernos e as baixas altitudes do relevo brasileiro.",
+      "3": "O Brasil não está em área de movimentos orogenéticos recentes; esses movimentos são característicos das bordas de placas, como a costa oeste da América do Sul, onde se formaram os Andes. O relevo brasileiro é marcado pela estabilidade tectônica.",
+      "4": "A estrutura geológica do Brasil não é recente; ela é predominantemente pré-cambriana, com formações de centenas de milhões a bilhões de anos. O processo erosivo é intenso, mas age sobre um embasamento muito antigo, e não sobre estrutura geológica recente."
+    }
   }
 ]

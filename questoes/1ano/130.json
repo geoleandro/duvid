@@ -20,7 +20,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A latitude é o principal fator que determina a incidência solar e, consequentemente, a temperatura de cada região. No Equador (0°), os raios incidem perpendicularmente; nos polos (90°), de forma muito oblíqua. Por isso, há uma progressão de biomas do Equador aos polos: floresta equatorial → savana → deserto → mediterrâneo → floresta temperada → taiga → tundra.</p>",
-    "ajuda": "O esquema provavelmente representa as zonas de vegetação em um perfil latitudinal ou altitudinal. As zonas variam do equador para os polos de acordo com o clima: floresta equatorial → savana → estepe → deserto → vegetação mediterrânea → floresta temperada → taiga → tundra."
+    "ajuda": "O esquema provavelmente representa as zonas de vegetação em um perfil latitudinal ou altitudinal. As zonas variam do equador para os polos de acordo com o clima: floresta equatorial → savana → estepe → deserto → vegetação mediterrânea → floresta temperada → taiga → tundra.",
+    "feedbacks": {
+      "0": "A maritimidade refere-se à influência dos oceanos em amenizar as variações térmicas das regiões costeiras. Não é o fator que explica as diferenças de temperatura e de biomas entre o Equador e os polos.",
+      "2": "A continentalidade refere-se à influência da posição interiorana (longe dos oceanos) sobre o clima, gerando maiores amplitudes térmicas. Não explica as diferenças de temperatura ao longo dos paralelos em direção aos polos.",
+      "3": "A longitude define a posição leste-oeste de um ponto, determinando os fusos horários. Não influencia a temperatura nem os biomas: dois pontos em longitudes distintas mas na mesma latitude podem ter climas semelhantes.",
+      "4": "O intemperismo é o conjunto de processos físicos, químicos e biológicos de decomposição das rochas pelos agentes externos. Não é um fator climático que explica as diferenças de temperatura e biomas entre regiões."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A taiga (floresta boreal ou de coníferas) ocorre em latitudes médias-altas (50°-70°N), onde as temperaturas são baixas e a precipitação moderada. As coníferas (pinheiros, abetos, larício) são adaptadas ao frio: folhas em agulha que retêm calor e resistem à neve. A umidade da taiga vem principalmente de frentes polares e ciclones das médias latitudes.</p>",
-    "ajuda": "A distribuição latitudinal da vegetação acompanha as zonas climáticas: perto do equador há florestas tropicais úmidas; nas latitudes médias, florestas temperadas; nas altas latitudes, taiga (floresta de coníferas) e tundra. Identifique qual formação corresponde à latitude descrita."
+    "ajuda": "A distribuição latitudinal da vegetação acompanha as zonas climáticas: perto do equador há florestas tropicais úmidas; nas latitudes médias, florestas temperadas; nas altas latitudes, taiga (floresta de coníferas) e tundra. Identifique qual formação corresponde à latitude descrita.",
+    "feedbacks": {
+      "0": "Embora a diversidade de espécies tenda a aumentar com a precipitação, esta relação não é exclusiva das florestas. Savanas e outros biomas também apresentam maior diversidade nas áreas mais úmidas. A alternativa não descreve com precisão o que diferencia as florestas dos demais biomas.",
+      "1": "Os desertos e savanas não ocorrem em todos os continentes com temperaturas elevadas: a Antártica e as regiões polares não têm savanas. Além disso, as savanas não exigem necessariamente temperaturas elevadas; as estepes temperadas têm fisionomia semelhante em climas mais frios.",
+      "3": "As savanas e florestas de monções dependem de sazonalidade climática, mas 'invernos frios e secos' corresponde melhor a climas temperados do que tropicais. As monções ocorrem principalmente em regiões tropicais e subtropicais, com invernos secos mas não necessariamente muito frios."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As florestas temperadas e subtropicais desenvolvem-se nas latitudes médias (30°-50°) sob clima úmido. As temperadas têm árvores caducifólias (que perdem as folhas no outono/inverno); as subtropicais têm vegetação semidecídua ou perenifólia. São biomas muito impactados pela urbanização e agricultura — a floresta atlântica no Brasil é um exemplo de floresta subtropical altamente degradada.</p>",
-    "ajuda": "As formações vegetais mencionadas provavelmente são biomas de clima temperado ou frio (taiga, tundra) ou tropical (savana, floresta). Identifique-as pelas características descritas: presença de neve, tipo de folhagem (perene ou decídua), biodiversidade, altura das árvores."
+    "ajuda": "As formações vegetais mencionadas provavelmente são biomas de clima temperado ou frio (taiga, tundra) ou tropical (savana, floresta). Identifique-as pelas características descritas: presença de neve, tipo de folhagem (perene ou decídua), biodiversidade, altura das árvores.",
+    "feedbacks": {
+      "0": "Savanas e Taiga estão em latitudes e climas muito distintos: savanas em regiões tropicais com alternância seca/chuvosa, e a taiga em regiões subpolares frias. Não formam um par coerente de biomas associados à mesma faixa latitudinal ou à característica pedida.",
+      "1": "Florestas Tropicais e Subtropicais têm algumas semelhanças climáticas, mas não são o par que melhor representa a característica pedida na questão. As florestas tropicais ocupam baixas latitudes com calor e chuva constantes, enquanto as subtropicais têm sazonalidade mais marcada.",
+      "2": "Florestas Boreais e Tundra estão nas latitudes polares e subpolares, em regiões de clima extremamente frio. Não são os biomas associados à característica descrita na questão, que corresponde a latitudes médias.",
+      "4": "Estepes e Florestas Temperadas têm características climáticas distintas entre si: as estepes são formações herbáceas de regiões semiáridas, enquanto as florestas temperadas têm maior umidade. Não são o par coerente para a característica descrita na questão."
+    }
   },
   {
     "id": 4,
@@ -91,7 +108,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A floresta temperada é caracterizada por árvores caducifólias de médio a grande porte, que perdem as folhas no inverno para reduzir a perda de água e energia. Ocorre na Europa Ocidental, nordeste da América do Norte e partes do leste asiático. O outono dessas regiões, com a coloração das folhas antes da queda, é um espetáculo geográfico e turístico.</p>",
-    "ajuda": "A descrição da vegetação inclui características como tipo de folha, estratificação, adaptações ao clima e distribuição geográfica. Use essas pistas para identificar o bioma: floresta boreal (taiga), tundra, savana, estepe, mediterrânea, floresta temperada ou deserto."
+    "ajuda": "A descrição da vegetação inclui características como tipo de folha, estratificação, adaptações ao clima e distribuição geográfica. Use essas pistas para identificar o bioma: floresta boreal (taiga), tundra, savana, estepe, mediterrânea, floresta temperada ou deserto.",
+    "feedbacks": {
+      "0": "A floresta tropical semiúmida ocorre em regiões tropicais com alguma estação seca. Não apresenta as quatro estações bem definidas nem a queda generalizada de folhas no outono que caracteriza a floresta temperada.",
+      "1": "A vegetação mediterrânea adapta-se a verões quentes e secos e invernos amenos e úmidos, com espécies de folhas endurecidas. Não apresenta queda generalizada de folhas no outono nem as quatro estações bem equilibradas da floresta temperada.",
+      "3": "A savana tropical tem clima com estação seca e chuvosa definidas, formação aberta com árvores esparsas e estrato herbáceo. Não apresenta as quatro estações nem a queda de folhas no outono que caracteriza a floresta temperada.",
+      "4": "A floresta boreal (taiga) é dominada por coníferas de folhas perenes em climas subpolares frios. Não apresenta queda generalizada de folhas no outono nem as quatro estações bem equilibradas da floresta temperada."
+    }
   },
   {
     "id": 5,
@@ -114,7 +137,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As pradarias e estepes são formações herbáceas de regiões temperadas semi-áridas (precipitação de 300-600 mm/ano). Constituem os solos mais férteis do mundo (chernossem/terra preta) e são usadas intensivamente para agricultura de cereais — trigo nos Pampas argentinos e nas Grandes Planícies dos EUA, e milho no Brasil Central.</p>",
-    "ajuda": "O mapa apresenta a distribuição de uma formação vegetal. Observe as regiões onde ela ocorre e relacione com o clima correspondente. Identifique se trata de uma formação tropical, temperada ou de alta latitude."
+    "ajuda": "O mapa apresenta a distribuição de uma formação vegetal. Observe as regiões onde ela ocorre e relacione com o clima correspondente. Identifique se trata de uma formação tropical, temperada ou de alta latitude.",
+    "feedbacks": {
+      "0": "A vegetação mediterrânea é associada ao turismo pelas paisagens e clima ameno, mas não é o bioma mais explorado pela agricultura intensiva mecanizada. Pradarias e estepes têm muito maior aptidão para grandes lavouras de cereais com maquinário pesado.",
+      "1": "A floresta temperada está associada à exploração madeireira e a alguns setores industriais, mas não especificamente à 'indústria pesada'. A indústria pesada está mais vinculada a fatores geológicos (minério, carvão) e históricos do que ao bioma florestal temperado.",
+      "3": "A floresta boreal é de fato explorada pela indústria madeireira (principalmente para papel e celulose), o que é verdadeiro. No entanto, as pradarias e estepes têm uma relação ainda mais direta e transformadora com a agricultura intensiva de cereais, que é a associação pedida na questão.",
+      "4": "A tundra é de fato associada à exploração de petróleo e gás natural (como no Alasca e Sibéria). No entanto, as pradarias e estepes têm relação mais ampla e transformadora com a agricultura intensiva mecanizada, que modifica completamente esses biomas."
+    }
   },
   {
     "id": 6,
@@ -136,7 +165,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As formações vegetais variam com clima, solo e relevo. Cada bioma tem características únicas que determinam sua utilidade econômica e seus impactos ambientais quando degradado. A correlação correta entre biomas e suas características é fundamental para compreender tanto a distribuição da biodiversidade quanto as estratégias de uso sustentável dos ecossistemas.</p>",
-    "ajuda": "As formações vegetais naturais foram profundamente alteradas pela ação humana por meio do desmatamento, da agricultura e da urbanização. Identifique qual bioma ou formação está sendo descrito e quais transformações humanas foram impostas sobre ele."
+    "ajuda": "As formações vegetais naturais foram profundamente alteradas pela ação humana por meio do desmatamento, da agricultura e da urbanização. Identifique qual bioma ou formação está sendo descrito e quais transformações humanas foram impostas sobre ele.",
+    "feedbacks": {
+      "0": "A sequencia III, I, II e IV nao é a correta para a ordenação indicada. Ela coloca o bioma I antes do bioma IV, quando a sequencia correta posiciona IV na terceira posição e I na quarta.",
+      "1": "A sequencia I, II, III e IV nao é a correta. Ela começa com o bioma I na primeira posição, mas a sequencia correta começa com o bioma III.",
+      "3": "A sequencia IV, I, II e III nao é a correta. Ela começa com o bioma IV, mas a sequencia correta começa com o bioma III na primeira posição.",
+      "4": "A sequencia I, IV, III e II nao é a correta. Ela começa com o bioma I e coloca o III na terceira posição, enquanto a sequencia correta começa com III e coloca o I na terceira posição."
+    }
   },
   {
     "id": 7,
@@ -159,7 +194,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A floresta boreal (taiga) é a maior floresta contínua do planeta, cobrindo o norte do Canadá, Alasca, Escandinávia e Sibéria em uma faixa circumpolar. É dominada por coníferas (pinheiros, abetos, larício) adaptadas ao frio intenso e neve. Apesar de menos biodiversa que as florestas tropicais, estoca enormes quantidades de carbono no solo (permafrost).</p>",
-    "ajuda": "O clima continental frio de altas latitudes origina a taiga (floresta boreal de coníferas), adaptada a invernos rigorosos com neve e geadas prolongadas. As coníferas têm folhas em agulha que perdem pouca água e suportam o peso da neve."
+    "ajuda": "O clima continental frio de altas latitudes origina a taiga (floresta boreal de coníferas), adaptada a invernos rigorosos com neve e geadas prolongadas. As coníferas têm folhas em agulha que perdem pouca água e suportam o peso da neve.",
+    "feedbacks": {
+      "0": "A tundra é um bioma de regiões polares e subpolares, com vegetação rasteira de musgos, líquens e gramíneas, sem árvores. Não corresponde ao bioma com espécies arbóreas de coníferas (pinheiros, abetos, larices) adaptadas ao frio subpolar intenso.",
+      "1": "A floresta equatorial ocorre em baixas latitudes com calor e umidade constantes, formando densa floresta com enorme biodiversidade. Não é o bioma dominado por coníferas adaptadas ao frio intenso e ao longo inverno da zona subpolar.",
+      "3": "As savanas são formações vegetais abertas típicas de regiões tropicais com alternância de estação seca e chuvosa. Não são dominadas por coníferas nem se localizam nas latitudes subpolares onde as florestas de coníferas se desenvolvem.",
+      "4": "As pradarias são formações herbáceas de regiões temperadas e semiáridas, sem estrato arbóreo significativo. Não são o bioma dominado por coníferas (pinheiros, abetos, larices) característico das regiões subpolares do Hemisfério Norte."
+    }
   },
   {
     "id": 8,
@@ -182,7 +223,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A floresta boreal (taiga) forma uma imensa faixa verde contínua ao redor do Ártico, cobrindo o norte da Rússia (Sibéria), Canadá, Alasca e Escandinávia. É a maior floresta do planeta em área, mas com menor biodiversidade que a tropical. Enfrenta ameaças do aquecimento global — o derretimento do permafrost libera metano, acelerando as mudanças climáticas.</p>",
-    "ajuda": "A citação descreve uma grande extensão de floresta de coníferas no Hemisfério Norte (taiga), abrangendo o Alasca, Canadá, Escandinávia e Sibéria. Essa é a maior formação florestal do planeta e forma um cinturão contínuo nas latitudes subpolares."
+    "ajuda": "A citação descreve uma grande extensão de floresta de coníferas no Hemisfério Norte (taiga), abrangendo o Alasca, Canadá, Escandinávia e Sibéria. Essa é a maior formação florestal do planeta e forma um cinturão contínuo nas latitudes subpolares.",
+    "feedbacks": {
+      "0": "A floresta galeria (ou ciliar) cresce nas margens de rios e córregos em diferentes biomas, formando faixas estreitas de vegetação. Não é a floresta de maior extensão territorial do planeta.",
+      "1": "A floresta tropical é a mais rica em biodiversidade por unidade de área. No entanto, ocupa extensão menor que a floresta boreal: as florestas tropicais se concentram em baixas latitudes (Amazônia, Bacia do Congo, Sudeste Asiático), sem alcançar a extensão circumpolar da taiga.",
+      "2": "A floresta temperada de folhosas caducas está nas médias latitudes e já teve grande parte de sua extensão original convertida em áreas agrícolas e urbanas. Não é o maior bioma florestal do planeta em extensão.",
+      "3": "A floresta amazônica é a maior floresta tropical do planeta, mas não a maior floresta em extensão absoluta. A floresta boreal (taiga), que circunda o Ártico no Hemisfério Norte, supera a Amazônia em extensão total."
+    }
   },
   {
     "id": 9,
@@ -204,7 +251,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Em termos de fitomassa (biomassa vegetal total), as florestas tropicais perenes lideram por sua densidade e crescimento rápido. As florestas temperadas vêm em seguida, com árvores de grande porte. A floresta boreal tem grande área, mas menor fitomassa por hectare. Savanas e pradarias têm fitomassa principalmente subterrânea (raízes), com pouca biomassa aérea.</p>",
-    "ajuda": "As regiões com maior porcentagem de fitomassa original preservada são aquelas com menor densidade demográfica e menor pressão antrópica, como a Amazônia, a Sibéria e as regiões polares. Já os biomas mais degradados são geralmente os localizados em zonas temperadas com longa história de uso agrícola."
+    "ajuda": "As regiões com maior porcentagem de fitomassa original preservada são aquelas com menor densidade demográfica e menor pressão antrópica, como a Amazônia, a Sibéria e as regiões polares. Já os biomas mais degradados são geralmente os localizados em zonas temperadas com longa história de uso agrícola.",
+    "feedbacks": {
+      "1": "Esta sequencia coloca tundras e savanas como os biomas de destaque, mas as tundras têm vegetação rasteira e baixíssima densidade de cobertura. A sequencia correta é encabeçada pelas florestas tropicais perenes, de maior biomassa e densidade vegetal.",
+      "2": "Esta sequencia inclui 'vegetação mediterrânea' e 'florestas tropicais de folhas caducas', que não são os biomas de maior extensão global. Os biomas de maior cobertura florestal são as florestas tropicais perenes e a floresta boreal.",
+      "3": "Esta sequencia começa com tundras, que têm vegetação rasteira e baixa densidade. A sequencia correta é encabeçada pelas florestas tropicais perenes, que têm a maior biomassa por unidade de área entre os biomas florestais.",
+      "4": "Esta sequencia começa com savanas e pastos tropicais, que têm cobertura vegetal menos densa do que as florestas tropicais perenes. Além disso, inclui 'vegetação mediterrânea', que ocupa área relativamente pequena na escala global."
+    }
   },
   {
     "id": 10,
@@ -228,6 +281,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As estepes e pradarias são formações herbáceas de regiões temperadas com baixa precipitação. As estepes (Ásia Central, Europa oriental) têm gramíneas baixas e xerófitas; as pradarias (Américas) são mais úmidas e têm gramíneas mais altas. Ambas têm solos férteis — os chernossems — e foram amplamente convertidas em lavouras, especialmente para cultivo de cereais.</p>",
-    "ajuda": "O texto descreve características como adaptações a baixas temperaturas, solos pobres ou gelados (permafrost) e estações bem definidas. Identifique se refere à tundra (sem árvores, musgos e líquens), à taiga (coníferas) ou à estepe (gramíneas de clima continental)."
+    "ajuda": "O texto descreve características como adaptações a baixas temperaturas, solos pobres ou gelados (permafrost) e estações bem definidas. Identifique se refere à tundra (sem árvores, musgos e líquens), à taiga (coníferas) ou à estepe (gramíneas de clima continental).",
+    "feedbacks": {
+      "0": "A floresta boreal (taiga) é dominada por coníferas e se localiza nas regiões subpolares do Hemisfério Norte. Não é o bioma de formação herbácea amplamente convertido em lavouras mecanizadas e pecuária extensiva que a questão descreve.",
+      "2": "A floresta temperada é um bioma de folhosas de médias latitudes. Embora parcialmente convertida em áreas agrícolas, não é o bioma de extensas planícies herbáceas exploradas pela agricultura intensiva de cereais e pela pecuária em larga escala.",
+      "3": "A vegetação mediterrânea é formada por arbustos e árvores de pequeno porte adaptadas ao verão seco e quente. Não é o bioma de extensas planícies com gramíneas exploradas pela agricultura mecanizada e pecuária extensiva.",
+      "4": "As florestas subtropicais têm maior umidade e diversidade arbórea que as formações herbáceas. Não são o bioma de extensas planícies com predominância de gramíneas exploradas pela agricultura intensiva mecanizada e pela pecuária."
+    }
   }
 ]

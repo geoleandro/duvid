@@ -276,7 +276,7 @@
             return p[0] + ' ' + p[p.length - 1][0].toUpperCase() + '.';
         }
         function medalha(pos) {
-            return pos === 1 ? '1🥇' : pos === 2 ? '2🥈' : pos === 3 ? '3🥉' : '#' + pos;
+            return pos === 1 ? '🥇' : pos === 2 ? '🥈' : pos === 3 ? '🥉' : '#' + pos;
         }
         function aviso(msg, comBotao) {
             cont.className = 'rk-vazio';
@@ -445,7 +445,10 @@
                 const dados   = await fetch('/api/ranking.php?turma=' + encodeURIComponent(codigo)).then(r => r.json());
                 dadosTurma    = (dados && dados.ranking) ? dados.ranking : [];
                 const turmaNome = aluno.turma_nome || codigo;
-                subtitulo.textContent = 'Turma ' + turmaNome;
+                subtitulo.innerHTML = 'Turma ' + turmaNome +
+                    (codigo && codigo !== 'LIVRE'
+                        ? ' <span style="font-size:.75em;color:#888;font-weight:normal;letter-spacing:.5px" title="Código da turma — compartilhe com seus colegas">· ' + codigo + '</span>'
+                        : '');
                 renderizar(dadosTurma, 'turma');
 
             } catch(e) {

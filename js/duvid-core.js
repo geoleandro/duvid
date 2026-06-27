@@ -277,7 +277,8 @@ function prepararTrocaNome() {
         document.getElementById('ep-estado').value = loc.estado || '';
         document.getElementById('ep-cidade').value = loc.cidade || '';
         document.getElementById('ep-escola').value = loc.escola || '';
-        document.getElementById('ep-pin').value    = '';
+        document.getElementById('ep-pin').value    = window._reloginPinTemp || '';
+        window._reloginPinTemp = null; // usa uma vez e descarta
         const erroEl = document.getElementById('ep-erro');
         if (erroEl) erroEl.style.display = 'none';
         modal.style.display = 'flex';
@@ -375,6 +376,8 @@ async function _executarRelogin() {
         // Sessão restaurada — atualiza cache e fecha o modal
         DuvidDB._cache.sessaoAtiva = true;
         if (typeof DuvidDB.atualizarCache === 'function') DuvidDB.atualizarCache(dados);
+        window._reloginPinTemp = pin; // guarda temporariamente para evitar PIN duplo
+        setTimeout(() => { window._reloginPinTemp = null; }, 60000); // expira em 1 min
         document.getElementById('modal-relogin')?.remove();
 
         // Esconde o banner de sessão expirada se existir

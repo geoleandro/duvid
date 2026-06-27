@@ -9,9 +9,8 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Renova o ID de sessão periodicamente (proteção contra session fixation)
+// Marca início de sessão (sem regenerate_id para evitar problemas em hospedagem compartilhada)
 if (!isset($_SESSION['_iniciada'])) {
-    session_regenerate_id(true);
     $_SESSION['_iniciada'] = time();
 }
 

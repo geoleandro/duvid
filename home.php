@@ -115,7 +115,7 @@
 
             <div class="w3-display-middle w3-center w3-hide-medium w3-hide-small" style="padding: 0 16px;">
                 <h1 class="w3-xlarge w3-text-white w3-wide" style="text-shadow: 2px 2px 10px #000; margin-bottom: 8px;">
-                    Explore o Mundo com a Geografia
+                    Explore o Mundo com a Geografia </br>e sua turma!
                 </h1>
                 <p class="w3-text-white w3-hide-small" style="text-shadow: 1px 1px 6px #000; margin-bottom: 16px;">
                     +1000 questões gratuitas · Apps offline · Correção automática
@@ -132,26 +132,35 @@
        O visitante vê o produto antes de qualquer
        login ou interatividade
   ======================================= -->
-        <div id="cards-anos" class="w3-light-grey">
+        <div id="cards-anos" style="background: linear-gradient(160deg, #e8f5e9 0%, #f1f8f1 60%, #e0f2e0 100%);">
             <div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
 
-                <h2 class="w3-center w3-text-green w3-xlarge w3-wide">Escolha seu Ano</h2>
-                <p class="w3-center w3-opacity w3-margin-bottom">
-                    <i>Conteúdo gratuito, interativo e com apps offline para Android</i>
-                </p>
+                <!-- Cabeçalho da seção -->
+                <div class="w3-center w3-margin-bottom" style="margin-bottom:40px!important">
+                    <span style="display:inline-block; background:#2e7d32; color:#fff; border-radius:30px; padding:6px 22px; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px;">Conteúdo Duvid</span>
+                    <h2 style="font-size:2.2rem; font-weight:800; color:#1b5e20; margin:0 0 10px; letter-spacing:-0.5px;">Escolha seu tema</h2>
+                    <p style="color:#558b2f; font-size:1rem; margin:0;">
+                        Gratuito · Interativo · Apps offline para Android
+                    </p>
+                </div>
 
                 <div class="w3-row-padding">
 
                     <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
-                            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">1º ANO</h3>
+                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
+                             style="border-top:4px solid #43a047; transition:transform .2s, box-shadow .2s; overflow:hidden;"
+                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(46,125,50,.18)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow=''">
+                            <div style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9); padding:14px 0 6px;">
+                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#1b5e20;">NATUREZA</span>
+                            </div>
                             <div class="w3-padding">
                                 <a href="Duvid1Ano.php">
                                     <img src="fotoIndex/imagensCapa/capa1ano.webp" loading="lazy" alt="Capa 1º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:250px;">
+                                        style="width:100%; max-width:260px;">
                                 </a>
-                                <p class="w3-small w3-opacity">Baixe o app offline:</p>
+                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
                                 <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid1ano"
                                     target="_blank">
                                     <img src="fotoIndex/imagensCapa/google-play-badge1.png"
@@ -162,15 +171,20 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
-                            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">2º ANO</h3>
+                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
+                             style="border-top:4px solid #1976d2; transition:transform .2s, box-shadow .2s; overflow:hidden;"
+                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.18)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow=''">
+                            <div style="background:linear-gradient(135deg,#e3f2fd,#bbdefb); padding:14px 0 6px;">
+                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#0d47a1;">BRASIL</span>
+                            </div>
                             <div class="w3-padding">
                                 <a href="Duvid2Ano.php">
                                     <img src="fotoIndex/imagensCapa/capa2ano.webp" loading="lazy" alt="Capa 2º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:250px;">
+                                        style="width:100%; max-width:260px;">
                                 </a>
-                                <p class="w3-small w3-opacity">Baixe o app offline:</p>
+                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
                                 <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid2"
                                     target="_blank">
                                     <img src="fotoIndex/imagensCapa/google-play-badge1.png"
@@ -181,15 +195,20 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-padding-large w3-center card-ano">
-                            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">3º ANO</h3>
+                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
+                             style="border-top:4px solid #f57c00; transition:transform .2s, box-shadow .2s; overflow:hidden;"
+                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(245,124,0,.18)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow=''">
+                            <div style="background:linear-gradient(135deg,#fff3e0,#ffe0b2); padding:14px 0 6px;">
+                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#e65100;">MUNDO</span>
+                            </div>
                             <div class="w3-padding">
                                 <a href="Duvid3Ano.php">
                                     <img src="fotoIndex/imagensCapa/capa3ano.webp" loading="lazy" alt="Capa 3º Ano"
                                         class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:250px;">
+                                        style="width:100%; max-width:260px;">
                                 </a>
-                                <p class="w3-small w3-opacity">Baixe o app offline:</p>
+                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
                                 <a href="https://play.google.com/store/apps/details?id=br.com.duvid" target="_blank">
                                     <img src="fotoIndex/imagensCapa/google-play-badge1.png"
                                         style="width:70%; min-width:140px;" alt="Google Play">
@@ -208,11 +227,9 @@
         <div class="w3-row w3-light-grey">
             <div class="w3-container w3-content w3-padding" style="max-width:800px">
                 <h2 class="w3-wide w3-center w3-text-green w3-xlarge">O Projeto</h2>
-                <p class="w3-opacity w3-center"><i>Gratuito, inovador e feito para a sala de aula</i></p>
+                <p class="w3-opacity w3-center"><i>Gratuito, colaborativo e sem pressão</i></p>
                 <div class="w3-justify">
-                    <p>O site <strong>Duvid Geografia</strong> oferece mais de 1000 questões atualizadas,
-                        dezenas de textos autorais interativos com correção automática, comentários e sugestões
-                        de atividades. Nossos aplicativos para Android funcionam 100% offline!</p>
+                    <p>O <strong>Duvid Geografia</strong> nasceu de uma sala de aula real. É gratuito, colaborativo e feito com sugestões da turma. Mais de 1000 questões com explicações detalhadas, textos interativos com atividades práticas e apps que funcionam 100% offline.</p>
                 </div>
             </div>
         </div>
@@ -220,7 +237,7 @@
         <!-- Explorar o Duvid — seção independente, centralizada -->
         <div class="w3-container w3-padding-64 w3-light-grey">
             <div class="w3-content" style="max-width:900px">
-                <h2 class="w3-center w3-margin-bottom"><b>Explorar o Duvid</b></h2>
+                <h2 class="w3-center w3-margin-bottom"><b>Conheça o Duvid</b></h2>
                 <div class="w3-row-padding w3-center">
 
                     <div class="w3-third w3-margin-bottom">
@@ -319,8 +336,8 @@
                 </div>
 
                 <div id="form-identificacao" style="display:none;" class="w3-center">
-                    <p class="w3-large"><b>Bem-vindo ao Duvid!</b></p>
-                    <p>Crie sua conta para salvar seu progresso e ganhar globinhos!</p>
+                    <p class="w3-large"><b>Bem-vindo ao Duvid! 🌍</b></p>
+                    <p>Comece sua jornada. Sua turma está te esperando.</p>
 
                     <div style="max-width:320px; margin:auto;">
                         <input class="w3-input w3-border w3-round w3-margin-bottom" type="text"
@@ -418,6 +435,11 @@
                             </h4>
                             <p id="rank-nome" class="w3-tiny w3-text-black w3-margin-0"
                                 style="font-weight:bold; letter-spacing:1px;">NOVATO</p>
+                            <p id="turma-info" class="w3-tiny w3-margin-0" style="color:#888;display:none">
+                                <i class="fa fa-users" style="font-size:.65rem"></i>
+                                <span id="turma-nome-label"></span>
+                                <span id="turma-codigo-label" style="color:#aaa;margin-left:4px"></span>
+                            </p>
                         </div>
                         <div class="w3-right-align">
                             <div class="w3-tag w3-round w3-amber w3-padding-small">
@@ -450,7 +472,7 @@
                             <div id="conquista-1ano" class="w3-display-topright w3-padding" style="display:none;">
                                 <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
                             </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>1º ANO</b></h6>
+                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Natureza</b></h6>
                             <div class="w3-light-grey w3-round-xlarge w3-tiny">
                                 <div id="bar-1ano" class="w3-container w3-green w3-round-xlarge"
                                     style="width:0%;height:10px;"></div>
@@ -463,7 +485,7 @@
                             <div id="conquista-2ano" class="w3-display-topright w3-padding" style="display:none;">
                                 <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
                             </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>2º ANO</b></h6>
+                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Brasil</b></h6>
                             <div class="w3-light-grey w3-round-xlarge w3-tiny">
                                 <div id="bar-2ano" class="w3-container w3-blue w3-round-xlarge"
                                     style="width:0%;height:10px;"></div>
@@ -476,7 +498,7 @@
                             <div id="conquista-3ano" class="w3-display-topright w3-padding" style="display:none;">
                                 <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
                             </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>3º ANO</b></h6>
+                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Mundo</b></h6>
                             <div class="w3-light-grey w3-round-xlarge w3-tiny">
                                 <div id="bar-3ano" class="w3-container w3-orange w3-round-xlarge"
                                     style="width:0%;height:10px;"></div>
@@ -730,6 +752,16 @@
                        border-radius:10px; font-size:.9rem; box-sizing:border-box;
                        margin-bottom:14px; font-family:inherit;">
 
+            <!-- Turma -->
+            <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
+                Código da turma <span style="font-weight:400; color:#aaa;">(opcional)</span>
+            </label>
+            <input id="ep-turma" type="text" maxlength="10" placeholder="Ex: JTB735"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+                       border-radius:10px; font-size:.9rem; box-sizing:border-box;
+                       margin-bottom:4px; font-family:monospace; text-transform:uppercase; letter-spacing:2px;">
+            <p style="font-size:.75rem; color:#aaa; margin:0 0 14px">Deixe em branco para manter a turma atual.</p>
+
             <!-- PIN de confirmação -->
             <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
                 PIN <span style="color:#c62828;">*</span>
@@ -766,6 +798,7 @@
         const estado = document.getElementById('ep-estado').value;
         const cidade = document.getElementById('ep-cidade').value.trim();
         const escola = document.getElementById('ep-escola').value.trim();
+        const turma  = (document.getElementById('ep-turma')?.value || '').trim().toUpperCase();
         const pin    = document.getElementById('ep-pin').value.trim();
         const erro   = document.getElementById('ep-erro');
         const btn    = document.getElementById('ep-btn');
@@ -785,7 +818,7 @@
             const resp = await fetch('/api/aluno.php', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ acao: 'editar_perfil', id, pin, nome, estado, cidade, escola }),
+                body: JSON.stringify({ acao: 'editar_perfil', id, pin, nome, estado, cidade, escola, ...(turma ? { codigo_turma: turma } : {}) }),
             });
             let dados;
             try {

@@ -29,7 +29,6 @@
     <script src="js/carregar.js" defer></script>
     <script src="js/aulas-geral.js" defer></script>
     <script src="js/abrirmenu.js" defer></script>
-    <script src="estilos/jstextos-padrao.js"></script>
 
 </head>
 

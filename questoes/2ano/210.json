@@ -21,7 +21,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A desconcentração industrial mundial dos anos 1970 foi impulsionada pela crise do petróleo e pelos avanços nos transportes e telecomunicações, que permitiram fragmentar as cadeias produtivas globalmente. Empresas passaram a migrar para países e regiões com menores custos — mão de obra barata, isenções fiscais, menores regulações ambientais —, reordenando o mapa industrial do mundo e do Brasil.</p>",
-    "ajuda": "Pense nos fatores que levaram as empresas a se deslocarem dos países desenvolvidos para países em desenvolvimento a partir dos anos 1970. Lembre-se de que a busca por menores custos de produção, incluindo mão de obra mais barata e novos mercados consumidores, foi a principal motivação. Qual avanço tecnológico tornou possível essa descentralização industrial global?"
+    "ajuda": "Pense nos fatores que levaram as empresas a se deslocarem dos países desenvolvidos para países em desenvolvimento a partir dos anos 1970. Lembre-se de que a busca por menores custos de produção, incluindo mão de obra mais barata e novos mercados consumidores, foi a principal motivação. Qual avanço tecnológico tornou possível essa descentralização industrial global?",
+    "feedbacks": {
+      "0": "O incremento de tarifas alfandegárias encarece os produtos importados e não é uma estratégia de redução de custos pela indústria. A questão descreve os fatores que permitem à indústria se redistribuir no espaço em busca de menores custos, e não políticas protecionistas.",
+      "1": "A adoção de modelos de administração mais rígidos é o oposto do que caracteriza a reestruturação produtiva contemporânea. A nova lógica industrial se baseia em modelos de gestão flexíveis, como o toyotismo, e não em estruturas administrativas rígidas.",
+      "2": "A instalação próxima ao mercado consumidor é uma estratégia tradicional de localização industrial, mas não o fator principal que viabiliza a desconcentração. A revolução nos transportes e nas telecomunicações é que permite às indústrias se afastarem dos grandes centros em busca de custos menores."
+    }
   },
   {
     "id": 2,
@@ -45,7 +50,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A concentração industrial no Brasil historicamente favoreceu o eixo São Paulo–Rio de Janeiro, herança do ciclo cafeeiro e da chegada das multinacionais nos anos 1950–60. Essa concentração gerou o chamado 'efeito polarizador': capitais, tecnologia e mão de obra qualificada fluíam para o Sudeste, aprofundando as desigualdades regionais em relação ao Nordeste, Norte e Centro-Oeste.</p>",
-    "ajuda": "Observe o mapa de concentração industrial no Brasil e pense: onde estão as maiores manchas industriais? Lembre-se de que a industrialização brasileira se concentrou historicamente no Sudeste, especialmente em São Paulo. Analise qual afirmativa descreve corretamente o impacto espacial dessa concentração sobre a distribuição de riqueza no território."
+    "ajuda": "Observe o mapa de concentração industrial no Brasil e pense: onde estão as maiores manchas industriais? Lembre-se de que a industrialização brasileira se concentrou historicamente no Sudeste, especialmente em São Paulo. Analise qual afirmativa descreve corretamente o impacto espacial dessa concentração sobre a distribuição de riqueza no território.",
+    "feedbacks": {
+      "0": "As economias de aglomeração impulsionaram o crescimento das grandes cidades industriais, principalmente no Sudeste, e não das pequenas cidades no Sul. O crescimento das cidades sulinas está mais relacionado à imigração europeia e ao modelo de pequenas e médias empresas.",
+      "1": "As fábricas brasileiras não se instalaram em regiões de baixa densidade demográfica; ao contrário, concentraram-se nas regiões mais habitadas do Sudeste, aproveitando mão de obra e mercados consumidores disponíveis. A baixa densidade demográfica não favorece a industrialização.",
+      "2": "Os centros industriais pioneiros, especialmente São Paulo, geraram o crescimento e não o declínio das grandes cidades do Sudeste. São Paulo e Rio de Janeiro tornaram-se ainda mais dominantes com a industrialização, e não sofreram declínio financeiro.",
+      "4": "A industrialização brasileira não acompanhou as linhas de fronteiras agrícolas; ela se concentrou nas regiões já urbanizadas e com infraestrutura, especialmente no Sudeste. A fronteira agrícola avançou para o Centro-Oeste e o Norte, enquanto a industrialização permaneceu no Sudeste e Sul."
+    }
   },
   {
     "id": 3,
@@ -69,7 +80,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A modernização industrial tardia gerou externalidades negativas concentradas nas grandes metrópoles: poluição atmosférica, hídrica e sonora, pressão sobre o saneamento e habitação, e expansão de periferias sem infraestrutura. O crescimento industrial não foi acompanhado de planejamento urbano adequado, gerando as favelas e as áreas de risco ambiental que marcam o entorno das zonas industriais brasileiras.</p>",
-    "ajuda": "Pense nos efeitos da industrialização tardia e da urbanização acelerada no Brasil. A concentração de indústrias nas metrópoles atraiu grandes contingentes populacionais sem que a infraestrutura urbana acompanhasse esse crescimento. Qual problema socioambiental é resultado direto desse processo de industrialização e urbanização desordenada?"
+    "ajuda": "Pense nos efeitos da industrialização tardia e da urbanização acelerada no Brasil. A concentração de indústrias nas metrópoles atraiu grandes contingentes populacionais sem que a infraestrutura urbana acompanhasse esse crescimento. Qual problema socioambiental é resultado direto desse processo de industrialização e urbanização desordenada?",
+    "feedbacks": {
+      "0": "A industrialização e a urbanização acelerada no Brasil não resultaram no estabelecimento de áreas urbanas bem estruturadas em todo o país; ao contrário, geraram grandes periferias com déficit de infraestrutura. O crescimento urbano desordenado é uma das principais consequências negativas do processo.",
+      "1": "A industrialização e o crescimento urbano acelerado no Brasil resultaram na degradação das áreas de preservação ambiental, e não em seu fortalecimento. O desmatamento e a expansão urbana sobre áreas protegidas são consequências documentadas do processo de industrialização.",
+      "2": "A industrialização e o crescimento urbano acelerado não geraram políticas habitacionais eficientes; ao contrário, produziram déficit habitacional e expansão de favelas e periferias. O crescimento desordenado é uma das marcas da urbanização brasileira.",
+      "4": "A industrialização e a urbanização não resolveram os problemas sociais do campo; ao contrário, o êxodo rural gerou trabalhadores nas cidades sem condições adequadas de habitação e emprego. Os problemas rurais, como a concentração fundiária, persistiram mesmo com o avanço industrial."
+    }
   },
   {
     "id": 4,
@@ -93,7 +110,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A desconcentração industrial brasileira a partir dos anos 1990 foi impulsionada pelo neoliberalismo (abertura econômica, privatizações) e pela expansão das redes de transporte. Cidades médias como Campinas, Ribeirão Preto, Sorocaba e o interior gaúcho atraíram indústrias com menores custos fundiários e fiscais, diversificando o mapa industrial além do ABCD paulista.</p>",
-    "ajuda": "Lembre-se que a desconcentração industrial no Brasil começou nos anos 1970 e se intensificou nos anos 1990. Pense nos fatores que atraem indústrias para fora do Sudeste: incentivos fiscais, terrenos mais baratos, mão de obra menos organizada sindicalmente e novos mercados no interior. Qual alternativa descreve corretamente essa tendência?"
+    "ajuda": "Lembre-se que a desconcentração industrial no Brasil começou nos anos 1970 e se intensificou nos anos 1990. Pense nos fatores que atraem indústrias para fora do Sudeste: incentivos fiscais, terrenos mais baratos, mão de obra menos organizada sindicalmente e novos mercados no interior. Qual alternativa descreve corretamente essa tendência?",
+    "feedbacks": {
+      "0": "Até os anos 1930, a economia brasileira não tinha forte integração nacional; as regiões funcionavam como ilhas econômicas voltadas para o exterior. A integração do mercado interno foi justamente um dos objetivos do projeto de industrialização iniciado na Era Vargas.",
+      "1": "A industrialização clássica europeia começou com indústrias de bens de consumo leve (têxtil), e não com bens de produção. A industrialização brasileira também seguiu esse padrão inicial, com bens de consumo não duráveis, avançando depois para os bens de capital.",
+      "2": "As montadoras instalaram-se no Brasil nas décadas de 1950 e 1960, durante o Plano de Metas de JK, e não nas de 1930 e 1940. Além disso, a malha ferroviária não foi o principal suporte logístico das montadoras, que dependiam mais das rodovias. ATENCAO: esta alternativa é identica à alternativa 3.",
+      "3": "As montadoras instalaram-se no Brasil nas décadas de 1950 e 1960, durante o Plano de Metas de JK, e não nas de 1930 e 1940. Além disso, a malha ferroviária não foi o principal suporte logístico das montadoras, que dependiam mais das rodovias. ATENCAO: esta alternativa é identica à alternativa 2."
+    }
   },
   {
     "id": 5,
@@ -115,7 +138,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O ABCD paulista (Santo André, São Bernardo, São Caetano e Diadema) concentra a maior diversidade industrial do Brasil, especialmente metalurgia, autopeças e montadoras. Essa área foi o berço do sindicalismo operário nos anos 1970–80 e do PT, mostrando que a concentração industrial tem também dimensões políticas e sociais que vão além da mera produção econômica.</p>",
-    "ajuda": "Pense nas características das grandes concentrações industriais brasileiras. O ABCD paulista (Santo André, São Bernardo, São Caetano e Diadema) é o maior polo industrial do país, com diversificação produtiva. As regiões Norte e Nordeste também possuem indústrias, mas de menor porte. Qual alternativa descreve corretamente a distribuição industrial e o papel do ABCD paulista?"
+    "ajuda": "Pense nas características das grandes concentrações industriais brasileiras. O ABCD paulista (Santo André, São Bernardo, São Caetano e Diadema) é o maior polo industrial do país, com diversificação produtiva. As regiões Norte e Nordeste também possuem indústrias, mas de menor porte. Qual alternativa descreve corretamente a distribuição industrial e o papel do ABCD paulista?",
+    "feedbacks": {
+      "0": "O Nordeste participa das atividades industriais brasileiras com indústrias têxteis, alimentícias e petroquímicas, como o polo de Camaçari na Bahia. Afirmar que o Nordeste não participa da atividade industrial é incorreto; além disso, as indústrias de bens de capital não são as principais instaladas nas capitais nordestinas.",
+      "1": "O Complexo de Carajás é voltado principalmente à mineração, e não é a segunda maior área industrial do Brasil. Manaus se destaca no polo de eletrônicos e motocicletas, não de bens de consumo duráveis em geral, e esse eixo não corresponde à segunda maior área industrial do país.",
+      "2": "A desconcentração industrial no Brasil beneficiou principalmente o interior de São Paulo, o Sul e algumas cidades médias do Nordeste, e não a região Norte. A criação do Mercosul beneficiou mais o Sul, e a região Norte não tem densa rede de transportes e comunicações.",
+      "3": "O Centro-Oeste não está ligado ao setor petroquímico por causa de poços de petróleo; as principais reservas de petróleo brasileiro estão no litoral, especialmente no pré-sal. A agroindústria no Centro-Oeste está ligada ao processamento de grãos e proteína animal, e não ao petróleo."
+    }
   },
   {
     "id": 6,
@@ -139,7 +168,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O desenvolvimento das telecomunicações e da internet foi um fator geográfico decisivo para a desconcentração industrial: empresas passaram a poder coordenar filiais distantes em tempo real, eliminando a necessidade de proximidade física para gerir operações. Isso permitiu que indústrias migrassem para regiões com menores custos, mantendo o controle gerencial centralizado.</p>",
-    "ajuda": "Leia o texto de Milton Santos sobre a desconcentração industrial a partir dos anos 1970. Pense em quais fatores geográficos facilitaram esse processo: novos transportes, telecomunicações, incentivos fiscais. Qual fator geográfico foi determinante para que as indústrias pudessem se instalar em regiões antes periféricas sem perder competitividade?"
+    "ajuda": "Leia o texto de Milton Santos sobre a desconcentração industrial a partir dos anos 1970. Pense em quais fatores geográficos facilitaram esse processo: novos transportes, telecomunicações, incentivos fiscais. Qual fator geográfico foi determinante para que as indústrias pudessem se instalar em regiões antes periféricas sem perder competitividade?",
+    "feedbacks": {
+      "0": "A modernização dos portos favorece o comércio e a logística, sendo um fator de atração industrial, e não um obstáculo. A obsolescência dos portos seria um limitador, mas não é o fator que explica a desconcentração industrial.",
+      "1": "A estatização de empresas foi característica do período desenvolvimentista anterior ao processo de desconcentração industrial dos anos 1970-1990. A estatização não favorece a dispersão das indústrias; ao contrário, a flexibilização e a privatização foram mais associadas a esse processo.",
+      "2": "A eliminação de incentivos fiscais desestimularia a instalação de indústrias em novas regiões. Os incentivos fiscais são, ao contrário, instrumentos utilizados pelos estados para atrair investimentos industriais, sendo parte essencial das políticas de desconcentração regional.",
+      "3": "As políticas protecionistas restringem a concorrência externa e podem favorecer a produção nacional, mas não explicam a redistribuição espacial da indústria pelo território. A desconcentração industrial está mais associada ao desenvolvimento dos transportes e das telecomunicações."
+    }
   },
   {
     "id": 7,
@@ -162,7 +197,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O crescimento industrial das regiões Sul e Nordeste no Brasil foi heterogêneo: o Sul diversificou seu parque industrial com metal-mecânica, têxtil e agroindústria; já o Nordeste atraiu indústrias intensivas em mão de obra (calçados, confecções) via incentivos fiscais do SUDENE. Afirmar que Sul e Nordeste mantêm 'estabilidade em posição de destaque' é incorreto — a concentração no Sudeste continua expressiva.</p>",
-    "ajuda": "Analise o quadro de distribuição industrial no Brasil. A questão pede a alternativa INCORRETA. Pense: é verdade que houve concentração até os anos 1970? É verdade que houve desconcentração depois? O Sudeste ainda domina com mais de 50%? Avalie cuidadosamente se a afirmativa sobre a estabilidade das regiões Sul e Nordeste é verdadeira ou falsa."
+    "ajuda": "Analise o quadro de distribuição industrial no Brasil. A questão pede a alternativa INCORRETA. Pense: é verdade que houve concentração até os anos 1970? É verdade que houve desconcentração depois? O Sudeste ainda domina com mais de 50%? Avalie cuidadosamente se a afirmativa sobre a estabilidade das regiões Sul e Nordeste é verdadeira ou falsa.",
+    "feedbacks": {
+      "0": "Esta afirmativa descreve corretamente a forte concentração industrial verificada no Sudeste até os anos 1970, quando SP, RJ e MG respondiam por cerca de 80% da produção industrial. Por ser uma informação verdadeira, não deve ser apontada como incorreta.",
+      "1": "Esta afirmativa descreve corretamente o processo de desconcentração industrial iniciado a partir dos anos 1970, com a redução relativa do peso da indústria paulista. Essa é uma tendência verificada pelos dados industriais e representa uma afirmativa verdadeira.",
+      "2": "Esta afirmativa descreve corretamente a persistência de forte concentração industrial no Sudeste mesmo após a desconcentração, com mais de 50% da produção total. Essa realidade é confirmada pelos dados sobre distribuição regional da indústria brasileira na atualidade."
+    }
   },
   {
     "id": 8,
@@ -185,7 +225,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A Zona Franca de Manaus foi criada em 1967 pelo regime militar como estratégia de desenvolvimento regional e integração da Amazônia ao mercado nacional. Com isenções fiscais generosas, o polo industrial de Manaus tornou-se o principal centro produtor de eletroeletrônicos e motocicletas do Brasil, sendo uma das poucas experiências bem-sucedidas de desconcentração industrial induzida pelo Estado.</p>",
-    "ajuda": "Pense no papel da Zona Franca de Manaus como exemplo de política de Estado para a desconcentração industrial. Criada em 1967, ela oferece incentivos fiscais para atrair indústrias para a Amazônia. Analise qual alternativa identifica corretamente a Zona Franca como instrumento de política regional e de desconcentração industrial."
+    "ajuda": "Pense no papel da Zona Franca de Manaus como exemplo de política de Estado para a desconcentração industrial. Criada em 1967, ela oferece incentivos fiscais para atrair indústrias para a Amazônia. Analise qual alternativa identifica corretamente a Zona Franca como instrumento de política regional e de desconcentração industrial.",
+    "feedbacks": {
+      "1": "A elevação da escolaridade é um fator de competitividade, mas não é o principal responsável pela desconcentração industrial para regiões historicamente menos industrializadas. A criação de políticas estatais específicas, como zonas francas e incentivos regionais, tem papel muito mais direto nesse processo.",
+      "2": "A presença de sindicatos fortes pode influenciar os custos trabalhistas, mas não é o principal fator da desconcentração industrial. Além disso, afirmar que sindicatos impedem novos investimentos ignora outros fatores mais relevantes de localização industrial.",
+      "3": "A isenção fiscal oferecida por estados atrai, e não repele, novos investimentos industriais. Essa afirmativa contradiz a própria lógica dos incentivos fiscais, que são instrumentos de atração de empresas e fazem parte das políticas regionais do Estado.",
+      "4": "A globalização e as privatizações podem influenciar a localização industrial, mas não são o principal mecanismo para o desenvolvimento industrial em regiões periféricas. A ação direta do Estado por meio de políticas regionais, como a Zona Franca de Manaus, é o fator mais determinante."
+    }
   },
   {
     "id": 9,
@@ -209,7 +255,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A concentração industrial histórica no Sudeste brasileiro é herança do ciclo cafeeiro do século XIX e da política de substituição de importações do século XX. São Paulo acumulou vantagens comparativas difíceis de superar: infraestrutura, mercado consumidor, mão de obra qualificada e capital disponível. Por isso, mesmo com a desconcentração recente, o Sudeste ainda responde por mais de 50% do PIB industrial nacional.</p>",
-    "ajuda": "Observe o mapa da distribuição industrial brasileira. Pense em qual região concentra historicamente a maior parte da produção industrial do país — o Sudeste, especialmente São Paulo, por razões históricas ligadas ao café, à imigração e ao capital acumulado. Qual alternativa descreve corretamente o que o mapa revela sobre essa distribuição?"
+    "ajuda": "Observe o mapa da distribuição industrial brasileira. Pense em qual região concentra historicamente a maior parte da produção industrial do país — o Sudeste, especialmente São Paulo, por razões históricas ligadas ao café, à imigração e ao capital acumulado. Qual alternativa descreve corretamente o que o mapa revela sobre essa distribuição?",
+    "feedbacks": {
+      "0": "A industrialização brasileira não é homogênea; ao contrário, é marcada por profundas desigualdades regionais, com forte concentração no Sudeste. Afirmar que a dinâmica é homogênea contradiz os dados sobre a distribuição regional da atividade industrial no Brasil.",
+      "1": "A Zona Franca de Manaus tem importância econômica regional relevante, mas não é equivalente a toda a produção industrial do Centro-Sul. Essa afirmação superestima enormemente o peso da Zona Franca, que representa uma parcela muito menor da produção industrial nacional.",
+      "3": "O processo de devastação de áreas naturais para construção de zonas industriais não é a principal explicação para a concentração industrial no Sudeste. Essa concentração tem raízes históricas ligadas ao café, à imigração e ao desenvolvimento de infraestrutura no Sudeste.",
+      "4": "O Rio Grande do Sul é um estado industrializado e importante, mas não é a Unidade da Federação mais industrializada do país. São Paulo concentra a maior parte da produção industrial brasileira, sendo o estado mais industrializado."
+    }
   },
   {
     "id": 10,
@@ -234,6 +286,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A concentração industrial nas grandes metrópoles brasileiras elevou os custos de produção ao longo do tempo: terrenos caros, congestionamentos, salários mais altos e impostos maiores. Esses 'inconvenientes' foram determinantes para a desconcentração industrial a partir dos anos 1990, quando empresas passaram a buscar cidades médias e regiões com menores custos operacionais e maior qualidade de vida para seus funcionários.</p>",
-    "ajuda": "Leia o texto sobre as 'deseconomias de aglomeração'. Pense: quando há concentração excessiva de indústrias em uma região, surgem problemas como congestionamento, aumento de salários, especulação imobiliária e poluição. Quais são os 'inconvenientes' que tornam a produção mais cara e reduzem a competitividade das empresas nas áreas superconcentradas?"
+    "ajuda": "Leia o texto sobre as 'deseconomias de aglomeração'. Pense: quando há concentração excessiva de indústrias em uma região, surgem problemas como congestionamento, aumento de salários, especulação imobiliária e poluição. Quais são os 'inconvenientes' que tornam a produção mais cara e reduzem a competitividade das empresas nas áreas superconcentradas?",
+    "feedbacks": {
+      "0": "A eliminação de sistemas de cooperação não é a principal consequência descrita para o fenômeno analisado. A cooperação entre empresas de um mesmo polo tende a persistir mesmo sob pressão de redução de custos, pois é justamente a cooperação que gera eficiência.",
+      "1": "A proximidade das corporações em clusters industriais pode intensificar a concorrência, e não necessariamente comprometê-la. A concorrência entre empresas de um mesmo polo não é necessariamente prejudicada pela proximidade, que também gera economias de escala e inovação compartilhada.",
+      "2": "A hierarquização entre empresas não é eliminada pela padronização de soluções; as grandes corporações mantêm sua posição de liderança mesmo com padronização tecnológica. A estrutura hierárquica entre empresas líderes, fornecedoras e subcontratadas persiste nos polos industriais.",
+      "4": "A propensão a monopólios pela retirada de empresas de nichos concorridos é uma consequência possível em alguns mercados, mas não a principal limitação descrita para o fenômeno analisado. A retirada de empresas pode levar à oligopolização, mas não necessariamente a monopólios em polos industriais diversificados."
+    }
   }
 ]

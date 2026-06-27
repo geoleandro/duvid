@@ -9,7 +9,10 @@
   if (window.location.pathname.startsWith('/jogo')) return;
   if (document.querySelector('meta[name="jessica-walker"][content="off"]')) return;
   var HOME_PATHS = ['/', '/index.php', '/index.html', '/home.php'];
-  var isHome = HOME_PATHS.indexOf(window.location.pathname) !== -1;
+  var isHome     = HOME_PATHS.indexOf(window.location.pathname) !== -1;
+  var isNatureza = window.location.pathname.toLowerCase().indexOf('duvid1ano') !== -1;
+  var isBrasil   = window.location.pathname.toLowerCase().indexOf('duvid2ano') !== -1;
+  var isMundo    = window.location.pathname.toLowerCase().indexOf('duvid3ano') !== -1;
   var isQuestoes = window.location.pathname.indexOf('/questoes/') !== -1 || window.location.pathname.indexOf('modelo-questoes') !== -1;
 
   // ── Helpers globais ────────────────────────────────────────────────────────
@@ -198,17 +201,29 @@
   }
 
   // ── Fundo / Diorama ────────────────────────────────────────────────────────
-  if (isHome) {
-    var fundoStyle = document.createElement('style');
-    fundoStyle.textContent = '#duvid-fundo{display:block;width:100%;line-height:0;pointer-events:none;}#duvid-fundo img{width:100%;height:auto;display:block;}';
-    document.head.appendChild(fundoStyle);
-    var fundoEl = document.createElement('div'); fundoEl.id = 'duvid-fundo';
-    var fundoImg = document.createElement('img'); fundoImg.src = '/fotoIndex/tileset/fundo.webp'; fundoImg.alt = '';
-    fundoEl.appendChild(fundoImg);
-    var footer = document.querySelector('footer');
-    if (footer) footer.parentNode.insertBefore(fundoEl, footer);
-    else document.body.appendChild(fundoEl);
+  // Adiado para depois do DOMContentLoaded: jstextos-padrao.js injeta o botão
+  // "Melhorar esta aula" no DOMContentLoaded; o setTimeout(0) garante que o
+  // diorama entre depois do botão e possa ser inserido antes dele corretamente.
+  function injetarFundo() {
+    var fundoSrc = null;
+    if (isHome)     fundoSrc = '/fotoIndex/tileset/fundo.webp';
+    if (isNatureza) fundoSrc = '/fotoIndex/tileset/fundo-natureza.webp';
+    if (isBrasil)   fundoSrc = '/fotoIndex/tileset/fundo-brasil.webp';
+    if (isMundo)    fundoSrc = '/fotoIndex/tileset/fundo-mundo.webp';
+    if (!fundoSrc) return;
+    var s = document.createElement('style');
+    s.textContent = '#duvid-fundo{display:block;width:100%;line-height:0;pointer-events:none;}#duvid-fundo img{width:100%;height:auto;display:block;}';
+    document.head.appendChild(s);
+    var el = document.createElement('div'); el.id = 'duvid-fundo';
+    var img = document.createElement('img'); img.src = fundoSrc; img.alt = '';
+    el.appendChild(img);
+    // Insere antes do botão "Melhorar esta aula" se existir, senão antes do footer
+    var btnEl = document.querySelector('.btn-melhorar-aula');
+    var anchor = (btnEl && btnEl.parentNode) || document.querySelector('footer');
+    if (anchor) anchor.parentNode.insertBefore(el, anchor);
+    else document.body.appendChild(el);
   }
+  document.addEventListener('DOMContentLoaded', function() { setTimeout(injetarFundo, 0); });
 
   // ── Personagens ────────────────────────────────────────────────────────────
 

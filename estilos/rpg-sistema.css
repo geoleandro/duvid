@@ -590,3 +590,45 @@
         color: #fff;
     }
 }
+/* ── Dark Mode — cards de progresso por ano ────────────────────────────────── */
+body.dark-mode .card-inventario-item {
+    background-color: #1e2a1e !important;   /* verde-escuro sutil, combina com a temática */
+    border: 2px solid #2e4a2e !important;
+    box-shadow:
+        inset 1px 1px 0px rgba(255,255,255,0.05),
+        2px 2px 6px rgba(0,0,0,0.4);
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .card-inventario-item:hover {
+    background-color: #243024 !important;
+}
+
+body.dark-mode .card-inventario-item .w3-light-grey {
+    background-color: #2a2a2a !important;
+    border: 1px solid #3a3a3a;
+    box-shadow: inset 1px 1px 2px rgba(0,0,0,0.4);
+}
+
+body.dark-mode .card-inventario-item h6.w3-text-teal,
+body.dark-mode .card-inventario-item .w3-text-teal {
+    color: #4db6ac !important;   /* teal mais claro e legível no escuro */
+}
+
+body.dark-mode .card-inventario-item p,
+body.dark-mode .card-inventario-item span {
+    color: #b0b0b0 !important;
+}
+
+/* ── Dark Mode — ícones pixel e widgets ────────────────────────────────────── */
+body.dark-mode .img-pixel-icon {
+    filter: brightness(1.2);
+}
+
+body.dark-mode .w3-button:hover .img-pixel-icon {
+    filter: brightness(1.3) drop-shadow(0 0 4px rgba(255,255,255,0.2));
+}
+
+body.dark-mode .img-widget-hero {
+    filter: brightness(1.15);
+}

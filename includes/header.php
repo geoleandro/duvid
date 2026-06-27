@@ -12,9 +12,9 @@
                 AULAS <i class="fa fa-caret-down"></i>
             </button>
             <div id="aulas" class="w3-dropdown-content w3-bar-block w3-card-4 w3-light-grey">
-                <a href="/Duvid1Ano.php" class="w3-bar-item w3-button">1º ano</a>
-                <a href="/Duvid2Ano.php" class="w3-bar-item w3-button">2º ano</a>
-                <a href="/Duvid3Ano.php" class="w3-bar-item w3-button">3º ano</a>
+                <a href="/Duvid1Ano.php" class="w3-bar-item w3-button">NATUREZA</a>
+                <a href="/Duvid2Ano.php" class="w3-bar-item w3-button">BRASIL</a>
+                <a href="/Duvid3Ano.php" class="w3-bar-item w3-button">MUNDO</a>
             </div>
         </div>
 
@@ -120,9 +120,9 @@
             AULAS <i class="fa fa-caret-down"></i>
         </button>
         <div id="aulas-mobile" class="w3-dropdown-content w3-bar-block w3-white w3-card-4">
-            <a href="/Duvid1Ano.php" class="w3-bar-item w3-button w3-padding">1º ano</a>
-            <a href="/Duvid2Ano.php" class="w3-bar-item w3-button w3-padding">2º ano</a>
-            <a href="/Duvid3Ano.php" class="w3-bar-item w3-button w3-padding">3º ano</a>
+            <a href="/Duvid1Ano.php" class="w3-bar-item w3-button w3-padding">NATUREZA</a>
+            <a href="/Duvid2Ano.php" class="w3-bar-item w3-button w3-padding">BRASIL</a>
+            <a href="/Duvid3Ano.php" class="w3-bar-item w3-button w3-padding">MUNDO</a>
         </div>
     </div>
 

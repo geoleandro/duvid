@@ -36,7 +36,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         if ($admin && $admin['pin_hash'] && password_verify($senha, $admin['pin_hash'])) {
             // Login bem-sucedido
-            session_regenerate_id(true);
             $_SESSION['admin_logado']    = true;
             $_SESSION['admin_id']        = $admin['id'];
             $_SESSION['admin_nome']      = $admin['nome'];
@@ -47,7 +46,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $pdo->prepare("UPDATE alunos SET ultimo_acesso = NOW() WHERE id = :id")
                 ->execute([':id' => $admin['id']]);
 
-            $destino = filter_var($volta, FILTER_VALIDATE_URL) ? '/admin/index.php' : $volta;
+            // Força gravação da sessão antes do redirect (crítico em hospedagem compartilhada)
+            session_write_close();
+
+            $destino = '/admin/index.php';
             header('Location: ' . $destino);
             exit;
         } else {

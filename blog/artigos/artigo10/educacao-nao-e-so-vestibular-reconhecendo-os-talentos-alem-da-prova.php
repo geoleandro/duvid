@@ -1,0 +1,106 @@
+<?php
+$titulo    = "Educação não é só vestibular: reconhecendo os talentos além da prova";
+$descricao = "Quando pensamos em educação, é comum associarmos diretamente ao vestibular. É preciso reconhecer talentos que vão além das provas.";
+$imagem    = "/blog/artigos/artigo10/artigo10f01.jpg";
+$data      = "05 de junho de 2024";
+$autor     = "Leandro Henrique da Silva";
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?= htmlspecialchars($descricao) ?>">
+    <meta property="og:title"       content="<?= htmlspecialchars($titulo) ?> — Duvid Blog">
+    <meta property="og:description" content="<?= htmlspecialchars($descricao) ?>">
+    <meta property="og:image"       content="https://duvid.com.br<?= htmlspecialchars($imagem) ?>">
+    <meta property="og:type"        content="article">
+    <meta name="google-adsense-account" content="ca-pub-5408157966429216">
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/blog/blog-estilo.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="/blog/scripts-blog.js" defer></script>
+    <script src="/js/carregar.js"       defer></script>
+    <script src="/js/abrirmenu.js"      defer></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216" crossorigin="anonymous"></script>
+    <title><?= htmlspecialchars($titulo) ?> — Duvid Blog</title>
+</head>
+<body class="w3-light-grey">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v18.0"></script>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
+    <div class="w3-row w3-content" style="max-width:1600px; margin-top:20px;">
+        <div class="w3-col l8 s12">
+            <div class="w3-container artigo-texto w3-white w3-margin-bottom w3-padding-32">
+                <h2 class="w3-center">
+                    <strong id="artigo-titulo-principal"><?= htmlspecialchars($titulo) ?></strong>
+                </h2>
+                <div class="w3-margin w3-center">
+                    <img id="imagem-principal"
+                         src="<?= htmlspecialchars($imagem) ?>"
+                         alt="<?= htmlspecialchars($titulo) ?>"
+                         class="w3-mobile"
+                         style="width:100%; border-radius:8px; max-height:500px; object-fit:cover;">
+                </div>
+                <ul>
+                    <li class="w3-small sem-pontos">Por <span id="artigo-autor"><?= htmlspecialchars($autor) ?></span></li>
+                    <li class="w3-opacity w3-small sem-pontos" id="artigo-data"><?= htmlspecialchars($data) ?></li>
+                </ul>
+                <hr>
+                <div id="citacao-dinamica"></div>
+                <div class="corpo-artigo">
+
+                    <p>Quando pensamos em educação, é comum associarmos diretamente ao vestibular. No entanto, essa visão limitada não faz jus à verdadeira essência do ensino e aprendizado. A educação vai muito além de preparar jovens para uma prova. Ela deve ser uma ferramenta para desenvolver habilidades, despertar talentos e formar cidadãos sem medo e livres.</p>
+
+                    <p>Nas escolas, encontramos uma diversidade incrível de talentos que raramente são valorizados em um vestibular. Alunos talentosos em arte, música, esportes, liderança comunitária e muitas outras áreas frequentemente não encontram espaço para brilhar dentro do modelo tradicional de ensino. O vestibular, com seu foco estreito em determinadas matérias e habilidades, acaba negligenciando essas competências valiosas.</p>
+
+                    <p>O artigo 205 da Constituição Federal do Brasil estabelece que a educação é um direito de todos e tem como finalidade o pleno desenvolvimento da pessoa, seu preparo para o exercício da cidadania e sua qualificação para o trabalho. Essa definição amplia a visão de educação, destacando que seu papel vai muito além de preparar para uma prova.</p>
+
+                    <p>Os vestibulares surgiram como uma forma de selecionar estudantes para um número limitado de vagas nas universidades. No entanto, esse sistema de seleção muitas vezes atua como um mecanismo de exclusão. Com um número reduzido de vagas e uma alta competitividade, muitos estudantes talentosos e capazes são deixados de fora, simplesmente porque não se encaixam no perfil exigido por essas provas.</p>
+
+                    <p>Um dos problemas mais críticos do sistema de vestibulares é a desigualdade no acesso à educação superior. As universidades públicas, em muitos casos, são dominadas por alunos de alta renda, que tiveram acesso às melhores escolas e cursinhos preparatórios. Enquanto isso, estudantes de baixa renda, que enfrentam uma série de desafios adicionais, têm menos oportunidades de alcançar a ascensão social por meio da educação.</p>
+
+                    <p>Essa disparidade contraria o princípio de equidade que a educação deveria promover. A educação deveria ser um meio de igualar as oportunidades, não de reforçar as desigualdades sociais.</p>
+
+                    <p>Transformar a escola em um cursinho preparatório para o vestibular é uma abordagem equivocada e restritiva. Colocar alunos em outdoors como "medalhas" de aprovação não é sinônimo de qualidade de ensino. A verdadeira qualidade na educação está em formar indivíduos completos, críticos e preparados para enfrentar os desafios da vida.</p>
+
+                    <blockquote>
+                        <p><i>"A escola deve ser um espaço de descoberta, de incentivo ao pensamento criativo e ao desenvolvimento de múltiplas habilidades. Focar exclusivamente no vestibular desvirtua a função educativa, transformando o aprendizado em um processo mecânico e excludente."</i></p>
+                    </blockquote>
+
+                    <p>Para uma educação mais justa e inclusiva, é crucial valorizar diferentes formas de conhecimento e habilidades. As escolas devem incentivar e apoiar talentos diversos, desde a ciência e matemática até as artes e esportes.</p>
+
+                    <p>Devemos também repensar os métodos de avaliação e seleção para o ensino superior. Modelos alternativos, como a valorização do histórico escolar, projetos comunitários e avaliações mais abrangentes, podem oferecer uma visão mais completa do potencial dos estudantes.</p>
+
+                    <p>A educação não pode ser reduzida a um simples preparo para o vestibular. É preciso reconhecer e valorizar os talentos que florescem nas escolas e que não se encaixam nas provas tradicionais. A educação deve ser um meio de desenvolvimento integral do ser humano, proporcionando igualdade de oportunidades para todos.</p>
+
+                    <p>Devemos lutar por um sistema educacional que realmente cumpra o que está previsto no artigo 205 da Constituição: um ensino que promova o pleno desenvolvimento da pessoa, sua preparação para a cidadania e sua qualificação para o trabalho, em todas as suas formas e manifestações. Só assim, quem sabe, poderemos construir uma sociedade distinta da atual, inclusiva e verdadeiramente educada.</p>
+
+                </div>
+                <div id="icones-compartilhamento" class="w3-padding-16"></div>
+                <hr>
+                <div id="comentarios-fb"></div>
+            </div>
+        </div>
+        <div class="w3-col l4 s12">
+            <div id="tags-container"></div>
+            <div id="posts-recentes-container"></div>
+            <div id="leia-tambem-container"></div>
+            <div id="arquivo-blog-container"></div>
+        </div>
+    </div>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+</body>
+</html>

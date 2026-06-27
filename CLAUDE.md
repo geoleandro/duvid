@@ -64,6 +64,21 @@ Tem bolsista que ajuda com tarefas menores (conversão de HTMLs, catalogação).
 3. Features novas → terceiro
 4. Máximo 3 frentes ativas ao mesmo tempo
 
+## Dioramas (fundos panorâmicos)
+- Estilo: **pixel art de alta resolução**, estética retro game (tipo SNES/GBA avançado)
+- Dimensões: **2400×456px**, proporção ~5:1, exportar como **WebP ≤200KB**
+- Localização: `/fotoIndex/tileset/`
+- Injeção: automática via `jessica-walker.js` antes do `<footer>` (sem mexer no HTML)
+- Arquivos:
+  | Arquivo | Página | Status |
+  |---------|--------|--------|
+  | `fundo.webp` | home | ✅ pronto |
+  | `fundo-natureza.webp` | Duvid1Ano.php | ✅ pronto |
+  | `fundo-brasil.webp` | Duvid2Ano.php | 🔲 pendente |
+  | `fundo-mundo.webp` | Duvid3Ano.php | 🔲 pendente |
+- Tema dos dioramas: **geografia humana + física juntas** — contraste/conflito dentro da cena
+- Cards renomeados: 1º ANO → 🌿 Natureza | 2º ANO → 🇧🇷 Brasil | 3º ANO → 🌍 Mundo
+
 ## Notion
 Roadmap: https://app.notion.com/p/4773afa5a43947e2988d7bce25f6a2e6
 Status usados: Ideia | Próxima | Bolsista | Feito | Bloqueado
