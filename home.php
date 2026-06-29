@@ -282,6 +282,15 @@
                     </div>
 
                     <div class="w3-third w3-margin-bottom">
+                        <a href="paginas/bibliografia.php"
+                            class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
+                            <img src="fotoIndex/icones/projeto-icone.png" alt="Bibliografia"
+                                class="img-pixel-icon"><br>
+                            <span class="w3-large">Bibliografia</span>
+                        </a>
+                    </div>
+
+                    <div class="w3-third w3-margin-bottom">
                         <a href="atividades/atividades.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-yellow w3-padding-24 w3-round-large">
                             <img src="fotoIndex/icones/atividades-icone.gif" alt="Atividades"

@@ -61,17 +61,7 @@
                 <!-- Filtros de Categoria -->
                 <div class="w3-col l8 m12 s12">
                     <label class="w3-small w3-text-grey"><b>FILTRAR POR TEMA</b></label>
-                    <div class="w3-bar">
-                        <button
-                            class="w3-bar-item w3-button w3-border w3-round-medium w3-margin-right btn-filtro active"
-                            onclick="filtrar('Todos')">Todos</button>
-                        <button class="w3-bar-item w3-button w3-border w3-round-medium w3-margin-right btn-filtro"
-                            onclick="filtrar('Cartografia')">Cartografia</button>
-                        <button class="w3-bar-item w3-button w3-border w3-round-medium w3-margin-right btn-filtro"
-                            onclick="filtrar('Física')">Física</button>
-                        <button class="w3-bar-item w3-button w3-border w3-round-medium w3-margin-right btn-filtro"
-                            onclick="filtrar('Geopolítica')">Geopolítica</button>
-                    </div>
+                    <div id="botoes-filtro-atv" style="display:flex; flex-wrap:wrap; margin-top:6px;"></div>
                 </div>
             </div>
         </div>
