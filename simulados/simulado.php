@@ -10,7 +10,12 @@
 // ── Parâmetros e detecção de fase ────────────────────────────────────
 $prova = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['prova'] ?? '');
 $qtd   = max(0, (int)($_GET['qtd'] ?? 0));
+$dif   = in_array($_GET['dif'] ?? '', ['facil','media','dificil']) ? $_GET['dif'] : '';
 $fase  = ($prova !== '') ? 2 : 1;
+
+// Tags: lista de temas filtrados (validação básica: só letras/números/espaço/hífen/barra)
+$tagsRaw = array_filter(array_map('trim', explode(',', $_GET['tags'] ?? '')));
+$tags    = array_values(array_filter($tagsRaw, fn($t) => preg_match('/^[\p{L}0-9 _\-\/]+$/u', $t)));
 
 $erroArquivo = false;
 
@@ -28,21 +33,48 @@ if ($fase === 2) {
 $provas = [];
 if ($fase === 1) {
     $bancosDir = __DIR__ . '/bancos';
-    $arquivos  = glob($bancosDir . '/*.json') ?: [];
+    $todosFile = $bancosDir . '/simulados-todos.json';
+
+    // Coleta bancos individuais (exclui o arquivo mesclado)
+    $arquivos = array_filter(
+        glob($bancosDir . '/*.json') ?: [],
+        fn($f) => basename($f) !== 'simulados-todos.json'
+    );
+
+    // ── Auto-gera simulados-todos.json se algum banco for mais novo ──
+    $precisaGerar = !file_exists($todosFile);
+    if (!$precisaGerar) {
+        $todosTime = filemtime($todosFile);
+        foreach ($arquivos as $f) {
+            if (filemtime($f) > $todosTime) { $precisaGerar = true; break; }
+        }
+    }
+    if ($precisaGerar) {
+        $todos = [];
+        foreach ($arquivos as $f) {
+            $banco = basename($f, '.json');
+            $data  = json_decode(file_get_contents($f), true) ?: [];
+            foreach ($data as $q) {
+                $q['_banco'] = $banco; // ex: "fuvest2026-geografia"
+                $todos[] = $q;
+            }
+        }
+        file_put_contents($todosFile, json_encode($todos, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
+    }
+
+    // Monta lista de provas por vestibular
     foreach ($arquivos as $f) {
         $nome = basename($f, '.json');
-        // Formato esperado: {vestibular}{ano}-geografia  (ex: enem2024-geografia)
         if (preg_match('/^([a-z]+)(\d{4})/', $nome, $m)) {
             $vest = strtoupper($m[1]);
             $provas[$vest][] = ['ano' => $m[2], 'arquivo' => $nome];
         }
     }
-    // Anos mais recentes primeiro
     foreach ($provas as &$anos) {
         usort($anos, fn($a, $b) => $b['ano'] <=> $a['ano']);
     }
     unset($anos);
-    ksort($provas); // Vestibulares em ordem alfabética
+    ksort($provas);
 }
 
 // Opções de quantidade disponíveis
@@ -56,9 +88,14 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php if ($fase === 2):
         // Extrai vestibular/ano do nome do arquivo para o <title>
-        preg_match('/^([a-zA-Z]+)(\d{4})/', $prova, $m2);
-        $tituloVest = isset($m2[1]) ? strtoupper($m2[1]) : 'Simulado';
-        $tituloAno  = $m2[2] ?? '';
+        if ($prova === 'simulados-todos') {
+            $tituloVest = '🌍 Todos os vestibulares';
+            $tituloAno  = '';
+        } else {
+            preg_match('/^([a-zA-Z]+)(\d{4})/', $prova, $m2);
+            $tituloVest = isset($m2[1]) ? strtoupper($m2[1]) : 'Simulado';
+            $tituloAno  = $m2[2] ?? '';
+        }
     ?>
     <title>Simulado <?= htmlspecialchars($tituloVest . ' ' . $tituloAno) ?> — Duvid Geografia</title>
     <meta name="description" content="Simulado de Geografia <?= htmlspecialchars($tituloVest . ' ' . $tituloAno) ?> com questões comentadas e feedback por alternativa.">
@@ -90,7 +127,7 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
     <script src="/js/duvid-core.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/jsquestoes-padrao.js" defer></script>
-    <script src="/js/jssimulado-padrao.js" defer></script>
+    <script src="/js/jssimulado-padrao.js?v=<?= filemtime($_SERVER['DOCUMENT_ROOT'].'/js/jssimulado-padrao.js') ?>" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/abrirmenu.js" defer></script>
 
@@ -157,7 +194,7 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
         .btn-iniciar:active  { transform: scale(.98); }
         .btn-iniciar:disabled { background: #aaa; cursor: not-allowed; }
 
-        /* Badge de qtd selecionada no cabeçalho da Fase 2 */
+        /* Badges no cabeçalho da Fase 2 */
         .badge-qtd {
             display: inline-block;
             background: #e8f5e9;
@@ -166,9 +203,12 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
             padding: 2px 12px;
             font-size: .8rem;
             font-weight: 700;
-            margin-left: 8px;
+            margin-left: 4px;
             vertical-align: middle;
         }
+        .badge-dif-facil   { background: #e8f5e9; color: #2e7d32; }
+        .badge-dif-media   { background: #fff8e1; color: #f57f17; }
+        .badge-dif-dificil { background: #fce4ec; color: #b71c1c; }
 
         /* ── Fase 2: Motor (copiado de modelo-simulado.html) ──── */
         .w3-large, .w3-panel p { white-space: pre-line; }
@@ -213,7 +253,23 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
         body.dark-mode .sel-btn        { border-color: #444; color: #ddd; }
         body.dark-mode .sel-btn:hover  { border-color: #66BB6A; color: #66BB6A; }
         body.dark-mode .sel-btn.ativo  { border-color: #66BB6A; background: #2e7d32; color: #fff; }
-        body.dark-mode .badge-qtd      { background: #1b5e20; color: #a5d6a7; }
+        body.dark-mode .badge-qtd          { background: #1b5e20; color: #a5d6a7; }
+        body.dark-mode .badge-dif-facil   { background: #1b5e20; color: #a5d6a7; }
+        body.dark-mode .badge-dif-media   { background: #4a3000; color: #ffe082; }
+        body.dark-mode .badge-dif-dificil { background: #4a0010; color: #f48fb1; }
+
+        /* Tags / Temas */
+        .sel-btn-tag.ativo   { border-color: #1976d2; background: #1976d2; color: #fff; }
+        .sel-btn-tag:hover   { border-color: #1976d2; color: #1976d2; }
+        .badge-tags { background: #e3f2fd; color: #1565c0; }
+        #card-temas { display: none; }
+        body.dark-mode .sel-btn-tag.ativo { border-color: #42a5f5; background: #1565c0; color: #fff; }
+        body.dark-mode .badge-tags        { background: #0d2a4e; color: #90caf9; }
+        body.dark-mode #busca-temas       { border-color: #444; color: #ddd; }
+        body.dark-mode #busca-temas::placeholder { color: #888; }
+        body.dark-mode #sugestoes-temas   { background: #1e1e1e; border-color: #444; }
+        body.dark-mode #sugestoes-temas div { border-bottom-color: #333; color: #ddd; }
+        body.dark-mode #sugestoes-temas div:hover { background: #2a2a2a !important; }
     </style>
 </head>
 
@@ -267,6 +323,12 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
             <div class="sel-card">
                 <span class="sel-label"><i class="fa fa-university"></i> Vestibular</span>
                 <div class="sel-group" id="grupo-vest">
+                    <button type="button"
+                            class="sel-btn"
+                            data-vest="__todos__"
+                            onclick="selecionarVestibular(this)">
+                        🌍 Todos
+                    </button>
                     <?php foreach (array_keys($provas) as $vest): ?>
                     <button type="button"
                             class="sel-btn"
@@ -278,8 +340,8 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
                 </div>
             </div>
 
-            <!-- 2. Ano (preenchido via JS após escolher vestibular) -->
-            <div class="sel-card">
+            <!-- 2. Ano (oculto quando "Todos" selecionado) -->
+            <div class="sel-card" id="card-ano">
                 <span class="sel-label"><i class="fa fa-calendar"></i> Ano</span>
                 <div class="sel-group" id="grupo-ano">
                     <p class="w3-text-grey w3-small" id="hint-ano">
@@ -288,7 +350,39 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
                 </div>
             </div>
 
-            <!-- 3. Quantidade -->
+            <!-- 3. Dificuldade -->
+            <div class="sel-card">
+                <span class="sel-label"><i class="fa fa-signal"></i> Dificuldade</span>
+                <div class="sel-group" id="grupo-dif">
+                    <button type="button" class="sel-btn ativo" data-dif=""       onclick="selecionarDif(this)">Todas</button>
+                    <button type="button" class="sel-btn"       data-dif="facil"  onclick="selecionarDif(this)">🟢 Fácil</button>
+                    <button type="button" class="sel-btn"       data-dif="media"  onclick="selecionarDif(this)">🟡 Médio</button>
+                    <button type="button" class="sel-btn"       data-dif="dificil" onclick="selecionarDif(this)">🔴 Difícil</button>
+                </div>
+            </div>
+
+            <!-- 3.5. Temas (busca por texto, populado via JS) -->
+            <div class="sel-card" id="card-temas">
+                <span class="sel-label">
+                    <i class="fa fa-tags"></i> Temas
+                    <span style="font-weight:400;text-transform:none;font-size:.8rem;color:#999;margin-left:4px">(opcional)</span>
+                </span>
+                <!-- chips dos temas já selecionados -->
+                <div id="chips-temas" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px"></div>
+                <!-- campo de busca -->
+                <input type="text" id="busca-temas"
+                       placeholder="🔍 Buscar tema…"
+                       autocomplete="off"
+                       style="width:100%;padding:9px 12px;border:2px solid #ccc;border-radius:10px;
+                              font-size:.95rem;background:transparent;color:inherit;box-sizing:border-box"
+                       oninput="filtrarTemas(this.value)">
+                <!-- dropdown de sugestões -->
+                <div id="sugestoes-temas"
+                     style="display:none;border:2px solid #ccc;border-top:none;border-radius:0 0 10px 10px;
+                            max-height:220px;overflow-y:auto;background:var(--bg-card,#fff)"></div>
+            </div>
+
+            <!-- 4. Quantidade -->
             <div class="sel-card">
                 <span class="sel-label"><i class="fa fa-list-ol"></i> Quantidade de questões</span>
                 <div class="sel-group" id="grupo-qtd">
@@ -317,20 +411,47 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
 
     let vestSelecionado  = null;
     let anoSelecionado   = null;
-    let qtdSelecionada   = 10; // padrão
+    let _simuladosFeitos = {}; // mapa "VEST_ANO" → { melhor_acerto, total, tentativas }
+
+    // Carrega histórico do aluno (silencioso se não logado)
+    (async function() {
+        try {
+            const r = await fetch('/api/respostas-simulado.php');
+            if (r.ok) {
+                const d = await r.json();
+                _simuladosFeitos = d.feitos || {};
+                // Re-renderiza os botões se já tiver um vestibular selecionado
+                if (vestSelecionado && vestSelecionado !== '__todos__') renderizarAnos();
+            }
+        } catch(e) { /* silencioso */ }
+    })();
+    let qtdSelecionada   = 10;  // padrão
+    let difSelecionada   = '';  // '' = todas
+    let tagsSelecionadas = [];  // multi-select de temas
 
     function selecionarVestibular(btn) {
         document.querySelectorAll('#grupo-vest .sel-btn').forEach(b => b.classList.remove('ativo'));
         btn.classList.add('ativo');
         vestSelecionado = btn.dataset.vest;
         anoSelecionado  = null;
-        renderizarAnos();
-        atualizarBotao();
+
+        const cardAno = document.getElementById('card-ano');
+
+        if (vestSelecionado === '__todos__') {
+            // Modo "todos os vestibulares": pula seleção de ano
+            cardAno.style.display = 'none';
+            anoSelecionado = 'simulados-todos';
+            carregarTags('simulados-todos');
+            atualizarBotao();
+        } else {
+            cardAno.style.display = 'block';
+            renderizarAnos();
+            atualizarBotao();
+        }
     }
 
     function renderizarAnos() {
         const grupo = document.getElementById('grupo-ano');
-        const hint  = document.getElementById('hint-ano');
 
         if (!vestSelecionado || !PROVAS_DISPONIVEIS[vestSelecionado]) {
             grupo.innerHTML = '<p class="w3-text-grey w3-small" id="hint-ano">Selecione um vestibular primeiro.</p>';
@@ -338,15 +459,21 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
         }
 
         const anos = PROVAS_DISPONIVEIS[vestSelecionado];
-        grupo.innerHTML = anos.map(p => `
-            <button type="button"
+        grupo.innerHTML = anos.map(p => {
+            const chave = vestSelecionado.toUpperCase() + '_' + p.ano;
+            const feito = _simuladosFeitos[chave];
+            const checkHtml = feito
+                ? `<span title="Você já fez · melhor: ${feito.melhor_acerto}/${feito.total}"
+                         style="margin-left:5px;font-size:.85em">✅</span>`
+                : '';
+            return `<button type="button"
                     class="sel-btn"
                     data-arquivo="${p.arquivo}"
                     data-ano="${p.ano}"
                     onclick="selecionarAno(this)">
-                ${p.ano}
-            </button>
-        `).join('');
+                ${p.ano}${checkHtml}
+            </button>`;
+        }).join('');
 
         // Auto-seleciona o ano mais recente
         const primeiro = grupo.querySelector('.sel-btn');
@@ -357,7 +484,85 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
         document.querySelectorAll('#grupo-ano .sel-btn').forEach(b => b.classList.remove('ativo'));
         btn.classList.add('ativo');
         anoSelecionado = btn.dataset.arquivo;
+        carregarTags(anoSelecionado);
         atualizarBotao();
+    }
+
+    let _todasTags = []; // cache das tags do banco atual
+
+    async function carregarTags(arquivo) {
+        const card = document.getElementById('card-temas');
+        tagsSelecionadas = [];
+        _todasTags = [];
+        document.getElementById('chips-temas').innerHTML = '';
+        document.getElementById('busca-temas').value = '';
+        document.getElementById('sugestoes-temas').style.display = 'none';
+        card.style.display = 'none';
+
+        try {
+            const res  = await fetch(`/simulados/bancos/${arquivo}.json`);
+            const data = await res.json();
+            const set  = new Set();
+            data.forEach(q => (q.tags || []).forEach(t => set.add(t)));
+            _todasTags = [...set].sort((a, b) => a.localeCompare(b, 'pt'));
+            if (_todasTags.length > 0) card.style.display = 'block';
+        } catch(e) { /* silencioso */ }
+    }
+
+    function filtrarTemas(valor) {
+        const sug = document.getElementById('sugestoes-temas');
+        const q   = valor.trim().toLowerCase();
+        if (!q) { sug.style.display = 'none'; return; }
+
+        const matches = _todasTags.filter(t =>
+            t.toLowerCase().includes(q) && !tagsSelecionadas.includes(t)
+        );
+
+        if (matches.length === 0) { sug.style.display = 'none'; return; }
+
+        sug.innerHTML = matches.map(t => `
+            <div onclick="adicionarTag('${t.replace(/'/g,"\\'")}'); document.getElementById('busca-temas').value=''; filtrarTemas('');"
+                 style="padding:9px 14px;cursor:pointer;border-bottom:1px solid #eee;font-size:.95rem"
+                 onmouseover="this.style.background='#f0f0f0'" onmouseout="this.style.background=''">
+                ${t}
+            </div>`).join('');
+        sug.style.display = 'block';
+    }
+
+    function adicionarTag(tag) {
+        if (tagsSelecionadas.includes(tag)) return;
+        tagsSelecionadas.push(tag);
+        renderizarChips();
+        document.getElementById('sugestoes-temas').style.display = 'none';
+    }
+
+    function removerTag(tag) {
+        tagsSelecionadas = tagsSelecionadas.filter(t => t !== tag);
+        renderizarChips();
+    }
+
+    function renderizarChips() {
+        const chips = document.getElementById('chips-temas');
+        chips.innerHTML = tagsSelecionadas.map(t => `
+            <span style="display:inline-flex;align-items:center;gap:5px;
+                         background:#1976d2;color:#fff;border-radius:20px;
+                         padding:4px 10px;font-size:.82rem;font-weight:600">
+                ${t}
+                <span onclick="removerTag('${t.replace(/'/g,"\\'")}');return false;"
+                      style="cursor:pointer;font-size:1rem;line-height:1">&times;</span>
+            </span>`).join('');
+    }
+
+    // Fechar sugestões ao clicar fora
+    document.addEventListener('click', e => {
+        if (!e.target.closest('#card-temas'))
+            document.getElementById('sugestoes-temas').style.display = 'none';
+    });
+
+    function selecionarDif(btn) {
+        document.querySelectorAll('#grupo-dif .sel-btn').forEach(b => b.classList.remove('ativo'));
+        btn.classList.add('ativo');
+        difSelecionada = btn.dataset.dif;
     }
 
     function selecionarQtd(btn) {
@@ -374,8 +579,10 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
     function iniciarSimulado(e) {
         e.preventDefault();
         if (!anoSelecionado) return;
-        const qtdParam = qtdSelecionada > 0 ? `&qtd=${qtdSelecionada}` : '';
-        window.location.href = `/simulados/simulado.php?prova=${encodeURIComponent(anoSelecionado)}${qtdParam}`;
+        const qtdParam  = qtdSelecionada > 0          ? `&qtd=${qtdSelecionada}` : '';
+        const difParam  = difSelecionada               ? `&dif=${encodeURIComponent(difSelecionada)}` : '';
+        const tagsParam = tagsSelecionadas.length > 0  ? `&tags=${encodeURIComponent(tagsSelecionadas.join(','))}` : '';
+        window.location.href = `/simulados/simulado.php?prova=${encodeURIComponent(anoSelecionado)}${qtdParam}${difParam}${tagsParam}`;
     }
     </script>
 
@@ -400,6 +607,13 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
             <?php if ($qtd > 0): ?>
             <span class="badge-qtd"><?= $qtd ?> questões</span>
             <?php endif; ?>
+            <?php if ($dif !== ''): ?>
+            <?php $difLabel = ['facil'=>'🟢 Fácil','media'=>'🟡 Médio','dificil'=>'🔴 Difícil']; ?>
+            <span class="badge-qtd badge-dif-<?= $dif ?>"><?= $difLabel[$dif] ?></span>
+            <?php endif; ?>
+            <?php foreach ($tags as $tag): ?>
+            <span class="badge-qtd badge-tags">#<?= htmlspecialchars($tag) ?></span>
+            <?php endforeach; ?>
         </div>
 
         <!-- Barra de progresso -->

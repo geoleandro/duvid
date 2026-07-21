@@ -21,7 +21,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O fundamento histórico da referência 'ao passado' no texto é a corrida armamentista da Guerra Fria: a rivalidade nuclear entre EUA e URSS, com a acumulação de ogivas atômicas e sistemas de defesa antimísseis. A crise na Ucrânia reacendeu esse padrão de competição bélica que o fim da Guerra Fria parecia ter superado.</p>",
-    "ajuda": "A questão pede o tema da geopolítica da segunda metade do século XX que fundamenta a referência histórica do texto. A Guerra Fria foi marcada por corrida armamentista, espionagem e confronto ideológico. Identifique qual desses temas é o fundamento histórico mencionado."
+    "ajuda": "A questão pede o tema da geopolítica da segunda metade do século XX que fundamenta a referência histórica do texto. A Guerra Fria foi marcada por corrida armamentista, espionagem e confronto ideológico. Identifique qual desses temas é o fundamento histórico mencionado.",
+    "feedbacks": {
+      "0": "O livre comercio era uma bandeira do capitalismo ocidental, enquanto a URSS operava com economia planificada e nao participava do sistema de comercio livre. Nao havia competicao bilateral em 'livre comercio' entre as duas superpotencias; a rivalidade se dava em outras dimensoes.",
+      "1": "A luta antiditatorial nao caracterizou a competicao EUA-URSS; tanto os EUA quanto a URSS apoiaram ditaduras que fossem convenientes a seus interesses geopoliticos. Os EUA apoiaram regimes autoritarios na America Latina e no Oriente Medio, enquanto a URSS sustentou ditaduras no Leste Europeu.",
+      "3": "Durante a Guerra Fria, ambas as superpotencias priorizaram o desenvolvimento industrial e militar em detrimento da conservacao ambiental. Os danos ambientais causados pelo complexo militar-industrial e pela industrializacao pesada foram enormes em ambos os lados da cortina de ferro.",
+      "4": "O terrorismo internacional como categoria geopolitica central surgiu como preocupacao dominante apos a Guerra Fria, especialmente apos o 11 de Setembro (2001). Durante a propria Guerra Fria, a rivalidade central era ideologica, militar e espacial, nao organizada em torno do terrorismo internacional."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A construção da Ponte do Estreito de Kerch (2018), ligando a Rússia à Crimeia, é um ato de integração territorial que simboliza a consolidação da anexação de 2014. A Crimeia foi incorporada à Rússia após referendo contestado internacionalmente, e a ponte materializa fisicamente essa incorporação.</p>",
-    "ajuda": "A Crimeia foi anexada pela Rússia em 2014, após um referendo contestado internacionalmente. A construção de uma ponte ligando a Rússia à Crimeia é um símbolo dessa incorporação territorial. Pense em qual processo político-territorial a ponte representa."
+    "ajuda": "A Crimeia foi anexada pela Rússia em 2014, após um referendo contestado internacionalmente. A construção de uma ponte ligando a Rússia à Crimeia é um símbolo dessa incorporação territorial. Pense em qual processo político-territorial a ponte representa.",
+    "feedbacks": {
+      "0": "A homogeneizacao politica nao descreve adequadamente o objetivo central da politica externa russa em relacao ao espaco pos-sovietico. A Russia busca principalmente reafirmar sua influencia geopolitica e reintegrar territorios de interesse estrategico, e nao padronizar os sistemas politicos dos paises vizinhos.",
+      "1": "A modernizacao financeira do espaco pos-sovietico nao e o objetivo central da politica externa russa. A Russia busca restaurar sua influencia no chamado 'estrangeiro proximo' (proximo zarubezhe), com enfase na dimensao territorial e geopolitica, especialmente apos a anexacao da Crimeia.",
+      "2": "A centralizacao cultural, embora historicamente tenha sido uma politica russa de russificacao, nao descreve adequadamente o objetivo principal da politica externa contemporanea da Russia. O foco atual e recuperar territorios e esferas de influencia perdidos com a dissolucao da URSS."
+    }
   },
   {
     "id": 3,
@@ -72,7 +83,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A análise correta do texto é a B: além do cristianismo ortodoxo dominante, a Rússia tem minorias religiosas significativas, incluindo muçulmanos (chechenos, tártaros, bashkires) e judeus. Com mais de 180 etnias reconhecidas, a Rússia é um dos países mais multiétnicos do mundo — apesar do domínio russo.</p>",
-    "ajuda": "A Rússia é um país de enorme diversidade étnica, com mais de 100 grupos étnicos, mas com predomínio russo (cerca de 80%). A questão pede uma conclusão sobre essa diversidade. Pense em qual afirmativa a análise do texto permite confirmar sobre a composição étnica russa."
+    "ajuda": "A Rússia é um país de enorme diversidade étnica, com mais de 100 grupos étnicos, mas com predomínio russo (cerca de 80%). A questão pede uma conclusão sobre essa diversidade. Pense em qual afirmativa a análise do texto permite confirmar sobre a composição étnica russa.",
+    "feedbacks": {
+      "0": "A Russia tem mais de 190 grupos etnicos reconhecidos oficialmente, incluindo tatares, basquires, chechenos, dagestaneses, mordvinos e muitos outros. Afirmar que 82% da populacao tem 'origem russa unica' e que o pais e homogeneo e historicamente incorreto; a diversidade etnica e caracteristica fundamental do Estado russo.",
+      "2": "O vazio demografico da Siberia nao se deve principalmente a ausencia de meios de comunicacao. As causas principais sao o clima extremamente rigoroso (invernos com temperaturas que chegam a -60 graus em algumas regioes), as enormes distancias, o solo frequentemente congelado (permafrost) e a historia de colonizacao tardia.",
+      "3": "A diversidade etnica e uma das principais fontes de tensao politica na Russia. Conflitos como as duas guerras na Chechenia (1994-1996 e 1999-2009) e os conflitos no Daguestao e em outras republicas do Caucaso demonstram claramente que a questao etnica gera instabilidade politica significativa.",
+      "4": "Nao ha relacao causal entre clima frio e ateismo. O ateismo predominante em parte da populacao russa deriva da politica oficial da URSS, que promoveu o materialismo dialético e suprimiu a religiao por setenta anos. Climas frios nao determinam a orientacao religiosa dos povos."
+    }
   },
   {
     "id": 4,
@@ -97,7 +114,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A alternativa correta sobre a relação entre transporte e agricultura na Rússia é a C: o Rio Volga é o principal eixo de transporte fluvial russo, conectando a região central ao Mar Cáspio e permitindo o escoamento da produção agrícola. O desenvolvimento de canais e ferrovias complementa essa rede hidroviária.</p>",
-    "ajuda": "A Rússia é um grande produtor e exportador de grãos. A Sibéria, apesar do clima rigoroso, tem extensas planícies agricultáveis. Pense em qual alternativa descreve corretamente as condições naturais que possibilitam ou limitam a produção agrícola russa."
+    "ajuda": "A Rússia é um grande produtor e exportador de grãos. A Sibéria, apesar do clima rigoroso, tem extensas planícies agricultáveis. Pense em qual alternativa descreve corretamente as condições naturais que possibilitam ou limitam a produção agrícola russa.",
+    "feedbacks": {
+      "0": "O tchernoziom (solo negro) e encontrado principalmente na planicie russa europeia (sul da Russia e Ucrania), e nao na Siberia. Alem disso, a influencia de mares sobre solos continentais localizados no interior da Eurasia e praticamente nula; o Tchernoziom nao sofre com influencia de mare.",
+      "1": "Embora os invernos russos sejam de fato muito rigorosos, nao e correto afirmar que as temperaturas ficam 'sempre abaixo de zero' durante todo o inverno em toda a Russia. Cidades como Moscou e Sao Petersburgo registram temperaturas acima de zero em alguns dias de inverno; a afirmacao e uma generalizacao excessiva.",
+      "3": "A tundra tem solo permanentemente congelado (permafrost), que impede o desenvolvimento de raizes profundas e a pratica da agricultura convencional. E exatamente o contrario do que a alternativa afirma: a tundra e uma das regioes mais inospitas para a producao agricola no planeta."
+    }
   },
   {
     "id": 5,
@@ -121,7 +143,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A Ferrovia Transiberiana percorre de oeste para leste: Planície Russa (ocidental) → Montes Urais (divisória Europa-Ásia) → Planalto Central Siberiano → Planalto de Aldan (extremo leste). Com 9.289 km, é a ferrovia mais longa do mundo e permite integrar a Sibéria ao restante da Rússia.</p>",
-    "ajuda": "A Ferrovia Transiberiana atravessa a Rússia de oeste a leste, passando por diferentes unidades de relevo. A sequência correta é: Planície Russa → Montes Urais (divisor Europa-Ásia) → Planície Siberiana → Planalto Central Siberiano → extremo leste."
+    "ajuda": "A Ferrovia Transiberiana atravessa a Rússia de oeste a leste, passando por diferentes unidades de relevo. A sequência correta é: Planície Russa → Montes Urais (divisor Europa-Ásia) → Planície Siberiana → Planalto Central Siberiano → extremo leste.",
+    "feedbacks": {
+      "0": "O Planalto da Anatolia esta localizado na Turquia (Asia Menor), nao no territorio russo. Sua inclusao na lista de unidades de relevo da Russia torna esta alternativa geograficamente incorreta; a Anatolia nunca foi territorio russo.",
+      "1": "O Planalto do Deca (ou Decao) esta localizado no sul da India, no subcontinente indiano. Nao ha nenhuma relacao geografica entre o Planalto do Deca e o territorio da Russia; sua inclusao na lista demonstra confusao entre diferentes regioes geograficas do mundo.",
+      "2": "O 'Planalto dos Balcas' nao e uma unidade de relevo do territorio russo. Os Balcas sao uma regiao da Europa do Sudeste (Bulgaria, Serbia, Bosnia, Croacia, etc.) e nao tem relacao com a geografia fisica da Russia; a alternativa confunde duas regioes distintas."
+    }
   },
   {
     "id": 6,
@@ -146,7 +173,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As afirmativas I, II e III são corretas: a Rússia é potência nuclear e detém as maiores reservas de recursos minerais do mundo; tem invernos extremos, especialmente na Sibéria; e integra os BRICS desde 2006. A afirmativa IV é incorreta: a Rússia fortaleceu sua aliança com a China após as sanções ocidentais.</p>",
-    "ajuda": "Com o fim da URSS, a Rússia perdeu território, população e influência, mas manteve poder nuclear e recursos naturais. Pense em quais afirmativas descrevem corretamente as transformações geopolíticas e econômicas da Rússia no período pós-soviético."
+    "ajuda": "Com o fim da URSS, a Rússia perdeu território, população e influência, mas manteve poder nuclear e recursos naturais. Pense em quais afirmativas descrevem corretamente as transformações geopolíticas e econômicas da Rússia no período pós-soviético.",
+    "feedbacks": {
+      "0": "A exclusao da proposicao III torna a resposta incompleta; III e uma das afirmacoes corretas sobre o tema. A resposta correta inclui I, II e III, e nao apenas I e II.",
+      "1": "A proposicao IV e incorreta; inclui-la invalida esta alternativa. Alem disso, a exclusao de I e II, que sao corretas, torna o conjunto totalmente equivocado em relacao ao tema abordado.",
+      "3": "A proposicao IV e incorreta e sua inclusao invalida a resposta. A proposicao I e correta e sua exclusao torna o conjunto incompleto. Apenas I, II e III descrevem corretamente o tema da questao.",
+      "4": "A proposicao IV e incorreta; incluir I, II, III e IV significa admitir uma afirmacao falsa na resposta. Apenas as tres primeiras proposicoes sao corretas sobre o tema abordado."
+    }
   },
   {
     "id": 7,
@@ -169,7 +202,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As afirmativas I, II e V estão corretas: a Rússia é um dos países mais ricos em recursos minerais; é um dos maiores exportadores de gás natural; e tem importantes usinas hidrelétricas no Volga e na Sibéria. A afirmativa III é parcialmente incorreta (os minerais são nos Urais, não apenas em bacias sedimentares).</p>",
-    "ajuda": "A Rússia é um dos países mais ricos em recursos naturais do mundo: petróleo, gás natural, madeira, minerais e água doce. Avalie as afirmativas sobre a distribuição e a importância desses recursos para a economia e a geopolítica russa."
+    "ajuda": "A Rússia é um dos países mais ricos em recursos naturais do mundo: petróleo, gás natural, madeira, minerais e água doce. Avalie as afirmativas sobre a distribuição e a importância desses recursos para a economia e a geopolítica russa.",
+    "feedbacks": {
+      "0": "A exclusao da proposicao IV, que e correta, torna a resposta incompleta. A resposta correta inclui I, II E IV; incluir apenas I e II deixa de fora uma afirmacao verdadeira sobre o tema.",
+      "1": "A proposicao III e incorreta; inclui-la invalida esta alternativa. Alem disso, a exclusao de I e IV, que sao corretas, torna o conjunto ainda mais impreciso em relacao ao tema abordado.",
+      "2": "A proposicao III e incorreta e sua inclusao invalida a resposta. A exclusao de I e II, que sao corretas, torna o conjunto ainda mais distante da resposta correta. Apenas I, II e IV sao afirmacoes verdadeiras.",
+      "3": "A proposicao III e incorreta; inclui-la junto com I e II resulta em conjunto com afirmacao falsa. A resposta correta e I, II e IV; a proposicao IV e verdadeira e deve constar na resposta."
+    }
   },
   {
     "id": 8,
@@ -193,7 +232,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa correta é a D: a Rússia é o maior país do mundo em extensão territorial (17 milhões de km²) e um dos países com maior diversidade étnica, mantendo-se como o principal centro de poder político e militar da região euroasiática após a dissolução da URSS.</p>",
-    "ajuda": "A Rússia herdou da URSS um vasto território e arsenal nuclear, mas sua economia passou por uma grave crise nos anos 1990. Pense em qual afirmativa descreve corretamente a situação da Rússia contemporânea em relação ao seu legado soviético."
+    "ajuda": "A Rússia herdou da URSS um vasto território e arsenal nuclear, mas sua economia passou por uma grave crise nos anos 1990. Pense em qual afirmativa descreve corretamente a situação da Rússia contemporânea em relação ao seu legado soviético.",
+    "feedbacks": {
+      "0": "A migracao entre a Russia e as republicas da Asia Central (cazaques, uzbequess, tadjiques) gera tensoes expressivas, incluindo discriminacao racial e ataques xenfobos contra os migrantes. Afirmar que esse processo e 'considerado positivo para ambos os lados' e uma simplificacao que ignora as tensoes sociais documentadas.",
+      "1": "Embora o complexo militar-industrial russo ainda seja importante, a Russia diversificou sua economia especialmente pelo setor energetico (gas e petroleo), metalurgico e alimentar. Afirmar que 'grande parte' continua voltada apenas a armamentos descreve mais a realidade sovietica do que a russa contemporanea.",
+      "2": "A unidade territorial russa nao e mantida primariamente por melhorias socioeconomicas; regioes como a Chechenia foram pacificadas pelo uso intenso da forca militar. As condicoes de vida nas republicas caucasianas permanecem aquem das regioes mais desenvolvidas da Russia."
+    }
   },
   {
     "id": 9,
@@ -218,31 +262,46 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa D descreve corretamente a trajetória da Rússia: de força política (comunismo revolucionário) a força militar (Exército Vermelho) e depois a força econômica (petróleo e gás). O texto de Timothy Garton Ash resume em três décadas as transformações do poder russo.</p>",
-    "ajuda": "A trajetória da Rússia no sistema internacional foi marcada por altos e baixos: superpotência na Guerra Fria, colapso nos anos 1990 e tentativa de recuperação no século XXI. Identifique qual afirmativa melhor descreve essa trajetória com base no texto."
+    "ajuda": "A trajetória da Rússia no sistema internacional foi marcada por altos e baixos: superpotência na Guerra Fria, colapso nos anos 1990 e tentativa de recuperação no século XXI. Identifique qual afirmativa melhor descreve essa trajetória com base no texto.",
+    "feedbacks": {
+      "0": "A Russia NAO manteve inalterada sua posicao de grande potencia ao longo de todo o periodo. Nos anos 1990, apos a dissolucao da URSS, a Russia viveu uma das maiores crises economicas e politicas de sua historia, com queda brutal do PIB, hiperinflacao e perda de influencia geopolitica.",
+      "1": "O papel de 'pais lider da Europa' nao descreve adequadamente a posicao da Russia. A Russia e uma potencia euroasiatica com influencia global, mas nas instituicoes europeias, como a UE e a OTAN, sao a Alemanha e a Franca que exercem maior lideranca; a Russia e frequentemente percebida como adversaria da Europa Ocidental.",
+      "2": "A trajetoria russa nao se explica apenas pelas 'conjunturas externas'. Fatores internos foram determinantes: a dissolucao da URSS, a transicao caotica para o capitalismo nos anos 1990, a centralizacao politica sob Putin e a dependencia do petroleo sao causas internas que moldaram os altos e baixos russos.",
+      "4": "A Russia NAO conservou 'sempre' sua preeminencia. Nos anos 1990 (era Yeltsin), a Russia atravessou crise economica gravissima, com PIB caindo mais de 40%, hiperinflacao, colapso do estado e perda de influencia internacional. A ideia de preeminencia continua contradiz a realidade historica desse periodo."
+    }
   },
   {
     "id": 10,
-    "instituicao": "PUC-MG",
-    "ano": "2001",
-    "dificuldade": "media",
-    "tags": [
-      "tchetchênia",
-      "rússia",
-      "separatismo",
-      "conflito",
-      "petróleo"
-    ],
-    "texto_apoio": "“Antes da desintegração da União Soviética havia uma república autônoma, a da Tchetchênia-Ingústia, que reunia dois povos que lhe davam nome. Quando a União Soviética não mais existia, a Tchetchênia se recusou a assinar o Tratado de adesão à Federação Russa e proclamou a independência, o que não foi reconhecido pelo governo de Moscou. Em dezembro de 1994 iniciou-se a intervenção militar russa na Tchetchênia”.",
-    "fonte_apoio": "Adaptado de o lic , Nelson Bacic. Conflitos no Mundo: questões e visões geopolíticas. São Paulo: Moderna, 2000.",
-    "pergunta": "Leia atentamente o texto abaixo.\n\nAssinale a opção que MELHOR EXPLICA os interesses russos pela região da Tchetchênia.",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "3ano/img/332/fuvest26q10.png",
+    "texto_apoio": "Em 19 de setembro de 2023, o Azerbaijão lançou uma ofensiva contra a autoproclamada República de Nagorno-Karabakh (RAHK ou Artsakh), um território povoado por armênios sob bloqueio desde dezembro de 2022. Em 28 de setembro de 2023, a RAHK anunciou sua dissolução, que entrou em vigor a partir de 1º de janeiro de 2024, após mais de três décadas de existência não reconhecida. Em agosto de 2025, o governo norte-americano propôs que a rota de transporte estratégica turco-azerbaijana seja controlada pelos EUA, por 99 anos. Essa proposta ainda está em curso, devido à oposição do Irã.",
+    "fonte_apoio": "Reconfiguração geopolítica do Cáucaso (2023). Atlas Géopolitique Mondial, 2025. Adaptado.",
+    "pergunta": "Com base no texto, na legenda do mapa e em seus conhecimentos, assinale a alternativa que explica os motivos da ofensiva do Azerbaijão contra os armênios.",
     "alternativas": [
-      "Áreas de produção e transporte de petróleo e gás das importantes jazidas da região; posição geográfica estratégica entre o “mundo-russo” e o Oriente Médio; implicações geopolíticas da religião islâmica.",
-      "Produção de haxixe e ópio para o mercado consumidor da Rússia; atuação da máfia tchetchena na capital Moscou; proteção à maioria russa na região.",
-      "Posição estratégica privilegiada (entre o Mar Negro, Cáspio e o Oriente Médio); importantes usinas nucleares e bases militares na região.",
-      "Jazidas de petróleo e gás natural; atuação de grupos terroristas tchetchenos que, tendo na religião ortodoxa ponto de união, desafiam o poder de Moscou."
+      "O território armênio invadido pelo Azerbaijão é estratégico para o comércio de gás e petróleo com a Turquia e a União Europeia (UE) e há um projeto estratégico de transporte, no sul do território invadido, que permitirá uma rota de petróleo, gás e fluxo comercial.",
+      "O território no sul da Armênia é de interesse do Irã devido às reservas de hidrocarbonetos, causando vários conflitos com o Azerbaijão, que, ao defender a Armênia, cria enclaves de proteção territorial, resguardando as rotas comerciais até Ierevan, a capital da Armênia.",
+      "As bases militares de vários países estão concentradas no território armênio, que é disputado pela Turquia, Estados Unidos da América e Rússia, sendo este último interessado na rota Nagorno-Karabakh, por ser estratégica ao escoamento de sua produção de gás e petróleo para a UE.",
+      "O conflito entre Armênia e Azerbaijão força a Turquia a ter neutralidade e, ao mesmo tempo, permite o funcionamento dos gasodutos (TANAP) e oleodutos (BTC), a partir do controle que ela tem das rotas, dos pontos de passagem fechados e das bases militares.",
+      "No conflito entre Armênia e Azerbaijão, o corredor de transporte estratégico ao sul do Azerbaijão, associando a ferrovia, escoa toda a sua produção de petróleo, gás e fluxo comercial, conectando o território de Nagorno-Karabakh à Turquia e à área ocupada pela Armênia."
     ],
     "correta": 0,
-    "comentario": "<p>A Rússia recusou a independência tchetchena porque a região é crucial: controla oleodutos que levam petróleo e gás do Mar Cáspio até a Europa, tem posição geográfica estratégica no Cáucaso e sua independência poderia encorajar outros movimentos separatistas (Dagestão, Chuvássia) na Federação.</p>",
-    "ajuda": "A Tchetchênia é uma república dentro da Federação Russa que tentou se separar nos anos 1990. A Rússia reagiu militarmente. Pense em qual interesse estratégico — petróleo, posição geográfica, oleodutos — motivou a Rússia a não abrir mão dessa região."
+    "comentario": "O Azerbaijão é grande produtor de petróleo e gás. O conflito com a Armênia tem dimensão estratégica porque o controle sobre Nagorno-Karabakh e a abertura do corredor de Zangezur (no sul da Armênia) permitiriam uma rota contínua entre o Azerbaijão e o exclave de Nakhchivan e, depois, até a Turquia e a Europa. Os gasodutos TANAP e o oleoduto BTC já existem nessa direção. O interesse dos EUA em controlar a rota por 99 anos (oposto pelo Irã) confirma sua importância estratégica global.",
+    "ajuda": "O Azerbaijão produz petróleo e gás. Para exportar para a Europa, precisa de rotas que passem pela Turquia. Qual seria o papel de uma rota pelo sul da Armênia (corredor de Zangezur) nessa lógica de transporte de hidrocarbonetos?",
+    "tags": [
+      "geopolítica",
+      "Cáucaso",
+      "Nagorno-Karabakh",
+      "Azerbaijão",
+      "Armênia",
+      "hidrocarbonetos",
+      "rotas de transporte"
+    ],
+    "dificuldade": "dificil",
+    "feedbacks": {
+      "1": "Inverte o papel do Irã: o Irã SE OPÕE ao corredor de Zangezur — não tem interesse em hidrocarbonetos armênios. O Irã perderia influência sobre a rota de conexão entre Turquia e Azerbaijão se o corredor for aberto. O Azerbaijão não defende a Armênia — está em conflito com ela.",
+      "2": "Não há bases militares de vários países no Nagorno-Karabakh. A Rússia não exporta gás e petróleo por essa rota. O conflito é essencialmente entre Azerbaijão (produtor de hidrocarbonetos) e Armênia, com Turquia apoiando o Azerbaijão, não criando neutralidade.",
+      "3": "A Turquia NÃO tem neutralidade no conflito — apoia ativamente o Azerbaijão, com quem compartilha laços étnicos e estratégicos. Os gasodutos TANAP e BTC existem, mas a alternativa erra ao dizer que a Turquia os controla por 'pontos de passagem fechados'.",
+      "4": "O corredor estratégico disputado (Zangezur) fica no sul da ARMÊNIA, não do Azerbaijão. O objetivo do Azerbaijão é conectar-se ao seu exclave de Nakhchivan e à Turquia — não ao território de Nagorno-Karabakh, que está no norte da fronteira."
+    }
   }
 ]

@@ -29,31 +29,34 @@
   },
   {
     "id": 2,
-    "instituicao": "FUVEST",
-    "ano": "2009",
-    "dificuldade": "media",
-    "tags": [
-      "geotecnologias",
-      "sensoriamento remoto",
-      "imagens de satélite"
-    ],
-    "imagem_apoio": "1ano/img/107/p7q2.png",
-    "pergunta": "Considere os exemplos das figuras e analise as frases abaixo, relativas às imagens de satélite e às fotografias aéreas.\n\nI. Um dos usos das imagens de satélites refere-se à confecção de mapas temáticos de escala pequena, enquanto as fotografias aéreas servem de base à confecção de cartas topográficas de escala grande.\n\nII. Embora os produtos de sensoriamento remoto estejam, hoje, disseminados pelo mundo, nem todos eles são disponibilizados para uso civil.\n\nIII. Pelo fato de poderem ser obtidas com intervalos regulares de tempo, dentre outras características, as imagens de satélite constituem-se em ferramentas de monitoramento ambiental e instrumental geopolítico valioso.\n\nEstá correto o que se afirma em:",
+    "ano": "UNESP 2026",
+    "texto_apoio": "\"O mais ousado projeto desenvolvido pelo homem depois do Apollo\". Era assim que, em 23 de outubro de 1976, a revista Manchete descrevia, com o ufanismo da época, o projeto RadamBrasil. Implementado em 1975, o RadamBrasil era uma extensão do projeto Radam, sigla de Radar na Amazônia, criado cinco anos antes, e dava início a uma missão ainda mais audaciosa: mapear todo o território brasileiro e seus recursos naturais. Os relatórios técnicos e mapas do projeto RadamBrasil foram reunidos nos 38 volumes da série Levantamento de recursos naturais, disponíveis na biblioteca do Instituto Brasileiro de Geografia e Estatística (IBGE). As imagens de radar, impressas originalmente em papel comum e fotográfico, foram digitalizadas pelo Serviço Geológico do Brasil (SGB), por meio do projeto Radam-D, a partir de 2004.",
+    "fonte_apoio": "Suzel Tunes. https://revistapesquisa.fapesp.br, 17.05.2025. Adaptado.",
+    "pergunta": "No exercício do sensoriamento remoto, diferentes sensores podem ser utilizados. A opção pelo uso do radar no projeto RadamBrasil, conforme mencionado no excerto, é explicada pela",
     "alternativas": [
-      "I, apenas.",
-      "II, apenas.",
-      "II e III, apenas.",
-      "I e III, apenas.",
-      "I, II e III."
+      "dimensão continental do Brasil, característica que demandou radares operando com frequências na faixa da luz visível para otimizar os recursos financeiros empregados.",
+      "grande distância em relação ao solo dos voos civis no Brasil, condição que prejudicaria a nitidez das imagens em sensores ópticos eletromagnéticos.",
+      "rapidez no processamento das imagens geradas, condição que dispensou revelações fotográficas com sensores operando com frequências na faixa da luz visível.",
+      "diversidade de macroformas do relevo ao longo do território brasileiro, característica que impediria o uso de sensores ópticos pela variação na distância focal.",
+      "alta nebulosidade em parcelas do território brasileiro, característica que traria dificuldades de registro em sensores que não operam com ondas eletromagnéticas."
     ],
     "correta": 4,
-    "comentario": "<p>As imagens de satélite e fotografias aéreas são ferramentas complementares: fotografias aéreas têm alta resolução e são ideais para análises locais; imagens de satélite cobrem áreas maiores com periodicidade regular, sendo úteis para monitoramento ambiental. Ambas passam por processos de correção geométrica antes de serem usadas em análises.</p>",
-    "ajuda": "As imagens de sensoriamento remoto capturam a energia refletida ou emitida pela superfície terrestre em diferentes comprimentos de onda. Analise as figuras e verifique qual afirmativa descreve corretamente como os sensores interpretam essas informações.",
+    "comentario": "O radar opera com micro-ondas, que atravessam nuvens, neblina e vegetação densa sem ser bloqueadas. A Amazônia tem cobertura de nuvens quase permanente, tornando inviável o uso de sensores ópticos passivos, que dependem da luz solar visível. Por isso o projeto Radam, criado especificamente para mapear a Amazônia, escolheu o radar como sensor principal, garantindo imagens mesmo em condições de alta nebulosidade.",
+    "ajuda": "A sigla RADAM significa Radar na Amazônia. Por que usar radar especificamente nessa região? Pense nas condições climáticas da Amazônia e em como diferentes sensores captam imagens do terreno.",
+    "tags": [
+      "sensoriamento remoto",
+      "RadamBrasil",
+      "cartografia",
+      "radar",
+      "IBGE",
+      "Amazônia"
+    ],
+    "dificuldade": "dificil",
     "feedbacks": {
-      "0": "A afirmativa I está correta, mas não é a única. As afirmativas II (nem todo produto de sensoriamento é liberado para uso civil) e III (imagens periódicas servem ao monitoramento ambiental e à geopolítica) também são verdadeiras.",
-      "1": "A afirmativa II está correta, porém as outras duas também. A I distingue bem imagens de satélite (escala pequena) de fotografias aéreas (escala grande), e a III aponta o valor das imagens periódicas. As três estão certas.",
-      "2": "As afirmativas II e III estão corretas, mas faltou incluir a I, que também é verdadeira: imagens de satélite servem a mapas temáticos de escala pequena e fotografias aéreas a cartas topográficas de escala grande.",
-      "3": "As afirmativas I e III estão corretas, mas a II também é verdadeira: nem todos os produtos de sensoriamento remoto são disponibilizados para uso civil, pois muitos têm uso militar ou restrito. As três estão certas."
+      "0": "O radar opera com micro-ondas, portanto fora da faixa visível do espectro eletromagnético, não com frequências de luz visível. A escolha do radar não foi motivada por economia de recursos, mas pela necessidade de atravessar a densa cobertura de nuvens da Amazônia.",
+      "1": "O RadamBrasil utilizava aviões especialmente equipados, não voos civis, e voava em altitude controlada adequada para o sensoriamento. A nitidez das imagens por sensores ópticos não é prejudicada pela altitude, mas sim pela cobertura de nuvens que bloqueia a luz solar.",
+      "2": "A velocidade de processamento não é a principal vantagem do radar sobre sensores ópticos, e ambos exigem processamento complexo. O radar foi escolhido por sua capacidade de penetrar nuvens e vegetação densa, não por ser mais rápido no processamento das imagens.",
+      "3": "A variação nas macroformas do relevo não impediria o uso de sensores ópticos, pois esses sensores podem operar em diferentes altitudes. O problema central era a alta nebulosidade da Amazônia, que bloqueia a passagem de luz visível necessária aos sensores ópticos passivos."
     }
   },
   {

@@ -18,7 +18,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O subdesenvolvimento não é uma fase histórica que os países avançados já atravessaram — é uma condição estrutural criada pela colonização e pela inserção periférica no capitalismo global. Países como Brasil e Índia nunca foram 'subdesenvolvidos como a Inglaterra foi' pois surgiram já integrados como periferias do sistema.</p>",
-    "ajuda": "O subdesenvolvimento não é uma etapa que os países desenvolvidos passaram antes de se industrializar — é uma condição gerada pela exploração colonial e pela inserção desigual no sistema capitalista. Analise qual afirmativa representa corretamente essa concepção."
+    "ajuda": "O subdesenvolvimento não é uma etapa que os países desenvolvidos passaram antes de se industrializar — é uma condição gerada pela exploração colonial e pela inserção desigual no sistema capitalista. Analise qual afirmativa representa corretamente essa concepção.",
+    "feedbacks": {
+      "1": "O subdesenvolvimento não é uma etapa universal pela qual todos os países necessariamente passam; Inglaterra, França e Alemanha lideraram o processo de industrialização e nunca estiveram em situação de dependência econômica estrutural. A ideia de que o subdesenvolvimento é uma fase anterior ao desenvolvimento foi refutada por autores como Celso Furtado.",
+      "2": "O conflito Leste-Oeste entre capitalismo e socialismo caracterizou a Guerra Fria, encerrada com a dissolução da URSS em 1991. A principal contradição do mundo contemporâneo é a desigualdade Norte-Sul entre países ricos e pobres, e não mais o antagonismo ideológico Leste-Oeste.",
+      "3": "Embora as grandes navegações ibéricas tenham lançado bases do colonialismo, o subdesenvolvimento como fenômeno moderno está mais ligado à Revolução Industrial e ao colonialismo dos séculos XVIII e XIX. A aceleração das desigualdades entre países ocorreu principalmente com a industrialização europeia, não apenas com as navegações."
+    }
   },
   {
     "id": 2,
@@ -41,7 +46,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O IDH foi criado pelo economista Mahbub ul Haq em 1990 e é calculado a partir de três dimensões: longevidade (esperança de vida ao nascer), educação (anos de escolaridade) e renda (RNB per capita). Varia de 0 a 1 e permite comparar os países de forma mais ampla do que o simples PIB per capita.</p>",
-    "ajuda": "O IDH (Índice de Desenvolvimento Humano) da ONU combina três dimensões: saúde, educação e renda. Identifique qual conjunto de indicadores representa exatamente essas três dimensões sem confundir com outros índices como o PIB ou o Índice de Gini."
+    "ajuda": "O IDH (Índice de Desenvolvimento Humano) da ONU combina três dimensões: saúde, educação e renda. Identifique qual conjunto de indicadores representa exatamente essas três dimensões sem confundir com outros índices como o PIB ou o Índice de Gini.",
+    "feedbacks": {
+      "0": "Consumo de calorias e número de médicos por 1.000 habitantes são indicadores de saúde e nutrição que não compõem o IDH. O IDH utiliza expectativa de vida ao nascer como componente de saúde, e não dados sobre calorias consumidas ou quantidade de médicos.",
+      "2": "Taxa de fecundidade e população empregada no setor primário não integram o cálculo do IDH. O índice usa renda per capita, indicadores de educação e expectativa de vida, sem incluir dados sobre estrutura produtiva setorial.",
+      "3": "Taxa de mortalidade infantil, valor do salário mínimo e taxa de natalidade são indicadores socioeconômicos relevantes, mas não fazem parte direta do cálculo do IDH. O IDH utiliza expectativa de vida (não mortalidade infantil), indicadores de educação e renda per capita."
+    }
   },
   {
     "id": 3,
@@ -63,7 +73,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O PIB mede a soma de todos os bens e serviços produzidos em um país em determinado período, sendo útil para aferir crescimento econômico. Porém, não informa sobre distribuição de renda, bem-estar social ou sustentabilidade ambiental — limitações que levaram à criação de indicadores complementares como o IDH.</p>",
-    "ajuda": "O PIB mede a riqueza produzida, mas não diz como ela é distribuída nem qual é a qualidade de vida da população. Pense em qual alternativa aponta corretamente uma limitação do PIB como indicador de desenvolvimento."
+    "ajuda": "O PIB mede a riqueza produzida, mas não diz como ela é distribuída nem qual é a qualidade de vida da população. Pense em qual alternativa aponta corretamente uma limitação do PIB como indicador de desenvolvimento.",
+    "feedbacks": {
+      "0": "O PIB permite identificar setores em expansão ou crise, sinalizando desequilíbrios estruturais e orientando políticas de ajuste fiscal e financeiro. Essa é uma utilidade legítima do indicador, e não uma função que lhe é alheia.",
+      "2": "Medir as riquezas produzidas e comparar o crescimento econômico entre países e períodos é exatamente a função básica do PIB. Trata-se de sua principal e mais fundamental utilidade como indicador macroeconômico.",
+      "3": "Ao detalhar o desempenho de cada setor da economia, o PIB permite identificar atividades em retração e orientar intervenções governamentais para corrigir distorções. Essa é uma aplicação analítica válida e habitual do indicador.",
+      "4": "O PIB desagregado por setor revela a estrutura produtiva do país e aponta quais atividades geram mais renda. Obter informações sobre os diferentes setores e sua contribuição relativa para a economia é um uso correto e frequente do indicador."
+    }
   },
   {
     "id": 4,
@@ -86,7 +102,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O Coeficiente de Gini varia de 0 (igualdade perfeita) a 1 (desigualdade máxima). O mapa revela que Brasil, África do Sul e países da América Latina figuram entre os mais desiguais do mundo, enquanto os países escandinavos têm os menores coeficientes. A desigualdade não está necessariamente ligada ao nível de renda.</p>",
-    "ajuda": "O Índice de Gini mede a desigualdade de renda: 0 significa igualdade perfeita e 1 significa desigualdade máxima. Ao analisar o mapa, lembre-se de que países da América Latina, especialmente o Brasil, figuram entre os mais desiguais do mundo."
+    "ajuda": "O Índice de Gini mede a desigualdade de renda: 0 significa igualdade perfeita e 1 significa desigualdade máxima. Ao analisar o mapa, lembre-se de que países da América Latina, especialmente o Brasil, figuram entre os mais desiguais do mundo.",
+    "feedbacks": {
+      "0": "O índice de Gini é de fato utilizado para medir a concentração de renda e a desigualdade social em diferentes escalas territoriais, como países, estados e municípios. Essa afirmação descreve corretamente a finalidade e o alcance do indicador.",
+      "1": "A escala de 0 a 1 é a forma padrão de apresentar o índice de Gini, onde 0 representa igualdade perfeita e 1 representa concentração total de renda em uma única pessoa. Essa afirmação corresponde à definição técnica correta do indicador.",
+      "3": "Os dados do índice de Gini confirmam que o Brasil apresenta uma das maiores concentrações de renda do mundo, figurando ao lado de países africanos, do sudeste asiático e da Oceania nas piores posições. Essa observação é consistente com os dados representados no mapa."
+    }
   },
   {
     "id": 5,
@@ -108,7 +129,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O PIB ignora como a riqueza gerada é distribuída entre a população. Um país pode ter o PIB crescendo enquanto a pobreza aumenta — se os ganhos forem concentrados nas mãos de poucos. Por isso, análises sociais precisam combinar o PIB com indicadores de distribuição como o Gini ou o IDH.</p>",
-    "ajuda": "O PIB soma toda a riqueza produzida, mas não informa se essa riqueza está concentrada em poucos ou distribuída entre muitos. Identifique qual dimensão importante o PIB ignora e que comprometeria análises sobre bem-estar social."
+    "ajuda": "O PIB soma toda a riqueza produzida, mas não informa se essa riqueza está concentrada em poucos ou distribuída entre muitos. Identifique qual dimensão importante o PIB ignora e que comprometeria análises sobre bem-estar social.",
+    "feedbacks": {
+      "0": "O PIB inclui as exportações e desconta as importações em seu cálculo; afirmar que as importações artificializam superávits inverte a lógica do indicador. Importações são subtraídas do PIB, e não somadas, o que significa que não criam superávits artificiais.",
+      "1": "Os gastos do governo são um componente legítimo e explícito do PIB, computado como parte da demanda agregada. Afirmar que eles interferem de forma distorcida na produção é impreciso; eles são parte integral do cálculo, e não um elemento que o contamina.",
+      "2": "A dimensão territorial de um país não é uma variável do cálculo do PIB. O indicador mede o valor de bens e serviços produzidos independentemente do tamanho geográfico do país.",
+      "3": "Os investimentos privados são um componente explícito do PIB, registrados diretamente como formação bruta de capital fixo. Eles não são mascarados em balanços comerciais; sua contabilização no PIB é direta e transparente."
+    }
   },
   {
     "id": 6,
@@ -129,7 +156,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Mesmo nas nações mais ricas do mundo, existem bolsões de pobreza urbana com violência, informalidade e carência de serviços públicos. Em cidades como Nova York ou Londres, bairros periféricos convivem com riqueza extrema a poucos quilômetros de distância — revelando que o desenvolvimento humano é geograficamente desigual dentro dos países.</p>",
-    "ajuda": "A desigualdade de desenvolvimento humano existe tanto entre países quanto dentro de cada país. Mesmo nações ricas apresentam bolsões de pobreza urbana com carência de serviços públicos. Avalie qual alternativa expressa corretamente esse paradoxo."
+    "ajuda": "A desigualdade de desenvolvimento humano existe tanto entre países quanto dentro de cada país. Mesmo nações ricas apresentam bolsões de pobreza urbana com carência de serviços públicos. Avalie qual alternativa expressa corretamente esse paradoxo.",
+    "feedbacks": {
+      "0": "A segregação e a exclusão social não estão sendo superadas; ao contrário, em muitas cidades do mundo, incluindo as dos países ricos, a desigualdade intraurbana tem aumentado nas últimas décadas. A afirmação contraria tanto os dados sobre pobreza urbana quanto a lógica do desenvolvimento desigual.",
+      "2": "A alternativa ignora a desigualdade interna dos países, afirmando que as disparidades riqueza-pobreza existem apenas entre nações. Países como EUA e Reino Unido apresentam bolsões de pobreza expressivos em suas cidades, demonstrando que a desigualdade também é fenômeno interno.",
+      "3": "As desigualdades entre zonas rurais e urbanas persistem e são acentuadas nos países subdesenvolvidos, com diferenças marcantes em renda, acesso a serviços e infraestrutura. Afirmar que esse contraste já foi superado pela humanidade contradiz os dados sobre desenvolvimento rural e urbano."
+    }
   },
   {
     "id": 7,
@@ -153,7 +185,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O IDH é composto por longevidade, educação e renda. Charges sobre o IDH frequentemente ironizam a renda (PIB per capita), mostrando a discrepância entre a riqueza medida estatisticamente e a realidade vivida pela maioria. A crítica revela a distância entre indicadores agregados e a experiência concreta das pessoas.</p>",
-    "ajuda": "O IDH é calculado a partir de três componentes: longevidade (expectativa de vida), educação (anos de escolaridade) e renda (RNB per capita). Identifique qual desses três componentes a charge está ironizando com base nas pistas visuais descritas."
+    "ajuda": "O IDH é calculado a partir de três componentes: longevidade (expectativa de vida), educação (anos de escolaridade) e renda (RNB per capita). Identifique qual desses três componentes a charge está ironizando com base nas pistas visuais descritas.",
+    "feedbacks": {
+      "1": "O condicionamento físico de quem move o carrinho pode remeter ao esforço de trabalho, mas não é a variável do IDH que a ironia da charge foca. A referência ao almoço aponta diretamente para a renda como poder de compra e acesso à alimentação.",
+      "2": "A alternativa menciona objetos de alto valor agregado, mas o elemento irônico central da charge é a referência ao almoço como marcador de acesso à alimentação e, portanto, à renda. O destaque não são bens materiais de luxo, mas a condição básica de comer.",
+      "3": "O uso da norma culta em charges é um recurso estilístico do gênero para criar contraste ou ironia na linguagem, e não o elemento que a questão aponta como ironizado. A variável do IDH satirizada é a renda, e não a escolaridade medida pelo domínio linguístico.",
+      "4": "O meio de transporte pode sugerir condições econômicas, mas não é o foco da ironia da charge; o elemento central é o almoço como referência à alimentação e ao poder aquisitivo. A alternativa confunde o cenário com a variável do IDH que está sendo satirizada."
+    }
   },
   {
     "id": 8,
@@ -177,7 +215,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O crescimento do IDH-M brasileiro entre 1991 e 2010 foi impulsionado principalmente pela queda da mortalidade infantil (via programas de saúde), aumento da expectativa de vida e expansão da escolarização básica. A redução das desigualdades regionais foi desigual, com o Norte e Nordeste ainda apresentando os menores índices.</p>",
-    "ajuda": "O IDH-M cresceu no Brasil por meio de políticas que reduziram a mortalidade infantil, aumentaram a escolarização e elevaram a renda das populações mais pobres. Identifique qual par de processos melhor explica esse crescimento simultâneo nas três dimensões do índice."
+    "ajuda": "O IDH-M cresceu no Brasil por meio de políticas que reduziram a mortalidade infantil, aumentaram a escolarização e elevaram a renda das populações mais pobres. Identifique qual par de processos melhor explica esse crescimento simultâneo nas três dimensões do índice.",
+    "feedbacks": {
+      "0": "O Brasil não erradicou o analfabetismo; embora as taxas tenham caído, ainda há milhões de adultos analfabetos no país. Além disso, os avanços mais expressivos no IDH brasileiro foram nas dimensões de saúde, e não na erradicação do analfabetismo ou na elevação direta do PIB.",
+      "1": "A queda do desemprego e o incremento da industrialização são indicadores econômicos que não refletem diretamente as principais melhorias no IDH brasileiro. Os avanços mais expressivos do IDH do Brasil ocorreram nas dimensões de saúde e longevidade, e não na industrialização.",
+      "2": "A queda da natalidade é real no Brasil, mas não é o principal indicador de melhoria do IDH; a qualificação profissional é relevante, mas o salto expressivo do IDH está associado à redução da mortalidade infantil e ao aumento da expectativa de vida. A alternativa não identifica os componentes corretos do avanço do IDH brasileiro."
+    }
   },
   {
     "id": 9,
@@ -201,7 +244,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O Brasil figura historicamente entre os países mais desiguais do G20, com Coeficiente de Gini acima de 0,5. A África do Sul, marcada pelas sequelas do Apartheid, apresenta o maior índice de desigualdade entre os países do grupo. As economias europeias desenvolvidas concentram os melhores índices de distribuição de renda.</p>",
-    "ajuda": "O Coeficiente de Gini é uma medida de desigualdade de renda. Ao analisar o gráfico, compare o Brasil com outros países do G20: quanto menor o coeficiente, mais igualitária a distribuição. Avalie qual afirmativa corresponde aos dados apresentados."
+    "ajuda": "O Coeficiente de Gini é uma medida de desigualdade de renda. Ao analisar o gráfico, compare o Brasil com outros países do G20: quanto menor o coeficiente, mais igualitária a distribuição. Avalie qual afirmativa corresponde aos dados apresentados.",
+    "feedbacks": {
+      "1": "O gráfico mostra que o Brasil tem um dos índices de Gini mais altos entre os países do G20, o que significa uma das piores distribuições de renda, e não a melhor da América Latina. A afirmação inverte o que os dados mostram sobre a posição relativa do Brasil.",
+      "2": "O gráfico não permite generalizar que todos os governos de economias emergentes priorizaram a melhoria da distribuição de renda. Vários emergentes, incluindo o Brasil, apresentam altos índices de desigualdade persistentes, o que contradiz a afirmação de prioridade generalizada.",
+      "3": "A África do Sul tem um dos índices de Gini mais altos do mundo, sendo uma das economias mais desiguais do G20; afirmar que apresenta a melhor distribuição contradiz diretamente os dados. A alternativa inverte completamente a posição da África do Sul no gráfico.",
+      "4": "Os países europeus e o Canadá apresentam índices de Gini significativamente menores que os do Brasil e da África do Sul, o que indica distribuição de renda mais equitativa, e não elevada desigualdade. A afirmação contraria os dados do gráfico sobre a posição dessas economias desenvolvidas."
+    }
   },
   {
     "id": 10,
@@ -226,6 +275,11 @@
     ],
     "correta": 1,
     "comentario": "<p>O IDH foi criado pelo PNUD em 1990 como alternativa ao PIB para medir o desenvolvimento humano. Baseia-se nas dimensões de saúde (expectativa de vida), educação (anos de escolaridade e alfabetização) e padrão de vida (RNB per capita). É o principal parâmetro da ONU para comparar o bem-estar entre países.</p>",
-    "ajuda": "A ONU criou um índice em 1990 para avaliar o desenvolvimento humano além do PIB, considerando longevidade, educação e renda. Identifique a sigla correta que nomeia esse índice, que hoje é o principal parâmetro de comparação entre países."
+    "ajuda": "A ONU criou um índice em 1990 para avaliar o desenvolvimento humano além do PIB, considerando longevidade, educação e renda. Identifique a sigla correta que nomeia esse índice, que hoje é o principal parâmetro de comparação entre países.",
+    "feedbacks": {
+      "0": "O SAEB é um sistema brasileiro de avaliação do desempenho escolar, criado de forma independente da ONU e com escopo apenas educacional. A ONU criou o IDH para capturar simultaneamente renda, educação e saúde como dimensões do desenvolvimento humano.",
+      "2": "O Índice de Pobreza Humana mede privações e carências, e não o desenvolvimento em suas dimensões positivas de renda, educação e longevidade. O IDH foi o parâmetro criado pela ONU em 1990 justamente para oferecer uma medida positiva e multidimensional do desenvolvimento.",
+      "3": "O PIB mede apenas a produção econômica de um país e não captura saúde, educação nem qualidade de vida. A ONU criou o IDH exatamente para superar as limitações do PIB como único critério de desenvolvimento humano."
+    }
   }
 ]

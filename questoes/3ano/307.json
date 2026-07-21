@@ -20,7 +20,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A indústria de base transforma matérias-primas brutas para uso industrial (ex.: siderurgia); a de bens de capital produz máquinas e equipamentos usados por outras indústrias; e a de bens de consumo fabrica produtos finais para a população. Essa hierarquia industrial estrutura todo o processo produtivo capitalista.</p>",
-    "ajuda": "Para associar características a países (ou modelos industriais), identifique as marcas de cada um: Revolução Verde, industrialização tardia, planificação estatal, modelo clássico britânico. Relacione cada país ao modelo que melhor o descreve."
+    "ajuda": "Para associar características a países (ou modelos industriais), identifique as marcas de cada um: Revolução Verde, industrialização tardia, planificação estatal, modelo clássico britânico. Relacione cada país ao modelo que melhor o descreve.",
+    "feedbacks": {
+      "0": "A sequência 1-2-3-4-5 utiliza os números 4 e 5, que não correspondem a nenhum dos três tipos de indústria listados na tabela. A questão apresenta apenas três categorias (base, bens de capital e bens de consumo), tornando qualquer código acima de 3 inválido.",
+      "2": "Nesta sequência, os materiais duráveis (A) são associados à indústria de bens de capital (2), quando pertencem à indústria de bens de consumo duráveis (3). Além disso, a transformação de matérias-primas (D) é associada à indústria de bens de consumo (3), quando deveria ser da indústria de base (1).",
+      "3": "Nesta sequência, os materiais duráveis (A) são associados à indústria de base (1), quando pertencem à indústria de bens de consumo (3). A produção de máquinas industriais (E) é associada à indústria de bens de consumo (3), quando pertence à indústria de bens de capital (2)."
+    }
   },
   {
     "id": 2,
@@ -44,7 +49,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A industrialização planificada caracterizou os países socialistas, onde o Estado determinava os objetivos de produção, os investimentos em infraestrutura e a distribuição dos bens. A URSS foi o principal exemplo: industrializou-se em décadas através de planos quinquenais, priorizando indústrias pesadas e de base.</p>",
-    "ajuda": "A industrialização tardia ocorreu em países que se industrializaram com a ajuda do Estado e com atraso em relação à Inglaterra. Identifique que tipo de industrialização o texto descreve com base nas características como intervenção estatal e dependência de capital externo."
+    "ajuda": "A industrialização tardia ocorreu em países que se industrializaram com a ajuda do Estado e com atraso em relação à Inglaterra. Identifique que tipo de industrialização o texto descreve com base nas características como intervenção estatal e dependência de capital externo.",
+    "feedbacks": {
+      "0": "A industrialização clássica ocorreu espontaneamente no capitalismo inglês, a partir da acumulação privada de capital, sem planejamento centralizado pelo Estado. O texto descreve um processo deliberado e controlado por um agente central, que é a marca da industrialização planificada.",
+      "2": "A industrialização tardia é caracterizada pela dependência de capital estrangeiro e pela atuação de empresas multinacionais em países periféricos. O texto descreve controle estatal e planificação central, que é a característica do modelo socialista, e não da industrialização tardia.",
+      "3": "A urbanização clássica é o processo de crescimento das cidades associado à industrialização inglesa; não é um tipo de industrialização. O texto trata especificamente da forma como a produção industrial é organizada e controlada, não do fenômeno urbano.",
+      "4": "A urbanização estatal não é um conceito equivalente à planificação industrial; são fenômenos distintos. O texto descreve como o Estado organiza e dirige a produção industrial, não como planeja o crescimento das cidades."
+    }
   },
   {
     "id": 3,
@@ -68,7 +79,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A industrialização tardia ocorreu em países que se industrializaram no século XX, com a participação decisiva do Estado e do capital estrangeiro. Brasil, México, Argentina e Coreia do Sul são exemplos: usaram tarifas protecionistas, empresas estatais e atração de multinacionais para desenvolver seu parque industrial.</p>",
-    "ajuda": "A industrialização tardia caracteriza-se pela intervenção do Estado, pela dependência de capital estrangeiro e por ocorrer após a consolidação do capitalismo industrial em outros países. Avalie qual alternativa descreve corretamente esse modelo."
+    "ajuda": "A industrialização tardia caracteriza-se pela intervenção do Estado, pela dependência de capital estrangeiro e por ocorrer após a consolidação do capitalismo industrial em outros países. Avalie qual alternativa descreve corretamente esse modelo.",
+    "feedbacks": {
+      "0": "A industrialização clássica não dependeu de capital estrangeiro; foi endógena, surgindo na Inglaterra a partir de capitais acumulados no período mercantil. A industrialização tardia é justamente a que ocorreu com predomínio de capital externo e multinacionais nos países periféricos.",
+      "1": "A industrialização planificada é controlada totalmente pelo Estado socialista e não depende de capital estrangeiro nem de multinacionais. A afirmação de que seria 'a única forma de os países periféricos se industrializarem' é prescritiva e historicamente incorreta.",
+      "3": "A industrialização planificada é característica de economias socialistas com controle estatal centralizado da produção; não depende de empresas multinacionais, que são atores do capitalismo. A alternativa confunde planificada com tardia.",
+      "4": "A industrialização tardia é definida pela dependência de capital externo, e não pela emancipação econômica recente. Emancipação econômica seria o oposto de dependência de multinacionais, que é justamente a marca da industrialização tardia nos países periféricos."
+    }
   },
   {
     "id": 4,
@@ -90,7 +107,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A Primeira Revolução Industrial (1760-1850) foi marcada pela máquina a vapor, pelo carvão mineral e pelas indústrias têxtil e siderúrgica. Começou na Inglaterra, que reunia condições únicas: capital acumulado pelo comércio colonial, mão de obra disponível pelo cercamento dos campos e abundância de carvão.</p>",
-    "ajuda": "A Primeira Revolução Industrial (final do século XVIII - meados do século XIX) foi marcada pela máquina a vapor, o carvão mineral como principal fonte de energia, e a mecanização têxtil na Inglaterra. Analise quais afirmativas condizem com essas características."
+    "ajuda": "A Primeira Revolução Industrial (final do século XVIII - meados do século XIX) foi marcada pela máquina a vapor, o carvão mineral como principal fonte de energia, e a mecanização têxtil na Inglaterra. Analise quais afirmativas condizem com essas características.",
+    "feedbacks": {
+      "1": "A afirmativa IV é falsa: a difusão da industrialização para Alemanha, França e EUA ocorreu predominantemente no século XIX, não no XVIII, e foi gradual, não imediata. A Primeira Revolução Industrial consolidou-se na Inglaterra no final do séc. XVIII, mas sua expansão para outros países levou décadas.",
+      "2": "Esta alternativa exclui a afirmativa III, que é verdadeira: o têxtil, o metalúrgico e a mineração foram de fato os segmentos fabris mais destacados da Primeira Revolução Industrial. A exclusão de III torna a alternativa incompleta.",
+      "3": "A afirmativa IV é falsa: a industrialização não se difundiu rapidamente para Alemanha, França e EUA ainda no século XVIII, pois a expansão foi paulatina e concentrada no século XIX. Incluir IV invalida esta alternativa."
+    }
   },
   {
     "id": 5,
@@ -113,7 +135,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A invenção do elevador (1852) e do automóvel (final do século XIX) transformaram radicalmente o espaço urbano: cidades cresceram verticalmente, surgiu o subúrbio e as rodovias tornaram-se eixos de desenvolvimento. Essas inovações remodelaram paisagens e hábitos sociais de forma permanente.</p>",
-    "ajuda": "O desenvolvimento tecnológico transformou o trabalho e as paisagens geográficas nos séculos XIX e XX. Pense em como a automação afetou a oferta de empregos industriais, especialmente em países desenvolvidos, e qual alternativa reflete corretamente essa transformação."
+    "ajuda": "O desenvolvimento tecnológico transformou o trabalho e as paisagens geográficas nos séculos XIX e XX. Pense em como a automação afetou a oferta de empregos industriais, especialmente em países desenvolvidos, e qual alternativa reflete corretamente essa transformação.",
+    "feedbacks": {
+      "1": "A industrialização dos séculos XIX e XX intensificou a degradação ambiental com poluição das águas, do ar e do solo, e não a reduziu. O conhecimento técnico-científico foi aplicado à produção em larga escala, com efeitos ambientais negativos crescentes.",
+      "2": "A criação de equipamentos agrícolas modernos ampliou a produção rural, mas esse processo está mais ligado à Revolução Verde do século XX e não é o principal exemplo das transformações urbanas e industriais descritas no texto. A alternativa desloca o foco para o campo, quando o texto aborda paisagens urbano-industriais.",
+      "3": "O desenvolvimento econômico, tecnológico e social que transformou as paisagens geográficas tem raízes no capitalismo mercantil e se acelera com a Revolução Industrial do século XVIII, e não apenas no século XX. Afirmar que sua origem está exclusivamente no século passado ignora séculos de processo histórico.",
+      "4": "As tecnologias de automação aumentaram a produtividade, mas substituíram trabalhadores, gerando desemprego estrutural, e não criando novos postos de trabalho em quantidade equivalente. A afirmativa inverte o efeito da automação sobre o mercado de trabalho industrial."
+    }
   },
   {
     "id": 6,
@@ -135,7 +163,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Durante a Primeira Revolução Industrial, as fábricas precisavam estar próximas das jazidas de carvão mineral, sua principal fonte de energia. Regiões como o País de Gales, Yorkshire e o Vale do Ruhr (Alemanha) tornaram-se industriais por essa razão locacional, não por escolha estratégica.</p>",
-    "ajuda": "Durante a Primeira Revolução Industrial, as indústrias precisavam estar próximas de sua principal fonte de energia. Identifique qual recurso mineral era indispensável para o funcionamento das máquinas a vapor e, portanto, determinava onde as fábricas se instalavam."
+    "ajuda": "Durante a Primeira Revolução Industrial, as indústrias precisavam estar próximas de sua principal fonte de energia. Identifique qual recurso mineral era indispensável para o funcionamento das máquinas a vapor e, portanto, determinava onde as fábricas se instalavam.",
+    "feedbacks": {
+      "0": "O petróleo foi a base energética da Segunda Revolução Industrial, liderada por EUA e Alemanha no final do século XIX. A Primeira Revolução Industrial, na Inglaterra, usou o carvão mineral como principal combustível para a máquina a vapor.",
+      "1": "Incentivos fiscais são políticas modernas de atração industrial; não existiam como instrumento de Estado no modelo da Primeira Revolução Industrial inglesa. A industrialização britânica emergiu da acumulação de capital privado e da disponibilidade de recursos naturais como o carvão.",
+      "2": "A Primeira Revolução Industrial utilizou majoritariamente mão de obra não-especializada, formada por camponeses expulsos de suas terras pelo processo de cercamentos. A especialização técnica e científica da mão de obra é mais característica da Segunda e Terceira Revoluções Industriais.",
+      "4": "Embora rodas d'água movessem teares em fases pré-industriais, foi o carvão mineral combinado com a máquina a vapor que definiu tecnologicamente a Primeira Revolução Industrial. A disponibilidade de água não foi o fator determinante da industrialização inglesa."
+    }
   },
   {
     "id": 7,
@@ -157,7 +191,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A afirmativa incorreta é a de que nunca houve sociedade industrial não capitalista. A URSS e os países socialistas construíram parques industriais gigantescos fora do sistema capitalista, demonstrando que industrialização e capitalismo não são sinônimos obrigatórios.</p>",
-    "ajuda": "A questão pede a afirmativa INCORRETA sobre industrialização. Lembre-se de que a industrialização é um processo histórico que transformou a sociedade e não surgiu de forma espontânea — avalie qual afirmativa distorce ou contradiz os fatos históricos."
+    "ajuda": "A questão pede a afirmativa INCORRETA sobre industrialização. Lembre-se de que a industrialização é um processo histórico que transformou a sociedade e não surgiu de forma espontânea — avalie qual afirmativa distorce ou contradiz os fatos históricos.",
+    "feedbacks": {
+      "1": "A afirmação de que a industrialização se caracteriza pela produção em larga escala em estabelecimentos fabris com uso intensivo de capital técnico está correta. Esse é o conjunto de características que definem historicamente o processo de industrialização em contraposição à produção artesanal.",
+      "2": "A afirmação de que a industrialização é um processo relacionado com etapas anteriores de produção (manufaturas, cooperativas) está correta. A Revolução Industrial emergiu de uma evolução histórica progressiva dos modos de produção, e não de uma ruptura absoluta com o passado.",
+      "3": "A Inglaterra é reconhecida como a nação pioneira na industrialização, reunindo condições únicas no século XVIII: capital acumulado, matérias-primas, mão de obra disponível e mercados coloniais. Essa afirmação está correta e é consenso na historiografia econômica.",
+      "4": "O conceito de industrialização envolve de fato descobertas científicas, inovações técnicas, transformações nas relações de trabalho e acumulação de capital. Essa afirmação está correta como descrição dos elementos que compõem e definem o processo industrial."
+    }
   },
   {
     "id": 8,
@@ -180,7 +220,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A Primeira Revolução Industrial reorganizou completamente o espaço geográfico: cidades como Manchester e Birmingham explodiram demograficamente, as aldeias perderam população para as fábricas e a divisão internacional do trabalho separou os países industriais (exportadores de manufaturados) dos agrários (exportadores de matérias-primas).</p>",
-    "ajuda": "A Primeira Revolução Industrial provocou intensa urbanização, criação do proletariado industrial, aumento da jornada de trabalho e surgimento de péssimas condições de vida nas cidades. Avalie quais afirmativas descrevem corretamente esses impactos."
+    "ajuda": "A Primeira Revolução Industrial provocou intensa urbanização, criação do proletariado industrial, aumento da jornada de trabalho e surgimento de péssimas condições de vida nas cidades. Avalie quais afirmativas descrevem corretamente esses impactos.",
+    "feedbacks": {
+      "0": "A afirmativa II também é verdadeira: com a ampliação da divisão internacional do trabalho, países europeus especializaram-se na produção industrial e controlaram o mercado mundial de manufaturados. Excluir II torna esta alternativa incompleta.",
+      "1": "A afirmativa III é falsa: as transformações industriais tiveram profundas implicações na organização política e territorial da Europa, como o fortalecimento dos Estados nacionais, o imperialismo e a corrida colonial. Escolher apenas a afirmativa III seleciona exatamente a proposição incorreta.",
+      "3": "A afirmativa III é falsa: as mudanças industriais no modo de produção geraram reorganização territorial (imperialismo, formação de colônias), política (surgimento de partidos operários, conflitos entre potências) e social (urbanização, proletariado). Incluir III invalida esta alternativa.",
+      "4": "A afirmativa III é falsa: o processo de industrialização teve profundas implicações na organização política e territorial, como as disputas imperialistas, as guerras coloniais e a formação de novas alianças entre potências europeias. Incluir III invalida esta alternativa."
+    }
   },
   {
     "id": 9,
@@ -204,7 +250,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A teoria básica da localização industrial busca minimizar custos de transporte de matérias-primas e produtos acabados e maximizar o acesso ao mercado consumidor. Essa lógica foi formalizada por Alfred Weber no início do século XX e ainda orienta as decisões de localização das empresas multinacionais.</p>",
-    "ajuda": "A teoria básica da localização industrial busca minimizar custos de transporte e maximizar o acesso ao mercado consumidor. Pense em qual princípio fundamental guia a decisão de uma empresa ao escolher onde instalar sua fábrica."
+    "ajuda": "A teoria básica da localização industrial busca minimizar custos de transporte e maximizar o acesso ao mercado consumidor. Pense em qual princípio fundamental guia a decisão de uma empresa ao escolher onde instalar sua fábrica.",
+    "feedbacks": {
+      "0": "A aglomeração industrial é um resultado e não o princípio básico da teoria de localização; uma fábrica pode atrair outras como consequência da boa localização, mas isso é efeito, não fundamento. A teoria da localização parte da escolha do ponto que minimiza custos de transporte e produção.",
+      "1": "A teoria de localização industrial parte do pressuposto de que há múltiplas opções possíveis de instalação, e o problema central é escolher a melhor entre elas. Afirmar que o espaço oferece poucas opções elimina a própria razão de ser da teoria.",
+      "3": "A produção em série é uma técnica produtiva (associada ao fordismo), e não um princípio de localização industrial. A teoria da localização trata da escolha do lugar que minimiza custos de transporte, tempo e produção, independentemente do método produtivo.",
+      "4": "O avanço tecnológico pode tanto concentrar quanto dispersar indústrias, dependendo das condições logísticas e de mercado; não é o princípio básico da teoria de localização. O fundamento da teoria é a minimização de custos e tempo, não o impacto da tecnologia."
+    }
   },
   {
     "id": 10,
@@ -226,6 +278,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A Nova Divisão Internacional do Trabalho (NDIT) surgiu com a Terceira Revolução Industrial: países que dominam tecnologia, pesquisa e inovação passaram a comandar as cadeias produtivas globais. A diferença tecnológica tornou-se o principal critério de dominação entre países ricos e pobres no sistema capitalista contemporâneo.</p>",
-    "ajuda": "A Nova Divisão Internacional do Trabalho (NDIT) reorganizou a produção global com base na tecnologia, não apenas na posse de matérias-primas. Identifique qual característica passou a definir a hierarquia entre países na organização produtiva global."
+    "ajuda": "A Nova Divisão Internacional do Trabalho (NDIT) reorganizou a produção global com base na tecnologia, não apenas na posse de matérias-primas. Identifique qual característica passou a definir a hierarquia entre países na organização produtiva global.",
+    "feedbacks": {
+      "0": "A presença de forças militares como estratégia de dominação caracterizou o imperialismo clássico do século XIX e início do XX. A nova Divisão Internacional do Trabalho opera por meio da dependência tecnológica e econômica, e não da ocupação militar direta.",
+      "1": "A desigualdade econômica entre países existe na nova DIT, mas a dominação não é primariamente militar como no imperialismo clássico. O novo modelo de dominação opera pela dependência tecnológica, pois os países periféricos não produzem inovação.",
+      "3": "A nova DIT tende a cristalizar posições, pois a dependência tecnológica é estrutural e difícil de superar sem grandes investimentos em ciência e educação. A alternativa sugere mobilidade entre posições de dominante e dominado que a lógica da nova DIT não garante.",
+      "4": "Sistemas bancários e de comércio internacionalizados já existiam no imperialismo clássico. A novidade da nova Divisão Internacional do Trabalho é o controle exercido pelo domínio tecnológico e do conhecimento científico, que define quem agrega mais valor na produção global."
+    }
   }
 ]

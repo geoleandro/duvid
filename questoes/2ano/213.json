@@ -19,7 +19,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O petróleo brasileiro se concentra principalmente nas bacias sedimentares marítimas: o pré-sal, descoberto em 2006 entre os estados de São Paulo e Rio de Janeiro, mudou o perfil do país de importador para exportador de petróleo. Em terra, o Rio Grande do Norte lidera a produção onshore. O domínio do pré-sal pela Petrobras é questão estratégica de soberania, pois o petróleo move 33% da matriz energética global.</p>",
-    "ajuda": "Lembre-se de que o Brasil possui petróleo tanto em terra (onshore) quanto no mar (offshore). Pense em qual estado é o maior produtor em terra (Rio Grande do Norte, no Nordeste) e qual área é a principal produtora offshore (pré-sal, entre São Paulo e Rio de Janeiro). Avalie cada alternativa à luz desses dados sobre a produção petrolífera nacional."
+    "ajuda": "Lembre-se de que o Brasil possui petróleo tanto em terra (onshore) quanto no mar (offshore). Pense em qual estado é o maior produtor em terra (Rio Grande do Norte, no Nordeste) e qual área é a principal produtora offshore (pré-sal, entre São Paulo e Rio de Janeiro). Avalie cada alternativa à luz desses dados sobre a produção petrolífera nacional.",
+    "feedbacks": {
+      "0": "As descobertas de petróleo no Brasil não começaram nos anos 1980; a Petrobras encontrou petróleo na Bacia de Campos desde os anos 1970. Além disso, a Bacia de Campos foi a principal produtora offshore antes do pré-sal, que assumiu a liderança mais recentemente.",
+      "1": "O Brasil possui extensa rede de oleodutos que transporta petróleo e derivados entre plataformas, refinarias e terminais. Afirmar que o transporte é feito exclusivamente por rodovias é incorreto; oleodutos são o principal meio de transporte de petróleo bruto no país.",
+      "3": "O Brasil possui refinarias da Petrobras distribuídas pelo país, como REPLAN (SP), REDUC (RJ) e RNEST (PE). Afirmar que não há refino no país e que os derivados são importados contradiz a existência de uma das maiores redes de refino da América Latina."
+    }
   },
   {
     "id": 2,
@@ -43,7 +48,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Royalties do petróleo são compensações financeiras pagas pelas empresas exploradoras ao governo pela extração de um recurso natural não renovável pertencente à União. No Brasil, a distribuição dos royalties do pré-sal gerou intenso debate político, com estados produtores (RJ, SP, ES) disputando com estados não produtores a maior fatia desses recursos, que deveriam ser destinados à saúde e educação.</p>",
-    "ajuda": "Pense no conceito de 'royalties' no setor de petróleo: são compensações financeiras pagas pelas empresas ao governo pela exploração de recursos naturais não renováveis. Esses recursos são destinados a áreas como educação e saúde. Qual das alternativas corresponde a essa definição de compensação pela exploração de recursos minerais?"
+    "ajuda": "Pense no conceito de 'royalties' no setor de petróleo: são compensações financeiras pagas pelas empresas ao governo pela exploração de recursos naturais não renováveis. Esses recursos são destinados a áreas como educação e saúde. Qual das alternativas corresponde a essa definição de compensação pela exploração de recursos minerais?",
+    "feedbacks": {
+      "0": "A plataforma continental é a área submersa que prolonga o território terrestre até o mar, sendo um conceito geográfico. Não é uma compensação financeira pela exploração de recursos naturais, que é o que a questão solicita identificar.",
+      "1": "O petróleo é um recurso mineral energético, e não o conceito que define a compensação financeira pela sua exploração. A questão pede o nome do pagamento feito pelos exploradores aos governos e comunidades.",
+      "2": "A camada pré-sal é o horizonte geológico abaixo do sal onde estão as reservas de petróleo descobertas a partir de 2006. É uma designação geológica, e não o nome da compensação financeira pela exploração de recursos.",
+      "4": "O carvão mineral é um combustível fóssil sólido, e não o conceito que designa a compensação financeira pela exploração de recursos naturais. A questão pede o termo que define os pagamentos feitos pelas empresas exploradoras ao Estado."
+    }
   },
   {
     "id": 3,
@@ -68,7 +79,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O carvão mineral, formado pela compressão de matéria orgânica vegetal ao longo de milhões de anos, é a principal fonte de energia da Revolução Industrial e ainda hoje responde por cerca de 27% da geração de eletricidade global. No Brasil, as reservas são modestas e de baixa qualidade (carvão energético inferior), concentradas no Sul (SC, RS), tornando o país dependente de importações para a siderurgia.</p>",
-    "ajuda": "Leia o texto sobre uma rocha sedimentar fóssil, dividida em graus crescentes de pureza: turfa, linhito, hulha e antracito. Pense em qual recurso energético não renovável é formado a partir da carbonização de matéria orgânica vegetal soterrada. Onde está concentrada a produção desse recurso no Brasil?"
+    "ajuda": "Leia o texto sobre uma rocha sedimentar fóssil, dividida em graus crescentes de pureza: turfa, linhito, hulha e antracito. Pense em qual recurso energético não renovável é formado a partir da carbonização de matéria orgânica vegetal soterrada. Onde está concentrada a produção desse recurso no Brasil?",
+    "feedbacks": {
+      "0": "O petróleo não corresponde à descrição da questão. É um combustível líquido versátil, utilizado principalmente como combustível veicular e matéria-prima petroquímica, com características distintas das que definem o item correto.",
+      "2": "O gás natural não corresponde à descrição da questão. É um combustível de menor impacto ambiental em comparação ao carvão e ao petróleo, com aplicações domésticas e industriais distintas das características do item correto.",
+      "3": "Royalties são compensações financeiras pagas pela exploração de recursos naturais, e não um tipo de combustível ou fonte de energia. Essa opção não corresponde a nenhuma fonte energética.",
+      "4": "A camada pré-sal é uma designação geológica para o horizonte rochoso onde estão as reservas de petróleo, e não uma fonte de energia em si. Ela abriga petróleo e gás natural, mas não é em si mesma um tipo de combustível distinto."
+    }
   },
   {
     "id": 4,
@@ -93,7 +110,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O Brasil possui a maior reserva carbonífera da América do Sul, mas o carvão nacional tem alto teor de cinzas e enxofre, sendo de baixa qualidade energética — predominantemente linhito e carvão betuminoso, não antracito (o mais puro e raro). Afirmar que as reservas brasileiras são majoritariamente de antracito é um erro: o antracito brasileiro é escasso, e o país importa carvão metalúrgico de maior qualidade.</p>",
-    "ajuda": "Atenção: a questão pede a alternativa INCORRETA sobre o carvão mineral. Lembre-se das características reais do carvão brasileiro: baixo teor de carbono (não é antracito, que é o mais puro), reservas na região Sul, necessidade de mistura com carvão importado. Avalie qual afirmativa contradiz essas características reais."
+    "ajuda": "Atenção: a questão pede a alternativa INCORRETA sobre o carvão mineral. Lembre-se das características reais do carvão brasileiro: baixo teor de carbono (não é antracito, que é o mais puro), reservas na região Sul, necessidade de mistura com carvão importado. Avalie qual afirmativa contradiz essas características reais.",
+    "feedbacks": {
+      "0": "Esta afirmativa é verdadeira: o Brasil abriga pequena parcela das reservas mundiais de carvão e não figura entre os grandes detentores globais. Por ser uma informação correta, não deve ser apontada como a alternativa incorreta.",
+      "1": "Esta afirmativa é verdadeira: o carvão brasileiro possui menor teor de carbono e grande quantidade de impurezas, sendo necessário misturá-lo ao carvão importado para uso siderúrgico. O carvão de Santa Catarina e Rio Grande do Sul é de baixa qualidade, o que exige essa mistura. Por ser verdadeira, não deve ser apontada como incorreta.",
+      "2": "A associação entre a formação do carvão e o soterramento de vegetação no período Carbonífero é essencialmente correta. O processo de soterramento e transformação da matéria orgânica ao longo de milhões de anos explica a origem do carvão. Por ser fundamentalmente verdadeira, não deve ser apontada como incorreta.",
+      "3": "A afirmativa de que as reservas de carvão se formaram há cerca de 300 milhões de anos, durante o período Carbonífero, é correta do ponto de vista geológico. O período Carbonífero (aproximadamente 359 a 299 milhões de anos atrás) foi justamente o período de maior formação de carvão no mundo. Por ser verdadeira, não deve ser apontada como incorreta."
+    }
   },
   {
     "id": 5,
@@ -116,7 +139,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O carvão mineral, extraído por mineração a céu aberto ou subterrânea, é uma fonte de energia não renovável e altamente poluente, responsável por grandes emissões de CO₂ e material particulado. Ao contrário das fontes renováveis (solar, eólica, biomassa), o carvão agrava a crise climática — razão pela qual países desenvolvidos têm buscado abandoná-lo como parte dos compromissos do Acordo de Paris.</p>",
-    "ajuda": "Pense na diferença entre fontes de energia renováveis e não renováveis. As fontes renováveis se regeneram naturalmente (hidrelétricas, biomassa, eólica, solar), enquanto as não renováveis se esgotam com o uso (combustíveis fósseis, nuclear com urânio). Identifique qual das alternativas lista uma fonte claramente não renovável e de origem fóssil."
+    "ajuda": "Pense na diferença entre fontes de energia renováveis e não renováveis. As fontes renováveis se regeneram naturalmente (hidrelétricas, biomassa, eólica, solar), enquanto as não renováveis se esgotam com o uso (combustíveis fósseis, nuclear com urânio). Identifique qual das alternativas lista uma fonte claramente não renovável e de origem fóssil.",
+    "feedbacks": {
+      "0": "A biomassa pode ser utilizada como fonte de energia renovável, pois se origina de matéria orgânica que se renova continuamente. Por ser uma fonte renovável, esta alternativa não é a que se diferencia das demais na categoria abordada pela questão.",
+      "1": "O hidrogênio usado como célula combustível é uma fonte de energia limpa e renovável quando produzido a partir de fontes renováveis. Por ser uma fonte alternativa não fóssil, esta alternativa não é a que se diferencia das demais no aspecto abordado.",
+      "2": "O biogás, produzido pela ação de bactérias sobre detritos orgânicos, é uma fonte de energia renovável de origem biológica. Por ser uma fonte que se renova continuamente, esta alternativa não se diferencia das outras no aspecto que a questão aborda.",
+      "4": "A energia geotérmica aproveita o calor interno da Terra e é considerada fonte renovável de energia. Por se renovar continuamente através do calor gerado no interior do planeta, esta alternativa não se diferencia das outras no aspecto que a questão aborda."
+    }
   },
   {
     "id": 6,
@@ -141,7 +170,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A criação da Petrobras em 1953, com o slogan 'O petróleo é nosso', foi o ápice do projeto nacional-desenvolvimentista de Getúlio Vargas, que buscava romper com a dependência do capital estrangeiro na exploração dos recursos naturais estratégicos. A estatal tornou-se símbolo da soberania econômica brasileira e hoje é uma das maiores empresas de energia do mundo, com tecnologia de ponta em águas profundas.</p>",
-    "ajuda": "Leia o texto sobre a história do petróleo no Brasil e sobre Monteiro Lobato. Pense em qual modelo de exploração o governo Vargas escolheu: a estatização da exploração, criando um monopólio estatal. Em 1953, esse projeto culminou na criação de qual empresa estatal? Qual ideologia econômica orientou essa decisão?"
+    "ajuda": "Leia o texto sobre a história do petróleo no Brasil e sobre Monteiro Lobato. Pense em qual modelo de exploração o governo Vargas escolheu: a estatização da exploração, criando um monopólio estatal. Em 1953, esse projeto culminou na criação de qual empresa estatal? Qual ideologia econômica orientou essa decisão?",
+    "feedbacks": {
+      "0": "O presidente Juscelino Kubitschek foi responsável por uma política nacional-desenvolvimentista com abertura ao capital estrangeiro, e não por um projeto econômico de cunho exclusivamente nacionalista. Além disso, a criação da Petrobras em 1953 foi uma iniciativa de Vargas, não de JK.",
+      "1": "O interesse do capital financeiro internacional é o oposto do que motivou a criação da Petrobras, que foi justamente uma resposta nacionalista à pressão das empresas petrolíferas estrangeiras. A campanha 'O petróleo é nosso' expressava resistência ao capital estrangeiro, e não seu incentivo.",
+      "3": "O presidente JK retomou elementos do nacional-desenvolvimentismo, mas com abertura ao capital estrangeiro, o que contraria o caráter exclusivamente nacionalista descrito. Além disso, JK foi responsável pelo Plano de Metas e por Brasília, e não pela fundação da Petrobras em 1953.",
+      "4": "O liberalismo econômico defende a livre concorrência e a atuação mínima do Estado, o oposto do projeto que levou à criação da Petrobras. O estatismo e o nacionalismo econômico de Vargas foram justamente uma reação ao liberalismo e à dependência do capital estrangeiro."
+    }
   },
   {
     "id": 7,
@@ -155,7 +190,7 @@
       "matriz energética"
     ],
     "texto_apoio": "As fontes de energia podem ser classificadas como modernas (carvão, petróleo, água e átomo) e alternativas (biomassa, sol, hidrogênio, mares e ventos).",
-    "pergunta": "Associe adequadamente as afirmações apresentadas abaixo, no bloco inferior, às respectivas fontes de energia, listadas no bloco superior.\n\n( ) No Brasil, essa fonte de energia gera cerca de 36% da energia total e cerca de 90% da energia elétrica consumida no país.\n\n( ) juntamente com o gás natural, essa fonte de energia gera cerca de 55% da energia consumida mundialmente.\n\n( ) é uma fonte de energia produzida a partir de plantas das quais se extrai o álcool.\n\n( ) De acordo com a porcentagem de carbono, essa fonte de energia pode ser chamada de linhito, hulha e antracito.\n\nA sequência correta de preenchimento dos parêntese, de cima para baixo, é\n\n(1) carvão (2) petróleo (3) água (4) calor da Terra (5) biomassa",
+    "pergunta": "Associe adequadamente as afirmações apresentadas abaixo, no bloco inferior, às respectivas fontes de energia, listadas no bloco superior.\n\n(1) carvão \n\n(2) petróleo \n\n(3) água \n\n(4) calor da Terra \n\n(5) biomassa\n\n( ) No Brasil, essa fonte de energia gera cerca de 36% da energia total e cerca de 90% da energia elétrica consumida no país.\n\n( ) juntamente com o gás natural, essa fonte de energia gera cerca de 55% da energia consumida mundialmente.\n\n( ) é uma fonte de energia produzida a partir de plantas das quais se extrai o álcool.\n\n( ) De acordo com a porcentagem de carbono, essa fonte de energia pode ser chamada de linhito, hulha e antracito.\n\nA sequência correta de preenchimento dos parêntese, de cima para baixo, é:",
     "alternativas": [
       "2-1-3-4.",
       "5-3-1-2.",
@@ -165,7 +200,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A classificação das fontes de energia distingue fontes primárias (obtidas diretamente da natureza: petróleo, carvão, sol, vento) de secundárias (transformadas: eletricidade, gasolina, etanol). Entre as renováveis estão biomassa, solar, eólica e hidroelétrica; entre as não renováveis, petróleo, gás natural e carvão. O Brasil tem uma das matrizes energéticas mais renováveis do mundo, com destaque para a hidroeletricidade.</p>",
-    "ajuda": "Associe cada fonte de energia à sua descrição: energia hidráulica (90% da eletricidade do Brasil), petróleo (55% da energia mundial junto com gás), biomassa (álcool de plantas) e carvão (linhito, hulha, antracito por grau de carbono). Organize corretamente a sequência de associação entre as fontes e as afirmativas."
+    "ajuda": "Associe cada fonte de energia à sua descrição: energia hidráulica (90% da eletricidade do Brasil), petróleo (55% da energia mundial junto com gás), biomassa (álcool de plantas) e carvão (linhito, hulha, antracito por grau de carbono). Organize corretamente a sequência de associação entre as fontes e as afirmativas.",
+    "feedbacks": {
+      "0": "Esta sequência não corresponde à associação correta entre os elementos indicados. A ordem correta é 3-2-5-1, diferindo da apresentada em todas as posições.",
+      "1": "Esta sequência não corresponde à associação correta. A posição dos elementos diverge da sequência 3-2-5-1 em todos os pontos.",
+      "2": "Esta sequência está parcialmente correta nas duas primeiras posições, mas erra na terceira. O elemento 5 é o correto para a terceira posição, e não o elemento 4.",
+      "3": "Esta sequência não corresponde à associação correta. A sequência correta é 3-2-5-1, diferindo em todos os pontos da apresentada."
+    }
   },
   {
     "id": 8,
@@ -189,7 +230,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O Gasoduto Brasil-Bolívia (GASBOL), com 3.150 km, conecta os campos gasíferos bolivianos ao Sudeste e Sul do Brasil desde 1999. Ele foi fundamental para expandir o setor termoelétrico brasileiro nos anos 2000, diversificando a matriz energética para além da hidroeletricidade. Essa integração energética sul-americana é um exemplo de cooperação geopolítica regional com impactos concretos no planejamento energético brasileiro.</p>",
-    "ajuda": "Observe o mapa do gasoduto Brasil-Bolívia. Pense em qual é a principal finalidade desse projeto de integração energética: transportar gás natural da Bolívia para abastecer as termelétricas e a indústria no Brasil, especialmente no Sudeste. Qual alternativa descreve corretamente o objetivo estratégico desse gasoduto?"
+    "ajuda": "Observe o mapa do gasoduto Brasil-Bolívia. Pense em qual é a principal finalidade desse projeto de integração energética: transportar gás natural da Bolívia para abastecer as termelétricas e a indústria no Brasil, especialmente no Sudeste. Qual alternativa descreve corretamente o objetivo estratégico desse gasoduto?",
+    "feedbacks": {
+      "0": "O gasoduto Brasil-Bolívia não foi construído para dinamizar núcleos de povoamento na Amazônia; seu traçado passa pelo Centro-Oeste e Sudeste, em direção a São Paulo. A finalidade amazônica está associada a outros projetos, como o SIVAM.",
+      "1": "O gasoduto Brasil-Bolívia não foi construído para abrir saída para o Oceano Pacífico. Seu traçado vai da Bolívia até São Paulo, em direção ao Atlântico, com o objetivo de fornecer gás natural para abastecer indústrias e termelétricas brasileiras.",
+      "2": "O gasoduto não foi construído para estreitar a cooperação na vigilância da Amazônia via SIVAM. O Projeto SIVAM é um sistema de monitoramento aéreo sem relação direta com gasodutos de fornecimento de gás natural.",
+      "4": "O gasoduto Brasil-Bolívia não foi projetado para melhorar o sistema viário do Mercosul nem para intensificar trocas comerciais com países andinos. É uma infraestrutura de distribuição de gás natural, e não uma via de transporte de cargas ou passageiros."
+    }
   },
   {
     "id": 9,
@@ -212,7 +259,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O gás natural é um hidrocarboneto fóssil extraído geralmente associado ao petróleo em bacias sedimentares. Sua distribuição exige gasodutos ou navios metaneiros (GNL — Gás Natural Liquefeito), infraestrutura cara e especializada. Apesar de mais limpo que o carvão, o gás natural ainda é não renovável e contribui para as emissões de gases de efeito estufa, sendo considerado uma 'energia de transição'.</p>",
-    "ajuda": "Observe o gráfico de fontes de energia. Pense nas características de cada fonte: o petróleo é uma fonte primária não renovável da Revolução Industrial do século XX (não do XIX). O carvão brasileiro é de baixo teor de carbono. As hidrelétricas têm impactos ambientais (alagamentos). O gás natural contribui para o efeito estufa. Qual afirmativa está correta?"
+    "ajuda": "Observe o gráfico de fontes de energia. Pense nas características de cada fonte: o petróleo é uma fonte primária não renovável da Revolução Industrial do século XX (não do XIX). O carvão brasileiro é de baixo teor de carbono. As hidrelétricas têm impactos ambientais (alagamentos). O gás natural contribui para o efeito estufa. Qual afirmativa está correta?",
+    "feedbacks": {
+      "0": "O petróleo não é uma fonte de energia renovável; é um combustível fóssil não renovável formado ao longo de milhões de anos. Além disso, o petróleo não foi o principal motor da Primeira Revolução Industrial, que se baseou no carvão; o petróleo ganhou importância na Segunda Revolução Industrial.",
+      "1": "O carvão mineral é o combustível fóssil mais abundante do mundo, e não o menos abundante. Além disso, o carvão é a fonte com maior intensidade de emissões de CO2 por unidade de energia gerada, sendo amplamente utilizado em termelétricas.",
+      "2": "As hidrelétricas apresentam importantes inconvenientes ambientais, como alagamento de áreas, destruição de ecossistemas, deslocamento de populações e emissão de metano nos reservatórios. Afirmar que não apresentam nenhum inconveniente contradiz os impactos documentados de grandes obras hidrelétricas.",
+      "3": "A energia nuclear apresenta sérios riscos de contaminação ambiental por radiação, como demonstraram Chernobyl (1986), Three Mile Island (1979) e Fukushima (2011). Afirmar que não apresenta nenhum risco de contaminação contradiz os registros históricos de acidentes nucleares."
+    }
   },
   {
     "id": 10,
@@ -237,6 +290,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O pré-sal brasileiro, descoberto em camadas rochosas a mais de 5.000 metros de profundidade sob o leito oceânico, exige tecnologia de perfuração de vanguarda. A Petrobras desenvolveu expertise única em exploração em águas ultraprofundas, tornando-se referência mundial. A gestão desse recurso estratégico — com quanto extrair, a que ritmo e como distribuir os royalties — é um dos grandes desafios geopolíticos do Brasil no século XXI.</p>",
-    "ajuda": "Leia o texto sobre as descobertas do pré-sal. Pense nas implicações da exploração em grandes profundidades: necessidade de tecnologia avançada, custos elevados de extração e necessidade de marcos regulatórios. Analise qual alternativa descreve corretamente os desafios e oportunidades da exploração do pré-sal para o Brasil."
+    "ajuda": "Leia o texto sobre as descobertas do pré-sal. Pense nas implicações da exploração em grandes profundidades: necessidade de tecnologia avançada, custos elevados de extração e necessidade de marcos regulatórios. Analise qual alternativa descreve corretamente os desafios e oportunidades da exploração do pré-sal para o Brasil.",
+    "feedbacks": {
+      "0": "O Brasil não se tornará necessariamente o maior produtor de petróleo do mundo com o pré-sal, pois outros países possuem reservas muito maiores. A descoberta de reservas fósseis também não elimina a importância das energias renováveis para a transição energética.",
+      "2": "A exploração do pré-sal exigiu aprovação de nova legislação, que determinou o regime de partilha de produção em 2010. Afirmar que a exploração independia de novas leis é factualmente incorreto.",
+      "3": "A ligação direta entre a dificuldade econômica do Brasil e a crise da indústria automobilística é uma simplificação equivocada. Os obstáculos à exploração do pré-sal estão mais relacionados a custos de extração, à capacidade técnica da Petrobras e ao preço internacional do petróleo.",
+      "4": "Afirmar categoricamente que o consumo sempre superará a produção por vinte anos é uma previsão imprecisa. O Brasil já alcançou autossuficiência em petróleo em vários anos, e o pré-sal ampliou significativamente as reservas e a produção nacional."
+    }
   }
 ]

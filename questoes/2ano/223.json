@@ -23,7 +23,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A queda da mortalidade infantil no Brasil foi resultado de avanços combinados em saneamento básico, vacinação, programas de aleitamento materno e assistência ao pré-natal. Países em desenvolvimento que alcançaram melhores indicadores de saúde infantil passaram por transições demográficas mais rápidas, com queda posterior da natalidade. As proposições I, II e III refletem corretamente esse processo de desenvolvimento humano.</p>",
-    "ajuda": "O gráfico mostra taxas de mortalidade infantil em diferentes países. Analise cada proposição comparando os dados: tendências de queda, diferenças entre países desenvolvidos e em desenvolvimento. Elimine as que contradizem os dados do gráfico."
+    "ajuda": "O gráfico mostra taxas de mortalidade infantil em diferentes países. Analise cada proposição comparando os dados: tendências de queda, diferenças entre países desenvolvidos e em desenvolvimento. Elimine as que contradizem os dados do gráfico.",
+    "feedbacks": {
+      "0": "A combinação II e IV exclui a afirmativa I, que é correta, e inclui a IV, que contém erros. O conjunto correto é formado pelas afirmativas I, II e III.",
+      "1": "A combinação I e II exclui a afirmativa III, que também é correta. O conjunto correto inclui I, II e III.",
+      "3": "A combinação I e IV exclui a afirmativa III, que é correta, e inclui a IV, que apresenta erros. O conjunto correto é I, II e III.",
+      "4": "Afirmar que todas as proposições são corretas inclui a IV, que contém erros. O conjunto correto restringe-se às afirmativas I, II e III."
+    }
   },
   {
     "id": 2,
@@ -49,7 +55,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O envelhecimento da população brasileira segue a tendência global de transição demográfica, com queda na natalidade e aumento da expectativa de vida. Esse processo pressiona os sistemas de saúde pública, que precisam se reorganizar para atender doenças crônicas e degenerativas típicas da terceira idade. A pirâmide etária com topo mais largo indica demanda crescente por cuidados geriátricos, aposentadorias e políticas de longevidade.</p>",
-    "ajuda": "A pirâmide etária projetada para 2020 tem base mais estreita e topo mais largo. Isso indica envelhecimento populacional, redução da natalidade e aumento da expectativa de vida. Pense nas consequências para políticas públicas e mercado de trabalho."
+    "ajuda": "A pirâmide etária projetada para 2020 tem base mais estreita e topo mais largo. Isso indica envelhecimento populacional, redução da natalidade e aumento da expectativa de vida. Pense nas consequências para políticas públicas e mercado de trabalho.",
+    "feedbacks": {
+      "1": "O estreitamento da base da pirâmide etária indica redução da proporção de crianças e jovens, reflexo da queda da natalidade, e não um crescimento percentual da base. A afirmativa descreve o inverso do fenômeno representado.",
+      "2": "A transição demográfica no Brasil não demonstra um aumento da proporção de idosos de forma desvantajosa isolada para a seguridade social; o fenômeno envolve múltiplas dimensões. A afirmativa não corresponde ao que a pirâmide etária apresentada demonstra.",
+      "3": "As mulheres de 70 anos ou mais representavam em 1980 uma parcela muito menor da população total de cerca de 120 milhões de habitantes. O número de 6 milhões apenas nesse grupo etário seria desproporcional ao total da população da época.",
+      "4": "O crescimento vegetativo brasileiro tem diminuído ao longo das décadas, e não aumentado. A queda da natalidade caracteriza a transição demográfica brasileira, com redução progressiva do ritmo de crescimento vegetativo."
+    }
   },
   {
     "id": 3,
@@ -72,7 +84,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A revolução médico-sanitária do século XX — com antibióticos, vacinas e saneamento — reduziu drasticamente a mortalidade no Brasil sem que houvesse queda imediata na natalidade. Esse descompasso gerou um boom populacional nas décadas de 1950 a 1970. Posteriormente, a urbanização, o acesso à educação feminina e os métodos contraceptivos levaram à queda da fecundidade e ao aumento da expectativa de vida.</p>",
-    "ajuda": "A revolução médico-sanitária reduziu a mortalidade por doenças infecciosas, mas a natalidade demorou a cair. Isso gerou crescimento populacional acelerado. Reflita sobre quais indicadores demográficos foram mais diretamente afetados."
+    "ajuda": "A revolução médico-sanitária reduziu a mortalidade por doenças infecciosas, mas a natalidade demorou a cair. Isso gerou crescimento populacional acelerado. Reflita sobre quais indicadores demográficos foram mais diretamente afetados.",
+    "feedbacks": {
+      "1": "A ampliação da natalidade é o oposto do que caracteriza o envelhecimento populacional. O processo resulta da queda da natalidade combinada com a redução da mortalidade e o aumento da longevidade.",
+      "2": "A taxa de dependência não se reduz com o envelhecimento; ao contrário, ela aumenta à medida que cresce a proporção de idosos em relação à população ativa. O número de idosos também cresce, não diminui.",
+      "3": "A ampliação da fecundidade é o oposto do que ocorre no envelhecimento. Esse processo está associado à queda da fecundidade, e não ao seu aumento.",
+      "4": "A redução da fertilidade contribui para o envelhecimento, mas não implica diminuição da população absoluta no Brasil. O país ainda tem crescimento vegetativo positivo, e a população total segue aumentando."
+    }
   },
   {
     "id": 4,
@@ -98,7 +116,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O envelhecimento populacional impõe ao Estado reformas estruturais em sistemas de previdência social, saúde e assistência ao idoso. A razão de dependência — proporção de idosos em relação à população economicamente ativa — tende a aumentar, pressionando as finanças públicas. Políticas públicas proativas incluem ampliação de UTIs geriátricas, centros-dia e reformas previdenciárias que reflitam a nova realidade demográfica.</p>",
-    "ajuda": "O envelhecimento populacional exige adaptação das políticas públicas. Pense em quais áreas são diretamente afetadas pelo aumento da proporção de idosos: saúde, previdência, mobilidade. Descarte alternativas que não se referem a esse grupo específico."
+    "ajuda": "O envelhecimento populacional exige adaptação das políticas públicas. Pense em quais áreas são diretamente afetadas pelo aumento da proporção de idosos: saúde, previdência, mobilidade. Descarte alternativas que não se referem a esse grupo específico.",
+    "feedbacks": {
+      "0": "Políticas educacionais para jovens não respondem diretamente ao desafio do envelhecimento. A questão pede a medida mais adequada para lidar com as demandas geradas pelo crescimento da população idosa.",
+      "1": "Políticas para imigrantes podem contribuir para o equilíbrio demográfico a longo prazo, mas não são a resposta direta aos desafios imediatos do envelhecimento da população já residente.",
+      "3": "A redução da idade de aposentadoria aumentaria os custos previdenciários, o oposto do necessário diante do envelhecimento. As reformas previdenciárias relacionadas ao envelhecimento buscam equilibrar receitas e despesas, e não ampliar benefícios sem contrapartida.",
+      "4": "Desenvolver políticas que aprofundem desigualdades de gênero é o oposto do que o envelhecimento populacional demanda. A questão aborda políticas que atendam às crescentes necessidades da população idosa."
+    }
   },
   {
     "id": 5,
@@ -121,7 +145,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O crescimento vegetativo corresponde à diferença entre taxa de natalidade e taxa de mortalidade. Com a queda acentuada da fecundidade registrada no Brasil entre 1940 e 2010, o ritmo de crescimento da população diminuiu significativamente. Esse processo marca a segunda fase da transição demográfica, em que a população envelhece e o crescimento natural se desacelera.</p>",
-    "ajuda": "O gráfico mostra queda na taxa de fecundidade total entre 1940 e 2010. Uma menor fecundidade significa menos filhos por mulher. Qual é a consequência demográfica mais direta dessa tendência para a estrutura etária da população?"
+    "ajuda": "O gráfico mostra queda na taxa de fecundidade total entre 1940 e 2010. Uma menor fecundidade significa menos filhos por mulher. Qual é a consequência demográfica mais direta dessa tendência para a estrutura etária da população?",
+    "feedbacks": {
+      "0": "A queda da natalidade não necessariamente leva ao decréscimo da população absoluta no curto prazo. Enquanto houver saldo positivo entre nascimentos e óbitos, a população ainda cresce, apenas de forma mais lenta.",
+      "2": "A queda da natalidade reduz a proporção de jovens, mas a proporção de adultos pode crescer no curto prazo com a transição demográfica. A diminuição dos jovens não significa redução imediata dos adultos.",
+      "3": "A queda da natalidade no Brasil ocorreu principalmente por fatores socioeconômicos, como urbanização e escolarização feminina, e não por políticas de controle governamental. Além disso, não é consequência do processo, mas uma de suas causas.",
+      "4": "A queda da natalidade reduz a renovação da PEA a longo prazo, e não a aumenta. Com menos jovens entrando no mercado de trabalho, a renovação diminui progressivamente."
+    }
   },
   {
     "id": 6,
@@ -145,7 +175,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A pirâmide etária com topo alargado e base estreita é característica de países em estágio avançado de transição demográfica, onde a mortalidade foi controlada e a fecundidade caiu abaixo do nível de reposição. No Brasil, esse padrão se consolidou a partir dos anos 1990, com expectativa de vida ultrapassando 75 anos e taxa de fecundidade abaixo de 1,8 filho por mulher nas regiões mais urbanizadas.</p>",
-    "ajuda": "A pirâmide etária com topo largo e base estreita indica baixa natalidade e alta longevidade. Pense no que isso significa para cada indicador: a expectativa de vida é alta, a natalidade é baixa, mas isso não equivale a queda no número absoluto de adultos imediatamente."
+    "ajuda": "A pirâmide etária com topo largo e base estreita indica baixa natalidade e alta longevidade. Pense no que isso significa para cada indicador: a expectativa de vida é alta, a natalidade é baixa, mas isso não equivale a queda no número absoluto de adultos imediatamente.",
+    "feedbacks": {
+      "0": "A combinação de baixa mortalidade e elevada esperança de vida descreve apenas parte do processo de envelhecimento. O fator complementar essencial é a baixa natalidade, e não apenas a mortalidade reduzida.",
+      "2": "Alta natalidade e baixa expectativa de vida caracterizam populações jovens em países em desenvolvimento, e não populações envelhecidas. O envelhecimento é produto do processo inverso.",
+      "3": "Maior fecundidade e estagnação da mortalidade caracterizam populações em crescimento jovem, e não em envelhecimento. O envelhecimento decorre da queda da fecundidade.",
+      "4": "A queda no número absoluto de jovens é uma característica do envelhecimento avançado, mas a baixa fecundidade sozinha não explica o processo completamente. A elevada expectativa de vida é o fator que, combinado à baixa natalidade, define o envelhecimento."
+    }
   },
   {
     "id": 7,
@@ -168,7 +204,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A transição demográfica brasileira acelerou-se nas últimas décadas do século XX, com melhoria do acesso à saúde, urbanização e empoderamento feminino reduzindo a fecundidade. Simultaneamente, o controle das doenças infecciosas e a melhoria nutricional ampliaram a longevidade. O resultado é uma população que vive mais, mas com menos nascimentos por mulher, configurando o envelhecimento progressivo da pirâmide.</p>",
-    "ajuda": "O texto descreve o comportamento demográfico atual do Brasil. Lembre-se que o Brasil está em fase avançada de transição demográfica: queda da natalidade, queda da mortalidade e aumento da expectativa de vida são as tendências dominantes."
+    "ajuda": "O texto descreve o comportamento demográfico atual do Brasil. Lembre-se que o Brasil está em fase avançada de transição demográfica: queda da natalidade, queda da mortalidade e aumento da expectativa de vida são as tendências dominantes.",
+    "feedbacks": {
+      "0": "A elevação da natalidade produziria o efeito inverso, rejuvenescendo a pirâmide com alargamento da base. O envelhecimento resulta justamente da redução da natalidade e do aumento da longevidade.",
+      "1": "A elevação da mortalidade reduziria a expectativa de vida e não promoveria o alargamento do topo da pirâmide. O crescimento da faixa dos idosos reflete aumento da sobrevivência, e não da mortalidade.",
+      "2": "A ampliação da fecundidade aumentaria a proporção de jovens, alargando a base e não o topo da pirâmide. O envelhecimento está associado à redução da fecundidade, e não ao seu aumento."
+    }
   },
   {
     "id": 8,
@@ -191,7 +232,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Thomas Malthus argumentou no século XVIII que o crescimento populacional tende a superar a produção de alimentos, levando a crises periódicas de fome e miséria. As afirmativas I e II descrevem distorções ou usos ideológicos do malthusianismo, como culpar os pobres pela superpopulação. Apenas a afirmativa III está correta ao contextualizar criticamente as ideias de Malthus dentro de sua época histórica.</p>",
-    "ajuda": "O texto apresenta ideias sobre controle populacional. Relacione as proposições com as teorias demográficas: malthusianismo defende que a superpopulação leva à miséria; o neomalthusianismo propõe controle ativo da natalidade. Verifique quais afirmativas estão corretas."
+    "ajuda": "O texto apresenta ideias sobre controle populacional. Relacione as proposições com as teorias demográficas: malthusianismo defende que a superpopulação leva à miséria; o neomalthusianismo propõe controle ativo da natalidade. Verifique quais afirmativas estão corretas.",
+    "feedbacks": {
+      "0": "A combinação I e II inclui as afirmativas I e II, que apresentam equívocos. Apenas a afirmativa III está correta conforme as informações da questão.",
+      "1": "A afirmativa II apresenta erros sobre o tema demográfico abordado. Apenas a afirmativa III está correta.",
+      "3": "A combinação I e III inclui a afirmativa I, que contém erros. Somente a afirmativa III está correta."
+    }
   },
   {
     "id": 9,
@@ -214,7 +260,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A densidade demográfica, ou população relativa, expressa a quantidade média de habitantes por unidade de área (geralmente km²). É um indicador útil para comparar a distribuição da população entre diferentes territórios, mas não revela desigualdades internas — regiões com mesma densidade podem ter padrões de ocupação muito distintos, como áreas metropolitanas densas e vastas zonas rurais vazias.</p>",
-    "ajuda": "A expressão em questão se refere à relação entre número de pessoas e área territorial. Pense na definição exata de densidade demográfica: é justamente essa razão entre quantidade de habitantes e extensão do território."
+    "ajuda": "A expressão em questão se refere à relação entre número de pessoas e área territorial. Pense na definição exata de densidade demográfica: é justamente essa razão entre quantidade de habitantes e extensão do território.",
+    "feedbacks": {
+      "0": "A demografia é o estudo científico das populações em seus aspectos quantitativos e qualitativos. Não é o conceito específico que expressa a relação numérica entre habitantes e área territorial.",
+      "2": "População local é um termo informal que indica os habitantes de um determinado lugar, sem expressar a relação proporcional entre número de pessoas e extensão de área.",
+      "3": "Relação habitante/área descreve o cálculo em si, mas não é o nome técnico do conceito geográfico. A questão pede o termo específico que designa essa relação.",
+      "4": "População residente é o conjunto de pessoas que habitam determinado lugar de forma permanente. Não é o conceito que expressa a relação entre número de habitantes e a extensão territorial."
+    }
   },
   {
     "id": 10,
@@ -238,6 +290,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O acesso à informação é profundamente desigual no mundo, com concentração de infraestrutura digital nos países ricos e nas grandes cidades. O mapa evidencia que a chamada 'divisão digital' segue a lógica do subdesenvolvimento: países do Sul Global têm menor penetração de internet, televisão e meios de comunicação, perpetuando a exclusão informacional. Essa desigualdade reforça assimetrias econômicas e políticas entre nações.</p>",
-    "ajuda": "O mapa provavelmente mostra acesso à internet ou a tecnologias da informação. Pense em como essas tecnologias são distribuídas no mundo: países desenvolvidos têm maior acesso, criando uma divisão digital global. Qual conceito isso expressa?"
+    "ajuda": "O mapa provavelmente mostra acesso à internet ou a tecnologias da informação. Pense em como essas tecnologias são distribuídas no mundo: países desenvolvidos têm maior acesso, criando uma divisão digital global. Qual conceito isso expressa?",
+    "feedbacks": {
+      "0": "A homogeneidade no avanço tecnológico é o oposto do que caracteriza a globalização; a tecnologia se distribui de forma desigual, com países e grupos sociais com acesso muito diferenciado.",
+      "1": "A intolerância às mudanças socioeconômicas não é uma consequência direta da globalização relacionada ao acesso à informação. A questão aborda um fenômeno específico ligado à distribuição desigual dos benefícios tecnológicos.",
+      "3": "A heterogeneidade no setor privado de logística é uma característica do mercado empresarial, e não uma consequência social da globalização ligada ao acesso desigual à informação e às oportunidades.",
+      "4": "A equidade nas telecomunicações seria um resultado positivo, o oposto do que a questão aborda. A globalização tem aprofundado as desigualdades no acesso às tecnologias de comunicação, e não promovido equidade."
+    }
   }
 ]

@@ -281,6 +281,17 @@
 
             <p>A <span class="termo" data-palavra="Primazia Urbana" data-definicao="Fenômeno em que uma única cidade domina de forma desproporcional a rede urbana de um país ou região, concentrando funções, população e poder econômico muito acima do segundo maior centro. São Paulo exerce primazia sobre a rede urbana brasileira: com cerca de 22 milhões na região metropolitana, é três vezes maior que Rio de Janeiro e concentra mais de 30% do PIB nacional.">primazia urbana</span> de São Paulo é expressão desse processo: a cidade concentra mais de 30% do PIB nacional, é sede das maiores empresas do país, do principal aeroporto internacional, da maior bolsa de valores e dos principais centros culturais. Não é errado que São Paulo seja grande, mas é sintomático que o Brasil precise tanto de uma única cidade para funcionar.</p>
 
+            <p>Um estudo do IBGE de 2024, chamado Gestão do Território, buscou identificar quais municípios
+                brasileiros funcionam como centros de comando na rede urbana, os chamados Centros de Gestão do
+                Território. De um universo de 5.570 municípios do país, apenas 39,1% se qualificaram como Centros de
+                Gestão em 2024. Um dos indicadores usados para medir essa centralidade é o número de
+                <strong>assalariados externos</strong>, trabalhadores ligados a empresas sediadas em um município mas
+                que atuam fora dele, o que revela o alcance da gestão empresarial daquele centro sobre outras áreas.
+                Barueri, na Região Metropolitana de São Paulo, é um exemplo de município que vem ampliando seu número
+                de assalariados externos: por concentrar sedes de grandes empresas, especialmente do setor de
+                serviços, o crescimento desse indicador em Barueri reforça exatamente a posição de topo que a Região
+                Metropolitana de São Paulo ocupa na hierarquia urbana brasileira.</p>
+
             <div class="w3-margin">
                 <img src="ts28f04.png" alt="Infográfico mostrando a concentração do PIB brasileiro nas metrópoles do Sudeste em comparação com o restante do país"
                     class="w3-mobile"

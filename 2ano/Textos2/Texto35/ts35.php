@@ -149,6 +149,23 @@
             <hr>
         </div>
 
+        
+        <!-- BLOCO 13.5: Os quatro Brasis e o meio técnico-científico-informacional -->
+        <div class="topico">
+
+            <h2>Os quatro Brasis e o meio técnico-científico-informacional</h2>
+
+            <p>O geógrafo Milton Santos propôs que o território brasileiro pode ser dividido em grandes conjuntos regionais de acordo com a intensidade da presença do <span class="termo" data-palavra="Meio Técnico-Científico-Informacional" data-definicao="Conceito de Milton Santos para o período atual do espaço geográfico, no qual a técnica, a ciência e a informação se fundem e se espalham de forma desigual pelo território, criando áreas de alta densidade tecnológica e informacional, como grandes cidades e regiões agroindustriais modernas, e áreas onde essas inovações ainda chegam de forma fragmentada ou tardia.">meio técnico-científico-informacional</span>, ou seja, o quanto cada região concentra tecnologia, ciência e fluxos de informação aplicados à produção. Essa divisão ficou conhecida como os "quatro Brasis".</p>
+
+            <p>A <strong>Região Concentrada</strong> (Sudeste e Sul) reúne a maior densidade de indústrias, serviços avançados, universidades e redes de telecomunicações, funcionando como o núcleo de comando da economia nacional. O <strong>Centro-Oeste agroindustrial</strong> forma outro Brasil, marcado pela agricultura de precisão, forte mecanização e conexão direta com os mercados globais, apesar de sua rede urbana ainda ser mais rarefeita. O <strong>Nordeste</strong> apresenta uma coexistência entre polos modernos, como os complexos agroindustriais irrigados e os polos tecnológicos urbanos, e áreas onde as técnicas tradicionais ainda predominam. Por fim, a <strong>Amazônia</strong> constitui o Brasil onde o meio técnico-científico-informacional chega de forma mais fragmentada e pontual, concentrado em poucas cidades e projetos de mineração, com grandes vazios de infraestrutura digital e de transporte.</p>
+
+            <p>O crescimento do <strong>e-commerce</strong> nas últimas décadas é um bom exemplo de como esse meio técnico-científico-informacional se distribui de forma desigual pelo território. Os grandes centros de distribuição das empresas de comércio eletrônico se concentram na Região Concentrada, o que garante prazos de entrega mais curtos e maior variedade de produtos para quem mora nessa área. Já em cidades do Nordeste, do Centro-Oeste e, principalmente, da Amazônia, o mesmo produto pode levar semanas para chegar ou simplesmente não estar disponível, o que mostra que a modernização do território não avança de maneira uniforme, mas segue os mesmos eixos de riqueza e infraestrutura que já caracterizavam o Brasil antes da internet.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
 
         <!-- BLOCO 5: Questão prática 1 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
@@ -407,6 +424,7 @@
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
             <hr>
         </div>
+
 
 
         <!-- BLOCO 14: Transição final -->

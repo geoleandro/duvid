@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Aquíferos são formações geológicas porosas ou fraturadas capazes de armazenar e transmitir água subterrânea em volume explorável. O Aquífero Guarani, um dos maiores do mundo, abastece cidades e estâncias termais de quatro países sul-americanos, sendo estratégico para a segurança hídrica regional. Sua recarga depende das chuvas que infiltram nas áreas aflorantes, principalmente no Brasil.</p>",
-    "ajuda": "Aquíferos são reservatórios subterrâneos de água armazenados em rochas porosas ou fraturadas. Lembre-se que eles fazem parte do ciclo hidrológico, são acessíveis por poços e são utilizados para abastecimento em diversas partes do mundo."
+    "ajuda": "Aquíferos são reservatórios subterrâneos de água armazenados em rochas porosas ou fraturadas. Lembre-se que eles fazem parte do ciclo hidrológico, são acessíveis por poços e são utilizados para abastecimento em diversas partes do mundo.",
+    "feedbacks": {
+      "1": "Aquíferos não são reservatórios de águas superficiais nem têm origem vulcânica. São formações geológicas subterrâneas permeáveis que armazenam água proveniente da infiltração de chuvas, e não de processos vulcânicos.",
+      "2": "O custo de tratamento não inviabiliza o uso dos aquíferos; ao contrário, as águas subterrâneas são amplamente utilizadas no Brasil para abastecimento humano e irrigação. O aquífero Guarani, por exemplo, é uma das maiores reservas de água doce do mundo.",
+      "3": "Aquíferos não são formados pela ação dos ventos. Sua formação depende da infiltração da água da chuva nas rochas porosas e permeáveis do subsolo, e não da acumulação de areia por ventos.",
+      "4": "Aquíferos são explorados em diversas profundidades por meio de poços artesianos e semi-artesianos. Afirmar que a profundidade impossibilita seu uso contradiz a existência de sistemas de captação de água subterrânea em todo o Brasil."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O rio São Francisco é o principal rio de integração nacional, mas sua extensão navegável é limitada por cachoeiras e obras de engenharia. A bacia Amazônica possui o maior potencial de navegação do Brasil, com milhares de quilômetros de rios perenes e profundos que cortam a floresta. A afirmativa sobre o São Francisco está incorreta pois confunde importância histórica com capacidade de navegação.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre bacias hidrográficas brasileiras. Revise os dados de cada bacia: extensão, localização, potencial navegável. A bacia do São Francisco é navegável, mas é a maior em navegação interna?"
+    "ajuda": "A questão pede a alternativa INCORRETA sobre bacias hidrográficas brasileiras. Revise os dados de cada bacia: extensão, localização, potencial navegável. A bacia do São Francisco é navegável, mas é a maior em navegação interna?",
+    "feedbacks": {
+      "0": "A bacia Amazônica tem extensão de cerca de 7 milhões de km², mas a afirmativa sobre o São Francisco como maior via navegável é a informação mais relevante e precisa para o tema da questão. A extensão da Amazônica não contradiz a afirmativa correta.",
+      "1": "A bacia do Paraguai está presente em Mato Grosso e Mato Grosso do Sul, o que é geograficamente correto. No entanto, essa informação não é a que descreve com maior precisão a característica mais relevante pedida pela questão.",
+      "2": "Os estados do RS e SC abrigam a bacia do Uruguai, o que é correto. Porém, essa afirmativa não contém a informação mais específica e verificável sobre as características hidroviárias pedidas.",
+      "3": "A bacia Tocantins-Araguaia é de fato a maior bacia exclusivamente brasileira, mas os dados de extensão podem variar conforme a fonte. Além disso, a questão destaca a maior possibilidade de navegação como a característica mais relevante pedida."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As três maiores regiões hidrográficas brasileiras — Amazônica, São Francisco e Paraná — concentram o maior volume de água doce e os mais importantes sistemas de geração de energia hidrelétrica do país. A bacia Amazônica é a maior do mundo em vazão; a do Paraná abriga Itaipu e Tucuruí; e o São Francisco é o único grande rio inteiramente brasileiro com regime perene no Semiárido.</p>",
-    "ajuda": "O mapa apresenta 12 regiões hidrográficas. Analise as características de cada uma: a que ocupa 45% do território, a mais importante para transposição e a maior em potencial hidrelétrico. Use o raciocínio eliminatório."
+    "ajuda": "O mapa apresenta 12 regiões hidrográficas. Analise as características de cada uma: a que ocupa 45% do território, a mais importante para transposição e a maior em potencial hidrelétrico. Use o raciocínio eliminatório.",
+    "feedbacks": {
+      "0": "A bacia do Paraguai não está entre as três maiores do Brasil em extensão. O grupo das maiores inclui Amazônica, Paraná e Tocantins-Araguaia ou São Francisco, sendo o Paraguai de extensão menor no território brasileiro.",
+      "1": "A bacia do Parnaíba é de pequena extensão em relação às maiores bacias brasileiras. Embora a Amazônica e o Paraná sejam as duas maiores, o Parnaíba não integra o grupo das três maiores bacias do país.",
+      "2": "O Pantanal não é uma bacia hidrográfica; é uma planície de inundação que faz parte da bacia do Paraguai. A substituição do Paraguai pelo Pantanal como bacia hidrográfica constitui um equívoco conceitual.",
+      "4": "A bacia do Paraguai tem extensão menor do que a do São Francisco no território brasileiro. As três maiores bacias são a Amazônica, o Paraná e o São Francisco (ou Tocantins-Araguaia, dependendo da classificação adotada)."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O regime fluvial descreve a variação da vazão de um rio ao longo do ano, sendo determinado principalmente pelo regime de chuvas da bacia. Rios de clima tropical têm cheias bem definidas no verão e secas no inverno — o regime pluvial tropical. Já no Semiárido, as chuvas são escassas e irregulares, gerando rios com regime intermitente ou semiárido, como mostrado no gráfico.</p>",
-    "ajuda": "Os gráficos de vazão mostram o regime fluvial dos rios ao longo do ano. Identifique qual regime corresponde ao tropical (com estiagem no inverno) e qual ao equatorial (com chuvas mais regulares). Isso define qual captação é mais segura."
+    "ajuda": "Os gráficos de vazão mostram o regime fluvial dos rios ao longo do ano. Identifique qual regime corresponde ao tropical (com estiagem no inverno) e qual ao equatorial (com chuvas mais regulares). Isso define qual captação é mais segura.",
+    "feedbacks": {
+      "0": "Os regimes fluviais dos dois rios são distintos, e não similares; um tem período de cheias no verão e estiagem no inverno, enquanto o outro tem características diferentes. O volume de chuvas que os alimenta também difere pela diferença nos regimes.",
+      "1": "Nem todos os rios com regime sazonal permitem abastecimento, geração de energia e irrigação durante todo o ano. O rio com regime pluvial tropical tem estiagem pronunciada no inverno que limita esses usos.",
+      "2": "A captação de água não pode ocorrer durante todo o ano com garantia de excesso em ambos os rios; o regime pluvial tropical tem período de seca que reduz drasticamente a vazão. A afirmativa ignora a sazonalidade dos regimes fluviais."
+    }
   },
   {
     "id": 5,
@@ -118,7 +141,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O Brasil possui cerca de 12% da água doce superficial do planeta, mas sua distribuição é profundamente desigual: a Amazônia, com baixa densidade demográfica, concentra mais de 80% dos recursos hídricos, enquanto o Nordeste Semiárido e o Sudeste — as regiões mais populosas — têm disponibilidade per capita muito menor. Essa desigualdade natural é agravada pela poluição e gestão ineficiente.</p>",
-    "ajuda": "O Brasil tem distribuição desigual de água e população. Lembre-se que a Amazônia concentra a maior parte dos recursos hídricos, mas tem baixa densidade demográfica. O Sudeste é o mais populoso e tem menor disponibilidade relativa de água."
+    "ajuda": "O Brasil tem distribuição desigual de água e população. Lembre-se que a Amazônia concentra a maior parte dos recursos hídricos, mas tem baixa densidade demográfica. O Sudeste é o mais populoso e tem menor disponibilidade relativa de água.",
+    "feedbacks": {
+      "0": "Os recursos hídricos no Brasil não são diretamente proporcionais ao número de habitantes; ao contrário, as áreas mais populosas (Sudeste) têm menor disponibilidade hídrica per capita, enquanto as menos populosas (Norte) concentram a maior reserva.",
+      "2": "A menor densidade populacional não está no Sudeste; essa região é justamente a mais populosa do Brasil. Além disso, o Sudeste não concentra os menores recursos hídricos em termos absolutos, embora sofra maior pressão por habitante.",
+      "3": "A maior densidade demográfica está no Sudeste, e não no Sul. Além disso, o Sul não apresenta a menor quantidade de recursos hídricos; o semiárido nordestino é a região com maior escassez hídrica relativa.",
+      "4": "O Centro-Oeste não concentra a maior quantidade de recursos hídricos do Brasil. A região Norte, com a bacia Amazônica, é a detentora da maior disponibilidade hídrica do país."
+    }
   },
   {
     "id": 6,
@@ -143,7 +172,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A construção de Itaipu na fronteira Brasil-Paraguai, durante as ditaduras militares dos dois países na década de 1970, inundou vasta área que incluía territórios tradicionais dos Guarani, além das Sete Quedas do Iguaçu. O projeto foi imposto sem consulta às comunidades afetadas, evidenciando como grandes obras de infraestrutura podem apagar culturas e territórios indígenas em nome do desenvolvimento.</p>",
-    "ajuda": "A questão trata da construção de Itaipu e seus impactos sobre populações indígenas. Identifique o contexto histórico correto: período da ditadura militar, localização na fronteira Brasil-Paraguai e o impacto sobre comunidades Guarani."
+    "ajuda": "A questão trata da construção de Itaipu e seus impactos sobre populações indígenas. Identifique o contexto histórico correto: período da ditadura militar, localização na fronteira Brasil-Paraguai e o impacto sobre comunidades Guarani.",
+    "feedbacks": {
+      "0": "Os Pataxó são um povo indígena do Nordeste brasileiro, sem presença na fronteira Brasil-Paraguai. As populações afetadas pela construção de Itaipu eram ribeirinhas e indígenas da região do Paraná, e não Pataxó.",
+      "1": "Itaipu foi construída entre os anos 1970 e 1984, e não durante a Guerra do Paraguai, que ocorreu entre 1864 e 1870. Os dois eventos históricos são completamente distintos em tempo e contexto.",
+      "2": "A construção de Itaipu não manteve intactas as áreas de comunidades tradicionais; o lago da represa alagou extensas áreas, forçando o deslocamento de comunidades sem consulta adequada. Isso ocorreu durante o regime militar.",
+      "3": "A construção de Itaipu não respeitou os povos indígenas que habitavam a região; comunidades foram deslocadas sem processo adequado de consulta ou indenização. Afirmar o contrário contradiz o registro histórico."
+    }
   },
   {
     "id": 7,
@@ -166,7 +201,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Bacia Amazônica ocupa uma enorme depressão continental com relevo predominantemente plano, o que favorece a formação de rios meandrosos — que fazem curvas — e áreas de várzea inundáveis. O clima equatorial garante chuvas abundantes durante todo o ano, resultando em altíssimos índices pluviométricos e na maior descarga fluvial do planeta.</p>",
-    "ajuda": "Analise as características de cada bacia: regime hídrico, relevo, pluviosidade e aproveitamento econômico. A Bacia Amazônica tem relevo plano, rios meândricos e alta pluviosidade — verifique se as outras descrições são coerentes."
+    "ajuda": "Analise as características de cada bacia: regime hídrico, relevo, pluviosidade e aproveitamento econômico. A Bacia Amazônica tem relevo plano, rios meândricos e alta pluviosidade — verifique se as outras descrições são coerentes.",
+    "feedbacks": {
+      "0": "A bacia do São Francisco não apresenta regime equatorial perene; tem regime pluvial tropical, com períodos de cheias e estiagem. Além disso, não é caracterizada por muitos rios correntosos em terrenos elevados na sua totalidade.",
+      "2": "A bacia Platina não apresenta baixa precipitação; o Sul do Brasil, onde parte dela está, tem boa distribuição de chuvas ao longo do ano. Além disso, o regime fluvial não é intermitente na maior parte da bacia.",
+      "3": "A bacia do Tocantins não apresenta baixa densidade de vegetação nem clima semiárido; abrange áreas de Cerrado e Amazônia com vegetação significativa. O clima semiárido é restrito ao Nordeste.",
+      "4": "A bacia do Parnaíba não apresenta planaltos acidentados nem bom aproveitamento hidrelétrico; é uma bacia de pequena extensão no Nordeste, com menor potencial hidrelétrico do que as bacias do Sul e Centro-Oeste."
+    }
   },
   {
     "id": 8,
@@ -190,33 +231,47 @@
     ],
     "correta": 1,
     "comentario": "<p>A Lei das Águas de 1997 estabelece que a água é um bem público e que, em situação de escassez, o abastecimento humano e a dessedentação de animais têm prioridade sobre outros usos, como a irrigação agrícola. Esse princípio de gestão integrada é fundamental para conciliar demandas conflitantes em bacias com múltiplos usuários, como o São Francisco.</p>",
-    "ajuda": "A Lei das Águas estabelece que a água é um bem público e que o uso humano tem prioridade. Diante de um conflito entre irrigação agrícola e abastecimento humano, aplique esses princípios para identificar a decisão juridicamente correta."
+    "ajuda": "A Lei das Águas estabelece que a água é um bem público e que o uso humano tem prioridade. Diante de um conflito entre irrigação agrícola e abastecimento humano, aplique esses princípios para identificar a decisão juridicamente correta.",
+    "feedbacks": {
+      "0": "A água dos rios não pertence ao dono da fazenda no Brasil; os recursos hídricos são bens de uso público. A Lei das Águas (9.433/1997) subordina qualquer uso à outorga do poder público e estabelece o abastecimento humano como prioridade.",
+      "2": "A água não pode ser fornecida prioritariamente a quem paga mais; a Lei das Águas estabelece o abastecimento humano como uso prioritário, independentemente da capacidade de pagamento do usuário.",
+      "3": "Manter o fornecimento para ambos os usos até o esgotamento não é adequado à legislação. A Lei das Águas determina hierarquia nos usos, com prioridade para o abastecimento humano e animal.",
+      "4": "Interromper completamente o fornecimento para lavoura e consumo humano não é previsto na legislação. A Lei das Águas determina prioridade, e não paralisação total; o abastecimento humano deve ser mantido."
+    }
   },
   {
     "id": 9,
-    "instituicao": "ENEM",
-    "ano": "2006",
-    "dificuldade": "media",
-    "tags": [
-      "aquífero guarani",
-      "recursos hídricos subterrâneos",
-      "hidrografia",
-      "américa do sul"
-    ],
-    "texto_apoio": "“O aquífero Guarani, mega reservatório hídrico subterrâneo da América do Sul, com 1,2 milhão de km2, não é o \"mar de água doce\" que se pensava existir. Enquanto em algumas áreas a água é excelente, em outras, é inacessível, escassa ou não-potável. O aquífero pode ser dividido em quatro grandes compartimentos. No compartimento Oeste, há boas condições estruturais que proporcionam recarga rápida a partir das chuvas e as águas são, em geral, de boa qualidade e potáveis. Já no compartimento Norte-Alto Uruguai, o sistema encontra-se coberto por rochas vulcânicas, a profundidades que variam de 350 m a 1.200 m. Suas águas são muito antigas, datando da Era Mesozoica, e não são potáveis em grande parte da área, com elevada salinidade, sendo que os altos teores de fluoretos e de sódio podem causar alcalinização do solo”.",
-    "fonte_apoio": "Scientific American Brasil, n∘ 47, abr./2006 (com adaptações).",
-    "imagem_apoio": "2ano/img/221/s21q9.png",
-    "pergunta": "Em relação ao aquífero Guarani, é correto afirmar que:",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "2ano/img/221/fuvest26q8.png",
+    "texto_apoio": "As cores das águas dos rios são resultado de transformações físico-químicas, indicando fatores como os sólidos (material inorgânico) em suspensão (SIS) e o material orgânico dissolvido (MOD). A classificação científica das águas amazônicas mais utilizada é a de Harald Sioli (1950), que identificou três tipos: Brancas (alta concentração de SIS), Pretas (alta concentração de MOD) e Claras (baixas concentrações de SIS e MOD). Pesquisas mais recentes que analisam dados hidroquímicos têm indicado uma composição química mais variada nas águas amazônicas, dividindo os rios da região também em dois tipos intermediários: A (subtipo das águas claras) e B (subtipo que está entre as águas brancas e pretas).",
+    "fonte_apoio": "Atlas da Amazônia Brasileira, 2025. Adaptado.",
+    "pergunta": "A partir das informações do mapa e do texto, assinale a alternativa correta.",
     "alternativas": [
-      "seus depósitos não participam do ciclo da água.",
-      "águas provenientes de qualquer um de seus compartimentos solidificam-se a 0 °C.",
-      "é necessário, para utilização de seu potencial como reservatório de água potável, conhecer detalhadamente o aquífero.",
-      "a água é adequada ao consumo humano direto em grande parte da área do compartimento Norte-Alto Uruguai.",
-      "o uso das águas do compartimento Norte-Alto Uruguai para irrigação deixaria ácido o solo."
+      "As águas Pretas com alto teor orgânico na Amazônia são provenientes dos processos erosivos e localizam-se em áreas de Terras Pretas de Índio, o que caracteriza a coloração escura exclusiva da sub bacia do Rio Negro, diferindo das demais regiões amazônicas.",
+      "A baixa concentração de SIS e MOD nas águas Claras é resultado dos garimpos ilegais na Amazônia, devido à utilização de mercúrio e dos agrotóxicos nos cultivos da soja nas regiões onde há maior desmatamento.",
+      "A classificação intermediária do tipo A tem características hidroquímicas alteradas devido ao impacto direto e indireto de mudanças no uso do solo, além de grandes projetos de infraestrutura em toda parte norte-oriental da bacia amazônica.",
+      "As águas intermediárias tipo B, com baixa concentração SIS e MOD, localizadas sobretudo no Baixo Amazonas, possuem essas características devido às mudanças no uso do solo nas últimas décadas e por ser uma área com muitos igarapés.",
+      "As águas Brancas, como as do Rio Solimões, com alta concentração de SIS, têm essas características hidroquímicas devido aos processos erosivos de regiões a montante, como, por exemplo, as nascentes do rio Amazonas na Cordilheira dos Andes."
     ],
-    "correta": 2,
-    "comentario": "<p>O Aquífero Guarani é transfronteiriço e sua exploração requer mapeamento detalhado das zonas de recarga, profundidade e qualidade química da água. O uso inadequado pode comprometer sua recarga natural e contaminar o reservatório, afetando populações em quatro países. Por isso, o conhecimento técnico aprofundado é condição indispensável para seu uso sustentável.</p>",
-    "ajuda": "O Aquífero Guarani é um dos maiores reservatórios de água doce subterrânea do mundo. Lembre-se que suas águas participam do ciclo hidrológico, têm temperatura variável por compartimento e seu uso requer estudo das características locais."
+    "correta": 4,
+    "comentario": "As águas Brancas do Rio Solimões possuem alta concentração de SIS (sólidos inorgânicos em suspensão) porque drenam a Cordilheira dos Andes — região de erosão intensa, que lança enormes quantidades de sedimentos inorgânicos para os rios. Esse material em suspensão dá às águas a coloração esbranquiçada/barrenta característica. Em contraste, o Rio Negro tem águas Pretas por alto MOD (matéria orgânica dissolvida de florestas sobre solos pobres e lixiviados).",
+    "ajuda": "As 'águas Brancas' têm ALTA concentração de SIS (sólidos inorgânicos em suspensão). O que produz esses sedimentos? Onde nascem os rios que formam o Solimões? O que acontece com o solo nas regiões onde esses rios têm suas nascentes?",
+    "tags": [
+      "hidrografia",
+      "Amazônia",
+      "classificação de Sioli",
+      "águas brancas",
+      "Rio Solimões",
+      "sedimentos",
+      "Cordilheira dos Andes"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "As Terras Pretas de Índio são solos antrópicos criados por povos indígenas pré-colombianos — não causam a coloração preta dos rios. As águas Pretas têm MOD de matéria orgânica vegetal dissolvida, não de erosão. Além disso, rios pretos ocorrem em diversas sub-bacias, não só no Rio Negro.",
+      "1": "Garimpos ilegais e agrotóxicos AUMENTAM SIS e MOD — tornariam as águas mais turvas e contaminadas, não mais claras. A alternativa inverte o raciocínio causal ao dizer que atividades poluidoras produzem baixa concentração de sólidos.",
+      "2": "O tipo A é subtipo das águas CLARAS (baixas concentrações de SIS e MOD). A alternativa erra ao atribuir alterações hidroquímicas por infraestrutura 'na parte norte-oriental', que não corresponde à localização descrita para o tipo A.",
+      "3": "O tipo B está ENTRE as águas brancas e pretas — ou seja, tem concentrações INTERMEDIÁRIAS de SIS e MOD, não baixas. A descrição de 'baixa concentração' é a das águas Claras, não do tipo B."
+    }
   },
   {
     "id": 10,
@@ -241,6 +296,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O Chapadão Ocidental Baiano é uma área de pivô central com intensa agricultura de soja irrigada, cujos agrotóxicos e fertilizantes infiltram no solo e atingem os lençóis freáticos que alimentam tanto a bacia do Tocantins quanto a do São Francisco. Os divisores topográficos não impedem esses fluxos subterrâneos, tornando a contaminação um problema de escala regional e interestadual.</p>",
-    "ajuda": "O mapa mostra cultivos agrícolas nos topos do Chapadão Baiano, divisor das bacias do Tocantins e São Francisco. Pense no sentido do escoamento da água: os agrotóxicos aplicados nas chapadas drenam para qual bacia conforme o relevo?"
+    "ajuda": "O mapa mostra cultivos agrícolas nos topos do Chapadão Baiano, divisor das bacias do Tocantins e São Francisco. Pense no sentido do escoamento da água: os agrotóxicos aplicados nas chapadas drenam para qual bacia conforme o relevo?",
+    "feedbacks": {
+      "1": "A maior parte das áreas cultivadas que impactam as bacias não se localiza apenas no Tocantins, e as bacias não são erodidas pelos próprios rios. A erosão é causada pelo desmatamento e pelo manejo inadequado do solo.",
+      "2": "A bacia do São Francisco não é ameaçada por agrotóxicos apenas por causa da posição dos divisores de água. Os agrotóxicos carreados pelas chuvas contaminam os rios independentemente da localização dos divisores.",
+      "3": "Ambas as bacias não estão distantes das áreas de cultivo; estão cercadas por áreas de agricultura intensiva. A expansão do MATOPIBA coloca lavouras diretamente nas bordas dessas bacias.",
+      "4": "Não há evidência de que a bacia do Tocantins seja mais ameaçada do que a do São Francisco; ambas sofrem pressão do agronegócio. A expansão agrícola no Cerrado e no MATOPIBA pressiona as duas de forma comparável."
+    }
   }
 ]

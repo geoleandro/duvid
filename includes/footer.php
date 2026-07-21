@@ -33,7 +33,7 @@
 
 <footer class="w3-container w3-padding-24 w3-center w3-green w3-xlarge" style="padding-bottom: max(24px, env(safe-area-inset-bottom, 24px))">
 
-    <a class="fa-brands fa-instagram w3-margin-right" href="https://www.instagram.com/leandrohenriquedasilva/"
+    <a class="fa-brands fa-instagram w3-margin-right" href="https://www.instagram.com/duvidgeo/"
         target="_blank" style="text-decoration:none; color: white;"></a>
     <a class="fa-brands fa-youtube w3-margin-right" href="https://www.youtube.com/@duvidgeografia/" target="_blank"
         style="text-decoration:none; color: white;"></a>

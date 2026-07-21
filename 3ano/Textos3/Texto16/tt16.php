@@ -332,6 +332,13 @@
                 matérias-primas a baixo custo, mas importar produtos manufaturados a um preço muito mais alto, o que
                 pode distorcer a percepção do equilíbrio comercial.</p>
 
+            <p><strong>Divisão Internacional do Trabalho:</strong> Esse padrão de troca, em que alguns países
+                exportam matérias-primas de baixo valor agregado e importam produtos industrializados de alto valor
+                agregado, é conhecido como Divisão Internacional do Trabalho (DIT). Historicamente, essa divisão
+                colocou os países periféricos como fornecedores de commodities e os países centrais como produtores
+                de bens manufaturados e serviços de maior sofisticação tecnológica, o que ajuda a explicar
+                diferenças de riqueza entre nações mesmo quando o volume de comércio é equilibrado.</p>
+
             <p><strong>Impacto das Cadeias Globais de Abastecimento:</strong> Em uma economia globalizada, muitos
                 produtos passam por várias etapas de produção em diferentes países antes de serem finalizados e
                 exportados. Isso pode complicar a análise da balança comercial, pois os componentes de um produto podem

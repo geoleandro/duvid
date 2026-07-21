@@ -20,7 +20,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A questão pede a alternativa que NÃO está relacionada às regiões destacadas nos EUA. A alternativa incorreta é a B, sobre a região Sul: antes da guerra civil era agrícola (escravista), e na segunda metade do século XX tornou-se um importante polo industrial graças ao petróleo do Texas e às indústrias do Sun Belt.</p>",
-    "ajuda": "A questão pede a alternativa que NÃO se relaciona às regiões destacadas dos EUA. Lembre-se das principais regiões econômicas americanas: Vale do Silício (tecnologia, Califórnia), Sun Belt (industria mais recente), Rust Belt (industrialização clássica, Grandes Lagos), e o Sul agrícola."
+    "ajuda": "A questão pede a alternativa que NÃO se relaciona às regiões destacadas dos EUA. Lembre-se das principais regiões econômicas americanas: Vale do Silício (tecnologia, Califórnia), Sun Belt (industria mais recente), Rust Belt (industrialização clássica, Grandes Lagos), e o Sul agrícola.",
+    "feedbacks": {
+      "0": "O Silicon Valley e de fato uma das regioes mais importantes para a fabricacao de chips e semicondutores, sendo o principal polo de alta tecnologia do mundo. Essa afirmacao esta correta como descricao geografica e economica do Vale do Silicio.",
+      "2": "A faixa entre Boston e Washington (Megalopolis) e de fato uma das maiores e mais continuas concentracoes industriais e de servicos do mundo, com grandes cidades como Nova York, Filadélfia e Baltimore. Essa afirmacao esta correta como descricao da regiao Nordeste dos EUA.",
+      "3": "A regiao dos Grandes Lagos, com o canal Erie e a ligacao entre o interior agricola e os portos do Atlantico, constitui historicamente uma das areas de maior desenvolvimento industrial dos EUA, com destaque para a siderurgia e a industria automobilistica. Essa afirmacao esta correta."
+    }
   },
   {
     "id": 2,
@@ -43,7 +48,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A maior concentração industrial dos EUA está na região do Corredor Industrial Nordeste, estendendo-se do litoral atlântico (Boston-Washington) aos Grandes Lagos (Chicago-Detroit). Essa região concentrou historicamente mais de 60% das indústrias americanas graças ao carvão, ao ferro e às vias aquáticas.</p>",
-    "ajuda": "A concentração industrial nos EUA segue uma lógica histórica: o Nordeste (Corredor Industrial) foi o berço da industrialização, mas o Sun Belt atraiu indústrias mais recentes graças ao clima favorável e incentivos fiscais. Identifique a região com maior concentração industrial."
+    "ajuda": "A concentração industrial nos EUA segue uma lógica histórica: o Nordeste (Corredor Industrial) foi o berço da industrialização, mas o Sun Belt atraiu indústrias mais recentes graças ao clima favorável e incentivos fiscais. Identifique a região com maior concentração industrial.",
+    "feedbacks": {
+      "0": "A regiao Sul e Sudeste apresenta industrializacao relevante em setores como siderurgia (Alabama) e textil (Georgia), mas nao possui a maior continuidade espacial de industrias dos EUA. O Nordeste, do litoral atlantico ao sul dos Grandes Lagos, e a regiao com maior adensamento e continuidade industrial.",
+      "1": "A regiao Oeste tem producao industrial diversificada, incluindo aeronautica e eletronica, mas sua continuidade espacial e interrompida por vastas areas semi-aridas e despovoadas. A continuidade industrial mais expressiva dos EUA esta no Nordeste, ao longo do litoral e dos Grandes Lagos.",
+      "3": "O Sun Belt, do Texas a California, concentra industrias modernas como aeroespacial, informatica e petrolifera, mas sua extensao geografica e dispersao nao configuram a mesma continuidade espacial do corredor industrial nordestino. Alem disso, a base produtiva do Sun Belt e descrita incorretamente como se fosse um unico padrao homogeneo."
+    }
   },
   {
     "id": 3,
@@ -68,7 +78,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A agricultura norte-americana é altamente mecanizada: uma única fazenda no Meio-Oeste pode ser operada por poucas pessoas com tratores gigantes e colheitadeiras automáticas. Esse elevado grau de mecanização explica como os EUA produzem 9 toneladas de grãos por hectare — mais que o dobro da média brasileira.</p>",
-    "ajuda": "A agricultura norte-americana é altamente mecanizada, subsidiada pelo governo e integrada ao agronegócio global. Pense em qual característica tecnológica e organizacional explica a gigantesca produtividade agrícola dos EUA."
+    "ajuda": "A agricultura norte-americana é altamente mecanizada, subsidiada pelo governo e integrada ao agronegócio global. Pense em qual característica tecnológica e organizacional explica a gigantesca produtividade agrícola dos EUA.",
+    "feedbacks": {
+      "0": "Os EUA sao o maior produtor mundial de culturas transgenicas, incluindo soja, milho e algodao. Afirmar que ha firme recusa aos transgenicos e o oposto da realidade: a biotecnologia agricola americana e lider global em desenvolvimento e comercializacao de OGMs.",
+      "1": "Os EUA lideram o investimento e o desenvolvimento em biotecnologia agricola, com grandes corporacoes como Monsanto (hoje Bayer) com sede no pais. Afirmar desinteresse na biotecnologia contraria completamente a realidade da agricultura americana.",
+      "2": "Os EUA sao os maiores produtores e exportadores mundiais de insumos agricolas, como fertilizantes, defensivos e sementes. Sua atuacao na producao e distribuicao de insumos e dominante no mercado global, e nao fraca.",
+      "3": "Os EUA concedem volumosos subsidios a seus produtores agricolas por meio da Farm Bill e adotam praticas protecionistas que sao frequentemente questionadas na OMC. A intervencao do Estado americano na agricultura e expressiva e reconhecida internacionalmente, e nao discreta."
+    }
   },
   {
     "id": 4,
@@ -90,7 +106,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A sequência correta é V-F-F-V: os EUA são a maior potência militar e econômica (V); Trump não foi reconhecido como conservador em política externa, adotando postura isolacionista (F); os EUA se retiraram do Acordo de Paris sob Trump (F); os EUA mantêm gastos militares gigantescos, sem desmilitarização (F).</p>",
-    "ajuda": "Os EUA são a maior potência econômica e militar do mundo, mas apresentam desigualdades internas significativas. Avalie as afirmativas sobre o papel geopolítico e geoeconômico dos EUA, verificando quais são verdadeiras e quais são falsas."
+    "ajuda": "Os EUA são a maior potência econômica e militar do mundo, mas apresentam desigualdades internas significativas. Avalie as afirmativas sobre o papel geopolítico e geoeconômico dos EUA, verificando quais são verdadeiras e quais são falsas.",
+    "feedbacks": {
+      "0": "A sequencia F, V, F, V inclui a quarta afirmativa como verdadeira, quando ela deve ser classificada como falsa. Esse erro compromete a avaliacao do papel dos EUA na geopolitica mundial descrita pelas afirmativas.",
+      "1": "A sequencia V, F, V, F classifica as afirmativas I e III como verdadeiras, quando ambas sao falsas. O papel dos EUA na geopolitica global precisa ser avaliado com base em fatos historicos que refutam o que essas afirmativas alegam.",
+      "3": "A sequencia V, F, V, V classifica as afirmativas I, III e IV como verdadeiras quando I e III sao falsas e IV tambem e falsa. A avaliacao correta do papel geopolitico dos EUA exige classificar essas afirmativas como falsas."
+    }
   },
   {
     "id": 5,
@@ -115,7 +136,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A força dos EUA no pós-Guerra Fria baseou-se na projeção de poder militar global, com 800 bases militares em mais de 70 países. Essa presença foi usada para justificar intervenções no Iraque e no Afeganistão após o 11 de setembro, revelando como a superpotência americana se projeta além de suas fronteiras.</p>",
-    "ajuda": "Após os atentados de 11 de setembro de 2001, os EUA iniciaram guerras no Afeganistão e no Iraque sob a doutrina da 'Guerra ao Terror'. Pense em qual fator geopolítico explica a progressiva perda de legitimidade internacional da liderança americana."
+    "ajuda": "Após os atentados de 11 de setembro de 2001, os EUA iniciaram guerras no Afeganistão e no Iraque sob a doutrina da 'Guerra ao Terror'. Pense em qual fator geopolítico explica a progressiva perda de legitimidade internacional da liderança americana.",
+    "feedbacks": {
+      "1": "A Russia e uma potencia rival dos EUA e nao uma aliada; o alinhamento russo contribuiria para limitar o poder americano, e nao para reforça-lo. Desde o fim da Guerra Fria, as relacoes EUA-Russia foram marcadas por competicao e desconfianca mutua.",
+      "2": "Os EUA nao exercem expansionismo territorial sobre Cuba; mantêm a base de Guantanamo por tratado historico contestado, mas nao buscam anexar o territorio cubano. Cuba e um Estado soberano e o embargo economico e politica de pressao, e nao de anexacao territorial.",
+      "3": "O Ira e adversario declarado dos EUA desde a Revolucao Islamica de 1979; nao ha alianca estrategica entre os dois paises. Alem disso, Kuwait e pais diferente do Ira; e embora o Kuwait tenha cooperado com os EUA, o Iran e um rival geopolitico central para os americanos no Oriente Medio.",
+      "4": "A China e rival geopolitico e economico dos EUA e jamais integrou a OTAN. A incorporacao da China a OTAN seria incompativel com a missao da alianca e com a rivalidade sino-americana que marca a geopolitica contemporanea."
+    }
   },
   {
     "id": 6,
@@ -139,7 +166,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Em 2015, os EUA e Cuba anunciaram a restauração de suas relações diplomáticas após 54 anos de ruptura. Barack Obama e Raúl Castro chegaram a um acordo histórico que incluía a reabertura de embaixadas — simbolizando o fim da Guerra Fria no Caribe, décadas após o término do conflito global.</p>",
-    "ajuda": "A charge foi publicada em um momento específico da história diplomática entre EUA e Cuba. Lembre-se de que em 2014-2015 houve uma tentativa de normalização das relações diplomáticas entre os dois países. Identifique qual evento a charge retrata."
+    "ajuda": "A charge foi publicada em um momento específico da história diplomática entre EUA e Cuba. Lembre-se de que em 2014-2015 houve uma tentativa de normalização das relações diplomáticas entre os dois países. Identifique qual evento a charge retrata.",
+    "feedbacks": {
+      "0": "O embargo economico dos EUA a Cuba NAO foi suspenso; permanece em vigor desde 1962. O que ocorreu em 2014-2015 foi a reabertura das embaixadas e a retomada das relacoes diplomaticas, que e uma medida politica distinta do levantamento do embargo economico.",
+      "1": "A base naval de Guantanamo NAO foi devolvida a Cuba; os EUA continuam ocupando a area com base em um tratado contestado. A retomada das relacoes diplomaticas nao incluiu a devolucao de Guantanamo como parte do processo.",
+      "2": "Cuba nao e um grande exportador de petroleo e seu embargo nao e especificamente de exportacoes petrolíferas. O evento retratado na charge refere-se a retomada das relacoes diplomaticas gerais entre os dois paises, e nao a uma medida especifica sobre comercio de petroleo.",
+      "4": "A transferencia de todos os presos de Guantanamo para prisoes norte-americanas nao ocorreu; a prisao de Guantanamo permanece operando apos a retomada das relacoes diplomaticas. Esse era um objetivo do governo Obama que nao foi concretizado."
+    }
   },
   {
     "id": 7,
@@ -163,7 +196,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A população hispânica nos EUA tem uma estrutura etária jovem e taxas de natalidade mais elevadas que a média americana. Isso explica seu crescimento além da imigração: a fecundidade de famílias latinas supera a de famílias brancas não hispânicas, acelerando o crescimento desse grupo demograficamente.</p>",
-    "ajuda": "A população hispânica nos EUA cresce não apenas pela imigração, mas também por uma dinâmica demográfica específica. Pense em qual característica demográfica — taxas de natalidade, estrutura etária, fecundidade — explica esse crescimento além da imigração."
+    "ajuda": "A população hispânica nos EUA cresce não apenas pela imigração, mas também por uma dinâmica demográfica específica. Pense em qual característica demográfica — taxas de natalidade, estrutura etária, fecundidade — explica esse crescimento além da imigração.",
+    "feedbacks": {
+      "1": "A emigracao de hispânicos a partir dos EUA, especialmente de idosos, reduziria a populacao hispanica no pais, e nao aumentaria. Alem disso, a populacao hispanica e predominantly jovem e economicamente ativa, sem perfil de emigracao de idosos como fator demografico relevante.",
+      "2": "A populacao hispanica dos EUA se concentra principalmente em areas urbanas, como Los Angeles, Miami, Nova York e Chicago, e nao em areas rurais. Afirmar que a populacao economicamente ativa hispanica esta concentrada no campo contradiz a distribuicao espacial desse grupo nos EUA.",
+      "3": "A sobremortalidade masculina reduziria a populacao hispanica masculina, e nao explicaria o aumento proporcional desse grupo na populacao total. Alem disso, a questao pede um fator que, alem da imigracao elevada, explica o crescimento hispanico, e a sobremortalidade opera em sentido contrario ao crescimento."
+    }
   },
   {
     "id": 8,
@@ -186,7 +224,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A afirmativa incorreta é a D: houve aumento, não diminuição, dos gastos militares e do número de vítimas de conflitos pós-11/09. As guerras no Afeganistão e Iraque custaram mais de 6 trilhões de dólares e causaram centenas de milhares de mortes, representando o maior esforço militar americano desde o Vietnã.</p>",
-    "ajuda": "Os atentados de 11 de setembro de 2001 transformaram a política externa americana e o mundo. A questão pede a afirmativa INCORRETA. Lembre-se das consequências reais: aumento da segurança interna, invasões militares, surgimento de novos conflitos étnicos e religiosos."
+    "ajuda": "Os atentados de 11 de setembro de 2001 transformaram a política externa americana e o mundo. A questão pede a afirmativa INCORRETA. Lembre-se das consequências reais: aumento da segurança interna, invasões militares, surgimento de novos conflitos étnicos e religiosos.",
+    "feedbacks": {
+      "0": "Os atentados de 11 de setembro provocaram profundas mudancas no cotidiano americano, com expansao do aparato de seguranca, criacao do Departamento de Segurança Interna e intensificacao da vigilancia. Essa afirmacao esta correta como descricao dos impactos sociais e politicos do ataque.",
+      "1": "O governo Bush introduziu de fato o principio da 'guerra preventiva', que autorizava ataques a paises ou grupos considerados ameacas antes que eles agissem. Essa doutrina orientou as invasoes do Afeganistao (2001) e do Iraque (2003) e esta correta como descricao da nova politica externa americana.",
+      "2": "A reacao norte-americana aos atentados gerou tensoes com aliados que discordavam da politica de 'guerra ao terror', especialmente na questao da invasao do Iraque. Essa afirmacao esta correta como descricao dos impactos nas relacoes internacionais pos-11 de setembro.",
+      "4": "O 11 de setembro fez ressurgir na academia e no debate publico a tese do 'Choque de Civilizacoes' de Samuel Huntington, que propoe que os conflitos do seculo XXI seriam explicados por diferenças culturais e religiosas entre civilizacoes. Essa afirmacao esta correta como descricao de um dos desdobramentos intelectuais e politicos do atentado."
+    }
   },
   {
     "id": 9,
@@ -209,29 +253,43 @@
     ],
     "correta": 3,
     "comentario": "<p>A Doutrina Bush (2002) consagrou o princípio da 'guerra preventiva': os EUA reservam-se o direito de atacar qualquer país considerado ameaça potencial, mesmo sem agressão prévia. Essa doutrina foi usada para justificar a invasão do Iraque em 2003, gerando uma das maiores crises de legitimidade da política externa americana.</p>",
-    "ajuda": "A Doutrina Monroe ('América para os americanos') e outras doutrinas de política externa dos EUA orientaram sua atuação hegemônica no continente americano. Pense em qual princípio geopolítico melhor define a estratégia histórica de dominação americana."
+    "ajuda": "A Doutrina Monroe ('América para os americanos') e outras doutrinas de política externa dos EUA orientaram sua atuação hegemônica no continente americano. Pense em qual princípio geopolítico melhor define a estratégia histórica de dominação americana.",
+    "feedbacks": {
+      "0": "Os EUA raramente buscam anexar territorios formalmente a seu pais; preferem exercer controle por meio de bases militares, governos aliados e influencia economica. A politica expansionista americana e mais de dominacao informal do que de anexacao territorial direta.",
+      "1": "Embora o excepcionalismo americano seja uma ideologia presente na cultura politica dos EUA, a politica expansionista nao e formalmente declarada como objetivo de superiordiade racial ou etnica. Tal framing contraria a retorica oficial americana de defesa da democracia e dos direitos universais.",
+      "2": "A Doutrina Monroe e as relacoes dos EUA com a America Latina foram frequentemente de dominacao assimetrica, e nao de cooperacao genuina em identidade de interesses. Os EUA interferiram militarmente em varios paises latino-americanos ao longo do seculo XX sem buscar identidade de interesses.",
+      "4": "A orientacao de intervencoes militares para sustentar governos aliados e um aspecto especifico da politica expansionista americana, mas nao sua descricao mais abrangente. O objetivo mais fundamental da estrategia americana e perpetuar a posicao dominante e impedir o surgimento de rivais, do qual o apoio a aliados e apenas um instrumento."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UFSM",
-    "ano": "1999",
-    "dificuldade": "facil",
-    "tags": [
-      "vale do silício",
-      "tecnologia",
-      "inovação",
-      "eua"
-    ],
-    "pergunta": "Assinale a alternativa que contempla as principais características do Vale do Silício (Silicon Valley), nos EUA.",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "3ano/img/320/unesp26q1.png",
+    "texto_apoio": "Analise o mapa que apresenta o crescimento do território dos Estados Unidos.",
+    "fonte_apoio": "Atlas of the North American Indian, 2000. Adaptado.",
+    "pergunta": "O mapa mostra que",
     "alternativas": [
-      "Formado pela erosão glacial, constitui-se numa área de preservação permanente, onde se destacam as faias, sequoias e bétulas, espécies típicas da ﬂoresta boreal.",
-      "É uma das principais áreas de extração mineral, sobretudo de silício, cobre e ferro, altamente prejudicada pela degradação do meio ambiente.",
-      "Também conhecido por cinturão agrícola (belt’s), constitui-se na principal área produtora de cereais dos EUA, sobretudo de milho e trigo, além da pecuária intensiva.",
-      "Localizado no Nordeste dos EUA, constitui-se numa área de antiga concentração industrial, destacando-se as indústrias de bens de produção pela abundância de matérias-primas, energia e mão-de-obra e pela facilidade de transporte.",
-      "Localizado no oeste dos EUA, próximo a importantes centros de pesquisa, forma um complexo industrial com destaque para os ramos típicos da Terceira Revolução Industrial."
+      "as guerras internas e externas e a compra de terras junto a outras potências europeias definiram os limites do território estadunidense.",
+      "a ocupação territorial estadunidense iniciou-se no Leste, durante a colonização inglesa, e avançou para o Oeste após a vitória nortista na Guerra de Secessão.",
+      "as anexações das terras indígenas ao território estadunidense ocorreram por meio de acordos e negociações pacíficas ao longo dos séculos XVIII e XIX.",
+      "as anexações, por meio da compra, de terras antes pertencentes ao México completaram o processo de expansão do território estadunidense.",
+      "a diversidade da colonização europeia na América do Norte, entre os séculos XVII e XIX, impediu a completa unificação territorial estadunidense."
     ],
-    "correta": 4,
-    "comentario": "<p>O Vale do Silício (Santa Clara, Califórnia) tornou-se o maior polo tecnológico do mundo graças à proximidade com Stanford e Berkeley, ao ambiente de empreendedorismo e capital de risco, e ao clima favorável. Abriga empresas como Google, Apple, Meta e Intel — centro da Terceira e Quarta Revoluções Industriais.</p>",
-    "ajuda": "O Vale do Silício é o principal polo tecnológico dos EUA, localizado na Califórnia, próximo a universidades como Stanford e Berkeley. Pense em quais características — localização, tipo de indústria, ambiente de inovação — definem esse polo tecnológico."
+    "correta": 0,
+    "comentario": "A expansão territorial dos EUA combinou guerras (como a contra o México em 1846-1848), compras (Louisiana em 1803, Alasca em 1867) e negociações com potências europeias como França, Espanha e Rússia. O processo foi violento e multifacetado, envolvendo tanto conflitos externos quanto a expulsão e extermínio de populações indígenas. O mapa evidencia essa diversidade de mecanismos que moldaram as fronteiras estadunidenses ao longo dos séculos.",
+    "ajuda": "Observe no mapa como o território dos EUA foi sendo adquirido por diferentes meios: algumas regiões vieram de conflitos armados, outras de compras a países europeus. Qual alternativa abrange todos esses mecanismos?",
+    "tags": [
+      "expansão territorial",
+      "EUA",
+      "América do Norte",
+      "geopolítica"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "1": "A ocupação do Oeste estadunidense começou antes da Guerra de Secessão, no contexto da Doutrina do Destino Manifesto do século XIX. O conflito civil entre Norte e Sul não foi o gatilho principal da expansão territorial para o Oeste.",
+      "2": "As anexações de terras indígenas foram marcadas por guerras, massacres e tratados desiguais impostos pela força, nada semelhantes a negociações pacíficas. A violência contra populações nativas foi sistemática ao longo dos séculos XVIII e XIX.",
+      "3": "Embora a compra de territórios mexicanos tenha ocorrido, ela não esgota o processo de expansão, que incluiu guerras e compras a outras potências. A alternativa A é mais completa ao mencionar guerras, compras e negociações com várias potências europeias.",
+      "4": "A diversidade da colonização europeia não impediu a unificação territorial estadunidense, consolidada ao longo do século XIX. Ao contrário, os EUA foram absorvendo os territórios de potências europeias como França, Espanha e Rússia por meio de compras e conflitos."
+    }
   }
 ]

@@ -1,0 +1,462 @@
+[
+  {
+    "id": 1,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Êxodo urbano",
+      "Dinâmica socioespacial"
+    ],
+    "texto_apoio": "A ideia de êxodo urbano assume ares caricaturais. Pega a mais reduzida parte da pirâmide social e projeta para todos seus desejos defensivos. Se o êxodo urbano for compreendido como aquisição de uma segunda residência, então não estamos, de fato, falando de êxodo, mas da reversão de um excedente de renda de uma pequena fração da elite para as franjas metropolitanas. Se o êxodo urbano for compreendido como retorno aos municípios menos povoados, então não estamos, de fato, falando de êxodo urbano, mas de um movimento de migração de pessoas cuja estabilidade no emprego e a elevada renda lhes permitem simular, nas ilhas urbanas do interior agropecuário, a vida urbana metropolitana.",
+    "fonte_apoio": "ARRAIS, T. A. O distópico êxodo urbano. Revista e, n. 11, maio 2021 (adaptado).",
+    "pergunta": "A crítica apresentada no texto evidencia uma dinâmica socioespacial marcada pela",
+    "alternativas": [
+      "valorização de tradições rurais.",
+      "redução de plantações agrícolas.",
+      "estagnação de atividades comerciais.",
+      "precariedade de infraestruturas rodoviárias.",
+      "seletividade de deslocamentos populacionais."
+    ],
+    "correta": 4,
+    "comentario": "Ao qualificar o fenômeno com 'ares caricaturais', o texto aborda de forma irônica o êxodo urbano, isto é, o fluxo de saída de pessoas das áreas urbanas para áreas rurais. O centro da crítica apresentada diz respeito ao fato de que, além de um fluxo diminuto, tal movimento envolve somente uma fração da elite que pode se deslocar para as áreas limítrofes da expansão urbana para simular a vida urbana metropolitana em 'ilhas urbanas do interior agropecuário'. Assim, tal movimento apresenta-se de forma oposta ao êxodo rural clássico, em que os trabalhadores foram expulsos do campo pela concentração de terras e pela mecanização, sendo o êxodo urbano um fluxo seletivo e voluntário possibilitado pelos privilégios econômicos dessa população, que se assenta, comumente, em condomínios fechados que reproduzem as facilidades de áreas urbanas.",
+    "ajuda": "O texto usa ironia ('ares caricaturais') para criticar quem chama esse movimento de êxodo. Quem se desloca? Uma 'reduzida parte' da elite. O que esse detalhe revela sobre o tipo de deslocamento?",
+    "feedbacks": {
+      "0": "Tradições rurais não aparecem no texto. A crítica é sobre privilégio econômico, não nostalgia do campo.",
+      "1": "Nenhuma menção a plantações ou produção agrícola. O foco é no fluxo seletivo de pessoas e de renda.",
+      "2": "Comércio não é abordado. O texto trata de migração dentro do espaço metropolitano, não de atividade econômica urbana.",
+      "3": "Infraestrutura rodoviária não é citada. O texto critica a seletividade social do deslocamento, não suas condições físicas."
+    }
+  },
+  {
+    "id": 2,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Rio Reno",
+      "Mudanças climáticas",
+      "Transporte hidroviário"
+    ],
+    "texto_apoio": "Por séculos, o Rio Reno tem sido uma rota de navegação confiável, ajudando a criar gigantes fabris ao longo de suas margens. No entanto, esses dias parecem estar no fim, pois o nível da água tem diminuído regularmente, o que impede a navegação fluvial do final do verão até o outono. Isso mostra como a crise climática atinge as economias dos países ricos.",
+    "fonte_apoio": "Disponível em: www.estadao.com.br. Acesso em: 10 ago. 2023 (adaptado).",
+    "pergunta": "Qual é o efeito econômico do problema ambiental apresentado no texto?",
+    "alternativas": [
+      "Supressão da extração de minério.",
+      "Intensificação da atividade de pesca.",
+      "Encarecimento da logística de transporte.",
+      "Inviabilização da agricultura de subsistência.",
+      "Sucateamento da indústria de transformação."
+    ],
+    "correta": 2,
+    "comentario": "O Rio Reno corresponde a uma das mais importantes rotas de navegação da Europa Ocidental, tendo sido fundamental para o processo de industrialização de países como França e Alemanha. Com a intensificação das mudanças climáticas e seus efeitos, como a redução do nível da água dos rios, a navegação fluvial será comprometida, afetando diretamente a economia dos países que utilizam essa rota, uma vez que deverão procurar uma alternativa logística para o transporte de mercadorias. Considerando a relevância da rota, somada ao fato de que o transporte hidroviário costuma ter maior eficiência energética e apresentar elevada capacidade de carga, tal alteração poderá implicar no encarecimento dos gastos com o transporte.",
+    "ajuda": "O texto diz que o Reno criou 'gigantes fabris' ao longo de suas margens. Se o nível da água baixa e a navegação fica impossível nesses trechos, o que acontece com o escoamento dessas indústrias?",
+    "feedbacks": {
+      "0": "Mineração não é mencionada. O foco é no transporte de mercadorias via hidrovia.",
+      "1": "Pesca não é citada. O impacto tratado é econômico-industrial, não pesqueiro.",
+      "3": "Agricultura de subsistência não é o tema. O Reno serve a grandes indústrias, e o problema é o custo do transporte alternativo.",
+      "4": "O texto não sugere fim das fábricas, mas dificuldade de escoamento. A produção continua; o que sobe é o custo logístico."
+    }
+  },
+  {
+    "id": 3,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Conceito de Lugar",
+      "Itinerários afetivos",
+      "Feira de São Cristóvão"
+    ],
+    "texto_apoio": "Dos 10 aos 15 anos de idade, Virgínia adorava acompanhar seu pai, aos domingos, naquela sinestésica Feira de São Cristóvão (RJ), talvez por ser o maior elo que ela experimentava com o mundo exterior à sua casa e, visto assim e agora, tão íntimo e próximo de algo que ela ainda não sabia, mas que seria, no futuro, a sua própria casa: a Paraíba. Dona Didi costurava, sob medida, camisas sociais, bermudas, shorts, vestidos, saias, sempre em casa e rodeada pelos quatro filhos pequenos do casal, desdobrando-se para dar conta de toda a responsabilidade sem trégua que isso demandava.",
+    "fonte_apoio": "PASSOS, M. C. P. et al. apud SCARELI, G. A máquina de costura e os fios da memória. Revista Brasileira de Pesquisa (Auto) Biográfica, n. 18, maio-ago. 2021 (adaptado).",
+    "pergunta": "Os itinerários afetivos e socioespaciais mencionados no texto associam-se à vida dos personagens por apresentarem",
+    "alternativas": [
+      "histórias conectadas e recordações do lugar.",
+      "direitos trabalhistas e produção industrial.",
+      "preconceitos linguísticos e dinâmicas territoriais.",
+      "lembranças fabris e discriminação dos operários.",
+      "experiências profissionais e segregação regional."
+    ],
+    "correta": 0,
+    "comentario": "O texto descreve as memórias afetivas de Virgínia em sua juventude, marcadas por experiências simples e cotidianas. Essas lembranças relacionam-se diretamente aos itinerários afetivos e socioespaciais, pois revelam a construção da identidade da personagem a partir da vivência e da memória por meio dos afetos. Tal descrição está conectada às recordações típicas atreladas ao conceito de lugar para a Geografia, remetendo a elas.",
+    "ajuda": "O texto mostra que a Feira de São Cristóvão, para Virgínia, era um elo com algo que ela ainda não sabia que seria sua casa futura. Que conceito geográfico descreve esse vínculo afetivo entre pessoa e espaço vivido?",
+    "feedbacks": {
+      "1": "Dona Didi costurava em casa — é contexto, não centro da questão. O texto foca em memórias e pertencimento, não em relações trabalhistas.",
+      "2": "Não há menção a preconceitos linguísticos. O texto trata de afeto e identidade com o espaço.",
+      "3": "Não aparece discriminação nem contexto fabril. A costura de Dona Didi é doméstica, parte do cenário afetivo.",
+      "4": "A profissão não é o foco. O texto destaca os laços afetivos com os lugares vividos, não experiências profissionais ou segregação."
+    }
+  },
+  {
+    "id": 4,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Amazônia",
+      "Desmatamento",
+      "Hidrelétricas",
+      "Matriz elétrica"
+    ],
+    "texto_apoio": "Pela falta de chuvas, a geração de energia eólica, solar e térmica atingiu níveis recordes em agosto de 2021, quando as hidrelétricas ficaram com cerca de 50% do total. Para um professor da Universidade Federal da Bahia, essa queda não é uma surpresa. 'Não aconteceu de uma hora para outra. Se olharmos o mapa do Brasil, um dos grandes provedores de água é a Floresta Amazônica. Se você diminui a floresta, diminui a quantidade de água que vai para a atmosfera', explica.",
+    "fonte_apoio": "BORGES, T. O fantasma do apagão. Disponível em: www.correio24horas.com.br. Acesso em: 9 out. 2021 (adaptado).",
+    "pergunta": "De acordo com o texto, a dificuldade na produção de energia é causada pela alteração da(s)",
+    "alternativas": [
+      "variável em pesquisas meteorológicas.",
+      "paisagem em locais estratégicos.",
+      "demandas em regiões industriais.",
+      "metas em acordos climáticos.",
+      "geologia em áreas naturais."
+    ],
+    "correta": 1,
+    "comentario": "O texto aponta para a oscilação da matriz elétrica brasileira, provocada pela redução das chuvas no país, em decorrência do desmatamento da Floresta Amazônica, que afeta o volume de água disponível nos rios e, consequentemente, a geração de energia nas hidrelétricas. Com isso, outras fontes de energia, como a eólica, solar e térmica, ampliam sua produção em razão do potencial existente em outras regiões do Brasil. Portanto, a dificuldade e a facilidade na produção de energia decorrem da dinâmica das paisagens, que garante o equilíbrio hídrico e climático, essencial para o aproveitamento do potencial energético nacional.",
+    "ajuda": "O professor explica: floresta amazônica → vapor d'água → chuvas → rios → hidrelétricas. Se a floresta é destruída, que aspecto visível do território muda primeiro nessa cadeia?",
+    "feedbacks": {
+      "0": "Pesquisas meteorológicas não causam a seca. O problema é físico: desmatamento reduz a evapotranspiração e, com isso, as chuvas.",
+      "2": "O aumento da demanda não explica a crise. O problema é de oferta de água, causado pelo desmatamento — não pelo consumo industrial.",
+      "3": "O texto não menciona acordos climáticos. A causa é direta: menos floresta, menos vapor d'água, menos chuva, menos energia.",
+      "4": "A geologia não mudou. O que mudou é a cobertura vegetal (a paisagem), que regula o ciclo hidrológico e abastece as hidrelétricas."
+    }
+  },
+  {
+    "id": 5,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Macedônia do Norte",
+      "Geopolítica",
+      "Integração regional"
+    ],
+    "texto_apoio": "Entrou em vigor, em 2019, o acordo que determina a mudança de nome da Macedônia para Macedônia do Norte. A troca põe fim — ao menos por enquanto — no impasse entre essa antiga república da Iugoslávia e a vizinha Grécia. O governo grego se opunha ao uso do nome Macedônia pelo novo país vizinho porque a Grécia tem uma província no norte com o mesmo nome. Por causa desse impasse, a Grécia bloqueou as negociações de adesão de seu vizinho à União Europeia. Depois de negociações, as duas partes chegaram a um acordo.",
+    "fonte_apoio": "Disponível em: https://g1.globo.com. Acesso em: 7 nov. 2021 (adaptado).",
+    "pergunta": "Para o país originado da antiga Iugoslávia, a mudança de nome é uma estratégia política para",
+    "alternativas": [
+      "criar a moeda própria.",
+      "proteger a cultura local.",
+      "subjugar a minoria étnica.",
+      "expandir o território nacional.",
+      "intensificar a integração regional."
+    ],
+    "correta": 4,
+    "comentario": "A mudança de nome da República da Macedônia para República da Macedônia do Norte, ocorrida em 2019, resolveu uma longa disputa daquele país com a Grécia sobre o uso da palavra 'Macedônia'. Desde a independência do país, em 1991, o governo grego argumentava que o nome indicava possíveis pretensões sobre sua própria região chamada Macedônia e sobre a herança histórica ligada a Alexandre, o Grande. Devido a esse impasse, a Grécia bloqueou durante anos a entrada daquele país em organizações internacionais como OTAN e União Europeia. Após intensas negociações, os dois governos assinaram o Acordo de Prespa em 2018, pelo qual o país aceitou mudar oficialmente seu nome para Macedônia do Norte e a Grécia retirou suas objeções. Com a mudança, o país conseguiu avançar seu processo de integração regional encerrando uma disputa que durou quase três décadas.",
+    "ajuda": "Por que a Grécia bloqueava a entrada da Macedônia na UE? O texto diz: por causa do nome. A mudança de nome resolveu o impasse. O que essa resolução abre para o país?",
+    "feedbacks": {
+      "0": "O texto não menciona moeda própria. Integrar-se à UE implicaria adotar o euro — o oposto de criar moeda nacional.",
+      "1": "O acordo exigiu que o país cedesse no nome — uma concessão cultural, não proteção. A estratégia é de abertura para integração.",
+      "2": "O texto trata de disputa entre Estados soberanos, não de grupos étnicos internos. Minorias não são mencionadas.",
+      "3": "Não há menção a expansão territorial. O país fez uma concessão simbólica (o nome) para garantir integração política e econômica."
+    }
+  },
+  {
+    "id": 6,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "CO₂",
+      "Queimadas",
+      "Circulação de massas de ar",
+      "Ventos alísios"
+    ],
+    "texto_apoio": "Concentração de CO₂ por queimadas entre África e Brasil em 30 de agosto de 2019.",
+    "fonte_apoio": "Disponível em: https://noticias.uol.com.br. Acesso em: 10 out. 2019 (adaptado).",
+    "pergunta": "A dispersão espacial do problema ambiental representado na imagem de satélite é explicada pela seguinte característica geográfica:",
+    "alternativas": [
+      "Amplitude das temperaturas médias.",
+      "Homogeneidade da insolação anual.",
+      "Ocorrência de chuvas de relevo.",
+      "Circulação de massas de ar.",
+      "Ausência de frentes frias."
+    ],
+    "correta": 3,
+    "comentario": "A questão evidencia a emissão/concentração de CO₂ provenientes das queimadas ocorridas na região amazônica e na região tropical do continente africano, destacando a dispersão do CO₂ entre os dois continentes, que é explicada pela circulação geral da atmosfera, onde os ventos alísios são transportados de Leste para Oeste, carregando a poluição gerada pelas queimadas retratadas na imagem da questão. Portanto, a alternativa correta destaca a circulação das massas de ar.",
+    "ajuda": "A imagem mostra CO₂ das queimadas da Amazônia aparecendo sobre a África — e vice-versa. O que movimenta gases invisíveis pela atmosfera em escala intercontinental, cruzando oceanos?",
+    "feedbacks": {
+      "0": "Amplitude térmica é uma consequência da circulação atmosférica, não o mecanismo que dispersa os gases entre continentes.",
+      "1": "Insolação homogênea não gera vento. São as diferenças de aquecimento que movem o ar, mas a questão pede o mecanismo — a circulação em si.",
+      "2": "Chuvas orográficas ocorrem em encostas de montanhas, sem relação com a dispersão transoceânica de gases atmosféricos.",
+      "4": "Frentes frias são fenômenos locais/regionais e sazonais. A dispersão entre dois continentes é explicada pelos ventos alísios, parte da circulação geral das massas de ar."
+    },
+    "imagem_apoio": "enem/enem2025/enem25q6.png"
+  },
+  {
+    "id": 7,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Carro elétrico",
+      "Metais raros",
+      "Eletromobilidade",
+      "Desenvolvimento sustentável"
+    ],
+    "texto_apoio": "Carro elétrico, uma miragem ecológica. A mudança para a eletromobilidade de fato promove uma alteração no consumo de recursos naturais. Hoje, amplamente dependentes do petróleo, nossos modais de transporte poderiam se tornar cada vez mais dependentes de trinta metais raros. Gálio, tântalo, cobalto, platinoides, tungstênio, metais de terras-raras: uma mina contém apenas ínfimas quantidades desses metais dotados de fabulosas propriedades eletrônicas, ópticas e magnéticas.",
+    "fonte_apoio": "PITRON, G. Revolução tecnológica, transformação geopolítica. Disponível em: https://diplomatique.org.br. Acesso em: 10 dez. 2018.",
+    "pergunta": "No que se refere ao desenvolvimento sustentável, a charge e o texto indicam uma contradição no uso da tecnologia alternativa derivada do seguinte aspecto:",
+    "alternativas": [
+      "Necessidade de fontes não renováveis.",
+      "Padronização dos modelos produtivos.",
+      "Demanda de mão de obra qualificada.",
+      "Precariedade da legislação industrial.",
+      "Utilização de materiais recicláveis."
+    ],
+    "correta": 0,
+    "comentario": "Ainda que promovam uma mudança positiva em relação à dependência de combustíveis fósseis, os carros elétricos, segundo o texto e a charge, tendem a não solucionar o problema da dependência dos meios de transporte em relação a fontes não renováveis. Ao invés da dependência em relação ao petróleo, os carros elétricos poderiam necessitar de outras fontes não renováveis, como os metais caros citados no texto.",
+    "ajuda": "A proposta do carro elétrico é substituir o petróleo (não renovável) por eletricidade. O texto diz que fabricar as baterias exige 30 tipos de metais raros. O que esses metais têm em comum com o petróleo?",
+    "feedbacks": {
+      "1": "Padronização não é mencionada. O texto critica a troca de uma dependência por outra, não a uniformização de processos produtivos.",
+      "2": "Mão de obra não é o tema. O foco está nos recursos naturais necessários para a tecnologia — não no perfil dos trabalhadores.",
+      "3": "Legislação não é discutida. O problema levantado é físico: os metais raros, assim como o petróleo, são recursos finitos e não renováveis.",
+      "4": "O texto aponta o oposto: os metais raros são escassos e de difícil extração, não recicláveis com facilidade. Reciclagem não é citada no trecho."
+    },
+    "imagem_apoio": "enem/enem2025/enem25q7.png"
+  },
+  {
+    "id": 8,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Cidade sustentável",
+      "Equidade socioespacial",
+      "Prudência ecológica"
+    ],
+    "texto_apoio": "Cidade sustentável é o assentamento humano constituído por uma sociedade com consciência de seu papel de agente transformador dos espaços e cuja relação não se dá pela razão natureza-objeto, e sim por uma ação sinérgica entre prudência ecológica, eficiência energética e equidade socioespacial.",
+    "fonte_apoio": "ROMEIRO, M. Frentes do urbano para a construção de indicadores de sustentabilidade intraurbana. Paranoá, n. 4, nov. 2007.",
+    "pergunta": "Uma medida pública que contradiz o modelo de cidade exposto no texto é a",
+    "alternativas": [
+      "coleta seletiva de lixo.",
+      "reutilização das águas pluviais.",
+      "canalização dos cursos hídricos.",
+      "arborização das avenidas centrais.",
+      "educação ambiental da comunidade."
+    ],
+    "correta": 2,
+    "comentario": "O texto apresenta o conceito de cidade sustentável como um espaço urbano construído por uma sociedade consciente de seu papel transformador, que busca equilibrar a relação entre as construções humanas e a natureza. Para isso, são fundamentais atitudes baseadas na prudência ecológica, na eficiência energética e na equidade socioespacial. Assim, políticas públicas que promovam o uso racional dos recursos, como a coleta seletiva, o reaproveitamento de águas pluviais, a arborização urbana e a educação ambiental, estão de acordo com esse modelo de cidade, pois fortalecem a convivência equilibrada entre pessoas e meio ambiente. Por outro lado, a canalização dos cursos hídricos representa uma intervenção que vai contra os princípios de sustentabilidade indicados no texto. Essa prática modifica ecossistemas naturais, podendo causar degradação ambiental e aumentar o risco de enchentes, o que rompe a integração entre o ambiente natural e o urbano.",
+    "ajuda": "O texto diz que a relação com a natureza não deve ser de 'natureza-objeto' (dominar), mas de 'ação sinérgica'. A canalização de rios transforma o rio em objeto de engenharia. Isso viola qual princípio do texto?",
+    "feedbacks": {
+      "0": "Coleta seletiva alinha-se à eficiência no uso dos recursos e à prudência ecológica — compatível com o modelo proposto.",
+      "1": "Reutilizar águas pluviais é exemplo de eficiência energética e ecológica — está diretamente de acordo com o texto.",
+      "3": "Arborização aumenta permeabilidade do solo, reduz ilhas de calor e melhora a qualidade ambiental — compatível com sustentabilidade urbana.",
+      "4": "Educação ambiental fortalece a 'consciência do papel de agente transformador' — conceito central do texto. Está completamente alinhada ao modelo."
+    }
+  },
+  {
+    "id": 9,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Intemperismo químico",
+      "Calcário",
+      "Geomorfologia cárstica"
+    ],
+    "texto_apoio": "Nos Estados Unidos, um hotel perto de um parque foi engolido por uma enorme cratera. E não é a primeira vez que esse tipo de incidente acontece na Flórida. Em minutos, uma ala inteira do hotel era engolida pela cratera de 30 metros de diâmetro e cinco de profundidade. O diretor do resort em Clermont, perto dos parques temáticos da Flórida, diz que o prédio tinha 15 anos, e que até então o solo nunca havia apresentado problemas. Os afundamentos são um fenômeno comum na Flórida por causa das formações de calcário e argila no subsolo, mas às vezes chuvas fortes, ou a drenagem do solo para construção, acabam contribuindo para o surgimento desses buracos.",
+    "fonte_apoio": "Disponível em: http://g1.globo.com. Acesso em: 10 dez. 2024 (adaptado).",
+    "pergunta": "A situação de desmoronamento do solo descrita no texto origina-se da",
+    "alternativas": [
+      "cristalização da estrutura geológica.",
+      "ação do intemperismo químico.",
+      "recomposição da mata ciliar.",
+      "acumulação de sedimentos orgânicos.",
+      "impermeabilização da superfície ocupada."
+    ],
+    "correta": 1,
+    "comentario": "Os terrenos cársticos, com grandes concentrações de calcário, tendem a ser fortemente atingidos pelo intemperismo químico, no qual a água dissolve o calcário, podendo dar origem a cavernas e promover o afundamento da superfície. No caso citado, a formação da cratera ocorreu claramente por esse processo de intemperismo químico, que agiu sobre a formação calcária mencionada no texto.",
+    "ajuda": "O texto destaca as 'formações de calcário' no subsolo da Flórida. A água dissolve calcário com facilidade, criando cavidades. Que processo geológico chamamos quando a água dissolve rochas e forma buracos?",
+    "feedbacks": {
+      "0": "Cristalização é o processo oposto: formação e endurecimento de rochas. O texto descreve dissolução e colapso do calcário.",
+      "2": "Mata ciliar é vegetação às margens de rios — sem relação com formação de crateras em terrenos cársticos. O processo é geológico.",
+      "3": "Acúmulo de sedimentos gera solos mais espessos, não buracos. O intemperismo químico aqui age removendo material por dissolução.",
+      "4": "Impermeabilização dificulta a infiltração. O processo no texto é o oposto: a água infiltra e dissolve o calcário por baixo, criando o vazio que gera a cratera."
+    }
+  },
+  {
+    "id": 10,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Pesticidas",
+      "Agricultura moderna",
+      "Polinizadores naturais"
+    ],
+    "texto_apoio": "A partir do século XIX e, principalmente, no século XX, iniciou-se o uso de produtos sintéticos na agricultura. No Brasil, a partir da década de 1960 e, posteriormente, nos anos 1970, os inseticidas ampliam sua fatia no mercado dos defensivos agrícolas.",
+    "fonte_apoio": "TROPPMAR, H. Biogeografia e meio ambiente. Rio de Janeiro: TB, 2012 (adaptado).",
+    "pergunta": "Nos espaços agrícolas, a mudança técnica descrita provocou a diminuição da",
+    "alternativas": [
+      "desagregação de camadas pedológicas.",
+      "diversidade de polinizadores naturais.",
+      "contaminação de lençóis freáticos.",
+      "produtividade da terra cultivada.",
+      "ocorrência da erosão laminar."
+    ],
+    "correta": 1,
+    "comentario": "Entre os anos de 1960 e 1970, o Brasil modernizou sua agricultura adotando mecanização e uso intensivo de pesticidas sintéticos. Embora isso tenha aumentado a produtividade, a aplicação indiscriminada de inseticidas resultou na contaminação de solos, águas e alimentos, além da exposição de trabalhadores e comunidades a intoxicações. A ausência de fiscalização e a pulverização aérea agravaram a dispersão dessas substâncias. Dentre os impactos mais severos, destaca-se a diminuição da diversidade de polinizadores naturais, como abelhas nativas, borboletas e outros insetos, que sofreram declínio devido à toxicidade dos pesticidas e à degradação de seus habitats.",
+    "ajuda": "Inseticidas não distinguem insetos 'inimigos' de insetos benéficos. O que acontece com abelhas, borboletas e outros polinizadores quando há pulverização em larga escala nas lavouras?",
+    "feedbacks": {
+      "0": "Inseticidas não desagregam fisicamente o solo. Podem contaminá-lo, mas não são a causa direta de erosão pedológica.",
+      "2": "Embora pesticidas contaminem a água, a questão pede o que DIMINUIU. Contaminação é um acréscimo negativo, não uma redução de algo positivo.",
+      "3": "A Revolução Verde, pelo contrário, aumentou a produtividade agrícola. O texto descreve expansão do uso de inseticidas, não queda de produção.",
+      "4": "Erosão laminar é causada pelo escoamento superficial e pela falta de cobertura vegetal — não está diretamente ligada ao uso de inseticidas."
+    }
+  },
+  {
+    "id": 11,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Energia geotérmica",
+      "Matriz elétrica brasileira",
+      "Hidrelétricas"
+    ],
+    "texto_apoio": "Pesquisa pioneira no Brasil propõe o uso de energia do solo para climatizar edifícios. Pela primeira vez na história, o Brasil terá um prédio que usa energia do solo para climatizar seus ambientes. Uma pesquisa inovadora avaliou o uso das fundações de edifícios como meio para a troca de energia térmica entre o prédio e o subsolo. A energia geotérmica é aquela encontrada dentro da crosta terrestre, seja no solo, nas rochas ou mesmo na água, sendo identificada pela temperatura. Essa energia pode ser transferida para a superfície por processos de troca térmica a partir das fundações da edificação.",
+    "fonte_apoio": "Disponível em: https://jornal.usp.br. Acesso em: 7 nov. 2021 (adaptado).",
+    "pergunta": "Para o sistema elétrico brasileiro, a expansão de tecnologias como a descrita no texto representa uma tendência de",
+    "alternativas": [
+      "homogeneização da oferta da matriz produtiva.",
+      "ampliação do consumo em unidades residenciais.",
+      "redução da pressão sobre as usinas hidrelétricas.",
+      "estagnação do consumo em unidades industriais.",
+      "superação da necessidade de recursos renováveis."
+    ],
+    "correta": 2,
+    "comentario": "A matriz elétrica brasileira apresenta alta dependência das usinas hidrelétricas, responsáveis por mais de 60% da eletricidade gerada no país. Nesse contexto, a ampliação do uso de fontes alternativas, como a energia geotérmica, contribui para diversificar a base energética nacional, reduzir a pressão sobre os reservatórios e garantir maior segurança no abastecimento, principalmente em períodos de estiagem prolongada.",
+    "ajuda": "O Brasil depende fortemente de hidrelétricas. Se edifícios passam a usar energia do subsolo para climatização, o que acontece com a carga que eles colocam na rede elétrica pública?",
+    "feedbacks": {
+      "0": "A geotérmica DIVERSIFICA a matriz energética, não a homogeneíza. O efeito é exatamente o oposto da homogeneização.",
+      "1": "A geotérmica REDUZ o consumo de eletricidade convencional nos edifícios — não amplia. Climatizar com energia do subsolo substitui o consumo da rede.",
+      "3": "O texto fala de climatização de edifícios, não de indústrias. E o efeito seria redução de consumo, não estagnação.",
+      "4": "A energia geotérmica é um recurso renovável — ela não supera a necessidade de renováveis, mas complementa a matriz com mais uma fonte limpa."
+    }
+  },
+  {
+    "id": 12,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Cerrado",
+      "Incêndios",
+      "Sensoriamento Remoto",
+      "INPE",
+      "UFMG"
+    ],
+    "texto_apoio": "Centro de Sensoriamento Remoto da UFMG desenvolveu modelo computacional para prever o comportamento do fogo no Cerrado. O INPE produz dados de satélite sobre focos de calor. O modelo integra relevo, ventos, umidade e biomassa seca para estimar áreas com maior risco de incêndio e prever a intensidade e direção de propagação do fogo no Cerrado Brasileiro.",
+    "fonte_apoio": "Revista Minas Faz Ciência, n. 84, dez. 2020 – jan.-fev. 2021.",
+    "pergunta": "Em relação à causa ambiental, o uso da tecnologia mencionada indica a",
+    "alternativas": [
+      "influência da produção orgânica.",
+      "relevância da infraestrutura viária.",
+      "significância da cosmologia nativa.",
+      "importância de pesquisas acadêmicas.",
+      "interferência de interesses estrangeiros."
+    ],
+    "correta": 3,
+    "comentario": "A tecnologia é resultado direto do trabalho científico em instituições públicas brasileiras (UFMG e INPE). O projeto evidencia como o investimento em ciência e inovação é essencial à criação de soluções práticas de proteção ambiental, reforçando o papel das universidades na promoção do desenvolvimento sustentável e na conservação dos biomas nacionais.",
+    "ajuda": "Quem criou o modelo computacional descrito? O texto cita UFMG e INPE — duas instituições públicas de pesquisa. O que isso revela sobre o papel da ciência na defesa do meio ambiente?",
+    "feedbacks": {
+      "0": "Produção orgânica não é mencionada. O tema é sensoriamento remoto para previsão e controle de incêndios no Cerrado.",
+      "1": "Infraestrutura viária não tem relação com o monitoramento de focos de calor por satélite. São dimensões completamente diferentes.",
+      "2": "Cosmologia indígena não é citada. O texto trata de ciência universitária e tecnologia de satélite desenvolvidas por instituições públicas.",
+      "4": "As instituições mencionadas são brasileiras — UFMG e INPE. O texto destaca justamente a capacidade nacional de produzir soluções tecnológicas ambientais."
+    }
+  },
+  {
+    "id": 13,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Fazenda Cabaceiras",
+      "Pará",
+      "Função social da terra",
+      "Trabalho análogo à escravidão"
+    ],
+    "texto_apoio": "A desapropriação da fazenda Cabaceiras, no sul do Pará, é a primeira da história motivada pelo desrespeito à função social de imóvel rural (CF/1988), por 'trabalho em condições análogas à escravidão' e graves infrações ambientais.",
+    "fonte_apoio": "AGB (adaptado).",
+    "pergunta": "O texto considera a promoção da justiça como um mecanismo de",
+    "alternativas": [
+      "manutenção da ordem agrária.",
+      "legitimação da propriedade privada.",
+      "hegemonia das classes dominantes.",
+      "revisão das desigualdades econômicas.",
+      "homogeneização da distribuição fundiária."
+    ],
+    "correta": 3,
+    "comentario": "A função social da terra no Brasil é mecanismo legal acionado na luta contra a tradicional ordem agrária brasileira, que apresenta altos índices de concentração fundiária, desigualdades socioeconômicas e degradação ambiental. A desapropriação da fazenda Cabaceiras, motivada pelo descumprimento da função social da propriedade, representa um mecanismo de promoção da justiça como forma de revisão das desigualdades socioeconômicas.",
+    "ajuda": "A desapropriação é motivada por duas violações: trabalho análogo à escravidão e infrações ambientais. Que estrutura agrária é confrontada quando o Estado intervém por esses motivos?",
+    "feedbacks": {
+      "0": "A desapropriação DESAFIA a ordem agrária tradicional (concentração fundiária e exploração), não a mantém. É o oposto de manutenção.",
+      "1": "A desapropriação LIMITA o direito de propriedade quando sua função social não é cumprida — é o contrário de legitimação.",
+      "2": "A ação estatal confronta o poder dos grandes proprietários rurais, não reforça a hegemonia das classes dominantes.",
+      "4": "Um caso isolado de desapropriação não homogeneíza a distribuição de terras. O efeito é pontual: revisão de uma desigualdade específica, não transformação estrutural igualitária."
+    }
+  },
+  {
+    "id": 14,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Salvador",
+      "Verticalização urbana",
+      "Espaço geográfico urbano"
+    ],
+    "texto_apoio": "Salvador, capital do estado da Bahia. [Fotografia da orla de Salvador mostrando edifícios altos.]",
+    "fonte_apoio": "Disponível em: mundoeducacao.uol.com.br. Acesso em: 20 out. 2021.",
+    "pergunta": "A análise dos elementos presentes na fotografia permite identificar qual característica socioespacial?",
+    "alternativas": [
+      "Estagnação da especulação imobiliária.",
+      "Conservação da arquitetura colonial.",
+      "Implantação de moradias populares.",
+      "Predomínio da atividade comercial.",
+      "Processo de verticalização urbana."
+    ],
+    "correta": 4,
+    "comentario": "A análise da fotografia permite identificar uma característica marcante em relação às mudanças do Espaço Geográfico e do uso do espaço urbano na orla de Salvador. O processo de urbanização de Salvador resultou no aumento da construção de edifícios altos (verticalização), o que concentra moradias na região destacada da cidade.",
+    "ajuda": "A fotografia mostra uma fileira de edifícios altos junto ao litoral de Salvador. Quando uma cidade cresce para cima — mais andares — em vez de se expandir horizontalmente, que processo urbanístico está ocorrendo?",
+    "feedbacks": {
+      "0": "A verticalização intensa é sinal de especulação imobiliária ATIVA — os terrenos valorizados estimulam construções mais altas, não estagnação.",
+      "1": "Arquitetura colonial caracteriza-se por construções baixas e históricas. A imagem mostra o oposto: edifícios modernos e altos.",
+      "2": "Edifícios na orla costumam concentrar imóveis de alto padrão, não habitação popular. A verticalização litorânea está ligada à especulação premium.",
+      "3": "A fotografia não mostra comércio. Os edifícios na orla são predominantemente residenciais e de serviços sofisticados."
+    },
+    "imagem_apoio": "enem/enem2025/enem25q14.png"
+  },
+  {
+    "id": 15,
+    "instituicao": "ENEM",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "Agronegócio",
+      "Capital agroindustrial",
+      "Exportações brasileiras"
+    ],
+    "texto_apoio": "Produção e exportações brasileiras no ranking mundial em 2019. ",
+    "fonte_apoio": "Disponível em: www.cnabrasil.org.br. Acesso em: 15 out. 2021.",
+    "pergunta": "Qual condição favoreceu o cenário produtivo exposto na figura?",
+    
+    "alternativas": [
+      "Redução do poder de compra da população brasileira.",
+      "Ampliação da entrada do capital agroindustrial no campo.",
+      "Diminuição do uso de trabalho especializado na agropecuária.",
+      "Valorização da moeda nacional em relação ao dólar americano.",
+      "Inclusão de pequenas propriedades em cultivos de subsistência."
+    ],
+    "correta": 1,
+    "comentario": "O gráfico da questão aponta para um cenário produtivo de crescimento da exportação e da participação brasileira na produção de commodities agrícolas, como açúcar, café, suco de laranja, soja, carne de frango, carne bovina, milho e carne suína. O favorecimento desse cenário produtivo está ligado a grandes investimentos do capital agroindustrial em um modelo de produção voltado para exportação em dólar, que emprega trabalhadores assalariados, qualificados e especializados. Esse modelo é realizado em grandes propriedades rurais.",
+    "ajuda": "O Brasil lidera a produção mundial de açúcar, soja, café e carnes. O que modernizou o campo brasileiro para isso? Pense no modelo que envolve grandes propriedades, maquinário avançado e integração com a indústria.",
+    "feedbacks": {
+      "0": "Poder de compra interno não explica liderança em exportações. O agronegócio brasileiro é orientado ao mercado externo, cotado em dólar.",
+      "2": "O agronegócio usa tecnologia e mão de obra especializada de forma intensiva — não houve diminuição, mas sofisticação do trabalho.",
+      "3": "O contrário favorece exportações: dólar alto torna produtos brasileiros mais baratos no exterior. Moeda valorizada PREJUDICA o agronegócio exportador.",
+      "4": "O cenário descrito é de grandes propriedades e commodities para exportação — o oposto da pequena propriedade familiar de subsistência."
+    },
+    "imagem_apoio": "enem/enem2025/enem25q15.png"
+  }
+]

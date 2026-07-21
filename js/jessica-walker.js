@@ -47,10 +47,10 @@
         'transform:translateX(-50%) scale(0);transform-origin:bottom center;',
         'transition:transform 0.2s cubic-bezier(0.34,1.56,0.64,1);',
         'background:#fffde7;color:#222;border:2px solid #333;box-shadow:3px 3px 0 #333;',
-        'padding:8px 16px;font-size:14px;font-weight:bold;font-family:monospace;',
+        'padding:13px 16px;font-size:14px;font-weight:bold;font-family:monospace;',
         'white-space:nowrap;pointer-events:none;}',
         '#' + id + '-bubble.show{transform:translateX(-50%) scale(1);}',
-        '#' + id + '-bubble::after{content:"";position:absolute;bottom:-9px;left:50%;',
+        '#' + id + '-bubble::after{content:"";position:absolute;bottom:-14px;left:50%;',
         'transform:translateX(-50%);border:6px solid transparent;border-top-color:#333;}',
         'body.dark-mode #' + id + '-bubble{background:#1a2035;color:#e0e0e0;border-color:#90caf9;box-shadow:3px 3px 0 #90caf9;}',
         'body.dark-mode #' + id + '-bubble::after{border-top-color:#90caf9;}'
@@ -104,10 +104,26 @@
     }
 
     var bubbleIdx = 0;
+
+    function typewriter(el, text, done) {
+      if (el._twTimer) clearInterval(el._twTimer);
+      el.textContent = '';
+      var i = 0;
+      el._twTimer = setInterval(function () {
+        el.textContent += text[i++];
+        if (i >= text.length) {
+          clearInterval(el._twTimer);
+          el._twTimer = null;
+          if (done) done();
+        }
+      }, 38);
+    }
+
     function showBubble() {
       if (!bubble || !c.texts || !c.texts.length) return;
-      bubble.textContent = c.texts[bubbleIdx++ % c.texts.length];
+      var text = c.texts[bubbleIdx++ % c.texts.length];
       bubble.classList.add('show');
+      typewriter(bubble, text);
     }
     function hideBubble() { if (bubble) bubble.classList.remove('show'); }
 
@@ -187,9 +203,10 @@
     function showText(text, duration) {
       if (!bubble) return;
       if (bubble._hideTimer) clearTimeout(bubble._hideTimer);
-      bubble.textContent = text;
       bubble.classList.add('show');
-      bubble._hideTimer = setTimeout(function() { bubble.classList.remove('show'); }, duration || 3000);
+      typewriter(bubble, text, function () {
+        bubble._hideTimer = setTimeout(function () { bubble.classList.remove('show'); }, duration || 3000);
+      });
     }
 
     return {
@@ -505,17 +522,9 @@
     var el = document.getElementById('mural-overlay');
     if (el) el.classList.add('aberto');
   }
-  function abrirModalMural() {
-    var el = document.getElementById('mural-overlay');
-    if (el) el.classList.add('aberto');
-  }
   function fecharMural() {
     var el = document.getElementById('mural-overlay');
-    if (el) {
-      el.classList.remove('aberto');
-      document.querySelectorAll('.mural-card').forEach(function(c){ c.classList.remove('ativo'); });
-      var f = document.getElementById('mural-form'); if (f) f.classList.remove('visivel');
-    }
+    if (el) el.classList.remove('aberto');
   }
 
-})();
+}());

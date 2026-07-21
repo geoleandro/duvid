@@ -17,12 +17,35 @@ $sessionAlunoId = requireAuth();   // encerra com 401 se não autenticado
 
 header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: POST, OPTIONS');
+header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') { http_response_code(204); exit; }
 
+// ── GET: lista de simulados já realizados pelo aluno ──────────
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    $pdo = getDB();
+    $stmt = $pdo->prepare(
+        "SELECT vestibular, ano, MAX(acertos) AS melhor_acerto, MAX(total) AS total, COUNT(*) AS tentativas
+         FROM respostas_simulados
+         WHERE aluno_id = :id
+         GROUP BY vestibular, ano"
+    );
+    $stmt->execute([':id' => $sessionAlunoId]);
+    $feitos = $stmt->fetchAll();
+    // Indexa por "VESTIBULAR_ANO" para lookup O(1) no front
+    $map = [];
+    foreach ($feitos as $f) {
+        $map[strtoupper($f['vestibular']) . '_' . $f['ano']] = [
+            'melhor_acerto' => (int)$f['melhor_acerto'],
+            'total'         => (int)$f['total'],
+            'tentativas'    => (int)$f['tentativas'],
+        ];
+    }
+    jsonResponse(['feitos' => $map]);
+}
+
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    jsonResponse(['erro' => 'Apenas POST é aceito.'], 405);
+    jsonResponse(['erro' => 'Método não permitido.'], 405);
 }
 
 $body      = json_decode(file_get_contents('php://input'), true) ?? [];

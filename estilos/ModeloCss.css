@@ -2231,10 +2231,19 @@ button:disabled {
     cursor: pointer;
     transition: all .2s;
     letter-spacing: .3px;
-    color: #ffffff;
 }
 .btn-melhorar-aula:hover {
     border-color: #4caf50;
     color: #4caf50;
     background: rgba(76,175,80,.06);
+}
+/* Quando dentro do bloco verde (acerto), texto e borda ficam brancos */
+.w3-green .btn-melhorar-aula {
+    color: #fff;
+    border-color: rgba(255,255,255,.6);
+}
+.w3-green .btn-melhorar-aula:hover {
+    background: rgba(255,255,255,.15);
+    border-color: #fff;
+    color: #fff;
 }

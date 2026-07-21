@@ -22,7 +22,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A crise econômica brasileira que se aprofundou a partir de 2015 afetou desproporcionalmente os grupos de menor renda, que dependem mais do mercado de trabalho formal e de programas sociais. Enquanto os mais ricos puderam se proteger por meio de ativos financeiros e diversificação de renda, os trabalhadores de baixa renda sofreram desemprego, informalidade e corte de benefícios. Esse padrão agravou o índice de Gini, aumentando a concentração de renda.</p>",
-    "ajuda": "O gráfico mostra a variação da renda média de dois grupos (ricos e pobres) antes e após uma crise. Observe a tendência de cada grupo nos dois períodos e compare: qual grupo cresceu mais antes? Qual foi mais afetado depois?"
+    "ajuda": "O gráfico mostra a variação da renda média de dois grupos (ricos e pobres) antes e após uma crise. Observe a tendência de cada grupo nos dois períodos e compare: qual grupo cresceu mais antes? Qual foi mais afetado depois?",
+    "feedbacks": {
+      "0": "Os dados não indicam que os dois grupos empobreceram; os mais ricos mantiveram ou ampliaram sua rentabilidade após a crise, enquanto os mais pobres foram mais afetados. A afirmativa ignora a assimetria entre os grupos.",
+      "1": "A rentabilidade dos mais pobres no período pré-crise não é descrita como acentuando a injustiça; o período pré-crise mostrou crescimento para ambos os grupos. O problema está na assimetria do impacto da crise sobre cada grupo.",
+      "3": "A equidade entre ricos e pobres não se efetivou no período pré-crise; a desigualdade histórica persistiu mesmo com o crescimento econômico. O que ocorreu foi redução relativa da desigualdade, e não equidade plena.",
+      "4": "A lucratividade dos mais ricos no pós-crise não equilibrou a estratificação social; ao contrário, ampliou a distância em relação aos mais pobres, que perderam mais. A afirmativa inverte o que os dados indicam."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A informalidade no mercado de trabalho brasileiro atinge cerca de 40% dos trabalhadores, privando-os de direitos como FGTS, seguro-desemprego, licença maternidade e aposentadoria. A charge representa a fragilidade do trabalhador informal diante do capital, sem a proteção da carteira assinada. Essa situação é estrutural na economia brasileira, agravada por ciclos de crise que expulsam trabalhadores do setor formal.</p>",
-    "ajuda": "A charge trata de mudanças nas relações de trabalho no Brasil contemporâneo. Pense em conceitos como terceirização, pejotização e informalidade. Qual desses processos aumenta a insegurança do trabalhador e reduz direitos trabalhistas?"
+    "ajuda": "A charge trata de mudanças nas relações de trabalho no Brasil contemporâneo. Pense em conceitos como terceirização, pejotização e informalidade. Qual desses processos aumenta a insegurança do trabalhador e reduz direitos trabalhistas?",
+    "feedbacks": {
+      "0": "A terceirização não garante autonomia real; ao contrário, transfere custos e riscos para os trabalhadores sem os benefícios da relação de emprego formal. A autonomia descrita é frequentemente uma forma de precarização disfarçada.",
+      "1": "A reestruturação produtiva não transfere custos para os sindicatos; ela fragmenta a classe trabalhadora e reduz o poder sindical. Os custos são transferidos para os próprios trabalhadores, e não para os sindicatos.",
+      "3": "A individualidade do trabalho não descreve adequadamente o processo de precarização. O isolamento do trabalhador é uma consequência da fragmentação das relações de trabalho, e não um modelo produtivo em si.",
+      "4": "A concentração produtiva em um único espaço com controle rígido descreve o modelo fordista, que as transformações pós-fordistas buscaram superar. O processo atual é de descentralização e terceirização, e não de concentração."
+    }
   },
   {
     "id": 3,
@@ -70,7 +82,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O estreitamento da base da pirâmide etária brasileira nas últimas décadas reflete a queda da natalidade, que reduziu a proporção de jovens na população. Com menos jovens entrando no mercado de trabalho ao mesmo tempo em que mais adultos buscam emprego, há uma expansão da demanda por vagas formais. Esse fenômeno, se bem gerido com políticas de qualificação, pode representar o 'bônus demográfico' brasileiro.</p>",
-    "ajuda": "A pirâmide etária do Brasil foi mudando de triangular para retangular ao longo das décadas. Isso significa menos jovens e mais idosos. Quais setores da economia e quais demandas sociais crescem com essa mudança estrutural?"
+    "ajuda": "A pirâmide etária do Brasil foi mudando de triangular para retangular ao longo das décadas. Isso significa menos jovens e mais idosos. Quais setores da economia e quais demandas sociais crescem com essa mudança estrutural?",
+    "feedbacks": {
+      "0": "O crescimento econômico está associado à redução da mortalidade infantil por melhorias no saneamento, alimentação e saúde. Um bom desempenho econômico tende a reduzir, e não a aumentar, a mortalidade infantil.",
+      "1": "O crescimento econômico bem distribuído tende a reduzir desigualdades regionais por meio do aumento de investimentos e da renda. Associá-lo ao crescimento das desigualdades regionais ignora os efeitos redistributivos do desenvolvimento.",
+      "2": "O crescimento econômico geralmente está associado a maior investimento em educação superior, pois a demanda por profissionais qualificados aumenta. Associá-lo à redução dos gastos em educação contradiz a lógica do desenvolvimento.",
+      "3": "O crescimento econômico tende a expandir o acesso à saúde pública por meio do aumento da arrecadação e dos investimentos. A restrição no atendimento hospitalar não é uma consequência esperada do crescimento econômico."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A hipertrofia do setor terciário ocorre quando a prestação de serviços cresce de forma desproporcional, absorvendo trabalhadores que não encontram emprego na indústria. No Brasil, o terciário inclui desde serviços sofisticados (como finanças e tecnologia) até atividades informais de baixa produtividade (como camelôs e domésticas). Essa distorção revela a incapacidade da indústria nacional de absorver toda a mão de obra disponível.</p>",
-    "ajuda": "A PEA está concentrada no setor de comércio e serviços no Brasil. Isso é um fenômeno associado à urbanização acelerada e ao crescimento do terciário. Qual conceito descreve esse excesso de trabalhadores no setor de serviços?"
+    "ajuda": "A PEA está concentrada no setor de comércio e serviços no Brasil. Isso é um fenômeno associado à urbanização acelerada e ao crescimento do terciário. Qual conceito descreve esse excesso de trabalhadores no setor de serviços?",
+    "feedbacks": {
+      "1": "A informalidade é um conceito distinto; refere-se ao trabalho sem proteção legal e previdenciária. Pode coexistir com a hipertrofia do terciário, mas não é o conceito que descreve a expansão desordenada dos serviços.",
+      "2": "A terceirização é a contratação de serviços externos para atividades antes realizadas internamente. É um processo específico do mercado de trabalho contemporâneo, distinto do fenômeno da expansão desordenada do setor terciário.",
+      "3": "A razão de dependência é um indicador demográfico que expressa a proporção de dependentes em relação à população ativa. Não tem relação com o fenômeno do mercado de trabalho descrito.",
+      "4": "O desemprego tecnológico é a perda de postos causada pela automação. É um fenômeno específico do mercado de trabalho, distinto da expansão desordenada e informal do setor de serviços."
+    }
   },
   {
     "id": 5,
@@ -117,7 +141,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O envelhecimento da PEA brasileira, com menos jovens ingressando no mercado de trabalho, tende a reduzir a oferta futura de mão de obra e a pressionar os sistemas previdenciários. Simultaneamente, a queda no número de formandos nas áreas técnicas e científicas pode comprometer a inovação e a produtividade. Esse cenário exige políticas de qualificação profissional e reforma previdenciária para manter o dinamismo econômico.</p>",
-    "ajuda": "O envelhecimento da PEA significa que menos jovens entram no mercado de trabalho. Pense nas consequências para a oferta de mão de obra, a previdência social e os custos de formação profissional. Qual alternativa descreve corretamente esses efeitos?"
+    "ajuda": "O envelhecimento da PEA significa que menos jovens entram no mercado de trabalho. Pense nas consequências para a oferta de mão de obra, a previdência social e os custos de formação profissional. Qual alternativa descreve corretamente esses efeitos?",
+    "feedbacks": {
+      "1": "O achatamento salarial não ocorre em todas as etapas quando a mão de obra é substituída por máquinas; a demanda por trabalhadores altamente qualificados para operar as novas tecnologias aumenta, elevando seus salários.",
+      "2": "O envelhecimento não reduz os custos da previdência; ao contrário, aumenta esses custos pelo crescimento do número de beneficiários idosos. Os gastos com saúde também tendem a crescer com o envelhecimento da população.",
+      "3": "A menor renovação da força de trabalho não reduz os investimentos em capacitação; a demanda por trabalhadores qualificados para novos postos tecnológicos aumenta a necessidade de formação profissional."
+    }
   },
   {
     "id": 6,
@@ -140,7 +169,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As desigualdades raciais no mercado de trabalho brasileiro são estruturais: trabalhadores negros ganham em média 40% menos que trabalhadores brancos com mesma escolaridade e função equivalente. Essa disparidade é resultado do racismo sistêmico que remonta à escravidão e se perpetua em práticas de contratação, promoção e remuneração. A discriminação racial é apontada pelas pesquisas do IBGE como fator explicativo central dessas diferenças.</p>",
-    "ajuda": "As diferenças de remuneração e acesso ao ensino entre grupos raciais não se explicam apenas por renda. Pense em quais mecanismos estruturais perpetuam essas desigualdades no Brasil, mesmo após décadas de crescimento econômico."
+    "ajuda": "As diferenças de remuneração e acesso ao ensino entre grupos raciais não se explicam apenas por renda. Pense em quais mecanismos estruturais perpetuam essas desigualdades no Brasil, mesmo após décadas de crescimento econômico.",
+    "feedbacks": {
+      "0": "A exclusão política é uma forma de marginalização relacionada ao acesso ao poder e ao voto, distinta da discriminação baseada em características étnicas. A questão aborda especificamente a desigualdade ligada à identidade racial.",
+      "2": "A homogeneização cultural é um processo de uniformização de práticas e valores, geralmente associado à globalização. Não descreve a desigualdade socioeconômica associada à identidade racial descrita na questão.",
+      "3": "A hierarquização econômica é um conceito amplo sobre estratificação social por renda. Embora relacionada à discriminação racial, não é o conceito específico que a questão aborda."
+    }
   },
   {
     "id": 7,
@@ -164,7 +198,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As mulheres brasileiras conquistaram maior espaço no mercado de trabalho e na educação superior, mas ainda enfrentam desigualdades de remuneração e sub-representação em postos de liderança. O fenômeno do 'teto de vidro' limita o avanço feminino nas hierarquias corporativas. As afirmativas I e II estão corretas ao registrar o progresso das mulheres, mas sem ignorar as barreiras estruturais que persistem.</p>",
-    "ajuda": "As afirmativas tratam da situação das mulheres no mercado de trabalho brasileiro. Analise cada uma: escolaridade, presença em cargos de liderança, diferença salarial. Identifique quais são sustentadas pelos dados reais sobre desigualdade de gênero."
+    "ajuda": "As afirmativas tratam da situação das mulheres no mercado de trabalho brasileiro. Analise cada uma: escolaridade, presença em cargos de liderança, diferença salarial. Identifique quais são sustentadas pelos dados reais sobre desigualdade de gênero.",
+    "feedbacks": {
+      "0": "A combinação I, II e III inclui a afirmativa III, que contém equívocos. Apenas as afirmativas I e II estão corretas.",
+      "2": "A combinação III, IV e V inclui afirmativas com erros e exclui as afirmativas I e II, que são as corretas.",
+      "3": "A combinação II e IV inclui a afirmativa IV, que contém erros, e exclui a afirmativa I, que é correta. O conjunto correto é I e II.",
+      "4": "A combinação III e V exclui as afirmativas I e II, que são corretas, e inclui afirmativas com erros."
+    }
   },
   {
     "id": 8,
@@ -188,7 +228,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A consolidação do domínio tecnológico por parte de países e empresas transnacionais resulta da concentração de investimentos em pesquisa e desenvolvimento (P&D). Tecnologias de ponta em setores como semicondutores, inteligência artificial e biotecnologia conferem vantagem competitiva decisiva no comércio global. Países que não desenvolvem capacidade tecnológica própria ficam dependentes de importações e licenças, aprofundando a assimetria Norte-Sul.</p>",
-    "ajuda": "O texto descreve um fenômeno econômico global com impacto nas relações de trabalho e na geopolítica. Pense na reestruturação produtiva e na concentração tecnológica em países centrais. Qual resultado direto dessa dinâmica é descrito?"
+    "ajuda": "O texto descreve um fenômeno econômico global com impacto nas relações de trabalho e na geopolítica. Pense na reestruturação produtiva e na concentração tecnológica em países centrais. Qual resultado direto dessa dinâmica é descrito?",
+    "feedbacks": {
+      "0": "A saturação do setor secundário não é a principal característica da fase atual do capitalismo; o setor de serviços e tecnologia é o que mais cresce. A saturação industrial foi uma característica do capitalismo do século XX.",
+      "1": "A ampliação dos direitos laborais não caracteriza a fase atual; o processo observado é de flexibilização e precarização das relações de trabalho. A ampliação de direitos é uma demanda dos trabalhadores, e não uma característica do capitalismo contemporâneo.",
+      "2": "A bipolarização do poder geopolítico caracterizou a Guerra Fria (EUA x URSS), e não a fase atual, marcada por crescente multipolaridade com disputas entre múltiplas potências.",
+      "4": "A primarização das exportações globais não é dominante na fase atual; produtos de alto valor agregado (tecnologia, serviços financeiros, propriedade intelectual) lideram as exportações dos países mais ricos."
+    }
   },
   {
     "id": 9,
@@ -212,7 +258,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A distribuição da PEA brasileira entre os setores econômicos reflete o grau de urbanização e desenvolvimento do país. Com mais de 70% da PEA no terciário, o Brasil assemelha-se a economias desenvolvidas nesse indicador, mas grande parte desses serviços é informal e de baixa produtividade. Esse paradoxo — setor terciário grande, mas pouco qualificado — caracteriza o subdesenvolvimento industrializado.</p>",
-    "ajuda": "A distribuição da PEA por setor no Brasil revela muito sobre o estágio de desenvolvimento do país. Lembre-se que países com forte urbanização tendem a ter mais trabalhadores no setor terciário. O setor primário ainda domina ou já foi superado?"
+    "ajuda": "A distribuição da PEA por setor no Brasil revela muito sobre o estágio de desenvolvimento do país. Lembre-se que países com forte urbanização tendem a ter mais trabalhadores no setor terciário. O setor primário ainda domina ou já foi superado?",
+    "feedbacks": {
+      "0": "A maior parte da PEA brasileira não está no setor primário; o Brasil é uma economia majoritariamente urbana, com a força de trabalho concentrada em serviços e indústria. O caráter agroexportador não implica que a maioria dos trabalhadores esteja no campo.",
+      "1": "A PEA no setor secundário não ultrapassa 50% no Brasil; o setor terciário concentra a maior parte dos trabalhadores. Afirmar que o Brasil é efetivamente industrializado com base nesse dado é equivocado.",
+      "2": "O setor terciário não concentra atividades extrativistas e de mineração; essas atividades pertencem ao setor primário. O terciário compreende comércio, serviços, transportes, finanças, educação e saúde.",
+      "4": "O setor primário não se tornou irrelevante com a urbanização; o agronegócio continua fundamental para as exportações e a balança comercial. A urbanização deslocou a força de trabalho para o terciário, mas não tornou o primário economicamente marginal."
+    }
   },
   {
     "id": 10,
@@ -236,6 +288,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A participação feminina no mercado de trabalho cresceu enormemente no Brasil a partir dos anos 1970, impulsionada pela urbanização, aumento da escolaridade e mudanças culturais. Esse ingresso em massa de mulheres na PEA alterou indicadores de emprego, renda familiar e estrutura demográfica. Contudo, a dupla jornada — trabalho profissional e doméstico — ainda é uma realidade para a maioria das trabalhadoras brasileiras.</p>",
-    "ajuda": "O gráfico provavelmente mostra a evolução da taxa de fecundidade ou da participação feminina no mercado de trabalho. Pense em qual fator social e econômico mais influenciou essa mudança nas últimas décadas no Brasil."
+    "ajuda": "O gráfico provavelmente mostra a evolução da taxa de fecundidade ou da participação feminina no mercado de trabalho. Pense em qual fator social e econômico mais influenciou essa mudança nas últimas décadas no Brasil.",
+    "feedbacks": {
+      "0": "A flexibilização legal do aborto é uma questão de saúde e direitos reprodutivos, mas não é a principal causa histórica da queda da natalidade no Brasil. As causas predominantes são a urbanização, a escolarização feminina e a inserção da mulher no mercado de trabalho.",
+      "1": "O envelhecimento é uma consequência da queda da natalidade e do aumento da longevidade, e não uma causa da redução da natalidade. A questão pede a causa do processo, e não suas consequências.",
+      "2": "O crescimento da gravidez precoce seria um fator de aumento da natalidade, e não de sua redução. A questão aborda um fator associado à queda da natalidade.",
+      "4": "A diminuição dos benefícios na licença-maternidade poderia desestimular a gravidez, mas não é o principal fator histórico de redução da natalidade. A licença-maternidade foi ampliada nas últimas décadas, e não reduzida."
+    }
   }
 ]

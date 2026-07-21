@@ -231,6 +231,26 @@
 
             <p>Desde então, a Venezuela enfrenta hiperinflação, escassez de alimentos e medicamentos, e uma crise migratória com mais de 7 milhões de venezuelanos que deixaram o país até meados dos anos 2020.</p>
 
+            <p>Parte significativa desses venezuelanos entrou pela fronteira norte do Brasil, principalmente por
+                Roraima, e foi posteriormente distribuída para outras regiões do país por meio de um programa federal
+                de interiorização. A região Sul recebeu um contingente expressivo desses imigrantes, que encontraram
+                emprego formal sobretudo na indústria de processamento de carnes, um dos setores que mais absorve mão
+                de obra estrangeira na região. Dados de programas de assistência social, como o Cadastro Único
+                (CadÚnico), mostram que boa parte desses trabalhadores imigrantes recebe renda mensal de até meio
+                salário-mínimo, o que evidencia uma inserção precária no mercado formal de trabalho: os baixos
+                salários pagos pela agroindústria alimentícia se traduzem diretamente em vulnerabilidade
+                socioeconômica para essa população, mesmo estando formalmente empregada.</p>
+
+            <p>Além da crise interna, a Venezuela mantém uma disputa territorial histórica com a Guiana pela
+                região do <span class="termo" data-palavra="Essequibo" data-definicao="Região a oeste do rio Essequibo, correspondendo a cerca de dois terços do território da Guiana, reivindicada pela Venezuela desde o século XIX. A disputa se intensificou após a descoberta de grandes reservas de petróleo na costa guianesa a partir de 2015, o que elevou o valor estratégico da área em conflito.">Essequibo</span>,
+                um território que corresponde a quase dois terços da área total da Guiana. A reivindicação
+                venezuelana é antiga, mas ganhou força política renovada depois que reservas de petróleo foram
+                descobertas na costa guianesa a partir de 2015, tornando a região disputada muito mais valiosa
+                economicamente. Em 2023, o governo venezuelano promoveu um referendo interno sobre a anexação do
+                Essequibo e chegou a anunciar a criação de um estado venezuelano na área, o que elevou a tensão
+                militar na fronteira e levou a Guiana a recorrer à Corte Internacional de Justiça, em Haia, para
+                garantir seus limites territoriais atuais.</p>
+
             <h3>Cuba</h3>
 
             <p>Cuba é o único país do continente americano com regime de partido único desde a Revolução de 1959, liderada por Fidel Castro. A ilha tornou-se símbolo da resistência ao imperialismo norte-americano durante a Guerra Fria e influenciou diretamente o surgimento de guerrilhas em toda a América Latina.</p>

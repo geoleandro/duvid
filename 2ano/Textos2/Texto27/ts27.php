@@ -288,6 +288,23 @@
                 <span class="w3-small w3-margin-left">Crescimento relativo de cidades médias versus metrópoles no Brasil, 2000-2022. Fonte: IBGE, Censo 2022.</span>
             </div>
 
+            <h3>O que os números do Censo 2022 revelam em detalhe</h3>
+
+            <p>Olhando os dados brutos do Censo 2022, do total de 203,1 milhões de brasileiros, 177,5 milhões
+                (87,4%) viviam em áreas urbanas e 25,6 milhões em áreas rurais. Em relação a 2010, quando a taxa de
+                urbanização era de 84,4%, houve um aumento de 16,6 milhões de pessoas morando em cidades e uma queda
+                de 4,3 milhões na população rural, que diminuiu pela primeira vez em todas as cinco regiões do país
+                ao mesmo tempo. O grau de urbanização, porém, está longe de ser uniforme: o Sudeste (94,44%) e o
+                Centro-Oeste (91,35%), impulsionados pelos serviços e pelo agronegócio, apresentam os maiores
+                percentuais, seguidos pelo Sul (88,24%), enquanto Norte (78,47%) e Nordeste (77,64%) ainda têm
+                parcelas maiores de população rural.</p>
+
+            <p>Para além dos números, pesquisadores como o professor Everaldo Melazzo apontam que as cidades
+                brasileiras estão ficando mais complexas, em um processo chamado de <span class="termo" data-palavra="Fragmentação Socioespacial" data-definicao="Processo pelo qual o espaço urbano se torna cada vez mais heterogêneo e desigual, combinando condomínios fechados, favelas, centros históricos esvaziados, periferias distantes e cidades médias em ascensão em um mesmo sistema urbano, sem um padrão único de organização espacial. É uma tendência identificada por pesquisadores a partir dos dados do Censo 2022 para caracterizar a urbanização brasileira contemporânea.">fragmentação socioespacial</span>:
+                a urbanização já não segue um padrão único de metrópole cercada por periferia, mas combina
+                simultaneamente o crescimento acelerado de cidades médias, a persistência da desigualdade nas
+                grandes metrópoles e formas cada vez mais diversas de ocupação do território urbano.</p>
+
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -423,6 +440,34 @@
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13.5: Verticalizacao urbana -->
+        <div class="topico">
+
+            <h2>Verticalização urbana</h2>
+
+            <p>Além de crescer horizontalmente pela periferização, as cidades brasileiras também crescem para cima,
+                processo conhecido como <span class="termo" data-palavra="Verticalização Urbana" data-definicao="Processo de crescimento das cidades por meio da construção de edifícios altos, concentrando mais moradias e atividades em uma mesma área do terreno. É impulsionado pela valorização fundiária: quanto mais caro o metro quadrado de um terreno, mais vantajoso é construir vários andares sobre ele para diluir o custo entre várias unidades.">verticalização urbana</span>.
+                Em vez de ocupar novas áreas na borda da cidade, a verticalização concentra mais moradias e
+                atividades em um mesmo terreno por meio da construção de edifícios altos.</p>
+
+            <p>Esse processo é impulsionado pela especulação imobiliária: em áreas valorizadas, como orlas marítimas
+                e bairros centrais bem servidos de infraestrutura, o preço do metro quadrado de terreno é tão alto
+                que só compensa construir se o custo puder ser diluído entre muitos andares e unidades. Por isso, a
+                verticalização costuma ser mais intensa exatamente nas áreas mais valorizadas da cidade, e não nas
+                mais pobres.</p>
+
+            <p>Salvador, capital da Bahia, é um exemplo característico desse fenômeno: sua orla concentra fileiras de
+                edifícios altos, sobretudo residenciais e de serviços de padrão elevado, formando uma paisagem
+                urbana bem diferente da arquitetura colonial baixa do Pelourinho, no centro histórico da cidade. A
+                verticalização da orla reflete tanto o dinamismo do mercado imobiliário local quanto a desigualdade
+                socioespacial: viver perto do mar, com vista privilegiada, tornou-se um privilégio de quem pode pagar
+                por um apartamento em um desses edifícios.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 

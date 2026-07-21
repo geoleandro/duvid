@@ -20,7 +20,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A União Europeia atingiu o estágio mais avançado de integração econômica entre blocos: além da zona de livre comércio e da união aduaneira, criou um mercado comum com livre circulação de pessoas, capitais e mercadorias, e uma união monetária com o euro. Nenhum outro bloco regional alcançou esse nível de integração.</p>",
-    "ajuda": "A União Europeia é o bloco econômico de maior grau de integração no mundo, possuindo moeda única, parlamento e políticas comuns. Pense em qual característica específica da UE a diferencia de outros blocos como o Mercosul ou o NAFTA."
+    "ajuda": "A União Europeia é o bloco econômico de maior grau de integração no mundo, possuindo moeda única, parlamento e políticas comuns. Pense em qual característica específica da UE a diferencia de outros blocos como o Mercosul ou o NAFTA.",
+    "feedbacks": {
+      "0": "Uma politica alfandegaria de reducao ou isencao de impostos entre os paises membros descreve uma zona de livre comercio, que e o nivel mais basico de integracao economica. A UE supera esse estagio ao garantir a livre circulacao de pessoas, capitais, servicos e mercadorias entre seus membros.",
+      "1": "A Tarifa Externa Comum existe na UE, mas tambem em mercados comuns mais simples. O que distingue a UE como nivel superior de integracao e a livre circulacao de pessoas, capitais e servicos, que vai alem do que a TEC isoladamente representa.",
+      "3": "A UE e uma economia de mercado; o bloco nao adota controle produtivo com empresas estatais como politica central. A descricao de empresas em maioria estatais fortemente controladas contradiz o modelo liberal de mercado que orienta a organizacao economica europeia."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A afirmativa incorreta sobre a UE é a de que ela é um Estado unificado e soberano sobre todo o território europeu. A UE é uma organização supranacional, mas os Estados membros mantêm soberania em muitas áreas (política externa, defesa). A UE não é um Estado federal — cada membro continua sendo uma nação independente.</p>",
-    "ajuda": "A União Europeia tem características muito específicas: livre circulação, moeda comum (mas não para todos os membros), critérios de adesão e soberania compartilhada (não é um Estado único). Identifique qual alternativa descreve incorretamente a UE."
+    "ajuda": "A União Europeia tem características muito específicas: livre circulação, moeda comum (mas não para todos os membros), critérios de adesão e soberania compartilhada (não é um Estado único). Identifique qual alternativa descreve incorretamente a UE.",
+    "feedbacks": {
+      "0": "A livre circulacao de pessoas, bens e mercadorias e de fato uma realidade na UE, garantida pelo espaco Schengen e pelas liberdades fundamentais do mercado unico europeu. Essa afirmacao esta correta como descricao de uma das principais conquistas da integracao europeia.",
+      "1": "A UE e reconhecida como o maior ou um dos maiores blocos economicos do mundo, dependendo do criterio usado (PIB, populacao ou comercio). Essa afirmacao esta correta como descricao da relevancia economica do bloco no cenario global.",
+      "2": "A UE exige que os candidatos atendam aos Criterios de Copenhague, que incluem democracia, Estado de direito, economia de mercado funcional e capacidade de assumir as obrigacoes da adesao. Essa afirmacao esta correta como descricao do processo de alargamento do bloco.",
+      "3": "O Euro e a moeda oficial da zona do euro, mas nao e adotado por todos os membros; paises como Suecia, Dinamarca e Polonia mantem suas moedas nacionais. Essa afirmacao esta correta ao reconhecer a existencia de membros fora da zona do euro."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Na Europa Central encontram-se países como Áustria, República Tcheca, Hungria e Suíça — historicamente parte do Império Austro-Húngaro. Essa sub-região difere da Europa Mediterrânea (Portugal, Espanha, Itália, Grécia) e da Nórdica (Escandinávia) tanto em clima quanto em trajetória histórica.</p>",
-    "ajuda": "A Europa pode ser dividida em sub-regiões com base em critérios geográficos, históricos e culturais: Europa Ocidental, Oriental, Nórdica, Mediterrânea e Central. Ao analisar o mapa, identifique qual afirmativa corresponde corretamente a essa regionalização."
+    "ajuda": "A Europa pode ser dividida em sub-regiões com base em critérios geográficos, históricos e culturais: Europa Ocidental, Oriental, Nórdica, Mediterrânea e Central. Ao analisar o mapa, identifique qual afirmativa corresponde corretamente a essa regionalização.",
+    "feedbacks": {
+      "0": "Suecia, Noruega e Finlandia sao paises nordicos e pertencem ao Norte da Europa, nao a Europa Ocidental no sentido geografico classico. A Europa Ocidental normalmente inclui Franca, Belgica, Paises Baixos, Alemanha, Reino Unido e paises adjacentes.",
+      "1": "A Alemanha e um pais da Europa Central e Ocidental, e nao da Europa Mediterranea. A Europa Mediterranea inclui paises banhados pelo Mar Mediterraneo, como Italia, Espanha, Portugal e Grecia, mas a Alemanha fica ao norte, sem acesso ao Mediterraneo.",
+      "2": "A Europa Oriental inclui varios paises alem da Russia, como Polonia, Ucrania, Romania, Bulgaria, Belarus e as Republicas Balticas. Afirmar que ela e formada exclusivamente pela Russia ignora a maioria dos paises que historicamente integram essa sub-regiao.",
+      "4": "A Islandia e considerada parte da Europa tanto geograficamente (localizada no Atlantico Norte sobre a Dorsal Atlantica) quanto politicamente (membro da NATO, do EEE e de varios organismos europeus). Ser uma ilha nao impede que um pais seja considerado europeu."
+    }
   },
   {
     "id": 4,
@@ -89,7 +106,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A afirmativa incorreta sobre a UE é que a moeda única (euro) resolve as diferenças socioeconômicas entre os membros. Na prática, a crise do euro (2010-2015) demonstrou o contrário: países com economias menos produtivas (Grécia, Portugal) tiveram dificuldades em competir sem a possibilidade de desvalorizar sua moeda.</p>",
-    "ajuda": "A formação de blocos econômicos acelerou-se no final da Guerra Fria. A UE representa o estágio mais avançado de integração. Pense em qual alternativa descreve corretamente as características e limitações da União Europeia."
+    "ajuda": "A formação de blocos econômicos acelerou-se no final da Guerra Fria. A UE representa o estágio mais avançado de integração. Pense em qual alternativa descreve corretamente as características e limitações da União Europeia.",
+    "feedbacks": {
+      "0": "Os paises europeus buscaram integracao economica pos-Segunda Guerra para reconstrucao e para fazer frente tanto a ameaca comunista quanto a dominancia economica norte-americana. Essa afirmacao esta correta como descricao do contexto geopolitico que motivou o processo de integracao europeia.",
+      "2": "A maioria dos paises membros da UE adotou as quatro liberdades fundamentais: livre circulacao de mercadorias, servicos, pessoas e capitais. Essa afirmacao esta correta como descricao do estagio de integracao atingido pelo mercado unico europeu.",
+      "3": "A UE e o bloco economico mais bem estruturado do mundo e atingiu o estagio de uniao economica e monetaria, com banco central proprio e moeda unica para a maioria dos membros. Essa afirmacao esta correta sobre o nivel de integracao alcanado.",
+      "4": "O euro e a principal moeda circulante na UE, com excecao de paises como Reino Unido (antes do Brexit), Dinamarca e Suecia, que por opcao propria mantiveram suas moedas nacionais. Essa afirmacao esta correta ao reconhecer a existencia de membros fora da zona do euro."
+    }
   },
   {
     "id": 5,
@@ -111,7 +134,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A afirmativa incorreta sobre a origem da UE é que o Mercado Comum Europeu foi criado pelo Tratado de Londres em 1980. Na verdade, foi criado pelo Tratado de Roma em 1957 como CEE (Comunidade Econômica Europeia) — evolução natural da CECA fundada em 1951.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a origem da UE. Lembre-se da sequência: CECA (1951) → CEE (1957) → Mercado Comum Europeu → Tratado de Maastricht (1992) → União Europeia. Identifique qual informação foi distorcida."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a origem da UE. Lembre-se da sequência: CECA (1951) → CEE (1957) → Mercado Comum Europeu → Tratado de Maastricht (1992) → União Europeia. Identifique qual informação foi distorcida.",
+    "feedbacks": {
+      "0": "O Benelux foi de fato o primeiro nome do processo de integracao que culminou na UE, resultado da uniao entre Belgica, Paises Baixos e Luxemburgo apos a Segunda Guerra. Essa afirmacao esta correta como descricao do precursor historico da integracao europeia.",
+      "1": "O Tratado de Maastricht, assinado em 1992 e em vigor desde 1993, criou oficialmente a Uniao Europeia em substituicao a CEE. Essa afirmacao esta correta como descricao do marco juridico fundador da UE moderna.",
+      "3": "A CECA foi criada em 1951, apos o sucesso do Benelux, com o objetivo de integrar a producao de carvao e aco entre Franca, Alemanha, Italia e os paises do Benelux. Essa afirmacao esta correta como descricao das origens da integracao europeia pos-guerra.",
+      "4": "A cronologia Benelux, CECA, Mercado Comum Europeu (ou CEE), UE reflete corretamente a evolucao historica da integracao europeia. Essa afirmacao esta correta como descricao da sequencia dos diferentes nomes e formas que o processo de integracao assumiu."
+    }
   },
   {
     "id": 6,
@@ -134,7 +163,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Para aderir à UE, um país precisa cumprir os Critérios de Copenhague (1993): democracia estável com Estado de direito, proteção de minorias, economia de mercado funcional e capacidade de absorver o acquis communautaire (legislação da UE). Não existe exigência de monarquia ou regime específico de governo.</p>",
-    "ajuda": "Para aderir à UE, um país precisa cumprir os Critérios de Copenhague: democracia estável, economia de mercado funcional e capacidade de adotar as leis comunitárias. Identifique qual alternativa descreve corretamente esses critérios de adesão."
+    "ajuda": "Para aderir à UE, um país precisa cumprir os Critérios de Copenhague: democracia estável, economia de mercado funcional e capacidade de adotar as leis comunitárias. Identifique qual alternativa descreve corretamente esses critérios de adesão.",
+    "feedbacks": {
+      "0": "A UE nao exige que o pais seja republicano: ha monarquias entre os membros, como Espanha, Belgica, Paises Baixos e Suecia. Alem disso, o FMI nao controla a economia dos membros da UE; e o Banco Central Europeu e as proprias instituicoes europeias que estabelecem as regras economicas.",
+      "1": "A UE nao exige filiacao a OTAN como condicao de adesao: Austria, Malta e Chipre sao membros da UE, mas nao da OTAN. A seguranca nacional nao e delegada a OTAN como requisito de entrada no bloco europeu.",
+      "2": "A UE nao exige regime monarquista: ha republicas e monarquias entre os membros. Alem disso, nem todos os membros adotam o euro; paises como Suecia e Polonia mantiveram suas moedas, e isso nao os impediu de ingressar no bloco.",
+      "3": "A UE nao se limita a Europa Ocidental; incluiu paises da Europa Central e Oriental como Polonia, Hungria, Republica Tcheca e Romenia. Alem disso, cada pais membro mantem seu parlamento nacional; o Parlamento Europeu e um orgao supranacional adicional, e nao substitui os nacionais."
+    }
   },
   {
     "id": 7,
@@ -159,31 +194,42 @@
     ],
     "correta": 2,
     "comentario": "<p>A UE surgiu da vontade dos países europeus de criar uma estrutura de cooperação econômica e política que evitasse novos conflitos devastadores como os das Guerras Mundiais. A integração foi tanto um projeto econômico (mercado único) quanto um projeto de paz permanente entre antigas nações rivais.</p>",
-    "ajuda": "A UE foi criada no contexto da Guerra Fria e da reconstrução europeia, com motivações tanto econômicas quanto políticas. Pense em quais razões fundadoras — integração de mercados, prevenção de conflitos entre países europeus — explicam melhor sua criação."
+    "ajuda": "A UE foi criada no contexto da Guerra Fria e da reconstrução europeia, com motivações tanto econômicas quanto políticas. Pense em quais razões fundadoras — integração de mercados, prevenção de conflitos entre países europeus — explicam melhor sua criação.",
+    "feedbacks": {
+      "0": "A UE nao foi criada como alianca de paises nao-alinhados; seus fundadores eram aliados dos EUA e membros da OTAN. O confronto com a URSS era papel da OTAN e do alinhamento ocidental, e nao o objetivo fundador da integracao economica europeia.",
+      "1": "A integracao europeia ocorreu com o apoio e o incentivo dos EUA, que financiaram a reconstrucao europeia pelo Plano Marshall. A UE nunca foi concebida como instrumento de protecao contra o imperialismo americano; ao contrario, surgiu em contexto de cooperacao transatlantica.",
+      "3": "A UE e um projeto politico-economico fundado em valores de democracia e direitos humanos, e nao em objetivos etnicos de protecao contra imigrantes orientais. A livre circulacao e a abertura sao principios centrais do projeto europeu, opostos a ideia de protecao etnica.",
+      "4": "A UE e uma organizacao laica e nao foi criada com objetivos religiosos. Os paises fundadores tinham diversidade religiosa (protestantes, catolicos, laicos) e o projeto europeu se baseia em valores liberais de direitos e liberdades, e nao em identidade religiosa comum."
+    }
   },
   {
     "id": 8,
-    "instituicao": "ENEM",
-    "ano": "2009",
-    "dificuldade": "media",
-    "tags": [
-      "europa",
-      "limites geográficos",
-      "definição territorial",
-      "fronteira"
-    ],
-    "imagem_apoio": "3ano/img/317/t17q8.png",
-    "pergunta": "A figura apresenta diferentes limites para a Europa, o que significa que existem divergências com relação ao que se considera como território europeu.\n\nDe acordo com a figura,",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Por séculos, o Rio Reno tem sido uma rota de navegação confiável, ajudando a criar gigantes fabris ao longo de suas margens. No entanto, esses dias parecem estar no fim, pois o nível da água tem diminuído regularmente, o que impede a navegação fluvial do final do verão até o outono. Isso mostra como a crise climática atinge as economias dos países ricos.",
+    "fonte_apoio": "Disponível em: www.estadao.com.br. Acesso em: 10 ago. 2023 (adaptado).",
+    "pergunta": "Qual é o efeito econômico do problema ambiental apresentado no texto?",
     "alternativas": [
-      "a visão geopolítica recente é a mais restritiva, com um número diminuto de países integrando a União Europeia.",
-      "a delimitação da Europa na visão clássica, separando-a da Ásia, tem como referência critérios naturais, ou seja, os Monteis Urais.",
-      "a visão geopolítica dos tempos da Guerra Fria sobre os limites territoriais da Europa supõe o limite entre civilizações desenvolvidas e subdesenvolvidas.",
-      "a visão geopolítica recente incorpora elementos da religião dos países indicados.",
-      "a representação mais ampla a respeito das fronteiras da Europa, que engloba a Rússia chegando ao oceano Pacífico, descaracteriza a uniformidade cultural, econômica e ambiental encontrada na visão clássica."
+      "Supressão da extração de minério.",
+      "Intensificação da atividade de pesca.",
+      "Encarecimento da logística de transporte.",
+      "Inviabilização da agricultura de subsistência.",
+      "Sucateamento da indústria de transformação."
     ],
-    "correta": 1,
-    "comentario": "<p>A Europa tem múltiplas definições de fronteira: a geográfica clássica (até os Montes Urais), baseada em critérios físicos; a cultural-civilizacional; e a geopolítica contemporânea (UE). A segunda — dos tempos da Guerra Fria — separava a Europa Ocidental (capitalista) da Oriental (socialista).</p>",
-    "ajuda": "A Europa tem múltiplos limites dependendo do critério adotado: geográfico clássico (até os Urais), cultural, geopolítico. Ao analisar a figura, identifique qual definição corresponde a cada delimitação representada."
+    "correta": 2,
+    "comentario": "O Rio Reno corresponde a uma das mais importantes rotas de navegação da Europa Ocidental, tendo sido fundamental para o processo de industrialização de países como França e Alemanha. Com a intensificação das mudanças climáticas e seus efeitos, como a redução do nível da água dos rios, a navegação fluvial será comprometida, afetando diretamente a economia dos países que utilizam essa rota, uma vez que deverão procurar uma alternativa logística para o transporte de mercadorias. Considerando a relevância da rota, somada ao fato de que o transporte hidroviário costuma ter maior eficiência energética e apresentar elevada capacidade de carga, tal alteração poderá implicar no encarecimento dos gastos com o transporte.",
+    "ajuda": "O texto diz que o Reno criou 'gigantes fabris' ao longo de suas margens. Se o nível da água baixa e a navegação fica impossível nesses trechos, o que acontece com o escoamento dessas indústrias?",
+    "tags": [
+      "Rio Reno",
+      "Mudanças climáticas",
+      "Transporte hidroviário"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Mineração não é mencionada. O foco é no transporte de mercadorias via hidrovia.",
+      "1": "Pesca não é citada. O impacto tratado é econômico-industrial, não pesqueiro.",
+      "3": "Agricultura de subsistência não é o tema. O Reno serve a grandes indústrias, e o problema é o custo do transporte alternativo.",
+      "4": "O texto não sugere fim das fábricas, mas dificuldade de escoamento. A produção continua; o que sobe é o custo logístico."
+    }
   },
   {
     "id": 9,
@@ -207,7 +253,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Todas as afirmativas sobre os objetivos da UE são verdadeiras: integração do sistema judiciário e alfandegário, aperfeiçoamento do livre comércio, redução das desigualdades regionais e fomento ao desenvolvimento. A UE possui fundos estruturais específicos para reduzir as disparidades entre regiões ricas e pobres.</p>",
-    "ajuda": "As afirmativas sobre a União Europeia abordam seus objetivos, estrutura institucional e política monetária. Avalie cada afirmativa à luz do funcionamento real da UE — livre circulação, euro, Parlamento Europeu e relações externas."
+    "ajuda": "As afirmativas sobre a União Europeia abordam seus objetivos, estrutura institucional e política monetária. Avalie cada afirmativa à luz do funcionamento real da UE — livre circulação, euro, Parlamento Europeu e relações externas.",
+    "feedbacks": {
+      "0": "As afirmativas II e IV tambem sao verdadeiras e precisam ser incluidas para que a alternativa esteja completa. A selecao de apenas I, III e IV exclui objetivos importantes da UE que as afirmativas II abordam.",
+      "1": "As afirmativas I e III tambem sao verdadeiras e integram os objetivos do bloco europeu. Restringir a resposta apenas a II e IV deixa de fora objetivos fundamentais contemplados pelas outras afirmativas.",
+      "2": "As afirmativas I e IV tambem sao verdadeiras e dizem respeito a objetivos centrais da UE. A selecao de apenas II e III e incompleta e nao representa o conjunto total de objetivos corretos apresentados.",
+      "3": "Apenas a afirmativa III e insuficiente para representar os objetivos da UE, pois todas as quatro afirmativas descrevem aspectos reais e documentados da atuacao do bloco. Selecionar somente III ignora dimensoes igualmente validas dos objetivos europeus."
+    }
   },
   {
     "id": 10,
@@ -230,6 +282,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A expansão da UE para o Leste Europeu (2004-2013) aumentou o mercado consumidor e o potencial produtivo do bloco, mas gerou tensões: trabalhadores poloneses e romenos migraram em massa para a Europa Ocidental, gerando reações xenofóbicas que contribuíram para o Brexit britânico em 2016.</p>",
-    "ajuda": "A expansão da UE para o Leste Europeu (anos 2000-2010) trouxe novos países com economias menos desenvolvidas. Isso gerou consequências como migração de mão de obra barata, ampliação do mercado e desafios de harmonização econômica."
+    "ajuda": "A expansão da UE para o Leste Europeu (anos 2000-2010) trouxe novos países com economias menos desenvolvidas. Isso gerou consequências como migração de mão de obra barata, ampliação do mercado e desafios de harmonização econômica.",
+    "feedbacks": {
+      "0": "O espaco Schengen foi criado em 1985 para FACILITAR, e nao para controlar, a livre circulacao de pessoas entre os paises signatarios. A expansao da UE nao criou o Schengen; o bloco ja existia antes de muitos alargamentos, sendo estendido progressivamente aos novos membros.",
+      "1": "A expansao da UE para o leste europeu gerou pressao sobre o mercado de trabalho dos paises mais ricos, com imigracao de trabalhadores mais baratos reduzindo salarios em alguns setores. O efeito sobre o desemprego nos paises antigos foi ambiguo, e nao necessariamente positivo.",
+      "2": "A inclusao de paises mais pobres da Europa Oriental reduziu a renda per capita MEDIA do bloco, ja que a media foi puxada para baixo pelos novos membros com menor PIB per capita. Afirmar que houve aumento da renda media contradiz o efeito matematico da inclusao de economias menores.",
+      "4": "A expansao do bloco para a Europa Oriental criou concorrencia agricola para os agricultores dos membros antigos, cujos subsidios passaram a ser disputados com produtores de paises com custos mais baixos. A reducao dos subsidios dos membros antigos e um dos problemas gerados pela expansao, nao um beneficio."
+    }
   }
 ]

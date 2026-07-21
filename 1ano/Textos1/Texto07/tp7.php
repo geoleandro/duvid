@@ -228,6 +228,11 @@
 		<p>O que para o sistema passivo seria um pouco mais difícil, pois dependeria das condições
 			atmosféricas da região naquele momento.</p>
 
+		<p>Foi justamente por essa razão que o projeto RadamBrasil, iniciado em 1970, escolheu o radar
+			para mapear o território brasileiro. Grande parte da Amazônia permanece encoberta por nuvens durante boa
+			parte do ano, o que inviabilizaria o uso de sensores ópticos convencionais para cobrir toda a região com
+			qualidade.</p>
+
 
 		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 		<hr>

@@ -23,7 +23,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Os bascos habitam uma região a cavaleiro entre o norte da Espanha e o sudoeste da França, com língua e cultura únicas (o euskera não tem relação com nenhuma outra língua conhecida). O movimento independentista ETA (fundado em 1959) usou táticas terroristas por décadas, mas declarou cessar-fogo definitivo em 2011.</p>",
-    "ajuda": "Os bascos são um povo com língua e cultura próprias, sem Estado nacional, que habitam regiões da Espanha e da França. O texto provavelmente descreve o conflito entre suas aspirações autonômicas ou separatistas e os governos nacionais. Identifique qual situação o excerto retrata."
+    "ajuda": "Os bascos são um povo com língua e cultura próprias, sem Estado nacional, que habitam regiões da Espanha e da França. O texto provavelmente descreve o conflito entre suas aspirações autonômicas ou separatistas e os governos nacionais. Identifique qual situação o excerto retrata.",
+    "feedbacks": {
+      "1": "Os bascos nao desejam ser anexados a Espanha; eles JA fazem parte do territorio espanhol e francês. O conflito basco e um movimento separatista que busca a independencia e a criacao de um Estado proprio, e nao a integracao a nenhum dos dois paises.",
+      "2": "Nao ha disputa territorial entre Espanha e Franca pelo territorio basco; ambos os Estados exercem soberania sobre suas respectivas partes do pais basco sem disputa entre si. O conflito e entre o povo basco e esses dois Estados nacionais, que resistem ao separatismo.",
+      "3": "O conflito basco nao se resume a questao linguistica nem os bascos sao minoria espanhola na regiao; ao contrario, os bascos tem identidade etnica e cultural propria, com lingua pre-indoeuropeia (o euskara) distinta do espanhol. O conflito e por independencia politica, nao apenas por direitos linguisticos.",
+      "4": "Nao ha interferencia estrangeira relevante no conflito basco; trata-se de um conflito interno entre o povo basco e os Estados espanhol e frances. O movimento separatista basco e motivado por identidade nacional propria, e nao pela perda de caracteristicas culturais causada por atores externos."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O Brexit gerou pressão por um novo referendo na Escócia (que votou 62% pelo Remain) para decidir sua saída do Reino Unido e posterior adesão à UE como nação independente. A livre circulação de cidadãos europeus no Reino Unido foi o tema central das negociações pós-Brexit.</p>",
-    "ajuda": "O Brexit (saída do Reino Unido da UE em 2020) gerou debates sobre unidade nacional, pois diferentes regiões do Reino Unido votaram de forma distinta no referendo. Pense em qual região, por ter votado majoritariamente por permanecer na UE, pode querer um novo referendo."
+    "ajuda": "O Brexit (saída do Reino Unido da UE em 2020) gerou debates sobre unidade nacional, pois diferentes regiões do Reino Unido votaram de forma distinta no referendo. Pense em qual região, por ter votado majoritariamente por permanecer na UE, pode querer um novo referendo.",
+    "feedbacks": {
+      "0": "A Irlanda do Norte e a regiao do Reino Unido com maior tensao gerada pelo Brexit, em funcao da fronteira com a Republica da Irlanda, mas o pedido explicito de novo referendo para decidir a permanencia no Reino Unido foi feito pela Escocia, que votou majoritariamente contra o Brexit.",
+      "1": "A Inglaterra votou majoritariamente a favor do Brexit e nao teria razao para pedir um novo referendo para sair do Reino Unido. A Escocia e a regiao que mais claramente reivindicou um novo referendo de independencia apos o resultado do Brexit de 2016.",
+      "3": "O Pais de Gales votou a favor do Brexit na maioria, o que torna improvavel o cenario de um novo referendo para decidir sua permanencia no Reino Unido. A regiao que protagonizou as demandas por novo referendo de independencia foi a Escocia."
+    }
   },
   {
     "id": 3,
@@ -70,7 +81,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Brexit ocorreu em um contexto de crescente crise migratória: a Europa registrou mais de 1 milhão de chegadas de refugiados em 2015. O sentimento anti-imigração foi um dos fatores que impulsionou o voto pelo Leave no referendo britânico de 2016, alimentando o discurso de controle das fronteiras.</p>",
-    "ajuda": "O Brexit pode ter consequências geopolíticas significativas: renegociação de acordos, crise de identidade europeia e possível encorajamento de outros movimentos separatistas. Identifique qual efeito mais provável o texto associa à saída do Reino Unido."
+    "ajuda": "O Brexit pode ter consequências geopolíticas significativas: renegociação de acordos, crise de identidade europeia e possível encorajamento de outros movimentos separatistas. Identifique qual efeito mais provável o texto associa à saída do Reino Unido.",
+    "feedbacks": {
+      "0": "Nao houve guerra entre o bloco europeu e uma alianca de governos arabes no periodo do Brexit. O referendo britanico de 2016 ocorreu em contexto de crise migratoria interna europeia e de eurocetismo crescente, e nao de conflito militar externo.",
+      "1": "A Inglaterra jamais anexou territorios franceses em 2015; esse evento e historicamente inexistente. O Brexit foi motivado por questoes de soberania, imigração e eurocetismo, sem qualquer relacao com disputas territoriais com a Franca.",
+      "3": "No periodo do Brexit, a Russia estava em confronto com o Ocidente por causa da crise ucraniana e da anexacao da Crimeia (2014), e nao em alinhamento com os EUA. O contexto internacional era de tensao Russia-Ocidente, e nao de cooperacao.",
+      "4": "Nao houve eleicao de governantes comunistas em paises centrais do bloco europeu no periodo do Brexit. A Alemanha era governada por Angela Merkel, democrata-crista. O contexto era de ascensao de partidos de direita euceticos, e nao de governos comunistas."
+    }
   },
   {
     "id": 4,
@@ -94,7 +111,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O governo húngaro adotou uma postura xenofóbica em resposta à crise migratória, promovendo a construção de um muro e campanhas anti-imigrantes. O ACNUR critica essa abordagem por incentivar a discriminação e o ódio contra os refugiados, o que pode levar a um ambiente hostil e inseguro para essas populações vulneráveis.</p>",
-    "ajuda": "O texto descreve um processo político que fragiliza algo específico. Pense em como movimentos populistas e antiestablishment afetam as instituições políticas e a coesão nacional. Identifique qual elemento é enfraquecido conforme o contexto."
+    "ajuda": "O texto descreve um processo político que fragiliza algo específico. Pense em como movimentos populistas e antiestablishment afetam as instituições políticas e a coesão nacional. Identifique qual elemento é enfraquecido conforme o contexto.",
+    "feedbacks": {
+      "0": "O ACNUR nao faz criticas sobre alteracoes de regime politico dos governos; sua missao e proteger os direitos dos refugiados e solicitantes de asilo. Uma politica governamental de restricao a refugiados nao altera o regime politico de um pais.",
+      "1": "A fragilizacao da supremacia nacional nao e uma critica do ACNUR; a organizacao representa os refugiados e nao os interesses soberanos dos Estados. Restricoes a refugiados reforçam, e nao fragilizam, a supremacia estatal sobre as fronteiras.",
+      "2": "O ACNUR nao faz criticas sobre expansao de dominios geograficos; essa dimensao territorial nao e o cerne das politicas de refugiados. A organizacao avalia se as politicas respeitam o direito internacional dos refugiados e os direitos humanos.",
+      "3": "O cerceamento da liberdade de expressao nao e a critica central do ACNUR em relacao a politicas governamentais de controle da imigracao. O foco da organizacao e na protecao contra perseguicao, discriminacao e deportacao de pessoas em situacao de vulnerabilidade."
+    }
   },
   {
     "id": 5,
@@ -116,7 +139,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Os imigrantes na Europa exercem funções vitais na economia: constroem, limpam, cuidam de idosos e realizam trabalhos que os europeus rejeitam. No entanto, grande parte da população europeia os responsabiliza pelo desemprego e pela pressão sobre os sistemas sociais — uma percepção que não é confirmada pelos dados econômicos.</p>",
-    "ajuda": "Os imigrantes na Europa exercem funções importantes na economia, especialmente em setores que a população local não ocupa. Pense em qual alternativa descreve corretamente o papel dos imigrantes na sociedade europeia."
+    "ajuda": "Os imigrantes na Europa exercem funções importantes na economia, especialmente em setores que a população local não ocupa. Pense em qual alternativa descreve corretamente o papel dos imigrantes na sociedade europeia.",
+    "feedbacks": {
+      "0": "A integracao dos imigrantes na Europa e um processo desigual e muitas vezes incompleto; muitos enfrentam barreiras linguisticas, culturais, economicas e legais que dificultam a plena participacao na vida social do pais de acolhida. Afirmar que formam comunidades integradas e uma generalizacao que nao reflete a realidade de exclusao de muitos grupos.",
+      "1": "Os imigrantes contribuem de forma significativa para as economias europeias, especialmente em setores com escassez de mao de obra, como agricultura, construcao civil, saude e servicos domesticos. A alternativa nega uma contribuicao economica amplamente documentada pelos governos e organismos internacionais.",
+      "2": "Os imigrantes frequentemente ocupam postos de trabalho pouco qualificados e mal remunerados, rejeitados pela populacao local. A xenofobia na Europa tem causas multiplas, incluindo insegurança economica, crises politicas e discursos nacionalistas, e nao e gerada principalmente pela competicao por empregos qualificados."
+    }
   },
   {
     "id": 6,
@@ -141,7 +169,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Catalunha é uma região autônoma da Espanha com língua própria (catalão), identidade cultural forte e a maior economia da Espanha. Seu movimento independentista baseia-se em razões históricas (resistência ao centralismo castelhano) e econômicas (a região produz muito mais do que recebe do governo central).</p>",
-    "ajuda": "A Catalunha é uma região da Espanha com identidade cultural, linguística e histórica própria, que reivindica maior autonomia ou independência. Identifique qual alternativa descreve corretamente sua situação político-territorial."
+    "ajuda": "A Catalunha é uma região da Espanha com identidade cultural, linguística e histórica própria, que reivindica maior autonomia ou independência. Identifique qual alternativa descreve corretamente sua situação político-territorial.",
+    "feedbacks": {
+      "0": "A Catalunha JA e parte do territorio nacional espanhol e nao reivindica integracao, mas sim independencia. A alternativa inverte o sentido do movimento catalao: o objetivo e separar-se da Espanha, e nao integrar-se a ela.",
+      "2": "A Catalunha e uma das regioes mais ricas e industrializadas da Espanha, e nao uma regiao pobre. Alem disso, a identidade catalã e distinta da espanhola, com lingua propria (o catala) e historia cultural independente; afirmar que tem identidade espanhola contradiz o proprio movimento separatista.",
+      "3": "A Catalunha nunca foi colonia espanhola; faz parte historica da Peninsula Iberica e do reino espanhol ha seculos. O movimento catala nao e de uma ex-colonia que busca autonomia, mas de uma regiao historica que reivindica soberania e independencia politica.",
+      "4": "A Catalunha nao e um pais autonomo com territorio e governo nacionais proprios; e uma comunidade autonoma dentro do Estado espanhol. Ela almeja separar-se da Espanha, e nao integrar-se a ela, como afirma a alternativa erroneamente."
+    }
   },
   {
     "id": 7,
@@ -165,7 +199,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Os Alpes localizam-se na Europa Central (fronteira entre Itália, Suíça, Áustria e França); os Pireneus separam a Espanha da França; os Apeninos percorrem a Itália; os Montes Escandinavos estendem-se pelo norte da Europa; e os Urais marcam a divisória entre Europa e Ásia.</p>",
-    "ajuda": "Para associar cadeias montanhosas europeias às suas características, lembre-se das principais: Alpes (Europa Central, fronteira entre países), Pireneus (fronteira Espanha-França), Apeninos (Itália), Urais (fronteira Europa-Ásia). Relacione cada formação à sua localização."
+    "ajuda": "Para associar cadeias montanhosas europeias às suas características, lembre-se das principais: Alpes (Europa Central, fronteira entre países), Pireneus (fronteira Espanha-França), Apeninos (Itália), Urais (fronteira Europa-Ásia). Relacione cada formação à sua localização.",
+    "feedbacks": {
+      "0": "A sequencia 1-5-2-4-3 associa as montanhas a localizacoes e caracteristicas incorretas, trocando especialmente os extremos da correspondencia. As cadeias montanhosas europeias tem localizacoes e caracteristicas especificas que a sequencia correta deve respeitar.",
+      "1": "A sequencia 5-1-3-4-2 erra nas correspondencias das primeiras montanhas listadas, atribuindo a cada uma localizacao ou caracteristica que pertence a outra. A ordem correta exige o conhecimento preciso da localizacao geografica e das caracteristicas de cada cadeia montanhosa europeia.",
+      "2": "A sequencia 4-2-3-1-5 erra nas correspondencias do meio e dos extremos da lista, misturando localizacoes e caracteristicas de diferentes sistemas montanhosos europeus. A sequencia correta e a que associa cada cadeia montanhosa a sua posicao geografica e caracteristicas especificas.",
+      "3": "A sequencia 2-3-4-5-1 erra nas associacoes das montanhas com suas respectivas localizacoes e caracteristicas, em especial nas primeiras e nas ultimas correspondencias. A sequencia correta precisa respeitar a posicao geografica e as particularidades de cada sistema montanhoso europeu."
+    }
   },
   {
     "id": 8,
@@ -189,7 +229,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A dissolução da Iugoslávia nos anos 1990 foi causada principalmente pela intensificação das tensões étnicas entre sérvios, croatas, bósnios, albaneses e eslovenos. O fim do comunismo removeu o 'cimento' que mantinha artificialmente unidas essas nações — resultando em guerras sangrentas e criação de novos Estados.</p>",
-    "ajuda": "A região dos Bálcãs passou por profunda reconfiguração no século XX, especialmente com a dissolução da Iugoslávia nos anos 1990. Pense em qual fator — étnico, religioso ou político — foi a principal causa da fragmentação dessa região."
+    "ajuda": "A região dos Bálcãs passou por profunda reconfiguração no século XX, especialmente com a dissolução da Iugoslávia nos anos 1990. Pense em qual fator — étnico, religioso ou político — foi a principal causa da fragmentação dessa região.",
+    "feedbacks": {
+      "0": "A adocao do euro como moeda unica ocorreu em 1999 (contabilidade) e 2002 (cedulas fisicas), apos as guerras nos Balcas dos anos 1990. A moeda comum nao teve papel na fragmentacao da Iugoslavia; o processo se deu antes da criacao do euro e por razoes politicas e etnicas.",
+      "1": "A Iugoslavia tinha uma relacao independente com a URSS: o marechal Tito rompeu com Stalin em 1948 e manteve a Iugoslavia fora do Pacto de Varsovia. A dissolucao iugoslava nao foi causada pelo fim do apoio sovietico, mas pelas tensoes etnicas e pelo colapso da lideranca central pos-Tito.",
+      "2": "A intervencao da OTAN nos Balcas (especialmente o bombardeio da Serbia em 1999) foi uma consequencia das guerras etnicas, e nao sua causa. As tensoes etnicas entre servios, croatas e bósnios-muçulmanos ja haviam deflagrado os conflitos antes da intervencao internacional.",
+      "4": "Nos Balcas nao houve tentativa de formacao de um Estado islamico unificado. O conflito envolveu servios ortodoxos, croatas catolicos e bósnios-muçulmanos em disputas de soberania territorial, e nao uma unificacao religiosa islamica dos grupos muçulmanos."
+    }
   },
   {
     "id": 9,
@@ -215,29 +261,41 @@
     ],
     "correta": 1,
     "comentario": "<p>A contradição entre o simbolismo da bandeira europeia (unidade, harmonia) e o cotidiano da UE reflete as persistentes rivalidades entre nações com histórias e interesses diferentes. O ideal de paz e integração foi uma resposta às guerras devastadoras do século XX — mas conflitos econômicos e culturais continuam presentes.</p>",
-    "ajuda": "A bandeira da União Europeia foi criada em um contexto histórico específico. O círculo de 12 estrelas representa perfeição e unidade, não o número de países membros. Avalie qual contexto histórico ou princípio ideológico o texto associa à criação dessa bandeira."
+    "ajuda": "A bandeira da União Europeia foi criada em um contexto histórico específico. O círculo de 12 estrelas representa perfeição e unidade, não o número de países membros. Avalie qual contexto histórico ou princípio ideológico o texto associa à criação dessa bandeira.",
+    "feedbacks": {
+      "0": "A bandeira europeia foi adotada pelo Conselho da Europa em 1955 e posteriormente pela UE, e nao foi criada na decada de 1930. A decada de 1930 foi marcada pelo nazismo e pelo fascismo, contexto historico oposto a fraternidade que a bandeira visa simbolizar.",
+      "2": "A desconfianca entre Alemanha e Italia de um lado e Inglaterra e Franca de outro e um fenomeno historico do seculo XX que nao resume a contradicao principal da bandeira europeia no contexto contemporaneo. A tensao entre o ideal de unidade da bandeira e os conflitos do cotidiano e mais ampla e atual.",
+      "3": "A bandeira europeia foi concebida pelo Conselho da Europa, com participacao de multiplos paises europeus, e nao exclusivamente por portugueses e espanhóis. Alem disso, a questao nao e sobre quem concebeu a bandeira, mas sobre a contradicao entre seu ideal de unidade e os conflitos reais entre as nacoes europeias.",
+      "4": "A UE e uma organizacao laica e a bandeira europeia nao representa aspiracoes religiosas dos paises catolicos. Embora haja debate historico sobre as estrelas no desenho, a bandeira foi oficialmente concebida como simbolo de unidade e nao de identidade religiosa."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UERJ",
-    "ano": "2009",
-    "dificuldade": "media",
-    "tags": [
-      "conflito regional",
-      "geopolítica europeia",
-      "fragmentação"
-    ],
-    "texto_apoio": "“Os belgas não se entendem entre si e já se teriam separado em países diferentes não fossem o seu rei e, mais recentemente, a adoção de uma forma de governo federativa, em que a Varonia, Flandres e Bruxelas têm grande autonomia política e administrativa em relação ao governo nacional, além do surgimento e fortalecimento da União Européia, que faz com que os belgas se sintam cada vez mais membros de uma comunidade europeia multicultural e multilíngue, e menos belgas, o que ajuda a diluir seus antagonismos internos”.",
-    "fonte_apoio": "RICARDO C. COELHO Adaptado de Os franceses. São Paulo: Contexto, 2007.",
-    "pergunta": "A compreensão da situação relatada no texto e representada em termos espaciais no mapa somente é possível a partir da distinção entre os seguintes conceitos importantes para as Ciências Humanas:",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Entrou em vigor, em 2019, o acordo que determina a mudança de nome da Macedônia para Macedônia do Norte. A troca põe fim — ao menos por enquanto — no impasse entre essa antiga república da Iugoslávia e a vizinha Grécia. O governo grego se opunha ao uso do nome Macedônia pelo novo país vizinho porque a Grécia tem uma província no norte com o mesmo nome. Por causa desse impasse, a Grécia bloqueou as negociações de adesão de seu vizinho à União Europeia. Depois de negociações, as duas partes chegaram a um acordo.",
+    "fonte_apoio": "Disponível em: https://g1.globo.com. Acesso em: 7 nov. 2021 (adaptado).",
+    "pergunta": "Para o país originado da antiga Iugoslávia, a mudança de nome é uma estratégia política para",
     "alternativas": [
-      "território nacional e soberania política.",
-      "regime de governo e autonomia cultural.",
-      "estado territorial e identidade nacional.",
-      "representação política e integração econômica."
+      "criar a moeda própria.",
+      "proteger a cultura local.",
+      "subjugar a minoria étnica.",
+      "expandir o território nacional.",
+      "intensificar a integração regional."
     ],
-    "correta": 2,
-    "comentario": "<p>O texto sobre a Bélgica exemplifica a distinção entre Estado territorial (estrutura jurídico-política) e identidade nacional (pertencimento cultural). Bélgica tem um Estado, mas duas identidades nacionais distintas (flamenga e valona). A UE ajuda a 'diluir' os antagonismos internos ao criar uma identidade europeia supranacional.</p>",
-    "ajuda": "O texto provavelmente aborda a distinção entre território (espaço controlado por um Estado) e fronteira (limite político) em relação a grupos étnicos que habitam múltiplos países. Identifique qual par de conceitos geográficos o texto utiliza para explicar essa situação."
+    "correta": 4,
+    "comentario": "A mudança de nome da República da Macedônia para República da Macedônia do Norte, ocorrida em 2019, resolveu uma longa disputa daquele país com a Grécia sobre o uso da palavra 'Macedônia'. Desde a independência do país, em 1991, o governo grego argumentava que o nome indicava possíveis pretensões sobre sua própria região chamada Macedônia e sobre a herança histórica ligada a Alexandre, o Grande. Devido a esse impasse, a Grécia bloqueou durante anos a entrada daquele país em organizações internacionais como OTAN e União Europeia. Após intensas negociações, os dois governos assinaram o Acordo de Prespa em 2018, pelo qual o país aceitou mudar oficialmente seu nome para Macedônia do Norte e a Grécia retirou suas objeções. Com a mudança, o país conseguiu avançar seu processo de integração regional encerrando uma disputa que durou quase três décadas.",
+    "ajuda": "Por que a Grécia bloqueava a entrada da Macedônia na UE? O texto diz: por causa do nome. A mudança de nome resolveu o impasse. O que essa resolução abre para o país?",
+    "tags": [
+      "Macedônia do Norte",
+      "Geopolítica",
+      "Integração regional"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "O texto não menciona moeda própria. Integrar-se à UE implicaria adotar o euro — o oposto de criar moeda nacional.",
+      "1": "O acordo exigiu que o país cedesse no nome — uma concessão cultural, não proteção. A estratégia é de abertura para integração.",
+      "2": "O texto trata de disputa entre Estados soberanos, não de grupos étnicos internos. Minorias não são mencionadas.",
+      "3": "Não há menção a expansão territorial. O país fez uma concessão simbólica (o nome) para garantir integração política e econômica."
+    }
   }
 ]

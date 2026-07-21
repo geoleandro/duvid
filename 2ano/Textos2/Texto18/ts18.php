@@ -596,8 +596,30 @@
             preferencialmente chamada de agricultura camponesa. Há uma disputa entre esses dois “mundos” de agricultura.
         </p>
 
+        <p>A liderança do Brasil nos rankings mundiais de produção e exportação de commodities como soja, café, suco
+            de laranja, carne bovina, carne de frango e açúcar, vistos no tópico anterior, não surgiu por acaso. Ela
+            está ligada à ampliação da entrada do capital agroindustrial no campo: grandes investimentos de empresas
+            e grupos econômicos em maquinário avançado, insumos, logística e financiamento, voltados a um modelo de
+            produção em larga escala orientado para o mercado externo, cotado em dólar. Diferente da imagem de um
+            campo atrasado, esse modelo emprega trabalhadores assalariados qualificados e especializados, operando
+            equipamentos de agricultura de precisão em grandes propriedades rurais, o que ajuda a explicar como o
+            Brasil conquistou posições de destaque global mesmo sendo, ao mesmo tempo, um país de agricultura
+            camponesa.</p>
+
         <p>Ao mesmo tempo que o campo passa a ser disputado pelos grandes grupos que buscam o lucro, há uma outra forma
             de agricultura, que é sustentável ambientalmente e produz fruto mais saudável.</p>
+
+        <p>Essa modernização do campo, no entanto, não ocorre de forma homogênea em todo o território: ela se
+            concentra em áreas específicas, formando uma espécie de arquipélago de tecnologia e capital cercado por
+            regiões que permanecem à margem desse processo, fenômeno conhecido como
+            <span class="termo" data-palavra="Seletividade Espacial" data-definicao="Padrão de modernização agrícola em que o uso intensivo de inovações técnico-científicas e de capital se concentra em frações específicas do território, formando enclaves modernizados cercados por áreas que permanecem fora desse processo. Gera impactos sobre os mosaicos produtivos tradicionais do entorno, seja por tensão, seja por substituição das formas de produção antigas.">seletividade
+            espacial</span>. O estado da Bahia ilustra bem esse padrão: a partir da década de 1970, três frações do
+            seu território, antes sem modernização, foram incorporadas a diferentes circuitos espaciais produtivos
+            globalizados, cada uma ligada a uma cadeia distinta, a soja e os grãos do MATOPIBA ao norte, a
+            fruticultura irrigada do Vale do São Francisco e a silvicultura de eucalipto mais ao sul do estado,
+            enquanto o restante do território baiano seguiu sem receber esse tipo de investimento em tecnologia. Esse
+            padrão de "ilhas" de modernização gera impactos diretos sobre os mosaicos produtivos tradicionais que as
+            cercam, seja pela tensão com as formas antigas de uso da terra, seja pela substituição delas.</p>
 
         <p>A agricultura camponesa ainda ocupa grande espaço no campo brasileiro, seja através da reforma agrária, seja
             através de formas muito anteriores de posse e ocupação da terra.</p>

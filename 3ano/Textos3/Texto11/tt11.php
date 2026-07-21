@@ -315,6 +315,24 @@
 <span class="w3-small w3-margin-left" id="citacao4"> Fonte: Financial Times. </span>
 </div>
 </ul>
+<p><strong>Sul Global:</strong> Esse termo se popularizou para designar o conjunto de países da África, Ásia e
+                América Latina que, historicamente, tiveram menor peso nas decisões econômicas e políticas
+                internacionais, mas que hoje buscam maior representatividade em fóruns multilaterais. A presidência
+                rotativa do G20 exercida pelo Brasil em 2024 e pela África do Sul em 2025, ambos países do Sul
+                Global, exemplifica esse movimento de inclusão de vozes periféricas na definição da agenda mundial,
+                com pautas como a reforma da governança global e o financiamento climático para países em
+                desenvolvimento.</p>
+
+<p><strong>Norte Global:</strong> em contraposição, o termo designa o conjunto de países economicamente
+    desenvolvidos e com maior peso histórico nas decisões econômicas e políticas internacionais, como Estados
+    Unidos, Canadá, os países da Europa Ocidental, além de Japão, Austrália e Nova Zelândia. É importante notar
+    que essa divisão é geopolítica e econômica, não geográfica: ela não corresponde exatamente aos hemisférios
+    definidos pela linha do Equador e pelo meridiano de Greenwich. Os Estados Unidos e o Canadá, por exemplo,
+    pertencem ao Norte Global e também estão de fato situados no hemisfério setentrional (ao norte do Equador) e
+    no hemisfério ocidental (a oeste de Greenwich), mas há países cuja localização geográfica não acompanha sua
+    classificação geopolítica, como a Austrália, que integra o Norte Global mesmo estando no hemisfério
+    meridional e oriental. Por isso, ao interpretar mapas de Norte e Sul Global, é preciso separar a classificação
+    econômico-política da mera localização em relação às linhas imaginárias do planeta.</p>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>

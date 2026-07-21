@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Os EUA controlam grande parte da infraestrutura física da internet: cabos submarinos, servidores, hospedagens e protocolos. Isso dá à NSA capacidade de monitorar tráfego global de dados. A internet, aparentemente etérea, depende de infraestrutura física (fixos) que determina quem controla os fluxos de informação.</p>",
-    "ajuda": "A infraestrutura de cabos submarinos e bases militares define a geografia do poder no mundo digital. Pense em como a distribuição desses fixos no espaço revela quais países controlam os fluxos de informação e dados no mundo contemporâneo."
+    "ajuda": "A infraestrutura de cabos submarinos e bases militares define a geografia do poder no mundo digital. Pense em como a distribuição desses fixos no espaço revela quais países controlam os fluxos de informação e dados no mundo contemporâneo.",
+    "feedbacks": {
+      "0": "A centralizacao dos fluxos digitais nos Estados Unidos nao causa deficit economico; ao contrario, as empresas americanas de tecnologia lucram enormemente ao hospedar a infraestrutura que orienta esses fluxos. A alternativa inverte a logica economica da concentracao tecnologica.",
+      "1": "A divida publica americana tem causas fiscais e macroeconomicas proprias, como gastos militares, previdencia e politicas tributarias, que nao se confundem com a centralizacao dos fluxos de internet. Estabelecer essa relacao causal e um erro de interpretacao do mapa.",
+      "2": "O mapa evidencia justamente o contrario: os fixos, como cabos submarinos e data centers, sao essenciais para orientar os fluxos imateriais de informacao e comunicacao. Em um mundo dependente de fluxos imateriais, os objetos tecnicos fixos tornam-se ainda mais estrategicos e relevantes.",
+      "3": "O mapa mostra uma concentracao acentuada dos fluxos de internet e ligacoes telefonicas nos paises desenvolvidos e nos cabos transoceanicos entre eles, revelando uma globalizacao profundamente desigual. A distribuicao dos fluxos nao e uniforme entre as regioes do planeta."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A concentração de data centers no Norte Global (EUA e Europa Ocidental) significa que dados de países do Sul são armazenados e processados em jurisdições estrangeiras. Isso cria vulnerabilidades de soberania digital: quem controla os dados controla informações estratégicas, econômicas e políticas de outros países.</p>",
-    "ajuda": "Os data centers estão concentrados no Norte Global (EUA e Europa) porque requerem energia barata, infraestrutura robusta e ambiente jurídico favorável. Pense em o que essa concentração revela sobre as desigualdades do capitalismo digital."
+    "ajuda": "Os data centers estão concentrados no Norte Global (EUA e Europa) porque requerem energia barata, infraestrutura robusta e ambiente jurídico favorável. Pense em o que essa concentração revela sobre as desigualdades do capitalismo digital.",
+    "feedbacks": {
+      "0": "Os data centers sao predominantemente privados, controlados por grandes corporacoes como Google, Amazon e Microsoft, e nao pelo Estado. Afirmar que sao infraestruturas publicas controladas pelo Estado descreve uma realidade diferente da concentracao corporativa observada na industria de dados.",
+      "1": "O oposto e verdadeiro: o desenvolvimento geografico desigual e um dos principais fatores que explica a concentracao de data centers no Norte Global. A alternativa minimiza uma relacao que e central para compreender a desigualdade na distribuicao da infraestrutura digital.",
+      "3": "A concentracao dos data centers no Norte Global implica que paises do Sul tenham seus dados coletados, armazenados e tratados por infraestrutura estrangeira, o que reduz, e nao amplia, a soberania digital desses paises. A alternativa inverte o efeito da concentracao tecnologica sobre a soberania dos paises."
+    }
   },
   {
     "id": 3,
@@ -67,7 +78,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O 'Meio Técnico-Científico-Informacional' é o conceito de Milton Santos para o período atual: o espaço geográfico é profundamente marcado pela fusão entre ciência, tecnologia e informação. Telecomunicações, internet e automação transformaram a produção, o consumo e a própria organização do território.</p>",
-    "ajuda": "O período atual da história é caracterizado pela fusão entre ciência, tecnologia e informação no espaço geográfico. Esse conceito, desenvolvido por Milton Santos, descreve o meio em que vivemos hoje. Identifique o termo correto."
+    "ajuda": "O período atual da história é caracterizado pela fusão entre ciência, tecnologia e informação no espaço geográfico. Esse conceito, desenvolvido por Milton Santos, descreve o meio em que vivemos hoje. Identifique o termo correto.",
+    "feedbacks": {
+      "0": "Espaco digital e uma expressao informal que remete ao ambiente virtual da internet, mas nao e o conceito tecnico utilizado por Milton Santos para descrever a fase atual do espaco geografico. O conceito de Milton Santos integra a dimensao tecnica, cientifica e informacional ao territorio fisico e social.",
+      "1": "Espacialidade em rede e uma descricao generica das conexoes no espaco contemporaneo, mas nao corresponde ao conceito especifico de Milton Santos que nomeia e caracteriza a fase atual do espaco geografico. O conceito de Milton Santos tem nome proprio e alcance teorico mais preciso.",
+      "2": "Territorios virtuais remete ao espaco cibernetico e as relacoes no ambiente digital, sem o embasamento geografico que o conceito de Milton Santos possui. Ele nao articula a dimensao tecnica com a producao cientifica e informacional no territorio da forma que o conceito correto faz.",
+      "4": "Espaco fisico-virtual nao e um conceito padronizado na literatura geografica e nao corresponde ao termo cunhado por Milton Santos para descrever a fase atual do espaco. A expressao nao tem fundamentacao teorica especifica na obra do geografo baiano."
+    }
   },
   {
     "id": 4,
@@ -89,7 +106,11 @@
     ],
     "correta": 2,
     "comentario": "<p>As redes geográficas conectam pontos (lugares) por meio de linhas (fluxos). A definição correta enfatiza que as redes são caracterizadas pelos locais conectados entre si — seja por cabos de fibra ótica, rodovias, fluxos financeiros ou redes sociais. É essa conectividade que estrutura o espaço contemporâneo.</p>",
-    "ajuda": "As redes geográficas conectam lugares, pessoas e fluxos de informação, capital e mercadorias. Elas definem a organização do espaço contemporâneo. Pense em qual definição captura melhor a essência das redes na estruturação do espaço."
+    "ajuda": "As redes geográficas conectam lugares, pessoas e fluxos de informação, capital e mercadorias. Elas definem a organização do espaço contemporâneo. Pense em qual definição captura melhor a essência das redes na estruturação do espaço.",
+    "feedbacks": {
+      "0": "A relacao do espaco com o poder do Estado aproxima-se do conceito de territorio, que e definido pela dimensao politica e pelo controle soberano do espaco. As redes geograficas sao definidas pelos fluxos e conexoes entre nos, e nao pela dimensao do poder estatal.",
+      "1": "O aspecto visivel das formas no espaco geografico corresponde ao conceito de paisagem, que e a dimensao perceptivel e estetica do espaco. As redes geograficas tem uma dimensao imaterial importante, como os fluxos de informacao e capital, que nao sao visiveis a olho nu."
+    }
   },
   {
     "id": 5,
@@ -113,7 +134,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A complexidade dos espaços urbanos contemporâneos resulta da articulação de redes em múltiplas escalas (multiescalar): fluxos locais e globais se interpenetram. Um bairro periférico de São Paulo está conectado a cadeias produtivas globais pelo consumo, enquanto decisões tomadas em Nova York afetam o emprego local.</p>",
-    "ajuda": "O texto fala sobre como o mundo econômico não é mais organizado em camadas bem definidas, onde grandes centros urbanos se conectavam apenas com economias adjacentes. Em vez disso, tudo está mesclado e interconectado, com interdependências de curto e longo alcance que não podem ser separadas. Isso sugere que a complexidade dos espaços urbanos contemporâneos é resultado da articulação de redes multiescalares, ou seja, conexões que ocorrem em diferentes escalas geográficas, desde o local até o global."
+    "ajuda": "O texto fala sobre como o mundo econômico não é mais organizado em camadas bem definidas, onde grandes centros urbanos se conectavam apenas com economias adjacentes. Em vez disso, tudo está mesclado e interconectado, com interdependências de curto e longo alcance que não podem ser separadas. Isso sugere que a complexidade dos espaços urbanos contemporâneos é resultado da articulação de redes multiescalares, ou seja, conexões que ocorrem em diferentes escalas geográficas, desde o local até o global.",
+    "feedbacks": {
+      "0": "A expansao de areas metropolitanas e um fenomeno urbano-demografico que descreve o crescimento fisico das metropoles, mas nao captura a complexidade das articulacoes em rede entre diferentes escalas que o texto descreve. O crescimento da mancha urbana nao e sinonimo de complexidade em rede.",
+      "1": "A emancipacao de novos municipios e um processo politico-administrativo de fragmentacao territorial que pode ate complicar a gestao urbana, mas nao explica a maior complexidade dos espacos urbanos em termos de conexoes e articulacoes multiescalares.",
+      "2": "A consolidacao de dominios juridicos refere-se a regulamentacoes legais e territoriais que normatizam o espaco, mas nao explica o fenomeno de complexidade urbana descrito pelo texto. As redes multiescalares vao alem da dimensao juridica.",
+      "4": "A redefincao de regioes administrativas e um processo burocratico de reorganizacao territorial que nao captura a dinamica das articulacoes em rede entre diferentes escalas urbanas. A complexidade contemporanea dos espacos urbanos se expressa nas conexoes funcionais e nos fluxos multiescalares."
+    }
   },
   {
     "id": 6,
@@ -138,7 +165,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A internet está em constante evolução: novas plataformas (TikTok, Zoom) surgem e superam outras (Orkut, MSN) em questão de anos. Em 1 minuto de 2017, ocorriam mais de 3 milhões de pesquisas no Google, 500 mil tweets e 156 milhões de e-mails — o volume de dados cresce exponencialmente.</p>",
-    "ajuda": "A internet está em constante expansão e transformação, com volumes crescentes de dados trafegando a cada minuto. Ao analisar os números sobre as principais plataformas digitais, identifique qual afirmativa reflete corretamente as tendências observadas."
+    "ajuda": "A internet está em constante expansão e transformação, com volumes crescentes de dados trafegando a cada minuto. Ao analisar os números sobre as principais plataformas digitais, identifique qual afirmativa reflete corretamente as tendências observadas.",
+    "feedbacks": {
+      "0": "O crescimento das ferramentas e do uso da internet foi exponencial e continua acelerado no seculo XXI, sem qualquer sinal de estagnacao. As figuras apresentam numeros que evidenciam justamente o dinamismo e a velocidade das mudancas na internet, e nao uma desaceleracao.",
+      "1": "Governos autoritarios, como os da China, Russia e Coreia do Norte, restringem ativamente o acesso a determinadas ferramentas e conteudos da internet por meio de censura e controle. A democratizacao da internet nao e uma estrategia universal adotada por todos os governos.",
+      "2": "O controle de dados e altamente concentrado em grandes corporacoes americanas (Google, Meta, Amazon) e chinesas (Alibaba, Tencent), criando uma profunda assimetria entre os paises. Essa concentracao nao confere equanimidade aos membros da ONU, mas aprofunda as desigualdades de poder informacional.",
+      "4": "Empresas de tecnologia como Google, Amazon, Meta e Apple estao entre as mais valiosas e de maior crescimento economico do mundo. A alternativa inverte a realidade ao sugerir que o crescimento acentuado e das empresas de servicos tradicionais e nao das de tecnologia."
+    }
   },
   {
     "id": 7,
@@ -162,7 +195,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A globalização promove a abertura de mercados e integra economias, mas não inclui todos os lugares e grupos sociais. Ela exclui regiões, atividades e populações que não são interessantes para o capital global — criando o que Milton Santos chamou de 'globalização perversa': integração para os ricos, exclusão para os pobres.</p>",
-    "ajuda": "A globalização não apenas integra economias, mas também uniformiza padrões culturais e de consumo. No entanto, ela gera reações de resistência cultural. Identifique qual afirmativa descreve corretamente os efeitos culturais da globalização."
+    "ajuda": "A globalização não apenas integra economias, mas também uniformiza padrões culturais e de consumo. No entanto, ela gera reações de resistência cultural. Identifique qual afirmativa descreve corretamente os efeitos culturais da globalização.",
+    "feedbacks": {
+      "0": "A globalizacao aprofundou as desigualdades entre os paises e dentro deles, com transferencia de riqueza dos paises perifericos para os centrais e concentracao de renda nas elites globais. A ideia de que a globalizacao diminui progressivamente a desigualdade e desmentida pelos dados de distribuicao de renda mundial.",
+      "2": "A globalizacao tende a homogeneizar a cultura em torno de padroes ocidentais, especialmente os norte-americanos, marginalizando ou subalternizando culturas locais. A ideia de que a padronizacao cultural valoriza as culturas emergentes contraria o efeito real de uniformizacao cultural da globalizacao.",
+      "3": "A inovacao tecnologica e distribuida de forma profundamente desigual no mundo: os paises menos desenvolvidos sao consumidores de tecnologia produzida pelos paises ricos e nao participam como protagonistas da cadeia de inovacao. A difusao equilibrada de tecnologia nao e uma realidade da globalizacao."
+    }
   },
   {
     "id": 8,
@@ -186,7 +224,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A produção global de um único produto (como o carro do texto) envolve dezenas de países e fábricas coordenadas em tempo real. Isso só é possível graças à organização em rede (cadeias produtivas transnacionais) e às tecnologias de informação e comunicação que permitem coordenação simultânea entre diferentes continentes.</p>",
-    "ajuda": "Imagina um carro esportivo sendo feito, mas cada pedacinho dele está acontecendo em lugares diferentes ao redor do mundo. Algumas partes são financiadas em um país, desenhadas em outro, montadas em vários lugares e até a propaganda é feita em diferentes países. Isso tudo precisa de um sistema que conecte tudo isso de forma bem organizada, senão não daria certo, né? Então, essa organização tem que ser capaz de juntar todas as etapas do carro esportivo, desde o começo até a propaganda, de um jeito que tudo funcione certinho. E aí, o texto também fala sobre os eletrônicos modernos e a propaganda global, mostrando como a tecnologia é super importante nesse processo. Então, uma dica para descobrir a resposta é pensar em uma organização que consiga lidar com toda essa mistura de jeito eficiente e bem coordenado."
+    "ajuda": "Imagina um carro esportivo sendo feito, mas cada pedacinho dele está acontecendo em lugares diferentes ao redor do mundo. Algumas partes são financiadas em um país, desenhadas em outro, montadas em vários lugares e até a propaganda é feita em diferentes países. Isso tudo precisa de um sistema que conecte tudo isso de forma bem organizada, senão não daria certo, né? Então, essa organização tem que ser capaz de juntar todas as etapas do carro esportivo, desde o começo até a propaganda, de um jeito que tudo funcione certinho. E aí, o texto também fala sobre os eletrônicos modernos e a propaganda global, mostrando como a tecnologia é super importante nesse processo. Então, uma dica para descobrir a resposta é pensar em uma organização que consiga lidar com toda essa mistura de jeito eficiente e bem coordenado.",
+    "feedbacks": {
+      "0": "Linhas de montagem e formacao de estoques sao caracteristicas do modelo fordista de producao em massa, rigido e baseado em grandes lotes. O texto descreve um modelo flexivel e distribuido em rede, que e justamente a superacao do fordismo, e nao sua continuidade.",
+      "1": "Empresas burocraticas possuem estrutura rigida e hierarquizada, oposta a flexibilidade e descentralizacao que caracterizam o modelo de producao em rede. Mao de obra barata pode ser um fator em algumas cadeias, mas nao e o que viabiliza estruturalmente o processo descrito.",
+      "2": "O modelo de producao em rede e predominantemente privado e transnacional, com descentralizacao de decisoes e mobilidade de capitais; o controle estatal seria uma restricao a essa flexibilidade. Alem disso, a infraestrutura consolidada e estatica, enquanto o modelo em rede exige mobilidade e adaptacao.",
+      "4": "A gestao centralizada contradiz a logica da producao descentralizada em rede, que distribui as diferentes etapas do processo produtivo por multiplas geografias. O protecionismo economico restringe o comercio global que sustenta as cadeias produtivas transnacionais, sendo incompativel com o modelo descrito."
+    }
   },
   {
     "id": 9,
@@ -211,7 +255,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As redes geográficas se materializam por meio da expansão das multinacionais, que instalam unidades em diferentes países conectadas por fluxos de capital, tecnologia e informação. Essa expansão expressa fisicamente a organização do espaço em rede, onde as decisões centralizadas orientam operações descentralizadas.</p>",
-    "ajuda": "As redes geográficas se expressam materialmente por meio de infraestruturas físicas que permitem a circulação de informações, capitais e pessoas. Pense em qual tipo de infraestrutura materializa as redes no espaço contemporâneo."
+    "ajuda": "As redes geográficas se expressam materialmente por meio de infraestruturas físicas que permitem a circulação de informações, capitais e pessoas. Pense em qual tipo de infraestrutura materializa as redes no espaço contemporâneo.",
+    "feedbacks": {
+      "0": "A transicao demografica e o processo de reducao das taxas de natalidade e mortalidade nos paises desenvolvidos, e nao um processo que explica a formacao de redes geograficas de producao e comercio. Os fenomenos demograficos e a organizacao em rede sao dimensoes distintas do espaco.",
+      "2": "A regionalizacao do espaco economico com a formacao de blocos economicos e um aspecto da globalizacao, mas o trecho indica especificamente a expansao das multinacionais para o mundo subdesenvolvido como forma de expressao material das redes. A regionalizacao e um processo complementar, mas nao o citado.",
+      "3": "As cidades globais organizam os fluxos de capital e informacao, mas nao sao o processo que forma as redes materiais de producao industrial e comercio. Este trecho aponta a expansao das multinacionais, e nao a dinamizacao informacional das cidades, como forma de expressao das redes geograficas.",
+      "4": "Os fluxos industriais e comerciais aumentaram intensamente com a globalizacao e com a formacao das redes de producao transnacionais. A formacao das redes geograficas pressupoe crescimento dos fluxos, e nao sua diminuicao."
+    }
   },
   {
     "id": 10,
@@ -236,6 +286,12 @@
     ],
     "correta": 3,
     "comentario": "<p>As cidades globais são os nós mais importantes das redes geográficas contemporâneas: concentram tomada de decisões, serviços avançados, fluxos financeiros e conexões internacionais. Sua dinamização informacional — bolsas, bancos, consultorias — as torna centros de comando do capitalismo globalizado.</p>",
-    "ajuda": "As redes geográficas contemporâneas expressam-se através de múltiplas infraestruturas. Pense em qual tipo de rede material — de transporte, comunicação ou produção — melhor representa a expansão das conexões globais."
+    "ajuda": "As redes geográficas contemporâneas expressam-se através de múltiplas infraestruturas. Pense em qual tipo de rede material — de transporte, comunicação ou produção — melhor representa a expansão das conexões globais.",
+    "feedbacks": {
+      "0": "A transicao demografica e um processo de mudanca nas taxas vitais dos paises desenvolvidos e nao explica como as redes geograficas contemporaneas se materializam no espaco. As redes geograficas se expressam por fluxos produtivos e informacionais, e nao por fenomenos demograficos.",
+      "1": "A expansao das multinacionais para o mundo subdesenvolvido cria redes de producao e comercio, mas este trecho aponta especificamente a dinamizacao informacional das cidades globais como forma de expressao das redes geograficas. As duas expressoes sao distintas e este trecho remete a segunda.",
+      "2": "A regionalizacao do espaco economico descreve a formacao de blocos e zonas de integracao, que e um aspecto da globalizacao, mas nao a forma especifica de expressao das redes geograficas que este trecho indica. O texto aponta para a dimensao informacional das cidades globais.",
+      "4": "Os fluxos industriais e comerciais cresceram com a globalizacao e com a expansao das redes de producao transnacionais. Afirmar que as redes geograficas se expressam pela diminuicao dos fluxos contradiz diretamente o processo de intensificacao dos intercambios que caracteriza a globalizacao."
+    }
   }
 ]

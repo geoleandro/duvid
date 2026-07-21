@@ -20,7 +20,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Os Tigres Asiáticos (Coreia do Sul, Taiwan, Hong Kong e Singapura) transformaram-se em plataformas de exportação industrial: atraíram empresas multinacionais com mão de obra barata e disciplinada, investiram em educação e tornaram-se grandes exportadores de eletrônicos, têxteis e produtos de alta tecnologia.</p>",
-    "ajuda": "Os Tigres Asiáticos (Coreia do Sul, Taiwan, Hong Kong e Singapura) industrializaram-se rapidamente com apoio ocidental no contexto da Guerra Fria. Pense em qual modelo de inserção na economia global essas economias adotaram para impulsionar seu crescimento."
+    "ajuda": "Os Tigres Asiáticos (Coreia do Sul, Taiwan, Hong Kong e Singapura) industrializaram-se rapidamente com apoio ocidental no contexto da Guerra Fria. Pense em qual modelo de inserção na economia global essas economias adotaram para impulsionar seu crescimento.",
+    "feedbacks": {
+      "0": "Os Tigres Asiaticos nao dominam a logistica global; sao plataformas exportadoras que dependem de redes logísticas controladas por grandes corporacoes multinacionais. O controle da logistica do comercio mundial esta mais nas maos de empresas norte-americanas e europeias.",
+      "1": "Os Tigres Asiaticos (Coreia do Sul, Taiwan, Hong Kong e Cingapura) nao compartilham moeda unica; cada um tem sua propria moeda nacional. O livre comercio existe em alguns deles individualmente ou via acordos bilaterais, mas nao configura uma 'area de livre comercio com moeda unica'.",
+      "2": "Os Tigres Asiaticos foram mais conhecidos por absorver e adaptar tecnologia estrangeira do que por compartilhar patentes. A ideia de 'compartilhamento de patentes em inovacoes produtivas' e o oposto do comportamento dessas economias, que protegem sua producao intelectual no mercado global.",
+      "4": "As relacoes economicas nos Tigres Asiaticos, especialmente nas primeiras decadas de industrializacao, eram marcadas pela exploracao da mao de obra barata e por longas jornadas de trabalho. Afirmar que criavam 'relacoes equanimes entre burguesia e proletariado' contradiz o modelo de acumulacao adotado."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os Novos Tigres (Malásia, Tailândia, Indonésia, Filipinas, Vietnã) seguiram o modelo dos Tigres originais, mas com menor avanço tecnológico: receberam investimentos estrangeiros diretos (principalmente japoneses e coreanos), criaram zonas de exportação e aproveitaram a mão de obra barata para atrair manufaturas.</p>",
-    "ajuda": "Os Novos Tigres Asiáticos (Malásia, Vietnã, Tailândia, Indonésia e Filipinas) seguiram um modelo similar aos Tigres originais, mas com algumas diferenças. Identifique qual fator foi determinante para seu rápido crescimento industrial."
+    "ajuda": "Os Novos Tigres Asiáticos (Malásia, Vietnã, Tailândia, Indonésia e Filipinas) seguiram um modelo similar aos Tigres originais, mas com algumas diferenças. Identifique qual fator foi determinante para seu rápido crescimento industrial.",
+    "feedbacks": {
+      "0": "O modelo de substituicao de importacoes foi adotado principalmente na America Latina (Brasil, Argentina, Mexico) como estrategia de industrializacao protegida. Os Tigres Asiaticos adotaram o modelo oposto: exportacao orientada ao mercado externo, com abertura ao capital estrangeiro.",
+      "2": "Os Tigres Asiaticos nao estatizaram 65% de seu mercado interno; pelo contrario, destacaram-se pelo protagonismo do setor privado e pela atracao de capital estrangeiro. A intervencao do Estado foi diretiva e planejadora, mas nao de controle majoritario da economia por estatais.",
+      "3": "Os Tigres Asiaticos foram essencialmente orientados para exportacao desde o inicio de sua industrializacao; nao priorizaram o mercado interno. O modelo exportador, baseado na competitividade de precos e na integracao as cadeias globais de valor, e a marca caracteristica dessas economias.",
+      "4": "Os Tigres Asiaticos receberam investimentos dos EUA, do Japao e de outros paises capitalistas, inseridos nas estrategias da Guerra Fria e das cadeias produtivas globais. Nao receberam investimentos macicos de paises socialistas; ao contrario, estavam alinhados ao bloco capitalista ocidental."
+    }
   },
   {
     "id": 3,
@@ -70,7 +82,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A Oceania é um continente formado pela Austrália (massa continental), Nova Zelândia e três sub-regiões de ilhas: Melanésia (Papua Nova Guiné, Fiji), Micronésia (Ilhas Marianas, Palau) e Polinésia (Havaí, Samoa, Taiti). Austrália e Nova Zelândia são os únicos países desenvolvidos do continente.</p>",
-    "ajuda": "A Oceania é uma região de dimensões continentais dominada pela Austrália e Nova Zelândia, com milhares de ilhas menores na Melanésia, Micronésia e Polinésia. Pense em qual conclusão o texto e o mapa permitem sobre a diversidade e dimensão dessa região."
+    "ajuda": "A Oceania é uma região de dimensões continentais dominada pela Austrália e Nova Zelândia, com milhares de ilhas menores na Melanésia, Micronésia e Polinésia. Pense em qual conclusão o texto e o mapa permitem sobre a diversidade e dimensão dessa região.",
+    "feedbacks": {
+      "1": "A Australia e o maior territorio da Oceania, mas nao representa 98% de sua area total quando incluidos Papua Nova Guine (o segundo maior territorio), a Nova Zelandia e as centenas de ilhas do Pacifico. A afirmacao superestima a proporcao australiana na area total da Oceania.",
+      "2": "A Australia e a Nova Zelandia sao paises desenvolvidos com altos indices de IDH, apesar de serem territorios da Oceania. A premissa de que 'em funcao de sua limitada area nenhum territorio da Oceania e desenvolvido' e duplamente errada: a area nao e limitada e ha territorios claramente desenvolvidos.",
+      "3": "A Australia e a Nova Zelandia sao paises desenvolvidos apesar de seu isolamento geografico. O afastamento dos outros continentes nao impediu o desenvolvimento economico, social e tecnologico desses paises; ao contrario, sua historia colonial britanica e a riqueza em recursos naturais foram fatores favoraveis.",
+      "4": "A Europa tem area continental de aproximadamente 10,5 milhoes de km2, enquanto a Oceania tem cerca de 8,5 milhoes de km2. A Oceania e MENOR do que a Europa, ao contrario do que afirma a alternativa; a Europa e o menor continente apenas se nao for separada da Asia."
+    }
   },
   {
     "id": 4,
@@ -95,7 +113,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Tóquio, Kawasaki e Yokohama formam a maior aglomeração urbana do mundo (Área Metropolitana de Tóquio, ~37 milhões de pessoas), localizada na Ilha de Honshu, na Planície de Kanto. O Japão é uma monarquia parlamentarista constitucional, com o Imperador como chefe de Estado simbólico.</p>",
-    "ajuda": "O Japão é um arquipélago vulcânico e sísmico, com relevo montanhoso, população concentrada no litoral e grande desenvolvimento industrial. Pense em qual alternativa descreve corretamente as características físicas e humanas do Japão a partir do texto e do mapa."
+    "ajuda": "O Japão é um arquipélago vulcânico e sísmico, com relevo montanhoso, população concentrada no litoral e grande desenvolvimento industrial. Pense em qual alternativa descreve corretamente as características físicas e humanas do Japão a partir do texto e do mapa.",
+    "feedbacks": {
+      "0": "O Japao e uma monarquia constitucional com um Imperador como chefe de Estado e um Primeiro-Ministro como chefe do governo. Nao tem presidente da republica; o sistema politico japones e parlamentarista monárquico, nao presidencialista.",
+      "1": "O relevo predominantemente montanhoso do Japao nao impede a agricultura; os japoneses desenvolveram tecnicas avancadas de cultivo em terracos nas encostas e nas estreitas planícies costeiras. O Japao produz arroz, cha, frutas e vegetais em quantidade significativa apesar do relevo.",
+      "2": "O Japao e geologicamente INSTAVEL, localizado no 'Anel de Fogo' do Pacifico, com intensa atividade sismica e vulcanica. Sao os terremotos submarinos (e nao a 'estabilidade geologica') que causam os tsunamis; a estabilidade geologica e o oposto das condicoes japonesas.",
+      "3": "As maiores cidades japonesas (Toquio, Osaka, Kobe, Yokohama) estao nas planícies costeiras, nao em vales protegidos. Essas planícies sao justamente as areas mais expostas a tsunamis; a defesa e feita por diques, barreiras de concreto e sistemas de alerta precoce, e nao por localizacao em vales."
+    }
   },
   {
     "id": 5,
@@ -119,7 +143,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As afirmativas I, II e III estão corretas: os Novos Tigres funcionaram como plataformas de exportação; os Tigres originais construíram indústrias de alta tecnologia com mão de obra qualificada; e a China criou Zonas Econômicas Especiais (ZEEs) para atrair capital estrangeiro. A afirmativa IV sobre o Brasil não é totalmente precisa.</p>",
-    "ajuda": "As empresas transnacionais instalaram indústrias no Sudeste Asiático e em outras regiões buscando menores custos de produção. Avalie quais afirmativas descrevem corretamente esse processo de industrialização periférica impulsionado pelo capital transnacional."
+    "ajuda": "As empresas transnacionais instalaram indústrias no Sudeste Asiático e em outras regiões buscando menores custos de produção. Avalie quais afirmativas descrevem corretamente esse processo de industrialização periférica impulsionado pelo capital transnacional.",
+    "feedbacks": {
+      "0": "A proposicao IV e incorreta; inclui-la junto com I, II e III resulta num conjunto com afirmacao falsa. Apenas as proposicoes I, II e III descrevem corretamente o tema abordado.",
+      "2": "A proposicao IV e incorreta e a proposicao II e correta; excluir II e incluir IV torna a resposta duplamente errada. A resposta correta inclui I, II e III, excluindo apenas IV.",
+      "3": "A proposicao IV e incorreta; inclui-la junto com II e III resulta num conjunto com erro. Alem disso, a exclusao de I, que e correta, torna o conjunto incompleto. A resposta correta reune I, II e III.",
+      "4": "A proposicao II e correta; reduzir a resposta apenas a ela exclui I e III, que tambem sao corretas. A resposta correta inclui as tres proposicoes verdadeiras: I, II e III."
+    }
   },
   {
     "id": 6,
@@ -143,7 +173,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A concentração populacional na costa leste e sudeste da Austrália deve-se ao clima mais ameno (temperado), à presença dos melhores solos agrícolas e à localização histórica das primeiras cidades coloniais britânicas (Sydney, Melbourne). O interior desértico (outback) e o norte tropical são pouco habitados.</p>",
-    "ajuda": "A Austrália é um país de enorme extensão territorial, mas com população concentrada no litoral sudeste. O interior (outback) é árido e pouco habitado. Pense em qual alternativa descreve corretamente a distribuição das características físicas do território australiano."
+    "ajuda": "A Austrália é um país de enorme extensão territorial, mas com população concentrada no litoral sudeste. O interior (outback) é árido e pouco habitado. Pense em qual alternativa descreve corretamente a distribuição das características físicas do território australiano.",
+    "feedbacks": {
+      "0": "O interior centro-noroeste da Australia nao e marcado por dobramentos modernos que impossibilitem o estabelecimento humano. O principal obstaculo a ocupacao do interior australiano e o clima arido e semiarido; o relevo e predominantemente plano a suavemente ondulado.",
+      "1": "A porcao centro-oriental da Australia nao e caracterizada principalmente pela resistencia aborígene. Os aborígenes foram drasticamente dizimados e marginalizados apos a colonizacao britanica; o interior central e praticamente desabitado pela aridez, nao pela resistencia aborígene.",
+      "2": "A Australia nao tem ursos nativos; sua fauna e marcada por marsupiais (cangurus, coalas, wallabies, wombats) e monotremados (ornitorrinco, equidna). Ursos sao animais nativos das Americas, Europa e Asia, e nunca fizeram parte da fauna australiana.",
+      "3": "O centro-norte da Australia tem clima tropical savânico com chuvas sazonais (verao umido e inverno seco), mas nao e das areas onde mais chove no planeta. As areas de maior pluviosidade ficam nas bordas tropicais do norte (Territorio do Norte, norte de Queensland), nao no centro-norte."
+    }
   },
   {
     "id": 7,
@@ -167,7 +203,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O karoshi resulta de um traço cultural profundo: a lealdade absoluta à empresa (keiretsu) e a valorização do sacrifício pessoal como virtude. Trabalhadores japoneses não usam férias disponíveis por medo de parecerem desleais. Esse padrão cultural coexiste com uma das legislações trabalhistas mais avançadas do mundo.</p>",
-    "ajuda": "O karoshi (morte por excesso de trabalho) é um fenômeno reconhecido no Japão, relacionado à cultura de dedicação extrema ao trabalho. Identifique qual alternativa explica corretamente esse fenômeno — não é falta de leis, mas sim um traço cultural arraigado."
+    "ajuda": "O karoshi (morte por excesso de trabalho) é um fenômeno reconhecido no Japão, relacionado à cultura de dedicação extrema ao trabalho. Identifique qual alternativa explica corretamente esse fenômeno — não é falta de leis, mas sim um traço cultural arraigado.",
+    "feedbacks": {
+      "0": "O Japao nao tem atraso economico decorrente da derrota na WWII; e a terceira maior economia do mundo. O 'milagre economico japones' das decadas de 1950 a 1970 transformou o pais em potencia industrial em tempo recorde, superando amplamente os danos da guerra.",
+      "1": "O Japao nao tem 'baixos salarios pagos a todos os trabalhadores'; pelo contrario, tem uma das melhores remuneracoes medias da Asia. O problema nao e salarial, mas de excesso de jornada e pressao psicologica para nao tirar ferias, o que gera o fenomeno do karoshi (morte por excesso de trabalho).",
+      "2": "O Japao tem legislacao trabalhista (Lei de Padroes de Trabalho de 1947) que regula jornada, ferias e beneficios. O problema nao e a ausencia de leis, mas a pressao cultural para nao exercer os direitos legalmente garantidos; o trabalhador japones teme parecer desleal ao tirar ferias.",
+      "3": "As industrias japonesas de alta tecnologia geralmente mantem boas condicoes fisicas de trabalho e higiene; o problema e a pressao psicologica e as jornadas excessivas, nao as condicoes de salubridade. A imagem de 'pessimas condicoes de higiene' nao se aplica as industrias de ponta japonesas."
+    }
   },
   {
     "id": 8,
@@ -192,7 +234,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A alternativa incorreta sobre o Japão é a A: o país não desativou suas usinas nucleares em geral — ao contrário, teve um importante programa nuclear que foi parcialmente paralisado após o acidente de Fukushima (2011). O Japão usa principalmente térmicas (gás e carvão) e hidrelétricas, além das nucleares.</p>",
-    "ajuda": "O Japão reinventou seu espaço geográfico por meio de tecnologia avançada, automação industrial, sistemas de transporte de alta velocidade e adaptação ao risco sísmico. Avalie qual alternativa descreve corretamente uma das inovações do espaço japonês."
+    "ajuda": "O Japão reinventou seu espaço geográfico por meio de tecnologia avançada, automação industrial, sistemas de transporte de alta velocidade e adaptação ao risco sísmico. Avalie qual alternativa descreve corretamente uma das inovações do espaço japonês.",
+    "feedbacks": {
+      "1": "O Japao tem de fato um sistema sofisticado de alerta precoce para terremotos e tsunamis, um dos mais avancados do mundo. Esta afirmacao e factualmente correta; o sistema salva vidas ao alertar a populacao antes da chegada das ondas sismicas.",
+      "2": "A fabrica Fanuc de fato opera com altissimo grau de automacao, com robos realizando a maior parte das tarefas. Esta informacao e verídica e documentada; a Fanuc e um dos maiores fabricantes de robos industriais do mundo, com fabrica que opera quase sem trabalhadores humanos.",
+      "3": "O Japao tem cerca de 110 vulcoes ativos, nao apenas 'cinquenta'. A afirmacao de 'cerca de cinquenta vezes' provavelmente subestima o numero de vulcoes ou refere-se a sismos, e nao reflete com precisao a realidade geologica do arquipelago japones.",
+      "4": "O Japao conecta suas ilhas por meio de pontes (como a Ponte Akashi Kaikyo) e do trem-bala (Shinkansen), que percorre as quatro ilhas principais. Esta afirmacao e factualmente correta; o sistema de transportes japones e reconhecido mundialmente pela eficiencia."
+    }
   },
   {
     "id": 9,
@@ -215,7 +263,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A alternativa incorreta sobre a Austrália é a A: o principal parceiro comercial da Austrália hoje é a China (não os EUA), que compra mais de 35% das exportações australianas (principalmente minério de ferro). A Austrália exporta menos para os EUA do que para o Japão, Coreia do Sul e Índia.</p>",
-    "ajuda": "A questão pede a alternativa que representa uma característica INCORRETA da Austrália. Lembre-se de que a Austrália é membro da Commonwealth britânica, tem história colonial de exploração de aborígenes e suas relações comerciais se voltam cada vez mais para a Ásia. Identifique a incorreta."
+    "ajuda": "A questão pede a alternativa que representa uma característica INCORRETA da Austrália. Lembre-se de que a Austrália é membro da Commonwealth britânica, tem história colonial de exploração de aborígenes e suas relações comerciais se voltam cada vez mais para a Ásia. Identifique a incorreta.",
+    "feedbacks": {
+      "1": "Esta afirmacao provavelmente contem alguma imprecisao sobre o perfil de desenvolvimento social australiano. Embora a Australia busque equilibrar crescimento economico e social, a afirmacao pode superestimar ou subestimar algum aspecto especifico dessa relacao.",
+      "2": "Esta afirmacao e factualmente CORRETA: as terras australianas foram efetivamente dominadas pelos britanicos a partir de 1770, quando o Capiao James Cook reivindicou o territorio para a Coroa britanica. A colonizacao efetiva comeou com a primeira frota em 1788.",
+      "3": "Esta afirmacao e factualmente CORRETA: a Gra-Bretanha enviou condenados (prisioneiros) para a Australia a partir de 1788, como forma de desafogar as prisoes britanicas apos a independencia dos EUA. Essa politica durou ate 1868 e marcou profundamente a historia da colonizacao australiana.",
+      "4": "Esta afirmacao e factualmente CORRETA: a Australia e membro da Commonwealth britanica e mantem relacoes privilegiadas com o Reino Unido, incluindo o reconhecimento do monarca britanico como chefe de Estado, apesar de debates recorrentes sobre a republicanizacao do pais."
+    }
   },
   {
     "id": 10,
@@ -238,6 +292,11 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa falsa sobre o Japão é a D: o processamento de frutas para exportação não é o principal setor industrial japonês. Ao contrário, o Japão é conhecido por automóveis, eletrônicos e robótica — exporta Toyota, Sony e Mitsubishi para o mundo todo. A agricultura representa menos de 2% do PIB japonês.</p>",
-    "ajuda": "O Japão transformou-se na segunda maior economia do mundo no pós-Segunda Guerra Mundial apesar de não ter recursos naturais abundantes. Pense em qual fator explicativo — capital humano, tecnologia, modelo de Estado desenvolvimentista — fundamenta esse crescimento excepcional."
+    "ajuda": "O Japão transformou-se na segunda maior economia do mundo no pós-Segunda Guerra Mundial apesar de não ter recursos naturais abundantes. Pense em qual fator explicativo — capital humano, tecnologia, modelo de Estado desenvolvimentista — fundamenta esse crescimento excepcional.",
+    "feedbacks": {
+      "0": "A alternativa simplifica o desenvolvimento japones ao sugerir que o pais 'teria tudo para ser apenas mais um arquipelago'. O Japao superou suas limitacoes naturais (escassez de recursos, sismos, area limitada) por meio de industrializacao, educacao e organizacao social; nao e o que a afirmacao correta descreve.",
+      "1": "A alternativa menciona adversidades do Japao apesar do desenvolvimento, mas provavelmente contem imprecisoes sobre o tipo ou a causa das adversidades. As principais dificuldades japonesas sao demograficas (envelhecimento, baixa natalidade) e economicas (deflacao, estagnacao), nao as descritas.",
+      "2": "A historia economica japonesa tem mais do que dois momentos cruciais: a Restauracao Meiji (1868), a industrializacao militarista pre-WWII, a reconstrucao pos-guerra (milagre economico), a bolha dos anos 1980 e a estagnacao dos anos 1990 sao multiplos pontos de inflexao. Reduzir a dois e uma simplificacao."
+    }
   }
 ]

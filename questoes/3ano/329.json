@@ -22,7 +22,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A invasão do Iraque em 2003 pelos EUA e Reino Unido foi feita sem autorização do Conselho de Segurança da ONU e sem evidências concretas de armas de destruição em massa — que nunca foram encontradas. Foi considerada ilegal pelo então Secretário-Geral da ONU Kofi Annan, gerando uma crise de legitimidade da política externa americana.</p>",
-    "ajuda": "A invasão do Iraque em 2003 pelos EUA não teve apoio da ONU e gerou grande controvérsia internacional. O texto provavelmente discute os fundamentos ou as consequências dessa invasão. Identifique qual afirmativa o texto permite confirmar ou refutar."
+    "ajuda": "A invasão do Iraque em 2003 pelos EUA não teve apoio da ONU e gerou grande controvérsia internacional. O texto provavelmente discute os fundamentos ou as consequências dessa invasão. Identifique qual afirmativa o texto permite confirmar ou refutar.",
+    "feedbacks": {
+      "0": "O Conselho de Seguranca da ONU NAO autorizou a invasao do Iraque em 2003; paises como Franca e Russia vetaram a resolucao que legitimaria o uso da forca. Os EUA invadiram sem mandato da ONU, o que gerou grande controversia diplomatica internacional.",
+      "1": "A invasao do Iraque nao teve aval da ONU; foi realizada sem autorizacao do Conselho de Seguranca. A Gra-Bretanha participou da coalizado ao lado dos EUA, mas fora do mandato da organizacao internacional, o que tornou a operacao juridicamente contestavel.",
+      "2": "A resistencia formal do exercito iraquiano foi rapidamente superada: Bagda caiu em menos de tres semanas apos o inicio da invasao, em abril de 2003. Afirmar que o governo iraquiano resistiu 'por mais de um ano' contradiz o rapido colapso militar do regime de Saddam.",
+      "3": "Saddam Hussein foi capturado em dezembro de 2003, numa toca em ad-Dawr, e executado em dezembro de 2006. Ele nao escapou nem liderou qualquer resistencia do exterior; sua captura foi um marco simbolico da operacao norte-americana no Iraque."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Árabe refere-se a uma identidade étnico-linguística (povos que falam árabe como língua nativa), enquanto muçulmano refere-se à fé islâmica. Há 400 milhões de muçulmanos não árabes na Indonésia, Paquistão, Bangladesh e Irã — e há árabes cristãos no Líbano e na Síria. Os dois conceitos não são sinônimos.</p>",
-    "ajuda": "Árabe e muçulmano não são sinônimos: árabe é uma identidade étnico-linguística, enquanto muçulmano é uma identidade religiosa. Há muçulmanos não árabes (turcos, persas, indonésios) e árabes não muçulmanos (cristãos libaneses, por exemplo)."
+    "ajuda": "Árabe e muçulmano não são sinônimos: árabe é uma identidade étnico-linguística, enquanto muçulmano é uma identidade religiosa. Há muçulmanos não árabes (turcos, persas, indonésios) e árabes não muçulmanos (cristãos libaneses, por exemplo).",
+    "feedbacks": {
+      "0": "Ser arabe e uma categoria linguistica e etnica, nao sinonimo de muculmano. Ha cristaos arabes no Libano, no Egito e na Siria, e ha muculmanos nao-arabes como iranianos (persas), turcos e indonesios. A afirmacao de que arabe expressa 'os costumes e a cultura muculmana' confunde duas categorias distintas.",
+      "1": "Ser arabe e uma identidade linguistica e cultural, nao religiosa; nacoes nao 'se tornam arabes' por adotarem o islamismo. O Ira, por exemplo, e pais majoritariamente muculmano mas nao e arabe. A adocao do islamismo como religiao oficial nao transforma um pais em pais arabe.",
+      "3": "As diferencas entre mundo arabe e mundo muculmano nao sao 'praticamente nulas'; sao categorias distintas. A Turquia, o Ira e a Indonesia sao paises majoritariamente muculmanos, mas nao arabes. Por outro lado, ha arabes cristaos no Libano, na Siria e no Egito que nao sao muculmanos.",
+      "4": "Arabe nao e o nome de uma regiao geografica especifica, mas uma identidade linguistica e cultural compartilhada por povos que falam o arabico como lingua materna. A regiao geografica onde esses povos habitam e geralmente chamada de 'mundo arabe' ou 'Oriente Medio e Norte da Africa', nao simplesmente 'o arabe'."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Os curdos são o maior grupo étnico sem Estado nacional do mundo: cerca de 35-40 milhões de pessoas distribuídas entre Turquia (maioria), Irã, Iraque e Síria. A questão curda é uma das mais complexas do Oriente Médio — nenhum dos quatro países aceita a criação de um Estado curdo independente.</p>",
-    "ajuda": "Os curdos são o maior grupo étnico sem Estado nacional do mundo, com cerca de 30-40 milhões de pessoas espalhadas pela Turquia, Síria, Iraque e Irã. Identifique qual alternativa descreve corretamente a situação geopolítica dos curdos."
+    "ajuda": "Os curdos são o maior grupo étnico sem Estado nacional do mundo, com cerca de 30-40 milhões de pessoas espalhadas pela Turquia, Síria, Iraque e Irã. Identifique qual alternativa descreve corretamente a situação geopolítica dos curdos.",
+    "feedbacks": {
+      "0": "As maiores concentracoes de curdos nao estao na Siria, mas na Turquia (maior grupo, cerca de 15 milhoes) e no norte do Iraque (Curtistao iraquiano). A Siria tem uma populacao curda menor, localizada principalmente no nordeste do pais.",
+      "1": "Os curdos NAO possuem autonomia formal na Turquia; sao historicamente reprimidos pelo Estado turco, que por decadas proibiu o uso publico do idioma curdo e criminalizou organizacoes politicas curdas. A unica regiao de autonomia curda reconhecida e o Curtistao Iraquiano, no norte do Iraque.",
+      "3": "Os curdos estao concentrados principalmente em quatro paises do Oriente Medio: Turquia, Ira, Iraque e Siria. A afirmacao de que se distribuem por 'sete paises' exagera sua dispersao geografica e nao corresponde a distribuicao historica e demografica do povo curdo.",
+      "4": "Embora os curdos iraquianos tenham colaborado com os EUA durante e apos a invasao, eles nao foram os 'principais apoiadores' militares da operacao. A coalizao foi formada principalmente por forcas norte-americanas e britanicas; os curdos tinham objetivos proprios de ampliacao de sua autonomia."
+    }
   },
   {
     "id": 4,
@@ -96,7 +114,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Estado Islâmico (ISIS/DAESH) foi fundado por Abu Bakr al-Baghdadi e proclamou um califado em 2014 em partes do Iraque e da Síria. Surgiu no vácuo de poder gerado pela invasão americana do Iraque e pela guerra civil síria, recrutando sunitas marginalizados e jihadistas radicais de todo o mundo.</p>",
-    "ajuda": "O Estado Islâmico (ISIS/DAESH) surgiu na região entre Iraque e Síria, proclamando um califado. É diferente da OLP, do Hezbollah ou da Jihad islâmica. Identifique qual organização o texto descreve com base nas características mencionadas."
+    "ajuda": "O Estado Islâmico (ISIS/DAESH) surgiu na região entre Iraque e Síria, proclamando um califado. É diferente da OLP, do Hezbollah ou da Jihad islâmica. Identifique qual organização o texto descreve com base nas características mencionadas.",
+    "feedbacks": {
+      "0": "Jihad e um conceito religioso islamico amplo que significa 'esforco' ou 'luta', podendo ser espiritual ou bélico. Nao e o nome de um grupo especifico que estabeleceu territorios no Iraque e na Siria; e um termo geral usado por varios grupos, mas nao a denominacao do movimento descrito.",
+      "1": "A Intifada e o nome dado as revoltas palestinas contra a ocupacao israelense, especialmente a Primeira (1987) e a Segunda (2000). Nao e um grupo armado que agiu no Iraque e na Siria como parte da nova desordem do Oriente Medio pos-2003.",
+      "3": "O Estado Palestino e uma demanda politica pelo reconhecimento de um Estado independente para o povo palestino na Cisjordania e em Gaza. Nao e um grupo armado que dominou territorios no Iraque e na Siria, causando instabilidade na nova ordem regional.",
+      "4": "O Hezbollah e um grupo politico e paramilitar xiita libanes, financiado pelo Ira. Embora o Hezbollah tenha atuado na guerra civil da Siria ao lado de Assad, o grupo que estabeleceu um 'califado' nos territorios do Iraque e da Siria e causou o maior impacto na nova ordem regional foi o Estado Islamico."
+    }
   },
   {
     "id": 5,
@@ -121,7 +145,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O PKK (Partido dos Trabalhadores do Curdistão), fundado em 1978 por Abdullah Öcalan, travou uma guerra de guerrilha contra o Estado turco por décadas, causando mais de 40 mil mortos. O objetivo central é a autonomia política e o reconhecimento cultural dos curdos na Turquia, que os historicamente reprimiu.</p>",
-    "ajuda": "Os curdos na Turquia lutam pelo reconhecimento de sua identidade cultural e por autonomia política. O PKK (Partido dos Trabalhadores do Curdistão) liderou essa luta por décadas. Identifique qual é o objetivo central dessa luta conforme o texto."
+    "ajuda": "Os curdos na Turquia lutam pelo reconhecimento de sua identidade cultural e por autonomia política. O PKK (Partido dos Trabalhadores do Curdistão) liderou essa luta por décadas. Identifique qual é o objetivo central dessa luta conforme o texto.",
+    "feedbacks": {
+      "1": "Os curdos na Turquia nao lutam por liberdade religiosa; a maioria e muculmana sunita, como os turcos. O conflito e etnico e politico: os curdos reivindicam reconhecimento de sua identidade cultural, direitos linguisticos e, em alguns casos, autonomia ou independencia.",
+      "2": "O Ira nao esta invadindo o territorio turco. A Turquia e o Ira sao vizinhos com tensoes diplomaticas, especialmente sobre os curdos, mas nao ha conflito armado de forcas iranianas em solo turco. O conflito na Turquia e interno, entre o Estado e o PKK (Partido dos Trabalhadores do Curtistao).",
+      "3": "Os curdos nao buscam hegemonia geopolitica no Oriente Medio. Sua luta e por reconhecimento de sua identidade etnica e cultural, por direitos politicos dentro dos paises onde vivem ou, em casos extremos, pela criacao de um Estado proprio (Curtistao). Nao ha projeto de dominacao regional.",
+      "4": "A luta curda nao e primariamente por fronteiras com reservas minerais. O PKK e outros grupos curdos buscam reconhecimento etnico, direitos culturais, autonomia politica ou independencia; questoes identitarias e politicas prevalecem sobre disputas por recursos minerais especificos."
+    }
   },
   {
     "id": 6,
@@ -144,7 +174,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A alternativa incorreta é a C: o Irã persa não é árabe — os iranianos são persas, com língua (farsi) e cultura distintas do mundo árabe. O Irã é o maior país xiita do mundo, enquanto a maioria dos árabes é sunita. Essa diferença entre árabe e islâmico é fundamental para entender os conflitos do Oriente Médio.</p>",
-    "ajuda": "A Revolução Iraniana de 1979 depôs o Xá Reza Pahlevi (apoiado pelos EUA) e estabeleceu uma República Islâmica teocrática liderada pelo Aiatolá Khomeini. Pense em qual alternativa descreve corretamente os fatos históricos relacionados ao Irã."
+    "ajuda": "A Revolução Iraniana de 1979 depôs o Xá Reza Pahlevi (apoiado pelos EUA) e estabeleceu uma República Islâmica teocrática liderada pelo Aiatolá Khomeini. Pense em qual alternativa descreve corretamente os fatos históricos relacionados ao Irã.",
+    "feedbacks": {
+      "0": "Esta afirmacao e CORRETA: o Aiata Khomeini foi de fato o lider da Revolucao Islamica de 1979, que derrubou o Xa Mohamed Reza Pahlavi e instalou uma republica islamica no Ira. Khomeini promoveu um modelo de governo baseado na lei islamica (sharia) em oposicao a influencia ocidental.",
+      "1": "Esta afirmacao e CORRETA: a Revolucao Iraniana contou com amplo apoio de diferentes setores da sociedade iraniana, incluindo esquerdistas, liberais, clero e populacoes pobres urbanas, todos unidos pela oposicao ao regime do Xa. Apenas apos a vitoria revolucionaria e que o clero xiita assumiu o controle exclusivo.",
+      "3": "Esta afirmacao e CORRETA: o Ira entrou em conflito com o Iraque entre 1980 e 1988 (Guerra Ira-Iraque), iniciado pelo Iraque de Saddam Hussein logo apos a Revolucao Islamica, em parte pelo temor de que o modelo revolucionario iraniano se espalhasse. A guerra foi um dos conflitos mais sangrentos do seculo XX.",
+      "4": "Esta afirmacao e CORRETA: o programa nuclear iraniano gerou tensoes internacionais e acusacoes de que o pais desenvolvia armas nucleares. O Ira foi submetido a sancoес internacionais por anos, e o tema foi objeto de negociacoes como o Acordo de Vienna de 2015 (JCPOA)."
+    }
   },
   {
     "id": 7,
@@ -170,7 +206,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Mesopotâmia, entre os rios Tigre e Eufrates, é considerada o berço da civilização: foi onde surgiram as primeiras cidades, a escrita cuneiforme, os primeiros sistemas legais (Código de Hamurabi) e a agricultura irrigada. Hoje essa região histórica corresponde principalmente ao território do Iraque.</p>",
-    "ajuda": "A Mesopotâmia (entre os rios Tigre e Eufrates) é considerada o berço das primeiras civilizações. Hoje, essa região histórica corresponde principalmente ao território do Iraque. Identifique em qual país atual essa região geográfica está localizada."
+    "ajuda": "A Mesopotâmia (entre os rios Tigre e Eufrates) é considerada o berço das primeiras civilizações. Hoje, essa região histórica corresponde principalmente ao território do Iraque. Identifique em qual país atual essa região geográfica está localizada.",
+    "feedbacks": {
+      "0": "O Egito abriga a civilizacao egipcia antiga, desenvolvida no Vale do Nilo entre os rios Nilo Azul e Nilo Branco. A Mesopotamia, a 'terra entre rios', e a regiao entre os rios Tigre e Eufrates, localizada no atual territorio do Iraque, nao do Egito.",
+      "2": "A Arabia Saudita abrange a Peninsula Arabica, uma regiao com diferente historia geografica. A Mesopotamia, berco das civilizacoes sumeriana, babilonica e assıria, esta localizada no atual Iraque, entre os rios Tigre e Eufrates, e nao na Peninsula Arabica.",
+      "3": "O Nepal e um pais do sul da Asia, localizado no Himalaia, sem qualquer relacao geografica ou historica com a Mesopotamia. A Mesopotamia esta no Oriente Medio, no atual Iraque, a milhares de quilometros de distancia do Nepal.",
+      "4": "O Ira esta proximo da Mesopotamia e sua regiao oeste (Khuzistan) faz parte do territorio da antiga Persia. Contudo, a Mesopotamia propriamente dita, a 'terra entre rios' (Tigre e Eufrates), corresponde ao atual territorio do Iraque, nao do Ira."
+    }
   },
   {
     "id": 8,
@@ -195,7 +237,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As afirmativas corretas são II e III: a presença de forças estrangeiras reforça o nacionalismo e o fundamentalismo iraquiano; e os EUA apoiaram Saddam Hussein na guerra contra o Irã (1980-88), antes de combatê-lo. A afirmativa I é falsa (a maioria xiita é que perseguia a minoria sunita, e não o contrário).</p>",
-    "ajuda": "O Iraque tem uma população com três grandes grupos: árabes sunitas, árabes xiitas e curdos. Essa divisão étnico-religiosa é fundamental para entender os conflitos internos do país. Avalie as afirmativas sobre o Iraque com base nessa estrutura."
+    "ajuda": "O Iraque tem uma população com três grandes grupos: árabes sunitas, árabes xiitas e curdos. Essa divisão étnico-religiosa é fundamental para entender os conflitos internos do país. Avalie as afirmativas sobre o Iraque com base nessa estrutura.",
+    "feedbacks": {
+      "0": "A combinacao I e II exclui a proposicao IV, que tambem e correta, e pode incluir a proposicao I, que e incorreta. Para ser valida, a resposta deve conter exatamente as afirmacoes que descrevem corretamente a situacao de inseguranca no Iraque.",
+      "1": "A proposicao III e incorreta; inclui-la na resposta invalida o conjunto. Alem disso, a exclusao da proposicao II torna a resposta ainda mais imprecisa, pois II e uma das afirmacoes corretas sobre a situacao do Iraque.",
+      "2": "A proposicao III e incorreta e sua inclusao invalida a combinacao apresentada. A proposicao I tambem pode ser incorreta. A resposta correta e a que combina exclusivamente as afirmacoes verdadeiras sobre a inseguranca no Iraque, que sao II e IV.",
+      "4": "A proposicao III e incorreta; inclui-la torna a resposta errada. A exclusao da proposicao II, que e correta, tambem torna este conjunto invalido. Apenas as afirmacoes II e IV descrevem corretamente os fatores de inseguranca no Iraque."
+    }
   },
   {
     "id": 9,
@@ -219,30 +267,42 @@
     ],
     "correta": 0,
     "comentario": "<p>A alternativa correta é a A: a Revolução Iraniana de 1979 derrubou o Xá pró-americano e instalou a República Islâmica teocrática. A guerra Irã-Iraque (1980-88) foi o conflito mais mortífero do Oriente Médio no século XX, com mais de 1 milhão de mortos — não foi um conflito típico da Guerra Fria.</p>",
-    "ajuda": "A relação Irã-Iraque foi marcada pela Guerra Irã-Iraque (1980-1988) e pelo histórico de rivalidade xiita-sunita. O Iraque também invadiu o Kuwait em 1990, gerando a Guerra do Golfo. Identifique qual sequência de eventos é apresentada corretamente."
+    "ajuda": "A relação Irã-Iraque foi marcada pela Guerra Irã-Iraque (1980-1988) e pelo histórico de rivalidade xiita-sunita. O Iraque também invadiu o Kuwait em 1990, gerando a Guerra do Golfo. Identifique qual sequência de eventos é apresentada corretamente.",
+    "feedbacks": {
+      "1": "A Guerra Ira-Iraque (1980-1988) nao foi um conflito tipico da Guerra Fria em que os dois paises representavam as superpotencias. Foi um conflito bilateral por disputas territoriais e religiosas, com ambas as superpotencias apoiando ora um lado ora outro em momentos distintos, sem uma alinhamento claro.",
+      "2": "A ocupacao do Kuwait pelo Iraque ocorreu em agosto de 1990, mas a intervencao internacional nao foi convocada pelo governo iraniano; foi liderada pelos EUA com autorizacao do Conselho de Seguranca da ONU a pedido do Kuwait e da Arabia Saudita. O Ira e o Iraque eram rivais, nao aliados nesse contexto.",
+      "3": "A Primeira Guerra do Golfo (1991) nao foi realizada 'a pedido dos governos iraniano e saudita'. Foi desencadeada pela invasao iraquiana do Kuwait; o Ira nao pediu intervencao norte-americana contra o Iraque. A Arabia Saudita colaborou, mas foi o Kuwait que demandou ajuda internacional.",
+      "4": "A ONU NAO convocou os EUA e a Gra-Bretanha para a Segunda Guerra do Golfo (2003). Pelo contrario, o Conselho de Seguranca nao autorizou a invasao; Franca e Russia vetaram a resolucao. Os EUA agiram de forma unilateral, sem mandato da ONU, o que gerou criticas internacionais generalizadas."
+    }
   },
   {
     "id": 10,
-    "instituicao": "PUC-RS",
-    "ano": "2003",
-    "dificuldade": "media",
-    "tags": [
-      "iraque",
-      "invasão dos aliados",
-      "eua",
-      "geopolítica",
-      "petróleo"
-    ],
-    "pergunta": "Responder à questão com base nas afirmativas referentes ao Iraque, país invadido pelos \"aliados\", liderados pelos Estados Unidos da América do Norte, numa guerra iniciada em março de 2003.\n\nI. Localiza-se na Ásia, mais precisamente no Oriente Médio, região caracterizada como importante produtora de petróleo, que tem apresentado diferentes conflitos.\n\nII. E banhado pelo Mar Mediterrâneo, ao norte, e pelo Oceano Indico, ao si, situação que facilitou a invasão, por mar, das tropas \"aliadas\".\n\nIII. Vizinho do Irã e do Kuwait, teve Bagdá, sua capital e espaço estratégico para o domínio do país, invadida pelas forças \"aliadas\".\n\nIV. Possui um relevo acidentado, caracterizado pela ausência de planícies e depressões.\n\nA análise das afirmativas, permite concluir que estão corretas somente",
+    "ano": "UNICAMP 2026",
+    "imagem_apoio": "3ano/img/329/unicamp26q5.png",
+    "texto_apoio": "Historicamente, a região do Oriente Médio vive uma série de conflitos envolvendo alianças e disputas por interesses econômicos, geopolíticos e religiosos. Por exemplo, o chamado eixo da resistência é formado por um conjunto de países e grupos rebeldes sob influência do Irã. Esse eixo se define por confrontar forças militares ocidentais, como no caso dos Estados Unidos e de Israel. O mapa a seguir mostra a localização dos países e grupos sob influência do Irã.",
+    "fonte_apoio": "Adaptado de https://www.bbc.com/portuguese/articles/cw4dgr9yrpvo. Acesso em 23/05/2025. Elaboração do mapa: COMVEST 2025.",
+    "pergunta": "A partir dessas informações, assinale a alternativa que apresenta corretamente as disputas e as alianças do Irã com grupos étnicos, militares e religiosos dentro dos países indicados no mapa.",
     "alternativas": [
-      "I, II e III.",
-      "I, II e IV.",
-      "I e III.",
-      "II e IV.",
-      "III e IV."
+      "Disputas: com a minoria sunita do islamismo (Iraque) e com o Estado Islâmico (Síria). Alianças: com os Houthis (Iêmen) e com o Hezbollah (Líbano).",
+      "Disputas: com os Houthis (Iêmen) e com o Estado Islâmico (Síria). Alianças: com a minoria sunita do islamismo (Iraque) e com o Hezbollah (Líbano).",
+      "Disputas: com a minoria sunita do islamismo (Iraque) e com o Hezbollah (Líbano). Alianças: com os Houthis (Iêmen) e com o Estado Islâmico (Síria).",
+      "Disputas: com os Houthis (Iêmen) e com o Hezbollah (Líbano). Alianças: com a minoria sunita do islamismo (Iraque) e com o Estado Islâmico (Síria)."
     ],
-    "correta": 2,
-    "comentario": "<p>As afirmativas corretas são I e III: o Iraque está localizado na Ásia (Oriente Médio), região de grande produção petrolífera; e Bagdá foi invadida pelas forças aliadas (EUA e UK) em abril de 2003. A afirmativa II é falsa (o Iraque não é banhado pelo Mediterrâneo, mas pelo Golfo Pérsico) e IV é falsa (o Iraque tem extensas planícies aluviais).</p>",
-    "ajuda": "O Iraque foi invadido pelos EUA em 2003 sob o pretexto de possuir armas de destruição em massa — o que não foi confirmado. Avalie as afirmativas sobre essa invasão e suas consequências para o Iraque e para a ordem internacional."
+    "correta": 0,
+    "comentario": "O Irã é um Estado de maioria xiita. Isso define suas alianças e disputas: tem conflito com grupos sunitas (como a minoria sunita do Iraque e o Estado Islâmico/ISIS, que é sunita radical) e mantém alianças com grupos xiitas (Houthis no Iêmen e Hezbollah no Líbano — os principais braços do 'eixo da resistência').",
+    "ajuda": "O Irã é um país xiita. Isso significa que tende a ter alianças com grupos xiitas e conflitos com grupos sunitas. Quais dos grupos nas alternativas são xiitas (aliados) e quais são sunitas (rivais)?",
+    "tags": [
+      "geopolítica",
+      "Oriente Médio",
+      "Irã",
+      "eixo da resistência",
+      "xiitas e sunitas"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "1": "Coloca os Houthis (grupo xiita do Iêmen, aliado do Irã) como disputa — erro. E a minoria sunita do Iraque (rival) como aliança — outro erro. A alternativa inverte as relações do Irã com esses dois grupos.",
+      "2": "Coloca o Hezbollah (grupo xiita libanês, um dos principais aliados do Irã) como disputa — erro grave. O Hezbollah é um dos pilares do 'eixo da resistência' liderado pelo Irã.",
+      "3": "Coloca tanto Houthis quanto Hezbollah — ambos grupos xiitas e aliados históricos do Irã — como disputas. A alternativa inverte completamente as relações do Irã com seus aliados mais próximos."
+    }
   }
 ]

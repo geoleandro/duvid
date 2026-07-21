@@ -217,6 +217,78 @@
     .rk-minha-pos .rk-pos-info { flex: 1; }
     .rk-minha-pos .rk-pos-nome { font-weight: 700; font-size: .95rem; }
     .rk-minha-pos .rk-pos-sub { font-size: .75rem; opacity: .85; margin-top: 2px; }
+    /* ── Escola card ── */
+    .rk-escola {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 14px;
+        border-radius: 12px;
+        margin-bottom: 8px;
+        background: #fff;
+        border: 1px solid rgba(0,0,0,0.08);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        transition: transform .1s;
+    }
+    .rk-escola:hover { transform: translateY(-1px); }
+    .rk-escola.minha-escola {
+        background: #e8f5e9;
+        border-color: #2e7d32;
+        box-shadow: 0 2px 8px rgba(46,125,50,.12);
+    }
+    .rk-escola-avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #5c6bc0, #3949ab);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+    .rk-escola-info { flex: 1; min-width: 0; }
+    .rk-escola-nome {
+        font-weight: 700;
+        font-size: .93rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .rk-escola-sub {
+        font-size: .72rem;
+        color: #777;
+        margin-top: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .rk-escola-sub span { display: inline-flex; align-items: center; gap: 3px; }
+    .rk-escola-glob {
+        text-align: right;
+        flex-shrink: 0;
+    }
+    .rk-escola-glob .valor {
+        font-weight: 800;
+        color: #b8860b;
+        font-size: .92rem;
+        display: block;
+    }
+    .rk-escola-glob small {
+        font-size: .65rem;
+        color: #aaa;
+    }
+    .tag-escola {
+        background: #2e7d32;
+        color: #fff;
+        border-radius: 20px;
+        padding: 1px 6px;
+        font-size: .6rem;
+        font-weight: 700;
+        vertical-align: middle;
+        margin-left: 4px;
+    }
     </style>
 </head>
 
@@ -244,6 +316,9 @@
             <div class="rk-tab" id="tab-geral" onclick="trocarAba('geral')">
                 <i class="fa-solid fa-earth-americas"></i> Geral
             </div>
+            <div class="rk-tab" id="tab-escolas" onclick="trocarAba('escolas')">
+                <i class="fa-solid fa-school"></i> Por Escola
+            </div>
         </div>
 
         <!-- Lista do ranking -->
@@ -265,6 +340,7 @@
 
         let dadosTurma  = null;
         let dadosGeral  = null;
+        let dadosEscolas = null;
         let abaAtual    = 'turma';
         let infoAluno   = null;
 
@@ -382,17 +458,78 @@
             cont.innerHTML = html;
         }
 
+        // ── Renderiza ranking por escola ─────────────────────────
+        function renderizarEscolas(lista) {
+            if (!lista || lista.length === 0) {
+                aviso('Ainda não há escolas cadastradas no ranking.', false);
+                return;
+            }
+            const minhaEscola = (infoAluno && infoAluno.escola) ? infoAluno.escola.trim().toLowerCase() : null;
+
+            let html = '';
+            lista.forEach(function(e) {
+                const ehMinha = minhaEscola && e.escola && e.escola.trim().toLowerCase() === minhaEscola;
+                const inicialEsc = (e.escola || '?').trim()[0].toUpperCase();
+                const local = [e.estado, e.cidade].filter(Boolean).join(' · ');
+
+                html +=
+                    '<div class="rk-escola' + (ehMinha ? ' minha-escola' : '') + '">' +
+                        '<div class="rk-pos" style="font-weight:800;width:38px;text-align:center;font-size:1.1rem;flex-shrink:0;">' + medalha(e.posicao) + '</div>' +
+                        '<div class="rk-escola-avatar"><i class="fa-solid fa-school"></i></div>' +
+                        '<div class="rk-escola-info">' +
+                            '<div class="rk-escola-nome">' +
+                                (e.escola || 'Escola desconhecida') +
+                                (ehMinha ? '<span class="tag-escola">sua escola</span>' : '') +
+                            '</div>' +
+                            '<div class="rk-escola-sub">' +
+                                '<span title="Alunos"><i class="fa-solid fa-users"></i> ' + e.total_alunos + ' aluno' + (e.total_alunos !== 1 ? 's' : '') + '</span>' +
+                                (e.acerto_media !== null
+                                    ? '<span title="Média de acerto"><i class="fa-solid fa-bullseye"></i> ' + e.acerto_media + '%</span>'
+                                    : '') +
+                                (e.aulas_100_total > 0
+                                    ? '<span title="Aulas 100% concluídas"><i class="fa-solid fa-book-open-reader"></i> ' + e.aulas_100_total + '</span>'
+                                    : '') +
+                                (local
+                                    ? '<span style="color:#00897b"><i class="fa-solid fa-location-dot"></i> ' + local + '</span>'
+                                    : '') +
+                            '</div>' +
+                            '<div class="rk-barra-wrap"><div class="rk-barra-fill" style="width:' + (e.acerto_media || 0) + '%"></div></div>' +
+                        '</div>' +
+                        '<div class="rk-escola-glob">' +
+                            '<span class="valor">' + Number(e.glob_media).toLocaleString('pt-BR') + '</span>' +
+                            '<small>média/aluno</small>' +
+                        '</div>' +
+                    '</div>';
+            });
+            cont.className = '';
+            cont.innerHTML = html;
+        }
+
+        // ── Carrega ranking por escola ────────────────────────────
+        async function carregarEscolas() {
+            try {
+                const dados = await fetch('/api/ranking.php?escolas=1&top=50').then(r => r.json());
+                dadosEscolas = (dados && dados.escolas) ? dados.escolas : [];
+                subtitulo.textContent = 'Top escolas · média de globinhos por aluno';
+                cardPos.style.display = 'none';
+                renderizarEscolas(dadosEscolas);
+            } catch(e) {
+                aviso('Não foi possível carregar o ranking por escola.', false);
+            }
+        }
+
         // ── Troca de aba ─────────────────────────────────────────
         window.trocarAba = function(aba) {
             abaAtual = aba;
             document.querySelectorAll('.rk-tab').forEach(t => t.classList.remove('ativo'));
             document.getElementById('tab-' + aba).classList.add('ativo');
+
             if (aba === 'turma') {
                 if (dadosTurma) {
                     subtitulo.textContent = 'Turma ' + ((infoAluno && infoAluno.turma_nome) || '');
                     renderizar(dadosTurma, 'turma');
                 }
-            } else {
+            } else if (aba === 'geral') {
                 if (dadosGeral) {
                     subtitulo.textContent = 'Top 50 geral';
                     renderizar(dadosGeral, 'geral');
@@ -400,6 +537,16 @@
                     cont.className = 'rk-vazio';
                     cont.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Carregando…';
                     carregarGeral();
+                }
+            } else if (aba === 'escolas') {
+                if (dadosEscolas) {
+                    subtitulo.textContent = 'Top escolas · média de globinhos por aluno';
+                    cardPos.style.display = 'none';
+                    renderizarEscolas(dadosEscolas);
+                } else {
+                    cont.className = 'rk-vazio';
+                    cont.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Carregando…';
+                    carregarEscolas();
                 }
             }
         };

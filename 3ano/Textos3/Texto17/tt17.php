@@ -204,6 +204,13 @@
                 </div>
             <p>Reno: Um dos rios mais importantes da Europa, nasce nos Alpes suíços e flui através da Alemanha,
                 desembocando no Mar do Norte. O Reno é crucial para o transporte fluvial e comércio na Europa.</p>
+            <p>Esse papel estratégico do Reno como rota de navegação tem sido ameaçado pelas mudanças climáticas.
+                Verões mais secos e prolongados reduzem o nível da água do rio, o que impede ou limita a navegação de
+                embarcações de carga em determinados trechos, sobretudo entre o final do verão e o outono. Como o
+                Reno historicamente sustentou a instalação de grandes complexos industriais ao longo de suas margens,
+                essa dificuldade de navegação encarece a logística de transporte de mercadorias, forçando indústrias a
+                buscar alternativas rodoviárias ou ferroviárias mais caras, o que mostra como a crise climática pode
+                atingir diretamente as economias de países desenvolvidos.</p>
             <p>Danúbio: O segundo maior rio da Europa, atravessa 10 países, incluindo Alemanha, Áustria, Hungria, e
                 Romênia, antes de desaguar no Mar Negro. O Danúbio é vital para a navegação e a economia das regiões que
                 atravessa.</p>

@@ -529,10 +529,11 @@ async function enviarReporte(questaoNum) {
     btn.textContent = 'Enviando...';
 
     try {
+        const aulaIdReporte = aulaID || window._simuladoProva || '';
         const res = await fetch('/api/reporte.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ aula_id: aulaID, questao_num: questaoNum, tipo, mensagem })
+            body: JSON.stringify({ aula_id: aulaIdReporte, questao_num: questaoNum, tipo, mensagem })
         });
         const data = await res.json();
         status.style.display = 'block';

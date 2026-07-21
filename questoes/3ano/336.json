@@ -22,7 +22,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A Caxemira é uma região de maioria muçulmana que, em 1947, foi incorporada à Índia por decisão de seu marajá hindu. O Paquistão reivindica o território desde então, gerando guerras e tensão permanente entre os dois países.</p>",
-    "ajuda": "Lembre-se de que a divisão da Índia Britânica em 1947 gerou dois países separados pela religião: Índia (hindu) e Paquistão (muçulmano). A região que ficou no centro do conflito possui maioria muçulmana, mas foi governada por um marajá hindu — isso a tornou disputada desde o primeiro dia da independência."
+    "ajuda": "Lembre-se de que a divisão da Índia Britânica em 1947 gerou dois países separados pela religião: Índia (hindu) e Paquistão (muçulmano). A região que ficou no centro do conflito possui maioria muçulmana, mas foi governada por um marajá hindu — isso a tornou disputada desde o primeiro dia da independência.",
+    "feedbacks": {
+      "0": "Os Balcas sao uma regiao da Europa do Sudeste, marcada por conflitos etnicos e religiosos entre eslavos, albaneses e outras etnias. Nao se trata da regiao disputada entre India e Paquistao; o conflito balcanico envolve ex-paises da Iugoslavia e a expansao da OTAN.",
+      "1": "O Nepal e um Estado independente no Himalaia, entre India e China, e nao uma regiao disputada entre esses dois paises. O Nepal tem seus proprios conflitos internos historicos (monarquia versus maoistas), mas nao e o territorio em disputa descrito na questao.",
+      "3": "A Chechenia e uma republica federal dentro da Russia que lutou pela independencia em duas guerras (1994-96 e 1999-2009). Nao e a regiao disputada entre India e Paquistao; o conflito checheno e um conflito interno russo, sem relacao com o subcontinente indiano.",
+      "4": "O Butao e um reino independente no Himalaia com disputas territoriais com a China (nao com o Paquistao). O Butao nao e a regiao classicamente disputada entre India e Paquistao; esse papel pertence a Caxemira, dividida entre os dois paises desde 1947."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A China adotou a política do filho único de 1980 até 2015, controlando rigorosamente sua natalidade. A Índia, por sua vez, não adotou medidas equivalentes. Economicamente, a China se industrializou em massa, enquanto a Índia construiu sua base econômica sobre serviços, especialmente tecnologia da informação e biotecnologia.</p>",
-    "ajuda": "Foque nas diferenças reais entre China e Índia: a China adotou a política do filho único (controle de natalidade rígido), enquanto a Índia não fez o mesmo — isso confirma a II. A Índia se destaca mundialmente em serviços de TI e biotecnologia, enquanto a China apostou na indústria — isso confirma a IV. As afirmativas I e III contêm erros de comparação entre os dois países."
+    "ajuda": "Foque nas diferenças reais entre China e Índia: a China adotou a política do filho único (controle de natalidade rígido), enquanto a Índia não fez o mesmo — isso confirma a II. A Índia se destaca mundialmente em serviços de TI e biotecnologia, enquanto a China apostou na indústria — isso confirma a IV. As afirmativas I e III contêm erros de comparação entre os dois países.",
+    "feedbacks": {
+      "0": "A proposicao I e incorreta; inclui-la junto com II resulta num conjunto com afirmacao falsa. Apenas II e IV sao corretas; a inclusao de I invalida a resposta.",
+      "1": "As proposicoes I e III sao incorretas; a combinacao 'I e III' inclui duas afirmacoes falsas sobre o tema. A resposta correta e composta exclusivamente pelas proposicoes II e IV.",
+      "2": "A proposicao III e incorreta; inclui-la junto com II invalida a resposta. A resposta correta e II e IV, e nao II e III; substituir IV por III resulta num conjunto com afirmacao falsa.",
+      "4": "A proposicao I e incorreta; inclui-la junto com IV invalida a combinacao. Alem disso, a exclusao de II, que e correta, torna o conjunto incompleto. Apenas II e IV sao as afirmacoes verdadeiras."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O atual presidente russo, Vladimir Putin, promoveu grandes eventos esportivos, como os Jogos de Inverno de 2014 (Sochi) e a Copa do Mundo de 2018. Desenvolveu também uma política de força em relação aos vizinhos, interferindo na Geórgia e na Ucrânia. Tudo isso projeta sua imagem como líder inconteste e reforça o culto à sua personalidade.</p>",
-    "ajuda": "Pense nos grandes eventos esportivos realizados na Rússia sob o governo Putin: as Olimpíadas de Inverno em Sochi (2014) e a Copa do Mundo de Futebol (2018). Esses eventos foram usados estrategicamente para projetar ao mundo a imagem de uma Rússia forte e moderna — e fortalecer a figura do próprio Putin como líder incontestável."
+    "ajuda": "Pense nos grandes eventos esportivos realizados na Rússia sob o governo Putin: as Olimpíadas de Inverno em Sochi (2014) e a Copa do Mundo de Futebol (2018). Esses eventos foram usados estrategicamente para projetar ao mundo a imagem de uma Rússia forte e moderna — e fortalecer a figura do próprio Putin como líder incontestável.",
+    "feedbacks": {
+      "0": "A Russia de fato interveio em conflitos como os da Chechenia, Ossétia do Sul (2008), Crimeia (2014) e Ucrania (2022). Contudo, o objetivo declarado e a 'integridade territorial' russa, nao a 'expansao' no sentido positivo; essa descricao pode ser vista como justificativa ideologica das intervencoes.",
+      "1": "As reformas economicas dos anos 1990 (era Yeltsin) foram em grande parte desastrosas para a Russia, gerando colapso economico, inflacao, desemprego e ascensao das oligarquias. O crescimento economico russo do inicio do seculo XXI deveu-se principalmente a alta do preco do petroleo, nao as reformas dos anos 1990.",
+      "2": "A Russia mantem seu arsenal nuclear desde a dissolucao da URSS, sem interrupcao. Nao ha como 'reassumir' o que nunca foi abandonado; o programa nuclear russo foi continuidade direta do sovietico, sem ruptura. A afirmacao de que foi 'recuperado' e historicamente equivocada.",
+      "4": "O governo russo de Putin e amplamente reconhecido por suprimir o pluralismo politico, restringir a liberdade de imprensa e criminalizar a oposicao. Afirmar que a Russia 'estimulou a diversidade cultural e o pluralismo politico' e contrario a documentacao de organizacoes de direitos humanos como a Anistia Internacional."
+    }
   },
   {
     "id": 4,
@@ -94,7 +112,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A Rússia de Putin não vive ostracismo — ao contrário, busca ativamente espaço geopolítico. A Sibéria é a região menos densa do país. A Rússia possui diversidade étnica e não é conhecida por tolerância a minorias. Já a influência russa em eleições e o apoio ao governo sírio são eventos verificados internacionalmente.</p>",
-    "ajuda": "Analise cada afirmação separadamente: (1) A Rússia ainda exerce grande influência geopolítica — não há ostracismo (F). (2) A Sibéria é justamente a região MENOS povoada da Rússia, apesar do país ter baixa densidade geral (F). (3) A Rússia é multiétnica e tem histórico de intolerância com minorias (F). (4) A interferência russa em eleições e o apoio a Assad na Síria são fatos amplamente documentados (V). Resultado: F-F-F-V."
+    "ajuda": "Analise cada afirmação separadamente: (1) A Rússia ainda exerce grande influência geopolítica — não há ostracismo (F). (2) A Sibéria é justamente a região MENOS povoada da Rússia, apesar do país ter baixa densidade geral (F). (3) A Rússia é multiétnica e tem histórico de intolerância com minorias (F). (4) A interferência russa em eleições e o apoio a Assad na Síria são fatos amplamente documentados (V). Resultado: F-F-F-V.",
+    "feedbacks": {
+      "0": "A combinacao F-V-F-V classifica a segunda proposicao como verdadeira, quando ela e falsa. A sequencia correta e F-F-F-V; tres das quatro afirmacoes contem erros, e apenas a quarta e verdadeira.",
+      "1": "A combinacao V-F-V-F classifica a primeira e a terceira proposicoes como verdadeiras, quando ambas sao falsas. A sequencia correta e F-F-F-V; as tres primeiras afirmacoes sao incorretas e apenas a quarta e verdadeira.",
+      "3": "A combinacao V-V-V-F classifica as tres primeiras proposicoes como verdadeiras, quando as tres contem erros. A sequencia correta e F-F-F-V; apenas a quarta afirmacao e verdadeira."
+    }
   },
   {
     "id": 5,
@@ -118,7 +141,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As reformas de Deng Xiaoping criaram o modelo de 'economia socialista de mercado': o Estado mantém o controle político e orienta a economia, mas permite iniciativa privada, comércio internacional e zonas econômicas especiais. É um modelo híbrido que não se encaixa perfeitamente no capitalismo nem no socialismo clássico.</p>",
-    "ajuda": "A partir de 1978, Deng Xiaoping promoveu reformas que abriram a economia chinesa ao mercado, mas mantendo o controle do Partido Comunista. Esse modelo único combina elementos capitalistas na prática com o socialismo na estrutura política — o próprio governo chinês o denomina com um termo composto que une as duas ideias."
+    "ajuda": "A partir de 1978, Deng Xiaoping promoveu reformas que abriram a economia chinesa ao mercado, mas mantendo o controle do Partido Comunista. Esse modelo único combina elementos capitalistas na prática com o socialismo na estrutura política — o próprio governo chinês o denomina com um termo composto que une as duas ideias.",
+    "feedbacks": {
+      "1": "A China nao se define nem funciona como 'economia capitalista globalizada'. O Partido Comunista Chines mantem o controle politico e uma parcela significativa da economia e estatal ou dirigida pelo partido. O proprio governo chines rejeita o rotulo de capitalismo para descrever seu sistema.",
+      "2": "'Organizacao economica plural' sugere ausencia de direcao central e diversidade de sistemas em plano de igualdade. A China tem uma economia dirigida pelo Estado com forte intervencao do PCC; nao ha pluralidade descentralizada, mas hierarquia clara com o partido no topo.",
+      "3": "As zonas economicas especiais (ZEEs) sao instrumentos pontuais da politica economica chinesa, regioes especificas onde se aplica um regime diferenciado de investimento e comercio. Nao descrevem o modelo economico do pais como um todo; sao excecoes dentro de um sistema mais amplo.",
+      "4": "'Organizacao privado-popular' nao e uma categoria reconhecida na ciencia economica para descrever o sistema chines. A China mistura estatismo com mercado, mas sob direcao centralizada do PCC; o qualificativo 'privado-popular' nao capta essa dinamica de controle estatal-partidario."
+    }
   },
   {
     "id": 6,
@@ -141,7 +170,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A China não foi a causa da queda do Muro de Berlim. Tem crescimento econômico expressivo, mas adota um Estado forte — o oposto do neoliberalismo. O controle estatal dos salários gera mão de obra barata que sustenta as exportações. Politicamente, é um regime de partido único sem pluripartidarismo real.</p>",
-    "ajuda": "O país X é a China. Avalie cada afirmação: A China não causou diretamente a queda do Muro (F). A China é uma das maiores economias em crescimento (V). O neoliberalismo prega Estado mínimo — a China tem Estado forte (F). A China controla salários e mantém mão de obra barata para exportar (V). A China é de partido único — sem pluripartidarismo (F). Sequência: F-V-F-V-F."
+    "ajuda": "O país X é a China. Avalie cada afirmação: A China não causou diretamente a queda do Muro (F). A China é uma das maiores economias em crescimento (V). O neoliberalismo prega Estado mínimo — a China tem Estado forte (F). A China controla salários e mantém mão de obra barata para exportar (V). A China é de partido único — sem pluripartidarismo (F). Sequência: F-V-F-V-F.",
+    "feedbacks": {
+      "0": "A combinacao V-F-V-F-V classifica as proposicoes I, III e V como verdadeiras, quando sao falsas. A sequencia correta e F-V-F-V-F; sao as proposicoes II e IV que sao verdadeiras.",
+      "2": "A combinacao V-V-F-V-F marca I como verdadeira, quando e falsa. A sequencia correta e F-V-F-V-F; a proposicao I e falsa e nao deve ser marcada como verdadeira.",
+      "3": "A combinacao F-F-V-V-F marca II como falsa e III como verdadeira, quando o correto e o oposto: II e verdadeira e III e falsa. A sequencia correta e F-V-F-V-F."
+    }
   },
   {
     "id": 7,
@@ -164,7 +198,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A população norte-coreana é estimada em 25 milhões de habitantes, com densidade de ~200 hab/km². O escuro na imagem não representa vazio demográfico, mas baixo desenvolvimento econômico. A Coreia do Sul tornou-se um gigante industrial (Samsung, Hyundai, LG), enquanto a Coreia do Norte ainda luta para garantir condições mínimas de vida à sua população.</p>",
-    "ajuda": "A Coreia do Norte não tem vazio populacional — tem cerca de 25 milhões de habitantes. O escuro visto na imagem de satélite não vem da falta de pessoas, mas da falta de energia elétrica. Isso está diretamente ligado ao nível de industrialização e riqueza do país — enquanto a Coreia do Sul virou um gigante industrial, a Coreia do Norte permanece subdesenvolvida."
+    "ajuda": "A Coreia do Norte não tem vazio populacional — tem cerca de 25 milhões de habitantes. O escuro visto na imagem de satélite não vem da falta de pessoas, mas da falta de energia elétrica. Isso está diretamente ligado ao nível de industrialização e riqueza do país — enquanto a Coreia do Sul virou um gigante industrial, a Coreia do Norte permanece subdesenvolvida.",
+    "feedbacks": {
+      "0": "O poderio militar foi o criterio dominante de poder durante a Guerra Fria, quando a corrida armamentista e o equilibrio nuclear estruturavam a ordem bipolar. Na nova ordem global multipolar pos-Guerra Fria, o poder economico ganhou protagonismo como instrumento de influencia e projecao internacional.",
+      "1": "A democracia e um valor politico importante, mas nao e um instrumento de poder geopolitico por si so. Paises nao democraticos como a China e a Russia exercem grande influencia global; o poder real nas relacoes internacionais e determinado mais pela capacidade economica e militar do que pelo regime politico.",
+      "2": "O contingente populacional e um fator de poder potencial, mas paises muito populosos como a India e a Nigeria nao tem necessariamente mais influencia geopolitica do que paises menores com economias mais robustas. O poder real requer que a populacao seja produtiva, educada e integrada ao sistema economico."
+    }
   },
   {
     "id": 8,
@@ -188,7 +227,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Em 1997, Hong Kong foi devolvida à China com o acordo 'um país, dois sistemas', que garantia autonomia e liberdades civis ao território até 2047. A Lei de Segurança Nacional de 2020 permitiu à China processar dissidentes de Hong Kong em tribunais continentais, contradizendo o acordo com o Reino Unido e gerando repúdio internacional.</p>",
-    "ajuda": "Hong Kong foi colônia britânica e retornou à China em 1997 com um acordo especial: 'um país, dois sistemas', válido até 2047, que garantia liberdades políticas e econômicas ao território. A Lei de Segurança Nacional aprovada pela China restringe essas liberdades — o que vai diretamente contra o compromisso firmado com o Reino Unido."
+    "ajuda": "Hong Kong foi colônia britânica e retornou à China em 1997 com um acordo especial: 'um país, dois sistemas', válido até 2047, que garantia liberdades políticas e econômicas ao território. A Lei de Segurança Nacional aprovada pela China restringe essas liberdades — o que vai diretamente contra o compromisso firmado com o Reino Unido.",
+    "feedbacks": {
+      "0": "A politica da China em relacao a Hong Kong nao e sobre reafirmar autonomia sobre 'antigas republicas'; e sobre a Regiao Administrativa Especial (RAE) de Hong Kong, devolvida em 1997. O conflito e entre a crescente interferencia de Pequim e as liberdades garantidas pela Declaracao Conjunta Sino-Britanica de 1984.",
+      "1": "A devolucao de Hong Kong ja ocorreu em 1997; o temor atual dos hong-kongueses nao e pela devolucao, mas pela erosao das liberdades civis que deveriam ser garantidas ate 2047 pelo sistema 'Um pais, dois sistemas'. A alternativa confunde a devolucao passada com a crise politica presente.",
+      "2": "Os manifestantes de Hong Kong nao temiam 'interferencia ocidental'; ao contrario, muitos buscaram apoio ocidental para defender suas liberdades. A alternativa inverte completamente a posicao dos hong-kongueses, que resistem a interferencia de Pequim, nao a do Ocidente.",
+      "3": "O conflito entre Pequim e Hong Kong nao e sobre 'vantagens comerciais indevidas'. O sistema 'Um pais, dois sistemas' criou especificidades economicas para Hong Kong, mas o conflito central e sobre liberdades politicas e civis (liberdade de imprensa, direito de manifestacao, independencia do judiciario), nao sobre comercio."
+    }
   },
   {
     "id": 9,
@@ -212,7 +257,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os EUA financiaram a reconstrução japonesa dentro da lógica da Guerra Fria, transformando o Japão em vitrine do capitalismo no Pacífico (I - correto). O Japão desvalorizou o iene para conquistar mercados externos (III - correto). Já os Zaibatsus foram dissolvidos pelos EUA após a guerra por representarem concentração de poder — foram substituídos pelos Keiretsus, estruturas empresariais mais horizontais (II - incorreto).</p>",
-    "ajuda": "O apoio dos EUA na reconstrução do Japão após a Segunda Guerra (I) é um fato histórico consolidado. A desvalorização do iene para tornar exportações mais competitivas (III) também é correto. O ponto de atenção é a afirmação II: após a guerra, os EUA determinaram o desmonte dos Zaibatsus — eles foram dissolvidos e substituídos pelos Keiretsus, uma forma mais descentralizada de conglomerado. Portanto, a II está incorreta."
+    "ajuda": "O apoio dos EUA na reconstrução do Japão após a Segunda Guerra (I) é um fato histórico consolidado. A desvalorização do iene para tornar exportações mais competitivas (III) também é correto. O ponto de atenção é a afirmação II: após a guerra, os EUA determinaram o desmonte dos Zaibatsus — eles foram dissolvidos e substituídos pelos Keiretsus, uma forma mais descentralizada de conglomerado. Portanto, a II está incorreta.",
+    "feedbacks": {
+      "0": "A proposicao II e incorreta; inclui-la junto com I resulta num conjunto com afirmacao falsa. A resposta correta e formada apenas por I e III; a inclusao de II invalida a combinacao.",
+      "2": "A proposicao II e incorreta; a combinacao 'II e III' inclui uma afirmacao falsa. Alem disso, a exclusao de I, que e correta, torna o conjunto incompleto. Apenas I e III sao afirmacoes verdadeiras.",
+      "3": "A proposicao II e incorreta; afirmar que I, II e III estao todas corretas e errado. Apenas I e III descrevem corretamente o tema abordado; II contem uma afirmacao equivocada.",
+      "4": "As proposicoes I e III sao corretas; afirmar que todas estao incorretas e o oposto da realidade. I e III descrevem corretamente o tema, enquanto apenas II e a afirmacao incorreta."
+    }
   },
   {
     "id": 10,
@@ -237,6 +288,12 @@
     ],
     "correta": 4,
     "comentario": "<p>Austrália e Nova Zelândia são os países de maior IDH da Oceania. A Austrália detém o segundo maior IDH do planeta (0,970), enquanto a Nova Zelândia ocupa o 20º lugar no ranking mundial (IDH 0,950). Samoa é um país de IDH médio; Papua Nova Guiné tem IDH baixo (0,541); Tuvalu tem baixo desenvolvimento; Indonésia e Malásia pertencem à Ásia.</p>",
-    "ajuda": "Pense nos países da Oceania que têm grande extensão territorial, economia industrializada e forte influência cultural britânica. Samoa, Tuvalu e Papua Nova Guiné são pequenas nações insulares com IDH baixo ou médio. Indonésia e Malásia ficam na Ásia, não na Oceania. Os dois gigantes desenvolvidos do continente são aqueles que aparecem nas notícias internacionais com regularidade."
+    "ajuda": "Pense nos países da Oceania que têm grande extensão territorial, economia industrializada e forte influência cultural britânica. Samoa, Tuvalu e Papua Nova Guiné são pequenas nações insulares com IDH baixo ou médio. Indonésia e Malásia ficam na Ásia, não na Oceania. Os dois gigantes desenvolvidos do continente são aqueles que aparecem nas notícias internacionais com regularidade.",
+    "feedbacks": {
+      "0": "Samoa e um pequeno Estado insular do Pacifico com IDH baixo em comparacao com os paises desenvolvidos da Oceania. Nao figura entre os paises mais desenvolvidos da Oceania; a Australia e a Nova Zelandia sao os paises que lideram os indicadores socioeconomicos do continente.",
+      "1": "Indonesia e Malasia sao paises do Sudeste Asiatico; nao fazem parte da Oceania na maioria das classificacoes geograficas. Mesmo quando incluidos em sentido amplo, seus indicadores de desenvolvimento sao inferiores aos da Australia e da Nova Zelandia.",
+      "2": "A Papua Nova Guine tem um dos menores IDH do mundo, sendo uma das nacoes mais pobres e com maiores indices de desigualdade. Associa-la a Nova Zelandia como par de 'paises mais desenvolvidos da Oceania' e incorreto; a Papua Nova Guine e classificada como pais de baixo desenvolvimento humano.",
+      "3": "Tuvalu e um dos menores e mais vulneraveis paises do mundo, um microestado insular de apenas 26 km2 com menos de 12 mil habitantes, severamente ameacado pela elevacao do nivel do mar. Nao tem condicoes de ser classificado entre os paises mais desenvolvidos da Oceania."
+    }
   }
 ]

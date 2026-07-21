@@ -22,7 +22,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Mia Couto critica a ideia de que a África seria uma unidade homogênea inventada pelo olhar colonial europeu, que ignorou as diversidades étnicas, linguísticas e culturais do continente. Mesmo após a independência formal, os países africanos continuam presos a estruturas econômicas e políticas moldadas pelo colonialismo.</p>",
-    "ajuda": "Mia Couto, escritor moçambicano, critica a imagem homogeneizada da África criada pelo olhar colonial europeu. Pense em qual sentido a expressão 'invenção da África' questiona as narrativas coloniais que tratavam o continente como um bloco uniforme."
+    "ajuda": "Mia Couto, escritor moçambicano, critica a imagem homogeneizada da África criada pelo olhar colonial europeu. Pense em qual sentido a expressão 'invenção da África' questiona as narrativas coloniais que tratavam o continente como um bloco uniforme.",
+    "feedbacks": {
+      "0": "A descolonização africana nao ocorreu com o fim da Segunda Guerra Mundial; a maioria dos paises africanos tornou-se independente nos anos 1960 e 1970. O colonialismo europeu se prolongou muito alem da WWII e nao 'libertou definitivamente' as colonias africanas ao terminar.",
+      "2": "Os movimentos de independencia africanos foram protagonizados pelos proprios africanos, como Kwame Nkrumah em Gana e Sekou Toure na Guine. Os EUA tinham interesses na Africa mas nao foram os patrocinadores dos movimentos de independencia; muitas vezes apoiaram as metropoles coloniais.",
+      "3": "Os movimentos africanos de independencia buscavam justamente RESGATAR as identidades etnicas e culturais pre-coloniais suprimidas pelo colonizador, e nao as negar. A expressao 'invencao da Africa' critica como o colonialismo criou uma Africa artificial que nao corresponde as identidades reais dos povos.",
+      "4": "Angola e Mocambique, colonias de Portugal, viveram longas e sangrentas guerras civis apos a independencia, entre movimentos como o MPLA, a UNITA e a RENAMO. Afirmar que as colonias portuguesas nao se envolveram em guerras civis e historicamente falso."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As áreas de maior densidade demográfica na África concentram-se no delta do Nilo (Egito), no litoral da África Ocidental (Nigéria, Gana, Costa do Marfim) e na região dos Grandes Lagos. O interior do continente e o Saara permanecem com densidade muito baixa — reflexo dos condicionantes físicos e históricos.</p>",
-    "ajuda": "O mapa da África provavelmente destaca regiões com características específicas. Pense nas áreas mais densamente povoadas (litoral oeste, vale do Nilo, África do Sul) ou mais áridas (Saara, Sahel) para identificar o que as áreas destacadas representam."
+    "ajuda": "O mapa da África provavelmente destaca regiões com características específicas. Pense nas áreas mais densamente povoadas (litoral oeste, vale do Nilo, África do Sul) ou mais áridas (Saara, Sahel) para identificar o que as áreas destacadas representam.",
+    "feedbacks": {
+      "0": "As areas de maior aridez na Africa, como o Deserto do Saara e o Namibe, sao justamente as de menor densidade demografica. As populacoes evitam as regioes aridas por falta de agua e recursos; a aridez e incompativel com alta concentracao humana.",
+      "1": "As areas industrializadas na Africa sao poucas e pontuais (regiao industrial da Africa do Sul, Cairo, Lagos), e a industrializacao nao coincide necessariamente com as areas de maior densidade demografica do continente. O mapa de industria e o de densidade sao distintos.",
+      "3": "As areas mais chuvosas da Africa, como a floresta equatorial do Congo e a costa ocidental equatorial, podem ter alta densidade em alguns pontos, mas as areas mais populosas incluem o norte da Nigéria e o Vale do Nilo, que nao sao necessariamente as mais chuvosas.",
+      "4": "Os conflitos etnicos e tribais ocorrem em varias regioes africanas, mas nao definem as areas de maior concentracao demografica. Paises com alta densidade como o Egipto e a Nigéria nao tem seus maiores aglomerados determinados pelos conflitos etnicos."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A independência política africana (anos 1960-70) não foi acompanhada de independência econômica. Ex-colônias continuaram exportando matérias-primas para as ex-metrópoles, num fenômeno chamado neocolonialismo ou 'colonialismo de novo tipo', que manteve as estruturas de dependência sem controle territorial direto.</p>",
-    "ajuda": "A independência política africana (anos 1960-70) não foi acompanhada de independência econômica. Os países continuaram dependentes das antigas metrópoles por meio do neocolonialismo. Identifique qual alternativa descreve corretamente esse processo."
+    "ajuda": "A independência política africana (anos 1960-70) não foi acompanhada de independência econômica. Os países continuaram dependentes das antigas metrópoles por meio do neocolonialismo. Identifique qual alternativa descreve corretamente esse processo.",
+    "feedbacks": {
+      "0": "A independencia politica africana dos anos 1960 nao superou o atraso economico gerado pela exploracao colonial. A maioria dos paises africanos continua exportando materias-primas com pouco valor agregado e importando manufaturados, mantendo a estrutura de dependencia economica.",
+      "2": "A descolonizacao politica nao reestruturou as economias africanas; os paises continuaram produzindo para os mercados externos e as antigas metropoles. A ideia de que as novas nacoes passaram a produzir para o mercado interno contradiz o que se observou na realidade pos-colonial.",
+      "3": "Ao contrario do que afirma esta alternativa, a posicao das antigas colonias na DIT nao se alterou sensivelmente; elas continuaram como fornecedoras de materias-primas para as economias industrializadas. A independencia politica nao se traduziu em industrializacao nem em mudanca de papel na divisao internacional do trabalho.",
+      "4": "A superacao das relacoes de subordinacao economica nao ocorreu apos a descolonizacao; o neocolonialismo perpetuou a dependencia por meio de divida externa, empresas multinacionais e condicionalidades dos organismos financeiros internacionais. O desenvolvimento industrial prometido nao se concretizou na maioria dos paises africanos."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A África é um dos continentes mais ricos em recursos naturais: petróleo (Nigéria, Angola, Líbia), diamantes (Congo, Botswana), ouro (África do Sul, Gana), cobre (Zâmbia, Congo) e terras raras. Paradoxalmente, essa riqueza beneficia principalmente empresas multinacionais e elites locais, não as populações.</p>",
-    "ajuda": "A África é rica em recursos naturais (petróleo, diamantes, ouro, terras raras), mas essa riqueza beneficia principalmente empresas e países estrangeiros. Pense em qual afirmativa descreve corretamente essa contradição entre riqueza natural e pobreza da população."
+    "ajuda": "A África é rica em recursos naturais (petróleo, diamantes, ouro, terras raras), mas essa riqueza beneficia principalmente empresas e países estrangeiros. Pense em qual afirmativa descreve corretamente essa contradição entre riqueza natural e pobreza da população.",
+    "feedbacks": {
+      "1": "A exploracao mineral africana beneficia principalmente as empresas multinacionais e os paises ricos importadores, e nao apenas os paises que a praticam. Os lucros sao frequentemente remetidos para fora do continente, enquanto as populacoes locais recebem poucos beneficios.",
+      "2": "O setor industrial africano e de fato pouco desenvolvido e baseado na transformacao de materias-primas, mas essa nao e a afirmacao mais correta para descrever a riqueza e a diversidade de recursos do continente africano. A questao pede a afirmacao correta sobre o continente como um todo.",
+      "3": "A exploracao mineral africana foi iniciada e liderada por empresas europeias (britanicas, francesas, belgas, portuguesas), e nao asiaticas. Empresas asiaticas tem participacao crescente atualmente, mas historicamente a exploracao colonial foi europeia.",
+      "4": "Embora seja verdade que a Africa tem paises subdesenvolvidos e algumas economias emergentes, essa descricao e menos precisa e completa do que afirmar que o continente e rico em minerios e fontes de energia variadas. A riqueza mineral africana e a informacao central e indiscutivel sobre o continente."
+    }
   },
   {
     "id": 5,
@@ -116,7 +140,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O comércio intrarregional africano é extremamente baixo (cerca de 15% do total exportado) porque as economias africanas são pouco diversificadas — cada país exporta um ou dois produtos primários para o mesmo mercado global, sem complementaridade entre si. Isso dificulta a integração regional e a criação de cadeias produtivas locais.</p>",
-    "ajuda": "A África tem baixa integração regional porque suas economias são pouco diversificadas e muito dependentes de poucos produtos de exportação. Pense em qual característica estrutural das economias africanas dificulta o comércio intra-africano."
+    "ajuda": "A África tem baixa integração regional porque suas economias são pouco diversificadas e muito dependentes de poucos produtos de exportação. Pense em qual característica estrutural das economias africanas dificulta o comércio intra-africano.",
+    "feedbacks": {
+      "0": "Os paises africanos nao tem 'acesso exclusivo a materias-primas importadas'; ao contrario, sao exportadores de materias-primas. A formulacao esta incorreta: o problema e justamente que todos exportam produtos primarios semelhantes, sem diversificacao que permita comercio interno complementar.",
+      "2": "A maioria das colonias africanas tornou-se independente nos anos 1960 e 1970; nao ha mais 'manutencao das colonias europeias' como fator atual que explique a inexpressividade do comercio intrarregional. O problema atual e estrutural e tem outras causas.",
+      "3": "As fronteiras africanas sao rigidas, herdadas da Conferencia de Berlim, e nao flexiveis. Alem disso, a maioria das economias africanas e monetarizada, embora haja setor informal expressivo. A afirmacao de 'fronteiras flexiveis' contraria a realidade geografica e politica do continente.",
+      "4": "A Africa tem centros urbanos significativos como Lagos, Cairo, Kinshasa e Johanesburgo; a ausencia de centros urbanos nao e a realidade do continente. Embora os custos de transporte sejam altos, a causa principal da inexpressividade do comercio intrarregional e a semelhanca da estrutura produtiva entre os paises."
+    }
   },
   {
     "id": 6,
@@ -139,7 +169,12 @@
     ],
     "correta": 2,
     "comentario": "<p>No mapa, Angola (1) fica no sudoeste africano com costa no Atlântico; Moçambique (2) no sudeste africano com costa no Índico; e a África do Sul (3) no extremo sul. Angola e Moçambique foram colônias portuguesas que se tornaram independentes em 1975. A África do Sul integra os BRICS desde 2010.</p>",
-    "ajuda": "Para identificar a localização de Angola e Moçambique no mapa, lembre-se de que ambos foram colônias portuguesas: Angola fica no sudoeste africano com litoral no Atlântico, enquanto Moçambique fica no sudeste africano com litoral no Oceano Índico."
+    "ajuda": "Para identificar a localização de Angola e Moçambique no mapa, lembre-se de que ambos foram colônias portuguesas: Angola fica no sudoeste africano com litoral no Atlântico, enquanto Moçambique fica no sudeste africano com litoral no Oceano Índico.",
+    "feedbacks": {
+      "0": "Angola e Mocambique foram colonizados por PORTUGUESES, e nao por franceses. A presenca portuguesa nessas duas colonias e historicamente inequivoca e deixou marcas profundas na cultura, na lingua e nas estruturas politicas e economicas de ambos os paises.",
+      "1": "A alternativa tem dois erros: inverte a numeracao dos paises no mapa E atribui a colonizacao inglesa a Angola e Mocambique, quando foram colonizados por Portugal. A numeracao correta e Angola como 1 e Mocambique como 2.",
+      "3": "A alternativa indica a colonizacao portuguesa corretamente, mas erra na numeracao dos paises no mapa. Segundo o enunciado, Angola e identificada como 1 e Mocambique como 2, e nao Angola como 2 e Mocambique como 3 como esta alternativa sugere."
+    }
   },
   {
     "id": 7,
@@ -164,7 +199,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O sistema de Plantation colonial concentrou as melhores terras nas mãos dos colonizadores brancos, expulsando as populações africanas para reservas ou transformando-as em mão de obra barata nas fazendas. Com a independência, essas estruturas fundiárias permaneceram, forçando os pobres a ocupar terras marginais de baixa produtividade.</p>",
-    "ajuda": "O sistema de Plantation colonial na África concentrou terras nas mãos de colonizadores, expulsando os camponeses africanos para reservas ou os transformando em trabalhadores forçados. Pense em qual consequência socioespacial esse modelo colonial gerou no meio rural africano."
+    "ajuda": "O sistema de Plantation colonial na África concentrou terras nas mãos de colonizadores, expulsando os camponeses africanos para reservas ou os transformando em trabalhadores forçados. Pense em qual consequência socioespacial esse modelo colonial gerou no meio rural africano.",
+    "feedbacks": {
+      "0": "O dominio das instituicoes fundiarias pelo poder publico nao foi o desdobramento observado no processo de ocupacao rural descrito. Ao contrario, as elites proprietarias controlaram as instituicoes fundiarias e o Estado foi omisso na regulacao do acesso a terra, perpetuando a concentracao.",
+      "1": "O controle do uso especulativo da propriedade fundiaria nao foi o desdobramento do processo; o que ocorreu foi exatamente o contrario: a especulacao fundiaria se intensificou, expulsando pequenos produtores e concentrando a terra nas maos do setor agroexportador.",
+      "2": "O crescimento do consumo interno de alimentos nao foi o desdobramento da desorganizacao da economia rural de subsistencia. O que ocorreu foi o aumento da inseguranca alimentar, com a populacao pobre perdendo acesso a terra e meios de producao.",
+      "3": "O avanco das areas rurais sobre as regioes urbanas nao ocorreu; o processo foi o inverso, com o campo perdendo populacao para as cidades em funcao do desemprego rural e da expulsao dos pequenos produtores. O crescimento dos assentamentos rurais familiares nao resultou em expansao das areas rurais sobre as urbanas."
+    }
   },
   {
     "id": 8,
@@ -188,7 +229,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A pirâmide III (base larga, topo estreito, típica de alta natalidade e mortalidade) é característica da África, onde a transição demográfica ainda está em fase inicial. A pirâmide II (Europa envelhecida, base estreita) representa países desenvolvidos. A pirâmide I pode representar a América Latina em transição.</p>",
-    "ajuda": "Pirâmides etárias refletem diferentes estágios de transição demográfica. Pirâmides com base larga e topo estreito indicam alta natalidade e mortalidade (países menos desenvolvidos); base estreita e topo mais largo indicam envelhecimento (países desenvolvidos)."
+    "ajuda": "Pirâmides etárias refletem diferentes estágios de transição demográfica. Pirâmides com base larga e topo estreito indicam alta natalidade e mortalidade (países menos desenvolvidos); base estreita e topo mais largo indicam envelhecimento (países desenvolvidos).",
+    "feedbacks": {
+      "0": "A piramide I provavelmente tem base moderadamente larga com reducao progressiva, que seria caracteristica de um pais em transicao demografica intermediaria ou avancada. A explosao demografica das decadas de 1960 a 1980 na America Latina resultaria em piramide diferente da descrita.",
+      "1": "O crescimento demografico garantido pelos imigrantes e caracteristica de paises que recebem grande fluxo de pessoas de fora, como EUA, Alemanha e Australia, e nao da Asia em geral. A Asia tem crescimento demografico proprio; a piramide II provavelmente nao corresponde ao perfil demografico asiatico.",
+      "2": "A Europa apresenta uma piramide com base estreita (baixa natalidade) e topo largo (populacao envelhecida), resultado de decadas de queda na fecundidade. A piramide II provavelmente tem base maior do que a europeia, sendo incompativel com o padrao demografico europeu atual.",
+      "4": "A Oceania e diversa: Australia e Nova Zelandia tem piramides de paises desenvolvidos com baixa fecundidade, enquanto as populacoes indigenas e das ilhas do Pacifico tem perfis diferentes. Altas taxas de fecundidade nao caracterizam a Oceania como um todo."
+    }
   },
   {
     "id": 9,
@@ -212,7 +259,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O cartum provavelmente retrata o neocolonialismo: empresas e governos estrangeiros (EUA, China, Europa) exploram os recursos naturais africanos por meio de acordos assimétricos. A África tem riquezas, mas sem tecnologia e capital para explorar autonomamente, fica dependente de parceiros externos — perpetuando a lógica colonial.</p>",
-    "ajuda": "O cartum sobre a organização do espaço mundial provavelmente critica a divisão entre países ricos e pobres, a exploração de recursos africanos por potências externas ou a permanência do colonialismo de forma disfarçada no século XXI."
+    "ajuda": "O cartum sobre a organização do espaço mundial provavelmente critica a divisão entre países ricos e pobres, a exploração de recursos africanos por potências externas ou a permanência do colonialismo de forma disfarçada no século XXI.",
+    "feedbacks": {
+      "1": "A exploracao de minerios por empresas estrangeiras na Africa nao resulta em maior IDH; ao contrario, a exploracao com repatriacao de lucros mantem as populacoes locais na pobreza. A alternativa inverte o efeito real da exploracao estrangeira sobre o desenvolvimento africano.",
+      "2": "A America Latina nao e neutra em relacao ao colonialismo sobre a Africa; ela propria experimento o colonialismo e tem relacoes de cooperacao com paises africanos. Alem disso, o cartum foca no neocolonialismo das grandes potencias industrializadas, nao na postura latino-americana.",
+      "3": "O cartum aborda o neocolonialismo do SECULO XXI, e nao o trafico negreiro historico. A questao da exploracao contemporanea de recursos africanos por potencias globais e diferente do trafico transatlantico do periodo colonial classico.",
+      "4": "A Conferencia de Berlim de 1884 e um evento historico do seculo XIX que dividiu a Africa entre as potencias coloniais europeias. O cartum aborda o neocolonialismo contemporaneo, e nao as decisoes de 1884, embora as consequencias dessas decisoes ainda influenciem o presente."
+    }
   },
   {
     "id": 10,
@@ -237,6 +290,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A fronteira norte da África tem menor diversidade étnica porque a chegada do Islã (séculos VII-VIII) unificou linguística e culturalmente a região em torno do árabe. Já na África subsaariana, a Conferência de Berlim (1884-85) cortou o continente sem respeitar as fronteiras étnicas preexistentes, criando Estados artificiais.</p>",
-    "ajuda": "A Conferência de Berlim (1884-85) dividiu a África entre as potências europeias sem considerar as fronteiras étnicas pré-existentes. Isso criou países com fronteiras artificiais que ignoram a diversidade cultural, gerando conflitos que persistem até hoje."
+    "ajuda": "A Conferência de Berlim (1884-85) dividiu a África entre as potências europeias sem considerar as fronteiras étnicas pré-existentes. Isso criou países com fronteiras artificiais que ignoram a diversidade cultural, gerando conflitos que persistem até hoje.",
+    "feedbacks": {
+      "0": "O trafico negreiro explorou principalmente a Africa Subsaariana, nao apenas o sul africano, e sua motivacao era economica (escravizacao), nao de cobiça pela diversidade etnica especifica dessas regioes. A diversidade etnica do sul africano nao foi o fator que atraiu o trafico negreiro.",
+      "1": "O Chifre da Africa (Somalia, Etiopia, Eritreia) foi colonizado por potencias europeias (Italia, Grã-Bretanha), ao contrario do que a alternativa sugere ao afirmar que guerras etnicas impediram a colonizacao. A Etiopia resistiu parcialmente, mas o Chifre foi colonizado.",
+      "3": "Apos a emancipacao, o numero de Estados Nacionais africanos nao ultrapassou as configuracoes etnicas pre-coloniais; e menor. O continente tem mais de 2.000 grupos etnicos, mas apenas 54 Estados Nacionais, indicando que cada Estado agrega multiplos grupos etnicos distintos.",
+      "4": "As fronteiras dos Estados Nacionais africanos foram tracadas arbitrariamente na Conferencia de Berlim (1884-85) pelas potencias coloniais europeias, sem qualquer consideracao pelas solidariedades etnicas pre-existentes. Esse e um dos principais legados coloniais causadores dos conflitos etnicos contemporaneos."
+    }
   }
 ]

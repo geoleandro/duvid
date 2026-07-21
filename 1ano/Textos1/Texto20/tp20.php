@@ -515,6 +515,16 @@
  (como furacões e tufões ) e ainda transportam poeira e nutrientes , mantendo ecossistemas distantes.
  </p>
 
+ <p>
+ Esse transporte de partículas em escala intercontinental também explica um fenômeno curioso observado
+ em imagens de satélite: a fumaça e o CO₂ liberados pelas queimadas na Amazônia aparecem, dias depois,
+ sobre o continente africano, e vice-versa, já que a África também registra queimadas em suas savanas
+ tropicais. Isso ocorre porque os ventos alísios sopram continuamente de Leste para Oeste na faixa
+ equatorial, cruzando o Oceano Atlântico e conectando atmosfericamente os dois continentes. É a mesma
+ circulação geral da atmosfera que, em sentido inverso, também carrega poeira do deserto do Saara até a
+ bacia amazônica, fertilizando o solo da floresta com minerais africanos.
+ </p>
+
  <div class="w3-panel w3-sand w3-leftbar w3-margin">
 
  <span> <em>Curiosidade: durante séculos, os ventos alísios foram usados por navios à vela como rotas seguras e

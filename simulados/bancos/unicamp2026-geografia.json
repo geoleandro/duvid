@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "facil",
+    "tags": [
+      "globalização alimentar",
+      "conceito de lugar",
+      "sistema alimentar",
+      "ultraprocessados"
+    ],
+    "texto_apoio": "\"O ato de comer é construído culturalmente, e mediado por práticas, crenças, comportamentos, tabus, que formam os hábitos alimentares, que, por sua vez, relacionam-se a aspectos culturais, socioeconômicos e psicológicos que envolvem o ambiente alimentar de cada indivíduo. Os hábitos alimentares são dinâmicos e sensíveis às mudanças que ocorrem nas sociedades, fundamentalmente, nos sistemas alimentares. Com o sistema alimentar que predomina hoje, a humanidade vem substituindo a comida que carrega significados culturais e tradições ancestrais por produtos alimentares ultraprocessados globalizados, que viajam quilômetros até chegar ao prato, causando a homogeneização dos hábitos alimentares de forma global. O problema é que os ultraprocessados têm acarretado sérios problemas à saúde da população [...]\".",
+    "fonte_apoio": "Disponível em https://obha.fiocruz.br/?p=1413. Acesso em 06/08/25.",
+    "pergunta": "A partir do texto, é correto afirmar que a produção e o consumo de alimentos no mundo contemporâneo possuem",
+    "alternativas": [
+      "menor vínculo com o lugar, visto que a indústria de processamento de alimentos e a produção agropecuária estão cada vez mais especializadas. Assim, produtos circulam com maior velocidade e eficiência entre a área de produção e o mercado consumidor, reduzindo o acesso da população a alimentos in natura e à diversidade produtiva regional.",
+      "maior interdependência com o lugar, visto que a indústria de processamento precisa manter a proximidade com as áreas da produção agropecuária, aproveitando a modernização do sistema de circulação para atingir o mercado consumidor mais distante. Isso fortalece o acesso da população a produtos da agricultura familiar e à diversidade produtiva regional.",
+      "maior conexão com o lugar, visto que a indústria de processamento de alimentos pode estar distante da área de produção agropecuária. O sistema de circulação permite interligar, com menor custo, a área de produção ao mercado consumidor, restringindo o acesso da população à produção da pequena indústria local e à diversidade alimentar regional.",
+      "menor correlação com o lugar, visto que a indústria de processamento e a produção agropecuária possuem pouca vinculação entre si, tornando-se independentes, mas com estreitamento promovido pelo sistema de circulação entre a área de produção e o mercado consumidor. Isso favorece o acesso da população aos alimentos da culinária local e à diversidade alimentar regional."
+    ],
+    "correta": 0,
+    "comentario": "O texto descreve como a globalização alimentar substitui alimentos culturalmente enraizados por ultraprocessados que percorrem longas distâncias. Isso indica uma cadeia produtiva especializada e articulada por redes de circulação eficientes, que progressivamente enfraquece o vínculo com o lugar e reduz o acesso a alimentos in natura e à diversidade regional. A alternativa A capta exatamente esse mecanismo: menor vínculo com o lugar, maior velocidade de circulação e redução da diversidade alimentar local.",
+    "ajuda": "O texto diz que os alimentos 'viajam quilômetros' e causam 'homogeneização dos hábitos alimentares de forma global'. O que esse processo indica sobre a relação dos alimentos com o lugar de origem e com as tradições locais?",
+    "feedbacks": {
+      "1": "O texto aponta o oposto: a globalização alimentar ENFRAQUECE a relação com o lugar, não a fortalece. Os produtos da agricultura familiar local cedem espaço aos ultraprocessados globalizados.",
+      "2": "Afirmar 'maior conexão com o lugar' contradiz diretamente o texto, que descreve a ruptura com os vínculos locais promovida pelos alimentos ultraprocessados globalizados.",
+      "3": "Começa corretamente com 'menor correlação', mas se contradiz ao dizer que isso favorece 'alimentos da culinária local'. O texto diz o oposto: a globalização promove homogeneização e apaga as tradições locais."
+    },
+    "imagem_apoio": ""
+  },
+  {
+    "id": 2,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "facil",
+    "tags": [
+      "Norte Global",
+      "Sul Global",
+      "hemisférios",
+      "geopolítica",
+      "cartografia"
+    ],
+    "texto_apoio": "Atualmente, é comum denominar a divisão político-regional do mundo entre Norte e Sul Global. Essa delimitação não segue exatamente os pontos cardeais. Há países do Norte que estão no Sul e vice-versa, conforme indicado no mapa. Essa forma de divisão está baseada no tabuleiro geopolítico e econômico mundial e afastada da localização geográfica dos países.",
+    "fonte_apoio": "Elaboração: COMVEST, 2025.",
+    "pergunta": "Em relação à localização dos países do Norte e Sul Global nos diferentes hemisférios, assinale, com base no mapa, a alternativa correta.",
+    "alternativas": [
+      "Austrália e Nova Zelândia são os únicos países do Norte Global situados no hemisfério meridional e hemisfério ocidental.",
+      "Argentina, Brasil, Chile, Colômbia, Equador e Venezuela estão no Sul Global e têm seus territórios no hemisfério meridional e no hemisfério oriental.",
+      "Estados Unidos e Canadá são países do continente americano no Norte Global que têm seus territórios localizados no hemisfério setentrional e hemisfério ocidental.",
+      "China, Rússia, Índia e Japão, integrantes do Norte Global, estão situados no hemisfério setentrional e no hemisfério oriental."
+    ],
+    "correta": 2,
+    "comentario": "A divisão Norte/Sul Global é geopolítica e econômica — não segue os pontos cardeais. Os Estados Unidos e o Canadá pertencem ao Norte Global e estão de fato no hemisfério setentrional (ao norte do Equador) e no hemisfério ocidental (a oeste do meridiano de Greenwich). Essa é a única alternativa que acerta tanto a classificação geopolítica quanto a localização hemisférica.",
+    "ajuda": "O texto avisa que a divisão Norte/Sul Global 'não segue exatamente os pontos cardeais'. Antes de escolher, verifique se a afirmação sobre a localização hemisférica de cada país está geograficamente correta — não apenas a classificação geopolítica.",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q2.png",
+    "feedbacks": {
+      "0": "Austrália e Nova Zelândia estão no hemisfério oriental, não ocidental. Embora possam ser classificados no Norte Global, a localização hemisférica descrita na alternativa está errada.",
+      "1": "Colômbia, Equador e Venezuela cruzam o Equador — têm territórios no hemisfério setentrional, não apenas no meridional. Além disso, todos esses países estão no hemisfério ocidental, não oriental.",
+      "3": "China e Índia são associados ao Sul Global, não ao Norte. A alternativa erra na classificação geopolítica desses países, que são economias emergentes do Sul Global."
+    }
+  },
+  {
+    "id": 3,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "zonobiomas",
+      "biomas da África",
+      "zonas climáticas",
+      "fitofisionomia",
+      "zonas de transição"
+    ],
+    "texto_apoio": "O mapa da África apresentando seus respectivos climas e zonobiomas (classificação internacional feita em função do clima e da fitofisionomia) é um bom exemplo para mostrar a distribuição das zonas climáticas em faixas latitudinais. Em outros continentes, cordilheiras, correntes marinhas e diversos fatores distorcem, interrompem e/ou expandem essas faixas, tornando-as menos evidentes.\n\nLegenda — Zona / Clima / Zonobioma:\nI – Tropical equatorial / Florestas e savanas equatoriais\nII – Tropical estacional / Florestas e savanas estacionais\nIII – Subtropical árido / Desertos quentes\nIV – Mediterrâneo / Chaparral, maqui mediterrâneo\nV – Temperado quente-úmido / Florestas quente-temperadas",
+    "fonte_apoio": "COUTINHO, L. M. Biomas brasileiros. São Paulo: Oficina de Textos, p. 27-28, 2016.",
+    "pergunta": "A partir da leitura do mapa e de seus conhecimentos sobre os componentes naturais do continente africano, assinale a alternativa correta em relação às zonas de transição.",
+    "alternativas": [
+      "A zona de transição I–II apresenta fitofisionomias típicas de savanas perenifólias nas proximidades da zona I e um processo gradativo do desenvolvimento de florestas ombrófilas no limite com a zona II.",
+      "A zona de transição II–III apresenta formações vegetais contínuas e densas, com árvores latifoliadas e higrófilas, típicas da zona II e em detrimento das savanas típicas da zona III.",
+      "A zona de transição II–V apresenta uma vegetação densa e permanente, com gramíneas e arbustos, pois a influência da zona V predomina por influência dos processos costeiros.",
+      "A zona de transição III–II apresenta vegetação de pequeno porte e espécies xerófitas no contato com a zona III, e um processo gradativo de savanização em direção à zona II."
+    ],
+    "correta": 3,
+    "comentario": "Na África, os biomas se dispõem em faixas latitudinais simétricas a partir do equador: Zona I (equatorial úmida) → Zona II (estacional) → Zona III (árida/desertos) → Zona IV (mediterrânea) → Zona V (temperada). Na transição III→II (entre o deserto e a savana), a vegetação vai de xerófita e esparsa — adaptada ao extremo árido — até a savanização crescente em direção à Zona II. A alternativa D descreve corretamente essa sequência gradativa.",
+    "ajuda": "A sequência dos biomas vai do equatorial (úmido/denso) ao árido e depois ao mediterrâneo/temperado. Na transição III→II, você está saindo do deserto em direção à savana. O que acontece gradativamente com a vegetação nesse caminho?",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q3.png",
+    "feedbacks": {
+      "0": "Inverte a lógica: próximo da Zona I (equatorial úmida) o esperado são florestas densas e perenifólias, não savanas. Em direção à Zona II, a vegetação torna-se mais sazonal — não mais úmida.",
+      "1": "A transição II→III não é marcada por vegetação densa ou higrófila. A Zona III é árida (desertos quentes), então a transição implica redução progressiva da vegetação e aumento de espécies adaptadas à seca.",
+      "2": "A Zona V (temperado quente-úmido) está associada a florestas temperadas, não a gramíneas e arbustos. A alternativa mistura características incompatíveis e não descreve corretamente a transição II→V no sul do continente."
+    }
+  },
+  {
+    "id": 4,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "recursos hídricos",
+      "geopolítica",
+      "bacia hidrográfica do rio Indo",
+      "Índia",
+      "Paquistão",
+      "rios exorreicos"
+    ],
+    "texto_apoio": "Os conflitos entre Índia e Paquistão se acirraram em 2025, entre outros fatores, pela disputa de recursos hídricos na bacia hidrográfica do rio Indo. Em setembro de 1960, os dois países firmaram o Tratado das Águas do Indo, que regula o uso compartilhado das águas desse sistema fluvial. Ao longo dos anos, a Índia manifestou, em diferentes ocasiões, a intenção de se desvincular do acordo. Em resposta, o governo paquistanês declarou que qualquer tentativa de bloqueio hídrico seria considerada um 'ato de guerra'.",
+    "fonte_apoio": "Adaptado de https://www.nytimes.com/2025/04/24/world/asia/india-pakistan-indus-waters-treaty.html. Acesso em 12/05/2025. Elaboração do mapa: COMVEST, 2025.",
+    "pergunta": "A partir da leitura do mapa e do texto, é correto afirmar que os afluentes",
+    "alternativas": [
+      "são rios drenados para o interior do continente (endorreicos) e escoam em direção à jusante, onde se localizam áreas agrícolas do Paquistão. Por isso, eventuais represamentos pela Índia comprometeriam a economia paquistanesa.",
+      "são rios drenados para o oceano (exorreicos) situados na montante do território indiano. Isso permitiria ao Paquistão represar sua vazão e reduzir o abastecimento indiano destinado às atividades agropecuárias e industriais.",
+      "são rios drenados para o interior do continente (endorreicos) e correm em direção à jusante, comprometendo as atividades econômicas das áreas urbanizadas do Paquistão que dependem da vazão originada nos afluentes situados na Índia.",
+      "são rios drenados para o oceano (exorreicos) situados na montante do Paquistão. Isso permitiria à Índia controlar seu fluxo, afetando as atividades agrícolas paquistanesas e comprometendo a economia do Paquistão."
+    ],
+    "correta": 3,
+    "comentario": "Dois conceitos são centrais: (1) o Indo deságua no Oceano Índico — é exorreico, não endorreico; (2) montante (rio acima, próximo às nascentes) vs. jusante (rio abaixo, próximo à foz). A Índia ocupa posição a montante dos afluentes que abastecem o Paquistão, o que lhe confere poder de controlar o fluxo que chega ao país vizinho — daí a ameaça paquistanesa de considerar qualquer bloqueio como 'ato de guerra'.",
+    "ajuda": "Dois conceitos resolvem a questão: (1) o Indo deságua no Oceano Índico — é endorreico ou exorreico? (2) Quem está a montante (rio acima) controla o fluxo para quem está a jusante (rio abaixo). Índia ou Paquistão ocupa a posição de maior controle?",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q4.png",
+    "feedbacks": {
+      "0": "O Indo deságua no Oceano Índico — é exorreico, não endorreico. Esse erro de classificação compromete toda a alternativa, mesmo que a dependência agrícola do Paquistão esteja corretamente identificada.",
+      "1": "Inverte a posição dos países: não é o Paquistão que está a montante com poder de controlar o fluxo indiano. É a Índia que ocupa posição de montante, podendo afetar o abastecimento do Paquistão.",
+      "2": "Classifica os rios como endorreicos — erro fundamental. O sistema do rio Indo é exorreico. Além disso, desloca o foco para 'áreas urbanizadas', enquanto o texto aponta a dependência agrícola paquistanesa como o fator estratégico."
+    }
+  },
+  {
+    "id": 5,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "geopolítica",
+      "Oriente Médio",
+      "Irã",
+      "eixo da resistência",
+      "xiitas e sunitas"
+    ],
+    "texto_apoio": "Historicamente, a região do Oriente Médio vive uma série de conflitos envolvendo alianças e disputas por interesses econômicos, geopolíticos e religiosos. Por exemplo, o chamado eixo da resistência é formado por um conjunto de países e grupos rebeldes sob influência do Irã. Esse eixo se define por confrontar forças militares ocidentais, como no caso dos Estados Unidos e de Israel. O mapa a seguir mostra a localização dos países e grupos sob influência do Irã.",
+    "fonte_apoio": "Adaptado de https://www.bbc.com/portuguese/articles/cw4dgr9yrpvo. Acesso em 23/05/2025. Elaboração do mapa: COMVEST 2025.",
+    "pergunta": "A partir dessas informações, assinale a alternativa que apresenta corretamente as disputas e as alianças do Irã com grupos étnicos, militares e religiosos dentro dos países indicados no mapa.",
+    "alternativas": [
+      "Disputas: com a minoria sunita do islamismo (Iraque) e com o Estado Islâmico (Síria). Alianças: com os Houthis (Iêmen) e com o Hezbollah (Líbano).",
+      "Disputas: com os Houthis (Iêmen) e com o Estado Islâmico (Síria). Alianças: com a minoria sunita do islamismo (Iraque) e com o Hezbollah (Líbano).",
+      "Disputas: com a minoria sunita do islamismo (Iraque) e com o Hezbollah (Líbano). Alianças: com os Houthis (Iêmen) e com o Estado Islâmico (Síria).",
+      "Disputas: com os Houthis (Iêmen) e com o Hezbollah (Líbano). Alianças: com a minoria sunita do islamismo (Iraque) e com o Estado Islâmico (Síria)."
+    ],
+    "correta": 0,
+    "comentario": "O Irã é um Estado de maioria xiita. Isso define suas alianças e disputas: tem conflito com grupos sunitas (como a minoria sunita do Iraque e o Estado Islâmico/ISIS, que é sunita radical) e mantém alianças com grupos xiitas (Houthis no Iêmen e Hezbollah no Líbano — os principais braços do 'eixo da resistência').",
+    "ajuda": "O Irã é um país xiita. Isso significa que tende a ter alianças com grupos xiitas e conflitos com grupos sunitas. Quais dos grupos nas alternativas são xiitas (aliados) e quais são sunitas (rivais)?",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q5.png",
+    "feedbacks": {
+      "1": "Coloca os Houthis (grupo xiita do Iêmen, aliado do Irã) como disputa — erro. E a minoria sunita do Iraque (rival) como aliança — outro erro. A alternativa inverte as relações do Irã com esses dois grupos.",
+      "2": "Coloca o Hezbollah (grupo xiita libanês, um dos principais aliados do Irã) como disputa — erro grave. O Hezbollah é um dos pilares do 'eixo da resistência' liderado pelo Irã.",
+      "3": "Coloca tanto Houthis quanto Hezbollah — ambos grupos xiitas e aliados históricos do Irã — como disputas. A alternativa inverte completamente as relações do Irã com seus aliados mais próximos."
+    }
+  },
+  {
+    "id": 6,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "agronegócio",
+      "Bahia",
+      "seletividade espacial",
+      "circuitos produtivos",
+      "modernização agrícola"
+    ],
+    "texto_apoio": "O mapa a seguir apresenta frações do território brasileiro transformadas a partir da década de 1970 pela implementação de políticas de desenvolvimento. Três áreas limítrofes do Estado da Bahia, que até então não eram modernizadas, foram incorporadas a diferentes circuitos espaciais produtivos globalizados.",
+    "fonte_apoio": "Elaboração: COMVEST 2025.",
+    "pergunta": "Considerando o texto e o mapa dos circuitos produtivos do agronegócio no Estado da Bahia, assinale a alternativa correta.",
+    "alternativas": [
+      "A especialização produtiva regional favoreceu o uso intensivo de inovações técnico-científicas, promovendo seletividade espacial da modernização, o que gerou impactos nos mosaicos produtivos tradicionais.",
+      "Os enclaves de modernização regional promoveram a difusão de uma produção diversificada setorialmente, o que garantiu o espraiamento das inovações técnico-científicas para as demais localidades da região.",
+      "A especialização produtiva regional permitiu a cooperação das inovações técnico-científicas com os mosaicos produtivos tradicionais, o que restringiu maior conectividade espacial entre os estados limítrofes.",
+      "Os enclaves de modernização regional viabilizaram a dilatação das inovações técnico-científicas para setores produtivos não especializados, o que acarretou a eliminação da seletividade espacial produzida pela especialização."
+    ],
+    "correta": 0,
+    "comentario": "O mapa mostra três 'ilhas' de modernização na Bahia (MATOPIBA ao norte, fruticultura irrigada no Vale do São Francisco, silvicultura de eucalipto ao sul) rodeadas por áreas não modernizadas. Isso é seletividade espacial: apenas frações específicas do território foram integradas aos circuitos globais do agronegócio, com uso intensivo de tecnologia — e isso gerou impactos (tensão, substituição) sobre as formas de produção tradicionais do entorno.",
+    "ajuda": "O mapa mostra três 'ilhas' de modernização agrícola na Bahia, enquanto o restante do estado ficou sem modernização. Como se chama esse padrão onde apenas certas áreas recebem inovações? E o que acontece com a produção tradicional ao redor dessas áreas?",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q6.png",
+    "feedbacks": {
+      "1": "O agronegócio é baseado em especialização (monocultura), não em produção diversificada. As inovações também não se espraiaram para todas as localidades — ficaram concentradas nas três áreas do mapa.",
+      "2": "Não houve cooperação equilibrada entre o agronegócio e os mosaicos produtivos tradicionais — houve tensão e substituição. Além disso, a modernização ampliou conexões logísticas inter-regionais, não as restringiu.",
+      "3": "As inovações não se dilataram para setores não especializados. O agronegócio reforça a seletividade — concentra tecnologia e capital em áreas específicas. A seletividade espacial não foi eliminada, mas intensificada."
+    }
+  },
+  {
+    "id": 7,
+    "instituicao": "UNICAMP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "rede urbana",
+      "hierarquia urbana",
+      "Centros de Gestão do Território",
+      "IBGE",
+      "Barueri",
+      "região metropolitana"
+    ],
+    "texto_apoio": "A segunda edição do estudo Gestão do Território, elaborado pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 2024, mostra, no universo dos 5.570 municípios do país, quais são os Centros de Gestão, isto é, os núcleos responsáveis pelo papel de comando na rede urbana brasileira. Em 2024, apenas 39,1% dos municípios do Brasil se qualificavam como Centros de Gestão do Território (2.176 municípios). Um indicador de centralidade na gestão do território é o número de assalariados externos ao Município da sede da empresa.",
+    "fonte_apoio": "IBGE, Gestão do território: 2024. In: IBGE, Rio de Janeiro, 2025. IBGE, Cadastro Central de Empresas: 2012/2021. In: IBGE, Rio de Janeiro, p. 7, 2025.",
+    "pergunta": "Com base no gráfico anterior, e em seus conhecimentos sobre a rede urbana brasileira, é correto afirmar que",
+    "alternativas": [
+      "Rio de Janeiro, capital, amplia sua centralidade como centro de gestão empresarial do território nacional, conservando sua histórica função industrial e de administração pública.",
+      "Barueri apresenta tendência de crescimento do assalariado externo, contribuindo para manter a Região Metropolitana de São Paulo no topo da hierarquia urbana.",
+      "Brasília apresenta tendência de queda de seus assalariados externos, demonstrando a dificuldade da capital do país para permanecer como centro de gestão pública do território na atualidade.",
+      "Itajaí apresenta destaque por sua função industrial, perdendo força na centralidade da gestão empresarial do território por ser uma cidade de médio porte na Região Metropolitana da Foz do Rio Itajaí."
+    ],
+    "correta": 1,
+    "comentario": "Barueri é um polo econômico estratégico na Região Metropolitana de São Paulo, com grande concentração de sedes empresariais. O gráfico mostra crescimento dos assalariados externos em Barueri — pessoas que residem no município mas trabalham fora (ou vice-versa), indicando forte pendularidade com São Paulo. Esse crescimento reforça a centralidade da RM de São Paulo no topo da hierarquia urbana brasileira.",
+    "ajuda": "O indicador é o número de assalariados externos — pessoas que moram no município mas obtêm renda fora. Barueri fica na Grande São Paulo. O gráfico mostra crescimento ou queda nesse indicador para Barueri? E o que esse resultado diz sobre a posição da RM de São Paulo na hierarquia urbana?",
+    "imagem_apoio": "unicamp/unicamp2026/unicamp26q7.png",
+    "feedbacks": {
+      "0": "O Rio de Janeiro perdeu posição relativa para São Paulo como centro de gestão empresarial. Além disso, não conserva função industrial expressiva em termos de centralidade de gestão territorial.",
+      "2": "Brasília não apresenta queda de assalariados externos — mantém e amplia sua centralidade como centro de gestão pública. O gráfico mostra crescimento, não declínio.",
+      "3": "Itajaí é um polo logístico e portuário relevante, com crescimento de centralidade — não está perdendo força. Além disso, não existe a 'Região Metropolitana da Foz do Rio Itajaí' com esse nome oficial."
+    }
+  }
+]

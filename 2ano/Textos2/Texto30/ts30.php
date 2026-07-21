@@ -405,6 +405,34 @@
         </div>
 
 
+        <!-- BLOCO 13.5: Monitoramento de deslizamentos e corridas de detritos -->
+        <div class="topico">
+
+            <h2>Como se monitora um deslizamento antes que ele aconteça</h2>
+
+            <p>Em regiões montanhosas de clima tropical, os deslizamentos em encostas podem evoluir para uma
+                <span class="termo" data-palavra="Corrida de Detritos" data-definicao="Movimento de massa rápido e violento em que uma mistura de terra, rochas, água e vegetação desce encostas e canais de drenagem em alta velocidade, geralmente desencadeado por chuvas intensas. Difere de um deslizamento simples pela velocidade, pelo volume de material e pelo alcance destrutivo, podendo atingir áreas distantes do ponto de origem.">corrida de detritos</span>,
+                um fluxo rápido e destrutivo de terra, rochas, água e vegetação que desce pelas encostas e canais de
+                drenagem. Por seu potencial destrutivo em áreas ocupadas de forma irregular, como os morros e
+                encostas descritos no início desta aula, esses eventos são hoje alvo de sistemas de monitoramento
+                que buscam emitir alertas antes que a corrida de detritos atinja as moradias.</p>
+
+            <p>Esses sistemas combinam sensores instalados em diferentes pontos da encosta, cada um com uma função
+                específica: o <strong>pluviômetro</strong>, posicionado na porção mais elevada do terreno, mede o
+                volume de chuva logo no início do processo, permitindo um alerta precoce; o <strong>geofone</strong>
+                registra as vibrações no solo causadas pela movimentação de rochas e sedimentos; o
+                <strong>sonar de volume</strong> e o <strong>cabo sensor</strong>, instalados no fundo do vale, onde o
+                fluxo converge e atinge maior velocidade e volume, medem o nível dos rios e registram a passagem dos
+                detritos; e o <strong>sensor de impacto</strong> registra a força com que a corrida de detritos atinge
+                obstáculos em seu caminho. A lógica de posicionamento desses sensores acompanha o próprio percurso do
+                fenômeno, da encosta onde a chuva se inicia até o fundo de vale, onde o risco para a população que
+                mora a jusante é maior.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 14: Transição final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>

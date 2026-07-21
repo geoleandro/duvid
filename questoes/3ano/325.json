@@ -21,7 +21,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A África do Sul, localizada no extremo sul do continente, pertence à África Austral — não à Mediterrânea. Tem clima temperado a subtropical, predomínio de línguas africanas (zulu, xhosa) e herança do Apartheid. Em contraste, a África Mediterrânea (Marrocos, Argélia, Tunísia, Líbia, Egito) é árabe, islâmica e de clima semiárido.</p>",
-    "ajuda": "A África Mediterrânea (norte da África) é predominantemente islâmica e árabe. Os países dessa região — Marrocos, Argélia, Tunísia, Líbia e Egito — compartilham características físicas desérticas e culturais próximas ao Oriente Médio. Identifique qual país pertence à outra sub-região."
+    "ajuda": "A África Mediterrânea (norte da África) é predominantemente islâmica e árabe. Os países dessa região — Marrocos, Argélia, Tunísia, Líbia e Egito — compartilham características físicas desérticas e culturais próximas ao Oriente Médio. Identifique qual país pertence à outra sub-região.",
+    "feedbacks": {
+      "0": "A Libya faz fronteira direta com o Mar Mediterraneo no norte do continente africano e e parte da Africa Setentrional ou Mediterranea. Sua populacao e cultura sao predominantemente arabes e muçulmanas, caracteristicas tipicas dos paises do norte africano.",
+      "1": "O Egito esta localizado no nordeste da Africa, com costa no Mar Mediterraneo e no Mar Vermelho. E parte da Africa Setentrional e da Africa Mediterranea, com longa historia de contato com as civilizacoes do Mediterraneo.",
+      "2": "O Marrocos ocupa a ponta noroeste do continente africano, com costas tanto no Mediterraneo quanto no Atlantico. E parte da Africa Mediterranea, com forte influencia arabe e berbere, caracteristicas da Africa do Norte.",
+      "4": "A Algeria e o maior pais africano em extensao e esta localizada no norte do continente, com extensa costa mediterranea. E parte da Africa Setentrional e Mediterranea, com populacao predominantemente arabe e berbere."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O clima equatorial, com temperatura média de 25°C e precipitação abundante durante todo o ano (umidade relativa de 90%), gera a floresta tropical densa — a vegetação mais biodiversa do planeta. Esse domínio abrange a Amazônia, a bacia do Congo e o Sudeste Asiático, regiões de baixa latitude próximas ao Equador.</p>",
-    "ajuda": "O clima equatorial é marcado por altas temperaturas e chuvas abundantes o ano todo, gerando a floresta tropical densa. O clima tropical tem estações seca e chuvosa, gerando savanas. Identifique qual par clima/vegetação descreve corretamente o texto."
+    "ajuda": "O clima equatorial é marcado por altas temperaturas e chuvas abundantes o ano todo, gerando a floresta tropical densa. O clima tropical tem estações seca e chuvosa, gerando savanas. Identifique qual par clima/vegetação descreve corretamente o texto.",
+    "feedbacks": {
+      "0": "A tundra e um bioma de regioes polares e subpolares de altas latitudes, caracterizado por temperaturas extremamente baixas e ausencia de arvores. E incompativel com o clima descrito no texto, que apresenta temperaturas elevadas e chuvas abundantes ao longo do ano.",
+      "1": "A caatinga e um bioma semiárido exclusivamente brasileiro, com vegetacao adaptada a longos periodos de seca. Ela nao corresponde ao clima descrito no texto, que apresenta umidade constante e floresta densa tipica das regioes equatoriais.",
+      "3": "O clima tropical continental tem estacao seca definida, que da origem as savanas (cerrado), e nao a florestas tropicais densas. O texto descreve chuvas abundantes e regulares durante o ano, caracteristicas do clima equatorial e de sua vegetacao associada.",
+      "4": "Florestas de conifera sao caracteristicas de regioes temperadas e frias (floresta boreal ou taiga), e nao de climas aridos tropicais. Alem disso, o clima arido se associa a desertos ou semi-áridos, nao a florestas."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A África é o continente com maior diversidade física e humana: do deserto do Saara ao norte, passando pela savana do Sahel, às florestas equatoriais do Congo, até as savanas e desertos do sul. Essa diversidade contrasta com representações homogeneizadoras que tratam o continente como um bloco uniforme.</p>",
-    "ajuda": "A África é um continente de enorme diversidade física e cultural, mas frequentemente representado de forma simplificada. O texto e a figura provavelmente enfatizam tanto os desafios (conflitos, exploração) quanto o potencial do continente. Identifique qual perspectiva é destacada."
+    "ajuda": "A África é um continente de enorme diversidade física e cultural, mas frequentemente representado de forma simplificada. O texto e a figura provavelmente enfatizam tanto os desafios (conflitos, exploração) quanto o potencial do continente. Identifique qual perspectiva é destacada.",
+    "feedbacks": {
+      "1": "Conflitos tribais e degradacao ambiental sao problemas reais em partes do continente africano, mas nao sao o foco enfatizado pelo texto e pelos dados apresentados. Os dados de geografia geralmente destacam a diversidade e os aspectos fisicos e culturais, e nao apenas os conflitos.",
+      "2": "A tradicao dos ancestrais e o potencial turistico podem ser aspectos interessantes do continente, mas nao descrevem adequadamente o que dados geograficos de diversidade cultural e fisico-biologica enfatizam. O turismo e a tradicao sao dimensoes parciais que nao capturam a amplitude da diversidade africana.",
+      "3": "A superioridade economica nao e uma caracteristica africana; o continente tem indices de desenvolvimento humano entre os mais baixos do mundo. Alem disso, a expressao 'perigo do mundo tropical' e eurocêntrica e nao corresponde a uma analise geografica scientifica adequada.",
+      "4": "O historico de escravidao e a exploracao de recursos naturais sao dimensoes historicas importantes da Africa, mas nao sao o que os dados apresentados no texto e na figura enfatizam. A questao pede o foco dos dados geograficos, que e a diversidade cultural e fisico-biologica."
+    }
   },
   {
     "id": 4,
@@ -95,7 +113,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A savana africana (chamada de 'bush' na África do Sul e 'savane' no Congo) é dominada por gramíneas, árvores esparsas e arbustos que se adaptam à estação seca de 3 a 6 meses. Cobre cerca de 40% do território africano e é o cenário dos grandes mamíferos africanos tão retratados nos documentários.</p>",
-    "ajuda": "O clima tropical na África, com chuvas sazonais e temperatura elevada, gera a vegetação de savana (ou cerrado africano), chamada de savana africana. O texto descreve esse padrão climático com duas estações bem definidas. Identifique o tipo de vegetação correspondente."
+    "ajuda": "O clima tropical na África, com chuvas sazonais e temperatura elevada, gera a vegetação de savana (ou cerrado africano), chamada de savana africana. O texto descreve esse padrão climático com duas estações bem definidas. Identifique o tipo de vegetação correspondente.",
+    "feedbacks": {
+      "0": "Os desertos africanos (como o Saara e o Namibe) tem vegetacao extremamente esparsa ou inexistente, com predominio de areia e rochas. A paisagem vegetal descrita, com herbaceas e arvores esparsas, e caracteristica das savanas, e nao dos desertos.",
+      "2": "A floresta boreal (taiga) e um bioma de regioes frias de alta latitude, presente no Canada, Russia e norte da Europa. Nao ocorre no continente africano e nao corresponde a paisagem com herbaceas e arvores esparsas tipica das savanas tropicais.",
+      "3": "A floresta equatorial e caracterizada por densa cobertura vegetal com multiplos estratos, alta umidade e diversidade biologica extrema. E muito diferente das savanas, que sao espacos abertos com herbaceas e arvores esparsas, adaptadas a estacoes secas prolongadas.",
+      "4": "A Floresta Amazonica e uma floresta equatorial tipica da America do Sul, localizada no Brasil e paises vizinhos. Nao ocorre no continente africano; a floresta tropical africana correspondente fica na bacia do Congo e em partes da Africa Ocidental."
+    }
   },
   {
     "id": 5,
@@ -119,30 +143,43 @@
     ],
     "correta": 0,
     "comentario": "<p>O Rio Níger (bacia A) percorre o oeste africano, passando por Guiné, Mali, Níger e Nigéria. O Rio Congo (bacia B) drena a África Central equatorial — a segunda maior bacia hidrográfica do mundo em volume d'água, superada apenas pelo Amazonas. Ambos são fundamentais para a vida e agricultura das regiões que atravessam.</p>",
-    "ajuda": "A África possui dois grandes sistemas hidrográficos: o Nilo, que percorre o nordeste africano e deságua no Mediterrâneo, e o Congo, que drena a África Central equatorial. Ao observar o mapa, identifique quais letras correspondem a cada bacia hidrográfica."
+    "ajuda": "A África possui dois grandes sistemas hidrográficos: o Nilo, que percorre o nordeste africano e deságua no Mediterrâneo, e o Congo, que drena a África Central equatorial. Ao observar o mapa, identifique quais letras correspondem a cada bacia hidrográfica.",
+    "feedbacks": {
+      "1": "A bacia do Congo esta localizada no centro do continente africano (Africa Central), e nao na posicao A descrita no mapa. A bacia do Orange esta no extremo sul da Africa, e nao na posicao B. As duas bacias indicadas pelas letras A e B correspondem ao Niger (oeste/Sahel) e ao Nilo (nordeste).",
+      "2": "A bacia do Nilo fica no nordeste africano, correndo de sul a norte ate desaguar no Mar Mediterraneo. O Nilo esta na posicao B (nordeste), e nao na posicao A; a alternativa inverte as duas grandes bacias descendo para o oeste e para o leste.",
+      "3": "A bacia do Senegal e uma bacia menor no oeste africano, e a do Zambeze fica no sudeste do continente. Nenhuma delas coincide com as posicoes A e B que o mapa indica, que correspondem a dois dos maiores sistemas hidrograficos africanos.",
+      "4": "A bacia do Orange esta no extremo sul da Africa (Africa do Sul, Namibia, Lesoto) e a do Senegal no noroeste. Nenhuma delas coincide com as grandes bacias A e B indicadas no mapa, que representam o Niger e o Nilo."
+    }
   },
   {
     "id": 6,
-    "instituicao": "UNITAU",
-    "ano": "2014",
-    "dificuldade": "media",
-    "tags": [
-      "áfrica",
-      "diversidade étnica",
-      "linguística",
-      "colonialismo"
-    ],
-    "pergunta": "O continente africano é compreendido como uma unidade, no entanto é dotado de ampla diversidade étnico linguística, religiosa e cultural. Devido a esses aspectos, a África comumente é chamada de “Duas Áfricas”. Essa regionalização deve-se",
+    "ano": "UNICAMP 2026",
+    "imagem_apoio": "3ano/img/325/unicamp26q3.png",
+    "texto_apoio": "O mapa da África apresentando seus respectivos climas e zonobiomas (classificação internacional feita em função do clima e da fitofisionomia) é um bom exemplo para mostrar a distribuição das zonas climáticas em faixas latitudinais. Em outros continentes, cordilheiras, correntes marinhas e diversos fatores distorcem, interrompem e/ou expandem essas faixas, tornando-as menos evidentes.\n\nLegenda — Zona / Clima / Zonobioma:\nI – Tropical equatorial / Florestas e savanas equatoriais\nII – Tropical estacional / Florestas e savanas estacionais\nIII – Subtropical árido / Desertos quentes\nIV – Mediterrâneo / Chaparral, maqui mediterrâneo\nV – Temperado quente-úmido / Florestas quente-temperadas",
+    "fonte_apoio": "COUTINHO, L. M. Biomas brasileiros. São Paulo: Oficina de Textos, p. 27-28, 2016.",
+    "pergunta": "A partir da leitura do mapa e de seus conhecimentos sobre os componentes naturais do continente africano, assinale a alternativa correta em relação às zonas de transição.",
     "alternativas": [
-      "ao fato de terem ocorrido conflitos em Ruanda, entre Tutsis e Hutus.",
-      "ao fato da presença, no norte do continente, do Deserto do Saara, e no sul, a presença da Floresta Equatorial do Congo.",
-      "ao movimento segregacionista ocorrido na África do Sul, conhecido como Apartheid.",
-      "ao fato de o sul do continente apresentar características árabes, mulçumanas e brancas, enquanto o norte apresenta características negras, cristãs e animistas.",
-      "ao fato de o norte do continente apresentar características árabes, mulçumanas e brancas, enquanto o sul apresenta características negras, cristã e animistas."
+      "A zona de transição I–II apresenta fitofisionomias típicas de savanas perenifólias nas proximidades da zona I e um processo gradativo do desenvolvimento de florestas ombrófilas no limite com a zona II.",
+      "A zona de transição II–III apresenta formações vegetais contínuas e densas, com árvores latifoliadas e higrófilas, típicas da zona II e em detrimento das savanas típicas da zona III.",
+      "A zona de transição II–V apresenta uma vegetação densa e permanente, com gramíneas e arbustos, pois a influência da zona V predomina por influência dos processos costeiros.",
+      "A zona de transição III–II apresenta vegetação de pequeno porte e espécies xerófitas no contato com a zona III, e um processo gradativo de savanização em direção à zona II."
     ],
-    "correta": 4,
-    "comentario": "<p>A divisão das 'Duas Áfricas' refere-se à diferença entre a África ao norte do Saara (árabe-islâmica, de pele mais clara) e a África subsaariana (negra, cristã e animista). Essa divisão tem raízes históricas no Islã (que avançou ao norte do Saara nos séculos VII-VIII) e no colonialismo europeu.</p>",
-    "ajuda": "O continente africano é dividido de formas distintas: norte islâmico-árabe (África Mediterrânea) e sul subsaariana (África Negra). Essa divisão tem bases históricas, religiosas e culturais profundas. Identifique qual fator melhor explica a diversidade descrita no texto."
+    "correta": 3,
+    "comentario": "Na África, os biomas se dispõem em faixas latitudinais simétricas a partir do equador: Zona I (equatorial úmida) → Zona II (estacional) → Zona III (árida/desertos) → Zona IV (mediterrânea) → Zona V (temperada). Na transição III→II (entre o deserto e a savana), a vegetação vai de xerófita e esparsa — adaptada ao extremo árido — até a savanização crescente em direção à Zona II. A alternativa D descreve corretamente essa sequência gradativa.",
+    "ajuda": "A sequência dos biomas vai do equatorial (úmido/denso) ao árido e depois ao mediterrâneo/temperado. Na transição III→II, você está saindo do deserto em direção à savana. O que acontece gradativamente com a vegetação nesse caminho?",
+    "tags": [
+      "zonobiomas",
+      "biomas da África",
+      "zonas climáticas",
+      "fitofisionomia",
+      "zonas de transição"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Inverte a lógica: próximo da Zona I (equatorial úmida) o esperado são florestas densas e perenifólias, não savanas. Em direção à Zona II, a vegetação torna-se mais sazonal — não mais úmida.",
+      "1": "A transição II→III não é marcada por vegetação densa ou higrófila. A Zona III é árida (desertos quentes), então a transição implica redução progressiva da vegetação e aumento de espécies adaptadas à seca.",
+      "2": "A Zona V (temperado quente-úmido) está associada a florestas temperadas, não a gramíneas e arbustos. A alternativa mistura características incompatíveis e não descreve corretamente a transição II→V no sul do continente."
+    }
   },
   {
     "id": 7,
@@ -166,7 +203,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O mapa da África com partes destacadas em tom mais escuro provavelmente indica as áreas de clima desértico: o Saara ao norte (maior deserto quente do mundo com 9 milhões de km²), o Namibe ao sudoeste e o Kalahari ao sul — regiões com menos de 250 mm de chuva anuais.</p>",
-    "ajuda": "O mapa da África com partes destacadas pode representar diferentes fenômenos: desertos, florestas, áreas de conflito ou regiões áridas. Ao analisar a distribuição espacial das áreas destacadas, identifique qual fenômeno geográfico melhor corresponde à sua localização."
+    "ajuda": "O mapa da África com partes destacadas pode representar diferentes fenômenos: desertos, florestas, áreas de conflito ou regiões áridas. Ao analisar a distribuição espacial das áreas destacadas, identifique qual fenômeno geográfico melhor corresponde à sua localização.",
+    "feedbacks": {
+      "1": "Os conflitos armados africanos nao seguem o padrao geografico das grandes regioes deserticas. Os principais conflitos ocorrem em zonas de transicao, de fronteira ou de recursos, que nao coincidem necessariamente com as areas deserticas destacadas no mapa.",
+      "2": "As areas de floresta tropical africana ficam principalmente na bacia do Congo (Africa Central) e em partes da Africa Ocidental, e nao nas regioes deserticas e semiaridas destacadas no mapa. Florestas e desertos sao biomas opostos em termos de umidade.",
+      "3": "A mineracao africana ocorre principalmente na Africa do Sul, no Cinto do Cobre (Zambia-Congo), na Nigeria e em outros paises da Africa Subsaariana, e nao necessariamente nas regioes deserticas. O padrao de mineracao nao coincide com as areas destacadas como desertos.",
+      "4": "O clima frio no continente africano ocorre em areas de altitude (como o macico do Quenia e o Kilimanjaro) e no extremo sul durante o inverno. Nao coincide com as grandes areas deserticas destacadas no mapa, que sao de clima quente e seco."
+    }
   },
   {
     "id": 8,
@@ -188,7 +231,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O Sahel é uma faixa de transição semiárida que separa o Saara das savanas tropicais subsaarianas. Com uma largura variável entre 300 e 1.000 km, estende-se de Senegal à Etiópia. O avanço da desertificação nessa região ameaça a segurança alimentar de 80 milhões de pessoas.</p>",
-    "ajuda": "O Sahel é uma faixa de transição entre o deserto do Saara (ao norte) e as savanas tropicais (ao sul). É uma região de grande vulnerabilidade ambiental e social, marcada pela desertificação e conflitos. Identifique qual alternativa descreve corretamente o Sahel."
+    "ajuda": "O Sahel é uma faixa de transição entre o deserto do Saara (ao norte) e as savanas tropicais (ao sul). É uma região de grande vulnerabilidade ambiental e social, marcada pela desertificação e conflitos. Identifique qual alternativa descreve corretamente o Sahel.",
+    "feedbacks": {
+      "0": "O centro de Angola e um planalto subtropical com clima tropical, distante do Saara e sem relacao geografica com a regiao do Sahel. O Sahel e uma faixa situada ao sul do Saara, do Senegal a Etiopia, e nao uma regiao angolana.",
+      "2": "A regiao industrial da Africa do Sul e o chamado Triangulo Industrial (Pretoria-Johannesburg-Vereeniging), no extremo sul do continente. Nao tem nenhuma relacao geografica com o Sahel, que fica a dezenas de graus de latitude ao norte.",
+      "3": "O centro da Republica Democratica do Congo e coberto pela floresta equatorial do Congo, e nao por matas de montanha. Alem disso, o Congo fica na Africa Central, muito ao sul do Sahel, que e a faixa de transicao ao sul do Saara no norte do continente."
+    }
   },
   {
     "id": 9,
@@ -211,7 +259,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A afirmativa incorreta é a A: as savanas não se concentram no norte da Ásia e no extremo sul americano. Na verdade, a maior extensão de savanas está na África subsaariana (40% do continente), seguida pelo Brasil (cerrado) e pela Austrália. O norte da Ásia tem taiga e tundra, não savana.</p>",
-    "ajuda": "A questão pede a alternativa que contém uma afirmativa INCORRETA sobre as savanas. Lembre-se de que as savanas existem na África, na América do Sul (cerrado), na Austrália e na Ásia. A savana africana é a mais extensa. Avalie qual afirmativa está equivocada."
+    "ajuda": "A questão pede a alternativa que contém uma afirmativa INCORRETA sobre as savanas. Lembre-se de que as savanas existem na África, na América do Sul (cerrado), na Austrália e na Ásia. A savana africana é a mais extensa. Avalie qual afirmativa está equivocada.",
+    "feedbacks": {
+      "1": "As savanas abrangem de fato uma area de aproximadamente 33% da superficie continental da Terra e 40% da faixa tropical, sendo o bioma mais extenso apos a floresta tropical e as regioes aridas. Essa afirmacao esta correta sobre a extensao das savanas no planeta.",
+      "2": "As savanas ocorrem em todos os continentes com faixa tropical e subtropical: Africa (cerrado e savana africana), America do Sul (cerrado), Oceania (savana australiana) e Asia (porcoes da India e do Sudeste Asiatico). Essa afirmacao esta correta.",
+      "3": "A savana e considerada o quarto maior bioma mundial em extensao, com aproximadamente 15 milhoes de km2 de cobertura. Essa afirmacao esta correta como descricao da grandeza global desse bioma.",
+      "4": "Nas areas de savana vive de fato cerca de 20% da populacao mundial, especialmente na Africa Subsaariana e no Brasil (cerrado). Essa afirmacao esta correta como descricao da importancia demografica desse bioma."
+    }
   },
   {
     "id": 10,
@@ -236,6 +290,12 @@
     ],
     "correta": 4,
     "comentario": "<p>A Grande Muralha Verde é um projeto de 11 países africanos para plantar uma barreira arbórea de 8.000 km, do Senegal à Etiópia, ao sul do Saara. O objetivo imediato é conter o avanço da desertificação no Sahel, proteger solos, recuperar áreas degradadas e garantir segurança alimentar para comunidades locais.</p>",
-    "ajuda": "O Sahel sofre com a desertificação — o avanço do deserto sobre áreas antes vegetadas. Projetos de reforestação e criação de barreiras verdes são tentativas de conter esse processo. Pense em qual consequência imediata um projeto ambiental de plantio de árvores nessa região geraria."
+    "ajuda": "O Sahel sofre com a desertificação — o avanço do deserto sobre áreas antes vegetadas. Projetos de reforestação e criação de barreiras verdes são tentativas de conter esse processo. Pense em qual consequência imediata um projeto ambiental de plantio de árvores nessa região geraria.",
+    "feedbacks": {
+      "0": "A facilitacao de trocas comerciais e um efeito economico indireto e de longo prazo de projetos ambientais, e nao a consequencia regional imediata de um projeto de revegetacao ou contencao de desertificacao. A consequencia direta diz respeito ao proprio ambiente fisico.",
+      "1": "Conflitos fundiarios resultam de disputas sobre propriedade e uso da terra e nao sao solucionados por projetos de revegetacao ou barreiras verdes. A resolucao de questoes fundiarias requer politicas de reforma agraria e mediacao de conflitos, independentemente de projetos ambientais.",
+      "2": "Projetos ambientais de recuperacao de ecossistemas e reflorestamento aumentam a biodiversidade, e nao a restringem. A revegetacao de areas degradadas cria habitats para fauna e flora, e nao reduz a diversidade biologica.",
+      "3": "O pastoreio intensivo e geralmente uma das causas da desertificacao, e nao seu resultado. Um projeto ambiental que visa conter a desertificacao busca justamente limitar o pastoreio excessivo para permitir a recuperacao da vegetacao, e nao fomentá-lo."
+    }
   }
 ]

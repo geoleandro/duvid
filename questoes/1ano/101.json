@@ -60,61 +60,59 @@
   },
   {
     "id": 3,
-    "ano": "2019",
-    "imagem_apoio": "",
-    "texto_apoio": "<p class=\"w3-sand\">\"No conceito de espaço geográfico está implícita a ideia de articulação entre natureza e sociedade. Na busca desta articulação, a Geografia tem que trabalhar, de um lado, com os elementos e atributos naturais, procurando não só descrevê-los, mas entender as interações existentes entre eles; e de outro, verificar a maneira pela qual a sociedade está administrando e interferindo nos sistemas naturais. <br>Para perceber a ação da sociedade é necessário adentrar em sua estrutura social, procurando apreender o seu modo de produção e as relações socioeconômicas vigentes”.</p>",
-    "fonte_apoio": "GIOMETTI, A. B. R., et al. Leitura do Espaço Geográfico através das categorias: Lugar, Paisagem e Território. In: Caderno de formação: formação de professores didática dos conteúdos. São Paulo: Cultura Acadêmica, 2012. p.34.",
-    "pergunta": "Na conceituação acima apresentada, temos a Geografia como uma ciência da natureza e da sociedade, no sentido de:",
+    "ano": "UNICAMP 2026",
+    "texto_apoio": "\"O ato de comer é construído culturalmente, e mediado por práticas, crenças, comportamentos, tabus, que formam os hábitos alimentares, que, por sua vez, relacionam-se a aspectos culturais, socioeconômicos e psicológicos que envolvem o ambiente alimentar de cada indivíduo. Os hábitos alimentares são dinâmicos e sensíveis às mudanças que ocorrem nas sociedades, fundamentalmente, nos sistemas alimentares. Com o sistema alimentar que predomina hoje, a humanidade vem substituindo a comida que carrega significados culturais e tradições ancestrais por produtos alimentares ultraprocessados globalizados, que viajam quilômetros até chegar ao prato, causando a homogeneização dos hábitos alimentares de forma global. O problema é que os ultraprocessados têm acarretado sérios problemas à saúde da população [...]\".",
+    "fonte_apoio": "Disponível em https://obha.fiocruz.br/?p=1413. Acesso em 06/08/25.",
+    "pergunta": "A partir do texto, é correto afirmar que a produção e o consumo de alimentos no mundo contemporâneo possuem",
     "alternativas": [
-      "descrever as narrativas individuais do natural e do social.",
-      "evidenciar as relações de interação entre esses dois elementos da realidade.",
-      "compreender as dinâmicas naturais dos espaços humanizados.",
-      "avaliar as estruturas dos sistemas naturais para neles interferir.",
-      "evidenciar a complementaridade nula entre o espaço e as práticas humanas."
+      "menor vínculo com o lugar, visto que a indústria de processamento de alimentos e a produção agropecuária estão cada vez mais especializadas. Assim, produtos circulam com maior velocidade e eficiência entre a área de produção e o mercado consumidor, reduzindo o acesso da população a alimentos in natura e à diversidade produtiva regional.",
+      "maior interdependência com o lugar, visto que a indústria de processamento precisa manter a proximidade com as áreas da produção agropecuária, aproveitando a modernização do sistema de circulação para atingir o mercado consumidor mais distante. Isso fortalece o acesso da população a produtos da agricultura familiar e à diversidade produtiva regional.",
+      "maior conexão com o lugar, visto que a indústria de processamento de alimentos pode estar distante da área de produção agropecuária. O sistema de circulação permite interligar, com menor custo, a área de produção ao mercado consumidor, restringindo o acesso da população à produção da pequena indústria local e à diversidade alimentar regional.",
+      "menor correlação com o lugar, visto que a indústria de processamento e a produção agropecuária possuem pouca vinculação entre si, tornando-se independentes, mas com estreitamento promovido pelo sistema de circulação entre a área de produção e o mercado consumidor. Isso favorece o acesso da população aos alimentos da culinária local e à diversidade alimentar regional."
     ],
-    "correta": 1,
-    "comentario": "<p>a) Incorreta. A ciência geográfica procura estabelecer as relações entre a Natureza e a Sociedade, nãosomente de indivíduos isolados.</p><p>b) Correto. No texto, cabe a Geografia estudar as interações entre a Sociedade e a Natureza de maneiraarticulada ao longo do tempo. O conceito de espaço geográfico, ao ser visto como a relação entre asociedade e os sistemas naturais, faz com que a ciência geográfica porte-se como a área que estrutura ainteração entre esses elementos naturais e sociais, com todas as suas respectivas complexidades.</p><p>c) Incorreto. Não basta somente compreender a maneira pela qual a natureza se comporta nos espaços ondehá seres humanos, mas sim de identificar as relações fruto tanto da interferência da ação do homemquanto das barreiras que a natureza impõem à sociedade.</p><p>d) Incorreta. No texto, não há separação entre o estudo da Natureza e o estudo da Sociedade.</p><p>e) Incorreta. O espaço geográfico exerce grande influência nas ações humanas, ora como obstáculos (umamontanha) ora como facilitador (uma planície para plantação). Sendo assim, o espaço pode complementar asações do homem, não sendo nula essa relação.</p>",
-    "ajuda": "O texto ressalta que a Geografia estuda a articulação entre natureza e sociedade. Não basta observar a natureza isoladamente nem apenas a organização social; a chave está na interação entre os dois. Identifique a alternativa que expressa essa ideia de relação.",
+    "correta": 0,
+    "comentario": "O texto descreve como a globalização alimentar substitui alimentos culturalmente enraizados por ultraprocessados que percorrem longas distâncias. Isso indica uma cadeia produtiva especializada e articulada por redes de circulação eficientes, que progressivamente enfraquece o vínculo com o lugar e reduz o acesso a alimentos in natura e à diversidade regional. A alternativa A capta exatamente esse mecanismo: menor vínculo com o lugar, maior velocidade de circulação e redução da diversidade alimentar local.",
+    "ajuda": "O texto diz que os alimentos 'viajam quilômetros' e causam 'homogeneização dos hábitos alimentares de forma global'. O que esse processo indica sobre a relação dos alimentos com o lugar de origem e com as tradições locais?",
     "tags": [
-      "espaço geográfico",
-      "natureza e sociedade",
-      "ciência geográfica"
+      "globalização alimentar",
+      "conceito de lugar",
+      "sistema alimentar",
+      "ultraprocessados"
     ],
-    "dificuldade": "media",
+    "dificuldade": "facil",
     "feedbacks": {
-      "0": "O texto enfatiza a relação entre natural e social, não sua descrição separada. A Geografia articula esses dois elementos, não apenas os narra individualmente.",
-      "2": "Quase certa, mas incompleta. Focar só nas dinâmicas naturais deixa de fora o elemento humano, que o texto coloca como central na compreensão do espaço.",
-      "3": "O texto não fala em intervenção, mas em compreensão das relações. Avaliar para interferir é um objetivo técnico-aplicado, não o papel da ciência geográfica conforme o trecho.",
-      "4": "O texto diz o oposto: o natural e o social são interdependentes e se relacionam. 'Complementaridade nula' contradiz diretamente a proposta do trecho."
+      "1": "O texto aponta o oposto: a globalização alimentar ENFRAQUECE a relação com o lugar, não a fortalece. Os produtos da agricultura familiar local cedem espaço aos ultraprocessados globalizados.",
+      "2": "Afirmar 'maior conexão com o lugar' contradiz diretamente o texto, que descreve a ruptura com os vínculos locais promovida pelos alimentos ultraprocessados globalizados.",
+      "3": "Começa corretamente com 'menor correlação', mas se contradiz ao dizer que isso favorece 'alimentos da culinária local'. O texto diz o oposto: a globalização promove homogeneização e apaga as tradições locais."
     }
   },
   {
     "id": 4,
-    "ano": "2020",
-    "imagem_apoio": "",
-    "texto_apoio": "",
-    "pergunta": "Assinale, a seguir, a alternativa que melhor indica o conceito atual de espaço geográfico:",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Dos 10 aos 15 anos de idade, Virgínia adorava acompanhar seu pai, aos domingos, naquela sinestésica Feira de São Cristóvão (RJ), talvez por ser o maior elo que ela experimentava com o mundo exterior à sua casa e, visto assim e agora, tão íntimo e próximo de algo que ela ainda não sabia, mas que seria, no futuro, a sua própria casa: a Paraíba. Dona Didi costurava, sob medida, camisas sociais, bermudas, shorts, vestidos, saias, sempre em casa e rodeada pelos quatro filhos pequenos do casal, desdobrando-se para dar conta de toda a responsabilidade sem trégua que isso demandava.",
+    "fonte_apoio": "PASSOS, M. C. P. et al. apud SCARELI, G. A máquina de costura e os fios da memória. Revista Brasileira de Pesquisa (Auto) Biográfica, n. 18, maio-ago. 2021 (adaptado).",
+    "pergunta": "Os itinerários afetivos e socioespaciais mencionados no texto associam-se à vida dos personagens por apresentarem",
     "alternativas": [
-      "Compreende o substrato superficial onde habitam os seres vivos terrestres.",
-      "Abrange o meio físico da Terra e suas dinâmicas naturais, tais como o clima, o relevo e a vegetação.",
-      "É o resultado da interação mediada pelas técnicas entre as práticas humanas e suas sociedades com a superfície terrestre e seus elementos.",
-      "É tudo aquilo que pode ser contemplado pela visão em um ambiente imediatamente próximo.",
-      "É o “palco” das práticas sociais, caracterizando-se por ser um receptáculo das ações antrópicas."
+      "histórias conectadas e recordações do lugar.",
+      "direitos trabalhistas e produção industrial.",
+      "preconceitos linguísticos e dinâmicas territoriais.",
+      "lembranças fabris e discriminação dos operários.",
+      "experiências profissionais e segregação regional."
     ],
-    "correta": 2,
-    "comentario": "<p>a) Incorreta. Esse conceito corresponde o de superfície terrestre e não o de espaço geográfico.</p><p>b) Incorreta. Somente o meio físico não é suficiente para designar o espaço geográfico, pois necessitadas ações humanas.</p><p>c) Correta. O espaço geográfico representa essa relação por meio das técnicas entre as ações humanas e omeio geográfico.</p><p>d) Incorreta. Esse conceito está relacionado à paisagem.</p><p>e) Incorreta. O espaço geográfico não é somente o palco ou o reflexo da sociedade, mas participaativamente do processo social, restringindo ou facilitando as ações humanas.</p>",
-    "ajuda": "O espaço geográfico é mais do que o substrato físico ou apenas o reflexo das ações humanas. Ele inclui as técnicas que medeiam a relação entre sociedade e superfície terrestre. Evite as alternativas que reduzem esse conceito apenas à natureza ou apenas à paisagem visível.",
+    "correta": 0,
+    "comentario": "O texto descreve as memórias afetivas de Virgínia em sua juventude, marcadas por experiências simples e cotidianas. Essas lembranças relacionam-se diretamente aos itinerários afetivos e socioespaciais, pois revelam a construção da identidade da personagem a partir da vivência e da memória por meio dos afetos. Tal descrição está conectada às recordações típicas atreladas ao conceito de lugar para a Geografia, remetendo a elas.",
+    "ajuda": "O texto mostra que a Feira de São Cristóvão, para Virgínia, era um elo com algo que ela ainda não sabia que seria sua casa futura. Que conceito geográfico descreve esse vínculo afetivo entre pessoa e espaço vivido?",
     "tags": [
-      "espaço geográfico",
-      "técnica",
-      "superfície terrestre"
+      "Conceito de Lugar",
+      "Itinerários afetivos",
+      "Feira de São Cristóvão"
     ],
-    "dificuldade": "facil",
+    "dificuldade": "media",
     "feedbacks": {
-      "0": "Essa definição descreve a superfície terrestre física, mas não inclui o elemento humano nem as técnicas. Espaço geográfico é mais do que substrato físico.",
-      "1": "Correta para a Geografia Física, mas incompleta para o espaço geográfico. Sem a dimensão das práticas humanas e das técnicas, o conceito fica pela metade.",
-      "3": "Você descreveu paisagem, não espaço geográfico. Paisagem é o que os sentidos captam; espaço geográfico é o resultado de processos históricos e sociais acumulados.",
-      "4": "'Palco' e 'receptáculo' sugerem que o espaço é passivo. O conceito contemporâneo mostra o espaço como resultado ativo da interação entre sociedade e natureza."
+      "1": "Dona Didi costurava em casa — é contexto, não centro da questão. O texto foca em memórias e pertencimento, não em relações trabalhistas.",
+      "2": "Não há menção a preconceitos linguísticos. O texto trata de afeto e identidade com o espaço.",
+      "3": "Não aparece discriminação nem contexto fabril. A costura de Dona Didi é doméstica, parte do cenário afetivo.",
+      "4": "A profissão não é o foco. O texto destaca os laços afetivos com os lugares vividos, não experiências profissionais ou segregação."
     }
   },
   {

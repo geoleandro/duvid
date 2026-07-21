@@ -212,6 +212,16 @@
 <div class="w3-margin"><img alt="tt13f07" class="w3-mobile" id="imagem7" src="tt13f07.png"/>
 <span class="w3-small w3-margin-left" id="citacao7"> Agricultura irrigada em Israel. </span>
 </div>
+<p><strong>Transgênicos e Edição Genética:</strong> Outra fronteira da agricultura contemporânea é a biotecnologia
+                aplicada ao melhoramento genético das plantas. Os organismos geneticamente modificados, ou
+                transgênicos, recebem genes de outras espécies para adquirir características como resistência a
+                pragas ou tolerância a herbicidas, reproduzindo de forma artificial mecanismos de defesa que algumas
+                plantas já desenvolvem naturalmente contra insetos e doenças. Mais recentemente, técnicas como o
+                CRISPR permitem editar diretamente o DNA da planta sem introduzir genes de outras espécies, tornando
+                o processo mais preciso e rápido. Apesar dos ganhos de produtividade, o alto custo das sementes
+                patenteadas e a dependência de poucas empresas multinacionais que dominam essa tecnologia dificultam
+                o acesso de pequenos agricultores, que muitas vezes não conseguem competir com quem já adota essas
+                inovações em larga escala.</p>
 <p>Esses exemplos ilustram a evolução da agricultura ao longo dos séculos, desde as práticas rudimentares
                 das civilizações antigas até a tecnologia de ponta e as abordagens sustentáveis da agricultura
                 contemporânea. A história da agricultura é uma narrativa de adaptação e inovação, essenciais para

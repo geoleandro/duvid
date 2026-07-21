@@ -81,30 +81,33 @@
   },
   {
     "id": 4,
-    "instituicao": "UFAM",
-    "ano": "2021",
-    "dificuldade": "facil",
-    "tags": [
-      "fontes alternativas de energia",
-      "energia renovável",
-      "biocombustíveis"
-    ],
-    "pergunta": "As fontes alternativas de energia são matérias-primas que não utilizam derivados de petróleo e outros combustíveis fósseis para geração de energia.\n\nA fonte de energia que utiliza o calor interno da Terra é o(a):",
+    "ano": "ENEM 2025",
+    "imagem_apoio": "1ano/img/116/enem25q7.png",
+    "texto_apoio": "Carro elétrico, uma miragem ecológica. A mudança para a eletromobilidade de fato promove uma alteração no consumo de recursos naturais. Hoje, amplamente dependentes do petróleo, nossos modais de transporte poderiam se tornar cada vez mais dependentes de trinta metais raros. Gálio, tântalo, cobalto, platinoides, tungstênio, metais de terras-raras: uma mina contém apenas ínfimas quantidades desses metais dotados de fabulosas propriedades eletrônicas, ópticas e magnéticas.",
+    "fonte_apoio": "PITRON, G. Revolução tecnológica, transformação geopolítica. Disponível em: https://diplomatique.org.br. Acesso em: 10 dez. 2018.",
+    "pergunta": "No que se refere ao desenvolvimento sustentável, a charge e o texto indicam uma contradição no uso da tecnologia alternativa derivada do seguinte aspecto:",
     "alternativas": [
-      "nuclear.",
-      "ondomotriz.",
-      "geotérmica.",
-      "eólica.",
-      "maremotriz."
+      "Necessidade de fontes não renováveis.",
+      "Padronização dos modelos produtivos.",
+      "Demanda de mão de obra qualificada.",
+      "Precariedade da legislação industrial.",
+      "Utilização de materiais recicláveis."
     ],
-    "correta": 2,
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As fontes alternativas de energia (solar, eólica, geotérmica, maremotriz, biomassa) são chamadas de renováveis porque se regeneram naturalmente. Sua principal vantagem é a menor emissão de gases de efeito estufa em comparação aos combustíveis fósseis.",
+    "correta": 0,
+    "comentario": "Ainda que promovam uma mudança positiva em relação à dependência de combustíveis fósseis, os carros elétricos, segundo o texto e a charge, tendem a não solucionar o problema da dependência dos meios de transporte em relação a fontes não renováveis. Ao invés da dependência em relação ao petróleo, os carros elétricos poderiam necessitar de outras fontes não renováveis, como os metais caros citados no texto.",
+    "ajuda": "A proposta do carro elétrico é substituir o petróleo (não renovável) por eletricidade. O texto diz que fabricar as baterias exige 30 tipos de metais raros. O que esses metais têm em comum com o petróleo?",
+    "tags": [
+      "Carro elétrico",
+      "Metais raros",
+      "Eletromobilidade",
+      "Desenvolvimento sustentável"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "0": "A energia nuclear utiliza a fissão de átomos de urânio em reatores controlados, não o calor interno da Terra. Embora a fissão produza calor, sua fonte é uma reação atômica artificial — não a geotermia natural.",
-      "1": "A energia ondomotriz (undimotriz) é gerada pelo movimento das ondas do mar, não pelo calor interno da Terra. É uma fonte marinha distinta da geotérmica, que explora o gradiente térmico das camadas profundas da crosta.",
-      "3": "A energia eólica é gerada pelo movimento do vento (massas de ar em deslocamento), não pelo calor interno da Terra. A eólica é uma fonte atmosférica, enquanto a geotérmica aproveita o calor do magma e da crosta profunda.",
-      "4": "A energia maremotriz é gerada pela variação das marés (atração gravitacional da Lua e do Sol sobre os oceanos), não pelo calor interno da Terra. É uma fonte oceânica completamente distinta da geotérmica."
+      "1": "Padronização não é mencionada. O texto critica a troca de uma dependência por outra, não a uniformização de processos produtivos.",
+      "2": "Mão de obra não é o tema. O foco está nos recursos naturais necessários para a tecnologia — não no perfil dos trabalhadores.",
+      "3": "Legislação não é discutida. O problema levantado é físico: os metais raros, assim como o petróleo, são recursos finitos e não renováveis.",
+      "4": "O texto aponta o oposto: os metais raros são escassos e de difícil extração, não recicláveis com facilidade. Reciclagem não é citada no trecho."
     }
   },
   {
@@ -193,61 +196,66 @@
   },
   {
     "id": 8,
-    "instituicao": "ENEM",
-    "ano": "2017",
-    "dificuldade": "media",
-    "tags": [
-      "desmatamento",
-      "impactos ambientais",
-      "recursos naturais"
-    ],
-    "imagem_apoio": "1ano/img/116/p16q8.png",
-    "pergunta": "O impacto apresentado nesse ambiente tem sido intensificado pela",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "1ano/img/116/fuvest26q5.png",
+    "texto_apoio": "A África Oriental utiliza recursos geotérmicos para gerar cerca de 630 MW por ano. O Quênia é o líder africano em usinas geotérmicas em operação, totalizando mais de 40% da produção total de eletricidade do país. O mapa mostra o potencial geotérmico da África, com concentração na região do Rift Valley, no leste do continente.",
+    "fonte_apoio": "Disponível em https://doi.org/10.1186/s40517-022-00219-1. Adaptado.",
+    "pergunta": "Assinale a alternativa correta sobre o processo geológico e sua consequência no terreno que explica a exploração de energia geotérmica no Quênia, respectivamente:",
     "alternativas": [
-      "intervenção direta do homem ao impermeabilizar o solo urbano.",
-      "irregularidade das chuvas decorrentes do fenômeno climático El Niño.",
-      "queima de combustíveis fósseis como o carvão, o petróleo e o gás natural.",
-      "vaporização crescente dos oceanos devido ao derretimento das geleiras.",
-      "extinção de organismos marinhos responsáveis pela produção de oxigênio."
+      "Movimento transcorrente; morros testemunhos.",
+      "Intemperismo químico; formação de relevos de cuesta.",
+      "Movimento divergente de placas; rift valley.",
+      "Processos erosivos contínuos; formação de cânions.",
+      "Movimento convergente; cadeias montanhosas."
     ],
     "correta": 2,
-    "comentario": "<p>Correta. Letra C. Como mostrado na imagem, a grande presença de CO2, efeito da queima de combustíveis\r\n pela indústria e por automóveis, tem um grande impacto sobre alguns seres vivos marinhos como:\r\n moluscos, corais, equinodermos e microrganismos com carapaça.</p>",
-    "ajuda": "O impacto ambiental descrito provavelmente está relacionado à construção de usinas (hidrelétricas, termelétricas) ou à extração de combustíveis. Identifique qual atividade energética causa o tipo de degradação ambiental mencionado e quais fatores a intensificam.",
+    "comentario": "O Quênia está localizado sobre o Grande Vale do Rift (Great Rift Valley), resultado do afastamento de duas placas tectônicas (movimento divergente). Esse processo cria uma fenda no terreno — o rift valley — e permite que o magma se aproxime da superfície, gerando calor intenso e água quente reutilizável para geração de eletricidade. Por isso a África Oriental concentra tanto potencial geotérmico: a atividade tectônica divergente cria as condições ideais para essa fonte de energia.",
+    "ajuda": "O Quênia fica sobre o Grande Vale do Rift, onde duas placas tectônicas se AFASTAM. Como se chama esse tipo de movimento tectônico? E qual feição geomorfológica ele cria no terreno, permitindo que o calor interno da Terra chegue mais perto da superfície?",
+    "tags": [
+      "energia geotérmica",
+      "Quênia",
+      "tectônica de placas",
+      "rift valley",
+      "relevo",
+      "África Oriental"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "0": "A impermeabilização do solo urbano agrava inundações locais, mas não é a causa da acidificação dos oceanos mostrada na imagem. A acidificação oceânica resulta da absorção de CO₂ atmosférico — gerado principalmente pela queima de combustíveis fósseis.",
-      "1": "O El Niño é uma variabilidade climática natural que afeta o regime de chuvas e temperaturas oceânicas, mas não causa a acidificação sistemática dos oceanos. A acidificação é um processo crônico vinculado ao aumento de CO₂ atmosférico.",
-      "3": "A vaporização dos oceanos não é um mecanismo de acidificação — o derretimento das geleiras eleva o nível do mar e dilui a salinidade. A acidificação ocorre pela absorção de CO₂ da atmosfera, que forma ácido carbônico na água.",
-      "4": "A extinção de organismos marinhos produtores de oxigênio é consequência da acidificação, não sua causa. O processo é: queima de fósseis → aumento de CO₂ → absorção pelo mar → ácido carbônico → acidificação → impacto nos organismos."
+      "0": "Movimento transcorrente ocorre quando duas placas deslizam lateralmente uma em relação à outra (ex.: Falha de San Andreas). Morros testemunhos resultam de erosão diferencial em rochas sedimentares — nenhum dos dois explica a atividade geotérmica do Quênia.",
+      "1": "Intemperismo químico é a decomposição de rochas por reações químicas com água e ar,um processo superficial, sem relação com tectônica de placas ou energia geotérmica. Cuestas são relevos assimétricos em terrenos sedimentares inclinados, sem conexão com vulcanismo.",
+      "3": "Processos erosivos formam cânions em áreas de soerguimento e incisão fluvial (ex.: Grand Canyon). Não têm relação com a atividade vulcânica ou geotérmica — que depende de calor interno, não de erosão superficial.",
+      "4": "Movimento convergente gera colisão de placas, formando cadeias montanhosas (ex.: Himalaias, Andes). A África Oriental é uma zona de DIVERGÊNCIA — as placas se afastam, não colidem — por isso há rift valley e vulcanismo, não montanhas de colisão."
     }
   },
   {
     "id": 9,
-    "instituicao": "ENEM",
-    "ano": "2015",
-    "dificuldade": "media",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "1ano/img/116/fuvest26q4.png",
+    "texto_apoio": "Our planet is home to subterranean lava deposits and smatterings of obsidian—black volcanic glass. Scalding groundwater bubbles to the surface in places. In such a landscape, you remember that the planet’s hard exterior is so thin that we call it a crust. Its superheated interior burns with an estimated forty-four trillion watts of power. Heat mined from underground is called geothermal and can be used to produce steam, spin a turbine, and generate electricity. Until recently, humans have tended to harvest small quantities in the rare places where it surfaces, such as hot springs. The biggest drawback is drilling miles through hot rock, safely. If scientists can do that, next-generation geothermal power could supply clean energy for eons. Right now, geothermal energy meets a puny portion of humanity’s electricity and heating needs. Fossil fuels power about eighty per cent of human activity, pumping out carbon dioxide and short-circuiting our climate to catastrophic effect. Converts argue that geothermal checks three key boxes: it is carbon-free, available everywhere, and effectively unlimited. It is also baseload, which means that, unlike solar panels or wind, it provides a steady flow of energy. “Over the last two years, I have watched this exponential spinup of activity in geothermal,” a drilling expert said. But there is a risk of moon shots: often, they miss. “There’s basically zero chance that you’re going to develop a moon-shot technology and have it be commercial in five years, on a large-scale”, said Mark Jacobson, an engineering professor. That’s how long humanity has to lower emissions before climatic devastation. “There’s a very decent chance you can do that with wind and solar,” he said. Perhaps, when resources and time are finite, trying and failing could be worse than not trying at all.",
+    "fonte_apoio": "New Yorker. March 2025. Adaptado.",
+    "pergunta": "Assinale a alternativa correta sobre o processo geológico e sua consequência no terreno que explica a exploração de energia geotérmica no Quênia, respectivamente:",
+    "alternativas": [
+      "atende a uma parcela insignificante da demanda energética da sociedade.",
+      "pode ser utilizada através de um aparato tecnológico de baixo custo.",
+      "oferece vantagens ambientais limitadas em relação a outras fontes de energia renováveis.",
+      "utiliza métodos desenvolvidos nas pesquisas científicas sobre a superfície lunar.",
+      "proporciona utilidade prática restrita do ponto de vista da produção industrial."
+    ],
+    "correta": 0,
+    "comentario": "O texto afirma explicitamente que 'geothermal energy meets a puny portion of humanity's electricity and heating needs' — ou seja, atende a uma parcela ínfima (insignificante) da demanda energética global. Os combustíveis fósseis ainda suprem 80% da atividade humana, confirmando que a geotermia, apesar de seu potencial, ainda ocupa papel marginal na matriz energética mundial.",
+    "ajuda": "O texto diz 'geothermal energy meets a puny portion of humanity's electricity and heating needs'. O que significa 'puny portion'? Qual alternativa em português expressa essa mesma ideia sobre a contribuição atual da energia geotérmica?",
     "tags": [
-      "energia renovável",
+      "energia geotérmica",
+      "fontes de energia",
       "matriz energética",
       "sustentabilidade"
     ],
-    "texto_apoio": "\"A energia de Fernando de Noronha virá do mar, do ar, do sol e até do lixo produzido por seus moradores e visitantes. É o que promete o projeto de substituição da matriz energética da ilha, que prevê a troca dos geradores atuais, que consomem 310 mil litros de diesel por mês. ”.",
-    "fonte_apoio": "GUIBU, F. Folha de S. Paulo, 19 ago. 2012 (adaptado).",
-    "pergunta": "No texto, está apresentada a nova matriz energética do Parque Nacional Marinho de Fernando de Noronha. A escolha por essa nova matriz prioriza o(a)",
-    "alternativas": [
-      "expansão da oferta de energia, para aumento da atividade turística.",
-      "uso de fontes limpas, para manutenção das condições ecológicas da região.",
-      "barateamento dos custos energéticos, para estímulo da ocupação permanente.",
-      "desenvolvimento de unidades complementares, para solução da carência energética local.",
-      "diminuição dos gastos operacionais de transporte, para superação da distância do continente."
-    ],
-    "correta": 1,
-    "comentario": "<p>A utilização de fontes renováveis de energia, por meio da utilização de elementos como mar (maremotriz), ar (eólica), sol (solar) e lixo (biomassa), produz uma ampla diminuição da emissão de gases poluentes. Sendo assim, as matrizes renováveis de energia possibilitam um menor impacto no meio ambiente e uma maior manutenção das condições biológicas locais.</p>",
-    "ajuda": "A transição para fontes renováveis de energia é um dos desafios do desenvolvimento sustentável. A substituição de combustíveis fósseis por fontes como solar e eólica em ilhas ou parques nacionais representa uma iniciativa de descarbonização local.",
+    "dificuldade": "facil",
     "feedbacks": {
-      "0": "Expandir a oferta de energia para o turismo pode ser uma consequência do projeto, mas não é a motivação central. O texto enfatiza a substituição de diesel por fontes limpas oriundas do próprio ambiente natural da ilha.",
-      "2": "O barateamento dos custos pode ser um efeito colateral, mas o texto foca na substituição do diesel por fontes renováveis locais para preservar as condições ecológicas do parque — não na redução de custos.",
-      "3": "O desenvolvimento de 'unidades complementares' é vago e não corresponde à motivação descrita. O projeto substitui geradores a diesel por fontes do ambiente local (vento, sol, mar, lixo) para reduzir impacto ambiental na área de proteção.",
-      "4": "Reduzir gastos com transporte de combustível pode ser um benefício adicional, mas o texto foca na diversificação das fontes para preservar as condições ecológicas da ilha, não na logística de transporte do continente."
+      "1": "O texto aponta como principal obstáculo 'drilling miles through hot rock, safely' — perfurar quilômetros de rocha quente com segurança. Isso implica tecnologia complexa e cara, não de baixo custo.",
+      "2": "O texto afirma o contrário: a geotermia 'checks three key boxes: it is carbon-free, available everywhere, and effectively unlimited' — vantagens ambientais AMPLAS. É apresentada como superior a solar e eólica em termos de fornecimento constante (baseload).",
+      "3": "A menção a 'moon shots' no texto é uma METÁFORA para grandes apostas tecnológicas de alto risco, não uma referência literal a pesquisas lunares. O texto não diz que a geotermia usa métodos das missões espaciais.",
+      "4": "O texto não diz que a geotermia tem utilidade prática restrita do ponto de vista industrial. O argumento é que ela ainda atende pouco da demanda global — não que seja impraticável. A frase destaca potencial, não limitação prática."
     }
   },
   {

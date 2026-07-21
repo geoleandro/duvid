@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A Guerra Fria reorganizou o mundo em dois blocos antagônicos: o capitalista (liderado pelos EUA com a OTAN) e o socialista (liderado pela URSS com o Pacto de Varsóvia). Conflitos como a Crise dos Mísseis em Cuba (1962) levaram o mundo à beira de um confronto nuclear, definindo décadas de tensão geopolítica.</p>",
-    "ajuda": "A Guerra Fria reorganizou o mundo em dois blocos liderados pelos EUA e pela URSS. Ao analisar o mapa e as afirmativas, lembre-se das características de cada bloco e do contexto do pós-Segunda Guerra Mundial — o Plano Marshall, a OTAN e o Pacto de Varsóvia."
+    "ajuda": "A Guerra Fria reorganizou o mundo em dois blocos liderados pelos EUA e pela URSS. Ao analisar o mapa e as afirmativas, lembre-se das características de cada bloco e do contexto do pós-Segunda Guerra Mundial — o Plano Marshall, a OTAN e o Pacto de Varsóvia.",
+    "feedbacks": {
+      "1": "A terceira afirmativa é verdadeira: a OTAN foi fundada em 1949 como aliança de segurança coletiva para manter a paz entre países membros e defender valores democráticos diante da ameaça soviética. Classificá-la como falsa contradiz os objetivos declarados da organização.",
+      "2": "A segunda afirmativa é verdadeira: Fidel Castro aproximou Cuba do bloco soviético, e a instalação de mísseis soviéticos na ilha originou a Crise dos Mísseis em 1962, o maior momento de tensão nuclear da Guerra Fria. Classificá-la como falsa contradiz o registro histórico.",
+      "3": "As três primeiras afirmativas são verdadeiras, pois descrevem fatos históricos corretos sobre a Guerra Fria, a Crise dos Mísseis e a OTAN. Além disso, a organização mundial da Guerra Fria era bipolar (EUA versus URSS), e não multipolar como a quarta afirmativa sugere.",
+      "4": "As três primeiras afirmativas são verdadeiras e não devem ser marcadas como falsas. São as afirmativas quatro e cinco que contêm erros: a corrida armamentista foi central, e não secundária, e as superpotências se envolveram em guerras por procuração (Vietnã, Coreia, Afeganistão)."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Declaração Universal dos Direitos Humanos (1948) emergiu do horror do Holocausto e das atrocidades da Segunda Guerra. Pela primeira vez na história, um documento internacional afirmou que os direitos humanos são universais e inalienáveis, permitindo que a comunidade internacional intervenha quando Estados violam esses direitos.</p>",
-    "ajuda": "A Declaração Universal dos Direitos Humanos de 1948 foi criada no pós-guerra para proteger indivíduos contra abusos de poder. Pense em qual objetivo principal ela representava em um contexto marcado pelo Holocausto e pelas atrocidades da guerra."
+    "ajuda": "A Declaração Universal dos Direitos Humanos de 1948 foi criada no pós-guerra para proteger indivíduos contra abusos de poder. Pense em qual objetivo principal ela representava em um contexto marcado pelo Holocausto e pelas atrocidades da guerra.",
+    "feedbacks": {
+      "0": "A declaração buscou proteger grupos vulneráveis dentro dos Estados, mas não revogou a soberania estatal; soberania e direitos humanos são tensões não resolvidas no direito internacional. A superação da soberania não é a concepção introduzida pelo documento.",
+      "2": "A declaração introduziu princípios de proteção, mas não eliminou conflitos; guerras e violações de direitos humanos continuaram após sua proclamação. A redução da truculência belicista não é a consequência descrita como nova concepção introduzida pela declaração.",
+      "3": "A declaração buscou responsabilizar agentes que violassem os direitos protegidos, e não garantir impunidade aos responsáveis. O propósito é exatamente o oposto: criar mecanismos internacionais de proteção e responsabilização.",
+      "4": "A declaração não foi concebida para evitar choques entre civilizações; seu foco é a proteção de grupos vulneráveis no âmbito do direito internacional humanitário. Inibir choques civilizacionais não é a concepção que o documento introduziu nas relações internacionais."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A globalização ressignificou o conceito de fronteira: enquanto capitais e mercadorias circulam livremente, trabalhadores e migrantes enfrentam barreiras crescentes. As fronteiras tornaram-se seletivas — abertas para o capital, fechadas para os pobres — revelando a natureza desigual do processo de integração global.</p>",
-    "ajuda": "As fronteiras contemporâneas não são apenas linhas físicas, mas também barreiras seletivas. Pense em como a globalização transformou o conceito de fronteira — ela não foi eliminada, mas tornou-se cada vez mais seletiva e excludente."
+    "ajuda": "As fronteiras contemporâneas não são apenas linhas físicas, mas também barreiras seletivas. Pense em como a globalização transformou o conceito de fronteira — ela não foi eliminada, mas tornou-se cada vez mais seletiva e excludente.",
+    "feedbacks": {
+      "0": "A ressignificação contemporânea das fronteiras não liberou a circulação de pessoas; ao contrário, os mecanismos de controle tornaram-se mais seletivos e restritivos para trabalhadores de países pobres. Capitais e mercadorias circulam com mais liberdade do que as pessoas.",
+      "1": "A modernidade desloca as fronteiras dos limites naturais para limites políticos e simbólicos; a ressignificação contemporânea aprofunda essa tendência, tornando-as critérios socioeconômicos e políticos. A preponderância dos limites naturais é uma visão superada.",
+      "2": "A globalização reduziu barreiras para mercadorias, mas as fronteiras para pessoas tornaram-se mais seletivas e restritivas na contemporaneidade. A supressão aduaneira favorece o capital e não caracteriza a ressignificação das fronteiras para a mobilidade humana.",
+      "3": "O nacionalismo não foi desvalorizado pela ressignificação das fronteiras; ao contrário, movimentos nacionalistas cresceram em muitos países como reação à globalização e à migração. A ressignificação não implica abandono da identidade nacional."
+    }
   },
   {
     "id": 4,
@@ -95,7 +113,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A relação Cuba-URSS ilustra como a solidariedade socialista tinha um preço: a URSS sustentou a economia cubana por décadas, mas gerou uma dependência que custou caro com o colapso soviético em 1991. Dentro de cada bloco na Guerra Fria, os menores aliados eram subordinados às superpotências dominantes.</p>",
-    "ajuda": "Durante a Guerra Fria, os países alinhados a cada superpotência não eram parceiros iguais — subordinavam-se à potência dominante. Pense em qual dinâmica política caracterizou as relações dentro de cada bloco (capitalista e socialista)."
+    "ajuda": "Durante a Guerra Fria, os países alinhados a cada superpotência não eram parceiros iguais — subordinavam-se à potência dominante. Pense em qual dinâmica política caracterizou as relações dentro de cada bloco (capitalista e socialista).",
+    "feedbacks": {
+      "0": "Na Guerra Fria, os países de cada bloco não tinham neutralidade real; estavam pressionados a alinhar-se à lógica da potência hegemônica (EUA ou URSS) sob pena de sanções econômicas ou intervenção política. A neutralidade era difícil e arriscada.",
+      "1": "A lógica dentro de cada bloco não era de competição comercial livre: o bloco soviético era planejado centralmente, e o ocidental tinha regulações e acordos que limitavam a concorrência intra-bloco. A competição ocorria entre os blocos, não dentro deles.",
+      "3": "As fronteiras durante a Guerra Fria eram rígidas e altamente vigiadas, como exemplificado pelo Muro de Berlim e pela Cortina de Ferro. Não havia elasticidade nas fronteiras entre os blocos; ao contrário, eram zonas de tensão máxima.",
+      "4": "Embora houvesse alguma cooperação científica intra-bloco, a corrida tecnológica (espacial, armamentista) era de competição intensa, não de compartilhamento aberto de pesquisas. O sigilo tecnológico era estratégico para ambas as superpotências."
+    }
   },
   {
     "id": 5,
@@ -120,7 +144,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Com o fim da Guerra Fria e a dissolução da URSS em 1991, o mundo deixou de ser bipolar e tornou-se multipolar. A Nova Ordem Mundial trouxe novos conflitos regionais étnicos e religiosos, a expansão da OTAN para o Leste Europeu e o surgimento de novas potências como China e Índia.</p>",
-    "ajuda": "Com o fim da Guerra Fria (1991), o mundo passou de bipolar a multipolar. Pense em quais consequências geopolíticas surgiram após a dissolução da URSS — novos conflitos regionais, reorganização das alianças militares e surgimento de novos atores."
+    "ajuda": "Com o fim da Guerra Fria (1991), o mundo passou de bipolar a multipolar. Pense em quais consequências geopolíticas surgiram após a dissolução da URSS — novos conflitos regionais, reorganização das alianças militares e surgimento de novos atores.",
+    "feedbacks": {
+      "0": "A Nova Ordem Mundial não eliminou conflitos; ao contrário, surgiram novas guerras étnicas, religiosas e por recursos após o fim da Guerra Fria (Iugoslávia, Ruanda, Afeganistão). O fim da bipolaridade gerou novos tipos de conflito, não paz perpétua.",
+      "2": "Embora a China seja uma potência crescente, a charge da época de rivalidade entre superpotências provavelmente se refere à globalização e à Nova Ordem Mundial pós-Guerra Fria, e não ao estabelecimento de uma hegemonia chinesa já consolidada. A hegemonia da China ainda é disputada.",
+      "3": "A globalização não levou à falência dos blocos econômicos; ao contrário, a União Europeia se aprofundou e novos blocos como o MERCOSUL foram criados. Os organismos multilaterais também não colapsaram, mas se adaptaram ao novo contexto.",
+      "4": "A América do Sul não emergiu como área central de contenção geopolítica no contexto da Nova Ordem Mundial estabelecida pela globalização. A alternativa introduz um elemento geográfico específico (Argentina) que não é o foco da charge nem do processo descrito."
+    }
   },
   {
     "id": 6,
@@ -144,7 +174,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A Guerra Fria foi essencialmente um conflito de sistemas: capitalismo x socialismo. Como os dois sistemas eram incompatíveis, não havia possibilidade de compromisso — a disputa só poderia terminar com a prevalência de um sobre o outro, o que ocorreu com o colapso da URSS em 1991.</p>",
-    "ajuda": "A Guerra Fria foi chamada de 'fria' porque os EUA e a URSS nunca se confrontaram diretamente em combate. O conflito se manifestou por meio de guerras por procuração, corrida armamentista e confronto ideológico. Identifique qual definição melhor a caracteriza."
+    "ajuda": "A Guerra Fria foi chamada de 'fria' porque os EUA e a URSS nunca se confrontaram diretamente em combate. O conflito se manifestou por meio de guerras por procuração, corrida armamentista e confronto ideológico. Identifique qual definição melhor a caracteriza.",
+    "feedbacks": {
+      "0": "A Guerra Fria não foi um esforço negociado de homogeneização; foi um confronto sistêmico em que cada potência buscava expandir seu próprio modelo e conter o adversário. As superpotências competiam, e não cooperavam, para homogeneizar o sistema internacional.",
+      "1": "A Guerra Fria não buscava criar um sistema híbrido que mesclasse socialismo e capitalismo; cada bloco queria afirmar a superioridade de seu próprio modelo. O hibridismo seria uma síntese impossível dada a rivalidade ideológica total entre os dois sistemas.",
+      "3": "Embora os EUA buscassem conter o socialismo, caracterizar isso como um 'compromisso' humanitário de democratização é impreciso; tratava-se de uma competição sistêmica por hegemonia global. Os interesses estratégicos e econômicos eram centrais, e não apenas a preocupação com a democracia.",
+      "4": "A Guerra Fria não foi um enfrentamento bélico direto entre as superpotências; foi um confronto indireto por meio de guerras por procuração, corrida armamentista e propaganda. As superpotências evitaram confronto direto por temer a destruição nuclear mútua."
+    }
   },
   {
     "id": 7,
@@ -168,7 +204,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A Guerra Fria estabeleceu um 'equilíbrio de terror' baseado na ameaça de destruição mútua assegurada (MAD). Ela também foi uma guerra ideológica que se infiltrou na cultura, na mídia e nas sociedades — gerando um imaginário político de conflito entre democracia liberal e comunismo.</p>",
-    "ajuda": "O texto descreve um período histórico de tensão internacional com características específicas: confronto ideológico, corrida armamentista e divisão do mundo em dois blocos. Identifique a qual período histórico esse fragmento se refere."
+    "ajuda": "O texto descreve um período histórico de tensão internacional com características específicas: confronto ideológico, corrida armamentista e divisão do mundo em dois blocos. Identifique a qual período histórico esse fragmento se refere.",
+    "feedbacks": {
+      "1": "A Primeira Guerra Mundial surgiu de alianças e rivalidades imperialistas europeias do início do século XX; não apresenta o confronto ideológico entre dois sistemas opostos de organização social que o fragmento descreve. A polarização capitalismo-socialismo é marca da Guerra Fria.",
+      "2": "O Entre Guerras (1919-1939) foi marcado pela crise econômica de 1929, pelo ascensão do fascismo e pela revisão dos tratados de paz, sem o confronto bipolar entre socialismo e capitalismo que o fragmento descreve. É um período historicamente distinto da Guerra Fria.",
+      "3": "O nazifascismo foi um fenômeno da Segunda Guerra Mundial centrado na Europa, com características de totalitarismo de direita; não se confunde com o confronto bipolar entre capitalismo e socialismo descrito no fragmento. A ameaça nazifascista era anterior à Guerra Fria.",
+      "4": "A Descolonização foi o processo de independência das colônias afro-asiáticas dos anos 1950 a 1970, relacionado mas distinto da Guerra Fria. O fragmento descreve especificamente o confronto bipolar entre os dois sistemas, e não o processo de emancipação das colônias."
+    }
   },
   {
     "id": 8,
@@ -193,7 +235,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A OTAN foi criada em 1949 para conter a expansão soviética na Europa. Com o fim da URSS, redefiniu seus objetivos: passou a intervir em conflitos regionais nos Bálcãs, no Afeganistão e no Oriente Médio, ampliando sua atuação para além do Atlântico Norte como a principal aliança militar ocidental.</p>",
-    "ajuda": "A OTAN foi criada em 1949 como aliança militar ocidental durante a Guerra Fria. Com o fim da URSS, ela redefiniu seus objetivos. Identifique qual par de objetivos — o original e o atual — corresponde corretamente às diferentes fases da organização."
+    "ajuda": "A OTAN foi criada em 1949 como aliança militar ocidental durante a Guerra Fria. Com o fim da URSS, ela redefiniu seus objetivos. Identifique qual par de objetivos — o original e o atual — corresponde corretamente às diferentes fases da organização.",
+    "feedbacks": {
+      "0": "O objetivo primário da OTAN não foi financiar a indústria bélica, mas conter a expansão do socialismo soviético na Europa. O financiamento da indústria bélica é um efeito econômico do rearme, e não o objetivo declarado da aliança.",
+      "2": "Combater a ameaça soviética é correto para o período inicial, mas o objetivo posterior da OTAN (pós-Guerra Fria) foi realizar ataques preventivos e intervenções em zonas de conflito (Kosovo, Afeganistão, Líbia), e não promover auxílio humanitário. A alternativa erra no segundo objetivo.",
+      "3": "A OTAN é uma aliança criada e liderada pelos EUA; seus objetivos estão alinhados à expansão e manutenção da influência americana, e não à sua limitação. Apoiar organismos multilaterais também não descreve os objetivos da aliança militar.",
+      "4": "A reconstrução da Europa devastada pela Segunda Guerra foi objetivo do Plano Marshall (ajuda econômica americana), e não da OTAN. A OTAN foi criada como aliança militar de contenção do socialismo, e não como instrumento de reconstrução econômica."
+    }
   },
   {
     "id": 9,
@@ -216,7 +264,12 @@
     ],
     "correta": 3,
     "comentario": "<p>As regionalizações do continente americano podem usar critérios físico-naturais (América do Norte, Central e do Sul), histórico-culturais (Anglo-saxônica x Latina) ou socioeconômicos (desenvolvidos x em desenvolvimento). Cada critério revela aspectos diferentes da organização do espaço americano.</p>",
-    "ajuda": "A regionalização do espaço geográfico pode ser feita com base em critérios físicos, culturais, econômicos ou políticos. Ao analisar dois mapas diferentes do continente americano, identifique qual critério cada mapa utilizou para definir suas regiões."
+    "ajuda": "A regionalização do espaço geográfico pode ser feita com base em critérios físicos, culturais, econômicos ou políticos. Ao analisar dois mapas diferentes do continente americano, identifique qual critério cada mapa utilizou para definir suas regiões.",
+    "feedbacks": {
+      "0": "Aspectos físico-ambientais (relevo, clima, biomas) geram regionalizações naturais, como mapas de climas ou biomas. O mapa 2 da América utiliza critérios histórico-culturais, como a divisão entre Anglo-América e América Latina, que não se baseia em elementos físicos.",
+      "1": "A divisão do mapa 1 em sub-regiões geográficas (América do Norte, Central e do Sul) é baseada em critérios geográfico-físicos, e não estritamente em elementos político-territoriais. A divisão político-territorial seria por países, estados ou alianças políticas.",
+      "2": "Aspectos socioeconômicos geram regionalizações como países desenvolvidos versus subdesenvolvidos ou blocos econômicos. A divisão do mapa 1 em sub-regiões geográficas (Norte, Central, Sul) não usa critérios de renda, produção ou desenvolvimento."
+    }
   },
   {
     "id": 10,
@@ -239,6 +292,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A regionalização do espaço mundial pode ser feita com base em critérios físicos (climas, relevos), humanos (culturas, línguas, religiões) ou econômicos (desenvolvidos/em desenvolvimento). Um mapa que respeita fronteiras contínuas com base em traços histórico-culturais comuns é a forma mais tradicional de regionalização.</p>",
-    "ajuda": "Um mapa que agrupa países em regiões pode usar diferentes critérios: físico-naturais, culturais, econômicos ou históricos. Ao analisar o mapa, observe se as regiões respeitam fronteiras físicas contínuas ou se agrupam áreas descontínuas por critérios humanos."
+    "ajuda": "Um mapa que agrupa países em regiões pode usar diferentes critérios: físico-naturais, culturais, econômicos ou históricos. Ao analisar o mapa, observe se as regiões respeitam fronteiras físicas contínuas ou se agrupam áreas descontínuas por critérios humanos.",
+    "feedbacks": {
+      "0": "A regionalização do mapa forma regiões contíguas e contínuas (Europa, América, Ásia, Oriente Médio etc.), e não descontínuas. Além disso, fluxos econômicos e político-militares geram regionalizações funcionais e dinâmicas, diferentes das regiões tradicionais culturais do mapa.",
+      "1": "Traços fisiográficos como relevo e clima geram regionalizações físicas, como mapas de biomas e climas, muito diferentes das regiões culturais do mapa. As regiões apresentadas (Europa, América Latina, Oriente Médio) são definidas por história, língua e economia, não por morfologia do terreno.",
+      "2": "As regiões do mapa são contíguas e contínuas, e não descontínuas. Relações de poder entre Estados geram organizações geopolíticas (OTAN, blocos de países), que são regionalizações distintas das regiões histórico-culturais tradicionais apresentadas.",
+      "4": "Inovação tecnológica e recursos humanos geram regionalizações econômicas sofisticadas (como mapas de IDH ou PIB per capita), muito diferentes das regiões histórico-culturais tradicionais do mapa. Além disso, a regionalização do mapa é contínua, mas não 'contínuo-descontínua'."
+    }
   }
 ]

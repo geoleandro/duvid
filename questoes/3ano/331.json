@@ -20,7 +20,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O sistema de castas do hinduísmo divide a sociedade em grupos hierárquicos hereditários (brâmanes, xátrias, vaixás, sudras) e os 'intocáveis' (dalits). Apesar de proibido pela Constituição indiana de 1950, o sistema persiste na prática social, limitando as oportunidades de mobilidade para centenas de milhões de pessoas.</p>",
-    "ajuda": "A Índia é um país de enorme diversidade étnica, linguística e religiosa, com mais de 1,4 bilhão de habitantes. Uma das suas marcas históricas é o sistema de castas, que estrutura socialmente a população. Identifique qual característica cultural singular é destacada no texto."
+    "ajuda": "A Índia é um país de enorme diversidade étnica, linguística e religiosa, com mais de 1,4 bilhão de habitantes. Uma das suas marcas históricas é o sistema de castas, que estrutura socialmente a população. Identifique qual característica cultural singular é destacada no texto.",
+    "feedbacks": {
+      "0": "A India nao e majoritariamente islamica; e predominantemente hinduista (cerca de 80% da populacao). O islamismo e a segunda religiao do pais, com cerca de 14%, seguindo principalmente o sunnismo, enquanto o xiismo predomina no Ira e no Iraque.",
+      "2": "A populacao indiana tem origens indo-ariana e dravidica, com influencias persas e turco-mongoloides em certas regioes, mas nao e formada por 'grandes contingentes de mongois vindos da Asia Central'. Os mongois fundaram o Imperio Mughal (sec XVI), de influencia cultural, mas nao definem a origem da populacao indiana.",
+      "3": "A India e um dos paises linguisticamente mais diversos do mundo, com 22 idiomas oficiais reconhecidos pela Constituicao e centenas de dialetos e linguas regionais. Nunca adotou um unico idioma nacional, o que seria inviavel dada sua enorme heterogeneidade etnica e regional.",
+      "4": "Ao contrario do que sugere a alternativa, o processo de descolonizacao indiano culminou na Particao de 1947, que dividiu o territorio entre India e Paquistao e gerou violencia etnico-religiosa em massa. O sentimento de unidade nacional foi um processo dificil e nao natural do pos-independencia."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,12 @@
     ],
     "correta": 0,
     "comentario": "<p>Os Rohingyas são uma minoria muçulmana que vive em Mianmar, um país de maioria budista. Perseguidos pelo exército e grupos extremistas, refugiaram-se principalmente em Bangladesh (país muçulmano vizinho). A ONU classificou o caso como genocídio — um dos piores casos de limpeza étnica do século XXI.</p>",
-    "ajuda": "A minoria Rohingya é um grupo étnico muçulmano que vive em Mianmar, um país de maioria budista. O conflito tem raízes em tensões religiosas e étnicas. Pense em qual país recebeu os refugiados Rohingya e qual é a relação religiosa entre os grupos envolvidos."
+    "ajuda": "A minoria Rohingya é um grupo étnico muçulmano que vive em Mianmar, um país de maioria budista. O conflito tem raízes em tensões religiosas e étnicas. Pense em qual país recebeu os refugiados Rohingya e qual é a relação religiosa entre os grupos envolvidos.",
+    "feedbacks": {
+      "1": "A India e predominantemente hinduista e muculmana, nao catolica e hindu. O catolicismo tem pequena presenca na India (comunidades de Goa e Kerala); a principal religiao nao hindu da India e o islamismo, com cerca de 200 milhoes de muculmanos.",
+      "2": "A Tailandia e predominantemente budista (cerca de 95% da populacao), e nao catolica. O catolicismo e praticamente inexistente como religiao predominante na Tailandia; ha uma minoria muculmana no sul do pais, mas nao e o par de religioes que caracteriza a Tailandia.",
+      "3": "O hinduismo e praticamente inexistente na China, pais com tradicao religiosa budista, confucionista e taosista. A combinacao 'hindu e budista' nao caracteriza a China; o budismo tem alguma presenca, mas o hinduismo nunca foi significativo no territorio chines."
+    }
   },
   {
     "id": 3,
@@ -69,7 +80,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O relevo do Afeganistão e do subcontinente indiano (Himalaia, Hindu Kush) condiciona profundamente a estratégia militar e a vida cotidiana. Montanhas como o Hindu Kush criaram refúgios impenetráveis para guerrilheiros por séculos — desde os exércitos de Alexandre até as tropas americanas no século XXI.</p>",
-    "ajuda": "O relevo montanhoso (Himalaia, Hindu Kush) influencia profundamente a organização do espaço na Ásia Meridional e Central: dificulta o acesso, cria fronteiras naturais e molda as estratégias militares. Pense em qual aspecto da vida humana é mais diretamente condicionado pela topografia."
+    "ajuda": "O relevo montanhoso (Himalaia, Hindu Kush) influencia profundamente a organização do espaço na Ásia Meridional e Central: dificulta o acesso, cria fronteiras naturais e molda as estratégias militares. Pense em qual aspecto da vida humana é mais diretamente condicionado pela topografia.",
+    "feedbacks": {
+      "0": "A construcao de vias terrestres facilita o deslocamento logistico e o abastecimento de tropas, mas nao e o fator mais importante para o controle territorial. Sem o conhecimento do espaco, as vias construidas podem ser usadas contra o proprio ocupante por forcas que dominam o terreno.",
+      "1": "A preservacao do meio ambiente e uma preocupacao contemporanea relevante, mas historicamente nunca foi o fator decisivo para o dominio e controle territorial. O controle do espaco e determinado pelo conhecimento geografico, pela forca militar e pelo apoio das populacoes locais.",
+      "2": "O emprego de armamentos sofisticados aumenta o poder de fogo, mas sem o conhecimento do territorio, exercitos bem armados podem ser derrotados por forcas menores que dominam o terreno. Conflitos como o Vietnam e o Afeganistao demonstram que o armamento sofisticado nao garante o controle territorial.",
+      "3": "A intimidacao pode garantir controle temporario de uma populacao, mas sem o conhecimento cognitivo do espaco geografico, e impossivel manter o dominio territorial de forma estavel. A repressao sem conhecimento territorial gera resistencia e ineficiencia no controle do espaco."
+    }
   },
   {
     "id": 4,
@@ -94,7 +111,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Os indianos que emigram para o Vale do Silício, Canadá e Austrália enviam remessas financeiras que representam uma fonte importante de divisas para a Índia — o maior receptor mundial de remessas. Em 2022, a Índia recebeu mais de 100 bilhões de dólares em remessas, equivalente a 3% do PIB nacional.</p>",
-    "ajuda": "A emigração de profissionais qualificados (brain drain) pode parecer negativa, mas gera um benefício financeiro importante para o país de origem. Pense em qual mecanismo econômico os emigrantes indianos ativam ao mandar dinheiro de volta para suas famílias."
+    "ajuda": "A emigração de profissionais qualificados (brain drain) pode parecer negativa, mas gera um benefício financeiro importante para o país de origem. Pense em qual mecanismo econômico os emigrantes indianos ativam ao mandar dinheiro de volta para suas famílias.",
+    "feedbacks": {
+      "0": "A emigracao de trabalhadores tende a REDUZIR a oferta de mao de obra no pais de origem, o que pode elevar os salarios locais, e nao baratea-los. A perda de trabalhadores qualificados pode inclusive encarecer a mao de obra especializada que permanece no pais.",
+      "2": "Embora a emigracao reduza a pressao sobre o mercado de trabalho interno, o principal beneficio macroeconomico para os paises de origem nao e a mera diminuicao do desemprego, mas o fluxo de divisas representado pelas remessas enviadas pelos emigrantes as suas familias.",
+      "3": "A emigracao de trabalhadores nao esta diretamente associada a ampliacao das exportacoes industriais do pais de origem. O principal beneficio economico e a entrada de divisas pelas remessas, que sustentam o consumo das familias e contribuem para o balanco de pagamentos."
+    }
   },
   {
     "id": 5,
@@ -119,7 +141,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As afirmativas I, II e III são corretas: o Paquistão tem violência étnica (conflitos entre pashtuns, punjabis e balúchis); a Caxemira é disputada desde 1947 entre Índia e Paquistão; e ambos os países têm capacidade nuclear declarada — tornando essa rivalidade uma das mais perigosas do mundo.</p>",
-    "ajuda": "O mapa de conflitos na Ásia mostra regiões com tensões internas e externas. O Paquistão, a Índia, o Afeganistão e países do Sudeste Asiático têm diferentes tipos de conflitos. Avalie quais afirmativas descrevem corretamente a situação de cada país no mapa."
+    "ajuda": "O mapa de conflitos na Ásia mostra regiões com tensões internas e externas. O Paquistão, a Índia, o Afeganistão e países do Sudeste Asiático têm diferentes tipos de conflitos. Avalie quais afirmativas descrevem corretamente a situação de cada país no mapa.",
+    "feedbacks": {
+      "0": "A exclusao da proposicao III torna esta alternativa incorreta, pois III e uma das afirmacoes corretas sobre o tema. A resposta correta deve incluir I, II E III, e nao apenas I e II.",
+      "1": "A proposicao IV e incorreta; inclui-la invalida esta alternativa. Alem disso, a exclusao de I e II, que sao corretas, torna o conjunto apresentado completamente equivocado em relacao ao tema.",
+      "3": "A exclusao da proposicao I, que e correta, torna esta alternativa incompleta. A resposta deve incluir I, II e III; excluir I resulta num conjunto que deixa de contemplar uma informacao correta sobre o tema.",
+      "4": "A proposicao IV e incorreta; inclui-la na resposta invalida o conjunto. Apenas as proposicoes I, II e III descrevem corretamente o tema abordado pela questao."
+    }
   },
   {
     "id": 6,
@@ -144,7 +172,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A alteridade — a capacidade de reconhecer e respeitar o outro em sua diferença — é o valor cultural que o texto desafia. O autor demonstra que a mesma ação (patriotismo de uma criança) é interpretada de forma radicalmente diferente dependendo de quem a pratica — revelando um padrão duplo cultural e geopolítico.</p>",
-    "ajuda": "O texto apresenta um desafio cultural envolvendo perspectivas diferentes. O conceito de alteridade refere-se à capacidade de reconhecer e respeitar o outro em sua diferença. Identifique qual valor ou habilidade cultural está sendo exercido na situação descrita."
+    "ajuda": "O texto apresenta um desafio cultural envolvendo perspectivas diferentes. O conceito de alteridade refere-se à capacidade de reconhecer e respeitar o outro em sua diferença. Identifique qual valor ou habilidade cultural está sendo exercido na situação descrita.",
+    "feedbacks": {
+      "0": "A diplomacia e o instrumento de negociacao entre Estados soberanos nas relacoes internacionais. Nao e o conceito que fundamenta o reconhecimento das diferencas culturais entre pessoas ou povos; este e o papel da alteridade, que implica colocar-se no lugar do outro.",
+      "2": "A democracia e um sistema politico de participacao e representacao; nao equivale a alteridade. A expansao democratica pode criar condicoes favoraveis ao reconhecimento das diferencas, mas nao e o conceito especifico que descreve a capacidade de reconhecer e valorizar o outro em sua diferenca.",
+      "3": "A 'universalizacao do progresso' e um conceito vinculado ao desenvolvimento economico e tecnologico, nao ao reconhecimento das diferencas culturais. A alteridade e uma disposicao etica e antropologica, distinta da ideia de progresso material ou tecnologico universal.",
+      "4": "A autodeterminacao e o direito coletivo dos povos de decidir seu proprio destino politico. Embora relacionada aos direitos dos grupos, nao equivale a alteridade, que e a capacidade individual e coletiva de reconhecer o outro como sujeito valido em sua diferenca cultural."
+    }
   },
   {
     "id": 7,
@@ -170,7 +204,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A instalação de empresas de call center na Índia reflete o baixo custo da mão de obra qualificada em inglês. Com salários 5-10 vezes menores que nos EUA ou Reino Unido, e com uma das maiores populações de falantes de inglês do mundo, a Índia tornou-se o principal polo global de terceirização de serviços.</p>",
-    "ajuda": "O processo de territorialização de empresas em determinada região depende de fatores econômicos, logísticos e culturais. O texto provavelmente descreve por que certas empresas se instalam no sul ou sudeste asiático. Pense em qual fator produtivo é o mais determinante nessa escolha."
+    "ajuda": "O processo de territorialização de empresas em determinada região depende de fatores econômicos, logísticos e culturais. O texto provavelmente descreve por que certas empresas se instalam no sul ou sudeste asiático. Pense em qual fator produtivo é o mais determinante nessa escolha.",
+    "feedbacks": {
+      "0": "A aceitacao das diferencas culturais pode facilitar a adaptacao de gestores estrangeiros a um novo pais, mas nao e o principal fator que atrai industrias para paises asiaticos. A decisao de relocalizar industrias e guiada primariamente por calculos de custo de producao, nao por tolerancia cultural.",
+      "1": "Embora a posicao geografica influencie as cadeias logisticas e o acesso a mercados, nao e o fator mais determinante para a relocalizacao industrial para paises como Bangladesh, Vietna e Camboja. O baixo custo da mao de obra supera a importancia da localizacao geografica como fator de atracao.",
+      "2": "O ensino superior e relevante para setores de alta tecnologia, mas a maioria das industrias relocalizadas para paises asiaticos perifericos busca mao de obra barata para producao manufatureira de baixa a media complexidade. O nivel de qualificacao educacional nao e o fator central para esse tipo de industria.",
+      "3": "A qualidade da rede logistica e relevante para a competitividade industrial, mas paises com deficiencias logisticas ainda atraem industrias pelo baixo custo da mao de obra. A presenca de zonas francas e portos eficientes e complementar, mas secundaria em relacao ao fator salarial."
+    }
   },
   {
     "id": 8,
@@ -194,7 +234,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa incorreta sobre o Afeganistão é a D: o país tem população predominantemente islâmica (99%) e grande heterogeneidade étnica — pashtuns, tajiques, hazaras, uzbiques. Essa diversidade étnica foi um dos fatores da guerra civil e da dificuldade de construção de um Estado nacional coeso.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre o Afeganistão. Lembre-se das características: relevo montanhoso, país islâmico, passou por regime talibã nos anos 1990, e foi invadido pelos EUA em 2001. Identifique qual informação contradiz a realidade afegã."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre o Afeganistão. Lembre-se das características: relevo montanhoso, país islâmico, passou por regime talibã nos anos 1990, e foi invadido pelos EUA em 2001. Identifique qual informação contradiz a realidade afegã.",
+    "feedbacks": {
+      "0": "Esta afirmacao e CORRETA: o Afeganistao e de fato um pais com relevo extremamente acidentado, dominado pela cordilheira do Hindu Kush, e e um Estado sem saida para o mar (landlocked), cercado por Ira, Paquistao, Turkmenistao, Uzbequistao, Tajiquistao e China.",
+      "1": "Esta afirmacao e CORRETA: a antiga Uniao Sovietica invadiu o Afeganistao em dezembro de 1979 e manteve tropas no pais ate sua retirada em fevereiro de 1989, uma guerra que durou quase toda a decada de 1980 e contribuiu para o colapso da URSS.",
+      "2": "Esta afirmacao e CORRETA: durante o regime dos talibas (1996-2001), o Afeganistao abrigou Osama bin Laden e a organizacao Al-Qaeda, o que levou os EUA a invadir o pais em outubro de 2001 apos os atentados do 11 de Setembro.",
+      "4": "Esta afirmacao e CORRETA: o Afeganistao faz fronteira com o Ira a oeste e o Paquistao a leste, funcionando geograficamente como um elo entre o Oriente Medio e o Sul da Asia, o que lhe confere importancia geopolitica estrategica ha seculos."
+    }
   },
   {
     "id": 9,
@@ -218,32 +264,43 @@
     ],
     "correta": 2,
     "comentario": "<p>A Ásia pode ser regionalizada em: Oriente Médio (árabe-islâmico), Ásia Meridional (subcontinente indiano, hinduísta-islâmico), Ásia Central (turco-muçulmana), Sudeste Asiático (budista-hindu-islâmico) e Leste Asiático (confuciano-budista). Cada sub-região tem características culturais e religiosas próprias.</p>",
-    "ajuda": "A Ásia pode ser dividida em grandes sub-regiões com base em critérios culturais e religiosos: Oriente Médio (islâmico-árabe), Ásia Meridional (hindu-islâmico), Ásia Central, Sudeste Asiático e Leste Asiático (confuciano). Pense em qual par de sub-regiões corresponde ao mapa."
+    "ajuda": "A Ásia pode ser dividida em grandes sub-regiões com base em critérios culturais e religiosos: Oriente Médio (islâmico-árabe), Ásia Meridional (hindu-islâmico), Ásia Central, Sudeste Asiático e Leste Asiático (confuciano). Pense em qual par de sub-regiões corresponde ao mapa.",
+    "feedbacks": {
+      "0": "A Asia Oriental (China, Japao, Coreia) tem populacao islamica muito reduzida, com o islamismo sendo minoritario nessa subregiao. A combinacao 'Sudeste Asiatico e Asia Oriental' nao descreve adequadamente as regioes de maior concentracao islamica fora do nucleo arabe.",
+      "1": "Embora a Asia Meridional tenha grande populacao muculmana (Paquistao, Bangladesh e minoria indiana), a combinacao 'Asia Meridional e Asia Central' nao capta as duas regioes com maior concentracao islamica indicadas. A Asia Central tem forte presenca islamica, mas a questao aponta para o Oriente Medio e o Sudeste Asiatico.",
+      "3": "A Asia Central tem forte presenca islamica, mas a combinacao 'Asia Central e Sudeste Asiatico' omite o Oriente Medio, que e o centro historico do mundo islamico. Sem o Oriente Medio na resposta, a combinacao nao reflete as duas regioes de maior concentracao e importancia islamica.",
+      "4": "A Asia Meridional tem grande populacao muculmana (Paquistao e Bangladesh juntos somam mais de 300 milhoes de muculmanos), mas a combinacao 'Oriente Medio e Asia Meridional' nao e o par indicado pela questao. O Sudeste Asiatico (Indonesia, Malaysia, Brunei) tem a maior populacao muculmana do mundo em termos absolutos."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UFG",
-    "ano": "2010",
-    "dificuldade": "dificil",
-    "tags": [
-      "países islâmicos",
-      "contradições",
-      "religião",
-      "modernidade",
-      "geopolítica"
-    ],
-    "texto_apoio": "“Um homicídio perpetrado em nome da honra, no Paquistão, no Bangladesh ou na Jordânia, será objeto de circunstâncias atenuantes em virtude do respeito pelas leis consuetudinárias. No que se refere ao Afeganistão, em termos gerais, a Comissão dos Direitos do Homem das Nações Unidas chama a atenção para o fato de ser muito rara a ação judicial contra os autores de crimes contra mulheres. Ainda assim, no Paquistão, de acordo com a lei em vigor, os autores de crimes de honra estão sujeitos à pena de morte; na Turquia, a lei os condena à prisão perpétua; na Jordânia, o príncipe nomeado conselheiro para assuntos tribais posicionou se contra os códigos consuetudinários relativos às questões de honra”.",
-    "fonte_apoio": "TREINER, Sandrine. Em nome da honra: crimes no mundo muçulmano. Disponível em: http:condicaodamulherwordpress.com. Acesso em: 12 de set. de 2009. [Adaptado].",
-    "pergunta": "Leia o texto a seguir.\n\nOs países islâmicos citados no texto apresentam casos paradigmáticos que materializam um paradoxo recorrente às culturas tradicionais, no mundo moderno. Com base na leitura do texto e considerando os exemplos nele citados, conclui-se que esse paradoxo se expressa na relação entre a:",
+    "ano": "UNICAMP 2026",
+    "imagem_apoio": "3ano/img/331/unicamp26q4.png",
+    "texto_apoio": "Os conflitos entre Índia e Paquistão se acirraram em 2025, entre outros fatores, pela disputa de recursos hídricos na bacia hidrográfica do rio Indo. Em setembro de 1960, os dois países firmaram o Tratado das Águas do Indo, que regula o uso compartilhado das águas desse sistema fluvial. Ao longo dos anos, a Índia manifestou, em diferentes ocasiões, a intenção de se desvincular do acordo. Em resposta, o governo paquistanês declarou que qualquer tentativa de bloqueio hídrico seria considerada um 'ato de guerra'.",
+    "fonte_apoio": "Adaptado de https://www.nytimes.com/2025/04/24/world/asia/india-pakistan-indus-waters-treaty.html. Acesso em 12/05/2025. Elaboração do mapa: COMVEST, 2025.",
+    "pergunta": "A partir da leitura do mapa e do texto, é correto afirmar que os afluentes",
     "alternativas": [
-      "obrigação de proteger a honra e a introdução das leis nacionais nos códigos tribais",
-      "rejeição das comunidades à prática na violência e a aceitação jurídica dos códigos consuetudinários.",
-      "tradição em vigor nas comunidades e o princípio jurídico que atende às pressões internacionais.",
-      "condição de submissão das mulheres e o apoio das Nações Unidas às tradições locais.",
-      "crença espiritual das gerações mais velhas e a modernização da doutrina religiosa."
+      "são rios drenados para o interior do continente (endorreicos) e escoam em direção à jusante, onde se localizam áreas agrícolas do Paquistão. Por isso, eventuais represamentos pela Índia comprometeriam a economia paquistanesa.",
+      "são rios drenados para o oceano (exorreicos) situados na montante do território indiano. Isso permitiria ao Paquistão represar sua vazão e reduzir o abastecimento indiano destinado às atividades agropecuárias e industriais.",
+      "são rios drenados para o interior do continente (endorreicos) e correm em direção à jusante, comprometendo as atividades econômicas das áreas urbanizadas do Paquistão que dependem da vazão originada nos afluentes situados na Índia.",
+      "são rios drenados para o oceano (exorreicos) situados na montante do Paquistão. Isso permitiria à Índia controlar seu fluxo, afetando as atividades agrícolas paquistanesas e comprometendo a economia do Paquistão."
     ],
-    "correta": 2,
-    "comentario": "<p>O paradoxo descrito é a tensão entre a tradição consuetudinária (que tolera crimes de honra) e os princípios jurídicos modernos (que os condenam). Países como Turquia e Paquistão criaram leis contra esses crimes sob pressão internacional, mas a prática persistia, revelando o conflito entre ordem legal e costumes tribais.</p>",
-    "ajuda": "O paradoxo mencionado no texto refere-se a culturas islâmicas que apresentam contradições entre valores tradicionais e práticas modernas, especialmente em relação ao papel da mulher. Pense em qual aspecto dessa contradição o texto exemplifica."
+    "correta": 3,
+    "comentario": "Dois conceitos são centrais: (1) o Indo deságua no Oceano Índico — é exorreico, não endorreico; (2) montante (rio acima, próximo às nascentes) vs. jusante (rio abaixo, próximo à foz). A Índia ocupa posição a montante dos afluentes que abastecem o Paquistão, o que lhe confere poder de controlar o fluxo que chega ao país vizinho — daí a ameaça paquistanesa de considerar qualquer bloqueio como 'ato de guerra'.",
+    "ajuda": "Dois conceitos resolvem a questão: (1) o Indo deságua no Oceano Índico — é endorreico ou exorreico? (2) Quem está a montante (rio acima) controla o fluxo para quem está a jusante (rio abaixo). Índia ou Paquistão ocupa a posição de maior controle?",
+    "tags": [
+      "recursos hídricos",
+      "geopolítica",
+      "bacia hidrográfica do rio Indo",
+      "Índia",
+      "Paquistão",
+      "rios exorreicos"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "O Indo deságua no Oceano Índico — é exorreico, não endorreico. Esse erro de classificação compromete toda a alternativa, mesmo que a dependência agrícola do Paquistão esteja corretamente identificada.",
+      "1": "Inverte a posição dos países: não é o Paquistão que está a montante com poder de controlar o fluxo indiano. É a Índia que ocupa posição de montante, podendo afetar o abastecimento do Paquistão.",
+      "2": "Classifica os rios como endorreicos — erro fundamental. O sistema do rio Indo é exorreico. Além disso, desloca o foco para 'áreas urbanizadas', enquanto o texto aponta a dependência agrícola paquistanesa como o fator estratégico."
+    }
   }
 ]

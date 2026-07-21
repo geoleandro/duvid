@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O arco de instabilidade sul-americano (região amazônica) é marcado pelo tráfico de drogas, guerrilhas, disputas por fronteiras e extrema pobreza. Já o Cone Sul — fortalecido pelo Mercosul e por democracias consolidadas — forma um arco de estabilidade. Essa diferença geopolítica interna reflete as desigualdades de desenvolvimento na região.</p>",
-    "ajuda": "A geopolítica sul-americana no século XXI é marcada por tensões entre movimentos progressistas e conservadores, pela questão do narcotráfico, pela pobreza e por conflitos relacionados a recursos naturais. Identifique qual análise reflete mais adequadamente essa conjuntura."
+    "ajuda": "A geopolítica sul-americana no século XXI é marcada por tensões entre movimentos progressistas e conservadores, pela questão do narcotráfico, pela pobreza e por conflitos relacionados a recursos naturais. Identifique qual análise reflete mais adequadamente essa conjuntura.",
+    "feedbacks": {
+      "1": "Evo Morales era um governo de esquerda indigenista e socialista, nao neoliberal. Classifica-lo como governo neoliberal que defende interesses das elites inverte completamente o perfil politico de seu governo, que foi marcado pela nacionalizacao de recursos naturais e por politicas de inclusao de populacoes indigenas.",
+      "2": "A instabilidade contemporanea na America do Sul nao e marcada primariamente pela busca de ditaduras militares; e caracterizada por tensoes sociais, desigualdade, narcotrafico e conflitos etnicos. Os golpes militares classicos do seculo XX foram substituidos por outras formas de instabilidade politica e social.",
+      "3": "Bolivia com Evo Morales e Equador com Rafael Correa foram governos de esquerda criticos dos EUA e do neoliberalismo, e nao aliados ou alinhados aos americanos. O alinhamento a Washington seria o oposto de suas posturas reais de soberania nacional e integracao sul-americana.",
+      "4": "O Brasil nao assume postura imperialista territorial na America do Sul; tem historico de cooperacao diplomatica e liderança regional pelo dialogo. A ideia de expansao territorial brasileira por meios militares nao tem base historica nem correspondencia com a atuacao externa do pais."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Com a dissolução da URSS em 1991, Cuba perdeu o principal apoio econômico que sustentava sua economia — o que gerou a crise do 'Período Especial'. O país manteve o socialismo mas ficou isolado como único Estado de inspiração soviética nas Américas, dependendo de novas parcerias como Venezuela e China.</p>",
-    "ajuda": "Com o fim do bloco soviético em 1991, Cuba ficou isolada como único Estado socialista nas Américas. Pense em qual consequência específica esse isolamento trouxe para Cuba no cenário hemisférico americano."
+    "ajuda": "Com o fim do bloco soviético em 1991, Cuba ficou isolada como único Estado socialista nas Américas. Pense em qual consequência específica esse isolamento trouxe para Cuba no cenário hemisférico americano.",
+    "feedbacks": {
+      "0": "A America Central mantem importancia estrategica para os EUA apos o fim do socialismo soviético, especialmente em funcao do trafico de drogas, da migracao e de tensoes politicas regionais. Os EUA nunca deixaram de ter presenca e interesses na America Central.",
+      "1": "Cuba nao abandonou o socialismo apos o fim da URSS; ao contrario, manteve o modelo de economia planificada e o partido unico. Afirmar que Cuba se tornou paraiso fiscal e completamente contrario a realidade politica e economica do pais.",
+      "2": "Os EUA nao venderam o Canal do Panama; transferiram o controle ao governo panamenho em 1999, apos acordo assinado em 1977 pelo Tratado Torrijos-Carter. O processo foi uma cessao de soberania, e nao uma transacao comercial a uma empresa internacional.",
+      "3": "As tensoes na America Central nao desapareceram com o fim do socialismo sovietico; persistem problemas como pobreza, desigualdade, narcotrafico e violencia que geram instabilidade continua. O fim da bipolaridade nao eliminou os conflitos estruturais da regiao."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Todas as afirmativas sobre os Países Andinos são corretas: os Andes são jovens e vulcânicos; as populações históricas se concentram nos altiplanos (herança inca); e a instabilidade política decorre de economias dependentes de commodities com grandes desigualdades sociais.</p>",
-    "ajuda": "Os Países Andinos têm a Cordilheira dos Andes como elemento físico central. Avalie as afirmativas sobre suas características geográficas e identifique quais são verdadeiras com base no seu conhecimento sobre a região."
+    "ajuda": "Os Países Andinos têm a Cordilheira dos Andes como elemento físico central. Avalie as afirmativas sobre suas características geográficas e identifique quais são verdadeiras com base no seu conhecimento sobre a região.",
+    "feedbacks": {
+      "0": "Selecionar apenas a proposicao I exclui as proposicoes II e III, que tambem sao verdadeiras. As tres afirmativas descrevem aspectos corretos sobre os Paises Andinos e devem ser incluidas na resposta completa.",
+      "1": "Selecionar apenas a proposicao II exclui as proposicoes I e III, igualmente corretas. Restringir a resposta a uma unica proposicao ignora outros aspectos verdadeiros sobre os Paises Andinos.",
+      "2": "Nenhuma das proposicoes ser verdadeira contraria o conhecimento geografico sobre os Paises Andinos. As tres proposicoes descrevem aspectos reais sobre a cordilheira dos Andes, a populacao e as atividades economicas desses paises.",
+      "4": "A proposicao I tambem e correta e deve ser incluida. Selecionar apenas II e III deixa de fora uma afirmativa verdadeira sobre os Paises Andinos, tornando a resposta incompleta."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa incorreta sobre a Argentina afirma que a última crise econômica levou o país a abandonar o Mercosul. Isso nunca ocorreu — a Argentina permanece membro fundador do bloco, apesar das crises de 2001 e 2018. O colapso do modelo de câmbio fixo em 2001 gerou a maior moratória da história até então.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a Argentina. Lembre-se de suas características: grande extensão territorial, população de maioria europeia, economia baseada no agronegócio e histórico de crises econômicas. Identifique qual informação está equivocada."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a Argentina. Lembre-se de suas características: grande extensão territorial, população de maioria europeia, economia baseada no agronegócio e histórico de crises econômicas. Identifique qual informação está equivocada.",
+    "feedbacks": {
+      "0": "A Argentina apresenta de fato grande variedade climatica, do subtropical umido no norte ao clima polar e desertico no sul, e a populacao se concentra principalmente na regiao de Buenos Aires e no litoral atlantico. Essa afirmacao esta correta.",
+      "1": "A Argentina tinha cerca de 44 milhoes de habitantes em 2018, com populacao majoritariamente branca (de origem espanhola e italiana), adulta, urbana e concentrada no sul do pais e na Grande Buenos Aires. Essa afirmacao esta correta.",
+      "2": "A Argentina passou por diversas crises economicas, sendo que uma das mais graves (2001-2002) esteve relacionada ao regime de conversibilidade que valorizou artificialmente o peso argentino frente ao dolar. Essa afirmacao esta correta como descricao do historico de instabilidade economica do pais.",
+      "4": "Historicamente a Argentina se caracteriza pela exportacao de produtos primarios como cereais (soja, trigo, milho), carne bovina, couro e derivados, que sao a base de sua pauta exportadora. Essa afirmacao esta correta como descricao do perfil economico tradicional argentino."
+    }
   },
   {
     "id": 5,
@@ -114,7 +138,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A renúncia de Evo Morales em 2019 foi precipitada por denúncias da OEA de irregularidades eleitorais, pela pressão militar e por protestos massivos. O contexto real: Morales tentava um quarto mandato contestado por um referendo que havia recusado esse pedido em 2016 — gerando a crise de legitimidade.</p>",
-    "ajuda": "Em 2019, Evo Morales renunciou após denúncias de fraude eleitoral. Esse evento está inserido em um contexto mais amplo de instabilidade política na América Latina. Avalie qual fator foi determinante para a renúncia e as reações que se seguiram."
+    "ajuda": "Em 2019, Evo Morales renunciou após denúncias de fraude eleitoral. Esse evento está inserido em um contexto mais amplo de instabilidade política na América Latina. Avalie qual fator foi determinante para a renúncia e as reações que se seguiram.",
+    "feedbacks": {
+      "0": "A OEA de fato apontou irregularidades no processo eleitoral boliviano de 2019, recomendando novas eleicoes. Afirmar que, apesar disso, nao foi impugnado o processo contradiz o proprio encaminhamento dado apos o relatorio da OEA, que serviu de base para pressoes pelo cancelamento do resultado.",
+      "1": "Os protestos e o posicionamento dos militares foram elementos reais do processo que culminou na renuncia de Evo Morales. No entanto, esses fatores foram consequencias de uma crise mais ampla; a alternativa correta indica o elemento especifico que a questao aponta como pivo da crise.",
+      "3": "A resistencia popular e as criticas de ataques a imprensa e falta de transparência sao aspectos que marcaram o fim do governo de Evo Morales. No entanto, a questao pede o pivo especifico do pedido de renuncia, que a alternativa correta identifica de forma mais precisa."
+    }
   },
   {
     "id": 6,
@@ -139,7 +168,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Gabriel Boric venceu a eleição presidencial chilena em dezembro de 2021, tornando-se o presidente mais jovem da história do Chile (36 anos). Ao citar Salvador Allende em seu discurso de posse, explicitou sua filiação histórica ao socialismo democrático chileno — ruptura com a herança da Constituição pinochetista.</p>",
-    "ajuda": "O discurso de posse de Gabriel Boric, presidente do Chile eleito em 2021, reflete uma postura política progressista com referências históricas específicas. Pense em qual princípio político ou referência histórica chilena seu discurso evoca."
+    "ajuda": "O discurso de posse de Gabriel Boric, presidente do Chile eleito em 2021, reflete uma postura política progressista com referências históricas específicas. Pense em qual princípio político ou referência histórica chilena seu discurso evoca.",
+    "feedbacks": {
+      "0": "Gabriel Boric foi eleito com a proposta de superar a Constituicao promulgada durante o regime militar de Pinochet (1980), convocando um processo constituinte. Defender os principios dessa Constituicao seria o oposto de seu programa politico.",
+      "1": "Boric tem compromisso com os direitos dos povos indigenas, especialmente os Mapuche, o que implica reconhecer os conflitos historicos entre brancos e nativos, e nao reafirmar um mito de harmonia. Seu discurso e de reparacao historica, nao de negacao dos conflitos.",
+      "2": "Boric tem postura progressista sobre imigração; nao endossa intolerância xenofobica. Sua trajetoria politica e de defesa de direitos e inclusao, o que contradiz a ideia de endossar intolerância ao crescimento da imigracao.",
+      "3": "Boric e de esquerda progressista e sua eleicao foi contra a candidatura de direita de Jose Antonio Kast. Associa-lo ao recente avanco eleitoral da direita latino-americana inverte completamente sua posicao politica e o contexto de sua eleicao."
+    }
   },
   {
     "id": 7,
@@ -164,7 +199,13 @@
     ],
     "correta": 1,
     "comentario": "<p>As FARC (Forças Armadas Revolucionárias da Colômbia) foram fundadas em 1964 com inspiração marxista e se sustentaram por décadas por meio do narcotráfico. O acordo de paz de 2016 com o governo Santos foi aprovado pela ONU e marcou o fim do conflito armado mais longo da América Latina.</p>",
-    "ajuda": "As FARC (Forças Armadas Revolucionárias da Colômbia) foram uma das maiores guerrilhas da América Latina, com inspiração marxista, existindo por mais de 50 anos. O texto descreve um acordo de paz histórico. Identifique o grupo correto."
+    "ajuda": "As FARC (Forças Armadas Revolucionárias da Colômbia) foram uma das maiores guerrilhas da América Latina, com inspiração marxista, existindo por mais de 50 anos. O texto descreve um acordo de paz histórico. Identifique o grupo correto.",
+    "feedbacks": {
+      "0": "O MPLA (Movimento Popular de Libertacao de Angola) e um grupo guerrilheiro angolano que lutou contra o colonialismo portugues. Nao tem nenhuma relacao com a Colombia nem com o conflito descrito no excerto.",
+      "2": "O ELK nao e uma sigla reconhecida para um grupo colombiano; o principal grupo guerrilheiro colombiano alem das FARC e o ELN (Exercito de Libertacao Nacional). A alternativa apresenta uma sigla incorreta que nao corresponde a nenhum grupo real relevante no conflito colombiano.",
+      "3": "O ETA e o grupo separatista basco espanhol (Euskadi Ta Askatasuna), de origem europeia e sem relacao com a Colombia. O conflito colombiano envolve grupos guerrilheiros de inspiracao marxista e narcotrafico, e nao movimentos separatistas europeus.",
+      "4": "A ALN (Acao Libertadora Nacional) foi a organizacao armada brasileira liderada por Carlos Marighella nos anos 1960 e 1970, voltada ao combate da ditadura militar brasileira. Nao tem qualquer relacao com a Colombia nem com o conflito que o excerto aborda."
+    }
   },
   {
     "id": 8,
@@ -189,54 +230,78 @@
     ],
     "correta": 3,
     "comentario": "<p>A crise venezuelana combina queda dos preços do petróleo (de US$ 100/barril em 2014 para US$ 25 em 2016), má gestão econômica, hiperinflação e isolamento internacional. Um país com as maiores reservas de petróleo do mundo colapsou por depender quase que exclusivamente dessa commoditie sem diversificação econômica.</p>",
-    "ajuda": "A crise venezuelana resulta da combinação de fatores: queda do preço do petróleo, má gestão econômica e sanções internacionais. Pense em qual causa estrutural mais diretamente explica o colapso econômico e a crise humanitária na Venezuela."
+    "ajuda": "A crise venezuelana resulta da combinação de fatores: queda do preço do petróleo, má gestão econômica e sanções internacionais. Pense em qual causa estrutural mais diretamente explica o colapso econômico e a crise humanitária na Venezuela.",
+    "feedbacks": {
+      "0": "As FARC sao uma guerrilha colombiana, e nao venezuelana; a Venezuela nao travou guerra contra as FARC. Confundir o conflito colombiano com a crise venezuelana ignora que os dois paises, embora vizinhos, enfrentam problemas distintos de natureza e origem diferentes.",
+      "1": "Embora o narcotrafico seja um problema presente na Venezuela, a causa estrutural da crise venezuelana foi a dependencia excessiva do petroleo e a queda abrupta de seus precos a partir de 2014. Atribuir a crise principalmente ao controle do narcotrafico sobre o Estado simplifica um fenomeno muito mais complexo.",
+      "2": "A Venezuela nao perdeu mercado principalmente pela concorrencia de petroleo brasileiro e mexicano; o petroleo venezolano e pesado e sua producao caiu por desinvestimento e falta de manutencao. A causa da crise foi a queda dos precos internacionais do petroleo que afetou toda a OPEP, e nao concorrencia de qualidade.",
+      "4": "Cuba e uma aliada politica da Venezuela; nao ha exploracao predatoria cubana do petroleo venezuelano com remessa de lucros. A cooperacao Venezuela-Cuba envolvia trocas de petroleo por servicos medicos e assessoria tecnica, e nao exploracao economica."
+    }
   },
   {
     "id": 9,
-    "instituicao": "CESGRANRIO",
-    "ano": "2011",
-    "dificuldade": "media",
-    "tags": [
-      "cuba",
-      "transformações econômicas",
-      "socialismo",
-      "abertura econômica"
-    ],
-    "texto_apoio": "“As tímidas reformas iniciadas pelo Presidente Raúl Castro não têm dado os resultados esperados. Um informe oficial do governo cubano revelou que, dos mais de 1 milhão de hectares de terras estatais entregues em usufruto a novos produtores em 2008, para aumentar a oferta de alimentos, 54% continuam improdutivas. Cuba, fortemente atingida pela crise econômica global e vários furacões em 2008, muito tem investido anualmente na importação de alimentos, e precisa urgentemente produzir mais…”.",
-    "fonte_apoio": "“Cuba dá um passo à frente, outro atrás”. O Globo. Caderno Opinião, 1º caderno, 22/08/2010, p.06.",
-    "pergunta": "Com base no contexto acima, a respeito dos resultados das recentes transformações econômicas realizadas em Cuba, é correto afirmar que a(o):",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "3ano/img/323/fuvest26q11.png",
+    "texto_apoio": "A anexação, definida como a incorporação unilateral de território de outro Estado, é proibida pela Carta das Nações Unidas e pelo direito internacional geral, que enfatizam a proibição do uso da força e o respeito à integridade territorial dos Estados (Carta da ONU, 1945).\n\n[Mapa — Região do Essequibo (Guiana Essequiba), território disputado entre Venezuela e Guiana, com indicação das fronteiras e recursos naturais da área.]",
+    "fonte_apoio": "Disponível em https://www.parlamentomercosur.org. Adaptado.",
+    "pergunta": "Partindo da carta da ONU e do mapa, é possível indicar que se refere",
     "alternativas": [
-      "reestruturação cubana se baseia principalmente em uma reforma agrária concentrada em produtos de exportação, tais como: fumo, cana-de-açúcar e gêneros alimentícios, em resposta à posição do governo Barack Obama de reforçar o embargo econômico decretado há mais de 40 anos pelos Estados Unidos.",
-      "escassez de alimentos sempre foi uma das maiores dificuldades de governo cubano e, aliada a imposições econômicas e aos poucos incentivos dados aos agricultores, contribuiu ainda mais para a queda da produção agrícola.",
-      "presidente Castro permitiu a ampliação da base militar de Guantánamo, em troca de empréstimos norte-americanos para a recuperação econômica de Cuba.",
-      "governo cubano vem investindo nas atividades ligadas à exportação de bens e serviços, com a finalidade de combater o problema mais imediato no país, que é a escassez de divisas.",
-      "governo cubano tem se aproximado do Grupo dos Oito (G8), como forma de atrair investimentos estrangeiros, mas as negociações são dificultadas pela recusa renitente de Cuba a reingressar na Organização dos Estados Americanos (OEA)."
+      "à invasão das tropas venezuelanas à área que pertence a fronteira norte do Brasil, contrariando o Acordo de Genebra.",
+      "à retomada de áreas da região de Essequibo, pelo Suriname, que foram invadidas pelo exército venezuelano na crescente tensão com a Guiana.",
+      "à anexação da região do rio Orinoco, rico em reservas minerais, pela Venezuela, conforme preconiza o Acordo de Genebra.",
+      "aos novos limites definidos para o território da Venezuela em acordos com o Mercosul em conformidade com o Protocolo Porto de Espanha.",
+      "à anexação da região de Essequibo pela Venezuela, contrariando a Arbitragem de 1904 que determinou que a área deveria ficar sob jurisdição da Guiana."
     ],
-    "correta": 1,
-    "comentario": "<p>As reformas de Raúl Castro em Cuba foram tímidas: permissão para compra e venda de imóveis e automóveis, abertura de pequenos negócios privados e distribuição de terras ociosas. Mas 54% dessas terras continuaram improdutivas, evidenciando que problemas estruturais — falta de insumos, mercados limitados — persistem.</p>",
-    "ajuda": "As reformas econômicas em Cuba permitiram certa abertura ao mercado, especialmente no setor de turismo e pequenas empresas privadas. Pense em qual aspecto dessas reformas é corretamente descrito pela alternativa, sem confundir com uma mudança radical do sistema socialista."
+    "correta": 4,
+    "comentario": "O mapa destaca o território de Essequibo (Guiana Essequiba), reivindicado pela Venezuela desde o século XIX. Nos anos de 2023 e 2024, o governo venezuelano ameaçou invadir e incorporar essa região — ato que configura uma ANEXAÇÃO, expressamente proibida pela Carta da ONU. A Arbitragem de Paris (referenciada como 1904 na questão) determinou que a área deveria permanecer sob jurisdição da Guiana, mas a Venezuela não reconhece esse resultado.",
+    "ajuda": "O texto define 'anexação' como incorporação unilateral de território alheio, proibida pela ONU. O mapa mostra o Essequibo, território disputado. Nos anos recentes (2023-2024), qual país ameaçou incorporar esse território — e contra a decisão de qual instância internacional?",
+    "tags": [
+      "geopolítica",
+      "Essequibo",
+      "Venezuela",
+      "Guiana",
+      "território",
+      "ONU",
+      "direito internacional"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Não houve invasão de tropas venezuelanas ao Brasil. O conflito é exclusivamente entre Venezuela e Guiana sobre o Essequibo. O Brasil não é parte da disputa territorial apresentada no mapa.",
+      "1": "O Suriname não reivindica nem invadiu o Essequibo. A disputa é entre Venezuela e Guiana. O Suriname tem uma disputa territorial própria com a Guiana em outro ponto da fronteira, mas não envolve o Essequibo.",
+      "2": "O rio Orinoco fica inteiramente dentro do território venezuelano — não há disputa sobre ele. A Venezuela reivindica o Essequibo (a oeste do Rio Essequibo), não uma área delimitada pelo Orinoco. O Acordo de Genebra (1966) estabelece procedimentos de negociação, não autoriza nem preconiza a anexação.",
+      "3": "Não existem acordos do Mercosul que redefinam os limites da Venezuela. O Essequibo não foi resolvido por nenhum tratado multilateral. O Protocolo de Porto de Espanha (1970) suspendeu temporariamente as discussões — não estabeleceu novos limites para a Venezuela."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UFG",
-    "ano": "2008",
-    "dificuldade": "dificil",
-    "tags": [
-      "américa latina",
-      "movimentos sociais",
-      "esquerda",
-      "democracia"
-    ],
-    "pergunta": "Nos anos de 1990, na América Latina, abandona-se a ideia clássica de revolução, sem que isso signifique o desaparecimento da luta armada, como é o caso do Exército Zapatista de Libertação Nacional (EZLN). Nesse contexto, as novas ações dos movimentos sociais relacionam-se à:",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "3ano/img/323/fuvest26q6.png",
+    "texto_apoio": "Observe o mapa e o gráfico:",
+    "fonte_apoio": "Disponível em https://portaldeimigracao.mj.gov.br. Adaptado. Atlas Temático do Observatório das Migrações em São Paulo. Adaptado.",
+    "pergunta": "A partir do mapa e do gráfico, assinale a alternativa correta sobre o contexto apresentado na região Sul.",
     "alternativas": [
-      "deflagração de golpes militares, considerando a necessidade de conciliação nacional.",
-      "implementação de reformas políticas, visando à modernização do Estado.",
-      "demanda por um governo central forte, legitimando as políticas assistencialistas.",
-      "implantação de um modelo socialista, objetivando a integração continental.",
-      "utilização de estratégias de desgaste político, dispensando a tomada do poder do Estado."
+      "A segurança social garantida por rendas maiores favorece o emprego formal no setor de serviços.",
+      "Os imigrantes cadastrados nessa região têm renda superior a um salário-mínimo, demonstrando maior segurança social.",
+      "O alto número de imigrantes cadastrados no CadÚnico deve-se pela empregabilidade qualificada no comércio.",
+      "A redução na vulnerabilidade social dos imigrantes é resultado do alto nível de escolaridade na indústria.",
+      "Os baixos salários na indústria alimentícia refletem-se na vulnerabilidade dos imigrantes estrangeiros."
     ],
     "correta": 4,
-    "comentario": "<p>Nos anos 1990, movimentos como o Zapatista (México) ou o MST (Brasil) substituíram a guerrilha armada por novas estratégias: desgaste político, mobilização midiática, pressão social e participação eleitoral. Essa mudança refletiu o esgotamento da via armada e a adaptação à redemocratização latino-americana.</p>",
-    "ajuda": "Nos anos 1990, a América Latina abandonou a luta armada revolucionária e passou a adotar reformas políticas dentro da democracia. Pense em qual estratégia substituiu a guerrilha como forma de transformação social na região."
+    "comentario": "O gráfico de vínculos formais na região Sul (2023) mostra alta concentração de imigrantes no setor industrial — especialmente no processamento de carnes (indústria alimentícia). O mapa do CadÚnico confirma que muitos desses trabalhadores têm renda mensal de até meio salário-mínimo. A combinação revela um padrão de inserção precária no mercado formal: emprego na agroindústria de baixos salários → vulnerabilidade socioeconômica.",
+    "ajuda": "O mapa mostra onde se concentram imigrantes de baixa renda (CadÚnico) e o gráfico mostra em quais setores eles trabalham formalmente na região Sul. Qual setor domina, e como os salários desse setor explicam a vulnerabilidade dos imigrantes?",
+    "tags": [
+      "migração internacional",
+      "vulnerabilidade social",
+      "região Sul",
+      "mercado de trabalho",
+      "imigrantes estrangeiros"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Afirmar que salários maiores favorecem o emprego formal nos serviços inverte o raciocínio dos dados. Os imigrantes de baixa renda (CadÚnico) concentram-se no setor industrial — não de serviços — e por causa de salários baixos, não de segurança social.",
+      "1": "O mapa do CadÚnico mostra imigrantes com renda ATÉ meio salário-mínimo — ou seja, renda muito baixa, não superior a um salário-mínimo. A alternativa contradiz diretamente os dados do mapa.",
+      "2": "O gráfico mostra alta empregabilidade na INDÚSTRIA, não no comércio. E o CadÚnico indica baixa renda, não empregabilidade qualificada.",
+      "3": "A redução da vulnerabilidade por 'alto nível de escolaridade na indústria' não é sustentada pelos dados. A maioria dos imigrantes na região Sul atua em funções de baixa qualificação na agroindústria."
+    }
   }
 ]

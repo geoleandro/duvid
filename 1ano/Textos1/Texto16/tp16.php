@@ -208,9 +208,19 @@
     
         <p><strong>Como Funciona?</strong> O calor subterrâneo aquece a água, gerando vapor que movimenta turbinas e produz eletricidade.</p>
         <p><strong>Exemplo Prático:</strong> A Islândia é um dos maiores exemplos de uso da energia geotérmica, empregando-a para aquecer residências e gerar eletricidade.</p>
-        <p><strong>Vantagens:</strong> Fonte constante e independente do clima.</p>
-        <p><strong>Desafios:</strong> Necessita de locais específicos com significativa atividade geotérmica, como regiões vulcânicas.</p>
-    
+        <p><strong>Vantagens:</strong> Fonte constante e independente do clima. Ao contrário da energia solar e eólica, ela é chamada de fonte de base (baseload), pois fornece um fluxo constante de energia, sem depender das condições climáticas do momento.</p>
+        <p><strong>Desafios:</strong> Necessita de locais específicos com significativa atividade geotérmica, como regiões vulcânicas ou de intensa atividade tectônica. O principal obstáculo técnico é perfurar com segurança quilômetros de rocha aquecida para captar esse calor. Ainda que seja uma fonte praticamente inesgotável e livre de carbono, a energia geotérmica atende hoje a uma parcela muito pequena da demanda energética mundial, muito atrás dos combustíveis fósseis.</p>
+
+        <p><strong>Quênia e o Grande Vale do Rift:</strong> Na África Oriental, o Quênia é o país líder do continente
+            em energia geotérmica, com essa fonte respondendo por mais de 40% de toda a eletricidade gerada no país.
+            Isso é possível porque o território queniano está situado sobre o Grande Vale do Rift (Great Rift
+            Valley), uma extensa fenda no terreno formada por um <strong>movimento divergente de placas
+            tectônicas</strong>: as placas Somali e Núbia estão lentamente se afastando uma da outra, adelgaçando a
+            crosta continental e permitindo que o magma se aproxime da superfície. Esse calor magmático aquece a
+            água subterrânea da região, criando exatamente as condições geológicas necessárias para a exploração de
+            energia geotérmica em larga escala, o que explica por que boa parte do potencial geotérmico do
+            continente africano está concentrado ao longo dessa faixa de vale do rift no leste da África.</p>
+
         <hr>
     
         <h2>5. Energia Maremotriz</h2>
@@ -237,6 +247,16 @@
         <p><strong>Exemplo Prático:</strong> Sistemas avançados de armazenamento, como baterias, permitem o uso da energia solar captada durante o dia para abastecer a demanda à noite.</p>
     
         <p><strong>Benefícios:</strong> A integração melhora a eficiência e torna o fornecimento de energia mais confiável, reduzindo a dependência de fontes fósseis.</p>
+
+        <p><strong>O limite das baterias:</strong> A eletromobilidade, isto é, a substituição de veículos movidos a
+            combustíveis fósseis por carros elétricos, costuma ser apresentada como uma solução limpa para o
+            transporte. Porém, essa transição também tem um custo ambiental pouco discutido: as baterias desses
+            veículos dependem de uma trintena de metais que ocorrem em quantidades ínfimas na natureza, como lítio,
+            cobalto, gálio, tântalo e os chamados metais de terras-raras. Assim como o petróleo, esses metais são
+            recursos minerais não renováveis, cuja extração provoca impactos ambientais e sociais significativos nos
+            países produtores. Trocar a dependência do petróleo pela dependência desses metais não elimina o problema
+            de fundo, apenas desloca a pressão sobre os recursos naturais para outra cadeia produtiva, o que mostra
+            que nenhuma tecnologia é automaticamente sustentável só por não emitir poluentes durante o uso.</p>
 
         </div>
     

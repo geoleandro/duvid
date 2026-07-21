@@ -189,7 +189,20 @@
         <h3>Bacia Amazônica</h3>
         <p>A Bacia Amazônica é a maior bacia hidrográfica do mundo, cobrindo uma área extensa que abrange estados como Acre, Amazonas, Pará e Rondônia. O Rio Amazonas, que nasce na Cordilheira dos Andes, no Peru, percorre 6.992 km até desaguar no Oceano Atlântico.</p>
         <p><strong>Importância:</strong> A Bacia Amazônica é fundamental para a manutenção da biodiversidade e para a regulação do clima global. Além disso, o rio Amazonas é uma importante via de transporte, facilitando o escoamento de produtos, como grãos e minérios, para o mercado externo. A bacia também desempenha um papel crucial no sustento das populações ribeirinhas, fornecendo água, alimentos e recursos naturais.</p>
-    
+
+        <p><strong>As cores das águas amazônicas:</strong> Nem todos os rios da bacia têm a mesma aparência. O
+            cientista Harald Sioli propôs, em 1950, uma classificação que continua sendo referência até hoje,
+            dividindo os rios amazônicos em três tipos de acordo com sua composição química. As <strong>águas
+            brancas</strong>, como as do Rio Solimões (nome do Amazonas em seu trecho peruano e no oeste do Brasil),
+            têm coloração barrenta por causa da alta concentração de sedimentos inorgânicos em suspensão: como esse
+            rio nasce na Cordilheira dos Andes, ele carrega uma enorme quantidade de sedimentos produzidos pela
+            erosão intensa das rochas andinas ao longo de seu curso. Já as <strong>águas pretas</strong>, como as do
+            Rio Negro, têm essa cor escura por causa da alta concentração de matéria orgânica dissolvida, proveniente
+            da decomposição de vegetação sobre solos arenosos e pobres em nutrientes. Por fim, as <strong>águas
+            claras</strong> apresentam baixas concentrações tanto de sedimentos quanto de matéria orgânica, sendo
+            típicas de rios que drenam áreas mais antigas e estáveis do relevo, como o Planalto Brasileiro e as
+            Guianas.</p>
+
         <h3>Bacia do Tocantins-Araguaia</h3>
         <p>A Bacia do Tocantins-Araguaia é a maior bacia hidrográfica exclusivamente brasileira. Seus principais rios, o Tocantins e o Araguaia, têm grande relevância tanto para a navegação quanto para a geração de energia. A Usina Hidrelétrica de Tucuruí, localizada no Rio Tocantins, é uma das maiores do Brasil e desempenha um papel essencial no fornecimento de energia para a região Norte.</p>
         <p><strong>Curiosidade:</strong> O Rio Araguaia abriga a maior ilha fluvial do mundo, a Ilha do Bananal, que é um importante santuário ecológico.</p>

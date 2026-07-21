@@ -1,0 +1,244 @@
+[
+  {
+    "id": 1,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "garimpo ilegal",
+      "Amazônia",
+      "terras indígenas",
+      "impacto ambiental",
+      "contaminação da água",
+      "MapBiomas"
+    ],
+    "texto_apoio": "Analise, na figura a seguir, os dados referentes a áreas de garimpo ilegal localizadas em terras indígenas na Amazônia brasileira e sua distância em relação a corpos d'água.",
+    "fonte_apoio": "MapBiomas. 2024. Proximidade de Garimpos, Rios e Lagos na Amazônia. Adaptado.",
+    "pergunta": "A partir dos dados apresentados e da realidade socioambiental da Amazônia, é correto afirmar:",
+    "alternativas": [
+      "Os territórios indígenas encontram-se nas áreas mais desmatadas da Amazônia; como o garimpo ilegal produz forte impacto ambiental pelo intenso uso da água em seus processos, tal atividade colabora com a desertificação do bioma.",
+      "O garimpo ilegal representa alto risco a populações humanas e animais em geral, pela contaminação das águas e dos alimentos por substâncias usadas na garimpagem e porque tal atividade ocorre em áreas ainda muito preservadas, aumentando o impacto ambiental.",
+      "O garimpo ilegal na Amazônia não produz tanto impacto para os corpos d'água, uma vez que as atividades encontram-se distantes do rio Amazonas e de seus afluentes, os maiores rios da região; seu maior impacto ocorre devido ao desmatamento de extensas áreas de floresta nativa.",
+      "A proximidade dos corpos d'água deve-se a questões estratégicas, e não ao garimpo ilegal propriamente, pois este é de baixo impacto; porém traz conflitos territoriais com as comunidades indígenas, e os rios constituem rotas de fuga rápidas e eficientes para os garimpeiros.",
+      "A relação entre garimpos e corpos d'água ocorre de forma indireta, pois o garimpo amazônico não depende da água em seus processos; os garimpeiros buscam esses territórios porque as populações indígenas sabem onde existe ouro e se desenvolvem próximas a rios e lagos."
+    ],
+    "correta": 1,
+    "comentario": "O garimpo ilegal na Amazônia usa mercúrio e outros produtos químicos para separar o ouro, contaminando diretamente os corpos d'água próximos. O mapa do MapBiomas confirma que os garimpos se concentram perto de rios e lagos — necessários nos processos de garimpagem. Além disso, as terras indígenas amazônicas são, em geral, as áreas mais bem preservadas da floresta (é onde a pressão de desmatamento é menor), o que amplia o impacto ambiental quando o garimpo penetra nesses territórios.",
+    "ajuda": "O mapa mostra a proximidade dos garimpos com corpos d'água. Por que o garimpo ilegal precisa de água? O que o mercúrio (usado na separação do ouro) faz quando entra nos rios? As terras indígenas na Amazônia são áreas desmatadas ou ainda preservadas?",
+    "imagem_apoio": "fuvest/fuvest2025/fuvest25q1.png",
+    "feedbacks": {
+      "0": "Territórios indígenas na Amazônia NÃO são as áreas mais desmatadas — ao contrário, são as mais preservadas. O garimpo ilegal não causa desertificação; o bioma amazônico não tem esse risco por sua umidade estrutural. A alternativa mistura dois erros factuais.",
+      "2": "O mapa mostra exatamente o oposto: os garimpos estão PRÓXIMOS aos corpos d'água, não distantes deles. A água é essencial nos processos de garimpagem para separar o ouro dos sedimentos, e o mercúrio usado contamina diretamente os rios.",
+      "3": "O garimpo ilegal não é de baixo impacto — usa mercúrio e outros produtos tóxicos, contamina rios e destrói ecossistemas aquáticos. A justificativa de que os rios são 'rotas de fuga' é uma ficção sem base nos dados apresentados.",
+      "4": "O garimpo amazônico DEPENDE diretamente da água nos seus processos (lavagem, separação por gravidade e uso de mercúrio). A ideia de que os garimpeiros buscam locais de populações indígenas pelo seu 'conhecimento sobre ouro' é especulativa e não corresponde à realidade documentada pelo MapBiomas."
+    }
+  },
+  {
+    "id": 2,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "rotas marítimas",
+      "Ártico",
+      "Canal do Panamá",
+      "Canal de Suez",
+      "geopolítica",
+      "aquecimento global",
+      "comércio internacional"
+    ],
+    "texto_apoio": "Atualmente 80% do comércio mundial transita pelos mares, principalmente em rotas que passam pelos Canais do Panamá e de Suez. Com a redução das calotas polares, novas rotas estão surgindo no Ártico. Mesmo com sua fragilidade ambiental, a região passou a ser uma nova fronteira para o comércio mundial.",
+    "fonte_apoio": "Carto Le monde en cartes, n.59, maio-junho 2020. Adaptado.",
+    "pergunta": "Com base no texto, na leitura do mapa e em seus conhecimentos sobre as rotas marítimas, assinale a alternativa correta.",
+    "alternativas": [
+      "A rota que liga os portos de Murmansk a Churchill é vantajosa em razão da facilidade de acesso e de não interferir na Zona Econômica Exclusiva, evitando conflitos territoriais.",
+      "Os percursos advindos das rotas Noroeste e Nordeste possibilitam maior estratégia geopolítica dos países pertencentes à região, que utilizam, para isso, todas as zonas turísticas como sítios para bases militares.",
+      "A rota Nordeste, que liga Roterdã a Shangai, aumenta a distância percorrida pelas frotas marítimas e ainda pode ser ameaçada pela ampliação da cobertura de gelo no futuro.",
+      "A rota Noroeste, que liga Ásia a América, é percurso já consagrado pelo tráfego marítimo intenso, por sua menor distância e por percorrer muitos portos comerciais e bases militares.",
+      "O fluxo comercial possibilitado pelas rotas Noroeste e Nordeste tende a se concentrar no Estreito de Bering, reduzindo a distância a ser percorrida em relação aos trajetos via Canais do Panamá e de Suez."
+    ],
+    "correta": 4,
+    "comentario": "Com o derretimento do gelo ártico, a Rota Noroeste (Ásia → Estreito de Bering → América) e a Rota Nordeste (Europa → Ártico russo → Ásia) tornam-se navegáveis. As duas rotas convergem geograficamente no Estreito de Bering, ponto de passagem obrigatório entre o Pacífico Norte e o Ártico americano. Esse corredor ártico é significativamente mais curto do que as rotas convencionais pelos Canais do Panamá (ligando Atlântico e Pacífico) e de Suez (ligando Europa ao Índico).",
+    "ajuda": "As rotas Noroeste e Nordeste passam pelo Ártico. Olhando um mapa, onde elas se encontram ou se aproximam mais? O Estreito de Bering liga o Pacífico ao Ártico — o que isso significa para as distâncias percorridas em relação aos Canais do Panamá e de Suez?",
+    "imagem_apoio": "fuvest/fuvest2025/fuvest25q2.png",
+    "feedbacks": {
+      "0": "A rota Ártico passa por Zonas Econômicas Exclusivas (ZEEs) de vários países (Rússia, Canadá, EUA, Noruega), gerando justamente conflitos territoriais — não os evita. A facilidade de acesso também é limitada: o gelo residual, profundidade e clima extremo dificultam a navegação.",
+      "1": "As 'zonas turísticas' não são usadas como sítios para bases militares — a afirmação é factualmente incorreta. Embora exista presença militar crescente no Ártico (especialmente da Rússia), isso não ocorre por meio de zonas turísticas.",
+      "2": "A Rota Nordeste REDUZ a distância percorrida — não a aumenta. O trajeto pelo Ártico russo de Roterdã a Xangai é cerca de 30% mais curto do que a rota convencional pelo Canal de Suez. Além disso, o aquecimento global está REDUZINDO o gelo, não ampliando-o.",
+      "3": "A Rota Noroeste NÃO é 'percurso já consagrado pelo tráfego marítimo intenso' — ao contrário, ainda é experimental e pouco utilizada comercialmente. Ela liga a América do Norte à Ásia, não 'Ásia a América' como rota estabelecida, e não percorre muitos portos comerciais."
+    }
+  },
+  {
+    "id": 3,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "facil",
+    "tags": [
+      "MATOPIBA",
+      "desmatamento",
+      "bioma Cerrado",
+      "agropecuária",
+      "erosão do solo",
+      "sensoriamento remoto"
+    ],
+    "texto_apoio": "Observe as imagens de satélite que indicam o desmatamento de 12.272 hectares no município de Formosa do Rio Preto (BA), região do MATOPIBA, composta pelos estados do Maranhão, Tocantins, Piauí e Bahia, no período 2019-2022.",
+    "fonte_apoio": "MapBiomas. 2023. Relatório de desmatamento no Brasil. Adaptado.",
+    "pergunta": "Com base na análise temporal das imagens, assinale a alternativa que apresenta, respectivamente, o bioma correspondente à região do MATOPIBA, a atividade econômica desenvolvida nesse local e o possível impacto ambiental negativo decorrente de tal atividade.",
+    "alternativas": [
+      "Cerrado, agropecuária e processos erosivos.",
+      "Cerrado, silvicultura e contaminação do solo.",
+      "Amazônia, mineração e poluição das águas.",
+      "Caatinga, pastagem e impermeabilização da superfície.",
+      "Caatinga, extrativismo e perda de biodiversidade."
+    ],
+    "correta": 0,
+    "comentario": "MATOPIBA (MA + TO + PI + BA) é uma fronteira agrícola localizada predominantemente no bioma Cerrado — especialmente o Cerrado de chapada, com solos corrigíveis para a soja. A atividade econômica dominante é a agropecuária (sobretudo soja, algodão e pecuária extensiva). Quando o Cerrado é desmatado para dar lugar à monocultura, o solo fica exposto e suscetível a processos erosivos — o que é agravado pela sazonalidade climática da região (chuvas concentradas em poucos meses).",
+    "ajuda": "MATOPIBA é uma sigla para quatro estados. Em qual bioma a maior parte desses estados (especialmente Bahia e Tocantins) está inserida? O que se planta nessa região? E o que acontece com o solo quando a vegetação nativa é removida para grandes lavouras?",
+    "imagem_apoio": "fuvest/fuvest2025/fuvest25q3.png",
+    "feedbacks": {
+      "1": "A atividade principal no MATOPIBA é a AGROPECUÁRIA (soja, algodão, pecuária) — não silvicultura (cultivo de árvores para madeira ou celulose). Além disso, a contaminação do solo pode ocorrer, mas o impacto primário da abertura de lavouras é a erosão, não a contaminação direta do solo.",
+      "2": "O MATOPIBA está no bioma CERRADO, não na Amazônia. A mineração não é a atividade econômica principal da região — é a agropecuária intensiva. A poluição das águas por mercúrio (mineração) é problema de outra região.",
+      "3": "O bioma da região é CERRADO (não Caatinga). A Caatinga é semiárida e ocorre principalmente na região Nordeste interiorana — diferente das chapadas do MATOPIBA. A impermeabilização é impacto típico da expansão urbana, não da agropecuária em áreas abertas.",
+      "4": "O bioma é CERRADO, não Caatinga. E a atividade é agropecuária intensiva (mecanizada), não extrativismo. A perda de biodiversidade ocorre, mas não é o impacto mais diretamente ligado ao desmatamento para lavouras — os processos erosivos são a consequência física mais imediata."
+    }
+  },
+  {
+    "id": 4,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "media",
+    "tags": [
+      "biomas",
+      "Pampas",
+      "arenização",
+      "agropecuária",
+      "Sul do Brasil",
+      "Unidades de Conservação"
+    ],
+    "texto_apoio": "Neste bioma, a vegetação nativa apresenta-se intercalada por extensas monoculturas de soja e de arroz. Em alguns lugares, a vegetação campestre original tem sido substituída por vegetação florestal, formada por árvores de eucaliptos. Em vários locais, observa-se a expansão de grandes areais, em que os solos arenosos ficam expostos e suscetíveis a uma intensa erosão. Este é o bioma brasileiro menos protegido por Unidades de Conservação, embora esteja entre aqueles que mais perderam vegetação nativa nas últimas três décadas.",
+    "fonte_apoio": "FUVEST 2025. Adaptado.",
+    "pergunta": "A descrição da paisagem impactada por ações humanas refere-se ao bioma",
+    "alternativas": [
+      "Caatinga.",
+      "Cerrado.",
+      "Mata Atlântica.",
+      "Pampas.",
+      "Pantanal."
+    ],
+    "correta": 3,
+    "comentario": "O texto descreve os Pampas (Rio Grande do Sul), identificável por quatro pistas: (1) monoculturas de soja e arroz — típicas do RS, especialmente nas planícies do sul do estado; (2) substituição da vegetação campestre (campo nativo gaúcho) por eucaliptos — refloresteamento comercial crescente; (3) expansão de areais — a arenização dos Pampas gaúchos (municípios como São Francisco de Assis, Quaraí, Alegrete) é um processo de degradação emblemático desse bioma; (4) menos de 3% do bioma está protegido por UCs — é de fato o menos protegido do Brasil.",
+    "ajuda": "Quais pistas no texto ajudam a identificar o bioma? Pense: onde no Brasil há 'vegetação campestre' (campo nativo) e ao mesmo tempo grandes lavouras de soja e arroz? Qual bioma tem o processo de 'arenização' como problema ambiental típico?",
+    "imagem_apoio": "",
+    "feedbacks": {
+      "0": "A Caatinga é o bioma semiárido do Nordeste — não tem monoculturas de soja/arroz nem processo de arenização. O texto menciona 'solos arenosos' e 'vegetação campestre', características que não correspondem à Caatinga (dominada por plantas xerófilas e solos pedregosos/argilosos em muitas áreas).",
+      "1": "O Cerrado tem vegetação arbustiva e arbórea (savana), não 'vegetação campestre'. O processo de arenização descrito no texto é típico dos Pampas, não do Cerrado. Embora o Cerrado também tenha soja, o texto menciona arroz e areais, que são marcadores dos Pampas.",
+      "2": "A Mata Atlântica é floresta ombrófila densa/mista — não tem 'vegetação campestre' como formação original. Além disso, a expansão de areais e os solos arenosos expostos à erosão descrita no texto não correspondem à Mata Atlântica.",
+      "4": "O Pantanal é a maior planície alagável do mundo — seu problema ambiental dominante não são areais, mas sim a pecuária extensiva e queimadas. O texto descreve 'solos arenosos' e arenização, características incompatíveis com os solos hidromórficos e planícies inundáveis do Pantanal."
+    }
+  },
+  {
+    "id": 5,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "facil",
+    "tags": [
+      "ilha de calor urbana",
+      "uso do solo",
+      "climatologia urbana",
+      "asfalto",
+      "temperatura",
+      "albedo",
+      "áreas verdes"
+    ],
+    "texto_apoio": "A figura a seguir representa a variação espacial da temperatura do ar por tipo de área, considerando diferentes padrões de uso e ocupação do solo de um município. O perfil mostra temperaturas mais elevadas nas áreas centrais e comerciais, compostas por asfalto, vidro e concreto, em comparação com as periferias e zonas rurais com maior presença de vegetação.",
+    "fonte_apoio": "Revista Pesquisa FAPESP, setembro/2023. Adaptado.",
+    "pergunta": "A explicação para as características desse perfil de temperatura do ar deve-se",
+    "alternativas": [
+      "à maior ocorrência de áreas verdes nas periferias, que absorvem mais radiação solar e aquecem o ambiente, ultrapassando os 32 °C.",
+      "à maior absorção de radiação solar nas áreas centrais das cidades, compostas em sua maioria por asfalto, vidro e concreto.",
+      "ao efeito de sombreamento dos edifícios nas áreas centrais, com maior disponibilidade de radiação solar e temperaturas inferiores a 30 °C.",
+      "à presença de áreas comerciais e residenciais ao longo de todo perfil, que elevam a temperatura acima dos 32 °C e reduzem a umidade.",
+      "à maior reflexão da radiação solar nas áreas centrais pelo asfalto, por apresentarem albedo menor que as superfícies vegetadas."
+    ],
+    "correta": 1,
+    "comentario": "O fenômeno descrito é a ilha de calor urbana. As áreas centrais das cidades concentram materiais de baixo albedo (asfalto, concreto, vidro escuro) que ABSORVEM mais radiação solar e a devolvem como calor. Somam-se a isso o calor antropogênico (veículos, ar condicionado, indústrias) e a ausência de vegetação, que poderia resfriar o ambiente pela evapotranspiração. As periferias e zonas rurais, com mais vegetação, têm maior albedo e menor temperatura.",
+    "ajuda": "O perfil de temperatura mostra que o centro da cidade é mais quente. O que os materiais do centro (asfalto, concreto, vidro) fazem com a radiação solar? O que as áreas verdes fazem diferente? O conceito-chave aqui é 'ilha de calor urbana'.",
+    "imagem_apoio": "fuvest/fuvest2025/fuvest25q5.png",
+    "feedbacks": {
+      "0": "Áreas verdes NÃO absorvem mais radiação que o asfalto — têm albedo MAIOR, ou seja, refletem mais luz e absorvem menos calor. Além disso, a evapotranspiração das plantas resfria o ambiente. O erro está em afirmar que as periferias (com mais vegetação) ultrapassam 32°C — é o centro urbano que atinge essas temperaturas.",
+      "2": "O sombreamento dos edifícios NÃO resulta em temperaturas inferiores a 30°C nas áreas centrais — pelo contrário, o efeito de canyon urbano (calor preso entre os edifícios) eleva as temperaturas. A disponibilidade de radiação solar também não é maior no centro por causa do sombreamento parcial.",
+      "3": "A alternativa é parcialmente confusa: não são 'todas' as áreas comerciais e residenciais que elevam a temperatura acima de 32°C uniformemente. O perfil mostra variação — é o centro comercial denso que atinge temperaturas máximas. A redução da umidade é uma consequência, não a causa do perfil.",
+      "4": "O asfalto tem albedo MENOR que as superfícies vegetadas (não maior). Albedo menor = absorve mais radiação (em vez de refletir) = aquece mais. A alternativa inverte a relação: baixo albedo → alta absorção → alta temperatura nas áreas centrais."
+    }
+  },
+  {
+    "id": 6,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "dificil",
+    "tags": [
+      "climograma",
+      "climatologia",
+      "São Paulo",
+      "alagamento",
+      "precipitação",
+      "amplitude térmica",
+      "INMET"
+    ],
+    "texto_apoio": "A Estação Meteorológica Mirante de Santana é a principal referência do Instituto Nacional de Meteorologia (INMET) no município de São Paulo - SP. O climograma a seguir apresenta dados referentes ao mês de fevereiro de 2023. Neste mesmo mês, o Centro de Gerenciamento de Emergências Climáticas detectou 11 pontos de alagamentos no dia 19 e 14 pontos no dia 21.",
+    "fonte_apoio": "Disponível em https://portal.inmet.gov.br/noticias/. Adaptado.",
+    "pergunta": "Com base no texto e no gráfico, assinale a alternativa correta.",
+    "alternativas": [
+      "A menor amplitude térmica ocorreu no dia 19, quando foi observado um dos maiores volumes de chuva do mês.",
+      "Os quatro dias mais chuvosos apresentaram as menores temperaturas mínimas.",
+      "A temperatura máxima no período variou entre 21,5 °C e 17,8 °C.",
+      "Os cinco dias mais quentes correspondem às maiores precipitações.",
+      "Os pontos de alagamento nos dias 19 e 21 foram provocados pela chuva acumulada de 428,9 mm."
+    ],
+    "correta": 0,
+    "comentario": "A alternativa A é correta: no dia 19, a precipitação foi uma das maiores do mês (causando 11 pontos de alagamento) e, ao mesmo tempo, a amplitude térmica foi menor. Isso ocorre porque dias muito chuvosos têm cobertura de nuvens densa, que bloqueia a radiação solar diurna (reduz a temperatura máxima) e retém o calor noturno (eleva a temperatura mínima), comprimindo a amplitude. As outras alternativas contradizem os dados do climograma de fevereiro de 2023.",
+    "ajuda": "Amplitude térmica = temperatura máxima menos temperatura mínima. Em dias de muita chuva, o céu fica nublado. O que isso faz com a temperatura máxima (menos sol entrando) e com a temperatura mínima (menos perda de calor à noite)? Que efeito isso tem na amplitude?",
+    "imagem_apoio": "fuvest/fuvest2025/fuvest25q6.png",
+    "feedbacks": {
+      "1": "Não há relação direta entre os dias mais chuvosos e as menores temperaturas mínimas — dias chuvosos tendem a ter temperaturas mínimas MAIS ALTAS (o calor não escapa por causa da cobertura de nuvens). A alternativa inverte a relação esperada.",
+      "2": "A temperatura MÁXIMA varia entre valores próximos de 21°C e 34°C em fevereiro — não de 17,8°C a 21,5°C. Esses valores de 17,8°C e 21,5°C correspondem a temperaturas MÍNIMAS, não máximas. A alternativa confunde máxima e mínima.",
+      "3": "Os cinco dias mais quentes não correspondem necessariamente às maiores precipitações — em geral, é o oposto: chuvas intensas são acompanhadas de queda de temperatura. O climograma de fevereiro mostra que os picos de temperatura e precipitação não coincidem.",
+      "4": "Os alagamentos foram causados pela precipitação DIÁRIA (volume concentrado em poucas horas), não pela chuva acumulada total do mês. 428,9 mm pode ser o total mensal — o que importa para alagamentos é o volume em poucas horas, que supera a capacidade de drenagem urbana."
+    }
+  },
+  {
+    "id": 7,
+    "instituicao": "FUVEST",
+    "ano": "2025",
+    "dificuldade": "facil",
+    "tags": [
+      "Sahel",
+      "África",
+      "semiárido",
+      "Deserto do Saara",
+      "regiões africanas",
+      "diversidade étnica",
+      "religião"
+    ],
+    "texto_apoio": "\"Consiste em uma faixa de terra semiárida e árida que contorna a borda sul do Deserto do Saara e percorre a extensão da África no sentido leste-oeste. Atua como um cinturão que divide o continente africano em dois, a África majoritariamente islâmica, ao norte, e a cristã, ao sul. Englobando ao menos onze países, a região é lar para dezenas de grupos étnicos.\"",
+    "fonte_apoio": "VAGEN, Tor-Gunnar; GUMBRICHT, Thomas. UNEP/ONU, 2012. Adaptado.",
+    "pergunta": "O texto descreve características da região denominada de",
+    "alternativas": [
+      "Chifre da África.",
+      "África Meridional.",
+      "África Setentrional.",
+      "Rift Valley.",
+      "Sahel."
+    ],
+    "correta": 4,
+    "comentario": "O Sahel é a faixa de transição climática entre o Deserto do Saara (ao norte) e as savanas/florestas tropicais africanas (ao sul), estendendo-se no sentido leste-oeste por pelo menos 11 países — do Senegal e Mauritânia (oeste) ao Sudão e Eritreia (leste). Funciona como divisor cultural: ao norte, predomina o Islã (Magreb + Saara); ao sul, o Cristianismo (e religiões tradicionais). As outras alternativas não correspondem: Chifre da África é o extremo nordeste (Somália, Etiópia, Djibuti); Rift Valley é uma depressão tectônica no leste africano; África Meridional e Setentrional são designações hemisféricas genéricas.",
+    "ajuda": "O texto menciona: faixa semiárida, borda sul do Saara, direção leste-oeste, divisão entre Islã (norte) e Cristianismo (sul), 11 países. Qual região africana tem todas essas características ao mesmo tempo?",
+    "imagem_apoio": "",
+    "feedbacks": {
+      "0": "O Chifre da África é o extremo nordeste do continente (Somália, Etiópia, Djibuti, Eritreia) — não é uma faixa leste-oeste que divide o continente. Não corresponde à posição geográfica nem à divisão islâmica/cristã descrita no texto.",
+      "1": "África Meridional refere-se ao sul do continente (África do Sul, Moçambique, Zimbabué, Namíbia etc.) — é uma designação hemisférica, não uma faixa de transição climática e cultural como descrita no texto.",
+      "2": "África Setentrional refere-se ao norte do continente (Egito, Líbia, Tunísia, Marrocos, Argélia) — é majoritariamente islâmica e árida, mas não é a região que 'divide' o continente em dois. A Setentrional está ao norte do Sahel, não é o cinturão em si.",
+      "3": "O Rift Valley (ou Grande Vale do Rift) é uma depressão tectônica no leste da África, formada pela separação de placas tectônicas — não é uma faixa climática de leste a oeste que divide o continente cultural e religiosamente."
+    }
+  }
+]

@@ -19,7 +19,12 @@
     ],
     "correta": 3,
     "ajuda": "Lembre-se das características do Pantanal: planície alagada, bacia do Rio Paraguai, clima tropical, menor bioma do Brasil. Pense em quais afirmativas (I a IV) são corretas: o Campo Sulino é o bioma Pampa (no RS), não o Pantanal. O Pantanal não é o menor bioma — esse título pertence ao Pampa. Avalie cuidadosamente cada afirmativa.",
-    "comentario": "<p>O Pantanal Mato-grossense é a maior planície úmida tropical do mundo (150 mil km²), patrimônio natural da humanidade segundo a UNESCO. Sua dinâmica ecológica é determinada pelas inundações sazonais dos rios da bacia do alto Paraguai, que regulam a biodiversidade e os ciclos de vida de mais de 650 espécies de aves, 260 de peixes e 95 de mamíferos. Em 2020, grandes queimadas devastaram cerca de 30% do bioma.</p>"
+    "comentario": "<p>O Pantanal Mato-grossense é a maior planície úmida tropical do mundo (150 mil km²), patrimônio natural da humanidade segundo a UNESCO. Sua dinâmica ecológica é determinada pelas inundações sazonais dos rios da bacia do alto Paraguai, que regulam a biodiversidade e os ciclos de vida de mais de 650 espécies de aves, 260 de peixes e 95 de mamíferos. Em 2020, grandes queimadas devastaram cerca de 30% do bioma.</p>",
+    "feedbacks": {
+      "0": "A afirmativa I não integra o conjunto correto; ela apresenta algum equívoco sobre o tema. As afirmativas verdadeiras são III e IV, e não o conjunto I, III e IV.",
+      "1": "A combinação II-III exclui a afirmativa IV, que é correta, e inclui a afirmativa II, que contém equívoco. O par correto é formado pelas afirmativas III e IV.",
+      "2": "A combinação II-III-IV inclui a afirmativa II, que apresenta equívoco sobre o tema. O conjunto de afirmativas verdadeiras é apenas III e IV."
+    }
   },
   {
     "id": 2,
@@ -43,7 +48,12 @@
     ],
     "correta": 1,
     "ajuda": "Leia o texto sobre a devastação do Cerrado e pense nas causas reais: o avanço do agronegócio (soja, pecuária), a transformação de áreas nativas em monoculturas, a privatização de bens comuns (água, terra) e a violência simbólica e física contra comunidades tradicionais. Qual alternativa descreve corretamente as tendências descritas no texto?",
-    "comentario": "<p>O Cerrado já perdeu mais de 50% de sua cobertura original — o que o torna o bioma mais ameaçado do Brasil proporcional à sua área original. Considerado a 'savana mais biodiversa do mundo', abriga mais de 12 mil espécies de plantas, mas cede espaço ao agronegócio da soja, especialmente no MATOPIBA (Maranhão, Tocantins, Piauí e Bahia), a nova fronteira agrícola do Brasil.</p>"
+    "comentario": "<p>O Cerrado já perdeu mais de 50% de sua cobertura original — o que o torna o bioma mais ameaçado do Brasil proporcional à sua área original. Considerado a 'savana mais biodiversa do mundo', abriga mais de 12 mil espécies de plantas, mas cede espaço ao agronegócio da soja, especialmente no MATOPIBA (Maranhão, Tocantins, Piauí e Bahia), a nova fronteira agrícola do Brasil.</p>",
+    "feedbacks": {
+      "0": "O desmatamento do Cerrado está associado principalmente à expansão da soja, do milho e da pecuária em larga escala, e não especificamente à pecuária leiteira. A pecuária leiteira não é a atividade que mais pressiona o Cerrado.",
+      "2": "O solo do Cerrado é naturalmente pobre, ácido e de baixa fertilidade, exigindo correção com calcário e adubação intensiva para se tornar produtivo. Afirmar que é de grande fertilidade contraria as características pedológicas naturais do bioma.",
+      "3": "O Cerrado tem clima tropical com marcada estação seca (maio a outubro) e chuvas concentradas no verão, e não bem distribuídas ao longo do ano. Descrevê-lo como tropical úmido com chuvas bem distribuídas é impreciso e contraria o padrão climático do bioma."
+    }
   },
   {
     "id": 3,
@@ -56,6 +66,7 @@
       "características dos biomas"
     ],
     "pergunta": "Considerando a vegetação brasileira e suas características, assinale a alternativa que relaciona corretamente a coluna A e B.",
+    "texto_apoio": "COLUNA A\n1. Mata dos Cocais\n2. Pampa\n3. Mangue\n4. Pantanal\n\nCOLUNA B\n( ) Encontrada no sul do país, esse tipo de vegetação é constituída principalmente por arbustos, árvores pequenas, gramíneas e plantas rasteiras.\n( ) Surge em climas equatorial úmido e equatorial semiárido. É lá que surgem os babaçus, árvore típica desse local, e outras árvores de grande porte, tais como açaí, buriti e carnaúba.\n( ) A vegetação do mangue é constituída por vegetais halófilos, os quais compreendem arbustos e plantas que apresentam tronco fino e raízes aéreas.\n( ) É nas áreas alagadas que surgem as gramíneas, enquanto os arbustos e palmeiras crescem nas áreas onde o alagamento acontece de forma ocasional.",
     "alternativas": [
       "4 - 3 - 1 - 2.",
       "2 - 4 - 3 - 1.",
@@ -64,7 +75,12 @@
     ],
     "correta": 2,
     "ajuda": "A questão pede a associação entre biomas e suas características. Lembre-se dos principais biomas brasileiros e suas características: Floresta Amazônica (úmida, equatorial), Mata Atlântica (litoral, devastada), Cerrado (savana, savana, troncos retorcidos), Caatinga (xerófila, Nordeste), Pampas (gramíneas, Sul), Pantanal (planície alagável). Monte a associação correta entre as colunas.",
-    "comentario": "<p>Os biomas brasileiros apresentam características vegetais distintas: a Caatinga tem vegetação xerófita (adaptada à seca); o Cerrado, savana com árvores tortuosas e raízes profundas; a Floresta Amazônica, floresta densa e úmida; e a Mata Atlântica, floresta costeira de alta biodiversidade. Cada bioma reflete a interação entre clima, solo e relevo específicos de sua região.</p>"
+    "comentario": "<p>Os biomas brasileiros apresentam características vegetais distintas: a Caatinga tem vegetação xerófita (adaptada à seca); o Cerrado, savana com árvores tortuosas e raízes profundas; a Floresta Amazônica, floresta densa e úmida; e a Mata Atlântica, floresta costeira de alta biodiversidade. Cada bioma reflete a interação entre clima, solo e relevo específicos de sua região.</p>",
+    "feedbacks": {
+      "0": "A sequência coloca o Pantanal (4) na descrição do bioma do sul com gramíneas e arbustos, que corresponde ao Pampa (2), e associa o Mangue (3) à vegetação com babaçu, açaí e buriti, que são características da Mata dos Cocais (1). As quatro posições estão trocadas em relação às descrições corretas.",
+      "1": "A primeira posição está correta (Pampa no sul com gramíneas), mas a segunda associa o Pantanal (4) à vegetação com babaçu, açaí e buriti, que são espécies características da Mata dos Cocais (1). A quarta posição também erra ao colocar a Mata dos Cocais na descrição das áreas periodicamente alagadas, que corresponde ao Pantanal.",
+      "3": "A sequência começa colocando o Mangue (3) na descrição do bioma do sul com gramíneas e plantas rasteiras, que corresponde ao Pampa (2). O Pantanal (4) é associado às espécies babaçu e buriti, que pertencem à Mata dos Cocais (1), e a Mata dos Cocais é colocada na posição da vegetação halófila com raízes aéreas, que é o Mangue (3)."
+    }
   },
   {
     "id": 4,
@@ -88,7 +104,13 @@
     ],
     "correta": 0,
     "ajuda": "Leia o texto de Haesbaert sobre a destruição de uma paisagem com 'árvores de troncos retorcidos, folhas e arbustos ásperos sobre solos ácidos'. Pense em qual bioma brasileiro possui essas características: solo ácido e pobre, vegetação com troncos retorcidos, folhas coriáceas e arbustos. Qual tipo de vegetação e clima correspondem a essa descrição?",
-    "comentario": "<p>A vegetação tropófila — que perde as folhas na estação seca como adaptação à escassez de água — é típica do Cerrado e das áreas de transição entre Cerrado e Caatinga. O clima tropical com estação seca pronunciada determina esse comportamento vegetal, diferenciando essas áreas das florestas equatoriais sempre-verdes da Amazônia, onde a umidade é constante.</p>"
+    "comentario": "<p>A vegetação tropófila — que perde as folhas na estação seca como adaptação à escassez de água — é típica do Cerrado e das áreas de transição entre Cerrado e Caatinga. O clima tropical com estação seca pronunciada determina esse comportamento vegetal, diferenciando essas áreas das florestas equatoriais sempre-verdes da Amazônia, onde a umidade é constante.</p>",
+    "feedbacks": {
+      "1": "A vegetação xerófila é adaptada a ambientes áridos ou semiáridos, sendo característica da Caatinga. O bioma e o clima descritos na questão não correspondem a um ambiente de baixa umidade e aridez intensa.",
+      "2": "A vegetação hidrófila é adaptada a ambientes de alta disponibilidade hídrica, como brejos e áreas permanentemente inundadas. O bioma descrito na questão não corresponde a um ambiente aquático ou permanentemente encharcado.",
+      "3": "A vegetação aciculifoliada, de folhas em forma de agulha, é típica de coníferas em climas frios ou de altitude, como a Mata de Araucárias. O bioma descrito na questão não corresponde a um ambiente de clima subtropical frio.",
+      "4": "A vegetação semidecídua ocorre em climas de transição com parte das espécies perdendo folhas na estação seca. Suas características são distintas do bioma descrito, que tem especificidades climáticas e fitofisionômicas próprias."
+    }
   },
   {
     "id": 5,
@@ -110,7 +132,13 @@
     ],
     "correta": 4,
     "ajuda": "Pense no conceito de vegetação de transição: a Mata dos Cocais (babaçu e carnaúba) é uma zona de transição entre dois biomas distintos. Lembre-se de que ela ocorre no Maranhão e Piauí, entre a floresta equatorial amazônica a oeste e a caatinga semiárida a leste. Qual é a combinação correta de biomas entre os quais a Mata dos Cocais faz a transição?",
-    "comentario": "<p>A Mata dos Cocais é uma zona de transição (ecótono) entre a Floresta Amazônica e a Caatinga, dominada por palmeiras nativas como o babaçu e a carnaúba. Ocorre principalmente no Maranhão e no Piauí, constituindo uma faixa de vegetação transicional que mescla características de dois dos maiores biomas brasileiros. Essa posição intermediária a torna uma área de grande biodiversidade e valor ecológico.</p>"
+    "comentario": "<p>A Mata dos Cocais é uma zona de transição (ecótono) entre a Floresta Amazônica e a Caatinga, dominada por palmeiras nativas como o babaçu e a carnaúba. Ocorre principalmente no Maranhão e no Piauí, constituindo uma faixa de vegetação transicional que mescla características de dois dos maiores biomas brasileiros. Essa posição intermediária a torna uma área de grande biodiversidade e valor ecológico.</p>",
+    "feedbacks": {
+      "0": "O Cerrado e o Pantanal são biomas de grande extensão, mas não formam o par de maior contraste climático e fitogeográfico descrito. O Cerrado é savana e o Pantanal é planície de inundação, sem o contraste entre umidade máxima e semiaridez intensa que define a relação entre os biomas corretos.",
+      "1": "A Mata Atlântica e a Mata de Araucárias são biomas úmidos e subtropicais, sem representar o contraste de umidade máxima versus semiaridez. Além disso, a Mata Atlântica está muito reduzida em extensão.",
+      "2": "A Mata de Várzea e a Mata de Igapó são subdivisões da Floresta Amazônica, e não biomas independentes de grande extensão. Não representam o par de formações que ocupa as maiores áreas com maior contraste fitogeográfico.",
+      "3": "Os Mangues e a Vegetação Litorânea são formações costeiras de pequena extensão territorial. Não correspondem ao par de biomas de maior extensão e contraste fitogeográfico do Brasil."
+    }
   },
   {
     "id": 6,
@@ -133,7 +161,13 @@
     ],
     "correta": 2,
     "ajuda": "Lembre-se das características do Pantanal: planície de inundação de baixa altitude (não planalto), bacia do Rio Paraguai, inundações periódicas no verão, clima tropical com chuvas concentradas, pecuária extensiva como principal atividade econômica. Avalie cada afirmativa e identifique qual descreve corretamente uma característica real do Pantanal.",
-    "comentario": "<p>O Pantanal não é simplesmente uma planície plana: sua inundação periódica é causada menos pela pluviosidade local e mais pelo escoamento dos rios que drenam o Planalto Central para a depressão pantaneira. A topografia levemente inclinada da bacia do alto Paraguai impede o escoamento rápido das águas, que avançam lentamente sobre a planície criando um dos maiores espetáculos da natureza.</p>"
+    "comentario": "<p>O Pantanal não é simplesmente uma planície plana: sua inundação periódica é causada menos pela pluviosidade local e mais pelo escoamento dos rios que drenam o Planalto Central para a depressão pantaneira. A topografia levemente inclinada da bacia do alto Paraguai impede o escoamento rápido das águas, que avançam lentamente sobre a planície criando um dos maiores espetáculos da natureza.</p>",
+    "feedbacks": {
+      "0": "O Pantanal localiza-se em uma planície de inundação sedimentar, e não em um planalto cristalino. A planície pantaneira tem altitudes muito baixas (50-200 m), resultado de deposição sedimentar, e não de rochas cristalinas antigas.",
+      "1": "Os índices de devastação do Pantanal, embora crescentes, não estão entre os mais elevados do país. A Mata Atlântica (menos de 15% restante) e o Cerrado (mais de 50% já convertido) apresentam taxas de devastação proporcionalmente muito maiores.",
+      "3": "O Pantanal não é amplamente explorado por cultivos de soja e trigo; a pecuária extensiva é a principal atividade econômica da região. A soja avança nas bordas do planalto, e não na planície pantaneira propriamente dita.",
+      "4": "A conservação do Pantanal não atende plenamente aos interesses de todos os governos; há conflitos constantes entre proteção ambiental e interesses agropecuários, além de disputas com Paraguai e Bolívia, países que também compartilham o bioma."
+    }
   },
   {
     "id": 7,
@@ -157,7 +191,13 @@
     ],
     "correta": 3,
     "ajuda": "Leia o texto e pense nas características do bioma descrito: 844 mil km², 10% do território brasileiro, clima seco, plantas xerófilas com espinhos e poucas folhas, três estratos de vegetação, salinização e desertificação. Qual bioma brasileiro possui essas características de adaptação à seca e problemas de desertificação?",
-    "comentario": "<p>A Caatinga, único bioma exclusivamente brasileiro, cobre cerca de 11% do território nacional no semiárido nordestino. Sua vegetação xerófita — cactáceas, bromélias, árvores de tronco tortuoso com casca espessa — é adaptada à irregularidade das chuvas e ao calor intenso. O bioma sustenta cerca de 28 milhões de pessoas e abriga biodiversidade única, com espécies endêmicas ainda pouco estudadas.</p>"
+    "comentario": "<p>A Caatinga, único bioma exclusivamente brasileiro, cobre cerca de 11% do território nacional no semiárido nordestino. Sua vegetação xerófita — cactáceas, bromélias, árvores de tronco tortuoso com casca espessa — é adaptada à irregularidade das chuvas e ao calor intenso. O bioma sustenta cerca de 28 milhões de pessoas e abriga biodiversidade única, com espécies endêmicas ainda pouco estudadas.</p>",
+    "feedbacks": {
+      "0": "O Cerrado é uma savana tropical com árvores tortuosas e clima de estação seca definida, localizado no Brasil Central. Suas características de vegetação e clima são distintas do bioma adaptado à aridez extrema e à irregularidade pluviométrica severa.",
+      "1": "O Pantanal é a maior planície de inundação do mundo, com vegetação adaptada a períodos de alagamento. Suas características são opostas às de um bioma adaptado à seca extrema e às chuvas escassas e irregulares.",
+      "2": "A Amazônia é a maior floresta tropical do planeta, com altíssima umidade e biodiversidade. Suas características climáticas de alta pluviosidade e temperatura são opostas às do bioma de clima semiárido descrito.",
+      "4": "A Mata Atlântica é um bioma de floresta úmida com alta biodiversidade e precipitações elevadas. Suas características são opostas às do bioma de clima semiárido adaptado à escassez hídrica."
+    }
   },
   {
     "id": 8,
@@ -182,54 +222,76 @@
     ],
     "correta": 0,
     "ajuda": "Leia o texto do ENEM sobre a territorialização do agronegócio no Cerrado. Pense em como o texto descreve os impactos sobre os camponeses: expropriação de bens comuns (água, sementes, terras), imposição de tecnologias externas e violência. Qual expressão descreve corretamente o que acontece com os camponeses nesse processo?",
-    "comentario": "<p>A expansão do agronegócio sobre biomas como o Cerrado, a Caatinga e a Amazônia representa um 'cerco' às comunidades camponesas, indígenas e quilombolas, que veem seus territórios tradicionais convertidos em monoculturas. Esse processo combina grilagem de terras, pressão política e violência física, expulsando populações vulneráveis de seus modos de vida e territórios ancestrais.</p>"
+    "comentario": "<p>A expansão do agronegócio sobre biomas como o Cerrado, a Caatinga e a Amazônia representa um 'cerco' às comunidades camponesas, indígenas e quilombolas, que veem seus territórios tradicionais convertidos em monoculturas. Esse processo combina grilagem de terras, pressão política e violência física, expulsando populações vulneráveis de seus modos de vida e territórios ancestrais.</p>",
+    "feedbacks": {
+      "1": "O latifúndio é beneficiado pela concentração fundiária, e não é descaso. Além disso, a questão aborda o impacto sobre os camponeses que perdem suas condições de vida, e não sobre a produção para exportação dos grandes proprietários.",
+      "2": "A questão descreve o impacto sobre os trabalhadores rurais tradicionais, e não sobre os assalariados urbanos ou os sindicatos. O tema central é a perda de condições de vida dos camponeses com o avanço do agronegócio.",
+      "3": "A questão não trata de desrespeito aos governantes nem de criação de empregos formais. O tema é o impacto do avanço das grandes propriedades sobre as comunidades rurais tradicionais.",
+      "4": "A questão não trata de assédio ao empresariado nem de investimento em maquinário. O impacto descrito é sobre os camponeses que têm suas condições de vida comprometidas pela expansão das grandes propriedades."
+    }
   },
   {
     "id": 9,
-    "instituicao": "UFT",
-    "ano": "2010",
-    "dificuldade": "dificil",
-    "tags": [
-      "biomas brasileiros",
-      "mapa de biomas",
-      "desmatamento",
-      "distribuição espacial"
-    ],
-    "fonte_apoio": "Ecossistemas brasileiros. Fonte: Ecologia Objetiva - Derville Ariza",
-    "imagem_apoio": "2ano/img/217/s17q9.png",
-    "pergunta": "Observe os mapas abaixo:\n\nAnalisando os mapas onde estão representados os biomas brasileiros é CORRETO afirmar que o conjunto de biomas estão relacionados da seguinte forma:",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "2ano/img/217/unesp26q8.png",
+    "texto_apoio": "Uma vereda bordada à mão por uma família de Pirapora, no norte de Minas Gerais, acaba de ganhar o mundo. A obra \"Vereda do Galhão\", feita com agulhas, lãs, algodão e fios de seda, foi escolhida como presente oficial do presidente do Brasil ao imperador do Japão. Ao longo de oito meses de trabalho, a família retratou uma vereda real da região onde nasceram, cercada por buritis, palmeiras majestosas que só brotam onde há água. \"O buriti nasce onde há nascente. Ele não cresce em qualquer lugar, apenas onde há vida. Essa planta é símbolo de resistência e cuidado. Ao bordar essa vereda, a gente quis mostrar a beleza, mas também chamar atenção para a urgência de preservar\", contou Sávia Dumont, uma das autoras do bordado.",
+    "fonte_apoio": "https://cidadecult.com.br, 19.05.2025. Adaptado.",
+    "pergunta": "O bioma representado por essa obra é",
     "alternativas": [
-      "floresta de araucária, amazônica, mata atlântica, caatinga, pampas, costeiros.",
-      "floresta amazônica, mata atlântica, agreste, zona cacaueira, costeiros, mangues.",
-      "agreste, mata atlântica, Floresta amazônica, mangues, cerrado, pampas.",
-      "floresta amazônica, de araucária, caatinga, zona dos cocais, cerrado, mata atlântica.",
-      "caatinga, zona dos cocais, cerrado, mata atlântica, Floresta amazônica, zona cacaueira."
+      "a Mata dos Cocais, caracterizada pelo predomínio de floresta ombrófila aberta.",
+      "o Cerrado, formado por vastos espaços abertos cobertos por plantas herbáceas.",
+      "o Cerrado, comprometido pela baixa porcentagem de área sob proteção integral.",
+      "a Caatinga, formada por alta diversidade de espécies endêmicas ameaçadas.",
+      "a Caatinga, caracterizada pela feição esbranquiçada dos troncos das plantas."
     ],
-    "correta": 3,
-    "ajuda": "Observe os mapas dos biomas brasileiros e associe cada número ou letra ao bioma correspondente. Lembre-se da distribuição espacial dos biomas: Amazônia (Norte), Cerrado (Centro-Oeste), Caatinga (Nordeste), Mata Atlântica (litoral Leste), Pampas (Sul do RS), Pantanal (Mato Grosso do Sul) e Mata de Cocais (Maranhão/Piauí). Identifique o conjunto correto.",
-    "comentario": "<p>O Brasil possui seis biomas continentais reconhecidos pelo IBGE: Floresta Amazônica, Cerrado, Mata Atlântica, Caatinga, Pampa e Pantanal. Cada um corresponde a uma combinação específica de clima, vegetação, fauna e solo. A Floresta Amazônica é o maior (49% do território); o Pampa, o menor (2,07%). Todos estão sob pressão antrópica intensa, com destaque para o desmatamento e a conversão agropecuária.</p>"
+    "correta": 2,
+    "comentario": "O buriti (Mauritia flexuosa) é uma palmeira símbolo do Cerrado e indicadora de nascentes e veredas, formações típicas desse bioma. A vereda é uma fitofisionomia específica do Cerrado, onde o buriti cresce às margens de cursos d'água e nascentes. A alternativa C é a mais completa: identifica corretamente o bioma e menciona o dado ambiental relevante da baixa proteção integral do Cerrado, que tem menos de 3% de sua área sob proteção estrita.",
+    "ajuda": "O buriti e as veredas são marcadores ecológicos de qual bioma brasileiro? Pense também no estado de Minas Gerais e na relação do texto com a urgência de preservação.",
+    "tags": [
+      "Cerrado",
+      "biomas brasileiros",
+      "vereda",
+      "buriti",
+      "preservação ambiental",
+      "domínios morfoclimáticos"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "A Mata dos Cocais é uma vegetação de transição com predomínio de babaçu e carnaúba, não de buritis. Veredas com buritis são formações típicas e exclusivas do Cerrado, não da Mata dos Cocais.",
+      "1": "Embora o Cerrado inclua formações abertas com gramíneas, a alternativa B omite o dado central da urgência de preservação mencionada no texto. A alternativa C é mais completa, pois identifica o bioma e acrescenta informação ambiental relevante sobre a baixa proteção do Cerrado.",
+      "3": "A Caatinga é um bioma exclusivamente brasileiro com alta diversidade endêmica, mas o buriti e as veredas não pertencem a esse bioma. O buriti é indicador de nascentes de água, e a Caatinga é caracterizada justamente pela semiaridez e escassez hídrica.",
+      "4": "A feição esbranquiçada dos troncos é característica de plantas da Caatinga, que perdem folhas durante a seca para economizar água. O buriti e as veredas do texto pertencem ao Cerrado, onde há disponibilidade de água subterrânea nas nascentes."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UNICAMP",
-    "ano": "2010",
-    "dificuldade": "media",
-    "tags": [
-      "pampa",
-      "bioma",
-      "sul do brasil",
-      "pecuária"
-    ],
-    "imagem_apoio": "2ano/img/217/s17q10.png",
-    "pergunta": "O mapa abaixo destaca a área de ocorrência dos Pampas, no Brasil. Além de apresentarem solos susceptíveis à erosão, os Pampas se caracterizam",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Centro de Sensoriamento Remoto da UFMG desenvolveu modelo computacional para prever o comportamento do fogo no Cerrado. O INPE produz dados de satélite sobre focos de calor. O modelo integra relevo, ventos, umidade e biomassa seca para estimar áreas com maior risco de incêndio e prever a intensidade e direção de propagação do fogo no Cerrado Brasileiro.",
+    "fonte_apoio": "Revista Minas Faz Ciência, n. 84, dez. 2020 – jan.-fev. 2021.",
+    "pergunta": "Em relação à causa ambiental, o uso da tecnologia mencionada indica a",
     "alternativas": [
-      "pela vegetação arbórea, em área de clima temperado, sujeita a processos de voçorocamento decorrente da eliminação da cobertura vegetal.",
-      "pela vegetação arbórea, em área de clima subtropical, sujeita a processos de arenização decorrente da eliminação da cobertura vegetal.",
-      "Inserir alternativa cc) pela vegetação de gramíneas, em área de clima subtropical, sujeita a processos de arenização decorrente da eliminação da cobertura vegetal.",
-      "pela vegetação de gramíneas, em área de clima temperado, sujeita a processos de voçorocamento decorrente da eliminação da cobertura vegetal."
+      "influência da produção orgânica.",
+      "relevância da infraestrutura viária.",
+      "significância da cosmologia nativa.",
+      "importância de pesquisas acadêmicas.",
+      "interferência de interesses estrangeiros."
     ],
-    "correta": 2,
-    "ajuda": "Observe o mapa destacando a área dos Pampas no Brasil (Rio Grande do Sul). Pense nas características desse bioma: vegetação de gramíneas (campos), clima subtropical, solos susceptíveis à arenização. Lembre-se da diferença entre voçorocamento (erosão em sulcos) e arenização (processo de degradação dos Pampas gaúchos). Qual alternativa descreve corretamente essas características?",
-    "comentario": "<p>Os Pampas, bioma exclusivo do Rio Grande do Sul (e Argentina/Uruguai), são campos nativos de gramíneas adaptados ao clima subtropical. Os solos arenosos susceptíveis à erosão, quando desprotegidos pela vegetação nativa, dão origem a processos de arenização — formação de areais — especialmente na região de Alegrete. O uso agropecuário intensivo e a substituição dos campos nativos por lavouras de soja aceleram esse processo de degradação.</p>"
+    "correta": 3,
+    "comentario": "A tecnologia é resultado direto do trabalho científico em instituições públicas brasileiras (UFMG e INPE). O projeto evidencia como o investimento em ciência e inovação é essencial à criação de soluções práticas de proteção ambiental, reforçando o papel das universidades na promoção do desenvolvimento sustentável e na conservação dos biomas nacionais.",
+    "ajuda": "Quem criou o modelo computacional descrito? O texto cita UFMG e INPE — duas instituições públicas de pesquisa. O que isso revela sobre o papel da ciência na defesa do meio ambiente?",
+    "tags": [
+      "Cerrado",
+      "Incêndios",
+      "Sensoriamento Remoto",
+      "INPE",
+      "UFMG"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Produção orgânica não é mencionada. O tema é sensoriamento remoto para previsão e controle de incêndios no Cerrado.",
+      "1": "Infraestrutura viária não tem relação com o monitoramento de focos de calor por satélite. São dimensões completamente diferentes.",
+      "2": "Cosmologia indígena não é citada. O texto trata de ciência universitária e tecnologia de satélite desenvolvidas por instituições públicas.",
+      "4": "As instituições mencionadas são brasileiras — UFMG e INPE. O texto destaca justamente a capacidade nacional de produzir soluções tecnológicas ambientais."
+    }
   }
 ]

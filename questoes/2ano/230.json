@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A urbanização impermeabiliza grandes superfícies com asfalto, concreto e edificações, impedindo que a água da chuva infiltre no solo. Como resultado, o volume de água que escoa superficialmente aumenta dramaticamente, acelerando o tempo de chegada aos rios e elevando o pico das cheias. Esse fenômeno é o principal responsável pelas enchentes urbanas recorrentes em cidades como São Paulo e Rio de Janeiro.</p>",
-    "ajuda": "O gráfico mostra o que acontece com o ciclo hidrológico quando uma área é urbanizada. Pense no efeito da impermeabilização do solo: menos infiltração, mais escoamento superficial. Qual consequência direta isso tem para os rios urbanos?"
+    "ajuda": "O gráfico mostra o que acontece com o ciclo hidrológico quando uma área é urbanizada. Pense no efeito da impermeabilização do solo: menos infiltração, mais escoamento superficial. Qual consequência direta isso tem para os rios urbanos?",
+    "feedbacks": {
+      "0": "A impermeabilização do solo urbano reduz a infiltração e aumenta o escoamento superficial, o que faz o volume de água que chega aos rios crescer, e não diminuir. A redução do volume dos rios ocorreria se houvesse maior consumo ou perda d'água, o que não é o efeito principal da urbanização sobre a hidrologia.",
+      "1": "A urbanização impermeabiliza o solo e reduz a recarga dos aquíferos, pois a água da chuva não consegue infiltrar para reabastecer o lençol freático. O resultado é a diminuição, e não a expansão, do lençol freático nas áreas urbanizadas.",
+      "2": "A urbanização não reduz significativamente o índice de chuvas de uma região; na verdade, ilhas de calor urbanas podem até intensificar episódios de chuva convectiva local. A diminuição de precipitação não é o efeito demonstrado pelo gráfico hidrológico.",
+      "3": "A impermeabilização urbana aumenta o escoamento superficial e pode fazer os reservatórios receberem água mais rapidamente, mas também com mais sedimentos e poluição. A retração dos reservatórios não é o efeito demonstrado pelo gráfico, que mostra o aumento do escoamento como principal consequência da urbanização."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A ilha de calor urbana resulta da maior absorção de radiação solar pelas superfícies de asfalto e concreto, da ausência de vegetação e do calor liberado por veículos, indústrias e ar-condicionado. As afirmativas II e IV estão corretas ao identificar a densidade de construções e a impermeabilização como causas, e as ondas de calor e maior consumo energético como consequências. Esse fenômeno aumenta a vulnerabilidade das populações urbanas a eventos climáticos extremos.</p>",
-    "ajuda": "A ilha de calor é um fenômeno térmico típico de grandes cidades. Lembre-se que ela é causada pela concentração de construções, asfalto, veículos e falta de vegetação. Identifique quais afirmativas descrevem corretamente suas causas e efeitos."
+    "ajuda": "A ilha de calor é um fenômeno térmico típico de grandes cidades. Lembre-se que ela é causada pela concentração de construções, asfalto, veículos e falta de vegetação. Identifique quais afirmativas descrevem corretamente suas causas e efeitos.",
+    "feedbacks": {
+      "0": "A afirmativa I é falsa: na ilha de calor urbana, as temperaturas mais elevadas ocorrem nas zonas centrais e mais densamente urbanizadas, e não nas zonas periféricas. Incluir I como correta inverte o padrão espacial do fenômeno.",
+      "1": "A afirmativa I é falsa, pois a ilha de calor eleva as temperaturas no centro, não na periferia. A afirmativa III também é falsa: gases e particulados retêm mais calor, aumentando as temperaturas, e não as amenizando como afirmado.",
+      "2": "A afirmativa III é falsa: gases e materiais particulados em suspensão na atmosfera urbana aumentam a retenção de calor, e não a reduzem. Afirmar que esses poluentes 'amenizam' a retenção de calor inverte o efeito estufa urbano produzido por essas substâncias.",
+      "4": "A afirmativa I é falsa, pois a ilha de calor aquece principalmente as áreas centrais, e não as periféricas. A afirmativa III também é falsa, ao afirmar incorretamente que gases e particulados reduzem a retenção de calor nas zonas urbanizadas."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 4,
     "comentario": "<p>As enchentes urbanas são agravadas pela ocupação humana das planícies de inundação — áreas naturalmente destinadas a receber o excesso de água dos rios em períodos de cheia. Quando essas áreas são impermeabilizadas e construídas, a água não tem para onde ir, causando alagamentos. O meme ironiza a surpresa das pessoas com as enchentes, quando a causa é justamente a ocupação irregular das margens dos rios.</p>",
-    "ajuda": "O meme provavelmente mostra uma cena de enchente urbana. Pense nas causas das inundações nas cidades: impermeabilização do solo, ocupação de várzeas e planícies de inundação dos rios. Qual par de fatores está diretamente ligado ao problema?"
+    "ajuda": "O meme provavelmente mostra uma cena de enchente urbana. Pense nas causas das inundações nas cidades: impermeabilização do solo, ocupação de várzeas e planícies de inundação dos rios. Qual par de fatores está diretamente ligado ao problema?",
+    "feedbacks": {
+      "0": "Os terraços fluviais são patamares elevados acima das planícies de inundação, formados por sedimentos antigos, e a construção sobre eles tem risco menor que sobre as várzeas. A destruição das matas de galeria é um fator agravante, mas não é a combinação mais diretamente responsável pelas enchentes urbanas.",
+      "1": "Os divisores de água são cristas do relevo que separam bacias hidrográficas, e sua urbanização não provoca enchentes diretamente. A contaminação de aquíferos é um problema de qualidade hídrica, não de inundações; a combinação apresentada não corresponde às causas primárias das enchentes urbanas.",
+      "2": "A ocupação de vertentes íngremes está mais associada a deslizamentos do que a enchentes. A retirada de água do lençol freático pode causar subsidência do solo, mas não é uma das causas principais das inundações urbanas, que resultam da ocupação das planícies e da impermeabilização.",
+      "3": "O descarte irregular de lixo pode obstruir drenagens e contribuir para enchentes localizadas, mas não é a causa estrutural das inundações urbanas. Aterros sanitários são instalações reguladas e não são identificados como causa das enchentes; essa combinação mistura problemas ambientais distintos."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O capitalismo impõe ao ciclo natural um tempo produtivo que não respeita os ritmos ecológicos. A agricultura industrial, por exemplo, força a produção contínua com irrigação, fertilizantes e agrotóxicos, ignorando os períodos de repouso do solo. Essa aceleração produtiva degrada ecossistemas ao tentar subordinar a natureza à lógica do lucro e da eficiência econômica.</p>",
-    "ajuda": "O texto discute a aceleração do tempo de produção econômica versus o tempo da natureza. Lembre-se que a produção de lixo e outros impactos ambientais têm uma irreversibilidade natural que o ritmo econômico não respeita."
+    "ajuda": "O texto discute a aceleração do tempo de produção econômica versus o tempo da natureza. Lembre-se que a produção de lixo e outros impactos ambientais têm uma irreversibilidade natural que o ritmo econômico não respeita.",
+    "feedbacks": {
+      "0": "O texto argumenta exatamente o contrário: o aumento de produtividade não resolve o efeito estufa, mas o aprofunda, pois a racionalidade instrumental submete a natureza ao tempo dos interesses econômicos. A visão otimista tecnológica é o que o excerto critica.",
+      "1": "O texto afirma que o lixo e o efeito estufa são manifestações da dominação instrumental da natureza, e não que a humanidade os superou. A racionalidade instrumental é apresentada como causa dos problemas, não como sua solução.",
+      "2": "O texto sustenta o argumento oposto: é o tempo da natureza que está sendo subordinado ao tempo do capital e da acumulação, e não o inverso. Essa alternativa inverte a tese central do excerto.",
+      "3": "A irreversibilidade de certos danos ambientais é justamente um dos pontos centrais do texto: a produção acelerada cria impactos que o tempo e a tecnologia não conseguem desfazer. Afirmar que a aceleração do capital elimina a irreversibilidade contradiz o argumento do autor."
+    }
   },
   {
     "id": 5,
@@ -119,7 +143,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Aziz Ab'Saber foi um dos maiores geógrafos brasileiros, estudioso dos domínios morfoclimáticos e da relação entre sociedade e natureza. As afirmativas I, II e IV estão corretas ao relacionar os processos de degradação ambiental urbana — erosão, assoreamento, enchentes — com a ocupação desordenada das cidades. A paisagem urbana é sempre resultado da interação entre processos naturais e intervenções humanas.</p>",
-    "ajuda": "As afirmativas tratam da verticalização urbana e seus impactos ambientais segundo Aziz Ab'Saber. Analise cada proposição sobre impermeabilização, ilhas de calor e alteração do ciclo hídrico. Identifique quais são corretas."
+    "ajuda": "As afirmativas tratam da verticalização urbana e seus impactos ambientais segundo Aziz Ab'Saber. Analise cada proposição sobre impermeabilização, ilhas de calor e alteração do ciclo hídrico. Identifique quais são corretas.",
+    "feedbacks": {
+      "0": "A afirmativa III é falsa: a extinção da Mata Atlântica nas nascentes do Tietê contribui para a degradação hídrica, mas não é o fator direto das enchentes nas vias marginais de São Paulo. As causas mais imediatas são a impermeabilização, a retificação do rio e a ocupação das várzeas, que são as afirmativas I, II e IV.",
+      "2": "A afirmativa III é falsa: a relação entre o desmatamento nas nascentes e as enchentes das marginais é indireta e não constitui a causa principal apontada pelo geógrafo Aziz Ab'Saber. A ocupação da várzea e a impermeabilização urbana são as causas estruturais identificadas pelas afirmativas I, II e IV.",
+      "3": "A afirmativa III é falsa: a extinção da vegetação nas nascentes do Tietê não causa diretamente as enchentes nas marginais da metrópole. A retificação do rio, a impermeabilização e a ocupação da planície de inundação são as causas diretas reconhecidas, não a condição florestal nas cabeceiras.",
+      "4": "A afirmativa III é falsa: o desmatamento nas nascentes do Tietê é um problema ambiental real, mas sua relação com as enchentes urbanas nas marginais é indireta. As causas identificadas pelo texto e pela imagem são a impermeabilização, a retificação do canal e a ocupação da várzea."
+    }
   },
   {
     "id": 6,
@@ -144,7 +174,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O consumismo exacerbado gera toneladas de resíduos sólidos que sobrecarregam aterros sanitários e sistemas de coleta, especialmente em países em desenvolvimento. A obsolescência programada e o descarte precoce de eletrônicos, embalagens e têxteis são sintomas de um modelo econômico insustentável. A manchete aponta para a urgência de mudar padrões de produção e consumo como condição para a sustentabilidade ambiental.</p>",
-    "ajuda": "A manchete trata de produção e descarte de lixo. Lembre-se que o problema do lixo é global e está ligado ao consumismo e à produção industrial. Qual alternativa apresenta uma análise mais correta sobre as causas e a escala do problema?"
+    "ajuda": "A manchete trata de produção e descarte de lixo. Lembre-se que o problema do lixo é global e está ligado ao consumismo e à produção industrial. Qual alternativa apresenta uma análise mais correta sobre as causas e a escala do problema?",
+    "feedbacks": {
+      "0": "O texto da manchete e os dados da ONU demonstram que a questão ambiental do lixo não foi contornada pelo avanço tecnológico: 99% dos produtos são descartados em seis meses, evidenciando que a racionalidade técnica reproduz o problema em vez de solucioná-lo.",
+      "2": "Os tratados internacionais de meio ambiente frequentemente não são cumpridos pelos países signatários, e os dados sobre produção de lixo mostram que a situação não foi revertida. Afirmar que os tratados são 'amplamente cumpridos' contradiz a realidade documentada pela ONU.",
+      "3": "A produção de lixo não é responsabilidade exclusiva das grandes corporações: os dados da ONU mostram que o comportamento de consumo individual e a lógica de descarte rápido dos produtos atingem toda a sociedade. A dicotomia entre corporações e consumidores individuais é simplificadora.",
+      "4": "Embora a reciclagem tenha crescido em alguns países, ela não acompanha o ritmo da produção de lixo global. Os dados da ONU, que indicam 99% de descarte em seis meses, mostram que o crescimento da reciclagem é insuficiente para compensar o volume gerado."
+    }
   },
   {
     "id": 7,
@@ -169,7 +205,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A inversão térmica ocorre quando uma camada de ar quente fica sobre uma camada de ar frio próxima ao solo, impedindo a dispersão vertical dos poluentes. Nas grandes cidades, em dias de ventos fracos e céu limpo, os gases de escapamentos e chaminés ficam presos nessa camada baixa, formando a névoa marrom visível no horizonte. Esse fenômeno é mais grave no inverno e em cidades encerradas por montanhas, como São Paulo.</p>",
-    "ajuda": "A camada marrom no horizonte é característica de dias com pouca circulação de ar. Pense no fenômeno que prende os poluentes próximos à superfície: uma camada de ar quente se forma acima do ar frio, impedindo a dispersão dos gases."
+    "ajuda": "A camada marrom no horizonte é característica de dias com pouca circulação de ar. Pense no fenômeno que prende os poluentes próximos à superfície: uma camada de ar quente se forma acima do ar frio, impedindo a dispersão dos gases.",
+    "feedbacks": {
+      "0": "A ilha de calor eleva as temperaturas nas áreas centrais mais densamente construídas, e não nas periferias. Além disso, a ilha de calor não é o fenômeno que explica a concentração de poluentes em uma camada visível de cor marrom descrita no texto; esse fenômeno é a inversão térmica.",
+      "1": "A Zona de Convergência Intertropical é um sistema climático de escala global que atua sobre os trópicos, provocando chuvas abundantes por baixa pressão. Ela não causa a concentração de poluentes em camadas rasas da atmosfera urbana descrita no texto.",
+      "2": "A chuva convectiva resulta do aquecimento do solo que provoca a ascensão do ar úmido e formação de nuvens de água, e não de poluentes. O fenômeno descrito no texto envolve a retenção de poluentes próximos à superfície, o que é característico da inversão térmica, e não de chuvas convectivas.",
+      "4": "Os ventos alísios são ventos de circulação geral da atmosfera que trazem umidade do oceano para os continentes tropicais. Eles não causam a concentração de poluentes em camadas baixas da atmosfera urbana; a camada de cor marrom visível nas cidades é associada à inversão térmica."
+    }
   },
   {
     "id": 8,
@@ -194,55 +236,74 @@
     ],
     "correta": 1,
     "comentario": "<p>Os lixões são depósitos a céu aberto de resíduos sólidos sem controle técnico, onde lixo doméstico, hospitalar e industrial se mistura sem tratamento. Além de atrair vetores de doenças como ratos, baratas e moscas, produzem chorume — líquido tóxico que contamina o solo e os lençóis freáticos. A Lei 12.305/2010 (Política Nacional de Resíduos Sólidos) determinou o fim dos lixões no Brasil, mas sua implementação ainda é incompleta.</p>",
-    "ajuda": "Os lixões são áreas a céu aberto onde o lixo é depositado sem tratamento. Pense nos riscos que eles representam: contaminação do solo e da água por chorume, proliferação de vetores de doenças como ratos e moscas."
+    "ajuda": "Os lixões são áreas a céu aberto onde o lixo é depositado sem tratamento. Pense nos riscos que eles representam: contaminação do solo e da água por chorume, proliferação de vetores de doenças como ratos e moscas.",
+    "feedbacks": {
+      "0": "Os problemas respiratórios em lixões são causados principalmente pelos gases produzidos na decomposição, como metano e amônia, e não pelo mau cheiro em si. Além disso, os impactos mais graves dos lixões são a contaminação do solo e das águas pelo chorume e a proliferação de vetores, e não problemas respiratórios causados por odor.",
+      "2": "A chuva ácida é provocada por óxidos de nitrogênio e enxofre emitidos por indústrias e veículos, e não pela decomposição de matéria orgânica em lixões. Os gases da decomposição em lixões (metano, CO2, amônia) não têm composição química que gere chuva ácida.",
+      "3": "Os lixões são instalados nas periferias e arredores das cidades, em áreas afastadas do centro, justamente para minimizar conflitos com a população urbana. Afirmar que são instalados próximos ao centro contradiz tanto a lógica de ocupação territorial quanto as normas regulatórias de disposição de resíduos.",
+      "4": "Lixões contaminam as nascentes e os recursos hídricos pelo chorume que percola no solo, mas não provocam o desaparecimento das nascentes nem geram secas. A seca é causada por fatores climáticos e hidrológicos, e não pela existência de lixões na região."
+    }
   },
   {
     "id": 9,
-    "instituicao": "FGV",
-    "ano": "2009",
-    "dificuldade": "dificil",
-    "tags": [
-      "ciclo hidrológico",
-      "impacto ambiental",
-      "urbanização",
-      "diagrama"
-    ],
-    "imagem_apoio": "2ano/img/230/s30q9.png",
-    "pergunta": "Considere a figura a seguir:\n\nSobre a figura, é correto afirmar que representa, de forma esquemática, o fenômeno denominado:",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Cidade sustentável é o assentamento humano constituído por uma sociedade com consciência de seu papel de agente transformador dos espaços e cuja relação não se dá pela razão natureza-objeto, e sim por uma ação sinérgica entre prudência ecológica, eficiência energética e equidade socioespacial.",
+    "fonte_apoio": "ROMEIRO, M. Frentes do urbano para a construção de indicadores de sustentabilidade intraurbana. Paranoá, n. 4, nov. 2007.",
+    "pergunta": "Uma medida pública que contradiz o modelo de cidade exposto no texto é a",
     "alternativas": [
-      "ilha de calor provocada pela concentração de construções; o ar em 3 quente e seco permanece junto à superfície terrestre, enquanto o ar, em 2, permanece mais frio que em 3.",
-      "ilha de calor que se forma pela associação das condições de poluição local do ar com o avanço de ar 2, que é úmido; 1 e 2 permanecem sobre a cidade devido às baixas temperaturas do ar 3.",
-      "inversão térmica em que o ar 3 é frio e permanece próximo à superfície terrestre porque o ar 2, quente, funciona como um tampão, impedindo a ascensão do ar e dos poluentes.",
-      "frente fria provocada pelo deslocamento de ar polar, indicado pelo número 2, que fica comprimido entre o ar 3, carregado de poluentes, e o ar 1 que também é quente, mas livre de poluentes.",
-      "frente quente provocada pelo deslocamento de ar 3, que é continental e, por sua alta temperatura, é mais pesado e fica impedido de ascender devido ao ar 2, que é frio e não se mistura com o ar 1 que é quente."
+      "coleta seletiva de lixo.",
+      "reutilização das águas pluviais.",
+      "canalização dos cursos hídricos.",
+      "arborização das avenidas centrais.",
+      "educação ambiental da comunidade."
     ],
     "correta": 2,
-    "comentario": "<p>Na inversão térmica, o ar frio e denso fica preso junto à superfície terrestre por uma camada de ar quente sobreposta, que funciona como uma 'tampa'. Os poluentes emitidos na camada inferior não conseguem se dispersar verticalmente e se acumulam, aumentando sua concentração e os riscos à saúde respiratória. O diagrama mostra o ar 3 (frio/poluído) retido sob o ar 2 (quente), confirmando esse mecanismo.</p>",
-    "ajuda": "A figura esquemática mostra camadas de ar com temperaturas diferentes. Pense nos fenômenos de inversão térmica e ilha de calor: na inversão, o ar mais quente fica acima do mais frio, prendendo poluentes. Na ilha de calor, o centro urbano é mais quente."
+    "comentario": "O texto apresenta o conceito de cidade sustentável como um espaço urbano construído por uma sociedade consciente de seu papel transformador, que busca equilibrar a relação entre as construções humanas e a natureza. Para isso, são fundamentais atitudes baseadas na prudência ecológica, na eficiência energética e na equidade socioespacial. Assim, políticas públicas que promovam o uso racional dos recursos, como a coleta seletiva, o reaproveitamento de águas pluviais, a arborização urbana e a educação ambiental, estão de acordo com esse modelo de cidade, pois fortalecem a convivência equilibrada entre pessoas e meio ambiente. Por outro lado, a canalização dos cursos hídricos representa uma intervenção que vai contra os princípios de sustentabilidade indicados no texto. Essa prática modifica ecossistemas naturais, podendo causar degradação ambiental e aumentar o risco de enchentes, o que rompe a integração entre o ambiente natural e o urbano.",
+    "ajuda": "O texto diz que a relação com a natureza não deve ser de 'natureza-objeto' (dominar), mas de 'ação sinérgica'. A canalização de rios transforma o rio em objeto de engenharia. Isso viola qual princípio do texto?",
+    "tags": [
+      "Cidade sustentável",
+      "Equidade socioespacial",
+      "Prudência ecológica"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Coleta seletiva alinha-se à eficiência no uso dos recursos e à prudência ecológica — compatível com o modelo proposto.",
+      "1": "Reutilizar águas pluviais é exemplo de eficiência energética e ecológica — está diretamente de acordo com o texto.",
+      "3": "Arborização aumenta permeabilidade do solo, reduz ilhas de calor e melhora a qualidade ambiental — compatível com sustentabilidade urbana.",
+      "4": "Educação ambiental fortalece a 'consciência do papel de agente transformador' — conceito central do texto. Está completamente alinhada ao modelo."
+    }
   },
   {
     "id": 10,
-    "instituicao": "ENEM",
-    "ano": "2006",
-    "dificuldade": "media",
-    "tags": [
-      "chuva ácida",
-      "poluição atmosférica",
-      "ph",
-      "questão ambiental"
-    ],
-    "texto_apoio": "Chuva ácida é o termo utilizado para designar precipitações com valores de pH inferiores a 5,6. As principais substâncias que contribuem para esse processo são os óxidos de nitrogênio e de enxofre provenientes da queima de combustíveis fósseis e, também, de fontes naturais. Os problemas causados pela chuva ácida ultrapassam fronteiras políticas regionais e nacionais.",
-    "imagem_apoio": "2ano/img/230/s30q10.png",
-    "pergunta": "A amplitude geográfica dos efeitos da chuva ácida está relacionada principalmente com:",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "2ano/img/230/fuvest26q7.png",
+    "texto_apoio": "Em regiões montanhosas e com clima tropical, é comum a ocorrência de movimentações de massa associadas a volumes elevados de chuva. Pelos seus efeitos destrutivos, principalmente em áreas ocupadas de forma irregular, tornam-se foco de estudos de identificação, caracterização, monitoramento e prevenção.\n\nSistema de monitoramento de corrida de detritos — 'sensores e funções:\nPluviômetro → Medir as precipitações\nGeofones → Medir as vibrações no solo\nSonar de volume → Medir o nível dos rios\nCabo sensor → Registrar a passagem de detritos\nSensor de impacto → Registrar a força da corrida de detritos",
+    "fonte_apoio": "Corridas de Detritos no Brasil, FEBRAGEO. 2022. Adaptado.",
+    "pergunta": "Sobre o motivo da localização dos sensores, assinale a alternativa correta:",
     "alternativas": [
-      "a circulação atmosférica e a quantidade de fontes emissoras de óxidos de nitrogênio e de enxofre.",
-      "a quantidade de fontes emissoras de óxidos de nitrogênio e de enxofre e a rede hidrográfica.",
-      "a topografia do local das fontes emissoras de óxidos de nitrogênio e de enxofre e o nível dos lençóis freáticos.",
-      "a quantidade de fontes emissoras de óxidos de nitrogênio e de enxofre e o nível dos lençóis freáticos.",
-      "a rede hidrográfica e a circulação atmosférica."
+      "O sensor de impacto instalado próximo à estrada e no setor mais elevado do terreno permite detectar a passagem de folhas, troncos e matacões.",
+      "O monitoramento na área de fundo de vale é necessário para medição do volume e velocidade da corrida de detritos, com o intuito da prevenção de riscos.",
+      "O pluviômetro instalado na porção menos elevada do terreno é suficiente para emissão de alerta de risco para a população residente no local.",
+      "O sonar de volume instalado próximo às residências e na parte elevada do terreno ajuda a detectar a velocidade com a qual os detritos atingem os objetos.",
+      "A correlação entre cabo sensor e geofones instalados nas porções média e inferior da drenagem permite detectar a composição da corrida de detritos."
     ],
-    "correta": 0,
-    "comentario": "<p>A chuva ácida forma-se quando óxidos de enxofre (SO₂) e nitrogênio (NOₓ), emitidos principalmente por queima de combustíveis fósseis, reagem com a água atmosférica formando ácidos sulfúrico e nítrico. A intensidade do fenômeno depende da concentração de fontes emissoras (indústrias, veículos) e dos padrões de circulação atmosférica, que podem transportar os poluentes para regiões distantes das fontes. O problema é transfronteiriço e afeta ecossistemas, edifícios e saúde humana.</p>",
-    "ajuda": "A chuva ácida é formada pela reação de óxidos de enxofre e nitrogênio com a água da atmosfera. Para que ela se espalhe e cause dano em áreas distantes, é necessário considerar o transporte dos poluentes pelo ar — qual fator determina isso?"
+    "correta": 1,
+    "comentario": "O fundo de vale é o ponto de convergência da corrida de detritos, onde ela atinge maior velocidade e volume. Monitorar essa área com sonar de volume e cabo sensor é essencial para medir com precisão o fluxo de material e emitir alertas antes que os detritos atinjam áreas habitadas a jusante. As outras alternativas erram ao inverter posições dos sensores ou atribuir funções incorretas a eles.",
+    "ajuda": "A corrida de detritos começa no alto do terreno (precipitação → deslizamento) e desce até o fundo de vale. Cada sensor está em uma posição estratégica do percurso. Onde se deve medir o VOLUME e a VELOCIDADE do fluxo para proteger as populações em risco?",
+    "tags": [
+      "movimentações de massa",
+      "corrida de detritos",
+      "monitoramento",
+      "risco geomorfológico",
+      "sensores",
+      "chuvas"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "O sensor de impacto detecta a FORÇA da corrida de detritos, não a passagem de folhas e troncos. Além disso, ele não necessariamente fica no setor mais elevado — sua posição serve para medir o impacto quando os detritos já estão em movimento.",
+      "2": "O pluviômetro deve estar na porção ELEVADA do terreno — onde a precipitação se inicia antes do escoamento. Um pluviômetro na porção menos elevada não captaria as chuvas no início do processo, comprometendo o alerta precoce.",
+      "3": "O sonar de volume mede o NÍVEL dos rios — não a velocidade de impacto nos objetos. Além disso, sua posição estratégica é no fundo de vale/drenagem, não próximo a residências em área elevada.",
+      "4": "Cabo sensor e geofones detectam, respectivamente, a PASSAGEM de detritos e as VIBRAÇÕES no solo — não a composição (mineralogia/granulometria) da corrida. A alternativa atribui função analítica que esses sensores não possuem."
+    }
   }
 ]

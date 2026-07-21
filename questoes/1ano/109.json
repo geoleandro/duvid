@@ -177,32 +177,34 @@
   },
   {
     "id": 7,
-    "instituicao": "UCPEL",
-    "ano": "2009",
-    "dificuldade": "media",
-    "tags": [
-      "placas tectônicas",
-      "tectônica de placas",
-      "formação dos continentes"
-    ],
-    "texto_apoio": "A \"Teoria da Tectônica das Placas\" procura explicar a formação dos continentes e dos oceanos, assim como do relevo submarino. Juntamente com a \"Teoria da Deriva Continental\" temos o apoio para a explicação de uma série de fenômenos que ocorrem em nosso planeta.",
-    "imagem_apoio": "1ano/img/109/p9q7.png",
-    "pergunta": "Observe a figura a seguir.\n\nCom relação ao tema, é correto afirmar que",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "1ano/img/109/unesp26q6.png",
+    "texto_apoio": "Esquema da formação da cadeia de ilhas havaianas",
+    "fonte_apoio": "www.notasgeo.com.br. Adaptado.",
+    "pergunta": "Considerando o dinamismo da crosta terrestre, a formação apresentada no esquema é motivada por",
     "alternativas": [
-      "as mudanças climáticas ocorridas ao longo do tempo não podem ser associadas à divisão do continente único até a configuração atual que modificou a distribuição das superfícies sólidas e líquidas do planeta.",
-      "a teoria da deriva continental explica a gênese dos dobramentos modernos (Andes, Montanhas Rochosas, Himalaia, entre outros) que teriam ocorrido pelo afastamento entre as placas.",
-      "os processos erosivos que esculpem o relevo, conferindo-lhe formas conhecidas no interior dos continentes, são facilmente explicados pela teoria das placas tectônicas.",
-      "os fundos oceânicos não apresentam atividade sísmico-vulcânica em função de não apresentarem contato entre as placas.",
-      "a teoria da deriva continental ajuda, em muitos casos, a explicar as semelhanças e as diferenças de espécies animais e vegetais distribuídos pelos continentes."
+      "limites tectônicos transcorrentes.",
+      "limites tectônicos convergentes.",
+      "pontos quentes intraplaca.",
+      "forças modeladoras exógenas.",
+      "limites tectônicos divergentes."
     ],
-    "correta": 4,
-    "comentario": "<p>a) Incorreta. A tectônica de placas pode influenciar o clima através do vulcanismo, mudanças\r\n atmosféricas, glaciações, cadeias de montanhas.</p>\n<p>b) Incorreta. É a teoria das placas tectônicas que explicam a gênese dos dobramentos modernos.\r\n Wegener, com a hipótese da Deriva Continental, não conseguiu explicar quais as causas do movimento\r\n dos continentes, sendo reforçada após a Segunda Guerra Mundial, pela teoria das Placas tectônicas a\r\n partir da exploração submarina da crosta oceânica.</p>\n<p>c) Incorreta. Os processos erosivos são explicados através da ação do intemperismo, isto é, as\r\n alterações físicas e químicas dos materiais rochosos que ocorre na superfície terrestre.,</p>\n<p>d) Incorreta. A formação da crosta oceânica está intimamente ligada aos processos tectônicos, por\r\n exemplo, processo divergente onde o magma ascende sobre o fundo dos oceanos e rompe pela fenda da\r\n dorsal Mesoatlântica.</p>\n<p>e) Correta. A distribuição de plantas e fósseis é consistente com a ideia de que os continentes\r\n estavam unidos há milhões de anos. Isso foi um fato fundamental para a hipótese da Deriva\r\n Continental.</p>",
-    "ajuda": "A teoria da Tectônica de Placas explica a formação dos oceanos, das cadeias de montanhas e dos cinturões vulcânicos. Lembre-se que ela substituiu a teoria da Deriva Continental de Wegener ao acrescentar o mecanismo explicativo das correntes de convecção no manto.",
+    "correta": 2,
+    "comentario": "Os pontos quentes (hot spots) são regiões do manto onde plumas de magma perfuram a placa tectônica, independentemente de seus limites. À medida que a placa do Pacífico se move sobre o ponto quente fixo, formam-se novas ilhas vulcânicas, criando a cadeia havaiana com ilhas progressivamente mais antigas no noroeste. Esse processo intraplaca é a principal explicação para cadeias de ilhas vulcânicas no interior das placas tectônicas.",
+    "ajuda": "As ilhas havaianas estão no centro da placa do Pacífico, longe de qualquer limite entre placas. O esquema mostra ilhas mais antigas no noroeste e mais recentes no sudeste, como se algo fixo no manto criasse novas ilhas enquanto a placa se move. Que processo é esse?",
+    "tags": [
+      "tectônica de placas",
+      "pontos quentes",
+      "ilhas havaianas",
+      "geomorfologia",
+      "dinâmica terrestre"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "0": "É o contrário: as mudanças climáticas ao longo do tempo PODEM ser associadas à divisão dos continentes, pois a nova distribuição de terras e mares alterou correntes e climas.",
-      "1": "Os dobramentos modernos (Andes, Himalaia) se formam por convergência (choque) de placas, não por afastamento. Além disso, quem explica sua origem é a Tectônica de Placas, e não a Deriva Continental, que não esclarecia as causas do movimento.",
-      "2": "Os processos erosivos que esculpem o relevo são explicados pelo intemperismo e pela ação de água, vento e gelo, não pela tectônica de placas, que trata da dinâmica interna.",
-      "3": "Pelo contrário: os fundos oceânicos têm intensa atividade sísmica e vulcânica, justamente nas dorsais, onde o magma ascende e novas porções de crosta se formam."
+      "0": "Os limites tectônicos transcorrentes ocorrem onde duas placas deslizam lateralmente, como na Falha de San Andreas na Califórnia. Esse tipo de limite não gera vulcanismo nem cadeias de ilhas como as havaianas, que surgem no interior de uma placa.",
+      "1": "Os limites convergentes ocorrem onde duas placas colidem, gerando fossas oceânicas ou arcos de ilhas vulcânicas nas bordas das placas. As ilhas havaianas, por estarem no centro da placa do Pacífico, não se formaram por colisão entre placas.",
+      "3": "As forças exógenas, como erosão, chuva e vento, atuam na superfície terrestre modelando o relevo já existente. A formação das ilhas havaianas é resultado de forças endógenas originadas no interior da Terra, por meio de plumas de magma do manto.",
+      "4": "Os limites divergentes são aqueles em que as placas se afastam, criando dorsais oceânicas e novo assoalho oceânico. As ilhas havaianas se formaram no centro de uma placa, longe de qualquer limite tectônico, por meio de um ponto quente fixo no manto."
     }
   },
   {

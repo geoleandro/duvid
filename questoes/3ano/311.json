@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A questão de Jerusalém é central no conflito israelense-palestino: ambos os lados reivindicam a cidade como capital. O reconhecimento de Jerusalém como capital israelense pelos EUA em 2017 e a posterior abertura de embaixadas nessa cidade representaram ruptura com o consenso internacional — gerando reações diplomáticas em todo o mundo árabe.</p>",
-    "ajuda": "A política externa brasileira em 2019 sofreu uma reorientação ideológica significativa. Pense em como o voto contra a resolução da ONU sobre as Colinas de Golã e a abertura de um escritório em Jerusalém revelam o novo alinhamento geopolítico do Brasil."
+    "ajuda": "A política externa brasileira em 2019 sofreu uma reorientação ideológica significativa. Pense em como o voto contra a resolução da ONU sobre as Colinas de Golã e a abertura de um escritório em Jerusalém revelam o novo alinhamento geopolítico do Brasil.",
+    "feedbacks": {
+      "1": "A alternativa I indica distanciamento em relação à Palestina, quando a posição descrita nos eventos aponta para uma aproximação à posição americana, que coincide com o alinhamento a Israel. A alternativa confunde o sentido da aproximação diplomática do Brasil.",
+      "2": "A alternativa I indica distanciamento em relação a Israel e aproximação aos palestinos, o que seria o movimento oposto ao dos eventos descritos, em que o Brasil se aproxima da posição dos EUA. A alternativa II é igualmente inconsistente com os desdobramentos diplomáticos do período.",
+      "3": "A alternativa I indica distanciamento em relação aos EUA, quando os eventos descritos apontam para uma aproximação da posição americana. A alternativa inverte o sentido do reposicionamento diplomático do Brasil.",
+      "4": "A aproximação à posição da Síria não corresponde ao alinhamento descrito nos eventos, que envolvem a posição dos EUA e Israel. A alternativa introduz um ator geopolítico que não é central no contexto descrito."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Com o fim da URSS em 1991, os EUA emergiram como única superpotência — o que alguns chamaram de 'momento unipolar'. Mas a multipolaridade logo retornou com a ascensão da China, da União Europeia e de potências regionais, tornando o mundo mais complexo e fragmentado.</p>",
-    "ajuda": "Com o fim da bipolaridade e o início da Nova Ordem Mundial, os EUA adotaram a 'Guerra ao Terror' como nova doutrina de segurança. Pense em qual evento específico marcou o início dessa reorientação da política externa americana."
+    "ajuda": "Com o fim da bipolaridade e o início da Nova Ordem Mundial, os EUA adotaram a 'Guerra ao Terror' como nova doutrina de segurança. Pense em qual evento específico marcou o início dessa reorientação da política externa americana.",
+    "feedbacks": {
+      "0": "Saddam Hussein era um ditador que governou o Iraque, e não um líder da rede terrorista Al-Qaeda. A Guerra do Iraque foi motivada por alegações (não comprovadas) de armas de destruição em massa, e não diretamente pelo combate ao terrorismo da Al-Qaeda.",
+      "2": "A Guerra das Coreias ocorreu entre 1950 e 1953, décadas antes do contexto do terrorismo internacional pós-11 de setembro. Não envolvia terroristas norte-coreanos, mas sim o conflito entre os dois regimes coreanos no contexto da Guerra Fria.",
+      "3": "Os EUA apoiam Israel politicamente e militarmente, e não buscaram extinguir facções israelenses. A alternativa inverte o alinhamento histórico dos EUA no conflito israelense-palestino, além de não descrever uma nova empreitada contra o terrorismo internacional."
+    }
   },
   {
     "id": 3,
@@ -67,7 +78,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O mundo bipolar da Guerra Fria era mais previsível: dois blocos com regras definidas. O mundo multipolar do século XXI é mais instável: múltiplos atores competem por influência, com guerras assimétricas, terrorismo, potências regionais e disputas comerciais substituindo o confronto nuclear.</p>",
-    "ajuda": "A questão pede a afirmativa INCORRETA sobre a comparação entre mundo bipolar (Guerra Fria) e multipolar (Nova Ordem Mundial). Lembre-se das características de cada período e identifique qual afirmativa distorce ou confunde os dois modelos."
+    "ajuda": "A questão pede a afirmativa INCORRETA sobre a comparação entre mundo bipolar (Guerra Fria) e multipolar (Nova Ordem Mundial). Lembre-se das características de cada período e identifique qual afirmativa distorce ou confunde os dois modelos.",
+    "feedbacks": {
+      "0": "Bipolarity e multipolaridade não são termos genéricos que se aplicam a quaisquer ordens mundiais; eles descrevem estruturas específicas de poder. A bipolaridade tem exatamente dois polos dominantes (EUA e URSS), enquanto a multipolaridade envolve múltiplos centros de poder competindo.",
+      "1": "A multipolaridade também apresenta tensões e disputas de ordem ideológica, ainda que sem a clareza da oposição binária da Guerra Fria. Afirmar que na multipolaridade não há oposição ideológica simplifica o cenário contemporâneo, que envolve diferentes modelos de desenvolvimento e valores em competição.",
+      "3": "A bipolaridade não foi marcada apenas pela corrida armamentista; ela também envolveu intensa disputa ideológica e econômica entre capitalismo e socialismo. Da mesma forma, a multipolaridade não se restringe à disputa econômica, abrangendo também rivalidades militares e geopolíticas."
+    }
   },
   {
     "id": 4,
@@ -92,7 +108,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os países do G4 (Brasil, Alemanha, Índia e Japão) justificam seu pleito por assento permanente no Conselho de Segurança da ONU com base no protagonismo regional e no peso econômico. O Conselho, formado em 1945, não reflete mais a distribuição atual de poder no sistema internacional.</p>",
-    "ajuda": "A reforma do Conselho de Segurança da ONU é debatida há décadas. Os países que defendem um assento permanente argumentam com base em critérios de representatividade regional e peso econômico. Identifique qual característica comum une os candidatos mencionados."
+    "ajuda": "A reforma do Conselho de Segurança da ONU é debatida há décadas. Os países que defendem um assento permanente argumentam com base em critérios de representatividade regional e peso econômico. Identifique qual característica comum une os candidatos mencionados.",
+    "feedbacks": {
+      "0": "A extensão territorial pode ser um argumento secundário, mas o principal fundamento dos países aspirantes a vaga permanente no CSONU é o protagonismo político e diplomático na sua região. Ter grande território não é critério previsto para a reforma do Conselho.",
+      "2": "O investimento em tecnologia militar pode ser um indicador de poder, mas não é o argumento declarado pelos países candidatos à vaga permanente no CSONU. O argumento central é a representatividade regional e a liderança diplomática.",
+      "3": "Nem todos os candidatos à vaga permanente no CSONU possuem armamento nuclear reconhecido; o Brasil, por exemplo, não tem. O argumento é de representatividade das regiões sub-representadas, e não de capacidade nuclear.",
+      "4": "A disponibilidade de recursos minerais é um fator econômico sem peso direto no argumento para a reforma do CSONU. A justificativa dos países candidatos baseia-se em critérios político-diplomáticos, como representatividade regional e peso geopolítico."
+    }
   },
   {
     "id": 5,
@@ -114,7 +136,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O terrorismo distingue-se da criminalidade comum por suas motivações políticas, étnicas ou religiosas. Opera tanto no âmbito nacional quanto internacional, usando o medo como instrumento político para pressionar governos e populações. O 11 de setembro de 2001 exemplificou o terrorismo transnacional de impacto global.</p>",
-    "ajuda": "O terrorismo moderno distingue-se da guerra convencional por usar a população civil como alvo e o medo como arma política. Pense em qual alternativa descreve corretamente o âmbito de atuação do terrorismo e sua relação com a violência política."
+    "ajuda": "O terrorismo moderno distingue-se da guerra convencional por usar a população civil como alvo e o medo como arma política. Pense em qual alternativa descreve corretamente o âmbito de atuação do terrorismo e sua relação com a violência política.",
+    "feedbacks": {
+      "0": "O terrorismo não se limita ao âmbito internacional; existem organizações terroristas domésticas que atuam dentro de um único país, como grupos separatistas ou fundamentalistas locais. Restringir o terrorismo ao plano internacional é factualmente incorreto.",
+      "2": "A alternativa inverte as características: são os terroristas que perseguem objetivos ideológicos e políticos, e não a criminalidade comum. A criminalidade é motivada principalmente pelo ganho financeiro, ao passo que o terrorismo visa impacto político e social.",
+      "3": "É verdade que o terrorismo opera tanto nacional quanto internacionalmente, mas a criminalidade comum é definida primordialmente pelo objetivo de ganho material e financeiro, e não por objetivos ideológicos. A alternativa erra ao atribuir motivações ideológicas à criminalidade."
+    }
   },
   {
     "id": 6,
@@ -139,7 +166,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Aliança do Pacífico foi criada em 2012 por México, Colômbia, Peru e Chile com o objetivo de integrar suas economias e aumentar a competitividade no mercado externo, especialmente com a Ásia. Ao eliminar 90% das tarifas em 2013, o bloco consolidou uma área de livre comércio orientada para o Pacífico.</p>",
-    "ajuda": "A Aliança do Pacífico foi criada em 2012 com foco em livre comércio e integração econômica, voltada para o mercado asiático. Pense em qual objetivo central essa aliança compartilha em termos de inserção internacional de seus membros."
+    "ajuda": "A Aliança do Pacífico foi criada em 2012 com foco em livre comércio e integração econômica, voltada para o mercado asiático. Pense em qual objetivo central essa aliança compartilha em termos de inserção internacional de seus membros.",
+    "feedbacks": {
+      "0": "A livre circulação de trabalhadores é limitada no MERCOSUL e não foi o objetivo econômico central do acordo. O foco principal é a circulação de mercadorias e o fortalecimento da competitividade dos países-membros no mercado externo.",
+      "2": "O MERCOSUL buscou atrair investimentos externos, e não restringi-los; o protecionismo intra-bloco contraria a lógica do livre comércio regional. Restringir multinacionais seria um obstáculo ao desenvolvimento industrial dos países-membros.",
+      "3": "Políticas cambiais e subsídios agrícolas são instrumentos de política econômica nacional, e não objetivos centrais de um acordo de integração regional como o MERCOSUL. O objetivo foi a livre circulação de bens e o fortalecimento da posição dos membros no mercado externo.",
+      "4": "A redução das tarifas alfandegárias no MERCOSUL visa fortalecer a competitividade das exportações no mercado externo, e não simplesmente estimular o consumo interno. A alternativa confunde o objetivo de política comercial com política de consumo doméstico."
+    }
   },
   {
     "id": 7,
@@ -163,7 +196,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O mapa destaca países que formam fóruns de discussão sobre economias emergentes e a multipolaridade — como o BRICS ou o G20. Esses agrupamentos buscam uma nova ordem econômica internacional menos dependente do dólar e das instituições criadas pelo Ocidente após a Segunda Guerra Mundial.</p>",
-    "ajuda": "O mapa destaca países que formam um grupo com características político-econômicas comuns. Pense em que característica une esse grupo — pode ser um alinhamento histórico, uma postura crítica à ordem dominante ou um posicionamento alternativo no sistema internacional."
+    "ajuda": "O mapa destaca países que formam um grupo com características político-econômicas comuns. Pense em que característica une esse grupo — pode ser um alinhamento histórico, uma postura crítica à ordem dominante ou um posicionamento alternativo no sistema internacional.",
+    "feedbacks": {
+      "0": "O BRICS inclui China e Rússia, países com regimes políticos que não adotam o liberalismo político ocidental. O grupo não é definido pelo regime político, mas pelo potencial econômico dos países emergentes.",
+      "1": "A social-democracia é um modelo político associado à Europa Ocidental, com Estado de bem-estar e regulação do mercado. O BRICS não é unificado por esse modelo; seus membros têm regimes e modelos econômicos bastante distintos.",
+      "3": "A integração representativa interna dos povos é uma questão de política doméstica de cada país-membro, e não o objetivo do BRICS como fórum. O BRICS é uma instância de cooperação econômica entre Estados, e não um projeto de inclusão étnica ou social dentro de cada território.",
+      "4": "Embora alguns membros do BRICS questionem aspectos da ordem hegemônica ocidental, o grupo é primariamente definido como fórum de cooperação econômica de países emergentes. Caracterizá-lo como frente de desalinhamento político ignora seu foco econômico e comercial."
+    }
   },
   {
     "id": 8,
@@ -188,54 +227,73 @@
     ],
     "correta": 3,
     "comentario": "<p>Milton Santos identificou três faces da globalização: a 'fábula' (integração e prosperidade para todos), a 'perversidade' (desigualdades reais) e a possibilidade de uma 'outra globalização' baseada em solidariedade. As tecnologias de informação podem servir tanto à exclusão quanto à organização política de movimentos populares.</p>",
-    "ajuda": "A globalização aprofundou interdependências, mas também gerou assimetrias. O texto discute como as novas tecnologias afetam as relações globais. Identifique qual alternativa reflete corretamente os efeitos ambíguos da globalização sobre desigualdades e conexões."
+    "ajuda": "A globalização aprofundou interdependências, mas também gerou assimetrias. O texto discute como as novas tecnologias afetam as relações globais. Identifique qual alternativa reflete corretamente os efeitos ambíguos da globalização sobre desigualdades e conexões.",
+    "feedbacks": {
+      "0": "O acesso às novas tecnologias é profundamente desigual, concentrado nos países ricos e nas classes mais abastadas. Milton Santos critica justamente a ilusão de que a globalização democratiza o acesso à informação para todos.",
+      "1": "O poder de compra não cresceu igualmente para todos com a globalização; o endividamento das famílias mais pobres via crédito é uma armadilha que aprofunda desigualdades. A ampliação do crédito não equivale a aumento real da renda ou do bem-estar para todos.",
+      "2": "A livre circulação de pessoas é um privilégio restrito: detentores de passaportes de países ricos viajam livremente, enquanto trabalhadores de países pobres enfrentam crescentes barreiras migratórias. A alternativa ignora a profunda assimetria na mobilidade global.",
+      "4": "A globalização pós-Guerra Fria aprofundou desigualdades tanto entre países quanto dentro deles, como Milton Santos argumenta. O fim da bipolaridade não eliminou as contradições do sistema capitalista global; ao contrário, intensificou a concentração de riqueza."
+    }
   },
   {
     "id": 9,
-    "instituicao": "UFPB",
-    "ano": "2011",
-    "dificuldade": "media",
-    "tags": [
-      "brics",
-      "países emergentes",
-      "desenvolvimento econômico",
-      "geopolítica"
-    ],
-    "texto_apoio": "Na presente conjuntura histórica, alguns países, antes considerados como subdesenvolvidos e que atualmente se encontram melhor situados social e economicamente, são classificados como países emergentes. Observa-se que, nesse conjunto dos emergentes, alguns países destacam-se em relação aos outros. Eles constituem o BRIC, grupo formado pelo Brasil, Rússia, Índia e China. Esses países integram também o G20, um conjunto mais amplo que está conseguindo, aos poucos, intervir na reconfiguração da Nova Ordem Mundial, um protagonismo antes circunscrito ao G8.",
-    "pergunta": "Considerando a literatura sobre o tema, identifique as características comuns a todos os países do BRIC:",
+    "ano": "UNICAMP 2026",
+    "imagem_apoio": "3ano/img/311/unicamp26q2.png",
+    "texto_apoio": "Atualmente, é comum denominar a divisão político-regional do mundo entre Norte e Sul Global. Essa delimitação não segue exatamente os pontos cardeais. Há países do Norte que estão no Sul e vice-versa, conforme indicado no mapa. Essa forma de divisão está baseada no tabuleiro geopolítico e econômico mundial e afastada da localização geográfica dos países.",
+    "fonte_apoio": "Elaboração: COMVEST, 2025.",
+    "pergunta": "Em relação à localização dos países do Norte e Sul Global nos diferentes hemisférios, assinale, com base no mapa, a alternativa correta.",
     "alternativas": [
-      "Participam do grupo das 8 nações mais ricas e industrializadas do mundo, são membros da OTAN e grandes potências bélicas mundiais.",
-      "Apresentam limitada importância no cenário econômico mundial, são potências regionais secundárias e grandes importadores de matérias-primas.b",
-      "Possuem grandes extensões de terra, numerosa população absoluta e estrutura econômica diversificada.",
-      "Formam as novas potências mundiais, apresentam as maiores taxas de crescimento econômico do mundo e participam do bloco ASEAN.",
-      "Apresentam boa distribuição de renda, elevada renda per capita e superaram o antigo estágio de subdesenvolviment."
+      "Austrália e Nova Zelândia são os únicos países do Norte Global situados no hemisfério meridional e hemisfério ocidental.",
+      "Argentina, Brasil, Chile, Colômbia, Equador e Venezuela estão no Sul Global e têm seus territórios no hemisfério meridional e no hemisfério oriental.",
+      "Estados Unidos e Canadá são países do continente americano no Norte Global que têm seus territórios localizados no hemisfério setentrional e hemisfério ocidental.",
+      "China, Rússia, Índia e Japão, integrantes do Norte Global, estão situados no hemisfério setentrional e no hemisfério oriental."
     ],
     "correta": 2,
-    "comentario": "<p>Os BRICS (Brasil, Rússia, Índia, China e África do Sul) compartilham três características estruturais: grande extensão territorial, numerosa população absoluta e economia diversificada. Isso os diferencia de países emergentes menores, dando-lhes peso geopolítico para influenciar a Nova Ordem Mundial.</p>",
-    "ajuda": "Os países emergentes, antes classificados como subdesenvolvidos, agora ocupam posições intermediárias na hierarquia mundial. Pense em quais características definem esse grupo — tamanho territorial, população numerosa e crescimento econômico acelerado são pistas importantes."
+    "comentario": "A divisão Norte/Sul Global é geopolítica e econômica — não segue os pontos cardeais. Os Estados Unidos e o Canadá pertencem ao Norte Global e estão de fato no hemisfério setentrional (ao norte do Equador) e no hemisfério ocidental (a oeste do meridiano de Greenwich). Essa é a única alternativa que acerta tanto a classificação geopolítica quanto a localização hemisférica.",
+    "ajuda": "O texto avisa que a divisão Norte/Sul Global 'não segue exatamente os pontos cardeais'. Antes de escolher, verifique se a afirmação sobre a localização hemisférica de cada país está geograficamente correta — não apenas a classificação geopolítica.",
+    "tags": [
+      "Norte Global",
+      "Sul Global",
+      "hemisférios",
+      "geopolítica",
+      "cartografia"
+    ],
+    "dificuldade": "facil",
+    "feedbacks": {
+      "0": "Austrália e Nova Zelândia estão no hemisfério oriental, não ocidental. Embora possam ser classificados no Norte Global, a localização hemisférica descrita na alternativa está errada.",
+      "1": "Colômbia, Equador e Venezuela cruzam o Equador — têm territórios no hemisfério setentrional, não apenas no meridional. Além disso, todos esses países estão no hemisfério ocidental, não oriental.",
+      "3": "China e Índia são associados ao Sul Global, não ao Norte. A alternativa erra na classificação geopolítica desses países, que são economias emergentes do Sul Global."
+    }
   },
   {
     "id": 10,
-    "instituicao": "FUVEST",
-    "ano": "2006",
-    "dificuldade": "dificil",
-    "tags": [
-      "conflitos regionais",
-      "intervenção militar",
-      "geopolítica",
-      "guerras contemporâneas"
-    ],
-    "texto_apoio": "O mundo tem vivido inúmeros conflitos regionais de repercussão global que, por um lado, envolvem intervenções de tropas de diferentes países e, por outro lado, resultam em discussões na Organização das Nações Unidas.",
-    "pergunta": "Considere as seguintes afirmações:\n\nI. Povos primitivos precisam ser tutelados pela diplomacia internacional ou reprimidos por forças de nações desenvolvidas, para que conflitos locais ou regionais não perturbem o equilíbrio mundial.\n\nII. Razões estratégicas, de localização geográfica, de orientação política ou de concentração de recursos naturais, fazem com que certas regiões ou países sejam alvo de interesses, preocupações e intervenções internacionais.\n\nIII. Diferenças étnicas, culturais, políticas ou religiosas, com raízes históricas, têm resultado em preconceito, desrespeito e segregação, gerando tensões que repercutem em conflitos existentes entre diferentes nações. O envolvimento global em conflitos regionais é, corretamente, explicado em",
+    "ano": "UNESP 2026",
+    "texto_apoio": "No cenário geopolítico contemporâneo, marcado por mudanças e desafios significativos, o conceito de \"Sul Global\" vem ganhando destaque como um vetor crucial para o debate sobre desenvolvimento inclusivo e equitativo. Esse termo transcende as fronteiras geográficas tradicionais, reunindo países que compartilham desafios socioeconômicos similares e uma história de marginalização nas relações internacionais. A presidência brasileira do G20, entre 2023 e 2024, seguida pela da África do Sul, simboliza a emergência das nações do \"Sul Global\" no cenário mundial, redefinindo as dinâmicas de cooperação internacional.",
+    "fonte_apoio": "https://relacoesexteriores.com.br. Adaptado.",
+    "pergunta": "A construção geopolítica do termo \"Sul Global\" evidencia uma",
     "alternativas": [
-      "I, apenas.",
-      "II, apenas.",
-      "I e III, apenas.",
-      "II e III, apenas.",
-      "I, II e III."
+      "maior representatividade e relevância para os países periféricos no cenário internacional.",
+      "autonomia ao mundo oriental para o crescimento econômico sustentável.",
+      "participação político-militar dos países emergentes em decisões de âmbito global.",
+      "transferência do centro do poder mundial para os países subdesenvolvidos do hemisfério Sul.",
+      "menor dependência política e econômica dos países ocidentais perante os organismos internacionais."
     ],
-    "correta": 3,
-    "comentario": "<p>As intervenções internacionais em conflitos regionais são motivadas por razões estratégicas — localização geográfica, recursos naturais, alianças políticas — e não apenas por razões humanitárias. Tensões étnicas, culturais e religiosas com raízes históricas continuam sendo as principais fontes de conflito no mundo contemporâneo.</p>",
-    "ajuda": "Os conflitos regionais no pós-Guerra Fria envolvem forças multilaterais e questões humanitárias. Pense em quais afirmativas descrevem corretamente as características e consequências dos conflitos armados no mundo contemporâneo."
+    "correta": 0,
+    "comentario": "O texto deixa claro que o Sul Global reúne países com história de marginalização nas relações internacionais que buscam maior protagonismo. A presidência do G20 pelo Brasil e pela África do Sul simboliza exatamente essa maior representatividade e relevância dos países periféricos. O conceito transcende fronteiras geográficas e une nações por desafios comuns, não por posição hemisférica.",
+    "ajuda": "Leia o texto com atenção: o que a presidência do G20 pelo Brasil e pela África do Sul simboliza? O Sul Global busca mais voz e representatividade, ou já conquistou a transferência do poder mundial?",
+    "tags": [
+      "Sul Global",
+      "G20",
+      "geopolítica",
+      "países emergentes",
+      "cooperação internacional"
+    ],
+    "dificuldade": "facil",
+    "feedbacks": {
+      "1": "O Sul Global não se restringe ao mundo oriental, abrangendo países da África, América Latina e partes da Ásia. Além disso, a autonomia econômica sustentável não é o foco central do termo, que prioriza a representatividade política nas relações internacionais.",
+      "2": "O Sul Global está associado principalmente à cooperação econômica e à representatividade diplomática, não a alianças militares. A participação em decisões globais mencionada no texto é de natureza política e econômica, não político-militar.",
+      "3": "O Sul Global não implica a transferência do centro do poder mundial, mas sim uma maior participação nas decisões internacionais ainda dominadas pelo Norte. O conceito transcende os limites geográficos estritos do hemisfério Sul, incluindo China e Índia.",
+      "4": "A alternativa inverte a lógica: são os países do Sul Global que buscam reduzir sua própria dependência perante potências ocidentais. O texto foca no protagonismo crescente dos países periféricos, não na dependência dos países ocidentais."
+    }
   }
 ]

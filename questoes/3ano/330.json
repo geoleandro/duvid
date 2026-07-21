@@ -19,7 +19,12 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "O Sahel é uma faixa de transição semiárida que se estende ao sul do deserto do Saara, do Atlântico ao Mar Vermelho. É uma região de vulnerabilidade ambiental, com risco de desertificação e conflitos por recursos. Identifique qual alternativa descreve corretamente o Sahel."
+    "ajuda": "O Sahel é uma faixa de transição semiárida que se estende ao sul do deserto do Saara, do Atlântico ao Mar Vermelho. É uma região de vulnerabilidade ambiental, com risco de desertificação e conflitos por recursos. Identifique qual alternativa descreve corretamente o Sahel.",
+    "feedbacks": {
+      "0": "O Sahel nao e uma planicie costeira da Africa Ocidental. E uma faixa de transicao semi-arida que se estende horizontalmente pelo continente, do Atlantico ao Mar Vermelho, separando o deserto do Saara ao norte das savanas e florestas tropicais ao sul.",
+      "1": "O Sahel nao e uma cadeia de montanhas; e uma zona de transicao climatica e vegetacional semi-arida. O relevo do Sahel e predominantemente plano a suavemente ondulado, com altitudes modestas, sem cadeias montanhosas significativas.",
+      "3": "O Sahel nao e uma regiao de floresta equatorial. As florestas equatoriais africanas ficam mais ao sul, na bacia do Congo e na costa da Africa Ocidental. O Sahel e exatamente a zona de transicao entre o deserto do Saara e as regioes mais umidas, caracterizada por vegetacao esparsa e semiaridez."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,12 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O problema socioambiental descrito emerge da interação entre fatores humanos e naturais. Pense em como a ocupação humana do território (urbanização, agricultura, pecuária) modifica o bioma e gera problemas ambientais específicos."
+    "ajuda": "O problema socioambiental descrito emerge da interação entre fatores humanos e naturais. Pense em como a ocupação humana do território (urbanização, agricultura, pecuária) modifica o bioma e gera problemas ambientais específicos.",
+    "feedbacks": {
+      "0": "O relevo e a extracao mineral podem ser fatores ambientais relevantes em certas situacoes, mas o problema socioambiental descrito emerge principalmente da interacao entre a paisagem natural (tipo de vegetacao, solo, clima) e a forma como o territorio e ocupado e explorado pelas populacoes humanas.",
+      "1": "O bioma e a atividade turistica podem se relacionar em contextos especificos, mas o problema socioambiental descrito tem maior relacao com as formas de ocupacao territorial (desmatamento, pastoreio, agricultura extensiva) que transformam a paisagem. O turismo nao e o fator central da degradacao descrita.",
+      "3": "A preservacao e uma resposta ao problema socioambiental, nao parte de sua origem. O mercado consumidor distante influencia as cadeias produtivas, mas nao captura a dinamica local central do problema, que e a interacao direta entre a paisagem natural e as praticas de ocupacao territorial."
+    }
   },
   {
     "id": 3,
@@ -66,7 +76,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A primazia econômica na África está concentrada em poucos países. Nigéria (maior PIB, petróleo), África do Sul (mais industrializado) e Egito (maior PIB do Norte da África) são os principais polos. Identifique qual conjunto de países o mapa destaca."
+    "ajuda": "A primazia econômica na África está concentrada em poucos países. Nigéria (maior PIB, petróleo), África do Sul (mais industrializado) e Egito (maior PIB do Norte da África) são os principais polos. Identifique qual conjunto de países o mapa destaca.",
+    "feedbacks": {
+      "1": "A Tanzania e o Quenia sao economias de medio porte no leste africano, com relevancia regional, mas nao figuram entre os maiores polos economicos do continente africano. A Tanzania e o Quenia ficam atras da Nigeria, do Egito e da Africa do Sul em termos de PIB e influencia economica continental.",
+      "2": "A Costa do Marfim e uma economia emergente relevante na Africa Ocidental, mas nao e um polo economico continental. Argelia e Marrocos tem importancia no norte da Africa, mas o trio que representa os maiores polos africanos e formado pela Nigeria (oeste), pelo Egito (norte) e pela Africa do Sul (sul).",
+      "3": "Angola e um produtor petrolifero relevante na Africa Central-Austral, mas nao e um polo economico continental da mesma magnitude que Nigeria, Egito e Africa do Sul. Tanzania e Camaroes tem economias ainda menores e sem o mesmo peso continental.",
+      "4": "A Nigeria e corretamente listada como polo economico africano. Contudo, o Mali e Uganda sao economias de muito menor porte e nao figuram entre os principais polos do continente. Os tres maiores polos economicos africanos sao Nigeria, Egito e Africa do Sul."
+    }
   },
   {
     "id": 4,
@@ -91,7 +107,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Para identificar países africanos a partir de um mapa numerado, use pistas geográficas: localização relativa, acesso ao mar, vizinhos. Lembre-se da posição de países como África do Sul, Nigéria, Egito, Etiópia e Angola para fazer a correspondência correta."
+    "ajuda": "Para identificar países africanos a partir de um mapa numerado, use pistas geográficas: localização relativa, acesso ao mar, vizinhos. Lembre-se da posição de países como África do Sul, Nigéria, Egito, Etiópia e Angola para fazer a correspondência correta.",
+    "feedbacks": {
+      "0": "A combinacao 4-5-3-1 associa incorretamente os paises numerados as suas caracteristicas. A correspondencia correta, conforme as informacoes do enunciado, e 3-1-2-5, que associa cada pais a seu perfil geografico, economico ou politico correto.",
+      "1": "A combinacao 3-2-5-1 altera a ordem das associacoes e produz correspondencias incorretas entre os paises e suas caracteristicas. A sequencia correta e 3-1-2-5, que reflete com precisao os atributos de cada pais listado.",
+      "2": "A combinacao 5-1-2-3 inverte algumas das associacoes corretas, resultando em correspondencias equivocadas. A sequencia correta e 3-1-2-5, em que cada numero identifica corretamente o pais ou regiao com sua respectiva caracteristica descrita no enunciado.",
+      "3": "A combinacao 2-1-5-4 nao corresponde ao gabarito da questao. A associacao correta entre os paises e suas caracteristicas, conforme o enunciado, e a sequencia 3-1-2-5."
+    }
   },
   {
     "id": 5,
@@ -115,7 +137,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A expansão imperialista europeia na África, no decorrer do século XIX, ocasionou a constituição de\r\n áreas de influência e dominação colonial cujas fronteiras territoriais, na maioria dos casos, não\r\n coincidiam com as divisões linguísticas e étnicas dos povos locais.</p>\n<p>No curso das lutas de descolonização, nas décadas de 1950 a 1970, e dos processos de constituição de\r\n muitos dos Estados-nacionais que integram a África na atualidade, as fronteiras territoriais desses\r\n Estados estruturaram-se a partir das heranças da dominação imperialista europeia. Duas consequências\r\n principais se destacam nesse contexto: por um lado, as diversidades étnicas no interior de diversos\r\n territórios nacionais, em especial nas regiões da África Central, associaram-se a polaridades entre\r\n grupos e partidos políticos, muitas vezes em constante disputa pelo controle da direção do poder\r\n estatal; por outro lado, a diversidade étnica de determinadas regiões se manifesta também na\r\n emergência de reivindicações pelo reconhecimento da autonomia de grupos específicos.</p>\n<p>Esse panorama indica o quanto as diferenças entre fronteiras étnicas e nacionais no continente\r\n africano, herança direta do imperialismo e da descolonização, contribuíram para a instabilidade\r\n política de diversos países.</p>",
-    "ajuda": "As fronteiras africanas foram traçadas pela Conferência de Berlim (1884-85) sem considerar as etnias existentes. Isso gerou Estados com múltiplos grupos étnicos rivais dentro das mesmas fronteiras, o que é uma causa central de conflitos e instabilidade política."
+    "ajuda": "As fronteiras africanas foram traçadas pela Conferência de Berlim (1884-85) sem considerar as etnias existentes. Isso gerou Estados com múltiplos grupos étnicos rivais dentro das mesmas fronteiras, o que é uma causa central de conflitos e instabilidade política.",
+    "feedbacks": {
+      "0": "O deficit comercial e uma consequencia economica da dependencia africana de exportacao de materias-primas de baixo valor agregado, mas nao e o principal efeito da contradicao descrita (riqueza de recursos com populacao pobre). A instabilidade politica, gerada pela disputa pelo controle dos recursos, e o efeito mais imediato e recorrente.",
+      "2": "A degradacao ambiental pode estar associada a exploracao predatoria dos recursos naturais africanos, mas nao e o efeito central da contradicao descrita. A instabilidade politica e os conflitos armados pelo controle dos recursos sao os desdobramentos mais diretamente ligados a situacao de paradoxo entre riqueza natural e pobreza.",
+      "3": "A dependencia financeira externa e uma realidade na Africa, mas funciona mais como causa do que como efeito da contradicao descrita. Os paises africanos ja eram dependentes financeiramente antes da exploracao contemporanea dos recursos; a contradicao descrita gera principalmente instabilidade politica e conflitos internos."
+    }
   },
   {
     "id": 6,
@@ -138,7 +165,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Angola foi cenário de uma longa guerra civil (1975-2002) alimentada por recursos naturais. O petróleo e os diamantes financiaram os dois lados do conflito — o MPLA (governo) e a UNITA (oposição). Identifique qual par de recursos foi central nesse conflito."
+    "ajuda": "Angola foi cenário de uma longa guerra civil (1975-2002) alimentada por recursos naturais. O petróleo e os diamantes financiaram os dois lados do conflito — o MPLA (governo) e a UNITA (oposição). Identifique qual par de recursos foi central nesse conflito.",
+    "feedbacks": {
+      "1": "Os defensivos agricolas nao sao disputados por grupos armados em conflitos africanos. O gas natural e relevante em alguns paises, mas o par classico e historicamente associado a conflitos em paises africanos como Angola, Serra Leoa, Congo e Nigeria e o diamante e o petroleo.",
+      "2": "Os metais e os produtos farmaceuticos nao sao os recursos tipicamente disputados por grupos armados em guerras civis africanas. Embora metais como o coltane e o ouro sejam relevantes em certos conflitos, a combinacao classica que explica a expressao 'recursos de conflito' na Africa e diamante e petroleo.",
+      "3": "Alimentos industrializados e tecidos nao sao recursos naturais capazes de financiar grupos armados ou gerar guerras civis em paises africanos. Os conflitos armados africanos sao financiados por recursos de alto valor comercial, como diamantes e petroleo, que podem ser controlados e vendidos no mercado internacional."
+    }
   },
   {
     "id": 7,
@@ -162,7 +194,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Os estados teocráticos do Oriente Médio (Irã, Arábia Saudita) fundem religião e política, o que frequentemente gera tensões internas e externas. Pense em qual característica desses estados explica a continuidade dos conflitos na região."
+    "ajuda": "Os estados teocráticos do Oriente Médio (Irã, Arábia Saudita) fundem religião e política, o que frequentemente gera tensões internas e externas. Pense em qual característica desses estados explica a continuidade dos conflitos na região.",
+    "feedbacks": {
+      "0": "O governo coreano nao tem papel relevante no conflito do Oriente Medio entre israelenses e palestinos. E os EUA, e nao a Coreia, que mantem forte apoio politico, diplomatico e militar ao Estado de Israel, o que gera ressentimento em varios paises da regiao.",
+      "2": "A expressao 'perspectivas positivas com focos separatistas' e contraditoria e nao descreve a realidade do Oriente Medio. A regiao e marcada por escalada de conflitos, e nao por perspectivas positivas; os focos separatistas (como os curdos) agravam a instabilidade, nao a reduzem.",
+      "3": "O Oriente Medio nao esta em calmaria; e uma das regioes mais conflituosas do mundo, com multiplas guerras e crises humanitarias em andamento. As intervencoes da ONU na regiao nao foram suficientes para estabilizar o conflito palestino-israelense ou os demais conflitos regionais.",
+      "4": "A Croacia e um pais europeu, sem relacao direta com o conflito do Oriente Medio descrito. As fontes de energia envolvidas no Oriente Medio (petroleo e gas) estao localizadas na Peninsula Arabica, no Golfo Persico e no Iraque, sem relacao com grupos armados na Croacia."
+    }
   },
   {
     "id": 8,
@@ -187,7 +225,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A Guerra Civil Síria e o uso de armas químicas pelo regime de Assad geraram condenação internacional. O texto de Mazin provavelmente relata o trauma de um sobrevivente. Pense em qual causa política e militar explica o uso dessas armas como ferramenta de guerra."
+    "ajuda": "A Guerra Civil Síria e o uso de armas químicas pelo regime de Assad geraram condenação internacional. O texto de Mazin provavelmente relata o trauma de um sobrevivente. Pense em qual causa política e militar explica o uso dessas armas como ferramenta de guerra.",
+    "feedbacks": {
+      "1": "A guerra civil siria nao foi motivada pelo desejo de instalar um regime liberal burgues. Embora a Primavera Arabe de 2011 tenha iniciado como protesto popular, o conflito rapidamente se transformou numa guerra multifacetada com grupos jihadistas, curdos, forcas externas como Russia e Ira, e interesses geopoliticos complexos.",
+      "2": "Os interesses economicos relacionados a agroindústria nao sao um fator relevante para explicar o conflito sirio. A Siria nao e um grande exportador agricola; os fatores centrais do conflito sao o poder politico, a posicao geoestrategica do pais, o petroleo de menor escala e os interesses das potencias externas envolvidas.",
+      "3": "A Russia apoia o regime de Assad para manter sua influencia no Oriente Medio e preservar sua base naval em Tartus, no Mediterraneo. A Russia nao tem interesse em anexar territorios sirios; seu objetivo e manter Assad no poder e projetar influencia regional, nao imperialismo territorial classico.",
+      "4": "Reduzir a guerra civil siria ao desejo de 'ocidentalizacao' e a reacao de fundamentalistas e uma simplificacao excessiva. O conflito envolve disputas pelo poder politico interno, rivalidades setarias (sunitas vs. alevitas), interesses de potencias estrangeiras concorrentes e a participacao de dezenas de grupos armados com agendas distintas."
+    }
   },
   {
     "id": 9,
@@ -211,7 +255,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A questão é conceitual e tem como objetivo diferenciar as diferentes fisionomias do litoral.</p>\n<p>a) Correta. A alternativa a traz o conceito correto de Golfo: uma reentrância do mar sobre o\r\n continente, possuindo grandes dimensões e com uma forma mais aberta para o mar.</p>\n<p>b) Incorreta. O conceito exposto nesta alternativa é o de península, que é a parte do continente que\r\n avança para o oceano, com grandes extensões e cercada de água por quase todos os lados.</p>\n<p>c) Incorreta. Este é o conceito de recife, uma barreira formada no mar e localizada próxima da\r\n praia, podendo ser formada por rochas, corais e restos de animais marinhos.</p>\n<p>d) Incorreta. Este é o conceito de barra, que é o conjunto de canais que ligam rios com o mar, onde\r\n ocorre muita sedimentação, com a formação de bancos de areia e a deposição de detritos.</p>",
-    "ajuda": "O litoral pode ter diferentes configurações: golfo (reentrância do mar), península (avanço do continente), recife (barreira no mar) e estuário (encontro de rio com o mar). Pense em qual configuração litorânea se refere o conceito descrito no texto."
+    "ajuda": "O litoral pode ter diferentes configurações: golfo (reentrância do mar), península (avanço do continente), recife (barreira no mar) e estuário (encontro de rio com o mar). Pense em qual configuração litorânea se refere o conceito descrito no texto.",
+    "feedbacks": {
+      "1": "A parte do continente que avanca para o oceano, cercada de agua por quase todos os lados, descreve uma PENINSULA, e nao uma reentrancia do mar. Uma peninsula e uma extensao de terra rodeada de agua em tres lados, como a Peninsula Arabica ou a Peninsula Iberica.",
+      "2": "A barreira formada no mar proximo da praia, de rochas ou corais, descreve um RECIFE ou uma barreira de coral, e nao uma reentrancia do mar sobre o continente. Recifes sao estruturas submersas ou emergentes que surgem por acumulacao de corais ou rochas.",
+      "3": "Os canais que ligam rios ao mar com sedimentacao e bancos de areia descrevem um DELTA ou ESTUARIO, e nao uma reentrancia do mar sobre o continente. Deltas se formam pelo deposito de sedimentos na foz dos rios, criando uma forma triangular de terra que avanca para o mar."
+    }
   },
   {
     "id": 10,
@@ -235,6 +284,12 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Os curdos são o maior grupo étnico apátrida do mundo, reivindicando um Estado independente chamado Curdistão numa região que inclui partes da Turquia, Síria, Iraque e Irã. Pense em qual característica específica marca a luta curda conforme descrita no texto."
+    "ajuda": "Os curdos são o maior grupo étnico apátrida do mundo, reivindicando um Estado independente chamado Curdistão numa região que inclui partes da Turquia, Síria, Iraque e Irã. Pense em qual característica específica marca a luta curda conforme descrita no texto.",
+    "feedbacks": {
+      "0": "Os curdos nao lutam por delimitacao de fronteiras para cobrar menores impostos sobre alimentos. Sua luta historica e por reconhecimento de sua identidade etnica, por direitos politicos e culturais, e por autonomia ou independencia nos paises onde vivem, como Turquia, Iraque, Siria e Ira.",
+      "1": "Os curdos nao sao associados a taticas extremistas contra judeus da Tunisia. Os curdos vivem no Oriente Medio (Turquia, Iraque, Siria e Ira) e sua luta e por reconhecimento etnico e autonomia politica. A Tunisia fica no norte da Africa e nao tem relacao com os conflitos do povo curdo.",
+      "2": "Os curdos nao impoe islamismo radical; a maioria e muculmana sunita moderada, e ha tambem curdos ezidis e cristaos. Alem disso, os curdos nao pregam o cristianismo; o Ezidismo e uma das religioes curdas antigas, mas nao o islamismo radical descrito na alternativa.",
+      "3": "A Siberia nao e um pais; e uma regiao da Russia. O Paquistao nao tem fronteira com os curdos e nao tem conflito com eles. O PKK (Partido dos Trabalhadores do Curtistao) tem conflito com a TURQUIA, nao com a Siberia ou o Paquistao, que sao geograficamente distantes da regiao curda."
+    }
   }
 ]

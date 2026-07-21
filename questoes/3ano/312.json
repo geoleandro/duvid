@@ -22,7 +22,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p> -->\n<!-- \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "O texto e o quadrinho tratam de modelos de organização do trabalho industrial. Lembre-se de que o fordismo e o taylorismo se baseiam na divisão do trabalho e na padronização, enquanto o toyotismo exige flexibilidade e polivalência. Avalie as afirmativas com base nessa distinção."
+    "ajuda": "O texto e o quadrinho tratam de modelos de organização do trabalho industrial. Lembre-se de que o fordismo e o taylorismo se baseiam na divisão do trabalho e na padronização, enquanto o toyotismo exige flexibilidade e polivalência. Avalie as afirmativas com base nessa distinção.",
+    "feedbacks": {
+      "0": "A afirmação III também está correta: tanto o texto quanto o quadrinho expressam que o operário não precisa conhecer todo o processo produtivo para executar sua parte, dada a fragmentação do trabalho. Selecionar apenas I torna a alternativa incompleta.",
+      "1": "A afirmação II está incorreta: o quadrinho retrata a produção industrial fragmentada, e não produção artesanal. A divisão do trabalho industrial foi justamente o que fragmentou o processo produtivo e afastou o trabalhador do produto final.",
+      "2": "A afirmação I também está correta: tanto o texto quanto o quadrinho retratam a intensa divisão do trabalho à qual os operários são submetidos na produção industrial. Selecionar apenas III torna a alternativa incompleta.",
+      "3": "A afirmação II está incorreta: o texto não retrata produção informatizada em oposição a produção artesanal do quadrinho. Ambos abordam a fragmentação do trabalho industrial e a alienação do trabalhador em relação ao produto final."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "Os tipos de indústria se diferenciam pelo produto final: indústrias de base produzem insumos; indústrias de bens de capital fabricam máquinas; indústrias de bens de consumo produzem para o consumidor final. Identifique qual alternativa define corretamente cada tipo."
+    "ajuda": "Os tipos de indústria se diferenciam pelo produto final: indústrias de base produzem insumos; indústrias de bens de capital fabricam máquinas; indústrias de bens de consumo produzem para o consumidor final. Identifique qual alternativa define corretamente cada tipo.",
+    "feedbacks": {
+      "0": "A alternativa confunde bens não-duráveis com bens de aproveitamento continuado: os não-duráveis são consumidos rapidamente (alimentos, cigarros), enquanto os de aproveitamento continuado são os bens duráveis (eletrodomésticos, móveis). A definição está invertida.",
+      "1": "Eletrodomésticos são bens de consumo duráveis, e não bens de capital. Bens de capital são especificamente equipamentos industriais usados para produzir outros bens, como tornos, prensas e robôs industriais.",
+      "3": "Indústrias de ponta são as de alta tecnologia (microeletrônica, biotecnologia, aeroespacial). Produzir 'equipamentos e máquinas em geral' é tarefa da indústria de bens de capital, e não das indústrias de ponta, que se definem pela inovação tecnológica.",
+      "4": "Cigarros são bens não-duráveis, consumidos rapidamente. Bens duráveis são os de uso prolongado, como eletrodomésticos, automóveis e móveis. A alternativa inverte completamente as definições dos dois tipos."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,12 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "A Terceira Revolução Industrial (revolução científico-tecnológica) transformou a produção, o trabalho e a organização do espaço. Pense em quais proposições descrevem corretamente os efeitos dessa revolução sobre a concentração tecnológica e a divisão internacional do trabalho."
+    "ajuda": "A Terceira Revolução Industrial (revolução científico-tecnológica) transformou a produção, o trabalho e a organização do espaço. Pense em quais proposições descrevem corretamente os efeitos dessa revolução sobre a concentração tecnológica e a divisão internacional do trabalho.",
+    "feedbacks": {
+      "0": "A proposição I é falsa: o desenvolvimento tecnológico aprofundou a concentração do poder econômico nas potências que controlam a inovação, e não o desconcentrou. As vantagens competitivas dos países já desenvolvidos foram amplificadas pela tecnologia.",
+      "2": "As proposições I, III e IV são todas falsas: a tecnologia concentrou (e não desconcentrou) o poder; a revolução informacional intensificou (e não atenuou) a competitividade; e o impacto da globalização tecnológica vai além do econômico, afetando cultura e modos de vida.",
+      "3": "A proposição I é falsa, pois a tecnologia concentrou o poder econômico nos países desenvolvidos e não o distribuiu. A proposição IV também é falsa: a globalização tecnológica impacta profundamente a cultura, os valores e os modos de vida, e não apenas as relações econômicas."
+    }
   },
   {
     "id": 4,
@@ -94,7 +111,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "A transição para a era das redes envolveu a substituição do paradigma industrial (baseado em energia e transporte físico) pelo paradigma informacional (baseado em dados e comunicação). Identifique a sequência correta de tecnologias-base em cada período."
+    "ajuda": "A transição para a era das redes envolveu a substituição do paradigma industrial (baseado em energia e transporte físico) pelo paradigma informacional (baseado em dados e comunicação). Identifique a sequência correta de tecnologias-base em cada período.",
+    "feedbacks": {
+      "0": "A alternativa inclui 'telefonia fixa' como elemento do meio técnico-científico-informacional, quando ela é uma tecnologia do meio técnico clássico. Além disso, substitui 'finanças' por 'comércio', que não captura o papel central do capital financeiro globalizado no período contemporâneo.",
+      "1": "A alternativa substitui 'redes de comunicação de alta tecnologia' por 'telefonia fixa', que é uma tecnologia do meio técnico anterior, sem a velocidade e alcance da internet e das redes digitais que caracterizam o meio técnico-científico-informacional.",
+      "3": "A alternativa menciona 'redes ferroviárias', típicas do meio técnico do século XIX e XX, em vez das redes de comunicação de alta tecnologia. As ferrovias são a infraestrutura do meio técnico clássico, enquanto as redes digitais definem o meio técnico-científico-informacional.",
+      "4": "A alternativa troca 'finanças' por outro elemento, alterando a lógica de caracterização do meio técnico-científico-informacional. O capital financeiro globalizado e as redes de comunicação de alta tecnologia são os dois pilares que diferenciam esse meio do anterior."
+    }
   },
   {
     "id": 5,
@@ -118,7 +141,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O texto da questão apresenta o problema da escassez global de semicondutores, componente essencial\r\n na produção de produtos eletrônicos. Na Nova Divisão Internacional do Trabalho os países\r\n desenvolvidos realizam grandes investimentos em pesquisa e inovação, contudo a produção dos chips em\r\n si foi deslocada para outros países, onde os custos produtivos mais atrativos e maior especialização\r\n na produção desse tipo de tecnologia, como os Tigres Asiáticos de 1ª e 2ª geração. Nesse sentido,\r\n uma crítica direcionada à globalização que se fortaleceu no período da pandemia é a excessiva\r\n interdependência que ela gerou entre os países na divisão de atividades na cadeia produtiva global.</p>\n<!-- <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "A produção de semicondutores está geograficamente concentrada no Leste Asiático, especialmente em Taiwan, Coreia do Sul e China. Pense em que implicação geopolítica essa concentração tem para a divisão internacional do trabalho e para a autonomia tecnológica dos países."
+    "ajuda": "A produção de semicondutores está geograficamente concentrada no Leste Asiático, especialmente em Taiwan, Coreia do Sul e China. Pense em que implicação geopolítica essa concentração tem para a divisão internacional do trabalho e para a autonomia tecnológica dos países.",
+    "feedbacks": {
+      "1": "O declínio relativo da participação americana e europeia em semicondutores se deve principalmente à vantagem competitiva asiática, construída com especialização industrial, capacidade de escala e custos. A explicação por simples queda de incentivos desconsidera a complexa dinâmica industrial do setor.",
+      "2": "A alternativa usa o termo 'independência' quando deveria ser 'dependência': a crise global de semicondutores revelou justamente a alta dependência do mundo em relação a poucos produtores asiáticos. O correto é que a cadeia é extremamente interdependente e vulnerável.",
+      "3": "O domínio asiático em semicondutores se deve à capacidade tecnológica e industrial acumulada, e não principalmente a recursos naturais. Silício é abundante globalmente; o diferencial é a capacidade de refino, fabricação e especialização tecnológica das indústrias asiáticas.",
+      "4": "A crise de semicondutores é estrutural, resultado da concentração geográfica da produção e do crescimento exponencial da demanda global por dispositivos eletrônicos. Tratá-la como uma interrupção momentânea subestima as causas sistêmicas da vulnerabilidade da cadeia produtiva."
+    }
   },
   {
     "id": 6,
@@ -142,7 +171,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Objetivo: classificar objeto de acordo com o seu papel econômico no ciclo de reprodução do capital.</p>\n<p>A definição de capital apresentada no texto faz distinção em relação ao conceito de bem ou de\r\n riqueza. O capital é um bem, ou seja, um objeto que tem valor, mas se distingue por ser um tipo de\r\n bem que é utilizado como valor que gera mais valor. É diferente de um bem de consumo que, apesar de\r\n possuir valor, não gera, na maioria dos casos, um valor maior do que o valor pelo qual foi\r\n adquirido. Um smartphone, por exemplo, na maioria dos casos não gera, para o seu proprietário, um\r\n valor maior do que o que foi gasto na sua compra. Ele é um bem de consumo, não é capital. A não ser\r\n para a empresa que o fabrica, mas não para a maioria dos usuários.</p>\n<p>Dentre as imagens presentes nas alternativas, a única que apresenta um objeto que não é usado\r\n predominantemente como bem de consumo e sim como bem de capital é a colheitadeira agrícola. Ela é\r\n usada durante anos como parte do processo produtivo do proprietário rural, de onde vem o capital\r\n ampliado desse tipo de capitalista, ou empresário rural.</p>\n<!-- <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "Capital é qualquer bem que gera mais valor quando utilizado na produção. O texto provavelmente distingue entre diferentes objetos e como eles se comportam economicamente. Pense em qual bem, ao ser usado pelo proprietário, se transforma em instrumento de geração de riqueza."
+    "ajuda": "Capital é qualquer bem que gera mais valor quando utilizado na produção. O texto provavelmente distingue entre diferentes objetos e como eles se comportam economicamente. Pense em qual bem, ao ser usado pelo proprietário, se transforma em instrumento de geração de riqueza.",
+    "feedbacks": {
+      "0": "A Letra A não representa o tipo de capital que o texto descreve como central na era informacional. O objeto da Letra A corresponde a outra categoria de capital, diferente do conhecimento e da informação que definem o capital imaterial contemporâneo.",
+      "1": "A Letra B tampouco corresponde ao capital predominante no sentido apresentado pelo texto. O objeto da Letra B representa outra forma de capital, distinta da informação e do conhecimento que caracterizam a era técnico-científico-informacional.",
+      "3": "A Letra D não se enquadra na definição do capital imaterial descrito pelo texto como o mais mobilizado na economia contemporânea. O objeto da Letra D refere-se a outra modalidade de capital que não é a dominante no contexto informacional."
+    }
   },
   {
     "id": 7,
@@ -165,7 +199,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "A queda do Muro de Berlim (1989) simbolizou o fim da Guerra Fria e da divisão ideológica da Europa. Pense em qual significado simbólico esse evento representou para a ordem política e econômica mundial."
+    "ajuda": "A queda do Muro de Berlim (1989) simbolizou o fim da Guerra Fria e da divisão ideológica da Europa. Pense em qual significado simbólico esse evento representou para a ordem política e econômica mundial.",
+    "feedbacks": {
+      "0": "O oposto ocorreu: a queda do Muro em 1989 simbolizou o colapso do socialismo no Leste Europeu e a reunificação da Alemanha sob o modelo capitalista e democrático. Representou uma derrota do comunismo, e não sua vitória.",
+      "2": "O Mercado Comum Europeu foi criado em 1957 pelo Tratado de Roma, três décadas antes da queda do Muro em 1989. A globalização tem raízes que antecedem esse evento, e atribuir à queda do Muro a criação do Mercado Comum é historicamente incorreto.",
+      "3": "O Muro era o símbolo do isolamento da Alemanha Oriental pelo regime comunista. Sua queda encerrou o isolamento e iniciou o processo de reunificação da Alemanha, integrando o Leste ao mundo ocidental. A alternativa confunde causa e efeito.",
+      "4": "O fluxo de migração era do Leste para o Oeste (fuga do socialismo para o capitalismo), o que motivou a própria construção do Muro em 1961. A alternativa inverte o sentido histórico do movimento migratório que deu origem ao Muro."
+    }
   },
   {
     "id": 8,
@@ -189,7 +229,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A Cortina de Ferro foi a fronteira ideológica que dividiu a Europa durante a Guerra Fria entre o bloco capitalista e o socialista. A OTAN e o Pacto de Varsóvia eram as alianças militares de cada lado. Identifique qual conceito representa essa divisão geopolítica europeia."
+    "ajuda": "A Cortina de Ferro foi a fronteira ideológica que dividiu a Europa durante a Guerra Fria entre o bloco capitalista e o socialista. A OTAN e o Pacto de Varsóvia eram as alianças militares de cada lado. Identifique qual conceito representa essa divisão geopolítica europeia.",
+    "feedbacks": {
+      "1": "O Muro de Berlim foi uma estrutura física construída em 1961 em Berlim. A Cortina de Ferro era a expressão mais ampla que designava toda a fronteira ideológica entre os blocos capitalista e socialista na Europa, e não apenas a divisão física de uma cidade.",
+      "2": "A União Europeia é um projeto de integração política e econômica da Europa democrática, criado a partir do Tratado de Maastricht (1992). Não tem qualquer relação com o conceito que designava a divisão ideológica da Europa durante a Guerra Fria.",
+      "3": "A Convenção de Ramsar é o tratado internacional de 1971 para proteção de zonas úmidas. Não tem nenhuma relação com a divisão geopolítica e ideológica da Europa entre os blocos capitalista e socialista.",
+      "4": "A Conferência de Estocolmo foi a primeira conferência da ONU sobre meio ambiente, realizada em 1972. Não tem qualquer relação com a expressão que designava a divisão ideológica da Europa durante a Guerra Fria."
+    }
   },
   {
     "id": 9,
@@ -213,7 +259,12 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Os BRICS reúnem Brasil, Rússia, Índia, China e África do Sul — países com grandes economias em desenvolvimento. As imagens de 2013 e 2018 provavelmente mostram mudanças na posição relativa desses países. Pense em qual tendência geral os dados revelam."
+    "ajuda": "Os BRICS reúnem Brasil, Rússia, Índia, China e África do Sul — países com grandes economias em desenvolvimento. As imagens de 2013 e 2018 provavelmente mostram mudanças na posição relativa desses países. Pense em qual tendência geral os dados revelam.",
+    "feedbacks": {
+      "0": "Os gráficos representam dados econômicos sobre crescimento do PIB e participação no comércio internacional. Não há nenhuma relação com competições esportivas entre nações; a alternativa descontextualiza completamente os dados apresentados.",
+      "1": "Os gráficos mostram tendências de crescimento econômico e participação no comércio, e não indicadores de instabilidade política. O desempenho econômico dos países emergentes no G20 entre 2013 e 2018 não equivale a dados de instabilidade governamental.",
+      "3": "O G20 é um fórum econômico que reúne países com diferentes regimes políticos. A divisão socialismo versus capitalismo não caracteriza o grupo no século XXI, e os gráficos não representam poder bélico, mas desempenho e participação econômica."
+    }
   },
   {
     "id": 10,
@@ -236,6 +287,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Alternativa B. A Nova Ordem Mundial, do ponto de vista econômico, é caracterizada pelo sistema\r\n capitalista de produção, que marca a adoção do neoliberalismo como doutrina econômica, cenário que\r\n reduz a atuação do Estado na economia e favorece o setor privado.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A Nova Ordem Mundial pós-Guerra Fria consolidou o capitalismo como modelo hegemônico. Pense em quais características econômicas e políticas definem essa nova ordem: desregulamentação, privatizações, abertura comercial e financeira."
+    "ajuda": "A Nova Ordem Mundial pós-Guerra Fria consolidou o capitalismo como modelo hegemônico. Pense em quais características econômicas e políticas definem essa nova ordem: desregulamentação, privatizações, abertura comercial e financeira.",
+    "feedbacks": {
+      "0": "O colonialismo é um sistema político e econômico anterior e distinto do neoliberalismo. Além disso, a regulamentação rígida dos mercados financeiros é o oposto da desregulamentação pregada pelo neoliberalismo.",
+      "2": "O neoliberalismo promove a internacionalização do capital e a globalização, e não o nacionalismo econômico. Além disso, o neoliberalismo defende a redução, e não o aumento, da intervenção estatal na economia.",
+      "3": "A Nova Ordem Mundial pós-Guerra Fria caracterizou-se pela DESregulamentação financeira, e não pela crescente regulamentação dos mercados. A alternativa contradiz o pilar central do neoliberalismo que orientou a reestruturação econômica global.",
+      "4": "O internacionalismo socialista não caracterizou a Nova Ordem Mundial pós-Guerra Fria; o período foi de hegemonia do capitalismo neoliberal. O neoliberalismo defende a redução da intervenção estatal, e não seu crescimento."
+    }
   }
 ]

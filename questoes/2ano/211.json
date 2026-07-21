@@ -21,8 +21,14 @@
       "Letra E."
     ],
     "correta": 0,
-    "ajuda": "Observe os dois gráficos — um de expansão ferroviária e outro de expansão rodoviária ao longo do tempo. Pense em quando cada modal teve seu período de maior crescimento: as ferrovias cresceram no final do século XIX e início do XX (ligadas ao café), enquanto as rodovias explodiram a partir dos anos 1950 (JK e o rodoviarismo). Identifique qual tabela resume corretamente essa dinâmica.",
-    "comentario": "<p>O Brasil fez uma escolha histórica pelo modal rodoviário: enquanto as ferrovias cresceram modestamente após os anos 1950, a malha rodoviária explodiu com o Plano de Metas de JK e o boom da indústria automobilística. Essa decisão foi influenciada pelas montadoras estrangeiras que tinham interesse em vender veículos, resultando em uma matriz de transportes cara, poluente e dependente do petróleo.</p>"
+    "ajuda": "Observe os dois gráficos: um de expansão ferroviária e outro de expansão rodoviária ao longo do tempo. Pense em quando cada modal teve seu período de maior crescimento: as ferrovias cresceram no final do século XIX e início do XX (ligadas ao café), enquanto as rodovias explodiram a partir dos anos 1950 (JK e o rodoviarismo). Identifique qual tabela resume corretamente essa dinâmica.",
+    "comentario": "<p>O Brasil fez uma escolha histórica pelo modal rodoviário: enquanto as ferrovias cresceram modestamente após os anos 1950, a malha rodoviária explodiu com o Plano de Metas de JK e o boom da indústria automobilística. Essa decisão foi influenciada pelas montadoras estrangeiras que tinham interesse em vender veículos, resultando em uma matriz de transportes cara, poluente e dependente do petróleo.</p>",
+    "feedbacks": {
+      "1": "O gráfico da rede ferroviária mostra crescimento contínuo entre 1928 e 1955, mas os dados desta alternativa indicam queda entre 1928 e 1938/39 (de 36.441 para 25.004 km), o que contradiz a tendência crescente do gráfico. Além disso, o valor da rede rodoviária em 1928 (98.673 km) fica abaixo dos aproximadamente 113.000 km indicados no gráfico.",
+      "2": "O gráfico da rede ferroviária indica crescimento gradual e constante ao longo do período, mas esta alternativa apresenta salto brusco para 41.436 km em 1938/39 seguido de queda acentuada para 21.984 km em 1955. Esse comportamento contradiz diretamente a tendência de crescimento regular representada no gráfico.",
+      "3": "O valor inicial da rede ferroviária nesta alternativa (22.389 km em 1928) é muito inferior ao que o gráfico indica, que aponta aproximadamente 31.000 km nesse período. Além disso, o crescimento até 50.328 km em 1955 ultrapassa os aproximadamente 37.000-39.000 km mostrados no gráfico.",
+      "4": "O gráfico da rede ferroviária mostra crescimento contínuo entre 1928 e 1955, mas os dados desta alternativa indicam declínio progressivo (de 32.231 para 27.774 km). Uma queda contínua na extensão ferroviária contradiz diretamente a tendência crescente representada no gráfico."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 0,
     "ajuda": "Pense no que são 'hinterlândias' e como os portos modernos precisam estar conectados ao interior. A questão trata de como os portos se adaptaram ao comércio globalizado. Lembre-se de qual inovação logística revolucionou o transporte marítimo ao padronizar o armazenamento de mercadorias e acelerar o trabalho nos portos.",
-    "comentario": "<p>A conteinerização revolucionou o transporte marítimo a partir dos anos 1960, padronizando cargas e permitindo a transferência mecanizada entre navios, caminhões e trens. Portos brasileiros como Santos, Paranaguá e Itajaí modernizaram suas instalações para operar contêineres, reduzindo os custos e o tempo de movimentação de mercadorias no comércio exterior.</p>"
+    "comentario": "<p>A conteinerização revolucionou o transporte marítimo a partir dos anos 1960, padronizando cargas e permitindo a transferência mecanizada entre navios, caminhões e trens. Portos brasileiros como Santos, Paranaguá e Itajaí modernizaram suas instalações para operar contêineres, reduzindo os custos e o tempo de movimentação de mercadorias no comércio exterior.</p>",
+    "feedbacks": {
+      "1": "A compactação das áreas de estocagem foi uma necessidade dos portos, mas não o principal fator que revolucionou a movimentação de cargas. A padronização e a mecanização proporcionadas pelos contêineres foram o elemento central da modernização portuária.",
+      "2": "A burocratização dos serviços de alfândega aumenta custos e prazos, sendo um obstáculo à eficiência portuária. A modernização portuária busca justamente simplificar processos alfandegários, e não burocralizá-los.",
+      "3": "A redução da profundidade dos atracadouros limitaria a capacidade de receber navios maiores, reduzindo a eficiência portuária. A tendência nos portos modernos é o aprofundamento dos calados para receber os maiores navios porta-contêineres.",
+      "4": "A especialização dos cargueiros foi consequência, e não superação, da conteneirização. A padronização dos contêineres gerou navios porta-contêineres cada vez mais especializados e de maior porte."
+    }
   },
   {
     "id": 3,
@@ -72,7 +84,13 @@
     ],
     "correta": 4,
     "ajuda": "Lembre-se de que as refinarias de petróleo precisam estar próximas tanto das fontes de produção quanto dos centros de consumo. O texto menciona que a localização é um dos fatores técnicos mais importantes. Pense em qual tipo de infraestrutura une esses dois pontos — produção e consumo — e é indispensável para as refinarias funcionarem com eficiência.",
-    "comentario": "<p>A instalação de unidades produtivas depende criticamente da infraestrutura de circulação: ferrovias, rodovias, portos e telecomunicações determinam a acessibilidade de um local ao mercado. Regiões com boa infraestrutura logística atraem investimentos industriais e agroindustriais, enquanto áreas com infraestrutura precária permanecem à margem do desenvolvimento econômico — um dos principais gargalos do interior do Brasil.</p>"
+    "comentario": "<p>A instalação de unidades produtivas depende criticamente da infraestrutura de circulação: ferrovias, rodovias, portos e telecomunicações determinam a acessibilidade de um local ao mercado. Regiões com boa infraestrutura logística atraem investimentos industriais e agroindustriais, enquanto áreas com infraestrutura precária permanecem à margem do desenvolvimento econômico — um dos principais gargalos do interior do Brasil.</p>",
+    "feedbacks": {
+      "0": "As sedes de empresas petroquímicas se localizam próximas às refinarias e fontes de matéria-prima, e não necessariamente nas grandes áreas metropolitanas. O fator que atrai atividades econômicas para as metrópoles é a infraestrutura de circulação, e não a presença de petroquímicas.",
+      "1": "As zonas de importação de derivados são terminais específicos de armazenamento, e não o atributo central que define as áreas metropolitanas como polos econômicos. A questão aborda o fator explicativo da atração econômica para as grandes cidades.",
+      "2": "Os polos tecnológicos são atividades que se instalam nas metrópoles por se beneficiarem da infraestrutura de circulação, e não a causa dessa atração. Tecnologia e inovação são consequências da concentração urbana, e não seu fator gerador.",
+      "3": "As aglomerações de mão de obra são consequência da concentração de atividades econômicas, e não o fator original de atração. A infraestrutura de circulação é que viabiliza as metrópoles como nós de distribuição de pessoas, mercadorias e informações."
+    }
   },
   {
     "id": 4,
@@ -96,7 +114,13 @@
     ],
     "correta": 1,
     "ajuda": "Leia o texto sobre os problemas logísticos da exportação de soja. Pense na solução mais direta para reduzir as filas de navios nos portos: se os navios ficam esperando é porque falta capacidade de recebimento no porto. Qual alternativa propõe uma solução de infraestrutura portuária para esse gargalo logístico?",
-    "comentario": "<p>A soja do Centro-Oeste brasileiro percorre longas distâncias até os portos, enfrentando o problema da 'custo Brasil' logístico: rodovias degradadas, ausência de ferrovias e hidrovias eficientes elevam o custo final do produto. A construção de terminais fluviais e atracadouros ao longo dos rios Tapajós, Madeira e Tocantins é fundamental para reduzir esse custo e tornar a soja brasileira mais competitiva no mercado global.</p>"
+    "comentario": "<p>A soja do Centro-Oeste brasileiro percorre longas distâncias até os portos, enfrentando o problema da 'custo Brasil' logístico: rodovias degradadas, ausência de ferrovias e hidrovias eficientes elevam o custo final do produto. A construção de terminais fluviais e atracadouros ao longo dos rios Tapajós, Madeira e Tocantins é fundamental para reduzir esse custo e tornar a soja brasileira mais competitiva no mercado global.</p>",
+    "feedbacks": {
+      "0": "A isenção de impostos de transportes é uma política fiscal que pode estimular o comércio, mas não é o investimento direto em infraestrutura necessário para o desenvolvimento dos portos. O que viabiliza a movimentação de cargas são as instalações físicas adequadas.",
+      "2": "A diversificação dos parceiros comerciais é uma estratégia de política comercial externa, sem relação direta com os investimentos em infraestrutura portuária. O desenvolvimento dos portos depende de obras de ampliação e modernização, e não de acordos comerciais.",
+      "3": "A contratação de trabalhadores é uma medida operacional que não resolve os gargalos de infraestrutura. O principal investimento para ampliar a capacidade portuária é a construção de novos terminais e atracadouros, e não o aumento do quadro de pessoal.",
+      "4": "O policiamento das rodovias melhora a segurança no transporte terrestre, mas não tem relação direta com a modernização e expansão da infraestrutura portuária. O desenvolvimento dos portos requer obras de engenharia naval, e não segurança viária."
+    }
   },
   {
     "id": 5,
@@ -120,7 +144,13 @@
     ],
     "correta": 3,
     "ajuda": "Observe a imagem e pense nos diferentes modais de transporte (rodoviário, ferroviário, hidroviário). Cada modal tem características distintas de custo, capacidade e flexibilidade. A questão aborda a multimodalidade — uso combinado de diferentes modais. Analise qual alternativa descreve corretamente a relação entre a combinação de modais e o custo final do transporte.",
-    "comentario": "<p>A multimodalidade — integração de dois ou mais modais de transporte em uma mesma cadeia logística — é a estratégia mais eficiente para reduzir custos e prazos no escoamento de cargas. No Brasil, a combinação de ferrovias para longas distâncias, hidrovias para regiões com rios navegáveis e caminhões para a 'última milha' poderia reduzir significativamente o custo do frete, hoje majoritariamente rodoviário.</p>"
+    "comentario": "<p>A multimodalidade — integração de dois ou mais modais de transporte em uma mesma cadeia logística — é a estratégia mais eficiente para reduzir custos e prazos no escoamento de cargas. No Brasil, a combinação de ferrovias para longas distâncias, hidrovias para regiões com rios navegáveis e caminhões para a 'última milha' poderia reduzir significativamente o custo do frete, hoje majoritariamente rodoviário.</p>",
+    "feedbacks": {
+      "0": "A escolha do modal não se restringe apenas à relação entre capacidade e custo; prazo de entrega, tipo de carga, infraestrutura disponível e distância percorrida também são determinantes. A simplificação proposta ignora a complexidade da logística de transportes.",
+      "1": "A otimização do custo-benefício no transporte de cargas não se obtém pela escolha exclusiva de um único modal. A multimodalidade permite combinar as vantagens de cada sistema para diferentes trechos e tipos de carga, sendo raramente eficiente a escolha de apenas um modal.",
+      "2": "A falta de flexibilidade no transporte de cargas reflete problemas de infraestrutura e de gestão logística nacional, e não dependência por técnicas estrangeiras. O problema central é a concentração excessiva no modal rodoviário e a falta de integração entre os modais.",
+      "4": "A escolha dos modais é determinada principalmente por critérios econômicos de custo e eficiência, e não por determinações políticas sobre rotas. As rotas seguem a disponibilidade de infraestrutura e a lógica da redução de custos, e não decisões políticas."
+    }
   },
   {
     "id": 6,
@@ -143,7 +173,12 @@
     ],
     "correta": 2,
     "ajuda": "Pense no papel histórico da cabotagem (navegação entre portos nacionais) na formação do território brasileiro. Desde o período colonial, os portos eram os principais centros de conexão entre as regiões. Analise qual alternativa descreve corretamente a evolução histórica da cabotagem no Brasil, desde o período colonial até o século XX.",
-    "comentario": "<p>A cabotagem — navegação ao longo do litoral entre portos do mesmo país — foi historicamente o principal meio de integração do vasto território brasileiro antes das rodovias. Hoje, com custos operacionais menores que o frete rodoviário para grandes distâncias, a cabotagem tem crescido como alternativa eficiente para o transporte de contêineres e granéis entre os portos do Norte, Nordeste, Sudeste e Sul.</p>"
+    "comentario": "<p>A cabotagem — navegação ao longo do litoral entre portos do mesmo país — foi historicamente o principal meio de integração do vasto território brasileiro antes das rodovias. Hoje, com custos operacionais menores que o frete rodoviário para grandes distâncias, a cabotagem tem crescido como alternativa eficiente para o transporte de contêineres e granéis entre os portos do Norte, Nordeste, Sudeste e Sul.</p>",
+    "feedbacks": {
+      "0": "A cabotagem não encerrou suas atividades no final do século XIX; ela existe até hoje, transportando cargas entre portos brasileiros. O que ocorreu foi a perda de importância relativa para o modal rodoviário a partir de meados do século XX, e não o encerramento do sistema.",
+      "1": "A cabotagem não permitiu a precoce unificação e completa articulação inter-regional do Brasil; essa articulação foi historicamente difícil e incompleta. Além disso, a cabotagem não é descrita como primitiva, sendo um sistema de transporte que persiste de forma modernizada.",
+      "3": "A cabotagem não foi implantada no final do século XIX; ela remonta ao período colonial, sendo utilizada desde os primeiros séculos da colonização portuguesa. O texto a descreve erroneamente como invenção do século XIX com navios a vapor."
+    }
   },
   {
     "id": 7,
@@ -167,7 +202,13 @@
     ],
     "correta": 1,
     "ajuda": "Observe o gráfico da matriz de transportes brasileira. Pense em qual modal predomina no Brasil e quais são suas consequências ambientais. O transporte rodoviário usa combustíveis fósseis e emite grandes quantidades de CO₂ e outros gases. Qual problema ambiental global está diretamente ligado à dominância do modal rodoviário no Brasil?",
-    "comentario": "<p>A dependência excessiva do modal rodoviário no Brasil tem graves consequências ambientais: caminhões emitem muito mais CO₂ por tonelada transportada do que trens ou navios. Essa matriz intensiva em diesel contribui para o agravamento do aquecimento global e da qualidade do ar nas grandes cidades — uma externalidade negativa que seria atenuada pela migração para ferrovias e hidrovias.</p>"
+    "comentario": "<p>A dependência excessiva do modal rodoviário no Brasil tem graves consequências ambientais: caminhões emitem muito mais CO₂ por tonelada transportada do que trens ou navios. Essa matriz intensiva em diesel contribui para o agravamento do aquecimento global e da qualidade do ar nas grandes cidades — uma externalidade negativa que seria atenuada pela migração para ferrovias e hidrovias.</p>",
+    "feedbacks": {
+      "0": "O buraco na camada de ozônio é causado principalmente por clorofluorcarbonetos (CFCs), e não pelas emissões de CO2 dos veículos. A dependência do transporte rodoviário intensifica as emissões de gases de efeito estufa, com impacto direto no aquecimento global, e não na camada de ozônio.",
+      "2": "La Niña é um fenômeno oceânico-atmosférico de resfriamento das águas do Pacífico equatorial, com causas naturais cíclicas. Ela não está diretamente vinculada às emissões de CO2 do transporte rodoviário.",
+      "3": "El Niño é um fenômeno oceânico-atmosférico de aquecimento das águas do Pacífico, com causas naturais. Embora o aquecimento global possa influenciar sua frequência, a intensificação do El Niño não é a principal consequência citada para a dependência do modal rodoviário.",
+      "4": "A Zona de Convergência Intertropical é uma faixa de baixa pressão atmosférica equatorial que influencia o regime de chuvas tropical. Sua ampliação não é uma consequência direta das emissões de CO2 do transporte rodoviário."
+    }
   },
   {
     "id": 8,
@@ -191,7 +232,13 @@
     ],
     "correta": 1,
     "ajuda": "Lembre-se de que a intermodalidade significa integrar diferentes modais de transporte (rodoviário, ferroviário, hidroviário, aeroviário) em uma mesma cadeia logística. Pense por que isso é especialmente necessário no Brasil, dado o tamanho do território e a distância entre as áreas produtoras e os portos de exportação. Qual alternativa justifica corretamente essa necessidade?",
-    "comentario": "<p>A extensão continental do Brasil — com 8,5 milhões de km² — torna os modais de transporte de longa distância essenciais para a integração econômica. Ferrovias e hidrovias são mais eficientes para grandes distâncias e volumes, mas exigem investimentos elevados em infraestrutura. A falta de integração multimodal eficiente é um dos principais gargalos logísticos que encarecem a produção brasileira.</p>"
+    "comentario": "<p>A extensão continental do Brasil — com 8,5 milhões de km² — torna os modais de transporte de longa distância essenciais para a integração econômica. Ferrovias e hidrovias são mais eficientes para grandes distâncias e volumes, mas exigem investimentos elevados em infraestrutura. A falta de integração multimodal eficiente é um dos principais gargalos logísticos que encarecem a produção brasileira.</p>",
+    "feedbacks": {
+      "0": "As variações climáticas e a interiorização da produção são fatores que influenciam a logística, mas não explicam a necessidade de multimodalidade em si. O principal fator que leva ao uso combinado de modais são as grandes distâncias e a necessidade de reduzir custos.",
+      "2": "A formação geológica do Brasil não impede tecnicamente o uso de um único modal de forma intransponível. O que justifica a multimodalidade são os fatores econômicos e as grandes distâncias, e não impedimentos geológicos à infraestrutura.",
+      "3": "A proximidade entre áreas de produção e portos seria argumento para um único modal, e não para a multimodalidade. A realidade brasileira é justamente o oposto: as áreas produtoras estão no interior, longe dos portos, exigindo a combinação de modais.",
+      "4": "Os fluxos imateriais (dados, informações, serviços) não substituem a necessidade de transportar fisicamente mercadorias. A multimodalidade está relacionada ao transporte de cargas físicas, e não à diminuição dos fluxos materiais."
+    }
   },
   {
     "id": 9,
@@ -214,7 +261,13 @@
     ],
     "correta": 0,
     "ajuda": "Leia os dois textos: o primeiro sobre a greve dos caminhoneiros e o segundo sobre a matriz de transporte brasileira. Pense na relação entre a dependência do modal rodoviário (59% da matriz) e a vulnerabilidade do país a uma paralisação dos caminhoneiros. Qual alternativa descreve corretamente esse problema estrutural da logística brasileira?",
-    "comentario": "<p>A greve dos caminhoneiros de 2018 paralisou o Brasil em poucos dias, evidenciando a dependência estrutural do país pelo modal rodoviário. Com mais de 60% das cargas transportadas por caminhões, qualquer interrupção nesse modal tem efeito imediato sobre o abastecimento de alimentos, combustíveis e medicamentos — resultado de décadas de subinvestimento em ferrovias e hidrovias.</p>"
+    "comentario": "<p>A greve dos caminhoneiros de 2018 paralisou o Brasil em poucos dias, evidenciando a dependência estrutural do país pelo modal rodoviário. Com mais de 60% das cargas transportadas por caminhões, qualquer interrupção nesse modal tem efeito imediato sobre o abastecimento de alimentos, combustíveis e medicamentos — resultado de décadas de subinvestimento em ferrovias e hidrovias.</p>",
+    "feedbacks": {
+      "1": "As reivindicações da greve de 2018 focaram no preço do diesel e nas tabelas de frete mínimo, e não no desenvolvimento do modal aeroviário. Além disso, o modal aeroviário não é adequado para o transporte de combustíveis e alimentos, os principais produtos afetados.",
+      "2": "Embora a expansão ferroviária seja uma pauta legítima da logística brasileira, as reivindicações imediatas da greve de 2018 eram sobre preço do diesel e piso de frete, e não sobre políticas de expansão ferroviária especificamente.",
+      "3": "A greve de 2018 gerou enorme impacto na economia brasileira, com desabastecimento de combustíveis, alimentos e medicamentos em diversas cidades. Afirmar que não gerou maiores impactos contradiz um dos maiores paralisamentos logísticos da história do país.",
+      "4": "As reivindicações da greve de 2018 foram centradas no preço do diesel e nas tabelas de frete mínimo, e não em uma pauta ampla de reequilíbrio da matriz de transporte. A greve foi uma paralisação de trabalhadores protestando contra suas condições econômicas."
+    }
   },
   {
     "id": 10,
@@ -236,6 +289,12 @@
     ],
     "correta": 1,
     "ajuda": "Atenção: a questão pede a alternativa INCORRETA sobre o sistema de transporte brasileiro. Pense: é verdade que as ferrovias declinaram por causa das rodovias? As rodovias expandiram por interesses do capital internacional (automobilístico e petrolífero)? O sistema hidroviário do Paraná-Paraguai está se modernizando? O Brasil possui um sistema totalmente integrado e de última geração? Avalie qual afirmativa é falsa.",
-    "comentario": "<p>A afirmação de que o sistema de transporte brasileiro está 'totalmente integrado' é incorreta — o Brasil tem uma das matrizes logísticas mais desequilibradas do mundo, com dominância rodoviária e subaproveitamento de ferrovias e hidrovias. Países como EUA, China e Alemanha possuem matrizes muito mais diversificadas, o que reduz custos logísticos e emissões de carbono.</p>"
+    "comentario": "<p>A afirmação de que o sistema de transporte brasileiro está 'totalmente integrado' é incorreta — o Brasil tem uma das matrizes logísticas mais desequilibradas do mundo, com dominância rodoviária e subaproveitamento de ferrovias e hidrovias. Países como EUA, China e Alemanha possuem matrizes muito mais diversificadas, o que reduz custos logísticos e emissões de carbono.</p>",
+    "feedbacks": {
+      "0": "Esta afirmativa é verdadeira: o sistema ferroviário brasileiro foi historicamente vinculado à cafeicultura e entrou em relativo declínio a partir dos anos 1950 com a expansão do sistema rodoviário. Por ser uma informação historicamente correta, não deve ser apontada como a alternativa incorreta.",
+      "2": "Esta afirmativa é verdadeira: os interesses da indústria automobilística e das companhias de petróleo, somados à política de integração nacional, foram fatores reais na consolidação do rodoviarismo. Por ser uma informação historicamente correta, não deve ser apontada como incorreta.",
+      "3": "Esta afirmativa é verdadeira: o sistema hidroviário da bacia Paraná-Paraguai tem se modernizado para o escoamento agrícola do Centro-Sul com custos inferiores ao rodoviário. Por ser uma informação correta sobre a infraestrutura hidroviária brasileira, não deve ser apontada como incorreta.",
+      "4": "Esta afirmativa é verdadeira: o transporte rodoviário de cargas é de fato desvantajoso para longas distâncias em relação ao ferroviário e hidroviário, com menor capacidade de carga e maior custo por tonelada. Por ser uma comparação factualmente correta entre modais, não deve ser apontada como incorreta."
+    }
   }
 ]

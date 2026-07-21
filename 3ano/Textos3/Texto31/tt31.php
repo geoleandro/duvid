@@ -342,6 +342,22 @@
             <p>A Caxemira é uma região montanhosa no noroeste do subcontinente, reivindicada integralmente por Índia e Paquistão. Na partição de 1947, o maharajá local (hindu) assinou a adesão à Índia, mas a maioria da população era muçulmana e preferia o Paquistão. Desde então, a região é dividida pela "Linha de Controle", com cada país administrando uma parte. A região é ponto de tensão constante e um dos locais mais militarizados do mundo. Em 1999, os dois países quase foram à guerra nuclear pelo conflito de Kargil, na Caxemira.</p>
 
             <p class="w3-border w3-round-large w3-padding">
+                <strong>O que é a disputa pelas águas do rio Indo?</strong>
+            </p>
+            <p>O rio Indo e seus afluentes formam um sistema <span class="termo" data-palavra="Rio Exorreico" data-definicao="Rio cujas águas conseguem chegar até o mar ou o oceano, seguindo um percurso completo de drenagem até a foz. Se opõe ao rio endorreico, que não alcança o oceano e termina em lagos, depressões ou se perde por evaporação e infiltração no interior do continente.">exorreico</span>,
+                ou seja, deságua efetivamente no Oceano Índico, e nasce em território indiano, na porção a
+                <span class="termo" data-palavra="Montante" data-definicao="Posição de um ponto do curso de um rio mais próxima da nascente, ou seja, rio acima. Se opõe a jusante, a posição mais próxima da foz, ou seja, rio abaixo.">montante</span>
+                (rio acima) do território paquistanês, que fica a <span class="termo" data-palavra="Jusante" data-definicao="Posição de um ponto do curso de um rio mais próxima da foz, ou seja, rio abaixo. Se opõe a montante, a posição mais próxima da nascente, ou seja, rio acima.">jusante</span>
+                (rio abaixo). Em 1960, os dois países assinaram o Tratado das Águas do Indo, mediado pelo Banco
+                Mundial, que regula o uso compartilhado dessas águas. Como a Índia está a montante, ela tem a
+                capacidade técnica de represar ou reduzir a vazão que chega ao Paquistão, o que afetaria diretamente
+                as áreas agrícolas paquistanesas que dependem dessa água. Por isso, quando a Índia manifestou, em
+                2025, a intenção de se desvincular do tratado em meio ao agravamento das tensões entre os dois
+                países, o governo paquistanês declarou que qualquer bloqueio hídrico seria considerado um "ato de
+                guerra", o que mostra como a posição geográfica de um país ao longo de um rio compartilhado pode se
+                transformar em uma arma geopolítica.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
                 <strong>O que é o movimento de não alinhamento?</strong>
             </p>
             <p>Movimento criado em 1961, liderado por Índia (Nehru), Iugoslávia (Tito) e Egito (Nasser), que reuniu países que se recusavam a se alinhar com nenhum dos blocos da Guerra Fria (EUA ou URSS). O movimento expressa a aspiração dos países do "terceiro mundo" por soberania e independência de política externa. A Índia mantém até hoje uma política de "autonomia estratégica" que lhe permite comprar armas da Rússia, fazer acordos com os EUA e participar do BRICS ao mesmo tempo.</p>

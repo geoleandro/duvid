@@ -137,10 +137,18 @@
 
                 <!-- Cabeçalho da seção -->
                 <div class="w3-center w3-margin-bottom" style="margin-bottom:40px!important">
-                    <span style="display:inline-block; background:#2e7d32; color:#fff; border-radius:30px; padding:6px 22px; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px;">Conteúdo Duvid</span>
-                    <h2 style="font-size:2.2rem; font-weight:800; color:#1b5e20; margin:0 0 10px; letter-spacing:-0.5px;">Escolha seu tema</h2>
+                    <span style="display:inline-block; background:#2e7d32; color:#fff; border-radius:30px; padding:6px 22px; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px; cursor:default;"
+                        onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Conteúdo Duvid</span>
+
+                    <h2 id="titulo-escolha-tema" style="font-size:2.2rem; font-weight:800; color:#1b5e20; margin:0 0 10px; letter-spacing:-0.5px; cursor:default;"
+                        onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Escolha seu tema</h2>
+
                     <p style="color:#558b2f; font-size:1rem; margin:0;">
-                        Gratuito · Interativo · Apps offline para Android
+                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Gratuito</span>
+                        ·
+                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Interativo</span>
+                        ·
+                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Apps offline para Android</span>
                     </p>
                 </div>
 
@@ -226,7 +234,8 @@
         <!-- Coluna principal: sobre o projeto -->
         <div class="w3-row w3-light-grey">
             <div class="w3-container w3-content w3-padding" style="max-width:800px">
-                <h2 class="w3-wide w3-center w3-text-green w3-xlarge">O Projeto</h2>
+                <h2 class="w3-wide w3-center w3-text-green w3-xxxlarge" style="cursor:default;"
+                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">O Projeto</h2>
                 <p class="w3-opacity w3-center"><i>Gratuito, colaborativo e sem pressão</i></p>
                 <div class="w3-justify">
                     <p>O <strong>Duvid Geografia</strong> nasceu de uma sala de aula real. É gratuito, colaborativo e feito com sugestões da turma. Mais de 1000 questões com explicações detalhadas, textos interativos com atividades práticas e apps que funcionam 100% offline.</p>
@@ -237,7 +246,8 @@
         <!-- Explorar o Duvid — seção independente, centralizada -->
         <div class="w3-container w3-padding-64 w3-light-grey">
             <div class="w3-content" style="max-width:900px">
-                <h2 class="w3-center w3-margin-bottom"><b>Conheça o Duvid</b></h2>
+                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
+                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Conheça o Duvid</b></h2>
                 <div class="w3-row-padding w3-center">
 
                     <div class="w3-third w3-margin-bottom">
@@ -284,7 +294,7 @@
                     <div class="w3-third w3-margin-bottom">
                         <a href="paginas/bibliografia.php"
                             class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/projeto-icone.png" alt="Bibliografia"
+                            <img src="fotoIndex/icones/bibliografia-icone.png" alt="Bibliografia"
                                 class="img-pixel-icon"><br>
                             <span class="w3-large">Bibliografia</span>
                         </a>
@@ -523,7 +533,8 @@
 
         <div class="w3-container w3-padding-64 w3-light-grey">
             <div class="w3-content" style="max-width:1100px">
-                <h2 class="w3-center w3-margin-bottom"><b>Monitor Global Duvid</b></h2>
+                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
+                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Monitor Global Duvid</b></h2>
                 <div class="w3-row-padding card-monitor-global">
 
 
@@ -586,7 +597,8 @@
 
         <div class="w3-container w3-padding-64 w3-light-grey" style="margin-top: -64px;">
             <div class="w3-content" style="max-width:1100px">
-                <h2 class="w3-center w3-margin-bottom"><b>Monitor Brasil Duvid</b></h2>
+                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
+                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Monitor Brasil Duvid</b></h2>
                 <div class="w3-row-padding card-monitor-brasil">
 
                     <!-- CARD POPULAÇÃO BRASIL -->

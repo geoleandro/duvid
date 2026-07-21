@@ -22,7 +22,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O setor primário é o único cujo resultado depende diretamente do clima e das condições meteorológicas. Uma seca severa, uma geada fora de época ou um furacão podem destruir safras inteiras e provocar choques nos mercados globais de alimentos — como ocorreu com a soja brasileira em 2021 durante a crise hídrica.</p>",
-    "ajuda": "O setor primário (agricultura, pecuária, extrativismo) tem uma característica estrutural que o torna vulnerável a fatores que outros setores não enfrentam. Pense em qual variável está fora do controle humano e afeta diretamente a produção."
+    "ajuda": "O setor primário (agricultura, pecuária, extrativismo) tem uma característica estrutural que o torna vulnerável a fatores que outros setores não enfrentam. Pense em qual variável está fora do controle humano e afeta diretamente a produção.",
+    "feedbacks": {
+      "0": "A necessidade de incentivos fiscais é uma característica de múltiplos setores econômicos, e não uma peculiaridade que distingue o primário. O que torna o setor primário singular em seu impacto sobre o mercado é justamente sua dependência das condições climáticas.",
+      "1": "Altos custos de investimento são comuns à indústria e ao setor de serviços, não sendo uma peculiaridade exclusiva do primário. A vulnerabilidade climática é a característica que diferencia o setor e pode provocar choques repentinos de oferta com impacto global.",
+      "3": "Com a mecanização e a modernização agrícola, o setor primário utiliza cada vez menos mão de obra intensiva no Brasil e no mundo. A peculiaridade que pode impactar todo o mercado não é a demanda por mão de obra, mas a exposição às variações climáticas extremas.",
+      "4": "Desarticulações territoriais podem ocorrer em qualquer setor da economia e não definem uma peculiaridade do setor primário. O fator que torna o primário singular em termos de risco sistêmico é sua dependência direta das condições climáticas, que não se compra nem se controla."
+    }
   },
   {
     "id": 2,
@@ -48,7 +54,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A mecanização agrícola e a automação industrial reduziram drasticamente a necessidade de mão de obra em atividades repetitivas nos setores primário e secundário. Esse processo de desemprego estrutural — onde máquinas substituem trabalhadores permanentemente — é uma das principais forças por trás da expansão do setor de serviços.</p>",
-    "ajuda": "A passagem da sociedade agrária para a industrial gerou o processo de mecanização agrícola. Pense em como a automação das fazendas afetou o número de postos de trabalho no campo e o que acontece com quem perde emprego nesse processo."
+    "ajuda": "A passagem da sociedade agrária para a industrial gerou o processo de mecanização agrícola. Pense em como a automação das fazendas afetou o número de postos de trabalho no campo e o que acontece com quem perde emprego nesse processo.",
+    "feedbacks": {
+      "0": "A Revolução Verde afetou o setor primário ao introduzir sementes melhoradas, irrigação e agroquímicos, mas o texto trata do esvaziamento do setor secundário. A mecanização industrial e a automação, e não a Revolução Verde, explicam a queda do emprego nas fábricas.",
+      "1": "A especulação financeira pode afetar a economia de modo geral, mas não é a causa direta do esvaziamento do emprego industrial descrito no texto. O fenômeno relatado é de natureza tecnológica, com automação e robotização substituindo postos de trabalho nas indústrias.",
+      "2": "A queda na qualidade dos serviços manufatureiros não explica o esvaziamento da mão de obra industrial; ao contrário, a automação tende a elevar a qualidade produtiva enquanto elimina postos de trabalho. O desemprego estrutural na indústria é causado pela adoção de tecnologia, não por queda de qualidade.",
+      "4": "A flexibilização das leis trabalhistas pode reduzir custos de contratação, mas o principal motor do esvaziamento industrial é a automação e a robotização, que substituem trabalhadores por máquinas. A retração trabalhista pode agravar o desemprego, mas não é a causa estrutural descrita no texto."
+    }
   },
   {
     "id": 3,
@@ -73,7 +85,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A terceirização da economia ocorreu porque a globalização e a tecnologia permitiram fragmentar as cadeias produtivas: indústrias migraram para países de menor custo, enquanto os centros de poder mantiveram serviços de alto valor agregado — finanças, tecnologia, pesquisa — gerando a predominância do setor terciário nos países ricos.</p>",
-    "ajuda": "A terciarização da economia global significa que os serviços crescem mais do que a indústria e a agricultura. Pense em qual processo econômico e tecnológico explica essa tendência de deslocamento das atividades produtivas em escala mundial."
+    "ajuda": "A terciarização da economia global significa que os serviços crescem mais do que a indústria e a agricultura. Pense em qual processo econômico e tecnológico explica essa tendência de deslocamento das atividades produtivas em escala mundial.",
+    "feedbacks": {
+      "1": "O neoliberalismo e a globalização reduziram o intervencionismo estatal, e a terciarização foi impulsionada justamente pela abertura de mercados e redução de controles governamentais. Perspectivas intervencionistas são o oposto do que facilitou a expansão do setor de serviços.",
+      "2": "A terciarização não é explicada pela redução das desigualdades sociais; ao contrário, o crescimento do setor de serviços ocorreu em contexto de aprofundamento das disparidades em muitos países. A desigualdade não é um fator que promove a expansão do terciário.",
+      "3": "A terciarização representa exatamente o deslocamento do centro econômico das atividades primárias e secundárias para os serviços. Afirmar que o primário se reafirmou como centro da economia contradiz o próprio fenômeno que a questão descreve.",
+      "4": "O crescimento do terciário não decorre de maior deslocamento financeiro para as indústrias; ao contrário, parte do capital que antes ia para a produção industrial migrou para os serviços e finanças. O argumento inverte a lógica do processo de terciarização."
+    }
   },
   {
     "id": 4,
@@ -99,7 +117,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Os dois processos de perda alimentar refletem desigualdades estruturais: nos países ricos, o desperdício ocorre no varejo e no consumo (excesso de compra, padrões estéticos); nos países pobres, a perda ocorre na colheita e no armazenamento por falta de infraestrutura. No total, 30% dos alimentos produzidos globalmente nunca chegam à mesa.</p>",
-    "ajuda": "O texto distingue dois processos de perda de alimentos: o desperdício nos países ricos (no ponto de venda e consumo) e a perda nos países pobres (na colheita, transporte e armazenamento). Avalie qual alternativa reflete essa desigualdade estrutural corretamente."
+    "ajuda": "O texto distingue dois processos de perda de alimentos: o desperdício nos países ricos (no ponto de venda e consumo) e a perda nos países pobres (na colheita, transporte e armazenamento). Avalie qual alternativa reflete essa desigualdade estrutural corretamente.",
+    "feedbacks": {
+      "0": "A produção mundial de alimentos cresceu significativamente nas últimas décadas com as inovações agrícolas; o problema não é de produção insuficiente, mas de distribuição desigual e de perdas ao longo da cadeia. A alternativa confunde escassez produtiva com ineficiência distributiva.",
+      "1": "Nos países desenvolvidos, a maior perda ocorre no desperdício pelo consumidor final (supermercados e domicílios), não no transporte e armazenamento. O problema de infraestrutura de transporte e armazenamento é mais grave nos países subdesenvolvidos.",
+      "2": "A insegurança alimentar africana está ligada à pobreza, aos conflitos armados e às deficiências na cadeia de produção e distribuição, e não ao desperdício pelo consumidor. O desperdício no nível do consumidor é uma característica de países com alta renda, não dos mais pobres.",
+      "3": "A segurança alimentar nos países mais ricos resulta de condições estruturais como renda elevada, infraestrutura logística e acesso a alimentos, e não apenas do controle do desperdício. A alternativa reduz a explicação a um único fator, ignorando as condições socioeconômicas que fundamentam a segurança alimentar."
+    }
   },
   {
     "id": 5,
@@ -123,7 +147,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O economista Amartya Sen desenvolveu a ideia de desenvolvimento como expansão das liberdades humanas. Para ele, crescimento do PIB importa apenas como meio — não como fim. Educação, saúde e participação política são dimensões essenciais do desenvolvimento que o PIB sozinho não captura.</p>",
-    "ajuda": "Desenvolvimento não é apenas crescimento econômico (aumento do PIB), mas também melhoria das condições de vida e exercício da cidadania. Identifique qual alternativa articula corretamente esses dois aspectos — o econômico e o social."
+    "ajuda": "Desenvolvimento não é apenas crescimento econômico (aumento do PIB), mas também melhoria das condições de vida e exercício da cidadania. Identifique qual alternativa articula corretamente esses dois aspectos — o econômico e o social.",
+    "feedbacks": {
+      "0": "O texto propõe um conceito de desenvolvimento ligado ao social e ao humano, que vai além do incremento industrial ou da atuação no mercado financeiro. Crescimento industrial e financeiro são meios, mas não capturam o vínculo entre desenvolvimento e qualidade de vida proposto no texto.",
+      "1": "O assistencialismo é uma política paliativa que não altera estruturalmente as condições de vida, e o controle de preços é uma medida de curto prazo. O conceito de desenvolvimento descrito no texto é mais abrangente, envolvendo garantia de direitos e condições para o exercício da cidadania.",
+      "2": "Elevação da renda média e arrecadação de impostos são indicadores econômicos que não capturam as dimensões de direitos, inclusão e qualidade de vida que o texto descreve. O desenvolvimento proposto requer que o crescimento econômico se converta em melhoria concreta das condições de vida da população.",
+      "4": "O ajuste fiscal e os incentivos tributários são instrumentos de política econômica, mas o desenvolvimento proposto no texto exige também a garantia de direitos de cidadania e a ascensão econômica da população. Falar apenas em ajuste e incentivos ignora a dimensão social e de inclusão presente no texto."
+    }
   },
   {
     "id": 6,
@@ -147,7 +177,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Investimentos em educação e programas de renda mínima reduzem a vulnerabilidade de jovens a situações de risco social. O estudo do Banco Mundial citado demonstrou que manter jovens na escola — por meio de programas como o Bolsa Família — impacta diretamente na queda dos índices de violência e criminalidade.</p>",
-    "ajuda": "Políticas públicas em educação e economia impactam diretamente os índices sociais. Pense na relação entre escolaridade, renda e violência ao analisar qual consequência social o texto destaca como efeito de boas políticas públicas."
+    "ajuda": "Políticas públicas em educação e economia impactam diretamente os índices sociais. Pense na relação entre escolaridade, renda e violência ao analisar qual consequência social o texto destaca como efeito de boas políticas públicas.",
+    "feedbacks": {
+      "0": "O texto relaciona políticas econômicas e educacionais à redução da violência, e não diretamente a melhorias no sistema de saúde. Embora saúde e segurança possam estar correlacionadas, o impacto descrito pelo texto é sobre os índices de violência.",
+      "2": "O texto argumenta o inverso: os investimentos em educação e economia são ferramentas de redução da violência. Afirmar que essas ações contribuem para o aumento da violência escolar contradiz a lógica e os dados apresentados.",
+      "3": "A redução do número de jovens entre 15 e 29 anos seria consequência de mudanças nas taxas de natalidade ocorridas décadas antes, e não de políticas econômicas e educacionais atuais. O texto foca no impacto dessas políticas sobre a segurança pública, e não sobre a estrutura demográfica.",
+      "4": "O texto argumenta justamente o contrário: as ações públicas em economia e educação têm relação direta e positiva com a redução da violência. Afirmar que essas políticas pouco interferem na segurança contradiz a evidência apresentada."
+    }
   },
   {
     "id": 7,
@@ -170,7 +206,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A fome e a subnutrição persistem não por falta absoluta de alimentos no planeta, mas pela desigualdade no acesso. O preço crescente dos alimentos em mercados globalizados exclui populações pobres, especialmente em países afetados por conflitos ou com má distribuição de renda — um problema de acesso, não de produção.</p>",
-    "ajuda": "A fome e a subnutrição têm causas principalmente socioeconômicas, não apenas falta de produção de alimentos. Pense em quais fatores estruturais — pobreza, desigualdade, guerras — impedem o acesso da população a uma alimentação adequada."
+    "ajuda": "A fome e a subnutrição têm causas principalmente socioeconômicas, não apenas falta de produção de alimentos. Pense em quais fatores estruturais — pobreza, desigualdade, guerras — impedem o acesso da população a uma alimentação adequada.",
+    "feedbacks": {
+      "1": "A tese de que a população cresce mais que os alimentos, proposta por Malthus, não se confirma nos dados contemporâneos; a produção alimentar cresceu significativamente com a modernização agrícola. O problema da fome não é de insuficiência produtiva global, mas de distribuição desigual.",
+      "2": "As guerras civis e conflitos que causam fome ocorrem predominantemente em países subdesenvolvidos, não em países ricos. A alternativa inverte a realidade geográfica da fome ao associar beligerâncias a populações famintas em países ricos.",
+      "3": "As tecnologias agrícolas, como irrigação, sementes melhoradas e agroquímicos, em geral aumentam a oferta e a qualidade dos alimentos. Atribuir a crise nutricional às novas tecnologias de produção alimentar contradiz o papel que elas desempenham no aumento da produtividade agrícola.",
+      "4": "As grandes empresas do agronegócio atuam globalmente e exportam para múltiplos mercados, sendo esse o seu modelo de negócios internacionalizado. Restringir o fornecimento ao país de origem contraria a lógica das multinacionais do setor alimentar, que lucram justamente com a exportação."
+    }
   },
   {
     "id": 8,
@@ -194,7 +236,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Mais de 1 bilhão de pessoas subnutridas em 2009 representavam cerca de 15% da população mundial. As causas estruturais — desigualdades econômicas, pobreza extrema, conflitos armados e instabilidade política — impedem que a produção agrícola existente chegue a quem mais precisa.</p>",
-    "ajuda": "O texto aborda as causas da fome e da subnutrição no mundo. Lembre-se de que existem alimentos suficientes no planeta, mas a distribuição é desigual. Avalie qual alternativa identifica corretamente as causas estruturais desse problema."
+    "ajuda": "O texto aborda as causas da fome e da subnutrição no mundo. Lembre-se de que existem alimentos suficientes no planeta, mas a distribuição é desigual. Avalie qual alternativa identifica corretamente as causas estruturais desse problema.",
+    "feedbacks": {
+      "0": "A escassez de terra agricultável não é a principal causa da fome no mundo; o planeta produz alimentos suficientes para alimentar toda a população. O problema é de distribuição desigual, acesso econômico e desperdício, não de insuficiência de área cultivável.",
+      "1": "Os dados globais indicam que a subnutrição afeta centenas de milhões de pessoas, superando 10% da população mundial em regiões como a África Subsaariana e a Ásia Meridional. A afirmação de que a proporção é inferior a 10% contraria as estimativas da FAO.",
+      "3": "Os impactos da subnutrição severa na primeira infância, como déficit cognitivo e nanismo, são em grande parte irreversíveis mesmo com alimentação adequada na vida adulta. A afirmação ignora as consequências permanentes causadas pela privação nutricional nos primeiros anos de vida.",
+      "4": "A subnutrição persiste em regiões com acesso a alimentos geneticamente modificados, pois o problema não é de oferta, mas de renda e distribuição. Os OGMs podem aumentar a produtividade agrícola, mas não resolvem a insegurança alimentar de origem socioeconômica."
+    }
   },
   {
     "id": 9,
@@ -217,7 +265,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A tabela revela uma correlação positiva entre investimento em educação, ciência e tecnologia e desenvolvimento socioeconômico. Países com maiores taxas de alfabetização e gastos em P&D concentram as maiores economias globais — confirmando que o capital humano é a base do desenvolvimento sustentável.</p>",
-    "ajuda": "Para interpretar os dados da tabela, observe quais países têm altos índices de alfabetização e investimento em ciência e tecnologia, e como isso se relaciona com o desenvolvimento econômico e social. Pense em qual título resume essa relação."
+    "ajuda": "Para interpretar os dados da tabela, observe quais países têm altos índices de alfabetização e investimento em ciência e tecnologia, e como isso se relaciona com o desenvolvimento econômico e social. Pense em qual título resume essa relação.",
+    "feedbacks": {
+      "0": "A alternativa confunde os requisitos do desenvolvimento moderno com uma sequência histórica ultrapassada; países subdesenvolvidos não alcançam desenvolvimento apenas com médios investimentos e o modelo da Revolução Industrial não é transferível. O desenvolvimento sustentável exige educação, ciência e tecnologia de base sólida.",
+      "1": "A erradicação do analfabetismo depende de políticas educacionais nos próprios países que enfrentam o problema, e não de exportação automática de tecnologia por países desenvolvidos. A afirmação ignora a necessidade de investimentos internos em educação básica.",
+      "2": "A popularização de tecnologias sem base educacional e científica não promove desenvolvimento sustentável. Para que a tecnologia gere desenvolvimento, a população precisa ter capacidade de usá-la, adaptá-la e produzi-la, o que exige escolaridade e qualificação.",
+      "4": "Os países desenvolvidos mantêm altas taxas de alfabetização e aumentam continuamente seus investimentos em ciência e tecnologia. Afirmar que esses indicadores diminuem nos países desenvolvidos contradiz tanto os dados educacionais quanto os orçamentos de P&D dessas economias."
+    }
   },
   {
     "id": 10,
@@ -240,6 +294,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A educação materna é um fator determinante para a saúde infantil, mesmo em contextos de infraestrutura sanitária precária. Mães com maior escolaridade adotam melhores práticas de higiene, nutrição e busca por cuidados médicos, reduzindo a mortalidade infantil mesmo sem saneamento básico de qualidade.</p>",
-    "ajuda": "A tabela relaciona escolaridade materna, saneamento básico e mortalidade infantil. Lembre-se de que saúde e educação são fatores complementares: mesmo com saneamento precário, mães mais educadas tendem a ter filhos mais saudáveis. Analise as relações cuidadosamente."
+    "ajuda": "A tabela relaciona escolaridade materna, saneamento básico e mortalidade infantil. Lembre-se de que saúde e educação são fatores complementares: mesmo com saneamento precário, mães mais educadas tendem a ter filhos mais saudáveis. Analise as relações cuidadosamente.",
+    "feedbacks": {
+      "1": "A alternativa impõe uma condição percentual de saneamento que não está nos dados apresentados na tabela. Os dados mostram relação entre escolaridade materna e mortalidade infantil sem estabelecer um limiar específico de cobertura de saneamento para que essa relação exista.",
+      "2": "Nenhuma medida isolada ou combinada pode reduzir a mortalidade infantil a zero, pois outros fatores, como acesso a medicamentos, nutrição e condições genéticas, também influenciam o indicador. A afirmação é absoluta e contrária à complexidade determinante da mortalidade infantil.",
+      "3": "A afirmação sobre diarreia no país III versus o país II depende de dados específicos da tabela sobre incidência da doença, que não são diretamente confirmados pela comparação de mortalidade infantil e saneamento. A inferência excede o que os dados apresentados permitem concluir.",
+      "4": "A taxa de mortalidade infantil é influenciada tanto pela escolaridade das mães quanto pelas condições sanitárias, como mostram os dados de países com precário saneamento básico. Afirmar que o indicador independe das condições sanitárias nega um dos fatores mais documentados da mortalidade infantil."
+    }
   }
 ]

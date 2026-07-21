@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O setor primário é dependente das condições climáticas, sendo assim, podemos relacionar a\r\n vulnerabilidade social à falta de alimentos gerados por problemas de seca ou chuvas intensas, pois\r\n diminuiria drasticamente a oferta de alimentos, acarretando numa crise alimentícia que iria atingir\r\n diretamente tanto a população rural como também a urbana.</p>\n<!-- <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "Sociedades mais vulneráveis às mudanças climáticas são aquelas com menos recursos tecnológicos e diversificação econômica. Pense em qual característica de um país o torna mais capaz de se ajustar às variações climáticas sem grandes crises."
+    "ajuda": "Sociedades mais vulneráveis às mudanças climáticas são aquelas com menos recursos tecnológicos e diversificação econômica. Pense em qual característica de um país o torna mais capaz de se ajustar às variações climáticas sem grandes crises.",
+    "feedbacks": {
+      "1": "Ter estoques elevados de alimentos reduz a vulnerabilidade de uma sociedade a eventos climaticos extremos, pois garante reservas para suprir a populacao em periodos de escassez. Uma sociedade com estoques amplos e menos vulneravel a impactos climaticos do que aquela dependente da producao imediata.",
+      "2": "Um sistema de transportes articulado aumenta a resiliencia de uma sociedade ao permitir a redistribuicao rapida de alimentos, agua e recursos em caso de desastre climatico. A alternativa descreve um fator que REDUZ a vulnerabilidade, e nao que a aumenta.",
+      "3": "A diversificacao da matriz de geracao de energia reduz a dependencia de fontes climaticamente vulneraveis (como hidroeletricas em periodos de seca) e aumenta a resiliencia sistemica. Uma matriz diversificada protege a sociedade de colapsos energeticos causados por eventos climaticos.",
+      "4": "A introducao de tecnologias a producao agricola aumenta a produtividade e a resiliencia diante de eventos climaticos, reduzindo a vulnerabilidade. Tecnicas como irrigacao eficiente, sementes resistentes a seca e monitoramento meteorologico diminuem os riscos do setor primario frente ao clima."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Nesta questão, é citado um trecho do sociólogo Richard Sennett, que discute como as cidades no mundo\r\n atual são mais “fechadas”, refletindo o que ocorreu no mundo da tecnologia.</p>\n<p>A ideia de “fechadas” significa que construções modernas com muita tecnologia não são abertas ao\r\n entorno local, com poucas trocas, e por isso também são autossuficientes e fechadas, e tendem a uma\r\n padronização da paisagem das cidades. Hoje em dia formas espaciais, como aeroportos, prédios de\r\n negócios, shoppings centers são semelhantes em qualquer lugar do mundo e demonstram essa\r\n padronização.</p>\n<p>Neste sentido, a alternativa A está errada, pois afirma que o processo de urbanização é diferenciado\r\n no mundo, enquanto na verdade ele está tornando-se menos diferenciado.</p>\n<p>A alternativa B está errada, pois essas formas urbanas autossuficientes homogeneízam a paisagem das\r\n cidades, tornando-as semelhantes. E a alternativa D está errada ao afirmar que a paisagem urbana é a\r\n expressão de potencialidades locais, quando o que ocorre é o inverso, elas se tornam mais homogêneas\r\n e padronizadas.</p>\n<p>A resposta correta é então a alternativa C, que afirma que a cidade se torna mais fechada e que essa\r\n característica deriva da sua instrumentalização para a eficácia, o que acaba por tornar o espaço\r\n habitado mais artificial e mais pobre, menos diversificado.</p>",
-    "ajuda": "O texto de Richard Sennett discute como as cidades contemporâneas se tornaram mais 'fechadas' e segregadas. Pense em qual alternativa reflete corretamente essa tendência de fragmentação urbana e limitação da vida pública."
+    "ajuda": "O texto de Richard Sennett discute como as cidades contemporâneas se tornaram mais 'fechadas' e segregadas. Pense em qual alternativa reflete corretamente essa tendência de fragmentação urbana e limitação da vida pública.",
+    "feedbacks": {
+      "0": "Segundo o autor, a urbanizacao que prioriza a eficácia fecha e empobrece as experiencias, e nao as abre. A cidade instrumentalizada tende a homogeneizar e padronizar os espacos, reduzindo as possibilidades de novidade e diversidade, e nao ampliando-as.",
+      "1": "O autor critica as formas urbanas autossuficientes como empobrecedoras da experiencia urbana, e nao as vê como geradoras de novas complexidades. A autossuficiencia e a fechamento sobre si mesma sao justamente o problema apontado pelo texto.",
+      "3": "O autor aponta que a paisagem urbana contemporanea tende a se tornar cada vez mais padronizada e homogenea, resultado da instrumentalizacao do espaco para a eficacia. A ideia de que a paisagem expressa potencialidades locais e despadronizacao e o oposto do que o texto argumenta."
+    }
   },
   {
     "id": 3,
@@ -69,7 +80,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O avião tornou-se um dos símbolos maiores do desenvolvimento tecnológico dos transportes na\r\n contemporaneidade. A partir da década de 1930, em ritmo maior no pós-1945, o transporte de\r\n determinadas cargas e de passageiros por meio da aviação comercial redimensionou conexões entre as\r\n sociedades.</p>\n<p>As grandes companhias áreas sediaram-se nos países desenvolvidos, passando a interferir no ritmo da\r\n aplicação de avanços tecnológicos, no lançamento de novos modelos de aeronaves, nos padrões de\r\n atendimento aos usuários e nos deslocamentos de passageiros internacionais.</p>\n<p>A representação cartográfica das rotas da aviação comercial na atualidade permite visualizar tanto a\r\n concentração espacial dessas rotas, fortemente presentes no hemisfério norte, destacando-se as rotas\r\n entre América do Norte, Europa e Sudeste Asiático, quanto áreas mais periféricas a esse circuito.</p>\n<p>A análise dessa representação aponta para alguns dos fluxos que constituem as práticas das economias\r\n e sociedades mais globalizadas.</p>",
-    "ajuda": "O mapa de rotas aéreas recria o mapa-múndi porque os voos são mais intensos entre os grandes centros econômicos. Esse fenômeno evidencia que a integração global ocorre de forma desigual. Identifique qual processo socioespacial o mapa representa."
+    "ajuda": "O mapa de rotas aéreas recria o mapa-múndi porque os voos são mais intensos entre os grandes centros econômicos. Esse fenômeno evidencia que a integração global ocorre de forma desigual. Identifique qual processo socioespacial o mapa representa.",
+    "feedbacks": {
+      "0": "A aculturacao de areas perifericas e um processo de mudanca cultural, e nao o que um mapa de rotas aereas comerciais ilustra diretamente. O mapa evidencia a concentracao e os fluxos de conectividade aerea, e nao mudancas culturais em areas perifericas.",
+      "1": "A metropolizacao de regioes rurais e a expansao das cidades sobre o campo, processo que nao e evidenciado por um mapa de rotas aereas. O mapa mostra conexoes entre centros ja urbanizados, e nao a transformacao de areas rurais em metropoles.",
+      "3": "A conurbacao e a fusao fisica de cidades adjacentes, fenomeno de escala local ou regional que nao e representado por um mapa de rotas aereas globais. As rotas aereas conectam aeroportos de cidades distantes, e nao mostram processos de crescimento fisico adjacente entre cidades."
+    }
   },
   {
     "id": 4,
@@ -93,7 +109,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A OPEP (Organização dos Países Produtores de Petróleo) surgiu em 1960 em oposição às empresas\r\n multinacionais que constituíam um oligopólio na área de produção, refino e distribuição de petróleo\r\n (as chamadas “Sete Irmãs do Petróleo”). Ao longo dos anos, a OPEP cresceu em importância no controle\r\n da produção de petróleo, constituindo-se em um cartel, tendo variado quanto aos países-membros, com\r\n a entrada de uns e a saída de outros, contando atualmente com Venezuela (América do Sul), Líbia,\r\n Argélia, Nigéria, Guiné Equatorial, Gabão, Congo, Angola (África) Irã, Iraque, Kuwait, Arábia\r\n Saudita e Emirados Árabes Unidos (Ásia), ou seja, treze membros.</p>",
-    "ajuda": "A OPEP (Organização dos Países Exportadores de Petróleo) reúne países produtores de petróleo que coordenam a produção para influenciar os preços. Os países membros estão principalmente no Oriente Médio, África e Venezuela. Identifique quais países são destacados no mapa."
+    "ajuda": "A OPEP (Organização dos Países Exportadores de Petróleo) reúne países produtores de petróleo que coordenam a produção para influenciar os preços. Os países membros estão principalmente no Oriente Médio, África e Venezuela. Identifique quais países são destacados no mapa.",
+    "feedbacks": {
+      "0": "Os paises do BRICS sao Brasil, Russia, India, China, Africa do Sul e outros que aderiram mais recentemente; a maioria nao coincide com os paises produtores de petroleo do Oriente Medio e da Venezuela tipicamente destacados em mapas da OPEP. As composicoes dos dois grupos sao distintas.",
+      "1": "A OCDE e um clube de paises ricos e de alta renda; os novos integrantes sao paises desenvolvidos ou em processo avancado de desenvolvimento. Os paises produtores de petroleo do Oriente Medio e da Africa nao sao necessariamente novos integrantes da OCDE.",
+      "2": "A OMC tem participacao quase universal; apenas pouquissimos paises ficam fora dela. Os paises destacados em amarelo no mapa seriam numerosos demais para representar os excluidos da OMC, que sao uma minoria global.",
+      "4": "A OTAN e uma alianca militar formada principalmente por paises da America do Norte e da Europa. Paises como Arabia Saudita, Ira, Iraque, Venezuela e Nigeria, tipicos membros da OPEP, nao pertencem a OTAN e tampouco fazem parte de sua area de influencia formal."
+    }
   },
   {
     "id": 5,
@@ -116,7 +138,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Para aderir à UE, um país precisa cumprir os Critérios de Copenhague: democracia estável, economia de mercado funcional e respeito ao estado de direito. Identifique qual alternativa descreve corretamente esses requisitos."
+    "ajuda": "Para aderir à UE, um país precisa cumprir os Critérios de Copenhague: democracia estável, economia de mercado funcional e respeito ao estado de direito. Identifique qual alternativa descreve corretamente esses requisitos.",
+    "feedbacks": {
+      "0": "A UE nao exige que o pais seja republicano: ha monarquias entre os membros, como Espanha, Belgica, Paises Baixos e Suecia. Alem disso, o FMI nao controla as economias dos membros da UE; sao as proprias instituicoes europeias que estabelecem os criterios economicos de adesao.",
+      "1": "A UE nao exige filiacao a OTAN como condicao de adesao: Austria, Malta e Chipre sao membros da UE, mas nao da OTAN. Seguranca nacional nao e delegada a OTAN como requisito de entrada no bloco europeu.",
+      "2": "A UE nao exige regime monarquista; ha tanto republicas quanto monarquias entre os membros. Alem disso, nem todos os membros adotam o euro como compromisso de entrada; alguns, como a Suecia, mantiveram suas moedas nacionais.",
+      "3": "A UE nao se limita a Europa Ocidental; inclui paises da Europa Central e Oriental. Alem disso, cada pais membro mantem seu parlamento nacional; o Parlamento Europeu e um orgao supranacional adicional, e nao substitui os parlamentos nacionais."
+    }
   },
   {
     "id": 6,
@@ -140,7 +168,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Brexit foi a saída do Reino Unido da União Europeia, efetivada em 31 de janeiro de 2020. Ao analisar o tuíte do Parlamento Europeu, identifique qual país saiu e quais consequências imediatas essa saída gerou para o bloco."
+    "ajuda": "O Brexit foi a saída do Reino Unido da União Europeia, efetivada em 31 de janeiro de 2020. Ao analisar o tuíte do Parlamento Europeu, identifique qual país saiu e quais consequências imediatas essa saída gerou para o bloco.",
+    "feedbacks": {
+      "1": "A Suecia nao saiu da UE e nao ha indicacao de que o fara; a Suecia e membro ativo do bloco europeu. Alem disso, a moeda sueca e a coroa sueca (krona), e nao o 'Dacma', que sequer e uma moeda existente.",
+      "2": "A Grecia nao saiu da UE; apesar da grave crise economica de 2010-2015, a Grecia permaneceu no bloco e na zona do euro. Alem disso, a moeda grega atual e o euro, e nao o 'Dacma', que nao corresponde a nenhuma moeda real.",
+      "3": "A Espanha nao saiu da UE e nao ha sinal de que o fara. A saida britanica ja causou debate sobre possiveis efeitos demonstracao, mas a Espanha nao protagonizou um processo de saida do bloco europeu.",
+      "4": "A Italia nao saiu da UE; embora haja partidos euroceticos na Italia, o pais permanece membro do bloco. O espaco Schengen nao foi redefinido como resultado de uma saida italiana que nao ocorreu."
+    }
   },
   {
     "id": 7,
@@ -161,7 +195,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A urbanização é medida pela proporção de pessoas vivendo em cidades em relação à população total. Esse processo envolve duas dinâmicas simultâneas: o crescimento urbano absoluto e o esvaziamento ou estagnação do campo. Identifique qual par de fatores melhor define essa dualidade."
+    "ajuda": "A urbanização é medida pela proporção de pessoas vivendo em cidades em relação à população total. Esse processo envolve duas dinâmicas simultâneas: o crescimento urbano absoluto e o esvaziamento ou estagnação do campo. Identifique qual par de fatores melhor define essa dualidade.",
+    "feedbacks": {
+      "1": "O nivel de renda e de tecnologia sao possiveis consequencias ou correlatos do processo de urbanizacao, mas nao constituem sua definicao. A urbanizacao e definida pelo crescimento da populacao urbana em termos absolutos e proporcionais em relacao a populacao rural.",
+      "2": "A urbanizacao esta associada a REDUCAO das taxas de natalidade ao longo do tempo, e nao ao seu incremento. A transicao demografica, tipicamente associada a urbanizacao, implica queda na fecundidade, e nao aumento dos nascimentos nas cidades.",
+      "3": "O avanco do meio tecnico-cientifico-informacional e uma dimensao da modernizacao urbana, mas nao define o que e urbanizacao como processo demografico-espacial. Alem disso, a producao agricola nao e necessariamente perdida com a urbanizacao; pode ate aumentar com a modernizacao do campo."
+    }
   },
   {
     "id": 8,
@@ -186,7 +225,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Para que haja a redução da pressão sobre a água, a expansão da agricultura demanda melhorias na\r\n eficiência das técnicas de irrigação. O uso eficiente pode ser alcançado atuando-se na estrutura de\r\n irrigação então existente, em sistemas de irrigação e gestão do uso de água, nos métodos de manejo\r\n da irrigação e nas técnicas que permitem aumento da eficiência do uso da água.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A eficiência na irrigação é fundamental para reduzir o consumo de água na agricultura. Pense em qual melhoria tecnológica ou técnica permitiria produzir mais alimentos com menos água, reduzindo a pressão sobre os recursos hídricos."
+    "ajuda": "A eficiência na irrigação é fundamental para reduzir o consumo de água na agricultura. Pense em qual melhoria tecnológica ou técnica permitiria produzir mais alimentos com menos água, reduzindo a pressão sobre os recursos hídricos.",
+    "feedbacks": {
+      "0": "A fertilizacao quimica melhora a nutricao das plantas e a produtividade do solo, mas nao reduz o consumo de agua pela agricultura. Aumentar a fertilidade quimica nao tem relacao direta com a economia de recursos hidricos.",
+      "1": "O escoamento hidrico e a drenagem servem para remover o excesso de agua de solos encharcados, e nao para reduzir o consumo de agua pela agricultura. Melhorar a drenagem nao economiza agua; pode ate aumentar a necessidade de irrigacao em solos mais secos.",
+      "2": "Manter pocos artesianos e uma forma de garantir o acesso a agua, mas nao reduz o consumo; pelo contrario, pode aumentar a disponibilidade sem necessariamente promover eficiencia no uso. Conservar a fonte nao equivale a usar menos o recurso.",
+      "4": "A velocidade das maquinas colheitadeiras afeta a logistica da colheita e os custos operacionais, mas nao tem relacao com o consumo de agua na agricultura. Colher mais rapido nao economiza agua no processo de cultivo."
+    }
   },
   {
     "id": 9,
@@ -210,7 +255,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As redes geográficas globais conectam lugares de forma desigual. Pense nas afirmativas sobre as características dessas redes — escalas, fluxos, hierarquias — e identifique quais descrevem corretamente como o espaço global é organizado por essas conexões."
+    "ajuda": "As redes geográficas globais conectam lugares de forma desigual. Pense nas afirmativas sobre as características dessas redes — escalas, fluxos, hierarquias — e identifique quais descrevem corretamente como o espaço global é organizado por essas conexões.",
+    "feedbacks": {
+      "0": "As afirmativas 3, 4 e 5 tambem sao corretas e precisam ser incluidas. Selecionar apenas 1 e 2 ignora tres caracteristicas igualmente validas que integram o conjunto correto de descricoes do fenomeno abordado.",
+      "1": "As afirmativas 4 e 5 tambem sao corretas e precisam integrar a resposta completa. A selecao de apenas 1, 2 e 3 deixa de fora duas caracteristicas adicionais que o enunciado tambem contempla como corretas.",
+      "2": "As afirmativas 1 e 2 tambem sao corretas e devem integrar a resposta. Selecionar apenas 3, 4 e 5 exclui duas caracteristicas igualmente validas e necessarias para compor a resposta completa.",
+      "3": "As afirmativas 1 e 3 tambem sao corretas e devem ser incluidas. A selecao de 2, 4 e 5 esta incompleta ao excluir duas caracteristicas que o enunciado confirma como corretas."
+    }
   },
   {
     "id": 10,
@@ -233,6 +284,12 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A OMC (Organização Mundial do Comércio) regula as trocas comerciais entre países, estabelecendo regras para reduzir barreiras e resolver disputas. Não deve ser confundida com o FMI (empréstimos) ou o Banco Mundial (desenvolvimento). Identifique a função correta da OMC."
+    "ajuda": "A OMC (Organização Mundial do Comércio) regula as trocas comerciais entre países, estabelecendo regras para reduzir barreiras e resolver disputas. Não deve ser confundida com o FMI (empréstimos) ou o Banco Mundial (desenvolvimento). Identifique a função correta da OMC.",
+    "feedbacks": {
+      "0": "O gerenciamento do euro e das politicas economicas da UE e funcao do Banco Central Europeu (BCE) e das instituicoes europeias, e nao da OMC. A OMC e uma organizacao global de comercio, e nao uma instituicao especificamente europeia.",
+      "1": "A concessao de financiamentos para promover o desenvolvimento socioeconômico e a funcao principal do Banco Mundial e do FMI, e nao da OMC. A OMC atua na regulacao das regras do comercio internacional, e nao no financiamento de projetos de desenvolvimento.",
+      "3": "A regulamentacao das relacoes de trabalho no mundo e funcao da Organizacao Internacional do Trabalho (OIT), e nao da OMC. As duas organizacoes tem missoes distintas: a OIT cuida de direitos trabalhistas e a OMC cuida das regras do comercio internacional.",
+      "4": "A disponibilizacao de recursos financeiros para equilibrar as balancas comerciais e uma funcao do Fundo Monetario Internacional (FMI), que concede emprestimos a paises com desequilibrios nos pagamentos externos. A OMC nao dispoe de recursos financeiros para esse fim."
+    }
   }
 ]

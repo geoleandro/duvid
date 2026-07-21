@@ -22,7 +22,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O superávit comercial brasileiro em 2020 refletiu a forte demanda asiática, especialmente da China, por commodities como soja, minério de ferro, petróleo bruto e carne. A pauta exportadora concentrada em produtos primários é vulnerável às flutuações de preços internacionais e à desaceleração das economias importadoras. Esse modelo de inserção na economia global como exportador de commodities é característico do subdesenvolvimento industrializado.</p>",
-    "ajuda": "Superávit comercial significa que as exportações superam as importações. O Brasil exporta principalmente commodities agrícolas e minerais. Em julho de 2020, o saldo foi positivo — qual setor foi mais responsável por isso?"
+    "ajuda": "Superávit comercial significa que as exportações superam as importações. O Brasil exporta principalmente commodities agrícolas e minerais. Em julho de 2020, o saldo foi positivo — qual setor foi mais responsável por isso?",
+    "feedbacks": {
+      "0": "O excerto descreve exportações elevadas de commodities para a Ásia, o que caracteriza superávit comercial, e não déficit. Além disso, o Brasil não importa majoritariamente eletrônicos dos EUA; o saldo comercial descrito resulta de exportações primárias ao Oriente, e não de importações norte-americanas.",
+      "2": "O superávit brasileiro é gerado principalmente por commodities primárias (soja, minério de ferro, petróleo), e não por semimanufaturados. Os semimanufaturados têm participação secundária na pauta de exportações descrita no excerto.",
+      "3": "O excerto descreve um superávit baseado em produtos primários, especialmente commodities agromineral, e não em bens industrializados de alto valor agregado. O Brasil exporta principalmente matérias-primas, e não produtos manufaturados em larga escala.",
+      "4": "O excerto não descreve um déficit: a alta demanda asiática por commodities brasileiras gerou justamente o contrário, um expressivo superávit comercial. Além disso, a desvalorização cambial favorece as exportações, o que seria um fator de superávit, não de déficit."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As negociações entre blocos econômicos frequentemente opõem países exportadores de produtos agrícolas — que querem eliminar barreiras fitossanitárias — e países importadores que defendem o protecionismo. No acordo Mercosul-UE, o Brasil pressiona pela livre circulação de mercadorias agrícolas, enquanto produtores europeus defendem normas fitossanitárias mais rígidas que, na prática, funcionam como barreiras protecionistas. Esse conflito evidencia as assimetrias nas negociações comerciais internacionais.</p>",
-    "ajuda": "O acordo Mercosul-UE envolve interesses diferentes de cada bloco. Produtores europeus de manufaturas querem livre comércio; já agricultores europeus temem a concorrência. Pense em como cada grupo defende seus interesses comerciais."
+    "ajuda": "O acordo Mercosul-UE envolve interesses diferentes de cada bloco. Produtores europeus de manufaturas querem livre comércio; já agricultores europeus temem a concorrência. Pense em como cada grupo defende seus interesses comerciais.",
+    "feedbacks": {
+      "0": "Restrições a fluxos migratórios e atuação de sindicatos são temas trabalhistas e de imigração que não correspondem às demandas dos grupos econômicos europeus (agrícola e industrial) em um acordo comercial. O contexto é de negociação tarifária e de barreiras ao comércio de mercadorias.",
+      "1": "A ampliação de leis trabalhistas é uma pauta sindical, e não uma demanda típica do setor agrícola europeu. Além disso, o setor industrial europeu busca acesso livre ao mercado de manufaturados, e não simplesmente 'importação plena', sem considerar reciprocidade.",
+      "2": "A proteção de florestas nacionais e a transferência de tecnologias são demandas ambientais e de cooperação científica, que não refletem as posições dos grupos econômicos agrícola e industrial europeus nas negociações do acordo Mercosul-UE.",
+      "4": "A remoção de entraves alfandegários é uma demanda do setor industrial europeu, mas a melhor remuneração de empregados é uma pauta sindical, e não uma posição dos grupos econômicos descritos. O setor agrícola europeu não defende remoção de barreiras, mas sim sua manutenção para proteger o mercado interno."
+    }
   },
   {
     "id": 3,
@@ -72,7 +84,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A balança comercial brasileira é estruturalmente assimétrica: o país exporta produtos primários de baixo valor agregado e importa manufaturados e tecnologia de alto valor. Para reduzir essa assimetria, é necessário investir em ciência, tecnologia e inovação que permitam agregar valor às exportações. O fortalecimento da pesquisa científica é a única ação estatal de longo prazo capaz de transformar essa estrutura produtiva de dentro.</p>",
-    "ajuda": "A balança comercial brasileira é marcada pela exportação de produtos primários (commodities) e importação de manufaturados de alto valor agregado. Para reduzir essa assimetria no longo prazo, qual política estrutural seria mais eficaz?"
+    "ajuda": "A balança comercial brasileira é marcada pela exportação de produtos primários (commodities) e importação de manufaturados de alto valor agregado. Para reduzir essa assimetria no longo prazo, qual política estrutural seria mais eficaz?",
+    "feedbacks": {
+      "0": "Expandir o setor extrativista reforçaria a dependência de exportações de recursos naturais brutos, aprofundando a assimetria da balança comercial. A assimetria descrita resulta exatamente do excesso de exportações primárias e falta de produtos de alto valor agregado.",
+      "1": "Incrementar a atividade agrícola, especialmente em commodities, aumentaria o volume de exportações primárias sem alterar a estrutura da pauta. A assimetria persiste quando se exporta mais matéria-prima sem desenvolver a capacidade de agregar valor tecnológico.",
+      "2": "A diversificação da matriz energética melhora a segurança energética do país, mas não altera a composição das exportações nem desenvolve a indústria de transformação. O problema da assimetria comercial é estrutural e não é resolvido pela política energética.",
+      "4": "O monitoramento alfandegário é uma medida administrativa de controle de fluxos, que não muda a estrutura do que é exportado ou importado. A assimetria decorre da composição da pauta, que só se transforma com o desenvolvimento tecnológico e industrial."
+    }
   },
   {
     "id": 4,
@@ -96,7 +114,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A reforma trabalhista no Brasil busca flexibilizar relações de trabalho — permitindo contratos temporários, jornadas flexíveis e negociação coletiva acima da lei —, alinhando o mercado de trabalho brasileiro às práticas do capitalismo globalizado. Críticos argumentam que essa flexibilização favorece o capital em detrimento dos trabalhadores, reduzindo direitos conquistados historicamente. A charge ironiza essa lógica ao mostrar como o trabalhador perde poder de barganha nesse processo.</p>",
-    "ajuda": "A charge provavelmente critica reformas trabalhistas no Brasil. Pense em como as transformações no direito do trabalho afetam os trabalhadores: redução de direitos, flexibilização de contratos e adequação ao modelo neoliberal global."
+    "ajuda": "A charge provavelmente critica reformas trabalhistas no Brasil. Pense em como as transformações no direito do trabalho afetam os trabalhadores: redução de direitos, flexibilização de contratos e adequação ao modelo neoliberal global.",
+    "feedbacks": {
+      "0": "A carteira 'verde e amarela' ampliou a flexibilização dos contratos e reduziu direitos trabalhistas, sendo o oposto de ampliar a segurança jurídica dos trabalhadores. Sua criação foi criticada justamente por enfraquecer as proteções do trabalho formal.",
+      "2": "O keynesianismo defende intervenção estatal e proteção dos trabalhadores, sendo a teoria oposta ao neoliberalismo. Afirmar que o capitalismo contemporâneo está fortalecendo direitos sociais contraria a tendência global de flexibilização trabalhista representada na charge.",
+      "3": "As constituições federais mantêm relevância jurídica e econômica mesmo em contextos de globalização, pois regulam as relações trabalhistas, contratuais e tributárias. Afirmar que perderam importância econômica diante do poder corporativo é uma hipérbole que ignora o papel regulatório do Estado.",
+      "4": "A OIT (Organização Internacional do Trabalho) defende a proteção e ampliação dos direitos trabalhistas, e não sua redução. As reformas trabalhistas brasileiras foram criticadas por contradirem os princípios da OIT, e não por se adequarem a eles."
+    }
   },
   {
     "id": 5,
@@ -120,7 +144,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A descentralização industrial segmenta o território ao distribuir diferentes etapas da produção por regiões distintas, conectadas por cadeias logísticas globais. Cada localidade especializa-se em uma fase produtiva segundo suas vantagens comparativas — mão de obra, matéria-prima, incentivos fiscais —, criando uma nova divisão territorial do trabalho. Esse processo é impulsionado pela globalização e pelos avanços em transporte e comunicação.</p>",
-    "ajuda": "A nova divisão territorial descrita refere-se à descentralização industrial, com empresas se instalando em regiões que oferecem incentivos fiscais e mão de obra mais barata, criando novos polos produtivos fora do Sudeste."
+    "ajuda": "A nova divisão territorial descrita refere-se à descentralização industrial, com empresas se instalando em regiões que oferecem incentivos fiscais e mão de obra mais barata, criando novos polos produtivos fora do Sudeste.",
+    "feedbacks": {
+      "0": "A guerra fiscal é um mecanismo pelo qual estados competem com isenções tributárias para atrair indústrias, o que pode ser um fator da descentralização industrial. Porém, a guerra fiscal em si não é o nome do processo de redistribuição territorial da produção, que é a descentralização industrial.",
+      "1": "A especulação imobiliária valoriza terrenos em áreas com boa infraestrutura nas cidades, o que pode expulsar indústrias dos centros, mas não é o nome do processo de redistribuição da produção pelo território. A especulação é um fator, não o fenômeno descrito.",
+      "3": "A economia de mercado é um sistema econômico geral, e não um processo específico de organização espacial da produção. Ela não 'equilibra capital direto e indireto' de maneira que explique a nova divisão territorial descrita.",
+      "4": "A regulamentação econômica pode favorecer certas regiões, mas não é o processo que melhor explica a redistribuição da produção pelo território. A descentralização industrial é motivada por custos, infraestrutura e incentivos, e não primariamente por regulação estatal."
+    }
   },
   {
     "id": 6,
@@ -145,7 +175,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Mesmo com a descentralização produtiva global, as funções de decisão — centros de pesquisa, matrizes corporativas, bolsas de valores — permanecem nas cidades mundiais como Nova York, Londres e Tóquio. Para atrair etapas produtivas descentralizadas, uma localidade precisa oferecer infraestrutura logística eficiente (portos, aeroportos, rodovias) e serviços especializados (jurídicos, financeiros, técnicos). Sem esses ativos, as regiões periféricas não conseguem integrar-se às cadeias globais de valor.</p>",
-    "ajuda": "A descentralização das atividades produtivas na globalização depende de infraestrutura e serviços de suporte. Pense no que é indispensável para que uma empresa se instale em uma região: logística, telecomunicações e serviços especializados."
+    "ajuda": "A descentralização das atividades produtivas na globalização depende de infraestrutura e serviços de suporte. Pense no que é indispensável para que uma empresa se instale em uma região: logística, telecomunicações e serviços especializados.",
+    "feedbacks": {
+      "0": "Taxas aduaneiras e cambiais voláteis criam incerteza e inibem investimentos industriais, sendo um fator desfavorável à instalação de novas plantas. A mudança nas atividades produtivas é atraída por estabilidade e infraestrutura, e não por volatilidade regulatória.",
+      "1": "Serviços bancários e financeiros regulados são condição básica de qualquer economia, e não um fator diferencial que explica a migração de atividades produtivas para determinadas regiões. O texto aponta a disponibilidade de infraestrutura logística e serviços especializados como fatores atrativos.",
+      "2": "O controle do planejamento familiar e do fluxo populacional são políticas demográficas sem relação direta com a decisão de empresas de deslocar atividades produtivas para novas regiões. A lógica de localização industrial é guiada por custos e infraestrutura, não por políticas populacionais.",
+      "3": "A constante renovação das normas jurídicas e marcos contratuais gera insegurança regulatória, que é uma barreira ao investimento produtivo. Empresas preferem ambientes com estabilidade jurídica; a mudança contínua de regras afasta, e não atrai, atividades produtivas."
+    }
   },
   {
     "id": 7,
@@ -169,7 +205,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A reprimarização da pauta exportadora brasileira — crescente peso de produtos primários como soja, minério e petróleo — indica enfraquecimento do setor industrial e declínio dos produtos manufaturados nas exportações. Esse processo, acelerado a partir dos anos 2000 com o boom das commodities, reduz o valor agregado médio das exportações e aumenta a dependência de preços internacionais voláteis. O gráfico evidencia essa tendência estrutural.</p>",
-    "ajuda": "O gráfico mostra a evolução da pauta de exportações brasileiras. Observe se houve aumento ou queda dos produtos manufaturados em relação aos primários. A 'reprimarização' significa o crescimento do setor primário nas exportações."
+    "ajuda": "O gráfico mostra a evolução da pauta de exportações brasileiras. Observe se houve aumento ou queda dos produtos manufaturados em relação aos primários. A 'reprimarização' significa o crescimento do setor primário nas exportações.",
+    "feedbacks": {
+      "0": "O gráfico indica queda relativa do setor industrial nas exportações, e não ampliação. Os bens de capital intermediários fazem parte do setor secundário que perdeu participação na pauta exportadora brasileira no período analisado.",
+      "1": "O Brasil não se consolidou como exportador de alta tecnologia: sua pauta de exportações se reprimarizou, com crescimento das commodities e declínio relativo dos manufaturados. O percentual de produtos de alta tecnologia nas exportações brasileiras é historicamente baixo e não vem se ampliando.",
+      "3": "O setor primário não aparece pela primeira vez como predominante: o Brasil foi um país agroexportador desde o período colonial. O que o gráfico mostra é a retomada da primazia do setor primário após décadas de industrialização, e não seu surgimento histórico nas exportações.",
+      "4": "O gráfico mostra o contrário: a agroindústria e os produtos primários aumentaram sua participação, enquanto os bens manufaturados perderam espaço relativo nas exportações brasileiras. A diminuição da agroindústria seria o oposto do que os dados apresentam."
+    }
   },
   {
     "id": 8,
@@ -192,7 +234,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O Brasil é classificado como subdesenvolvido industrializado porque possui parque industrial relevante, mas sua economia permanece dependente de capitais e tecnologias externos, com alta concentração de renda e exclusão social. Como país emergente do BRICS, tem protagonismo crescente em fóruns internacionais, mas não integra o núcleo dinâmico do capitalismo mundial — os países do G7. Essa posição periférica se manifesta na vulnerabilidade às crises financeiras globais.</p>",
-    "ajuda": "O Brasil é classificado como subdesenvolvido industrializado — tem indústria, mas ainda depende tecnologicamente e economicamente de países centrais. Pense em como isso se manifesta: dívida externa, dependência tecnológica e exportação de commodities."
+    "ajuda": "O Brasil é classificado como subdesenvolvido industrializado — tem indústria, mas ainda depende tecnologicamente e economicamente de países centrais. Pense em como isso se manifesta: dívida externa, dependência tecnológica e exportação de commodities.",
+    "feedbacks": {
+      "0": "O Brasil não tem baixo índice de industrialização: é um dos países mais industrializados da América Latina, com setor industrial diversificado. Caracterizá-lo como 'fundamentalmente agrário' ignora décadas de industrialização e a complexidade de sua estrutura produtiva.",
+      "1": "O Brasil tem alto grau de dependência tecnológica, importando máquinas, equipamentos e tecnologia de ponta. Afirmar que possui 'baixo grau de dependência tecnológica' contradiz a realidade de uma economia que importa mais tecnologia do que exporta.",
+      "2": "O Brasil possui uma das maiores dívidas externas do mundo e é um dos maiores receptores de investimento estrangeiro direto, com forte presença de empresas multinacionais. Afirmar que tem baixa dívida externa e poucas multinacionais contradiz dados macroeconômicos amplamente documentados.",
+      "4": "A afirmativa menciona dependência econômica e um índice considerável de industrialização, mas erra ao não reconhecer que o Brasil não está no centro do capitalismo mundial. A dependência tecnológica e financeira persiste mesmo com industrialização significativa, e o Brasil se enquadra como economia periférica ou semiperiférica."
+    }
   },
   {
     "id": 9,
@@ -215,32 +263,45 @@
     ],
     "correta": 2,
     "comentario": "<p>A IIRSA (Iniciativa para a Integração da Infraestrutura Regional Sul-Americana) é um projeto de integração física do continente por meio de rodovias, hidrovias, portos e dutos, com o Brasil como eixo central. O Brasil lidera financeiramente a iniciativa pelo BNDES, mas críticos apontam que os projetos beneficiam principalmente o escoamento de commodities para exportação, servindo a interesses do agronegócio e da mineração mais do que às populações locais. A sequência (V)(F)(V)(V) reflete corretamente as afirmativas sobre o papel do Brasil na IIRSA.</p>",
-    "ajuda": "A IIRSA é uma iniciativa de integração de infraestrutura na América do Sul. Analise as afirmativas sobre o papel do Brasil nesse projeto: financiamento, liderança regional e impactos sobre povos e ecossistemas."
+    "ajuda": "A IIRSA é uma iniciativa de integração de infraestrutura na América do Sul. Analise as afirmativas sobre o papel do Brasil nesse projeto: financiamento, liderança regional e impactos sobre povos e ecossistemas.",
+    "feedbacks": {
+      "0": "A afirmativa II é falsa: a IIRSA priorizou os interesses dos investidores internacionais e das construtoras em detrimento das populações locais, sendo criticada por ignorar demandas comunitárias. Marcá-la como V é incorreto. As afirmativas III e IV são verdadeiras, não falsas.",
+      "1": "A afirmativa IV é verdadeira: o BNDES financiou projetos da IIRSA e o Brasil usou ações diplomáticas para fortalecer sua posição como potência regional sul-americana. Marcá-la como F contradiz a atuação real do governo brasileiro no processo de integração.",
+      "3": "A afirmativa I é verdadeira: a IIRSA de fato buscou modernizar a integração sul-americana por meio de infraestrutura de transporte, energia e comunicações. Marcá-la como F contradiz os objetivos fundadores da iniciativa. A afirmativa II é falsa, não verdadeira.",
+      "4": "As afirmativas I, III e IV são verdadeiras, não apenas III. A IIRSA visou integrar a América do Sul (I), interessou ao Brasil pelos mercados abertos e às construtoras (III), e contou com financiamento do BNDES e diplomacia brasileira (IV). Marcar I como F e IV como F é incorreto."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UNESP",
-    "ano": "2015",
-    "dificuldade": "dificil",
-    "tags": [
-      "rede urbana",
-      "municípios",
-      "hierarquia urbana",
-      "mapa"
-    ],
-    "texto_apoio": "“A economia de todos os países conhece um processo mais vasto e profundo de internacionalização, mas este tem como base um espaço que é nacional e cuja regulação continua sendo nacional, ainda que guiada em função dos interesses de empresas globais. Essa é a razão pela qual se pode falar legitimamente de espaço nacional da economia internacional. A centralidade política, de certo modo, se fortalece em Brasília, a centralidade econômica se afirma mais fortemente em São Paulo. Todavia, a chamada abertura da economia permite a São Paulo e Brasília exercerem apenas uma “regulação delegada”, isto é, uma regulação cujas “ordens” se situam fora de sua competência territorial e deixam pequena margem para a escolha de caminhos suscetíveis de atribuir, de dentro, um destino ao próprio território nacional”.",
-    "fonte_apoio": "(Milton Santos e Maria Laura Silveira. O Brasil: território e sociedade no início do século XXI, 2001. Adaptado.)",
-    "imagem_apoio": "2ano/img/235/s35q10.png",
-    "pergunta": "Analise o mapa para responder a questão.\n\nPapel dirigente dos municípios, segundo o número de assalariados externos aos seus limites territoriais, 2011.\n\nA condição brasileira de “espaço nacional da economia internacional” e a “regulação delegada” exercida pelas principais metrópoles nacionais se confirmam uma vez que",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "2ano/img/235/unesp26q5.png",
+    "texto_apoio": "O mapa a seguir está dividido segundo a regionalização dos Quatro Brasis e apresenta os prazos de entrega do comércio eletrônico no Brasil, em 2023.",
+    "fonte_apoio": "Igor Venceslau. Confins, no 65, 2024. Adaptado.",
+    "pergunta": "A variação no prazo de entrega do comércio eletrônico no território brasileiro e a regionalização adotada na elaboração desse mapa são determinadas",
     "alternativas": [
-      "os espaços produtivos integrados à economia global se caracterizam pela submissão a uma lógica internacional, ao passo que as metrópoles brasileiras se constituem nos espaços a partir dos quais as grandes empresas globais comandam suas atividades econômicas no Brasil.",
-      "os espaços produtivos integrados à economia nacional se caracterizam pela submissão aos interesses nacionais, ao passo que a capital brasileira se constitui no espaço a partir do qual a maioria das grandes empresas globais comandam suas atividades econômicas no Brasil.",
-      "os espaços produtivos nacionais integrados à economia global se caracterizam pelo seu poder de regulação dos fluxos financeiros globais, ao passo que as metrópoles brasileiras se constituem nos espaços a partir dos quais as grandes empresas globais comandam suas atividades econômicas internacionais.",
-      "os espaços produtivos integrados à economia global se caracterizam pela submissão aos interesses nacionais, ao passo que a capital brasileira se constitui no espaço onde se realiza o comando pleno da produção e do consumo no Brasil.",
-      "os espaços produtivos integrados à economia global se caracterizam pela submissão a uma lógica internacional, ao passo que as metrópoles brasileiras se constituem nos espaços a partir dos quais as pequenas e médias empresas comandam a moderna produção brasileira."
+      "pela delimitação das unidades político-administrativas.",
+      "pelo poder de compra equiparado entre as unidades da federação.",
+      "pela desconcentração das unidades produtivas no país.",
+      "pela densidade do meio técnico-científico-informacional.",
+      "pelo grau de desenvolvimento socioambiental das cidades."
     ],
-    "correta": 0,
-    "comentario": "<p>As metrópoles brasileiras — especialmente São Paulo — funcionam como centros de comando das atividades das grandes corporações transnacionais no Brasil, conectando o país às redes globais de produção e finanças. Os municípios que enviam assalariados externos são aqueles integrados às cadeias produtivas globais como fornecedores especializados, submetidos à lógica de acumulação internacional. Esse mapa revela a hierarquia territorial da globalização no Brasil, com as metrópoles no topo e os municípios produtivos como nós secundários.</p>",
-    "ajuda": "O mapa mostra municípios com maior número de assalariados que trabalham fora de seus limites. Isso indica centros que polarizam trabalhadores de outras cidades. Como esse fenômeno se relaciona com a integração à economia global?"
+    "correta": 3,
+    "comentario": "O MTCI, conceito de Milton Santos, refere-se à densidade de sistemas técnicos, científicos e informacionais que transformam o território. Regiões com maior densidade de MTCI, como o eixo Sul-Sudeste, concentram infraestrutura logística, centros de distribuição e conectividade digital, resultando em prazos de entrega menores. A regionalização dos Quatro Brasis também se baseia nessa desigualdade na distribuição do MTCI pelo território nacional.",
+    "ajuda": "A regionalização dos Quatro Brasis de Milton Santos é baseada no quanto cada região está integrada à economia globalizada e à tecnologia. O que explica que São Paulo receba entregas em 1 dia e o interior do Amazonas demore semanas?",
+    "tags": [
+      "MTCI",
+      "Milton Santos",
+      "regionalização",
+      "e-commerce",
+      "desigualdade regional",
+      "4 Brasis"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "As unidades político-administrativas, como estados e municípios, não determinam os prazos de entrega do comércio eletrônico. O mapa dos Quatro Brasis usa critérios socioeconômicos e de infraestrutura, não divisões administrativas tradicionais como as cinco regiões do IBGE.",
+      "1": "O poder de compra no Brasil é bastante desigual entre as regiões, sendo maior no Sudeste e Sul do que no Norte e Nordeste. O mapa representa justamente essa desigualdade regional, e não uma equiparação econômica entre as unidades da federação.",
+      "2": "O Brasil ainda apresenta alta concentração industrial no eixo Sul-Sudeste, especialmente em São Paulo. A desconcentração produtiva ainda é incipiente e não explica as diferenças nos prazos de entrega, que dependem principalmente de infraestrutura logística e tecnológica.",
+      "4": "O desenvolvimento socioambiental não é o critério principal para os prazos de entrega do e-commerce, que dependem de infraestrutura logística e conectividade. O MTCI de Milton Santos relaciona-se à densidade de sistemas técnicos que facilitam a circulação de mercadorias e informações, não ao desenvolvimento ambiental."
+    }
   }
 ]

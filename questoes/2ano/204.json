@@ -184,33 +184,32 @@
   },
   {
     "id": 7,
-    "instituicao": "ENEM",
-    "ano": "2009",
-    "dificuldade": "media",
-    "tags": [
-      "luta pela terra",
-      "mst",
-      "questão agrária",
-      "conflitos fundiários"
-    ],
-    "fonte_apoio": "Imagem (Foto: Fonte: Comissão Pastoral da Terra — CPT OLIVEIRA, A. U. A longa marcha do campesinato brasileiro: movimentos sociais, conflitos e reforma agrária. Revista Estudos Avançados. Vol. 15 n. 43, São Paulo, set./dez. 2001.)",
-    "imagem_apoio": "2ano/img/204/s4q7.png",
-    "pergunta": "A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-se a perseverança dos movimentos do campesinato e, entre os aspectos negativos, a violência que manchou de sangue essa história. Os movimentos pela reforma agrária articularam-se por todo o território nacional, principalmente entre 1985 e 1996, e conseguiram de maneira expressiva a inserção desse tema nas discussões pelo acesso à terra.\n\nO mapa seguinte apresenta a distribuição dos conflitos agrários em todas as regiões do Brasil nesse período, e o número de mortes ocorridas nessas lutas.\n\nCom base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região.",
+    "ano": "ENEM 2025",
+    "texto_apoio": "A desapropriação da fazenda Cabaceiras, no sul do Pará, é a primeira da história motivada pelo desrespeito à função social de imóvel rural (CF/1988), por 'trabalho em condições análogas à escravidão' e graves infrações ambientais.",
+    "fonte_apoio": "AGB (adaptado).",
+    "pergunta": "O texto considera a promoção da justiça como um mecanismo de",
     "alternativas": [
-      "conhecida historicamente como das Missões Jesuíticas é a de maior violência.",
-      "do Bico do Papagaio apresenta os números mais expressivos.",
-      "conhecida como oeste baiano tem o maior número de mortes.",
-      "do norte do Mato Grosso, área de expansão da agricultura mecanizada, é a mais violenta do país.",
-      "da Zona da Mata mineira teve o maior registro de mortes."
+      "manutenção da ordem agrária.",
+      "legitimação da propriedade privada.",
+      "hegemonia das classes dominantes.",
+      "revisão das desigualdades econômicas.",
+      "homogeneização da distribuição fundiária."
     ],
-    "correta": 1,
-    "comentario": "<p>O 'Bico do Papagaio', região no encontro do Pará, Tocantins e Maranhão, concentra historicamente os maiores índices de conflitos por terra do Brasil. A expansão da fronteira agrícola sobre terras de posseiros e indígenas, associada à ausência do Estado e à ação de grileiros, transforma essa área em um epicentro de violência rural que os dados do INCRA e da CPT sistematicamente confirmam.</p>",
-    "ajuda": "Observe o mapa dos conflitos agrários entre 1985 e 1996. Pense em qual região do Brasil concentra o maior número de mortes: o Bico do Papagaio fica na confluência dos estados do Pará, Tocantins e Maranhão, área de grande tensão entre posseiros e fazendeiros. Analise qual alternativa indica corretamente a região com os números mais expressivos de conflitos.",
+    "correta": 3,
+    "comentario": "A função social da terra no Brasil é mecanismo legal acionado na luta contra a tradicional ordem agrária brasileira, que apresenta altos índices de concentração fundiária, desigualdades socioeconômicas e degradação ambiental. A desapropriação da fazenda Cabaceiras, motivada pelo descumprimento da função social da propriedade, representa um mecanismo de promoção da justiça como forma de revisão das desigualdades socioeconômicas.",
+    "ajuda": "A desapropriação é motivada por duas violações: trabalho análogo à escravidão e infrações ambientais. Que estrutura agrária é confrontada quando o Estado intervém por esses motivos?",
+    "tags": [
+      "Fazenda Cabaceiras",
+      "Pará",
+      "Função social da terra",
+      "Trabalho análogo à escravidão"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "0": "A região das Missões Jesuíticas, no sul do Rio Grande do Sul, não é apontada historicamente como a de maior violência fundiária no Brasil. Os conflitos mais graves ocorrem em regiões de fronteira agrícola, como o Bico do Papagaio, na confluência de Tocantins, Pará e Maranhão.",
-      "2": "A região do oeste baiano apresenta conflitos relacionados à expansão do agronegócio, mas não é apontada como a área com o maior número de mortes por disputas fundiárias. Os registros históricos indicam o Bico do Papagaio como a região de maior violência agrária do país.",
-      "3": "O norte do Mato Grosso concentra disputas relacionadas à soja e à pecuária, mas não é identificado como o mais violento do país em termos de mortes por conflitos fundiários. O Bico do Papagaio supera o Mato Grosso nos registros históricos de violência agrária.",
-      "4": "A Zona da Mata mineira é uma região consolidada de agricultura familiar e cafeicultura, sem o histórico de violência fundiária intensa das áreas de fronteira. Os conflitos mais expressivos ocorrem em regiões de expansão de fronteiras econômicas no Norte do país, e não em regiões agrícolas estabelecidas como a Zona da Mata mineira."
+      "0": "A desapropriação DESAFIA a ordem agrária tradicional (concentração fundiária e exploração), não a mantém. É o oposto de manutenção.",
+      "1": "A desapropriação LIMITA o direito de propriedade quando sua função social não é cumprida — é o contrário de legitimação.",
+      "2": "A ação estatal confronta o poder dos grandes proprietários rurais, não reforça a hegemonia das classes dominantes.",
+      "4": "Um caso isolado de desapropriação não homogeneíza a distribuição de terras. O efeito é pontual: revisão de uma desigualdade específica, não transformação estrutural igualitária."
     }
   },
   {

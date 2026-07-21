@@ -146,31 +146,31 @@
   },
   {
     "id": 6,
-    "instituicao": "ENEM",
-    "ano": "2005",
-    "dificuldade": "media",
-    "tags": [
-      "relevo",
-      "formas de relevo",
-      "classificação do relevo"
-    ],
-    "imagem_apoio": "1ano/img/114/p14q6.png",
-    "pergunta": "Um professor, apresentou em sua prova de geografia a figura a seguir e demandou dos alunos a identificação das formas de relevo I e II.\n\nAcertaram a questão os alunos que a denominaram da seguinte forma:",
+    "ano": "ENEM 2025",
+    "texto_apoio": "Nos Estados Unidos, um hotel perto de um parque foi engolido por uma enorme cratera. E não é a primeira vez que esse tipo de incidente acontece na Flórida. Em minutos, uma ala inteira do hotel era engolida pela cratera de 30 metros de diâmetro e cinco de profundidade. O diretor do resort em Clermont, perto dos parques temáticos da Flórida, diz que o prédio tinha 15 anos, e que até então o solo nunca havia apresentado problemas. Os afundamentos são um fenômeno comum na Flórida por causa das formações de calcário e argila no subsolo, mas às vezes chuvas fortes, ou a drenagem do solo para construção, acabam contribuindo para o surgimento desses buracos.",
+    "fonte_apoio": "Disponível em: http://g1.globo.com. Acesso em: 10 dez. 2024 (adaptado).",
+    "pergunta": "A situação de desmoronamento do solo descrita no texto origina-se da",
     "alternativas": [
-      "I – Planície, II – depressão relativa.",
-      "I – Depressão relativa, II – Planície.",
-      "I – Depressão absoluta, II – Planície.",
-      "I – Planície, II – Planalto.",
-      "I – Depressão absoluta, II – Planalto."
+      "cristalização da estrutura geológica.",
+      "ação do intemperismo químico.",
+      "recomposição da mata ciliar.",
+      "acumulação de sedimentos orgânicos.",
+      "impermeabilização da superfície ocupada."
     ],
-    "correta": 0,
-    "comentario": "<p>As formas do relevo incluem planícies (áreas baixas e planas formadas por deposição sedimentar) e depressões relativas (áreas rebaixadas em relação às regiões vizinhas, mas não necessariamente ao nível do mar). A depressão sertaneja no Nordeste brasileiro é um exemplo de depressão relativa esculpida pela erosão em rochas cristalinas.</p>",
-    "ajuda": "O professor apresentou uma figura com formas de relevo e pediu aos alunos que as identificassem. Lembre-se das formas de relevo: planalto (superfície elevada, com bordas em escarpa), planície (superfície plana e baixa, de deposição) e depressão (superfície mais baixa que as áreas ao redor).",
+    "correta": 1,
+    "comentario": "Os terrenos cársticos, com grandes concentrações de calcário, tendem a ser fortemente atingidos pelo intemperismo químico, no qual a água dissolve o calcário, podendo dar origem a cavernas e promover o afundamento da superfície. No caso citado, a formação da cratera ocorreu claramente por esse processo de intemperismo químico, que agiu sobre a formação calcária mencionada no texto.",
+    "ajuda": "O texto destaca as 'formações de calcário' no subsolo da Flórida. A água dissolve calcário com facilidade, criando cavidades. Que processo geológico chamamos quando a água dissolve rochas e forma buracos?",
+    "tags": [
+      "Intemperismo químico",
+      "Calcário",
+      "Geomorfologia cárstica"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "1": "Essa alternativa inverte as duas formas: I é a planície (área plana e baixa formada por deposição), não a depressão relativa. A depressão relativa é a II, área rebaixada em relação às adjacentes.",
-      "2": "I é uma planície (superfície plana de deposição sedimentar), não uma depressão absoluta (que seria abaixo do nível do mar). A II é depressão relativa, não planície.",
-      "3": "I está corretamente identificada como planície. Mas II é depressão relativa (área rebaixada em relação às vizinhas), não planalto (área elevada com bordas em escarpa).",
-      "4": "I é planície, não depressão absoluta. E II é depressão relativa, não planalto. Ambas as identificações estão erradas nessa alternativa."
+      "0": "Cristalização é o processo oposto: formação e endurecimento de rochas. O texto descreve dissolução e colapso do calcário.",
+      "2": "Mata ciliar é vegetação às margens de rios — sem relação com formação de crateras em terrenos cársticos. O processo é geológico.",
+      "3": "Acúmulo de sedimentos gera solos mais espessos, não buracos. O intemperismo químico aqui age removendo material por dissolução.",
+      "4": "Impermeabilização dificulta a infiltração. O processo no texto é o oposto: a água infiltra e dissolve o calcário por baixo, criando o vazio que gera a cratera."
     }
   },
   {

@@ -23,7 +23,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A gentrificação é o processo de revalorização de áreas urbanas degradadas, que atrai moradores de maior renda e expulsa os antigos residentes mais pobres. Com a melhoria da infraestrutura e o aumento da atratividade do bairro, os impostos territoriais (IPTU) e os aluguéis sobem, tornando o local inacessível para quem vivia ali. Esse processo ocorre em várias cidades brasileiras, como no bairro de Pinheiros em São Paulo e na Lapa no Rio de Janeiro.</p>",
-    "ajuda": "Gentrificação é um processo de valorização imobiliária que expulsa moradores de baixa renda. Pense no resultado final: o espaço melhora fisicamente, mas os tributos sobem e os moradores originais não conseguem mais se manter no local."
+    "ajuda": "Gentrificação é um processo de valorização imobiliária que expulsa moradores de baixa renda. Pense no resultado final: o espaço melhora fisicamente, mas os tributos sobem e os moradores originais não conseguem mais se manter no local.",
+    "feedbacks": {
+      "0": "A gentrificação melhora o padrão imobiliário da área, mas provoca justamente a exclusão dos moradores originais de menor renda, que não conseguem arcar com o aumento dos aluguéis e impostos. A afirmativa erra ao sugerir que todos os moradores são incluídos no processo de valorização.",
+      "1": "A reformulação da infraestrutura na gentrificação beneficia os novos moradores de maior poder aquisitivo, e não 'todos'. Os residentes originais de baixa renda são expulsos pela valorização imobiliária antes de poderem usufruir das melhorias, o que é exatamente a crítica central ao processo.",
+      "3": "A gentrificação funciona na direção oposta: ela expulsa os mais carentes das áreas valorizadas, e não os realoca em zonas de melhor estrutura. O processo é marcado pela substituição da população de baixa renda por moradores de maior renda nas áreas requalificadas.",
+      "4": "A gentrificação não materializa cidadania participativa: ela costuma ser criticada por excluir as comunidades originais da tomada de decisão sobre o território em que vivem. O processo é conduzido pela lógica do mercado imobiliário, e não pela participação dos moradores afetados."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A segregação socioespacial é o processo pelo qual diferentes grupos sociais ocupam partes distintas do espaço urbano segundo sua renda, raça ou origem. Nas cidades brasileiras, os pobres são empurrados para periferias distantes sem infraestrutura, enquanto os ricos ocupam bairros centrais bem servidos. Essa organização não é natural — é produto de mercados imobiliários excludentes, políticas habitacionais insuficientes e herança histórica de desigualdade.</p>",
-    "ajuda": "O aglomerado descrito mostra uma divisão interna do espaço urbano. Pense em como a renda e o acesso a serviços determinam onde cada grupo social mora na cidade. Qual processo explica essa divisão espacial por classe social?"
+    "ajuda": "O aglomerado descrito mostra uma divisão interna do espaço urbano. Pense em como a renda e o acesso a serviços determinam onde cada grupo social mora na cidade. Qual processo explica essa divisão espacial por classe social?",
+    "feedbacks": {
+      "0": "A expansão vertical descreve o crescimento da cidade por meio da construção de edifícios de múltiplos andares, um processo relacionado ao adensamento urbano. Esse fenômeno não explica a separação espacial de grupos sociais por renda e classe, que é o processo descrito no texto.",
+      "1": "Polarização nacional refere-se à concentração de atividades econômicas e populacionais em determinadas regiões em detrimento de outras, numa escala inter-regional. O fenômeno descrito no texto é intraurbano, referindo-se à separação de grupos sociais dentro de uma mesma aglomeração urbana.",
+      "2": "Emancipação municipal é o processo político-administrativo de criação de novos municípios a partir de divisões territoriais. Esse conceito não tem relação com a organização interna do espaço urbano que o texto descreve, marcada por contrastes socioeconômicos entre diferentes áreas da cidade.",
+      "4": "Desregulamentação comercial é uma política econômica que remove restrições ao comércio, sem relação com a organização espacial interna das cidades. A configuração urbana descrita é resultado de dinâmicas fundiárias, de renda e de políticas habitacionais, não de regulação comercial."
+    }
   },
   {
     "id": 3,
@@ -72,7 +84,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A rápida urbanização brasileira entre 1940 e 1980 gerou demanda habitacional muito superior à oferta formal de moradias. Sem acesso ao mercado imobiliário formal, a população de baixa renda ocupou áreas de risco, encostas, beiras de rios e zonas ambientalmente protegidas que o capital imobiliário não utilizava. Esse processo originou as favelas e periferias precárias que caracterizam as grandes cidades brasileiras.</p>",
-    "ajuda": "A urbanização acelerada nas décadas de 1940 a 1980 criou pressão sobre o solo urbano. Pense no que acontece quando a população de baixa renda não tem acesso ao mercado formal de habitação — para onde ela vai e por quê?"
+    "ajuda": "A urbanização acelerada nas décadas de 1940 a 1980 criou pressão sobre o solo urbano. Pense no que acontece quando a população de baixa renda não tem acesso ao mercado formal de habitação — para onde ela vai e por quê?",
+    "feedbacks": {
+      "0": "A especulação imobiliária valoriza as áreas disputadas pelo mercado, e não as desvaloriza. O texto descreve como as populações de baixa renda são empurradas para as margens do espaço urbano exatamente pela ação da especulação, e não por seu comprometimento.",
+      "1": "Projetos público-privados que reduzem o custo de vida seriam medidas contrárias à segregação, não fomentadoras dela. Quando essas parcerias promovem valorização imobiliária sem controle social, podem até intensificar a segregação, mas o enunciado da alternativa inverte a lógica causal.",
+      "2": "Há aumento, não diminuição, na construção de condomínios fechados próximos aos centros urbanos no Brasil. Além disso, os condomínios fechados são uma opção da população de alta renda, e não o mecanismo que leva os mais pobres para as periferias com legislação deficiente.",
+      "4": "Ações voltadas ao mercado informal não contêm a expansão periférica: o mercado informal de terras é justamente o que viabiliza a ocupação irregular nas franjas urbanas. Vincular o mercado informal ao controle da expansão periférica contradiz a dinâmica real do processo."
+    }
   },
   {
     "id": 4,
@@ -95,7 +113,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Movimento dos Trabalhadores Sem Teto (MTST) atua nas periferias das grandes cidades promovendo ocupações de terrenos ociosos que não cumprem a função social da propriedade, garantida pela Constituição de 1988. Esses imóveis frequentemente pertencem a especuladores imobiliários que aguardam valorização. O movimento pressiona por políticas habitacionais e reforma urbana, tornando visível o conflito entre especulação e direito à moradia.</p>",
-    "ajuda": "O texto descreve territórios urbanos controlados por grupos que operam fora da lei. Lembre-se que organizações como milícias surgiram nas periferias das metrópoles brasileiras preenchendo espaços deixados pelo poder público."
+    "ajuda": "O texto descreve territórios urbanos controlados por grupos que operam fora da lei. Lembre-se que organizações como milícias surgiram nas periferias das metrópoles brasileiras preenchendo espaços deixados pelo poder público.",
+    "feedbacks": {
+      "0": "Organizações que mantêm poder por meio de coação e violência descrevem grupos paramilitares ou milícias, e não movimentos sociais organizados por direito à moradia. O MTST e movimentos similares atuam por meio de ocupações estratégicas para pressionar o Estado, não pelo controle violento do território.",
+      "1": "Arrastões e saques são reações espontâneas e não organizadas à exclusão social, bem diferentes da atuação estruturada de movimentos sociais que reivindicam políticas habitacionais. A disseminação de bairros pobres no texto está associada a um modelo econômico excludente, que é combatido por movimentos organizados.",
+      "3": "A ocupação de áreas com infraestrutura já instalada caracteriza invasões oportunistas por quem já tem condições de pagar, e não a atuação do MTST. O movimento luta por terrenos ociosos para construção de habitação social destinada à população sem acesso ao mercado formal.",
+      "4": "Milicianos e bicheiros são organizações criminosas que exploram economicamente as populações periféricas, o oposto de um movimento social que luta por direitos habitacionais. Esses grupos não apenas diferem do MTST como representam exatamente o tipo de poder paralelo que aprofunda a exclusão."
+    }
   },
   {
     "id": 5,
@@ -118,7 +142,11 @@
     ],
     "correta": 2,
     "comentario": "<p>O capital imobiliário transforma o solo urbano em mercadoria, determinando quais áreas são valorizadas e quais são relegadas. A especulação imobiliária gera encarecimento progressivo de terrenos e aluguéis, modificando a paisagem urbana e expulsando populações de menor renda. A charge ilustra como esse processo capitalista, mediado pelo mercado de terras, redefine cotidianamente quem pode habitar onde nas cidades.</p>",
-    "ajuda": "A charge provavelmente mostra a contradição entre o mercado imobiliário e o direito à moradia. Pense em como o capital imobiliário define o preço do solo urbano e determina quem pode ou não viver em determinadas áreas da cidade."
+    "ajuda": "A charge provavelmente mostra a contradição entre o mercado imobiliário e o direito à moradia. Pense em como o capital imobiliário define o preço do solo urbano e determina quem pode ou não viver em determinadas áreas da cidade.",
+    "feedbacks": {
+      "0": "Políticas urbanas que enaltecem a valorização das áreas são parte do problema, não uma explicação do fenômeno da charge: elas favorecem o capital imobiliário e aprofundam a exclusão dos mais pobres. A alternativa descreve um mecanismo que agrava a segregação, sem identificar o capital imobiliário como seu motor.",
+      "1": "Corredores de trânsito rápido são elementos de infraestrutura de mobilidade urbana que podem até valorizar certas áreas e intensificar a especulação imobiliária, mas não são a causa estrutural da exclusão retratada na charge. A metropolização per se não determina a lógica de exclusão pelo mercado de terras."
+    }
   },
   {
     "id": 6,
@@ -144,7 +172,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A ocupação de encostas e áreas de risco é uma consequência direta da exclusão habitacional: sem alternativas formais acessíveis, populações de baixa renda constroem em locais perigosos sujeitos a deslizamentos e enchentes. Eventos climáticos extremos, como as chuvas intensas no Rio de Janeiro e em Petrópolis, expõem tragicamente essa vulnerabilidade. O problema não é apenas ambiental — é fundamentalmente social e político.</p>",
-    "ajuda": "A imagem mostra uma ocupação urbana irregular. Observe as características do terreno: encosta íngreme, sem obras de contenção. Qual risco ambiental essa situação representa para os moradores que ali vivem?"
+    "ajuda": "A imagem mostra uma ocupação urbana irregular. Observe as características do terreno: encosta íngreme, sem obras de contenção. Qual risco ambiental essa situação representa para os moradores que ali vivem?",
+    "feedbacks": {
+      "0": "Áreas sujeitas a inundações periódicas também são áreas de risco, mas o contexto da imagem e do texto indica ocupação em encostas com risco de deslizamento, não de inundação fluvial. O tipo de risco identificado na figura é geomorfológico, e não hidrológico.",
+      "1": "Uma área assistida pelo poder público em relação ao déficit habitacional teria algum nível de formalização, infraestrutura básica ou regularização. A ocupação descrita é precária e irregular, exatamente por estar onde o poder público não provê habitação formal.",
+      "2": "A ocupação de unidades de conservação ambiental é um problema real, mas o foco da questão é o risco geotécnico (deslizamento) ao qual a população está exposta. A área de conservação é uma questão ambiental distinta do risco de desmoronamento identificado na alternativa correta.",
+      "3": "Obras de contenção e drenagem em encostas são justamente as medidas que reduzem o risco de deslizamento. A alternativa descreve uma situação de risco mitigado, enquanto a questão pergunta sobre a forma de ocupação que representa risco real sem essas medidas."
+    }
   },
   {
     "id": 7,
@@ -170,7 +204,13 @@
     ],
     "correta": 2,
     "comentario": "<p>Max Weber definiu o Estado como o detentor do monopólio legítimo do uso da força em um território. As milícias, ao cobrarem taxas de proteção e controlarem território com violência armada em comunidades do Rio de Janeiro, violam diretamente esse monopólio estatal. Diferente do tráfico, as milícias são frequentemente compostas por policiais e ex-militares, tornando o fenômeno uma forma de crime organizado que mina o próprio Estado de dentro.</p>",
-    "ajuda": "Max Weber define o Estado como o detentor do monopólio legítimo da violência. Pense em como as milícias se diferenciam de outros grupos ao usar a violência: elas controlam territórios de forma organizada, desafiando ou substituindo o Estado?"
+    "ajuda": "Max Weber define o Estado como o detentor do monopólio legítimo da violência. Pense em como as milícias se diferenciam de outros grupos ao usar a violência: elas controlam territórios de forma organizada, desafiando ou substituindo o Estado?",
+    "feedbacks": {
+      "0": "A legitimidade do uso da violência, segundo Weber, é exclusiva do Estado, pois resulta de um processo histórico de reconhecimento social e legal. As milícias exercem coerção sem legitimidade social ou jurídica, e portanto não podem ser equiparadas ao Estado nessa dimensão.",
+      "1": "As milícias não contribuem para o monopólio estatal da violência: elas o desafiam ao exercer força armada paralela ao Estado, sem autorização legal. A presença de milícias representa uma fragmentação do poder coercitivo, e não uma extensão do braço estatal.",
+      "3": "As milícias não atuam pacificamente nem em resposta a reivindicações populares: elas impõem sua presença por meio da violência, da extorsão e do controle territorial forçado. A distinção entre milícias e traficantes está em sua composição, e não em uma suposta atuação pacífica.",
+      "4": "A autonomia para usar a força não confere legitimidade: milícias e traficantes utilizam a violência de forma ilegal e ilegítima, fora dos marcos do Estado de Direito. A legitimidade weberiana exige não apenas a capacidade de usar a força, mas o reconhecimento social e jurídico desse direito."
+    }
   },
   {
     "id": 8,
@@ -195,7 +235,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A agricultura urbana aproveita espaços ociosos das cidades — lotes vazios, telhados, canteiros — para produzir alimentos de forma sustentável. Além de gerar renda e segurança alimentar, essa prática reduz o chamado 'efeito ilha de calor', melhora a drenagem urbana e fortalece laços comunitários. Em cidades como Detroit (EUA) e Havana (Cuba), a agricultura urbana se tornou componente central da política alimentar.</p>",
-    "ajuda": "A prática descrita é a agricultura urbana. Pense nas vantagens do cultivo em áreas urbanas: aproveitamento de terrenos ociosos, produção local de alimentos, redução de deslocamentos. Qual desses benefícios é destacado no texto?"
+    "ajuda": "A prática descrita é a agricultura urbana. Pense nas vantagens do cultivo em áreas urbanas: aproveitamento de terrenos ociosos, produção local de alimentos, redução de deslocamentos. Qual desses benefícios é destacado no texto?",
+    "feedbacks": {
+      "1": "A agricultura urbana não densifica o centro: ela utiliza espaços subutilizados ou ociosos em diversas partes da cidade, inclusive na periferia. A prática está associada ao uso criativo de terrenos vazios, e não ao adensamento de áreas centrais.",
+      "2": "A agricultura urbana é predominantemente local e comunitária, voltada para o abastecimento de vizinhança ou para a segurança alimentar dos próprios produtores. Ela não tem como objetivo a exportação ou a valorização do mercado externo.",
+      "3": "A agricultura urbana, especialmente em contextos comunitários como o descrito no texto, tende a evitar insumos químicos em favor de técnicas orgânicas e agroecológicas. A priorização de insumos químicos contraria tanto a filosofia quanto a escala das hortas urbanas comunitárias.",
+      "4": "As hortas urbanas são cultivadas manualmente em pequenas parcelas dentro da cidade, onde a mecanização seria impraticável e desnecessária. A mecanização é característica da agricultura extensiva e industrial, não da agricultura urbana de pequena escala."
+    }
   },
   {
     "id": 9,
@@ -220,7 +266,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O processo descrito — crescimento acelerado da população urbana somado à especulação imobiliária — é a dupla dinâmica que explica a formação de periferias precárias nas cidades brasileiras. A demanda habitacional crescente, sem oferta pública suficiente, eleva os preços e empurra os mais pobres para as bordas da cidade. Esse modelo de urbanização excludente reproduz sistematicamente a pobreza e a desigualdade no espaço urbano.</p>",
-    "ajuda": "O texto descreve o desafio do crescimento urbano acelerado e a necessidade de habitação. Pense no que seria necessário para garantir moradia digna: planejamento urbano, políticas públicas e regularização fundiária."
+    "ajuda": "O texto descreve o desafio do crescimento urbano acelerado e a necessidade de habitação. Pense no que seria necessário para garantir moradia digna: planejamento urbano, políticas públicas e regularização fundiária.",
+    "feedbacks": {
+      "1": "A concentração de serviços atrai pessoas para os centros urbanos, mas é uma característica e não a causa da expansão periférica. O crescimento desordenado das periferias resulta justamente da impossibilidade de moradia acessível nas áreas centrais, e não da existência de serviços nelas.",
+      "2": "A delimitação de áreas para ocupação organizada seria o resultado de um planejamento urbano eficiente, que na prática foi insuficiente no Brasil. Onde o planejamento funcionou, a ocupação melhorou; a expansão periférica ocorreu exatamente onde esse controle falhou.",
+      "3": "Políticas públicas que promovem moradia e o direito à cidade são respostas ao problema da expansão periférica precária, e não sua causa. A ausência dessas políticas, combinada com o crescimento urbano acelerado e a especulação imobiliária, é que gerou o quadro descrito.",
+      "4": "A reurbanização das moradias centrais manteria os trabalhadores próximos ao emprego, o que reduziria a necessidade de periferias distantes. A expansão das periferias ocorreu pela expulsão dos trabalhadores para longe dos centros, e não pelo acesso deles à habitação central."
+    }
   },
   {
     "id": 10,
@@ -245,6 +297,11 @@
     ],
     "correta": 2,
     "comentario": "<p>A afirmativa está incorreta porque inverte a causalidade: a precarização do uso do solo não é causada por movimentos sociais, mas pelo abandono e especulação de proprietários privados e pela omissão do poder público em prover habitação digna. Os movimentos de moradia ocupam áreas irregularmente por necessidade, não por opção. A responsabilidade pela precarização urbana recai sobre a ausência de políticas habitacionais efetivas e sobre a concentração fundiária.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre condições de vida urbana. Analise cada afirmativa: a precarização do solo não é causada por movimentos sociais — pelo contrário, esses movimentos frequentemente lutam por moradia e regularização."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre condições de vida urbana. Analise cada afirmativa: a precarização do solo não é causada por movimentos sociais — pelo contrário, esses movimentos frequentemente lutam por moradia e regularização.",
+    "feedbacks": {
+      "0": "A ação do poder público em parques, transporte, moradia e saneamento é de fato indispensável para melhorar as condições de vida urbana. Essa afirmativa está correta.",
+      "1": "A especulação imobiliária expulsa a população de baixa renda das áreas com melhor infraestrutura, tornando mais difícil o acesso à moradia digna para os mais pobres nas metrópoles brasileiras. Essa afirmativa está correta.",
+      "3": "A migração em larga escala do campo para as cidades na segunda metade do século XX resultou no crescimento desordenado das periferias, caracterizadas por baixo investimento em infraestrutura. Essa afirmativa está correta."
+    }
   }
 ]

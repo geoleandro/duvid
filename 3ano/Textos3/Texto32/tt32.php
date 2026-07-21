@@ -221,6 +221,34 @@
             <hr>
         </div>
 
+          <!-- BLOCO 13.5: CÁUCASO E O CONFLITO DE NAGORNO-KARABAKH -->
+        <div class="topico">
+
+            <h2>O Cáucaso: uma fronteira de conflitos herdada da URSS</h2>
+
+            <p>A região do <span class="termo" data-palavra="Cáucaso" data-definicao="Região situada entre os mares Negro e Cáspio, na fronteira entre a Europa e a Ásia, marcada pela cordilheira do mesmo nome. Abriga países como Armênia, Azerbaijão e Geórgia, além de repúblicas russas como a Chechênia. É uma área de grande diversidade étnica e linguística, historicamente disputada por impérios vizinhos e marcada por conflitos territoriais herdados do período soviético.">Cáucaso</span>,
+                situada entre os mares Negro e Cáspio, ilustra outro tipo de herança deixada pelo colapso da URSS
+                em 1991. Ao desenhar as fronteiras internas de suas repúblicas socialistas, a União Soviética
+                não seguiu critérios étnicos rígidos, o que deixou minorias nacionais presas dentro de repúblicas
+                dominadas por outros grupos. O caso mais grave dessa herança é o de
+                <span class="termo" data-palavra="Nagorno-Karabakh" data-definicao="Região montanhosa do Cáucaso Sul, habitada majoritariamente por armênios, mas que foi delimitada pela União Soviética como parte territorial do Azerbaijão. Tornou-se palco de conflito armado entre Armênia e Azerbaijão desde o fim da URSS, culminando na retomada total do território pelo Azerbaijão em 2023 e no consequente êxodo da população armênia local."> Nagorno-Karabakh</span>,
+                território montanhoso de maioria populacional armênia que a URSS havia incluído dentro dos limites
+                do Azerbaijão.</p>
+
+            <p>Com o fim da União Soviética, Armênia e Azerbaijão travaram duas guerras pelo controle de
+                Nagorno-Karabakh, em 1988-1994 e novamente em 2020, além de confrontos menores ao longo das
+                décadas seguintes. Em setembro de 2023, o Azerbaijão retomou o controle total da região em uma
+                ofensiva militar rápida, o que provocou o êxodo de praticamente toda a população armênia local,
+                mais de 100 mil pessoas, para o território da própria Armênia. O episódio marca o fim de mais de
+                três décadas de disputa e mostra como as fronteiras artificiais herdadas de um antigo império
+                (nesse caso, o soviético) continuam gerando conflitos étnicos e territoriais muito tempo depois
+                do desaparecimento desse império.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+        
+
 
         <!-- BLOCO 8b: QUESTÃO PRÁTICA 2 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
@@ -400,6 +428,7 @@
             <hr>
         </div>
 
+      
 
         <!-- BLOCO 14: TRANSIÇÃO -->
         <div class="topico">

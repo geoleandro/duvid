@@ -187,7 +187,13 @@
         
     
         <p>Os solos variam significativamente em sua composição, textura e fertilidade, influenciando diretamente sua capacidade de sustentar vegetação e atividades humanas. Três tipos principais de solo apresentam características distintas:</p>
-    
+
+        <h3>Textura do Solo</h3>
+
+        <p>A textura do solo é definida pela proporção das três frações minerais que o compõem: areia, silte e argila. As partículas de areia são as maiores, o silte tem tamanho intermediário e a argila apresenta as partículas mais finas. É justamente essa combinação que determina propriedades como capacidade de drenagem, retenção de água e resistência mecânica do solo.</p>
+
+        <p>Essa classificação tem aplicação direta na construção civil. Solos com boa proporção de areia e silte, por exemplo, costumam oferecer maior estabilidade para fundações, já que drenam bem a água e reduzem o risco de recalques na edificação. Já solos muito argilosos podem expandir quando molhados e contrair quando secos, o que pode comprometer a estrutura de uma construção se não forem feitos estudos geotécnicos adequados antes da obra. Por isso, engenheiros e geólogos analisam a textura do solo de um terreno antes de definir o tipo de fundação mais adequado para cada projeto.</p>
+
         <h3>Solo Argiloso</h3>
     
         <p>O solo argiloso é caracterizado por partículas de tamanho muito pequeno, que se aglutinam facilmente, formando uma estrutura compacta.</p>

@@ -20,7 +20,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O neoliberalismo dos anos 1980 (Thatcherismo na Inglaterra, Reaganomics nos EUA) priorizou a liberalização financeira, as privatizações e a desregulamentação trabalhista. O resultado foi a concentração crescente da riqueza no capital financeiro e a redução dos direitos trabalhistas em todo o mundo capitalista.</p>",
-    "ajuda": "O neoliberalismo, consolidado nos anos 1980 com Thatcher e Reagan, caracteriza-se pela redução do Estado, privatizações e desregulamentação. Pense em qual alternativa reflete corretamente as consequências sociais e econômicas desse modelo."
+    "ajuda": "O neoliberalismo, consolidado nos anos 1980 com Thatcher e Reagan, caracteriza-se pela redução do Estado, privatizações e desregulamentação. Pense em qual alternativa reflete corretamente as consequências sociais e econômicas desse modelo.",
+    "feedbacks": {
+      "0": "Os países desenvolvidos têm seus PIBs dominados por serviços e indústria, e não pela agricultura ou pecuária. O neoliberalismo favoreceu o capital financeiro em detrimento do setor produtivo, e não o setor primário.",
+      "2": "O neoliberalismo fez exatamente o oposto: liberalizou o fluxo de capitais e concentrou riqueza, em vez de restringir os fluxos e distribuir equitativamente. A alternativa descreve políticas keynesianas e redistributivas, antagônicas ao neoliberalismo.",
+      "3": "O neoliberalismo reduziu o Estado de bem-estar social, cortou direitos sociais e valorizou as finanças sobre a produção. Afirmar que fortaleceu o papel do Estado nos direitos sociais inverte os fundamentos da agenda neoliberal.",
+      "4": "O neoliberalismo incentivou a livre circulação de capitais como um de seus pilares centrais; blocos econômicos periféricos que impedissem essa circulação seriam contrários à sua lógica. Ademais, esses blocos foram raros e incapazes de reverter a financeirização global."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A globalização criou desigualdades profundas que o Papa Francisco chamou de 'globalização da exclusão': enquanto capitais circulam livremente, trabalhadores são submetidos a precarização crescente. A crítica papal aponta especificamente para a disparidade econômica gerada pelo capitalismo financeirizado.</p>",
-    "ajuda": "O texto do Papa Francisco critica a lógica do capital financeiro que exclui os trabalhadores. Pense em qual problema social o papa está denunciando — não é apenas pobreza, mas uma questão estrutural do capitalismo contemporâneo."
+    "ajuda": "O texto do Papa Francisco critica a lógica do capital financeiro que exclui os trabalhadores. Pense em qual problema social o papa está denunciando — não é apenas pobreza, mas uma questão estrutural do capitalismo contemporâneo.",
+    "feedbacks": {
+      "0": "O texto critica a globalização pelas suas consequências econômicas desiguais, e não por restrições à liberdade política. A liberdade política não é o aspecto central abordado pela crítica ao mundo globalizado no texto.",
+      "1": "A mobilidade humana é restrita na globalização, especialmente para trabalhadores de países pobres; mas o texto critica as assimetrias econômicas entre países, e não o tema da mobilidade. São aspectos distintos da globalização.",
+      "2": "A conectividade cultural é um aspecto da globalização que pode ter dimensões positivas (intercâmbio de ideias, culturas, artes). O texto critica a desigualdade econômica resultante das relações globais, não a conectividade cultural em si.",
+      "4": "Complementaridade comercial é um aspecto técnico das trocas internacionais que descreve como países trocam bens diferentes. O texto critica a desigualdade resultante dessas relações, e não a complementaridade em si, que pode ser vista como neutra."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O dumping comercial — vender abaixo do custo para eliminar concorrentes — é considerado uma prática predatória porque destrói mercados locais e viola as regras da concorrência. É proibido pelos acordos da OMC e tipicamente usado por grandes corporações para monopolizar mercados.</p>",
-    "ajuda": "O texto discute práticas empresariais no capitalismo e distingue quais são consideradas moralmente condenáveis. Pense em qual prática representa um abuso de poder de mercado que prejudica a concorrência e os consumidores."
+    "ajuda": "O texto discute práticas empresariais no capitalismo e distingue quais são consideradas moralmente condenáveis. Pense em qual prática representa um abuso de poder de mercado que prejudica a concorrência e os consumidores.",
+    "feedbacks": {
+      "1": "A fusão de funções administrativas é uma prática organizacional neutra de gestão empresarial, sem o caráter predatório e anticoncorrencial do dumping. Integrar áreas de gestão não prejudica concorrentes com preços artificialmente abaixo do custo.",
+      "2": "Holding empresarial é uma estrutura jurídica legal de controle e organização de grupos empresariais, sem o caráter predatório do dumping. A criação de holdings é uma prática reconhecida e regulamentada no direito comercial.",
+      "3": "Limitar o poder dos monopólios é uma intervenção regulatória do Estado para proteger a concorrência e os consumidores; é considerada uma prática positiva, e não moralmente condenável. É o oposto do que o dumping representa.",
+      "4": "A modernização da produção industrial é uma prática positiva que aumenta eficiência e competitividade. Não tem o caráter predatório do dumping, que visa artificialmente eliminar concorrentes com preços abaixo do custo de produção."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Detroit exemplifica a desindustrialização fordista: o declínio do sistema de produção em massa, a concorrência asiática e o deslocamento das fábricas para regiões de menor custo esvaziaram a cidade. Em 2013, a ex-capital mundial do automóvel declarou falência com uma dívida de 18 bilhões de dólares.</p>",
-    "ajuda": "Detroit foi o símbolo do fordismo americano. Seu declínio está ligado à crise do modelo fordista e à migração das indústrias para regiões de menor custo (acumulação flexível). Pense em qual combinação de fatores explica esse esvaziamento urbano e industrial."
+    "ajuda": "Detroit foi o símbolo do fordismo americano. Seu declínio está ligado à crise do modelo fordista e à migração das indústrias para regiões de menor custo (acumulação flexível). Pense em qual combinação de fatores explica esse esvaziamento urbano e industrial.",
+    "feedbacks": {
+      "0": "O taylorismo é do início do séc. XX e caracterizou a industrialização fordista que entrou em crise em Detroit; não estava em ascensão nesse período. Além disso, o protecionismo contraria a liberalização econômica que abriu os mercados à concorrência japonesa e coreana.",
+      "1": "O fordismo estava em declínio, e não em consolidação, no período da crise de Detroit; foi exatamente o esgotamento do fordismo que contribuiu para a crise. A concorrência foi asiática (Japão e Coreia do Sul), não europeia.",
+      "2": "O toyotismo não estava em declínio no período; pelo contrário, foi o modelo que suplantou o fordismo e gerou a competitividade asiática que afetou Detroit. O que declina é o fordismo, e não o toyotismo."
+    }
   },
   {
     "id": 5,
@@ -114,7 +137,12 @@
     ],
     "correta": 0,
     "comentario": "<p>O neoliberalismo foi adotado na América Latina como receita dos organismos internacionais para enfrentar a crise da dívida externa. O Consenso de Washington (1989) recomendava: privatizações, abertura comercial, câmbio flutuante e corte de gastos públicos — medidas que aprofundaram desigualdades sociais na região.</p>",
-    "ajuda": "O conjunto de políticas adotadas pelos países latino-americanos nos anos 1990 em resposta às crises — privatizações, abertura comercial, redução do Estado — recebe um nome específico. Identifique qual modelo ideológico e econômico essas medidas representam."
+    "ajuda": "O conjunto de políticas adotadas pelos países latino-americanos nos anos 1990 em resposta às crises — privatizações, abertura comercial, redução do Estado — recebe um nome específico. Identifique qual modelo ideológico e econômico essas medidas representam.",
+    "feedbacks": {
+      "1": "A bipolaridade foi o arranjo geopolítico da Guerra Fria (EUA versus URSS), encerrado com a dissolução soviética em 1991. Não é uma política econômica, mas uma configuração de poder internacional.",
+      "2": "A social-democracia defende intervenção estatal, Estado de bem-estar social e regulação do mercado, sendo o oposto do neoliberalismo que a substituiu nos anos 1980. A social-democracia foi justamente o modelo que o neoliberalismo buscou desmantelar.",
+      "3": "O keynesianismo propõe intervenção estatal na economia para estimular a demanda e o emprego em períodos de crise, sendo o oposto do neoliberalismo. O neoliberalismo surgiu precisamente como crítica e reação ao keynesianismo do pós-guerra."
+    }
   },
   {
     "id": 6,
@@ -136,7 +164,13 @@
     ],
     "correta": 3,
     "comentario": "<p>No capitalismo monopolista, os conglomerados (holdings, multinacionais) concentram capital e diversificam suas atividades em diferentes setores da economia. Essa estratégia reduz riscos, aumenta poder de mercado e dificulta a entrada de novos concorrentes, consolidando oligopólios globais.</p>",
-    "ajuda": "Os conglomerados empresariais no capitalismo monopolista concentram capital e diversificam atividades para dominar mercados. Pense em quais características definem esses grandes grupos empresariais em termos de poder de mercado."
+    "ajuda": "Os conglomerados empresariais no capitalismo monopolista concentram capital e diversificam atividades para dominar mercados. Pense em quais características definem esses grandes grupos empresariais em termos de poder de mercado.",
+    "feedbacks": {
+      "0": "Conglomerados monopolistas têm acesso privilegiado aos mercados e poder de ampliar margens de lucro, e não sofrem dificuldades de acesso. A lógica do capitalismo monopolista é justamente eliminar barreiras ao lucro e dominar setores inteiros.",
+      "1": "Conglomerados capitalistas buscam produção industrializada de alto valor agregado e diversificada, e não produtos primários ou artesanais. A valorização do trabalho artesanal contraria a lógica de escala e automação dos conglomerados.",
+      "2": "Conglomerados monopolistas diversificam suas áreas de atuação (e não se especializam em uma única), e tendem a reduzir mão de obra por automação (e não ampliá-la). A alternativa inverte as características centrais do capitalismo monopolista.",
+      "4": "Linhas de produção precárias não são compatíveis com a competitividade dos grandes conglomerados, que investem em tecnologia de ponta. A lógica do capitalismo monopolista é privatizar lucros (e não socializá-los), ao contrário do que a alternativa sugere."
+    }
   },
   {
     "id": 7,
@@ -161,7 +195,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A globalização financeirizada criou uma divisão dentro do próprio setor informal: tecnologia aumenta a produtividade dos trabalhadores (como o just-in-time nos distribuidores de bebidas), mas o trabalho mais precário é mantido nas últimas etapas da cadeia. O resultado é a coexistência de automação avançada e trabalho primitivo.</p>",
-    "ajuda": "As transformações tecnológicas e a globalização impactam emprego e renda. Identifique qual processo — automação, deslocalização ou flexibilização — melhor explica as mudanças na estrutura do trabalho descritas no texto."
+    "ajuda": "As transformações tecnológicas e a globalização impactam emprego e renda. Identifique qual processo — automação, deslocalização ou flexibilização — melhor explica as mudanças na estrutura do trabalho descritas no texto.",
+    "feedbacks": {
+      "0": "O texto aborda as transformações tecnológicas que afetam emprego e renda; a crise bancária e o fortalecimento do capital industrial não são os aspectos centrais descritos. O texto não trata de crise financeira nem de expansão industrial.",
+      "1": "O toyotismo tende a precarizar vínculos laborais e aumentar a flexibilização, e não regularizar o trabalho formal. Além disso, a inovação toyotista é apenas um aspecto do impacto tecnológico mais amplo descrito no texto.",
+      "3": "O setor secundário (industrial) tende a se retrair com a automação e terceirização, e não a expandir. Embora a globalização esteja relacionada ao contexto, o texto foca nas transformações tecnológicas e na mudança da estrutura produtiva, e não na expansão do setor industrial.",
+      "4": "A redução da jornada de trabalho não é um resultado direto descrito no texto; o impacto da tecnologia sobre o emprego foi o aumento do desemprego estrutural, e não a diminuição da jornada. A necessidade de qualificação é real, mas não é o elemento central do texto."
+    }
   },
   {
     "id": 8,
@@ -185,7 +225,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A consolidação da força de trabalho como mercadoria foi o processo histórico que Karl Polanyi descreveu como 'a grande transformação': com a industrialização, o trabalho humano passou a ser comprado e vendido no mercado como qualquer outra mercadoria, separando os trabalhadores dos meios de produção.</p>",
-    "ajuda": "O texto descreve o processo de transformação socioeconômica que transformou o trabalho em mercadoria. Esse é um conceito marxista fundamental sobre como o capitalismo trata a força de trabalho humana. Pense em qual consequência isso gera para o trabalhador."
+    "ajuda": "O texto descreve o processo de transformação socioeconômica que transformou o trabalho em mercadoria. Esse é um conceito marxista fundamental sobre como o capitalismo trata a força de trabalho humana. Pense em qual consequência isso gera para o trabalhador.",
+    "feedbacks": {
+      "0": "As terras comunais foram extintas pelo processo de cercamentos (enclosures) que gerou o campesinato sem terra, base para a formação do proletariado industrial. A expansão das comunais seria o oposto do que ocorreu historicamente com o avanço do capitalismo.",
+      "1": "O texto descreve a consolidação e expansão do capitalismo, que amplia os mercados, inclusive o especulativo e financeiro. Limitar o mercado como meio de especulação seria uma intervenção regulatória contrária à lógica capitalista emergente.",
+      "3": "A industrialização ampliou enormemente o comércio interno e externo, criando mercados nacionais integrados e redes de comércio internacional. Afirmar que o comércio diminuiu como efeito da industrialização inverte a relação histórica.",
+      "4": "O dinheiro como meio universal de troca precede a industrialização e já era central no capitalismo mercantil. A consolidação do dinheiro como padrão das transações não é a consequência específica da transformação socioeconômica descrita, que é a mercantilização da força de trabalho."
+    }
   },
   {
     "id": 9,
@@ -210,7 +256,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A crise de 2008, originada no mercado imobiliário dos EUA (subprime), propagou-se globalmente em horas graças à interdependência do sistema financeiro internacional. Bancos europeus e asiáticos com ativos contaminados quebraram em cadeia, demonstrando como a globalização financeira elimina fronteiras entre crises nacionais.</p>",
-    "ajuda": "Crises econômicas locais se tornam globais porque os sistemas financeiros são interdependentes. Pense em qual mecanismo transmite rapidamente uma crise de um país para o restante do mundo, especialmente no capitalismo financeirizado."
+    "ajuda": "Crises econômicas locais se tornam globais porque os sistemas financeiros são interdependentes. Pense em qual mecanismo transmite rapidamente uma crise de um país para o restante do mundo, especialmente no capitalismo financeirizado.",
+    "feedbacks": {
+      "0": "A superprodução pode ser causa de crises cíclicas no capitalismo, mas não explica como uma crise inicialmente restrita se propaga globalmente. A propagação global decorre da interdependência dos sistemas financeiros, e não do excesso de produção de bens de consumo.",
+      "1": "Os países asiáticos, especialmente a China, foram relativamente menos afetados por crises financeiras globais como a de 2008. O colapso industrial asiático não ocorreu como fenômeno central; ao contrário, a Ásia manteve crescimento expressivo.",
+      "3": "O isolamento político seria o oposto do que causa a propagação global de crises; são justamente a integração e a interdependência dos sistemas econômicos que permitem que uma crise local se torne global. Países isolados seriam os menos afetados.",
+      "4": "A austeridade fiscal pode agravar crises ao reduzir demanda interna, mas não explica como uma crise inicialmente restrita se dissemina globalmente. A interdependência financeira e econômica é o mecanismo central de contágio das crises."
+    }
   },
   {
     "id": 10,
@@ -235,6 +287,12 @@
     ],
     "correta": 4,
     "comentario": "<p>O just-in-time é o princípio central do Toyotismo japonês: produzir apenas o necessário, no momento exato e na quantidade certa. Isso elimina estoques (que representam capital imobilizado), reduz desperdícios e exige uma cadeia de fornecimento altamente integrada e responsiva às demandas do mercado.</p>",
-    "ajuda": "O just-in-time é o princípio central do Toyotismo: produzir somente o necessário, no momento certo, na quantidade certa. Isso elimina estoques e exige uma cadeia de fornecimento altamente integrada. Identifique qual alternativa descreve corretamente esse princípio."
+    "ajuda": "O just-in-time é o princípio central do Toyotismo: produzir somente o necessário, no momento certo, na quantidade certa. Isso elimina estoques e exige uma cadeia de fornecimento altamente integrada. Identifique qual alternativa descreve corretamente esse princípio.",
+    "feedbacks": {
+      "0": "O just-in-time é justamente o oposto: elimina a formação de estoques, produzindo apenas o necessário no momento em que há demanda confirmada. Manter estoques é a lógica fordista, que o toyotismo buscou superar pela produção sob demanda.",
+      "1": "O toyotismo valoriza o trabalhador multifuncional e sua participação ativa no controle de qualidade (círculos de qualidade, kaizen). A mão de obra não é secundária no modelo toyotista; ela é integrada ao processo produtivo de forma mais participativa que no fordismo.",
+      "2": "O toyotismo busca eliminar desperdícios como princípio central (princípio kaizen), e não incorporá-los ao preço final do produto. Cobrir desperdícios no preço seria a lógica fordista de custos fixos distribuídos pela produção em massa.",
+      "3": "Padronização rígida de produtos é característica do fordismo, que produzia em massa modelos iguais (como o Ford T). O toyotismo produz variedade de produtos customizados conforme a demanda do consumidor, ao contrário da padronização fordista."
+    }
   }
 ]

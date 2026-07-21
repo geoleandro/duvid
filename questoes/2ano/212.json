@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Lembre-se das formas do relevo brasileiro segundo Jurandyr Ross: planícies, planaltos e depressões. Pense em qual classificação esse geógrafo utilizou e quantas formas gerais compõem seu sistema. Descarte as alternativas que incluem formas que não fazem parte dessa classificação, como montanhas ou serras."
+    "ajuda": "Lembre-se das formas do relevo brasileiro segundo Jurandyr Ross: planícies, planaltos e depressões. Pense em qual classificação esse geógrafo utilizou e quantas formas gerais compõem seu sistema. Descarte as alternativas que incluem formas que não fazem parte dessa classificação, como montanhas ou serras.",
+    "feedbacks": {
+      "0": "Colinas e Montanhas não são as categorias fundamentais da classificação de Jurandyr Ross. As três unidades principais são planaltos, planícies e depressões, sendo as demais formas subdivisões internas dessas categorias.",
+      "1": "Peneplanos e montanhas não integram as categorias principais da classificação de Ross; são conceitos de classificações distintas ou subdivisões internas. A divisão fundamental da classificação de Ross usa planaltos, planícies e depressões.",
+      "2": "Serras e chapadas são subformas existentes dentro da categoria planaltos, e não categorias autônomas. A classificação de Ross opera com três unidades fundamentais: planaltos, planícies e depressões.",
+      "3": "Serras e chapadas são subformas dentro dos planaltos, e não categorias principais independentes. A classificação de Ross usa as três categorias fundamentais: planaltos, planícies e depressões."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,12 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Lembre-se que Jurandyr Ross classificou o relevo brasileiro em três tipos: planaltos, planícies e depressões. Pense na definição de cada forma: planícies são áreas de acumulação sedimentar, planaltos são áreas onde a erosão supera a deposição e depressões são áreas rebaixadas em relação ao entorno. Identifique qual alternativa lista apenas essas três formas."
+    "ajuda": "Lembre-se que Jurandyr Ross classificou o relevo brasileiro em três tipos: planaltos, planícies e depressões. Pense na definição de cada forma: planícies são áreas de acumulação sedimentar, planaltos são áreas onde a erosão supera a deposição e depressões são áreas rebaixadas em relação ao entorno. Identifique qual alternativa lista apenas essas três formas.",
+    "feedbacks": {
+      "0": "Montanha não é uma das três categorias fundamentais da classificação do relevo brasileiro. Os geógrafos utilizam planaltos, planícies e depressões como as três grandes unidades, sendo as montanhas uma forma específica de planalto.",
+      "2": "Chapada é uma subforma de planalto, e não uma categoria fundamental independente. A classificação básica do relevo usa planaltos, planícies e depressões, sendo as chapadas um tipo de planalto tabular.",
+      "3": "Montanha não é uma das três categorias fundamentais do relevo brasileiro. A classificação geomorfológica opera com planaltos, planícies e depressões como unidades básicas, sendo as montanhas uma forma específica dentro dos planaltos."
+    }
   },
   {
     "id": 3,
@@ -65,7 +76,12 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão pede a associação entre recursos minerais e suas características. Pense nas relações entre cada tipo de recurso e sua localização geológica: minerais metálicos nos escudos cristalinos, energéticos nas bacias sedimentares. Associe cada recurso mineral à sua característica e localização correta no Brasil."
+    "ajuda": "A questão pede a associação entre recursos minerais e suas características. Pense nas relações entre cada tipo de recurso e sua localização geológica: minerais metálicos nos escudos cristalinos, energéticos nas bacias sedimentares. Associe cada recurso mineral à sua característica e localização correta no Brasil.",
+    "feedbacks": {
+      "0": "Esta sequência não corresponde às associações corretas entre os elementos indicados. A ordem apresentada difere do gabarito em pelo menos dois pontos.",
+      "1": "Esta sequência não representa a correspondência correta entre os elementos. A posição dos elementos diverge da ordem correta em todos os pontos.",
+      "2": "Esta sequência está parcialmente correta, mas apresenta erro na correspondência de ao menos dois elementos. O terceiro e o quarto elementos divergem da sequência correta."
+    }
   },
   {
     "id": 4,
@@ -90,7 +106,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Analise cada afirmativa (I a IV) sobre a distribuição dos recursos minerais no Brasil. Pense: Pará e Minas Gerais produzem ferro, manganês e alumínio? Os estados da costa nordestina e fluminense produzem petróleo? O Sul tem carvão mineral? O ouro está nos estados do Norte? Avalie a veracidade de cada afirmativa."
+    "ajuda": "Analise cada afirmativa (I a IV) sobre a distribuição dos recursos minerais no Brasil. Pense: Pará e Minas Gerais produzem ferro, manganês e alumínio? Os estados da costa nordestina e fluminense produzem petróleo? O Sul tem carvão mineral? O ouro está nos estados do Norte? Avalie a veracidade de cada afirmativa.",
+    "feedbacks": {
+      "0": "As afirmativas I, II e III também são verdadeiras, não apenas a IV. Classificar as três como falsas ignora as informações corretas que elas apresentam sobre o tema.",
+      "2": "As afirmativas I e II não são falsas; apresentam informações corretas sobre o tema. Somente a afirmativa IV contém equívoco que a torna falsa.",
+      "3": "A afirmativa III não é falsa; apresenta informação correta junto às afirmativas I e II. Somente a afirmativa IV contém erros que a tornam falsa.",
+      "4": "A afirmativa II é verdadeira, e não falsa como indica essa alternativa. Além disso, a afirmativa IV é falsa, ao contrário do que essa combinação afirma."
+    }
   },
   {
     "id": 5,
@@ -111,7 +133,12 @@
     ],
     "correta": 1,
     "comentario": "",
-    "ajuda": "Analise cada afirmativa sobre a industrialização brasileira. Pense: a abolição da escravatura e a imigração europeia foram fatores importantes para a industrialização? A industrialização brasileira ocorreu concomitantemente à europeia? A substituição de importações foi uma fase real? A concentração industrial foi em São Paulo, não na Zona da Mata mineira?"
+    "ajuda": "Analise cada afirmativa sobre a industrialização brasileira. Pense: a abolição da escravatura e a imigração europeia foram fatores importantes para a industrialização? A industrialização brasileira ocorreu concomitantemente à europeia? A substituição de importações foi uma fase real? A concentração industrial foi em São Paulo, não na Zona da Mata mineira?",
+    "feedbacks": {
+      "0": "A afirmativa IV apresenta equívocos sobre o tema, não podendo ser classificada como correta. O conjunto de afirmativas verdadeiras inclui I e III, e não II e IV.",
+      "2": "A afirmativa IV apresenta erros que a tornam incorreta. O conjunto correto é formado pelas afirmativas I e III, e não I e IV.",
+      "3": "A afirmativa II contém equívocos sobre o tema, não podendo integrar o conjunto de afirmativas verdadeiras. Apenas as afirmativas I e III são corretas."
+    }
   },
   {
     "id": 6,
@@ -136,7 +163,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Leia o texto sobre a desconcentração industrial em São Paulo a partir dos anos 1970. Pense em por que as empresas saíram da metrópole: custos mais altos, terrenos caros, mão de obra mais organizada. Qual fator econômico foi o principal motivador para a busca de cidades médias com incentivos fiscais e menores custos?"
+    "ajuda": "Leia o texto sobre a desconcentração industrial em São Paulo a partir dos anos 1970. Pense em por que as empresas saíram da metrópole: custos mais altos, terrenos caros, mão de obra mais organizada. Qual fator econômico foi o principal motivador para a busca de cidades médias com incentivos fiscais e menores custos?",
+    "feedbacks": {
+      "0": "A mão de obra nas metrópoles não estava esgotada nem os trabalhadores se recusavam ao trabalho fabril. O movimento de desconcentração industrial foi motivado pelos custos mais baixos nas cidades médias, e não pela falta de trabalhadores nos grandes centros.",
+      "1": "A matéria-prima não se esgotou nas metrópoles; as indústrias sempre dependeram de insumos de diversas origens. A decisão de instalar-se em novas cidades foi motivada por custos menores, e não pela escassez de recursos nas grandes cidades.",
+      "2": "A competitividade dos produtos importados é uma questão de mercado que não explica a desconcentração para cidades médias. O fator central é a busca por custos de produção menores, e não a dificuldade de concorrer com importados.",
+      "3": "A antecipação de necessidades futuras das cidades médias não é uma explicação realista para as decisões de relocalização industrial. As empresas baseiam suas decisões em custos concretos, como incentivos fiscais, preço do terreno e custo da mão de obra."
+    }
   },
   {
     "id": 7,
@@ -161,7 +194,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Leia as três afirmativas sobre o fechamento da fábrica da Ford no ABCD paulista. Pense em cada afirmativa: a I trata de reestruturação estratégica global; a II trata da transição para veículos elétricos; a III trata da dificuldade de controle das consequências regionais da globalização. Avalie se cada afirmativa está correta à luz do processo de reestruturação do setor automobilístico."
+    "ajuda": "Leia as três afirmativas sobre o fechamento da fábrica da Ford no ABCD paulista. Pense em cada afirmativa: a I trata de reestruturação estratégica global; a II trata da transição para veículos elétricos; a III trata da dificuldade de controle das consequências regionais da globalização. Avalie se cada afirmativa está correta à luz do processo de reestruturação do setor automobilístico.",
+    "feedbacks": {
+      "1": "Esta combinação exclui a afirmativa III, que também apresenta informações corretas. As três afirmativas (I, II e III) são corretas, sendo insuficiente selecionar apenas I e II.",
+      "2": "Esta combinação seleciona apenas a afirmativa I, descartando II e III, que também são verdadeiras. A resposta correta inclui as três afirmativas.",
+      "3": "Esta combinação exclui a afirmativa I, que também é verdadeira. O conjunto completo de afirmativas corretas inclui I, II e III.",
+      "4": "Esta combinação seleciona apenas a afirmativa II, descartando I e III, que também são corretas. As três afirmativas apresentam informações verdadeiras sobre o tema."
+    }
   },
   {
     "id": 8,
@@ -184,7 +223,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Analise cada afirmativa (V ou F) sobre a industrialização e a desconcentração industrial no Brasil. Pense: a desconcentração sem planejamento urbano gerou problemas socioambientais nas cidades médias? As indústrias buscam incentivos fiscais e doação de infraestrutura? A desindustrialização levou à desmetropolização? O tripé industrial foi nos anos 1950? As empresas fogem de onde há maior organização sindical?"
+    "ajuda": "Analise cada afirmativa (V ou F) sobre a industrialização e a desconcentração industrial no Brasil. Pense: a desconcentração sem planejamento urbano gerou problemas socioambientais nas cidades médias? As indústrias buscam incentivos fiscais e doação de infraestrutura? A desindustrialização levou à desmetropolização? O tripé industrial foi nos anos 1950? As empresas fogem de onde há maior organização sindical?",
+    "feedbacks": {
+      "0": "Esta combinação classifica as afirmativas I e II como falsas, quando são verdadeiras. Além disso, classifica a afirmativa V como verdadeira, quando é falsa.",
+      "1": "Esta combinação classifica a afirmativa I como falsa, quando é verdadeira. Além disso, classifica as afirmativas III e IV como verdadeiras, quando são falsas.",
+      "2": "Esta combinação classifica a afirmativa I como falsa e apresenta erros nas afirmativas IV e V. A combinação correta indica que apenas as afirmativas I e II são verdadeiras.",
+      "3": "Esta combinação classifica a afirmativa II como falsa e as afirmativas III e IV como verdadeiras, invertendo o gabarito nesses pontos. As afirmativas III e IV são falsas, e a II é verdadeira."
+    }
   },
   {
     "id": 9,
@@ -209,7 +254,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Lembre-se das características da infraestrutura logística brasileira. A Ferrovia Norte do Brasil e a hidrovia Paraná-Tietê são importantes corredores de exportação do Centro-Oeste. Pense em qual afirmativa descreve corretamente o papel dessas rotas de transporte no escoamento da produção agrícola para os portos de Santos e Paranaguá."
+    "ajuda": "Lembre-se das características da infraestrutura logística brasileira. A Ferrovia Norte do Brasil e a hidrovia Paraná-Tietê são importantes corredores de exportação do Centro-Oeste. Pense em qual afirmativa descreve corretamente o papel dessas rotas de transporte no escoamento da produção agrícola para os portos de Santos e Paranaguá.",
+    "feedbacks": {
+      "0": "O Sudeste brasileiro enfrenta sérios problemas de mobilidade e infraestrutura, especialmente nas regiões metropolitanas de São Paulo e Rio de Janeiro. Afirmar que não enfrenta nenhum problema contraria a realidade dos congestionamentos crônicos e da saturação das redes de transporte.",
+      "2": "O alcoolduto da Petrobras interliga as regiões produtoras de etanol do interior paulista ao terminal de São Sebastião, no litoral de São Paulo, e não ao porto de Tubarão (ES). A informação sobre o porto de destino está incorreta.",
+      "3": "O Brasil não explora pouco suas hidrovias apenas por falta de interesse; existem limitações técnicas, sazonais e de infraestrutura. Além disso, a maior rede de rios de planícies do Brasil é a amazônica, e não a do Centro-Sul como afirma essa alternativa.",
+      "4": "O sistema rodoviário brasileiro não oferece muitas rotas alternativas semelhantes ao europeu; ao contrário, concentra-se em poucas rodovias federais. A comparação com o sistema europeu é equivocada, pois a malha rodoviária brasileira é muito menos densa."
+    }
   },
   {
     "id": 10,
@@ -233,6 +284,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Sendo a modalidade de transporte de cargas de menor custo, o transporte marítimo foi profundamente\r\n otimizado com o uso de contêineres (resistentes e de fácil manuseio), os quais possibilitaram\r\n organizar a logística de armazenamento das mercadorias de modo padronizado, agilizando o trabalho\r\n nos portos e reduzindo custos. Já a fibra ótica potencializou o sistema de redes tecnológicas, uma\r\n vez que a velocidade de transmissão de dados, por meio desse tipo de conexão, acelerou-se\r\n exponencialmente em relação à tecnologia anterior.</p>",
-    "ajuda": "Observe as duas imagens apresentadas. Pense em quais elementos revolucionaram a globalização: o contêiner (padronizou e agilizou o transporte marítimo) e a fibra ótica (acelerou a transmissão de dados). Qual alternativa descreve corretamente o papel dessas tecnologias na integração econômica global?"
+    "ajuda": "Observe as duas imagens apresentadas. Pense em quais elementos revolucionaram a globalização: o contêiner (padronizou e agilizou o transporte marítimo) e a fibra ótica (acelerou a transmissão de dados). Qual alternativa descreve corretamente o papel dessas tecnologias na integração econômica global?",
+    "feedbacks": {
+      "0": "Esta alternativa descreve produtos de consumo final massivo, o que não caracteriza as inovações tecnológicas que transformaram os transportes. A questão aborda inovações que viabilizam e aceleram processos, e não bens de consumo final.",
+      "1": "Esta alternativa descreve tecnologias em desuso, o oposto do que a questão pergunta. As inovações que viabilizaram a modernização dos transportes e da logística são tecnologias que ampliaram capacidades e reduziram custos.",
+      "2": "Esta alternativa descreve projetos antigos e superados, contrariando a natureza das inovações que revolucionaram os transportes. As mudanças tecnológicas descritas trouxeram avanços concretos, e não obsolescência.",
+      "4": "Esta alternativa descreve a importância dos recursos naturais primários no comércio internacional, temática distinta das inovações tecnológicas que transformaram a logística. A questão aborda o papel das inovações como elemento transformador dos sistemas de transporte."
+    }
   }
 ]

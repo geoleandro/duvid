@@ -378,6 +378,22 @@
         </div>
 
 
+        <!-- BLOCO 13.5: Exodo urbano -->
+        <div class="topico">
+
+            <h2>Êxodo urbano: um fenômeno seletivo</h2>
+
+            <p>Nos últimos anos, ganhou destaque na mídia a expressão <span class="termo" data-palavra="Êxodo Urbano" data-definicao="Termo usado, muitas vezes de forma imprecisa, para descrever o deslocamento de moradores das grandes metropoles para cidades menores ou areas rurais. Diferente do exodo rural classico, que envolveu dezenas de milhoes de pessoas pobres expulsas do campo, o chamado exodo urbano contemporaneo e um fenomeno de escala reduzida e seletivo, restrito a uma fracao da populacao com renda e estabilidade suficientes para escolher onde morar.">êxodo urbano</span>, o suposto movimento inverso ao êxodo rural: pessoas deixando as grandes cidades em direção a municípios menores ou áreas rurais.</p>
+
+            <p>Geógrafos apontam, porem, que esse fenômeno costuma ser exagerado pela mídia. Em muitos casos, o que se chama de êxodo urbano e, na verdade, a aquisição de uma segunda residência por uma pequena fração da elite econômica, ou a mudança de trabalhadores com renda elevada e estabilidade no emprego, muitas vezes em regime de trabalho remoto, para cidades do interior, onde reproduzem, em condomínios fechados e bairros planejados, o mesmo padrão de vida das metrópoles.</p>
+
+            <p>Essa dinâmica e bem diferente do êxodo rural do século XX, que foi um movimento de massa envolvendo milhões de trabalhadores pobres expulsos do campo pela seca, pela concentração fundiária e pela mecanização agrícola. O êxodo urbano contemporâneo, ao contrário, e um deslocamento seletivo e voluntário, possibilitado por privilégios econômicos: só migra quem tem renda suficiente para sustentar essa escolha, o que o torna um fenômeno de escala muito menor do que a expressão sugere.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 14: Transicao final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>

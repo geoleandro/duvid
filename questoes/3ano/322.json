@@ -20,7 +20,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A sequência correta é I, II e IV. A América Central Continental forma o istmo; as Antilhas se dividem em Bahamas, Grandes Antilhas e Pequenas Antilhas; Cuba, Hispaniola e Jamaica pertencem às Grandes Antilhas (não às Pequenas); e a fragmentação política é herança do colonialismo europeu diversificado.</p>",
-    "ajuda": "A América Central Continental inclui países do istmo (Guatemala, Belize, Honduras, El Salvador, Nicarágua, Costa Rica, Panamá), enquanto a América Central Insular engloba as ilhas do Caribe. Avalie quais afirmativas descrevem corretamente essa sub-região."
+    "ajuda": "A América Central Continental inclui países do istmo (Guatemala, Belize, Honduras, El Salvador, Nicarágua, Costa Rica, Panamá), enquanto a América Central Insular engloba as ilhas do Caribe. Avalie quais afirmativas descrevem corretamente essa sub-região.",
+    "feedbacks": {
+      "0": "A sequencia I e III exclui a proposicao II, que e verdadeira, e inclui a III, que e falsa. A proposicao III contem informacao incorreta sobre a America Central que impede sua inclusao entre as afirmativas corretas.",
+      "1": "A sequencia II e III inclui a proposicao III, que e falsa, e exclui a proposicao I, que e verdadeira. A identificacao correta das afirmativas verdadeiras sobre a America Central requer excluir aquela que contem informacao incorreta.",
+      "2": "Incluir todas as proposicoes e incorreto porque a proposicao III contem uma afirmacao falsa sobre a America Central. Nem toda afirmativa sobre a America Central e automaticamente verdadeira; e necessario verificar cada uma criticamente.",
+      "4": "Nenhuma das proposicoes e verdadeira e uma afirmacao exagerada que nega a veracidade de proposicoes I, II e IV, que descrevem corretamente caracteristicas da America Central. Apenas a proposicao III e falsa e deve ser excluida."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Todas as afirmativas sobre os Países Andinos estão corretas: os Andes são formação geológica jovem, sujeita a vulcanismo; as populações se concentram nos planaltos por herança indígena inca; e a instabilidade política resulta de economias dependentes de commodities e desigualdades históricas.</p>",
-    "ajuda": "Os Países Andinos (Colômbia, Equador, Peru, Bolívia, Chile) têm como elemento geográfico central a Cordilheira dos Andes. Avalie quais afirmativas descrevem corretamente as características físicas e humanas desses países."
+    "ajuda": "Os Países Andinos (Colômbia, Equador, Peru, Bolívia, Chile) têm como elemento geográfico central a Cordilheira dos Andes. Avalie quais afirmativas descrevem corretamente as características físicas e humanas desses países.",
+    "feedbacks": {
+      "1": "Selecionar apenas a proposicao I exclui as proposicoes II e III, que tambem sao corretas. As tres afirmativas descrevem aspectos verdadeiros dos Paises Andinos e precisam ser incluidas para que a resposta seja completa.",
+      "2": "Selecionar apenas a proposicao II exclui as proposicoes I e III, que tambem sao corretas. Restringir a resposta a uma unica afirmativa verdadeira deixa de fora outros aspectos igualmente corretos sobre os Paises Andinos.",
+      "3": "Afirmar que nenhuma proposicao e correta contradiz o que se sabe sobre os Paises Andinos. As tres afirmativas descrevem aspectos geograficos, economicos e demograficos que correspondem a realidade dos paises com eixo na Cordilheira dos Andes.",
+      "4": "A proposicao I tambem e correta e deve ser incluida. Selecionar apenas II e III exclui uma afirmativa verdadeira sobre os Paises Andinos, tornando a resposta incompleta."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa incorreta sobre a América Central é a D: a Costa Rica não proporciona acesso terrestre entre a América Central e a América do Sul. Quem faz essa conexão é o Panamá, que une o istmo centro-americano ao continente sul-americano e é o local do famoso Canal do Panamá.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre os aspectos físicos da América Central. Lembre-se de que a região tem relevo montanhoso com vulcões ativos, clima tropical e está localizada ao norte da linha do Equador. Identifique qual informação está errada."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre os aspectos físicos da América Central. Lembre-se de que a região tem relevo montanhoso com vulcões ativos, clima tropical e está localizada ao norte da linha do Equador. Identifique qual informação está errada.",
+    "feedbacks": {
+      "0": "A America Central Continental e de fato o istmo que liga a America do Norte a America do Sul, formando a ponte terrestre entre os dois subcontinentes. Essa afirmacao esta correta como descricao da posicao geografica da America Central Continental.",
+      "1": "A America Central apresenta relevo marcadamente montanhoso, com vulcoes ativos na chamada Cordilheira Centro-Americana, e esta sujeita a frequentes terremotos por estar em zona de subducao de placas tectonicas. Essa afirmacao esta correta.",
+      "2": "O clima predominante na America Central e de fato o tropical umido, favorecido pela latitude equatorial, pela presenca de mares quentes e pela posicao entre os oceanos Atlantico e Pacifico. Essa afirmacao esta correta.",
+      "4": "A America Central esta localizada ao norte da linha do Equador, portanto pertence ao Hemisferio Setentrional (norte). Essa afirmacao esta correta como descricao da posicao astronomica da sub-regiao."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Mercosul (Mercado Comum do Sul) foi criado em 1991 pelo Tratado de Assunção entre Brasil, Argentina, Uruguai e Paraguai. É o principal bloco econômico da América do Sul, responsável por reduzir tarifas alfandegárias entre os membros e criar um espaço econômico integrado no Cone Sul.</p>",
-    "ajuda": "Os blocos econômicos da América Latina têm objetivos de integração comercial regional. O Mercosul inclui países do Cone Sul; a CAN une países andinos; o CARICOM une países do Caribe. Pense em qual bloco corresponde à descrição dada."
+    "ajuda": "Os blocos econômicos da América Latina têm objetivos de integração comercial regional. O Mercosul inclui países do Cone Sul; a CAN une países andinos; o CARICOM une países do Caribe. Pense em qual bloco corresponde à descrição dada.",
+    "feedbacks": {
+      "0": "A APEC e a Cooperacao Economica da Asia e do Pacifico, que inclui paises das Americas com litoral pacifico, mas seu eixo e asiatico. O bloco descrito na questao e sul-americano, formado pelos paises do Cone Sul mais associados, o que nao corresponde ao escopo da APEC.",
+      "1": "A CAN (Comunidade Andina) e formada por Colombia, Equador, Peru e Bolivia, paises da cordilheira andina. O bloco destacado na questao e diferente, formado pelo Cone Sul da America do Sul, o que nao corresponde a composicao andina.",
+      "3": "O NAFTA (hoje USMCA) e o acordo de livre comercio da America do Norte, envolvendo EUA, Canada e Mexico. Esse bloco nao inclui os paises do Cone Sul da America do Sul que formam o bloco descrito na questao.",
+      "4": "O CARICOM e o Mercado Comum do Caribe, formado pelas ilhas e paises caribenhos de heranca britanica. Ele nao inclui os grandes paises sul-americanos do Cone Sul que compõem o bloco descrito na questao."
+    }
   },
   {
     "id": 5,
@@ -115,7 +139,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa incorreta sobre a América do Sul afirma que há poucas florestas tropicais no continente e população majoritariamente rural. Na realidade, a Amazônia é a maior floresta tropical do mundo, e a maioria da população sul-americana é hoje majoritariamente urbana — com taxas acima de 80% no Brasil.</p>",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a América do Sul. Lembre-se das características gerais: clima predominantemente tropical, economia baseada em commodities, diversidade de biomas e população concentrada no litoral. Identifique qual afirmativa contradiz essas características."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a América do Sul. Lembre-se das características gerais: clima predominantemente tropical, economia baseada em commodities, diversidade de biomas e população concentrada no litoral. Identifique qual afirmativa contradiz essas características.",
+    "feedbacks": {
+      "0": "A America do Sul apresenta de fato grande variedade climatica: clima tropical chuvoso no interior, clima semiárido no Nordeste brasileiro, clima subtropical no sul e condicoes aridas ao longo da costa oeste andina. Essa afirmacao esta correta como descricao da diversidade climatica sul-americana.",
+      "1": "Embora paises como Peru, Bolivia e Paraguay dependam fortemente de atividades primarias, Brasil, Argentina e Venezuela desenvolveram setores industriais significativos. Essa afirmacao esta correta como descricao da heterogeneidade economica do continente.",
+      "2": "A America do Sul e um importante exportador global de alimentos como soja, carne, cafe, frutas tropicais e graos. Essa afirmacao esta correta como descricao do papel do continente no comercio agricola mundial.",
+      "4": "A populacao sul-americana e distribuida de forma muito desigual, com alta densidade nas costas atlantica e pacifica e em cidades, e vasto interior pouco habitado como a Amazonia. Essa afirmacao esta correta como descricao do padrao demografico do continente."
+    }
   },
   {
     "id": 6,
@@ -139,7 +169,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O Haiti está localizado na ilha Hispaniola, no Caribe, parte da América Central Insular. Compartilha a ilha com a República Dominicana. É o país mais pobre da América e o único de língua oficial francesa nas Américas — herança de sua colonização francesa e da única revolução escrava bem-sucedida da história (1804).</p>",
-    "ajuda": "O Haiti está localizado na ilha Hispaniola, no Caribe, e faz parte da América Central Insular. É um país francófono com maioria de descendentes africanos. Pense em qual subdivisão da América o Haiti pertence."
+    "ajuda": "O Haiti está localizado na ilha Hispaniola, no Caribe, e faz parte da América Central Insular. É um país francófono com maioria de descendentes africanos. Pense em qual subdivisão da América o Haiti pertence.",
+    "feedbacks": {
+      "0": "O Haiti e uma ilha caribenha, nao parte do continente da America do Norte. A America do Norte no sentido geografico inclui EUA, Canada e Mexico; o Haiti faz parte da America Central insular (Caribe).",
+      "2": "O Haiti e uma nacao caribenha que integra a ilha de Hispaniola, situada no Mar do Caribe, totalmente separada do continente asiatico. Tratar o Haiti como parte da Asia e um erro geografico sem qualquer base.",
+      "3": "O Haiti esta localizado no Mar do Caribe, na parte norte da ilha de Hispaniola; nao faz parte do continente sul-americano. A America do Sul se inicia com a Colombia e a Venezuela; o Caribe e uma sub-regiao da America Central, distante da America do Sul.",
+      "4": "O Haiti nao e um pais africano; e uma nacao caribenha localizada na ilha de Hispaniola, no Mar do Caribe. A populacao haitiana e de descendencia africana, mas o Haiti e um pais americano, e nao africano."
+    }
   },
   {
     "id": 7,
@@ -165,7 +201,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Cuba enfrentou uma crise estrutural nos anos 1990 ('Período Especial') após o colapso soviético, mas manteve indicadores sociais superiores à maioria dos países latino-americanos: mortalidade infantil de 4 por mil (igual ao Canadá) e expectativa de vida de 78 anos. O embargo americano e as deficiências do modelo socialista limitam seu crescimento econômico.</p>",
-    "ajuda": "Cuba é um país socialista que enfrentou décadas de embargo econômico americano. Apesar disso, possui indicadores sociais (saúde, educação) melhores que muitos países da região. Avalie qual afirmativa reflete corretamente as características e desafios de Cuba."
+    "ajuda": "Cuba é um país socialista que enfrentou décadas de embargo econômico americano. Apesar disso, possui indicadores sociais (saúde, educação) melhores que muitos países da região. Avalie qual afirmativa reflete corretamente as características e desafios de Cuba.",
+    "feedbacks": {
+      "0": "Cuba nao estava em desenvolvimento economico acelerado antes de 2008; o pais ja enfrentava dificuldades estruturais crônicas relacionadas ao bloqueio americano e as fragilidades do modelo planificado. A crise global de 2008 nao interrompeu um boom que nao existia.",
+      "2": "O baixo crescimento do PIB cubano nao e adequadamente compensado pela distribuicao de renda a ponto de garantir bom padrao de vida; ha escassez real de alimentos, medicamentos e bens de consumo. A alternativa superestima a capacidade distributiva do modelo cubano de compensar a baixa producao.",
+      "3": "A participacao popular na elaboracao de politicas e uma caracteristica do sistema politico cubano, mas nao e o fator que explica o crescimento ou a falta de crescimento do PIB. O desempenho economico de Cuba e explicado pelo modelo planificado, pelo bloqueio externo e pela queda dos subsidios do petroleo venezuelano.",
+      "4": "Cuba tem taxas de natalidade baixas e crescimento demografico lento, ao contrario do que a alternativa sugere. O principal fator limitante do PIB cubano nao e o crescimento demografico, mas o bloqueio economico dos EUA e as ineficiencias do modelo planificado."
+    }
   },
   {
     "id": 8,
@@ -189,7 +231,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O mapa destaca a Venezuela — país andino e amazônico com as maiores reservas de petróleo do mundo. Apesar das riquezas naturais, vive profunda crise política e econômica desde 2013, com hiperinflação, desabastecimento e êxodo de mais de 7 milhões de pessoas — uma das maiores crises humanitárias do hemisfério ocidental.</p>",
-    "ajuda": "O texto descreve um país em crise política. Ao analisar as características geográficas — andino, platino, banhado por oceano — identifique qual alternativa descreve corretamente o perfil físico e econômico do país mencionado."
+    "ajuda": "O texto descreve um país em crise política. Ao analisar as características geográficas — andino, platino, banhado por oceano — identifique qual alternativa descreve corretamente o perfil físico e econômico do país mencionado.",
+    "feedbacks": {
+      "0": "A Venezuela nao e o maior exportador mundial de cafe; esse titulo historicamente pertence ao Brasil e, mais recentemente, ao Vietnam e a Colombia. Alem disso, embora exista narcotrafico na Venezuela, ele nao e o elemento definidor de sua geografia economica.",
+      "1": "A Venezuela nao tem populacao basicamente indigena; e um pais de populacao predominantemente mestica. A Venezuela e reconhecida pelas maiores reservas provadas de petroleo do mundo, e nao por exportacoes de banana ou grandes reservas de bauxita.",
+      "2": "Um pais platino, com reservas de cobre e pioneiro no neoliberalismo descreve o Chile, nao a Venezuela. A Venezuela e um pais andino e caribenho, com economia baseada no petroleo e com historico de governos de esquerda, o oposto do neoliberalismo pioneiro.",
+      "4": "As grandes reservas de estanho e gas natural descrevem melhor a Bolivia, que e um dos maiores produtores mundiais de estanho e tem importantes reservas de gas. A Venezuela se destaca pelas maiores reservas de petroleo do mundo, e nao pelo estanho."
+    }
   },
   {
     "id": 9,
@@ -213,7 +261,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O Chile se destaca pela extração de cobre — detém 28% das reservas mundiais — principalmente na região norte do deserto do Atacama. Grande parte dessa produção é controlada por multinacionais, o que reproduz o padrão da divisão internacional do trabalho denunciada por Eduardo Galeano: a América Latina especializada em exportar riqueza.</p>",
-    "ajuda": "A mineração na América Latina tem grande importância econômica, com destaque para Chile (cobre), Peru (ouro e prata), Brasil (minério de ferro) e México (prata). Identifique qual afirmativa descreve corretamente a especialização mineral de cada país."
+    "ajuda": "A mineração na América Latina tem grande importância econômica, com destaque para Chile (cobre), Peru (ouro e prata), Brasil (minério de ferro) e México (prata). Identifique qual afirmativa descreve corretamente a especialização mineral de cada país.",
+    "feedbacks": {
+      "0": "O Mexico nao e o maior produtor de carvao da America Latina; a Colombia e um dos maiores exportadores de carvao da regiao. Alem disso, o Mexico e mais conhecido pela producao de petroleo, prata e ouro do que pelo carvao.",
+      "1": "A Colombia nao e o maior produtor mundial de manganes; o Brasil e um dos lideres mundiais nessa mineracao. A Colombia e mais reconhecida pela producao de cafe, petroleo, esmeraldas e, mais recentemente, carvao e ouro.",
+      "3": "A Bolivia nao se destaca como um dos maiores produtores de ferro da America Latina; e mais conhecida pelo litio, estanho, prata e gas natural. O maior produtor de minerio de ferro da America Latina e o Brasil.",
+      "4": "O Uruguai nao e o principal produtor mundial de prata; esse posto pertence ao Mexico, que lidera a producao mundial desse metal. O Uruguai e um pais com economia baseada principalmente em agropecuaria e servicos, sem expressiva mineracao de prata."
+    }
   },
   {
     "id": 10,
@@ -238,6 +292,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Cuba é o arquipélago caribe descrito: apesar de 60 anos de embargo econômico americano, possui um sistema de saúde e educação considerado modelo para países em desenvolvimento. Exporta médicos e medicamentos para dezenas de países, e desde os anos 2000 busca diversificar a economia com turismo e biotecnologia.</p>",
-    "ajuda": "O texto descreve um país com embargo econômico mas com bons indicadores sociais em saúde e educação, com clima favorável e ilhas. Essas características correspondem claramente a Cuba, no arquipélago caribenho. Identifique qual opção descreve corretamente essa localização."
+    "ajuda": "O texto descreve um país com embargo econômico mas com bons indicadores sociais em saúde e educação, com clima favorável e ilhas. Essas características correspondem claramente a Cuba, no arquipélago caribenho. Identifique qual opção descreve corretamente essa localização.",
+    "feedbacks": {
+      "0": "Madagascar e um arquipelago africano situado no Oceano Indico, ao largo da costa leste do continente africano. Suas caracteristicas geograficas, politicas e economicas sao completamente distintas do pais descrito no texto, que tem historico de bloqueio economico e regimes politicos especificos do Caribe.",
+      "1": "Taiwan e uma ilha no Oceano Pacifico, na costa leste da Asia, e nao apresenta as caracteristicas geograficas e politicas do Caribe. O contexto de bloqueio economico, regime socialista e relacao com os EUA descrito no texto nao se aplica a Taiwan.",
+      "3": "A Coreia do Norte e um pais continental na Peninsula da Coreia, na Asia, e nao um arquipelago. Embora tenha semelhanças politicas com Cuba (regime fechado e tensao com os EUA), o texto refere-se a um arquipelago no Caribe, que e Cuba.",
+      "4": "Chipre e uma ilha no Mar Mediterraneo Oriental, com historia de divisao entre comunidades grega e turca. Nao apresenta as caracteristicas de bloqueio economico, regimes politicos caribenhos nem a relacao especifica com os EUA descritas no texto."
+    }
   }
 ]

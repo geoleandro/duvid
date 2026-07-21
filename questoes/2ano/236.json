@@ -20,7 +20,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O aumento da produção de cana-de-açúcar está ligado a fatores de demanda internacional e política energética. Pense no contexto global: a busca por fontes renováveis de energia e acordos internacionais como Kyoto influenciam esse mercado."
+    "ajuda": "O aumento da produção de cana-de-açúcar está ligado a fatores de demanda internacional e política energética. Pense no contexto global: a busca por fontes renováveis de energia e acordos internacionais como Kyoto influenciam esse mercado.",
+    "feedbacks": {
+      "0": "A flexibilização ambiental que reduziria áreas protegidas não é um fator de atração de investimentos internacionais para o etanol: ao contrário, o mercado global de biocombustíveis valoriza certificações ambientais. Além disso, reduzir áreas protegidas não é o que impulsiona a demanda externa por etanol.",
+      "1": "O PROÁLCOOL, principal programa de subsídios ao etanol no Brasil, passou por redução gradual a partir dos anos 1990, e não por acréscimo expressivo. Além disso, subsídios governamentais são fatores domésticos e não explicam o aumento do interesse internacional pelo produto.",
+      "2": "A produção de soja transgênica estava em expansão, e não em retração, durante o período de crescimento do setor sucroalcooleiro. As duas culturas competem por terra, mas a cana não surge como alternativa à soja por declínio desta; ambas expandiram em diferentes regiões.",
+      "3": "A desvalorização cambial favorece as exportações genericamente, mas não explica especificamente o aumento do interesse internacional pelo etanol. O fator determinante foi a busca global por fontes alternativas ao petróleo e às emissões de carbono, e não a variação cambial."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão pede para ordenar as regiões brasileiras segundo uma característica específica (provavelmente PIB, extensão ou população). Use seu conhecimento sobre as dimensões e características de cada região para ordenar corretamente."
+    "ajuda": "A questão pede para ordenar as regiões brasileiras segundo uma característica específica (provavelmente PIB, extensão ou população). Use seu conhecimento sobre as dimensões e características de cada região para ordenar corretamente.",
+    "feedbacks": {
+      "0": "A primeira descrição (região de contrastes, semiárido, miséria e migração) corresponde ao Nordeste (III), e não ao Norte (I). O Norte é marcado pela floresta amazônica, clima equatorial e baixa densidade, não pelo semiárido e pela desigualdade que caracterizam o Nordeste.",
+      "1": "A primeira descrição corresponde ao Nordeste (III), não ao Centro-Oeste (II). A terceira descrição (6,8% do território, segunda em importância econômica, clima subtropical) corresponde ao Sul (V), não ao Sudeste (IV), que é o maior em participação econômica.",
+      "2": "A primeira descrição corresponde ao Nordeste (III), não ao Sul (V). A última descrição (19% do território, desbravado por bandeirantes, atrai imigrantes desde 1960) corresponde ao Centro-Oeste (II), não ao Sudeste (IV).",
+      "4": "A primeira descrição (contrastes, semiárido, pobreza, migração) corresponde ao Nordeste (III), não ao Sudeste (IV). O Sudeste é a região mais rica e populosa, características opostas ao perfil descrito. A última descrição (bandeirantes, 19% do território, imigrantes desde 1960) é do Centro-Oeste (II), não do Sul (V)."
+    }
   },
   {
     "id": 3,
@@ -67,7 +79,13 @@
     ],
     "correta": 3,
     "comentario": "<p>É interessante observar o que o texto retrata sobre a charge. Embora outras alternativas possam\r\n estar corretas, a charge expressa uma preocupação social com os povos indígenas tradicionais.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A charge sobre Belo Monte aborda um conflito entre desenvolvimento econômico e direitos de comunidades tradicionais. Pense em qual dimensão (social, ambiental, política ou econômica) a charge enfatiza ao mostrar comunidades ribeirinhas afetadas."
+    "ajuda": "A charge sobre Belo Monte aborda um conflito entre desenvolvimento econômico e direitos de comunidades tradicionais. Pense em qual dimensão (social, ambiental, política ou econômica) a charge enfatiza ao mostrar comunidades ribeirinhas afetadas.",
+    "feedbacks": {
+      "0": "A charge critica os impactos negativos da construção de Belo Monte sobre as populações tradicionais, e não exalta qualidades de comunicação ou acolhimento. A dimensão política da questão seria sobre poder de decisão e não sobre qualidade da comunicação governamental.",
+      "1": "Os prejuízos na fauna e flora são impactos ambientais relevantes, mas a charge foca nos efeitos sobre as comunidades humanas cujos modos de vida e bases culturais foram comprometidos pela obra. O impacto social é o tema central.",
+      "2": "A perspectiva estratégica remete a planejamento militar ou geopolítico, o que não corresponde ao conteúdo da charge. A charge retrata o conflito entre a lógica do desenvolvimento energético e a sobrevivência de comunidades tradicionais.",
+      "4": "O impacto econômico que exige novos investimentos descreve os custos financeiros do empreendimento, que não é o foco da charge. O aspecto abordado é o comprometimento das bases culturais e dos meios de sobrevivência de comunidades tradicionais, que é um impacto social."
+    }
   },
   {
     "id": 4,
@@ -92,7 +110,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p> -->\n<!-- \r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Centro-Oeste brasileiro passou por uma transformação agrária recente. Pense no processo que converteu o cerrado em área de produção em larga escala, com soja, pecuária e agroindústria. Qual processo melhor descreve essa ocupação produtiva?"
+    "ajuda": "O Centro-Oeste brasileiro passou por uma transformação agrária recente. Pense no processo que converteu o cerrado em área de produção em larga escala, com soja, pecuária e agroindústria. Qual processo melhor descreve essa ocupação produtiva?",
+    "feedbacks": {
+      "0": "Sistemas extensivos são caracterizados por baixa produtividade e pouca tecnologia, o oposto do modelo agroindustrial do Centro-Oeste. A soja, o milho e a carne produzidos nessa região utilizam alta tecnologia, mecanização intensa e elevado aporte de capital.",
+      "1": "O cultivo itinerante (roça de corte e queima) é uma técnica agrícola tradicional de subsistência, incompatível com a escala e a capitalização do agronegócio do Centro-Oeste. Esse modelo foi justamente substituído pelo pacote tecnológico da Revolução Verde.",
+      "2": "O Centro-Oeste foi ocupado predominantemente pelo agronegócio convencional, com uso intensivo de agrotóxicos, fertilizantes sintéticos e sementes transgênicas. A introdução de práticas ecológicas é marginal nesse contexto e não caracteriza o processo de ocupação produtiva da região.",
+      "3": "O trabalho familiar é típico de pequenas propriedades e da agricultura camponesa. O Centro-Oeste é dominado por grandes propriedades do agronegócio com trabalho mecanizado e assalariado, e não pelo fortalecimento da agricultura familiar."
+    }
   },
   {
     "id": 5,
@@ -113,7 +137,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As afirmativas tratam das características das regiões brasileiras. Lembre-se que o Norte tem a maior extensão, o Sudeste tem o maior PIB, o Nordeste tem as maiores desigualdades e o Sul tem a melhor qualidade de vida em média."
+    "ajuda": "As afirmativas tratam das características das regiões brasileiras. Lembre-se que o Norte tem a maior extensão, o Sudeste tem o maior PIB, o Nordeste tem as maiores desigualdades e o Sul tem a melhor qualidade de vida em média.",
+    "feedbacks": {
+      "1": "O Sudeste é justamente o núcleo hegemônico do desenvolvimento econômico e tecnológico do Brasil. Afirmar que não há vetores de modernidade na região é absurdo: São Paulo, Rio de Janeiro e Belo Horizonte concentram as principais universidades, empresas e infraestruturas do país.",
+      "2": "O núcleo original da industrialização brasileira foi o Sudeste, especialmente São Paulo, a partir do final do século XIX com a indústria têxtil e a produção de café. O Sul, apesar de industrializado, não foi o berço da industrialização nacional.",
+      "3": "O Nordeste não cresce consistentemente a taxas superiores às do Sul e Sudeste. Algumas sub-regiões e setores nordestinos (como o agronegócio irrigado do São Francisco) têm crescido, mas a região ainda tem os menores índices de desenvolvimento humano e renda per capita do país."
+    }
   },
   {
     "id": 6,
@@ -136,7 +165,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O Agreste compreende a sub-região do Nordeste entre a Zona da Mata e o Sertão Nordestino. A economia\r\n é baseada em atividades ligadas à policultura alimentícia em pequenas propriedades comandadas por\r\n grupos familiares. Devido ao crescimento populacional da sub-região com o transbordo da economia\r\n litorânea, surgiram cidades médias com mercado consumidor ampliado e diversificado, como por\r\n exemplo, Campina Grande (PB).</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Agreste nordestino é uma zona de transição entre a Zona da Mata úmida e o Sertão semiárido. Sua economia se baseia na policultura de subsistência e venda de excedentes em feiras livres, como a famosa feira de Caruaru."
+    "ajuda": "O Agreste nordestino é uma zona de transição entre a Zona da Mata úmida e o Sertão semiárido. Sua economia se baseia na policultura de subsistência e venda de excedentes em feiras livres, como a famosa feira de Caruaru.",
+    "feedbacks": {
+      "0": "O polo tecnológico de Recife (Porto Digital) está localizado na Região Metropolitana do Recife, pertencente à Zona da Mata litorânea, e não ao Agreste. Além disso, desenvolvimento de softwares é uma atividade terciária urbana, não uma característica econômica da sub-região do Agreste.",
+      "2": "Portos são estruturas costeiras inexistentes no Agreste, que é uma faixa do interior nordestino sem acesso marítimo. As vias de escoamento produtivo do Agreste são rodoviárias, e não portuárias.",
+      "3": "A monocultura de arroz em vales fluviais é característica de outras regiões do Brasil, como o Rio Grande do Sul e parte do Maranhão. O Agreste é conhecido pela policultura diversificada em pequenas e médias propriedades, e não por monoculturas.",
+      "4": "O investimento em centros históricos turísticos é uma atividade pontual em algumas cidades nordestinas, mas não define o perfil econômico do Agreste como sub-região. A característica econômica distintiva do Agreste é a policultura e o comércio em feiras livres."
+    }
   },
   {
     "id": 7,
@@ -160,7 +195,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Brasil é descrito como 'terra de contrastes' por combinar modernidade e subdesenvolvimento. Pense nas contradições: alto PIB mas grande desigualdade, tecnologia de ponta no agronegócio mas pobreza extrema em favelas."
+    "ajuda": "O Brasil é descrito como 'terra de contrastes' por combinar modernidade e subdesenvolvimento. Pense nas contradições: alto PIB mas grande desigualdade, tecnologia de ponta no agronegócio mas pobreza extrema em favelas.",
+    "feedbacks": {
+      "0": "O crescimento urbano do Brasil foi muito mais acelerado e desordenado do que o dos países temperados desenvolvidos, que urbanizaram-se ao longo de séculos com maior planejamento. Comparar o ritmo da urbanização tropical brasileira com o dos países temperados ignora essa diferença histórica.",
+      "1": "O rápido crescimento urbano brasileiro não se explica apenas pela grande extensão territorial, mas principalmente pelas transformações agrícolas, pela industrialização concentrada e pela desigualdade social. Países com grande extensão territorial, como o Canadá, tiveram urbanizações mais lentas e ordenadas.",
+      "3": "O Brasil possui recursos econômicos e tecnológicos expressivos: é uma das maiores economias do mundo, com setor industrial, tecnológico e agrícola de destaque. Afirmar que não tem esses recursos ignora sua posição entre as principais economias globais.",
+      "4": "A pobreza no Brasil não é causada pela extensão territorial nem pela predominância tropical: é resultado de estruturas históricas de desigualdade social, concentração de renda e acesso desigual a direitos. Países tropicais com boa distribuição de renda, como Costa Rica, têm baixos índices de pobreza."
+    }
   },
   {
     "id": 8,
@@ -184,7 +225,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O professor Milton Santos definiu uma regionalização do território brasileiro a partir das\r\n características do meio técnico-cientifico-informacional. Assim, dividiu o Brasil em Amazônia,\r\n Nordeste, Centro-Oeste e Concentrada. Esta última região é definida por Milton Santos como sendo\r\n aquela que apresenta a irradiação técnico-cientifico-informacional e envolve os estados do Sul e do\r\n Sudeste do País. Já outras regiões brasileiras apresentam alguns casos pontuais ligados a essas\r\n características da Terceira Revolução Industrial.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão trata da difusão de modernizações pelo território brasileiro. Lembre-se que esse processo foi desigual: o Sudeste e Sul receberam investimentos contínuos, enquanto outras regiões tiveram modernização pontual, gerando 'arquipélagos' de prosperidade."
+    "ajuda": "A questão trata da difusão de modernizações pelo território brasileiro. Lembre-se que esse processo foi desigual: o Sudeste e Sul receberam investimentos contínuos, enquanto outras regiões tiveram modernização pontual, gerando 'arquipélagos' de prosperidade.",
+    "feedbacks": {
+      "0": "A modernização econômica não se restringiu às capitais estaduais: ela avançou por eixos rodoviários, corredores agrícolas e polos industriais em municípios não-capitais. Limitar a irradiação às sedes estaduais ignora a diversidade geográfica da modernização brasileira.",
+      "1": "A expressão 'arquipélagos de modernidade' é válida para caracterizar pontos isolados de desenvolvimento em meio a extensas áreas menos desenvolvidas. Porém, afirmar que esses arquipélagos são 'alheios às heranças socioeconômicas regionais' é incorreto: a modernização no Brasil foi condicionada pelas estruturas históricas regionais.",
+      "2": "A modernização no Brasil foi profundamente heterogênea: concentrou-se no eixo Sudeste-Sul e avançou de forma pontual nas demais regiões. Afirmar que ocorreu de modo homogêneo contradiz as desigualdades regionais que o próprio tema aborda.",
+      "3": "A irradiação da modernidade no Brasil foi movida por interesses econômicos internos e pela dinâmica do capitalismo nacional, e não pelo desejo de cooperação internacional para reduzir fragilidades sociais. Essa motivação altruísta não corresponde à lógica do desenvolvimento territorial brasileiro."
+    }
   },
   {
     "id": 9,
@@ -206,7 +253,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão pede a alternativa com o perfil natural e socioeconômico correto de uma região brasileira. Analise cada descrição: o Sul tem clima subtropical com araucárias, o Norte tem clima equatorial e floresta densa, o Nordeste tem caatinga no sertão."
+    "ajuda": "A questão pede a alternativa com o perfil natural e socioeconômico correto de uma região brasileira. Analise cada descrição: o Sul tem clima subtropical com araucárias, o Norte tem clima equatorial e floresta densa, o Nordeste tem caatinga no sertão.",
+    "feedbacks": {
+      "0": "O Norte do Brasil é caracterizado pelo clima equatorial quente e úmido, pela Floresta Amazônica densa e por solos geralmente pobres (latossolos), e não por manguezais como vegetação principal nem por clima tropical de altitude. Os manguezais existem no litoral, mas não definem o perfil natural da região Norte.",
+      "1": "Mares de morros são formas de relevo características do Sudeste brasileiro, especialmente nas áreas de Mata Atlântica de São Paulo, Rio de Janeiro e Minas Gerais. O Nordeste tem relevo predominante de tabuleiros, sertões e chapadas, e não de mares de morros.",
+      "2": "O clima subtropical, com estações bem definidas e ocorrência de geadas, é característico da Região Sul do Brasil, e não do Centro-Oeste. O Centro-Oeste tem clima tropical savânico, com estação seca e chuvosa bem marcadas, mas sem as características subtropicais do Sul.",
+      "3": "O Sudeste não tem vegetação homogênea: apresenta grande diversidade de biomas, incluindo Mata Atlântica, Cerrado, Campos e manguezais. O clima equatorial é próprio da Região Norte; o Sudeste tem climas tropical e subtropical, e não equatorial."
+    }
   },
   {
     "id": 10,
@@ -229,6 +282,11 @@
     ],
     "correta": 0,
     "comentario": "<p>O item II está incorreto, a região Norte é a maior em extensão territorial. O Centro-Oeste é a\r\n região menos populosa e integrada pelos estados de Goiás, Mato Grosso, Mato Grosso do Sul, além do\r\n Distrito Federal.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As afirmativas tratam das características regionais brasileiras. Lembre-se que o Brasil tem grande diversidade física e socioeconômica. Analise cada proposição verificando se as informações sobre clima, vegetação e economia são precisas."
+    "ajuda": "As afirmativas tratam das características regionais brasileiras. Lembre-se que o Brasil tem grande diversidade física e socioeconômica. Analise cada proposição verificando se as informações sobre clima, vegetação e economia são precisas.",
+    "feedbacks": {
+      "1": "A afirmativa III também está correta: o Sudeste concentra aproximadamente 40-43% da população brasileira, sendo a região mais populosa e densamente povoada do país. Indicar apenas I como correta é insuficiente.",
+      "2": "A afirmativa II é falsa: a maior região do Brasil é o Norte, com aproximadamente 45% do território nacional, e não o Centro-Oeste, que ocupa cerca de 18-19%. A afirmativa III é verdadeira, mas está combinada com uma afirmativa incorreta.",
+      "3": "A afirmativa II é falsa: o Centro-Oeste não é a maior região do Brasil. O Norte é a maior região, ocupando cerca de 45% do território. Indicar apenas II como correta é duplamente incorreto."
+    }
   }
 ]

@@ -218,13 +218,35 @@
         <p>A vegetação é composta por uma mistura de gramíneas, arbustos e árvores esparsas adaptadas ao clima
             sazonalmente seco.</p>
 
+        <p><strong>Veredas:</strong> Uma formação típica e importante do Cerrado são as veredas, ambientes úmidos que
+            se formam ao longo de cursos d'água e nascentes, onde a palmeira buriti se destaca em meio a um campo
+            alagado. As veredas funcionam como verdadeiros oásis dentro do bioma, concentrando grande parte da
+            biodiversidade aquática e servindo como corredores ecológicos entre diferentes áreas de vegetação mais
+            seca.</p>
+
         <p><strong>Interferência Humana e Impactos:</strong></p>
         <p><strong>Agronegócio:</strong> A expansão da agricultura e pecuária tem levado ao desmatamento extensivo do
             Cerrado.</p>
         <p><strong>Perda de Biodiversidade:</strong> A destruição do habitat natural ameaça inúmeras espécies endêmicas.
         </p>
+        <p><strong>Baixa Proteção Legal:</strong> Apesar de sua extensão e importância, o Cerrado é um dos biomas
+            brasileiros com menor percentual de área sob proteção integral, ficando muito atrás da Amazônia em termos
+            de unidades de conservação. Essa baixa cobertura de áreas protegidas facilita o avanço do desmatamento e
+            coloca em risco espécies endêmicas que dependem exclusivamente desse ecossistema, incluindo as próprias
+            veredas.</p>
         <p><strong>Iniciativas de Conservação:</strong> Programas de conservação e recuperação de áreas degradadas são
             essenciais para preservar este bioma único.</p>
+
+        <p><strong>Monitoramento por Sensoriamento Remoto:</strong> O fogo é, em certa medida, um elemento natural do
+            Cerrado, adaptado a queimadas periódicas de origem climática. O problema é a intensificação desse fogo
+            por ação humana, seja para abrir novas áreas de pastagem, seja por queimadas descontroladas. Para
+            enfrentar esse desafio, instituições públicas brasileiras de pesquisa vêm desenvolvendo tecnologias de
+            monitoramento: o INPE (Instituto Nacional de Pesquisas Espaciais) produz diariamente dados de satélite
+            sobre focos de calor em todo o território nacional, enquanto centros de pesquisa como o da UFMG
+            desenvolvem modelos computacionais que cruzam relevo, ventos, umidade e biomassa seca para prever a
+            direção e a intensidade de propagação do fogo no Cerrado. Esse tipo de solução tecnológica, produzida por
+            universidades e institutos públicos, mostra como a ciência nacional pode contribuir diretamente para a
+            proteção dos biomas brasileiros.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>

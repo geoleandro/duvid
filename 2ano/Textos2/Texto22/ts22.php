@@ -270,8 +270,28 @@
     
         <p><strong>Desafios atuais:</strong></p>
         <p><strong>Segurança energética:</strong> Garantir a oferta contínua de energia, especialmente em períodos de seca, quando a capacidade hidrelétrica pode ser reduzida.</p>
+
+        <p>Essa vulnerabilidade da matriz elétrica brasileira às secas está diretamente ligada ao desmatamento da
+            Floresta Amazônica. A floresta funciona como uma imensa bomba de umidade: a evapotranspiração de bilhões
+            de árvores libera vapor d'água na atmosfera, formando os chamados "rios voadores", que carregam chuva
+            para o Centro-Sul do país, região onde estão os principais reservatórios hidrelétricos. Quando a floresta
+            é derrubada, essa quantidade de vapor liberado diminui, o volume de chuvas cai e o nível dos reservatórios
+            baixa, reduzindo a geração de energia hidrelétrica. Foi o que ocorreu em agosto de 2021, quando a falta de
+            chuvas fez as fontes eólica, solar e térmica atingirem níveis recordes de geração para compensar a queda
+            da produção hidrelétrica, evidenciando como um problema de paisagem e cobertura vegetal pode se
+            transformar em um problema de abastecimento elétrico para todo o país.</p>
+
         <p><strong>Sustentabilidade:</strong> Equilibrar a necessidade de expansão da capacidade energética com a preservação ambiental e o desenvolvimento sustentável.</p>
         <p><strong>Diversificação da matriz:</strong> Investir em fontes de energia alternativas, como solar e eólica, para reduzir a dependência de hidrelétricas e termoelétricas.</p>
+
+        <p><strong>Energia geotérmica:</strong> Uma fonte ainda pouco explorada no Brasil é a energia geotérmica,
+            obtida a partir do calor armazenado no solo, nas rochas ou na água subterrânea. Diferente de países com
+            atividade vulcânica intensa, o Brasil não tem grande potencial para gerar eletricidade em larga escala a
+            partir dessa fonte, mas pesquisas recentes têm explorado seu uso para climatizar edifícios, aproveitando
+            a troca de calor entre as fundações das construções e o subsolo. Embora tenha impacto pequeno se comparado
+            às hidrelétricas, cada edifício que passa a se climatizar com energia geotérmica reduz sua demanda de
+            eletricidade da rede pública, contribuindo para diversificar o consumo e aliviar a pressão sobre o
+            sistema, especialmente durante períodos de estiagem prolongada.</p>
     
         <h2>Conclusão</h2>
     

@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Espaço geográfico, paisagem, território, lugar e região: os conceitos fundamentais da Geografia">
+    <meta property="og:title" content="Texto 01 - O Espaço Geográfico e os conceitos da Geografia">
+    <meta property="og:description" content="Como os cinco conceitos-chave da Geografia explicam as desigualdades do mundo atual">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +46,7 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
-
+    <script src="/js/glossario.js" defer></script>
 
 
     <title></title>
@@ -88,6 +89,7 @@
 
 
 
+        <!-- BLOCO: Abertura -->
         <div class="topico">
 
 
@@ -140,14 +142,14 @@
 
 
 
+        <!-- BLOCO: Problematizacao -->
         <div class="topico">
 
             <h2> Introdução </h2>
 
 
 
-            <p> <span class="primeiraLetra">O</span>estudo da Geografia pode ser representado de acordo
-                com o movimento da imagem acima: no início uma superfície terrestre sem modificações pelo homem.
+            <p> <span class="primeiraLetra">O</span>estudo da Geografia pode ser representado com o movimento de transformação. No início uma superfície terrestre sem modificações pelo homem.
                 Com o passar do tempo, a capacidade de modificar a natureza se intensifica através do acréscimo de
                 objetos
                 fabricados pelos homens, como estradas, energia elétrica e indústrias. </p>
@@ -166,9 +168,12 @@
 
 
             <p>Nesta aula, veremos como a Geografia dispõe de verdadeiras ferramentas para explicar a
-                dinâmica social repleta de desigualdades através do <span
-                    onclick="Aparecer('imagem1','citacao1')"><mark>espaço
-                        geográfico.</mark></span> </p>
+                dinâmica social repleta de desigualdades através do <span class="termo"
+                    data-palavra="Espaço Geográfico"
+                    data-definicao="Conceito central da Geografia: conjunto indissociável de sistemas de objetos (naturais e fabricados pelo homem) e sistemas de ações humanas. É o palco onde a vida social acontece e se transforma."
+                    onclick="Aparecer('imagem1','citacao1')">espaço geográfico</span>. </p>
+
+            <p><strong>A pergunta que esta aula vai responder não é apenas "o que é Geografia", mas como um pequeno conjunto de conceitos consegue explicar por que o mundo é organizado de forma tão desigual</strong>. Por que umas ruas têm asfalto e saneamento e outras não, por que alguns países controlam territórios de outros, por que o lugar onde você nasce pesa tanto no tipo de vida que você vai ter.</p>
 
             <img id="imagem1" src="tp1F01.png" alt="Salvador, Bahia" class="w3-mobile" style=display:none>
 
@@ -199,6 +204,7 @@
 
 
 
+        <!-- BLOCO: Pratica Social Inicial -->
         <div class="topico">
 
             <p class="caixa"> Agora é com você!</p>
@@ -220,6 +226,7 @@
                     significado neste
                     momento) sobre o que acha que é Geografia.
                 </p>
+                <p class="w3-pale-green">Guarde essa lista: vamos retomá-la lá no final da aula, para ver o quanto sua ideia de Geografia mudou.</p>
             </div>
 
 
@@ -269,7 +276,7 @@
             <p id="resp1" class="w3-center w3-padding w3-large"></p>
 
             <div class="area w3-center">
-                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80"
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80"
                     alt="Globinho de Feedback">
             </div>
         </div>
@@ -279,6 +286,7 @@
 
 
 
+        <!-- BLOCO: Instrumentalizacao (conceitos) -->
         <div class="topico">
 
 
@@ -296,8 +304,9 @@
                     Geografia
                     estuda
                     tudo isso, mas não de forma desorganizada! </p>
-                <p class="w3-pale-yellow">Ela utiliza ferramentas chamadas <span
-                        onclick="this.innerHTML='conceito (uma ideia sobre algo ou alguma coisa)'"><mark>conceitos</mark></span>.
+                <p class="w3-pale-yellow">Ela utiliza ferramentas chamadas <span class="termo"
+                        data-palavra="Conceito"
+                        data-definicao="Uma ideia organizadora que a ciência usa para nomear e explicar um recorte da realidade. Na Geografia, conceitos como espaço, lugar, paisagem, território e região funcionam como ferramentas para investigar o mundo.">conceitos</span>.
                     Esses conceitos estão destacados acima.</p>
                 <p class="w3-pale-yellow">Elabore em seu caderno uma pergunta para cada um deles. Por exemplo:</p>
                 <div>
@@ -376,10 +385,8 @@
 
             <div class="w3-panel w3-leftbar w3-border-blue w3-light-grey w3-padding-16">
                 <p>O motor dessa construção é a
-                    <span class="mark-glossario w3-pale-yellow"
-                        onclick="revelarParentese(this, 'meios ou instrumentos que alteram a natureza')">
-                        técnica
-                    </span>.
+                    <span class="termo" data-palavra="Técnica"
+                        data-definicao="Meios ou instrumentos que os homens usam para alterar a natureza e construir o espaço geográfico. Reflete o grau de desenvolvimento de cada sociedade em seu tempo histórico.">técnica</span>.
                     Ela reflete o grau de desenvolvimento de cada sociedade em seu tempo.
                 </p>
             </div>
@@ -430,8 +437,10 @@
                 Paisagem
             </h2>
 
-            A paisagem é tudo aquilo que vemos, o que a visão alcança em um lance de olhar. É formada de volume, mas
-            também de odores, sons, movimentos, ou seja, pelo o que os sentidos captam. </p>
+            <p>A <span class="termo" data-palavra="Paisagem"
+                    data-definicao="Tudo o que os sentidos captam em um lance de olhar: volumes, cores, odores, sons. Pode ser natural (montanhas, rios, vegetação) ou social/antrópica (prédios, casas). É o ponto de partida do estudo do espaço geográfico e o registro estático dos objetos que o compõem.">paisagem</span>
+                é tudo aquilo que vemos, o que a visão alcança em um lance de olhar. É formada de volume, mas
+                também de odores, sons, movimentos, ou seja, pelo o que os sentidos captam. </p>
 
             <p>Ela pode ser <strong>natural</strong> (com a presença de montanhas, rios ou vegetação) ou
                 <strong>social</strong> (repleta de prédios, casas ou hospitais).
@@ -459,8 +468,8 @@
             <p>Os elementos naturais também provocam alterações nas paisagens, mesmo que demorem milhares
                 de anos para ocorrer, como o desgaste do relevo de uma montanha pelo vento.</p>
 
-            <p>As paisagens humanizadas ou <span
-                    onclick="this.innerHTML='antrópicas (do grego Antropos - ser humano, relativo ao homem)'"><mark>antrópicas</mark></span>
+            <p>As paisagens humanizadas ou <span class="termo" data-palavra="Paisagem Antrópica"
+                    data-definicao="Paisagem humanizada, resultado direto do trabalho do homem sobre a superfície terrestre (do grego 'anthropos', ser humano). Contrasta com as paisagens naturais, ainda não transformadas por ação humana direta.">antrópicas</span>
                 são o resultado do trabalho humano na superfície terrestre.</p>
 
             <p>Esse trabalho resulta em várias formas ou objetos que persistem no tempo e que podemos
@@ -486,8 +495,8 @@
                 metros de
                 altitude, no vale do rio Urubamba, atual Peru.</p>
 
-            <p>A leitura dessa paisagem através da observação, <span
-                    onclick="this.innerHTML='análise (decompor um todo complexo em suas partes)'"><mark>análise</mark></span>
+            <p>A leitura dessa paisagem através da observação, <span class="termo" data-palavra="Análise"
+                    data-definicao="Ato de decompor um todo complexo em suas partes para compreendê-lo melhor. Na leitura de uma paisagem, é o que permite identificar cada elemento e como ele se relaciona com os demais.">análise</span>
                 e interpretação de seus elementos podem nos ajudar a entender como era a forma de organização
                 social,
                 cultural, territorial e política dessa cidade.</p>
@@ -583,7 +592,7 @@
             <p id="resp2" class="w3-center w3-padding w3-large"></p>
 
             <div class="area w3-center">
-                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80"
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80"
                     alt="Globinho de Feedback">
             </div>
         </div>
@@ -596,7 +605,9 @@
             </h2>
 
 
-            <p> Território está intimamente relacionado com o espaço e poder. É comumente entendido como uma área
+            <p> O <span class="termo" data-palavra="Território"
+                    data-definicao="Porção do espaço geográfico delimitada por fronteiras e relações de poder. Surge quando um grupo se apropria de um espaço e impõe regras sobre seu uso, gerando conflitos para controlar recursos naturais ou sociais.">território</span>
+                está intimamente relacionado com o espaço e poder. É comumente entendido como uma área
                 delimitada por <strong>fronteiras</strong>. </p>
 
             <p> A partir dessa configuração de poder são gerados conflitos para controlar um determinado
@@ -621,8 +632,9 @@
             <p>O território, portanto, não é somente uma área delimitada por uma espécie animal, mas
                 também adquiriu contornos políticos.</p>
 
-            <p>Quando um grupo de pessoas, instituições, empresas etc. <span
-                    onclick="this.innerHTML='apropriam-se (tomar como propriedade, apropriar)'"><mark>apropriam-se</mark></span>
+            <p>Quando um grupo de pessoas, instituições, empresas etc. <span class="termo"
+                    data-palavra="Apropriação do Espaço"
+                    data-definicao="Processo pelo qual um grupo, instituição ou empresa toma um espaço como seu, constrói regras para seu uso e delimita fronteiras que os demais devem seguir. É o mecanismo que transforma espaço em território.">apropriam-se</span>
                 de um espaço e constroem regras para seu uso, delimitam fronteiras, que devem ser seguidas por todos
                 aqueles
                 inseridos naquele espaço, elas definem um território.</p>
@@ -670,7 +682,9 @@
             <h2 style='font-family: "Roboto", sans-serif; font-weight: bold;'>
                 Lugar
             </h2>
-            <p>Lugar refere-se, no geral, a uma porção do espaço geográfico com a qual os sujeitos convivem diretamente
+            <p><span class="termo" data-palavra="Lugar"
+                    data-definicao="Porção do espaço geográfico com a qual o sujeito convive diretamente e tem uma ligação de pertencimento: a casa, o bairro, o trabalho, o lazer. É onde o global e o local se encontram no cotidiano.">Lugar</span>
+                refere-se, no geral, a uma porção do espaço geográfico com a qual os sujeitos convivem diretamente
                 e possuem uma ligação mais estreita, como o local de moradia, do trabalho, do lazer etc.</p>
 
             <p>O nosso quarto constitui um dos exemplos da porção do espaço geográfico em que temos
@@ -686,6 +700,13 @@
             <p>Um exemplo diz respeito à chegada de uma empresa transnacional, como uma grande firma do
                 setor automobilístico, em uma pequena cidade. </p>
 
+            <p>A alimentação é outro exemplo bastante concreto dessa relação entre o global e o lugar. Os hábitos
+                alimentares são construídos culturalmente, carregando tradições, crenças e significados próprios de
+                cada comunidade. Quando produtos alimentícios ultraprocessados, fabricados por grandes indústrias e
+                transportados por longas distâncias, substituem a comida ligada às tradições locais, o vínculo entre
+                a alimentação e o lugar de origem se enfraquece, e os hábitos alimentares tendem a se tornar cada vez
+                mais parecidos entre lugares muito distantes entre si, um processo de homogeneização que reduz o
+                acesso a alimentos in natura e à diversidade produtiva regional.</p>
 
             <p>O lugar participa dessa relação entre a escala global e a local, e revela as transformações
                 desses eventos na sua infraestrutura, circulação, comércio, serviços etc.</p>
@@ -712,7 +733,9 @@
                 Região
             </h2>
 
-            <p> No passado, a noção de região compreendia a união de elementos com características comuns, como clima,
+            <p> No passado, a noção de <span class="termo" data-palavra="Região"
+                    data-definicao="Porção do espaço definida por um critério específico (clima, vegetação, função econômica). Na globalização, é também o resultado da fragmentação do espaço em partes funcionais dentro da divisão do trabalho.">região</span>
+                compreendia a união de elementos com características comuns, como clima,
                 vegetação ou tipo de solo. De acordo com o interesse do pesquisador, escolhia-se um determinado critério
                 e dividia-se o espaço em regiões, tal como no mapa
                 abaixo
@@ -755,6 +778,7 @@
         </div>
 
 
+        <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
 
@@ -846,6 +870,39 @@
 
 
 
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Pegue o caderno e releia as 5 palavras que você escreveu lá no início, quando ainda não sabia exatamente o que a Geografia estuda. Compare com o que você aprendeu agora: a Geografia não estuda "um pouco de tudo" de forma solta, ela usa um conjunto de conceitos organizados (espaço geográfico, paisagem, território, lugar e região) para explicar por que o mundo é distribuído de forma tão desigual.</p>
+
+            <p>Cada conceito olha para o mesmo espaço geográfico de um ângulo diferente: a paisagem é o que os sentidos captam; o território é o espaço marcado por poder e fronteiras; o lugar é onde vivemos de forma mais próxima e afetiva; a região é o espaço recortado por um critério específico. Juntos, eles formam a caixa de ferramentas que você vai usar durante todo o ensino médio para entender desde o bairro onde mora até os conflitos internacionais que aparecem no noticiário.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> espaço geográfico (sistemas de objetos + sistemas de ações); paisagem (o que os sentidos captam, natural ou antrópica); território (espaço com fronteiras e relações de poder); lugar (espaço de vivência e pertencimento); região (espaço recortado por um critério); técnica (meios que alteram a natureza e constroem o espaço).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
         <div class="topico">
             <h3>Já podemos finalizar esta aula!</h3>
             <button class="btnShow" onclick="

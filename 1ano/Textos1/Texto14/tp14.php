@@ -268,7 +268,11 @@
         <p><strong>Depressões:</strong><br>
         São áreas rebaixadas em relação ao entorno, formadas principalmente por processos erosivos prolongados. Podem estar abaixo do nível do mar (depressão absoluta) ou em áreas mais baixas que as regiões vizinhas (depressão relativa).<br>
         <strong>Exemplos:</strong> o Mar Morto, com cerca de 430 metros abaixo do nível do mar, é uma das depressões absolutas mais conhecidas, e a depressão Sertaneja no nordeste brasileiro, uma depressão relativa que possui altitudes mais baixas em relação ao terreno ao seu redor.</p>
-    
+
+        <p><strong>Relevo Cárstico:</strong><br>
+        Forma-se em regiões com grande concentração de rochas calcárias no subsolo, por meio da ação do <strong>intemperismo químico</strong>: a água da chuva, levemente ácida, dissolve o calcário ao longo do tempo, criando cavernas, sumidouros e depressões circulares chamadas dolinas. Quando o teto dessas cavidades subterrâneas desaba, pode se formar uma cratera repentina na superfície, fenômeno comum em regiões como a Flórida (EUA), construída sobre extensas formações de calcário e argila.<br>
+        <strong>Exemplos:</strong> o Parque Nacional Cavernas do Peruaçu, em Minas Gerais, e a região cárstica de Bonito, no Mato Grosso do Sul, além das dolinas registradas com frequência no estado americano da Flórida.</p>
+
         <p>Essas formas de relevo, moldadas ao longo de milhões de anos, influenciam a ocupação humana, o desenvolvimento de ecossistemas e as atividades econômicas de cada região, oferecendo um panorama variado e dinâmico da superfície terrestre.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>

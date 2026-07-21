@@ -19,7 +19,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A sequência correta é: Mercado Comum (UE, Mercosul) = eliminação de barreiras, tarifas externas comuns e cooperação econômica; Área de Livre Comércio (NAFTA) = eliminação de barreiras internas sem maior cooperação; Agrupamentos Comerciais (OPEP) = associação por produto específico.</p>",
-    "ajuda": "Os blocos econômicos variam em grau de integração: zonas de livre comércio eliminam tarifas entre membros; uniões aduaneiras adotam tarifas externas comuns; mercados comuns permitem livre circulação de fatores; uniões econômicas harmonizam políticas. Identifique a sequência correta."
+    "ajuda": "Os blocos econômicos variam em grau de integração: zonas de livre comércio eliminam tarifas entre membros; uniões aduaneiras adotam tarifas externas comuns; mercados comuns permitem livre circulação de fatores; uniões econômicas harmonizam políticas. Identifique a sequência correta.",
+    "feedbacks": {
+      "0": "A sequencia 1-2-3 associa cada tipo de associacao comercial a uma caracterizacao que nao corresponde ao nivel de integracao correto. A correspondencia entre zona de livre comercio, uniao aduaneira e mercado comum segue uma hierarquia de aprofundamento da integracao que esta sequencia nao respeita.",
+      "1": "A sequencia 3-2-1 inverte a ordem das correspondencias, associando o nivel mais profundo de integracao ao tipo menos integrado. A identificacao correta exige distinguir os niveis crescentes de integracao: zona de livre comercio, uniao aduaneira e mercado comum.",
+      "3": "A sequencia 2-3-1 comete erros nas associacoes dos extremos, trocando as caracterizacoes do tipo mais basico e do mais avancado de integracao economica. A Tarifa Externa Comum, a livre circulacao de fatores de producao e a isencao tarifaria entre membros pertencem a niveis distintos de integracao."
+    }
   },
   {
     "id": 2,
@@ -42,7 +47,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O capital especulativo (dinheiro quente) busca lucro rápido com a compra e venda de moedas, ações e derivativos financeiros. Move-se em milissegundos entre países e pode desestabilizar economias inteiras — como ocorreu com os tigres asiáticos em 1997 e com a Rússia em 1998, quando investidores retiraram bilhões em dias.</p>",
-    "ajuda": "O capital especulativo (financeiro) difere do capital produtivo: ele busca lucro rápido por meio de aplicações financeiras, sem necessariamente criar bens ou empregos. Pense em qual característica define esse tipo de capital no mundo globalizado."
+    "ajuda": "O capital especulativo (financeiro) difere do capital produtivo: ele busca lucro rápido por meio de aplicações financeiras, sem necessariamente criar bens ou empregos. Pense em qual característica define esse tipo de capital no mundo globalizado.",
+    "feedbacks": {
+      "1": "A concessao de emprestimos para estabilidade do comercio descreve o capital produtivo ou o credito bancario convencional, e nao o capital especulativo. O especulativo nao busca estabilidade; busca ganho rapido com a volatilidade dos mercados financeiros.",
+      "2": "O investimento em unidades produtivas e na compra de equipamentos descreve o investimento direto estrangeiro (IDE), que e capital produtivo de longo prazo. O capital especulativo nao cria capacidade produtiva; opera em mercados financeiros buscando retorno de curto prazo.",
+      "3": "A adocao de tarifas alfandegarias e um instrumento de politica comercial protecionista dos governos, e nao uma caracteristica do capital especulativo. As tarifas sao decididas pelos Estados; o capital especulativo opera autonomamente nos mercados de cambio e derivativos.",
+      "4": "O poder aquisitivo calculado a longo prazo descreve uma estrategia de investimento conservador e nao o capital especulativo. O especulativo se caracteriza justamente pelo curto prazo, pela volatilidade e pelo risco elevado na busca de lucro com oscilacoes de mercado."
+    }
   },
   {
     "id": 3,
@@ -67,7 +78,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O e-commerce e as plataformas digitais revolucionaram o marketing ao criar perfis individualizados de consumidores. Algoritmos analisam o comportamento online e direcionam publicidade personalizada — uma forma de individualização das mensagens publicitárias impensável no mundo analógico.</p>",
-    "ajuda": "O comércio eletrônico e as plataformas digitais revolucionaram o marketing ao permitir personalização massiva das mensagens. Pense em qual característica específica do meio digital permite que cada usuário receba mensagens adaptadas ao seu perfil de consumo."
+    "ajuda": "O comércio eletrônico e as plataformas digitais revolucionaram o marketing ao permitir personalização massiva das mensagens. Pense em qual característica específica do meio digital permite que cada usuário receba mensagens adaptadas ao seu perfil de consumo.",
+    "feedbacks": {
+      "0": "A fiscalizacao da producao pelos consumidores e um aspecto etico e regulatorio do consumo consciente, e nao o aspecto comercial especifico do avanco tecnologico descrito no texto. O texto aponta para o uso da tecnologia no marketing e na comunicacao comercial personalizada.",
+      "1": "A exigencia de consumidores conscientes de seus direitos existia antes das novas tecnologias e nao e o fenomeno especifico que o avanço tecnologico trouxe ao comercio. O que a tecnologia tornou possivel foi a personalizacao das mensagens, e nao apenas a consciencia dos direitos.",
+      "2": "A relacao direta entre fabricantes e consumidores e uma possibilidade aberta pela tecnologia, mas nao captura com precisao o aspecto especificamente comercial descrito no texto. O texto enfatiza a individualizacao das mensagens publicitarias como consequencia do uso de dados pelos anunciantes.",
+      "4": "A manutencao das preferencias de consumo implicaria estabilidade, mas a tecnologia justamente permite adaptar e moldar as preferencias de forma dinamica e individualizada. O avanço tecnologico no comercio se caracteriza pela mudanca e pela personalizacao, e nao pela manutencao do que ja existia."
+    }
   },
   {
     "id": 4,
@@ -92,7 +109,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Blocos econômicos estratégicos combinam países com vantagens locacionais complementares: recursos naturais, mão de obra, mercado consumidor e tecnologia se somam para criar cadeias produtivas mais eficientes. Essa complementaridade explica a formação de alianças como o Mercosul e a ASEAN.</p>",
-    "ajuda": "Dentro das redes produtivas globais, os blocos econômicos estratégicos combinam países com características complementares. Pense em qual vantagem locacional — recursos naturais, mão de obra, mercado consumidor ou tecnologia — torna um bloco estratégico."
+    "ajuda": "Dentro das redes produtivas globais, os blocos econômicos estratégicos combinam países com características complementares. Pense em qual vantagem locacional — recursos naturais, mão de obra, mercado consumidor ou tecnologia — torna um bloco estratégico.",
+    "feedbacks": {
+      "0": "O elevado padrao social nao e uma caracteristica uniforme do bloco descrito, que inclui paises com grandes desigualdades sociais. Alem disso, o valor estrategico do grupo esta na complementaridade de recursos e localizacoes, e nao no padrao social semelhante.",
+      "1": "Os paises do bloco descrito nao possuem sistema monetario integrado nem moeda comum. A integracao monetaria e um estagio avancado de bloco economico que nao corresponde ao tipo de associacao estrategica mencionada na questao.",
+      "2": "O alto desenvolvimento tecnologico nao e uma caracteristica uniforme de todos os membros do bloco, que inclui economias emergentes com niveis tecnologicos variados. O que une esses paises e a complementaridade de vantagens locacionais, como recursos naturais, mao de obra e posicao geografica.",
+      "3": "Os membros do bloco descrito possuem identidades culturais bastante distintas entre si; a diversidade e uma de suas marcas. A composicao estrategica do bloco nao se baseia em semelhanca cultural, mas na complementaridade de fatores produtivos e localizacoes geograficas."
+    }
   },
   {
     "id": 5,
@@ -116,7 +139,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A eliminação das fronteiras físicas não é uma forma de organização de blocos econômicos — é um efeito lateral em casos avançados como o Espaço Schengen. Os blocos econômicos se organizam por meio de acordos tarifários, uniões aduaneiras, mercados comuns e uniões monetárias, não por supressão de fronteiras.</p>",
-    "ajuda": "Os blocos econômicos reduzem barreiras comerciais em diferentes graus. A fase mais avançada de integração inclui moeda única e política econômica comum. Identifique em qual estágio de integração se enquadra o que o texto descreve."
+    "ajuda": "Os blocos econômicos reduzem barreiras comerciais em diferentes graus. A fase mais avançada de integração inclui moeda única e política econômica comum. Identifique em qual estágio de integração se enquadra o que o texto descreve.",
+    "feedbacks": {
+      "0": "A uniao aduaneira e uma forma consolidada de organizacao de bloco economico, caracterizada pela adocao de uma Tarifa Externa Comum (TEC) e pela eliminacao de tarifas entre os membros. Ela representa um estagio de integracao superior ao da zona de livre comercio.",
+      "1": "A uniao economica e monetaria e uma das formas mais avancadas de integracao de blocos economicos, abrangendo politicas economicas comuns e moeda unica. A Uniao Europeia e o exemplo mais completo desse nivel de organizacao entre nacos.",
+      "2": "A zona de livre comercio e a forma mais basica de organizacao de bloco economico, eliminando tarifas e barreiras comerciais entre os membros sem padronizar as tarifas em relacao a terceiros. O Nafta e o Mercosul sao exemplos desse modelo.",
+      "4": "O mercado comum e uma forma de organizacao de bloco economico que inclui, alem da uniao aduaneira, a livre circulacao de fatores de producao como capital e trabalho. E um nivel mais avancado de integracao que a simples zona de livre comercio."
+    }
   },
   {
     "id": 6,
@@ -140,7 +169,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A dependência do comércio externo varia conforme o tamanho da economia: economias menores e mais abertas dependem mais de exportações e importações. O gráfico provavelmente mostra que países em desenvolvimento dependem mais do comércio exterior relativo ao PIB — especialmente os exportadores de commodities.</p>",
-    "ajuda": "O peso do comércio exterior (exportações + importações) em relação ao PIB varia entre países. Economias menores e mais abertas tendem a depender mais do comércio externo. Pense em qual fator explica a diferença observada no gráfico entre os países."
+    "ajuda": "O peso do comércio exterior (exportações + importações) em relação ao PIB varia entre países. Economias menores e mais abertas tendem a depender mais do comércio externo. Pense em qual fator explica a diferença observada no gráfico entre os países.",
+    "feedbacks": {
+      "1": "A qualidade tecnica do sistema viario pode influenciar a logistica, mas nao explica a diferenca estrutural na composicao das exportacoes entre paises ricos e pobres. Paises com infraestrutura viaria semelhante podem ter estruturas de exportacao muito distintas conforme seu nivel de renda.",
+      "2": "O padrao tecnologico da industria extrativa e um fator que impacta a produtividade do setor primario, mas nao explica a diferenca fundamental na estrutura exportadora entre paises ricos e pobres. A capacidade de agregar valor e de diversificar a producao depende principalmente do nivel de renda e de acesso a tecnologia avancada.",
+      "3": "O crescimento vegetativo da populacao nao explica a diferenca na estrutura das exportacoes entre paises ricos e pobres. Paises com alto crescimento demografico podem ter economias tanto primario-exportadoras quanto industrializadas, e o crescimento populacional nao determina diretamente a composicao da pauta exportadora."
+    }
   },
   {
     "id": 7,
@@ -165,7 +199,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A commoditização do território significa que regiões inteiras são organizadas para produzir um único produto para o mercado global (soja, petróleo, cobre). Isso reduz a autonomia dos produtores locais e aumenta a vulnerabilidade das regiões às oscilações de preços internacionais, sobre as quais não têm controle.</p>",
-    "ajuda": "'Commoditização do território' significa que territórios são valorizados pelo que produzem para o mercado global (commodities). Pense em qual consequência política e econômica essa lógica tem para os produtores locais e para a autonomia dos países."
+    "ajuda": "'Commoditização do território' significa que territórios são valorizados pelo que produzem para o mercado global (commodities). Pense em qual consequência política e econômica essa lógica tem para os produtores locais e para a autonomia dos países.",
+    "feedbacks": {
+      "1": "A commoditizacao do territorio produz justamente o efeito contrario: fragiliza os produtores locais ao torna-los dependentes de demandas e precos externos sobre os quais nao tem controle. Afirmar que ha fortalecimento dos produtores e menor vulnerabilidade inverte o impacto real do processo.",
+      "2": "A alternativa inverte a logica da commoditizacao: ao especializar o territorio em producao de commodities para exportacao, reduz-se a autonomia local e aumenta-se a dependencia externa. Nao ha fortalecimento regional; ha subordinacao as flutuacoes do mercado internacional.",
+      "3": "A instabilidade gerada pela commoditizacao nao decorre do atendimento prioritario das demandas LOCAIS, mas sim das demandas EXTERNAS do mercado internacional. A vulnerabilidade vem justamente de estar sujeito a oscilacoes de preco e demanda definidas fora do territorio.",
+      "4": "Os produtores de commodities sao tomadores de preco (price-takers) no mercado internacional; eles nao controlam os precos nem tem autonomia para defini-los. A logica da commoditizacao e precisamente a de subordinar o territorio a uma regulacao externa de preco e demanda."
+    }
   },
   {
     "id": 8,
@@ -189,7 +229,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A relação comercial Brasil-China revelou uma assimetria clássica da divisão internacional do trabalho: o Brasil exporta commodities (soja, minério de ferro, petróleo) e importa manufaturados chineses de alto valor agregado. Essa troca desfavorável reflete a inserção periférica do Brasil na economia global.</p>",
-    "ajuda": "O comércio Brasil-China revelou uma especialização: o Brasil exporta commodities (soja, minério) e importa manufaturados. Esse padrão de troca revela uma assimetria produtiva típica da divisão internacional do trabalho. Identifique qual alternativa descreve corretamente essa relação."
+    "ajuda": "O comércio Brasil-China revelou uma especialização: o Brasil exporta commodities (soja, minério) e importa manufaturados. Esse padrão de troca revela uma assimetria produtiva típica da divisão internacional do trabalho. Identifique qual alternativa descreve corretamente essa relação.",
+    "feedbacks": {
+      "1": "Ha clara complementaridade produtiva entre Brasil e China: o Brasil exporta materias-primas e commodities agricolas (soja, carne, minerio de ferro) que a China precisa para sua industria e alimentacao, enquanto importa manufaturados e produtos industriais chineses. A alternativa nega o que os graficos evidenciam.",
+      "2": "E o Brasil que tem vantagem competitiva na producao agricola exportada para a China, e nao o contrario. A China e a principal compradora de soja e carne brasileiras justamente porque o Brasil tem condicoes de produzir esses bens com maior eficiencia e escala.",
+      "3": "O comercio Brasil-China e marcado pela assimetria: o Brasil exporta bens de baixo valor agregado (commodities) e importa bens de medio e alto valor agregado (eletronicos, maquinas). Nao ha proporcionalidade entre os bens de alto valor agregado nas duas direcoes.",
+      "4": "A afirmacao de que ha restrita participacao de bens de alta tecnologia e parcialmente verdadeira para o lado brasileiro, mas nao e o que os graficos revelam como ponto central. O elemento mais evidente nos graficos e o perfil exportador brasileiro como fornecedor de commodities, e nao a composicao tecnologica do comercio."
+    }
   },
   {
     "id": 9,
@@ -211,28 +257,43 @@
     ],
     "correta": 1,
     "comentario": "<p>A afirmativa incorreta afirma que a globalização amplia a capacidade dos Estados de realizar investimentos públicos por meio do controle de capitais. Na realidade, a globalização financeira constrangeu a soberania fiscal dos Estados, pois a mobilidade do capital impede tributações mais elevadas sem gerar fuga de investimentos.</p>",
-    "ajuda": "A questão pede a afirmativa INCORRETA sobre a globalização. Lembre-se de que a globalização amplia interdependências, mas também pode aumentar vulnerabilidades das economias nacionais. Identifique qual afirmativa exagera ou inverte essa lógica."
+    "ajuda": "A questão pede a afirmativa INCORRETA sobre a globalização. Lembre-se de que a globalização amplia interdependências, mas também pode aumentar vulnerabilidades das economias nacionais. Identifique qual afirmativa exagera ou inverte essa lógica.",
+    "feedbacks": {
+      "0": "A crescente vulnerabilidade das economias de muitos paises diante de criterios de credibilidade dos mercados financeiros internacionais e uma consequencia real da globalizacao financeira. A alternativa descreve corretamente como a dependencia do capital externo reduz a soberania economica dos paises.",
+      "2": "A interdependencia crescente entre regioes e lugares geograficamente separados e uma das caracteristicas definidoras da globalizacao. O encurtamento das distancias por meio de fluxos de capital, informacao e mercadorias e um aspecto amplamente documentado desse processo.",
+      "3": "A globalizacao prop oe de fato uma ruptura com a ideia de economias nacionais autarcicas, integrando mercados e subordinando os espacos locais a logicas globais. A necessidade de integracao ao mercado mundial pressiona os paises a abrir suas economias, reduzindo margens de autonomia nacional."
+    }
   },
   {
     "id": 10,
-    "instituicao": "UFMG",
-    "ano": "2001",
-    "dificuldade": "media",
-    "tags": [
-      "omc",
-      "comércio internacional",
-      "protecionismo",
-      "conflitos comerciais"
-    ],
-    "pergunta": "A Organização Mundial do Comércio – OMC – tem sido o fórum de discussões que envolvem interesses comerciais conﬂitantes entre países pobres e ricos. Considerando-se esses conﬂitos comerciais, é INCORRETO afirmar que:",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "3ano/img/316/unesp26q3.png",
+    "texto_apoio": "Charge do cartunista Adão Iturrusgarai sobre a Divisão Internacional do Trabalho.",
+    "fonte_apoio": "https://umbrasil.com",
+    "pergunta": "A charge ironiza",
     "alternativas": [
-      "os países pobres enfrentam barreiras comerciais, impostas por países ricos, sob a acusação de devastarem o meio ambiente, o que reduz a entrada de recursos necessários à modernização da exploração das riquezas naturais.",
-      "países pobres vêm elevando as tarifas alfandegárias impostas aos produtos industriais dos países ricos, como forma de estimular o desenvolvimento da tecnologia nacional.",
-      "países ricos, de modo geral, concedem subsídios a seus produtores agrícolas, mas rechaçam atitudes semelhantes dos países periféricos em relação a produtos industriais de exportação.",
-      "países ricos impõem restrições às exportações dos países pobres, como forma de retaliação contra a suposta exploração da mão de obra infantil e do trabalho em regime de semiescravidão."
+      "o cálculo do Índice de Desenvolvimento Humano Ajustado à Desigualdade, revelador do grau de concentração de renda entre as pessoas de um país.",
+      "o neocolonialismo como expressão de dominação econômica, sujeitando países agroexportadores à importação de bens industrializados.",
+      "a desigual Divisão Internacional do Trabalho, enfatizando a especialização produtiva dos países por meio do valor agregado dos produtos.",
+      "a ordem mundial bipolar entre distintos modelos de produção, reforçando desigualdades entre países desenvolvidos e países subdesenvolvidos.",
+      "o monopólio industrial como indutor de novos mercados, condição para que países subdesenvolvidos tenham acesso a bens de consumo duráveis."
     ],
-    "correta": 1,
-    "comentario": "<p>A afirmativa incorreta sobre os conflitos na OMC é que países pobres elevam tarifas sobre produtos industriais dos ricos. Na prática, os países ricos é que usam barreiras não tarifárias, normas sanitárias e subsídios para proteger sua produção, enquanto exigem abertura dos mercados dos países em desenvolvimento.</p>",
-    "ajuda": "Os conflitos na OMC refletem os interesses assimétricos entre países ricos (que protegem sua agricultura com subsídios) e países pobres (que exigem acesso aos mercados dos ricos). Avalie qual afirmativa descreve corretamente essa assimetria comercial."
+    "correta": 2,
+    "comentario": "A DIT estabelece que países periféricos exportam commodities com baixo valor agregado e importam produtos industrializados caros, perpetuando a desigualdade. A charge ironiza essa troca desvantajosa, mostrando como países ricos se apropriam de matérias-primas baratas e as revendem como manufaturados de alto valor. Essa crítica remonta ao conceito de troca desigual na economia política internacional.",
+    "ajuda": "Pense no que a charge provavelmente mostra: um país exportando matéria-prima barata e recebendo produto industrializado caro em troca. Qual conceito da geografia econômica essa imagem critica diretamente?",
+    "tags": [
+      "Divisão Internacional do Trabalho",
+      "DIT",
+      "desigualdade",
+      "neocolonialismo",
+      "valor agregado"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "A charge não aborda o IDH Ajustado à Desigualdade, que é um indicador estatístico de renda e desenvolvimento humano. O humor da charge está na relação desigual de troca entre países produtores de matéria-prima e países industrializados.",
+      "1": "Apesar de o neocolonialismo estar relacionado ao tema, a charge enfatiza especificamente a DIT e o valor agregado dos produtos, não apenas a dependência agroexportadora. A alternativa B não menciona o elemento central da ironia: a diferença de valor agregado na troca.",
+      "3": "A ordem bipolar refere-se à disputa entre EUA e URSS durante a Guerra Fria, não à DIT contemporânea. A charge trata das desigualdades econômicas atuais entre países com diferentes graus de industrialização.",
+      "4": "O monopólio industrial não é o foco da charge, que ironiza a troca desigual e a baixa agregação de valor dos países periféricos. O acesso de países subdesenvolvidos a bens de consumo aparece como consequência negativa, não como indução de novos mercados."
+    }
   }
 ]

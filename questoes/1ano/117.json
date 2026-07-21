@@ -227,32 +227,34 @@
   },
   {
     "id": 9,
-    "instituicao": "ENEM",
-    "ano": "1999",
-    "dificuldade": "media",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "1ano/img/117/unesp26q7.png",
+    "texto_apoio": "Para fazer um teste de solo em um recipiente, primeiramente preencha-o até a metade com a amostra de solo. Em seguida, preencha o espaço restante com água, deixando um pouco de ar na parte superior. Após tampar o recipiente, agite-o vigorosamente até que todos os torrões de solo sejam desfeitos. Deixe o recipiente em um local onde não haja perturbação. Após 24 horas, o solo terá se sedimentado em camadas visíveis de argila, silte e areia. Ao medir as proporções relativas dessas três texturas no solo, é possível determinar qual tipo de solo você possui.",
+    "fonte_apoio": "https://ameliamurtha.wordpress.com. Adaptado.",
+    "pergunta": "Uma aplicação prática do experimento descrito é",
+    "alternativas": [
+      "a investigação das condições para a formação de laterita no solo.",
+      "a investigação sobre a estratificação de voçorocas no solo.",
+      "o prognóstico das condições de assoreamento do solo.",
+      "a classificação dos diferentes tipos de horizontes do solo.",
+      "o estudo na construção civil sobre a estabilidade do solo."
+    ],
+    "correta": 4,
+    "comentario": "O experimento determina a proporção de argila, silte e areia em uma amostra de solo, informação fundamental para a engenharia civil. Solos argilosos têm comportamento plástico e baixa drenagem, enquanto solos arenosos são instáveis sob carga. Conhecer a textura do solo é passo essencial para avaliar a capacidade de suporte e a estabilidade em fundações e obras de engenharia.",
+    "ajuda": "O experimento identifica as proporções de argila, silte e areia num solo. Para quais profissionais essas informações sobre textura do solo seriam mais diretamente úteis na tomada de decisões práticas?",
     "tags": [
       "solos",
-      "tipos de solo",
-      "agricultura"
+      "textura do solo",
+      "sedimentação",
+      "geologia",
+      "construção civil"
     ],
-    "texto_apoio": "Um agricultor adquiriu alguns alqueires de terra para cultivar e residir no local. O desenho abaixo representa parte de suas;\n\nPensando em construir sua moradia no lado I do rio e plantar no lado II, o agricultor consultou seus vizinhos e escutou as frases abaixo. ",
-    "imagem_apoio": "1ano/img/117/p17q9.png",
-    "pergunta": "Assinale a frase do vizinho que deu a sugestão mais correta:",
-    "alternativas": [
-      "“O terreno só se presta ao plantio, revolvendo o solo com arado.”",
-      "“Não plante neste local, porque é impossível evitar a erosão”.",
-      "“Pode ser utilizado, desde que se plante em curvas de nível”.",
-      "“Você perderá sua plantação, quando as chuvas provocarem inundação”.",
-      "“Plante forragem para pasto”."
-    ],
-    "correta": 2,
-    "comentario": "<p>O plantio em curvas de nível é a principal técnica de conservação do solo em terrenos inclinados. As curvas de nível são linhas que conectam pontos de mesma altitude, e plantar ao longo delas cria 'degraus' naturais que retêm a água e os sedimentos, reduzindo o escoamento superficial e a erosão. É eficaz mesmo em solos com risco de deslizamento.</p>",
-    "ajuda": "A análise do solo antes de cultivar é fundamental para identificar sua textura (argila, areia, silte), estrutura, pH e teor de nutrientes. Solos argilosos retêm mais água mas podem endurecer; solos arenosos drenam rapidamente mas têm baixa fertilidade natural.",
+    "dificuldade": "facil",
     "feedbacks": {
-      "0": "O arado morro abaixo (perpendicular às curvas de nível) cria sulcos verticais que aceleram o escoamento e a erosão — não é a sugestão mais adequada. Em terrenos inclinados, o correto é arar em curvas de nível, não no sentido da declividade.",
-      "1": "Afirmar que é 'impossível evitar a erosão' é incorreto: o plantio em curvas de nível, o terraceamento e outras técnicas são eficazes mesmo em terrenos inclinados. A vizinha generalizou de forma absoluta e equivocada.",
-      "3": "A inundação pode ocorrer nas várzeas próximas ao rio, mas a sugestão de curvas de nível é justamente a forma de mitigar esse risco em terrenos inclinados. A afirmativa ignora a solução técnica disponível e disponível.",
-      "4": "Plantar apenas forragem para pasto é uma sugestão limitante que desperdiça o potencial agrícola do terreno. Além disso, sem manejo adequado, o pastejo pode compactar o solo e intensificar a erosão — tornando a sugestão problemática."
+      "0": "A laterita é um tipo de solo formado em regiões tropicais por intemperismo intenso ao longo de milhares de anos, não por análise de textura. O experimento analisa a proporção de argila, silte e areia, não os processos químicos e climáticos de laterização.",
+      "1": "Voçorocas são formas de erosão profunda que resultam da concentração de água no solo, e sua estratificação interna não é investigada com esse experimento simples. O teste de sedimentação em recipiente identifica texturas superficiais, não padrões de erosão profunda.",
+      "2": "O assoreamento é o acúmulo de sedimentos em rios e lagos, e sua previsão depende de estudos hidrológicos e de bacia hidrográfica. Embora a textura do solo influencie o transporte de sedimentos, o experimento serve para classificar o tipo de solo, não para prognosticar o assoreamento.",
+      "3": "Os horizontes do solo (camadas A, B, C e R) são identificados por análise de perfil em campo, com análise química e morfológica. O experimento classifica a textura, ou seja, a proporção de partículas de diferentes tamanhos, não a estrutura vertical do perfil pedológico."
     }
   },
   {

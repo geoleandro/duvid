@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A alternativa incorreta sobre a política externa chinesa é a E: Taiwan não foi integrada à China. O projeto de reunificação de Taiwan é um objetivo declarado de Xi Jinping, mas Taiwan se mantém como território autônomo de facto, reconhecido apenas por um punhado de países, apesar de não ser reconhecido como Estado pela ONU.</p>",
-    "ajuda": "A China projeta influência global por múltiplos vetores. Ao avaliar as alternativas sobre a geopolítica chinesa, considere iniciativas como a Nova Rota da Seda, a questão de Taiwan, a presença na África e as disputas no Mar do Sul da China."
+    "ajuda": "A China projeta influência global por múltiplos vetores. Ao avaliar as alternativas sobre a geopolítica chinesa, considere iniciativas como a Nova Rota da Seda, a questão de Taiwan, a presença na África e as disputas no Mar do Sul da China.",
+    "feedbacks": {
+      "0": "O governo Trump de fato intensificou as tensoes comerciais e diplomaticas com a China, mas as relacoes entre os dois paises sao mais complexas do que a simples afirmacao de 'distanciamento'. Houve simultaneamente dependencia economica mutua e continuidade de cooperacao em areas como divida americana e cadeias de suprimentos.",
+      "1": "A nova Rota da Seda (Belt and Road Initiative) vai muito alem da Asia Central e da Europa; abrange tambem a Africa, a America Latina e o Sudeste Asiatico. A descricao 'liga a China a Asia Central e a Europa' e incompleta e nao reflete a escala global do projeto.",
+      "2": "Embora a China de fato tenha aumentado sua presenca na Africa em busca de recursos naturais, a afirmacao pode conter imprecisoes sobre os parceiros africanos ou sobre a natureza dos investimentos. O investimento chines na Africa e mais diversificado do que a simples busca por materias-primas.",
+      "3": "O Mar do Sul da China ja era estrategico para o comercio mundial antes das disputas contemporaneas. A afirmacao de que 'passou a ser' estrategico implica que antes nao era, o que e incorreto; o que mudou foi a intensidade das reivindicacoes territoriais sobrepostas de China, Vietnam, Filipinas, Malasia e Brunei."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A Coreia do Norte mantém seu programa nuclear apoiada principalmente pela China — seu único grande aliado — e pela proximidade geográfica com Seul, capital sul-coreana e cidade de 10 milhões de habitantes que pode ser destruída por artilharia convencional. Esses fatores dão a Pyongyang uma vantagem de dissuasão que torna negociações complexas.</p>",
-    "ajuda": "A Coreia do Norte mantém seu programa nuclear apesar das sanções internacionais, apoiando-se em alianças com China e Rússia. Pense em qual fator específico — apoio externo ou capacidade tecnológica própria — sustenta o programa norte-coreano."
+    "ajuda": "A Coreia do Norte mantém seu programa nuclear apesar das sanções internacionais, apoiando-se em alianças com China e Rússia. Pense em qual fator específico — apoio externo ou capacidade tecnológica própria — sustenta o programa norte-coreano.",
+    "feedbacks": {
+      "1": "A Coreia do Norte nao tem 'ilhas extraterritoriais' conhecidas; seu territorio e continental. Alem disso, Russie e China fornecem apoio diplomatico e economico, mas nao conferiram a Coreia do Norte o dominio de ilhas fora de seu territorio.",
+      "2": "A Coreia do Norte desenvolveu seu programa nuclear e balistico de forma independente, com auxilio de Paquistao e propria engenharia interna. O Japao colonizou a Coreia (1910-1945), mas nao legou tecnologia aeroespacial que explique o atual programa de misseis balísticos norte-coreano.",
+      "3": "A Coreia do Norte nao domina o Mar do Japao nem o Mar Amarelo; sao aguas internacionais disputadas principalmente entre Japao, China e Coreias. O controle maritimo norte-coreano e limitado a suas aguas territoriais."
+    }
   },
   {
     "id": 3,
@@ -69,7 +80,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As manifestações em Hong Kong (2019-2020) começaram contra o projeto de lei de extradição que permitiria enviar cidadãos honcongueses para julgamento na China continental. A retirada do projeto não foi suficiente para deter os protestos, que evoluíram para reivindicações por democracia plena e autonomia.</p>",
-    "ajuda": "Hong Kong voltou à soberania chinesa em 1997 sob o princípio 'um país, dois sistemas', que garantia autonomia até 2047. As manifestações de 2019 reagiram a uma lei de extradição que ameaçava esse sistema. Identifique qual alternativa descreve corretamente o contexto das manifestações."
+    "ajuda": "Hong Kong voltou à soberania chinesa em 1997 sob o princípio 'um país, dois sistemas', que garantia autonomia até 2047. As manifestações de 2019 reagiram a uma lei de extradição que ameaçava esse sistema. Identifique qual alternativa descreve corretamente o contexto das manifestações.",
+    "feedbacks": {
+      "0": "Os manifestantes de Hong Kong se opunham a maior integracao com a China continental, e nao a apoiavam. As protestos de 2019 nasceram justamente do medo de perda das liberdades civis garantidas pelo sistema 'Um pais, dois sistemas', e nao de um desejo de anexacao total a Republica Popular.",
+      "2": "Hong Kong foi devolvido pela Gra-Bretanha em 1997, mas Macau foi devolvido por PORTUGAL em 1999, e nao pela Gra-Bretanha. Sao devolucoes distintas, de territorios com historias coloniais diferentes: um britanico e outro portugues.",
+      "3": "A 'Revolta do Guarda-Chuva' (Umbrella Revolution) ocorreu em 2014, e nao em 2019. As manifestacoes de 2019 ficaram conhecidas como 'Movimento contra a Extradicao' ou 'Primavera de Hong Kong', com escala muito maior do que as de 2014."
+    }
   },
   {
     "id": 4,
@@ -93,7 +109,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Hong Kong foi cedida ao Reino Unido pela China pela Convenção de Nanquim (1842), após a Primeira Guerra do Ópio. O acordo de devolução (1997) garantiu o sistema capitalista e as liberdades civis de Hong Kong por 50 anos, até 2047. As afirmativas 1 e 2 estão corretas; 3 e 4 têm problemas factuais.</p>",
-    "ajuda": "O acordo 'um país, dois sistemas' garantia a Hong Kong autonomia judicial, liberdade de imprensa e sistema econômico capitalista por 50 anos. Avalie as afirmativas sobre Hong Kong e identifique quais descrevem corretamente sua situação político-jurídica."
+    "ajuda": "O acordo 'um país, dois sistemas' garantia a Hong Kong autonomia judicial, liberdade de imprensa e sistema econômico capitalista por 50 anos. Avalie as afirmativas sobre Hong Kong e identifique quais descrevem corretamente sua situação político-jurídica.",
+    "feedbacks": {
+      "0": "A afirmativa 3 e falsa; classifica-la como a unica verdadeira e incorreto. As afirmativas 1 e 2 sao as corretas; afirmativa 3 contem erro factual sobre o tema abordado.",
+      "2": "A afirmativa 4 e falsa; incluir 'somente 1 e 4' admite uma afirmativa incorreta. A resposta correta inclui exclusivamente as afirmativas 1 e 2, sem incluir a 4.",
+      "3": "As afirmativas 3 e 4 sao falsas; incluir 2, 3 e 4 significa aceitar dois erros. Apenas as afirmativas 1 e 2 sao verdadeiras sobre o tema da questao.",
+      "4": "As afirmativas 3 e 4 contem erros factuais; afirmar que todas as quatro sao verdadeiras e incorreto. Apenas as afirmativas 1 e 2 descrevem corretamente o tema abordado."
+    }
   },
   {
     "id": 5,
@@ -118,7 +140,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A Coreia do Norte é descrita no Ocidente por narrativas simplificadas da Guerra Fria ('eixo do mal'). O texto sugere que a realidade norte-coreana é mais complexa do que essas narrativas dicotômicas sugerem — fruto de uma cultura política maniqueísta (bem x mal) construída e perpetuada desde o conflito bipolar.</p>",
-    "ajuda": "A Coreia do Norte é um dos regimes mais fechados do mundo, controlado pela família Kim há décadas. Seu isolamento é reforçado por propaganda interna e controle total da informação. Pense em qual estratégia o regime utiliza para manter sua coesão interna."
+    "ajuda": "A Coreia do Norte é um dos regimes mais fechados do mundo, controlado pela família Kim há décadas. Seu isolamento é reforçado por propaganda interna e controle total da informação. Pense em qual estratégia o regime utiliza para manter sua coesão interna.",
+    "feedbacks": {
+      "0": "A divisao da Coreia nao se deve a grande variacao cultural entre norte e sul; coreanos compartilham a mesma lingua, etnia, historia e cultura. O que os divide e a imposicao de sistemas politicos opostos pelas superpotencias apos a derrota japonesa em 1945.",
+      "2": "A Coreia do Sul foi um dos paises que mais se modernizou no seculo XX, protagonizando o 'milagre economico sul-coreano' (Chaebols, Samsung, Hyundai). A afirmacao de 'inexistencia de processos modernizadores' e o oposto da realidade sul-coreana.",
+      "3": "A rivalidade historica entre o Partido dos Trabalhadores Coreano e o PCUS soviético nao e um fator significativo na divisao da Coreia. As tensoes na peninsula decorreram do confronto EUA-URSS e da Guerra da Coreia (1950-53), nao de rivalidades interpartidarias comunistas.",
+      "4": "A divisao da Coreia nao resultou de uma estrategia norte-americana especifica de 'boicote a influencia chinesa'. Resultou da Conferencia de Yalta (1945), da ocupacao soviética do norte e norte-americana do sul apos a rendição japonesa, e da posterior Guerra da Coreia."
+    }
   },
   {
     "id": 6,
@@ -140,7 +168,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa incorreta sobre Xinjiang é a D: Xinjiang está no coração da Nova Rota da Seda — não 'fora'. É um hub estratégico que liga a China à Ásia Central e à Europa através de ferrovias e oleodutos. Sua localização é precisamente o que torna a região tão importante para os planos geopolíticos chineses.</p>",
-    "ajuda": "Xinjiang é uma Região Autônoma chinesa com maioria de população uigure muçulmana. O governo chinês exerce forte controle sobre essa região por razões estratégicas — localização, recursos e a Nova Rota da Seda. Avalie qual alternativa descreve INCORRETAMENTE a região."
+    "ajuda": "Xinjiang é uma Região Autônoma chinesa com maioria de população uigure muçulmana. O governo chinês exerce forte controle sobre essa região por razões estratégicas — localização, recursos e a Nova Rota da Seda. Avalie qual alternativa descreve INCORRETAMENTE a região.",
+    "feedbacks": {
+      "0": "Esta afirmacao e CORRETA: Xinjiang esta localizada na antiga Rota da Seda historica e e um corredor fundamental da nova Rota da Seda (Belt and Road Initiative). A regiao faz fronteira com paises da Asia Central que sao alvos centrais da iniciativa chinesa.",
+      "1": "Esta afirmacao e CORRETA: Xinjiang e uma Regiao Autonoma da China habitada pelos uigures, povo de lingua turca e religiao islamica sunnita. A designacao de 'Regiao Autonoma' e formal, embora na pratica o controle do PCC seja rigoroso.",
+      "2": "Esta afirmacao e CORRETA: Xinjiang e rica em recursos naturais, incluindo petroleo, gas natural e minerais. Apesar dessa riqueza, a regiao tem baixa densidade demografica em funcao de seu clima arido e de seu relevo desartico e montanhoso."
+    }
   },
   {
     "id": 7,
@@ -164,7 +197,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O Tibet reivindicou independência com base em sua identidade cultural, linguística e religiosa distintas (budismo tibetano, língua tibetana). O Dalai Lama, exilado na Índia desde 1959, lidera internacionalmente esse movimento pacífico, recebendo apoio de governos ocidentais e causando tensões nas relações China-EUA.</p>",
-    "ajuda": "O Tibet reivindicou sua independência do governo chinês, liderado pelo Dalai Lama no exílio. O movimento separatista tibetano é baseado em uma identidade cultural, linguística e religiosa distinta (budismo tibetano). Identifique qual povo é descrito no depoimento."
+    "ajuda": "O Tibet reivindicou sua independência do governo chinês, liderado pelo Dalai Lama no exílio. O movimento separatista tibetano é baseado em uma identidade cultural, linguística e religiosa distinta (budismo tibetano). Identifique qual povo é descrito no depoimento.",
+    "feedbacks": {
+      "0": "Os servios sao um povo eslavo dos Balcas, na Europa do Sudeste. Nao tem relacao com o Dalai Lama, o budismo ou as disputas territoriais na Asia descitas na questao; o personagem descrito e claramente um tibetano.",
+      "1": "O personagem descrito esta em conflito com o Estado chines, o que o identifica como membro de uma minoria etnica oprimida pela China. Os chineses da etnia han sao o grupo dominante; o personagem que luta contra o Estado chines e tibetano, nao chines.",
+      "3": "Os montenegrinos sao um povo eslavo dos Balcas, da antiga Iugoslavia. Nao tem relacao com o budismo tibetano, o Dalai Lama ou as disputas entre a China e minorias etnicas asiaticas. O personagem descrito e claramente tibetano."
+    }
   },
   {
     "id": 8,
@@ -190,7 +228,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A alternativa incorreta sobre o Tibet é a A: o Tibet não pertencia ao Nepal — era um reino independente (ou sob influência chinesa) antes da invasão de 1950. A China justificou a invasão não por necessidades energéticas, mas como 'libertação' do regime teocrático feudal do Dalai Lama.</p>",
-    "ajuda": "O Tibet está localizado no planalto mais alto do mundo (Planalto Tibetano), com fronteira com a Índia e o Nepal. Sua cultura budista e identidade própria são a base do movimento independentista. Avalie qual alternativa descreve corretamente a situação do Tibet."
+    "ajuda": "O Tibet está localizado no planalto mais alto do mundo (Planalto Tibetano), com fronteira com a Índia e o Nepal. Sua cultura budista e identidade própria são a base do movimento independentista. Avalie qual alternativa descreve corretamente a situação do Tibet.",
+    "feedbacks": {
+      "1": "Esta afirmacao e CORRETA: o Tibet esta localizado na Asia Central (centro-leste da Asia), e tem profunda tradicao budista. Antes de 1950 era efetivamente independente; apos a invasao chinesa, perdeu progressivamente seu status de entidade politica autonoma.",
+      "2": "Esta afirmacao e CORRETA: Tenzin Gyatso, o Decimo Quarto Dalai Lama, fugiu para a India apos a fracassada revolta tibetana de 1959 contra a ocupacao chinesa e vive em exilio em Dharamsala desde entao.",
+      "3": "Esta afirmacao e CORRETA: o Tibet sofre processo sistematico de diluicao cultural por meio do incentivo a migracao de populacao han para a regiao (sinicizacao), o que altera progressivamente a composicao demografica e enfraquece a cultura local.",
+      "4": "Esta afirmacao e CORRETA: ativistas tibetanos aproveitam o palco internacional dos Jogos Olimpicos para protestar contra a ocupacao chinesa, como ocorreu durante a tocha olimpica de Pequim 2008, quando houve manifestacoes em diversas cidades do mundo."
+    }
   },
   {
     "id": 9,
@@ -216,7 +260,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As afirmativas corretas são III, IV e V: a região litorânea (C) com Xangai e as ZEEs destaca-se economicamente; a Manchúria (D) tem carvão, ferro e indústria pesada estatal; e Taiwan (E) é considerada 'província rebelde' desde 1949. As afirmativas I e II contêm erros geográficos sobre as regiões.</p>",
-    "ajuda": "A organização territorial da China inclui províncias, regiões autônomas (Tibet, Xinjiang, Mongólia Interior) e regiões administrativas especiais (Hong Kong, Macau). Avalie as afirmativas sobre essa estrutura territorial e identifique as corretas."
+    "ajuda": "A organização territorial da China inclui províncias, regiões autônomas (Tibet, Xinjiang, Mongólia Interior) e regiões administrativas especiais (Hong Kong, Macau). Avalie as afirmativas sobre essa estrutura territorial e identifique as corretas.",
+    "feedbacks": {
+      "0": "As proposicoes I e II sao incorretas; inclui-las invalida a combinacao. A resposta correta e composta exclusivamente por III, IV e V, que descrevem corretamente os aspectos abordados pela questao.",
+      "1": "A proposicao II e incorreta e sua inclusao invalida a combinacao. Alem disso, a exclusao da proposicao V, que e correta, torna o conjunto incompleto. Apenas III, IV e V sao corretas.",
+      "3": "A proposicao I e incorreta; inclui-la invalida a combinacao. A exclusao de III, que e correta, torna o conjunto ainda mais distante da resposta certa. Apenas III, IV e V descrevem corretamente o tema.",
+      "4": "A proposicao I e incorreta; inclui-la invalida a combinacao. A exclusao de IV, que e correta, torna o conjunto incompleto. Apenas as proposicoes III, IV e V sao corretas."
+    }
   },
   {
     "id": 10,
@@ -242,6 +292,12 @@
     ],
     "correta": 4,
     "comentario": "<p>O governo chinês enviou colonos Han para Xinjiang (uigures muçulmanos) como estratégia de diluição étnica e assegurar o controle territorial. Com posição estratégica na Nova Rota da Seda e grandes reservas de petróleo e gás, Xinjiang é fundamental para os planos de expansão da influência chinesa na Ásia Central.</p>",
-    "ajuda": "A política demográfica chinesa em determinadas províncias pode ter objetivos de colonização ou de diluição de minorias étnicas, como em Xinjiang e Tibet. Pense em qual estratégia política essa política demográfica serve em termos de controle territorial."
+    "ajuda": "A política demográfica chinesa em determinadas províncias pode ter objetivos de colonização ou de diluição de minorias étnicas, como em Xinjiang e Tibet. Pense em qual estratégia política essa política demográfica serve em termos de controle territorial.",
+    "feedbacks": {
+      "0": "O objetivo da politica chinesa nao e especificamente promover a 'ocupacao rural'. Na verdade, o processo e de urbanizacao e industrializacao acelerada nas regioes perifericas, com migracao de populacao han para as cidades, e nao de colonizacao rural.",
+      "1": "A politica chinesa em regioes como Tibet e Xinjiang e justamente o oposto de favorecer a liberdade religiosa; ha restricoes ao budismo tibetano e ao islamismo uigure. Monges sao controlados, mesquitas sao reguladas e praticas religiosas sao limitadas pelo Estado.",
+      "2": "A politica chinesa nas regioes autonomas e de CENTRALIZACAO, nao descentralizacao. O PCC mantem controle rigido sobre as administracoes locais; as 'regioes autonomas' tem autonomia formal, mas na pratica ha forte supervisao do partido sobre decisoes politicas, culturais e economicas.",
+      "3": "A politica oficial chinesa na pratica promove a assimilacao cultural (sinicizacao), suprimindo as culturas tibetana e uigure, e nao a pluralidade cultural. Ha restricoes ao uso das linguas locais no ensino e na administracao publica."
+    }
   }
 ]

@@ -20,7 +20,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Dentre as 20 maiores aglomerações urbanas do mundo, a maioria está na Ásia — incluindo megacidades de países desenvolvidos (Tóquio, Osaka) e em desenvolvimento (Delhi, Xangai, Daca). Isso reflete tanto o alto padrão de vida japonês quanto o crescimento acelerado de metrópoles asiáticas emergentes.</p>",
-    "ajuda": "As megacidades estão concentradas principalmente na Ásia, especialmente em países de grande população como China, Índia, Japão e Indonésia. Ao analisar o gráfico, verifique em qual continente está a maioria das 20 maiores aglomerações urbanas do mundo."
+    "ajuda": "As megacidades estão concentradas principalmente na Ásia, especialmente em países de grande população como China, Índia, Japão e Indonésia. Ao analisar o gráfico, verifique em qual continente está a maioria das 20 maiores aglomerações urbanas do mundo.",
+    "feedbacks": {
+      "1": "Paises como India, China, Bangladesh e Paquistao concentram grande parte das maiores aglomeracoes urbanas, mas nenhum deles se caracteriza por alto PIB per capita e alta distribuicao de renda. Afirmar que mais de 50% das maiores aglomeracoes estao em paises desenvolvidos contraria a distribuicao real mostrada pelo grafico.",
+      "2": "A America Latina possui megacidades como Sao Paulo e Cidade do Mexico, mas nao concentra 50% das 20 maiores aglomeracoes do mundo. Essa proporcao e exagerada e nao reflete a real distribuicao geografica das maiores concentracoes urbanas no planeta.",
+      "3": "A Europa Oriental tem poucas megacidades no grupo das 20 mais populosas; apenas Moscou poderia figurar nessa lista. Afirmar que 25% dessas aglomeracoes estao na Europa Oriental com boa distribuicao de renda e servicos nao corresponde ao perfil real dessas populacoes urbanas.",
+      "4": "A Africa possui algumas cidades de grande porte, como o Cairo, mas nao e expressiva em numero no grupo das 20 maiores aglomeracoes do mundo. Alem disso, o grafico indica que o segundo maior numero dessas aglomeracoes nao se encontra no continente africano."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A metrópole contemporânea é dispersa e policêntrica: diferentes funções (comércio, serviços, indústria) se distribuem por toda a área metropolitana, sem um único centro dominante. Fluxos imateriais (internet, finanças) permitem essa dispersão, conectando lugares distantes como se fossem contíguos.</p>",
-    "ajuda": "A metrópole contemporânea não é mais um centro urbano compacto e coeso, mas uma área espalhada, fragmentada e policêntrica. Pense em como a globalização e o avanço dos transportes transformaram a forma urbana das grandes cidades."
+    "ajuda": "A metrópole contemporânea não é mais um centro urbano compacto e coeso, mas uma área espalhada, fragmentada e policêntrica. Pense em como a globalização e o avanço dos transportes transformaram a forma urbana das grandes cidades.",
+    "feedbacks": {
+      "1": "Compacta e coesa e o oposto do que caracteriza a metropole contemporanea, que se expande para alem de seus limites tradicionais de forma descontinua e fragmentada. A alternativa mantem o elemento correto de fluxos imateriais, mas erra ao descrever a forma espacial da metropole atual.",
+      "2": "A metropole contemporanea e dispersa e fragmentada, e nao compacta e coesa; alem disso, o uso de 'exclusivamente' e um absolutismo que nao reflete a realidade, pois fluxos materiais (pessoas, mercadorias) tambem sao fundamentais. A alternativa acumula dois erros ao descrever a metropole atual.",
+      "3": "Dispersa e fragmentada esta correto para descrever a forma espacial da metropole contemporanea. O erro esta em 'exclusivamente fluxos materiais': os fluxos que regem a metropole contemporanea sao justamente os imateriais, como informacao e capital financeiro."
+    }
   },
   {
     "id": 3,
@@ -67,7 +78,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Em 2007, pela primeira vez na história, a população urbana mundial superou a rural. Mas esse processo foi muito diferente entre continentes: nos países ricos, foi gradual e acompanhou a industrialização (séculos XVIII-XX); nos países em desenvolvimento, foi rápido e gerou megacidades com enorme pobreza urbana.</p>",
-    "ajuda": "A urbanização ocorre de formas diferentes conforme o nível de desenvolvimento econômico de cada país. Nos países ricos, foi gradual e acompanhou a industrialização; nos países em desenvolvimento, foi rápida e gerou problemas sociais. Identifique qual fator explica essa diferença."
+    "ajuda": "A urbanização ocorre de formas diferentes conforme o nível de desenvolvimento econômico de cada país. Nos países ricos, foi gradual e acompanhou a industrialização; nos países em desenvolvimento, foi rápida e gerou problemas sociais. Identifique qual fator explica essa diferença.",
+    "feedbacks": {
+      "0": "A orientacao politica dos governos locais e uma variavel que varia independentemente do nivel de integracao a economia mundial. Ela nao serve como indicador das diferencas continentais no processo espacial de mundializacao economica descrito no texto.",
+      "1": "A composicao religiosa dos povos originais e uma variavel cultural historica que nao reflete o nivel de integracao a economia global nem as diferencas continentais no processo de mundializacao. Religiao e economia mundial sao dimensoes distintas do espaco geografico.",
+      "2": "O tamanho dos territorios nao indica o grau de integracao dos paises ao processo de mundializacao economica. Paises pequenos podem ser muito integrados (Cingapura, Luxemburgo) e grandes podem ter integracao limitada em certas regioes internas.",
+      "3": "A distribuicao etaria dos habitantes e um indicador demografico que reflete transicoes de fecundidade e mortalidade, e nao o nivel de modernizacao das atividades economicas de uma regiao. Piramide etaria e mundializacao sao fenomenos distintos."
+    }
   },
   {
     "id": 4,
@@ -91,7 +108,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Cidades globais são centros de comando da economia mundial: concentram sedes de corporações transnacionais, mercados financeiros, escritórios de consultoria e tomada de decisões estratégicas. Nova York, Londres e Tóquio são classificadas como cidades globais Alfa++ — o nível mais alto na hierarquia urbana mundial.</p>",
-    "ajuda": "As cidades globais são classificadas por seu grau de importância nas redes de poder econômico, financeiro e cultural. Pense em qual conceito se aplica à fusão ou junção de duas ou mais metrópoles que formam uma grande área urbana contínua."
+    "ajuda": "As cidades globais são classificadas por seu grau de importância nas redes de poder econômico, financeiro e cultural. Pense em qual conceito se aplica à fusão ou junção de duas ou mais metrópoles que formam uma grande área urbana contínua.",
+    "feedbacks": {
+      "0": "A juncao fisica de duas ou mais metropoles descreve o fenomeno de conurbacao, e nao o conceito de cidade global. Cidades globais sao definidas pela funcao de comando e decisao na economia mundial, independentemente de estarem fisicamente fundidas a outras metropoles.",
+      "1": "O IDH nao define uma cidade global; Mumbai e Sao Paulo sao reconhecidas como cidades globais, mas possuem IDH medio comparado a cidades europeias. O criterio para classificar uma cidade como global e sua funcao de controle e decisao na economia mundial, e nao o IDH.",
+      "2": "Elevados indices de emprego e renda que atraem imigrantes descrevem cidades prosperas genericamente, e nao o conceito especifico de cidade global. O que distingue as cidades globais e sua funcao de planejamento e gestao da economia mundial, e nao apenas o nivel de emprego e renda.",
+      "4": "O maior numero de habitantes nao define uma cidade como global; ha cidades densamente populosas que nao exercem papel de comando na economia mundial. O criterio central das cidades globais e a funcao de decisao estrategica, e nao a concentracao populacional."
+    }
   },
   {
     "id": 5,
@@ -117,7 +140,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A urbanização na África, Ásia e América Latina compartilha um traço: foi impulsionada pelo fluxo campo-cidade de populações sem perspectiva no meio rural. Esse êxodo gerou crescimento acelerado das cidades, mas sem infraestrutura adequada — resultado comum nas três regiões, apesar das diferenças regionais.</p>",
-    "ajuda": "A urbanização na África, Ásia e América Latina compartilha características como pobreza urbana, infraestrutura precária e crescimento acelerado, mas com diferenças regionais importantes. Pense em qual fator econômico ou histórico é comum a esses continentes."
+    "ajuda": "A urbanização na África, Ásia e América Latina compartilha características como pobreza urbana, infraestrutura precária e crescimento acelerado, mas com diferenças regionais importantes. Pense em qual fator econômico ou histórico é comum a esses continentes.",
+    "feedbacks": {
+      "0": "O aspecto espacial focado no sistema integrado de cidades locais e globais descreve a organizacao das redes urbanas, mas nao e a complexidade especifica abordada pelo texto. O texto aponta a localizacao das maiores aglomeracoes e o fluxo campo-cidade, que sao aspectos demograficos.",
+      "1": "O texto nao trata de semelhanca historica ou de modernizacao politica como fatores da complexidade da urbanizacao. A complexidade abordada e demografica: onde estao as maiores aglomeracoes e como o fluxo campo-cidade continua alimentando esse crescimento.",
+      "3": "A estrutura de organizacao e planejamento que atravessa fronteiras remete a discussao de redes urbanas transnacionais, e nao ao aspecto central do texto. O texto discute a localizacao das maiores aglomeracoes e a continuidade do fluxo campo-cidade, que sao dados demograficos.",
+      "4": "A revolucao agricola e um fator historico de longa duracao que contribuiu para o inicio da urbanizacao, mas o texto discute a complexidade contemporanea da urbanizacao. Os aspectos demograficos de localizacao das aglomeracoes e dos fluxos atuais sao o foco, e nao a revolucao agricola."
+    }
   },
   {
     "id": 6,
@@ -139,7 +168,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A alternativa incorreta afirma que poluição e trânsito caótico foram 'resolvidos' nas megalópoles dos países ricos. Na realidade, problemas como congestionamentos, poluição e desigualdade urbana persistem em metrópoles ricas como Los Angeles e Paris, embora com perfis diferentes das cidades do Sul Global.</p>",
-    "ajuda": "A questão pede a afirmativa INCORRETA sobre a urbanização mundial. Lembre-se de que a urbanização nos países desenvolvidos ocorreu de forma mais gradual, enquanto nos países em desenvolvimento foi mais rápida e desorganizada. Identifique qual afirmativa distorce essa realidade."
+    "ajuda": "A questão pede a afirmativa INCORRETA sobre a urbanização mundial. Lembre-se de que a urbanização nos países desenvolvidos ocorreu de forma mais gradual, enquanto nos países em desenvolvimento foi mais rápida e desorganizada. Identifique qual afirmativa distorce essa realidade.",
+    "feedbacks": {
+      "0": "A Revolucao Industrial foi de fato o grande responsavel pela urbanizacao acelerada, ao criar empregos nas cidades e liberar mao de obra do campo mecanizado. Essa afirmacao esta correta como descricao do motor historico da urbanizacao moderna.",
+      "1": "A liberacao da mao de obra agricola pela mecanizacao do campo foi o mecanismo classico que impulsionou o crescimento das cidades industriais nos paises desenvolvidos. Essa afirmacao esta correta como descricao do modelo historico de urbanizacao nesses paises.",
+      "2": "Nos paises desenvolvidos, onde a urbanizacao ja atingiu niveis acima de 80%, o ritmo de crescimento urbano e de fato menor do que nos paises em desenvolvimento, onde o processo ainda avanca rapidamente. Essa afirmacao esta correta.",
+      "3": "O processo acelerado de urbanizacao nos paises menos desenvolvidos gerou problemas reais como favelas, violencia urbana, invasoes e demanda por servicos que supera a capacidade dos governos locais. Essa afirmacao esta correta como descricao dos impactos da urbanizacao acelerada."
+    }
   },
   {
     "id": 7,
@@ -163,7 +198,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As redes urbanas hierárquicas conectam cidades de diferentes tamanhos em uma estrutura funcional: metrópoles globais, nacionais, regionais e locais. O desenvolvimento das tecnologias de comunicação e transporte permitiu articular essas redes em escala planetária, criando o fenômeno das cidades globais.</p>",
-    "ajuda": "A complexificação dos espaços urbanos inclui a descentralização de funções (shoppings, centros médicos, universidades fora do centro) e a formação de redes urbanas hierárquicas. Pense em qual afirmativa descreve corretamente esse processo."
+    "ajuda": "A complexificação dos espaços urbanos inclui a descentralização de funções (shoppings, centros médicos, universidades fora do centro) e a formação de redes urbanas hierárquicas. Pense em qual afirmativa descreve corretamente esse processo.",
+    "feedbacks": {
+      "0": "A centralidade urbana das pequenas cidades nao se define principalmente pela captacao do excedente agricola; ela depende da oferta de servicos, comercio e gestao que atraem a populacao rural. Reduzir a centralidade urbana a um fator economico agricola e uma simplificacao que ignora a complexidade das funcoes urbanas.",
+      "1": "As redes de supermercados sao atores relevantes na distribuicao, mas superdimensionar seu papel ao afirmar que elas organizam as redes urbanas ignora os fatores estruturais de comunicacao, transporte e gestao. A formacao de redes urbanas e um processo territorial muito mais amplo do que a logistica do varejo.",
+      "2": "Essa afirmacao e historicamente falsa: Washington nao e a maior metropole dos Estados Unidos (Nova York e), Canberra nao e a maior da Australia (Sydney e) e Brasilia nao e a maior do Brasil (Sao Paulo e). A capital politica e a maior metropole sao coisas distintas em muitos paises.",
+      "4": "A descentralizacao de atividades e servicos para cidades menores nao implica necessariamente perda de poder economico e politico dos grandes centros; ao contrario, pode fortalecer as cidades intermediarias e reorganizar a rede urbana de forma mais equilibrada. O poder economico nao e um jogo de soma zero."
+    }
   },
   {
     "id": 8,
@@ -187,7 +228,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Tóquio é a maior megacidade do mundo, com cerca de 37 milhões de habitantes na área metropolitana. Seu crescimento acelerado ocorreu no pós-Segunda Guerra Mundial, impulsionado pelo 'milagre econômico japonês'. As megacidades da América Latina (São Paulo, Cidade do México) cresceram pelo êxodo rural intenso.</p>",
-    "ajuda": "As megacidades se concentram principalmente em países em desenvolvimento, especialmente na Ásia e na América Latina. Esse crescimento acelerado resulta de migração rural-urbana intensa e alta natalidade, e não necessariamente de alto padrão de vida."
+    "ajuda": "As megacidades se concentram principalmente em países em desenvolvimento, especialmente na Ásia e na América Latina. Esse crescimento acelerado resulta de migração rural-urbana intensa e alta natalidade, e não necessariamente de alto padrão de vida.",
+    "feedbacks": {
+      "1": "As metropoles latino-americanas cresceram principalmente pelo exodo rural intenso e pela industrializacao por substituicao de importacoes, e nao pelas riquezas geradas por atividades primarias. A urbanizacao latino-americana foi marcada pela migracao campo-cidade em busca de emprego industrial e de servicos.",
+      "2": "Muitas das maiores megacidades mundiais estao em paises emergentes, como India, China, Bangladesh e Nigeria, com PIB per capita medio ou baixo e IDH longe do topo do ranking global. A alternativa inverte a realidade ao associar as maiores aglomeracoes a paises de elevado PIB per capita.",
+      "3": "As megacidades em economias menos dinamicas cresceram justamente de forma acelerada e nao lenta, impulsionadas pelo exodo rural intenso e pela ausencia de politicas de distribuicao regional do desenvolvimento. A expansao do setor primario nao explica o crescimento das cidades nesses contextos.",
+      "4": "O Oriente Medio tem algumas cidades importantes, como o Cairo e Teerao, mas nao e expressivo em numero no grupo das maiores megacidades mundiais. Alem disso, o desenvolvimento do petroleo beneficiou principalmente os paises do Golfo Persico, que nao concentram o maior numero de megacidades do mundo."
+    }
   },
   {
     "id": 9,
@@ -210,7 +257,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os gráficos de projeção populacional mostram que o crescimento urbano continuará nas próximas décadas, especialmente nos países em desenvolvimento. A urbanização é um processo global irreversível: hoje mais de 55% da população mundial vive em cidades, percentual que deve superar 70% até 2050.</p>",
-    "ajuda": "Os gráficos de projeção populacional revelam tendências demográficas para as próximas décadas. Compare as trajetórias de países desenvolvidos (com envelhecimento e estagnação) e de países em desenvolvimento (com crescimento ainda acelerado)."
+    "ajuda": "Os gráficos de projeção populacional revelam tendências demográficas para as próximas décadas. Compare as trajetórias de países desenvolvidos (com envelhecimento e estagnação) e de países em desenvolvimento (com crescimento ainda acelerado).",
+    "feedbacks": {
+      "0": "O periodo de 2030 a 2050 aparece nos graficos, mas o fenomeno central que eles evidenciam e o crescimento populacional em areas URBANAS, e nao simplesmente o crescimento total no periodo. Destacar apenas o recorte temporal ignora o aspecto qualitativo da distribuicao espacial desse crescimento.",
+      "2": "Os graficos mostram tendencias de crescimento urbano global, e nao especificamente a reducao da populacao chinesa. A China vive desaceleracao demografica, mas o fenomeno central representado pelos graficos e o crescimento das areas urbanas em escala mundial.",
+      "3": "A tendencia global e de crescimento das areas urbanas e de estagancao ou declinio das populacoes rurais na maioria dos paises. Os graficos evidenciam o oposto do que essa alternativa afirma: e a populacao urbana que cresce, e nao a rural.",
+      "4": "A Europa tem crescimento demografico baixo ou negativo, com populacoes estagnadas ou em declinio em muitos paises. O crescimento projetado pelos graficos se concentra em paises emergentes e em desenvolvimento, e nao na Europa."
+    }
   },
   {
     "id": 10,
@@ -235,6 +288,12 @@
     ],
     "correta": 4,
     "comentario": "<p>As três proposições estão corretas: o crescimento do setor terciário nas cidades (I), a maior propensão ao turismo e lazer mercantilizado entre urbanitas (II) e a reorganização do espaço em múltiplas escalas por demandas de lazer (III) — desde a habitação até o turismo internacional — são tendências do mundo globalizado.</p>",
-    "ajuda": "A sociedade urbana contemporânea é marcada pela concentração demográfica e pela dispersão das atividades no espaço. Avalie as proposições sobre urbanização e identifique quais delas são falsas ou contraditórias com as tendências atuais."
+    "ajuda": "A sociedade urbana contemporânea é marcada pela concentração demográfica e pela dispersão das atividades no espaço. Avalie as proposições sobre urbanização e identifique quais delas são falsas ou contraditórias com as tendências atuais.",
+    "feedbacks": {
+      "0": "As afirmativas I e II tambem sao verdadeiras: a sociedade urbana estimula o crescimento das atividades de lazer e turismo, e o habitante das grandes cidades tem maior propensao a formas de diversao mercantilizadas. Selecionar apenas III torna a alternativa incompleta.",
+      "1": "A afirmativa III tambem e verdadeira: as necessidades de lazer urbano transformam o espaco geografico em multiplas escalas, desde a habitacao (micro) ate destinos turisticos internacionais (mundial). Excluir III torna a alternativa incompleta.",
+      "2": "A afirmativa II tambem e verdadeira: o habitante das grandes cidades tem maior acesso e propensao ao turismo e as formas de diversao mercantilizadas, como parques, shoppings e viagens. Excluir II torna a alternativa incompleta.",
+      "3": "A afirmativa I tambem e verdadeira: a urbanizacao esta diretamente associada ao crescimento das atividades terciarias, incluindo servicos de lazer, cultura e entretenimento. Excluir I torna a alternativa incompleta."
+    }
   }
 ]

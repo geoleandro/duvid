@@ -22,7 +22,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O controle biológico utiliza predadores naturais, parasitas ou patógenos para combater pragas, reduzindo a necessidade de agrotóxicos. As abelhas são polinizadoras essenciais para cerca de 70% das culturas agrícolas comerciais do mundo — sua extinção comprometeria diretamente a produção de alimentos. Substituir inseticidas neonicotinoides pelo controle biológico protege tanto os polinizadores quanto a produtividade agrícola.</p>",
-    "ajuda": "O texto fala sobre abelhas sendo intoxicadas por agrotóxicos em monoculturas. Pense em qual prática agrícola reduziria o uso de agrotóxicos e, ao mesmo tempo, protegeria os polinizadores. Descarte opções que intensifiquem o modelo atual."
+    "ajuda": "O texto fala sobre abelhas sendo intoxicadas por agrotóxicos em monoculturas. Pense em qual prática agrícola reduziria o uso de agrotóxicos e, ao mesmo tempo, protegeria os polinizadores. Descarte opções que intensifiquem o modelo atual.",
+    "feedbacks": {
+      "0": "A preservação da mata ciliar é uma medida de conservação ambiental passiva, e não uma técnica produtiva que substitua agrotóxicos. A questão pede uma técnica de manejo agrícola alternativa ao uso de defensivos químicos.",
+      "1": "A adubação química é o método convencional da agricultura industrial, parte do problema da dependência de insumos químicos, e não uma alternativa sustentável ao uso de agrotóxicos.",
+      "3": "A monocultura tropical favorece a proliferação de pragas e doenças, criando maior dependência de agrotóxicos. Ampliar a monocultura seria o oposto de uma alternativa sustentável.",
+      "4": "A drenagem intensa de solos é uma técnica de manejo hídrico, sem relação direta com a substituição de defensivos químicos no controle de pragas."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A modernização do campo brasileiro, especialmente no Centro-Sul, criou grandes lavouras mecanizadas voltadas para o agronegócio exportador. Esse modelo concentra terras e tecnologia, demandando mão de obra especializada em vez de trabalhadores braçais. O contraste com a agricultura familiar do Nordeste evidencia a desigualdade regional no desenvolvimento do espaço agrário.</p>",
-    "ajuda": "O uso de fertilizantes no Brasil está associado a um modelo agrícola específico. Reflita sobre as características do agronegócio brasileiro: é intensivo em capital e tecnologia, voltado para exportação e com alta mecanização. Isso define o perfil do uso de fertilizantes."
+    "ajuda": "O uso de fertilizantes no Brasil está associado a um modelo agrícola específico. Reflita sobre as características do agronegócio brasileiro: é intensivo em capital e tecnologia, voltado para exportação e com alta mecanização. Isso define o perfil do uso de fertilizantes.",
+    "feedbacks": {
+      "0": "Lavouras intensivas em pequenas propriedades com baixa produtividade são características da agricultura familiar de subsistência, o oposto do agronegócio exportador de grande escala.",
+      "1": "O elevado emprego de mão de obra é incompatível com a altíssima mecanização descrita. O agronegócio de exportação caracteriza-se pela substituição de trabalhadores braçais por máquinas.",
+      "2": "As lavouras do agronegócio são voltadas principalmente para o mercado internacional, e não para o abastecimento interno. A descrição de lavouras mecanizadas para o mercado interno não corresponde ao modelo exportador.",
+      "4": "A alternativa erra ao especificar regime de mão de obra familiar, que não corresponde ao modelo de grandes propriedades com trabalhadores assalariados sazonais do agronegócio de exportação."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A silvicultura — cultivo planejado de florestas, como eucalipto e pinus — expandiu-se no Brasil como alternativa ao extrativismo vegetal predatório. O reflorestamento garante abastecimento contínuo de madeira sem desmatamento de florestas nativas, respondendo pela queda do extrativismo e aumento da madeira cultivada nos gráficos de produção florestal.</p>",
-    "ajuda": "O gráfico mostra a variação entre extrativismo vegetal e silvicultura ao longo do tempo. Lembre-se que silvicultura envolve plantio de árvores, como eucalipto, enquanto o extrativismo usa florestas nativas. A tendência recente favorece qual das duas?"
+    "ajuda": "O gráfico mostra a variação entre extrativismo vegetal e silvicultura ao longo do tempo. Lembre-se que silvicultura envolve plantio de árvores, como eucalipto, enquanto o extrativismo usa florestas nativas. A tendência recente favorece qual das duas?",
+    "feedbacks": {
+      "0": "A conservação do bioma nativo não resulta da produção de celulose; historicamente, a expansão do setor gerou impactos sobre biomas nativos. A solução sustentável é o reflorestamento com espécies de rápido crescimento.",
+      "1": "A demanda por celulose impulsiona o setor de silvicultura e a indústria de papel, e não causa estagnação do setor primário. O setor cresce em resposta à demanda.",
+      "3": "Celulose e móveis utilizam espécies e cadeias produtivas distintas. O aumento da demanda por celulose não impacta diretamente a produção de móveis.",
+      "4": "A indústria alimentícia e o setor de celulose são segmentos distintos, sem relação direta de causa e efeito entre o crescimento de um e a retração do outro."
+    }
   },
   {
     "id": 4,
@@ -96,7 +114,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A impermeabilização do solo em áreas urbanas impede a infiltração da água da chuva, aumentando o escoamento superficial e os riscos de enchentes. Materiais impermeáveis como asfalto e concreto ampliam o impacto ambiental das obras, por isso as normas ambientais exigem medidas compensatórias como jardins de chuva e pavimentos permeáveis.</p>",
-    "ajuda": "A questão trata de impermeabilização do solo em construções urbanas. Pense no que acontece quando o solo fica coberto por cimento ou asfalto: a água não infiltra, aumentando o escoamento superficial. Qual problema ambiental urbano isso causa?"
+    "ajuda": "A questão trata de impermeabilização do solo em construções urbanas. Pense no que acontece quando o solo fica coberto por cimento ou asfalto: a água não infiltra, aumentando o escoamento superficial. Qual problema ambiental urbano isso causa?",
+    "feedbacks": {
+      "1": "A urbanização não diminui a temperatura; ao contrário, cria ilhas de calor ao substituir a vegetação por asfalto e concreto. O efeito sobre o solo não é resfriamento.",
+      "2": "A urbanização retira a cobertura vegetal e substitui o solo natural por superfícies artificiais, interrompendo a deposição e decomposição de matéria orgânica, e não acumulando-a.",
+      "3": "A alteração do pH do solo é causada principalmente por práticas agrícolas como adubação nitrogenada ou calagem, e não pela urbanização. A urbanização afeta outras propriedades do solo.",
+      "4": "A salinização ocorre em áreas de irrigação inadequada em regiões semiáridas, quando a evaporação deposita sais na superfície. Não é a principal consequência da urbanização sobre os solos."
+    }
   },
   {
     "id": 5,
@@ -121,7 +145,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O desmatamento na Amazônia é alimentado pela grilagem de terras — falsificação de documentos para apropriar áreas públicas —, pela extração ilegal de madeira e pela abertura de rodovias que facilitam o acesso ao interior da floresta. Esses fatores atuam em conjunto, criando o chamado 'arco do desmatamento' no Pará, Mato Grosso e Rondônia.</p>",
-    "ajuda": "O texto descreve o avanço do desmatamento na Amazônia ligado a grilagem e grandes obras. Identifique qual alternativa descreve corretamente as causas estruturais desse problema, sem minimizar seus efeitos ou deslocar a responsabilidade."
+    "ajuda": "O texto descreve o avanço do desmatamento na Amazônia ligado a grilagem e grandes obras. Identifique qual alternativa descreve corretamente as causas estruturais desse problema, sem minimizar seus efeitos ou deslocar a responsabilidade.",
+    "feedbacks": {
+      "0": "O desmatamento não respeita os limites das unidades de conservação; pressões de grileiros, madeireiros e agricultores avançam sobre essas áreas com frequência documentada.",
+      "1": "Grandes obras na Amazônia frequentemente atraem ocupação informal, grilagem e especulação fundiária desordenada, e não fluxos migratórios ordenados de valorização das terras.",
+      "3": "A extração ilegal de madeira não é monitorada espontaneamente por países consumidores; o monitoramento é feito principalmente pelo IBAMA e INPE, com recursos nacionais e de ONGs.",
+      "4": "A grilagem, a extração ilegal e a pecuária são os principais vetores diretos do desmatamento; os projetos de infraestrutura funcionam como vetores secundários de abertura de novas frentes, e não no mesmo grau de intensidade."
+    }
   },
   {
     "id": 6,
@@ -145,7 +175,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A Mata Atlântica é um dos biomas mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original. Sua destruição está ligada à ocupação histórica do litoral brasileiro, onde se concentram as maiores cidades e atividades econômicas do país. Apesar da fragmentação, o bioma ainda abriga enorme biodiversidade e serve como corredor ecológico.</p>",
-    "ajuda": "As afirmativas tratam da Mata Atlântica e seus impactos ambientais. Analise cada item separadamente: verifique se os dados sobre fragmentação, espécies endêmicas e usos do solo são corretos conforme o que você estudou sobre esse bioma."
+    "ajuda": "As afirmativas tratam da Mata Atlântica e seus impactos ambientais. Analise cada item separadamente: verifique se os dados sobre fragmentação, espécies endêmicas e usos do solo são corretos conforme o que você estudou sobre esse bioma.",
+    "feedbacks": {
+      "1": "A afirmativa I contém equívocos sobre o tema. A alternativa I não é a correta neste contexto; apenas a afirmativa III corresponde ao conteúdo correto.",
+      "2": "A combinação I e II inclui a afirmativa I, que contém equívoco. Somente a afirmativa III está correta.",
+      "3": "A combinação I e III inclui a afirmativa I, que apresenta erros. Somente a afirmativa III corresponde ao conteúdo correto indicado pelo gabarito.",
+      "4": "A afirmativa III está correta e não deve ser descartada. Classificar todas as afirmativas como incorretas ignora o conteúdo verdadeiro da afirmativa III."
+    }
   },
   {
     "id": 7,
@@ -170,32 +206,42 @@
     ],
     "correta": 2,
     "comentario": "<p>A prática agroecológica que incorpora matéria orgânica ao solo estimula a vida microbiana e de organismos como minhocas, restaurando a estrutura do solo degradado. Solos biologicamente ativos apresentam maior retenção de água, ciclagem de nutrientes e resistência à erosão, recuperando a capacidade produtiva sem depender de insumos químicos.</p>",
-    "ajuda": "A questão aborda recuperação de ecossistemas degradados por agricultura intensiva. Pense no que é necessário para restaurar a biodiversidade do solo: diversidade de organismos, matéria orgânica, cobertura vegetal. Qual prática promove isso?"
+    "ajuda": "A questão aborda recuperação de ecossistemas degradados por agricultura intensiva. Pense no que é necessário para restaurar a biodiversidade do solo: diversidade de organismos, matéria orgânica, cobertura vegetal. Qual prática promove isso?",
+    "feedbacks": {
+      "0": "O plantio direto não substitui espécies cultiváveis por árvores; o objetivo é manter o solo coberto com resíduos das culturas anteriores para proteger contra erosão. A sucessão arbórea não corresponde ao que o sistema propõe.",
+      "1": "O plantio direto visa reduzir o uso de biocidas ao preservar a estrutura e a biologia do solo. Intensificar a fertilização química e os biocidas contraria os princípios conservacionistas do sistema.",
+      "3": "O plantio direto não tem como objetivo direto a dispersão de sementes pela fauna. Embora beneficie indiretamente a fauna, esse não é o foco nem o efeito principal do sistema.",
+      "4": "O plantio direto não diminui a insolação para favorecer espécies pioneiras; ele mantém os resíduos das culturas sobre o solo para proteger contra erosão e perda de umidade. A redução da insolação não é um objetivo do sistema."
+    }
   },
   {
     "id": 8,
-    "instituicao": "ENEM",
-    "ano": "2015",
-    "dificuldade": "media",
-    "tags": [
-      "agronegócio",
-      "impacto ambiental",
-      "uso de agrotóxicos",
-      "questão ambiental"
-    ],
-    "fonte_apoio": "AMARILDO. Disponível em: www.amarildo.com.br. Acesso em: 3 mar. 2013.",
-    "imagem_apoio": "2ano/img/220/s20q8.png",
-    "pergunta": "Na charge há uma crítica ao processo produtivo agrícola brasileiro relacionada ao",
+    "ano": "ENEM 2025",
+    "texto_apoio": "A partir do século XIX e, principalmente, no século XX, iniciou-se o uso de produtos sintéticos na agricultura. No Brasil, a partir da década de 1960 e, posteriormente, nos anos 1970, os inseticidas ampliam sua fatia no mercado dos defensivos agrícolas.",
+    "fonte_apoio": "TROPPMAR, H. Biogeografia e meio ambiente. Rio de Janeiro: TB, 2012 (adaptado).",
+    "pergunta": "Nos espaços agrícolas, a mudança técnica descrita provocou a diminuição da",
     "alternativas": [
-      "elevado preço das mercadorias no comércio.",
-      "aumento da demanda por produtos naturais.",
-      "crescimento da produção de alimentos.",
-      "hábito de adquirir derivados industriais",
-      "uso de agrotóxicos nas plantações."
+      "desagregação de camadas pedológicas.",
+      "diversidade de polinizadores naturais.",
+      "contaminação de lençóis freáticos.",
+      "produtividade da terra cultivada.",
+      "ocorrência da erosão laminar."
     ],
-    "correta": 4,
-    "comentario": "<p>O Brasil é o maior consumidor de agrotóxicos do mundo, um reflexo do modelo agroexportador baseado em monoculturas de larga escala. O uso excessivo de pesticidas contamina solos, rios e aquíferos, além de gerar resistência em pragas e intoxicar trabalhadores rurais. A charge critica a naturalização desse modelo como sinônimo de produtividade.</p>",
-    "ajuda": "A charge critica o uso de agrotóxicos na produção agrícola brasileira. Observe os elementos visuais da imagem e relacione-os à crítica implícita sobre saúde, ambiente e modelo produtivo. O que a imagem exagera para provocar reflexão?"
+    "correta": 1,
+    "comentario": "Entre os anos de 1960 e 1970, o Brasil modernizou sua agricultura adotando mecanização e uso intensivo de pesticidas sintéticos. Embora isso tenha aumentado a produtividade, a aplicação indiscriminada de inseticidas resultou na contaminação de solos, águas e alimentos, além da exposição de trabalhadores e comunidades a intoxicações. A ausência de fiscalização e a pulverização aérea agravaram a dispersão dessas substâncias. Dentre os impactos mais severos, destaca-se a diminuição da diversidade de polinizadores naturais, como abelhas nativas, borboletas e outros insetos, que sofreram declínio devido à toxicidade dos pesticidas e à degradação de seus habitats.",
+    "ajuda": "Inseticidas não distinguem insetos 'inimigos' de insetos benéficos. O que acontece com abelhas, borboletas e outros polinizadores quando há pulverização em larga escala nas lavouras?",
+    "tags": [
+      "Pesticidas",
+      "Agricultura moderna",
+      "Polinizadores naturais"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "Inseticidas não desagregam fisicamente o solo. Podem contaminá-lo, mas não são a causa direta de erosão pedológica.",
+      "2": "Embora pesticidas contaminem a água, a questão pede o que DIMINUIU. Contaminação é um acréscimo negativo, não uma redução de algo positivo.",
+      "3": "A Revolução Verde, pelo contrário, aumentou a produtividade agrícola. O texto descreve expansão do uso de inseticidas, não queda de produção.",
+      "4": "Erosão laminar é causada pelo escoamento superficial e pela falta de cobertura vegetal — não está diretamente ligada ao uso de inseticidas."
+    }
   },
   {
     "id": 9,
@@ -219,7 +265,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A produção sustentável busca atender às necessidades presentes sem comprometer os recursos para as gerações futuras. Práticas como agroflorestas, rotação de culturas e manejo integrado de pragas permitem produzir alimentos enquanto conservam o ecossistema. Esse modelo é especialmente relevante em comunidades tradicionais e de agricultura familiar.</p>",
-    "ajuda": "A prática produtiva apresentada é uma alternativa ao modelo convencional. Pense em práticas agroecológicas que preservam a biodiversidade e os recursos naturais. O objetivo é identificar o conceito que melhor classifica essa abordagem."
+    "ajuda": "A prática produtiva apresentada é uma alternativa ao modelo convencional. Pense em práticas agroecológicas que preservam a biodiversidade e os recursos naturais. O objetivo é identificar o conceito que melhor classifica essa abordagem.",
+    "feedbacks": {
+      "0": "A fusão comercial de lavouras temporárias é uma prática de concentração econômica da produção, sem relação com os princípios agroecológicos de sustentabilidade e diversidade.",
+      "2": "A pecuária intensiva com alta concentração de animais e uso de insumos químicos é questionada pelos princípios agroecológicos. A agroecologia privilegia sistemas integrados de baixo impacto, e não a intensificação da pecuária convencional.",
+      "3": "A padronização alimentar contraria os princípios da agroecologia, que valoriza a diversidade alimentar, os saberes locais e as culturas tradicionais. A agroecologia defende justamente o oposto da homogeneização alimentar.",
+      "4": "A modernização logística de plantios convencionais é uma forma de intensificação do agronegócio convencional, sem relação com os princípios agroecológicos. A agroecologia questiona o modelo convencional, não busca modernizá-lo."
+    }
   },
   {
     "id": 10,
@@ -244,6 +296,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A agricultura familiar e orgânica enfrenta desvantagens competitivas frente ao agronegócio, pois opera em menor escala e acessa menos crédito e tecnologia. Subsídios estatais a pequenos produtores compensam essa assimetria, garantindo alimentos mais saudáveis e diversificados nos mercados locais. Países como França e Japão utilizam esse mecanismo para preservar sua cultura alimentar e agrícola.</p>",
-    "ajuda": "A questão trata da agricultura orgânica e agroecológica no Brasil. Pense no papel do Estado em regular, estimular ou restringir práticas agrícolas. Qual ação governamental seria mais coerente com o fomento à produção orgânica familiar?"
+    "ajuda": "A questão trata da agricultura orgânica e agroecológica no Brasil. Pense no papel do Estado em regular, estimular ou restringir práticas agrícolas. Qual ação governamental seria mais coerente com o fomento à produção orgânica familiar?",
+    "feedbacks": {
+      "1": "Favorecer a fertilização química intensiva é uma política de apoio ao agronegócio convencional, o oposto do suporte a práticas sustentáveis e familiares. A questão aborda o apoio a cultivos de base familiar.",
+      "2": "Restringir o uso de maquinário moderno seria um retrocesso tecnológico sem relação com as políticas de apoio à produção familiar sustentável. A questão aborda o que deve ser feito para apoiar esses cultivos, não limitar suas ferramentas.",
+      "3": "Controlar a expansão de sistemas de irrigação não é a medida principal de apoio aos cultivos familiares. A irrigação pode ser essencial para a agricultura familiar em regiões semiáridas.",
+      "4": "A regulamentação de sementes selecionadas pode criar dependência de sementes patenteadas, prejudicando a agricultura familiar. Além disso, não é a principal medida de apoio aos cultivos familiares no contexto da questão."
+    }
   }
 ]

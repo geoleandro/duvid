@@ -842,7 +842,7 @@ document.addEventListener('DOMContentLoaded', () => {
         wrapper.style.cssText = 'text-align:center;padding:24px 0 8px';
         wrapper.innerHTML = `
             <button onclick="abrirModalReporteTexto()" class="btn-melhorar-aula">
-                ✍️ Melhorar esta aula
+                📝 Melhorar esta aula
             </button>
         `;
         if (footer) {

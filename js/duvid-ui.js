@@ -137,7 +137,7 @@ const DuvidUI = {
 
         // 2. Frases fixas por Patente/Level
         const frasesPorLevel = {
-            1: `Olá ${nome}! O mundo é vasto. Comece sua exploração pelas aulas abaixo! 🚀`,
+            1: `Olá ${nome}! O mundo é vasto. Seu aprendizado está apenas começando! 🚀`,
             2: `Mandou bem, Explorador! Seus primeiros passos na geografia estão rendendo frutos. ✨`,
             3: `O mapa está ganhando forma, ${nome}! Um Cartógrafo de respeito. 🗺️`,
             4: `Visão estratégica ativada! Você está dominando as escalas do mundo. 🧠`,

@@ -21,7 +21,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As metrópoles ocupam o topo da hierarquia urbana brasileira, exercendo funções de comando sobre redes regionais e nacionais. São Paulo é a principal metrópole nacional, seguida por Rio de Janeiro e Brasília como metrópoles nacionais de segundo nível, e por capitais regionais como Manaus, Recife e Porto Alegre. Essa hierarquia foi mapeada pelo IBGE no estudo REGIC (Regiões de Influência das Cidades).</p>",
-    "ajuda": "A rede urbana brasileira é hierárquica. Pense nos diferentes níveis: metrópoles globais, nacionais, regionais, capitais regionais e centros sub-regionais. O enunciado descreve cidades que articulam pequenas regiões — qual nível é esse?"
+    "ajuda": "A rede urbana brasileira é hierárquica. Pense nos diferentes níveis: metrópoles globais, nacionais, regionais, capitais regionais e centros sub-regionais. O enunciado descreve cidades que articulam pequenas regiões — qual nível é esse?",
+    "feedbacks": {
+      "0": "Centros sub-regionais são municípios com influência limitada a uma porção menor do território, abaixo das capitais regionais na hierarquia urbana do IBGE. Cidades como Goiânia, Belém e Manaus exercem influência sobre toda uma macrorregião, sendo classificadas em nível muito superior.",
+      "1": "As metrópoles nacionais no REGIC são São Paulo, Rio de Janeiro e Brasília, que comandam a rede urbana em escala nacional. Goiânia, Belém e Manaus possuem influência regional expressiva, mas não alcançam o nível de metrópole nacional na classificação do IBGE.",
+      "3": "Capitais regionais estão abaixo das metrópoles na hierarquia do REGIC e exercem influência sobre conjuntos menores de municípios. Goiânia, Belém e Manaus possuem papéis de comando regional mais amplos, compatíveis com a categoria de metrópole, não de capital regional.",
+      "4": "Metrópole global é uma classificação reservada a cidades que se integram ao sistema financeiro e de decisões em escala mundial, como São Paulo. Goiânia, Belém e Manaus, apesar de importantes regionalmente, não possuem esse nível de inserção no sistema urbano global."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,12 @@
     ],
     "correta": 2,
     "comentario": "<p>As cidades globais — como Nova York, Londres, Tóquio e São Paulo — funcionam como centros de comando da economia mundial, concentrando bolsas de valores, sedes de multinacionais, centros de pesquisa e serviços financeiros avançados. Elas conectam as redes de fluxos de capital, informação e pessoas em escala planetária, sendo os principais nós da globalização. Sua influência transcende fronteiras nacionais, organizando o espaço geográfico mundial.</p>",
-    "ajuda": "A questão trata de conceitos sobre redes urbanas e cidades globais. Megacidades não são exclusivas de países desenvolvidos — várias estão em países emergentes como China, Índia e Brasil. Analise cada alternativa com cuidado."
+    "ajuda": "A questão trata de conceitos sobre redes urbanas e cidades globais. Megacidades não são exclusivas de países desenvolvidos — várias estão em países emergentes como China, Índia e Brasil. Analise cada alternativa com cuidado.",
+    "feedbacks": {
+      "0": "As redes urbanas podem ser nacionais ou transnacionais, e o conceito não se limita a cidades de um mesmo país. A rede urbana mundial conecta cidades de diferentes nações em um sistema hierárquico de trocas econômicas, de informação e de poder.",
+      "1": "As megacidades não são exclusividade dos países desenvolvidos: Mumbai, Lagos, Dhaka, São Paulo e Cidade do México são exemplos de megacidades em países emergentes ou em desenvolvimento. O critério para megacidade é o tamanho populacional, não o nível de desenvolvimento do país.",
+      "3": "As redes urbanas mais densas e articuladas se desenvolveram nos países desenvolvidos, como as da Europa Ocidental, do nordeste dos EUA e do Japão, onde a industrialização e a integração econômica foram precoces e mais intensas. Em países emergentes, as redes urbanas tendem a ser mais fragmentadas."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A conurbação é o processo pelo qual cidades vizinhas têm seu crescimento urbano horizontal fundido, eliminando os limites físicos entre elas. Diferente da metropolização — que implica relação hierárquica — a conurbação é essencialmente morfológica: dois ou mais tecidos urbanos que se tocam e se superpõem. Exemplos no Brasil incluem os municípios da Grande São Paulo e da Região dos Lagos no Rio de Janeiro.</p>",
-    "ajuda": "Conurbação envolve crescimento horizontal de cidades vizinhas. Lembre-se que não há sobreposição política nem vertical — é um processo físico de fusão das manchas urbanas pelo crescimento contínuo dos perímetros urbanos."
+    "ajuda": "Conurbação envolve crescimento horizontal de cidades vizinhas. Lembre-se que não há sobreposição política nem vertical — é um processo físico de fusão das manchas urbanas pelo crescimento contínuo dos perímetros urbanos.",
+    "feedbacks": {
+      "0": "A conurbação é um fenômeno espacial, mas não implica sobreposição política: as cidades conurbadas mantêm administrações municipais separadas e limites políticos distintos. O que se funde é o tecido urbano físico, não as jurisdições governamentais.",
+      "1": "Um conjunto de áreas integradas política e socioeconomicamente descreve uma região metropolitana ou aglomeração urbana funcional, e não especificamente a conurbação. A conurbação é definida pelo crescimento físico contínuo que apaga os limites visuais entre cidades, independentemente de integração política.",
+      "2": "A conurbação resulta do crescimento horizontal da mancha urbana, e não do crescimento vertical dos edifícios. O adensamento vertical pode ocorrer dentro de uma área conurbada, mas não é o que define ou caracteriza o fenômeno.",
+      "3": "A ausência de serviços coletivos comuns é um problema que pode surgir em áreas conurbadas, mas não faz parte da definição do processo. A conurbação é definida positivamente pela fusão física do espaço urbano de cidades vizinhas, não pela ausência de serviços compartilhados."
+    }
   },
   {
     "id": 4,
@@ -90,7 +107,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O mapa das regiões de influência das cidades, produzido pelo estudo REGIC do IBGE, classifica as cidades brasileiras conforme sua capacidade de polarizar serviços, comércio e fluxos em seu entorno. As metrópoles têm maior alcance de influência, enquanto cidades locais atendem apenas sua área imediata. Esse mapeamento é essencial para o planejamento regional e a alocação de equipamentos públicos.</p>",
-    "ajuda": "O mapa provavelmente mostra as regiões de influência das cidades brasileiras. Pense na hierarquia urbana do IBGE (REGIC): cada metrópole polariza uma região. Qual conceito melhor descreve esse fenômeno de atração e influência?"
+    "ajuda": "O mapa provavelmente mostra as regiões de influência das cidades brasileiras. Pense na hierarquia urbana do IBGE (REGIC): cada metrópole polariza uma região. Qual conceito melhor descreve esse fenômeno de atração e influência?",
+    "feedbacks": {
+      "0": "Um mapa de conurbação mostraria a fusão física das malhas urbanas de cidades adjacentes, representando continuidade espacial construída. Regiões de influência são áreas funcionais em torno de um centro urbano que comanda serviços e decisões, podendo incluir municípios distantes sem continuidade urbana.",
+      "2": "Um mapa das grandes metrópoles nacionais representaria apenas pontos ou símbolos nas localizações das principais cidades, não áreas ou regiões ao redor delas. Regiões de influência são delimitadas por zonas que mostram até onde o poder de polarização de uma cidade se estende.",
+      "3": "A hierarquia dos centros urbanos é representada por um sistema de pontos com tamanhos diferentes ou tabelas de classificação, não por áreas de influência delimitadas no espaço. O mapa em questão mostra a abrangência espacial da polarização de cada centro, que é o conceito de região de influência.",
+      "4": "O Brasil tem pouquíssimas ou nenhuma megalópole consolidada no sentido estrito do termo, e um mapa de influências urbanas distribuídas por todo o território nacional não representa conexões entre megalópoles. As regiões de influência são conceito mais adequado para descrever o que um mapa desse tipo apresenta."
+    }
   },
   {
     "id": 5,
@@ -113,7 +136,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As megacidades são aglomerações urbanas com mais de 10 milhões de habitantes, concentradas principalmente em países em desenvolvimento da Ásia, África e América Latina, onde o crescimento urbano foi mais acelerado. Tóquio, Delhi, Xangai, São Paulo e Cidade do México estão entre as maiores. Esse crescimento acelerado gera desafios enormes de mobilidade, habitação, saneamento e governança metropolitana.</p>",
-    "ajuda": "As maiores concentrações urbanas do mundo incluem megacidades de países em desenvolvimento. Analise o conceito correto: megacidades têm mais de 10 milhões de habitantes, mas não necessariamente são as mais ricas ou tecnológicas."
+    "ajuda": "As maiores concentrações urbanas do mundo incluem megacidades de países em desenvolvimento. Analise o conceito correto: megacidades têm mais de 10 milhões de habitantes, mas não necessariamente são as mais ricas ou tecnológicas.",
+    "feedbacks": {
+      "1": "Metrópoles mundiais não é um termo técnico consolidado na Geografia Urbana, e a definição proposta de 'cidades mais ricas do globo' não corresponde à distribuição das maiores concentrações populacionais. Tokio e Delhi são megacidades por população, não necessariamente por riqueza.",
+      "2": "Cidades inteligentes é um conceito relacionado ao uso de tecnologia para gestão urbana, e não ao tamanho da população. Cidades como Mumbai, Lagos e Dhaka são megacidades por volume populacional, mas não se destacam como centros de inovação tecnológica.",
+      "3": "Cidades globais são os nós financeiros e de decisão do capitalismo globalizado, como Nova York, Londres e Tóquio. Nem todas as maiores concentrações populacionais do mundo são cidades globais: Lagos e Kinshasa, por exemplo, são megacidades mas não se inserem no circuito das cidades globais.",
+      "4": "Megalópoles são corredores urbanos que conectam várias metrópoles em continuidade espacial, como o BosWash nos EUA. As maiores concentrações populacionais do mapa não são necessariamente megalópoles, e a riqueza não é critério para essa classificação."
+    }
   },
   {
     "id": 6,
@@ -138,7 +167,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A região polarizada é o território organizado em torno de um centro urbano que fornece serviços e emprego para as cidades menores ao seu redor. O Rio de Janeiro polariza uma vasta região no Sudeste, atraindo consumidores, estudantes e trabalhadores de cidades fluminenses e de estados vizinhos. Essa relação de polarização estrutura a rede urbana e determina os fluxos de pessoas, mercadorias e serviços.</p>",
-    "ajuda": "A questão trata da relação espacial entre um município e a cidade do Rio de Janeiro. Pense nos conceitos de área metropolitana, conurbação e polarização. Qual deles descreve melhor a dependência funcional de uma cidade menor em relação à metrópole?"
+    "ajuda": "A questão trata da relação espacial entre um município e a cidade do Rio de Janeiro. Pense nos conceitos de área metropolitana, conurbação e polarização. Qual deles descreve melhor a dependência funcional de uma cidade menor em relação à metrópole?",
+    "feedbacks": {
+      "0": "Frente pioneira é um conceito da Geografia Agrária que descreve a expansão da fronteira agrícola sobre áreas de vegetação nativa. Esse conceito não se aplica à relação de influência urbana que o Rio de Janeiro exerce sobre municípios e estados vizinhos.",
+      "1": "Zona de transição é um conceito utilizado para descrever faixas de transição entre biomas, climas ou tipos de vegetação. Não corresponde à área de influência econômica, política e de serviços que uma metrópole como o Rio de Janeiro exerce sobre outros municípios.",
+      "3": "A conurbação exige crescimento físico contínuo que una as malhas urbanas de cidades vizinhas. A influência do Rio de Janeiro sobre municípios do Espírito Santo, do sul da Bahia e da Zona da Mata mineira não implica nenhuma fusão física de tecidos urbanos.",
+      "4": "A periferia metropolitana designa os municípios imediatamente ao redor de uma metrópole, dentro de sua região metropolitana institucionalizada. A zona de influência descrita para o Rio de Janeiro se estende muito além desses limites imediatos, alcançando outros estados."
+    }
   },
   {
     "id": 7,
@@ -161,7 +196,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A industrialização do Brasil, concentrada no Sudeste a partir dos anos 1950, criou uma rede urbana de caráter nacional ao integrar regiões produtoras de matérias-primas ao polo industrial paulista. Estradas, ferrovias e infraestrutura logística conectaram cidades de diferentes tamanhos em uma hierarquia funcional. Esse processo consolidou São Paulo como metrópole nacional e gerou a macrocefalia urbana que caracteriza o país.</p>",
-    "ajuda": "A rede urbana brasileira se formou seguindo os ciclos econômicos históricos: litoral no período colonial, interior com o café e depois com a industrialização. Pense em como isso criou uma rede densa no Sudeste e mais dispersa no interior."
+    "ajuda": "A rede urbana brasileira se formou seguindo os ciclos econômicos históricos: litoral no período colonial, interior com o café e depois com a industrialização. Pense em como isso criou uma rede densa no Sudeste e mais dispersa no interior.",
+    "feedbacks": {
+      "0": "A rede urbana brasileira não se formou a partir do interior: ela se originou no litoral, com os portos coloniais e as cidades litorâneas fundadas pelos portugueses. As cidades 'boca de sertão' surgiram como pontos de articulação com o interior, mas foram secundárias na formação inicial da rede.",
+      "1": "A rede urbana brasileira manteve um padrão dendrítico (pouco integrado, voltado para a exportação) muito além do início do século XIX, prolongando-se até a metade do século XX. Foi a industrialização pós-1950 que transformou esse padrão em uma rede mais articulada e integrada.",
+      "3": "A globalização aprofundou a multifuncionalidade dos principais centros urbanos brasileiros, que concentram simultaneamente funções industriais, financeiras, comerciais, culturais e de serviços avançados. A monofuncionalidade descrita na alternativa contradiz a lógica das cidades globais e metrópoles nacionais, que se destacam justamente pela diversidade de funções."
+    }
   },
   {
     "id": 8,
@@ -182,7 +222,10 @@
     ],
     "correta": 0,
     "comentario": "<p>A reestruturação da rede urbana brasileira nas últimas décadas envolveu o fortalecimento de cidades médias como polos regionais de serviços e indústria. Cidades como Ribeirão Preto, Uberlândia e Joinville ganharam funções antes exclusivas das metrópoles, descentralizando parcialmente a rede. Esse processo é impulsionado pela desconcentração industrial, agronegócio e expansão do setor de serviços para o interior.</p>",
-    "ajuda": "A reestruturação da rede urbana brasileira envolve novos fluxos econômicos e de pessoas. O item avalia se há uma tendência de descentralização ou de reforço da hierarquia tradicional. Leia com atenção a afirmativa apresentada."
+    "ajuda": "A reestruturação da rede urbana brasileira envolve novos fluxos econômicos e de pessoas. O item avalia se há uma tendência de descentralização ou de reforço da hierarquia tradicional. Leia com atenção a afirmativa apresentada.",
+    "feedbacks": {
+      "1": "A afirmativa descreve corretamente a reestruturação da rede urbana brasileira: São Paulo perdeu parte da hegemonia industrial após a crise dos anos 1980, mas manteve sua posição como principal centro financeiro e de serviços avançados do país. Classificar essa afirmativa como errada contraria um processo amplamente documentado pela Geografia Urbana brasileira."
+    }
   },
   {
     "id": 9,
@@ -204,30 +247,43 @@
     ],
     "correta": 1,
     "comentario": "<p>A urbanização brasileira foi marcada por forte concentração no Sudeste até os anos 1970, quando a rede urbana era relativamente simples. Com o tempo, o crescimento do agronegócio no Centro-Oeste, a industrialização do Sul e os projetos amazônicos diversificaram a rede, criando novos polos regionais. As afirmativas I, II e V sintetizam corretamente esse processo de complexificação da hierarquia urbana.</p>",
-    "ajuda": "As assertivas tratam do processo de urbanização brasileiro. Analise cada uma: o processo se intensificou após a Segunda Guerra, a violência urbana tem causas sociais e o Centro-Oeste se urbanizou com Brasília e o agronegócio."
+    "ajuda": "As assertivas tratam do processo de urbanização brasileiro. Analise cada uma: o processo se intensificou após a Segunda Guerra, a violência urbana tem causas sociais e o Centro-Oeste se urbanizou com Brasília e o agronegócio.",
+    "feedbacks": {
+      "0": "A afirmativa IV é falsa: na rede urbana brasileira, apenas São Paulo é classificada como metrópole global pelo IBGE; Belo Horizonte é uma metrópole nacional, não global. Além disso, as afirmativas I, II e V também são corretas, tornando errado indicar somente IV.",
+      "2": "A afirmativa III é falsa, pois o processo de urbanização no Brasil é profundamente heterogêneo entre as regiões, refletindo as grandes disparidades socioeconômicas do país. A afirmativa IV também é falsa, já que Belo Horizonte não é metrópole global. Ambas as afirmativas que esta alternativa indica como verdadeiras são, na realidade, incorretas.",
+      "3": "A afirmativa III é falsa: a urbanização brasileira foi altamente desigual entre as regiões, e não homogênea. As afirmativas I e V são corretas e deveriam constar nesta alternativa, mas não constam. Incluir III como verdadeira invalida essa opção.",
+      "4": "A afirmativa IV é falsa porque São Paulo é a única metrópole global do Brasil segundo o IBGE, e Belo Horizonte é metrópole nacional. As afirmativas I e II também são corretas e não estão incluídas nesta alternativa, tornando-a incompleta e incorreta."
+    }
   },
   {
     "id": 10,
-    "instituicao": "PUC-RS",
-    "ano": "2008",
-    "dificuldade": "dificil",
-    "tags": [
-      "crescimento urbano",
-      "metrópole",
-      "mapa",
-      "desigualdade regional"
-    ],
-    "imagem_apoio": "2ano/img/228/s28q10.png",
-    "pergunta": "INSTRUÇÃO: Para responder à questão, analise os mapas e as afirmativas referentes ao aumento das cidades com mais de 500 mil habitantes no Brasil, preenchendo os parênteses com V para verdadeiro e F para falso.\n\nQuanto às cidades brasileiras com mais de 500 mil habitantes, afirma-se:\n\n( ) A maior concentração de cidades deste porte ocorre na região Norte do Brasil\n\n( ) Dentre as causas para o aumento das cidades deste porte no país, é correto citar o êxodo rural.\n\n( ) Esse aumento vincula-se à oferta de empregos no setor industrial, favorecido pela migração de indústrias dos grandes centros para essas cidades.\n\n( ) Suas vantagens competitivas em relação às grandes cidades, como isenção de impostos municipais e oferta de mais infra- estrutura, facilitam o aumento dos ganhos sobre o capital investido, contribuindo para o aumento do número destas cidades.\n\nA sequência correta de preenchimento dos parênteses é:",
+    "ano": "UNICAMP 2026",
+    "imagem_apoio": "2ano/img/228/unicamp26q7.png",
+    "texto_apoio": "A segunda edição do estudo Gestão do Território, elaborado pelo Instituto Brasileiro de Geografia e Estatística (IBGE) em 2024, mostra, no universo dos 5.570 municípios do país, quais são os Centros de Gestão, isto é, os núcleos responsáveis pelo papel de comando na rede urbana brasileira. Em 2024, apenas 39,1% dos municípios do Brasil se qualificavam como Centros de Gestão do Território (2.176 municípios). Um indicador de centralidade na gestão do território é o número de assalariados externos ao Município da sede da empresa.",
+    "fonte_apoio": "IBGE, Gestão do território: 2024. In: IBGE, Rio de Janeiro, 2025. IBGE, Cadastro Central de Empresas: 2012/2021. In: IBGE, Rio de Janeiro, p. 7, 2025.",
+    "pergunta": "Com base no gráfico anterior, e em seus conhecimentos sobre a rede urbana brasileira, é correto afirmar que",
     "alternativas": [
-      "V - F - F – F.",
-      "F - F - F - V.",
-      "V - V - V - F.",
-      "F - V - V - V.",
-      "V - V - V – V."
+      "Rio de Janeiro, capital, amplia sua centralidade como centro de gestão empresarial do território nacional, conservando sua histórica função industrial e de administração pública.",
+      "Barueri apresenta tendência de crescimento do assalariado externo, contribuindo para manter a Região Metropolitana de São Paulo no topo da hierarquia urbana.",
+      "Brasília apresenta tendência de queda de seus assalariados externos, demonstrando a dificuldade da capital do país para permanecer como centro de gestão pública do território na atualidade.",
+      "Itajaí apresenta destaque por sua função industrial, perdendo força na centralidade da gestão empresarial do território por ser uma cidade de médio porte na Região Metropolitana da Foz do Rio Itajaí."
     ],
-    "correta": 3,
-    "comentario": "<p>O aumento do número de cidades com mais de 500 mil habitantes no Brasil reflete a consolidação de uma rede urbana policêntrica, com múltiplos polos regionais além das tradicionais metrópoles do Sudeste. Esse crescimento se deu especialmente no Centro-Oeste, Norte e Nordeste, impulsionado pelo agronegócio e por investimentos públicos em infraestrutura. Os mapas evidenciam a interiorização e redistribuição da urbanização brasileira.</p>",
-    "ajuda": "As afirmativas sobre crescimento urbano devem ser analisadas com os dados do mapa. Pense em como o Brasil cresceu em cidades com mais de 500 mil habitantes e se isso ocorreu de forma concentrada ou distribuída pelo território."
+    "correta": 1,
+    "comentario": "Barueri é um polo econômico estratégico na Região Metropolitana de São Paulo, com grande concentração de sedes empresariais. O gráfico mostra crescimento dos assalariados externos em Barueri — pessoas que residem no município mas trabalham fora (ou vice-versa), indicando forte pendularidade com São Paulo. Esse crescimento reforça a centralidade da RM de São Paulo no topo da hierarquia urbana brasileira.",
+    "ajuda": "O indicador é o número de assalariados externos — pessoas que moram no município mas obtêm renda fora. Barueri fica na Grande São Paulo. O gráfico mostra crescimento ou queda nesse indicador para Barueri? E o que esse resultado diz sobre a posição da RM de São Paulo na hierarquia urbana?",
+    "tags": [
+      "rede urbana",
+      "hierarquia urbana",
+      "Centros de Gestão do Território",
+      "IBGE",
+      "Barueri",
+      "região metropolitana"
+    ],
+    "dificuldade": "media",
+    "feedbacks": {
+      "0": "O Rio de Janeiro perdeu posição relativa para São Paulo como centro de gestão empresarial. Além disso, não conserva função industrial expressiva em termos de centralidade de gestão territorial.",
+      "2": "Brasília não apresenta queda de assalariados externos — mantém e amplia sua centralidade como centro de gestão pública. O gráfico mostra crescimento, não declínio.",
+      "3": "Itajaí é um polo logístico e portuário relevante, com crescimento de centralidade — não está perdendo força. Além disso, não existe a 'Região Metropolitana da Foz do Rio Itajaí' com esse nome oficial."
+    }
   }
 ]

@@ -22,7 +22,13 @@
     ],
     "correta": 0,
     "ajuda": "A charge critica a modernização agrícola e suas contradições. Pense: a mecanização aumentou a produtividade, mas o que aconteceu com o emprego rural? Qual é a principal contradição social desse processo no Brasil?",
-    "comentario": "<p>O Brasil apresenta uma grande contradição no seu espaço agrário. Enquanto ano após ano as safras\r\n batem recordes de produção, ainda há uma grande parcela da população com subnutrição. Os avanços na\r\n biotecnologia ajudaram na expansão das terras agricultáveis, mas não apagaram os problemas de\r\n desigualdade social no campo.</p>\n<!-- <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->"
+    "comentario": "<p>O Brasil apresenta uma grande contradição no seu espaço agrário. Enquanto ano após ano as safras\r\n batem recordes de produção, ainda há uma grande parcela da população com subnutrição. Os avanços na\r\n biotecnologia ajudaram na expansão das terras agricultáveis, mas não apagaram os problemas de\r\n desigualdade social no campo.</p>\n<!-- <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
+    "feedbacks": {
+      "1": "A modernização técnica do agronegócio ocorreu de fato, mas ela ampliou empregos especializados na cadeia produtiva e não gerou necessariamente uma redução do emprego formal como sua contradição central. A principal contradição apontada é a coexistência entre expansão da produção e manutenção de profundas desigualdades sociais no campo.",
+      "2": "O agronegócio brasileiro é voltado para a exportação de commodities em larga escala, o que representa exatamente o oposto da valorização de atividades de subsistência. A produtividade da terra cresceu expressivamente com o uso de insumos tecnológicos, o que contradiz inteiramente essa afirmativa.",
+      "3": "O agronegócio é caracterizado pelo monocultivo intensivo em grandes propriedades, e não pelo desenvolvimento de policulturas. A afirmativa combina incorretamente um elemento típico da agricultura familiar (policultura) com a concentração fundiária do agronegócio.",
+      "4": "As exportações de produtos primários como soja, carne e cana cresceram de forma expressiva com a expansão do agronegócio brasileiro, e não houve retração. A contradição do modelo está na manutenção das desigualdades sociais, não na queda das exportações."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 2,
     "ajuda": "O Cerrado é chamado de 'berço das águas' por alimentar grandes bacias hidrográficas. O aquífero mencionado é formado em rochas sedimentares permeáveis. Lembre-se que o Guarani está associado à Bacia Sedimentar do Paraná.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "O aquífero Urucuia está associado à Bacia Sedimentar do Parnaíba e ao Cráton do São Francisco, nas regiões centro-oeste e nordeste, e não ao Escudo das Guianas, que se localiza na porção norte do continente. A associação geológica apresentada está geograficamente equivocada.",
+      "1": "O aquífero Guarani está inserido na Bacia Sedimentar do Paraná e é formado por rochas sedimentares porosas e permeáveis, especialmente arenitos. Rochas metamórficas como as do Escudo Atlântico são impermeáveis e não armazenam água subterrânea em grandes quantidades.",
+      "3": "Rochas basálticas são ígneas e geralmente impermeáveis, enquanto aquíferos sedimentares dependem de rochas porosas para armazenar água. O Cráton do São Francisco é uma estrutura cristalina, não uma bacia sedimentar, e o Urucuia é classificado como aquífero sedimentar.",
+      "4": "Apesar de a Bacia Sedimentar do Parnaíba ser a localização correta do aquífero Cabeças, este é formado por rochas sedimentares permeáveis, não por rochas ígneas. Rochas ígneas são predominantemente impermeáveis e não constituem aquíferos porosos capazes de armazenar grandes volumes de água."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 2,
     "ajuda": "O debate energético envolve o equilíbrio entre oferta, demanda e impacto ambiental. Analise cada afirmativa: a energia nuclear tem riscos e o debate sobre Belo Monte foi legítimo. Qual alternativa apresenta uma visão equilibrada e factualmente correta?",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "A energia nuclear produz resíduos radioativos de alta toxicidade que permanecem perigosos por milhares de anos, o que contradiz diretamente a afirmação de que esse tipo de produção não gera resíduos impactantes. O debate energético pós-Fukushima reforçou exatamente a preocupação com esses passivos ambientais e sociais.",
+      "1": "A produção de energia é economicamente rentável em diversas modalidades, sendo exatamente essa lucratividade um dos fatores que orienta as escolhas do setor energético. Afirmar que a produção energética não é rentável economicamente contraria os fundamentos da expansão do setor em todo o mundo.",
+      "3": "A participação das fontes renováveis na geração de eletricidade mundial ainda estava abaixo de 30% à época da questão, e não próxima de 52% como afirmado. Embora as renováveis estejam crescendo, o percentual indicado está superestimado e não corresponde aos dados reais do período.",
+      "4": "A construção de Belo Monte provocou impactos ambientais e sociais amplamente documentados, incluindo o deslocamento de populações indígenas e a alteração do regime hídrico do rio Xingu. Afirmar que o avanço tecnológico suplantou as dificuldades e que não houve impacto ambiental contraria as evidências registradas."
+    }
   },
   {
     "id": 4,
@@ -94,7 +112,13 @@
     ],
     "correta": 0,
     "ajuda": "As afirmativas tratam da geração hidrelétrica no Brasil. Lembre-se que as grandes usinas foram construídas principalmente a partir dos anos 1950-60, durante a industrialização. Analise se as proposições sobre histórico e localização são corretas.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p> -->\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p> -->\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "1": "A afirmativa III é falsa: as usinas de Angra dos Reis representam menos de 3% da geração elétrica brasileira e jamais evitaram colapsos no abastecimento energético. Incluir III como correta invalida essa alternativa, pois o sistema elétrico brasileiro não tem no nuclear sua sustentação.",
+      "2": "Tanto a III é falsa quanto a I é correta, o que invalida essa combinação. A afirmativa III sobre as usinas nucleares de Angra dos Reis superestima a relevância do nuclear na matriz energética nacional, e a afirmativa II sobre a construção de Itaipu sem preocupação ambiental também é correta.",
+      "3": "A afirmativa III é incorreta: as usinas nucleares de Angra do Reis não evitaram colapso energético algum, dado seu peso marginal na matriz brasileira. As afirmativas I e II são corretas, e portanto a combinação das três não pode ser correta.",
+      "4": "As afirmativas I e II são corretas, e não apenas a III. A afirmativa III, sobre as usinas de Angra evitando colapso energético, é falsa, de modo que a alternativa que indica somente III como correta está duplamente errada."
+    }
   },
   {
     "id": 5,
@@ -117,7 +141,13 @@
     ],
     "correta": 0,
     "ajuda": "O gráfico e o mapa apresentam dados sobre distribuição populacional. Identifique a contradição: um país pode ser muito populoso mas ter baixa densidade, ou vice-versa. Qual caso apresenta essa aparente contradição entre população total e proporção mundial?",
-    "comentario": "<p>O mapa evidencia a elevada população brasileira, quinta maior do mundo, o que contribui\r\n significativamente para o percentual populacional da América do Sul, mesmo sendo esse percentual\r\n baixo quando comparado com o da maioria dos continentes.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<p>O mapa evidencia a elevada população brasileira, quinta maior do mundo, o que contribui\r\n significativamente para o percentual populacional da América do Sul, mesmo sendo esse percentual\r\n baixo quando comparado com o da maioria dos continentes.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "1": "Os Estados Unidos concentram mais de 70% da população da América do Norte, de modo que afirmar que seu contingente representa menos de 50% da população norte-americana é factualmente incorreto. A aparente contradição apontada na alternativa não existe nos dados reais.",
+      "2": "A Ásia possui cerca de 60% da população mundial devido à alta densidade demográfica de países como China e Índia, não pelo tamanho do território. Afirmar que países asiáticos individualmente possuem baixa população ignora justamente esses dois gigantes demográficos que juntos reúnem quase 3 bilhões de pessoas.",
+      "3": "A Europa não apresenta o maior percentual populacional mundial; a Ásia concentra aproximadamente 60% da população global, e a Europa não ultrapassa 10%. Essa alternativa inverte os dados da distribuição demográfica mundial.",
+      "4": "A Indonésia, com mais de 230 milhões de habitantes, representa cerca de 3% da população mundial, não menos de 1% como afirmado. Além disso, a Indonésia é geograficamente pertencente ao continente asiático, e não à Oceania, o que torna a afirmativa duplamente incorreta."
+    }
   },
   {
     "id": 6,
@@ -140,7 +170,13 @@
     ],
     "correta": 3,
     "ajuda": "O IBGE divulga dados sobre composição racial da população brasileira. Pense em como esses dados devem ser usados para orientar políticas públicas que reduzam desigualdades históricas entre grupos populacionais.",
-    "comentario": "<p>Em função do processo histórico nacional, determinados grupos segundo a cor da pele viram-se\r\n marginalizados no desenvolvimento da sociedade, seja do ponto de vista econômico, educacional,\r\n social etc. A pesquisa do IBGE vai permitir que a sociedade brasileira, por intermédio de seus\r\n representantes, possa estabelecer mecanismos de correção, recuperando assim direitos de grupos\r\n minoritários.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<p>Em função do processo histórico nacional, determinados grupos segundo a cor da pele viram-se\r\n marginalizados no desenvolvimento da sociedade, seja do ponto de vista econômico, educacional,\r\n social etc. A pesquisa do IBGE vai permitir que a sociedade brasileira, por intermédio de seus\r\n representantes, possa estabelecer mecanismos de correção, recuperando assim direitos de grupos\r\n minoritários.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "Planos de contingência voltados à entrada de imigrantes tratam de controlar fluxos populacionais, não de reduzir as desigualdades sociais identificadas nos dados censitários. Essa abordagem ignora as causas estruturais da desigualdade racial e de renda apontadas pelo IBGE.",
+      "1": "Políticas afirmativas articuladas à 'hegemonia populacional' apresentam uma lógica baseada na dominância de um grupo, o que contradiz o princípio de redução de desigualdades. Políticas públicas eficazes devem ampliar direitos para grupos historicamente marginalizados, não reforçar hegemonias.",
+      "2": "Reestruturar territorialidades deslocando populações tradicionais de seus territórios aprofunda desigualdades e vulnerabilidades, em vez de reduzi-las. Comunidades tradicionais têm direitos constitucionais sobre seus territórios, e seu deslocamento é incompatível com políticas de inclusão.",
+      "4": "Minimizar a participação de grupos na definição da população brasileira apaga identidades históricas e contradiz o objetivo de reduzir desigualdades. A valorização da diversidade étnica e cultural é fundamento das políticas de inclusão, não sua negação."
+    }
   },
   {
     "id": 7,
@@ -163,7 +199,13 @@
     ],
     "correta": 1,
     "ajuda": "A sub-representação feminina em cargos de chefia não se explica por falta de qualificação. Pense nos obstáculos estruturais e culturais que as mulheres enfrentam no mercado de trabalho, mesmo sendo maioria nas universidades.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "A taxa de desemprego reflete uma condição geral do mercado de trabalho e não explica a sub-representação das mulheres especificamente nos cargos de liderança. Mesmo em períodos de baixo desemprego, a desigualdade de gênero na gestão persiste, o que indica causas estruturais culturais e organizacionais.",
+      "2": "O Brasil não apresenta uma taxa de fertilidade elevada em comparação histórica ou internacional, e a fertilidade não é o fator determinante para a menor presença feminina em postos de chefia. A correlação sugerida não tem respaldo nos estudos sobre desigualdade de gênero no mercado de trabalho.",
+      "3": "As mulheres brasileiras têm, em média, maior escolaridade do que os homens, o que deveria favorecer seu acesso a cargos de liderança, não restringi-lo. O fato de que essa escolaridade superior não se traduz em representação proporcional na gestão é justamente uma evidência das barreiras culturais que a alternativa correta identifica.",
+      "4": "A contratação de mulheres em atividades domésticas é uma consequência da divisão sexual do trabalho, não a causa da sub-representação feminina nos cargos de liderança. A barreira para a chefia está nos preconceitos institucionais e na dupla jornada, não no tipo de emprego doméstico."
+    }
   },
   {
     "id": 8,
@@ -188,7 +230,13 @@
     ],
     "correta": 1,
     "ajuda": "A letra de música descreve problemas urbanos nas periferias. Pense nas causas estruturais da segregação socioespacial: especulação imobiliária, falta de políticas habitacionais e concentração de pobreza em áreas periféricas.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "A falta de regularização fundiária em áreas distantes do centro é uma consequência da segregação socioespacial, não sua origem. O processo se inicia com a incapacidade das populações de baixa renda de acessar áreas bem localizadas por razões econômicas, e a irregularidade do solo é um resultado desse processo.",
+      "2": "Políticas habitacionais que promovem a regularização fundiária são justamente medidas para melhorar as condições de vida nas periferias, e não sua causa. Atribuir a origem dos problemas a essas políticas inverte a relação causal: as políticas de regularização respondem ao problema, não o geram.",
+      "3": "A legislação urbanística existe no Brasil, mas sua aplicação desigual é resultado da exclusão socioeconômica, não a ausência de leis e estudos. O problema central é a falta de condições econômicas para que a população de baixa renda acesse os espaços formais e bem servidos da cidade.",
+      "4": "A taxa de fertilidade brasileira não é elevada em termos históricos e, mesmo quando era mais alta, não era a causa da precariedade nas periferias. A origem dos problemas periféricos está nas desigualdades estruturais de renda, acesso à terra e políticas habitacionais insuficientes."
+    }
   },
   {
     "id": 9,
@@ -211,7 +259,13 @@
     ],
     "correta": 0,
     "ajuda": "A questão pede a alternativa CORRETA sobre migrações internas. Lembre-se que as migrações internas brasileiras têm causas históricas e econômicas complexas, e que a região Sul não é 'excludente' — ela recebeu muitos imigrantes europeus.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "1": "A industrialização mais intensa no Brasil ocorreu nas décadas de 1950 a 1970, e não na de 1940. A década de 1940 foi de transição, com um êxodo rural ainda incipiente em comparação ao que viria nas décadas seguintes, o que torna imprecisa a caracterização do período.",
+      "2": "O Sul do Brasil é historicamente uma região que recebeu forte imigração europeia e se desenvolveu com base em minifúndios produtivos, sendo uma das regiões com melhor distribuição de renda do país. Classificá-la como 'região excludente' por causa dos minifúndios contradiz tanto sua trajetória histórica quanto seus indicadores socioeconômicos.",
+      "3": "Os estados com maior movimento emigratório são historicamente os do Nordeste, especialmente Bahia, Ceará e Pernambuco, não Goiás, que é um estado receptor de migrantes no Centro-Oeste. Atribuir a Goiás o papel de principal estado emigrante contradiz os padrões históricos das migrações internas brasileiras.",
+      "4": "As secas do Sertão nordestino são um fator de repulsão importante, mas não o único responsável pelas migrações internas. Concentração fundiária, falta de infraestrutura, ausência de serviços públicos e disparidades de renda também são fatores de expulsão documentados, o que invalida o uso do termo 'único' na afirmativa."
+    }
   },
   {
     "id": 10,
@@ -233,6 +287,12 @@
     ],
     "correta": 2,
     "ajuda": "A questão pede a alternativa INCORRETA sobre migrações no Brasil. Analise cada afirmativa: o êxodo rural não cessou nos anos 1980 — ele diminuiu, mas continuou. Identifique a que distorce os fatos históricos.",
-    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->"
+    "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
+    "feedbacks": {
+      "0": "A imigração internacional de europeus, japoneses e outros grupos foi de fato muito importante para a formação demográfica do Brasil, especialmente entre o final do século XIX e a primeira metade do século XX. Essa afirmativa está correta.",
+      "1": "A migração urbano-rural, também chamada de contraurbanização ou migração de retorno, existe no Brasil e possui relevância, embora em menor escala do que o êxodo rural. Essa afirmativa está correta ao reconhecer essa modalidade migratória.",
+      "3": "As migrações internas inter-regionais foram intensas no Brasil ao longo do século XX, especialmente o fluxo Nordeste-Sudeste impulsionado pela industrialização paulista. Essa afirmativa está correta ao destacar a importância histórica das migrações inter-regionais.",
+      "4": "Portugueses, italianos, espanhóis e japoneses são de fato os principais grupos de imigrantes que compõem a formação étnica do Brasil, além de alemães e outros europeus. Essa afirmativa está correta ao identificar os grupos que mais contribuíram para a imigração estrangeira no país."
+    }
   }
 ]

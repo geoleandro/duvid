@@ -10,6 +10,7 @@
    Parâmetros de URL suportados:
      ?prova=enem2024-geografia   → arquivo JSON a carregar
      ?qtd=10                     → limitar a N questões (0 = todas)
+     ?dif=facil|media|dificil    → filtrar por dificuldade (omitir = todas)
 
    IMPORTANTE: este script deve ser incluído DEPOIS de jsquestoes-padrao.js,
    pois usa as variáveis e funções globais declaradas lá.
@@ -19,14 +20,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const params = new URLSearchParams(window.location.search);
     const prova  = params.get('prova');
     const qtd    = Math.max(0, parseInt(params.get('qtd')) || 0);
+    const dif    = params.get('dif') || '';
+    const tags   = (params.get('tags') || '').split(',').map(t => t.trim()).filter(Boolean);
 
     // Sem ?prova= a página não faz nada (deixa o motor das aulas em paz).
     if (!prova) return;
 
-    carregarSimulado(prova, qtd);
+    carregarSimulado(prova, qtd, dif, tags);
 });
 
-async function carregarSimulado(prova, qtd = 0) {
+async function carregarSimulado(prova, qtd = 0, dif = '', tags = []) {
     const container = document.getElementById('container-questao');
 
     try {
@@ -50,6 +53,7 @@ async function carregarSimulado(prova, qtd = 0) {
 
         // --- Reset do estado global do motor (declarado em jsquestoes-padrao.js) ---
         aulaID = "";                 // vazio => finalizar() NÃO grava progresso de aula
+        window._simuladoProva = nomeArquivo; // usado por enviarReporte() no lugar de aulaID
         indiceAtual = 0;
         nota = 0;
         if (typeof TOTAL_VIDAS !== "undefined") vidas = TOTAL_VIDAS;
@@ -57,8 +61,35 @@ async function carregarSimulado(prova, qtd = 0) {
         questoesErradas = [];
         window.ganhosAtuais = 0;
 
+        // Filtra por dificuldade se solicitado.
+        const DIFS_VALIDAS = ['facil', 'media', 'dificil'];
+        const DIFS_LABEL  = { facil: '🟢 Fácil', media: '🟡 Médio', dificil: '🔴 Difícil' };
+        let pool = [...dadosBrutos];
+        let avisoSemDif  = false;
+        let avisoSemTags = false;
+        if (dif && DIFS_VALIDAS.includes(dif)) {
+            const filtrado = pool.filter(q => q.dificuldade === dif);
+            if (filtrado.length > 0) {
+                pool = filtrado;
+            } else {
+                avisoSemDif = true; // nenhuma questão → usa todas
+            }
+        }
+
+        // Filtra por tags se solicitado (OR: questão precisa ter pelo menos 1 das tags).
+        if (tags.length > 0) {
+            const filtradoTags = pool.filter(q =>
+                Array.isArray(q.tags) && q.tags.some(t => tags.includes(t))
+            );
+            if (filtradoTags.length > 0) {
+                pool = filtradoTags;
+            } else {
+                avisoSemTags = true; // nenhuma questão → usa pool atual
+            }
+        }
+
         // Embaralha uma CÓPIA (não muta o cache) — mesmo padrão das aulas.
-        questoes = embaralharArray([...dadosBrutos]);
+        questoes = embaralharArray(pool);
 
         // Fatia pela quantidade solicitada (0 = todas).
         if (qtd > 0 && qtd < questoes.length) {
@@ -80,6 +111,20 @@ async function carregarSimulado(prova, qtd = 0) {
         };
 
         renderizarQuestao();
+
+        // Toasts de aviso quando filtros não retornam resultado.
+        const _toast = (msg) => {
+            const el = document.createElement('div');
+            el.style.cssText = 'position:fixed;top:70px;left:50%;transform:translateX(-50%);' +
+                'background:#333;color:#fff;padding:10px 20px;border-radius:8px;' +
+                'font-size:0.9rem;z-index:9999;opacity:1;transition:opacity 1s;white-space:nowrap';
+            el.textContent = msg;
+            document.body.appendChild(el);
+            setTimeout(() => { el.style.opacity = '0'; }, 3000);
+            setTimeout(() => { el.remove(); }, 4200);
+        };
+        if (avisoSemDif)  _toast(`Nenhuma questão ${DIFS_LABEL[dif] || dif} neste banco — mostrando todas.`);
+        if (avisoSemTags) _toast(`Nenhuma questão com os temas selecionados — mostrando todas.`);
 
         if (typeof DuvidUI !== "undefined" && typeof DuvidUI.atualizarInterface === "function") {
             DuvidUI.atualizarInterface();

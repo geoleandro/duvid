@@ -504,6 +504,17 @@
             hotspot de biodiversidade e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
             a qualidade de vida das populações que dependem desse bioma. </p>
 
+        <p>Desde 2006, o bioma conta com uma legislação federal específica, a <strong>Lei da Mata Atlântica</strong>
+            (Lei nº 11.428), que impõe regras mais rígidas para o desmatamento e a exploração da vegetação nativa,
+            justamente por seu estado avançado de fragmentação. Desde 1985, a organização SOS Mata Atlântica produz
+            anualmente o Atlas da Mata Atlântica, que monitora por satélite a perda de florestas maduras dentro dos
+            limites de aplicação da lei. Os dados acumulados ao longo de quase quatro décadas mostram uma tendência
+            geral de queda no desmatamento: das taxas mais altas registradas nos anos 1980 e 1990 até o menor valor
+            da série histórica, observado no período de 2017 a 2018. Ainda assim, o desmatamento nunca cessou, e em
+            anos recentes a taxa voltou a subir para patamares acima desse mínimo histórico, o que mostra que a
+            redução ao longo do tempo, embora real, é lenta, e que o bioma segue vulnerável mesmo com a legislação de
+            proteção em vigor.</p>
+
 
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>

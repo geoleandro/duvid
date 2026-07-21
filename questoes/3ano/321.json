@@ -22,7 +22,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O USMCA (2018), substituto do NAFTA, fortaleceu exigências trabalhistas no México e facilitou o acesso de produtos americanos ao mercado canadense de laticínios. Também incluiu cláusulas para repatriar empregos industriais aos EUA — objetivo central do presidente Trump ao renegociar o acordo.</p>",
-    "ajuda": "O USMCA (novo Nafta) renegociou as condições de acesso entre EUA, Canadá e México. Ao analisar as afirmativas, lembre-se de que o acordo beneficia principalmente as indústrias americanas e que o Canadá cedeu acesso ao seu mercado de laticínios. Avalie quais proposições são verdadeiras."
+    "ajuda": "O USMCA (novo Nafta) renegociou as condições de acesso entre EUA, Canadá e México. Ao analisar as afirmativas, lembre-se de que o acordo beneficia principalmente as indústrias americanas e que o Canadá cedeu acesso ao seu mercado de laticínios. Avalie quais proposições são verdadeiras.",
+    "feedbacks": {
+      "0": "A sequencia I, II e V inclui a proposicao II, que contem uma imprecisao ou erro sobre os efeitos do USMCA. A correta identificacao das proposicoes verdadeiras exige analisar cada uma em relacao ao conteudo real do acordo comercial entre EUA, Canada e Mexico.",
+      "1": "A sequencia II e III exclui as proposicoes I e V, que sao as corretas, e inclui II e III, que contem erros sobre o funcionamento e os efeitos do USMCA. A leitura do trecho e o conhecimento do acordo sao necessarios para identificar quais proposicoes estao de acordo com os fatos.",
+      "2": "A proposicao III isoladamente nao e suficiente para responder corretamente, e exclui a proposicao I, que tambem e verdadeira. Alem disso, o enunciado pede a combinacao de proposicoes verdadeiras, e a proposicao III sozinha nao representa adequadamente os aspectos corretos do texto.",
+      "3": "A sequencia IV e V inclui a proposicao IV, que contem informacao incorreta sobre o USMCA, e exclui a proposicao I, que e verdadeira. A alternativa correta combina apenas as proposicoes comprovadamente corretas pelo texto."
+    }
   },
   {
     "id": 2,
@@ -46,7 +52,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O território destacado no mapa canadense refere-se ao Nunavut, criado em 1999 como território autônomo dos Inuit (esquimós) no Ártico. Com mais de 2 milhões de km², é o maior território do Canadá, mas tem apenas 36.000 habitantes — evidência do enorme vazio demográfico do norte canadense.</p>",
-    "ajuda": "O Canadá tem uma enorme extensão territorial, mas a maior parte do norte é de difícil habitação por causa do clima ártico. O território destacado no mapa provavelmente se refere às regiões de tundra ou às terras dos povos indígenas do norte canadense."
+    "ajuda": "O Canadá tem uma enorme extensão territorial, mas a maior parte do norte é de difícil habitação por causa do clima ártico. O território destacado no mapa provavelmente se refere às regiões de tundra ou às terras dos povos indígenas do norte canadense.",
+    "feedbacks": {
+      "0": "O territorio dos separatistas de origem francesa e o Quebec, nao o territorio marcado em vermelho no mapa. O Quebec e uma provincia do leste canadense, enquanto o territorio dos inuit (esquimos) que recebeu autonomia em 1999 e Nunavut, localizado no extremo norte do pais.",
+      "2": "O Monte Santa Helena e um vulcao localizado no estado de Washington, nos EUA, e nao no Canada. Alem disso, o territorio norte do Canada nao e caracterizado por intensa atividade vulcânica; e uma regiao de tundra e permafrost habitada pelos inuit.",
+      "3": "As primeiras areas do Canada a serem colonizadas pelos europeus foram as costas atlanticas do leste (Nova Scotia, Terra Nova) e o Vale do Rio Sao Lourenco, por britanicos e franceses. O grande norte canadense, onde vivem os inuit, foi uma das ultimas regioes a ser organizada politicamente.",
+      "4": "O Canada nao e membro da OPEP; essa organizacao e composta principalmente por paises do Oriente Medio, Africa e Venezuela. Alem disso, o territorio dos inuit em Nunavut nao e o principal produtor de petroleo do Canada; as maiores reservas canadenses estao em Alberta."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A população mexicana é resultado da mestiçagem entre povos indígenas (astecas, maias, zapotecas) e colonizadores espanhóis, com menor participação africana. Hoje, cerca de 60% dos mexicanos são mestiços (mistura europeia-indígena), 30% são ameríndios e menos de 10% são brancos de origem europeia.</p>",
-    "ajuda": "A população mexicana é resultado de uma intensa miscigenação entre povos indígenas (astecas, maias) e colonizadores europeus (espanhóis), com menor participação africana em comparação ao Brasil e ao Caribe. Identifique qual alternativa descreve corretamente essa composição."
+    "ajuda": "A população mexicana é resultado de uma intensa miscigenação entre povos indígenas (astecas, maias) e colonizadores europeus (espanhóis), com menor participação africana em comparação ao Brasil e ao Caribe. Identifique qual alternativa descreve corretamente essa composição.",
+    "feedbacks": {
+      "0": "O Mexico teve intensa colonizacao espanhola e mestiçagem profunda ao longo de seculos; afirmar origem exclusivamente indigena ignora completamente esse processo historico. Diferente do que ocorre em paises com populacao predominantemente indigena, o Mexico e majoritariamente mestico (indigena + espanhol).",
+      "2": "A influencia africana no Mexico e historicamente menor do que em paises como Brasil, Cuba ou Colombia. O elemento predominante na formacao etnica mexicana e o indigena (maias, astecas, zapotecas) combinado ao espanhol, e nao o afrodescendente.",
+      "3": "A distribuicao etnica mexicana nao segue a proporcao de 50% branca e 50% indigena. Os mesticos, resultado da mistura entre indigenas e europeus, formam a grande maioria da populacao mexicana, enquanto brancos europeus e indigenas puros sao minorias.",
+      "4": "O Mexico nao e predominantemente branco de origem espanhola; pelo contrario, a populacao branca europeia e uma minoria. A heranca das grandes civilizacoes indigenas (maia, asteca) torna o elemento indigena o mais marcante na formacao da populacao mexicana."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A afirmativa incorreta sobre o Canadá é que as Províncias Atlânticas apresentam recente concentração populacional por serem nova área industrial. Na realidade, as Províncias Atlânticas (Nova Escócia, New Brunswick) são economicamente menos dinâmicas e perderam população para Ontario e British Columbia.</p>",
-    "ajuda": "O Canadá concentra sua população em uma estreita faixa ao sul do território, próxima à fronteira com os EUA, pelos melhores climas e pela proximidade dos grandes mercados. Pense em qual alternativa descreve corretamente essa característica da distribuição populacional canadense."
+    "ajuda": "O Canadá concentra sua população em uma estreita faixa ao sul do território, próxima à fronteira com os EUA, pelos melhores climas e pela proximidade dos grandes mercados. Pense em qual alternativa descreve corretamente essa característica da distribuição populacional canadense.",
+    "feedbacks": {
+      "0": "A grande concentracao populacional no sudeste canadense e explicada de fato pelo poder economico de provincias como Ontario e Quebec, que concentram industria, financas e servicos. Essa afirmacao esta correta como descricao da distribuicao demografica canadense.",
+      "2": "O grande Norte Canadense e de fato uma area de vazio demografico: clima extremo, permafrost e isolamento tornam o estabelecimento humano dificil, apesar dos abundantes recursos minerais. Essa afirmacao esta correta como descricao da realidade demografica do norte do pais.",
+      "3": "A populacao canadense se concentra ao longo da fronteira com os EUA em funcao do clima mais ameno, da proximidade dos mercados americanos e da melhor infraestrutura. Essa afirmacao esta correta como explicacao para o padrao de distribuicao da populacao canadense.",
+      "4": "A alta mecanizacao da agricultura de precisao nas pradarias libera mao de obra para outros setores, como industria e servicos, contribuindo para o desenvolvimento economico de cidades da regiao. Essa afirmacao esta correta como descricao do impacto da modernizacao agricola na distribuicao do trabalho."
+    }
   },
   {
     "id": 5,
@@ -118,7 +142,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A gangorra instalada na fronteira EUA-México ilustra metaforicamente a interdependência econômica entre os dois países: o que acontece de um lado afeta o outro. O NAFTA/USMCA criou cadeias produtivas integradas — especialmente na indústria automotiva — e um fluxo migratório de trabalhadores mexicanos para os EUA.</p>",
-    "ajuda": "A fronteira EUA-México é marcada por dois temas centrais: o fluxo migratório de mexicanos para o norte em busca de trabalho, e a questão do narcotráfico. Identifique qual par de aspectos é enfatizado no brinquedo satirizando as relações binacionais."
+    "ajuda": "A fronteira EUA-México é marcada por dois temas centrais: o fluxo migratório de mexicanos para o norte em busca de trabalho, e a questão do narcotráfico. Identifique qual par de aspectos é enfatizado no brinquedo satirizando as relações binacionais.",
+    "feedbacks": {
+      "0": "A restricao ao trafico de drogas e a submissao comercial nao sao os aspectos das relacoes binacionais enfatizados por quem cria um brinquedo simbolico dessa relacao. Os aspectos mais evidentes sao o controle do fluxo de pessoas na fronteira e a intensa interdependencia economica entre os dois paises.",
+      "1": "O combate ao terrorismo nao e o aspecto central das relacoes binacionais EUA-Mexico que inspiraria a criacao de um brinquedo tematico. A relacao EUA-Mexico e marcada principalmente pelo intenso fluxo de imigrantes e pela integracao economica via NAFTA e USMCA.",
+      "2": "A reducao da criminalidade e a dominacao financeira nao capturam os aspectos mais emblematicos das relacoes EUA-Mexico que seriam representados por um brinquedo. A imigração (e o controle dela pela fronteira) e a interdependencia economica sao as dimensoes mais visiveis e simbolicas dessa relacao."
+    }
   },
   {
     "id": 6,
@@ -143,7 +172,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O NAFTA (1994) e seu substituto USMCA (2020) demonstraram que blocos econômicos na América do Norte têm motivações políticas e econômicas complexas. O momento assistido revela reconfiguração dos acordos existentes por tensões internas (Brexit, protecionismo americano) e não o fim dos blocos.</p>",
-    "ajuda": "Os blocos econômicos surgem para aumentar a competitividade dos países membros no mercado global. Pense em qual avaliação o texto faz sobre o papel dos blocos na América Latina, considerando as especificidades do processo de integração regional."
+    "ajuda": "Os blocos econômicos surgem para aumentar a competitividade dos países membros no mercado global. Pense em qual avaliação o texto faz sobre o papel dos blocos na América Latina, considerando as especificidades do processo de integração regional.",
+    "feedbacks": {
+      "0": "A globalizacao nao levou ao fim dos blocos economicos; ao contrario, novos blocos surgiram e os existentes se aprofundaram nas ultimas decadas. A formacao de blocos e uma resposta estrategica a globalizacao, que busca fortalecer paises dentro de um mercado globalizado.",
+      "1": "Os blocos economicos nao asseguram a bipolaridade mundial; esta terminou com o fim da Guerra Fria em 1991. Os blocos sao arranjos de integracao economica entre paises, independentemente da logica bipolar que caracterizou o seculo XX.",
+      "2": "A ALCA foi proposta nos anos 1990 e nunca chegou a ser implementada, especialmente apos a resistencia de paises como o Brasil. Alem disso, seu periodo de gestacao coincide com o pos-Guerra Fria, e nao com o periodo imediatamente apos a Segunda Guerra Mundial.",
+      "4": "A associacao de paises em blocos economicos nao revela incapacidade de abertura; ao contrario, os blocos sao instrumentos de abertura comercial negociada entre membros. Os blocos criam regras para facilitar o comercio entre seus integrantes, e nao fechar os mercados."
+    }
   },
   {
     "id": 7,
@@ -167,7 +202,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As maquiladoras são indústrias instaladas no norte do México, perto da fronteira americana, que importam componentes isentos de tarifas, montam produtos e os exportam de volta. Esse modelo explora o diferencial salarial entre México e EUA: um trabalhador mexicano ganha 5-10 vezes menos que seu equivalente americano.</p>",
-    "ajuda": "O NAFTA/USMCA criou uma zona de livre comércio entre EUA, Canadá e México. Uma das consequências foi a instalação de maquiladoras (fábricas de montagem) na fronteira com o México, onde o custo da mão de obra é menor. Identifique o que o acordo ratificou em termos de produção."
+    "ajuda": "O NAFTA/USMCA criou uma zona de livre comércio entre EUA, Canadá e México. Uma das consequências foi a instalação de maquiladoras (fábricas de montagem) na fronteira com o México, onde o custo da mão de obra é menor. Identifique o que o acordo ratificou em termos de produção.",
+    "feedbacks": {
+      "1": "As maquiladoras nao sao parques tecnologicos de alta tecnologia que priorizam o desenvolvimento industrial mexicano. Sao montadoras com trabalho intensivo e baixo custo de mao de obra, voltadas para exportacao ao mercado americano, e nao para gerar tecnologia ou desenvolvimento local.",
+      "2": "As maquiladoras sao empresas de capital estrangeiro (principalmente americano) instaladas em territorio MEXICANO, e nao o contrario. Nao ha industrias mexicanas em territorio americano no mesmo modelo; o fluxo das maquiladoras e de capital americano em direcao ao Mexico.",
+      "3": "O fenomeno das maquiladoras nao envolve universidades tecnicas mexicanas em territorio canadense. As maquiladoras sao empresas de montagem instaladas nas regioes de fronteira do norte do Mexico, voltadas para o mercado norte-americano.",
+      "4": "Empresas canadenses em territorio americano prestando servicos solidarios nao descrevem o fenomeno das maquiladoras. As maquiladoras sao industrias de montagem estrangeiras no Mexico que se beneficiam da mao de obra barata e da proximidade com o mercado consumidor americano."
+    }
   },
   {
     "id": 8,
@@ -189,7 +230,10 @@
     ],
     "correta": 0,
     "comentario": "<p>A emigração mexicana para os EUA representa uma das maiores migrações da história: estima-se que 12 milhões de mexicanos vivam nos EUA. Motivada pela pobreza, pelo desemprego e pela violência do narcotráfico, essa migração é simultaneamente econômica (busca de trabalho) e política (fuga de violência).</p>",
-    "ajuda": "A migração de mexicanos para os EUA é motivada principalmente pela busca de melhores salários e pela pobreza no México. O IBGE ou fontes similares classificam esse fluxo como migração econômica. Avalie se a afirmativa sobre o tema é correta ou errada."
+    "ajuda": "A migração de mexicanos para os EUA é motivada principalmente pela busca de melhores salários e pela pobreza no México. O IBGE ou fontes similares classificam esse fluxo como migração econômica. Avalie se a afirmativa sobre o tema é correta ou errada.",
+    "feedbacks": {
+      "1": "A emigracao de mexicanos para os EUA e uma estrategia amplamente documentada e de longa data adotada pela populacao menos favorecida para superar as limitacoes economicas do pais. Classificar essa afirmacao como errada nega uma realidade historica e demografica amplamente comprovada pelos dados de migracao internacional."
+    }
   },
   {
     "id": 9,
@@ -212,7 +256,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A afirmativa incorreta é a B: as relações EUA-México não foram resolvidas com a eleição de Obama. A fronteira de 3.000 km continua sendo uma das mais vigiadas do mundo, com muro em construção, patrulhas e deportações em massa — herança de décadas de assimetria entre uma superpotência e seu vizinho dependente.</p>",
-    "ajuda": "A relação México-EUA é marcada pela assimetria de poder, pelo narcotráfico, pela imigração ilegal e pela integração econômica via NAFTA. Pense em qual alternativa não corresponde a essa realidade — a questão pede a exceção."
+    "ajuda": "A relação México-EUA é marcada pela assimetria de poder, pelo narcotráfico, pela imigração ilegal e pela integração econômica via NAFTA. Pense em qual alternativa não corresponde a essa realidade — a questão pede a exceção.",
+    "feedbacks": {
+      "0": "O Mexico foi de fato uma das primeiras vitimas do imperialismo norte-americano no seculo XIX, perdendo quase metade de seu territorio para os EUA no Tratado de Guadalupe Hidalgo (1848). Essa afirmacao esta correta como descricao historica das relacoes assimétricas entre os dois paises.",
+      "2": "A tendencia dos norte-americanos de menosprezar ou ignorar os ressentimentos mexicanos e uma realidade historica e cultural documentada, refletindo a assimetria de poder entre os dois paises. Essa afirmacao esta correta como descricao de um elemento das relacoes culturais e politicas entre as duas nacoes.",
+      "3": "O Mexico pode de fato se tornar um problema geopolitico para os EUA caso suas fragilidades politicas e economicas se aprofundem, gerando instabilidade, crime organizado e maior pressao migratoria na fronteira. Essa afirmacao esta correta como avaliacao dos riscos geopoliticos da relacao bilateral.",
+      "4": "Os mexicanos buscam postos de trabalho nos EUA em grande numero, tanto por vias legais quanto ilegais, em resposta as disparidades economicas entre os dois paises. Essa afirmacao esta correta como descricao do fenomeno migratório que marca a relacao EUA-Mexico."
+    }
   },
   {
     "id": 10,
@@ -236,6 +286,12 @@
     ],
     "correta": 2,
     "comentario": "<p>Quebec é a única província francófona do Canadá e desenvolve um forte movimento separatista. Em referendos de 1980 e 1995, os quebequenses votaram por manter-se no Canadá por margem pequena. A tensão entre a identidade cultural francesa e a estrutura política anglófona é o principal desafio geopolítico interno canadense.</p>",
-    "ajuda": "O Canadá foi formado por colonizações inglesa e francesa, o que gerou uma tensão cultural e linguística especialmente na província de Quebec. Pense em qual aspecto histórico e cultural marca de forma mais profunda a identidade e os desafios políticos canadenses."
+    "ajuda": "O Canadá foi formado por colonizações inglesa e francesa, o que gerou uma tensão cultural e linguística especialmente na província de Quebec. Pense em qual aspecto histórico e cultural marca de forma mais profunda a identidade e os desafios políticos canadenses.",
+    "feedbacks": {
+      "0": "Conflitos etnicos graves nao caracterizam a parte meridional do Canada; o pais e reconhecido internacionalmente por sua politica multicultural e pela baixa intensidade de conflitos etnicos. O principal problema geopolitico canadense e o separatismo do Quebec, nao conflitos ethnicos no sul.",
+      "1": "Nao ha conflitos expressivos entre migrantes canadenses e autoridades americanas de fronteira como problema geopolitico central do Canada. O maior problema geopolitico interno canadense e o movimento separatista da provincia do Quebec, que realizou referendos de independencia em 1980 e 1995.",
+      "3": "A diferenca de idiomas e de etnias e o contexto que fundamenta o problema geopolitico, mas nao e o problema em si. O problema geopolitico central derivado dessa diversidade e o separatismo da provincia francofona do Quebec, que reivindica independencia do Canada anglofono.",
+      "4": "Recursos minerais podem gerar disputas economicas, mas nao configuram o principal problema geopolitico do Canada, que e um pais estavel e rico. O verdadeiro desafio geopolitico canadense e o separatismo do Quebec, que ameaca a unidade territorial do Estado federal."
+    }
   }
 ]

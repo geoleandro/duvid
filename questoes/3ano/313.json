@@ -19,7 +19,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A rizicultura asiática de jardinagem é um dos sistemas agrícolas mais intensivos do mundo: cultiva arroz em terraços inundados (técnica milenar), com mão de obra familiar intensa e produção destinada ao consumo local. Essa prática alimenta mais de 3 bilhões de pessoas na Ásia e é símbolo de adaptação humana ao relevo montanhoso.</p>",
-    "ajuda": "Os sistemas agrícolas tradicionais (itinerante, de subsistência) convivem com a agricultura moderna. Pense em quais características definem esses sistemas — baixo uso de insumos, integração com o ecossistema local e técnicas ancestrais."
+    "ajuda": "Os sistemas agrícolas tradicionais (itinerante, de subsistência) convivem com a agricultura moderna. Pense em quais características definem esses sistemas — baixo uso de insumos, integração com o ecossistema local e técnicas ancestrais.",
+    "feedbacks": {
+      "0": "A agricultura itinerante e milenar e antecede o colonialismo europeu por milênios, sendo praticada por povos indigenas e camponeses desde muito antes da expansao colonial. Atribuir seu inicio a expansao europeia e desconhecer a origem pre-historica desse sistema.",
+      "2": "A descricao de pequenas propriedades com mao de obra familiar pode se aplicar a varios sistemas de subsistencia, mas nao captura a caracteristica essencial da itinerante: a rotacao de parcelas com derrubada, queima e posterior abandono do solo apos o esgotamento. A itinerante e definida pelo movimento, nao apenas pelo porte da propriedade.",
+      "3": "Associar a agricultura itinerante a pecuaria extensiva como complemento principal desvirtua o sistema; a pecuaria extensiva e um sistema distinto que ocupa grandes pastagens abertas. Alem disso, a itinerante nao implica necessariamente pouca relacao com o mercado externo como fator definidor.",
+      "4": "Embora a agricultura itinerante utilize tecnicas rudimentares e ocorra em areas perifericas, sua caracteristica essencial e a mobilidade: as parcelas sao cultivadas ate o esgotamento do solo e depois abandonadas para regeneracao. Focar apenas na tecnologia e na integracao ao capitalismo nao captura o que define o sistema."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A pecuária intensiva ou confinada representa o modelo industrial de criação animal: os animais são mantidos em espaços fechados, com ração balanceada, vacinação contínua e controle rigoroso do crescimento. Esse sistema maximiza a produtividade por área, mas gera debates sobre bem-estar animal e impacto ambiental.</p>",
-    "ajuda": "A pecuária pode ser classificada conforme o uso do espaço e a intensidade tecnológica. Quando os animais são confinados com ração e cuidados sanitários para acelerar o crescimento, isso representa a forma mais intensiva de criação. Identifique o termo correto."
+    "ajuda": "A pecuária pode ser classificada conforme o uso do espaço e a intensidade tecnológica. Quando os animais são confinados com ração e cuidados sanitários para acelerar o crescimento, isso representa a forma mais intensiva de criação. Identifique o termo correto.",
+    "feedbacks": {
+      "1": "A pecuaria extensiva e realizada em grandes pastagens abertas, com baixo investimento em insumos e sem confinamento do gado. O texto descreve justamente o oposto: confinamento total com uso de racao e cuidados sanitarios constantes.",
+      "2": "A pecuaria semi-intensiva combina periodos de pastagem com alguma suplementacao alimentar, nao o confinamento completo descrito. O nivel de intervencao tecnica descrito no enunciado supera o que caracteriza o sistema semi-intensivo.",
+      "3": "A pecuaria semiextensiva e similar a semi-intensiva, com o animal em pasto boa parte do tempo e apenas suplementacao parcial. O confinamento total com racao controlada e visando precocidade do abate caracteriza o sistema intensivo, nao o semiextensivo.",
+      "4": "A pecuaria natural pressupoe criacao sem insumos artificiais, sem racao industrial e sem intervencoes veterinarias sistematicas. O texto descreve alto nivel de intervencao tecnologica e sanitaria, o que e caracteristica do sistema intensivo."
+    }
   },
   {
     "id": 3,
@@ -67,7 +79,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O Dairy Belt (Cinturão do Leite) nos EUA localiza-se nos estados do nordeste (Wisconsin, Minnesota, Nova York) próximos a grandes centros urbanos como Chicago e Nova York. A lógica é econômica: o leite é perecível, então a produção deve estar perto do mercado consumidor para reduzir custos de transporte e perda do produto.</p>",
-    "ajuda": "A agricultura norte-americana é caracterizada pelo modelo empresarial (agrobusiness), com grande mecanização e integração com o mercado global. Pense em qual fator logístico é fundamental para viabilizar a exportação em grande escala que define esse modelo."
+    "ajuda": "A agricultura norte-americana é caracterizada pelo modelo empresarial (agrobusiness), com grande mecanização e integração com o mercado global. Pense em qual fator logístico é fundamental para viabilizar a exportação em grande escala que define esse modelo.",
+    "feedbacks": {
+      "0": "Universidades nao sao fator locacional determinante para a producao leiteira; o leite fresco e altamente perecivel e precisa ser consumido rapidamente. O que define a localizacao do Dairy Belt e a proximidade de grandes centros consumidores urbanos, e nao a presenca de instituicoes de ensino.",
+      "2": "A rede de transporte propicia a exportacao e um fator secundario para o leite fresco, cuja perecibilidade torna inviavel o transporte de longas distancias sem refrigeracao intensiva. A logica do Dairy Belt e abastecer mercados urbanos proximos, e nao exportar o produto.",
+      "3": "Embora a topografia plana facilite a mecanizacao pecuaria, esse e um fator secundario na localizacao do Dairy Belt no nordeste dos Estados Unidos. O fator principal e a proximidade de grandes concentracoes urbanas que consomem o leite produzido na regiao."
+    }
   },
   {
     "id": 4,
@@ -90,7 +107,12 @@
     ],
     "correta": 1,
     "comentario": "<p>A agropecuária comercial moderna distingue-se da tradicional pelo uso intensivo de tecnologia: sementes transgênicas, mecanização, irrigação, fertilizantes e agrotóxicos. A afirmativa incorreta é a de que dispensa mão de obra especializada — ao contrário, esse modelo exige técnicos agrícolas e operadores de máquinas qualificados.</p>",
-    "ajuda": "A agropecuária moderna distingue-se da tradicional pela intensidade tecnológica, pela escala de produção e pelo grau de integração ao mercado. Identifique qual alternativa descreve corretamente as características estruturais da produção agropecuária moderna."
+    "ajuda": "A agropecuária moderna distingue-se da tradicional pela intensidade tecnológica, pela escala de produção e pelo grau de integração ao mercado. Identifique qual alternativa descreve corretamente as características estruturais da produção agropecuária moderna.",
+    "feedbacks": {
+      "0": "Administrar grandes propriedades rurais modernas como empresas e uma caracteristica real da agropecuaria comercial: ela exige planejamento financeiro, gestao de custos, controle de producao e busca de maximizacao do lucro, tal como qualquer empresa industrial. Essa afirmacao esta correta.",
+      "2": "Os altos custos de equipamentos e insumos, como tratores, colheitadeiras, fertilizantes e defensivos, fazem com que a agropecuaria moderna seja viavel principalmente em larga escala, pois os custos fixos sao diluidos no volume de producao. Essa afirmacao esta correta.",
+      "3": "O uso intensivo de recursos tecnologicos no campo, como irrigacao, sementes melhoradas, mecanizacao e sensoriamento remoto, e justamente a marca da agropecuaria comercial moderna, que substituiu progressivamente o trabalho manual pela alta tecnologia. Essa afirmacao esta correta."
+    }
   },
   {
     "id": 5,
@@ -113,7 +135,13 @@
     ],
     "correta": 2,
     "comentario": "<p>As sementes transgênicas concentram o controle da cadeia alimentar nas mãos de poucas corporações (Monsanto/Bayer, Syngenta, Pioneer). Apesar dos ganhos de produtividade, geram dependência dos agricultores por novas sementes a cada safra e levantam questões sobre soberania alimentar e biodiversidade.</p>",
-    "ajuda": "As sementes transgênicas concentram o controle da produção alimentar nas mãos de poucas empresas multinacionais. Isso gera dependência dos agricultores e questionamentos sobre biodiversidade e soberania alimentar. Avalie qual afirmativa sobre transgênicos é correta."
+    "ajuda": "As sementes transgênicas concentram o controle da produção alimentar nas mãos de poucas empresas multinacionais. Isso gera dependência dos agricultores e questionamentos sobre biodiversidade e soberania alimentar. Avalie qual afirmativa sobre transgênicos é correta.",
+    "feedbacks": {
+      "0": "Os transgenicos sao utilizados predominantemente pelo agronegocio empresarial de grande escala; a agricultura familiar em geral tem menos acesso a essas tecnologias e depende de sementes convencionais ou organicas. Afirmar que constituem a base da agricultura familiar contraria a realidade do setor.",
+      "1": "O oposto e verdadeiro: grandes corporacoes como Monsanto e Bayer controlam as patentes de sementes transgenicas, concentrando o mercado e criando dependencia dos agricultores em relacao a essas empresas. A atuacao dessas empresas amplia, e nao diminui, a possibilidade de formacao de monopolios.",
+      "3": "Nao ha relacao causal direta entre o uso de transgenicos e a reducao dos subsidios agricolas dos paises centrais; os subsidios existem por razoes politicas e economicas internas de cada pais. A alternativa estabelece uma relacao de causa e efeito que os dados nao sustentam.",
+      "4": "Ao contrario de um consenso, o uso de transgenicos e alvo de forte oposicao de movimentos sociais como a Via Campesina e de debate intenso em organismos internacionais como a OMS e a FAO. A alternativa inverte a realidade do conflito em torno dos organismos geneticamente modificados."
+    }
   },
   {
     "id": 6,
@@ -136,31 +164,45 @@
     ],
     "correta": 3,
     "comentario": "<p>A agricultura itinerante (ou de corte e queima) é um dos sistemas mais antigos da humanidade, praticado por povos indígenas na Amazônia e em florestas tropicais. A área cultivada é abandonada após alguns anos, quando o solo se esgota, e o processo se repete — necessitando de grandes extensões de terra.</p>",
-    "ajuda": "O texto descreve um sistema agrícola específico. Pense nas características do Plantation (monocultura para exportação), da Rotação de Culturas (alternância para recuperar o solo) e da Agricultura Itinerante (corte e queima) para identificar o sistema correto."
+    "ajuda": "O texto descreve um sistema agrícola específico. Pense nas características do Plantation (monocultura para exportação), da Rotação de Culturas (alternância para recuperar o solo) e da Agricultura Itinerante (corte e queima) para identificar o sistema correto.",
+    "feedbacks": {
+      "0": "O Sistema de Plantation e uma grande propriedade voltada para monocultura de exportacao com trabalho assalariado ou escravizado e nao envolve o abandono do solo apos esgotamento. A definicao apresentada descreve rotacao de area com uso do fogo, caracteristica da itinerante, nao da plantation.",
+      "1": "O Sistema Intensivo utiliza alta tecnologia, mecanizacao e insumos para maximizar a producao por unidade de area, sendo o oposto da agricultura itinerante. A definicao de derrubada, queima e migracao para nova area nao se aplica a um sistema que busca producao continua e intensa no mesmo local.",
+      "2": "A Agricultura Vazante aproveita a umidade residual das varzeas apos a cheia dos rios para cultivar sem irrigacao artificial. Ela nao envolve derrubada de floresta, queima da vegetacao nem migracao para novas areas apos esgotamento do solo.",
+      "4": "A Rotacao de Culturas e a pratica de alternar diferentes plantas no mesmo terreno ao longo das estacoes para manter a fertilidade do solo sem o abandona-lo. Diferente da itinerante, a rotacao de culturas nao envolve queima nem migracao para novas parcelas."
+    }
   },
   {
     "id": 7,
-    "instituicao": "ENEM",
-    "ano": "2005",
-    "dificuldade": "facil",
-    "tags": [
-      "agropecuária",
-      "produção agrícola",
-      "sistemas de cultivo"
-    ],
-    "fonte_apoio": "*Soja, Trigo, Milho, Arroz e Algodão **Previsão Obs.: Há ainda 13 milhões de hectares utilizados por plantações das chamadas culturas permanentes, como hortifrutigranjeiros. (Fontes: Censo Agropecuário, Instituto Brasileiro de Geografia e Estatística (IBGE) e Ministério da Agricultura)",
-    "imagem_apoio": "3ano/img/313/t13q7.png",
-    "pergunta": "Considerando os conhecimentos sobre o espaço agrário brasileiro e os dados apresentados no gráfico, é correto afirmar que, no período indicado,",
+    "ano": "UNESP 2026",
+    "imagem_apoio": "3ano/img/313/unesp26q4.png",
+    "texto_apoio": "Maquiando os transgênicos. Mostarda mais palatável que alface? Indústria alimentícia usa técnica premiada com o Nobel para tornar alimentos mais atrativos e tentar quebrar resistência de parte dos consumidores. O primeiro protótipo tem previsão de lançamento no mercado ainda em 2025: uma folha de mostarda geneticamente modificada para remover sua picância. A proposta foi originalmente desenvolvida pela startup de tecnologia agrícola Pairwise, que firmou um acordo exclusivo de licenciamento de produto com a multinacional alemã Bayer para desenvolver e comercializar o vegetal. As modificações foram feitas a partir de uma técnica capaz de alterar com alta precisão o DNA de animais, plantas e microrganismos, a mesma que, em 2020, rendeu às pesquisadoras Emmanuelle Charpentier e Jennifer A. Doudna o Prêmio Nobel de Química.",
+    "fonte_apoio": "Raoni Schroeder. https://cienciahoje.org.br, maio de 2025. Adaptado.",
+    "pergunta": "Sob os pontos de vista da geografia e da biologia, a produção de gêneros agrícolas transgênicos promove, respectivamente,",
     "alternativas": [
-      "ocorreu um aumento da produtividade agrícola devido à significativa mecanização de algumas lavouras, como a da soja.",
-      "verificou-se um incremento na produção de grãos proporcionalmente à incorporação de novas terras produtivas.",
-      "registrou-se elevada produção de grãos em virtude do uso intensivo de mão de obra pelas empresas rurais.",
-      "houve um salto na produção de grãos, a partir de 91, em decorrência do total de exportações feitas por pequenos agricultores.",
-      "constataram-se ganhos tanto na produção quanto na produtividade agrícolas resultantes da efetiva reforma agrária executada."
+      "a redefinição do conceito de espaço rural e a validade da teoria da evolução das espécies na contemporaneidade.",
+      "o desenvolvimento de novas relações de trabalho no campo e a redução dos impactos antrópicos sobre os espaços naturais.",
+      "a ineficácia da modernização do campo diante da mão de obra não qualificada e a adaptação de espécies nativas em novos ambientes de cultivo.",
+      "a incorporação de saberes tradicionais nas áreas agrícolas e a interrupção de ciclos biogeoquímicos associados à vida vegetal.",
+      "a dificuldade no acesso de pequenos agricultores às sementes produzidas em laboratório e a descaracterização de mecanismos naturais de defesa contra predadores."
     ],
-    "correta": 0,
-    "comentario": "<p>O gráfico mostra que a produção brasileira de grãos cresceu exponencialmente nas últimas décadas sem aumento proporcional da área cultivada. Isso comprova o avanço da mecanização e da biotecnologia — especialmente na soja — como motores do aumento de produtividade na agricultura brasileira.</p>",
-    "ajuda": "A Revolução Verde introduziu sementes de alto rendimento, fertilizantes e agrotóxicos, aumentando a produtividade mas gerando dependência tecnológica e problemas ambientais. Avalie qual consequência o gráfico ou texto indica como resultado desse processo."
+    "correta": 4,
+    "comentario": "Do ponto de vista geográfico, os transgênicos aprofundam a desigualdade no campo: sementes patenteadas por multinacionais ficam inacessíveis para pequenos agricultores, que dependem de compra anual. Do ponto de vista biológico, plantas com mecanismos de defesa artificiais perdem seus mecanismos naturais de defesa evolutiva contra pragas e predadores. A alternativa E articula corretamente os dois ângulos pedidos pela questão.",
+    "ajuda": "A questão pede dois efeitos: um geográfico (impacto no espaço rural e nas relações socioeconômicas) e um biológico (impacto nos organismos). Quem perde quando as sementes são patenteadas por grandes empresas? E o que acontece com os mecanismos naturais de defesa da planta quando ela é geneticamente alterada?",
+    "tags": [
+      "transgênicos",
+      "CRISPR",
+      "agropecuária",
+      "biotecnologia",
+      "modernização do campo"
+    ],
+    "dificuldade": "dificil",
+    "feedbacks": {
+      "0": "A teoria da evolução de Darwin não é questionada pelos transgênicos, que realizam modificações controladas em laboratório sem alterar os princípios evolutivos. A alternativa associa dois conceitos que não se relacionam diretamente com os efeitos práticos dos transgênicos na geografia e na biologia.",
+      "1": "Os transgênicos podem alterar relações de trabalho no campo, mas não necessariamente reduzem os impactos antrópicos, pois frequentemente aumentam o uso de agroquímicos específicos. A alternativa apresenta uma visão excessivamente positiva e imprecisa dos efeitos ambientais dos transgênicos.",
+      "2": "A modernização do campo com transgênicos não é ineficaz; ao contrário, aumenta a produtividade em muitos contextos. A adaptação de espécies nativas em novos ambientes é um processo ecológico distinto da modificação genética artificial feita em laboratório.",
+      "3": "Os transgênicos geralmente entram em conflito com saberes tradicionais ao substituir sementes nativas por variedades patenteadas por multinacionais. A interrupção de ciclos biogeoquímicos não é um efeito direto e preciso da produção de transgênicos, que afeta principalmente os mecanismos de defesa e reprodução das plantas."
+    }
   },
   {
     "id": 8,
@@ -183,7 +225,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A sequência correta associa: Agricultura de Jardinagem (arroz em planícies com mão de obra familiar intensa) à rizicultura asiática; Agricultura Moderna (grande propriedade mecanizada e capitalizada) ao agronegócio; Agricultura Ecológica (pequenas e médias propriedades com técnicas sustentáveis) à produção orgânica.</p>",
-    "ajuda": "A produção agrícola varia conforme o clima, o relevo, a tecnologia disponível e a cultura de cada região. Para associar regiões a características agrícolas, pense nas condições físicas e no nível tecnológico de cada área geográfica mencionada."
+    "ajuda": "A produção agrícola varia conforme o clima, o relevo, a tecnologia disponível e a cultura de cada região. Para associar regiões a características agrícolas, pense nas condições físicas e no nível tecnológico de cada área geográfica mencionada.",
+    "feedbacks": {
+      "0": "A sequencia 4-1-2 associa a primeira caracterizacao, que descreve pequenas propriedades, rizicultura e mao de obra familiar, a agricultura ecologica (4). Essa descricao corresponde a jardinagem (1), que e tradicional e familiar, e nao a ecologica, que e definida pelo manejo sustentavel sem agroquimicos.",
+      "1": "A sequencia 2-4-1 associa a primeira caracterizacao, de rizicultura e tecnicas milenares com mao de obra familiar, a plantation (2). A plantation e um sistema de grande propriedade com monocultura voltada para exportacao, o que nao corresponde a descricao da jardinagem.",
+      "3": "A sequencia 1-3-2 associa a terceira caracterizacao, que descreve producao sustentavel sem defensivos quimicos, a plantation (2). A plantation e um sistema de monocultura de exportacao com alto uso de insumos, incompativel com a descricao da agricultura ecologica (4).",
+      "4": "A sequencia 2-1-4 associa a primeira caracterizacao, de rizicultura e mao de obra familiar, a plantation (2), que e um sistema de grande propriedade exportadora com monocultura intensiva. Essa associacao esta incorreta: a descricao corresponde a jardinagem (1)."
+    }
   },
   {
     "id": 9,
@@ -207,7 +255,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O baixo risco ambiental da soja transgênica da Embrapa deve-se à quase impossibilidade de cruzamento com espécies selvagens — o que evitaria a dispersão incontrolada do gene de resistência ao herbicida. Esse é um critério central na avaliação de segurança ambiental de organismos geneticamente modificados.</p>",
-    "ajuda": "O processo de aprovação de organismos geneticamente modificados envolve testes de segurança ambiental e alimentar. A questão sobre a soja transgênica da Embrapa exige identificar qual aspecto do processo ainda precisava ser avaliado conforme o texto."
+    "ajuda": "O processo de aprovação de organismos geneticamente modificados envolve testes de segurança ambiental e alimentar. A questão sobre a soja transgênica da Embrapa exige identificar qual aspecto do processo ainda precisava ser avaliado conforme o texto.",
+    "feedbacks": {
+      "0": "O argumento do texto e justamente o contrario: a resistencia ao herbicida e estavel e passa para as plantas-filhas. O risco ambiental seria maior se a resistencia fosse instavel, pois isso tornaria imprevisivel o comportamento da linhagem no campo.",
+      "1": "Doses de herbicida tres vezes superiores as usuais implicariam maior impacto ambiental, nao menor. Se a linhagem exige mais herbicida, o risco de contaminacao do solo e da agua seria ampliado, contradizendo o argumento de baixo risco ambiental apresentado no texto.",
+      "3": "Testes nutricionais referem-se a seguranca alimentar do consumidor, nao ao risco de fluxo genico entre especies no ambiente. O argumento especifico do texto sobre baixo risco ambiental e a incapacidade da linhagem de cruzar com especies selvagens, e nao o resultado de testes nutricionais.",
+      "4": "Testes gerais de seguranca sao esperados de qualquer organismo geneticamente modificado e nao constituem o argumento especifico que justifica o baixo risco ambiental. O ponto central do texto e a impossibilidade de cruzamento com especies selvagens, que impede a dispersao do gene modificado."
+    }
   },
   {
     "id": 10,
@@ -229,6 +283,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A sequência correta é V-F-F-V: a Agricultura Itinerante (verdadeira, pois usa coivara e queima); a Agricultura de Jardinagem (falsa, pois surgiu na Ásia Monçônica, não na Austrália); a Agricultura Comercial (falsa, pois a Intensiva usa alta tecnologia, não baixa); a Hidroponia e Orgânica (verdadeiras).</p>",
-    "ajuda": "Para avaliar as afirmativas sobre sistemas agrícolas, lembre-se: a Agricultura Itinerante é a mais primitiva; o Plantation é voltado para exportação e monocultura; a Rotação de Culturas é sustentável; a agricultura de precisão usa tecnologia avançada."
+    "ajuda": "Para avaliar as afirmativas sobre sistemas agrícolas, lembre-se: a Agricultura Itinerante é a mais primitiva; o Plantation é voltado para exportação e monocultura; a Rotação de Culturas é sustentável; a agricultura de precisão usa tecnologia avançada.",
+    "feedbacks": {
+      "0": "A primeira afirmativa e verdadeira: a Agricultura Itinerante e um dos primeiros sistemas praticados pelo homem, baseada em derrubada e queima da vegetacao, sem investimentos financeiros, com a coivara como exemplo tipico. Classifica-la como falsa contradiz o conhecimento historico sobre esse sistema.",
+      "1": "A primeira afirmativa e verdadeira, e nao falsa como indica esta sequencia: a itinerante e de fato um sistema milenar com derrubada e queima. Alem disso, a segunda afirmativa e falsa, e nao verdadeira: a Agricultura de Jardinagem surgiu no sudeste asiatico, e nao na Australia.",
+      "3": "A segunda afirmativa e falsa: a Agricultura de Jardinagem surgiu no sudeste asiatico, associada as monsoes e a rizicultura, e nao nas regioes centrais da Australia. A terceira afirmativa tambem e falsa: a Agricultura Comercial Intensiva usa muito insumo e alta tecnologia, e nao baixo investimento.",
+      "4": "A terceira afirmativa e falsa: na Agricultura Comercial Intensiva, as pequenas propriedades utilizam alta tecnologia, fertilizantes e insumos modernos, e nao baixo investimento. A descricao de uso reduzido de fertilizantes e baixos investimentos corresponde ao modelo extensivo, e nao ao intensivo."
+    }
   }
 ]

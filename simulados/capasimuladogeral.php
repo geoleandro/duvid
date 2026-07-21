@@ -33,7 +33,7 @@ ksort($disponiveis);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="/simulados/capageral.jpg">
+    <meta property="og:image" content="/simulados/duvid-simulado.png">
     <title>Duvid - Simulados de Geografia</title>
 
     <link rel="stylesheet" href="/estilos/w3.css">
@@ -148,7 +148,7 @@ ksort($disponiveis);
 
             <div class="w3-container larguraBar">
                 <div class="w3-display-container w3-margin-bottom">
-                    <img src="/simulados/capageral.jpg" alt="Estudando Geografia" class="w3-image w3-round-large" style="width:100%">
+                    <img src="/simulados/duvid-simulado.png" alt="Estudando Geografia" class="w3-image w3-round-large" style="width:100%">
                     <span class="w3-display-bottomright w3-padding w3-tiny w3-text-white" style="text-shadow: 1px 1px 2px black;">Fonte: Pexels</span>
                 </div>
 

@@ -35,6 +35,44 @@ $ano_escolar = $_GET['ano_escolar'] ?? null;  // 1, 2 ou 3
 $estado      = $_GET['estado']      ?? null;  // sigla, ex: "SP"
 $escola      = $_GET['escola']      ?? null;  // nome exato ou parcial
 $top         = min((int)($_GET['top'] ?? 50), 100);
+$escolas     = !empty($_GET['escolas']);       // agrupa por escola
+
+// ── ROTA ESPECIAL: ranking por escola (agrupado) ─────────────
+if ($escolas) {
+    $sql = "
+        SELECT
+            escola,
+            estado,
+            cidade,
+            COUNT(*)                                          AS total_alunos,
+            SUM(globinhos_total)                              AS glob_total,
+            ROUND(AVG(globinhos_total), 0)                    AS glob_media,
+            ROUND(AVG(CASE WHEN media_acertos_pct IS NOT NULL THEN media_acertos_pct END), 1) AS acerto_media,
+            SUM(aulas_100)                                    AS aulas_100_total
+        FROM ranking
+        WHERE escola IS NOT NULL AND escola != ''
+        GROUP BY escola, estado, cidade
+        ORDER BY glob_media DESC
+        LIMIT :top
+    ";
+    $stmt = $pdo->prepare($sql);
+    $stmt->bindValue(':top', $top, PDO::PARAM_INT);
+    $stmt->execute();
+    $escolas_lista = $stmt->fetchAll();
+
+    $pos = 1;
+    foreach ($escolas_lista as &$e) {
+        $e['posicao']      = $pos++;
+        $e['total_alunos'] = (int)$e['total_alunos'];
+        $e['glob_total']   = (int)$e['glob_total'];
+        $e['glob_media']   = (int)$e['glob_media'];
+        $e['aulas_100_total'] = (int)$e['aulas_100_total'];
+        $e['acerto_media'] = $e['acerto_media'] !== null ? (float)$e['acerto_media'] : null;
+    }
+    unset($e);
+
+    jsonResponse(['total' => count($escolas_lista), 'filtro' => 'escolas', 'escolas' => $escolas_lista]);
+}
 
 // -----------------------------------------------------------
 // Por que usar a VIEW "ranking" em vez de uma query grande?

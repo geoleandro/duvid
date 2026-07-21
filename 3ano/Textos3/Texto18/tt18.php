@@ -290,10 +290,20 @@
                 Macedônia do Norte.</p>
 
                 <div class="w3-margin"><img id="imagem7" src="tt18f07.png" alt="tt18f07" class="w3-mobile" >
-		  
+
                     <span class="w3-small w3-margin-left" id="citacao7" >  </span>
                     </div>
-                
+
+            <p>O caso da Macedônia do Norte ilustra bem como uma disputa identitária pode travar o processo de
+                integração europeia. Desde sua independência da Iugoslávia em 1991, o país se chamava apenas
+                Macedônia, nome que a vizinha Grécia considerava uma ameaça simbólica, já que possui uma província
+                com a mesma denominação e reivindica a herança histórica ligada a Alexandre, o Grande. Por causa
+                desse impasse, a Grécia bloqueou por décadas a entrada do país em organizações como a OTAN e a União
+                Europeia. Em 2018, os dois governos assinaram o Acordo de Prespa, pelo qual o país aceitou adotar
+                oficialmente o nome Macedônia do Norte em troca do fim do veto grego. A mudança, em vigor desde 2019,
+                mostra como concessões simbólicas em disputas de identidade nacional podem ser o preço pago por um
+                país pequeno para avançar em processos de integração regional mais amplos.</p>
+
 
 
 

@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A Geografia, como ciência, estuda a relação entre sociedade e natureza no espaço. Pense em qual definição melhor captura essa abrangência integradora, que vai além de apenas descrever paisagens físicas."
+    "ajuda": "A Geografia, como ciência, estuda a relação entre sociedade e natureza no espaço. Pense em qual definição melhor captura essa abrangência integradora, que vai além de apenas descrever paisagens físicas.",
+    "feedbacks": {
+      "0": "Reduzir a geografia a uma análise essencialmente de elementos naturais é o naturalismo determinista, perspectiva superada na ciência geográfica moderna. O espaço geográfico integra tanto os elementos naturais quanto os construídos pelo ser humano, além dos fluxos de pessoas, mercadorias e finanças.",
+      "1": "O espaço geográfico é analisado em múltiplas escalas temporais, desde as geológicas até as cotidianas, e não a partir de uma única escala. Limitar a análise a uma única escala temporal empobrece a compreensão das transformações que moldam as paisagens e os territórios.",
+      "2": "A desarticulação entre elementos naturais e construídos é o oposto do que o espaço geográfico representa. O espaço é justamente a integração e a interação entre esses dois conjuntos, e não sua separação ou desconexão.",
+      "3": "Afirmar que os elementos culturais são determinados pelos naturais é a tese do determinismo ambiental, superada na geografia moderna. A perspectiva atual reconhece que os processos culturais, sociais e econômicos têm autonomia relativa diante das condições naturais."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O espaço geográfico é formado pela combinação de elementos fixos (objetos, infraestrutura) e fluxos (movimentos de pessoas, mercadorias, informações). Lembre-se do conceito de Milton Santos ao avaliar qual afirmativa é correta."
+    "ajuda": "O espaço geográfico é formado pela combinação de elementos fixos (objetos, infraestrutura) e fluxos (movimentos de pessoas, mercadorias, informações). Lembre-se do conceito de Milton Santos ao avaliar qual afirmativa é correta.",
+    "feedbacks": {
+      "0": "A alternativa apresenta apenas os fluxos como componentes do espaço geográfico, omitindo os fixos, que são igualmente essenciais. Fixos e fluxos são inseparáveis na definição do espaço geográfico de Milton Santos: os fluxos só existem porque há fixos que os ancoram.",
+      "1": "O Estado não é o único nem o principal agente que define o que é fixo e fluxo no espaço geográfico; isso emerge das relações socioeconômicas e produtivas em cada território. A determinação do fixo e do fluxo é resultado de múltiplos agentes e processos históricos.",
+      "2": "O território é uma das dimensões analíticas do espaço geográfico (ao lado do lugar, da região e da paisagem), e não o que produz o espaço. A alternativa inverte a relação conceitual: é o espaço que engloba o território, e não o contrário.",
+      "4": "O reconhecimento do espaço geográfico pela identificação apenas dos fixos ignora os fluxos como componente essencial e inseparável. Sem os fluxos (pessoas, mercadorias, informação, capital), os fixos perdem sua função e significado no espaço."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A densidade demográfica é calculada dividindo o número de habitantes pela área em km². Ela representa a 'população relativa' de um território — diferente da população absoluta, que é o total de habitantes."
+    "ajuda": "A densidade demográfica é calculada dividindo o número de habitantes pela área em km². Ela representa a 'população relativa' de um território — diferente da população absoluta, que é o total de habitantes.",
+    "feedbacks": {
+      "0": "A demografia é a ciência que estuda a população em seus aspectos quantitativos e qualitativos; a densidade demográfica é apenas um de seus indicadores. Usar o nome da ciência no lugar do indicador específico que expressa a relação habitantes/área é impreciso tecnicamente.",
+      "2": "'População local' é uma expressão informal que indica o total de habitantes de um lugar, sem expressar a relação proporcional com a área territorial. A densidade demográfica é um índice que divide o número de habitantes pela extensão em km², o que a torna muito mais precisa.",
+      "3": "'Relação habitante/área' é uma descrição informal do que o indicador mede, e não o nome técnico convencional adotado pela ciência geográfica. A densidade demográfica é o termo técnico e padronizado para essa relação.",
+      "4": "'População residente' indica o total de habitantes de um lugar, mas não expressa a relação proporcional com a área, que é o que diferencia a densidade demográfica de um simples total populacional."
+    }
   },
   {
     "id": 4,
@@ -91,7 +109,12 @@
     ],
     "correta": 1,
     "comentario": "<p>O objetivo da questão é apontar regiões com elevada população absoluta a partir da interpretação de\r\n representação de base cartográfica.</p>\n<p>Os dois gráficos que servem de suporte à questão são, ambos, a superposição de um gráfico cartesiano\r\n sobre um planisfério. No eixo vertical do primeiro gráfico temos as latitudes e no eixo horizontal o\r\n total absoluto de habitantes. Desse modo, é possível reconhecer a distribuição populacional ao longo\r\n das latitudes. Verifica-se a maior concentração situada, aproximadamente, entre as latitudes de 10º\r\n Norte e 40º Norte. No segundo gráfico, o eixo vertical se refere ao total de habitantes e o\r\n horizontal às longitudes. Os maiores totais populacionais estão, aproximadamente, entre as\r\n longitudes de 70º Leste e 130º Leste.</p>\n<p>Ao fazer-se a plotagem das latitudes e longitudes com as maiores concentrações populacionais,\r\n constata-se que a maior quantidade absoluta de habitantes encontra-se no sudeste e no leste do\r\n continente asiático. Nessas regiões se localizam os dois países que abrigam os maiores contingentes\r\n demográficos do mundo, a China e a Índia, além de outras nações que estão entre as mais populosas do\r\n planeta, como é o caso da Indonésia, de Bangladesh e do Paquistão, além de outros países com\r\n populações expressivas.</p>",
-    "ajuda": "As maiores concentrações populacionais absolutas do mundo estão em regiões com longa história de civilizações e condições favoráveis à vida. Pense em qual continente e sub-região concentram mais de 60% da população mundial."
+    "ajuda": "As maiores concentrações populacionais absolutas do mundo estão em regiões com longa história de civilizações e condições favoráveis à vida. Pense em qual continente e sub-região concentram mais de 60% da população mundial.",
+    "feedbacks": {
+      "0": "Embora a Europa tenha alta densidade demográfica em algumas regiões, suas populações absolutas são muito menores que as da Ásia, que concentra mais da metade da população mundial. O Sul e o Oeste da Europa estão entre as regiões mais desenvolvidas, mas não as mais populosas em termos absolutos.",
+      "2": "O Centro e o Norte das Américas são regiões de baixa densidade demográfica, com populações absolutas relativamente pequenas em comparação ao Sudeste e Leste da Ásia. Países como o Canadá têm vastos territórios mas são demograficamente pouco densos.",
+      "3": "O Nordeste e o Noroeste da África têm populações significativas, mas muito menores que as concentrações do Sudeste e Leste da Ásia. A China e a Índia, localizadas no Leste e Sul da Ásia, concentram sozinhas mais de 2,8 bilhões de pessoas."
+    }
   },
   {
     "id": 5,
@@ -115,7 +138,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O status de refugiado é definido pela Convenção de 1951 e implica perseguição por motivos específicos (raça, religião, nacionalidade, grupo social ou opinião política). Pense em qual categoria engloba quem recebe proteção internacional por essas razões."
+    "ajuda": "O status de refugiado é definido pela Convenção de 1951 e implica perseguição por motivos específicos (raça, religião, nacionalidade, grupo social ou opinião política). Pense em qual categoria engloba quem recebe proteção internacional por essas razões.",
+    "feedbacks": {
+      "0": "Transumância é o deslocamento sazonal de populações e rebanhos em busca de pastagens mais favoráveis; não é uma categoria jurídica de proteção internacional. As condições da ONU para concessão de status de refugiado envolvem perseguição ou temor fundamentado, e não deslocamentos sazonais.",
+      "1": "O nomadismo é um estilo de vida de deslocamento contínuo por subsistência, característico de grupos pastorais e caçadores-coletores; não é uma condição de proteção definida por organismos internacionais. A ONU define estatutos de proteção com base em perseguição ou conflito, não em modo de vida.",
+      "2": "O anistiado é alguém que recebeu perdão por um crime ou ato político de seu próprio Estado; não corresponde às condições de perseguição e proteção estabelecidas pela Convenção de Genebra para refugiados. O refugiado foge de perseguição, enquanto o anistiado é readmitido pelo Estado que antes o perseguia.",
+      "3": "Colono é quem se estabelece em uma área para cultivar ou habitar, geralmente incentivado pelo Estado receptor; não corresponde à condição de perseguição e deslocamento forçado do refugiado. O processo colonial é voluntário ou incentivado, ao contrário do deslocamento forçado do refugiado."
+    }
   },
   {
     "id": 6,
@@ -140,7 +169,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Na globalização, o tratamento dado ao migrante varia conforme o contexto. O texto destaca um critério específico que define se o migrante é bem-vindo ou rejeitado no mercado de trabalho globalizado."
+    "ajuda": "Na globalização, o tratamento dado ao migrante varia conforme o contexto. O texto destaca um critério específico que define se o migrante é bem-vindo ou rejeitado no mercado de trabalho globalizado.",
+    "feedbacks": {
+      "0": "Na globalização, a procedência nacional do trabalhador tem peso cada vez menor frente à sua capacidade técnica e à livre circulação do capital. O mercado global de trabalho seleciona o migrante laboral principalmente pelo que ele sabe fazer, e não por sua origem nacional.",
+      "1": "O capital financeiro do próprio migrante é secundário como critério de tratamento diferenciado no mercado de trabalho. O que determina a posição do trabalhador migrante na globalização é a qualificação profissional que ele oferece ao mercado.",
+      "2": "Critérios étnicos são formas de discriminação e não constituem o fator produtivo que explica o tratamento diferenciado descrito pelo texto. A globalização do trabalho tende a valorizar a capacidade técnica e profissional, independentemente do pertencimento étnico.",
+      "3": "O desemprego estrutural é uma consequência da automação e das transformações produtivas, e não o critério usado para tratar diferenciadamente o trabalhador migrante. A globalização diferencia os trabalhadores pela qualificação que possuem, e não pelo fato de serem ou não desempregados."
+    }
   },
   {
     "id": 7,
@@ -162,7 +197,13 @@
     ],
     "correta": 1,
     "comentario": "<p>Os países subdesenvolvidos são caracterizados pela dependência de capital externo e por profundas desigualdades sociais, que limitam seu desenvolvimento econômico e social.</p>",
-    "ajuda": "Desenvolvimento é diferente de crescimento: crescimento é apenas aumento do PIB, enquanto desenvolvimento inclui melhoria social, educação e saúde. Pense em qual característica define um país subdesenvolvido, diferenciando crescimento de desenvolvimento."
+    "ajuda": "Desenvolvimento é diferente de crescimento: crescimento é apenas aumento do PIB, enquanto desenvolvimento inclui melhoria social, educação e saúde. Pense em qual característica define um país subdesenvolvido, diferenciando crescimento de desenvolvimento.",
+    "feedbacks": {
+      "0": "Elevada disponibilidade de capital interno e escassez de mão de obra são características de economias desenvolvidas, e não de subdesenvolvidas. Países subdesenvolvidos têm justamente o perfil oposto: escassez de capital interno e abundância de mão de obra barata e desqualificada.",
+      "2": "Elevada urbanização organizada e mecanização agrícola avançada são traços de economias desenvolvidas com transição demográfica completa. Os países subdesenvolvidos têm urbanização acelerada e desordenada, com setores agrícolas dualistas em que convivem alta tecnologia e produção de subsistência.",
+      "3": "Países subdesenvolvidos têm alta dívida externa combinada com baixos investimentos sociais, e não altos. A dívida externa drena recursos que poderiam ser aplicados em saúde, educação e infraestrutura, aprofundando a desigualdade.",
+      "4": "Baixa taxa de natalidade e alta expectativa de vida são indicadores de países desenvolvidos que completaram a transição demográfica. Países subdesenvolvidos ainda apresentam natalidade relativamente alta e expectativa de vida menor, especialmente nas regiões mais pobres."
+    }
   },
   {
     "id": 8,
@@ -184,7 +225,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A afirmativa I é verdadeira, pois a desigualdade social e a dependência econômica e tecnológica são características marcantes dos países subdesenvolvidos.\nA afirmativa II é falsa, pois o Brasil ainda é considerado um país em desenvolvimento, não tendo alcançado o status de desenvolvido. \nA afirmativa III é verdadeira, já que muitos países subdesenvolvidos dependem da exportação de produtos primários e importam produtos industrializados. \nA afirmativa IV é falsa, pois embora a agricultura de subsistência exista em alguns países subdesenvolvidos, muitos deles têm relações comerciais com o mercado externo. \nA afirmativa V é verdadeira, pois muitos países subdesenvolvidos enfrentam altas taxas de dívida externa e dependem de credores internacionais localizados em países desenvolvidos.</p>",
-    "ajuda": "Os países subdesenvolvidos compartilham características como dependência econômica, desigualdade social, baixa industrialização e dívida externa. Avalie quais afirmativas sobre subdesenvolvimento são verdadeiras e quais confundem causas com consequências."
+    "ajuda": "Os países subdesenvolvidos compartilham características como dependência econômica, desigualdade social, baixa industrialização e dívida externa. Avalie quais afirmativas sobre subdesenvolvimento são verdadeiras e quais confundem causas com consequências.",
+    "feedbacks": {
+      "0": "A proposição II é falsa: o Brasil ainda é classificado como subdesenvolvido, pois mantém grandes desigualdades sociais, dependência tecnológica e econômica. A proposição IV também é falsa, pois países subdesenvolvidos participam do comércio exterior como exportadores de produtos primários.",
+      "1": "A proposição IV é falsa: países subdesenvolvidos não se sustentam apenas com agricultura de subsistência, mas participam do mercado externo como exportadores de matérias-primas. Além disso, a proposição I, que é verdadeira, foi excluída desta alternativa.",
+      "3": "A proposição II é falsa: o Brasil não pode ser classificado como desenvolvido pela modernização de alguns setores, pois mantém desigualdades sociais profundas e dependência tecnológica. A proposição I, que é verdadeira, foi excluída desta alternativa.",
+      "4": "A proposição II é falsa, pois o Brasil não se tornou desenvolvido: ainda apresenta desigualdades acentuadas e dependência econômica e tecnológica. A proposição IV também é falsa, pois países subdesenvolvidos exportam produtos primários e se inserem no mercado externo, mesmo que de forma subordinada."
+    }
   },
   {
     "id": 9,
@@ -209,7 +256,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Para identificar as desigualdades no trabalho de cuidado entre as regiões, era necessário concluir, através do gráfico, que as mulheres gastam mais tempo realizando trabalho não remunerado em todas as regiões, ao contrário dos homens, que gastam mais tempo com trabalho remunerado.</p>\n<p>A partir dos dados apresentados, observa-se que, nos países árabes, as mulheres gastam quase todo o seu tempo diário realizando trabalho não remunerado, superando todas as outras regiões, enquanto os homens, nesses países, estão entre os que menos gastam tempo com o trabalho de cuidado não remunerado no mundo.\r\n Em contraposição, nas Américas os homens apresentam o maior tempo dedicado ao trabalho de cuidado não remunerado entre todas as regiões, revelando menor desigualdade de gênero no trabalho.</p>",
-    "ajuda": "O trabalho de cuidado (direto e indireto) é predominantemente realizado por mulheres e muitas vezes não remunerado. Ao analisar o gráfico, identifique em qual região as mulheres gastam mais tempo com esse tipo de trabalho em comparação com os homens."
+    "ajuda": "O trabalho de cuidado (direto e indireto) é predominantemente realizado por mulheres e muitas vezes não remunerado. Ao analisar o gráfico, identifique em qual região as mulheres gastam mais tempo com esse tipo de trabalho em comparação com os homens.",
+    "feedbacks": {
+      "0": "A África apresenta grande disparidade interna de IDH, mas os dados indicam que os Países Árabes registram a maior diferença entre seus maiores e menores IDHs. Além disso, a Europa e a Ásia Central não são a região com menor disparidade interna conforme os dados apresentados.",
+      "1": "A alternativa inverte a resposta: as Américas apresentam a menor, e não a maior, diferença interna de IDH entre as regiões analisadas. A África não é a região com a menor diferença; os Países Árabes registram a maior disparidade interna de IDH.",
+      "2": "As Américas realmente apresentam a menor disparidade interna de IDH, mas a maior diferença não está na Ásia/Pacífico conforme os dados. Os Países Árabes registram a maior diferença entre os IDHs máximo e mínimo dentro da região.",
+      "4": "A África apresenta disparidades significativas, mas os dados do gráfico apontam os Países Árabes como a região com maior diferença interna de IDH. A Ásia/Pacífico não é a região com a menor disparidade, posição que pertence às Américas conforme os dados."
+    }
   },
   {
     "id": 10,
@@ -231,6 +284,12 @@
     ],
     "correta": 1,
     "comentario": "<p>a) O produto interno bruto (PIB) representa a soma (em valores monetários) de todos os bens e serviços finais produzidos numa determinada região (quer sejam países, estados ou cidades), durante um período determinado (mês, trimestre, ano, etc). O PIB é um dos indicadores mais utilizados na macroeconomia com o objetivo de quantificar a atividade econômica de uma região.</p>\n<p>b) O Índice de Desenvolvimento Humano (IDH) é uma medida comparativa usada para classificar os países pelo seu grau de \"desenvolvimento humano\" e para ajudar a classificar os países como desenvolvidos (desenvolvimento humano muito alto), em desenvolvimento (desenvolvimento humano médio e alto) e subdesenvolvidos (desenvolvimento humano baixo). A estatística é composta a partir de dados de expectativa de vida ao nascer, educação e PIB (PPC) per capita (como um indicador do padrão de vida) recolhidos em nível nacional.</p>\n<p>c) O Coeficiente ou índice de Gini consiste em um número entre 0 e 1, onde 0 corresponde à completa igualdade (no caso do rendimento, por exemplo, toda a população recebe o mesmo salário) e 1 corresponde à completa desigualdade (onde uma pessoa recebe todo o rendimento e as demais nada recebem).</p>\n<p>d) População economicamente ativa compreende o potencial de mão-de-obra com que pode contar o setor produtivo; a oferta efetiva de trabalho numa economia. Para o cálculo da PEA são consideradas as seguintes categorias: População ocupada - aquelas pessoas que, num determinado período de referência, trabalharam ou tinham trabalho mas não trabalharam (por exemplo, pessoas em férias); População desocupada - aquelas pessoas que não tinham trabalho, num determinado período de referência, mas estavam dispostas a trabalhar, e que, para isso, tomaram alguma providência efetiva nos últimos 30 dias (consultando pessoas, jornais, etc.).</p>\n<p>e) O Produto Nacional Bruto (PNB) é o produto obtido pela soma da riqueza que pertencem às unidades residentes, ou seja, das empresas pertencentes a um país, quer tenha sido obtido no território econômico quer fora dele.</p>",
-    "ajuda": "O IDH é composto por três indicadores básicos: longevidade (saúde), escolaridade (educação) e renda per capita. Ele avalia não apenas o crescimento econômico, mas como esse crescimento se traduz em qualidade de vida para a população."
+    "ajuda": "O IDH é composto por três indicadores básicos: longevidade (saúde), escolaridade (educação) e renda per capita. Ele avalia não apenas o crescimento econômico, mas como esse crescimento se traduz em qualidade de vida para a população.",
+    "feedbacks": {
+      "0": "O PIB mede o valor total de bens e serviços produzidos por um país, sendo um indicador puramente econômico. Não capta as dimensões de saúde e educação que, junto com a renda, compõem o IDH como medida multidimensional do desenvolvimento humano.",
+      "2": "O índice de Gini mede a concentração de renda e a desigualdade na sua distribuição, e não o desenvolvimento humano em suas múltiplas dimensões. Gini e IDH são indicadores distintos: o primeiro mede inequidade; o segundo, desenvolvimento.",
+      "3": "A PEA indica a parcela da população disponível para o mercado de trabalho (ocupada ou em busca de emprego), não o nível de desenvolvimento humano. Trata-se de um dado demográfico-laboral, e não de um índice que combina renda, educação e longevidade.",
+      "4": "O PNB mede a produção de residentes de um país, incluindo rendimentos externos, e é um indicador econômico similar ao PIB. Como indicador de produção agregada, não considera dimensões de saúde ou educação que compõem o IDH."
+    }
   }
 ]

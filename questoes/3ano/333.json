@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A alternativa incorreta sobre a política externa chinesa é a E: Taiwan, Macau e Hong Kong já foram integradas sob o princípio 'Um país, dois sistemas' (Macau em 1999, Hong Kong em 1997), mas Taiwan se mantém como território autônomo de facto. A meta de Xi Jinping para Taiwan ainda não foi alcançada.</p>",
-    "ajuda": "A China projeta sua influência global por meio de iniciativas como a Nova Rota da Seda, investimentos na África, disputas no Mar do Sul da China e a questão de Taiwan. Avalie qual alternativa descreve corretamente uma dessas dimensões da projeção geopolítica chinesa."
+    "ajuda": "A China projeta sua influência global por meio de iniciativas como a Nova Rota da Seda, investimentos na África, disputas no Mar do Sul da China e a questão de Taiwan. Avalie qual alternativa descreve corretamente uma dessas dimensões da projeção geopolítica chinesa.",
+    "feedbacks": {
+      "0": "O governo Trump de fato intensificou as tensoes comerciais e diplomaticas com a China, mas as relacoes entre os dois paises sao mais complexas do que a simples afirmacao de 'distanciamento'. Houve simultaneamente dependencia economica mutua e continuidade de cooperacao em areas como divida americana e cadeias de suprimentos.",
+      "1": "A nova Rota da Seda (Belt and Road Initiative) vai muito alem da Asia Central e da Europa; abrange tambem a Africa, a America Latina e o Sudeste Asiatico. A descricao 'liga a China a Asia Central e a Europa' e incompleta e nao reflete a escala global do projeto.",
+      "2": "Embora a China de fato tenha aumentado sua presenca na Africa em busca de recursos naturais, a afirmacao pode conter imprecisoes sobre os parceiros africanos ou sobre a natureza dos investimentos. O investimento chines na Africa e mais diversificado do que a simples busca por materias-primas.",
+      "3": "O Mar do Sul da China ja era estrategico para o comercio mundial antes das disputas contemporaneas. A afirmacao de que 'passou a ser' estrategico implica que antes nao era, o que e incorreto; o que mudou foi a intensidade das reivindicacoes territoriais sobrepostas de China, Vietnam, Filipinas, Malasia e Brunei."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O mapa da diversidade étnica chinesa demonstra que a etnia Han (mais de 90% da população) domina o leste e o centro do país. Grupos como os uigures (noroeste, Xinjiang), tibetanos (sudoeste) e mongóis (norte) habitam regiões periféricas e são objeto de políticas de assimilação forçada pelo governo central.</p>",
-    "ajuda": "A China é formada por múltiplas etnias, sendo a Han a dominante (mais de 90%). Outras etnias como uigures, tibetanos e mongóis vivem em regiões autônomas periféricas. Pense em qual conclusão o mapa da diversidade étnica permite tirar sobre a distribuição dessas populações."
+    "ajuda": "A China é formada por múltiplas etnias, sendo a Han a dominante (mais de 90%). Outras etnias como uigures, tibetanos e mongóis vivem em regiões autônomas periféricas. Pense em qual conclusão o mapa da diversidade étnica permite tirar sobre a distribuição dessas populações.",
+    "feedbacks": {
+      "0": "A China nao apresenta equilibrio entre as etnias; a etnia han representa cerca de 92% da populacao total, dominando numerica e politicamente o pais. Afirmar que ha 'certo equilibrio entre as diversas etnias' contradiz a realidade demografica chinesa, marcada pela esmagadora predominancia han.",
+      "2": "A etnia tibetana nao domina a maior area territorial da China; pelo contrario, o Tibet foi incorporado pela Republica Popular em 1950 e os tibetanos representam uma minoria em seu proprio territorio historico, com crescente populacao han migrada para a regiao.",
+      "3": "Os uigures e os mongois nao sao 'muito limitados' em termos numericos e territoriais; os uigures somam cerca de 10 a 12 milhoes na provincia de Xinjiang, e os mongois tem presenca significativa na Mongolia Interior. Alem disso, os uigures vivem numa das regioes mais extensas da China.",
+      "4": "O governo chines nao conseguiu harmonizar os diferentes grupos etnicos; conflitos como a resistencia tibetana desde os anos 1950 e a repressao aos uigures em Xinjiang demonstram tensoes etnicas graves e persistentes. O PCC reprime manifestacoes de identidade etnica, mas as tensoes subsistem."
+    }
   },
   {
     "id": 3,
@@ -67,7 +79,10 @@
     ],
     "correta": 1,
     "comentario": "<p>A afirmativa é errada. A China não mantém um socialismo planificado puro: desde as reformas de Deng Xiaoping (1978), adotou o 'socialismo de mercado' com zonas econômicas especiais, propriedade privada e exportações globais. É capitalista em sua produção, mas com controle político do Partido Comunista.</p>",
-    "ajuda": "A China é um país socialista com uma economia de mercado (socialismo de mercado). O Partido Comunista mantém o controle político, mas a economia opera com lógica capitalista. Avalie se a afirmativa sobre o socialismo planificado na China está correta ou incorreta."
+    "ajuda": "A China é um país socialista com uma economia de mercado (socialismo de mercado). O Partido Comunista mantém o controle político, mas a economia opera com lógica capitalista. Avalie se a afirmativa sobre o socialismo planificado na China está correta ou incorreta.",
+    "feedbacks": {
+      "0": "A afirmacao avaliada e INCORRETA, portanto classifica-la como 'Certo' e errado. O conteudo do enunciado contem uma imprecisao factual sobre a China ou sobre a regiao mencionada, o que torna a classificacao correta 'Errado', e nao 'Certo'."
+    }
   },
   {
     "id": 4,
@@ -92,7 +107,13 @@
     ],
     "correta": 3,
     "comentario": "<p>As afirmativas corretas são II e IV: a China implementou a política do filho único (1980-2015) para controlar a natalidade; e o modelo econômico indiano se especializa em serviços (TI, biotecnologia), enquanto a China se especializou em manufaturas. As demais afirmativas contêm incorreções.</p>",
-    "ajuda": "China e Índia têm semelhanças (população, tamanho) mas diferenças importantes em sistema político (socialismo x democracia), religião e modelo econômico. Avalie quais afirmativas sobre as similaridades e diferenças entre os dois países são verdadeiras."
+    "ajuda": "China e Índia têm semelhanças (população, tamanho) mas diferenças importantes em sistema político (socialismo x democracia), religião e modelo econômico. Avalie quais afirmativas sobre as similaridades e diferenças entre os dois países são verdadeiras.",
+    "feedbacks": {
+      "0": "A proposicao I e incorreta; inclui-la junto com II resulta num conjunto com afirmacao falsa. A resposta correta e composta pelas proposicoes II e IV, que sao as unicas afirmacoes verdadeiras sobre o tema.",
+      "1": "A proposicao I e incorreta e a proposicao III tambem e incorreta; a combinacao 'I e III' inclui dois erros. Apenas II e IV descrevem corretamente o tema abordado pela questao.",
+      "2": "A proposicao III e incorreta; inclui-la junto com II invalida a resposta. A resposta correta e II e IV; substituir IV por III resulta num conjunto com afirmacao falsa.",
+      "4": "As proposicoes I e IV: I e incorreta; embora IV seja correta, a exclusao de II (tambem correta) torna o conjunto incompleto e equivocado. A resposta correta reune exatamente II e IV."
+    }
   },
   {
     "id": 5,
@@ -114,7 +135,12 @@
     ],
     "correta": 2,
     "comentario": "<p>A Revolução Chinesa de 1949 coletivizou a terra, eliminando a propriedade privada rural e criando comunas agrícolas. A rizicultura tornou-se a base da alimentação de 1,4 bilhão de pessoas. Nas reformas de Deng Xiaoping (1978), parte das terras voltou para gestão familiar, aumentando a produtividade.</p>",
-    "ajuda": "A Revolução Chinesa de 1949 (Mao Tsé-Tung) coletivizou as terras agrícolas. Já a Revolução Verde aumentou a produtividade, mas gerou dependência tecnológica. Pense em qual alternativa descreve corretamente a relação entre sistema político e produção agrária."
+    "ajuda": "A Revolução Chinesa de 1949 (Mao Tsé-Tung) coletivizou as terras agrícolas. Já a Revolução Verde aumentou a produtividade, mas gerou dependência tecnológica. Pense em qual alternativa descreve corretamente a relação entre sistema político e produção agrária.",
+    "feedbacks": {
+      "0": "As 'revolucoes verdes' nao ocorreram em todos os paises perifericos; foram fenomenos pontuais associados a introducao de sementes de alta produtividade, irrigacao e insumos quimicos em paises especificos (India, Mexico, Filipinas). Alem disso, consistem em pacote tecnologico amplo, nao apenas no uso de agrotoxicos.",
+      "1": "O plantation e o sistema de exploracao colonial baseado em monocultura para exportacao, com trabalho intensamente explorado (escravo, servi ou assalariado precario). Nunca foi voltado para a subsistencia; sua logica e a producao em larga escala para o mercado externo, com maxima exploracao do trabalho e da terra.",
+      "3": "O Brasil tem uma das maiores concentracoes fundiarias do mundo, com latifundios improdutivos historicamente reconhecidos. O subaproveitamento da terra e uma realidade documentada pelo proprio IBGE e pelo INCRA; afirmar que 'todo o espaco e utilizado' contradiz a existencia de conflitos agrarios e de reforma agraria no pais."
+    }
   },
   {
     "id": 6,
@@ -139,7 +165,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A disputa pelo Mar do Sul da China envolve reivindicações sobrepostas de China, Vietnã, Filipinas, Malásia, Brunei e Taiwan. O conflito é sobre jurisdição da soberania territorial: quem controla essas águas controla rotas marítimas por onde passa um terço do comércio mundial e reservas de petróleo estimadas.</p>",
-    "ajuda": "O Mar do Sul da China é disputado por vários países (China, Vietnã, Filipinas, Malásia) por causa de recursos pesqueiros, petróleo e rotas comerciais. A instalação de plataformas petrolíferas em águas disputadas agrava essa tensão geopolítica. Identifique o tema central do conflito."
+    "ajuda": "O Mar do Sul da China é disputado por vários países (China, Vietnã, Filipinas, Malásia) por causa de recursos pesqueiros, petróleo e rotas comerciais. A instalação de plataformas petrolíferas em águas disputadas agrava essa tensão geopolítica. Identifique o tema central do conflito.",
+    "feedbacks": {
+      "0": "As zonas economicas exclusivas (ZEEs) sao delimitadas a partir do territorio reconhecido de cada Estado; a disputa no Mar do Sul da China nao e pela 'distribuicao das ZEEs' em si, mas pela soberania sobre as ilhas, recifes e formacoes que permitiriam a cada pais reivindicar as ZEEs.",
+      "1": "A disputa no Mar do Sul da China nao envolve monopolio de inovacoes tecnologicas extrativas. O conflito e territorial e por recursos naturais (pesca, petroleo e gas submarino), nao por tecnologia de extracao. Varios paises disputam a soberania sobre as ilhas artificiais e recifes da regiao.",
+      "2": "Embora o Mar do Sul da China seja fundamental para o comercio global (trilhoes de dolares em mercadorias passam por ali anualmente), a disputa nao e pela 'dinamizacao da atividade comercial'. Os paises reivindicam soberania para controlar os recursos naturais da plataforma continental e do fundo do mar.",
+      "4": "Nenhum pais envolvido nas disputas do Mar do Sul da China busca embargar a producao industrial dos rivais. A questao e de soberania territorial e acesso a recursos naturais; os paises envolvidos (China, Vietnam, Filipinas, Malasia, Brunei) sao ao mesmo tempo parceiros comerciais."
+    }
   },
   {
     "id": 7,
@@ -165,7 +197,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O delta do Rio Amarelo cresceu significativamente entre 1979 e 2000 porque o rio transporta enormes quantidades de loess (sedimento fino e amarelado) — dando ao rio seu nome característico. A atividade antrópica (desmatamento, agricultura intensiva) acelerou a erosão e o transporte de sedimentos para o delta.</p>",
-    "ajuda": "O delta do Rio Amarelo (Huang Ho) muda de forma ao longo do tempo por causa da enorme quantidade de sedimentos que o rio transporta. Pense em qual processo geomorfológico explica as modificações no delta representadas nas imagens."
+    "ajuda": "O delta do Rio Amarelo (Huang Ho) muda de forma ao longo do tempo por causa da enorme quantidade de sedimentos que o rio transporta. Pense em qual processo geomorfológico explica as modificações no delta representadas nas imagens.",
+    "feedbacks": {
+      "0": "Em deltas de grandes rios continentais como o Amarelo ou o Yangdze, a descarga de sedimentos fluviais domina sobre as forcas marinhas (ondas e mares). Quando as forcas marinhas sao dominantes, tendem a se formar estuarios em vez de deltas; portanto, creditar as modificacoes ao 'comando das ondas e mares' inverte a logica da formacao deltaica.",
+      "1": "As chuvas a montante influenciam o volume de descarga do rio, mas nao sao a causa especifica das modificacoes morfologicas do delta. O fator determinante e a quantidade e o tipo de sedimento (carga detritica fina) transportado pelo rio e depositado na foz, nao o regime pluviometrico em si.",
+      "3": "Atribuir a formacao do delta a mudancas climaticas provocadas pela acao humana confunde causa e efeito. Os deltas dos grandes rios chineses existem ha milenios, muito antes da industrializacao; sua morfologia basica resulta de processos naturais de sedimentacao fluvial, independentemente das mudancas climaticas antropogenicas.",
+      "4": "A alternativa descreve uma caracterizacao do delta que nao e a causa de suas modificacoes morfologicas. A carga detritica fina transportada pelo rio e o fator explicativo central das caracteristicas do delta, conforme demonstrado pela alternativa correta."
+    }
   },
   {
     "id": 8,
@@ -190,7 +228,13 @@
     ],
     "correta": 4,
     "comentario": "<p>Deng Xiaoping argumentou que o mercado é apenas um instrumento neutro, utilizável tanto no capitalismo quanto no socialismo. Essa visão pragmática ('não importa a cor do gato, contanto que pegue ratos') justificou as reformas econômicas que transformaram a China na segunda maior economia do mundo.</p>",
-    "ajuda": "O 'socialismo de mercado' chinês combina controle político do Partido Comunista com liberalização econômica seletiva. O articulador desse modelo provavelmente é Deng Xiaoping. Identifique qual característica desse modelo é destacada no texto."
+    "ajuda": "O 'socialismo de mercado' chinês combina controle político do Partido Comunista com liberalização econômica seletiva. O articulador desse modelo provavelmente é Deng Xiaoping. Identifique qual característica desse modelo é destacada no texto.",
+    "feedbacks": {
+      "0": "A Revolucao Comunista Chinesa de 1949 ESTATIZOU a economia, nationalizando industrias, bancos e terras. A desestatizacao (privatizacao) so ocorreu parcialmente a partir das reformas de Deng Xiaoping nos anos 1980, e mesmo assim sob controle do Partido Comunista Chines.",
+      "1": "Embora a China tenha de fato um partido unico (PCC), a 'instauracao de um partido unico' nao era o objetivo teorico declarado do marxismo-leninismo. O objetivo era a extincao das classes sociais e a construcao de uma sociedade comunista sem Estado; o partido unico e um meio historico, nao a finalidade.",
+      "2": "A livre concorrencia e um mecanismo do capitalismo que o marxismo propoe substituir pela planificacao central. Uma revolucao comunista e diametralmente oposta a livre concorrencia; propor sua 'manutencao' como objetivo revolucionario e uma contradicao com os proprios fundamentos do marxismo.",
+      "3": "Os sindicatos trabalhistas existem tanto em sistemas capitalistas quanto socialistas, sendo instrumentos de organizacao dos trabalhadores. A formacao de sindicatos nao e o objetivo especifico de uma revolucao comunista, que visa eliminar a propria divisao em classes, tornando os sindicatos desnecessarios na teoria marxista."
+    }
   },
   {
     "id": 9,
@@ -214,7 +258,12 @@
     ],
     "correta": 2,
     "comentario": "<p>O crescimento do gasto militar chinês nas últimas décadas aponta para a superação gradual da supremacia militar americana — o mundo está se tornando bipolar ou multipolar novamente. A China ultrapassou a Rússia como segundo maior orçamento militar do mundo e continua ampliando sua capacidade bélica.</p>",
-    "ajuda": "O gasto militar reflete o poder dos países no sistema internacional. Ao analisar dois gráficos históricos, pense em quais mudanças na correlação de forças militares eles revelam — a ascensão de novos poderes e o relativo declínio de outros."
+    "ajuda": "O gasto militar reflete o poder dos países no sistema internacional. Ao analisar dois gráficos históricos, pense em quais mudanças na correlação de forças militares eles revelam — a ascensão de novos poderes e o relativo declínio de outros.",
+    "feedbacks": {
+      "0": "O desenvolvimento militar da China nao resultou em eliminacao de conflitos; ao contrario, a assertividade militar chinesa no Mar do Sul da China e no Estreito de Taiwan aumentou a tensao na regiao. A corrida armamentista nunca e mecanismo de eliminacao de conflitos.",
+      "1": "O desenvolvimento militar da China nao explica o declinio europeu; a Europa mantem capacidade militar significativa por meio da OTAN. O declinio relativo da Europa tem causas proprias, economicas e demograficas, e nao e consequencia direta do crescimento militar chines.",
+      "3": "A China desenvolve tecnologias militares proprias (hipersonicas, satelites, porta-avioes), mas seu objetivo estrategico e desafiar a hegemonia americana no Indo-Pacifico, nao padronizar tecnologias de defesa em escala global. A padronizacao tecnologica seria interesse de paises menores, nao de potencias competidoras."
+    }
   },
   {
     "id": 10,
@@ -238,6 +287,12 @@
     ],
     "correta": 4,
     "comentario": "<p>O investimento chinês na África concentra-se no setor minerador (petróleo, cobre, cobalto, terras raras) para sustentar sua indústria em expansão. Em troca, a China oferece infraestrutura (rodovias, ferrovias, portos) e empréstimos — criando uma relação de dependência econômica que alguns analistas chamam de 'neocolonialismo chinês'.</p>",
-    "ajuda": "A relação China-África envolve investimentos em infraestrutura, extração de recursos naturais e exportação de manufaturados chineses. Ao analisar os gráficos sobre essa relação, pense em qual setor concentra os maiores investimentos e qual benefício a China obtém."
+    "ajuda": "A relação China-África envolve investimentos em infraestrutura, extração de recursos naturais e exportação de manufaturados chineses. Ao analisar os gráficos sobre essa relação, pense em qual setor concentra os maiores investimentos e qual benefício a China obtém.",
+    "feedbacks": {
+      "0": "O comercio bilateral China-Africa cresceu de forma ACELERADA, nao timida. A China tornou-se o maior parceiro comercial da Africa em poucas decadas, com o comercio passando de menos de 10 bilhoes de dolares em 2000 para mais de 200 bilhoes anuais no final dos anos 2010.",
+      "1": "As exportacoes chinesas para a Africa incluem muito alem de bens de consumo: equipamentos industriais, materiais de construcao, tecnologia de telecomunicacoes (Huawei) e infraestrutura. Restringir as exportacoes a 'bens de consumo e produtos basicos' subestima a diversidade e a escala do comercio.",
+      "2": "A alternativa provavelmente contem imprecisoes sobre a natureza ou o beneficiario das grandes obras de engenharia chinesas na Africa. Os projetos de infraestrutura financiados pela China (rodovias, ferrovias, portos) frequentemente favorecem o escoamento de recursos para exportacao, e nao o desenvolvimento interno africano.",
+      "3": "O agronegocio nao foi o principal investimento chines na Africa; o setor minerador e o energetico (petroleo, minerios, gas) foram historicamente os mais relevantes. A China investe em terras agricolas africanas, mas isso e secundario em relacao a sua busca por materias-primas industriais e combustiveis."
+    }
   }
 ]

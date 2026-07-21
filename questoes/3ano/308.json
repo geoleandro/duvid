@@ -20,7 +20,13 @@
     ],
     "correta": 2,
     "comentario": "<p>A Terceira Revolução Industrial (microeletrônica, robótica, biotecnologia) destruiu empregos industriais repetitivos e criou demanda por trabalhadores qualificados em serviços. O resultado foi a expansão do setor terciário nos países desenvolvidos, enquanto trabalhadores não qualificados enfrentaram desemprego estrutural crescente.</p>",
-    "ajuda": "A Terceira Revolução Industrial (microeletrônica, robótica, informática) transformou o mercado de trabalho ao substituir funções repetitivas por máquinas. Pense em qual efeito essa automação gerou na estrutura do emprego e na demanda por qualificação."
+    "ajuda": "A Terceira Revolução Industrial (microeletrônica, robótica, informática) transformou o mercado de trabalho ao substituir funções repetitivas por máquinas. Pense em qual efeito essa automação gerou na estrutura do emprego e na demanda por qualificação.",
+    "feedbacks": {
+      "0": "A Terceira Revolução Industrial precarizou as relações de trabalho e enfraqueceu os sindicatos, ao fragmentar contratos, terceirizar serviços e automatizar postos. O fortalecimento sindical é o oposto do que ocorreu com as transformações produtivas da 3ª RI.",
+      "1": "A Terceira Revolução Industrial substituiu as tarefas mecânicas e repetitivas pela automação e pela robótica, eliminando-as. Foram justamente a Primeira e a Segunda Revoluções Industriais que implantaram tarefas repetitivas nos moldes tayloristas-fordistas.",
+      "3": "A Terceira Revolução Industrial gerou mais informalidade, ao fragmentar contratos de trabalho e ampliar a terceirização de serviços. A tendência foi de aumento da precarização, e não de redução dos empregos informais.",
+      "4": "A Terceira Revolução Industrial exige justamente maior qualificação técnica, com ênfase em tecnologia da informação, ciência e capacidade analítica. Afirmar que há menor necessidade de qualificação contradiz a demanda crescente por trabalhadores especializados."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A industrialização impulsionou o êxodo rural em escala global: o campo mecanizado expulsou trabalhadores que migraram para as cidades em busca de emprego nas fábricas. Esse processo gerou a urbanização acelerada e transformou radicalmente a organização do espaço geográfico nos séculos XIX e XX.</p>",
-    "ajuda": "A industrialização reorganiza o espaço geográfico ao criar cidades industriais, atrair migrantes do campo e gerar novas hierarquias urbanas. Identifique qual efeito espacial é diretamente causado pelo processo de industrialização."
+    "ajuda": "A industrialização reorganiza o espaço geográfico ao criar cidades industriais, atrair migrantes do campo e gerar novas hierarquias urbanas. Identifique qual efeito espacial é diretamente causado pelo processo de industrialização.",
+    "feedbacks": {
+      "0": "A industrialização causou o movimento inverso da ruralização: o êxodo rural em massa, com populações deixando o campo para trabalhar nas fábricas urbanas. A ruralização é incompatível com a lógica da industrialização, que concentra atividades e população nas cidades.",
+      "1": "A migração pendular (entre bairros residenciais e centros de trabalho) é intensificada pela industrialização, que concentra empregos nas zonas industriais das cidades. A industrialização amplia, e não contém, os deslocamentos urbanos cotidianos.",
+      "2": "A industrialização intensifica a demanda e a extração de matérias-primas para alimentar as fábricas, e não reduz sua oferta. O crescimento industrial é diretamente proporcional ao consumo de recursos naturais e insumos.",
+      "4": "A industrialização reforça a hierarquia urbana, concentrando população, serviços e capital nas cidades industriais e tornando-as polos de atração. A descaracterização da hierarquia urbana não é um efeito da industrialização, mas de processos muito mais complexos."
+    }
   },
   {
     "id": 3,
@@ -65,7 +77,12 @@
     ],
     "correta": 3,
     "comentario": "<p>O modelo produtivo globalizado é padronizado: a tecnologia do centro capitalista se impõe sobre as práticas locais dos países periféricos. Milton Santos chamou esse processo de 'meio técnico-científico-informacional' — onde o espaço é reorganizado pela lógica global, subordinando o local ao hegemônico.</p>",
-    "ajuda": "A globalização padroniza processos produtivos, mas essa padronização é desigual: os países periféricos adaptam o modelo global ao contexto local. Identifique qual alternativa descreve corretamente esse modelo de produção padronizado e hierárquico."
+    "ajuda": "A globalização padroniza processos produtivos, mas essa padronização é desigual: os países periféricos adaptam o modelo global ao contexto local. Identifique qual alternativa descreve corretamente esse modelo de produção padronizado e hierárquico.",
+    "feedbacks": {
+      "0": "O autor critica o processo descrito como excludente e assimétrico, e não como democrático ou igualitário. A globalização não distribui riqueza de forma equitativa; ao contrário, tende a concentrá-la nos países e grupos que detêm tecnologia e capital.",
+      "1": "O texto apresenta uma crítica ao processo, não uma afirmação de sua eficácia ou da qualidade dos serviços das transnacionais. As multinacionais podem gerar precarização de empregos e dependência tecnológica, e não apenas qualidade.",
+      "2": "O texto não apresenta o processo como solidário; a crítica é justamente à imposição do modelo hegemônico global sobre as culturas e economias locais. A expansão das empresas globais não é descrita como promotora de desenvolvimento equitativo."
+    }
   },
   {
     "id": 4,
@@ -87,7 +104,12 @@
     ],
     "correta": 0,
     "comentario": "<p>As três revoluções industriais correspondem a ciclos tecnológicos distintos: a 1ª (carvão e vapor, século XVIII-XIX), a 2ª (eletricidade e petróleo, final do XIX e início do XX) e a 3ª (microeletrônica e informática, a partir dos anos 1970). Cada fase reorganizou o espaço econômico mundial.</p>",
-    "ajuda": "As três fases da Revolução Industrial correspondem a períodos históricos com características próprias: a primeira (máquina a vapor), a segunda (eletricidade e petróleo) e a terceira (microeletrônica). Relacione cada descrição à fase correta."
+    "ajuda": "As três fases da Revolução Industrial correspondem a períodos históricos com características próprias: a primeira (máquina a vapor), a segunda (eletricidade e petróleo) e a terceira (microeletrônica). Relacione cada descrição à fase correta.",
+    "feedbacks": {
+      "1": "A sequência 1-2-3 associa incorretamente os períodos da industrialização com as características apresentadas; cada revolução industrial tem marcos tecnológicos e energéticos distintos que não permitem essa ordenação. A Terceira Revolução Industrial não corresponde ao segundo item da coluna.",
+      "2": "A sequência 3-2-1 inverte completamente a correspondência entre os períodos das revoluções industriais e suas características. As revoluções têm marcos tecnológicos específicos (carvão/vapor, eletricidade/petróleo, microeletrônica) que não podem ser permutados.",
+      "3": "A sequência 3-1-2 erra na associação do primeiro elemento com o período industrial correspondente. A identificação correta exige relacionar cada revolução à sua principal inovação tecnológica e fonte energética."
+    }
   },
   {
     "id": 5,
@@ -111,7 +133,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A dispersão espacial das indústrias para países de menor custo não significou descentralização do poder econômico. As decisões estratégicas, as patentes e os lucros continuaram concentrados nos países ricos — evidenciando que dispersão produtiva e concentração econômica coexistem na globalização contemporânea.</p>",
-    "ajuda": "A dispersão espacial das indústrias (para países com menor custo de produção) não elimina a concentração do poder econômico e das decisões. Pense em qual conceito descreve essa dinâmica: as fábricas se espalham, mas o controle permanece centralizado."
+    "ajuda": "A dispersão espacial das indústrias (para países com menor custo de produção) não elimina a concentração do poder econômico e das decisões. Pense em qual conceito descreve essa dinâmica: as fábricas se espalham, mas o controle permanece centralizado.",
+    "feedbacks": {
+      "0": "A dinâmica descrita aprofunda a dependência tecnológica dos países periféricos em relação aos centros, e não sua autonomia. Os países que não produzem tecnologia ficam subordinados àqueles que controlam a inovação.",
+      "1": "Crises de abastecimento são conjunturais e decorrentes de problemas logísticos; a complementaridade entre países na nova DIT gera concentração econômica nos países tecnologicamente avançados, e não ruptura no abastecimento. São fenômenos distintos.",
+      "2": "A interdependência econômica descrita não implica descentralização política; ao contrário, pode fortalecer o poder dos países tecnologicamente dominantes sobre os demais. A dependência tecnológica é uma forma de concentração, e não de descentralização.",
+      "4": "Na lógica da nova DIT, os lucros se concentram nos países que controlam a tecnologia, a inovação e o conhecimento. O compartilhamento igualitário de lucros contraria a lógica do capitalismo global, que remunera desigualmente quem produz tecnologia e quem executa tarefas."
+    }
   },
   {
     "id": 6,
@@ -135,7 +163,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A desindustrialização dos países desenvolvidos não significou perda de poder econômico, pois esses países mantiveram o domínio tecnológico e o controle das cadeias produtivas globais. Ao exportar a produção para países periféricos, retiveram as etapas de maior valor agregado: pesquisa, design e marketing.</p>",
-    "ajuda": "O setor terciário cresceu nos países desenvolvidos à medida que a indústria se deslocou para países de menor custo. Essa desindustrialização não significa perda de poder econômico — pense em como o domínio tecnológico mantém a supremacia desses países."
+    "ajuda": "O setor terciário cresceu nos países desenvolvidos à medida que a indústria se deslocou para países de menor custo. Essa desindustrialização não significa perda de poder econômico — pense em como o domínio tecnológico mantém a supremacia desses países.",
+    "feedbacks": {
+      "0": "A saturação do setor secundário é um fenômeno de determinadas economias desenvolvidas que desindustrializaram, mas não é o resultado geral descrito no contexto. O processo de globalização e nova DIT resulta no reforço do domínio tecnológico pelos países centrais.",
+      "1": "A globalização e as transformações produtivas da 3ª RI tenderam a flexibilizar, e não a ampliar, os direitos trabalhistas. A terceirização, os contratos temporários e a automação enfraqueceram as proteções históricas conquistadas pelos trabalhadores.",
+      "2": "A Nova Ordem Mundial pós-Guerra Fria é multipolar, não bipolar; a bipolaridade caracterizou o período da Guerra Fria (EUA vs URSS). O contexto descrito não remete a uma bipolarização do poder, mas à consolidação do domínio tecnológico.",
+      "4": "A primarização das exportações é um fenômeno que afeta países periféricos que retornam à dependência de commodities, mas não é o resultado geral do processo descrito. O domínio tecnológico dos países centrais é o resultado central abordado."
+    }
   },
   {
     "id": 7,
@@ -160,7 +194,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A automação industrial eliminou postos de trabalho repetitivos, mas a Terceira Revolução Industrial trouxe o efeito paradoxal de elevar o desemprego estrutural: fábricas produzem mais com menos pessoas. Ao mesmo tempo, aumentou a demanda por serviços — gerando crescimento no setor terciário.</p>",
-    "ajuda": "As transformações na produção industrial (automação, deslocalização, reestruturação) têm consequências tanto para o setor produtivo quanto para o mercado de trabalho. Pense em qual par de efeitos — um para a produção e outro para o emprego — está correto."
+    "ajuda": "As transformações na produção industrial (automação, deslocalização, reestruturação) têm consequências tanto para o setor produtivo quanto para o mercado de trabalho. Pense em qual par de efeitos — um para a produção e outro para o emprego — está correto.",
+    "feedbacks": {
+      "0": "As vantagens locacionais persistem na era da automação, pois proximidade de mercados, matérias-primas e infraestrutura continuam sendo fatores de escolha industrial. A automação não eliminou as vantagens locacionais; precarizou, mas não ampliou, a legislação trabalhista.",
+      "1": "A automação e a globalização ampliaram os fluxos logísticos por meio das cadeias globais de valor, e não os limitaram. Além disso, os sindicatos foram enfraquecidos pela fragmentação do trabalho e pela terceirização, e não fortalecidos.",
+      "2": "A automação exige mais investimentos em capital tecnológico, e não menos. Os postos qualificados, como programadores e engenheiros, são valorizados e não desvalorizados pelo processo de automação; o que se desvaloriza são os postos repetitivos.",
+      "3": "A automação levou à dispersão geográfica das manufaturas por cadeias globais de valor, e não à sua concentração. A jornada semanal não foi reduzida sistematicamente pela automação; ao contrário, houve intensificação do trabalho nos postos mantidos."
+    }
   },
   {
     "id": 8,
@@ -184,7 +224,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A distribuição desigual da tecnologia no espaço mundial reflete a hierarquia do capitalismo: países ricos concentram a geração de conhecimento e inovação, enquanto os pobres absorvem tecnologia de segunda geração. Essa assimetria é uma nova forma de dominação que substitui o colonialismo territorial.</p>",
-    "ajuda": "A Terceira Revolução Industrial e a globalização consolidaram um espaço caracterizado pela distribuição desigual do conhecimento tecnológico. Pense em qual alternativa descreve corretamente essa distribuição irregular da tecnologia no espaço mundial."
+    "ajuda": "A Terceira Revolução Industrial e a globalização consolidaram um espaço caracterizado pela distribuição desigual do conhecimento tecnológico. Pense em qual alternativa descreve corretamente essa distribuição irregular da tecnologia no espaço mundial.",
+    "feedbacks": {
+      "0": "A distribuição tecnológica global é irregular, não regular; afirmar que é regular inverte a realidade da assimetria tecnológica entre países. A alternativa também confunde o problema ao supor que os ricos sempre investiram igualmente em tecnologia.",
+      "2": "A desigualdade tecnológica é estrutural e historicamente construída, e não uma situação momentânea que o tempo resolverá automaticamente. A tendência histórica mostra que o hiato tecnológico entre países centrais e periféricos tende a se aprofundar sem políticas específicas de reversão.",
+      "3": "O determinismo ambiental é uma corrente geográfica superada que atribuía o desenvolvimento aos fatores naturais. A desigualdade tecnológica é produto de processos históricos, econômicos e políticos (colonialismo, imperialismo, industrialização), e não das condições do meio ambiente.",
+      "4": "A distribuição tecnológica global é irregular, e não regular; a alternativa parte de uma premissa incorreta. Além disso, dizer que é 'regular mas diferenciada' é autocontraditório: diferenciação implica irregularidade."
+    }
   },
   {
     "id": 9,
@@ -208,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O Taylorismo propôs a racionalização científica do trabalho (divisão de tarefas, cronometragem) para maximizar a produtividade. O Fordismo aplicou esses princípios na linha de montagem em série, criando o trabalhador especializado em uma única função — base do modelo industrial do século XX.</p>",
-    "ajuda": "Taylorismo e Fordismo são modelos de organização da produção industrial do século XIX-XX. O Taylorismo propõe a divisão científica do trabalho; o Fordismo aplica essa lógica à linha de montagem em série. Analise quais afirmativas descrevem corretamente cada modelo."
+    "ajuda": "Taylorismo e Fordismo são modelos de organização da produção industrial do século XIX-XX. O Taylorismo propõe a divisão científica do trabalho; o Fordismo aplica essa lógica à linha de montagem em série. Analise quais afirmativas descrevem corretamente cada modelo.",
+    "feedbacks": {
+      "1": "A afirmativa V é falsa: o taylorismo e o fordismo chegaram ao Brasil muito antes de 1980, durante o governo Vargas (anos 1930-1940) e ao longo da industrialização nacional nas décadas de 1950 e 1960. Além disso, a afirmativa I, que é verdadeira, foi excluída desta alternativa.",
+      "2": "A afirmativa IV é falsa: o taylorismo não foi benéfico à organização dos trabalhadores; ao contrário, intensificou o controle e a fragmentação do trabalho, dificultando a solidariedade operária. A resistência sindical surgiu como reação às condições impostas pelo taylorismo.",
+      "3": "As afirmativas IV e V são falsas, e incluí-las invalida esta alternativa. Além disso, a afirmativa I, verdadeira (taylorismo propõe elevar produtividade pela racionalização), foi excluída, tornando a alternativa incompleta e incorreta.",
+      "4": "As afirmativas IV e V são falsas: o taylorismo não beneficiou a organização sindical e o modelo chegou ao Brasil bem antes de 1980. Afirmar que todas as proposições são verdadeiras ignora os equívocos factuais presentes nessas duas afirmativas."
+    }
   },
   {
     "id": 10,
@@ -231,6 +283,11 @@
     ],
     "correta": 3,
     "comentario": "<p>As multinacionais buscam constantemente reduzir custos de produção e ampliar mercados consumidores. A afirmativa incorreta é a concentração do processo produtivo em um único país — na verdade, as transnacionais distribuem globalmente suas operações, instalando fábricas onde os custos são menores.</p>",
-    "ajuda": "As multinacionais buscam mercados consumidores globalizados e, para manter competitividade, precisam constantemente reduzir custos e aumentar produtividade. Pense em qual estratégia organizacional as empresas transnacionais adotaram diante da concorrência globalizada."
+    "ajuda": "As multinacionais buscam mercados consumidores globalizados e, para manter competitividade, precisam constantemente reduzir custos e aumentar produtividade. Pense em qual estratégia organizacional as empresas transnacionais adotaram diante da concorrência globalizada.",
+    "feedbacks": {
+      "0": "A diminuição do tamanho das unidades de produção com uso de alta tecnologia é de fato uma característica do modelo toyotista, que substituiu as grandes fábricas fordistas por unidades menores e mais flexíveis. Essa afirmativa descreve corretamente o toyotismo.",
+      "1": "A otimização dos processos com eliminação de desperdícios é o princípio central do toyotismo, expresso no sistema kaizen de melhoria contínua. Reduzir desperdícios de matéria-prima, tempo e esforço é uma característica essencial do modelo.",
+      "2": "O investimento em marketing e divulgação é uma característica do toyotismo, voltado à diversificação de produtos e ao atendimento de demandas específicas dos consumidores. Ao contrário do fordismo, que produzia em massa produtos padronizados, o toyotismo customiza e comunica."
+    }
   }
 ]

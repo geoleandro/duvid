@@ -22,7 +22,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A Mata Atlântica é um dos hotspots de biodiversidade mais ameaçados do planeta, restando apenas cerca de 12% de sua cobertura original após séculos de ocupação humana. A jararaca é endêmica desse bioma e sua presença em áreas de Pampa, Cerrado e Caatinga indica a plasticidade ecológica de algumas espécies. A fragmentação da Mata Atlântica ameaça não só a fauna, mas também populações humanas que dependem dos serviços ecossistêmicos da floresta.</p>",
-    "ajuda": "A questão trata da distribuição geográfica da jararaca segundo o Atlas de Serpentes. Lembre-se que a Mata Atlântica é um bioma de zona temperada e tropical úmida no leste do Brasil. A jararaca ocorre principalmente nesse bioma e em áreas adjacentes."
+    "ajuda": "A questão trata da distribuição geográfica da jararaca segundo o Atlas de Serpentes. Lembre-se que a Mata Atlântica é um bioma de zona temperada e tropical úmida no leste do Brasil. A jararaca ocorre principalmente nesse bioma e em áreas adjacentes.",
+    "feedbacks": {
+      "0": "A jararaca não é típica de altitudes baixas e não tem ocorrência expressiva no Pantanal. Seu habitat preferencial é a Mata Atlântica, ambiente de alta umidade e cobertura florestal densa, e não biomas de planícies alagáveis ou campos abertos.",
+      "1": "A jararaca não se concentra na Caatinga: esse bioma semiárido e seco é o oposto do ambiente úmido e florestal que a espécie prefere. A Caatinga tem sua própria fauna herpetológica adaptada à seca, com outras espécies de serpentes predominantes.",
+      "2": "As áreas mais planas da faixa leste não são o habitat principal da jararaca, e a Caatinga que cobre parte dessa faixa não é o bioma associado à espécie. A jararaca está adaptada a ambientes florestados úmidos, como a Mata Atlântica.",
+      "3": "A jararaca não tem ocorrência restrita à Amazônia: ela é característica da Mata Atlântica, um bioma completamente diferente em composição florestal, altitude e regime hídrico. A Amazônia tem suas próprias espécies de Bothrops mais associadas ao ambiente equatorial."
+    }
   },
   {
     "id": 2,
@@ -47,7 +53,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O discurso de que o desmatamento da Amazônia é necessário ao crescimento econômico é a narrativa dominante que legitima a destruição florestal. Esse argumento ignora que a Amazônia desmatada perde sua capacidade de gerar chuvas (os 'rios voadores'), regular o clima regional e sustentar a biodiversidade — serviços que têm valor econômico imenso e não substituível. A crítica ao desmatamento não é antidesenvolvimento, mas rejeição de um modelo destrutivo de curto prazo.</p>",
-    "ajuda": "O texto critica o discurso de que o desmatamento é necessário para o crescimento econômico. Pense nos dados: a Amazônia desmatada representa apenas 14,5% do PIB agropecuário. O que isso revela sobre a real necessidade do desmatamento?"
+    "ajuda": "O texto critica o discurso de que o desmatamento é necessário para o crescimento econômico. Pense nos dados: a Amazônia desmatada representa apenas 14,5% do PIB agropecuário. O que isso revela sobre a real necessidade do desmatamento?",
+    "feedbacks": {
+      "1": "O texto questiona a necessidade do desmatamento para o crescimento econômico, e não a existência de uma vocação agrária brasileira. A vocação agrária é uma realidade produtiva, e o argumento do texto é que ela pode ser exercida sem deforestar a Amazônia.",
+      "2": "O texto não aborda comparações entre áreas ambientalmente diversas nem critica formas de mensuração territorial. Seu foco é a relação entre desmatamento e crescimento econômico, e não metodologias de análise geográfica.",
+      "3": "O texto apoia, e não questiona, a geração de renda atrelada à preservação da floresta amazônica. Os dados apresentados mostram justamente que regiões com menor desmatamento têm melhor desempenho econômico, reforçando a proposta de desenvolvimento com conservação.",
+      "4": "A fertilidade do solo paulista é um tema completamente alheio ao argumento do texto, que trata da relação entre desmatamento e economia na Amazônia. Não há nenhuma conexão lógica entre o texto e um senso comum sobre o solo de São Paulo."
+    }
   },
   {
     "id": 3,
@@ -71,7 +83,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O desastre de Brumadinho (2019) lançou lama de rejeitos de minério no rio Paraopeba, contaminando suas águas com metais pesados e destruindo a biota aquática. A recuperação de rios afetados por rejeitos mineiros é possível, mas lenta e cara, envolvendo desassoreamento, biorremediação com microrganismos e repovoamento de espécies. A tragédia expôs os riscos das barragens de mineração construídas pelo método a montante, hoje proibido no Brasil.</p>",
-    "ajuda": "A tragédia de Brumadinho em 2019 foi causada pelo rompimento de uma barragem de rejeitos. Pense nas consequências para o rio Paraopeba: contaminação por metais pesados, assoreamento e destruição de ecossistemas. Qual medida de recuperação é mais viável?"
+    "ajuda": "A tragédia de Brumadinho em 2019 foi causada pelo rompimento de uma barragem de rejeitos. Pense nas consequências para o rio Paraopeba: contaminação por metais pesados, assoreamento e destruição de ecossistemas. Qual medida de recuperação é mais viável?",
+    "feedbacks": {
+      "0": "Os rejeitos de mineração contêm metais pesados, substâncias tóxicas e materiais inorgânicos que destroem a vida aquática. Caracterizá-los como ricos em matéria orgânica que ajudaria na recuperação do ecossistema é o oposto do que os estudos sobre o rompimento da barragem de Brumadinho demonstraram.",
+      "1": "O sistema de alarme da empresa falhou justamente por ter sido desativado pelos responsáveis, e não por um simples mau funcionamento. Além disso, a questão pede os impactos socioambientais do desastre, não as causas que poderiam tê-lo evitado.",
+      "2": "Os rejeitos de mineração causam morte aguda e contaminação por toxicidade nos organismos expostos, e não mutações genéticas. Mutações resultam de exposição crônica e prolongada a certas substâncias, e não do tipo de contaminação súbita causada pelo rompimento da barragem.",
+      "4": "A lama tóxica destruiu habitats, contaminou as águas e criou condições propícias à proliferação de vetores de doenças como mosquitos transmissores de dengue e malaria. Afirmar que o ciclo de vetores foi pouco alterado contradiz o que ocorre em desastres ambientais desse porte."
+    }
   },
   {
     "id": 4,
@@ -96,7 +114,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A desertificação no Semiárido nordestino é agravada pelo desmatamento da Caatinga, pastagem excessiva e técnicas agrícolas inadequadas que esgotam o solo. Para combatê-la, é necessário recompor a vegetação nativa, utilizar técnicas de contenção da erosão e praticar agricultura de baixo impacto. A prevenção é mais eficaz e barata que a recuperação de terras já desertificadas, que pode levar décadas.</p>",
-    "ajuda": "A desertificação é um processo de degradação ambiental em zonas semiáridas. A prevenção é mais eficaz do que a recuperação. Pense em práticas que restauram a cobertura vegetal nativa e recuperam a capacidade produtiva do solo."
+    "ajuda": "A desertificação é um processo de degradação ambiental em zonas semiáridas. A prevenção é mais eficaz do que a recuperação. Pense em práticas que restauram a cobertura vegetal nativa e recuperam a capacidade produtiva do solo.",
+    "feedbacks": {
+      "0": "A construção de rodovias pode facilitar o deslocamento de populações afetadas pela seca, mas não mitiga a desertificação: ao contrário, estradas frequentemente impulsionam o desmatamento e a degradação do solo nas regiões semiáridas. Essa medida é adaptativa, não mitigadora.",
+      "1": "Expandir o cultivo para encostas de meia altitude em áreas semiáridas aumenta a erosão, favorece o escoamento superficial e intensifica a degradação do solo. Essa prática é incompatível com a mitigação da desertificação e pode acelerar o processo.",
+      "2": "Espécies exóticas de rápido crescimento podem fixar o solo temporariamente, mas competem com a vegetação nativa, alteram o ciclo hídrico local e não reconstituem os serviços ecossistêmicos da vegetação original. A gestão da desertificação exige recuperação com espécies adaptadas ao bioma.",
+      "4": "Fossas sépticas são soluções de saneamento básico para o tratamento de efluentes domésticos, sem relação direta com os processos de degradação do solo e de perda de cobertura vegetal que caracterizam a desertificação. São medidas de saúde pública, não de recuperação ambiental."
+    }
   },
   {
     "id": 5,
@@ -120,7 +144,12 @@
     ],
     "correta": 1,
     "comentario": "<p>Os desastres em barragens de rejeitos mineiros, como Mariana (2015) e Brumadinho (2019), revelam a lógica da acumulação capitalista que subordina a segurança e o meio ambiente ao lucro de curto prazo. A primazia da acumulação se manifesta na negligência com a manutenção das estruturas, na pressão para reduzir custos operacionais e na captura regulatória que enfraquece a fiscalização ambiental. O resultado são tragédias anunciadas que destroem vidas e territórios.</p>",
-    "ajuda": "Os desastres causados por barragens de rejeitos revelam uma lógica econômica que prioriza lucro sobre segurança. Pense em qual dinâmica do capitalismo contemporâneo — acumulação, regulação ou racionalização — melhor explica essas tragédias."
+    "ajuda": "Os desastres causados por barragens de rejeitos revelam uma lógica econômica que prioriza lucro sobre segurança. Pense em qual dinâmica do capitalismo contemporâneo — acumulação, regulação ou racionalização — melhor explica essas tragédias.",
+    "feedbacks": {
+      "0": "Os textos descrevem desastres causados por empresas que priorizaram o lucro em detrimento da segurança dos trabalhadores e das comunidades. A valorização da ocupação laboral seria a antítese do que os textos relatam, e não o problema central identificado.",
+      "2": "A racionalização industrial pressupõe otimização de processos para ganhos de eficiência, o que implica planejamento e redução de desperdícios. O que os textos descrevem é o contrário: a destruição de capital humano, ambiental e econômico pela busca de lucro imediato sem responsabilidade.",
+      "3": "Embora a desregulamentação do Estado possa criar condições para acidentes, os textos identificam a lógica de acumulação capitalista como o motor central dos desastres. A desregulamentação é um instrumento dessa lógica, não sua causa raiz."
+    }
   },
   {
     "id": 6,
@@ -144,7 +173,13 @@
     ],
     "correta": 2,
     "comentario": "<p>O aumento da permeabilidade do solo não está diretamente associado às chuvas ácidas — na verdade, a impermeabilização urbana é o problema oposto. As afirmativas verdadeiras refletem corretamente que a chuva ácida acidifica solos e corpos d'água, prejudicando ecossistemas e estruturas de concreto e metal, enquanto as falsas introduzem distorções ou invertem causalidades. A sequência F-V-V-F indica discriminação correta entre fatos e erros conceituais.</p>",
-    "ajuda": "As afirmativas tratam de desertificação e permeabilidade do solo. Lembre-se que o desmatamento e o uso intensivo do solo reduzem a infiltração da água e aumentam a erosão. Analise cada proposição com esses princípios em mente."
+    "ajuda": "As afirmativas tratam de desertificação e permeabilidade do solo. Lembre-se que o desmatamento e o uso intensivo do solo reduzem a infiltração da água e aumentam a erosão. Analise cada proposição com esses princípios em mente.",
+    "feedbacks": {
+      "0": "A quarta afirmativa é falsa: a redução da infiltração em ambientes urbanos aumenta o escoamento superficial, o que intensifica a erosão dos solos e agrava os problemas de drenagem nas bacias hidrográficas, e não os evita. A sequência correta é F-V-V-F.",
+      "1": "A primeira afirmativa é falsa: o aumento da permeabilidade do solo favorece a infiltração da água, reduzindo o escoamento superficial e as enchentes, e não as intensificando. A segunda afirmativa é verdadeira: a supressão florestal altera o ciclo hidrológico e potencializa o desabastecimento.",
+      "3": "A primeira afirmativa é falsa (mais permeabilidade reduz enchentes), as segunda e terceira são verdadeiras, e a quarta é falsa (menos infiltração aumenta erosão). A sequência V-F-F-V apresenta múltiplos erros na identificação das afirmativas verdadeiras e falsas.",
+      "4": "A primeira afirmativa é falsa: maior permeabilidade do solo reduz, e não favorece, as enchentes. A terceira afirmativa é verdadeira: o Código Florestal brasileiro estabelece a preservação de vegetação em topos de morros, encostas íngremes e faixas marginais dos rios. A sequência V-V-F-F erra ao marcar a primeira como V e a terceira como F."
+    }
   },
   {
     "id": 7,
@@ -167,7 +202,12 @@
     ],
     "correta": 1,
     "comentario": "<p>As Reservas Extrativistas (RESEXs) são unidades de conservação de uso sustentável onde populações tradicionais — seringueiros, ribeirinhos, pescadores — têm direito de moradia e uso dos recursos naturais. Elas surgiram como resposta às lutas do movimento seringueiro liderado por Chico Mendes nos anos 1980. Paradoxalmente, o entorno das RESEXs frequentemente sofre pressão crescente do desmatamento e do agronegócio, ameaçando a integridade das reservas.</p>",
-    "ajuda": "As Reservas Extrativistas (RESEX) são uma categoria de Unidade de Conservação de uso sustentável. Diferentemente das terras indígenas, são áreas públicas destinadas a populações tradicionais ribeirinhas e extrativistas, não indígenas."
+    "ajuda": "As Reservas Extrativistas (RESEX) são uma categoria de Unidade de Conservação de uso sustentável. Diferentemente das terras indígenas, são áreas públicas destinadas a populações tradicionais ribeirinhas e extrativistas, não indígenas.",
+    "feedbacks": {
+      "0": "As terras demarcadas para populações indígenas têm uma categoria jurídica própria (Terras Indígenas), distinta das Reservas Extrativistas. As RESEX atendem populações tradicionais não indígenas, como ribeirinhos, pescadores e seringueiros, não podendo ser usadas economicamente por povos indígenas.",
+      "2": "As RESEX não são destinadas ao uso misto de populações indígenas e quilombolas: esses grupos têm formas de proteção territorial específicas (Terras Indígenas e Territórios Quilombolas). As RESEX atendem populações tradicionais ribeirinhas e extrativistas, com identidade e modo de vida próprios.",
+      "3": "A alternativa limita as atividades econômicas nas RESEX ao 'extrativismo sustentável', quando na realidade as RESEX permitem uma gama mais ampla de atividades econômicas sustentáveis, incluindo pesca artesanal, agricultura de subsistência e manejo florestal comunitário. A restrição ao 'extrativismo' apenas é mais estreita do que o que a legislação prevê."
+    }
   },
   {
     "id": 8,
@@ -190,7 +230,12 @@
     ],
     "correta": 0,
     "comentario": "<p>As Áreas de Proteção Ambiental (APAs) são unidades de conservação de uso sustentável que permitem certo nível de ocupação humana e atividades econômicas reguladas. Seu objetivo é disciplinar o uso do território em áreas extensas, conciliando conservação ambiental com desenvolvimento econômico e qualidade de vida das populações locais. Diferem das unidades de proteção integral, onde atividades humanas são muito mais restritas.</p>",
-    "ajuda": "As APAs (Áreas de Proteção Ambiental) são unidades de conservação de uso sustentável. Elas permitem certa ocupação humana e atividades econômicas reguladas. Pense em como esse modelo difere das unidades de proteção integral."
+    "ajuda": "As APAs (Áreas de Proteção Ambiental) são unidades de conservação de uso sustentável. Elas permitem certa ocupação humana e atividades econômicas reguladas. Pense em como esse modelo difere das unidades de proteção integral.",
+    "feedbacks": {
+      "1": "A descrição de manutenção de ecossistemas em áreas reduzidas com pouco povoamento corresponde a unidades de proteção integral, como Parques Nacionais e Reservas Biológicas. As APAs, por sua vez, admitem a presença humana e o uso sustentável dos recursos, sendo categorias de uso sustentável.",
+      "2": "Ampliar a exploração dos recursos florestais contraria o objetivo de qualquer unidade de conservação. As APAs visam disciplinar e orientar o uso sustentável, e não intensificar ou ampliar a exploração econômica das florestas.",
+      "3": "A conservação da biodiversidade em áreas privadas mediante compromisso dos proprietários descreve as Reservas Particulares do Patrimônio Natural (RPPN), e não as APAs. As RPPNs são criadas voluntariamente por proprietários, enquanto as APAs têm gestão pública."
+    }
   },
   {
     "id": 9,
@@ -214,7 +259,12 @@
     ],
     "correta": 3,
     "comentario": "<p>Os municípios brasileiros que mais emitem gases de efeito estufa por mudança de uso da terra são geralmente grandes e pouco populosos, localizados na fronteira agrícola amazônica, onde o desmatamento e as queimadas convertem floresta em pasto ou lavoura. A emissão de CO₂ nesses municípios não está relacionada à densidade industrial, mas ao vandalismo florestal em larga escala. Esse dado evidencia que o desmatamento é a principal fonte de emissões do Brasil.</p>",
-    "ajuda": "A tabela mostra os municípios que mais emitem CO² no Brasil. Pense nas causas: municípios com grande extensão territorial e baixa densidade demográfica podem ter altas emissões por desmatamento, mesmo sem grande população."
+    "ajuda": "A tabela mostra os municípios que mais emitem CO² no Brasil. Pense nas causas: municípios com grande extensão territorial e baixa densidade demográfica podem ter altas emissões por desmatamento, mesmo sem grande população.",
+    "feedbacks": {
+      "0": "Os municípios que mais emitiram GEE no Brasil em 2019 são grandes municípios da Amazônia e do Cerrado, com extensas áreas e baixa densidade demográfica. Municípios de menor extensão e alta densidade (como capitais industriais) não estão entre os maiores emissores porque suas emissões são predominantemente de combustíveis fósseis, e não de desmatamento.",
+      "1": "Municípios de grande extensão e baixa densidade demográfica em fronteiras agrícolas amazônicas são os maiores emissores de GEE, mas suas emissões provêm principalmente do desmatamento e das queimadas (fontes não energéticas), e não de combustíveis fósseis. A queima de combustíveis fósseis é mais intensa em centros urbanos industriais.",
+      "2": "Municípios de menor extensão e alta densidade concentram emissões de combustíveis fósseis (indústria, transporte), mas não são os maiores emissores totais de GEE. Os maiores emissores são municípios extensos de baixa densidade com desmatamento intenso."
+    }
   },
   {
     "id": 10,
@@ -238,6 +288,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A apropriação de terras devolutas — terras públicas sem destinação definida — por meio de grilagem é o mecanismo central do conflito agrário na Amazônia e em outras regiões de fronteira. Grileiros falsificam documentos, expulsam populações tradicionais e desmatam para 'valorizar' a terra, transformando área pública em propriedade privada lucrativa. Esse processo alimenta a violência no campo e o desmatamento ilegal, sendo o problema central apontado pelo autor.</p>",
-    "ajuda": "O texto provavelmente critica a flexibilização da legislação ambiental como fator que estimula o desmatamento. Pense em qual mudança legal ou institucional cria o ambiente permissivo que facilita a apropriação ilegal de terras."
+    "ajuda": "O texto provavelmente critica a flexibilização da legislação ambiental como fator que estimula o desmatamento. Pense em qual mudança legal ou institucional cria o ambiente permissivo que facilita a apropriação ilegal de terras.",
+    "feedbacks": {
+      "1": "A sonegação de impostos é um crime fiscal correlacionado ao problema, mas não é o mecanismo central descrito no texto. O texto aponta que as alternativas logísticas ativam mercados especuladores de terras e instrumentalizam grileiros, sendo a grilagem de terras públicas o problema central.",
+      "2": "A exportação ilegal de madeira e outros recursos é uma consequência do desmatamento estimulado pela grilagem, mas não é o problema central identificado pelo autor. O foco do texto é na especulação fundiária e na apropriação ilegal de terras devolutas como motor do desmatamento.",
+      "3": "A desoneração de setores produtivos é uma política fiscal que não aparece no texto como o mecanismo central do problema. O texto identifica a dinâmica de especulação de terras ligada à expansão de infraestrutura logística como o fator gerador do desmatamento amazônico.",
+      "4": "A flexibilização ambiental facilita o desmatamento, mas é um elemento do contexto e não o mecanismo central descrito. O texto aponta explicitamente que alternativas logísticas ativam mercados especulativos e instrumentalizam grileiros que se apropriam de áreas devolutas."
+    }
   }
 ]

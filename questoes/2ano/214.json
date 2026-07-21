@@ -19,7 +19,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O Brasil possui uma diversidade climática notável para um país tropical: do equatorial úmido amazônico ao subtropical do Sul, passando pelo semiárido nordestino e o tropical de altitude do Sudeste. Essa variedade resulta de fatores como latitude, altitude, continentalidade e massas de ar — o que torna o ensino dos climas brasileiros um exercício de síntese de vários elementos da geografia física.</p>",
-    "ajuda": "Lembre-se das características de cada tipo climático brasileiro: o Tropical tem duas estações (seca e chuvosa), o Equatorial tem chuvas o ano todo, o Subtropical tem temperaturas variáveis o ano todo e o Semiárido tem pouca chuva e altas temperaturas. Associe cada descrição ao tipo climático correto e monte a sequência pedida."
+    "ajuda": "Lembre-se das características de cada tipo climático brasileiro: o Tropical tem duas estações (seca e chuvosa), o Equatorial tem chuvas o ano todo, o Subtropical tem temperaturas variáveis o ano todo e o Semiárido tem pouca chuva e altas temperaturas. Associe cada descrição ao tipo climático correto e monte a sequência pedida.",
+    "feedbacks": {
+      "0": "A sequência 1, 3, 4, 2 não corresponde à ordem correta dos eventos ou elementos descritos. O primeiro elemento correto é 2, e não 1.",
+      "2": "A sequência 2, 1, 4, 3 está correta nos dois primeiros elementos, mas inverte os dois últimos. O elemento 3 precede o 4 na sequência correta.",
+      "3": "A sequência 3, 2, 1, 4 altera a posição de todos os elementos em relação ao gabarito. O primeiro elemento correto é 2, e não 3.",
+      "4": "A sequência 4, 1, 3, 2 não corresponde à ordem correta. O primeiro elemento correto é 2, e não 4."
+    }
   },
   {
     "id": 2,
@@ -43,7 +49,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O clima tropical, com chuvas concentradas no verão e seca no inverno, é o mais abrangente do Brasil, cobrindo o Planalto Central, parte do Nordeste e do Sudeste. Essa sazonalidade marcada — verão chuvoso, inverno seco — define os ritmos agrícolas e hidrológicos de regiões como Minas Gerais, Goiás e Mato Grosso do Sul, influenciando a disponibilidade de água e a produção de energia hidroelétrica.</p>",
-    "ajuda": "Leia a descrição do clima: quente e semiúmido, com estação chuvosa no verão e seca no inverno, amplitude térmica anual elevada, abrangendo estados como MG, GO, SP e parte do Nordeste. Pense em qual tipo climático combina duas estações bem marcadas, calor e uma estação seca definida. Identifique o clima correto dentre as alternativas."
+    "ajuda": "Leia a descrição do clima: quente e semiúmido, com estação chuvosa no verão e seca no inverno, amplitude térmica anual elevada, abrangendo estados como MG, GO, SP e parte do Nordeste. Pense em qual tipo climático combina duas estações bem marcadas, calor e uma estação seca definida. Identifique o clima correto dentre as alternativas.",
+    "feedbacks": {
+      "1": "O clima subtropical ocorre na região Sul do Brasil, abaixo do Trópico de Capricórnio, e não é o clima predominante no território nacional. Ele cobre apenas a porção sul do país, com quatro estações bem definidas.",
+      "2": "O clima equatorial predomina na Amazônia, mas não é o clima dominante em todo o Brasil. Ele é mais restrito do que o clima tropical, que abrange a maior parte do território nacional.",
+      "3": "O clima tropical semiárido é um subtipo específico restrito principalmente ao sertão nordestino, e não o clima predominante no Brasil. Ele ocorre em uma região específica de menor extensão territorial.",
+      "4": "O clima equatorial úmido está presente na Amazônia, mas não é o clima que predomina na maior parte do território brasileiro. O clima tropical, com estação seca no inverno e chuvas no verão, é o dominante no país."
+    }
   },
   {
     "id": 3,
@@ -65,7 +77,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O clima tropical é o dominante no Brasil por uma razão geográfica simples: a maior parte do território está entre o Equador e o Trópico de Capricórnio, recebendo alta insolação ao longo do ano. A alternância entre estação seca e chuvosa, característica desse clima, molda os biomas do Cerrado e da Caatinga, além de determinar os padrões de uso agrícola do solo no Brasil central.</p>",
-    "ajuda": "Pense no clima que ocupa a maior extensão do território brasileiro. Lembre-se de que o Brasil é um país de latitudes tropicais e que o clima dominante no interior do país possui duas estações bem marcadas: uma chuvosa e quente no verão e uma seca no inverno. Qual tipo climático predomina no Brasil?"
+    "ajuda": "Pense no clima que ocupa a maior extensão do território brasileiro. Lembre-se de que o Brasil é um país de latitudes tropicais e que o clima dominante no interior do país possui duas estações bem marcadas: uma chuvosa e quente no verão e uma seca no inverno. Qual tipo climático predomina no Brasil?",
+    "feedbacks": {
+      "0": "O clima semiárido é caracterizado por baixa pluviosidade e irregularidade das chuvas, sendo restrito principalmente ao interior do Nordeste. O tipo climático descrito na questão apresenta maior extensão e distribuição mais ampla no território.",
+      "1": "O clima equatorial tem temperatura e umidade elevadas durante todo o ano, sem estação seca definida, predominando na Amazônia. As características descritas na questão não correspondem à regularidade e à elevada umidade do clima equatorial.",
+      "2": "O clima subtropical ocorre abaixo do Trópico de Capricórnio, com quatro estações bem definidas e invernos mais frios. As características descritas na questão não correspondem às temperaturas mais baixas e à distribuição uniforme das chuvas do clima subtropical.",
+      "4": "O clima desértico é caracterizado por precipitações extremamente baixas e amplitudes térmicas extremas, sendo ausente no Brasil em sentido estrito. As características descritas na questão não correspondem à aridez extrema do clima desértico."
+    }
   },
   {
     "id": 4,
@@ -87,7 +105,13 @@
     ],
     "correta": 1,
     "comentario": "<p>O semiárido nordestino (clima semiárido) é caracterizado por chuvas escassas e irregulares (menos de 800mm/ano) e temperaturas elevadas, gerando um balanço hídrico deficitário. Já a Amazônia (clima equatorial) combina calor intenso e umidade constante, com chuvas bem distribuídas ao longo do ano. Essas diferenças climáticas têm enorme impacto sobre a biodiversidade, a população e o desenvolvimento econômico de cada região.</p>",
-    "ajuda": "Pense nas características climáticas das duas regiões mencionadas: o interior do Nordeste possui clima semiárido (temperaturas elevadas, chuvas escassas e irregulares), enquanto a região Norte tem clima equatorial (temperaturas elevadas e alta umidade durante todo o ano). Qual alternativa associa corretamente as características de cada região?"
+    "ajuda": "Pense nas características climáticas das duas regiões mencionadas: o interior do Nordeste possui clima semiárido (temperaturas elevadas, chuvas escassas e irregulares), enquanto a região Norte tem clima equatorial (temperaturas elevadas e alta umidade durante todo o ano). Qual alternativa associa corretamente as características de cada região?",
+    "feedbacks": {
+      "0": "O semiárido não apresenta temperaturas amenas; é caracterizado por temperaturas elevadas. Além disso, a distribuição regular de chuvas ao longo do ano é o oposto do que ocorre no semiárido, onde as precipitações são escassas e irregulares.",
+      "2": "O clima equatorial não apresenta temperaturas baixas nem escassez de chuvas no outono e inverno. Esse clima tem temperaturas elevadas e pluviosidade bem distribuída ao longo do ano, sem estação seca definida.",
+      "3": "O semiárido não apresenta temperaturas amenas nem chuvas bem distribuídas; ao contrário, é marcado por altas temperaturas e irregularidade das precipitações. A segunda descrição também não corresponde ao clima equatorial, que não tem pouca chuva no outono e inverno.",
+      "4": "O semiárido não apresenta umidade elevada vinda do oceano durante todo o ano; é caracterizado pela baixa umidade e pelas chuvas escassas. Além disso, o clima equatorial não apresenta aridez no inverno, pois não tem estação seca definida."
+    }
   },
   {
     "id": 5,
@@ -110,7 +134,12 @@
     ],
     "correta": 0,
     "comentario": "<p>A neve em Santa Catarina ocorre em municípios serranos como São Joaquim, Urupema e Bom Jardim da Serra, situados acima de 1.000 metros de altitude e em latitudes ao sul do Trópico de Capricórnio. A combinação de altitude elevada (que reduz a temperatura) e latitude subtropical (que permite a entrada de massas de ar polar) são as condições necessárias para que a neve se forme no Brasil.</p>",
-    "ajuda": "Pense nos dois fatores que favorecem a ocorrência de neve em São Joaquim (SC): latitude subtropical (abaixo do Trópico de Capricórnio) e altitude elevada (acima de 1.000 metros). Ambos contribuem para temperaturas mais baixas. Identifique qual alternativa combina corretamente esses dois fatores geográficos."
+    "ajuda": "Pense nos dois fatores que favorecem a ocorrência de neve em São Joaquim (SC): latitude subtropical (abaixo do Trópico de Capricórnio) e altitude elevada (acima de 1.000 metros). Ambos contribuem para temperaturas mais baixas. Identifique qual alternativa combina corretamente esses dois fatores geográficos.",
+    "feedbacks": {
+      "1": "Latitudes entre 66° S e 90° S correspondem às regiões polares do Hemisfério Sul, onde não se encontra o território brasileiro. Além disso, altitudes abaixo de 1000 m não definem as características do tipo climático descrito, que requer elevações maiores.",
+      "2": "Latitudes entre 23° N e 66° N correspondem ao Hemisfério Norte, onde não se localiza o Brasil. As características climáticas descritas referem-se a regiões situadas no Hemisfério Sul.",
+      "3": "Latitudes entre 66° N e 90° N correspondem às regiões polares do Hemisfério Norte, onde não se localiza o território brasileiro. Além disso, altitudes abaixo de 1000 m não correspondem às características do tipo climático descrito."
+    }
   },
   {
     "id": 6,
@@ -134,7 +163,13 @@
     ],
     "correta": 4,
     "comentario": "<p>A distribuição dos climas no Brasil segue um padrão latitudinal e altitudinal: equatorial na Amazônia (calor e umidade constantes), tropical no Planalto Central (verão chuvoso, inverno seco), semiárido no sertão nordestino (secas prolongadas) e subtropical no Sul (invernos frios com geadas). Cada tipo climático define um bioma, uma economia agrária e um conjunto de desafios específicos para as populações que habitam essas regiões.</p>",
-    "ajuda": "Observe o mapa com as áreas climáticas A, B, C e D e leia as quatro descrições. Associe cada descrição à área correspondente: chuvas abundantes o ano todo (equatorial, Amazônia), chuvas escassas e irregulares (semiárido, Nordeste), duas estações (tropical, Centro-Oeste) e temperaturas amenas com chuvas regulares (subtropical, Sul). Monte a sequência correta."
+    "ajuda": "Observe o mapa com as áreas climáticas A, B, C e D e leia as quatro descrições. Associe cada descrição à área correspondente: chuvas abundantes o ano todo (equatorial, Amazônia), chuvas escassas e irregulares (semiárido, Nordeste), duas estações (tropical, Centro-Oeste) e temperaturas amenas com chuvas regulares (subtropical, Sul). Monte a sequência correta.",
+    "feedbacks": {
+      "0": "A combinação 1D; 2B; 3A; 4C não estabelece as correspondências corretas entre os elementos indicados. A associação de pelo menos dois pares diverge das correspondências corretas.",
+      "1": "A combinação 1B; 2D; 3C; 4A não corresponde às associações corretas. Os pares 1-B e 2-D não estabelecem as relações corretas entre os elementos.",
+      "2": "A combinação 1A; 2C; 3D; 4B não corresponde às associações corretas. A posição dos elementos A e C diverge das correspondências corretas estabelecidas pelo gabarito.",
+      "3": "A combinação 1C; 2B; 3D; 4A está correta apenas na primeira posição, mas apresenta erros nas demais. As associações dos elementos 2, 3 e 4 divergem das correspondências corretas."
+    }
   },
   {
     "id": 7,
@@ -158,7 +193,13 @@
     ],
     "correta": 3,
     "comentario": "<p>O clima subtropical úmido do Sul do Brasil é influenciado pelas massas de ar polar (MPA), que avançam periodicamente pelo continente, trazendo frentes frias e geadas no inverno. Latitude, altitude e a ausência de barreiras montanhosas no sul do continente facilitam a penetração dessas massas frias até o Brasil meridional, diferenciando-o climaticamente do restante do país.</p>",
-    "ajuda": "Pense nos fatores que influenciam o clima do Sul do Brasil: latitude elevada (mais próxima dos pólos), altitude das serras e a atuação da Massa Polar Atlântica. Esses fatores combinados explicam os invernos rigorosos e a ocorrência esporádica de neve. Qual combinação de fatores é determinante para a neve no sul do país?"
+    "ajuda": "Pense nos fatores que influenciam o clima do Sul do Brasil: latitude elevada (mais próxima dos pólos), altitude das serras e a atuação da Massa Polar Atlântica. Esses fatores combinados explicam os invernos rigorosos e a ocorrência esporádica de neve. Qual combinação de fatores é determinante para a neve no sul do país?",
+    "feedbacks": {
+      "0": "Maritimidade e continentalidade são fatores climáticos relevantes, mas não os três principais que explicam a diversidade climática do Brasil. As massas de ar têm papel mais determinante do que a maritimidade, sendo responsáveis pelos regimes de chuva em todo o território.",
+      "1": "Embora latitude e altitude sejam fatores fundamentais, a maritimidade não é o terceiro principal fator climático no Brasil. As massas de ar são mais determinantes do que a maritimidade para explicar os diferentes regimes de chuva.",
+      "2": "O relevo é um fator climático importante, mas não é o principal determinante da diversidade climática. A latitude e as massas de ar são fatores mais abrangentes e determinantes do que o relevo para os diferentes climas do território brasileiro.",
+      "4": "As depressões são formas de relevo, e não fatores climáticos. Substituir a latitude pelas depressões como fator principal é um equívoco; a latitude é determinante para a quantidade de radiação solar recebida e, consequentemente, para a temperatura."
+    }
   },
   {
     "id": 8,
@@ -183,7 +224,13 @@
     ],
     "correta": 0,
     "comentario": "<p>As geadas em São Paulo ocorrem especialmente na Serra da Mantiqueira e no Planalto Paulistano, onde altitudes acima de 800–1.200 metros reduzem as temperaturas mínimas noturnas a valores próximos ou abaixo de zero. Essa dinâmica distingue o clima tropical de altitude do Sudeste — com invernos frios e secos — do clima tropical típico das áreas de baixa altitude.</p>",
-    "ajuda": "A questão aborda a formação de geadas no estado de São Paulo. Lembre-se que as geadas ocorrem quando o ar frio se acumula em áreas de maior altitude durante a noite, resfriando abaixo de 0°C. Pense em qual região de São Paulo possui as maiores altitudes e, portanto, as condições mais propícias para a formação de geada."
+    "ajuda": "A questão aborda a formação de geadas no estado de São Paulo. Lembre-se que as geadas ocorrem quando o ar frio se acumula em áreas de maior altitude durante a noite, resfriando abaixo de 0°C. Pense em qual região de São Paulo possui as maiores altitudes e, portanto, as condições mais propícias para a formação de geada.",
+    "feedbacks": {
+      "1": "O Vale do rio Ribeira de Iguape está em baixa altitude, o que favorece temperaturas mais elevadas, e não a entrada de ar frio. As baixas altitudes não geram resfriamento do ar; ao contrário, tendem a elevar as temperaturas locais.",
+      "2": "A maritimidade pode moderar temperaturas nas áreas costeiras, mas o interior do estado de São Paulo é influenciado muito mais pela altitude e pelas massas de ar. Além disso, a maritimidade não injeta ar frio para o continente de forma direta.",
+      "3": "O Planalto Ocidental Paulista está em altitude moderada e não é uma área de acúmulo de ar frio como descrito. As temperaturas mais baixas no estado de São Paulo estão associadas às maiores altitudes da Serra da Mantiqueira e da Serra do Mar.",
+      "4": "A cobertura vegetal influencia a temperatura local, mas sua ausência não é o principal fator que explica as temperaturas mais baixas em determinadas regiões do estado de São Paulo. A altitude é o fator dominante, especialmente na Serra da Mantiqueira."
+    }
   },
   {
     "id": 9,
@@ -207,7 +254,13 @@
     ],
     "correta": 0,
     "comentario": "<p>O Brasil possui dois grandes grupos climáticos em seu território: o tropical (com subtipos equatorial, semiárido, de altitude e úmido) e o subtropical, restrito ao Sul do país. Essa diferença fundamental é determinada principalmente pela latitude: ao norte do Trópico de Capricórnio predominam climas tropicais quentes; ao sul, o subtropical introduz invernos frios e chuvas bem distribuídas ao longo do ano.</p>",
-    "ajuda": "Observe o mapa dos tipos climáticos do Brasil. Pense na localização de cada número no mapa: o número 1 está no interior do Centro-Oeste/parte do Nordeste (clima tropical) e o número 2 está na região Norte próxima ao Equador (clima equatorial). Associe corretamente cada número ao tipo climático."
+    "ajuda": "Observe o mapa dos tipos climáticos do Brasil. Pense na localização de cada número no mapa: o número 1 está no interior do Centro-Oeste/parte do Nordeste (clima tropical) e o número 2 está na região Norte próxima ao Equador (clima equatorial). Associe corretamente cada número ao tipo climático.",
+    "feedbacks": {
+      "1": "O clima equatorial tem temperatura e umidade elevadas durante todo o ano, sem estação seca definida, predominando na Amazônia. A área 1 apresenta o clima tropical, com estação seca no inverno, e não o clima equatorial.",
+      "2": "O clima equatorial não é o tipo climático da área 2, que apresenta as características do clima subtropical. O clima equatorial ocorre principalmente na Amazônia, enquanto a área 2 é caracterizada por invernos mais frios e quatro estações definidas.",
+      "3": "O clima equatorial não é o tipo climático da área 1, que apresenta clima tropical com estação seca. Além disso, a área 2 apresenta clima subtropical, e não equatorial, sendo esse último restrito às latitudes equatoriais da Amazônia.",
+      "4": "A área 1 não apresenta clima subtropical; esse clima ocorre abaixo do Trópico de Capricórnio. A área 1 está em latitude tropical e apresenta o clima tropical, com estação seca no inverno e chuvas no verão."
+    }
   },
   {
     "id": 10,
@@ -230,6 +283,11 @@
     ],
     "correta": 2,
     "comentario": "<p>O climograma II, com baixas precipitações e temperaturas elevadas ao longo do ano, é típico do semiárido nordestino, onde a irregularidade das chuvas e a alta evapotranspiração criam um balanço hídrico negativo. Essa realidade climática está na raiz dos problemas estruturais do Nordeste: seca, convivência com a escassez de água e desafios para a agricultura familiar no sertão.</p>",
-    "ajuda": "Observe os dois climogramas e analise temperatura e pluviosidade em cada mês. Pense: qual climograma mostra chuvas escassas, irregulares e temperaturas elevadas o ano todo? Esse padrão corresponde ao clima semiárido nordestino. Qual climograma mostra chuvas bem distribuídas e temperaturas amenas? Identifique cada um corretamente."
+    "ajuda": "Observe os dois climogramas e analise temperatura e pluviosidade em cada mês. Pense: qual climograma mostra chuvas escassas, irregulares e temperaturas elevadas o ano todo? Esse padrão corresponde ao clima semiárido nordestino. Qual climograma mostra chuvas bem distribuídas e temperaturas amenas? Identifique cada um corretamente.",
+    "feedbacks": {
+      "0": "O climograma I representa uma região com chuvas concentradas em determinada época do ano e temperaturas elevadas, características do clima tropical. A questão exige a identificação correta de cada climograma com seu respectivo tipo climático.",
+      "1": "O climograma II não representa o clima equatorial, que se caracteriza por chuvas abundantes e bem distribuídas ao longo do ano. O climograma II apresenta período seco prolongado e baixa pluviosidade total, características do semiárido.",
+      "3": "O climograma I não representa as áreas do Sul do Brasil; o clima subtropical tem chuvas bem distribuídas ao longo do ano e invernos mais frios. O climograma I apresenta marcada sazonalidade nas chuvas com estação seca, típica do clima tropical."
+    }
   }
 ]

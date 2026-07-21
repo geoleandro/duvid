@@ -475,6 +475,32 @@
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr />
         </div>
+
+
+
+        <div class="topico">
+            <h3> Vulcanismo fora dos limites de placas: os pontos quentes </h3>
+            <p>Nem todo vulcão do planeta está localizado sobre um limite de placas tectônicas. Existem regiões
+                conhecidas como <strong>pontos quentes</strong> (hotspots), áreas fixas no manto onde uma pluma de
+                magma extremamente quente sobe continuamente em direção à superfície, perfurando a placa por cima
+                dela, independentemente de onde essa placa esteja em relação aos seus limites.</p>
+            <p>O arquipélago do Havaí é o exemplo mais conhecido desse fenômeno. As ilhas havaianas se formaram no
+                meio da Placa do Pacífico, a milhares de quilômetros de qualquer limite divergente, convergente ou
+                transformante. Como a placa se move lentamente sobre o ponto quente fixo no manto, uma sequência de
+                ilhas vulcânicas foi se formando ao longo de milhões de anos, ficando mais antigas conforme se
+                afastam do ponto ativo atual, onde hoje se localiza o vulcão Kilauea.</p>
+            <p>Esse tipo de vulcanismo mostra que, embora a teoria das placas tectônicas explique a maior parte da
+                atividade vulcânica e sísmica do planeta, o interior da Terra também produz fenômenos independentes
+                da movimentação das bordas das placas, evidenciando que o manto tem uma dinâmica própria de
+                convecção que ultrapassa os limites já estudados.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr />
+        </div>
+
+
+
+
+
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="

@@ -21,7 +21,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Observe com atenção a proporção de cada fonte no gráfico, tanto para o Brasil quanto para o restante do mundo. Lembre-se que o Brasil é destaque mundial no uso de hidrelétricas e biocombustíveis. Compare qual país tem mais renováveis e qual tem mais fósseis."
+    "ajuda": "Observe com atenção a proporção de cada fonte no gráfico, tanto para o Brasil quanto para o restante do mundo. Lembre-se que o Brasil é destaque mundial no uso de hidrelétricas e biocombustíveis. Compare qual país tem mais renováveis e qual tem mais fósseis.",
+    "feedbacks": {
+      "0": "A afirmativa generaliza ao ignorar a distinção entre a matriz elétrica e a oferta total de energia. Quando se inclui o petróleo para transporte e o gás para a indústria, a participação dos combustíveis fósseis no Brasil ainda é significativa.",
+      "1": "A participação de fontes renováveis no Brasil é maior do que na média mundial, e não menor. O Brasil tem alta renovabilidade na matriz elétrica (hidrelétricas) e nos combustíveis veiculares (etanol), superior à média global.",
+      "2": "Os combustíveis fósseis ainda respondem por cerca de 80% da oferta global de energia primária. Afirmar que os renováveis já são maioria no mundo contraria os dados globais de consumo de energia.",
+      "3": "O Brasil usa muito pouco carvão em sua matriz, enquanto países como China, Índia e EUA têm participação muito maior do carvão. A afirmativa inverte essa relação."
+    }
   },
   {
     "id": 2,
@@ -45,7 +51,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Climogramas mostram temperatura e precipitação ao longo do ano. Foque na amplitude térmica, no ritmo das chuvas e na ausência de inverno frio. Isso ajuda a distinguir entre clima tropical, equatorial, subtropical e de altitude."
+    "ajuda": "Climogramas mostram temperatura e precipitação ao longo do ano. Foque na amplitude térmica, no ritmo das chuvas e na ausência de inverno frio. Isso ajuda a distinguir entre clima tropical, equatorial, subtropical e de altitude.",
+    "feedbacks": {
+      "0": "O clima subtropical ocorre no Sul do Brasil, abaixo do Trópico de Capricórnio, com quatro estações definidas. Não corresponde ao tipo climático de temperatura e umidade elevadas o ano todo descrito na questão.",
+      "1": "O clima tropical de altitude ocorre nas serras e planaltos do Sudeste, com temperaturas amenas. Não corresponde ao tipo climático de temperatura muito elevada e umidade constante sem estação seca.",
+      "3": "O clima tropical tem estação seca bem definida no inverno. Não corresponde ao tipo climático descrito, que não apresenta estação seca.",
+      "4": "O clima mesotérmico úmido é uma denominação para climas temperados com verões amenos. Não corresponde ao tipo climático de temperatura elevada e umidade constante descrito na questão."
+    }
   },
   {
     "id": 3,
@@ -69,7 +81,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Relacione cada tipo climático com a massa de ar que predomina em sua região. Lembre-se que o Brasil tem cinco grandes domínios climáticos influenciados por massas equatoriais, tropicais e polares. Use a lógica de localização geográfica para ordenar corretamente."
+    "ajuda": "Relacione cada tipo climático com a massa de ar que predomina em sua região. Lembre-se que o Brasil tem cinco grandes domínios climáticos influenciados por massas equatoriais, tropicais e polares. Use a lógica de localização geográfica para ordenar corretamente.",
+    "feedbacks": {
+      "1": "A sequência II; V; IV; III; I não corresponde à ordem correta. A sequência correta começa com IV, e não com II.",
+      "2": "A sequência III; IV; I; V; II não corresponde à ordem correta. O primeiro elemento é IV, e a organização difere da sequência correta.",
+      "3": "A sequência IV; V; I; III; II está correta apenas no primeiro elemento (IV), mas erra nos demais. A ordem correta continua com II, V, I, III.",
+      "4": "A sequência III; V; IV; II; I não corresponde à ordem correta. A sequência começa com IV, e não com III."
+    }
   },
   {
     "id": 4,
@@ -93,7 +111,13 @@
     ],
     "correta": 3,
     "comentario": "<p>Bioma caracterizado pelo solo lamacento, com baixa oxigenação, no qual as raízes apresentam\r\n pneumatóforos para captação do gás. Por estar localizado na região costeira, a salinidade da água\r\n exige da vegetação glândulas nas folhas para eliminação do excesso de sais.</p>",
-    "ajuda": "A descrição menciona raízes horizontais para ancoragem e adaptações específicas ao ambiente. Pense em qual bioma brasileiro tem alternância entre períodos secos e úmidos, com solos sujeitos a inundações e salinidade — isso limita muito as opções."
+    "ajuda": "A descrição menciona raízes horizontais para ancoragem e adaptações específicas ao ambiente. Pense em qual bioma brasileiro tem alternância entre períodos secos e úmidos, com solos sujeitos a inundações e salinidade — isso limita muito as opções.",
+    "feedbacks": {
+      "0": "O Cerrado é uma savana tropical do Brasil Central, adaptado ao clima com estação seca. Não corresponde ao ecossistema costeiro de transição entre áreas marinhas e terrestres descrito na questão.",
+      "1": "Os Pampas são campos temperados do Sul do Brasil, com gramíneas e clima subtropical. Não correspondem ao ecossistema costeiro de transição marinho-terrestre.",
+      "2": "O Pantanal é a maior planície de inundação do mundo, localizado no interior do continente. Embora seja um ambiente de transição, ocorre muito distante do litoral.",
+      "4": "A Mata de Cocais é uma formação de transição no Nordeste e Norte, com palmeiras como babaçu e carnaúba. Não corresponde ao ecossistema costeiro descrito."
+    }
   },
   {
     "id": 5,
@@ -118,7 +142,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Segundo as informações do enunciado, a prática de queimadas controladas pode contribuir para a\r\n manutenção da biodiversidade do Cerrado e, até mesmo, provocar um aumento discreto de espécies\r\n vegetais. A rebrota de algumas espécies do Cerrado depende da ação do fogo que ocorre naturalmente\r\n em sua área de abrangência no território nacional, onde predomina o clima tropical marcado por\r\n severos períodos de estiagem durante o inverno.</p>",
-    "ajuda": "Queimadas controladas no Cerrado têm uma função ecológica ligada ao ciclo natural desse bioma. Reflita sobre o papel do fogo na renovação da vegetação e na biodiversidade, diferenciando práticas tradicionais de degradação ambiental."
+    "ajuda": "Queimadas controladas no Cerrado têm uma função ecológica ligada ao ciclo natural desse bioma. Reflita sobre o papel do fogo na renovação da vegetação e na biodiversidade, diferenciando práticas tradicionais de degradação ambiental.",
+    "feedbacks": {
+      "1": "A prática descrita não é uma técnica agrícola de ponta; é uma prática de comunidades tradicionais com raízes ancestrais. A questão descreve uma atividade de manejo tradicional, não uma inovação tecnológica.",
+      "2": "A agricultura itinerante envolve derrubar a mata, cultivar por alguns anos e abandonar o local, o que degrada o bioma. A questão descreve uma prática que contribui para a biodiversidade, o oposto da agricultura itinerante.",
+      "3": "A pecuária extensiva é uma atividade de grande impacto e escala incompatível com a conservação da biodiversidade. A questão aborda uma prática voltada ao uso sustentável do bioma.",
+      "4": "A prática descrita apresenta vantagem, e não desvantagem, para a flora. A questão afirma que ela contribui para a biodiversidade, sendo benéfica para a flora."
+    }
   },
   {
     "id": 6,
@@ -143,7 +173,13 @@
     ],
     "correta": 0,
     "comentario": "<p>A tecnologia hoje disponível permite aos agricultores um monitoramento cada vez maior da produção\r\n agrícola, tornando a atividade cada vez mais independente das variações ambientais.</p>\n<p>a) Correta. A introdução de novas tecnologias no campo promove a adequação das etapas produtivas a\r\n processos que as otimizam, reforçando a expansão de uma agricultura científica globalizada que\r\n confere racionalidade e aumento da produtividade à atividade agrícola moderna.</p>\n<p>b) Incorreta. O texto não faz menção ao aspecto econômico de valorização fundiária no campo, mas a\r\n elementos técnicos vinculados à produção.</p>\n<p>c) Incorreta. Embora irrigação seja um processo utilizado para corrigir a ausência de umidade dos\r\n solos, o tema principal que o texto aborda vincula-se à implementação de tecnologias no campo e às\r\n mudanças que isso ocasiona.</p>\n<p>d) Incorreta. A divisão do trabalho na propriedade agrícola tecnificada tem sido restrita pelo uso\r\n de tecnologias automatizadas capazes de centralizar cada vez mais o controle de todas as etapas da\r\n produção.</p>\n<p>e) Incorreta. O excerto apresentado fala da vulnerabilidade dos solos associada à variação dos\r\n níveis de umidade, sujeitos a medições para estabelecer a quantidade de água de que a planta\r\n necessita além de abordar como os elementos técnicos podem contribui para estabelecer os objetivos\r\n produtos pretendidos. Portanto, não há certeza sobrea estabilidade da influência dos elementos\r\n naturais na atividade agrícola, tampouco se menciona o `fator fertilidade dos solos no âmbito da\r\n questão.</p>",
-    "ajuda": "As tecnologias descritas no texto visam otimizar processos no campo ou na indústria. Pense no objetivo principal dessas inovações: controle, eficiência, produção ou fertilidade? Relacione a inovação com seu impacto mais direto no processo produtivo."
+    "ajuda": "As tecnologias descritas no texto visam otimizar processos no campo ou na indústria. Pense no objetivo principal dessas inovações: controle, eficiência, produção ou fertilidade? Relacione a inovação com seu impacto mais direto no processo produtivo.",
+    "feedbacks": {
+      "1": "A valorização do preço da terra é uma consequência do uso de tecnologia, mas não é o recurso tecnológico que impacta diretamente a eficiência produtiva. A questão pede a tecnologia que influencia mais diretamente a produtividade.",
+      "2": "A correção dos fatores climáticos não é possível por meio de tecnologias agrícolas convencionais; o clima é um fator exógeno. A tecnologia pode atenuar impactos climáticos, mas não corrigi-los diretamente.",
+      "3": "A divisão de tarefas é uma questão de gestão e organização do trabalho, e não um recurso tecnológico de produção. A questão aborda tecnologias que impactam diretamente o manejo e a produtividade da lavoura.",
+      "4": "A estabilização da fertilidade do solo é um efeito de longo prazo de boas práticas, e não o principal recurso tecnológico para a gestão eficiente. A tecnologia que mais diretamente se relaciona ao monitoramento produtivo é o acompanhamento em tempo real."
+    }
   },
   {
     "id": 7,
@@ -168,7 +204,13 @@
     ],
     "correta": 3,
     "comentario": "<p>A região descrita no texto apresenta características típicas da região central do País, na qual se\r\n destaca o intenso processo erosivo. Nestas regiões, predominam o ambiente tropical típico, com\r\n chuvas concentradas no verão.</p>\n<p>a) Incorreto. Nessa alternativa, o clima árido não permite a sazonalidade chuvosa necessária à\r\n formação do processo de laterização.</p>\n<p>b) Incorreto. O clima subtropical não traz as condições necessárias à formação de cangas e do solo\r\n proposto no enunciado devido ao menor volume de chuvas e ausência de sazonalidade.</p>\n<p>c) Incorreto. O clima Temperado, apesar de ser sazonal, não traz o volume de chuvas necessário e nem\r\n as condições necessárias à formação de cangas e do solo proposto no enunciado.</p>\n<p>d) Correto. O clima tropical traz perfeitamente as condições necessárias à formação de cangas e do\r\n solo proposto no enunciado, pois tem sazonalidade contribuindo tanto para o processo erosivo quanto\r\n para o processo de laterização.</p>\n<p>e) Incorreto. Sempre deve haver sazonalidade hídrica para haver laterização, e chuvas constantes não\r\n trazem essas condições.</p>",
-    "ajuda": "Chapadas e chapadões são formas de relevo planas em altitude, e a sazonalidade das chuvas é característica dos climas tropicais. Relacione as condições climáticas com a formação dos solos e a cobertura vegetal dessas superfícies antigas."
+    "ajuda": "Chapadas e chapadões são formas de relevo planas em altitude, e a sazonalidade das chuvas é característica dos climas tropicais. Relacione as condições climáticas com a formação dos solos e a cobertura vegetal dessas superfícies antigas.",
+    "feedbacks": {
+      "0": "O clima árido com déficit hídrico permanente não corresponde ao bioma descrito, que sustenta vegetação com pluviosidade suficiente. O bioma árido seria a Caatinga, não o descrito na questão.",
+      "1": "O clima subtropical com baixas temperaturas ocorre no Sul do Brasil. Não corresponde ao bioma de temperaturas elevadas e vegetação adaptada ao calor.",
+      "2": "O clima temperado com invernos frios e secos ocorre em latitudes médias, fora do território brasileiro. Não corresponde ao bioma tropical descrito.",
+      "4": "O clima equatorial com pluviosidade abundante e sem estação seca está associado à Floresta Amazônica. Não corresponde ao bioma descrito, que tem sazonalidade nas chuvas e estação seca definida."
+    }
   },
   {
     "id": 8,
@@ -192,7 +234,13 @@
     ],
     "correta": 0,
     "comentario": "<p>Embora a região Norte do país permaneça sob a influência da Massa Equatorial Continental, é comum que no inverno a Massa de ar Polar avance sobre o interior do país, provocando redução das temperaturas em todas as regiões. Quando esse fenômeno acontece na região Norte, ele recebe o nome de friagem.</p>",
-    "ajuda": "A questão pede a alternativa que NÃO descreve corretamente os movimentos das massas de ar. Revise o comportamento de cada massa durante o inverno e o verão, lembrando que a Massa Equatorial Continental (mEc) é quente e úmida apesar de continental."
+    "ajuda": "A questão pede a alternativa que NÃO descreve corretamente os movimentos das massas de ar. Revise o comportamento de cada massa durante o inverno e o verão, lembrando que a Massa Equatorial Continental (mEc) é quente e úmida apesar de continental.",
+    "feedbacks": {
+      "1": "A Massa Equatorial Continental tem maior atuação no verão, quando avança sobre o Brasil Central e Sudeste. Sua menor atuação no inverno não se deve ao avanço das massas polares, mas à diferença de pressão atmosférica sazonal.",
+      "2": "O Brasil tem 92% de seu território ao sul do Equador, e não ao norte como indica a afirmativa. Além disso, os climas quentes e úmidos não cobrem uniformemente todo o território; o semiárido nordestino é quente, mas não úmido.",
+      "3": "A Massa Equatorial Continental origina-se sobre o continente (Depressão do Chaco e Amazônia), sendo quente e úmida. Não é seca e quente como as massas continentais de regiões áridas; a umidade da Amazônia garante sua alta umidade relativa.",
+      "4": "A variação sazonal da Massa Equatorial Atlântica está mais relacionada à posição da Zona de Convergência Intertropical (ZCIT) do que ao avanço polar. Sua influência no litoral norte e nordeste é relativamente constante ao longo do ano."
+    }
   },
   {
     "id": 9,
@@ -215,7 +263,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Domínios morfoclimáticos de Ab'Saber combinam clima, relevo, vegetação e solo em uma unidade coesa. A característica mencionada na questão — como tipo de solo laterítico, vegetação de galeria ou paisagem específica — aponta para um domínio específico."
+    "ajuda": "Domínios morfoclimáticos de Ab'Saber combinam clima, relevo, vegetação e solo em uma unidade coesa. A característica mencionada na questão — como tipo de solo laterítico, vegetação de galeria ou paisagem específica — aponta para um domínio específico.",
+    "feedbacks": {
+      "1": "A Caatinga é um bioma semiárido com vegetação xerófila adaptada à seca intensa, localizado no Nordeste. Não corresponde ao bioma de savana tropical com árvores tortuosas e alta biodiversidade descrito.",
+      "2": "A Floresta Amazônica é o maior bioma florestal do Brasil, com vegetação densa e úmida. Não corresponde ao bioma de savana tropical com vegetação esparsa e arbustiva descrito.",
+      "3": "A Mata dos Cocais é uma formação de transição entre a Amazônia e a Caatinga, com predominância de palmeiras. Não corresponde ao bioma de savana tropical com alta biodiversidade e solos ácidos e pobres."
+    }
   },
   {
     "id": 10,
@@ -239,6 +292,12 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Pantanal é uma planície sedimentar sujeita a alagamentos sazonais. Pense nas características físicas mais marcantes desse bioma: relevo, regime hídrico e vegetação. Isso ajuda a identificar a opção que melhor o descreve geograficamente."
+    "ajuda": "O Pantanal é uma planície sedimentar sujeita a alagamentos sazonais. Pense nas características físicas mais marcantes desse bioma: relevo, regime hídrico e vegetação. Isso ajuda a identificar a opção que melhor o descreve geograficamente.",
+    "feedbacks": {
+      "0": "Os dobramentos modernos são cadeias de montanhas jovens formadas por colisão de placas tectônicas. Não correspondem à característica ambiental do bioma descrito, que não se localiza em áreas de montanhas recentes.",
+      "1": "Os mares de morros são formas de relevo do domínio das matas atlânticas, com colinas arredondadas. Não correspondem à característica ambiental principal do bioma de áreas úmidas descrito.",
+      "2": "A vegetação xerófita é adaptada à seca intensa, sendo característica da Caatinga. Não corresponde ao bioma de áreas periodicamente inundadas descrito.",
+      "3": "As depressões interplanálticas são formas de relevo rebaixadas entre planaltos. Embora possam ocorrer em alguns biomas, não são a característica ambiental principal e distintiva do bioma de planícies alagáveis descrito."
+    }
   }
 ]

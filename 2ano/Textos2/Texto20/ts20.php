@@ -156,6 +156,8 @@
         <p>Os agrotóxicos são produtos químicos usados para controlar pragas, doenças e ervas daninhas nas plantações. O Brasil é um dos maiores consumidores de agrotóxicos do mundo. O uso intensivo desses produtos tem levantado preocupações quanto à saúde humana, contaminação do solo e água, e a resistência de pragas.</p>
         <p><em>Dados do Brasil:</em> Em 2019, o Brasil aprovou o registro de mais de 400 novos agrotóxicos. Estudos indicam que aproximadamente 20% dos alimentos consumidos no país contêm resíduos de agrotóxicos acima dos limites permitidos.</p>
 
+        <p>Um dos impactos mais graves do uso intensivo de agrotóxicos, sobretudo dos inseticidas, é a diminuição da diversidade de polinizadores naturais, como abelhas nativas, borboletas e outros insetos. Como esses produtos não distinguem pragas de espécies benéficas, a pulverização em larga escala das lavouras acaba expondo os polinizadores à toxicidade química e degradando os habitats de que dependem. Essa perda é preocupante porque boa parte das culturas agrícolas depende da polinização para se reproduzir, o que cria uma contradição: o mesmo pacote técnico que aumentou a produtividade agrícola a partir dos anos 1960 e 1970 também ameaça um dos serviços ambientais que sustentam essa produção a longo prazo.</p>
+
 
         <div class="w3-margin"><img id="imagem3" src="ts20f03.png" alt="ts20f03" class="w3-mobile" >
 		   

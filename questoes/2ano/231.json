@@ -21,7 +21,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "O enunciado descreve a transferência da população do campo para as cidades. Pense nos conceitos de urbanização, êxodo rural, conurbação e desmetropolização. Qual deles descreve especificamente esse processo de crescimento das cidades?"
+    "ajuda": "O enunciado descreve a transferência da população do campo para as cidades. Pense nos conceitos de urbanização, êxodo rural, conurbação e desmetropolização. Qual deles descreve especificamente esse processo de crescimento das cidades?",
+    "feedbacks": {
+      "0": "O êxodo urbano descreve o movimento de saída das pessoas das cidades em direção ao campo, o processo inverso do descrito no texto. O que foi narrado trata do deslocamento de populações rurais para as cidades, que é a urbanização.",
+      "2": "A conurbação é um fenômeno espacial de fusão física entre malhas urbanas de cidades vizinhas, e não o processo de migração campo-cidade descrito. O texto apresenta o crescimento das cidades pelo fluxo de pessoas que deixam o meio rural, não a junção de cidades distintas.",
+      "3": "A desmetropolização é o processo de perda de população ou de atividades econômicas nas grandes metrópoles, geralmente para cidades médias. O texto descreve o movimento oposto: o crescimento urbano pela chegada de migrantes rurais.",
+      "4": "A periferização refere-se ao deslocamento de populações para as franjas periféricas da cidade, um fenômeno que pode ocorrer dentro do processo de urbanização, mas não é o processo geral descrito. O texto descreve a passagem de uma população predominantemente rural para predominantemente urbana."
+    }
   },
   {
     "id": 2,
@@ -44,7 +50,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- \r\n <p><strong>Comentário:</strong></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p>\r\n \r\n <p></p> -->",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a urbanização brasileira. Lembre-se: a urbanização não transformou o Brasil em país desenvolvido, e o processo foi marcado por segregação e desigualdade, não por desenvolvimento pleno."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a urbanização brasileira. Lembre-se: a urbanização não transformou o Brasil em país desenvolvido, e o processo foi marcado por segregação e desigualdade, não por desenvolvimento pleno.",
+    "feedbacks": {
+      "0": "O êxodo rural foi de fato o principal motor da urbanização brasileira, especialmente entre 1950 e 1980, quando a modernização do campo expulsou mão de obra e as indústrias urbanas atraíram trabalhadores. Essa afirmativa está correta.",
+      "1": "Os maiores índices de urbanização no Brasil concentram-se efetivamente no eixo São Paulo-Rio de Janeiro e se estendem para os estados vizinhos do Sudeste e Sul. Essa configuração reflete a herança industrial dessa região, tornando a afirmativa correta.",
+      "2": "A fundação de Brasília em 1960 foi um dos principais vetores de urbanização do Centro-Oeste, atraindo migrantes de diversas regiões e gerando uma rede de cidades no entorno. Essa afirmativa está correta.",
+      "3": "A violência urbana nas cidades brasileiras está de fato relacionada a múltiplos fatores sociais e econômicos como desigualdade, desemprego, tráfico de drogas e ausência de políticas públicas eficazes. Essa afirmativa está correta."
+    }
   },
   {
     "id": 3,
@@ -68,7 +80,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O mapa revela a distribuição das cidades no território brasileiro. Pense na rede urbana nacional: ela é uniforme ou concentrada? As diferentes densidades de cidades refletem as desigualdades históricas e econômicas regionais."
+    "ajuda": "O mapa revela a distribuição das cidades no território brasileiro. Pense na rede urbana nacional: ela é uniforme ou concentrada? As diferentes densidades de cidades refletem as desigualdades históricas e econômicas regionais.",
+    "feedbacks": {
+      "0": "O interior do Brasil é justamente a área com menor densidade demográfica e menos cidades de grande porte, o que contraria a ideia de rede adensada. O mapa revela o contrário: a concentração da rede urbana no litoral e no Sudeste, e a rarefação no interior.",
+      "1": "A rede urbana brasileira é marcada por profundas desigualdades e não por uniformidade. A diversidade econômica das atividades também é heterogênea, concentrada no eixo Sudeste-Sul, e não reflete uma distribuição uniforme da rede.",
+      "2": "O acesso à eletricidade pública não é o fator que configura a rede urbana; a disponibilidade de energia está correlacionada com a presença de cidades, mas não é sua causa. O mapa revela diferenças de densidade demográfica que estruturam a rede, e não a distribuição da infraestrutura elétrica.",
+      "4": "A concentração em pequenos centros urbanos não explica a configuração mostrada no mapa, que evidencia diferenças de densidade entre regiões. Além disso, 'concentrada' implica homogeneidade em uma área, enquanto o mapa mostra uma distribuição espacialmente desigual da rede."
+    }
   },
   {
     "id": 4,
@@ -92,7 +110,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão provavelmente mostra uma imagem de área urbana com condomínios fechados e favelas próximas. Pense em qual processo geográfico descreve essa separação espacial entre ricos e pobres dentro da mesma cidade."
+    "ajuda": "A questão provavelmente mostra uma imagem de área urbana com condomínios fechados e favelas próximas. Pense em qual processo geográfico descreve essa separação espacial entre ricos e pobres dentro da mesma cidade.",
+    "feedbacks": {
+      "0": "A alienação sociopolítica refere-se ao afastamento do cidadão da vida política, e não à organização espacial da cidade por classes sociais. A situação descrita envolve a separação física de grupos por renda no espaço urbano, que é o conceito de segregação socioespacial.",
+      "2": "A gentrificação é um processo específico de requalificação e valorização de áreas centrais degradadas que expulsa moradores de baixa renda. O fenômeno descrito é mais amplo e abrange a separação socioespacial de toda a cidade, da qual a gentrificação é apenas uma forma.",
+      "3": "A periferização das atividades produtivas descreve o deslocamento de indústrias e serviços para a periferia urbana, um processo de geografia econômica. O texto trata da separação residencial dos grupos sociais, que é a segregação socioespacial dos habitantes.",
+      "4": "A verticalização refere-se ao adensamento urbano pelo crescimento em altura dos edifícios, um fenômeno de morfologia urbana. Não é o processo que explica a separação das classes sociais em diferentes bairros e zonas da cidade."
+    }
   },
   {
     "id": 5,
@@ -116,7 +140,12 @@
     ],
     "correta": 3,
     "comentario": "<p>A alternativa D está correta: o problema de acesso à moradia para uma ampla parcela da população\r\n brasileira deve-se à grande quantidade de imóveis vagos no país, muitos deles ociosos pela atitude\r\n especulativa de donos, que preferem deixá-los fechados a alugá-los por preços mais baixos. Esse fato\r\n afeta a população mais pobre, que não tem renda suficiente para acesso a moradia através do aluguel\r\n ou da compra.</p>\n<p>A alternativa A está errada porque as políticas habitacionais estatais não conseguem atender\r\n plenamente a população com necessidade de moradia, prolongando o problema do déficit habitacional\r\n brasileiro.</p>\n<p>A alternativa B está incorreta porque o gráfico indica que nem todas as áreas urbanas do país têm\r\n mais imóveis vagos do que déficit; isso não ocorre, por exemplo, no Estado de São Paulo e na Região\r\n Metropolitana de São Paulo.</p>\n<p>A alternativa C está incorreta porque o déficit habitacional brasileiro atinge sobretudo as\r\n populações de baixa renda, diferentemente do que aponta a alternativa ao afirmar que todas as\r\n classes sociais são atingidas da mesma maneira pela falta de acesso a moradia.</p>",
-    "ajuda": "O gráfico mostra domicílios vagos e déficit habitacional coexistindo. Pense por que existem tantos imóveis vazios enquanto há falta de moradia: o mercado imobiliário e a especulação determinam quem tem acesso à habitação."
+    "ajuda": "O gráfico mostra domicílios vagos e déficit habitacional coexistindo. Pense por que existem tantos imóveis vazios enquanto há falta de moradia: o mercado imobiliário e a especulação determinam quem tem acesso à habitação.",
+    "feedbacks": {
+      "0": "A construção de novos domicílios não está resolvendo o déficit habitacional porque o problema é de acesso econômico, não de quantidade absoluta de imóveis. Os dados do gráfico evidenciam que há imóveis vagos suficientes para cobrir o déficit, mas eles não estão disponíveis para a população de baixa renda.",
+      "1": "Os dados do gráfico não confirmam que em qualquer área do território brasileiro há mais domicílios vagos do que déficit: a distribuição varia conforme a região e o tipo de município. A correlação não é uniforme no espaço e depende de fatores locais.",
+      "2": "O déficit habitacional não afeta todas as classes sociais igualmente: ele concentra-se fortemente nas famílias de baixa renda, que não conseguem acessar o mercado formal de habitação. As classes de renda alta e média enfrentam um mercado completamente diferente."
+    }
   },
   {
     "id": 6,
@@ -141,7 +170,13 @@
     ],
     "correta": 4,
     "comentario": "<p>O espaço urbano é uma paisagem geográfica dinâmica, porque reflete as contínuas transformações da\r\n sociedade. Por exemplo, um dos processos que altera as feições das paisagens urbanas é a\r\n gentrificação, que, através do avanço da especulação imobiliária, resulta na intensificação de\r\n espaços fechados e verticalizados, o que reduz o convívio social.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O texto descreve mudanças na paisagem e na convivência social das grandes cidades. Pense em como a verticalização, os condomínios fechados e os shopping centers transformam o espaço público e as relações sociais urbanas."
+    "ajuda": "O texto descreve mudanças na paisagem e na convivência social das grandes cidades. Pense em como a verticalização, os condomínios fechados e os shopping centers transformam o espaço público e as relações sociais urbanas.",
+    "feedbacks": {
+      "0": "A instalação de condomínios fechados e a privatização do espaço público alteram profundamente os modos de convívio social, substituindo interações espontâneas em espaços abertos por encontros mediados e monitorados. A afirmativa inverte o que o texto descreve.",
+      "1": "A proliferação de condomínios fechados e a privatização do espaço nas grandes cidades esvaziam o espaço público, e não o preservam. O texto descreve exatamente a erosão da essência pública do espaço urbano, que é substituído por espaços privados controlados.",
+      "2": "Normas de controle ambiental não explicam as transformações descritas no texto, que tratam de mudanças na organização social e espacial da cidade. A privatização do espaço urbano resulta de dinâmicas do mercado imobiliário e de insegurança urbana, não de legislação ambiental.",
+      "3": "A flexibilização das regras de participação política é um conceito do campo da ciência política e não se relaciona com as transformações na paisagem geográfica das grandes cidades descritas no texto. O fenômeno abordado é urbanístico e socioespacial."
+    }
   },
   {
     "id": 7,
@@ -166,7 +201,13 @@
     ],
     "correta": 1,
     "comentario": "<p>A especulação imobiliária é a causa da manutenção de um grande número de imóveis desocupados, em\r\n áreas bem servidas pela infraestrutura urbana.</p>\n<!-- <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Estatuto da Cidade define a função social da propriedade. Pense na contradição entre imóveis ociosos em áreas bem servidas e a falta de moradia nas periferias. Qual situação melhor ilustra a não aplicação desse princípio?"
+    "ajuda": "O Estatuto da Cidade define a função social da propriedade. Pense na contradição entre imóveis ociosos em áreas bem servidas e a falta de moradia nas periferias. Qual situação melhor ilustra a não aplicação desse princípio?",
+    "feedbacks": {
+      "0": "Concentrar linhas de transporte público nas periferias seria, na verdade, uma medida positiva de acesso a serviços, e não uma violação da função social da propriedade. A função social da propriedade urbana diz respeito ao uso adequado dos imóveis, especialmente à ociosidade em áreas infraestruturadas.",
+      "2": "Expandir o saneamento básico para áreas regularizadas é uma política pública de inclusão, e não uma violação da função social da propriedade. O descumprimento dessa função ocorre quando imóveis permanecem ociosos em áreas servidas, não quando se amplia a cobertura de serviços.",
+      "3": "A coleta seletiva de lixo é uma política ambiental positiva e não se configura como descumprimento da função social da propriedade. A função social é violada quando terrenos e imóveis em áreas centrais ficam ociosos, valorizando-se pela especulação enquanto há déficit habitacional.",
+      "4": "A concentração de empregos em áreas com boa infraestrutura é uma característica do mercado de trabalho urbano, não um descumprimento da função social da propriedade. Esta última refere-se especificamente à subutilização ou ociosidade de imóveis que deveriam cumprir papel habitacional ou produtivo."
+    }
   },
   {
     "id": 8,
@@ -191,7 +232,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A impermeabilização urbana aumenta o escoamento superficial e reduz a infiltração. Para resolver enchentes, não basta construir galerias — é preciso aumentar a permeabilidade do solo. Qual solução construtiva vai nessa direção?"
+    "ajuda": "A impermeabilização urbana aumenta o escoamento superficial e reduz a infiltração. Para resolver enchentes, não basta construir galerias — é preciso aumentar a permeabilidade do solo. Qual solução construtiva vai nessa direção?",
+    "feedbacks": {
+      "0": "A pavimentação impermeabiliza o solo e reduz a capacidade de infiltração da água da chuva, aumentando o escoamento superficial e agravando as enchentes. Esse é um dos principais fatores que tornam as áreas urbanas mais vulneráveis às inundações, e não o contrário.",
+      "2": "A verticalização aumenta a densidade populacional em determinada área, mas não reduz necessariamente a impermeabilização do solo. Em muitos casos, projetos verticais eliminam jardins e ampliam superfícies impermeáveis, contribuindo para a intensificação das enchentes.",
+      "3": "O adensamento de construções aumenta a cobertura impermeável do solo urbano, reduzindo a infiltração e aumentando o escoamento superficial. Esse processo é uma das causas das enchentes urbanas, e não um fator de mitigação.",
+      "4": "O assoreamento dos canais de drenagem reduz a capacidade de escoamento das águas pluviais, tornando as enchentes mais frequentes e severas. É um dos problemas que as políticas de controle de inundações buscam combater, e não uma solução."
+    }
   },
   {
     "id": 9,
@@ -214,7 +261,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A poluição do ar nas cidades tem relação com a concentração de atividades industriais e de veículos. Pense nas consequências diretas para o microclima urbano: o calor gerado pelas atividades humanas cria um fenômeno térmico específico."
+    "ajuda": "A poluição do ar nas cidades tem relação com a concentração de atividades industriais e de veículos. Pense nas consequências diretas para o microclima urbano: o calor gerado pelas atividades humanas cria um fenômeno térmico específico.",
+    "feedbacks": {
+      "0": "O aumento dos raios ultravioleta é causado pela destruição da camada de ozônio estratosférico por substâncias como os CFCs, e não pela poluição industrial e automotiva local. Esses são fenômenos ambientais distintos com causas e escalas diferentes.",
+      "1": "A morte de animais e vegetais pode ocorrer em áreas de alta poluição, mas não é o principal efeito atmosférico da concentração de emissões industriais e automotivas nas cidades. O efeito direto sobre a temperatura e a qualidade do ar urbano é o que se relaciona com as ilhas de calor.",
+      "2": "A poluição das águas provém principalmente do lançamento de efluentes domésticos e industriais nos rios e aquíferos, e não da concentração de gases na atmosfera urbana. São fenômenos com cadeias causais distintas.",
+      "3": "O derretimento das calotas polares é um efeito do aquecimento global causado pelo acúmulo de gases de efeito estufa na atmosfera em escala planetária. Não é um efeito local e imediato da poluição industrial e automotiva nas cidades."
+    }
   },
   {
     "id": 10,
@@ -239,6 +292,12 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "As afirmativas tratam dos problemas da periferia metropolitana de São Paulo. Pense em mobilidade urbana, distância do centro de empregos, falta de infraestrutura e os desafios diários dos moradores dessas áreas."
+    "ajuda": "As afirmativas tratam dos problemas da periferia metropolitana de São Paulo. Pense em mobilidade urbana, distância do centro de empregos, falta de infraestrutura e os desafios diários dos moradores dessas áreas.",
+    "feedbacks": {
+      "0": "As afirmativas I e III também estão corretas. A afirmativa I aborda a precariedade do saneamento básico nas periferias, e a III trata do aumento do tempo de deslocamento; ambas descrevem consequências reais da periferização de São Paulo.",
+      "1": "A afirmativa III também está correta: a periferização afastou os moradores de seus locais de trabalho, gerando fluxos intensos de circulação que sobrecarregam o sistema de transporte e contribuem para a poluição do ar. Incluir apenas I e II é insuficiente.",
+      "2": "A afirmativa II também está correta: o crescimento urbano da periferia paulistana ocorreu sem planejamento adequado quanto à topografia e sistemas de drenagem, o que aumentou o risco de desastres ambientais. Incluir apenas I e III é insuficiente.",
+      "3": "A afirmativa I também está correta: as periferias metropolitanas de São Paulo têm sérios problemas de saneamento básico, com déficit na coleta de resíduos sólidos e no tratamento de esgotos. Incluir apenas II e III é insuficiente."
+    }
   }
 ]

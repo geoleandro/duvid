@@ -177,31 +177,35 @@
   },
   {
     "id": 7,
-    "instituicao": "FUVEST",
-    "ano": "2007",
-    "dificuldade": "media",
-    "tags": [
-      "aquecimento global",
-      "geleiras",
-      "mudanças climáticas"
-    ],
-    "imagem_apoio": "1ano/img/121/p21q7.png",
-    "pergunta": "Observe a seguinte imagem:\n\nAs geleiras da foto podem ser utilizadas como indicadores da tendência de aumento das temperaturas globais, pois:",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "1ano/img/121/fuvest26q3.png",
+    "texto_apoio": "Ice flows across Antarctica and continues to do so as it reaches the edge of the land mass and extends over the ocean. The huge floating tongues of ice often remain attached to the continent. Anything that remains grounded on the land is part of the Antarctic ice sheet; the floating part is an ice shelf. Floating ice shelves surround three-quarters of Antarctica's coast and make up about 11% of its total area. One of the largest, the Ross Ice Shelf, is roughly the size of France. The George VI Ice Shelf is shown in the image, taken by NASA's Landsat 8 in January 2020.\n\nIt may seem intuitive that all the ice added to the ocean from melting ice shelves would raise global sea level, but that's not the case. By Archimedes's principle, ice shelves floating on the water have already displaced their own weight, so their disintegration or melting won't change the water level. Ice shelves do, however, regulate the speed of glaciers on Antarctica's land. Ice shelves act to hold glaciers back. Take the shelf away, and the glaciers are free to speed up and flow into the ocean. Any ice and liquid water that the glaciers take with them will raise sea level. Of Earth's fresh water, 70% is stored in Antarctica's ice; that is the equivalent of about 58 meters of sea-level rise if all of it were to melt.",
+    "fonte_apoio": "BUZZARD, S. The surface hydrology of Antarctica's floating ice. Physics Today, v. 75, p. 28-33, 2022. Adaptado.",
+    "pergunta": "Segundo o texto, é correto afirmar:",
     "alternativas": [
-      "o maior aporte de sedimentos nas partes baixas das geleiras representa aumento da precipitação pluvial em detrimento da precipitação nival (neve).",
-      "o maior aporte de água doce no mar interfere nas temperaturas e pode ser calculado a partir da retração dos lagos glaciais.",
-      "a área de recuo do gelo indica aumento de temperatura e pode ser identificada pela maior exposição dos depósitos glaciais típicos.",
-      "a maior precipitação nival representa desequilíbrio nas temperaturas globais e pode ser identificada pelo aumento dos icebergs.",
-      "a ampliação de escavação dos vales glaciais pode ser precisamente medida, indicando desequilíbrio nas temperaturas globais."
+      "A área da superfície de gelo já derretido é aproximadamente do tamanho da França.",
+      "O princípio de Arquimedes afirma que as plataformas de gelo possuem uma força de empuxo muito menor que seu peso e, portanto, flutuam.",
+      "Plataformas de gelo são importantes porque atuam para regular a velocidade das geleiras na Antártida.",
+      "Plataformas de gelo flutuantes são relevantes porque representam três quartos da área total da Antártida.",
+      "O princípio de Arquimedes não se aplica no caso do derretimento do gelo flutuando na costa antártica."
     ],
     "correta": 2,
-    "comentario": "<p>As geleiras são sensíveis indicadores paleoclimáticos: seu recuo expõe camadas de rocha antes cobertas (depósitos glaciais antigos), permitindo calcular a taxa e extensão do derretimento. O monitoramento por satélite e expedições de campo mostra que glaciares na Patagônia, Alasca, Ártico e Antártica estão recuando em ritmo acelerado desde o século XX.</p>",
-    "ajuda": "As geleiras funcionam como registros climáticos ('arquivos de gelo'), pois suas camadas preservam bolhas de ar atmosférico de diferentes épocas. O recuo das geleiras é um dos principais indicadores do aquecimento global observado nas últimas décadas.",
+    "comentario": "O texto diz que as plataformas de gelo 'act to hold glaciers back' (atuam para segurar as geleiras). Sem elas, as geleiras aceleram e fluem para o oceano, elevando o nível do mar. Essa função de regulação da velocidade das geleiras é o papel principal das plataformas, como descrito explicitamente no texto.",
+    "ajuda": "A questão pede a afirmação CORRETA segundo o texto. Leia cada alternativa e verifique se ela corresponde exatamente ao que o texto diz — sem adicionar nem distorcer o conteúdo. O texto é em inglês, mas cada alternativa resume um trecho específico.",
+    "tags": [
+      "Antártida",
+      "plataformas de gelo",
+      "nível do mar",
+      "mudanças climáticas",
+      "geleiras",
+      "interpretação de texto em inglês"
+    ],
+    "dificuldade": "facil",
     "feedbacks": {
-      "0": "O aporte de sedimentos nas partes baixas resulta da ação erosiva e de transporte, não indica aumento de precipitação pluvial. Além disso, a comparação entre precipitação pluvial e nival não é o indicador principal de mudança climática das geleiras.",
-      "1": "Os lagos glaciais são formados pelo derretimento e podem crescer com o recuo das geleiras. A relação causal descrita está invertida: maior aporte de água doce no mar resultaria do derretimento, não da retração dos lagos.",
-      "3": "A maior precipitação nival (neve) representaria ganho de massa nas geleiras, não perda. Se houvesse mais neve, as geleiras cresceriam, não recuariam. O indicador do aquecimento é justamente a REDUÇÃO da neve acumulada e o recuo das geleiras.",
-      "4": "A ampliação da escavação dos vales glaciais indicaria aumento do movimento das geleiras, não necessariamente desequilíbrio de temperatura. Medir a erosão glacial para indicar temperatura global é metodologicamente impreciso."
+      "0": "O texto diz que a maior plataforma de gelo (Ross Ice Shelf) TEM O TAMANHO da França — não que a superfície de gelo derretido tem esse tamanho. A alternativa confunde o referente.",
+      "1": "O princípio de Arquimedes garante que o empuxo é IGUAL ao peso do fluido deslocado — por isso as plataformas flutuam. O empuxo não é 'muito menor que o peso'; ao contrário, é exatamente igual a ele. A alternativa inverte o princípio.",
+      "3": "As plataformas cobrem três quartos da COSTA (litoral) da Antártida, não três quartos da área total do continente. O texto é preciso: 'surround three-quarters of Antarctica's coast and make up about 11% of its total area'.",
+      "4": "O texto APLICA o princípio de Arquimedes para explicar por que o derretimento das plataformas flutuantes não altera o nível do mar. O princípio se aplica sim — é justamente ele que explica esse fenômeno contraintuitivo."
     }
   },
   {
@@ -234,32 +238,35 @@
   },
   {
     "id": 9,
-    "instituicao": "FGV",
-    "ano": "2004",
-    "dificuldade": "media",
-    "tags": [
-      "aquecimento global",
-      "efeito estufa",
-      "mudanças climáticas"
-    ],
-    "texto_apoio": "Fenômeno de origem complexa e ainda obscura. Suspeita-se de um componente antropogênico, quantificado pelo aumento da concentração na atmosfera de gases, como o CO2, da queima de combustíveis fósseis, além da emissão espontânea de metano no processo digestivo de vários mamíferos.",
-    "fonte_apoio": "(Folha de S. Paulo. Caderno Mais, 21 set. 2003. p.6)",
-    "pergunta": "O texto refere-se ao problema:",
+    "ano": "FUVEST 2026",
+    "imagem_apoio": "1ano/img/121/fuvest26q2.png",
+    "texto_apoio": "A área de cobertura vegetal observada no arquipélago das Ilhas Shetlands do Sul, na Antártida, próxima à Península desse continente, aumentou de 0,86 km² em 1986 para 11,95 km² em 2021, indicando uma taxa de mudança acelerada nos últimos anos. Essa tendência ecoa um padrão mais amplo de esverdeamento em ambientes de clima frio, que sugere futuras mudanças generalizadas nos ecossistemas terrestres na Antártida e em seu funcionamento a longo prazo.",
+    "fonte_apoio": "Disponível em doi.org/10.1038/s41561-024-01564-5. Adaptado.",
+    "pergunta": "O processo de esverdeamento (greening) da área apresentada na imagem, sua evolução temporal desde 1986 e os elementos do texto permitem concluir que",
     "alternativas": [
-      "Do aquecimento global.",
-      "Do buraco da camada de ozônio.",
-      "Das chuvas ácidas.",
-      "Das correntes marítimas.",
-      "Das ilhas de calor."
+      "a construção de bases de pesquisa científica em diferentes pontos da área favorece a presença e a expansão dos musgos na região.",
+      "ocorre um processo natural de recomposição florística da região impulsionado pela radiação solar demonstrada pelo NDVI e TCG, desde 2016.",
+      "existe uma evidência da associação do greening à elevação da temperatura do ar e menor cobertura de gelo, demonstrado no gráfico de 2016.",
+      "os dados temporais de NDVI e TCG permanecem constantes ao longo da série histórica de dados representada para a região.",
+      "a elevação do nível do mar na região com cada vez menos umidade do ar tem como consequência o processo de greening."
     ],
-    "correta": 0,
-    "comentario": "<p>O aquecimento global é o aumento da temperatura média da Terra causado, principalmente, pelo acúmulo de gases de efeito estufa (CO₂, CH₄, N₂O) na atmosfera. Suas causas incluem a queima de combustíveis fósseis, desmatamento e pecuária. Há consenso científico — reafirmado pelo IPCC — de que a causa dominante do aquecimento atual é a ação humana (componente antropogênico).</p>",
-    "ajuda": "O fenômeno descrito provavelmente é o aquecimento global ou o efeito estufa intensificado. A combinação de causas naturais e antrópicas (queima de combustíveis fósseis, desmatamento) contribui para o aumento da concentração de gases de efeito estufa na atmosfera.",
+    "correta": 2,
+    "comentario": "O greening da Antártida é resultado direto do aquecimento climático: o aumento da temperatura do ar reduz a cobertura de gelo e neve, abrindo espaço para o crescimento de musgos e outras plantas pioneiras. O gráfico de NDVI e TCG mostra aumento acelerado nos índices de vegetação a partir de meados dos anos 2000 — período que coincide com o aquecimento mais intenso registrado na Península Antártica. O texto reforça que a tendência reflete um padrão amplo de mudanças nos ecossistemas de clima frio.",
+    "ajuda": "O texto informa que a vegetação cresceu de 0,86 km² (1986) para 11,95 km² (2021) em um ambiente de clima frio e gelado. O que teria permitido essa expansão vegetal? Reduziu o gelo? Aumentou a temperatura? O gráfico NDVI/TCG mostra tendência crescente ou estável?",
+    "tags": [
+      "Antártida",
+      "mudanças climáticas",
+      "greening",
+      "cobertura vegetal",
+      "NDVI",
+      "aquecimento global"
+    ],
+    "dificuldade": "media",
     "feedbacks": {
-      "1": "O buraco na camada de ozônio é causado pelos CFCs, não pelos gases de efeito estufa mencionados no texto. O texto cita CO₂ e metano, associados ao aquecimento global, não à depleção de ozônio.",
-      "2": "A chuva ácida é causada por dióxido de enxofre (SO₂) e óxidos de nitrogênio (NOₓ). O texto menciona CO₂ e metano, que são gases de efeito estufa associados ao aquecimento global, não à formação de ácidos nas chuvas.",
-      "3": "As correntes marítimas são fenômenos oceânicos influenciados pela rotação da Terra e pelos ventos. Não têm relação direta com o aumento de CO₂ ou metano descrito no texto.",
-      "4": "As ilhas de calor são fenômenos urbanos locais causados pela substituição de vegetação por superfícies artificiais. O texto trata de fenômeno de escala global com componente antrópico desde 8.000 anos atrás, o que não corresponde às ilhas de calor."
+      "0": "O texto não menciona bases de pesquisa científica como causa do greening. A expansão da vegetação não ocorre porque há pesquisadores no local — ela ocorre por mudanças nas condições ambientais (temperatura, cobertura de gelo).",
+      "1": "O texto não associa o greening à 'recomposição florística natural' nem à radiação solar como motor principal. O greening é explicado por mudanças climáticas — não é um processo de sucessão ecológica natural cíclico.",
+      "3": "Os índices NDVI e TCG não permanecem constantes — o gráfico mostra justamente o oposto: crescimento acelerado, especialmente a partir de meados dos anos 2000, indicando aumento progressivo da cobertura vegetal.",
+      "4": "A elevação do nível do mar não causa o greening antártico. É a redução da cobertura de gelo e o aumento da temperatura do ar que criam condições para o crescimento de musgos. A alternativa inverte a lógica causal."
     }
   },
   {

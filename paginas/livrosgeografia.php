@@ -23,16 +23,11 @@
         crossorigin="anonymous"></script>
 
     <style>
-        /* Ajuste fino para legibilidade */
-        h1,
-        h2,
-        h3 {
+        h2, h3 {
             font-family: 'pixel', sans-serif;
             text-transform: uppercase;
         }
-
-        p,
-        .w3-button {
+        p, .w3-button {
             font-family: 'Verdana', sans-serif;
         }
     </style>
@@ -42,11 +37,14 @@
 
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <div class="w3-content" style="max-width:800px; margin-top: 80px; margin-bottom: 100px;">
+    <div class="w3-content" style="max-width:1100px; margin-top: 80px; margin-bottom: 100px;">
+
+        <div class="w3-container w3-padding-48 w3-center hero-ano w3-round-large w3-card-2 w3-white w3-margin-bottom">
+            <h1 class="w3-text-green w3-jumbo fonte-pixel-titulo"><b>Duvid - Biblioteca</b></h1>
+            <p class="w3-text-grey">Acervo de livros e materiais de apoio para seus estudos.</p>
+        </div>
 
         <div class="w3-container w3-white w3-card-4 w3-margin w3-padding-32 w3-round-large card-ano">
-            <h1 class="w3-center w3-text-green"><b>Biblioteca Digital</b></h1>
-            <p class="w3-center w3-opacity">Acervo de livros e materiais de apoio</p>
             <hr>
 
             <div class="w3-container w3-center">

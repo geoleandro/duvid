@@ -1,0 +1,301 @@
+[
+  {
+    "id": 1,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "expansão territorial",
+      "EUA",
+      "América do Norte",
+      "geopolítica"
+    ],
+    "texto_apoio": "Analise o mapa que apresenta o crescimento do território dos Estados Unidos.",
+    "fonte_apoio": "Atlas of the North American Indian, 2000. Adaptado.",
+    "pergunta": "O mapa mostra que",
+    "alternativas": [
+      "as guerras internas e externas e a compra de terras junto a outras potências europeias definiram os limites do território estadunidense.",
+      "a ocupação territorial estadunidense iniciou-se no Leste, durante a colonização inglesa, e avançou para o Oeste após a vitória nortista na Guerra de Secessão.",
+      "as anexações das terras indígenas ao território estadunidense ocorreram por meio de acordos e negociações pacíficas ao longo dos séculos XVIII e XIX.",
+      "as anexações, por meio da compra, de terras antes pertencentes ao México completaram o processo de expansão do território estadunidense.",
+      "a diversidade da colonização europeia na América do Norte, entre os séculos XVII e XIX, impediu a completa unificação territorial estadunidense."
+    ],
+    "correta": 0,
+    "comentario": "A expansão territorial dos EUA combinou guerras (como a contra o México em 1846-1848), compras (Louisiana em 1803, Alasca em 1867) e negociações com potências europeias como França, Espanha e Rússia. O processo foi violento e multifacetado, envolvendo tanto conflitos externos quanto a expulsão e extermínio de populações indígenas. O mapa evidencia essa diversidade de mecanismos que moldaram as fronteiras estadunidenses ao longo dos séculos.",
+    "ajuda": "Observe no mapa como o território dos EUA foi sendo adquirido por diferentes meios: algumas regiões vieram de conflitos armados, outras de compras a países europeus. Qual alternativa abrange todos esses mecanismos?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q1.png",
+    "feedbacks": {
+      "1": "A ocupação do Oeste estadunidense começou antes da Guerra de Secessão, no contexto da Doutrina do Destino Manifesto do século XIX. O conflito civil entre Norte e Sul não foi o gatilho principal da expansão territorial para o Oeste.",
+      "2": "As anexações de terras indígenas foram marcadas por guerras, massacres e tratados desiguais impostos pela força, nada semelhantes a negociações pacíficas. A violência contra populações nativas foi sistemática ao longo dos séculos XVIII e XIX.",
+      "3": "Embora a compra de territórios mexicanos tenha ocorrido, ela não esgota o processo de expansão, que incluiu guerras e compras a outras potências. A alternativa A é mais completa ao mencionar guerras, compras e negociações com várias potências europeias.",
+      "4": "A diversidade da colonização europeia não impediu a unificação territorial estadunidense, consolidada ao longo do século XIX. Ao contrário, os EUA foram absorvendo os territórios de potências europeias como França, Espanha e Rússia por meio de compras e conflitos."
+    }
+  },
+  {
+    "id": 2,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "facil",
+    "tags": [
+      "Sul Global",
+      "G20",
+      "geopolítica",
+      "países emergentes",
+      "cooperação internacional"
+    ],
+    "texto_apoio": "No cenário geopolítico contemporâneo, marcado por mudanças e desafios significativos, o conceito de \"Sul Global\" vem ganhando destaque como um vetor crucial para o debate sobre desenvolvimento inclusivo e equitativo. Esse termo transcende as fronteiras geográficas tradicionais, reunindo países que compartilham desafios socioeconômicos similares e uma história de marginalização nas relações internacionais. A presidência brasileira do G20, entre 2023 e 2024, seguida pela da África do Sul, simboliza a emergência das nações do \"Sul Global\" no cenário mundial, redefinindo as dinâmicas de cooperação internacional.",
+    "fonte_apoio": "https://relacoesexteriores.com.br. Adaptado.",
+    "pergunta": "A construção geopolítica do termo \"Sul Global\" evidencia uma",
+    "alternativas": [
+      "maior representatividade e relevância para os países periféricos no cenário internacional.",
+      "autonomia ao mundo oriental para o crescimento econômico sustentável.",
+      "participação político-militar dos países emergentes em decisões de âmbito global.",
+      "transferência do centro do poder mundial para os países subdesenvolvidos do hemisfério Sul.",
+      "menor dependência política e econômica dos países ocidentais perante os organismos internacionais."
+    ],
+    "correta": 0,
+    "comentario": "O texto deixa claro que o Sul Global reúne países com história de marginalização nas relações internacionais que buscam maior protagonismo. A presidência do G20 pelo Brasil e pela África do Sul simboliza exatamente essa maior representatividade e relevância dos países periféricos. O conceito transcende fronteiras geográficas e une nações por desafios comuns, não por posição hemisférica.",
+    "ajuda": "Leia o texto com atenção: o que a presidência do G20 pelo Brasil e pela África do Sul simboliza? O Sul Global busca mais voz e representatividade, ou já conquistou a transferência do poder mundial?",
+    "imagem_apoio": null,
+    "feedbacks": {
+      "1": "O Sul Global não se restringe ao mundo oriental, abrangendo países da África, América Latina e partes da Ásia. Além disso, a autonomia econômica sustentável não é o foco central do termo, que prioriza a representatividade política nas relações internacionais.",
+      "2": "O Sul Global está associado principalmente à cooperação econômica e à representatividade diplomática, não a alianças militares. A participação em decisões globais mencionada no texto é de natureza política e econômica, não político-militar.",
+      "3": "O Sul Global não implica a transferência do centro do poder mundial, mas sim uma maior participação nas decisões internacionais ainda dominadas pelo Norte. O conceito transcende os limites geográficos estritos do hemisfério Sul, incluindo China e Índia.",
+      "4": "A alternativa inverte a lógica: são os países do Sul Global que buscam reduzir sua própria dependência perante potências ocidentais. O texto foca no protagonismo crescente dos países periféricos, não na dependência dos países ocidentais."
+    }
+  },
+  {
+    "id": 3,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "Divisão Internacional do Trabalho",
+      "DIT",
+      "desigualdade",
+      "neocolonialismo",
+      "valor agregado"
+    ],
+    "texto_apoio": "Charge do cartunista Adão Iturrusgarai sobre a Divisão Internacional do Trabalho.",
+    "fonte_apoio": "https://umbrasil.com",
+    "pergunta": "A charge ironiza",
+    "alternativas": [
+      "o cálculo do Índice de Desenvolvimento Humano Ajustado à Desigualdade, revelador do grau de concentração de renda entre as pessoas de um país.",
+      "o neocolonialismo como expressão de dominação econômica, sujeitando países agroexportadores à importação de bens industrializados.",
+      "a desigual Divisão Internacional do Trabalho, enfatizando a especialização produtiva dos países por meio do valor agregado dos produtos.",
+      "a ordem mundial bipolar entre distintos modelos de produção, reforçando desigualdades entre países desenvolvidos e países subdesenvolvidos.",
+      "o monopólio industrial como indutor de novos mercados, condição para que países subdesenvolvidos tenham acesso a bens de consumo duráveis."
+    ],
+    "correta": 2,
+    "comentario": "A DIT estabelece que países periféricos exportam commodities com baixo valor agregado e importam produtos industrializados caros, perpetuando a desigualdade. A charge ironiza essa troca desvantajosa, mostrando como países ricos se apropriam de matérias-primas baratas e as revendem como manufaturados de alto valor. Essa crítica remonta ao conceito de troca desigual na economia política internacional.",
+    "ajuda": "Pense no que a charge provavelmente mostra: um país exportando matéria-prima barata e recebendo produto industrializado caro em troca. Qual conceito da geografia econômica essa imagem critica diretamente?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q3.png",
+    "feedbacks": {
+      "0": "A charge não aborda o IDH Ajustado à Desigualdade, que é um indicador estatístico de renda e desenvolvimento humano. O humor da charge está na relação desigual de troca entre países produtores de matéria-prima e países industrializados.",
+      "1": "Apesar de o neocolonialismo estar relacionado ao tema, a charge enfatiza especificamente a DIT e o valor agregado dos produtos, não apenas a dependência agroexportadora. A alternativa B não menciona o elemento central da ironia: a diferença de valor agregado na troca.",
+      "3": "A ordem bipolar refere-se à disputa entre EUA e URSS durante a Guerra Fria, não à DIT contemporânea. A charge trata das desigualdades econômicas atuais entre países com diferentes graus de industrialização.",
+      "4": "O monopólio industrial não é o foco da charge, que ironiza a troca desigual e a baixa agregação de valor dos países periféricos. O acesso de países subdesenvolvidos a bens de consumo aparece como consequência negativa, não como indução de novos mercados."
+    }
+  },
+  {
+    "id": 4,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "dificil",
+    "tags": [
+      "transgênicos",
+      "CRISPR",
+      "agropecuária",
+      "biotecnologia",
+      "modernização do campo"
+    ],
+    "texto_apoio": "Maquiando os transgênicos. Mostarda mais palatável que alface? Indústria alimentícia usa técnica premiada com o Nobel para tornar alimentos mais atrativos e tentar quebrar resistência de parte dos consumidores. O primeiro protótipo tem previsão de lançamento no mercado ainda em 2025: uma folha de mostarda geneticamente modificada para remover sua picância. A proposta foi originalmente desenvolvida pela startup de tecnologia agrícola Pairwise, que firmou um acordo exclusivo de licenciamento de produto com a multinacional alemã Bayer para desenvolver e comercializar o vegetal. As modificações foram feitas a partir de uma técnica capaz de alterar com alta precisão o DNA de animais, plantas e microrganismos, a mesma que, em 2020, rendeu às pesquisadoras Emmanuelle Charpentier e Jennifer A. Doudna o Prêmio Nobel de Química.",
+    "fonte_apoio": "Raoni Schroeder. https://cienciahoje.org.br, maio de 2025. Adaptado.",
+    "pergunta": "Sob os pontos de vista da geografia e da biologia, a produção de gêneros agrícolas transgênicos promove, respectivamente,",
+    "alternativas": [
+      "a redefinição do conceito de espaço rural e a validade da teoria da evolução das espécies na contemporaneidade.",
+      "o desenvolvimento de novas relações de trabalho no campo e a redução dos impactos antrópicos sobre os espaços naturais.",
+      "a ineficácia da modernização do campo diante da mão de obra não qualificada e a adaptação de espécies nativas em novos ambientes de cultivo.",
+      "a incorporação de saberes tradicionais nas áreas agrícolas e a interrupção de ciclos biogeoquímicos associados à vida vegetal.",
+      "a dificuldade no acesso de pequenos agricultores às sementes produzidas em laboratório e a descaracterização de mecanismos naturais de defesa contra predadores."
+    ],
+    "correta": 4,
+    "comentario": "Do ponto de vista geográfico, os transgênicos aprofundam a desigualdade no campo: sementes patenteadas por multinacionais ficam inacessíveis para pequenos agricultores, que dependem de compra anual. Do ponto de vista biológico, plantas com mecanismos de defesa artificiais perdem seus mecanismos naturais de defesa evolutiva contra pragas e predadores. A alternativa E articula corretamente os dois ângulos pedidos pela questão.",
+    "ajuda": "A questão pede dois efeitos: um geográfico (impacto no espaço rural e nas relações socioeconômicas) e um biológico (impacto nos organismos). Quem perde quando as sementes são patenteadas por grandes empresas? E o que acontece com os mecanismos naturais de defesa da planta quando ela é geneticamente alterada?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q4.png",
+    "feedbacks": {
+      "0": "A teoria da evolução de Darwin não é questionada pelos transgênicos, que realizam modificações controladas em laboratório sem alterar os princípios evolutivos. A alternativa associa dois conceitos que não se relacionam diretamente com os efeitos práticos dos transgênicos na geografia e na biologia.",
+      "1": "Os transgênicos podem alterar relações de trabalho no campo, mas não necessariamente reduzem os impactos antrópicos, pois frequentemente aumentam o uso de agroquímicos específicos. A alternativa apresenta uma visão excessivamente positiva e imprecisa dos efeitos ambientais dos transgênicos.",
+      "2": "A modernização do campo com transgênicos não é ineficaz; ao contrário, aumenta a produtividade em muitos contextos. A adaptação de espécies nativas em novos ambientes é um processo ecológico distinto da modificação genética artificial feita em laboratório.",
+      "3": "Os transgênicos geralmente entram em conflito com saberes tradicionais ao substituir sementes nativas por variedades patenteadas por multinacionais. A interrupção de ciclos biogeoquímicos não é um efeito direto e preciso da produção de transgênicos, que afeta principalmente os mecanismos de defesa e reprodução das plantas."
+    }
+  },
+  {
+    "id": 5,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "MTCI",
+      "Milton Santos",
+      "regionalização",
+      "e-commerce",
+      "desigualdade regional",
+      "4 Brasis"
+    ],
+    "texto_apoio": "O mapa a seguir está dividido segundo a regionalização dos Quatro Brasis e apresenta os prazos de entrega do comércio eletrônico no Brasil, em 2023.",
+    "fonte_apoio": "Igor Venceslau. Confins, no 65, 2024. Adaptado.",
+    "pergunta": "A variação no prazo de entrega do comércio eletrônico no território brasileiro e a regionalização adotada na elaboração desse mapa são determinadas",
+    "alternativas": [
+      "pela delimitação das unidades político-administrativas.",
+      "pelo poder de compra equiparado entre as unidades da federação.",
+      "pela desconcentração das unidades produtivas no país.",
+      "pela densidade do meio técnico-científico-informacional.",
+      "pelo grau de desenvolvimento socioambiental das cidades."
+    ],
+    "correta": 3,
+    "comentario": "O MTCI, conceito de Milton Santos, refere-se à densidade de sistemas técnicos, científicos e informacionais que transformam o território. Regiões com maior densidade de MTCI, como o eixo Sul-Sudeste, concentram infraestrutura logística, centros de distribuição e conectividade digital, resultando em prazos de entrega menores. A regionalização dos Quatro Brasis também se baseia nessa desigualdade na distribuição do MTCI pelo território nacional.",
+    "ajuda": "A regionalização dos Quatro Brasis de Milton Santos é baseada no quanto cada região está integrada à economia globalizada e à tecnologia. O que explica que São Paulo receba entregas em 1 dia e o interior do Amazonas demore semanas?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q5.png",
+    "feedbacks": {
+      "0": "As unidades político-administrativas, como estados e municípios, não determinam os prazos de entrega do comércio eletrônico. O mapa dos Quatro Brasis usa critérios socioeconômicos e de infraestrutura, não divisões administrativas tradicionais como as cinco regiões do IBGE.",
+      "1": "O poder de compra no Brasil é bastante desigual entre as regiões, sendo maior no Sudeste e Sul do que no Norte e Nordeste. O mapa representa justamente essa desigualdade regional, e não uma equiparação econômica entre as unidades da federação.",
+      "2": "O Brasil ainda apresenta alta concentração industrial no eixo Sul-Sudeste, especialmente em São Paulo. A desconcentração produtiva ainda é incipiente e não explica as diferenças nos prazos de entrega, que dependem principalmente de infraestrutura logística e tecnológica.",
+      "4": "O desenvolvimento socioambiental não é o critério principal para os prazos de entrega do e-commerce, que dependem de infraestrutura logística e conectividade. O MTCI de Milton Santos relaciona-se à densidade de sistemas técnicos que facilitam a circulação de mercadorias e informações, não ao desenvolvimento ambiental."
+    }
+  },
+  {
+    "id": 6,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "tectônica de placas",
+      "pontos quentes",
+      "ilhas havaianas",
+      "geomorfologia",
+      "dinâmica terrestre"
+    ],
+    "texto_apoio": "Esquema da formação da cadeia de ilhas havaianas",
+    "fonte_apoio": "www.notasgeo.com.br. Adaptado.",
+    "pergunta": "Considerando o dinamismo da crosta terrestre, a formação apresentada no esquema é motivada por",
+    "alternativas": [
+      "limites tectônicos transcorrentes.",
+      "limites tectônicos convergentes.",
+      "pontos quentes intraplaca.",
+      "forças modeladoras exógenas.",
+      "limites tectônicos divergentes."
+    ],
+    "correta": 2,
+    "comentario": "Os pontos quentes (hot spots) são regiões do manto onde plumas de magma perfuram a placa tectônica, independentemente de seus limites. À medida que a placa do Pacífico se move sobre o ponto quente fixo, formam-se novas ilhas vulcânicas, criando a cadeia havaiana com ilhas progressivamente mais antigas no noroeste. Esse processo intraplaca é a principal explicação para cadeias de ilhas vulcânicas no interior das placas tectônicas.",
+    "ajuda": "As ilhas havaianas estão no centro da placa do Pacífico, longe de qualquer limite entre placas. O esquema mostra ilhas mais antigas no noroeste e mais recentes no sudeste, como se algo fixo no manto criasse novas ilhas enquanto a placa se move. Que processo é esse?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q6.png",
+    "feedbacks": {
+      "0": "Os limites tectônicos transcorrentes ocorrem onde duas placas deslizam lateralmente, como na Falha de San Andreas na Califórnia. Esse tipo de limite não gera vulcanismo nem cadeias de ilhas como as havaianas, que surgem no interior de uma placa.",
+      "1": "Os limites convergentes ocorrem onde duas placas colidem, gerando fossas oceânicas ou arcos de ilhas vulcânicas nas bordas das placas. As ilhas havaianas, por estarem no centro da placa do Pacífico, não se formaram por colisão entre placas.",
+      "3": "As forças exógenas, como erosão, chuva e vento, atuam na superfície terrestre modelando o relevo já existente. A formação das ilhas havaianas é resultado de forças endógenas originadas no interior da Terra, por meio de plumas de magma do manto.",
+      "4": "Os limites divergentes são aqueles em que as placas se afastam, criando dorsais oceânicas e novo assoalho oceânico. As ilhas havaianas se formaram no centro de uma placa, longe de qualquer limite tectônico, por meio de um ponto quente fixo no manto."
+    }
+  },
+  {
+    "id": 7,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "facil",
+    "tags": [
+      "solos",
+      "textura do solo",
+      "sedimentação",
+      "geologia",
+      "construção civil"
+    ],
+    "texto_apoio": "Para fazer um teste de solo em um recipiente, primeiramente preencha-o até a metade com a amostra de solo. Em seguida, preencha o espaço restante com água, deixando um pouco de ar na parte superior. Após tampar o recipiente, agite-o vigorosamente até que todos os torrões de solo sejam desfeitos. Deixe o recipiente em um local onde não haja perturbação. Após 24 horas, o solo terá se sedimentado em camadas visíveis de argila, silte e areia. Ao medir as proporções relativas dessas três texturas no solo, é possível determinar qual tipo de solo você possui.",
+    "fonte_apoio": "https://ameliamurtha.wordpress.com. Adaptado.",
+    "pergunta": "Uma aplicação prática do experimento descrito é",
+    "alternativas": [
+      "a investigação das condições para a formação de laterita no solo.",
+      "a investigação sobre a estratificação de voçorocas no solo.",
+      "o prognóstico das condições de assoreamento do solo.",
+      "a classificação dos diferentes tipos de horizontes do solo.",
+      "o estudo na construção civil sobre a estabilidade do solo."
+    ],
+    "correta": 4,
+    "comentario": "O experimento determina a proporção de argila, silte e areia em uma amostra de solo, informação fundamental para a engenharia civil. Solos argilosos têm comportamento plástico e baixa drenagem, enquanto solos arenosos são instáveis sob carga. Conhecer a textura do solo é passo essencial para avaliar a capacidade de suporte e a estabilidade em fundações e obras de engenharia.",
+    "ajuda": "O experimento identifica as proporções de argila, silte e areia num solo. Para quais profissionais essas informações sobre textura do solo seriam mais diretamente úteis na tomada de decisões práticas?",
+    "imagem_apoio": "unesp/unesp2026/unesp26q7.png",
+    "feedbacks": {
+      "0": "A laterita é um tipo de solo formado em regiões tropicais por intemperismo intenso ao longo de milhares de anos, não por análise de textura. O experimento analisa a proporção de argila, silte e areia, não os processos químicos e climáticos de laterização.",
+      "1": "Voçorocas são formas de erosão profunda que resultam da concentração de água no solo, e sua estratificação interna não é investigada com esse experimento simples. O teste de sedimentação em recipiente identifica texturas superficiais, não padrões de erosão profunda.",
+      "2": "O assoreamento é o acúmulo de sedimentos em rios e lagos, e sua previsão depende de estudos hidrológicos e de bacia hidrográfica. Embora a textura do solo influencie o transporte de sedimentos, o experimento serve para classificar o tipo de solo, não para prognosticar o assoreamento.",
+      "3": "Os horizontes do solo (camadas A, B, C e R) são identificados por análise de perfil em campo, com análise química e morfológica. O experimento classifica a textura, ou seja, a proporção de partículas de diferentes tamanhos, não a estrutura vertical do perfil pedológico."
+    }
+  },
+  {
+    "id": 8,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "media",
+    "tags": [
+      "Cerrado",
+      "biomas brasileiros",
+      "vereda",
+      "buriti",
+      "preservação ambiental",
+      "domínios morfoclimáticos"
+    ],
+    "texto_apoio": "Uma vereda bordada à mão por uma família de Pirapora, no norte de Minas Gerais, acaba de ganhar o mundo. A obra \"Vereda do Galhão\", feita com agulhas, lãs, algodão e fios de seda, foi escolhida como presente oficial do presidente do Brasil ao imperador do Japão. Ao longo de oito meses de trabalho, a família retratou uma vereda real da região onde nasceram, cercada por buritis, palmeiras majestosas que só brotam onde há água. \"O buriti nasce onde há nascente. Ele não cresce em qualquer lugar, apenas onde há vida. Essa planta é símbolo de resistência e cuidado. Ao bordar essa vereda, a gente quis mostrar a beleza, mas também chamar atenção para a urgência de preservar\", contou Sávia Dumont, uma das autoras do bordado.",
+    "fonte_apoio": "https://cidadecult.com.br, 19.05.2025. Adaptado.",
+    "pergunta": "O bioma representado por essa obra é",
+    "alternativas": [
+      "a Mata dos Cocais, caracterizada pelo predomínio de floresta ombrófila aberta.",
+      "o Cerrado, formado por vastos espaços abertos cobertos por plantas herbáceas.",
+      "o Cerrado, comprometido pela baixa porcentagem de área sob proteção integral.",
+      "a Caatinga, formada por alta diversidade de espécies endêmicas ameaçadas.",
+      "a Caatinga, caracterizada pela feição esbranquiçada dos troncos das plantas."
+    ],
+    "correta": 2,
+    "comentario": "O buriti (Mauritia flexuosa) é uma palmeira símbolo do Cerrado e indicadora de nascentes e veredas, formações típicas desse bioma. A vereda é uma fitofisionomia específica do Cerrado, onde o buriti cresce às margens de cursos d'água e nascentes. A alternativa C é a mais completa: identifica corretamente o bioma e menciona o dado ambiental relevante da baixa proteção integral do Cerrado, que tem menos de 3% de sua área sob proteção estrita.",
+    "ajuda": "O buriti e as veredas são marcadores ecológicos de qual bioma brasileiro? Pense também no estado de Minas Gerais e na relação do texto com a urgência de preservação.",
+    "imagem_apoio": "unesp/unesp2026/unesp26q8.png",
+    "feedbacks": {
+      "0": "A Mata dos Cocais é uma vegetação de transição com predomínio de babaçu e carnaúba, não de buritis. Veredas com buritis são formações típicas e exclusivas do Cerrado, não da Mata dos Cocais.",
+      "1": "Embora o Cerrado inclua formações abertas com gramíneas, a alternativa B omite o dado central da urgência de preservação mencionada no texto. A alternativa C é mais completa, pois identifica o bioma e acrescenta informação ambiental relevante sobre a baixa proteção do Cerrado.",
+      "3": "A Caatinga é um bioma exclusivamente brasileiro com alta diversidade endêmica, mas o buriti e as veredas não pertencem a esse bioma. O buriti é indicador de nascentes de água, e a Caatinga é caracterizada justamente pela semiaridez e escassez hídrica.",
+      "4": "A feição esbranquiçada dos troncos é característica de plantas da Caatinga, que perdem folhas durante a seca para economizar água. O buriti e as veredas do texto pertencem ao Cerrado, onde há disponibilidade de água subterrânea nas nascentes."
+    }
+  },
+  {
+    "id": 9,
+    "instituicao": "UNESP",
+    "ano": "2026",
+    "dificuldade": "dificil",
+    "tags": [
+      "sensoriamento remoto",
+      "RadamBrasil",
+      "cartografia",
+      "radar",
+      "IBGE",
+      "Amazônia"
+    ],
+    "texto_apoio": "\"O mais ousado projeto desenvolvido pelo homem depois do Apollo\". Era assim que, em 23 de outubro de 1976, a revista Manchete descrevia, com o ufanismo da época, o projeto RadamBrasil. Implementado em 1975, o RadamBrasil era uma extensão do projeto Radam, sigla de Radar na Amazônia, criado cinco anos antes, e dava início a uma missão ainda mais audaciosa: mapear todo o território brasileiro e seus recursos naturais. Os relatórios técnicos e mapas do projeto RadamBrasil foram reunidos nos 38 volumes da série Levantamento de recursos naturais, disponíveis na biblioteca do Instituto Brasileiro de Geografia e Estatística (IBGE). As imagens de radar, impressas originalmente em papel comum e fotográfico, foram digitalizadas pelo Serviço Geológico do Brasil (SGB), por meio do projeto Radam-D, a partir de 2004.",
+    "fonte_apoio": "Suzel Tunes. https://revistapesquisa.fapesp.br, 17.05.2025. Adaptado.",
+    "pergunta": "No exercício do sensoriamento remoto, diferentes sensores podem ser utilizados. A opção pelo uso do radar no projeto RadamBrasil, conforme mencionado no excerto, é explicada pela",
+    "alternativas": [
+      "dimensão continental do Brasil, característica que demandou radares operando com frequências na faixa da luz visível para otimizar os recursos financeiros empregados.",
+      "grande distância em relação ao solo dos voos civis no Brasil, condição que prejudicaria a nitidez das imagens em sensores ópticos eletromagnéticos.",
+      "rapidez no processamento das imagens geradas, condição que dispensou revelações fotográficas com sensores operando com frequências na faixa da luz visível.",
+      "diversidade de macroformas do relevo ao longo do território brasileiro, característica que impediria o uso de sensores ópticos pela variação na distância focal.",
+      "alta nebulosidade em parcelas do território brasileiro, característica que traria dificuldades de registro em sensores que não operam com ondas eletromagnéticas."
+    ],
+    "correta": 4,
+    "comentario": "O radar opera com micro-ondas, que atravessam nuvens, neblina e vegetação densa sem ser bloqueadas. A Amazônia tem cobertura de nuvens quase permanente, tornando inviável o uso de sensores ópticos passivos, que dependem da luz solar visível. Por isso o projeto Radam, criado especificamente para mapear a Amazônia, escolheu o radar como sensor principal, garantindo imagens mesmo em condições de alta nebulosidade.",
+    "ajuda": "A sigla RADAM significa Radar na Amazônia. Por que usar radar especificamente nessa região? Pense nas condições climáticas da Amazônia e em como diferentes sensores captam imagens do terreno.",
+    "imagem_apoio": null,
+    "feedbacks": {
+      "0": "O radar opera com micro-ondas, portanto fora da faixa visível do espectro eletromagnético, não com frequências de luz visível. A escolha do radar não foi motivada por economia de recursos, mas pela necessidade de atravessar a densa cobertura de nuvens da Amazônia.",
+      "1": "O RadamBrasil utilizava aviões especialmente equipados, não voos civis, e voava em altitude controlada adequada para o sensoriamento. A nitidez das imagens por sensores ópticos não é prejudicada pela altitude, mas sim pela cobertura de nuvens que bloqueia a luz solar.",
+      "2": "A velocidade de processamento não é a principal vantagem do radar sobre sensores ópticos, e ambos exigem processamento complexo. O radar foi escolhido por sua capacidade de penetrar nuvens e vegetação densa, não por ser mais rápido no processamento das imagens.",
+      "3": "A variação nas macroformas do relevo não impediria o uso de sensores ópticos, pois esses sensores podem operar em diferentes altitudes. O problema central era a alta nebulosidade da Amazônia, que bloqueia a passagem de luz visível necessária aos sensores ópticos passivos."
+    }
+  }
+]

@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Cartografia, pontos cardeais e coordenadas geográficas: como localizar qualquer ponto da Terra">
+    <meta property="og:title" content="Texto 02 - Cartografia e Coordenadas Geográficas">
+    <meta property="og:description" content="A história da Cartografia, os pontos cardeais e o sistema de latitude e longitude">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +46,7 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
-
+    <script src="/js/glossario.js" defer></script>
 
 
     <title>1º ano - Texto 02</title>
@@ -71,6 +72,7 @@
         <!-- Navigation (Stays on Top) -->
 
 
+        <!-- BLOCO: Abertura -->
         <div class="topico">
 
 
@@ -121,6 +123,7 @@
         </div>
 
 
+        <!-- BLOCO: Problematizacao -->
         <div class="topico">
 
             <h2> Introdução </h2>
@@ -138,6 +141,8 @@
                 também, aprenderá a localizar-se no espaço pelos pontos cardeais e pelas coordenadas geográficas.
             </p>
 
+            <p><strong>A pergunta que esta aula vai responder não é apenas "como ler um mapa", mas como a humanidade resolveu, ao longo de milhares de anos, um problema prático: como descrever a posição exata de um lugar sem apontar o dedo</strong>: da pintura nas cavernas até as coordenadas que o GPS do seu celular usa agora mesmo.</p>
+
 
 
 
@@ -146,6 +151,7 @@
         </div>
 
 
+        <!-- BLOCO: Instrumentalizacao (historia da Cartografia) -->
         <div class="topico">
 
 
@@ -272,6 +278,7 @@
 
 
 
+        <!-- BLOCO: Pratica Social Inicial -->
         <div class="topico">
 
             <p class="caixa"> Agora é com você!</p>
@@ -305,6 +312,7 @@
 
 
 
+        <!-- BLOCO: Instrumentalizacao (pontos cardeais) -->
         <div class="topico">
 
 
@@ -342,9 +350,10 @@
                 montanhas, rios, árvores ou outros elementos da paisagem para retornarem de maneira segura para
                 casa.:</p>
             <p> Outra referência principal foi por meio dos astros, no caso o Sol, a lua e as estrelas.
-                Foi ai que foi desenvolvido pelos homens um sistema de referências chamado de <span
-                    onclick="this.innerHTML='pontos cardeais (pontos principais)'"><mark>pontos cardeais
-                    </mark></span>.
+                Foi ai que foi desenvolvido pelos homens um sistema de referências chamado de <span class="termo"
+                    data-palavra="Pontos Cardeais"
+                    data-definicao="Sistema de referência baseado nos quatro pontos principais (Norte, Sul, Leste e Oeste), usado para se orientar no espaço a partir da posição do Sol, da Lua ou das estrelas.">pontos
+                    cardeais</span>.
                 Veja a representação
                 <span onclick="Aparecer('imagem4','citacao4')"><mark>aqui</mark></span>:
             </p>
@@ -356,7 +365,9 @@
             <p> Para se localizar por meio do Sol, temos que observar em que lado ele “nasce” ou surge
                 pela manhã. Esse fenômeno ocorre devido o movimento de rotação da Terra.</p>
 
-            <p><span class="mark2"> <strong>Rotação</strong></span> - O movimento de rotação terrestre é aquele que
+            <p><span class="termo" data-palavra="Rotação"
+                    data-definicao="Movimento que a Terra executa em torno do seu próprio eixo, com duração aproximada de 24 horas. É responsável pela sucessão dos dias e das noites e pelo nascer e pôr do sol em pontos opostos do horizonte."><strong>Rotação</strong></span>
+                - O movimento de rotação terrestre é aquele que
                 o
                 planeta executa em torno de seu próprio eixo, em um período de, aproximadamente, 24 horas. Graças a
                 ele, a
@@ -376,11 +387,14 @@
 
             </p>
 
-            <p> É esse movimento que utilizamos para nos <span
-                    onclick="this.innerHTML='orientarmos (tomar o rumo certo)'"><mark> orientarmos </mark></span> no
+            <p> É esse movimento que utilizamos para nos <span class="termo" data-palavra="Orientação"
+                    data-definicao="Ato de tomar o rumo certo no espaço, usando referências como o Sol, os astros ou instrumentos como a bússola para saber em que direção seguir.">orientarmos</span>
+                no
                 espaço.
-                Desse modo, ao apontar o braço direito para onde o Sol nasce estabeleceu-se uma <span
-                    onclick="this.innerHTML='convenção (acordo)'"><mark> convenção </mark></span> que seria o ponto
+                Desse modo, ao apontar o braço direito para onde o Sol nasce estabeleceu-se uma <span class="termo"
+                    data-palavra="Convenção"
+                    data-definicao="Acordo estabelecido entre as pessoas para definir um padrão comum (como decidir que o braço apontado para o nascer do Sol indica o Leste), mesmo que a escolha em si seja arbitrária.">convenção</span>
+                que seria o ponto
                 cardeal
                 Leste. Isso porque na tradição religiosa, Jerusalém estava no Leste da Europa ou Oriente. Já o lado
                 oposto
@@ -421,8 +435,9 @@
 
 
 
-            <p> É por isso que temos a <span
-                    onclick="Aparecer('imagem8','citacao8')"><mark>Rosa-dos-Ventos</mark></span>.
+            <p> É por isso que temos a <span class="termo" data-palavra="Rosa dos Ventos"
+                    data-definicao="Instrumento de orientação em formato de estrela que organiza os pontos cardeais (Norte, Sul, Leste, Oeste) e colaterais (Nordeste, Noroeste, Sudeste, Sudoeste), historicamente usado na navegação."
+                    onclick="Aparecer('imagem8','citacao8')">Rosa-dos-Ventos</span>.
                 Inicialmente utilizada para a navegação, daí o seu nome e formato ligado ao vento. Ela concentra a
                 ideia do
                 plano cartesiano de Norte e Sul no eixo Y e de Leste e Oeste no
@@ -702,6 +717,7 @@
 
 
 
+        <!-- BLOCO: Instrumentalizacao (coordenadas geograficas) -->
         <div class="topico">
 
             <h2> As Coordenadas Geográficas</h2>
@@ -714,7 +730,9 @@
                 foram criados para obter uma localização exata de qualquer ponto na Terra, as chamadas coordenadas
                 geográficas.</p>
 
-            <p><span class="mark2"> <strong>Coordenadas geográficas</strong></span> - Consiste em um sistema de
+            <p><span class="termo" data-palavra="Coordenadas Geográficas"
+                    data-definicao="Sistema de mapeamento baseado em linhas imaginárias sobre a superfície terrestre, formado por paralelos (linhas horizontais) e meridianos (linhas verticais), que permite localizar com precisão qualquer ponto da Terra."><strong>Coordenadas
+                        geográficas</strong></span> - Consiste em um sistema de
                 mapeamento global utilizado pela Cartografia e baseado em linhas imaginárias sobre a superfície
                 terrestre e
                 alinhadas ao eixo de rotação do planeta. É formado por linhas horizontais (<strong>paralelos</strong>) e
@@ -727,7 +745,9 @@
             <span class="citacao"> Fonte: (Freitas, 2005). </span>
 
 
-            <p><span class="mark2"> <strong>Paralelos </strong></span> - São linhas que dividem o globo
+            <p><span class="termo" data-palavra="Paralelos"
+                    data-definicao="Linhas imaginárias horizontais que dividem o globo em hemisférios Norte e Sul, tendo o Equador (0°) como paralelo principal."><strong>Paralelos</strong></span>
+                - São linhas que dividem o globo
                 horizontalmente, sendo o Equador o paralelo zero grau. (0º). Este divide o globo em dois hemisférios:
                 <strong>Norte</strong> (Boreal ou setentrional) e <strong>Sul</strong> (Austral ou Meridional).
             </p>
@@ -740,7 +760,9 @@
             <span class="citacao"> Fonte: (Freitas, 2005). </span>
 
 
-            <p id="Fundo1"><span class="mark2"> <strong>Meridianos </strong></span> - São linhas imaginárias que
+            <p id="Fundo1"><span class="termo" data-palavra="Meridianos"
+                    data-definicao="Linhas imaginárias verticais que dividem o globo em hemisférios Leste (oriental) e Oeste (ocidental), tendo o Meridiano de Greenwich (0°) como referência principal."><strong>Meridianos</strong></span>
+                - São linhas imaginárias que
                 dividem o globo verticalmente em: hemisfério oriental (<strong>Leste</strong>) e ocidental
                 (<strong>Oeste</strong>). O Meridiano
                 zero grau foi convencionado como o da cidade de Greenwich, nos arredores Londres, Inglaterra. </p>
@@ -751,11 +773,15 @@
 
             <span class="citacao"> Fonte: (Freitas, 2005). </span>
 
-            <p><span class="mark2"> <strong>Latitude </strong></span> - É o ângulo formado pelo paralelo principal,
+            <p><span class="termo" data-palavra="Latitude"
+                    data-definicao="Ângulo formado entre o Equador e o paralelo do ponto que se quer localizar, variando de 0° a 90° Norte ou Sul."><strong>Latitude</strong></span>
+                - É o ângulo formado pelo paralelo principal,
                 Equador e o paralelo do lugar que se quer localizar, variando de 0º a 90º Sul ou Norte </p>
 
 
-            <p><span class="mark2"> <strong>Longitude </strong></span> - É o ângulo formado entre o meridiano
+            <p><span class="termo" data-palavra="Longitude"
+                    data-definicao="Ângulo formado entre o Meridiano de Greenwich e o meridiano do ponto que se quer localizar, variando de 0° a 180° Leste ou Oeste."><strong>Longitude</strong></span>
+                - É o ângulo formado entre o meridiano
                 inicial,
                 Greenwich, e o meridiano do lugar que queremos localizar. A longitude varia de 0º a 180 para Leste e
                 para
@@ -860,6 +886,7 @@
         </div>
 
 
+        <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
 
@@ -913,6 +940,39 @@
 
 
 
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Releia as três perguntas que você escreveu depois da entrevista com a Cartografia. Você já consegue respondê-las com o que aprendeu? Antes desta aula, "se localizar" provavelmente significava só olhar um mapa pronto. Agora você sabe que por trás de qualquer ponto marcado num mapa existe um sistema construído ao longo de milhares de anos: das pinturas em cavernas e do mapa de Eratóstenes até a grade de paralelos e meridianos que você usou para encontrar os pontos C, D e E no planisfério.</p>
+
+            <p>Pontos cardeais e coordenadas geográficas resolvem o mesmo problema em escalas diferentes: os pontos cardeais bastam para dizer "para que lado eu vou", mas só a latitude e a longitude conseguem apontar um único lugar entre os bilhões de pontos da superfície da Terra: a mesma lógica que faz o GPS do seu celular funcionar.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> pontos cardeais (Norte, Sul, Leste, Oeste, a partir da rotação da Terra); orientação e convenção (acordos que tornam a localização possível); rosa dos ventos (instrumento que organiza os pontos cardeais e colaterais); coordenadas geográficas (paralelos e meridianos); latitude (ângulo Norte-Sul a partir do Equador); longitude (ângulo Leste-Oeste a partir de Greenwich).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
         <div class="topico">
             <h3>Já pode finalizar sua lição!</h3>
             <button class="btnShow" onclick="
@@ -975,8 +1035,6 @@
             <progress value="0" max="100" id="progress"></progress>
         </div>
 
-
-    </main>
 
     </main>
 

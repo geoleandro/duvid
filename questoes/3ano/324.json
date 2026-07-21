@@ -19,7 +19,12 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "Os EUA são a maior potência mundial, mas apresentam desigualdades internas significativas. Avalie as afirmativas sobre a distribuição racial, religiosa e urbana da população americana, verificando quais correspondem à realidade e quais são falsas."
+    "ajuda": "Os EUA são a maior potência mundial, mas apresentam desigualdades internas significativas. Avalie as afirmativas sobre a distribuição racial, religiosa e urbana da população americana, verificando quais correspondem à realidade e quais são falsas.",
+    "feedbacks": {
+      "0": "A sequencia F, V, V, V classifica a primeira afirmativa como falsa, quando ela e verdadeira, e as duas ultimas como verdadeiras, quando sao falsas. Essa sequencia erra nas afirmativas I, III e IV ao inverter seu status de verdadeiro ou falso.",
+      "2": "A sequencia V, F, F, F classifica a segunda afirmativa como falsa, quando ela e verdadeira. Apenas as afirmativas III e IV sao falsas; a primeira e a segunda sao verdadeiras, ao contrario do que essa sequencia indica.",
+      "3": "A sequencia F, F, V, V classifica as duas primeiras como falsas e as duas ultimas como verdadeiras, invertendo completamente o padrao correto. As afirmativas I e II sao verdadeiras, enquanto III e IV sao as incorretas."
+    }
   },
   {
     "id": 2,
@@ -43,7 +48,13 @@
     ],
     "correta": 4,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A agricultura americana é caracterizada por alta mecanização, uso intensivo de biotecnologia, subsídios governamentais e integração ao agronegócio global. Identifique qual característica é a mais marcante da produção agrícola dos EUA."
+    "ajuda": "A agricultura americana é caracterizada por alta mecanização, uso intensivo de biotecnologia, subsídios governamentais e integração ao agronegócio global. Identifique qual característica é a mais marcante da produção agrícola dos EUA.",
+    "feedbacks": {
+      "0": "Os EUA sao o maior produtor mundial de culturas transgenicas; afirmar que ha firme recusa aos transgenicos e o oposto da realidade. O pais lidera o desenvolvimento e a comercializacao de OGMs, sendo o principal exportador mundial de soja e milho transgenicos.",
+      "1": "Os EUA lideram o investimento em biotecnologia agricola com grandes corporacoes de sementes e defensivos. Afirmar desinteresse na biotecnologia contradiz completamente a realidade da liderança americana nesse setor.",
+      "2": "Os EUA sao os maiores produtores e exportadores mundiais de insumos agricolas, como fertilizantes e defensivos. Afirmar fraca atuacao nesse setor e o oposto da posicao dominante dos EUA no mercado global de insumos.",
+      "3": "Os EUA concedem volumosos subsidios aos produtores agricolas por meio da Farm Bill e adotam praticas protecionistas que sao questionadas na OMC. A intervencao do Estado americano na agricultura e expressiva e bem documentada, e nao discreta."
+    }
   },
   {
     "id": 3,
@@ -66,7 +77,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A ocupação militar americana no Afeganistão iniciou-se após os atentados de 11 de setembro de 2001 como parte da 'Guerra ao Terror'. Pense em qual doutrina de política externa fundamentou essa intervenção e qual foi sua motivação declarada."
+    "ajuda": "A ocupação militar americana no Afeganistão iniciou-se após os atentados de 11 de setembro de 2001 como parte da 'Guerra ao Terror'. Pense em qual doutrina de política externa fundamentou essa intervenção e qual foi sua motivação declarada.",
+    "feedbacks": {
+      "1": "A Guerra do Golfo ocorreu em 1991 e foi uma intervencao internacional para expulsar o Iraque do Kuwait; nao tem relacao com a ocupacao do Afeganistao. A invasao do Afeganistao em 2001 foi especificamente em resposta aos ataques terroristas do 11 de setembro, e nao uma continuacao da Guerra do Golfo.",
+      "2": "Em 3 de janeiro de 1961 os EUA romperam relacoes diplomaticas com CUBA, e nao com o Afeganistao. A alternativa confunde o rompimento com Cuba (que ocorreu nessa data) com a relacao EUA-Afeganistao, gerando um anacronismo historico.",
+      "3": "O Afeganistao nao e um pais exportador significativo de petroleo e nunca impôs limites ao comercio de petroleo com os EUA. A Guerra do Golfo de 1991 foi motivada pela invasao iraquiana ao Kuwait, nao por restricoes afeganas ao petroleo.",
+      "4": "A ocupacao americana no Afeganistao nao foi motivada por remarcacao de fronteiras no Oriente Medio. Foi uma resposta direta aos atentados de 11 de setembro de 2001 e a proteção que o regime Talibã oferecia a Al-Qaeda no territorio afegao."
+    }
   },
   {
     "id": 4,
@@ -89,7 +106,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "A questão pede a alternativa INCORRETA sobre a economia do Canadá. Lembre-se das características: grande produtor de madeira, petróleo (Alberta), pescado (províncias marítimas), grãos e com população concentrada no sul. Identifique qual informação está errada."
+    "ajuda": "A questão pede a alternativa INCORRETA sobre a economia do Canadá. Lembre-se das características: grande produtor de madeira, petróleo (Alberta), pescado (províncias marítimas), grãos e com população concentrada no sul. Identifique qual informação está errada.",
+    "feedbacks": {
+      "0": "A extracao de madeira voltada para papel e celulose e de fato uma industria importante no Canada, aproveitando as vastas florestas boreais do pais. Essa afirmacao esta correta como descricao de uma das atividades economicas relevantes do Canada.",
+      "1": "Nos platos interiores da Colombia Britanica desenvolvem-se de fato atividades de pecuaria extensiva adaptadas ao clima de montanha. Essa afirmacao esta correta como descricao de uma atividade economica da regiao Oeste do Canada.",
+      "2": "As Provincias Maritimas (Nova Scotia, New Brunswick, Ilha do Principe Eduardo e Terra Nova) se caracterizam pela pesca e pela policultura de subsistencia. Essa afirmacao esta correta como descricao da base economica dessas provincias atlanticas.",
+      "4": "O Canada utiliza tecnicas modernas e altamente mecanizadas na producao agricola das pradarias do centro-oeste, tornando-se um dos maiores exportadores mundiais de cereais como trigo e canola. Essa afirmacao esta correta como descricao do setor agropecuario canadense."
+    }
   },
   {
     "id": 5,
@@ -114,7 +137,13 @@
     ],
     "correta": 3,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O texto descreve um movimento guerrilheiro em um país específico, com uma pauta relacionada às populações rurais e indígenas. Pense nas principais guerrilhas da América Latina — FARC (Colômbia), EZLN (México) — e identifique qual contexto o excerto descreve."
+    "ajuda": "O texto descreve um movimento guerrilheiro em um país específico, com uma pauta relacionada às populações rurais e indígenas. Pense nas principais guerrilhas da América Latina — FARC (Colômbia), EZLN (México) — e identifique qual contexto o excerto descreve.",
+    "feedbacks": {
+      "0": "O movimento de resistencia contra o apartheid na Africa do Sul foi protagonizado pelo ANC (Congresso Nacional Africano), e nao por um grupo guerrilheiro de luta armada prolongada como o descrito no excerto. O contexto geografico e politico e completamente distinto do descrito.",
+      "1": "As FARC colombianas tiveram origem em questoes agrarias, mas o pais descrito no excerto e o Mexico, nao a Colombia. O movimento zapatista no estado de Chiapas se diferencia das FARC pelo foco na autonomia indigena e na democracia participativa, e nao na luta armada prolongada.",
+      "2": "A luta pelo fim do sistema de castas na India e um movimento social distinto, de base religiosa e social, sem relacao com o movimento guerrilheiro de camponeses e indigenas descrito no excerto. O contexto e o pais sao completamente diferentes.",
+      "4": "A guerrilha cubana historica buscou derrubar o governo Batista nos anos 1950, e nao um governo apoiado pelos EUA nos anos 1990. O excerto descreve um movimento guerrilheiro que surgiu justamente contra os efeitos do NAFTA sobre os camponeses mexicanos."
+    }
   },
   {
     "id": 6,
@@ -138,7 +167,13 @@
     ],
     "correta": 1,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O texto de Mike Davis provavelmente analisa as consequências da pobreza urbana e da migração nas fronteiras da América do Norte. Identifique qual alternativa sintetiza corretamente a tese do autor sobre o tema abordado."
+    "ajuda": "O texto de Mike Davis provavelmente analisa as consequências da pobreza urbana e da migração nas fronteiras da América do Norte. Identifique qual alternativa sintetiza corretamente a tese do autor sobre o tema abordado.",
+    "feedbacks": {
+      "0": "O texto de Mike Davis critica justamente a tendencia de culpabilizar os pobres por sua situacao precaria. Para Davis, as estruturas economicas de exploracao e o capitalismo sao as causas das condicoes de vida degradadas, e nao as escolhas ou comportamentos dos proprios trabalhadores.",
+      "2": "As maquiladoras extraem valor do trabalho local, mas nao consomem a maior parte da riqueza em Tijuana; remetem os lucros para as matrizes nos EUA. Davis nao afirma que as maquiladoras promovem lentamente o desenvolvimento; critica o modelo de exploracao que empobrece os trabalhadores.",
+      "3": "Davis nao atribui as pessimas condicoes de vida a fatores climaticos ou geologicos degradados. Sua analise e estrutural e social: a causa e a exploracao economica dos trabalhadores pelas empresas, e nao o ambiente fisico da regiao.",
+      "4": "Davis nao argumenta que combater subsidios das empresas e da classe trabalhadora aos governos seria uma solucao. Sua critica e ao sistema de exploracao do trabalho e as estruturas do capitalismo global que produzem miseria em Tijuana."
+    }
   },
   {
     "id": 7,
@@ -163,7 +198,13 @@
     ],
     "correta": 2,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O Canal do Panamá conecta o Oceano Atlântico ao Pacífico, eliminando a necessidade de contornar a América do Sul. Ele é estratégico para o comércio mundial. A figura do esquema de travessia por câmaras de eclusas é uma pista visual importante para identificar o canal."
+    "ajuda": "O Canal do Panamá conecta o Oceano Atlântico ao Pacífico, eliminando a necessidade de contornar a América do Sul. Ele é estratégico para o comércio mundial. A figura do esquema de travessia por câmaras de eclusas é uma pista visual importante para identificar o canal.",
+    "feedbacks": {
+      "0": "O Canal de Suez liga o Mar Vermelho ao Mar Mediterraneo atraves do Egito; nao utiliza eclusas porque os dois mares tem nivel semelhante. O sistema de eclusas representado no esquema da questao e caracteristica exclusiva do Canal do Panama, que transpoe uma diferenca de nivel entre os oceanos.",
+      "1": "O Canal de Beagle e o Estreito de Beagle, um trecho de mar natural que separa a Patagonia argentina e chilena da Tierra del Fuego; nao e um canal artificial construido pelo homem. Nao tem eclusas e sua travessia nao e economicamente estrategica da forma descrita.",
+      "3": "O Canal de S. George e o Estreito de S. Jorge, braço de mar entre o Pais de Gales e a Irlanda do Norte; nao e um canal artificial. Sua travessia e natural e nao envolve o sistema de eclusas que a figura representa.",
+      "4": "O Canal da Mancha e o trecho de mar entre a Franca e a Inglaterra; nao e um canal artificial construido pelo homem. Embora o Eurotunnel o atravesse, nao ha sistema de eclusas para travessia de embarcacoes como o representado no esquema da questao."
+    }
   },
   {
     "id": 8,
@@ -186,7 +227,13 @@
     ],
     "correta": 1,
     "comentario": "<p>a) Falso – Esses três países citados no item não integram a América Platina, pois não estão inseridos\r\n na Bacia Hidrográfica do Rio Prata.</p>\n<p>b) Verdadeiro – As três nações que formam a América Platina são Argentina, Paraguai e Uruguai. Esses\r\n três países são banhados pelos principais rios que integram a Bacia Hidrográfica do Rio Prata\r\n (Paraná, Paraguai e Uruguai).</p>\n<p>c) Falso – Argentina e Paraguai são países platinos, porém, o Brasil não está inserido nessa\r\n subdivisão da América do Sul.</p>\n<p>d) Falso – Colômbia, Equador e Venezuela estão localizados na porção norte da América do Sul, ou\r\n seja, no outro extremo da Bacia Hidrográfica do Rio Prata.</p>\n<p>e) Falso – Paraguai é um país platino, no entanto, Brasil e Peru não fazem parte da América Platina.</p>",
-    "ajuda": "A América Platina é banhada pelos rios da Bacia do Prata: Paraná, Paraguai e Uruguai. Os países que a compõem são aqueles inseridos nessa bacia hidrográfica. Identifique qual conjunto de países forma corretamente a América Platina."
+    "ajuda": "A América Platina é banhada pelos rios da Bacia do Prata: Paraná, Paraguai e Uruguai. Os países que a compõem são aqueles inseridos nessa bacia hidrográfica. Identifique qual conjunto de países forma corretamente a América Platina.",
+    "feedbacks": {
+      "0": "Peru, Chile e Bolivia sao paises andinos, nao platinos. A America Platina recebe esse nome pela bacia hidrografica do Prata (formada pelos rios Parana, Paraguai e Uruguai), que banha Argentina, Paraguai e Uruguai; nenhum desses paises andinos faz parte dessa sub-regiao classica.",
+      "2": "Argentina e Paraguai pertencem a America Platina, mas o Brasil, embora contribua com afluentes para a bacia do Prata, e geralmente incluido na America Andina/Amazonica em sua maior parte. O Uruguai e excluido dessa alternativa, que inclui o Brasil em seu lugar.",
+      "3": "Colombia, Equador e Venezuela sao paises andinos e caribenhos, banhados principalmente pelo Pacifico, pelo Atlantico equatorial e pelo Caribe. Nenhum deles integra a America Platina, que se refere ao Cone Sul banhado pela bacia do Prata.",
+      "4": "Peru e um pais andino e o Brasil, embora detenha territorio na bacia do Prata, nao integra a America Platina no sentido geopolitico classico. O Paraguai, que e platino, esta presente na alternativa, mas ela o acompanha de paises que nao pertencem a sub-regiao."
+    }
   },
   {
     "id": 9,
@@ -212,7 +259,13 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O mapa mostra um país em crise com economia dependente do petróleo. Ao observar o mapa da América do Sul e identificar o país indicado pelo número, leve em conta qual nação tem o petróleo como base de sua economia e atravessa grave crise política."
+    "ajuda": "O mapa mostra um país em crise com economia dependente do petróleo. Ao observar o mapa da América do Sul e identificar o país indicado pelo número, leve em conta qual nação tem o petróleo como base de sua economia e atravessa grave crise política.",
+    "feedbacks": {
+      "1": "O pais II nao corresponde ao que os dados do fragmento descrevem como em crise economica e politica. A comparacao entre os indicadores mencionados no texto e a localizacao dos paises no mapa permite identificar que o pais em crise e o marcado como I.",
+      "2": "O pais III nao apresenta os indicadores de crise descritos no fragmento. A analise dos dados economicos e politicos combinada com a localizacao geografica indica que o pais em questao e o identificado como I no mapa.",
+      "3": "O pais IV nao e o que os dados do fragmento identificam como em situacao de crise. A leitura correta dos indicadores e da posicao geografica aponta para o pais I como o cenario descrito.",
+      "4": "O pais V nao e o que os dados do fragmento descrevem como em crise politica e economica. A combinacao de indicadores economicos e localizacao geografica no mapa aponta para o pais I."
+    }
   },
   {
     "id": 10,
@@ -236,6 +289,12 @@
     ],
     "correta": 0,
     "comentario": "<!-- <p><strong>Comentário:</strong></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p>\r\n\r\n <p></p> -->",
-    "ajuda": "O texto descreve dois países que promovem ações de reordenamento territorial segundo seus interesses. Pense em qual tipo de atuação — econômica, política, geopolítica ou ideológica — melhor caracteriza a interferência de grandes potências em territórios de outros países."
+    "ajuda": "O texto descreve dois países que promovem ações de reordenamento territorial segundo seus interesses. Pense em qual tipo de atuação — econômica, política, geopolítica ou ideológica — melhor caracteriza a interferência de grandes potências em territórios de outros países.",
+    "feedbacks": {
+      "1": "A dimensao politica se refere a alinhar posicionamentos diplomaticos e apoios em organismos internacionais. A charge descreve uma acao mais especifica de dependencia e cooperacao economica, que e uma dimensao comercial, e nao apenas de alinhamento politico-diplomatico.",
+      "2": "Alinhar o capitalismo ocidental com o socialismo oriental descreveria uma relacao ideologica de duas potencias de sistemas diferentes, como EUA e China. A charge aborda uma relacao de cooperacao e dependencia economica que nao e necessariamente uma oposicao ideologica entre sistemas.",
+      "3": "A dimensao ambiental se referira a conservacao de recursos e acordos ecologicos. A charge trata de reordenamento de territorios segundo interesses economicos, o que nao se confunde com objetivos ambientais de conservacao.",
+      "4": "A dimensao ideologica com campanhas publicitarias e globalismo cultural descreveria um processo de influencia cultural de longa duracao. A charge aborda relacoes de cooperacao e dependencia economica concreta, que sao dimensoes comerciais e nao de propaganda ideologica."
+    }
   }
 ]

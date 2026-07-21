@@ -174,6 +174,17 @@
                 <li><strong>Clima mediterrâneo:</strong> nos extremos norte (Marrocos, Tunísia) e sul (Cabo da Boa Esperança), com verões secos e invernos chuvosos.</li>
             </ul>
 
+            <p>Essa sequência de faixas climáticas e suas respectivas vegetações, chamadas tecnicamente de
+                <span class="termo" data-palavra="Zonobioma" data-definicao="Classificação internacional de biomas feita em função da combinação entre clima e fitofisionomia (a fisionomia da vegetação), usada para comparar biomas de diferentes continentes que compartilham características climáticas semelhantes, mesmo estando muito distantes entre si.">zonobiomas</span>,
+                não muda de forma abrupta de um clima para o outro: entre cada zona existe uma faixa de transição em
+                que a vegetação se modifica gradualmente. Na transição entre o deserto e a savana, por exemplo, a
+                vegetação de pequeno porte e as espécies <span class="termo" data-palavra="Vegetação Xerófita" data-definicao="Vegetação adaptada a ambientes com pouca disponibilidade de água, com características como folhas pequenas ou em forma de espinho, cutícula grossa e sistema radicular profundo, que reduzem a perda de água por transpiração. É típica de desertos e semiáridos.">xerófitas</span>,
+                adaptadas à escassez de água e típicas do clima árido, vão dando lugar de forma progressiva a
+                gramíneas e arbustos mais densos, em um processo chamado de <span class="termo" data-palavra="Savanização" data-definicao="Processo de transição gradual da vegetação em direção às características típicas da savana, com o aumento progressivo de gramíneas e arbustos à medida que se caminha de uma zona mais árida para uma zona mais úmida, ou o inverso, quando a savana perde cobertura vegetal e se aproxima das características de um ambiente árido.">savanização</span>,
+                até que a paisagem passe a corresponder plenamente às características do clima tropical e savana.
+                Esse mesmo tipo de gradiente, com intensidade e direção variáveis, ocorre em todas as fronteiras
+                entre zonobiomas vizinhos no continente africano.</p>
+
             <div class="w3-margin w3-margin-top">
                 <img src="tt25f02.png" alt="Mapa das zonas climáticas e vegetação da África, mostrando a simetria em relação ao Equador"
                     class="w3-mobile"
