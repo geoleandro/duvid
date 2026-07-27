@@ -5,15 +5,16 @@
 <head>
         <meta charset="utf-8" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-        <meta content="" name="description" />
-        <meta content="" property="og:title" />
-        <meta content="" property="og:description" />
+        <meta content="Projeções cartográficas: como representar a Terra redonda em um mapa plano" name="description" />
+        <meta content="Texto 05 - Projeções Cartográficas" property="og:title" />
+        <meta content="Cilíndrica, cônica, plana e as disputas políticas por trás de cada tipo de mapa" property="og:description" />
         <meta content="" property="og:image" />
         <link href="/estilos/index-estilo.css" rel="stylesheet" />
         <link href="/estilos/w3.css" rel="stylesheet" />
         <link href="/estilos/navbar.css" rel="stylesheet" />
         <link href="/estilos/rpg-sistema.css" rel="stylesheet" />
         <link href="/estilos/ModeloCss.css" rel="stylesheet" />
+        <link href="/estilos/explicacaoPalavra.css" rel="stylesheet" />
         <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,6 +33,7 @@
         <script defer="" src="/js/abrirmenu.js"></script>
         <script defer="" src="/js/carregar.js"></script>
         <script defer="" src="/js/aulas-geral.js"></script>
+        <script defer="" src="/js/glossario.js"></script>
         <title>1º ano - Texto 05</title>
 </head>
 
@@ -39,6 +41,7 @@
         <?php include __DIR__ . '/../../../includes/header.php'; ?>
         <div class="w3-margin-top" id="aviso-status"></div>
         <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+                <!-- BLOCO: Abertura -->
                 <div class="topico">
                         <div class="w3-padding-top-48"></div>
                         <h1 id="h1"></h1>
@@ -69,51 +72,18 @@
                         </button>
                         <hr />
                 </div>
+                <!-- BLOCO: Pratica Social Inicial -->
                 <div class="topico">
-                        <h2> Introdução </h2>
-                        <p> <span class="primeiraLetra">N</span>a aula passada, vimos a importância da escala
-                                cartográfica e geográfica para representarmos a realidade através dos mapas. </p>
-                        <p>Agora, do ponto de vista global, veremos como projetar o globo terrestre (que possui uma
-                                forma de esfera) em um plano. O caminho para se tornar um explorador do espaço
-                                geográfico é árduo, mas
-                                também é gratificante.</p>
-                        <p> As projeções cartográficas realizam essa transformação da realidade tridimensional em
-                                planos bidimensionais. Vamos conhecer os diferentes tipos de projeções, seu impacto na
-                                descoberta de novas
-                                áreas pelo Planeta e aprofundar no estudo sobre a produção cartográfica.</p>
-                        <button class="btnShow"
-                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-                        <hr />
-                </div>
-                <div class="topico">
-                        <div class="w3-panel w3-leftbar w3-pale-yellow w3-margin w3-padding">
-                                <h2> Questões a serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-                                <h3>1. O que são projeções cartográficas e qual é o seu objetivo principal?</h3>
-                                <h3>2. Explique brevemente os três tipos básicos de projeções cartográficas: cilíndrica,
-                                        cônica e plana.</h3>
-                                <h3>3. Por que os cartógrafos precisaram desenvolver diferentes tipos de projeções?</h3>
-                                <h3>4. Descreva as características principais da Projeção de Mercator e mencione para
-                                        que
-                                        ela é mais
-                                        adequada.</h3>
-                                <h3>5. Qual é a principal crítica à Projeção de Mercator em relação à representação dos
-                                        continentes?</h3>
-                                <h3>6. Explique a Projeção de Peter e quais são suas principais características.</h3>
-                                <h3>7. Por que a Projeção de Peter foi considerada uma tentativa de romper com uma visão
-                                        colonialista do
-                                        mundo?</h3>
-                                <h3>8. O que são Projeções Planas ou Azimutais e qual é a sua característica principal?
-                                </h3>
-                                <h3>9. Como as Projeções Cônicas funcionam e em que situações elas são mais utilizadas?
-                                </h3>
-                                <h3>10. O que são anamorfoses geográficas e como elas diferem das projeções
-                                        cartográficas
-                                        tradicionais?</h3>
+                        <p class="caixa"> Agora é com você!</p>
+                        <div class="w3-panel w3-pale-green">
+                                <p class="w3-pale-green">Você já reparou que, em muitos mapas-múndi, a Groenlândia parece quase do tamanho da África? Na realidade, a África é cerca de 14 vezes maior que a Groenlândia.</p>
+                                <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: por que você acha que um mapa, feito para representar o mundo real, pode mostrar um país maior ou menor do que ele realmente é? Guarde sua resposta, vamos retomá-la no final da aula.</p>
                         </div>
                         <button class="btnShow"
-                                onclick="MostrarProximo(this); this.style.display='block'">Próximo</button>
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
                         <hr />
                 </div>
+                <!-- BLOCO: Problematizacao -->
                 <div class="topico">
                         <h2> Introdução </h2>
                         <p> <span class="primeiraLetra">N</span>a aula passada, vimos a importância da escala
@@ -126,10 +96,12 @@
                                 planos bidimensionais. Vamos conhecer os diferentes tipos de projeções, seu impacto na
                                 descoberta de novas
                                 áreas pelo Planeta e aprofundar no estudo sobre a produção cartográfica.</p>
+                        <p><strong>Esta aula responde a uma pergunta que parece só técnica, mas é também política: como transformar um globo redondo em um mapa plano sem mentir sobre o tamanho, a forma ou a posição dos países, e quem decide o que vale a pena distorcer.</strong></p>
                         <button class="btnShow"
                                 onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
                         <hr />
                 </div>
+                <!-- BLOCO: Instrumentalizacao (o que e projecao cartografica) -->
                 <div class="topico">
                         <h2> <strong>O que é uma projeção cartográfica?</strong></h2>
                         <p>Já sabemos alguns elementos dos mapas, como o título, a legenda, a escala, até fizemos uma
@@ -142,7 +114,9 @@
                                 geográficas para poder representar a superfície terrestre em um mapa. Tudo isso está
                                 ligado as projeções
                                 cartográficas. </p>
-                        <p><span id="mark2"> <strong>Projeções cartográficas </strong></span> - Constituem métodos
+                        <p><span class="termo" data-palavra="Projeção Cartográfica"
+                                        data-definicao="Método matemático para representar a superfície esférica da Terra em um plano (o papel ou a tela). Toda projeção envolve algum tipo de distorção: nenhuma consegue preservar ao mesmo tempo forma, área, distância e direção."><strong>Projeções
+                                                cartográficas</strong></span> - Constituem métodos
                                 matemáticos
                                 para se projetar uma esfera em um plano. Uma região de escala grande como um município
                                 ao ser representada
@@ -163,6 +137,7 @@
                                 onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
                         <hr />
                 </div>
+                <!-- BLOCO: Instrumentalizacao (tipos de projecao) -->
                 <div class="topico">
                         <h2> <strong>Quais os tipos de projeções existentes?</strong></h2>
                         <p>Existem três tipos básicos de projeções cartográficas: a <strong>cilíndrica</strong>, a
@@ -175,8 +150,9 @@
                         <span class="paragrafo citacao" id="citacao2" style="display:none"> Fonte: Fonte: Moreira e Sene
                                 (2016, p. 60).
                         </span>
-                        <p> Observe que na projeção <span
-                                        onclick="Aparecer('imagem3','citacao3')"><mark>cilíndrica</mark></span> o
+                        <p> Observe que na projeção <span class="termo" data-palavra="Projeção Cilíndrica"
+                                        data-definicao="Tipo de projeção em que o globo terrestre parece estar envolvido por um cilindro de papel, sobre o qual são projetados os paralelos e os meridianos. É a base da projeção de Mercator, a mais usada em mapas-múndi."
+                                        onclick="Aparecer('imagem3','citacao3')">cilíndrica</span> o
                                 globo terrestre parece estar
                                 envolvido por um cilindro de papel no qual são projetados os paralelos e os meridianos.
                         </p>
@@ -185,8 +161,9 @@
                         </div>
                         <span class="paragrafo citacao" id="citacao3" style="display:none"> Fonte: Moreira e Sene (2016,
                                 p. 60). </span>
-                        <p> Na projeção <strong>azimutal</strong> ou <span
-                                        onclick="Aparecer('imagem4','citacao4')"><mark>plana</mark></span>,a Terra
+                        <p> Na projeção <span class="termo" data-palavra="Projeção Plana (Azimutal)"
+                                        data-definicao="Tipo de projeção em que a Terra é tangenciada por um plano de papel em um único ponto, que se torna o centro do mapa. As distorções são mínimas perto do centro e aumentam à medida que se afasta dele."
+                                        onclick="Aparecer('imagem4','citacao4')">azimutal ou plana</span>,a Terra
                                 parece ser tangenciada em
                                 qualquer ponto por um pedaço de papel no qual são projetados os paralelos e os
                                 meridianos. Quando o globo é
@@ -197,7 +174,9 @@
                         <span class="paragrafo citacao" id="citacao4" style="display:none"> Fonte: Fonte: Moreira e Sene
                                 (2016, p. 60).
                         </span>
-                        <p> Já na projeção <span onclick="Aparecer('imagem5','citacao5')"><mark>cônica</mark></span>,
+                        <p> Já na projeção <span class="termo" data-palavra="Projeção Cônica"
+                                        data-definicao="Tipo de projeção em que o globo parece estar envolvido por um cone de papel, sobre o qual são projetados os paralelos (que viram círculos) e os meridianos (que viram retas convergentes). Usada principalmente para países de latitude intermediária."
+                                        onclick="Aparecer('imagem5','citacao5')">cônica</span>,
                                 o globo parece estar envolvido por um cone de papel no qual são projetados os paralelos
                                 e os meridianos.
                         </p>
@@ -270,7 +249,7 @@
                 </div>
                 <div class="topico pergunta-bloco w3-container w3-padding-24">
                         <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-                        <h4 class="fontePixel"><b></b></h4>
+                        <h4 class="fontePixel"><b>Toda projeção cartográfica, ao transformar a esfera terrestre em um mapa plano, tem como consequência:</b></h4>
                         <div class="grupo-respostas w3-margin-top">
                                 <div class="item-resposta">
                                         <input class="radio-duvid" id="p2a" name="pergunta2" type="radio"
@@ -338,7 +317,9 @@
                                                 </p>
                                         </li>
                                         <li>
-                                                <p>é <strong>conforme</strong>, isto é, preserva os ângulos e formas dos
+                                                <p>é <span class="termo" data-palavra="Projeção Conforme"
+                                                                data-definicao="Tipo de projeção que preserva os ângulos e as formas dos continentes, mas distorce a área (o tamanho proporcional dos países). A projeção de Mercator é o exemplo mais conhecido.">conforme</span>,
+                                                        isto é, preserva os ângulos e formas dos
                                                         continentes,
                                                         mas distorce a área (a proporção do tamanho dos países).</p>
                                         </li>
@@ -377,8 +358,10 @@
                                 cartógrafo Arno Peters aperfeiçoou a projeção cilíndrica de James Gall do final do
                                 século XIX e elaborou uma
                                 projeção que preservava as áreas dos continentes, o qual ficou conhecida como <span
-                                        onclick="Aparecer('imagem8','citacao8')"><mark>projeção
-                                                equivalente.</mark></span> </p>
+                                        class="termo" data-palavra="Projeção Equivalente"
+                                        data-definicao="Tipo de projeção que preserva as áreas reais dos continentes (o tamanho proporcional), mesmo distorcendo suas formas. É o oposto da projeção conforme, que preserva forma mas distorce área."
+                                        onclick="Aparecer('imagem8','citacao8')">projeção
+                                                equivalente</span>. </p>
 
                         <div class="area"><img id="imagem8" src="tp5f8.png" alt="tp5f8" class="w3-mobile"
                                         style=display:none>
@@ -582,7 +565,9 @@
                                 mapa.
                         </p>
 
-                        <p> São chamadas de <strong>anamorfose geográfica</strong>, em que cada país é redesenhado de
+                        <p> São chamadas de <span class="termo" data-palavra="Anamorfose Geográfica"
+                                        data-definicao="Mapa temático (não é uma projeção cartográfica tradicional) em que cada país é redesenhado com o polígono deformado proporcionalmente a um tema escolhido, como população, PIB ou consumo de energia.">anamorfose
+                                        geográfica</span>, em que cada país é redesenhado de
                                 forma que seu polígono sofre uma deformação proporcional a um tema como a população dos
                                 países, ou outra
                                 variável.</p>
@@ -614,6 +599,7 @@
                 </div>
 
 
+                <!-- BLOCO: Perguntas e Respostas -->
                 <div class="topico margemAcima">
 
 
@@ -728,6 +714,71 @@
                         <hr>
 
                 </div>
+
+
+                <!-- BLOCO: Questoes para o caderno -->
+                <div class="topico">
+                        <div class="w3-panel w3-leftbar w3-pale-yellow w3-margin w3-padding">
+                                <h2> Questões para responder no caderno:</h2>
+                                <h3>1. O que são projeções cartográficas e qual é o seu objetivo principal?</h3>
+                                <h3>2. Explique brevemente os três tipos básicos de projeções cartográficas: cilíndrica,
+                                        cônica e plana.</h3>
+                                <h3>3. Por que os cartógrafos precisaram desenvolver diferentes tipos de projeções?</h3>
+                                <h3>4. Descreva as características principais da Projeção de Mercator e mencione para
+                                        que
+                                        ela é mais
+                                        adequada.</h3>
+                                <h3>5. Qual é a principal crítica à Projeção de Mercator em relação à representação dos
+                                        continentes?</h3>
+                                <h3>6. Explique a Projeção de Peter e quais são suas principais características.</h3>
+                                <h3>7. Por que a Projeção de Peter foi considerada uma tentativa de romper com uma visão
+                                        colonialista do
+                                        mundo?</h3>
+                                <h3>8. O que são Projeções Planas ou Azimutais e qual é a sua característica principal?
+                                </h3>
+                                <h3>9. Como as Projeções Cônicas funcionam e em que situações elas são mais utilizadas?
+                                </h3>
+                                <h3>10. O que são anamorfoses geográficas e como elas diferem das projeções
+                                        cartográficas
+                                        tradicionais?</h3>
+                        </div>
+                        <button class="btnShow"
+                                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                        <hr />
+                </div>
+
+
+                <!-- BLOCO: Catarse -->
+                <div class="topico">
+
+                        <div class="w3-light-blue w3-padding">
+
+                        <h2>O que mudou no seu olhar</h2>
+
+                        <p>Releia o que você escreveu no início sobre o tamanho da Groenlândia nos mapas. Agora você sabe que a resposta não é um erro de desenho: é uma escolha entre o que preservar e o que sacrificar. Mercator preservou os ângulos, então distorceu as áreas. Peters preservou as áreas, então distorceu as formas. Não existe mapa plano sem algum tipo de perda.</p>
+
+                        <p>E essa escolha nunca foi neutra. Um mapa que aumenta a Europa e diminui a África, ou que coloca um continente sempre no centro, ensina uma ideia de mundo junto com a geografia. Escolher qual projeção usar é também escolher qual história contar sobre quem é grande, quem é pequeno e quem fica no meio.</p>
+
+                        <p><strong>Resumo dos conceitos:</strong> projeção cartográfica (método matemático para representar a esfera em um plano); projeção cilíndrica, cônica e plana (as três formas básicas de projetar); projeção conforme (preserva forma, distorce área, como Mercator); projeção equivalente (preserva área, distorce forma, como Peters); anamorfose geográfica (mapa temático que deforma países conforme uma variável, como população).</p>
+
+                        </div>
+
+                        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+                        <hr>
+                </div>
+
+
+                <!-- BLOCO: Ficha de conceitos -->
+                <div class="topico">
+                        <div id="ficha-conceitos" style="display:block">
+                                <h3>Ficha de Conceitos</h3>
+                                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                                <ul id="lista-glossario"></ul>
+                        </div>
+                        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+                        <hr>
+                </div>
+
 
                 <!-- <div class="topico">
 

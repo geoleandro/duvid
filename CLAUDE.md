@@ -79,6 +79,14 @@ Tem bolsista que ajuda com tarefas menores (conversão de HTMLs, catalogação).
 - Tema dos dioramas: **geografia humana + física juntas** — contraste/conflito dentro da cena
 - Cards renomeados: 1º ANO → 🌿 Natureza | 2º ANO → 🇧🇷 Brasil | 3º ANO → 🌍 Mundo
 
+## Design System — Clean Pixel
+Guia completo em `/docs/GUIA-DE-ESTILO.md`
+- Fonte: **Montserrat** (corpo) + pixel font nos títulos
+- Brand: `#2e7d32` (Forest Deep) / `#4caf50` (Forest Vibrant)
+- Surface: `#f8f9fa` | Cards: `border-radius: 24px` + `box-shadow: 0 4px 12px rgba(0,0,0,0.05)`
+- Sidebar: 260px | Max-width container: 1280px | Gutter: 24px
+- Redesign em 4 fases: ① Sidebar nav → ② Home dashboard → ③ Quiz interface → ④ Aulas + Simulados
+
 ## Notion
 Roadmap: https://app.notion.com/p/4773afa5a43947e2988d7bce25f6a2e6
 Status usados: Ideia | Próxima | Bolsista | Feito | Bloqueado

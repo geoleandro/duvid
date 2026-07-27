@@ -182,6 +182,14 @@ function gerenciarIdentificacaoHome() {
         if (display) display.style.display = 'block';
         if (nomeTexto) nomeTexto.innerText = nomeSalvo.toUpperCase();
 
+        // Foto pixel art via DiceBear (seed = nome do aluno)
+        var fotoEl = document.getElementById('aluno-foto');
+        if (fotoEl) {
+            var seed = encodeURIComponent(nomeSalvo.trim().toLowerCase());
+            fotoEl.src = 'https://api.dicebear.com/8.x/pixel-art/svg?seed=' + seed
+                       + '&backgroundColor=e8f5e9&radius=50';
+        }
+
         // --- GATILHOS DE RPG ---
         // 1. Atualiza o Nível, Patente e Barra de XP Total
         if (typeof atualizarSistemaNivelHome === "function") {
@@ -192,10 +200,79 @@ function gerenciarIdentificacaoHome() {
         if (typeof atualizarResumoHome === "function") {
             atualizarResumoHome();
         }
+
+        // 3. Mini ranking da turma (aguarda sync do banco para ter turmaCodigo)
+        if (DuvidDB.pronto) {
+            DuvidDB.pronto.then(function() { carregarMiniRanking(); });
+        }
     } else {
         if (display) display.style.display = 'none';
         if (form) form.style.display = 'block';
     }
+}
+
+// ---------------------------------------------------------------
+// MINI RANKING DA TURMA (top 3 + posição do próprio aluno)
+// ---------------------------------------------------------------
+function carregarMiniRanking() {
+    var turma = DuvidDB._cache && DuvidDB._cache.turmaCodigo;
+    if (!turma || turma === 'LIVRE') return;
+
+    var container = document.getElementById('mini-ranking-turma');
+    var lista     = document.getElementById('mini-ranking-lista');
+    if (!container || !lista) return;
+
+    fetch('/api/ranking.php?turma=' + encodeURIComponent(turma) + '&top=10')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            var ranking = data.ranking || [];
+            if (ranking.length === 0) return;
+
+            var nomeMeu = (DuvidDB.getNome() || '').trim().toLowerCase();
+            var top3    = ranking.slice(0, 3);
+            var icons   = ['🥇', '🥈', '🥉'];
+
+            function esc(s) {
+                return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            }
+
+            var html = top3.map(function(p, i) {
+                var isMe = nomeMeu && p.nome.trim().toLowerCase() === nomeMeu;
+                return '<div style="background:' + (isMe ? '#f0f7f0' : '#f8f9fa') + ';' +
+                       'border:1px solid ' + (isMe ? '#c8e6c9' : 'transparent') + ';' +
+                       'border-radius:8px; padding:6px 10px;' +
+                       'display:flex; align-items:center; gap:8px;">' +
+                       '<span style="font-size:.95rem; line-height:1; flex-shrink:0;">' + icons[i] + '</span>' +
+                       '<span style="flex:1; font-size:.78rem; font-weight:' + (isMe ? '800' : '600') + '; color:#333;' +
+                       'white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' +
+                       esc(p.nome) + (isMe ? ' <span style="color:#4caf50; font-size:.68rem;">(você)</span>' : '') + '</span>' +
+                       '<span style="font-size:.72rem; font-weight:700; color:#2e7d32; flex-shrink:0;">🌍 ' + (p.globinhos_total || 0) + '</span>' +
+                       '</div>';
+            }).join('');
+
+            // Minha posição se não estiver no top 3
+            var minhaPos = -1;
+            if (nomeMeu) {
+                for (var i = 0; i < ranking.length; i++) {
+                    if (ranking[i].nome.trim().toLowerCase() === nomeMeu) { minhaPos = i; break; }
+                }
+            }
+            if (minhaPos >= 3) {
+                var eu = ranking[minhaPos];
+                html += '<div style="background:#f0f7f0; border:1px solid #c8e6c9; border-radius:8px; padding:6px 10px;' +
+                        'display:flex; align-items:center; gap:8px; margin-top:2px;">' +
+                        '<span style="background:#4caf50; color:#fff; border-radius:50%; width:22px; height:22px;' +
+                        'display:inline-flex; align-items:center; justify-content:center;' +
+                        'font-size:.62rem; font-weight:800; flex-shrink:0;">' + (minhaPos + 1) + '</span>' +
+                        '<span style="flex:1; font-size:.78rem; font-weight:800; color:#333;">Você</span>' +
+                        '<span style="font-size:.72rem; font-weight:700; color:#2e7d32; flex-shrink:0;">🌍 ' + (eu.globinhos_total || 0) + '</span>' +
+                        '</div>';
+            }
+
+            lista.innerHTML = html;
+            container.style.display = 'block';
+        })
+        .catch(function() { /* falha silenciosa */ });
 }
 
 function NomeAlunos(respid, inputid) {

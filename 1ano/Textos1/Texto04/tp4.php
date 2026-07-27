@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Escala geográfica e cartográfica: como reduzir o mundo para caber no papel">
+    <meta property="og:title" content="Texto 04 - Escalas Geográfica e Cartográfica">
+    <meta property="og:description" content="Como calcular e usar escalas em mapas, cartas, plantas e globos">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,10 +46,10 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
 
 
-
-    <title></title>
+    <title>1º ano - Texto 04</title>
 
 
 
@@ -71,6 +72,7 @@
         <!-- Navigation (Stays on Top) -->
 
 
+        <!-- BLOCO: Abertura -->
         <div class="topico">
 
 
@@ -119,6 +121,22 @@
 
 
 
+        <!-- BLOCO: Pratica Social Inicial -->
+        <div class="topico">
+
+            <p class="caixa"> Agora é com você!</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Você já usou o Google Maps ou Waze e reparou que, quando dá zoom, aparecem nomes de ruas e lojas, e quando afasta, some tudo e você só vê o país inteiro?</p>
+                <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, por que isso acontece? O mapa "cresce" quando você aproxima ou é outra coisa que está mudando? Guarde sua resposta, vamos retomá-la no final da aula.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Problematizacao -->
         <div class="topico">
 
             <h2> Introdução </h2>
@@ -135,12 +153,15 @@
             <p> Faremos um exercício de representação da escola em que estudamos para juntos aplicarmos o
                 conceito de escalas na prática.</p>
 
+            <p><strong>Esta aula responde a uma pergunta bem prática: como caber o mundo inteiro, ou a sua escola inteira, dentro de uma folha de papel sem perder a proporção real das coisas.</strong></p>
+
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr><br>
         </div>
 
 
+        <!-- BLOCO: Instrumentalizacao (escala geografica e cartografica) -->
         <div class="topico">
 
 
@@ -157,13 +178,18 @@
                 podemos fazer recortes, sem o qual ficaria difícil estudar todas as suas partes de uma só vez.</p>
 
             <p>Quando olhamos o planeta através de um mapa, podemos dar um “zoom” e visualizar mais
-                detalhadamente alguma cidade, uma região ou um país. Essa seria a <strong>escala geográfica</strong>,
+                detalhadamente alguma cidade, uma região ou um país. Essa seria a <span class="termo"
+                    data-palavra="Escala Geográfica"
+                    data-definicao="Dimensão local, regional ou mundial do fenômeno que se quer estudar (um derramamento de óleo, a migração de uma população, o clima do planeta). Não é uma medida no papel, é o recorte de espaço escolhido para a análise.">escala
+                    geográfica</span>,
                 isto, a dimensão local, regional ou mundial do fenômeno que queremos estudar, como um derramamento de
                 óleo
                 ou a migração da população de um país para outro. </p>
 
 
-            <p> Já a <strong>escala cartográfica </strong>está ligada a representação, ao tamanho dos
+            <p> Já a <span class="termo" data-palavra="Escala Cartográfica"
+                    data-definicao="Proporção entre o tamanho real de um objeto e o tamanho em que ele aparece representado no papel. Escala grande (número pequeno, como 1:1.000) mostra pouca área com muito detalhe; escala pequena (número grande, como 1:1.000.000) mostra muita área com pouco detalhe.">escala
+                    cartográfica</span> está ligada a representação, ao tamanho dos
                 objetos que teremos em um mapa. Para que uma cidade inteira caiba em um mapa do tamanho de uma folha de
                 seu
                 caderno, teremos que reduzi-la milhares de vezes. Essa redução entre o tamanho real e o tamanho no papel
@@ -677,12 +703,15 @@
             </div>
         </div>
 
+        <!-- BLOCO: Instrumentalizacao (representacoes cartograficas) -->
         <div class="topico">
 
 
             <h2> <strong>Representações cartográficas</strong></h2>
 
-            <p><span class="mark2"> <strong>Globo </strong></span> - É uma representação cartográfica sobre
+            <p><span class="termo" data-palavra="Globo"
+                    data-definicao="Representação cartográfica sobre uma superfície esférica, em escala pequena, geralmente de 1:54.000.000. É a única representação que não distorce a forma da Terra, já que reproduz sua curvatura real."><strong>Globo</strong></span>
+                - É uma representação cartográfica sobre
                 uma superfície esférica, em escala pequena, geralmente de 1: 54.000.000. <span
                     onclick="Aparecer('imagem10','citacao10')"><mark>Veja aqui:</mark></span> </p>
 
@@ -692,7 +721,9 @@
 
             <span class="citacao" id="citacao10" style=display:none> Fonte: Moreira e Sene (2016, p.32). </span>
 
-            <p><span class="mark2"> <strong>Mapa </strong></span> - Trata-se de uma representação no plano,
+            <p><span class="termo" data-palavra="Mapa"
+                    data-definicao="Representação plana, normalmente em escala pequena, dos aspectos geográficos naturais, culturais e artificiais de uma determinada área. Delimitado por acidentes naturais ou limites político-administrativos."><strong>Mapa</strong></span>
+                - Trata-se de uma representação no plano,
                 normalmente em escala pequena, dos aspectos geográficos naturais, culturais e artificiais de uma
                 determinada
                 área.</p>
@@ -713,7 +744,9 @@
 
             <span class="citacao" id="citacao11" style=display:none> Fonte: Moreira e Sene (2016, p.32). </span>
 
-            <p><span class="mark2"> <strong>Carta </strong></span> - Trata-se, da mesma forma, de uma
+            <p><span class="termo" data-palavra="Carta"
+                    data-definicao="Representação plana, em escala média ou grande, que pode ser articulada de maneira sistemática com outras cartas para formar uma visualização mais ampla do fenômeno ou da área escolhida."><strong>Carta</strong></span>
+                - Trata-se, da mesma forma, de uma
                 representação plana, em escala média ou grande e pode ser articulada de maneira sistemática com outras
                 cartas para permitir uma visualização mais ampla do fenômeno ou da área escolhida.<span
                     onclick="Aparecer('imagem12','citacao12')"><mark> Clique</mark></span></p>
@@ -724,7 +757,9 @@
 
             <span class="citacao" id="citacao12" style=display:none> Fonte: Moreira e Sene (2016, p.32).</span>
 
-            <p><span class="mark2"> <strong>Planta </strong></span> - Conforme vimos no exercício sobre o
+            <p><span class="termo" data-palavra="Planta"
+                    data-definicao="Representação de uma área muito limitada, em escala grande, com bastante riqueza de detalhes. É a representação cartográfica mais próxima da realidade, usada para plantas de casas, salas ou lotes urbanos."><strong>Planta</strong></span>
+                - Conforme vimos no exercício sobre o
                 tamanho da casa, a planta é utilizada para uma representação de uma área muito limitada e na escala
                 grande,
                 com bastante riqueza de detalhes. </p>
@@ -882,6 +917,7 @@
 
 
 
+        <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
 
@@ -947,6 +983,7 @@
         </div>
 
 
+        <!-- BLOCO: Producao (Pratica Social Final) -->
         <div class="topico">
 
             <p class="caixa"> Construir uma Planta da Escola </p>
@@ -997,6 +1034,38 @@
 
 
 
+        </div>
+
+
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Releia o que você escreveu no início sobre o zoom do Google Maps. Agora você sabe que não é o mapa que "cresce": é a escala cartográfica mudando. Quando você aproxima, o número da escala fica menor (a área representada encolhe, mas o detalhe aumenta); quando afasta, o número cresce, a área aumenta e o detalhe some.</p>
+
+            <p>A mesma lógica que você usou para desenhar a planta da sua escola é a que geógrafos e cartógrafos usam para decidir qual instrumento cabe a cada situação: um globo para pensar o planeta inteiro, um mapa para uma região, uma carta para articular áreas vizinhas, uma planta para o detalhe de uma sala ou de um lote.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> escala geográfica (o recorte de espaço do fenômeno estudado); escala cartográfica (a proporção entre o real e o papel); globo (representação esférica, escala pequena); mapa (representação plana, escala pequena a média); carta (representação plana articulável, escala média a grande); planta (representação de área limitada, escala grande, muito detalhe).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
 

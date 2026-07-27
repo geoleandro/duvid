@@ -214,6 +214,114 @@ body.dark-mode {
     color: #e0e0e0 !important;
 }
 
+/* ── Header (novo design branco) ── */
+body.dark-mode nav {
+    background: #1a1a2a !important;
+    border-bottom-color: rgba(255,255,255,.08) !important;
+}
+body.dark-mode .header-nav-link {
+    color: rgba(255,255,255,.6) !important;
+}
+body.dark-mode .header-nav-link:hover {
+    color: #fff !important;
+    background: rgba(255,255,255,.07) !important;
+}
+body.dark-mode .header-nav-link.active {
+    color: #fff !important;
+}
+body.dark-mode #status-dot-link {
+    background: rgba(255,255,255,.08) !important;
+}
+body.dark-mode #navDemo {
+    background: #1a1a2a !important;
+    border-top-color: rgba(255,255,255,.08) !important;
+}
+body.dark-mode #navDemo .w3-bar-item {
+    color: rgba(255,255,255,.75) !important;
+}
+
+/* ── Sidebar (novo design branco) ── */
+body.dark-mode #sidebar-duvid {
+    background: #1a1a2a !important;
+    border-color: rgba(255,255,255,.08) !important;
+}
+body.dark-mode #sidebar-user-card {
+    background: rgba(255,255,255,.06) !important;
+}
+body.dark-mode #sidebar-nome-aluno {
+    color: #e0e0e0 !important;
+}
+body.dark-mode #sidebar-nivel-txt,
+body.dark-mode #sidebar-rank-txt {
+    color: rgba(255,255,255,.5) !important;
+}
+body.dark-mode .sidebar-sep {
+    background: rgba(255,255,255,.08) !important;
+}
+body.dark-mode .sidebar-nav-item {
+    color: rgba(255,255,255,.6) !important;
+}
+body.dark-mode .sidebar-nav-item:hover {
+    background: rgba(255,255,255,.07) !important;
+    color: #fff !important;
+}
+body.dark-mode .sidebar-nav-item.active {
+    background: #2e7d32 !important;
+    color: #fff !important;
+}
+body.dark-mode .sidebar-nav-item i {
+    color: rgba(255,255,255,.4) !important;
+}
+body.dark-mode .sidebar-nav-item:hover i,
+body.dark-mode .sidebar-nav-item.active i {
+    color: inherit !important;
+}
+body.dark-mode .sidebar-sub-item {
+    color: rgba(255,255,255,.45) !important;
+}
+body.dark-mode .sidebar-ctrl-btn,
+body.dark-mode .sidebar-font-btn {
+    background: rgba(255,255,255,.08) !important;
+    color: rgba(255,255,255,.5) !important;
+}
+body.dark-mode .sidebar-ctrl-btn:hover,
+body.dark-mode .sidebar-font-btn:hover {
+    background: rgba(255,255,255,.15) !important;
+    color: #fff !important;
+}
+
+/* ── Cards e seções da home ── */
+body.dark-mode #cards-anos {
+    background: #121212 !important;
+}
+body.dark-mode #cards-anos [style*="background:#fff"],
+body.dark-mode [style*="background: #fff"],
+body.dark-mode [style*="background:#ffffff"] {
+    background: #1e1e1e !important;
+}
+body.dark-mode [style*="background:#f8f9fa"],
+body.dark-mode [style*="background: #f8f9fa"] {
+    background: #181818 !important;
+}
+body.dark-mode [style*="color:#555"],
+body.dark-mode [style*="color: #555"],
+body.dark-mode [style*="color:#666"],
+body.dark-mode [style*="color:#333"] {
+    color: #ccc !important;
+}
+body.dark-mode [style*="color:#aaa"],
+body.dark-mode [style*="color: #aaa"] {
+    color: rgba(255,255,255,.4) !important;
+}
+body.dark-mode [style*="border:1px solid #f0f0f0"],
+body.dark-mode [style*="border-color:#e0e0e0"] {
+    border-color: rgba(255,255,255,.08) !important;
+}
+body.dark-mode [style*="background:#e0e0e0"],
+body.dark-mode [style*="background: #e0e0e0"] {
+    background: rgba(255,255,255,.12) !important;
+}
+
 /* Sobrescrevendo as classes do W3.CSS no modo escuro */
 body.dark-mode .w3-white,
 body.dark-mode .w3-card,

@@ -141,7 +141,7 @@
                 também, aprenderá a localizar-se no espaço pelos pontos cardeais e pelas coordenadas geográficas.
             </p>
 
-            <p><strong>A pergunta que esta aula vai responder não é apenas "como ler um mapa", mas como a humanidade resolveu, ao longo de milhares de anos, um problema prático: como descrever a posição exata de um lugar sem apontar o dedo</strong>: da pintura nas cavernas até as coordenadas que o GPS do seu celular usa agora mesmo.</p>
+            <p><strong>Esta aula responde a uma pergunta mais específica que "como ler um mapa": como a humanidade resolveu, ao longo de milhares de anos, um problema prático, descrever a posição exata de um lugar sem apontar o dedo.</strong> Da pintura nas cavernas até as coordenadas que o GPS do seu celular usa agora mesmo.</p>
 
 
 

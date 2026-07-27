@@ -173,7 +173,7 @@
                     data-definicao="Conceito central da Geografia: conjunto indissociável de sistemas de objetos (naturais e fabricados pelo homem) e sistemas de ações humanas. É o palco onde a vida social acontece e se transforma."
                     onclick="Aparecer('imagem1','citacao1')">espaço geográfico</span>. </p>
 
-            <p><strong>A pergunta que esta aula vai responder não é apenas "o que é Geografia", mas como um pequeno conjunto de conceitos consegue explicar por que o mundo é organizado de forma tão desigual</strong>. Por que umas ruas têm asfalto e saneamento e outras não, por que alguns países controlam territórios de outros, por que o lugar onde você nasce pesa tanto no tipo de vida que você vai ter.</p>
+            <p><strong>Esta aula responde a uma pergunta mais específica que "o que é Geografia": como um pequeno conjunto de conceitos consegue explicar por que o mundo é organizado de forma tão desigual.</strong> Por que umas ruas têm asfalto e saneamento e outras não, por que alguns países controlam territórios de outros, por que o lugar onde você nasce pesa tanto no tipo de vida que você vai ter.</p>
 
             <img id="imagem1" src="tp1F01.png" alt="Salvador, Bahia" class="w3-mobile" style=display:none>
 
@@ -377,7 +377,7 @@
             </h2>
 
             <p>O Espaço Geográfico é o conceito central da
-                nossa ciência. Ele não é apenas o que vemos, mas o palco da vida humana.</p>
+                nossa ciência. Ele vai além do que vemos: é o palco da vida humana.</p>
 
             <p>Este espaço é formado por <b>objetos visíveis</b> (casas, indústrias, igrejas) e <b>objetos
                     invisíveis</b> (fluxos de dinheiro, informação e sinais de comunicação).</p>

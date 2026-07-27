@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Fusos horários: como o mundo padronizou o tempo a partir de Greenwich">
+    <meta property="og:title" content="Texto 03 - Fusos Horários">
+    <meta property="og:description" content="Como calcular a diferença de horários entre qualquer dois pontos do planeta">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,10 +46,10 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
 
 
-
-    <title>Texto-modelo</title>
+    <title>1º ano - Texto 03</title>
 
 
 
@@ -95,6 +96,7 @@
         <!-- Navigation (Stays on Top) -->
 
 
+        <!-- BLOCO: Abertura -->
         <div class="topico">
 
 
@@ -140,6 +142,22 @@
 
 
 
+        <!-- BLOCO: Pratica Social Inicial -->
+        <div class="topico">
+
+            <p class="caixa"> Agora é com você!</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Você já tentou marcar uma videochamada com alguém de outro país e se confundiu com o horário? Ou reparou que um jogo, uma live ou uma partida internacional começa em horários estranhos, tipo 5h da manhã, por aqui?</p>
+                <p class="w3-pale-green">Escreva em seu <strong>caderno</strong> uma situação (real ou imaginada) em que a diferença de horário entre lugares do mundo causou algum tipo de confusão, atraso ou surpresa. Guarde essa resposta, vamos retomá-la lá no final da aula.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Problematizacao -->
         <div class="topico">
 
             <h2> Introdução </h2>
@@ -156,6 +174,8 @@
             <p>Ao final, saberemos como as diferenças de horários entre os países são calculados e por que
                 ter horários padronizados no mundo foi um grande avanço para as relações entre as nações distantes. </p>
 
+            <p><strong>Esta aula responde a uma pergunta prática: como duas pessoas em lados opostos do planeta conseguem combinar um horário sem erro, e como o mundo chegou a um sistema comum depois de séculos em que cada cidade media o tempo à sua própria maneira.</strong></p>
+
 
 
 
@@ -167,6 +187,7 @@
         </div>
 
 
+        <!-- BLOCO: Instrumentalizacao (importancia dos fusos) -->
         <div class="topico">
 
 
@@ -252,6 +273,7 @@
 
 
 
+        <!-- BLOCO: Instrumentalizacao (historia e calculo dos fusos) -->
         <div class="topico">
 
             <h2> <strong>Por que existem fusos horários?</strong></h2>
@@ -283,7 +305,9 @@
                 Observatório Real de Greenwich. O sistema era fundamentado em eventos astronômicos, como o movimento de
                 rotação terrestre, que vimos na aula 02. (Carvalho, 2011).</p>
 
-            <p><span class="mark2"> <strong>Rotação</strong></span> - O movimento de rotação terrestre é
+            <p><span class="termo" data-palavra="Rotação"
+                    data-definicao="Movimento que a Terra executa em torno do seu próprio eixo, com duração aproximada de 24 horas. É a base para a divisão do planeta em fusos horários e para a sucessão dos dias e das noites."><strong>Rotação</strong></span>
+                - O movimento de rotação terrestre é
                 aquele que o
                 planeta executa em torno de seu próprio eixo, em um período de, aproximadamente, 24 horas. Graças a ele,
                 a
@@ -326,7 +350,10 @@
             <p>É esse movimento aparente do Sol o responsável pela sucessão das horas do dia, o que pode
                 ser comprovado pelas sombras de objetos fixos nos locais em que vivemos (Carvalho, 2011).</p>
 
-            <p>Essa sombra que podemos ver nos objetos quando da passagem do Sol é a hora real ou solar,
+            <p>Essa sombra que podemos ver nos objetos quando da passagem do Sol é a <span class="termo"
+                    data-palavra="Hora Real (Solar)"
+                    data-definicao="Horário definido pela posição exata do Sol sobre o meridiano de um local, medido pela sombra projetada por objetos fixos. É diferente do horário oficial, que é padronizado por fuso e não varia dentro de uma mesma faixa.">hora
+                    real ou solar</span>,
                 isto é, a hora que é definida pela passagem do Sol sobre um meridiano de um local na Terra. Lembra da
                 aula
                 passada que a linha do Equador divide a Terra entre duas metades, chamadas <span
@@ -386,7 +413,9 @@
                 eram ainda um desafio grande para ser padronizado.</p>
 
 
-            <p>Em 1840 adotou-se o Greenwich Mean Time (GMT) – Tempo Médio de Greenwich, como forma de
+            <p>Em 1840 adotou-se o <span class="termo" data-palavra="GMT (Greenwich Mean Time)"
+                    data-definicao="Tempo Médio de Greenwich: horário de referência mundial, medido a partir do Observatório Real de Greenwich, na Inglaterra, usado como ponto zero para calcular todos os demais fusos horários do planeta.">Greenwich
+                    Mean Time (GMT)</span> – Tempo Médio de Greenwich, como forma de
                 uniformizar a hora em toda a Grã-Bretanha. Em 1878, o canadense Sir Sanford Fleming (1827-1915),
                 engenheiro
                 chefe das ferrovias do Canadá, sugeriu adotar um sistema de tempo no mundo inteiro a partir do meridiano
@@ -449,9 +478,12 @@
         </div>
 
 
+        <!-- BLOCO: Instrumentalizacao (definicao de fuso horario) -->
         <div class="topico">
 
-            <p><span class="mark2"> <strong>Fuso horário </strong></span> - São linhas (meridianos)
+            <p><span class="termo" data-palavra="Fuso Horário"
+                    data-definicao="Faixa de aproximadamente 15° de longitude que agrupa regiões com o mesmo horário oficial. O planeta é dividido em 24 fusos, cada um correspondendo a uma hora de diferença, calculados a partir do Meridiano de Greenwich."><strong>Fuso
+                        horário</strong></span> - São linhas (meridianos)
                 traçados de um polo
                 ao outro, em um total de 24 <span onclick="Aparecer('imagem6','citacao6')"><mark>faixas</mark></span> de
                 modo a padronizar o cálculo de tempo em todo o planeta Terra. Cada hora representa 15º (resultado da
@@ -1035,7 +1067,9 @@
 
             <span class="citacao" id="citacao11" style=display:none> Fonte: Organizado pelo autor. </span>
 
-            <p><span class="mark2"> <strong>Linha internacional da Data - LID </strong></span> - Próximo
+            <p><span class="termo" data-palavra="Linha Internacional de Mudança de Data"
+                    data-definicao="Linha imaginária próxima ao meridiano de 180°, oposta a Greenwich, que marca onde a data do calendário muda. Cruzá-la de Oeste para Leste atrasa um dia; de Leste para Oeste, adianta um dia."><strong>Linha
+                        internacional da Data - LID</strong></span> - Próximo
                 ao
                 antimeridiano de Greenwich, ou meridiano de 180 graus, convencionou-se estabelecer a Linha da mudança de
                 Data. Ao atravessar essa linha de Oeste para Leste, você se adianta no tempo um dia, enquanto no sentido
@@ -1133,6 +1167,7 @@
         </div>
 
 
+        <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
 
@@ -1141,8 +1176,9 @@
 
 
             <p><span class="primeiraLetra">R:</span> Caso atravessemos o núcleo da Terra, quem sabe
-                poderíamos chegar à China, ou em outro local diametralmente oposto. Eles locais são chamados de
-                antípodas. E
+                poderíamos chegar à China, ou em outro local diametralmente oposto. Esses locais são chamados de <span
+                    class="termo" data-palavra="Antípodas"
+                    data-definicao="Dois pontos diametralmente opostos na superfície da Terra, como se ligados por uma linha reta passando pelo centro do planeta. Têm 180° de diferença entre si, o que equivale a 12 horas de diferença de horário.">antípodas</span>. E
                 possuem uma diferença de 180º, isto é, cerca de 12h entre eles. </p>
 
             <div class="area">
@@ -1180,7 +1216,10 @@
             <p>No Brasil, a antípoda do município de Barra do Quaraí, Rio Grande do Sul fica em Zhoushan
                 (República Popular da China) </p>
 
-            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>O que é horário de verão?</strong>
+            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>O que é <span class="termo"
+                        data-palavra="Horário de Verão"
+                        data-definicao="Prática de adiantar os relógios em uma hora durante os meses de primavera e verão, com o objetivo de aproveitar melhor a luz solar e reduzir o consumo de energia elétrica. Foi usado no Brasil entre 2008 e 2018.">horário
+                        de verão</span>?</strong>
             </p>
 
             <p><span class="primeiraLetra">R:</span> . É a prática de adiantar os relógios uma hora
@@ -1229,6 +1268,39 @@
 
 
 
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Releia a situação que você anotou lá no início, sobre uma confusão de horário entre lugares diferentes. Agora você tem as ferramentas para explicar exatamente o que aconteceu: a Terra gira, o planeta foi dividido em 24 fusos a partir de Greenwich, e quem se desloca para Leste soma horas, quem se desloca para Oeste subtrai.</p>
+
+            <p>O sistema de fusos parece só um detalhe técnico, mas resolve um problema concreto: sem ele, cada cidade teria seu próprio horário baseado no Sol, e marcar um voo, uma reunião ou uma compra online com outro país seria um cálculo impossível. A padronização do tempo foi, na prática, uma condição para o mundo ficar conectado como está hoje.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> rotação (movimento que gera dia e noite e serve de base para os fusos); hora real ou solar (definida pela posição do Sol, varia de local para local); fuso horário (faixas de 15° com o mesmo horário oficial); GMT (referência mundial medida em Greenwich); Linha Internacional de Mudança de Data (onde a data do calendário muda); antípodas (pontos opostos na Terra, com 12h de diferença); horário de verão (adiantamento sazonal dos relógios).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="

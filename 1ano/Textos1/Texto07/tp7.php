@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Sistemas de Informações Geográficas: sensoriamento remoto, GPS e as novas tecnologias da Cartografia">
+    <meta property="og:title" content="Texto 07 - Sistemas de Informações Geográficas (SIGs)">
+    <meta property="og:description" content="Como satélites, radares e GPS transformaram a Cartografia em tempo real">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,10 +46,10 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
 
 
-
-    <title></title>
+    <title>1º ano - Texto 07</title>
 
 
 
@@ -69,6 +70,7 @@
     <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
 
 
+        <!-- BLOCO: Abertura -->
         <div class="topico">
             <div class="w3-padding-top-48"></div>
 
@@ -90,31 +92,30 @@
 
         
 
+	<!-- BLOCO: Pratica Social Inicial -->
 	<div class="topico">
-		<div class="w3-pale-yellow">
-			<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-			
-			<h3>1. O que são Sistemas de Informações Geográficas (SIGs)?</h3>
-			<h3>2. Como a tecnologia tem contribuído para a evolução da Cartografia?</h3>
-			<h3>3. Explique o que é sensoriamento remoto e como ele funciona.</h3>
-			<h3>4. Quais são os três tipos de tecnologias que compõem os SIGs?</h3>
-			<h3>5. Qual é a diferença entre sensoriamento remoto passivo e ativo?</h3>
-			<h3>6. Como as imagens de satélites são transformadas em imagens coloridas?</h3>
-			<h3>7. Qual é a importância do GPS na coleta de dados geográficos?</h3>
-			<h3>8. Quais são as principais aplicações do GPS mencionadas no texto?</h3>
-			<h3>9. O que é o projeto CBERS e qual é a sua finalidade?</h3>
-			<h3>10. Como os SIGs são utilizados no planejamento urbano e na administração pública?</h3>
-			
+		<p class="caixa"> Agora é com você!</p>
+		<div class="w3-panel w3-pale-green">
+			<p class="w3-pale-green">Você já usou o Waze ou o Google Maps para chegar a algum lugar? Já parou para pensar como o aplicativo sabe exatamente onde você está, em tempo real, em qualquer parte do mundo?</p>
+			<p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, como um aplicativo no seu celular consegue saber sua localização exata? Guarde sua resposta, vamos retomá-la no final da aula.</p>
 		</div>
-		
 		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 		<hr>
 	</div>
-	
 
 
+	<!-- BLOCO: Problematizacao -->
+	<div class="topico">
+		<h2> Introdução </h2>
+		<p><span class="primeiraLetra">A</span>té a aula anterior, vimos que os mapas eram desenhados a partir de medições feitas no chão ou calculadas com fórmulas de escala e projeção. Mas hoje, boa parte da Cartografia não depende mais de ninguém andando pelo terreno com trena e bússola.</p>
+		<p>Satélites, radares e computadores passaram a fazer esse trabalho à distância e em tempo real, criando os chamados Sistemas de Informações Geográficas.</p>
+		<p><strong>Esta aula responde a uma pergunta bem atual: como é possível fotografar, medir e localizar qualquer ponto da Terra sem sair do lugar, e por que governos, empresas e exércitos disputam tanto essa tecnologia.</strong></p>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<hr>
+	</div>
 
 
+	<!-- BLOCO: Instrumentalizacao (o que sao os SIGs) -->
 	<div class="topico">
 
 
@@ -125,7 +126,9 @@
 			Cada ponto da Terra possui uma localização com coordenadas geográficas e informações adicionais de altura e
 			profundidade.</p>
 
-		<p>Sistemas de informações Geográficas - Conhecidos também como SIGs são equipamentos e meios
+		<p><span class="termo" data-palavra="Sistema de Informações Geográficas (SIG)"
+				data-definicao="Conjunto de equipamentos e meios tecnológicos (satélites, GPS, software) usados para coletar, armazenar e analisar dados sobre o espaço terrestre em camadas de informação. Usado por pesquisadores, empresas, ONGs, governos e serviços de inteligência.">Sistemas
+				de informações Geográficas</span> - Conhecidos também como SIGs são equipamentos e meios
 			tecnológicos para se estudar o espaço terrestre. São utilizados por pesquisadores, empresas, ONGs, governos,
 			serviços de inteligência, entre outros. </p>
 
@@ -158,6 +161,7 @@
 
 
 
+	<!-- BLOCO: Instrumentalizacao (sensoriamento remoto) -->
 	<div class="topico">
 
 
@@ -167,7 +171,9 @@
 			meteorológicos, como na primeira imagem da Terra do espaço na década de 1960, são instalados em uma rede de
 			satélites ao redor da Terra. </p>
 
-		<p><span class="mark2"> <strong>Sensoriamento remoto </strong></span> - Consiste na captação de
+		<p><span class="termo" data-palavra="Sensoriamento Remoto"
+				data-definicao="Captação de informações sobre a superfície terrestre por meio de sensores instalados em satélites, aeronaves ou balões, sem contato físico entre o sensor e o objeto estudado. Pode ser passivo (capta luz solar refletida) ou ativo (emite sua própria energia, como o radar)."><strong>Sensoriamento
+					remoto</strong></span> - Consiste na captação de
 			informações através de sensores instalados em satélites artificiais, aeronaves ou até balões. Obtêm-se
 			imagens e dados da superfície terrestre pela captação e registro da energia refletida/emitida pela
 			superfície, sem que haja contato físico entre o sensor e a
@@ -184,11 +190,15 @@
 
 		<p>Quando a radiação entra em contato com a superfície da Terra, ela pode ser absorvida,
 			refletida ou transmitidas (no caso de objetos transparentes). Os cientistas podem medir o grau de energia
-			que refletiu em uma folha de árvore, por exemplo, o que eles denominam <strong>reflectância</strong>. </p>
+			que refletiu em uma folha de árvore, por exemplo, o que eles denominam <span class="termo"
+				data-palavra="Reflectância"
+				data-definicao="Medida do quanto de energia (luz) um objeto reflete de volta ao ser atingido por radiação eletromagnética. É a base do sensoriamento remoto: cada tipo de superfície reflete a energia de um jeito diferente.">reflectância</span>. </p>
 
 		<p>Dependendo da composição atômica e das propriedades do objeto (sólido, líquido ou gasoso)
 			podemos saber se estamos lidando com uma imagem de um rio, um terreno ou de casas, isso porque cada objeto
-			possui uma assinatura espectral, ou seja, a variação da reflectância para os diversos comprimentos de onda.
+			possui uma <span class="termo" data-palavra="Assinatura Espectral"
+				data-definicao="Padrão único de reflectância que cada tipo de objeto ou superfície apresenta ao longo dos diferentes comprimentos de onda. É o que permite distinguir água, vegetação ou construções em uma imagem de satélite, como uma impressão digital.">assinatura
+				espectral</span>, ou seja, a variação da reflectância para os diversos comprimentos de onda.
 		</p>
 
 		<p><span onclick="Aparecer('imagem3','citacao3')"><mark>Na figura abaixo</mark></span> , há um
@@ -290,7 +300,8 @@
 
 		<p>As câmeras, hoje, digitais e acopladas na parte de baixo do avião, tiram fotos a intervalos
 			regulares e em velocidade constante da aeronave. Esse processo é chamado de
-			<strong>aerofotogrametria</strong>.
+			<span class="termo" data-palavra="Aerofotogrametria"
+				data-definicao="Técnica de fotografar a superfície terrestre a partir de câmeras acopladas a aviões, tirando fotos em intervalos regulares e com sobreposição entre elas, usada para produzir mapas topográficos detalhados.">aerofotogrametria</span>.
 		</p>
 
 		<p>As fotografias possuem uma superposição em relação à anterior de cerca de 60%, ou seja,
@@ -459,10 +470,13 @@
 	</div>
 
 
+	<!-- BLOCO: Instrumentalizacao (GPS) -->
 	<div class="topico">
 
 
-		<p><span class="mark2"> Sistema de posicionamento global </span> - Formado pelas letras iniciais
+		<p><span class="termo" data-palavra="GPS (Sistema de Posicionamento Global)"
+				data-definicao="Sigla de Global Positioning System: sistema formado por cerca de 24 satélites que se comunicam com um aparelho receptor na Terra para determinar sua posição geográfica exata (latitude, longitude e altitude), 24 horas por dia."> Sistema
+				de posicionamento global </span> - Formado pelas letras iniciais
 			(acrônimo do inglês) de Global Positioning System. Utiliza da comunicação entre os satélites (em órbita) e
 			um aparelho receptor (na Terra) para enviar dados de posição geográfica (Latitude e Longitude). </p>
 
@@ -855,6 +869,61 @@
         </div>
 
 
+        <!-- BLOCO: Questoes para o caderno -->
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para responder no caderno:</h2>
+
+                <h3>1. O que são Sistemas de Informações Geográficas (SIGs)?</h3>
+                <h3>2. Como a tecnologia tem contribuído para a evolução da Cartografia?</h3>
+                <h3>3. Explique o que é sensoriamento remoto e como ele funciona.</h3>
+                <h3>4. Quais são os três tipos de tecnologias que compõem os SIGs?</h3>
+                <h3>5. Qual é a diferença entre sensoriamento remoto passivo e ativo?</h3>
+                <h3>6. Como as imagens de satélites são transformadas em imagens coloridas?</h3>
+                <h3>7. Qual é a importância do GPS na coleta de dados geográficos?</h3>
+                <h3>8. Quais são as principais aplicações do GPS mencionadas no texto?</h3>
+                <h3>9. O que é o projeto CBERS e qual é a sua finalidade?</h3>
+                <h3>10. Como os SIGs são utilizados no planejamento urbano e na administração pública?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Releia o que você escreveu no início sobre como o Waze sabe sua localização. Agora você tem a resposta completa: um receptor GPS no seu celular capta o sinal de pelo menos quatro satélites entre os 24 que orbitam a Terra, e por triangulação calcula sua posição exata. Some a isso as imagens de satélite processadas por um SIG, e o aplicativo consegue não só te localizar, como calcular a rota mais rápida em tempo real.</p>
+
+            <p>O que parecia mágica de aplicativo é, na verdade, a mesma tecnologia usada para prever queimadas, planejar reforma agrária, guiar aviões não tripulados em guerras e monitorar o desmatamento da Amazônia. A diferença entre um uso e outro não está na tecnologia, está em quem a controla e para que a utiliza.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> SIG (equipamentos e sistemas para estudar o espaço terrestre); sensoriamento remoto (captação de imagens à distância, passivo ou ativo); reflectância e assinatura espectral (o que permite distinguir objetos nas imagens); aerofotogrametria (fotografia aérea sistemática); GPS (sistema de satélites para localização exata).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos revisar o que aprendemos!</h3>
             <button class="btnShow" onclick="

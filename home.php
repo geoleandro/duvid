@@ -98,253 +98,119 @@
 
 <body class="w3-light-grey">
 
-    <!-- Navigation (Stays on Top) -->
+    <!-- Navigation + Sidebar (sidebar inclusa automaticamente via header.php) -->
     <?php include __DIR__ . '/includes/header.php'; ?>
 
-
-
-    <main id="conteudo-principal">
-        <!-- ======================================
-       1. BANNER + HERO COM CTA
-       Primeiro contato — visitante novo precisa
-       saber o que fazer imediatamente
-  ======================================= -->
-        <div class="w3-display-container w3-animate-opacity">
-            <img src="fotoIndex/duvid-banner.webp" width="1200" height="630" style="width:100%; height:auto;"
-                fetchpriority="high" alt="Duvid Geografia Banner" class="w3-card-4 duvid-banner">
-
-            <div class="w3-display-middle w3-center w3-hide-medium w3-hide-small" style="padding: 0 16px;">
-                <h1 class="w3-xlarge w3-text-white w3-wide" style="text-shadow: 2px 2px 10px #000; margin-bottom: 8px;">
-                    Explore o Mundo com a Geografia </br>e sua turma!
-                </h1>
-                <p class="w3-text-white w3-hide-small" style="text-shadow: 1px 1px 6px #000; margin-bottom: 16px;">
-                    +1000 questões gratuitas · Apps offline · Correção automática
-                </p>
-                <a href="#cards-anos" class="w3-button w3-green w3-round-large w3-large" style="text-shadow: none;">
-                    Começar agora
-                </a>
-            </div>
-        </div>
-
+    <main id="conteudo-principal" style="margin-top:56px;">
 
         <!-- ======================================
-       2. CARDS DOS ANOS (produto principal)
-       O visitante vê o produto antes de qualquer
-       login ou interatividade
+       0. HERO BANNER (estilo Clean Pixel)
   ======================================= -->
-        <div id="cards-anos" style="background: linear-gradient(160deg, #e8f5e9 0%, #f1f8f1 60%, #e0f2e0 100%);">
-            <div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
+        <div style="background:#f8f9fa; padding:24px 16px 0;">
+        <div class="w3-content" style="max-width:1100px;">
+            <div style="position:relative; border-radius:24px; overflow:hidden;
+                        min-height:220px; background:#1a2e1a;
+                        box-shadow:0 4px 20px rgba(0,0,0,0.15);">
 
-                <!-- Cabeçalho da seção -->
-                <div class="w3-center w3-margin-bottom" style="margin-bottom:40px!important">
-                    <span style="display:inline-block; background:#2e7d32; color:#fff; border-radius:30px; padding:6px 22px; font-size:.85rem; letter-spacing:2px; text-transform:uppercase; margin-bottom:14px; cursor:default;"
-                        onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Conteúdo Duvid</span>
+                <!-- Imagem pixel art (fundo) -->
+                <img src="fotoIndex/tileset/fundo.webp"
+                     alt="Duvid Geografia — Mapa Pixel Art"
+                     style="position:absolute; inset:0; width:100%; height:100%;
+                            object-fit:cover; object-position:center right;
+                            image-rendering:pixelated;">
 
-                    <h2 id="titulo-escolha-tema" style="font-size:2.2rem; font-weight:800; color:#1b5e20; margin:0 0 10px; letter-spacing:-0.5px; cursor:default;"
-                        onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Escolha seu tema</h2>
+                <!-- Gradiente overlay: escuro na esquerda, quase transparente na direita -->
+                <div style="position:absolute; inset:0;
+                            background:linear-gradient(90deg,
+                                rgba(10,30,10,0.15) 0%,
+                                transparent 100%);"></div>
 
-                    <p style="color:#558b2f; font-size:1rem; margin:0;">
-                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Gratuito</span>
-                        ·
-                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Interativo</span>
-                        ·
-                        <span class="frase-hover-zoom" style="display:inline-block; cursor:default;" onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">Apps offline para Android</span>
+                <!-- Conteúdo do banner -->
+                <div style="position:relative; z-index:1; padding:36px 40px; max-width:560px;">
+                    <!-- Badge -->
+                    <span style="display:inline-block; background:#4caf50; color:#fff;
+                                 font-size:.62rem; font-weight:700; letter-spacing:2px;
+                                 text-transform:uppercase; padding:4px 12px;
+                                 border-radius:20px; margin-bottom:14px;">
+                        Plataforma de Geografia
+                    </span>
+
+                    <!-- Título -->
+                    <h1 style="margin:0 0 12px; font-size:clamp(1.6rem,4vw,2.4rem);
+                               font-weight:800; color:#fff; line-height:1.15;
+                               text-shadow:0 2px 8px rgba(0,0,0,0.4);">
+                        Duvid Geografia
+                    </h1>
+
+                    <!-- Descrição -->
+                    <p style="margin:0 0 20px; font-size:.95rem; color:rgba(255,255,255,.82);
+                              line-height:1.6; text-shadow:0 1px 4px rgba(0,0,0,0.3);">
+                        Explore as dinâmicas do Planeta Terra em uma jornada pixelada.
+                        Questões, simulados e aulas para o Ensino Médio — tudo gratuito.
                     </p>
+
+                    <!-- CTA -->
+                    <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                        <a href="#cards-anos"
+                           style="display:inline-block; background:#4caf50; color:#fff;
+                                  font-weight:700; font-size:.88rem; padding:10px 22px;
+                                  border-radius:12px; text-decoration:none;
+                                  transition:background .15s; box-shadow:0 2px 8px rgba(0,0,0,0.2);"
+                           onmouseover="this.style.background='#2e7d32'"
+                           onmouseout="this.style.background='#4caf50'">
+                            📚 Iniciar
+                        </a>
+                        <a href="/simulados/capasimuladogeral.php"
+                           style="display:inline-block; background:rgba(255,255,255,.12);
+                                  color:#fff; font-weight:600; font-size:.88rem;
+                                  padding:10px 22px; border-radius:12px; text-decoration:none;
+                                  backdrop-filter:blur(4px); border:1px solid rgba(255,255,255,.2);
+                                  transition:background .15s;"
+                           onmouseover="this.style.background='rgba(255,255,255,.22)'"
+                           onmouseout="this.style.background='rgba(255,255,255,.12)'">
+                            🎯 Simulados
+                        </a>
+                    </div>
                 </div>
 
-                <div class="w3-row-padding">
-
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
-                             style="border-top:4px solid #43a047; transition:transform .2s, box-shadow .2s; overflow:hidden;"
-                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(46,125,50,.18)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow=''">
-                            <div style="background:linear-gradient(135deg,#e8f5e9,#c8e6c9); padding:14px 0 6px;">
-                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#1b5e20;">NATUREZA</span>
-                            </div>
-                            <div class="w3-padding">
-                                <a href="Duvid1Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa1ano.webp" loading="lazy" alt="Capa 1º Ano"
-                                        class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:260px;">
-                                </a>
-                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
-                                <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid1ano"
-                                    target="_blank">
-                                    <img src="fotoIndex/imagensCapa/google-play-badge1.png"
-                                        style="width:70%; min-width:140px;" alt="Google Play">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
-                             style="border-top:4px solid #1976d2; transition:transform .2s, box-shadow .2s; overflow:hidden;"
-                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.18)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow=''">
-                            <div style="background:linear-gradient(135deg,#e3f2fd,#bbdefb); padding:14px 0 6px;">
-                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#0d47a1;">BRASIL</span>
-                            </div>
-                            <div class="w3-padding">
-                                <a href="Duvid2Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa2ano.webp" loading="lazy" alt="Capa 2º Ano"
-                                        class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:260px;">
-                                </a>
-                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
-                                <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid2"
-                                    target="_blank">
-                                    <img src="fotoIndex/imagensCapa/google-play-badge1.png"
-                                        style="width:70%; min-width:140px;" alt="Google Play">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="w3-card w3-white w3-round-large w3-center card-ano"
-                             style="border-top:4px solid #f57c00; transition:transform .2s, box-shadow .2s; overflow:hidden;"
-                             onmouseover="this.style.transform='translateY(-6px)';this.style.boxShadow='0 12px 32px rgba(245,124,0,.18)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow=''">
-                            <div style="background:linear-gradient(135deg,#fff3e0,#ffe0b2); padding:14px 0 6px;">
-                                <span style="font-size:1.05rem; font-weight:800; letter-spacing:2px; color:#e65100;">MUNDO</span>
-                            </div>
-                            <div class="w3-padding">
-                                <a href="Duvid3Ano.php">
-                                    <img src="fotoIndex/imagensCapa/capa3ano.webp" loading="lazy" alt="Capa 3º Ano"
-                                        class="w3-round w3-hover-opacity w3-margin-bottom"
-                                        style="width:100%; max-width:260px;">
-                                </a>
-                                <p class="w3-small w3-opacity" style="margin-bottom:6px;">Baixe o app offline:</p>
-                                <a href="https://play.google.com/store/apps/details?id=br.com.duvid" target="_blank">
-                                    <img src="fotoIndex/imagensCapa/google-play-badge1.png"
-                                        style="width:70%; min-width:140px;" alt="Google Play">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
             </div>
         </div>
-
-
-
-        <!-- Coluna principal: sobre o projeto -->
-        <div class="w3-row w3-light-grey">
-            <div class="w3-container w3-content w3-padding" style="max-width:800px">
-                <h2 class="w3-wide w3-center w3-text-green w3-xxxlarge" style="cursor:default;"
-                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">O Projeto</h2>
-                <p class="w3-opacity w3-center"><i>Gratuito, colaborativo e sem pressão</i></p>
-                <div class="w3-justify">
-                    <p>O <strong>Duvid Geografia</strong> nasceu de uma sala de aula real. É gratuito, colaborativo e feito com sugestões da turma. Mais de 1000 questões com explicações detalhadas, textos interativos com atividades práticas e apps que funcionam 100% offline.</p>
-                </div>
-            </div>
         </div>
-
-        <!-- Explorar o Duvid — seção independente, centralizada -->
-        <div class="w3-container w3-padding-64 w3-light-grey">
-            <div class="w3-content" style="max-width:900px">
-                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
-                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Conheça o Duvid</b></h2>
-                <div class="w3-row-padding w3-center">
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="paginas/sobre.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/projeto-icone.png" alt="Projeto" class="img-pixel-icon"><br>
-                            <span class="w3-large">O Projeto</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="https://www.youtube.com/@duvidgeografia" target="_blank"
-                            class="w3-button w3-block w3-white w3-card w3-hover-red w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/youtube-icone.png" alt="YouTube" class="img-pixel-icon"><br>
-                            <span class="w3-large">YouTube</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="blog/blog.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-blue w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/duvidblog-icone.png" alt="Blog" class="img-pixel-icon"><br>
-                            <span class="w3-large">Blog</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="simulados/capasimuladogeral.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-pink w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/simulado-icone.png" alt="Simulados" class="img-pixel-icon"><br>
-                            <span class="w3-large">Simulados</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="paginas/livrosgeografia.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-orange w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/biblioteca-icone.png" alt="Biblioteca"
-                                class="img-pixel-icon"><br>
-                            <span class="w3-large">Biblioteca</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="paginas/bibliografia.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-green w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/bibliografia-icone.png" alt="Bibliografia"
-                                class="img-pixel-icon"><br>
-                            <span class="w3-large">Bibliografia</span>
-                        </a>
-                    </div>
-
-                    <div class="w3-third w3-margin-bottom">
-                        <a href="atividades/atividades.php"
-                            class="w3-button w3-block w3-white w3-card w3-hover-yellow w3-padding-24 w3-round-large">
-                            <img src="fotoIndex/icones/atividades-icone.gif" alt="Atividades"
-                                class="img-pixel-icon"><br>
-                            <span class="w3-large">Atividades</span>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
 
         <!-- ======================================
-       4. PAINEL DE TRILHA / LOGIN
-       Só relevante para quem já usa o site.
-       Não bloqueia o visitante novo.
+       1. LOGIN / BOAS-VINDAS (TOPO)
   ======================================= -->
-        <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+        <div style="background:#f8f9fa; padding:32px 16px 24px;">
+        <div class="w3-content" style="max-width:1100px;">
 
             <?php if ($loginRequired): ?>
-            <div id="banner-login-required" class="w3-panel w3-yellow w3-round-large w3-card-2"
-                 style="padding:14px 20px; display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
-                <i class="fa fa-lock w3-large"></i>
-                <span id="banner-login-texto">Você precisa estar logado para acessar essa página. Faça login abaixo. 👇</span>
+            <div id="banner-login-required"
+                 style="background:#fff8e1; border:1.5px solid #f9a825; border-radius:12px;
+                        padding:14px 20px; display:flex; align-items:center; gap:12px;
+                        flex-wrap:wrap; margin-bottom:20px;">
+                <i class="fa fa-lock" style="color:#f9a825; font-size:1.1rem;"></i>
+                <span id="banner-login-texto" style="font-size:.9rem; color:#555;">
+                    Você precisa estar logado para acessar essa página. Faça login abaixo. 👇
+                </span>
             </div>
             <?php endif; ?>
 
-            <div class="NomeHome w3-container w3-white w3-card-2 w3-round-large w3-margin-top w3-padding-16"
-                id="container-login">
+            <div id="container-login">
 
-                <div id="loading-painel" class="w3-center w3-padding-16">
-                    <i class="fa fa-spinner w3-spin w3-text-green w3-xlarge"></i>
-                    <p class="w3-small w3-opacity">Carregando seu progresso...</p>
+                <!-- Loading -->
+                <div id="loading-painel" class="w3-center" style="padding:32px 0;">
+                    <i class="fa fa-spinner w3-spin w3-text-green" style="font-size:2rem;"></i>
+                    <p style="color:#aaa; font-size:.85rem; margin-top:10px;">Carregando seu progresso...</p>
                 </div>
 
-                <div class="trilha-container-wrapper w3-center">
-                    <p id="frase-motivacional-trilha" class="w3-small w3-text-grey"
-                        style="margin-bottom:10px; font-weight:bold;">
-                        Carregando sua jornada...
-                    </p>
+                <!-- Frase motivacional (usada pelo JS) -->
+                <div class="trilha-container-wrapper" style="display:none;">
+                    <p id="frase-motivacional-trilha" class="w3-small w3-text-grey w3-center"
+                        style="margin-bottom:10px; font-weight:bold;"></p>
                 </div>
 
-                <div class="trilha-scroll-area">
+                <!-- Trilha de níveis (usada pelo JS) -->
+                <div class="trilha-scroll-area" style="display:none;">
                     <div class="trilha-conquistas-container">
                         <div id="trilha-niveis" class="trilha-wrapper">
                             <div class="linha-trilha-fundo"></div>
@@ -354,339 +220,1141 @@
                     </div>
                 </div>
 
-                <div id="form-identificacao" style="display:none;" class="w3-center">
-                    <p class="w3-large"><b>Bem-vindo ao Duvid! 🌍</b></p>
-                    <p>Comece sua jornada. Sua turma está te esperando.</p>
+                <!-- ── ESTADO: NÃO LOGADO ── -->
+                <div id="form-identificacao" style="display:none;">
+                <div class="w3-row-padding" style="margin:0;">
 
-                    <div style="max-width:320px; margin:auto;">
-                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="text"
-                            id="pq0" placeholder="Seu nome (ex: João Silva)"
-                            autocomplete="nickname" style="margin-bottom:10px;">
+                    <!-- Coluna esquerda: boas-vindas + form -->
+                    <div class="w3-twothird" style="padding-left:0;">
+                        <div style="background:#fff; border-radius:20px; padding:28px 28px 24px;
+                                    box-shadow:0 4px 12px rgba(0,0,0,.06); height:100%; box-sizing:border-box;">
+                            <h2 style="margin:0 0 6px; font-size:1.3rem; color:#1b5e20; font-weight:800;">
+                                Bem-vindo, Explorador! 🌍
+                            </h2>
+                            <p style="margin:0 0 20px; font-size:.9rem; color:#666; line-height:1.6;">
+                                Sua jornada pelo conhecimento geográfico começa aqui. Prepare-se para desbravar a Natureza, o Brasil e o Mundo.
+                            </p>
 
-                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="email"
-                            id="pq-email" placeholder="Seu e-mail"
-                            autocomplete="email" style="margin-bottom:10px;">
+                            <label style="font-size:.7rem; font-weight:700; color:#888; letter-spacing:1px; display:block; margin-bottom:6px;">CÓDIGO DA TURMA</label>
+                            <div style="display:flex; gap:8px; margin-bottom:16px;">
+                                <input class="w3-input w3-border w3-round-large" type="text"
+                                    id="pq-turma" placeholder="Ex: GEO-2024-X"
+                                    autocapitalize="characters"
+                                    style="flex:1; border-color:#e0e0e0; height:44px; font-size:.9rem;
+                                           text-transform:uppercase; letter-spacing:2px; font-family:monospace;">
+                                <button class="w3-button w3-round-large"
+                                    onclick="NomeAlunos('resp0','pq0')"
+                                    style="background:#2e7d32; color:#fff; font-weight:700; padding:0 22px;
+                                           height:44px; white-space:nowrap; transition:background .15s;"
+                                    onmouseover="this.style.background='#1b5e20'"
+                                    onmouseout="this.style.background='#2e7d32'">
+                                    Entrar
+                                </button>
+                            </div>
+                            <p style="font-size:.75rem; color:#aaa; margin:0 0 16px;">
+                                Não tem código? Crie sua conta gratuita abaixo.
+                            </p>
 
-                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="password"
-                            id="pq-pin" placeholder="PIN de 4 dígitos (ex: 1234)"
-                            maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
-                            autocomplete="new-password" style="margin-bottom:10px;">
+                            <!-- Form completo (colapsável) -->
+                            <details id="detalhes-form-completo">
+                                <summary style="cursor:pointer; font-size:.85rem; color:#2e7d32; font-weight:600;
+                                                user-select:none; list-style:none; margin-bottom:12px;">
+                                    + Criar conta / fazer login
+                                </summary>
+                                <div style="display:flex; flex-direction:column; gap:10px; margin-top:8px;">
+                                    <input class="w3-input w3-border w3-round-large" type="text"
+                                        id="pq0" placeholder="Seu nome (ex: João Silva)"
+                                        autocomplete="nickname"
+                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem;">
+                                    <input class="w3-input w3-border w3-round-large" type="email"
+                                        id="pq-email" placeholder="Seu e-mail"
+                                        autocomplete="email"
+                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem;">
+                                    <input class="w3-input w3-border w3-round-large" type="password"
+                                        id="pq-pin" placeholder="PIN de 4 dígitos"
+                                        maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
+                                        autocomplete="new-password"
+                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem; letter-spacing:6px;">
 
-                        <input class="w3-input w3-border w3-round w3-margin-bottom" type="text"
-                            id="pq-turma" placeholder="Código da turma (opcional)"
-                            autocapitalize="characters" style="margin-bottom:6px; text-transform:uppercase;">
-                        <p style="font-size:0.78rem; color:#888; margin:0 0 16px;">
-                            Seu professor passou um código? Digite aqui. Sem código, você entra na turma livre.
+                                    <details id="detalhes-localizacao">
+                                        <summary style="cursor:pointer; font-size:.78rem; color:#2e7d32; font-weight:600; user-select:none; list-style:none;">
+                                            + Escola e localização (opcional)
+                                        </summary>
+                                        <div style="display:flex; flex-direction:column; gap:8px; margin-top:8px;">
+                                            <select class="w3-select w3-border w3-round-large" id="pq-estado" style="height:40px; border-color:#e0e0e0;">
+                                                <option value="">— Estado —</option>
+                                                <option value="AC">Acre</option><option value="AL">Alagoas</option>
+                                                <option value="AP">Amapá</option><option value="AM">Amazonas</option>
+                                                <option value="BA">Bahia</option><option value="CE">Ceará</option>
+                                                <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
+                                                <option value="GO">Goiás</option><option value="MA">Maranhão</option>
+                                                <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
+                                                <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
+                                                <option value="PB">Paraíba</option><option value="PR">Paraná</option>
+                                                <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
+                                                <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
+                                                <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
+                                                <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
+                                                <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
+                                                <option value="TO">Tocantins</option>
+                                            </select>
+                                            <input class="w3-input w3-border w3-round-large" type="text" id="pq-cidade" placeholder="Cidade" autocomplete="address-level2" style="border-color:#e0e0e0;">
+                                            <input class="w3-input w3-border w3-round-large" type="text" id="pq-escola" placeholder="Nome da escola" autocomplete="organization" style="border-color:#e0e0e0;">
+                                        </div>
+                                    </details>
+
+                                    <p id="login-erro" class="w3-text-red" style="display:none; font-size:.85rem; margin:0;"></p>
+
+                                    <button class="w3-button w3-block w3-round-large"
+                                        onclick="NomeAlunos('resp0','pq0')"
+                                        style="background:#2e7d32; color:#fff; font-weight:700; font-size:.95rem;
+                                               height:46px; transition:background .15s;"
+                                        onmouseover="this.style.background='#1b5e20'"
+                                        onmouseout="this.style.background='#2e7d32'">
+                                        🚀 Começar Jornada
+                                    </button>
+                                </div>
+                            </details>
+                        </div>
+                    </div>
+
+                    <!-- Coluna direita: nível inicial -->
+                    <div class="w3-third w3-hide-small" style="padding-right:0;">
+                        <div style="background:#fff; border-radius:20px; padding:28px 20px;
+                                    box-shadow:0 4px 12px rgba(0,0,0,.06); text-align:center; height:100%; box-sizing:border-box;">
+                            <div style="width:72px; height:72px; border-radius:16px; background:#f8f9fa;
+                                        border:2px solid #e0e0e0; display:flex; align-items:center;
+                                        justify-content:center; margin:0 auto 10px; font-size:2rem; font-weight:800; color:#aaa;">
+                                1
+                            </div>
+                            <p style="margin:0 0 2px; font-size:1rem; font-weight:700; color:#333;">Novato</p>
+                            <p style="margin:0 0 16px; font-size:.72rem; color:#aaa; text-transform:uppercase; letter-spacing:1px;">Level Inicial</p>
+                            <div style="background:#f0f0f0; border-radius:6px; height:6px; margin-bottom:8px; overflow:hidden;">
+                                <div style="height:100%; width:0%; background:#4caf50; border-radius:6px;"></div>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; font-size:.7rem; color:#aaa; margin-bottom:20px;">
+                                <span>0 XP</span><span>100 XP</span>
+                            </div>
+                            <button class="w3-button w3-block w3-round-large"
+                                onclick="document.getElementById('detalhes-form-completo').open=true; document.getElementById('detalhes-form-completo').scrollIntoView({behavior:'smooth'});"
+                                style="background:#f8f9fa; border:1.5px solid #e0e0e0; color:#2e7d32;
+                                       font-weight:700; font-size:.9rem; height:42px; transition:border-color .15s;"
+                                onmouseover="this.style.borderColor='#4caf50'"
+                                onmouseout="this.style.borderColor='#e0e0e0'">
+                                Começar Jornada
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                </div><!-- /form-identificacao -->
+
+                <!-- ── ESTADO: LOGADO ── -->
+                <div id="display-identificado" style="display:none;">
+                <div style="background:#fff; border-radius:20px; padding:20px 24px;
+                            box-shadow:0 4px 12px rgba(0,0,0,.06);">
+
+                    <!-- ── Linha 1: foto + info + globinhos ── -->
+                    <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+
+                        <!-- Foto / avatar com badge de nível -->
+                        <div style="position:relative; flex-shrink:0;">
+                            <img id="aluno-foto"
+                                 src="https://api.dicebear.com/8.x/pixel-art/svg?seed=Duvid"
+                                 alt="Avatar"
+                                 style="width:72px; height:72px; border-radius:50%; object-fit:cover;
+                                        border:3px solid #4caf50; display:block; background:#e8f5e9;">
+                            <span id="lvl-tag"
+                                  style="position:absolute; bottom:-4px; left:50%; transform:translateX(-50%);
+                                         background:#f9a825; color:#fff; font-size:.52rem; font-weight:800;
+                                         padding:2px 7px; border-radius:10px; white-space:nowrap;
+                                         letter-spacing:.04em; line-height:1.4;">LEVEL 1</span>
+                            <!-- Mantido oculto para compatibilidade com JS de sidebar/header -->
+                            <img id="medalha-patente" src="fotoIndex/icones/duvid-patentes-novato.png"
+                                 alt="Patente" style="display:none;">
+                        </div>
+
+                        <!-- Nome + rank + turma -->
+                        <div style="flex:1; min-width:140px;">
+                            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                                <b id="nome-aluno-texto"
+                                   style="font-size:1.15rem; font-weight:800; color:#1b5e20;
+                                          letter-spacing:.02em; text-transform:uppercase;"></b>
+                                <button onclick="prepararTrocaNome()"
+                                    style="background:none; border:none; cursor:pointer;
+                                           color:#aaa; font-size:.85rem; padding:0; line-height:1;"
+                                    title="Editar perfil">
+                                    <i class="fa fa-pencil"></i>
+                                </button>
+                            </div>
+                            <p id="rank-nome"
+                               style="margin:3px 0 0; font-size:.72rem; font-weight:700;
+                                      letter-spacing:1.5px; color:#e53935; text-transform:uppercase;"></p>
+                            <p id="turma-info"
+                               style="margin:3px 0 0; font-size:.72rem; color:#aaa; display:none;">
+                                <i class="fa fa-graduation-cap" style="font-size:.65rem; margin-right:3px;"></i>
+                                <span id="turma-nome-label"></span>
+                                <span style="color:#ccc; margin:0 3px;">•</span>
+                                <span id="turma-codigo-label"
+                                      style="font-family:monospace; letter-spacing:1px;"></span>
+                            </p>
+                        </div>
+
+                        <!-- Globinhos -->
+                        <div style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
+                                    padding:10px 18px; text-align:center; flex-shrink:0;">
+                            <div style="font-size:.58rem; color:#558b2f; text-transform:uppercase;
+                                        letter-spacing:.1em; font-weight:700; margin-bottom:2px;">Globinhos</div>
+                            <div style="font-size:1.4rem; font-weight:800; color:#2e7d32; line-height:1.1;">
+                                🌍 <span id="valor-total-central">0</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ── Linha 2: barra XP ── -->
+                    <div style="margin-top:16px;">
+                        <div style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
+                            <div id="barra-xp-total"
+                                 style="height:100%; width:0%; border-radius:8px;
+                                        background:linear-gradient(90deg,#4caf50,#81c784);
+                                        transition:width 1.5s cubic-bezier(0.4,0,0.2,1);"></div>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; margin-top:5px;">
+                            <span style="font-size:.68rem; color:#888;">XP: <span id="xp-atual">0</span></span>
+                            <span style="font-size:.68rem; color:#888;">Próximo: <span id="xp-proximo">100</span></span>
+                        </div>
+                    </div>
+
+                    <!-- ── Linha 3: trilhas ── -->
+                    <div id="resumo-geral" style="display:none; margin-top:14px;">
+                        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
+
+                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
+                                        display:flex; align-items:center; gap:10px; position:relative;">
+                                <div id="conquista-1ano" style="display:none; position:absolute; top:8px; right:10px;">
+                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
+                                </div>
+                                <img src="fotoIndex/icones/duvid-patentes-novato.png" alt=""
+                                     style="width:32px; height:32px; object-fit:contain; opacity:.7; display:none;" id="_trilha-icone-1">
+                                <span style="font-size:1.3rem; line-height:1;">🌿</span>
+                                <div style="min-width:0;">
+                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#2e7d32;">Natureza</p>
+                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-1ano">0/34</span> aulas</p>
+                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
+                                        <div id="bar-1ano" style="height:100%; width:0%; background:#4caf50; border-radius:4px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
+                                        display:flex; align-items:center; gap:10px; position:relative;">
+                                <div id="conquista-2ano" style="display:none; position:absolute; top:8px; right:10px;">
+                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
+                                </div>
+                                <span style="font-size:1.3rem; line-height:1;">🇧🇷</span>
+                                <div style="min-width:0;">
+                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#1565c0;">Brasil</p>
+                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-2ano">0/36</span> aulas</p>
+                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
+                                        <div id="bar-2ano" style="height:100%; width:0%; background:#1976d2; border-radius:4px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
+                                        display:flex; align-items:center; gap:10px; position:relative;">
+                                <div id="conquista-3ano" style="display:none; position:absolute; top:8px; right:10px;">
+                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
+                                </div>
+                                <span style="font-size:1.3rem; line-height:1;">🌍</span>
+                                <div style="min-width:0;">
+                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#e65100;">Mundo</p>
+                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-3ano">0/36</span> aulas</p>
+                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
+                                        <div id="bar-3ano" style="height:100%; width:0%; background:#f57c00; border-radius:4px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!-- /resumo-geral -->
+
+                    <!-- Mini Ranking da Turma -->
+                    <div id="mini-ranking-turma" style="display:none; margin-top:16px;">
+                        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
+                            <span style="font-size:.62rem; font-weight:800; text-transform:uppercase; letter-spacing:.15em; color:#2e7d32;">🏆 Ranking da Turma</span>
+                            <a href="/paginas/ranking.php" style="font-size:.62rem; color:#4caf50; text-decoration:none; font-weight:600;">Ver completo →</a>
+                        </div>
+                        <div id="mini-ranking-lista" style="display:flex; flex-direction:column; gap:5px;">
+                            <!-- preenchido via JS -->
+                        </div>
+                    </div>
+
+                </div>
+                </div><!-- /display-identificado -->
+
+            </div><!-- /container-login -->
+        </div>
+        </div>
+
+        <!-- ======================================
+       2. TRILHAS DE APRENDIZAGEM
+  ======================================= -->
+        <div id="cards-anos" style="background:linear-gradient(160deg,#e8f5e9 0%,#f1f8f1 60%,#e0f2e0 100%);">
+            <div class="w3-content" style="max-width:1200px; padding:48px 16px 40px;">
+
+                <!-- Cabeçalho da seção -->
+                <div style="text-align:center; margin-bottom:36px;">
+                    <span style="display:inline-block; background:#2e7d32; color:#fff;
+                                 border-radius:30px; padding:5px 20px; font-size:.7rem;
+                                 font-weight:700; letter-spacing:.15em; text-transform:uppercase;
+                                 margin-bottom:16px;">Conteúdo Duvid</span>
+
+                    <h2 id="titulo-escolha-tema"
+                        style="font-size:2rem; font-weight:800; color:#1b5e20;
+                               margin:0 0 10px; letter-spacing:-.5px;">Escolha seu tema</h2>
+
+                    <p style="color:#558b2f; font-size:.92rem; margin:0;">
+                        Gratuito · Interativo · Apps offline para Android
+                    </p>
+                </div>
+
+                <div class="w3-row-padding">
+
+                    <!-- CARD: NATUREZA -->
+                    <div class="w3-third w3-margin-bottom">
+                        <a href="Duvid1Ano.php" style="text-decoration:none; display:block;">
+                        <div style="background:#fff; border-radius:20px; overflow:hidden;
+                                    box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
+                                    transition:transform .2s, box-shadow .2s;"
+                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(46,125,50,.15)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+
+                            <!-- Imagem topo com badge -->
+                            <div style="position:relative; overflow:hidden; height:150px; background:#e8f5e9;">
+                                <img src="fotoIndex/imagensCapa/capa1ano.webp" loading="lazy" alt="Natureza"
+                                     style="width:100%; height:100%; object-fit:cover; object-position:center;">
+                                <span style="position:absolute; top:10px; right:10px;
+                                             background:rgba(255,255,255,.9); color:#2e7d32;
+                                             font-size:.58rem; font-weight:700; letter-spacing:1px;
+                                             text-transform:uppercase; padding:3px 8px;
+                                             border-radius:8px; backdrop-filter:blur(4px);">
+                                    Módulo 01
+                                </span>
+                            </div>
+
+                            <!-- Conteúdo -->
+                            <div style="padding:16px 16px 14px;">
+                                <h3 style="margin:0 0 6px; font-size:1.05rem; font-weight:800; color:#2e7d32;">
+                                    Natureza
+                                </h3>
+                                <p style="margin:0 0 14px; font-size:.78rem; color:#666; line-height:1.5;">
+                                    Clima, vegetação, relevo e os ciclos naturais que moldam o nosso planeta.
+                                </p>
+
+                                <!-- Progresso (mostrado pelo JS quando logado) -->
+                                <div id="prog-card-1ano" style="display:none; margin-bottom:12px;">
+                                    <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+                                        <span style="font-size:.65rem; color:#aaa; text-transform:uppercase; letter-spacing:.5px; font-weight:600;">Progresso</span>
+                                        <span id="card-txt-1ano" style="font-size:.65rem; color:#43a047; font-weight:700;">0/34 aulas</span>
+                                    </div>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:5px; overflow:hidden;">
+                                        <div id="card-bar-1ano" style="height:100%; width:0%; background:#4caf50;
+                                             border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                    <div style="text-align:right; margin-top:2px;">
+                                        <span id="card-pct-1ano" style="font-size:.6rem; color:#aaa;">0%</span>
+                                    </div>
+                                </div>
+
+                                <div style="display:flex; align-items:center; justify-content:space-between;">
+                                    <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid1ano"
+                                       target="_blank" onclick="event.stopPropagation()" style="line-height:0;">
+                                        <img src="fotoIndex/imagensCapa/google-play-badge1.png"
+                                             style="width:90px;" alt="Google Play">
+                                    </a>
+                                    <span style="font-size:.8rem; font-weight:700; color:#2e7d32;">
+                                        Explorar →
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <!-- CARD: BRASIL -->
+                    <div class="w3-third w3-margin-bottom">
+                        <a href="Duvid2Ano.php" style="text-decoration:none; display:block;">
+                        <div style="background:#fff; border-radius:20px; overflow:hidden;
+                                    box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
+                                    transition:transform .2s, box-shadow .2s;"
+                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.15)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+
+                            <div style="position:relative; overflow:hidden; height:150px; background:#e3f2fd;">
+                                <img src="fotoIndex/imagensCapa/capa2ano.webp" loading="lazy" alt="Brasil"
+                                     style="width:100%; height:100%; object-fit:cover; object-position:center;">
+                                <span style="position:absolute; top:10px; right:10px;
+                                             background:rgba(255,255,255,.9); color:#1565c0;
+                                             font-size:.58rem; font-weight:700; letter-spacing:1px;
+                                             text-transform:uppercase; padding:3px 8px;
+                                             border-radius:8px; backdrop-filter:blur(4px);">
+                                    Módulo 02
+                                </span>
+                            </div>
+
+                            <div style="padding:16px 16px 14px;">
+                                <h3 style="margin:0 0 6px; font-size:1.05rem; font-weight:800; color:#d32f2f;">
+                                    Brasil
+                                </h3>
+                                <p style="margin:0 0 14px; font-size:.78rem; color:#666; line-height:1.5;">
+                                    A diversidade regional, economia, população e os desafios da nossa nação.
+                                </p>
+
+                                <div id="prog-card-2ano" style="display:none; margin-bottom:12px;">
+                                    <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+                                        <span style="font-size:.65rem; color:#aaa; text-transform:uppercase; letter-spacing:.5px; font-weight:600;">Progresso</span>
+                                        <span id="card-txt-2ano" style="font-size:.65rem; color:#1976d2; font-weight:700;">0/36 aulas</span>
+                                    </div>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:5px; overflow:hidden;">
+                                        <div id="card-bar-2ano" style="height:100%; width:0%; background:#1976d2;
+                                             border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                    <div style="text-align:right; margin-top:2px;">
+                                        <span id="card-pct-2ano" style="font-size:.6rem; color:#aaa;">0%</span>
+                                    </div>
+                                </div>
+
+                                <div style="display:flex; align-items:center; justify-content:space-between;">
+                                    <a href="https://play.google.com/store/apps/details?id=io.kodular.geoleandro.Duvid2"
+                                       target="_blank" onclick="event.stopPropagation()" style="line-height:0;">
+                                        <img src="fotoIndex/imagensCapa/google-play-badge1.png"
+                                             style="width:90px;" alt="Google Play">
+                                    </a>
+                                    <span style="font-size:.8rem; font-weight:700; color:#d32f2f;">
+                                        Explorar →
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                    <!-- CARD: MUNDO -->
+                    <div class="w3-third w3-margin-bottom">
+                        <a href="Duvid3Ano.php" style="text-decoration:none; display:block;">
+                        <div style="background:#fff; border-radius:20px; overflow:hidden;
+                                    box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
+                                    transition:transform .2s, box-shadow .2s;"
+                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.15)'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+
+                            <div style="position:relative; overflow:hidden; height:150px; background:#e8eaf6;">
+                                <img src="fotoIndex/imagensCapa/capa3ano.webp" loading="lazy" alt="Mundo"
+                                     style="width:100%; height:100%; object-fit:cover; object-position:center;">
+                                <span style="position:absolute; top:10px; right:10px;
+                                             background:rgba(255,255,255,.9); color:#1565c0;
+                                             font-size:.58rem; font-weight:700; letter-spacing:1px;
+                                             text-transform:uppercase; padding:3px 8px;
+                                             border-radius:8px; backdrop-filter:blur(4px);">
+                                    Módulo 03
+                                </span>
+                            </div>
+
+                            <div style="padding:16px 16px 14px;">
+                                <h3 style="margin:0 0 6px; font-size:1.05rem; font-weight:800; color:#1565c0;">
+                                    Mundo
+                                </h3>
+                                <p style="margin:0 0 14px; font-size:.78rem; color:#666; line-height:1.5;">
+                                    Geopolítica global, globalização e a interconectividade entre as nações.
+                                </p>
+
+                                <div id="prog-card-3ano" style="display:none; margin-bottom:12px;">
+                                    <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+                                        <span style="font-size:.65rem; color:#aaa; text-transform:uppercase; letter-spacing:.5px; font-weight:600;">Progresso</span>
+                                        <span id="card-txt-3ano" style="font-size:.65rem; color:#1565c0; font-weight:700;">0/36 aulas</span>
+                                    </div>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:5px; overflow:hidden;">
+                                        <div id="card-bar-3ano" style="height:100%; width:0%; background:#1565c0;
+                                             border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                    <div style="text-align:right; margin-top:2px;">
+                                        <span id="card-pct-3ano" style="font-size:.6rem; color:#aaa;">0%</span>
+                                    </div>
+                                </div>
+
+                                <div style="display:flex; align-items:center; justify-content:space-between;">
+                                    <a href="https://play.google.com/store/apps/details?id=br.com.duvid"
+                                       target="_blank" onclick="event.stopPropagation()" style="line-height:0;">
+                                        <img src="fotoIndex/imagensCapa/google-play-badge1.png"
+                                             style="width:90px;" alt="Google Play">
+                                    </a>
+                                    <span style="font-size:.8rem; font-weight:700; color:#1565c0;">
+                                        Explorar →
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ══ O Projeto + Conheça o Duvid ══ -->
+        <style>
+        .conheca-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+        }
+        .conheca-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px 12px 16px;
+            background: #fff;
+            border: 1px solid #f0f0f0;
+            border-radius: 18px;
+            box-shadow: 0 2px 8px rgba(0,0,0,.05);
+            text-decoration: none;
+            color: #444;
+            font-size: .82rem;
+            font-weight: 600;
+            transition: transform .15s, box-shadow .15s, border-color .15s;
+        }
+        .conheca-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46,125,50,.12);
+            border-color: #4caf50;
+            color: #2e7d32;
+        }
+        .conheca-card img {
+            width: 52px;
+            height: 52px;
+            object-fit: contain;
+            image-rendering: pixelated;
+        }
+        body.dark-mode .conheca-card {
+            background: #1e2a1e;
+            border-color: rgba(255,255,255,.08);
+            color: rgba(255,255,255,.7);
+        }
+        body.dark-mode .conheca-card:hover { border-color: #4caf50; color: #81c784; }
+        @media (max-width: 640px) {
+            .conheca-grid { grid-template-columns: repeat(3, 1fr); gap: 9px; }
+            .conheca-card { padding: 14px 8px 12px; font-size: .75rem; }
+            .conheca-card img { width: 40px; height: 40px; }
+        }
+        </style>
+
+        <section style="background:#f8f9fa; padding:36px 0 32px;">
+        <div class="w3-content" style="max-width:900px; padding:0 16px;">
+
+            <!-- Texto O Projeto -->
+            <div style="text-align:center; margin-bottom:32px;">
+                <h2 style="margin:0 0 4px; font-size:1.6rem; font-weight:800; color:#2e7d32;
+                            letter-spacing:-.3px; cursor:default;"
+                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}">O Projeto</h2>
+                <p style="margin:0 0 14px; font-size:.9rem; color:#4caf50; font-style:italic;">
+                    Gratuito, colaborativo e sem pressão
+                </p>
+                <p style="margin:0 auto; max-width:640px; font-size:.88rem; color:#555; line-height:1.7;">
+                    O <strong>Duvid Geografia</strong> nasceu de uma sala de aula real. É gratuito, colaborativo
+                    e feito com sugestões da turma. Mais de 1000 questões com explicações detalhadas,
+                    textos interativos com atividades práticas e apps que funcionam 100% offline.
+                </p>
+            </div>
+
+            <!-- Label Conheça -->
+            <p style="text-align:center; font-size:.62rem; font-weight:800; text-transform:uppercase;
+                       letter-spacing:.22em; color:#4caf50; margin:0 0 18px;">Conheça o Duvid</p>
+
+            <div class="conheca-grid">
+
+                <a href="paginas/sobre.php" class="conheca-card">
+                    <img src="fotoIndex/icones/projeto-icone.png" alt="Projeto">
+                    O Projeto
+                </a>
+
+                <a href="https://www.youtube.com/@duvidgeografia" target="_blank" class="conheca-card">
+                    <img src="fotoIndex/icones/youtube-icone.png" alt="YouTube">
+                    YouTube
+                </a>
+
+                <a href="blog/blog.php" class="conheca-card">
+                    <img src="fotoIndex/icones/duvidblog-icone.png" alt="Blog">
+                    Blog
+                </a>
+
+                <a href="simulados/capasimuladogeral.php" class="conheca-card">
+                    <img src="fotoIndex/icones/simulado-icone.png" alt="Simulados">
+                    Simulados
+                </a>
+
+                <a href="paginas/livrosgeografia.php" class="conheca-card">
+                    <img src="fotoIndex/icones/biblioteca-icone.png" alt="Biblioteca">
+                    Biblioteca
+                </a>
+
+                <a href="paginas/bibliografia.php" class="conheca-card">
+                    <img src="fotoIndex/icones/bibliografia-icone.png" alt="Bibliografia">
+                    Bibliografia
+                </a>
+
+                <a href="atividades/atividades.php" class="conheca-card">
+                    <img src="fotoIndex/icones/atividades-icone.gif" alt="Atividades">
+                    Atividades
+                </a>
+
+            </div>
+        </div>
+        </section>
+
+
+        <!-- ======================================
+       4. PAINEL DE TRILHA / LOGIN — REMOVIDO (duplicata do bloco do topo)
+  ======================================= -->
+        <div class="w3-container w3-padding-48" style="background:#f8f9fa; display:none !important;">
+        <div class="w3-content" style="max-width:900px;">
+
+            <?php if ($loginRequired): ?>
+            <div id="banner-login-required-old"
+                 style="background:#fff8e1; border:1.5px solid #f9a825; border-radius:12px;
+                        padding:14px 20px; display:flex; align-items:center; gap:12px;
+                        flex-wrap:wrap; margin-bottom:20px;">
+                <i class="fa fa-lock" style="color:#f9a825; font-size:1.1rem;"></i>
+                <span id="banner-login-texto-old" style="font-size:.9rem; color:#555;">
+                    Você precisa estar logado para acessar essa página. Faça login abaixo. 👇
+                </span>
+            </div>
+            <?php endif; ?>
+
+            <!-- Container principal -->
+            <div id="container-login-old">
+
+                <!-- Loading -->
+                <div id="loading-painel-old" class="w3-center" style="padding:32px 0; display:none;">
+                    <i class="fa fa-spinner w3-spin w3-text-green" style="font-size:2rem;"></i>
+                    <p style="color:#aaa; font-size:.85rem; margin-top:10px;">Carregando seu progresso...</p>
+                </div>
+
+                <!-- Frase motivacional (usada pelo JS) -->
+                <div class="trilha-container-wrapper" style="display:none;">
+                    <p id="frase-motivacional-trilha-old" class="w3-small w3-text-grey w3-center"
+                        style="margin-bottom:10px; font-weight:bold;"></p>
+                </div>
+
+                <!-- Trilha de níveis (usada pelo JS) -->
+                <div class="trilha-scroll-area" style="display:none;">
+                    <div class="trilha-conquistas-container">
+                        <div id="trilha-niveis-old" class="trilha-wrapper">
+                            <div class="linha-trilha-fundo"></div>
+                            <div id="linha-trilha-progresso-old" class="linha-trilha-ativa"></div>
+                            <div id="icones-trilha-placeholder-old" class="icones-wrapper"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── ESTADO: NÃO LOGADO ── -->
+                <div id="form-identificacao-old" style="display:none;">
+
+                    <!-- Hero visitante -->
+                    <div style="background:linear-gradient(135deg,#1b5e20,#2e7d32); border-radius:20px;
+                                padding:36px 32px; text-align:center; margin-bottom:24px;">
+                        <p style="color:rgba(255,255,255,.7); font-size:.85rem; margin:0 0 6px; letter-spacing:1px; text-transform:uppercase;">Bem-vindo ao</p>
+                        <h2 style="color:#fff; font-size:1.8rem; font-weight:800; margin:0 0 8px;">Duvid Geografia 🌍</h2>
+                        <p style="color:rgba(255,255,255,.75); font-size:.95rem; margin:0 0 24px;">
+                            Gratuito · Colaborativo · Sem pressão
+                        </p>
+                        <p style="color:rgba(255,255,255,.6); font-size:.8rem; margin:0;">
+                            Crie sua conta gratuita e salve seu progresso
+                        </p>
+                    </div>
+
+                    <!-- Formulário limpo -->
+                    <div style="background:#fff; border-radius:20px; padding:28px 32px;
+                                box-shadow:0 4px 12px rgba(0,0,0,.06); max-width:460px; margin:auto;">
+
+                        <h3 style="margin:0 0 4px; font-size:1.1rem; color:#1b5e20;">Começar jornada</h3>
+                        <p style="margin:0 0 20px; font-size:.82rem; color:#888;">
+                            Já tem conta? Use o mesmo nome e PIN.
                         </p>
 
-                        <!-- Campos opcionais: localização para ranking nacional -->
-                        <details id="detalhes-localizacao" style="margin-bottom:14px; text-align:left;">
-                            <summary style="cursor:pointer; font-size:0.85rem; color:#555; font-weight:600; user-select:none;">
-                                🌎 Adicionar escola e localização <span style="font-size:0.75rem; color:#aaa; font-weight:400;">(opcional — para ranking nacional)</span>
+                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">NOME</label>
+                        <input class="w3-input w3-border w3-round-large" type="text"
+                            id="pq0-old" placeholder="Ex: João Silva"
+                            autocomplete="nickname"
+                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem;">
+
+                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">E-MAIL</label>
+                        <input class="w3-input w3-border w3-round-large" type="email"
+                            id="pq-email-old" placeholder="Ex: joao@email.com"
+                            autocomplete="email"
+                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem;">
+
+                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">PIN <span style="color:#aaa; font-weight:400;">(4 dígitos)</span></label>
+                        <input class="w3-input w3-border w3-round-large" type="password"
+                            id="pq-pin-old" placeholder="Ex: 1234"
+                            maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
+                            autocomplete="new-password"
+                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem; letter-spacing:6px;">
+
+                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">CÓDIGO DA TURMA <span style="color:#aaa; font-weight:400;">(opcional)</span></label>
+                        <input class="w3-input w3-border w3-round-large" type="text"
+                            id="pq-turma-old" placeholder="Ex: GEO2024"
+                            autocapitalize="characters"
+                            style="margin-bottom:6px; border-color:#e0e0e0; height:44px; font-size:.95rem; text-transform:uppercase; letter-spacing:2px; font-family:monospace;">
+                        <p style="font-size:.75rem; color:#aaa; margin:0 0 16px;">
+                            Seu professor passou um código? Digite aqui.
+                        </p>
+
+                        <!-- Localização opcional -->
+                        <details id="detalhes-localizacao-old" style="margin-bottom:18px;">
+                            <summary style="cursor:pointer; font-size:.82rem; color:#2e7d32; font-weight:600; user-select:none; list-style:none;">
+                                + Adicionar escola e localização <span style="font-size:.75rem; color:#aaa; font-weight:400;">(para ranking nacional)</span>
                             </summary>
                             <div style="margin-top:10px; display:flex; flex-direction:column; gap:8px;">
-                                <select class="w3-select w3-border w3-round" id="pq-estado" style="height:38px;">
+                                <select class="w3-select w3-border w3-round-large" id="pq-estado-old" style="height:40px; border-color:#e0e0e0;">
                                     <option value="">— Estado —</option>
-                                    <option value="AC">Acre</option>
-                                    <option value="AL">Alagoas</option>
-                                    <option value="AP">Amapá</option>
-                                    <option value="AM">Amazonas</option>
-                                    <option value="BA">Bahia</option>
-                                    <option value="CE">Ceará</option>
-                                    <option value="DF">Distrito Federal</option>
-                                    <option value="ES">Espírito Santo</option>
-                                    <option value="GO">Goiás</option>
-                                    <option value="MA">Maranhão</option>
-                                    <option value="MT">Mato Grosso</option>
-                                    <option value="MS">Mato Grosso do Sul</option>
-                                    <option value="MG">Minas Gerais</option>
-                                    <option value="PA">Pará</option>
-                                    <option value="PB">Paraíba</option>
-                                    <option value="PR">Paraná</option>
-                                    <option value="PE">Pernambuco</option>
-                                    <option value="PI">Piauí</option>
-                                    <option value="RJ">Rio de Janeiro</option>
-                                    <option value="RN">Rio Grande do Norte</option>
-                                    <option value="RS">Rio Grande do Sul</option>
-                                    <option value="RO">Rondônia</option>
-                                    <option value="RR">Roraima</option>
-                                    <option value="SC">Santa Catarina</option>
-                                    <option value="SP">São Paulo</option>
-                                    <option value="SE">Sergipe</option>
+                                    <option value="AC">Acre</option><option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option><option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option><option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option><option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option><option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
                                     <option value="TO">Tocantins</option>
                                 </select>
-                                <input class="w3-input w3-border w3-round" type="text"
-                                    id="pq-cidade" placeholder="Cidade"
-                                    autocomplete="address-level2">
-                                <input class="w3-input w3-border w3-round" type="text"
-                                    id="pq-escola" placeholder="Nome da escola"
-                                    autocomplete="organization">
+                                <input class="w3-input w3-border w3-round-large" type="text"
+                                    id="pq-cidade-old" placeholder="Cidade"
+                                    autocomplete="address-level2" style="border-color:#e0e0e0;">
+                                <input class="w3-input w3-border w3-round-large" type="text"
+                                    id="pq-escola-old" placeholder="Nome da escola"
+                                    autocomplete="organization" style="border-color:#e0e0e0;">
                             </div>
                         </details>
 
-                        <p id="login-erro" class="w3-text-red" style="display:none; font-size:0.9rem;"></p>
+                        <p id="login-erro-old" class="w3-text-red" style="display:none; font-size:.85rem; margin-bottom:12px;"></p>
 
-                        <button class="w3-button w3-green w3-round-large w3-block"
-                            onclick="NomeAlunos('resp0','pq0')">
-                            <b>🚀 Começar Jornada</b>
+                        <button class="w3-button w3-block w3-round-large"
+                            onclick="NomeAlunos('resp0','pq0')"
+                            style="background:#2e7d32; color:#fff; font-weight:700; font-size:1rem;
+                                   height:48px; letter-spacing:.3px; transition:background .15s;"
+                            onmouseover="this.style.background='#1b5e20'"
+                            onmouseout="this.style.background='#2e7d32'">
+                            🚀 Começar Jornada
                         </button>
-                        <p style="font-size:0.8rem; color:#888; margin-top:8px;">
-                            Já tem conta? Digite o mesmo nome e PIN.
-                        </p>
                     </div>
                 </div>
 
-                <div id="display-identificado" style="display:none;" class="w3-container w3-padding-16">
-                    <div class="w3-row" style="display:flex; align-items:center; justify-content:space-between;">
-                        <div class="medalha-container">
-                            <img id="medalha-patente" src="fotoIndex/icones/duvid-patentes-novato.png" alt="Patente"
-                                title="Sua Patente Atual" class="pixel-art-icon">
-                        </div>
-                        <div class="w3-left-align">
-                            <h4 class="w3-margin-0">
-                                <strong><span id="lvl-tag" class="w3-tag w3-amber w3-round-large w3-small">Level
-                                        1</span></strong>
-                                Olá, <b class="w3-text-green" id="nome-aluno-texto"></b>
-                                <button onclick="prepararTrocaNome()"
-                                    class="w3-button w3-tiny w3-round-xlarge w3-light-grey">
-                                    <i class="fa fa-pencil"></i>
-                                </button>
-                            </h4>
-                            <p id="rank-nome" class="w3-tiny w3-text-black w3-margin-0"
-                                style="font-weight:bold; letter-spacing:1px;">NOVATO</p>
-                            <p id="turma-info" class="w3-tiny w3-margin-0" style="color:#888;display:none">
-                                <i class="fa fa-users" style="font-size:.65rem"></i>
-                                <span id="turma-nome-label"></span>
-                                <span id="turma-codigo-label" style="color:#aaa;margin-left:4px"></span>
-                            </p>
-                        </div>
-                        <div class="w3-right-align">
-                            <div class="w3-tag w3-round w3-amber w3-padding-small">
-                                <i class="fa fa-globe"></i> <b id="valor-total-central">0.0</b>
+                <!-- ── ESTADO: LOGADO ── -->
+                <div id="display-identificado-old" style="display:none;">
+
+                    <!-- Welcome card -->
+                    <div style="background:#fff; border-radius:20px; padding:20px 24px;
+                                box-shadow:0 4px 12px rgba(0,0,0,.06); margin-bottom:16px;">
+
+                        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+
+                            <!-- Avatar / patente -->
+                            <div class="medalha-container">
+                                <img id="medalha-patente-old" src="fotoIndex/icones/duvid-patentes-novato.png"
+                                    alt="Patente" title="Sua Patente Atual" class="pixel-art-icon"
+                                    style="width:52px; height:auto;">
+                            </div>
+
+                            <!-- Info -->
+                            <div style="flex:1; min-width:120px;">
+                                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                                    <span id="lvl-tag-old" class="w3-tag w3-round-large w3-small w3-amber"
+                                          style="font-size:.72rem; padding:3px 10px;">Level 1</span>
+                                    <b class="w3-text-green" id="nome-aluno-texto-old" style="font-size:1.05rem;"></b>
+                                    <button onclick="prepararTrocaNome()"
+                                        class="w3-button w3-tiny w3-round-xlarge w3-light-grey"
+                                        style="padding:2px 8px; font-size:.7rem;">
+                                        <i class="fa fa-pencil"></i>
+                                    </button>
+                                </div>
+                                <p id="rank-nome-old" style="margin:4px 0 0; font-size:.72rem; font-weight:700;
+                                    letter-spacing:1.5px; color:#555;"></p>
+                                <p id="turma-info-old" style="margin:2px 0 0; font-size:.75rem; color:#aaa; display:none;">
+                                    <i class="fa fa-users" style="font-size:.65rem;"></i>
+                                    <span id="turma-nome-label-old"></span>
+                                    <span id="turma-codigo-label-old" style="color:#ccc; margin-left:4px;"></span>
+                                </p>
+                            </div>
+
+                            <!-- XP total -->
+                            <div style="background:#e8f5e9; border-radius:12px; padding:8px 14px; text-align:center;">
+                                <div style="font-size:.65rem; color:#558b2f; text-transform:uppercase; letter-spacing:1px;">globinhos</div>
+                                <div style="font-size:1.1rem; font-weight:800; color:#2e7d32;">
+                                    🌍 <span id="valor-total-central-old">0</span>
+                                </div>
                             </div>
                         </div>
+
+                        <!-- Barra XP -->
+                        <div style="background:#f0f0f0; border-radius:8px; height:8px; margin-top:16px; overflow:hidden;">
+                            <div id="barra-xp-total-old" style="height:100%; width:0%; background:linear-gradient(90deg,#4caf50,#81c784);
+                                border-radius:8px; transition:width 1.5s cubic-bezier(0.4,0,0.2,1);"></div>
+                        </div>
+                        <div style="display:flex; justify-content:space-between; margin-top:4px;">
+                            <span style="font-size:.68rem; color:#aaa;">XP: <span id="xp-atual-old">0</span></span>
+                            <span style="font-size:.68rem; color:#aaa;">Próximo nível: <span id="xp-proximo-old">100</span></span>
+                        </div>
+
+                        <a href="/paginas/ranking.php"
+                            style="display:block; margin-top:16px; background:#f8f9fa; border:1.5px solid #e0e0e0;
+                                   border-radius:12px; padding:10px 16px; text-align:center; text-decoration:none;
+                                   color:#2e7d32; font-weight:700; font-size:.9rem; transition:border-color .15s;"
+                            onmouseover="this.style.borderColor='#4caf50'"
+                            onmouseout="this.style.borderColor='#e0e0e0'">
+                            🏆 Ver ranking da minha turma
+                        </a>
                     </div>
 
-                    <div class="w3-light-grey w3-round-xlarge w3-margin-top"
-                        style="height:12px; border:1px solid #ddd; position:relative;">
-                        <div id="barra-xp-total" class="w3-container w3-blue w3-round-xlarge"
-                            style="width:0%; height:10px; transition:width 1.5s cubic-bezier(0.4,0,0.2,1);">
+                    <!-- Progresso por trilha -->
+                    <div id="resumo-geral-old" style="display:none;">
+                        <div class="w3-row-padding">
+
+                            <div class="w3-third w3-margin-bottom">
+                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
+                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
+                                            border-left:4px solid #4caf50;">
+                                    <div id="conquista-1ano-old" style="display:none; position:absolute; top:12px; right:14px;">
+                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
+                                    </div>
+                                    <p style="margin:0 0 2px; font-size:.78rem; color:#558b2f; text-transform:uppercase;
+                                               letter-spacing:1px; font-weight:700;">🌿 Natureza</p>
+                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
+                                        <span id="txt-1ano-old">0/34</span> aulas
+                                    </p>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
+                                        <div id="bar-1ano-old" style="height:100%; width:0%; background:#4caf50;
+                                            border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w3-third w3-margin-bottom">
+                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
+                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
+                                            border-left:4px solid #1976d2;">
+                                    <div id="conquista-2ano-old" style="display:none; position:absolute; top:12px; right:14px;">
+                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
+                                    </div>
+                                    <p style="margin:0 0 2px; font-size:.78rem; color:#1565c0; text-transform:uppercase;
+                                               letter-spacing:1px; font-weight:700;">🇧🇷 Brasil</p>
+                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
+                                        <span id="txt-2ano-old">0/36</span> aulas
+                                    </p>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
+                                        <div id="bar-2ano-old" style="height:100%; width:0%; background:#1976d2;
+                                            border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="w3-third w3-margin-bottom">
+                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
+                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
+                                            border-left:4px solid #f57c00;">
+                                    <div id="conquista-3ano-old" style="display:none; position:absolute; top:12px; right:14px;">
+                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
+                                    </div>
+                                    <p style="margin:0 0 2px; font-size:.78rem; color:#e65100; text-transform:uppercase;
+                                               letter-spacing:1px; font-weight:700;">🌍 Mundo</p>
+                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
+                                        <span id="txt-3ano-old">0/36</span> aulas
+                                    </p>
+                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
+                                        <div id="bar-3ano-old" style="height:100%; width:0%; background:#f57c00;
+                                            border-radius:6px; transition:width 1.2s ease;"></div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-                    <div class="w3-row w3-tiny w3-text-grey">
-                        <div class="w3-col s6 w3-left-align">XP ATUAL: <span id="xp-atual">0</span></div>
-                        <div class="w3-col s6 w3-right-align">PRÓXIMO NÍVEL: <span id="xp-proximo">100</span></div>
-                    </div>
 
-                    <a href="/paginas/ranking.php"
-                        class="w3-button w3-green w3-round-large w3-block w3-margin-top"
-                        style="white-space:normal; line-height:1.4;">
-                        🏆 Ver ranking da minha turma
-                    </a>
+                </div>
+                <!-- /display-identificado -->
+
+            </div>
+            <!-- /container-login -->
+
+        </div>
+        </div>
+
+
+        <!-- ══ Monitores Duvid — compact side-by-side ══ -->
+        <style>
+        .monitores-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+        .mon-stat { border-radius:10px; padding:9px 7px; text-align:center; }
+        .mon-label { display:block; font-size:.48rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-bottom:3px; }
+        .mon-value { display:block; font-size:.72rem; font-weight:800; line-height:1.2; letter-spacing:-.3px; }
+        .mon-sub   { display:block; font-size:.48rem; margin-top:2px; }
+        .mon-inner { display:grid; grid-template-columns:1fr 1fr 1fr; gap:7px; }
+        /* Dark mode: Monitor Brasil (white card) */
+        body.dark-mode .monitor-brasil-card { background:#1e2a1e !important; border-color:rgba(255,255,255,.08) !important; }
+        body.dark-mode .monitor-brasil-card .mon-stat { background:rgba(255,255,255,.07) !important; }
+        body.dark-mode .monitor-brasil-card .mon-label { color:rgba(255,255,255,.4) !important; }
+        body.dark-mode .monitor-brasil-card .mon-sub   { color:rgba(255,255,255,.25) !important; }
+        body.dark-mode .monitor-brasil-card .mon-header-txt { color:#e0e0e0 !important; }
+        @media (max-width:700px) {
+            .monitores-grid { grid-template-columns:1fr; }
+        }
+        </style>
+
+        <section style="background:#f8f9fa; padding:24px 0 20px;">
+        <div class="w3-content" style="max-width:1100px; padding:0 16px;">
+            <div class="monitores-grid">
+
+                <!-- ── Monitor Global ── -->
+                <div style="background:#1a2e1a; border-radius:18px; padding:16px;">
+                    <div style="display:flex; align-items:center; gap:7px; margin-bottom:12px;">
+                        <span style="font-size:.9rem;">🌐</span>
+                        <span style="color:#fff; font-weight:700; font-size:.85rem; letter-spacing:-.2px;">Monitor Global</span>
+                        <span style="margin-left:auto; background:#e53935; color:#fff; font-size:.5rem; font-weight:800;
+                                     padding:2px 7px; border-radius:20px; letter-spacing:.06em; white-space:nowrap;">● AO VIVO</span>
+                    </div>
+                    <div class="mon-inner">
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);">POPULAÇÃO</span>
+                            <span class="mon-value" id="populacao-live" style="color:#4caf50;">8.254.130.400</span>
+                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">+0.6%/ano</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CÂMBIO USD</span>
+                            <span class="mon-value" id="dolar-valor" style="color:#ffb300;">R$ --</span>
+                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Comercial</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);">PETRÓLEO BRENT</span>
+                            <span class="mon-value" id="petroleo-valor" style="color:#ef5350;">--</span>
+                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Barril (USD)</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CÂMBIO EUR</span>
+                            <span class="mon-value" id="euro-valor" style="color:#ffb300;">R$ --</span>
+                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Comercial</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08); cursor:pointer;" onclick="mudarCidadeClima()" title="Clique para mudar a cidade">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);"><span id="cidade-nome">Poços de Caldas</span> 🔍</span>
+                            <span class="mon-value" id="temp-atual" style="color:#64b5f6;">--°C</span>
+                            <span class="mon-sub" id="clima-desc" style="color:rgba(255,255,255,.25);">Carregando...</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
+                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CO₂ ATMOSFÉRICO</span>
+                            <span class="mon-value" style="color:#ff7043;">~424 ppm</span>
+                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Keeling Curve</span>
+                        </div>
+
+                    </div>
                 </div>
 
-                <div id="resumo-geral" class="w3-row-padding w3-margin-top" style="display:none;">
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="card-inventario-item w3-round-large w3-padding" style="position:relative;">
-                            <div id="conquista-1ano" class="w3-display-topright w3-padding" style="display:none;">
-                                <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
-                            </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Natureza</b></h6>
-                            <div class="w3-light-grey w3-round-xlarge w3-tiny">
-                                <div id="bar-1ano" class="w3-container w3-green w3-round-xlarge"
-                                    style="width:0%;height:10px;"></div>
-                            </div>
-                            <p class="w3-tiny w3-margin-top"><b><span id="txt-1ano">0/0</span></b> aulas feitas</p>
-                        </div>
+                <!-- ── Monitor Brasil ── -->
+                <div class="monitor-brasil-card" style="background:#fff; border-radius:18px; padding:16px; border:1px solid #ececec; box-shadow:0 2px 8px rgba(0,0,0,.05);">
+                    <div style="display:flex; align-items:center; gap:7px; margin-bottom:12px;">
+                        <span style="font-size:.9rem;">🇧🇷</span>
+                        <span class="mon-header-txt" style="color:#222; font-weight:700; font-size:.85rem; letter-spacing:-.2px;">Monitor Brasil</span>
+                        <span style="margin-left:auto; background:#e53935; color:#fff; font-size:.5rem; font-weight:800;
+                                     padding:2px 7px; border-radius:20px; letter-spacing:.06em; white-space:nowrap;">● AO VIVO</span>
                     </div>
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="card-inventario-item w3-round-large w3-padding" style="position:relative;">
-                            <div id="conquista-2ano" class="w3-display-topright w3-padding" style="display:none;">
-                                <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
-                            </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Brasil</b></h6>
-                            <div class="w3-light-grey w3-round-xlarge w3-tiny">
-                                <div id="bar-2ano" class="w3-container w3-blue w3-round-xlarge"
-                                    style="width:0%;height:10px;"></div>
-                            </div>
-                            <p class="w3-tiny w3-margin-top"><b><span id="txt-2ano">0/0</span></b> aulas feitas</p>
+                    <div class="mon-inner">
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">POPULAÇÃO</span>
+                            <span class="mon-value" id="pop-brasil-live" style="color:#2e7d32;">213.500.000</span>
+                            <span class="mon-sub" style="color:#ccc;">Estimativa IBGE</span>
                         </div>
-                    </div>
-                    <div class="w3-third w3-margin-bottom">
-                        <div class="card-inventario-item w3-round-large w3-padding" style="position:relative;">
-                            <div id="conquista-3ano" class="w3-display-topright w3-padding" style="display:none;">
-                                <i class="fa fa-trophy w3-text-amber w3-large" title="Concluído!"></i>
-                            </div>
-                            <h6 class="w3-text-teal" style="font-family:'Courier New',monospace;"><b>Mundo</b></h6>
-                            <div class="w3-light-grey w3-round-xlarge w3-tiny">
-                                <div id="bar-3ano" class="w3-container w3-orange w3-round-xlarge"
-                                    style="width:0%;height:10px;"></div>
-                            </div>
-                            <p class="w3-tiny w3-margin-top"><b><span id="txt-3ano">0/0</span></b> aulas feitas</p>
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">IBOVESPA</span>
+                            <span class="mon-value" id="ibov-pontos" style="color:#7b1fa2;">Carregando...</span>
+                            <span class="mon-sub" style="color:#ccc;">Bolsa B3</span>
                         </div>
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">TAXA SELIC</span>
+                            <span class="mon-value" id="selic-valor" style="color:#e53935;">--%</span>
+                            <span class="mon-sub" style="color:#ccc;">Juros (BCB)</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">INFLAÇÃO IPCA</span>
+                            <span class="mon-value" id="ipca-valor" style="color:#e65100;">--%</span>
+                            <span class="mon-sub" style="color:#ccc;">Acumulado 12m</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">DESEMPREGO</span>
+                            <span class="mon-value" id="desemprego-valor" style="color:#00695c;">--%</span>
+                            <span class="mon-sub" style="color:#ccc;">PNAD (IBGE)</span>
+                        </div>
+
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">ENERGIA RENOV.</span>
+                            <span class="mon-value" style="color:#2e7d32;">~85%</span>
+                            <span class="mon-sub" style="color:#ccc;">Matriz elétrica</span>
+                        </div>
+
                     </div>
                 </div>
 
             </div>
         </div>
-
-
-        <div class="w3-container w3-padding-64 w3-light-grey">
-            <div class="w3-content" style="max-width:1100px">
-                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
-                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Monitor Global Duvid</b></h2>
-                <div class="w3-row-padding card-monitor-global">
-
-
-                    <!-- CARD POPULAÇÃO -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/populacao-icone.gif" alt="População"
-                                class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-green"><b>Mundo Pulsa</b></span>
-                            <div id="populacao-live" class="w3-large w3-text-dark-grey"
-                                style="font-weight: bold; letter-spacing: -1px;">8.254.130.400</div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Estimativa Populacional</p>
-                        </div>
-                    </div>
+        </section>
 
 
 
-                    <!-- CARD DÓLAR -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/dolar-icone.webp" alt="Economia" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-orange"><b>Dólar Comercial</b></span>
-                            <div class="w3-large w3-text-dark-grey"><b id="dolar-valor">R$ --</b></div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Cotação em tempo real</p>
-                        </div>
-                    </div>
 
 
+        <!-- ══ Novidades do Blog ══ -->
+        <section style="background:#fff; padding:32px 0 28px;">
+        <div class="w3-content" style="max-width:1100px; padding:0 16px;">
 
-                    <!-- CARD PETRÓLEO -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/petroleo-icone.png" alt="Petróleo" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-dark-grey"><b>Petróleo Brent</b></span>
-                            <div id="petroleo-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">
-                                --
-                            </div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Cotação Internacional (Barril)</p>
-                        </div>
-                    </div>
-
-
-                    <!-- CARD PETRÓLEO -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/clima-icone.gif" alt="Clima" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-blue">
-                                <b id="cidade-nome">Poços de Caldas</b>
-                                <i class="fa fa-search w3-small w3-opacity w3-hover-text-blue" style="cursor:pointer"
-                                    onclick="mudarCidadeClima()"></i>
-                            </span>
-                            <div class="w3-large"><b id="temp-atual">--°C</b></div>
-                            <p id="clima-desc" class="w3-tiny w3-opacity" style="display: block;">Carregando...</p>
-                        </div>
-                    </div>
-
-                </div>
+            <!-- Cabeçalho -->
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:20px;">
+                <p style="margin:0; font-size:.7rem; font-weight:700; text-transform:uppercase;
+                           letter-spacing:.12em; color:#2e7d32;">Novidades do Blog</p>
+                <a href="/blog/blog.php"
+                   style="font-size:.78rem; font-weight:600; color:#2e7d32; text-decoration:none;
+                          display:flex; align-items:center; gap:4px; transition:opacity .15s;"
+                   onmouseover="this.style.opacity='.7'" onmouseout="this.style.opacity='1'">
+                    Ver tudo <i class="fa fa-arrow-right" style="font-size:.65rem;"></i>
+                </a>
             </div>
-        </div>
 
-        <div class="w3-container w3-padding-64 w3-light-grey" style="margin-top: -64px;">
-            <div class="w3-content" style="max-width:1100px">
-                <h2 class="w3-center w3-margin-bottom" style="cursor:default;"
-                    onmouseenter="if(!this.dataset.animando){this.dataset.animando='1'; this.classList.remove('w3-animate-zoom'); void this.offsetWidth; this.classList.add('w3-animate-zoom'); this.addEventListener('animationend', () => { delete this.dataset.animando; }, {once:true});}"><b>Monitor Brasil Duvid</b></h2>
-                <div class="w3-row-padding card-monitor-brasil">
+            <!-- Grid de cards (preenchido via JS) -->
+            <div id="blog-cards-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:16px;">
 
-                    <!-- CARD POPULAÇÃO BRASIL -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/popbrasil-icone.png" alt="População Brasil"
-                                class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-green"><b>Habitantes</b></span>
-                            <div id="pop-brasil-live" class="w3-large w3-text-dark-grey" style="font-weight: bold;">
-                                213.500.000</div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Estimativa IBGE</p>
-                        </div>
-                    </div>
-
-                    <!-- CARD IBOVESPA -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/ibovespa-icone.png" alt="Ibovespa" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-purple"><b>Ibovespa</b></span>
-                            <div id="ibov-pontos" class="w3-large w3-text-dark-grey" style="font-weight: bold;">
-                                Carregando...</div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Bolsa de Valores (B3)</p>
-                        </div>
-                    </div>
-
-                    <!-- CARD TAXA SELIC -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/selic-icone.png" alt="Selic" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-red"><b>Taxa Selic</b></span>
-                            <div id="selic-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">--%
-                            </div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Juros Básicos (BCB)</p>
-                        </div>
-                    </div>
-
-                    <!-- CARD INFLAÇÃO IPCA -->
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/ipca-icone.png" alt="Inflação" class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-orange"><b>Inflação IPCA</b></span>
-                            <div id="ipca-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">--%</div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Acumulado 12 meses</p>
-                        </div>
-                    </div>
-
-                    <div class="w3-col l3 m6 s6 w3-margin-bottom">
-                        <div class="w3-block w3-white w3-card w3-padding-24 w3-round-large w3-center card-widget">
-                            <img src="fotoIndex/icones/desemprego-icone.png" alt="Desemprego"
-                                class="img-widget-hero"><br>
-                            <span class="w3-large w3-text-teal"><b>Desemprego</b></span>
-                            <div id="desemprego-valor" class="w3-large w3-text-dark-grey" style="font-weight: bold;">--%
-                            </div>
-                            <p class="w3-tiny w3-opacity w3-margin-0">Taxa de Desocupação (IBGE)</p>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-        <!-- Painel de citações -->
-        <div class="w3-container w3-padding-64">
-            <div class="w3-content" style="max-width:800px">
-                <div class="w3-panel w3-white w3-card-4 w3-round-xlarge w3-padding-32 w3-display-container">
-                    <i class="fa fa-quote-left w3-xlarge w3-text-light-grey"
-                        style="position:absolute; left:20px; top:10px"></i>
-
-                    <div class="w3-center">
-                        <p id="frase" class="w3-xlarge w3-serif w3-padding-large"
-                            style="line-height: 1.6; min-height: 120px;">
-                        </p>
-
-                        <div class="w3-row w3-flex-center"
-                            style="display: flex; align-items: center; justify-content: center; gap: 15px; margin-top: 20px;">
-                            <img id="autor-img" src="" alt="Autor" class="w3-circle w3-card-2"
-                                style="width:130px; height:130px; object-fit: cover; border: 3px solid #4CAF50;">
-                            <p id="autor" class="w3-large w3-text-green" style="font-weight: bold; margin: 0;">
-                            </p>
-                        </div>
+                <!-- Skeleton enquanto carrega -->
+                <?php for($i=0;$i<3;$i++): ?>
+                <div class="blog-skeleton" style="background:#f5f5f5; border-radius:18px; overflow:hidden; height:280px; animation:pulse 1.4s ease-in-out infinite;">
+                    <div style="height:140px; background:#eee;"></div>
+                    <div style="padding:14px;">
+                        <div style="height:10px; background:#e0e0e0; border-radius:6px; margin-bottom:8px; width:40%;"></div>
+                        <div style="height:14px; background:#e0e0e0; border-radius:6px; margin-bottom:6px;"></div>
+                        <div style="height:14px; background:#e0e0e0; border-radius:6px; width:80%;"></div>
                     </div>
                 </div>
+                <?php endfor; ?>
+
             </div>
         </div>
+        </section>
+
+        <style>
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.55} }
+        .blog-card { background:#fff; border-radius:18px; overflow:hidden; border:1px solid #f0f0f0;
+                     box-shadow:0 2px 8px rgba(0,0,0,.05); text-decoration:none; display:block;
+                     transition:transform .15s, box-shadow .15s; }
+        .blog-card:hover { transform:translateY(-3px); box-shadow:0 8px 24px rgba(46,125,50,.1); }
+        .blog-card-img { width:100%; height:150px; object-fit:cover; display:block; }
+        .blog-card-body { padding:14px 16px 16px; }
+        .blog-card-tag { display:inline-block; font-size:.55rem; font-weight:700; text-transform:uppercase;
+                         letter-spacing:.08em; color:#2e7d32; background:#e8f5e9; padding:3px 8px;
+                         border-radius:6px; margin-bottom:8px; }
+        .blog-card-title { margin:0 0 8px; font-size:.9rem; font-weight:700; color:#1b5e20;
+                           line-height:1.4; display:-webkit-box; -webkit-line-clamp:2;
+                           -webkit-box-orient:vertical; overflow:hidden; }
+        .blog-card-resumo { margin:0 0 12px; font-size:.78rem; color:#777; line-height:1.5;
+                            display:-webkit-box; -webkit-line-clamp:2;
+                            -webkit-box-orient:vertical; overflow:hidden; }
+        .blog-card-link { font-size:.75rem; font-weight:600; color:#4caf50; text-decoration:none; }
+        body.dark-mode .blog-card { background:#1e2a1e; border-color:rgba(255,255,255,.07); }
+        body.dark-mode .blog-card-title { color:#a5d6a7; }
+        body.dark-mode .blog-card-resumo { color:rgba(255,255,255,.45); }
+        @media (max-width:700px) {
+            #blog-cards-grid { grid-template-columns:1fr; }
+        }
+        </style>
+
+        <script>
+        (function() {
+            fetch('/blog/artigos.json')
+                .then(r => r.json())
+                .then(artigos => {
+                    const grid = document.getElementById('blog-cards-grid');
+                    if (!grid) return;
+
+                    // Pega os 3 mais recentes (JSON já vem ordenado por id desc)
+                    const recentes = artigos.slice(0, 3);
+
+                    grid.innerHTML = recentes.map(a => {
+                        const tag = (a.tags && a.tags[0]) ? a.tags[0] : 'Blog';
+                        const resumo = a.resumo || '';
+                        const img = a.imagem || '/blog/capaBlog.jpg';
+                        return `
+                        <a href="${a.link}" class="blog-card">
+                            <img src="${img}" alt="${a.titulo}" class="blog-card-img" loading="lazy">
+                            <div class="blog-card-body">
+                                <span class="blog-card-tag">${tag}</span>
+                                <h3 class="blog-card-title">${a.titulo}</h3>
+                                <p class="blog-card-resumo">${resumo}</p>
+                                <span class="blog-card-link">Ler mais <i class="fa fa-arrow-up-right-from-square" style="font-size:.6rem;"></i></span>
+                            </div>
+                        </a>`;
+                    }).join('');
+                })
+                .catch(() => {
+                    // Em caso de erro, esconde a seção silenciosamente
+                    const grid = document.getElementById('blog-cards-grid');
+                    if (grid) grid.closest('section').style.display = 'none';
+                });
+        })();
+        </script>
+
+        <!-- ══ Citação ══ -->
+        <section style="background:#f8f9fa; padding:28px 0 32px;">
+        <div class="w3-content" style="max-width:720px; padding:0 16px;">
+            <div style="background:#fff; border-radius:20px; padding:28px 28px 24px;
+                        border:1px solid #f0f0f0; box-shadow:0 2px 12px rgba(0,0,0,.05);
+                        display:flex; gap:20px; align-items:center;">
+
+                <!-- Foto do autor -->
+                <div style="flex-shrink:0;">
+                    <img id="autor-img" src="" alt="Autor"
+                         style="width:72px; height:72px; border-radius:50%; object-fit:cover;
+                                border:2px solid #4caf50; display:block;">
+                </div>
+
+                <!-- Texto -->
+                <div style="flex:1; min-width:0;">
+                    <div style="display:flex; gap:8px; align-items:flex-start;">
+                        <span style="color:#c8e6c9; font-size:1.6rem; font-weight:900;
+                                     line-height:1; flex-shrink:0; margin-top:2px;">"</span>
+                        <p id="frase" style="margin:0; font-size:.97rem; color:#333;
+                                             font-style:italic; line-height:1.7;
+                                             min-height:48px;"></p>
+                    </div>
+                    <p id="autor" style="margin:10px 0 0; font-size:.68rem; font-weight:700;
+                                         color:#2e7d32; letter-spacing:.1em; text-transform:uppercase;"></p>
+                </div>
+
+            </div>
+        </div>
+        </section>
 
 
 
@@ -926,10 +1594,46 @@
     </script>
 
     <script>
+        // Preenche as barras de progresso nos cards das trilhas
+        function atualizarProgCards() {
+            const dados = [
+                { sufixo: '1ano', total: 34 },
+                { sufixo: '2ano', total: 36 },
+                { sufixo: '3ano', total: 36 },
+            ];
+            dados.forEach(({ sufixo, total }) => {
+                const txtEl  = document.getElementById('txt-' + sufixo);
+                const barEl  = document.getElementById('bar-' + sufixo);
+                if (!txtEl || !barEl) return;
+                const txt = txtEl.textContent || '0/0';
+                const feitas = parseInt(txt.split('/')[0]) || 0;
+                const pct = total > 0 ? Math.round(feitas / total * 100) : 0;
+                // Card topo
+                const cardProg = document.getElementById('prog-card-' + sufixo);
+                const cardTxt  = document.getElementById('card-txt-' + sufixo);
+                const cardPct  = document.getElementById('card-pct-' + sufixo);
+                const cardBar  = document.getElementById('card-bar-' + sufixo);
+                if (cardProg) {
+                    cardProg.style.display = 'block';
+                    if (cardTxt) cardTxt.textContent = feitas + '/' + total + ' aulas';
+                    if (cardPct) cardPct.textContent = pct + '%';
+                    if (cardBar) setTimeout(() => { cardBar.style.width = pct + '%'; }, 200);
+                }
+            });
+        }
+
         document.addEventListener('DOMContentLoaded', () => {
             gerenciarIdentificacaoHome();
 
             if (typeof atualizarGlobinhosGeral === "function") atualizarGlobinhosGeral();
+
+            // Observa quando o resumo-geral fica visível e atualiza os cards das trilhas
+            const resumoEl = document.getElementById('resumo-geral');
+            if (resumoEl) {
+                new MutationObserver(() => {
+                    if (resumoEl.style.display !== 'none') atualizarProgCards();
+                }).observe(resumoEl, { attributes: true, attributeFilter: ['style'] });
+            }
 
             // Primeira frase imediata, depois repete a cada 10 segundos
             if (typeof carregarFrase === "function") {

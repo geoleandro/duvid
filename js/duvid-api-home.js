@@ -85,13 +85,20 @@ const MonitorPopulacao = {
 
 //API DA COTAÇÃO DO DÓLAR
 function buscarDolar() {
-    fetch('https://economia.awesomeapi.com.br/last/USD-BRL')
+    fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL')
         .then(response => response.json())
         .then(data => {
-            const valor = parseFloat(data.USDBRL.bid).toFixed(2);
-            document.getElementById('dolar-valor').innerText = `R$ ${valor.replace('.', ',')}`;
+            if (data.USDBRL) {
+                const usd = parseFloat(data.USDBRL.bid).toFixed(2);
+                document.getElementById('dolar-valor').innerText = `R$ ${usd.replace('.', ',')}`;
+            }
+            if (data.EURBRL) {
+                const eur = parseFloat(data.EURBRL.bid).toFixed(2);
+                const el = document.getElementById('euro-valor');
+                if (el) el.innerText = `R$ ${eur.replace('.', ',')}`;
+            }
         })
-        .catch(err => console.error("Erro ao buscar dólar:", err));
+        .catch(err => console.error("Erro ao buscar câmbio:", err));
 }
 
 // API PARA IBOVESPA// CONFIGURAÇÃO DA API BRAPI (Gratuita para até 100 requisições/dia)
