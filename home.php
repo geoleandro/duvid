@@ -146,7 +146,7 @@
                     <p style="margin:0 0 20px; font-size:.95rem; color:rgba(255,255,255,.82);
                               line-height:1.6; text-shadow:0 1px 4px rgba(0,0,0,0.3);">
                         Explore as dinâmicas do Planeta Terra em uma jornada pixelada.
-                        Questões, simulados e aulas para o Ensino Médio — tudo gratuito.
+                        Questões, simulados e aulas para o Ensino Médio de forma gratuita.
                     </p>
 
                     <!-- CTA -->
@@ -351,7 +351,7 @@
 
                 <!-- ── ESTADO: LOGADO ── -->
                 <div id="display-identificado" style="display:none;">
-                <div style="background:#fff; border-radius:20px; padding:20px 24px;
+                <div class="painel-aluno-card" style="background:#fff; border-radius:20px; padding:20px 24px;
                             box-shadow:0 4px 12px rgba(0,0,0,.06);">
 
                     <!-- ── Linha 1: foto + info + globinhos ── -->
@@ -765,7 +765,7 @@
                 <p style="margin:0 0 14px; font-size:.9rem; color:#4caf50; font-style:italic;">
                     Gratuito, colaborativo e sem pressão
                 </p>
-                <p style="margin:0 auto; max-width:640px; font-size:.88rem; color:#555; line-height:1.7;">
+                <p style="margin:0 auto; max-width:640px; font-size:.9rem; color:#555; line-height:1.7;">
                     O <strong>Duvid Geografia</strong> nasceu de uma sala de aula real. É gratuito, colaborativo
                     e feito com sugestões da turma. Mais de 1000 questões com explicações detalhadas,
                     textos interativos com atividades práticas e apps que funcionam 100% offline.
@@ -817,356 +817,55 @@
         </div>
         </section>
 
-
-        <!-- ======================================
-       4. PAINEL DE TRILHA / LOGIN — REMOVIDO (duplicata do bloco do topo)
-  ======================================= -->
-        <div class="w3-container w3-padding-48" style="background:#f8f9fa; display:none !important;">
-        <div class="w3-content" style="max-width:900px;">
-
-            <?php if ($loginRequired): ?>
-            <div id="banner-login-required-old"
-                 style="background:#fff8e1; border:1.5px solid #f9a825; border-radius:12px;
-                        padding:14px 20px; display:flex; align-items:center; gap:12px;
-                        flex-wrap:wrap; margin-bottom:20px;">
-                <i class="fa fa-lock" style="color:#f9a825; font-size:1.1rem;"></i>
-                <span id="banner-login-texto-old" style="font-size:.9rem; color:#555;">
-                    Você precisa estar logado para acessar essa página. Faça login abaixo. 👇
-                </span>
-            </div>
-            <?php endif; ?>
-
-            <!-- Container principal -->
-            <div id="container-login-old">
-
-                <!-- Loading -->
-                <div id="loading-painel-old" class="w3-center" style="padding:32px 0; display:none;">
-                    <i class="fa fa-spinner w3-spin w3-text-green" style="font-size:2rem;"></i>
-                    <p style="color:#aaa; font-size:.85rem; margin-top:10px;">Carregando seu progresso...</p>
-                </div>
-
-                <!-- Frase motivacional (usada pelo JS) -->
-                <div class="trilha-container-wrapper" style="display:none;">
-                    <p id="frase-motivacional-trilha-old" class="w3-small w3-text-grey w3-center"
-                        style="margin-bottom:10px; font-weight:bold;"></p>
-                </div>
-
-                <!-- Trilha de níveis (usada pelo JS) -->
-                <div class="trilha-scroll-area" style="display:none;">
-                    <div class="trilha-conquistas-container">
-                        <div id="trilha-niveis-old" class="trilha-wrapper">
-                            <div class="linha-trilha-fundo"></div>
-                            <div id="linha-trilha-progresso-old" class="linha-trilha-ativa"></div>
-                            <div id="icones-trilha-placeholder-old" class="icones-wrapper"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- ── ESTADO: NÃO LOGADO ── -->
-                <div id="form-identificacao-old" style="display:none;">
-
-                    <!-- Hero visitante -->
-                    <div style="background:linear-gradient(135deg,#1b5e20,#2e7d32); border-radius:20px;
-                                padding:36px 32px; text-align:center; margin-bottom:24px;">
-                        <p style="color:rgba(255,255,255,.7); font-size:.85rem; margin:0 0 6px; letter-spacing:1px; text-transform:uppercase;">Bem-vindo ao</p>
-                        <h2 style="color:#fff; font-size:1.8rem; font-weight:800; margin:0 0 8px;">Duvid Geografia 🌍</h2>
-                        <p style="color:rgba(255,255,255,.75); font-size:.95rem; margin:0 0 24px;">
-                            Gratuito · Colaborativo · Sem pressão
-                        </p>
-                        <p style="color:rgba(255,255,255,.6); font-size:.8rem; margin:0;">
-                            Crie sua conta gratuita e salve seu progresso
-                        </p>
-                    </div>
-
-                    <!-- Formulário limpo -->
-                    <div style="background:#fff; border-radius:20px; padding:28px 32px;
-                                box-shadow:0 4px 12px rgba(0,0,0,.06); max-width:460px; margin:auto;">
-
-                        <h3 style="margin:0 0 4px; font-size:1.1rem; color:#1b5e20;">Começar jornada</h3>
-                        <p style="margin:0 0 20px; font-size:.82rem; color:#888;">
-                            Já tem conta? Use o mesmo nome e PIN.
-                        </p>
-
-                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">NOME</label>
-                        <input class="w3-input w3-border w3-round-large" type="text"
-                            id="pq0-old" placeholder="Ex: João Silva"
-                            autocomplete="nickname"
-                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem;">
-
-                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">E-MAIL</label>
-                        <input class="w3-input w3-border w3-round-large" type="email"
-                            id="pq-email-old" placeholder="Ex: joao@email.com"
-                            autocomplete="email"
-                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem;">
-
-                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">PIN <span style="color:#aaa; font-weight:400;">(4 dígitos)</span></label>
-                        <input class="w3-input w3-border w3-round-large" type="password"
-                            id="pq-pin-old" placeholder="Ex: 1234"
-                            maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
-                            autocomplete="new-password"
-                            style="margin-bottom:14px; border-color:#e0e0e0; height:44px; font-size:.95rem; letter-spacing:6px;">
-
-                        <label style="font-size:.75rem; font-weight:700; color:#555; display:block; margin-bottom:4px;">CÓDIGO DA TURMA <span style="color:#aaa; font-weight:400;">(opcional)</span></label>
-                        <input class="w3-input w3-border w3-round-large" type="text"
-                            id="pq-turma-old" placeholder="Ex: GEO2024"
-                            autocapitalize="characters"
-                            style="margin-bottom:6px; border-color:#e0e0e0; height:44px; font-size:.95rem; text-transform:uppercase; letter-spacing:2px; font-family:monospace;">
-                        <p style="font-size:.75rem; color:#aaa; margin:0 0 16px;">
-                            Seu professor passou um código? Digite aqui.
-                        </p>
-
-                        <!-- Localização opcional -->
-                        <details id="detalhes-localizacao-old" style="margin-bottom:18px;">
-                            <summary style="cursor:pointer; font-size:.82rem; color:#2e7d32; font-weight:600; user-select:none; list-style:none;">
-                                + Adicionar escola e localização <span style="font-size:.75rem; color:#aaa; font-weight:400;">(para ranking nacional)</span>
-                            </summary>
-                            <div style="margin-top:10px; display:flex; flex-direction:column; gap:8px;">
-                                <select class="w3-select w3-border w3-round-large" id="pq-estado-old" style="height:40px; border-color:#e0e0e0;">
-                                    <option value="">— Estado —</option>
-                                    <option value="AC">Acre</option><option value="AL">Alagoas</option>
-                                    <option value="AP">Amapá</option><option value="AM">Amazonas</option>
-                                    <option value="BA">Bahia</option><option value="CE">Ceará</option>
-                                    <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
-                                    <option value="GO">Goiás</option><option value="MA">Maranhão</option>
-                                    <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
-                                    <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
-                                    <option value="PB">Paraíba</option><option value="PR">Paraná</option>
-                                    <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
-                                    <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
-                                    <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
-                                    <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
-                                    <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
-                                    <option value="TO">Tocantins</option>
-                                </select>
-                                <input class="w3-input w3-border w3-round-large" type="text"
-                                    id="pq-cidade-old" placeholder="Cidade"
-                                    autocomplete="address-level2" style="border-color:#e0e0e0;">
-                                <input class="w3-input w3-border w3-round-large" type="text"
-                                    id="pq-escola-old" placeholder="Nome da escola"
-                                    autocomplete="organization" style="border-color:#e0e0e0;">
-                            </div>
-                        </details>
-
-                        <p id="login-erro-old" class="w3-text-red" style="display:none; font-size:.85rem; margin-bottom:12px;"></p>
-
-                        <button class="w3-button w3-block w3-round-large"
-                            onclick="NomeAlunos('resp0','pq0')"
-                            style="background:#2e7d32; color:#fff; font-weight:700; font-size:1rem;
-                                   height:48px; letter-spacing:.3px; transition:background .15s;"
-                            onmouseover="this.style.background='#1b5e20'"
-                            onmouseout="this.style.background='#2e7d32'">
-                            🚀 Começar Jornada
-                        </button>
-                    </div>
-                </div>
-
-                <!-- ── ESTADO: LOGADO ── -->
-                <div id="display-identificado-old" style="display:none;">
-
-                    <!-- Welcome card -->
-                    <div style="background:#fff; border-radius:20px; padding:20px 24px;
-                                box-shadow:0 4px 12px rgba(0,0,0,.06); margin-bottom:16px;">
-
-                        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
-
-                            <!-- Avatar / patente -->
-                            <div class="medalha-container">
-                                <img id="medalha-patente-old" src="fotoIndex/icones/duvid-patentes-novato.png"
-                                    alt="Patente" title="Sua Patente Atual" class="pixel-art-icon"
-                                    style="width:52px; height:auto;">
-                            </div>
-
-                            <!-- Info -->
-                            <div style="flex:1; min-width:120px;">
-                                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-                                    <span id="lvl-tag-old" class="w3-tag w3-round-large w3-small w3-amber"
-                                          style="font-size:.72rem; padding:3px 10px;">Level 1</span>
-                                    <b class="w3-text-green" id="nome-aluno-texto-old" style="font-size:1.05rem;"></b>
-                                    <button onclick="prepararTrocaNome()"
-                                        class="w3-button w3-tiny w3-round-xlarge w3-light-grey"
-                                        style="padding:2px 8px; font-size:.7rem;">
-                                        <i class="fa fa-pencil"></i>
-                                    </button>
-                                </div>
-                                <p id="rank-nome-old" style="margin:4px 0 0; font-size:.72rem; font-weight:700;
-                                    letter-spacing:1.5px; color:#555;"></p>
-                                <p id="turma-info-old" style="margin:2px 0 0; font-size:.75rem; color:#aaa; display:none;">
-                                    <i class="fa fa-users" style="font-size:.65rem;"></i>
-                                    <span id="turma-nome-label-old"></span>
-                                    <span id="turma-codigo-label-old" style="color:#ccc; margin-left:4px;"></span>
-                                </p>
-                            </div>
-
-                            <!-- XP total -->
-                            <div style="background:#e8f5e9; border-radius:12px; padding:8px 14px; text-align:center;">
-                                <div style="font-size:.65rem; color:#558b2f; text-transform:uppercase; letter-spacing:1px;">globinhos</div>
-                                <div style="font-size:1.1rem; font-weight:800; color:#2e7d32;">
-                                    🌍 <span id="valor-total-central-old">0</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Barra XP -->
-                        <div style="background:#f0f0f0; border-radius:8px; height:8px; margin-top:16px; overflow:hidden;">
-                            <div id="barra-xp-total-old" style="height:100%; width:0%; background:linear-gradient(90deg,#4caf50,#81c784);
-                                border-radius:8px; transition:width 1.5s cubic-bezier(0.4,0,0.2,1);"></div>
-                        </div>
-                        <div style="display:flex; justify-content:space-between; margin-top:4px;">
-                            <span style="font-size:.68rem; color:#aaa;">XP: <span id="xp-atual-old">0</span></span>
-                            <span style="font-size:.68rem; color:#aaa;">Próximo nível: <span id="xp-proximo-old">100</span></span>
-                        </div>
-
-                        <a href="/paginas/ranking.php"
-                            style="display:block; margin-top:16px; background:#f8f9fa; border:1.5px solid #e0e0e0;
-                                   border-radius:12px; padding:10px 16px; text-align:center; text-decoration:none;
-                                   color:#2e7d32; font-weight:700; font-size:.9rem; transition:border-color .15s;"
-                            onmouseover="this.style.borderColor='#4caf50'"
-                            onmouseout="this.style.borderColor='#e0e0e0'">
-                            🏆 Ver ranking da minha turma
-                        </a>
-                    </div>
-
-                    <!-- Progresso por trilha -->
-                    <div id="resumo-geral-old" style="display:none;">
-                        <div class="w3-row-padding">
-
-                            <div class="w3-third w3-margin-bottom">
-                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
-                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
-                                            border-left:4px solid #4caf50;">
-                                    <div id="conquista-1ano-old" style="display:none; position:absolute; top:12px; right:14px;">
-                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
-                                    </div>
-                                    <p style="margin:0 0 2px; font-size:.78rem; color:#558b2f; text-transform:uppercase;
-                                               letter-spacing:1px; font-weight:700;">🌿 Natureza</p>
-                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
-                                        <span id="txt-1ano-old">0/34</span> aulas
-                                    </p>
-                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
-                                        <div id="bar-1ano-old" style="height:100%; width:0%; background:#4caf50;
-                                            border-radius:6px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w3-third w3-margin-bottom">
-                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
-                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
-                                            border-left:4px solid #1976d2;">
-                                    <div id="conquista-2ano-old" style="display:none; position:absolute; top:12px; right:14px;">
-                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
-                                    </div>
-                                    <p style="margin:0 0 2px; font-size:.78rem; color:#1565c0; text-transform:uppercase;
-                                               letter-spacing:1px; font-weight:700;">🇧🇷 Brasil</p>
-                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
-                                        <span id="txt-2ano-old">0/36</span> aulas
-                                    </p>
-                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
-                                        <div id="bar-2ano-old" style="height:100%; width:0%; background:#1976d2;
-                                            border-radius:6px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="w3-third w3-margin-bottom">
-                                <div style="background:#fff; border-radius:16px; padding:16px 18px;
-                                            box-shadow:0 2px 8px rgba(0,0,0,.05); position:relative;
-                                            border-left:4px solid #f57c00;">
-                                    <div id="conquista-3ano-old" style="display:none; position:absolute; top:12px; right:14px;">
-                                        <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;" title="Concluído!"></i>
-                                    </div>
-                                    <p style="margin:0 0 2px; font-size:.78rem; color:#e65100; text-transform:uppercase;
-                                               letter-spacing:1px; font-weight:700;">🌍 Mundo</p>
-                                    <p style="margin:0 0 10px; font-size:.8rem; color:#aaa;">
-                                        <span id="txt-3ano-old">0/36</span> aulas
-                                    </p>
-                                    <div style="background:#f0f0f0; border-radius:6px; height:6px; overflow:hidden;">
-                                        <div id="bar-3ano-old" style="height:100%; width:0%; background:#f57c00;
-                                            border-radius:6px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-                <!-- /display-identificado -->
-
-            </div>
-            <!-- /container-login -->
-
-        </div>
-        </div>
-
-
         <!-- ══ Monitores Duvid — compact side-by-side ══ -->
-        <style>
-        .monitores-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-        .mon-stat { border-radius:10px; padding:9px 7px; text-align:center; }
-        .mon-label { display:block; font-size:.48rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-bottom:3px; }
-        .mon-value { display:block; font-size:.72rem; font-weight:800; line-height:1.2; letter-spacing:-.3px; }
-        .mon-sub   { display:block; font-size:.48rem; margin-top:2px; }
-        .mon-inner { display:grid; grid-template-columns:1fr 1fr 1fr; gap:7px; }
-        /* Dark mode: Monitor Brasil (white card) */
-        body.dark-mode .monitor-brasil-card { background:#1e2a1e !important; border-color:rgba(255,255,255,.08) !important; }
-        body.dark-mode .monitor-brasil-card .mon-stat { background:rgba(255,255,255,.07) !important; }
-        body.dark-mode .monitor-brasil-card .mon-label { color:rgba(255,255,255,.4) !important; }
-        body.dark-mode .monitor-brasil-card .mon-sub   { color:rgba(255,255,255,.25) !important; }
-        body.dark-mode .monitor-brasil-card .mon-header-txt { color:#e0e0e0 !important; }
-        @media (max-width:700px) {
-            .monitores-grid { grid-template-columns:1fr; }
-        }
-        </style>
-
         <section style="background:#f8f9fa; padding:24px 0 20px;">
         <div class="w3-content" style="max-width:1100px; padding:0 16px;">
             <div class="monitores-grid">
 
                 <!-- ── Monitor Global ── -->
-                <div style="background:#1a2e1a; border-radius:18px; padding:16px;">
+                <div class="monitor-global-card" style="background:#fff; border-radius:18px; padding:16px; border:1px solid #ececec; box-shadow:0 2px 8px rgba(0,0,0,.05);">
                     <div style="display:flex; align-items:center; gap:7px; margin-bottom:12px;">
                         <span style="font-size:.9rem;">🌐</span>
-                        <span style="color:#fff; font-weight:700; font-size:.85rem; letter-spacing:-.2px;">Monitor Global</span>
+                        <span class="mon-header-txt" style="color:#222; font-weight:700; font-size:.85rem; letter-spacing:-.2px;">Monitor Global</span>
                         <span style="margin-left:auto; background:#e53935; color:#fff; font-size:.5rem; font-weight:800;
                                      padding:2px 7px; border-radius:20px; letter-spacing:.06em; white-space:nowrap;">● AO VIVO</span>
                     </div>
                     <div class="mon-inner">
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);">POPULAÇÃO</span>
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">POPULAÇÃO</span>
                             <span class="mon-value" id="populacao-live" style="color:#4caf50;">8.254.130.400</span>
-                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">+0.6%/ano</span>
+                            <span class="mon-sub" style="color:#ccc;">+0.6%/ano</span>
                         </div>
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CÂMBIO USD</span>
-                            <span class="mon-value" id="dolar-valor" style="color:#ffb300;">R$ --</span>
-                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Comercial</span>
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">CÂMBIO USD</span>
+                            <span class="mon-value" id="dolar-valor" style="color:#f9a825;">R$ --</span>
+                            <span class="mon-sub" style="color:#ccc;">Comercial</span>
                         </div>
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);">PETRÓLEO BRENT</span>
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">PETRÓLEO BRENT</span>
                             <span class="mon-value" id="petroleo-valor" style="color:#ef5350;">--</span>
-                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Barril (USD)</span>
+                            <span class="mon-sub" style="color:#ccc;">Barril (USD)</span>
                         </div>
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CÂMBIO EUR</span>
-                            <span class="mon-value" id="euro-valor" style="color:#ffb300;">R$ --</span>
-                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Comercial</span>
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">CÂMBIO EUR</span>
+                            <span class="mon-value" id="euro-valor" style="color:#f9a825;">R$ --</span>
+                            <span class="mon-sub" style="color:#ccc;">Comercial</span>
                         </div>
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08); cursor:pointer;" onclick="mudarCidadeClima()" title="Clique para mudar a cidade">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);"><span id="cidade-nome">Poços de Caldas</span> 🔍</span>
-                            <span class="mon-value" id="temp-atual" style="color:#64b5f6;">--°C</span>
-                            <span class="mon-sub" id="clima-desc" style="color:rgba(255,255,255,.25);">Carregando...</span>
+                        <div class="mon-stat" style="background:#f5f7f5; cursor:pointer;" onclick="mudarCidadeClima()" title="Clique para mudar a cidade">
+                            <span class="mon-label" style="color:#aaa;"><span id="cidade-nome">Poços de Caldas</span> 🔍</span>
+                            <span class="mon-value" id="temp-atual" style="color:#1976d2;">--°C</span>
+                            <span class="mon-sub" id="clima-desc" style="color:#ccc;">Carregando...</span>
                         </div>
 
-                        <div class="mon-stat" style="background:rgba(255,255,255,.08);">
-                            <span class="mon-label" style="color:rgba(255,255,255,.4);">CO₂ ATMOSFÉRICO</span>
+                        <div class="mon-stat" style="background:#f5f7f5;">
+                            <span class="mon-label" style="color:#aaa;">CO₂ ATMOSFÉRICO</span>
                             <span class="mon-value" style="color:#ff7043;">~424 ppm</span>
-                            <span class="mon-sub" style="color:rgba(255,255,255,.25);">Keeling Curve</span>
+                            <span class="mon-sub" style="color:#ccc;">Keeling Curve</span>
                         </div>
 
                     </div>
@@ -1230,7 +929,7 @@
 
 
         <!-- ══ Novidades do Blog ══ -->
-        <section style="background:#fff; padding:32px 0 28px;">
+        <section class="blog-novidades-section" style="background:#fff; padding:32px 0 28px;">
         <div class="w3-content" style="max-width:1100px; padding:0 16px;">
 
             <!-- Cabeçalho -->
@@ -1282,11 +981,8 @@
                             display:-webkit-box; -webkit-line-clamp:2;
                             -webkit-box-orient:vertical; overflow:hidden; }
         .blog-card-link { font-size:.75rem; font-weight:600; color:#4caf50; text-decoration:none; }
-        body.dark-mode .blog-card { background:#1e2a1e; border-color:rgba(255,255,255,.07); }
-        body.dark-mode .blog-card-title { color:#a5d6a7; }
-        body.dark-mode .blog-card-resumo { color:rgba(255,255,255,.45); }
         @media (max-width:700px) {
-            #blog-cards-grid { grid-template-columns:1fr; }
+            #blog-cards-grid { grid-template-columns:1fr !important; }
         }
         </style>
 
@@ -1328,7 +1024,7 @@
         <!-- ══ Citação ══ -->
         <section style="background:#f8f9fa; padding:28px 0 32px;">
         <div class="w3-content" style="max-width:720px; padding:0 16px;">
-            <div style="background:#fff; border-radius:20px; padding:28px 28px 24px;
+            <div class="citacao-card" style="background:#fff; border-radius:20px; padding:28px 28px 24px;
                         border:1px solid #f0f0f0; box-shadow:0 2px 12px rgba(0,0,0,.05);
                         display:flex; gap:20px; align-items:center;">
 
@@ -1342,7 +1038,7 @@
                 <!-- Texto -->
                 <div style="flex:1; min-width:0;">
                     <div style="display:flex; gap:8px; align-items:flex-start;">
-                        <span style="color:#c8e6c9; font-size:1.6rem; font-weight:900;
+                        <span class="citacao-aspas" style="color:#c8e6c9; font-size:1.6rem; font-weight:900;
                                      line-height:1; flex-shrink:0; margin-top:2px;">"</span>
                         <p id="frase" style="margin:0; font-size:.97rem; color:#333;
                                              font-style:italic; line-height:1.7;

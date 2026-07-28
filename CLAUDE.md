@@ -90,3 +90,12 @@ Guia completo em `/docs/GUIA-DE-ESTILO.md`
 ## Notion
 Roadmap: https://app.notion.com/p/4773afa5a43947e2988d7bce25f6a2e6
 Status usados: Ideia | Próxima | Bolsista | Feito | Bloqueado
+
+## Backlog — Features Futuras (adicionar ao Notion)
+
+### 🎓 Certificados por Bloco de Aulas
+- Cada módulo (Natureza/Brasil/Mundo) será dividido em blocos temáticos (ex: aulas 1–5, 6–10…)
+- Ao concluir um bloco → aluno ganha certificado validado + nota
+- Professor valida manualmente via painel admin (lista de alunos que completaram o bloco)
+- Certificado aparece desbloqueado no Inventário da página de aulas
+- Prerequisito: definir quais aulas formam cada bloco + criar tela admin de validação

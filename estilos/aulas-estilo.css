@@ -1,154 +1,580 @@
-/* Removida a @font-face da fonte pixel */
+/* ════════════════════════════════════════════════════════════════
+   aulas-estilo.css — Páginas de Aulas (Clean Pixel)
+   ════════════════════════════════════════════════════════════════ */
 
+/* ── Layout base ─────────────────────────────────────────────── */
 body {
-    margin: 0 auto;
-    /* Fonte moderna e de fácil leitura, igual às outras páginas */
-    font-family: "Open Sans", "Segoe UI", Tahoma, sans-serif;
-    background-color: #f1f1f1; 
+    background: #f8f9fa;
     color: #333;
+    font-family: "Segoe UI", Tahoma, sans-serif;
     line-height: 1.6;
-    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Títulos elegantes em verde, seguindo o padrão do site */
-h1, h2, h3, h4 {
-    font-family: "Oswald", sans-serif; /* Mesma fonte dos títulos do Blog/Simulados */
-    text-transform: uppercase;
-    color: #2e7d32;
-    margin-bottom: 20px;
+main {
+    padding-top: 56px; /* altura do header fixo */
 }
 
-/* Grid de Aulas */
-.row {
+/* ── Hero Banner ─────────────────────────────────────────────── */
+.aulas-hero {
+    height: 220px;
+    background-size: cover;
+    background-position: center 40%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 24px;
+    margin: 20px 16px 0;
+}
+
+.aulas-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, .52) 0%,
+        rgba(0, 0, 0, .18) 45%,
+        rgba(0, 0, 0, .04) 100%
+    );
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 8px;
-    justify-content: center;
+    align-items: center;
 }
 
-.column {
-    flex: 25%;
-    max-width: 25%;
-    padding: 12px;
+.aulas-hero-content {
+    width: 100%;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
     box-sizing: border-box;
 }
 
-/* Grid responsivo estilo galeria (Notion): o nº de colunas se ajusta sozinho à
-   largura da tela, sem fixar 4 por linha. Ajuste o "170px" para deixar os cards
-   maiores (menos colunas) ou menores (mais colunas). */
-#grid-aulas.row {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-    gap: 18px;
-    align-items: start;
-}
-#grid-aulas .column {
-    flex: none;
-    max-width: none;
-    width: auto;
-    padding: 0;
-}
+.aulas-hero-text { flex: 1; }
 
-/* Estilo do Card (Texto da Aula) */
-.column p {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-top: 16px;
-    color: #444;
-    height: 3.5em; /* Alinhamento vertical dos títulos */
-    overflow: hidden;
-}
-
-/* Wrapper da Imagem com Zoom Suave */
-.wrapper {
-    overflow: hidden;
-    border-radius: 12px;
-    cursor: pointer;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    background-color: #fff;
-    transition: transform 0.3s;
-    
-    
-    
-}
-
-
-
-.wrapper:hover {
-    transform: translateY(-5px); /* Card sobe levemente ao passar o mouse */
-}
-
-.wrapper img {
-    width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.5s;
-}
-
-.wrapper img:hover {
-    transform: scale(1.1);
-}
-
-/* Modais (Escolha entre Texto e Questões) */
-.w3-modal-content {
-    border-radius: 15px;
-    overflow: hidden;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
-
-/* Garante que o card do modal não grude nas bordas no celular */
-@media (max-width: 600px) {
-    .w3-modal-content {
-        margin-left: 12px !important;
-        margin-right: 12px !important;
-        width: auto !important;
-    }
-}
-
-
-/* Seleciona o parágrafo de título dentro dos cards da home */
-.card-aula p {
-    white-space: normal;      /* Permite quebra de linha */
-    display: -webkit-box;
-    -webkit-line-clamp: 2;    /* Limita a no máximo 2 linhas (estético) */
-    -webkit-box-orient: vertical;
-    overflow: hidden;         /* Esconde o que passar de 2 linhas */
-    text-overflow: ellipsis;  /* Adiciona "..." se for realmente MUITO longo */
-    height: 40px;             /* Mantém todos os cards com a mesma altura */
-    text-align: center;
-    font-size: 0.9em;
-}
-/* Estilo para os botões dentro do Modal */
-.w3-modal-content .w3-button {
-    font-weight: bold;
+.aulas-hero-tag {
+    display: inline-block;
+    font-size: .65rem;
+    font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: .15em;
+    color: #81c784;
+    margin-bottom: 6px;
 }
 
-/* Dark Mode - Sincronizado com o restante do site */
+.aulas-hero-h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 8px;
+    letter-spacing: -.5px;
+    line-height: 1.1;
+    text-transform: none;
+}
+
+.aulas-hero-desc {
+    font-size: .82rem;
+    color: rgba(255, 255, 255, .72);
+    margin: 0;
+    max-width: 480px;
+    line-height: 1.5;
+}
+
+.aulas-hero-badge {
+    background: rgba(255, 255, 255, .12);
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: 16px;
+    padding: 14px 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.hero-badge-num {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+}
+
+.hero-badge-label {
+    display: block;
+    font-size: .65rem;
+    color: rgba(255, 255, 255, .65);
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    margin-top: 3px;
+}
+
+/* ── Body (2 colunas) ────────────────────────────────────────── */
+.aulas-body {
+    padding: 20px 24px 48px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.aulas-main {
+    flex: 1;
+    min-width: 0;
+}
+
+.aulas-aside {
+    width: 240px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+/* ── Progress Card ───────────────────────────────────────────── */
+.prog-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+    border: 1px solid #ececec;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+
+.prog-card-visitante {
+    padding: 20px;
+}
+
+.prog-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.prog-card-info { flex: 1; }
+
+.prog-lvl-tag {
+    display: inline-block;
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-size: .65rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 2px 8px;
+    border-radius: 20px;
+}
+
+.prog-nome {
+    font-size: .95rem;
+    font-weight: 700;
+    color: #1b5e20;
+}
+
+.prog-patente {
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.prog-card-xp {
+    background: #e8f5e9;
+    border-radius: 10px;
+    padding: 8px 12px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.prog-xp-valor {
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 800;
+    color: #2e7d32;
+    line-height: 1.1;
+}
+
+.prog-xp-label {
+    display: block;
+    font-size: .6rem;
+    color: #558b2f;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-top: 2px;
+}
+
+.prog-bar-wrap {
+    background: #f0f0f0;
+    border-radius: 6px;
+    height: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.prog-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    border-radius: 6px;
+    transition: width 1.4s cubic-bezier(.4,0,.2,1);
+}
+
+.prog-card-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prog-label {
+    font-size: .75rem;
+    color: #aaa;
+}
+
+/* ── Cards de Aula ───────────────────────────────────────────── */
+#grid-aulas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 16px;
+}
+
+.aula-card {
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #ececec;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+    transition: transform .2s, box-shadow .2s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.aula-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,.1);
+}
+
+/* Status border */
+.aula-card-done { border-color: #4caf50; border-width: 2px; }
+.aula-card-wip  { border-color: #ff9800; border-width: 2px; }
+
+/* Não iniciada: imagem cinza */
+.aula-card-nova .aula-img-wrap img {
+    filter: grayscale(1);
+    opacity: .7;
+}
+.aula-card-nova .aula-titulo { color: #777; }
+.aula-card-nova .aula-num    { color: #ccc; }
+
+/* Status badge (sobre a imagem) */
+.aula-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: .6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    padding: 3px 8px;
+    border-radius: 20px;
+    z-index: 2;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.aula-badge-ok {
+    background: #2e7d32;
+    color: #fff;
+}
+
+.aula-badge-wip {
+    background: #e65100;
+    color: #fff;
+}
+
+/* Imagem — altura fixa para uniformidade */
+.aula-img-wrap {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f0f0f0;
+}
+
+.aula-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .4s;
+}
+
+.aula-card:hover .aula-img-wrap img {
+    transform: scale(1.05);
+}
+
+/* Conteúdo abaixo da imagem */
+.aula-content {
+    padding: 12px 14px 14px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.aula-num {
+    font-size: .62rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #aaa;
+}
+
+.aula-titulo {
+    font-size: .88rem;
+    font-weight: 700;
+    color: #1b5e20;
+    margin: 0;
+    line-height: 1.3;
+    /* 2 linhas max */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-transform: none;
+}
+
+.aula-desc {
+    font-size: .72rem;
+    color: #888;
+    margin: 2px 0 0;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.aula-actions {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+/* Botões dos cards */
+.aula-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: .7rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .15s, color .15s;
+    white-space: nowrap;
+    letter-spacing: .02em;
+}
+
+.aula-btn-primary {
+    background: #2e7d32;
+    color: #fff;
+}
+.aula-btn-primary:hover { background: #1b5e20; color: #fff; }
+
+.aula-btn-ghost {
+    background: #f0f7f0;
+    color: #2e7d32;
+    border: 1px solid #c8e6c9;
+}
+.aula-btn-ghost:hover { background: #e8f5e9; }
+
+/* ── Widgets da aside ────────────────────────────────────────── */
+.widget-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 14px 16px;
+    border: 1px solid #ececec;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+}
+
+.widget-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.widget-head-sub {
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-size: .6rem;
+    padding: 2px 7px;
+    border-radius: 20px;
+    font-weight: 800;
+}
+
+/* Inventário */
+.inventario-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inv-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    transition: background .15s;
+    text-decoration: none;
+    color: inherit;
+}
+
+.inv-item.inv-desbloqueado {
+    background: #f8f9fa;
+    cursor: pointer;
+}
+.inv-item.inv-desbloqueado:hover { background: #f0f7f0; }
+
+.inv-item.inv-bloqueado {
+    background: #fafafa;
+    opacity: .55;
+}
+
+.inv-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    width: 28px;
+    text-align: center;
+}
+
+.inv-icon-locked { filter: grayscale(1); opacity: .5; }
+
+.inv-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.inv-nome {
+    display: block;
+    font-size: .78rem;
+    font-weight: 700;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.inv-rarity {
+    display: block;
+    font-size: .58rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-top: 1px;
+}
+
+.inv-comum     { color: #888; }
+.inv-raro      { color: #1565c0; }
+.inv-epico     { color: #6a1b9a; }
+.inv-lendario  { color: #e65100; }
+.inv-locked-txt { color: #ccc; }
+
+.inv-lock  { color: #ccc; font-size: .75rem; }
+.inv-arrow { color: #bbb; font-size: .7rem; }
+
+/* Comunidade widget */
+.widget-comunidade { border-color: #e8f5e9; }
+
+.widget-desc {
+    font-size: .78rem;
+    color: #777;
+    margin: 0 0 12px;
+    line-height: 1.5;
+}
+
+.widget-btn {
+    display: block;
+    background: #2e7d32;
+    color: #fff;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 10px;
+    font-size: .78rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background .15s;
+}
+.widget-btn:hover { background: #1b5e20; color: #fff; }
+
+/* ── Dark Mode ───────────────────────────────────────────────── */
 body.dark-mode {
-    background-color: #1a1a1a !important;
+    background: #121212 !important;
     color: #e0e0e0 !important;
 }
 
-body.dark-mode .w3-white, 
-body.dark-mode .w3-modal-content {
-    background-color: #2d2d2d !important;
-    color: #fff !important;
+body.dark-mode .prog-card,
+body.dark-mode .aula-card,
+body.dark-mode .widget-card {
+    background: #1e2a1e !important;
+    border-color: rgba(255,255,255,.08) !important;
+    box-shadow: none !important;
 }
 
-body.dark-mode .column p {
-    color: #bbb;
-}
+body.dark-mode .prog-nome    { color: #a5d6a7 !important; }
+body.dark-mode .prog-label   { color: rgba(255,255,255,.35) !important; }
+body.dark-mode .prog-lvl-tag { background: rgba(76,175,80,.15) !important; color: #81c784 !important; }
+body.dark-mode .prog-card-xp { background: rgba(76,175,80,.12) !important; }
+body.dark-mode .prog-xp-valor { color: #81c784 !important; }
+body.dark-mode .prog-xp-label { color: rgba(76,175,80,.7) !important; }
+body.dark-mode .prog-bar-wrap { background: rgba(255,255,255,.1) !important; }
 
-/* Responsividade */
-@media (max-width: 992px) {
-    .column { flex: 33.33%; max-width: 33.33%; }
+body.dark-mode .aula-titulo   { color: #a5d6a7 !important; }
+body.dark-mode .aula-num      { color: rgba(255,255,255,.25) !important; }
+body.dark-mode .aula-desc     { color: rgba(255,255,255,.4) !important; }
+body.dark-mode .aula-btn-ghost { background: rgba(76,175,80,.12) !important; border-color: rgba(76,175,80,.25) !important; color: #81c784 !important; }
+body.dark-mode .aula-img-wrap { background: #2a2a2a !important; }
+
+body.dark-mode .inv-nome      { color: #e0e0e0 !important; }
+body.dark-mode .inv-item.inv-desbloqueado { background: rgba(255,255,255,.05) !important; }
+body.dark-mode .inv-item.inv-desbloqueado:hover { background: rgba(76,175,80,.1) !important; }
+body.dark-mode .widget-head   { color: #e0e0e0 !important; }
+body.dark-mode .widget-desc   { color: rgba(255,255,255,.4) !important; }
+body.dark-mode .widget-comunidade { border-color: rgba(76,175,80,.2) !important; }
+
+/* ── Responsivo ──────────────────────────────────────────────── */
+
+/* Tablet: sidebar some, conteúdo ocupa full */
+@media (max-width: 900px) {
+    .aulas-hero { margin: 12px 12px 0; }
+
+    /* Aside vai para baixo do grid */
+    .aulas-body {
+        flex-direction: column;
+    }
+    .aulas-aside {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .aulas-aside .widget-card { flex: 1; min-width: 240px; }
 }
 
 @media (max-width: 600px) {
-    .column { flex: 50%; max-width: 50%; padding: 6px; }
-    .column p { font-size: 1.2rem; height: 3em; }
+    .aulas-hero { height: 180px; }
+    .aulas-hero-h1 { font-size: 1.4rem; }
+    .aulas-hero-desc { display: none; }
+    .aulas-hero-badge { padding: 10px 14px; }
+    .hero-badge-num { font-size: 1.4rem; }
+
+    .aulas-body { padding: 14px 12px 40px; gap: 12px; }
+
+    #grid-aulas { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+    .aulas-aside { flex-direction: column; }
+    .aulas-aside .widget-card { min-width: unset; }
 }

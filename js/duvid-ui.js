@@ -217,10 +217,10 @@ const DuvidUI = {
         const timer = setInterval(() => {
             atual += inc;
             if (Math.abs(atual - valorFinal) < 1) {
-                el.innerText = valorFinal.toFixed(1);
+                el.innerText = Math.round(valorFinal);
                 clearInterval(timer);
             } else {
-                el.innerText = atual.toFixed(1);
+                el.innerText = Math.round(atual);
             }
         }, 30);
     },

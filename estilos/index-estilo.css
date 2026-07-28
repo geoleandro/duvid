@@ -1,3 +1,44 @@
+/* ══ Monitores Duvid ══ */
+.monitores-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+.mon-stat  { border-radius:10px; padding:9px 7px; text-align:center; }
+.mon-label { display:block; font-size:0.8rem !important; font-weight:700; text-transform:uppercase; letter-spacing:.08em; margin-bottom:3px; }
+.mon-value { display:block; font-size:0.8em !important; font-weight:800; line-height:1.2; letter-spacing:-.3px; }
+.mon-sub   { display:block; font-size:9px !important; margin-top:2px; }
+.mon-inner { display:grid; grid-template-columns:1fr 1fr 1fr; gap:7px; }
+
+/* Dark mode — Monitores */
+body.dark-mode .monitor-global-card,
+body.dark-mode .monitor-brasil-card  { background:#1e2a1e !important; border-color:rgba(255,255,255,.08) !important; }
+body.dark-mode .monitor-global-card .mon-stat,
+body.dark-mode .monitor-brasil-card .mon-stat  { background:rgba(255,255,255,.07) !important; }
+body.dark-mode .monitor-global-card .mon-label,
+body.dark-mode .monitor-brasil-card .mon-label { color:rgba(255,255,255,.4) !important; }
+body.dark-mode .monitor-global-card .mon-sub,
+body.dark-mode .monitor-brasil-card .mon-sub   { color:rgba(255,255,255,.25) !important; }
+body.dark-mode .monitor-global-card .mon-header-txt,
+body.dark-mode .monitor-brasil-card .mon-header-txt { color:#e0e0e0 !important; }
+
+/* Dark mode — Painel do aluno */
+body.dark-mode .painel-aluno-card { background:#1e2a1e !important; box-shadow:none !important; }
+
+/* Dark mode — Blog Novidades */
+body.dark-mode .blog-novidades-section             { background:#121212 !important; }
+body.dark-mode .blog-card                          { background:#1e2a1e !important; border-color:rgba(255,255,255,.07) !important; }
+body.dark-mode .blog-card-title                    { color:#a5d6a7 !important; }
+body.dark-mode .blog-card-resumo                   { color:rgba(255,255,255,.45) !important; }
+body.dark-mode .blog-card-tag                      { background:rgba(76,175,80,.15) !important; color:#81c784 !important; }
+body.dark-mode .blog-card-link                     { color:#81c784 !important; }
+body.dark-mode .blog-skeleton                      { background:#1e2a1e !important; }
+body.dark-mode .blog-skeleton > div                { background:rgba(255,255,255,.06) !important; }
+
+/* Dark mode — Citação */
+body.dark-mode .citacao-card          { background:#1e2a1e !important; border-color:rgba(255,255,255,.08) !important; }
+body.dark-mode .citacao-aspas         { color:rgba(76,175,80,.4) !important; }
+
+@media (max-width:700px) {
+    .monitores-grid { grid-template-columns:1fr; }
+}
+
 /* Impede o balanco lateral no site todo */
 html {
     max-width: 100%;

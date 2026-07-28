@@ -222,11 +222,10 @@
   // "Melhorar esta aula" no DOMContentLoaded; o setTimeout(0) garante que o
   // diorama entre depois do botão e possa ser inserido antes dele corretamente.
   function injetarFundo() {
+    // Páginas de aulas já têm o diorama no banner — não duplicar no rodapé
+    if (isNatureza || isBrasil || isMundo) return;
     var fundoSrc = null;
-    if (isHome)     fundoSrc = '/fotoIndex/tileset/fundo.webp';
-    if (isNatureza) fundoSrc = '/fotoIndex/tileset/fundo-natureza.webp';
-    if (isBrasil)   fundoSrc = '/fotoIndex/tileset/fundo-brasil.webp';
-    if (isMundo)    fundoSrc = '/fotoIndex/tileset/fundo-mundo.webp';
+    if (isHome) fundoSrc = '/fotoIndex/tileset/fundo.webp';
     if (!fundoSrc) return;
     var s = document.createElement('style');
     s.textContent = '#duvid-fundo{display:block;width:100%;line-height:0;pointer-events:none;}#duvid-fundo img{width:100%;height:auto;display:block;}';
@@ -420,7 +419,6 @@
 
   // ── Modal Mural Colaborativo ───────────────────────────────────────────────
   (function initMural() {
-    if (!isHome) return;
     var css = [
       '#mural-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.55);z-index:700;align-items:center;justify-content:center;}',
       '#mural-overlay.aberto{display:flex;}',
@@ -526,5 +524,8 @@
     var el = document.getElementById('mural-overlay');
     if (el) el.classList.remove('aberto');
   }
+
+  // Expõe globalmente para uso em outras páginas
+  window.abrirModalMural = abrirModalMural;
 
 }());
