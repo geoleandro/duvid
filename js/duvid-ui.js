@@ -28,16 +28,16 @@ const DuvidUI = {
             }
         }
 
-        // 1. Atualiza Header (Globinhos Dourados)
+        // 1. Atualiza Header — número completo com separador de milhar
         const elHeader = document.getElementById("saldoTotalHeader");
         if (elHeader) {
-            if (elHeader.innerText !== saldoFormatado) {
+            const saldoHeader = Math.floor(progresso.saldoAtual).toLocaleString('pt-BR');
+            if (elHeader.innerText !== saldoHeader) {
                 elHeader.classList.add('w3-animate-zoom');
                 setTimeout(() => elHeader.classList.remove('w3-animate-zoom'), 500);
             }
-            elHeader.innerText = saldoFormatado;
-            // Ajusta tamanho da fonte para caber no badge
-            elHeader.style.fontSize = saldoFormatado.length > 4 ? '13px' : '';
+            elHeader.innerText = saldoHeader;
+            elHeader.style.fontSize = ''; // deixa o CSS do pill badge controlar
         }
         // Atualiza Nota da Aula (Nota Fixa Branca)
         const elNota = document.getElementById("notaFixa");
@@ -375,33 +375,57 @@ const DuvidUI = {
         }, 1500);
     },
 
+    // Mapa explícito patente → slug do arquivo. Os arquivos em
+    // /fotoIndex/icones/ não seguem 1:1 o nome da patente (ex: "GEÓGRAFO
+    // SÊNIOR" é só "geografo.png", "LENDA DA TERRA" é só "lenda.png"), então
+    // uma slugificação automática do texto quebra essas duas imagens.
+    SLUG_PATENTE: {
+        'NOVATO':          'novato',
+        'EXPLORADOR':      'explorador',
+        'CARTÓGRAFO':      'cartografo',
+        'ESTRATEGISTA':    'estrategista',
+        'GEÓGRAFO SÊNIOR': 'geografo',
+        'LENDA DA TERRA':  'lenda',
+    },
+
+    getIconePatente: function (patente) {
+        const slug = this.SLUG_PATENTE[(patente || '').toUpperCase()] || 'novato';
+        return `/fotoIndex/icones/duvid-patentes-${slug}.png`;
+    },
+
     atualizarMedalhas: function (patente) {
         if (!patente) return;
 
-        // 1. O "TRADUTOR": Converte "GEÓGRAFO SÊNIOR" em "geografo-senior"
-        const slug = patente.toLowerCase()
-            .normalize("NFD")
-            .replace(/[\u0300-\u036f]/g, "")
-            .replace(/\s+/g, '-');
+        const caminhoImg = this.getIconePatente(patente);
 
-        const caminhoImg = `fotoIndex/icones/duvid-patentes-${slug}.png`;
-
-        // 2. O "ALVO": Procura os IDs no HTML (Header e Painel Home)
+        // Procura os IDs no HTML (Header e Painel Home)
         const idsMedalhas = ["medalha-header", "medalha-patente"];
 
         idsMedalhas.forEach(id => {
             const el = document.getElementById(id);
             if (el) {
-                // Só troca se a imagem for diferente da atual
                 if (!el.src.includes(caminhoImg)) {
                     el.src = caminhoImg;
-
-                    // 3. O "TOQUE DE MESTRE": Animação de subida de nível
                     el.classList.add('w3-animate-zoom');
                     setTimeout(() => el.classList.remove('w3-animate-zoom'), 500);
                 }
             }
         });
+
+        const progresso = (typeof DuvidDB !== "undefined") ? DuvidDB.getProgressoRPG() : null;
+        if (progresso) {
+            const sbImg = document.getElementById('sidebar-medalha-img');
+            if (sbImg && !sbImg.src.includes(caminhoImg)) sbImg.src = caminhoImg;
+
+            const sbNivel = document.getElementById('sidebar-nivel-txt');
+            if (sbNivel) sbNivel.textContent = `Nível ${progresso.lvl}`;
+
+            const sbRank = document.getElementById('sidebar-rank-txt');
+            if (sbRank) sbRank.textContent = patente.charAt(0) + patente.slice(1).toLowerCase();
+
+            const sbBar = document.getElementById('sidebar-xp-bar');
+            if (sbBar) sbBar.style.width = progresso.progressoBarra + '%';
+        }
     },
 
     executarGatilhoResultado: function (correto, pontos = 0, opcoes = {}) {

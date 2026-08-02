@@ -1,53 +1,133 @@
-/* Equaliza altura dos cards na mesma linha */
-#container-atividades {
-    display: flex !important;
+/* ════════════════════════════════════════════════════════════════
+   atividades-estilo.css — Clean Pixel / GeoExplorer System
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Corpo da página (sem painel direito) ────────────────────────── */
+.atv-body-pad {
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0 48px 48px;
+    box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+    .atv-body-pad { padding: 0 24px 48px; }
+}
+@media (max-width: 640px) {
+    .atv-body-pad { padding: 0 12px 40px; }
+}
+
+/* Sidebar: garante recuo quando sidebar existe (mesmo padrão de texto-estilo.css) */
+body:has(#sidebar-duvid) main.texto-layout {
+    margin-left: 200px !important;
+}
+@media (max-width: 900px) {
+    body:has(#sidebar-duvid) main.texto-layout {
+        margin-left: 0 !important;
+    }
+}
+
+/* ── Toolbar: busca + filtros ────────────────────────────────────── */
+.atv-toolbar {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    padding: 20px 24px;
+    margin-bottom: 24px;
+}
+
+.atv-busca-wrap {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.atv-busca-icon {
+    position: absolute;
+    left: 14px;
+    color: #9e9e9e;
+    font-size: 0.9rem;
+}
+
+.atv-busca-input {
+    width: 100%;
+    padding: 10px 14px 10px 38px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    color: #333;
+    background: #f8f9fa;
+    outline: none;
+    transition: border-color .15s;
+    box-sizing: border-box;
+}
+.atv-busca-input:focus { border-color: #4caf50; background: #fff; }
+
+.atv-filtros {
+    display: flex;
     flex-wrap: wrap;
+    gap: 6px;
+}
+
+/* ── Grid de atividades — 3 colunas ─────────────────────────────── */
+.atv-grid,
+#container-atividades {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 14px !important;
     align-items: stretch;
 }
 
-#container-atividades > div {
-    display: flex;
-    flex-direction: column;
+@media (max-width: 900px) {
+    .atv-grid,
+    #container-atividades { grid-template-columns: repeat(2, 1fr) !important; }
 }
 
-#container-atividades .card-rpg {
-    flex: 1;
+@media (max-width: 560px) {
+    .atv-grid,
+    #container-atividades { grid-template-columns: 1fr !important; }
+}
+
+#container-atividades > div {
+    display: contents; /* cada filho vira item direto do grid */
 }
 
 /* Estilo dos Cards */
 .card-rpg {
-    border-top: 4px solid #4CAF50;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 4px solid #ddd;
-    transition: all 0.3s ease;
-    
-    /* Mude para flex-start para o conteúdo não "espalhar" */
+    border-top: 3px solid #4CAF50;
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 16px;
+    background: #fff;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    
-    /* Define um espaço padrão entre cada elemento do card */
-    gap: 5px; 
-    
-    padding: 20px;
-    min-height: auto; /* Deixe o card crescer conforme o texto */
+    gap: 4px;
+    padding: 14px 16px;
+    min-height: auto;
 }
 
 /* Garante que os botões fiquem no final sem empurrar o resto */
 .card-buttons {
-    margin-top: auto; /* Empurra apenas os botões para o fim se o card for alto */
+    margin-top: auto;
     display: flex;
-    gap: 10px;
-    padding-top: 10px;
+    gap: 8px;
+    padding-top: 8px;
 }
 
 .card-rpg h3, .card-rpg .titulo-atividade {
-    margin: 0; /* O gap do container já cuida do espaçamento */
+    margin: 0;
     line-height: 1.3;
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #333;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #1c1b1b;
 }
 
 /* ESPAÇAMENTO ENTRE AS TAGS SUPERIORES */

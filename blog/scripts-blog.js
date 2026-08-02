@@ -1,642 +1,466 @@
 let artigos = [];
-const postsPorPagina = 9;
+const postsPorPagina = 8;
 let paginaAtual = 1;
-const corTemaLateral = "w3-green"; // Altere aqui para mudar a cor de toda a barra lateral
 
-
-
+/* ──────────────────────────────────────────────────────────────────
+   CARREGAMENTO DE DADOS
+────────────────────────────────────────────────────────────────── */
 async function carregarDadosDoArquivo() {
     try {
-        // Se o seu blog está na pasta 'blog', use /blog/artigos.json
-        // Se o seu blog está na raiz, use apenas /artigos.json
         let caminho = '/blog/artigos.json';
-
-        // Se você estiver testando localmente (Live Server), ele ajusta o caminho
         if (window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost") {
             caminho = window.location.pathname.includes('/artigos/') ? '../../artigos.json' : 'artigos.json';
         }
-
         const resposta = await fetch(caminho);
-
-        if (!resposta.ok) {
-            // Se falhar, tentamos o caminho relativo como última tentativa
-            throw new Error("Erro no fetch principal");
-        }
-
+        if (!resposta.ok) throw new Error("Erro no fetch principal");
         artigos = await resposta.json();
-
-        // --- EXECUÇÃO DAS AUTOMAÇÕES ---
-
-        preencherDadosAutomaticos(artigos); // Injeta Título, Data e Imagem do post
-
-        renderizarPostsRecentes();         // Monta a barra lateral
-        renderizarNuvemDeTags();           // Monta as tags
-        renderizarLeiaTambem();            // Monta as sugestões
-        carregarComentariosFacebook();     // Injeta o plugin do FB
-        renderizarArquivoBlog();
-        renderizarDestaque();
-        renderizarArtigos(paginaAtual);
-        renderizarSecaoViagens();
-
-        // --- INICIALIZAÇÃO DE INTERAÇÕES ---
-
-
-
-
-    } catch (erro) {
-        // Tentativa de emergência se o caminho absoluto falhar no seu servidor específico
+        _inicializar();
+    } catch (e) {
         console.warn("Tentando caminho alternativo...");
         try {
-            const backupPath = window.location.pathname.includes('/artigos/') ? '../../artigos.json' : 'artigos.json';
-            const resp = await fetch(backupPath);
-            artigos = await resp.json();
-
-            preencherDadosAutomaticos(artigos); // Injeta Título, Data e Imagem do post
-
-            renderizarPostsRecentes();         // Monta a barra lateral
-            renderizarNuvemDeTags();           // Monta as tags
-            renderizarLeiaTambem();            // Monta as sugestões
-            carregarComentariosFacebook();     // Injeta o plugin do FB
-            renderizarArquivoBlog();
-            renderizarArtigos(paginaAtual);
-            renderizarSecaoViagens();
-            renderizarDestaque();
-
-            // --- INICIALIZAÇÃO DE INTERAÇÕES ---
-
-
-
-        } catch (e) {
-            console.error("Falha total ao carregar o JSON:", e);
+            const backup = window.location.pathname.includes('/artigos/') ? '../../artigos.json' : 'artigos.json';
+            artigos = await (await fetch(backup)).json();
+            _inicializar();
+        } catch (e2) {
+            console.error("Falha ao carregar JSON:", e2);
         }
     }
 }
 
+function _inicializar() {
+    preencherDadosAutomaticos(artigos);
+    renderizarPostsRecentes();
+    renderizarNuvemDeTags();
+    renderizarLeiaTambem();
+    carregarComentariosFacebook();
+    renderizarArquivoBlog();
+    renderizarDestaque();
+    renderizarArtigos(paginaAtual);
+    renderizarSecaoViagens();
+}
 
-
-
+/* ──────────────────────────────────────────────────────────────────
+   AUTOMAÇÕES (páginas de artigo individual)
+────────────────────────────────────────────────────────────────── */
 function preencherDadosAutomaticos(artigos) {
     const urlAtual = window.location.pathname;
     const artigoDados = artigos.find(a => urlAtual.includes(a.link.replace('/blog/', '')));
+    if (!artigoDados) return;
 
-    if (artigoDados) {
-        // Preenche os dados (Título, Imagem, Data)
-        document.title = `${artigoDados.titulo} - Duvid Blog`;
-        document.getElementById('artigo-titulo-principal').innerText = artigoDados.titulo;
-        document.getElementById('artigo-data').innerText = artigoDados.data;
+    document.title = `${artigoDados.titulo} - Duvid Blog`;
 
-        const img = document.getElementById('imagem-principal');
+    const elTitulo = document.getElementById('artigo-titulo-principal');
+    if (elTitulo) elTitulo.innerText = artigoDados.titulo;
+
+    const elData = document.getElementById('artigo-data');
+    if (elData) elData.innerText = artigoDados.data;
+
+    const img = document.getElementById('imagem-principal');
+    if (img) {
         img.src = artigoDados.imagem;
         img.alt = artigoDados.titulo;
-
-        // --- NOVA LÓGICA: REMOVER SKELETON ---
-        // Quando a imagem terminar de carregar, mostramos tudo
         img.onload = function () {
-            document.getElementById('skeleton-title').style.display = 'none';
-            document.getElementById('skeleton-img').style.display = 'none';
-            document.getElementById('skeleton-data').style.display = 'none';
-
-            document.getElementById('artigo-titulo-principal').classList.remove('hidden-loading');
-            document.getElementById('imagem-principal').classList.remove('hidden-loading');
-            document.getElementById('artigo-data').classList.remove('hidden-loading');
+            ['skeleton-title','skeleton-img','skeleton-data'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.style.display = 'none';
+            });
+            ['artigo-titulo-principal','imagem-principal','artigo-data'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.classList.remove('hidden-loading');
+            });
         };
-
-        renderizarCitacaoDoArtigo(artigoDados);
-
-        atualizarMetaTags(artigoDados);
-        renderizarBotoesCompartilhamento(artigoDados);
     }
+
+    renderizarCitacaoDoArtigo(artigoDados);
+    atualizarMetaTags(artigoDados);
+    renderizarBotoesCompartilhamento(artigoDados);
 }
 
-// Nova função auxiliar para SEO
 function atualizarMetaTags(artigo) {
-    // Descrição (Meta tag normal)
-    const metaDesc = document.getElementById('meta-description');
-    if (metaDesc) metaDesc.setAttribute('content', artigo.resumo || "Leia este artigo completo no Duvid Blog.");
-
-    // Facebook / WhatsApp / LinkedIn (Open Graph)
-    const ogTitle = document.getElementById('og-title');
-    if (ogTitle) ogTitle.setAttribute('content', artigo.titulo);
-
-    const ogDesc = document.getElementById('og-description');
-    if (ogDesc) ogDesc.setAttribute('content', artigo.resumo || "Confira este conteúdo incrível no nosso blog.");
-
-    const ogImg = document.getElementById('og-image');
-    if (ogImg) {
-        // Se a imagem for caminho relativo, o ideal é que seja absoluto para redes sociais
-        // Ex: https://seusite.com/blog/imagem.jpg
-        ogImg.setAttribute('content', window.location.origin + artigo.imagem);
-    }
+    const set = (id, val) => { const el = document.getElementById(id); if (el) el.setAttribute('content', val); };
+    set('meta-description', artigo.resumo || "Leia este artigo no Duvid Blog.");
+    set('og-title', artigo.titulo);
+    set('og-description', artigo.resumo || "Confira este conteúdo no Duvid Blog.");
+    set('og-image', window.location.origin + artigo.imagem);
 }
-
-
 
 function renderizarBotoesCompartilhamento(artigo) {
     const container = document.getElementById('icones-compartilhamento');
     if (!container) return;
-
     const urlFull = encodeURIComponent(window.location.href);
-    const texto = encodeURIComponent(artigo.titulo);
-
+    const texto   = encodeURIComponent(artigo.titulo);
     container.innerHTML = `
-    <div class="w3-padding-16">
-        <span class="w3-opacity w3-small"><b>Compartilhe:</b></span>
-        <div class="share-container">
-            <a href="https://api.whatsapp.com/send?text=${texto}%20${urlFull}" 
-               target="_blank" 
-               class="w3-button w3-green w3-round-large" 
-               style="text-decoration:none">
-                <i class="fab fa-whatsapp w3-margin-right"></i> WhatsApp
-            </a>
-
-            <a href="https://www.facebook.com/sharer/sharer.php?u=${urlFull}" 
-               target="_blank" 
-               class="w3-button w3-blue w3-round-large" 
-               style="text-decoration:none">
-                <i class="fab fa-facebook w3-margin-right"></i> Facebook
-            </a>
-        </div>
-    </div>
-`;
-}
-
-// FUNÇÃO PARA OS POSTS RECENTES NA BARRA LATERAL
-// 1. ATUALIZAÇÃO: Posts Recentes
-function renderizarPostsRecentes() {
-    const containerDinamico = document.getElementById('posts-recentes-container');
-    if (!containerDinamico || artigos.length === 0) return;
-
-    const recentes = artigos.slice(0, 4);
-    let html = `
-        <div class="w3-white w3-margin">
-            <div class="w3-container w3-padding ${corTemaLateral}">
-                <h4>Posts Recentes</h4>
+        <div style="padding:16px 0;">
+            <span style="font-size:.82rem; color:#999; font-family:'Montserrat',sans-serif; font-weight:600;">Compartilhe:</span>
+            <div class="share-container" style="margin-top:8px;">
+                <a href="https://api.whatsapp.com/send?text=${texto}%20${urlFull}" target="_blank"
+                   style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;
+                          background:#25D366;color:#fff;border-radius:20px;text-decoration:none;
+                          font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u=${urlFull}" target="_blank"
+                   style="display:inline-flex;align-items:center;gap:6px;padding:8px 18px;
+                          background:#1877F2;color:#fff;border-radius:20px;text-decoration:none;
+                          font-family:'Montserrat',sans-serif;font-size:.82rem;font-weight:700;margin-left:8px;">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
             </div>
-            <ul class="w3-ul w3-hoverable w3-white">`;
-
-    recentes.forEach(artigo => {
-        html += `
-            <li class="w3-padding-16" style="cursor:pointer" onclick="window.location.href='${artigo.link}'">
-                <img src="${artigo.imagem}" class="w3-left w3-margin-right" style="width:50px; height:50px; object-fit: cover;">
-                <p>${artigo.titulo}</p>
-                <span class="w3-small w3-opacity">${artigo.data}</span>
-            </li>`;
-    });
-
-    html += `</ul></div>`;
-    containerDinamico.innerHTML = html;
+        </div>`;
 }
-
 
 function renderizarCitacaoDoArtigo(artigo) {
     const container = document.getElementById('citacao-dinamica');
-
-    if (container && artigo.citacao_texto) {
-        // Usamos apenas as classes de cor/borda do W3.CSS 
-        // A classe 'citacao-container' e 'corpo-artigo' cuidam do resto pelo seu CSS
+    if (!container) return;
+    if (artigo.citacao_texto) {
         container.innerHTML = `
-            <div class="citacao-container w3-light-grey w3-leftbar w3-border-green w3-padding-64 w3-margin-top w3-margin-bottom">
-                <div class="w3-container"> 
-                    <h4 class="w3-large w3-center" style="margin-top:0;">
-                        "${artigo.citacao_texto}"
-                    </h4>
-                    <p class="w3-small w3-right-align">
-                        <strong>— ${artigo.citacao_autor || 'Autor desconhecido'}</strong>
-                    </p>
-                </div>
-            </div>
-        `;
-    } else if (container) {
+            <div style="background:#f8f9fa;border-left:4px solid #4caf50;border-radius:0 12px 12px 0;
+                        padding:24px 28px;margin:24px 0;">
+                <p style="font-family:'Montserrat',sans-serif;font-size:1rem;font-style:italic;
+                           color:#333;margin:0 0 10px;line-height:1.6;">"${artigo.citacao_texto}"</p>
+                <span style="font-size:.8rem;color:#888;font-family:'Montserrat',sans-serif;">
+                    — ${artigo.citacao_autor || 'Autor desconhecido'}
+                </span>
+            </div>`;
+    } else {
         container.innerHTML = '';
     }
 }
 
-// 2. ATUALIZAÇÃO: Nuvem de Tags
-
-function renderizarNuvemDeTags() {
-    const container = document.getElementById('tags-container');
-    if (!container) return;
-
-    const urlAtual = window.location.pathname;
-    const artigoAtual = artigos.find(a => urlAtual.includes(a.link.replace('/blog/', '').replace('..', '')));
-    const tagsUnicas = new Set();
-    artigos.forEach(a => a.tags && a.tags.forEach(t => tagsUnicas.add(t)));
-
-    let html = `
-        <div class="w3-white w3-margin">
-            <div class="w3-container w3-padding ${corTemaLateral}">
-                <h4>Tags</h4>
-            </div>
-            <div class="w3-container w3-white w3-padding-16"><p>`;
-
-    tagsUnicas.forEach(tag => {
-        const eTagDoArtigoAtual = artigoAtual && artigoAtual.tags && artigoAtual.tags.includes(tag);
-        const classeDestaque = eTagDoArtigoAtual ? 'tag-ativa w3-black' : 'w3-light-grey';
-        html += `<span class="w3-tag ${classeDestaque} w3-small w3-margin-bottom tag-clicavel" 
-                       style="cursor:pointer; margin-right:4px" onclick="filtrarPorTag('${tag}')">${tag}</span> `;
-    });
-
-    html += `</p>
-            <button id="btn-limpar-filtro" class="w3-button w3-tiny w3-red w3-round" 
-                    style="display:none; margin-top:10px" onclick="limparFiltro()">× Limpar Filtro</button>
-            </div></div>`;
-    container.innerHTML = html;
-}
-
-// 3. ATUALIZAÇÃO: Leia Também
-
-function renderizarLeiaTambem() {
-    const container = document.getElementById('leia-tambem-container');
+/* ──────────────────────────────────────────────────────────────────
+   POST DESTAQUE (Clean Pixel — hero card)
+────────────────────────────────────────────────────────────────── */
+function renderizarDestaque() {
+    const container = document.getElementById('post-destaque');
     if (!container || artigos.length === 0) return;
+    const destaque = artigos[0];
 
-    const linkAtual = window.location.pathname;
-    const artigoAtual = artigos.find(a => linkAtual.includes(a.link.replace('..', '')));
-    let relacionados = artigos.filter(a => a.id !== (artigoAtual ? artigoAtual.id : null));
-
-    if (artigoAtual && artigoAtual.tags) {
-        relacionados = relacionados.filter(a => a.tags.some(tag => artigoAtual.tags.includes(tag)));
-    }
-
-    const final = relacionados.slice(0, 4);
-    let html = `
-        <div class="w3-white w3-margin">
-            <div class="w3-container w3-padding ${corTemaLateral}">
-                <h4>Leia Também</h4>
+    container.innerHTML = `
+        <div class="blog-destaque" style="background-image:url('${destaque.imagem}')">
+            <div class="blog-destaque-overlay">
+                <div class="blog-destaque-badges">
+                    <span class="texto-badge texto-badge-green">✨ Novo Post</span>
+                    ${destaque.tags ? destaque.tags.slice(0,2).map(t => `<span class="texto-badge">${t}</span>`).join('') : ''}
+                </div>
+                <h2 class="blog-destaque-title">${destaque.titulo}</h2>
+                <p class="blog-destaque-resumo">${destaque.resumo}</p>
+                <a href="${destaque.link}" class="blog-destaque-btn">Ler artigo completo →</a>
             </div>
-            <div class="w3-row-padding w3-white w3-padding-16">`;
-
-    final.forEach(artigo => {
-        html += `
-            <div class="w3-margin-bottom" style="cursor:pointer" onclick="window.location.href='${artigo.link}'">
-                <img src="${artigo.imagem}" alt="Image" style="width:100%" class="w3-hover-opacity">
-                <p><strong>${artigo.titulo}</strong></p>
-            </div>`;
-    });
-
-    html += `</div></div>`;
-    container.innerHTML = html;
+        </div>`;
 }
 
+/* ──────────────────────────────────────────────────────────────────
+   GRID DE ARTIGOS (Clean Pixel cards)
+────────────────────────────────────────────────────────────────── */
+function _buildTag(tag) {
+    return `<span class="blog-tag" style="cursor:pointer" onclick="filtrarPorTag('${tag}')">${tag}</span>`;
+}
 
-
+function _buildCard(artigo) {
+    const tags = artigo.tags ? artigo.tags.map(_buildTag).join('') : '';
+    return `
+        <div class="blog-card">
+            <a href="${artigo.link}" class="blog-card-img-link">
+                <img src="${artigo.imagem}" alt="${artigo.titulo}" class="blog-card-img" loading="lazy">
+            </a>
+            <div class="blog-card-body">
+                ${tags ? `<div class="blog-card-tags">${tags}</div>` : ''}
+                <h2 class="blog-card-title">
+                    <a href="${artigo.link}">${artigo.titulo}</a>
+                </h2>
+                <p class="blog-card-resumo">${artigo.resumo}</p>
+                <div class="blog-card-footer">
+                    <span class="blog-card-data"><i class="fa fa-calendar-alt" style="margin-right:4px;color:#ccc;"></i>${artigo.data}</span>
+                    <a href="${artigo.link}" class="blog-card-btn">Ler mais →</a>
+                </div>
+            </div>
+        </div>`;
+}
 
 function renderizarArtigos(pagina) {
     const grid = document.getElementById('posts-grid');
     const destaqueContainer = document.getElementById('post-destaque');
     if (!grid) return;
-    grid.innerHTML = "";
+    grid.innerHTML = '';
 
-    // 1. LIDAR COM O DESTAQUE
-    // Só mostra o destaque se for a página 1 e se NÃO houver filtro de tags ativo
     const filtroAtivo = document.getElementById('btn-limpar-filtro')?.style.display === 'block';
 
-    if (pagina === 1 && !filtroAtivo) {
-        if (destaqueContainer) {
-            destaqueContainer.style.display = 'block';
-            renderizarDestaque(); // Sua função que monta o post[0]
-        }
-    } else {
-        if (destaqueContainer) destaqueContainer.style.display = 'none';
+    if (destaqueContainer) {
+        destaqueContainer.style.display = (pagina === 1 && !filtroAtivo) ? 'block' : 'none';
     }
+    if (pagina === 1 && !filtroAtivo) renderizarDestaque();
 
-    // 2. AJUSTAR O GRID PARA NÃO REPETIR
-    // Criamos uma lista que ignora o primeiro artigo (que é o destaque)
     const artigosParaGrid = artigos.slice(1);
-
     const inicio = (pagina - 1) * postsPorPagina;
-    const fim = inicio + postsPorPagina;
-    const artigosPaginados = artigosParaGrid.slice(inicio, fim);
+    const fim    = inicio + postsPorPagina;
+    const paginados = artigosParaGrid.slice(inicio, fim);
 
-    artigosPaginados.forEach(artigo => {
-        grid.innerHTML += `
-            <div class="w3-col l4 s12 w3-container w3-margin-bottom w3-padding-top-24">
-                <div class="card-container w3-white w3-hover-opacity">
-                    <img src="${artigo.imagem}" style="width:100%" class="card-image" alt="${artigo.titulo}">
-                    <div class="w3-container w3-white card-content">
-                        <h2 class="w3-center">
-                            <a href="${artigo.link}" class="link-artigo"><strong>${artigo.titulo}</strong></a>
-                        </h2>
-                        <p>${artigo.resumo} <span class="w3-small w3-opacity" style="display: block;">${artigo.data}</span></p>
-                        <p><a href="${artigo.link}" class="link-artigo">
-                            <span class="w3-button w3-padding-large w3-white w3-border"><b>LER MAIS »</b></span>
-                        </a></p>
-                    </div>
-                </div>
-            </div>`;
-    });
-    renderizarPaginacao(artigosParaGrid.length); // Passamos o novo tamanho para a paginação
+    paginados.forEach(a => { grid.innerHTML += _buildCard(a); });
+    renderizarPaginacao(artigosParaGrid.length);
 }
 
-
-function renderizarPaginacao(totalArtigosGrid) {
-    const totalPaginas = Math.ceil(totalArtigosGrid / postsPorPagina);
-    const paginacaoContainer = document.getElementById('blog-pagination');
-    if (!paginacaoContainer) return;
-    paginacaoContainer.innerHTML = "";
-
-    if (totalPaginas <= 1) return; // Não precisa de botões se só houver uma página
-
-    for (let i = 1; i <= totalPaginas; i++) {
-        const classeAtiva = (i === paginaAtual) ? 'w3-green' : 'w3-white';
-        paginacaoContainer.innerHTML += `<button class="w3-button ${classeAtiva} w3-border w3-margin-right" onclick="irParaPagina(${i})">${i}</button>`;
+function renderizarPaginacao(total) {
+    const totalPags = Math.ceil(total / postsPorPagina);
+    const el = document.getElementById('blog-pagination');
+    if (!el) return;
+    el.innerHTML = '';
+    if (totalPags <= 1) return;
+    for (let i = 1; i <= totalPags; i++) {
+        const ativo = i === paginaAtual ? 'active' : '';
+        el.innerHTML += `<button class="blog-pag-btn ${ativo}" onclick="irParaPagina(${i})">${i}</button>`;
     }
 }
 
 function irParaPagina(p) {
     paginaAtual = p;
     renderizarArtigos(p);
-    window.scrollTo(0, 0);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-// FUNÇÃO EXCLUSIVA PARA O DESTAQUE
-function renderizarDestaque() {
-    const destaqueContainer = document.getElementById('post-destaque');
-    if (!destaqueContainer || artigos.length === 0) return;
-
-    // O primeiro artigo do array é o mais recente
-    const destaque = artigos[0];
-
-    destaqueContainer.innerHTML = `
-        <div class="w3-card-4 w3-margin-top w3-white">
-            <div class="w3-display-container">
-                <img src="${destaque.imagem}" style="width:100%; max-height:450px; object-fit:cover" alt="${destaque.titulo}">
-               <div class="w3-display-topleft ${corTemaLateral} w3-padding">Novo Post</div>
-            </div>
-            <div class="w3-container">
-                <h2 class="w3-xxxlarge"><b>${destaque.titulo}</b></h2>
-                <p>${destaque.resumo}</p>
-                <div class="w3-row">
-                    <div class="w3-col m8 s12">
-                        <p><a href="${destaque.link}" class="w3-button w3-padding-large w3-white w3-border"><b>LER MAIS »</b></a></p>
-                    </div>
-                    <div class="w3-col m4 s12 w3-hide-small">
-                        <p class="w3-right"><span class="w3-padding w3-right w3-opacity"><b>Data: </b> ${destaque.data}</span></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        
-    `;
-}
-
-
+/* ──────────────────────────────────────────────────────────────────
+   FILTRO POR TAG
+────────────────────────────────────────────────────────────────── */
 function filtrarPorTag(tagSelecionada) {
     const grid = document.getElementById('posts-grid');
     if (!grid) return;
-    document.getElementById('post-destaque').style.display = 'none';
 
-    // Filtra os artigos que contém a tag selecionada
-    const artigosFiltrados = artigos.filter(artigo =>
-        artigo.tags && artigo.tags.includes(tagSelecionada)
-    );
+    const destaqueEl = document.getElementById('post-destaque');
+    if (destaqueEl) destaqueEl.style.display = 'none';
 
-    grid.innerHTML = ""; // Limpa os posts atuais
+    const filtrados = artigos.filter(a => a.tags && a.tags.includes(tagSelecionada));
+    grid.innerHTML = '';
+    filtrados.forEach(a => { grid.innerHTML += _buildCard(a); });
 
-    // Renderiza apenas os resultados do filtro
-    artigosFiltrados.forEach(artigo => {
-        grid.innerHTML += `
-            <div class="w3-col l4 s12 w3-container w3-margin-bottom w3-padding-top-24">
-                <div class="card-container w3-white w3-hover-opacity">
-                    <img src="${artigo.imagem}" style="width:100%" class="card-image" alt="${artigo.titulo}">
-                    <div class="w3-container w3-white card-content">
-                        <h2 class="w3-center">
-                            <a href="${artigo.link}" class="link-artigo"><strong>${artigo.titulo}</strong></a>
-                        </h2>
-                        <p>${artigo.resumo} <span class="w3-small w3-opacity" style="display: block;">${artigo.data}</span></p>
-                        <p><a href="${artigo.link}" class="link-artigo">
-                            <span class="w3-button w3-padding-large w3-white w3-border"><b>LER MAIS »</b></span>
-                        </a></p>
-                    </div>
-                </div>
-            </div>`;
+    const btn = document.getElementById('btn-limpar-filtro');
+    if (btn) btn.style.display = 'inline-block';
 
-    });
+    const pag = document.getElementById('blog-pagination');
+    if (pag) pag.style.display = 'none';
 
-    // Ajustes de interface
-    document.getElementById('btn-limpar-filtro').style.display = 'block';
-    const paginacao = document.getElementById('blog-pagination');
-    if (paginacao) paginacao.style.display = 'none'; // Esconde paginação no filtro
-
-    window.scrollTo(0, 500); // Rola para ver os resultados
+    window.scrollTo({ top: 500, behavior: 'smooth' });
 }
 
 function limparFiltro() {
-    document.getElementById('btn-limpar-filtro').style.display = 'none';
-    const paginacao = document.getElementById('blog-pagination');
-    if (paginacao) paginacao.style.display = 'block';
-    document.getElementById('post-destaque').style.display = 'block';
-
+    const btn = document.getElementById('btn-limpar-filtro');
+    if (btn) btn.style.display = 'none';
+    const pag = document.getElementById('blog-pagination');
+    if (pag) pag.style.display = '';
     paginaAtual = 1;
-    renderizarArtigos(paginaAtual); // Volta a mostrar todos os artigos
-
+    renderizarArtigos(paginaAtual);
 }
 
-
-
-
-// Função para comentários do facebook
-function carregarComentariosFacebook() {
-    const container = document.getElementById('comentarios-fb');
-    if (!container) return;
-
-    const urlAtual = window.location.href;
-    container.innerHTML = `<div class="fb-comments" data-href="${urlAtual}" data-width="100%" data-numposts="10"></div>`;
-
-    if (typeof FB !== 'undefined') {
-        FB.XFBML.parse();
-    }
-} // <--- AQUI VOCÊ FECHA OS COMENTÁRIOS
-
-// Função para carregar titulo do artigo na aba do navegador
-function renderizarTitulosAutomaticos(artigos) {
-    // Pega o nome do arquivo atual (ex: razoes-estudantes-nao-gostam-escola.html)
-    const nomeArquivoAtual = window.location.pathname.split('/').pop();
-
-    // Procura no JSON qual artigo tem esse link
-    const artigoEncontrado = artigos.find(a => a.link.includes(nomeArquivoAtual));
-
-    if (artigoEncontrado) {
-        // Atualiza o título da aba
-        const abaTitulo = document.getElementById('aba-titulo');
-        if (abaTitulo) abaTitulo.innerText = artigoEncontrado.titulo;
-
-        // Atualiza o título visual na página
-        const tituloPrincipal = document.getElementById('artigo-titulo-principal');
-        if (tituloPrincipal) {
-            tituloPrincipal.innerHTML = `<b>${artigoEncontrado.titulo}</b>`;
-        }
-    }
-}
-
-
-
-// funções para abrir e fechar dropdowns (como o de categorias) - 
-
-function toggleDropdown(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === "block") {
-        element.style.display = "none";
-        closeAllNestedDropdowns(); // Fecha todos os dropdowns de meses e posts
-    } else {
-        element.style.display = "block";
-    }
-}
-
-function toggleYearDropdown(event, id) {
-    event.stopPropagation();
-    closeAllNestedDropdowns(); // Fecha todos os dropdowns de meses e posts
-    toggleNestedDropdown(event, id);
-}
-
-function toggleNestedDropdown(event, id) {
-    event.stopPropagation();
-    var element = document.getElementById(id);
-    if (element.style.display === "block") {
-        element.style.display = "none";
-    } else {
-        element.style.display = "block";
-    }
-}
-
-function closeAllNestedDropdowns() {
-    var nestedDropdowns = document.querySelectorAll('.nested-dropdown-content');
-    nestedDropdowns.forEach(function (dropdown) {
-        dropdown.style.display = 'none';
-    });
-}
-
-
-//Função para gerar o arquivo do blog dinamicamente, usando o JSON como base
-function renderizarArquivoBlog() {
-    const container = document.getElementById('arquivo-blog-container');
-    if (!container || artigos.length === 0) return;
-
-    const arquivo = {};
-
-    // Lista para converter o nome do mês de volta para objeto
-    const mesesNomes = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
-
-    artigos.forEach(artigo => {
-        if (artigo.data) {
-            // Transforma "02 de setembro de 2024" em partes separadas
-            // Resultado: ["02", "de", "setembro", "de", "2024"]
-            const partes = artigo.data.toLowerCase().split(' ');
-
-            // O mês é sempre a 3ª palavra (índice 2) e o ano a 5ª (índice 4)
-            const mesNomeOriginal = partes[2];
-            const ano = partes[4];
-
-            // Capitaliza apenas a primeira letra do mês para o visual (ex: Setembro)
-            const mesFormatado = mesNomeOriginal.charAt(0).toUpperCase() + mesNomeOriginal.slice(1);
-
-            if (ano && mesFormatado) {
-                if (!arquivo[ano]) arquivo[ano] = {};
-                if (!arquivo[ano][mesFormatado]) arquivo[ano][mesFormatado] = [];
-                arquivo[ano][mesFormatado].push(artigo);
-            }
-        }
-    });
+/* ──────────────────────────────────────────────────────────────────
+   WIDGETS DA SIDEBAR
+────────────────────────────────────────────────────────────────── */
+function renderizarPostsRecentes() {
+    const el = document.getElementById('posts-recentes-container');
+    if (!el || artigos.length === 0) return;
+    const recentes = artigos.slice(0, 5);
 
     let html = `
-        <div class="w3-margin">
-            <div class="w3-container w3-padding ${corTemaLateral}">
-                <h4>Arquivo Blog</h4>
-            </div>
-            <div class="dropdown-container w3-padding arquivo-blog">
-                <button class="w3-button w3-block w3-left-align" onclick="document.getElementById('drop-arquivo').classList.toggle('w3-show')">
-                    <strong>Anos e Meses</strong> <i class="fa fa-caret-down"></i>
-                </button>
-                <div id="drop-arquivo" class="w3-hide w3-container">`;
+        <div class="blog-widget">
+            <div class="blog-widget-head">📰 Posts Recentes</div>
+            <div class="blog-widget-body">`;
 
-    // Ordenar anos (do mais novo para o mais antigo)
-    const anosOrdenados = Object.keys(arquivo).sort((a, b) => b - a);
-
-    anosOrdenados.forEach(ano => {
-        const totalNoAno = Object.values(arquivo[ano]).reduce((acc, curr) => acc + curr.length, 0);
-        const idAno = `ano-${ano}`;
-
+    recentes.forEach(a => {
         html += `
-            <div class="w3-padding-small">
-                <span style="cursor:pointer" onclick="document.getElementById('${idAno}').classList.toggle('w3-show')">
-                    <i class="fa fa-folder"></i> <strong>${ano}</strong> (${totalNoAno})
-                </span>
-                <div id="${idAno}" class="w3-hide w3-margin-left">`;
+            <a href="${a.link}" class="blog-recent-item">
+                <img src="${a.imagem}" class="blog-recent-img" alt="${a.titulo}" loading="lazy">
+                <div>
+                    <p class="blog-recent-title">${a.titulo}</p>
+                    <span class="blog-recent-date">${a.data}</span>
+                </div>
+            </a>`;
+    });
 
-        // Meses do ano
+    html += `</div></div>`;
+    el.innerHTML = html;
+}
+
+function renderizarNuvemDeTags() {
+    const el = document.getElementById('tags-container');
+    if (!el) return;
+    const urlAtual    = window.location.pathname;
+    const artigoAtual = artigos.find(a => urlAtual.includes(a.link.replace('/blog/', '').replace('..', '')));
+    const tagsUnicas  = new Set();
+    artigos.forEach(a => a.tags && a.tags.forEach(t => tagsUnicas.add(t)));
+
+    let html = `
+        <div class="blog-widget">
+            <div class="blog-widget-head">🏷️ Tags</div>
+            <div class="blog-widget-body" style="padding-bottom:14px;">
+                <div style="display:flex;flex-wrap:wrap;gap:6px;">`;
+
+    tagsUnicas.forEach(tag => {
+        const ativo = artigoAtual && artigoAtual.tags && artigoAtual.tags.includes(tag) ? 'ativa' : '';
+        html += `<span class="blog-tag-pill ${ativo}" onclick="filtrarPorTag('${tag}')">${tag}</span>`;
+    });
+
+    html += `</div>
+                <button id="btn-limpar-filtro"
+                        style="display:none;margin-top:12px;padding:4px 12px;border:none;
+                               background:#ef5350;color:#fff;border-radius:20px;cursor:pointer;
+                               font-family:'Montserrat',sans-serif;font-size:.75rem;font-weight:700;"
+                        onclick="limparFiltro()">✕ Limpar filtro</button>
+            </div>
+        </div>`;
+    el.innerHTML = html;
+}
+
+function renderizarLeiaTambem() {
+    const el = document.getElementById('leia-tambem-container');
+    if (!el || artigos.length === 0) return;
+
+    const linkAtual   = window.location.pathname;
+    const artigoAtual = artigos.find(a => linkAtual.includes(a.link.replace('..', '')));
+    let relacionados  = artigos.filter(a => a.id !== (artigoAtual ? artigoAtual.id : null));
+
+    if (artigoAtual && artigoAtual.tags) {
+        relacionados = relacionados.filter(a => a.tags && a.tags.some(t => artigoAtual.tags.includes(t)));
+    }
+
+    const final = relacionados.slice(0, 3);
+    if (!final.length) return;
+
+    let html = `
+        <div class="blog-widget">
+            <div class="blog-widget-head">📖 Leia Também</div>
+            <div class="blog-widget-body">`;
+
+    final.forEach(a => {
+        html += `
+            <a href="${a.link}" class="blog-recent-item">
+                <img src="${a.imagem}" class="blog-recent-img" alt="${a.titulo}" loading="lazy">
+                <div>
+                    <p class="blog-recent-title">${a.titulo}</p>
+                    <span class="blog-recent-date">${a.data}</span>
+                </div>
+            </a>`;
+    });
+
+    html += `</div></div>`;
+    el.innerHTML = html;
+}
+
+function renderizarArquivoBlog() {
+    const el = document.getElementById('arquivo-blog-container');
+    if (!el || artigos.length === 0) return;
+
+    const arquivo = {};
+    artigos.forEach(a => {
+        if (!a.data) return;
+        const partes = a.data.toLowerCase().split(' ');
+        const mesNome = partes[2];
+        const ano     = partes[4];
+        const mes     = mesNome ? mesNome.charAt(0).toUpperCase() + mesNome.slice(1) : '?';
+        if (ano && mes) {
+            if (!arquivo[ano]) arquivo[ano] = {};
+            if (!arquivo[ano][mes]) arquivo[ano][mes] = [];
+            arquivo[ano][mes].push(a);
+        }
+    });
+
+    const anos = Object.keys(arquivo).sort((a, b) => b - a);
+
+    let html = `
+        <div class="blog-widget">
+            <div class="blog-widget-head">📅 Arquivo</div>
+            <div class="blog-widget-body" id="arquivo-body" style="padding:0;">`;
+
+    anos.forEach(ano => {
+        const totalAno = Object.values(arquivo[ano]).reduce((s, arr) => s + arr.length, 0);
+        html += `
+            <div class="blog-arq-ano" onclick="this.classList.toggle('open')">
+                <span><i class="fa fa-folder" style="margin-right:6px;"></i> <b>${ano}</b></span>
+                <span class="blog-arq-count">${totalAno}</span>
+            </div>
+            <div class="blog-arq-meses">`;
+
         Object.keys(arquivo[ano]).forEach(mes => {
-            const postsNoMes = arquivo[ano][mes];
-            const idMes = `mes-${ano}-${mes}`;
+            const posts = arquivo[ano][mes];
             html += `
-                <div class="w3-padding-small">
-                    <span style="cursor:pointer; color: ##444;" onclick="document.getElementById('${idMes}').classList.toggle('w3-show')">
-                        <i class="fa fa-calendar-alt w3-tiny"></i> ${mes} (${postsNoMes.length})
-                    </span>
-                    <div id="${idMes}" class="w3-hide w3-margin-left">`;
+                <div class="blog-arq-mes" onclick="event.stopPropagation(); this.classList.toggle('open')">
+                    <i class="fa fa-calendar-alt" style="margin-right:4px;font-size:.7rem;"></i> ${mes}
+                    <span class="blog-arq-count" style="font-size:.7rem;">${posts.length}</span>
+                </div>
+                <div class="blog-arq-posts">
+                    ${posts.map(p => `<a href="${p.link}" class="blog-arq-link">• ${p.titulo}</a>`).join('')}
+                </div>`;
+        });
 
-            postsNoMes.forEach(post => {
-                html += `<a href="${post.link}" class="w3-bar-item w3-button w3-small" style="display:block; white-space: normal; border-left: 1px solid ##444;">• ${post.titulo}</a>`;
+        html += `</div>`;
+    });
+
+    html += `</div></div>`;
+    el.innerHTML = html;
+}
+
+function renderizarSecaoViagens() {
+    const el = document.getElementById('viagens-container');
+    if (!el) return;
+
+    fetch('../blog/galeria.json')
+        .then(r => r.ok ? r.json() : Promise.reject())
+        .then(fotos => {
+            let html = `
+                <div class="blog-widget">
+                    <div class="blog-widget-head">📷 Por aí...</div>
+                    <div class="blog-galeria-grid">`;
+
+            fotos.forEach(foto => {
+                html += `
+                    <img src="${foto.url}" alt="${foto.legenda}" class="blog-galeria-img"
+                         onclick="abrirModalGaleria('${foto.url}', '${foto.legenda}')" loading="lazy">`;
             });
 
             html += `</div></div>`;
-        });
-
-        html += `</div></div>`;
-    });
-
-    html += `</div></div></div>`;
-    container.innerHTML = html;
+            el.innerHTML = html;
+        })
+        .catch(() => {});
 }
 
-// --- SEÇÃO "POR AÍ" (GALERIA DE VIAGENS) ---
-// --- SEÇÃO "POR AÍ" COM CLIQUE PARA AMPLIAR ---
-async function renderizarSecaoViagens() {
-    const container = document.getElementById('viagens-container');
-    if (!container) return;
-
-    try {
-        const resposta = await fetch('../blog/galeria.json');
-        if (!resposta.ok) throw new Error("Erro ao carregar galeria");
-        const fotos = await resposta.json();
-
-        let html = `
-            <div class="w3-white w3-margin">
-                <div class="w3-container w3-padding ${corTemaLateral}">
-                    <h4>Por aí...</h4>
-                </div>
-                <div class="w3-row-padding w3-white w3-padding-16">
-        `;
-
-        fotos.forEach(foto => {
-            // Adicionamos o onclick="abrirModalGaleria(...)"
-            html += `
-                <div class="w3-col s6 w3-margin-bottom">
-                    <div style="height: 100px; overflow: hidden; cursor: pointer;">
-                        <img src="${foto.url}" alt="${foto.legenda}" 
-                             style="width:100%; height:100%; object-fit: cover;" 
-                             class="w3-hover-opacity" 
-                             onclick="abrirModalGaleria('${foto.url}', '${foto.legenda}')">
-                    </div>
-                </div>
-            `;
-        });
-
-        html += `</div></div>`;
-        container.innerHTML = html;
-    } catch (erro) {
-        console.error("Erro na galeria:", erro);
-    }
-}
-
-// Função que faz a foto "ficar maior"
+/* ──────────────────────────────────────────────────────────────────
+   UTILITÁRIOS
+────────────────────────────────────────────────────────────────── */
 function abrirModalGaleria(url, legenda) {
-    document.getElementById('img-modal').src = url;
+    document.getElementById('img-modal').src       = url;
     document.getElementById('legenda-modal').innerText = legenda;
     document.getElementById('modal-galeria').style.display = 'block';
 }
 
+function carregarComentariosFacebook() {
+    const el = document.getElementById('comentarios-fb');
+    if (!el) return;
+    el.innerHTML = `<div class="fb-comments" data-href="${window.location.href}" data-width="100%" data-numposts="10"></div>`;
+    if (typeof FB !== 'undefined') FB.XFBML.parse();
+}
+
+// Funções legadas de artigos individuais (mantidas para compatibilidade)
+function renderizarTitulosAutomaticos(artigos) {
+    const nome = window.location.pathname.split('/').pop();
+    const a = artigos.find(x => x.link.includes(nome));
+    if (!a) return;
+    const el = document.getElementById('aba-titulo');
+    if (el) el.innerText = a.titulo;
+    const t = document.getElementById('artigo-titulo-principal');
+    if (t) t.innerHTML = `<b>${a.titulo}</b>`;
+}
+function toggleDropdown(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.style.display = el.style.display === 'block' ? 'none' : 'block';
+    if (el.style.display === 'none') closeAllNestedDropdowns();
+}
+function toggleYearDropdown(e, id) { e.stopPropagation(); closeAllNestedDropdowns(); toggleNestedDropdown(e, id); }
+function toggleNestedDropdown(e, id) {
+    e.stopPropagation();
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.style.display = el.style.display === 'block' ? 'none' : 'block';
+}
+function closeAllNestedDropdowns() {
+    document.querySelectorAll('.nested-dropdown-content').forEach(el => el.style.display = 'none');
+}
 
 // Inicia tudo
 carregarDadosDoArquivo();
-
-

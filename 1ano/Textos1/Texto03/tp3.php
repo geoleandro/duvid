@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -47,40 +48,10 @@
 
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
     <title>1º ano - Texto 03</title>
-
-
-
-    <style>
-
-
-        .postit-tp3 {
-			background: #b085ff;
-			font-family: pixel;
-			width: 85%;
-			height: auto;
-			color: white;
-			padding: 25px;
-			margin-bottom: 5px;
-			margin-top: -20px;
-			line-height: 40px;
-			position: relative;
-			font-size: 24px;
-			box-shadow: 2px 4px 6px #444;
-			-moz-box-shadow: 2px 4px 6px #444;
-			-webkit-box-shadow: 2px 4px 6px #444;
-			transform: rotate(-3deg);
-			-moz-transform: rotate(-3deg);
-			-webkit-transform: rotate(-3deg);
-			-o-transform: rotate(-3deg);
-			-ms-transform: rotate(-3deg);
-		}
-    </style>
-
-
-
 
 </head>
 
@@ -436,13 +407,13 @@
 
         <div class="topico">
 
-            <p class="paragrafo caixa"> Teste sua habilidade de observação</p>
+            <p class="caixa"> Teste sua habilidade de observação</p>
 
 
             <form id="quiz1" name="quiz1">
 
-                <h4 class="paragrafo divCaixa1 w3-margin"> Em qual hemisfério está localizado o Brasil em relação ao
-                    meridiano de Greenwich?</h4>
+                <p class="divCaixa1 w3-margin"> Em qual hemisfério está localizado o Brasil em relação ao
+                    meridiano de Greenwich?</p>
 
 
 
@@ -627,7 +598,7 @@
 
         <div class="topico">
 
-            <p class="paragrafo caixa"> Calcule os fusos horários</p>
+            <p class="caixa"> Calcule os fusos horários</p>
 
 
             <h3>Descubra o horário em qualquer parte do Planeta pelo fuso a partir do meridiano de
@@ -670,20 +641,20 @@
 
         <div class="topico">
 
-            <p class="paragrafo caixa"> Teste seu conhecimento</p>
+            <p class="caixa"> Teste seu conhecimento</p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"> Outro exemplo: Estamos no Brasil, localizado no meridiano 45º
+            <p class="divCaixa1 w3-margin"> Outro exemplo: Estamos no Brasil, localizado no meridiano 45º
                 Oeste
                 de
                 Greenwich. Isso significa que se dividirmos 45 por 15º, teremos 3 horas. Porque 15º é a distância em que
                 o
                 planeta percorre dentro de uma hora. O Brasil está, portanto, a -3 horas de Greenwich, pois se encontra
                 a
-                Oeste do meridiano principal.</h4>
+                Oeste do meridiano principal.</p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin">Se no Brasil, são 11h da manhã, que horas serão em Greenwich,
+            <p class="divCaixa1 w3-margin">Se no Brasil, são 11h da manhã, que horas serão em Greenwich,
                 localizado no
-                fuso 0º?</h4>
+                fuso 0º?</p>
 
             <form id="quiz2" name="quiz2">
 
@@ -713,15 +684,15 @@
 
         <div class="topico">
 
-            <p class="paragrafo caixa"> Teste seu conhecimento</p>
+            <p class="caixa"> Teste seu conhecimento</p>
 
             <p>Vimos que o computador é capaz de realizar esse cálculo de forma muita rápida e eficaz.
                 Entretanto, resta saber como ele faz isso.</p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"> Numa cidade A, localizada no fuso de 60º Oeste, são 14h. Que
+            <p class="divCaixa1 w3-margin"> Numa cidade A, localizada no fuso de 60º Oeste, são 14h. Que
                 horas
                 serão
-                numa cidade B, localizada no fuso de 30º Leste? </h4>
+                numa cidade B, localizada no fuso de 30º Leste? </p>
 
             <form id="quiz3" name="quiz3">
 
@@ -752,10 +723,10 @@
 
         <div class="topico">
 
-            <p id="caixa"> Agora é com você!</p>
+            <p class="caixa"> Agora é com você!</p>
 
-            <h4 class="paragrafo divCaixa1">Completa a tabela das horas e seus respectivos fusos horários em seu
-                caderno. </h4>
+            <p class="divCaixa1">Completa a tabela das horas e seus respectivos fusos horários em seu
+                caderno. </p>
 
             <p> Ex: </p>
 
@@ -820,10 +791,10 @@
                 9GMT. A que horas o amigo atenderá a ligação? </p>
 
 
-            <h4 class="paragrafo divCaixa1 w3-margin"><strong>1º passo: identificar os fusos.</strong> Nesse caso, eles
+            <p class="divCaixa1 w3-margin"><strong>1º passo: identificar os fusos.</strong> Nesse caso, eles
                 foram
                 fornecidos no
-                enunciado da questão, mas nem sempre isso acontece, como veremos no próximo exemplo. Assim, </h4>
+                enunciado da questão, mas nem sempre isso acontece, como veremos no próximo exemplo. Assim, </p>
 
             <p> Fuso de origem: –3GMT</p>
 
@@ -831,12 +802,12 @@
             <p>Fuso de destino: +9GMT </p>
 
 
-            <h4 class="paragrafo divCaixa1 w3-margin"><strong>2º passo: calcular a diferença entre os fusos.</strong>
+            <p class="divCaixa1 w3-margin"><strong>2º passo: calcular a diferença entre os fusos.</strong>
                 Basta
                 subtrair o
                 fuso
                 da cidade de destino pelo da cidade de origem. Caso eles se encontrem em hemisférios diferentes, terão
-                sinais diferentes e, inevitavelmente, serão somados. </h4>
+                sinais diferentes e, inevitavelmente, serão somados. </p>
 
             <p> 9GMT – (-3GMT) = 12GMT</p>
 
@@ -847,7 +818,7 @@
             </p>
 
 
-            <h4 class="paragrafo divCaixa1 w3-margin"><strong>3º passo: verificar se os fusos serão somados ou
+            <p class="divCaixa1 w3-margin"><strong>3º passo: verificar se os fusos serão somados ou
                     subtraídos ao
                     horário de
                     origem.</strong> Sabemos que a ligação foi realizada às 9h da manhã e que a diferença das
@@ -855,7 +826,7 @@
                 de 12
                 horas. Mas devemos somar ou subtrair esse horário em relação ao original? Para responder a essa pergunta
                 e
-                finalizar o exercício, basta observar em que direção a ligação está sendo direcionada.</h4>
+                finalizar o exercício, basta observar em que direção a ligação está sendo direcionada.</p>
 
 
             <p>Em direção a Leste, os fusos são somados. Em direção a Oeste, eles são diminuídos. </p>
@@ -894,32 +865,32 @@
                 de
                 viagem de 11h, ele chegou ao seu destino em que horário? </p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"> <strong>1º passo: identificar os fusos. </strong>Aqui, os fusos
+            <p class="divCaixa1 w3-margin"> <strong>1º passo: identificar os fusos. </strong>Aqui, os fusos
                 não
                 estão
                 expressos
                 no enunciado, então teremos que calculá-los. Como afirmamos no início do texto, cada fuso possui 15º de
-                longitude. Dessa forma, para transformar as longitudes em fusos, basta dividi-las por 15.</h4>
+                longitude. Dessa forma, para transformar as longitudes em fusos, basta dividi-las por 15.</p>
 
             <p>Cidade de origem: 15º ÷ 15 = 1GMT </p>
 
             <p>Cidade de destino: -45º ÷ 15 = -3GMT </p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"><strong>2º passo: calcular a diferença entre os fusos.</strong>
+            <p class="divCaixa1 w3-margin"><strong>2º passo: calcular a diferença entre os fusos.</strong>
                 Agora
                 basta
                 repetir o
-                mesmo procedimento do exemplo 01, diminuindo o fuso de destino pelo fuso de origem. </h4>
+                mesmo procedimento do exemplo 01, diminuindo o fuso de destino pelo fuso de origem. </p>
 
             <p>-3GMT - 1GMT: -4GMT </p>
 
             <p>Portanto, a diferença entre o local de origem e o local de destino é de 4 horas. </p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"><strong>3º passo: verificar se somamos ou diminuímos os
+            <p class="divCaixa1 w3-margin"><strong>3º passo: verificar se somamos ou diminuímos os
                     fusos.</strong> Como José
                 Carlos está se deslocando do Leste em direção ao Oeste, então devemos diminuir os fusos em relação ao
                 horário de origem. No entanto, não podemos nos esquecer de somar o tempo de viagem, que é de 11 horas.
-                Assim, </h4>
+                Assim, </p>
 
             <p>15h (hora local de partida) – 4h (diferença entre os fusos) = 11h. </p>
 
@@ -936,11 +907,11 @@
 
         <div class="topico">
 
-            <p class="paragrafo caixa"> Teste seu conhecimento</p>
+            <p class="caixa"> Teste seu conhecimento</p>
 
-            <h4 class="paragrafo divCaixa1 w3-margin"> Numa cidade A, localizada no fuso 120º Oeste, são 21h. Que horas
+            <p class="divCaixa1 w3-margin"> Numa cidade A, localizada no fuso 120º Oeste, são 21h. Que horas
                 serão na
-                localidade B, situada a 60º Leste? </h4>
+                localidade B, situada a 60º Leste? </p>
 
             <form id="quiz4" name="quiz4">
 
@@ -1036,17 +1007,24 @@
 
         <div class="topico">
 
-            <div class="w3-container area">
-                <div class="postit-tp3 ">
-                    <p class=""><mark>Anote ai:</mark></p>
-                    <p>É possível voltar no tempo? O que a <mark>Linha Internacional de Mudança de Data</mark> tem a ver
-                        com
-                        isso?</p>
+            <div class="area margemAbaixo w3-padding-16">
+                <div class="postit-tp1 w3-margin-top w3-animate-zoom w3-pale-yellow">
+                    <h2 style='font-family: "Roboto", sans-serif; font-weight: bold;'>
+                        <mark><span class="w3-padding">💡 Anote aí!</span></mark>
+                    </h2>
+
+                    <h4 class="w3-margin-top">
+                        É possível voltar no tempo? O que a
+                        <span class="mark2" style="font-size: 1em; display: inline-block; padding: 4px 12px;">Linha
+                            Internacional de Mudança de Data</span>
+                        tem a ver com isso?
+                    </h4>
                 </div>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <br>
+            <div class="w3-center w3-margin-top">
+                <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            </div>
 
         </div>
 
@@ -1111,8 +1089,7 @@
                 fuso.
             </p>
 
-            <p><span class="mark2"> <strong>Fuso horário brasileiro </strong></span> - Localizado no
-                hemisfério
+            <p><strong>Fuso horário brasileiro</strong> - Localizado no hemisfério
                 ocidental, o Brasil possui 4 fusos horários e seu horário está atrasado em relação à Greenwich. </p>
 
             <p><strong>1º fuso - 30º graus Oeste</strong>, estando 2horas atrasado em relação à GMT.
@@ -1216,7 +1193,7 @@
             <p>No Brasil, a antípoda do município de Barra do Quaraí, Rio Grande do Sul fica em Zhoushan
                 (República Popular da China) </p>
 
-            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>O que é <span class="termo"
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>O que é <span class="termo"
                         data-palavra="Horário de Verão"
                         data-definicao="Prática de adiantar os relógios em uma hora durante os meses de primavera e verão, com o objetivo de aproveitar melhor a luz solar e reduzir o consumo de energia elétrica. Foi usado no Brasil entre 2008 e 2018.">horário
                         de verão</span>?</strong>
@@ -1237,7 +1214,7 @@
                 brasil-nao-tera-horario-de-verao-pelo-
                 segundo-ano-consecutivo-1020. </p>
 
-            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>Qual país tem mais fusos
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Qual país tem mais fusos
                     horários?</strong>
             </p>
 

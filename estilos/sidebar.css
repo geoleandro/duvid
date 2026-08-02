@@ -1,13 +1,14 @@
-/* =============================================
-   SIDEBAR DUVID — Clean Pixel / Dark
-   ============================================= */
+/* ════════════════════════════════════════════════════════════════
+   sidebar.css — Clean Pixel / GeoExplorer System
+   Estilos da sidebar esquerda (extraídos de includes/sidebar.php)
+   ════════════════════════════════════════════════════════════════ */
 
 #sidebar-duvid {
     width: 200px;
     position: fixed;
     top: 56px;
     left: 0;
-    height: calc(100vh - 56px - 24px); /* JS ajusta dinamicamente */
+    height: calc(100vh - 80px); /* JS ajusta para parar antes do footer */
     background: #fff;
     border-right: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
@@ -18,31 +19,31 @@
     z-index: 99;
     box-sizing: border-box;
     overflow: hidden;
-    transition: height .1s ease;
+    transition: height .15s ease;
 }
 
-/* Desloca o conteúdo principal */
-.com-sidebar {
+/* Desloca qualquer <main> automaticamente quando sidebar existe */
+body:has(#sidebar-duvid) main {
     margin-left: 200px;
 }
 
-/* ── Perfil ── */
+/* ── Perfil ──────────────────────────────────────────────────────── */
 #sidebar-user-card {
     background: #f8f9fa;
     border-radius: 12px;
     padding: 12px;
     margin-bottom: 14px;
-    display: none; /* JS mostra quando logado */
+    display: none;
 }
 
-/* ── Separador ── */
+/* ── Separadores ─────────────────────────────────────────────────── */
 .sidebar-sep {
     height: 1px;
     background: #eeeeee;
     margin: 6px 4px;
 }
 
-/* ── Nav items ── */
+/* ── Nav items ───────────────────────────────────────────────────── */
 .sidebar-nav-item {
     display: flex;
     align-items: center;
@@ -51,63 +52,29 @@
     border-radius: 8px;
     text-decoration: none;
     color: #555;
-    font-size: .84rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
     font-weight: 500;
     transition: background .15s, color .15s;
     margin-bottom: 1px;
     cursor: pointer;
     line-height: 1.3;
 }
-
-.sidebar-nav-item:hover {
-    background: #f0f7f0;
-    color: #2e7d32;
-}
-
-.sidebar-nav-item.active {
-    background: #2e7d32;
-    color: #fff;
-    font-weight: 700;
-}
-
-.sidebar-nav-item i {
-    width: 15px;
-    text-align: center;
-    font-size: .85rem;
-    flex-shrink: 0;
-    color: #999;
-}
-
+.sidebar-nav-item:hover { background: #f0f7f0; color: #2e7d32; }
+.sidebar-nav-item.active { background: #2e7d32; color: #fff; font-weight: 600; }
+.sidebar-nav-item i { width: 15px; text-align: center; font-size: 14px; flex-shrink: 0; color: #999; }
 .sidebar-nav-item:hover i,
-.sidebar-nav-item.active i {
-    color: inherit;
-}
+.sidebar-nav-item.active i { color: inherit; }
 
-/* Sub-itens (Aulas) */
-.sidebar-sub-item {
-    font-size: .8rem;
-    padding: 6px 10px;
-    color: #777;
-}
+/* Sub-itens */
+.sidebar-sub-item { font-size: 13px; font-weight: 500; padding: 6px 10px; color: #777; }
+.sidebar-sub-item:hover { color: #2e7d32; }
+.sidebar-sub-item.active { background: #e8f5e9; color: #2e7d32; font-weight: 600; }
 
-.sidebar-sub-item:hover {
-    color: #2e7d32;
-}
+/* Botão grupo */
+.sidebar-group-btn { color: #555; font-size: 14px; font-weight: 500; }
 
-.sidebar-sub-item.active {
-    background: #e8f5e9;
-    color: #2e7d32;
-    font-weight: 600;
-}
-
-/* Botão do grupo (Aulas) */
-.sidebar-group-btn {
-    color: #555;
-    font-size: .84rem;
-    font-weight: 500;
-}
-
-/* ── Controles do rodapé ── */
+/* ── Rodapé controles ────────────────────────────────────────────── */
 .sidebar-ctrl-btn {
     background: #f5f5f5;
     border: none;
@@ -122,10 +89,7 @@
     justify-content: center;
     transition: background .15s, color .15s;
 }
-.sidebar-ctrl-btn:hover {
-    background: #e8f5e9;
-    color: #2e7d32;
-}
+.sidebar-ctrl-btn:hover { background: #e8f5e9; color: #2e7d32; }
 
 .sidebar-font-btn {
     background: #f5f5f5;
@@ -134,21 +98,34 @@
     padding: 4px 8px;
     border-radius: 7px;
     cursor: pointer;
-    font-size: .7rem;
+    font-size: 12px;
     font-weight: 600;
     transition: background .15s, color .15s;
 }
-.sidebar-font-btn:hover {
-    background: #e8f5e9;
-    color: #2e7d32;
-}
+.sidebar-font-btn:hover { background: #e8f5e9; color: #2e7d32; }
 
-/* ── Mobile: sidebar oculta ── */
-@media (max-width: 900px) {
-    #sidebar-duvid {
-        display: none;
-    }
-    .com-sidebar {
-        margin-left: 0;
-    }
+/* ── Dark Mode ───────────────────────────────────────────────────── */
+body.dark-mode #sidebar-duvid { background: #1a1a2a !important; border-color: rgba(255,255,255,.08) !important; }
+body.dark-mode #sidebar-user-card { background: rgba(255,255,255,.06) !important; }
+body.dark-mode #sidebar-nome-aluno { color: #e0e0e0 !important; }
+body.dark-mode #sidebar-nivel-txt,
+body.dark-mode #sidebar-rank-txt { color: rgba(255,255,255,.45) !important; }
+body.dark-mode .sidebar-sep { background: rgba(255,255,255,.08) !important; }
+body.dark-mode .sidebar-nav-item { color: rgba(255,255,255,.6) !important; }
+body.dark-mode .sidebar-nav-item:hover { background: rgba(255,255,255,.07) !important; color: #fff !important; }
+body.dark-mode .sidebar-nav-item.active { background: #2e7d32 !important; color: #fff !important; }
+body.dark-mode .sidebar-nav-item i { color: rgba(255,255,255,.35) !important; }
+body.dark-mode .sidebar-nav-item:hover i,
+body.dark-mode .sidebar-nav-item.active i { color: inherit !important; }
+body.dark-mode .sidebar-sub-item { color: rgba(255,255,255,.4) !important; }
+body.dark-mode .sidebar-group-btn { color: rgba(255,255,255,.6) !important; }
+body.dark-mode .sidebar-ctrl-btn,
+body.dark-mode .sidebar-font-btn { background: rgba(255,255,255,.08) !important; color: rgba(255,255,255,.5) !important; }
+body.dark-mode .sidebar-ctrl-btn:hover,
+body.dark-mode .sidebar-font-btn:hover { background: rgba(255,255,255,.15) !important; color: #fff !important; }
+
+/* ── Mobile: esconde sidebar ─────────────────────────────────────── */
+@media (max-width: 800px) {
+    #sidebar-duvid { display: none; }
+    body:has(#sidebar-duvid) main { margin-left: 0; }
 }

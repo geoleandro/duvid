@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -72,7 +73,19 @@
 
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <div class="w3-content" style="max-width:900px; margin-top: 80px; margin-bottom: 100px;">
+    <main class="texto-layout">
+
+        <!-- Banner hero -->
+        <div class="texto-hero" style="background-image:url('/fotoIndex/tileset/fundo.webp');">
+            <div class="texto-hero-overlay">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">🌍 Projeto</span>
+                </div>
+                <h1 class="texto-hero-title">Conheça o Projeto Duvid</h1>
+            </div>
+        </div>
+
+    <div class="texto-body-pad">
 
         <div class="w3-container w3-white w3-card-4 w3-margin w3-padding-32 w3-round-large">
 
@@ -138,6 +151,8 @@
             </div>
         </div>
     </div>
+
+    </main><!-- /.texto-layout -->
 
     <?php include __DIR__ . '/../includes/footer.php'; ?>
 

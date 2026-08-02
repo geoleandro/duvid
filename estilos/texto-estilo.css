@@ -1,0 +1,1910 @@
+/* ════════════════════════════════════════════════════════════════
+   texto-estilo.css — Clean Pixel / GeoExplorer System
+   SCREEN_30 — Página de Aula (Duvid Geografia)
+   Specs: hero 320px · Montserrat · painel 300px · gutter 32px
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Fix: overflow-x:hidden no <html> e <body> (W3.CSS + index-estilo) ──
+   quebram position:sticky (criam scroll container). Clip bloqueia o
+   scroll horizontal sem criar container, preservando sticky. */
+html { overflow-x: clip !important; }
+body { overflow-x: clip !important; }
+
+/* ── Surface e tipografia global ─────────────────────────────────── */
+body {
+    background-color: #f8f9fa;
+}
+
+/* ── Override do ModeloCss.css ───────────────────────────────────────
+   ModeloCss: main { max-width:750px; margin:70px auto }
+   sidebar.php injeta: body:has(#sidebar-duvid) main { margin-left:200px }
+   NÃO usar margin shorthand com !important (quebraria o margin-left da sidebar).
+   ─────────────────────────────────────────────────────────────────── */
+main.texto-layout {
+    background: transparent !important;
+    box-shadow: none !important;
+    max-width: none !important;
+    width: auto !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 64px !important;
+    padding: 72px 0 0 !important;
+    border-radius: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+/* ── Utilitário: padding do corpo da página alinhado ao hero ─────────
+   Desktop    : 48px (espelha hero calc(100% - 96px))
+   Tablet ≤1024: 24px (espelha hero margin: 0 24px)
+   Mobile ≤640 : 12px (espelha hero margin: 12px)
+   Use este utilitário em QUALQUER wrapper de conteúdo abaixo do hero
+   para garantir alinhamento automático em todos os breakpoints.       */
+.texto-body-pad {
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+    padding: 0 48px 60px;
+    box-sizing: border-box;
+}
+@media (max-width: 1024px) {
+    .texto-body-pad { padding: 0 24px 48px; }
+}
+@media (max-width: 640px) {
+    .texto-body-pad { padding: 0 12px 40px; }
+}
+
+/* ── Body row: coluna esquerda + painel ──────────────────────────── */
+.texto-body-row {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 32px;
+    align-items: start;
+    max-width: 1148px;
+    margin: 0 auto;
+    padding: 0 48px;
+    box-sizing: border-box;
+}
+
+/* ── Coluna de conteúdo (áudio + article) ────────────────────────── */
+.texto-coluna {
+    flex: 1;
+    min-width: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   HERO BANNER
+   ════════════════════════════════════════════════════════════════════ */
+.texto-hero {
+    width: calc(100% - 96px);
+    max-width: 1280px;
+    margin: 10px auto 0;
+    min-height: 320px;
+    background: #2e7d32 center / cover no-repeat;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+}
+
+.texto-hero-overlay {
+    position: absolute;
+    inset: 0;
+    /* Gradiente lateral: escuro à esquerda, transparente à direita */
+    background: linear-gradient(90deg, rgba(0, 0, 0, .30) 0%, rgba(0, 0, 0, .10) 60%, transparent 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    gap: 10px;
+}
+
+.texto-hero-badges {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.texto-badge {
+    background: rgba(255, 255, 255, .18);
+    backdrop-filter: blur(6px);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 100px;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-badge-green {
+    background: #2e7d32;
+}
+
+.texto-hero-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.25;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+    margin: 0;
+    max-width: 600px;
+}
+
+/* Skeleton de carregamento */
+.texto-hero-skeleton {
+    width: calc(100% - 96px);
+    margin: 0 48px;
+    min-height: 320px;
+    border-radius: 32px;
+    background: linear-gradient(90deg, #e8e8e8 25%, #d8d8d8 50%, #e8e8e8 75%);
+    background-size: 200% 100%;
+    animation: tp-shimmer 1.4s infinite linear;
+}
+
+@keyframes tp-shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   AUDIO PLAYER — Clean Pixel Custom Player
+   Estrutura: .texto-audio-card > .ap-inner > [.ap-info | .ap-sep | .ap-controls]
+   ════════════════════════════════════════════════════════════════════ */
+
+/* Card container — overflow:hidden vai só no .ap-inner pra não clipar a sombra */
+.texto-audio-card {
+    width: 100%;
+    border-radius: 24px;
+    background: #fff;
+    border: 1px solid #c8e6c9;
+    border-left: 3px solid #4caf50;
+    box-shadow: 0 4px 16px rgba(46, 125, 50, 0.12);
+    position: relative;
+}
+
+/* Anula qualquer border-left/right que o W3.CSS .w3-leftbar possa injetar */
+.texto-audio-card .w3-leftbar,
+.texto-audio-card [class*="w3-leftbar"],
+.texto-audio-card [class*="w3-border"] {
+    border-left: none !important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+/* Inner: flex row + overflow:hidden p/ border-radius sem clipar sombra do card */
+.ap-inner {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 32px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+/* ── Info: ícone + labels ───────────────────────────────────────── */
+.ap-info {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+}
+
+.ap-icon-wrap {
+    width: 44px;
+    height: 44px;
+    background: #e8f5e9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.ap-icon-wrap .fa-headphones {
+    font-size: 1.125rem;
+    color: #2e7d32;
+}
+
+.ap-labels {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.ap-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #2e7d32;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    line-height: 1;
+}
+
+.ap-subtitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: #444746;
+    line-height: 1.3;
+}
+
+/* Separador vertical */
+.ap-sep {
+    width: 1px;
+    height: 40px;
+    background: #e0e0e0;
+    flex-shrink: 0;
+}
+
+/* ── Controles ──────────────────────────────────────────────────── */
+.ap-controls {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Botões: skip-back | play | skip-fwd */
+.ap-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+/* Botões de skip */
+.ap-skip-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #1c1b1b;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    transition: background .15s;
+    flex-shrink: 0;
+}
+
+.ap-skip-btn:hover { background: #f0f0f0; }
+.ap-skip-btn:active { background: #e8f5e9; }
+
+.ap-skip-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #1c1b1b;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+/* SVGs dos botões */
+.ap-svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+    flex-shrink: 0;
+}
+
+/* Botão play principal */
+.ap-play-btn {
+    width: 56px;
+    height: 56px;
+    background: #1b5e20;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-shrink: 0;
+    transition: background .15s, transform .1s;
+    box-shadow: 0 4px 12px rgba(27, 94, 32, .35);
+}
+
+.ap-play-btn .ap-svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 2px; /* óptico: centraliza o triângulo de play */
+}
+
+.ap-play-btn.ap-playing .ap-svg { margin-left: 0; }
+
+.ap-play-btn:hover   { background: #2e7d32; }
+.ap-play-btn:active  { transform: scale(.93); }
+
+/* ── Seeker row ─────────────────────────────────────────────────── */
+.ap-seeker-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ap-time {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #1c1b1b;
+    white-space: nowrap;
+    min-width: 34px;
+    flex-shrink: 0;
+}
+
+.ap-time-tot {
+    text-align: right;
+}
+
+/* Trilha do seeker */
+.ap-track {
+    flex: 1;
+    height: 6px;
+    background: #e0e0e0;
+    border-radius: 100px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: height .15s;
+}
+
+.ap-track:hover { height: 8px; }
+
+.ap-fill {
+    height: 100%;
+    width: 0%;
+    background: #4caf50;
+    border-radius: 100px;
+    transition: width .15s linear;
+    pointer-events: none;
+}
+
+/* ── Dark mode ──────────────────────────────────────────────────── */
+body.dark-mode .texto-audio-card {
+    background: #252525 !important;
+    border-color: #2e7d32 !important;
+    border-left-color: #4caf50 !important;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.10) !important;
+}
+
+body.dark-mode .ap-sep             { background: #3a3a3a; }
+body.dark-mode .ap-icon-wrap       { background: #1b3a1f; }
+body.dark-mode .ap-icon-wrap .fa-headphones { color: #81c784; }
+body.dark-mode .ap-titulo          { color: #81c784; }
+body.dark-mode .ap-subtitulo       { color: #aaa; }
+body.dark-mode .ap-skip-btn        { color: #ddd; }
+body.dark-mode .ap-skip-btn:hover  { background: #333; }
+body.dark-mode .ap-skip-label      { color: #ddd; }
+body.dark-mode .ap-time            { color: #ccc; }
+body.dark-mode .ap-track           { background: #444; }
+
+/* ── Mobile: seeker e info empilhados ──────────────────────────── */
+@media (max-width: 640px) {
+    .ap-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .ap-sep { display: none; }
+
+    .ap-controls { width: 100%; }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   ARTICLE — CONTEÚDO TEXTUAL
+   ════════════════════════════════════════════════════════════════════ */
+.texto-content {
+    background: #fff !important;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+}
+
+/* Inner */
+.texto-content-inner {
+    padding: 32px 36px 36px;
+    counter-reset: secao;
+    font-family: 'Montserrat', sans-serif;
+    color: #1c1b1b;
+}
+
+/* Oculta H1 (título exibido no hero) */
+.texto-content-inner #h1 {
+    display: none !important;
+}
+
+/* Parágrafos */
+.texto-content-inner p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.75;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: .925rem;
+    color: #1c1b1b;
+}
+
+/* H1 legado */
+.texto-content-inner h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1c1b1b !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    text-align: left !important;
+    margin: 0 0 8px !important;
+    line-height: 1.25;
+}
+
+/* H2 de seção com numeração automática */
+.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2e7d32 !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 12px;
+    line-height: 1.3;
+}
+
+.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2::before {
+    counter-increment: secao;
+    content: counter(secao);
+    display: inline-flex;
+    width: 28px;
+    height: 28px;
+    background: #4caf50;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+body.dark-mode .texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2 {
+    color: #81c784 !important;
+}
+
+/* ── Blocos .topico ──────────────────────────────────────────────── */
+.texto-content-inner .topico {
+    padding: 24px 0;
+    border-bottom: 1px solid #f0f0f0 !important;
+    background: transparent !important;
+}
+
+.texto-content-inner .topico:first-child {
+    padding-top: 0;
+}
+
+.texto-content-inner .topico:last-child {
+    border-bottom: none !important;
+    padding-bottom: 0;
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   BLOCO DE NOTAS — "Anote aí!" / "Agora é com você!"
+   Estrutura no HTML: <p class="caixa"> + <div class="w3-panel w3-pale-green/yellow">
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ════════════════════════════════════════════════════════════════════
+   COMPONENTES DE DESTAQUE — Clean Pixel
+   ════════════════════════════════════════════════════════════════════
+
+   Mapeamento HTML → Componente:
+   • p.caixa                              → label badge (ícone + texto)
+   • .w3-panel.w3-pale-yellow             → Box "Anote aí!"
+   • .w3-panel.w3-pale-green              → Box "O que você aprendeu?"
+   • .w3-panel.w3-leftbar.w3-sand         → Bloco de Citação
+   • .w3-panel.w3-leftbar.w3-light-grey   → Bloco de Citação (variante)
+   • span.citacao / p.citacao             → Fonte inline
+   ════════════════════════════════════════════════════════════════════ */
+
+/* ── A. Label Badge (p.caixa) ────────────────────────────────────────
+   Aparece antes do bloco como rótulo contextual.                    */
+.texto-content-inner p.caixa {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #1b5e20;
+    background: #e8f5e9;
+    border-radius: 8px;
+    padding: 5px 12px;
+    margin: 0 0 6px;
+}
+
+/* Ícone pixel art — lápis diagonal 16×16 */
+.texto-content-inner p.caixa::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='14' y='0' width='2' height='2' fill='%23ef9a9a'/%3E%3Crect x='12' y='0' width='2' height='2' fill='%23ffc107'/%3E%3Crect x='10' y='2' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='8' y='4' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='6' y='6' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='4' y='8' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='2' y='10' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='0' y='12' width='2' height='2' fill='%23ffc107'/%3E%3Crect x='2' y='12' width='2' height='2' fill='%238d6e63'/%3E%3Crect x='0' y='14' width='2' height='2' fill='%235d4037'/%3E%3C/svg%3E");
+}
+
+/* ── B. Box "Anote aí!" (w3-pale-yellow) ────────────────────────────
+   Destaques rápidos — borda pontilhada âmbar, fundo papel suave.   */
+.texto-content-inner .w3-panel.w3-pale-yellow {
+    background: #fffde7 !important;
+    border: 2px dashed #f9a825 !important;
+    border-radius: 16px !important;
+    padding: 20px 24px !important;
+    margin: 4px 0 16px !important;
+    box-shadow: none !important;
+    position: relative;
+}
+
+/* Ícone de lápis 32×32 no canto */
+.texto-content-inner .w3-panel.w3-pale-yellow::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 28px;
+    height: 28px;
+    image-rendering: pixelated;
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    opacity: .35;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='14' y='0' width='2' height='2' fill='%23ef9a9a'/%3E%3Crect x='12' y='0' width='2' height='2' fill='%23ffc107'/%3E%3Crect x='10' y='2' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='8' y='4' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='6' y='6' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='4' y='8' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='2' y='10' width='4' height='2' fill='%23ffc107'/%3E%3Crect x='0' y='12' width='2' height='2' fill='%23ffc107'/%3E%3Crect x='2' y='12' width='2' height='2' fill='%238d6e63'/%3E%3Crect x='0' y='14' width='2' height='2' fill='%235d4037'/%3E%3C/svg%3E");
+}
+
+.texto-content-inner .w3-panel.w3-pale-yellow p {
+    color: #33260a !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem !important;
+    line-height: 1.75 !important;
+    margin-bottom: 8px !important;
+}
+
+/* ── C. Box "O que você aprendeu?" (w3-pale-green) ──────────────────
+   Atividades e exercícios — card branco com accent verde lateral.   */
+.texto-content-inner .w3-panel.w3-pale-green {
+    background: #ffffff !important;
+    border: 1px solid #c8e6c9 !important;
+    border-left: 4px solid #2e7d32 !important;
+    border-radius: 0 16px 16px 0 !important;
+    padding: 20px 24px !important;
+    margin: 4px 0 16px !important;
+    box-shadow: 0 2px 8px rgba(46,125,50,.06) !important;
+    position: relative;
+}
+
+/* Ícone de livro/check 32×32 no canto */
+.texto-content-inner .w3-panel.w3-pale-green::after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    width: 28px;
+    height: 28px;
+    image-rendering: pixelated;
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    opacity: .30;
+    /* Pixel art checkmark / livro */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' shape-rendering='crispEdges'%3E%3Crect x='1' y='0' width='10' height='12' fill='%234caf50'/%3E%3Crect x='0' y='0' width='1' height='12' fill='%232e7d32'/%3E%3Crect x='2' y='2' width='7' height='1' fill='%23fff'/%3E%3Crect x='2' y='4' width='7' height='1' fill='%23fff'/%3E%3Crect x='2' y='6' width='5' height='1' fill='%23fff'/%3E%3Crect x='8' y='11' width='3' height='3' fill='%23fbc02d'/%3E%3Crect x='9' y='12' width='5' height='2' fill='%23fbc02d'/%3E%3Crect x='12' y='10' width='2' height='2' fill='%23fbc02d'/%3E%3C/svg%3E");
+}
+
+.texto-content-inner .w3-panel.w3-pale-green p {
+    color: #1c3a1c !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem !important;
+    line-height: 1.75 !important;
+    margin-bottom: 8px !important;
+}
+
+/* ── D. Bloco de Citação (w3-leftbar + w3-sand / w3-light-grey) ─────
+   Citações acadêmicas — fundo neutro, accent esquerdo verde.       */
+.texto-content-inner .w3-panel.w3-leftbar.w3-sand,
+.texto-content-inner .w3-panel.w3-leftbar.w3-light-grey,
+.texto-content-inner .w3-panel[class*="w3-leftbar"] {
+    background: #f3f4f5 !important;
+    border: none !important;
+    border-left: 4px solid #4caf50 !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 16px 20px !important;
+    margin: 8px 0 16px !important;
+    box-shadow: none !important;
+}
+
+.texto-content-inner .w3-panel.w3-leftbar.w3-sand p,
+.texto-content-inner .w3-panel.w3-leftbar.w3-light-grey p,
+.texto-content-inner .w3-panel[class*="w3-leftbar"] p {
+    color: #444746 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .875rem !important;
+    font-style: italic;
+    line-height: 1.7 !important;
+    margin-bottom: 6px !important;
+}
+
+/* ── E. Fonte inline (span.citacao, p.citacao) ───────────────────── */
+.texto-content-inner span.citacao,
+.texto-content-inner p.citacao {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem !important;
+    font-style: italic;
+    color: #888 !important;
+    margin-top: 6px;
+    padding-left: 4px;
+    border-left: 2px solid #c8e6c9;
+    line-height: 1.5;
+}
+
+/* ── Dark mode ───────────────────────────────────────────────────── */
+body.dark-mode .texto-content-inner p.caixa {
+    background: #1b3a1f !important;
+    color: #81c784 !important;
+}
+
+body.dark-mode .texto-content-inner .w3-panel.w3-pale-yellow {
+    background: #2a2200 !important;
+    border-color: #f9a825 !important;
+}
+body.dark-mode .texto-content-inner .w3-panel.w3-pale-yellow p {
+    color: #fff8e1 !important;
+}
+
+body.dark-mode .texto-content-inner .w3-panel.w3-pale-green {
+    background: #0d1f0e !important;
+    border-color: #4caf50 !important;
+    border-left-color: #4caf50 !important;
+}
+body.dark-mode .texto-content-inner .w3-panel.w3-pale-green p {
+    color: #a5d6a7 !important;
+}
+
+body.dark-mode .texto-content-inner .w3-panel.w3-leftbar.w3-sand,
+body.dark-mode .texto-content-inner .w3-panel.w3-leftbar.w3-light-grey,
+body.dark-mode .texto-content-inner .w3-panel[class*="w3-leftbar"] {
+    background: #1e1e1e !important;
+    border-left-color: #66bb6a !important;
+}
+body.dark-mode .texto-content-inner .w3-panel.w3-leftbar.w3-sand p,
+body.dark-mode .texto-content-inner .w3-panel.w3-leftbar.w3-light-grey p,
+body.dark-mode .texto-content-inner .w3-panel[class*="w3-leftbar"] p {
+    color: #aaa !important;
+}
+
+body.dark-mode .texto-content-inner span.citacao,
+body.dark-mode .texto-content-inner p.citacao {
+    color: #888 !important;
+    border-left-color: #444 !important;
+}
+
+/* ── Questão prática ─────────────────────────────────────────────── */
+/* ════════════════════════════════════════════════════════════════════
+   QUESTÃO PRÁTICA — Clean Pixel Challenge Card
+   Especificidade (0,2,2) bate ModeloCss (.pergunta-bloco = 0,0,1)
+   ════════════════════════════════════════════════════════════════════ */
+
+/* ── Container ── */
+.texto-content-inner .topico.pergunta-bloco {
+    background: #1b5e20 !important;
+    border: none !important;
+    border-bottom: none !important;
+    border-radius: 24px !important;
+    padding: 32px !important;
+    margin: 8px 0 !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,.12) !important;
+    color: #fff;
+}
+
+/* ── Cabeçalho injetado pelo JS ── */
+.texto-content-inner .topico.pergunta-bloco .pq-header {
+    display: flex !important;
+    align-items: center;
+    gap: 10px;
+    margin: 0 0 16px !important;
+    padding: 0 !important;
+    background: none !important;
+}
+
+/* Ícone "?" pixel art 24×24 em amarelo-dourado */
+.pq-icon-q {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' shape-rendering='crispEdges'%3E%3Crect x='3' y='0' width='12' height='3' fill='%23fbc02d'/%3E%3Crect x='0' y='3' width='3' height='3' fill='%23fbc02d'/%3E%3Crect x='15' y='3' width='3' height='3' fill='%23fbc02d'/%3E%3Crect x='15' y='6' width='3' height='3' fill='%23fbc02d'/%3E%3Crect x='9' y='9' width='6' height='3' fill='%23fbc02d'/%3E%3Crect x='6' y='12' width='3' height='3' fill='%23fbc02d'/%3E%3Crect x='6' y='18' width='3' height='3' fill='%23fbc02d'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Título "Questão Prática" */
+.pq-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.2;
+}
+
+/* ── Enunciado (injetado pelo JS com classe pq-enunciado) ── */
+.texto-content-inner .topico.pergunta-bloco .pq-enunciado {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    color: #f3f4f5 !important;
+    line-height: 1.6 !important;
+    margin: 0 0 24px !important;
+    padding: 0 !important;
+}
+
+/* Fallback: parágrafos genéricos dentro do bloco */
+.texto-content-inner .topico.pergunta-bloco p {
+    color: #f3f4f5 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.texto-content-inner .topico.pergunta-bloco h2,
+.texto-content-inner .topico.pergunta-bloco h3 {
+    color: #ffffff !important;
+}
+
+/* ── Opções de resposta ── */
+.texto-content-inner .topico.pergunta-bloco .grupo-respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+/* Remove a borda lateral do ModeloCss */
+.texto-content-inner .topico.pergunta-bloco .item-resposta {
+    border-left: none !important;
+    transition: none !important;
+    margin: 0;
+}
+
+/* Card de opção (label) */
+.texto-content-inner .topico.pergunta-bloco .card-opcao {
+    background: transparent !important;
+    border: 1px solid rgba(255,255,255,.3) !important;
+    border-radius: 16px !important;
+    padding: 16px 24px !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 400;
+    margin: 0 !important;
+    cursor: pointer;
+    transition: background .18s, border-color .18s !important;
+    box-shadow: none !important;
+}
+
+.texto-content-inner .topico.pergunta-bloco .card-opcao:hover {
+    background: rgba(255,255,255,.1) !important;
+    border-color: rgba(255,255,255,.6) !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* Opção selecionada */
+.texto-content-inner .topico.pergunta-bloco .radio-duvid:checked + .card-opcao {
+    background: rgba(255,255,255,.1) !important;
+    border: 2px solid #4caf50 !important;
+    color: #ffffff !important;
+    font-weight: 600 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* ── Rodapé: label XP + botão ── */
+.texto-content-inner .topico.pergunta-bloco .pq-xp-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem !important;
+    font-weight: 700;
+    color: rgba(255,255,255,.7) !important;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin: 20px 0 8px !important;
+    padding: 0 !important;
+    text-align: center;
+    background: none !important;
+}
+
+/* Botão confirmar — amarelo tátil */
+.texto-content-inner .topico.pergunta-bloco .btn-acao-duvid {
+    background: #fbc02d !important;
+    color: #1b5e20 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    border-radius: 24px !important;
+    box-shadow: 0 4px 0 #c49000 !important;
+    padding: 14px 32px !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    border: none !important;
+    display: block;
+    margin: 0 auto;
+    transition: transform .1s ease, box-shadow .1s ease !important;
+}
+
+.texto-content-inner .topico.pergunta-bloco .btn-acao-duvid:hover:not(:disabled) {
+    background: #fbc02d !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 0 #c49000 !important;
+}
+
+.texto-content-inner .topico.pergunta-bloco .btn-acao-duvid:active {
+    transform: translateY(4px) !important;
+    box-shadow: none !important;
+}
+
+.texto-content-inner .topico.pergunta-bloco .btn-acao-duvid:disabled {
+    opacity: .6 !important;
+    transform: none !important;
+    box-shadow: 0 4px 0 #c49000 !important;
+    cursor: not-allowed;
+}
+
+/* Estado de acerto/erro (classe w3-amber aplicada pelo JS existente) */
+.texto-content-inner .topico.pergunta-bloco .btn-acao-duvid.w3-amber {
+    background: #ffe082 !important;
+    box-shadow: 0 4px 0 #b8860b !important;
+}
+
+/* Área de feedback */
+.texto-content-inner .topico.pergunta-bloco [id^="resp"] {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #f3f4f5 !important;
+    padding: 12px 0 0 !important;
+}
+
+/* Esconde elementos legados */
+#progress, #txtBarra { display: none !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   PAINEL LATERAL DIREITO — Clean Pixel Sidebar
+   ════════════════════════════════════════════════════════════════════ */
+.texto-painel {
+    width: 300px;
+    position: sticky;
+    top: 80px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    /* Sem overflow-y nem max-height → sem scroll interno */
+    overflow: visible;
+}
+
+/* ── Card base ───────────────────────────────────────────────────── */
+.tp-card {
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+    padding: 24px;
+}
+
+/* ── Cabeçalho de progresso ──────────────────────────────────────── */
+.tp-progress-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.tp-titulo-progresso {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #2e7d32;
+    line-height: 1.2;
+}
+
+.tp-pct-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #444746;
+    white-space: nowrap;
+}
+
+/* ── Barra de progresso geral ────────────────────────────────────── */
+.tp-prog-bar-wrap {
+    height: 8px;
+    background: #f3f4f5;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tp-prog-bar {
+    height: 100%;
+    background: #2e7d32;
+    border-radius: 4px;
+    width: 0%;
+    transition: width .45s ease;
+}
+
+/* ── Stepper vertical ────────────────────────────────────────────── */
+.tp-stepper {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tp-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+}
+
+/* Coluna esquerda: ponto + linha */
+.tp-step-indicator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 2px;
+}
+
+/* Círculo indicador 12px */
+.tp-step-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 1;
+    transition: background .25s, border .25s, box-shadow .25s;
+}
+
+/* Estado: concluído */
+.tp-step-done .tp-step-dot {
+    background: #2e7d32;
+}
+
+/* Estado: ativo (próximo a ler) */
+.tp-step-active .tp-step-dot {
+    background: #fff;
+    border: 2px solid #2e7d32;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, .15);
+}
+
+/* Ponto central no ativo */
+.tp-step-active .tp-step-dot::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #2e7d32;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Estado: pendente */
+.tp-step-pending .tp-step-dot {
+    background: #e0e0e0;
+}
+
+/* Linha conectora 2px */
+.tp-step-line {
+    width: 2px;
+    background: #e0e0e0;
+    flex: 1;
+    min-height: 18px;
+    margin: 3px 0;
+    transition: background .3s;
+}
+
+/* Linha verde para steps concluídos */
+.tp-step-done .tp-step-line {
+    background: #2e7d32;
+}
+
+/* Último step não tem linha */
+.tp-step:last-child .tp-step-line {
+    display: none;
+}
+
+/* Label do step */
+.tp-step-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    line-height: 1.35;
+    padding-bottom: 16px;
+    padding-top: 0;
+}
+
+.tp-step-done .tp-step-label {
+    color: #888;
+}
+
+.tp-step-active .tp-step-label {
+    font-weight: 600;
+    color: #2e7d32;
+}
+
+.tp-step-pending .tp-step-label {
+    font-weight: 400;
+    color: #444746;
+}
+
+.tp-step:last-child .tp-step-label {
+    padding-bottom: 0;
+}
+
+/* ── Card de globinhos da aula ───────────────────────────────────── */
+.tp-card-globinhos {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.tp-glob-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.tp-glob-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    flex-shrink: 0;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+}
+
+.tp-glob-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 2px;
+}
+
+.tp-glob-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #2e7d32;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.tp-glob-val {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #2e7d32;
+    line-height: 1;
+}
+
+@keyframes globPulse {
+    0%   { transform: scale(1); }
+    40%  { transform: scale(1.18); }
+    100% { transform: scale(1); }
+}
+.tp-glob-animado {
+    animation: globPulse 0.35s ease forwards;
+}
+
+/* ── Dark mode ────────────────────────────────────────────────────── */
+body.dark-mode .tp-card-globinhos {
+    background: #252525 !important;
+    border-color: #333 !important;
+}
+body.dark-mode .tp-glob-label { color: #81c784 !important; }
+body.dark-mode .tp-glob-val   { color: #81c784 !important; }
+
+/* ── Botões de ação ──────────────────────────────────────────────── */
+.tp-card-acoes { display: flex; flex-direction: column; gap: 8px; }
+
+.tp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+    transition: opacity .15s, transform .12s;
+}
+
+.tp-btn:hover { opacity: .82; transform: translateY(-1px); }
+
+/* Baixar Offline */
+.tp-btn-offline {
+    background: #eeeeee;
+    color: #2e7d32;
+    border: none;
+}
+
+/* Indicar para Amigo */
+.tp-btn-share {
+    background: transparent;
+    color: #2e7d32;
+    border: 1px solid #e0e0e0;
+}
+
+/* ── Cards de navegação (Próxima Parada + Mini-game) ─────────────── */
+.tp-nav-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .12);
+    transition: opacity .15s, transform .12s;
+}
+
+.tp-nav-card:hover { opacity: .88; transform: translateY(-2px); }
+
+/* Próxima parada — laranja */
+.tp-nav-proxima {
+    background: #e67e22;
+}
+
+/* Questões / Mini-game — azul */
+.tp-nav-questoes {
+    background: #3498db;
+}
+
+/* Módulo completo — verde */
+.tp-nav-fim {
+    background: #2e7d32;
+}
+
+/* Ícone circular */
+.tp-nav-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 1rem;
+}
+
+.tp-nav-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    min-width: 0;
+}
+
+.tp-nav-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: .85;
+}
+
+.tp-nav-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 1.35;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.tp-nav-skeleton {
+    font-size: 0.75rem;
+    color: #bbb;
+    padding: 4px 0;
+}
+
+/* ── Dark mode — painel ──────────────────────────────────────────── */
+body.dark-mode .tp-card             { background: #252525 !important; border-color: #333 !important; }
+body.dark-mode .tp-titulo-progresso { color: #81c784 !important; }
+body.dark-mode .tp-pct-label        { color: #aaa !important; }
+body.dark-mode .tp-prog-bar-wrap    { background: #333 !important; }
+body.dark-mode .tp-step-line        { background: #3a3a3a; }
+body.dark-mode .tp-step-done .tp-step-line { background: #2e7d32; }
+body.dark-mode .tp-step-active .tp-step-dot { background: #1e1e1e; }
+body.dark-mode .tp-step-pending .tp-step-dot { background: #444; }
+body.dark-mode .tp-step-done .tp-step-label  { color: #666 !important; }
+body.dark-mode .tp-step-active .tp-step-label { color: #81c784 !important; }
+body.dark-mode .tp-step-pending .tp-step-label { color: #888 !important; }
+body.dark-mode .tp-btn-offline  { background: #333 !important; color: #81c784 !important; }
+body.dark-mode .tp-btn-share    { background: transparent !important; border-color: #444 !important; color: #81c784 !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   RESPONSIVO
+   ════════════════════════════════════════════════════════════════════ */
+
+/* Tablet (≤1024px): painel vira estático embaixo */
+@media (max-width: 1024px) {
+    main.texto-layout {
+        margin-right: 24px !important;
+    }
+
+    .texto-body-row {
+        grid-template-columns: 1fr;
+        padding: 0 24px;
+    }
+
+    .texto-hero,
+    .texto-hero-skeleton {
+        width: calc(100% - 48px);
+        margin: 0 24px;
+    }
+
+    .texto-painel {
+        width: 100% !important;
+        position: static !important;
+        overflow: visible;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+    }
+}
+
+/* Mobile (≤640px): layout simplificado */
+@media (max-width: 640px) {
+    main.texto-layout {
+        margin-right: 0 !important;
+        gap: 16px;
+        padding: 68px 0 0 !important;
+    }
+
+    .texto-hero,
+    .texto-hero-skeleton {
+        width: calc(100% - 24px);
+        margin: 16px 12px 0;
+        min-height: 240px;
+        border-radius: 20px;
+    }
+
+    .texto-hero-overlay {
+        padding: 20px 20px 28px;
+        gap: 12px;
+    }
+
+    .texto-hero-title {
+        font-size: 1.25rem;
+        line-height: 1.3;
+    }
+
+    .texto-body-row {
+        padding: 0 16px;
+    }
+
+    .texto-content-inner {
+        padding: 20px 20px 24px;
+    }
+
+    .texto-content-inner .topico {
+        padding: 16px 0;
+    }
+
+    /* Áudio mobile: empilha verticalmente */
+    .texto-audio-card .w3-panel.w3-light-grey.w3-leftbar.w3-border-green {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 16px !important;
+        padding: 20px !important;
+    }
+
+    .texto-audio-card audio {
+        width: 100% !important;
+    }
+
+    .texto-painel {
+        grid-template-columns: 1fr;
+    }
+
+    .tp-card {
+        width: 100%;
+    }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   ANTI-CINZA — só em light mode
+   body:not(.dark-mode) espec.(0,2,2) > ModeloCss body.dark-mode p (0,1,2)
+   ════════════════════════════════════════════════════════════════════ */
+/* Anti-cinza geral — light mode */
+body:not(.dark-mode) .texto-content-inner p,
+body:not(.dark-mode) .texto-content-inner h2,
+body:not(.dark-mode) .texto-content-inner h3,
+body:not(.dark-mode) .texto-content-inner h4,
+body:not(.dark-mode) .texto-content-inner li,
+body:not(.dark-mode) .texto-content-inner b,
+body:not(.dark-mode) .texto-content-inner strong,
+body:not(.dark-mode) .texto-content-inner span:not(.texto-badge):not(.tp-check-icon):not(.tp-check-label) {
+    color: #1c1b1b !important;
+    transition: none !important;
+}
+
+/* Override: pergunta-bloco tem fundo escuro → texto permanece branco.
+   Anti-cinza usa span:not(×3) → especificidade (0,5,2).
+   Usamos .card-opcao span para chegar a (0,5,2) e ganhar por source order. */
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco p,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco h2,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco h3,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco h4,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco li,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco b,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco strong,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco span,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco label,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .card-opcao span,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .card-opcao,
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .pq-header .pq-titulo {
+    color: #ffffff !important;
+    transition: none !important;
+}
+
+.texto-content-inner img {
+    filter: none !important;
+    opacity: 1 !important;
+}
+
+body:not(.dark-mode) .texto-content-inner .w3-text-green { color: #2e7d32 !important; }
+body:not(.dark-mode) .texto-content-inner .w3-text-red   { color: #c62828 !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   DARK MODE
+   ModeloCss.css já define: body.dark-mode p/h2/span { color:#fff } (0,1,2)
+   body.dark-mode .topico/main { background:#1e1e1e } (0,2,1)
+   Usamos especificidade maior onde precisamos divergir.
+   ════════════════════════════════════════════════════════════════════ */
+
+/* main transparente (espec. 0,2,2 > ModeloCss 0,2,1) */
+body.dark-mode main.texto-layout {
+    background: transparent !important;
+}
+
+/* Article escuro */
+body.dark-mode .texto-content,
+body.dark-mode article.texto-content {
+    background: #1e1e1e !important;
+    border-color: #2a2a2a !important;
+}
+
+/* Tópicos transparentes dentro do article escuro (espec. 0,3,1 > 0,2,1) */
+body.dark-mode .texto-content-inner .topico {
+    background: transparent !important;
+    border-color: #2a2a2a !important;
+}
+
+/* Questão prática: mantém verde escuro no dark */
+body.dark-mode .texto-content-inner .topico.pergunta-bloco {
+    background: #1b3a1f !important;
+}
+
+/* Painel lateral */
+body.dark-mode .tp-card {
+    background: #252525 !important;
+    border-color: #333 !important;
+}
+/* dark mode tp-* — regras principais estão no bloco do painel acima */
+
+/* Áudio escuro — regras complementares (as principais estão no bloco do player) */
+body.dark-mode .ap-play-btn {
+    background: #2e7d32 !important;
+    box-shadow: 0 4px 12px rgba(46, 125, 50, .35) !important;
+}
+body.dark-mode .ap-fill { background: #66bb6a !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   LEGACY COMPONENT OVERRIDES — adequações de componentes herdados
+   ════════════════════════════════════════════════════════════════════ */
+
+/* ── A. Limpa background W3.CSS em <p> com classe w3-pale-* / w3-sand
+   dentro de painéis — W3.CSS aplica bg em qualquer elemento com essas
+   classes, inclusive <p>, sobrepondo o design do painel pai.          */
+.texto-content-inner .w3-panel p[class*="w3-pale"],
+.texto-content-inner .w3-panel p[class*="w3-sand"] {
+    background: transparent !important;
+}
+
+/* ── B. .postit-tp1 — "Anote aí!" card estruturado ─────────────────
+   ModeloCss: rotate(-3deg), pixel font, box-shadow → tudo removido.  */
+.texto-content-inner .postit-tp1 {
+    background: #fffde7 !important;
+    border: 2px dashed #f9a825 !important;
+    border-radius: 20px !important;
+    padding: 28px 32px !important;
+    margin: 8px 0 24px !important;
+    box-shadow: none !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    color: #1c1b1b !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.925rem !important;
+    line-height: 1.7 !important;
+    width: auto !important;
+}
+
+/* H2 dentro do postit (remove styles do ModeloCss: green bg, shadow, etc.) */
+.texto-content-inner .postit-tp1 h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #1c1b1b !important;
+    margin: 0 0 16px !important;
+    background: none !important;
+    box-shadow: none !important;
+    text-align: left !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    transform: none !important;
+    line-height: 1.4 !important;
+}
+
+/* <mark> dentro do H2 — destaque âmbar */
+.texto-content-inner .postit-tp1 h2 mark {
+    background: #f9a825 !important;
+    color: #1c1b1b !important;
+    border-radius: 6px !important;
+    padding: 4px 10px !important;
+    box-shadow: none !important;
+}
+
+/* H4 subtítulos */
+.texto-content-inner .postit-tp1 h4 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 600 !important;
+    color: #1c1b1b !important;
+    margin: 14px 0 8px !important;
+    padding-top: 12px !important;
+    border-top: 1px solid rgba(249,168,37,.3) !important;
+    background: none !important;
+}
+
+.texto-content-inner .postit-tp1 h4:first-of-type {
+    border-top: none !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+/* .mark2 — destaque do conceito central (ex: "Espaço Geográfico")
+   Excluído do anti-cinza acima via :not(.mark2); aqui recebe verde forte. */
+.texto-content-inner .postit-tp1 .mark2 {
+    background: #1b5e20 !important;
+    color: #fff !important;
+    border-radius: 8px !important;
+    padding: 6px 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    box-shadow: none !important;
+    display: inline-block;
+}
+
+/* Reforço anti-cinza para .mark2 — especif. (0,5,2) via wrapper .area,
+   igual ao anti-cinza (0,5,2) mas posterior no arquivo → source-order ganha */
+body:not(.dark-mode) .texto-content-inner .area .postit-tp1 span.mark2 {
+    color: #fff !important;
+}
+
+/* Lista de conceitos auxiliares dentro do postit */
+.texto-content-inner .postit-tp1 .lista {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.texto-content-inner .postit-tp1 .lista li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.9rem !important;
+    color: #1c1b1b !important;
+    padding: 7px 0 !important;
+    border-bottom: 1px solid rgba(249,168,37,.2);
+    line-height: 1.5;
+}
+
+.texto-content-inner .postit-tp1 .lista li:last-child {
+    border-bottom: none;
+}
+
+/* ── C. .divCaixa1 — box de atividade reflexiva ─────────────────────
+   ModeloCss: mauve (#cfb9c6), pixel font → limpo, agora accent âmbar */
+.texto-content-inner p.divCaixa1,
+.texto-content-inner div.divCaixa1 {
+    background: #fff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-left: 4px solid #fbc02d !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 16px 20px !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    color: #1c1b1b !important;
+    line-height: 1.75 !important;
+    margin: 8px 0 16px !important;
+    display: block !important;
+}
+
+/* ── D. #fundoQ — citação com fundo de imagem (Milton Santos etc.)
+   <style> inline no PHP vem depois do link CSS, então precisa !important */
+.texto-content-inner #fundoQ {
+    width: 100% !important;
+    border-radius: 20px !important;
+    overflow: hidden !important;
+    margin: 16px 0 24px !important;
+    padding: 36px 32px !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,.30) !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+}
+
+/* Overlay para legibilidade sobre a foto */
+.texto-content-inner #fundoQ::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.52);
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+/* Garante que o conteúdo fique acima do overlay */
+.texto-content-inner #fundoQ > * {
+    position: relative;
+    z-index: 1;
+}
+
+/* Texto da citação — ID selector (0,1,1,1) > anti-cinza (0,0,2,2) */
+.texto-content-inner #fundoQ p {
+    color: #fff !important;
+    font-size: 1rem !important;
+    line-height: 1.8 !important;
+    font-style: italic !important;
+    background: transparent !important;
+}
+
+/* Fonte/autor */
+.texto-content-inner #fundoQ span,
+.texto-content-inner #fundoQ b {
+    color: rgba(255,255,255,.78) !important;
+    font-size: 0.82rem !important;
+    font-style: normal !important;
+    background: transparent !important;
+}
+
+/* ── E. .w3-light-blue — seção de catarse "O que mudou no seu olhar"
+   Formato: card branco + ícone circle-check + bullets com ✓          */
+.texto-content-inner .w3-light-blue {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 20px !important;
+    padding: 28px 32px !important;
+    margin: 8px 0 !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,.05) !important;
+}
+
+/* H2: "O que mudou no seu olhar" — ícone FA circle-check + verde */
+.texto-content-inner .w3-light-blue > h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #2e7d32 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin: 0 0 18px !important;
+    padding: 0 !important;
+    border: none !important;
+    line-height: 1.3 !important;
+}
+
+.texto-content-inner .w3-light-blue > h2::before {
+    /* fa-circle-check solid (FA 6) */
+    content: '\f058';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #2e7d32;
+    flex-shrink: 0;
+    line-height: 1;
+}
+
+/* Parágrafos: ✓ bullet verde antes de cada item */
+.texto-content-inner .w3-light-blue > p {
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 14px !important;
+    margin-bottom: 16px !important;
+    font-size: 0.925rem !important;
+    line-height: 1.65 !important;
+    color: #1c1b1b !important;
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+.texto-content-inner .w3-light-blue > p::before {
+    /* fa-check (FA 6) */
+    content: '\f00c';
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.75rem;
+    color: #2e7d32;
+    flex-shrink: 0;
+    margin-top: 4px; /* alinha verticalmente com a primeira linha */
+    line-height: 1;
+}
+
+.texto-content-inner .w3-light-blue > p:last-of-type {
+    margin-bottom: 0 !important;
+}
+
+/* Dark mode */
+body.dark-mode .texto-content-inner .w3-light-blue {
+    background: #1e2e1f !important;
+    border-color: #2a3a2b !important;
+}
+body.dark-mode .texto-content-inner .w3-light-blue > h2 {
+    color: #81c784 !important;
+}
+body.dark-mode .texto-content-inner .w3-light-blue > h2::before,
+body.dark-mode .texto-content-inner .w3-light-blue > p::before {
+    color: #66bb6a !important;
+}
+
+/* ── F. Citação dentro do pergunta-bloco (fundo verde escuro) ────────
+   Especif. (0,0,7,2) > override branco do pergunta-bloco (0,0,4,2)  */
+.texto-content-inner .topico.pergunta-bloco .w3-panel[class*="w3-leftbar"] {
+    background: rgba(255,255,255,.1) !important;
+    border: none !important;
+    border-left: 3px solid rgba(255,255,255,.35) !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 16px 20px !important;
+    margin: 0 0 20px !important;
+    box-shadow: none !important;
+}
+
+body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .w3-panel[class*="w3-leftbar"] p {
+    background: transparent !important;
+    color: rgba(255,255,255,.88) !important;
+    font-style: italic !important;
+    font-size: 0.9rem !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   SEÇÃO Q&A — "Não existe pergunta boba!"
+   Escopo via :has(#centralizado) (Chrome 105+, Safari 15.4+, FF 121+)
+   Especif. do :has(ID) = (0,1,x,x) → ganha do anti-cinza (0,0,5,2)
+   ════════════════════════════════════════════════════════════════════ */
+
+/* H2 da seção — remove numeração automática */
+.texto-content-inner #centralizado::before {
+    content: none !important;
+    display: none !important;
+    counter-increment: none !important;
+}
+
+.texto-content-inner #centralizado {
+    display: block !important;
+    font-size: 1.05rem !important;
+    font-weight: 700 !important;
+    color: #2e7d32 !important;
+    margin-bottom: 24px !important;
+    padding-bottom: 12px !important;
+    border-bottom: 2px solid #e8f5e9 !important;
+    line-height: 1.4 !important;
+}
+
+/* ── Card de Pergunta (p.w3-border.w3-round-large) ─────────────────
+   display:flex separa "P:" do texto sem precisar alterar o HTML.     */
+.texto-content-inner .topico:has(#centralizado) p.w3-border {
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 16px !important;
+    padding: 20px 24px !important;
+    margin: 32px 0 0 !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    gap: 16px !important;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05) !important;
+}
+
+/* "P:" — identificador da pergunta */
+.texto-content-inner .topico:has(#centralizado) p.w3-border .primeiraLetra {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.375rem !important;
+    font-weight: 700 !important;
+    color: #2e7d32 !important;
+    min-width: 30px !important;
+    flex-shrink: 0 !important;
+    line-height: 1.35;
+    font-style: normal !important;
+}
+
+/* Texto da pergunta (strong dentro do card) */
+.texto-content-inner .topico:has(#centralizado) p.w3-border strong {
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    color: #1c1b1b !important;
+    line-height: 1.55 !important;
+    align-self: center;
+}
+
+/* ── Bloco de Resposta (p sem w3-border, com span.primeiraLetra "R:") */
+.texto-content-inner .topico:has(#centralizado) p:not(.w3-border) {
+    padding: 4px 0 0 4px !important;
+    margin: 10px 0 0 !important;
+    font-size: 0.925rem !important;
+    line-height: 1.75 !important;
+    color: #1c1b1b !important;
+}
+
+/* "R:" — identificador da resposta (inline, com afastamento à direita) */
+.texto-content-inner .topico:has(#centralizado) p:not(.w3-border) .primeiraLetra {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.375rem !important;
+    font-weight: 700 !important;
+    color: #9e9e9e !important; /* cinza para diferenciar do "P:" verde */
+    margin-right: 10px !important;
+    font-style: normal !important;
+    line-height: 1;
+    vertical-align: baseline;
+}
+
+/* Strong dentro da resposta */
+.texto-content-inner .topico:has(#centralizado) p:not(.w3-border) strong {
+    color: #1c1b1b !important;
+    font-weight: 600 !important;
+}
+
+/* Dark mode Q&A */
+body.dark-mode .texto-content-inner .topico:has(#centralizado) p.w3-border {
+    background: #252525 !important;
+    border-color: #333 !important;
+}
+body.dark-mode .texto-content-inner #centralizado {
+    color: #81c784 !important;
+    border-bottom-color: #1b3a1f !important;
+}
+body.dark-mode .texto-content-inner .topico:has(#centralizado) p.w3-border strong {
+    color: #e0e0e0 !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   FICHA DE CONCEITOS — override do glossario.js
+   glossario.js injeta `#ficha-conceitos { display:none }` via <style>.
+   Precisamos garantir que a ficha seja visível quando o tópico é
+   desbloqueado. ID + class no seletor bate a especificidade do ID puro.
+   ════════════════════════════════════════════════════════════════════ */
+.texto-content-inner #ficha-conceitos {
+    display: block !important;
+    /* Redesign Clean Pixel — sobrepõe estilos do glossario.js */
+    background: #ffffff !important;
+    border: 1px solid #e0e0e0 !important;
+    border-top: 4px solid #2e7d32 !important;
+    border-radius: 16px !important;
+    padding: 24px 28px !important;
+    margin-top: 8px !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,.05) !important;
+}
+
+.texto-content-inner #ficha-conceitos h3 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    color: #2e7d32 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.06em !important;
+    margin: 0 0 4px !important;
+}
+
+.texto-content-inner #ficha-conceitos .contador,
+.texto-content-inner #ficha-conceitos #gloss-contador {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.78rem !important;
+    color: #757575 !important;
+    margin-bottom: 16px !important;
+    display: block !important;
+}
+
+.texto-content-inner #lista-glossario {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+}
+
+.texto-content-inner #lista-glossario li {
+    background: #f8f9fa !important;
+    border: 1px solid #e0e0e0 !important;
+    border-left: 4px solid #2e7d32 !important;
+    border-radius: 8px !important;
+    padding: 8px 14px !important;
+    font-size: 0.875rem !important;
+    line-height: 1.45 !important;
+    max-width: 280px !important;
+}
+
+.texto-content-inner #lista-glossario li b {
+    color: #2e7d32 !important;
+    font-weight: 700 !important;
+}
+
+/* Estado vazio: placholder visual */
+.texto-content-inner #lista-glossario:empty::after {
+    content: 'Clique nas palavras destacadas no texto para coletar os conceitos aqui.';
+    display: block;
+    font-size: 0.85rem;
+    color: #9e9e9e;
+    font-style: italic;
+    padding: 4px 0;
+}
+
+/* Dark mode */
+body.dark-mode .texto-content-inner #ficha-conceitos {
+    background: #1a2a1b !important;
+    border-color: #2a3a2b !important;
+    border-top-color: #66bb6a !important;
+}
+body.dark-mode .texto-content-inner #ficha-conceitos h3,
+body.dark-mode .texto-content-inner #lista-glossario li b {
+    color: #81c784 !important;
+}
+body.dark-mode .texto-content-inner #lista-glossario li {
+    background: #252525 !important;
+    border-color: #333 !important;
+    border-left-color: #66bb6a !important;
+    color: #e0e0e0 !important;
+}

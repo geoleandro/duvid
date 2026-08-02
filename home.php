@@ -48,6 +48,7 @@
     <link rel="stylesheet" href="estilos/index-estilo.css">
     <link rel="stylesheet" href="estilos/rpg-sistema.css">
     <link rel="stylesheet" href="estilos/navbar.css">
+    <link rel="stylesheet" href="estilos/texto-estilo.css">
     <link rel="stylesheet" href="estilos/trilha-niveis.css">
 
     <!-- 3 fontes viram 1 requisição só -->
@@ -101,80 +102,42 @@
     <!-- Navigation + Sidebar (sidebar inclusa automaticamente via header.php) -->
     <?php include __DIR__ . '/includes/header.php'; ?>
 
-    <main id="conteudo-principal" style="margin-top:56px;">
+    <main id="conteudo-principal" style="margin-top:0; padding-top:72px;">
 
-        <!-- ======================================
-       0. HERO BANNER (estilo Clean Pixel)
-  ======================================= -->
-        <div style="background:#f8f9fa; padding:24px 16px 0;">
-        <div class="w3-content" style="max-width:1100px;">
-            <div style="position:relative; border-radius:24px; overflow:hidden;
-                        min-height:220px; background:#1a2e1a;
-                        box-shadow:0 4px 20px rgba(0,0,0,0.15);">
-
-                <!-- Imagem pixel art (fundo) -->
-                <img src="fotoIndex/tileset/fundo.webp"
-                     alt="Duvid Geografia — Mapa Pixel Art"
-                     style="position:absolute; inset:0; width:100%; height:100%;
-                            object-fit:cover; object-position:center right;
-                            image-rendering:pixelated;">
-
-                <!-- Gradiente overlay: escuro na esquerda, quase transparente na direita -->
-                <div style="position:absolute; inset:0;
-                            background:linear-gradient(90deg,
-                                rgba(10,30,10,0.15) 0%,
-                                transparent 100%);"></div>
-
-                <!-- Conteúdo do banner -->
-                <div style="position:relative; z-index:1; padding:36px 40px; max-width:560px;">
-                    <!-- Badge -->
-                    <span style="display:inline-block; background:#4caf50; color:#fff;
-                                 font-size:.62rem; font-weight:700; letter-spacing:2px;
-                                 text-transform:uppercase; padding:4px 12px;
-                                 border-radius:20px; margin-bottom:14px;">
-                        Plataforma de Geografia
-                    </span>
-
-                    <!-- Título -->
-                    <h1 style="margin:0 0 12px; font-size:clamp(1.6rem,4vw,2.4rem);
-                               font-weight:800; color:#fff; line-height:1.15;
-                               text-shadow:0 2px 8px rgba(0,0,0,0.4);">
-                        Duvid Geografia
-                    </h1>
-
-                    <!-- Descrição -->
-                    <p style="margin:0 0 20px; font-size:.95rem; color:rgba(255,255,255,.82);
-                              line-height:1.6; text-shadow:0 1px 4px rgba(0,0,0,0.3);">
-                        Explore as dinâmicas do Planeta Terra em uma jornada pixelada.
-                        Questões, simulados e aulas para o Ensino Médio de forma gratuita.
-                    </p>
-
-                    <!-- CTA -->
-                    <div style="display:flex; gap:10px; flex-wrap:wrap;">
-                        <a href="#cards-anos"
-                           style="display:inline-block; background:#4caf50; color:#fff;
-                                  font-weight:700; font-size:.88rem; padding:10px 22px;
-                                  border-radius:12px; text-decoration:none;
-                                  transition:background .15s; box-shadow:0 2px 8px rgba(0,0,0,0.2);"
-                           onmouseover="this.style.background='#2e7d32'"
-                           onmouseout="this.style.background='#4caf50'">
-                            📚 Iniciar
-                        </a>
-                        <a href="/simulados/capasimuladogeral.php"
-                           style="display:inline-block; background:rgba(255,255,255,.12);
-                                  color:#fff; font-weight:600; font-size:.88rem;
-                                  padding:10px 22px; border-radius:12px; text-decoration:none;
-                                  backdrop-filter:blur(4px); border:1px solid rgba(255,255,255,.2);
-                                  transition:background .15s;"
-                           onmouseover="this.style.background='rgba(255,255,255,.22)'"
-                           onmouseout="this.style.background='rgba(255,255,255,.12)'">
-                            🎯 Simulados
-                        </a>
-                    </div>
+        <!-- ══ HERO BANNER ══════════════════════════════════════════════════ -->
+        <div class="texto-hero" style="background-image:url('fotoIndex/tileset/fundo.webp');">
+            <div class="texto-hero-overlay">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">🌍 Geografia</span>
+                    <span class="texto-badge">Ensino Médio</span>
                 </div>
-
+                <h1 class="texto-hero-title">Duvid Geografia</h1>
+                <p style="margin:0 0 20px; font-size:.95rem; color:rgba(255,255,255,.82);
+                          line-height:1.6; text-shadow:0 1px 4px rgba(0,0,0,.3);
+                          max-width:500px; font-family:'Montserrat',sans-serif;">
+                    Explore as dinâmicas do planeta. Questões, simulados e aulas gratuitas para o Ensino Médio.
+                </p>
+                <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                    <a href="#cards-anos"
+                       style="display:inline-block; padding:9px 22px; background:#2e7d32; color:#fff;
+                              border-radius:20px; text-decoration:none; font-family:'Montserrat',sans-serif;
+                              font-size:.85rem; font-weight:700; transition:background .15s, box-shadow .15s;
+                              box-shadow:0 2px 10px rgba(0,0,0,.25);"
+                       onmouseover="this.style.background='#1b5e20'"
+                       onmouseout="this.style.background='#2e7d32'">
+                        📚 Iniciar
+                    </a>
+                    <a href="/simulados/capasimuladogeral.php"
+                       style="display:inline-block; padding:9px 22px; background:rgba(255,255,255,.12);
+                              color:#fff; border-radius:20px; text-decoration:none; font-family:'Montserrat',sans-serif;
+                              font-size:.85rem; font-weight:700; border:1px solid rgba(255,255,255,.3);
+                              backdrop-filter:blur(4px); transition:background .15s;"
+                       onmouseover="this.style.background='rgba(255,255,255,.22)'"
+                       onmouseout="this.style.background='rgba(255,255,255,.12)'">
+                        🎯 Simulados
+                    </a>
+                </div>
             </div>
-        </div>
         </div>
 
         <!-- ======================================
@@ -222,128 +185,139 @@
 
                 <!-- ── ESTADO: NÃO LOGADO ── -->
                 <div id="form-identificacao" style="display:none;">
-                <div class="w3-row-padding" style="margin:0;">
+                <div id="painel-2cards">
 
-                    <!-- Coluna esquerda: boas-vindas + form -->
-                    <div class="w3-twothird" style="padding-left:0;">
-                        <div style="background:#fff; border-radius:20px; padding:28px 28px 24px;
-                                    box-shadow:0 4px 12px rgba(0,0,0,.06); height:100%; box-sizing:border-box;">
-                            <h2 style="margin:0 0 6px; font-size:1.3rem; color:#1b5e20; font-weight:800;">
-                                Bem-vindo, Explorador! 🌍
-                            </h2>
-                            <p style="margin:0 0 20px; font-size:.9rem; color:#666; line-height:1.6;">
-                                Sua jornada pelo conhecimento geográfico começa aqui. Prepare-se para desbravar a Natureza, o Brasil e o Mundo.
-                            </p>
-
-                            <label style="font-size:.7rem; font-weight:700; color:#888; letter-spacing:1px; display:block; margin-bottom:6px;">CÓDIGO DA TURMA</label>
-                            <div style="display:flex; gap:8px; margin-bottom:16px;">
-                                <input class="w3-input w3-border w3-round-large" type="text"
-                                    id="pq-turma" placeholder="Ex: GEO-2024-X"
-                                    autocapitalize="characters"
-                                    style="flex:1; border-color:#e0e0e0; height:44px; font-size:.9rem;
-                                           text-transform:uppercase; letter-spacing:2px; font-family:monospace;">
-                                <button class="w3-button w3-round-large"
-                                    onclick="NomeAlunos('resp0','pq0')"
-                                    style="background:#2e7d32; color:#fff; font-weight:700; padding:0 22px;
-                                           height:44px; white-space:nowrap; transition:background .15s;"
-                                    onmouseover="this.style.background='#1b5e20'"
-                                    onmouseout="this.style.background='#2e7d32'">
-                                    Entrar
-                                </button>
+                    <!-- Card 1: Preview do perfil -->
+                    <div class="painel-card" style="box-sizing:border-box;">
+                        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+                            <div style="position:relative; flex-shrink:0;">
+                                <img src="https://api.dicebear.com/8.x/pixel-art/svg?seed=Duvid&backgroundColor=e8f5e9&radius=50"
+                                     alt="Avatar" style="width:68px; height:68px; border-radius:50%;
+                                            border:3px solid #4caf50; display:block; background:#e8f5e9;">
+                                <span style="position:absolute; bottom:-4px; left:50%; transform:translateX(-50%);
+                                             background:#f9a825; color:#fff; font-size:.52rem; font-weight:800;
+                                             padding:2px 7px; border-radius:10px; white-space:nowrap;
+                                             letter-spacing:.04em; line-height:1.4;">LEVEL 1</span>
                             </div>
-                            <p style="font-size:.75rem; color:#aaa; margin:0 0 16px;">
-                                Não tem código? Crie sua conta gratuita abaixo.
-                            </p>
-
-                            <!-- Form completo (colapsável) -->
-                            <details id="detalhes-form-completo">
-                                <summary style="cursor:pointer; font-size:.85rem; color:#2e7d32; font-weight:600;
-                                                user-select:none; list-style:none; margin-bottom:12px;">
-                                    + Criar conta / fazer login
-                                </summary>
-                                <div style="display:flex; flex-direction:column; gap:10px; margin-top:8px;">
-                                    <input class="w3-input w3-border w3-round-large" type="text"
-                                        id="pq0" placeholder="Seu nome (ex: João Silva)"
-                                        autocomplete="nickname"
-                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem;">
-                                    <input class="w3-input w3-border w3-round-large" type="email"
-                                        id="pq-email" placeholder="Seu e-mail"
-                                        autocomplete="email"
-                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem;">
-                                    <input class="w3-input w3-border w3-round-large" type="password"
-                                        id="pq-pin" placeholder="PIN de 4 dígitos"
-                                        maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
-                                        autocomplete="new-password"
-                                        style="border-color:#e0e0e0; height:42px; font-size:.9rem; letter-spacing:6px;">
-
-                                    <details id="detalhes-localizacao">
-                                        <summary style="cursor:pointer; font-size:.78rem; color:#2e7d32; font-weight:600; user-select:none; list-style:none;">
-                                            + Escola e localização (opcional)
-                                        </summary>
-                                        <div style="display:flex; flex-direction:column; gap:8px; margin-top:8px;">
-                                            <select class="w3-select w3-border w3-round-large" id="pq-estado" style="height:40px; border-color:#e0e0e0;">
-                                                <option value="">— Estado —</option>
-                                                <option value="AC">Acre</option><option value="AL">Alagoas</option>
-                                                <option value="AP">Amapá</option><option value="AM">Amazonas</option>
-                                                <option value="BA">Bahia</option><option value="CE">Ceará</option>
-                                                <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
-                                                <option value="GO">Goiás</option><option value="MA">Maranhão</option>
-                                                <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
-                                                <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
-                                                <option value="PB">Paraíba</option><option value="PR">Paraná</option>
-                                                <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
-                                                <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
-                                                <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
-                                                <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
-                                                <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
-                                                <option value="TO">Tocantins</option>
-                                            </select>
-                                            <input class="w3-input w3-border w3-round-large" type="text" id="pq-cidade" placeholder="Cidade" autocomplete="address-level2" style="border-color:#e0e0e0;">
-                                            <input class="w3-input w3-border w3-round-large" type="text" id="pq-escola" placeholder="Nome da escola" autocomplete="organization" style="border-color:#e0e0e0;">
-                                        </div>
-                                    </details>
-
-                                    <p id="login-erro" class="w3-text-red" style="display:none; font-size:.85rem; margin:0;"></p>
-
-                                    <button class="w3-button w3-block w3-round-large"
-                                        onclick="NomeAlunos('resp0','pq0')"
-                                        style="background:#2e7d32; color:#fff; font-weight:700; font-size:.95rem;
-                                               height:46px; transition:background .15s;"
-                                        onmouseover="this.style.background='#1b5e20'"
-                                        onmouseout="this.style.background='#2e7d32'">
-                                        🚀 Começar Jornada
-                                    </button>
+                            <div style="flex:1; min-width:110px;">
+                                <b style="font-size:1.05rem; font-weight:800; color:#1b5e20;
+                                          letter-spacing:.02em; text-transform:uppercase;">Explorador</b>
+                                <p style="margin:3px 0 0; font-size:.7rem; font-weight:700;
+                                          letter-spacing:1.5px; color:#9d9d9d; text-transform:uppercase;">NOVATO</p>
+                            </div>
+                            <div style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
+                                        padding:8px 14px; text-align:center; flex-shrink:0;">
+                                <div style="font-size:.55rem; color:#558b2f; text-transform:uppercase;
+                                            letter-spacing:.1em; font-weight:700; margin-bottom:2px;">Globinhos</div>
+                                <div style="font-size:1.3rem; font-weight:800; color:#2e7d32; line-height:1.1;">
+                                    🌍 <span>0</span>
                                 </div>
-                            </details>
+                            </div>
                         </div>
+                        <div style="margin-top:16px;">
+                            <div style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
+                                <div style="height:100%; width:0%; border-radius:8px;
+                                            background:linear-gradient(90deg,#4caf50,#81c784);"></div>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; margin-top:5px;">
+                                <span style="font-size:.68rem; color:#888;">XP: 0</span>
+                                <span style="font-size:.68rem; color:#888;">Próximo: 100</span>
+                            </div>
+                        </div>
+                        <p style="margin:18px 0 0; font-size:.75rem; color:#aaa; line-height:1.5;">
+                            Crie sua conta gratuita para salvar seu progresso, ganhar globinhos e ajudar sua turma.
+                        </p>
                     </div>
 
-                    <!-- Coluna direita: nível inicial -->
-                    <div class="w3-third w3-hide-small" style="padding-right:0;">
-                        <div style="background:#fff; border-radius:20px; padding:28px 20px;
-                                    box-shadow:0 4px 12px rgba(0,0,0,.06); text-align:center; height:100%; box-sizing:border-box;">
-                            <div style="width:72px; height:72px; border-radius:16px; background:#f8f9fa;
-                                        border:2px solid #e0e0e0; display:flex; align-items:center;
-                                        justify-content:center; margin:0 auto 10px; font-size:2rem; font-weight:800; color:#aaa;">
-                                1
-                            </div>
-                            <p style="margin:0 0 2px; font-size:1rem; font-weight:700; color:#333;">Novato</p>
-                            <p style="margin:0 0 16px; font-size:.72rem; color:#aaa; text-transform:uppercase; letter-spacing:1px;">Level Inicial</p>
-                            <div style="background:#f0f0f0; border-radius:6px; height:6px; margin-bottom:8px; overflow:hidden;">
-                                <div style="height:100%; width:0%; background:#4caf50; border-radius:6px;"></div>
-                            </div>
-                            <div style="display:flex; justify-content:space-between; font-size:.7rem; color:#aaa; margin-bottom:20px;">
-                                <span>0 XP</span><span>100 XP</span>
-                            </div>
-                            <button class="w3-button w3-block w3-round-large"
-                                onclick="document.getElementById('detalhes-form-completo').open=true; document.getElementById('detalhes-form-completo').scrollIntoView({behavior:'smooth'});"
-                                style="background:#f8f9fa; border:1.5px solid #e0e0e0; color:#2e7d32;
-                                       font-weight:700; font-size:.9rem; height:42px; transition:border-color .15s;"
-                                onmouseover="this.style.borderColor='#4caf50'"
-                                onmouseout="this.style.borderColor='#e0e0e0'">
-                                Começar Jornada
+                    <!-- Card 2: Form de login / cadastro -->
+                    <div class="painel-card" style="box-sizing:border-box;">
+                        <h2 style="margin:0 0 6px; font-size:1.05rem; color:#1b5e20; font-weight:800;">
+                            Bem-vindo, Explorador! 🌍
+                        </h2>
+                        <p style="margin:0 0 16px; font-size:.8rem; color:#666; line-height:1.55;">
+                            Sua jornada pelo conhecimento geográfico começa aqui.
+                        </p>
+
+                        <label style="font-size:.65rem; font-weight:700; color:#aaa;
+                                      letter-spacing:1px; text-transform:uppercase;
+                                      display:block; margin-bottom:6px;">Código da Turma</label>
+                        <div style="display:flex; gap:8px; margin-bottom:14px;">
+                            <input class="w3-input w3-border w3-round-large" type="text"
+                                id="pq-turma" placeholder="Ex: GEO-2024-X"
+                                autocapitalize="characters"
+                                style="flex:1; border-color:#e0e0e0; height:42px; font-size:.88rem;
+                                       text-transform:uppercase; letter-spacing:2px; font-family:monospace;">
+                            <button class="w3-button w3-round-large"
+                                onclick="NomeAlunos('resp0','pq0')"
+                                style="background:#2e7d32; color:#fff; font-weight:700; padding:0 18px;
+                                       height:42px; white-space:nowrap; transition:background .15s;"
+                                onmouseover="this.style.background='#1b5e20'"
+                                onmouseout="this.style.background='#2e7d32'">
+                                Entrar
                             </button>
                         </div>
+
+                        <p id="login-erro" style="display:none; font-size:.78rem; color:#e53935;
+                                          font-weight:600; margin:0 0 10px;"></p>
+
+                        <!-- Form colapsável -->
+                        <details id="detalhes-form-completo">
+                            <summary style="cursor:pointer; font-size:.82rem; color:#2e7d32; font-weight:600;
+                                            user-select:none; list-style:none; margin-bottom:10px;">
+                                + Criar conta / fazer login
+                            </summary>
+                            <div style="display:flex; flex-direction:column; gap:9px; margin-top:8px;">
+                                <input class="w3-input w3-border w3-round-large" type="text"
+                                    id="pq0" placeholder="Seu nome (ex: João Silva)"
+                                    autocomplete="nickname"
+                                    style="border-color:#e0e0e0; height:40px; font-size:.88rem;">
+                                <input class="w3-input w3-border w3-round-large" type="email"
+                                    id="pq-email" placeholder="Seu e-mail"
+                                    autocomplete="email"
+                                    style="border-color:#e0e0e0; height:40px; font-size:.88rem;">
+                                <input class="w3-input w3-border w3-round-large" type="password"
+                                    id="pq-pin" placeholder="PIN de 4 dígitos"
+                                    maxlength="4" inputmode="numeric" pattern="[0-9]{4}"
+                                    autocomplete="new-password"
+                                    style="border-color:#e0e0e0; height:40px; font-size:.88rem; letter-spacing:6px;">
+
+                                <details id="detalhes-localizacao">
+                                    <summary style="cursor:pointer; font-size:.76rem; color:#2e7d32; font-weight:600; user-select:none; list-style:none;">
+                                        + Escola e localização (opcional)
+                                    </summary>
+                                    <div style="display:flex; flex-direction:column; gap:8px; margin-top:8px;">
+                                        <select class="w3-select w3-border w3-round-large" id="pq-estado" style="height:40px; border-color:#e0e0e0;">
+                                            <option value="">— Estado —</option>
+                                            <option value="AC">Acre</option><option value="AL">Alagoas</option>
+                                            <option value="AP">Amapá</option><option value="AM">Amazonas</option>
+                                            <option value="BA">Bahia</option><option value="CE">Ceará</option>
+                                            <option value="DF">Distrito Federal</option><option value="ES">Espírito Santo</option>
+                                            <option value="GO">Goiás</option><option value="MA">Maranhão</option>
+                                            <option value="MT">Mato Grosso</option><option value="MS">Mato Grosso do Sul</option>
+                                            <option value="MG">Minas Gerais</option><option value="PA">Pará</option>
+                                            <option value="PB">Paraíba</option><option value="PR">Paraná</option>
+                                            <option value="PE">Pernambuco</option><option value="PI">Piauí</option>
+                                            <option value="RJ">Rio de Janeiro</option><option value="RN">Rio Grande do Norte</option>
+                                            <option value="RS">Rio Grande do Sul</option><option value="RO">Rondônia</option>
+                                            <option value="RR">Roraima</option><option value="SC">Santa Catarina</option>
+                                            <option value="SP">São Paulo</option><option value="SE">Sergipe</option>
+                                            <option value="TO">Tocantins</option>
+                                        </select>
+                                        <input class="w3-input w3-border w3-round-large" type="text" id="pq-cidade" placeholder="Cidade" autocomplete="address-level2" style="border-color:#e0e0e0;">
+                                        <input class="w3-input w3-border w3-round-large" type="text" id="pq-escola" placeholder="Nome da escola" autocomplete="organization" style="border-color:#e0e0e0;">
+                                    </div>
+                                </details>
+
+                                <button class="w3-button w3-block w3-round-large"
+                                    onclick="NomeAlunos('resp0','pq0')"
+                                    style="background:#2e7d32; color:#fff; font-weight:700; font-size:.9rem;
+                                           height:44px; transition:background .15s;"
+                                    onmouseover="this.style.background='#1b5e20'"
+                                    onmouseout="this.style.background='#2e7d32'">
+                                    🚀 Começar Jornada
+                                </button>
+                            </div>
+                        </details>
                     </div>
 
                 </div>
@@ -351,144 +325,159 @@
 
                 <!-- ── ESTADO: LOGADO ── -->
                 <div id="display-identificado" style="display:none;">
-                <div class="painel-aluno-card" style="background:#fff; border-radius:20px; padding:20px 24px;
-                            box-shadow:0 4px 12px rgba(0,0,0,.06);">
+                <div id="painel-3cards">
 
-                    <!-- ── Linha 1: foto + info + globinhos ── -->
-                    <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
-
-                        <!-- Foto / avatar com badge de nível -->
-                        <div style="position:relative; flex-shrink:0;">
-                            <img id="aluno-foto"
-                                 src="https://api.dicebear.com/8.x/pixel-art/svg?seed=Duvid"
-                                 alt="Avatar"
-                                 style="width:72px; height:72px; border-radius:50%; object-fit:cover;
-                                        border:3px solid #4caf50; display:block; background:#e8f5e9;">
-                            <span id="lvl-tag"
-                                  style="position:absolute; bottom:-4px; left:50%; transform:translateX(-50%);
-                                         background:#f9a825; color:#fff; font-size:.52rem; font-weight:800;
-                                         padding:2px 7px; border-radius:10px; white-space:nowrap;
-                                         letter-spacing:.04em; line-height:1.4;">LEVEL 1</span>
-                            <!-- Mantido oculto para compatibilidade com JS de sidebar/header -->
-                            <img id="medalha-patente" src="fotoIndex/icones/duvid-patentes-novato.png"
-                                 alt="Patente" style="display:none;">
+                    <!-- ── CARD 1: Perfil ── -->
+                    <div class="painel-card">
+                        <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+                            <div style="position:relative; flex-shrink:0;">
+                                <img id="aluno-foto"
+                                     src="https://api.dicebear.com/8.x/pixel-art/svg?seed=Duvid"
+                                     alt="Avatar"
+                                     style="width:68px; height:68px; border-radius:50%; object-fit:cover;
+                                            border:3px solid #4caf50; display:block; background:#e8f5e9;">
+                                <span id="lvl-tag"
+                                      style="position:absolute; bottom:-4px; left:50%; transform:translateX(-50%);
+                                             background:#f9a825; color:#fff; font-size:.52rem; font-weight:800;
+                                             padding:2px 7px; border-radius:10px; white-space:nowrap;
+                                             letter-spacing:.04em; line-height:1.4;">LEVEL 1</span>
+                                <img id="medalha-patente" src="fotoIndex/icones/duvid-patentes-novato.png"
+                                     alt="Patente" style="display:none;">
+                            </div>
+                            <div style="flex:1; min-width:110px;">
+                                <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+                                    <b id="nome-aluno-texto"
+                                       style="font-size:1.05rem; font-weight:800; color:#1b5e20;
+                                              letter-spacing:.02em; text-transform:uppercase;"></b>
+                                    <button onclick="prepararTrocaNome()"
+                                        style="background:none; border:none; cursor:pointer;
+                                               color:#aaa; font-size:.85rem; padding:0; line-height:1;"
+                                        title="Editar perfil"><i class="fa fa-pencil"></i></button>
+                                </div>
+                                <p id="rank-nome"
+                                   style="margin:3px 0 0; font-size:.7rem; font-weight:700;
+                                          letter-spacing:1.5px; color:#e53935; text-transform:uppercase;"></p>
+                                <p id="turma-info" style="margin:3px 0 0; font-size:.7rem; color:#aaa; display:none;">
+                                    <i class="fa fa-graduation-cap" style="font-size:.65rem; margin-right:3px;"></i>
+                                    <span id="turma-nome-label"></span>
+                                    <span style="color:#ccc; margin:0 3px;">•</span>
+                                    <span id="turma-codigo-label" style="font-family:monospace; letter-spacing:1px;"></span>
+                                </p>
+                            </div>
+                            <div style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
+                                        padding:8px 14px; text-align:center; flex-shrink:0;">
+                                <div style="font-size:.55rem; color:#558b2f; text-transform:uppercase;
+                                            letter-spacing:.1em; font-weight:700; margin-bottom:2px;">Globinhos</div>
+                                <div style="font-size:1.3rem; font-weight:800; color:#2e7d32; line-height:1.1;">
+                                    🌍 <span id="valor-total-central">0</span>
+                                </div>
+                            </div>
                         </div>
+                        <div style="margin-top:16px;">
+                            <div style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
+                                <div id="barra-xp-total"
+                                     style="height:100%; width:0%; border-radius:8px;
+                                            background:linear-gradient(90deg,#4caf50,#81c784);
+                                            transition:width 1.5s cubic-bezier(0.4,0,0.2,1);"></div>
+                            </div>
+                            <div style="display:flex; justify-content:space-between; margin-top:5px;">
+                                <span style="font-size:.68rem; color:#888;">XP: <span id="xp-atual">0</span></span>
+                                <span style="font-size:.68rem; color:#888;">Próximo: <span id="xp-proximo">100</span></span>
+                            </div>
+                        </div>
+                    </div>
 
-                        <!-- Nome + rank + turma -->
-                        <div style="flex:1; min-width:140px;">
-                            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
-                                <b id="nome-aluno-texto"
-                                   style="font-size:1.15rem; font-weight:800; color:#1b5e20;
-                                          letter-spacing:.02em; text-transform:uppercase;"></b>
-                                <button onclick="prepararTrocaNome()"
-                                    style="background:none; border:none; cursor:pointer;
-                                           color:#aaa; font-size:.85rem; padding:0; line-height:1;"
-                                    title="Editar perfil">
-                                    <i class="fa fa-pencil"></i>
+                    <!-- ── CARD 2: Turma / Bem-vindo ── -->
+                    <div id="card-turma-join" class="painel-card">
+                        <h3 id="turma-card-titulo"
+                            style="margin:0 0 6px; font-size:1.05rem; font-weight:800; color:#1b5e20;">
+                            Bem-vindo, Explorador! 🌍
+                        </h3>
+                        <p id="turma-card-desc"
+                           style="margin:0 0 18px; font-size:.8rem; color:#666; line-height:1.55;">
+                            Sua jornada pelo conhecimento geográfico começa aqui. Prepare-se para desbravar a Natureza, o Brasil e o Mundo.
+                        </p>
+
+                        <!-- Área para aluno LIVRE: formulário de entrada na turma -->
+                        <div id="turma-join-form">
+                            <label style="font-size:.65rem; font-weight:700; color:#aaa;
+                                          letter-spacing:1px; text-transform:uppercase;
+                                          display:block; margin-bottom:6px;">Código da Turma</label>
+                            <div style="display:flex; gap:8px;">
+                                <input id="turma-join-input" type="text"
+                                    placeholder="Ex: GEO-2024-X"
+                                    autocapitalize="characters"
+                                    style="flex:1; border:1.5px solid #e0e0e0; border-radius:10px;
+                                           height:42px; padding:0 12px; font-size:.88rem;
+                                           text-transform:uppercase; letter-spacing:2px;
+                                           font-family:monospace; outline:none;
+                                           transition:border-color .15s;"
+                                    onfocus="this.style.borderColor='#4caf50'"
+                                    onblur="this.style.borderColor='#e0e0e0'">
+                                <button onclick="entrarTurmaLogado()"
+                                    style="background:#2e7d32; color:#fff; border:none; border-radius:10px;
+                                           height:42px; padding:0 18px; font-weight:700; font-size:.85rem;
+                                           cursor:pointer; white-space:nowrap; transition:background .15s;"
+                                    onmouseover="this.style.background='#1b5e20'"
+                                    onmouseout="this.style.background='#2e7d32'">
+                                    Entrar
                                 </button>
                             </div>
-                            <p id="rank-nome"
-                               style="margin:3px 0 0; font-size:.72rem; font-weight:700;
-                                      letter-spacing:1.5px; color:#e53935; text-transform:uppercase;"></p>
-                            <p id="turma-info"
-                               style="margin:3px 0 0; font-size:.72rem; color:#aaa; display:none;">
-                                <i class="fa fa-graduation-cap" style="font-size:.65rem; margin-right:3px;"></i>
-                                <span id="turma-nome-label"></span>
-                                <span style="color:#ccc; margin:0 3px;">•</span>
-                                <span id="turma-codigo-label"
-                                      style="font-family:monospace; letter-spacing:1px;"></span>
-                            </p>
+                            <p id="turma-join-msg"
+                               style="display:none; margin:10px 0 0; font-size:.75rem; font-weight:600;"></p>
                         </div>
 
-                        <!-- Globinhos -->
-                        <div style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
-                                    padding:10px 18px; text-align:center; flex-shrink:0;">
-                            <div style="font-size:.58rem; color:#558b2f; text-transform:uppercase;
-                                        letter-spacing:.1em; font-weight:700; margin-bottom:2px;">Globinhos</div>
-                            <div style="font-size:1.4rem; font-weight:800; color:#2e7d32; line-height:1.1;">
-                                🌍 <span id="valor-total-central">0</span>
+                        <!-- Área para aluno já em turma: info + opção de trocar -->
+                        <div id="turma-membro-info" style="display:none;">
+                            <div style="background:#f0f7f0; border-radius:12px; padding:12px 14px;
+                                        display:flex; align-items:center; gap:10px; margin-bottom:12px;">
+                                <i class="fa fa-graduation-cap" style="color:#2e7d32; font-size:1.1rem;"></i>
+                                <div>
+                                    <p style="margin:0; font-size:.78rem; font-weight:700; color:#2e7d32;"
+                                       id="turma-membro-nome"></p>
+                                    <p style="margin:2px 0 0; font-size:.68rem; color:#888; font-family:monospace;"
+                                       id="turma-membro-codigo"></p>
+                                </div>
                             </div>
+                            <button onclick="document.getElementById('turma-membro-info').style.display='none';document.getElementById('turma-join-form').style.display='block';"
+                                style="background:none; border:none; font-size:.72rem; color:#aaa;
+                                       cursor:pointer; padding:0; font-family:'Montserrat',sans-serif;">
+                                Trocar de turma →
+                            </button>
                         </div>
 
+                        <!-- IDs legados usados por atualizarResumoHome() -->
+                        <span id="txt-1ano" style="display:none;">0/34</span>
+                        <span id="bar-1ano" style="display:none;"></span>
+                        <span id="conquista-1ano" style="display:none;"></span>
+                        <span id="txt-2ano" style="display:none;">0/36</span>
+                        <span id="bar-2ano" style="display:none;"></span>
+                        <span id="conquista-2ano" style="display:none;"></span>
+                        <span id="txt-3ano" style="display:none;">0/36</span>
+                        <span id="bar-3ano" style="display:none;"></span>
+                        <span id="conquista-3ano" style="display:none;"></span>
                     </div>
 
-                    <!-- ── Linha 2: barra XP ── -->
-                    <div style="margin-top:16px;">
-                        <div style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
-                            <div id="barra-xp-total"
-                                 style="height:100%; width:0%; border-radius:8px;
-                                        background:linear-gradient(90deg,#4caf50,#81c784);
-                                        transition:width 1.5s cubic-bezier(0.4,0,0.2,1);"></div>
+                    <!-- ── CARD 3: Ranking ── -->
+                    <div id="mini-ranking-turma" class="painel-card">
+                        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+                            <span id="mini-ranking-titulo"
+                                  style="font-family:'Montserrat',sans-serif; font-size:.95rem;
+                                         font-weight:800; color:#2e7d32;">Ranking da Turma</span>
+                            <i class="fa fa-trophy" style="color:#f9a825; font-size:1.1rem;"></i>
                         </div>
-                        <div style="display:flex; justify-content:space-between; margin-top:5px;">
-                            <span style="font-size:.68rem; color:#888;">XP: <span id="xp-atual">0</span></span>
-                            <span style="font-size:.68rem; color:#888;">Próximo: <span id="xp-proximo">100</span></span>
+                        <div id="mini-ranking-lista" style="display:flex; flex-direction:column; gap:8px;">
+                            <div style="text-align:center; padding:16px 0; color:#ccc; font-size:.8rem;">Carregando…</div>
                         </div>
-                    </div>
-
-                    <!-- ── Linha 3: trilhas ── -->
-                    <div id="resumo-geral" style="display:none; margin-top:14px;">
-                        <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:10px;">
-
-                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
-                                        display:flex; align-items:center; gap:10px; position:relative;">
-                                <div id="conquista-1ano" style="display:none; position:absolute; top:8px; right:10px;">
-                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
-                                </div>
-                                <img src="fotoIndex/icones/duvid-patentes-novato.png" alt=""
-                                     style="width:32px; height:32px; object-fit:contain; opacity:.7; display:none;" id="_trilha-icone-1">
-                                <span style="font-size:1.3rem; line-height:1;">🌿</span>
-                                <div style="min-width:0;">
-                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#2e7d32;">Natureza</p>
-                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-1ano">0/34</span> aulas</p>
-                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
-                                        <div id="bar-1ano" style="height:100%; width:0%; background:#4caf50; border-radius:4px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
-                                        display:flex; align-items:center; gap:10px; position:relative;">
-                                <div id="conquista-2ano" style="display:none; position:absolute; top:8px; right:10px;">
-                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
-                                </div>
-                                <span style="font-size:1.3rem; line-height:1;">🇧🇷</span>
-                                <div style="min-width:0;">
-                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#1565c0;">Brasil</p>
-                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-2ano">0/36</span> aulas</p>
-                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
-                                        <div id="bar-2ano" style="height:100%; width:0%; background:#1976d2; border-radius:4px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div style="background:#f8f9fa; border-radius:12px; padding:12px 14px;
-                                        display:flex; align-items:center; gap:10px; position:relative;">
-                                <div id="conquista-3ano" style="display:none; position:absolute; top:8px; right:10px;">
-                                    <i class="fa fa-trophy" style="color:#f9a825; font-size:.85rem;"></i>
-                                </div>
-                                <span style="font-size:1.3rem; line-height:1;">🌍</span>
-                                <div style="min-width:0;">
-                                    <p style="margin:0 0 2px; font-size:.78rem; font-weight:700; color:#e65100;">Mundo</p>
-                                    <p style="margin:0 0 5px; font-size:.72rem; color:#aaa;"><span id="txt-3ano">0/36</span> aulas</p>
-                                    <div style="background:#e0e0e0; border-radius:4px; height:4px; overflow:hidden;">
-                                        <div id="bar-3ano" style="height:100%; width:0%; background:#f57c00; border-radius:4px; transition:width 1.2s ease;"></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div><!-- /resumo-geral -->
-
-                    <!-- Mini Ranking da Turma -->
-                    <div id="mini-ranking-turma" style="display:none; margin-top:16px;">
-                        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:8px;">
-                            <span style="font-size:.62rem; font-weight:800; text-transform:uppercase; letter-spacing:.15em; color:#2e7d32;">🏆 Ranking da Turma</span>
-                            <a href="/paginas/ranking.php" style="font-size:.62rem; color:#4caf50; text-decoration:none; font-weight:600;">Ver completo →</a>
-                        </div>
-                        <div id="mini-ranking-lista" style="display:flex; flex-direction:column; gap:5px;">
-                            <!-- preenchido via JS -->
-                        </div>
+                        <a href="/paginas/ranking.php"
+                           style="display:block; margin-top:14px; padding:11px; border-radius:12px;
+                                  border:1.5px solid #2e7d32; color:#2e7d32; text-align:center;
+                                  font-family:'Montserrat',sans-serif; font-size:.85rem; font-weight:700;
+                                  text-decoration:none; transition:background .15s;"
+                           onmouseover="this.style.background='#f0f7f0'"
+                           onmouseout="this.style.background='transparent'">
+                            Ver Ranking Completo
+                        </a>
                     </div>
 
                 </div>
@@ -533,7 +522,7 @@
 
                             <!-- Imagem topo com badge -->
                             <div style="position:relative; overflow:hidden; height:150px; background:#e8f5e9;">
-                                <img src="fotoIndex/imagensCapa/capa1ano.webp" loading="lazy" alt="Natureza"
+                                <img src="fotoIndex/imagensCapa/capa1anox.webp" loading="lazy" alt="Natureza"
                                      style="width:100%; height:100%; object-fit:cover; object-position:center;">
                                 <span style="position:absolute; top:10px; right:10px;
                                              background:rgba(255,255,255,.9); color:#2e7d32;
@@ -593,7 +582,7 @@
                              onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
 
                             <div style="position:relative; overflow:hidden; height:150px; background:#e3f2fd;">
-                                <img src="fotoIndex/imagensCapa/capa2ano.webp" loading="lazy" alt="Brasil"
+                                <img src="fotoIndex/imagensCapa/capa2anox.webp" loading="lazy" alt="Brasil"
                                      style="width:100%; height:100%; object-fit:cover; object-position:center;">
                                 <span style="position:absolute; top:10px; right:10px;
                                              background:rgba(255,255,255,.9); color:#1565c0;
@@ -651,7 +640,7 @@
                              onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
 
                             <div style="position:relative; overflow:hidden; height:150px; background:#e8eaf6;">
-                                <img src="fotoIndex/imagensCapa/capa3ano.webp" loading="lazy" alt="Mundo"
+                                <img src="fotoIndex/imagensCapa/capa3anox.webp" loading="lazy" alt="Mundo"
                                      style="width:100%; height:100%; object-fit:cover; object-position:center;">
                                 <span style="position:absolute; top:10px; right:10px;
                                              background:rgba(255,255,255,.9); color:#1565c0;

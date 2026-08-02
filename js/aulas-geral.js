@@ -276,6 +276,18 @@ async function atualizarResumoHome() {
             if (barra) barra.style.width = porc + '%';
             if (texto) texto.innerText   = conc + '/' + total;
             if (icone) icone.style.display = (porc >= 100 && total > 0) ? 'block' : 'none';
+
+            // Preenche os cards de módulo na seção de trilhas
+            const progCard = document.getElementById('prog-card-' + a + 'ano');
+            const cardBar  = document.getElementById('card-bar-' + a + 'ano');
+            const cardTxt  = document.getElementById('card-txt-' + a + 'ano');
+            const cardPct  = document.getElementById('card-pct-' + a + 'ano');
+            if (progCard) {
+                progCard.style.display = 'block';
+                if (cardTxt) cardTxt.textContent = conc + '/' + total + ' aulas';
+                if (cardPct) cardPct.textContent = porc + '%';
+                if (cardBar) requestAnimationFrame(function() { cardBar.style.width = porc + '%'; });
+            }
         } catch (e) {
             console.error('Falha ao processar ' + a + 'º ano:', e);
         }

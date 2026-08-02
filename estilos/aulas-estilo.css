@@ -16,13 +16,15 @@ main {
 
 /* ── Hero Banner ─────────────────────────────────────────────── */
 .aulas-hero {
-    height: 220px;
+    height: 320px;
     background-size: cover;
     background-position: center 40%;
     position: relative;
     overflow: hidden;
-    border-radius: 24px;
-    margin: 20px 16px 0;
+    border-radius: 32px;
+    max-width: 1280px;
+    width: calc(100% - 48px);
+    margin: 25px auto 0;
 }
 
 .aulas-hero-overlay {
@@ -30,8 +32,8 @@ main {
     inset: 0;
     background: linear-gradient(
         90deg,
-        rgba(0, 0, 0, .52) 0%,
-        rgba(0, 0, 0, .18) 45%,
+        rgba(0, 0, 0, .30) 0%,
+        rgba(0, 0, 0, .10) 45%,
         rgba(0, 0, 0, .04) 100%
     );
     display: flex;
@@ -107,6 +109,10 @@ main {
 
 /* ── Body (2 colunas) ────────────────────────────────────────── */
 .aulas-body {
+    width: 100%;
+    max-width: 1328px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px 24px 48px;
     display: flex;
     gap: 20px;

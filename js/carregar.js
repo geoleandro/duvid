@@ -95,36 +95,47 @@ function verificarSeEhAula() {
 
 
 function inicializarControleFonte() {
+    // Botões sidebar (desktop)
     const btnA = document.getElementById('increase-font') || document.querySelector('[onclick="aumentarFonte()"]');
     const btnD = document.getElementById('decrease-font') || document.querySelector('[onclick="diminuirFonte()"]');
-    
-    // Alvos: O main e especificamente o container das questões
-    const corpo = document.querySelector('.corpo-artigo') || document.querySelector('main') || document.body;
-    const containerQuestao = document.getElementById('container-questao');
 
-    let size = parseFloat(localStorage.getItem('userFontSize')) || 1.05;
+    // Botões mobile drawer (IDs próprios para evitar conflito)
+    const btnAMob = document.getElementById('mob-increase-font');
+    const btnDMob = document.getElementById('mob-decrease-font');
+
+    // Botões painel direito das questões/simulados
+    const btnAQuest = document.getElementById('quest-increase-font');
+    const btnDQuest = document.getElementById('quest-decrease-font');
+    const pctEl = document.getElementById('quest-font-pct');
+
+    // Persiste a escala entre sessões (1.0 = 100% = padrão)
+    let size = parseFloat(localStorage.getItem('userFontSize')) || 1.0;
 
     const update = () => {
-        // Aplica ao corpo principal
-        if (corpo) corpo.style.fontSize = size.toFixed(2) + "rem";
-        
-        // Aplica especificamente ao container de questões para forçar as alternativas
-        if (containerQuestao) {
-            containerQuestao.style.fontSize = size.toFixed(2) + "rem";
-        }
-        
+        const pct = Math.round(size * 100) + '%';
+        // Aplica no <html> → valores em rem escalam automaticamente
+        document.documentElement.style.fontSize = pct;
+        // Garante que body também escale (resolve herança via "inherit" no ModeloCss)
+        document.body.style.fontSize = '1rem';
         localStorage.setItem('userFontSize', size);
+        if (pctEl) pctEl.textContent = pct;
     };
 
-    if (btnA) btnA.onclick = (e) => { 
-        e.preventDefault(); 
-        if (size < 1.5) { size += 0.05; update(); } 
+    const aumentar = (e) => {
+        if (e) e.preventDefault();
+        if (size < 1.4) { size = Math.round((size + 0.05) * 100) / 100; update(); }
     };
-    
-    if (btnD) btnD.onclick = (e) => { 
-        e.preventDefault(); 
-        if (size > 0.8) { size -= 0.05; update(); } 
+    const diminuir = (e) => {
+        if (e) e.preventDefault();
+        if (size > 0.8) { size = Math.round((size - 0.05) * 100) / 100; update(); }
     };
+
+    if (btnA) btnA.onclick = aumentar;
+    if (btnD) btnD.onclick = diminuir;
+    if (btnAMob) btnAMob.onclick = aumentar;
+    if (btnDMob) btnDMob.onclick = diminuir;
+    if (btnAQuest) btnAQuest.onclick = aumentar;
+    if (btnDQuest) btnDQuest.onclick = diminuir;
 
     update();
 }

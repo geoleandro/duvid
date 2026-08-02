@@ -681,9 +681,9 @@ function renderizarCardBibliografia(ref) {
             style="border-left-width:8px !important; border-radius:0 10px 10px 0;">
             <div class="w3-container">
                 <span class="w3-tag ${cor} w3-small fontePixel">${tag}</span>
-                <p class="w3-large w3-margin-top">
+                <p class="w3-medium w3-margin-top" style="line-height:1.5;">
                     ${ref.texto}
-                    <span class="w3-opacity w3-medium">${ref.complemento}</span>
+                    <span class="w3-opacity w3-small">${ref.complemento}</span>
                 </p>
             </div>
         </div>

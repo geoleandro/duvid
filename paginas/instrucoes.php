@@ -2,262 +2,401 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Duvid - Instruções </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duvid — Instruções</title>
 
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="/estilos/index-estilo.css">
-	<link rel="stylesheet" href="/estilos/rpg-sistema.css">
-	<link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
 
-	<link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+    <style>
+        /* ─── Cards de conteúdo ──────────────────────────── */
+        .instr-card {
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,.06);
+            padding: 28px 32px;
+            margin-bottom: 20px;
+        }
+        body.dark-mode .instr-card { background: #1e1e1e; }
 
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
-		crossorigin="anonymous"></script>
+        /* ─── Section heading ────────────────────────────── */
+        .instr-heading {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 0 0 16px;
+        }
+        .instr-heading-icon {
+            width: 30px; height: 30px;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-size: .8rem; flex-shrink: 0;
+        }
+        .instr-heading-icon.green  { background: #e8f5e9; color: #2e7d32; }
+        .instr-heading-icon.orange { background: #fff3e0; color: #e65100; }
+        .instr-heading h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem; font-weight: 700; color: #1b5e20; margin: 0;
+        }
+        .instr-heading.orange h2 { color: #bf360c; }
 
-	<script src="/js/duvid-cache.js" defer></script>
-	<script src="/js/duvid-core.js" defer></script>
-	<script src="/js/duvid-db.js" defer></script>
-	<script src="/js/duvid-audio.js" defer></script>
-	<script src="/js/duvid-ui.js" defer></script>
-	<script src="/js/carregar.js" defer></script>
-	<script src="/js/abrirmenu.js" defer></script>
+        /* ─── Dinâmica: 4 step cards ─────────────────────── */
+        .instr-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 14px;
+            margin-bottom: 0;
+        }
+        @media (max-width: 800px) { .instr-steps { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 480px) { .instr-steps { grid-template-columns: 1fr; } }
 
+        .step-card {
+            border-radius: 12px;
+            border-top: 4px solid;
+            padding: 16px 14px;
+            background: #fafafa;
+        }
+        body.dark-mode .step-card { background: #2a2a2a; }
+        .step-card.c-green  { border-color: #4caf50; }
+        .step-card.c-orange { border-color: #ff9800; }
+        .step-card.c-blue   { border-color: #2196f3; }
+        .step-card.c-yellow { border-color: #ffc107; }
 
+        .step-icon {
+            width: 28px; height: 28px;
+            border-radius: 7px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: .75rem; margin-bottom: 10px;
+        }
+        .step-card.c-green  .step-icon { background: #e8f5e9; color: #2e7d32; }
+        .step-card.c-orange .step-icon { background: #fff3e0; color: #e65100; }
+        .step-card.c-blue   .step-icon { background: #e3f2fd; color: #1565c0; }
+        .step-card.c-yellow .step-icon { background: #fffde7; color: #f57f17; }
+        .step-card h4 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .82rem; font-weight: 700; color: #333; margin: 0 0 5px;
+        }
+        .step-card p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .78rem; color: #666; line-height: 1.5; margin: 0;
+        }
+        body.dark-mode .step-card h4 { color: #e0e0e0; }
+        body.dark-mode .step-card p  { color: #aaa; }
 
-	<style>
-		/* Tipografia Híbrida para melhor leitura */
-		h1,
-		h2,
-		h3,
-		h4 {
-			font-family: 'pixel', sans-serif;
-			text-transform: uppercase;
-		}
+        /* ─── Pedagogia ──────────────────────────────────── */
+        .pedagogy-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            align-items: start;
+        }
+        @media (max-width: 680px) { .pedagogy-grid { grid-template-columns: 1fr; gap: 20px; } }
 
-		/* Fonte de leitura clara para as instruções */
-		p,
-		li,
-		label,
-		input {
-			font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif;
-			line-height: 1.6;
-			font-size: 1.05em;
-		}
+        .pedagogy-badge {
+            display: inline-flex; align-items: center; gap: 6px;
+            background: #e8f5e9; color: #2e7d32;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .67rem; font-weight: 700; letter-spacing: .07em;
+            text-transform: uppercase; padding: 3px 9px; border-radius: 20px;
+            margin-bottom: 10px;
+        }
+        .pedagogy-grid h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem; font-weight: 800; color: #1b5e20; margin: 0 0 8px;
+        }
+        .pedagogy-grid > div > p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .85rem; color: #555; line-height: 1.65; margin: 0;
+        }
+        body.dark-mode .pedagogy-grid h3 { color: #a5d6a7; }
+        body.dark-mode .pedagogy-grid > div > p { color: #bbb; }
 
-		.sessao-instrucao {
-			margin-bottom: 25px;
-			padding: 15px;
-			border-left: 5px solid #4ade80;
-			/* Verde tema */
-			background-color: rgba(0, 0, 0, 0.02);
-		}
+        .step-list { list-style: none; margin: 0; padding: 0; }
+        .step-list li { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 14px; }
+        .step-list li:last-child { margin-bottom: 0; }
+        .step-num {
+            width: 24px; height: 24px; border-radius: 50%; background: #4caf50;
+            color: #fff; font-family: 'Montserrat', sans-serif; font-size: .7rem;
+            font-weight: 700; display: flex; align-items: center; justify-content: center;
+            flex-shrink: 0; margin-top: 1px;
+        }
+        .step-txt strong {
+            display: block; font-family: 'Montserrat', sans-serif;
+            font-size: .82rem; font-weight: 700; color: #2e7d32; margin-bottom: 2px;
+        }
+        .step-txt span {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .78rem; color: #666; line-height: 1.45;
+        }
+        body.dark-mode .step-txt strong { color: #81c784; }
+        body.dark-mode .step-txt span  { color: #aaa; }
 
-		body.dark-mode .sessao-instrucao {
-			background-color: rgba(255, 255, 255, 0.05);
-		}
+        /* ─── Avaliação: 3 itens verticais ──────────────── */
+        .peso-item {
+            border-left: 4px solid;
+            padding: 14px 18px;
+            border-radius: 0 10px 10px 0;
+            background: #fafafa;
+            margin-bottom: 12px;
+        }
+        .peso-item:last-child { margin-bottom: 0; }
+        body.dark-mode .peso-item { background: #2a2a2a; }
+        .peso-item.red    { border-color: #e53935; }
+        .peso-item.orange { border-color: #fb8c00; }
+        .peso-item.blue   { border-color: #1e88e5; }
 
-		.btn-link {
-			transition: 0.3s;
-			text-decoration: none;
-			display: inline-block;
-			margin-bottom: 10px;
-		}
+        .peso-header {
+            display: flex; align-items: center;
+            justify-content: space-between; margin-bottom: 5px;
+        }
+        .peso-header span {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .88rem; font-weight: 700; color: #333;
+        }
+        body.dark-mode .peso-header span { color: #ddd; }
+        .peso-badge {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .7rem; font-weight: 700; padding: 2px 9px;
+            border-radius: 20px; color: #fff;
+        }
+        .peso-badge.red    { background: #e53935; }
+        .peso-badge.orange { background: #fb8c00; }
+        .peso-badge.blue   { background: #1e88e5; }
+        .peso-item p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .8rem; color: #666; line-height: 1.5; margin: 0;
+        }
+        body.dark-mode .peso-item p { color: #aaa; }
 
-		.btn-link:hover {
-			transform: scale(1.02);
-		}
-	</style>
+        /* ─── CTA Aventura Geográfica ────────────────────── */
+        .instr-cta {
+            background: #1b5e20;
+            border-radius: 16px;
+            padding: 28px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            margin-bottom: 0;
+        }
+        @media (max-width: 600px) {
+            .instr-cta { flex-direction: column; align-items: flex-start; padding: 22px 20px; }
+        }
+        .instr-cta h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem; font-weight: 800; color: #fff; margin: 0 0 6px;
+        }
+        .instr-cta p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .82rem; color: rgba(255,255,255,.78); margin: 0; line-height: 1.5;
+        }
+        .cta-btns { display: flex; flex-direction: column; gap: 9px; flex-shrink: 0; }
+        .cta-btn {
+            display: inline-flex; align-items: center; gap: 7px;
+            padding: 9px 18px; border-radius: 9px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .83rem; font-weight: 700;
+            text-decoration: none; white-space: nowrap;
+            transition: opacity .2s; cursor: pointer;
+        }
+        .cta-btn:hover { opacity: .85; }
+        .cta-btn.white  { background: #fff; color: #1b5e20; }
+        .cta-btn.accent { background: #ff9800; color: #fff; }
+
+        /* ─── Hero com Jéssica ───────────────────────────── */
+        .instr-hero {
+            background-position: right center, center center;
+            background-size: auto 100%, cover;
+            background-repeat: no-repeat, no-repeat;
+        }
+        /* fallback enquanto imagem não existe: usa só o fundo-natureza */
+        .instr-hero-overlay {
+            background: linear-gradient(90deg, rgba(0,0,0,.30) 0%, rgba(0,0,0,.10) 60%, transparent 100%);
+        }
+        .instr-hero-text {
+            max-width: 520px;
+        }
+        .instr-hero-sub {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .92rem;
+            color: rgba(255,255,255,.85);
+            margin: 8px 0 0;
+            line-height: 1.55;
+        }
+    </style>
 </head>
 
 <body>
 
-	<?php include __DIR__ . '/../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
-	<div class="w3-content" style="max-width:1000px; margin-top: 80px; margin-bottom: 100px;">
+<main class="texto-layout">
 
-		<div class="w3-container w3-white w3-card-4 w3-margin w3-padding-32 w3-round-large card-ano">
-			<h1 class="w3-center w3-text-green"><b>Como serão nossas aulas?</b></h1>
-			<p class="w3-center w3-opacity">Guia de jornada e metodologia de aprendizado</p>
-			<hr>
+    <!-- ══ HERO ══ -->
+    <div class="texto-hero instr-hero" style="background-image:url('/fotoIndex/tileset/fundo-jessica.webp'), url('/fotoIndex/tileset/fundo-natureza.webp');">
+        <div class="texto-hero-overlay instr-hero-overlay">
+            <div class="instr-hero-text">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">📖 Metodologia</span>
+                </div>
+                <h1 class="texto-hero-title">Como serão nossas aulas?</h1>
+                <p class="instr-hero-sub">Jéssica vai te guiar pela Aventura Geográfica: conteúdo, desafios e muito mais.</p>
+            </div>
+        </div>
+    </div>
 
-			<div class="w3-container">
-				<p>Bem-vindos! Na disciplina de Geografia vamos estudar o <b>Espaço Geográfico</b> e o mundo ao nosso
-					redor! Abaixo, veja como nossa jornada está organizada:</p>
-			</div>
+    <div class="texto-body-pad">
 
-			<div class="w3-row-padding w3-margin-top">
-				<div class="sessao-instrucao">
-					<h3 class="w3-text-green"><i class="fa fa-chalkboard-teacher"></i> Dinâmica das Aulas</h3>
-					<p>Introdução rápida do tema -> Leitura e interpretação (App Duvid/Site) -> Desafios em grupo ->
-						Revisão final para consolidar o conhecimento.</p>
-				</div>
+        <!-- ── Dinâmica das Aulas ── -->
+        <div class="instr-card">
+            <div class="instr-heading">
+                <div class="instr-heading-icon green"><i class="fa fa-rotate"></i></div>
+                <h2>Dinâmica das Aulas</h2>
+            </div>
+            <div class="instr-steps">
+                <div class="step-card c-green">
+                    <div class="step-icon"><i class="fa fa-graduation-cap"></i></div>
+                    <h4>Introdução</h4>
+                    <p>Problematização do tema através de elementos cotidianos.</p>
+                </div>
+                <div class="step-card c-orange">
+                    <div class="step-icon"><i class="fa fa-book-open"></i></div>
+                    <h4>Leitura</h4>
+                    <p>Exploração de textos e mídias ricas na plataforma.</p>
+                </div>
+                <div class="step-card c-blue">
+                    <div class="step-icon"><i class="fa fa-gamepad"></i></div>
+                    <h4>Desafios</h4>
+                    <p>Prática gamificada para fixação do conteúdo.</p>
+                </div>
+                <div class="step-card c-yellow">
+                    <div class="step-icon"><i class="fa fa-check-circle"></i></div>
+                    <h4>Revisão</h4>
+                    <p>Consolidação e feedback imediato da trilha.</p>
+                </div>
+            </div>
+        </div>
 
-				<div class="sessao-instrucao">
-					<h3 class="w3-text-green"><i class="fa fa-gamepad"></i> Metodologia</h3>
-					<p>A metodologia da plataforma Duvid fundamenta-se na Pedagogia Histórico-Crítica. O processo de
-						ensino-aprendizagem é estruturado em cinco momentos interdependentes: partimos da Prática Social
-						Inicial, conectando o conteúdo geográfico à realidade vivida pelos estudantes; avançamos para a
-						Problematização e Instrumentalização, onde ferramentas científicas e conceitos clássicos são
-						mobilizados para diferenciar do senso comum; e culminamos na Catarse e em uma nova Prática
-						Social Final, promovendo uma síntese mental que transforma o aluno em um sujeito crítico e
-						consciente de seu papel na transformação do espaço geográfico.</p>
-				</div>
+        <!-- ── Pedagogia Histórico-Crítica ── -->
+        <div class="instr-card">
+            <div class="pedagogy-grid">
+                <div>
+                    <span class="pedagogy-badge"><i class="fa fa-seedling"></i> Abordagem Pedagógica</span>
+                    <h3>Pedagogia Histórico-Crítica</h3>
+                    <p>Utilizamos uma metodologia que valoriza o conhecimento prévio e busca a transformação social através da ciência geográfica.</p>
+                </div>
+                <ul class="step-list">
+                    <li>
+                        <div class="step-num">1</div>
+                        <div class="step-txt">
+                            <strong>Prática Social Inicial</strong>
+                            <span>Identificamos o que você já sabe sobre o tema no mundo real.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-num">2</div>
+                        <div class="step-txt">
+                            <strong>Problematização</strong>
+                            <span>Desafiamos sua visão atual para gerar a necessidade de novo conhecimento.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-num">3</div>
+                        <div class="step-txt">
+                            <strong>Instrumentalização</strong>
+                            <span>Acesso às ferramentas teóricas e científicas da geografia.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="step-num">4</div>
+                        <div class="step-txt">
+                            <strong>Catarse &amp; Prática Final</strong>
+                            <span>A nova síntese mental e a aplicação prática do aprendizado.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-				<div class="sessao-instrucao">
-					<h3 class="w3-text-green"><i class="fa fa-star"></i> Avaliação e Pesos</h3>
-					<ul class="w3-ul">
-						<li><i class="fa fa-laptop-code"></i> <b>Avaliação objetiva(Peso 4):</b> Realizada em
-							laboratório com correção automática para verificação da síntese mental (Catarse).</li>
-						<li><i class="fa fa-users"></i> <b>Estudo Dirigido (Peso 3):</b> Exercícios de
-							instrumentalização no caderno com acompanhamento docente.</li>
-						<li><i class="fa fa-user-check"></i> <b>Práticas Sociais e Coletivas (Peso 3):</b> Trabalhos em
-							grupo com quadrinhos, leitura de textos e sugestões de atividades, como debates, criação de conteúdo, etc. disponíveis na plataforma Duvid.</li>
-					</ul>
-				</div>
-			</div>
+        <!-- ── Avaliação e Pesos ── -->
+        <div class="instr-card">
+            <div class="instr-heading orange">
+                <div class="instr-heading-icon orange"><i class="fa fa-chart-bar"></i></div>
+                <h2>Avaliação e Pesos</h2>
+            </div>
 
-			<hr>
+            <div class="peso-item red">
+                <div class="peso-header">
+                    <span>Avaliação objetiva</span>
+                    <span class="peso-badge red">Peso 4</span>
+                </div>
+                <p>Realizada em laboratório com correção automática para verificação da síntese mental (Catarse).</p>
+            </div>
 
-			<div class="w3-container">
-				<h2 class="w3-center"><i class="fa fa-link"></i> Recursos e Downloads</h2>
+            <div class="peso-item orange">
+                <div class="peso-header">
+                    <span>Estudo Dirigido</span>
+                    <span class="peso-badge orange">Peso 3</span>
+                </div>
+                <p>Exercícios de instrumentalização no caderno com acompanhamento docente.</p>
+            </div>
 
-				<div class="w3-row-padding w3-margin-top">
-					<div class="w3-half w3-padding">
-						<div class="w3-card w3-light-grey w3-padding w3-round">
-							<h4><i class="fa fa-lock"></i> Acesso aos Grupos</h4>
-							<p class="w3-small">Digite a senha para acessar o painel de desenvolvimento.</p>
-							<form action="/arquivosphp/logingrupos.php" method="POST"
-								onsubmit="return validateForm()">
-								<input class="w3-input w3-border w3-round" type="password" id="password" name="password"
-									placeholder="Senha...">
-								<button class="w3-button w3-green w3-block w3-margin-top w3-round"
-									type="submit">Entrar</button>
-							</form>
-							<p id="errorMessage" class="w3-text-red w3-small w3-center"></p>
-						</div>
-					</div>
+            <div class="peso-item blue">
+                <div class="peso-header">
+                    <span>Práticas Sociais e Coletivas</span>
+                    <span class="peso-badge blue">Peso 3</span>
+                </div>
+                <p>Trabalhos em grupo com quadrinhos, leitura de textos e atividades como debates, criação de conteúdo, etc., disponíveis na plataforma Duvid.</p>
+            </div>
+        </div>
 
-					<div class="w3-half w3-padding">
-						<h4><i class="fa fa-download"></i> Arquivos do Jogo</h4>
-						<a href="https://drive.google.com/file/d/1i479qRAbNm38qVuRXydsDx5nR8pIRt5e/view?usp=sharing"
-							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Demo Android (.apk)</a>
+        <!-- ── Aventura Geográfica CTA ── -->
+        <div class="instr-cta">
+            <div>
+                <h3>🌍 Aventura Geográfica</h3>
+                <p>Participe do jogo e explore o mundo através de missões, batalhas e desafios geográficos. A Jéssica está esperando por você!</p>
+            </div>
+            <div class="cta-btns">
+                <a href="/jogo/index.html" class="cta-btn white" target="_blank">
+                    <i class="fa fa-play"></i> Jogar agora
+                </a>
+                <a href="https://drive.google.com/drive/folders/15cTExhiIohHhbDrESx7xycLqXgfYRUgA?usp=sharing"
+                   class="cta-btn accent" target="_blank">
+                    <i class="fa fa-palette"></i> Pixel Art Kit
+                </a>
+            </div>
+        </div>
 
-						<a href="https://drive.google.com/drive/folders/15cTExhiIohHhbDrESx7xycLqXgfYRUgA?usp=sharing"
-							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Aseprite (Pixel
-							Art)</a>
+    </div><!-- /.texto-body-pad -->
 
-						<a href="https://drive.google.com/drive/folders/1z06k1Z9Y5Ch35Ug31TxdApbVXHN6r4sc?usp=sharing"
-							class="w3-button w3-blue w3-round w3-block btn-link" target="_blank">Pasta Geral do Jogo</a>
-					</div>
-				</div>
-			</div>
+</main>
 
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-DPX55DSFZ0');
+</script>
 
-			<hr>
-			<hr>
-			<div class="w3-container w3-center w3-padding-16">
-				<h4 class="w3-text-grey">Minha Conta</h4>
-				<p class="w3-small">Vai emprestar o computador para outro aluno? Saia da sua conta. Seu progresso
-					fica salvo e volta quando você entrar de novo com seu nome e PIN.</p>
-
-				<button onclick="document.getElementById('modalReset').classList.add('aberto')"
-					class="w3-button w3-white w3-border w3-border-red w3-round-large w3-hover-red w3-text-red">
-					<i class="fa fa-sign-out-alt"></i> Sair / Trocar de conta
-				</button>
-			</div>
-
-
-
-
-			<div class="w3-container w3-center w3-margin-top">
-				<p class="w3-small">Dúvidas? Quer trabalhar em colaboração com sugestões? Entre em contato:
-					<br><b>leandro.hsilva@ifsuldeminas.edu.br</b>
-				</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- Modal Sair — fora de qualquer card para o overlay cobrir a tela toda -->
-	<div id="modalReset" onclick="if(event.target===this)this.classList.remove('aberto')" style="
-		display:none; position:fixed; inset:0; z-index:9999;
-		background:rgba(0,0,0,.55); backdrop-filter:blur(3px);
-		align-items:center; justify-content:center;">
-		<div style="
-			background:#fff; border-radius:16px; max-width:380px; width:92%;
-			padding:36px 28px 28px; text-align:center; position:relative;
-			box-shadow:0 8px 40px rgba(0,0,0,.25); animation:zoomIn .2s ease;">
-
-			<button onclick="document.getElementById('modalReset').classList.remove('aberto')"
-				style="position:absolute;top:12px;right:14px;background:none;border:none;
-				font-size:22px;cursor:pointer;color:#999;line-height:1">&times;</button>
-
-			<img src="/fotoIndex/globinhoPe.png" width="72" style="margin-bottom:12px">
-			<h3 class="fontePixel" style="color:#e53935;margin:0 0 8px">Sair da conta</h3>
-			<p id="msgPersonalizada" style="margin:0 0 4px;font-size:.95rem">Deseja sair desta conta?</p>
-			<p style="font-size:.8rem;color:#888;margin:0 0 24px">Seu progresso fica salvo. É só entrar de novo com nome e PIN.</p>
-
-			<div style="display:flex;gap:10px">
-				<button onclick="executarReset()"
-					style="flex:1;padding:11px;border-radius:8px;border:none;background:#e53935;
-					color:#fff;font-weight:700;cursor:pointer;font-size:.95rem">
-					Sim, sair
-				</button>
-				<button onclick="document.getElementById('modalReset').classList.remove('aberto')"
-					style="flex:1;padding:11px;border-radius:8px;border:1px solid #ddd;
-					background:#f5f5f5;color:#444;cursor:pointer;font-size:.95rem">
-					Cancelar
-				</button>
-			</div>
-		</div>
-	</div>
-
-	<style>
-	@keyframes zoomIn { from { transform:scale(.85); opacity:0 } to { transform:scale(1); opacity:1 } }
-	#modalReset { display:none }
-	#modalReset.aberto { display:flex !important }
-	</style>
-
-	<?php include __DIR__ . '/../includes/footer.php'; ?>
-
-
-
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-DPX55DSFZ0');
-
-
-	</script>
-
-	<script>
-		// 1. Configurações Iniciais ao carregar a página
-		document.addEventListener('DOMContentLoaded', function () {
-			const nome = localStorage.getItem("duvid_nome") || "Estudante";
-			const msg = document.getElementById("msgPersonalizada");
-			if (msg) msg.innerHTML = `Olá <b>${nome.toUpperCase()}</b>, deseja sair desta conta neste aparelho?`;
-		});
-
-	</script>
-
-
-	<script>
-		function validateForm() {
-			var password = document.getElementById("password").value;
-			if (password === "") {
-				document.getElementById("errorMessage").innerHTML = "Por favor, digite a senha.";
-				return false;
-			}
-			return true;
-		}
-	</script>
 </body>
-
 </html>

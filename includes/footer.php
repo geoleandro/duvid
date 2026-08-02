@@ -31,7 +31,7 @@
 })();
 </script>
 
-<footer style="background:#1b5e20; padding: 48px 0 0; margin-top: 0;">
+<footer id="site-footer" style="background:#1b5e20; padding: 48px 0 0; margin-top: 0;">
     <div class="w3-content" style="max-width:1100px; padding: 0 24px;">
 
         <style>

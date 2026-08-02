@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -23,10 +24,13 @@
     .ct-main { flex: 1 0 auto; }
 
     .ct-wrap {
-        max-width: 480px;
-        margin: 90px auto 80px;
-        padding: 0 16px;
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0 48px 60px;
+        box-sizing: border-box;
     }
+    @media (max-width: 1024px) { .ct-wrap { padding: 0 24px 48px; } }
+    @media (max-width: 640px)  { .ct-wrap { padding: 0 12px 40px; } }
 
     /* ── Card principal ── */
     .ct-card {
@@ -34,6 +38,8 @@
         border-radius: 16px;
         padding: 32px 28px;
         box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        max-width: 520px;
+        margin: 32px auto 0;
     }
     .ct-card h2 {
         margin: 0 0 6px;
@@ -172,7 +178,18 @@
 <body class="w3-light-grey">
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <main class="ct-main">
+    <main class="texto-layout">
+
+        <!-- Banner hero -->
+        <div class="texto-hero" style="background-image:url('/fotoIndex/tileset/fundo.webp');">
+            <div class="texto-hero-overlay">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">👩‍🏫 Professor</span>
+                </div>
+                <h1 class="texto-hero-title">Criar Turma</h1>
+            </div>
+        </div>
+
     <div class="ct-wrap">
         <div class="ct-card">
 

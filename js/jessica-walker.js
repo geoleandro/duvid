@@ -222,10 +222,9 @@
   // "Melhorar esta aula" no DOMContentLoaded; o setTimeout(0) garante que o
   // diorama entre depois do botão e possa ser inserido antes dele corretamente.
   function injetarFundo() {
-    // Páginas de aulas já têm o diorama no banner — não duplicar no rodapé
-    if (isNatureza || isBrasil || isMundo) return;
+    // Home e aulas já têm o fundo no banner — não duplicar no rodapé
+    if (isHome || isNatureza || isBrasil || isMundo) return;
     var fundoSrc = null;
-    if (isHome) fundoSrc = '/fotoIndex/tileset/fundo.webp';
     if (!fundoSrc) return;
     var s = document.createElement('style');
     s.textContent = '#duvid-fundo{display:block;width:100%;line-height:0;pointer-events:none;}#duvid-fundo img{width:100%;height:auto;display:block;}';

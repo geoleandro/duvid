@@ -1,93 +1,89 @@
+<?php
+$tituloPagina = 'Atividades';
+$emojiPagina  = '🧩';
+$tagPagina    = 'Recursos Didáticos';
+$descPagina   = 'Materiais prontos para imprimir e aplicar em sala de aula. Mapas, infográficos, fichas e muito mais.';
+$fundoBanner  = '/fotoIndex/tileset/fundo-atividades.webp';
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Duvid - Atividades</title>
+    <title>Duvid — <?= $emojiPagina ?> <?= $tituloPagina ?></title>
+    <meta name="description" content="<?= $descPagina ?>">
 
     <link rel="stylesheet" href="/estilos/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/atividades-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
-        crossorigin="anonymous"></script>
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216" crossorigin="anonymous"></script>
 
     <script src="/js/duvid-core.js" defer></script>
-
     <script src="/js/duvid-db.js" defer></script>
-
     <script src="/js/duvid-audio.js" defer></script>
     <script src="/js/duvid-ui.js" defer></script>
-
     <script src="/js/carregar.js" defer></script>
     <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/jessica-walker.js" defer></script>
     <script src="/js/atividades-duvid.js" defer></script>
-
-
-
 </head>
 
-<body class="w3-light-grey">
+<body>
 
-    <?php include __DIR__ . '/../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <main class="w3-content" style="max-width:1100px; margin-top: 80px;">
+<main class="texto-layout">
 
-        <!-- Cabeçalho -->
-        <div class="w3-container w3-padding-48 w3-center hero-ano w3-round-large w3-card-2 w3-white w3-margin-bottom">
-            <h1 class="w3-text-green w3-jumbo fonte-pixel-titulo"><b>Duvid - Atividades</b></h1>
-            <p class="w3-text-grey">Recursos didáticos prontos para imprimir e aplicar.</p>
-        </div>
-
-        <!-- Barra de Ferramentas: Busca e Filtros -->
-        <div class="w3-container w3-margin-bottom">
-            <div class="w3-row-padding w3-card w3-white w3-round-large w3-padding-16">
-                <!-- Campo de Busca -->
-                <div class="w3-col l4 m12 s12 w3-margin-bottom">
-                    <label class="w3-small w3-text-grey"><b>PESQUISAR</b></label>
-                    <div class="w3-display-container">
-                        <input id="inputBusca" class="w3-input w3-border w3-round-medium" type="text"
-                            placeholder="Ex: Clima, Escala...">
-                        <i class="fa fa-search w3-display-right w3-margin-right w3-opacity"></i>
-                    </div>
-                </div>
-
-                <!-- Filtros de Categoria -->
-                <div class="w3-col l8 m12 s12">
-                    <label class="w3-small w3-text-grey"><b>FILTRAR POR TEMA</b></label>
-                    <div id="botoes-filtro-atv" style="display:flex; flex-wrap:wrap; margin-top:6px;"></div>
-                </div>
+    <!-- ══ HERO BANNER ══════════════════════════════════════════════════ -->
+    <div class="texto-hero" style="background-image:url('<?= $fundoBanner ?>')">
+        <div class="texto-hero-overlay">
+            <div class="texto-hero-badges">
+                <span class="texto-badge texto-badge-green"><?= $tagPagina ?></span>
             </div>
+            <h1 class="texto-hero-title"><?= $emojiPagina ?> <?= $tituloPagina ?></h1>
+        </div>
+    </div>
+
+    <!-- ══ CORPO ════════════════════════════════════════════════════════ -->
+    <div class="atv-body-pad">
+
+        <!-- Barra de busca e filtros -->
+        <div class="atv-toolbar">
+            <div class="atv-busca-wrap">
+                <i class="fa fa-search atv-busca-icon"></i>
+                <input id="inputBusca" class="atv-busca-input" type="text"
+                    placeholder="Buscar por tema, ex: Clima, Escala...">
+            </div>
+            <div id="botoes-filtro-atv" class="atv-filtros"></div>
         </div>
 
-        <!-- Grid de Atividades -->
-        <div id="container-atividades" class="w3-row-padding"></div>
+        <!-- Grid de atividades (preenchido pelo JS) -->
+        <div id="container-atividades" class="atv-grid"></div>
 
-    </main>
+    </div>
 
+</main>
 
-    <?php include __DIR__ . '/../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 
-    <button onclick="voltarAoTopo()" id="btn-topo" class="w3-button w3-green w3-padding w3-round-large"
-        style="position: fixed; bottom: 20px; right: 20px; display: none;">
-        <i class="fa fa-arrow-up"></i>
-    </button>
+<button onclick="voltarAoTopo()" id="btn-topo" class="w3-button w3-green w3-padding w3-round-large"
+    style="position:fixed; bottom:20px; right:20px; display:none;">
+    <i class="fa fa-arrow-up"></i>
+</button>
 
-
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-DPX55DSFZ0');
-    </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-DPX55DSFZ0');
+</script>
 
 </body>
-
 </html>

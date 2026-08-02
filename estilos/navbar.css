@@ -1,13 +1,14 @@
 
-/* Fonte da Navbar */
+/* Fonte da Navbar — GeoExplorer System: Body 16px / Montserrat */
 .w3-bar,
 .w3-bar-item,
 .w3-button,
 .w3-dropdown-content a {
     font-family: 'Montserrat', sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: medium;
+    font-size: 16px !important;
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 /* Padding dos botões da barra */
@@ -124,10 +125,6 @@ body.dark-mode #navDemo a {
         vertical-align: middle !important;
         align-items: center;
         height: 100%;
-    }
-
-    #toggle-dark-mode {
-        padding: 8px 10px !important;
     }
 
     .w3-bar-item:first-child {

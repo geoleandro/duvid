@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -47,6 +48,7 @@
 
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
     <title>1º ano - Texto 02</title>
@@ -283,14 +285,12 @@
 
             <p class="caixa"> Agora é com você!</p>
 
-
-            <div class="w3-padding">
-                <h4 class="divCaixa1">Após ter lido a Entrevista com a Cartografia, <strong>escreva em seu caderno
-                        três
-                        perguntas</strong> que gostaria de fazer para aprender mais sobre esse tema. Seja criativo!
-                    Vale um
-                    globinho.
-                    Você precisará deles para completar sua aula e seguir adiante.</h4>
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Após ter lido a Entrevista com a Cartografia, <strong>escreva em seu caderno
+                        três perguntas</strong> que gostaria de fazer para aprender mais sobre esse tema. Seja
+                    criativo!</p>
+                <p class="w3-pale-green">Vale um globinho. Você precisará deles para completar sua aula e seguir
+                    adiante.</p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this);">Proximo</button>
@@ -324,23 +324,17 @@
                 espaço em que vivemos é fundamental para melhor organizarmos nosso bairro, cidade ou país.:</p>
             <p> Veja o que diz um famoso geógrafo francês, Yves Lacoste:</p>
 
-            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding"> “Vai-se à escola para aprender a ler, a
-                escrever
-                e a
-                contar. Por que não para
-                aprender a ler uma carta? Por que não para compreender a diferença entre uma carta de grande escala
-                e uma
-                outra em pequena escala e se perceber que não há nisso apenas uma diferença de relação matemática
-                com a
-                realidade, mas que elas não mostram as mesmas coisas? Por que não aprender a esboçar o plano da
-                aldeia ou do
-                bairro? Por que não representam sobre o plano de sua cidade os diferentes bairros que conhecem,
-                aquele onde
-                vivem, aquele onde os pais das crianças vão trabalhar etc.? Por que não aprender a se orientar, a
-                passear na
-                floresta, na montanha, a escolher determinado itinerário para evitar uma rodovia que está
-                congestionada?”
-                <span class="w3-small w3-sand">(LACOSTE, 2003, p.55).</span>
+            <div class="w3-panel w3-leftbar w3-sand w3-margin">
+                <p class="w3-sand">“Vai-se à escola para aprender a ler, a escrever e a contar. Por que não para
+                    aprender a ler uma carta? Por que não para compreender a diferença entre uma carta de grande
+                    escala e uma outra em pequena escala e se perceber que não há nisso apenas uma diferença de
+                    relação matemática com a realidade, mas que elas não mostram as mesmas coisas? Por que não
+                    aprender a esboçar o plano da aldeia ou do bairro? Por que não representam sobre o plano de sua
+                    cidade os diferentes bairros que conhecem, aquele onde vivem, aquele onde os pais das crianças
+                    vão trabalhar etc.? Por que não aprender a se orientar, a passear na floresta, na montanha, a
+                    escolher determinado itinerário para evitar uma rodovia que está congestionada?”
+                    <span class="w3-small">(LACOSTE, 2003, p.55).</span>
+                </p>
             </div>
 
 
@@ -479,7 +473,7 @@
 
         <div class="topico pergunta-bloco w3-container w3-padding-24 ">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
-            <h4 class="fontePixel"><b>Denominação do local onde vemos o nascimento aparente do sol?</b></h4>
+            <p class="w3-margin-top">Denominação do local onde vemos o nascimento aparente do sol?</p>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
@@ -523,7 +517,7 @@
 
         <div class="topico pergunta-bloco w3-container w3-padding-24 ">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
-            <h4 class="fontePixel"><b>Denominação do local onde vemos o poente do sol?</b></h4>
+            <p class="w3-margin-top">Denominação do local onde vemos o poente do sol?</p>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
@@ -564,8 +558,8 @@
 
         <div class="topico pergunta-bloco w3-container w3-padding-24 ">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
-            <h4 class="fontePixel"><b>Denominação do local que fica a sua frente ao estender o braço esquerdo na direção
-                    do surgimento do sol?</b></h4>
+            <p class="w3-margin-top">Denominação do local que fica a sua frente ao estender o braço esquerdo na
+                direção do surgimento do sol?</p>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
@@ -609,7 +603,7 @@
 
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">DESAFIO DE NAVEGAÇÃO</p>
-            <h4 class="fontePixel"><b>Encontre as direções no mapa do tesouro:</b></h4>
+            <p class="w3-margin-top">Encontre as direções no mapa do tesouro:</p>
 
             <div class="w3-center w3-margin-bottom">
                 <img src="tp2Foto10.png" alt="Mapa do Tesouro" class="w3-mobile w3-card-4">
@@ -660,17 +654,16 @@
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">ANÁLISE GEOGRÁFICA</p>
 
-            <div class="w3-panel w3-leftbar w3-sand w3-padding-16 w3-margin-bottom">
-                <p style="font-style: italic;">
-                    "É preciso lembrar que ninguém escolhe o ventre, a localização geográfica, a condição socioeconômica
-                    e a condição cultural para nascer. Nasce onde o acaso determinar. Por isso, temos que cuidar de
-                    todos aqueles que estão em todos os recantos deste planeta."
-                    <br><b>— Aziz Ab'Saber</b>
+            <div class="w3-panel w3-leftbar w3-sand w3-margin-bottom">
+                <p class="w3-sand">"É preciso lembrar que ninguém escolhe o ventre, a localização geográfica, a
+                    condição socioeconômica e a condição cultural para nascer. Nasce onde o acaso determinar. Por
+                    isso, temos que cuidar de todos aqueles que estão em todos os recantos deste planeta."
+                    <br><span class="w3-small"><b>(AB'SABER)</b></span>
                 </p>
             </div>
 
-            <h4 class="fontePixel"><b>Com base no pensamento de Ab'Saber, o que se pode concluir sobre o papel das
-                    políticas públicas globais?</b></h4>
+            <p class="w3-margin-top">Com base no pensamento de Ab'Saber, o que se pode concluir sobre o papel das
+                políticas públicas globais?</p>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
@@ -829,15 +822,15 @@
             <p class="caixa"> Agora é com você!</p>
 
 
-            <h4 class="divCaixa1 w3-margin-bottom">Localize no planisfério acima os pontos C, D, E e escreva em seu
+            <p class="divCaixa1 w3-large">Localize no planisfério acima os pontos C, D, E e escreva em seu
                 <strong>caderno</strong> corretamente:
-            </h4>
+            </p>
 
-            <h4 class="divCaixa1 w3-padding w3-margin-bottom">Ponto C: Lat.: ___º__; Long.:___º___.</h4>
+            <p class="divCaixa1 w3-large">Ponto C: Lat.: ___º__; Long.:___º___.</p>
 
-            <h4 class="divCaixa1 w3-padding w3-margin-bottom">Ponto D: Lat.: ___º __; Long.:___º___.</h4>
+            <p class="divCaixa1 w3-large">Ponto D: Lat.: ___º __; Long.:___º___.</p>
 
-            <h4 class="divCaixa1 w3-padding w3-margin-bottom">Ponto E: Lat.: ___º __; Long.:___º___.</h4>
+            <p class="divCaixa1 w3-large">Ponto E: Lat.: ___º __; Long.:___º___.</p>
 
 
 
@@ -890,12 +883,11 @@
         <div class="topico">
 
 
-            <h2 id="centralizado"> As perguntas nos levam a questionar o <em>status quo</em> e a desafiar ideias
-                preestabelecidas, impulsionando o progresso e a transformação em todas as áreas do conhecimento.
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!
             </h2>
 
 
-            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>Sempre que penso em Geografia já
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Sempre que penso em Geografia já
                     me lembro de mapas, isso é correto?</strong> </p>
 
             <p><span class="primeiraLetra">R:</span> Sim, isso é normal devido à associação com a
@@ -907,7 +899,7 @@
 
 
 
-            <p class="paragrafo borda"><span class="primeiraLetra">P:</span> <strong>Qual a diferença entre mapas,
+            <p class="w3-border w3-round-large"><span class="primeiraLetra">P:</span> <strong>Qual a diferença entre mapas,
                     cartas e
                     plantas?</strong> </p>
 
@@ -918,7 +910,7 @@
                 próximas aulas). Já o mapeamento de bairro inteiro exige outra escala. Quero representar o território
                 brasileiro, então usamos o mapa, pois o nível de detalhes não será muito grande.</p>
 
-            <p class="paragrafo borda"> <span class="primeiraLetra">P:</span> <strong>Qual a circunferência da Terra e
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Qual a circunferência da Terra e
                     quanto vale 1º em km, já que a Terra é uma esfera de 360º?</strong> </p>
 
             <p><span class="primeiraLetra">R:</span> Para saber quanto vale 1º grau devemos dividir a

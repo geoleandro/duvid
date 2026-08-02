@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -22,20 +23,18 @@
     .st-main { flex: 1 0 auto; }
 
     .st-wrap {
-        max-width: 680px;
-        margin: 90px auto 80px;
-        padding: 0 16px;
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0 48px 60px;
+        box-sizing: border-box;
     }
+    @media (max-width: 1024px) { .st-wrap { padding: 0 24px 48px; } }
+    @media (max-width: 640px)  { .st-wrap { padding: 0 12px 40px; } }
 
     /* ── Cabeçalho ── */
     .st-header {
         text-align: center;
-        margin-bottom: 28px;
-    }
-    .st-header h1 {
-        font-size: 1.6rem;
-        color: #1b5e20;
-        margin: 0 0 4px;
+        margin-bottom: 24px;
     }
     .st-header p {
         color: #666;
@@ -260,11 +259,21 @@
 <body class="w3-light-grey">
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <main class="st-main">
+    <main class="texto-layout">
+
+        <!-- Banner hero -->
+        <div class="texto-hero" style="background-image:url('/fotoIndex/tileset/fundo.webp');">
+            <div class="texto-hero-overlay">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">📊 Professor</span>
+                </div>
+                <h1 class="texto-hero-title">Desempenho da Turma</h1>
+            </div>
+        </div>
+
     <div class="st-wrap">
 
         <div class="st-header">
-            <h1><i class="fa-solid fa-chart-bar"></i> Desempenho da Turma</h1>
             <p>Veja como a turma se saiu nas questões — sem identificar alunos</p>
         </div>
 

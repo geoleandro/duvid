@@ -14,6 +14,7 @@
         <link href="/estilos/navbar.css" rel="stylesheet" />
         <link href="/estilos/rpg-sistema.css" rel="stylesheet" />
         <link href="/estilos/ModeloCss.css" rel="stylesheet" />
+        <link href="/estilos/texto-estilo.css" rel="stylesheet" />
         <link href="/estilos/explicacaoPalavra.css" rel="stylesheet" />
         <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +35,7 @@
         <script defer="" src="/js/carregar.js"></script>
         <script defer="" src="/js/aulas-geral.js"></script>
         <script defer="" src="/js/glossario.js"></script>
+        <script defer="" src="/js/texto-painel.js"></script>
         <title>1º ano - Texto 05</title>
 </head>
 
@@ -128,7 +130,7 @@
                         <p> A ideia principal é <span onclick="Aparecer('imagem1','citacao1')"><mark>esta:</mark></span>
                         </p>
                         <img alt="tp5f1" class="w3-mobile" id="imagem1" src="tp5f1.png" style="display:none" />
-                        <span class="paragrafo citacao" id="citacao1" style="display:none"> Fonte: Organizado pelo
+                        <span class="citacao" id="citacao1" style="display:none"> Fonte: Organizado pelo
                                 autor.
                         </span>
                         <p> A partir desse modelo são projetados pontos possíveis da superfície terrestre. São mais de
@@ -147,7 +149,7 @@
                         <div class="area"><img alt="tp5f2" class="w3-mobile" id="imagem2" src="tp5f2.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao2" style="display:none"> Fonte: Fonte: Moreira e Sene
+                        <span class="citacao" id="citacao2" style="display:none"> Fonte: Fonte: Moreira e Sene
                                 (2016, p. 60).
                         </span>
                         <p> Observe que na projeção <span class="termo" data-palavra="Projeção Cilíndrica"
@@ -159,7 +161,7 @@
                         <div class="area"><img alt="tp5f3" class="w3-mobile" id="imagem3" src="tp5f3.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao3" style="display:none"> Fonte: Moreira e Sene (2016,
+                        <span class="citacao" id="citacao3" style="display:none"> Fonte: Moreira e Sene (2016,
                                 p. 60). </span>
                         <p> Na projeção <span class="termo" data-palavra="Projeção Plana (Azimutal)"
                                         data-definicao="Tipo de projeção em que a Terra é tangenciada por um plano de papel em um único ponto, que se torna o centro do mapa. As distorções são mínimas perto do centro e aumentam à medida que se afasta dele."
@@ -171,7 +173,7 @@
                         <div class="area"><img alt="tp5f4" class="w3-mobile" id="imagem4" src="tp5f4.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao4" style="display:none"> Fonte: Fonte: Moreira e Sene
+                        <span class="citacao" id="citacao4" style="display:none"> Fonte: Fonte: Moreira e Sene
                                 (2016, p. 60).
                         </span>
                         <p> Já na projeção <span class="termo" data-palavra="Projeção Cônica"
@@ -183,7 +185,7 @@
                         <div class="area"><img alt="tp5f5" class="w3-mobile" id="imagem5" src="tp5f5.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao5" style="display:none"> Fonte: Organizado pelo
+                        <span class="citacao" id="citacao5" style="display:none"> Fonte: Organizado pelo
                                 autor.
                         </span>
                         <button class="btnShow"
@@ -241,7 +243,7 @@
                         <div class="area"><img alt="tp5f6" class="w3-mobile" id="imagem6" src="tp5f6.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao6" style="display:none"> Fonte: Carvalho e Araújo
+                        <span class="citacao" id="citacao6" style="display:none"> Fonte: Carvalho e Araújo
                                 (2011). </span>
                         <button class="btnShow"
                                 onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -298,9 +300,9 @@
                         <div class="area"><img alt="tp5f7" class="w3-mobile" id="imagem7" src="tp5f7.png"
                                         style="display:none" />
                         </div>
-                        <span class="paragrafo citacao" id="citacao7" style="display:none"> Fonte: Fonte: Wikipedia.
+                        <span class="citacao" id="citacao7" style="display:none"> Fonte: Fonte: Wikipedia.
                         </span>
-                        <div class="w3-panel w3-light-gray">
+                        <div class="w3-panel w3-leftbar w3-light-grey">
                                 <p> <strong>Principais características</strong>:</p>
                                 <ul>
                                         <li>
@@ -368,7 +370,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao8" style=display:none> Fonte: Wikipedia. </span>
+                        <span class="citacao" id="citacao8" style=display:none> Fonte: Wikipedia. </span>
 
 
                         <p>Nessa projeção há um destaque aos países de baixas latitudes, uma vez que buscou preservar
@@ -385,7 +387,7 @@
 
 
 
-                        <div class="w3-panel w3-light-gray">
+                        <div class="w3-panel w3-leftbar w3-light-grey">
 
                                 <p> <strong>Principais características</strong>:</p>
 
@@ -438,7 +440,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao9" style=display:none> Fonte: Organizado pelo autor.
+                        <span class="citacao" id="citacao9" style=display:none> Fonte: Organizado pelo autor.
                         </span>
 
                         <p> Os pontos que não tocam o plano são prolongados e daí que surgem as distorções. Nessa
@@ -460,7 +462,7 @@
                         </div>
 
 
-                        <p class="paragrafo citacao" id="citacao10" style=display:none> Fonte: Organizado pelo autor.
+                        <p class="citacao" id="citacao10" style=display:none> Fonte: Organizado pelo autor.
                         </p>
 
                         <p>Ou uma projeção plana da
@@ -473,7 +475,7 @@
                                         style=display:none>
                         </div>
 
-                        <span class="paragrafo citacao" id="citacao11" style=display:none> Fonte: Organizado pelo autor.
+                        <span class="citacao" id="citacao11" style=display:none> Fonte: Organizado pelo autor.
                         </span>
 
 
@@ -498,7 +500,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao12" style=display:none> Fonte: Wikipedia. </span>
+                        <span class="citacao" id="citacao12" style=display:none> Fonte: Wikipedia. </span>
 
 
                         <button class="btnShow"
@@ -526,11 +528,11 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao13" style=display:none> Fonte: Organizado pelo autor.
+                        <span class="citacao" id="citacao13" style=display:none> Fonte: Organizado pelo autor.
                         </span>
 
 
-                        <div class="w3-panel w3-light-gray">
+                        <div class="w3-panel w3-leftbar w3-light-grey">
                                 <p><strong>Principais características</strong>: </p>
                                 <ul>
                                         <li>Apresenta paralelos circulares e meridianos radiais, isto é, retas que se
@@ -581,7 +583,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao15" style=display:none> Fonte: Organizado pelo autor.
+                        <span class="citacao" id="citacao15" style=display:none> Fonte: Organizado pelo autor.
                         </span>
 
                         <p>Nesse mapa, por exemplo, o Paquistão que tem uma área de 796 100 km² , muito menor do que a
@@ -606,7 +608,7 @@
                         <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 
 
-                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong> Existe uma projeção que está no
+                        <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong> Existe uma projeção que está no
                                         meio
                                         termo, entre a projeção de Mercator e a de Peters?</strong> </p>
 
@@ -627,7 +629,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao16" style=display:none> Fonte:
+                        <span class="citacao" id="citacao16" style=display:none> Fonte:
                                 commons.wilimedia.org.</span>
 
 
@@ -647,7 +649,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao17" style=display:none> Fonte: commons.wilimedia.org.
+                        <span class="citacao" id="citacao17" style=display:none> Fonte: commons.wilimedia.org.
                         </span>
 
                         <p>E uma última projeção, para ilustrar, refere-se a de <span
@@ -661,7 +663,7 @@
                         </div>
 
 
-                        <span class="paragrafo citacao" id="citacao18" style=display:none> Fonte: Organizado pelo autor.
+                        <span class="citacao" id="citacao18" style=display:none> Fonte: Organizado pelo autor.
                         </span>
 
                         <p> Ao segmentar algumas áreas dos oceanos Pacífico, Atlântico e Índico, ele queria manter as
@@ -671,7 +673,7 @@
                                 indicadores socioeconômicos.
                         </p>
 
-                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Hoje em dia, com a existência de
+                        <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Hoje em dia, com a existência de
                                         satélites e internet, ainda precisamos de projeções cartográficas?</strong> </p>
 
                         <p><span class="primeiraLetra">R:</span> Essa é uma ótima pergunta. O assunto sobre a união da
@@ -690,7 +692,7 @@
                                 potencialidades, sociais, naturais etc.</p>
 
 
-                        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Quais temas de estudo os mapas
+                        <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Quais temas de estudo os mapas
                                         podem
                                         representar?</strong> </p>
 
@@ -718,7 +720,7 @@
 
                 <!-- BLOCO: Questoes para o caderno -->
                 <div class="topico">
-                        <div class="w3-panel w3-leftbar w3-pale-yellow w3-margin w3-padding">
+                        <div class="w3-panel w3-pale-yellow w3-margin">
                                 <h2> Questões para responder no caderno:</h2>
                                 <h3>1. O que são projeções cartográficas e qual é o seu objetivo principal?</h3>
                                 <h3>2. Explique brevemente os três tipos básicos de projeções cartográficas: cilíndrica,

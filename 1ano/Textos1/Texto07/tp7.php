@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -47,6 +48,7 @@
 
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
     <title>1º ano - Texto 07</title>
@@ -496,21 +498,22 @@
 
 
 
-		<div class="area margemAbaixo">
-			<div class="postit-tp7 w3-margin-top">
-				<h2 class="fontePixel"><strong>As principais aplicações do GPS são:</strong></h2>
-				
-					<ul class="lista">
-						<li>Aviação: civil e militar;</li>
-						<li>Navegação: marítima e comercial;</li>
-						<li>Esportes; rally, balonismo, corrida de aventura etc.;</li>
-						<li>Rastreamento de frotas, veículos e animais;</li>
-						<li>Agricultura de precisão;</li>
-						<li>Geodinâmica – movimento da crosta terrestre;</li>
-						<li>Topografia – definição de limites, áreas etc;</li>
-						<li>Coleta de dados de dados para Sistema de Informação Geográfica, dentre outras.</li>
-					</ul>
-				
+		<div class="area margemAbaixo w3-padding-16">
+			<div class="postit-tp1 w3-margin-top w3-animate-zoom w3-pale-yellow">
+				<h2 style='font-family: "Roboto", sans-serif; font-weight: bold;'>
+					<mark><span class="w3-padding">💡 Anote aí!</span></mark>
+				</h2>
+				<h4 class="w3-margin-top">As principais aplicações do GPS são:</h4>
+				<ul class="lista">
+					<li>Aviação: civil e militar;</li>
+					<li>Navegação: marítima e comercial;</li>
+					<li>Esportes; rally, balonismo, corrida de aventura etc.;</li>
+					<li>Rastreamento de frotas, veículos e animais;</li>
+					<li>Agricultura de precisão;</li>
+					<li>Geodinâmica – movimento da crosta terrestre;</li>
+					<li>Topografia – definição de limites, áreas etc;</li>
+					<li>Coleta de dados de dados para Sistema de Informação Geográfica, dentre outras.</li>
+				</ul>
 			</div>
 		</div>
 
@@ -603,7 +606,7 @@
 
 		<p>- Programas de processamento; </p>
 
-		<p> - Métodos e técnicas de levantamentos; <span id="w3-small">(Oliveira, 2011)</span>.</p>
+		<p> - Métodos e técnicas de levantamentos; <span class="w3-small">(Oliveira, 2011)</span>.</p>
 
 		<p> Atualmente há dois sistemas de GPS em operação: um norte-americano, o Navstar e um russo,
 			o Glonass, ambos começaram durante a Guerra Fria</p>
@@ -871,7 +874,7 @@
 
         <!-- BLOCO: Questoes para o caderno -->
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para responder no caderno:</h2>
 
                 <h3>1. O que são Sistemas de Informações Geográficas (SIGs)?</h3>

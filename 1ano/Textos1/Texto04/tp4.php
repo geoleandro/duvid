@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -47,6 +48,7 @@
 
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
     <title>1º ano - Texto 04</title>
@@ -424,18 +426,16 @@
             </p>
 
 
-            <h4 class="divCaixa1 w3-margin">E = representado a escala; </h4>
+            <p class="divCaixa1 w3-margin">E = representado a escala; </p>
 
 
-            <h4 class="divCaixa1 w3-margin">d = distância no mapa (ou papel); </h4>
+            <p class="divCaixa1 w3-margin">d = distância no mapa (ou papel); </p>
 
-            <h4 class="divCaixa1 w3-margin"> D = distância real na superfície terrestre;</h4>
+            <p class="divCaixa1 w3-margin"> D = distância real na superfície terrestre;</p>
             <p> Podemos estabelecer relações entre esses elementos, isto é, se tivermos dois deles, será
                 fácil descobrir o terceiro. </p>
 
-            <h4 class="divCaixa1 w3-margin"> D = E x d.
-
-            </h4>
+            <p class="divCaixa1 w3-margin"> D = E x d. </p>
 
 
             <p>Vários exercícios solicitam a transformação das unidades na resposta, ou seja, você deverá
@@ -446,14 +446,14 @@
             </p>
 
 
-            <h4 class="divCaixa1 w3-margin"> E = d/D </h4>
+            <p class="divCaixa1 w3-margin"> E = d/D </p>
 
 
             <p> Finalmente, para descobrir a distância no papel, dividimos a distância real pela escala.
             </p>
 
 
-            <h4 class="divCaixa1 w3-margin"> d = D/E </h4>
+            <p class="divCaixa1 w3-margin"> d = D/E </p>
 
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -765,10 +765,10 @@
                 com bastante riqueza de detalhes. </p>
 
             <p>Segundo o IBGE,</p>
-            <div class="w3-panel w3-leftbar w3-sand w3-padding">
-                “...a carta que representa uma área de extensão suficientemente restrita para que sua curvatura não
-                precise
-                ser levada em consideração, e que, em consequência, a escala possa ser considerada constante".
+            <div class="w3-panel w3-leftbar w3-sand w3-margin">
+                <p class="w3-sand">“...a carta que representa uma área de extensão suficientemente restrita para que
+                    sua curvatura não precise ser levada em consideração, e que, em consequência, a escala possa ser
+                    considerada constante".</p>
             </div>
 
             <p onclick="Aparecer('imagem13','citacao13')"><mark> Veja a figura de uma planta:</mark></p>
@@ -924,7 +924,7 @@
             <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Por que a escala grande tem um número
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Por que a escala grande tem um número
                     pequeno, enquanto a escala pequena tem um número grande? Isso confunde bastante a mente.</strong>
             </p>
 
@@ -939,7 +939,7 @@
                 número é muito alto, como 1 milhão, a escala é pequena porque foi reduzido 1 milhão de vezes, por isso é
                 chamado assim.</p>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Queria saber mais sobre a diferença
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Queria saber mais sobre a diferença
                     entre escala cartográfica e geográfica?</strong> </p>
 
             <p><span class="primeiraLetra">R:</span> A noção de escala possui, claramente, outras questões
@@ -960,7 +960,7 @@
 
 
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Tenho vontade de trabalhar com
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Tenho vontade de trabalhar com
                     arquitetura, vou ter que saber sobre escala?</strong> </p>
 
 
@@ -1002,17 +1002,12 @@
                 refeitórios, estacionamentos, vamos fazer uma planta da Escola na escala de 1:200. Como a escala é de 1:
                 200, logo: </p>
 
-            <div class="area ">
-                <div class="postit-tp4 w3-padding">
-                    <mark>
-                        D = d/E
-                    </mark><br><br>
-                    <mark>
-                        100 = d/200<br>
-                    </mark><br>
-                    <mark>
-                        D = 0.5 cm.</mark> Cada metro na realidade terá 0.5 cm no papel.
-                </div>
+            <div class="area">
+                <p class="divCaixa1 w3-margin">
+                    <strong>D = d/E</strong><br>
+                    100 = d/200<br>
+                    <strong>D = 0,5 cm.</strong> Cada metro na realidade terá 0,5 cm no papel.
+                </p>
             </div>
 
 

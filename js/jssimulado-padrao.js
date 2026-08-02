@@ -101,6 +101,11 @@ async function carregarSimulado(prova, qtd = 0, dif = '', tags = []) {
         const vestibular = match ? match[1].toUpperCase() : nomeArquivo;
         const ano        = match ? match[2] : '';
 
+        // Preenche card "Simulado" no painel direito (mesmo layout das questões)
+        if (typeof _preencherPainelEsquerdo === 'function') {
+            _preencherPainelEsquerdo(questoes, nomeArquivo);
+        }
+
         // Override de finalizar(): chama o original + salva resultado via API.
         // Funciona porque function declarations em escopo global viram window.X,
         // e proxima() resolve finalizar() via lookup de escopo global.
@@ -111,6 +116,11 @@ async function carregarSimulado(prova, qtd = 0, dif = '', tags = []) {
         };
 
         renderizarQuestao();
+
+        // Carrega assuntos mais errados no card de desempenho
+        if (typeof _carregarAssuntosMaisErrados === 'function') {
+            _carregarAssuntosMaisErrados();
+        }
 
         // Toasts de aviso quando filtros não retornam resultado.
         const _toast = (msg) => {

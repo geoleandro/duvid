@@ -6,9 +6,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Espaço geográfico, paisagem, território, lugar e região: os conceitos fundamentais da Geografia">
+    <meta name="description"
+        content="Espaço geográfico, paisagem, território, lugar e região: os conceitos fundamentais da Geografia">
     <meta property="og:title" content="Texto 01 - O Espaço Geográfico e os conceitos da Geografia">
-    <meta property="og:description" content="Como os cinco conceitos-chave da Geografia explicam as desigualdades do mundo atual">
+    <meta property="og:description"
+        content="Como os cinco conceitos-chave da Geografia explicam as desigualdades do mundo atual">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +18,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -32,6 +35,8 @@
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
         crossorigin="anonymous"></script>
 
+    <script>window.DUVID_FUNDO_BANNER = '/fotoIndex/tileset/fundo-natureza.webp';</script>
+
 
     <script src="/js/duvid-cache.js" defer></script>
     <script src="/js/duvid-db.js" defer></script>
@@ -44,9 +49,9 @@
     <script src="/estilos/jstextos-padrao.js" defer></script>
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
-
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
     <title></title>
@@ -107,7 +112,7 @@
                     </div>
                     <div class="w3-col s10 m11 w3-padding-small">
                         <b class="fontePixel">OUVIR AULA</b>
-                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                        <p class="w3-small w3-margin-0">Escute enquanto explora o material</p>
                     </div>
                 </div>
                 <audio controls style="width:100%; margin-top: 10px;">
@@ -149,7 +154,8 @@
 
 
 
-            <p> <span class="primeiraLetra">O</span>estudo da Geografia pode ser representado com o movimento de transformação. No início uma superfície terrestre sem modificações pelo homem.
+            <p> <span class="primeiraLetra">O</span>estudo da Geografia pode ser representado com o movimento de
+                transformação. No início uma superfície terrestre sem modificações pelo homem.
                 Com o passar do tempo, a capacidade de modificar a natureza se intensifica através do acréscimo de
                 objetos
                 fabricados pelos homens, como estradas, energia elétrica e indústrias. </p>
@@ -168,12 +174,14 @@
 
 
             <p>Nesta aula, veremos como a Geografia dispõe de verdadeiras ferramentas para explicar a
-                dinâmica social repleta de desigualdades através do <span class="termo"
-                    data-palavra="Espaço Geográfico"
+                dinâmica social repleta de desigualdades através do <span class="termo" data-palavra="Espaço Geográfico"
                     data-definicao="Conceito central da Geografia: conjunto indissociável de sistemas de objetos (naturais e fabricados pelo homem) e sistemas de ações humanas. É o palco onde a vida social acontece e se transforma."
                     onclick="Aparecer('imagem1','citacao1')">espaço geográfico</span>. </p>
 
-            <p><strong>Esta aula responde a uma pergunta mais específica que "o que é Geografia": como um pequeno conjunto de conceitos consegue explicar por que o mundo é organizado de forma tão desigual.</strong> Por que umas ruas têm asfalto e saneamento e outras não, por que alguns países controlam territórios de outros, por que o lugar onde você nasce pesa tanto no tipo de vida que você vai ter.</p>
+            <p><strong>Esta aula responde a uma pergunta mais específica que "o que é Geografia": como um pequeno
+                    conjunto de conceitos consegue explicar por que o mundo é organizado de forma tão desigual.</strong>
+                Por que umas ruas têm asfalto e saneamento e outras não, por que alguns países controlam territórios de
+                outros, por que o lugar onde você nasce pesa tanto no tipo de vida que você vai ter.</p>
 
             <img id="imagem1" src="tp1F01.png" alt="Salvador, Bahia" class="w3-mobile" style=display:none>
 
@@ -226,7 +234,8 @@
                     significado neste
                     momento) sobre o que acha que é Geografia.
                 </p>
-                <p class="w3-pale-green">Guarde essa lista: vamos retomá-la lá no final da aula, para ver o quanto sua ideia de Geografia mudou.</p>
+                <p class="w3-pale-green">Guarde essa lista: vamos retomá-la lá no final da aula, para ver o quanto sua
+                    ideia de Geografia mudou.</p>
             </div>
 
 
@@ -304,8 +313,7 @@
                     Geografia
                     estuda
                     tudo isso, mas não de forma desorganizada! </p>
-                <p class="w3-pale-yellow">Ela utiliza ferramentas chamadas <span class="termo"
-                        data-palavra="Conceito"
+                <p class="w3-pale-yellow">Ela utiliza ferramentas chamadas <span class="termo" data-palavra="Conceito"
                         data-definicao="Uma ideia organizadora que a ciência usa para nomear e explicar um recorte da realidade. Na Geografia, conceitos como espaço, lugar, paisagem, território e região funcionam como ferramentas para investigar o mundo.">conceitos</span>.
                     Esses conceitos estão destacados acima.</p>
                 <p class="w3-pale-yellow">Elabore em seu caderno uma pergunta para cada um deles. Por exemplo:</p>
@@ -875,13 +883,24 @@
 
             <div class="w3-light-blue w3-padding">
 
-            <h2>O que mudou no seu olhar</h2>
+                <h2>O que mudou no seu olhar</h2>
 
-            <p>Pegue o caderno e releia as 5 palavras que você escreveu lá no início, quando ainda não sabia exatamente o que a Geografia estuda. Compare com o que você aprendeu agora: a Geografia não estuda "um pouco de tudo" de forma solta, ela usa um conjunto de conceitos organizados (espaço geográfico, paisagem, território, lugar e região) para explicar por que o mundo é distribuído de forma tão desigual.</p>
+                <p>Pegue o caderno e releia as 5 palavras que você escreveu lá no início, quando ainda não sabia
+                    exatamente o que a Geografia estuda. Compare com o que você aprendeu agora: a Geografia não estuda
+                    "um pouco de tudo" de forma solta, ela usa um conjunto de conceitos organizados (espaço geográfico,
+                    paisagem, território, lugar e região) para explicar por que o mundo é distribuído de forma tão
+                    desigual.</p>
 
-            <p>Cada conceito olha para o mesmo espaço geográfico de um ângulo diferente: a paisagem é o que os sentidos captam; o território é o espaço marcado por poder e fronteiras; o lugar é onde vivemos de forma mais próxima e afetiva; a região é o espaço recortado por um critério específico. Juntos, eles formam a caixa de ferramentas que você vai usar durante todo o ensino médio para entender desde o bairro onde mora até os conflitos internacionais que aparecem no noticiário.</p>
+                <p>Cada conceito olha para o mesmo espaço geográfico de um ângulo diferente: a paisagem é o que os
+                    sentidos captam; o território é o espaço marcado por poder e fronteiras; o lugar é onde vivemos de
+                    forma mais próxima e afetiva; a região é o espaço recortado por um critério específico. Juntos, eles
+                    formam a caixa de ferramentas que você vai usar durante todo o ensino médio para entender desde o
+                    bairro onde mora até os conflitos internacionais que aparecem no noticiário.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> espaço geográfico (sistemas de objetos + sistemas de ações); paisagem (o que os sentidos captam, natural ou antrópica); território (espaço com fronteiras e relações de poder); lugar (espaço de vivência e pertencimento); região (espaço recortado por um critério); técnica (meios que alteram a natureza e constroem o espaço).</p>
+                <p><strong>Resumo dos conceitos:</strong> espaço geográfico (sistemas de objetos + sistemas de ações);
+                    paisagem (o que os sentidos captam, natural ou antrópica); território (espaço com fronteiras e
+                    relações de poder); lugar (espaço de vivência e pertencimento); região (espaço recortado por um
+                    critério); técnica (meios que alteram a natureza e constroem o espaço).</p>
 
             </div>
 
@@ -932,7 +951,7 @@
         </div>
 
 
- <!-- TÓPICO 13: FINALIZAR -->
+        <!-- TÓPICO 13: FINALIZAR -->
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>

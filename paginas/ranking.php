@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
@@ -29,25 +30,20 @@
 
     /* ── Wrapper principal ── */
     .rk-wrap {
-        max-width: 680px;
-        margin: 88px auto 80px;
-        padding: 0 12px;
+        max-width: 1376px;
+        margin: 0 auto;
+        padding: 0 48px 60px;
+        box-sizing: border-box;
     }
+    @media (max-width: 1024px) { .rk-wrap { padding: 0 24px 48px; } }
+    @media (max-width: 640px)  { .rk-wrap { padding: 0 12px 40px; } }
 
-    /* ── Cabeçalho da página ── */
-    .rk-header {
+    /* ── Subtítulo dinâmico ── */
+    .rk-subtitulo {
         text-align: center;
-        margin-bottom: 20px;
-    }
-    .rk-header h2 {
-        margin: 0 0 4px;
-        font-size: 1.7rem;
-        letter-spacing: .5px;
-    }
-    .rk-header p {
-        margin: 0;
         color: #666;
         font-size: .88rem;
+        margin: 0 0 16px;
     }
 
     /* ── Abas ── */
@@ -296,14 +292,22 @@
 
     <?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <main class="rk-main">
+    <main class="texto-layout">
+
+        <!-- Banner hero -->
+        <div class="texto-hero" style="background-image:url('/fotoIndex/tileset/fundo.webp');">
+            <div class="texto-hero-overlay">
+                <div class="texto-hero-badges">
+                    <span class="texto-badge texto-badge-green">🏆 Ranking</span>
+                </div>
+                <h1 class="texto-hero-title">Ranking Duvid</h1>
+            </div>
+        </div>
+
     <div class="rk-wrap">
 
-        <!-- Cabeçalho -->
-        <div class="rk-header">
-            <h2 class="w3-text-green"><i class="fa-solid fa-trophy"></i> Ranking</h2>
-            <p id="rk-subtitulo">Carregando…</p>
-        </div>
+        <!-- Subtítulo dinâmico -->
+        <p id="rk-subtitulo" class="rk-subtitulo">Carregando…</p>
 
         <!-- Card do aluno logado (aparece quando há dados) -->
         <div id="rk-minha-pos" style="display:none"></div>

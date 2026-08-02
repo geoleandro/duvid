@@ -1382,23 +1382,7 @@ body.dark-mode .duvid-painel-dica {
   transition: all 0.3s ease;
 }
 
-/* Painel de Pontos "Slim" (Fino) */
-#painel-pontos {
-  background-color: rgba(255, 255, 255, 0.15) !important;
-  backdrop-filter: blur(4px);
-  /* Padding reduzido: 2px em cima/baixo e 10px nas laterais */
-  padding: 2px 10px !important;
-  /* Margem zero para não esticar a Navbar */
-  margin: 0 10px 0 0 !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px;
-  /* Bordas bem arredondadas estilo pílula */
-  border: 1px solid rgba(255, 255, 255, 0.3) !important;
-  height: 32px;
-  /* Altura fixa para garantir que a barra não engorde */
-}
+/* #painel-pontos — estilos consolidados em header.css */
 
 /* Ajuste do número dentro do painel */
 #notaFixa {

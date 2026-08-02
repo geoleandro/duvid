@@ -93,6 +93,34 @@ Status usados: Ideia | Próxima | Bolsista | Feito | Bloqueado
 
 ## Backlog — Features Futuras (adicionar ao Notion)
 
+### 🤝 Card de Ranking — versão colaborativa (mockup aprovado)
+- **Meta da Turma**: barra de progresso coletivo no topo do card
+  - Soma o XP de todos os membros da turma
+  - Níveis: Bronze 10k → Prata 25k → Ouro 50k → Lenda 100k
+  - Texto: "Faltam X XP para o Nível Bronze!"
+  - Barra verde com % de progresso
+- **Atividade Recente**: feed de eventos em tempo real abaixo do ranking
+  - "Mariana Silva acabou de concluir Climatologia +15 XP para a turma!"
+  - "João Pedro iniciou Geopolítica"
+  - Ponto verde = concluiu, cinza = iniciou
+  - Dados de `progresso_aulas` JOIN `aulas` JOIN `alunos` WHERE turma
+  - Novo endpoint: `GET /api/turma-feed.php?turma=CODE`
+- Só aparece para alunos com turma (não para LIVRE)
+
+### 📊 Painel do Aluno (nova página)
+- URL sugerida: `/painel.php` ou `/aluno/painel.php`
+- Dados 100% disponíveis no banco atual (`respostas_aulas`)
+- Seções planejadas:
+  - **Visão geral**: média geral de acertos, total de questões respondidas, aulas concluídas
+  - **Desempenho por aula**: lista ordenada por % de acerto (destaca as mais difíceis)
+  - **Histórico recente**: últimas 5 aulas pelo `atualizado_em`
+  - **Aulas em risco**: tentadas mas não aprovadas (acertos < 60% com tentativas > 1)
+  - **Assuntos mais errados**: via `erradas_json` (já implementado no card de questões)
+  - **Badges/conquistas**: baseado em tentativas, acertos, sequência de aulas
+- Gráficos: Chart.js (doughnut geral + bar por aula)
+- Sem migration necessária — usa só o que já existe
+- Prerequisito: definir layout (sidebar igual às outras páginas ou full-width dashboard)
+
 ### 🎓 Certificados por Bloco de Aulas
 - Cada módulo (Natureza/Brasil/Mundo) será dividido em blocos temáticos (ex: aulas 1–5, 6–10…)
 - Ao concluir um bloco → aluno ganha certificado validado + nota

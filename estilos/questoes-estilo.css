@@ -1,0 +1,1410 @@
+/* ════════════════════════════════════════════════════════════════
+   questoes-estilo.css — Clean Pixel / GeoExplorer System
+   SCREEN_39 (Desktop) · SCREEN_37 (Mobile)
+   Página de Questões — Duvid Geografia
+   ════════════════════════════════════════════════════════════════ */
+
+/* ── Fix sticky (mesmo padrão do texto-estilo.css) ───────────────── */
+html { overflow-x: clip !important; }
+body { overflow-x: clip !important; }
+
+/* ── Main layout ─────────────────────────────────────────────────── */
+/* NÃO usar margin shorthand com !important — quebraria o margin-left
+   da sidebar (body:has(#sidebar-duvid) main { margin-left:200px }).
+   Mesmo padrão do texto-estilo.css.                                  */
+main.questoes-layout {
+    background: transparent !important;
+    box-shadow: none !important;
+    max-width: none !important;
+    width: auto !important;
+    margin-top: 0 !important;
+    margin-right: 32px !important;
+    margin-bottom: 64px !important;
+    padding: 56px 32px 80px !important;
+    min-height: calc(100vh - 56px) !important;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Garante recuo do sidebar — ModeloCss.css define `main { margin: 70px auto }`
+   que seta margin-left:auto. Aqui sobrescrevemos explicitamente com !important
+   para evitar dependência da ordem de carregamento de sidebar.css.             */
+body:has(#sidebar-duvid) main.questoes-layout {
+    margin-left: 200px !important;
+}
+@media (max-width: 800px) {
+    body:has(#sidebar-duvid) main.questoes-layout {
+        margin-left: 0 !important;
+    }
+}
+
+/* Altura da sidebar nas questões é gerida pelo JS em sidebar.php */
+
+/* ── Grid: conteúdo + painel direito ────────────────────────────── */
+.quest-body-row {
+    display: grid;
+    grid-template-columns: 1fr 260px;
+    gap: 24px;
+    align-items: start;
+    flex: 1;
+    max-width: 1004px;
+    margin: 32px auto 0;
+}
+
+/* ── Coluna central ──────────────────────────────────────────────── */
+.quest-center {
+    min-width: 0;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   PAINEL LATERAL DIREITO (sticky, igual ao texto-painel)
+   ════════════════════════════════════════════════════════════════════ */
+.quest-side-panel {
+    width: 260px;
+    position: sticky;
+    top: 80px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    overflow: visible;
+}
+
+/* Card base do painel */
+.qp-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    padding: 20px 22px;
+}
+
+/* Card muted (slots futuros) */
+.qp-card--muted {
+    background: #f8f9fa;
+    border-style: dashed;
+    box-shadow: none;
+}
+
+/* Label do card */
+.qp-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 12px;
+}
+
+/* Slot vazio (placeholder para features futuras) */
+.qp-slot-vazio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.qp-slot-vazio i {
+    font-size: 1.25rem;
+    color: #d0d0d0;
+}
+
+.qp-slot-vazio span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: #bdbdbd;
+}
+
+/* Info da missão (preenchida pelo JS) */
+#quest-info-aula {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.82rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.qp-empty-text {
+    color: #bdbdbd;
+    font-size: 0.78rem;
+    margin: 0;
+}
+
+/* ── Missão: vestibular + total ──────────────────────────────────── */
+.qp-missao-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+
+.qp-vestibular {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: #2e7d32;
+}
+
+.qp-total {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    color: #9e9e9e;
+}
+
+/* ── Divisor ─────────────────────────────────────────────────────── */
+.qp-placar-divider {
+    height: 1px;
+    background: #f0f0f0;
+    margin: 14px 0;
+}
+
+/* ── Placar ao vivo ──────────────────────────────────────────────── */
+.qp-placar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.qp-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 10px 6px;
+    transition: background 0.2s ease;
+}
+
+.qp-stat-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.qp-stat-val {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #1c1b1b;
+    line-height: 1.1;
+}
+
+.qp-stat-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Combo ativo — destaque */
+.qp-stat--combo-ativo {
+    background: #fff9e6;
+    border: 1px solid #ffc107;
+}
+
+.qp-stat--combo-ativo .qp-stat-val {
+    color: #e67e00;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD DE PROGRESSO (dentro do painel direito)
+   ════════════════════════════════════════════════════════════════════ */
+.qp-card--progress {
+    background: #ffffff;
+}
+
+.quest-progress-track {
+    width: 100%;
+    background: #eeeeee;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#barra-progresso-simulado {
+    height: 8px !important;
+    background: #2e7d32 !important;
+    border-radius: 4px !important;
+    transition: width 0.5s ease !important;
+    width: 0%;
+    display: block;
+}
+
+.qp-vidas-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD DA QUESTÃO
+   ════════════════════════════════════════════════════════════════════ */
+.question-card {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    padding: 32px;
+}
+
+/* ── Vidas (corações) — ficam na barra de progresso, não no card ─── */
+.duvid-coracoes-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.coracao-questao {
+    font-size: 1.25rem !important;
+    display: inline-block;
+    transition: all 0.4s ease;
+}
+
+.coracao-questao.perdido {
+    filter: grayscale(1) !important;
+    opacity: 0.2 !important;
+    transform: scale(0.8) !important;
+}
+
+.aviso-vidas {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #c62828;
+    margin-left: 6px;
+}
+
+/* ── Cabeçalho: "Questão X" + badge de nível ─────────────────────── */
+.duvid-header-questao {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 14px !important;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.duvid-titulo-questao {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: #1c1b1b !important;
+    text-transform: none !important;
+    letter-spacing: 0 !important;
+    margin: 0 !important;
+}
+
+/* ── Badges de dificuldade ───────────────────────────────────────── */
+.duvid-badge-dificuldade {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.72rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    border-radius: 8px !important;
+    padding: 4px 12px !important;
+    letter-spacing: 0.04em !important;
+    border: none !important;
+}
+
+.dificuldade-facil {
+    background: #2e7d32 !important;
+    color: #ffffff !important;
+}
+
+.dificuldade-medio {
+    background: #e67e22 !important;
+    color: #ffffff !important;
+}
+
+.dificuldade-dificil {
+    background: #c62828 !important;
+    color: #ffffff !important;
+}
+
+/* ── Instituição ─────────────────────────────────────────────────── */
+.duvid-info-instituicao {
+    margin-bottom: 10px;
+}
+
+.duvid-info-instituicao span {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.78rem !important;
+    color: #9e9e9e !important;
+    font-weight: 600 !important;
+}
+
+/* ── Tags ────────────────────────────────────────────────────────── */
+.container-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.duvid-tag-assunto {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+    font-size: 0.73rem;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+/* ── Bloco de apoio (citação / texto de contexto) ────────────────── */
+.duvid-bloco-apoio {
+    background: #fdf5e6 !important;
+    border: none !important;
+    border-left: 4px solid #2e7d32 !important;
+    border-radius: 0 12px 12px 0 !important;
+    padding: 16px 20px !important;
+    margin: 0 0 20px !important;
+}
+
+.duvid-texto-citacao {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    color: #333;
+    white-space: pre-line;
+}
+
+.duvid-fonte-texto {
+    margin-top: 8px;
+    font-size: 0.78rem;
+    color: #9e9e9e;
+    font-style: italic;
+}
+
+/* ── Imagem de apoio ─────────────────────────────────────────────── */
+.duvid-img-container {
+    margin: 16px 0;
+}
+
+.duvid-img-principal {
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+    margin: 0 auto;
+}
+
+.duvid-legenda-box {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.duvid-legenda-texto {
+    font-size: 0.78rem;
+    color: #9e9e9e;
+    font-style: italic;
+    margin: 0;
+}
+
+/* ── Enunciado da questão ────────────────────────────────────────── */
+.quest-pergunta,
+#container-questao .w3-large.w3-padding {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 1rem !important;
+    line-height: 1.75 !important;
+    color: #1c1b1b !important;
+    margin: 16px 0 24px !important;
+    padding: 0 !important;
+    white-space: pre-line;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   ALTERNATIVAS
+   ════════════════════════════════════════════════════════════════════ */
+.grupo-respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+/* Remove borda esquerda colorida do ModeloCss */
+.item-resposta {
+    border-left: none !important;
+    transition: none !important;
+    margin-bottom: 0 !important;
+}
+
+/* Oculta o radio nativo */
+.radio-duvid {
+    display: none !important;
+}
+
+/* Card da alternativa */
+.card-opcao {
+    display: flex !important;
+    align-items: center !important;
+    gap: 14px !important;
+    padding: 14px 16px !important;
+    border-radius: 16px !important;
+    border: 1.5px solid #e0e0e0 !important;
+    background: #ffffff !important;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease !important;
+    font-size: 0.92rem !important;
+    color: #1c1b1b !important;
+    min-height: 56px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.card-opcao:hover {
+    background: #f8f9fa !important;
+    border-color: #bdbdbd !important;
+}
+
+/* Estado selecionado */
+.radio-duvid:checked + .card-opcao {
+    border: 2px solid #2e7d32 !important;
+    background: #e8f5e9 !important;
+}
+
+.radio-duvid:checked + .card-opcao .option-badge {
+    background: #2e7d32 !important;
+    color: #fff !important;
+}
+
+/* Círculo com a letra (a, b, c…) */
+.option-badge {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f3f4f5;
+    color: #444746;
+    font-weight: 700;
+    font-size: 0.85rem;
+    font-family: 'Montserrat', sans-serif;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+/* Texto da alternativa */
+.option-text {
+    flex: 1;
+    line-height: 1.5;
+}
+
+/* Pós-verificação — correto (aplicado via JS) */
+.card-opcao.correta-visual {
+    border: 2px solid #4caf50 !important;
+    background: #e8f5e9 !important;
+}
+
+.card-opcao.correta-visual .option-badge {
+    background: #4caf50 !important;
+    color: #fff !important;
+}
+
+/* ── Botão de dica ───────────────────────────────────────────────── */
+.btn-dica-wrapper {
+    text-align: center;
+    margin: 16px 0;
+}
+
+/* Override do botão W3.CSS de dica */
+.w3-button.w3-light-grey.w3-text-teal.w3-round-large.w3-small.w3-border {
+    background: #f8f9fa !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 20px !important;
+    color: #2e7d32 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.82rem !important;
+    font-weight: 700 !important;
+    padding: 8px 20px !important;
+}
+
+/* ── Painel de dica (inline) ─────────────────────────────────────── */
+.duvid-painel-dica {
+    background: #fdf5e6 !important;
+    border: none !important;
+    border-left: 4px solid #2e7d32 !important;
+    border-radius: 16px !important;
+    padding: 16px 20px !important;
+    margin: 12px 0 !important;
+    box-shadow: none !important;
+}
+
+.duvid-dica-titulo {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.85rem !important;
+    font-weight: 700 !important;
+    color: #2e7d32 !important;
+    margin: 0 0 8px !important;
+}
+
+.duvid-dica-fechar {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #9e9e9e;
+    line-height: 1;
+    padding: 0;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   BOTÃO VERIFICAR RESPOSTA
+   ════════════════════════════════════════════════════════════════════ */
+.btn-acao-duvid,
+#btn-verificar {
+    display: block !important;
+    width: fit-content !important;
+    min-width: 240px !important;
+    margin: 24px auto 0 !important;
+    padding: 16px 40px !important;
+    background: #1b5e20 !important;
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 0.95rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.06em !important;
+    text-transform: uppercase !important;
+    border: none !important;
+    border-radius: 40px !important;
+    box-shadow: 0 4px 0 #0e3512 !important;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease !important;
+}
+
+.btn-acao-duvid:hover,
+#btn-verificar:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 5px 0 #0e3512 !important;
+    background: #1b5e20 !important;
+    color: #fff !important;
+}
+
+.btn-acao-duvid:active,
+#btn-verificar:active {
+    transform: translateY(3px) !important;
+    box-shadow: 0 1px 0 #0e3512 !important;
+}
+
+.btn-acao-duvid:disabled,
+#btn-verificar:disabled {
+    opacity: 0.45 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+    box-shadow: 0 4px 0 #0e3512 !important;
+}
+
+/* Anula o w3-amber que o código legado aplica no botão de erro */
+.btn-acao-duvid.w3-amber {
+    background: #1b5e20 !important;
+    color: #ffffff !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   FEEDBACK INLINE (substitui #barra-feedback fixo no rodapé)
+   ════════════════════════════════════════════════════════════════════ */
+.quest-feedback {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px 24px;
+    display: none;
+}
+
+.quest-feedback.visible {
+    display: block;
+    animation: feedbackEntrar 0.35s ease forwards;
+}
+
+@keyframes feedbackEntrar {
+    from { opacity: 0; transform: translateY(10px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.quest-feedback.acerto {
+    background: #e8f5e9;
+    border: 1px solid #a5d6a7;
+}
+
+.quest-feedback.erro {
+    background: #fff8f0;
+    border: 1px solid #ffcc80;
+}
+
+.quest-feedback-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quest-feedback.acerto .quest-feedback-title { color: #2e7d32; }
+.quest-feedback.erro   .quest-feedback-title { color: #e67e22; }
+
+.quest-feedback-body {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #444;
+}
+
+/* Botão Continuar (dentro do feedback inline) */
+.btn-continuar {
+    display: block;
+    width: fit-content;
+    min-width: 200px;
+    margin: 16px auto 0;
+    padding: 14px 36px;
+    background: #2e7d32;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 4px 0 #1a4d1e;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.btn-continuar:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 0 #1a4d1e;
+}
+
+.btn-continuar:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #1a4d1e;
+}
+
+/* ── Combo badge ─────────────────────────────────────────────────── */
+.duvid-combo-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff9e6;
+    border: 1px solid #ffc107;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.82rem;
+    font-weight: 700;
+    color: #856404;
+    margin-bottom: 10px;
+}
+
+.duvid-combo-bonus {
+    color: #2e7d32;
+    font-weight: 800;
+}
+
+/* ── Comentário do professor (acerto) ────────────────────────────── */
+.comentario-box {
+    font-size: 0.9rem;
+    line-height: 1.65;
+    color: #333;
+}
+
+.comentario-box p { margin: 0 0 8px; }
+
+/* ── Imagem do comentário ────────────────────────────────────────── */
+.duvid-container-comentario { margin-top: 12px; }
+.duvid-img-comentario {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ── Botão "Melhorar questão" ────────────────────────────────────── */
+.btn-melhorar-aula {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.78rem;
+    color: #9e9e9e;
+    cursor: pointer;
+    margin-top: 12px;
+    transition: all 0.2s ease;
+}
+
+.btn-melhorar-aula:hover {
+    border-color: #bdbdbd;
+    color: #555;
+}
+
+/* Esconde o #barra-feedback legado (bottom-fixed) */
+#barra-feedback {
+    display: none !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   RESULTADO FINAL
+   ════════════════════════════════════════════════════════════════════ */
+#resultado-final {
+    background: #ffffff;
+    border-radius: 24px;
+    border: 1px solid #e0e0e0;
+    padding: 48px 32px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+}
+
+#resultado-final h2 {
+    font-family: 'VT323', monospace;
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 8px;
+}
+
+#placar-final {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #333;
+    margin: 16px 0 24px;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   DARK MODE
+   ════════════════════════════════════════════════════════════════════ */
+
+/* ── Cards principais ────────────────────────────────────────────── */
+body.dark-mode .question-card,
+body.dark-mode .qp-card,
+body.dark-mode .qp-card--progress,
+body.dark-mode #resultado-final {
+    background: #1e1e1e !important;
+    border-color: #333 !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3) !important;
+}
+
+body.dark-mode .qp-card--muted {
+    background: #181818 !important;
+    border-color: #333 !important;
+}
+
+/* ── Painel labels / textos ──────────────────────────────────────── */
+body.dark-mode .qp-vestibular { color: #66bb6a !important; }
+body.dark-mode .qp-total      { color: #555 !important; }
+body.dark-mode .qp-placar-divider { background: #2a2a2a !important; }
+body.dark-mode .qp-stat       { background: #252525 !important; }
+body.dark-mode .qp-stat-val   { color: #e0e0e0 !important; }
+body.dark-mode .qp-stat-label { color: #555 !important; }
+body.dark-mode .qp-stat--combo-ativo {
+    background: #1f1800 !important;
+    border-color: #856404 !important;
+}
+body.dark-mode .qp-stat--combo-ativo .qp-stat-val { color: #d4a017 !important; }
+
+body.dark-mode .qp-label {
+    color: #666 !important;
+}
+
+body.dark-mode .qp-empty-text {
+    color: #555 !important;
+}
+
+body.dark-mode #quest-info-aula {
+    color: #bbb !important;
+}
+
+body.dark-mode .qp-slot-vazio i {
+    color: #444 !important;
+}
+
+body.dark-mode .qp-slot-vazio span {
+    color: #555 !important;
+}
+
+/* ── Barra de progresso ──────────────────────────────────────────── */
+body.dark-mode .quest-progress-track {
+    background: #333 !important;
+}
+
+/* ── Título e texto do card de questão ───────────────────────────── */
+body.dark-mode .duvid-titulo-questao {
+    color: #e8e8e8 !important;
+}
+
+body.dark-mode .duvid-info-instituicao span {
+    color: #666 !important;
+}
+
+body.dark-mode .quest-pergunta,
+body.dark-mode #container-questao .w3-large.w3-padding {
+    color: #e0e0e0 !important;
+}
+
+/* ── Tags ────────────────────────────────────────────────────────── */
+body.dark-mode .duvid-tag-assunto {
+    background: #1a2e1a !important;
+    color: #66bb6a !important;
+    border-color: #2e4d2e !important;
+}
+
+/* ── Bloco de apoio / citação ────────────────────────────────────── */
+body.dark-mode .duvid-bloco-apoio {
+    background: #1c1a12 !important;
+    border-left-color: #4caf50 !important;
+}
+
+body.dark-mode .duvid-texto-citacao {
+    color: #ccc !important;
+}
+
+body.dark-mode .duvid-fonte-texto {
+    color: #666 !important;
+}
+
+/* ── Alternativas ────────────────────────────────────────────────── */
+body.dark-mode .card-opcao {
+    background: #252525 !important;
+    border-color: #3a3a3a !important;
+    color: #e0e0e0 !important;
+}
+
+body.dark-mode .card-opcao:hover {
+    background: #2e2e2e !important;
+    border-color: #555 !important;
+}
+
+body.dark-mode .option-badge {
+    background: #333 !important;
+    color: #bbb !important;
+}
+
+body.dark-mode .radio-duvid:checked + .card-opcao {
+    background: #1a2e1a !important;
+    border-color: #4caf50 !important;
+}
+
+body.dark-mode .radio-duvid:checked + .card-opcao .option-badge {
+    background: #2e7d32 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .card-opcao.correta-visual {
+    background: #1a2e1a !important;
+    border-color: #4caf50 !important;
+}
+
+body.dark-mode .card-opcao.correta-visual .option-badge {
+    background: #4caf50 !important;
+    color: #fff !important;
+}
+
+/* ── Botão de dica ───────────────────────────────────────────────── */
+body.dark-mode .w3-button.w3-light-grey.w3-text-teal.w3-round-large.w3-small.w3-border {
+    background: #252525 !important;
+    border-color: #3a3a3a !important;
+    color: #66bb6a !important;
+}
+
+body.dark-mode .duvid-painel-dica {
+    background: #1e1e1e !important;
+    border-color: #333 !important;
+    border-left-color: #4caf50 !important;
+}
+
+/* ── Feedback inline ─────────────────────────────────────────────── */
+body.dark-mode .quest-feedback.acerto {
+    background: #0f1f0f !important;
+    border-color: #2e7d32 !important;
+}
+
+body.dark-mode .quest-feedback.erro {
+    background: #1f1208 !important;
+    border-color: #e67e22 !important;
+}
+
+body.dark-mode .quest-feedback-body {
+    color: #ccc !important;
+}
+
+body.dark-mode .comentario-box {
+    color: #ccc !important;
+}
+
+/* ── Combo badge ─────────────────────────────────────────────────── */
+body.dark-mode .duvid-combo-badge {
+    background: #1f1800 !important;
+    border-color: #856404 !important;
+    color: #d4a017 !important;
+}
+
+/* ── Botão Melhorar questão ──────────────────────────────────────── */
+body.dark-mode .btn-melhorar-aula {
+    background: #252525 !important;
+    border-color: #3a3a3a !important;
+    color: #666 !important;
+}
+
+body.dark-mode .btn-melhorar-aula:hover {
+    border-color: #555 !important;
+    color: #999 !important;
+}
+
+/* ── Resultado final ─────────────────────────────────────────────── */
+body.dark-mode #placar-final {
+    color: #e0e0e0 !important;
+}
+
+/* ── Aviso de vidas ──────────────────────────────────────────────── */
+body.dark-mode .aviso-vidas {
+    color: #ef5350 !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   TABLET (≤1024px) — painel vira faixa horizontal acima da questão
+   ════════════════════════════════════════════════════════════════════ */
+@media (max-width: 1024px) {
+    main.questoes-layout {
+        margin-right: 16px !important;
+        padding: 24px 16px 60px !important;
+        max-width: none !important;
+    }
+
+    .quest-body-row {
+        grid-template-columns: 1fr;
+    }
+
+    /* Faixa horizontal com scroll */
+    .quest-side-panel {
+        width: 100%;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        gap: 10px;
+        order: -1;
+        padding: 2px 0 6px;
+    }
+    .quest-side-panel::-webkit-scrollbar { display: none; }
+
+    .qp-card {
+        flex-shrink: 0;
+        min-width: 150px;
+    }
+
+    /* Placar em linha no tablet */
+    .qp-placar {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* Slots "Em breve" somem no tablet */
+    .qp-card--muted {
+        display: none;
+    }
+
+    /* Card de controles aparece quando sidebar some (≤900px) */
+    .qp-card--ctrl-mobile {
+        display: flex;
+        flex-direction: column;
+        min-width: 100px;
+    }
+}
+
+/* ≥1025px: card de controles fica oculto (sidebar tem os botões) */
+@media (min-width: 1025px) {
+    .qp-card--ctrl-mobile { display: none; }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   MOBILE (≤600px)
+   ════════════════════════════════════════════════════════════════════ */
+@media (max-width: 600px) {
+    main.questoes-layout {
+        padding: 72px 12px 60px !important; /* 56px navbar + 16px respiro */
+    }
+
+    /* Painel lateral vira coluna vertical no mobile */
+    .quest-side-panel {
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow-x: visible;
+    }
+
+    .qp-card {
+        min-width: unset;
+        width: 100%;
+        padding: 12px 14px;
+    }
+
+    /* Placar 2x2 no mobile */
+    .qp-placar {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .question-card {
+        padding: 20px !important;
+        border-radius: 16px !important;
+    }
+
+    .card-opcao {
+        padding: 12px 14px !important;
+        font-size: 0.88rem !important;
+    }
+
+    .option-badge {
+        width: 28px;
+        height: 28px;
+        font-size: 0.78rem;
+    }
+
+    .btn-acao-duvid,
+    #btn-verificar {
+        padding: 14px !important;
+        font-size: 0.88rem !important;
+    }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD DE CONTROLES MOBILE (Som + Dark Mode)
+   ════════════════════════════════════════════════════════════════════ */
+.qp-card--ctrl-mobile {
+    display: none; /* oculto no desktop — sidebar tem esses controles */
+}
+.qp-ctrl-row {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+    align-items: center;
+}
+.qp-ctrl-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 10px;
+    border: 1.5px solid #e0e0e0;
+    background: #fff;
+    color: #555;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    transition: background .15s, color .15s, border-color .15s;
+}
+.qp-ctrl-btn:hover {
+    background: #e8f5e9;
+    color: #2e7d32;
+    border-color: #a5d6a7;
+}
+body.dark-mode .qp-ctrl-btn {
+    background: #2a2a2a;
+    border-color: #444;
+    color: #ccc;
+}
+
+/* Esconde A+/A- da sidebar esquerda nas páginas de questões
+   (o painel direito já tem o controle de fonte) */
+body:has(main.questoes-layout) .font-controls {
+    display: none !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   FIX: ModeloCss tem #container-questao p, label { font-size: inherit !important }
+   com especificidade (1,0,1) que bloqueia o rem. Aqui usamos (1,1,1)
+   para forçar rem e deixar A+/A- funcionar no enunciado e alternativas.
+   ════════════════════════════════════════════════════════════════════ */
+#container-questao p.quest-pergunta {
+    font-size: 1rem !important;
+    line-height: 1.75 !important;
+}
+#container-questao label.card-opcao {
+    font-size: 0.92rem !important;
+}
+@media (max-width: 640px) {
+    #container-questao label.card-opcao {
+        font-size: 0.88rem !important;
+    }
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD CONTROLE DE FONTE (painel direito das questões)
+   ════════════════════════════════════════════════════════════════════ */
+.qp-card--font {
+    background: #f8f9fa;
+    border: 1px solid #e8e8e8;
+}
+.qp-font-row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+}
+.qp-font-btn {
+    background: #fff;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    color: #555;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding: 6px 0;
+    flex: 1;
+    transition: background .15s, color .15s, border-color .15s;
+}
+.qp-font-btn:hover {
+    background: #e8f5e9;
+    border-color: #a5d6a7;
+    color: #2e7d32;
+}
+.qp-font-btn--plus {
+    border-color: #4caf50;
+    color: #2e7d32;
+}
+.qp-font-pct {
+    font-size: 0.7rem;
+    color: #9e9e9e;
+    font-family: 'Montserrat', sans-serif;
+    min-width: 34px;
+    text-align: center;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD DESEMPENHO
+   ════════════════════════════════════════════════════════════════════ */
+
+/* Cabeçalho: "DESEMPENHO" + pill "85% ACERTO" */
+.qp-desemp-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.qp-desemp-header .qp-label { margin-bottom: 0; color: #2e7d32; }
+
+.qp-desemp-pill {
+    background: #4caf50;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    line-height: 1.3;
+    text-align: center;
+    white-space: nowrap;
+    transition: background .2s;
+}
+.qp-desemp-pill--orange { background: #ff9800; }
+.qp-desemp-pill--red    { background: #e57373; }
+
+/* Linha do meio: doughnut + evolução lado a lado */
+.qp-desemp-mid {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+/* Wrapper do doughnut com % centralizado via overlay */
+.qp-desemp-chart-wrap {
+    flex-shrink: 0;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qp-desemp-chart-wrap canvas {
+    width: 90px !important;
+    height: 90px !important;
+}
+/* Texto % dentro do círculo */
+.qp-desemp-pct-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #1c1b1b;
+    pointer-events: none;
+    line-height: 1;
+}
+
+/* Seção EVOLUÇÃO */
+.qp-desemp-evo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.qp-desemp-sublabel {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 700;
+    color: #9e9e9e;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+.qp-evolucao-bars {
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    height: 44px;
+}
+.qp-evo-bar {
+    flex: 1;
+    background: #a5d6a7;
+    border-radius: 3px 3px 0 0;
+    min-height: 4px;
+    transition: height .4s ease;
+}
+.qp-evo-bar--active { background: #2e7d32; }
+
+/* Heatmap — retângulos largos em 2 linhas */
+.qp-desemp-heatmap-wrap { margin-top: 2px; }
+
+.qp-heatmap {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 6px;
+}
+.qp-hm-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.qp-hm-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+.qp-hm-dot--red    { background: #e57373; }
+.qp-hm-dot--orange { background: #ff9800; }
+.qp-hm-dot--yellow { background: #fbc02d; }
+.qp-hm-titulo {
+    flex: 1;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #1c1b1b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.qp-hm-erros {
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #e57373;
+    white-space: nowrap;
+}
+.qp-hm-erros--orange { color: #ff9800; }
+.qp-hm-erros--yellow { color: #fbc02d; }
+.qp-hm-vazio {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.72rem;
+    color: #bbb;
+    text-align: center;
+    padding: 4px 0;
+}
+body.dark-mode .qp-hm-titulo { color: #ccc; }
+
+/* ════════════════════════════════════════════════════════════════════
+   CARD RECURSOS
+   ════════════════════════════════════════════════════════════════════ */
+
+.qp-label--green { color: #2e7d32; }
+
+.qp-recursos-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.qp-recurso-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #f8f9fa;
+    border: 1.5px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .12s, border-color .12s;
+    font-family: 'Montserrat', sans-serif;
+}
+.qp-recurso-item:hover:not(.qp-recurso--inativo) {
+    background: #e8f5e9;
+    border-color: #2e7d32;
+}
+.qp-recurso--inativo {
+    opacity: 0.45;
+    cursor: default;
+    pointer-events: none;
+}
+.qp-recurso-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    color: #fff;
+}
+.qp-recurso-icon--green  { background: #4caf50; }
+.qp-recurso-icon--blue   { background: #2196f3; }
+.qp-recurso-icon--purple { background: #9c27b0; }
+.qp-recurso-icon--red    { background: #f44336; }
+.qp-recurso-icon--teal   { background: #009688; }
+
+.qp-recurso-label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #1c1b1b;
+    line-height: 1.3;
+}
+
+/* ── Dark mode ───────────────────────────────────────────────────── */
+body.dark-mode .qp-desemp-header .qp-label { color: #66bb6a; }
+body.dark-mode .qp-desemp-pill             { background: #388e3c; }
+body.dark-mode .qp-desemp-pill--orange     { background: #e65100; }
+body.dark-mode .qp-desemp-pill--red        { background: #c62828; }
+body.dark-mode .qp-desemp-pct-overlay      { color: #e0e0e0; }
+body.dark-mode .qp-evo-bar                 { background: #2a4a2a; }
+body.dark-mode .qp-evo-bar--active         { background: #4caf50; }
+body.dark-mode .qp-hm-cell                 { background: #2a2a2a; }
+body.dark-mode .qp-recurso-item            { background: #252525; }
+body.dark-mode .qp-recurso-label           { color: #ccc; }
+body.dark-mode .qp-recurso-item:hover:not(.qp-recurso--inativo) {
+    background: #1a2e1a;
+    border-color: #4caf50;
+}

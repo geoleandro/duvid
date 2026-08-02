@@ -78,15 +78,34 @@ function verificarStatusAula(id) {
 
     if (msg) {
         areaAviso.innerHTML = `
-            <div class="aviso-pergaminho aviso-pergaminho2 w3-animate-top">
-                <span onclick="this.parentElement.style.display='none'" 
+            <div class="aviso-pergaminho">
+                <span onclick="fecharAvisoStatus(this)"
                       class="btn-fechar-rpg">&times;</span>
-                
-                <div class="permaginho-texto">
-                    </i> &nbsp; ${msg}
-                </div>
+                <div class="aviso-icone"><i class="fa ${icone}"></i></div>
+                <div class="permaginho-texto">${msg}</div>
             </div>`;
+
+        // Auto-fecha após 5 segundos
+        setTimeout(function () {
+            var btn = areaAviso.querySelector('.btn-fechar-rpg');
+            if (btn) fecharAvisoStatus(btn);
+        }, 5000);
     }
+}
+
+// Fecha o aviso com uma animação de saída antes de escondê-lo
+function fecharAvisoStatus(botao) {
+    const card = botao.parentElement;
+    if (!card) return;
+    const wrapper = card.parentElement; // #aviso-status
+    card.classList.add('saindo');
+    card.addEventListener('animationend', function () {
+        card.style.display = 'none';
+        // #aviso-status tem margin:70px auto 10px !important (ModeloCss.css).
+        // Sem esconder o wrapper também, essa margem fica "presa" no layout
+        // e empurra o hero para baixo mesmo com o card já escondido.
+        if (wrapper) wrapper.style.display = 'none';
+    }, { once: true });
 }
 
 
@@ -149,9 +168,8 @@ function executarReset() {
     if (typeof playSom === "function") playSom('acerto');
 
     setTimeout(() => {
-        // Volta para a tela inicial para o próximo aluno entrar
-        window.location.href = "../index.php";
-    }, 2200);
+        window.location.href = '/home.php';
+    }, 1800);
 }
 
 
@@ -201,9 +219,12 @@ function gerenciarIdentificacaoHome() {
             atualizarResumoHome();
         }
 
-        // 3. Mini ranking da turma (aguarda sync do banco para ter turmaCodigo)
+        // 3. Mini ranking + Card de turma (aguarda sync para ter turmaCodigo)
         if (DuvidDB.pronto) {
-            DuvidDB.pronto.then(function() { carregarMiniRanking(); });
+            DuvidDB.pronto.then(function() {
+                carregarMiniRanking();
+                atualizarCardTurma();
+            });
         }
     } else {
         if (display) display.style.display = 'none';
@@ -212,45 +233,53 @@ function gerenciarIdentificacaoHome() {
 }
 
 // ---------------------------------------------------------------
-// MINI RANKING DA TURMA (top 3 + posição do próprio aluno)
+// RANKING CARD — top 3 da turma (só exibe se aluno tiver turma)
 // ---------------------------------------------------------------
 function carregarMiniRanking() {
-    var turma = DuvidDB._cache && DuvidDB._cache.turmaCodigo;
-    if (!turma || turma === 'LIVRE') return;
+    var lista    = document.getElementById('mini-ranking-lista');
+    var titulo   = document.getElementById('mini-ranking-titulo');
+    if (!lista) return;
 
-    var container = document.getElementById('mini-ranking-turma');
-    var lista     = document.getElementById('mini-ranking-lista');
-    if (!container || !lista) return;
+    var turma    = DuvidDB._cache && DuvidDB._cache.turmaCodigo;
+    var temTurma = turma && turma !== 'LIVRE';
 
-    fetch('/api/ranking.php?turma=' + encodeURIComponent(turma) + '&top=10')
+    if (titulo) titulo.textContent = temTurma ? 'Sua Turma' : 'Comunidade Duvid';
+
+    var url = temTurma
+        ? '/api/ranking.php?turma=' + encodeURIComponent(turma) + '&top=20'
+        : '/api/ranking.php?top=20';
+
+    function esc(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+    fetch(url)
         .then(function(r) { return r.json(); })
         .then(function(data) {
-            var ranking = data.ranking || [];
-            if (ranking.length === 0) return;
-
-            var nomeMeu = (DuvidDB.getNome() || '').trim().toLowerCase();
-            var top3    = ranking.slice(0, 3);
-            var icons   = ['🥇', '🥈', '🥉'];
-
-            function esc(s) {
-                return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+            var ranking  = data.ranking || [];
+            if (ranking.length === 0) {
+                lista.innerHTML = '<div style="text-align:center;padding:16px 0;color:#ccc;font-size:.8rem;">Seja o primeiro a explorar! 🌍</div>';
+                return;
             }
+
+            var nomeMeu  = (DuvidDB.getNome() || '').trim().toLowerCase();
+            var top3     = ranking.slice(0, 3);
+            var pillCls  = ['rank-pill rank-pill-1','rank-pill rank-pill-2','rank-pill rank-pill-3'];
+            var medalIco = [' <i class="fa fa-medal" style="color:#f9a825;font-size:.8rem;"></i>','',''];
 
             var html = top3.map(function(p, i) {
                 var isMe = nomeMeu && p.nome.trim().toLowerCase() === nomeMeu;
-                return '<div style="background:' + (isMe ? '#f0f7f0' : '#f8f9fa') + ';' +
-                       'border:1px solid ' + (isMe ? '#c8e6c9' : 'transparent') + ';' +
-                       'border-radius:8px; padding:6px 10px;' +
-                       'display:flex; align-items:center; gap:8px;">' +
-                       '<span style="font-size:.95rem; line-height:1; flex-shrink:0;">' + icons[i] + '</span>' +
-                       '<span style="flex:1; font-size:.78rem; font-weight:' + (isMe ? '800' : '600') + '; color:#333;' +
-                       'white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">' +
-                       esc(p.nome) + (isMe ? ' <span style="color:#4caf50; font-size:.68rem;">(você)</span>' : '') + '</span>' +
-                       '<span style="font-size:.72rem; font-weight:700; color:#2e7d32; flex-shrink:0;">🌍 ' + (p.globinhos_total || 0) + '</span>' +
-                       '</div>';
+                var xp   = (p.globinhos_total || 0).toLocaleString('pt-BR') + ' XP';
+                return '<div style="display:flex;align-items:center;gap:12px;padding:4px 0;">' +
+                    '<span class="' + pillCls[i] + '">' + (i + 1) + '</span>' +
+                    '<div style="flex:1;min-width:0;">' +
+                        '<p style="margin:0;font-size:.85rem;font-weight:' + (isMe ? '800' : '700') + ';color:#222;' +
+                           'white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">' +
+                           esc(isMe ? 'Você (' + p.nome + ')' : p.nome) + medalIco[i] + '</p>' +
+                        '<p style="margin:0;font-size:.72rem;color:#999;">' + xp + '</p>' +
+                    '</div>' +
+                    '</div>';
             }).join('');
 
-            // Minha posição se não estiver no top 3
+            // Linha tracejada + posição do aluno se não estiver no top 3
             var minhaPos = -1;
             if (nomeMeu) {
                 for (var i = 0; i < ranking.length; i++) {
@@ -258,21 +287,92 @@ function carregarMiniRanking() {
                 }
             }
             if (minhaPos >= 3) {
-                var eu = ranking[minhaPos];
-                html += '<div style="background:#f0f7f0; border:1px solid #c8e6c9; border-radius:8px; padding:6px 10px;' +
-                        'display:flex; align-items:center; gap:8px; margin-top:2px;">' +
-                        '<span style="background:#4caf50; color:#fff; border-radius:50%; width:22px; height:22px;' +
-                        'display:inline-flex; align-items:center; justify-content:center;' +
-                        'font-size:.62rem; font-weight:800; flex-shrink:0;">' + (minhaPos + 1) + '</span>' +
-                        '<span style="flex:1; font-size:.78rem; font-weight:800; color:#333;">Você</span>' +
-                        '<span style="font-size:.72rem; font-weight:700; color:#2e7d32; flex-shrink:0;">🌍 ' + (eu.globinhos_total || 0) + '</span>' +
-                        '</div>';
+                var eu  = ranking[minhaPos];
+                var xpEu = (eu.globinhos_total || 0).toLocaleString('pt-BR') + ' XP';
+                html += '<div style="border-top:1.5px dashed #e0e0e0;margin:10px 0 6px;"></div>' +
+                    '<div style="display:flex;align-items:center;gap:12px;padding:4px 0;">' +
+                        '<span class="rank-pill rank-pill-me">' + (minhaPos + 1) + '</span>' +
+                        '<div style="flex:1;min-width:0;">' +
+                            '<p style="margin:0;font-size:.85rem;font-weight:800;color:#222;">' +
+                               'Você (' + esc(eu.nome) + ')</p>' +
+                            '<p style="margin:0;font-size:.72rem;color:#999;">' + xpEu + '</p>' +
+                        '</div>' +
+                    '</div>';
             }
 
             lista.innerHTML = html;
-            container.style.display = 'block';
         })
-        .catch(function() { /* falha silenciosa */ });
+        .catch(function() {
+            lista.innerHTML = '<div style="text-align:center;padding:16px 0;color:#ccc;font-size:.8rem;">Indisponível.</div>';
+        });
+}
+
+// ---------------------------------------------------------------
+// CARD 2: Turma — popula após sync e lida com join/troca
+// ---------------------------------------------------------------
+function atualizarCardTurma() {
+    var turma    = DuvidDB._cache && DuvidDB._cache.turmaCodigo;
+    var temTurma = turma && turma !== 'LIVRE';
+    var form     = document.getElementById('turma-join-form');
+    var info     = document.getElementById('turma-membro-info');
+    if (!form || !info) return;
+
+    if (temTurma) {
+        var nome = DuvidDB._cache.turmaNome || turma;
+        var nomeEl   = document.getElementById('turma-membro-nome');
+        var codigoEl = document.getElementById('turma-membro-codigo');
+        if (nomeEl)   nomeEl.textContent   = nome;
+        if (codigoEl) codigoEl.textContent = turma;
+        form.style.display = 'none';
+        info.style.display = 'block';
+        // Personaliza título
+        var titulo = document.getElementById('turma-card-titulo');
+        var desc   = document.getElementById('turma-card-desc');
+        if (titulo) titulo.textContent = 'Sua Turma 🎓';
+        if (desc)   desc.textContent   = 'Você está matriculado. Explore as trilhas abaixo e estude junto com sua turma!';
+    } else {
+        form.style.display = 'block';
+        info.style.display = 'none';
+    }
+}
+
+function entrarTurmaLogado() {
+    var input = document.getElementById('turma-join-input');
+    var msg   = document.getElementById('turma-join-msg');
+    var btn   = input ? input.parentElement.querySelector('button') : null;
+    var codigo = (input ? input.value.trim() : '').toUpperCase();
+
+    if (!codigo) {
+        if (msg) { msg.style.display='block'; msg.style.color='#e53935'; msg.textContent='Digite o código da turma.'; }
+        return;
+    }
+    if (btn) { btn.disabled = true; btn.textContent = '…'; }
+
+    fetch('/api/aluno.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ acao: 'entrar_turma', turma_codigo: codigo })
+    })
+    .then(function(r) { return r.json(); })
+    .then(function(data) {
+        if (btn) { btn.disabled = false; btn.textContent = 'Entrar'; }
+        if (data.erro) {
+            if (msg) { msg.style.display='block'; msg.style.color='#e53935'; msg.textContent=data.erro; }
+            return;
+        }
+        // Atualiza cache local e recarrega ranking + card
+        if (DuvidDB._cache) {
+            DuvidDB._cache.turmaCodigo = data.turma_codigo;
+            DuvidDB._cache.turmaNome   = data.turma_nome;
+        }
+        atualizarCardTurma();
+        carregarMiniRanking();
+        if (msg) { msg.style.display='block'; msg.style.color='#2e7d32'; msg.textContent='✓ Turma atualizada!'; }
+    })
+    .catch(function() {
+        if (btn) { btn.disabled = false; btn.textContent = 'Entrar'; }
+        if (msg) { msg.style.display='block'; msg.style.color='#e53935'; msg.textContent='Erro de conexão. Tente novamente.'; }
+    });
 }
 
 function NomeAlunos(respid, inputid) {
@@ -294,8 +394,15 @@ function NomeAlunos(respid, inputid) {
 
     const apenasLetras = nome.replace(/[^a-zA-ZÀ-ÿ]/g, '');
     if (apenasLetras.length < 3) {
-        mostrarErro('Digite um nome válido (mínimo 3 letras).');
-        document.getElementById(inputid)?.focus();
+        // Abre o form de cadastro, foca no nome e mostra aviso
+        const det = document.getElementById('detalhes-form-completo');
+        if (det) det.open = true;
+        const nomeInput = document.getElementById(inputid);
+        if (nomeInput) {
+            nomeInput.focus();
+            nomeInput.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+        mostrarErro('Complete o cadastro para entrar' + (turma ? ' na turma ' + turma.toUpperCase() : '') + '.');
         return;
     }
 

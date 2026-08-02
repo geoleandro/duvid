@@ -7,9 +7,10 @@ const NOME_CHAVE     = "duvid_nome";
 const PATENTE_CHAVE  = "duvid_patente";
 const NIVEL_CHAVE    = "duvid_lvl";
 const ALUNO_ID_CHAVE = "duvid_aluno_id";
-const ESTADO_CHAVE   = "duvid_estado";
-const CIDADE_CHAVE   = "duvid_cidade";
-const ESCOLA_CHAVE   = "duvid_escola";
+const ESTADO_CHAVE     = "duvid_estado";
+const CIDADE_CHAVE     = "duvid_cidade";
+const ESCOLA_CHAVE     = "duvid_escola";
+const CRIADO_EM_CHAVE  = "duvid_criado_em";
 // localStorage é cache de sessão — banco sempre vence no próximo sincronizarComBanco
 
 const RECOMPENSA_TEXTO    = 10;
@@ -52,7 +53,31 @@ const DuvidDB = {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(body),
-        }).then(r => r.json()).catch(() => null);
+        }).then(function(r) {
+            if (r.status === 401) { DuvidDB._avisarSessaoExpirada(); return null; }
+            return r.json();
+        }).catch(function() { return null; });
+    },
+
+    _sessaoAvisoAtivo: false,
+    _avisarSessaoExpirada: function() {
+        if (this._sessaoAvisoAtivo) return;
+        this._sessaoAvisoAtivo = true;
+        var banner = document.createElement('div');
+        banner.id = 'duvid-sessao-banner';
+        banner.style.cssText = [
+            'position:fixed', 'bottom:0', 'left:0', 'right:0', 'z-index:9998',
+            'background:#e65100', 'color:#fff',
+            'font-family:\'Montserrat\',sans-serif', 'font-size:.85rem',
+            'display:flex', 'align-items:center', 'justify-content:center', 'gap:16px',
+            'padding:12px 20px', 'box-shadow:0 -4px 16px rgba(0,0,0,.2)'
+        ].join(';');
+        banner.innerHTML = '<span>⚠️ Sua sessão expirou — o progresso desta sessão <b>não foi salvo</b>.</span>'
+            + '<a href="/home.php" style="background:#fff;color:#e65100;padding:6px 16px;border-radius:20px;'
+            + 'font-weight:700;text-decoration:none;white-space:nowrap;">Fazer login →</a>'
+            + '<button onclick="document.getElementById(\'duvid-sessao-banner\').remove()"'
+            + ' style="background:transparent;border:none;color:#fff;font-size:1.2rem;cursor:pointer;line-height:1;">&times;</button>';
+        document.body.appendChild(banner);
     },
 
     // ==========================================================
@@ -290,7 +315,9 @@ const DuvidDB = {
         DuvidDB._cache.sessaoAtiva  = dados.sessao_ativa === true;
         DuvidDB._cache.turmaNome    = dados.turma_nome   || null;
         DuvidDB._cache.turmaCodigo  = dados.turma_codigo || null;
+        DuvidDB._cache.criadoEm    = dados.criado_em    || null;
         localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
+        if (dados.criado_em) localStorage.setItem(CRIADO_EM_CHAVE, dados.criado_em);
         DuvidDB._cache.globinhos = dados.globinhos;
         DuvidDB._cache.conclusoes = {};
         if (dados.conclusoes) {
@@ -332,6 +359,8 @@ const DuvidDB = {
                     return;
                 }
                 DuvidDB._aplicarDadosBanco(dados);
+                // Avisa se o aluno está identificado mas a sessão PHP expirou
+                if (!dados.sessao_ativa) DuvidDB._avisarSessaoExpirada();
             })
             .catch(function(e) {
                 // Não quebra a página, mas deixa rastro no console.
@@ -348,7 +377,7 @@ const DuvidDB = {
 //
 // IMPORTANTE: a sincronização dispara JÁ (no carregamento do script), e NÃO
 // dentro de um listener de DOMContentLoaded. Motivo: este arquivo é incluído
-// com <script defer>, que só executa DEPOIS que o parser registrou os listeners
+// com atributo defer, que só executa DEPOIS que o parser registrou os listeners
 // de DOMContentLoaded inline da página. Se DuvidDB.pronto fosse criado dentro
 // de um listener daqui, o listener da página (registrado antes) rodaria primeiro,
 // encontraria DuvidDB.pronto === undefined, pularia o `await` e renderizaria os

@@ -121,6 +121,7 @@ function montarRespostaAluno(array $aluno, PDO $pdo): array {
         'progressoPorAno'=> $progressoPorAno,
         'conquistas'     => $conquistas,
         'conclusoes'     => $conclusoes,
+        'criado_em'      => $aluno['criado_em'] ?? null,
     ];
 }
 
@@ -169,6 +170,21 @@ if ($metodo === 'GET') {
 // POST: cadastro ou login com nome + email + PIN
 if ($metodo === 'POST') {
     $body  = json_decode(file_get_contents('php://input'), true) ?? [];
+
+    // Sub-ação: entrar em turma (aluno já logado digita o código)
+    if (($body['acao'] ?? '') === 'entrar_turma') {
+        $sessionAlunoId = requireAuth();
+        $codigo  = strtoupper(trim($body['turma_codigo'] ?? ''));
+        $turmaId = resolverTurmaId($codigo, $pdo);
+        if ($turmaId === null) {
+            jsonResponse(['erro' => 'Código de turma inválido ou inativo.'], 400);
+        }
+        $pdo->prepare("UPDATE alunos SET turma_id = :t WHERE id = :id")
+            ->execute([':t' => $turmaId, ':id' => $sessionAlunoId]);
+        $st = $pdo->prepare("SELECT * FROM alunos WHERE id = :id");
+        $st->execute([':id' => $sessionAlunoId]);
+        jsonResponse(montarRespostaAluno($st->fetch(), $pdo));
+    }
 
     // Sub-ação: editar perfil (rota alternativa ao PATCH, para hospedagens que bloqueiam PATCH)
     if (($body['acao'] ?? '') === 'editar_perfil') {
