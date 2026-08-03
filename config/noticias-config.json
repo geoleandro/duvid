@@ -1,0 +1,62 @@
+{
+  "_comentario": "Edite este arquivo para controlar o que aparece em Duvid Notícias.",
+  "_instrucao": "keywords_geo = palavras que tornam uma notícia relevante para o mural. keywords_extra = suas palavras personalizadas (adicione aqui). Categorias usam regex — adicione padrões separados por |",
+
+  "keywords_geo": [
+    "clima", "climática", "climático", "temperatura", "chuva", "seca", "enchente",
+    "inundação", "terremoto", "vulcão", "tsunami", "furacão", "tornado", "ciclone",
+    "desmatamento", "amazônia", "floresta", "bioma", "cerrado", "pantanal",
+    "oceano", "mar", "bacia hidrográfica", "relevo", "montanha", "cordilheira",
+    "geopolítica", "geopolitica", "fronteira", "território",
+    "migração", "migrante", "refugiado", "êxodo",
+    "urbanização", "metrópole", "favela", "saneamento",
+    "ibge", "censo demográfico",
+    "energia renovável", "petróleo", "gás natural", "solar", "eólica",
+    "cop30", "cop 30", "acordo climático", "carbono", "emissão de co2",
+    "onu", "otan", "mercosul", "brics", "g20",
+    "saara", "ártico", "antártida", "pacífico", "atlântico",
+    "enem", "vestibular", "fuvest", "unicamp",
+    "brasil", "nordeste brasileiro", "amazônia legal","território brasileiro", "sudeste brasileiro", "sul do brasil", "centro-oeste brasileiro","região norte do brasil", "região sul do brasil", "região sudeste do brasil", "região centro-oeste do brasil", "espaço geográfico","desigualdade", "geografia humana", "geografia física", "geografia política", "geografia econômica", "geografia urbana", "geografia regional", "geografia ambiental", "onu"
+  ],
+
+  "keywords_extra": [],
+
+  "categorias": {
+    "Clima": {
+      "emoji": "🌱",
+      "cor": "#00838f",
+      "regex": "climat|cop|carbono|emissão|desmat|bioma|amaz|oceano|seca|enchente|chuva|furacão|vulcão|terremoto|aquecimento|temperatura|inundação|ciclone|tsunami"
+    },
+    "Brasil": {
+      "emoji": "🇧🇷",
+      "cor": "#f9a825",
+      "regex": "\\bbrasil\\b|brasileir|ibge|lula|governo federal|congresso nacional|petrobras|nordeste|sudeste|sul do brasil|norte do brasil|centro-oeste|são paulo|rio de janeiro|brasília|amazônia legal|sus\\b|planalto"
+    },
+    "Geopolítica": {
+      "emoji": "🌐",
+      "cor": "#1565c0",
+      "regex": "otan|onu\\b|brics|g20|mercosul|fronteira|território|refugiado|conflito armado|guerra|sanção|diplomacia|geopolítica|tratado|aliança"
+    },
+    "Economia": {
+      "emoji": "📈",
+      "cor": "#6a1b9a",
+      "regex": "pib|inflação|desemprego|emprego|recessão|mercado|bolsa|câmbio|dólar|exportação|importação|balança comercial|comércio exterior|banco central|juros|selic|fmi|banco mundial|dívida|déficit|superávit|petróleo|commodit|agronegócio|indústria|produção industrial|economia"
+    },
+    "Geografia": {
+      "emoji": "🌍",
+      "cor": "#2e7d32",
+      "regex": ""
+    }
+  },
+
+  "fontes": [
+    { "url": "https://g1.globo.com/rss/g1/mundo/",                            "origem": "G1 Mundo",       "cor": "#e53935", "categoria_forcada": null },
+    { "url": "https://feeds.bbci.co.uk/portuguese/rss.xml",                   "origem": "BBC Brasil",     "cor": "#b71c1c", "categoria_forcada": null },
+    { "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.rss", "origem": "Agência Brasil", "cor": "#1565c0", "categoria_forcada": null },
+    { "url": "https://g1.globo.com/rss/g1/brasil/",                           "origem": "G1 Brasil",      "cor": "#e65100", "categoria_forcada": "Brasil" }
+  ],
+
+  "cache_horas": 6,
+  "max_por_fonte": 5,
+  "max_total": 12
+}

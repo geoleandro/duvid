@@ -1010,6 +1010,182 @@
         })();
         </script>
 
+        <!-- ══ Duvid Notícias ══ -->
+        <section id="duvid-noticias-section" style="background:#f8f9fa; padding:28px 0 32px;">
+        <div class="w3-content" style="max-width:1100px; padding:0 16px;">
+
+            <!-- Ticker ───────────────────────────────────────── -->
+            <div class="dn-ticker-wrap" style="background:#1a1a2e; border-radius:12px; overflow:hidden; margin-bottom:20px;">
+                <div style="display:flex; align-items:center; background:#2e7d32; padding:8px 16px; gap:10px;">
+                    <span style="color:#fff; font-weight:800; font-size:.82rem; letter-spacing:.06em;">🌍 DUVID NOTÍCIAS</span>
+                    <span style="background:#fff; color:#2e7d32; font-size:.58rem; font-weight:800; padding:2px 7px; border-radius:3px;">AO VIVO</span>
+                </div>
+                <div style="display:flex; align-items:center; padding:10px 14px; gap:12px; overflow:hidden; min-height:42px;">
+                    <span id="dn-ticker-tag" style="background:#e53935; color:#fff; font-size:.62rem; font-weight:700;
+                          padding:3px 9px; border-radius:3px; white-space:nowrap; flex-shrink:0;">CARREGANDO</span>
+                    <div style="overflow:hidden; flex:1;">
+                        <div id="dn-ticker-scroll" style="display:flex; gap:60px; white-space:nowrap;
+                             animation:dnTicker 30s linear infinite; color:#fff; font-size:.82rem;">
+                            <span id="dn-ticker-inner">Carregando notícias de geografia…</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cabeçalho ────────────────────────────────────── -->
+            <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; flex-wrap:wrap; gap:8px;">
+                <div>
+                    <p style="font-size:.62rem; font-weight:700; text-transform:uppercase;
+                               letter-spacing:.12em; color:#2e7d32; margin:0 0 2px;">Notícias de</p>
+                    <h2 style="margin:0; font-size:1.25rem; font-weight:800; color:#1b5e20; line-height:1.2;">
+                        Geografia em foco
+                    </h2>
+                </div>
+                <div id="dn-filtros" style="display:flex; gap:8px; flex-wrap:wrap;">
+                    <button class="dn-filtro ativo" data-cat="">Todas</button>
+                    <button class="dn-filtro" data-cat="Clima">🌱 Clima</button>
+                    <button class="dn-filtro" data-cat="Brasil">🇧🇷 Brasil</button>
+                    <button class="dn-filtro" data-cat="Geopolítica">🌐 Geopolítica</button>
+                    <button class="dn-filtro" data-cat="Economia">📈 Economia</button>
+                </div>
+            </div>
+
+            <!-- Grid de cards ────────────────────────────────── -->
+            <div id="dn-cards-grid" style="display:grid; grid-template-columns:repeat(3,1fr); gap:14px;">
+                <!-- Skeletons enquanto carrega -->
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite;"></div>
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.2s;"></div>
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.4s;"></div>
+            </div>
+
+            <!-- Rodapé ───────────────────────────────────────── -->
+            <p id="dn-atualizado" style="margin:12px 0 0; font-size:.65rem; color:#bbb; text-align:right;"></p>
+
+        </div>
+        </section>
+
+        <style>
+        /* ── Duvid Notícias ─────────────────────────────── */
+        @keyframes dnTicker { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+
+        .dn-filtro {
+            font-size:.68rem; font-weight:700; padding:5px 13px; border-radius:20px;
+            border:1.5px solid #c8e6c9; background:#fff; color:#2e7d32;
+            cursor:pointer; transition:all .18s;
+        }
+        .dn-filtro.ativo, .dn-filtro:hover {
+            background:#2e7d32; color:#fff; border-color:#2e7d32;
+        }
+        .dn-card {
+            background:#fff; border-radius:14px; padding:14px 15px 13px;
+            border:1px solid #f0f0f0; box-shadow:0 2px 8px rgba(0,0,0,.04);
+            text-decoration:none; display:flex; flex-direction:column; gap:6px;
+            transition:transform .18s, box-shadow .18s;
+            border-left-width:3px; border-left-style:solid;
+        }
+        .dn-card:hover { transform:translateY(-3px); box-shadow:0 6px 20px rgba(46,125,50,.1); }
+        .dn-card-tag { font-size:.58rem; font-weight:800; text-transform:uppercase; letter-spacing:.07em; }
+        .dn-card-title { font-size:.82rem; font-weight:700; color:#1b5e20; line-height:1.35; margin:0; }
+        .dn-card-resumo { font-size:.72rem; color:#888; line-height:1.45; margin:0; flex:1; }
+        .dn-card-footer { font-size:.62rem; color:#bbb; display:flex; gap:8px; align-items:center; }
+
+        @media(max-width:720px) {
+            #dn-cards-grid { grid-template-columns:1fr !important; }
+            #dn-filtros { gap:5px; }
+            .dn-filtro { font-size:.62rem; padding:4px 10px; }
+        }
+        </style>
+
+        <script>
+        (function() {
+            let _todasNoticias = [];
+
+            function _tempoRelativo(ts) {
+                const diff = Math.floor((Date.now() / 1000) - ts);
+                if (diff < 120)   return 'agora há pouco';
+                if (diff < 3600)  return Math.floor(diff/60) + 'min atrás';
+                if (diff < 86400) return Math.floor(diff/3600) + 'h atrás';
+                return Math.floor(diff/86400) + 'd atrás';
+            }
+
+            function _renderCards(noticias) {
+                const grid = document.getElementById('dn-cards-grid');
+                if (!grid) return;
+                if (!noticias.length) {
+                    grid.innerHTML = '<p style="color:#aaa;font-size:.8rem;grid-column:1/-1;text-align:center;padding:20px 0;">Nenhuma notícia encontrada nesta categoria.</p>';
+                    return;
+                }
+                grid.innerHTML = noticias.map(n => `
+                    <a href="${n.link}" target="_blank" rel="noopener" class="dn-card"
+                       style="border-left-color:${n.categoria.cor};">
+                        <span class="dn-card-tag" style="color:${n.categoria.cor};">
+                            ${n.categoria.emoji} ${n.categoria.label}
+                        </span>
+                        <p class="dn-card-title">${n.titulo}</p>
+                        <p class="dn-card-resumo">${n.resumo}</p>
+                        <div class="dn-card-footer">
+                            <span>${n.origem}</span>
+                            <span>·</span>
+                            <span>${_tempoRelativo(n.ts)}</span>
+                        </div>
+                    </a>`).join('');
+            }
+
+            function _renderTicker(noticias) {
+                const inner = document.getElementById('dn-ticker-inner');
+                const tag   = document.getElementById('dn-ticker-tag');
+                const scroll = document.getElementById('dn-ticker-scroll');
+                if (!inner || !noticias.length) return;
+
+                // Texto do ticker: todos os títulos separados por bullet
+                const texto = noticias.map(n => n.titulo).join('  •  ');
+                // Duplicar para loop contínuo
+                inner.textContent = texto;
+                const clone = inner.cloneNode(true);
+                scroll.appendChild(clone);
+
+                // Tag da primeira notícia
+                if (tag) {
+                    tag.textContent = noticias[0].categoria.label.toUpperCase();
+                    tag.style.background = noticias[0].categoria.cor || '#e53935';
+                }
+
+                // Ajustar velocidade pela largura
+                const w = inner.scrollWidth;
+                const duration = Math.max(20, Math.floor(w / 60)) + 's';
+                scroll.style.animationDuration = duration;
+            }
+
+            function _aplicarFiltro(cat) {
+                document.querySelectorAll('.dn-filtro').forEach(b => b.classList.toggle('ativo', b.dataset.cat === cat));
+                const filtradas = cat ? _todasNoticias.filter(n => n.categoria.label === cat) : _todasNoticias;
+                _renderCards(filtradas.slice(0, 6));
+            }
+
+            // Filtros
+            document.getElementById('dn-filtros')?.addEventListener('click', e => {
+                const btn = e.target.closest('.dn-filtro');
+                if (btn) _aplicarFiltro(btn.dataset.cat);
+            });
+
+            // Buscar notícias
+            fetch('/api/noticias.php')
+                .then(r => r.json())
+                .then(data => {
+                    if (!data.ok || !data.noticias.length) return;
+                    _todasNoticias = data.noticias;
+                    _renderCards(_todasNoticias.slice(0, 6));
+                    _renderTicker(_todasNoticias);
+
+                    const el = document.getElementById('dn-atualizado');
+                    if (el) el.textContent = 'Atualizado em ' + new Date(data.gerado_em).toLocaleTimeString('pt-BR', {hour:'2-digit',minute:'2-digit'});
+                })
+                .catch(() => {
+                    // silencioso — fallback da API já serve dados
+                });
+        })();
+        </script>
+
         <!-- ══ Citação ══ -->
         <section style="background:#f8f9fa; padding:28px 0 32px;">
         <div class="w3-content" style="max-width:720px; padding:0 16px;">

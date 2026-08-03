@@ -1,0 +1,163 @@
+{
+    "ok": true,
+    "gerado_em": "2026-08-03T16:30:16-03:00",
+    "total": 12,
+    "noticias": [
+        {
+            "titulo": "Banco diz que fechou contas de Trump por suspeitas de lavagem de dinheiro",
+            "resumo": "        Decorações no Salão Oval durante reunião do presidente dos EUA, Donald Trump, com o presidente libanês, Joseph A…",
+            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/banco-diz-que-fechou-contas-de-trump-por-suspeitas-de-lavagem-de-dinheiro.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1785784503,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            }
+        },
+        {
+            "titulo": "Veja o trecho da entrevista em que Milei faz novos ataques a Lula: 'Ele é um ladrão'",
+            "resumo": "        Veja o trecho da entrevista em que Milei faz ataques a Lula\nO presidente da Argentina, Javier Milei, voltou a at…",
+            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/video-mostra-momento-em-milei-faz-novos-ataques-a-lula-e-renova-crise-diplomatica.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1785782459,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            }
+        },
+        {
+            "titulo": "VÍDEO mostra fazendeira espanhola reencontrando burrinhos após incêndio devastador",
+            "resumo": "        VÍDEO mostra fazendeira espanhola reencontrando burrinhos após incêndio devastador\nUma agricultora espanhola ree…",
+            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/video-mostra-fazendeira-espanhola-reencontrando-burrinhos-apos-incendio-devastador.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1785776306,
+            "categoria": {
+                "label": "Clima",
+                "emoji": "🌱",
+                "cor": "#00838f"
+            }
+        },
+        {
+            "titulo": "Trump diz que Irã deve escolher entre 'acordo' ou 'rendição total': 'É a última chance deles'",
+            "resumo": "        Presidente dos EUA, Donald Trump, e presidente do Irã, Masoud Pezeshkian\nEvelyn Hockstein\/Reuters e Angelina Kat…",
+            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/ira-deve-escolher-acordo-ou-rendicao-total-diz-trump.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1785772415,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            }
+        },
+        {
+            "titulo": "VÍDEO: Drone ucraniano atinge praia russa lotada de banhistas e mata 7, diz Rússia ",
+            "resumo": "        Drone ucraniano cai em praia russa com banhistas ao lado \nBanhistas que lotavam uma praia no sudoeste da Rússia …",
+            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/drone-ucraniano-cai-ao-lado-de-banhistas-em-praia-russa.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1785767041,
+            "categoria": {
+                "label": "Brasil",
+                "emoji": "🇧🇷",
+                "cor": "#f9a825"
+            }
+        },
+        {
+            "titulo": "Como crise migratória da Espanha gerou tempestade política — e foi alimentada pelas redes sociais",
+            "resumo": "A súbita invasão de enclave espanhol por milhares de migrantes marroquinos semana passada abalou alicerces da União Euro…",
+            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/c74g92028e0o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1785763358,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            }
+        },
+        {
+            "titulo": "A bailarina argentina na elite do Royal Ballet de Londres há três décadas: 'Me sinto invencível'",
+            "resumo": "Marianela entrou para o Royal Ballet de Londres em 1998 e se tornou primeira-bailarina da companhia britânica em 2002.\n",
+            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cx27xx2zdx9o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1785702786,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            }
+        },
+        {
+            "titulo": "Condenados à morte na Arábia Saudita ligam para a BBC pedindo ajuda",
+            "resumo": "Dezenas de etíopes que fugiram da guerra e da pobreza aguardam execução em prisões sauditas. Condenados por tráfico de d…",
+            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cj36lkkvmgko?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1785686538,
+            "categoria": {
+                "label": "Brasil",
+                "emoji": "🇧🇷",
+                "cor": "#f9a825"
+            }
+        },
+        {
+            "titulo": "O que aconteceu no país da América do Sul que adotou o 'modelo Bukele' de combate à violência",
+            "resumo": "O governo equatoriano promoveu a militarização da segurança pública, construiu uma megaprisão, ampliou o uso dos estados…",
+            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cy74n55rpx8o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1785665077,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            }
+        },
+        {
+            "titulo": "'Estamos presas aqui, sem poder voltar para casa': o desespero dos milhares de migrantes que cruzaram a fronteira entre Marrocos e Espanha por Ceuta",
+            "resumo": "A situação dos migrantes nos dois lados da fronteira era crítica. A maioria decidiu voltar diante do cenário desolador e…",
+            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/c5ydp31g3eeo?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1785600844,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            }
+        },
+        {
+            "titulo": "Batalha de Rap Macapá terá duelos de rima e venda de comidas típicas no Mercado Central",
+            "resumo": "        Final da etapa estadual do Duelo de MC's, em Macapá\nLeandro Lennon\/PMM\nO Mercado Central será o palco da Batalha…",
+            "link": "https:\/\/g1.globo.com\/ap\/amapa\/noticia\/2023\/05\/05\/batalha-de-rap-macapa-tera-duelos-de-rima-e-venda-de-comidas-tipicas-no-mercado-central.ghtml",
+            "origem": "G1 Brasil",
+            "cor": "#e65100",
+            "ts": 1683287367,
+            "categoria": {
+                "label": "Brasil",
+                "emoji": "🇧🇷",
+                "cor": "#f9a825"
+            }
+        },
+        {
+            "titulo": "‘Maio Amarelo’ tem ações em escolas e ruas para prevenir acidentes no trânsito no AP",
+            "resumo": "        Amapá abre programação 'Maio Amarelo' que combate acidentes no trânsito\nSecom AP\/Divulgação\nIniciou nesta terça-…",
+            "link": "https:\/\/g1.globo.com\/ap\/amapa\/noticia\/2023\/05\/03\/maio-amarelo-tem-acoes-em-escolas-e-passeio-ciclistico-para-alertar-pedestres-e-motoristas-no-ap.ghtml",
+            "origem": "G1 Brasil",
+            "cor": "#e65100",
+            "ts": 1683120780,
+            "categoria": {
+                "label": "Clima",
+                "emoji": "🌱",
+                "cor": "#00838f"
+            }
+        }
+    ]
+}
