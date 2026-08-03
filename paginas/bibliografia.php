@@ -1,89 +1,241 @@
-<?php include __DIR__ . '/../includes/header.php'; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliografia — Duvid Geografia</title>
+    <title>Duvid | Bibliografia</title>
     <meta name="description" content="Livros, autores e referências que embasam o Duvid Geografia. Milton Santos, Krishnamurti, IBGE e mais.">
 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
     <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/abrirmenu.js" defer></script>
 
-    <link rel="stylesheet" href="/estilos/atividades-estilo.css">
     <style>
-        .btn-filtro-bib {
+        /* ── Filtros ──────────────────────────────────── */
+        .bib-filtros-card {
             background: #fff;
-            border: 1.5px solid #ccc;
+            border-radius: 20px;
+            border: 1.5px solid #e8e8e8;
+            padding: 24px 28px;
+            margin-bottom: 28px;
+        }
+        body.dark-mode .bib-filtros-card { background: #1e1e1e; border-color: #333; }
+
+        .bib-busca-wrap {
+            position: relative;
+            margin-bottom: 16px;
+        }
+        .bib-busca-wrap i {
+            position: absolute;
+            left: 14px; top: 50%;
+            transform: translateY(-50%);
+            color: #aaa; font-size: .85rem;
+            pointer-events: none;
+        }
+        #inputBusca {
+            width: 100%;
+            padding: 10px 14px 10px 36px;
+            border: 1.5px solid #e0e0e0;
+            border-radius: 12px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .88rem;
+            color: #1b1b1b;
+            background: #f8f9fa;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color .15s;
+        }
+        #inputBusca:focus { border-color: #4caf50; background: #fff; }
+        body.dark-mode #inputBusca { background: #252525; border-color: #444; color: #ddd; }
+        body.dark-mode #inputBusca:focus { border-color: #66bb6a; }
+
+        .bib-filtros-label {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .65rem; font-weight: 700;
+            letter-spacing: .1em; text-transform: uppercase;
+            color: #888; margin-bottom: 10px;
+        }
+
+        #botoes-filtro {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .btn-filtro-bib {
+            background: #f3f4f5;
+            border: 1.5px solid transparent;
             border-radius: 20px;
             padding: 5px 14px;
-            font-size: .8rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .75rem; font-weight: 600;
+            color: #555;
             cursor: pointer;
             transition: all .15s;
-            margin: 3px 3px 3px 0;
             white-space: nowrap;
         }
-        .btn-filtro-bib:hover, .btn-filtro-bib.ativo {
+        .btn-filtro-bib:hover { background: #e8f5e9; color: #2e7d32; }
+        .btn-filtro-bib.ativo {
             background: #2e7d32;
             border-color: #2e7d32;
             color: #fff;
         }
-        .complemento-bib { font-size: .78rem; color: #888; font-style: italic; line-height: 1.4; }
-        #contador { font-size: .82rem; color: #888; margin: 6px 0 0; }
-        #botoes-filtro { display: flex; flex-wrap: wrap; margin-top: 6px; }
-        #grid-bib { display: flex !important; flex-wrap: wrap; align-items: stretch; }
-        #grid-bib > div { display: flex; flex-direction: column; }
-        #grid-bib .card-rpg { flex: 1; }
+        body.dark-mode .btn-filtro-bib { background: #2a2a2a; color: #aaa; }
+        body.dark-mode .btn-filtro-bib.ativo { background: #2e7d32; color: #fff; }
+
+        #contador {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .75rem; color: #aaa;
+            margin-top: 14px;
+        }
+
+        /* ── Grid de referências ──────────────────────── */
+        #grid-bib {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+        @media (max-width: 900px) { #grid-bib { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 580px) { #grid-bib { grid-template-columns: 1fr; } }
+
+        .ref-card {
+            background: #fff;
+            border-radius: 16px;
+            border: 1.5px solid #e8e8e8;
+            padding: 18px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            transition: box-shadow .2s;
+        }
+        .ref-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+        body.dark-mode .ref-card { background: #1e1e1e; border-color: #333; }
+
+        .ref-tag {
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .62rem; font-weight: 700;
+            letter-spacing: .08em; text-transform: uppercase;
+            padding: 3px 10px;
+            border-radius: 20px;
+            background: #e8f5e9;
+            color: #2e7d32;
+            width: fit-content;
+        }
+
+        .ref-texto {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .83rem;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            flex: 1;
+        }
+        body.dark-mode .ref-texto { color: #ccc; }
+
+        .ref-complemento {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .74rem;
+            color: #999;
+            line-height: 1.45;
+            margin: 0;
+            font-style: italic;
+        }
+
+        /* ── Citação final ────────────────────────────── */
+        .citacao-final {
+            background: #fff;
+            border-radius: 20px;
+            border: 1.5px solid #e8e8e8;
+            border-top: 4px solid #4caf50;
+            padding: 36px 40px;
+            text-align: center;
+            margin-top: 32px;
+        }
+        body.dark-mode .citacao-final { background: #1e1e1e; border-color: #2e7d32; border-top-color: #4caf50; }
+
+        .citacao-final blockquote {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-style: italic;
+            color: #2e7d32;
+            line-height: 1.75;
+            margin: 12px 0;
+        }
+        body.dark-mode .citacao-final blockquote { color: #81c784; }
+
+        .citacao-final cite {
+            font-family: 'Montserrat', sans-serif;
+            font-size: .78rem;
+            color: #aaa;
+        }
+
+        /* ── Vazio ────────────────────────────────────── */
+        .bib-vazio {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 48px 0;
+            font-family: 'Montserrat', sans-serif;
+            font-size: .9rem;
+            color: #aaa;
+        }
     </style>
 </head>
-<body class="w3-light-grey">
+<body>
 
-<main class="w3-content" style="max-width:1100px; margin-top:80px; margin-bottom:80px;">
+<?php include __DIR__ . '/../includes/header.php'; ?>
 
-    <!-- Cabeçalho -->
-    <div class="w3-container w3-padding-48 w3-center hero-ano w3-round-large w3-card-2 w3-white w3-margin-bottom">
-        <h1 class="w3-text-green w3-jumbo fonte-pixel-titulo"><b>Duvid - Bibliografia</b></h1>
-        <p class="w3-text-grey">Livros, atlas e referências que embasam os textos e questões do site.</p>
-    </div>
+<main class="texto-layout">
 
-    <!-- Filtros -->
-    <div class="w3-container w3-white w3-card w3-round-large w3-padding-16 w3-margin-bottom">
-        <div class="w3-row-padding">
-            <div class="w3-col l4 m12 s12 w3-margin-bottom">
-                <label class="w3-small w3-text-grey"><b>PESQUISAR</b></label>
-                <div class="w3-display-container">
-                    <input id="inputBusca" class="w3-input w3-border w3-round-medium" type="text"
-                        placeholder="Autor, título ou área...">
-                    <i class="fa fa-search w3-display-right w3-margin-right w3-opacity"></i>
-                </div>
+    <!-- ══ HERO ══ -->
+    <div class="texto-hero" style="background-image:url('/fotoIndex/tileset/fundo.webp');">
+        <div class="texto-hero-overlay">
+            <div class="texto-hero-badges">
+                <span class="texto-badge texto-badge-green">📚 Referências</span>
             </div>
-            <div class="w3-col l8 m12 s12">
-                <label class="w3-small w3-text-grey"><b>FILTRAR POR ÁREA</b></label>
-                <div id="botoes-filtro"></div>
-            </div>
+            <h1 class="texto-hero-title">Bibliografia</h1>
         </div>
-        <p id="contador"></p>
     </div>
 
-    <!-- Grid -->
-    <div id="grid-bib" class="w3-row-padding"></div>
+    <div class="texto-body-pad">
 
-    <!-- Citação final -->
-    <div class="w3-container w3-white w3-card w3-round-large w3-padding-32 w3-margin-top w3-center"
-         style="border-top:4px solid #4CAF50;">
-        <i class="fa fa-quote-left w3-text-light-grey w3-xlarge"></i>
-        <p class="w3-large w3-serif w3-padding" style="color:#2e7d32; line-height:1.7; font-style:italic;">
-            "O medo é o maior obstáculo à aprendizagem."
-        </p>
-        <p class="w3-small w3-opacity">— Krishnamurti</p>
-    </div>
+        <!-- ══ FILTROS ══ -->
+        <div class="bib-filtros-card">
+            <div class="bib-busca-wrap">
+                <i class="fa fa-search"></i>
+                <input id="inputBusca" type="text" placeholder="Buscar por autor, título ou área...">
+            </div>
+            <p class="bib-filtros-label">Filtrar por área</p>
+            <div id="botoes-filtro"></div>
+            <p id="contador"></p>
+        </div>
+
+        <!-- ══ GRID ══ -->
+        <div id="grid-bib"></div>
+
+        <!-- ══ CITAÇÃO ══ -->
+        <div class="citacao-final">
+            <i class="fa fa-quote-left" style="font-size:1.5rem; color:#c8e6c9;"></i>
+            <blockquote>"O medo é o maior obstáculo à aprendizagem."</blockquote>
+            <cite>Krishnamurti</cite>
+        </div>
+
+    </div><!-- /.texto-body-pad -->
 
 </main>
 
@@ -94,14 +246,16 @@ let todasRefs = [];
 let filtroAtivo = 'Todos';
 
 async function carregarBibliografia() {
-    const res = await fetch('/js/bibliografias.json');
-    const obj  = await res.json();
-
-    // Converte objeto {chave: {...}} em array com a chave como id
-    todasRefs = Object.entries(obj).map(([id, r]) => ({ id, ...r }));
-
-    gerarBotoes();
-    renderizar(todasRefs);
+    try {
+        const res = await fetch('/js/bibliografias.json');
+        const obj = await res.json();
+        todasRefs = Object.entries(obj).map(([id, r]) => ({ id, ...r }));
+        gerarBotoes();
+        renderizar(todasRefs);
+    } catch (e) {
+        document.getElementById('grid-bib').innerHTML =
+            '<p class="bib-vazio">Erro ao carregar referências.</p>';
+    }
 }
 
 function gerarBotoes() {
@@ -136,22 +290,20 @@ function aplicarFiltros() {
 
 function renderizar(lista) {
     const grid = document.getElementById('grid-bib');
+    const n = lista.length;
     document.getElementById('contador').textContent =
-        `${lista.length} referência${lista.length !== 1 ? 's' : ''} encontrada${lista.length !== 1 ? 's' : ''}`;
+        `${n} referência${n !== 1 ? 's' : ''} encontrada${n !== 1 ? 's' : ''}`;
 
-    if (!lista.length) {
-        grid.innerHTML = `<div class="w3-center w3-padding-64 w3-col s12">
-            <p class="w3-large w3-opacity">Nenhuma referência encontrada.</p></div>`;
+    if (!n) {
+        grid.innerHTML = '<p class="bib-vazio">Nenhuma referência encontrada.</p>';
         return;
     }
 
     grid.innerHTML = lista.map(r => `
-        <div class="w3-col l4 m6 s12 w3-margin-bottom animate-top">
-            <div class="w3-card w3-white w3-round-large w3-padding-16 card-rpg">
-                <span class="w3-tag ${r.cor || 'w3-green'} w3-round w3-tiny"><b>${(r.tag || 'Referência').toUpperCase()}</b></span>
-                <p class="w3-small" style="line-height:1.6; color:#333; margin:8px 0 4px;">${r.texto || ''}</p>
-                ${r.complemento ? `<p class="complemento-bib">${r.complemento}</p>` : ''}
-            </div>
+        <div class="ref-card">
+            <span class="ref-tag">${(r.tag || 'Referência').toUpperCase()}</span>
+            <p class="ref-texto">${r.texto || ''}</p>
+            ${r.complemento ? `<p class="ref-complemento">${r.complemento}</p>` : ''}
         </div>
     `).join('');
 }

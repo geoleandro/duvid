@@ -2,6 +2,11 @@
 //  duvid-db.js  —  v2.1  (Híbrido localStorage + MySQL + Login)
 // =============================================================
 
+// Guard: duvid-audio.js antigo pode não ter .tocar — evita TypeError em produção.
+if (typeof DuvidAudio !== 'undefined' && typeof DuvidAudio.tocar !== 'function') {
+    DuvidAudio.tocar = function () {};
+}
+
 const DB_CHAVE       = "duvid_globinhos";
 const NOME_CHAVE     = "duvid_nome";
 const PATENTE_CHAVE  = "duvid_patente";
@@ -73,11 +78,83 @@ const DuvidDB = {
             'padding:12px 20px', 'box-shadow:0 -4px 16px rgba(0,0,0,.2)'
         ].join(';');
         banner.innerHTML = '<span>⚠️ Sua sessão expirou — o progresso desta sessão <b>não foi salvo</b>.</span>'
-            + '<a href="/home.php" style="background:#fff;color:#e65100;padding:6px 16px;border-radius:20px;'
-            + 'font-weight:700;text-decoration:none;white-space:nowrap;">Fazer login →</a>'
+            + '<button onclick="DuvidDB._abrirRelogin()" style="background:#fff;color:#e65100;padding:6px 16px;'
+            + 'border-radius:20px;font-weight:700;border:none;cursor:pointer;white-space:nowrap;'
+            + 'font-family:\'Montserrat\',sans-serif;">Fazer login →</button>'
             + '<button onclick="document.getElementById(\'duvid-sessao-banner\').remove()"'
             + ' style="background:transparent;border:none;color:#fff;font-size:1.2rem;cursor:pointer;line-height:1;">&times;</button>';
         document.body.appendChild(banner);
+    },
+
+    _abrirRelogin: function() {
+        var velho = document.getElementById('duvid-relogin-modal');
+        if (velho) velho.remove();
+        var modal = document.createElement('div');
+        modal.id = 'duvid-relogin-modal';
+        modal.style.cssText = 'position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.5);'
+            + 'display:flex;align-items:center;justify-content:center;padding:16px;';
+        modal.innerHTML = ''
+            + '<div style="background:#fff;border-radius:20px;padding:28px 24px;max-width:360px;width:100%;'
+            + 'font-family:\'Montserrat\',sans-serif;box-shadow:0 8px 32px rgba(0,0,0,.18);">'
+            + '<h3 style="margin:0 0 6px;font-size:1rem;font-weight:800;color:#1b5e20;">Entrar novamente 🔑</h3>'
+            + '<p style="margin:0 0 18px;font-size:.8rem;color:#888;">Sua sessão expirou. Confirme seu e-mail e PIN para continuar de onde parou.</p>'
+            + '<input id="rl-email" type="email" placeholder="Seu e-mail" autocomplete="email"'
+            + ' style="width:100%;border:1.5px solid #e0e0e0;border-radius:10px;height:42px;'
+            + 'padding:0 12px;font-size:.88rem;margin-bottom:10px;box-sizing:border-box;">'
+            + '<input id="rl-pin" type="password" placeholder="PIN de 4 dígitos" maxlength="4"'
+            + ' inputmode="numeric" autocomplete="current-password"'
+            + ' style="width:100%;border:1.5px solid #e0e0e0;border-radius:10px;height:42px;'
+            + 'padding:0 12px;font-size:.88rem;letter-spacing:6px;margin-bottom:6px;box-sizing:border-box;">'
+            + '<p id="rl-erro" style="display:none;color:#e53935;font-size:.75rem;margin:0 0 10px;font-weight:600;"></p>'
+            + '<button onclick="DuvidDB._confirmarRelogin()"'
+            + ' style="width:100%;background:#2e7d32;color:#fff;border:none;border-radius:10px;'
+            + 'height:44px;font-weight:700;font-size:.9rem;cursor:pointer;font-family:\'Montserrat\',sans-serif;">'
+            + 'Entrar e continuar</button>'
+            + '<button onclick="document.getElementById(\'duvid-relogin-modal\').remove()"'
+            + ' style="width:100%;background:none;border:none;margin-top:10px;color:#aaa;'
+            + 'font-size:.78rem;cursor:pointer;font-family:\'Montserrat\',sans-serif;">Cancelar</button>'
+            + '</div>';
+        document.body.appendChild(modal);
+        setTimeout(function() { var el = document.getElementById('rl-email'); if (el) el.focus(); }, 50);
+    },
+
+    _confirmarRelogin: function() {
+        var email = (document.getElementById('rl-email') || {}).value || '';
+        var pin   = (document.getElementById('rl-pin')   || {}).value || '';
+        var erro  = document.getElementById('rl-erro');
+        var nome  = localStorage.getItem('duvid_nome') || '';
+
+        if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            if (erro) { erro.textContent = 'Digite seu e-mail.'; erro.style.display = 'block'; }
+            return;
+        }
+        if (!/^\d{4}$/.test(pin)) {
+            if (erro) { erro.textContent = 'PIN deve ter 4 números.'; erro.style.display = 'block'; }
+            return;
+        }
+
+        fetch('/api/aluno.php', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ nome: nome, email: email, pin: pin })
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(dados) {
+            if (dados.erro || dados.bloqueado) {
+                if (erro) { erro.textContent = dados.erro || 'E-mail ou PIN incorretos.'; erro.style.display = 'block'; }
+                return;
+            }
+            // Sessão restaurada — remove avisos e atualiza cache
+            DuvidDB._sessaoAvisoAtivo = false;
+            var banner = document.getElementById('duvid-sessao-banner');
+            var modal  = document.getElementById('duvid-relogin-modal');
+            if (banner) banner.remove();
+            if (modal)  modal.remove();
+            DuvidDB._aplicarDadosBanco(dados);
+        })
+        .catch(function() {
+            if (erro) { erro.textContent = 'Erro de conexão. Tente novamente.'; erro.style.display = 'block'; }
+        });
     },
 
     // ==========================================================
@@ -175,10 +252,14 @@ const DuvidDB = {
         const progressoAtual = this.verificarConquistas();
         if (progressoAtual.lvl > lvlAnterior) {
             if (typeof playSomFinal        === "function") playSomFinal(true);
+            // catálogo novo (docs/PROMPT-AUDIO-SYSTEM.md) — silencioso até o arquivo /audio/fx/nivel-up existir
+            if (typeof DuvidAudio !== "undefined") DuvidAudio.tocar('nivel-up');
             if (typeof dispararComemoracao === "function") dispararComemoracao('nivel');
             this.exibirNotificacaoLevelUp(progressoAtual);
         } else {
             if (typeof playSom === "function") playSom('acerto');
+            // catálogo novo — silencioso até o arquivo /audio/fx/xp-ganho existir
+            if (typeof DuvidAudio !== "undefined") DuvidAudio.tocar('xp-ganho');
         }
 
         window.ganhosAtuais = (window.ganhosAtuais || 0) + quantidade;
@@ -218,6 +299,8 @@ const DuvidDB = {
         // Atualização otimista: reflete o reward antes da resposta do banco
         var rewardEsperado = (tipo === 'texto' ? RECOMPENSA_TEXTO : RECOMPENSA_QUESTOES) + bonus;
         this._cache.globinhos = (this._cache.globinhos || 0) + rewardEsperado;
+        // Atualiza ganhosAtuais para o painel lateral (tp-glob-val) refletir o XP
+        window.ganhosAtuais = (window.ganhosAtuais || 0) + rewardEsperado;
         if (typeof atualizarInterface === "function") atualizarInterface();
 
         var alunoId = this._getAlunoId();
@@ -297,6 +380,8 @@ const DuvidDB = {
     },
 
     _exibirConquista: function (conquista) {
+        // catálogo novo — silencioso até o arquivo /audio/fx/conquista existir
+        if (typeof DuvidAudio !== "undefined") DuvidAudio.tocar('conquista');
         var el = document.createElement('div');
         el.innerHTML = '<div class="w3-animate-zoom w3-card-4 w3-round-large w3-padding" style="position:fixed;bottom:20px;right:20px;z-index:10000;text-align:center;background:#333;color:white;min-width:200px;"><span style="font-size:2rem">' + (conquista.icone || '') + '</span><br><b>Conquista desbloqueada!</b><br><span>' + conquista.nome + '</span></div>';
         document.body.appendChild(el);

@@ -100,17 +100,25 @@ let nomeEstudante = (typeof DuvidDB !== "undefined") ? DuvidDB.getNome() : "Estu
 // --- MOTOR DE NAVEGAÇÃO (A que resolve o problema do container) ---
 function MostrarProximo(botao) {
     // Acha o tópico pai, não importa quão fundo o botão esteja
-    const topicoAtual = botao.closest('.topico');
+    const topicoAtual = botao ? botao.closest('.topico') : null;
+    if (!topicoAtual) return;
+
     const proximoTopico = topicoAtual.nextElementSibling;
+    if (!proximoTopico) return;
 
-    if (proximoTopico && !proximoTopico.classList.contains('mostrar')) {
+    // Garante que o próximo tópico está visível
+    if (!proximoTopico.classList.contains('mostrar')) {
         proximoTopico.classList.add('mostrar');
-        proximoTopico.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-        atualizarInterface();
-        addProgressBar();
-        botao.style.display = 'none';
     }
+
+    // Sempre rola até ele (mesmo que já tivesse mostrar)
+    setTimeout(function () {
+        proximoTopico.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 50);
+
+    atualizarInterface();
+    addProgressBar();
+    if (botao) botao.style.display = 'none';
 }
 
 
@@ -327,33 +335,26 @@ function mostraCinza() {
 
 
 function aplicarEstadoFinalAula() {
-    // Selecionamos TUDO o que queremos "desativar" de uma vez só
-    const seletores = 'p, h1, h2, h3, h4, span, li, b, strong, i, a, label, img, button, input';
-    const elementos = document.querySelectorAll(seletores);
+    // Adiciona classe ao body → regras CSS em texto-estilo.css fazem o cinza
+    // (CSS com !important sobrepõe o anti-cinza do mesmo arquivo, por source order)
+    document.body.classList.add('aula-concluida');
 
-    elementos.forEach(el => {
-        // FILTRO DE EXCEÇÃO: Ignora Header, Modal, Bibliografia e botão de melhoria
-        if (el.closest('.bibliografias') || el.closest('#id01') || el.closest('#header-placeholder') || el.classList.contains('btn-melhorar-aula')) {
-            return; // Pula este elemento
+    // Desabilita botões e inputs dentro do conteúdo da aula
+    // (exceto sidebar, painel lateral, navbar e controle de áudio)
+    const seletores = 'button, input';
+    document.querySelectorAll(seletores).forEach(el => {
+        if (
+            el.closest('.hdr-top-wrap') ||
+            el.closest('#sidebar-duvid') ||
+            el.closest('.texto-painel') ||
+            el.closest('#duvid-audio-float') ||
+            el.closest('#id01') ||
+            el.classList.contains('btn-melhorar-aula')
+        ) {
+            return;
         }
-
-        // 1. Aplica a transição suave
-        el.style.transition = "all 3s ease";
-
-        // 2. Lógica por tipo de elemento
-        if (el.tagName === 'IMG') {
-            el.style.filter = "grayscale(100%)";
-            el.style.opacity = "0.5";
-        }
-        else if (el.tagName === 'BUTTON' || el.tagName === 'INPUT') {
-            el.disabled = true;
-            el.style.cursor = "not-allowed";
-            el.style.filter = "grayscale(0.8)";
-        }
-        else {
-            // Textos em geral
-            el.style.color = "#a0a0a0";
-        }
+        el.disabled = true;
+        el.style.cursor = 'not-allowed';
     });
 }
 
@@ -803,6 +804,24 @@ async function injetarLinksAula(chaves, containerId = 'links-gerados') {
 
 // Chama a injeção automaticamente quando o script carregar
 document.addEventListener('DOMContentLoaded', injetarModalFinalizacao);
+
+// ── Keepalive de sessão ───────────────────────────────────────────────────────
+// Em aulas longas o aluno pode ficar 20-30 min lendo, expirando a sessão PHP.
+// A cada 8 min fazemos um fetch leve em aluno.php para renovar o cookie de sessão,
+// garantindo que o POST de conclusão (progresso.php) ainda seja aceito.
+(function iniciarKeepalive() {
+    var INTERVALO_MS = 8 * 60 * 1000; // 8 minutos
+    function ping() {
+        var id = typeof DuvidDB !== 'undefined' ? DuvidDB._getAlunoId() : null;
+        if (!id) return;
+        fetch('/api/aluno.php?id=' + id, { credentials: 'same-origin' })
+            .catch(function() {}); // silencioso — só renova a sessão
+    }
+    setTimeout(function loop() {
+        ping();
+        setTimeout(loop, INTERVALO_MS);
+    }, INTERVALO_MS);
+}());
 
 
 // ── Frases aleatórias para a seção P&R ──────────────────────────────────────

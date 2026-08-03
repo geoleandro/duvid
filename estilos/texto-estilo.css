@@ -500,6 +500,12 @@ body.dark-mode .texto-content-inner .topico:not(:first-child):not(.pergunta-bloc
     background: transparent !important;
 }
 
+/* Garante visibilidade com especificidade (0,3,0) + !important,
+   sobrepõe qualquer display:none vindo do ModeloCss */
+.texto-content-inner .topico.mostrar {
+    display: block !important;
+}
+
 .texto-content-inner .topico:first-child {
     padding-top: 0;
 }
@@ -1394,6 +1400,50 @@ body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .pq-header .pq-
 
 body:not(.dark-mode) .texto-content-inner .w3-text-green { color: #2e7d32 !important; }
 body:not(.dark-mode) .texto-content-inner .w3-text-red   { color: #c62828 !important; }
+
+/* ════════════════════════════════════════════════════════════════════
+   ESTADO FINAL DA AULA — body.aula-concluida
+   Especificidade igual ao anti-cinza (0,2,2) mas vem depois → ganha.
+   !important necessário para sobrepor os !important do anti-cinza acima.
+   ════════════════════════════════════════════════════════════════════ */
+body.aula-concluida .texto-content-inner p,
+body.aula-concluida .texto-content-inner h1,
+body.aula-concluida .texto-content-inner h2,
+body.aula-concluida .texto-content-inner h3,
+body.aula-concluida .texto-content-inner h4,
+body.aula-concluida .texto-content-inner li,
+body.aula-concluida .texto-content-inner b,
+body.aula-concluida .texto-content-inner strong,
+body.aula-concluida .texto-content-inner span,
+body.aula-concluida .texto-content-inner a,
+body.aula-concluida .texto-content-inner label {
+    color: #a0a0a0 !important;
+    transition: color 3s ease !important;
+}
+body.aula-concluida .texto-content-inner img {
+    filter: grayscale(100%) !important;
+    opacity: 0.5 !important;
+    transition: filter 3s ease, opacity 3s ease !important;
+}
+
+/* Questões práticas e Anote aí — filter no container bypassa batalha de
+   especificidade nos filhos (pergunta-bloco usa color:#fff !important) */
+body.aula-concluida .texto-content-inner .topico.pergunta-bloco,
+body.aula-concluida .texto-content-inner .postit-tp1 {
+    filter: grayscale(1) opacity(0.5) !important;
+    transition: filter 3s ease !important;
+    pointer-events: none !important;
+}
+
+/* Conceitos clicáveis (.termo) — cinza + desabilita clique */
+body.aula-concluida .texto-content-inner .termo {
+    color: #a0a0a0 !important;
+    background: #e8e8e8 !important;
+    box-shadow: none !important;
+    pointer-events: none !important;
+    cursor: default !important;
+    transition: color 3s ease, background 3s ease !important;
+}
 
 /* ════════════════════════════════════════════════════════════════════
    DARK MODE

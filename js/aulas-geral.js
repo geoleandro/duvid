@@ -259,9 +259,9 @@ window.onclick = function(event) {
 
 // Resumo na home
 async function atualizarResumoHome() {
+    // Mostra o card de trilhas legado se ainda existir (compatibilidade)
     const painelResumo = document.getElementById('resumo-geral');
-    if (!painelResumo) return;
-    painelResumo.style.display = 'block';
+    if (painelResumo) painelResumo.style.display = 'block';
 
     for (var a of ['1', '2', '3']) {
         try {

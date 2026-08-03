@@ -74,7 +74,6 @@
         main.appendChild(bodyRow);
 
         iniciarProgresso();
-        iniciarAntiCinza();
         carregarDadosAula();
         enhancePerguntaBlocos();
     }
@@ -559,56 +558,7 @@
         });
     }
 
-    // ── 5. Anti-cinza: impede aplicarEstadoFinalAula() de cinzar o texto ─────
-    function iniciarAntiCinza() {
-        var inner = document.querySelector('.texto-content-inner');
-        if (!inner) return;
-
-        // Limpa cinza que já pode ter sido aplicado antes deste script rodar
-        function limpar() {
-            inner.querySelectorAll('*').forEach(function(el) {
-                if (!el.style) return;
-                var cor = el.style.color;
-                if (cor === 'rgb(160, 160, 160)' || cor === '#a0a0a0') {
-                    el.style.removeProperty('color');
-                }
-                if (el.style.transition && el.style.transition.includes('3s')) {
-                    el.style.removeProperty('transition');
-                }
-                // Restaura imagens (não toca em ícones de feedback)
-                if (el.tagName === 'IMG' && el.style.filter && el.style.filter.includes('grayscale')) {
-                    if (!el.id || (!el.id.includes('modal') && !el.id.includes('globinho'))) {
-                        el.style.removeProperty('filter');
-                        el.style.removeProperty('opacity');
-                    }
-                }
-            });
-        }
-
-        // Observa mudanças inline de style dentro do conteúdo
-        var obs = new MutationObserver(function(mutations) {
-            mutations.forEach(function(m) {
-                var el = m.target;
-                if (!el.style) return;
-                var cor = el.style.color;
-                if (cor === 'rgb(160, 160, 160)' || cor === '#a0a0a0') {
-                    el.style.removeProperty('color');
-                }
-                if (el.style.transition && el.style.transition.includes('3s')) {
-                    el.style.removeProperty('transition');
-                }
-            });
-        });
-
-        obs.observe(inner, { subtree: true, attributes: true, attributeFilter: ['style'] });
-
-        // Limpa imediatamente e após 1s e 4s (a função usa transition de 3s)
-        limpar();
-        setTimeout(limpar, 1000);
-        setTimeout(limpar, 4500);
-    }
-
-    // ── 6. Compartilhar ───────────────────────────────────────────────────────
+    // ── 5. Compartilhar ───────────────────────────────────────────────────────
     window.compartilharAula = function () {
         var titulo = (document.getElementById('h1') || {}).textContent || document.title;
         var url = window.location.href;

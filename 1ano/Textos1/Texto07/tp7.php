@@ -872,6 +872,57 @@
         </div>
 
 
+        <!-- BLOCO: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Qual a diferença entre o GPS do meu celular e o GPS usado por um avião ou por um exército?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                A tecnologia por trás é a mesma, o cálculo por triangulação com os satélites, mas a precisão muda
+                bastante. O receptor do seu celular é mais simples e costuma ter uma margem de erro de alguns
+                metros, o suficiente para te guiar até uma rua. Aviões, navios e aplicações militares usam
+                receptores mais caros, combinados com outras correções de sinal, que chegam a uma precisão de
+                centímetros. É por isso que sistemas mais modernos, como o BeiDou chinês, disputam tanto essa
+                precisão: alguns centímetros de diferença podem valer muito dinheiro, ou ter peso estratégico.
+            </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se um satélite consegue tirar fotos da Terra o tempo todo, isso quer dizer que alguém pode estar
+                    me observando agora mesmo?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Tecnicamente, é possível, mas na prática não funciona como nos filmes. Os satélites de
+                sensoriamento remoto não ficam parados sobre um único ponto o tempo todo, eles orbitam a Terra e
+                revisitam a mesma área a cada poucos dias, não a cada segundo. Além disso, a resolução das imagens
+                comerciais mais usadas mostra construções e veículos, não detalhes de uma pessoa. Sistemas capazes
+                de mais detalhes existem, mas são poucos, caros e controlados por governos, justamente por causa do
+                potencial de vigilância que essa tecnologia carrega.
+            </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que o radar consegue enxergar a Amazônia mesmo com tanta nuvem, se ele também é um tipo de
+                    sensor remoto?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Porque existem dois tipos de sensoriamento remoto: o passivo, que depende da luz do Sol refletida
+                pela superfície (como uma câmera fotográfica comum), e o ativo, como o radar, que emite sua própria
+                energia, na forma de micro-ondas, e capta o retorno desse sinal. Nuvens bloqueiam a luz visível,
+                mas praticamente não interferem nas micro-ondas do radar. Foi exatamente por isso que o projeto
+                RadamBrasil escolheu o radar para mapear a Amazônia nos anos 1970: era a única forma de enxergar o
+                território por baixo das nuvens que cobrem a região boa parte do ano.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO: Questoes para o caderno -->
         <div class="topico">
             <div class="w3-panel w3-pale-yellow w3-margin">

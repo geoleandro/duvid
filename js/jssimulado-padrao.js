@@ -112,6 +112,8 @@ async function carregarSimulado(prova, qtd = 0, dif = '', tags = []) {
         const _finalizarBase = window.finalizar;
         window.finalizar = function () {
             _finalizarBase();
+            // catálogo novo — silencioso até o arquivo /audio/fx/simulado-fim existir
+            if (typeof DuvidAudio !== 'undefined') DuvidAudio.tocar('simulado-fim');
             _salvarResultadoSimulado(vestibular, ano);
         };
 
