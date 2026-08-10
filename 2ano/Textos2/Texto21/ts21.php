@@ -6,10 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Bacias hidrográficas, rios, aquíferos e o potencial hidrelétrico do Brasil: entenda como a água molda a ocupação do território, a economia e a matriz energética brasileira.">
+    <meta property="og:title" content="2º ano - Texto 21 - Hidrografia brasileira">
+    <meta property="og:description" content="Bacias hidrográficas, rios, aquíferos e o potencial hidrelétrico do Brasil: entenda como a água molda a ocupação do território, a economia e a matriz energética brasileira.">
     <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/w3.css">
@@ -39,6 +42,8 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>2º ano - Texto 21 - Hidrografia brasileira</title>
 
@@ -95,6 +100,12 @@
 
         <p>Na aula de hoje vamos estudar as bacias hidrográficas do Brasil. Estudar a hidrografia brasileira nos permite compreender como a água influencia a distribuição da população, as atividades econômicas e os desafios ambientais que o país enfrenta.</p>
 
+        <p>Ao longo do texto, você vai conhecer as principais bacias hidrográficas brasileiras — da Amazônica à
+        Platina —, entender por que o Brasil depende tanto das hidrelétricas para gerar eletricidade e onde está o
+        maior potencial hídrico ainda pouco aproveitado do país, além de descobrir como funcionam os aquíferos
+        subterrâneos e por que mesmo regiões "ricas em água", como a Região Sudeste, já enfrentaram crises graves de
+        abastecimento.</p>
+
      
 
 
@@ -109,26 +120,6 @@
     </div>
 
 <div class="topico">
-        <div class="w3-pale-yellow">
-            <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-            
-            <h3>1. Explique a importância das bacias hidrográficas para o Brasil, citando pelo menos três funções essenciais que elas desempenham.</h3>
-            <h3>2. O que são divisores de água e qual a sua importância na formação das bacias hidrográficas?</h3>
-            <h3>3. Compare as características do Rio Amazonas com as de outros rios brasileiros mencionados no texto, focando no regime hídrico e na importância socioeconômica.</h3>
-            <h3>4. Descreva as características e a importância da Bacia Amazônica para o Brasil e para o mundo.</h3>
-            <h3>5. Por que o Aquífero Guarani é considerado uma reserva estratégica de água doce? Quais são os desafios associados à sua exploração?</h3>
-            <h3>6. Qual é a diferença entre rios perenes e rios temporários? Dê exemplos desses tipos de rios no Brasil.</h3>
-            <h3>7. A transposição do Rio São Francisco é um dos maiores projetos de infraestrutura hídrica do Brasil. Explique seus objetivos e os desafios que essa obra enfrenta.</h3>
-            <h3>8. Como a Bacia Platina contribui para o desenvolvimento econômico do Brasil? Cite pelo menos duas atividades econômicas associadas a essa bacia.</h3>
-            <h3>9. Explique como a localização geográfica e os centros dispersores de água influenciam a rede hidrográfica do Brasil.</h3>
-            <h3>10. Discuta a relação entre a distribuição desigual de recursos hídricos no Brasil e os desafios de gestão enfrentados pelo país.</h3>
-        </div>
-        
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-
-<div class="topico">
 
         <h2>Bacias Hidrográficas: Definição e Importância</h2>
 
@@ -139,36 +130,46 @@
            </div>
     
     
-        <p>Uma bacia hidrográfica, também conhecida como bacia de drenagem, é uma área ou região onde as águas de chuva, montanhas, lençóis subterrâneos e rios escoam em direção a um curso d'água principal e seus afluentes. Em termos simples, é a porção de terreno onde as águas convergem para um único ponto de saída, como um rio, lago ou oceano.</p>
+        <p>Uma <span class="termo" data-palavra="bacia hidrográfica" data-definicao="Área ou região onde as águas de chuva, nascentes e lençóis subterrâneos escoam em direção a um curso d'água principal e seus afluentes, convergindo para um único ponto de saída (rio, lago ou oceano).">bacia hidrográfica</span>, também conhecida como bacia de drenagem, é uma área ou região onde as águas de chuva, montanhas, lençóis subterrâneos e rios escoam em direção a um curso d'água principal e seus afluentes. Em termos simples, é a porção de terreno onde as águas convergem para um único ponto de saída, como um rio, lago ou oceano.</p>
     
         <p>A Importância das Bacias Hidrográficas<br>As bacias hidrográficas desempenham um papel fundamental na vida humana e no meio ambiente. Elas são fontes essenciais de recursos hídricos, fornecendo água para o consumo humano, a irrigação de culturas, a produção industrial e a geração de energia. Além disso, as bacias sustentam ecossistemas diversos e complexos, abrigando uma ampla variedade de flora e fauna.</p>
     
         <p>No aspecto econômico, muitas bacias hidrográficas são vitais para atividades como pesca, agricultura irrigada e transporte fluvial. No Brasil, grandes projetos de infraestrutura, como a transposição do Rio São Francisco, demonstram a importância estratégica dessas áreas para o desenvolvimento regional e nacional.</p>
     
-        <p>Divisores de Água e Rede Hidrográfica<br>Os divisores de água, também conhecidos como interflúvios, são as fronteiras naturais que separam uma bacia hidrográfica de outra. Eles estão geralmente localizados em áreas elevadas, como montanhas ou colinas, e desempenham um papel crucial na determinação de para onde as águas escoam.</p>
+        <p>Divisores de Água e Rede Hidrográfica<br>Os <span class="termo" data-palavra="divisores de água" data-definicao="Também chamados de interflúvios: fronteiras naturais, geralmente em áreas elevadas, que separam uma bacia hidrográfica de outra e determinam para onde as águas escoam.">divisores de água</span>, também conhecidos como interflúvios, são as fronteiras naturais que separam uma bacia hidrográfica de outra. Eles estão geralmente localizados em áreas elevadas, como montanhas ou colinas, e desempenham um papel crucial na determinação de para onde as águas escoam.</p>
     
         <p>No Brasil, a rede hidrográfica é vasta e complexa. Ela é formada pelo conjunto de todos os cursos d'água de uma região, incluindo rios principais, afluentes e córregos. Essa rede recebe água de três centros dispersores: a Cordilheira dos Andes, o Planalto das Guianas e o Planalto Central Brasileiro, o que contribui para a diversidade e a extensão das bacias hidrográficas brasileiras.</p>
-    
+
+        <p>Para organizar a gestão desse território tão extenso, o poder público criou uma divisão oficial. Até 2003, o Brasil era dividido em sete grandes regiões hidrográficas; a partir da Resolução nº 32 do Conselho Nacional de Recursos Hídricos, esse número passou para doze: Amazônica, Tocantins-Araguaia, Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, São Francisco, Parnaíba, Atlântico Leste, Atlântico Sudeste, Atlântico Sul, Paraná, Paraguai e Uruguai. Cada região reúne uma ou mais bacias hidrográficas e serve de base para o planejamento de políticas de recursos hídricos em todo o país.</p>
+
+        <p>Essa gestão não é feita apenas pelo governo federal. A <span class="termo" data-palavra="Agência Nacional de Águas e Saneamento Básico (ANA)" data-definicao="Órgão federal responsável por regular o uso da água em rios de domínio da União, emitindo outorgas e fiscalizando o cumprimento da Política Nacional de Recursos Hídricos.">Agência Nacional de Águas e Saneamento Básico (ANA)</span>
+        é o órgão federal responsável por regular o uso da água nos rios de domínio da União, por meio da chamada
+        outorga: uma autorização que define, por prazo determinado, quanto de água uma indústria, uma prefeitura ou
+        um produtor rural pode captar de um rio ou represa. Em cada bacia, essas decisões também passam pelos
+        Comitês de Bacia Hidrográfica, conhecidos como "parlamentos das águas", que reúnem representantes do poder
+        público, dos usuários (como indústrias e irrigantes) e da sociedade civil para discutir prioridades de uso,
+        mediar conflitos e definir critérios de cobrança pelo uso da água em cada região.</p>
+
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
-    
+
     </div>
 
 <div class="topico">
 
         <h2>Características dos Rios Brasileiros</h2>
     
-        <p>Os rios brasileiros são, em sua maioria, alimentados pelas chuvas, apresentando um regime hídrico pluvial. No entanto, há exceções, como o Rio Amazonas, que possui um regime misto, sendo alimentado tanto pelas chuvas quanto pelo derretimento de neves nos Andes.</p>
+        <p>Os rios brasileiros são, em sua maioria, alimentados pelas chuvas, apresentando um <span class="termo" data-palavra="regime hídrico pluvial" data-definicao="Padrão de variação da vazão de um rio determinado principalmente pelo volume de chuvas da região, com cheias na estação chuvosa e vazante na seca.">regime hídrico pluvial</span>. No entanto, há exceções, como o Rio Amazonas, que possui um regime misto, sendo alimentado tanto pelas chuvas quanto pelo derretimento de neves nos Andes.</p>
     
         <h2>Curiosidades sobre os Rios Brasileiros</h2>
     
-        <p><strong>Perenidade:</strong> A maioria dos rios no Brasil é perene, ou seja, eles possuem água durante todo o ano. No entanto, em regiões semiáridas, como o Nordeste, existem rios temporários, que secam em períodos de estiagem.</p>
+        <p><strong>Perenidade:</strong> A maioria dos rios no Brasil é <span class="termo" data-palavra="perene" data-definicao="Diz-se do rio que mantém água correndo durante todo o ano, mesmo nos períodos mais secos, geralmente porque é alimentado pelo lençol freático.">perene</span>, ou seja, eles possuem água durante todo o ano. No entanto, em regiões semiáridas, como o Nordeste, existem rios temporários, que secam em períodos de estiagem.</p>
     
         <p><strong>Energia:</strong> Muitos rios brasileiros, especialmente aqueles localizados em planaltos, são aproveitados para a geração de energia hidrelétrica. Isso ocorre devido aos desníveis topográficos e ao elevado índice pluviométrico nessas regiões. Um exemplo icônico é o Rio Paraná, que abriga a Usina Hidrelétrica de Itaipu, uma das maiores do mundo.</p>
     
-        <p><strong>Navegação:</strong> Rios de planície, como o Amazonas e o Paraguai, são amplamente utilizados para navegação, servindo como importantes vias de transporte para pessoas e mercadorias.</p>
+        <p><strong>Navegação:</strong> Rios de planície, como o Amazonas e o Paraguai, são amplamente utilizados para navegação, servindo como importantes vias de transporte para pessoas e mercadorias. Mesmo rios de planalto, mais adequados para a geração de energia, podem ser aproveitados para navegação quando ganham eclusas — estruturas que permitem às embarcações vencer o desnível criado pelas barragens das usinas. É o caso da Hidrovia Tietê-Paraná, que soma cerca de 2.400 km de extensão (1.600 km no Rio Paraná e 800 km no Rio Tietê, em São Paulo) e conecta cinco estados produtores de grãos — Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais e Paraná — ao transporte fluvial de soja, milho e outros produtos agrícolas, funcionando como alternativa mais barata e menos poluente ao transporte rodoviário nessas regiões.</p>
     
-        <p><strong>Fozes:</strong> O Brasil possui exemplos de diferentes tipos de fozes. O Rio Amazonas, por exemplo, possui uma foz mista, com delta e estuário. Já o Rio São Francisco tem uma foz em estuário.</p>
+        <p><strong>Fozes:</strong> O Brasil possui exemplos de diferentes tipos de <span class="termo" data-palavra="foz" data-definicao="Local onde um rio desemboca em outro curso d'água, em um lago ou no mar. Pode ser em delta (vários braços separados por sedimentos) ou em estuário (canal único e alargado).">fozes</span>. O Rio Amazonas, por exemplo, possui uma foz mista, com delta e estuário. Já o Rio São Francisco tem uma foz em estuário.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -203,18 +204,28 @@
             típicas de rios que drenam áreas mais antigas e estáveis do relevo, como o Planalto Brasileiro e as
             Guianas.</p>
 
+        <p><strong>Rios voadores:</strong> A influência da Bacia Amazônica sobre o restante do país vai muito além dos
+        seus próprios cursos d'água. Por meio da evapotranspiração, as árvores da floresta devolvem à atmosfera boa
+        parte da água que recebem das chuvas — uma árvore de grande porte pode liberar mais de mil litros de água
+        por dia. Essa umidade forma correntes de ar carregadas de vapor, apelidadas de "rios voadores", que se
+        deslocam a alturas entre 1,5 mil e 3 mil metros e, ao esbarrar na Cordilheira dos Andes, são desviadas em
+        direção ao Centro-Oeste, ao Sudeste e ao Sul do Brasil. Essa umidade tem relação direta com a formação de
+        chuvas que abastecem represas como o próprio Sistema Cantareira, citado mais adiante neste texto — o que
+        significa que o desmatamento na Amazônia pode enfraquecer as chuvas em regiões muito distantes da floresta.</p>
+
         <h3>Bacia do Tocantins-Araguaia</h3>
         <p>A Bacia do Tocantins-Araguaia é a maior bacia hidrográfica exclusivamente brasileira. Seus principais rios, o Tocantins e o Araguaia, têm grande relevância tanto para a navegação quanto para a geração de energia. A Usina Hidrelétrica de Tucuruí, localizada no Rio Tocantins, é uma das maiores do Brasil e desempenha um papel essencial no fornecimento de energia para a região Norte.</p>
         <p><strong>Curiosidade:</strong> O Rio Araguaia abriga a maior ilha fluvial do mundo, a Ilha do Bananal, que é um importante santuário ecológico.</p>
     
         <h3>Bacia do São Francisco</h3>
         <p>O Rio São Francisco, conhecido como "Velho Chico", é o principal rio da bacia que leva seu nome. Ele nasce na Serra da Canastra, em Minas Gerais, e percorre mais de 2.800 km até desaguar no Oceano Atlântico, entre os estados de Alagoas e Sergipe.</p>
-        <p><strong>Desafios:</strong> A transposição do Rio São Francisco é um dos maiores projetos de infraestrutura hídrica do Brasil. O objetivo é levar água para regiões do semiárido nordestino que sofrem com a seca, beneficiando mais de 12 milhões de pessoas.</p>
+        <p><strong>Desafios:</strong> A <span class="termo" data-palavra="transposição" data-definicao="Obra de infraestrutura hídrica que desvia parte da água de um rio, por meio de canais e adutoras, para abastecer regiões distantes que sofrem com escassez de água.">transposição</span> do Rio São Francisco é um dos maiores projetos de infraestrutura hídrica do Brasil. O objetivo é levar água para regiões do semiárido nordestino que sofrem com a seca, beneficiando mais de 12 milhões de pessoas em cerca de 400 municípios do Ceará, Paraíba, Pernambuco e Rio Grande do Norte. Desde 2025, o governo federal também amplia a capacidade de bombeamento do projeto, com uma nova etapa que deve beneficiar mais 8,1 milhões de pessoas em 237 municípios.</p>
         <p><strong>Importância:</strong> O Rio São Francisco é vital para a sobrevivência das populações ribeirinhas, especialmente no semiárido, onde a água é escassa. Ele também é utilizado para a irrigação de plantações, o que impulsiona a agricultura na região.</p>
     
         <h3>Bacia Platina</h3>
         <p>A Bacia Platina é formada pelos rios Paraná, Paraguai e Uruguai, sendo a segunda maior bacia hidrográfica do Brasil. O Rio Paraná é o mais importante da bacia, servindo como fonte para várias usinas hidrelétricas, incluindo Itaipu.</p>
         <p><strong>Curiosidade:</strong> A Usina Hidrelétrica de Itaipu, localizada no Rio Paraná, é uma das maiores geradoras de energia do mundo, abastecendo grande parte do Brasil e do Paraguai.</p>
+        <p><strong>Hidrovia Paraguai-Paraná:</strong> Além da energia, a Bacia Platina também sustenta uma das principais rotas de exportação do Centro-Oeste brasileiro. A Hidrovia Paraguai-Paraná soma cerca de 4.100 km, entre Cáceres (MT) e Nueva Palmira, no Uruguai, e escoa mais de 100 milhões de toneladas por ano de soja, minério de ferro e outras cargas produzidas no Mato Grosso do Sul rumo aos portos argentinos e uruguaios. O trecho brasileiro atravessa o Pantanal, o que torna o projeto controverso: entidades ambientalistas alertam que o aprofundamento do canal para grandes embarcações pode alterar o regime de cheias e secas que sustenta esse bioma.</p>
     
         <h3>Bacia do Parnaíba</h3>
         <p>Localizada no Nordeste do Brasil, a Bacia do Parnaíba abrange estados como Piauí e Maranhão. Embora seja menos expressiva economicamente em comparação com outras bacias, ela desempenha um papel importante na agricultura local e no abastecimento de água.</p>
@@ -222,14 +233,129 @@
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
-    
+
     </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Segundo a classificação do cientista Harald Sioli, marque a alternativa correta sobre as águas da Bacia Amazônica:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1a">
+<span>a) As águas pretas, como as do Rio Negro, têm essa cor por causa do alto volume de sedimentos vindos dos Andes.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto"/>
+<label class="card-opcao" for="p1b">
+<span>b) As águas brancas, como as do Rio Solimões, têm coloração barrenta por causa dos sedimentos erodidos das rochas andinas.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1c">
+<span>c) As águas claras só existem fora da Bacia Amazônica, em rios do Sul do Brasil.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'As águas brancas, como as do Rio Solimões, carregam grande quantidade de sedimentos inorgânicos erodidos das rochas andinas ao longo do curso do rio, o que dá a elas a coloração barrenta característica.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp1"></p>
+<div class="area w3-center">
+<img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
+<div class="topico">
+
+        <h2>Potencial Hidrelétrico Brasileiro</h2>
+
+        <p>Não é coincidência que tantas das bacias que acabamos de conhecer abriguem grandes usinas hidrelétricas.
+        O Brasil tem clima predominantemente equatorial e tropical, com médias pluviométricas elevadas que garantem
+        grande volume de água nos rios ao longo do ano. Some-se a isso os desníveis e cachoeiras dos extensos
+        planaltos brasileiros, e o resultado é um dos maiores <span class="termo" data-palavra="potencial hidrelétrico" data-definicao="Capacidade de um rio ou bacia gerar energia elétrica a partir da força das quedas d'água, calculada a partir do volume de água disponível e do desnível do terreno.">potenciais hidrelétricos</span>
+        do mundo. Em 2022, as usinas hidrelétricas responderam por 61,9% de toda a oferta de energia elétrica do
+        país — de longe a principal fonte da matriz elétrica brasileira, à frente de fontes como a eólica, o gás
+        natural e o bagaço de cana.</p>
+
+        <p>Esse potencial, porém, não está distribuído nem aproveitado de forma igual entre as bacias. A Região
+        Hidrográfica Amazônica é a que concentra o maior potencial hidrelétrico do país, mas, por causa da distância
+        dos grandes centros consumidores e das preocupações socioambientais associadas à inundação de áreas de
+        floresta, apenas uma pequena parcela desse potencial é de fato aproveitada. Já na Região Hidrográfica do
+        Paraná, boa parte do potencial já está em uso: além da Usina de Itaipu, destacam-se as usinas de Ilha
+        Solteira, Jupiá e Porto Primavera. No Rio Paranaíba, afluente do Paraná, ficam as usinas de Itumbiara e São
+        Simão. Na Bacia do São Francisco, além da importância para o abastecimento do semiárido, o rio abriga uma
+        sequência de grandes usinas: Três Marias, Sobradinho, Itaparica, Paulo Afonso e Xingó. Considerando as
+        usinas hidrelétricas em operação no país, os rios com maior capacidade de geração de energia são o
+        Tocantins, o São Francisco, o Grande, o Paraná, o Iguaçu e o Paranaíba.</p>
+
+        <p>Para que a energia gerada nessas usinas, muitas vezes distantes das grandes cidades, chegue aos
+        consumidores, o Brasil conta com o <span class="termo" data-palavra="Sistema Interligado Nacional" data-definicao="Rede de instalações e linhas de transmissão que conecta as usinas geradoras de energia elétrica às subestações de todo o país, permitindo transportar energia entre regiões conforme a demanda.">Sistema Interligado Nacional (SIN)</span>,
+        um conjunto de instalações e linhas de transmissão que interliga as subestações de produção de energia
+        elétrica em praticamente todo o território, garantindo o fornecimento mesmo para regiões distantes das
+        usinas. Vale lembrar que a matriz elétrica não se confunde com a matriz energética como um todo: o setor de
+        transportes brasileiro, por exemplo, ainda depende fortemente de combustíveis fósseis, o que faz do petróleo
+        e seus derivados a maior fonte de energia do país quando se considera toda a energia consumida, e não apenas
+        a eletricidade.</p>
+
+        <p><strong>O caso Belo Monte:</strong> A Usina Hidrelétrica de Belo Monte, no Rio Xingu, no Pará, é um exemplo
+        concreto do dilema entre aproveitar o potencial hidrelétrico amazônico e preservar a floresta e os povos que
+        nela vivem. Inaugurada em 2016, tornou-se uma das maiores hidrelétricas do mundo em capacidade instalada, com
+        potência de mais de 11 mil megawatts. Na prática, porém, sua geração média fica bem abaixo disso — em torno
+        de 4.500 MW — e pode cair para menos de 200 MW nos meses mais secos, porque o Rio Xingu tem vazão muito
+        irregular ao longo do ano. Para funcionar, a usina desvia cerca de 80% da água de um trecho do rio conhecido
+        como Volta Grande do Xingu para um canal artificial, deixando essa área em situação de seca praticamente
+        permanente. O caso é lembrado até hoje nos debates sobre licenciamento ambiental, pois afetou diretamente a
+        pesca e o modo de vida de comunidades indígenas e ribeirinhas da região.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+    </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Sobre o potencial hidrelétrico brasileiro, marque a alternativa correta:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2a">
+<span>a) A Região Hidrográfica Amazônica tem o menor potencial hidrelétrico do país e por isso é pouco aproveitada.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto"/>
+<label class="card-opcao" for="p2b">
+<span>b) A Região Hidrográfica Amazônica tem o maior potencial hidrelétrico do país, mas apenas uma pequena parte dele é aproveitada.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2c">
+<span>c) O Brasil não utiliza a força das águas para gerar eletricidade, dependendo apenas de termelétricas.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Amazônica é a região hidrográfica com maior potencial hidrelétrico do Brasil, mas a distância dos centros consumidores e as preocupações socioambientais fazem com que apenas uma pequena parcela desse potencial seja aproveitada — diferente da Região do Paraná, já bastante utilizada.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp2"></p>
+<div class="area w3-center">
+<img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
 
 <div class="topico">
 
         <h2>Aquíferos Brasileiros</h2>
     
-        <p>Além dos rios e bacias hidrográficas, o Brasil também é rico em aquíferos, que são reservatórios subterrâneos de água. O Aquífero Guarani é o maior e mais importante deles, estendendo-se por Brasil, Paraguai, Uruguai e Argentina.</p>
+        <p>Além dos rios e bacias hidrográficas, o Brasil também é rico em <span class="termo" data-palavra="aquífero" data-definicao="Formação geológica subterrânea, composta de rochas porosas e permeáveis, capaz de armazenar e transmitir água em quantidade explorável.">aquíferos</span>, que são reservatórios subterrâneos de água. O Aquífero Guarani é o maior e mais importante deles, estendendo-se por Brasil, Paraguai, Uruguai e Argentina.</p>
     
         <h3>Aquífero Guarani</h3>
 
@@ -241,14 +367,101 @@
         <p>O Aquífero Guarani ocupa uma área de cerca de 1,2 milhões de km² e é considerado o maior reservatório de água subterrânea do mundo. No Brasil, ele está presente em estados como São Paulo, Paraná e Mato Grosso do Sul.</p>
         <p><strong>Importância:</strong> O Aquífero Guarani é uma reserva estratégica de água doce, essencial para o abastecimento futuro do país. Sua preservação é crucial, pois a contaminação ou a exploração excessiva poderiam comprometer a disponibilidade de água para as futuras gerações.</p>
         <p><strong>Curiosidade:</strong> Em algumas regiões, o Aquífero Guarani está a mais de 1.800 metros de profundidade, o que torna sua exploração um desafio técnico e econômico.</p>
-    
+
+        <p>O Guarani não é o único aquífero relevante do país. No Norte, o Aquífero Alter do Chão, sob a região de
+        Manaus, também é um dos maiores reservatórios subterrâneos do mundo em volume, embora ainda seja pouco
+        estudado. Já o Aquífero Bambuí, que se estende por Minas Gerais, Bahia e Goiás, é formado por rochas
+        calcárias e está associado a importantes sistemas de cavernas. Assim como o Guarani, esses reservatórios só
+        cumprem seu papel de reserva estratégica se forem protegidos contra a contaminação por esgoto, agrotóxicos e
+        resíduos industriais, já que a água subterrânea, uma vez poluída, pode levar décadas para se recuperar.</p>
+
+        <h3>Água abundante, mas não garantida: a crise hídrica de São Paulo</h3>
+        <p>Ter grande volume de água no território não significa estar livre de crises de abastecimento. Entre 2014
+        e 2016, a Região Metropolitana de São Paulo viveu sua pior crise hídrica desde 1953: o Sistema Cantareira, principal
+        conjunto de represas que abastece a região, chegou a operar com o chamado "volume morto" — a reserva técnica
+        que fica abaixo do nível normal de captação. Em fevereiro de 2015, o sistema operava com apenas 6% de sua
+        capacidade útil, e o abastecimento de mais de 20 milhões de pessoas passou por rodízios e reduções de
+        pressão. A crise foi provocada por uma estiagem prolongada combinada com o crescimento do consumo urbano e
+        problemas de gestão, e serve de alerta: mesmo regiões que não sofrem com a escassez estrutural do semiárido
+        nordestino podem enfrentar crises graves quando a demanda por água cresce mais rápido do que a capacidade de
+        planejamento dos recursos hídricos.</p>
+
         <h3>Considerações Finais</h3>
         <p>A hidrografia brasileira é um dos principais recursos naturais do país, e sua gestão sustentável é crucial para garantir o desenvolvimento econômico, social e ambiental. Compreender as características e a importância das bacias hidrográficas e aquíferos é essencial para a formação de cidadãos conscientes sobre a preservação e uso racional da água.</p>
         <p><strong>Curiosidade Final:</strong> O Brasil, apesar de toda sua abundância de água, enfrenta desafios relacionados à sua distribuição desigual. Enquanto a região Norte concentra a maior parte dos recursos hídricos, o Nordeste sofre com escassez e secas frequentes. Isso destaca a importância de políticas públicas eficientes para garantir o acesso à água em todo o território nacional.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
-    
+
+    </div>
+
+    <div class="topico">
+
+        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                Por que a Região Hidrográfica Amazônica, mesmo tendo o maior potencial hidrelétrico do Brasil, é a
+                menos aproveitada para a geração de energia?
+            </strong> </p>
+        <p><span class="primeiraLetra">R:</span>
+            Porque a Amazônia fica distante dos grandes centros consumidores de energia, no Sul e no Sudeste, o que
+            encarece o transporte da eletricidade gerada. Além disso, a construção de grandes usinas na região
+            costuma exigir o alagamento de extensas áreas de floresta, o que gera fortes impactos socioambientais e
+            afeta terras indígenas e comunidades ribeirinhas, tornando os projetos mais controversos e demorados.
+        </p>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                Se o Brasil depende tanto de hidrelétricas, por que os apagões e a "bandeira vermelha" nas contas de
+                luz costumam acontecer justamente em anos de seca?
+            </strong></p>
+        <p><span class="primeiraLetra">R:</span>
+            Porque a energia hidrelétrica depende diretamente do volume de água nos reservatórios das usinas. Em anos
+            de chuva escassa, o nível dos reservatórios cai, reduzindo a capacidade de geração. Para compensar, o
+            Sistema Interligado Nacional aciona usinas termelétricas, que são mais caras e mais poluentes, e esse
+            custo extra é repassado ao consumidor por meio das bandeiras tarifárias.
+        </p>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span><strong>
+                Por que a transposição do Rio São Francisco é considerada, ao mesmo tempo, uma solução e uma fonte de
+                controvérsia?
+            </strong>
+        </p>
+        <p><span class="primeiraLetra">R:</span>
+            É uma solução porque leva água para milhões de pessoas em regiões do semiárido historicamente afetadas
+            pela seca, ampliando o acesso à água para consumo e irrigação. Mas é controversa porque reduz a vazão
+            disponível no próprio Rio São Francisco, afetando comunidades ribeirinhas e ecossistemas ao longo de seu
+            curso, além de ter um custo bilionário de construção e manutenção que gera debates sobre prioridades de
+            investimento público.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
+        <br><br>
+        <hr>
+
+    </div>
+
+    <div class="topico">
+        <div id="ficha-conceitos"></div>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+    <div class="topico">
+        <div class="w3-panel w3-pale-yellow w3-margin">
+            <h2>Questões para o caderno</h2>
+            <h3>1. O que é uma bacia hidrográfica e o que são divisores de água (interflúvios)?</h3>
+            <h3>2. Quais são os três centros dispersores de água que alimentam a rede hidrográfica brasileira?</h3>
+            <h3>3. Segundo a classificação de Harald Sioli, quais são os três tipos de águas da Bacia Amazônica e o que explica a cor de cada uma?</h3>
+            <h3>4. Por que a Bacia do Tocantins-Araguaia é considerada a maior bacia exclusivamente brasileira, e qual usina hidrelétrica se destaca nela?</h3>
+            <h3>5. Quais são os objetivos e os principais desafios da transposição do Rio São Francisco?</h3>
+            <h3>6. Em 2022, qual foi a participação das usinas hidrelétricas na oferta de energia elétrica do Brasil?</h3>
+            <h3>7. Por que a Região Hidrográfica Amazônica tem o maior potencial hidrelétrico do país, mas é a menos aproveitada?</h3>
+            <h3>8. O que é o Sistema Interligado Nacional (SIN) e qual é a sua função?</h3>
+            <h3>9. O que é o Aquífero Guarani, qual sua área aproximada e por que ele é considerado uma reserva estratégica?</h3>
+            <h3>10. Por que a distribuição dos recursos hídricos no Brasil é considerada desigual entre as regiões Norte e Nordeste?</h3>
+        </div>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
     </div>
 
         <div class="topico">
@@ -261,7 +474,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Hidrografia Brasileira é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
@@ -294,6 +507,7 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
         </div>
     </main>
 

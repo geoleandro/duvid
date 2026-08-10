@@ -7,6 +7,14 @@ require_once __DIR__ . '/../includes/conexao.php';
 
 $pdo = getDB();
 
+// ── DELETE ──────────────────────────────────────────────────
+if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['deletar_id'])) {
+    $del_id = (int)$_POST['deletar_id'];
+    $pdo->prepare("DELETE FROM alunos WHERE id = :id AND tipo = 'aluno'")->execute([':id' => $del_id]);
+    header('Location: /admin/alunos.php?deletado=1');
+    exit;
+}
+
 // Busca e filtros
 $busca      = trim($_GET['q']      ?? '');
 $filtro_turma = (int)($_GET['turma'] ?? 0);
@@ -27,13 +35,6 @@ if ($filtro_turma) {
 $where_sql = implode(' AND ', $where);
 
 // Total para paginação
-$total = (int) $pdo->prepare(
-    "SELECT COUNT(*) FROM alunos a WHERE $where_sql"
-)->execute($params) ? $pdo->prepare(
-    "SELECT COUNT(*) FROM alunos a WHERE $where_sql"
-)->execute($params) : 0;
-
-// Consulta real
 $stmt_count = $pdo->prepare("SELECT COUNT(*) FROM alunos a WHERE $where_sql");
 $stmt_count->execute($params);
 $total = (int) $stmt_count->fetchColumn();
@@ -154,6 +155,11 @@ require_once __DIR__ . '/_layout.php';
                     title="Mover de turma">
               🔀 Turma
             </button>
+            <form method="POST" style="display:inline;"
+                  onsubmit="return confirm('Excluir <?= addslashes(htmlspecialchars($a['nome'])) ?>? Esta ação não pode ser desfeita.')">
+              <input type="hidden" name="deletar_id" value="<?= $a['id'] ?>">
+              <button type="submit" class="btn btn-vermelho" title="Excluir aluno">🗑️</button>
+            </form>
           </td>
         </tr>
         <?php endforeach; ?>

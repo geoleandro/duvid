@@ -171,6 +171,11 @@ $ehSimulados  = ($paginaAtual === 'capasimuladogeral.php');
         <i class="fa fa-newspaper mob-nav-icon"></i> Blog
     </a>
 
+    <!-- ── Filmes e séries ── -->
+    <a href="/paginas/filmes-geografia.php" class="w3-bar-item w3-button mob-nav-item" onclick="AbrirNavBar()">
+        <i class="fa fa-film mob-nav-icon"></i> Filmes e séries
+    </a>
+
     <div class="mob-separator"></div>
 
     <!-- ── Instruções ── -->

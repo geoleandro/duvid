@@ -36,4 +36,28 @@ if ($acao === 'toggle') {
     exit;
 }
 
+// ── Deletar turma ────────────────────────────────────────────
+if ($acao === 'deletar') {
+    $id = (int)($body['id'] ?? 0);
+
+    if ($id <= 0) {
+        echo json_encode(['erro' => 'ID inválido.']);
+        exit;
+    }
+
+    // Verifica se tem alunos vinculados
+    $st = $pdo->prepare("SELECT COUNT(*) FROM alunos WHERE turma_id = :id AND tipo = 'aluno'");
+    $st->execute([':id' => $id]);
+    $total = (int) $st->fetchColumn();
+
+    if ($total > 0) {
+        echo json_encode(['erro' => "Esta turma tem $total aluno(s). Mova-os para outra turma antes de excluir."]);
+        exit;
+    }
+
+    $pdo->prepare("DELETE FROM turmas WHERE id = :id")->execute([':id' => $id]);
+    echo json_encode(['ok' => true, 'mensagem' => 'Turma excluída com sucesso.']);
+    exit;
+}
+
 echo json_encode(['erro' => 'Ação desconhecida.']);

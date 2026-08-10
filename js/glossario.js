@@ -162,7 +162,20 @@
       '  animation: glossFadeIn 0.3s ease;',
       '  max-width: 280px;',
       '}',
-      '#lista-glossario li b { color: #2e7d32; }'
+      '#lista-glossario li b { color: #2e7d32; }',
+
+      '/* ── Dark mode ── */',
+      'body.dark-mode .termo { background:#3a3000; color:#ffd54f; border-bottom-color:#ffa000; }',
+      'body.dark-mode .termo:hover { background:#4a4000; }',
+      'body.dark-mode .termo.coletado { background:#1b3a1f; color:#a5d6a7; border-bottom-color:#66bb6a; }',
+      'body.dark-mode .termo-tooltip { background:#1e1e1e; color:#e0e0e0; border-left-color:#64b5f6; box-shadow:0 6px 20px rgba(0,0,0,0.5); }',
+      'body.dark-mode .termo-tooltip::before { border-bottom-color:#64b5f6; }',
+      'body.dark-mode #gloss-mobile-tooltip { background:#1e1e1e; color:#e0e0e0; border-left-color:#64b5f6; }',
+      'body.dark-mode #ficha-conceitos { background:linear-gradient(135deg,#1a2a1a,#152215); border-color:#2e7d32; }',
+      'body.dark-mode #ficha-conceitos h3 { color:#81c784; }',
+      'body.dark-mode #ficha-conceitos .contador { color:#81c784; }',
+      'body.dark-mode #lista-glossario li { background:#252525; border-color:#2d4a2d; border-left-color:#4caf50; color:#e0e0e0; }',
+      'body.dark-mode #lista-glossario li b { color:#81c784; }'
     ].join('\n');
     document.head.appendChild(style);
   }
@@ -205,12 +218,31 @@
     contador.textContent = n + ' ' + (n === 1 ? 'termo coletado' : 'termos coletados');
   }
 
+  // -- Persistência de termos coletados no localStorage
+  var _chaveLS = 'gloss_coletados_' + location.pathname;
+  function _coletadosSalvos() {
+    try { return JSON.parse(localStorage.getItem(_chaveLS) || '[]'); } catch(e) { return []; }
+  }
+  function _salvarColetado(palavra) {
+    try {
+      var lista = _coletadosSalvos();
+      if (lista.indexOf(palavra) === -1) { lista.push(palavra); localStorage.setItem(_chaveLS, JSON.stringify(lista)); }
+    } catch(e) {}
+  }
+
   // -- Ativa todos os .termo da pagina
   function ativarGlossario(container) {
     container = container || document;
+    var jaColetados = _coletadosSalvos();
     container.querySelectorAll('.termo').forEach(function (termo) {
       if (termo.dataset.glossarioAtivo) return;
       termo.dataset.glossarioAtivo = 'true';
+
+      // Restaura estado coletado do localStorage (sem dar globinhos de novo)
+      var palavraInicial = termo.dataset.palavra || termo.textContent.trim();
+      if (jaColetados.indexOf(palavraInicial) !== -1) {
+        termo.classList.add('coletado');
+      }
 
       var palavra   = termo.dataset.palavra   || termo.textContent.trim();
       var definicao = termo.dataset.definicao || '';
@@ -266,8 +298,9 @@
         // -- 2. Se ja foi coletado, so mostra tooltip
         if (termo.classList.contains('coletado')) return;
 
-        // -- 3. Marca como coletado
+        // -- 3. Marca como coletado e persiste no localStorage
         termo.classList.add('coletado');
+        _salvarColetado(palavra);
 
         // -- 4. Som
         if (typeof playSom === 'function') playSom('acerto');

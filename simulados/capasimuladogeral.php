@@ -146,6 +146,8 @@ ksort($disponiveis);
         body.dark-mode .badge-anos { background: #1b5e20 !important; color: #a5d6a7 !important; }
         body.dark-mode .sim-intro { background: #1e1e1e !important; border-color: #333 !important; }
         body.dark-mode .sim-intro p { color: #aaa !important; }
+        body.dark-mode .sim-intro .sim-highlight { background: #1a2e1a !important; color: #a5d6a7 !important; border-color: #4caf50 !important; }
+        body.dark-mode .btn-iniciar-card { background: #2e7d32 !important; }
     </style>
 </head>
 

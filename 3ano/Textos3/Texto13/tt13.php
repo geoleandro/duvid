@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Agricultura Mundial: importância, histórico, técnicas de cultivo, relação campo-cidade e produção global de alimentos" name="description"/>
+<meta content="Texto 13 - Agricultura Mundial" property="og:title"/>
+<meta content="Do arcaico ao contemporâneo: como a agricultura moldou o espaço geográfico mundial" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +33,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>3º ano - Texto 13</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>3º ano - Texto 13 - Agricultura Mundial</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -68,35 +72,8 @@
 <p> <span class="primeiraLetra">N</span>a aula anterior, vimos a Nova Ordem Mundial Multipolar e como o cenário
             geopolítico e econômico do mundo se transformou. </p>
 <p>Hoje vamos expandir essa análise para as práticas agrícolas e as relações com o espaço geográfico atual </p>
-<p>A agricultura não escapou do movimento de modernização do meio técnico científico informacional. É isso que
+<p>A agricultura não escapou do movimento de modernização do <span class="termo" data-palavra="Meio Técnico-Científico-Informacional" data-definicao="Conceito de Milton Santos para o período atual da globalização, no qual técnica, ciência e informação atuam juntas na produção do espaço. Na agricultura, se manifesta como mecanização, biotecnologia, sensoriamento remoto e uso intensivo de dados no campo.">meio técnico científico informacional</span>. É isso que
             vamos estudar hoje!</p>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
-<h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-<ul style="list-style-type: none;">
-<li>1. Por que a agricultura é considerada um pilar fundamental da humanidade? Explique.</li>
-<li>2. Quais são os principais benefícios do Meio Técnico-Científico-Informacional (MTCI) na
-                    agricultura? Dê exemplos.</li>
-<li>3. Descreva um exemplo de como a agricultura arcaica impactou o desenvolvimento das primeiras
-                    civilizações.</li>
-<li>4. Qual é o papel da rotação de culturas na agricultura? Explique como essa prática beneficia o
-                    solo.</li>
-<li>5. Por que a urbanização pode afetar a produção agrícola em áreas rurais? Dê um exemplo.</li>
-<li>6. Explique como o afolhamento contribui para a proteção e enriquecimento do solo na agricultura.
-                </li>
-<li>7. O que são plantation na agricultura? Dê um exemplo de um país que é um grande produtor de uma
-                    cultura específica em plantation.</li>
-<li>8. Por que a produção mundial de alimentos é crucial para a segurança alimentar global? Explique.
-                </li>
-<li>9. Como o comércio internacional de alimentos pode beneficiar os países exportadores e importadores?
-                    Dê exemplos.</li>
-<li>10. Em sua opinião, qual é a importância de se adotar práticas sustentáveis na agricultura? Dê sua
-                    perspectiva sobre os benefícios de práticas agrícolas sustentáveis para o futuro.</li>
-</ul>
-</div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -109,7 +86,7 @@
 <span class="w3-small w3-margin-left" id="citacao1"> Fonte: https://www.pexels.com/.</span>
 </div>
 <h3>Por que a Agricultura é Importante?</h3>
-<p><strong>Segurança Alimentar e Nutricional:</strong> Com o crescimento da população mundial, a agricultura
+<p><strong><span class="termo" data-palavra="Segurança Alimentar" data-definicao="Condição em que todas as pessoas têm acesso regular a alimentos suficientes, seguros e nutritivos para uma vida ativa e saudável. Depende da produção agrícola, mas também de distribuição, renda e políticas públicas.">Segurança Alimentar</span> e Nutricional:</strong> Com o crescimento da população mundial, a agricultura
             desempenha um papel crucial em garantir que milhões de pessoas tenham acesso a alimentos básicos para uma
             vida saudável.</p>
 <p><strong>Contribuição para a Economia Global:</strong> Além de alimentar o mundo, a agricultura é um setor
@@ -186,7 +163,7 @@
 <h3>Agricultura Moderna</h3>
 <p>A transição para a agricultura moderna foi marcada pelas Revoluções Agrícolas, momentos de grandes
                 avanços tecnológicos e práticas inovadoras que aumentaram significativamente a produção de alimentos. Um
-                exemplo notável desse período é a Revolução Verde.</p>
+                exemplo notável desse período é a <span class="termo" data-palavra="Revolução Verde" data-definicao="Conjunto de inovações agrícolas difundido a partir da década de 1960, baseado em sementes de alto rendimento, fertilizantes químicos, irrigação e mecanização, que aumentou a produtividade em larga escala, mas concentrou terras e gerou dependência de insumos industriais.">Revolução Verde</span>.</p>
 <ul>
 <li><strong>Índia:</strong> A Índia é um dos países que se beneficiaram enormemente da Revolução Verde.
                     No final do século XX, o país estava enfrentando uma crise alimentar devido ao rápido crescimento
@@ -212,7 +189,7 @@
 <div class="w3-margin"><img alt="tt13f07" class="w3-mobile" id="imagem7" src="tt13f07.png"/>
 <span class="w3-small w3-margin-left" id="citacao7"> Agricultura irrigada em Israel. </span>
 </div>
-<p><strong>Transgênicos e Edição Genética:</strong> Outra fronteira da agricultura contemporânea é a biotecnologia
+<p><strong><span class="termo" data-palavra="Transgênicos" data-definicao="Organismos que receberam genes de outra espécie por engenharia genética, adquirindo características como resistência a pragas ou a herbicidas. Na agricultura, aumentam a produtividade, mas concentram o mercado de sementes em poucas empresas multinacionais.">Transgênicos</span> e Edição Genética:</strong> Outra fronteira da agricultura contemporânea é a biotecnologia
                 aplicada ao melhoramento genético das plantas. Os organismos geneticamente modificados, ou
                 transgênicos, recebem genes de outras espécies para adquirir características como resistência a
                 pragas ou tolerância a herbicidas, reproduzindo de forma artificial mecanismos de defesa que algumas
@@ -291,7 +268,7 @@
 <div class="topico">
 <div class="w3-panel w3-pale-red w3-leftbar w3-border-red w3-padding">
 <h2>Sistemas Agrícolas e Técnicas de Cultivo</h2>
-<p><strong>Rotação de Culturas</strong></p>
+<p><strong><span class="termo" data-palavra="Rotação de Culturas" data-definicao="Prática que alterna diferentes espécies cultivadas em uma mesma área ao longo do tempo, evitando o esgotamento de nutrientes do solo e reduzindo a incidência de pragas e doenças.">Rotação de Culturas</span></strong></p>
 <p>A rotação de culturas é uma prática agrícola essencial que envolve a alternância de diferentes tipos de
                 plantações em uma mesma área ao longo do tempo. Essa técnica é fundamental para manter a saúde do solo,
                 evitar o esgotamento de nutrientes e reduzir a incidência de pragas e doenças.</p>
@@ -302,7 +279,7 @@
 <div class="w3-margin"><img alt="tt13f09" class="w3-mobile" id="imagem9" src="tt13f09.png"/>
 <span class="w3-small w3-margin-left" id="citacao9"> Fonte: https://runcloud.auer-gruppe.de/gr/o-que-e-rotacao-de-cultura.html. </span>
 </div>
-<p><strong>Afolhamento</strong></p>
+<p><strong><span class="termo" data-palavra="Afolhamento" data-definicao="Técnica de manejo do solo que usa plantas de cobertura, cultivadas entre as safras principais, para evitar a erosão, melhorar a estrutura do solo e fornecer matéria orgânica.">Afolhamento</span></strong></p>
 <p>O afolhamento é uma técnica que envolve o uso de plantas de cobertura para proteger e enriquecer o solo.
                 Essas plantas, geralmente cultivadas entre as safras principais, ajudam a evitar a erosão, melhorar a
                 estrutura do solo e fornecer matéria orgânica valiosa.</p>
@@ -341,7 +318,7 @@
 <div class="w3-margin"><img alt="tt13f011" class="w3-mobile" id="imagem11" src="tt13f011.png"/>
 <span class="w3-small w3-margin-left" id="citacao11"> </span>
 </div>
-<h3>Agricultura de Subsistência</h3>
+<h3><span class="termo" data-palavra="Agricultura de Subsistência" data-definicao="Modelo agrícola em que a produção se destina principalmente ao consumo da própria família ou comunidade, com pouco ou nenhum excedente voltado ao mercado.">Agricultura de Subsistência</span></h3>
 <p>A agricultura de subsistência é aquela em que os agricultores produzem alimentos principalmente para o
             consumo próprio e de suas famílias, com uma produção limitada para o mercado.</p>
 <p><strong>Nepal:</strong> Um exemplo notável é o Nepal, onde a agricultura de subsistência é uma prática comum
@@ -363,9 +340,9 @@
 <p><strong>Quênia:</strong> No Quênia, a agricultura de jardinagem é uma parte significativa da economia rural.
             Muitas famílias têm pequenas parcelas de terra onde cultivam uma variedade de produtos, como frutas, legumes
             e ervas, para vender em mercados locais ou diretamente aos consumidores.</p>
-<h3>Plantation</h3>
+<h3><span class="termo" data-palavra="Plantation" data-definicao="Sistema agrícola de grandes propriedades voltado à produção em larga escala de uma única cultura (monocultura), quase sempre destinado à exportação. Herdado do período colonial, ainda organiza a produção agrícola de muitos países.">Plantation</span></h3>
 <p>As plantações são grandes propriedades agrícolas que se dedicam à produção em larga escala de uma única
-            cultura, conhecida como monocultura.</p>
+            cultura, conhecida como <span class="termo" data-palavra="Monocultura" data-definicao="Cultivo de uma única espécie vegetal em uma grande extensão de terra. Aumenta a produtividade e facilita a mecanização, mas empobrece o solo e reduz a biodiversidade em comparação a sistemas diversificados.">monocultura</span>.</p>
 <p><strong>Costa do Marfim:</strong> Um exemplo emblemático de plantation é a Costa do Marfim, que é o principal
             produtor mundial de cacau. As vastas plantações de cacau na Costa do Marfim são cultivadas de forma
             intensiva e destinadas principalmente à exportação para atender à demanda global por chocolate e produtos de
@@ -426,7 +403,7 @@
 </div>
 <div class="topico">
 <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Quais são os impactos socioeconômicos da expansão das plantações de monocultura de soja na América do Sul?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span> A expansão das plantações de monocultura de soja na América do Sul tem
@@ -435,7 +412,7 @@
             soja pode resultar na perda de biodiversidade, impactando negativamente os ecossistemas locais. Do ponto de
             vista econômico, muitas vezes essa produção é destinada à exportação, o que pode criar uma dependência
             econômica e vulnerabilidade a oscilações no mercado internacional.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Como a intensificação da pecuária impacta as mudanças climáticas globais?
             </strong></p>
 <p><span class="primeiraLetra">R:</span> A intensificação da pecuária tem um papel significativo nas mudanças
@@ -443,7 +420,7 @@
             estufa, como metano e óxido nitroso. Além disso, o desmatamento para criação de pastagens e produção de ração
             contribui para a liberação de dióxido de carbono na atmosfera. Esses fatores combinados aumentam a pegada
             ambiental da indústria pecuária, contribuindo para o aquecimento global e outros impactos climáticos.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Quais são os benefícios e desafios da agricultura orgânica em comparação com a agricultura convencional?
             </strong></p>
 <p><span class="primeiraLetra">R:</span> A agricultura orgânica traz diversos benefícios, como a redução do uso de
@@ -502,6 +479,28 @@
 <hr/>
 </div>
 <div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+<h3>1. Por que a agricultura é considerada um pilar fundamental da humanidade? Explique.</h3>
+<h3>2. Quais são os principais benefícios do Meio Técnico-Científico-Informacional (MTCI) na agricultura? Dê exemplos.</h3>
+<h3>3. Descreva um exemplo de como a agricultura arcaica impactou o desenvolvimento das primeiras civilizações.</h3>
+<h3>4. Qual é o papel da rotação de culturas na agricultura? Explique como essa prática beneficia o solo.</h3>
+<h3>5. Por que a urbanização pode afetar a produção agrícola em áreas rurais? Dê um exemplo.</h3>
+<h3>6. Explique como o afolhamento contribui para a proteção e enriquecimento do solo na agricultura.</h3>
+<h3>7. O que são plantations na agricultura? Dê um exemplo de um país que é grande produtor de uma cultura específica nesse sistema.</h3>
+<h3>8. Por que a produção mundial de alimentos é crucial para a segurança alimentar global? Explique.</h3>
+<h3>9. Como o comércio internacional de alimentos pode beneficiar países exportadores e importadores? Dê exemplos.</h3>
+<h3>10. Em sua opinião, qual é a importância de se adotar práticas sustentáveis na agricultura? Justifique com base nos benefícios discutidos no texto.</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -512,7 +511,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Agricultura Mundial é fantástico! Continue estudando!',
         pontos: 40
     });
 

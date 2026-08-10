@@ -54,6 +54,9 @@ $ativo = fn($p) => $paginaAtual === $p ? 'active' : '';
         <a href="/blog/blog.php" class="sidebar-nav-item <?= $ativo('blog.php') ?>">
             <i class="fa fa-newspaper"></i> Blog
         </a>
+        <a href="/paginas/filmes-geografia.php" class="sidebar-nav-item <?= $ativo('filmes-geografia.php') ?>">
+            <i class="fa fa-film"></i> Filmes e séries
+        </a>
 
         <div class="sidebar-sep"></div>
 

@@ -92,9 +92,9 @@ body:has(#sidebar-duvid) main {
 .sidebar-ctrl-btn:hover { background: #e8f5e9; color: #2e7d32; }
 
 .sidebar-font-btn {
-    background: #f5f5f5;
+    background: #2e7d32;
     border: none;
-    color: #777;
+    color: #fff;
     padding: 4px 8px;
     border-radius: 7px;
     cursor: pointer;
@@ -102,7 +102,7 @@ body:has(#sidebar-duvid) main {
     font-weight: 600;
     transition: background .15s, color .15s;
 }
-.sidebar-font-btn:hover { background: #e8f5e9; color: #2e7d32; }
+.sidebar-font-btn:hover { background: #1b5e20; color: #fff; }
 
 /* ── Dark Mode ───────────────────────────────────────────────────── */
 body.dark-mode #sidebar-duvid { background: #1a1a2a !important; border-color: rgba(255,255,255,.08) !important; }
@@ -119,10 +119,10 @@ body.dark-mode .sidebar-nav-item:hover i,
 body.dark-mode .sidebar-nav-item.active i { color: inherit !important; }
 body.dark-mode .sidebar-sub-item { color: rgba(255,255,255,.4) !important; }
 body.dark-mode .sidebar-group-btn { color: rgba(255,255,255,.6) !important; }
-body.dark-mode .sidebar-ctrl-btn,
-body.dark-mode .sidebar-font-btn { background: rgba(255,255,255,.08) !important; color: rgba(255,255,255,.5) !important; }
-body.dark-mode .sidebar-ctrl-btn:hover,
-body.dark-mode .sidebar-font-btn:hover { background: rgba(255,255,255,.15) !important; color: #fff !important; }
+body.dark-mode .sidebar-ctrl-btn { background: rgba(255,255,255,.08) !important; color: rgba(255,255,255,.5) !important; }
+body.dark-mode .sidebar-ctrl-btn:hover { background: rgba(255,255,255,.15) !important; color: #fff !important; }
+body.dark-mode .sidebar-font-btn { background: #2e7d32 !important; color: #fff !important; }
+body.dark-mode .sidebar-font-btn:hover { background: #1b5e20 !important; color: #fff !important; }
 
 /* ── Mobile: esconde sidebar ─────────────────────────────────────── */
 @media (max-width: 800px) {

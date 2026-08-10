@@ -183,6 +183,41 @@ body.dark-mode .hdr-icon-btn:hover {
     border-color: #2e7d32;
 }
 
+/* ── Botões de controle em verde (som, dark mode, A-/A+) ────────── */
+#toggle-som,
+#toggle-dark-mode,
+#toggle-som-mob,
+#toggle-dark-mob,
+#mob-decrease-font,
+#mob-increase-font {
+    background: #2e7d32;
+    border-color: #2e7d32;
+    color: #fff;
+}
+#toggle-som:hover,
+#toggle-dark-mode:hover {
+    background: #1b5e20;
+    border-color: #1b5e20;
+    color: #fff;
+}
+#toggle-som-mob:hover,
+#toggle-dark-mob:hover,
+#mob-decrease-font:hover,
+#mob-increase-font:hover {
+    background: #1b5e20;
+    border-color: #1b5e20;
+}
+body.dark-mode #toggle-som,
+body.dark-mode #toggle-dark-mode,
+body.dark-mode #toggle-som-mob,
+body.dark-mode #toggle-dark-mob,
+body.dark-mode #mob-decrease-font,
+body.dark-mode #mob-increase-font {
+    background: #2e7d32;
+    border-color: #388e3c;
+    color: #fff;
+}
+
 /* ── Bloco usuário (nome + sair + avatar) ────────────────────────── */
 .hdr-user-info {
     display: flex;

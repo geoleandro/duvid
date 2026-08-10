@@ -884,10 +884,10 @@ function verificar() {
         }
     }
 
-    // ── Card RECURSOS — ativa "Aula relacionada" quando há linkTexto no JSON ──
+    // ── Card RECURSOS — ativa botões quando há campos no JSON da aula ──
     async function _inicializarRecursos() {
-        const el = document.getElementById('recurso-aula');
-        if (!el || !aulaID) return;
+        const elAula = document.getElementById('recurso-aula');
+        if (!aulaID) return;
 
         // Descobre o ano pelo prefixo do ID (101–134 → 1, 201–234 → 2, 301–334 → 3)
         const ano = String(aulaID).charAt(0);
@@ -896,11 +896,28 @@ function verificar() {
         try {
             const aulas = await DuvidCache.get('/js/aulas-' + ano + 'ano.json');
             const aula = aulas.find(function (a) { return String(a.id) === String(aulaID); });
-            if (aula && aula.linkTexto) {
-                el.href = '/' + aula.linkTexto;
-                el.classList.remove('qp-recurso--inativo');
+            if (!aula) return;
+
+            // Aula relacionada
+            if (elAula && aula.linkTexto) {
+                elAula.href = '/' + aula.linkTexto;
+                elAula.classList.remove('qp-recurso--inativo');
             }
-        } catch (e) { /* sem link, fica inativo */ }
+
+            // Mapa mental — abre modal com a imagem
+            const elMapa = document.getElementById('recurso-mapa');
+            if (elMapa && aula.mapaMental) {
+                elMapa.removeAttribute('href');
+                elMapa.classList.remove('qp-recurso--inativo');
+                elMapa.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const img = document.getElementById('modal-mapa-img');
+                    const modal = document.getElementById('modal-mapa');
+                    if (img) img.src = '/' + aula.mapaMental;
+                    if (modal) modal.style.display = 'block';
+                });
+            }
+        } catch (e) { /* sem dados, ficam inativos */ }
     }
 
     // Atualiza o placar ao vivo após cada resposta

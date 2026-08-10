@@ -152,6 +152,11 @@ if ($metodo === 'GET') {
         $stmt->execute([':id' => $id]);
         $aluno = $stmt->fetch();
         if (!$aluno) jsonResponse(['encontrado' => false], 404);
+        // Atualiza ultimo_acesso se for o próprio aluno autenticado
+        if ($sessaoAtiva) {
+            $pdo->prepare("UPDATE alunos SET ultimo_acesso = NOW() WHERE id = :id")
+                ->execute([':id' => $id]);
+        }
         jsonResponse(['encontrado' => true, 'sessao_ativa' => $sessaoAtiva] + montarRespostaAluno($aluno, $pdo));
     }
 

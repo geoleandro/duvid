@@ -15,6 +15,29 @@ body {
     background-color: #f8f9fa;
 }
 
+/* ── Anti-flash: esconde o <main> "cru" (modelo antigo w3-card) até o
+   texto-painel.js terminar de reestruturar (hero + coluna + painel lateral).
+   Sem isso, o HTML original pisca por uma fração de segundo antes do JS
+   rodar no DOMContentLoaded.
+   Seletor restrito ao fingerprint exato do <main> das páginas de aula
+   (w3-content + w3-white + w3-card-2, presentes só no HTML "cru" das
+   aulas) — texto-estilo.css também é usado em páginas sem texto-painel.js
+   (home, ranking, blog etc.), que não podem ser afetadas por este rule.
+   Fallback de segurança: se o JS não rodar por qualquer motivo, o main
+   reaparece sozinho após 1.5s. */
+main.w3-content.w3-white.w3-card-2:not(.texto-layout) {
+    opacity: 0;
+    animation: texto-main-fallback 0s 1.5s forwards;
+}
+@keyframes texto-main-fallback {
+    to { opacity: 1; }
+}
+main.texto-layout {
+    opacity: 1;
+    animation: none;
+    transition: opacity .25s ease;
+}
+
 /* ── Override do ModeloCss.css ───────────────────────────────────────
    ModeloCss: main { max-width:750px; margin:70px auto }
    sidebar.php injeta: body:has(#sidebar-duvid) main { margin-left:200px }
@@ -87,7 +110,7 @@ main.texto-layout {
     max-width: 1280px;
     margin: 10px auto 0;
     min-height: 320px;
-    background: #2e7d32 center / cover no-repeat;
+    background: linear-gradient(145deg, #1b5e20 0%, #2e7d32 28%, #43a047 58%, #81c784 82%, #c8e6c9 100%) center / cover no-repeat;
     position: relative;
     flex-shrink: 0;
     border-radius: 32px;
@@ -106,6 +129,16 @@ main.texto-layout {
     justify-content: flex-end;
     padding: 40px;
     gap: 10px;
+}
+
+.texto-hero-supra {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, .65);
+    margin-bottom: -2px;
 }
 
 .texto-hero-badges {
@@ -461,7 +494,9 @@ body.dark-mode .ap-track           { background: #444; }
 }
 
 /* H2 de seção com numeração automática */
-.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2 {
+.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2,
+.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > div > h2:first-child,
+.texto-content-inner .tp-secao-numero {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     font-weight: 700;
@@ -473,7 +508,12 @@ body.dark-mode .ap-track           { background: #444; }
     line-height: 1.3;
 }
 
-.texto-content-inner .topico:not(:first-child):not(.pergunta-bloco) > h2::before {
+/* Numeração: a barra lateral (texto-painel.js) marca o h2 real de cada seção com
+   .tp-secao-numero via JS (mesma fonte usada para montar o checklist), garantindo
+   que o número do card bata sempre com o número da barra lateral, independente
+   de quão fundo o h2 esteja aninhado. As regras > h2 acima ficam como fallback
+   visual (sem numeração) enquanto o JS ainda não rodou. */
+.texto-content-inner .tp-secao-numero::before {
     counter-increment: secao;
     content: counter(secao);
     display: inline-flex;
@@ -1261,9 +1301,9 @@ body.dark-mode .tp-step-line        { background: #3a3a3a; }
 body.dark-mode .tp-step-done .tp-step-line { background: #2e7d32; }
 body.dark-mode .tp-step-active .tp-step-dot { background: #1e1e1e; }
 body.dark-mode .tp-step-pending .tp-step-dot { background: #444; }
-body.dark-mode .tp-step-done .tp-step-label  { color: #666 !important; }
+body.dark-mode .tp-step-done .tp-step-label  { color: #f0f0f0 !important; }
 body.dark-mode .tp-step-active .tp-step-label { color: #81c784 !important; }
-body.dark-mode .tp-step-pending .tp-step-label { color: #888 !important; }
+body.dark-mode .tp-step-pending .tp-step-label { color: #999 !important; }
 body.dark-mode .tp-btn-offline  { background: #333 !important; color: #81c784 !important; }
 body.dark-mode .tp-btn-share    { background: transparent !important; border-color: #444 !important; color: #81c784 !important; }
 
@@ -1402,6 +1442,65 @@ body:not(.dark-mode) .texto-content-inner .w3-text-green { color: #2e7d32 !impor
 body:not(.dark-mode) .texto-content-inner .w3-text-red   { color: #c62828 !important; }
 
 /* ════════════════════════════════════════════════════════════════════
+   TABELAS — Clean Pixel
+   Sobrepõe o estilo genérico do ModeloCss.css (font pixel, bordas cinza,
+   zebra cinza) por um card arredondado no padrão do design system.
+   ════════════════════════════════════════════════════════════════════ */
+.texto-content-inner table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .05);
+    margin: 24px 0;
+}
+
+.texto-content-inner th {
+    background: #2e7d32;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    padding: 14px 20px;
+    border: none;
+    height: auto;
+    line-height: 1.4;
+}
+
+.texto-content-inner td {
+    padding: 14px 20px;
+    border: none;
+    border-bottom: 1px solid #eef1ee;
+    height: auto;
+    line-height: 1.5;
+    color: #333;
+    vertical-align: top;
+}
+
+.texto-content-inner tr:last-child td {
+    border-bottom: none;
+}
+
+.texto-content-inner tr:nth-child(even) td {
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 640px) {
+    .texto-content-inner table {
+        font-size: 13px;
+    }
+    .texto-content-inner th,
+    .texto-content-inner td {
+        padding: 10px 12px;
+    }
+}
+
+/* ════════════════════════════════════════════════════════════════════
    ESTADO FINAL DA AULA — body.aula-concluida
    Especificidade igual ao anti-cinza (0,2,2) mas vem depois → ganha.
    !important necessário para sobrepor os !important do anti-cinza acima.
@@ -1488,6 +1587,30 @@ body.dark-mode .ap-play-btn {
     box-shadow: 0 4px 12px rgba(46, 125, 50, .35) !important;
 }
 body.dark-mode .ap-fill { background: #66bb6a !important; }
+
+/* Fix: seção "Não existe pergunta boba" (P&R) usa a caixa .borda legada do
+   ModeloCss.css (fundo branco fixo, sem tratamento de dark mode) e parágrafos
+   de resposta soltos sem classe própria. Especificidade (0,2,2) > ModeloCss
+   body.dark-mode p (0,1,2), garante que vença mesmo se algo no cascade
+   reduzir a regra genérica. */
+body.dark-mode .texto-content-inner .borda,
+body.dark-mode .texto-content-inner .borda strong,
+body.dark-mode .texto-content-inner p,
+body.dark-mode .texto-content-inner span,
+body.dark-mode .texto-content-inner strong,
+body.dark-mode .texto-content-inner b {
+    color: #f0f0f0 !important;
+}
+/* .borda mantém fundo branco fixo (ModeloCss não tem dark override) —
+   escurece a caixa em si para acompanhar o tema */
+body.dark-mode .texto-content-inner .borda {
+    background: #2a2a2a !important;
+    border-color: #444 !important;
+}
+/* Mantém o destaque rosa do "P:"/"R:" mas com contraste legível */
+body.dark-mode .texto-content-inner .primeiraLetra {
+    color: #f48fb1 !important;
+}
 
 /* ════════════════════════════════════════════════════════════════════
    LEGACY COMPONENT OVERRIDES — adequações de componentes herdados
@@ -1773,16 +1896,14 @@ body:not(.dark-mode) .texto-content-inner .topico.pergunta-bloco .w3-panel[class
 
 /* ════════════════════════════════════════════════════════════════════
    SEÇÃO Q&A — "Não existe pergunta boba!"
-   Escopo via :has(#centralizado) (Chrome 105+, Safari 15.4+, FF 121+)
-   Especif. do :has(ID) = (0,1,x,x) → ganha do anti-cinza (0,0,5,2)
+   Antes suprimia a numeração automática deste H2 (id="centralizado"),
+   o que fazia o número do card ficar dessincronizado do número exibido
+   na barra lateral de progresso (ex: card mostrava "5", barra "6").
+   Agora a numeração é controlada só por .tp-secao-numero (ver regra
+   acima), que é a mesma fonte usada pelo texto-painel.js para montar
+   a barra lateral — então este H2 volta a ser numerado normalmente,
+   batendo com a barra lateral.
    ════════════════════════════════════════════════════════════════════ */
-
-/* H2 da seção — remove numeração automática */
-.texto-content-inner #centralizado::before {
-    content: none !important;
-    display: none !important;
-    counter-increment: none !important;
-}
 
 .texto-content-inner #centralizado {
     display: block !important;
@@ -1868,6 +1989,17 @@ body.dark-mode .texto-content-inner #centralizado {
 }
 body.dark-mode .texto-content-inner .topico:has(#centralizado) p.w3-border strong {
     color: #e0e0e0 !important;
+}
+/* Bloco de resposta (R:) — faltava tratamento dark mode, deixava o texto
+   com a cor clara do modo claro (#1c1b1b) mesmo sobre fundo escuro. */
+body.dark-mode .texto-content-inner .topico:has(#centralizado) p:not(.w3-border) {
+    color: #e0e0e0 !important;
+}
+body.dark-mode .texto-content-inner .topico:has(#centralizado) p:not(.w3-border) strong {
+    color: #e0e0e0 !important;
+}
+body.dark-mode .texto-content-inner .topico:has(#centralizado) p:not(.w3-border) .primeiraLetra {
+    color: #9e9e9e !important;
 }
 
 /* ════════════════════════════════════════════════════════════════════
@@ -1957,4 +2089,116 @@ body.dark-mode .texto-content-inner #lista-glossario li {
     border-color: #333 !important;
     border-left-color: #66bb6a !important;
     color: #e0e0e0 !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   PALAVRAS CLICÁVEIS — padrão antigo (span.w3-yellow + w3-modal)
+   Vários textos ainda usam esse padrão mais antigo (pré-.termo) para
+   explicações rápidas. Aqui deixamos o gatilho e o popup consistentes
+   com o Clean Pixel, sem precisar tocar no HTML de cada texto.
+   ════════════════════════════════════════════════════════════════════ */
+.texto-content-inner span.w3-yellow[onclick] {
+    background: #fff9c4 !important;
+    color: #f57f17 !important;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 5px;
+    border-bottom: 2px dashed #f9a825;
+    cursor: pointer;
+    transition: background .2s ease, transform .15s ease;
+}
+.texto-content-inner span.w3-yellow[onclick]::after {
+    content: " 💡";
+    font-size: .78em;
+    opacity: .8;
+}
+.texto-content-inner span.w3-yellow[onclick]:hover {
+    background: #ffe082 !important;
+    transform: scale(1.05);
+    display: inline-block;
+}
+
+.texto-content-inner .w3-modal {
+    background-color: rgba(20, 20, 20, .55) !important;
+    backdrop-filter: blur(2px);
+    padding-top: 12vh !important;
+}
+.texto-content-inner .w3-modal-content {
+    background: #fff;
+    border-radius: 24px !important;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .25);
+    width: 90% !important;
+    max-width: 460px !important;
+    overflow: hidden;
+    animation: texto-modal-pop .2s ease;
+}
+@keyframes texto-modal-pop {
+    from { opacity: 0; transform: scale(.95) translateY(8px); }
+    to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+.texto-content-inner .w3-modal-content .w3-container {
+    padding: 30px 26px 26px !important;
+}
+.texto-content-inner .w3-modal-content p {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    line-height: 1.65;
+    font-size: .95rem;
+    margin: 0;
+}
+.texto-content-inner .w3-modal-content .w3-display-topright.w3-red {
+    background: #fff !important;
+    color: #757575 !important;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+    font-size: 1rem;
+    line-height: 1;
+    top: 10px !important;
+    right: 10px !important;
+    transition: background .15s ease, color .15s ease;
+}
+.texto-content-inner .w3-modal-content .w3-display-topright.w3-red:hover {
+    background: #e53935 !important;
+    color: #fff !important;
+}
+
+/* Some junto com o resto quando a aula é concluída */
+body.aula-concluida .texto-content-inner span.w3-yellow[onclick] {
+    color: #a0a0a0 !important;
+    background: #e8e8e8 !important;
+    border-bottom-color: #ccc !important;
+    pointer-events: none !important;
+    cursor: default !important;
+    transition: color 3s ease, background 3s ease !important;
+}
+
+/* Dark mode */
+body.dark-mode .texto-content-inner span.w3-yellow[onclick] {
+    background: #3a3000 !important;
+    color: #ffd54f !important;
+    border-bottom-color: #ffa000;
+}
+body.dark-mode .texto-content-inner span.w3-yellow[onclick]:hover {
+    background: #4a4000 !important;
+}
+body.dark-mode .texto-content-inner .w3-modal-content {
+    background: #1e1e1e;
+    box-shadow: 0 12px 32px rgba(0, 0, 0, .5);
+}
+body.dark-mode .texto-content-inner .w3-modal-content p {
+    color: #e0e0e0;
+}
+body.dark-mode .texto-content-inner .w3-modal-content .w3-display-topright.w3-red {
+    background: #2a2a2a !important;
+    color: #bbb !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .4);
+}
+body.dark-mode .texto-content-inner .w3-modal-content .w3-display-topright.w3-red:hover {
+    background: #e53935 !important;
+    color: #fff !important;
 }

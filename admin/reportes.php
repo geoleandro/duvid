@@ -21,9 +21,12 @@ $where  = $filtro === 'todos' ? '' : 'WHERE r.resolvido = 0';
 $reportes = $pdo->query(
     "SELECT r.id, r.aula_id, r.questao_num, r.tipo, r.mensagem,
             r.resolvido, r.criado_em,
-            a.nome AS aluno_nome
+            a.nome AS aluno_nome,
+            au.titulo AS aula_titulo,
+            au.link_texto, au.link_questoes
      FROM reportes r
-     LEFT JOIN alunos a ON a.id = r.aluno_id
+     LEFT JOIN alunos a  ON a.id  = r.aluno_id
+     LEFT JOIN aulas  au ON au.id = r.aula_id
      $where
      ORDER BY r.criado_em DESC
      LIMIT 200"
@@ -86,12 +89,24 @@ $TIPO_LABEL = [
             <?php foreach ($reportes as $r): ?>
                 <tr style="<?= $r['resolvido'] ? 'opacity:.45' : '' ?>">
                     <td>
-                        <a href="/<?= htmlspecialchars($r['aula_id']) ?>.php"
+                        <?php
+                          $link_aula = (int)$r['questao_num'] > 0
+                              ? ($r['link_questoes'] ?: $r['link_texto'])
+                              : ($r['link_texto']    ?: $r['link_questoes']);
+                        ?>
+                        <?php if ($link_aula): ?>
+                        <a href="<?= htmlspecialchars($link_aula) ?>"
                            target="_blank"
                            title="Abrir aula"
                            style="color:var(--accent);font-weight:bold">
-                            Aula <?= htmlspecialchars($r['aula_id']) ?>
-                        </a><br>
+                            <?= htmlspecialchars($r['aula_titulo'] ?? 'Aula ' . $r['aula_id']) ?>
+                        </a>
+                        <?php else: ?>
+                        <span style="font-weight:bold;color:var(--accent)">
+                            <?= htmlspecialchars($r['aula_titulo'] ?? 'Aula ' . $r['aula_id']) ?>
+                        </span>
+                        <?php endif; ?>
+                        <br>
                         <small style="color:var(--muted)"><?= (int)$r['questao_num'] === 0 ? 'Texto da aula' : 'Questão ' . (int)$r['questao_num'] ?></small>
                     </td>
                     <td><?= $TIPO_LABEL[$r['tipo']] ?? htmlspecialchars($r['tipo']) ?></td>

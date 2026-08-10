@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,8 +43,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 27 - O Processo de Urbanização</title>
 
 </head>
 
@@ -122,8 +124,6 @@
         <!-- BLOCO 4: Crescimento urbano -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
-
             <h2>O que é urbanização</h2>
 
             <p>A <span class="termo" data-palavra="Urbanização" data-definicao="Processo pelo qual a população de um país ou região se concentra progressivamente nas cidades, em detrimento das áreas rurais. Envolve crescimento demográfico urbano, expansão das atividades econômicas não agrícolas (indústria e serviços) e transformação cultural dos modos de vida. A taxa de urbanização mede a proporção da população vivendo em áreas urbanas.">urbanização</span> é o processo pelo qual a população de um país se concentra nas cidades. Mas não é só um deslocamento geográfico. É também uma mudança econômica (da agricultura para indústria e serviços), cultural (modos de vida, consumo, relações sociais) e política (poder concentrado nas cidades, decisões tomadas à distância do campo).</p>
@@ -145,8 +145,6 @@
                 <span class="w3-small w3-margin-left">Evolução da taxa de urbanização no Brasil: de 31% em 1940 para 87,7% em 2022. Fonte: IBGE, Censos Demográficos.</span>
             </div>
 
-            </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -161,21 +159,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>Uma urbanização equilibrada, com crescimento homogêneo entre todas as regiões, garantindo acesso igual a serviços urbanos para toda a população</span></label>
+                    <label for="p1a" class="card-opcao"><span>Equilibrada entre regiões</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>Uma urbanização concentrada e desigual, com crescimento acelerado de poucas metrópoles, especialmente no Sudeste, enquanto outras regiões permaneceram menos urbanizadas e com menor acesso a infraestrutura</span></label>
+                    <label for="p1b" class="card-opcao"><span>Concentrada e desigual</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>Uma urbanização lenta e planejada, conduzida pelo Estado para garantir que as cidades crescessem com infraestrutura adequada antes de receber novos moradores</span></label>
+                    <label for="p1c" class="card-opcao"><span>Lenta e planejada</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'a urbanização brasileira foi rápida e concentrada. O Sudeste, especialmente São Paulo, recebeu a maior parte dos investimentos industriais e atraiu o maior fluxo de migrantes. As cidades não tinham infraestrutura para absorver tanta gente tão rápido, o que gerou favelas, periferias sem saneamento e transporte precário. Enquanto isso, grande parte do Norte e Nordeste permanecia com taxa de urbanização bem abaixo da média nacional. Essa desigualdade regional na urbanização é tema frequente no ENEM.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o Sudeste recebeu a maior parte dos investimentos e migrantes, sem infraestrutura para absorver o crescimento: daí favelas e periferias precárias.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -196,9 +194,11 @@
 
             <p>Dentro dessa rede, as cidades se organizam segundo uma <span class="termo" data-palavra="Hierarquia Urbana" data-definicao="Classificação das cidades conforme seu tamanho demográfico, diversidade de funções econômicas e área de influência sobre outras cidades. No topo estão as metrópoles nacionais (São Paulo e Rio de Janeiro), seguidas por metrópoles regionais, capitais regionais, centros sub-regionais e centros locais. O IBGE usa essa classificação no estudo REGIC.">hierarquia urbana</span>: no topo ficam as metrópoles, que concentram as funções mais raras e de maior alcance; na base ficam as cidades locais, que atendem apenas seu entorno imediato.</p>
 
+            <p>O estudo <span class="termo" data-palavra="REGIC" data-definicao="Regiões de Influência das Cidades, estudo periódico do IBGE que classifica os municípios brasileiros conforme sua centralidade: o alcance da gestão pública e empresarial, a oferta de serviços especializados e até a presença de domínios na internet. A edição mais recente é de 2018.">REGIC</span> (Regiões de Influência das Cidades), do IBGE, organiza essa hierarquia em cinco níveis, do menor para o maior: <strong>centros locais</strong> (a base da pirâmide, mais de 4 mil municípios que atendem só a própria população), <strong>centros de zona</strong> (cidades pequenas, com atuação restrita ao próprio entorno), <strong>centros sub-regionais</strong> (sediam atividades de gestão pouco complexas), <strong>capitais regionais</strong> (têm área de influência regional e atraem gente para um grande número de atividades) e <strong>metrópoles</strong>, os quinze principais centros urbanos do país, cuja influência se estende por vastas áreas do território nacional. Segundo o REGIC 2018, a rede urbana brasileira tem 862 cidades que funcionam como centros de comando, com influência que extrapola os próprios limites, enquanto as demais 4.037 cidades do levantamento (os centros locais) atendem majoritariamente aos próprios moradores. A aula de Redes e Hierarquias Urbanas detalha essa classificação nível por nível.</p>
+
             <h3>Megacidades: as maiores do planeta</h3>
 
-            <p>Uma <span class="termo" data-palavra="Megacidade" data-definicao="Cidade com população metropolitana acima de 10 milhões de habitantes. Em 2024, o mundo tinha cerca de 35 megacidades, concentradas principalmente na Ásia (Tóquio, Xangai, Pequim, Mumbai, Dacca) e na América Latina (São Paulo e Cidade do México). O crescimento das megacidades é fenômeno típico do século XX e está associado ao êxodo rural em escala massiva.">megacidade</span> é toda aglomeração urbana com mais de 10 milhões de habitantes. O Brasil tem duas: São Paulo, com cerca de 22 milhões na região metropolitana, e Rio de Janeiro, com cerca de 13 milhões. São Paulo é a maior megacidade da América do Sul e uma das maiores do mundo.</p>
+            <p>Uma <span class="termo" data-palavra="Megacidade" data-definicao="Cidade com população metropolitana acima de 10 milhões de habitantes. Em 2024, o mundo tinha cerca de 35 megacidades, concentradas principalmente na Ásia (Tóquio, Xangai, Pequim, Mumbai, Dacca) e na América Latina (São Paulo e Cidade do México). O crescimento das megacidades é fenômeno típico do século XX e está associado ao êxodo rural em escala massiva.">megacidade</span> é toda aglomeração urbana com mais de 10 milhões de habitantes. O Brasil tem duas: São Paulo, com 21,6 milhões na região metropolitana, e Rio de Janeiro, com 12,9 milhões. São Paulo é a maior megacidade da América do Sul e uma das maiores do mundo.</p>
 
             <p>No mundo, as megacidades se concentram na Ásia (Tóquio, com 37 milhões, é a maior), na África e na América Latina. Elas cresceram porque reuniram, num mesmo espaço, indústria, finanças, comércio, universidades e o poder político de seus países. Essa concentração atrai mais pessoas, que atraem mais empresas, que atraem mais pessoas. Economistas chamam isso de <strong>efeito de aglomeração</strong>.</p>
 
@@ -227,21 +227,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>Metrópole regional, pois concentra funções que atendem vários municípios e possui universidade e hospital</span></label>
+                    <label for="p2a" class="card-opcao"><span>Metrópole regional</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
-                    <label for="p2b" class="card-opcao"><span>Capital regional ou centro sub-regional, pois exerce influência sobre municípios menores mas depende de Curitiba para funções de maior complexidade e raridade</span></label>
+                    <label for="p2b" class="card-opcao"><span>Capital regional</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
-                    <label for="p2c" class="card-opcao"><span>Cidade local, pois sua população de 50 mil habitantes é insuficiente para ocupar um nível mais alto na rede urbana</span></label>
+                    <label for="p2c" class="card-opcao"><span>Cidade local</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'a hierarquia urbana não é definida só pelo tamanho da população, mas pela diversidade e alcance das funções que a cidade oferece. Essa cidade atende municípios menores com serviços médios (comércio regional, hospital, faculdade) mas depende de Curitiba para funções mais raras e especializadas. Isso a coloca num nível intermediário: capital regional ou centro sub-regional, na classificação do IBGE. O ENEM frequentemente apresenta situações assim para testar se o aluno entende que a hierarquia é sobre função e influência, não só sobre tamanho.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'hierarquia urbana é sobre função e alcance, não só tamanho: atende municípios vizinhos mas depende de Curitiba para o que é raro.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -256,15 +256,17 @@
         <!-- BLOCO 8: Conurbacao e metropolizacao -->
         <div class="topico">
 
-            <div class="w3-pale-green">
-
             <h2>Conurbação, metropolização e região metropolitana</h2>
 
             <p>Quando duas ou mais cidades crescem tanto que suas áreas urbanas se tocam e se fundem fisicamente, ocorre o que os geógrafos chamam de <span class="termo" data-palavra="Conurbação" data-definicao="Processo pelo qual duas ou mais cidades vizinhas crescem e se fundem fisicamente, formando uma área urbana contínua. Os limites entre os municípios deixam de ser visíveis no espaço construído, mas cada cidade mantém sua administração política própria. Exemplos brasileiros: o ABC Paulista (Santo André, São Bernardo do Campo, São Caetano do Sul e municípios vizinhos) e a região entre Niterói e São Gonçalo no Rio de Janeiro.">conurbação</span>. A cidade cresce, os bairros se expandem, e de repente você não sabe mais se está em Santos ou em São Vicente, em Belém ou em Ananindeua. Os limites políticos dos municípios existem no mapa, mas na paisagem não há nenhuma fronteira visível.</p>
 
-            <p>A <span class="termo" data-palavra="Metropolização" data-definicao="Processo de crescimento e expansão das metrópoles, que passam a exercer influência sobre cidades vizinhas, criando aglomerações urbanas complexas. A metropolização no Brasil foi especialmente intensa entre 1950 e 1980, com São Paulo e Rio de Janeiro crescendo para além de seus limites municipais e incorporando dezenas de municípios à sua órbita econômica e demográfica.">metropolização</span> é o processo pelo qual uma cidade se torna metrópole e passa a exercer influência sobre um conjunto de municípios ao redor. Esses municípios compõem a <span class="termo" data-palavra="Região Metropolitana" data-definicao="Conjunto de municípios com forte integração econômica e social em torno de uma metrópole central. No Brasil, as regiões metropolitanas são criadas por lei estadual. O Censo 2022 identificou 22 regiões metropolitanas com mais de 1 milhão de habitantes. A maior é a Grande São Paulo, com cerca de 22 milhões de pessoas.">região metropolitana</span>: um conjunto de municípios definido por lei estadual que reconhece a integração econômica e social entre eles.</p>
+            <p>A <span class="termo" data-palavra="Metropolização" data-definicao="Processo de crescimento e expansão das metrópoles, que passam a exercer influência sobre cidades vizinhas, criando aglomerações urbanas complexas. A metropolização no Brasil foi especialmente intensa entre 1950 e 1980, com São Paulo e Rio de Janeiro crescendo para além de seus limites municipais e incorporando dezenas de municípios à sua órbita econômica e demográfica.">metropolização</span> é o processo pelo qual uma cidade se torna metrópole e passa a exercer influência sobre um conjunto de municípios ao redor. Esses municípios compõem a <span class="termo" data-palavra="Região Metropolitana" data-definicao="Conjunto de municípios com forte integração econômica e social em torno de uma metrópole central. No Brasil, as regiões metropolitanas são criadas por lei estadual. O Censo 2022 identificou 30 regiões metropolitanas oficiais, das quais 15 já ultrapassavam 1 milhão de habitantes. A maior é a Grande São Paulo, com cerca de 21,6 milhões de pessoas.">região metropolitana</span>: um conjunto de municípios definido por lei estadual que reconhece a integração econômica e social entre eles.</p>
 
-            <p>O Brasil tinha, pelo Censo 2022, 22 regiões metropolitanas com mais de 1 milhão de habitantes. Isso significa que cerca de metade da população brasileira vive em alguma dessas aglomerações. São Paulo, Rio de Janeiro, Belo Horizonte, Porto Alegre, Fortaleza, Recife e Salvador são as principais.</p>
+            <p>O conceito de região metropolitana não é recente: foi criado pela Lei Complementar nº 14, de 1973, que reconheceu os desafios gerados pela conurbação e instituiu as primeiras nove regiões metropolitanas do país. A Constituição de 1988 passou essa competência para os estados, o que multiplicou o número de regiões metropolitanas reconhecidas por lei nas décadas seguintes.</p>
+
+            <p>A concentração da urbanização brasileira em poucas cidades fica evidente quando se compara o passado recente com o presente: em 1950, o Brasil tinha apenas três cidades de grande porte, com mais de 500 mil habitantes cada (Rio de Janeiro, São Paulo e Recife). Sozinha, a Região Metropolitana de São Paulo, com 39 municípios, abrigava cerca de 22 milhões de habitantes em 2021, quase 10% da população brasileira: todos os dias, a região coletava cerca de 27 mil toneladas de lixo, registrava mais de 6 milhões de veículos circulando e cerca de 11,5 milhões de viagens diárias em transporte coletivo, enquanto aproximadamente 1 milhão de pessoas morava em favelas.</p>
+
+            <p>Segundo o Censo 2022, o Brasil tinha 30 regiões metropolitanas oficiais, reunindo 103,5 milhões de pessoas, quase metade (48,5%) da população brasileira. Dentro desse conjunto, 15 delas já ultrapassavam 1 milhão de habitantes cada, somando mais de 70 milhões de pessoas: São Paulo (21,6 milhões), Rio de Janeiro (12,9 milhões) e Belo Horizonte (6 milhões) são as três maiores, seguidas por Porto Alegre, Fortaleza, Recife e Salvador.</p>
 
             <div class="w3-margin">
                 <img src="ts27f03.png" alt="Mapa das regiões metropolitanas brasileiras com população acima de 1 milhão conforme Censo 2022"
@@ -279,7 +281,7 @@
 
             <h3>Descentralização: cidades médias em crescimento</h3>
 
-            <p>A partir dos anos 1990, e com mais intensidade nos anos 2000, um fenômeno novo começou a aparecer nos dados do IBGE: as cidades médias (entre 100 mil e 500 mil habitantes) passaram a crescer mais rápido que as metrópoles. Municípios como Uberlândia, Sorocaba, Joinville, Marília e Cascavel aceleraram seu crescimento com indústrias que fugiram do custo elevado das metrópoles, universidades federais expandidas e serviços regionais. Esse processo de <strong>desconcentração urbana</strong> não elimina as metrópoles, mas redistribui parte do crescimento pela rede urbana.</p>
+            <p>A partir dos anos 1990, e com mais intensidade nos anos 2000, um fenômeno novo começou a aparecer nos dados do IBGE: as cidades médias (entre 100 mil e 500 mil habitantes) passaram a crescer mais rápido que as metrópoles. Municípios como Uberlândia, Sorocaba, Joinville, Marília e Cascavel aceleraram seu crescimento com indústrias que fugiram do custo elevado das metrópoles, universidades federais expandidas e serviços regionais. Esse processo de <strong>desconcentração urbana</strong> não elimina as metrópoles, mas redistribui parte do crescimento pela rede urbana. Os números confirmam a mudança: entre 2010 e 2022, a fatia da população brasileira vivendo em cidades de 100 mil a 500 mil habitantes subiu de 25,4% para quase 28%, enquanto a fatia em cidades de 20 mil a 50 mil habitantes caiu de 16,6% para 15,75%. As grandes cidades, com mais de 500 mil habitantes, seguem concentrando quase 29% da população, mas já não crescem na mesma velocidade de antes.</p>
 
             <div class="w3-margin">
                 <img src="ts27f04.png" alt="Gráfico mostrando crescimento de cidades médias versus metrópoles no Brasil de 2000 a 2022"
@@ -305,7 +307,11 @@
                 simultaneamente o crescimento acelerado de cidades médias, a persistência da desigualdade nas
                 grandes metrópoles e formas cada vez mais diversas de ocupação do território urbano.</p>
 
-            </div>
+            <h3>Megalópole e macrometrópole: quando as metrópoles se conectam</h3>
+
+            <p>Em alguns pontos do território, o crescimento das metrópoles é tão intenso que elas começam a se conectar entre si por eixos de circulação densamente urbanizados. São Paulo e Rio de Janeiro, separadas por cerca de 400 quilômetros, formam o principal eixo econômico do país, ligadas pela Rodovia Presidente Dutra ao longo do Vale do Paraíba. Nesse corredor, cidades como São José dos Campos, Taubaté, Resende e Volta Redonda concentram indústria pesada e polos siderúrgicos, e a expansão urbana contínua ao longo do eixo é o que os geógrafos chamam de <span class="termo" data-palavra="Megalópole" data-definicao="Extensa área urbana contínua formada pela conexão física ou funcional entre duas ou mais metrópoles ao longo de um eixo de circulação. No Brasil, o eixo São Paulo-Rio de Janeiro, ao longo do Vale do Paraíba, é considerado uma megalópole em formação, favorecida por barreiras físicas (Serra do Mar e Serra da Mantiqueira) que concentram a ocupação urbana no corredor entre as duas metrópoles.">megalópole</span> em formação: uma escala ainda maior que a de uma única metrópole ou megacidade.</p>
+
+            <p>Dentro do próprio estado de São Paulo, existe também a <span class="termo" data-palavra="Macrometrópole" data-definicao="Sistema de cidades formado pela Região Metropolitana de São Paulo e por centros regionais vizinhos fortemente integrados a ela por eixos de circulação, como Campinas, Santos, São José dos Campos e Sorocaba. É um estágio ainda mais avançado de urbanização extensiva, no qual áreas antes rurais entre as cidades são ocupadas por usos industriais, residenciais e de lazer que competem entre si.">macrometrópole</span> paulista: um sistema de cidades que tem a Região Metropolitana de São Paulo como centro e se estende até Campinas, Santos, São José dos Campos e Sorocaba. Essa urbanização extensiva valoriza o preço da terra e pressiona os mananciais de água da região, disputados por dezenas de municípios ao mesmo tempo.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -336,17 +342,13 @@
         <!-- BLOCO 9: Catarse -->
         <div class="topico">
 
-            <div class="w3-light-blue">
-
             <h2>O que mudou no seu olhar</h2>
 
             <p>Antes de estudar esta aula, você provavelmente achava que as cidades brasileiras cresceram porque as pessoas simplesmente preferiram a vida urbana: mais oportunidades, mais conforto, mais modernidade. Agora você vê que a urbanização brasileira foi resultado de um modelo econômico específico que concentrou industrialização no Sudeste, expulsou trabalhadores do campo por meio da mecanização e das secas, e criou metrópoles despreparadas para receber quem chegava.</p>
 
             <p>A favela não surgiu porque as pessoas são desorganizadas. Surgiu porque a cidade cresceu rápido demais, sem planejamento e sem investimento público que acompanhasse o fluxo. A periferização não é acidente: é consequência de um mercado imobiliário que empurra os mais pobres para as margens. E a conurbação não é só curiosidade geográfica: é o registro de que as cidades cresceram sem limites pensados para o bem coletivo.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> urbanização (concentração da população em cidades); taxa de urbanização (87,7% no Brasil em 2022); megacidade (mais de 10 milhões de habitantes; Brasil tem São Paulo e Rio); rede urbana (sistema hierárquico de cidades); conurbação (fusão física de cidades vizinhas); metropolização (expansão da influência de uma metrópole); região metropolitana (conjunto de municípios integrados reconhecido por lei).</p>
-
-            </div>
+            <p><strong>Resumo dos conceitos:</strong> urbanização (concentração da população em cidades); taxa de urbanização (87,7% no Brasil em 2022); megacidade (mais de 10 milhões de habitantes; Brasil tem São Paulo e Rio); rede urbana (sistema hierárquico de cidades, organizado pelo REGIC em centros de zona, centros sub-regionais, capitais regionais e metrópoles); conurbação (fusão física de cidades vizinhas); metropolização (expansão da influência de uma metrópole); região metropolitana (conjunto de municípios integrados reconhecido por lei estadual desde a Lei Complementar de 1973); megalópole e macrometrópole (conexão entre metrópoles ao longo de eixos de circulação, como no corredor São Paulo-Rio de Janeiro).</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -412,39 +414,7 @@
         </div>
 
 
-        <!-- BLOCO 13: Questoes para o caderno -->
-        <div class="topico">
-
-            <div class="w3-pale-yellow">
-                <h2>Questões para responder no caderno:</h2>
-
-                <h3>1. O que é urbanização? Qual era a taxa de urbanização do Brasil em 1940 e qual é hoje?</h3>
-
-                <h3>2. Explique as três fases da urbanização brasileira: antes de 1930, entre 1950 e 1980, e após os anos 1990.</h3>
-
-                <h3>3. O que é uma megacidade? Quais são as duas megacidades brasileiras?</h3>
-
-                <h3>4. O que é rede urbana e como funciona a hierarquia urbana? Cite os principais níveis.</h3>
-
-                <h3>5. Qual é a diferença entre conurbação e região metropolitana?</h3>
-
-                <h3>6. Por que a urbanização brasileira foi rápida e desigual? Quais fatores econômicos e políticos explicam essa característica?</h3>
-
-                <h3>7. O que é periferização? Por que ela é consequência direta do modelo de urbanização adotado no Brasil e não um problema de comportamento individual?</h3>
-
-                <h3>8. O que são cidades globais? Por que São Paulo é classificada como cidade global e uma cidade do mesmo tamanho em outro país pode não ser?</h3>
-
-                <h3>9. Por que as cidades médias cresceram mais rápido que as metrópoles no Brasil a partir dos anos 2000? Quais fatores explicam essa desconcentração urbana?</h3>
-
-                <h3>10. Como a urbanização acelerada e a periferização se relacionam com os problemas socioambientais das grandes cidades brasileiras, como enchentes, ilhas de calor e falta de saneamento?</h3>
-            </div>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
-            <hr>
-        </div>
-
-
-        <!-- BLOCO 13.5: Verticalizacao urbana -->
+        <!-- BLOCO 12.5: Verticalizacao urbana -->
         <div class="topico">
 
             <h2>Verticalização urbana</h2>
@@ -472,6 +442,38 @@
         </div>
 
 
+        <!-- BLOCO 13: Questoes para o caderno -->
+        <div class="topico">
+
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que é urbanização? Qual era a taxa de urbanização do Brasil em 1940 e qual é hoje?</h3>
+
+                <h3>2. Explique as três fases da urbanização brasileira: antes de 1930, entre 1950 e 1980, e após os anos 1990.</h3>
+
+                <h3>3. O que é uma megacidade? Quais são as duas megacidades brasileiras? O que diferencia uma megacidade de uma megalópole e de uma macrometrópole? Cite um exemplo brasileiro de cada uma.</h3>
+
+                <h3>4. O que é rede urbana e como funciona a hierarquia urbana? Cite os principais níveis.</h3>
+
+                <h3>5. Qual é a diferença entre conurbação e região metropolitana?</h3>
+
+                <h3>6. Por que a urbanização brasileira foi rápida e desigual? Quais fatores econômicos e políticos explicam essa característica?</h3>
+
+                <h3>7. O que é periferização? Por que ela é consequência direta do modelo de urbanização adotado no Brasil e não um problema de comportamento individual?</h3>
+
+                <h3>8. O que são cidades globais? Por que São Paulo é classificada como cidade global e uma cidade do mesmo tamanho em outro país pode não ser?</h3>
+
+                <h3>9. Por que as cidades médias cresceram mais rápido que as metrópoles no Brasil a partir dos anos 2000? Quais fatores explicam essa desconcentração urbana?</h3>
+
+                <h3>10. Como a urbanização acelerada e a periferização se relacionam com os problemas socioambientais das grandes cidades brasileiras, como enchentes, ilhas de calor e falta de saneamento?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 14: Transicao final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
@@ -483,7 +485,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema O Processo de Urbanização é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

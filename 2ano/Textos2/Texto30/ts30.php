@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,8 +43,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 30 - Problemas Socioambientais Urbanos</title>
 
 </head>
 
@@ -79,7 +81,7 @@
 
             <div class="w3-container w3-padding-16">
                 <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
-                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender os principais problemas socioambientais das cidades brasileiras: enchentes urbanas, ilhas de calor, inversão térmica, lixo e déficit de saneamento básico; entender as causas estruturais desses problemas e por que eles afetam desproporcionalmente as populações mais pobres.</span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender os principais problemas socioambientais das cidades brasileiras: enchentes urbanas, alagamentos, ilhas de calor, inversão térmica, poluição do ar, lixo e déficit de saneamento básico; entender as causas estruturais desses problemas, os sistemas de monitoramento e prevenção existentes, e por que eles afetam desproporcionalmente as populações mais pobres.</span></p>
             </div>
 
             <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
@@ -96,9 +98,9 @@
 
             <p><span class="primeiraLetra">Q</span>uando chove muito na sua cidade, o que acontece? Alguma rua alaga? Algum bairro fica embaixo d'água? Alguém da sua família ou do seu bairro já perdeu coisas numa enchente? Você já viu notícia de deslizamento de terra em morro ou encosta depois de chuva forte?</p>
 
-            <p>E no verão: sua cidade fica muito mais quente do que o campo ao redor? Você já ouviu falar em inversão térmica, quando o ar fica pesado e a fumaça não sobe? Você sabe se o esgoto da sua rua vai para alguma estação de tratamento ou direto para o rio?</p>
+            <p>E no verão: sua cidade fica muito mais quente do que o campo ao redor, ou existe algum parque ou praça arborizada onde o ar parece mais fresco? Você já ouviu falar em inversão térmica, quando o ar fica pesado e a fumaça não sobe? Você sabe se o esgoto da sua rua vai para alguma estação de tratamento ou direto para o rio?</p>
 
-            <p>Anote no caderno: <strong>Qual problema ambiental você observa na sua cidade no dia a dia? Você acha que é um problema natural ou causado pela forma como a cidade foi construída?</strong></p>
+            <p>Anote no caderno: <strong>Qual problema ambiental você observa na sua cidade no dia a dia? Você acha que é um problema natural ou causado pela forma como a cidade foi construída?</strong> Guarde essa resposta: ao final desta aula você vai poder compará-la com o que aprendeu sobre as causas reais desses problemas.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -110,9 +112,9 @@
 
             <h2>O problema que esta aula vai ajudar a entender</h2>
 
-            <p>Em fevereiro de 2022, as chuvas no Litoral Norte de São Paulo mataram 65 pessoas, a maioria em deslizamentos de terra em bairros pobres construídos nas encostas. Em 2023, as enchentes em Petrópolis, Rio de Janeiro, mataram mais de 230 pessoas. Em 2024, as cheias no Rio Grande do Sul deixaram mais de 150 mortos e desalojaram centenas de milhares.</p>
+            <p>Em fevereiro de 2022, as chuvas no Litoral Norte de São Paulo mataram mais de 60 pessoas, a maioria em deslizamentos de terra em bairros pobres construídos nas encostas de São Sebastião. Poucos dias depois, no mesmo mês, as enchentes e deslizamentos em Petrópolis, no Rio de Janeiro, mataram 241 pessoas, a maior tragédia da história da cidade. Em 2024, as cheias no Rio Grande do Sul deixaram 183 mortos e mais de 440 mil pessoas desalojadas ou em abrigos.</p>
 
-            <p>Esses desastres não são "naturais" no sentido de inevitáveis. São resultado de décadas de urbanização desordenada, ausência de planejamento, déficit de saneamento e da concentração dos riscos nas populações mais pobres, que moram exatamente nas áreas mais vulneráveis. A pergunta desta aula é: <strong>por que os problemas ambientais das cidades brasileiras são tão graves e por que eles sempre atingem mais duramente os mais pobres?</strong></p>
+            <p>Esses desastres não são "naturais" no sentido de inevitáveis. São resultado de décadas de urbanização desordenada, ausência de planejamento, déficit de saneamento e da concentração dos riscos nas populações mais pobres, que moram exatamente nas áreas mais vulneráveis da cidade. A pergunta desta aula é: <strong>por que os problemas ambientais das cidades brasileiras são tão graves e por que eles sempre atingem mais duramente os mais pobres?</strong></p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -122,17 +124,17 @@
         <!-- BLOCO 4: Enchentes e impermeabilização -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
-
             <h2>Enchentes: por que as cidades afogam</h2>
 
             <p>Quando chove numa floresta, a água cai sobre a vegetação, infiltra no solo, alimenta lençóis freáticos e vai aos poucos para os rios. Quando chove numa cidade, a água cai sobre asfalto, concreto e telhados, não infiltra no solo e escoa rapidamente para os bueiros e rios, que transbordam.</p>
 
-            <p>O fenômeno é chamado de <span class="termo" data-palavra="Impermeabilização do Solo" data-definicao="Processo pelo qual o solo urbano é coberto por superfícies impermeáveis (asfalto, concreto, calçadas, telhados), impedindo a infiltração da água da chuva. O resultado é o aumento do escoamento superficial, que sobrecarrega os sistemas de drenagem e causa enchentes. A impermeabilização é uma das principais causas das inundações urbanas no Brasil.">impermeabilização do solo</span>. Nas metrópoles brasileiras, 60% a 80% da superfície é impermeável. Isso significa que quase toda a água da chuva vai direto para a superfície, sobrecarregando o sistema de drenagem.</p>
+            <p>Na linguagem da Defesa Civil, esses eventos têm nomes diferentes conforme a causa: o <span class="termo" data-palavra="Alagamento" data-definicao="Acúmulo temporário de água em uma área urbana causado pela incapacidade do sistema de drenagem de escoar a chuva, geralmente por bueiros entupidos ou insuficientes. Diferente da enchente, o alagamento não depende do transbordamento de um rio: pode acontecer em qualquer rua com drenagem deficiente, mesmo longe de cursos d'água.">alagamento</span> é o acúmulo de água numa rua porque o sistema de drenagem não dá conta da chuva, mesmo longe de qualquer rio; a <strong>enchente</strong> (ou inundação) acontece quando um rio recebe mais água do que seu leito comporta e transborda sobre as áreas próximas. As duas coisas costumam acontecer juntas nas cidades brasileiras, mas têm causas técnicas um pouco diferentes: o alagamento é sobretudo um problema de drenagem urbana, e a enchente é um problema de ocupação das várzeas dos rios.</p>
+
+            <p>O fenômeno é chamado de <span class="termo" data-palavra="Impermeabilização do Solo" data-definicao="Processo pelo qual o solo urbano é coberto por superfícies impermeáveis (asfalto, concreto, calçadas, telhados), impedindo a infiltração da água da chuva. O resultado é o aumento do escoamento superficial, que sobrecarrega os sistemas de drenagem e causa enchentes. A impermeabilização é uma das principais causas das inundações urbanas no Brasil.">impermeabilização do solo</span>. Em São Paulo, por exemplo, estudos de sensoriamento remoto mostram que cerca de 57% do território urbano tem cobertura impermeável (asfalto, concreto e telhados), dificultando a infiltração da água da chuva. Em bairros centrais e adensados, esse percentual é ainda maior. O resultado é que quase toda a água da chuva vai direto para a superfície, sobrecarregando o sistema de drenagem.</p>
 
             <p>O problema é agravado por outros fatores: rios urbanos retificados (transformados em canais artificiais retos) perdem sua capacidade de amortecer as cheias; planícies de inundação (várzeas), que são as áreas naturalmente preparadas para receber a água dos rios em épocas de cheia, foram ocupadas por bairros populares e construções irregulares; e o lixo jogado nas ruas entope os bueiros e agrava os alagamentos.</p>
 
-            <p>E quem mora nas áreas mais sujeitas às enchentes? Geralmente, os mais pobres: nas várzeas dos rios, porque a terra era mais barata; nas encostas dos morros, porque era o único espaço disponível quando chegaram à cidade. O risco ambiental não é distribuído igualmente: ele se concentra exatamente onde já há mais pobreza.</p>
+            <p>E quem mora nas áreas mais sujeitas às enchentes? Geralmente, os mais pobres: nas várzeas dos rios, porque a terra era mais barata; nas encostas dos morros, porque era o único espaço disponível quando chegaram à cidade. O risco ambiental não é distribuído igualmente: ele se concentra exatamente onde já há mais pobreza. O Serviço Geológico do Brasil (CPRM) mapeou mais de 1.600 municípios com áreas de alto e altíssimo risco de deslizamento, enchente e outros desastres, estimando que mais de 4 milhões de pessoas vivem nessas áreas. Um levantamento anterior, feito em parceria entre o Cemaden e o IBGE, já havia identificado mais de 8 milhões de pessoas expostas a esse tipo de risco em pouco menos de 900 municípios avaliados, com o Sudeste concentrando a maior parte dos casos.</p>
 
             <div class="w3-margin">
                 <img src="ts30f01.png" alt="Diagrama comparando o escoamento da água em área natural versus área urbana impermeabilizada"
@@ -141,7 +143,15 @@
                 <span class="w3-small w3-margin-left">Comparação entre o ciclo hidrológico em área natural e em área urbana impermeabilizada.</span>
             </div>
 
-            </div>
+            <h3>Como se monitora um deslizamento antes que ele aconteça</h3>
+
+            <p>Em regiões montanhosas de clima tropical, os deslizamentos em encostas podem evoluir para uma <span class="termo" data-palavra="Corrida de Detritos" data-definicao="Movimento de massa rápido e violento em que uma mistura de terra, rochas, água e vegetação desce encostas e canais de drenagem em alta velocidade, geralmente desencadeado por chuvas intensas. Difere de um deslizamento simples pela velocidade, pelo volume de material e pelo alcance destrutivo, podendo atingir áreas distantes do ponto de origem.">corrida de detritos</span>, um fluxo rápido e destrutivo de terra, rochas, água e vegetação que desce pelas encostas e canais de drenagem. Por seu potencial destrutivo em áreas ocupadas de forma irregular, como os morros e encostas descritos no início desta aula, esses eventos são hoje alvo de sistemas de monitoramento que buscam emitir alertas antes que a corrida de detritos atinja as moradias. No Brasil, esse monitoramento é feito principalmente pelo Cemaden (Centro Nacional de Monitoramento e Alertas de Desastres Naturais), órgão federal criado em julho de 2011, meses depois das tragédias na Região Serrana do Rio de Janeiro do início daquele ano, e hoje responsável por observar áreas de risco em milhares de municípios brasileiros suscetíveis a deslizamentos, enchentes e outros desastres naturais.</p>
+
+            <p>Esses sistemas combinam sensores instalados em diferentes pontos da encosta, cada um com uma função específica: o <strong>pluviômetro</strong>, posicionado na porção mais elevada do terreno, mede o volume de chuva logo no início do processo, permitindo um alerta precoce; o <strong>geofone</strong> registra as vibrações no solo causadas pela movimentação de rochas e sedimentos; o <strong>sonar de volume</strong> e o <strong>cabo sensor</strong>, instalados no fundo do vale, onde o fluxo converge e atinge maior velocidade e volume, medem o nível dos rios e registram a passagem dos detritos; e o <strong>sensor de impacto</strong> registra a força com que a corrida de detritos atinge obstáculos em seu caminho. A lógica de posicionamento desses sensores acompanha o próprio percurso do fenômeno, da encosta onde a chuva se inicia até o fundo de vale, onde o risco para a população que mora a jusante é maior.</p>
+
+            <h3>Cidade esponja: um outro jeito de lidar com a chuva</h3>
+
+            <p>Diante desse cenário, parte do planejamento urbano recente adota o conceito de <span class="termo" data-palavra="Cidade Esponja" data-definicao="Conceito de planejamento urbano que propõe aumentar a capacidade da cidade de absorver e reter água da chuva, em vez de apenas escoá-la o mais rápido possível. Usa pisos permeáveis, telhados verdes, jardins de chuva e parques nas planícies de inundação para reduzir o volume de água que chega de uma só vez ao sistema de drenagem. Reduz enchentes e ainda melhora a qualidade do ar e o microclima urbano.">cidade esponja</span>: em vez de só ampliar a capacidade dos bueiros e canalizar rios, a ideia é aumentar a capacidade da própria cidade de absorver água, com pisos permeáveis, telhados verdes, jardins de chuva e parques que funcionam como esponjas naturais nas planícies de inundação. Porto Alegre e São Paulo já têm projetos-piloto de cidade esponja, ainda em escala pequena diante do tamanho do problema.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -157,21 +167,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>Aumento das chuvas causado pelas mudanças climáticas globais</span></label>
+                    <label for="p1a" class="card-opcao"><span>Mudanças climáticas globais</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>Impermeabilização do solo e ocupação de várzeas e encostas, reduzindo a infiltração</span></label>
+                    <label for="p1b" class="card-opcao"><span>Impermeabilização e ocupação de várzeas</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>Desmatamento das florestas rurais ao redor da cidade, que alterou a evapotranspiração regional</span></label>
+                    <label for="p1c" class="card-opcao"><span>Desmatamento das florestas rurais</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Enchentes têm causas estruturais: impermeabilização e ocupação de várzeas existiam antes das mudanças climáticas e estão ligadas ao modelo de urbanização.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Impermeabilização e ocupação de várzeas já existiam antes das mudanças climáticas e estão ligadas ao modelo de urbanização.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -194,7 +204,11 @@
 
             <h3>Poluição do ar: quem respira o quê</h3>
 
-            <p>A poluição do ar nas cidades brasileiras tem fontes principais: veículos (especialmente os movidos a diesel, como ônibus e caminhões) e queimadas. O material particulado (MP2,5), que são partículas minúsculas que penetram nos pulmões e na corrente sanguínea, é o poluente mais perigoso. Segundo a OMS, a poluição do ar causa mais de 7 milhões de mortes por ano no mundo. No Brasil, doenças respiratórias são uma das principais causas de internação hospitalar em crianças.</p>
+            <p>A poluição do ar nas cidades brasileiras tem fontes principais: veículos (especialmente os movidos a diesel, como ônibus e caminhões) e queimadas. O <span class="termo" data-palavra="Material Particulado (MP2,5)" data-definicao="Partículas sólidas e líquidas suspensas no ar com diâmetro menor que 2,5 micrômetros (cerca de 30 vezes menor que um fio de cabelo), pequenas o suficiente para penetrar profundamente nos pulmões e chegar à corrente sanguínea. É considerado o poluente atmosférico mais perigoso para a saúde humana, associado a doenças respiratórias, cardiovasculares e derrames. Suas principais fontes urbanas são veículos a diesel, indústrias e queimadas.">material particulado (MP2,5)</span>, partículas minúsculas que penetram nos pulmões e na corrente sanguínea, é o poluente mais perigoso. Segundo a OMS, a poluição do ar causa mais de 7 milhões de mortes por ano no mundo, a maioria em países de renda baixa e média. No Brasil, doenças respiratórias são uma das principais causas de internação hospitalar em crianças.</p>
+
+            <h3>Ilhas de frescor: o oposto das ilhas de calor</h3>
+
+            <p>Se o concreto e o asfalto criam ilhas de calor, a vegetação faz o caminho inverso. Parques, praças arborizadas e áreas verdes funcionam como <span class="termo" data-palavra="Ilha de Frescor" data-definicao="Área urbana com temperatura sensivelmente mais baixa que seu entorno, geralmente por causa da vegetação e de corpos d'água, que resfriam o ar por meio de sombra e evapotranspiração. É o efeito oposto ao da ilha de calor e um dos motivos pelos quais o planejamento urbano recomenda ampliar áreas verdes de forma bem distribuída pela cidade, e não concentrada só em alguns bairros.">ilhas de frescor</span>, com temperaturas visivelmente mais baixas do que ruas cercadas de prédios e asfalto, porque as árvores dão sombra e liberam umidade no ar. O problema é que, assim como o resto da infraestrutura urbana, a arborização também segue a lógica da segregação: bairros ricos costumam ter muito mais áreas verdes por habitante do que bairros periféricos, o que significa que o alívio das ilhas de frescor também está distribuído de forma desigual.</p>
 
             <div class="w3-margin">
                 <img src="ts30f02.png" alt="Diagrama explicando o fenômeno da inversão térmica em ambiente urbano e seus efeitos na qualidade do ar"
@@ -217,21 +231,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>Aumenta a temperatura na superfície, causando risco de insolação durante atividades físicas</span></label>
+                    <label for="p2a" class="card-opcao"><span>Risco de insolação</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
-                    <label for="p2b" class="card-opcao"><span>Impede a dispersão de poluentes, que se concentram ao nível do solo aumentando o risco respiratório</span></label>
+                    <label for="p2b" class="card-opcao"><span>Poluentes presos ao nível do solo</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
-                    <label for="p2c" class="card-opcao"><span>Cria ventos em altitude que reduzem a temperatura ao nível do solo</span></label>
+                    <label for="p2c" class="card-opcao"><span>Ventos em altitude</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A inversão térmica prende poluentes ao nível do solo. O exercício intensifica a respiração, aumentando a inalação. Crianças e idosos são mais vulneráveis.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A inversão térmica prende poluentes ao nível do solo. O exercício intensifica a respiração, aumentando a inalação.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -246,27 +260,25 @@
         <!-- BLOCO 8: Lixo e saneamento -->
         <div class="topico">
 
-            <div class="w3-pale-green">
-
             <h2>Lixo e saneamento: o que a cidade descarta</h2>
 
-            <p>O Brasil gera cerca de 80 milhões de toneladas de resíduos sólidos por ano. Mas apenas 47% vai para aterros sanitários adequados. O restante vai para lixões a céu aberto, rios, terrenos baldios ou é queimado irregularmente. Os lixões são focos de doenças, contaminam o solo e os lençóis freáticos e produzem metano (um dos gases do efeito estufa).</p>
+            <p>O Brasil gera cerca de 81,6 milhões de toneladas de resíduos sólidos urbanos por ano. Cerca de 60% recebe destinação adequada em aterros sanitários. O restante (mais de 40%, cerca de 33 milhões de toneladas) vai para lixões a céu aberto, rios, terrenos baldios ou é queimado irregularmente. Os lixões são focos de doenças, contaminam o solo e os lençóis freáticos e produzem metano (um dos gases do efeito estufa).</p>
 
             <p>O <span class="termo" data-palavra="Saneamento Básico" data-definicao="Conjunto de serviços essenciais para a saúde pública e qualidade de vida: abastecimento de água potável, coleta e tratamento de esgoto, coleta e disposição adequada de resíduos sólidos e drenagem de águas pluviais. No Brasil, o déficit de saneamento é enorme: segundo o Painel do Saneamento (2023), mais de 30 milhões de brasileiros não têm acesso à água tratada e mais de 90 milhões não têm acesso à coleta de esgoto. O novo Marco Legal do Saneamento (2020) prevê a universalização até 2033.">saneamento básico</span> inclui quatro componentes: abastecimento de água potável, coleta e tratamento de esgoto, destinação adequada do lixo e drenagem de águas pluviais. O Brasil tem avançado no abastecimento de água, mas o esgoto é o grande gargalo: em 2023, apenas cerca de 55% do esgoto gerado era coletado, e desse total, nem todo recebia tratamento adequado antes de ser lançado nos rios e no mar.</p>
 
-            <p>Quem sofre mais com o déficit de saneamento? As populações de baixa renda, nas periferias e nas regiões Norte e Nordeste. Municípios da Amazônia, onde se concentra a maior biodiversidade do planeta, têm alguns dos piores índices de saneamento do Brasil. O paradoxo é brutal: a região mais rica em água doce do mundo tem parte de sua população bebendo água sem tratamento adequado.</p>
+            <p>Quem sofre mais com o déficit de saneamento? As populações de baixa renda, nas periferias e nas regiões Norte e Nordeste, onde a cobertura de coleta de esgoto é bem menor que a média nacional. Municípios da Amazônia, onde se concentra a maior biodiversidade do planeta, têm alguns dos piores índices de saneamento do Brasil. O paradoxo chama atenção: a região mais rica em água doce do mundo tem parte de sua população bebendo água sem tratamento adequado e convivendo com esgoto a céu aberto.</p>
 
             <h3>Catadores: o trabalho invisível na cadeia do lixo</h3>
 
             <p>O Brasil tem entre 400 mil e 800 mil catadores de materiais recicláveis, responsáveis por recuperar grande parte do que é reciclado no país. Eles trabalham em condições precárias, frequentemente nos lixões, sem proteção trabalhista ou de saúde. A Política Nacional de Resíduos Sólidos (2010) reconheceu os catadores como atores fundamentais da cadeia de reciclagem e previu a eliminação dos lixões, mas a implementação foi lenta e incompleta.</p>
+
+            <p>A coleta seletiva, que facilita o trabalho dos catadores e aumenta a reciclagem, também é desigual pelo país: segundo o IBGE, apenas 60,5% dos municípios brasileiros oferecem algum tipo de coleta seletiva. As regiões Sul (81,9%) e Sudeste (80,6%) lideram a cobertura, enquanto Nordeste (33,5%) e Norte (37%) ficam bem atrás, repetindo o mesmo padrão de desigualdade regional já visto no saneamento básico.</p>
 
             <div class="w3-margin">
                 <img src="ts30f03.png" alt="Mapa do Brasil mostrando o déficit de cobertura de esgoto tratado por estado, com destaque para as desigualdades regionais"
                     class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Mapa de saneamento por estado em breve</div>'">
                 <span class="w3-small w3-margin-left">Cobertura de esgoto tratado por estado no Brasil. Fonte: SNIS, 2022.</span>
-            </div>
-
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -306,7 +318,9 @@
 
             <p>A favela na encosta não está lá porque as pessoas não sabem do risco. Está lá porque não havia alternativa. O rio que transborda não é imprevisível: é um sistema hidrológico sobrecarregado por décadas de concreto e falta de drenagem. E o calor sufocante do centro da cidade não é inevitável: é resultado de escolhas de planejamento urbano que priorizaram o automóvel e o concreto em detrimento da vegetação e da permeabilidade.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> impermeabilização do solo (concreto e asfalto que impedem a infiltração da água); ilha de calor (temperatura mais alta nas cidades do que no campo); inversão térmica (camada de ar quente que retém poluentes próximos ao solo); saneamento básico (água, esgoto, lixo e drenagem); vulnerabilidade socioambiental (coincidência entre pobreza e exposição a riscos ambientais).</p>
+            <p>Mesmo os instrumentos que deveriam proteger todo mundo igualmente (o monitoramento de risco, a coleta de lixo, a rede de esgoto) chegam de forma desigual pela cidade. Os sensores do Cemaden avisam sobre deslizamentos, mas nem toda encosta ocupada tem sensor. A coleta seletiva existe em seis a cada dez municípios, mas é bem mais rara justamente onde a renda é menor. Entender essa aula não é decorar nomes de fenômenos naturais: é perceber que, atrás de cada palavra técnica (impermeabilização, ilha de calor, inversão térmica), existe uma escolha política sobre onde investir e quem protege.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> impermeabilização do solo (concreto e asfalto que impedem a infiltração da água); alagamento e enchente (acúmulo de água por drenagem insuficiente ou transbordamento de rio); cidade esponja (planejamento que aumenta a absorção de água pela cidade); ilha de calor e ilha de frescor (temperaturas mais altas ou mais baixas conforme a vegetação); inversão térmica (camada de ar quente que retém poluentes próximos ao solo); material particulado (partículas que penetram nos pulmões); saneamento básico (água, esgoto, lixo e drenagem); vulnerabilidade socioambiental (coincidência entre pobreza e exposição a riscos ambientais).</p>
 
             </div>
 
@@ -331,6 +345,12 @@
                 <strong>O que é cidade esponja?</strong>
             </p>
             <p><span class="primeiraLetra">R:</span> Cidade esponja é um conceito de planejamento urbano que propõe aumentar a capacidade de absorção da água pela cidade para reduzir enchentes. As medidas incluem: pisos permeáveis (que deixam a água infiltrar), telhados verdes (com vegetação que retém a chuva), jardins de chuva (depressões no solo que acumulam água temporariamente), parques nas planícies de inundação (que funcionam como esponjas naturais) e corredores verdes que conectam essas áreas. Algumas cidades brasileiras, como Porto Alegre e São Paulo, já têm projetos de cidade esponja, mas a escala ainda é pequena para resolver o problema.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Se existe um sistema de monitoramento de risco, por que ainda morre tanta gente em deslizamentos?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque o monitoramento reduz o risco, mas não elimina a causa do problema, que é a ocupação de áreas perigosas. O Cemaden e a CPRM conseguem prever, com boa antecedência, quando uma encosta corre risco de deslizar, e emitem alertas às prefeituras. Mas emitir um alerta não resolve nada se não houver, na ponta, um plano funcional de remoção temporária das famílias, abrigos disponíveis e, no longo prazo, moradia alternativa fora da área de risco. Em muitos municípios pequenos e pobres, falta estrutura para agir mesmo depois do alerta emitido. É outro exemplo de como um problema técnico (prever o desastre) e um problema político (agir a tempo) andam juntos.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
@@ -365,7 +385,7 @@
                 <p><strong>1.</strong> Escolha um problema ambiental urbano da sua cidade (enchente, calor excessivo, falta de saneamento, poluição do ar, lixo). Descreva onde ele acontece e quem é mais afetado.</p>
                 <p><strong>2.</strong> Quais são as causas estruturais desse problema? É resultado de urbanização desordenada, falta de investimento público, modelo de mobilidade, especulação imobiliária ou outra causa?</p>
                 <p><strong>3.</strong> O problema afeta igualmente todos os moradores da cidade ou se concentra mais nas áreas e nas populações mais pobres? Por quê?</p>
-                <p class="w3-small w3-text-grey">Dica: o Sistema Nacional de Informações sobre Saneamento (SNIS) publica dados sobre saneamento básico por município em snis.gov.br.</p>
+                <p class="w3-small w3-text-grey">Dica: o Sistema Nacional de Informações sobre Saneamento (SNIS) publica dados sobre saneamento básico por município em snis.gov.br, e o mapa on-line da CPRM permite consultar áreas de risco de deslizamento e enchente por cidade.</p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -405,34 +425,6 @@
         </div>
 
 
-        <!-- BLOCO 13.5: Monitoramento de deslizamentos e corridas de detritos -->
-        <div class="topico">
-
-            <h2>Como se monitora um deslizamento antes que ele aconteça</h2>
-
-            <p>Em regiões montanhosas de clima tropical, os deslizamentos em encostas podem evoluir para uma
-                <span class="termo" data-palavra="Corrida de Detritos" data-definicao="Movimento de massa rápido e violento em que uma mistura de terra, rochas, água e vegetação desce encostas e canais de drenagem em alta velocidade, geralmente desencadeado por chuvas intensas. Difere de um deslizamento simples pela velocidade, pelo volume de material e pelo alcance destrutivo, podendo atingir áreas distantes do ponto de origem.">corrida de detritos</span>,
-                um fluxo rápido e destrutivo de terra, rochas, água e vegetação que desce pelas encostas e canais de
-                drenagem. Por seu potencial destrutivo em áreas ocupadas de forma irregular, como os morros e
-                encostas descritos no início desta aula, esses eventos são hoje alvo de sistemas de monitoramento
-                que buscam emitir alertas antes que a corrida de detritos atinja as moradias.</p>
-
-            <p>Esses sistemas combinam sensores instalados em diferentes pontos da encosta, cada um com uma função
-                específica: o <strong>pluviômetro</strong>, posicionado na porção mais elevada do terreno, mede o
-                volume de chuva logo no início do processo, permitindo um alerta precoce; o <strong>geofone</strong>
-                registra as vibrações no solo causadas pela movimentação de rochas e sedimentos; o
-                <strong>sonar de volume</strong> e o <strong>cabo sensor</strong>, instalados no fundo do vale, onde o
-                fluxo converge e atinge maior velocidade e volume, medem o nível dos rios e registram a passagem dos
-                detritos; e o <strong>sensor de impacto</strong> registra a força com que a corrida de detritos atinge
-                obstáculos em seu caminho. A lógica de posicionamento desses sensores acompanha o próprio percurso do
-                fenômeno, da encosta onde a chuva se inicia até o fundo de vale, onde o risco para a população que
-                mora a jusante é maior.</p>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-            <hr>
-        </div>
-
-
         <!-- BLOCO 14: Transição final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
@@ -444,7 +436,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Problemas Socioambientais Urbanos é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

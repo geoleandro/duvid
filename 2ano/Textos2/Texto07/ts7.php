@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Classificações do relevo brasileiro (Aroldo de Azevedo, Aziz Ab'Saber, Jurandyr Ross) e as formas do litoral do Brasil" name="description"/>
+<meta content="Texto 07 - Classificações do Relevo e o Litoral Brasileiro" property="og:title"/>
+<meta content="Como a ciência mudou a forma de classificar o relevo brasileiro e quais paisagens marcam nosso litoral" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 07</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 07 - Classificações do Relevo e o Litoral Brasileiro</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -68,7 +72,7 @@
 <p> <span class="primeiraLetra">N</span>a última aula vimos a relação entre a estrutura geológica e as formas do
             relevo, quer dizer, o relacionamento entre os tipos de rochas e as feições da superfície no Brasil.</p>
 <p>Nesta aula, vamos ver como a classificação do relevo mudou ao longo do tempo devido aos novos avanços
-            científicos na área da geomorfologia.</p>
+            científicos na área da <span class="termo" data-palavra="geomorfologia" data-definicao="Ramo da Geografia que estuda as formas do relevo terrestre, sua origem, evolução e os processos que as modificam ao longo do tempo.">geomorfologia</span>.</p>
 <p>
             Vamos conhecer a diversidade de paisagens existentes no território brasileiro, seus recortes e variações
             <span onclick="this.innerHTML='topográficas (estudo da superfície terrestre e de suas características, formas e elevações)'"><mark>topográficas</mark>.</span>
@@ -77,31 +81,12 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-<h2> Questões a serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<p>1. Como o Brasil era conhecido em termos de relevo até a década de 1940?</p>
-<p>2. Quais são as altitudes mais elevadas do Brasil e em que regiões elas ocorrem?</p>
-<p>3. Quais foram os critérios utilizados por Aroldo de Azevedo para classificar o relevo brasileiro?
-            </p>
-<p>4. Quantas unidades geomorfológicas foram identificadas por Aroldo de Azevedo?</p>
-<p>5. Quem propôs uma nova classificação do relevo brasileiro nos anos 1960 e 1970?</p>
-<p>6. Quais foram os critérios considerados por Aziz Ab’Saber em sua nova classificação do relevo?</p>
-<p>7. Quais as principais formas do litoral brasileiro mencionadas no texto?</p>
-<p>8. O que são enseadas e onde são encontradas?</p>
-<p>9. O que são tômbolos e em que praias brasileiras são encontrados?</p>
-<p>10. Como o litoral brasileiro é afetado pelas correntes marítimas e quais são as principais correntes
-                mencionadas no texto?</p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2>As características do relevo no Brasil </h2>
 <p>O Brasil era conhecido como um país de planaltos e planícies, pelo menos até a década de 1940. Embora o país
             tenha altitudes modestas, que variam em média, entre 200 m a 800 m, com apenas 7,3% do território com
             altitudes superiores a esse número. </p>
 <p>As altitudes mais elevadas ocorrem no geral na região Sudeste e Picos entre a Amazônia e a fronteira com a
-            Guiana e Venezuela, como o Pico da Neblina (2.993,7 m) e o Pico 31 de Março (2.972,6 m) na Serra do Imeri,
+            Guiana e Venezuela, como o Pico da Neblina (2.995,3 m) e o Pico 31 de Março (2.974,2 m) na Serra do Imeri,
             ambos situados ao norte do Estado do Amazonas. </p>
 <p>E foi a altitude o primeiro critério utilizado para classificar o relevo brasileiro. Seguido do critério
             geomorfoclimático, com a dinâmica da erosão e sedimentação e, o mais recente, baseado na estrutura geológica
@@ -122,14 +107,14 @@
 <div class="w3-margin"><img alt="ts07f01" class="w3-mobile" id="imagem1" src="ts07f01.png"/>
 </div>
 <p> Essa classificação adotou um caráter mais abrangente à época, mais generalizado. Dividiu o país em oito
-            grandes unidades: quatro planaltos (das Guianas, Central, Atlântico e Meridional) e três planícies
-            (Amazônica, Costeira e do Pantanal).</p>
+            grandes unidades: quatro planaltos (das Guianas, Central, Atlântico e Meridional) e quatro planícies
+            (Amazônica, Costeira, do Pantanal e dos Pampas).</p>
 <p>Esse modelo de representação do relevo brasileiro foi muito utilizado na maioria dos livros didáticos até a
             década de 1950. </p>
 <h3>O relevo e a dinâmica geomorfoclimática</h3>
 <p>Nos anos de 1960 e 1970, o geógrafo Aziz Ab’Saber propôs uma nova classificação do relevo brasileiro. Ele
-            aperfeiçoou o modelo anterior. Ele contou com ajuda da <span class="w3-yellow" onclick="document.getElementById('aerofotogrametria').style.display='block'">aerofotogrametria</span> uma nova proposta do relevo brasileiro a partir da erosão e
-            sedimentação. </p>
+            aperfeiçoou o modelo anterior, contando com o auxílio da <span class="w3-yellow" onclick="document.getElementById('aerofotogrametria').style.display='block'">aerofotogrametria</span> para elaborar uma nova proposta do relevo brasileiro a partir da erosão e
+            da sedimentação. </p>
 <div class="w3-modal w3-margin-top" id="aerofotogrametria">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -165,9 +150,9 @@
 <p>Publicado em 1989 pelo geógrafo Jurandyr Ross, essa classificação utilizou de fotografias áreas do projeto
             <span class="w3-yellow" onclick="document.getElementById('RADAM').style.display='block'">RADAM</span>
             Brasil. Leva em conta a estrutura geológica na formação do relevo e o fator escultural das formas de relevo.
-            Além dos planaltos e das planícies, surge as unidades das depressões. São no total, 28 unidades do relevo,
-            sendo 12 Planaltos, 12 Depressões e 06 planícies. É um mapeamento mais detalhado para nortear o ocupação do
-            território, a construção de estradas, o planejamento, a ocupação do solo e proteção ambiental.
+            Além dos planaltos e das planícies, surgem as unidades das depressões. São no total, 28 unidades do relevo,
+            sendo 11 planaltos, 11 depressões e 6 planícies. É um mapeamento mais detalhado para nortear a ocupação do
+            território, a construção de estradas, o planejamento, a ocupação do solo e a proteção ambiental.
         </p>
 <div class="w3-modal w3-margin-top" id="RADAM">
 <div class="w3-modal-content">
@@ -187,7 +172,7 @@
 <span class="w3-small w3-margin-left" id="citacao3"> Fonte: Vesentini (2013). </span>
 </div>
 <p>A classificação de Ross considera a influência dos tipos de rocha nas formas do relevo, isto é, a
-            morfoestrutura. Também considera os climas atuais na modificação do relevo, quer dizer a morfoclimática e os
+            <span class="termo" data-palavra="morfoestrutura" data-definicao="Conjunto de formas de relevo resultantes da estrutura geológica, ou seja, do tipo de rocha e da disposição das camadas que compõem o terreno.">morfoestrutura</span>. Também considera os climas atuais na modificação do relevo, quer dizer a morfoclimática e os
             processos de erosão e sedimentação; além dos climas passados (morfoescultura) e sua influência na
             modificação do relevo. </p>
 <p>As planícies ficaram mais restritas no litoral e áreas inundáveis como Lagoas dos Patos no Rio Grande do Sul,
@@ -206,7 +191,7 @@
 </div>
 <div class="topico">
 <h2>O relevo da América do Sul </h2>
-<p>Em 2016, o geógrafo Jurandyr Rossa publicou um novo mapa do relevo da América do Sul, muito mais detalhado e
+<p>Em 2016, o geógrafo Jurandyr Ross publicou um novo mapa do relevo da América do Sul, muito mais detalhado e
             com ajuda de imagens de radar de satélites, Google Earth e Mapas geológicos das empresas públicas do
             Ministério de Minas e Energia. </p>
 <p>O mapa delimita as unidades dos três blocos fundamentais do continente com base em diferenças geológica,
@@ -214,35 +199,45 @@
 <div class="w3-margin"><img alt="ts07f09" class="w3-mobile" id="imagem9" src="ts07f09.png"/></div>
 <div class="w3-container">
 <h3>Clique para ver as descrições contidas no mapa:</h3>
-<div class="w3-row">
-<a href="javascript:void(0)" onclick="openCity(event, 'London');">
-<div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">1</div>
-</a>
-<a href="javascript:void(0)" onclick="openCity(event, 'Paris');">
-<div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">2</div>
-</a>
-<a href="javascript:void(0)" onclick="openCity(event, 'Tokyo');">
-<div class="w3-third tablink w3-bottombar w3-hover-light-grey w3-padding">3</div>
-</a>
+<div class="w3-row" style="display:flex; gap:8px; flex-wrap:wrap;">
+<button type="button" class="ts07-tab-btn ts07-tab-ativa" data-alvo="ts07-serra" onclick="ts07MostrarTab(this,'ts07-serra')" style="flex:1; min-width:140px; border:2px solid #2e7d32; background:#2e7d32; color:#fff; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">1 — Serra da Mantiqueira</button>
+<button type="button" class="ts07-tab-btn" data-alvo="ts07-patagonia" onclick="ts07MostrarTab(this,'ts07-patagonia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">2 — Deserto da Patagônia</button>
+<button type="button" class="ts07-tab-btn" data-alvo="ts07-ushuaia" onclick="ts07MostrarTab(this,'ts07-ushuaia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">3 — Extremo Sul</button>
 </div>
-<div class="w3-container city" id="London" style="display:none">
+<div class="w3-container ts07-tab-painel" id="ts07-serra">
 <div class="w3-margin"><img alt="ts07f010" class="w3-mobile" id="imagem10" src="ts07f010.png"/>
 </div>
 <p>A serra da Mantiqueira integra planaltos bastante erodidos, entremeados por depressões (cor laranja,
                     2.6-2.9). As bacias sedimentares mais antigas estão em azul (4.1-4.4).</p>
 </div>
-<div class="w3-container city" id="Paris" style="display:none">
+<div class="w3-container ts07-tab-painel" id="ts07-patagonia" style="display:none">
 <div class="w3-margin"><img alt="ts07f011" class="w3-mobile" id="imagem11" src="ts07f011.png"/>
 </div>
 <p>O deserto da Patagônia representa um resquício do Gondwana, com planaltos bastante erodidos com
                     chapadas e morros de origem vulcânica que se cobrem de gelo no inverno (3.3.2).</p>
 </div>
-<div class="w3-container city" id="Tokyo" style="display:none">
+<div class="w3-container ts07-tab-painel" id="ts07-ushuaia" style="display:none">
 <div class="w3-margin"><img alt="ts07f012" class="w3-mobile" id="imagem12" src="ts07f012.png"/>
 </div>
 <p>A conformação recortada do extremo sul decorre do deslocamento do continente para Oeste. Ao lado, a
                     cidade de Ushuaia, no extremo sul da América do Sul (5.1-5.3).</p>
 </div>
+<script>
+function ts07MostrarTab(botao, alvoId) {
+    document.querySelectorAll('.ts07-tab-painel').forEach(function(p) { p.style.display = 'none'; });
+    document.getElementById(alvoId).style.display = 'block';
+    document.querySelectorAll('.ts07-tab-btn').forEach(function(b) {
+        b.classList.remove('ts07-tab-ativa');
+        b.style.background = '#fff';
+        b.style.color = '#2e7d32';
+        b.style.borderColor = '#a5d6a7';
+    });
+    botao.classList.add('ts07-tab-ativa');
+    botao.style.background = '#2e7d32';
+    botao.style.color = '#fff';
+    botao.style.borderColor = '#2e7d32';
+}
+</script>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -255,8 +250,8 @@
             oceânicas que deságuam no litoral. </p>
 <p>Dentre inúmeras formas, as principais são a <strong>baía</strong>. A baía é uma faixa de mar ou de oceano
             rodeada de terra que avança para o continente, ela é menor do que o golfo. A entrada da baía é estreita e
-            alarga-se para o interior. Normalmente são locais de exploração económica, porque nelas as águas ficam mais
-            calmas, favorecendo por exemplo construção de portos. Veja abaixo: </p>
+            alarga-se para o interior. Normalmente são locais de exploração econômica, porque nelas as águas ficam mais
+            calmas, favorecendo, por exemplo, a construção de portos. Veja abaixo:</p>
 <div class="w3-margin"><img alt="ts07f07" class="w3-mobile" id="imagem7" src="ts07f07.png"/></div>
 <p> Algumas são importantes áreas de preservação ambiental, como: a baía dos Golfinhos e dos Porcos, em Fernando
             de Noronha e a baía de Guanabara no Rio de Janeiro.</p>
@@ -267,7 +262,7 @@
             litorâneos do Brasil.</p>
 <p>Nas praias brasileiras é possível, da mesma maneira, vislumbrar também a existência de outras formas
             resultantes do acúmulo de sedimentos transportados pelo mar, pelos ventos e pelos rios que deságuam no
-            litoral. Verifica-se a presença de <strong>tômbolos</strong>, formações arenosas que ligam uma ilha ao
+            litoral. Verifica-se a presença de <span class="termo" data-palavra="tômbolos" data-definicao="Formações arenosas alongadas que ligam uma ilha ao continente, originadas pelo acúmulo de sedimentos transportados pelas correntes marítimas.">tômbolos</span>, formações arenosas que ligam uma ilha ao
             continente, e também de <strong>cabos</strong> ou <strong>promontórios</strong>, porções de terra que se
             projetam na direção do mar. Em alguns lugares do país, a formação desse relevo dá nome a municípios, por
             exemplo: Cabo de Santo Agostinho, no estado de Pernambuco, Cabo Frio e Arraial do Cabo, no Estado do Rio de
@@ -280,8 +275,8 @@
             de <strong>Barra</strong> ou barra de praia. Os exemplos são: Barra da Tijuca no RJ, Garopaba em SC, praia
             do Farol da Barra na BA, dentre inúmeros outros.</p>
 <p> O acúmulo de sedimentos e a presença de <span class="w3-yellow" onclick="document.getElementById('recifes').style.display='block'">recifes</span> de
-            coral dá origem a formações de lagunas. Estas são caracterizadas por serem uma porção de água salgada
-            separada parcialmente separada do mar devido a essas barreiras naturais, havendo, no entanto, aberturas que
+            coral dá origem a formações de <span class="termo" data-palavra="lagunas" data-definicao="Porções de água salgada parcialmente separadas do mar por barreiras naturais de sedimentos, mantendo aberturas que as ligam ao oceano.">lagunas</span>. Estas são caracterizadas por serem uma porção de água salgada
+            parcialmente separada do mar devido a essas barreiras naturais, havendo, no entanto, aberturas que
             permitem a ligação com o mar. Esse tipo de relevo é comum no litoral brasileiro em Alagoas, Rio de Janeiro,
             Rio Grande do Sul, etc.</p>
 <div class="w3-modal w3-margin-top" id="recifes">
@@ -298,8 +293,8 @@
 </div>
 </div>
 <p>O litoral brasileiro é conhecido por possuir costas baixas, isto é, formações com baixa altitude. Entretanto,
-            há formações com costas altas em vários Estados, formado por paredões escarpados junto ao oceano, são as
-            chamadas <strong>falésias</strong>. Podem ser encontrados nos Estados de Alagoas, Bahia, Ceará, Rio Grande
+            há formações com costas altas em vários Estados, formadas por paredões escarpados junto ao oceano, são as
+            chamadas <span class="termo" data-palavra="falésias" data-definicao="Paredões rochosos escarpados junto ao litoral, formados pela ação erosiva contínua das ondas do mar sobre a rocha.">falésias</span>. Podem ser encontradas nos Estados de Alagoas, Bahia, Ceará, Rio Grande
             do Norte e Rio Grande do Sul. </p>
 <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 <h3><strong><mark>Se você não sabia, agora já sabe!</mark></strong></h3>
@@ -310,7 +305,7 @@
                 e o Morro do Farol, no perímetro urbano.</p>
 <p>Esses morros vêm sendo modificados intensamente desde o início da era Cenozoica. Houve forte atuação de
                 agentes climáticos, como o vento e a chuva, e também do oceano: nos últimos 230 mil anos a região sofreu
-                Quatro regressões e transgressões marinhas.</p>
+                quatro regressões e transgressões marinhas.</p>
 <div class="w3-margin"><img alt="ts07f08" class="w3-mobile" id="imagem8" src="ts07f08.png"/></div>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -319,15 +314,14 @@
 <div class="topico">
 <h2> A divisão do litoral brasileiro</h2>
 <p> O litoral brasileiro é pouco recortado com golfos e penínsulas pouco expressivas. Ele possui incríveis 7.408
-            km de orla marítima, mas se considerarmos todas suas reentrâncias, seus recortes, esse número vai para cerca
-            de 9.200 km.</p>
+            km de orla marítima em linha reta, mas, segundo o IBGE, se considerarmos todas as suas reentrâncias, seus recortes, esse número sobe para quase 11 mil quilômetros (10.959,52 km).</p>
 <h3>Litoral equatorial amazônico e setentrional do Nordeste</h3>
 <p>Podemos nos referir ao litoral norte aquele que se estende desde o Cabo Orange, na foz do Rio Oiapoque (AP),
             até o Cabo São Roque (RN). </p>
 <p>São trechos de costas baixas e de acumulação de sedimentos ligados à planície litorânea da Amazônia e
             nordestina. Na parte amazônica, destaca-se o grande volume de água da bacia amazônica, desde os Estados do
             Amapá, Pará até o Maranhão com uma vegetação típica de áreas onde se encontram o rio com o mar: os
-            <strong>manguezais</strong>. O manguezal é um tipo de solo lodoso com plantas adaptadas a salinidade e com
+            <span class="termo" data-palavra="manguezais" data-definicao="Ecossistemas costeiros de solo lodoso, encontrados em áreas de encontro entre rios e mar, com vegetação adaptada à salinidade e raízes aéreas.">manguezais</span>. O manguezal é um tipo de solo lodoso com plantas adaptadas à salinidade e com
             raízes aéreas, ricas em nutrientes e fundamental para o balanço do ecossistema fluvial e marinho.
         </p>
 <p> No trecho nordestino, a partir do Golfo do Maranhão até o Cabo de São Roque, o relevo é formado por dunas,
@@ -358,8 +352,8 @@
 <div class="w3-margin"><img alt="ts07f016" class="w3-mobile" id="imagem16" src="ts07f016.png"/>
 </div>
 <p>Destaca-se a presença de recifes de arenito e coral. Os recifes de arenito são formados por antigas praias
-            que se solidificaram e transformaram-se em arenito. São geralmente estreitos e não passa de 100 m de
-            largura. O recife cujo nome da capital de Pernambuco possui pouco mais de 5 km de extensão. </p>
+            que se solidificaram e transformaram-se em arenito. São geralmente estreitos e não passam de 100 m de
+            largura. O recife que deu nome à capital de Pernambuco, Recife, possui pouco mais de 5 km de extensão.</p>
 <p>Já os recifes de corais ocorrem da acumulação de restos calcários, seja na forma de franjas perpendiculares à
             costa ou como barreiras paralelas. </p>
 <p> É nesse trecho que se encontra a Costa do Descobrimento – o trecho litorâneo atingido pelas caravelas de
@@ -382,20 +376,20 @@
             São Sebastião (SP), São Vicente (SP); Baía de Paranaguá (PR); Ilhas de São Francisco e Santa Catarina (SC),
             dentre outros.</p>
 <h3>O movimento das águas oceânicas no litoral brasileiro</h3>
-<p>Devemos mencionar os movimentos das águas que repercutem no litoral brasileiro como aquele realizado pelas
-            correntes marítimas. No caso do Brasil, o litoral sofre influência de três correntes: a das Malvinas ou
+<p>Devemos mencionar os movimentos das águas que repercutem no litoral brasileiro, como aquele realizado pelas
+            <span class="termo" data-palavra="correntes marítimas" data-definicao="Deslocamentos contínuos e organizados de grandes massas de água oceânica, causados principalmente pela ação dos ventos e por diferenças de temperatura e densidade da água.">correntes marítimas</span>. No caso do Brasil, o litoral sofre influência de três correntes: a das Malvinas ou
             Falklands, com águas frias, na região Sul do país; a do Brasil, de águas quentes, que banha a costa Sudeste
-            e Nordeste; e a das Guinas, também de águas quentes, que passa pelo litoral da região Norte. A dinâmica das
-            correntes marítimas ocorre devido ao vento e as diferenças de densidade da água. Os ventos movimentos
-            enormes massas de água, enquanto as alterações de temperatura e salinidade modificam a densidade da água
-            fazendo-a subir ou baixar ao fundo do oceânico, criando assim correntes circulatórias.</p>
+            e Nordeste; e a das Guianas, também de águas quentes, que passa pelo litoral da região Norte. A dinâmica das
+            correntes marítimas ocorre devido ao vento e às diferenças de densidade da água. Os ventos movimentam
+            enormes massas de água, enquanto as alterações de temperatura e salinidade modificam a densidade da água,
+            fazendo-a subir ou descer no fundo do oceano, criando assim correntes circulatórias.</p>
 <div class="w3-margin"><img alt="8" class="w3-mobile" id="imagem18" src="ts07f018.png"/></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Leia o texto abaixo:</b></h4>
+<h4 class="fontePixel"><b>Formações de rochas muito antigas, cristalinas e resistentes à erosão, presentes desde o Pré-Cambriano ao norte da região das Guianas e no núcleo do território brasileiro. Essa descrição corresponde a:</b></h4>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
@@ -428,7 +422,7 @@
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Descubra sobre o termo descrito no trecho abaixo:</b></h4>
+<h4 class="fontePixel"><b>Forma de relevo plana e de baixa altitude, resultante do acúmulo de sedimentos, historicamente ocupada por civilizações ribeirinhas — do Nilo, no Egito, ao rio Pinheiros, em São Paulo. Essa descrição corresponde a:</b></h4>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="correto"/>
@@ -461,7 +455,7 @@
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Leia o trecho abaixo:</b></h4>
+<h4 class="fontePixel"><b>Paredões rochosos escarpados junto ao litoral, formados pela ação erosiva contínua das ondas do mar, comuns em Alagoas, Bahia, Ceará, Rio Grande do Norte e Rio Grande do Sul. Essa descrição corresponde a:</b></h4>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
@@ -494,14 +488,14 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais os tipos de planaltos existentes?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span> Embora os planaltos sejam relevos em processo erosivo, neles podem ser
             observadas diferentes formas, porque as rochas que os constituem são diferentes. As formações planálticas
-            mais comuns no Brasil são as escarpas de planalto, as chapadas e as <em>cuestas</em>.</p>
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+            mais comuns no Brasil são as escarpas de planalto, as chapadas e as <span class="termo" data-palavra="cuestas" data-definicao="Planaltos arenito-basálticos com uma frente (front) íngreme e um reverso suave, formados por camadas alternadas de rochas magmáticas e sedimentares.">cuestas</span>.</p>
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p>- As escarpas de planalto são mais íngremes porque são formadas por rochas cristalinas, mantendo
                 altitudes mais elevadas. </p>
 <p>- As chapadas são planaltos com topos achatados, aplainados. Essa forma se deve à presença de rochas
@@ -514,7 +508,7 @@
                 vezes, todo o reverso desaparece, formando os chamados "morros testemunhos”. A cuesta de Botucatu no
                 Estado de São Paulo é um exemplo dessa formação.</p>
 </div>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>Por que as dunas se movem? </strong></p>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>Por que as dunas se movem? </strong></p>
 <p><span class="primeiraLetra">R:</span> As dunas se formam devido à interação do trabalho de acúmulo de
             sedimentos feito pelo vento e pelo mar. Os sedimentos são arenosos e vem sendo transportados há cerca de 5
             mil anos. As correntes marítimas carregam grande quantidade de areia, depositando-as nas praias. Quando
@@ -528,7 +522,7 @@
             passagem de veículos e até mesmo queimadas expõe a areia, favorecendo seu deslocamento. Há áreas bastante
             ameaçadas pelo avanço das dunas, como Cabo Frio, no Rio de Janeiro: Itaúnas, no Espírito Santo; e Mangue
             Seco, na divisa dos estados da Bahia e de Sergipe.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Poderia explicar melhor a existência das Depressões?
 
@@ -540,7 +534,7 @@
             unidades dessa forma de relevo são áreas mais baixas que o relevo em que se localizam e são classificadas
             em:
         </p>
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p>Depressões periféricas: áreas rebaixadas no contato entre terrenos sedimentares e cristalinos, como na
                 borda leste da bacia do Paraná e da depressão periférica Central ou Sul-rio-grandense.</p>
 <p>Depressões marginais: margeiam as bordas de terrenos sedimentares como nas depressões amazônicas.</p>
@@ -554,6 +548,28 @@
 <hr/>
 </div>
 <div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. Quais foram os três principais critérios utilizados, ao longo do tempo, para classificar o relevo brasileiro, e em que ordem histórica surgiram?</h3>
+<h3>2. Explique a classificação geomorfológica proposta por Aroldo de Azevedo na década de 1940. Quantas unidades ele identificou e quais eram elas?</h3>
+<h3>3. Qual foi a principal contribuição do geógrafo Aziz Ab'Saber para a classificação do relevo brasileiro nas décadas de 1960 e 1970?</h3>
+<h3>4. Descreva a classificação morfoestrutural de Jurandyr Ross (1989). Quantas unidades de relevo ela identificou e qual categoria foi acrescentada além dos planaltos e planícies?</h3>
+<h3>5. Explique a diferença entre uma baía e uma enseada.</h3>
+<h3>6. O que são tômbolos e como eles se formam?</h3>
+<h3>7. Explique a formação dos recifes de arenito e dos recifes de coral, apontando uma diferença entre eles.</h3>
+<h3>8. Como se formam as falésias e em quais estados brasileiros elas são mais comuns?</h3>
+<h3>9. Descreva as três divisões do litoral brasileiro (equatorial amazônico e setentrional do Nordeste, tropical ou oriental, e meridional ou subtropical), citando ao menos uma característica de cada uma.</h3>
+<h3>10. Quais são as três principais correntes marítimas que influenciam o litoral brasileiro? O que causa a dinâmica dessas correntes?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -563,7 +579,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Classificações do Relevo e o Litoral Brasileiro é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

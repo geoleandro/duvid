@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Globalização, desigualdades socioespaciais e divisão internacional do trabalho: uma introdução ao mundo atual com Milton Santos">
+    <meta property="og:title" content="Texto 01 - A Geografia no período atual">
+    <meta property="og:description" content="Por que o mundo é ao mesmo tempo integrado e desigual? Uma entrevista imaginária com Milton Santos abre o 3º ano explicando globalização, países centrais e periféricos e a divisão internacional do trabalho">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,10 +47,12 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
 
-    <title>3º ano - Texto 01</title>
+    <title>3º ano - Texto 01 - A Geografia no Período Atual</title>
 
 
 
@@ -159,50 +163,6 @@
 
 
         </div>
-
-
-        <div class="topico">
-            <div class="w3-pale-yellow">
-                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-                <h3>1. Como o autor descreve os três mundos (primeiro, segundo e terceiro) e o que essa visão sugere
-                    sobre
-                    as diferenças entre eles?</h3>
-                <h3>2. O autor critica o modelo atual de globalização. Quais são os principais problemas apontados e
-                    qual
-                    seria uma alternativa mais justa segundo ele?</h3>
-                <h3>3. De que maneira as redes geográficas são utilizadas como instrumentos de poder e controle no mundo
-                    globalizado?</h3>
-                <h3>4. Por que a globalização não deve ser vista como um processo imutável? Que fatores podem
-                    transformá-la?
-                </h3>
-                <h3>5. Como a globalização contribui para a exclusão social e para o surgimento de uma "contraordem"?
-                    Que
-                    papel a resistência e o desejo de mudança desempenham nesse contexto?</h3>
-
-                <h3>6. Qual a diferença entre crescimento econômico e desenvolvimento humano? Por que essa distinção é
-                    importante para compreender o mundo atual?</h3>
-
-                <h3>7. Explique como a Divisão Internacional do Trabalho reforça as desigualdades entre países
-                    desenvolvidos
-                    e subdesenvolvidos.</h3>
-
-                <h3>8. O que são desigualdades socioespaciais? Dê um exemplo presente no Brasil ou em sua cidade.</h3>
-
-                <h3>9. De que forma o avanço das tecnologias e da informação pode tanto ampliar oportunidades quanto
-                    aprofundar desigualdades no contexto da globalização?</h3>
-
-                <h3>10. Segundo uma perspectiva crítica da Geografia, qual deve ser o papel dos cidadãos e dos Estados
-                    na
-                    construção de um modelo de globalização mais justo e humano?</h3>
-
-            </div>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
-        </div>
-
-
 
 
 
@@ -518,30 +478,28 @@
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
                     <label for="p1a" class="card-opcao">
-                        <span>a) Existe apenas um mundo, conforme difundido pela globalização.</span>
+                        <span>Existe apenas um mundo único</span>
                     </label>
                 </div>
 
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
                     <label for="p1b" class="card-opcao">
-                        <span>b) Existem três perspectivas diferentes sobre o mundo: o mundo como nos fazem crer
-                            (fábula), o
-                            mundo como ele é (perversidade), e a possibilidade de construir um outro mundo.</span>
+                        <span>Três mundos coexistindo: fábula, perversidade e possibilidade</span>
                     </label>
                 </div>
 
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
                     <label for="p1c" class="card-opcao">
-                        <span>c) Existem múltiplos mundos, cada um com sua própria realidade e globalização.</span>
+                        <span>Múltiplos mundos, cada um com sua globalização</span>
                     </label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: O território envolve fronteiras e poder!', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'para Milton Santos, o mundo como nos fazem crer (fábula), o mundo como ele é (perversidade) e o mundo como pode ser (possibilidade) coexistem ao mesmo tempo.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -568,23 +526,21 @@
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="correto" class="radio-duvid">
                     <label for="p2a" class="card-opcao">
-                        <span>a) A globalização como uma fábrica de perversidades, com aumento da pobreza e
-                            desigualdades.</span>
+                        <span>Perversidade: mais pobreza e desigualdade</span>
                     </label>
                 </div>
 
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
                     <label for="p2b" class="card-opcao">
-                        <span>b) A globalização como um processo benéfico, que promove o desenvolvimento econômico e
-                            social.</span>
+                        <span>Processo puramente benéfico</span>
                     </label>
                 </div>
 
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
                     <label for="p2c" class="card-opcao">
-                        <span>c) A globalização como uma utopia alcançável, que leva à igualdade global.</span>
+                        <span>Utopia que leva à igualdade global</span>
                     </label>
                 </div>
             </div>
@@ -615,69 +571,167 @@
 
             <p>
                 Vivemos em um mundo marcado por profundas transformações econômicas, tecnológicas e sociais. Ao mesmo
-                tempo
-                em que observamos grandes avanços científicos, crescimento econômico e integração entre países, também
-                convivemos com desigualdades intensas, pobreza, exclusão social e diferenças significativas entre
-                regiões do
-                planeta.
+                tempo em que observamos grandes avanços científicos, crescimento econômico e integração entre
+                países, também convivemos com desigualdades intensas, pobreza, exclusão social e diferenças
+                significativas entre regiões do planeta.
             </p>
 
             <p>
                 Para compreender o mundo atual, é fundamental analisar alguns conceitos centrais da Geografia:
-                desenvolvimento e subdesenvolvimento, divisão internacional do trabalho, desigualdades socioespaciais e
-                globalização.
+                <span class="termo" data-palavra="Divisão Internacional do Trabalho"
+                    data-definicao="Especialização das economias nacionais dentro do sistema capitalista mundial: cada país (ou grupo de países) concentra determinadas atividades produtivas, de acordo com sua posição histórica na economia global. Países centrais costumam concentrar atividades de alto valor agregado (tecnologia, pesquisa, serviços financeiros); países periféricos costumam se especializar na exportação de matérias-primas e produtos de baixo valor agregado. A DIT não é fixa: mudou ao longo da história e continua mudando, como mostra a ascensão de países emergentes.">divisão
+                    internacional do trabalho</span>, <span class="termo" data-palavra="Desigualdades Socioespaciais"
+                    data-definicao="Diferenças de acesso a renda, infraestrutura, serviços públicos e oportunidades que aparecem distribuídas de forma desigual no espaço geográfico, seja entre países, entre regiões de um mesmo país, ou dentro de uma mesma cidade. O termo destaca que a desigualdade não é apenas social (quem tem mais ou menos renda), mas também espacial: o lugar onde uma pessoa nasce e vive afeta diretamente as oportunidades que ela terá.">desigualdades
+                    socioespaciais</span> e <span class="termo" data-palavra="Globalização"
+                    data-definicao="Processo de intensificação das relações econômicas, políticas, tecnológicas e culturais entre os países, marcado pelo avanço dos transportes, das telecomunicações e da circulação internacional de capitais, mercadorias e informações. É um processo desigual: o dinheiro, as mercadorias e a informação circulam pelo mundo com muito mais liberdade do que as pessoas.">globalização</span>.
             </p>
 
-            <p>
-                Durante muito tempo, os países foram classificados apenas como desenvolvidos ou subdesenvolvidos, com
-                base
-                principalmente em critérios econômicos, como renda e nível de industrialização. Os países desenvolvidos,
-                em
-                geral localizados na Europa, América do Norte e Japão, apresentam alto grau de industrialização, elevado
-                PIB, boa infraestrutura e amplo acesso à saúde, educação e tecnologia.
-            </p>
+            <h3>Como o mundo chegou a ser assim: uma história muito resumida</h3>
 
-            <p>
-                Já os países subdesenvolvidos, concentrados principalmente na África, América Latina e parte da Ásia,
-                enfrentam problemas como pobreza, desigualdade social, baixa industrialização, dependência econômica e
-                dificuldades no acesso a serviços básicos. Hoje, essa classificação é considerada limitada, pois existem
-                países emergentes, como Brasil, Índia e China, e porque o desenvolvimento envolve também qualidade de
-                vida,
-                medida por indicadores como o IDH.
-            </p>
+            <p>A integração econômica que hoje conecta o planeta inteiro começou com a expansão comercial das
+                Grandes Navegações, quando as monarquias europeias seguiam o <span class="termo"
+                    data-palavra="Mercantilismo"
+                    data-definicao="Doutrina econômica adotada pelas monarquias europeias entre os séculos XV e XVIII, segundo a qual a riqueza de uma nação era medida pela quantidade de metais preciosos (ouro e prata) que ela acumulava. Levou à colonização de territórios na América, na África e na Ásia, de onde as metrópoles europeias extraíam recursos e para onde vendiam produtos manufaturados, criando um dos primeiros modelos de divisão internacional do trabalho: colônias fornecedoras de matéria-prima, metrópoles fabricantes de produtos industrializados.">mercantilismo</span>,
+                doutrina segundo a qual a riqueza de uma nação era medida pela quantidade de ouro e prata que ela
+                acumulava. Esse modelo criou uma primeira divisão do trabalho em escala mundial: colônias na
+                América, na África e na Ásia forneciam matérias-primas, e as metrópoles europeias fabricavam e
+                vendiam produtos industrializados.</p>
 
-            <p>
-                A Divisão Internacional do Trabalho refere-se à especialização produtiva dos países na economia mundial.
-                Em
-                geral, os países desenvolvidos concentram atividades de maior valor agregado, como tecnologia, pesquisa
-                científica e serviços financeiros, enquanto países subdesenvolvidos ou emergentes se especializam na
-                exportação de matérias-primas, produção agrícola e uso de mão de obra barata, reforçando relações de
-                dependência econômica.
-            </p>
+            <p>A Revolução Industrial, iniciada na Inglaterra no fim do século XVIII, aprofundou essa lógica. A
+                Segunda Revolução Industrial, a partir de meados do século XIX, trouxe o taylorismo e o fordismo,
+                técnicas de organização do trabalho que aumentaram enormemente a capacidade produtiva das fábricas,
+                e levou as potências europeias a disputar territórios e matérias-primas por meio do colonialismo.
+                Depois da Segunda Guerra Mundial, a Conferência de Bretton Woods (1944) organizou novas regras
+                financeiras mundiais em torno do dólar americano, consolidando os Estados Unidos como centro da
+                economia global. Já nos anos 1970, começou a <span class="termo"
+                    data-palavra="Terceira Revolução Industrial"
+                    data-definicao="Também chamada de Revolução Informacional, teve início nos anos 1970 e se tornou mais perceptível a partir dos anos 1990, com o computador pessoal e a internet. Caracteriza-se por máquinas programáveis, robótica e tecnologias digitais que aceleraram os fluxos de informação e de transporte, reduzindo distâncias e permitindo que o processo produtivo de uma mercadoria fosse fragmentado entre diferentes países. Foi acompanhada, a partir dos anos 1980-1990, por reformas neoliberais (privatizações, desregulamentação, abertura comercial) em diversos países.">Terceira
+                    Revolução Industrial</span>, marcada por computadores, robótica e internet, que tornou possível
+                fragmentar a produção de uma mesma mercadoria entre vários países, dando novo impulso às <span
+                    class="termo" data-palavra="Empresa Multinacional"
+                    data-definicao="Empresa com sede em um país e filiais produtivas ou comerciais em diversos outros países. As multinacionais formadas a partir de trustes e oligopólios desde o final do século XIX costumam ter sede em países centrais e filiais em países periféricos ou emergentes, aproveitando mão de obra mais barata, incentivos fiscais e proximidade de matérias-primas, ao mesmo tempo em que mantêm a tecnologia e o controle de decisões estratégicas concentrados na matriz.">empresas
+                    multinacionais</span>. Nas décadas de 1980 e 1990, muitos países adotaram reformas <span
+                    class="termo" data-palavra="Neoliberalismo"
+                    data-definicao="Conjunto de políticas econômicas que defende a redução da intervenção do Estado na economia: privatização de empresas estatais, desregulamentação de leis trabalhistas e ambientais, corte de gastos públicos e abertura comercial. Ganhou força a partir das décadas de 1980-1990, promovido por organismos como o FMI e o Banco Mundial, e teve impactos distintos em diferentes países, sendo associado tanto a ganhos de eficiência quanto ao aumento de desigualdades sociais.">neoliberais</span>,
+                reduzindo a intervenção do Estado na economia, o que acelerou ainda mais a integração financeira
+                global.</p>
+
+            <p>Essa fragmentação da produção deu origem às cadeias produtivas globais: hoje é raro um produto
+                complexo ser fabricado do início ao fim em um único país. Um smartphone, por exemplo, costuma ser
+                projetado nos Estados Unidos, ter processadores fabricados em Taiwan, memórias e telas produzidas na
+                Coreia do Sul, ser montado na China com peças que vêm de dezenas de fornecedores espalhados pela
+                Ásia, e só então ser vendido no mundo inteiro. Esse tipo de arranjo produtivo, sustentado por navios
+                porta-contêineres, aviões de carga e sistemas logísticos integrados, é uma das marcas mais visíveis
+                da economia globalizada, e explica por que uma crise em uma única fábrica de semicondutores em
+                Taiwan, como aconteceu durante a pandemia de covid-19, é capaz de travar a produção de carros e
+                eletrônicos em vários continentes ao mesmo tempo.</p>
+
+            <h3>Centro, periferia e os emergentes: como o mundo se divide hoje</h3>
+
+            <p>Por muito tempo, os países foram classificados apenas como desenvolvidos ou subdesenvolvidos, uma
+                divisão hoje considerada limitada demais para descrever a complexidade da economia mundial. Uma
+                classificação mais usada atualmente divide os países em três grupos: <span class="termo"
+                    data-palavra="País Central"
+                    data-definicao="País que concentra atividades de alta intensidade tecnológica (informática, indústria aeroespacial, robótica) e direciona grandes investimentos para pesquisa e inovação, além de ter, em geral, boas condições de vida para a população. Exemplos: Alemanha, França, Reino Unido, Itália, Países Baixos, Bélgica, Suíça e Suécia na Europa Ocidental, além de Estados Unidos, Japão e Canadá. Os principais polos industriais, comerciais e financeiros do mundo estão nesses países, mais China.">centrais</span>,
+                <span class="termo" data-palavra="País Periférico"
+                    data-definicao="País com economia de forte base agrária ou mineral, pouca tecnologia, indústria escassa e exportações concentradas em produtos primários de baixo valor agregado, como Sudão, Tanzânia, Iêmen e Nepal. Nesses países, os indicadores de desenvolvimento humano e a renda per capita costumam ser baixos, e as cotações das commodities que exportam são, em grande parte, fixadas pelos países centrais, que também impõem barreiras protecionistas e subsídios agrícolas que prejudicam os países periféricos.">periféricos</span>
+                e <span class="termo" data-palavra="País Semiperiférico (Emergente)"
+                    data-definicao="País em posição intermediária entre centro e periferia, com participação crescente na exportação de manufaturados e forte crescimento tecnológico, como os Tigres Asiáticos (Coreia do Sul, Cingapura, Taiwan, Hong Kong) e os chamados mercados emergentes (China, Índia, Brasil, Rússia). Em 2010, a China ultrapassou os Estados Unidos e se tornou a maior potência comercial do mundo em valor de exportações.">semiperiféricos,
+                    ou emergentes</span>.</p>
+
+            <p>Os países centrais concentram os principais polos industrial, comercial e financeiro do planeta:
+                Estados Unidos, o conjunto de países da Europa Ocidental (com destaque para Alemanha, França e Reino
+                Unido) e, na Ásia, Japão e China. Já os países periféricos participam de forma marginal do comércio
+                mundial, fornecendo sobretudo produtos primários: cacau da Costa do Marfim, tabaco do Zimbábue,
+                diamante de Botsuana e Namíbia, cobre da Zâmbia, bauxita da Jamaica e do Suriname, gás natural da
+                Bolívia, chá do Sri Lanka. Entre os dois extremos estão os países semiperiféricos ou emergentes: além
+                dos Tigres Asiáticos, formaram-se os Novos Tigres Asiáticos (Malásia, Indonésia, Filipinas e
+                Tailândia), que investiram pesado em educação e tecnologia a partir da década de 1970. O Brasil se
+                encaixa nesse grupo intermediário, junto de México e Argentina, como grande exportador de commodities
+                agropecuárias e, ao mesmo tempo, produtor de manufaturados de baixa e média tecnologia agregada.</p>
+
+            <p>Além dessa classificação por posição na economia mundial, o Banco Mundial classifica os países pela
+                Renda Nacional Bruta (RNB) per capita em quatro grupos: renda alta (acima de US$ 13.205), renda média
+                alta (entre US$ 4.256 e US$ 13.205), renda média baixa (entre US$ 1.086 e US$ 4.255) e renda baixa
+                (US$ 1.085 ou menos). Nenhuma dessas classificações é perfeita ou definitiva: elas são ferramentas
+                para organizar a complexidade do mundo, e o próprio processo de globalização vem constantemente
+                embaralhando essas categorias, à medida que países antes considerados periféricos passam a exportar
+                produtos industrializados e a competir tecnologicamente com os centrais.</p>
+
+            <p>Um critério puramente monetário, porém, esconde muita coisa. Um país pode ter um PIB elevado e, ainda
+                assim, oferecer pouca qualidade de vida à maior parte da população, caso a riqueza esteja concentrada
+                em poucas mãos. Por isso a ONU criou o <span class="termo" data-palavra="IDH"
+                    data-definicao="Índice de Desenvolvimento Humano: indicador criado pela ONU que combina três dimensões (renda, ou PIB per capita, educação, medida em anos de escolaridade, e saúde, medida pela expectativa de vida ao nascer) em um único número entre 0 e 1, quanto mais próximo de 1, maior o desenvolvimento humano. Foi criado justamente para ir além do PIB puro e mostrar que riqueza econômica e qualidade de vida da população nem sempre andam juntas.">Índice
+                    de Desenvolvimento Humano</span> (IDH), que combina renda, educação e expectativa de vida em um
+                único número. No relatório do Programa das Nações Unidas para o Desenvolvimento divulgado em 2025,
+                com dados de 2023, o Brasil aparece na 84ª posição entre 193 países, com IDH de 0,786, classificado
+                como desenvolvimento humano alto, mas ainda abaixo da faixa "muito alto" e atrás do Chile, primeiro
+                colocado da América Latina. O Brasil já foi o 89º colocado em 2022, o que mostra que essas posições
+                mudam ano a ano, mas quando o próprio relatório da ONU ajusta o IDH considerando a desigualdade
+                interna de cada país, o Brasil perde posições, prova de que ter uma renda média razoável não é o
+                mesmo que distribuir bem essa renda entre a população.</p>
+
+            <p>Depois da Segunda Guerra Mundial, ao mesmo tempo em que o sistema de Bretton Woods organizava as
+                finanças mundiais, os países também criaram regras para o comércio internacional: o Acordo Geral de
+                Tarifas e Comércio (GATT), de 1947, reduziu progressivamente as tarifas alfandegárias entre seus
+                membros e, em 1995, deu origem à <span class="termo" data-palavra="OMC"
+                    data-definicao="Organização Mundial do Comércio: organismo internacional criado em 1995, a partir do antigo GATT (Acordo Geral de Tarifas e Comércio de 1947), responsável por negociar e fiscalizar as regras do comércio internacional entre seus países-membros, com o objetivo de reduzir barreiras alfandegárias e mediar disputas comerciais. Suas decisões afetam diretamente quanto os países podem taxar produtos importados e como podem subsidiar sua própria produção.">Organização
+                    Mundial do Comércio</span> (OMC), responsável até hoje por negociar a redução de barreiras
+                comerciais e mediar disputas entre países. Esse arcabouço institucional, criado majoritariamente por
+                iniciativa dos países centrais, ajuda a explicar por que as regras do comércio internacional
+                costumam favorecer quem já chegou industrializado à mesa de negociação, e por que países periféricos
+                enfrentam dificuldade para proteger suas indústrias nascentes com as mesmas tarifas que os países
+                ricos usaram no passado para proteger as suas.</p>
 
             <p>
                 As desigualdades socioespaciais aparecem tanto entre países quanto dentro deles. Nas cidades, é comum a
                 convivência de áreas bem estruturadas com regiões marcadas pela precariedade. O lugar onde uma pessoa
-                vive
-                influencia diretamente suas oportunidades de estudo, trabalho e acesso a serviços, mostrando que o
-                espaço
-                geográfico é produzido de forma desigual.
+                vive influencia diretamente suas oportunidades de estudo, trabalho e acesso a serviços, mostrando que o
+                espaço geográfico é produzido de forma desigual.
             </p>
+
+            <p>Os números do próprio Brasil ajudam a enxergar essa desigualdade de perto. Segundo o IBGE, o índice de
+                Gini (indicador que mede a concentração de renda de uma população, variando de 0, igualdade total, a
+                1, desigualdade total) do rendimento domiciliar per capita no Brasil caiu de 0,518 em 2023 para 0,506 em 2024, o menor nível
+                da série histórica da pesquisa, puxado por um mercado de trabalho aquecido e pela manutenção de
+                programas sociais. Ainda assim, em 2024 o 1% mais rico da população brasileira recebia o equivalente
+                a 36,2 vezes o rendimento dos 40% mais pobres, e o IBGE calcula que, sem os benefícios sociais, o
+                índice de Gini seria 7,5% maior. Ou seja: mesmo no melhor momento da série histórica, a distância
+                entre topo e base da distribuição de renda continua enorme, e as desigualdades caem de forma
+                desigual entre as regiões, tendo inclusive aumentado no Sul entre 2023 e 2024 enquanto recuava em
+                todas as outras regiões do país.</p>
 
             <p>
                 A globalização intensifica as relações entre países por meio do avanço das tecnologias, dos transportes,
-                do
-                comércio e da circulação de capitais. Apesar de gerar avanços tecnológicos e maior circulação de
-                informações, ela também amplia desigualdades, beneficia grandes empresas e dificulta a vida de milhões
-                de
-                trabalhadores, evidenciando seus contrastes e contradições.
+                do comércio e da circulação de capitais. Um dos aspectos mais importantes desse processo é a
+                financeirização da economia, isto é, a circulação cada vez mais rápida de capital especulativo (ações,
+                títulos, moedas) entre os países: hoje, o volume de capital especulativo que circula diariamente pelo mundo é muito maior
+                do que o valor de todo o comércio de mercadorias, e decisões tomadas em bolsas de valores de Nova
+                York, Londres ou Xangai afetam quase instantaneamente empregos e preços em países do outro lado do
+                planeta. Apesar de gerar avanços tecnológicos e maior circulação de informações, a globalização
+                também amplia desigualdades, beneficia grandes empresas e dificulta a vida de milhões de
+                trabalhadores, evidenciando seus contrastes e contradições. É esse mesmo padrão desigual que aparece,
+                em outra escala, nas cidades brasileiras: bairros com infraestrutura completa convivem, muitas vezes
+                a poucos quilômetros de distância, com regiões sem saneamento básico, transporte público adequado ou
+                equipamentos de saúde e educação, o que você vai estudar com mais profundidade nas próximas aulas
+                sobre urbanização e problemas socioambientais.
             </p>
 
             <p>
                 O mundo atual é marcado por fortes contrastes: grandes avanços convivem com pobreza e exclusão social. A
                 Geografia nos ajuda a compreender que essas desigualdades não são naturais, mas resultado de escolhas
-                políticas, econômicas e sociais, convidando à reflexão sobre modelos de desenvolvimento mais justos e
-                humanos.
+                políticas, econômicas e sociais, moldadas ao longo de séculos de colonialismo, industrialização e
+                reformas econômicas, e não de alguma característica fixa dos países ou dos povos. Entender essa
+                origem histórica é o primeiro passo para pensar modelos de desenvolvimento mais justos e humanos,
+                tema que vai atravessar todas as aulas deste ano. A entrevista com Milton Santos que você acabou de
+                acompanhar foi escrita justamente para dar um fio condutor a essa jornada: entender o espaço
+                geográfico como algo produzido por decisões humanas, e por isso mesmo, transformável. E são essas
+                mesmas decisões humanas que moldam outro tema central da Geografia: o tamanho, o ritmo de
+                crescimento e a distribuição da população pelo planeta. Na próxima aula você vai estudar demografia,
+                taxas de natalidade e mortalidade, transição demográfica e as diferentes teorias populacionais que
+                tentam explicar por que alguns países ainda crescem rápido enquanto outros já envelhecem, um
+                panorama que vai te ajudar a entender de onde vêm justamente os fluxos migratórios e os conflitos
+                por recursos que apareceram nesta aula.
             </p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
@@ -696,7 +750,7 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumot1.png"
+            <div class="w3-margin"><img id="infograficot2" src="inforesumott1.webp"
                     alt="Infográfico resumo raio x da população" class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
@@ -804,6 +858,53 @@
         </div>
 
 
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+                <h3>1. Como o autor descreve os três mundos (primeiro, segundo e terceiro) e o que essa visão sugere
+                    sobre
+                    as diferenças entre eles?</h3>
+                <h3>2. O autor critica o modelo atual de globalização. Quais são os principais problemas apontados e
+                    qual
+                    seria uma alternativa mais justa segundo ele?</h3>
+                <h3>3. De que maneira as redes geográficas são utilizadas como instrumentos de poder e controle no mundo
+                    globalizado?</h3>
+                <h3>4. Por que a globalização não deve ser vista como um processo imutável? Que fatores podem
+                    transformá-la?
+                </h3>
+                <h3>5. Como a globalização contribui para a exclusão social e para o surgimento de uma "contraordem"?
+                    Que
+                    papel a resistência e o desejo de mudança desempenham nesse contexto?</h3>
+
+                <h3>6. Qual a diferença entre país central, país periférico e país emergente (semiperiférico)? Dê um
+                    exemplo de cada grupo.</h3>
+
+                <h3>7. Explique como a Divisão Internacional do Trabalho reforça as desigualdades entre países
+                    centrais e periféricos, citando um exemplo de produto exportado por um país periférico.</h3>
+
+                <h3>8. O que são desigualdades socioespaciais? Dê um exemplo presente no Brasil ou em sua cidade.</h3>
+
+                <h3>9. De que forma o avanço das tecnologias e da informação pode tanto ampliar oportunidades quanto
+                    aprofundar desigualdades no contexto da globalização?</h3>
+
+                <h3>10. Segundo uma perspectiva crítica da Geografia, qual deve ser o papel dos cidadãos e dos Estados
+                    na
+                    construção de um modelo de globalização mais justo e humano?</h3>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
 
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
@@ -816,7 +917,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema A Geografia no Período Atual é fantástico! Continue estudando!',
         pontos: 40
     });
     

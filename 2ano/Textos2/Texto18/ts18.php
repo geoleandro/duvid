@@ -6,10 +6,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Como o Brasil produz alimentos: tipos de cultivo, pecuária, agronegócio, agricultura familiar e os impactos da modernização agrícola e do desmatamento no campo brasileiro.">
+    <meta property="og:title" content="2º ano - Texto 18 - Geografia agrária II – a produção agropecuária brasileira">
+    <meta property="og:description" content="Como o Brasil produz alimentos: tipos de cultivo, pecuária, agronegócio, agricultura familiar e os impactos da modernização agrícola e do desmatamento no campo brasileiro.">
     <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
     <link rel="stylesheet" href="/estilos/w3.css">
@@ -39,6 +42,8 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>2º ano - Texto 18 - Geografia agrária II – a produção agropecuária brasileira</title>
 
@@ -225,7 +230,7 @@
             mas apenas cerca de 33% destes são ocupados pela agropecuária (plantações e criações). Isso equivale a 282
             milhões de hectares, sendo que 220 milhões são usados para pecuária e 62 milhões para agricultura. </p>
 
-        <p> Lembre-se: 01 hectare é a medida de um quadrado de 100m x 100m, totalizando 10 mil m². </p>
+        <p> Lembre-se: 01 <span class="termo" data-palavra="hectare" data-definicao="Unidade de medida de área usada na agropecuária, equivalente a um quadrado de 100m x 100m, ou 10 mil m².">hectare</span> é a medida de um quadrado de 100m x 100m, totalizando 10 mil m². </p>
 
         <p> Veja na figura abaixo a distribuição de terras no Brasil:</p>
 
@@ -285,8 +290,9 @@
             desde 2005, o cultivo de algodão transgênico é regulamentado no Brasil.</p>
 
         <p><strong>Soja:</strong> Inicialmente plantada no Rio Grande do Sul e Paraná, expandiu-se para Minas Gerais,
-            Goiás, Mato Grosso do Sul, Mato Grosso e oeste da Bahia. O Brasil é o segundo maior produtor mundial, com 60
-            milhões de toneladas.</p>
+            Goiás, Mato Grosso do Sul, Mato Grosso e oeste da Bahia. Desde 2023, o Brasil é o maior produtor mundial
+            de soja, com uma safra recorde de cerca de 153 milhões de toneladas — mais de 40% de toda a soja produzida
+            no planeta, superando os Estados Unidos.</p>
 
         <p><strong>Laranja:</strong> Principalmente produzida no oeste de São Paulo, com 75% da produção nacional, além
             de Minas Gerais, Espírito Santo e a Baixada Fluminense.</p>
@@ -321,6 +327,40 @@
 
 
     </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>De acordo com os dados apresentados na aula, marque a alternativa correta sobre a produção de soja no Brasil:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1a">
+<span>a) O Brasil é o segundo maior produtor mundial de soja, atrás apenas dos Estados Unidos.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto"/>
+<label class="card-opcao" for="p1b">
+<span>b) Desde 2023, o Brasil é o maior produtor mundial de soja, com uma safra recorde de cerca de 153 milhões de toneladas.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1c">
+<span>c) A produção de soja no Brasil vem caindo continuamente desde 2010.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Desde 2023, o Brasil é o maior produtor mundial de soja, com uma safra recorde de cerca de 153 milhões de toneladas — mais de 40% de toda a soja produzida no planeta, superando os Estados Unidos.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp1"></p>
+<div class="area w3-center">
+<img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
 
 <div class="topico">
 
@@ -371,7 +411,7 @@
                 eficiência produtiva.</li>
         </ul>
 
-        <p><strong>Zootecnia</strong></p>
+        <p><strong><span class="termo" data-palavra="zootecnia" data-definicao="Área dedicada ao estudo da reprodução, genética e nutrição de animais, com foco na produção comercial — diferente da veterinária, voltada à saúde animal.">Zootecnia</span></strong></p>
 
         <p>Zootecnia é uma área dedicada ao estudo da reprodução, genética e nutrição de animais, com foco na criação
             comercial. Apesar de frequentemente associada à veterinária, sua ênfase está na produção animal para fins
@@ -387,8 +427,10 @@
 
         <h2>Bovinos</h2>
 
-        <p>O Brasil possui um dos maiores rebanhos bovinos do mundo, atingindo pouco mais de 218 milhões de cabeças em
-            2020, segundo dados do IBGE. A concentração desse rebanho é significativa no centro-oeste do país.</p>
+        <p>O Brasil possui o segundo maior rebanho bovino do mundo, atingindo 238,6 milhões de cabeças em 2023 —
+            recorde da série histórica iniciada em 1974 — segundo dados do IBGE. A concentração desse rebanho é
+            significativa no Centro-Oeste do país, com destaque para o Mato Grosso, que sozinho responde por quase
+            14% do efetivo nacional.</p>
 
         <p><strong>Diversidade de Raças</strong></p>
 
@@ -507,8 +549,10 @@
         <p><strong>Região Líder:</strong> O Sul do Brasil lidera a criação de suínos, com frigoríficos especializados na
             região.</p>
 
-        <p><strong>Padrões Sanitários:</strong> Devido aos avanços no setor e rigorosos controles sanitários, países
-            como a Rússia voltaram a importar carne suína brasileira.</p>
+        <p><strong>Padrões Sanitários:</strong> Devido aos avanços no setor e a rigorosos controles sanitários, o
+            Brasil se consolidou como o terceiro maior exportador mundial de carne suína, atrás apenas da União
+            Europeia e dos Estados Unidos. As Filipinas ultrapassaram a China em 2024 e se tornaram o principal
+            destino das exportações, à frente do mercado chinês, que segue como o segundo maior comprador.</p>
 
         <h3>Ovinos e Caprinos</h3>
 
@@ -542,8 +586,9 @@
         <p><strong>Fatores de Destaque:</strong> A grande extensão territorial, oferta de grãos e mão de obra favorecem
             o setor avícola brasileiro.</p>
 
-        <p><strong>Exportação e Mercados:</strong> Desde 2004, o Brasil lidera as exportações de carne de frango, com os
-            principais compradores sendo Arábia Saudita, Japão, Holanda e Kuwait.</p>
+        <p><strong>Exportação e Mercados:</strong> Há mais de uma década o Brasil lidera as exportações mundiais de
+            carne de frango, com recorde de mais de 5,2 milhões de toneladas exportadas em 2024. Atualmente, a China é
+            o maior comprador individual, seguida por Emirados Árabes Unidos, Japão e Arábia Saudita.</p>
 
         <p><strong>Desafios Sanitários:</strong> Preocupações com o controle de vacinação e medidas sanitárias
             aumentaram após a epidemia de gripe aviária.</p>
@@ -562,21 +607,22 @@
 
             <h2>A gripe aviária</h2>
 
-            <p>A gripe aviária é uma epidemia em animais causada por um subtipo do vírus influenza, o H5N1. Desde 2003,
-                esse subtipo vem produzindo surtos em rebanhos de aves em vários países asiáticos e, recentemente, tem
-                sido detectado também em países africanos e em aves selvagens de países europeus.</p>
+            <p>A <span class="termo" data-palavra="gripe aviária" data-definicao="Doença causada por vírus influenza do subtipo H5N1, que infecta principalmente aves silvestres e domésticas, mas também pode contaminar mamíferos e, em casos raros, seres humanos.">gripe aviária</span> é uma epidemia em animais causada por um subtipo do vírus influenza, o H5N1. Desde os anos 2000,
+                esse subtipo vem produzindo surtos em rebanhos de aves em vários países asiáticos, africanos e
+                europeus, além de já ter sido detectado em aves selvagens e mamíferos marinhos nas Américas.</p>
 
-            <p>O vírus H5N1 tem infectado seres humanos, produzindo um quadro grave e de alta mortalidade. No entanto, o
-                risco de a gripe aviária surgir no Brasil é relativamente baixo quando comparado a outros países. Não
-                existem focos em países vizinhos que poderiam servir de fonte de contaminação através das fronteiras,
-                como ocorre na Europa e na Ásia. Além disso, o Brasil não importa aves para consumo; ao contrário, é um
-                dos maiores exportadores do mundo. Outro aspecto positivo é que as rotas migratórias fundamentais das
-                aves que passam pelo Brasil têm início em regiões que, até o momento, estão livres de contaminação pelo
-                H5N1.</p>
+            <p>O vírus H5N1 pode infectar seres humanos, produzindo um quadro grave, embora casos assim ainda sejam
+                raros. Durante muitos anos, o Brasil foi considerado um país de baixo risco, livre de focos de gripe
+                aviária em aves domésticas. Esse cenário mudou: desde maio de 2023, o país registra a circulação do
+                vírus em aves silvestres, e, em 2024, também foram confirmados casos em mamíferos, como leões-marinhos
+                no litoral sul. Em maio de 2025, o Ministério da Agricultura e Pecuária confirmou o primeiro foco de
+                gripe aviária de alta patogenicidade em uma granja comercial, no Rio Grande do Sul, levando ao abate
+                de cerca de 17 mil aves. Em resposta, mais de 30 países — entre eles China, Japão e os integrantes da
+                União Europeia — chegaram a suspender temporariamente a importação de carne de frango brasileira, o
+                que evidencia como um único foco pode afetar rapidamente as exportações de um país que é o maior
+                exportador mundial do produto.</p>
 
-            <p>MINISTÉRIO DA SAÚDE. Disponível em: <a
-                    href="http://www.saude.gov.br/influenza/principal_gripe.html">saude.gov.br/influenza/principal_gripe.html</a>.
-            </p>
+            <p class="w3-small">MINISTÉRIO DA AGRICULTURA E PECUÁRIA (MAPA); IBGE. Dados consultados em 2026.</p>
 
         </div>
 
@@ -585,14 +631,48 @@
 
     </div>
 
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Marque a alternativa correta sobre a situação da gripe aviária no Brasil:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2a">
+<span>a) O Brasil nunca registrou nenhum caso de gripe aviária, nem em aves silvestres nem em granjas comerciais.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto"/>
+<label class="card-opcao" for="p2b">
+<span>b) Em maio de 2025, foi confirmado o primeiro foco de gripe aviária em uma granja comercial no Rio Grande do Sul, levando países a suspenderem temporariamente a importação de frango brasileiro.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2c">
+<span>c) A gripe aviária afeta apenas seres humanos, nunca aves.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Em maio de 2025, o MAPA confirmou o primeiro foco de gripe aviária de alta patogenicidade em uma granja comercial no Rio Grande do Sul, levando mais de 30 países a suspenderem temporariamente a importação de frango brasileiro.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp2"></p>
+<div class="area w3-center">
+<img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
 <div class="topico">
 
 
 
         <h2>Os dois mundos da agricultura</h2>
 
-        <p>O agronegócio é fazer do campo um espaço de negócio. Isso confronta com o estilo camponês de viver e de
-            produzir. Ele tem uma forma não capitalista de produzir, o que se chama de agricultura familiar,
+        <p>O <span class="termo" data-palavra="agronegócio" data-definicao="Modelo de produção agrícola voltado ao mercado, caracterizado por grandes investimentos em maquinário, insumos e financiamento, geralmente em larga escala e orientado à exportação.">agronegócio</span> é fazer do campo um espaço de negócio. Isso confronta com o estilo camponês de viver e de
+            produzir. Ele tem uma forma não capitalista de produzir, o que se chama de <span class="termo" data-palavra="agricultura camponesa" data-definicao="Também chamada de agricultura familiar: modelo de produção rural voltado à subsistência e à pequena escala, organizado em bases não capitalistas, muitas vezes ligado à reforma agrária.">agricultura familiar</span>,
             preferencialmente chamada de agricultura camponesa. Há uma disputa entre esses dois “mundos” de agricultura.
         </p>
 
@@ -615,7 +695,7 @@
             <span class="termo" data-palavra="Seletividade Espacial" data-definicao="Padrão de modernização agrícola em que o uso intensivo de inovações técnico-científicas e de capital se concentra em frações específicas do território, formando enclaves modernizados cercados por áreas que permanecem fora desse processo. Gera impactos sobre os mosaicos produtivos tradicionais do entorno, seja por tensão, seja por substituição das formas de produção antigas.">seletividade
             espacial</span>. O estado da Bahia ilustra bem esse padrão: a partir da década de 1970, três frações do
             seu território, antes sem modernização, foram incorporadas a diferentes circuitos espaciais produtivos
-            globalizados, cada uma ligada a uma cadeia distinta, a soja e os grãos do MATOPIBA ao norte, a
+            globalizados, cada uma ligada a uma cadeia distinta, a soja e os grãos do <span class="termo" data-palavra="MATOPIBA" data-definicao="Sigla que designa a região formada pelos estados do Maranhão, Tocantins, Piauí e Bahia, hoje uma das principais fronteiras agrícolas do Brasil, especialmente para a soja e os grãos.">MATOPIBA</span> ao norte, a
             fruticultura irrigada do Vale do São Francisco e a silvicultura de eucalipto mais ao sul do estado,
             enquanto o restante do território baiano seguiu sem receber esse tipo de investimento em tecnologia. Esse
             padrão de "ilhas" de modernização gera impactos diretos sobre os mosaicos produtivos tradicionais que as
@@ -630,9 +710,9 @@
 
         <div class="w3-panel w3-leftbar w3-sand w3-margin">
 
-            <h2>Fique atento!</h2>
+            <h3>Fique atento!</h3>
 
-            <p>Agroindústria é, por definição, “qualquer indústria que use a produção agrícola como matéria-prima para
+            <p><span class="termo" data-palavra="agroindústria" data-definicao="Qualquer indústria que use a produção agrícola como matéria-prima, transformando-a em um produto final de acordo com a exigência do mercado consumidor.">Agroindústria</span> é, por definição, “qualquer indústria que use a produção agrícola como matéria-prima para
                 alterá-la em sua forma e transformá-la em um produto que é função da exigência do mercado consumidor”.
             </p>
 
@@ -697,6 +777,79 @@
 
     </div>
 
+    <div class="topico">
+
+        <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                Qual é a diferença entre agronegócio e agricultura camponesa, e por que se fala em uma disputa entre
+                esses dois "mundos" da agricultura?
+            </strong> </p>
+        <p><span class="primeiraLetra">R:</span>
+            O agronegócio é a agricultura pensada como negócio: grandes investimentos em maquinário, insumos e
+            financiamento, voltados à produção em larga escala para o mercado externo. Já a agricultura camponesa (ou
+            familiar) tem uma lógica não capitalista, ligada à subsistência e à venda em pequena escala, muitas vezes
+            praticada em propriedades conquistadas por reforma agrária ou por formas antigas de posse da terra. A
+            disputa surge porque os dois modelos competem pelo mesmo espaço — a terra — e recebem tratamento bem
+            diferente em termos de crédito, tecnologia e visibilidade política, mesmo o Brasil sendo, ao mesmo tempo,
+            uma potência do agronegócio e um país de agricultura camponesa numerosa.
+        </p>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                O que a expansão da pecuária em São Félix do Xingu revela sobre a relação entre desmatamento e
+                política de subsídios na Amazônia?
+            </strong></p>
+        <p><span class="primeiraLetra">R:</span>
+            Em São Félix do Xingu (PA), áreas equivalentes a quase 10 vezes o tamanho da cidade de São Paulo foram
+            desmatadas para dar lugar a pastagens. O caso mostra que, apesar do discurso oficial de combate ao
+            desmatamento, políticas de subsídio aos pecuaristas acabam tornando mais barato desmatar e formar novas
+            pastagens do que recuperar áreas já degradadas — o que perpetua o avanço da fronteira agropecuária sobre a
+            floresta e compromete a fertilidade dos solos da região a longo prazo.
+        </p>
+
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span><strong>
+                O que é seletividade espacial, e como o caso da Bahia ilustra esse conceito?
+            </strong>
+        </p>
+        <p><span class="primeiraLetra">R:</span>
+            Seletividade espacial é o padrão de modernização agrícola em que o uso intensivo de tecnologia e capital
+            se concentra em frações específicas do território, formando "ilhas" modernizadas cercadas por áreas que
+            ficam de fora desse processo. Na Bahia, isso aparece em três frentes distintas desde os anos 1970: a soja
+            e os grãos do MATOPIBA ao norte, a fruticultura irrigada do Vale do São Francisco, e a silvicultura de
+            eucalipto mais ao sul — enquanto o restante do território estadual segue sem receber esse tipo de
+            investimento, gerando tensão com os mosaicos produtivos tradicionais do entorno.
+        </p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
+        <br><br>
+        <hr>
+
+    </div>
+
+    <div class="topico">
+        <div id="ficha-conceitos"></div>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
+    <div class="topico">
+        <div class="w3-panel w3-pale-yellow w3-margin">
+            <h2>Questões para o caderno</h2>
+            <h3>1. Segundo a tabela apresentada na aula, que percentual da área do Brasil (2018) era ocupado por lavouras, e qual por pastagens (nativas e plantadas somadas)?</h3>
+            <h3>2. Compare a proporção do território agrícola do Brasil (cerca de 33%) com a dos Estados Unidos (cerca de 75%). O que essa diferença revela sobre o potencial de expansão agrícola brasileiro?</h3>
+            <h3>3. Cite três produtos agrícolas de destaque no Brasil e o estado ou região onde cada um é predominantemente cultivado.</h3>
+            <h3>4. Quais são os três sistemas de criação de gado (intensivo, extensivo e semiextensivo) e qual deles predomina no Brasil?</h3>
+            <h3>5. Cite dois avanços tecnológicos aplicados à pecuária brasileira (seleção genética, inseminação artificial, fecundação in vitro ou clonagem) e explique o objetivo de cada um.</h3>
+            <h3>6. Explique o papel da Embrapa no desenvolvimento da pecuária brasileira desde sua criação, em 1973.</h3>
+            <h3>7. Como a expansão da pecuária em municípios como São Félix do Xingu (PA) exemplifica os desafios ambientais do avanço da fronteira agropecuária na Amazônia?</h3>
+            <h3>8. O que mudou na situação da gripe aviária no Brasil entre 2023 e 2025? Por que o foco confirmado em uma granja comercial teve impacto sobre as exportações brasileiras?</h3>
+            <h3>9. Diferencie agronegócio de agricultura camponesa (familiar) e explique por que os dois modelos coexistem, e por vezes entram em conflito, no campo brasileiro.</h3>
+            <h3>10. O que é seletividade espacial? Use o exemplo da Bahia para explicar como esse processo cria "ilhas" de modernização agrícola.</h3>
+        </div>
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+    </div>
+
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="
@@ -707,7 +860,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Geografia Agrária II é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
@@ -740,6 +893,7 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
         </div>
     </main>
 

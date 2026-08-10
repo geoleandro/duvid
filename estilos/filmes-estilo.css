@@ -1,0 +1,318 @@
+/* =============================================================
+   filmes-estilo.css
+   Estilos da página /paginas/filmes-geografia.php
+   (Filmes e Séries de Geografia — cards, filtros e grid)
+============================================================= */
+
+/* ── Filtros ──────────────────────────────────── */
+.bib-filtros-card {
+    background: #fff;
+    border-radius: 20px;
+    border: 1.5px solid #e8e8e8;
+    padding: 24px 28px;
+    margin-bottom: 28px;
+}
+body.dark-mode .bib-filtros-card { background: #1e1e1e; border-color: #333; }
+
+.bib-busca-wrap {
+    position: relative;
+    margin-bottom: 16px;
+}
+.bib-busca-wrap i {
+    position: absolute;
+    left: 14px; top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; font-size: .85rem;
+    pointer-events: none;
+}
+#inputBusca {
+    width: 100%;
+    padding: 10px 14px 10px 36px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .88rem;
+    color: #1b1b1b;
+    background: #f8f9fa;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color .15s;
+}
+#inputBusca:focus { border-color: #4caf50; background: #fff; }
+body.dark-mode #inputBusca { background: #252525; border-color: #444; color: #ddd; }
+body.dark-mode #inputBusca:focus { border-color: #66bb6a; }
+
+.bib-filtros-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .65rem; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase;
+    color: #888; margin-bottom: 10px;
+}
+
+#botoes-filtro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.btn-filtro-bib {
+    background: #f3f4f5;
+    border: 1.5px solid transparent;
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem; font-weight: 600;
+    color: #555;
+    cursor: pointer;
+    transition: all .15s;
+    white-space: nowrap;
+}
+.btn-filtro-bib:hover { background: #e8f5e9; color: #2e7d32; }
+.btn-filtro-bib.ativo {
+    background: #2e7d32;
+    border-color: #2e7d32;
+    color: #fff;
+}
+body.dark-mode .btn-filtro-bib { background: #2a2a2a; color: #aaa; }
+body.dark-mode .btn-filtro-bib.ativo { background: #2e7d32; color: #fff; }
+
+#contador {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem; color: #aaa;
+    margin-top: 14px;
+}
+
+/* ── Grid de filmes ────────────────────────────── */
+#grid-filmes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+@media (max-width: 1100px) { #grid-filmes { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 760px)  { #grid-filmes { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 460px)  { #grid-filmes { grid-template-columns: 1fr; } }
+
+/* ── Card (spec Clean Pixel, versão compacta p/ grid de 4) ── */
+.filme-card {
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .15s, box-shadow .15s;
+}
+.filme-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0,0,0,.10);
+}
+body.dark-mode .filme-card { background: #1e1e1e; box-shadow: 0 4px 12px rgba(0,0,0,.3); }
+
+/* ── Capa (pôster) — radius só em cima ──── */
+.filme-capa-wrap {
+    position: relative;
+    width: 100%;
+    height: 130px;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient(135deg, #2e7d32, #1b5e20);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.filme-capa-wrap img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.filme-capa-placeholder {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.8rem;
+    color: rgba(255,255,255,.85);
+}
+
+/* Badge de categoria */
+.filme-capa-tema {
+    position: absolute;
+    top: 10px; left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px; font-weight: 700;
+    letter-spacing: .03em; text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: var(--tema-cor, #2e7d32);
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0,0,0,.18);
+}
+
+/* ── Corpo ────────────────────────────────────── */
+.filme-body {
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+.filme-tipo {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .6rem; font-weight: 700;
+    letter-spacing: .06em; text-transform: uppercase;
+    color: #8a8f8a;
+    width: fit-content;
+}
+
+/* Título: compacto, Forest Dark */
+.filme-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1b5e20;
+    line-height: 1.25;
+    margin: 1px 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body.dark-mode .filme-titulo { color: #81c784; }
+
+.filme-ficha {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10.5px;
+    color: #9aa09a;
+    line-height: 1.4;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+body.dark-mode .filme-ficha { color: #888; }
+
+/* Descrição */
+.filme-sinopse {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    font-weight: 400;
+    color: #444746;
+    line-height: 1.45;
+    margin: 3px 0 6px;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body.dark-mode .filme-sinopse { color: #bbb; }
+
+.filme-rodape {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 2px;
+}
+
+.filme-nota-wrap { display: flex; flex-direction: column; gap: 1px; }
+.filme-nota {
+    display: flex; align-items: center; gap: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px; font-weight: 700;
+    color: #f9a825;
+}
+.filme-nota i { font-size: 11px; }
+.filme-classificacao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 9.5px;
+    font-style: italic;
+    color: #aaa;
+}
+
+/* Botão "Gamer Style" — sombra sólida retrô, compacto */
+.filme-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #4caf50;
+    border-radius: 10px;
+    padding: 8px 14px;
+    box-shadow: 0 3px 0 #1b5e20;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: transform .08s, box-shadow .08s, background .15s;
+}
+.filme-link:hover { background: #43a047; }
+.filme-link:active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0 #1b5e20;
+}
+
+/* ── Aviso de fonte ───────────────────────────── */
+.filme-aviso {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fffde7;
+    border: 1.5px solid #f9a825;
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-bottom: 28px;
+}
+body.dark-mode .filme-aviso { background: #2a2200; border-color: #f9a825; }
+.filme-aviso i { color: #f9a825; margin-top: 2px; flex-shrink: 0; }
+.filme-aviso p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8rem; color: #555; line-height: 1.55; margin: 0;
+}
+body.dark-mode .filme-aviso p { color: #ccc; }
+
+/* ── Vazio ────────────────────────────────────── */
+.bib-vazio {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 48px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .9rem;
+    color: #aaa;
+}
+
+/* ── Links relacionados ───────────────────────── */
+.bib-links {
+    display: flex;
+    gap: 12px;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+.bib-link-card {
+    flex: 1;
+    min-width: 200px;
+    background: #fff;
+    border: 1.5px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 20px 22px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    transition: box-shadow .2s, transform .12s;
+}
+.bib-link-card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); transform: translateY(-2px); }
+body.dark-mode .bib-link-card { background: #1e1e1e; border-color: #333; }
+
+.bib-link-icon {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    background: #e8f5e9;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1rem; color: #2e7d32; flex-shrink: 0;
+}
+body.dark-mode .bib-link-icon { background: #1a3020; color: #81c784; }
+
+.bib-link-info span { display: block; font-family: 'Montserrat', sans-serif; }
+.bib-link-info .lbl { font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #aaa; }
+.bib-link-info .nome { font-size: .88rem; font-weight: 700; color: #1b1b1b; }
+body.dark-mode .bib-link-info .nome { color: #ddd; }

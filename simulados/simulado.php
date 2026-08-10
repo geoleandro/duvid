@@ -369,10 +369,20 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
         body.dark-mode .sim-back-btn      { background: #2a2a2a; border-color: #444; color: #ccc; }
         body.dark-mode .sim-titulo        { color: #e0e0e0; }
         body.dark-mode .sim-modal-box     { background: #1e1e1e; color: #e0e0e0; }
-        body.dark-mode #busca-temas       { border-color: #444; color: #ddd; background: #2a2a2a; }
-        body.dark-mode #sugestoes-temas   { background: #1e1e1e; border-color: #444; }
-        body.dark-mode #sugestoes-temas div { border-color: #333; color: #ddd; }
-        body.dark-mode #sugestoes-temas div:hover { background: #2a2a2a !important; }
+        body.dark-mode #busca-temas       { border-color: #444 !important; color: #ddd; background: #2a2a2a; }
+        /* Light mode base */
+        #sugestoes-temas { background: #fff; border: 1.5px solid #e0e0e0; border-top: none; }
+        .sug-item {
+            padding: 9px 14px; cursor: pointer;
+            border-bottom: 1px solid #f0f0f0;
+            font-family: 'Montserrat', sans-serif; font-size: .88rem;
+            color: #333;
+        }
+        .sug-item:hover { background: #f5f5f5; }
+        /* Dark mode override */
+        body.dark-mode #sugestoes-temas   { background: #1e1e1e !important; border-color: #444 !important; }
+        body.dark-mode .sug-item { border-color: #333; color: #ddd; background: #1e1e1e; }
+        body.dark-mode .sug-item:hover { background: #2a2a2a !important; }
 
         /* Responsive */
         @media (max-width: 900px) {
@@ -495,9 +505,7 @@ $opcQtd = [5 => '5 questões', 10 => '10 questões', 15 => '15 questões', 20 =>
                        onblur="this.style.borderColor='#e0e0e0'"
                        oninput="filtrarTemas(this.value)">
                 <div id="sugestoes-temas"
-                     style="display:none; border:1.5px solid #e0e0e0; border-top:none;
-                            border-radius:0 0 12px 12px; max-height:220px; overflow-y:auto;
-                            background:#fff;"></div>
+                     style="display:none; border-radius:0 0 12px 12px; max-height:220px; overflow-y:auto;"></div>
             </div>
 
             <!-- 4. Quantidade -->
@@ -623,10 +631,7 @@ function filtrarTemas(valor) {
     const matches = _todasTags.filter(t => t.toLowerCase().includes(q) && !tagsSelecionadas.includes(t));
     if (matches.length === 0) { sug.style.display = 'none'; return; }
     sug.innerHTML = matches.map(t => `
-        <div onclick="adicionarTag('${t.replace(/'/g,"\\'")}'); document.getElementById('busca-temas').value=''; filtrarTemas('');"
-             style="padding:9px 14px; cursor:pointer; border-bottom:1px solid #f0f0f0;
-                    font-family:'Montserrat',sans-serif; font-size:.88rem;"
-             onmouseover="this.style.background='#f5f5f5'" onmouseout="this.style.background=''">
+        <div class="sug-item" onclick="adicionarTag('${t.replace(/'/g,"\\'")}'); document.getElementById('busca-temas').value=''; filtrarTemas('');">
             ${t}
         </div>`).join('');
     sug.style.display = 'block';

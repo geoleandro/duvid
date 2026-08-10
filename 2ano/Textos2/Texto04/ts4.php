@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Geografia agrária: estrutura fundiária concentrada, latifúndio e minifúndio, reforma agrária e conflitos por terras indígenas no Brasil" name="description"/>
+<meta content="Texto 04 - Geografia Agrária e Reforma Agrária" property="og:title"/>
+<meta content="Como o capitalismo organizou a distribuição de terras no Brasil e os conflitos que isso gera até hoje" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 04</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 04 - Geografia Agrária e Reforma Agrária</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -73,49 +77,10 @@
 <hr/>
 </div>
 <div class="topico">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-<ul>
-<li>
-                        Qual é a porcentagem da população brasileira que vive em áreas urbanas e rurais, de acordo com a PNAD 2015?
-                    </li>
-<li>
-                        Por que o espaço geográfico rural e urbano são considerados inseparáveis e complementares?
-                    </li>
-<li>
-                        O que é posse da terra e como ela se diferencia da propriedade da terra?
-                    </li>
-<li>
-                        Como a estrutura fundiária é definida e qual é a situação da estrutura fundiária no Brasil?
-                    </li>
-<li>
-                        O que é um latifúndio e um minifúndio? Qual é a diferença entre eles?
-                    </li>
-<li>
-                        Quais são os principais fatores históricos que contribuíram para a estrutura fundiária concentrada no Brasil?
-                    </li>
-<li>
-                        O que é reforma agrária e quais são suas principais medidas?
-                    </li>
-<li>
-                        Quais são os principais problemas enfrentados pelas terras indígenas no Brasil?
-                    </li>
-<li>
-                        Como o caso da reserva indígena Raposa/Serra do Sol exemplifica os conflitos sobre demarcações de terras indígenas?
-                    </li>
-<li>
-                        O que é o Parque Indígena do Xingu e qual é o seu propósito na preservação das culturas indígenas?
-                    </li>
-</ul>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2>O espaço geográfico: o rural e o urbano</h2>
-<p>De acordo com dados da Pesquisa Nacional por Amostra de Domicílios (PNAD) 2015 a maior parte da população brasileira, 84,72%, vive em áreas urbanas. Já 15,28% dos brasileiros vivem em áreas rurais, o resulta em, aproximadamente, 32 milhões de pessoas que vivem no campo.  </p>
+<p>De acordo com dados da Pesquisa Nacional por Amostra de Domicílios (PNAD) 2015 a maior parte da população brasileira, 84,72%, vive em áreas urbanas. Já 15,28% dos brasileiros vivem em áreas rurais, o que resulta em, aproximadamente, 32 milhões de pessoas que vivem no campo.</p>
 <p>A maioria da população, portanto, além de não viver no campo, não conhece suas particularidades. Entretanto, sem o campo não existiria a cidade. </p>
-<p>No senso comum, o campo ou o rural é sinônimo de atraso, não desenvolvido ou não moderno. O que na realidade atual não é um fato, uma vez que, hoje, podemos viver na cidade e trabalhar no campo ou vice-versa; No mundo rural há equipamentos com tecnologias modernas atuando na produção agrícola como GPS, satélites, informação com monitoramento em tempo real. </p>
+<p>No senso comum, o campo ou o rural é sinônimo de atraso, não desenvolvido ou não moderno. O que na realidade atual não é um fato, uma vez que, hoje, podemos viver na cidade e trabalhar no campo ou vice-versa; No mundo rural há equipamentos com tecnologias modernas atuando na produção agrícola, como GPS, satélites e sistemas de monitoramento em tempo real. </p>
 <p>O espaço geográfico contém o espaço rural e o urbano, eles são inseparáveis e complementares. Isso porque o modo capitalista de produção penetrou profundamente no campo e tudo que está ao seu redor. Com o objetivo de aumentar a produção, as atividades modernas também estão no campo. </p>
 <p>Mas porque o Brasil apresenta uma configuração tão peculiar na distribuição de suas terras? Vamos analisar alguns dados e a maneira pela qual o espaço agrário brasileiro foi organizado. </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -130,7 +95,7 @@
 </div>
 <div class="topico">
 <h2>Estrutura fundiária concentrada no Brasil </h2>
-<p>Entende-se como <strong>estrutura fundiária</strong> a divisão de um território em propriedades privadas. Ela pode ser mais ou menos concentrada, dependendo da forma como as propriedades estão distribuídas entre os proprietários. Se há muita terra sob propriedade de uma porção relativamente pequena de proprietários, dizemos que a estrutura fundiária é concentrada. </p>
+<p>Entende-se como <strong><span class="termo" data-palavra="Estrutura Fundiária" data-definicao="Forma como a terra de um território está dividida entre proprietários. Pode ser concentrada (poucos donos, muita terra) ou pulverizada (muitos donos, pouca terra cada um).">estrutura fundiária</span></strong> a divisão de um território em propriedades privadas. Ela pode ser mais ou menos concentrada, dependendo da forma como as propriedades estão distribuídas entre os proprietários. Se há muita terra sob propriedade de uma porção relativamente pequena de proprietários, dizemos que a estrutura fundiária é concentrada. </p>
 <p>O Brasil apresenta uma das estruturas fundiárias mais concentradas do mundo, o que significa que aqui o acesso à terra é bem limitado para a maioria da população. Essa concentração não prejudica apenas aqueles que têm o seu acesso à terra limitado, apresentando, também, consequências econômicas e sociais, entre elas a subutilização da terra para a produção de alimentos e o<span class="w3-yellow" onclick="document.getElementById('exodo').style.display='block'"> <strong>êxodo rural</strong></span>  exagerado, além de favorecer a manutenção de altos índices de violência no campo brasileiro. </p>
 <div class="w3-modal w3-margin-top" id="exodo">
 <div class="w3-modal-content">
@@ -145,7 +110,7 @@
 <div class="w3-margin"><img alt="ts04f01" class="w3-mobile" id="imagem1" src="ts04f01.png"/></div>
 <p> Dessa forma, o gráfico acima mostra que, em 2017, os estabelecimentos com menos de 50 hectares representavam 81,4% da quantidade total, mas ocupavam apenas 12,8% da área. Enquanto que os estabelecimentos com mais de 2 500 hectares representavam 0,3% do total de estabelecimentos e ocupavam 32,8% da área de estabelecimentos do País.</p>
 <p>A estrutura fundiária é sempre resultado do processo histórico de ocupação do território, incluindo a ação dos proprietários, as políticas públicas e a legislação que regulamentou tal ocupação. A concentração fundiária no Brasil está diretamente ligada aos seguintes fatos históricos: </p>
-<p>As <strong>sesmarias</strong>: foram criadas em Portugal, no século XIV, tendo como objetivo garantir a regulamentação do uso da terra no país. No caso do Brasil, as sesmarias foram utilizadas para organizar a ocupação do território durante a implementação do sistema de <em>plantation</em>, baseado na produção monocultora realizada em grandes extensões de terra, com uso de mão de obra escrava e voltada à exportação. Assim sendo, elas contribuíram diretamente para a criação dos mais antigos latifúndios do país. </p>
+<p>As <strong><span class="termo" data-palavra="Sesmarias" data-definicao="Sistema português de concessão de grandes lotes de terra a colonos, usado para organizar a ocupação do território brasileiro no período colonial. Deu origem aos latifúndios mais antigos do país.">sesmarias</span></strong>: foram criadas em Portugal, no século XIV, tendo como objetivo garantir a regulamentação do uso da terra no país. No caso do Brasil, as sesmarias foram utilizadas para organizar a ocupação do território durante a implementação do sistema de <em>plantation</em>, baseado na produção monocultora realizada em grandes extensões de terra, com uso de mão de obra escrava e voltada à exportação. Assim sendo, elas contribuíram diretamente para a criação dos mais antigos latifúndios do país. </p>
 <div class="w3-margin"><img alt="ts04f02" class="w3-mobile" id="imagem2" src="ts04f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Fonte: agroolher.com.br </span>
 </div>
@@ -177,8 +142,8 @@
 <div class="w3-margin"><img alt="ts04f04" class="w3-mobile" id="imagem4" src="ts04f04.png"/>
 <span class="w3-small w3-margin-left" id="citacao4"> Fonte: Wikipedia. </span>
 </div>
-<p><strong>Lei de terras de 1850</strong>: foi a lei que criou a propriedade privada da terra no Brasil. Ela foi criada no contexto da transição do trabalho escravo para o trabalho livre, quando a elite agrária teve que limitar o acesso à terra àqueles que tivessem dinheiro para comprá-la, enquanto à maioria restava trabalhar nas grandes propriedades.</p>
-<p> A expansão da <strong>fronteira agrícola</strong>: entre as décadas de 1960 e 1980, o Governo Federal e os governos estaduais dos estados do Centro-Oeste promoveram a venda de grandes propriedades para estimular a ocupação do cerrado com a expansão da pecuária e do cultivo da soja. Mesmo que legalmente houvesse limites para a grande propriedade, várias formas de grilagem (falsificação de títulos de propriedade) foram utilizadas para a formação de grandes latifúndios.</p>
+<p><strong><span class="termo" data-palavra="Lei de Terras de 1850" data-definicao="Primeira lei brasileira a regular a propriedade privada da terra, tornando a compra o único meio legal de acesso. Editada às vésperas do fim da escravidão, dificultou o acesso à terra por ex-escravizados e trabalhadores pobres.">Lei de Terras de 1850</span></strong>: foi a lei que criou a propriedade privada da terra no Brasil. Ela foi criada no contexto da transição do trabalho escravo para o trabalho livre, quando a elite agrária teve que limitar o acesso à terra àqueles que tivessem dinheiro para comprá-la, enquanto à maioria restava trabalhar nas grandes propriedades.</p>
+<p> A expansão da <strong><span class="termo" data-palavra="Fronteira Agrícola" data-definicao="Área em processo de incorporação a atividades agropecuárias, geralmente avançando sobre vegetação nativa. No Brasil, avançou sobre o Cerrado e a Amazônia a partir das décadas de 1960 e 1970.">fronteira agrícola</span></strong>: entre as décadas de 1960 e 1980, o Governo Federal e os governos estaduais dos estados do Centro-Oeste promoveram a venda de grandes propriedades para estimular a ocupação do cerrado com a expansão da pecuária e do cultivo da soja. Mesmo que legalmente houvesse limites para a grande propriedade, várias formas de <span class="termo" data-palavra="Grilagem" data-definicao="Falsificação de documentos para registrar como propriedade privada terras públicas ou devolutas. O termo vem do costume de envelhecer artificialmente os papéis falsos guardando-os em caixas com grilos.">grilagem</span> (falsificação de títulos de propriedade) foram utilizadas para a formação de grandes latifúndios.</p>
 <div class="w3-margin"><img alt="ts04f05" class="w3-mobile" id="imagem5" src="ts04f05.png"/>
 </div>
 <p>
@@ -204,12 +169,12 @@
 <h2>Os limites à propriedade privada da terra no Brasil: reforma agrária 
 
         </h2>
-<p>A <strong>reforma agrária</strong> em sua essência ou em uma definição genérica é a reorganização mais justa da terra. Em um país onde a estrutura fundiária teve uma formação concentrada, com grandes propriedades voltadas para a produção agroexportador, todas as possíveis mudanças são encaradas de forma negativa por alguma parcela da sociedade. Ainda hoje os grandes proprietários exercem influência sobre autoridades em níveis desde local, regional até nacional. </p>
-<p> A concentração fundiária levou ao surgimento de conflitos pela terra no país. Um dos mais importantes foi o das <strong>Ligas Camponesas</strong>, que, entre as décadas de 1940 e 1960, marcou a crise do modelo econômico agroexportador. Após acabar com o movimento, os governos militares buscaram amenizar a tensão em torno da questão fundiária por meio do <strong>Estatuto da Terra</strong>, que lançou a ideia de que a propriedade privada sobre a terra teria de ser regulamentada. A principal novidade foi o reconhecimento da necessidade de que a propriedade da terra atendesse à sua função social.</p>
-<p> A partir desse momento, passou-se a entender que a propriedade privada da terra é condicionada ao seu aproveitamento. E foi assim que surgiu a noção de reforma agrária. Criada já nos anos 1960, a reforma agrária consiste em um conjunto de políticas públicas que garantam melhor distribuição e, principalmente, melhor uso da terra. As duas principais medidas governamentais ligadas à reforma agrária são a <strong>desapropriação de terras</strong> improdutivas (para serem distribuídas a famílias cadastradas nos programas de redistribuição de terras) e o <trong>apoio financeiro e técnico aos assentados</trong>o).</p>
+<p>A <strong><span class="termo" data-palavra="Reforma Agrária" data-definicao="Conjunto de políticas públicas para redistribuir terras improdutivas e promover melhor uso e acesso a elas, especialmente para famílias sem terra. Prevista na Constituição de 1988 como condição da propriedade cumprir sua função social.">reforma agrária</span></strong> em sua essência ou em uma definição genérica é a reorganização mais justa da terra. Em um país onde a estrutura fundiária teve uma formação concentrada, com grandes propriedades voltadas para a produção agroexportador, todas as possíveis mudanças são encaradas de forma negativa por alguma parcela da sociedade. Ainda hoje os grandes proprietários exercem influência sobre autoridades em níveis desde local, regional até nacional. </p>
+<p> A concentração fundiária levou ao surgimento de conflitos pela terra no país. Um dos mais importantes foi o das <strong>Ligas Camponesas</strong>, que, entre as décadas de 1940 e 1960, marcou a crise do modelo econômico agroexportador. Após acabar com o movimento, os governos militares buscaram amenizar a tensão em torno da questão fundiária por meio do <strong><span class="termo" data-palavra="Estatuto da Terra" data-definicao="Lei de 1964 que regulamentou pela primeira vez a propriedade privada da terra no Brasil, introduzindo a ideia de que ela deve cumprir uma função social.">Estatuto da Terra</span></strong>, que lançou a ideia de que a propriedade privada sobre a terra teria de ser regulamentada. A principal novidade foi o reconhecimento da necessidade de que a propriedade da terra atendesse à sua função social.</p>
+<p> A partir desse momento, passou-se a entender que a propriedade privada da terra é condicionada ao seu aproveitamento. E foi assim que surgiu a noção de reforma agrária. Criada já nos anos 1960, a reforma agrária consiste em um conjunto de políticas públicas que garantam melhor distribuição e, principalmente, melhor uso da terra. As duas principais medidas governamentais ligadas à reforma agrária são a <strong>desapropriação de terras</strong> improdutivas (para serem distribuídas a famílias cadastradas nos programas de redistribuição de terras) e o <strong>apoio financeiro e técnico aos assentados</strong>.</p>
 <p>No entanto, mesmo com o Estatuto da Terra, durante os governos militares, houve aumento dos conflitos, pois com os projetos de expansão da fronteira agrícola sobre o Centro-Oeste e a Amazônia, a concentração fundiária intensificou-se. </p>
-<p>Com o fim do regime militar, a luta pela reforma agrária pôde voltar a ocorrer de forma aberta e direta, principalmente porque a Constituição de 1988 criou a obrigatoriedade da reforma agrária em seu artigo 184. Foi nesse contexto que surgiram e cresceram o<strong> MST </strong>(Movimento dos Trabalhadores Rurais Sem Terra) e, posteriormente, outros grupos que se mobilizam para exigir dos governantes a realização da reforma agrária prevista em lei. </p>
-<p>Tais movimentos lutam também por melhores condições de trabalho, uma vez que, no campo brasileiro, são comuns as contratações irregulares de trabalhadores — no esquema de boias-frias (trabalho temporário sem registro) o trabalho infantil e mesmo o trabalho escravo.</p>
+<p>Com o fim do regime militar, a luta pela reforma agrária pôde voltar a ocorrer de forma aberta e direta, principalmente porque a Constituição de 1988 criou a obrigatoriedade da reforma agrária em seu artigo 184. Foi nesse contexto que surgiram e cresceram o <strong><span class="termo" data-palavra="MST" data-definicao="Movimento dos Trabalhadores Rurais Sem Terra, organização social criada em 1984 que ocupa terras improdutivas e pressiona pela reforma agrária no Brasil.">MST</span></strong> (Movimento dos Trabalhadores Rurais Sem Terra) e, posteriormente, outros grupos que se mobilizam para exigir dos governantes a realização da reforma agrária prevista em lei. </p>
+<p>Tais movimentos lutam também por melhores condições de trabalho, uma vez que, no campo brasileiro, são comuns as contratações irregulares, como no esquema de boias-frias (trabalho temporário sem registro), o trabalho infantil e mesmo o trabalho escravo.</p>
 <p>Um exemplo concreto de como esses dois problemas, trabalho escravo e descumprimento da função social da terra, podem se cruzar é a desapropriação da fazenda Cabaceiras, no sul do Pará, motivada tanto por trabalho em condições análogas à escravidão quanto por graves infrações ambientais na propriedade. Casos como esse mostram que a desapropriação não é apenas um instrumento técnico de redistribuição fundiária, mas também um mecanismo de justiça usado para confrontar a ordem agrária concentrada e desigual historicamente construída no Brasil.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -221,8 +186,7 @@
 <div class="item-resposta">
 <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
 <label class="card-opcao" for="p1a">
-<span>a) A partir de 1850, com a Lei de Terras, todos os trabalhadores rurais passaram a ter acesso à terra.
-			.</span>
+<span>a) A partir de 1850, com a Lei de Terras, todos os trabalhadores rurais passaram a ter acesso à terra.</span>
 </label>
 </div>
 <div class="item-resposta">
@@ -250,7 +214,7 @@
 </div>
 <div class="topico">
 <h2>Os conflitos pela terra continuam... </h2>
-<p> Em 2022, O jornalista britânico Dom Philips e indigenista Bruno Araújo foram mortos na região da terra indígena Vale do Javari, na Amazônia. Eles iriam se reunir com líder comunitário para conversar e denunciar os invasores na região indígena.</p>
+<p> Em junho de 2022, o jornalista britânico Dom Phillips e o indigenista brasileiro Bruno Pereira foram assassinados na região da Terra Indígena Vale do Javari, na Amazônia. Bruno trabalhava com a União dos Povos Indígenas do Vale do Javari (Univaja), monitorando e denunciando invasores da região.</p>
 <p>Esse exemplo ilustra o grande problema ainda desse grupo étnico: a terra. Ocupando o território desde os tempos ancestrais, antes mesmo de se tornar Brasil, com a chegada dos colonizadores, os indígenas perderam suas terras e viram suas tradições sendo despedaçadas. </p>
 <p>Segundo a FUNAI (Fundação Nacional do Índio), em 2010, havia 668 terras indígenas no Brasil. Veja o mapa abaixo: </p>
 <h4 class="w3-center"><strong>Terras indígenas</strong></h4>
@@ -259,7 +223,7 @@
 <p>Essas reservas correspondem a, aproximadamente, 1,1 milhão de km² ou 13% do território nacional. Entretanto, pouco mais da metade dessas reservas foi demarcada e regularizada adequadamente. </p>
 <p>Um dos maiores problemas nessas terras é que cerca de 70% delas sofrem com invasões de grupos madeireiros, fazendeiros, posseiros, garimpeiros, grileiros, dentre outros. </p>
 <p>As terras indígenas são classificadas pela FUNAI dependendo do estágio de seu reconhecimento. Umas estão demarcadas, mas não regularizadas, outras estão identificadas mas não demarcadas e assim por diante.</p>
-<div class="w3-card-4 w3-pale-gray w3-padding w3-margin-top">
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p>
                 Os tipos mais comuns de invasores que os indígenas enfrentam são:
                 </p>
@@ -268,7 +232,7 @@
 <p><strong>Camponeses ou posseiros</strong> expulsos de suas terras – Aqueles que invadem as terras indígenas em busca de novos solos para plantar a partir de base familiar.</p>
 <p><strong>Garimpeiros</strong> – Em geral, camponeses desempregados ou expulsos de suas terras atraídos pela oferta de lucro fácil no garimpo de ouro, pedras preciosas ou diversos minérios valiosos encontrados em terras indígenas. A área de ocorrência de garimpo é marcada por grande destruição ambiental através da retirada de detritos com uso de mercúrio, extremamente nocivo para a população local, peixes e contaminação da água potável dos rios.</p>
 </div>
-<p>Por isso ocorre conflitos por todo o país com muitas mortos quase que frequentemente.</p>
+<p>Por isso, ocorrem conflitos frequentes por todo o país, muitos deles com mortes.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -310,17 +274,17 @@
 <p> Um dos exemplos mais representativos do conflito e tensões sobre demarcações de terras indígenas diz respeito a reserva Raposa/Serra do Sol. Localizada em Roraima, ela possui uma área de 1,73 milhões de hectares ou 17.300 km² e faz fronteira ao Norte com a Venezuela e a Guiana. Observe no mapa abaixo:</p>
 <div class="w3-margin"><img alt="ts04f07" class="w3-mobile" id="imagem7" src="ts04f07.png"/>
 </div>
-<p> A reserva foi criada em 1998 pelo reconhecimento dos indígenas que habitam esse região há milhares de anos, como os: Macuxi, Wapichana, Ungakikó, Taurepang e Paramona. Em 2010, a população era de, aproximadamente, de 18 mil habitantes.</p>
+<p> O reconhecimento da terra indígena começou em 1998, com a portaria declaratória do Ministério da Justiça, e a homologação pelo governo federal veio em 2005. A área é reconhecida como habitada há milhares de anos pelos povos Macuxi, Wapichana, Ingaricó, Taurepang e Patamona. Em 2010, a população era de, aproximadamente, 18 mil habitantes.</p>
 <p> O principal motivo do conflito é que existem três cidades nesse região: Pacaraima, Uiramutã e Normandia. Além dos povoados, há produtores de arroz (o principal produto da região) e atividades de mineração, conforme mapa acima.</p>
 <p>O problema era: como demarcar a reserva? De forma contínua, isto é, toda região deveria ser exclusiva dos indígenas; ou descontínua, quer dizer, de forma fragmentada e excluindo as cidades, os povoados, as rodovias e as plantações de arroz?</p>
-<p> O caso foi parar no STF (Supremo Tribunal Federal) com argumentos de ambas as partes. Os indígenas e com apoio da FUNAI defendiam uma área contínua, sem divisões; Entretanto, a maioria dos políticos da região, dos rizicultores (produtores de arroz) e os prefeitos das pequenas cidades queriam que fossem incluídas suas cidades e suas atividades econômicas. Para esses últimos, se a reserva for demarcada como querem os indígenas, Roraima perderá quase metade de seu território. Portanto, a população não indígena terá de ser removida. Ao contrário, os indígenas dizem que uma reserva em forma de ilhas descaracterizaria as terras deles. Eles também afiram que a população não indígena ocupou a região depois da demarcação (o que configura ilegalidade).</p>
-<p>O resultado de diversos conflitos e tensões foi finalizada em 2007 com a decisão do STF de que a reserva deveria ser demarcada de forma contínua, obrigando os produtores de arroz a abandonar a área. </p>
+<p> O caso foi parar no STF (Supremo Tribunal Federal) com argumentos de ambas as partes. Os indígenas e com apoio da FUNAI defendiam uma área contínua, sem divisões; Entretanto, a maioria dos políticos da região, dos rizicultores (produtores de arroz) e os prefeitos das pequenas cidades queriam que fossem incluídas suas cidades e suas atividades econômicas. Para esses últimos, se a reserva for demarcada como querem os indígenas, Roraima perderá quase metade de seu território. Portanto, a população não indígena terá de ser removida. Ao contrário, os indígenas dizem que uma reserva em forma de ilhas descaracterizaria as terras deles. Eles também afirmam que a população não indígena ocupou a região depois da demarcação (o que configura ilegalidade).</p>
+<p>O resultado de diversos conflitos e tensões foi decidido em 2009, quando o STF confirmou, por 10 votos a 1, que a reserva deveria ser demarcada de forma contínua, obrigando os produtores de arroz a deixar a área. </p>
 <p>Em 2021, a reserva Raposa Serra do Sol possuía 28 mil habitantes exercendo atividades como a produção de arroz orgânico, feijão, milho, batata e frutas, além da criação de gado nas áreas de “lavrado”, como é conhecida a savana da região. </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <h2>Atividade: Entrevistas Simuladas sobre Geografia Agrária no Brasil</h2>
 <h3>Objetivo:</h3>
 <p>
@@ -362,37 +326,59 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Como evitar a extinção de uma etnia, como a indígena, por exemplo?
             </strong> </p>
-<p><span class="primeiraLetra">R:</span> Umas das formas encontradas pela preservação da etnia indígena foi a criação do Parque Indígena do Xingu, localizado ao Norte do Estado de Mato Grosso com mais de 2 milhões de km² e cortada pelo rio Xingu.</p>
-<p>O Parque Indígena do Xingu foi criado em 1961, durante o governo de Jânio Quadros, e parte da ideia de que o indígena só sobrevive na sua própria cultura.</p>
-<p>Vivem atualmente no Xingu, aproximadamente 5.500 índios de quatorze etnias distintas.</p>
+<p><span class="primeiraLetra">R:</span> Uma das formas encontradas para a preservação da etnia indígena foi a criação do Parque Indígena do Xingu, localizado ao norte do Estado de Mato Grosso, com cerca de 26 mil km² (2,6 milhões de hectares) e cortado pelo rio Xingu.</p>
+<p>O Parque Indígena do Xingu foi criado em 1961, durante o governo de Jânio Quadros, e parte da ideia de que o indígena só sobrevive dentro da sua própria cultura.</p>
+<p>Vivem atualmente no Xingu mais de 6 mil indígenas de 16 etnias distintas.</p>
 <div class="w3-margin"><img alt="ts04f08" class="w3-mobile" id="imagem8" src="ts04f08.png"/>
 <span class="w3-small w3-margin-left" id="citacao8"> Fonte: www.amazoniareal.com.br/ Wikipédia. </span>
 </div>
 <p>O Xingu enfrenta hoje uma série de conflitos, como a devastação de suas florestas e substituição por grandes monoculturas de base agroquímica, trazendo graves consequências para os modos de vida dos povos indígenas da região. As secas, os agrotóxicos, as pragas e o fogo descontrolado impactam diretamente na disponibilidade de recursos naturais importantes para os índios.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>Por que a demarcação de terras gera tantos conflitos? </strong></p>
-<p><span class="primeiraLetra">R:</span> A cultura indígena se diferencia do modo de vida capitalista.  Por exemplo, não há propriedade privada, os indígenas vivem em habitações coletivas conhecidas como Ocas. Não há objetivo de lucro, uma vez que não existe o sentido de acumulação. Não há divisão em classes sociais, visto que a especialização e divisão do trabalho no sentido dado pela cultura indígenas soa como um defeito da alma, pois todos devem contribuir para a manutenção da tribo.
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>Por que a demarcação de terras gera tantos conflitos? </strong></p>
+<p><span class="primeiraLetra">R:</span> A cultura indígena se diferencia do modo de vida capitalista.  Por exemplo, não há propriedade privada, os indígenas vivem em habitações coletivas conhecidas como Ocas. Não há objetivo de lucro, uma vez que não existe o sentido de acumulação. Não há divisão em classes sociais, visto que a especialização e a divisão do trabalho, no sentido dado pela cultura indígena, soam como um defeito da alma, pois todos devem contribuir para a manutenção da tribo.
             Os indígenas precisam de muita terra para caçar, pescar ou coletar frutos, além de pequenas lavouras espalhadas pela mata. Eles não desmatam ou esgotam os seus recursos, mas garantem a sobrevivência do ecossistema. Eles vivem outra relação com o meio natural, diferente da sociedade ocidental. A preocupação com a democracia, com o respeito a culturais tradicionais, a ecologia e a preservação das áreas florestais passa, portanto, por um entendimento da situação desses povos que aqui já habitavam há milhares de anos.
             
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Por que a reforma agrária é importante?
 
             </strong></p>
 <p><span class="primeiraLetra">R:</span>
 
-            O Brasil possui os maiores latifúndios do Planeta, com fazendas maiores do que diversos países da Europa, por exemplo. Há grileiros (pessoas que falsificam documentos para registrar posse de terras).  Menos de 1% dos proprietários agrícolas possui 45% da área rural do país. A reforma agrária está na Constituição Federal e é bem clara: a propriedade da terra está subordinada à sua função social. Isso significa que o “dono” da terra não pode deixá-la improdutiva, sem produzir nada. A terra é um bem especial no capitalismo, possui essa característica, pois precisa atender sua função de abastecer a população. É um direito daqueles que não possui terras e, por outro lado, há milhares ou milhões de hectares sem uso. A reforma agrária é importante para a produção de alimentos, diminuir a fome, propiciar educação e vida digna para milhões de famílias do Brasil.
+            O Brasil possui os maiores latifúndios do Planeta, com fazendas maiores do que diversos países da Europa, por exemplo. Há grileiros (pessoas que falsificam documentos para registrar posse de terras).  Menos de 1% dos proprietários agrícolas possui 45% da área rural do país. A reforma agrária está na Constituição Federal e é bem clara: a propriedade da terra está subordinada à sua função social. Isso significa que o “dono” da terra não pode deixá-la improdutiva, sem produzir nada. A terra é um bem especial no capitalismo, possui essa característica, pois precisa atender sua função de abastecer a população. É um direito daqueles que não possuem terras e, por outro lado, há milhares ou milhões de hectares sem uso. A reforma agrária é importante para a produção de alimentos, diminuir a fome, propiciar educação e vida digna para milhões de famílias do Brasil.
 
         
 
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
 <br/><br/>
+<hr/>
+</div>
+<div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+<h3>1. Qual é a porcentagem da população brasileira que vive em áreas urbanas e rurais, de acordo com a PNAD 2015?</h3>
+<h3>2. Por que o espaço geográfico rural e urbano são considerados inseparáveis e complementares?</h3>
+<h3>3. O que é posse da terra e como ela se diferencia da propriedade da terra?</h3>
+<h3>4. Como a estrutura fundiária é definida e qual é a situação da estrutura fundiária no Brasil?</h3>
+<h3>5. O que é um latifúndio e um minifúndio? Qual é a diferença entre eles?</h3>
+<h3>6. Quais são os principais fatores históricos que contribuíram para a estrutura fundiária concentrada no Brasil?</h3>
+<h3>7. O que é reforma agrária e quais são suas principais medidas?</h3>
+<h3>8. Quais são os principais problemas enfrentados pelas terras indígenas no Brasil?</h3>
+<h3>9. Como o caso da reserva indígena Raposa/Serra do Sol exemplifica os conflitos sobre demarcações de terras indígenas?</h3>
+<h3>10. O que é o Parque Indígena do Xingu e qual é o seu propósito na preservação das culturas indígenas?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico">
@@ -405,7 +391,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Geografia Agrária é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

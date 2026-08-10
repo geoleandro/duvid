@@ -8,7 +8,7 @@
 
     <meta name="description" content="Brasil na globalização: inserção no comércio internacional, cadeias produtivas globais, exportações e soberania econômica">
     <meta property="og:title" content="Texto 35 - Brasil na globalização">
-    <meta property="og:description" content="O Brasil no mundo: o que exportamos, para quem, quem manda e quem obedece na economia global — e o que isso tem a ver com a sua vida">
+    <meta property="og:description" content="O Brasil no mundo: o que exportamos, para quem, quem manda e quem obedece na economia global, e o que isso tem a ver com a sua vida">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,8 +43,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 35 - Brasil na Globalização</title>
 
 </head>
 
@@ -110,7 +112,7 @@
 
             <h2>O problema que esta aula vai ajudar a entender</h2>
 
-            <p>Em 2023, os cinco principais produtos exportados pelo Brasil foram: soja, petróleo cru, minério de ferro, carnes (bovina, suína, frango) e açúcar. Com exceção do petróleo (commodity energética) e das carnes (com algum processamento), todos os demais são commodities agrícolas ou minerais praticamente sem transformação industrial. O Brasil é a maior potência agrícola do mundo e ainda assim a renda per capita é seis vezes menor que a da Alemanha — que exporta principalmente máquinas e automóveis.</p>
+            <p>Em 2023, os cinco principais produtos exportados pelo Brasil foram: soja, petróleo cru, minério de ferro, carnes (bovina, suína, frango) e açúcar. Com exceção do petróleo (commodity energética) e das carnes (com algum processamento), todos os demais são commodities agrícolas ou minerais praticamente sem transformação industrial. O Brasil é a maior potência agrícola do mundo e ainda assim a renda per capita é seis vezes menor que a da Alemanha, que exporta principalmente máquinas e automóveis.</p>
 
             <p>A pergunta desta aula não é "o que o Brasil exporta" mas <strong>por que um país com a décima maior economia do mundo exporta principalmente soja e minério, o que isso revela sobre a posição do Brasil na divisão internacional do trabalho e o que isso tem a ver com as desigualdades que vimos ao longo do ano.</strong></p>
 
@@ -121,8 +123,6 @@
 
         <!-- BLOCO 4: Divisão internacional do trabalho -->
         <div class="topico">
-
-            <div class="w3-pale-blue">
 
             <h2>A divisão internacional do trabalho e a globalização</h2>
 
@@ -136,6 +136,16 @@
 
             <p>Por que o Brasil não processa mais antes de exportar? As causas são históricas, econômicas e políticas: o modelo de negócios das grandes tradings (Cargill, ADM, Bunge) prefere importar o processamento; países compradores como a China cobram tarifas progressivas sobre produtos mais processados (cobram menos imposto de soja bruta do que de farelo ou óleo de soja); e a política industrial brasileira das últimas décadas não priorizou o desenvolvimento de capacidade de transformação industrial das commodities.</p>
 
+            <p>O tamanho dessa desvantagem aparece nos números do comércio mundial: em 2021, o Brasil ocupava apenas
+                a 25ª posição no ranking do comércio internacional, participando dos fluxos globais de mercadorias
+                com só 1,3% do total, uma fatia pequena para a décima maior economia do planeta. Produtos de alta
+                intensidade tecnológica, como aviões e automóveis, respondiam por apenas cerca de 1,8% das
+                exportações brasileiras. Em 2022, os dez maiores parceiros comerciais do Brasil foram, pela ordem,
+                China, Estados Unidos, Argentina, Alemanha, Índia, Países Baixos, Chile, Espanha, México e Japão.
+                Os maiores déficits comerciais do país ficaram justamente com os Estados Unidos e a Alemanha (que
+                vendem ao Brasil mais produtos industrializados do que compram), enquanto o maior superávit veio da
+                China, puxado pelas commodities.</p>
+
             <div class="w3-margin">
                 <img src="ts35f01.png" alt="Gráfico da pauta de exportações do Brasil em 2023 mostrando a participação de commodities versus produtos industrializados"
                     class="w3-mobile"
@@ -143,13 +153,25 @@
                 <span class="w3-small w3-margin-left">Pauta de exportações do Brasil em 2023: participação de commodities e produtos industrializados. Fonte: MDIC/Comex Stat.</span>
             </div>
 
-            </div>
+            <h3>Balança comercial: o Brasil vende mais do que compra</h3>
+
+            <p>A <span class="termo" data-palavra="Balança Comercial"
+                    data-definicao="Registro contábil de todas as exportações e importações de bens de um país em determinado período. Quando as exportações superam as importações, o resultado é superávit (saldo positivo); quando as importações superam as exportações, é déficit (saldo negativo). A soma de exportações e importações é chamada de corrente de comércio, e mede o tamanho total das trocas de um país com o resto do mundo. O Brasil mantém superávits comerciais expressivos há vários anos consecutivos, puxado sobretudo pelo agronegócio.">balança
+                    comercial</span> é o resultado de todas as exportações menos todas as importações de um país em
+                um período. Em 2024, o Brasil fechou o ano com superávit de US$ 74,5 bilhões, o segundo maior da
+                série histórica: foram US$ 337 bilhões exportados contra US$ 262,4 bilhões importados. Isso significa
+                que o Brasil vende para o mundo bem mais do que compra, o que parece positivo à primeira vista, mas
+                esconde a mesma contradição discutida nesta aula: o superávit é gerado majoritariamente pela venda de
+                commodities de baixo valor agregado, enquanto boa parte do que o Brasil importa são produtos
+                industrializados e de tecnologia mais avançada (eletrônicos, máquinas, fertilizantes, insumos
+                químicos). Ou seja, o Brasil pode ter um saldo comercial positivo e, ainda assim, continuar dependente
+                tecnologicamente de outros países.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
-        
+
         <!-- BLOCO 13.5: Os quatro Brasis e o meio técnico-científico-informacional -->
         <div class="topico">
 
@@ -176,21 +198,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>Brasil se beneficia mais: exportar grão bruto é eficiente e evita custos de processamento</span></label>
+                    <label for="p1a" class="card-opcao"><span>Brasil se beneficia mais</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>Argentina captura mais valor: farelo e óleo têm maior valor agregado e geram mais empregos industriais</span></label>
+                    <label for="p1b" class="card-opcao"><span>Argentina captura mais valor</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>As estratégias são equivalentes — o que importa é o volume exportado, não o grau de processamento</span></label>
+                    <label for="p1c" class="card-opcao"><span>Volume importa mais que processamento</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Argentina taxa mais a soja bruta para forçar o processamento interno; Brasil faz o inverso — por isso Argentina gera mais emprego e valor por tonelada.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Argentina taxa mais a soja bruta para forçar o processamento interno; Brasil faz o inverso, por isso Argentina gera mais emprego e valor por tonelada.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -252,7 +274,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Brasil exporta commodities e importa manufaturados da China — reprimarização: ganha divisas, perde indústria e tecnologia.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Brasil exporta commodities e importa manufaturados da China: é reprimarização, ganha divisas mas perde indústria e tecnologia.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -267,8 +289,6 @@
         <!-- BLOCO 8: Soberania e alternativas -->
         <div class="topico">
 
-            <div class="w3-pale-green">
-
             <h2>Soberania econômica e as alternativas do Brasil</h2>
 
             <p>O conceito de <span class="termo" data-palavra="Soberania Econômica" data-definicao="Capacidade de um país de tomar decisões econômicas estratégicas de forma autônoma, sem depender exclusivamente de outros países ou de instituições financeiras internacionais. Envolve ter política industrial própria, controle sobre recursos naturais estratégicos, capacidade tecnológica para produzir bens essenciais e autonomia para negociar em posição de igualdade no comércio internacional. É diferente de autarquia (fechamento total): soberania econômica não significa não comerciar, mas comerciar em condições favoráveis.">soberania econômica</span> refere-se à capacidade de um país de tomar decisões econômicas estratégicas de forma autônoma. Para o Brasil, isso implica algumas questões fundamentais: o país deve continuar sendo principalmente exportador de commodities ou deve investir em industrialização e tecnologia? O pré-sal é uma riqueza que deve ser explorada rapidamente ou poupada para as gerações futuras? As empresas estrangeiras que exploram recursos naturais brasileiros contribuem suficientemente para o desenvolvimento nacional?</p>
@@ -277,7 +297,18 @@
 
             <h3>O Brasil nos blocos econômicos</h3>
 
-            <p>O <span class="termo" data-palavra="Mercosul" data-definicao="Mercado Comum do Sul: bloco de integração econômica formado em 1991 por Brasil, Argentina, Uruguai e Paraguai, com Venezuela suspensa. Tem como objetivo a livre circulação de bens, serviços e fatores de produção entre os membros. É o quinto maior bloco econômico do mundo. Apesar de décadas de existência, ainda enfrenta barreiras não-tarifárias, divergências de política econômica e falta de integração produtiva entre as cadeias industriais dos países-membros.">Mercosul</span> é o principal bloco econômico do Brasil: reúne Argentina, Uruguai, Paraguai e o Brasil num mercado comum, com livre comércio entre os membros e tarifa externa comum para importações de fora do bloco. É o quinto maior bloco econômico do mundo em PIB, mas ainda enfrenta dificuldades de integração produtiva. O acordo com a União Europeia (negociado por décadas, assinado em 2019 e em fase de ratificação) pode abrir novos mercados para produtos brasileiros, mas também aumenta a concorrência de produtos europeus no mercado interno.</p>
+            <p>O <span class="termo" data-palavra="Mercosul" data-definicao="Mercado Comum do Sul: bloco de integração econômica criado em 1991 pelo Tratado de Assunção, entre Brasil, Argentina, Uruguai e Paraguai. Inicialmente um acordo de livre-comércio, tornou-se união aduaneira em 1995, com tarifa externa comum para importações de fora do bloco. A Venezuela aderiu como membro pleno em 2012, mas foi suspensa em 2016; Chile (1996), Peru (2003), Colômbia e Equador (2004), Guiana e Suriname (2013) são membros associados, e a Bolívia está em processo de adesão desde 2012. Reúne uma população superior a 299 milhões de pessoas (2022) e é o quinto maior bloco econômico do mundo em PIB, mas ainda enfrenta barreiras não tarifárias e falta de integração produtiva entre as cadeias industriais dos países-membros.">Mercosul</span> é o principal bloco econômico do Brasil, criado em 1991 pelo Tratado de Assunção e transformado em união aduaneira em 1995, com tarifa externa comum para importações de fora do bloco. Além dos quatro membros plenos (Brasil, Argentina, Uruguai e Paraguai), o bloco tem países associados, como Chile, Peru, Colômbia e Equador, e reúne uma população superior a 299 milhões de pessoas.</p>
+
+            <p>O acordo entre Mercosul e União Europeia foi negociado desde 2004 e assinado em junho de 2019, mas até
+                meados de 2024 ainda não tinha sido ratificado pelos parlamentos de todos os países envolvidos. Se
+                entrar em vigor, criará um mercado de mais de 780 milhões de pessoas, responsável por cerca de 25%
+                do PIB mundial e mais de US$ 100 bilhões em comércio entre os blocos. As vantagens para o Brasil
+                seriam concentradas nos exportadores de commodities, mas o acordo também expõe a indústria
+                brasileira e argentina à concorrência de produtos europeus mais tecnológicos, o que pode acelerar a
+                desindustrialização da região. Do lado europeu, o principal obstáculo à ratificação tem sido a
+                pressão de setores agrícolas do próprio bloco e as exigências ambientais: a União Europeia cobra
+                garantias sobre a preservação ambiental no Brasil e os direitos dos povos indígenas nas áreas de
+                expansão do agronegócio, o mesmo tipo de tensão discutido na aula sobre meio ambiente.</p>
 
             <p>O BRICS (Brasil, Rússia, Índia, China e África do Sul, com novos membros adicionados recentemente) é outra arena de cooperação. Criado em 2009 como fórum de países emergentes, busca aumentar o peso dessas nações nas instituições internacionais e desenvolver alternativas ao sistema financeiro centrado no dólar.</p>
 
@@ -288,7 +319,26 @@
                 <span class="w3-small w3-margin-left">Principais blocos econômicos globais. Fonte: elaboração própria com dados da OMC, 2023.</span>
             </div>
 
-            </div>
+            <h3>O tarifaço de Trump e a resposta brasileira</h3>
+
+            <p>Em 2025, o governo dos Estados Unidos, sob Donald Trump, anunciou uma <span class="termo"
+                    data-palavra="Tarifaço"
+                    data-definicao="Nome popular dado à tarifa de 50% imposta pelos Estados Unidos, sob o governo Trump, sobre a maior parte das exportações brasileiras a partir de agosto de 2025. Foi a maior tarifa entre os países notificados pelos EUA naquele momento. O governo americano isentou setores estratégicos, como aeronaves civis, energia, suco de laranja, ferro-gusa, metais preciosos, celulose e fertilizantes, mas manteve a tarifa cheia sobre siderurgia, setor automotivo, aeronáutico civil não isento, petróleo e produtos químicos. Estimativas apontavam impacto de até 1,2% no PIB brasileiro, já que os Estados Unidos compravam cerca de US$ 43 bilhões em produtos brasileiros por ano, sendo o segundo maior parceiro comercial do país depois da China.">tarifa
+                    de 50%</span> sobre a maior parte dos produtos brasileiros vendidos ao país, entre eles siderurgia,
+                setor automotivo e produtos químicos, embora tenha isentado itens estratégicos como aeronaves civis,
+                energia, suco de laranja e celulose. Como os Estados Unidos eram o segundo maior comprador de
+                produtos brasileiros, atrás apenas da China, com cerca de US$ 43 bilhões em compras anuais, analistas
+                estimaram que a medida poderia derrubar o PIB brasileiro em até 1,2%.</p>
+
+            <p>O episódio é um exemplo direto do que significa depender de poucos parceiros comerciais e não ter
+                soberania sobre as condições do próprio comércio exterior: uma decisão política de um único governo
+                estrangeiro pode afetar diretamente empregos e renda no Brasil, sem que o país tenha controle sobre
+                essa decisão. Ainda assim, o Brasil respondeu buscando novos mercados para os produtos afetados,
+                intensificando vendas para Ásia, Oriente Médio e outros parceiros da América Latina. O resultado
+                surpreendeu: em 2025, as exportações brasileiras totais somaram US$ 348,7 bilhões, novo recorde da
+                série histórica iniciada em 1997, superando o resultado de 2024. A diversificação de mercados
+                funcionou como uma forma de reduzir a dependência de um único comprador, mas o episódio deixou claro
+                que a posição do Brasil na economia global continua vulnerável a decisões tomadas fora do país.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -325,9 +375,9 @@
 
             <p>Antes de estudar esta aula, você provavelmente achava que globalização era simplesmente "o mundo conectado": mercadorias, informações e pessoas circulando livremente pelo planeta, com todo mundo se beneficiando igualmente. Agora você vê que a globalização é um processo hierárquico: alguns países criam tecnologia e capturam muito valor; outros fornecem matérias-primas e capturam pouco. O Brasil está num nível intermediário: não é um país pobre, mas na divisão internacional do trabalho, ainda ocupa mais o papel de fornecedor do que de criador.</p>
 
-            <p>Isso não é destino. O Brasil tem exemplos de como pode ser diferente: a Embraer, o etanol, a Petrobras, a WEG mostram que o país tem capacidade tecnológica e empresarial para competir em setores de alto valor. A questão é política: que tipo de inserção no mundo o Brasil quer construir, para quem esse crescimento vai servir e quem vai pagar os custos da transição.</p>
+            <p>Isso não é destino. O Brasil tem exemplos de como pode ser diferente: a Embraer, o etanol, a Petrobras, a WEG mostram que o país tem capacidade tecnológica e empresarial para competir em setores de alto valor. A questão é política: que tipo de inserção no mundo o Brasil quer construir, para quem esse crescimento vai servir e quem vai pagar os custos da transição. O episódio do tarifaço de 2025 reforça essa lição de outro ângulo: mesmo quando o Brasil consegue se adaptar a um choque externo, como fez ao bater recorde de exportações naquele ano, a vulnerabilidade a decisões tomadas por outros países continua sendo o preço de depender tanto de poucos parceiros e de poucos produtos.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> divisão internacional do trabalho (hierarquia entre quem cria, fabrica e extrai); globalização (integração econômica global com benefícios desiguais); cadeias produtivas globais (produção fragmentada entre países); reprimarização (volta à exportação de commodities); valor agregado (quanto mais processado, mais vende); Mercosul e BRICS (blocos de integração do Brasil); soberania econômica (autonomia nas decisões estratégicas).</p>
+            <p><strong>Resumo dos conceitos:</strong> divisão internacional do trabalho (hierarquia entre quem cria, fabrica e extrai); globalização (integração econômica global com benefícios desiguais); cadeias produtivas globais (produção fragmentada entre países); reprimarização (volta à exportação de commodities); valor agregado (quanto mais processado, mais vende); balança comercial (exportações menos importações, superávit de US$ 74,5 bi em 2024); Mercosul e BRICS (blocos de integração do Brasil); soberania econômica (autonomia nas decisões estratégicas); tarifaço de Trump (tarifa de 50% em 2025 e a resposta via diversificação de mercados).</p>
 
             </div>
 
@@ -359,6 +409,21 @@
             </p>
             <p><span class="primeiraLetra">R:</span> Não no curto prazo. O BRICS criou o Novo Banco de Desenvolvimento (NBD) como alternativa ao Banco Mundial para financiar infraestrutura em países emergentes. Há também discussões sobre usar moedas nacionais nas trocas entre membros para reduzir a dependência do dólar. Mas o sistema financeiro global centrado no dólar e nas instituições de Bretton Woods (FMI, Banco Mundial, OMC) ainda é dominante. O BRICS representa uma vontade política de reformar esse sistema, não de derrubá-lo. Se terá sucesso, depende de quanto os países-membros conseguem alinhar suas políticas, o que é difícil dado que têm interesses muito diferentes: China e Índia, por exemplo, têm disputas territoriais sérias e visões econômicas opostas.</p>
 
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que o Brasil não simplesmente parou de vender para os Estados Unidos depois do tarifaço?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque romper com um comprador que responde por dezenas de
+                bilhões de dólares em compras anuais não é uma decisão simples nem rápida. Muitos exportadores
+                brasileiros, sobretudo de setores como siderurgia e aeronáutica, tinham contratos, clientes e cadeias
+                de logística montados especificamente para o mercado americano havia anos. A resposta do Brasil não
+                foi cortar relações, mas negociar isenções para setores estratégicos e, ao mesmo tempo, buscar
+                compradores alternativos para os produtos mais afetados, especialmente na Ásia e no Oriente Médio.
+                Esse tipo de resposta, diversificar em vez de romper, é típico de países que têm poder de barganha
+                limitado numa negociação: o Brasil precisa dos Estados Unidos como mercado, mas os Estados Unidos
+                também precisam de alguns produtos brasileiros específicos, como suco de laranja e minério de ferro,
+                o que explica por que certos setores acabaram isentos da tarifa.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -386,7 +451,7 @@
                 <p><strong>1.</strong> Qual é, na sua avaliação, o maior problema estrutural do Brasil que impede uma inserção mais favorável na economia global: desigualdade regional, falta de industrialização, dependência de commodities, baixo investimento em educação e ciência, ou outro?</p>
                 <p><strong>2.</strong> Relacione esse problema com pelo menos dois temas estudados ao longo do ano (migrações, urbanização, energia, biomas, regiões, trabalho etc.).</p>
                 <p><strong>3.</strong> Qual seria, na sua opinião, o primeiro passo concreto que o Brasil deveria dar para mudar essa situação?</p>
-                <p class="w3-small w3-text-grey">Esta é a última atividade de produção do ano. Escreva com toda a bagagem que você acumulou. Você cresceu muito ao longo dessas aulas.</p>
+                <p class="w3-small w3-text-grey">Esta é a última atividade de produção do ano. Escreva com toda a bagagem que você acumulou: biomas, desmatamento, regiões, migrações, energia, urbanização e agora a posição do Brasil no mundo formam um só quadro, não temas separados. Você cresceu muito ao longo dessas aulas, e essa análise final é a prova disso.</p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -402,7 +467,7 @@
 
                 <h3>1. O que é a divisão internacional do trabalho? Como ela se manifesta na relação comercial entre o Brasil e países desenvolvidos?</h3>
 
-                <h3>2. Quais são os principais produtos da pauta exportadora brasileira? O que esse perfil revela sobre a posição do Brasil nas cadeias produtivas globais?</h3>
+                <h3>2. Quais são os principais produtos da pauta exportadora brasileira? O que esse perfil revela sobre a posição do Brasil nas cadeias produtivas globais? O que é balança comercial e por que um superávit comercial não significa, sozinho, que o país é tecnologicamente desenvolvido?</h3>
 
                 <h3>3. O que é valor agregado? Por que exportar soja bruta gera menos riqueza do que exportar farelo ou óleo de soja?</h3>
 
@@ -414,7 +479,7 @@
 
                 <h3>7. A relação comercial entre Brasil e China reproduz o padrão histórico da divisão colonial do trabalho? Justifique sua resposta com dados sobre os produtos trocados entre os dois países.</h3>
 
-                <h3>8. O que é soberania econômica? Por que ela é importante para que o Brasil possa ocupar uma posição mais favorável na economia global?</h3>
+                <h3>8. O que é soberania econômica? O que o tarifaço de 50% imposto pelos Estados Unidos em 2025 revela sobre os limites da autonomia econômica do Brasil, mesmo com o país tendo conseguido recorde de exportações naquele ano?</h3>
 
                 <h3>9. Quais são os exemplos brasileiros de política industrial bem-sucedida (Embraer, etanol, Petrobras)? O que esses casos têm em comum e por que eles são exceção e não regra?</h3>
 

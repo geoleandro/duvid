@@ -383,6 +383,12 @@
     "tag": "Geociências",
     "texto": "TEIXEIRA, W.; FAIRCHILD, T. R.; TOLEDO, M. C. M.; TAIOLI, F. <strong>Decifrando a Terra</strong>. 2.ed."
   },
+  "TerraGuimaraesAraujo": {
+    "complemento": "1.ed. São Paulo: Moderna, 2024.",
+    "cor": "w3-orange",
+    "tag": "Livro Base",
+    "texto": "TERRA, Lygia; GUIMARÃES, Raul Borges; ARAUJO, Regina. <strong>Moderna Plus Geografia: volume único</strong>."
+  },
   "VanDerPluijm": {
     "complemento": "New York/London: W.W. Norton & Company, 2004.",
     "cor": "w3-teal",

@@ -120,10 +120,15 @@ require_once __DIR__ . '/_layout.php';
               <?= $t['ativa'] ? 'Ativa' : 'Inativa' ?>
             </span>
           </td>
-          <td>
+          <td style="white-space:nowrap;">
             <button class="btn <?= $t['ativa'] ? 'btn-laranja' : 'btn-verde' ?>"
                     onclick="toggleTurma(<?= $t['id'] ?>, <?= $t['ativa'] ? 0 : 1 ?>, this)">
               <?= $t['ativa'] ? '⏸ Desativar' : '▶ Ativar' ?>
+            </button>
+            <button class="btn btn-vermelho"
+                    onclick="deletarTurma(<?= $t['id'] ?>, <?= htmlspecialchars(json_encode($t['nome'])) ?>, <?= (int)$t['total_alunos'] ?>)"
+                    title="Excluir turma">
+              🗑️
             </button>
           </td>
         </tr>
@@ -141,6 +146,31 @@ require_once __DIR__ . '/_layout.php';
 </div>
 
 <script>
+async function deletarTurma(id, nome, totalAlunos) {
+  if (totalAlunos > 0) {
+    toast(`Não é possível excluir: a turma tem ${totalAlunos} aluno(s). Mova-os primeiro.`, 'erro');
+    return;
+  }
+  if (!confirm(`Excluir a turma "${nome}"? Esta ação não pode ser desfeita.`)) return;
+
+  try {
+    const r = await fetch('/admin/api/turmas.php', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ acao: 'deletar', id })
+    });
+    const dados = await r.json();
+    if (dados.ok) {
+      toast(dados.mensagem, 'ok');
+      setTimeout(() => location.reload(), 800);
+    } else {
+      toast(dados.erro || 'Erro ao excluir.', 'erro');
+    }
+  } catch(e) {
+    toast('Erro de conexão.', 'erro');
+  }
+}
+
 async function toggleTurma(id, novoStatus, btn) {
   btn.disabled = true;
   try {

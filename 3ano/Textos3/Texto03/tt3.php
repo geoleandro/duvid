@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Migrações internacionais: tipos de movimentos populacionais (voluntário, forçado e controlado), imigrantes, refugiados, deslocados internos e xenofobia, com a migração no Brasil de país de imigração a país de emigração">
+    <meta property="og:title" content="Texto 03 - Migrações Internacionais">
+    <meta property="og:description" content="Por que milhões de pessoas deixam seus países todos os anos? Uma análise dos tipos de migração, das crises de refugiados atuais e de como o Brasil passou de destino de imigrantes a origem de emigrantes">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,8 +47,10 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>3º ano - Texto 03 - Migrações Internacionais</title>
 
 
 
@@ -78,7 +82,7 @@
 
 
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1"> Texto 03 - Migrações Internacionais</h1>
 
             <div class="w3-container w3-padding-16">
                 <p><strong>Conteúdo: </strong><span id="descricao-aula"></span> </p>
@@ -125,34 +129,6 @@
         </div>
 
         <div class="topico">
-            <div class="w3-pale-yellow">
-                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-                <h3>1. O que são movimentos migratórios e quais são suas principais causas?</h3>
-                <h3>2. Qual é a diferença entre emigrantes e imigrantes?</h3>
-                <h3>3. Quais são os três tipos principais de movimentos populacionais mencionados no texto? Explique
-                    cada
-                    um.
-                </h3>
-                <h3>4. Como as mudanças climáticas influenciam os movimentos migratórios? Dê um exemplo citado no texto.
-                </h3>
-                <h3>5. Por que países desenvolvidos atraem um maior número de imigrantes?</h3>
-                <h3>6. O que é xenofobia e como ela afeta os imigrantes nos países de destino?</h3>
-                <h3>7. Como a crise dos refugiados sírios exemplifica uma migração forçada?</h3>
-                <h3>8. O que é a “fuga de cérebros” e como ela pode impactar os países de origem?</h3>
-                <h3>9. Como a migração varia entre os continentes? Cite exemplos.</h3>
-                <h3>10. Como as políticas de imigração diferem entre os países? Dê exemplos de abordagens citadas no
-                    texto.
-                </h3>
-            </div>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
-        </div>
-
-
-
-        <div class="topico">
 
             <h2>Movimentos Migratórios </h2>
 
@@ -162,8 +138,8 @@
             <p> Para começar, o que exatamente são movimentos migratórios? Eles representam os deslocamentos de pessoas
                 de
                 um lugar para outro, seja dentro das fronteiras de um país ou cruzando fronteiras internacionais. Este
-                fenômeno tem raízes profundas na história da humanidade e continua a moldar nosso mundo de maneiras
-                fascinantes.</p>
+                fenômeno tem raízes profundas na história da humanidade e continua a moldar as cidades e as economias
+                do mundo atual.</p>
 
 
             <div class="w3-margin"><img id="imagem1" src="tt03f08.png" alt="ts03f08" class="w3-mobile">
@@ -175,13 +151,16 @@
 
 
 
-            <p>É fundamental entender dois termos essenciais no estudo das migrações: "emigrantes" e "imigrantes".
-                <strong>Emigrantes</strong> são indivíduos que deixam sua terra natal em busca de novos horizontes,
-                enquanto
+            <p>É fundamental entender dois termos essenciais no estudo das migrações: <span class="termo"
+                    data-palavra="Emigrante"
+                    data-definicao="Pessoa que deixa seu país ou região de origem para se estabelecer em outro lugar. O mesmo deslocamento é visto sob dois nomes diferentes dependendo do ponto de vista: quem sai é emigrante em relação ao país de origem, e imigrante em relação ao país de destino.">"emigrantes"</span>
+                e <span class="termo" data-palavra="Imigrante"
+                    data-definicao="Pessoa que chega a um novo país ou região para se estabelecer, vinda de outro lugar. É o mesmo indivíduo que, em relação ao país que deixou, é chamado de emigrante.">"imigrantes"</span>.
+                <strong>Emigrantes</strong> são indivíduos que deixam sua terra natal, enquanto
                 <strong>imigrantes</strong> são aqueles que chegam a uma nova região ou país em busca de oportunidades e
                 uma
-                vida melhor. Imagine os emigrantes como aventureiros corajosos e os imigrantes como pessoas que estão
-                construindo um novo lar em terras desconhecidas.
+                vida melhor. É a mesma pessoa e o mesmo deslocamento vistos de dois lados: quem sai de um país é
+                emigrante em relação a ele, e imigrante em relação ao país que passa a habitar.
             </p>
 
             <div class="w3-margin"><img id="imagem2" src="tt03f02.png" alt="tt03f02" class="w3-mobile">
@@ -192,7 +171,24 @@
 
             </div>
 
+            <h3>Migração voluntária, forçada e controlada</h3>
 
+            <p>Nem todo deslocamento populacional acontece pelo mesmo motivo, e a Geografia costuma classificar os
+                movimentos migratórios em três grandes tipos. A <span class="termo" data-palavra="Migração Voluntária"
+                    data-definicao="Também chamada de espontânea, é o tipo de migração em que a pessoa decide se deslocar por vontade própria, geralmente em busca de melhores condições de vida, emprego, estudo ou qualidade de vida. É o tipo mais comum de migração ao longo da história, embora nem sempre envolva escolhas totalmente livres, já que fatores econômicos podem pressionar a decisão.">migração
+                    voluntária</span> (ou espontânea) ocorre quando a pessoa decide se deslocar por conta própria,
+                geralmente em busca de emprego, estudo ou melhores condições de vida, como um profissional que muda
+                de cidade atrás de uma vaga melhor. Já a <span class="termo" data-palavra="Migração Forçada"
+                    data-definicao="Tipo de migração em que a pessoa é obrigada a se deslocar contra sua vontade, fugindo de guerras, perseguições políticas, religiosas ou étnicas, desastres naturais ou catástrofes ambientais. Quem migra de forma forçada cruzando uma fronteira internacional por medo de perseguição pode ser reconhecido como refugiado.">migração
+                    forçada</span> acontece quando a pessoa é obrigada a se deslocar contra sua vontade, fugindo de
+                guerras, perseguições, desastres naturais ou catástrofes ambientais, como no caso dos refugiados
+                sírios que você vai conhecer mais adiante. Existe ainda a <span class="termo"
+                    data-palavra="Migração Controlada"
+                    data-definicao="Também chamada de assistida ou dirigida, é o tipo de migração organizada e planejada por um governo ou instituição, que direciona o deslocamento de grupos de pessoas para um destino específico, geralmente para fins de povoamento ou colonização de um território. Exemplo histórico: os programas de imigração dirigida promovidos pelo governo brasileiro nos séculos XIX e XX para colonizar regiões pouco povoadas do país.">migração
+                    controlada</span> (ou assistida), organizada e planejada por um governo ou instituição, que
+                direciona o deslocamento de grupos para um destino específico, como aconteceu com os programas de
+                colonização dirigida que o governo brasileiro promoveu para povoar regiões pouco habitadas do país
+                ao longo dos séculos XIX e XX.</p>
 
 
 
@@ -300,10 +296,23 @@
                 oferecem. </p>
 
 
-            <p>Em 2020, por exemplos, os Estados Unidos receberam mais de 50 milhões de imigrantes internacionais,
-                segundo
-                dados do da Organização Internacional para as Migrações, destacando sua atratividade como destino para
-                imigrantes em busca de oportunidades econômicas.</p>
+            <p>Os Estados Unidos concentram, sozinhos, a maior população imigrante do planeta: em 2024, mais de 50,2
+                milhões de pessoas nascidas em outros países viviam no território americano, o equivalente a cerca de
+                15% da população do país, e o maior número já registrado na história americana, segundo o Migration
+                Policy Institute. Mas em termos proporcionais, quem lidera de longe são os países do Golfo Pérsico:
+                segundo a Organização Internacional para as Migrações, em 2020 os imigrantes representavam 88% da
+                população dos Emirados Árabes Unidos, 77,3% no Catar e 72,8% no Kuwait, atraídos pela demanda de mão
+                de obra da indústria petrolífera. É um bom lembrete de que "país que recebe muitos imigrantes" e
+                "país onde os imigrantes são muita gente em relação à população total" nem sempre são os mesmos
+                países.</p>
+
+            <p>Também vale notar que, apesar de os fluxos rumo aos países ricos chamarem mais atenção, a maior parte
+                da migração internacional hoje acontece entre países do <span class="termo"
+                    data-palavra="Fluxo Sul-Sul"
+                    data-definicao="Deslocamento de migrantes entre países em desenvolvimento (do chamado Sul global), sem passar por países centrais. Desde o início da década de 2000, a migração sul-sul cresce mais rápido do que a migração sul-norte (de países pobres para países ricos): os países do Sul global recebem cerca de 84% dos migrantes do mundo e são, ao mesmo tempo, a origem de cerca de 74% dos deslocamentos internacionais.">Sul
+                    global</span>, sem passar pelos países centrais: desde o início dos anos 2000, o fluxo sul-sul
+                cresce mais rápido do que o fluxo sul-norte, e os países do Sul global respondem por cerca de 84% dos
+                imigrantes recebidos no mundo e por cerca de 74% dos deslocamentos internacionais de origem.</p>
 
             <div class="w3-margin"><img id="imagem5" src="tt03f04.png" alt="tt03f04" class="w3-mobile">
 
@@ -370,15 +379,23 @@
 
 
 
-            <p>Encaremos a dura realidade: as causas das migrações frequentemente estão enraizadas em condições
-                precárias em
-                seus lugares de origem. </p>
+            <p>As causas das migrações forçadas frequentemente estão enraizadas em condições
+                precárias nos lugares de origem. </p>
 
             <p> Conflitos armados, desastres climáticos e falta de oportunidades econômicas são impulsionadores
                 significativos. </p>
 
-            <p>De acordo com as estatísticas da ONU, mais de 80 milhões de pessoas foram forçadas a se deslocar devido a
-                conflitos em 2020, um número alarmante que nos faz refletir sobre o estado atual do mundo. </p>
+            <p>Os números globais de deslocamento forçado atingiram recordes históricos na última década. Segundo o
+                ACNUR, o total de pessoas deslocadas à força no mundo chegou a 123,2 milhões no final de 2024, um
+                aumento de 6% em relação ao ano anterior, sendo 42,7 milhões de <span class="termo"
+                    data-palavra="Refugiado"
+                    data-definicao="Pessoa que foi forçada a deixar seu país de origem por medo de perseguição, guerra ou violência, e que cruzou uma fronteira internacional para buscar segurança em outro país, sendo reconhecida nessa condição por organismos como o ACNUR. Diferencia-se do deslocado interno, que também foge de perigo, mas permanece dentro das fronteiras do próprio país.">refugiados</span>
+                e 73,5 milhões de <span class="termo" data-palavra="Deslocado Interno"
+                    data-definicao="Pessoa que foi obrigada a deixar sua casa por conflitos, violência ou desastres, mas que permanece dentro das fronteiras do seu próprio país, sem cruzar para outra nação. Diferente do refugiado, o deslocado interno segue sob a jurisdição e proteção (ou desproteção) do seu próprio governo.">deslocados
+                    internos</span>. Pouco mais de um terço de todas essas pessoas eram sudanesas, sírias, afegãs ou
+                ucranianas, os quatro maiores focos de deslocamento forçado do mundo atual. Ao final de 2025, porém,
+                esse total recuou para cerca de 117,8 milhões de pessoas, a primeira queda global em uma década,
+                puxada em boa parte pelos retornos à Síria.</p>
 
 
             <div class="w3-margin"><img id="imagem7" src="tt03f01.png" alt="tt03f01" class="w3-mobile">
@@ -393,10 +410,35 @@
 
 
 
-            <p>A crise de refugiados sírios é um exemplo notável dessa realidade. Mais de 5,6 milhões de sírios se
-                tornaram
-                refugiados devido ao conflito em seu país, de acordo com o Alto Comissariado das Nações Unidas para os
-                Refugiados (ACNUR). </p>
+            <p>A crise de refugiados sírios é um exemplo notável de como as migrações forçadas podem mudar de figura
+                rapidamente. Durante mais de uma década de guerra civil, milhões de sírios se tornaram refugiados,
+                chegando a quase 6,8 milhões de pessoas espalhadas por outros países. A queda do regime de Bashar
+                al-Assad, em dezembro de 2024, abriu um novo capítulo: segundo o ACNUR, cerca de 3,3 milhões de
+                sírios retornaram ao país só em 2025, somados a mais de 1 milhão de deslocados internos que também
+                voltaram para casa. Mesmo assim, ao final de 2025 ainda restavam 4,9 milhões de sírios refugiados no
+                exterior e 5,5 milhões de deslocados internos, um lembrete de que o fim de um conflito não desfaz
+                imediatamente os efeitos de anos de deslocamento forçado.</p>
+
+            <p>Existe uma ideia comum, mas equivocada, de que a maioria dos refugiados do mundo vive em países ricos.
+                Os números mostram o contrário: segundo a ONU, em 2023 os países em desenvolvimento abrigavam 76%
+                dos refugiados do mundo, enquanto os países mais desenvolvidos ficavam com apenas 24%. Isso acontece
+                porque, além das restrições cada vez maiores nos países ricos, quem foge de uma crise costuma se
+                deslocar primeiro para o país vizinho mais próximo, o que é mais rápido, mais barato e facilita um
+                eventual retorno caso o perigo passe. Entre os deslocados internos, a concentração também é alta: em
+                2022, 45,4 milhões dos 57,3 milhões de deslocados internos do mundo estavam reunidos em apenas dez
+                países, entre eles Colômbia, Síria, Ucrânia, República Democrática do Congo, Iêmen, Sudão, Nigéria,
+                Afeganistão, Somália e Etiópia.</p>
+
+            <p>Uma categoria de deslocamento forçado que vem crescendo é a dos <span class="termo"
+                    data-palavra="Refugiado Ambiental"
+                    data-definicao="Pessoa obrigada a abandonar sua área de origem por causa de fenômenos naturais extremos, muitas vezes intensificados pela ação humana, como secas, desertificação, enchentes e a elevação do nível do mar ligada ao aquecimento global. A ONU ainda não reconhece oficialmente essa categoria como refugiado no sentido jurídico do termo, o que significa que essas pessoas têm menos garantias legais de proteção e reassentamento do que os refugiados por perseguição ou guerra.">refugiados
+                    ambientais</span>, pessoas forçadas a deixar suas casas por causa de fenômenos naturais extremos,
+                muitas vezes agravados pela ação humana, como secas, desertificação e a elevação do nível do mar
+                provocada pelo aquecimento global. Um exemplo emblemático é o dos habitantes do arquipélago de
+                Carteret, ao norte da Papua-Nova Guiné, obrigados a abandonar suas ilhas por causa do avanço do mar.
+                A ONU ainda não reconhece oficialmente essa categoria como refugiados no sentido jurídico do termo, o
+                que deixa essas pessoas com menos garantias de proteção do que quem foge de perseguição ou guerra,
+                mesmo em um contexto de mudanças climáticas cada vez mais intensas.</p>
 
 
             <h2>Desigualdades entre os países</h2>
@@ -406,15 +448,11 @@
                 sofrer
                 com a emigração de seus cidadãos. </p>
 
-
-            <p>De acordo com o Banco Mundial, os países de alta renda receberam 65% dos imigrantes internacionais em
-                2020,
-                evidenciando a disparidade nas oportunidades globais.</p>
-
             <p>A Suécia, devido a sua política de imigração mais acolhedora, recebeu um grande número de refugiados
                 sírios
-                nos últimos anos, enquanto muitos sírios continuam a fugir para nações vizinhas com menos recursos
-                disponíveis.</p>
+                nos anos mais intensos do conflito, enquanto muitos sírios continuaram a fugir para nações vizinhas
+                com menos recursos disponíveis, como o Líbano e a Turquia, que seguem hospedando a maior parte dos
+                refugiados sírios que ainda não retornaram.</p>
 
 
 
@@ -432,8 +470,20 @@
                 progresso.</p>
 
 
-            <p>A Índia, por exemplo, é um país que envia muitos emigrantes qualificados, contribuindo para a fuga de
-                cérebros em setores como tecnologia e medicina.</p>
+            <p>A Índia, por exemplo, é um país que envia muitos emigrantes qualificados, contribuindo para a <span
+                    class="termo" data-palavra="Fuga de Cérebros"
+                    data-definicao="Também chamada de brain drain, é a emigração de profissionais altamente qualificados (cientistas, médicos, engenheiros, especialistas em tecnologia) de seus países de origem em busca de melhores salários e oportunidades no exterior. Priva o país de origem de mão de obra qualificada em que investiu na formação, e costuma beneficiar os países desenvolvidos, que recebem esses profissionais sem arcar com os custos de sua formação.">fuga
+                    de cérebros</span> em setores como tecnologia e medicina.</p>
+
+            <p>Nem todo efeito da emigração é negativo para o país de origem, porém. As remessas financeiras, o
+                dinheiro que trabalhadores emigrados enviam de volta para suas famílias, são uma fonte importante de
+                divisas para diversos países de renda mais baixa, e desde a década de 1990 esse volume de remessas
+                vem crescendo continuamente em escala mundial. Em países pequenos e muito dependentes desse fluxo,
+                as remessas chegam a representar uma parcela significativa do Produto Interno Bruto, sustentando o
+                consumo de milhões de famílias que ficaram para trás. Ao mesmo tempo, é importante lembrar que esse
+                dinheiro não substitui o desenvolvimento de uma economia local mais forte e diversificada: ele
+                alivia a pobreza no curto prazo, mas não resolve sozinho os problemas estruturais que empurraram
+                essas pessoas para fora do país em primeiro lugar.</p>
 
 
 
@@ -589,6 +639,68 @@
 
         <div class="topico">
 
+            <h2>O Brasil nas migrações internacionais</h2>
+
+            <p>O Brasil tem uma relação com as migrações que mudou muito ao longo da história, e vale a pena
+                entender essa trajetória para completar o panorama global que você acabou de ver. Na segunda metade
+                do século XIX, o país foi um grande receptor de imigrantes: depois da Lei Eusébio de Queirós (1850),
+                que decretou o fim do tráfico de escravizados, cafeicultores do Oeste Paulista passaram a incentivar
+                e patrocinar a vinda de trabalhadores europeus, principalmente italianos, para substituir a mão de
+                obra escrava nas lavouras de café. Mais de 70% dos milhões de imigrantes que desembarcaram no país
+                entre o fim do século XIX e as primeiras décadas do XX tiveram as fazendas de café como primeiro
+                destino, trabalhando sob o regime de colonato, que combinava um pagamento fixo pelo cuidado do
+                cafezal com o direito de plantar e vender alimentos em um lote de terra cedido pelo fazendeiro. A
+                imigração japonesa seguiu um calendário um pouco diferente, começando em 1908 e atingindo seu pico
+                entre 1925 e 1935.</p>
+
+            <p>Em 1934, entrou em vigor a Lei de Cotas de Imigração, que limitava a entrada de imigrantes de cada nacionalidade a até 2%
+                do total já estabelecido no país nos 50 anos anteriores, e exigia que 80% dos novos imigrantes fossem
+                agricultores, regra da qual os portugueses ficaram de fora. Essa legislação surgiu justamente em um
+                período de crescimento industrial acelerado, revelando uma tentativa de controlar e selecionar a mão
+                de obra estrangeira. Já em meados da década de 1990, o Brasil deixou de ser um destino atraente para
+                imigrantes europeus, que passaram a preferir regiões mais prósperas do próprio continente.</p>
+
+            <p>No mesmo período, o movimento se inverteu: um número cada vez maior de brasileiros passou a deixar o
+                país para se estabelecer no exterior, tendência que se mantém até hoje e inclui perfis muito
+                diferentes, como recém-formados sem oportunidades no mercado brasileiro, estudantes em busca de
+                formação com garantia de permanência, trabalhadores de baixa renda e também pessoas de maior renda
+                que buscam investir em outros países. Entre o final do século XX e o final dos anos 2000, os fluxos
+                migratórios em direção ao Brasil vieram sobretudo de bolivianos, o maior contingente, seguidos de
+                haitianos, estadunidenses, argentinos, chineses, colombianos, portugueses e peruanos, instalando-se
+                principalmente na Grande São Paulo. A partir de 2010, esse cenário mudou de novo: o terremoto que
+                devastou o Haiti naquele ano, matando pelo menos 300 mil pessoas, empurrou um fluxo intenso de
+                haitianos para o Brasil. Entre 2011 e 2020, cerca de 150 mil haitianos entraram no país, sobretudo
+                por Brasiléia, no Acre, e Tabatinga, no Amazonas. Mais recentemente, a crise econômica e política na
+                Venezuela trouxe outro grande fluxo, de aproximadamente 700 mil venezuelanos entre 2017 e 2022,
+                tornando-os o maior grupo de imigrantes temporários no país.</p>
+
+            <p>A <span class="termo" data-palavra="Lei da Migração (2017)"
+                    data-definicao="Lei brasileira de 2017 que substituiu o antigo Estatuto do Estrangeiro (1980), criado durante a ditadura militar sob uma lógica de segurança nacional. A nova lei trata a migração como um direito humano, deixando de considerar o imigrante uma ameaça à segurança nacional, criando o visto humanitário para estrangeiros em situação de vulnerabilidade e facilitando o reconhecimento de pessoas apátridas, aquelas que não são consideradas nacionais de nenhum país.">Lei
+                    da Migração</span>, de 2017, substituiu o antigo Estatuto do Estrangeiro, criado em 1980 ainda sob
+                a lógica de segurança nacional da ditadura militar, e trouxe avanços humanitários importantes: o
+                imigrante deixou de ser tratado como ameaça, foi criado o visto humanitário para quem chega em
+                situação de vulnerabilidade, e ficou mais fácil reconhecer pessoas apátridas. Segundo o Núcleo de
+                Estudos de População da Unicamp (Nepo), as primeiras décadas do século XXI também trouxeram uma
+                intensificação dos fluxos sul-sul, com mais trabalhadores se deslocando entre países da América
+                Latina, da África e da Ásia, incluindo migrantes vindos da Síria, do Líbano, do Paquistão, de
+                Bangladesh e do Nepal, e uma tendência de imigrantes qualificados se instalarem também em cidades
+                médias do interior de São Paulo, não só nas grandes metrópoles.</p>
+
+            <p>Do lado de fora, a emigração brasileira segue crescendo. Segundo estimativas do Ministério das
+                Relações Exteriores, em 2022 viviam no exterior cerca de 1,9 milhão de brasileiros nos Estados
+                Unidos, 360 mil em Portugal, 254 mil no Paraguai, 220 mil no Reino Unido e 207 mil no Japão,
+                consolidando uma inversão histórica: o país que por mais de um século foi conhecido como destino de
+                imigrantes hoje também exporta seus próprios cidadãos em busca de oportunidades melhores em outros
+                lugares do mundo.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+
+        <div class="topico">
+
             <h2> Xenofobia - O Lado Obscuro da Imigração:</h2>
 
 
@@ -601,13 +713,24 @@
 
 
 
-            <p>Em muitos países receptores, a xenofobia, o medo ou ódio em relação a estrangeiros, pode surgir. Isso
+            <p>Em muitos países receptores, a <span class="termo" data-palavra="Xenofobia"
+                    data-definicao="Aversão, medo, desconfiança ou hostilidade em relação a pessoas estrangeiras ou percebidas como estrangeiras, muitas vezes associada a preconceitos étnicos, religiosos ou culturais. Pode se manifestar em discriminação individual, discursos políticos hostis a imigrantes ou políticas públicas restritivas, e tende a se intensificar em períodos de crise econômica ou aumento repentino dos fluxos migratórios.">xenofobia</span>,
+                o medo ou ódio em relação a estrangeiros, pode surgir. Isso
                 pode
                 levar a tensões sociais e políticas, prejudicando a integração de imigrantes e a coesão social. </p>
 
             <p> Em algumas partes da Europa, houve um aumento nos crimes de ódio e na discriminação contra imigrantes
                 devido
                 a preocupações sobre emprego e segurança.</p>
+
+            <p>A ONU costuma distinguir dois tipos de exclusão que os imigrantes podem sofrer no país de destino. A
+                exclusão de participação nega direitos concretos, como acesso a emprego formal, moradia, saúde ou
+                cidadania. Já a exclusão do modo de vida não impede a permanência do imigrante, mas rejeita
+                expressões da sua cultura de origem, como vestimentas, símbolos religiosos ou costumes. Um exemplo
+                dessa segunda forma são as leis que proíbem o uso do niqab, véu que cobre todo o rosto, em espaços
+                públicos na França, na Dinamarca e nos Países Baixos, ou a proibição da construção de minaretes,
+                torres típicas das mesquitas, aprovada por referendo na Suíça em 2009. Em ambos os casos, o Estado
+                permite a presença do imigrante, mas restringe a manifestação pública de sua identidade cultural.</p>
 
             <h3> Políticas de Imigração </h3>
 
@@ -628,14 +751,10 @@
 
             <h3>E se eu fosse um imigrante?</h3>
 
-            <p>À medida que concluímos nossa exploração dos movimentos migratórios, é crucial lembrar que essas são
-                histórias de vidas e aspirações humanas. Migração é uma força motriz que molda nosso mundo. </p>
-
-            <p>Confrontando as complexidades, desigualdades e desafios, nossa esperança é que, como estudantes de
-                geografia,
-                vocês possam refletir sobre essas questões e considerar como podem contribuir para um mundo mais
-                inclusivo e
-                solidário. </p>
+            <p>Por trás de cada estatística que você viu nesta aula, seja o número de refugiados sírios ou o de
+                brasileiros que vivem nos Estados Unidos, existe uma decisão pessoal, quase sempre difícil, de deixar
+                para trás uma casa, uma língua e uma rede de relações. As perguntas abaixo servem para colocar você
+                no lugar de quem faz essa escolha, ou de quem é obrigado a fazê-la.</p>
 
             <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 
@@ -683,7 +802,12 @@
 
 
 
-            <p>Continuem explorando e aprendendo sobre esse fenômeno global que define a história da humanidade. </p>
+            <p>As migrações mostram, na prática, que as pessoas se deslocam atrás daquilo que falta em seus países de
+                origem: emprego, segurança, educação, saúde. Não por acaso, esses são exatamente os fatores que a
+                Geografia usa para medir o desenvolvimento de um país, e é justamente esse o assunto da próxima
+                aula: como a população economicamente ativa se distribui entre os setores da economia, e por que
+                educação, saúde e alimentação pesam tanto na hora de comparar o nível de desenvolvimento entre
+                diferentes lugares do mundo.</p>
 
 
 
@@ -704,7 +828,7 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumot3.jpg" alt="Infográfico resumo migração"
+            <div class="w3-margin"><img id="infograficot2" src="inforesumott3.webp" alt="Infográfico resumo migração"
                     class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado pelo autor. </span>
             </div>
@@ -894,6 +1018,39 @@
         </div>
 
 
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+                <h3>1. O que são movimentos migratórios e quais são suas principais causas?</h3>
+                <h3>2. Qual é a diferença entre emigrantes e imigrantes?</h3>
+                <h3>3. Quais são os três tipos principais de movimentos populacionais (voluntário, forçado e
+                    controlado)? Explique cada um com um exemplo.
+                </h3>
+                <h3>4. Como as mudanças climáticas influenciam os movimentos migratórios? Dê um exemplo citado no texto.
+                </h3>
+                <h3>5. Por que países desenvolvidos atraem um maior número de imigrantes?</h3>
+                <h3>6. O que é xenofobia e como ela afeta os imigrantes nos países de destino?</h3>
+                <h3>7. Como a crise dos refugiados sírios exemplifica uma migração forçada, e o que mudou nela após
+                    2024?</h3>
+                <h3>8. O que é a "fuga de cérebros" e como ela pode impactar os países de origem?</h3>
+                <h3>9. Como o Brasil passou de país receptor de imigrantes a país de emigrantes ao longo da história?</h3>
+                <h3>10. Como as políticas de imigração diferem entre os países? Dê exemplos de abordagens citadas no
+                    texto.
+                </h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
 
         <div class="topico">
             <h3>Agora vamos fazer as questões!</h3>
@@ -906,7 +1063,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Agora vamos fazer as questões para fixar o conteúdo!',
+        mensagem: 'o tema Migrações Internacionais é fantástico! Agora vamos fazer as questões para fixar o conteúdo!',
         pontos: 40
     });
     

@@ -49,7 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Força gravação da sessão antes do redirect (crítico em hospedagem compartilhada)
             session_write_close();
 
-            $destino = '/admin/index.php';
+            // Redireciona para a página que originou o login (ou dashboard)
+            $destino = (strpos($volta, '/admin/') === 0) ? $volta : '/admin/index.php';
             header('Location: ' . $destino);
             exit;
         } else {

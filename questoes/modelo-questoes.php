@@ -295,6 +295,18 @@
     </div>
 
 
+    <!-- Modal Mapa Mental -->
+    <div id="modal-mapa" class="w3-modal" style="display:none; z-index:9998;" onclick="if(event.target===this) this.style.display='none'">
+        <div class="w3-modal-content w3-animate-zoom" style="max-width:98vw; background:transparent; box-shadow:none;">
+            <button onclick="document.getElementById('modal-mapa').style.display='none'"
+                style="position:fixed; top:12px; right:16px; z-index:9999; background:rgba(0,0,0,0.55); color:#fff; border:none; border-radius:50%; width:40px; height:40px; font-size:22px; cursor:pointer; line-height:1;">&times;</button>
+            <div style="overflow:auto; max-height:92vh; text-align:center; padding:8px;">
+                <img id="modal-mapa-img" src="" alt="Mapa Mental"
+                    style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.4);">
+            </div>
+        </div>
+    </div>
+
     <div id="id01" class="w3-modal" style="z-index: 999;">
         <div class="w3-modal-content w3-card-4 w3-animate-zoom w3-round-large" style="max-width:450px">
             <div class="w3-container w3-padding-32 w3-center">

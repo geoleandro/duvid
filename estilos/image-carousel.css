@@ -1,0 +1,175 @@
+/* =====================================================
+   image-carousel.css — Carrossel de imagens Clean Pixel
+   ===================================================== */
+
+.ic-wrap {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 620px;
+    margin: 24px auto;
+}
+
+.ic-title {
+    text-align: center;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #2e7d32;
+    margin-bottom: 14px;
+}
+
+/* ---------- Palco ---------- */
+.ic-stage {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .10);
+    background: #eee;
+    outline: none;
+}
+
+.ic-track {
+    display: flex;
+    transition: transform .45s cubic-bezier(.4, 0, .2, 1);
+}
+
+.ic-slide {
+    flex: 0 0 100%;
+    position: relative;
+    aspect-ratio: 4 / 3;
+}
+
+.ic-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* ---------- Legenda sobre a imagem ---------- */
+.ic-caption {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 32px 20px 16px;
+    background: linear-gradient(to top, rgba(0, 0, 0, .78) 0%, rgba(0, 0, 0, .35) 60%, transparent 100%);
+    color: #fff;
+}
+
+.ic-cap-titulo {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+}
+
+.ic-cap-legenda {
+    font-size: .8rem;
+    line-height: 1.4;
+    color: #f0f0f0;
+    max-width: 46ch;
+}
+
+/* ---------- Setas ---------- */
+.ic-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255, 255, 255, .85);
+    color: #2e7d32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .18);
+    transition: background .15s ease, transform .15s ease;
+    backdrop-filter: blur(2px);
+}
+
+.ic-arrow svg { width: 20px; height: 20px; }
+
+.ic-arrow:hover {
+    background: #2e7d32;
+    color: #fff;
+    transform: translateY(-50%) scale(1.08);
+}
+
+.ic-arrow-prev { left: 12px; }
+.ic-arrow-next { right: 12px; }
+
+/* ---------- Contador ---------- */
+.ic-counter {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    background: rgba(0, 0, 0, .55);
+    color: #fff;
+    font-size: .72rem;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 100px;
+    letter-spacing: .02em;
+}
+
+/* ---------- Dots ---------- */
+.ic-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.ic-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    background: #d7d7d7;
+    cursor: pointer;
+    padding: 0;
+    transition: background .2s ease, transform .2s ease, width .2s ease;
+}
+
+.ic-dot:hover { background: #a5d6a7; }
+
+.ic-dot-ativo {
+    background: #2e7d32;
+    width: 22px;
+    border-radius: 100px;
+}
+
+/* ---------- Responsivo ---------- */
+@media (max-width: 480px) {
+    .ic-slide { aspect-ratio: 1 / 1; }
+    .ic-arrow { width: 34px; height: 34px; }
+    .ic-arrow svg { width: 16px; height: 16px; }
+    .ic-cap-titulo { font-size: .95rem; }
+    .ic-cap-legenda { font-size: .74rem; }
+}
+
+/* ---------- Dark mode ---------- */
+body.dark-mode .ic-title {
+    color: #81c784;
+}
+body.dark-mode .ic-stage {
+    background: #1e1e1e;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .4);
+}
+body.dark-mode .ic-arrow {
+    background: rgba(30, 30, 30, .85);
+    color: #81c784;
+}
+body.dark-mode .ic-arrow:hover {
+    background: #2e7d32;
+    color: #fff;
+}
+body.dark-mode .ic-dot {
+    background: #444;
+}
+body.dark-mode .ic-dot:hover {
+    background: #4caf50;
+}
+body.dark-mode .ic-dot-ativo {
+    background: #66bb6a;
+}

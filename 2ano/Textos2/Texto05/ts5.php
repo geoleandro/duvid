@@ -4,15 +4,18 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Estrutura geológica e relevo do Brasil: escudos cristalinos, bacias sedimentares, dobramentos e formas de relevo" name="description"/>
+<meta content="Texto 05 - Estrutura Geológica e Relevo do Brasil" property="og:title"/>
+<meta content="Como as rochas e o relevo brasileiro se formaram e por que o país não tem grandes cadeias de montanhas" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
+<link href="/estilos/image-carousel.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +33,10 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 05</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/image-carousel.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 05 - Estrutura Geológica e Relevo do Brasil</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -77,23 +83,6 @@
 <hr/>
 </div>
 <div class="topico">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje: </h2>
-<div class="w3-pale-yellow">
-<p>1. Qual é o objetivo principal da aula de hoje?</p>
-<p>2. Explique a importância da análise e síntese na investigação geográfica.</p>
-<p>3. O que constitui o espaço geográfico e como ele é formado?</p>
-<p>4. Qual é a importância de conhecer a estrutura geológica para entender o funcionamento do planeta?</p>
-<p>5. O que é a estrutura geológica e como ela influencia as formas de relevo?</p>
-<p>6. Descreva o papel das rochas na formação das paisagens geográficas.</p>
-<p>7. O que são dobramentos antigos e como eles se relacionam com o relevo brasileiro?</p>
-<p>8. Explique as características das bacias sedimentares e sua importância para o Brasil.</p>
-<p>9. Quais são os principais tipos de relevo presentes no Brasil? Dê exemplos de cada um.</p>
-<p>10. Onde estão localizados os principais escudos cristalinos e bacias sedimentares no Brasil?</p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2> O espaço geográfico: entre análise e síntese</h2>
 <p>Desde a formação do Brasil e a consolidação do seu território, seu povoamento e a repartição de suas terras,
             estamos vendo alguns aspectos da realidade. Porém, todos esses acontecimentos, esses eventos ocorrem de
@@ -118,7 +107,7 @@
 <p>Há rochas que surgem das profundezas do magma e outras que são formadas por sedimentos acumulados por milhões
             de anos. Ambas podem voltar para o manto e se transformarem em rochas metamórficas com características
             novas. </p>
-<p>A estrutura geológica corresponde aos grandes corpos rochosos que sustentam as formas de relevo. Trata-se da
+<p>A <span class="termo" data-palavra="Estrutura Geológica" data-definicao="Conjunto de rochas dispostas em camadas de diferentes tipos e idades que forma a base sobre a qual se assentam as paisagens e o relevo de um território.">estrutura geológica</span> corresponde aos grandes corpos rochosos que sustentam as formas de relevo. Trata-se da
             disposição de rochas em camadas de diversos tipos e idades diferentes. </p>
 <p>Veja a foto abaixo de um famoso ponto turístico na cidade de Salvador, Bahia. O Elevador Lacerda inaugurado
             em 1873. </p>
@@ -129,7 +118,7 @@
 
             </span>
 </div>
-<p> Essa paisagem foi resultado de uma falha geológica, isto é, geralmente exercida por pressão de movimentos de
+<p> Essa paisagem foi resultado de uma <span class="termo" data-palavra="Falha Geológica" data-definicao="Fratura nas rochas causada pelo acúmulo e liberação de energia, geralmente ligada a movimentos de placas tectônicas, que pode deslocar blocos de terreno e criar desníveis na paisagem.">falha geológica</span>, isto é, geralmente exercida por pressão de movimentos de
             placas tectônicas, pelo acúmulo e liberação de energia ocorrem verdadeiras fraturas nas rochas que a
             compõem.</p>
 <p> Essas rochas, por sua vez, sustentam as formas do relevo da paisagem, nesse caso a existência de uma cidade
@@ -138,7 +127,7 @@
             planaltos, áreas mais baixas, planícies e depressões, paredões rochosos no mar, falésias, colinas, golfo,
             cabos, ilhas, dentre inúmeros outras configurações da crosta terrestre. </p>
 <p>Qual a importância do relevo? </p>
-<p> O releve é muito importante para a construção de moradias fora de área de riscos, manejo de culturas
+<p> O relevo é muito importante para a construção de moradias fora de área de riscos, manejo de culturas
             agrícolas, determinar o local adequado para o turismo, implantação de grandes obras de engenharia como
             túneis, pontes, portos, hidrelétricas etc.</p>
 <div class="w3-margin"><img alt="ts05f02" class="w3-mobile" id="imagem2" src="ts05f02.png"/>
@@ -156,7 +145,7 @@
             Temos outro relevo montanhoso (área em azul) e poucas áreas de planície (área em amarelo) no litoral,
             pantanal e alguns trechos na área central do Brasil. </p>
 <p>Quer dizer que no Brasil tem montanhas? Tecnicamente não. No senso comum, o fato de existir uma área na
-            paisagem muito alto já é o suficiente para classifica-la como montanha. Porém, na Geologia não funciona
+            paisagem muito alta já é o suficiente para classificá-la como montanha. Porém, na Geologia não funciona
             assim. As montanhas são formadas por processo tectônicos, dobramentos modernos como o Himalaia, resultado de
             choques entre placas tectônicas e também pelo acúmulo de material vulcânico. O Brasil não possui dobramentos
             modernos, mas sim possuía montanhas à época da Pangeia (180 milhões de anos), quando os continentes estavam
@@ -168,27 +157,27 @@
 </div>
 <div class="topico">
 <h2> Os componentes da estrutura geológica</h2>
-<p>De modo geral, as estruturas geológicos, ou seja, o modo de distribuição das rochas na superfície terrestre
+<p>De modo geral, as estruturas geológicas, ou seja, o modo de distribuição das rochas na superfície terrestre
             surgem a partir de três tipos principais no globo terrestre. </p>
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
-<p>1) A primeira estrutura são chamados de<strong> escudos cristalinos</strong> ou <strong>crátons</strong>.
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
+<p>1) A primeira estrutura são chamados de<strong> <span class="termo" data-palavra="Escudos Cristalinos" data-definicao="Também chamados de crátons, são porções muito antigas e resistentes da crosta terrestre, formadas por rochas magmáticas e metamórficas desgastadas ao longo de milhões de anos.">escudos cristalinos</span></strong> ou <strong><span class="termo" data-palavra="Crátons" data-definicao="Núcleos estáveis e muito antigos da crosta continental, formados nas eras Pré-Cambriana e Paleozoica, que servem de base rígida para o restante do território.">crátons</span></strong>.
                 São porções da crosta terrestre
                 muito antigas e resistentes compostas por rochas magmáticas e metamórficas (ver aula sobre ciclo das
                 rochas do 1º ano). Os escudos são formações bem antigas das eras Pré-Cambriana e Paleozoica e originam
                 baixos planaltos ou mesmo depressões, já que foram bastante desgastados pelos processos de intemperismo
                 e erosão; </p>
-<p> 2) As <strong>bacias sedimentares</strong>. Essas são formadas por rochas resultantes do acúmulo de
+<p> 2) As <strong><span class="termo" data-palavra="Bacias Sedimentares" data-definicao="Áreas onde se acumularam camadas de sedimentos ao longo de milhões de anos, formando rochas sedimentares. Concentram a maior parte das reservas de petróleo, gás e carvão mineral do Brasil.">bacias sedimentares</span></strong>. Essas são formadas por rochas resultantes do acúmulo de
                 sedimentos e detritos
                 ao longo de milhões de anos e distribuídas em camadas na superfícies terrestre. Elas associadas à
                 planícies, planaltos sedimentares ou mesmo depressões;</p>
-<p> 3) Os <strong>dobramentos modernos</strong>. Esse tipo de estrutura geológica surgiu a partir dos
+<p> 3) Os <strong><span class="termo" data-palavra="Dobramentos Modernos" data-definicao="Grandes cadeias de montanhas formadas por pressões nas bordas de placas tectônicas em choque, como o Himalaia e os Andes. O Brasil não possui dobramentos modernos por estar no interior estável de sua placa.">dobramentos modernos</span></strong>. Esse tipo de estrutura geológica surgiu a partir dos
                 grandes dobramentos,
-                isto é, grandes elevações do terreno em consequência de pressões vinda do interior da Terra. Nas eras
+                isto é, grandes elevações do terreno em consequência de pressões vindas do interior da Terra. Nas eras
                 Mesozoica até a Cenozoica formaram as grandes cadeias de montanhas existente no Planeta, como o
                 Himalaia, os Alpes, os Andes, dentre outras.</p>
 </div>
 <p> Como está distribuído essa estrutura geológica no Brasil?</p>
-<p>O Brasil está inserido na Placa Sul-Americana, uma das inúmeras placas tectônicas que formam a superfície
+<p>O Brasil está inserido na <span class="termo" data-palavra="Placa Sul-Americana" data-definicao="Placa tectônica que engloba a América do Sul e parte do Oceano Atlântico. O Brasil está situado em sua porção interna e estável, longe das bordas, por isso é pouco afetado por terremotos e vulcões.">Placa Sul-Americana</span>, uma das inúmeras placas tectônicas que formam a superfície
             terrestre e estão em movimento. </p>
 <p>Nesse sentido, o Brasil está situado no interior da placa, onde a espessura é de aproximadamente de 200
             quilômetros, por isso o nosso país é pouco afetado por terremotos e vulcões. Caso estivesse localizado nas
@@ -244,12 +233,12 @@
 </div>
 <div class="topico">
 <h2>Os escudos cristalinos e dobramentos antigos </h2>
-<p> Os Dobramentos antigos correspondem à Serra do Mar e Mantiqueira ainda na Era Arqueozoica. Já a Serra do
+<p> Os <span class="termo" data-palavra="Dobramentos Antigos" data-definicao="Cadeias de montanhas muito erodidas, formadas em eras geológicas remotas (Arqueozoica e Proterozoica) e hoje bastante desgastadas pela ação do tempo, como a Serra do Mar e a Mantiqueira.">Dobramentos antigos</span> correspondem à Serra do Mar e Mantiqueira ainda na Era Arqueozoica. Já a Serra do
             Espinhaço (BA e MG) foram formados na Era Proterozóica, porém são profundamente desgastadas pela erosão.</p>
 <p>Em relação ao percentual, as áreas cratônicas que abrigam jazidas de minerais metálicos, como ferro, manganês
-            e cobre, por exemplo constituem 36% do território. Destes, 32% são da Era Arqueozoica, os mais antigos, com
-            rochas magmáticas intrusivas (granito) e metamórfica (gnaisse). O complexo cristalino. Os outros 4%, da Era
-            Proterozóica, predominavam rochas metamórficas. Nessas últimas estão localizadas as jazidas de minérios,
+            e cobre, por exemplo, constituem 36% do território. Desse total, 32% pertencem à Era Arqueozoica, o complexo cristalino mais antigo, com
+            rochas magmáticas intrusivas (granito) e metamórficas (gnaisse). Os outros 4% são da Era
+            Proterozoica, com predomínio de rochas metamórficas. Nessas últimas estão localizadas as jazidas de minérios,
             como: Quadrilátero de Ferro (MG), Serra dos Carajás (PA) e Maciço do Urucum (MS); Manganês da Serra do Navio
             (AP) e Cassiterita de (RO). </p>
 <p>O Escudo cristalino divide-se em: Escudo das Guianas, situado ao norte e o Escudo Brasileiro, porção central,
@@ -266,8 +255,7 @@
             Amazônica, do Meio-Norte, Paranaica, São Franciscana e do Pantanal e pequenas bacias (do Recôncavo baiano,
             de SP e Curitiba). </p>
 <p> As bacias sedimentares são muito importantes para a obtenção de recursos minerais, como o petróleo e carvão
-            mineral. O petróleo localiza-se nas sedimentares continentais (recôncavo baiano), marítimas, bacia de Campos
-            – RJ.</p>
+            mineral. O petróleo se concentra em bacias sedimentares continentais, como o Recôncavo Baiano, e em bacias marítimas, como a Bacia de Campos, no Rio de Janeiro.</p>
 <p> Já o carvão mineral formou-se mais intensamente na Bacia Paranaica, SC (Vale do rio Tubarão) e RS Vale do
             Rio Jacuí.</p>
 <p>O carvão brasileiro é considerado de má qualidade devido ao seu baixo teor calorífero, além de sua
@@ -279,9 +267,9 @@
 </div>
 <div class="topico">
 <h2> O relevo brasileiro</h2>
-<p>O Brasil é um país de altitude média relativamente baixa, contando com cerca de 45% de todo o território
+<p>O Brasil é um país de altitude média relativamente baixa, contando com cerca de 40% de todo o território
             nacional abaixo dos 200 m de altitude. Os pontos mais elevados do relevo brasileiro são o Pico da Neblina,
-            com 2993 metros de altitude, e o Pico 31 de Março, com 2972 metros de altitude. </p>
+            com 2.995 metros de altitude, e o Pico 31 de Março, com 2.974 metros de altitude, ambos na mesma serra, no Amazonas. </p>
 <p> A altitude média do território brasileiro se deve ao país estar localizado sobre uma grande placa tectônica
             livre da possibilidade de se chocar com outras placas, o que torna o Brasil um país imune a sofrer
             terremotos.</p>
@@ -298,24 +286,20 @@
             </p>
 </div>
 <p> Além disso, temos inúmeros outros tipos de relevo, veja:</p>
-<h4 class="w3-center">Formas de relevo</h4>
-<div class="w3-content w3-display-container w3-mobile w3-padding">
-<img alt="1" class="mySlides" src="ts05f07a.png" style="width:80%"/>
-<img alt="2" class="mySlides" src="ts05f07b.png" style="width:80%"/>
-<img alt="3" class="mySlides" src="ts05f07c.png" style="width:80%"/>
-<img alt="4" class="mySlides" src="ts05f07d.png" style="width:80%"/>
-<img alt="5" class="mySlides" src="ts05f07e.png" style="width:80%"/>
-<img alt="6" class="mySlides" src="ts05f07f.png" style="width:80%"/>
-<img alt="7" class="mySlides" src="ts05f07g.png" style="width:80%"/>
-<img alt="8" class="mySlides" src="ts05f07h.png" style="width:80%"/>
-<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">❮</button>
-<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">❯</button>
-</div>
-<!-- 
-        <div class="w3-margin"><img id="imagem7" src="ts05f07.png" alt="ts05f07" class="w3-mobile">
-
-            <span class="w3-small w3-margin-left" id="citacao7"> Fonte: Florenzano (2008). </span>
-        </div> -->
+<div id="image-carousel-root"></div>
+<script>
+    window.CAROUSEL_TITLE = 'Formas de relevo';
+    window.CAROUSEL_IMAGES = [
+        { src: 'ts05f07a.png', titulo: 'Chapada', legenda: 'Relevo tabular elevado, com topo plano e bordas em escarpa. Comum no Nordeste e no Centro-Oeste.' },
+        { src: 'ts05f07b.png', titulo: 'Tabuleiro', legenda: 'Superfície plana de altitude modesta (20 a 50 m), limitada por escarpas abruptas. Típico do litoral nordestino.' },
+        { src: 'ts05f07c.png', titulo: 'Escarpa', legenda: 'Desnível acentuado que separa duas superfícies de altitudes diferentes, como a borda de um planalto.' },
+        { src: 'ts05f07d.png', titulo: 'Serra', legenda: 'Conjunto de elevações alongadas e onduladas, com vales entre os cumes, associada a áreas cristalinas antigas.' },
+        { src: 'ts05f07e.png', titulo: 'Morro', legenda: 'Elevação de altitude moderada e topo arredondado, resultado do desgaste erosivo de terrenos cristalinos.' },
+        { src: 'ts05f07f.png', titulo: 'Morrote', legenda: 'Elevação de menor porte que o morro, com formas mais suaves — uma transição entre morro e colina.' },
+        { src: 'ts05f07g.png', titulo: 'Colina', legenda: 'Elevação suave e de baixa altitude, com declives pouco acentuados, típica de relevos antigos e bastante erodidos.' },
+        { src: 'ts05f07h.png', titulo: 'Terraço', legenda: 'Superfície plana elevada em relação a um rio ou ao mar, formada por sedimentação seguida de soerguimento ou erosão.' }
+    ];
+</script>
 <p>Chapadas, planalto com altitude com mais de 500 metros. Famosos: Chapada Diamantina (sul da Bahia) Chapada
             dos Guimarães (MT) e Veadeiros (GO). </p>
 <p> Pediplano: é o processo que leva, em regiões de clima árido a semiárido, ao desenvolvimento de áreas
@@ -432,7 +416,7 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais as características da estrutura geológica do Brasil?
             </strong> </p>
@@ -446,7 +430,7 @@
             abertura do continente Atlântico na época da separação da Pangeia.</p>
 <p>Portanto, a estrutura geológica do Brasil é marcada pelos crátons, pelos dobramentos antigos e pelas grandes
             bacias sedimentares.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>Qual a diferença entre Crátons e Escudos
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>Qual a diferença entre Crátons e Escudos
                 cristalinos? </strong></p>
 <p><span class="primeiraLetra">R:</span> A diferença é que os Escudos cristalinos estão expostos a processos
             erosivos. Já as áreas cratônicas estão subjacente (por baixo) de bacias sedimentares, por exemplo. Vamos
@@ -461,7 +445,7 @@
 <p>Os crátons e as plataformas (crátons recobertos por bacias sedimentares) formam a base sobre a qual se
             assenta o território brasileiro.</p>
 <p>Há três importantes formações de crátons na porção continental do Brasil:</p>
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p>- província da <strong>Guiana Meridional</strong>, situada no extremo norte, abrangendo os Estados do
                 Amazonas, Roraima e Amapá, possui altitudes elevadas;</p>
 <p>- <strong>Xingu</strong>, localizada na porção sul das terras amazônicas, nos Estados de Rondônia, Mato
@@ -474,7 +458,7 @@
             Gerais e o cinturão orogênico do Paraguai-Araguaia, que ocupa terras de Goiás, Tocantins e Mato Grosso, este
             o mais erodido. </p>
 <p>Os escudos cristalinos são áreas de exploração de minérios e corresponde a 36% do território nacional.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Qual a importância das bacias sedimentares?
 
@@ -497,6 +481,28 @@
 <hr/>
 </div>
 <div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+<h3>1. O que constitui o espaço geográfico e como ele é formado?</h3>
+<h3>2. O que é a estrutura geológica e como ela influencia as formas de relevo?</h3>
+<h3>3. Descreva o papel das rochas na formação das paisagens geográficas.</h3>
+<h3>4. Qual a diferença entre escudos cristalinos (crátons) e bacias sedimentares?</h3>
+<h3>5. Por que o Brasil não possui dobramentos modernos, mesmo tendo áreas muito antigas e desgastadas?</h3>
+<h3>6. Explique as características das bacias sedimentares e sua importância econômica para o Brasil.</h3>
+<h3>7. Quais são os principais tipos de relevo presentes no Brasil? Dê exemplos de cada um.</h3>
+<h3>8. Onde estão localizados os principais escudos cristalinos e bacias sedimentares no Brasil?</h3>
+<h3>9. Por que o Brasil é pouco afetado por terremotos e vulcões, ao contrário de países como o Chile?</h3>
+<h3>10. Qual é a relação entre a estrutura geológica do Brasil e a distribuição de recursos minerais como petróleo, carvão e minérios metálicos?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -506,7 +512,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Estrutura Geológica e Relevo do Brasil é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

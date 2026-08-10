@@ -440,6 +440,10 @@ function NomeAlunos(respid, inputid) {
             const resumo = document.getElementById('resumo-geral');
             if (resumo) resumo.style.display = 'block';
             if (typeof atualizarSistemaNivelHome === 'function') atualizarSistemaNivelHome();
+            // Saudação via walkers (Globinho + Jéssica)
+            window.dispatchEvent(new CustomEvent('duvid:saudacao', {
+                detail: { nome: nome.split(' ')[0], criado: dados.criado === true }
+            }));
         })
         .catch(() => mostrarErro('Erro ao conectar. Tente novamente.'));
 }
@@ -506,9 +510,14 @@ function _mostrarRelogin(callback) {
                 border:none;font-size:22px;cursor:pointer;color:#999">&times;</button>
             <img src="/fotoIndex/globinhoPe.png" width="60" style="margin-bottom:8px">
             <h3 style="margin:0 0 4px;font-size:1.1rem">Olá de volta, <b>${nome.toUpperCase()}</b>!</h3>
-            <p style="font-size:.85rem;color:#666;margin:0 0 20px">
-                Sua sessão expirou. Digite seu PIN para continuar.
+            <p style="font-size:.85rem;color:#666;margin:0 0 16px">
+                Sua sessão expirou. Digite seu e-mail e PIN para continuar.
             </p>
+            <input id="rl-email" type="email" inputmode="email"
+                placeholder="Seu e-mail"
+                autocomplete="email"
+                style="width:100%;padding:11px;border:1px solid #ddd;border-radius:8px;
+                font-size:.95rem;text-align:left;box-sizing:border-box;margin-bottom:8px">
             <input id="rl-pin" type="password" inputmode="numeric" maxlength="4"
                 placeholder="PIN (4 dígitos)"
                 style="width:100%;padding:11px;border:1px solid #ddd;border-radius:8px;
@@ -519,18 +528,31 @@ function _mostrarRelogin(callback) {
                 border:none;border-radius:8px;font-size:1rem;font-weight:700;cursor:pointer">
                 Entrar
             </button>
+            <p style="margin:14px 0 0;font-size:.75rem;color:#aaa">
+                Não é você? <a href="#" onclick="document.getElementById('modal-relogin').remove();
+                    document.getElementById('display-identificado').style.display='none';
+                    document.getElementById('form-identificacao').style.display='block';
+                    document.getElementById('detalhes-form-completo').open=true;
+                    document.getElementById('pq-email')?.focus();
+                    return false;"
+                    style="color:#2e7d32;font-weight:600">Trocar conta</a>
+            </p>
         </div>`;
 
     document.body.appendChild(div);
-    setTimeout(() => document.getElementById('rl-pin')?.focus(), 80);
+    setTimeout(() => document.getElementById('rl-email')?.focus(), 80);
 
-    // Enter no PIN aciona o botão
+    // Enter no e-mail move para o PIN; Enter no PIN confirma
+    div.querySelector('#rl-email').addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') document.getElementById('rl-pin')?.focus();
+    });
     div.querySelector('#rl-pin').addEventListener('keydown', function(e) {
         if (e.key === 'Enter') _executarRelogin();
     });
 }
 
 async function _executarRelogin() {
+    const email = (document.getElementById('rl-email')?.value || '').trim();
     const pin  = (document.getElementById('rl-pin')?.value || '').trim();
     const nome = DuvidDB.getNome() || '';
     const erro = document.getElementById('rl-erro');
@@ -546,7 +568,7 @@ async function _executarRelogin() {
         const resp = await fetch('/api/aluno.php', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ nome, pin }),
+            body: JSON.stringify({ nome, pin, ...(email ? { email } : {}) }),
         });
         const dados = await resp.json();
 
@@ -567,6 +589,11 @@ async function _executarRelogin() {
         // Esconde o banner de sessão expirada se existir
         const banner = document.getElementById('banner-login-required');
         if (banner) banner.style.display = 'none';
+
+        // Saudação via walkers (re-login = sempre retorno)
+        window.dispatchEvent(new CustomEvent('duvid:saudacao', {
+            detail: { nome: (DuvidDB.getNome() || 'Explorador').split(' ')[0], criado: false }
+        }));
 
         // Executa callback (ex: abrir modal de edição) ou apenas fecha
         if (typeof window._reloginCallback === 'function') {

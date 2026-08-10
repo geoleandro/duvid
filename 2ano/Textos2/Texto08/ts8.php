@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Recursos minerais do Brasil: a diferença entre mineral e minério, as principais jazidas (Quadrilátero Ferrífero, Serra dos Carajás) e os impactos ambientais da mineração" name="description"/>
+<meta content="Texto 08 - Recursos Minerais do Brasil" property="og:title"/>
+<meta content="Como o relevo e a estrutura geológica se relacionam com os minerais explorados no Brasil e os impactos dessa atividade" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 08</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 08 - Recursos Minerais do Brasil</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -77,47 +81,6 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:
-
-            </h2>
-<p>
-                1. O que são minerais e como eles estão presentes em nosso cotidiano?
-            </p>
-<p>
-                2. Qual a diferença entre mineral e minério?
-            </p>
-<p>
-                3. Como a estrutura geológica do Brasil influencia a distribuição dos minerais?
-            </p>
-<p>
-                4. O que são jazidas minerais e como elas se formam?
-            </p>
-<p>
-                5. Cite dois exemplos de minérios metálicos encontrados no Brasil.
-            </p>
-<p>
-                6. Onde está localizado o Quadrilátero Ferrífero e qual é sua importância para a produção de ferro?
-            </p>
-<p>
-                7. Quais são os principais minérios encontrados na Serra dos Carajás e qual é sua relevância?
-            </p>
-<p>
-                8. Qual é a importância do nióbio para o Brasil e onde está localizada a principal mina desse minério?
-            </p>
-<p>
-                9. Explique a diferença entre minérios metálicos, não-metálicos e energéticos, dando exemplos de cada
-                um.
-            </p>
-<p>
-                10. O que é a balança comercial e como ela está relacionada à exportação e importação de minérios pelo
-                Brasil?
-            </p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2> Mineral e minério, qual a diferença?</h2>
 <p>No passado, a mineração deu um novo impulso no processo de colonização brasileiro e a exploração do ouro e de
             outros metais preciosos durou séculos no território. Na sociedade atual a relação com os minerais é
@@ -151,37 +114,36 @@
 <div class="w3-margin"><img alt="ts08f02" class="w3-mobile" id="imagem2" src="ts08f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Fonte: Vesentini (2013). </span>
 </div>
-<p>Os escudos cristalinos, como sabemos, são os terrenos mais antigos desde a era Pré-Cambriana e sofreu intensa
+<p>Os escudos cristalinos, como sabemos, são os terrenos mais antigos desde a era Pré-Cambriana e sofreram intensa
             erosão ao longo de milhões de anos. Nessa área pode-se encontrar granitos e gnaisses (empregadas na
             construção civil, por exemplo) e minério de cromo, caulim, grafita. Os terrenos proterozoicos são mais
             importantes economicamente, pois neles estão localizadas as principais riquezas minerais do Brasil, como
             minério de ferro e de manganês, ouro, níquel, chumbo, prata e diamantes. </p>
 <p> Nas bacias sedimentares, a maior parte do país, distribuem-se desde a era Paleozoica até a Cenozoica. As
-            principais riquezas minerais, pois, são exploradas economicamente de forma intensa, são: o petróleo e o
-            carvão
-            mineral. Com exceção do fundo mar, onde estão os maiores depósitos de petróleo do Brasil, ainda não se
+            principais riquezas minerais exploradas economicamente de forma intensa são o petróleo e o carvão
+            mineral. Com exceção do fundo do mar, onde estão os maiores depósitos de petróleo do Brasil, ainda não se
             descobriu grandes quantidades no continente.</p>
-<p>O petróleo extraído do litoral brasileiro (Recôncavo Baiano, Sergipe, etc) foram formadas nas eras
+<p>O petróleo extraído do litoral brasileiro (Recôncavo Baiano, Sergipe, etc.) foi formado nas eras
             mesozoicas. No conjunto do Planeta cerca de 30% das reservas de petróleo datam dessa era e os outros 60% são
             da era Cenozoica. No Brasil, as bacias sedimentares para exploração de petróleo são localizadas na Amazônia
             e em alguns trechos do litoral. </p>
 <h3>As jazidas e os tipos de minérios </h3>
-<p>Os minérios podem se concentrar com grandes volumes em regiões específicas do território formando as jazidas
-            minerais. </p>
+<p>Os minérios podem se concentrar com grandes volumes em regiões específicas do território formando as <span class="termo" data-palavra="jazidas minerais" data-definicao="Concentrações naturais de minerais ou minérios em volume e teor suficientes para justificar sua exploração econômica.">jazidas
+            minerais</span>. </p>
 <p>Há nas jazidas além de minerais, fósseis encontrados na superfície ou no interior que apresentem valor
             econômico, constituindo riqueza mineral do País. O mapa abaixo reúne concentrações específicas de minerais
             selecionados no país. </p>
 <div class="w3-margin"><img alt="ts08f03" class="w3-mobile" id="imagem3" src="ts08f03.png"/>
 <span class="w3-small w3-margin-left" id="citacao3"> Fonte: Bizzi (2003, p. 378). </span>
 </div>
-<p> Nele, observa-se os minerais, ou seja, aqueles que apresentam em sua composição grande concentração de
-            substâncias que podem conduzir eletricidade e calor, além de grande maleabilidade e durabilidade, como o
-            ferro, o manganês, o estanho, a bauxita (alumínio) e o nióbio. O Brasil é um dos líderes mundiais na
-            exploração desses minérios. </p>
-<p>Já os minérios não-metálicos podem ser definidos como aquelas substâncias que, mesmo não apresentado altas
-            concentrações de metais, são importantes matérias-primas para as indústrias. Ex. argila, o calcário, as
-            pedras preciosas, o grafite, o fosfato e o potássio. </p>
-<p>Os minérios energéticos, por sua vez, são aqueles que poder ser aproveitados para a transformação de sua
+<p> Nele, observam-se os minérios metálicos, ou seja, aqueles que apresentam em sua composição grande
+            concentração de substâncias que podem conduzir eletricidade e calor, além de grande maleabilidade e
+            durabilidade, como o ferro, o manganês, o estanho, a bauxita (alumínio) e o nióbio. O Brasil é um dos
+            líderes mundiais na exploração desses minérios. </p>
+<p>Já os minérios não-metálicos podem ser definidos como aquelas substâncias que, mesmo não apresentando altas
+            concentrações de metais, são importantes matérias-primas para as indústrias. Ex.: a argila, o calcário, as
+            pedras preciosas, a grafita, o fosfato e o potássio. </p>
+<p>Os minérios energéticos, por sua vez, são aqueles que podem ser aproveitados para a transformação de sua
             energia química em outras fontes de energia, como térmica ou a mecânica. Os principais são: o petróleo, o
             carvão mineral, o gás natural e o urânio. (Ver aula Fontes de energia I – combustíveis fósseis). </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -191,17 +153,17 @@
 <h2>Localização dos principais recursos minerais do Brasil
 
         </h2>
-<p>Os recursos minerais são também commodities. Isso significa que são produtos que funcionam como
+<p>Os recursos minerais são também <span class="termo" data-palavra="commodities" data-definicao="Produtos primários, produzidos em grande escala e com qualidade padronizada, que podem ser estocados e comercializados no mercado internacional, como minérios, petróleo e grãos.">commodities</span>. Isso significa que são produtos que funcionam como
             matéria-prima, produzidos em escala e que podem ser estocados sem perda de qualidade, como petróleo,
             suco de laranja congelado, boi gordo, café, soja e ouro. O termo <em>commodity</em> vem do inglês e
             significa mercadoria. </p>
-<p>No Brasil, o ferro, por exemplo é uma importante mercadoria exportada pelo Brasil. O ferro é
+<p>No Brasil, o ferro, por exemplo, é uma importante mercadoria de exportação. O ferro é
             caracterizado como um dos metais mais importantes para a atividade industrial em função da sua
             durabilidade, dureza e abundância e também por ser um produto barato. É utilizado na fabricação do aço e
-            extraído da hematita, entre outros. O Brasil possui a quinta maior reserva do mundo, atrás da China
-            (1º), Ucrânia (2º), Rússia (3º) e Austrália (4º). </p>
-<p>Umas das maiores concentrações de ferro no território brasileiro localiza-se no <strong>Quadrilátero
-                Ferrífero</strong>, localizado em Minas Gerais, delimitado pelas cidades de Belo Horizonte, Santa
+            extraído da hematita, entre outros. O Brasil possui a quinta maior reserva do mundo, atrás da Ucrânia
+            (1º), Rússia (2º), China (3º) e Austrália (4º). </p>
+<p>Umas das maiores concentrações de ferro no território brasileiro localiza-se no <span class="termo" data-palavra="Quadrilátero Ferrífero" data-definicao="Região de Minas Gerais com uma das maiores concentrações de minério de ferro do mundo, delimitada pelas cidades de Belo Horizonte, Santa Bárbara, Congonhas e Mariana.">Quadrilátero
+                Ferrífero</span>, localizado em Minas Gerais, delimitado pelas cidades de Belo Horizonte, Santa
             Bárbara, Congonhas e Mariana. É uma área estratégica, por estar situada nas proximidades das grandes
             siderúrgicas do Sudeste e pela facilidade em escoar a produção pela estrada de ferro Vitória-Minas e
             pelo porto de Tubarão (ES). Responde por 70% da produção de ferro no país. </p>
@@ -214,12 +176,13 @@
             pertencem à Vale (antiga companhia Vale do Rio Doce privatizada em 1997), que exporta quase toda a
             produção para o Japão. O transporte da produção é feito pela estrada de ferro Carajás em direção ao
             Terminal de Ponta da Madeira, e escoada pelo porto de Itaqui (São Luís - MA). Também foi construída a
-            hidrelétrica de Tucuruí (2ª do Brasil) para o abastecimento energético.</p>
+            hidrelétrica de Tucuruí (3ª maior do Brasil, atrás de Itaipu e Belo Monte) para o abastecimento
+            energético.</p>
 <div class="w3-margin"><img alt="ts08f05" class="w3-mobile" id="imagem5" src="ts08f05.png"/>
 <span class="w3-small w3-margin-left" id="citacao5"> Fonte: Organizado pelo autor. </span>
 </div>
 <p> Podemos, portanto, reunir alguns principais minérios extraídos no Brasil:</p>
-<div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p> <strong>Manganês</strong> - É um metal utilizado nas indústrias química, de fertilizantes, de rações
                 animais, de pilhas e baterias e também na fabricação de aço, pois o torna mais resistente. É
                 extraído dos minérios pirolusita, polianita e rondonita. O Brasil o exporta como bens primários. Os
@@ -239,24 +202,26 @@
                 Austrália). Os principais produtores são: Pará (no município de Oriximiná, vale do rio Trombetas).
                 Umas das maiores do mundo, é explorada pela Mineração Rio do Norte S.A, formada pela Vale e pela
                 canadense Alcan. </p>
-<p> Em Minas Gerais nos municípios de Poços de Caldas e Ouro Preto. 4 toneladas de bauxita são
-                necessárias para produzir 2 de alumina (matéria-prima do alumínio), as quais são suficientes para
-                produzir 1 de alumínio.</p>
+<p> Também há produção em Minas Gerais, nos municípios de Poços de Caldas e Ouro Preto. São necessárias 4
+                toneladas de bauxita para produzir 2 toneladas de alumina (matéria-prima do alumínio), que por sua
+                vez são suficientes para produzir 1 tonelada de alumínio.</p>
 <p> <strong>Ouro</strong> - Grande riqueza brasileira do século XVIII, esse metal é conhecido pela sua
                 maleabilidade, é utilizado pelas indústrias eletrônica, espacial, de instrumentos médicos e pela
                 ourivesaria. Por volta de 1950, o país assistiu a formação de grandes garimpos na Serra Pelada (PA)
                 e os vales do rio Madeira e Tapajós. Deixaram graves danos ao ambiente por conta da contaminação dos
-                rios por mercúrio. É na região de Paracatu (MG), que está a maior produção brasileira desse metal
-                (65 toneladas em 2012). A maior reserva do mundo está na África do sul (14%) e possui seis mil
-                toneladas. O Brasil possui 4,5%.</p>
+                rios por mercúrio. É na região de Paracatu (MG), que está a maior produção brasileira desse metal.
+                As maiores reservas geológicas de ouro do mundo estão concentradas na Rússia e na Austrália (cerca
+                de 12 mil toneladas cada), seguidas pela África do Sul; o Brasil está entre os dez países com
+                maiores reservas do metal.</p>
 <p><strong>Quartzo</strong> – Minério utilizado na indústria de informática e eletroeletrônica. O Brasil
                 é um dos principais produtores do mundo e exporta esse produto para o Japão, China e Reino Unido. O
                 quartzo em cristal é produzido principalmente nos Estados da Bahia, também no Sudeste e Sul do país.
             </p>
 <p><strong>Nióbio</strong> - Esse metal pouco comum no mundo. É utilizado, principalmente, na indústria
                 de aços especiais, tais como na indústria aeroespacial ou em tubos para o transporte de gás. O
-                Brasil é líder absoluto da produção mundial, controlando 96% do mercado. Os principais produtores
-                são: MG (61%), GO (21%) e AM (12%). A principal mina do país está localizada em Araxá (MG). A
+                Brasil é líder absoluto da produção mundial, respondendo por mais de 90% da oferta global e
+                concentrando quase a totalidade das reservas conhecidas do minério. Os principais produtores
+                são Minas Gerais e Goiás. A principal mina do país está localizada em Araxá (MG). A
                 companhia Brasileira de Metalurgia e Mineração (CBMM) é a maior produtora desse minério. </p>
 <p> <strong>Cobre</strong> - Esse é um metal muito importante para as metalúrgicas e eletroeletrônica.
                 No entanto, sua disponibilidade no Brasil é pequena. As reservas nacionais não chegam a 2% do total
@@ -306,13 +271,13 @@
 <p>No Brasil, a Constituição Federal de 1988 (artigo 225) determina que a utilização de recursos minerais
             deixa o empreendedor obrigado a recuperar o meio ambiente degradado. Nesse sentido, o agente de
             exploração deve zelar pelo bem público, o meio ambiente, enquanto cabe ao Estado o papel de fiscalizar o
-            cumprimento da lei. Por isso, há integração de órgãos e competências nas três esferas (federal, estadual
+            cumprimento da lei. Por isso, a integração de órgãos e competências nas três esferas (federal, estadual
             e municipal), e também da sociedade, pode garantir um efetivo cumprimento da legislação ambiental e
             mineral, assim como a recuperação de ambientes degradados. Além disso, há exigência para que a empresa
-            interessada na exploração mineral apresente um relatório de impacto ambiental (RIMA) e um plano de
+            interessada na exploração mineral apresente um <span class="termo" data-palavra="RIMA" data-definicao="Relatório de Impacto Ambiental: documento técnico que apresenta, em linguagem acessível, os possíveis impactos ambientais de um empreendimento e as medidas para mitigá-los.">relatório de impacto ambiental (RIMA)</span> e um plano de
             recuperação da área degradada, sujeitos à análise e à aprovação dos órgãos competentes. </p>
 <p> Entretanto, alguns desastres como o rompimento da barragem na cidade de Mariana (MG) em 2015 ou de
-            Brumadinho (MG) em 2019, este com 270 pessoas mortas e 4 desaparecidas, acontecem pelo mundo. Ocorre que
+            Brumadinho (MG) em 2019, este com 272 mortes confirmadas, acontecem pelo mundo. Ocorre que
             a atividade de extração de minério de ferro exige a separação do material valioso e daquele que não tem
             valor comercial (rejeitos). Esse material que não será utilizado, conforme legislação, deve ser
             armazenado em reservatório para não causar danos. As estruturas que servem de reservatório são feitas de
@@ -320,9 +285,9 @@
 <div class="w3-margin"><img alt="ts08f08" class="w3-mobile" id="imagem8" src="ts08f08.png"/>
 <span class="w3-small w3-margin-left" id="citacao8"> Fonte: Retrospectiva (2022).</span>
 </div>
-<p> Cerca de 14 milhões de toneladas de lama e rejeitos de minério de ferro percorreu 8 quilômetros em
-            poucos dias, poluindo o rio Paraopeba. Essas e outras são as grandes questões da interferência do homem
-            no meio geográfico.</p>
+<p> Cerca de 12 milhões de metros cúbicos de rejeitos de minério de ferro foram liberados, contaminando o rio
+            Paraopeba ao longo de mais de 300 quilômetros. Essas e outras são as grandes questões da interferência do
+            homem no meio geográfico.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -428,21 +393,21 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Como é a atividade de extração de minérios?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span>
 
             O conjunto de operações que são realizadas visando à retirada do minério a partir do depósito mineral é
-            chamado de lavra. O depósito mineral em lavra é denominado mina, e esta denominação continua mesmo se a
+            chamado de <span class="termo" data-palavra="lavra" data-definicao="Conjunto de operações realizadas para a extração de um minério a partir do depósito mineral, podendo ser manual ou altamente mecanizada.">lavra</span>. O depósito mineral em lavra é denominado mina, e esta denominação continua mesmo se a
             extração mineral tenha sido suspensa. A lavra pode ser executada de modo bastante simples, por meio de
             atividades manuais, ou até meios altamente mecanizados e em larga escala, como ocorre nas grandes
-            minerações. O garimpo é uma atividade de extração mineral rudimentar, mas significativa para a produção
+            minerações. O <span class="termo" data-palavra="garimpo" data-definicao="Atividade de extração mineral rudimentar e de pequena escala, ainda significativa para a produção de certos minerais como esmeralda, topázio, diamante, ouro e cassiterita.">garimpo</span> é uma atividade de extração mineral rudimentar, mas significativa para a produção
             de certos minerais como esmeralda, topázio, diamante, ouro, cassiterita, dentre outros.
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Qual a relação entre mineração e impactos ambientais?
 
@@ -461,11 +426,11 @@
             pode causar danos à saúde das pessoas que vivem próximas às minas.</p>
 <p>Os recursos hídricos podem sofrer impactos, inicialmente, no elevado consumo de água para beneficiamento
             e para uso de minerodutos; problemas ligados ao rebaixamento do lençol freático devido a ampliação das
-            escavações e que pode gerar a diminuição no fluxo de água de rios; E por fim, sobre a recarga do
-            aquíferos, pois a canga, isto é, um material rico em hidróxido de ferro e alumínio é retirado do solo, e
-            este perde a porosidade necessária para a reabastecer a água, além de proporcionar a contaminação dos
+            escavações e que pode gerar a diminuição no fluxo de água de rios; E por fim, sobre a recarga dos
+            aquíferos, pois a <span class="termo" data-palavra="canga" data-definicao="Crosta rica em hidróxido de ferro e alumínio que se forma sobre os corpos de minério, protegendo o solo e ajudando na infiltração e recarga de água no subsolo.">canga</span>, isto é, um material rico em hidróxido de ferro e alumínio, é retirada do solo, e
+            este perde a porosidade necessária para reabastecer a água, além de proporcionar a contaminação dos
             cursos d’água.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quem pode extrair minério?
 
@@ -483,11 +448,11 @@
         </p>
 <p>No regime militar (1964-1985), o extrativismo mineral teve impulso e grande importância para o
             desenvolvimento econômico, com a criação do Plano Mestre Decenal de Avaliação dos Recursos Minerais
-            (1965-1975). Mais de a Constituição de 1988 determinou o monopólio para pesquisa e extração tanto das
-            jazidas minerais que de atividades relacionadas ao petróleo, ao gás e aos minerais de uso nuclear. Na
+            (1965-1975). Mais tarde, a Constituição de 1988 determinou o monopólio para pesquisa e extração tanto das
+            jazidas minerais quanto de atividades relacionadas ao petróleo, ao gás e aos minerais de uso nuclear. Na
             década de 1990, iniciou-se o período de privatizações das empresas estatais e, em 1995, o Senado quebrou
-            o monopólio estatal do petróleo, pondo fim a exclusividade do Estado e do capital nacional sobre a
-            atividades do setor. Desde essa época, a exploração mineral! no Brasil é feita por capital estatal e
+            o monopólio estatal do petróleo, pondo fim à exclusividade do Estado e do capital nacional sobre as
+            atividades do setor. Desde essa época, a exploração mineral no Brasil é feita por capital estatal e
             empresas particulares nacionais e estrangeiras.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
 <br/><br/>
@@ -564,7 +529,7 @@
                     tornando-a vulnerável a flutuações nos preços do minério de ferro.</li>
 <li>Exploração de Recursos Locais: A extração de minério pode esgotar os recursos naturais da região,
                     prejudicando setores como agricultura e turismo.</li>
-<li>Efeito de Dutch Disease: A valorização da moeda local devido ao aumento das exportações de minério
+<li>Efeito da <span class="termo" data-palavra="Doença Holandesa" data-definicao="Fenômeno econômico em que a valorização da moeda local, causada pelo aumento das exportações de commodities, encarece os produtos nacionais e prejudica outros setores da economia, como a indústria de manufaturados.">Doença Holandesa</span> (Dutch Disease): a valorização da moeda local devido ao aumento das exportações de minério
                     pode prejudicar outros setores da economia, como manufatura e serviços.</li>
 <li><strong>Impactos Ambientais Negativos:</strong></li>
 <li>Degradação do Solo e Água: A mineração pode causar poluição do solo e dos corpos d'água locais,
@@ -589,6 +554,28 @@
 <hr/>
 </div>
 <div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. O que são minerais e como eles estão presentes em nosso cotidiano?</h3>
+<h3>2. Qual a diferença entre mineral e minério?</h3>
+<h3>3. Como a estrutura geológica do Brasil influencia a distribuição dos minerais?</h3>
+<h3>4. O que são jazidas minerais e como elas se formam?</h3>
+<h3>5. Cite dois exemplos de minérios metálicos encontrados no Brasil.</h3>
+<h3>6. Onde está localizado o Quadrilátero Ferrífero e qual é sua importância para a produção de ferro?</h3>
+<h3>7. Quais são os principais minérios encontrados na Serra dos Carajás e qual é sua relevância?</h3>
+<h3>8. Qual é a importância do nióbio para o Brasil e onde está localizada a principal mina desse minério?</h3>
+<h3>9. Explique a diferença entre minérios metálicos, não-metálicos e energéticos, dando exemplos de cada um.</h3>
+<h3>10. O que é a balança comercial e como ela está relacionada à exportação e importação de minérios pelo Brasil?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -598,7 +585,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Recursos Minerais do Brasil é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

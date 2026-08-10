@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Fatores do desenvolvimento: PEA, setores econômicos (primário, secundário, terciário e quaternário), educação, saúde, alimentação e a Índice de Pobreza Multidimensional">
+    <meta property="og:title" content="Texto 04 - Os Fatores do Desenvolvimento">
+    <meta property="og:description" content="Por que dois países com o mesmo PIB podem ter qualidade de vida tão diferente? Uma análise da PEA, dos setores econômicos e dos fatores sociais que definem o desenvolvimento de um país">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,7 +47,9 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
-    <title></title>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+    <title>3º ano - Texto 04 - Os Fatores do Desenvolvimento</title>
 
 
 
@@ -64,11 +68,9 @@
 
 
 
+    <div id="aviso-status" class="w3-margin-top"></div>
+
     <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
-
-        <div id="aviso-status" class="w3-margin-top"></div>
-
-
 
         <!-- Navigation (Stays on Top) -->
 
@@ -145,6 +147,13 @@
                 desenvolvimento em
                 todo o mundo.</p>
 
+            <p>Vale lembrar de algo que você viu na aula sobre migrações: as pessoas costumam se deslocar atrás
+                justamente daquilo que falta em seus lugares de origem, emprego, segurança, boas escolas, hospitais
+                funcionando. Não é coincidência que esses sejam também os principais fatores usados pela Geografia
+                para medir o desenvolvimento de um país. Entender como se mede o desenvolvimento, portanto, também
+                ajuda a entender por que o mundo se move do jeito que se move, e por que certas regiões do planeta
+                recebem tanta gente enquanto outras seguem sendo, majoritariamente, ponto de partida.</p>
+
 
 
 
@@ -159,7 +168,7 @@
         <div class="topico">
             <h2>Atividade: Criando um País Fictício</h2>
 
-            <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
+            <div class="w3-panel w3-pale-yellow w3-margin w3-padding">
 
                 <ul>
                     <li>Objetivo: Criar um país fictício aplicando os conceitos de desenvolvimento econômico, qualidade
@@ -248,7 +257,9 @@
             <h3>População Economicamente Ativa (PEA): Entendendo o Papel-Chave</h3>
 
 
-            <p>A População Economicamente Ativa, ou PEA, é um termo essencial quando se trata de entender como uma
+            <p>A <span class="termo" data-palavra="PEA (População Economicamente Ativa)"
+                    data-definicao="Parcela da população em idade de trabalhar (geralmente entre 15 e 64 anos) que está empregada ou procurando emprego. Divide-se em pessoas ocupadas (empregadas) e pessoas desocupadas (desempregadas, mas em busca de trabalho). Não inclui crianças, aposentados e outras pessoas fora da força de trabalho.">População
+                    Economicamente Ativa, ou PEA</span>, é um termo essencial quando se trata de entender como uma
                 sociedade
                 funciona em termos de trabalho e economia. Ela engloba todas as pessoas em idade ativa, geralmente entre
                 15
@@ -286,7 +297,9 @@
             </div>
 
 
-            <p><strong>Setor Primário</strong>: Este é o setor que envolve atividades relacionadas à agricultura,
+            <p><span class="termo" data-palavra="Setor Primário"
+                    data-definicao="Conjunto de atividades econômicas ligadas à extração direta de recursos da natureza, sem transformação industrial: agricultura, pecuária, pesca, silvicultura e extrativismo mineral ou vegetal. Costuma empregar uma parcela menor da PEA em países desenvolvidos, e uma parcela maior em países menos industrializados, embora a mecanização venha reduzindo essa mão de obra em quase todo o mundo.">Setor
+                    Primário</span>: este é o setor que envolve atividades relacionadas à agricultura,
                 pecuária,
                 pesca, silvicultura e extrativismo. No setor primário, as pessoas estão diretamente envolvidas na
                 produção
@@ -326,6 +339,21 @@
 
             </div>
 
+            <p>Alguns geógrafos e economistas destacam ainda um quarto grupo dentro do próprio setor de serviços, o
+                <span class="termo" data-palavra="Setor Quaternário"
+                    data-definicao="Parcela do setor de serviços ligada à produção, ao processamento e à gestão de informação e conhecimento de alto valor agregado: tecnologia da informação, pesquisa científica, inteligência artificial, consultoria estratégica e plataformas digitais. Diferente do restante do setor terciário (comércio, transporte, serviços domésticos), concentra trabalhadores com formação técnica avançada e costuma pagar salários mais altos, além de estar fortemente concentrado em países centrais e em polos tecnológicos específicos.">setor
+                    quaternário</span>, dedicado à produção e à gestão de informação e conhecimento de alto valor
+                agregado: pesquisa científica, consultoria estratégica, desenvolvimento de software e, cada vez mais,
+                inteligência artificial. A <span class="termo" data-palavra="Inteligência Artificial"
+                    data-definicao="Conjunto de sistemas de computador capazes de realizar tarefas que simulam a inteligência humana, como reconhecimento de fala, percepção visual, tradução de idiomas e composição de textos. Seu avanço acelerado nos últimos anos tem transformado o mercado de trabalho, automatizando tarefas antes exclusivamente humanas em setores como atendimento, programação e até criação de conteúdo.">inteligência
+                    artificial</span> é hoje uma das forças que mais transforma o mercado de trabalho global, automatizando
+                tarefas que antes dependiam só de mão de obra humana. Outra mudança recente é a <span class="termo"
+                    data-palavra="Plataformização do Trabalho"
+                    data-definicao="Processo pelo qual empresas de tecnologia (como aplicativos de entrega e de transporte) organizam o trabalho por meio de plataformas digitais, conectando prestadores de serviço a clientes sem vínculo empregatício formal. Costuma envolver remuneração por tarefa realizada, flexibilidade de horários e ausência de direitos trabalhistas tradicionais, como férias e décimo terceiro salário, sendo um dos temas mais debatidos nas discussões atuais sobre o futuro do trabalho.">plataformização
+                    do trabalho</span>: aplicativos de entrega e de transporte organizam parte crescente da força de
+                trabalho sem vínculo empregatício formal, um modelo que ganhou força com a expansão da internet
+                móvel e que segue no centro do debate sobre direitos trabalhistas no século XXI.</p>
+
 
 
 
@@ -353,13 +381,12 @@
 
 
             <p> Essa mudança é notável ao examinarmos dados globais sobre a participação das mulheres no mercado de
-                trabalho. De acordo com o Banco Mundial, a taxa de emprego feminino global aumentou consideravelmente
-                nas
-                últimas décadas. Em 1990, a taxa de participação feminina na força de trabalho era de aproximadamente
-                46%,
-                enquanto em 2020, esse número subiu para cerca de 51%. Esse aumento é um reflexo das crescentes
-                oportunidades educacionais e profissionais para as mulheres, bem como de mudanças nas percepções sociais
-                sobre o papel das mulheres na sociedade.</p>
+                trabalho. De acordo com o Banco Mundial, a taxa de participação feminina na força de trabalho global
+                subiu de cerca de 46% em 1990 para pouco mais de 51% em 2024. O problema é que esse avanço ainda
+                deixa uma distância enorme em relação aos homens: segundo o relatório "Mulheres, Empresas e o
+                Direito 2024" do Banco Mundial, hoje metade das mulheres do mundo trabalha, contra quase três em
+                cada quatro homens, uma diferença que reflete tanto barreiras legais quanto a sobrecarga de trabalho
+                doméstico não remunerado que ainda recai desproporcionalmente sobre elas em quase todos os países.</p>
 
             <p> Além disso, as mulheres também têm buscado cada vez mais carreiras em campos tradicionalmente dominados
                 por
@@ -441,11 +468,16 @@
             <p> <strong>Nutrição</strong>: A nutrição não se refere apenas à quantidade de alimentos consumidos, mas
                 também
                 à qualidade dos nutrientes obtidos a partir desses alimentos. É essencial para o crescimento e
-                desenvolvimento saudáveis, bem como para a prevenção de doenças. A desnutrição, que inclui a subnutrição
+                desenvolvimento saudáveis, bem como para a prevenção de doenças. A <span class="termo"
+                    data-palavra="Desnutrição"
+                    data-definicao="Estado de deficiência nutricional causado pela ingestão insuficiente ou desbalanceada de nutrientes. Inclui a subnutrição, consumo insuficiente de calorias e nutrientes essenciais, e quadros de fome, escassez crônica de alimentos. Afeta principalmente o desenvolvimento físico e cognitivo de crianças, com consequências que podem durar a vida toda.">desnutrição</span>,
+                que inclui a subnutrição
                 (consumo insuficiente de nutrientes essenciais) e a fome (escassez crônica de alimentos), é um problema
                 persistente em muitas partes do mundo.</p>
 
-            <p><strong>Segurança Alimentar</strong>: A segurança alimentar é um conceito que vai além da simples
+            <p><span class="termo" data-palavra="Segurança Alimentar"
+                    data-definicao="Garantia de que todas as pessoas tenham, em todos os momentos, acesso físico, econômico e social a alimentos suficientes, seguros e nutritivos para atender às suas necessidades e preferências alimentares, permitindo uma vida ativa e saudável. É um conceito diferente de soberania alimentar, que trata do direito dos países de definir suas próprias políticas de produção de alimentos.">Segurança
+                    Alimentar</span>: a segurança alimentar é um conceito que vai além da simples
                 disponibilidade de alimentos. Refere-se à garantia de que todas as pessoas tenham acesso físico,
                 econômico e
                 social a alimentos suficientes, seguros e nutritivos para atender às suas necessidades alimentares e
@@ -454,7 +486,9 @@
                 mundo. </p>
 
 
-            <p> <strong>Soberania Alimentar</strong>: A soberania alimentar envolve o direito dos países e comunidades a
+            <p> <span class="termo" data-palavra="Soberania Alimentar"
+                    data-definicao="Direito dos países e das comunidades de definirem suas próprias políticas alimentares e agrícolas, priorizando a produção local e a agricultura familiar em vez da dependência excessiva de importações de alimentos. Diferente da segurança alimentar, que foca no acesso ao alimento, a soberania alimentar foca em quem controla a produção e as decisões sobre o que, como e para quem produzir.">Soberania
+                    Alimentar</span>: a soberania alimentar envolve o direito dos países e comunidades a
                 definirem suas próprias políticas alimentares e agrícolas, sem dependência excessiva de importações de
                 alimentos. Isso inclui o fortalecimento da produção local, o apoio à agricultura familiar e a promoção
                 da
@@ -463,9 +497,11 @@
 
 
             <p><strong>Subnutrição no Mundo</strong>: Segundo a Organização das Nações Unidas para a Alimentação e a
-                Agricultura (FAO), em 2020, aproximadamente 9,9% da população global, ou seja, quase 768 milhões de
-                pessoas,
-                estavam subnutridas, enfrentando insegurança alimentar. </p>
+                Agricultura (FAO), em 2025 cerca de 645 milhões de pessoas, o equivalente a 7,8% da população
+                mundial, enfrentaram a fome, uma queda em relação aos 8,1% de 2024 e aos 8,6% de 2022, terceiro ano
+                seguido de redução. Apesar da melhora, a projeção é preocupante: se as tendências atuais continuarem,
+                cerca de 582 milhões de pessoas ainda estarão cronicamente subnutridas em 2030, metade delas na
+                África.</p>
 
 
             <div class="w3-margin"><img id="imagem6" src="tt04f06.png" alt="tt04f06" class="w3-mobile">
@@ -644,6 +680,25 @@
                 única
                 medida, como o Produto Interno Bruto (PIB) per capita, pode ser enganador.</p>
 
+            <p>Foi justamente para superar essa limitação que a ONU criou, em 2010, indicadores complementares ao PIB
+                e ao Índice de Desenvolvimento Humano. Um deles é o <span class="termo"
+                    data-palavra="IPM (Índice de Pobreza Multidimensional)"
+                    data-definicao="Indicador criado em 2010 que mede a pobreza para além da renda, apurando privações relacionadas a três dimensões: educação (anos de estudo, frequência escolar), saúde (mortalidade infantil, nutrição) e padrão de vida (acesso a água potável, saneamento, eletricidade, moradia). Uma pessoa é considerada multidimensionalmente pobre quando é privada em um número mínimo dessas dimensões ao mesmo tempo, mesmo que sua renda monetária não esteja abaixo da linha de pobreza.">Índice
+                    de Pobreza Multidimensional (IPM)</span>, que mede privações relacionadas exatamente aos três
+                fatores que você viu nesta aula: educação, saúde e padrão de vida (incluindo acesso a água, saneamento
+                e alimentação adequada). Ele mostra que uma pessoa pode não estar "pobre" apenas pela renda e ainda
+                assim enfrentar privações graves nesses três fatores ao mesmo tempo, o que a estatística de PIB per
+                capita, sozinha, jamais capturaria.</p>
+
+            <p>O Brasil ajuda a ilustrar essa complexidade. Segundo dados do IBGE analisados com o critério do Banco
+                Mundial, em 2021 cerca de 44,5 milhões de brasileiros, ou 29,4% da população, viviam abaixo da linha
+                de pobreza (renda inferior a US$ 5,50 por dia em paridade de poder de compra), e 17,9 milhões, ou
+                8,4% da população, estavam em situação de extrema pobreza (menos de US$ 1,90 por dia), os maiores
+                números da série histórica desde 2012. Esses números também variam muito entre as regiões do país: a
+                pobreza no Brasil não é só uma questão de renda, mas está diretamente ligada à falta de acesso a
+                educação de qualidade, serviços de saúde, moradia adequada e saneamento básico, exatamente as
+                dimensões que o IPM tenta capturar.</p>
+
             <p>Além disso, o que significa desenvolvimento pode variar amplamente entre diferentes culturas e contextos.
                 Uma
                 sociedade pode valorizar mais a qualidade de vida, o bem-estar das pessoas e a igualdade social em
@@ -678,6 +733,12 @@
                 país
                 como mais desenvolvido do que outro sem considerar todas as variáveis que influenciam o bem-estar e o
                 progresso de uma sociedade.</p>
+
+            <p>Se PIB per capita, IPM e os fatores que você estudou nesta aula ainda deixam brechas na hora de medir
+                o desenvolvimento, como comparar países de forma mais justa? Essa é exatamente a pergunta que vai
+                guiar a próxima aula, em que você vai conhecer com mais profundidade o Índice de Desenvolvimento
+                Humano e o Índice de Gini, as duas ferramentas mais usadas hoje para medir, respectivamente, a
+                qualidade de vida e a desigualdade de renda dentro de um mesmo país.</p>
 
 
 
@@ -787,7 +848,7 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumot4.jpg"
+            <div class="w3-margin"><img id="infograficot2" src="inforesumott4.webp"
                     alt="infográfico: Fatores de Desenvolvimento e Mercado de Trabalho Global" class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="infográfico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
@@ -803,14 +864,38 @@
         </div>
 
 
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
 
 
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+                <h3>1. O que é a PEA (População Economicamente Ativa) e quais são suas duas categorias principais?</h3>
+                <h3>2. Explique a diferença entre os setores primário, secundário, terciário e quaternário da economia, com um exemplo de cada.</h3>
+                <h3>3. Por que a distribuição da PEA entre os setores econômicos costuma indicar o nível de desenvolvimento de um país?</h3>
+                <h3>4. Como a plataformização do trabalho e a inteligência artificial estão mudando o mercado de trabalho atual?</h3>
+                <h3>5. Qual a diferença entre segurança alimentar e soberania alimentar?</h3>
+                <h3>6. O que o Índice de Pobreza Multidimensional (IPM) mede, e por que ele complementa o PIB per capita?</h3>
+                <h3>7. Por que não é correto comparar países usando apenas o PIB per capita como critério de desenvolvimento?</h3>
+                <h3>8. Cite dois fatores, além da renda, que influenciam diretamente o desenvolvimento de um país.</h3>
+                <h3>9. Qual é a situação da participação das mulheres no mercado de trabalho no mundo hoje?</h3>
+                <h3>10. Segundo dados do IBGE, como a pobreza se distribui no Brasil, e a que fatores ela está ligada além da renda?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
 
 
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="if(this.disabled) return; this.disabled = true;    ProcessarResposta(this, { correto: true,  idFrase: 'respFinal', idGlobo: 'globinhorespFinal', 
-        classe: '',   mensagem: 'O tema {TITULO} é fantástico! Continue estudando!',  pontos: 40  });
+        classe: '',   mensagem: 'O tema Os Fatores do Desenvolvimento é fantástico! Continue estudando!',  pontos: 40  });
                 MostrarProximo(this);">Próximo</button>
 
             <p id="respFinal"></p>

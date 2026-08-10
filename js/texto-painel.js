@@ -38,6 +38,14 @@
             inner.appendChild(main.firstChild);
         }
 
+        // Extrai os links/referências bibliográficas do fim da aula: eles não
+        // fazem parte do conteúdo pedagógico e não devem ficar cinza quando
+        // a aula é finalizada (aplicarEstadoFinalAula só afeta .texto-content-inner)
+        var biblioEl = inner.querySelector('.bibliografias, #final-da-aula');
+        if (biblioEl) {
+            biblioEl.parentNode.removeChild(biblioEl);
+        }
+
         // 1b. Extrai painel de áudio → player customizado Clean Pixel
         var audioPanel = inner.querySelector('.w3-panel.w3-leftbar.w3-border-green');
         var coluna = document.createElement('div');
@@ -54,6 +62,13 @@
         article.className = 'texto-content';
         article.appendChild(inner);
         coluna.appendChild(article);
+
+        // Referências bibliográficas: ficam na mesma coluna (mesma largura/margem
+        // do conteúdo), mas FORA do article/.texto-content-inner → não pegam o
+        // modo cinza de aula concluída (que só afeta .texto-content-inner)
+        if (biblioEl) {
+            coluna.appendChild(biblioEl);
+        }
 
         // 1d. Body row: coluna esquerda + painel lateral
         var bodyRow = document.createElement('div');
@@ -136,7 +151,7 @@
             '<a href="#" id="tp-link-q" class="tp-nav-card tp-nav-questoes">' +
                 '<div class="tp-nav-icon"><i class="fa fa-pencil"></i></div>' +
                 '<div class="tp-nav-text">' +
-                    '<div class="tp-nav-label">Mini-game</div>' +
+                    '<div class="tp-nav-label">Hora de praticar</div>' +
                     '<div class="tp-nav-titulo">Fazer Questões →</div>' +
                 '</div>' +
             '</a>';
@@ -357,8 +372,9 @@
         var secoes = [];
         topicos.forEach(function (t, i) {
             if (t.classList.contains('pergunta-bloco')) return;
-            var h2 = t.querySelector(':scope > h2');
+            var h2 = t.querySelector('h2');
             if (h2) {
+                h2.classList.add('tp-secao-numero');
                 secoes.push({ el: t, idx: i, titulo: h2.textContent.trim() });
             }
         });
@@ -466,11 +482,12 @@
         var unidade = String(aula.id % 100).padStart(2, '0');
 
         slot.className = 'texto-hero';
-        var fundo = window.DUVID_FUNDO_BANNER || (aula.imagem ? '/' + aula.imagem : null);
-        if (fundo) slot.style.backgroundImage = "url('" + fundo + "')";
+        // Usa banner específico da página se definido; caso contrário o gradiente CSS assume
+        if (window.DUVID_FUNDO_BANNER) slot.style.backgroundImage = "url('" + window.DUVID_FUNDO_BANNER + "')";
 
         slot.innerHTML =
             '<div class="texto-hero-overlay">' +
+                '<div class="texto-hero-supra">Duvid Geografia</div>' +
                 '<div class="texto-hero-badges">' +
                     '<span class="texto-badge texto-badge-green">Texto ' + unidade + '</span>' +
                     '<span class="texto-badge">🕐 ' + minutos + ' min de leitura</span>' +

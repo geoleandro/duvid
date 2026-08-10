@@ -5,6 +5,9 @@
 //  Use: $pdo = getDB();
 // =============================================================
 
+// Timezone Brasil
+date_default_timezone_set('America/Sao_Paulo');
+
 // Detecta ambiente automaticamente pelo servidor
 $_isLocal = in_array($_SERVER['SERVER_NAME'] ?? 'localhost', ['localhost', '127.0.0.1', '::1']);
 // Constante acessível dentro das funções (variáveis globais não entram em escopo de função)

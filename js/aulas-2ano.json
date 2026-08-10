@@ -408,6 +408,7 @@
     "objetivo": "Definir e entender o conceito de bacia hidrográfica e comparar as características naturais e socioeconômicas das bacias brasileiras.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -434,6 +435,7 @@
       "EPEBalancoEnergetico"
     ],
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -454,6 +456,7 @@
       "AgenciaBrasilEnvelhecimento"
     ],
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Mariano",
       "Vesentini",
       "Vogler",
@@ -470,9 +473,10 @@
     "conteudo": "PEA (População Economicamente Ativa); Setores da economia e Desemprego.",
     "linkTexto": "2ano/Textos2/Texto24/ts24.php?id=224",
     "linkQuestoes": "questoes/modelo-questoes.php?id=224",
-    "objetivo": "Compreender o conceito de PEA e como o IBGE classifica a populacao economicamente ativa, inativa e desocupada; conhecer os setores da economia (primario, secundario, terciario e quaternario) e a estrutura da forca de trabalho brasileira; analisar os tipos de desemprego, o peso da informalidade e as desigualdades do mercado de trabalho no Brasil.",
+    "objetivo": "Compreender o conceito de PEA e como o IBGE classifica a populacao economicamente ativa, inativa e desocupada; conhecer os setores da economia (primario, secundario, terciario e quaternario) e a estrutura da forca de trabalho brasileira; analisar os tipos de desemprego, o peso da informalidade, a legislacao trabalhista brasileira e as desigualdades do mercado de trabalho no Brasil.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Mariano",
       "Vesentini",
       "Vogler",
@@ -493,9 +497,10 @@
     "conteudo": "Migrações internas, pendulares e de retorno; Êxodo rural e transumância no Brasil.",
     "linkTexto": "2ano/Textos2/Texto25/ts25.php?id=225",
     "linkQuestoes": "questoes/modelo-questoes.php?id=225",
-    "objetivo": "Compreender os tipos de migracao interna no Brasil (pendular, de retorno, espontanea e forcada); entender as causas historicas e atuais do exodo rural e suas consequencias para as cidades; conhecer o conceito de transumancia e os principais fluxos migratorios internos brasileiros.",
+    "objetivo": "Compreender os tipos de migracao interna no Brasil (pendular, de retorno, espontanea e forcada); entender as causas historicas e atuais do exodo rural e suas consequencias para as cidades; conhecer o conceito de transumancia, os criterios de classificacao urbano/rural do IBGE e os principais fluxos migratorios internos brasileiros.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Mariano",
       "Vesentini",
       "Vogler",
@@ -529,6 +534,7 @@
     "objetivo": "Compreender o processo de urbanizacao no Brasil e no mundo; identificar o que sao megacidades e como se organiza a rede urbana; entender os conceitos de conurbacao, metropolizacao e hierarquia urbana.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -553,6 +559,7 @@
     "objetivo": "Compreender como as cidades se organizam em redes e hierarquias urbanas no Brasil, identificando o papel das metrópoles, cidades médias e centros locais. Analisar o REGIC e as relações de influência entre cidades como expressão de relações de poder e de desigualdade territorial.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -660,6 +667,7 @@
     ],
     "bibliografia": [
       "Ross",
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -703,6 +711,7 @@
     "audio": null,
     "bibliografia": [
       "SantosGlobalizacao",
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",

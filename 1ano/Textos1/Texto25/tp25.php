@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -42,8 +43,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>1º ano - Texto 25 - Relevo Oceânico</title>
 
 </head>
 
@@ -363,7 +365,7 @@
         <!-- BLOCO 11.5: Perguntas que qualquer aluno teria -->
         <div class="topico">
 
-            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+            <h2 id="centralizado">Perguntas que você provavelmente tinha</h2>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
@@ -412,7 +414,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é a plataforma continental e por que ela é economicamente importante?</h3>
@@ -443,7 +445,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Relevo Oceânico é fascinante! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

@@ -3,10 +3,13 @@
   "_instrucao": "keywords_geo = palavras que tornam uma notícia relevante para o mural. keywords_extra = suas palavras personalizadas (adicione aqui). Categorias usam regex — adicione padrões separados por |",
 
   "keywords_geo": [
-    "clima", "climática", "climático", "temperatura", "chuva", "seca", "enchente",
+    "climática", "climático", "mudança climática", "crise climática", "clima extremo",
+    "temperatura", "chuva", "seca", "enchente",
     "inundação", "terremoto", "vulcão", "tsunami", "furacão", "tornado", "ciclone",
+    "vendaval", "geada", "ventania", "granizo", "onda de calor", "calor extremo",
     "desmatamento", "amazônia", "floresta", "bioma", "cerrado", "pantanal",
-    "oceano", "mar", "bacia hidrográfica", "relevo", "montanha", "cordilheira",
+    "oceano", "mar vermelho", "mar negro", "mar mediterrâneo", "mar cáspio", "mar do norte", "mar do caribe", "mar da china", "alto-mar",
+    "bacia hidrográfica", "relevo", "montanha", "cordilheira",
     "geopolítica", "geopolitica", "fronteira", "território",
     "migração", "migrante", "refugiado", "êxodo",
     "urbanização", "metrópole", "favela", "saneamento",
@@ -16,31 +19,83 @@
     "onu", "otan", "mercosul", "brics", "g20",
     "saara", "ártico", "antártida", "pacífico", "atlântico",
     "enem", "vestibular", "fuvest", "unicamp",
-    "brasil", "nordeste brasileiro", "amazônia legal","território brasileiro", "sudeste brasileiro", "sul do brasil", "centro-oeste brasileiro","região norte do brasil", "região sul do brasil", "região sudeste do brasil", "região centro-oeste do brasil", "espaço geográfico","desigualdade", "geografia humana", "geografia física", "geografia política", "geografia econômica", "geografia urbana", "geografia regional", "geografia ambiental", "onu"
+    "brasil", "nordeste brasileiro", "amazônia legal",
+    "guerra", "conflito", "mísseis", "ataque militar", "bomba", "ofensiva",
+    "pib", "inflação", "desemprego", "recessão", "bolsa de valores",
+    "câmbio", "dólar", "exportação", "importação", "balança comercial",
+    "banco central", "juros", "selic", "fmi", "banco mundial",
+    "dívida pública", "agronegócio", "commodities", "comércio exterior",
+    "satélite", "sensoriamento remoto", "drone", "cidade inteligente", "smart city",
+    "agritech", "embrapa", "biocombustível", "hidrogênio verde",
+    "lavoura", "pecuária", "reforma agrária", "agricultura familiar",
+    "assentamento", "safra", "colheita", "zona rural", "fronteira agrícola",
+    "matopiba", "soja", "milho", "algodão", "gado"
   ],
 
   "keywords_extra": [],
+
+  "keywords_bloqueio": [
+    "futebol", "campeonato", "gol", "partida", "placar", "clube", "torcida", "jogador", "jogadora",
+    "vôlei", "basquete", "natação", "tênis", "fórmula 1", "moto gp",
+    "sertanejo", "funkeiro", "álbum", "novo disco", "cantora", "cantor", "rapper", "banda",
+    "bets", "apostas esportivas", "cassino",
+    "reality show", "big brother", "bbb",
+    "patrimônio de", "patrimônio da", "patrimônio do", "fortuna de",
+    "vereador", "vereadora", "deputado estadual", "deputada estadual",
+    "morre pai de", "morre mãe de", "morre filho de", "morre filha de",
+    "morre ator", "morre atriz", "morre cantor", "morre cantora",
+    "messi", "neymar", "cristiano ronaldo", "mbappé", "vini jr",
+    "celebridade", "famoso", "famosa", "novela", "série da netflix",
+    "gosta de ler", "escritor", "literatura", "livro didático", "prêmio literário",
+    "ator", "atriz", "cinema", "filme estreia", "bilheteria",
+    "receita federal", "imposto de renda", "declaração do ir",
+    "concurso público", "edital de concurso",
+    "colesterol", "triglicérides", "diabetes", "hipertensão arterial",
+    "cardiologista", "neurologista", "pediatra", "ortopedista", "dermatologista",
+    "implante cerebral", "implante coclear", "teste do pezinho", "amamentação",
+    "alzheimer", "parkinson", "esclerose", "doença rara", "doença autoimune",
+    "chatbot", "ia generativa", "modelo de linguagem", "inteligência artificial avança",
+    "faa ", "fda ", "anvisa", "anatel", "anac",
+    "moda", "fashion", "beleza", "cosméticos", "skincare",
+    "berkshire", "warren buffett", "elon musk", "jeff bezos",
+    "poupança", "pix ",
+    "lucro líquido de", "resultado do trimestre",
+    "plano de governo", "eleições 2026", "candidatura a", "bravatas",
+    "lula disse", "bolsonaro disse", "lula critica", "lula defende soberania",
+    "emendas parlamentares", "debate sobre emendas",
+    "coisa de homem", "contra os eua"
+  ],
 
   "categorias": {
     "Clima": {
       "emoji": "🌱",
       "cor": "#00838f",
-      "regex": "climat|cop|carbono|emissão|desmat|bioma|amaz|oceano|seca|enchente|chuva|furacão|vulcão|terremoto|aquecimento|temperatura|inundação|ciclone|tsunami"
-    },
-    "Brasil": {
-      "emoji": "🇧🇷",
-      "cor": "#f9a825",
-      "regex": "\\bbrasil\\b|brasileir|ibge|lula|governo federal|congresso nacional|petrobras|nordeste|sudeste|sul do brasil|norte do brasil|centro-oeste|são paulo|rio de janeiro|brasília|amazônia legal|sus\\b|planalto"
+      "regex": "climat|cop30|carbono|emissão|desmat|bioma|amaz|oceano|seca|enchente|chuva|furacão|vulcão|terremoto|aquecimento|temperatura|inundação|ciclone|tsunami|vendaval|geada|ventania|incêndio florestal|queimada"
     },
     "Geopolítica": {
       "emoji": "🌐",
       "cor": "#1565c0",
-      "regex": "otan|onu\\b|brics|g20|mercosul|fronteira|território|refugiado|conflito armado|guerra|sanção|diplomacia|geopolítica|tratado|aliança"
+      "regex": "otan|onu\\b|brics|g20|mercosul|fronteira|território|refugiado|conflito armado|guerra|sanção|diplomacia|geopolítica|tratado|aliança|imigração|embaixador|soberania nacional|estreito"
+    },
+    "Espaço Rural": {
+      "emoji": "🌾",
+      "cor": "#558b2f",
+      "regex": "agropecuária|lavoura|pecuária|reforma agrária|agricultura familiar|cooperativa agrícol|safra|colheita|assentamento|fronteira agrícola|zona rural|produtor rural|matopiba|fazenda|gado|bovino|soja|milho|algodão|cana-de-açúcar|pastagem|grão"
+    },
+    "Tecnologia": {
+      "emoji": "💻",
+      "cor": "#37474f",
+      "regex": "satélite|drone|sensoriamento remoto|cidade inteligente|smart city|agritech|tecnologia agrícola|inovação tecnológ|embrapa|inpe|biocombustível|hidrogênio verde|monitoramento ambiental|irrigação inteligente|startup agrícola"
+    },
+    "Brasil": {
+      "emoji": "🇧🇷",
+      "cor": "#f9a825",
+      "regex": "\\bbrasil\\b|brasileir|ibge|governo federal|congresso nacional|petrobras|nordeste|sudeste|sul do brasil|norte do brasil|centro-oeste|são paulo|rio de janeiro|brasília|amazônia legal|sus\\b|planalto"
     },
     "Economia": {
       "emoji": "📈",
       "cor": "#6a1b9a",
-      "regex": "pib|inflação|desemprego|emprego|recessão|mercado|bolsa|câmbio|dólar|exportação|importação|balança comercial|comércio exterior|banco central|juros|selic|fmi|banco mundial|dívida|déficit|superávit|petróleo|commodit|agronegócio|indústria|produção industrial|economia"
+      "regex": "pib|inflação|desemprego|recessão|câmbio|dólar|exportação|importação|balança comercial|comércio exterior|banco central|selic|fmi|banco mundial|dívida|déficit|superávit|commodity|commodit|agronegócio|petróleo|minério"
     },
     "Geografia": {
       "emoji": "🌍",
@@ -50,13 +105,65 @@
   },
 
   "fontes": [
-    { "url": "https://g1.globo.com/rss/g1/mundo/",                            "origem": "G1 Mundo",       "cor": "#e53935", "categoria_forcada": null },
-    { "url": "https://feeds.bbci.co.uk/portuguese/rss.xml",                   "origem": "BBC Brasil",     "cor": "#b71c1c", "categoria_forcada": null },
-    { "url": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.rss", "origem": "Agência Brasil", "cor": "#1565c0", "categoria_forcada": null },
-    { "url": "https://g1.globo.com/rss/g1/brasil/",                           "origem": "G1 Brasil",      "cor": "#e65100", "categoria_forcada": "Brasil" }
+    { "url": "https://feeds.bbci.co.uk/portuguese/rss.xml",                          "origem": "BBC Brasil",          "cor": "#b71c1c", "categoria_forcada": null           },
+    { "url": "https://g1.globo.com/rss/g1/mundo/",                                   "origem": "G1 Mundo",            "cor": "#e53935", "categoria_forcada": null           },
+    { "url": "https://www.poder360.com.br/feed/",                                     "origem": "Poder360",            "cor": "#6a1b9a", "categoria_forcada": null           },
+    { "url": "https://agenciabrasil.ebc.com.br/rss/meio-ambiente/feed.xml",           "origem": "Ag. Brasil Clima",    "cor": "#1565c0", "categoria_forcada": null           },
+    { "url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",                "origem": "Ag. Brasil Economia", "cor": "#1565c0", "categoria_forcada": null           },
+    { "url": "https://agenciabrasil.ebc.com.br/rss/geral/feed.xml",                   "origem": "Ag. Brasil Geral",    "cor": "#f9a825", "categoria_forcada": "Brasil"        },
+    { "url": "https://g1.globo.com/rss/g1/tecnologia/",                               "origem": "G1 Tecnologia",       "cor": "#37474f", "categoria_forcada": "Tecnologia"   },
+    { "url": "https://g1.globo.com/rss/g1/economia/agronegocios/",                    "origem": "G1 Agronegócios",     "cor": "#33691e", "categoria_forcada": "Espaço Rural" }
   ],
 
+  "filtro_categoria": {
+    "Brasil": {
+      "_nota": "Artigo Brasil exige ao menos 1 termo geográfico real além de brasil/brasileiro",
+      "require_extra": [
+        "região", "nordeste", "sudeste", "sul do brasil", "norte do brasil", "centro-oeste",
+        "ibge", "censo", "território", "amazônia", "bioma", "cerrado", "pantanal", "caatinga",
+        "sertão", "litoral", "bacia hidrográfica", "rio ", "desmatamento", "urbanização",
+        "saneamento", "população", "fronteira", "infraestrutura", "agropecuária",
+        "exportação", "importação", "petrobras", "porto de", "hidroelétrica",
+        "seca", "enchente", "inundação", "queimadas", "êxodo",
+        "vendaval", "geada", "ventania", "ciclone", "floresta"
+      ]
+    },
+    "Economia": {
+      "_nota": "Economia exige conteúdo macro-geoeconômico, não micro-financeiro doméstico",
+      "require_extra": [
+        "exportação", "importação", "balança comercial", "comércio exterior",
+        "commodity", "commodities", "agronegócio", "câmbio", "dólar",
+        "petróleo", "minério", "soja", "milho", "carne bovina",
+        "pib", "fmi", "banco mundial", "ocde", "g20",
+        "inflação", "desemprego", "recessão", "déficit", "superávit",
+        "dívida pública", "comércio internacional", "mercado global", "bolsa de valores"
+      ]
+    },
+    "Tecnologia": {
+      "_nota": "Tecnologia deve ter conexão geo-ambiental, não apenas tech de consumo",
+      "require_extra": [
+        "satélite", "drone", "sensoriamento", "agritech", "tecnologia agrícola",
+        "cidade inteligente", "smart city", "embrapa", "inpe",
+        "biocombustível", "hidrogênio", "monitoramento ambiental", "irrigação",
+        "energia solar", "energia eólica", "energia renovável",
+        "amazônia", "floresta", "carbono", "agricultura de precisão", "startup agrícola"
+      ]
+    },
+    "Espaço Rural": {
+      "_nota": "Espaço Rural exige conteúdo agropecuário ou geográfico rural",
+      "require_extra": [
+        "lavoura", "pecuária", "safra", "colheita", "reforma agrária", "agricultura familiar",
+        "assentamento", "zona rural", "fronteira agrícola", "produtor rural", "cooperativa",
+        "soja", "milho", "cana", "algodão", "bovino", "gado", "pastagem", "matopiba",
+        "agronegócio", "fazenda", "embrapa", "cerrado", "savana"
+      ]
+    }
+  },
+
   "cache_horas": 6,
-  "max_por_fonte": 5,
-  "max_total": 12
+  "max_por_fonte": 3,
+  "max_itens_scan": 30,
+  "max_dias_noticia": 30,
+  "max_total": 6,
+  "max_por_categoria": 2
 }

@@ -323,10 +323,7 @@
         }
     }
 
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', _injetarBotaoFlutuante);
-    } else {
-        _injetarBotaoFlutuante();
-    }
+    // Botão flutuante desativado — controle de som está na navbar
+    // _injetarBotaoFlutuante();
 
 })();

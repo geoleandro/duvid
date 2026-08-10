@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Demografia mundial: taxas de natalidade, mortalidade e fecundidade, transição demográfica, envelhecimento populacional e as teorias de Malthus ao neomalthusianismo">
+    <meta property="og:title" content="Texto 02 - A população no mundo">
+    <meta property="og:description" content="Por que a população mundial cresce em ritmos tão diferentes de país para país? Uma análise da transição demográfica, das taxas de natalidade e mortalidade e das teorias que tentam explicar o crescimento populacional">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,9 +47,11 @@
     <script src="/js/carregar.js" defer></script>
 
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
-    <title>3º ano - Texto 02</title>
+    <title>3º ano - Texto 02 - A População no Mundo</title>
 
 
 
@@ -133,40 +137,6 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
-                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-                <h3>1. Explique o conceito de Revolução Demográfica e como ela impactou o crescimento populacional
-                    mundial.
-                </h3>
-                <h3>2. O que é a explosão demográfica e quais fatores a impulsionaram?</h3>
-                <h3>3. Analise como a transição demográfica reflete a evolução de uma sociedade agrária para uma
-                    urbana-industrial, destacando seu impacto no crescimento vegetativo</h3>
-                <h3>4. Compare a taxa de natalidade e a taxa de fecundidade. Qual a importância de cada uma para os
-                    estudos
-                    demográficos?</h3>
-                <h3>5. Por que a mortalidade infantil é um importante indicador da qualidade de vida em uma sociedade?
-                </h3>
-                <h3>6. O que a teoria de Thomas Malthus previa sobre o crescimento populacional? Essa previsão se
-                    concretizou?</h3>
-                <h3>7. Quais são as principais diferenças na dinâmica populacional entre países desenvolvidos e países
-                    em
-                    desenvolvimento?</h3>
-                <h3>8. Quais desafios as sociedades enfrentam devido ao envelhecimento populacional?</h3>
-                <h3>9. Como a migração influencia a distribuição da população pelo mundo?</h3>
-                <h3>10. Por que as taxas de fecundidade estão diminuindo globalmente? Quais fatores explicam essa
-                    mudança?
-
-            </div>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
-        </div>
-
-
-
-
-        <div class="topico">
 
             <h2> Evolução da População Mundial: Fases e Dinâmicas </h2>
 
@@ -236,6 +206,17 @@
                 contemporâneos incluem o envelhecimento populacional, os fluxos migratórios internacionais e as
                 disparidades
                 na distribuição geográfica.</p>
+
+            <p>Em números concretos: a população mundial passou de 8 bilhões de pessoas em 2022 para cerca de 8,3
+                bilhões em 2026, crescendo a um ritmo de aproximadamente 0,84% ao ano, abaixo dos 0,97% registrados
+                em 2020. Desde 2023, a Índia é o país mais populoso do mundo, ultrapassando a China, que vem
+                registrando queda populacional puxada por décadas de baixa fecundidade. Segundo a revisão de 2024 das
+                projeções da ONU, o planeta deve atingir seu pico populacional na década de 2080, com cerca de 10,3
+                bilhões de habitantes, para então iniciar um declínio gradual. Mais da metade desse crescimento
+                projetado entre 2026 e 2050 deve se concentrar em apenas oito países, quatro asiáticos (Índia,
+                Indonésia, Filipinas e Paquistão) e quatro africanos (Etiópia, República Democrática do Congo, Egito
+                e Tanzânia), reforçando que o centro de gravidade demográfico do planeta está se deslocando cada vez
+                mais para a Ásia e a África.</p>
 
             <div class="w3-margin"><img id="imagem2" src="tt02f02.png" alt="tt02f02" class="w3-mobile"><span
                     class="w3-small w3-margin-left" id="citacao2"> Fonte:
@@ -346,12 +327,16 @@
             <h2> Natalidade, Mortalidade e Fecundidade </h2>
 
             <p> O estudo da dinâmica populacional fundamenta-se em três indicadores principais. O primeiro é a
-                <strong>natalidade</strong>, que representa a frequência de nascimentos em uma população dentro de um
+                <span class="termo" data-palavra="Natalidade"
+                    data-definicao="Número de nascimentos ocorridos em uma população durante um período determinado, geralmente expresso como taxa por mil habitantes ao ano. É um dos dois componentes do crescimento vegetativo, junto com a mortalidade.">natalidade</span>,
+                que representa a frequência de nascimentos em uma população dentro de um
                 período determinado. Este índice é essencial para calcular o crescimento natural e entender a renovação
                 geracional de uma sociedade.
             </p>
 
-            <p>A <strong>fecundidade</strong> é um indicador mais específico, que estima o número médio de filhos que
+            <p>A <span class="termo" data-palavra="Fecundidade"
+                    data-definicao="Número médio de filhos que uma mulher teria ao longo de seu período reprodutivo (entre 15 e 49 anos), em determinada população. Quando essa taxa é de 2,1 filhos por mulher, considera-se que há reposição populacional: o tamanho da população se mantém estável, desconsiderando migrações.">fecundidade</span>
+                é um indicador mais específico, que estima o número médio de filhos que
                 uma
                 mulher teria ao longo de seu período reprodutivo. Diferente da natalidade, a fecundidade reflete
                 variáveis
@@ -359,25 +344,29 @@
                 vida
                 urbano e a inserção da mulher no mercado de trabalho.</p>
 
-            <p>Complementando a análise, a <strong>mortalidade</strong> indica o número de óbitos em uma população em um
+            <p>Complementando a análise, a <span class="termo" data-palavra="Mortalidade"
+                    data-definicao="Número de óbitos ocorridos em uma população durante um período determinado, geralmente expresso como taxa por mil habitantes ao ano. Junto com a natalidade, define o crescimento vegetativo de uma população.">mortalidade</span>
+                indica o número de óbitos em uma população em um
                 dado período. A análise dessas taxas permite aferir a eficácia das políticas de saúde pública, as
                 condições
                 de saneamento básico e o nível de desenvolvimento socioeconômico de uma região, fatores que impactam
                 diretamente a expectativa de vida e a longevidade.</p>
 
-            <div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 
                 <h4><strong>Thomas Robert Malthus e a Teoria Malthusiana</strong></h4>
 
                 <p> <img src="tt02f08.png" alt="Thomas Malthus" class="w3-left w3-circle w3-margin-right"
                         style="width:80px">
-                    Thomas Robert Malthus, economista britânico do final do século XVIII, formulou uma das primeiras
+                    Thomas Robert Malthus, economista britânico, formulou em 1798 uma das primeiras
                     teorias
                     demográficas sistemáticas. Em sua obra, Malthus alertava para um desequilíbrio estrutural entre o
                     crescimento populacional e a produção de meios de subsistência, prevendo um colapso social caso o
                     crescimento não fosse controlado.</p>
 
-                <p>A teoria malthusiana sustentava que a população tendia a crescer em <strong>progressão geométrica
+                <p>A teoria <span class="termo" data-palavra="Malthusianismo"
+                    data-definicao="Teoria formulada por Thomas Malthus em 1798, segundo a qual a população cresceria em progressão geométrica (1, 2, 4, 8, 16...) enquanto a produção de alimentos cresceria apenas em progressão aritmética (1, 2, 3, 4, 5...), gerando fome, epidemias e guerras como freios naturais ao crescimento populacional. Suas previsões mais pessimistas não se confirmaram, mas a teoria influenciou pensadores posteriores, incluindo Charles Darwin.">malthusiana</span>
+                    sustentava que a população tendia a crescer em <strong>progressão geométrica
                         (PG)</strong>, enquanto a produção de alimentos cresceria apenas em <strong>progressão
                         aritmética
                         (PA)</strong>. Segundo Malthus, esse descompasso resultaria inevitavelmente em crises de fome,
@@ -385,12 +374,36 @@
 
                 <p>Embora pioneira, a teoria recebeu críticas severas ao longo do tempo. Malthus subestimou o impacto
                     das
-                    inovações tecnológicas na agricultura — a chamada "Revolução Verde" — que aumentou exponencialmente
+                    inovações tecnológicas na agricultura, como a chamada "Revolução Verde", que aumentou exponencialmente
                     a
                     produtividade do campo. Além disso, ele não previu a queda espontânea da natalidade decorrente da
                     urbanização e do desenvolvimento social, fenômenos que invalidaram suas projeções mais pessimistas
                     no
-                    longo prazo.</p>
+                    longo prazo. Em 2022, segundo a Organização das Nações Unidas para a Alimentação e a Agricultura
+                    (FAO), entre 691 e 783 milhões de pessoas foram afetadas pela fome no mundo, mas essa realidade não
+                    resulta da incapacidade de produzir alimento suficiente para todos, como temia Malthus, e sim da
+                    forma desigual como a riqueza é distribuída no capitalismo, tema que você já estudou na aula
+                    passada.</p>
+
+            </div>
+
+            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
+
+                <h4><strong>O Neomalthusianismo e o controle de natalidade</strong></h4>
+
+                <p>No final da década de 1960, quando a população mundial batia recordes de crescimento (cerca de 2%
+                    ao ano, com projeção de dobrar em apenas 35 anos), as ideias de Malthus foram retomadas por um
+                    novo movimento, o <span class="termo" data-palavra="Neomalthusianismo"
+                        data-definicao="Retomada, a partir das décadas de 1960-1970, das ideias de Malthus: defende que o crescimento populacional descontrolado é uma das principais causas da pobreza em regiões em desenvolvimento e da pressão sobre os recursos naturais, e propõe o controle direto da natalidade (planejamento familiar, métodos contraceptivos, e em casos extremos políticas estatais como a do filho único chinesa) como solução. Diferente do malthusianismo original, contou com apoio de governos, ONGs e parte do movimento ambientalista.">neomalthusianismo</span>.
+                    Diferente de Malthus, que via fome e epidemias como freios naturais, os neomalthusianistas
+                    defendiam o controle direto da natalidade por meio de políticas de planejamento familiar,
+                    argumentando que o crescimento populacional descontrolado desviaria recursos que poderiam ser
+                    investidos em desenvolvimento econômico. O exemplo mais conhecido é a China, que impôs a partir da
+                    década de 1970 uma política de filho único em quase todo o território: com a população jovem
+                    encolhendo e o número de idosos crescendo, o governo chinês passou a permitir dois filhos por
+                    casal em 2013. Essa mesma preocupação, entre as décadas de 1970 e 1980, ganhou também apoiadores
+                    no movimento ambientalista, que via no crescimento populacional acelerado uma ameaça aos recursos
+                    naturais do planeta, um debate que ecoa até hoje nas discussões sobre sustentabilidade.</p>
 
             </div>
 
@@ -414,7 +427,9 @@
                 de óbitos de crianças menores de um ano para cada mil nascidos vivos. A mortalidade infantil é
                 considerada um dos principais termômetros do desenvolvimento social de um país, pois reflete diretamente
                 a qualidade da assistência pré-natal, as condições de higiene, a eficácia das campanhas de vacinação e o
-                estado nutricional da população.</p>
+                estado nutricional da população. A distância entre países é grande: na União Europeia, de mil
+                crianças nascidas vivas, apenas 3,3 morrem antes de completar um ano, um patamar que a maioria dos
+                países em desenvolvimento ainda está longe de alcançar.</p>
 
             <div class="w3-margin"><img id="imagem4" src="tt02f04.png" alt="Gráfico de Mortalidade Infantil"
                     class="w3-mobile">
@@ -423,7 +438,9 @@
 
             <h3> Esperança de Vida ao Nascer</h3>
 
-            <p> A <strong>esperança de vida ao nascer</strong>, ou longevidade média, é um indicador estatístico que
+            <p> A <span class="termo" data-palavra="Esperança de Vida ao Nascer"
+                    data-definicao="Também chamada de expectativa de vida ao nascer, é um indicador estatístico que projeta o número médio de anos que um recém-nascido deve viver, mantidas as taxas de mortalidade observadas no momento de seu nascimento. Sintetiza as condições gerais de vida de uma população, conectando avanços na medicina, segurança pública e qualidade ambiental.">esperança
+                    de vida ao nascer</span>, ou longevidade média, é um indicador estatístico que
                 projeta o número médio de anos que se espera que um recém-nascido viva, mantidas as taxas de mortalidade
                 observadas no momento de seu nascimento. Este índice sintetiza as condições gerais de vida de uma
                 população, conectando avanços na medicina, segurança pública e qualidade ambiental.</p>
@@ -438,7 +455,10 @@
 
             <h3>Crescimento Vegetativo e Crescimento Real </h3>
 
-            <p>A dinâmica demográfica de um local é definida inicialmente pelo <strong>crescimento vegetativo</strong>
+            <p>A dinâmica demográfica de um local é definida inicialmente pelo <span class="termo"
+                    data-palavra="Crescimento Vegetativo"
+                    data-definicao="Também chamado de crescimento natural, é a diferença entre as taxas de natalidade e de mortalidade de uma população em determinado período, sem considerar migrações. O crescimento é positivo quando nascem mais pessoas do que morrem, e negativo quando o número de óbitos supera o de nascimentos, fenômeno observado atualmente em diversos países europeus e no Japão.">crescimento
+                    vegetativo</span>
                 (ou natural). Este conceito representa a diferença entre a taxa de natalidade e a taxa de mortalidade. O
                 crescimento é positivo quando nascem mais pessoas do que morrem, e negativo quando o número de óbitos
                 supera o de nascimentos, fenômeno observado atualmente em diversos países europeus e no Japão.</p>
@@ -477,7 +497,7 @@
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
                     <label for="p1a" class="card-opcao">
                         <span>
-                            a) Aumentou a mortalidade devido à falta de saneamento.
+                            Aumentou a mortalidade
                         </span>
                     </label>
                 </div>
@@ -486,7 +506,7 @@
                     <input type="radio" name="pergunta1" id="p1b" value="errado" class="radio-duvid">
                     <label for="p1b" class="card-opcao">
                         <span>
-                            b) Reduziu drasticamente a natalidade por escassez de recursos.
+                            Reduziu a natalidade
                         </span>
                     </label>
                 </div>
@@ -495,8 +515,7 @@
                     <input type="radio" name="pergunta1" id="p1c" value="correto" class="radio-duvid">
                     <label for="p1c" class="card-opcao">
                         <span>
-                            c) Reduziu a mortalidade devido a melhorias na higiene, impulsionando o crescimento
-                            populacional.
+                            Reduziu a mortalidade, crescimento acelerou
                         </span>
                     </label>
                 </div>
@@ -520,51 +539,6 @@
 
 
 
-
-        <div class="topico w3-container w3-padding-16">
-            <p class="caixa">Escolha a alternativa correta:</p>
-
-            <h4>O que é esperança de vida ao nascer?</h4>
-
-            <div id="questao2">
-                <p>
-                    <input class="w3-radio" type="radio" name="pergunta2" value="correto">
-                    <label>
-                        a média de anos que um recém-nascido espera viver em uma determinada região e período.
-                    </label>
-                </p>
-
-                <p>
-                    <input class="w3-radio" type="radio" name="pergunta2" value="errado">
-                    <label>
-                        o período de tempo entre duas gerações de uma família.
-                    </label>
-                </p>
-                <p>
-                    <input class="w3-radio" type="radio" name="pergunta2" value="errado">
-                    <label>
-                        a média de anos que uma pessoa vive após atingir 60 anos.
-
-                    </label>
-                </p>
-            </div>
-
-            <!-- <button class="btnShow"
-                onclick="validarRadio(this, 'g1', 'f1', 'gl1', 'Tente revisar o conceito de território!', '10')">
-                Confirmar
-            </button> -->
-
-            <button class="btnShow"
-                onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Quase! é a média do tempo de vida de um ser humano.', '10')">
-                Confirmar Resposta
-            </button>
-
-            <p id="resp2" class="w3-center w3-padding"></p>
-            <div class="area">
-                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80px"
-                    height="80px" alt="globinho2">
-            </div>
-        </div>
 
 
         <div class="topico">
@@ -603,7 +577,9 @@
 
             <h3>A Transição Demográfica</h3>
 
-            <p>A <strong>Transição Demográfica</strong> é o conceito que descreve a passagem de um regime de alta
+            <p>A <span class="termo" data-palavra="Transição Demográfica"
+                    data-definicao="Modelo teórico elaborado na década de 1930 que descreve a passagem de um regime de alta natalidade e alta mortalidade para um regime de baixas taxas de ambas. O modelo original é dividido em três fases (queda da mortalidade com natalidade ainda alta; queda de ambas, mas com diferença grande entre elas; queda mais acentuada da natalidade), mas didaticamente costuma ser apresentado em quatro fases, como abaixo. É apenas uma referência teórica, mas descreve bem o padrão observado na maior parte dos países entre os séculos XIX e XXI.">Transição
+                    Demográfica</span> é o conceito que descreve a passagem de um regime de alta
                 natalidade e mortalidade para um regime de baixas taxas. Esse processo ocorre em quatro fases
                 principais:</p>
 
@@ -618,7 +594,15 @@
                     demográfico moderno).</li>
             </ul>
 
-
+            <p>Os números recentes confirmam essa tendência em escala mundial: no final da década de 1960, a taxa
+                média global de fecundidade era mais do que o dobro da registrada em 2022, e em 2020 a taxa de
+                crescimento demográfico do mundo ficou abaixo de 1% ao ano pela primeira vez desde 1950. Em 2022,
+                cerca de 66% da humanidade já vivia em países com fecundidade abaixo do nível de reposição (2,1
+                filhos por mulher), principalmente na Europa, na América do Norte e em parte da Ásia. O quadro é
+                bem diferente na África Subsaariana, onde a fecundidade segue mais alta, embora também em queda: de
+                6,7 filhos por mulher em 1970 para 4,6 em 2021, uma redução puxada em parte pela persistência de
+                taxas elevadas de mortalidade infantil na região, o que leva famílias a terem mais filhos como forma
+                de reduzir o risco de perder algum deles.</p>
 
             <div class="w3-margin"><img id="imagem7" src="tt02f07.png" alt="Esquema da Transição Demográfica"
                     class="w3-mobile">
@@ -627,13 +611,23 @@
 
             <h3>Estrutura Etária e o Envelhecimento Populacional</h3>
 
-            <p>Atualmente, o mundo vivencia um processo acelerado de <strong>envelhecimento populacional</strong>. Com o
+            <p>Atualmente, o mundo vivencia um processo acelerado de <span class="termo"
+                    data-palavra="Envelhecimento Populacional"
+                    data-definicao="Aumento da proporção de idosos em relação ao total da população, resultado do aumento da expectativa de vida combinado com a queda da fecundidade. Em 2019, pela primeira vez na história, o número de idosos no mundo ultrapassou o número de crianças de até 4 anos, e a tendência é essa proporção continuar crescendo nas próximas décadas.">envelhecimento
+                    populacional</span>. Com o
                 aumento da expectativa de vida e a queda da fecundidade, a proporção de idosos na população total cresce
-                significativamente. Esse fenômeno gera impactos diretos na economia, exigindo reformas nos sistemas de
-                previdência e maiores investimentos em saúde geriatra.</p>
+                significativamente, a ponto de, em 2019, pela primeira vez na história, o número de idosos no mundo
+                ter ultrapassado o número de crianças de até 4 anos. Esse fenômeno gera impactos diretos na economia,
+                exigindo reformas nos sistemas de
+                previdência e maiores investimentos em saúde geriátrica. O Brasil segue essa mesma tendência: segundo
+                o Censo de 2022 do IBGE, pessoas com 65 anos ou mais já representavam 10,9% da população brasileira,
+                mais de 22 milhões de pessoas, um salto de 57,4% em relação ao Censo de 2010.</p>
 
-            <p>A análise da estrutura econômica de um país divide a população entre <strong>População Economicamente
-                    Ativa (PEA)</strong> — indivíduos em idade de trabalhar que estão empregados ou procurando emprego —
+            <p>A análise da estrutura econômica de um país divide a população entre <span class="termo"
+                    data-palavra="PEA (População Economicamente Ativa)"
+                    data-definicao="Sigla para População Economicamente Ativa: parcela da população em idade de trabalhar que está empregada ou procurando emprego. Se contrapõe à população inativa (crianças, jovens ainda não inseridos no mercado e aposentados). O equilíbrio entre PEA e população inativa é fundamental para o dinamismo econômico e o financiamento da previdência social de um país.">População
+                    Economicamente Ativa (PEA)</span>, formada por indivíduos em idade de trabalhar que estão
+                empregados ou procurando emprego,
                 e a população inativa (jovens e aposentados). O equilíbrio entre esses grupos é fundamental para a
                 manutenção do dinamismo econômico e do bem-estar social.</p>
 
@@ -645,14 +639,32 @@
                 cadeias montanhosas dificultam a fixação humana (áreas anecúmenas).
             </p>
 
+            <p>Alguns exemplos ajudam a visualizar esse contraste. Entre as áreas ecúmenas mais densas do planeta
+                estão o vale e o delta do rio Nilo, no Egito, onde mais de 95% da população vive em uma faixa
+                estreita de terra fértil às margens do rio; a ilha de Java, na Indonésia, que concentra mais de 140
+                milhões de pessoas em uma área menor que a do estado de São Paulo; e o delta do rio Ganges, em
+                Bangladesh, um dos países mais densamente povoados do mundo. Do outro lado, o deserto do Saara, a
+                Sibéria, o interior da Austrália e as porções mais densas da floresta amazônica seguem entre as
+                maiores áreas anecúmenas do planeta, com densidades demográficas próximas de zero habitante por
+                quilômetro quadrado.</p>
+
             <p>Além das condições físicas, fatores econômicos como a presença de indústrias, polos de serviços e
                 infraestrutura de transportes determinam os principais fluxos de adensamento populacional na
                 contemporaneidade, consolidando as grandes regiões metropolitanas globais.</p>
+
+            <p>Boa parte dessa distribuição desigual da população, porém, não é só resultado de onde as pessoas
+                nasceram: é também resultado de para onde elas se deslocaram ao longo da vida. Você já viu nesta
+                aula que o saldo migratório entra na conta do crescimento real de um país, e essa é justamente a
+                porta de entrada para a próxima aula, sobre migrações internacionais: por que milhões de pessoas
+                decidem deixar seus países de origem, o que diferencia um imigrante de um refugiado, e como esses
+                fluxos de pessoas pelo mundo mudam a cara das cidades que os recebem.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
 
         </div>
+
+
 
         <div class="topico">
 
@@ -660,7 +672,7 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumot2.jpg"
+            <div class="w3-margin"><img id="infograficot2" src="inforesumott2.webp"
                     alt="Infográfico resumo raio x da população" class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
@@ -763,6 +775,43 @@
         </div>
 
 
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
+
+                <h3>1. Explique o conceito de Revolução Demográfica e como ela impactou o crescimento populacional
+                    mundial.
+                </h3>
+                <h3>2. O que é a explosão demográfica e quais fatores a impulsionaram?</h3>
+                <h3>3. Analise como a transição demográfica reflete a evolução de uma sociedade agrária para uma
+                    urbana-industrial, destacando seu impacto no crescimento vegetativo</h3>
+                <h3>4. Compare a taxa de natalidade e a taxa de fecundidade. Qual a importância de cada uma para os
+                    estudos
+                    demográficos?</h3>
+                <h3>5. Por que a mortalidade infantil é um importante indicador da qualidade de vida em uma sociedade?
+                </h3>
+                <h3>6. Qual a diferença entre o malthusianismo e o neomalthusianismo? Cite um exemplo de política
+                    neomalthusiana.</h3>
+                <h3>7. Quais são as principais diferenças na dinâmica populacional entre países desenvolvidos e países
+                    em
+                    desenvolvimento?</h3>
+                <h3>8. Quais desafios as sociedades enfrentam devido ao envelhecimento populacional?</h3>
+                <h3>9. Como a migração influencia a distribuição da população pelo mundo?</h3>
+                <h3>10. Por que as taxas de fecundidade estão diminuindo globalmente? Quais fatores explicam essa
+                    mudança?</h3>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
 
 
         <div class="topico">
@@ -776,7 +825,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema A População no Mundo é fantástico! Continue estudando!',
         pontos: 40
     });
     

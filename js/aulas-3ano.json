@@ -11,6 +11,7 @@
     "bibliografia": [
       "SantosGlobalizacao",
       "SantosEspacoCidadao",
+      "TerraGuimaraesAraujo",
       "Vogler",
       "Soja",
       "Vesentini",
@@ -23,7 +24,8 @@
       "DWPobreza",
       "ACNURDeslocados",
       "UNFome"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto01/inforesumott1.webp"
   },
   {
     "id": 302,
@@ -36,13 +38,15 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=302",
     "bibliografia": [
       "Candelori",
+      "TerraGuimaraesAraujo",
       "Vogler",
       "Skolnick",
       "BNCC"
     ],
     "links": [
       "ONUPopulacaoMundial"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto02/inforesumott2.webp"
   },
   {
     "id": 303,
@@ -55,6 +59,7 @@
     "audio": null,
     "bibliografia": [
       "Candelori",
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -64,7 +69,8 @@
       "ACNURDeslocados",
       "ACNURVenezuela",
       "ACNURAfricaRefugiados"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto03/inforesumott3.webp"
   },
   {
     "id": 304,
@@ -76,6 +82,7 @@
     "objetivo": "Comparar dados sobre educação, saúde, moradia, poder de consumo e outros para entender os determinantes do desenvolvimento. Relacionar o desenvolvimento econômico com as diferentes situações de distribuição da população entre os três setores da economia.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vogler",
       "Skolnick",
       "BNCC",
@@ -85,7 +92,8 @@
       "DWPobreza",
       "UNFome",
       "ONUPopulacaoMundial"
-    ]
+    ],
+      "mapaMental": "3ano/Textos3/Texto04/inforesumott4.webp"
   },
   {
     "id": 305,
@@ -97,6 +105,7 @@
     "objetivo": "Citar e explicar as tentativas de medir o desenvolvimento, com destaque para o PIB, o IDH, o índice GINI e a desigualdade de acesso a elementos fundamentais.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -106,7 +115,8 @@
       "DWPobreza",
       "IBGECidades",
       "ONUPopulacaoMundial"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto05/inforesumott5.webp"
   },
   {
     "id": 306,

@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Migracoes internas, exodo rural e transumancia no Brasil: como e por que os brasileiros se movem dentro do proprio pais">
-    <meta property="og:title" content="Texto 25 - Populacao IV: Migracoes">
-    <meta property="og:description" content="Migracoes internas, pendulares e de retorno; exodo rural e transumancia no Brasil">
+    <meta name="description" content="Migrações internas, êxodo rural e transumância no Brasil: como e por que os brasileiros se movem dentro do próprio país">
+    <meta property="og:title" content="Texto 25 - População IV: Migrações">
+    <meta property="og:description" content="Migrações internas, pendulares e de retorno; êxodo rural, transumância e urbanização no Brasil">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
@@ -42,6 +43,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title></title>
 
@@ -79,7 +81,7 @@
 
             <div class="w3-container w3-padding-16">
                 <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
-                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender os tipos de migração interna no Brasil (pendular, de retorno, espontânea e forçada); entender as causas históricas e atuais do êxodo rural e suas consequencias para as cidades; conhecer o conceito de transumancia e os principais fluxos migratórios internos brasileiros.</span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender os tipos de migração interna no Brasil (pendular, de retorno, espontânea e forçada); entender as causas históricas e atuais do êxodo rural e suas consequências para as cidades; conhecer o conceito de transumância, os critérios de classificação urbano/rural do IBGE e os principais fluxos migratórios internos brasileiros, incluindo os movimentos mais recentes registrados pelo Censo 2022.</span></p>
             </div>
 
             <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
@@ -89,72 +91,72 @@
         </div>
 
 
-        <!-- BLOCO 2: Introducao -->
+        <!-- BLOCO 2: Introdução -->
         <div class="topico">
 
             <h2>Introdução</h2>
 
-            <p><span class="primeiraLetra">O</span> Brasil e um país de migrantes. Ao longo do século XX, dezenas de milhões de brasileiros deixaram o campo em direção as cidades. So na década de 1950, mais de 7 milhões de pessoas saíram do campo. Entre 1960 e 2000, o país saiu de 45% de população urbana para mais de 80%. Hoje, segundo o Censo 2022 do IBGE, 87,7% dos brasileiros vivem em cidades.</p>
+            <p><span class="primeiraLetra">O</span> Brasil é um país de migrantes. Ao longo do século XX, dezenas de milhões de brasileiros deixaram o campo em direção às cidades. Só na década de 1950, mais de 7 milhões de pessoas saíram do campo. Entre 1960 e 2000, o país saiu de 45% de população urbana para mais de 80%. Hoje, segundo o Censo 2022 do IBGE, 87,7% dos brasileiros vivem em cidades.</p>
 
-            <p>Essa transformação não foi suave. Foi o êxodo rural em massa que criou as favelas de São Paulo e Rio de Janeiro, que encheu as periferias das metrópoles nordestinas e que esvaziou municípios inteiros do interior do Nordeste e do Sudeste. Entender a migração interna e entender a própria história do Brasil urbano.</p>
+            <p>Essa transformação não foi suave. Foi o êxodo rural em massa que criou as favelas de São Paulo e Rio de Janeiro, que encheu as periferias das metrópoles nordestinas e que esvaziou municípios inteiros do interior do Nordeste e do Sudeste. Entender a migração interna é entender a própria história do Brasil urbano. Essa história não parou: ela apenas mudou de direção e de ritmo nas últimas décadas.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 3: Tipos de migracao -->
+        <!-- BLOCO 3: Tipos de migração -->
         <div class="topico">
 
             <h2>Tipos de Migração</h2>
 
-            <p>Antes de falar dos grandes fluxos brasileiros, e necessario entender como os geógrafos classificam os movimentos populacionais. A primeira grande divisão e entre <strong>migrações externas</strong> (entre países) e <span class="termo" data-palavra="Migração Interna" data-definicao="Movimento de populacao que ocorre dentro das fronteiras de um mesmo pais. No Brasil, o exemplo classico e o deslocamento de nordestinos para o Sudeste ao longo do seculo XX. A migracao interna pode ser classificada pelo tempo de permanencia, pela causa e pela distancia percorrida.">migrações internas</span> (dentro do próprio país). As migrações internacionais foram estudadas em aulas anteriores. Aqui o foco e o movimento dentro do Brasil.</p>
+            <p>Antes de falar dos grandes fluxos brasileiros, é necessário entender como os geógrafos classificam os movimentos populacionais. A primeira grande divisão é entre <strong>migrações externas</strong> (entre países) e <span class="termo" data-palavra="Migração Interna" data-definicao="Movimento de população que ocorre dentro das fronteiras de um mesmo país. No Brasil, o exemplo clássico é o deslocamento de nordestinos para o Sudeste ao longo do século XX. A migração interna pode ser classificada pelo tempo de permanência, pela causa e pela distância percorrida.">migrações internas</span> (dentro do próprio país). As migrações internacionais foram estudadas em aulas anteriores. Aqui o foco é o movimento dentro do Brasil.</p>
 
             <h3>Migração pendular</h3>
 
-            <p>A <span class="termo" data-palavra="Migração Pendular" data-definicao="Deslocamento diario ou semanal entre municipios distintos, geralmente da periferia para o centro metropolitano, para trabalhar ou estudar. Chama-se pendular porque o trabalhador vai e volta como um pendulo, sem mudar definitivamente de residencia. Em 2022, o IBGE estimou que mais de 8 milhoes de brasileiros faziam esse deslocamento diariamente.">migração pendular</span> e o deslocamento diario ou semanal entre municípios para trabalhar ou estudar, sem mudanca definitiva de residencia. E o caso do morador de Guarulhos que trabalha em São Paulo, ou do morador de Niteroi que trabalha no Rio. Esse tipo de migração e muito intenso nas regiões metropolitanas e revela a desigualdade espacial: as pessoas moram na periferia mais barata mas precisam ir ao centro para trabalhar.</p>
+            <p>A <span class="termo" data-palavra="Migração Pendular" data-definicao="Deslocamento diário ou semanal entre municípios distintos, geralmente da periferia para o centro metropolitano, para trabalhar ou estudar. Chama-se pendular porque o trabalhador vai e volta como um pêndulo, sem mudar definitivamente de residência. Em 2022, o IBGE estimou que mais de 8 milhões de brasileiros faziam esse deslocamento diariamente.">migração pendular</span> é o deslocamento diário ou semanal entre municípios para trabalhar ou estudar, sem mudança definitiva de residência. É o caso do morador de Guarulhos que trabalha em São Paulo, ou do morador de Niterói que trabalha no Rio. Esse tipo de migração é muito intenso nas regiões metropolitanas e revela a desigualdade espacial: as pessoas moram na periferia mais barata mas precisam ir ao centro para trabalhar.</p>
 
             <h3>Migração de retorno</h3>
 
-            <p>A <span class="termo" data-palavra="Migração de Retorno" data-definicao="Movimento de populacao em que migrantes voltam para sua regiao de origem apos um periodo fora. No Brasil, e o caso de nordestinos que passaram decadas no Sudeste e retornam ao Nordeste na aposentadoria, ou em momentos de crise economica como a pandemia de 2020. O Censo 2022 mostrou crescimento desse fenomeno.">migração de retorno</span> ocorre quando migrantes voltam para sua região de origem. E o caso do nordestino que passou 30 anos em São Paulo, criou os filhos, e voltou para o interior do Ceara na aposentadoria. Ou dos que retornaram durante a pandemia de 2020 ao perder o emprego nas metrópoles. O Censo 2022 mostrou crescimento significativo desse fluxo de retorno ao Nordeste.</p>
+            <p>A <span class="termo" data-palavra="Migração de Retorno" data-definicao="Movimento de população em que migrantes voltam para sua região de origem após um período fora. No Brasil, é o caso de nordestinos que passaram décadas no Sudeste e retornam ao Nordeste na aposentadoria, ou em momentos de crise econômica como a pandemia de 2020. O Censo 2022 mostrou crescimento desse fenômeno.">migração de retorno</span> ocorre quando migrantes voltam para sua região de origem. É o caso do nordestino que passou 30 anos em São Paulo, criou os filhos, e voltou para o interior do Ceará na aposentadoria. Ou dos que retornaram durante a pandemia de 2020 ao perder o emprego nas metrópoles. O Censo 2022 mostrou crescimento significativo desse fluxo de retorno ao Nordeste.</p>
 
             <h3>Migração forçada x espontânea</h3>
 
-            <p>Quanto a causa, a migração pode ser <span class="termo" data-palavra="Migração Forçada" data-definicao="Movimento de populacao em que as pessoas sao obrigadas a sair de sua origem por fatores que ameacam sua seguranca, sobrevivencia ou liberdade: guerra, perseguicao politica, desastre ambiental, trabalho escravo, ou violencia. O refugiado e o exemplo classico de migrante forcado. No Brasil, o exodo rural do seculo XX teve elementos de migracao forcada, pois muitos saíram da seca e da miseria sem opcao real de ficar.">forçada</span> (quando as pessoas não tem escolha: guerra, seca, catastrofe) ou espontânea (quando ha opção real de permanecer, mas as perspectivas em outro lugar são melhores). Na prática, essa fronteira e porosa: um trabalhador rural que deixa o Nordeste pela seca cronica esta sendo "expulso" pela miseria, mesmo que não exista obrigação formal de partir.</p>
+            <p>Quanto à causa, a migração pode ser <span class="termo" data-palavra="Migração Forçada" data-definicao="Movimento de população em que as pessoas são obrigadas a sair de sua origem por fatores que ameaçam sua segurança, sobrevivência ou liberdade: guerra, perseguição política, desastre ambiental, trabalho escravo, ou violência. O refugiado é o exemplo clássico de migrante forçado. No Brasil, o êxodo rural do século XX teve elementos de migração forçada, pois muitos saíram da seca e da miséria sem opção real de ficar.">forçada</span> (quando as pessoas não têm escolha: guerra, seca, catástrofe) ou espontânea (quando há opção real de permanecer, mas as perspectivas em outro lugar são melhores). Na prática, essa fronteira é porosa: um trabalhador rural que deixa o Nordeste pela seca crônica está sendo "expulso" pela miséria, mesmo que não exista obrigação formal de partir.</p>
 
             <h3>Fatores de expulsão e atração</h3>
 
-            <p>Os geógrafos usam a teoria dos <span class="termo" data-palavra="Fatores de Expulsão e Atração (Push and Pull)" data-definicao="Teoria que explica a migracao por dois conjuntos de forcas. Os fatores de expulsao (push) sao os que afastam as pessoas de sua origem: seca, pobreza, falta de emprego, violencia, falta de terra. Os fatores de atracao (pull) sao os que atraem para o destino: oferta de emprego, salarios maiores, acesso a saude, educacao e lazer. A decisao de migrar e resultado da combinacao dessas duas forcas.">fatores de expulsão e atração (push and pull)</span> para explicar a migração. De um lado, as condições ruins na origem expulsam: seca, falta de emprego, violencia. Do outro, as condições melhores no destino atraem: empregos, salários, infraestrutura. O migrante tende a se deslocar quando a soma dos fatores de atração supera os de expulsão, mais o custo e o risco da própria migração.</p>
+            <p>Os geógrafos usam a teoria dos <span class="termo" data-palavra="Fatores de Expulsão e Atração (Push and Pull)" data-definicao="Teoria que explica a migração por dois conjuntos de forças. Os fatores de expulsão (push) são os que afastam as pessoas de sua origem: seca, pobreza, falta de emprego, violência, falta de terra. Os fatores de atração (pull) são os que atraem para o destino: oferta de emprego, salários maiores, acesso a saúde, educação e lazer. A decisão de migrar é resultado da combinação dessas duas forças.">fatores de expulsão e atração (push and pull)</span> para explicar a migração. De um lado, as condições ruins na origem expulsam: seca, falta de emprego, violência. Do outro, as condições melhores no destino atraem: empregos, salários, infraestrutura. O migrante tende a se deslocar quando a soma dos fatores de atração supera os de expulsão, mais o custo e o risco da própria migração.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 4: Questao pratica 1 -->
+        <!-- BLOCO 4: Questão prática 1 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
 
-            <h4 class="fontePixel"><b>Joao mora em Taboao da Serra (SP) e acorda todo dia as 5h da manha para pegar dois onibus ate São Paulo, onde trabalha como técnico de manutenção. Volta sempre a noite para casa. Qual tipo de migração descreve o movimento de Joao?</b></h4>
+            <h4 class="fontePixel"><b>João mora em Taboão da Serra (SP) e acorda todo dia às 5h da manhã para pegar dois ônibus até São Paulo, onde trabalha como técnico de manutenção. Volta sempre à noite para casa. Qual tipo de migração descreve o movimento de João?</b></h4>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>Migração espontânea, pois Joao escolheu trabalhar em São Paulo e poderia morar mais perto se quisesse</span></label>
+                    <label for="p1a" class="card-opcao"><span>Migração espontânea</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="errado" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>Êxodo rural, pois Joao se deslocou do campo para a cidade para trabalhar na industria</span></label>
+                    <label for="p1b" class="card-opcao"><span>Êxodo rural</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="correto" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>Migração pendular, pois Joao faz um deslocamento diario entre municípios para trabalhar, sem mudar definitivamente de residencia</span></label>
+                    <label for="p1c" class="card-opcao"><span>Migração pendular</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'a migracao pendular e exatamente isso: o vai e vem diario entre municipios para trabalhar ou estudar, sem mudanca de residencia. E muito comum nas regioes metropolitanas do Brasil, onde o preco alto dos imoveis empurra os trabalhadores para cidades vizinhas mais baratas. Em 2022, o IBGE estimou que mais de 8 milhoes de brasileiros faziam esse deslocamento todos os dias. Esse fenomeno revela tanto a integracao economica das regioes metropolitanas quanto a segregacao espacial por renda.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'e pendular: vai e volta todo dia entre municipios, sem mudar de residencia.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -166,78 +168,76 @@
         </div>
 
 
-        <!-- BLOCO 5: Exodo rural -->
+        <!-- BLOCO 5: Êxodo rural -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <h2>Êxodo Rural: o Grande Movimento do Século XX</h2>
 
-            <h2>Êxodo Rural: o grande movimento do século XX</h2>
-
-            <p>O <span class="termo" data-palavra="Êxodo Rural" data-definicao="Movimento massivo de populacao do campo para as cidades. No Brasil, intensificou-se a partir da decada de 1950, impulsionado pela industrializacao do Sudeste, pela mecanizacao do campo e pelas secas periodicas do Nordeste. Entre 1960 e 2010, a proporcao de brasileiros vivendo em areas urbanas passou de 45% para 84%. E considerada uma das maiores migracoes internas da historia humana em escala nacional.">êxodo rural</span> e o deslocamento massivo do campo para as cidades. No Brasil, esse fenomeno ganhou escala a partir dos anos 1950, quando a industrialização do Sudeste (especialmente de São Paulo) criou uma demanda enorme por mão de obra barata, ao mesmo tempo em que a modernização mecanizada do campo reduzia as vagas no setor agricola e as secas periodicas expulsavam populações do Nordeste.</p>
+            <p>O <span class="termo" data-palavra="Êxodo Rural" data-definicao="Movimento massivo de população do campo para as cidades. No Brasil, intensificou-se a partir da década de 1950, impulsionado pela industrialização do Sudeste, pela mecanização do campo e pelas secas periódicas do Nordeste. Entre 1960 e 1980, cerca de 43 milhões de brasileiros deixaram o campo. É considerada uma das maiores migrações internas da história humana em escala nacional.">êxodo rural</span> é o deslocamento massivo do campo para as cidades. No Brasil, esse fenômeno ganhou escala a partir dos anos 1950, quando a industrialização do Sudeste (especialmente de São Paulo) criou uma demanda enorme por mão de obra barata, ao mesmo tempo em que a modernização mecanizada do campo reduzia as vagas no setor agrícola e as secas periódicas expulsavam populações do Nordeste. A escala do fenômeno é impressionante: estima-se que, apenas entre 1960 e 1980, cerca de 43 milhões de brasileiros tenham saído do campo em direção às cidades.</p>
 
             <h3>Causas do êxodo rural no Brasil</h3>
 
-            <p>Do lado da expulsão: a seca cronica no Nordeste, a concentração fundiaria (a terra pertence a poucos, restando pouco espaco para o pequeno agricultor), a mecanização agricola que substitui trabalhadores rurais por maquinas, e a falta de acesso a saúde e educação no interior. Do lado da atração: a oferta de empregos industriais e de serviços nas metrópoles, salários acima dos rurais, e a ilusão de acesso a bens de consumo, lazer e infraestrutura urbana.</p>
+            <p>Do lado da expulsão: a seca crônica no Nordeste, a concentração fundiária (a terra pertence a poucos, restando pouco espaço para o pequeno agricultor), a mecanização agrícola que substitui trabalhadores rurais por máquinas, e a falta de acesso a saúde e educação no interior. Do lado da atração: a oferta de empregos industriais e de serviços nas metrópoles, salários acima dos rurais, e a ilusão de acesso a bens de consumo, lazer e infraestrutura urbana. O mercado urbano diversificado ainda oferecia uma porta de entrada mesmo para quem não tinha qualificação: o trabalho informal, sem vínculo empregatício, absorveu boa parte desses migrantes na construção civil e nos serviços.</p>
 
             <h3>Para onde foram os migrantes?</h3>
 
-            <p>O principal destino histórico foi o estado de São Paulo, especialmente a Grande São Paulo, que absorveu fluxos gigantescos do Nordeste, de Minas Gerais e do interior paulista. O Parana também foi destino importante na década de 1950 e 1960, durante a frente pioneira de colonização agricola. Depois, com a expansão da agricultura mecanizada para o Centro-Oeste (a partir dos anos 1970 e 1980), novos fluxos migratorios se dirigiram ao Mato Grosso, Goias e Mato Grosso do Sul.</p>
+            <p>O principal destino histórico foi o estado de São Paulo, especialmente a Grande São Paulo, que absorveu fluxos gigantescos do Nordeste, de Minas Gerais e do interior paulista. Entre 1940 e 1980, estima-se que quase 13 milhões de pessoas tenham deixado o Nordeste, motivadas pela decadência agrícola nas áreas de clima semiárido e pelo baixo nível de desenvolvimento industrial da região. A maioria enxergava o Sudeste como a oportunidade mais atrativa, mas outras regiões, como Norte e Centro-Oeste, também se tornaram destino desses migrantes. O Paraná também foi destino importante nas décadas de 1950 e 1960, durante a frente pioneira de colonização agrícola. Depois, com a expansão da agricultura mecanizada para o Centro-Oeste (a partir dos anos 1970 e 1980), novos fluxos migratórios se dirigiram ao Mato Grosso, Goiás e Mato Grosso do Sul.</p>
+
+            <p>A chegada em massa de nordestinos às grandes cidades também gerou trocas culturais duradouras. Em São Paulo, por exemplo, a comunidade nordestina fundou em 1991 o Centro de Tradições Nordestinas, um espaço de reunião onde até hoje são realizadas atividades culturais e sociais de apoio às milhares de pessoas com raízes no Nordeste que vivem na cidade. A migração não é só deslocamento de mão de obra: é também deslocamento de identidade e cultura.</p>
 
             <h3>Consequências nas cidades</h3>
 
-            <p>A chegada em massa de migrantes nas metrópoles não foi acompanhada de infraestrutura suficiente. O resultado foram as <strong>favelas</strong> e as <strong>periferias precárias</strong>: sem planejamento, sem saneamento, sem transporte de qualidade. A explosão demográfica das metrópoles gerou o que os geógrafos chamam de <span class="termo" data-palavra="Metropolizacao" data-definicao="Processo de crescimento acelerado das cidades que se tornam metropoles: grandes aglomeracoes urbanas com populacao acima de 1 milhao de habitantes, economias complexas, areas de influencia regionais ou nacionais e grande atracao de migrantes. O Brasil passou por uma metropolizacao intensa entre 1950 e 2000, com Sao Paulo e Rio de Janeiro tornando-se megacidades.">metropolização</span>: o crescimento acelerado das grandes cidades como polos de atração regional e nacional.</p>
-
-            </div>
+            <p>A chegada em massa de migrantes nas metrópoles não foi acompanhada de infraestrutura suficiente. O resultado foram as <strong>favelas</strong> e as <strong>periferias precárias</strong>: sem planejamento, sem saneamento, sem transporte de qualidade. A explosão demográfica das metrópoles gerou o que os geógrafos chamam de <span class="termo" data-palavra="Metropolização" data-definicao="Processo de crescimento acelerado das cidades que se tornam metrópoles: grandes aglomerações urbanas com população acima de 1 milhão de habitantes, economias complexas, áreas de influência regionais ou nacionais e grande atração de migrantes. O Brasil passou por uma metropolização intensa entre 1950 e 2000, com São Paulo e Rio de Janeiro tornando-se megacidades.">metropolização</span>: o crescimento acelerado das grandes cidades como polos de atração regional e nacional. Esse legado ainda pesa hoje: segundo a Fundação João Pinheiro, o déficit habitacional brasileiro chegou a cerca de 6 milhões de moradias em 2022, concentrado sobretudo nas famílias de baixa renda das regiões metropolitanas que mais receberam migrantes ao longo do século XX.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 6: Transumancia -->
+        <!-- BLOCO 6: Transumância -->
         <div class="topico">
 
             <h2>Transumância</h2>
 
-            <p>Ao lado do êxodo rural, o programa menciona outro tipo de movimento: a <span class="termo" data-palavra="Transumância" data-definicao="Movimento sazonal de pastores e rebanhos em busca de pastagens e agua, conforme as estacoes do ano. No Brasil, e praticada no Nordeste semiarido (pastores levam o gado da caatinga para serras mais umidas na seca) e no Sul (pastoreio entre campos de altitude no inverno e vales mais quentes no verao). Difere do exodo rural porque nao e definitiva: e um movimento ciclico, de ida e volta, ligado ao ritmo da natureza.">transumancia</span>. Trata-se de um movimento sazonal de populações e rebanhos em busca de pastagens ou agua, de acordo com as estações do ano.</p>
+            <p>Ao lado do êxodo rural, existe outro tipo de movimento populacional bem diferente: a <span class="termo" data-palavra="Transumância" data-definicao="Movimento sazonal de pastores e rebanhos em busca de pastagens e água, conforme as estações do ano. No Brasil, é praticada no Nordeste semiárido (pastores levam o gado da caatinga para serras mais úmidas na seca) e no Sul (pastoreio entre campos de altitude no inverno e vales mais quentes no verão). Difere do êxodo rural porque não é definitiva: é um movimento cíclico, de ida e volta, ligado ao ritmo da natureza.">transumância</span>. Trata-se de um movimento sazonal de populações e rebanhos em busca de pastagens ou água, de acordo com as estações do ano.</p>
 
-            <p>No Brasil, a transumancia e praticada principalmente em duas regiões:</p>
+            <p>No Brasil, a transumância é praticada principalmente em duas regiões:</p>
 
-            <p>No <strong>Nordeste semiarido</strong>, durante a estação seca, pastores levam seus rebanhos de cabras e ovelhas das areas mais secas da caatinga para as serras umidas (como a Chapada do Araripe ou a Serra do Baturite), onde ainda ha pastagem. Com o retorno das chuvas, voltam as areas originais. E uma prática milenar de adaptação ao clima semiarido.</p>
+            <p>No <strong>Nordeste semiárido</strong>, durante a estação seca, pastores levam seus rebanhos de cabras e ovelhas das áreas mais secas da caatinga para as serras úmidas (como a Chapada do Araripe ou a Serra do Baturité), onde ainda há pastagem. Com o retorno das chuvas, voltam às áreas originais. É uma prática milenar de adaptação ao clima semiárido.</p>
 
-            <p>No <strong>Sul do Brasil</strong>, especialmente nos planaltos catarinensia e gaucho, criadores levam o gado dos campos de altitude (mais frios no inverno) para os vales mais aquecidos, retornando no verao. E uma prática que remonta aos tropeiros do século XIX.</p>
+            <p>No <strong>Sul do Brasil</strong>, especialmente nos planaltos catarinense e gaúcho, criadores levam o gado dos campos de altitude (mais frios no inverno) para os vales mais aquecidos, retornando no verão. É uma prática que remonta aos tropeiros do século XIX.</p>
 
-            <p>A transumancia e diferente do êxodo rural em um aspecto fundamental: ela e <strong>ciclica</strong>. O pastor vai e volta conforme o calendario natural. Não ha abandono definitivo da origem.</p>
+            <p>A transumância é diferente do êxodo rural em um aspecto fundamental: ela é <strong>cíclica</strong>. O pastor vai e volta conforme o calendário natural. Não há abandono definitivo da origem.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 7: Questao pratica 2 -->
+        <!-- BLOCO 7: Questão prática 2 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
 
-            <h4 class="fontePixel"><b>Um pesquisador afirma que o êxodo rural brasileiro foi causado principalmente pela industrialização do Sudeste. Um segundo pesquisador diz que foi causado pela miseria e pela seca no Nordeste. Qual afirmação esta mais correta geograficamente?</b></h4>
+            <h4 class="fontePixel"><b>Um pesquisador afirma que o êxodo rural brasileiro foi causado principalmente pela industrialização do Sudeste. Um segundo pesquisador diz que foi causado pela miséria e pela seca no Nordeste. Qual afirmação está mais correta geograficamente?</b></h4>
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>O primeiro pesquisador esta certo: a industria de São Paulo criou empregos e atraiu os migrantes; a seca foi apenas pretexto</span></label>
+                    <label for="p2a" class="card-opcao"><span>Só o primeiro</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
-                    <label for="p2b" class="card-opcao"><span>O segundo pesquisador esta certo: a seca e a miseria expulsaram os nordestinos; a industria do Sudeste não teve papel central</span></label>
+                    <label for="p2b" class="card-opcao"><span>Só o segundo</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="correto" class="radio-duvid">
-                    <label for="p2c" class="card-opcao"><span>Os dois pesquisadores capturam partes da realidade: o êxodo rural foi resultado da combinação de fatores de expulsão (seca, concentração fundiaria, mecanização) com fatores de atração (industria, empregos, salários melhores no Sudeste)</span></label>
+                    <label for="p2c" class="card-opcao"><span>Os dois, combinados</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'a teoria do push and pull mostra que a migracao nunca tem uma causa unica. O exodo rural brasileiro foi impulsionado tanto pelos fatores de expulsao do Nordeste (seca cronica, concentracao fundiaria, mecanizacao do campo, falta de infraestrutura) quanto pelos fatores de atracao do Sudeste (crescimento industrial de Sao Paulo, demanda por mao de obra, salarios mais altos, promessa de vida urbana). Explicar o fenomeno por apenas um lado seria uma simplificacao insuficiente para questoes de vestibular e Enem.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'push and pull: expulsao (seca, terra) e atracao (industria, salario) agiram juntas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -249,47 +249,102 @@
         </div>
 
 
-        <!-- BLOCO 8: Fluxos atuais -->
+        <!-- BLOCO 8: Como o Brasil mede o urbano -->
+        <div class="topico">
+
+            <h2>Como o Brasil Mede o Urbano</h2>
+
+            <p>Para entender os fluxos migratórios, também é preciso entender como o Brasil decide o que é "cidade" e o que é "campo", e essa definição é menos óbvia do que parece. O Censo de 2010 já mostrava a escala da urbanização brasileira: quase 161 milhões de pessoas, mais de 84% da população, viviam em áreas urbanas. Historicamente, essa urbanização se concentrou perto do litoral: os 443 municípios costeiros do Brasil, que correspondem a apenas 5% do território nacional, concentravam 19% de toda a área urbanizada do país em 2019.</p>
+
+            <p>Um detalhe importante para o ENEM: diferente de muitos países, o Brasil não classifica um espaço como urbano com base em critérios funcionais, como densidade demográfica ou disponibilidade de infraestrutura (escolas, hospitais, comércio). Pela legislação brasileira, população urbana é aquela que reside na sede do município ou do distrito, independentemente de quão pequena ou pouco povoada essa sede seja. Isso gera situações curiosas: municípios muito pouco populosos, como Borá (SP), um dos menos povoados do país, têm toda a sua população classificada como urbana, mesmo com características bem rurais. Se o Brasil adotasse critérios de densidade como outros países, boa parte dessa população passaria a ser considerada rural, o que mudaria completamente as estatísticas de urbanização do país.</p>
+
+            <p>Por isso, para o Censo 2022, o IBGE passou a usar também os conceitos de <span class="termo" data-palavra="Arranjo Populacional" data-definicao="Conjunto de dois ou mais municípios brasileiros com forte integração populacional, decorrente do fluxo intenso de pessoas entre eles, sobretudo entre locais de moradia e de trabalho. É um dos conceitos usados pelo IBGE no Censo 2022 para entender a dinâmica urbana brasileira além da simples divisão entre população urbana e rural.">arranjo populacional</span> e <span class="termo" data-palavra="Concentração Urbana" data-definicao="Categoria usada pelo IBGE quando a população de um arranjo populacional ou de um município isolado ultrapassa 100 mil habitantes. Segundo o Censo 2022, as concentrações urbanas abrigavam 61% da população brasileira, mais de 124 milhões de pessoas, enquanto municípios com menos de 10 mil habitantes (45% do total de municípios do país) reuniam apenas 6,3% da população.">concentração urbana</span>, que ajudam a enxergar a dinâmica real da população sem depender só da divisão entre "urbano" e "rural" de cada município isolado. O resultado do Censo 2022 mostra um contraste grande: 45% dos municípios brasileiros têm menos de 10 mil habitantes, mas juntos reúnem apenas 6,3% da população do país. Do outro lado, as concentrações urbanas abrigam 61% da população brasileira, mais de 124 milhões de pessoas.</p>
+
+            <p>Essa hierarquia entre cidades também ajuda a explicar os próprios fluxos migratórios estudados nesta aula. Segundo o IBGE, o Brasil tem 862 cidades que funcionam como centros de comando regional, cuja influência extrapola os limites do próprio território, mas apenas 15 delas são classificadas como metrópoles: grandes centros urbanos cuja influência se estende por vastas áreas do país, caso de São Paulo, Rio de Janeiro e Brasília. É justamente por concentrarem empregos, serviços e oportunidades que essas metrópoles historicamente atraíram (e ainda atraem, embora com menos intensidade do que no século XX) os maiores fluxos migratórios internos do Brasil.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Brasil define como "urbana" toda a população residente na sede de um município, mesmo que essa sede tenha poucos moradores e características tipicamente rurais. Qual é a principal consequência geográfica dessa metodologia?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Nenhuma diferença</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Superestima a urbanização</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Subestima a urbanização</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'municipios pequenos viram 100% urbanos so por serem sede, mesmo com perfil rural.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 10: Fluxos atuais -->
         <div class="topico">
 
             <h2>Os Novos Fluxos Migratórios Internos</h2>
 
-            <p>O mapa da migração interna brasileira mudou bastante nas últimas décadas. O fluxo Nordeste-Sudeste ainda existe, mas não e mais dominante como nos anos 1970.</p>
+            <p>O mapa da migração interna brasileira mudou bastante nas últimas décadas. O fluxo Nordeste-Sudeste ainda existe, mas não é mais dominante como nos anos 1970. Dados de 2013 do IBGE mostram que o Sudeste continua sendo o principal destino não só de nordestinos (67,5% dos que migram do Nordeste vão para lá), mas também da população que deixa o Centro-Oeste (quase metade) e da maioria das pessoas nascidas em outros países.</p>
 
-            <p>O <strong>Centro-Oeste</strong> se tornou um polo de atração importante desde os anos 1980, com a expansão do agronegocio no Cerrado. Estados como Mato Grosso, Goias e o Distrito Federal absorveram fluxos significativos de migrantes do Sul, do Sudeste e do Nordeste.</p>
+            <p>Mas há uma reviravolta importante: a própria Região Metropolitana de São Paulo, historicamente o maior destino migratório do Brasil, registrou <strong>êxodo migratório</strong> entre 2000 e 2010, ou seja, mais gente saiu de lá do que chegou. O custo de vida elevado, o trânsito, a violência urbana e a busca por qualidade de vida levaram parte da população a deixar a metrópole paulista rumo a cidades menores.</p>
 
-            <p>A <strong>Amazonia Legal</strong>, especialmente o Para e Rondonia, também foi destino de fluxos migratorios ligados a colonização agricola, extrativismo e grandes obras de infraestrutura como a Hidreletrica de Belo Monte. Esses fluxos geraram conflitos fundiarios e pressões sobre a floresta.</p>
+            <p>Esse movimento se conecta a outro fenômeno documentado entre 2000 e 2022: o crescimento das <strong>cidades médias</strong> (entre 100 mil e 500 mil habitantes), que passou a ser muito mais vigoroso do que o crescimento das grandes metrópoles e aglomerados metropolitanos. Esse fenômeno é particularmente intenso no Centro-Oeste e, em menor grau, em municípios do Matopiba, impulsionado pela expansão do agronegócio. Já perto das grandes metrópoles do Sudeste, o crescimento das cidades médias vizinhas está ligado ao aumento do preço dos imóveis e dos serviços nas capitais, que empurra parte da população para municípios próximos com boa infraestrutura urbana, mas custo de vida menor.</p>
 
-            <p>O fenomeno mais recente documentado pelo Censo 2022 e o <strong>retorno ao Nordeste</strong>. O Nordeste, historicamente exportador de migrantes, passou a receber de volta parte dessas populações: nordestinos aposentados que retornam com a renda da previdência, jovens que voltam apos a pandemia, e um crescimento do setor de serviços em cidades nordestinas como Fortaleza, Recife e Salvador que absorve parte da população. O IBGE registrou que o Nordeste perdeu mais de 1 milhao de habitantes para outras regiões entre 2010 e 2022, mas também recebeu fluxos de retorno expressivos.</p>
+            <p>O <strong>Centro-Oeste</strong> se tornou um polo de atração importante desde os anos 1980, com a expansão do agronegócio no Cerrado. Estados como Mato Grosso, Goiás e o Distrito Federal absorveram fluxos significativos de migrantes do Sul, do Sudeste e do Nordeste.</p>
+
+            <p>A <strong>Amazônia Legal</strong>, especialmente o Pará e Rondônia, também foi destino de fluxos migratórios ligados à colonização agrícola, ao extrativismo e a grandes obras de infraestrutura como a Hidrelétrica de Belo Monte. Esses fluxos geraram conflitos fundiários e pressões sobre a floresta.</p>
+
+            <p>O fenômeno mais recente documentado pelo Censo 2022 é o <strong>retorno ao Nordeste</strong>. O Nordeste, historicamente exportador de migrantes, passou a receber de volta parte dessas populações: nordestinos aposentados que retornam com a renda da previdência, jovens que voltam após a pandemia, e um crescimento do setor de serviços em cidades nordestinas como Fortaleza, Recife e Salvador que absorve parte da população. O IBGE registrou que o Nordeste perdeu mais de 1 milhão de habitantes para outras regiões entre 2010 e 2022, mas também recebeu fluxos de retorno expressivos.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 9: Resumo -->
+        <!-- BLOCO 11: Resumo -->
         <div class="topico">
-
-            <div class="w3-light-blue">
 
             <h2>Resumo</h2>
 
-            <p><strong>Tipos de migração:</strong> A migração interna pode ser pendular (deslocamento diario sem mudar de residencia), de retorno (volta a origem apos período fora), espontânea ou forçada. Os fatores de expulsão (push) e atração (pull) explicam a decisão de migrar.</p>
+            <p><strong>Tipos de migração:</strong> A migração interna pode ser pendular (deslocamento diário sem mudar de residência), de retorno (volta à origem após período fora), espontânea ou forçada. Os fatores de expulsão (push) e atração (pull) explicam a decisão de migrar.</p>
 
-            <p><strong>Êxodo rural:</strong> Movimento massivo campo-cidade, intenso no Brasil entre 1950 e 2000, causado por secas, concentração fundiaria, mecanização agricola (expulsão) e industrialização do Sudeste (atração). Gerou metropolização e periferias precárias.</p>
+            <p><strong>Êxodo rural:</strong> Movimento massivo campo-cidade, com cerca de 43 milhões de brasileiros deixando o campo entre 1960 e 1980 (13 milhões só do Nordeste, entre 1940 e 1980), causado por secas, concentração fundiária, mecanização agrícola (expulsão) e industrialização do Sudeste (atração). Gerou metropolização, periferias precárias e também novas formas de organização cultural, como o Centro de Tradições Nordestinas em São Paulo.</p>
 
-            <p><strong>Transumancia:</strong> Movimento sazonal e ciclico de pastores e rebanhos, praticado no Nordeste semiarido e no Sul. Difere do êxodo rural por não ser definitivo.</p>
+            <p><strong>Como o Brasil mede o urbano:</strong> Diferente de outros países, o Brasil classifica como urbana toda a sede de município, sem critério de densidade, o que pode superestimar a urbanização. O Censo 2022 trouxe os conceitos de arranjo populacional e concentração urbana: 61% da população (124 milhões) vive em concentrações urbanas, enquanto 45% dos municípios (com menos de 10 mil habitantes) reúnem só 6,3% da população. Das 862 cidades brasileiras que funcionam como centros de comando regional, apenas 15 são metrópoles, e é nelas que historicamente se concentraram os maiores fluxos migratórios do país.</p>
 
-            <p><strong>Fluxos atuais:</strong> Migração para o Centro-Oeste (agronegocio), Amazonia (colonização), e crescimento do retorno ao Nordeste documentado pelo Censo 2022.</p>
+            <p><strong>Transumância:</strong> Movimento sazonal e cíclico de pastores e rebanhos, praticado no Nordeste semiárido e no Sul. Difere do êxodo rural por não ser definitivo.</p>
 
-            </div>
+            <p><strong>Fluxos atuais:</strong> A Região Metropolitana de São Paulo já teve êxodo migratório (2000-2010); crescimento acelerado das cidades médias; migração para o Centro-Oeste (agronegócio) e Amazônia (colonização); e crescimento do retorno ao Nordeste documentado pelo Censo 2022.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 10: Ficha de conceitos -->
+        <!-- BLOCO 12: Ficha de conceitos -->
         <div class="topico">
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -297,47 +352,53 @@
         </div>
 
 
-        <!-- BLOCO 11: Perguntas e Respostas -->
+        <!-- BLOCO 13: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="titulo-pr">Perguntas que você provavelmente tinha</h2>
+            <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
                 <strong>O êxodo rural acabou no Brasil?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Não completamente, mas perdeu muito a intensidade. Nos anos 1970, o Brasil urbanizava a um ritmo de quase 1 ponto percentual por ano. Hoje, esse ritmo e muito menor: a população rural ainda decresce, mas o Brasil ja e tao urbanizado (87,7%) que o "reservatorio" de população rural potencialmente migravel e bem menor do que antes. O que persiste e o êxodo rural em areas específicas, como municípios do interior do Nordeste ou zonas afetadas por crise agricola. Mas o grande êxodo de massa do século XX ja passou.</p>
+            <p><span class="primeiraLetra">R:</span> Não completamente, mas perdeu muito a intensidade. Nos anos 1970, o Brasil urbanizava a um ritmo de quase 1 ponto percentual por ano. Hoje, esse ritmo é muito menor: a população rural ainda decresce, mas o Brasil já é tão urbanizado (87,7%) que o "reservatório" de população rural potencialmente migrável é bem menor do que antes. O que persiste é o êxodo rural em áreas específicas, como municípios do interior do Nordeste ou zonas afetadas por crise agrícola. Mas o grande êxodo de massa do século XX já passou.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
-                <strong>Por que tanta gente volta para o Nordeste se ele era tao pobre?</strong>
+                <strong>Por que tanta gente volta para o Nordeste se ele era tão pobre?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Varios fatores explicam esse retorno. Primeiro, o próprio Nordeste mudou: programas como o Bolsa Família, a expansão do credito rural, a universalização da previdência rural e o crescimento de cidades médias como Campina Grande, Juazeiro do Norte e Petrolina melhoraram as condições locais. Segundo, o custo de vida em São Paulo se tornou proibitivo para aposentados que recebem o mínimo. Terceiro, apos a pandemia de 2020, muitos perderam empregos informais nas metrópoles e retornaram sem perspectiva de recolocação rápida. O retorno ao Nordeste não e necessariamente sinal de fracasso: em muitos casos, e uma escolha racional de quem tem renda fixa e prefere viver onde o dinheiro rende mais.</p>
+            <p><span class="primeiraLetra">R:</span> Vários fatores explicam esse retorno. Primeiro, o próprio Nordeste mudou: programas como o Bolsa Família, a expansão do crédito rural, a universalização da previdência rural e o crescimento de cidades médias como Campina Grande, Juazeiro do Norte e Petrolina melhoraram as condições locais. Segundo, o custo de vida em São Paulo se tornou proibitivo para aposentados que recebem o mínimo. Terceiro, após a pandemia de 2020, muitos perderam empregos informais nas metrópoles e retornaram sem perspectiva de recolocação rápida. O retorno ao Nordeste não é necessariamente sinal de fracasso: em muitos casos, é uma escolha racional de quem tem renda fixa e prefere viver onde o dinheiro rende mais.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
-                <strong>Transumancia ainda existe? Parece coisa do passado.</strong>
+                <strong>Como assim São Paulo "perdeu" população para outras cidades? Ela não é a maior metrópole do Brasil?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Sim, ainda existe, embora seja muito menos visivel do que o êxodo rural. No semiarido nordestino, a transumancia persiste como estrategia de sobrevivencia dos pequenos criadores de caprinos e ovinos, especialmente em Pernambuco, Ceara e Paraiba. No Sul, a prática e menor e mais mecanizada. Para o vestibular e ENEM, o ponto essencial e saber distinguir a transumancia (movimento ciclico, sazonal, sem abandono da origem) do êxodo rural (movimento definitivo, campo-cidade). Essa distinção aparece com frequencia em questões de multipla escolha.</p>
+            <p><span class="primeiraLetra">R:</span> As duas coisas são verdadeiras ao mesmo tempo. São Paulo continua sendo a maior metrópole do Brasil em população absoluta, mas entre 2000 e 2010 mais gente saiu da Região Metropolitana de São Paulo do que entrou nela: um saldo migratório negativo, chamado de êxodo migratório. Isso não significa que São Paulo esteja "esvaziando": o crescimento populacional da cidade continua positivo, só que puxado mais pelos próprios nascimentos do que pela chegada de migrantes. Quem sai de São Paulo, em geral, vai para cidades médias vizinhas, fugindo do custo de vida alto, do trânsito e da violência urbana, mas sem se afastar demais da região metropolitana.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Transumância ainda existe? Parece coisa do passado.</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Sim, ainda existe, embora seja muito menos visível do que o êxodo rural. No semiárido nordestino, a transumância persiste como estratégia de sobrevivência dos pequenos criadores de caprinos e ovinos, especialmente em Pernambuco, Ceará e Paraíba. No Sul, a prática é menor e mais mecanizada. Para o vestibular e ENEM, o ponto essencial é saber distinguir a transumância (movimento cíclico, sazonal, sem abandono da origem) do êxodo rural (movimento definitivo, campo-cidade). Essa distinção aparece com frequência em questões de múltipla escolha.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO 12: Producao -->
+        <!-- BLOCO 14: Produção -->
         <div class="topico">
 
             <p class="caixa">Hora de usar o que você aprendeu.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>Mapeando a migração na sua própria história</h3>
                 <p><strong>Atividade individual</strong></p>
 
                 <p>Pesquise na sua família ou na história do seu município e responda em 15 a 20 linhas:</p>
-                <p><strong>1.</strong> Alguem da sua família migrou internamente? De onde veio e para onde foi? Quais foram os fatores de expulsão e de atração?</p>
-                <p><strong>2.</strong> Se não houver histórico familiar, pesquise: qual e o principal fluxo migratorio que formou a população do seu município? O município e receptor ou emissor de migrantes?</p>
-                <p><strong>3.</strong> Existe migração pendular significativa na sua região? Quem faz esse trajeto diario e por que?</p>
+                <p><strong>1.</strong> Alguém da sua família migrou internamente? De onde veio e para onde foi? Quais foram os fatores de expulsão e de atração?</p>
+                <p><strong>2.</strong> Se não houver histórico familiar, pesquise: qual é o principal fluxo migratório que formou a população do seu município? O município é receptor ou emissor de migrantes?</p>
+                <p><strong>3.</strong> Existe migração pendular significativa na sua região? Quem faz esse trajeto diário e por quê?</p>
                 <p class="w3-small w3-text-grey">Dica: o IBGE tem uma ferramenta chamada "Cidades@" (cidades.ibge.gov.br) com histórico demográfico de todos os municípios brasileiros, incluindo dados de migração do Censo 2022.</p>
             </div>
 
@@ -346,31 +407,49 @@
         </div>
 
 
-        <!-- BLOCO 13: Questoes para o caderno -->
+        <!-- BLOCO 15: Êxodo urbano -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <h2>Êxodo Urbano: um Fenômeno Seletivo</h2>
+
+            <p>Nos últimos anos, ganhou destaque na mídia a expressão <span class="termo" data-palavra="Êxodo Urbano" data-definicao="Termo usado, muitas vezes de forma imprecisa, para descrever o deslocamento de moradores das grandes metrópoles para cidades menores ou áreas rurais. Diferente do êxodo rural clássico, que envolveu dezenas de milhões de pessoas pobres expulsas do campo, o chamado êxodo urbano contemporâneo é um fenômeno de escala reduzida e seletivo, restrito a uma fração da população com renda e estabilidade suficientes para escolher onde morar.">êxodo urbano</span>, o suposto movimento inverso ao êxodo rural: pessoas deixando as grandes cidades em direção a municípios menores ou áreas rurais.</p>
+
+            <p>Geógrafos apontam, porém, que esse fenômeno costuma ser exagerado pela mídia. Em muitos casos, o que se chama de êxodo urbano é, na verdade, a aquisição de uma segunda residência por uma pequena fração da elite econômica, ou a mudança de trabalhadores com renda elevada e estabilidade no emprego, muitas vezes em regime de trabalho remoto, para cidades do interior, onde reproduzem, em condomínios fechados e bairros planejados, o mesmo padrão de vida das metrópoles.</p>
+
+            <p>Essa dinâmica é bem diferente do êxodo rural do século XX, que foi um movimento de massa envolvendo milhões de trabalhadores pobres expulsos do campo pela seca, pela concentração fundiária e pela mecanização agrícola. O êxodo urbano contemporâneo, ao contrário, é um deslocamento seletivo e voluntário, possibilitado por privilégios econômicos: só migra quem tem renda suficiente para sustentar essa escolha, o que o torna um fenômeno de escala muito menor do que a expressão sugere. É bem diferente, inclusive, do êxodo migratório real e mensurável que a Região Metropolitana de São Paulo registrou entre 2000 e 2010, puxado majoritariamente pelo crescimento das cidades médias vizinhas, não por uma "fuga" romantizada da cidade grande.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 16: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
-                <h3>1. O que e migração interna? Cite dois exemplos típicos do Brasil.</h3>
+                <h3>1. O que é migração interna? Cite dois exemplos típicos do Brasil.</h3>
 
                 <h3>2. Explique o conceito de migração pendular e dê um exemplo de como ela aparece nas regiões metropolitanas brasileiras.</h3>
 
-                <h3>3. O que e migração de retorno? Quais fatores estimularam o retorno ao Nordeste documentado pelo Censo 2022?</h3>
+                <h3>3. O que é migração de retorno? Quais fatores estimularam o retorno ao Nordeste documentado pelo Censo 2022?</h3>
 
-                <h3>4. Diferencie migração forçada de migração espontânea. O êxodo rural nordestino se encaixa em qual categoria, e por que a resposta e mais complexa do que parece?</h3>
+                <h3>4. Diferencie migração forçada de migração espontânea. O êxodo rural nordestino se encaixa em qual categoria, e por que a resposta é mais complexa do que parece?</h3>
 
                 <h3>5. O que são fatores de expulsão (push) e de atração (pull)? Aplique essa teoria para explicar o êxodo rural brasileiro do século XX.</h3>
 
-                <h3>6. Quais foram as principais causas históricas do êxodo rural no Brasil? Cite pelo menos tres fatores.</h3>
+                <h3>6. Quais foram as principais causas históricas do êxodo rural no Brasil? Cite pelo menos três fatores.</h3>
 
-                <h3>7. Quais foram as consequencias do êxodo rural para as cidades brasileiras? Por que as periferias precárias cresceram tanto?</h3>
+                <h3>7. Por que o critério brasileiro de classificação urbano/rural (sede de município) é diferente do usado por outros países? Que problema isso pode causar em comparações internacionais?</h3>
 
-                <h3>8. O que e transumancia? Por que ela e diferente do êxodo rural?</h3>
+                <h3>8. O que são arranjo populacional e concentração urbana? O que os dados do Censo 2022 revelam sobre a distribuição da população brasileira entre municípios pequenos e grandes concentrações urbanas?</h3>
 
-                <h3>9. Em quais regiões do Brasil a transumancia ainda e praticada e quais são suas caracteristicas específicas em cada uma?</h3>
+                <h3>9. O que é transumância? Por que ela é diferente do êxodo rural?</h3>
 
-                <h3>10. Quais são os novos fluxos migratórios internos no Brasil apos 2000? Por que o Centro-Oeste e a Amazonia se tornaram polos de atração?</h3>
+                <h3>10. Como a Região Metropolitana de São Paulo pode ter tido êxodo migratório entre 2000 e 2010 mesmo sendo a maior metrópole do país? O que isso tem a ver com o crescimento das cidades médias?</h3>
+
+                <h3>11. O que é êxodo urbano e por que geógrafos consideram esse termo, muitas vezes, exagerado pela mídia?</h3>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
@@ -378,23 +457,7 @@
         </div>
 
 
-        <!-- BLOCO 13.5: Exodo urbano -->
-        <div class="topico">
-
-            <h2>Êxodo urbano: um fenômeno seletivo</h2>
-
-            <p>Nos últimos anos, ganhou destaque na mídia a expressão <span class="termo" data-palavra="Êxodo Urbano" data-definicao="Termo usado, muitas vezes de forma imprecisa, para descrever o deslocamento de moradores das grandes metropoles para cidades menores ou areas rurais. Diferente do exodo rural classico, que envolveu dezenas de milhoes de pessoas pobres expulsas do campo, o chamado exodo urbano contemporaneo e um fenomeno de escala reduzida e seletivo, restrito a uma fracao da populacao com renda e estabilidade suficientes para escolher onde morar.">êxodo urbano</span>, o suposto movimento inverso ao êxodo rural: pessoas deixando as grandes cidades em direção a municípios menores ou áreas rurais.</p>
-
-            <p>Geógrafos apontam, porem, que esse fenômeno costuma ser exagerado pela mídia. Em muitos casos, o que se chama de êxodo urbano e, na verdade, a aquisição de uma segunda residência por uma pequena fração da elite econômica, ou a mudança de trabalhadores com renda elevada e estabilidade no emprego, muitas vezes em regime de trabalho remoto, para cidades do interior, onde reproduzem, em condomínios fechados e bairros planejados, o mesmo padrão de vida das metrópoles.</p>
-
-            <p>Essa dinâmica e bem diferente do êxodo rural do século XX, que foi um movimento de massa envolvendo milhões de trabalhadores pobres expulsos do campo pela seca, pela concentração fundiária e pela mecanização agrícola. O êxodo urbano contemporâneo, ao contrário, e um deslocamento seletivo e voluntário, possibilitado por privilégios econômicos: só migra quem tem renda suficiente para sustentar essa escolha, o que o torna um fenômeno de escala muito menor do que a expressão sugere.</p>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-            <hr>
-        </div>
-
-
-        <!-- BLOCO 14: Transicao final -->
+        <!-- BLOCO 17: Transição final -->
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="
@@ -405,7 +468,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} e fantastico! Continue estudando!',
+        mensagem: 'o tema População IV - Migrações é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
@@ -419,7 +482,7 @@
         </div>
 
 
-        <!-- BLOCO 15: Finalizar -->
+        <!-- BLOCO 18: Finalizar -->
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>

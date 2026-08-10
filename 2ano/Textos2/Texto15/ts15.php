@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Os problemas socioambientais ligados ao clima no Brasil: massas de ar, secas, a transposição do Rio São Francisco, El Niño, La Niña, ciclones e a influência do relevo" name="description"/>
+<meta content="Texto 15 - Climas do Brasil II: Problemas" property="og:title"/>
+<meta content="Massas de ar; Secas; Transposição do Rio São Francisco; El Niño e influências do relevo" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 15</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 15 - Climas do Brasil II: Problemas</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -76,60 +80,6 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-pale-yellow">
-<h2>Climas do Brasil II – Problemas Climáticos</h2>
-<p><strong>Mudança Climática</strong></p>
-<p><strong>Definição:</strong> Alterações de longo prazo nas condições climáticas globais, principalmente causadas pela emissão de gases de efeito estufa.</p>
-<p><strong>Consequências:</strong> Aumento do nível do mar, alterações no clima, intensificação de eventos climáticos extremos.</p>
-<p><strong>Massas de Ar</strong></p>
-<p><strong>Definição:</strong> Grandes volumes de ar com características homogêneas de temperatura e umidade que se movem pela atmosfera.</p>
-<p><strong>Influência no Clima:</strong> Mudanças nas condições climáticas quando massas de ar com diferentes características se encontram.</p>
-<p><strong>Seca</strong></p>
-<p><strong>Definição:</strong> Período prolongado com precipitação abaixo do normal, resultando em escassez de água.</p>
-<p><strong>Impactos:</strong> Afeta a agricultura, a pecuária, e a disponibilidade de água potável. Regiões mais afetadas incluem o Nordeste e partes do Sudeste e Sul.</p>
-<p><strong>Transposição do Rio São Francisco</strong></p>
-<p><strong>Objetivo:</strong> Levar água do Rio São Francisco para áreas do Nordeste afetadas pela seca.</p>
-<p><strong>Desafios e Controvérsias:</strong> Impactos ambientais e sociais, incluindo perda de terras e impactos no ecossistema do Rio São Francisco.</p>
-<p><strong>Fenômeno El Niño</strong></p>
-<p><strong>Definição:</strong> Aquecimento anômalo das águas superficiais do Oceano Pacífico equatorial.</p>
-<p><strong>Impactos no Brasil:</strong> Redução das chuvas no Nordeste, aumento das temperaturas e risco de incêndios na Amazônia. Pode afetar também outras regiões com variações de chuva e temperatura.</p>
-<p><strong>Relevo e Influência Climática</strong></p>
-<p><strong>Influência:</strong> O relevo pode bloquear ou direcionar massas de ar, afetando a formação de chuvas e a distribuição da umidade.</p>
-<p><strong>Exemplo:</strong> A Serra da Borborema no Nordeste influencia a formação de chuvas na região do Agreste.</p>
-<p><strong>Fenômeno La Niña</strong></p>
-<p><strong>Definição:</strong> Resfriamento anômalo das águas superficiais do Oceano Pacífico equatorial.</p>
-<p><strong>Impactos no Brasil:</strong> Aumento das chuvas nas regiões Norte e Nordeste, estiagem nas regiões Sul e Sudeste.</p>
-<p><strong>Ciclones</strong></p>
-<p><strong>Definição:</strong> Sistemas de baixa pressão que se formam quando massas de ar quente e fria se encontram.</p>
-<p><strong>Impactos no Brasil:</strong> Chuvas intensas, ventos fortes, enchentes e danos estruturais. Exemplos incluem ciclones extratropicais no Sul do Brasil.</p>
-<p><strong>Medidas para Lidar com a Secas</strong></p>
-<p><strong>Curto Prazo:</strong> Distribuição de água e alimentos, construção de reservatórios.</p>
-<p><strong>Longo Prazo:</strong> Tecnologias de reuso de água, dessalinização, políticas de conservação.</p>
-<p><strong>Importância do Conhecimento Climático</strong></p>
-<p><strong>Relevância:</strong> Compreender problemas climáticos é essencial para implementar políticas públicas eficazes e para a preservação ambiental.</p>
-<p><strong>Objetivo:</strong> Melhorar a qualidade de vida, garantir a segurança alimentar e hídrica, e promover a sustentabilidade.</p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<h3>1. O que são mudanças climáticas e quais são suas principais causas e consequências para o Brasil?</h3>
-<h3>2. Como as massas de ar influenciam o clima no Brasil? Dê exemplos de como diferentes massas de ar afetam as condições climáticas em várias regiões do país.</h3>
-<h3>3. Quais são os principais impactos da seca no Nordeste brasileiro? Explique como a seca afeta tanto o meio ambiente quanto a sociedade nessa região.</h3>
-<h3>4. O que é a transposição do Rio São Francisco e qual é o objetivo desse projeto? Discuta os principais desafios e controvérsias relacionados a essa obra.</h3>
-<h3>5. Como o fenômeno El Niño afeta o clima no Brasil? Quais são as consequências típicas do El Niño para as diferentes regiões do país?</h3>
-<h3>6. Qual é o papel do relevo na configuração climática do Nordeste brasileiro? Como as serras e outras formações geográficas influenciam a distribuição de chuvas na região?</h3>
-<h3>7. Explique a diferença entre o El Niño e o La Niña. Como cada um desses fenômenos influencia o clima no Brasil?</h3>
-<h3>8. Como as massas de ar podem provocar ciclones e quais são os impactos desses eventos no Brasil? Dê um exemplo de um ciclone recente e seus efeitos.</h3>
-<h3>9. Discuta as medidas que podem ser adotadas para lidar com a seca no Brasil. Quais são as estratégias de curto e longo prazo que podem ajudar a mitigar os efeitos da seca?</h3>
-<h3>10. Qual é a importância de compreender os problemas socioambientais relacionados ao clima para a sociedade e para a preservação ambiental? Como o conhecimento sobre o clima pode ajudar na implementação de políticas públicas?</h3>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <div class="w3-center">
 <h2 class="fontePixel"> <img alt="microfone" height="84" src="micro2.png" width="84"/> Duvid - Podcast
             </h2>
@@ -169,13 +119,13 @@
 <p>Observe no mapa de média histórica de temperatura que há um aumento crescente de sul para o norte. Ela segue
             a distribuição de acordo com a latitude, onde mais próximo do Equador será muito mais quente. Por que o
             Brasil é quente? Umas das razões é que a maior parte do território (94%) está nas zonas climáticas
-            equatorial (55%, mais da metade, e tropical (39%). Os 6% restantes está na faixa subtropical com
+            equatorial (55%, mais da metade) e tropical (39%). Os 6% restantes estão na faixa subtropical, com
             temperaturas em médias mais baixa. </p>
 <p>Daí eu posso perguntar: somente com os dados de temperatura eu posso definir o clima? Obviamente que não,
             precisamos fazer relações com outras variáveis para obter explicações mais gerais sobre isso. Qual era a
             outra pergunta mesmo? </p>
 <p><strong>Duvid:</strong> ... sobre as mudanças climáticas. </p>
-<p> <strong>Prof. Silva:</strong> Ah sim, as mudanças climáticas são resultado da emissão de gases de efeito
+<p> <strong>Prof. Silva:</strong> Ah sim, as <span class="termo" data-palavra="Mudanças climáticas" data-definicao="Alterações de longo prazo nas condições climáticas globais ou regionais, causadas principalmente pela emissão de gases de efeito estufa pela queima de combustíveis fósseis, com consequências como aumento do nível do mar e intensificação de eventos extremos.">mudanças climáticas</span> são resultado da emissão de gases de efeito
             estufa na atmosfera,
             principalmente pelo uso de combustíveis fósseis como vocês já estudaram aqui mesmo no Duvid. Isso poderia
             causar uma alteração no clima local ou até mesmo global, dependendo do tamanho do impacto, o que traria
@@ -198,9 +148,9 @@
             conhecido mas pouco
             debatido ou aprofundado. Prof. Silva, poderia nos explicar um pouco sobre a origem desse problema e suas
             consequências?</p>
-<p> <strong>Prof. Silva:</strong> Certamente, Duvid. A seca é um fenômeno meteorológico que ocorre quando há uma
+<p> <strong>Prof. Silva:</strong> Certamente, Duvid. A <span class="termo" data-palavra="Seca" data-definicao="Período prolongado com precipitação abaixo do normal, resultando em escassez de água. No Brasil, afeta principalmente a agricultura, a pecuária e o abastecimento de água potável no Nordeste.">seca</span> é um fenômeno meteorológico que ocorre quando há uma
             diminuição
-            significativa na quantidade de chuvas em uma determinada região por um período prolongado de tempo. No
+            significativa na quantidade de chuvas em uma determinada região por um período prolongado de tempo, resultando em escassez de água. No
             Brasil, ela é mais comum em regiões como o Nordeste, que já enfrentam problemas de escassez de água mesmo em
             períodos de chuvas regulares.</p>
 <p>As consequências da seca são diversas e afetam tanto o meio ambiente quanto a sociedade. Na natureza, a seca
@@ -231,7 +181,7 @@
         </p>
 <p><strong>Duvid:</strong> ... e a transposição do Rio São Francisco, ajudou a melhorar a situação? Como foi
             esse processo? </p>
-<p><strong>Prof. Silva:</strong> A transposição do Rio São Francisco é uma obra gigantesca que teve início em
+<p><strong>Prof. Silva:</strong> A <span class="termo" data-palavra="Transposição do Rio São Francisco" data-definicao="Obra de infraestrutura hídrica que leva água do Rio São Francisco, por canais e túneis, a áreas do Nordeste afetadas pela seca. É controversa por seus impactos ambientais e sociais e por não resolver sozinha os problemas estruturais da região.">transposição do Rio São Francisco</span> é uma obra gigantesca que teve início em
             2007 e que busca
             levar água do rio São Francisco para outras regiões do Nordeste brasileiro, como forma de amenizar os
             efeitos da seca na região. A ideia é captar água em trechos do rio em Minas Gerais e na Bahia e
@@ -290,7 +240,7 @@
             mais científicos, podemos dizer que as Serras influenciam a dinâmica climática local de maneiras distintas.
         </p>
 <p><strong>Duvid:</strong> ... e o papel do relevo e das massas de ar no sertão nordestino? </p>
-<p> <strong>Prof. Silva:</strong> Eu gosto muito de comparar as massas de ar a "correntes de ar" que se
+<p> <strong>Prof. Silva:</strong> Eu gosto muito de comparar as <span class="termo" data-palavra="Massas de ar" data-definicao="Grandes volumes de ar com características homogêneas de temperatura e umidade que se deslocam pela atmosfera. Quando massas de ar diferentes se encontram, provocam mudanças no clima da região.">massas de ar</span> a "correntes de ar" que se
             movimentam pela
             atmosfera, assim como as correntes de água que se movem em um rio ou mar. Dependendo da temperatura e
             umidade dessas correntes de ar, elas podem trazer chuvas, tempestades, frio ou calor para as regiões por
@@ -381,7 +331,7 @@
 <p><strong>Duvid:</strong> E eu que achava que o clima se reduzia a uma variação de temperatura. Tem muita mais
             coisas envolvidas nisso. Agora, prof. Muito se fala muito sobre o El Niño, poderia explicar esse fenômeno
             também? </p>
-<p> <strong>Prof. Silva:</strong> O El Niño é um fenômeno climático muito curioso. Até hoje não há um consenso
+<p> <strong>Prof. Silva:</strong> O <span class="termo" data-palavra="El Niño" data-definicao="Aquecimento anômalo das águas superficiais do Oceano Pacífico equatorial, com regularidade de 2 a 7 anos. No Brasil, costuma reduzir as chuvas no Nordeste e na Amazônia e aumentar as chuvas no Sul e Sudeste.">El Niño</span> é um fenômeno climático muito curioso. Até hoje não há um consenso
             sobre sua origem e sua regularidade varia entre 2 a 7 anos. Os cientistas sabem que ele se origina na região
             equatorial do Oceano Pacífico, próximo à costa oeste da América do Sul. Ele é caracterizado pelo
             <strong>aquecimento</strong> das águas superficiais do mar nessa região, causado por um enfraquecimento dos
@@ -397,7 +347,7 @@
 <p>Além disso, o El Niño também pode ter impactos em outras regiões do Brasil, como no Sudeste e no Sul, onde
             pode ocorrer um aumento da chuva e das temperaturas, respectivamente. Essas mudanças podem afetar
             diretamente a produção agrícola, o setor elétrico e a saúde pública, entre outros setores. </p>
-<p> E ainda temos o fenômeno oposto, La Niña. O La Niña é um fenômeno climático que ocorre no Oceano Pacífico
+<p> E ainda temos o fenômeno oposto, <span class="termo" data-palavra="La Niña" data-definicao="Resfriamento anômalo das águas superficiais do Oceano Pacífico equatorial, oposto ao El Niño. No Brasil, costuma aumentar as chuvas no Norte e Nordeste e provocar estiagem no Sul e Sudeste.">La Niña</span>. O La Niña é um fenômeno climático que ocorre no Oceano Pacífico
             Equatorial, caracterizado pelo <strong>resfriamento</strong> anômalo das águas superficiais do mar. Embora o
             La Niña possa ter impactos climáticos significativos em diferentes partes do mundo, seus efeitos no Brasil
             nem sempre são tão claros quanto os do El Niño.</p>
@@ -410,15 +360,16 @@
             imaginava. Uma última pergunta. As massas de ar estão ligadas ao ciclones? Como funciona esse processo? </p>
 <p> <strong>Prof. Silva:</strong> Os ciclones que afetam o Brasil são principalmente formados no Oceano
             Atlântico Sul, em áreas próximas à costa da região sul e sudeste do país. Esses ciclones são conhecidos como
-            ciclones extratropicais ou ciclones de latitudes médias. Eles são formados quando massas de ar frio e quente
+            <span class="termo" data-palavra="Ciclones extratropicais" data-definicao="Sistemas de baixa pressão que se formam em latitudes médias, fora da faixa tropical, quando massas de ar frio e quente se encontram. No Brasil, afetam sobretudo o Sul, provocando ventos fortes, chuvas intensas e ondas elevadas.">ciclones extratropicais</span> ou ciclones de latitudes médias. Eles são formados quando massas de ar frio e quente
             se encontram, gerando uma zona de baixa pressão atmosférica. Essa zona de baixa pressão pode se intensificar
             com a entrada de mais ar frio e úmido, gerando ventos fortes e chuvas intensas.</p>
 <p>Os impactos dos ciclones no Brasil variam de acordo com sua intensidade e trajetória. Eles podem causar
             fortes chuvas, ventos intensos e ondas elevadas, gerando enchentes, deslizamentos de terra, interrupções no
             abastecimento de energia elétrica e de água potável, além de danos em edificações e estruturas. </p>
-<p>Um exemplo recente disso foi em junho de 2020, quando um ciclone extratropical com intensidade de ciclone
-            subtropical atingiu a região sul do Brasil. Esse evento causou estragos e deixou mais de 1,5 milhão de
-            pessoas sem energia elétrica. </p>
+<p>Um exemplo recente disso foi em 30 de junho de 2020, quando um ciclone extratropical (conhecido como
+            "ciclone-bomba", por se intensificar muito rapidamente) atingiu Santa Catarina, o Rio Grande do Sul e o
+            Paraná, com rajadas de vento superiores a 150 km/h. Esse evento causou estragos e deixou cerca de 1,9
+            milhão de pessoas sem energia elétrica nos três estados. </p>
 <p><strong>Duvid:</strong> Pessoal, vamos encerrar hoje, e aproveito para resumir os diversos tópicos
             relacionados aos problemas socioambientais ligados ao clima no Brasil discutimos. Abordamos a influência das
             massas de ar na formação do clima, a seca que afeta o Nordeste e a importância da transposição do Rio São
@@ -439,7 +390,10 @@
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O mapa representa uma onda de frio que atingiu o sul da Amazônia em 2018</b></h4>
+<h4 class="fontePixel"><b>O mapa abaixo representa uma onda de frio (friagem) que atingiu o sul da Amazônia em 2018. O principal fator climático responsável por esse fenômeno é:</b></h4>
+<div class="w3-margin"><img alt="ts15f05" class="w3-mobile" id="imagem5" src="ts15f05.png"/>
+<span class="w3-small w3-margin-left" id="citacao5"> Fonte: "Friagem deve levar termômetros aos 15°C em municípios do interior do Amazonas". www.acritica.com, 2018. Adaptado.</span>
+</div>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
@@ -506,7 +460,11 @@
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Leia os dois slogans a seguir:</b></h4>
+<h4 class="fontePixel"><b>Leia os dois slogans a seguir, usados em lados opostos do debate sobre a transposição do Rio São Francisco, e assinale a alternativa correta:</b></h4>
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
+<p><em>"Água para todos: a transposição leva desenvolvimento ao Nordeste."</em> — defensores do projeto</p>
+<p><em>"Transposição não, revitalização sim!"</em> — movimentos sociais e comitês de bacia contrários à obra</p>
+</div>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
@@ -541,7 +499,7 @@
 <div class="topico">
 <h2 id="centralizado"> Na Ciência, todas as perguntas têm seu valor e podem levar a avanços importantes em
             diversas áreas do conhecimento.</h2>
-<p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Como a transposição do Rio São Francisco pode afetar o clima na região Nordeste do Brasil?
             </strong> </p>
@@ -563,7 +521,7 @@
             definitiva para a crise hídrica na região. É preciso investir em alternativas sustentáveis e de longo prazo,
             como o uso de tecnologias de reuso de água, a implantação de sistemas de irrigação mais eficientes e a
             preservação dos ecossistemas locais.</p>
-<p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Ontem na TV, o apresentador falou sobre a friagem no Brasil? O que seria isso?
 
@@ -572,7 +530,7 @@
 
             A Amazônia é conhecida por ser uma região de clima tropical, quente e úmido, com temperaturas médias anuais
             em torno de 26°C. No entanto, em algumas épocas do ano, especialmente durante o inverno, a região pode
-            sofrer com o fenômeno da friagem. A friagem é um evento climático caracterizado pela queda brusca de
+            sofrer com o fenômeno da <span class="termo" data-palavra="Friagem" data-definicao="Queda brusca de temperatura na Amazônia, causada pela chegada de massas de ar frio vindas do sul do continente, podendo derrubar os termômetros para menos de 10°C na região.">friagem</span>. A friagem é um evento climático caracterizado pela queda brusca de
             temperatura, que pode chegar a valores abaixo de 10°C, acompanhada de ventos fortes e chuvas intensas.
 
 
@@ -583,13 +541,13 @@
             preparada para temperaturas tão baixas. A ocorrência de friagem na Amazônia pode ser um importante fenômeno
             a ser estudado, especialmente em relação aos seus impactos na biodiversidade e nos ecossistemas da região.
         </p>
-<p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Explique o que é a Zona de convergência do Atlântico Sul?
             </strong></p>
 <p><span class="primeiraLetra">R:</span>
 
-            A Zona de Convergência do Atlântico Sul (ZCAS) é um fenômeno climático que ocorre na região tropical do
+            A <span class="termo" data-palavra="Zona de Convergência do Atlântico Sul (ZCAS)" data-definicao="Faixa de nebulosidade formada pela convergência de massas de ar quente e úmido vindas da Amazônia e do Oceano Atlântico, causando chuvas intensas e persistentes, mais comum no verão.">Zona de Convergência do Atlântico Sul (ZCAS)</span> é um fenômeno climático que ocorre na região tropical do
             Oceano Atlântico, próximo à costa brasileira. A ZCAS é formada pela convergência de massas de ar quente e
             úmido que vêm da Amazônia e do Oceano Atlântico, causando chuvas intensas e persistentes em diversas regiões
             do país. A ZCAS é mais intensa durante os meses de verão e pode provocar enchentes, deslizamentos de terra e
@@ -610,6 +568,24 @@
 <br/><br/>
 <hr/>
 </div>
+<div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. O que são mudanças climáticas e quais são suas principais causas e consequências para o Brasil?</h3>
+<h3>2. Como as massas de ar influenciam o clima no Brasil? Dê exemplos de como diferentes massas de ar afetam as condições climáticas em várias regiões do país.</h3>
+<h3>3. Quais são os principais impactos da seca no Nordeste brasileiro? Explique como a seca afeta tanto o meio ambiente quanto a sociedade nessa região.</h3>
+<h3>4. O que é a transposição do Rio São Francisco e qual é o objetivo desse projeto? Discuta os principais desafios e controvérsias relacionados a essa obra.</h3>
+<h3>5. Como o fenômeno El Niño afeta o clima no Brasil? Quais são as consequências típicas do El Niño para as diferentes regiões do país?</h3>
+<h3>6. Qual é o papel do relevo na configuração climática do Nordeste brasileiro? Como as serras e outras formações geográficas influenciam a distribuição de chuvas na região?</h3>
+<h3>7. Explique a diferença entre o El Niño e o La Niña. Como cada um desses fenômenos influencia o clima no Brasil?</h3>
+<h3>8. Como as massas de ar podem provocar ciclones e quais são os impactos desses eventos no Brasil? Dê um exemplo de um ciclone recente e seus efeitos.</h3>
+<h3>9. Discuta as medidas que podem ser adotadas para lidar com a seca no Brasil. Quais são as estratégias de curto e longo prazo que podem ajudar a mitigar os efeitos da seca?</h3>
+<h3>10. Qual é a importância de compreender os problemas socioambientais relacionados ao clima para a sociedade e para a preservação ambiental? Como o conhecimento sobre o clima pode ajudar na implementação de políticas públicas?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
 <div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
@@ -620,7 +596,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Climas do Brasil II: Problemas é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

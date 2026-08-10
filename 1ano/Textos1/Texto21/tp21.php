@@ -3,446 +3,664 @@
 
 <head>
 
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <meta name="description" content="">
-   <meta property="og:title" content="">
-   <meta property="og:description" content="">
-   <meta property="og:image" content="">
+    <meta name="description" content="Mudanças climáticas globais: efeito estufa, aquecimento global, camada de ozônio, El Niño e La Niña">
+    <meta property="og:title" content="Texto 21 - Mudanças Climáticas Globais">
+    <meta property="og:description" content="Efeito estufa, aquecimento global, camada de ozônio, El Niño e La Niña">
+    <meta property="og:image" content="">
 
-   <link rel="stylesheet" href="/estilos/index-estilo.css">
-   <link rel="stylesheet" href="/estilos/w3.css">
-   <link rel="stylesheet" href="/estilos/navbar.css">
-   <link rel="stylesheet" href="/estilos/rpg-sistema.css">
-   <link rel="stylesheet" href="/estilos/ModeloCss.css">
-   <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
-      crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
 
-   <script src="/js/duvid-cache.js" defer></script>
-   <script src="/js/duvid-db.js" defer></script>
-   <script src="/js/duvid-audio.js" defer></script>
-   <script src="/js/duvid-ui.js" defer></script>
-   <script src="/js/duvid-core.js" defer></script>
-   <script src="/estilos/jstextos-padrao.js" defer></script>
-   <script src="/js/abrirmenu.js" defer></script>
-   <script src="/js/carregar.js" defer></script>
-   <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-   <title>1º ano - Texto 21 - Mudanças climáticas globais</title>
+    <title>1º ano - Texto 21 - Mudanças climáticas globais</title>
 
 </head>
 
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
 
 
-<?php include __DIR__ . '/../../../includes/header.php'; ?>
+        <!-- BLOCO: Abertura -->
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
 
-<div id="aviso-status" class="w3-margin-top"></div>
+            <h1 id="h1"></h1>
 
-<main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
-
-   <div class="topico">
-      <div class="w3-padding-top-48"></div>
-
-      <h1 id="h1"></h1>
-
-      <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
-         <div class="w3-row">
-            <div class="w3-col s2 m1 w3-center">
-               <i class="fa fa-headphones w3-xxlarge"></i>
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
             </div>
-            <div class="w3-col s10 m11 w3-padding-small">
-               <b class="fontePixel">OUVIR AULA</b>
-               <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Identificar as mudanças climáticas globais e entender os processos que as causam. Destacar as possíveis consequências dessas mudanças para a vida humana e de outros seres vivos do planeta.</span></p>
             </div>
-         </div>
-         <audio controls style="width:100%; margin-top: 10px;">
-            <source id="audioSource" src="" type="audio/mp3">
-         </audio>
-      </div>
-
-      <div class="w3-container w3-padding-16">
-         <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
-         <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
-      </div>
-
-      <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
-         <i class="fa fa-play"></i> Iniciar Aula
-      </button>
-      <hr>
-   </div>
-
-   <div class="topico">
-
-      <h2>Introdução</h2>
-
-      <p>
-         <span class="primeiraLetra"><strong>N</strong></span>a última aula aprendemos como o clima se
-         forma e quais fatores influenciam suas variações na Terra.
-         Agora, vamos avançar para entender como essas mudanças vêm afetando o planeta e o nosso dia a dia.
-      </p>
-
-      <p>
-         Nesta aula, estudaremos os principais fenômenos relacionados às
-         <span class="termo clima" data-palavra="Mudanças Climáticas"
-            data-definicao="Transformações de longo prazo nos padrões de temperatura, precipitação e eventos climáticos, causadas principalmente pela ação humana.">mudanças
-            climáticas</span>globais,
-         como o efeito estufa e o aquecimento global, e refletiremos sobre suas causas e consequências
-         para a vida na Terra.
-      </p>
-
-      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-      <hr>
-
-   </div>
-
-   <div id="sumario" class="topico">
-      <div class="w3-pale-yellow">
-         <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-         <h3>1. O que é o efeito estufa e por que ele é importante para a vida na Terra?</h3>
-         <h3>2. Por que o efeito estufa pode se tornar um problema ambiental?</h3>
-         <h3>3. Quais são as principais causas do aquecimento global?</h3>
-         <h3>4. Quais são as consequências do aquecimento global para o planeta?</h3>
-         <h3>5. O que é o fenômeno El Niño e como ele afeta o clima do Brasil?</h3>
-         <h3>6. Em que o fenômeno La Niña é diferente do El Niño?</h3>
-         <h3>7. De que forma El Niño e La Niña influenciam a agricultura e o abastecimento de água?</h3>
-         <h3>8. O que é a camada de ozônio e qual a sua função?</h3>
-         <h3>9. Quais substâncias destroem a camada de ozônio e em quais produtos elas aparecem?</h3>
-         <h3>10. Como o estudo desses fenômenos — efeito estufa, aquecimento global, El Niño, La Niña e camada de
-            ozônio — ajuda a compreender o futuro do planeta?</h3>
-      </div>
-
-      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-      <hr>
-   </div>
-
-   <div class="topico">
-
-      <h2>1. O Efeito Estufa</h2>
-
-      <div class="w3-margin"><img id="imagem1" src="tp21f01.png" alt="tp21f01"
-            class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
-
-         <span class="w3-small w3-margin-left" id="citacao1"> </span>
-
-      </div>
-
-
-
-      <p class="w3-xlarge w3-serif">
-         Antes de começarmos a aula, imagine só: se a Terra não tivesse atmosfera, o planeta seria congelado,
-         com temperaturas médias de aproximadamente –18 °C.
-      </p>
-
-      <p class="w3-xxlarge w3-center w3-serif" style="font-weight:bold;">
-         A atmosfera é uma coberta invisível que protege e aquece a Terra.
-      </p>
-
-      <p>
-         Graças a um fenômeno natural chamado <span class="termo clima" data-palavra="Efeito Estufa"
-            data-definicao="Fenômeno natural em que certos gases da atmosfera retêm parte do calor do Sol, mantendo a temperatura da Terra adequada à vida.">efeito
-            estufa</span>
-         ,
-         parte do calor proveniente do Sol fica retida na atmosfera, mantendo a Terra em torno de
-         +15 °C — temperatura ideal para a existência da vida.
-      </p>
-
-      <p>
-         Esse processo foi descrito pela primeira vez em 1827 pelo cientista francês
-         Jean Baptiste Fourier, que comparou a atmosfera a uma estufa de vidro.
-         Mais tarde, em 1860, o físico John Tyndall demonstrou que gases como
-         o dióxido de carbono (CO₂) e o vapor d’água têm a capacidade de reter calor.
-         Ele também observou que mudanças na quantidade desses gases poderiam alterar o clima do planeta.
-      </p>
-
-      <h3>Como o efeito estufa funciona?</h3>
-
-      <p>
-         A radiação solar aquece a superfície da Terra, que devolve parte desse calor em forma de radiação
-         infravermelha. Alguns gases presentes na atmosfera absorvem parte dessa energia e a reemitem,
-         impedindo que todo o calor escape para o espaço. Esse processo mantém o planeta aquecido.
-      </p>
-
-      <div class="w3-panel w3-white w3-topbar w3-bottombar w3-round">
-         <p>Principais <span class="termo clima" data-palavra="Gases do Efeito Estufa"
-               data-definicao="Substâncias como o dióxido de carbono (CO₂), metano (CH₄) e óxido nitroso (N₂O), que retêm o calor na atmosfera e contribuem para o aquecimento global.">gases
-               do efeito estufa</span> dióxido de carbono (CO₂), metano (CH₄),
-            óxido nitroso (N₂O), vapor d’água (H₂O) e gases industriais (HFC, PFC, SF₆).
-         </p>
-      </div>
-
-      <p>
-         O efeito estufa, portanto, é um fenômeno natural e essencial.
-         Sem ele, o planeta seria frio e inóspito.
-         O problema surge quando há um aumento excessivo desses gases na atmosfera,
-         o que intensifica o aquecimento do planeta e gera o fenômeno conhecido como
-         aquecimento global.
-      </p>
-
-      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-
-      <hr>
-   </div>
-
-   <div class="topico">
-
-      <h2>2. O Aquecimento Global</h2>
-
-
-
-      <div class="w3-margin"><img id="imagem2" src="tp21f02.png" alt="tp21f02"
-            class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
-         <span class="w3-small w3-margin-left" id="citacao2"> </span>
-      </div>
-
-      <p class="w3-xlarge w3-serif">
-         O <span class="termo clima" data-palavra="Aquecimento Global"
-            data-definicao="Aumento gradual da temperatura média da Terra devido ao acúmulo excessivo de gases do efeito estufa na atmosfera.">aquecimento
-            global</span> é o possui estreita relação com os gases liberados pelas atividades humanas.
-      </p>
-
-      <p>
-         Esse processo intensificou-se a partir da Revolução Industrial,
-         com a queima de combustíveis fósseis — como carvão, petróleo e gás natural —
-         e com o desmatamento, que libera dióxido de carbono (CO₂) e reduz a absorção desse gás pelas florestas.
-      </p>
-
-      <div class="w3-panel w3-white w3-topbar w3-bottombar w3-round">
-         <p>Desde o século XIX: a concentração de CO₂ aumentou de 280 ppm para mais de 400 ppm.
-            O metano (CH₄) e o óxido nitroso (N₂O) também apresentaram crescimento significativo.
-         </p>
-      </div>
-
-      <h3>Consequências do aquecimento global</h3>
-
-      <ul class="w3-ul w3-white w3-border w3-round w3-margin-bottom">
-         <li>Elevação da temperatura média global;</li>
-         <li>Derretimento de geleiras e aumento do nível dos oceanos;</li>
-         <li>Mudanças no regime de chuvas e impactos na agricultura;</li>
-         <li>Ocorrência de secas, ondas de calor e tempestades mais intensas;</li>
-         <li>Risco de extinção de espécies e desequilíbrio dos ecossistemas.</li>
-      </ul>
-
-      <h3>O caso da Antártida: plataformas de gelo e "greening"</h3>
-
-      <p>
-         A Antártida concentra cerca de 70% da água doce do planeta, armazenada em sua espessa camada de gelo.
-         Boa parte da costa do continente é margeada por <span class="termo clima" data-palavra="Plataforma de Gelo"
-            data-definicao="Língua de gelo que se destaca do continente antártico e flutua sobre o oceano, mas permanece conectada à porção de gelo apoiada em terra firme. Cobre cerca de três quartos do litoral da Antártida.">plataformas
-            de gelo</span> (ice shelves), enormes línguas de gelo flutuante que permanecem ligadas ao continente.
-         Como essas plataformas já flutuam na água, seu derretimento, isoladamente, não eleva o nível do mar (pelo
-         princípio de Arquimedes, o gelo flutuante já desloca um volume de água equivalente ao seu próprio peso).
-         O papel real das plataformas é outro, igualmente importante: elas funcionam como uma espécie de barreira
-         que freia as geleiras continentais. Quando uma plataforma se rompe ou desaparece, as geleiras que ela
-         continha aceleram seu deslocamento em direção ao oceano, e é esse gelo adicional, antes apoiado em terra
-         firme, que efetivamente eleva o nível do mar.
-      </p>
-
-      <p>
-         O aumento da temperatura do ar e a redução da cobertura de gelo também têm permitido um fenômeno inédito
-         em escala geológica: o <span class="termo clima" data-palavra="Greening da Antártida"
-            data-definicao="Processo de esverdeamento de áreas antárticas antes cobertas por gelo, com a expansão de musgos e outras plantas pioneiras, medido por índices de vegetação como o NDVI. É um indicador do avanço do aquecimento na Península Antártica.">esverdeamento
-            (greening)</span> de partes da Península Antártica. Em regiões como o arquipélago das Ilhas Shetlands do
-         Sul, a área coberta por musgos e outras plantas pioneiras cresceu de forma acelerada nas últimas décadas,
-         à medida que o recuo do gelo abre espaço para a colonização vegetal. Esse avanço da vegetação em um dos
-         ambientes mais frios do planeta é um indicador direto de como o aquecimento já está alterando ecossistemas
-         inteiros, mesmo naquelas regiões consideradas mais isoladas da ação humana direta.
-      </p>
-
-      <p>
-         Embora o clima da Terra tenha mudado naturalmente ao longo da história,
-         a velocidade atual dessas transformações é muito superior ao que se observava em períodos anteriores.
-         De acordo com o
-
-         <span class="termo clima" data-palavra="IPCC"
-            data-definicao="Painel Intergovernamental sobre Mudanças Climáticas da ONU, que reúne cientistas do mundo todo para estudar e divulgar relatórios sobre o aquecimento global.">IPCC</span>
-         ,
-         a temperatura média global aumentou cerca de 0,74 °C nos últimos 100 anos.
-      </p>
-
-      <div class="w3-panel w3-pale-red w3-border-red w3-topbar w3-bottombar w3-round">
-         <p>Importante: Se não houver redução na emissão desses gases,
-            a temperatura global poderá subir de 1,5 °C a 2 °C até o final do século,
-            provocando alterações irreversíveis no clima e nos biomas terrestres.</p>
-      </div>
-
-      <p>
-         Agora que compreendemos o funcionamento do efeito estufa e as causas do aquecimento global,
-         o próximo passo é estudar outro elemento essencial da atmosfera:
-         a camada de ozônio.
-      </p>
-
-      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-
-      <hr>
-   </div>
-
-   <div class="topico">
-
-      <h2>3. Camada de Ozônio</h2>
-
-      <div class="w3-margin"><img id="imagem3" src="tp21f03.png" alt="tp21f03"
-            class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
-
-         <span class="w3-small w3-margin-left" id="citacao3"> </span>
-
-      </div>
-
-      <p>
-         No alto da atmosfera existe uma camada muito especial chamada <span class="termo clima"
-            data-palavra="Camada de Ozônio"
-            data-definicao="Região da estratosfera rica em ozônio (O₃), responsável por filtrar a radiação ultravioleta do Sol.">camada
-            de ozônio</span>, formada por moléculas
-         de ozônio (O₃).
-         Sua principal função é proteger a vida na Terra, filtrando a <span class="termo clima"
-            data-palavra="Radiação Ultravioleta"
-            data-definicao="Tipo de radiação solar invisível que pode causar queimaduras e câncer de pele quando não filtrada pela camada de ozônio.">radiação
-            ultravioleta</span> emitida
-         pelo
-         Sol.
-         Sem essa proteção, haveria aumento de queimaduras, câncer de pele, catarata, envelhecimento precoce e
-         danos
-         à vegetação,
-         que teria a fotossíntese reduzida.
-      </p>
-
-      <p>
-         Contudo, essa camada tem sofrido agressões. As substâncias que mais a destroem são os
-         <span class="termo clima" data-palavra="CFCs"
-            data-definicao="Sigla para clorofluorcarbonetos, compostos usados em sprays e geladeiras que destroem a camada de ozônio ao liberar cloro na estratosfera.">CFCs</span>,
-         presentes em antigos sistemas de refrigeração e sprays.
-         Ao chegarem à estratosfera, liberam cloro, que reage com o ozônio — um único átomo de cloro pode
-         destruir
-         até
-         100 mil moléculas de ozônio.
-      </p>
-
-      <p>
-         Outras substâncias também prejudicam a camada, como os halons (extintores),
-         o tetracloreto de carbono (solventes), o metil clorofórmio (usado em anestésicos) e os
-         óxidos de nitrogênio (indústria química).
-      </p>
-
-      <p>
-         Desde a década de 1960, cientistas vêm observando a redução gradual do ozônio atmosférico.
-         O chamado “buraco na camada de ozônio” aparece com mais intensidade sobre a Antártida,
-         onde o frio extremo e reações químicas aumentam a destruição do ozônio.
-         Felizmente, em boa parte do Brasil, essa camada ainda se mantém preservada em cerca de 95%.
-      </p>
-
-
-
-
-      <h2>4. El Niño e La Niña</h2>
-
-      <div class="w3-margin"><img id="imagem4" src="tp21f04.png" alt="tp21f04"
-            class="w3-mobile w3-image w3-card w3-round w3-hover-shadow">
-
-         <span class="w3-small w3-margin-left" id="citacao4"> </span>
-
-      </div>
-
-      <p>
-         Além da camada de ozônio, outros fenômenos também influenciam o clima da Terra.
-         Entre os mais conhecidos estão o El Niño e a La Niña, que ocorrem no
-         Oceano Pacífico e afetam o clima de várias partes do mundo.
-      </p>
-
-      <p>
-         O <span class="termo clima" data-palavra="El Niño"
-            data-definicao="Fenômeno climático caracterizado pelo aquecimento anormal das águas do Oceano Pacífico, que altera os padrões de chuva e temperatura em várias regiões do planeta.">El
-            Niño</span> é caracterizado pelo aquecimento anormal das águas superficiais do Pacífico
-         Tropical,
-         alterando os ventos e os padrões de chuva.
-         No Brasil, costuma provocar aumento das temperaturas e diminuição das chuvas nas regiões Sudeste,
-         Centro-Oeste e Nordeste, enquanto o Sul tende a registrar precipitações mais intensas.
-      </p>
-
-      <p>
-         Já a
-         <span class="termo clima" data-palavra="La Niña"
-            data-definicao="Fenômeno climático oposto ao El Niño, caracterizado pelo resfriamento anormal das águas do Oceano Pacífico, alterando o regime de chuvas e temperaturas.">La
-            Niña</span> apresenta o fenômeno oposto — o resfriamento anormal das águas do Pacífico
-         Tropical.
-         Nesse período, é comum o aumento das chuvas nas regiões Norte e Nordeste,
-         enquanto o Sul enfrenta estiagens e temperaturas mais baixas.
-      </p>
-
-      <p>
-         Esses fenômenos impactam diretamente setores como a agricultura e a geração de energia,
-         pois alteram o regime de chuvas e a disponibilidade de água.
-         O aquecimento global pode potencializar seus efeitos, tornando eventos extremos como secas,
-         inundações e ondas de calor mais frequentes.
-      </p>
-
-
-      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
-      <hr>
-
-   </div>
-
-   <div class="topico">
-      <h3>Antes de finalizar, vamos fazer as questões!</h3>
-      <button class="btnShow" onclick="
- if(this.disabled) return;
- this.disabled = true;
- ProcessarResposta(this, {
- correto: true,
- idFrase: 'respFinal',
- idGlobo: 'globinhorespFinal',
- classe: '',
- mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
- pontos: 40
- });
- MostrarProximo(this);
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Pratica Social Inicial -->
+        <div class="topico">
+            <p class="caixa"> Agora é com você!</p>
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Você provavelmente já ouviu falar em "efeito estufa" e "aquecimento global" como se fossem sinônimos, ou já ouviu alguém culpar o "buraco na camada de ozônio" pelo calor mais intenso.</p>
+                <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, o efeito estufa é algo bom ou ruim para o planeta? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Problematizacao -->
+        <div class="topico">
+
+            <h2>Introdução</h2>
+
+            <p>
+                <span class="primeiraLetra"><strong>N</strong></span>a última aula aprendemos como o clima se
+                forma e quais fatores influenciam suas variações na Terra.
+                Agora, vamos avançar para entender como essas mudanças vêm afetando o planeta e o nosso dia a dia.
+            </p>
+
+            <p>
+                Nesta aula, estudaremos os principais fenômenos relacionados às
+                <span class="termo clima" data-palavra="Mudanças Climáticas"
+                    data-definicao="Transformações de longo prazo nos padrões de temperatura, precipitação e eventos climáticos, causadas principalmente pela ação humana.">mudanças
+                    climáticas</span> globais,
+                como o efeito estufa e o aquecimento global, e refletiremos sobre suas causas e consequências
+                para a vida na Terra.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (efeito estufa) -->
+        <div class="topico">
+
+            <h2>1. O Efeito Estufa</h2>
+
+            <div class="area">
+                <img alt="Radiação solar retida pelos gases do efeito estufa" class="w3-mobile" id="imagem1" src="tp21f01.png" style="display:block" />
+            </div>
+            <p class="citacao" style="display:block"> Fonte: organizado pelo autor. </p>
+
+            <p class="w3-xlarge w3-serif">
+                Antes de começarmos a aula, imagine só: se a Terra não tivesse atmosfera, o planeta seria congelado,
+                com temperaturas médias de aproximadamente –18 °C.
+            </p>
+
+            <p class="w3-xxlarge w3-center w3-serif" style="font-weight:bold;">
+                A atmosfera é uma coberta invisível que protege e aquece a Terra.
+            </p>
+
+            <p>
+                Graças a um fenômeno natural chamado <span class="termo clima" data-palavra="Efeito Estufa"
+                    data-definicao="Fenômeno natural em que certos gases da atmosfera retêm parte do calor do Sol, mantendo a temperatura da Terra adequada à vida.">efeito
+                    estufa</span>,
+                parte do calor proveniente do Sol fica retida na atmosfera, mantendo a Terra em torno de
+                +15 °C, temperatura ideal para a existência da vida.
+            </p>
+
+            <p>
+                Esse processo foi descrito pela primeira vez em 1827 pelo cientista francês
+                Jean Baptiste Fourier, que comparou a atmosfera a uma estufa de vidro.
+                Mais tarde, em 1860, o físico John Tyndall demonstrou que gases como
+                o dióxido de carbono (CO₂) e o vapor d'água têm a capacidade de reter calor.
+                Ele também observou que mudanças na quantidade desses gases poderiam alterar o clima do planeta.
+            </p>
+
+            <h3>Como o efeito estufa funciona?</h3>
+
+            <p>
+                A radiação solar aquece a superfície da Terra, que devolve parte desse calor em forma de radiação
+                infravermelha. Alguns gases presentes na atmosfera absorvem parte dessa energia e a reemitem,
+                impedindo que todo o calor escape para o espaço. Esse processo mantém o planeta aquecido.
+            </p>
+
+            <div class="w3-panel w3-white w3-topbar w3-bottombar w3-round">
+                <p>Principais <span class="termo clima" data-palavra="Gases do Efeito Estufa"
+                        data-definicao="Substâncias como o dióxido de carbono (CO₂), metano (CH₄) e óxido nitroso (N₂O), que retêm o calor na atmosfera e contribuem para o aquecimento global.">gases
+                        do efeito estufa</span>: dióxido de carbono (CO₂), metano (CH₄),
+                    óxido nitroso (N₂O), vapor d'água (H₂O) e gases industriais (HFC, PFC, SF₆).
+                </p>
+            </div>
+
+            <p>
+                O efeito estufa, portanto, é um fenômeno natural e essencial.
+                Sem ele, o planeta seria frio e inóspito.
+                O problema surge quando há um aumento excessivo desses gases na atmosfera,
+                o que intensifica o aquecimento do planeta e gera o fenômeno conhecido como
+                aquecimento global.
+            </p>
+
+            <p>
+                Uma forma de dimensionar a importância desse equilíbrio é comparar a Terra com seus vizinhos no
+                Sistema Solar. Vênus tem uma atmosfera extremamente densa, composta quase inteiramente de dióxido de
+                carbono, e sofre um efeito estufa descontrolado que eleva sua temperatura superficial a mais de
+                460°C, calor suficiente para derreter chumbo. Marte, por outro lado, tem uma atmosfera tão rarefeita
+                que quase não retém calor algum, e por isso sua temperatura média fica em torno de –60°C. A Terra
+                está no meio-termo exato que permite a existência de água líquida e de vida como a conhecemos, e é
+                justamente esse equilíbrio delicado que o aumento artificial dos gases de efeito estufa ameaça
+                romper.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O efeito estufa costuma ser citado como um problema ambiental, mas ele também
+                    é essencial à vida na Terra. Qual das alternativas explica corretamente essa aparente
+                    contradição?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>O efeito estufa deveria ser eliminado por completo,
+                            pois qualquer quantidade desses gases já é prejudicial ao planeta</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>O efeito estufa natural mantém a Terra em torno de
+                            +15°C e é indispensável à vida; o problema é o aumento artificial de gases como o CO₂
+                            desde a Revolução Industrial, que intensifica esse processo além do equilíbrio
+                            natural</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>O efeito estufa só se tornou um problema depois que o
+                            buraco na camada de ozônio começou a aparecer sobre a Antártida</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o efeito estufa é um fenômeno natural que mantém a temperatura da Terra em cerca de +15°C; sem ele, o planeta seria congelado, a cerca de –18°C. O que preocupa os cientistas não é a existência do efeito estufa, mas o aumento artificial de gases como CO₂ e metano desde a Revolução Industrial, que intensifica esse fenômeno natural além do que os ecossistemas conseguem acompanhar.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (aquecimento global) -->
+        <div class="topico">
+
+            <h2>2. O Aquecimento Global</h2>
+
+            <div class="area">
+                <img alt="Efeito estufa natural comparado ao efeito estufa intensificado pelo homem" class="w3-mobile" id="imagem2" src="tp21f02.png" style="display:block" />
+            </div>
+            <p class="citacao" style="display:block"> Fonte: organizado pelo autor. </p>
+
+            <p class="w3-xlarge w3-serif">
+                O <span class="termo clima" data-palavra="Aquecimento Global"
+                    data-definicao="Aumento gradual da temperatura média da Terra devido ao acúmulo excessivo de gases do efeito estufa na atmosfera.">aquecimento
+                    global</span> possui estreita relação com os gases liberados pelas atividades humanas.
+            </p>
+
+            <p>
+                Esse processo intensificou-se a partir da Revolução Industrial,
+                com a queima de combustíveis fósseis, como carvão, petróleo e gás natural,
+                e com o desmatamento, que libera dióxido de carbono (CO₂) e reduz a absorção desse gás pelas florestas.
+            </p>
+
+            <div class="w3-panel w3-white w3-topbar w3-bottombar w3-round">
+                <p>Desde o século XIX: a concentração de CO₂ aumentou de 280 ppm para mais de 400 ppm.
+                    O metano (CH₄) e o óxido nitroso (N₂O) também apresentaram crescimento significativo.
+                </p>
+            </div>
+
+            <h3>Consequências do aquecimento global</h3>
+
+            <ul class="w3-ul w3-white w3-border w3-round w3-margin-bottom">
+                <li>Elevação da temperatura média global;</li>
+                <li>Derretimento de geleiras e aumento do nível dos oceanos;</li>
+                <li>Mudanças no regime de chuvas e impactos na agricultura;</li>
+                <li>Ocorrência de secas, ondas de calor e tempestades mais intensas;</li>
+                <li>Risco de extinção de espécies e desequilíbrio dos ecossistemas.</li>
+            </ul>
+
+            <h3>O caso da Antártida: plataformas de gelo e "greening"</h3>
+
+            <p>
+                A Antártida concentra cerca de 70% da água doce do planeta, armazenada em sua espessa camada de gelo.
+                Boa parte da costa do continente é margeada por <span class="termo clima" data-palavra="Plataforma de Gelo"
+                    data-definicao="Língua de gelo que se destaca do continente antártico e flutua sobre o oceano, mas permanece conectada à porção de gelo apoiada em terra firme. Cobre cerca de três quartos do litoral da Antártida.">plataformas
+                    de gelo</span> (ice shelves), enormes línguas de gelo flutuante que permanecem ligadas ao continente.
+                Como essas plataformas já flutuam na água, seu derretimento, isoladamente, não eleva o nível do mar (pelo
+                princípio de Arquimedes, o gelo flutuante já desloca um volume de água equivalente ao seu próprio peso).
+                O papel real das plataformas é outro, igualmente importante: elas funcionam como uma espécie de barreira
+                que freia as geleiras continentais. Quando uma plataforma se rompe ou desaparece, as geleiras que ela
+                continha aceleram seu deslocamento em direção ao oceano, e é esse gelo adicional, antes apoiado em terra
+                firme, que efetivamente eleva o nível do mar.
+            </p>
+
+            <p>
+                O aumento da temperatura do ar e a redução da cobertura de gelo também têm permitido um fenômeno inédito
+                em escala geológica: o <span class="termo clima" data-palavra="Greening da Antártida"
+                    data-definicao="Processo de esverdeamento de áreas antárticas antes cobertas por gelo, com a expansão de musgos e outras plantas pioneiras, medido por índices de vegetação como o NDVI. É um indicador do avanço do aquecimento na Península Antártica.">esverdeamento
+                    (greening)</span> de partes da Península Antártica. Em regiões como o arquipélago das Ilhas Shetlands do
+                Sul, a área coberta por musgos e outras plantas pioneiras cresceu de forma acelerada nas últimas décadas,
+                à medida que o recuo do gelo abre espaço para a colonização vegetal. Esse avanço da vegetação em um dos
+                ambientes mais frios do planeta é um indicador direto de como o aquecimento já está alterando ecossistemas
+                inteiros, mesmo naquelas regiões consideradas mais isoladas da ação humana direta.
+            </p>
+
+            <p>
+                Embora o clima da Terra tenha mudado naturalmente ao longo da história,
+                a velocidade atual dessas transformações é muito superior ao que se observava em períodos anteriores.
+                De acordo com o
+                <span class="termo clima" data-palavra="IPCC"
+                    data-definicao="Painel Intergovernamental sobre Mudanças Climáticas da ONU, que reúne cientistas do mundo todo para estudar e divulgar relatórios sobre o aquecimento global.">IPCC</span>,
+                a temperatura média global aumentou cerca de 0,74 °C nos últimos 100 anos.
+            </p>
+
+            <div class="w3-panel w3-pale-red w3-border-red w3-topbar w3-bottombar w3-round">
+                <p>Importante: se não houver redução na emissão desses gases,
+                    a temperatura global poderá subir de 1,5 °C a 2 °C até o final do século,
+                    provocando alterações irreversíveis no clima e nos biomas terrestres.</p>
+            </div>
+
+            <p>
+                No Brasil, os efeitos do aquecimento global já são visíveis em diferentes biomas. O Pantanal
+                registrou, em 2020, os piores incêndios de sua história, favorecidos por uma seca prolongada
+                associada ao aumento das temperaturas médias. Os recifes de corais de Abrolhos, na Bahia, também
+                vêm sofrendo episódios de branqueamento, processo em que o estresse térmico faz os corais expelirem
+                as algas que lhes dão cor e nutrientes, podendo levar à morte da colônia se o calor persistir. Esses
+                exemplos mostram que o aquecimento global já reconfigura paisagens e ecossistemas brasileiros, bem
+                longe de ser uma ameaça distante.
+            </p>
+
+            <p>
+                Agora que compreendemos o funcionamento do efeito estufa e as causas do aquecimento global,
+                o próximo passo é estudar outro elemento essencial da atmosfera:
+                a camada de ozônio.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (camada de ozonio) -->
+        <div class="topico">
+
+            <h2>3. Camada de Ozônio</h2>
+
+            <div class="area">
+                <img alt="Camada de ozônio filtrando a radiação ultravioleta" class="w3-mobile" id="imagem3" src="tp21f03.png" style="display:block" />
+            </div>
+            <p class="citacao" style="display:block"> Fonte: organizado pelo autor. </p>
+
+            <p>
+                No alto da atmosfera existe uma camada muito especial chamada <span class="termo clima"
+                    data-palavra="Camada de Ozônio"
+                    data-definicao="Região da estratosfera rica em ozônio (O₃), responsável por filtrar a radiação ultravioleta do Sol.">camada
+                    de ozônio</span>, formada por moléculas
+                de ozônio (O₃).
+                Sua principal função é proteger a vida na Terra, filtrando a <span class="termo clima"
+                    data-palavra="Radiação Ultravioleta"
+                    data-definicao="Tipo de radiação solar invisível que pode causar queimaduras e câncer de pele quando não filtrada pela camada de ozônio.">radiação
+                    ultravioleta</span> emitida
+                pelo
+                Sol.
+                Sem essa proteção, haveria aumento de queimaduras, câncer de pele, catarata, envelhecimento precoce e
+                danos
+                à vegetação,
+                que teria a fotossíntese reduzida.
+            </p>
+
+            <p>
+                Contudo, essa camada tem sofrido agressões. As substâncias que mais a destroem são os
+                <span class="termo clima" data-palavra="CFCs"
+                    data-definicao="Sigla para clorofluorcarbonetos, compostos usados em sprays e geladeiras que destroem a camada de ozônio ao liberar cloro na estratosfera.">CFCs</span>,
+                presentes em antigos sistemas de refrigeração e sprays.
+                Ao chegarem à estratosfera, liberam cloro, que reage com o ozônio, um único átomo de cloro pode
+                destruir
+                até
+                100 mil moléculas de ozônio.
+            </p>
+
+            <p>
+                Outras substâncias também prejudicam a camada, como os halons (extintores),
+                o tetracloreto de carbono (solventes), o metil clorofórmio (usado em anestésicos) e os
+                óxidos de nitrogênio (indústria química).
+            </p>
+
+            <p>
+                Desde a década de 1960, cientistas vêm observando a redução gradual do ozônio atmosférico.
+                O chamado "buraco na camada de ozônio" aparece com mais intensidade sobre a Antártida,
+                onde o frio extremo e reações químicas aumentam a destruição do ozônio.
+                Felizmente, em boa parte do Brasil, essa camada ainda se mantém preservada em cerca de 95%.
+            </p>
+
+            <p>
+                Apesar da gravidade do problema, a camada de ozônio é hoje um dos raros casos de sucesso ambiental
+                em escala global. Em 1987, os países assinaram o Protocolo de Montreal, banindo progressivamente a
+                produção de CFCs e de outras substâncias destruidoras de ozônio. Passadas quase quatro décadas, o
+                buraco sobre a Antártida vem encolhendo de forma consistente, e cientistas da NASA e da ONU estimam
+                que a camada deve se recuperar totalmente por volta de 2066. O caso do ozônio costuma ser citado
+                como prova de que a cooperação internacional é capaz de reverter danos ambientais quando existe
+                vontade política e um alvo bem definido.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (el nino e la nina) -->
+        <div class="topico">
+
+            <h2>4. El Niño e La Niña</h2>
+
+            <div class="area">
+                <img alt="Aquecimento (El Niño) e resfriamento (La Niña) das águas do Pacífico" class="w3-mobile" id="imagem4" src="tp21f04.png" style="display:block" />
+            </div>
+            <p class="citacao" style="display:block"> Fonte: organizado pelo autor. </p>
+
+            <p>
+                Além da camada de ozônio, outros fenômenos também influenciam o clima da Terra.
+                Entre os mais conhecidos estão o El Niño e a La Niña, que ocorrem no
+                Oceano Pacífico e afetam o clima de várias partes do mundo.
+            </p>
+
+            <p>
+                O <span class="termo clima" data-palavra="El Niño"
+                    data-definicao="Fenômeno climático caracterizado pelo aquecimento anormal das águas do Oceano Pacífico, que altera os padrões de chuva e temperatura em várias regiões do planeta.">El
+                    Niño</span> é caracterizado pelo aquecimento anormal das águas superficiais do Pacífico
+                Tropical,
+                alterando os ventos e os padrões de chuva.
+                No Brasil, costuma provocar aumento das temperaturas e diminuição das chuvas nas regiões Sudeste,
+                Centro-Oeste e Nordeste, enquanto o Sul tende a registrar precipitações mais intensas.
+            </p>
+
+            <p>
+                Já a
+                <span class="termo clima" data-palavra="La Niña"
+                    data-definicao="Fenômeno climático oposto ao El Niño, caracterizado pelo resfriamento anormal das águas do Oceano Pacífico, alterando o regime de chuvas e temperaturas.">La
+                    Niña</span> apresenta o fenômeno oposto, o resfriamento anormal das águas do Pacífico
+                Tropical.
+                Nesse período, é comum o aumento das chuvas nas regiões Norte e Nordeste,
+                enquanto o Sul enfrenta estiagens e temperaturas mais baixas.
+            </p>
+
+            <p>
+                Esses fenômenos impactam diretamente setores como a agricultura e a geração de energia,
+                pois alteram o regime de chuvas e a disponibilidade de água.
+                O aquecimento global pode potencializar seus efeitos, tornando eventos extremos como secas,
+                inundações e ondas de calor mais frequentes.
+            </p>
+
+            <p>
+                O El Niño de 2023-2024 foi um dos mais intensos já registrados, contribuindo para que 2023 se
+                tornasse o ano mais quente da história até então medida pelos institutos climáticos internacionais.
+                No Brasil, esse episódio agravou a seca histórica que atingiu a bacia amazônica, reduzindo
+                drasticamente o nível de rios como o Rio Negro e prejudicando o transporte fluvial e o
+                abastecimento de comunidades ribeirinhas. Esse exemplo mostra como um fenômeno originado no Oceano
+                Pacífico pode se somar ao aquecimento global e amplificar impactos em regiões muito distantes de
+                onde ele acontece.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Durante um episódio de El Niño, qual é o padrão de chuva mais esperado para a
+                    Região Sul do Brasil, em comparação com um episódio de La Niña?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="correto" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>No El Niño, o Sul tende a ter chuvas mais intensas; no
+                            La Niña, a região tende a enfrentar estiagem</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>No El Niño, o Sul tende a enfrentar seca; no La Niña,
+                            a região tende a ter chuvas mais intensas</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>El Niño e La Niña não têm nenhuma relação com o regime
+                            de chuvas do Sul do Brasil, apenas com o Nordeste</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o El Niño aquece as águas do Pacífico Tropical e costuma provocar aumento das temperaturas e diminuição das chuvas no Sudeste, Centro-Oeste e Nordeste, enquanto a Região Sul tende a registrar precipitações mais intensas. Já a La Niña, com o resfriamento anormal do Pacífico, costuma inverter esse padrão: mais chuva no Norte e Nordeste, e estiagem no Sul.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se o efeito estufa é natural e necessário, por que ele é sempre citado como um problema ambiental?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Porque o problema não é o efeito estufa em si, mas o seu excesso. Sem ele, a Terra seria um planeta congelado, a cerca de –18°C. O que preocupa os cientistas é o aumento artificial da concentração de gases como CO₂ e metano, provocado pela queima de combustíveis fósseis e pelo desmatamento desde a Revolução Industrial, que intensifica esse fenômeno natural e eleva a temperatura média do planeta além do que os ecossistemas conseguem acompanhar.</p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se as plataformas de gelo da Antártida já flutuam na água, por que seu derretimento é motivo de preocupação?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Porque, isoladamente, o derretimento do gelo que já flutua realmente não eleva o nível do mar, pelo princípio de Arquimedes. O problema é o papel que essas plataformas desempenham: elas funcionam como uma barreira que freia as geleiras continentais atrás delas. Quando uma plataforma se rompe, essas geleiras, que estavam apoiadas em terra firme, aceleram seu deslocamento até o oceano, e é esse gelo adicional que efetivamente eleva o nível do mar.
+            </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    O buraco na camada de ozônio e o aquecimento global são a mesma coisa?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Não, são fenômenos diferentes, embora frequentemente confundidos. O aquecimento global é causado pelo acúmulo de gases do efeito estufa (como CO₂ e metano), que retêm calor na atmosfera. Já o buraco na camada de ozônio é causado por substâncias como os CFCs, que destroem as moléculas de ozônio na estratosfera, reduzindo a proteção contra a radiação ultravioleta. São dois problemas ambientais distintos, com causas químicas diferentes, que às vezes coincidem nas mesmas regiões, como a Antártida.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questoes para o caderno -->
+        <div class="topico" id="sumario">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2> Questões para responder no caderno:</h2>
+                <h3>1. O que é o efeito estufa e por que ele é importante para a vida na Terra?</h3>
+                <h3>2. Por que o efeito estufa pode se tornar um problema ambiental?</h3>
+                <h3>3. Quais são as principais causas do aquecimento global?</h3>
+                <h3>4. Quais são as consequências do aquecimento global para o planeta?</h3>
+                <h3>5. O que é o fenômeno El Niño e como ele afeta o clima do Brasil?</h3>
+                <h3>6. Em que o fenômeno La Niña é diferente do El Niño?</h3>
+                <h3>7. De que forma El Niño e La Niña influenciam a agricultura e o abastecimento de água?</h3>
+                <h3>8. O que é a camada de ozônio e qual a sua função?</h3>
+                <h3>9. Quais substâncias destroem a camada de ozônio e em quais produtos elas aparecem?</h3>
+                <h3>10. Como o estudo desses fenômenos, efeito estufa, aquecimento global, El Niño, La Niña e camada de ozônio, ajuda a compreender o futuro do planeta?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+                <h2>O que mudou no seu olhar</h2>
+
+                <p>Releia o que você anotou no início sobre se o efeito estufa é bom ou ruim. Agora você sabe que ele é, ao mesmo tempo, essencial e potencialmente perigoso: sem ele a Terra seria congelada, mas seu excesso, causado pela ação humana desde a Revolução Industrial, está por trás do aquecimento global.</p>
+
+                <p>Você também viu que camada de ozônio, El Niño e La Niña são fenômenos distintos do aquecimento global, cada um com suas próprias causas e consequências, e que todos eles, juntos, moldam o clima que vivemos hoje e o que vamos herdar no futuro.</p>
+
+                <p><strong>Resumo dos conceitos:</strong> efeito estufa e gases do efeito estufa; aquecimento global; plataformas de gelo e greening da Antártida; IPCC; camada de ozônio e radiação ultravioleta; CFCs; El Niño e La Niña.</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos revisar o que aprendemos!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema Mudanças Climáticas Globais é fascinante! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
 ">Próximo</button>
-      <p id="respFinal"></p>
-      <div class="area">
-         <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none" alt="globinhorespFinal"
-               width="64" height="64"></p>
-      </div>
-      <hr>
-   </div>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none" alt="globinhorespFinal"
+                        width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
 
-   <!-- TÓPICO FINALIZAR -->
-   <div class="topico">
-      <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
-   </div>
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
 
-   <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
-      <hr>
-      <h3 class="w3-center fontePixel"><strong>Para saber mais:</strong></h3>
-      <div class="w3-row-padding" id="links-gerados"></div>
-      <div class="w3-container w3-padding-64">
-         <h3 class="fontePixel w3-center">
-            <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
-         </h3>
-         <div id="biblio-gerada"></div>
-      </div>
-      <br><br>
-      <div class="w3-padding-48">
-         <span id="numero"></span>
-         <span id="txtBarra">0%</span>
-         <progress value="0" max="100" id="progress"></progress>
-      </div>
-</main>
 
-<?php include __DIR__ . '/../../../includes/footer.php'; ?>
+        <!-- ===== SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS ===== -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
 
 </body>
 

@@ -474,7 +474,7 @@
                                   border:1.5px solid #2e7d32; color:#2e7d32; text-align:center;
                                   font-family:'Montserrat',sans-serif; font-size:.85rem; font-weight:700;
                                   text-decoration:none; transition:background .15s;"
-                           onmouseover="this.style.background='#f0f7f0'"
+                           onmouseover="this.style.background=document.body.classList.contains('dark-mode')?'#1a2e1a':'#f0f7f0'"
                            onmouseout="this.style.background='transparent'">
                             Ver Ranking Completo
                         </a>
@@ -517,8 +517,8 @@
                         <div style="background:#fff; border-radius:20px; overflow:hidden;
                                     box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
                                     transition:transform .2s, box-shadow .2s;"
-                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(46,125,50,.15)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+                             onmouseover="var dm=document.body.classList.contains('dark-mode');this.style.transform='translateY(-5px)';this.style.boxShadow=dm?'0 12px 32px rgba(0,0,0,.5)':'0 12px 32px rgba(46,125,50,.15)';this.style.background=dm?'#1e2a1e':'#fff'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)';this.style.background=document.body.classList.contains('dark-mode')?'#1e2a1e':'#fff'">
 
                             <!-- Imagem topo com badge -->
                             <div style="position:relative; overflow:hidden; height:150px; background:#e8f5e9;">
@@ -578,8 +578,8 @@
                         <div style="background:#fff; border-radius:20px; overflow:hidden;
                                     box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
                                     transition:transform .2s, box-shadow .2s;"
-                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.15)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+                             onmouseover="var dm=document.body.classList.contains('dark-mode');this.style.transform='translateY(-5px)';this.style.boxShadow=dm?'0 12px 32px rgba(0,0,0,.5)':'0 12px 32px rgba(25,118,210,.15)';this.style.background=dm?'#1e2a1e':'#fff'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)';this.style.background=document.body.classList.contains('dark-mode')?'#1e2a1e':'#fff'">
 
                             <div style="position:relative; overflow:hidden; height:150px; background:#e3f2fd;">
                                 <img src="fotoIndex/imagensCapa/capa2anox.webp" loading="lazy" alt="Brasil"
@@ -636,8 +636,8 @@
                         <div style="background:#fff; border-radius:20px; overflow:hidden;
                                     box-shadow:0 2px 12px rgba(0,0,0,.07); border:1px solid #f0f0f0;
                                     transition:transform .2s, box-shadow .2s;"
-                             onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(25,118,210,.15)'"
-                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)'">
+                             onmouseover="var dm=document.body.classList.contains('dark-mode');this.style.transform='translateY(-5px)';this.style.boxShadow=dm?'0 12px 32px rgba(0,0,0,.5)':'0 12px 32px rgba(25,118,210,.15)';this.style.background=dm?'#1e2a1e':'#fff'"
+                             onmouseout="this.style.transform='';this.style.boxShadow='0 2px 12px rgba(0,0,0,.07)';this.style.background=document.body.classList.contains('dark-mode')?'#1e2a1e':'#fff'">
 
                             <div style="position:relative; overflow:hidden; height:150px; background:#e8eaf6;">
                                 <img src="fotoIndex/imagensCapa/capa3anox.webp" loading="lazy" alt="Mundo"
@@ -800,6 +800,12 @@
                 <a href="atividades/atividades.php" class="conheca-card">
                     <img src="fotoIndex/icones/atividades-icone.gif" alt="Atividades">
                     Atividades
+                </a>
+
+                <!-- substituir src por contribuir-icone.gif quando pronto -->
+                <a href="#" class="conheca-card" onclick="event.preventDefault(); if(window.abrirModalMural) abrirModalMural();">
+                    <img src="fotoIndex/icones/duvid-icone.png" alt="Contribuir">
+                    Contribuir
                 </a>
 
             </div>
@@ -1015,18 +1021,18 @@
         <div class="w3-content" style="max-width:1100px; padding:0 16px;">
 
             <!-- Ticker ───────────────────────────────────────── -->
-            <div class="dn-ticker-wrap" style="background:#1a1a2e; border-radius:12px; overflow:hidden; margin-bottom:20px;">
-                <div style="display:flex; align-items:center; background:#2e7d32; padding:8px 16px; gap:10px;">
+            <div class="dn-ticker-wrap" style="background:#fff; border-radius:12px; overflow:hidden;
+                 margin-bottom:20px; border:1.5px solid #c8e6c9; box-shadow:0 2px 8px rgba(46,125,50,.07);">
+                <div style="display:flex; align-items:center; background:#2e7d32; padding:7px 16px; gap:10px;">
                     <span style="color:#fff; font-weight:800; font-size:.82rem; letter-spacing:.06em;">🌍 DUVID NOTÍCIAS</span>
                     <span style="background:#fff; color:#2e7d32; font-size:.58rem; font-weight:800; padding:2px 7px; border-radius:3px;">AO VIVO</span>
                 </div>
-                <div style="display:flex; align-items:center; padding:10px 14px; gap:12px; overflow:hidden; min-height:42px;">
-                    <span id="dn-ticker-tag" style="background:#e53935; color:#fff; font-size:.62rem; font-weight:700;
+                <div style="display:flex; align-items:center; padding:8px 14px; gap:12px; overflow:hidden; min-height:38px; background:#f0f7f0;">
+                    <span id="dn-ticker-tag" style="background:#2e7d32; color:#fff; font-size:.62rem; font-weight:700;
                           padding:3px 9px; border-radius:3px; white-space:nowrap; flex-shrink:0;">CARREGANDO</span>
                     <div style="overflow:hidden; flex:1;">
-                        <div id="dn-ticker-scroll" style="display:flex; gap:60px; white-space:nowrap;
-                             animation:dnTicker 30s linear infinite; color:#fff; font-size:.82rem;">
-                            <span id="dn-ticker-inner">Carregando notícias de geografia…</span>
+                        <div id="dn-ticker-scroll" style="display:flex; white-space:nowrap; width:max-content; color:#1b5e20; font-size:.82rem; font-weight:500;">
+                            <span>Carregando notícias de geografia…</span>
                         </div>
                     </div>
                 </div>
@@ -1047,6 +1053,8 @@
                     <button class="dn-filtro" data-cat="Brasil">🇧🇷 Brasil</button>
                     <button class="dn-filtro" data-cat="Geopolítica">🌐 Geopolítica</button>
                     <button class="dn-filtro" data-cat="Economia">📈 Economia</button>
+                    <button class="dn-filtro" data-cat="Tecnologia">💻 Tecnologia</button>
+                    <button class="dn-filtro" data-cat="Espaço Rural">🌾 Espaço Rural</button>
                 </div>
             </div>
 
@@ -1056,6 +1064,9 @@
                 <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite;"></div>
                 <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.2s;"></div>
                 <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.4s;"></div>
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.6s;"></div>
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:.8s;"></div>
+                <div class="dn-skeleton" style="background:#e8e8e8; border-radius:14px; height:160px; animation:pulse 1.4s ease-in-out infinite; animation-delay:1s;"></div>
             </div>
 
             <!-- Rodapé ───────────────────────────────────────── -->
@@ -1066,7 +1077,7 @@
 
         <style>
         /* ── Duvid Notícias ─────────────────────────────── */
-        @keyframes dnTicker { from { transform:translateX(0); } to { transform:translateX(-50%); } }
+        /* ticker loop controlado por JS — sem keyframe CSS */
 
         .dn-filtro {
             font-size:.68rem; font-weight:700; padding:5px 13px; border-radius:20px;
@@ -1094,6 +1105,56 @@
             #dn-filtros { gap:5px; }
             .dn-filtro { font-size:.62rem; padding:4px 10px; }
         }
+
+        /* ── Dark mode — Duvid Notícias ─────────────────── */
+        body.dark-mode #duvid-noticias-section { background:#121212 !important; }
+
+        /* Ticker */
+        body.dark-mode .dn-ticker-wrap {
+            background:#1a2e1a !important;
+            border-color:rgba(76,175,80,.2) !important;
+        }
+        body.dark-mode .dn-ticker-wrap [style*="background:#f0f7f0"] {
+            background:#1e2e1e !important;
+        }
+        body.dark-mode #dn-ticker-scroll { color:#a5d6a7 !important; }
+
+        /* Cabeçalho */
+        body.dark-mode #duvid-noticias-section [style*="color:#2e7d32"] { color:#81c784 !important; }
+        body.dark-mode #duvid-noticias-section [style*="color:#1b5e20"] { color:#a5d6a7 !important; }
+
+        /* Filtros */
+        body.dark-mode .dn-filtro {
+            background:#1e2a1e !important;
+            border-color:rgba(76,175,80,.25) !important;
+            color:#81c784 !important;
+        }
+        body.dark-mode .dn-filtro.ativo,
+        body.dark-mode .dn-filtro:hover {
+            background:#2e7d32 !important;
+            color:#fff !important;
+            border-color:#2e7d32 !important;
+        }
+
+        /* Cards */
+        body.dark-mode .dn-card {
+            background:#1e2a1e !important;
+            border-color:rgba(255,255,255,.06) !important;
+            box-shadow:none !important;
+        }
+        body.dark-mode .dn-card:hover {
+            box-shadow:0 6px 20px rgba(0,0,0,.4) !important;
+            border-color:rgba(76,175,80,.3) !important;
+        }
+        body.dark-mode .dn-card-title { color:#a5d6a7 !important; }
+        body.dark-mode .dn-card-resumo { color:rgba(255,255,255,.45) !important; }
+        body.dark-mode .dn-card-footer { color:rgba(255,255,255,.25) !important; }
+
+        /* Skeletons */
+        body.dark-mode .dn-skeleton { background:#1e2a1e !important; }
+
+        /* Rodapé "Atualizado em..." */
+        body.dark-mode #dn-atualizado { color:rgba(255,255,255,.2) !important; }
         </style>
 
         <script>
@@ -1132,28 +1193,46 @@
             }
 
             function _renderTicker(noticias) {
-                const inner = document.getElementById('dn-ticker-inner');
-                const tag   = document.getElementById('dn-ticker-tag');
+                const tag    = document.getElementById('dn-ticker-tag');
                 const scroll = document.getElementById('dn-ticker-scroll');
-                if (!inner || !noticias.length) return;
+                if (!scroll || !noticias.length) return;
 
-                // Texto do ticker: todos os títulos separados por bullet
-                const texto = noticias.map(n => n.titulo).join('  •  ');
-                // Duplicar para loop contínuo
-                inner.textContent = texto;
-                const clone = inner.cloneNode(true);
-                scroll.appendChild(clone);
+                const sep   = '    •    ';
+                const texto = noticias.map(n => n.titulo).join(sep) + sep;
 
-                // Tag da primeira notícia
+                scroll.innerHTML = '';
+                scroll.style.animation = 'none';
+                const a = document.createElement('span');
+                a.textContent = texto;
+                const b = document.createElement('span');
+                b.textContent = texto;
+                scroll.appendChild(a);
+                scroll.appendChild(b);
+
                 if (tag) {
                     tag.textContent = noticias[0].categoria.label.toUpperCase();
-                    tag.style.background = noticias[0].categoria.cor || '#e53935';
+                    tag.style.background = noticias[0].categoria.cor || '#2e7d32';
                 }
 
-                // Ajustar velocidade pela largura
-                const w = inner.scrollWidth;
-                const duration = Math.max(20, Math.floor(w / 60)) + 's';
-                scroll.style.animationDuration = duration;
+                const PX_POR_FRAME = 0.3; // pixels por frame (~60fps)
+                let pos = 0;
+                let spanW = 0;
+                let raf;
+
+                function tick() {
+                    if (!spanW) spanW = a.getBoundingClientRect().width;
+                    pos += PX_POR_FRAME;
+                    if (pos >= spanW) pos -= spanW;
+                    scroll.style.transform = 'translateX(-' + pos + 'px)';
+                    raf = requestAnimationFrame(tick);
+                }
+
+                document.addEventListener('visibilitychange', () => {
+                    if (document.hidden) cancelAnimationFrame(raf);
+                    else raf = requestAnimationFrame(tick);
+                });
+
+                raf = requestAnimationFrame(tick);
             }
 
             function _aplicarFiltro(cat) {
@@ -1223,8 +1302,74 @@
 
     </main>
 
+    <!-- ══ Barra sticky: aviso de login para não-logados ══════════════════ -->
+    <div id="cta-login-bar" style="display:none; position:fixed; bottom:0; left:0; right:0; z-index:800;
+         background:#fff; border-top:2px solid #4caf50;
+         box-shadow:0 -4px 16px rgba(0,0,0,.10);
+         padding:12px 20px; display:none;
+         align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;">
 
+        <div style="display:flex; align-items:center; gap:10px; flex:1; min-width:200px;">
+            <span style="font-size:1.3rem;">🌍</span>
+            <span style="font-size:.85rem; color:#444; font-family:'Montserrat',sans-serif; font-weight:500;">
+                Faça login para salvar seu progresso e ganhar <b style="color:#2e7d32;">globinhos</b>!
+            </span>
+        </div>
 
+        <div style="display:flex; align-items:center; gap:8px; flex-shrink:0;">
+            <a href="#container-login"
+               onclick="document.getElementById('container-login').scrollIntoView({behavior:'smooth',block:'center'}); return false;"
+               style="display:inline-block; padding:8px 20px; background:#2e7d32; color:#fff;
+                      border-radius:20px; font-size:.82rem; font-weight:700;
+                      font-family:'Montserrat',sans-serif; text-decoration:none; white-space:nowrap;
+                      transition:background .15s;"
+               onmouseover="this.style.background='#1b5e20'"
+               onmouseout="this.style.background='#2e7d32'">
+                Entrar / Criar conta
+            </a>
+            <button onclick="document.getElementById('cta-login-bar').style.display='none';"
+                    style="background:none; border:none; color:#bbb; font-size:1.2rem;
+                           cursor:pointer; padding:4px; line-height:1;" title="Fechar">×</button>
+        </div>
+    </div>
+
+    <style>
+    body.dark-mode #cta-login-bar {
+        background:#1a2035 !important;
+        border-top-color:#4caf50 !important;
+    }
+    body.dark-mode #cta-login-bar span[style*="color:#444"] {
+        color:#ccc !important;
+    }
+    @media(max-width:560px) {
+        #cta-login-bar { padding:10px 14px; }
+        #cta-login-bar span[style*="font-size:.85rem"] { font-size:.78rem; }
+    }
+    </style>
+
+    <script>
+    // Exibe a barra de login só para não-logados (após carregar o estado)
+    (function() {
+        function _verificarBarraLogin() {
+            // Usa DuvidDB se já carregou; senão lê a chave correta do localStorage
+            var nomeSalvo = (typeof DuvidDB !== 'undefined' && DuvidDB.getNome)
+                          ? DuvidDB.getNome() : localStorage.getItem('duvid_nome');
+            var bar = document.getElementById('cta-login-bar');
+            if (!bar) return;
+            if (!nomeSalvo) {
+                bar.style.display = 'flex';
+            } else {
+                bar.style.display = 'none';
+            }
+        }
+        // Só roda após o window.load (DuvidDB já está pronto, evita flash)
+        window.addEventListener('load', _verificarBarraLogin);
+        window.addEventListener('duvid:saudacao', function() {
+            var bar = document.getElementById('cta-login-bar');
+            if (bar) bar.style.display = 'none';
+        });
+    })();
+    </script>
 
     <!-- ══════════════════════════════════════════════════════
          Modal: Editar Perfil

@@ -17,9 +17,14 @@ $total_turmas = (int) $pdo->query(
 )->fetchColumn();
 
 $ativos_7d = (int) $pdo->query(
-    "SELECT COUNT(*) FROM alunos
-      WHERE tipo = 'aluno'
-        AND ultimo_acesso >= DATE_SUB(NOW(), INTERVAL 7 DAY)"
+    "SELECT COUNT(DISTINCT a.id) FROM alunos a
+      WHERE a.tipo = 'aluno'
+        AND (
+            a.ultimo_acesso >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+            OR a.criado_em  >= DATE_SUB(NOW(), INTERVAL 7 DAY)
+            OR EXISTS (SELECT 1 FROM progresso_aulas p  WHERE p.aluno_id = a.id AND p.atualizado_em  >= DATE_SUB(NOW(), INTERVAL 7 DAY))
+            OR EXISTS (SELECT 1 FROM respostas_aulas ra WHERE ra.aluno_id = a.id AND ra.atualizado_em >= DATE_SUB(NOW(), INTERVAL 7 DAY))
+        )"
 )->fetchColumn();
 
 $questoes_hoje = (int) $pdo->query(
@@ -28,24 +33,27 @@ $questoes_hoje = (int) $pdo->query(
       WHERE DATE(atualizado_em) = CURDATE()"
 )->fetchColumn();
 
-// ── Gráfico: alunos cadastrados por semana (últimas 8 semanas) ──
+// ── Gráfico: alunos cadastrados por dia (últimos 14 dias) ──
 $stmt = $pdo->query(
     "SELECT
-         YEARWEEK(criado_em, 1)          AS semana_key,
-         MIN(DATE(criado_em))            AS semana_inicio,
-         COUNT(*)                        AS total
+         DATE(criado_em) AS dia,
+         COUNT(*)        AS total
      FROM alunos
      WHERE tipo = 'aluno'
-       AND criado_em >= DATE_SUB(CURDATE(), INTERVAL 8 WEEK)
-     GROUP BY YEARWEEK(criado_em, 1)
-     ORDER BY semana_key ASC"
+       AND criado_em >= DATE_SUB(CURDATE(), INTERVAL 13 DAY)
+     GROUP BY DATE(criado_em)
+     ORDER BY dia ASC"
 );
 $grafico_rows = $stmt->fetchAll();
+// Preenche dias sem cadastro com 0
+$grafico_map = [];
+foreach ($grafico_rows as $r) $grafico_map[$r['dia']] = (int) $r['total'];
 $grafico_labels = [];
 $grafico_dados  = [];
-foreach ($grafico_rows as $r) {
-    $grafico_labels[] = date('d/m', strtotime($r['semana_inicio']));
-    $grafico_dados[]  = (int) $r['total'];
+for ($i = 13; $i >= 0; $i--) {
+    $dia = date('Y-m-d', strtotime("-{$i} days"));
+    $grafico_labels[] = date('d/m', strtotime($dia));
+    $grafico_dados[]  = $grafico_map[$dia] ?? 0;
 }
 
 // ── Top 5 turmas mais ativas (alunos ativos 7d) ──
@@ -117,7 +125,7 @@ require_once __DIR__ . '/_layout.php';
 <!-- Gráfico + Top turmas -->
 <div style="display:grid;grid-template-columns:2fr 1fr;gap:1rem;margin-bottom:1.2rem;">
   <div class="card">
-    <h3>Novos alunos por semana</h3>
+    <h3>Novos alunos (últimos 14 dias)</h3>
     <canvas id="graficoAlunos" height="220"></canvas>
   </div>
 

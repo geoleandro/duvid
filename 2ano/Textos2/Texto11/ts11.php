@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Os meios de transporte no Brasil: rodoviário, ferroviário, hidroviário e aéreo, sua história e seus desafios atuais" name="description"/>
+<meta content="Texto 11 - Sistema de Transportes no Brasil" property="og:title"/>
+<meta content="Como o Brasil construiu sua rede de transportes e por que ela ainda é tão desigual entre as regiões" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 11</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 11 - Sistema de Transportes no Brasil</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -67,30 +71,13 @@
 <h2> Introdução </h2>
 <p> <span class="primeiraLetra">N</span>a aula passada, vimos os fatores para a concentração e desconcentração
             industrial nas regiões brasileiras.</p>
-<p>Hoje, veremos os principais meios de transporte como o rodoviário, ferroviário, hidroviário e aéreo.</p>
+<p>Hoje, veremos os principais meios de transporte que compõem a matriz brasileira: o rodoviário, o ferroviário, o hidroviário, o aéreo e o dutoviário.</p>
 <p>
             O desenvolvimento tecnológico é essencial para o crescimento dos setores de transportes. No Brasil, esse
             processo se intensificou a partir dos anos 1990.
 
 
         </p>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<h3>1. Quais foram os fatores históricos que impulsionaram o desenvolvimento do transporte rodoviário no Brasil, e quais foram os principais marcos desse desenvolvimento?</h3>
-<h3>2. Como a criação do Departamento Nacional de Infraestrutura de Transportes (DNIT) em 2002 influenciou o desenvolvimento das rodovias e ferrovias no Brasil?</h3>
-<h3>3. Quais foram as principais consequências ambientais e sociais do projeto da Rodovia Transamazônica (BR-230)?</h3>
-<h3>4. Explique a importância da malha ferroviária para a economia brasileira no final do século XIX e início do século XX, e os motivos para seu declínio após a crise da cafeicultura.</h3>
-<h3>5. Como a privatização das ferrovias brasileiras entre 1996 e 1998 mudou a administração e operação desse meio de transporte?</h3>
-<h3>6. Quais são as características e funções dos corredores de exportação no sistema hidroviário brasileiro, e quais portos principais desempenham esse papel?</h3>
-<h3>7. De que maneira o transporte aéreo no Brasil contribui para o deslocamento de cargas e passageiros, e quais são os desafios enfrentados por esse setor?</h3>
-<h3>8. Como a mudança da capital federal para Brasília influenciou o desenvolvimento do sistema rodoviário brasileiro?</h3>
-<h3>9. Quais foram as razões para a extinção do Departamento Nacional de Estradas de Rodagem (DNER) e como suas funções foram redistribuídas?</h3>
-<h3>10. Como a infraestrutura de transportes no Brasil se compara com a de países ricos, e quais são os principais desafios enfrentados pelos países emergentes e periféricos nessa área?</h3>
-</div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -108,12 +95,24 @@
             fato contribuiu para a integração do território nacional em especial nas regiões Norte e Centro-Oeste,
             tradicionalmente isoladas dos polos econômicos e comerciais do Sudeste. </p>
 <p>Mas foi um crescimento desigual, impulsionado pelas rodovias, enquanto o setor ferroviário conhecia uma longa
-            decadência. Para favorecer um desenvolvimento mais equilibrado dos diferentes segmentos, criou em 2002
-            Departamento Nacional de Infraestrutura de Transportes (DNIT), encarregado de construir, conservar e
-            fiscalizar rodovias, ferrovias e o transporte marítimo. a figura abaixo há um resumo sobre a matriz de
+            decadência. Para favorecer um desenvolvimento mais equilibrado dos diferentes segmentos, o governo federal criou, em 2002, o
+            <span class="termo" data-palavra="DNIT" data-definicao="Departamento Nacional de Infraestrutura de Transportes: órgão federal encarregado de construir, conservar e fiscalizar rodovias, ferrovias e o transporte marítimo no Brasil.">Departamento Nacional de Infraestrutura de Transportes (DNIT)</span>, encarregado de construir, conservar e
+            fiscalizar rodovias, ferrovias e o transporte marítimo. Na figura abaixo há um resumo sobre a matriz de
             transporte no país.</p>
 <div class="w3-margin"><img alt="ts11f01" class="w3-mobile" id="imagem1" src="ts11f01.png"/>
 <span class="w3-small w3-margin-left" id="citacao1"> </span>
+</div>
+<p>Essa combinação de modais é chamada de <strong>matriz de transportes</strong>. No Brasil, ela é fortemente
+            desequilibrada: cerca de 61% das cargas são transportadas por rodovias, 21% por ferrovias, 13% por
+            hidrovias (incluindo a cabotagem, feita pelo mar), 4% por dutos e menos de 1% pelo modal aéreo. </p>
+<div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
+<h3><strong>Saiba mais! Como o Brasil se compara a outros países?</strong></h3>
+<p>Em países de dimensão territorial semelhante à do Brasil, o transporte ferroviário de cargas tem uma
+                participação muito maior na matriz de transportes: cerca de 81% na Rússia, 46% no Canadá, 43% nos
+                Estados Unidos e na Austrália, e 37% na China. No Brasil, essa participação gira em torno de 21%. Isso
+                mostra que, apesar da extensão territorial comparável, o país ainda depende excessivamente das
+                rodovias para escoar sua produção, o que eleva os custos logísticos e o consumo de combustíveis
+                fósseis.</p>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -123,11 +122,11 @@
 <p>O transporte rodoviário no Brasil teve seu primeiro grande incentivo na época do presidente Washington Luís
             (1926-1930), que tinha como lema político “governar é abrir estradas”. Em seu governo foi inaugurada a
             ligação rodoviária entre o Rio de Janeiro e São Paulo, principais cidades do país. </p>
-<p> Em 1945, surgiu o Departamento Nacional de Estradas de Rodagem (DNER), autarquia encarregada da implantação,
+<p> Em 1945, surgiu o <span class="termo" data-palavra="DNER" data-definicao="Departamento Nacional de Estradas de Rodagem: autarquia federal criada em 1945, responsável pela implantação, conservação e fiscalização da malha rodoviária até sua extinção em 2001.">Departamento Nacional de Estradas de Rodagem (DNER)</span>, autarquia encarregada da implantação,
             conservação e fiscalização da malha rodoviária. </p>
 <p> Na década seguinte, no governo Juscelino Kubitschek, enquanto muitas montadoras automobilísticas se
             instalaram no Brasil, o sistema rodoviário consolidou-se como principal meio de transporte. </p>
-<p> Sua hegemonia foi impulsionada pelas indústrias automobilísticas, devido a facilidade do acesso às
+<p> Sua hegemonia foi impulsionada pelas indústrias automobilísticas, devido à facilidade do acesso às
             matérias-primas, à energia e aos mercados consumidores.</p>
 <p> Todos esses itens foram importantes para iniciar uma política rodoviária que atende aos interesses dos
             empresários do setor, bem como às expectativas de uma parcela cada vez maior de brasileiros que há muito
@@ -135,10 +134,10 @@
 <p> Além da instalação das montadoras, outro marco do governo Kubitschek foi a mudança da capital federal para o
             Centro-Oeste. A integração regional brasileira ocorreu com maior intensidade após a construção de Brasília,
             que necessitava de uma ligação com as demais regiões do país.</p>
-<p>Iniciou-se desse modo a abertura de várias rodovias federais como a BR-040 ligando Brasília, Belo Horizonte E
+<p>Iniciou-se desse modo a abertura de várias rodovias federais como a BR-040 ligando Brasília, Belo Horizonte e
             Rio de Janeiro; a BR-050 ligando Brasília, Uberaba, Ribeirão Preto, São Paulo e Santos; a BR-153, que liga
             Belém a Brasília e muitas outras. </p>
-<p>Outro grande projeto rodoviário lançado durante o regime militar foi a Rodovia Transamazônica (BR-230).
+<p>Outro grande projeto rodoviário lançado durante o regime militar foi a <span class="termo" data-palavra="Rodovia Transamazônica" data-definicao="Rodovia federal (BR-230) inaugurada em 1972 para acelerar a integração econômica da Amazônia, mas marcada por fracassos, desmatamento e conflitos com povos indígenas.">Rodovia Transamazônica (BR-230)</span>.
             Inaugurada em 1972, a estrada foi concebida para acelerar a integração econômica na Amazônia e no norte do
             país. </p>
 <p>Esse projeto fracassou; além dos impactos ambientais provocados pelo desmatamento e pelo garimpo
@@ -151,9 +150,14 @@
             controle de empresários. Foi o caso da rodovia Dutra (Rio-São Paulo), federal, atualmente conhecida como
             Nova Dutra, e das rodovias Anchieta-Imigrantes, antes ligadas ao governo paulista e que hoje integram o
             sistema Ecovias. </p>
-<p> Mesmo com essas mudanças de gestão, da extinção do DNER e da transferência e suas funções ao DNIT, muitas
-            rodovias brasileiras concentradas no Centro-Sul e no litoral, ainda estão aquém dos padrões ideais de
+<p> Mesmo com essas mudanças de gestão, da extinção do DNER e da transferência de suas funções ao DNIT, muitas
+            rodovias brasileiras concentradas no Centro-Sul e no litoral ainda estão aquém dos padrões ideais de
             conservação e fiscalização.</p>
+<p> Segundo a Pesquisa CNT de Rodovias de 2025, a maior pesquisa sobre infraestrutura rodoviária do país, apenas
+            37,9% da extensão avaliada (mais de 43 mil km) estava em condições ótimas ou boas, um avanço em relação
+            aos 33% registrados em 2024. Ainda assim, 19,1% dos trechos pesquisados foram classificados como ruins ou
+            péssimos, evidenciando que, apesar de concentrar mais de 60% do transporte de cargas do país, a malha
+            rodoviária brasileira segue carente de investimentos.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -166,13 +170,19 @@
 <p> Com a crise da cafeicultura, no final dos anos 1920, a malha ferroviária perdeu espaço para as rodovias. Com
             esse declínio e a falta de evolução tecnológica diante das indústrias automobilísticas, as ferrovias não
             integraram a regionalização brasileira, acelerada na segunda metade do século.</p>
-<p>Iniciativas como a criação da Rede Ferroviária Federal S/A (RFFSA) pelo Governo Federal em 1957, e da
+<p>Iniciativas como a criação da <span class="termo" data-palavra="RFFSA" data-definicao="Rede Ferroviária Federal S/A: empresa estatal criada em 1957 para administrar as ferrovias federais, extinta em 1999 após o processo de privatização.">Rede Ferroviária Federal S/A (RFFSA)</span> pelo Governo Federal em 1957, e da
             Ferrovia Paulista (Fepasa) pelo governo de São Paulo em 1971, não conseguiram reverter essa tendência. </p>
 <p>Entre 1996 e 1998 foi empreendida a privatização das ferrovias brasileiras. Em 1999, a RFFSA e a Fepasa foram
             extintas. Hoje, o DNIT é responsável por apenas 1% dos cerca de 30.000 km da malha ferroviária brasileira.
         </p>
-<p>Todo o restante está concedido à iniciativa privada sobre responsabilidade da Agência Nacional de Transportes
-            Terrestres (ANTT), que tem entre suas atribuições fiscalizar e regular as concessionárias. </p>
+<p>Todo o restante está concedido à iniciativa privada sob responsabilidade da <span class="termo" data-palavra="ANTT" data-definicao="Agência Nacional de Transportes Terrestres: órgão federal responsável por regular e fiscalizar os serviços de transporte rodoviário e ferroviário prestados por concessionárias.">Agência Nacional de Transportes Terrestres (ANTT)</span>, que tem entre suas atribuições fiscalizar e regular as concessionárias. </p>
+<p>Entre as principais concessionárias que operam as ferrovias brasileiras atualmente estão a Rumo, a MRS
+            Logística e a VLI (controlada pela mineradora Vale), responsáveis por transportar, sobretudo, grãos e
+            minério de ferro até os portos de exportação. Um exemplo desse esforço de expansão é a <span class="termo" data-palavra="Ferrovia Norte-Sul" data-definicao="Ferrovia federal (EF-151) concebida para interligar as principais malhas ferroviárias do país, ligando o Pará ao Rio Grande do Sul, com obras iniciadas ainda nos anos 1980 e concluídas décadas depois.">Ferrovia
+            Norte-Sul</span>, projetada para interligar as principais malhas ferroviárias do país, do Pará ao Rio
+            Grande do Sul, ao longo de mais de 4 mil km. Suas obras começaram ainda nos anos 1980 e só foram
+            concluídas décadas depois, ilustrando bem a lentidão dos investimentos em infraestrutura ferroviária no
+            Brasil.</p>
 <div class="w3-margin"><img alt="ts11f02" class="w3-mobile" id="imagem2" src="ts11f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Estrada de ferro Santos-Jundiaí. Fonte:
                 https://www.cidadeecultura.com
@@ -186,7 +196,7 @@
 <p> Os transportes hidroviários, que podem ser classificados como marítimos ou fluviais, são utilizados
             basicamente para movimentação de mercadorias importadas ao mercado externo.</p>
 <p> Desde a década de 1990, a extensa orla marinha brasileira possibilitou o estabelecimento de
-            <strong>corredores de exportação</strong>, também conhecidos como polos exportadores. Tornou-se cada vez
+            <span class="termo" data-palavra="corredores de exportação" data-definicao="Áreas dotadas de infraestrutura de transporte, armazenagem e comercialização, integradas aos locais de origem dos produtos exportados, também conhecidas como polos exportadores.">corredores de exportação</span>, também conhecidos como polos exportadores. Tornou-se cada vez
             mais frequente o arrendamento das operações de instalações, principalmente nos terminais de
             <strong>contêineres</strong>, que vêm sendo controlados por empresas privadas nacionais e estrangeiras.
         </p>
@@ -196,6 +206,18 @@
             Vitória, entre outros, já atuam como corredores de exportação. </p>
 <p> A competência desses corredores e o avanço tecnológico evitam prejuízos, aumentam a competitividade e
             reduzem custos, contribuindo para ampliar os negócios e, consequentemente, aumentar o PIB brasileiro. </p>
+<p>Além da navegação marítima, o Brasil possui importantes <span class="termo" data-palavra="hidrovia" data-definicao="Via navegável natural ou artificial, em rios, lagos ou canais, utilizada para o transporte de cargas e passageiros.">hidrovias</span> interiores, em rios navegáveis.
+            A Hidrovia Tietê-Paraná, com cerca de 2,4 mil km entre os rios Tietê e Paraná, escoa a produção agrícola
+            de Mato Grosso, Mato Grosso do Sul, Goiás e parte de Minas Gerais. Na Amazônia, a Hidrovia do Madeira liga
+            Porto Velho (RO) ao Porto de Itacoatiara (AM), com cerca de 1.450 km, sendo fundamental para o escoamento
+            da soja do Centro-Oeste. Já a Hidrovia do São Francisco, com mais de 2,3 mil km, conecta o Nordeste ao
+            Centro-Sul do país.</p>
+<p>Merece destaque, ainda, a <span class="termo" data-palavra="cabotagem" data-definicao="Navegação de cargas entre portos do mesmo país, por rota marítima, fluvial ou lacustre — modalidade mais barata que o transporte rodoviário e ferroviário.">cabotagem</span>, isto é, a navegação de cargas entre portos do próprio
+            território nacional. Impulsionada pelo programa federal BR do Mar (Lei nº 14.301/2022), a cabotagem já
+            responde por cerca de 11% das cargas movimentadas por via marítima no Brasil, com um frete até 60% mais
+            barato que o rodoviário e 40% mais barato que o ferroviário. A expectativa dos planejadores do setor é
+            que, nos próximos anos, a cabotagem cresça ainda mais, aproveitando o extenso litoral brasileiro — mais de
+            7,4 mil km — para desafogar as rodovias e reduzir os custos logísticos do país.</p>
 <div class="w3-margin"><img alt="ts11f03" class="w3-mobile" id="imagem3" src="ts11f03.png"/>
 <span class="w3-small w3-margin-left" id="citacao3"> </span>
 </div>
@@ -204,13 +226,50 @@
 <hr/>
 </div>
 <div class="topico">
+<h2>Transporte dutoviário </h2>
+<p> O transporte <span class="termo" data-palavra="dutovias" data-definicao="Tubulações (dutos) utilizadas para transportar líquidos e gases, como petróleo, seus derivados e gás natural, a longas distâncias, com baixo custo e alta segurança.">dutoviário</span> é feito por meio de tubulações — oleodutos, gasodutos e minerodutos — enterradas ou
+            submersas, usadas para transportar líquidos e gases a longas distâncias. É o modal com o menor custo por
+            tonelada transportada e um dos mais seguros, embora exija um investimento inicial elevado na construção da
+            rede de dutos. </p>
+<p>No Brasil, esse modal é dominado pela Petrobras, que opera uma extensa malha de oleodutos e gasodutos
+            ligando campos de produção, refinarias e terminais portuários. O maior exemplo é o Gasoduto
+            Bolívia-Brasil (Gasbol), com 3.150 km de extensão, dos quais 2.593 km em território brasileiro, ligando
+            Corumbá (MS) a Canoas (RS) e passando por mais de cem municípios em cinco Estados. Inaugurado em 1999, o
+            Gasbol é considerado o maior gasoduto da América do Sul e foi fundamental para a difusão do gás natural
+            como fonte de energia no Sul e no Sudeste do país. </p>
+<p>Apesar de eficiente, o transporte dutoviário no Brasil ainda representa uma fatia pequena da matriz de
+            transportes (cerca de 4%), concentrado principalmente no transporte de petróleo e derivados entre as
+            bacias produtoras, como a Bacia de Campos e a Bacia de Santos, e as refinarias do Sudeste e do Nordeste.</p>
+<p>Além de petróleo e gás, os dutos também transportam minério em forma de polpa, pelos chamados
+            <strong>minerodutos</strong>. O maior exemplo brasileiro é o sistema de minerodutos da Samarco, que liga o
+            Complexo de Germano, em Mariana (MG), ao Complexo de Ubu, em Anchieta (ES), com cerca de 400 km de
+            extensão somados. Por quase três décadas, foi considerado o maior mineroduto do mundo, transportando a
+            polpa de minério de ferro por cerca de três dias, a uma velocidade de aproximadamente 6 km/h, até chegar
+            ao porto para exportação.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h2>Transporte aéreo </h2>
 <p> O transporte aéreo no Brasil é caracterizado pelos altos custos no deslocamento de cargas e de passageiros.
             No ano de 2018, as empresas aéreas brasileiras transportaram pouco mais de 103 milhões de passageiros pagos
-            em voos domésticos e internacionais. O Brasil tem 99 aeroportos, sendo 18 internacionais e 81 para voos
-            regionais. Todas as companhias aéreas do país são administradas pela empresa brasileira de infraestrutura
-            aeroportuária (Infraero) estatal ligada ao Ministério da Defesa, cabendo à Agência Nacional de Aviação Civil
-            (ANAC), o controle dos aeroportos e de outros aspectos do transporte aéreo</p>
+            em voos domésticos e internacionais, em um total de 122 aeroportos com voos regulares no país. Os
+            principais aeroportos são administrados pela <span class="termo" data-palavra="Infraero" data-definicao="Empresa Brasileira de Infraestrutura Aeroportuária: estatal responsável historicamente pela administração dos principais aeroportos do país, embora muitos já tenham sido concedidos à iniciativa privada.">Empresa Brasileira de Infraestrutura Aeroportuária (Infraero)</span>,
+            estatal ligada à área de Defesa, embora boa parte dos maiores terminais tenha sido concedida à iniciativa
+            privada nas últimas décadas. Já as companhias aéreas são empresas privadas, cabendo à <span class="termo" data-palavra="ANAC" data-definicao="Agência Nacional de Aviação Civil: órgão federal responsável por regular e fiscalizar os aeroportos e as empresas de aviação civil no Brasil.">Agência Nacional de
+            Aviação Civil (ANAC)</span> regular e fiscalizar tanto os aeroportos quanto o transporte aéreo como um todo.</p>
+<p>Desde 2012, o governo federal promove rodadas de <strong>concessão</strong> dos principais aeroportos brasileiros à
+            iniciativa privada, entre eles Guarulhos, Brasília e Viracopos (2012) e, posteriormente, Confins, Galeão
+            e Natal (2014). Outros aeroportos, como os de Salvador, Porto Alegre, Fortaleza e Florianópolis, também
+            foram concedidos em leilões seguintes. Nem todas as concessões deram certo: Galeão, Viracopos e São
+            Gonçalo do Amarante (RN) chegaram a ser devolvidas ao poder público após frustração na demanda de
+            passageiros, mostrando que a modernização da infraestrutura aeroportuária brasileira ainda é um processo
+            em construção.</p>
+<p>Apesar de ser o modal mais caro por tonelada transportada, o transporte aéreo é fundamental para o
+            deslocamento de cargas de alto valor agregado e de produtos perecíveis, como eletrônicos, medicamentos e
+            flores, que precisam chegar rapidamente ao destino. Por isso, mesmo respondendo por menos de 1% do peso
+            total de cargas transportadas no país, o transporte aéreo concentra uma parcela desproporcionalmente alta
+            do valor total das exportações e importações brasileiras.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -250,7 +309,7 @@
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O Brasil necessita de transporte interligados, devido à:</b></h4>
+<h4 class="fontePixel"><b>O Brasil necessita de transportes interligados, devido à:</b></h4>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
@@ -316,18 +375,18 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais fatores são responsáveis pela decadência do transporte ferroviário no Brasil?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span>
 
-            A decadência do transporte ferroviária resultou de vários fatores: falta de investimentos, material rodante
+            A decadência do transporte ferroviário resultou de vários fatores: falta de investimentos, material rodante
             obsoleto, administração ineficiente, morosidade no serviço e, principalmente, a concorrência com o ramo
             rodoviário.
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais os principais problemas do transporte urbano do Brasil?
 
@@ -341,19 +400,41 @@
 
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais os principais problemas do transporte marítimo no país?
             </strong></p>
 <p><span class="primeiraLetra">R:</span>
 
-            Um dos principais problemas estão relacionados ao envelhecimento da frota mercante, a deterioração da
+            Um dos principais problemas está relacionado ao envelhecimento da frota mercante, à deterioração da
             infraestrutura portuária, a concorrência crescente das rodovias e os altos custos da movimentação de cargas,
             que afastam do padrão internacional os terminais portuários brasileiros.
 
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
 <br/><br/>
+<hr/>
+</div>
+<div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. Quais foram os fatores históricos que impulsionaram o desenvolvimento do transporte rodoviário no Brasil, e quais foram os principais marcos desse desenvolvimento?</h3>
+<h3>2. Como a criação do Departamento Nacional de Infraestrutura de Transportes (DNIT) em 2002 influenciou o desenvolvimento das rodovias e ferrovias no Brasil?</h3>
+<h3>3. Quais foram as principais consequências ambientais e sociais do projeto da Rodovia Transamazônica (BR-230)?</h3>
+<h3>4. Explique a importância da malha ferroviária para a economia brasileira no final do século XIX e início do século XX, e os motivos para seu declínio após a crise da cafeicultura.</h3>
+<h3>5. Como a privatização das ferrovias brasileiras entre 1996 e 1998 mudou a administração e operação desse meio de transporte?</h3>
+<h3>6. Quais são as características e funções dos corredores de exportação no sistema hidroviário brasileiro, e quais portos principais desempenham esse papel?</h3>
+<h3>7. De que maneira o transporte aéreo no Brasil contribui para o deslocamento de cargas e passageiros, e quais são os desafios enfrentados por esse setor?</h3>
+<h3>8. Como a mudança da capital federal para Brasília influenciou o desenvolvimento do sistema rodoviário brasileiro?</h3>
+<h3>9. Quais foram as razões para a extinção do Departamento Nacional de Estradas de Rodagem (DNER) e como suas funções foram redistribuídas?</h3>
+<h3>10. Como a infraestrutura de transportes no Brasil se compara com a de países ricos, e quais são os principais desafios enfrentados pelos países emergentes e periféricos nessa área?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico">
@@ -366,7 +447,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Sistema de Transportes no Brasil é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

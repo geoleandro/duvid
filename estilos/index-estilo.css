@@ -36,6 +36,63 @@ body.dark-mode .monitor-brasil-card .mon-header-txt { color:#e0e0e0 !important; 
 /* Dark mode — Painel do aluno (3 cards) */
 body.dark-mode .painel-card { background:#1e2a1e !important; box-shadow:none !important; }
 
+/* Dark mode — Cards de trilha (Natureza / Brasil / Mundo)
+   Seletor estrutural: não depende de valor de atributo, imune à normalização do JS */
+body.dark-mode #cards-anos .w3-third > a > div,
+body.dark-mode #cards-anos .w3-third > a:hover > div {
+    background: #1e2a1e !important;
+    border-color: rgba(255,255,255,.07) !important;
+    box-shadow: 0 2px 12px rgba(0,0,0,.3) !important;
+}
+/* Hover com sombra diferenciada */
+body.dark-mode #cards-anos .w3-third > a:hover > div {
+    box-shadow: 0 12px 32px rgba(0,0,0,.5) !important;
+}
+/* Impede link de virar branco no hover */
+body.dark-mode #cards-anos .w3-third > a,
+body.dark-mode #cards-anos .w3-third > a:hover {
+    background: transparent !important;
+}
+/* Textos dos cards (seletor estrutural, sem [style*=]) */
+body.dark-mode #cards-anos .w3-third > a > div h3 { color:#a5d6a7 !important; }
+body.dark-mode #cards-anos .w3-third > a > div p  { color:rgba(255,255,255,.5) !important; }
+body.dark-mode #cards-anos .w3-third > a > div span { color:rgba(255,255,255,.4) !important; }
+/* Container da imagem (fundo colorido atrás da foto) */
+body.dark-mode #cards-anos .w3-third > a > div > div:first-child { background: #1a2e1a !important; }
+/* Barra de progresso (track cinza) */
+body.dark-mode #cards-anos .w3-third > a > div > div:last-child > div > div > div > div:first-child { background: rgba(255,255,255,.1) !important; }
+/* Cabeçalho da seção (Escolha seu tema, Gratuito…) */
+body.dark-mode #cards-anos h2 { color: #a5d6a7 !important; }
+body.dark-mode #cards-anos > div > div > div:first-child p { color: rgba(255,255,255,.6) !important; }
+
+/* Dark mode — Botão "Ver Ranking Completo" (hover via JS já corrigido, CSS como fallback) */
+body.dark-mode #mini-ranking-turma > a,
+body.dark-mode #mini-ranking-turma > a:hover {
+    border-color: rgba(76,175,80,.4) !important;
+    color: #81c784 !important;
+}
+body.dark-mode #mini-ranking-turma > a:hover {
+    background: #1a2e1a !important;
+}
+
+/* Dark mode — Ranking mini (nomes gerados por JS com color:#222 inline) */
+body.dark-mode #mini-ranking-lista [style*="color:#222"] { color:#e0e0e0 !important; }
+body.dark-mode #mini-ranking-lista [style*="color:#999"] { color:rgba(255,255,255,.4) !important; }
+body.dark-mode #mini-ranking-lista [style*="border-top:1.5px dashed"] { border-color:rgba(255,255,255,.1) !important; }
+body.dark-mode .rank-pill-1 { background:rgba(249,168,37,.15) !important; }
+body.dark-mode .rank-pill-2 { background:rgba(255,255,255,.08) !important; color:#aaa !important; }
+body.dark-mode .rank-pill-3 { background:rgba(229,115,115,.15) !important; }
+
+/* Dark mode — Título e textos do card Ranking */
+body.dark-mode #mini-ranking-turma #mini-ranking-titulo { color:#a5d6a7 !important; }
+body.dark-mode #mini-ranking-turma a[style*="color:#2e7d32"] {
+    color:#81c784 !important;
+    border-color:rgba(76,175,80,.4) !important;
+}
+body.dark-mode #mini-ranking-turma a[style*="color:#2e7d32"]:hover {
+    background:#1a2e1a !important;
+}
+
 /* Dark mode — Blog Novidades */
 body.dark-mode .blog-novidades-section             { background:#121212 !important; }
 body.dark-mode .blog-card                          { background:#1e2a1e !important; border-color:rgba(255,255,255,.07) !important; }
@@ -333,13 +390,12 @@ body.dark-mode .sidebar-nav-item.active i {
 body.dark-mode .sidebar-sub-item {
     color: rgba(255,255,255,.45) !important;
 }
-body.dark-mode .sidebar-ctrl-btn,
-body.dark-mode .sidebar-font-btn {
+/* sidebar-ctrl-btn dark mode — sidebar.css cuida do sidebar-font-btn (verde) */
+body.dark-mode .sidebar-ctrl-btn {
     background: rgba(255,255,255,.08) !important;
     color: rgba(255,255,255,.5) !important;
 }
-body.dark-mode .sidebar-ctrl-btn:hover,
-body.dark-mode .sidebar-font-btn:hover {
+body.dark-mode .sidebar-ctrl-btn:hover {
     background: rgba(255,255,255,.15) !important;
     color: #fff !important;
 }

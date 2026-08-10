@@ -84,7 +84,8 @@
                 <a href="/simulados/capasimuladogeral.php"      style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; margin-bottom:8px; transition:color .15s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Simulados</a>
                 <a href="/atividades/atividades.php"            style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; margin-bottom:8px; transition:color .15s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Atividades</a>
                 <a href="/paginas/livrosgeografia.php"          style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; margin-bottom:8px; transition:color .15s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Biblioteca</a>
-                <a href="/paginas/bibliografia.php"             style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; transition:color .15s;"                   onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Bibliografia</a>
+                <a href="/paginas/bibliografia.php"             style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; margin-bottom:8px; transition:color .15s;" onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Bibliografia</a>
+                <a href="/paginas/filmes-geografia.php"         style="display:block; color:rgba(255,255,255,.7); font-size:13px; text-decoration:none; transition:color .15s;"                   onmouseover="this.style.color='#fff'" onmouseout="this.style.color='rgba(255,255,255,.7)'">Filmes de Geografia</a>
             </div>
 
             <!-- Coluna: Institucional -->

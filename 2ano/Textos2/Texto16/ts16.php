@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="As principais coberturas vegetais do Brasil: Floresta Amazônica, Mata Atlântica, Manguezal e Mata de Araucárias, suas características e os impactos da degradação ambiental">
+    <meta property="og:title" content="Texto 16 - Vegetação I: Domínios">
+    <meta property="og:description" content="Coberturas florestais: Floresta Amazônica, Mata Atlântica e Mata de Araucárias">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -39,8 +41,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>2º ano - Texto 16</title>
+    <title>2º ano - Texto 16 - Vegetação I: Domínios</title>
 
 </head>
 
@@ -110,75 +114,6 @@
         <hr>
 
 
-    </div>
-
-<div class="topico">
-        <div class="w3-pale-yellow">
-            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-            
-            <h3>1. Por que a vegetação é considerada um elemento fundamental para a manutenção da vida na Terra?</h3>
-            <h3>2. Como o clima influencia a formação de diferentes tipos de vegetação?</h3>
-            <h3>3. Quais são os três principais subgrupos vegetacionais da Floresta Amazônica e quais são suas características?</h3>
-            <h3>4. Quais são as principais causas do desmatamento na Floresta Amazônica mencionadas no texto?</h3>
-            <h3>5. Qual é o impacto do garimpo na Floresta Amazônica e como ele afeta o meio ambiente e a saúde humana?</h3>
-            <h3>6. Quais fatores históricos contribuíram para a degradação da Mata Atlântica ao longo dos séculos?</h3>
-            <h3>7. Explique a importância ecológica do mangue e quais são as principais ameaças enfrentadas por esse ecossistema.</h3>
-            <h3>8. Como a Floresta de Araucária contribui para o equilíbrio ambiental e qual é a principal ameaça enfrentada por esse ecossistema?</h3>
-            <h3>9. Quais são algumas das medidas sugeridas no texto para promover a conservação da vegetação e reduzir a degradação ambiental?</h3>
-            <h3>10. Por que a cooperação internacional é considerada importante na preservação dos biomas e no enfrentamento dos desafios ambientais?</h3>
-        </div>
-        
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-
-<div class="topico">
-
-        <div class="w3-pale-green">
-
-        <h2>1. Importância do Estudo da Vegetação:</h2>
-    
-        <p>Produção de oxigênio e regulação do clima.</p>
-        <p>Preservação da biodiversidade.</p>
-        <p>Proteção do solo e regulação dos recursos hídricos.</p>
-        <p>Papel no equilíbrio ecológico.</p>
-    
-        <h2>2. Tipos de Vegetação no Brasil:</h2>
-    
-        <p>Floresta Amazônica: rica em biodiversidade e essencial para o clima global.</p>
-        <p>Mata Atlântica: altamente degradada, com apenas 7% da área original restante.</p>
-        <p>Floresta de Araucária: ameaçada pelo desmatamento e exploração madeireira.</p>
-        <p>Manguezais: ecossistemas costeiros importantes para a proteção das áreas litorâneas.</p>
-    
-        <h2>3. Ameaças à Vegetação:</h2>
-    
-        <p>Desmatamento para agricultura e pecuária.</p>
-        <p>Mineração e garimpo ilegal.</p>
-        <p>Construção de usinas hidrelétricas.</p>
-        <p>Biopirataria e poluição.</p>
-        <p>Expansão urbana e queimadas.</p>
-    
-        <h2>4. Consequências da Degradação:</h2>
-    
-        <p>Perda de biodiversidade.</p>
-        <p>Alterações climáticas e aumento da erosão.</p>
-        <p>Contaminação por mercúrio e outros poluentes.</p>
-        <p>Diminuição dos recursos hídricos e maior vulnerabilidade das áreas costeiras.</p>
-    
-        <h2>5. Caminhos para a Conservação:</h2>
-    
-        <p>Fortalecimento da fiscalização ambiental.</p>
-        <p>Criação e gestão de áreas protegidas.</p>
-        <p>Estímulo à economia verde e sustentável.</p>
-        <p>Investimento em pesquisa e educação ambiental.</p>
-        <p>Participação da sociedade civil e diálogo entre grupos.</p>
-        <p>Cooperação internacional para a preservação.</p>
-
-    </div>
-    
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    
     </div>
 
 <div class="topico">
@@ -285,7 +220,7 @@
 
 
 
-        <p>A vegetação predominante na Floresta Amazônica é conhecida como floresta equatorial latifoliada perene. Essa
+        <p>A vegetação predominante na Floresta Amazônica é conhecida como <span class="termo" data-palavra="Floresta equatorial latifoliada perene" data-definicao="Formação vegetal típica de climas equatoriais, com árvores de grande porte e folhas largas que permanecem verdes o ano todo, sem uma estação de queda foliar generalizada.">floresta equatorial latifoliada perene</span>. Essa
             designação faz referência à presença de árvores de grande porte e folhas largas que permanecem verdes
             durante todo o ano. É uma floresta exuberante, com uma enorme diversidade de espécies vegetais, abrigando
             uma ampla variedade de fauna e flora. </p>
@@ -315,11 +250,11 @@
 
         <p>Já a Mata de Terra Firme compreende a maior parte da Floresta Amazônica e é encontrada em áreas não sujeitas
             a inundação. É caracterizada por solos mais pobres e relevo mais elevado, o que influencia na diversidade de
-            espécies vegetais presentes. Nesse ambiente, encontram-se árvores de grande porte, como a sumaúma e a mogno,
-            além de uma grande variedade de plantas epífitas, como bromélias e orquídeas. </p>
+            espécies vegetais presentes. Nesse ambiente, encontram-se árvores de grande porte, como a sumaúma e o mogno,
+            além de uma grande variedade de plantas <span class="termo" data-palavra="Epífitas" data-definicao="Plantas que crescem sobre outras plantas (geralmente em troncos e galhos de árvores) sem parasitá-las, usando-as apenas como suporte físico. Bromélias e orquídeas são exemplos comuns na Amazônia.">epífitas</span>, como bromélias e orquídeas. </p>
 
         <p> Além dos subgrupos vegetacionais mencionados, a Floresta Amazônica também apresenta outras formações, como
-            áreas de transição com savanas (conhecidas como ecótono) e áreas de vegetação secundária decorrentes de
+            áreas de transição com savanas (conhecidas como <span class="termo" data-palavra="Ecótono" data-definicao="Zona de transição entre dois ecossistemas distintos, como floresta e savana, onde se misturam espécies e características de ambos os ambientes.">ecótono</span>) e áreas de vegetação secundária decorrentes de
             distúrbios naturais, como queimadas ou eventos climáticos extremos.</p>
 
         <p> A importância da Floresta Amazônica vai além de sua imensa biodiversidade. Ela desempenha um papel
@@ -373,7 +308,7 @@
             depende desses recursos naturais.</p>
 
 
-        <p>Além dos problemas mencionados, a Floresta Amazônica também enfrenta desafios relacionados à biopirataria. A
+        <p>Além dos problemas mencionados, a Floresta Amazônica também enfrenta desafios relacionados à <span class="termo" data-palavra="Biopirataria" data-definicao="Apropriação e exploração comercial indevida de recursos biológicos e conhecimentos tradicionais de povos e comunidades, geralmente sem autorização, registro de patente ou repartição justa dos benefícios.">biopirataria</span>. A
             apropriação indevida de recursos biológicos e conhecimentos tradicionais das populações indígenas tem
             ocorrido, muitas vezes, sem a devida compensação ou consentimento. Empresas multinacionais e instituições
             científicas têm patenteado esses recursos e conhecimentos, explorando-os comercialmente sem compartilhar os
@@ -412,11 +347,12 @@
 
 
 
-        <p>Estima-se que existam cerca de 20 regiões na Amazônia com alta concentração de atividades de garimpo de ouro.
-            Essas áreas são caracterizadas pela presença de garimpos informais, muitas vezes operando com infraestrutura
+        <p>Segundo dados do MapBiomas, mais de 263 mil hectares já foram garimpados em busca de ouro no Brasil, a
+            maior parte deles na Amazônia, especialmente no Pará, em Rondônia e no Mato Grosso. Boa parte dessas áreas
+            são garimpos informais, muitas vezes operando com infraestrutura
             precária e sem os devidos controles ambientais. </p>
 
-        <p>Uma das principais preocupações relacionadas ao garimpo é a liberação de mercúrio no meio ambiente. O
+        <p>Uma das principais preocupações relacionadas ao garimpo é a liberação de <span class="termo" data-palavra="Mercúrio (contaminação)" data-definicao="Metal pesado tóxico usado no garimpo para separar o ouro do minério. Quando liberado no ambiente, contamina rios e solo, acumula-se nos organismos ao longo da cadeia alimentar e pode causar danos neurológicos em humanos.">mercúrio</span> no meio ambiente. O
             mercúrio é utilizado no processo de extração do ouro, sendo misturado ao minério para facilitar a separação
             do metal precioso. No entanto, a má gestão desse elemento tóxico tem consequências devastadoras para o
             ecossistema amazônico. </p>
@@ -467,8 +403,11 @@
             cidades mais populosas do Brasil e os principais parques industriais do país. </p>
 
         <p>A Mata Atlântica é caracterizada por um clima tropical úmido, que se estende do Rio Grande do Sul ao Rio
-            Grande do Norte. Originalmente, esse bioma ocupava uma área de aproximadamente 1 milhão de km². No entanto,
-            devido à intensa degradação, restam apenas cerca de 7% de sua área original. A Mata Atlântica é composta por
+            Grande do Norte. Originalmente, esse bioma ocupava uma área de aproximadamente 1,3 milhão de km². No entanto,
+            devido à intensa degradação, restam hoje cerca de 24% dessa cobertura original, segundo o Atlas mais
+            recente da SOS Mata Atlântica em parceria com o INPE (2023-2024) — mas a mata madura e bem conservada
+            representa uma fatia bem menor desse total, já que a maior parte dos remanescentes está fragmentada em
+            pedaços pequenos e pouco protegidos. A Mata Atlântica é composta por
             uma floresta densa e úmida, presente principalmente nas encostas da Serra do Mar. Os solos desse bioma estão
             sujeitos a altos níveis de umidade e intemperismo químico, o que resulta no desgaste da matéria orgânica e
             dos sais minerais. </p>
@@ -501,12 +440,12 @@
         <p>Apesar dos desafios enfrentados, esforços de conservação vêm sendo realizados para preservar e restaurar a
             Mata Atlântica. A criação de unidades de conservação, a implementação de políticas de proteção ambiental e o
             engajamento da sociedade civil têm sido fundamentais nesse processo. A Mata Atlântica é reconhecida como um
-            hotspot de biodiversidade e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
+            <span class="termo" data-palavra="Hotspot de biodiversidade" data-definicao="Região com altíssima concentração de espécies endêmicas (que não existem em nenhum outro lugar) e que, ao mesmo tempo, sofreu perda de mais de 70% de sua vegetação original — critério que classifica a Mata Atlântica entre os hotspots mais críticos do planeta.">hotspot de biodiversidade</span> e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
             a qualidade de vida das populações que dependem desse bioma. </p>
 
-        <p>Desde 2006, o bioma conta com uma legislação federal específica, a <strong>Lei da Mata Atlântica</strong>
+        <p>Desde 2006, o bioma conta com uma legislação federal específica, a <span class="termo" data-palavra="Lei da Mata Atlântica" data-definicao="Lei federal nº 11.428, sancionada em dezembro de 2006, que estabelece regras mais rígidas para o desmatamento e a exploração da vegetação nativa da Mata Atlântica, dado seu avançado estado de fragmentação.">Lei da Mata Atlântica</span>
             (Lei nº 11.428), que impõe regras mais rígidas para o desmatamento e a exploração da vegetação nativa,
-            justamente por seu estado avançado de fragmentação. Desde 1985, a organização SOS Mata Atlântica produz
+            justamente por seu estado avançado de fragmentação. Fundada em 1986, a organização SOS Mata Atlântica produz
             anualmente o Atlas da Mata Atlântica, que monitora por satélite a perda de florestas maduras dentro dos
             limites de aplicação da lei. Os dados acumulados ao longo de quase quatro décadas mostram uma tendência
             geral de queda no desmatamento: das taxas mais altas registradas nos anos 1980 e 1990 até o menor valor
@@ -543,7 +482,7 @@
 
 
 
-        <p> Esse tipo de floresta é resultado de condições climáticas passadas, quando paleoclimas mais frios permitiram
+        <p> Esse tipo de floresta é resultado de condições climáticas passadas, quando <span class="termo" data-palavra="Paleoclima" data-definicao="Clima que existiu no passado geológico da Terra, diferente do clima atual de uma região. O estudo dos paleoclimas ajuda a explicar por que certas espécies de clima frio, como a araucária, ocorrem hoje em áreas de clima subtropical.">paleoclimas</span> mais frios permitiram
             o estabelecimento e desenvolvimento da Araucaria angustifólia em vastas áreas. Essa árvore é uma espécie
             endêmica e representa um importante componente da biodiversidade dessa região.</p>
 
@@ -710,6 +649,30 @@
 
     </div>
 
+    
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="infograficot2" src="inforesumots16.png"
+                    alt="Infográfico resumo raio x da população" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
 <div class="topico w3-pale-yellow ">
 
             <p class="caixa">Agora é com você!</p>
@@ -781,7 +744,7 @@
 
 
 
-            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Por que no momento atual a vegetação está sendo muito degradada?
                 </strong> </p>
@@ -802,7 +765,7 @@
 
 
 
-            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Por que o ser humano age como se fosse à parte do Planeta?
 
@@ -825,7 +788,7 @@
 
 
 
-            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Quais outros tipos de estilos de vida poderiam existir para degradar menos a vegetação no Brasil?
                 </strong></p>
@@ -873,15 +836,27 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
             <br><br>
-
-
-
-
-
-
-
             <hr>
 
+        </div>
+
+        <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+        <div class="topico">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para o caderno</h2>
+                <h3>1. Por que a vegetação é considerada um elemento fundamental para a manutenção da vida na Terra?</h3>
+                <h3>2. Como o clima influencia a formação de diferentes tipos de vegetação?</h3>
+                <h3>3. Quais são os três principais subgrupos vegetacionais da Floresta Amazônica e quais são suas características?</h3>
+                <h3>4. Quais são as principais causas do desmatamento na Floresta Amazônica mencionadas no texto?</h3>
+                <h3>5. Qual é o impacto do garimpo na Floresta Amazônica e como ele afeta o meio ambiente e a saúde humana?</h3>
+                <h3>6. Quais fatores históricos contribuíram para a degradação da Mata Atlântica ao longo dos séculos?</h3>
+                <h3>7. Explique a importância ecológica do mangue e quais são as principais ameaças enfrentadas por esse ecossistema.</h3>
+                <h3>8. Como a Floresta de Araucária contribui para o equilíbrio ambiental e qual é a principal ameaça enfrentada por esse ecossistema?</h3>
+                <h3>9. Quais são algumas das medidas sugeridas no texto para promover a conservação da vegetação e reduzir a degradação ambiental?</h3>
+                <h3>10. Por que a cooperação internacional é considerada importante na preservação dos biomas e no enfrentamento dos desafios ambientais?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
         </div>
 
         <div class="topico">
@@ -894,7 +869,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Vegetação I: Domínios é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
@@ -927,6 +902,7 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
         </div>
     </main>
 

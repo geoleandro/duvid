@@ -5,15 +5,17 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="" name="description" />
-    <meta content="" property="og:title" />
-    <meta content="" property="og:description" />
+    <meta content="Os principais tipos de clima do Brasil — equatorial, tropical, tropical úmido, tropical de altitude, semiárido e subtropical — e os fatores que determinam a diversidade climática do país" name="description" />
+    <meta content="Texto 14 - Climas do Brasil I: Tipos" property="og:title" />
+    <meta content="Domínios climáticos do Brasil: Equatorial, Tropical (semiárido, altitude, úmido) e Subtropical" property="og:description" />
     <meta content="" property="og:image" />
     <link href="/estilos/index-estilo.css" rel="stylesheet" />
     <link href="/estilos/w3.css" rel="stylesheet" />
     <link href="/estilos/navbar.css" rel="stylesheet" />
     <link href="/estilos/rpg-sistema.css" rel="stylesheet" />
     <link href="/estilos/ModeloCss.css" rel="stylesheet" />
+    <link href="/estilos/texto-estilo.css" rel="stylesheet" />
+    <link href="/estilos/explicacaoPalavra.css" rel="stylesheet" />
     <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +34,9 @@
     <script defer="" src="/js/abrirmenu.js"></script>
     <script defer="" src="/js/carregar.js"></script>
     <script defer="" src="/js/aulas-geral.js"></script>
-    <title></title>
+    <script defer="" src="/js/glossario.js"></script>
+    <script defer="" src="/js/texto-painel.js"></script>
+    <title>2º ano - Texto 14 - Climas do Brasil I: Tipos</title>
 
 
 </head>
@@ -143,6 +147,19 @@
             font-size: 1rem;
         }
 
+        body.dark-mode .card {
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+        }
+
+        body.dark-mode .card-text h2 {
+            color: #81c784;
+        }
+
+        body.dark-mode .card-text p {
+            color: #e0e0e0;
+        }
+
         .btn-modal {
             display: none;
         }
@@ -217,28 +234,6 @@
             <hr />
         </div>
         <div class="topico">
-            <div class="w3-pale-yellow">
-                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-                <h3>1. Explique a diferença entre clima e tempo.</h3>
-                <h3>2. Descreva as características principais do clima equatorial no Brasil.</h3>
-                <h3>3. Quais são as principais características do clima tropical e onde ele é predominante no Brasil?
-                </h3>
-                <h3>4. Como o clima subtropical se diferencia dos outros climas brasileiros e onde ele ocorre?</h3>
-                <h3>5. Explique as características do clima tropical de altitude e a sua localização no Brasil.</h3>
-                <h3>6. O que caracteriza o clima tropical úmido (litorâneo) e em que regiões do Brasil ele é encontrado?
-                </h3>
-                <h3>7. Descreva as condições climáticas típicas do clima tropical semiárido e os desafios que ele impõe.
-                </h3>
-                <h3>8. O que são climogramas e como eles podem ser utilizados para estudar os climas no Brasil?</h3>
-                <h3>9. Identifique os fatores que influenciam a diversidade climática no Brasil.</h3>
-                <h3>10. Localize e descreva as principais áreas onde o clima tropical úmido é predominante no Brasil.
-                </h3>
-            </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr />
-        </div>
-        
-        <div class="topico">
             <div class="w3-center">
                 <h2 class="fontePixel"> <img alt="microfone" height="84" src="micro2.png" width="84" /> Duvid - Podcast
                 </h2>
@@ -258,6 +253,9 @@
                 essa incrível jornada e como foi participar desse projeto para o ganhador do concurso.
 
             </p>
+            <div class="w3-margin w3-center"><img alt="Pedrinho recebendo o prêmio de redação" class="w3-mobile" id="imagem7" src="ts14f07.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao7"> </span>
+            </div>
             <p>Hoje, estamos aqui com dois convidados muito especiais. Temos o geógrafo, Dr. Silva, e seu aprendiz de
                 geógrafo, aluno de ensino médio Pedro. Eles viajaram por todas as regiões do Brasil, estudando a relação
                 entre o clima e a diversidade de paisagens. Dr. Silva e Pedro, muito obrigado por se juntarem a nós
@@ -281,7 +279,7 @@
             </p>
             <p><strong>Prof. Silva:</strong>
 
-                Sim, viajamos. O Brasil é imenso é mesmo no período atual ainda há lugares pouco estudados. Esse projeto
+                Sim, viajamos. O Brasil é imenso e, mesmo no período atual, ainda há lugares pouco estudados. Esse projeto
                 chamado: “Conhecer o Brasil, fortalecer a Cidadania”, envolveu uma série de instituições governamentais,
                 além de escolas de todo o pais. Na atualidade, a questão climática está sendo muito discutida no
                 noticiário,
@@ -383,9 +381,9 @@
                 continentais
                 e tem uma grande
                 variedade de climas. Isso se deve a vários fatores, incluindo a configuração geográfica do país, a
-                maritimidade e a continentalidade, as modestas altitudes, a extensão territorial e as formas do relevo.
+                <span class="termo" data-palavra="Maritimidade e continentalidade" data-definicao="Maritimidade é a influência do oceano sobre o clima de um lugar próximo à costa (temperaturas mais amenas e maior umidade); continentalidade é a influência do interior do continente, longe do mar, que deixa o clima mais seco e com maior variação de temperatura.">maritimidade e a continentalidade</span>, as modestas altitudes, a extensão territorial e as formas do relevo.
                 Além
-                disso, as dinâmicas das massas de ar e frentes também desempenham um papel importante na definição dos
+                disso, as dinâmicas das <span class="termo" data-palavra="Massas de ar" data-definicao="Grandes porções da atmosfera com temperatura e umidade relativamente uniformes, que se deslocam sobre o território e alteram o tempo e o clima das regiões por onde passam.">massas de ar</span> e frentes também desempenham um papel importante na definição dos
                 climas do Brasil. E não podemos esquecer do impacto da vegetação e das atividades humanas, que também
                 contribuem para as particularidades climáticas regionais e locais do país.</p>
             <p><strong>Duvid:</strong> E é justamente essa variedade de climas que torna o Brasil um lugar incrível para
@@ -409,7 +407,7 @@
             <p><strong>Duvid:</strong> Prof., quais outros fatores interferem no clima de uma região?</p>
             <p><strong>Prof. Silva:</strong> Vou dar um exemplo sobre como o relevo afeta o clima. Pense na cidade de
                 Campos
-                de Jordão, no
+                do Jordão, no
                 interior de São Paulo. A cidade é localizada em uma área de altitude elevada e é cercada por montanhas,
                 o
                 que resulta em um clima de montanha com temperaturas mais baixas e invernos mais rigorosos do que nas
@@ -426,7 +424,7 @@
                 <strong>temperatura</strong>, a <strong>pressão atmosférica</strong> e a <strong>umidade</strong>, por
                 exemplo.
             </p>
-            <p><strong>Duvid:</strong> O clima também teus seus próprios elementos, ou seja, daquilo que ele é formado.
+            <p><strong>Duvid:</strong> O clima também tem seus próprios elementos, ou seja, daquilo que ele é formado.
                 Poderia explicar
                 rapidamente, antes de entrarmos nas regiões que vocês visitaram. Eu ansioso para descobrir as
                 características dessas regiões.</p>
@@ -472,14 +470,14 @@
                 vantagem em relação a países que enfrentam invernos rigorosos. No entanto, é importante ressaltar que o
                 clima tropical também pode apresentar desafios para a agricultura, como o excesso de chuvas ou a seca em
                 algumas regiões, que podem afetar a produção.</p>
-            <p><strong>Duvid:</strong> <strong>Prof. Silva:</strong> Saindo do nível macro para o nível micro. De que
+            <p><strong>Duvid:</strong> Saindo do nível macro para o nível micro. De que
                 forma
                 o clima atinge nossa saúde?</p>
             <p><strong>Prof. Silva:</strong> Nós, geógrafos, dizemos que o clima atua em diversas escalas, ou seja,
                 desde
                 uma área restrita
-                até alcançando o espaço mundial.</p>
-            <p>Com relação a menor escala seria o nosso corpo. A temperatura é a medida da quantidade de calor presente
+                até o espaço mundial.</p>
+            <p>Com relação à menor escala, seria o nosso corpo. A temperatura é a medida da quantidade de calor presente
                 em
                 um ambiente, e é um dos componentes principais do clima. Ela afeta diretamente a nossa sensação de
                 bem-estar, pois é responsável por regular a nossa temperatura corporal. Quando a temperatura está muito
@@ -499,11 +497,11 @@
                 umidade elevada a evaporação do suor se torna mais difícil e, logo, a perda de calor do corpo por meio
                 da
                 transpiração.</p>
-            <p>Só relembrando, a umidade é a quantidade de vapor d'água presente na atmosfera. Ela pode afetar a nossa
+            <p>Só relembrando, a <span class="termo" data-palavra="Umidade relativa do ar" data-definicao="Percentual de vapor d'água presente no ar em relação à quantidade máxima que ele poderia reter naquela temperatura. Valores entre 40% e 60% são considerados confortáveis para a maioria das pessoas.">umidade</span> é a quantidade de vapor d'água presente na atmosfera. Ela pode afetar a nossa
                 sensação de bem-estar de diversas maneiras. Em dias de alta umidade, o ar pode se sentir mais pesado e
                 abafado, o que pode ser desconfortável para algumas pessoas. Além disso, a umidade elevada pode tornar
                 mais
-                difícil para o corpo evapora o suor, tornando a temperatura percebida mais alta.</p>
+                difícil para o corpo evaporar o suor, tornando a temperatura percebida mais alta.</p>
             <p>Só que existe o contrário. Em dias de baixa umidade, o ar pode se sentir seco e áspero, o que pode ser
                 desagradável para a pele, olhos e outras partes do corpo. A baixa umidade também pode tornar o ar mais
                 frio
@@ -530,7 +528,7 @@
                 não
                 habituados à
                 aquela região.</p>
-            <p>Isso porque a pressão atmosférica é causada pela força do peso da atmosfera sobre a superfície terrestre.
+            <p>Isso porque a <span class="termo" data-palavra="Pressão atmosférica" data-definicao="Força exercida pelo peso do ar da atmosfera sobre a superfície terrestre. Diminui com o aumento da altitude, pois há menos camada de ar acima do observador.">pressão atmosférica</span> é causada pela força do peso da atmosfera sobre a superfície terrestre.
                 Quando você está mais perto da superfície terrestre, há mais atmosfera acima de você, o que resulta em
                 uma
                 pressão mais alta. Quando você sobe mais alto, há menos atmosfera acima de você, o que resulta em uma
@@ -551,13 +549,16 @@
             <p><strong>Duvid:</strong> Depois dessa ida até a Bolívia, eu mesmo fiquei sem ar. Prof. Vamos retornar ao
                 Brasil e saber,
                 finalmente, como foi organizada e como foi a experiência dessa verdadeira expedição pelo Brasil?</p>
+            <div class="w3-margin w3-center"><img alt="Equipe partindo em expedição pelo Brasil" class="w3-mobile" id="imagem8" src="ts14f08.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao8"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> A nossa expedição pelo Brasil foi maravilhosa. Começamos nossa jornada pelo
                 Sul
                 do país, em
                 Porto Alegre, onde pudemos sentir a diferença climática das outras regiões, pois estávamos no inverno,
                 época
                 das férias escolares. Em seguida fomos para Belo Horizonte, no Sudeste, onde exploramos um pouco da rica
-                cultura e história mineira e seu clima de altitude. Depois fomos à Brasília no região central do Brasil
+                cultura e história mineira e seu clima de altitude. Depois fomos à Brasília na região central do Brasil
                 com
                 seu clima Tropical. Depois partimos para Salvador, no Nordeste, onde o clima Tropical quente e úmido foi
                 uma
@@ -678,7 +679,7 @@
                                 agosto, com valores abaixo de 12 mm por mês.<br />
 
                                 A média anual de temperatura em Brasília é de cerca de 22°C, enquanto a média anual de
-                                precipitação é de aproximadamente 1118 mm.
+                                precipitação é de aproximadamente 1477 mm (INMET, normais climatológicas 1991-2020).
 
 
 
@@ -747,6 +748,9 @@
                     </div>
                 </div>
             </div>
+            <div class="w3-margin w3-center"><img alt="Inverno subtropical em Porto Alegre" class="w3-mobile" id="imagem9" src="ts14f09.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao9"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> Vamos começar caracterizando o clima e depois o Pedrinho pode falar sobre a
                 análise do
                 climograma que ele fez.</p>
@@ -754,7 +758,8 @@
                 frios e
                 verões quentes. É uma das regiões mais populosas do país, abrangendo estados como Paraná, Santa Catarina
                 e
-                Rio Grande do Sul. Além disso, essa região também é influenciada pelas massas de ar polares, que </p>
+                Rio Grande do Sul. Além disso, essa região também é influenciada pelas massas de ar polares, que provocam
+                as ondas de frio típicas do inverno gaúcho e catarinense.</p>
             <p>No inverno, a temperatura média pode chegar a 10°C em algumas cidades, com registros de geadas e até
                 mesmo
                 neve em algumas áreas mais altas. Já no verão, a temperatura pode atingir 30°C ou mais, com a umidade do
@@ -771,7 +776,7 @@
                 tratar
                 sobre os climas
                 do Brasil. Agora, Pedrinho como foi analisar um climograma, o que é isso?</p>
-            <p><strong>Pedrinho:</strong> Bom, eu aprendi que o climograma é nada mais do que um gráfico com duas
+            <p><strong>Pedrinho:</strong> Bom, eu aprendi que o <span class="termo" data-palavra="Climograma" data-definicao="Gráfico que combina, mês a mês, a temperatura média (geralmente em linha) e o volume de chuvas (em barras) de um local, permitindo visualizar de forma rápida o tipo de clima de uma região.">climograma</span> é nada mais do que um gráfico com duas
                 variáveis:
                 temperatura e
                 chuvas. Na verdade tem uma terceira que são os meses do ano. De um lado a temperatura e do outro a
@@ -782,18 +787,21 @@
                 19, 20
                 graus. Ou seja, no Sul do país ocorre que você pode ter uma temperatura até alta no verão, mais de 30
                 graus
-                e no inverto próximo de 0 grau.</p>
+                e no inverno beirando os 0 grau.</p>
             <!-- Inserir Climograma Porto Alegre -->
-            <p><strong>Prof. Silva:</strong> Isso mesmo Pedrinho, isso é a amplitude térmica. Outras regiões não possuem
+            <p><strong>Prof. Silva:</strong> Isso mesmo Pedrinho, isso é a <span class="termo" data-palavra="Amplitude térmica" data-definicao="Diferença entre a temperatura máxima e a mínima registradas em um período (dia, mês ou ano) em um mesmo local. Regiões subtropicais e de interior costumam ter amplitude térmica maior do que regiões litorâneas e equatoriais.">amplitude térmica</span>. Outras regiões não possuem
                 essa diferença de
                 temperatura tão alta assim.</p>
             <p><strong>Duvid:</strong> Muito legal Pedrinho. Agora vamos para a próxima cidade e suas características?
             </p>
+            <div class="w3-margin w3-center"><img alt="Serra do Curral em Belo Horizonte" class="w3-mobile" id="imagem10" src="ts14f10.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao10"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> Saindo do frio, nós fomos para a terra do pão de queijo, Pedrinho gostou
                 bastante. Conhecemos o
-                clima tropical de altitude, que é uma variação do clima tropical que ocorre em regiões com altitudes
+                <span class="termo" data-palavra="Clima tropical de altitude" data-definicao="Variação do clima tropical que ocorre em áreas de relevo elevado (acima de 800-900 metros), onde a altitude reduz a temperatura em relação a outras regiões tropicais de mesma latitude, tornando o clima mais ameno.">clima tropical de altitude</span>, que é uma variação do clima tropical que ocorre em regiões com altitudes
                 mais
-                elevadas de São Paulo, Minas Geris, Rio de Janeiro e Espírito Santo. Essa elevação faz com que a
+                elevadas de São Paulo, Minas Gerais, Rio de Janeiro e Espírito Santo. Essa elevação faz com que a
                 temperatura
                 seja mais amena em relação a outras regiões tropicais, tornando o clima mais agradável.</p>
             <p>Um exemplo de cidade que tem esse tipo de clima é Belo Horizonte, localizada na região Sudeste do Brasil.
@@ -814,6 +822,9 @@
                 vamos agora
                 falar sobre a capital do nosso país, Brasília, que também apresenta características únicas do clima
                 tropical. Vamos ver o que nosso geógrafo e seu aprendiz nos contam sobre essa região!"</p>
+            <div class="w3-margin w3-center"><img alt="Arquitetura de Brasília sob o céu do Cerrado" class="w3-mobile" id="imagem11" src="ts14f11.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao11"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> Ah, o clima tropical é bem interessante! Esse é um dos tipos de clima mais
                 comuns em nosso país
                 e é caracterizado por temperaturas elevadas e chuvas bem distribuídas durante o ano todo. Esse clima é
@@ -843,7 +854,17 @@
                 familiarizados,
                 o clima quente e
                 úmido de Salvador, na região Nordeste do Brasil.</p>
-            <p><strong>Prof. Silva:</strong> O clima tropical litorâneo, principalmente em porção Nordeste é bem
+            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
+                <h3>E o semiárido?</h3>
+                <p>Antes de seguir viagem, vale lembrar: nem toda a região Nordeste tem clima tropical litorâneo como
+                    Salvador. O interior nordestino é dominado pelo <span class="termo" data-palavra="Clima semiárido" data-definicao="Clima quente, com baixa umidade do ar e chuvas escassas e irregulares, concentradas em poucos meses do ano. É a característica marcante do Sertão nordestino, a área mais seca do Brasil.">clima semiárido</span>, o mais seco do país,
+                    marcado por chuvas irregulares e concentradas em poucos meses, o que é justamente o trecho do sertão
+                    que a expedição vai atravessar a caminho de Belém.</p>
+            </div>
+            <div class="w3-margin w3-center"><img alt="Orla de Salvador, clima tropical litorâneo" class="w3-mobile" id="imagem12" src="ts14f12.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao12"> </span>
+            </div>
+            <p><strong>Prof. Silva:</strong> O clima tropical litorâneo, principalmente na porção Nordeste, é bem
                 distinto
                 das outras regiões,
                 pois possui chuva intensa no inverno. Veja pelo climograma:</p>
@@ -857,6 +878,9 @@
                 deixar
                 o litoral, de
                 carro pelo sertão nordestino. </p>
+            <div class="w3-margin w3-center"><img alt="Paisagem árida do Sertão nordestino" class="w3-mobile" id="imagem13" src="ts14f13.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao13"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> Viajar de carro de Salvador a Belém foi uma aventura incrível e
                 desafiadora. Ao
                 deixar a costa
@@ -882,10 +906,13 @@
                 Conte-nos
                 como foi essa
                 experiência.</p>
+            <div class="w3-margin w3-center"><img alt="Floresta Amazônica e rios próximos a Belém" class="w3-mobile" id="imagem14" src="ts14f14.png" style="max-width:500px"/>
+                <span class="w3-small w3-margin-left" id="citacao14"> </span>
+            </div>
             <p><strong>Prof. Silva:</strong> Quando chegamos à Belém do Pará, uma cidade localizada na região Norte do
                 Brasil, podemos ver a
                 exuberante floresta Amazônica, uma das mais ricas em biodiversidade do mundo. Ao contrário das outras
-                cidades da expedição, Belém possui um clima equatorial úmido, caracterizado por altas temperaturas
+                cidades da expedição, Belém possui um <span class="termo" data-palavra="Clima equatorial" data-definicao="Clima quente e úmido o ano todo, típico das áreas próximas à linha do Equador, como a Amazônia. Apresenta pequena variação de temperatura ao longo do ano e chuvas abundantes, sem uma estação seca bem definida.">clima equatorial</span> úmido, caracterizado por altas temperaturas
                 durante
                 todo o ano e uma elevada umidade relativa do ar. As chuvas são frequentes, mas a cidade também pode
                 apresentar longos períodos de estiagem.</p>
@@ -959,8 +986,8 @@
                 <div class="item-resposta">
                     <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto" />
                     <label class="card-opcao" for="p1b">
-                        <span>b) O clima subtropical apresenta verões quentes e úmidos e invernos frios e secos, sendo
-                            predominante na
+                        <span>b) O clima subtropical apresenta verões quentes e chuvas bem distribuídas ao longo de
+                            todo o ano, com invernos mais frios, sendo predominante na
                             região Sul do país.</span>
                     </label>
                 </div>
@@ -1068,7 +1095,7 @@
         </div>
         <div class="topico">
             <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Qual é a relação entre clima e desenvolvimento econômico no Brasil?
                 </strong> </p>
@@ -1084,7 +1111,7 @@
                 produção agrícola e a infraestrutura.
 
             </p>
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Como o clima influencia a produção agrícola no Brasil?
 
@@ -1102,7 +1129,7 @@
 
 
             </p>
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                     Como o clima afeta a geração de energia no Brasil?
                 </strong></p>
@@ -1127,9 +1154,50 @@
             <hr />
         </div>
 
-        
+        <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+        <div class="topico">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para o caderno</h2>
+                <h3>1. Explique a diferença entre clima e tempo.</h3>
+                <h3>2. Descreva as características principais do clima equatorial no Brasil.</h3>
+                <h3>3. Quais são as principais características do clima tropical e onde ele é predominante no Brasil?
+                </h3>
+                <h3>4. Como o clima subtropical se diferencia dos outros climas brasileiros e onde ele ocorre?</h3>
+                <h3>5. Explique as características do clima tropical de altitude e a sua localização no Brasil.</h3>
+                <h3>6. O que caracteriza o clima tropical úmido (litorâneo) e em que regiões do Brasil ele é encontrado?
+                </h3>
+                <h3>7. Descreva as condições climáticas típicas do clima tropical semiárido e os desafios que ele impõe.
+                </h3>
+                <h3>8. O que são climogramas e como eles podem ser utilizados para estudar os climas no Brasil?</h3>
+                <h3>9. Identifique os fatores que influenciam a diversidade climática no Brasil.</h3>
+                <h3>10. Localize e descreva as principais áreas onde o clima tropical úmido é predominante no Brasil.
+                </h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr />
+        </div>
 
-       
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+                if(this.disabled) return;
+                this.disabled = true;
+                ProcessarResposta(this, {
+                    correto: true,
+                    idFrase: 'respFinal',
+                    idGlobo: 'globinhorespFinal',
+                    classe: '',
+                    mensagem: 'o tema Climas do Brasil é fantástico! Continue estudando!',
+                    pontos: 40
+                });
+                MostrarProximo(this);
+            ">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img alt="globinhorespFinal" height="64" id="globinhorespFinal" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/></p>
+            </div>
+            <hr/>
+        </div>
 
         <!-- TÓPICO FINALIZAR -->
         <div class="topico">
@@ -1202,43 +1270,6 @@
 
 
 
-
-
-
-
-        function MostrarProximo(parametro) {
-
-            var oculto = parametro.parentNode; // Obter qual é o elemento pai do botão
-            var proximo = oculto.nextElementSibling; // Obter qual é o elemento seguinte ao pai
-
-            if (!proximo.classList.contains('mostrar')) // Verificar se o seguinte já foi mostrado
-            {
-                proximo.classList.add('mostrar'); // Mostrar o seguinte
-                addProgressBar();
-                // numButton();
-                ApagaButton();
-                RemoveBalancarGlobo();//retirar no Kodular
-
-                document.getElementById("notaFixa").innerHTML = nota.toFixed(1);
-
-            }
-
-        }
-
-        function addProgressBar() {
-            var barra = document.getElementById("progress");
-            txtBarra = document.getElementById("txtBarra");
-
-            i = Math.round(100 / 8);
-            barra.value += i;
-
-            if (barra.value >= 100) {
-                barra.value = 100;
-            }
-
-            txtBarra.innerHTML = barra.value + "%";
-
-        }
 
 
 

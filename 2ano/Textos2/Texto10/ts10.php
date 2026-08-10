@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="A desconcentração industrial no Brasil: guerra fiscal, novos polos industriais e tecnopolos pelo território" name="description"/>
+<meta content="Texto 10 - Desconcentração Industrial no Brasil" property="og:title"/>
+<meta content="Por que as indústrias deixaram de se concentrar apenas em São Paulo e se espalharam pelo território brasileiro" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 10</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 10 - Desconcentração Industrial no Brasil</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -77,26 +81,12 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<h3>1. Quais são alguns problemas enfrentados pela indústria brasileira atualmente?</h3>
-<h3>2. O que é o desemprego estrutural?</h3>
-<h3>3. O que levou ao início da chamada "guerra fiscal"?</h3>
-<h3>4. Quais são algumas causas da desconcentração industrial no Brasil?</h3>
-<h3>5. Quais são algumas consequências da desconcentração industrial?</h3>
-<h3>6. O que é um tecnopolo?</h3>
-<h3>7. O que é a teoria da localização industrial?</h3>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2>A indústria brasileira e o cenário global </h2>
 <p>A dinâmica do espaço mundial é extremamente importante para o entendimento do que se passa no Brasil. Isso
             porque há um movimento de readequação da produção em escala internacional, onde as empresas (multinacionais)
             procuram por localidades que possuam custos mais baixos (salários, infraestrutura). </p>
 <p> A indústria brasileira enfrenta alguns problemas fundamentais no período atual com repercussões diretas em
-            seu território, como exemplo: falta de infraestrutura adequada, os desafios da revolução técnico-científica
+            seu território, como exemplo: falta de infraestrutura adequada, os desafios da <span class="termo" data-palavra="revolução técnico-científica" data-definicao="Fase da produção marcada pela forte integração entre ciência, tecnologia e informação, reduzindo a necessidade de mão de obra e de proximidade física entre indústrias.">revolução técnico-científica</span>
             e a competição no mercado global.</p>
 <p>Essas características globais acabaram influenciando a política e a economia brasileira que foi marcada por
             uma integração nacional não muito “integrada”, mas com regiões isoladas umas das outras durante séculos.
@@ -105,7 +95,7 @@
             o Estado em relação às medidas de proteção de seu mercado interno. </p>
 <p> A abertura da economia levou a uma onda de novos investimentos estrangeiros diretos, possibilitando a
             retomada do crescimento industrial dentro da nova lógica produtiva e não mais daquela de substituição de
-            importações. As indústrias instaladas no país desde 1990 fazer parte das chamadas <span class="w3-yellow" onclick="document.getElementById('cadeias').style.display='block'">cadeias</span>
+            importações. As indústrias instaladas no país desde 1990 passaram a fazer parte das chamadas <span class="w3-yellow" onclick="document.getElementById('cadeias').style.display='block'">cadeias</span>
             produtivas.</p>
 <div class="w3-modal w3-margin-top" id="cadeias">
 <div class="w3-modal-content">
@@ -123,7 +113,7 @@
 <p>Hoje as indústrias dispõem de pequenas unidades produtivas com reduzida mão de obra e com a utilização
             intensa de tecnologia. Com essas características, elas podem abrir ou fechar suas unidades mais facilmente
             em qualquer parte do globo.</p>
-<p>As primeiras consequências desse processo no Brasil repercutiu na política de privatizações e no processo de
+<p>As primeiras consequências desse processo no Brasil repercutiram na política de privatizações e no processo de
             desconcentração industrial.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -152,8 +142,8 @@
 </div>
 </div>
 </div>
-<p>Houve uma melhoria na qualidade dos produtos nacionais, pois deviam concorrer com mercadorias importadas e os
-            preços foram beneficiando consumidores. Essa abertura econômica, portanto, provocou um aumento no número de
+<p>Houve uma melhoria na qualidade dos produtos nacionais, pois deviam concorrer com mercadorias importadas, e os
+            preços passaram a beneficiar os consumidores. Essa abertura econômica, portanto, provocou um aumento no número de
             empresas multinacionais e uma diversificação de marcas, além de uma dispersão espacial das fábricas, que
             saíram do núcleo de São Paulo no Sudeste em busca de melhores condições pelo território brasileiro. Veja o
             mapa: </p>
@@ -165,7 +155,7 @@
             a organização dos trabalhadores, além do aumento do preço do solo urbano, levaram as empresas a procurarem
             locais mais vantajosos para o aumento de seus lucros. O Estado contribui promovendo incentivos fiscais,
             transformando o território em uma verdadeira "guerra de lugares". Entretanto, mesmo que algumas indústrias
-            tenham se transferidos para outras regiões, o Centro-Sul ainda possui os centros de decisão da economia.
+            tenham se transferido para outras regiões, o Centro-Sul ainda possui os centros de decisão da economia.
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -179,7 +169,7 @@
             das medidas foi a criação da Sudam (Superintendência de Desenvolvimento da Amazônia) e da Sudene
             (Superintendência de Desenvolvimento do Nordeste). </p>
 <p> Outra ação foi a autorização do Governo Federal dada aos governos estaduais a promoverem incentivos fiscais
-            para a presença de indústrias em seus territórios. Com isso, teve início a chamada Guerra Fiscal ou Guerra
+            para a presença de indústrias em seus territórios. Com isso, teve início a chamada <span class="termo" data-palavra="Guerra Fiscal" data-definicao="Disputa entre Estados e municípios brasileiros pela instalação de empresas em seus territórios, por meio de isenções de impostos e outros benefícios fiscais.">Guerra Fiscal</span> ou Guerra
             dos Lugares, em que as unidades federativas, por meio de isenções de impostos e outros benefícios, passaram
             a competir pela manutenção de empresas em suas localidades, a fim de dinamizar suas economias e elevar a
             quantidade de empregos. Soma-se a essas questões políticas o fato de que, com os avanços tecnológicos nos
@@ -187,7 +177,7 @@
             proximidade entre indústria e mercado consumidor. </p>
 <p>Por isso, muitas empresas resolveram migrar para regiões interioranas e cidades médias, longe dos problemas
             relacionados às grandes cidades. </p>
-<div class="w3-card-4 w3-yellow w3-padding-small">
+<div class="w3-panel w3-pale-yellow w3-margin w3-padding">
 <p>Algumas causas: </p>
 <ul>
 <li>
@@ -224,7 +214,7 @@
                     aumento da taxa de desemprego;
                 </li>
 <li>
-                    processo de desmetropolização, ou seja, crescimento lento em relação às cidades de porte médio do
+                    processo de <span class="termo" data-palavra="desmetropolização" data-definicao="Perda relativa de importância das grandes regiões metropolitanas frente ao crescimento mais acelerado de cidades médias do interior.">desmetropolização</span>, ou seja, crescimento lento em relação às cidades de porte médio do
                     interior;
                 </li>
 <li>
@@ -272,8 +262,8 @@
 <hr/>
 </div>
 <div class="topico">
-<h2> As regiões industrias no território brasileiro</h2>
-<p> A partir do mapa, embora a atividade industrial nos últimos anos no Brasil tenha se sofrido um processo de
+<h2> As regiões industriais no território brasileiro</h2>
+<p> A partir do mapa, embora a atividade industrial nos últimos anos no Brasil tenha sofrido um processo de
             desconcentração industrial, vemos que ainda as regiões Sul e Sudeste concentram a maior parte das indústrias
             no país.</p>
 <p class="w3-center"><strong>Brasil: distribuição do valor industrial por município – 2009 </strong></p>
@@ -281,16 +271,16 @@
 <span class="w3-small w3-margin-left" id="citacao2"> Fonte: (ABDAL, 2020). </span>
 </div>
 <p> Particularmente no <strong>Estado de São Paulo</strong>, observa-se o maior parque industrial brasileiro. A
-            partir da década de 1950, com a vinda das montadoras de automóveis se instalaram no chamado ABCD, nos
+            partir da década de 1950, com a vinda das montadoras de automóveis, que se instalaram no chamado <span class="termo" data-palavra="ABCD paulista" data-definicao="Região formada pelos municípios de Santo André, São Bernardo do Campo, São Caetano do Sul e Diadema, na região metropolitana de São Paulo, historicamente polo da indústria automobilística brasileira.">ABCD</span>, nos
             municípios de Santo André, São Bernardo do Campo, São Caetano do Sul e Diadema, na região metropolitana de
             São Paulo, isso impulsionou fortemente a industrialização desse Estado.</p>
-<p>Entretanto, a abertura econômica alterou significativamente esse região. Fábricas antigas foram fechadas ou
+<p>Entretanto, a abertura econômica alterou significativamente essa região. Fábricas antigas foram fechadas ou
             se transferiram para outras áreas em busca de mão de obra menos organizada (pressão dos sindicatos) e mais
             barata, com menores impostos, benefícios fiscais, dentre outras razões. Soma-se a isso a diminuição dos
             trabalhadores decorrente dos avanços proporcionados pela Revolução Científico-Tecnológica. A empresa
-            Volkswagen, por exemplo, possuía cerca de 40 mil trabalhadores na década de 1970 e atualmente reduziu esse
-            número para menos da metade. </p>
-<p>Apesar das discordâncias sobre as características do processo de desindustrialização, o fato é que ele
+            Volkswagen, por exemplo, chegou a ter mais de 40 mil trabalhadores no auge da década de 1970 e hoje conta
+            com cerca de 13 mil funcionários em todo o Brasil. </p>
+<p>Apesar das discordâncias sobre as características do processo de <span class="termo" data-palavra="desindustrialização" data-definicao="Redução relativa da participação da indústria na economia e no emprego de uma região, geralmente acompanhada de crescimento do setor de serviços.">desindustrialização</span>, o fato é que ele
             existe. Não significa, necessariamente, uma perda de posição ou decadência econômica da metrópole de São
             Paulo. O setor de serviços ainda ocupa a maior parte da mão de obra na Região Sudeste, visto que, mesmo
             contendo grande parte da produção industrial, a produção tende a utilizar menos mão de obra e mais
@@ -310,8 +300,8 @@
             (Instituto Tecnológico Aeronáutico - ITA) e atividades aeroespaciais (Empresa Brasileira de Aeronáutica -
             EMBRAER). São Carlos também se destaca com as indústrias de óptica, informática, instrumentação e mecânica
             de precisão.</p>
-<p>Ainda no Sudeste tem destaque a região do Quadrilátero Ferrífero, em Minas Gerais, bem como as instalações do
-            Porto de Tubarão no Espírito Santos que foram responsáveis para atrair os investimentos em 
+<p>Ainda no Sudeste destaca-se a região do Quadrilátero Ferrífero, em Minas Gerais, bem como as instalações do
+            Porto de Tubarão no Espírito Santo, que foram responsáveis por atrair os investimentos em
         <span class="w3-yellow" onclick="document.getElementById('siderurgia').style.display='block'">siderurgia.</span> </p>
 <div class="w3-modal w3-margin-top" id="siderurgia">
 <div class="w3-modal-content">
@@ -323,15 +313,15 @@
 </div>
 </div>
 </div>
-<p>Essa região está localizada no sudeste de Belo Horizonte entre as cidades de Sabará, Santa Bárbara, Mariana, Congonhas, Ouro Preto, dentre outras. Completam esse cenário as indústrias siderúrgicas instaladas no vale do Rio Doce, que corre para o Norte de Minas e depois para o Leste, já no Espírito Santos, dando origem a um corredor industrial conhecido como Vale do Aço. </p>
-<p>No Espírito Santo encontra-se indústrias de celulose, como a Suzano, integrada a vastas áreas de plantio de eucaliptos e a um porto privativo, o Portocel. Essa região é articulada com o mercado global e faz com que o Brasil ocupe uma posição de destaque como grande exportador de minérios e celulose. Santa Rita do Sapucaí é, da mesma forma, um tecnopolo onde se desenvolvem indústrias do ramo da eletrônica e das comunicações. </p>
+<p>Essa região está localizada no sudeste de Belo Horizonte entre as cidades de Sabará, Santa Bárbara, Mariana, Congonhas, Ouro Preto, dentre outras. Completam esse cenário as indústrias siderúrgicas instaladas no vale do Rio Doce, que corre para o Norte de Minas e depois para o Leste, já no Espírito Santo, dando origem a um corredor industrial conhecido como <span class="termo" data-palavra="Vale do Aço" data-definicao="Corredor industrial siderúrgico ao longo do rio Doce, em Minas Gerais, com destaque para cidades como Ipatinga, Coronel Fabriciano e Timóteo.">Vale do Aço</span>. </p>
+<p>No Espírito Santo encontra-se indústrias de celulose, como a Suzano, integrada a vastas áreas de plantio de eucaliptos e a um porto privativo, o Portocel. Essa região é articulada com o mercado global e faz com que o Brasil ocupe uma posição de destaque como grande exportador de minérios e celulose. Santa Rita do Sapucaí é, da mesma forma, um <span class="termo" data-palavra="tecnopolo" data-definicao="Centro industrial que desenvolve tecnologias de ponta graças à união entre indústrias, universidades e centros de pesquisa, em busca da excelência produtiva.">tecnopolo</span> onde se desenvolvem indústrias do ramo da eletrônica e das comunicações. </p>
 <p>Na <strong>Região Sul</strong>, a região metropolitana de Curitiba possui o maior destaque, com indústrias de ponta nas áreas de informática, eletroeletrônica, mecânica de precisão, microeletrônica, biotecnologia, química fina, tecnologia de alimentos, dentre outras, além do centro de montadoras de automóveis em São José dos Pinhais. Já em Santa Catarina, a produção industrial se concentra no vale do Itajaí, principalmente em Joinville, com forte presença de atividades metalúrgicas, tecnologia de alimentos e agropecuária, e no entorno de Brusque e Blumenau de forma expressiva com o setor têxtil e de confecção. Florianópolis destaca-se na produção de itens de informática, mecânica de precisão e eletrônica. </p>
 <p> No Rio Grande do Sul o parque industrial envolve a região metropolitana de Porto Alegre. O eixo industrial está ligado aos municípios de Canoas, Esteio, São Leopoldo e Novo Hamburgo, centro de uma das principais áreas de produção de couros e calçados do pais, conforme o mapa abaixo:</p>
 <div class="w3-margin"><img alt="ts01f04" class="w3-mobile" id="imagem4" src="ts10f04.png"/>
 <span class="w3-small w3-margin-left" id="citacao4"> </span>
 </div>
-<p> No <strong>Nordeste</strong>, antes preponderante agrícola, recebeu diversos investimentos industriais, principalmente a partir da segunda metade do século X, com forte incentivos governamentais.</p>
-<p>Combinado com o processo de urbanização e o desenvolvimento econômico das últimas décadas, as atividades industrias se expandiram na  <span class="w3-yellow" onclick="document.getElementById('mata').style.display='block'">Zona da Mata</span>.</p>
+<p> No <strong>Nordeste</strong>, antes preponderante agrícola, recebeu diversos investimentos industriais, principalmente a partir da segunda metade do século XX, com fortes incentivos governamentais.</p>
+<p>Combinadas com o processo de urbanização e o desenvolvimento econômico das últimas décadas, as atividades industriais se expandiram na <span class="w3-yellow" onclick="document.getElementById('mata').style.display='block'">Zona da Mata</span>.</p>
 <div class="w3-modal w3-margin-top" id="mata">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -356,7 +346,7 @@
 </div>
 </div>
 </div>
-<p> Por fim, na <strong>Região Norte </strong>do país temos uma área criada através de incentivos fiscais: a Zona Franca de Manaus. A Zona Franca foi criada por decreto em 1967, durante a ditadura militar, como uma área de livre-comércio de importações e exportações (sem cobrança de impostos de importação), em que a grande parte das montadoras utiliza componentes estrangeiros em suas linhas de produção. As empresas instaladas nessa área recebem grandes subsídios.</p>
+<p> Por fim, na <strong>Região Norte </strong>do país temos uma área criada através de incentivos fiscais: a <span class="termo" data-palavra="Zona Franca de Manaus" data-definicao="Área de livre-comércio de importação e exportação criada por decreto em 1967, na região Norte, com incentivos fiscais que atraem indústrias e montadoras para a Amazônia.">Zona Franca de Manaus</span>. Ela foi criada por decreto em 1967, durante a ditadura militar, como uma área de livre-comércio de importações e exportações (sem cobrança de impostos de importação), em que grande parte das montadoras utiliza componentes estrangeiros em suas linhas de produção. As empresas instaladas nessa área recebem grandes subsídios.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -417,7 +407,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'devido a Segunda Guerra Mundial houve grande dificuldade de importação de bens industrializados do exterior', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'os avanços tecnológicos e a melhoria dos transportes e das comunicações reduziram a necessidade de aglomeração industrial, permitindo que as indústrias se instalassem em novas áreas do território', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -450,7 +440,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'os investimentos estrangeiros priorizavam a indústria automobilística, estradas de ferro, eletricidade e aço no Brasil', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'a região Sudeste reúne o Quadrilátero Ferrífero (siderurgia e metalurgia), o Espírito Santo (petróleo e portos), São José dos Campos (aeronáutica e alta tecnologia) e importantes centros de pesquisa como a Unicamp e o ITA', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -461,7 +451,7 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             O que são tecnopolos?
             </strong> </p>
@@ -470,7 +460,7 @@
             Alguns centros industriais desenvolvem tecnologias de ponta graças à união entre indústrias, universidades e centros de pesquisa que realizam intercâmbio de informações, em busca da excelência produtiva. Tais centros são conhecidos como tecnopolos.
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             O que é teoria da localização industrial?
 
@@ -485,7 +475,7 @@
 
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Qual o efeito da industrialização sobre o espaço geográfico?
             </strong></p>
@@ -499,6 +489,28 @@
 <hr/>
 </div>
 <div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. Quais são alguns problemas enfrentados pela indústria brasileira atualmente?</h3>
+<h3>2. O que é o desemprego estrutural?</h3>
+<h3>3. O que levou ao início da chamada "guerra fiscal"?</h3>
+<h3>4. Quais são algumas causas da desconcentração industrial no Brasil?</h3>
+<h3>5. Quais são algumas consequências da desconcentração industrial?</h3>
+<h3>6. O que é um tecnopolo?</h3>
+<h3>7. O que é a teoria da localização industrial?</h3>
+<h3>8. O que são "cadeias produtivas" no contexto da globalização?</h3>
+<h3>9. Cite três polos industriais fora do eixo de São Paulo e a atividade econômica de cada um.</h3>
+<h3>10. O que foi a Zona Franca de Manaus e qual era seu objetivo?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -508,7 +520,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Desconcentração Industrial no Brasil é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

@@ -225,7 +225,7 @@ $tipo_info = [
         <?php endforeach; ?>
         <?php if (empty($itens)): ?>
         <tr>
-          <td colspan="7" style="text-align:center;color:var(--texto2);padding:3rem;">
+          <td colspan="5" style="text-align:center;color:var(--texto2);padding:3rem;">
             <?php if ($filtro_status === 'pendente'): ?>
               🎉 Nenhum item pendente de moderação!
             <?php else: ?>

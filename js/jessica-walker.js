@@ -323,6 +323,34 @@
     }, 300);
   }
 
+  // ── Saudação pós-login ─────────────────────────────────────────────────────
+  if (isHome && (wGlobinho || wJessica)) {
+    window.addEventListener('duvid:saudacao', function(e) {
+      var d          = e.detail || {};
+      var priNome    = d.nome  || 'Explorador';
+      var isPrimeiro = !!d.criado;
+      var msgG = isPrimeiro ? 'Bem-vindo, ' + priNome + '! 🌍' : 'Que bom que voltou, ' + priNome + '!';
+      var msgJ = isPrimeiro ? 'Oi! Vamos explorar?' : 'Saudades! Bora estudar?';
+      var greetedG = false, greetedJ = false;
+      var started   = Date.now();
+      // Aguarda os personagens aparecerem na tela (walkDelay pode demorar)
+      var poll = setInterval(function() {
+        if (Date.now() - started > 90000) { clearInterval(poll); return; } // desiste após 1,5min
+        var elG = wGlobinho && wGlobinho.getEl();
+        var elJ = wJessica  && wJessica.getEl();
+        if (!greetedG && elG && elG.style.display !== 'none') {
+          greetedG = true;
+          wGlobinho.showText(msgG, 5000);
+        }
+        if (!greetedJ && elJ && elJ.style.display !== 'none') {
+          greetedJ = true;
+          setTimeout(function() { wJessica.showText(msgJ, 4000); }, 800);
+        }
+        if (greetedG && greetedJ) clearInterval(poll);
+      }, 500);
+    }, { once: true });
+  }
+
   // ── Personagem de Suporte (estilo Duolingo) ────────────────────────────────
   var SUP = {
     sheet:     '/fotoIndex/suporte/suporte-walk.png',
@@ -437,8 +465,15 @@
       '#mural-status{display:none;padding:10px;border-radius:8px;text-align:center;margin-top:10px;font-size:0.9rem;}',
       '#mural-fechar{position:absolute;top:12px;right:16px;background:none;border:none;font-size:1.4rem;cursor:pointer;color:#999;}',
       'body.dark-mode #mural-modal{background:#1a2035;color:#e0e0e0;}',
-      'body.dark-mode .mural-card{border-color:#444;color:#e0e0e0;}',
-      'body.dark-mode .mural-card.ativo{background:#1e3a2f;}'
+      'body.dark-mode #mural-modal h2{color:#81c784;}',
+      'body.dark-mode #mural-modal p.sub{color:rgba(255,255,255,.5);}',
+      'body.dark-mode #mural-fechar{color:#888;}',
+      'body.dark-mode .mural-card{border-color:#333;color:#e0e0e0;background:#212d45;}',
+      'body.dark-mode .mural-card:hover{border-color:#4caf50;background:#1e3a2f;}',
+      'body.dark-mode .mural-card.ativo{border-color:#4caf50;background:#1e3a2f;}',
+      'body.dark-mode .mural-card span.label{color:#ccc;}',
+      'body.dark-mode #mural-form textarea{background:#212d45;border-color:#444;color:#e0e0e0;}',
+      'body.dark-mode #mural-form textarea:focus{border-color:#4caf50;}'
     ].join('');
     var s = document.createElement('style'); s.textContent = css;
     document.head.appendChild(s);

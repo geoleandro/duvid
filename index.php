@@ -186,7 +186,7 @@
                 setTimeout(() => {
                     window.location.href = "home.php";
                 }, 500);
-            }, 2000);
+            }, 1500);
         });
     </script>
 </body>

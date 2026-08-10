@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,8 +45,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 34 - Síntese das Regiões Brasileiras</title>
 
 </head>
 
@@ -132,6 +134,12 @@
                 Porque as diferenças regionais brasileiras não são naturais nem inevitáveis: são resultado de séculos de
                 escolhas políticas e econômicas.</p>
 
+            <p>Vale notar, desde já, que a própria forma como agrupamos essas diferenças em "cinco regiões" é uma
+                convenção estatística, não uma verdade absoluta sobre o território. Ao longo da aula você vai
+                conhecer também outras maneiras de dividir o Brasil, e entender por que a escolha de como dividir um
+                país nunca é neutra: ela determina quais políticas públicas são planejadas, quais dados são
+                comparados e até quais desigualdades ficam visíveis ou escondidas nas médias.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -140,11 +148,32 @@
         <!-- BLOCO 4: As cinco regiões -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <h2>As cinco regiões: síntese</h2>
 
-                <h2>As cinco regiões: síntese</h2>
+            <h3>Como o Brasil foi dividido em cinco regiões</h3>
 
-                <p><strong><span class="termo" data-palavra="Região Norte"
+            <p>A divisão do Brasil em Norte, Nordeste, Centro-Oeste, Sudeste e Sul não existe desde sempre: é uma
+                construção do IBGE. A <span class="termo" data-palavra="Divisão Regional do IBGE"
+                    data-definicao="Regionalização oficial do território brasileiro em cinco macrorregiões (Norte, Nordeste, Centro-Oeste, Sudeste e Sul), elaborada pelo IBGE em 1967, revisada em 1969 e publicada oficialmente em 1970. Reúne estados vizinhos considerando critérios físicos (relevo, clima, vegetação), econômicos e administrativos, com o objetivo principal de organizar o planejamento estatal e a coleta de dados estatísticos. É a divisão usada em censos, vestibulares e no dia a dia, mas não é a única forma de regionalizar o Brasil.">Divisão
+                    Regional do IBGE</span> foi elaborada em 1967, revisada em 1969 e publicada oficialmente em 1970,
+                reunindo estados vizinhos com base em critérios físicos (relevo, clima, vegetação), econômicos e
+                administrativos. O objetivo era, sobretudo, organizar o planejamento estatal e facilitar a coleta de
+                dados: até hoje é a divisão usada em censos, vestibulares e no discurso público.</p>
+
+            <p>Mas essa não é a única forma de dividir o país. Ainda na década de 1960, o geógrafo <span
+                    class="termo" data-palavra="Pedro Pinchas Geiger"
+                    data-definicao="Geógrafo brasileiro que, no final da década de 1960, propôs uma regionalização alternativa à do IBGE, dividindo o Brasil em três 'complexos regionais' ou 'regiões geoeconômicas': Amazônia, Nordeste e Centro-Sul. Em vez de usar limites estaduais e critérios administrativos, a proposta de Geiger considerou as atividades econômicas predominantes e as diferentes formas históricas de ocupação e organização do território, buscando captar como as regiões se conectam e se diferenciam na prática, não apenas no papel.">Pedro
+                    Pinchas Geiger</span> propôs uma divisão alternativa em três "complexos regionais" ou regiões
+                geoeconômicas: Amazônia, Nordeste e Centro-Sul. Em vez de seguir limites estaduais, Geiger agrupou o
+                território pelas atividades econômicas predominantes e pelas formas históricas de ocupação, juntando,
+                por exemplo, Sudeste, Sul e parte do Centro-Oeste num único bloco dinâmico e industrializado
+                ("Centro-Sul"), justamente para destacar como esse bloco concentra riqueza e atrai migrantes das
+                outras duas regiões. As duas divisões continuam usadas até hoje, cada uma servindo a um propósito
+                diferente: a do IBGE organiza estatísticas e políticas públicas por estado; a de Geiger explica
+                melhor as desigualdades econômicas e os fluxos de pessoas, mercadorias e capital entre blocos do
+                território.</p>
+
+            <p><strong><span class="termo" data-palavra="Região Norte"
                             data-definicao="Maior região do Brasil em área (45% do território), com 9 estados. Tem a menor densidade demográfica do país. Concentra a maior parte da Amazônia Legal. Economia baseada em extrativismo, agropecuária, mineração e serviços públicos. Polo industrial de Manaus (Zona Franca). Tem os maiores déficits de infraestrutura (saneamento, rodovias, conectividade). O Censo 2022 mostrou crescimento demográfico acima da média nacional.">Norte</span></strong>:
                     Maior região em área (45% do território), mas com apenas 9% da população. Concentra a floresta
                     amazônica, a maior bacia hidrográfica do planeta e alguns dos menores índices de desenvolvimento
@@ -197,8 +226,6 @@
                         no PIB. Fonte: IBGE, Censo 2022 e Contas Regionais 2022.</span>
                 </div>
 
-            </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -217,27 +244,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>A localização geográfica remota da região, que torna o
-                            investimento em infraestrutura tecnicamente impossível ou economicamente
-                            inviável</span></label>
+                    <label for="p1a" class="card-opcao"><span>Localização geográfica remota</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>A concentração histórica dos investimentos públicos e
-                            privados no Sudeste, aliada a um modelo de exploração dos recursos naturais da Amazônia que
-                            extraiu riqueza sem reinvesti-la em desenvolvimento local</span></label>
+                    <label for="p1b" class="card-opcao"><span>Concentração histórica de investimentos no Sudeste</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>A baixa densidade demográfica da região, que não gera
-                            demanda suficiente para justificar o investimento em serviços públicos e
-                            infraestrutura</span></label>
+                    <label for="p1c" class="card-opcao"><span>Baixa densidade demográfica</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o paradoxo da região Norte é resultado de escolhas históricas e políticas, não de fatalidade geográfica. A borracha amazônica enriqueceu exportadores europeus e americanos e a elite local de Manaus e Belém, mas não gerou desenvolvimento regional integrado.', '10' )">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o paradoxo do Norte vem de escolhas históricas: a borracha amazônica enriqueceu exportadores e elites locais, mas não gerou desenvolvimento regional integrado.', '10' )">
                     Confirmar Resposta
                 </button>
             </div>
@@ -280,6 +301,16 @@
                     Contas Regionais.</span>
             </div>
 
+            <p>Os números de 2022 trazem um detalhe que costuma surpreender: o maior PIB per capita do país não é do
+                Sudeste, mas do Centro-Oeste, com R$ 71.201 por habitante, contra R$ 68.358 do Sudeste, R$ 61.275 do
+                Sul, R$ 36.679 do Norte e apenas R$ 27.682 do Nordeste. Isso acontece porque o Centro-Oeste tem
+                população pequena para o tamanho de sua economia, puxada pelo agronegócio de alta produtividade e
+                pelo funcionalismo público federal concentrado em Brasília. Mesmo assim, o Sudeste continua sendo o
+                centro econômico do país porque concentra 42% da população brasileira: seu PIB total é muito maior do
+                que o do Centro-Oeste, ainda que o PIB por pessoa seja menor. É uma lição importante de Geografia
+                Econômica: PIB total (quem concentra mais riqueza no conjunto) e PIB per capita (quem tem mais
+                riqueza por habitante) contam histórias diferentes, e nem sempre apontam para a mesma região.</p>
+
             <h3>Novas geografias econômicas</h3>
 
             <p>O Brasil do século XXI tem novas dinâmicas regionais que fogem ao padrão histórico Sudeste-centrista. O
@@ -288,6 +319,19 @@
                 investimento no Nordeste. O turismo fez do Litoral Nordestino um polo de crescimento. E o crescimento
                 das cidades médias redistribui parcialmente o dinamismo econômico para fora das metrópoles do Sudeste.
             </p>
+
+            <p>O exemplo mais claro dessa nova geografia é o <span class="termo" data-palavra="MATOPIBA"
+                    data-definicao="Fronteira agrícola formada pelas áreas de Cerrado do Maranhão, Tocantins, Piauí e Bahia, delimitada por decreto presidencial em 2015 e que abrange cerca de 73 milhões de hectares. É a maior área de expansão do agronegócio brasileiro nas últimas décadas, dedicada principalmente à produção de soja, milho e algodão em larga escala e alta mecanização. Concentra também a maior parte do desmatamento recente do Cerrado: em 2024, respondeu por mais de 70% da supressão de vegetação nativa do bioma. O nome é um acrônimo formado pelas iniciais dos quatro estados.">MATOPIBA</span>,
+                acrônimo para Maranhão, Tocantins, Piauí e Bahia. Delimitada por decreto em 2015, essa fronteira
+                agrícola de cerca de 73 milhões de hectares atravessa os limites entre Nordeste, Norte e o restante
+                do Cerrado, mostrando como a divisão em cinco regiões nem sempre acompanha a dinâmica econômica real:
+                o MATOPIBA tem mais em comum, em termos de uso da terra e tecnologia agrícola, com o Centro-Oeste do
+                que com o litoral nordestino tradicional. A expansão da soja, do milho e do algodão em larga escala
+                transformou municípios antes isolados em polos do agronegócio, mas também fez do MATOPIBA a região
+                que mais desmata Cerrado no Brasil: em 2024, concentrou mais de 70% de toda a supressão de vegetação
+                nativa do bioma, segundo o MapBiomas. É também a área que mais emite dióxido de carbono dentro do
+                Cerrado, já que a conversão de vegetação nativa em lavoura mecanizada libera de uma só vez o carbono
+                acumulado por décadas no solo e na biomassa.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -304,22 +348,16 @@
 
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
-                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>Industrialização acelerada e atração de empresas
-                            multinacionais para a região, motivadas pelos baixos salários e isenções fiscais oferecidos
-                            pelos governos estaduais</span></label>
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Industrialização com multinacionais</span></label>
                 </div>
                 <div class="item-resposta">
-                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>Combinação de expansão das transferências de renda (Bolsa
-                            Família), ampliação do funcionalismo público (concursos federais), expansão das
-                            universidades federais, boom do crédito e crescimento do turismo</span></label>
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>Transferência de renda e expansão do Estado</span></label>
                 </div>
                 <div class="item-resposta">
-                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>Descoberta de grandes reservas de petróleo e minérios no
-                            Nordeste que atraíram investimentos privados e transformaram a estrutura econômica
-                            regional</span></label>
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>Descoberta de petróleo e minérios</span></label>
                 </div>
             </div>
 
@@ -340,15 +378,17 @@
         <!-- BLOCO 8: Identidades regionais e tensões -->
         <div class="topico">
 
-            <div class="w3-pale-green">
-
-                <h2>Identidade regional e tensões políticas</h2>
+            <h2>Identidade regional e tensões políticas</h2>
 
                 <p>As regiões brasileiras não são apenas divisões administrativas ou econômicas: são também identidades
                     culturais. O Nordeste tem sua culinária, sua música (forró, axé, baião), sua literatura (Graciliano
                     Ramos, João Cabral, Patativa do Assaré), sua religiosidade. O Sul tem sua gauchada, sua arquitetura
                     de influência alemã e italiana, seus festivais. O Sudeste tem a diversidade metropolitana de São
-                    Paulo e a cultura carioca do Rio.</p>
+                    Paulo e a cultura carioca do Rio. O Norte tem a culinária amazônica (tacacá, açaí, tucupi), o
+                    boi-bumbá de Parintins e a forte presença das culturas indígenas na vida cotidiana das cidades. O
+                    Centro-Oeste combina a cultura sertaneja e a herança das populações indígenas e quilombolas do
+                    Cerrado com a arquitetura modernista de Brasília, um contraste entre o rural tradicional e o
+                    planejamento urbano mais moderno do país.</p>
 
                 <p>Essas identidades são fonte de riqueza cultural, mas também de <span class="termo"
                         data-palavra="Preconceito Regional"
@@ -375,8 +415,6 @@
                         redistributivo do Estado brasileiro. Fonte: STN, 2022.</span>
                 </div>
 
-            </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -388,7 +426,7 @@
             <div class="duvid-bloco-apoio">
                 <div class="duvid-texto-citacao">
                     "A divisão regional do Brasil não é natural: é histórica. O Nordeste não é pobre porque é seco e
-                    quente; é pobre porque foi organizado para enriquecer outros — primeiro a metrópole colonial, depois
+                    quente; é pobre porque foi organizado para enriquecer outros: primeiro a metrópole colonial, depois
                     o Sudeste industrial. O Norte não é subdesenvolvido por ser floresta; é subdesenvolvido porque a
                     floresta foi tratada como obstáculo ou como reserva de exploração, nunca como base de um projeto de
                     desenvolvimento local. As regiões brasileiras são espelhos das escolhas que o país fez ao longo de
@@ -429,14 +467,25 @@
 
                 <p>A sua região não é o que é por acidente. É o que é porque pessoas e governos fizeram escolhas ao
                     longo de séculos. E o mais importante: as desigualdades regionais podem ser reduzidas por políticas
-                    públicas — como mostraram os anos 2003-2014 no Nordeste. O território brasileiro não é destino: é
+                    públicas, como mostraram os anos 2003-2014 no Nordeste. O território brasileiro não é destino: é
                     construção histórica que pode ser reconstruída.</p>
 
-                <p><strong>Resumo dos conceitos:</strong> cinco regiões (Norte, Nordeste, Centro-Oeste, Sudeste, Sul com
-                    suas características); desigualdades regionais (causas históricas: ciclos econômicos,
-                    industrialização concentrada); convergência regional (Nordeste crescendo mais rápido 2003-2014);
-                    federalismo fiscal (FPE e FPM como redistribuição); preconceito regional (discriminação que encobre
-                    desigualdade de classe).</p>
+                <p>Você também aprendeu que a própria ideia de "cinco regiões" é uma escolha, não um fato da
+                    natureza. A divisão do IBGE é útil para organizar estatísticas e políticas públicas por estado,
+                    mas simplifica uma realidade mais complexa: a divisão de Geiger em Amazônia, Nordeste e
+                    Centro-Sul explica melhor os fluxos econômicos que atravessam fronteiras estaduais, o MATOPIBA
+                    mostra que uma mesma fronteira agrícola pode se espalhar por Norte, Nordeste e Centro-Oeste ao
+                    mesmo tempo, e as desigualdades intrarregionais lembram que nenhuma região é internamente
+                    uniforme: há pobreza dentro do rico Sudeste e riqueza dentro do pobre Nordeste. Entender o Brasil
+                    exige, ao mesmo tempo, conhecer a divisão oficial e desconfiar dela.</p>
+
+                <p><strong>Resumo dos conceitos:</strong> divisão regional do IBGE (1970) e a alternativa de Pedro
+                    Geiger (Amazônia, Nordeste, Centro-Sul); cinco regiões (Norte, Nordeste, Centro-Oeste, Sudeste, Sul
+                    com suas características); MATOPIBA (nova fronteira agrícola entre regiões); desigualdades
+                    regionais (causas históricas: ciclos econômicos, industrialização concentrada) e intrarregionais
+                    (Vale do Jequitinhonha, litoral nordestino rico); convergência regional (Nordeste crescendo mais
+                    rápido 2003-2014); federalismo fiscal (FPE e FPM como redistribuição); preconceito regional
+                    (discriminação que encobre desigualdade de classe).</p>
 
             </div>
 
@@ -489,6 +538,23 @@
                 Isso não vai acontecer automaticamente: exige política industrial, investimento público e uma agenda de
                 desenvolvimento que não se confunda com paternalismo.</p>
 
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Se o Sudeste é a região mais rica, por que existem tantos bolsões de pobreza dentro dele?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque as desigualdades regionais não se resolvem apenas
+                somando riqueza numa região inteira: existem também <span class="termo"
+                    data-palavra="Desigualdade Intrarregional"
+                    data-definicao="Diferenças de desenvolvimento econômico e social que existem dentro de uma mesma região ou estado, e não apenas entre regiões diferentes. Mostra que a divisão em cinco regiões é uma simplificação: mesmo dentro do rico Sudeste existem áreas historicamente pobres (como o Vale do Jequitinhonha, em Minas Gerais, e o norte do Espírito Santo), e mesmo dentro do pobre Nordeste existem polos ricos e dinâmicos (como Fortaleza, Salvador e o litoral turístico).">desigualdades
+                    intrarregionais</span>. O Vale do Jequitinhonha, no interior de Minas Gerais, é um dos bolsões de
+                pobreza mais conhecidos do país, com indicadores sociais comparáveis aos piores do Nordeste, mesmo
+                estando dentro do estado mais rico do Sudeste depois de São Paulo. O interior do Espírito Santo e
+                partes do norte de Minas repetem esse padrão. O oposto também é verdadeiro: dentro do Nordeste, que
+                tem os piores indicadores médios do país, existem polos ricos e dinâmicos, como Fortaleza, Salvador e
+                o litoral turístico. Isso mostra que a divisão em cinco regiões, embora útil, esconde diferenças
+                importantes dentro de cada uma delas: uma média regional pode ocultar tanto a riqueza concentrada nas
+                capitais quanto a pobreza persistente no interior.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -533,7 +599,9 @@
             <div class="w3-pale-yellow">
                 <h2>Questões para responder no caderno:</h2>
 
-                <h3>1. Quais são as cinco regiões do Brasil? Cite a principal característica econômica de cada uma.</h3>
+                <h3>1. Quais são as cinco regiões do Brasil segundo o IBGE? Cite a principal característica econômica
+                    de cada uma. Por que a divisão de Pedro Geiger em Amazônia, Nordeste e Centro-Sul é considerada
+                    uma alternativa útil à divisão oficial?</h3>
 
                 <h3>2. Por que a Região Norte tem o paradoxo de ser a maior em área e em riqueza natural, mas apresentar
                     alguns dos piores indicadores sociais do país?</h3>
@@ -541,8 +609,9 @@
                 <h3>3. Quais fatores históricos explicam a pobreza do Nordeste? Por que a "seca" não é a explicação
                     suficiente para as desigualdades da região?</h3>
 
-                <h3>4. O que é o "arco da soja" do Centro-Oeste? Quais consequências ambientais o crescimento do
-                    agronegócio nessa região tem gerado?</h3>
+                <h3>4. O que é o MATOPIBA e por que ele mostra que a divisão em cinco regiões nem sempre acompanha a
+                    dinâmica econômica real? Quais consequências ambientais o avanço do agronegócio nessa fronteira
+                    tem gerado para o Cerrado?</h3>
 
                 <h3>5. Por que o Sudeste concentra mais da metade do PIB brasileiro? Quais processos históricos explicam
                     essa concentração?</h3>
@@ -581,7 +650,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Síntese das Regiões Brasileiras é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
@@ -602,4 +671,32 @@
 
 
         <!-- SECAO FINAL -->
-        <d
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+
+            <br><br>
+            <div class="w3-padding-48">
+                <span id="numero"></span>
+                <span id="txtBarra">0%</span>
+                <progress value="0" max="100" id="progress"></progress>
+            </div>
+        </div>
+
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

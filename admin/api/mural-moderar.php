@@ -42,12 +42,10 @@ if (!$item) {
     exit;
 }
 
-// Atualiza status e registra moderador + timestamp
-$pdo->prepare("
-    UPDATE mural
-    SET status = :acao, moderado_em = NOW()
-    WHERE id = :id
-")->execute([':acao' => $acao, ':id' => $id]);
+// Atualiza status e registra timestamp
+// (coluna moderado_em adicionada via database/migrations — ver install_completo.sql)
+$pdo->prepare("UPDATE mural SET status = :acao, moderado_em = NOW() WHERE id = :id")
+    ->execute([':acao' => $acao, ':id' => $id]);
 
 $label = $acao === 'aprovado' ? 'aprovado ✅' : 'recusado 🚫';
 echo json_encode([

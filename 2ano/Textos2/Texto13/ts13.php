@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="As fontes de energia não renováveis do Brasil — petróleo, carvão mineral e gás natural — sua produção, história e os impactos ambientais da matriz energética brasileira" name="description"/>
+<meta content="Texto 13 - Fontes de Energia no Brasil" property="og:title"/>
+<meta content="Do pré-sal às usinas termelétricas: como o Brasil produz e consome petróleo, carvão mineral e gás natural" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 13</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 13 - Fontes de Energia no Brasil</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -66,7 +70,7 @@
 <div class="topico">
 <h2> Introdução </h2>
 <p> <span class="primeiraLetra">N</span>a aula passada, vimos os principais meios de transporte do Brasil, como o
-            rodoviário, ferroviário, hidroviário e aéreo.</p>
+            rodoviário, o ferroviário, o hidroviário, o aéreo e o dutoviário.</p>
 <p>Hoje, vamos estudar o que permite o funcionamento de toda essa engrenagem que é forma o país: as fontes de
             energia, como o petróleo, carvão mineral e gás natural.</p>
 <p>
@@ -79,50 +83,33 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<h3>1. O que é a matriz energética?</h3>
-<h3>2. Quais são as principais fontes de energia no Brasil?</h3>
-<h3>3. Qual é a diferença entre energias renováveis e não-renováveis?</h3>
-<h3>4. O que são royalties no setor petrolífero?</h3>
-<h3>5. Qual é a principal área produtora de petróleo no Brasil?</h3>
-<h3>6. Como o carvão mineral é formado?</h3>
-<h3>7. Quais são os impactos ambientais negativos da exploração do carvão mineral?</h3>
-<h3>8. O que é a camada pré-sal?</h3>
-<h3>9. Qual é a importância do gás natural para o Brasil?</h3>
-<h3>10. Quais são os principais produtos derivados do petróleo?</h3>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2>A Energia move o Mundo </h2>
 <p>O que é Energia? </p>
 <p> É um produto da natureza que é a base para todo o funcionamento do mundo e por que não dizer do universo. A
-            energia pode ser química, mecânica, térmica, elétrica, hidráulica ou de radiação</p>
+            energia pode ser química, mecânica, térmica, elétrica, hidráulica ou de radiação.</p>
 <p>Temos que considerar dois tipos de fontes de energia. A primeira é aquele tipo de energia que se renova e faz
-            parte de um ciclo da natureza e não tem limite de utilização. Trata-se da Energia renováveis, como água,
+            parte de um ciclo da natureza e não tem limite de utilização. Trata-se das <span class="termo" data-palavra="Energias renováveis" data-definicao="Fontes de energia que se regeneram naturalmente em escala humana de tempo, como água, vento, biomassa e sol, e por isso não se esgotam com o uso.">Energias renováveis</span>, como água,
             ventos, biomassa e energia solar.</p>
 <p> Há também aquele tipo de energia que possui um limite para ser utilizada, pois a velocidade de reposição
             natural é muito baixa. Essas são as Energias não-renováveis, como carvão, petróleo e gás natural.</p>
 <p>Na aula de hoje, vamos estudar as Energias não-renováveis e nas aulas seguintes veremos outras fontes da
-            <strong>Matriz energética brasileira</strong>. O Brasil é um país que possui acesso a diversas fontes de
+            <span class="termo" data-palavra="Matriz energética" data-definicao="Conjunto de todas as fontes de energia (renováveis e não renováveis) disponíveis e utilizadas por um país ou região em seus diferentes setores: indústria, transportes, agricultura, residências etc.">Matriz energética brasileira</span>. O Brasil é um país que possui acesso a diversas fontes de
             energia, mas é importante saber como elas funcionam para garantir que sejam usadas de maneira correta e
             eficiente.
         </p>
-<p>Já a Matriz energética é o conjunto de fontes de energia utilizadas por uma sociedade em todos os seus
+<p>Já a matriz energética é o conjunto de fontes de energia utilizadas por uma sociedade em todos os seus
             setores: indústrias, agricultura, residências, transportes etc. No Brasil, temos acesso a várias fontes de
             energia, então vamos ver como elas se dividem nessa matriz.</p>
 <h3 class="w3-center">Matriz Energética Brasileira 2021</h3>
 <div class="w3-margin"><img alt="ts13f01" class="w3-mobile" id="imagem1" src="ts13f01.png"/>
 <span class="w3-small w3-margin-left" id="citacao1"> Fonte: BEN (2023).</span>
 </div>
-<div class="w3-card-4 w3-pale-yellow w3-padding-small">
+<div class="w3-panel w3-pale-yellow w3-padding-small">
 <h4>As principais fontes de energia do Brasil são: </h4>
 <ul>
 <li>
                     Petróleo – fornece gasolina, óleo diesel, querosene, e gera eletricidade em algumas usinas
-                    termelétricas;
+                    <span class="termo" data-palavra="Usina termelétrica" data-definicao="Instalação que gera eletricidade a partir da queima de combustíveis como petróleo, carvão ou gás natural, cujo calor produz vapor que movimenta turbinas ligadas a geradores elétricos.">termelétricas</span>;
                 </li>
 <li>
                     Energia hidráulica – produz eletricidade por meio das usinas hidrelétricas;
@@ -141,8 +128,8 @@
                 </li>
 </ul>
 </div>
-<p>As principais fontes de energia disponíveis no Brasil, de acordo com o gráfico, estão ligados ao Petróleo em
-            primeiro lugar, aos derivados de cana-de-açúcar e do Gás natural.</p>
+<p>As principais fontes de energia disponíveis no Brasil, de acordo com o gráfico, são o petróleo em
+            primeiro lugar, seguido pelos derivados de cana-de-açúcar e pelo gás natural.</p>
 <p>Mas o Brasil não possui dezenas de hidrelétricas? Sim, ele possui e essas hidrelétricas formam a Matriz
             elétrica do país. Ela é tão importante que vai ter uma aula só para essa questão.</p>
 <p>Então, como ficou a repartição das fontes de energia no Brasil tendo em vista o critério de energias limpas
@@ -173,9 +160,9 @@
 </div>
 <h3>O buraco é mais embaixo</h3>
 <p>Traduzindo esse ditado popular, a situação das fontes de energia possuem nuances e detalhes que as tornam
-            mais complexas do que parecem à primeira vista. Isso porque ambas as fontes tem seus problemas. </p>
+            mais complexas do que parecem à primeira vista. Isso porque ambas as fontes têm seus problemas. </p>
 <p>A poluição causada pelas fontes de energia não renováveis é alarmante. Os combustíveis fósseis, como
-            petróleo, carvão e xisto betuminoso, são os principais responsáveis pela degradação do meio ambiente,
+            petróleo, carvão e <span class="termo" data-palavra="Xisto betuminoso" data-definicao="Rocha sedimentar rica em matéria orgânica (querogênio) que, submetida a aquecimento, libera óleo e gás semelhantes aos do petróleo convencional. É uma fonte de energia não renovável e de extração mais poluente.">xisto betuminoso</span>, são os principais responsáveis pela degradação do meio ambiente,
             causando danos irreparáveis nos oceanos, atmosfera, solos e rios. O risco de catástrofes devido a acidentes
             em usinas nucleares é uma ameaça constante e a poluição causada por essas fontes de energia é cada vez mais
             alvo de discussões internacionais. </p>
@@ -191,31 +178,37 @@
 </div>
 <div class="topico">
 <h2>Petróleo </h2>
-<p> O petróleo é uma mistura complexa de hidrocarbonetos, que é encontrada principalmente nas camadas
+<p> O petróleo é uma mistura complexa de <span class="termo" data-palavra="Hidrocarbonetos" data-definicao="Compostos orgânicos formados apenas por átomos de carbono e hidrogênio. São a base química do petróleo, do gás natural e do carvão mineral.">hidrocarbonetos</span>, que é encontrada principalmente nas camadas
             subterrâneas da Terra. Ele é composto principalmente por hidrocarbonetos lineares e ramificados, como o
             metano, etano, propano e butano. Esses hidrocarbonetos são derivados da decomposição de matéria orgânica que
-            ocorreu há milhões de anos atrás.</p>
+            ocorreu há milhões de anos.</p>
 <p> A extração do petróleo é um processo complexo e caro, que envolve a perfuração de poços para chegar às
             camadas subterrâneas onde o petróleo está presente. Uma vez extraído, o petróleo é transportado para
-            refinarias onde é submetido a um processo de destilação fracionada, que permite separar os diferentes
+            refinarias onde é submetido a um processo de <span class="termo" data-palavra="Destilação fracionada" data-definicao="Processo industrial que separa o petróleo em diferentes derivados (gasolina, diesel, querosene, asfalto etc.) aproveitando os diferentes pontos de ebulição de cada componente da mistura.">destilação fracionada</span>, que permite separar os diferentes
             componentes do petróleo, produzindo diferentes tipos de combustíveis e outros produtos químicos.</p>
 <p>Os principais produtos derivados do petróleo incluem gasolina e diesel para veículos, querosene para aviões,
             óleos lubrificantes, óleo combustível, asfalto e outros produtos químicos. Esses produtos são amplamente
             utilizados em nossa sociedade e têm uma grande importância econômica. Por exemplo, a gasolina é usada para
             abastecer os automóveis e veículos de transporte, o querosene é usado para abastecer aviões, e os óleos
             lubrificantes são usados para manter as máquinas e equipamentos em boas condições de funcionamento. </p>
-<p>No Brasil, a Petrobrás foi fundada em 1953, durante o governo da Era Vargas, com o objetivo de controlar e
-            monopolizar a exploração de petróleo no país. A empresa tem o controle e monopólio estatal sobre as bacias
-            sedimentares terrestres e marítimas, incluindo as plataformas continentais. Isso significa que a Petrobrás
-            tem o direito exclusivo de explorar e produzir petróleo nessas áreas, o que tem um grande impacto na
-            economia brasileira. </p>
-<p>O petróleo é responsável por mais de 40% do consumo nacional de energia. E adivinhem só, ele já é quase todo
-            produzido aqui dentro! A produção média diária é de 3 milhões de barris, volume mais do que suficiente para
-            atender ao consumo do país, que é de 2,5 milhões de barris. </p>
-<p> Mas vocês sabiam que há alguns anos atrás, a gente importava quase 60% do petróleo que consumia? Era
-            principalmente do Oriente Médio e por isso, nossas refinarias foram construídas para esse tipo de
-            combustível. Mas o Brasil ainda não tem muitas refinarias e por isso, ainda temos que importar petróleo para
-            fazer gasolina e diesel. Olha a contradição, produzimos bastante petróleo, mas na hora de utilizá-lo ainda
+<p>No Brasil, a Petrobras foi fundada em 1953, durante o governo de Getúlio Vargas, com o objetivo de explorar o
+            petróleo brasileiro sob monopólio estatal. Esse monopólio durou até 1997, quando a chamada Lei do Petróleo
+            (Lei 9.478) abriu o setor à participação de outras empresas e criou a Agência Nacional do Petróleo (ANP)
+            para regular as concessões de exploração e produção nas <span class="termo" data-palavra="Bacias sedimentares" data-definicao="Depressões da crosta terrestre onde se acumulam, ao longo de milhões de anos, camadas de sedimentos que podem se transformar em rochas geradoras e reservatórios de petróleo e gás natural.">bacias sedimentares</span> terrestres e
+            marítimas do país. Hoje, a União continua sendo dona das reservas, mas a exploração é feita por diversas
+            empresas — entre elas a própria Petrobras, que segue como a maior operadora do país — mediante contratos de
+            concessão ou partilha de produção. </p>
+<p>O petróleo e seus derivados respondem por cerca de 35% da oferta de energia no Brasil (BEN, 2024). E adivinhem
+            só, ele já é quase todo produzido aqui dentro! A produção diária gira em torno de 3,4 milhões de barris,
+            volume que supera o consumo interno do país, de aproximadamente 2,5 a 3,3 milhões de barris por dia,
+            dependendo do ano (ANP). </p>
+<p> Mas vocês sabiam que o Brasil só se tornou autossuficiente em petróleo bruto em 2006, depois de 68 anos de
+            produção desde o primeiro poço, perfurado na Bahia em 1938? Antes disso, o país importava boa parte do
+            petróleo que consumia, principalmente do Oriente Médio, e por isso muitas refinarias brasileiras foram
+            projetadas para processar petróleo mais pesado, diferente do que produzimos aqui. Mesmo autossuficiente em
+            petróleo bruto, o Brasil ainda importa parte dos derivados — como cerca de 30% do diesel consumido — porque
+            é mais vantajoso misturar (fazer o chamado blend) o petróleo nacional com variedades importadas para
+            facilitar o refino. Olha a contradição, produzimos bastante petróleo, mas na hora de utilizá-lo ainda
             dependemos da tecnologia de fora.</p>
 <p> E a produção nacional de petróleo concentra-se principalmente no Rio de Janeiro, Espírito Santo, Rio Grande
             do Norte, Bahia, Sergipe, São Paulo e Amazonas. E olha só, ela já é suficiente para atender a todo o consumo
@@ -232,23 +225,25 @@
 <div class="w3-margin"><img alt="ts13f04" class="w3-mobile" id="imagem4" src="ts13f04.png"/>
 <span class="w3-small w3-margin-left" id="citacao4"> Fonte: anp.gov.br </span>
 </div>
-<p> Mas o grande potencial do Brasil está nas áreas do pré-sal. Elas ficam além da plataforma continental, no
-            mar profundo, e são formadas por rochas sedimentares antigas, formadas há 150 milhões de anos. As reservas
-            de petróleo e gás natural nessas áreas são enormes, algo avaliado entre 50 a 100 bilhões de barris e de alta
-            qualidade, e colocam o Brasil entre os dez países do mundo com maiores reservas.</p>
+<p> Mas o grande potencial do Brasil está nas áreas do <span class="termo" data-palavra="Pré-sal" data-definicao="Camada de rochas sedimentares situada abaixo de uma espessa camada de sal, no fundo do oceano, onde foram encontradas as maiores reservas de petróleo e gás natural do Brasil nas últimas décadas.">pré-sal</span>. Elas ficam além da plataforma continental, no
+            mar profundo, e são formadas por rochas sedimentares antigas, formadas há 150 milhões de anos. As
+            estimativas para o potencial total de petróleo e gás natural do pré-sal variam bastante, entre 50 e 100
+            bilhões de barris segundo diferentes estudos. Já as reservas comprovadas de petróleo do Brasil ultrapassam
+            17 bilhões de barris, das quais mais de 80% estão concentradas justamente no pré-sal (ANP, 2025), o que
+            coloca o país entre os dez com maiores reservas do mundo.</p>
 <div class="w3-margin"><img alt="ts13f05" class="w3-mobile" id="imagem5" src="ts13f05.png"/>
 <span class="w3-small w3-margin-left" id="citacao5"> Fonte: www.naval.com.br</span>
 </div>
 <p>Imagine uma camada de sal com espessura de até 2 mil metros, escondendo reservas incríveis de petróleo e gás
-            natural. Isso é o pré-sal, uma descoberta recente que coloca o Brasil em uma posição privilegiada no futuro
-            como exportador de energia. </p>
-<p>Para compensar os eventuais danos ao meio ambiente o governo implementa o chamado sistema de
-            <em>Royalties</em>. Mas o que são <em>royalties</em>?
+            natural. Isso é o pré-sal, uma descoberta que, desde os primeiros poços exploratórios no fim dos anos 2000,
+            colocou o Brasil em uma posição privilegiada como produtor e exportador de energia. </p>
+<p>Para garantir que a União, os estados e os municípios recebam parte da riqueza gerada por esse recurso não
+            renovável, o governo cobra das empresas o chamado sistema de <em>royalties</em>. Mas o que são <em>royalties</em>?
         </p>
-<p>Os royalties no setor petrolífero são pagamentos feitos pelas empresas de exploração ao Governo Federal como
-            compensação financeira por possíveis danos ambientais causados durante o processo de extração. A quantidade
-            de royalties é baseada na produção e rentabilidade de cada local de extração, e o dinheiro arrecadado pode
-            ser destinado a áreas como Educação, Saúde e Políticas Sociais. </p>
+<p>Os <span class="termo" data-palavra="Royalties" data-definicao="Compensação financeira paga pelas empresas concessionárias à União, estados e municípios pelo direito de explorar um recurso natural não renovável, como o petróleo e o gás natural. O valor varia conforme a produção e o preço do barril.">royalties</span> no setor petrolífero são pagamentos feitos pelas empresas concessionárias à União,
+            aos estados e aos municípios produtores como compensação pela exploração de um recurso público e não
+            renovável, calculados com base no volume produzido e no preço do petróleo. Parte importante desse dinheiro
+            é destinada a áreas como Educação, Saúde e infraestrutura dos municípios produtores. </p>
 <p>Quais são as outras fontes de energia não renováveis mais significativas no Brasil? É o que vamos ver agora
             com o carvão mineral e o gás natural.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -291,7 +286,7 @@
 <h2> Carvão Mineral</h2>
 <p> Vamos regressar no tempo de volta ao primeiro ano e revisitar um dos nossos primeiros assuntos: o Carvão
             Mineral. O carvão é uma velha conhecida da humanidade, sendo utilizada há séculos como fonte de energia. Mas
-            você sabe como ele é formado? Bem, é uma história longa que começa há milhões de anos atrás, quando a Terra
+            você sabe como ele é formado? Bem, é uma história longa que começa há milhões de anos, quando a Terra
             era um verdadeiro paraíso para as plantas. Elas cresciam e morriam sem parar, e com o passar do tempo, toda
             essa matéria orgânica acabou se acumulando e se compactando. Com altas pressões e temperaturas, a matéria
             orgânica foi transformada em hidrocarbonetos e, voilà, nasceu o carvão.</p>
@@ -305,14 +300,16 @@
             uso do carvão também gera emissões de gases poluentes, o que pode prejudicar o meio ambiente. Por isso, é
             importante buscarmos fontes de energia mais limpas e renováveis. Mas, por enquanto, o carvão ainda é uma
             fonte importante e presente no nosso cotidiano. Então, na próxima vez que você ligar a luz, pense no carvão
-            mineral e agrade por ele ter sido formado há milhões de anos atrás.</p>
+            mineral e agradeça por ele ter sido formado há milhões de anos.</p>
 <p>Vamos conhecer mais sobre a história do carvão mineral no Brasil! As reservas mais abundantes desse recurso
-            não renovável encontram-se no sul do país, remontando à época Paleozoica, há milhões de anos atrás. Em
-            comparação com o resto do mundo, o Brasil detém apenas 1,2% das reservas mundiais, mas ainda assim, 90%
-            dessas reservas estão localizadas no estado do Rio Grande do Sul. </p>
-<p>Porém, mesmo com esse grande potencial, o consumo nacional de carvão ainda é muito baixo, representando
-            apenas 0,5% do consumo global. Isso se deve a algumas restrições, como os altos teores de cinza e enxofre
-            presentes na maioria do carvão brasileiro. </p>
+            não renovável encontram-se no sul do país, remontando à era Paleozoica, há milhões de anos. Em
+            comparação com o resto do mundo, o Brasil detém apenas cerca de 1% das reservas mundiais, ocupando a 10ª
+            posição no ranking global, mas ainda assim quase 90% dessas reservas estão localizadas no estado do Rio
+            Grande do Sul — sobretudo na jazida de Candiota, que sozinha concentra cerca de 38% de todo o carvão
+            nacional. </p>
+<p>Porém, mesmo com esse grande potencial, o consumo nacional de carvão ainda é muito baixo perto do consumo
+            mundial. Isso se deve a algumas restrições, como os altos teores de cinza e enxofre presentes na maioria do
+            carvão brasileiro. </p>
 <p>Mas não se preocupe, ainda existe esperança! Os estados do Rio Grande do Sul e Santa Catarina são os
             principais responsáveis pela produção de carvão mineral no país, e é em Santa Catarina que encontramos as
             jazidas de melhor qualidade, incluindo o único carvão <span class="w3-yellow" onclick="document.getElementById('coqueificavel').style.display='block'">coqueificável</span> do Brasil. </p>
@@ -333,7 +330,8 @@
 <p>Vamos conhecer um pouco mais sobre a região Vale do Tubarão, onde se encontram as cidades de Criciúma, Lauro
             Müller, Siderópolis e Uruçanga. Esse é o local onde se extrai a maior parte do carvão brasileiro, que é
             transportado por ferrovia até o porto de Imbituba e, em seguida, enviado para as indústrias siderúrgicas do
-            sudeste do país. Já no Rio Grande do Sul, o vale do rio Jacuí é a principal área produtora de carvão. </p>
+            sudeste do país. Já no Rio Grande do Sul, a jazida de Candiota e a região do Baixo Jacuí concentram as
+            principais áreas produtoras de carvão do estado. </p>
 <div class="w3-margin"><img alt="ts13f06" class="w3-mobile" id="imagem6" src="ts13f06.png"/>
 <span class="w3-small w3-margin-left" id="citacao6"> </span>
 </div>
@@ -347,9 +345,10 @@
                 diretamente a vida da população, prejudicando recursos hídricos, fauna e flora locais. Além disso, o
                 barulho, a poeira e a erosão provocados pela extração são fontes de incômodo para a população. O
                 transporte também é fonte de poluição sonora e afeta o trânsito. No entanto, o maior e mais alarmante
-                impacto é a quantidade de gases como nitrogênio e dióxido de carbono, principalmente o CO2, emitidos
-                durante a combustão do carvão. Segundo estatísticas, o carvão é responsável por entre 30% e 35% das
-                emissões totais de CO2 na atmosfera, sendo o CO2 o principal agente do efeito estufa. Portanto, é
+                impacto é a quantidade de gases como óxidos de nitrogênio e dióxido de carbono, principalmente o CO2,
+                emitidos durante a combustão do carvão. Segundo a Agência Internacional de Energia (IEA), o carvão é a
+                fonte fóssil mais poluente por unidade de energia gerada e é responsável por mais de 40% das emissões
+                globais de CO2 ligadas à energia, sendo o CO2 o principal agente do efeito estufa. Portanto, é
                 fundamental que busquemos alternativas mais sustentáveis de produção de energia.</p>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -379,7 +378,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'oceânica gás natural é encontrado em bacias sedimentares, como a Bacia de Campos, e em fontes subterrâneas, como aquíferos', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o gás natural é encontrado principalmente em bacias sedimentares, como a Bacia de Santos e a Bacia de Campos, armazenado em rochas porosas de fontes subterrâneas', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -403,14 +402,16 @@
 <div class="w3-margin"><img alt="ts13f07" class="w3-mobile" id="imagem7" src="ts13f07.png"/>
 <span class="w3-small w3-margin-left" id="citacao7"> </span>
 </div>
-<p>No entanto, o gasoduto também tem sido fonte de conflitos políticos e econômicos entre os dois países. Em
-                2007, a Bolívia, liderada pelo então presidente Evo Morales, anunciou o aumento significativo do preço
-                do gás vendido ao Brasil, o que gerou tensões entre os dois países. Em 2009, o governo boliviano revogou
-                a concessão para a empresa brasileira responsável pela exploração e transporte de gás, o que resultou em
-                uma briga judicial entre os dois países.</p>
-<p>Além disso, há também questões ambientais envolvidas no gasoduto, incluindo a degradação da floresta
-                amazônica e a interrupção da vida de comunidades indígenas que dependem da região para sua
-                sobrevivência.</p>
+<p>No entanto, o gasoduto também tem sido fonte de conflitos políticos e econômicos entre os dois países. Em 1º
+                de maio de 2006, o então presidente boliviano Evo Morales decretou a nacionalização da indústria de
+                hidrocarbonetos do país, ocupando com tropas as refinarias que a Petrobras operava em território
+                boliviano. No ano seguinte, a Petrobras vendeu essas refinarias ao governo boliviano, em um episódio
+                que gerou fortes tensões diplomáticas e discussões sobre o preço do gás exportado ao Brasil.</p>
+<p>Além disso, há também questões ambientais envolvidas no gasoduto: em seu trecho inicial, no Mato Grosso do
+                Sul, ele atravessa áreas do Pantanal, um dos biomas mais sensíveis do país, além de terras cultivadas,
+                serras e reservas ecológicas ao longo dos cinco estados por onde passa até chegar ao Rio Grande do Sul.
+                Por isso, sua construção exigiu estudos de impacto ambiental e o remanejamento de trechos originais
+                para preservar sítios arqueológicos e áreas de comunidades tradicionais.</p>
 <p>Em resumo, o gasoduto Bolívia-Brasil é uma infraestrutura importante para o abastecimento de gás no
                 Brasil, mas também é uma fonte de conflitos políticos, econômicos e ambientais entre os dois países.</p>
 </div>
@@ -452,7 +453,7 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Qual a relação entre o Petróleo e o desenvolvimento do Brasil?
             </strong> </p>
@@ -476,33 +477,36 @@
             considerar os desafios e riscos associados à sua exploração e produção. A busca por fontes de energia
             renovável e sustentáveis é cada vez mais necessária para garantir um futuro equilibrado e sustentável para o
             país e para o mundo.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Qual a importância do gás natural para o Brasil?
 
             </strong></p>
 <p><span class="primeiraLetra">R:</span>
 
-            O Brasil é um dos maiores produtores de gás natural na América Latina, com produção diária de cerca de 120
-            milhões de metros cúbicos.
+            O Brasil é um dos maiores produtores de gás natural da América do Sul, com produção diária média de cerca
+            de 153 milhões de metros cúbicos em 2024 (ANP).
 
 
         </p>
-<p>O gás natural é uma fonte de energia renovável e limpa, comparado a outros combustíveis fósseis como o
-            petróleo e o carvão.</p>
-<p>O Brasil tem vastos recursos de gás natural, especialmente na região de Campos de Santos, que é considerado
-            um dos principais centros de produção de gás do país.</p>
+<p>Assim como o petróleo e o carvão, o gás natural é uma fonte de energia <strong>não renovável</strong>, mas é
+            considerado um combustível fóssil mais limpo, já que sua queima libera menos poluentes e menos CO2 do que a
+            do petróleo e a do carvão.</p>
+<p>O Brasil tem vastos recursos de gás natural, especialmente na Bacia de Santos, no litoral de São Paulo e do
+            Rio de Janeiro, que responde por mais de 75% de toda a produção nacional de gás e é considerada o
+            principal centro de produção do país.</p>
 <p>O gás natural é utilizado como fonte de energia para geração de eletricidade, aquecimento e cozinha
-            doméstica, bem como como insumo para a indústria, especialmente na produção de fertilizantes e plásticos.
+            doméstica, além de servir como insumo para a indústria, especialmente na produção de fertilizantes e
+            plásticos.
         </p>
 <p>Nos últimos anos, o Brasil tem investido em infraestrutura para a importação e distribuição de gás natural, o
             que tem contribuído para a diversificação da matriz energética do país e para a redução de sua dependência
             de outros combustíveis fósseis.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Quais são os problemas da exploração do carvão mineral para o meio ambiente no Brasil?
             </strong></p>
-<div class="w3-card-4 w3-white w3-padding-small">
+<div class="w3-panel w3-sand w3-padding-small">
 <p><span class="primeiraLetra">R:</span>
 
                 A exploração do carvão mineral pode causar vários problemas ao meio ambiente no Brasil, alguns deles
@@ -543,6 +547,24 @@
 <br/><br/>
 <hr/>
 </div>
+<div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. O que é a matriz energética?</h3>
+<h3>2. Quais são as principais fontes de energia no Brasil?</h3>
+<h3>3. Qual é a diferença entre energias renováveis e não-renováveis?</h3>
+<h3>4. O que são royalties no setor petrolífero?</h3>
+<h3>5. Qual é a principal área produtora de petróleo no Brasil?</h3>
+<h3>6. Como o carvão mineral é formado?</h3>
+<h3>7. Quais são os impactos ambientais negativos da exploração do carvão mineral?</h3>
+<h3>8. O que é a camada pré-sal?</h3>
+<h3>9. Qual é a importância do gás natural para o Brasil?</h3>
+<h3>10. Quais são os principais produtos derivados do petróleo?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
 <div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
@@ -553,7 +575,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Fontes de Energia no Brasil é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);

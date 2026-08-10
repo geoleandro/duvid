@@ -1,0 +1,29 @@
+[
+  {
+    "titulo": "Banco Central mantém Selic em 13,25% ao ano em decisão unânime",
+    "resumo": "O Copom decidiu manter a taxa básica de juros estável, sinalizando cautela diante da inflação ainda acima da meta.",
+    "link": "https://www.bcb.gov.br",
+    "origem": "Banco Central",
+    "cor": "#6a1b9a",
+    "ts": 0,
+    "categoria": { "label": "Economia", "emoji": "📈", "cor": "#6a1b9a" }
+  },
+  {
+    "titulo": "Exportações brasileiras batem recorde no primeiro semestre com alta do agronegócio",
+    "resumo": "Soja, minério de ferro e petróleo lideraram as vendas externas do Brasil, que atingiram US$ 162 bilhões no período.",
+    "link": "https://agenciabrasil.ebc.com.br",
+    "origem": "Agência Brasil",
+    "cor": "#6a1b9a",
+    "ts": 0,
+    "categoria": { "label": "Economia", "emoji": "📈", "cor": "#6a1b9a" }
+  },
+  {
+    "titulo": "PIB do Brasil cresce 2,1% no segundo trimestre, acima das expectativas",
+    "resumo": "Setor de serviços e agropecuária puxaram o crescimento; indústria registrou queda de 0,3%.",
+    "link": "https://ibge.gov.br",
+    "origem": "IBGE",
+    "cor": "#6a1b9a",
+    "ts": 0,
+    "categoria": { "label": "Economia", "emoji": "📈", "cor": "#6a1b9a" }
+  }
+]

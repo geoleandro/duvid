@@ -1,163 +1,100 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-03T16:30:16-03:00",
-    "total": 12,
+    "gerado_em": "2026-08-09T15:55:27-03:00",
+    "total": 6,
     "noticias": [
         {
-            "titulo": "Banco diz que fechou contas de Trump por suspeitas de lavagem de dinheiro",
-            "resumo": "        Decorações no Salão Oval durante reunião do presidente dos EUA, Donald Trump, com o presidente libanês, Joseph A…",
-            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/banco-diz-que-fechou-contas-de-trump-por-suspeitas-de-lavagem-de-dinheiro.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1785784503,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            }
-        },
-        {
-            "titulo": "Veja o trecho da entrevista em que Milei faz novos ataques a Lula: 'Ele é um ladrão'",
-            "resumo": "        Veja o trecho da entrevista em que Milei faz ataques a Lula\nO presidente da Argentina, Javier Milei, voltou a at…",
-            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/video-mostra-momento-em-milei-faz-novos-ataques-a-lula-e-renova-crise-diplomatica.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1785782459,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            }
-        },
-        {
-            "titulo": "VÍDEO mostra fazendeira espanhola reencontrando burrinhos após incêndio devastador",
-            "resumo": "        VÍDEO mostra fazendeira espanhola reencontrando burrinhos após incêndio devastador\nUma agricultora espanhola ree…",
-            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/video-mostra-fazendeira-espanhola-reencontrando-burrinhos-apos-incendio-devastador.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1785776306,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            }
-        },
-        {
-            "titulo": "Trump diz que Irã deve escolher entre 'acordo' ou 'rendição total': 'É a última chance deles'",
-            "resumo": "        Presidente dos EUA, Donald Trump, e presidente do Irã, Masoud Pezeshkian\nEvelyn Hockstein\/Reuters e Angelina Kat…",
-            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/ira-deve-escolher-acordo-ou-rendicao-total-diz-trump.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1785772415,
+            "titulo": "A volta por cima dos irmãos Batista: como donos da JBS saíram da Lava Jato e voltaram aos holofotes, com participação até na diplomacia mundial",
+            "resumo": "De um pequeno açougue brasileiro ao comando da maior produtora de carne do mundo, passando por um dos maiores escândalos de corrupção do paí…",
+            "link": "https://www.bbc.com/portuguese/articles/c4g32w6l3y4o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1786298401,
+            "data_estimada": false,
             "categoria": {
                 "label": "Geopolítica",
                 "emoji": "🌐",
                 "cor": "#1565c0"
-            }
+            },
+            "categoria_curada": false
         },
         {
-            "titulo": "VÍDEO: Drone ucraniano atinge praia russa lotada de banhistas e mata 7, diz Rússia ",
-            "resumo": "        Drone ucraniano cai em praia russa com banhistas ao lado \nBanhistas que lotavam uma praia no sudoeste da Rússia …",
-            "link": "https:\/\/g1.globo.com\/mundo\/noticia\/2026\/08\/03\/drone-ucraniano-cai-ao-lado-de-banhistas-em-praia-russa.ghtml",
+            "titulo": "Chanceler brasileiro diz que Argentina precisa 'parar as agressões' a Lula para normalizar relação",
+            "resumo": "Chanceler brasileiro diz que Argentina precisa 'parar as agressões' a Lula para normalizar\nO chanceler brasileiro, Mauro Vieira, afirmou que…",
+            "link": "https://g1.globo.com/mundo/noticia/2026/08/09/chanceler-brasileiro-diz-que-argentina-precisa-parar-as-agressoes-a-lula-para-normalizar-relacao.ghtml",
             "origem": "G1 Mundo",
             "cor": "#e53935",
-            "ts": 1785767041,
+            "ts": 1786294871,
+            "data_estimada": false,
             "categoria": {
                 "label": "Brasil",
                 "emoji": "🇧🇷",
                 "cor": "#f9a825"
-            }
+            },
+            "categoria_curada": false
         },
         {
-            "titulo": "Como crise migratória da Espanha gerou tempestade política — e foi alimentada pelas redes sociais",
-            "resumo": "A súbita invasão de enclave espanhol por milhares de migrantes marroquinos semana passada abalou alicerces da União Euro…",
-            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/c74g92028e0o?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1785763358,
+            "titulo": "Centenas de ciclistas nus fazem passeio para promover o naturismo",
+            "resumo": "Ciclistas nus passam em frente ao Parlamento Alemão durante o evento World Naked Bike Ride em Berlim\nREUTERS/Lisi Niesner\nCentenas de ciclis…",
+            "link": "https://g1.globo.com/mundo/noticia/2026/08/09/centenas-de-ciclistas-nus-fazem-passeio-para-promover-o-naturismo.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1786294244,
+            "data_estimada": false,
             "categoria": {
                 "label": "Geografia",
                 "emoji": "🌍",
                 "cor": "#2e7d32"
-            }
+            },
+            "categoria_curada": false
         },
         {
-            "titulo": "A bailarina argentina na elite do Royal Ballet de Londres há três décadas: 'Me sinto invencível'",
-            "resumo": "Marianela entrou para o Royal Ballet de Londres em 1998 e se tornou primeira-bailarina da companhia britânica em 2002.\n",
-            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cx27xx2zdx9o?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1785702786,
+            "titulo": "Receita Nosso Campo: aprenda a fazer um bolo de milho",
+            "resumo": "Saiba como fazer um delicioso bolo de milho\nReprodução / TV TEM\nO Nosso Campo deste domingo (9) ensina a preparar um delicioso bolo de milho…",
+            "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/09/receita-nosso-campo-aprenda-a-fazer-um-bolo-de-milho.ghtml",
+            "origem": "G1 Agronegócios",
+            "cor": "#33691e",
+            "ts": 1786271416,
+            "data_estimada": false,
             "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            }
+                "label": "Espaço Rural",
+                "emoji": "🌾",
+                "cor": "#558b2f"
+            },
+            "categoria_curada": true
         },
         {
-            "titulo": "Condenados à morte na Arábia Saudita ligam para a BBC pedindo ajuda",
-            "resumo": "Dezenas de etíopes que fugiram da guerra e da pobreza aguardam execução em prisões sauditas. Condenados por tráfico de d…",
-            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cj36lkkvmgko?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1785686538,
+            "titulo": "Primeiro data center de IA na Amazônia gera debate por risco de ‘ilhas de calor’ e expõe ausência de regras específicas no Brasil",
+            "resumo": "Belém terá o 1º data center de IA da Amazônia\nA área portuária de Miramar, no bairro do Barreiro, em Belém, vai receber o primeiro data cent…",
+            "link": "https://g1.globo.com/pa/para/noticia/2026/08/09/primeiro-data-center-de-ia-na-amazonia-gera-debate-por-risco-de-ilhas-de-calor-e-expoe-ausencia-de-regras-especificas-no-brasil.ghtml",
+            "origem": "G1 Tecnologia",
+            "cor": "#37474f",
+            "ts": 1786258813,
+            "data_estimada": false,
             "categoria": {
-                "label": "Brasil",
-                "emoji": "🇧🇷",
-                "cor": "#f9a825"
-            }
+                "label": "Tecnologia",
+                "emoji": "💻",
+                "cor": "#37474f"
+            },
+            "categoria_curada": true
         },
         {
-            "titulo": "O que aconteceu no país da América do Sul que adotou o 'modelo Bukele' de combate à violência",
-            "resumo": "O governo equatoriano promoveu a militarização da segurança pública, construiu uma megaprisão, ampliou o uso dos estados…",
-            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/cy74n55rpx8o?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1785665077,
+            "titulo": "Balança comercial de julho tem superávit de US$ 7 bilhões",
+            "resumo": "Com exportações de US$ 34,1 bilhões e importações de US$ 27,1 bilhões, o Brasil registrou pouco mais de US$ 7 bilhões de superávit na balanç…",
+            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/balanca-comercial-de-julho-tem-superavit-de-us-7-bilhoes",
+            "origem": "Ag. Brasil Economia",
+            "cor": "#1565c0",
+            "ts": 1786055820,
+            "data_estimada": false,
             "categoria": {
-                "label": "Geopolítica",
-                "emoji": "🌐",
-                "cor": "#1565c0"
-            }
-        },
-        {
-            "titulo": "'Estamos presas aqui, sem poder voltar para casa': o desespero dos milhares de migrantes que cruzaram a fronteira entre Marrocos e Espanha por Ceuta",
-            "resumo": "A situação dos migrantes nos dois lados da fronteira era crítica. A maioria decidiu voltar diante do cenário desolador e…",
-            "link": "https:\/\/www.bbc.com\/portuguese\/articles\/c5ydp31g3eeo?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1785600844,
-            "categoria": {
-                "label": "Geopolítica",
-                "emoji": "🌐",
-                "cor": "#1565c0"
-            }
-        },
-        {
-            "titulo": "Batalha de Rap Macapá terá duelos de rima e venda de comidas típicas no Mercado Central",
-            "resumo": "        Final da etapa estadual do Duelo de MC's, em Macapá\nLeandro Lennon\/PMM\nO Mercado Central será o palco da Batalha…",
-            "link": "https:\/\/g1.globo.com\/ap\/amapa\/noticia\/2023\/05\/05\/batalha-de-rap-macapa-tera-duelos-de-rima-e-venda-de-comidas-tipicas-no-mercado-central.ghtml",
-            "origem": "G1 Brasil",
-            "cor": "#e65100",
-            "ts": 1683287367,
-            "categoria": {
-                "label": "Brasil",
-                "emoji": "🇧🇷",
-                "cor": "#f9a825"
-            }
-        },
-        {
-            "titulo": "‘Maio Amarelo’ tem ações em escolas e ruas para prevenir acidentes no trânsito no AP",
-            "resumo": "        Amapá abre programação 'Maio Amarelo' que combate acidentes no trânsito\nSecom AP\/Divulgação\nIniciou nesta terça-…",
-            "link": "https:\/\/g1.globo.com\/ap\/amapa\/noticia\/2023\/05\/03\/maio-amarelo-tem-acoes-em-escolas-e-passeio-ciclistico-para-alertar-pedestres-e-motoristas-no-ap.ghtml",
-            "origem": "G1 Brasil",
-            "cor": "#e65100",
-            "ts": 1683120780,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            }
+                "label": "Economia",
+                "emoji": "📈",
+                "cor": "#6a1b9a"
+            },
+            "categoria_curada": false
         }
+    ],
+    "categorias_ausentes": [
+        "Clima"
     ]
 }

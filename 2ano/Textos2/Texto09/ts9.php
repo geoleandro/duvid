@@ -4,15 +4,17 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="A industrialização brasileira: da economia agroexportadora à Política de Substituição de Importações, o Plano de Metas de JK e o período militar" name="description"/>
+<meta content="Texto 09 - Industrialização Brasileira" property="og:title"/>
+<meta content="Como o Brasil deixou de ser um país eminentemente agrário e construiu seu parque industrial ao longo do século XX" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +32,9 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>2º ano - Texto 09</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<title>2º ano - Texto 09 - Industrialização Brasileira</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -76,23 +80,6 @@
 <hr/>
 </div>
 <div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<p>1) O que é a indústria?</p>
-<p>2) Qual é a contribuição do setor industrial para o PIB brasileiro?</p>
-<p>3) Por que a distribuição das indústrias é concentrada na região Sudeste do Brasil?</p>
-<p>4) Quais são os tipos de indústrias mencionadas no texto?</p>
-<p>5) Como o modelo agrário-exportador impactou a industrialização no Brasil?</p>
-<p>6) Qual evento econômico levou à falência de muitos fazendeiros no Brasil em 1929?</p>
-<p>7) O que foi a Política de Substituição de Importações?</p>
-<p>8) Quais grandes empresas públicas foram criadas pelo governo de Getúlio Vargas?</p>
-<p>9) Como Juscelino Kubitschek contribuiu para a industrialização no Brasil?</p>
-<p>10) Qual foi o impacto do regime militar no endividamento externo do Brasil?</p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
 <h2>O que é uma indústria? </h2>
 <p> O nome indústria pode ser sinônimo de transformação. Ela modifica matérias-primas, como o minério de ferro,
             e o transforma em um produto comercializável e pronto para o uso, a exemplo do aço.</p>
@@ -108,11 +95,11 @@
 <p>Primeiro, vamos ver algumas características das indústrias no geral e depois no Brasil. Existem muitas
             classificações para diferentes tipos de indústrias, como aquelas que produzem produtos para outras
             indústrias, a exemplo da petroquímica ao refinar o petróleo, siderúrgica ao produzir metal, e a produção de
-            máquinas e equipamentos. Estas serias as indústrias de <strong>bens de produção</strong> ou <strong>bens de
-                capital</strong>. </p>
+            máquinas e equipamentos. Estas seriam as indústrias de <strong>bens de produção</strong> ou <span class="termo" data-palavra="bens de capital" data-definicao="Máquinas, equipamentos e insumos usados para produzir outros bens, como a siderurgia ou a produção de máquinas industriais.">bens de
+                capital</span>. </p>
 <p>Há, igualmente, indústrias que produzem produtos que duram bastante, como carros, eletrodomésticos ou
-            produtos de informática. Essas são as indústrias de bens duráveis. Assim como há aquelas que produzem
-            alimentos, bebidas, cosméticos, remédios, são indústrias de <strong>bens não-duráveis</strong>. </p>
+            produtos de informática. Essas são as indústrias de <span class="termo" data-palavra="bens duráveis" data-definicao="Bens que têm vida útil longa e não se esgotam no primeiro uso, como carros, eletrodomésticos e produtos de informática.">bens duráveis</span>. Assim como há aquelas que produzem
+            alimentos, bebidas, cosméticos, remédios, são indústrias de <span class="termo" data-palavra="bens não-duráveis" data-definicao="Bens de consumo rápido, geralmente utilizados uma única vez ou por pouco tempo, como alimentos, bebidas, cosméticos e remédios.">bens não-duráveis</span>. </p>
 <p> Desde o seu início na Primeira Revolução Industrial, no fim do século XVIII e início do século XIX, na
             Inglaterra, utilizando para isto força humana, máquinas e energia, o processo de industrialização passou por
             diversas etapas, como a fase <strong>artesanal</strong>, com pouca divisão do trabalho e mais focada no
@@ -135,19 +122,19 @@
 <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 <p> "O obstáculo definitivo para a indústria no Brasil foi a produção de gêneros agrícolas em alta escala
                 para o exterior, molda do sistema colonial. Constitua-se a grande empresa, trabalhada pelo escravo no
-                latifúndio. As propriedades territoriais eram entidades autónomas, isoladas umas das outras. De
+                latifúndio. As propriedades territoriais eram entidades autônomas, isoladas umas das outras. De
                 exigências modestas, dispensavam intercâmbio. O básico é obtido no mundo rural. A autossuficiência
                 significa falta de diversificação do mercado. A ausência de transportes dificulta o relacionamento. Sem
                 mercado interno não há necessidade de mais: A estrutura da propriedade rural explica a falta de núcleos
                 urbanos expressivos [...] O trinômio monocultura, latifúndio e escravidão é incompatível com o esforço
                 manufatureiro. [...]"
-                <span class="w3-small w3-sand">(IGLESIAS Fernando. A industrialização brasileira. São Paulo:
+                <span class="w3-small w3-sand">(IGLÉSIAS, Francisco. A industrialização brasileira. São Paulo:
                     Brasiliense, 1985, p. 20-27.).</span>
 </p>
 </div>
-<p> Como visto, o território foi organizado para ser um arquipélago econômico. Arquipélago é um substantivo
-            coletivo para um conjunto de ilhas. Nesse caso, o Brasil foi marcado para possuir algumas “ilhas” de
-            produção sem comunicação entre si com transporte deficiente em benefício do colonizador europeu.</p>
+<p> Como visto, o território foi organizado para ser um <span class="termo" data-palavra="arquipélago econômico" data-definicao="Metáfora usada para descrever um território com núcleos de produção isolados entre si, sem integração ou comunicação, como um conjunto de ilhas.">arquipélago econômico</span>. Arquipélago é um substantivo
+            coletivo para um conjunto de ilhas. Nesse caso, o Brasil foi marcado por possuir algumas “ilhas” de
+            produção sem comunicação entre si, com transporte deficiente, em benefício do colonizador europeu.</p>
 <p>A atividade industrial, portanto, só iria se iniciar no final do século XIX, com o surgimento de indústrias
             voltada para a produção de bens de consumo duráveis, como tecidos, roupas, calçados, alimentos e bebidas.
             Antes tudo isso era importado da metrópole portuguesa. </p>
@@ -158,8 +145,8 @@
             poder. Uma elite de cafeicultores paulistas comandavam o cenário político na era recente da primeira
             república. Dessa forma, o Brasil ingressou no século XX ocupando uma posição de nação agroexportadora na
             Divisão Internacional do Trabalho. </p>
-<p> Esse cenário que parecia imutável por séculos, começou a se modificar com a vinda dos imigrantes a partir de
-            1850 e com o fim da escravidão e o surgimento do trabalho assalariado, o qual gerou uma mercado consumidor
+<p> Esse cenário que parecia imutável por séculos começou a se modificar com a vinda dos imigrantes a partir de
+            1850 e com o fim da escravidão e o surgimento do trabalho assalariado, o qual gerou um mercado consumidor
             ainda pouco expressivo.</p>
 <p>Por que a indústria ficou concentrada no Sudeste? </p>
 <p> Há vários fatores naturais, técnicos e políticos para o predomínio de São Paulo e Rio de Janeiro como
@@ -168,7 +155,7 @@
 <div class="w3-margin"><img alt="ts09f02" class="w3-mobile" id="imagem2" src="ts09f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Fonte: FRANK (2018). </span>
 </div>
-<div class="w3-margin w3-panel w3-card-4 w3-yellow w3-padding-small">
+<div class="w3-margin w3-panel w3-pale-yellow w3-padding">
 <p>Pelos mapas, vemos, dentre outras coisas, que o território era desarticulado até por volta de 1940 e
                 depois ocorre uma expansão da integração nacional sob o comando do Sudeste. Por que ocorreu isso? Alguns
                 fatos explicam essa configuração territorial:</p>
@@ -178,8 +165,8 @@
                     comercial:
                 </li>
 <li>
-                    energia elétrica (as duas cidades, São Paulo e Rio de Janeiro, receberam eletrificação entre os anos
-                    de 1889 e 1905): implantação de uma rede ferroviária eficiente.
+                    energia elétrica (as duas cidades, São Paulo e Rio de Janeiro, receberam eletrificação com a criação das
+                    companhias Light, entre 1899 e 1905): implantação de uma rede ferroviária eficiente.
                 </li>
 <li>
                     mão-de-obra fornecida por imigrantes europeus.
@@ -189,16 +176,16 @@
                     econômica e uma crescente classe média que vivia em ambas as cidades.
                 </li>
 <li>
-                    o papel do solo, marcado pelo derrabe basáltico e do clima tropical de altitude em grande parte.
+                    o papel do solo, marcado pelo derrame basáltico, e do clima tropical de altitude em grande parte.
                 </li>
 </ul>
 </div>
-<p>Os censos indústrias da época demonstram essa hegemonia do Sudeste. Um levantamento feito em 1920 revela que,
+<p>Os censos industriais da época demonstram essa hegemonia do Sudeste. Um levantamento feito em 1920 revela que,
             do total da produção industrial brasileira na época, 65.3% concentravam-se na região. São Paulo detinha
             31.5% das indústrias, o Rio de Janeiro, então capital do país, contava com 28,2% dos estabelecimentos
             industriais, e Minas Gerais abrigava 5.69% do total. </p>
 <p> As três primeiras décadas do século XX foram marcadas por algum crescimento industrial no Brasil graças à
-            disponibilidade de capital oriundo da cafeicultura, à expansão urbana, a chegada das ferrovias, entre outros
+            disponibilidade de capital oriundo da cafeicultura, à expansão urbana, à chegada das ferrovias, entre outros
             fatores. Por isso, o processo de industrialização brasileiro é considerado tardio, porque ocorreu
             efetivamente mais de cem anos depois da Revolução Industrial, iniciada na Inglaterra no século XVIII e que
             prosseguiu em diferentes países europeus e nos Estados Unidos. Dessa forma, o país tornou-se profundamente
@@ -212,15 +199,15 @@
 </div>
 <div class="topico">
 <h2> A Política de substituição de importações</h2>
-<p>A Política econômica de substituição de importações objetivava produzir internamente tudo aquilo que antes
+<p>A <span class="termo" data-palavra="Política de Substituição de Importações" data-definicao="Estratégia econômica que buscava produzir internamente tudo aquilo que antes era importado, a fim de fomentar a indústria nacional e reduzir a dependência externa.">Política de Substituição de Importações</span> objetivava produzir internamente tudo aquilo que antes
             era importado a fim de fomentar a indústria nacional. </p>
 <p>Alguns fatores importantes foram fundamentais para o desenvolvimento da indústria no Brasil. O primeiro foi a
             ascensão do governo de Getúlio Vargas (1930-45), que promoveu a destituição da oligarquia agroexportadora
-            que dominou a vida política e econômica do Brasil dura a primeira fase da República (1889-1930). </p>
+            que dominou a vida política e econômica do Brasil durante a primeira fase da República (1889-1930). </p>
 <p>Do ponto de vista econômico, o referencial teórico que fundamentava as decisões do governo estava ligado à
             intervenção do Estado na economia, aliado a um sentimento nacionalista. </p>
 <p>A partir disso, o governo criou grandes empresas públicas consideradas estratégicas para o avanço da
-            indústria: A Companhia Vale do Rio Doce – atual Vale -, criada em 1942, para atuar na exploração de minério
+            indústria: a Companhia Vale do Rio Doce – atual Vale –, criada em 1942, para atuar na exploração de minério
             de ferro, em Minas Gerais, na área do Quadrilátero ferrífero; a Companhia Siderúrgica Nacional – CSN -,
             inaugurada em 1946, no município de Volta Redonda, no Estado do Rio de Janeiro; e a Petrobrás, fundada em
             1953, uma empresa ligada à pesquisa e prospecção de petróleo, no segundo mandato do governo Vargas. E o
@@ -244,9 +231,9 @@
             da internacionalização da economia, o país consolidava o modelo de consumo, o crescimento das cidades e das
             indústrias. Lembra que foi JK quem transferiu a capital federal do Rio de Janeiro para Brasília buscando
             promover à ocupação do interior do território. </p>
-<p>A industrialização deveria ser alcançada a qualquer custo, do jeito que fosse possível, amparado nas elites,
-            nos intelectuais e no povo, formou-se uma política submissa aos interesses das grandes empresas
-            estrangeiras. Foi no governo de Juscelino Kubitschek, (1956-1960), que esse modelo se instaurou através do
+<p>A industrialização deveria ser alcançada a qualquer custo, do jeito que fosse possível. Amparada pelas
+            elites, pelos intelectuais e pelo povo, formou-se uma política favorável aos interesses das grandes
+            empresas estrangeiras. Foi no governo de Juscelino Kubitschek (1956-1960) que esse modelo se instaurou através do
             tripé econômico: capital privado nacional, capital privado internacional (as multinacionais) e intervenção
             do Estado. </p>
 <p>Dessa forma, o processo de industrialização do país ingressou em uma nova fase, marcada pela crescente
@@ -265,16 +252,16 @@
             agravados pelas crises seguintes de 1980 e 1990. </p>
 <p> Após JK, o governo no Brasil entrou em um período conturbado, com a renúncia de Jânio Quadros e com o
             governo de João Goulart (1961-64) que perdurou até o golpe de Estado de 1964.</p>
-<p> Com o regime militar houve um grande aumento do endividamento do país de cerca de 3,7 bilhões de dívida
-            externa no início do regime e de aproximadamente 95 bilhões ao término desse período em 1985. O PIB do
-            Brasil passou de 43º no mundo para 9º. O país cresceu muito nesse tempo, mas com consequências sociais e
-            políticas.</p>
+<p> Com o regime militar houve um grande aumento do endividamento do país, de cerca de 3,3 bilhões de dólares
+            de dívida externa no início do regime para aproximadamente 105 bilhões ao término desse período, em 1985.
+            O PIB do Brasil cresceu significativamente, chegando a figurar entre as dez maiores economias do mundo no
+            início dos anos 1980. O país cresceu muito nesse tempo, mas com consequências sociais e políticas.</p>
 <p>O parque industrial se desenvolveu de forma significativa e a infraestrutura de transportes, energia e
             telecomunicações se modernizou. </p>
 <p>O capital estrangeiro entrou em vários setores da economia, principalmente na extração de minerais metálicos
             em Carajás, Trombetas e Jari; nas indústrias químicas e farmacêuticas e na fabricação de bens de capital
             utilizados pelas indústrias de bens de consumo. </p>
-<p>Esse período é conhecido pelos historiadores como “Milagre econômico”, com crescimento elevado do PIB, mas
+<p>Esse período é conhecido pelos historiadores como “<span class="termo" data-palavra="Milagre Econômico" data-definicao="Período entre 1968 e 1973 de crescimento acelerado do PIB brasileiro (chegando a 14% ao ano), impulsionado por investimentos estatais e capital estrangeiro, mas acompanhado de forte concentração de renda.">Milagre Econômico</span>”, com crescimento elevado do PIB, mas
             também com a diminuição do poder de compra por parte dos trabalhadores. </p>
 <p> Com a crise do petróleo, dentre outras, no final da década, os investimentos externos foram reduzidos e a
             economia brasileira teve de arcar com o pagamento dos juros da dívida externa.</p>
@@ -416,16 +403,16 @@
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Por que se fala que a industrialização do Brasil foi dependente?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span>
 
-            A teoria da dependência surgiu após o esgotamento da teoria da substituição das importações na era JK, com a entrada de indústrias automotivas internacionais, dentre outras. Essa teoria diz que o subdesenvolvimento dos países como o Brasil, México, África do Sul etc. além do processo de colonização era também resultado do interesse do centro do capitalismo e das elites do próprio país em manter esses países produzindo bens primários.<br/>A ideia é a de que os países subdesenvolvidos, porém industrializados como o Brasil, não estão no mesmo patamar de igualdade com os países desenvolvidos, onde fornecem matérias-primas e recebem produtos industrializados, criando uma relação de dependência.
+            A <span class="termo" data-palavra="teoria da dependência" data-definicao="Teoria segundo a qual o subdesenvolvimento de países como o Brasil resulta de uma relação de dependência econômica em relação aos países centrais do capitalismo, que compram matérias-primas e vendem produtos industrializados.">teoria da dependência</span> surgiu após o esgotamento da teoria da substituição das importações na era JK, com a entrada de indústrias automotivas internacionais, dentre outras. Essa teoria diz que o subdesenvolvimento dos países como o Brasil, México, África do Sul etc. além do processo de colonização era também resultado do interesse do centro do capitalismo e das elites do próprio país em manter esses países produzindo bens primários.<br/>A ideia é a de que os países subdesenvolvidos, porém industrializados como o Brasil, não estão no mesmo patamar de igualdade com os países desenvolvidos, onde fornecem matérias-primas e recebem produtos industrializados, criando uma relação de dependência.
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Quais são as fórmulas econômicas mais utilizadas para industrializar um país?
 
@@ -441,14 +428,14 @@
             
 
         </p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
             Qual a posição do Brasil perante os outros países do Mundo?
 
             </strong></p>
 <p><span class="primeiraLetra">R:</span>
 
-            Essa questão remete à Divisão Internacional do Trabalho (DIT), que busca entender como são caracterizados o conjunto de países de acordo com a produção industrial, dentre outras coisas.<br/>
+            Essa questão remete à <span class="termo" data-palavra="Divisão Internacional do Trabalho (DIT)" data-definicao="Forma como os países se especializam e se relacionam na economia mundial, historicamente dividindo-se entre exportadores de produtos industrializados e exportadores de produtos primários.">Divisão Internacional do Trabalho (DIT)</span>, que busca entender como são caracterizados o conjunto de países de acordo com a produção industrial, dentre outras coisas.<br/>
 
             Até a década de 1960, a velha DIT se referia aos países do Norte como os responsáveis pelo fornecimento de produtos industrializados e os do Sul, pelos produtos primários, como minérios e produtos agrícolas. Com o passar do tempo, surgiram países, como o Brasil, México e Coréia do Sul, Hong Kong, Taiwan, Singapura, Índia, etc. que reorganizaram seu espaço produtivo e foram caracterizados de Países recentemente industrializados.<br/>
             
@@ -457,6 +444,28 @@
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
 <br/><br/>
+<hr/>
+</div>
+<div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<div class="w3-panel w3-pale-yellow w3-margin">
+<h2>Questões para o caderno</h2>
+<h3>1. O que é a indústria?</h3>
+<h3>2. Qual é a contribuição do setor industrial para o PIB brasileiro?</h3>
+<h3>3. Por que a distribuição das indústrias é concentrada na região Sudeste do Brasil?</h3>
+<h3>4. Quais são os tipos de indústrias mencionadas no texto?</h3>
+<h3>5. Como o modelo agrário-exportador impactou a industrialização no Brasil?</h3>
+<h3>6. Qual evento econômico levou à falência de muitos fazendeiros no Brasil em 1929?</h3>
+<h3>7. O que foi a Política de Substituição de Importações?</h3>
+<h3>8. Quais grandes empresas públicas foram criadas pelo governo de Getúlio Vargas?</h3>
+<h3>9. Como Juscelino Kubitschek contribuiu para a industrialização no Brasil?</h3>
+<h3>10. Qual foi o impacto do regime militar no endividamento externo do Brasil?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico">
@@ -469,7 +478,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Industrialização Brasileira é fantástico! Continue estudando!',
         pontos: 40
     });
     MostrarProximo(this);
