@@ -74,5 +74,5 @@ access_log
 *.flv
 *.webm
 *.m4v
-*.Consulta_livro_didatico.png
-*.Moderna-Plus-Geografia-1.png
+docs/Consulta_livro_didatico.pdf
+docs/Moderna-Plus-Geografia-1.pdf
