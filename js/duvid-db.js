@@ -72,18 +72,25 @@ const DuvidDB = {
         banner.id = 'duvid-sessao-banner';
         banner.style.cssText = [
             'position:fixed', 'bottom:0', 'left:0', 'right:0', 'z-index:9998',
-            'background:#e65100', 'color:#fff',
+            'background:#2e7d32', 'color:#fff',
             'font-family:\'Montserrat\',sans-serif', 'font-size:.85rem',
             'display:flex', 'align-items:center', 'justify-content:center', 'gap:16px',
             'padding:12px 20px', 'box-shadow:0 -4px 16px rgba(0,0,0,.2)'
         ].join(';');
         banner.innerHTML = '<span>⚠️ Sua sessão expirou — o progresso desta sessão <b>não foi salvo</b>.</span>'
-            + '<button onclick="DuvidDB._abrirRelogin()" style="background:#fff;color:#e65100;padding:6px 16px;'
+            + '<button onclick="DuvidDB._abrirRelogin()" style="background:#fff;color:#2e7d32;padding:6px 16px;'
             + 'border-radius:20px;font-weight:700;border:none;cursor:pointer;white-space:nowrap;'
             + 'font-family:\'Montserrat\',sans-serif;">Fazer login →</button>'
-            + '<button onclick="document.getElementById(\'duvid-sessao-banner\').remove()"'
+            + '<button onclick="document.getElementById(\'duvid-sessao-banner\').remove();DuvidDB._sessaoAvisoAtivo=false;"'
             + ' style="background:transparent;border:none;color:#fff;font-size:1.2rem;cursor:pointer;line-height:1;">&times;</button>';
         document.body.appendChild(banner);
+        // Some automaticamente após login bem-sucedido (qualquer fluxo)
+        window.addEventListener('duvid:saudacao', function _limparBanner() {
+            var b = document.getElementById('duvid-sessao-banner');
+            if (b) b.remove();
+            DuvidDB._sessaoAvisoAtivo = false;
+            window.removeEventListener('duvid:saudacao', _limparBanner);
+        });
     },
 
     _abrirRelogin: function() {

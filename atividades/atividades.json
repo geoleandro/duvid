@@ -1,5 +1,25 @@
 [
  {
+    "id": 6,
+    "titulo": "A Grande Cúpula do Comércio Global",
+    "tema": "Comércio Mundial",
+    "nivel": "3º ano EM",
+    "descricao": "Simulação de negociações na OMC: delegações diplomáticas enfrentam choques de commodities, dumping e guerras comerciais em rodadas de negociação.",
+    "bncc": "EM13CHS201, EM13CHS302, EM13CHS304",
+    "link": "atividade-cupula-comercio-global.pdf",
+    "tag": "Simulação"
+},
+ {
+    "id": 5,
+    "titulo": "Intervenção Social pelas Redes Geográficas",
+    "tema": "Redes Geográficas",
+    "nivel": "3º ano EM",
+    "descricao": "Em grupos, elabore um plano de intervenção usando redes geográficas para resolver problemas reais da cidade ou do campo.",
+    "bncc": "EM13CHS101, EM13CHS204, EM13CHS302",
+    "link": "atividade-redes-geograficas.pdf",
+    "tag": "Atividade"
+},
+ {
     "id": 4,
     "titulo": "Projeto: Geografia em Quadrinhos",
     "tema": "Cartografia",

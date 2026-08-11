@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="As redes do espaço geográfico: fluxos internacionais de pessoas, informações, dinheiro e mercadorias, redes técnicas, financeiras, informacionais e empresas em rede no mundo globalizado">
+    <meta property="og:title" content="Texto 15 - As Redes do Espaço Geográfico">
+    <meta property="og:description" content="Turismo, remessas, cabos submarinos e empresas em rede: entenda como os fluxos internacionais conectam o mundo contemporâneo">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,8 +42,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 15 - Geografia das Redes</title>
+    <title>3º ano - Texto 15 - As Redes do Espaço Geográfico</title>
 
 </head>
 
@@ -56,7 +60,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">As Redes do Espaço Geográfico</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -112,104 +116,6 @@
 
     </div>
 <div class="topico">
-        <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-            <ol>
-                <li>O que são redes geográficas e qual é a sua importância na dinâmica do espaço geográfico atual?</li>
-
-                <li>Explique o papel das redes técnicas na globalização e dê exemplos de infraestruturas que fazem parte
-                    dessas redes.</li>
-
-                <li>Quais são os principais tipos de redes na atualidade e qual é a função de cada uma delas? Dê
-                    exemplos de cada tipo de rede.</li>
-                <li>Quais são os desafios enfrentados pelo Sul-Global devido à falta de infraestrutura de rede? Como
-                    essa falta de infraestrutura afeta a soberania dos Estados nacionais?</li>
-                <li>Por que a distribuição desigual de datacenters pelo mundo contribui para os desafios enfrentados
-                    pelo Sul-Global? Explique.</li>
-            </ol>
-        </div>
-
-
-
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-<div class="topico">
-
-        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-
-        <h2>Introdução</h2>
-    
-        <p>Revisão: Urbanização e suas implicações para o espaço geográfico.</p>
-    
-        <p>Tema da Aula: Redes geográficas e sua importância na dinâmica global.</p>
-    
-        <h2>Redes Geográficas</h2>
-    
-        <p>Definição: Conexões que permitem a circulação de pessoas, informações, mercadorias, e dinheiro.</p>
-    
-        <p>Exemplos:</p>
-        <ul>
-            <li>Redes de transporte (estradas, ferrovias, portos, aeroportos).</li>
-            <li>Conexões virtuais (internet, redes de telefonia).</li>
-            <li>Cadeias de produção globais (ex: empresa WEG).</li>
-        </ul>
-    
-        <h2>Redes Técnicas</h2>
-    
-        <p>Definição: Infraestruturas que possibilitam a movimentação de informações e recursos.</p>
-    
-        <p>Exemplos:</p>
-        <ul>
-            <li>Internet e sua importância global.</li>
-            <li>Cabos submarinos de fibra óptica.</li>
-            <li>Sistemas de logística e cadeias de suprimentos.</li>
-        </ul>
-    
-        <h2>Redes Financeiras</h2>
-    
-        <p>Definição: Circulação de capital em escala global.</p>
-    
-        <p>Exemplo:</p>
-        <ul>
-            <li>Rede de agências bancárias do Banco do Brasil.</li>
-        </ul>
-    
-        <h2>Redes Informacionais</h2>
-    
-        <p>Definição: Tecnologias da informação que permitem acesso instantâneo à informação.</p>
-    
-        <p>Exemplos:</p>
-        <ul>
-            <li>Internet.</li>
-            <li>Redes de comunicação via satélite e fibra óptica.</li>
-        </ul>
-    
-        <h2>Redes de Empresas ou Empresas em Rede</h2>
-    
-        <p>Definição: Estruturas que conectam unidades de produção e parceiros comerciais globalmente.</p>
-    
-        <p>Exemplo:</p>
-        <ul>
-            <li>Amazon e sua rede de centros de distribuição no Brasil.</li>
-        </ul>
-    
-        <h2>Desafios do Sul-Global</h2>
-    
-        <p>Falta de Infraestrutura de Rede: Acesso limitado à internet e sistemas de transporte de dados deficientes.</p>
-    
-        <p>Impacto na Soberania: Dificuldades em exercer controle sobre a circulação de informações e proteger dados.</p>
-    
-        <p>Distribuição Desigual de Datacenters: Concentração em países desenvolvidos, criando disparidades tecnológicas.</p>
-
-        </div>
-    
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    
-    </div>
-<div class="topico">
         <h2>Definição de Redes Geográficas:</h2>
 
         <div class="w3-margin"><img id="imagem1" src="tt15f01.png"
@@ -218,11 +124,19 @@
             <span class="w3-small w3-margin-left" id="citacao1">Fonte: freepik.com </span>
 
         </div>
-        <p>As redes geográficas são como teias que conectam diferentes lugares do mundo, permitindo a circulação de
+        <p>As <span class="termo" data-palavra="Rede Geográfica" data-definicao="Sistema integrado de fluxo de mercadorias, pessoas, dinheiro ou informações, formado por pontos de acesso (os lugares), arcos de transmissão (as linhas de conexão) e nós de bifurcação (os lugares com maior número de conexões). Conceito discutido pelo geógrafo francês Jacques Lévy.">redes geográficas</span> são como teias que conectam diferentes lugares do mundo, permitindo a circulação de
             pessoas, informações, mercadorias e dinheiro. Imagine-as como grandes linhas invisíveis que unem cidades,
             países e continentes. Um exemplo claro de rede geográfica são as redes de transporte, como estradas,
             ferrovias, portos e aeroportos, que facilitam a movimentação de pessoas e produtos de um lugar para outro.
         </p>
+
+        <p>De forma mais precisa, uma rede geográfica pode ser entendida como um sistema integrado de fluxos
+            constituído por pontos de acesso (os diferentes lugares conectados), arcos de transmissão (as linhas que
+            ligam esses pontos) e nós de bifurcação (os lugares com maior número de conexões, e por isso mais
+            valorizados dentro da rede). Nessa lógica, a importância de um lugar não depende apenas de sua posição no
+            espaço, mas do grau de acesso que ele oferece ao conjunto da rede: um pequeno país com um grande
+            aeroporto internacional pode ter mais centralidade na rede aérea mundial do que um país territorialmente
+            maior, mas pouco conectado.</p>
 
 
 
@@ -267,6 +181,67 @@
             contemporâneo, permitindo a interligação e interdependência entre os diversos espaços e sociedades. Entender
             como essas redes funcionam é essencial para compreendermos os desafios e oportunidades da globalização e da
             vida em um mundo cada vez mais conectado.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
+        <h2>Fluxos Internacionais: Pessoas, Informações, Dinheiro e Mercadorias</h2>
+
+        <p>Todas as redes geográficas existem para fazer alguma coisa circular. Na globalização atual, os
+            geógrafos costumam organizar essa circulação em quatro grandes <span class="termo"
+                data-palavra="Fluxos Internacionais"
+                data-definicao="Movimentos de pessoas, mercadorias, dinheiro ou informações entre diferentes países, que conectam e tornam interdependentes as economias e sociedades ao redor do mundo.">fluxos
+                internacionais</span>: de pessoas, de informações, de dinheiro e de mercadorias. Cada um desses fluxos
+            usa redes próprias, mas todos estão interligados e se reforçam mutuamente.</p>
+
+        <h3>Fluxo de Pessoas: Migração e Turismo</h3>
+        <p>O fluxo internacional de pessoas acontece principalmente de duas formas: pela migração, quando alguém sai
+            do país de origem para viver em outro (assunto que já estudamos em detalhe em uma aula anterior), e pelo
+            turismo internacional, quando a pessoa viaja para outro país por um período curto, sem intenção de fixar
+            residência.</p>
+
+        <p>O turismo é uma das atividades econômicas que mais cresceram desde o fim da Segunda Guerra Mundial. Em
+            2022, cerca de 963 milhões de turistas realizaram viagens internacionais, e aproximadamente 60% deles
+            tiveram como destino algum país da Europa, o principal polo turístico do mundo. Em 2019, antes da
+            pandemia de covid-19, o turismo internacional chegou a representar 6,9% das exportações globais,
+            movimentando cerca de 1,7 trilhão de dólares, atrás apenas dos produtos químicos e dos combustíveis como
+            categoria de exportação. Esse crescimento não depende só da vontade de viajar: ele está diretamente
+            ligado aos avanços nas redes técnicas de transporte, que tornaram os deslocamentos mais rápidos e
+            baratos, e às redes de comunicação, que divulgam destinos e vendem pacotes turísticos pela internet.</p>
+
+        <p>Vale lembrar que nem todo fluxo internacional de pessoas é voluntário ou temporário como o turismo. A
+            migração internacional, quando alguém deixa o país de origem para se estabelecer em outro, pode ser
+            motivada por razões econômicas, ambientais, políticas ou por conflitos armados, como estudamos em uma
+            aula anterior sobre os grandes fluxos migratórios do mundo atual. Enquanto o turista viaja e retorna, o
+            migrante reorganiza sua vida no país de destino, o que costuma gerar desafios diferentes: integração
+            cultural, regularização documental e, muitas vezes, resistência por parte da população local.</p>
+
+        <h3>Fluxo de Dinheiro: Remessas e Investimento Estrangeiro</h3>
+        <p>O dinheiro também circula pelo mundo em grande volume, principalmente de duas formas. A primeira são as
+            <span class="termo" data-palavra="Remessas Internacionais"
+                data-definicao="Valores em dinheiro enviados por trabalhadores migrantes para suas famílias no país de origem. Em 2024, somaram cerca de 905 bilhões de dólares no mundo, sendo aproximadamente 685 bilhões destinados a países de baixa e média renda, segundo o Banco Mundial.">remessas
+                internacionais</span>, o dinheiro que trabalhadores migrantes enviam para suas famílias no país de
+            origem. Em 2024, essas remessas somaram cerca de 905 bilhões de dólares no mundo todo, sendo
+            aproximadamente 685 bilhões destinados a países de baixa e média renda, segundo o Banco Mundial. Para
+            muitos desses países, as remessas são mais importantes economicamente do que a ajuda internacional ao
+            desenvolvimento e do que o investimento estrangeiro direto recebido.</p>
+
+        <p>A segunda forma é o <span class="termo" data-palavra="Investimento Estrangeiro Direto (IED)"
+                data-definicao="Investimento feito por uma empresa ou governo de um país na economia de outro país, geralmente por meio da compra de empresas, construção de fábricas ou participação em negócios locais. Em 2025, somou cerca de 1,6 trilhão de dólares no mundo, segundo a UNCTAD.">Investimento
+                Estrangeiro Direto (IED)</span>, quando empresas ou governos de um país investem diretamente na
+            economia de outro, seja comprando empresas locais, construindo fábricas ou participando de negócios. O
+            IED global somou cerca de 1,6 trilhão de dólares em 2025, segundo a Conferência das Nações Unidas sobre
+            Comércio e Desenvolvimento (UNCTAD), um crescimento puxado principalmente pelas economias desenvolvidas,
+            enquanto os países em desenvolvimento cresceram em ritmo mais lento. O Brasil ficou entre os cinco
+            maiores destinos de IED do mundo em 2025, recebendo cerca de 77 bilhões de dólares.</p>
+
+        <h3>Fluxo de Mercadorias e de Informações</h3>
+        <p>O fluxo de mercadorias é o comércio internacional de produtos entre os países, viabilizado pelas redes de
+            transporte que já vimos: navios, aviões, caminhões e trens circulando bens pelo mundo. Vamos aprofundar
+            esse fluxo na próxima aula, quando estudarmos o comércio multilateral e os blocos econômicos. Já o fluxo
+            de informações acontece principalmente pelas redes digitais, que veremos em detalhe a seguir, ao
+            estudarmos as redes técnicas e as redes informacionais.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
         <hr>
@@ -325,6 +300,36 @@
         <hr>
     </div>
 <div class="topico">
+        <h2>Redes de Transporte Marítimo: as Rotas do Comércio Mundial</h2>
+
+        <p>Entre todas as redes técnicas, a navegação oceânica é, em termos de volume, o principal meio de
+            transporte intercontinental de cargas. Os navios transportam três grandes categorias de produtos:
+            líquidos (petróleo e derivados), secos (carvão, minérios, produtos agrícolas) e produtos finais
+            (máquinas, equipamentos e manufaturados em geral). A principal rota mundial dá a volta ao planeta
+            cruzando os oceanos Atlântico, Pacífico e Índico, passando por canais e estreitos estratégicos que
+            funcionam como verdadeiros gargalos do comércio internacional.</p>
+
+        <p>Dois canais artificiais marcaram a história da navegação mundial. O Canal de Suez, inaugurado em 1869,
+            liga o mar Mediterrâneo ao mar Vermelho e reduziu drasticamente a distância e o custo das rotas entre a
+            Europa e a Ásia, evitando a volta pelo Cabo da Boa Esperança, na África. O Canal do Panamá, concluído em
+            1914, liga os oceanos Atlântico e Pacífico por meio do istmo centro-americano e se tornou a principal
+            via de circulação entre a Europa, a costa oeste dos Estados Unidos e os países do Pacífico.</p>
+
+        <p>Além dos canais, alguns estreitos naturais concentram parte enorme do tráfego marítimo mundial. O
+            Estreito de Ormuz, entre o golfo Pérsico e o oceano Índico, é a via de saída de cerca de 88% do petróleo
+            exportado pelos países do golfo Pérsico. O Estreito de Málaca, entre a Malásia e a Indonésia, tem 800
+            quilômetros de extensão e é o maior estreito do mundo utilizado pela navegação internacional, concentrando
+            grande parte do tráfego entre o oceano Índico e o Pacífico. Esses pontos são chamados de <span
+                class="termo" data-palavra="Estrangulamento Geoestratégico"
+                data-definicao="Ponto de passagem obrigatória e de largura reduzida em uma rota de transporte internacional, como um canal ou estreito, cujo bloqueio, congestionamento ou controle político pode afetar diretamente o comércio mundial.">estrangulamentos
+                geoestratégicos</span>: como concentram um volume gigantesco de carga em um espaço estreito, qualquer
+            bloqueio ou conflito nessas áreas pode atrasar ou encarecer o comércio de países do mundo inteiro, o que
+            explica por que essas regiões costumam ser tão disputadas geopoliticamente.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+<div class="topico">
         <h2>Redes Financeiras:</h2>
         <p>As redes financeiras são responsáveis pela circulação rápida do capital em escala global. Elas conectam
             instituições financeiras, como bancos, bolsas de valores e fundos de investimento, permitindo a realização
@@ -343,6 +348,16 @@
             extensa rede de agências bancárias permite que os clientes tenham acesso a uma variedade de serviços
             financeiros, como abertura de contas, empréstimos, investimentos e pagamentos, contribuindo para a inclusão
             financeira e para a movimentação da economia em diferentes localidades do Brasil.</p>
+
+        <p>No plano internacional, a maior parte das transferências bancárias entre países passa pela rede SWIFT
+            (Society for Worldwide Interbank Financial Telecommunication), um sistema de mensagens que conecta mais
+            de 11 mil instituições financeiras em cerca de 200 países e territórios, permitindo que bancos
+            confirmem e liquidem pagamentos internacionais de forma segura e padronizada. Já no Brasil, o Banco
+            Central criou o Pix, sistema de pagamentos instantâneos lançado em 2020, que revolucionou a forma como
+            pessoas e empresas transferem dinheiro dentro do país, com transações liquidadas em poucos segundos, a
+            qualquer hora do dia, todos os dias da semana. Sistemas como esses mostram como as redes financeiras
+            também operam em diferentes escalas: uma rede mundial de bancos, como a SWIFT, e redes nacionais de
+            pagamento, como o Pix.</p>
 
         <h2>Redes Informacionais:</h2>
 
@@ -366,11 +381,26 @@
             desempenham um papel crucial na disseminação de conhecimento, na comunicação entre pessoas e na coordenação
             de atividades em diferentes partes do mundo.</p>
 
+        <p>Apesar de tanta conectividade, o acesso às redes informacionais ainda está longe de ser universal. Segundo
+            a União Internacional de Telecomunicações (UIT), cerca de 6 bilhões de pessoas usavam a internet em 2025,
+            o equivalente a três quartos da população mundial, mas 2,2 bilhões de pessoas continuavam totalmente
+            offline. Essa desigualdade também aparece na renda: 94% das pessoas em países de alta renda usam a
+            internet, contra apenas 23% nos países de baixa renda. O mesmo vale para as redes móveis de quinta
+            geração (5G), que já cobriam 55% da população mundial em 2025, mas chegavam a 84% das pessoas em países
+            ricos e a apenas 4% nos países mais pobres, reforçando as disparidades entre o Sul-Global e os países
+            desenvolvidos que vamos discutir mais adiante.</p>
+
         <h2>Redes de Empresas ou Empresas em Rede:</h2>
 
         <p>As redes de empresas, ou empresas em rede, são estruturas organizacionais que visam otimizar a atividade
             produtiva em escala global. Elas conectam diferentes unidades de produção, fornecedores, distribuidores e
-            parceiros comerciais, permitindo uma coordenação eficiente das operações empresariais em todo o mundo.</p>
+            parceiros comerciais, permitindo uma coordenação eficiente das operações empresariais em todo o mundo. As
+            empresas que operam dessa forma em vários países ao mesmo tempo são chamadas de <span class="termo"
+                data-palavra="Empresa Multinacional"
+                data-definicao="Empresa que possui sede em um país e unidades de produção, distribuição ou filiais em vários outros países, coordenando suas operações em escala global. Também chamada de empresa transnacional.">empresas
+                multinacionais</span> (ou transnacionais): elas mantêm a sede em um país, mas espalham fábricas,
+            centros de distribuição ou filiais por diferentes partes do mundo, de acordo com vantagens como custo de
+            mão de obra, proximidade de mercados consumidores ou incentivos fiscais.</p>
 
         <p>A Amazon é um exemplo emblemático de empresa em rede que opera em escala global. No Brasil, a Amazon
             estabeleceu uma rede de centros de distribuição estrategicamente localizados para atender à demanda dos
@@ -394,31 +424,10 @@
     </div>
 <div class="topico">
         <h2>Controle da Informação nas Redes do Mundo Atual</h2>
-        <p>Vamos discutir os desafios enfrentados pelo <span
-                onclick="document.getElementById('Sul-Global').style.display='block'"
-                class="w3-yellow">Sul-Global</span> devido à falta de infraestrutura de rede, que levanta questões
-            cruciais sobre a soberania dos Estados nacionais nessa parte do mundo.</p>
-
-
-
-
-        <div id="Sul-Global" class="w3-modal w3-margin-top">
-            <div class="w3-modal-content">
-                <div class="w3-container w3-padding">
-                    <span onclick="document.getElementById('Sul-Global').style.display='none'"
-                        class="w3-button w3-red w3-display-topright">&times;</span>
-                    <p><strong>Países do Sul-Global</strong> é um termo frequentemente utilizado para se referir a
-                        países em desenvolvimento ou emergentes. Esses países são caracterizados por uma série de
-                        indicadores socioeconômicos, como baixa renda per capita, infraestrutura limitada, altos índices
-                        de pobreza, acesso restrito a serviços básicos de saúde e educação, além de enfrentarem desafios
-                        significativos no desenvolvimento econômico e social.
-
-
-                    </p>
-
-                </div>
-            </div>
-        </div>
+        <p>Vamos discutir os desafios enfrentados pelo <span class="termo" data-palavra="Sul-Global"
+                data-definicao="Termo frequentemente utilizado para se referir a países em desenvolvimento ou emergentes, caracterizados por indicadores como baixa renda per capita, infraestrutura limitada, altos índices de pobreza e acesso restrito a serviços básicos de saúde e educação.">Sul-Global</span>
+            devido à falta de infraestrutura de rede, que levanta questões cruciais sobre a soberania dos Estados
+            nacionais nessa parte do mundo.</p>
 
         <h3>Falta de Infraestrutura de Rede:</h3>
         <p>No Sul-Global, muitas regiões enfrentam uma grave escassez de infraestrutura de rede, incluindo acesso
@@ -426,31 +435,10 @@
             subdesenvolvidos. Essa falta de infraestrutura dificulta o acesso à informação, a comunicação eficaz e a
             participação na economia digital global.</p>
 
-        <h3><span onclick="document.getElementById('Soberania').style.display='block'"
-                class="w3-yellow">Soberania</span> dos Estados Nacionais:</h3>
+        <h3><span class="termo" data-palavra="Soberania"
+                data-definicao="Princípio que estabelece o poder supremo e incontestável de um Estado sobre seu território, governo, população e assuntos internos e externos, sem interferência de outros Estados ou autoridades. É um dos pilares do direito internacional.">Soberania</span>
+            dos Estados Nacionais:</h3>
 
-
-
-        <div id="Soberania" class="w3-modal w3-margin-top">
-            <div class="w3-modal-content">
-                <div class="w3-container w3-padding">
-                    <span onclick="document.getElementById('Soberania').style.display='none'"
-                        class="w3-button w3-red w3-display-topright">&times;</span>
-                    <p><strong>Soberania</strong> é o princípio fundamental que estabelece o poder supremo e
-                        incontestável de um Estado sobre seu território, governo, população e assuntos internos e
-                        externos. Em outras palavras, é a autoridade máxima que um Estado possui para governar a si
-                        mesmo, sem interferência externa de outros Estados ou autoridades. A soberania é um elemento
-                        essencial da organização política e jurídica dos Estados modernos, sendo um dos pilares do
-                        direito internacional. Ela implica o direito exclusivo de um Estado de tomar decisões e exercer
-                        controle sobre seus próprios assuntos, incluindo questões políticas, econômicas, sociais,
-                        culturais e de segurança.
-
-
-                    </p>
-
-                </div>
-            </div>
-        </div>
         <p>A ausência de infraestrutura de rede no Sul-Global levanta preocupações sobre a soberania dos Estados
             nacionais nessa parte do mundo. Sem uma infraestrutura de rede robusta e eficiente, os governos podem
             enfrentar dificuldades para exercer controle sobre a circulação de informações, proteger os dados pessoais
@@ -481,12 +469,118 @@
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
         <hr>
     </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    A SWIFT conecta bancos de cerca de 200 países, enquanto o Pix opera dentro do Brasil. Essa
+                    diferença mostra que as redes financeiras:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="correto" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Operam em escalas diferentes, mundial e nacional</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="errado" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) São o mesmo sistema com nomes diferentes</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Não têm relação com redes geográficas</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Redes financeiras existem em várias escalas: global, como a SWIFT, e nacional, como o Pix!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    A concentração de datacenters em países desenvolvidos, em detrimento do Sul-Global, tem como
+                    principal consequência:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Redução do consumo de energia global</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Disparidade no controle sobre os próprios dados</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Fim das redes informacionais no Sul-Global</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Menos datacenters significa menos controle sobre o processamento dos próprios dados!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot15" src="inforesumott15.webp"
+                    alt="Infográfico resumo As Redes do Espaço Geográfico" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
 <div class="topico">
 
         <h2 id="centralizado">"A pergunta não é uma marca de ignorância, mas sim um sinal de inteligência."
             (Sócrates).</h2>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Como as redes geográficas podem influenciar o desenvolvimento econômico de uma região?
             </strong> </p>
 
@@ -495,7 +589,7 @@
             região ao facilitar o transporte de mercadorias, promover o turismo, estimular a migração de mão de obra e
             atrair investimentos para áreas estratégicas.</p>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Quais são os impactos ambientais das infraestruturas de rede, como estradas e ferrovias, nas regiões
                 atravessadas?
             </strong></p>
@@ -504,7 +598,7 @@
             impactos ambientais significativos, incluindo fragmentação de habitats naturais, poluição do ar e da água,
             desmatamento e perda de biodiversidade.</p>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Qual é a importância das redes geográficas na distribuição de recursos naturais e na exploração de
                 oportunidades econômicas?
             </strong></p>
@@ -523,6 +617,125 @@
 
     </div>
 
+<div class="topico">
+        <h2>Atividade em Grupo: Transformando a Sociedade e o Espaço Geográfico através das Redes Geográficas</h2>
+
+        <p><strong>Objetivo:</strong> explorar como as redes geográficas podem ser utilizadas como ferramentas de
+            intervenção e transformação social, econômica e ambiental.</p>
+
+        <h3>Descrição da Atividade</h3>
+        <p>Em grupos, escolham ou elaborem uma solicitação às autoridades locais que aponte uma possível solução
+            para um problema real da cidade ou do campo por meio de redes. Cada grupo deve elaborar um plano sobre
+            como utilizar as redes geográficas disponíveis para enfrentar o problema identificado. Considerem quais
+            redes podem ser modificadas, expandidas ou melhoradas, quais parcerias podem ser estabelecidas (poder
+            público, empresas, ONGs) e como a intervenção afetará diferentes partes da sociedade. Depois, apresentem
+            o plano de solicitação para a turma.</p>
+
+        <h3>Problemas para Discussão</h3>
+        <p>Escolham um dos tópicos abaixo e discutam em grupo:</p>
+
+        <div class="w3-responsive">
+            <table class="w3-table w3-striped w3-centered" style="table-layout: fixed; width: 100%;">
+                <tr>
+                    <th>Problema</th>
+                    <th>Desafio</th>
+                    <th>Proposta de Solução</th>
+                </tr>
+                <tr>
+                    <td>1. Mobilidade Urbana</td>
+                    <td>Congestionamento de trânsito nas principais vias da cidade, resultando em atrasos, estresse
+                        e poluição do ar.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+                <tr>
+                    <td>2. Acesso à Saúde</td>
+                    <td>Falta de acesso a serviços de saúde em áreas periféricas da cidade, dificultando o
+                        atendimento médico para a população local.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+                <tr>
+                    <td>3. Distribuição de Recursos Naturais</td>
+                    <td>Desigualdade na distribuição de água potável em comunidades rurais, resultando em escassez
+                        e problemas de saúde relacionados à falta de higiene.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+                <tr>
+                    <td>4. Desemprego Juvenil</td>
+                    <td>Alta taxa de desemprego entre jovens de baixa renda, resultando em ociosidade, falta de
+                        perspectiva e aumento da criminalidade.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+                <tr>
+                    <td>5. Poluição Ambiental</td>
+                    <td>Poluição do ar e da água devido à falta de saneamento básico e à emissão de gases
+                        poluentes por indústrias e veículos.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+                <tr>
+                    <td>6. Exclusão Digital</td>
+                    <td>Falta de acesso à internet e tecnologia em áreas rurais e periféricas, resultando em
+                        exclusão digital e limitação no acesso à informação e oportunidades educacionais e
+                        profissionais.</td>
+                    <td><em>(espaço para o grupo propor a solução)</em></td>
+                </tr>
+            </table>
+        </div>
+
+        <p>Depois da atividade em grupo, reflitam individualmente sobre o que aprenderam na aula. Se o vestibular
+            for o foco deste momento dos estudos, aproveitem para resolver algumas questões sobre o tema das redes
+            geográficas.</p>
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+        <hr>
+    </div>
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos que as redes geográficas conectam lugares por meio de fluxos de pessoas,
+                informações, dinheiro e mercadorias, e que a importância de um lugar numa rede depende do seu grau
+                de conexão, não só de sua posição no espaço. Vimos os quatro grandes fluxos internacionais: o
+                turismo e a migração como fluxo de pessoas, as remessas e o investimento estrangeiro direto como
+                fluxo de dinheiro, e o comércio e a internet como fluxo de mercadorias e de informações. Vimos
+                também os diferentes tipos de redes (técnicas, financeiras, informacionais e de empresas) e como a
+                distribuição desigual de infraestrutura, como os datacenters, aprofunda as disparidades entre o
+                Sul-Global e os países desenvolvidos.</p>
+            <p>Na próxima aula, vamos aprofundar um desses fluxos: o comércio multilateral entre os países,
+                estudando os blocos comerciais, a Organização Mundial do Comércio (OMC) e como funciona a balança
+                comercial de exportações e importações.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. O que são redes geográficas e qual é a sua importância na dinâmica do espaço geográfico
+                    atual?</h3>
+                <h3>2. O que são os fluxos internacionais? Cite os quatro tipos e dê um exemplo de cada um.</h3>
+                <h3>3. Qual é a diferença entre migração e turismo como formas de fluxo internacional de pessoas?</h3>
+                <h3>4. O que são remessas internacionais? Por que elas são tão importantes para países de baixa e
+                    média renda?</h3>
+                <h3>5. O que é Investimento Estrangeiro Direto (IED)? Dê um exemplo de como ele chega ao Brasil.</h3>
+                <h3>6. Quais são os principais tipos de redes técnicas, financeiras, informacionais e de empresas na
+                    atualidade? Dê um exemplo de cada uma.</h3>
+                <h3>7. Qual é a importância dos cabos submarinos de fibra óptica para o funcionamento da internet
+                    mundial?</h3>
+                <h3>8. O que são "empresas em rede"? Explique esse conceito usando o exemplo da Amazon no Brasil.</h3>
+                <h3>9. Quais são os desafios enfrentados pelo Sul-Global devido à falta de infraestrutura de rede?
+                    Como isso afeta a soberania dos Estados nacionais?</h3>
+                <h3>10. Por que a distribuição desigual de datacenters pelo mundo contribui para os desafios
+                    enfrentados pelo Sul-Global?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="
@@ -534,7 +747,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'O tema As Redes do Espaço Geográfico é fantástico! Continue estudando!',
         pontos: 40
     });
 
@@ -553,10 +766,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-        </div>
-
-    </div>
-
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
             <hr>
@@ -577,6 +786,8 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
+
         </div>
 
     </main>

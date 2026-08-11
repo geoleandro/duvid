@@ -136,6 +136,7 @@
     "linkTexto": "3ano/Textos3/Texto07/tt7.php?id=307",
     "linkQuestoes": "questoes/modelo-questoes.php?id=307",
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosPatricia",
       "SantosNatureza",
       "Vesentini",
@@ -148,6 +149,7 @@
       "BrasilEscolaDIT",
       "KardiaMeioTecnico"
     ],
+    "mapaMental": "3ano/Textos3/Texto07/inforesumott7.webp",
     "objetivo": "Estudar a formação do meio técnico e identificar suas características fundamentais. Relacionar tais características ao processo de industrialização.",
     "audio": null
   },
@@ -159,6 +161,7 @@
     "linkTexto": "3ano/Textos3/Texto08/tt8.php?id=308",
     "linkQuestoes": "questoes/modelo-questoes.php?id=308",
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosPatricia",
       "SantosNatureza",
       "Vesentini",
@@ -172,6 +175,7 @@
       "BrasilEscolaDIT",
       "KardiaMeioTecnico"
     ],
+    "mapaMental": "3ano/Textos3/Texto08/inforesumott8.webp",
     "objetivo": "Compreender a constituição do meio técnico-científico-informacional e sua relação com os processos industriais no período atual da globalização.",
     "audio": null
   },
@@ -185,6 +189,7 @@
     "objetivo": "Compreender os novos processos no capitalismo global relacionadas as mudanças na lógica de produção industrial no atual período.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosGlobalizacao",
       "Vesentini",
       "Vogler",
@@ -195,7 +200,8 @@
       "BrasilEscolaDIT",
       "NatGeoRevolucaoIndustrial",
       "BangladeshTextil"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto09/inforesumott9.webp"
   },
   {
     "id": 310,
@@ -207,6 +213,7 @@
     "objetivo": "Comparar e compreender as diferentes formas de regionalização do mundo ao longo das últimas décadas. Destacar a importância das mudanças políticas e econômicas na regionalização. Descrever brevemente as ordens mundiais, focando até o período da Guerra Fria e suas consequências.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -216,7 +223,8 @@
       "40MapasMundo",
       "BBCMapaMundoReal",
       "GallPetersBBC"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto10/inforesumott10.webp"
   },
   {
     "id": 311,
@@ -228,6 +236,7 @@
     "objetivo": "Caracterizar a ordem mundial pós-Guerra Fria. Destacar as diferentes visões sobre a organização do poder político e econômico no espaço mundial na atualidade. Destacar a importância dos blocos econômicos nessa nova ordem, assim como entender os diferentes níveis de integração que caracterizam tais organizações.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Boniface",
       "SantosGlobalizacao",
       "Vesentini",
@@ -238,7 +247,8 @@
     "links": [
       "40MapasMundo",
       "AgenciaBrasilBRICS"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto11/inforesumott11.webp"
   },
   {
     "id": 312,
@@ -260,6 +270,7 @@
     "objetivo": "Identificar e compreender as condições sociais e territoriais que determinam as práticas agrícolas, com destaque para as formas de acesso à terra e para as técnicas e relações de trabalho utilizadas. Descrever e comparar alguns exemplos de sistemas agrícolas existentes hoje no mundo.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "Vesentini",
       "Vogler",
       "Skolnick",
@@ -269,7 +280,8 @@
       "UNFome",
       "AgenciaBrasilExportacoes",
       "ONUAgua"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto13/inforesumott13.webp"
   },
   {
     "id": 314,
@@ -281,6 +293,7 @@
     "objetivo": "Compreender o processo de urbanização mundial e as transformações do espaço geográfico decorrente da dinâmica da população urbana no mundo.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosGlobalizacao",
       "Vesentini",
       "BNCC"
@@ -289,7 +302,8 @@
       "ONUPopulacaoMundial",
       "AgenciaBrasilUrbanizacao",
       "AgenciaBrasilMetropoles"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto14/inforesumott14.webp"
   },
   {
     "id": 315,
@@ -301,6 +315,7 @@
     "objetivo": "Entender as relações entre os principais fluxos na era da globalização e seu papel na dinâmica do espaço geográfico atual. Identificar diferentes tipos de redes pelo mundo.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosGlobalizacao",
       "SantosNatureza",
       "Vesentini",
@@ -312,7 +327,8 @@
       "BrasilEscolaMiltonSantos",
       "KardiaMeioTecnico",
       "40MapasMundo"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto15/inforesumott15.webp"
   },
   {
     "id": 316,
@@ -324,6 +340,7 @@
     "objetivo": "Relacionar as mudanças no comércio internacional no atual período da globalização.",
     "audio": null,
     "bibliografia": [
+      "TerraGuimaraesAraujo",
       "SantosGlobalizacao",
       "Vesentini",
       "Vogler",
@@ -334,7 +351,8 @@
       "AgenciaBrasilBRICS",
       "AgenciaBrasilExportacoes",
       "ChinaBrasil"
-    ]
+    ],
+    "mapaMental": "3ano/Textos3/Texto16/inforesumott16.webp"
   },
   {
     "id": 317,

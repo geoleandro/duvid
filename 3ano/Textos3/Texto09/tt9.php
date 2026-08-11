@@ -4,15 +4,18 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="" name="description"/>
-<meta content="" property="og:title"/>
-<meta content="" property="og:description"/>
+<meta content="Industrialização mundial III: acumulação flexível, concentração da atividade industrial, neoliberalismo e capitalismo monopolista no capitalismo global contemporâneo" name="description"/>
+<meta content="Texto 09 - Industrialização Mundial III" property="og:title"/>
+<meta content="Do Consenso de Washington às big techs: entenda como a acumulação flexível, o neoliberalismo e o capitalismo monopolista redesenharam a economia mundial" property="og:description"/>
 <meta content="" property="og:image"/>
 <link href="/estilos/index-estilo.css" rel="stylesheet"/>
 <link href="/estilos/w3.css" rel="stylesheet"/>
 <link href="/estilos/navbar.css" rel="stylesheet"/>
 <link href="/estilos/rpg-sistema.css" rel="stylesheet"/>
 <link href="/estilos/ModeloCss.css" rel="stylesheet"/>
+<link href="/estilos/explicacaoPalavra.css" rel="stylesheet"/>
+<link href="/estilos/texto-estilo.css" rel="stylesheet"/>
+<link href="/estilos/memory-game.css" rel="stylesheet"/>
 <link href="/fotoIndex/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -31,7 +34,10 @@
 <script defer="" src="/js/abrirmenu.js"></script>
 <script defer="" src="/js/carregar.js"></script>
 <script defer="" src="/js/aulas-geral.js"></script>
-<title>3º ano - Texto 09</title>
+<script defer="" src="/js/glossario.js"></script>
+<script defer="" src="/js/texto-painel.js"></script>
+<script defer="" src="/js/memory-game.js"></script>
+<title>3º ano - Texto 09 - Industrialização Mundial III</title>
 </head>
 <body>
 <?php include __DIR__ . '/../../../includes/header.php'; ?>
@@ -39,7 +45,7 @@
 <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
 <div class="topico">
 <div class="w3-padding-top-48"></div>
-<h1 id="h1"> </h1>
+<h1 id="h1">Industrialização Mundial III</h1>
 <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
 <div class="w3-row">
 <div class="w3-col s2 m1 w3-center">
@@ -65,39 +71,30 @@
 </div>
 <div class="topico">
 <h2> Introdução </h2>
-<p> <span class="primeiraLetra">N</span>aula passada vimos o surgimento do meio
-            técnico-científico-informacional, e entendemos como o Fordismo, o Keynesianismo e as multinacionais se
-            moldaram novas formas das indústrias produzirem no mundo. </p>
-<p>Hoje vamos estudar como a economia se tornou global e os fatores para o surgimento de novos modos de
-            produção, como a acumulação flexível amparada no neoliberalismo que se expandiu pelo globo a partir da
-            década de 1980. </p>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-<hr/>
-</div>
-<div class="topico">
-<div class="w3-pale-yellow">
-<h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-<h3>1. O que é a acumulação flexível?</h3>
-<h3>2. Quais são as características da acumulação flexível?</h3>
-<h3>3. Como a acumulação flexível pode impactar os trabalhadores?</h3>
-<h3>4. O que é a concentração da atividade industrial?</h3>
-<h3>5. Dê exemplos de setores onde há concentração da atividade industrial.</h3>
-<h3>6. O que é um conglomerado?</h3>
-<h3>7. Como o neoliberalismo afeta a economia e os serviços públicos?</h3>
-<h3>8. Quais são os principais impactos do capitalismo monopolista?</h3>
-<h3>9. Quais setores são mencionados como exemplos de capitalismo monopolista?</h3>
-</div>
+<p> <span class="primeiraLetra">N</span>a aula passada, vimos o surgimento do meio
+            técnico-científico-informacional e entendemos como o Fordismo, o Toyotismo, o Keynesianismo e as
+            empresas transnacionais moldaram novas formas de as indústrias produzirem no mundo, organizadas pela
+            Nova Divisão Internacional do Trabalho. </p>
+<p>Hoje vamos estudar como esse capitalismo global se reorganizou ainda mais a partir dos anos 1970 e 1980, com o
+            surgimento de novos modos de produção, como a acumulação flexível, amparada em uma nova doutrina
+            econômica: o neoliberalismo. </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
 <div class="topico">
 <h2> Acumulação flexível </h2>
-<p> Vamos falar sobre um tema bem importante na economia: a Acumulação Flexível. Esse termo pode parecer
-            complicado, mas é algo que afeta bastante o jeito como as empresas produzem e como isso influencia o
-            mercado.</p>
-<p> A Acumulação Flexível é um modelo econômico que traz muita flexibilidade na produção. É como se as fábricas
-            conseguissem se adaptar rapidinho às mudanças do mercado, produzindo só o que é necessário, no momento
-            certo, sem fazer estoques gigantes.</p>
+<p> Vamos falar sobre um tema bem importante na economia: a <span class="termo" data-palavra="Acumulação Flexível"
+                data-definicao="Termo criado pelo geógrafo David Harvey para descrever o modelo de produção flexível
+                que substituiu a rigidez do regime fordista-keynesiano a partir da década de 1970, apoiado em
+                tecnologia, terceirização e adaptação rápida à demanda.">Acumulação Flexível</span>. Esse termo pode
+            parecer complicado, mas é algo que afeta bastante o jeito como as empresas produzem e como isso influencia
+            o mercado.</p>
+<p> O conceito foi criado pelo geógrafo britânico David Harvey, no livro "Condição Pós-Moderna", de 1989, para
+            descrever a passagem de um regime de produção fordista-keynesiano, rígido e concentrado em uma única
+            fábrica, para um modelo muito mais flexível. Essa transição está diretamente ligada ao Toyotismo, que você
+            já estudou na aula passada: as fábricas passaram a se adaptar rapidamente às mudanças do mercado,
+            produzindo só o que é necessário, no momento certo, sem manter estoques gigantes, no espírito do sistema
+            just in time.</p>
 <div class="w3-margin"><img alt="tt09f02" class="w3-mobile" id="imagem2" src="tt09f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao12"> Fonte: https://www.significados.com.br/ </span>
 </div>
@@ -109,6 +106,11 @@
             conseguem mudar rapidamente de um modelo de carro para outro, seguindo as tendências do mercado. Na
             tecnologia, com empresas lançando novos produtos o tempo todo, sempre buscando inovações. E na moda rápida,
             aquela que traz as últimas tendências das passarelas para as lojas em um piscar de olhos.</p>
+<p> A chamada "moda rápida", ou fast fashion, é um dos exemplos mais visíveis da acumulação flexível no dia a
+            dia. Redes como Zara, Shein e H&amp;M conseguem projetar, produzir e colocar novas peças à venda em
+            questão de semanas, terceirizando a costura para fábricas em países onde a mão de obra é mais barata.
+            Esse ritmo acelerado de produção e descarte de roupas também levanta preocupações ambientais, já que
+            gera uma quantidade enorme de resíduos têxteis todos os anos.</p>
 <div class="w3-margin"><img alt="tt09f09" class="w3-mobile" id="imagem9" src="tt09f09.png"/>
 <span class="w3-small w3-margin-left" id="citacao9"> Fonte: pixabay.com. </span>
 </div>
@@ -116,6 +118,11 @@
             que muitas vezes os trabalhadores não têm condições justas. Além disso, pode trazer instabilidade, já que as
             mudanças rápidas às vezes deixam alguns setores ou empresas para trás. E, por fim, ela pode concentrar a
             riqueza em poucas mãos, deixando muita gente de fora dos benefícios.</p>
+<p> Um desdobramento recente e bem conhecido da acumulação flexível é a chamada "uberização" do trabalho: em vez
+            de contratar funcionários fixos, empresas de aplicativos conectam prestadores de serviço a clientes sob
+            demanda, sem vínculo empregatício formal. Isso leva a extrema flexibilidade da lógica da acumulação
+            flexível ao limite, e é um dos temas mais debatidos hoje quando se discute os direitos trabalhistas nesse
+            novo modelo de economia.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -147,83 +154,37 @@
 <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
 </div>
 </div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O que caracteriza a Acumulação Flexível?</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
-<label class="card-opcao" for="p2a">
-<span>a) Produção centralizada e grandes estoques.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto"/>
-<label class="card-opcao" for="p2b">
-<span>b) Adaptação rápida da produção e terceirização do trabalho.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado"/>
-<label class="card-opcao" for="p2c">
-<span>c) Enfoque no trabalho artesanal e produção sob medida.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'verdade, é definida pela capacidade de adaptação às demandas do mercado, utilizando produção descentralizada e terceirização', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp2"></p>
-<div class="area w3-center">
-<img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Na Acumulação Flexível, a terceirização de parte do trabalho sempre garante melhores condições e direitos
-            para os trabalhadores.</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
-<label class="card-opcao" for="p3a">
-<span>a) Verdadeiro</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto"/>
-<label class="card-opcao" for="p3b">
-<span>b) Falso</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'nem sempre garante as melhores condições de vida e trabalho', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp3"></p>
-<div class="area w3-center">
-<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
 <div class="topico">
 <h2> Concentração da atividade industrial </h2>
-<p> Essa concentração acontece quando a produção industrial fica centralizada em algumas poucas empresas
+<p> Essa <span class="termo" data-palavra="Concentração da Atividade Industrial"
+                data-definicao="Fenômeno em que a produção industrial fica centralizada em algumas poucas regiões do
+                mundo ou em poucas empresas gigantes, formando os principais centros industriais do planeta.">concentração</span>
+            acontece quando a produção industrial fica centralizada em algumas poucas empresas
             gigantes. São aquelas que a gente vê todo dia nos noticiários, as que dominam o mercado e às vezes até
             parecem ter o controle de tudo!</p>
-<p>Isso acaba formando as principais regiões industrias do mundo como o Centro-Leste dos Estados Unidos e
-            sudeste do Canadá. A Europa Ocidental em países como Grã-Bretanha, França, Alemanhã etc; Japão, China,
-            Sudeste do Brasil e Argentina, além da Austrália.</p>
+<p>Isso acaba formando as principais regiões industriais do mundo, como o Centro-Leste dos Estados Unidos e o
+            sudeste do Canadá, a Europa Ocidental em países como Grã-Bretanha, França e Alemanha, além de Japão,
+            China, o Sudeste do Brasil e a Argentina, e a Austrália. No Brasil, essa concentração é histórica: o
+            estado de São Paulo, por causa da infraestrutura herdada da economia cafeeira, ainda responde por cerca
+            de um quarto do PIB industrial do país, mesmo após décadas de políticas de desconcentração.</p>
 <div class="w3-margin"><img alt="tt09f01" class="w3-mobile" id="imagem1" src="tt09f01.png"/>
 <span class="w3-small w3-margin-left" id="citacao1"> </span>
 </div>
 <p> Quando olhamos de perto, vemos que essa concentração traz algumas características bem marcantes. Primeiro,
             são poucas empresas que mandam na área, formando quase que um clube exclusivo. Elas têm tanto poder que
-            conseguem controlar os preços e até ditar as regras do mercado. E não podemos esquecer das economias de
-            escala, que são os benefícios de produzir em grande quantidade, deixando os concorrentes menores para trás.
+            conseguem controlar os preços e até ditar as regras do mercado. E não podemos esquecer das <span
+                class="termo" data-palavra="Economia de Escala"
+                data-definicao="Redução do custo médio de produção de cada unidade de um produto à medida que a
+                quantidade total produzida aumenta, o que dá vantagem competitiva às grandes empresas frente às
+                menores.">economias de escala</span>, que são os benefícios de produzir em grande quantidade,
+            deixando os concorrentes menores para trás.
         </p>
+<p>Um exemplo extremo e muito atual dessa concentração é a indústria de semicondutores. Taiwan, um pequeno
+            território insular, responde por mais de 60% da produção mundial de chips e por cerca de 90% da
+            fabricação dos chips mais avançados, aqueles usados em inteligência artificial e nos smartphones mais
+            modernos. Só a empresa taiwanesa TSMC controla mais da metade do mercado global de fabricação de chips
+            sob encomenda. Essa concentração extrema em um único território torna a economia mundial extremamente
+            dependente de Taiwan, e é um dos motivos das tensões geopolíticas envolvendo a região e a China.</p>
 <p> Para entender melhor, vamos ver alguns exemplos: na <span class="w3-yellow" onclick="document.getElementById('automobilística').style.display='block'">indústria
                 automobilística</span> , essas empresas gigantes que conhecemos são as que dominam o mercado, lançam
             modelos novos e fazem a concorrência correr atrás. Na tecnologia, com as grandes marcas que lançam os
@@ -255,7 +216,7 @@
         </p>
 <p> E não para por aí! Temos também alguns termos que ajudam a entender melhor esse mundo da concentração
             industrial. Vamos lá:</p>
-<div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
+<div class="w3-panel w3-pale-yellow w3-padding-small w3-margin">
 <ul>
 <li>
 <strong>Conglomerado</strong>: É quando várias empresas diferentes se juntam sob o controle de um
@@ -301,77 +262,39 @@
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O que significa concentração da atividade industrial?</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p4a" name="pergunta4" type="radio" value="errado"/>
-<label class="card-opcao" for="p4a">
-<span>a) Distribuição igualitária da produção entre muitas empresas.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p4b" name="pergunta4" type="radio" value="errado"/>
-<label class="card-opcao" for="p4b">
-<span>b) Domínio do mercado por uma única empresa.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p4c" name="pergunta4" type="radio" value="correto"/>
-<label class="card-opcao" for="p4c">
-<span>c) Domínio do mercado por poucas empresas.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'a concentração da atividade industrial ocorre quando poucas empresas têm grande controle sobre um setor, limitando a concorrência', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp4"></p>
-<div class="area w3-center">
-<img height="64" id="globinho4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>A concentração da atividade industrial pode ser observada no mercado de smartphones, onde poucas empresas
-            como Apple, Samsung e Huawei dominam a maior parte das vendas globais.</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p5a" name="pergunta5" type="radio" value="correto"/>
-<label class="card-opcao" for="p5a">
-<span>a) Verdadeiro</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p5b" name="pergunta5" type="radio" value="errado"/>
-<label class="card-opcao" for="p5b">
-<span>b) Falso</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Legal, essa foi bem fácil, ganhou seu primeiro globinho', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp5"></p>
-<div class="area w3-center">
-<img height="64" id="globinho5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
 <div class="topico">
 <h2> Neoliberalismo </h2>
-<p>O Neoliberalismo é uma ideologia econômica que prega o livre mercado, ou seja, menos interferência do Estado
-            na economia e mais espaço para as empresas se movimentarem. Isso se traduz em privatização de setores antes
-            controlados pelo governo, desregulamentação das atividades empresariais e um forte enfoque no
-            individualismo. </p>
+<p>O <span class="termo" data-palavra="Neoliberalismo"
+                data-definicao="Doutrina econômica surgida entre as décadas de 1970 e 1980, que defende a redução da
+                intervenção do Estado na economia, a privatização de empresas estatais e a liberalização do
+                comércio.">Neoliberalismo</span> é uma ideologia econômica que prega o livre mercado, ou seja, menos
+            interferência do Estado na economia e mais espaço para as empresas se movimentarem. Isso se traduz em
+            privatização de setores antes controlados pelo governo, desregulamentação das atividades empresariais e
+            um forte enfoque no individualismo. </p>
+<p>Essa doutrina ganhou corpo entre as décadas de 1970 e 1980, em um contexto de flexibilização da produção
+            industrial, integração econômica entre os países e sucessivas crises do capitalismo, que levaram
+            economistas a propor mudanças na forma de atuação dos governos. Em 1989, um conjunto de regras básicas
+            formuladas por instituições financeiras internacionais, conhecido como <span class="termo"
+                data-palavra="Consenso de Washington"
+                data-definicao="Conjunto de recomendações econômicas neoliberais formulado em 1989 por instituições
+                como o FMI e o Banco Mundial, que serviu de base para reformas em países endividados da América
+                Latina, do Leste Europeu e da Ásia Central.">Consenso de Washington</span>, passou a orientar reformas
+            neoliberais em diversos países. Segundo essas regras, os Estados deveriam adotar o chamado <span
+                class="termo" data-palavra="Estado Mínimo"
+                data-definicao="Modelo defendido pelo neoliberalismo em que o Estado intervém o mínimo possível na
+                economia, restringindo sua ação a setores considerados essenciais.">Estado Mínimo</span>, fazer
+            ajustes fiscais, reduzir gastos públicos e privatizar empresas estatais para garantir a entrada rápida de
+            capital estrangeiro.</p>
+<p>A maioria dos países da América Latina, do Leste Europeu e da Ásia Central aderiu a essas recomendações,
+            muitas vezes pressionados por organismos como o FMI, o Banco Mundial e o Bird, que condicionavam seus
+            empréstimos ao cumprimento das reformas. Desde a década de 1990, porém, o Consenso de Washington tem sido
+            duramente criticado por economistas e analistas políticos: o acirramento das desigualdades sociais, o
+            aumento do desemprego e da pobreza e a redução dos sistemas de proteção social estão entre os principais
+            problemas atribuídos às políticas neoliberais.</p>
 <div class="w3-margin"><img alt="tt09f06" class="w3-mobile" id="imagem6" src="tt09f06.png"/>
 <span class="w3-small w3-margin-left" id="citacao6"> Fonte: https://www.ihu.unisinos.br/ </span>
 </div>
-<div class="w3-panel w3-leftbar w3-blue-gray w3-margin w3-padding">
+<div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 <h4><strong>Características:</strong></h4>
 <p>Privatização: Setores como transporte, energia e saúde passam para as mãos de empresas privadas.</p>
 <p>Desregulamentação: Redução das regras que as empresas precisam seguir, como normas ambientais e
@@ -384,7 +307,15 @@
 <p>Reino Unido: Sob o governo de Margaret Thatcher nos anos 80, o Reino Unido implementou políticas de
                 austeridade, cortando gastos sociais e favorecendo o setor privado.</p>
 <p>Estados Unidos: Com a desregulamentação do setor financeiro nos anos 90 e 2000, os EUA viram um aumento
-                na concentração de riqueza e uma crise financeira global em 2008.</p>
+                na concentração de riqueza e uma crise financeira global em 2008. Naquele ano, a falta de
+                fiscalização sobre bancos e instituições financeiras, que vinham concedendo empréstimos imobiliários
+                de altíssimo risco, provocou o colapso de grandes bancos, como o Lehman Brothers, e desencadeou uma
+                recessão que se espalhou por praticamente todo o mundo, sendo considerada a pior crise econômica
+                desde a Grande Depressão de 1929.</p>
+<p>Brasil: Nos anos 1990, os governos de Fernando Collor e, principalmente, Fernando Henrique Cardoso
+                aplicaram um amplo programa de privatizações, vendendo para a iniciativa privada empresas estatais
+                como a Vale do Rio Doce, a Telebrás e diversas companhias de energia elétrica, seguindo diretamente
+                as recomendações do Consenso de Washington.</p>
 <h4><strong>Impactos:</strong></h4>
 <p> Desigualdade: Aumento da disparidade de renda e oportunidades entre ricos e pobres.</p>
 <div class="w3-margin"><img alt="8" class="w3-mobile" id="imagem8" src="tt09f08.png"/>
@@ -400,33 +331,6 @@
             sobre seu impacto na sociedade e na economia dos países ao redor do mundo.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O Neoliberalismo defende uma maior intervenção do Estado na economia e na proteção dos serviços públicos.</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p6a" name="pergunta6" type="radio" value="errado"/>
-<label class="card-opcao" for="p6a">
-<span>a) Verdadeiro</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p6b" name="pergunta6" type="radio" value="correto"/>
-<label class="card-opcao" for="p6b">
-<span>b) Falso</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'ao contrário, o neoliberalismo é um sistema base para o livre mercado', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp6"></p>
-<div class="area w3-center">
-<img height="64" id="globinho6" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
@@ -463,7 +367,11 @@
 </div>
 <div class="topico">
 <h2> O Capitalismo monopolista</h2>
-<p> O Capitalismo Monopolista impacta diretamente o mercado e as nossas escolhas como consumidores.</p>
+<p> O <span class="termo" data-palavra="Capitalismo Monopolista"
+                data-definicao="Fase do capitalismo em que o poder econômico se concentra nas mãos de poucas grandes
+                empresas, capazes de controlar preços, produção e até influenciar decisões políticas em um setor
+                inteiro.">Capitalismo Monopolista</span> impacta diretamente o mercado e as nossas escolhas como
+            consumidores.</p>
 <p> Então, o que é esse tal de Capitalismo Monopolista? Basicamente, é quando o poder econômico está concentrado
             nas mãos de poucas empresas, que dominam praticamente um setor inteiro. É como se elas fossem as donas da
             festa, controlando tudo o que acontece no mercado.</p>
@@ -480,165 +388,74 @@
             respectivos campos. Outro setor que também é bastante monopolizado é o de telecomunicações, com empresas que
             controlam desde a internet que usamos até as nossas ligações. E não podemos esquecer do setor farmacêutico,
             onde algumas poucas empresas têm um controle enorme sobre os medicamentos que consumimos. </p>
-<p> Em 2023, as gigantes da tecnologia arrebentaram: juntas, faturaram incríveis US$ 1.59 trilhão! Quem liderou
-            o ranking foi a Amazon, que bombou com um total de US$ 575 bilhões. Mas a Apple deu uma escorregada, foi a
-            única que teve uma receita menor em comparação com o ano passado: US$ 344 bilhões em 2023 contra US$ 388
-            bilhões em 2022. Loucura, né?</p>
+<p> Em 2023, as gigantes da tecnologia faturaram cifras impressionantes: somando apenas quatro delas, Amazon
+            (US$ 574,8 bilhões), Apple (US$ 383,3 bilhões), Alphabet, dona do Google (US$ 307 bilhões), e Meta, dona
+            do Facebook e do Instagram (US$ 134,9 bilhões), a receita combinada passa de US$ 1,4 trilhão em um único
+            ano. A Apple, aliás, foi a única do grupo que teve receita menor que no ano anterior: caiu de US$ 394,3
+            bilhões em 2022 para US$ 383,3 bilhões em 2023, uma queda puxada principalmente pela valorização do dólar
+            frente a outras moedas.</p>
 <p> Mas por que isso tudo importa? Bem, os impactos são muitos. Primeiro, a desigualdade. Com essas empresas tão
             poderosas, fica difícil para as pequenas e médias empresas competirem, o que pode aumentar as diferenças
             econômicas entre as pessoas. Além disso, a gente acaba com menos opções de escolha, porque tudo acaba sendo
             ditado por esses gigantes. E, por fim, a influência política. Com tanto poder econômico, essas empresas
             também têm voz nas decisões políticas, o que pode afetar diretamente as políticas públicas.</p>
+<p>Esse tipo de preocupação não é novidade. Um dos casos mais famosos da história aconteceu nos Estados Unidos,
+            no final do século XIX, com a Standard Oil, empresa de petróleo de John D. Rockefeller. Em 1882, cerca de
+            quarenta empresas ligadas à Standard Oil se reorganizaram em um truste que chegou a controlar praticamente
+            todo o refino de petróleo do país. Para conter esse tipo de domínio de mercado, o governo dos Estados
+            Unidos aprovou, em 1890, a Lei Sherman Antitruste, e em 1911 a Suprema Corte determinou que a Standard Oil
+            fosse dividida em 33 empresas menores.</p>
+<p>No Brasil, quem cumpre um papel parecido é o <span class="termo" data-palavra="CADE"
+                data-definicao="Conselho Administrativo de Defesa Econômica: autarquia federal brasileira responsável
+                por investigar e julgar práticas que prejudicam a livre concorrência, como cartéis e abusos de poder
+                econômico, além de analisar fusões e aquisições entre empresas.">CADE</span>, o Conselho
+            Administrativo de Defesa Econômica. Vinculado ao Ministério da Justiça, o CADE tem a função de prevenir e
+            investigar cartéis e abusos de poder econômico, além de aprovar ou não fusões e aquisições que possam
+            reduzir demais a concorrência em um setor. É por isso que grandes fusões de empresas, como as que
+            acontecem entre bancos ou operadoras de telefonia, precisam passar pela análise do CADE antes de serem
+            concluídas.</p>
+<p>As gigantes de tecnologia continuam sendo alvo constante desse tipo de fiscalização. A União Europeia, por
+            exemplo, já aplicou diversas multas bilionárias ao Google por práticas anticompetitivas: uma multa de
+            cerca de 4,3 bilhões de euros em 2018 por abuso de posição dominante com o sistema Android, e outra de
+            aproximadamente 2,95 bilhões de euros em 2025 por favorecer seus próprios serviços de publicidade digital
+            em detrimento dos concorrentes. Esses casos mostram que, mesmo décadas depois da Standard Oil, o desafio
+            de equilibrar a livre concorrência com o poder das grandes corporações continua no centro do debate
+            econômico mundial.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O Capitalismo Monopolista é caracterizado pela diversidade de empresas em um setor, promovendo ampla
-            concorrência e inovação.</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p8a" name="pergunta8" type="radio" value="errado"/>
-<label class="card-opcao" for="p8a">
-<span>a) Verdadeiro</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p8b" name="pergunta8" type="radio" value="correto"/>
-<label class="card-opcao" for="p8b">
-<span>b) Falso</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta8', 'resp8', 'globinho8', 'é caracterizado pelo controle em poucos empresas', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp8"></p>
-<div class="area w3-center">
-<img height="64" id="globinho8" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Qual setor é conhecido por ter uma forte presença de empresas monopolistas?</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p9a" name="pergunta9" type="radio" value="errado"/>
-<label class="card-opcao" for="p9a">
-<span>a) Agricultura familiar.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p9b" name="pergunta9" type="radio" value="correto"/>
-<label class="card-opcao" for="p9b">
-<span>b) Tecnologia e telecomunicações.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p9c" name="pergunta9" type="radio" value="errado"/>
-<label class="card-opcao" for="p9c">
-<span>c) Pequenas e médias empresas locais.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta9', 'resp9', 'globinho9', 'empresas de tecnologia e telecomunicações, como Google, Apple, Facebook e Amazon, dominam seus respectivos campos, exemplificando o capitalismo monopolista', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp9"></p>
-<div class="area w3-center">
-<img height="64" id="globinho9" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Quais são os impactos do Capitalismo Monopolista?</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p10a" name="pergunta10" type="radio" value="errado"/>
-<label class="card-opcao" for="p10a">
-<span>a) Aumento da diversidade de produtos no mercado.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p10b" name="pergunta10" type="radio" value="errado"/>
-<label class="card-opcao" for="p10b">
-<span>b) Diminuição da desigualdade econômica.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p10c" name="pergunta10" type="radio" value="correto"/>
-<label class="card-opcao" for="p10c">
-<span>c) Aumento da desigualdade e influência política das grandes empresas.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta10', 'resp10', 'globinho10', 'o Capitalismo Monopolista pode levar a uma maior concentração de riqueza e poder nas mãos de poucas empresas, afetando a concorrência, a diversidade de escolhas e a política', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp10"></p>
-<div class="area w3-center">
-<img height="64" id="globinho10" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
 </div>
 <div class="topico">
 <p class="caixa">Reforce seu conhecimento</p>
-<div class="container">
-<h4 class="">Selecione abaixo os conceitos com seu pares correspondentes sobre os tópicos estudados na aula
-                de hoje:
-            </h4>
-<!-- <div class="w3-margin">Acertos: <span id="score">0</span></div> -->
-<div class="cards">
-<div class="card" data-cards="1">
-<p>Acumulação Flexível </p>
-</div>
-<div class="card" data-cards="1">
-<p>Produção Adaptativa </p>
-</div>
-<div class="card" data-cards="2">
-<p>Concentração Industrial </p>
-</div>
-<div class="card" data-cards="2">
-<p>Economias de Escala</p>
-</div>
-<div class="card" data-cards="3">
-<p>Neoliberalismo </p>
-</div>
-<div class="card" data-cards="3">
-<p>Privatização </p>
-</div>
-<div class="card" data-cards="4">
-<p>Capitalismo Monopolista </p>
-</div>
-<div class="card" data-cards="4">
-<p>Controle de Mercado</p>
-</div>
-<div class="card" data-cards="5">
-<p>Desigualdade Social </p>
-</div>
-<div class="card" data-cards="5">
-<p>Concentração de Riqueza </p>
-</div>
-<div class="card" data-cards="6">
-<p>Gigantes Tecnológicas </p>
-</div>
-<div class="card" data-cards="6">
-<p>Big Techs</p>
-</div>
-</div>
-</div>
-<br/>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<h4>Selecione os conceitos com seus pares correspondentes:</h4>
+<!-- O jogo monta aqui automaticamente -->
+<div id="memory-game-root"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
+                Próximo
+            </button>
 <hr/>
 </div>
+
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot9" src="inforesumott9.webp"
+                    alt="Infográfico resumo Industrialização Mundial II" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+
+
 <div class="topico">
 <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Qual foi o impacto da acumulação flexível na organização do trabalho?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span> A acumulação flexível trouxe mudanças significativas na organização do
@@ -646,7 +463,7 @@
             como a fragmentação das atividades produtivas, o uso intensivo de tecnologia e a precarização das condições
             de
             trabalho.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Como a concentração da atividade industrial afeta a competição entre empresas?
             </strong></p>
 <p><span class="primeiraLetra">R:</span> A concentração da atividade industrial pode levar à formação de
@@ -655,7 +472,7 @@
             reduzindo a competição e limitando as opções disponíveis para os consumidores. Isso pode resultar em preços
             mais
             altos e menor qualidade dos produtos.</p>
-<p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Qual a diferença entre monopólio e oligopólio?
             </strong> </p>
 <p><span class="primeiraLetra">R:</span> O monopólio e o oligopólio são dois tipos de estruturas de mercado.
@@ -664,10 +481,71 @@
             significativos.
             Já no oligopólio, algumas poucas empresas dominam o mercado, o que pode resultar em um alto grau de
             interdependência entre elas e impactar os preços e a competição.</p>
+<p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                O que foi o Consenso de Washington, e por que ele é criticado até hoje?
+            </strong></p>
+<p><span class="primeiraLetra">R:</span> Foi um conjunto de recomendações econômicas neoliberais formulado em
+            1989 por instituições como o FMI e o Banco Mundial, que condicionavam empréstimos a países endividados
+            da América Latina, do Leste Europeu e da Ásia Central à adoção de reformas como privatizações, ajuste
+            fiscal e redução de gastos públicos. Desde a década de 1990, o Consenso de Washington é criticado por
+            ter aprofundado desigualdades sociais, aumentado o desemprego e a pobreza, e enfraquecido os sistemas de
+            proteção social em vários dos países que seguiram suas recomendações.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
 <br/><br/>
 <hr/>
 </div>
+
+
+<div class="topico">
+<h2>Resumindo</h2>
+<p>Vimos, nesta aula, quatro peças de um mesmo quebra-cabeça econômico. A acumulação flexível mostrou como a
+            produção industrial deixou de ser rígida e concentrada, como no Fordismo, para se tornar adaptável e
+            terceirizada, seguindo a lógica do Toyotismo. A concentração da atividade industrial explicou por que
+            certas regiões do planeta, e até países inteiros, como Taiwan no caso dos semicondutores, concentram
+            fatias enormes da produção mundial em torno de poucas empresas gigantes. O neoliberalismo revelou a
+            doutrina econômica que, desde o Consenso de Washington de 1989, reduziu o papel do Estado e ampliou o
+            espaço das grandes corporações, com impactos sentidos até hoje no Brasil e no mundo. E o capitalismo
+            monopolista mostrou como, apesar de mais de um século de leis antitruste, o poder econômico continua se
+            concentrando nas mãos de poucas empresas, das petrolíferas do século XIX às big techs do século XXI.</p>
+<p>Essas quatro transformações mostram como o capitalismo se reorganizou economicamente a partir dos anos 1970
+            e 1980. Mas essa reorganização não aconteceu no vácuo: ela se desenrolou dentro de uma ordem geopolítica
+            mundial específica, marcada pela disputa entre capitalismo e socialismo. Na próxima aula, vamos voltar um
+            pouco no tempo para entender como essa ordem mundial se formou, começando pela Guerra Fria e pela Ordem
+            Bipolar entre Estados Unidos e União Soviética, passando pelo Imperialismo, pela regionalização do mundo
+            e pela criação da OTAN.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+
+
+<div class="topico">
+<div id="ficha-conceitos"></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+
+
+<div class="topico">
+<div class="w3-pale-yellow">
+<h2>Questões para responder no caderno</h2>
+<h3>1. O que é a acumulação flexível, e quem criou esse conceito?</h3>
+<h3>2. Qual é a relação entre o Toyotismo, estudado na aula passada, e a acumulação flexível?</h3>
+<h3>3. O que é a concentração da atividade industrial? Cite uma região do mundo e uma região do Brasil onde ela
+                ocorre.</h3>
+<h3>4. Diferencie conglomerado, truste, holding e cartel.</h3>
+<h3>5. O que foi o Consenso de Washington, e quais países mais aderiram às suas recomendações?</h3>
+<h3>6. O que é o Estado Mínimo, segundo o neoliberalismo?</h3>
+<h3>7. Cite dois impactos das políticas neoliberais apontados pelos críticos do Consenso de Washington.</h3>
+<h3>8. O que caracteriza o capitalismo monopolista?</h3>
+<h3>9. Qual é a diferença entre monopólio e oligopólio?</h3>
+<h3>10. Como a acumulação flexível, a concentração industrial, o neoliberalismo e o capitalismo monopolista se
+                relacionam entre si?</h3>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+
+
 <div class="topico">
 <h3>Antes de finalizar, vamos fazer as questões!</h3>
 <button class="btnShow" onclick="
@@ -679,7 +557,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'O tema Industrialização Mundial III é fantástico! Continue estudando!',
         pontos: 40
     });
 
@@ -728,6 +606,63 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+<script>
+        /* Título exibido no cabeçalho do jogo */
+        window.MEMORY_TITLE = 'Industrialização Mundial III';
+
+        /* Pares de conceitos — mínimo 2, máximo recomendado 8 */
+        window.PAIRS = [
+            {
+                id: 1,
+                emoji: '🏭',
+                concept: 'Acumulação Flexível',
+                pair: 'Produção Adaptativa',
+                group: 'Produção',
+                color: '#1D9E75'
+            },
+            {
+                id: 2,
+                emoji: '🏗️',
+                concept: 'Concentração Industrial',
+                pair: 'Economias de Escala',
+                group: 'Mercado',
+                color: '#185FA5'
+            },
+            {
+                id: 3,
+                emoji: '🏛️',
+                concept: 'Neoliberalismo',
+                pair: 'Privatização',
+                group: 'Política Econômica',
+                color: '#BA7517'
+            },
+            {
+                id: 4,
+                emoji: '👑',
+                concept: 'Capitalismo Monopolista',
+                pair: 'Controle de Mercado',
+                group: 'Mercado',
+                color: '#993556'
+            },
+            {
+                id: 5,
+                emoji: '⚖️',
+                concept: 'Desigualdade Social',
+                pair: 'Concentração de Riqueza',
+                group: 'Impactos',
+                color: '#534AB7'
+            },
+            {
+                id: 6,
+                emoji: '💻',
+                concept: 'Gigantes Tecnológicas',
+                pair: 'Big Techs',
+                group: 'Exemplos',
+                color: '#993C1D'
+            },
+        ];
     </script>
 </body>
 </html>

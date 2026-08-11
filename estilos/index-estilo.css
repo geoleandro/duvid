@@ -734,6 +734,13 @@ body.dark-mode .w3-text-black {
     color: #e0e0e0 !important;
 }
 
+/* Exceção: cards de link (postit-tp9, ex. "Para saber mais") usam w3-text-black
+   de propósito sobre fundos claros (amarelo, laranja, etc.) — manter texto preto
+   mesmo no dark mode, senão o texto fica quase ilegível sobre o card colorido. */
+body.dark-mode .postit-tp9 .w3-text-black {
+    color: #000 !important;
+}
+
 /* Todos os ícones fa que não têm cor explícita ficam brancos */
 body.dark-mode .fa:not(.w3-text-amber):not(.w3-text-green):not(.w3-text-red):not(.w3-text-teal) {
     color: #ffffff !important;

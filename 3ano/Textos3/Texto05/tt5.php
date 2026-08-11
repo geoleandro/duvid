@@ -689,7 +689,7 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumot5.png"
+            <div class="w3-margin"><img id="infograficot2" src="inforesumott5.webp"
                     alt="Infográfico resumo como medir o desenvolvimento" class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>

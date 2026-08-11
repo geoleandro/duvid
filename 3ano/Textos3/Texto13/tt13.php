@@ -266,6 +266,49 @@
 <hr/>
 </div>
 <div class="topico">
+<h2>Formas de Acesso à Terra: A Estrutura Fundiária no Mundo</h2>
+<p>Além das técnicas de cultivo, entender a agricultura mundial exige olhar para quem tem acesso à terra e em
+            que condições. A <span class="termo" data-palavra="Estrutura Fundiária" data-definicao="Forma como a propriedade da terra está distribuída em um território, geralmente medida pela concentração de área nas mãos de grandes ou pequenos proprietários.">estrutura fundiária</span> de um país ou região revela o grau de
+            concentração da terra: em muitas partes do mundo, poucas propriedades enormes convivem com uma multidão
+            de pequenas propriedades, um padrão conhecido como coexistência entre <span class="termo" data-palavra="Latifúndio e Minifúndio" data-definicao="Latifúndio é uma grande propriedade rural, muitas vezes subutilizada; minifúndio é uma pequena propriedade, geralmente insuficiente para sustentar economicamente uma família. A coexistência dos dois revela a desigualdade na distribuição da terra.">latifúndio e minifúndio</span>.</p>
+<p>Segundo levantamento da Coalizão Internacional das Terras, em parceria com a Oxfam e o World Inequality Lab,
+            publicado em 2024, apenas 1% das propriedades rurais do planeta concentra 70% de toda a terra agrícola do
+            mundo, enquanto mais de 80% das propriedades são pequenas, com menos de dois hectares. Os 10% mais ricos
+            da população rural controlam 60% do valor das terras agrícolas globais, enquanto os 50% mais pobres
+            ficam com apenas 3% desse valor.</p>
+<p><strong>América Latina:</strong> Um exemplo desse padrão de concentração pode ser visto na América Latina,
+            onde apenas 1% dos estabelecimentos rurais concentra mais da metade (51%) de toda a área agrícola da
+            região. No Brasil, dados da Oxfam mostram que menos de 1% das propriedades detém 45% da área rural do
+            país, uma das maiores desigualdades fundiárias do mundo.</p>
+<p>Para reduzir essa concentração, diversos países já implementaram programas de <span class="termo" data-palavra="Reforma Agrária" data-definicao="Conjunto de medidas governamentais que buscam redistribuir a posse da terra, geralmente desapropriando grandes propriedades improdutivas e assentando famílias sem-terra, com o objetivo de reduzir a desigualdade fundiária.">reforma agrária</span>,
+            redistribuindo terras improdutivas para famílias sem acesso a elas. No Brasil, esse trabalho é feito pelo
+            Incra (Instituto Nacional de Colonização e Reforma Agrária), criado em 1970, que assenta famílias em
+            imóveis desapropriados por interesse social. Movimentos sociais como o MST (Movimento dos Trabalhadores
+            Rurais Sem Terra), fundado em 1984, também pressionam por uma redistribuição mais ampla da terra no
+            país.</p>
+<p>Outro fenômeno que agrava a desigualdade no acesso à terra é o chamado <em>land grabbing</em>, ou grilagem
+            internacional de terras: a compra ou o arrendamento de grandes extensões por governos estrangeiros,
+            fundos de investimento e corporações em países da África, da Ásia e da América Latina, muitas vezes
+            voltados à produção de commodities para exportação ou a projetos de compensação de carbono. Essa prática
+            pode expulsar comunidades locais de seus territórios tradicionais e aprofundar ainda mais a
+            concentração fundiária global.</p>
+<p><strong>China:</strong> Nem todo país segue a lógica de propriedade privada da terra. Na China, toda a terra
+            rural é de propriedade coletiva, e os agricultores recebem apenas direitos de uso por meio de contratos
+            de longo prazo com o governo local, um sistema herdado da coletivização promovida após a Revolução
+            Comunista de 1949. Essa distinção entre propriedade da terra e direito de uso torna a estrutura
+            fundiária chinesa bem diferente da lógica predominante na maior parte do mundo.</p>
+<p><strong>África:</strong> Em boa parte do continente africano, predomina o regime de posse comunal da terra:
+            grandes extensões pertencem coletivamente a comunidades, clãs ou aldeias, e o acesso individual à terra
+            depende de regras costumeiras, herdadas de gerações, e não de um título de propriedade formal. Esse
+            sistema garante segurança de acesso para milhões de pequenos agricultores, mas também é um dos motivos
+            pelos quais o continente se tornou um dos principais alvos do land grabbing: como grande parte da terra
+            não está formalmente registrada em nome de seus ocupantes, governos e investidores estrangeiros
+            conseguem negociar concessões diretamente com o Estado, muitas vezes sem consultar as comunidades que
+            vivem e trabalham naquele território há gerações.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr/>
+</div>
+<div class="topico">
 <div class="w3-panel w3-pale-red w3-leftbar w3-border-red w3-padding">
 <h2>Sistemas Agrícolas e Técnicas de Cultivo</h2>
 <p><strong><span class="termo" data-palavra="Rotação de Culturas" data-definicao="Prática que alterna diferentes espécies cultivadas em uma mesma área ao longo do tempo, evitando o esgotamento de nutrientes do solo e reduzindo a incidência de pragas e doenças.">Rotação de Culturas</span></strong></p>
@@ -351,6 +394,48 @@
 <hr/>
 </div>
 <div class="topico">
+<h2>Relações de Trabalho no Campo: Da Agricultura Familiar ao Agronegócio</h2>
+<p>As relações de trabalho no campo também variam bastante ao redor do mundo, de acordo com a forma como cada
+            unidade de produção organiza a mão de obra. A <span class="termo" data-palavra="Agricultura Familiar" data-definicao="Modelo de produção agropecuária em que a mão de obra é majoritariamente formada pelos próprios membros da família proprietária da terra, em pequenas propriedades.">agricultura familiar</span> reúne pequenas
+            propriedades nas quais os donos trabalham diretamente na terra, muitas vezes ao lado de outros membros
+            da família. Já a agricultura não familiar é organizada com predomínio de trabalho contratado, e o
+            comando da produção costuma ficar com quem não trabalha diretamente na lavoura. Segundo estimativas da
+            FAO de 2021, existem mais de 608 milhões de estabelecimentos de agricultura familiar no mundo, o que
+            corresponde a mais de 90% de todas as propriedades rurais do planeta. Juntas, elas ocupam entre 70% e
+            80% das terras agrícolas do mundo e são responsáveis por cerca de 80% do valor dos alimentos produzidos,
+            sendo essenciais para a segurança alimentar e para a diversidade da dieta em diversos países.</p>
+<p>Em algumas regiões do planeta, ainda persistem técnicas mais tradicionais, como a agricultura itinerante,
+            também chamada de sistema de roça ou coivara: consiste em derrubar e queimar um pedaço de mata para
+            limpar o terreno, cultivá-lo por dois ou três anos até o esgotamento do solo, e depois abandonar a área
+            em busca de um novo pedaço de terra. Comunidades camponesas e povos tradicionais, como indígenas e
+            ribeirinhos, também mantêm sistemas agrícolas próprios, produzindo suas próprias sementes, chamadas de
+            sementes crioulas, e preservando a diversidade genética das plantas cultivadas.</p>
+<p>No outro extremo está o <span class="termo" data-palavra="Agronegócio" data-definicao="Conceito criado em 1957 pelos pesquisadores John Davis e Ray Goldberg, da Universidade Harvard, para descrever o conjunto de atividades que envolvem a produção de insumos agrícolas, as unidades de produção agropecuária, o processamento industrial dos produtos e sua comercialização.">agronegócio</span>, conceito criado em 1957
+            pelos pesquisadores John Davis e Ray Goldberg, da Universidade Harvard, para descrever o conjunto de
+            operações que envolvem a produção de insumos agrícolas, como sementes, adubos e maquinário, as unidades
+            de produção, o processamento industrial e a comercialização dos produtos agropecuários. Esse modelo
+            depende de grandes investimentos de empresas transnacionais e costuma estar associado à agricultura de
+            precisão, que usa GPS, drones, sensores e imagens de satélite para monitorar a lavoura em detalhes e
+            reduzir o desperdício de insumos.</p>
+<p><strong>Brasil:</strong> Um exemplo do avanço da mecanização sobre o trabalho no campo é o Brasil: segundo o
+            Censo Agropecuário do IBGE, entre 2006 e 2017 o número de tratores nas propriedades rurais brasileiras
+            cresceu 50%, enquanto o número de pessoas ocupadas na agropecuária caiu 8,8% no mesmo período. Esses
+            dados mostram como o avanço tecnológico do agronegócio pode reduzir a quantidade de mão de obra
+            necessária no campo, mesmo aumentando a produtividade.</p>
+<p>Outra relação de trabalho comum no campo em todo o mundo é a do trabalhador rural temporário, contratado
+            apenas durante os períodos de plantio ou colheita. No Brasil, esses trabalhadores são conhecidos como
+            boias-frias ou volantes; nos Estados Unidos e na Europa, boa parte dessa mão de obra sazonal é composta
+            por trabalhadores migrantes, muitas vezes vindos de países vizinhos mais pobres, que se deslocam
+            temporariamente para acompanhar o calendário das safras. Esse tipo de trabalho costuma oferecer poucos
+            direitos trabalhistas e salários baixos, o que tem levado diversos países a discutir leis específicas
+            de proteção para os trabalhadores rurais temporários.</p>
+<p>Essas diferentes relações de trabalho mostram que não existe um único jeito de organizar a produção agrícola
+            no mundo: pequenos agricultores familiares, trabalhadores temporários e grandes corporações do
+            agronegócio convivem, muitas vezes disputando espaço pelas mesmas terras.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h2 class="w3-center">Produção Mundial de Alimentos</h2>
 <div class="w3-margin">
 <table class="w3-table w3-striped w3-centered w3-mobile">
@@ -401,6 +486,26 @@
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
+
+
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot13" src="inforesumott13.webp"
+                    alt="Infográfico resumo Agropecuária Mundial" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+
+
 <div class="topico">
 <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
@@ -432,52 +537,8 @@
 <br/><br/>
 <hr/>
 </div>
-<div class="topico">
-<div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-padding">
-<h2> RESUMO </h2>
-<h2> A Importância da Agricultura no Mundo </h2>
-<p><strong>Segurança Alimentar e Nutricional:</strong> Garante o acesso a alimentos básicos para uma vida saudável.</p>
-<p><strong>Contribuição para a Economia Global:</strong> Importante setor econômico, contribui para o PIB, gera empregos e impulsiona o comércio internacional.</p>
-<p><strong>Sustentabilidade Ambiental:</strong> Práticas agrícolas sustentáveis são essenciais para proteger o meio ambiente.</p>
-<h2> Meio Técnico-Científico-Informacional (MTCI) na Agricultura </h2>
-<p><strong>Mecanização Agrícola:</strong> Exemplo: EUA (tratores e colheitadeiras).</p>
-<p><strong>Biotecnologia e OGMs:</strong> Exemplo: Brasil (soja transgênica).</p>
-<p><strong>Sensoriamento Remoto e Agricultura de Precisão:</strong> Exemplo: Índia (monitoramento das plantações).</p>
-<p><strong>Uso de Dados e Análise:</strong> Exemplo: Países Baixos (análise de dados para otimizar o cultivo).</p>
-<h2> Histórico da Agricultura no Mundo </h2>
-<p><strong>Agricultura Arcaica:</strong> Mesopotâmia (irrigação e cultivo de grãos) e Egito Antigo (agricultura ao longo do Nilo).</p>
-<p><strong>Agricultura Moderna:</strong> Revolução Verde (uso de fertilizantes e variedades de alto rendimento). Exemplo: Índia (autossuficiência alimentar).</p>
-<p><strong>Agricultura Contemporânea:</strong> Uso de tecnologia, biotecnologia e práticas sustentáveis. Exemplo: Israel (irrigação avançada).</p>
-<h2> Relação entre Campo e Cidade no Mundo Atual </h2>
-<p><strong>Diferenças na População Rural e Urbana:</strong> Exemplo: Índia (população rural e urbanização crescente).</p>
-<p><strong>Impacto da Urbanização na Agricultura:</strong> Exemplo: China (migração urbana e mudanças na agricultura).</p>
-<h2> Sistemas Agrícolas e Técnicas de Cultivo </h2>
-<p><strong>Rotação de Culturas:</strong> Exemplo: Brasil (alternância de soja e milho).</p>
-<p><strong>Afolhamento:</strong> Exemplo: Canadá (uso de trevo e aveia).</p>
-<p><strong>Agricultura em Curvas de Nível:</strong> Exemplo: Filipinas (terraços de arroz).</p>
-<p><strong>Plantio Direto:</strong> Exemplo: EUA (cultivo de milho e soja).</p>
-<h2> Classificação das Atividades Agrícolas </h2>
-<p><strong>Agricultura de Subsistência:</strong> Exemplo: Nepal (produção para consumo próprio).</p>
-<p><strong>Agricultura Comercial:</strong> Exemplo: Brasil (produção em larga escala para exportação).</p>
-<p><strong>Agricultura de Jardinagem:</strong> Exemplo: Quênia (produção em pequenas propriedades).</p>
-<p><strong>Plantation:</strong> Exemplo: Costa do Marfim (monocultura de cacau).</p>
-<h2> Dados Mundiais Relevantes na Agricultura </h2>
-<p><strong>Produção Mundial de Alimentos:</strong></p>
-<p>Milho: EUA.</p>
-<p>Arroz: China.</p>
-<p>Trigo: Rússia.</p>
-<p><strong>Exportação e Importação de Alimentos:</strong></p>
-<p>Principais Exportadores:</p>
-<p>Brasil: Soja.</p>
-<p>EUA: Milho.</p>
-<p>Países Baixos: Flores e produtos agrícolas.</p>
-<p>Principais Importadores:</p>
-<p>Japão: Alimentos processados.</p>
-<p>Alemanha: Carnes.</p>
-</div>
-<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
-<hr/>
-</div>
+
+
 <div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -491,10 +552,10 @@
 <h3>3. Descreva um exemplo de como a agricultura arcaica impactou o desenvolvimento das primeiras civilizações.</h3>
 <h3>4. Qual é o papel da rotação de culturas na agricultura? Explique como essa prática beneficia o solo.</h3>
 <h3>5. Por que a urbanização pode afetar a produção agrícola em áreas rurais? Dê um exemplo.</h3>
-<h3>6. Explique como o afolhamento contribui para a proteção e enriquecimento do solo na agricultura.</h3>
-<h3>7. O que são plantations na agricultura? Dê um exemplo de um país que é grande produtor de uma cultura específica nesse sistema.</h3>
-<h3>8. Por que a produção mundial de alimentos é crucial para a segurança alimentar global? Explique.</h3>
-<h3>9. Como o comércio internacional de alimentos pode beneficiar países exportadores e importadores? Dê exemplos.</h3>
+<h3>6. O que é a estrutura fundiária de um país? Cite os dados sobre a concentração de terras agrícolas no mundo.</h3>
+<h3>7. Qual é a diferença entre agricultura familiar e agronegócio em termos de organização do trabalho?</h3>
+<h3>8. O que são plantations na agricultura? Dê um exemplo de um país que é grande produtor de uma cultura específica nesse sistema.</h3>
+<h3>9. O que é land grabbing, e por que esse fenômeno preocupa comunidades tradicionais em diferentes partes do mundo?</h3>
 <h3>10. Em sua opinião, qual é a importância de se adotar práticas sustentáveis na agricultura? Justifique com base nos benefícios discutidos no texto.</h3>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>

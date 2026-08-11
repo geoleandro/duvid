@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Comércio multilateral: Organização Mundial do Comércio (OMC), blocos econômicos, protecionismo, balança comercial e o papel das commodities no mundo globalizado">
+    <meta property="og:title" content="Texto 16 - Comércio Multilateral">
+    <meta property="og:description" content="Do GATT à OMC, dos blocos econômicos às guerras comerciais: entenda como funciona o comércio internacional no mundo atual">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -40,8 +42,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 16 - O Comércio mundial</title>
+    <title>3º ano - Texto 16 - Comércio Multilateral</title>
 
 </head>
 
@@ -56,7 +60,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">Comércio Multilateral</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -118,44 +122,30 @@
 
     </div>
 <div class="topico">
-        <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-            <ol>
-                <li>Qual é o papel da Organização Mundial do Comércio (OMC) no comércio internacional e como ela busca
-                    resolver disputas entre os países membros?</li>
-
-                <li>Quais são os pontos positivos e negativos do protecionismo como política econômica? Explique pelo
-                    menos um exemplo de impacto negativo do protecionismo.</li>
-
-                <li>Por que a balança comercial é uma medida importante para entender a economia de um país? Quais são
-                    os aspectos críticos a serem considerados ao analisar a balança comercial de um país?</li>
-
-                <li>Explique a importância das exportações e importações para a economia de um país. Dê exemplos de como
-                    esses aspectos podem afetar a indústria doméstica e as relações comerciais internacionais.</li>
-
-                <li>Quais são os principais desafios e questões críticas relacionados às commodities no comércio global?
-                    Dê exemplos de como a volatilidade dos preços das commodities pode afetar as economias de países
-                    exportadores.</li>
-            </ol>
-        </div>
-
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-<div class="topico">
 
 
         <div class="w3-panel w3-pale-green w3-leftbar w3-border-green w3-padding">
 
             <h2>Organização Mundial do Comércio (OMC): Uma Análise Crítica</h2>
 
-            <p>A Organização Mundial do Comércio (OMC) é frequentemente vista como uma instituição que promove o livre
+            <p>A <span class="termo" data-palavra="Organização Mundial do Comércio (OMC)"
+                    data-definicao="Organização internacional criada em janeiro de 1995, em substituição ao GATT, que funciona como um fórum permanente de negociação das regras que regem o comércio internacional e como mecanismo de resolução de disputas comerciais entre seus países-membros.">Organização
+                    Mundial do Comércio (OMC)</span> é frequentemente vista como uma instituição que promove o livre
                 comércio e busca resolver disputas comerciais entre nações de forma justa e imparcial. No entanto, sua
                 eficácia e impacto têm sido objeto de debate e crítica.</p>
 
+            <p>Antes da Segunda Guerra Mundial, cobrar impostos sobre mercadorias estrangeiras para proteger as
+                empresas nacionais da concorrência externa, prática conhecida como protecionismo econômico, era
+                comum entre os países. No pós-guerra, para reduzir tarifas e facilitar o livre-comércio, criou-se o
+                Acordo Geral de Tarifas e Comércio (GATT, na sigla em inglês). Pressionados pelas potências
+                econômicas, cada vez mais países aderiram ao acordo, e em janeiro de 1995 o GATT foi substituído pela
+                OMC. Desde então, a organização já promoveu diversas rodadas de negociação, como a Rodada do Uruguai
+                (1986-1994) e a Rodada do Milênio (1999), mas a Rodada de Doha, iniciada em 2001 no Catar, segue sem
+                consenso entre os países-membros até hoje, em razão de divergências entre países desenvolvidos e em
+                desenvolvimento sobre subsídios agrícolas e propriedade intelectual.</p>
+
             <div class="w3-margin"><img id="imagem1" src="tt16f01.png"
-                    alt="Conércio mundial representado por caminhão, transporte aéreo e marítmo" class="w3-mobile">
+                    alt="Comércio mundial representado por caminhão, transporte aéreo e marítimo" class="w3-mobile">
 
                 <span class="w3-small w3-margin-left" id="citacao1"> </span>
 
@@ -213,7 +203,7 @@
 <div class="topico">
 
 
-        <div class="w3-panel w3-pale-grey w3-leftbar w3-border-grey w3-padding">
+        <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
             <h2>Princípios da OMC</h2>
 
@@ -229,7 +219,9 @@
 
             <p><strong>Não Discriminação:</strong> A OMC promove o princípio da não discriminação entre os países, o que
                 significa que todos os membros devem ser tratados de forma igualitária. Isso é geralmente alcançado por
-                meio do princípio da nação mais favorecida (NMF), no qual as concessões comerciais feitas a um país
+                meio do princípio da <span class="termo" data-palavra="Nação Mais Favorecida (NMF)"
+                    data-definicao="Princípio da OMC segundo o qual qualquer vantagem comercial concedida por um país-membro a outro (como redução de tarifas) deve ser automaticamente estendida a todos os demais países-membros da organização.">nação
+                    mais favorecida (NMF)</span>, no qual as concessões comerciais feitas a um país
                 devem ser estendidas a todos os outros membros.</p>
 
             <p><strong>Tratamento Justo e Igualitário:</strong> A OMC busca garantir que todos os membros recebam um
@@ -257,7 +249,9 @@
 
             </div>
 
-            <p>O protecionismo é uma política econômica que visa proteger as indústrias nacionais da competição
+            <p>O <span class="termo" data-palavra="Protecionismo"
+                    data-definicao="Política econômica que visa proteger as indústrias nacionais da concorrência estrangeira por meio de barreiras comerciais, como tarifas de importação, cotas e subsídios aos produtores domésticos.">protecionismo</span>
+                é uma política econômica que visa proteger as indústrias nacionais da competição
                 estrangeira, através da imposição de barreiras comerciais, como tarifas sobre importações, quotas de
                 importação e subsídios aos produtores domésticos. Embora o protecionismo possa oferecer benefícios de
                 curto prazo para as indústrias domésticas, ele também é frequentemente alvo de críticas devido aos seus
@@ -353,24 +347,65 @@
                 não leva em conta o investimento estrangeiro direto (IED) e outros fluxos de capital, que podem ter um
                 impacto significativo na economia de um país e na sua posição no comércio internacional.</p>
 
-            <div class="w3-card">
-                <h3>Dados de Comércio Relacionados aos Blocos Econômicos:</h3>
-                <p>Em 2020, a União Europeia foi o maior exportador de bens do mundo, representando aproximadamente 15%
-                    das exportações globais.</p>
-                <p>O comércio intra-ASEAN atingiu cerca de US$ 609 bilhões em 2019, destacando a importância do bloco na
-                    promoção do comércio regional.</p>
-                <p>O T-MEC, que entrou em vigor em julho de 2020, visa fortalecer a integração econômica entre México,
-                    Estados Unidos e Canadá, facilitando o acesso aos mercados e modernizando as regras comerciais.</p>
-                <p>O comércio intrarregional no Mercosul cresceu mais de 10% em 2020, apesar dos desafios econômicos
-                    causados pela pandemia de COVID-19.</p>
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
+                <h3>Panorama Atual do Comércio Mundial:</h3>
+                <p>Em 2024, a China consolidou-se como a maior exportadora de bens do mundo, com cerca de US$ 3,4
+                    trilhões em mercadorias exportadas, superando os Estados Unidos em quase US$ 1,4 trilhão e
+                    registrando um superávit comercial recorde de quase US$ 1 trilhão. Segundo a OMC, o comércio
+                    mundial de mercadorias cresceu apenas 1% em 2024, refletindo um cenário de maior instabilidade
+                    geopolítica e disputas tarifárias entre as grandes potências.</p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
         </div>
 <div class="topico">
+            <h2>Blocos Econômicos: Tipos e Principais Exemplos</h2>
 
-            <div class="w3-panel w3-pale-red w3-leftbar w3-border-grey w3-padding">
+            <p>Além dos acordos multilaterais promovidos pela OMC, muitos países se uniram para formar <span
+                    class="termo" data-palavra="Bloco Econômico"
+                    data-definicao="Associação entre países vizinhos ou próximos geograficamente, criada por meio de acordos comerciais e políticos, com o objetivo de ampliar mercados, reduzir tarifas e fortalecer a posição do grupo no comércio internacional.">blocos
+                    econômicos</span>, regionais ou não, que aprofundam a integração comercial entre seus membros.
+                Existem diferentes níveis de integração entre países: a <span class="termo"
+                    data-palavra="Zona de Livre-Comércio"
+                    data-definicao="Nível de integração econômica em que os países-membros eliminam ou reduzem tarifas alfandegárias entre si, mas mantêm políticas comerciais próprias em relação a países de fora do bloco.">zona
+                    de livre-comércio</span> busca eliminar ou reduzir tarifas alfandegárias entre os membros; a <span
+                    class="termo" data-palavra="União Aduaneira"
+                    data-definicao="Nível de integração econômica que soma os benefícios da zona de livre-comércio à criação de regras comuns para o comércio com países de fora do bloco, como uma tarifa externa unificada.">união
+                    aduaneira</span> soma a isso regras comuns para o comércio com países de fora do bloco; o
+                mercado comum libera também o fluxo de capitais, mão de obra e serviços entre os países-membros; e a
+                união monetária, o nível mais avançado, inclui a coordenação de políticas econômicas e o uso de uma
+                moeda única.</p>
+
+            <p>O mundo conta hoje com dezenas de blocos econômicos em diferentes estágios de integração: o USMCA
+                (Acordo Estados Unidos-México-Canadá, que substituiu o antigo Nafta), a Asean (Associação das Nações
+                do Sudeste Asiático), a Cedeao (Comunidade Econômica dos Estados da África Ocidental), a SADC
+                (Comunidade para o Desenvolvimento da África Austral), a Caricom (Comunidade do Caribe), a Comunidade
+                Andina de Nações (CAN) e o Mercado Comum Centro-Americano (MCCA), entre outros. Dois dos blocos mais
+                relevantes para o Brasil, no entanto, merecem destaque especial: o Mercosul e a União Europeia.</p>
+
+            <h3>O Mercosul</h3>
+            <p>O Mercado Comum do Sul (Mercosul) foi criado em 1991, tendo Brasil e Argentina como os países de
+                maior peso econômico do bloco. Ao longo dos anos, o Mercosul expandiu suas relações comerciais: em
+                junho de 2019, fechou um acordo de livre-comércio com a União Europeia, e em julho de 2025 assinou
+                um acordo com a EFTA (Associação Europeia de Livre Comércio, que reúne Suíça, Noruega, Islândia e
+                Liechtenstein), formando um mercado combinado de cerca de 290 milhões de consumidores e um PIB
+                somado de aproximadamente US$ 4,39 trilhões. Nem tudo são avanços, porém: a Venezuela está suspensa
+                de todos os direitos e obrigações como Estado-parte do bloco desde 2017, por descumprir cláusulas
+                democráticas do Mercosul.</p>
+
+            <h3>A União Europeia</h3>
+            <p>A União Europeia (UE) é considerada o bloco econômico mais avançado do mundo, tendo alcançado o nível
+                de união monetária com a criação do euro em 1999. Sua origem remonta ao Mercado Comum Europeu,
+                criado em 1957, e sua consolidação como União Europeia veio com o Tratado de Maastricht, assinado em
+                1992. É esse processo de integração, da CECA à UE, que vamos estudar em detalhe na próxima aula.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+<div class="topico">
+
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
                 <h2>Exportações e Importações: Uma Análise Crítica</h2>
 
@@ -412,9 +447,12 @@
                 <h3>Exemplo:</h3>
 
                 <p>A China é um dos principais exportadores de produtos manufaturados, como eletrônicos e
-                    equipamentos de telecomunicações. Suas exportações massivas desses produtos têm impulsionado o
-                    crescimento econômico do país, mas também geraram críticas devido a práticas comerciais desleais
-                    e dumping de produtos no mercado internacional.</p>
+                    equipamentos de telecomunicações. Em 2024, tornou-se a maior exportadora de bens do mundo, com
+                    cerca de US$ 3,4 trilhões exportados. Suas exportações massivas desses produtos têm impulsionado
+                    o crescimento econômico do país, mas também geraram críticas devido a práticas comerciais
+                    desleais e <span class="termo" data-palavra="Dumping"
+                        data-definicao="Prática comercial em que uma empresa ou país vende um produto no mercado internacional por um preço abaixo do custo de produção ou do praticado no mercado interno, com o objetivo de eliminar concorrentes e conquistar espaço no mercado externo. É considerada uma prática desleal e pode ser contestada na OMC.">dumping</span>
+                    de produtos no mercado internacional.</p>
 
 
 
@@ -427,7 +465,9 @@
 <div class="topico">
             <h2>Commodities: Uma Perspectiva Crítica</h2>
 
-            <p>Commodities são produtos básicos ou matérias-primas que são produzidos em grande escala e
+            <p><span class="termo" data-palavra="Commodity"
+                    data-definicao="Produto básico ou matéria-prima produzido em grande escala e comercializado em mercados globais, geralmente com pouca diferenciação de qualidade entre fornecedores, o que permite sua padronização e negociação em bolsas internacionais.">Commodities</span>
+                são produtos básicos ou matérias-primas que são produzidos em grande escala e
                 comercializados em mercados globais. Geralmente, esses produtos são homogêneos em qualidade e podem
                 ser substituídos uns pelos outros. Exemplos comuns de commodities incluem produtos agrícolas (como
                 trigo, milho, café, soja), minerais (como petróleo, minério de ferro, ouro), metais (como cobre,
@@ -495,10 +535,114 @@
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
         </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    A OMC substituiu o GATT em 1995 principalmente porque:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) O GATT proibia o comércio internacional</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Faltava uma instituição permanente com poder de arbitragem</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Os países decidiram acabar com o livre-comércio</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'O GATT era só um acordo provisório; a OMC nasceu como instituição permanente para arbitrar disputas!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    O Mercosul, formado por Brasil, Argentina e outros países vizinhos, é um exemplo de:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Organização militar internacional</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Bloco econômico regional</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Programa de ajuda humanitária</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'O Mercosul aprofunda a integração comercial entre países vizinhos, como os demais blocos econômicos!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot16" src="inforesumott16.webp"
+                    alt="Infográfico resumo Comércio Multilateral" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
 <div class="topico">
             <h2 id="centralizado">"Sabemos o que somos, mas não sabemos o que poderemos ser." Shakespeare</h2>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                     Como as novas tendências do marketing mundial influencia o jeito que as pessoas escolhem o que
                     comprar?
                 </strong> </p>
@@ -511,7 +655,7 @@
                 propensos a se
                 identificar com as marcas e a considerar a compra dos produtos ou serviços anunciados.</p>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                     Por que é vantajoso para o Brasil ser um grande exportador de commodities em termos econômicos?
                     E quais
                     são as desvantagens dessa dependência?
@@ -528,7 +672,7 @@
                 mercado
                 global, além de limitar o desenvolvimento de outras indústrias e setores econômicos.</p>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                     Qual é o impacto do aumento das tarifas alfandegárias pelos países pobres sobre os produtos
                     industriais
                     dos países ricos? Como essa medida pode afetar o desenvolvimento tecnológico nacional e as
@@ -555,38 +699,99 @@
             <hr>
 
         </div>
-<div class="topico">
-            <h2>Organização Mundial do Comércio (OMC)</h2>
-            <p>Objetivo: Promover o livre comércio e resolver disputas entre países.</p>
-            <p>Desafios:</p>
-            <p>Desigualdade de poder entre países.</p>
-            <p>Impactos negativos nas economias locais.</p>
-            <p>Falta de transparência nas negociações.</p>
-            
-            <h2>Protecionismo</h2>
-            <p>Definição: Proteção das indústrias nacionais por meio de barreiras comerciais.</p>
-            <p>Efeitos Negativos:</p>
-            <p>Redução da eficiência econômica.</p>
-            <p>Aumento de preços para consumidores.</p>
-            <p>Risco de retaliação e guerras comerciais.</p>
-            
-            <h2>Balança Comercial</h2>
-            <p>Importância: Mede o saldo entre exportações e importações.</p>
-            <p>Limitações:</p>
-            <p>Não considera a qualidade e o valor agregado dos produtos.</p>
-            <p>Influenciada por fatores externos e não inclui investimentos estrangeiros.</p>
-            
-            <h2>Exportações e Importações</h2>
-            <p>Dependência: Muitos países dependem de recursos naturais para exportação.</p>
-            <p>Impacto: Desequilíbrios podem afetar a economia e as indústrias locais.</p>
-            
-            <h2>Commodities</h2>
-            <p>Definição: Produtos básicos como petróleo, minerais e produtos agrícolas.</p>
-            <p>Desafios:</p>
-            <p>Vulnerabilidade a flutuações de preços.</p>
-            <p>Impactos ambientais e sociais negativos.</p>
-            <p>Contribuição para desigualdades econômicas.</p>
-            
+
+        
+        <!-- ── ATIVIDADE PRÁTICA ─────────────────────────────────────────── -->
+        <div class="topico">
+            <h2>Atividade Prática: "A Grande Cúpula do Comércio Global"</h2>
+
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h3 style="margin-top:0;">Missão Diplomática e Negociações na OMC</h3>
+                <p><em>Quem ganha e quem perde no tabuleiro do comércio mundial?</em></p>
+            </div>
+
+            <h3>Objetivo</h3>
+            <p>Simular negociações comerciais internacionais e analisar criticamente o papel da Organização Mundial do Comércio (OMC), os impactos das balanças comerciais, a dependência de commodities e as tensões do protecionismo global.</p>
+
+            <h3>Contextualização e Dinâmica</h3>
+            <p>Cada grupo representará uma <strong>delegação diplomática</strong> de uma nação soberana, fictícia (incluindo o país que seu grupo criou na Aula 4) ou real, dentro da Cúpula da OMC. Os embaixadores negociarão acordos, fecharão contratos de exportação/importação e lidarão com crises geopolíticas e econômicas lançadas pelo professor.</p>
+
+            <h3>Etapas da Atividade</h3>
+
+            <div class="w3-panel w3-border w3-round-large w3-padding" style="border-left: 4px solid #2e7d32 !important;">
+                <h4 style="color:#1b5e20; margin-top:0;">Etapa 1: A Missão do Embaixador</h4>
+                <p>Cada grupo define o <strong>perfil econômico</strong> do seu país respondendo a uma pergunta:</p>
+                <p><strong>Perfil e posição comercial:</strong> o país exporta majoritariamente commodities (soja, minério, petróleo) ou produtos manufaturados com maior valor agregado, e defende a redução imediata de barreiras comerciais ou o protecionismo para proteger suas indústrias nacionais?</p>
+            </div>
+
+            <div class="w3-panel w3-border w3-round-large w3-padding" style="border-left: 4px solid #f9a825 !important;">
+                <h4 style="color:#e65100; margin-top:0;">Etapa 2: A Rodada de Negociações (Mesa de Acordos)</h4>
+                <p>Os grupos negociarão compra e venda de mercadorias e serviços entre si. O professor (atuando como mediador ou <em>"Choque Externo"</em>) lançará um dos seguintes desafios:</p>
+                <ul>
+                    <li><strong>Volatilidade de Commodities:</strong> uma crise global derruba o preço da principal matéria-prima que o país exporta, afetando a balança comercial e o desemprego interno.</li>
+                    <li><strong>Disputa Comercial:</strong> um país acusa o outro de <em>dumping</em> ou de adotar barreiras protecionistas disfarçadas, levando o caso ao mecanismo de resolução de disputas da OMC.</li>
+                    <li><strong>Guerra Comercial:</strong> duas grandes potências iniciam retaliação mútua (estilo EUA × China), afetando diplomática e economicamente os países menores ou dependentes.</li>
+                </ul>
+            </div>
+
+            <div class="w3-panel w3-border w3-round-large w3-padding" style="border-left: 4px solid #1565c0 !important;">
+                <h4 style="color:#1565c0; margin-top:0;">Etapa 3: Plenária e Análise Crítica</h4>
+                <p>Cada embaixada apresenta um <strong>balanço crítico</strong> respondendo a uma pergunta:</p>
+                <p>O comércio internacional atual promoveu o desenvolvimento igualitário ou favoreceu as nações com maior poder econômico, e o modelo de exportação do país o torna vulnerável a fatores externos como câmbio, crises de commodities ou cadeias globais?</p>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <p><strong>Fechamento coletivo:</strong> ao final, cada grupo registra no quadro quais nações fecharam acordos ou formaram blocos econômicos. A turma analisa o mapa de alianças que surgiu.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+        <!-- ── /ATIVIDADE PRÁTICA ─────────────────────────────────────────── -->
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos como o comércio internacional é regulado pela OMC, criada em 1995 em substituição
+                ao GATT, e como seus princípios de não discriminação e nação mais favorecida buscam (nem sempre com
+                sucesso) equilibrar as relações comerciais entre países ricos e pobres. Vimos também como o
+                protecionismo, a balança comercial, as exportações e importações e a dependência de commodities
+                afetam de formas diferentes as economias de cada país, e como os blocos econômicos, como o Mercosul
+                e a União Europeia, aprofundam a integração comercial entre países vizinhos.</p>
+            <p>Na próxima aula, vamos estudar em detalhe um desses blocos: a União Europeia, entendendo como ela se
+                formou a partir da CECA e do Mercado Comum Europeu até chegar à União Europeia atual, com o Tratado
+                de Maastricht e a ideia de organização supranacional.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. Qual é o papel da OMC no comércio internacional e como ela busca resolver disputas entre os
+                    países membros?</h3>
+                <h3>2. Quando e por que a OMC foi criada? O que era o GATT, e por que ele foi substituído?</h3>
+                <h3>3. O que é um bloco econômico? Diferencie zona de livre-comércio, união aduaneira, mercado comum
+                    e união monetária.</h3>
+                <h3>4. O que é o Mercosul? Cite seus principais países-membros e um acordo comercial recente firmado
+                    pelo bloco.</h3>
+                <h3>5. Quais são os pontos positivos e negativos do protecionismo como política econômica? Dê um
+                    exemplo de impacto negativo.</h3>
+                <h3>6. O que é dumping? Por que essa prática é considerada desleal no comércio internacional?</h3>
+                <h3>7. Por que a balança comercial é uma medida importante para entender a economia de um país?
+                    Quais são os aspectos críticos a serem considerados ao analisá-la?</h3>
+                <h3>8. Explique a importância das exportações e importações para a economia de um país, com exemplos
+                    de como podem afetar a indústria doméstica.</h3>
+                <h3>9. Quais são os principais desafios relacionados às commodities no comércio global? Dê um
+                    exemplo de como a volatilidade de preços afeta países exportadores.</h3>
+                <h3>10. Por que a China se tornou a maior exportadora de bens do mundo? Que impactos isso pode gerar
+                    nas relações comerciais internacionais?</h3>
+            </div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
         </div>
@@ -621,10 +826,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-            </div>
-
-        </div>
-
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
             <hr>
@@ -645,6 +846,8 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
+
         </div>
 
     </main>

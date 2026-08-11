@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Industrialização mundial II: a Terceira Revolução Industrial, o meio técnico-científico-informacional, o Fordismo, o Keynesianismo e as empresas multinacionais na Nova Divisão Internacional do Trabalho">
+    <meta property="og:title" content="Texto 08 - Industrialização Mundial II">
+    <meta property="og:description" content="Da linha de produção de Henry Ford à globalização da produção: entenda como o meio técnico-científico-informacional e as multinacionais redesenharam a indústria mundial">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
         <link rel="stylesheet" href="/estilos/memory-game.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,12 +49,13 @@
 
     <script src="/js/aulas-geral.js" defer></script>
      <script src="/js/memory-game.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
 
 
 
-
-    <title></title>
+    <title>3º ano - Texto 08 - Industrialização Mundial II</title>
 
 
 
@@ -85,7 +88,7 @@
 
 
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">Industrialização Mundial II</h1>
 
             <div class="w3-container w3-padding-16">
                 <p><strong>Conteúdo: </strong><span id="descricao-aula"></span> </p>
@@ -156,58 +159,6 @@
 
         <div class="topico">
 
-            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje: </h2>
-
-
-
-
-            <div class="w3-pale-yellow">
-
-
-                <h3>1. O que foi a Revolução Industrial e como ela transformou a produção e a sociedade?</h3>
-
-
-                <h3>2. Como a industrialização impactou as cidades e as estruturas sociais?</h3>
-
-                <h3>3. Quais países se destacaram no desenvolvimento industrial durante a fase concorrencial da
-                    história do capitalismo?</h3>
-
-                <h3>4. Explique o conceito de globalização e como ela está relacionada à industrialização.</h3>
-
-                <h3>5. Cite exemplos de países que se tornaram potências manufatureiras devido à globalização.</h3>
-
-                <h3>6. Qual é o papel das multinacionais na economia global? Dê exemplos de empresas multinacionais.
-                </h3>
-
-                <h3>7. Explique o Fordismo e como ele revolucionou a produção em massa.</h3>
-
-                <h3>8. O que é o Keynesianismo e como ele propõe que o Estado intervenha na economia?</h3>
-
-                <h3>9. Descreva o Meio Técnico-Científico-Informacional (MTCI) e sua importância na era
-                    contemporânea.</h3>
-
-                <h3>10. Como a Nova Divisão Internacional do Trabalho (NDIT) mudou a forma como o trabalho e a
-                    produção estão organizados em nível global? Dê exemplos de países envolvidos nesse processo.
-                </h3>
-
-
-
-            </div>
-
-
-
-
-
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
-
-
-        </div>
-
-
-        <div class="topico">
-
             <h2> Industrialização e globalização</h2>
 
 
@@ -252,14 +203,39 @@
                 mundo, refletindo as diferentes formas de desenvolvimento econômico ao longo do tempo.</p>
 
 
-            <p>Agora, vamos falar sobre a globalização. É como se o mundo todo estivesse cada vez mais conectado, não é
-                mesmo? E adivinha quem teve um papel crucial nisso? A industrialização! </p>
+            <p>A industrialização também teve um papel central na aceleração da globalização, o processo pelo qual
+                países, economias e culturas se integram e se conectam em escala mundial. Mas essa conexão não surgiu
+                de uma vez só: ela é resultado de uma nova etapa técnica que começou a se formar nos anos 1970 e que
+                mudou profundamente a forma como o mundo produz.</p>
 
-            <p>A <strong>globalização</strong> é o processo pelo qual países, economias e culturas se integram e se
-                conectam
-                em escala mundial. E adivinha quem foi o grande impulsionador desse processo? A industrialização! </p>
+            <p>Essa etapa é conhecida como <span class="termo" data-palavra="Terceira Revolução Industrial"
+                    data-definicao="Fase da industrialização iniciada nos anos 1970, marcada pela informática, pela
+                    robótica e pela automação da produção e dos serviços.">Terceira Revolução Industrial</span>, ou
+                Revolução Informacional. Ela se tornou mais perceptível a partir dos anos 1990, com o surgimento do
+                computador pessoal e da internet, mas suas bases já vinham sendo construídas antes disso, com máquinas
+                programáveis de controle digital e os primeiros passos da robótica. Esses avanços trouxeram mais
+                rapidez aos fluxos de informação e mais velocidade aos meios de transporte, encolhendo distâncias em
+                uma escala nunca vista.</p>
 
-            <p> China, Índia e Alemanha são exemplos brilhantes desse fenômeno. A China, conhecida por suas fábricas que
+            <p>No final do século XX, as novas tecnologias de informação permitiram a formação de redes digitais e a
+                automação da produção e dos serviços, o que transformou o modo de produção capitalista e a organização
+                do trabalho. Os custos caíram, e produtos que antes eram inacessíveis para boa parte da população
+                passaram a circular em larga escala. Já nas primeiras décadas do século XXI, em 2011, na Feira de
+                Hanover, na Alemanha, foi cunhado o termo <span class="termo" data-palavra="Indústria 4.0"
+                    data-definicao="Termo criado em 2011 para descrever a integração entre robótica, inteligência
+                    artificial, computação em nuvem e internet das coisas na produção industrial.">Indústria 4.0</span>,
+                ou Quarta Revolução Industrial, para descrever o aperfeiçoamento de áreas como robótica, inteligência
+                artificial, computação em nuvem e internet das coisas, esta última responsável por conectar
+                eletrodomésticos, veículos e outros objetos do dia a dia à rede mundial de computadores.</p>
+
+            <p>Esse avanço tecnológico não está distribuído de forma equilibrada entre os países. Segundo o relatório
+                Indicadores de Ciência e Engenharia 2022, da Fundação Nacional da Ciência dos Estados Unidos, em 2019 o
+                país norte-americano ainda liderava os investimentos globais em pesquisa e desenvolvimento, com 27% do
+                total mundial, mas a China já vinha logo atrás, com 22%, seguida por Japão (7%), Alemanha (6%) e Coreia
+                do Sul (4%). Esses números ajudam a explicar por que China, Índia e Alemanha se tornaram exemplos tão
+                citados quando o assunto é industrialização e globalização.</p>
+
+            <p> China, Índia e Alemanha são exemplos claros desse fenômeno. A China, conhecida por suas fábricas que
                 produzem de tudo, desde eletrônicos até roupas, se tornou uma potência manufatureira global. Isso
                 impulsionou sua economia a níveis estratosféricos, tornando-a uma das principais exportadoras do mundo.
             </p>
@@ -301,10 +277,11 @@
 
 
 
-            <p> Agora, vamos para os dados! Em 2021, a China se tornou a maior economia do mundo em termos de PIB em
-                paridade de poder de compra. A Índia é o terceiro maior produtor de aço do mundo, refletindo seu
-                crescimento
-                industrial. </p>
+            <p> Os dados confirmam esse peso da Ásia na indústria mundial. Desde 2014, a China é a maior economia do
+                mundo em termos de PIB em paridade de poder de compra, embora os Estados Unidos ainda liderem quando
+                o cálculo usa o câmbio de mercado. A Índia, por sua vez, é hoje a segunda maior produtora de aço do
+                mundo, atrás apenas da própria China, o que reflete seu crescimento industrial acelerado nas últimas
+                décadas. </p>
 
             <p>Mas nem tudo são flores. A industrialização também traz seus desafios. Como lidar com os impactos no meio
                 ambiente? E a migração das áreas rurais para as urbanas, quais os impactos sociais? E a desigualdade
@@ -352,10 +329,13 @@
 
 
 
-            <p>Vamos agora adentrar o fascinante mundo do Meio Técnico-Científico-Informacional, ou simplesmente MTCI.
-                Esse
-                conceito, cunhado pelo renomado geógrafo brasileiro Milton Santos, é essencial para compreendermos a era
-                contemporânea e a forma como a tecnologia e a informação moldam nossa sociedade. </p>
+            <p>Vamos agora adentrar o mundo do <span class="termo"
+                    data-palavra="Meio Técnico-Científico-Informacional (MTCI)"
+                    data-definicao="Conceito de Milton Santos para a fase atual do espaço geográfico, marcada pela
+                    fusão entre técnica, ciência e informação a serviço da produção globalizada.">Meio
+                    Técnico-Científico-Informacional</span>, ou simplesmente MTCI. Esse conceito, cunhado pelo
+                geógrafo brasileiro Milton Santos, é essencial para compreendermos a era contemporânea e a forma como a
+                tecnologia e a informação moldam nossa sociedade. </p>
 
             <div class="w3-margin"><img id="imagem6" src="tt08f06.png" alt="tt08f06" class="w3-mobile">
 
@@ -447,7 +427,7 @@
 
 
 
-            <div class="w3-panel w3-leftbar w3-grayscale w3-margin w3-padding">
+            <div class="w3-panel w3-leftbar w3-sand w3-margin w3-padding">
 
                 <h4><strong>Resumo da Definição de MTCI por Milton Santos</strong></h4>
 
@@ -508,9 +488,15 @@
 
 
 
-            <p>Vamos começar com o Fordismo, uma verdadeira revolução na forma como produzimos bens. Imagine-se nos anos
-                1900, lá nos Estados Unidos. Henry Ford, o cara por trás da famosa Ford Motors, sacudiu o mundo com uma
-                ideia simples, mas genial: a linha de produção em massa. </p>
+            <p>Vamos começar com o <span class="termo" data-palavra="Fordismo"
+                    data-definicao="Sistema de produção em massa criado por Henry Ford no início do século XX, baseado
+                    na padronização de mercadorias e na divisão do trabalho em tarefas simples e repetitivas.">Fordismo</span>,
+                uma revolução na forma como produzimos bens. No início do século XX, nos Estados Unidos, Henry Ford,
+                fundador da Ford Motors, inspirou-se nas ideias do engenheiro Frederick Winslow Taylor para introduzir
+                em suas fábricas a produção em série, na qual as mercadorias são padronizadas e fabricadas em grande
+                quantidade, e a divisão da produção, na qual cada trabalhador fica responsável por uma tarefa
+                específica. O objetivo era produzir mais em menos tempo, e o resultado foi uma separação nítida entre
+                o trabalho intelectual, de planejamento, e o trabalho manual, de execução.</p>
 
             <div class="w3-margin"><img id="imagem8" src="tt08f08.png" alt="tt08f08" class="w3-mobile">
 
@@ -518,17 +504,42 @@
 
             </div>
 
+            <p>O Fordismo trouxe a ideia de que, ao dividir o trabalho em tarefas simples e repetitivas, era possível
+                aumentar a eficiência e reduzir custos. O resultado foi que carros, antes um luxo para poucos, se
+                tornaram acessíveis para a classe média. Esse modelo de organização fabril também impulsionou a
+                atuação das empresas transnacionais, já que a produção passou a poder ser distribuída não só entre
+                trabalhadores, mas entre unidades fabris situadas em localidades diferentes, dentro do mesmo país ou
+                em mais de um.</p>
 
+            <p>Um exemplo curioso dessa expansão fordista aconteceu no próprio Brasil. Em 1928, como alternativa à
+                produção de borracha nas colônias do Império Britânico no Sudeste Asiático, Henry Ford comprou uma
+                vasta área de terras no estado do Pará e instalou ali uma fábrica de beneficiamento de látex e uma
+                vila operária para os trabalhadores, batizada de Fordlândia. O empreendimento enfrentou dificuldades
+                com o clima e as pragas da região amazônica e acabou sendo vendido de volta ao governo brasileiro em
+                1945, mas o distrito de Fordlândia, no município de Aveiro, existe até hoje.</p>
 
-
-            <p> Isso mesmo, pessoal! O Fordismo trouxe a ideia de que, ao dividir o trabalho em tarefas simples e
-                repetitivas, era possível aumentar a eficiência e reduzir custos. O resultado? Carros, por exemplo, que
-                antes eram um luxo para poucos, se tornaram acessíveis para a classe média.</p>
-
-            <p> E não foi só nos EUA não, meus amigos. Olha só o Japão! Depois da Segunda Guerra Mundial, o país adotou
-                o
-                Fordismo e virou potência automobilística com empresas como Toyota e Honda dominando o mercado global.
+            <p> A ideia fordista também não ficou restrita aos Estados Unidos. Depois da Segunda Guerra Mundial, o
+                Japão adotou o Fordismo e se tornou potência automobilística, com empresas como Toyota e Honda
+                dominando o mercado global.
             </p>
+
+            <h3>Toyotismo: a alternativa flexível ao Fordismo</h3>
+
+            <p>Foi justamente no Japão, dentro da própria indústria automobilística, que surgiu o principal
+                concorrente do modelo fordista: o <span class="termo" data-palavra="Toyotismo"
+                    data-definicao="Sistema de produção flexível, criado pela Toyota no Japão, baseado na fabricação
+                    sob demanda, na redução de estoques e no princípio do just in time.">Toyotismo</span>. A partir da
+                década de 1970, esse sistema passou a ser adotado por empresas de outros setores em todo o mundo.
+                Diferente da produção padronizada e rígida do Fordismo, o Toyotismo viabilizou a fabricação de
+                produtos mais adequados à demanda, individualizados e variados conforme as necessidades do mercado.
+                Uma de suas grandes inovações foi eliminar a necessidade de manter grandes estoques nas fábricas: os
+                componentes passaram a chegar à linha de produção exatamente no momento da montagem, no sistema
+                conhecido como <span class="termo" data-palavra="Just in Time"
+                    data-definicao="Princípio do sistema toyotista em que os insumos chegam à linha de produção
+                    exatamente no momento em que são necessários, eliminando a necessidade de grandes estoques.">just
+                    in time</span>. Essa flexibilidade exigiu operários capazes de operar diversos equipamentos e
+                desempenhar diferentes funções, ao contrário da especialização rígida em uma única tarefa que marcava
+                o Fordismo.</p>
 
             <h3> Keynesianismo: O Estado como Regulador da Economia</h3>
 
@@ -581,6 +592,32 @@
                 em diversos países ao redor do mundo, não se limitando às fronteiras nacionais. Elas têm uma presença
                 poderosa e influente na economia global, muitas vezes dominando setores inteiros.</p>
 
+            <p>As grandes empresas formadas desde o final do século XIX, a partir de trustes e oligopólios, tinham
+                suas sedes nos países do centro do espaço mundial, como Estados Unidos, países da Europa Ocidental e
+                Japão, e filiais em diversos países em desenvolvimento. Esse modelo, em geral, reproduzia as
+                tecnologias vindas da sede e garantia a venda de produtos industrializados em todos os países
+                integrados a esse sistema econômico. Mais recentemente, essas empresas passaram a ser chamadas de
+                <span class="termo" data-palavra="Empresa Transnacional"
+                    data-definicao="Termo atual para as antigas multinacionais, que passaram a especializar filiais
+                    em etapas do processo produtivo, dividir a própria sede entre países e criar centros de pesquisa
+                    fora do país de origem.">transnacionais</span>, um termo mais apropriado, já que adotaram novos
+                procedimentos: a especialização das filiais em fases específicas da produção, a divisão da própria
+                sede entre diversos países e a criação de centros de pesquisa e desenvolvimento nas filiais. Seus
+                vínculos com o país de origem diminuem à medida que aumenta a independência das filiais no mercado
+                globalizado.</p>
+
+            <p>Com as facilidades de comunicação e transporte trazidas pela Terceira Revolução Industrial, as
+                transnacionais puderam flexibilizar sua localização, instalando unidades produtoras em países onde os
+                custos de produção são mais baixos. Foi assim que os chamados <span class="termo"
+                    data-palavra="Tigres Asiáticos"
+                    data-definicao="Cingapura, Taiwan, Hong Kong e Coreia do Sul, países que se industrializaram
+                    rapidamente a partir da atração de investimentos de empresas transnacionais.">Tigres
+                    Asiáticos</span>, Cingapura, Taiwan, Hong Kong e Coreia do Sul, e, posteriormente, a China e o
+                Vietnã, se integraram de forma acelerada à economia mundial. Hoje, as partes de um mesmo produto
+                costumam ser fabricadas em países diferentes e montadas em outro; muitas transnacionais nem sequer
+                fabricam mais seus produtos, apenas cuidam do projeto e da manutenção da marca, enquanto a produção
+                dos componentes fica a cargo de indústrias instaladas onde a mão de obra é mais barata.</p>
+
             <p> Vamos pensar em exemplos concretos. A gigante do varejo, Walmart, é um exemplo clássico de
                 multinacional.
                 Com lojas em mais de 25 países e uma enorme cadeia de suprimentos, o Walmart é uma força a ser
@@ -629,20 +666,30 @@
 
 
 
-            <p> Agora vamos falar sobre a NDIT, que é a forma como o trabalho e a produção estão organizados em nível
-                global.</p>
+            <p> Agora vamos falar sobre a <span class="termo" data-palavra="Nova Divisão Internacional do Trabalho (NDIT)"
+                    data-definicao="Reorganização da produção mundial, a partir da segunda metade do século XX, em que
+                    diferentes etapas de um mesmo processo produtivo passaram a ser realizadas em países diferentes,
+                    conduzidas por empresas transnacionais.">Nova Divisão Internacional do Trabalho</span>, ou NDIT,
+                que é a forma como o trabalho e a produção estão organizados em nível global.</p>
 
-            <p> Antes, tínhamos uma divisão simples entre países desenvolvidos, que produziam bens de alto valor
-                agregado, e
-                países em desenvolvimento, que forneciam mão de obra barata e recursos naturais.</p>
+            <p> Antes da Segunda Guerra Mundial, havia relativamente poucos complexos industriais importantes fora dos
+                países desenvolvidos, como os Estados Unidos e os países da Europa, e industrialização era quase
+                sinônimo de riqueza. Nas décadas seguintes ao fim da guerra, porém, as empresas transnacionais,
+                interessadas em ampliar o mercado consumidor de seus produtos, passaram a instalar fábricas em nações
+                que, até então, apenas importavam boa parte do que consumiam. Esse processo ficou conhecido como
+                <span class="termo" data-palavra="Globalização da Produção"
+                    data-definicao="Processo, intensificado a partir do fim da Segunda Guerra Mundial, pelo qual as
+                    empresas transnacionais passaram a instalar fábricas em países em desenvolvimento, ampliando o
+                    número de países integrados às cadeias produtivas globais.">globalização da produção</span>.</p>
 
             <h4> Mudanças na Divisão do Trabalho</h4>
 
-            <p> Mas a NDIT mudou isso. Agora, vemos uma complexa rede de produção global, onde diferentes etapas do
-                processo
-                produtivo são feitas em diferentes países. Por exemplo, um carro pode ser projetado nos EUA, ter suas
-                peças
-                fabricadas na China, montado no México e vendido na Europa.</p>
+            <p> Nas duas últimas décadas do século XX, a introdução de mecanismos de controle da produção, como a
+                robótica, associada ao aprimoramento dos sistemas de transporte e comunicação, permitiu que as
+                transnacionais ampliassem ainda mais o intercâmbio entre suas fábricas. Hoje, vemos uma complexa rede
+                de produção global, onde diferentes etapas do processo produtivo são feitas em diferentes países. Por
+                exemplo, um carro pode ser projetado nos EUA, ter suas peças fabricadas na China, montado no México e
+                vendido na Europa.</p>
 
             <h4> Exemplos de Países na NDIT</h4>
 
@@ -678,6 +725,13 @@
 
             </div>
 
+            <p>Neste texto, vimos como a Terceira Revolução Industrial, o MTCI, o Fordismo, o Toyotismo, o
+                Keynesianismo, as transnacionais e a NDIT se conectam para explicar a indústria mundial de hoje. Mas
+                essa história ainda não terminou: na próxima aula, vamos entender como o próprio sistema de produção
+                se transformou ainda mais a partir da acumulação flexível, como a atividade industrial se concentra ou
+                se espalha pelo território, e como o neoliberalismo e o capitalismo monopolista redesenharam as regras
+                do jogo econômico global.</p>
+
 
 
 
@@ -710,9 +764,10 @@
 
             <h2> Infográfico - Resumo</h2>
 
-            <div class="w3-margin"><img id="infograficot8" src="inforesumot8.png"
-                    alt="Infográfico resumo raio x da população" class="w3-mobile">
-                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            <div class="w3-margin"><img id="infograficot8" src="inforesumott8.webp"
+                    alt="Infográfico resumo Industrialização Mundial II" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -729,7 +784,7 @@
 
             <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                     Qual foi o impacto da Revolução Industrial na vida das pessoas comuns?
                 </strong> </p>
 
@@ -741,7 +796,7 @@
                 fábricas,
                 enfrentando longas jornadas de trabalho e condições precárias.</p>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>Como a globalização afeta o consumo de
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>Como a globalização afeta o consumo de
                     produtos
                     ao redor do mundo?</strong></p>
 
@@ -753,7 +808,7 @@
                 resultar em
                 padrões de consumo padronizados em todo o mundo.</p>
 
-            <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                     Como a tecnologia tem influenciado a indústria moderna?
                 </strong></p>
 
@@ -764,11 +819,59 @@
                 nas
                 fábricas, resultando em uma indústria mais ágil e competitiva.</p>
 
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que as multinacionais passaram a ser chamadas de transnacionais, e qual a relação disso com a
+                    Nova Divisão Internacional do Trabalho?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span> Porque essas empresas deixaram de apenas manter filiais
+                subordinadas a uma sede única e passaram a especializar suas unidades em diferentes etapas do
+                processo produtivo, dividir a própria sede entre países e instalar centros de pesquisa fora do país de
+                origem. Essa flexibilidade de localização, somada às facilidades de transporte e comunicação da
+                Terceira Revolução Industrial, permitiu que a produção de um mesmo produto fosse fragmentada entre
+                vários países, o que é exatamente a lógica da NDIT: cada etapa da produção acontece onde é mais
+                vantajoso, seja pelo custo da mão de obra, pela proximidade de matéria-prima ou pela infraestrutura
+                tecnológica disponível.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
 
             <hr>
 
+        </div>
+
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+
+                <h3>1. O que é a Terceira Revolução Industrial e por que ela também é chamada de Revolução
+                    Informacional?</h3>
+                <h3>2. O que é a Indústria 4.0 e quando esse termo foi criado?</h3>
+                <h3>3. Descreva o Meio Técnico-Científico-Informacional (MTCI) e explique por que ele é considerado
+                    a face geográfica da globalização.</h3>
+                <h3>4. Explique o Fordismo: quem o criou, e como ele organizava o trabalho na fábrica?</h3>
+                <h3>5. O que foi Fordlândia, e o que esse episódio revela sobre a expansão do modelo fordista?</h3>
+                <h3>6. Em que o Toyotismo se diferencia do Fordismo? O que é o sistema just in time?</h3>
+                <h3>7. O que é o Keynesianismo e como o governo de Juscelino Kubitschek se relaciona com essa ideia
+                    no Brasil?</h3>
+                <h3>8. Por que as multinacionais passaram a ser chamadas de transnacionais? Cite um exemplo de
+                    empresa transnacional.</h3>
+                <h3>9. O que são os Tigres Asiáticos, e qual foi o papel das transnacionais no seu desenvolvimento
+                    industrial?</h3>
+                <h3>10. O que é a Nova Divisão Internacional do Trabalho (NDIT)? Explique com um exemplo de produto
+                    fabricado em mais de um país.</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
         </div>
 
 
@@ -789,7 +892,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'O tema Industrialização Mundial II é fantástico! Continue estudando!',
         pontos: 40
     });
     

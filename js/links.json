@@ -62,8 +62,8 @@
   "AgenciaBrasilBRICS": {
     "cor": "w3-indigo",
     "corTexto": "w3-text-white",
-    "texto": "BRICS se expande e Brasil defende reforma das instituições globais — Agência Brasil",
-    "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2023-08/brics-se-expande-e-brasil-defende-reforma-das-instituicoes-globais"
+    "texto": "Declaração do Brics pede reforma da ONU e projeta nova ordem global — Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2024-10/declaracao-do-brics-pede-reforma-da-onu-e-projeta-nova-ordem-global"
   },
   "AgenciaBrasilCOP28Fosseis": {
     "cor": "w3-teal",
@@ -134,8 +134,8 @@
   "AgenciaBrasilExportacoes": {
     "cor": "w3-brown",
     "corTexto": "w3-text-white",
-    "texto": "Soja e petróleo lideram exportações brasileiras — Agência Brasil",
-    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2024-01/soja-e-petroleo-lideram-exportacoes-brasileiras-em-2023"
+    "texto": "Superávit comercial cresce puxado por exportações de soja — Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/superavit-comercial-cresce-108-em-maio-puxado-por-soja-e-cobre"
   },
   "AgenciaBrasilGentrif": {
     "cor": "w3-deep-orange",
@@ -296,8 +296,8 @@
   "ChinaBrasil": {
     "cor": "w3-yellow",
     "corTexto": "w3-text-black",
-    "texto": "Agência Brasil: China como maior parceiro comercial do Brasil",
-    "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2024-10/estado-palestino-faria-israel-repartir-meio-trilhao-em-petroleo-e-gas"
+    "texto": "Agência Brasil: China é o principal parceiro comercial do Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2019-11/china-e-o-principal-parceiro-comercial-do-brasil"
   },
   "ChinaNovaRota": {
     "cor": "w3-red",

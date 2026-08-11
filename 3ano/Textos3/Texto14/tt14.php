@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="A urbanização mundial: o crescimento das cidades, a metropolização, as megacidades e as cidades globais no mundo contemporâneo">
+    <meta property="og:title" content="Texto 14 - A Urbanização Mundial">
+    <meta property="og:description" content="Do êxodo rural às megacidades: entenda a urbanização mundial, a metropolização e as cidades globais com dados do relatório da ONU de 2025">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,6 +27,81 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Post-it Clean Pixel v2 (CSS puro, sem imagem, cores do Duvid) -->
+    <style>
+        .postit-v2 {
+            position: relative;
+            width: 100%;
+            max-width: 280px;
+            min-height: 160px;
+            margin: 0 auto;
+            background-color: #fff6c9;
+            clip-path: polygon(0 10px, 10px 10px, 10px 0,
+                    calc(100% - 10px) 0, calc(100% - 10px) 10px, 100% 10px,
+                    100% calc(100% - 10px), calc(100% - 10px) calc(100% - 10px), calc(100% - 10px) 100%,
+                    10px 100%, 10px calc(100% - 10px), 0 calc(100% - 10px));
+            image-rendering: pixelated;
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 32px 28px;
+            transform: rotate(-1deg);
+            transition: transform 0.3s ease-out;
+        }
+
+        .postit-v2:hover {
+            transform: rotate(1deg) scale(1.05);
+        }
+
+        .postit-v2::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #4caf50;
+            clip-path: polygon(0 0, 100% 0, 0 100%);
+        }
+
+        .postit-v2::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 16px;
+            height: 16px;
+            background-color: #2e7d32;
+            clip-path: polygon(100% 100%, 100% 0, 0 100%);
+        }
+
+        .postit-v2-text {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #5d4037;
+            text-align: center;
+            line-height: 1.4;
+            font-size: 15px;
+        }
+
+        .postit-v2-text strong,
+        .postit-v2-text .w3-green {
+            color: #2e7d32;
+        }
+
+        body.dark-mode .postit-v2 {
+            background-color: #fdf1a8;
+        }
+
+        /* Corrige tabela "cidades mais populosas" que forçava overflow horizontal no mobile
+           (table-layout:auto deixa o navegador dimensionar pelo conteúdo, estourando o container flex) */
+        .w3-responsive table {
+            table-layout: fixed;
+            width: 100%;
+        }
+    </style>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -40,6 +117,8 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 14 - A urbanização mundial</title>
 
@@ -56,7 +135,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">A Urbanização Mundial</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -96,12 +175,8 @@
         <p>Hoje, veremos o outro lado desse processo através da urbanização, isto é, o crescimento das cidades, das
             megacidades e megalópoles.</p>
 
-        <p>Nesta aula, exploraremos o que é urbanização, suas causas e consequências, além de analisar exemplos de
-            países e dados atuais para uma visão crítica desse fenômeno.</p>
-
-
-
-
+        <p>Nesta aula, exploraremos o que é urbanização, a metropolização, as cidades globais e as megacidades,
+            além de analisar exemplos de países e dados atuais para uma visão crítica desse fenômeno.</p>
 
 
 
@@ -109,99 +184,45 @@
         <hr>
 
 
-    </div>
-<div class="topico">
-        <h2>Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-        <div class="w3-card-4 w3-pale-yellow w3-padding-small w3-margin">
-            <ul style="list-style-type: none;">
-                <li>
-                    1. Explique o que é urbanização e como ela está relacionada ao crescimento da população nas áreas
-                    urbanas.
-                </li>
-                <li>
-                    2. Cite dois fatores que podem impulsionar a urbanização, de acordo com o texto, e explique como
-                    esses fatores contribuem para o fenômeno.
-                </li>
-                <li>
-                    3. Descreva as consequências da urbanização mencionadas no texto, destacando pelo menos duas áreas
-                    afetadas por esse processo.
-                </li>
-                <li>
-                    4. Com base nos exemplos apresentados no texto, discuta as características e desafios de uma
-                    megalópole e uma megacidade.
-                </li>
-                <li>
-                    5. Por que a urbanização desigual é um tema importante mencionado no texto? Dê exemplos de
-                    disparidades que podem surgir dentro das cidades.
-                </li>
-            </ul>
-        </div>
-
-
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-<div class="topico">
-
-        <h2>Resumo: Urbanização</h2>
-    
-        <p><strong>Definição de Urbanização:</strong></p>
-        <p>Processo de crescimento populacional em áreas urbanas. Envolve desenvolvimento de infraestrutura como edifícios, estradas e sistemas de transporte. Relacionada à migração e industrialização.</p>
-        
-        <p><strong>Exemplo: China</strong></p>
-        <p>Urbanização acelerada com migração em massa das áreas rurais para as cidades. Cidades como Pequim, Xangai e Guangzhou cresceram exponencialmente.</p>
-        
-        <p><strong>Cidades e Urbanização Global:</strong></p>
-        <p>Cidades são centros da urbanização e desempenham um papel vital na economia e cultura global.</p>
-        
-        <p><strong>Centralidade Urbana:</strong></p>
-        <p>Concentração de atividades econômicas e sociais no centro das cidades. Exemplos: Times Square (Nova Iorque), Shibuya (Tóquio), Xangai (China).</p>
-        
-        <p><strong>Consequências da Urbanização:</strong></p>
-        <p>Poluição do ar e da água. Pressão sobre recursos naturais. Desigualdade social e problemas de saúde pública. Exemplo: São Paulo, Brasil.</p>
-        
-        <p><strong>Rede Urbana e Conurbação:</strong></p>
-        <p>Interconexão de cidades através de fluxos de pessoas, mercadorias e informações. Exemplo: BosWash (EUA), BosWash é uma conurbação na costa leste dos EUA, englobando várias grandes cidades.</p>
-        
-        <p><strong>Megalópoles e Megacidades:</strong></p>
-        <p>Megalópoles: Regiões altamente urbanizadas que conectam várias cidades. Exemplo: Baiyue Dianchi (China). Megacidades: Centros urbanos com mais de 10 milhões de habitantes. Exemplo: São Paulo (Brasil).</p>
-        
-        <p><strong>Urbanização Desigual:</strong></p>
-        <p>Disparidades na distribuição de recursos e infraestrutura dentro das cidades. Exemplo: Índia, onde o êxodo rural levou ao crescimento de cidades como Mumbai e Nova Delhi, criando desafios de infraestrutura e habitação.</p>
-        
-        <p><strong>Urbanização e Industrialização:</strong></p>
-        <p>Exemplo: Revolução Industrial na Inglaterra, com cidades como Manchester crescendo devido à concentração de fábricas.</p>
-        
-        <p><strong>Reflexão:</strong></p>
-        <p>Como promover uma urbanização mais sustentável e inclusiva?</p>
-    
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    
     </div>
 <div class="topico">
 
         <h2>O Que é Urbanização?</h2>
 
-        <p>Dos 7,8 bilhões de habitantes do planeta, 56,2% vivem em áreas urbanas e 43,8% em áreas rurais em 2020. O
-            mundo passou a ser majoritariamente urbano em 2007. A urbanização refere-se ao processo pelo qual uma
-            população cresce em centros urbanos, resultando no aumento da proporção de pessoas que vivem nessas áreas em
-            relação às áreas rurais. </p>
-        <p>
-
-            Ela envolve o desenvolvimento de infraestrutura urbana, como edifícios, estradas,
+        <p>A <span class="termo" data-palavra="Urbanização" data-definicao="Processo pelo qual uma população cresce nos centros urbanos, aumentando a proporção de pessoas que vivem nessas áreas em relação às áreas rurais, acompanhado da expansão da infraestrutura das cidades.">urbanização</span> refere-se ao processo pelo qual uma
+            população cresce em centros urbanos, aumentando a proporção de pessoas que vivem nessas áreas em relação
+            às áreas rurais. Ela envolve o desenvolvimento de infraestrutura urbana, como edifícios, estradas,
             sistemas de transporte, redes de abastecimento de água e energia, entre outros. A urbanização pode ser
             impulsionada por diversos fatores, como migração, industrialização, modernização agrícola e busca por
             oportunidades econômicas.
         </p>
-
+        <p>Segundo o relatório <em>World Urbanization Prospects 2025</em>, divulgado em novembro de 2025 pelo
+            Departamento de Assuntos Econômicos e Sociais da ONU (UN DESA), as cidades hoje abrigam 45% da população
+            mundial de 8,2 bilhões de pessoas. Esse número mais que dobrou desde 1950, quando apenas 20% dos 2,5
+            bilhões de habitantes do planeta viviam em áreas urbanas. É importante notar que esse relatório trouxe
+            uma mudança de metodologia: pela primeira vez, a ONU passou a classificar os assentamentos humanos em
+            três categorias (cidades, vilas e áreas rurais), em vez do critério binário urbano/rural usado
+            anteriormente, o que torna a comparação com dados de anos passados mais complexa. A projeção é que, até
+            2050, dois terços de todo o crescimento populacional do planeta ocorram em cidades.
+        </p>
+        <p>Essa nova metodologia, chamada de <em>Grau de Urbanização</em>, é uma abordagem geoespacial que usa uma
+            grade de dados de população e densidade demográfica para classificar os assentamentos com mais precisão
+            e permitir comparações internacionais mais confiáveis. Uma cidade, nessa nova definição, é um
+            aglomerado com pelo menos 5.000 habitantes e densidade mínima de 300 pessoas por quilômetro quadrado. O
+            limite mínimo de população para um assentamento ser considerado cidade também caiu de 300 mil para 50
+            mil habitantes, o que fez o número de cidades analisadas pela ONU saltar para mais de 12 mil ao redor
+            do mundo.
+        </p>
 
 
         <p><strong>Exemplo: China</strong><br>
-            A China é um exemplo impressionante de urbanização acelerada. Nos últimos anos, o país testemunhou um êxodo
-            rural em massa, com milhões de pessoas migrando das áreas rurais para as cidades em busca de trabalho e
-            melhores condições de vida. Cidades como Pequim, Xangai e Guangzhou cresceram exponencialmente, tornando-se
+            A China é um exemplo impressionante de urbanização acelerada, o maior e mais rápido processo de
+            urbanização já registrado na história mundial. Em 1978, apenas 18% da população chinesa vivia em
+            cidades. Em 2011, pela primeira vez na história do país, o número de moradores urbanos ultrapassou o de
+            moradores rurais. Em 2024, a taxa de urbanização chinesa já havia chegado a 67%, o equivalente a 944
+            milhões de pessoas vivendo em áreas urbanas. Nos últimos anos, o país testemunhou um êxodo rural em
+            massa, com milhões de pessoas migrando das áreas rurais para as cidades em busca de trabalho e melhores
+            condições de vida. Cidades como Pequim, Xangai e Guangzhou cresceram exponencialmente, tornando-se
             centros econômicos globais.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -213,7 +234,7 @@
         <p>As cidades são os centros da urbanização, onde a maioria da população mundial vive e trabalha. Elas
             desempenham um papel vital na economia global, na cultura, na política e no desenvolvimento humano.</p>
 
-        <h3 class="w3-center">Principais aglomerações urbanas no mundo</h3>
+        <h3 class="w3-center">As cidades mais populosas do mundo em 2025</h3>
         <div class="w3-margin">
             <div class="w3-responsive">
                 <table class="w3-table w3-striped w3-centered">
@@ -221,90 +242,51 @@
                         <th>Posição</th>
                         <th>Aglomerado Urbano</th>
                         <th>País</th>
-                        <th>População (2000)</th>
-                        <th>População (2020)</th>
+                        <th>População (2025)</th>
                     </tr>
                     <tr>
                         <td>1</td>
-                        <td>Tóquio</td>
-                        <td>Japão</td>
-                        <td>33,5 milhões</td>
-                        <td>37,4 milhões</td>
+                        <td>Jacarta</td>
+                        <td>Indonésia</td>
+                        <td>~42 milhões</td>
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Delhi</td>
-                        <td>Índia</td>
-                        <td>15,9 milhões</td>
-                        <td>31,7 milhões</td>
+                        <td>Daca</td>
+                        <td>Bangladesh</td>
+                        <td>~40 milhões</td>
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Xangai</td>
-                        <td>China</td>
-                        <td>14,9 milhões</td>
-                        <td>27,1 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>São Paulo</td>
-                        <td>Brasil</td>
-                        <td>18,4 milhões</td>
-                        <td>22,1 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Cidade do México</td>
-                        <td>México</td>
-                        <td>18,1 milhões</td>
-                        <td>22,1 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Cairo</td>
-                        <td>Egito</td>
-                        <td>14,1 milhões</td>
-                        <td>21,1 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Mumbai</td>
-                        <td>Índia</td>
-                        <td>16,5 milhões</td>
-                        <td>20,4 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Pequim</td>
-                        <td>China</td>
-                        <td>13,6 milhões</td>
-                        <td>20,4 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Dhaka</td>
-                        <td>Bangladesh</td>
-                        <td>10,6 milhões</td>
-                        <td>20,0 milhões</td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Osaka</td>
+                        <td>Tóquio</td>
                         <td>Japão</td>
-                        <td>16,3 milhões</td>
-                        <td>19,2 milhões</td>
+                        <td>~33 milhões</td>
                     </tr>
                 </table>
             </div>
-            <span class="w3-small">Fonte:
-                World Urbanization Prospects: The 2018 Revision" do Departamento de Assuntos Econômicos e Sociais da
-                ONU </span>
+            <span class="w3-small">Fonte: ONU-DESA. World Urbanization Prospects 2025: Summary of Results. Nova
+                York: UN DESA, nov. 2025.</span>
         </div>
 
-        <p>Os dados da tabela acima fornecem uma visão geral das megacidades e grandes áreas metropolitanas que têm um
-            papel significativo na urbanização global. Nota-se um crescimento populacional considerável ao longo das
-            duas décadas em todas as aglomerações listadas, refletindo o contínuo processo de urbanização em diversas
-            partes do mundo.</p>
+        <p>De acordo com o mesmo relatório, Cairo, no Egito, é a única cidade fora da Ásia entre as dez mais
+            populosas do planeta em 2025, o que reforça o peso do continente asiático na urbanização mundial atual.
+            No total, o número de <span class="termo" data-palavra="Megacidade" data-definicao="Área urbana com 10 milhões de habitantes ou mais. Em 2025, o mundo tinha 33 megacidades, sendo 19 delas na Ásia, segundo a ONU.">megacidades</span>, isto é, áreas urbanas com 10 milhões
+            de habitantes ou mais, quadruplicou entre 1975 e 2025, passando de 8 para 33, das quais mais da metade
+            (19) está na Ásia. A projeção da ONU é que esse número suba para 37 até 2050, com cidades como Adis
+            Abeba (Etiópia), Dar es Salaam (Tanzânia), Hajipur (Índia) e Kuala Lumpur (Malásia) ultrapassando a
+            marca de 10 milhões de habitantes.</p>
+
+        <p>Apesar de toda a atenção que recebem, as megacidades não são onde vive a maior parte da população
+            urbana do mundo: cidades pequenas e médias abrigam mais pessoas do que as megacidades e crescem em ritmo
+            mais acelerado, principalmente na África e na Ásia. Das mais de 12 mil cidades analisadas pela ONU em
+            2025, 96% têm menos de 1 milhão de habitantes e 81% têm menos de 250 mil. O número total de cidades no
+            mundo mais que dobrou entre 1975 e 2025, e a projeção é que ultrapasse 15 mil até 2050.</p>
+
+        <p>O crescimento urbano também não é uniforme: enquanto muitas cidades continuam se expandindo, outras
+            perdem população mesmo em países que continuam crescendo. É o caso de grandes cidades como a Cidade do
+            México e Chengdu, na China, que registraram queda populacional em 2025. Já nas áreas rurais, que ainda
+            são o tipo de assentamento mais comum em 62 países (contra 116 em 1975), a África Subsaariana é a única
+            região do mundo onde a população rural continua crescendo de forma significativa.</p>
 
         <div class="w3-margin"><img id="imagem4" src="tt14f04.png" alt="População urbana no mundo - Duvid Geografia"
                 class="w3-mobile">
@@ -316,18 +298,29 @@
 
 
 
-        <h3>Exemplo: Nova Iorque, Estados Unidos</h3>
-        <p>Nova Iorque é um exemplo de cidade global que exerce uma influência significativa em escala mundial. É um
-            centro financeiro, cultural e de mídia, abrigando a Bolsa de Valores de Nova Iorque, a sede das Nações
-            Unidas e uma vibrante cena artística.</p>
+        <h3>Cidades Globais</h3>
+        <p>Além do tamanho da população, algumas cidades se destacam pela influência que exercem sobre a economia
+            e a política mundiais: são as chamadas <span class="termo" data-palavra="Cidade Global" data-definicao="Conceito criado pela socióloga Saskia Sassen em 1991 para descrever cidades que funcionam como pontos estratégicos de comando da economia globalizada, concentrando serviços financeiros, sedes de empresas multinacionais e organismos internacionais.">cidades globais</span>. O conceito foi criado pela
+            socióloga holandesa-americana Saskia Sassen em 1991, na obra <em>A Cidade Global</em>, para descrever
+            Londres, Nova Iorque e Tóquio como pontos estratégicos que comandam o sistema financeiro e comercial
+            globalizado. O Globalization and World Cities Research Network (GaWC), da Universidade de Loughborough,
+            no Reino Unido, classifica as cidades globais em três níveis, de acordo com sua conectividade
+            internacional: alfa, beta e gama. Nova Iorque é um exemplo de cidade global alfa, sendo um centro
+            financeiro, cultural e de mídia que abriga a Bolsa de Valores de Nova Iorque e a sede das Nações Unidas.
+            Outras cidades globais alfa incluem Londres, Xangai, Kuala Lumpur e São Paulo, a maior cidade
+            brasileira.</p>
 
 
 
 
         <h3>Centralidade Urbana</h3>
-        <p>A centralidade urbana refere-se à concentração de atividades, como comércio, serviços, lazer e cultura, no
-            centro das cidades. Isso cria um núcleo dinâmico e movimentado, mas também pode levar a problemas de
-            congestionamento, poluição e desigualdade.</p>
+        <p>A <span class="termo" data-palavra="Centralidade Urbana" data-definicao="Concentração de atividades comerciais, de serviços, lazer e cultura em determinados pontos de uma cidade, geralmente na área central, formando núcleos de grande fluxo de pessoas e intensa vida econômica.">centralidade urbana</span> refere-se à concentração de atividades, como comércio,
+            serviços, lazer e cultura, no centro das cidades. Isso cria um núcleo dinâmico e movimentado, mas também
+            pode levar a problemas de congestionamento, poluição e desigualdade. Em cidades muito grandes, esse
+            padrão vem se transformando: em vez de um único centro histórico concentrando tudo, surgem múltiplos
+            polos de centralidade espalhados pela mancha urbana, cada um funcionando como um pequeno centro para o
+            bairro ou região ao seu redor. Alguns dos exemplos mais conhecidos de centralidade urbana no mundo
+            são:</p>
         <ul>
             <li>
                 <p>Times Square, Nova Iorque, EUA</p>
@@ -386,10 +379,9 @@
 
         <div class="area w3-margin-bottom">
 
-            <div class="postit w3-large ">
-
-                <p>Como a centralidade urbana impacta a vida dos cidadãos em termos de acesso a serviços e qualidade de
-                    vida?
+            <div class="postit-v2">
+                <p class="postit-v2-text">Como a centralidade urbana impacta a vida dos cidadãos em termos de
+                    acesso a serviços e qualidade de vida?
                 </p>
             </div>
         </div>
@@ -405,11 +397,22 @@
             <p>A urbanização tem consequências profundas para o meio ambiente, a sociedade e a economia. Isso inclui
                 questões como poluição do ar e da água, pressão sobre os recursos naturais, aumento da demanda por
                 habitação e serviços, desigualdade social e problemas de saúde pública.</p>
+            <p>Um dos efeitos ambientais mais estudados da urbanização é a <span class="termo" data-palavra="Ilha de Calor Urbana" data-definicao="Fenômeno climático em que o centro das cidades apresenta temperaturas mais altas do que as áreas rurais ao redor, causado pela concentração de asfalto, concreto e edificações, que absorvem e retêm mais calor, além da menor presença de vegetação e da emissão de calor por veículos e indústrias.">ilha de calor urbana</span>: o asfalto, o
+                concreto e a baixa presença de vegetação nas cidades absorvem e retêm mais calor do que as áreas
+                rurais ao redor, fazendo com que o centro das grandes cidades registre temperaturas vários graus
+                acima das regiões próximas. Esse fenômeno se soma às mudanças climáticas globais, tornando ondas de
+                calor mais frequentes e intensas nas áreas urbanas, e é um dos motivos pelos quais o planejamento
+                urbano tem ganhado espaço nas discussões sobre resiliência climática em fóruns internacionais, como
+                a COP30, realizada no Brasil em 2025.</p>
 
             <h3>Exemplo: São Paulo, Brasil</h3>
             <p>São Paulo é uma megacidade que enfrenta desafios significativos devido à urbanização rápida e
                 desordenada. A poluição do ar, o congestionamento do tráfego e a falta de espaços verdes são algumas das
-                questões críticas que a cidade enfrenta.</p>
+                questões críticas que a cidade enfrenta. A poluição atmosférica não é um problema só de São Paulo:
+                segundo a Organização Mundial da Saúde, ela está por trás de cerca de 7 milhões de mortes prematuras
+                por ano no mundo todo, a maior parte delas concentrada em grandes áreas urbanas de países de renda
+                baixa e média. Em 2025, apenas sete países do planeta cumpriam integralmente os critérios de
+                qualidade do ar recomendados pela OMS.</p>
 
             <div class="w3-margin"><img id="imagem6" src="tt14f06.png"
                     alt="Cidade de São Paulo, Brasil - Duvid Geografia" class="w3-mobile">
@@ -418,11 +421,45 @@
 
             </div>
 
+            <h3>Um Mundo em Crise Habitacional</h3>
+            <p>Em muitas cidades, o crescimento urbano acelerado não vem acompanhado de moradia digna para toda a
+                população. Segundo relatório da ONU divulgado em 2026, cerca de 3 bilhões de pessoas, quase 40% da
+                população mundial, enfrentam algum tipo de crise de moradia adequada. Estimativas da ONU-Habitat
+                apontam que cerca de 1 bilhão de pessoas vivem hoje em favelas ou assentamentos informais ao redor
+                do mundo, e que aproximadamente 40% de todo o crescimento urbano atual está ocorrendo justamente
+                nesses assentamentos, sem planejamento, saneamento básico ou acesso regular a serviços públicos.
+                Esse fenômeno, chamado de <span class="termo" data-palavra="Segregação Socioespacial" data-definicao="Separação de grupos sociais no espaço urbano, de modo que populações de baixa renda ficam concentradas em áreas com pouca infraestrutura e serviços públicos, enquanto os melhores serviços se concentram em bairros de maior renda.">segregação socioespacial</span>, faz com que bairros
+                vizinhos de uma mesma cidade tenham condições de vida radicalmente diferentes.</p>
 
-            <h3>Rede Urbana, Conurbação e Áreas Metropolitanas</h3>
-            <p>A rede urbana refere-se à interconexão de cidades e centros urbanos por meio de fluxos de pessoas,
-                mercadorias e informações. A conurbação é o processo pelo qual áreas urbanas vizinhas crescem e se
-                fundem, formando extensas regiões metropolitanas.</p>
+
+            <h3>Rede Urbana e Hierarquia Urbana</h3>
+            <p>A <span class="termo" data-palavra="Rede Urbana" data-definicao="Conjunto de cidades interligadas por fluxos de pessoas, mercadorias, capitais e informações, organizadas segundo uma hierarquia de importância econômica e política.">rede urbana</span> refere-se à interconexão de cidades e centros urbanos por meio
+                desses fluxos. Dentro dessa rede, cada cidade tem um nível de importância diferente, o que forma uma
+                hierarquia urbana. Segundo o estudo Regiões de Influência das Cidades, do IBGE, a rede urbana
+                brasileira é organizada em quatro níveis, do menor para o maior: os centros de zona, cidades
+                menores com atuação restrita à sua área imediata; os centros sub-regionais, que sediam atividades de
+                gestão pouco complexas; as capitais regionais, com influência sobre uma região mais ampla; e as
+                metrópoles, os principais centros urbanos do país, cuja influência se estende por vastas áreas do
+                território nacional. O Brasil tem 15 metrópoles, das quais São Paulo se destaca como a grande
+                metrópole nacional, ao lado do Rio de Janeiro e de Brasília.</p>
+
+            <h3>Metropolização e Conurbação</h3>
+            <p>Quando uma cidade cresce e concentra atividades econômicas o suficiente para atrair e organizar um
+                conjunto de municípios vizinhos ao seu redor, ocorre a
+                <span class="termo" data-palavra="Metropolização" data-definicao="Processo de concentração espacial da população e das atividades econômicas em torno de um núcleo urbano, que resulta na formação de uma metrópole e de uma região metropolitana ao seu redor.">metropolização</span>, ou seja, a formação de uma metrópole. Em muitos casos, a expansão
+                das manchas urbanizadas do núcleo central e dos municípios vizinhos leva à integração física entre
+                elas, um fenômeno chamado de <span class="termo" data-palavra="Conurbação" data-definicao="Integração física entre as manchas urbanizadas de duas ou mais cidades vizinhas, que crescem até se fundir, ainda que continuem sendo municípios administrativamente distintos.">conurbação</span>. Essa integração gera fluxos
+                pendulares diários de trabalhadores, que moram em um município e trabalham em outro, e cria desafios
+                de gestão, já que os limites administrativos dos municípios não coincidem com a mancha urbana
+                contínua.</p>
+
+            <p><strong>Brasil:</strong> Para lidar com esse descompasso, muitos países criam regiões metropolitanas
+                formais, estruturas de planejamento integrado que reúnem o município-núcleo e os municípios
+                conurbados a ele. No Brasil, havia 75 regiões metropolitanas em 2022. A Região Metropolitana de São
+                Paulo, a maior delas, reunia 39 municípios e cerca de 22 milhões de habitantes em 2021, quase 10% da
+                população do país. O tamanho da região gera desafios diários de gestão: eram coletadas cerca de 27
+                mil toneladas de lixo por dia, o número de veículos só no município de São Paulo superava 6 milhões,
+                e eram feitas 11,5 milhões de viagens diárias em transporte coletivo.</p>
 
             <h4>Exemplo: BosWash, Estados Unidos</h4>
             <p>A região de BosWash é um exemplo de conurbação, estendendo-se ao longo da costa leste dos Estados Unidos
@@ -439,9 +476,9 @@
 
 
             <h3>Megalópoles e Megacidades</h3>
-            <p>Megalópoles são regiões altamente urbanizadas que se estendem por centenas de quilômetros, conectando
-                várias cidades e áreas metropolitanas. Megacidades são centros urbanos com mais de 10 milhões de
-                habitantes.</p>
+            <p><span class="termo" data-palavra="Megalópole" data-definicao="Região altamente urbanizada formada pela conurbação de várias metrópoles e áreas metropolitanas vizinhas, estendendo-se por centenas de quilômetros.">Megalópoles</span> são regiões altamente urbanizadas que se estendem por centenas de
+                quilômetros, conectando várias cidades e áreas metropolitanas. Megacidades, como vimos, são centros
+                urbanos com mais de 10 milhões de habitantes.</p>
 
             <div class="w3-margin"><img id="imagem1" src="tt14f01.png" alt="Megacidade no mundo - Duvid Geografia"
                     class="w3-mobile">
@@ -450,10 +487,15 @@
 
             </div>
 
-            <h4>Exemplo: Baiyue Dianchi, China</h4>
-            <p>Baiyue Dianchi é uma megalópole em formação na região do Delta do Rio das Pérolas, na China.
-                Compreendendo cidades como Cantão, Shenzhen, Hong Kong e Macau, essa região é uma das áreas
-                metropolitanas mais densamente povoadas do mundo.</p>
+            <h4>Exemplo: Grande Baía de Guangdong-Hong Kong-Macau, China</h4>
+            <p>Um dos exemplos mais impressionantes de megalópole em formação no mundo é a região do Delta do Rio
+                das Pérolas, no sul da China, hoje oficialmente organizada como a Grande Baía de
+                Guangdong-Hong Kong-Macau. Ela reúne as regiões administrativas especiais de Hong Kong e Macau e
+                nove cidades da província de Guangdong, entre elas Cantão (Guangzhou) e Shenzhen. Em 2025, a região
+                somava mais de 88 milhões de habitantes e um PIB superior a 15 trilhões de yuans, o equivalente a
+                mais de US$ 2 trilhões, superando o PIB das regiões metropolitanas de Nova Iorque e de São
+                Francisco, nos Estados Unidos. Com menos de 1% do território chinês e cerca de 6% da população do
+                país, a Grande Baía é responsável por quase um nono de toda a produção econômica da China.</p>
 
 
             <div class="w3-margin"><img id="imagem10" src="tt14f10.png" alt="Mapa da China - Duvid Geografia"
@@ -470,7 +512,7 @@
     </div>
 <div class="topico">
 
-        <div class="w3-panel w3-light-grey w3-leftbar w3-grey w3-padding">
+        <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A Urbanização Desigual</h2>
             <p>A urbanização nem sempre é um processo equitativo, e muitas vezes vemos disparidades significativas na
                 distribuição de recursos, infraestrutura e oportunidades dentro das cidades.</p>
@@ -487,10 +529,8 @@
 
             <div class="area w3-margin-bottom">
 
-                <div class="postit w3-large ">
-
-                    <p><strong>Exemplo</strong>:<br>
-
+                <div class="postit-v2">
+                    <p class="postit-v2-text"><strong>Exemplo:</strong><br>
                         <span class="w3-green">Acesso à áreas verdes:</span> Em uma cidade, pode haver parques bem
                         cuidados e acessíveis em bairros nobres, com uma média de 10 m² de área verde por habitante,
                         enquanto em áreas mais pobres, a média pode ser de apenas 1 m² por habitante.
@@ -500,13 +540,16 @@
 
 
             <h4>Êxodo Rural e Urbanização na Economia, Política e Cultura</h4>
-            <p>O êxodo rural é o movimento de pessoas das áreas rurais para as urbanas. Isso pode ter implicações
-                profundas na economia, política e cultura de um país.</p>
+            <p>O <span class="termo" data-palavra="Êxodo Rural" data-definicao="Movimento migratório de pessoas das áreas rurais para as áreas urbanas, geralmente em busca de emprego, renda e melhores condições de vida.">êxodo rural</span> é o movimento de pessoas das áreas rurais para as urbanas. Isso pode ter
+                implicações profundas na economia, política e cultura de um país.</p>
 
             <h5>Exemplo: Índia</h5>
-            <p>A Índia é um exemplo de um país onde o êxodo rural tem sido um fenômeno marcante. Cidades como Mumbai e
-                Nova Delhi experimentaram um rápido crescimento populacional devido à migração de áreas rurais. Isso
-                levanta questões sobre moradia, infraestrutura e serviços básicos.</p>
+            <p>A Índia é um exemplo de um país onde o êxodo rural tem sido um fenômeno marcante, embora seu ritmo de
+                urbanização seja mais lento do que o da China: a população urbana indiana passou de menos de 18% no
+                início da década de 1960 para 35,7% em 2025, à medida que mais pessoas deixam o setor agrícola para
+                trabalhar em serviços nas cidades. Cidades como Mumbai e Nova Delhi experimentaram um rápido
+                crescimento populacional devido à migração de áreas rurais. Isso levanta questões sobre moradia,
+                infraestrutura e serviços básicos.</p>
 
 
             <div class="w3-margin"><img id="imagem8" src="tt14f08.png" alt="Nova Delho, Índia" class="w3-mobile">
@@ -514,6 +557,15 @@
                 <span class="w3-small w3-margin-left" id="citacao8"> Fonte: Ohttps://www.archdaily.com.br </span>
 
             </div>
+
+            <h4>Gentrificação</h4>
+            <p>Outro processo ligado à urbanização desigual é a <span class="termo" data-palavra="Gentrificação" data-definicao="Processo de valorização imobiliária de um bairro popular ou degradado, geralmente após a chegada de investimentos, comércios e moradores de renda mais alta, que costuma expulsar gradualmente os moradores originais de menor renda pelo aumento do custo de vida na região.">gentrificação</span>: a valorização
+                imobiliária de bairros populares ou degradados, geralmente depois da chegada de investimentos em
+                infraestrutura, comércio e cultura, que acaba expulsando gradualmente os moradores originais de
+                menor renda, incapazes de arcar com o aumento do custo de vida na região. Esse processo já foi
+                observado em regiões centrais revitalizadas de diversas grandes cidades ao redor do mundo, como
+                Nova Iorque, Londres e São Paulo, e costuma gerar debates sobre até que ponto a requalificação
+                urbana deve incluir políticas de proteção aos moradores originais.</p>
 
             <h4>Urbanização e Industrialização</h4>
             <p>A urbanização frequentemente coincide com o processo de industrialização, à medida que as cidades se
@@ -524,6 +576,18 @@
                 rapidamente devido à concentração de fábricas e indústrias. Isso resultou em condições de trabalho
                 precárias e problemas de poluição.</p>
 
+            <h4>Cidades Inteligentes: um caminho para o futuro urbano</h4>
+            <p>Diante dos desafios da urbanização acelerada, muitas cidades ao redor do mundo vêm investindo no
+                conceito de <span class="termo" data-palavra="Cidade Inteligente" data-definicao="Cidade que utiliza tecnologias digitais, sensores e coleta de dados para otimizar serviços públicos como trânsito, iluminação, coleta de lixo e segurança, buscando maior eficiência e qualidade de vida para a população.">cidade inteligente</span> (do inglês <em>smart city</em>), que usa
+                tecnologias digitais, sensores e big data para tornar a gestão urbana mais eficiente: sistemas de
+                semáforos que se ajustam ao fluxo real de veículos, iluminação pública que se apaga automaticamente
+                quando não há movimento, sensores que monitoram a qualidade do ar e a coleta de lixo. Cingapura e
+                Copenhague estão entre as cidades mais citadas em rankings internacionais de cidades inteligentes,
+                mas a tecnologia sozinha não resolve os desafios da urbanização: sem investimento em moradia,
+                saneamento e transporte público de qualidade, os recursos digitais tendem a beneficiar sobretudo os
+                bairros que já têm melhor infraestrutura, aprofundando a segregação socioespacial em vez de
+                reduzi-la.</p>
+
             <h3>Conclusão:</h3>
             <p>A urbanização é um fenômeno complexo e multifacetado que molda o nosso mundo de maneiras profundas. Ao
                 compreender suas causas, consequências e impactos, podemos buscar abordagens mais equitativas e
@@ -532,10 +596,9 @@
 
             <div class="area w3-margin-bottom">
 
-                <div class="postit w3-large ">
-
-                    <p>Como podemos promover uma urbanização mais sustentável e inclusiva em um mundo cada vez mais
-                        urbano?
+                <div class="postit-v2">
+                    <p class="postit-v2-text">Como podemos promover uma urbanização mais sustentável e inclusiva em
+                        um mundo cada vez mais urbano?
                     </p>
                 </div>
             </div>
@@ -547,12 +610,117 @@
         <hr>
 
     </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    A gentrificação, observada em bairros centrais revitalizados de cidades como Nova Iorque, Londres
+                    e São Paulo, provoca principalmente:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Redução do custo de vida</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Expulsão dos moradores originais</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Fim da industrialização local</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Lembre-se: valorização imobiliária expulsa quem já morava lá, não reduz custos!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    Segundo o texto, a tecnologia das cidades inteligentes (smart cities), sozinha, é capaz de:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Resolver toda a desigualdade urbana</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Substituir moradia e saneamento</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="correto" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Beneficiar mais quem já tem infraestrutura</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Sem investimento em moradia e saneamento, a tecnologia tende a aprofundar a segregação!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot14" src="inforesumott14.webp"
+                    alt="Infográfico resumo Urbanização mundial" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
 <div class="topico">
 
         <h2 id="centralizado">"A pergunta não é uma marca de ignorância, mas sim um sinal de inteligência."
             (Sócrates).</h2>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Quais são os principais fatores que impulsionam a urbanização em países em desenvolvimento?
             </strong> </p>
 
@@ -560,7 +728,7 @@
             desenvolvimento incluem o êxodo rural, migração interna em busca de oportunidades de emprego e melhoria
             de vida, industrialização e concentração de serviços e infraestrutura nas áreas urbanas.</p>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Quais são os desafios enfrentados pelas megacidades em relação à infraestrutura e qualidade de vida?
             </strong></p>
 
@@ -568,7 +736,7 @@
             falta de moradia acessível, poluição do ar e da água, infraestrutura insuficiente para atender a uma
             população em rápido crescimento e desigualdade socioeconômica.</p>
 
-        <p class="borda"> <span class="primeiraLetra">P:</span> <strong>
+        <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Como a urbanização desigual pode impactar a coesão social e a segurança nas cidades?
             </strong></p>
 
@@ -577,12 +745,57 @@
             educação. Isso pode resultar em tensões sociais, aumento da criminalidade e falta de coesão comunitária.
         </p>
 
+        
+
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
         <br><br>
 
         <hr>
 
     </div>
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos que a urbanização é o crescimento da população nas cidades em relação às áreas
+                rurais, hoje impulsionado sobretudo pelo êxodo rural, pela industrialização e pela busca de
+                oportunidades econômicas. Vimos também como esse crescimento gera a metropolização e a conurbação,
+                formando megacidades e megalópoles, e como algumas cidades se tornam cidades globais por
+                concentrarem funções de comando da economia mundial. Por fim, vimos que a urbanização não é um
+                processo uniforme nem equitativo: cresce de forma desigual dentro das cidades e se distribui de
+                forma desigual entre os países do mundo.</p>
+            <p>Na próxima aula, vamos entender como as cidades e os países se conectam por meio das redes do
+                espaço geográfico: os fluxos internacionais de pessoas, informações, dinheiro e mercadorias, o papel
+                das empresas multinacionais e das tecnologias da informação nessa nova configuração do mundo.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. O que é urbanização? Como o relatório da ONU de 2025 mudou a forma de medir esse processo?</h3>
+                <h3>2. O que é uma megacidade? Quantas existiam no mundo em 2025, e quantas são projetadas para 2050?</h3>
+                <h3>3. Por que Cairo se destaca entre as dez cidades mais populosas do mundo em 2025?</h3>
+                <h3>4. As cidades pequenas e médias abrigam mais ou menos pessoas do que as megacidades? Explique.</h3>
+                <h3>5. O que é metropolização? Qual é a diferença entre metropolização e conurbação?</h3>
+                <h3>6. Use os dados da Região Metropolitana de São Paulo para explicar os desafios de gestão de uma
+                    grande metrópole.</h3>
+                <h3>7. O que é uma cidade global? Cite o conceito de Saskia Sassen e dois exemplos de cidades globais
+                    alfa.</h3>
+                <h3>8. O que é êxodo rural? Dê um exemplo de país onde esse processo foi marcante.</h3>
+                <h3>9. Cite dois exemplos de disparidades que podem existir dentro de uma mesma cidade.</h3>
+                <h3>10. Por que algumas cidades grandes, como a Cidade do México, perdem população mesmo em países
+                    que continuam crescendo?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
 
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
@@ -595,7 +808,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'O tema A Urbanização Mundial é fantástico! Continue estudando!',
         pontos: 40
     });
 
@@ -614,10 +827,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-        </div>
-
-    </div>
-
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
             <hr>
@@ -638,6 +847,8 @@
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
+
         </div>
 
     </main>

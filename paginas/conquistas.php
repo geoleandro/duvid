@@ -59,8 +59,8 @@
             gap: 24px;
         }
         .cq-hero-icone {
-            width: 84px;
-            height: 84px;
+            width: 108px;
+            height: 108px;
             flex-shrink: 0;
             object-fit: contain;
             filter: drop-shadow(0 4px 8px rgba(0,0,0,.15));
@@ -145,8 +145,8 @@
         .cq-card.cq-bloqueado .cq-card-icone { filter: grayscale(1); }
 
         .cq-card-icone-wrap {
-            width: 60px;
-            height: 60px;
+            width: 84px;
+            height: 84px;
             border-radius: 50%;
             flex-shrink: 0;
             display: flex;
@@ -156,8 +156,8 @@
         }
 
         .cq-card-icone {
-            width: 52px;
-            height: 52px;
+            width: 74px;
+            height: 74px;
             flex-shrink: 0;
             object-fit: contain;
         }
@@ -362,7 +362,10 @@
             });
         }
 
-        document.addEventListener('DOMContentLoaded', cqMontarPagina);
+        document.addEventListener('DOMContentLoaded', async function () {
+            if (typeof DuvidDB !== 'undefined' && DuvidDB.pronto) await DuvidDB.pronto;
+            cqMontarPagina();
+        });
         // Atualiza também sempre que o saldo de globinhos mudar em outra aba/página
         window.addEventListener('storage', cqMontarPagina);
     </script>

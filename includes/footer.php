@@ -36,7 +36,8 @@
 
         <style>
         @media (max-width:600px) {
-            .footer-grid .w3-quarter { width:50% !important; }
+            .footer-grid { display:flex !important; flex-wrap:wrap !important; }
+            .footer-grid .w3-quarter { width:50% !important; float:none !important; box-sizing:border-box; }
         }
         </style>
         <div class="w3-row-padding footer-grid" style="margin-bottom: 32px;">
