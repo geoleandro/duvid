@@ -29,7 +29,7 @@ async function carregarAulas(ano) {
         }).join('');
 
         // Inventário
-        renderizarInventario(aulas);
+        renderizarInventario(aulas, ano);
 
     } catch (e) {
         console.error('Erro ao carregar aulas:', e);
@@ -40,11 +40,14 @@ async function carregarAulas(ano) {
 }
 
 // ── Status da aula ─────────────────────────────────────────────────────────
-function obterStatusAula(aulaId) {
-    const leuTexto = DuvidDB.estaConcluido(aulaId, TIPO_CONCLUSAO.TEXTO);
+// exigeTexto = false pras aulas de Revisão (aula.linkTexto === null) — elas
+// não têm etapa de leitura, então não podem depender de "leuTexto" pra
+// serem consideradas concluídas.
+function obterStatusAula(aulaId, exigeTexto) {
+    const leuTexto = exigeTexto ? DuvidDB.estaConcluido(aulaId, TIPO_CONCLUSAO.TEXTO) : true;
     const fezQuest = DuvidDB.estaConcluido(aulaId, TIPO_CONCLUSAO.QUESTOES);
     const total    = leuTexto && fezQuest;
-    const parcial  = leuTexto || fezQuest;
+    const parcial  = (exigeTexto && leuTexto) || fezQuest;
 
     if (total) return {
         classe: 'aula-card-done',
@@ -52,7 +55,13 @@ function obterStatusAula(aulaId) {
         btns: function(aula) {
             var t = aula.linkTexto ? `<a href="${aula.linkTexto}" class="aula-btn aula-btn-ghost">Revisar texto</a>` : '';
             var q = `<a href="${aula.linkQuestoes}" class="aula-btn aula-btn-ghost">Revisar questões</a>`;
-            return t + q;
+            // Aulas de Revisão (sem texto) fecham um bloco — se o certificado
+            // já foi conquistado, mostra o botão em vez de "Revisar texto".
+            var cert = '';
+            if (!aula.linkTexto && typeof DuvidDB !== 'undefined' && DuvidDB.temCertificado && DuvidDB.temCertificado('bloco', aula.id)) {
+                cert = `<a href="/paginas/certificado.php?tipo=bloco&ref=${aula.id}" class="aula-btn aula-btn-primary">🎓 Ver certificado</a>`;
+            }
+            return cert + t + q;
         }
     };
 
@@ -88,7 +97,7 @@ function obterStatusAula(aulaId) {
 
 // ── Renderiza um card ──────────────────────────────────────────────────────
 function renderizarCard(aula) {
-    const status   = obterStatusAula(aula.id);
+    const status   = obterStatusAula(aula.id, !!aula.linkTexto);
     const numAula  = String(aula.id).slice(-2);
     const desc     = aula.conteudo || '';
     const descCurta = desc.length > 90 ? desc.substring(0, 87) + '…' : desc;
@@ -173,24 +182,39 @@ function mostrarProgressoGlobal(aulas, ano) {
 }
 
 // ── Inventário ─────────────────────────────────────────────────────────────
+// Biblioteca é sempre visível. Certificado usa o estado REAL (tabela
+// certificados_alunos via DuvidDB.temCertificado), não uma % estimada —
+// assim ele só libera quando o certificado do módulo foi mesmo emitido.
 var INVENTARIO_ITENS = [
     { emoji: '📚', nome: 'Biblioteca',  rarity: 'COMUM',    minPorc: 0,   href: '/paginas/livrosgeografia.php' },
-    { emoji: '🏆', nome: 'Ranking',     rarity: 'RARO',     minPorc: 25,  href: '/paginas/ranking.php' },
-    { emoji: '📝', nome: 'Simulados',   rarity: 'ÉPICO',    minPorc: 50,  href: '/simulados/capasimuladogeral.php' },
-    { emoji: '🎓', nome: 'Certificado', rarity: 'LENDÁRIO', minPorc: 100, href: null }
 ];
 
-function renderizarInventario(aulas) {
+function renderizarInventario(aulas, ano) {
     var lista = document.getElementById('inventario-lista');
     var cont  = document.getElementById('inv-contagem');
     if (!lista) return;
 
-    var prog    = DuvidDB.getProgressoAcademico(aulas);
+    var prog = DuvidDB.getProgressoAcademico(aulas);
+    var certificadoOk = (typeof DuvidDB !== 'undefined' && DuvidDB.temCertificado)
+        ? DuvidDB.temCertificado('modulo', ano)
+        : false;
+
+    var itens = INVENTARIO_ITENS.concat([{
+        emoji: '🎓',
+        nome: 'Certificado',
+        rarity: 'LENDÁRIO',
+        minPorc: 100,
+        forcarOk: certificadoOk,
+        labelBloqueado: 'Desbloq. em 100%',
+        mostrarRosca: true,
+        href: certificadoOk ? ('/paginas/certificado.php?tipo=modulo&ref=' + ano) : null
+    }]);
+
     var desbloq = 0;
     var html    = '';
 
-    INVENTARIO_ITENS.forEach(function(item) {
-        var ok = prog.porc >= item.minPorc;
+    itens.forEach(function(item) {
+        var ok = item.forcarOk !== undefined ? item.forcarOk : (prog.porc >= item.minPorc);
         if (ok) desbloq++;
 
         var rarityClass = 'inv-rarity';
@@ -222,11 +246,19 @@ function renderizarInventario(aulas) {
                 <span style="font-size:.58rem; color:#aaa; letter-spacing:.05em;">EM BREVE</span>
             </div>`;
         } else {
+            // Itens com progresso mensurável (ex: Certificado) mostram uma
+            // rosca de % em vez de um cadeado sem contexto nenhum.
+            var iconeHtml = item.mostrarRosca
+                ? `<div class="inv-rosca" style="--pct:${prog.porc}">
+                       <span class="inv-rosca-txt">${prog.porc}%</span>
+                   </div>`
+                : `<span class="inv-icon inv-icon-locked">${item.emoji}</span>`;
+
             html += `<div class="inv-item inv-bloqueado">
-                <span class="inv-icon inv-icon-locked">${item.emoji}</span>
+                ${iconeHtml}
                 <div class="inv-info">
                     <span class="inv-nome">${item.nome}</span>
-                    <span class="${rarityClass}">Desbloq. em ${item.minPorc}%</span>
+                    <span class="${rarityClass}">${item.labelBloqueado || ('Desbloq. em ' + item.minPorc + '%')}</span>
                 </div>
                 <i class="fa fa-lock inv-lock"></i>
             </div>`;
@@ -234,7 +266,7 @@ function renderizarInventario(aulas) {
     });
 
     lista.innerHTML = html;
-    if (cont) cont.textContent = desbloq + '/' + INVENTARIO_ITENS.length;
+    if (cont) cont.textContent = desbloq + '/' + itens.length;
 }
 
 // ── Funções legadas ────────────────────────────────────────────────────────
@@ -266,9 +298,10 @@ async function atualizarResumoHome() {
     for (var a of ['1', '2', '3']) {
         try {
             const aulas = await DuvidCache.get('/js/aulas-' + a + 'ano.json');
-            const total = aulas.filter(function(x) { return x && x.id !== undefined; }).length;
-            const conc  = contarAulasConcluidas(a);
-            const porc  = total > 0 ? Math.round((conc / total) * 100) : 0;
+            const prog  = DuvidDB.getProgressoAcademico(aulas);
+            const total = prog.total;
+            const conc  = prog.concluidas;
+            const porc  = prog.porc;
 
             var barra = document.getElementById('bar-' + a + 'ano');
             var texto = document.getElementById('txt-' + a + 'ano');

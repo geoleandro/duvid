@@ -22,11 +22,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -123,7 +122,7 @@
                 <p class="w3-pale-green">Escreva em seu <strong>caderno</strong> uma situação (real ou imaginada) em que a diferença de horário entre lugares do mundo causou algum tipo de confusão, atraso ou surpresa. Guarde essa resposta, vamos retomá-la lá no final da aula.</p>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -153,7 +152,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -190,7 +189,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -268,13 +267,16 @@
 
 
             <p>Nos Estados Unidos, por exemplo, com o advento da ferrovia que percorria longas distâncias
-                no sentido Oeste-Leste, chegou-se a ter cerca de 300 horas oficiais diferentes ao longo das estradas de
-                ferro.</p>
+                no sentido Oeste-Leste, cada cidade ainda usava sua própria hora solar local, e chegou a haver mais de
+                50 horários oficiais diferentes só entre as companhias ferroviárias em 1883, o que tornava
+                praticamente impossível montar uma tabela de horários confiável para viagens longas.</p>
 
             <p> A solução adotada pela Grã-Bretanha (ilha onde estão localizadas Escócia, Inglaterra e
-                País de Gales) foi o de estabelecer a partir de 1830 uma única hora legal para o país, medida pelo
-                Observatório Real de Greenwich. O sistema era fundamentado em eventos astronômicos, como o movimento de
-                rotação terrestre, que vimos na aula 02. (Carvalho, 2011).</p>
+                País de Gales) começou com as próprias ferrovias: em 1840, a companhia Great Western Railway passou a
+                usar o horário de Londres em todas as suas estações, e as demais empresas seguiram o exemplo nos anos
+                seguintes. Essa "hora do trem" só virou lei para todo o país em 1880, quando o Parlamento britânico
+                adotou oficialmente o horário medido pelo Observatório Real de Greenwich. O sistema era fundamentado em
+                eventos astronômicos, como o movimento de rotação terrestre, que vimos na aula 02. (Carvalho, 2011).</p>
 
             <p><span class="termo" data-palavra="Rotação"
                     data-definicao="Movimento que a Terra executa em torno do seu próprio eixo, com duração aproximada de 24 horas. É a base para a divisão do planeta em fusos horários e para a sucessão dos dias e das noites."><strong>Rotação</strong></span>
@@ -397,7 +399,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
             <hr>
 
@@ -426,7 +428,7 @@
                 <br><br>
 
                 <input class="btnShow" id="buttonConferirQ1" type="button" value="Conferir"
-                    onclick=" PerAberta(1,'resp1a','buttonConferirQ1','globinho10')">
+                    onclick=" PerAberta(1,'resp1a','buttonConferirQ1','globinho10'); setTimeout(function(){var b=document.getElementById('btnq1a'); if(b) b.style.display='block';},50)">
             </form>
 
             <div class="area">
@@ -440,7 +442,7 @@
 
 
             <button class="btnHide" id="btnq1a"
-                onclick="MostrarProximo(this); this.style.display='block'">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='block'">Próximo</button>
 
 
 
@@ -509,7 +511,7 @@
                 calcular isso?</p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -591,7 +593,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -667,7 +669,7 @@
 
 
             <input class="btnShow" id="buttonConferirQ1d" type="button" value="Conferir"
-                onclick=" PerAberta(2,'resp1d','buttonConferirQ1d','globinho11')">
+                onclick=" PerAberta(2,'resp1d','buttonConferirQ1d','globinho11'); setTimeout(function(){var b=document.getElementById('btnq1d'); if(b && document.getElementById('q1d').value.toLowerCase().includes('14h')) b.style.display='block';},50)">
 
             <div class="area">
                 <p><img src="globinhoPe.png" id="globinho11" style="display:none" alt="globinho11" width="64"
@@ -676,7 +678,7 @@
             </div>
 
             <button class="btnHide" id="btnq1d"
-                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
             <hr>
 
@@ -705,7 +707,7 @@
 
 
             <input class="btnShow" id="btnConferirQ1e" type="button" value="Conferir"
-                onclick=" PerguntasAbertas(3,'resp1d','btnConferirQ1e','globinho111')">
+                onclick=" PerguntasAbertas(3,'resp1e','btnConferirQ1e','globinho111'); setTimeout(function(){var b=document.getElementById('buttonE'); if(b && document.getElementById('q1e').value.toLowerCase().includes('20h')) b.style.display='block';},50)">
 
             <div class="area">
                 <p><img src="globinhoPe.png" id="globinho111" style="display:none" alt="globinho111" width="64"
@@ -716,7 +718,7 @@
 
 
             <button class="btnHide" id="buttonE"
-                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -758,7 +760,7 @@
             <p>Essa tabela vai te ajudar a fazer os cálculos dos fusos pelo mundo. </p>
 
             <button class="btnShow"
-                onclick="MostrarProximo(this);  this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this);  this.style.display='none'">Próximo</button>
 
 
 
@@ -900,7 +902,7 @@
             <p>Portanto, José Carlos chegou a Brasília às 22h. </p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -927,7 +929,7 @@
 
 
             <input class="btnShow" id="buttonConferirQ1f" type="button" value="Conferir"
-                onclick="PerguntasAbertas4(4,'resp1f','buttonConferirQ1f','globinho14')">
+                onclick="PerguntasAbertas4(4,'resp1f','buttonConferirQ1f','globinho14'); setTimeout(function(){var b=document.getElementById('buttonF'); if(b && document.getElementById('q1f').value.toLowerCase().includes('9h')) b.style.display='block';},50)">
 
 
 
@@ -941,7 +943,7 @@
 
 
             <button class="btnHide" id="buttonF"
-                onclick="MostrarProximo(this);this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this);this.style.display='none'">Próximo</button>
 
             <hr>
 
@@ -1023,7 +1025,7 @@
             </div>
 
             <div class="w3-center w3-margin-top">
-                <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             </div>
 
         </div>
@@ -1072,7 +1074,7 @@
             </p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br>
 
 
@@ -1100,7 +1102,7 @@
                 Amapá,
                 Nordeste, Sudeste e Sul, Goiás, Tocantins, Distrito Federal e Pará. É o horário oficial do país.</p>
 
-            <p><strong> fuso - 60º graus Oeste></strong>, estando atrasado 4 horas em relação à GMT.
+            <p><strong>3º fuso - 60º graus Oeste</strong>, estando atrasado 4 horas em relação à GMT.
                 Abrange
                 Rondônia, Roraima, Mato Grosso do Sul, Mato Grosso, Amazonas. </p>
 
@@ -1115,10 +1117,41 @@
             <p class="citacao"> Fonte: https://mastergeografia.wordpress.com/ </p>
 
 
-            <button class="btnShow " onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow " onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br>
 
 
+        </div>
+
+
+        <!-- BLOCO: Jet lag e o corpo humano -->
+        <div class="topico">
+
+            <h2>Seu corpo também tem um fuso horário</h2>
+
+            <p>Até agora, vimos os fusos como um problema de calendário e de relógio. Mas atravessar vários
+                fusos rapidamente, como acontece num voo internacional, também mexe com o corpo, e isso tem nome:
+                <span class="termo" data-palavra="Jet Lag"
+                    data-definicao="Conjunto de sintomas (cansaço, insônia, dificuldade de concentração, mal-estar digestivo) causado pelo descompasso entre o relógio biológico do corpo e o horário local, depois de uma viagem que atravessa vários fusos horários rapidamente.">jet
+                    lag</span>.</p>
+
+            <p>O corpo humano tem um relógio interno, chamado ritmo circadiano, regulado principalmente pela
+                luz solar e por um hormônio chamado melatonina, que aumenta à noite e induz o sono. Quando você troca
+                de fuso devagar, de carro ou de ônibus, esse relógio interno tem tempo de se ajustar aos poucos. Mas
+                num voo de avião que atravessa, por exemplo, 8 ou 9 fusos horários em poucas horas, o corpo continua
+                "programado" para o horário de origem por alguns dias, mesmo que o relógio de pulso já mostre outra
+                hora. É por isso que quem viaja do Brasil para o Japão costuma sentir sono no meio do dia e ficar
+                acordado de madrugada nos primeiros dias de viagem.</p>
+
+            <p>De modo geral, viajar para Leste (como do Brasil para a Europa ou a Ásia) costuma causar um
+                jet lag mais forte do que viajar para Oeste (como do Brasil para os Estados Unidos), porque é mais
+                fácil para o corpo "esticar" o dia do que "encurtá-lo". Atletas profissionais, diplomatas e
+                tripulações de avião levam esse efeito tão a sério que muitas vezes planejam a chegada a um país com
+                dias de antecedência só para o corpo se adaptar ao novo fuso antes de uma competição ou reunião
+                importante.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
 
@@ -1137,7 +1170,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
 
@@ -1148,9 +1181,12 @@
         <div class="topico">
 
 
-            <h2 id="centralizado"> As perguntas nos levam a questionar o <em>status quo</em> e a desafiar ideias
-                preestabelecidas, impulsionando o progresso e a transformação em todas as áreas do conhecimento.</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!
+            </h2>
 
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Se eu cavasse um
+                    buraco atravessando o centro da Terra, a que lugar do mundo eu chegaria do outro lado?</strong> </p>
 
             <p><span class="primeiraLetra">R:</span> Caso atravessemos o núcleo da Terra, quem sabe
                 poderíamos chegar à China, ou em outro local diametralmente oposto. Esses locais são chamados de <span
@@ -1199,20 +1235,17 @@
                         de verão</span>?</strong>
             </p>
 
-            <p><span class="primeiraLetra">R:</span> . É a prática de adiantar os relógios uma hora
+            <p><span class="primeiraLetra">R:</span> É a prática de adiantar os relógios uma hora
                 durante os meses da primavera e do verão, com o alegado objetivo de economizar energia nas regiões que
                 mais
                 recebem luminosidade solar nesse período do ano.</p>
 
-            <p>Pelo segundo ano seguido o Brasil não terá horário de verão com a publicação do decreto
-                9.772/19. O horário de verão foi usado de 2008 a 2018 com o objetivo de economizar o consumo de energia
-                em
-                10 estados que registram maior luminosidade entre outubro e fevereiro. </p>
-
-            <p class="citacao"> Fonte:
-                https://www.agazeta.com.br/brasil/
-                brasil-nao-tera-horario-de-verao-pelo-
-                segundo-ano-consecutivo-1020. </p>
+            <p>O horário de verão foi usado no Brasil de 2008 a 2018, em geral nos estados do Sul, Sudeste e
+                Centro-Oeste, que registram maior diferença de luminosidade entre outubro e fevereiro. Em 2019, o
+                Decreto 9.772 extinguiu a medida de forma definitiva: o governo concluiu, com base em estudos do
+                próprio setor elétrico, que a mudança já não gerava economia relevante de energia, já que o pico de
+                consumo passou a ocorrer mais por causa do uso de ar-condicionado do que de iluminação. Desde então, o
+                Brasil não adota mais horário de verão em nenhum estado. </p>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Qual país tem mais fusos
                     horários?</strong>
@@ -1226,14 +1259,29 @@
                 hora
                 atrasados em relação aos da capital.</p>
 
-            <p> Em 2º lugar vêm os EUA, com 9 fusos – incluem-se aí o Havaí, outras ilhas do Pacífico e o
-                Alasca. O Canadá é terceiro, com 6 horários diferentes.</p>
+            <p> Em 2º lugar vêm os EUA, com 6 fusos principais nos 50 estados (Eastern, Central, Mountain,
+                Pacific, Alaska e Havaí-Aleutas). Contando territórios como Porto Rico, Guam e as Ilhas Virgens
+                Americanas, o número sobe para 9 fusos definidos por lei. O Canadá é terceiro, com 6 horários
+                diferentes.</p>
 
             <p>Caso fosse levada em conta apenas a área do território, a China deveria vir em seguida, com
                 5 fusos. Ocorre que o governo obriga todos os relógios do país a ser ajustados em um único horário: o da
                 capital, Pequim. Isso pode ser bom para os negócios, mas é ruim para os habitantes da região oeste, que
                 na
                 maior parte do ano só veem o Sol nascer às 9 da manhã. </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Todos os fusos
+                    horários do mundo têm exatamente uma hora de diferença um do outro?</strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Não, embora a regra dos 15º sugira isso, alguns países
+                escolheram fusos "quebrados", com meia hora ou até 45 minutos de diferença em relação aos vizinhos.
+                A Índia, por exemplo, está no fuso <span class="termo" data-palavra="Fuso Horário Fracionado"
+                    data-definicao="Fuso horário que não corresponde a um número inteiro de horas em relação ao GMT, mas a frações como 30 ou 45 minutos. Geralmente escolhido por razões políticas ou geográficas, e não apenas pela longitude exata do país.">UTC+5:30</span>,
+                calculado a partir de um meridiano central que passa quase no meio do país, uma forma de evitar que
+                o extremo leste e o extremo oeste indianos tivessem horários oficiais diferentes. O Nepal foi ainda
+                mais longe e adotou o UTC+5:45, 15 minutos à frente do vizinho indiano, em parte para afirmar uma
+                identidade horária própria. E as Ilhas Chatham, um pequeno arquipélago da Nova Zelândia, usam o
+                UTC+12:45, entre os fusos mais adiantados do planeta.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
@@ -1255,6 +1303,8 @@
             <p>Releia a situação que você anotou lá no início, sobre uma confusão de horário entre lugares diferentes. Agora você tem as ferramentas para explicar exatamente o que aconteceu: a Terra gira, o planeta foi dividido em 24 fusos a partir de Greenwich, e quem se desloca para Leste soma horas, quem se desloca para Oeste subtrai.</p>
 
             <p>O sistema de fusos parece só um detalhe técnico, mas resolve um problema concreto: sem ele, cada cidade teria seu próprio horário baseado no Sol, e marcar um voo, uma reunião ou uma compra online com outro país seria um cálculo impossível. A padronização do tempo foi, na prática, uma condição para o mundo ficar conectado como está hoje.</p>
+
+            <p>Mas repare que, até aqui, você aprendeu a localizar um ponto exato na superfície da Terra (com pontos cardeais e coordenadas) e a calcular que horas são nesse ponto (com os fusos horários). Falta uma pergunta: como representar tudo isso, com fidelidade, dentro de um mapa que cabe numa folha de papel ou numa tela de celular? Na próxima aula você vai ver como a escala cartográfica resolve exatamente esse problema, decidindo o quanto de detalhe cabe em cada mapa.</p>
 
             <p><strong>Resumo dos conceitos:</strong> rotação (movimento que gera dia e noite e serve de base para os fusos); hora real ou solar (definida pela posição do Sol, varia de local para local); fuso horário (faixas de 15° com o mesmo horário oficial); GMT (referência mundial medida em Greenwich); Linha Internacional de Mudança de Data (onde a data do calendário muda); antípodas (pontos opostos na Terra, com 12h de diferença); horário de verão (adiantamento sazonal dos relógios).</p>
 
@@ -1289,7 +1339,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Fusos Horários resolve um problema que a humanidade levou séculos para enfrentar. Continue estudando!',
         pontos: 40
     });
     
@@ -1331,6 +1381,14 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

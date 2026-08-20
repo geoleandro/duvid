@@ -472,6 +472,7 @@ async function injetarMetadadosAula() {
 
             await injetarBibliografiaAula(aulaDados.bibliografia);
             await injetarLinksAula(aulaDados.links);
+            await injetarLivrosAula(aulaDados.livros);
         }
     } catch (e) {
         console.error("Erro ao injetar metadados:", e);
@@ -589,7 +590,7 @@ const injetarModalFinalizacao = () => {
         <div class="w3-modal-content w3-card-4 w3-animate-zoom w3-round-large" style="max-width:450px">
             <div class="w3-container w3-padding-32 w3-center">
                 <div class="w3-margin-bottom pulse">
-                    <img id="modal-img-globinho" src="/fotoIndex/globinhoPe.png" width="64" height="64">
+                    <img id="modal-img-globinho" src="/fotoIndex/globinho-pixel.gif" width="80" height="80">
                 </div>
                 <h2 id="modal-titulo" class="fontePixel"></h2>
                 <div class="w3-padding-16">
@@ -713,6 +714,109 @@ async function injetarBibliografiaAula(chaves, containerId = 'biblio-gerada') {
 
     const refs = filtrarBibliografiasAula(chaves, biblio);
     container.innerHTML = refs.map(renderizarCardBibliografia).join('');
+}
+
+// ================================================
+// MÓDULO DE SUGESTÕES DE LIVROS
+// ================================================
+
+/**
+ * Busca o arquivo central de sugestões de livros
+ * @returns {Object|null} objeto com todos os livros ou null
+ */
+async function carregarLivros() {
+    try {
+        const livros = await DuvidCache.get('/js/livros.json');
+        return livros || null;
+    } catch (e) {
+        console.error("Erro ao carregar livros.json:", e);
+        return null;
+    }
+}
+
+/**
+ * Filtra os livros de uma aula específica
+ * @param {string[]} chaves - array de chaves da aula ex: ["ConradCoracaoTrevas"]
+ * @param {Object} livros - objeto completo de livros
+ * @returns {Object[]} array de livros encontrados
+ */
+function filtrarLivrosAula(chaves, livros) {
+    if (!chaves || chaves.length === 0 || !livros) return [];
+
+    return chaves
+        .map(chave => {
+            const livro = livros[chave];
+            if (!livro) {
+                console.warn(`Livro não encontrado: "${chave}"`);
+                return null;
+            }
+            if (!livro.titulo || !livro.autor) {
+                console.warn(`Livro incompleto: "${chave}"`);
+                return null;
+            }
+            return { chave, ...livro };
+        })
+        .filter(livro => livro !== null);
+}
+
+/**
+ * Gera o HTML de um card de livro
+ * @param {Object} livro - objeto do livro
+ * @returns {string} HTML do card
+ */
+function renderizarCardLivro(livro) {
+    const cor = livro.cor || 'w3-green';
+    const tag = livro.tag || 'Literatura';
+    const borderCor = cor.replace('w3-', '');
+    const ano = livro.ano ? ` (${livro.ano})` : '';
+
+    return `
+    <div class="w3-row w3-margin-bottom">
+        <div class="w3-card-4 w3-white w3-border-left w3-border-${borderCor} w3-padding-16"
+            style="border-left-width:8px !important; border-radius:0 10px 10px 0;">
+            <div class="w3-container">
+                <span class="w3-tag ${cor} w3-small fontePixel">${tag}</span>
+                <p class="w3-medium w3-margin-top" style="line-height:1.5;">
+                    <strong>${livro.titulo}</strong>${ano} <span class="w3-opacity">— ${livro.autor}</span>
+                </p>
+                <p class="w3-small" style="line-height:1.5; color:#555;">${livro.relacao || ''}</p>
+            </div>
+        </div>
+    </div>`;
+}
+
+/**
+ * Injeta as sugestões de livros no container da página
+ * @param {string[]} chaves - chaves da aula
+ * @param {string} containerId - ID do elemento HTML alvo
+ */
+async function injetarLivrosAula(chaves, containerId = 'livros-gerados') {
+    const container = document.getElementById(containerId);
+    if (!container) return;
+
+    const secao = container.closest('.secao-livros-sugeridos');
+
+    if (!chaves || chaves.length === 0) {
+        container.innerHTML = '';
+        if (secao) secao.style.display = 'none';
+        return;
+    }
+
+    const livros = await carregarLivros();
+    if (!livros) {
+        container.innerHTML = '';
+        if (secao) secao.style.display = 'none';
+        return;
+    }
+
+    const refs = filtrarLivrosAula(chaves, livros);
+    if (refs.length === 0) {
+        if (secao) secao.style.display = 'none';
+        return;
+    }
+
+    container.innerHTML = refs.map(renderizarCardLivro).join('');
+    if (secao) secao.style.display = '';
 }
 
 // ================================================

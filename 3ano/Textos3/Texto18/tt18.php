@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="União Europeia II: crise econômica de 2008, conflitos separatistas (País Basco, Catalunha, Bálcãs), Brexit e os desafios da imigração e da xenofobia na Europa contemporânea">
+    <meta property="og:title" content="Texto 18 - União Europeia II">
+    <meta property="og:description" content="Da crise de 2008 ao Brexit: entenda as fraturas econômicas, políticas e sociais que desafiam a integração europeia">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -40,8 +41,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 18 - União Europeia ll: desigualdades regionais.</title>
+    <title>3º ano - Texto 18 - União Europeia II</title>
 
 </head>
 
@@ -56,7 +59,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">União Europeia II</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -91,7 +94,7 @@
 
 
         <p> <span class="primeiraLetra">A</span>nteriormente, estudamos o processo de integração da União Europeia.
-            Vimos a formação de seu blobo econômico e político. </p>
+            Vimos a formação de seu bloco econômico e político. </p>
 
 
         <p> Na aula de hoje veremos os diversos desafios que a UE enfrenta, incluindo desigualdades regionais, crises
@@ -112,28 +115,6 @@
 
     </div>
 <div class="topico">
-        <div class="w3-pale-yellow">
-            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-            <h3>1. O que é a União Europeia (UE)?</h3>
-            <h3>2. Quais foram os principais impactos da crise econômica de 2008 nos países do sul da Europa?</h3>
-            <h3>3. Como a crise econômica de 2008 contribuiu para a ascensão de partidos de extrema-direita na Europa?
-            </h3>
-            <h3>4. Quais são alguns exemplos de partidos de extrema-direita mencionados no texto e seus países?</h3>
-            <h3>5. O que é Brexit e quando ocorreu o referendo que decidiu pela saída do Reino Unido da UE?</h3>
-            <h3>6. Quais foram algumas das consequências econômicas do Brexit para o Reino Unido?</h3>
-            <h3>7. Como o Brexit reavivou as discussões sobre a independência da Escócia e a reunificação da Irlanda?
-            </h3>
-            <h3>8. Quais foram as implicações da morte da Rainha Elizabeth II para o Reino Unido?</h3>
-            <h3>9. Quais são os principais desafios da imigração enfrentados pela Europa?</h3>
-            <h3>10. Como a imigração está relacionada ao aumento da xenofobia na Europa?</h3>
-
-        </div>
-
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
-    </div>
-<div class="topico">
 
         <h2>Crise Econômica</h2>
 
@@ -147,32 +128,12 @@
 
 
 
-        <p>A <span onclick="document.getElementById('crise').style.display='block'" class="w3-yellow">crise econômica
-            </span> de 2008 teve um impacto significativo em muitos países europeus, particularmente no sul da Europa,
+        <p>A <span class="termo" data-palavra="Crise de 2008 (Grande Recessão)" data-definicao="Crise financeira mundial iniciada com o colapso do mercado imobiliário dos Estados Unidos, causado por empréstimos hipotecários arriscados. A quebra de bancos e a perda de confiança nos mercados provocaram uma recessão global, atingindo com força países do sul da Europa como Grécia, Espanha e Itália.">crise econômica de 2008</span> teve um impacto significativo em muitos países europeus, particularmente no sul da Europa,
             como Grécia, Espanha e Itália. As consequências foram severas, com a economia de muitos desses países
             enfrentando recessões profundas, altas taxas de desemprego e enormes dívidas públicas. Para combater a
-            crise, as instituições europeias e o Fundo Monetário Internacional (FMI) impuseram programas de austeridade
+            crise, as instituições europeias e o Fundo Monetário Internacional (FMI) impuseram programas de <span class="termo" data-palavra="Austeridade" data-definicao="Conjunto de políticas econômicas baseadas em cortes de gastos públicos, reformas no mercado de trabalho e aumento de impostos, usadas para reduzir déficits e dívidas de um país, geralmente impostas como condição para receber ajuda financeira internacional.">austeridade</span>
             rigorosos que incluíam cortes drásticos nos gastos públicos, reformas no mercado de trabalho e aumentos de
             impostos.</p>
-
-        <div id="crise" class="w3-modal w3-margin-top">
-            <div class="w3-modal-content postit-tp9">
-                <div class="w3-container w3-padding">
-                    <span onclick="document.getElementById('crise').style.display='none'"
-                        class="w3-button w3-red w3-display-topright">&times;</span>
-                    <p> A crise econômica de 2008, também conhecida como a Grande Recessão, começou com o colapso do
-                        mercado imobiliário nos Estados Unidos, causado por empréstimos hipotecários arriscados e
-                        práticas de crédito irresponsáveis. Quando a bolha imobiliária estourou, muitos bancos e
-                        instituições financeiras enfrentaram falências, levando a uma crise de liquidez e perda de
-                        confiança nos mercados financeiros. Esse evento resultou em uma recessão global, afetando
-                        gravemente economias em todo o mundo, inclusive na Europa, onde países como a Grécia e a Espanha
-                        enfrentaram profundas recessões e crises de dívida.</p>
-
-                    </p>
-
-                </div>
-            </div>
-        </div>
 
         <p><strong>Impactos da Crise Econômica:</strong></p>
         <p>Desemprego e Pobreza: A austeridade levou ao aumento significativo do desemprego, especialmente entre os
@@ -196,7 +157,7 @@
         <p>A crise econômica de 2008 não apenas abalou a economia, mas também teve profundas repercussões políticas. Em
             muitos países europeus, a insatisfação com as políticas de austeridade e a percepção de que as elites
             políticas estavam desconectadas das realidades diárias dos cidadãos levaram ao crescimento do apoio a
-            partidos de extrema-direita. Esses partidos, com retóricas nacionalistas e populistas, prometeram uma
+            partidos de <span class="termo" data-palavra="Extrema-direita" data-definicao="Espectro político caracterizado por forte nacionalismo, retórica antiglobalização e frequentemente anti-imigração, que ganhou força em vários países europeus a partir da crise de 2008, capitalizando o descontentamento com as políticas de austeridade e com as elites tradicionais.">extrema-direita</span>. Esses partidos, com retóricas nacionalistas e populistas, prometeram uma
             ruptura com as políticas estabelecidas e ofereceram soluções simplistas para problemas complexos.</p>
 
 
@@ -235,12 +196,12 @@
     </div>
 <div class="topico">
 
-        <div class="w3-panel w3-leftbar w3-pale-red w3-margin w3-padding">
+        <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
             <h2>Conflitos Separatistas na Europa</h2>
 
             <p>A Europa, apesar de sua busca por unidade, tem uma longa história de divisões internas e movimentos
-                separatistas que persistem até hoje.</p>
+                <span class="termo" data-palavra="Separatismo" data-definicao="Movimento político que busca a independência ou maior autonomia de uma região em relação ao Estado nacional ao qual pertence, geralmente motivado por diferenças étnicas, linguísticas, culturais ou econômicas.">separatistas</span> que persistem até hoje.</p>
 
             <p><strong>País Basco (ETA):</strong> O País Basco, localizado na Espanha, tem uma forte identidade cultural
                 e linguística distinta. O grupo separatista ETA (Euskadi Ta Askatasuna) foi responsável por uma longa
@@ -261,7 +222,7 @@
 
             <p><strong>Irlanda do Norte (IRA):</strong> A Irlanda do Norte tem uma história de conflito entre unionistas
                 (principalmente protestantes, que querem permanecer no Reino Unido) e nacionalistas (principalmente
-                católicos, que desejam a reunificação com a República da Irlanda). O Acordo de Belfast de 1998 trouxe
+                católicos, que desejam a reunificação com a República da Irlanda). O <span class="termo" data-palavra="Acordo de Belfast" data-definicao="Também chamado de Acordo de Sexta-Feira Santa, tratado assinado em 1998 que pôs fim a décadas de conflito armado na Irlanda do Norte entre unionistas e nacionalistas, criando instituições de governo compartilhado entre os grupos.">Acordo de Belfast</span> de 1998 trouxe
                 paz, mas o Brexit trouxe novas tensões sobre a fronteira irlandesa.</p>
 
 
@@ -283,11 +244,18 @@
                     
                     </div>
 
-            <p><strong>Balcãs:</strong> Os <span onclick="document.getElementById('balcas').style.display='block'"
-                    class="w3-yellow">Balcãs (clique)</span> são uma região marcada por conflitos étnicos e
-                territoriais. A desintegração da Iugoslávia nos anos 1990 resultou em guerras violentas e a criação de
-                novos países. As tensões étnicas ainda persistem, especialmente na Bósnia e Herzegovina, Kosovo e
-                Macedônia do Norte.</p>
+            <p><strong>Balcãs:</strong> Os <span class="termo" data-palavra="Balcãs" data-definicao="Região do sudeste da Europa, na Península Balcânica, marcada por grande diversidade étnica e religiosa e por uma longa história de conflitos territoriais, incluindo a desintegração violenta da Iugoslávia nos anos 1990.">Balcãs</span> são uma região marcada por conflitos étnicos e
+                territoriais. A desintegração da Iugoslávia, federação que reunia seis repúblicas (Bósnia-Herzegovina,
+                Croácia, Eslovênia, Macedônia, Montenegro e Sérvia) sob o comando de Josip Broz Tito até sua morte em
+                1980, começou no fim dos anos 1980, quando Eslovênia e Croácia declararam independência, seguidas por
+                Bósnia-Herzegovina e Macedônia. A ruptura gerou cinco novos países e abriu caminho para conflitos
+                étnicos violentos, concentrados sobretudo na Bósnia, que reunia bósnios muçulmanos, sérvios e croatas
+                em um mesmo território: a Guerra da Bósnia (1992-1995) resultou em massacres e deportações em massa.
+                Montenegro se separou pacificamente da Sérvia em 2006, e Kosovo, território sérvio de maioria
+                albanesa e muçulmana, declarou independência unilateral em 2008 após um conflito armado que deixou
+                muitos mortos: países como Estados Unidos, França e Alemanha reconheceram a nova nação, mas Sérvia,
+                Rússia e China, até hoje, não. As tensões étnicas ainda persistem, especialmente na Bósnia e
+                Herzegovina, em Kosovo e na Macedônia do Norte.</p>
 
                 <div class="w3-margin"><img id="imagem7" src="tt18f07.png" alt="tt18f07" class="w3-mobile" >
 
@@ -307,25 +275,12 @@
 
 
 
-            <div id="balcas" class="w3-modal w3-margin-top">
-                <div class="w3-modal-content">
-                    <div class="w3-container w3-padding">
-                        <span onclick="document.getElementById('balcas').style.display='none'"
-                            class="w3-button w3-red w3-display-topright">&times;</span>
-                        <p>A região dos Balcãs, localizada no sudeste da Europa, é uma área geograficamente distinta e
-                            complexa, abrangendo a Península Balcânica. Limita-se ao norte com a região da Europa
-                            Central, a oeste com o Mar Adriático, ao sul com o Mar Mediterrâneo e a leste com o Mar Egeu
-                            e o Mar Negro. Esta região é caracterizada por uma topografia variada, incluindo montanhas,
-                            como os Alpes Dináricos e o maciço do Pindo, além de vales férteis e uma costa recortada. Os
-                            Balcãs são conhecidos por sua diversidade étnica e cultural, refletida em seus vários
-                            estados nações e histórias entrelaçadas. A região tem sido um ponto focal de conflitos
-                            históricos e disputas territoriais, sendo um dos cenários mais complexos da Europa em termos
-                            de identidade política e cultural.</p>
-
-                    </div>
-                </div>
-            </div>
-
+            <p>Geograficamente, a região dos Balcãs abrange toda a Península Balcânica, no sudeste da Europa: faz
+                fronteira ao norte com a Europa Central, banha-se a oeste pelo Mar Adriático, ao sul pelo Mar
+                Mediterrâneo e a leste pelo Mar Egeu e pelo Mar Negro. Sua topografia é bastante variada, com
+                montanhas como os Alpes Dináricos e o maciço do Pindo, vales férteis e uma costa recortada, o que
+                ajudou historicamente a isolar e preservar a diversidade étnica e cultural que caracteriza a região
+                até hoje.</p>
 
         </div>
 
@@ -348,10 +303,11 @@
 		   
 		   </div>
 
-        <p>O Brexit, a saída do Reino Unido da União Europeia (UE), foi um evento de grande repercussão global, trazendo
+        <p>O <span class="termo" data-palavra="Brexit" data-definicao="Junção das palavras inglesas britain (britânico) e exit (saída), termo usado para nomear o processo de saída do Reino Unido da União Europeia, decidido em referendo popular em 2016 e oficializado em 31 de janeiro de 2020.">Brexit</span> (junção das palavras inglesas <em>britain</em>, "britânico", e <em>exit</em>, "saída"), a saída do Reino Unido da União Europeia (UE), foi um evento de grande repercussão global, trazendo
             incertezas e divisões tanto para o Reino Unido quanto para o bloco europeu. O referendo de 2016 resultou em
-            52% dos votos a favor da saída da UE, desencadeando um processo complexo de negociação e realinhamento
-            político e econômico.</p>
+            52% dos votos a favor da saída da UE, desencadeando um longo processo de negociação e realinhamento
+            político e econômico que se estendeu por quase quatro anos: a saída só foi oficializada em 31 de janeiro
+            de 2020.</p>
 
         <p><strong>Aspectos Econômicos do Brexit:</strong></p>
 
@@ -381,7 +337,7 @@
         <p><strong>Reunificação da Irlanda:</strong> A saída do Reino Unido da UE trouxe à tona questões sobre a
             fronteira entre a Irlanda do Norte (parte do Reino Unido) e a República da Irlanda (um membro da UE). O
             Protocolo da Irlanda do Norte, que visa evitar uma fronteira rígida na ilha da Irlanda, criou tensões
-            políticas e comerciais. O Sinn Féin, partido que apoia a reunificação da Irlanda, ganhou força, e há umeuropa
+            políticas e comerciais. O Sinn Féin, partido que apoia a reunificação da Irlanda, ganhou força, e há um
             crescente debate sobre um referendo de reunificação.</p>
 
         <p><strong>Direitos dos Cidadãos:</strong> O Brexit complicou os direitos dos cidadãos europeus que vivem no
@@ -415,7 +371,7 @@
     </div>
 <div class="topico">
 
-        <div class="w3-panel  w3-pale-green w3-margin w3-padding">
+        <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
         <h2>Desafios da Imigração na Europa</h2>
 
@@ -435,9 +391,15 @@
 
         <p><strong>Crises Humanitárias:</strong> Conflitos na Síria, Afeganistão e outras partes do Oriente Médio, bem
             como instabilidade e pobreza na África, têm forçado milhões de pessoas a buscar refúgio na Europa. A
-            travessia perigosa pelo Mediterrâneo muitas vezes resulta em tragédias humanitárias. A guerra na Ucrânia em
-            2022 resultou em uma nova onda de refugiados, destacando a contínua relevância do tema da imigração na
-            Europa.</p>
+            travessia perigosa pelo Mediterrâneo muitas vezes resulta em tragédias humanitárias. O ápice dessa crise
+            aconteceu em 2015, impulsionado sobretudo pela Guerra Civil Síria: milhares de pessoas por dia cruzavam a
+            Turquia rumo à Grécia e seguiam pelos Bálcãs em direção a outros países da UE. Em setembro daquele ano,
+            os países da UE aprovaram um plano para redistribuir 120 mil refugiados entre os Estados-Membros, mas
+            sem unanimidade: Eslováquia, República Tcheca, Romênia e Hungria votaram contra. O fluxo só diminuiu de
+            forma significativa depois de um acordo entre a UE e a Turquia, fechado em março de 2016, pelo qual a
+            Turquia se comprometeu a conter a passagem de migrantes em troca de ajuda financeira europeia. A guerra
+            na Ucrânia em 2022 resultou em uma nova onda de refugiados, destacando a contínua relevância do tema da
+            imigração na Europa.</p>
 
             <div class="w3-margin"><img id="imagem9" src="tt18f09.png" alt="tt18f09" class="w3-mobile" >
    
@@ -458,11 +420,11 @@
 
         <p><strong>Políticas de Acolhimento:</strong> As políticas de acolhimento variam significativamente entre os
             países europeus. Alguns adotam abordagens mais abertas, enquanto outros impõem restrições severas. A
-            Convenção de Dublin, que determina que o primeiro país de entrada é responsável pelo pedido de asilo, tem
+            <span class="termo" data-palavra="Convenção de Dublin" data-definicao="Acordo europeu que determina que o primeiro país da UE em que um solicitante de asilo entra é o responsável por analisar seu pedido, o que na prática sobrecarrega países fronteiriços de entrada, como Grécia, Itália e Espanha.">Convenção de Dublin</span>, que determina que o primeiro país de entrada é responsável pelo pedido de asilo, tem
             sido criticada por sobrecarregar países fronteiriços.</p>
 
         <p><strong>Segurança e Controle de Fronteiras:</strong> A segurança é uma preocupação central, com muitos países
-            reforçando o controle de fronteiras para evitar entradas ilegais. Agências como a Frontex têm um papel
+            reforçando o controle de fronteiras para evitar entradas ilegais. Agências como a <span class="termo" data-palavra="Frontex" data-definicao="Agência Europeia de Guarda de Fronteiras e Costeira, responsável pela gestão e vigilância das fronteiras externas da União Europeia, com papel central no controle da imigração irregular.">Frontex</span> têm um papel
             crucial na gestão das fronteiras externas da UE, mas enfrentam críticas por práticas controversas e falta de
             transparência.</p>
 
@@ -482,9 +444,20 @@
             </div>
         
 
-        <p>A imigração também trouxe um aumento na xenofobia, alimentada por crises econômicas e insegurança. Movimentos
+        <p>A imigração também trouxe um aumento na <span class="termo" data-palavra="Xenofobia" data-definicao="Atitude de aversão, discriminação ou ódio a estrangeiros, geralmente expressa por meio de restrições, hostilidade ou violência contra imigrantes e suas culturas, línguas ou religiões.">xenofobia</span>, alimentada por crises econômicas e insegurança. Movimentos
             nacionalistas e partidos de extrema-direita ganharam força em vários países europeus, propagando discursos
             de ódio contra imigrantes e minorias.</p>
+
+        <p>A Organização das Nações Unidas (ONU) define dois tipos básicos de exclusão que ajudam a entender como a
+            xenofobia se manifesta no dia a dia. A <strong>exclusão de participação</strong> ocorre quando pessoas ou
+            grupos são discriminados por suas diferenças culturais (crenças religiosas, língua, vestuário) e
+            encontram dificuldade para atuar na educação formal, no mercado de trabalho ou na vida política do país
+            onde vivem. Já a <strong>exclusão do modo de vida</strong> é o não reconhecimento dos hábitos e costumes
+            de um grupo, obrigando-o a abandonar seus próprios valores para viver conforme os padrões da maioria. Um
+            exemplo frequentemente citado é o da população muçulmana na Europa, alvo de leis que restringem alguns de
+            seus costumes, como a proibição da construção de minaretes (torres dos templos islâmicos) em mesquitas na
+            Suíça, e a restrição ao uso, em locais públicos, de vestimentas que cobrem o rosto, como o niqab, na
+            França, na Dinamarca e nos Países Baixos.</p>
 
         <p><strong>Causas e Manifestação da Xenofobia:</strong></p>
 
@@ -535,6 +508,194 @@
 
     </div>
 
+    
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot18" src="inforesumott18.webp"
+                    alt="Infográfico resumo União Europeia II" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+        <div class="topico">
+            <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que o Brexit foi tão demorado, se o referendo decidiu a saída em 2016, mas ela só aconteceu
+                    em 2020?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque decidir sair é bem mais simples do que definir como
+                sair. Quatro décadas de integração tinham criado milhares de regras compartilhadas envolvendo
+                comércio, fronteiras, direitos de cidadãos e até a complicada questão da fronteira entre a Irlanda do
+                Norte e a República da Irlanda. Desfazer tudo isso, e ainda negociar novos acordos comerciais para
+                substituir os benefícios perdidos, exigiu quase quatro anos de negociações complexas entre o Reino
+                Unido e a UE.</p>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que a Catalunha quer se separar da Espanha, se já tem tanta autonomia dentro do país?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque autonomia política não elimina as razões que alimentam o
+                separatismo: uma identidade cultural e linguística própria muito forte, e o fato de a Catalunha ser
+                uma das regiões mais ricas da Espanha, o que gera entre parte da população a sensação de que a região
+                contribui mais para o país do que recebe de volta. Esses dois fatores, identidade e economia,
+                aparecem juntos na maioria dos movimentos separatistas que estudamos nesta aula.</p>
+
+            
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Se a xenofobia prejudica a economia, já que muitos setores dependem de trabalhadores imigrantes,
+                    por que ela persiste?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque a xenofobia raramente é uma reação racional a dados
+                econômicos: ela costuma crescer em momentos de insegurança, seja por desemprego, seja por medo de
+                mudança cultural, e políticos populistas exploram esse medo em busca de apoio eleitoral, mesmo quando
+                as evidências mostram que a imigração tende a ser positiva para a economia como um todo.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
+            <br/><br/>
+            <hr/>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    Os programas de austeridade impostos a países como a Grécia após a crise de 2008 tinham como
+                    objetivo principal:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Aumentar os gastos públicos</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Reduzir déficits e dívidas com cortes de gastos</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Elevar salários do funcionalismo público</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Austeridade significa cortar gastos e subir impostos para reduzir dívidas, não o contrário!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    A independência de Kosovo, declarada em 2008, é reconhecida por países como Estados Unidos,
+                    França e Alemanha, mas rejeitada por:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Portugal e Espanha</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Sérvia, Rússia e China</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Reino Unido e Irlanda</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Sérvia perdeu o território, e Rússia e China evitam abrir precedentes para seus próprios separatismos internos!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos que a integração europeia convive com fraturas profundas: a crise econômica de
+                2008 e as políticas de austeridade que se seguiram alimentaram o desemprego, a desigualdade e a
+                ascensão de partidos de extrema-direita em vários países. Vimos também como movimentos separatistas,
+                do País Basco à Catalunha, passando pelos Bálcãs, questionam as fronteiras internas da própria
+                Europa, e como o Brexit, a saída do Reino Unido da UE em 2020, reacendeu debates sobre a
+                independência da Escócia e a reunificação da Irlanda. Por fim, vimos como os desafios da imigração e
+                o crescimento da xenofobia testam os valores de diversidade e inclusão que a União Europeia diz
+                defender.</p>
+            <p>Na próxima aula, faremos uma revisão de tudo o que estudamos sobre geopolítica mundial, industrialização
+                e blocos econômicos nas aulas 13 a 18. Depois dela, vamos seguir viagem para outro continente e
+                estudar os Estados Unidos: sua agricultura, seu poder militar, sua industrialização e o papel que
+                ocupam na geopolítica mundial de hoje.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. O que caracterizou a crise econômica de 2008, e por que ela atingiu com mais força o sul da Europa?</h3>
+                <h3>2. O que são as políticas de austeridade, e quais foram seus principais impactos sociais?</h3>
+                <h3>3. Como a crise de 2008 contribuiu para a ascensão de partidos de extrema-direita na Europa? Cite exemplos.</h3>
+                <h3>4. Quais são os principais movimentos separatistas na Europa, e o que os motiva?</h3>
+                <h3>5. Como se deu a desintegração da Iugoslávia, e por que o caso de Kosovo é controverso até hoje?</h3>
+                <h3>6. O que é o Brexit? Quando ocorreu o referendo, e quando a saída foi oficializada?</h3>
+                <h3>7. Quais foram os principais impactos econômicos e políticos do Brexit para o Reino Unido?</h3>
+                <h3>8. Quais são os principais desafios enfrentados pela Europa com a imigração?</h3>
+                <h3>9. Segundo a ONU, quais são os dois tipos básicos de exclusão social, e como eles se relacionam com a xenofobia?</h3>
+                <h3>10. Como a falta de consenso sobre a distribuição de refugiados gerou conflitos entre os Estados-Membros da UE?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
         <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="
@@ -565,10 +726,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-        </div>
-
-    </div>
-
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
             <hr>
@@ -584,11 +741,20 @@
                 <div id="biblio-gerada"></div>
             </div>
 
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
+            </div>
+
         <br><br>
         <div class="w3-padding-48">
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
         </div>
 
     </main>

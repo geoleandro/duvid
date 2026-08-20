@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="As principais coberturas vegetais do Brasil: Floresta Amazônica, Mata Atlântica, Manguezal e Mata de Araucárias, suas características e os impactos da degradação ambiental">
+    <meta property="og:title" content="Texto 16 - Vegetação I: Domínios">
+    <meta property="og:description" content="Coberturas florestais: Floresta Amazônica, Mata Atlântica e Mata de Araucárias">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+
+    <title>2º ano - Texto 16 - Vegetação I: Domínios</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+<div class="topico ">
+
+        <h2> Introdução </h2>
+
+
+        <p> <span class="primeiraLetra">N</span>a aula passada, entramos em contato com os principais problemas
+            climáticos do Brasil e sobre a influência das massas de ar, intervenções no relevo para tratar dessa
+            questão.
+        </p>
+
+
+        <p>Hoje, vamos relacionar o principal parceiro do clima: a vegetação em nosso país. Nessa primeira parte vamos
+            conhecer a Floresta amazônica, a Mata Atlântica e a Mata de Araucárias e seus problemas.</p>
+
+        <p>O Brasil é conhecido pela exuberância de sua vegetação, mas também pela sua ação predatória ao longo dos
+            séculos. </p>
+
+
+
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2> A importância do estudo da vegetação</h2>
+
+
+
+
+        <p>A vegetação é um elemento fundamental para a manutenção da vida na Terra, pois desempenha papéis importantes,
+            como a produção de oxigênio, a regulação do clima e a preservação da biodiversidade. No Brasil, um país rico
+            em diversidade biológica, destacam-se diferentes formações vegetais, como a Floresta Amazônica, a Mata
+            Atlântica, o Manguezal e a Mata de Araucárias, que veremos nesta aula. </p>
+
+        <p>Na Geografia, a vegetação é definida como a cobertura vegetal ou <span
+                onclick="document.getElementById('biomas').style.display='block'" class="w3-yellow">biomas </span>
+            existente em determinada área ou região. Refere-se à presença e distribuição das plantas em um determinado
+            espaço geográfico. A vegetação é influenciada por fatores como clima, solo, relevo, disponibilidade de água
+            e ação humana. </p>
+
+        <div id="biomas" class="w3-modal w3-margin-top">
+            <div class="w3-modal-content">
+                <div class="w3-container w3-padding">
+                    <span onclick="document.getElementById('biomas').style.display='none'"
+                        class="w3-button w3-red w3-display-topright">&times;</span>
+                    <p>
+                        <strong>Biomas:</strong> o conceito de bioma diz respeito a um imenso ecossistema, uma paisagem
+                        natural, geralmente definido pela vegetação (a taiga, a savana, as pradarias, etc.), que abrange
+                        uma área de milhares - ou milhões - de quilômetros quadrados. O termo bioma é de origem
+                        norte-americana; os europeus em geral, para se referir ao mesmo fenômeno, preferem falar em
+                        biocenose ou formação florestal (ou paisagem vegetal).
+
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+        <p>A classificação da vegetação é feita levando em consideração suas características físicas, estrutura,
+            composição florística e adaptabilidade ao ambiente. Dessa forma, diferentes tipos de vegetação podem ser
+            identificados, como florestas, savanas, estepe, pradarias, tundra, entre outros.Veja o mapa para a
+            classificação dos biomas ou da cobertura vegetal sem a interferência humana. </p>
+
+        <div class="w3-margin"><img id="imagem6" src="ts16f06.png" alt="ts16f06" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Vesentini (2013). </span>
+
+        </div>
+
+
+
+
+        <p>A vegetação desempenha um papel fundamental na manutenção do equilíbrio ecológico, fornecendo habitat para
+            diversas espécies, regulando o ciclo da água, capturando carbono e contribuindo para a produção de oxigênio.
+            Além disso, a vegetação desempenha um papel importante na proteção do solo contra a erosão e na moderação do
+            clima. E agora, veja um mapa, após a modificação do espaço pelo homem.</p>
+
+        <div class="w3-margin"><img id="imagem2" src="ts16f02.png" alt="ts16f02" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao2"> Fonte: Vesentini (2013). </span>
+
+        </div>
+
+
+
+
+
+
+        <p>A área destacada em vermelho corresponde as modificações realizadas pelos seres humanos. Ao centro do país
+            ocorrem o cerrado (Savana brasileira), bem como estepes no Rio Grande do Sul e vegetação semiárida no sertão
+            nordestino. Além da grande parte da vegetação amazônica, dentre outros contatos entre vegetações distintas.
+        </p>
+
+
+        <p>O estudo da vegetação na geografia envolve a análise dos diferentes tipos de vegetação encontrados em
+            diferentes regiões, bem como as interações entre a vegetação e os demais elementos do ambiente, como os
+            seres humanos, a fauna, o clima e o relevo. </p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>A vegetação na floresta amazônica</h2>
+
+
+
+
+        <p>A Floresta Amazônica é uma das formações vegetais mais icônicas do Brasil e do mundo. Situada principalmente
+            na região Norte do país, é caracterizada pelo clima equatorial, com alta temperatura e umidade ao longo do
+            ano. Sua extensão abrange a bacia do Rio Amazonas, sendo considerada a maior floresta tropical contínua do
+            planeta. </p>
+
+
+        <div class="w3-margin"><img id="imagem3" src="ts16f03.png" alt="ts16f03" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao3"> Fonte: IBGE. </span>
+        </div>
+
+
+
+
+        <p>A vegetação predominante na Floresta Amazônica é conhecida como <span class="termo" data-palavra="Floresta equatorial latifoliada perene" data-definicao="Formação vegetal típica de climas equatoriais, com árvores de grande porte e folhas largas que permanecem verdes o ano todo, sem uma estação de queda foliar generalizada.">floresta equatorial latifoliada perene</span>. Essa
+            designação faz referência à presença de árvores de grande porte e folhas largas que permanecem verdes
+            durante todo o ano. É uma floresta exuberante, com uma enorme diversidade de espécies vegetais, abrigando
+            uma ampla variedade de fauna e flora. </p>
+
+        <p>Devido à imensa extensão da Floresta Amazônica e à heterogeneidade de suas condições ambientais, podem ser
+            identificados três principais subgrupos vegetacionais: Mata de Igapó, Mata de Várzea e Mata de Terra Firme.
+        </p>
+
+        <div class="w3-margin"><img id="imagem1" src="ts16f01.png" alt="ts16f01" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao1"> </span>
+        </div>
+
+
+
+
+
+        <p>A Mata de Igapó é encontrada nas áreas inundáveis da região amazônica, como margens de rios, lagos e
+            igarapés. Essas áreas são periodicamente alagadas, o que influencia diretamente na composição e
+            adaptabilidade da vegetação. As espécies vegetais presentes na Mata de Igapó são adaptadas à inundação
+            sazonal, possuindo raízes aéreas e copas mais estreitas. </p>
+
+
+        <p> A Mata de Várzea ocorre nas áreas próximas aos rios, onde ocorrem inundações temporárias. Esse ambiente
+            apresenta solos mais férteis devido ao acúmulo de sedimentos trazidos pelas cheias dos rios. A Mata de
+            Várzea é caracterizada por árvores de grande porte, incluindo espécies como a seringueira e a castanheira.
+            Essas áreas são importantes para a pesca e para o sustento das populações ribeirinhas.</p>
+
+        <p>Já a Mata de Terra Firme compreende a maior parte da Floresta Amazônica e é encontrada em áreas não sujeitas
+            a inundação. É caracterizada por solos mais pobres e relevo mais elevado, o que influencia na diversidade de
+            espécies vegetais presentes. Nesse ambiente, encontram-se árvores de grande porte, como a sumaúma e o mogno,
+            além de uma grande variedade de plantas <span class="termo" data-palavra="Epífitas" data-definicao="Plantas que crescem sobre outras plantas (geralmente em troncos e galhos de árvores) sem parasitá-las, usando-as apenas como suporte físico. Bromélias e orquídeas são exemplos comuns na Amazônia.">epífitas</span>, como bromélias e orquídeas. </p>
+
+        <p> Além dos subgrupos vegetacionais mencionados, a Floresta Amazônica também apresenta outras formações, como
+            áreas de transição com savanas (conhecidas como <span class="termo" data-palavra="Ecótono" data-definicao="Zona de transição entre dois ecossistemas distintos, como floresta e savana, onde se misturam espécies e características de ambos os ambientes.">ecótono</span>) e áreas de vegetação secundária decorrentes de
+            distúrbios naturais, como queimadas ou eventos climáticos extremos.</p>
+
+        <p> A importância da Floresta Amazônica vai além de sua imensa biodiversidade. Ela desempenha um papel
+            fundamental na regulação climática global, contribuindo para o equilíbrio do ciclo hidrológico, a produção
+            de oxigênio e o sequestro de carbono. No entanto, a floresta enfrenta desafios significativos, como o
+            desmatamento ilegal, a exploração madeireira predatória e as pressões da atividade agrícola. A preservação
+            desse importante ecossistema é essencial para a conservação da biodiversidade e a sustentabilidade
+            ambiental.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2> A degradação da vegetação</h2>
+
+
+
+
+        <p>O desmatamento da Floresta Amazônica é uma das maiores preocupações ambientais do Brasil e do mundo. Diversos
+            fatores têm contribuído para a perda alarmante de áreas florestais nessa região. </p>
+
+        <div class="w3-margin"><img id="imagem8" src="ts16f08.png" alt="ts16f08" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao8"> Fonte: https://organicsnewsbrasil.com.br </span>
+        </div>
+
+
+
+        <p> O avanço da fronteira agrícola é uma das principais causas do desmatamento. A expansão da agricultura,
+            pecuária e cultivo de soja tem levado à derrubada e queimada de grandes extensões da floresta. Apesar de o
+            solo amazônico ser considerado pobre em nutrientes, práticas como o corte e queima da vegetação têm sido
+            adotadas para viabilizar a produção agrícola e pecuária. O desmatamento ao longo das rodovias de penetração,
+            que facilitam o acesso a áreas remotas, tem sido especialmente impactante.</p>
+
+        <p>Os garimpos de ouro e cassiterita (estanho) também têm contribuído para a degradação da Floresta Amazônica.
+            As atividades de mineração, principalmente no Pará, Rondônia, norte de Mato Grosso e Amapá, resultam na
+            abertura de enormes clareiras na floresta, além da poluição dos rios devido aos resíduos e produtos químicos
+            utilizados no processo de extração. </p>
+
+
+        <p> A construção de usinas hidrelétricas na região também tem desencadeado impactos significativos no
+            ecossistema amazônico. A formação de imensos lagos e reservatórios para a geração de energia elétrica tem
+            levado ao desaparecimento de grandes áreas de mata nativa, que ficam submersas com a formação desses
+            reservatórios. Esse fenômeno afeta não apenas a vegetação, mas também a fauna e a população local que
+            depende desses recursos naturais.</p>
+
+
+        <p>Além dos problemas mencionados, a Floresta Amazônica também enfrenta desafios relacionados à <span class="termo" data-palavra="Biopirataria" data-definicao="Apropriação e exploração comercial indevida de recursos biológicos e conhecimentos tradicionais de povos e comunidades, geralmente sem autorização, registro de patente ou repartição justa dos benefícios.">biopirataria</span>. A
+            apropriação indevida de recursos biológicos e conhecimentos tradicionais das populações indígenas tem
+            ocorrido, muitas vezes, sem a devida compensação ou consentimento. Empresas multinacionais e instituições
+            científicas têm patenteado esses recursos e conhecimentos, explorando-os comercialmente sem compartilhar os
+            benefícios com as comunidades de origem. </p>
+
+        <p>As queimadas também são uma prática comum na transformação da floresta em áreas destinadas à agricultura e
+            pecuária. O fogo é utilizado para limpar o terreno e prepará-lo para o plantio ou para controlar o
+            desenvolvimento de pragas invasoras. No entanto, as queimadas descontroladas acarretam graves consequências
+            para a vegetação e o meio ambiente, incluindo a extinção de espécies nativas, a emissão de gases de efeito
+            estufa e o desequilíbrio do ecossistema. </p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>O garimpo ilegal </h2>
+
+
+
+
+        <p>O garimpo é uma atividade que tem causado sérios impactos ambientais na região amazônica. O extrativismo
+            mineral, em particular a extração de ouro, tem contribuído significativamente para a degradação do domínio
+            amazônico. </p>
+
+
+        <div class="w3-margin"><img id="imagem9" src="ts16f09.png" alt="ts16f09" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao9"> Fonte: https://amazonia.org.br/ </span>
+
+        </div>
+
+
+
+        <p>Segundo dados do MapBiomas, mais de 263 mil hectares já foram garimpados em busca de ouro no Brasil, a
+            maior parte deles na Amazônia, especialmente no Pará, em Rondônia e no Mato Grosso. Boa parte dessas áreas
+            são garimpos informais, muitas vezes operando com infraestrutura
+            precária e sem os devidos controles ambientais. </p>
+
+        <p>Uma das principais preocupações relacionadas ao garimpo é a liberação de <span class="termo" data-palavra="Mercúrio (contaminação)" data-definicao="Metal pesado tóxico usado no garimpo para separar o ouro do minério. Quando liberado no ambiente, contamina rios e solo, acumula-se nos organismos ao longo da cadeia alimentar e pode causar danos neurológicos em humanos.">mercúrio</span> no meio ambiente. O
+            mercúrio é utilizado no processo de extração do ouro, sendo misturado ao minério para facilitar a separação
+            do metal precioso. No entanto, a má gestão desse elemento tóxico tem consequências devastadoras para o
+            ecossistema amazônico. </p>
+
+
+        <p> O mercúrio utilizado nos garimpos é liberado nos rios, no ar e no solo durante as etapas de extração e
+            beneficiamento do ouro. Essa contaminação tem efeitos prejudiciais para a fauna, a flora e as comunidades
+            humanas que dependem dos recursos naturais da região. O mercúrio pode se acumular nos organismos vivos,
+            passando pela cadeia alimentar e afetando desde os peixes até os seres humanos que consomem esses peixes
+            contaminados. A exposição crônica ao mercúrio pode causar graves danos à saúde, incluindo problemas
+            neurológicos e reprodutivos.</p>
+
+
+        <p>Além da contaminação por mercúrio, o garimpo também provoca a destruição de grandes áreas de floresta. A
+            abertura de clareiras e a remoção da vegetação para a criação de garimpos contribuem para a perda de habitat
+            de várias espécies, levando à diminuição da biodiversidade na região. </p>
+
+        <p>Outro problema associado ao garimpo é a utilização indiscriminada de recursos hídricos. A atividade requer
+            grande quantidade de água para a lavagem do minério e a separação do ouro, o que pode resultar na escassez e
+            na contaminação da água em áreas próximas aos garimpos.</p>
+
+        <p>Esses impactos do garimpo na Amazônia reforçam a necessidade de políticas e práticas que busquem o controle e
+            a regularização dessa atividade, garantindo a adoção de medidas ambientalmente responsáveis. O
+            fortalecimento da fiscalização, a promoção de alternativas sustentáveis de subsistência para as comunidades
+            locais e a conscientização sobre os riscos ambientais e à saúde são passos essenciais para mitigar os danos
+            causados pelo garimpo na região amazônica.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>A destruição da Mata Atlântica </h2>
+
+
+
+
+        <p>A Mata Atlântica, um dos biomas mais ricos e diversificados do mundo, tem enfrentado sérios desafios de
+            conservação ao longo da história. Desde o período colonial, com a expansão do cultivo da cana-de-açúcar, a
+            Mata Atlântica começou a ser devastada. Durante o século XVIII, a mineração e a agricultura cafeeira foram
+            responsáveis por um intenso desmatamento no bioma. Posteriormente, o desenvolvimento industrial e a expansão
+            urbana se tornaram fatores significativos na redução da Mata Atlântica. Atualmente, essa região abriga as
+            cidades mais populosas do Brasil e os principais parques industriais do país. </p>
+
+        <p>A Mata Atlântica é caracterizada por um clima tropical úmido, que se estende do Rio Grande do Sul ao Rio
+            Grande do Norte. Originalmente, esse bioma ocupava uma área de aproximadamente 1,3 milhão de km². No entanto,
+            devido à intensa degradação, restam hoje cerca de 24% dessa cobertura original, segundo o Atlas mais
+            recente da SOS Mata Atlântica em parceria com o INPE (2023-2024) — mas a mata madura e bem conservada
+            representa uma fatia bem menor desse total, já que a maior parte dos remanescentes está fragmentada em
+            pedaços pequenos e pouco protegidos. A Mata Atlântica é composta por
+            uma floresta densa e úmida, presente principalmente nas encostas da Serra do Mar. Os solos desse bioma estão
+            sujeitos a altos níveis de umidade e intemperismo químico, o que resulta no desgaste da matéria orgânica e
+            dos sais minerais. </p>
+
+        <div class="w3-margin"><img id="imagem4" src="ts16f04.png" alt="ts16f04" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao4"> Fonte: IBGE </span>
+        </div>
+
+
+
+
+        <p>Warren Dean, um renomado historiador ambiental, dedicou parte de sua pesquisa ao estudo da Mata Atlântica. Em
+            seu livro "A Ferro e Fogo: A História e a Devastação da Mata Atlântica Brasileira", Dean analisa a história
+            de exploração e degradação desse bioma. Ele examina as várias atividades humanas, como a urbanização, o
+            cultivo de café, a cana-de-açúcar e a exploração madeireira, que tiveram um impacto significativo na Mata
+            Atlântica ao longo dos séculos. </p>
+
+
+        <p>A destruição da Mata Atlântica resultou na perda de uma imensa biodiversidade. Esse bioma abriga uma grande
+            variedade de espécies endêmicas e ameaçadas de extinção, incluindo animais icônicos como o mico-leão-dourado
+            e a onça-pintada. Além disso, a Mata Atlântica desempenha um papel fundamental na regulação dos recursos
+            hídricos, na proteção dos solos e no sequestro de carbono, contribuindo para o equilíbrio climático. </p>
+
+        <div class="w3-margin"><img id="imagem7" src="ts16f07.png" alt="ts16f07" class="w3-mobile"></div>
+
+        <span class="w3-small w3-margin-left" id="citacao7"> Fonte: Vesentini (2013). </span>
+
+
+        <p>Apesar dos desafios enfrentados, esforços de conservação vêm sendo realizados para preservar e restaurar a
+            Mata Atlântica. A criação de unidades de conservação, a implementação de políticas de proteção ambiental e o
+            engajamento da sociedade civil têm sido fundamentais nesse processo. A Mata Atlântica é reconhecida como um
+            <span class="termo" data-palavra="Hotspot de biodiversidade" data-definicao="Região com altíssima concentração de espécies endêmicas (que não existem em nenhum outro lugar) e que, ao mesmo tempo, sofreu perda de mais de 70% de sua vegetação original — critério que classifica a Mata Atlântica entre os hotspots mais críticos do planeta.">hotspot de biodiversidade</span> e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
+            a qualidade de vida das populações que dependem desse bioma. </p>
+
+        <p>Desde 2006, o bioma conta com uma legislação federal específica, a <span class="termo" data-palavra="Lei da Mata Atlântica" data-definicao="Lei federal nº 11.428, sancionada em dezembro de 2006, que estabelece regras mais rígidas para o desmatamento e a exploração da vegetação nativa da Mata Atlântica, dado seu avançado estado de fragmentação.">Lei da Mata Atlântica</span>
+            (Lei nº 11.428), que impõe regras mais rígidas para o desmatamento e a exploração da vegetação nativa,
+            justamente por seu estado avançado de fragmentação. Fundada em 1986, a organização SOS Mata Atlântica produz
+            anualmente o Atlas da Mata Atlântica, que monitora por satélite a perda de florestas maduras dentro dos
+            limites de aplicação da lei. Os dados acumulados ao longo de quase quatro décadas mostram uma tendência
+            geral de queda no desmatamento: das taxas mais altas registradas nos anos 1980 e 1990 até o menor valor
+            da série histórica, observado no período de 2017 a 2018. Ainda assim, o desmatamento nunca cessou, e em
+            anos recentes a taxa voltou a subir para patamares acima desse mínimo histórico, o que mostra que a
+            redução ao longo do tempo, embora real, é lenta, e que o bioma segue vulnerável mesmo com a legislação de
+            proteção em vigor.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>A floresta de Araucária </h2>
+
+
+
+
+        <p> A floresta de Araucária é um ecossistema característico das regiões de climas mais amenos, como o tropical
+            de altitude e o subtropical, abrangendo áreas que se estendem desde o estado de São Paulo até o norte do Rio
+            Grande do Sul, no Brasil. É também conhecida como "mata dos pinhais", devido à predominância de árvores
+            aciculifoliadas, como os imponentes pinheiros-do-Paraná (Araucaria angustifolia).</p>
+
+        <div class="w3-margin"><img id="imagem5" src="ts16f05.png" alt="ts16f05" class="w3-mobile">
+
+            <span class="w3-small w3-margin-left" id="citacao5"> Fonte: IBGE. </span>
+        </div>
+
+
+
+
+        <p> Esse tipo de floresta é resultado de condições climáticas passadas, quando <span class="termo" data-palavra="Paleoclima" data-definicao="Clima que existiu no passado geológico da Terra, diferente do clima atual de uma região. O estudo dos paleoclimas ajuda a explicar por que certas espécies de clima frio, como a araucária, ocorrem hoje em áreas de clima subtropical.">paleoclimas</span> mais frios permitiram
+            o estabelecimento e desenvolvimento da Araucaria angustifólia em vastas áreas. Essa árvore é uma espécie
+            endêmica e representa um importante componente da biodiversidade dessa região.</p>
+
+        <p>A floresta de Araucária possui uma estrutura relativamente homogênea, com a presença predominante de árvores
+            de grande porte, como as araucárias, que alcançam alturas impressionantes. Além da araucária, também é
+            possível encontrar outras espécies vegetais adaptadas às condições do local, como o cedro, o ipê-amarelo e o
+            angico-vermelho. </p>
+
+
+        <p>Esse ecossistema desempenha papéis essenciais no equilíbrio ambiental e na conservação da biodiversidade. A
+            floresta de Araucária atua como reguladora dos recursos hídricos, contribuindo para o abastecimento de rios
+            e aquíferos. Além disso, abriga uma variedade de espécies de fauna e flora, incluindo aves, mamíferos e
+            plantas endêmicas, muitas das quais estão ameaçadas de extinção. </p>
+
+
+        <p> No entanto, a floresta de Araucária também tem sido impactada por atividades humanas ao longo dos anos. O
+            desmatamento para a exploração madeireira e a conversão de áreas florestais em campos agrícolas são algumas
+            das principais ameaças enfrentadas por esse ecossistema. A intensa exploração da madeira de araucária,
+            amplamente utilizada na indústria moveleira e na construção civil, resultou em uma redução significativa da
+            cobertura original da floresta de Araucária.</p>
+
+        <p>A fragilidade desse ecossistema é evidente, e a conservação da floresta de Araucária é fundamental para
+            preservar sua biodiversidade e os serviços ecossistêmicos por ela prestados. Esforços de proteção e
+            recuperação, como a criação de unidades de conservação, o manejo sustentável e a conscientização da
+            importância desse ecossistema, são essenciais para garantir a sobrevivência da floresta de Araucária e para
+            promover a sua sustentabilidade a longo prazo.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico">
+
+        <h2>A importância e fragilidade do manguezal </h2>
+
+
+
+
+        <p> O mangue é um ecossistema costeiro de extrema importância ecológica, que se desenvolve em áreas de transição
+            entre o ambiente terrestre e o mar. Ele ocorre em regiões tropicais e subtropicais, sendo encontrado ao
+            longo das costas brasileiras, principalmente nas regiões Norte e Nordeste do país.</p>
+
+        <p> O mangue é caracterizado pela presença de árvores adaptadas a condições salobras e encharcadas, como o
+            mangue-vermelho, o mangue-branco e o mangue-preto. Essas árvores possuem raízes aéreas que ajudam na
+            obtenção de oxigênio, já que o solo do mangue é rico em matéria orgânica e pobre em oxigênio.</p>
+
+        <div class="w3-margin"><img id="imagem11" src="ts16f011.png" alt="ts16f011" class="w3-mobile">
+            <span class="w3-small w3-margin-left" id="citacao11"> Fonte: https://www.tempo.com/</span>
+
+
+        </div>
+
+
+
+        <p>Esse ecossistema desempenha um papel fundamental na proteção das áreas costeiras contra a erosão e a ação das
+            marés, funcionando como uma barreira natural contra a invasão do mar. Além disso, o mangue serve como
+            berçário e refúgio para várias espécies de peixes, crustáceos e aves marinhas, contribuindo para a
+            diversidade biológica e para a sustentabilidade dos recursos pesqueiros. </p>
+
+
+        <p>A fragilidade do mangue é evidente devido à sua sensibilidade a mudanças ambientais e à ação humana. A
+            ocupação desordenada das áreas costeiras, o desmatamento para a expansão urbana e a poluição dos rios e
+            mares representam grandes ameaças para esse ecossistema. Além disso, o avanço da agricultura e da
+            aquicultura também pode levar à degradação do mangue. </p>
+
+
+        <p>A destruição do mangue traz consequências significativas para o equilíbrio ambiental. A remoção desse
+            ecossistema resulta na perda de habitat para várias espécies, além de comprometer a qualidade da água e a
+            estabilidade das áreas costeiras. A falta de áreas de mangue pode aumentar o risco de erosão costeira,
+            tornando as comunidades locais mais vulneráveis a eventos extremos, como tempestades e ressacas. </p>
+
+        <p>É fundamental promover a conservação e a recuperação dos manguezais, por meio da criação de áreas protegidas,
+            da implementação de políticas de gestão sustentável e do engajamento das comunidades locais. A valorização e
+            o uso consciente dos recursos naturais provenientes do mangue são essenciais para garantir a preservação
+            desse ecossistema único e para manter a sua importância econômica, social e ambiental a longo prazo.</p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+    </div>
+
+<div class="topico w3-light-gray">
+
+        <h2>Caminhos para um futuro ambientalmente equilibrado</h2>
+
+
+
+        <p>Para diminuir a degradação da vegetação e promover uma melhor convivência entre os grupos humanos nos
+            diferentes biomas, o estado deve adotar uma abordagem abrangente e integrada, envolvendo políticas,
+            regulamentações, programas de educação ambiental e incentivos para práticas sustentáveis. Algumas medidas e
+            caminhos que podem ser seguidos incluem:</p>
+
+        <ul>
+            <li>
+                Fortalecimento da fiscalização e aplicação de leis ambientais: É essencial que o estado invista em uma
+                fiscalização eficiente e rigorosa para combater o desmatamento ilegal, a biopirataria e outras
+                atividades predatórias. Além disso, as leis ambientais devem ser aplicadas de forma justa e eficaz, com
+                punições adequadas para os infratores.
+            </li>
+
+            <li>
+                Criação e gestão de áreas protegidas: O estabelecimento de unidades de conservação, parques nacionais e
+                reservas ambientais é fundamental para garantir a preservação dos ecossistemas. Essas áreas devem ser
+                adequadamente gerenciadas, com recursos e estrutura suficientes para proteger a vegetação e regular o
+                uso sustentável dos recursos naturais.
+            </li>
+
+            <li>
+                Estímulo à economia verde e sustentável: O estado pode incentivar a adoção de práticas sustentáveis
+                através de políticas e programas que promovam a economia verde. Isso pode incluir incentivos fiscais
+                para empresas que adotem práticas sustentáveis, apoio a iniciativas de agricultura orgânica e
+                agroflorestal, e estímulo ao turismo sustentável nas regiões de vegetação.
+            </li>
+
+            <li>
+                Investimento em pesquisa e desenvolvimento: A pesquisa científica e o desenvolvimento de tecnologias
+                inovadoras são fundamentais para o manejo sustentável da vegetação. O estado deve investir em pesquisas
+                que busquem soluções para o uso sustentável dos recursos naturais, a recuperação de áreas degradadas e a
+                conservação da biodiversidade.
+            </li>
+
+            <li>
+                Educação ambiental e conscientização: É fundamental promover a conscientização da importância da
+                vegetação e dos impactos negativos da degradação ambiental. Programas de educação ambiental devem ser
+                implementados nas escolas, comunidades e meios de comunicação, visando aumentar o conhecimento e a
+                conscientização sobre a importância da preservação da vegetação.
+            </li>
+
+            <li>
+                Participação da sociedade civil e diálogo entre os grupos: É importante incentivar a participação ativa
+                da sociedade civil na tomada de decisões relacionadas à proteção da vegetação. O diálogo entre
+                diferentes grupos, incluindo comunidades tradicionais, povos indígenas, agricultores, empresas e
+                organizações não governamentais, é essencial para encontrar soluções sustentáveis e promover uma melhor
+                convivência entre os interesses diversos.
+            </li>
+
+            <li>
+                Cooperação internacional: A proteção da vegetação e o enfrentamento dos desafios ambientais exigem
+                esforços conjuntos em nível global. O estado deve buscar parcerias e cooperação internacional para troca
+                de conhecimentos, compartilhamento de melhores práticas e apoio financeiro para a conservação da
+                vegetação. </li>
+
+
+        </ul>
+
+        <p>Essas medidas representam um caminho importante para a diminuição da degradação da vegetação e uma melhor
+            convivência entre os grupos humanos. No entanto, é fundamental que haja um compromisso político contínuo,
+            recursos adequados e a participação de todos os setores da sociedade para promover uma gestão ambiental
+            sustentável e garantir a preservação desses importantes biomas. </p>
+
+
+
+        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+        <hr>
+
+
+
+    </div>
+
+    
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="infograficot2" src="inforesumots16.png"
+                    alt="Infográfico resumo raio x da população" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+        </div>
+
+
+<div class="topico w3-pale-yellow ">
+
+            <p class="caixa">Agora é com você!</p>
+
+           
+
+            <h1>Atividade: O livro das perguntas</h1>
+
+            <p><strong>Instruções</strong>:</p>
+
+            <ul>
+
+                <li>Forme um grupo com 5-6 estudantes;</li>
+
+                <li> Cada grupo deve escolher um tópico abaixo e desenvolver três questões relacionadas a ele. </li>
+
+                <li> Reflita criticamente e a explore diferentes perspectivas.</li>
+
+                <li> Pense em processos, causas e consequências </li>
+
+                <li>Faça questões desafiadoras sobre a relação entre o ser humano e a vegetação.</li>
+
+                <li>Tempo da atividade: 15 minutos.</li>
+
+            </ul>
+
+
+            <h1>Exemplo de tópico</h1>
+
+            <p><strong>Motivações e Interesses</strong>:</p>
+
+            <p>- Como as ambições individuais e coletivas podem levar à degradação da vegetação?</p>
+
+            <p>- Em que medida a busca por recursos naturais afeta a preservação da vegetação?</p>
+
+            <p><strong>Lucro e Crescimento Econômico</strong>:</p>
+
+            <p><strong>Consciência Ecológica e Conexão com a Natureza</strong>:</p>
+
+
+            <p><strong>Educação Ambiental:</strong>:</p>
+
+
+            <p><strong>Influências Sociais, Culturais e Políticas</strong>:</p>
+
+
+            <p><strong>Tecnologia e Degradação da Vegetação</strong>:</p>
+
+
+            <p><strong>Responsabilidade Individual e Coletiva</strong>:</p>
+
+
+            <p><strong>Consequências da Degradação da Vegetação</strong>:</p>
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+
+
+        </div>
+
+<div class="topico">
+
+
+            <h2 id="centralizado"> A curiosidade e a vontade de entender o mundo ao nosso redor são fundamentais para
+                fazer perguntas e contribuir com a construção do conhecimento científico.</h2>
+
+
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Por que no momento atual a vegetação está sendo muito degradada?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                A degradação da vegetação no momento atual ocorre devido a uma série de fatores interconectados. Entre
+                as principais razões estão o avanço da fronteira agrícola, a expansão urbana desordenada, a exploração
+                desenfreada de recursos naturais, como madeira e minerais, as práticas agrícolas inadequadas, o
+                desmatamento ilegal, as queimadas descontroladas e a falta de conscientização ambiental. Esses fatores
+                estão frequentemente associados a interesses econômicos, como a busca por lucro e o crescimento
+                desenfreado, em detrimento da preservação ambiental.
+
+            </p>
+
+
+
+
+
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Por que o ser humano age como se fosse à parte do Planeta?
+
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                Existem diversas razões que podem levar o ser humano a não se sentir parte do planeta. Uma delas é a
+                percepção equivocada de que a humanidade está separada da natureza, como se fosse algo externo e
+                dominável. Isso pode ser resultado da visão antropocêntrica, que coloca os interesses humanos acima dos
+                interesses ambientais. Além disso, a sociedade moderna e tecnológica muitas vezes promove um estilo de
+                vida desconectado da natureza, com pouco contato direto com a vegetação e o meio ambiente, o que pode
+                gerar uma falta de apreciação e compreensão da importância desses elementos para a nossa existência.
+
+
+            </p>
+
+
+
+
+
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+
+                    Quais outros tipos de estilos de vida poderiam existir para degradar menos a vegetação no Brasil?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+
+                Existem diferentes estilos de vida que poderiam contribuir para a redução da degradação da vegetação no
+                Brasil. Alguns exemplos incluem:
+
+
+            </p>
+
+            <ul>
+
+                <li>Agricultura sustentável: Práticas agrícolas que promovem o uso responsável do solo, evitando o
+                    desmatamento e a degradação, além de privilegiar técnicas de plantio e manejo que preservem a
+                    biodiversidade local.</li>
+
+                <li>Consumo consciente: Adotar uma postura de consumo mais responsável, dando preferência a produtos que
+                    sejam produzidos de forma sustentável, sem contribuir para o desmatamento ou a degradação da
+                    vegetação.</li>
+
+                <li>Energias renováveis: Investir em fontes de energia renováveis, como solar e eólica, reduzindo assim
+                    a dependência de combustíveis fósseis que contribuem para a degradação da vegetação.</li>
+
+                <li>Educação ambiental: Promover a conscientização e a educação ambiental em todas as faixas etárias,
+                    destacando a importância da preservação da vegetação e a adoção de práticas sustentáveis em
+                    diferentes áreas da vida cotidiana.</li>
+
+                <li>Respeito aos territórios indígenas e tradicionais: Reconhecer e respeitar os direitos dos povos
+                    indígenas e das comunidades tradicionais, que têm um profundo conhecimento e relação sustentável com
+                    a vegetação, valorizando sua participação na conservação dos ecossistemas.</li>
+
+            </ul>
+
+            <p>Essas são apenas algumas ideias que poderiam contribuir para um estilo de vida mais harmonioso com a
+                vegetação, enfatizando a necessidade de uma abordagem integrada que envolva ações individuais, políticas
+                públicas e uma mudança de mentalidade em relação ao nosso papel no mundo.</p>
+
+
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
+            <br><br>
+            <hr>
+
+        </div>
+
+        <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+        <div class="topico">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para o caderno</h2>
+                <h3>1. Por que a vegetação é considerada um elemento fundamental para a manutenção da vida na Terra?</h3>
+                <h3>2. Como o clima influencia a formação de diferentes tipos de vegetação?</h3>
+                <h3>3. Quais são os três principais subgrupos vegetacionais da Floresta Amazônica e quais são suas características?</h3>
+                <h3>4. Quais são as principais causas do desmatamento na Floresta Amazônica mencionadas no texto?</h3>
+                <h3>5. Qual é o impacto do garimpo na Floresta Amazônica e como ele afeta o meio ambiente e a saúde humana?</h3>
+                <h3>6. Quais fatores históricos contribuíram para a degradação da Mata Atlântica ao longo dos séculos?</h3>
+                <h3>7. Explique a importância ecológica do mangue e quais são as principais ameaças enfrentadas por esse ecossistema.</h3>
+                <h3>8. Como a Floresta de Araucária contribui para o equilíbrio ambiental e qual é a principal ameaça enfrentada por esse ecossistema?</h3>
+                <h3>9. Quais são algumas das medidas sugeridas no texto para promover a conservação da vegetação e reduzir a degradação ambiental?</h3>
+                <h3>10. Por que a cooperação internacional é considerada importante na preservação dos biomas e no enfrentamento dos desafios ambientais?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema Vegetação I: Domínios é fantástico! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <!-- TÓPICO FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        <br><br>
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+        </div>
+    </main>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+
+</body>
+
+</html>

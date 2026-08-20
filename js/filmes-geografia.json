@@ -517,5 +517,33 @@
     "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/1YpHj6aV1yKWP20hKj1KUiLaIbi.jpg",
     "nota": 7.2,
     "posicao": 50
+  },
+  "diamante-de-sangue": {
+    "titulo": "Diamante de Sangue",
+    "tipo": "Filme",
+    "tema": "Geopolítica",
+    "direcao": "Edward Zwick",
+    "pais": "EUA",
+    "ano": 2006,
+    "duracao": "143 min",
+    "classificacao": "16 anos",
+    "sinopse": "Durante a guerra civil de Serra Leoa, nos anos 1990, um garimpeiro, um traficante de diamantes e uma jornalista se envolvem na busca por um raro diamante rosa, expondo a rede de exploração dos \"diamantes de sangue\" que financiam conflitos armados na África.",
+    "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/kNHin972IOsDXHa5kvnvU56fOIy.jpg",
+    "nota": 7.6,
+    "posicao": 50
+  },
+  "hotel-ruanda": {
+    "titulo": "Hotel Ruanda",
+    "tipo": "Filme",
+    "tema": "Geopolítica",
+    "direcao": "Terry George",
+    "pais": "EUA, Reino Unido, Itália, África do Sul",
+    "ano": 2004,
+    "duracao": "121 min",
+    "classificacao": "14 anos",
+    "sinopse": "Baseado em fatos reais, narra a história de Paul Rusesabagina, gerente de um hotel de luxo em Kigali que abriga mais de mil refugiados tútsis durante o genocídio de Ruanda em 1994, expondo a omissão da comunidade internacional diante do conflito étnico entre hútus e tútsis.",
+    "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/2cjQBLgHJuuwKwoXDRxHmb24Hbi.jpg",
+    "nota": 7.7,
+    "posicao": 50
   }
 }

@@ -4,6 +4,7 @@
 // =============================================================
 require_once __DIR__ . '/auth.php';
 require_once __DIR__ . '/../includes/conexao.php';
+require_once __DIR__ . '/../includes/certificados.php';
 
 $pdo = getDB();
 
@@ -42,7 +43,8 @@ $stmt = $pdo->prepare("
         SUM(p.concluido_texto    = 1 AND (:ano1a = 0 OR au.ano_escolar = :ano1b)) AS textos_ok,
         SUM(p.concluido_questoes = 1 AND (:ano2a = 0 OR au.ano_escolar = :ano2b)) AS questoes_ok,
         SUM(p.concluido_texto = 1 AND p.concluido_questoes = 1
-            AND (:ano3a = 0 OR au.ano_escolar = :ano3b)) AS aulas_100
+            AND (:ano3a = 0 OR au.ano_escolar = :ano3b)) AS aulas_100,
+        (SELECT COUNT(*) FROM certificados_alunos ca WHERE ca.aluno_id = a.id) AS certificados_count
     FROM alunos a
     LEFT JOIN turmas t          ON t.id = a.turma_id
     LEFT JOIN progresso_aulas p ON p.aluno_id = a.id
@@ -94,6 +96,24 @@ if ($aluno_id_sel) {
     if ($filtro_ano) $p2[':ano'] = $filtro_ano;
     $stmt2->execute($p2);
     $progresso_detalhe = $stmt2->fetchAll();
+
+    // Certificados conquistados por esse aluno
+    $stmt3 = $pdo->prepare(
+        "SELECT tipo, referencia, conquistado_em FROM certificados_alunos
+         WHERE aluno_id = :id ORDER BY conquistado_em DESC"
+    );
+    $stmt3->execute([':id' => $aluno_id_sel]);
+    $certificados_detalhe = $stmt3->fetchAll();
+
+    // Resolve título de cada bloco (referencia = id da aula de revisão)
+    $blocoIds = array_column(array_filter($certificados_detalhe, fn($c) => $c['tipo'] === 'bloco'), 'referencia');
+    $titulosBloco = [];
+    if ($blocoIds) {
+        $in = implode(',', array_fill(0, count($blocoIds), '?'));
+        $st = $pdo->prepare("SELECT id, titulo FROM aulas WHERE id IN ($in)");
+        $st->execute($blocoIds);
+        foreach ($st->fetchAll() as $row) $titulosBloco[$row['id']] = $row['titulo'];
+    }
 }
 
 $PAGINA_ATUAL  = 'progresso-aluno';
@@ -191,6 +211,32 @@ table.duvid tr:hover td { background:rgba(255,255,255,.03); }
     </form>
 </div>
 
+<div class="card" style="margin-bottom:1rem;">
+    <div style="font-weight:700;color:var(--texto);font-size:.9rem;margin-bottom:.6rem;">
+        🎓 Certificados (<?= count($certificados_detalhe) ?>)
+    </div>
+    <?php if (!$certificados_detalhe): ?>
+        <div style="font-size:.82rem;color:var(--texto2);">Nenhum certificado conquistado ainda.</div>
+    <?php else: ?>
+        <div style="display:flex;flex-wrap:wrap;gap:.5rem;">
+        <?php foreach ($certificados_detalhe as $c):
+            $ehModulo = $c['tipo'] === 'modulo';
+            $titulo   = $ehModulo
+                ? 'Módulo ' . (CERT_NOME_MODULO[(int)$c['referencia']] ?? $c['referencia'])
+                : ($titulosBloco[$c['referencia']] ?? ('Bloco #' . $c['referencia']));
+            $link = '/paginas/certificado.php?tipo=' . urlencode($c['tipo'])
+                  . '&ref=' . urlencode($c['referencia'])
+                  . '&aluno_id=' . $aluno_id_sel;
+        ?>
+            <a href="<?= $link ?>" target="_blank" class="badge-sm badge-ok" style="text-decoration:none;">
+                <?= $ehModulo ? '🏅' : '🎓' ?> <?= htmlspecialchars($titulo) ?>
+                <span style="opacity:.7;">· <?= (new DateTime($c['conquistado_em']))->format('d/m/Y') ?></span>
+            </a>
+        <?php endforeach; ?>
+        </div>
+    <?php endif; ?>
+</div>
+
 <?php
 // Agrupar por ano
 $por_ano = [];
@@ -273,6 +319,7 @@ foreach ($por_ano as $ano => $lista):
                     <th>Textos lidos</th>
                     <th>Questões feitas</th>
                     <th>Aulas 100%</th>
+                    <th>🎓 Certificados</th>
                     <th>Progresso</th>
                     <th></th>
                 </tr>
@@ -302,6 +349,11 @@ foreach ($por_ano as $ano => $lista):
                             <?= (int)$al['aulas_100'] ?>
                         </span>
                     </td>
+                    <td>
+                        <span class="badge-sm <?= (int)$al['certificados_count'] > 0 ? 'badge-ok' : 'badge-no' ?>">
+                            🎓 <?= (int)$al['certificados_count'] ?>
+                        </span>
+                    </td>
                     <td style="min-width:100px;">
                         <div class="prog-bar">
                             <div class="prog-bar-fill" style="width:<?= $pct ?>%;background:<?= $cor ?>;"></div>
@@ -317,7 +369,7 @@ foreach ($por_ano as $ano => $lista):
                 </tr>
             <?php endforeach; ?>
             <?php if (!$alunos): ?>
-                <tr><td colspan="7" style="text-align:center;color:var(--texto2);padding:2rem;">Nenhum aluno encontrado.</td></tr>
+                <tr><td colspan="8" style="text-align:center;color:var(--texto2);padding:2rem;">Nenhum aluno encontrado.</td></tr>
             <?php endif; ?>
             </tbody>
         </table>

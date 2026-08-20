@@ -325,6 +325,14 @@ const DuvidDB = {
                     if (dados.conquistas_novas && dados.conquistas_novas.length > 0) {
                         dados.conquistas_novas.forEach(function(c) { DuvidDB._exibirConquista(c); });
                     }
+                    if (dados.certificados_novos && dados.certificados_novos.length > 0) {
+                        if (!DuvidDB._cache.certificados) DuvidDB._cache.certificados = {};
+                        dados.certificados_novos.forEach(function(c) {
+                            DuvidDB._cache.certificados[c.tipo + '_' + c.referencia] = true;
+                            DuvidDB._exibirCertificado(c);
+                        });
+                        if (typeof atualizarInterface === "function") atualizarInterface();
+                    }
                 });
         }
     },
@@ -367,8 +375,11 @@ const DuvidDB = {
         var validas    = aulas.filter(function(a) { return a && a.id; });
         var total      = validas.length;
         var concluidas = validas.filter(function(a) {
-            return DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.TEXTO) &&
-                   DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.QUESTOES);
+            // Aulas de Revisão (a.linkTexto === null) não têm etapa de texto —
+            // não podem depender de "leu texto" pra contar como concluídas.
+            var precisaTexto = !!a.linkTexto;
+            var leuTexto     = precisaTexto ? DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.TEXTO) : true;
+            return leuTexto && DuvidDB.estaConcluido(a.id, TIPO_CONCLUSAO.QUESTOES);
         }).length;
         return { concluidas: concluidas, total: total, porc: total > 0 ? Math.round((concluidas / total) * 100) : 0 };
     },
@@ -398,6 +409,18 @@ const DuvidDB = {
         }, 4000);
     },
 
+    _exibirCertificado: function (cert) {
+        if (typeof DuvidAudio !== "undefined") DuvidAudio.tocar('conquista');
+        var href = '/paginas/certificado.php?tipo=' + encodeURIComponent(cert.tipo) + '&ref=' + encodeURIComponent(cert.referencia);
+        var el = document.createElement('div');
+        el.innerHTML = '<a href="' + href + '" class="w3-animate-zoom w3-card-4 w3-round-large w3-padding" style="position:fixed;bottom:20px;right:20px;z-index:10000;text-align:center;background:#2e7d32;color:white;min-width:220px;display:block;text-decoration:none;"><span style="font-size:2rem">🎓</span><br><b>Certificado desbloqueado!</b><br><span>' + cert.titulo + '</span><br><span style="font-size:.75rem;opacity:.85;">Toque para ver e imprimir</span></a>';
+        document.body.appendChild(el);
+        setTimeout(function() {
+            el.classList.add('w3-animate-opacity');
+            setTimeout(function() { el.remove(); }, 500);
+        }, 7000);
+    },
+
     // ==========================================================
     //  SINCRONIZACAO COM O BANCO
     // ==========================================================
@@ -417,7 +440,20 @@ const DuvidDB = {
                 DuvidDB._cache.conclusoes['concluido_' + c.tipo + '_' + c.aula_id] = true;
             });
         }
+        DuvidDB._cache.certificados = {};
+        if (dados.certificados) {
+            dados.certificados.forEach(function(c) {
+                DuvidDB._cache.certificados[c.tipo + '_' + c.referencia] = true;
+            });
+        }
         if (typeof atualizarInterface === "function") atualizarInterface();
+    },
+
+    // Retorna true se o aluno já tem o certificado daquele bloco (tipo='bloco', referencia=id da aula de revisão)
+    // ou daquele módulo completo (tipo='modulo', referencia=ano_escolar 1|2|3).
+    temCertificado: function (tipo, referencia) {
+        if (!this._cache.certificados) return false;
+        return this._cache.certificados[tipo + '_' + referencia] === true;
     },
 
     // Retorna true se o aluno tem sessão PHP ativa no servidor

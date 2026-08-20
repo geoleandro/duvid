@@ -11,7 +11,13 @@ $pdo = getDB();
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['deletar_id'])) {
     $del_id = (int)$_POST['deletar_id'];
     $pdo->prepare("DELETE FROM alunos WHERE id = :id AND tipo = 'aluno'")->execute([':id' => $del_id]);
-    header('Location: /admin/alunos.php?deletado=1');
+    // Preserva filtros ativos ao redirecionar
+    $qs = http_build_query(array_filter([
+        'deletado' => 1,
+        'turma'    => (int)($_POST['filtro_turma'] ?? 0) ?: null,
+        'q'        => trim($_POST['filtro_q'] ?? '') ?: null,
+    ]));
+    header('Location: /admin/alunos.php?' . $qs);
     exit;
 }
 
@@ -25,8 +31,10 @@ $offset     = ($pagina - 1) * $por_pagina;
 $where  = ["a.tipo = 'aluno'"];
 $params = [];
 if ($busca) {
-    $where[] = "(a.nome LIKE :busca OR a.email LIKE :busca OR a.escola LIKE :busca)";
-    $params[':busca'] = '%' . $busca . '%';
+    $where[] = "(a.nome LIKE :busca1 OR a.email LIKE :busca2 OR a.escola LIKE :busca3)";
+    $params[':busca1'] = '%' . $busca . '%';
+    $params[':busca2'] = '%' . $busca . '%';
+    $params[':busca3'] = '%' . $busca . '%';
 }
 if ($filtro_turma) {
     $where[] = "a.turma_id = :turma";
@@ -158,6 +166,8 @@ require_once __DIR__ . '/_layout.php';
             <form method="POST" style="display:inline;"
                   onsubmit="return confirm('Excluir <?= addslashes(htmlspecialchars($a['nome'])) ?>? Esta ação não pode ser desfeita.')">
               <input type="hidden" name="deletar_id" value="<?= $a['id'] ?>">
+              <input type="hidden" name="filtro_turma" value="<?= $filtro_turma ?>">
+              <input type="hidden" name="filtro_q" value="<?= htmlspecialchars($busca) ?>">
               <button type="submit" class="btn btn-vermelho" title="Excluir aluno">🗑️</button>
             </form>
           </td>

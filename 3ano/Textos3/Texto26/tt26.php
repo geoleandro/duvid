@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 26 - África II: Panorama atual</title>
 
@@ -95,12 +96,17 @@
 
             <p><span class="primeiraLetra">O</span> seu celular tem dentro dele um mineral chamado coltan, essencial para os capacitores dos circuitos eletrônicos. Cerca de 60% do coltan mundial vem da República Democrática do Congo, um país africano que está entre os mais pobres do planeta. O diamante no anel de noivado que alguém na sua família pode ter custou a vida de trabalhadores em minas da Serra Leoa ou Angola. O ouro nas joias e eletrônicos vem da África do Sul, do Gana e do Mali.</p>
 
+            <p>A vida cotidiana de bilhões de pessoas pelo mundo, no celular, no carro, nas joias, depende de uma
+                cadeia de produção que quase sempre começa em uma mina africana e termina em uma loja em outro
+                continente, com a maior parte do lucro ficando fora da África em cada etapa desse caminho.</p>
+
             <p>Antes de começar, pense:</p>
 
             <ul>
                 <li>Você sabia que o seu celular tem minerais africanos dentro dele? O que isso diz sobre a relação entre a África e o resto do mundo?</li>
                 <li>Se a África tem tanto minério estratégico, por que os países africanos continuam sendo os mais pobres do mundo? Onde fica a riqueza gerada por esses recursos?</li>
                 <li>Você já ouviu falar na União Africana? Você acha que os países africanos cooperam entre si ou competem?</li>
+                <li>Se você pudesse perguntar a um trabalhador de uma mina de cobalto congolesa uma única pergunta, qual seria?</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -115,6 +121,8 @@
 
             <p><span class="primeiraLetra">A</span> África tem as maiores reservas mundiais de ouro, diamante, platina, cromo, coltan, cobalto e manganês. Tem terra agricultável suficiente para alimentar o dobro da população mundial. E ainda assim concentra os maiores índices de desnutrição, pobreza e dependência de ajuda externa do planeta.</p>
 
+            <p>Ao longo desta aula, você vai ver como esses números aparentemente contraditórios, riqueza natural e pobreza real, se explicam por uma mesma história: quem controlou os recursos africanos ontem e quem controla hoje.</p>
+
             <p>Isso não é coincidência nem destino: é o resultado do <span class="termo" data-palavra="Colonialismo" data-definicao="Sistema de dominação política, econômica e cultural pelo qual potências europeias ocuparam e controlaram territórios na África, Ásia e Américas, especialmente entre os séculos XV e XX. Na África, o colonialismo atingiu seu auge após a Conferência de Berlim (1884-1885), quando as potências europeias dividiram o continente entre si sem consultar nenhum africano. As fronteiras traçadas então ignoraram etnias, línguas e culturas, gerando conflitos que persistem até hoje.">colonialismo</span> europeu, que transformou a África em fornecedora de matérias-primas e mão de obra escrava, e do <span class="termo" data-palavra="Neocolonialismo" data-definicao="Forma contemporânea de dominação econômica em que países formalmente independentes continuam dependentes de potências externas por meio de dívidas, acordos comerciais desfavoráveis, controle de empresas multinacionais sobre recursos naturais e influência política. Na África, o neocolonialismo se manifesta quando empresas europeias, americanas e chinesas extraem minerais africanos pagando preços baixos e levando o lucro para fora do continente.">neocolonialismo</span> que perpetua essa estrutura mesmo após a independência política. Esta aula vai mostrar como isso funciona e o que os africanos têm feito para mudar.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -125,7 +133,7 @@
         <!-- BLOCO 4: COLONIZAÇÃO E INDEPENDÊNCIA -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Colonização e independência</h2>
 
             <p><span class="primeiraLetra">A</span> partilha da África entre as potências europeias foi formalizada na <strong>Conferência de Berlim (1884-1885)</strong>, convocada por Otto von Bismarck. Sem a presença de nenhum africano, as fronteiras do continente foram desenhadas com régua e esquadro, cortando línguas, etnias e reinos em pedaços. Ao fim da conferência, quase toda a África estava repartida entre Grã-Bretanha, França, Portugal, Bélgica, Alemanha, Itália e Espanha. Apenas Etiópia e Libéria permaneceram formalmente independentes.</p>
@@ -138,7 +146,7 @@
                 <li><strong>Fronteiras artificiais:</strong> que uniram povos rivais e separaram povos irmãos, gerando tensões étnicas que explodiram em conflitos após a independência.</li>
             </ul>
 
-            <p>O processo de descolonização começou após a Segunda Guerra Mundial e se intensificou nos anos 1950-1960: o chamado <strong>"Ano da África"</strong> foi 1960, quando 17 países africanos conquistaram a independência. O último país africano a se tornar independente foi o <strong>Sudão do Sul</strong>, em 2011, após um longo conflito com o Sudão.</p>
+            <p>O processo de descolonização começou após a Segunda Guerra Mundial e se intensificou nos anos 1950-1960: o chamado <strong>"Ano da África"</strong> foi 1960, quando 17 países africanos conquistaram a independência, entre eles Senegal, Mali, Nigéria, Camarões, Costa do Marfim, República Democrática do Congo e Madagascar, a maioria antigas colônias francesas e belgas. As independências continuaram nas décadas seguintes: as colônias portuguesas (Angola, Moçambique, Guiné-Bissau) só se libertaram em 1975, após a Revolução dos Cravos em Portugal, e a Namíbia, dominada pela África do Sul, só em 1990. O último país africano a se tornar independente foi o <strong>Sudão do Sul</strong>, em 2011, após um longo conflito com o Sudão.</p>
 
             <p>A independência política, porém, não significou independência econômica. As mesmas empresas europeias continuaram controlando as minas, as plantações e as exportações africanas. As antigas metrópoles mantiveram influência por meio de acordos comerciais, dívidas externas e presença militar. Esse fenômeno é chamado de <strong>neocolonialismo</strong>.</p>
 
@@ -167,14 +175,25 @@
 
             <ul>
                 <li><strong>Ouro:</strong> África do Sul (histórica líder mundial), Gana, Mali, Tanzânia e República Democrática do Congo.</li>
-                <li><strong>Diamante:</strong> Botsuana (maior produtor mundial por valor), Congo, Angola e Serra Leoa. O termo "diamante de sangue" ficou famoso para descrever os diamantes extraídos em zonas de conflito para financiar guerras civis.</li>
+                <li><strong>Diamante:</strong> Botsuana (maior produtor mundial por valor), Congo, Angola e Serra Leoa. O termo <span class="termo" data-palavra="Diamante de Sangue" data-definicao="Diamantes extraídos em zonas de conflito armado e vendidos para financiar guerras civis, chefes militares ou grupos rebeldes, geralmente à revelia de governos reconhecidos internacionalmente. O termo ficou mundialmente conhecido a partir dos conflitos em Serra Leoa e Angola nas décadas de 1990 e 2000, e levou à criação do Processo de Kimberley, um sistema internacional de certificação para tentar impedir a comercialização desses diamantes.">"diamante de sangue"</span> ficou famoso para descrever os diamantes extraídos em zonas de conflito para financiar guerras civis.</li>
                 <li><strong>Coltan (columbita-tantalita):</strong> República Democrática do Congo, com 60-80% das reservas mundiais. Essencial para celulares, computadores e veículos elétricos. Sua extração está associada ao trabalho infantil e ao financiamento de grupos armados.</li>
-                <li><strong>Cobalto:</strong> Congo concentra mais de 70% das reservas mundiais. Indispensável para baterias de carros elétricos e eletrônicos portáteis.</li>
+                <li><strong>Cobalto:</strong> a República Democrática do Congo respondeu por 76% da produção mundial em 2024 (cerca de 220 mil toneladas). Indispensável para baterias de carros elétricos e eletrônicos portáteis.</li>
                 <li><strong>Petróleo:</strong> Nigéria (maior produtor africano), Angola, Líbia, Argélia e Gabão.</li>
                 <li><strong>Platina e cromo:</strong> África do Sul detém mais de 80% das reservas mundiais de platina.</li>
             </ul>
 
             <p>O problema central é que a maior parte desses minerais é exportada <strong>sem processamento</strong>: o minério bruto sai da África e o produto final (o celular, o carro elétrico, a joia) é fabricado e vendido por empresas europeias, norte-americanas e asiáticas, que ficam com o maior valor agregado.</p>
+
+            <p><strong>O Congo tenta virar o jogo</strong><br>
+            Em fevereiro de 2025, o governo congolês deu um passo inédito: suspendeu temporariamente as exportações
+            de cobalto para conter o excesso de oferta que vinha derrubando os preços do mineral no mercado
+            internacional. A proibição foi prorrogada algumas vezes ao longo do ano e, a partir de outubro de 2025,
+            foi substituída por um sistema de cotas, limitando as exportações a cerca de 96,6 mil toneladas por ano
+            em 2026 e 2027, menos da metade da capacidade de produção do país. O resultado foi imediato: o preço do
+            cobalto praticamente dobrou ao longo de 2025. O episódio mostra que, mesmo dentro da lógica da "maldição
+            dos recursos", um país produtor pode conquistar algum poder de barganha sobre o mercado global quando
+            controla uma fatia grande o suficiente da oferta mundial, algo parecido com o que cartéis de produtores
+            de petróleo, como a Opep, já fazem há décadas.</p>
 
             <div class="w3-margin w3-margin-top">
                 <img src="tt26f02.png" alt="Mapa das principais reservas minerais da África com destaque para ouro, diamante, coltan, cobalto e petróleo"
@@ -226,7 +245,7 @@
         <!-- BLOCO 7: ECONOMIA E AGRICULTURA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Economia e agricultura</h2>
 
             <p><span class="primeiraLetra">A</span> economia africana é marcada por duas realidades simultâneas: uma parcela da população vive da agricultura de subsistência, sem acesso a tecnologia ou mercados, enquanto grandes empresas multinacionais exploram os recursos do continente para exportação. Esse dualismo econômico é herança direta do colonialismo.</p>
@@ -235,17 +254,42 @@
 
             <p>Cerca de 60% da população africana vive da agricultura, mas a produtividade é baixa. Os motivos são estruturais: falta de irrigação, sementes melhoradas, crédito rural e acesso a mercados. A África subsaariana tem cerca de 60% das terras agricultáveis não cultivadas do mundo, mas paradoxalmente importa alimentos de outros continentes.</p>
 
-            <p>Um problema grave é o <span class="termo" data-palavra="Land Grabbing" data-definicao="Aquisição em larga escala de terras agricultáveis em países em desenvolvimento por governos estrangeiros, fundos de investimento e multinacionais, muitas vezes deslocando comunidades locais que viviam nessas terras. Na África, países do Golfo Pérsico, China e empresas europeias compraram ou arrendaram milhões de hectares para produzir alimentos para exportação, enquanto populações locais perdem o acesso à terra.">land grabbing</span> (grilagem de terras em grande escala): países do Golfo Pérsico, China e fundos de investimento compraram ou arrendaram milhões de hectares de terra africana para produzir alimentos destinados à exportação, enquanto populações locais que viviam nessas terras são deslocadas.</p>
+            <p>Um problema grave é o <span class="termo" data-palavra="Land Grabbing" data-definicao="Aquisição em larga escala de terras agricultáveis em países em desenvolvimento por governos estrangeiros, fundos de investimento e multinacionais, muitas vezes deslocando comunidades locais que viviam nessas terras. Na África, países do Golfo Pérsico, China e empresas europeias compraram ou arrendaram milhões de hectares para produzir alimentos para exportação, enquanto populações locais perdem o acesso à terra.">land grabbing</span> (grilagem de terras em grande escala): países do Golfo Pérsico, China e fundos de investimento compraram ou arrendaram milhões de hectares de terra africana para produzir alimentos destinados à exportação, enquanto populações locais que viviam nessas terras são deslocadas. Frequentemente, os contratos são assinados diretamente com governos nacionais ou lideranças locais, sem consulta às comunidades que efetivamente cultivam ou dependem daquela terra havia gerações, o que torna esses acordos juridicamente válidos mas socialmente contestados. Em muitos casos, os alimentos produzidos nessas terras nem chegam a abastecer o mercado interno do país africano onde foram cultivados: seguem diretamente para exportação, reproduzindo em pleno século XXI uma lógica muito parecida com a das plantations coloniais.</p>
 
             <h3>Indústria e serviços</h3>
 
             <p>A industrialização da África é limitada. A maior parte dos países africanos exporta matérias-primas e importa produtos industrializados, o que mantém o continente em posição subordinada na divisão internacional do trabalho. Exceções notáveis:</p>
 
+            <p><strong>A China entra em cena</strong><br>
+            Nas últimas duas décadas, a China se tornou um dos principais parceiros econômicos da África,
+            financiando estradas, ferrovias, portos e usinas de energia por meio de sua iniciativa <span class="termo" data-palavra="Nova Rota da Seda" data-definicao="Iniciativa chinesa de investimento em infraestrutura (estradas, ferrovias, portos, energia) em dezenas de países da Ásia, África, Europa e América Latina, lançada em 2013. Também conhecida por seu nome em inglês, Belt and Road Initiative. A África é um dos principais destinos desses investimentos, mas o modelo é criticado por gerar endividamento excessivo dos países receptores junto ao governo chinês.">Nova Rota da Seda</span>.
+            Em 2025, a África foi o principal destino desses investimentos, recebendo cerca de 61,2 bilhões de dólares
+            de um total global de 213 bilhões, e a China detém hoje cerca de 134 bilhões de dólares da dívida
+            africana, quase 20% do total do continente. Para alguns pesquisadores, trata-se de uma parceria
+            vantajosa: diferente de empréstimos usados para importar bens de consumo, o dinheiro chinês financia
+            infraestrutura concreta que pode gerar desenvolvimento futuro. Para outros críticos, é uma nova forma de
+            dependência, batizada por alguns de "diplomacia da armadilha da dívida": obras superfaturadas, contratos
+            pouco transparentes e o risco de que, caso um país não consiga pagar, ative garantias sobre portos e
+            outros ativos estratégicos. O debate ilustra bem o dilema central desta aula: mesmo quando muda o parceiro
+            externo, a pergunta sobre quem controla, de fato, os recursos e a infraestrutura africana continua no
+            centro da discussão.</p>
+
             <ul>
                 <li><strong>África do Sul:</strong> a economia mais industrializada do continente, com setores de mineração, siderurgia, automobilística e serviços financeiros.</li>
-                <li><strong>Nigéria:</strong> maior economia africana em PIB total (impulsionada pelo petróleo) e com um setor de serviços e tecnologia em crescimento em Lagos.</li>
+                <li><strong>Nigéria:</strong> maior economia africana em PIB total e maior população do continente, com mais de 220 milhões de habitantes. Historicamente dependente da exportação de petróleo, o país vem tentando diversificar sua economia, com destaque para o setor de tecnologia e serviços financeiros digitais em Lagos, que abriga o maior polo de startups da África, às vezes chamado de "Silicon Lagoon".</li>
                 <li><strong>Quênia e Etiópia:</strong> emergentes no setor de tecnologia ("Silicon Savannah" em Nairóbi) e na indústria têxtil.</li>
             </ul>
+
+            <p><strong>Um exemplo de "salto tecnológico"</strong><br>
+            O Quênia é o caso mais estudado de <span class="termo" data-palavra="Leapfrogging Tecnológico" data-definicao="Fenômeno em que um país pula etapas de desenvolvimento tecnológico convencionais, adotando diretamente tecnologias mais avançadas sem passar pelos estágios intermediários. O exemplo mais citado é o Quênia, que popularizou o sistema de pagamentos por celular M-Pesa em 2007, permitindo que milhões de pessoas sem conta bancária tivessem acesso a serviços financeiros diretamente pelo celular, sem nunca precisar de uma agência bancária física.">leapfrogging tecnológico</span>
+            na África: em vez de esperar a expansão de agências bancárias físicas, o país adotou em massa o sistema
+            de pagamentos por celular M-Pesa, lançado em 2007, que permite transferir dinheiro, pagar contas e até
+            tomar pequenos empréstimos usando apenas uma mensagem de texto, sem precisar de conta em banco. Hoje, a
+            maior parte da população queniana adulta usa o sistema regularmente, e o modelo foi copiado por diversos
+            outros países africanos e asiáticos. É um exemplo de como a falta de infraestrutura tradicional (agências
+            bancárias) pode, em certos casos, abrir caminho para soluções tecnológicas mais avançadas do que as
+            usadas em países ricos, que já tinham uma rede bancária física consolidada e por isso demoraram mais para
+            migrar para pagamentos digitais.</p>
 
             <p>O continente africano tem a maior taxa de crescimento de população jovem do mundo. Até 2050, um em cada quatro habitantes do planeta será africano. Essa juventude pode ser um motor de desenvolvimento, se houver investimento em educação, saúde e geração de emprego.</p>
 
@@ -263,15 +307,40 @@
 
             <p><span class="primeiraLetra">D</span>iante dos desafios do neocolonialismo, os países africanos apostaram na integração regional como estratégia de fortalecimento. O continente tem vários blocos econômicos, mas o mais ambicioso projeto atual é a <span class="termo" data-palavra="União Africana (UA)" data-definicao="Organização intergovernamental formada por 55 estados africanos, fundada em 2002 como sucessora da Organização da Unidade Africana (OUA, 1963). Tem sede em Adis Abeba, Etiópia. Seus objetivos incluem promoção da unidade africana, defesa da soberania, aceleração do desenvolvimento e representação da África em organismos internacionais. É frequentemente comparada à União Europeia, embora tenha menos poderes supranacionais.">União Africana (UA)</span>, criada em 2002 com 55 países membros, sediada em Adis Abeba, Etiópia.</p>
 
+            <p>Como plano de longo prazo, a União Africana adotou em 2013 a <span class="termo" data-palavra="Agenda 2063" data-definicao="Plano estratégico de longo prazo da União Africana, adotado em 2013, que estabelece metas de desenvolvimento para o continente até o ano 2063 (marco de 100 anos da fundação da antecessora da UA, a Organização da Unidade Africana, em 1963). Entre suas metas estão a integração econômica continental, o fim dos conflitos armados, a industrialização e a redução da dependência externa.">Agenda 2063</span>,
+                um plano estratégico com metas de desenvolvimento para o continente até 2063, ano em que se completam
+                cem anos da criação da antecessora da UA, a Organização da Unidade Africana. Entre as metas estão a
+                integração econômica plena, o fim dos conflitos armados na região, a industrialização do continente e
+                a redução da dependência de potências externas, os mesmos temas que atravessam toda esta aula.</p>
+
             <p>Além da UA, os principais blocos sub-regionais são:</p>
 
             <ul>
-                <li><strong>CEDEAO (Comunidade Econômica dos Estados da África Ocidental):</strong> 15 países do oeste africano, com livre circulação de pessoas e mercadorias. Tem moeda comum em discussão (Eco).</li>
+                <li><strong>CEDEAO (Comunidade Econômica dos Estados da África Ocidental):</strong> bloco do oeste africano, com livre circulação de pessoas e mercadorias e moeda comum em discussão (Eco). Em 2025, no entanto, o bloco perdeu três de seus membros (veja o quadro abaixo).</li>
                 <li><strong>SADC (Comunidade para o Desenvolvimento da África Austral):</strong> 16 países do sul e sudeste africano, incluindo África do Sul, Angola e Moçambique.</li>
                 <li><strong>União do Magreb Árabe:</strong> norte da África (Marrocos, Argélia, Tunísia, Líbia e Mauritânia), com integração ainda limitada por rivalidades políticas.</li>
             </ul>
 
-            <p>O projeto mais ambicioso é a <strong>AfCFTA (Área de Livre Comércio Continental Africana)</strong>, lançada em 2021. Se implementada plenamente, será a maior zona de livre comércio do mundo em número de países (54), podendo aumentar o comércio intracontinental africano de 15% para 50% das exportações totais. O comércio entre países africanos ainda é muito baixo: a África exporta mais para a Europa e China do que para outros países africanos, herança da estrutura colonial que ligava cada colônia diretamente à sua metrópole, sem conexões entre si.</p>
+            <p><strong>A ruptura no Sahel</strong><br>
+            Em 29 de janeiro de 2025, Mali, Burkina Faso e Níger, três países governados por juntas militares que
+            tomaram o poder em golpes de Estado, formalizaram sua saída da CEDEAO, acusando o bloco de servir a
+            interesses estrangeiros, sobretudo da antiga metrópole colonial, a França, e de ter imposto sanções
+            "desumanas e ilegítimas" após os golpes. Os três países já haviam fundado, em setembro de 2023, sua
+            própria organização regional, a <span class="termo" data-palavra="Aliança dos Estados do Sahel (AES)" data-definicao="Bloco regional fundado em setembro de 2023 por Mali, Burkina Faso e Níger, países governados por juntas militares após golpes de Estado. Os três países deixaram formalmente a CEDEAO em janeiro de 2025, acusando o bloco de servir a interesses estrangeiros. A AES criou uma força militar conjunta e um passaporte próprio, e representa uma fratura significativa no projeto de integração da África Ocidental.">Aliança dos Estados do Sahel (AES)</span>,
+            com força militar conjunta e passaporte próprio. O episódio é um lembrete de que a integração regional
+            africana, discutida ao longo desta aula como resposta ao neocolonialismo, também enfrenta disputas
+            internas sobre quem exatamente deve liderar esse processo e a favor de quem ele deve funcionar.</p>
+
+            <p>O projeto mais ambicioso é a <strong>AfCFTA (Área de Livre Comércio Continental Africana)</strong>, em
+                vigor desde janeiro de 2021 e assinada por 54 dos 55 países da União Africana. É a maior zona de livre
+                comércio do mundo em número de países-membros, mais que o dobro da União Europeia. Segundo
+                estimativas, se plenamente implementada, a AfCFTA pode elevar o PIB combinado do continente dos atuais
+                3,4 trilhões de dólares para até 29 trilhões de dólares até 2050, tirando milhões de pessoas da
+                pobreza extrema. O processo é lento: a eliminação gradual das tarifas entre os países-membros só deve
+                se completar em 2034, e países como Angola só aprovaram seus planos nacionais de implementação em
+                2025 e 2026. O comércio entre países africanos ainda é muito baixo: a África exporta mais para a
+                Europa e a China do que para outros países africanos, herança da estrutura colonial que ligava cada
+                colônia diretamente à sua metrópole, sem conexões entre si.</p>
 
             <div class="w3-margin w3-margin-top">
                 <img src="tt26f03.png" alt="Mapa dos blocos econômicos africanos: União Africana, CEDEAO, SADC e outros grupos regionais"
@@ -308,7 +377,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Maldição dos recursos: lucros vão para multinacionais, minerais geram conflitos e o país nunca industrializa — só exporta matéria-prima.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Maldição dos recursos: lucros vão para multinacionais, minerais geram conflitos e o país nunca industrializa, só exporta matéria-prima.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -331,13 +400,15 @@
                 <p class="w3-small">RODNEY, Walter. <em>Como a Europa subdesenvolveu a África.</em> Lisboa: Seara Nova, 1975, p. 28.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Rodney e no que você estudou, responda:</strong></p>
 
                 <p><strong>1.</strong> Rodney afirma que o subdesenvolvimento africano foi "fabricado". O que ele quer dizer com isso? Cite dois exemplos concretos desta aula (conferência de Berlim, mineração, land grabbing, neocolonialismo) que comprovem essa afirmação.</p>
 
                 <p><strong>2.</strong> A transição para carros elétricos é apresentada como uma solução ambiental para o planeta. Mas o cobalto e o lítio para as baterias vêm principalmente de países africanos e latino-americanos pobres. Quem se beneficia dessa "transição verde"? Quem paga o custo? Essa situação confirma ou contradiz a tese de Rodney?</p>
+
+            <p><strong>3.</strong> Compare o caso da suspensão das exportações de cobalto pelo Congo em 2025 com os casos de neocolonialismo descritos por Rodney. O que muda quando um país africano tenta controlar diretamente a exportação de seus próprios recursos?</p>
 
             </div>
 
@@ -349,13 +420,18 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
             <p><span class="primeiraLetra">A</span>ntes parecia que a pobreza africana era um problema de incompetência, de governos corruptos ou de algo inerente ao continente. Agora você vê que a estrutura econômica que mantém a África em posição subordinada foi construída deliberadamente pelo colonialismo europeu e é mantida pelo neocolonialismo contemporâneo. Cada vez que você usa um celular, há uma cadeia que começa em uma mina congolesa.</p>
 
             <p>Isso não significa que os africanos são vítimas passivas: os blocos econômicos, a União Africana e a AfCFTA mostram que há projetos de autonomia em construção. Mas é impossível entender o presente sem entender o peso do passado colonial.</p>
+
+            <p>As fronteiras artificiais e a disputa por recursos que vimos nesta aula também ajudam a explicar
+                muitos dos conflitos armados que atingem o continente. Na próxima aula, vamos estudar justamente isso:
+                o apartheid, as guerras civis, os genocídios e a crise de refugiados que marcam a história recente
+                de várias regiões da África.</p>
 
             </div>
 
@@ -365,7 +441,8 @@
                 <li>Neocolonialismo e maldição dos recursos</li>
                 <li>Coltan, cobalto, ouro, diamante e petróleo africanos</li>
                 <li>Land grabbing e dualismo econômico</li>
-                <li>União Africana e AfCFTA</li>
+                <li>Leapfrogging tecnológico e investimentos chineses</li>
+                <li>União Africana, Agenda 2063, AfCFTA e a ruptura da CEDEAO</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -420,9 +497,9 @@
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding">
 
-                <p><strong>Opção A:</strong> Escreva um texto de 15 a 20 linhas traçando o caminho de um mineral africano (escolha: coltan, cobalto, ouro ou diamante) desde a mina até o produto final que chega às suas mãos. Quem extrai? Quem processa? Quem fabrica? Quem vende? Quem fica com o lucro? Use os conceitos de colonialismo, neocolonialismo e maldição dos recursos.</p>
+                <p><strong>Opção A:</strong> Escreva um texto de 15 a 20 linhas traçando o caminho de um mineral africano (escolha: coltan, cobalto, ouro ou diamante) desde a mina até o produto final que chega às suas mãos. Quem extrai? Quem processa? Quem fabrica? Quem vende? Quem fica com o lucro? Em cada etapa, tente também identificar em qual país ou continente ela provavelmente acontece. Use os conceitos de colonialismo, neocolonialismo e maldição dos recursos.</p>
 
-                <p><strong>Opção B:</strong> Você é delegado de um país africano na negociação da AfCFTA. Escreva um discurso de 15 a 20 linhas defendendo por que os países africanos devem processar seus próprios minerais antes de exportar, em vez de vender o minério bruto. Use dados e conceitos desta aula.</p>
+                <p><strong>Opção B:</strong> Você é delegado de um país africano na negociação da AfCFTA. Escreva um discurso de 15 a 20 linhas defendendo por que os países africanos devem processar seus próprios minerais antes de exportar, em vez de vender o minério bruto. Use dados e conceitos desta aula, incluindo pelo menos um exemplo de como outro país já tentou mudar essa lógica, como fez o Congo com o cobalto.</p>
 
             </div>
 
@@ -449,13 +526,13 @@
 
             <h3>6. Compare a estrutura econômica da África do Sul com a de outros países africanos. Por que a África do Sul é a economia mais industrializada do continente?</h3>
 
-            <h3>7. (ANALÍTICA) "Diamantes de sangue" é uma expressão usada para diamantes extraídos em zonas de conflito. Por que a riqueza mineral pode alimentar guerras em vez de desenvolvimento? Quem tem interesse em manter essa situação?</h3>
+            <h3>7. "Diamantes de sangue" é uma expressão usada para diamantes extraídos em zonas de conflito. Por que a riqueza mineral pode alimentar guerras em vez de desenvolvimento? Quem tem interesse em manter essa situação?</h3>
 
-            <h3>8. (ANALÍTICA) A África tem 60% das terras agricultáveis não cultivadas do mundo e, ao mesmo tempo, é o continente com mais insegurança alimentar. Como o land grabbing e o colonialismo histórico explicam essa contradição?</h3>
+            <h3>8. A África tem 60% das terras agricultáveis não cultivadas do mundo e, ao mesmo tempo, é o continente com mais insegurança alimentar. Como o land grabbing e o colonialismo histórico explicam essa contradição?</h3>
 
             <h3>9. O que é a União Africana e quais são seus objetivos? Como ela se compara à União Europeia em termos de integração e poder supranacional?</h3>
 
-            <h3>10. (ANALÍTICA) Walter Rodney afirma que a Europa "fabricou" o subdesenvolvimento africano. Você concorda com essa afirmação? Use pelo menos três argumentos baseados nos conteúdos desta aula para defender sua posição.</h3>
+            <h3>10. Walter Rodney afirma que a Europa "fabricou" o subdesenvolvimento africano. Você concorda com essa afirmação? Use pelo menos três argumentos baseados nos conteúdos desta aula para defender sua posição.</h3>
 
             </div>
 
@@ -476,7 +553,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fundamental para entender o mundo contemporâneo. Continue estudando!',
+        mensagem: 'o tema África II: Panorama atual é fundamental para entender o mundo contemporâneo. Continue estudando!',
         pontos: 40
     });
 
@@ -509,6 +586,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

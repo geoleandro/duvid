@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Biogeografia III: regiões polares, tundra, clima ártico e antártico">
+    <meta property="og:title" content="Texto 31 - Biogeografia III">
+    <meta property="og:description" content="Regiões polares: tundra, calota glacial, geopolítica do Ártico e da Antártica">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+
+    <title>1º ano - Texto 31 - Biogeografia III</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender as características climáticas e ecológicas das regiões polares; distinguir tundra de calota glacial; comparar o Ártico e a Antártica em termos físicos e geopolíticos; entender por que o derretimento do gelo polar afeta países tropicais como o Brasil.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Abertura pela realidade do aluno -->
+        <div class="topico">
+
+            <h2>O lugar mais vazio do mundo, e o mais importante</h2>
+
+            <p><span class="primeiraLetra">N</span>o imaginário popular, os polos são lugares vazios: gelo branco sem fim, silêncio absoluto, ausência de vida. Essa imagem está errada em praticamente todos os seus detalhes. No verão ártico, o solo descongelado da tundra explode de vida: milhões de aves migratórias chegam de todos os continentes para criar seus filhotes durante os dois meses de luz constante. Renas, bois-almiscarados, lemmings e raposas árticas constroem cadeias alimentares surpreendentemente complexas para um lugar onde o inverno dura nove meses. E nos oceanos polares, baleias, focas, morsas e pinguins sustentam ecossistemas tão produtivos quanto os de qualquer região tropical.</p>
+
+            <p>Os polos também não são irrelevantes para quem vive longe deles. A calota glacial da Antártica contém 70% de toda a água doce do planeta. O Ártico regula a circulação do calor entre as altas e baixas latitudes, influenciando diretamente o regime de chuvas e temperaturas de países tropicais. E o derretimento acelerado do gelo polar, provocado pelo aquecimento global, é uma das maiores ameaças ao nível do mar de cidades costeiras como Recife, Santos e Rio de Janeiro.</p>
+
+            <p>Esta aula fecha o mapa dos biomas mundiais chegando às regiões mais extremas do planeta: a tundra, a calota glacial e o que está em jogo politicamente e climaticamente nos dois polos.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: O problema -->
+        <div class="topico">
+
+            <p class="caixa">Antes de continuar: um problema para pensar.</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p>O Ártico não tem um continente embaixo do gelo: é um oceano coberto de gelo flutuante, cercado pelos territórios da Rússia, Canadá, Estados Unidos, Noruega e Dinamarca. À medida que o aquecimento global derrete esse gelo, surgem novas rotas marítimas navegáveis e acesso a reservas de petróleo e minerais que estavam inacessíveis sob o gelo.</p>
+
+                <p><strong>Quem tem direito a esses recursos?</strong> Se o Ártico era um oceano coberto de gelo sem uso econômico e agora está se tornando navegável e explorável, quem decide quem pode explorar o quê? E quem paga o custo ambiental dessa abertura?</p>
+
+                <p>Escreva sua hipótese antes de continuar.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Conteúdo 1 — O que define os biomas polares -->
+        <div class="topico">
+
+            <h2>Onde a taiga termina e o gelo começa</h2>
+
+            <p>Na aula anterior, você conheceu a taiga, a floresta de coníferas que ocupa as altas latitudes do hemisfério norte. Acima dela, entre 60° e 75° de latitude, as árvores desaparecem completamente. O solo congelado do permafrost é profundo demais para que raízes penetrem, o verão é curto demais para que troncos cresçam, e o vento constante resseca qualquer broto que tente se erguer. Nessa faixa sem árvores começa a <span class="termo" data-palavra="Tundra" data-definicao="Bioma polar sem árvores que ocorre entre 60° e 75° de latitude norte, caracterizado por permafrost permanente, verão curtíssimo, vegetação rasteira de musgos, liquens e gramíneas e fauna adaptada ao frio extremo. Não existe tundra equivalente no hemisfério sul por falta de massa continental nessas latitudes.">tundra</span>.</p>
+
+            <p>A tundra é dominada por plantas rasteiras: musgos, liquens, gramíneas baixas, juncos e alguns arbustos anões que nunca passam de alguns centímetros de altura. Durante os dois a três meses de verão, o solo superficial descongela e a vegetação cresce com rapidez surpreendente, aproveitando as longas horas de luz. Algumas regiões da tundra chegam a ter 20 horas de sol por dia no pico do verão, compensando parcialmente o inverno de escuridão quase total. No pico do verão, a tundra fica coberta de flores e o solo encharcado sustenta nuvens de mosquitos que servem de alimento para as aves migratórias.</p>
+
+            <h3>Ártico e Antártica: dois polos completamente diferentes</h3>
+
+            <p>Uma das confusões mais comuns em geografia é tratar Ártico e Antártica como simétricos. Eles não são. O <span class="termo" data-palavra="Ártico" data-definicao="Região polar norte, composta por um oceano coberto de gelo flutuante cercado por massas continentais (Rússia, Canadá, EUA, Noruega, Dinamarca). Não é um continente. Tem tundra nas suas margens continentais e é habitado por povos indígenas como os Inuit.">Ártico</span> é um oceano, o Oceano Glacial Ártico, coberto de gelo flutuante e cercado por terras continentais. A Antártica é um continente de rocha coberto por uma camada de gelo com até 4.800 metros de espessura. Essa diferença estrutural tem consequências enormes.</p>
+
+            <p>O gelo ártico flutua sobre o oceano. Se ele derreter completamente, o nível do mar não sobe de forma significativa, pelo mesmo princípio que um cubo de gelo derretendo não transborda o copo. Já o gelo da Antártica está sobre rocha continental. Se ele derreter, essa água vai direto para o oceano e eleva o nível do mar. A calota glacial antártica contém água suficiente para elevar o nível dos oceanos em até 60 metros se derretesse completamente, o que inundaria praticamente todos os litorais do planeta.</p>
+
+            <h3>O albedo e a espiral do derretimento</h3>
+
+            <p>Um dos mecanismos mais importantes da física do gelo polar é o <span class="termo" data-palavra="Albedo" data-definicao="Capacidade de uma superfície de refletir a radiação solar. O gelo e a neve têm albedo alto (refletem até 90% da luz). O oceano e o solo descobertos têm albedo baixo (absorvem até 94% da luz). Quando o gelo derrete e expõe o oceano, a região absorve muito mais calor, acelerando o próprio derretimento.">albedo</span>. O gelo branco reflete até 90% da radiação solar de volta para o espaço. O oceano escuro que aparece quando o gelo derrete absorve até 94% dessa mesma radiação. Quando o gelo ártico derrete, o oceano que se expõe aquece muito mais rápido do que a região aquecia quando estava coberta de gelo. Esse calor adicional derrete mais gelo, que expõe mais oceano, que aquece mais. É um ciclo de retroalimentação que acelera o próprio derretimento e explica por que o Ártico está aquecendo quatro vezes mais rápido do que a média global.</p>
+
+            <div class="w3-margin">
+                <img src="tp31F01.png" alt="Comparação entre Ártico e Antártica — estrutura e extensão do gelo" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Mapa em breve</div>'">
+                <span class="w3-small w3-margin-left">Ártico: oceano com gelo flutuante. Antártica: continente sob calota de gelo com até 4,8 km de espessura. Fonte: NSIDC.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Cientistas monitoram o derretimento do gelo no Ártico e na Antártica. Do ponto de vista do risco de elevação do nível do mar, qual das duas regiões representa a ameaça mais direta para cidades costeiras?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>O Ártico, porque está derretendo mais rápido do que a Antártica</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>A Antártica, porque seu gelo está sobre rocha continental e ao derreter adiciona volume ao oceano, diferentemente do gelo flutuante ártico</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>Os dois representam ameaça idêntica, pois o volume de gelo é semelhante nos dois polos</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o gelo flutuante ártico já está no oceano. Se derreter, não acrescenta volume, assim como um cubo de gelo que derrete não faz o copo transbordar. O gelo antártico está sobre terra firme. Ao derreter, esse volume de água flui para o oceano e eleva o nível do mar. A Antártica contém gelo suficiente para elevar o nível dos oceanos em até 60 metros.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 6: Conteúdo 2 — Vida na tundra e povos polares -->
+        <div class="topico">
+
+            <h2>Viver onde quase nada sobrevive</h2>
+
+            <p>A tundra ártica é habitada por seres vivos que levaram milhares de anos desenvolvendo adaptações ao frio extremo, à escuridão do inverno e ao verão curtíssimo. Os mamíferos da tundra têm camadas espessas de gordura subcutânea, pelo duplo com subpelo isolante e extremidades menores do que seus parentes de climas mais quentes, reduzindo a perda de calor pela superfície corporal. A raposa ártica tem o pelo que muda de cor conforme a estação: branco no inverno para se camuflar na neve, marrom-acinzentado no verão para se camuflar no solo descoberto.</p>
+
+            <p>As renas e os caribus (a mesma espécie, com nomes diferentes na Europa e na América) migram centenas de quilômetros seguindo o ciclo das estações: no verão, vão para o norte onde a vegetação da tundra é abundante. No inverno, recuam para o sul, onde a taiga oferece alguma proteção contra o vento e algum alimento. O urso polar, símbolo do Ártico, passou por uma especialização ainda mais extrema: vive quase exclusivamente sobre o gelo marinho do Oceano Ártico, caçando focas nas bordas das quebras no gelo. Com o derretimento do gelo ártico, o habitat do urso polar está desaparecendo, e a espécie está entre as mais ameaçadas pelo aquecimento global.</p>
+
+            <h3>Os povos que sempre viveram no gelo</h3>
+
+            <p>A narrativa de que os polos são "desabitados" ignora sistematicamente os povos indígenas que habitam a tundra ártica há milênios. Os Inuit (conhecidos erroneamente como "esquimós", termo considerado pejorativo) vivem em comunidades espalhadas pelo Alasca, norte do Canadá, Groenlândia e leste da Sibéria. Os Sami habitam as tundras da Escandinávia e da Rússia europeia, criando renas há séculos. Os Nenets, Evenks e Chukchis vivem na Sibéria, alguns mantendo estilo de vida nômade ligado aos movimentos das renas.</p>
+
+            <p>Para esses povos, o aquecimento global não é uma abstração estatística. É a transformação concreta do ambiente que sustenta sua cultura, sua alimentação e sua identidade. O gelo que antes era previsível e seguro agora racha de forma imprevisível. As estações chegam e vão de forma diferente das memórias transmitidas por gerações. Espécies que sempre foram abundantes estão migrando para latitudes mais altas ou sumindo. Os Inuit foram os primeiros povos do mundo a tentar responsabilizar legalmente um governo por violações de direitos humanos causadas pelas mudanças climáticas, numa petição apresentada à Comissão Interamericana de Direitos Humanos em 2005.</p>
+
+            <div class="w3-margin">
+                <img src="tp31F02.png" alt="Tundra ártica no verão — vegetação, vida animal e comunidades Inuit" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Tundra ártica no verão: vegetação rasteira, solo encharcado, vida animal intensa durante os meses de luz. Fonte: USGS.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O mecanismo do albedo explica por que o Ártico aquece muito mais rápido do que a média global. Qual sequência descreve corretamente esse processo?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>O calor global aquece o ar ártico → o ar quente destrói a camada de ozônio → sem ozônio, mais radiação chega ao gelo → o gelo derrete</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>O gelo derrete → oceano escuro é exposto → o oceano absorve muito mais calor do que o gelo branco refletia → o calor adicional derrete mais gelo → ciclo se acelera</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>O permafrost derrete → libera metano → o metano aquece o gelo diretamente por condução térmica → o gelo derrete mais rápido</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o albedo é a chave: gelo branco reflete até 90% da luz solar. Oceano escuro absorve até 94%. Quando o gelo derrete e expõe o oceano, a mesma quantidade de luz solar que antes era devolvida ao espaço agora aquece o oceano. Esse calor derrete mais gelo, expõe mais oceano, que absorve mais calor. É um ciclo de retroalimentação positiva que não para sozinho.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Conteúdo 3 — Antártica e geopolítica polar -->
+        <div class="topico">
+
+            <h2>A Antártica: o continente que ninguém possui</h2>
+
+            <p>A Antártica é o único continente do planeta sem população humana permanente e sem soberania nacional estabelecida. Cobre 14 milhões de km², área maior que a Europa, e está coberta por uma <span class="termo" data-palavra="Calota Glacial" data-definicao="Massa contínua de gelo que cobre uma grande extensão de terra. A calota glacial da Antártica tem espessura média de 2.160 metros e contém 70% de toda a água doce do planeta. Diferente do gelo ártico, que flutua sobre o oceano, a calota antártica repousa sobre rocha continental.">calota glacial</span> com espessura média de 2.160 metros. Sob esse gelo, existe um continente de rocha com montanhas, vales, lagos de água líquida e até um vulcão ativo (o Monte Erebus). A temperatura média anual na costa antártica é de -10°C. No interior, pode cair a -89°C, a temperatura mais baixa já registrada na Terra.</p>
+
+            <p>A única presença humana permanente na Antártica são as bases científicas de pesquisa, mantidas por 29 países signatários do <span class="termo" data-palavra="Tratado Antártico" data-definicao="Acordo internacional assinado em 1959 que congela as reivindicações territoriais sobre a Antártica e a reserva exclusivamente para fins pacíficos e científicos. Proíbe atividades militares e testes nucleares e protege o ambiente. Tem 54 países signatários. O Brasil aderiu em 1975 e mantém a Estação Antártica Comandante Ferraz.">Tratado Antártico</span>, assinado em 1959. Esse tratado foi um acordo notável para a época da Guerra Fria: países com reivindicações territoriais conflitantes, como Argentina, Chile, Reino Unido e Austrália, concordaram em congelar essas disputas e reservar o continente para a ciência. O Brasil aderiu em 1975 e mantém a Estação Antártica Comandante Ferraz, reconstruída após um incêndio em 2012, como plataforma de pesquisa sobre clima, biologia marinha e oceanografia do Atlântico Sul.</p>
+
+            <h3>A geopolítica do Ártico: a corrida pelo gelo que some</h3>
+
+            <p>O Ártico, ao contrário da Antártica, não tem um tratado equivalente. Está cercado por cinco países com litoral ártico (Rússia, Canadá, Estados Unidos, Noruega e Dinamarca) e não tem proteção legal comparable. Com o derretimento acelerado do gelo, surgem disputas concretas por recursos e rotas. O leito do Oceano Ártico contém estimativas de 13% das reservas mundiais de petróleo ainda não exploradas e 30% das reservas de gás natural. A Passagem do Noroeste, que corta o arquipélago canadense, está se tornando navegável no verão, criando uma rota marítima entre Europa e Ásia que encurta a distância em relação ao Canal de Suez em até 40%.</p>
+
+            <p>A Rússia é o país mais agressivo nessa disputa. Em 2007, um submarino russo plantou uma bandeira de titânio no fundo do Oceano Ártico, no Polo Norte, como gesto simbólico de reivindicação territorial. A Rússia construiu bases militares no Ártico, reativou aeroportos soviéticos abandonados e desenvolve quebra-gelos nucleares para garantir controle das rotas árticas. A geopolítica do Ártico no século XXI está sendo moldada pelo aquecimento global de uma forma que nenhum mapa antigo conseguia prever.</p>
+
+            <h3>O buraco na camada de ozônio e a Antártica</h3>
+
+            <p>Um problema atmosférico específico das regiões polares é o buraco na camada de ozônio. A camada de ozônio na estratosfera filtra a radiação ultravioleta do sol. Sobre a Antártica, a combinação de temperaturas extremamente baixas no inverno polar e a presença de compostos químicos industriais, especialmente os clorofluorcarbonos (CFCs) usados em geladeiras e aerossóis antes de serem proibidos, criou uma reação que destrói o ozônio de forma acelerada. O resultado é um "buraco" que se abre todos os anos entre agosto e outubro no hemisfério sul, expondo a Antártica e partes da América do Sul e da Oceania a níveis elevados de radiação ultravioleta. O Protocolo de Montreal (1987), que proibiu os CFCs, é considerado o tratado ambiental de maior sucesso da história: o buraco está se recuperando lentamente e deve estar cicatrizado até meados do século XXI.</p>
+
+            <div class="w3-margin">
+                <img src="tp31F03.png" alt="Antártica: calota glacial, base brasileira e geopolítica polar" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Estação Antártica Comandante Ferraz e extensão da calota glacial antártica. Fonte: PROANTAR/Marinha do Brasil.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.5: Texto-fonte -->
+        <div class="topico">
+
+            <h2>Leia e analise</h2>
+
+            <div class="duvid-bloco-apoio">
+                <div class="duvid-texto-citacao">
+                    "O Ártico está aquecendo quatro vezes mais rápido do que a média global. A extensão do gelo marinho ártico em setembro de 2023 foi a quarta menor já registrada por satélites. Projeções do IPCC indicam que o Ártico pode ter verões completamente livres de gelo antes de 2050, algo que não acontecia há pelo menos 3 milhões de anos. Esse processo altera a circulação de calor entre os polos e os trópicos, afetando padrões de precipitação, temperatura e eventos climáticos extremos em latitudes médias e tropicais, incluindo o Brasil."
+                </div>
+                <div class="duvid-fonte-texto">Adaptado de NSIDC (National Snow and Ice Data Center) e IPCC AR6, 2023</div>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin-top">
+                <p><strong>Responda no caderno antes de continuar:</strong></p>
+                <p>1. O texto diz que o Ártico pode ter verões sem gelo antes de 2050, algo que não acontecia há 3 milhões de anos. Por que esse prazo de 3 milhões de anos é geograficamente relevante? O que ele indica sobre a velocidade da mudança em curso?</p>
+                <p>2. O derretimento do gelo ártico altera "padrões de precipitação e temperatura em latitudes tropicais, incluindo o Brasil". Usando o que você sabe sobre circulação atmosférica e rios voadores, explique um mecanismo pelo qual isso pode acontecer.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Síntese crítica -->
+        <div class="topico">
+
+            <h2>Por que os polos importam para quem vive no trópico</h2>
+
+            <p>Você começou esta sequência de três aulas aprendendo por que a floresta tropical é densa e úmida. Agora chegou ao outro extremo: os polos, onde a vida existe apesar das condições mais hostis do planeta. Nos três biomas polares, tundra, deserto polar e oceano ártico, a vida encontrou formas de prosperar que parecem impossíveis para quem olha de fora.</p>
+
+            <p>Mas a lição mais importante desta aula não é sobre a biologia dos ursos polares ou a espessura do gelo antártico. É sobre conexão. O planeta funciona como um sistema integrado de circulação de calor, água e ar. O que acontece nos polos não fica nos polos. O derretimento do gelo ártico altera a circulação termoalina dos oceanos, que redistribui calor e umidade pelo planeta. A calota antártica que derrete eleva o nível do mar que inunda Recife. O buraco no ozônio sobre a Antártica aumenta a radiação ultravioleta que chega ao sul do Brasil e à Argentina.</p>
+
+            <p>A geopolítica também é global. A disputa pelo Ártico entre as grandes potências envolve petróleo, rotas marítimas e projeção militar, os mesmos recursos e interesses que moldam as relações internacionais em todas as outras regiões. A Antártica, com seu Tratado de 1959, é um dos raros exemplos em que a cooperação internacional prevaleceu sobre os interesses nacionais. Manter esse exemplo funcionando, e possivelmente estendê-lo para o Ártico, é um dos grandes desafios da diplomacia ambiental do século XXI.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Infográfico -->
+        <div class="topico">
+
+            <h2>Infográfico: resumo da aula</h2>
+
+            <div class="w3-margin">
+                <img src="inforesumot31.png" alt="Infográfico resumo Biogeografia III — regiões polares" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.5: Perguntas que qualquer aluno teria -->
+        <div class="topico">
+
+            <h2 id="centralizado">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Tem cobra no Ártico?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Não. Répteis são ectotérmicos, dependem do calor externo para regular a temperatura do corpo. Em temperaturas abaixo de zero, seu metabolismo para. Por isso répteis e anfíbios são praticamente ausentes das regiões polares e da tundra. O mesmo vale para insetos voadores em boa parte do ano, exceto no pico do verão ártico, quando mosquitos aparecem em quantidades espantosas aproveitando o solo encharcado e o calor dos dois meses de verão. A fauna polar é dominada por mamíferos e aves, que são endotérmicos e produzem seu próprio calor.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O Brasil tem território na Antártica?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> O Brasil não tem reivindicação territorial na Antártica. O Tratado Antártico congela todas as reivindicações existentes e proíbe novas. O que o Brasil tem é o status de Parte Consultiva do Tratado desde 1983, que garante voz nas decisões sobre o continente, e a Estação Antártica Comandante Ferraz, onde pesquisadores brasileiros realizam estudos de meteorologia, biologia marinha, glaciologia e oceanografia. A estação não confere soberania, mas dá ao Brasil presença científica e influência nas negociações sobre o futuro da Antártica.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Pinguins vivem no Ártico?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Não. Pinguins existem exclusivamente no hemisfério sul: na Antártica, na Argentina, no Chile, na África do Sul, na Austrália e até nas Ilhas Galápagos (cruzando o equador ligeiramente). No Ártico vivem os tordos-mergulhões, aves que se parecem com os pinguins mas não têm parentesco direto: é um caso de evolução convergente, dois grupos distintos desenvolvendo adaptações similares para o mesmo tipo de vida aquática em águas frias. Ursos polares e pinguins nunca se encontraram na natureza. Esse é um encontro que só existe em propagandas e zoológicos.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Produção final -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o que você aprendeu.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>O polo mais próximo de você</h3>
+                <p><strong>Atividade individual</strong></p>
+
+                <p>Escreva um texto de 15 a 20 linhas respondendo à seguinte pergunta: <em>O que acontece nos polos tem alguma consequência concreta para a sua cidade ou estado?</em></p>
+                <p>Seu texto deve:</p>
+                <p><strong>1.</strong> Identificar pelo menos dois processos polares estudados nesta aula (derretimento do gelo, albedo, permafrost, correntes oceânicas etc.).</p>
+                <p><strong>2.</strong> Explicar o mecanismo pelo qual cada processo afeta regiões tropicais ou subtropicais.</p>
+                <p><strong>3.</strong> Citar um exemplo específico da sua cidade, estado ou região brasileira que já seja afetado ou possa ser afetado por essas mudanças.</p>
+                <p class="w3-small w3-text-grey">Fontes sugeridas: INPE (inpe.br), NSIDC (nsidc.org), PROANTAR (marinha.mil.br/proantar).</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que é tundra? Em quais latitudes ocorre e por que não existem árvores nesse bioma?</h3>
+                <h3>2. Qual é a principal diferença estrutural entre o Ártico e a Antártica? Por que essa diferença é importante para o risco de elevação do nível do mar?</h3>
+                <h3>3. Explique o mecanismo do albedo e por que ele acelera o aquecimento do Ártico numa espiral de retroalimentação.</h3>
+                <h3>4. Quais são os povos indígenas que habitam a tundra ártica? Como o aquecimento global afeta concretamente suas formas de vida?</h3>
+                <h3>5. O que é o Tratado Antártico? Quais são seus princípios fundamentais e por que é considerado um modelo de cooperação internacional?</h3>
+                <h3>6. Qual é a relação entre o Brasil e a Antártica? O que a Estação Antártica Comandante Ferraz faz?</h3>
+                <h3>7. O que é o buraco na camada de ozônio sobre a Antártica? Qual foi sua causa e o que o Protocolo de Montreal fez para resolvê-lo?</h3>
+                <h3>8. Por que a abertura de rotas marítimas árticas causada pelo derretimento do gelo gera disputas geopolíticas entre as grandes potências?</h3>
+                <h3>9. Segundo o texto-fonte, o Ártico pode ter verões sem gelo antes de 2050, algo inédito há 3 milhões de anos. O que isso revela sobre a velocidade das mudanças climáticas em curso?</h3>
+                <h3>10. Explique por que o derretimento do gelo nos polos pode alterar o regime de chuvas no Brasil, usando os conceitos de circulação atmosférica e correntes oceânicas.</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: TRANSIÇÃO FINAL -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema Biogeografia III é fascinante! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-boottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+
+</html>

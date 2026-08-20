@@ -1,0 +1,1231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Cartografia, pontos cardeais e coordenadas geográficas: como localizar qualquer ponto da Terra">
+    <meta property="og:title" content="Texto 02 - Cartografia e Coordenadas Geográficas">
+    <meta property="og:description" content="A história da Cartografia, os pontos cardeais e o sistema de latitude e longitude">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+
+    <script src="/js/duvid-core.js" defer></script>
+
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+
+
+    <title>1º ano - Texto 02</title>
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+        <!-- Navigation (Stays on Top) -->
+
+
+        <!-- BLOCO: Abertura -->
+        <div class="topico">
+
+
+            <div class="w3-padding-top-48">
+
+            </div>
+
+
+
+            <h1 id="h1"> </h1>
+
+            <!-- Futuro audio -->
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span> </p>
+
+
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Entender a importância da Cartografia para a
+                        construção do conhecimento do
+                        ser humano. Aplicar o sistema de coordenadas geográficas à localização de pontos na superfície
+                        terrestre. </span></p>
+
+
+
+
+                <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                    <i class="fa fa-play"></i> Iniciar Aula
+                </button>
+                <hr>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- BLOCO: Problematizacao -->
+        <div class="topico">
+
+            <h2> Introdução </h2>
+
+
+            <p> <span class="primeiraLetra">N</span>a aula passada, vimos que o espaço geográfico e seus
+                conceitos auxiliares, constituem o objeto de estudo da Geografia, uma ciência envolvida com os
+                aspectos
+                sociais e espaciais da sociedade. </p>
+
+            <p>Nesta aula, veremos como a Geografia, em colaboração com a Cartografia, dispõem de técnicas
+                para representar o espaço geográfico.</p>
+
+            <p>Ao final, você saberá qual a importância da Cartografia para o conhecimento do ser humano e,
+                também, aprenderá a localizar-se no espaço pelos pontos cardeais e pelas coordenadas geográficas.
+            </p>
+
+            <p><strong>Esta aula responde a uma pergunta mais específica que "como ler um mapa": como a humanidade resolveu, ao longo de milhares de anos, um problema prático, descrever a posição exata de um lugar sem apontar o dedo.</strong> Da pintura nas cavernas até as coordenadas que o GPS do seu celular usa agora mesmo.</p>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (historia da Cartografia) -->
+        <div class="topico">
+
+
+            <div class="w3-center">
+
+                <h2 class="fontePixel"> <img src="micro2.png" alt="microfone" width="84" height="84"> Duvid -
+                    Entrevista
+                </h2>
+
+                <p><strong>Essa semana o convidado é a Cartografia.</strong> </p>
+
+            </div>
+
+
+            <p><strong>Duvid:</strong> Bem-vinda Cartografia. Sabemos que a
+                senhora está bem ocupada cuidando da localização da Terra. Então, estamos felizes que tenha tido
+                tempo para
+                falar conosco. </p>
+
+            <p><strong>Cartografia: </strong>Sem problemas. E, eu estou bastante ocupada, ainda mais nos dias de
+                hoje com satélites e GPS, antigamente era mais fácil se preocupar com o mapeamento do mundo.</p>
+
+            <p><strong>Duvid: </strong>Podemos imaginar. Antes o ser humano nem sabia escrever e já fazia pinturas
+                nas
+                cavernas ou marcava locais de caça para conseguir voltar com segurança. </p>
+
+            <p><strong>Cartografia: </strong>Foi minha primeira experiência, eu me lembro. Ah, como eu era
+                primitiva, os homens faziam as pinturas no teto das cavernas de animais ou situações do cotidiano.
+                Eu ainda
+                era bem nova, isso há uns 40 mil anos atrás na época do neolítico. Como o tempo passa, não é
+                verdade?</p>
+
+            <p><strong>Duvid: </strong>Sim, passa rápido. Aproveitando esse tema, nós pesquisamos sua rede social e
+                descobrimos essa sua <span onclick="Aparecer('imagem1','citacao1')"><mark>obra aqui</mark></span>
+                que a
+                senhora postou
+                há cerca de 2500 a 3000 anos A.C: </p>
+
+
+            <img id="imagem1" src="tp2Foto1.png" alt="tp2Foto1" class="w3-mobile" style=display:none>
+
+
+            <span class="citacao" id="citacao1" style=display:none>Fonte: https://commons.wikimedia.org.</span>
+
+
+            <p><strong>Cartografia: </strong>Vocês pesquisam mesmo sobre nossa origem! Esse trabalho é uma
+                verdadeira relíquia. Eu até esqueci a data correta lá na Mesopotâmia. Hoje já mudou o nome, para o
+                atual
+                Iraque e Kuwait, mas antigamente era na cidade da Babilônia que fazíamos esse tipo de mapa. Era
+                comum
+                escrever na argila, queríamos registrar o encontro do rio Tigre com o Eufrates, tempo bom aquele.
+            </p>
+
+            <p><strong>Duvid: </strong>E, do mesmo modo, os gregos tiveram um papel muito importante para conhecer o
+                espaço geográfico, não foi? </p>
+
+            <p><strong>Cartografia: </strong>Sem dúvida. Eu ajudei Eratóstenes, uns 200 anos antes de Cristo, a
+                fazer um mapa da área até então conhecida pelos homens, eles não sabiam o que ainda estava por vir.
+            </p>
+
+            <p><strong>Duvid: </strong>Nós também recuperamos essa obra-prima. Olha, uma reconstituição (de autor
+                não identificado) do <span onclick="Aparecer('imagem2','citacao2')"><mark>mapa de
+                        Eratóstenes</mark></span>,
+                de cerca
+                de 220 A.C. O matemático, geógrafo, poeta grego e bibliotecário de Alexandria usou os levantamentos
+                do mundo
+                conhecidos, após as conquistas de Alexandre, o Grande. </p>
+
+            <img id="imagem2" src="tp2Foto2.png" alt="tp2Foto2" class="w3-mobile" style=display:none>
+
+            <span class="citacao" id="citacao2" style=display:none>Fonte:
+                http://www.mapas-historicos.com/mapa-eratostenes.html.</span>
+
+            <p><strong>Cartografia: </strong>Maravilhoso. Esse mapa mostra a Europa, parte da Ásia e parte do Norte
+                da África. E ele ainda fez o cálculo da circunferência da Terra, quase de maneira exata com os dados
+                de
+                hoje.</p>
+
+            <p><strong>Duvid: </strong>Esses gregos eram realmente incríveis. A china e o mundo árabe produziram
+                muitos mapas. Mas na Idade Média, um chamou à atenção, <span
+                    onclick="Aparecer('imagem3','citacao3')"><mark>o mapa em
+                        T.</mark></span> Por que ele foi tão importante? O que significa esse formato?</p>
+
+
+            <img id="imagem3" src="tp2Foto3.png" alt="tp2Foto3" class="w3-mobile" style=display:none>
+
+            <span class="citacao" id="citacao3" style=display:none> Fonte: https://pt.wikipedia.org/wiki/Mapa_T_e_O.
+            </span>
+
+
+
+            <p><strong>Cartografia: </strong>Bom, diferente dos outros mapas, esse representou a influência da
+                religião cristã. Eu vivi muito ligada à igreja. Perceba que a forma em círculo representa a
+                esfericidade da
+                Terra e a letra T a divisão entre a Europa, Ásia e África. Mas não posso negar a representação da
+                cruz
+                cristã e da Santíssima Trindade nesse mapa. Era comum colocar Jerusalém no centro dos mapas. </p>
+
+            <p><strong>Duvid: </strong>Uau! Que história. E ainda nem haviam mapeado as Américas. E para encerrar,
+                uma última pergunta: Como a senhora se definiria? </p>
+
+            <p><strong>Cartografia: </strong>Essa pergunta é realmente difícil. Eu diria que não sou de uma única
+                maneira ou não me defino por apenas um ângulo. Eu sou uma ciência, mas também uma técnica. E porque
+                não
+                dizer uma arte! Eu ajudo os homens a conhecerem e representarem o mundo e sou quase como uma irmã
+                para a
+                Geografia em particular. Eu mudei muito com o passar do tempo. Lembra que comecei nas cavernas,
+                passei pela
+                argila, pelo couro, pelos papiros, as grandes navegações e hoje estou inteiramente conectada com os
+                satélites pela internet. Eu localizo fenômenos naturais e sociais e estou em constante mutação. É
+                isso que
+                penso que sou.</p>
+
+            <p><strong>Duvid: </strong>Nós vimos hoje um outro lado seu, senhora Cartografia. Acho que teremos que
+                fazer outra entrevista no futuro. </p>
+
+            <p><strong>Cartografia: </strong>Eu agradeço pelo interesse e, da mesma forma, de poder compartilhar o
+                que sei. Obrigado e até mais.</p>
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+
+        <!-- BLOCO: Pratica Social Inicial -->
+        <div class="topico">
+
+            <p class="caixa"> Agora é com você!</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Após ter lido a Entrevista com a Cartografia, <strong>escreva em seu caderno
+                        três perguntas</strong> que gostaria de fazer para aprender mais sobre esse tema. Seja
+                    criativo!</p>
+                <p class="w3-pale-green">Vale um globinho. Você precisará deles para completar sua aula e seguir
+                    adiante.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this);">Próximo</button>
+
+
+
+            <p id="resp9"></p>
+
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinho9a" style="display:none" alt="globinho9a"
+                        width="64" height="64"> </p>
+            </div>
+
+            <hr>
+
+        </div>
+
+
+
+
+
+        <!-- BLOCO: Elementos do Mapa e Escala Cartografica -->
+        <div class="topico">
+
+            <h2>Os elementos de um mapa</h2>
+
+            <p>Antes de entrar nos pontos cardeais e nas coordenadas, vale entender o que faz de um desenho
+                um mapa de verdade, e não apenas um rabisco. Um mapa é uma redução da realidade, e toda redução
+                precisa de regras claras para que quem olha consiga confiar no que está vendo. Por isso, um mapa
+                bem construído carrega sempre um conjunto de elementos obrigatórios.</p>
+
+            <p>O <strong>título</strong> diz o que está sendo representado e, muitas vezes, o recorte temporal
+                da informação (por exemplo, "Densidade demográfica do Brasil, 2022"). A <strong>legenda</strong>
+                explica o significado de cada símbolo, cor ou padrão usado no mapa: sem ela, ninguém sabe se uma
+                área pintada de vermelho representa alta temperatura, alta pobreza ou alto desmatamento. A
+                <strong>orientação</strong>, quase sempre indicada por uma rosa dos ventos ou por uma seta apontando
+                para o Norte, informa qual direção corresponde ao topo do mapa. E existe ainda a fonte, que indica
+                quem produziu o mapa e quando, permitindo checar a confiabilidade da informação.</p>
+
+            <p>O elemento mais decisivo, no entanto, é a <span class="termo" data-palavra="Escala Cartográfica"
+                    data-definicao="Relação matemática entre uma distância medida no mapa e a distância real correspondente no terreno. Pode ser numérica (fração, ex: 1:100.000) ou gráfica (régua desenhada no próprio mapa).">escala
+                    cartográfica</span>. Ela é a relação entre o tamanho no papel (ou na tela) e o tamanho real no
+                terreno. Existem dois jeitos principais de representá-la. A escala numérica aparece como uma fração,
+                por exemplo 1:100.000, o que significa que 1 centímetro no mapa corresponde a 100.000 centímetros
+                (ou seja, 1 quilômetro) na realidade. Já a escala gráfica é uma régua desenhada dentro do próprio
+                mapa, com marcações que já convertem centímetros em quilômetros, sendo mais fácil de usar porque
+                continua correta mesmo se o mapa for impresso em um tamanho diferente do original.</p>
+
+            <p>Um erro comum de quem está aprendendo é confundir "escala grande" com "área grande". É o
+                contrário: quanto <strong>menor</strong> o segundo número da fração (por exemplo, 1:5.000 em vez de
+                1:1.000.000), <strong>maior</strong> é a escala, porque a fração 1/5.000 é matematicamente maior que
+                1/1.000.000. Mapas de grande escala mostram pouca área com muito detalhe, como a planta de um bairro
+                ou de uma escola. Mapas de pequena escala mostram muita área com pouco detalhe, como o planisfério
+                que você usou para localizar os pontos A e B nesta aula. Essa diferença de escala explica por que
+                um arquiteto usa uma planta para desenhar uma casa, enquanto um geógrafo usa um mapa para representar
+                o Brasil inteiro: o nível de detalhe necessário em cada caso é diferente, como você já viu na seção
+                de Perguntas e Respostas.</p>
+
+            <p>Vale lembrar, também, a diferença entre mapa, carta e planta, que costuma confundir quem está
+                começando. O <strong>mapa</strong> representa uma área extensa, como um país ou continente, em
+                pequena escala e sem grande riqueza de detalhes. A <strong>carta</strong> representa uma área
+                intermediária, geralmente dividida em folhas padronizadas (como as cartas topográficas do IBGE), com
+                escala média e mais detalhes, incluindo curvas de nível que mostram o relevo. Já a <strong>planta</strong>
+                representa uma área pequena, como um lote, uma casa ou uma praça, em grande escala e com riqueza
+                máxima de detalhes.</p>
+
+            <p>Além da escala, os mapas também variam pelo <strong>tipo de informação</strong> que carregam. O
+                mapa político mostra fronteiras entre países, estados ou municípios, com cada território
+                geralmente pintado de uma cor diferente. O mapa físico destaca o relevo, a hidrografia e a
+                vegetação, sem se importar com as divisões políticas. Já os mapas temáticos concentram uma única
+                informação específica sobre um recorte espacial, como densidade demográfica, distribuição de
+                chuvas, taxa de desemprego ou índice de desmatamento, quase sempre usando um recurso chamado
+                coropletia (regiões pintadas em tons mais fortes ou mais claros conforme o valor do dado
+                representado). É esse tipo de mapa temático que aparece com mais frequência em questões de
+                vestibular, justamente porque cruza um dado numérico com a distribuição espacial dele, cabendo ao
+                estudante interpretar por que aquele fenômeno se concentra em determinada região e não em outra.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (pontos cardeais) -->
+        <div class="topico">
+
+
+            <h2> Por que aprender a se localizar?</h2>
+
+            <p> É comum representar o espaço geográfico para melhor conhecê-lo. Mas como fazer isso? É aí
+                que entra a Cartografia. Assim como aprender a ler e escrever é vital para nossa formação humana,
+                “ler” o
+                espaço em que vivemos é fundamental para melhor organizarmos nosso bairro, cidade ou país.</p>
+            <p> Veja o que diz um famoso geógrafo francês, Yves Lacoste:</p>
+
+            <div class="w3-panel w3-leftbar w3-sand w3-margin">
+                <p class="w3-sand">“Vai-se à escola para aprender a ler, a escrever e a contar. Por que não para
+                    aprender a ler uma carta? Por que não para compreender a diferença entre uma carta de grande
+                    escala e uma outra em pequena escala e se perceber que não há nisso apenas uma diferença de
+                    relação matemática com a realidade, mas que elas não mostram as mesmas coisas? Por que não
+                    aprender a esboçar o plano da aldeia ou do bairro? Por que não representam sobre o plano de sua
+                    cidade os diferentes bairros que conhecem, aquele onde vivem, aquele onde os pais das crianças
+                    vão trabalhar etc.? Por que não aprender a se orientar, a passear na floresta, na montanha, a
+                    escolher determinado itinerário para evitar uma rodovia que está congestionada?”
+                    <span class="w3-small">(LACOSTE, 2003, p.55).</span>
+                </p>
+            </div>
+
+
+            <p> As cartas, como veremos a seguir, representam áreas menores que o mapa. Esse registro do
+                espaço geográfico começou quando os homens estabeleceram referências simples para sua localização,
+                como
+                montanhas, rios, árvores ou outros elementos da paisagem para retornarem de maneira segura para
+                casa.</p>
+            <p> Outra referência principal foi por meio dos astros, no caso o Sol, a lua e as estrelas.
+                Foi ai que foi desenvolvido pelos homens um sistema de referências chamado de <span class="termo"
+                    data-palavra="Pontos Cardeais"
+                    data-definicao="Sistema de referência baseado nos quatro pontos principais (Norte, Sul, Leste e Oeste), usado para se orientar no espaço a partir da posição do Sol, da Lua ou das estrelas.">pontos
+                    cardeais</span>.
+                Veja a representação
+                <span onclick="Aparecer('imagem4','citacao4')"><mark>aqui</mark></span>:
+            </p>
+
+            <img id="imagem4" src="tp2Foto4.png" alt="tp2Foto4" class="w3-mobile" style=display:none>
+
+            <span class="citacao" id="citacao4" style=display:none> Fonte: Carpanelli (2015, p.7). Adaptado.</span>
+
+            <p> Para se localizar por meio do Sol, temos que observar em que lado ele “nasce” ou surge
+                pela manhã. Esse fenômeno ocorre devido ao movimento de rotação da Terra.</p>
+
+            <p><span class="termo" data-palavra="Rotação"
+                    data-definicao="Movimento que a Terra executa em torno do seu próprio eixo, com duração aproximada de 24 horas. É responsável pela sucessão dos dias e das noites e pelo nascer e pôr do sol em pontos opostos do horizonte."><strong>Rotação</strong></span>
+                - O movimento de rotação terrestre é aquele que
+                o
+                planeta executa em torno de seu próprio eixo, em um período de, aproximadamente, 24 horas. Graças a
+                ele, a
+                Terra é achatada nos polos e expandida no Equador, não formando uma esfera perfeita. Mas é, também,
+                por
+                causa desse movimento que temos a variação dos períodos de claro e escuro, isto é, dias e noites na
+                Terra,
+                dentre outros fenômenos. <span onclick="Aparecer('imagem5','citacao5')"><mark>Veja a
+                        imagem:</mark></span> </p>
+
+            <img id="imagem5" src="tp2Foto5.png" alt="tp2Foto5" class="w3-mobile" style=display:none>
+
+            <span class="citacao" id="citacao5" style=display:none> </span>
+
+            <p> Na realidade, o sol não nasce todo dia, mas sim a Terra que gira em torno de si mesma e
+                possibilita esse movimento aparente do Sol.
+
+            </p>
+
+            <p> É esse movimento que utilizamos para nos <span class="termo" data-palavra="Orientação"
+                    data-definicao="Ato de tomar o rumo certo no espaço, usando referências como o Sol, os astros ou instrumentos como a bússola para saber em que direção seguir.">orientarmos</span>
+                no
+                espaço.
+                Desse modo, ao apontar o braço direito para onde o Sol nasce estabeleceu-se uma <span class="termo"
+                    data-palavra="Convenção"
+                    data-definicao="Acordo estabelecido entre as pessoas para definir um padrão comum (como decidir que o braço apontado para o nascer do Sol indica o Leste), mesmo que a escolha em si seja arbitrária.">convenção</span>
+                que seria o ponto
+                cardeal
+                Leste. Isso porque na tradição religiosa, Jerusalém estava no Leste da Europa ou Oriente. Já o lado
+                oposto
+                ou o braço esquerdo é o Oeste ou Ocidente.</p>
+
+
+            <p> À nossa frente está o Norte, e nas nossas costas o Sul. A mesma coisa acontece com a Lua.
+                Ela nasce no Leste e se põe no Oeste. </p>
+
+
+            <p> É possível, também, orientar-se pelas estrelas. Nesse caso através das constelações da
+                <span onclick="Aparecer('imagem6','citacao6')"><mark>Ursa Menor</mark></span>, (visível somente no
+                hemisfério Norte) e a <span onclick="Aparecer('imagem7','citacao7')"><mark>Cruzeiro do
+                        Sul </mark></span>(visível no hemisfério Sul).
+            </p>
+
+
+            <img id="imagem6" src="tp2Foto6.png" alt="tp2Foto6" class="w3-mobile" style=display:none>
+
+
+            <span class="citacao" id="citacao6" style=display:none> Constelação da Ursa menor. Fonte: Carpanelli
+                (2015,
+                p.7). Adaptado. </span>
+
+            <img id="imagem7" src="tp2Foto7.png" alt="tp2Foto7" class="w3-mobile" style=display:none>
+
+
+
+            <span class="citacao" id="citacao7" style=display:none> Constelação Cruzeiro do Sul. Fonte: Moreira e
+                Sene
+                (2016, p.32).
+
+            </span>
+
+
+
+            <p> É por isso que temos a <span class="termo" data-palavra="Rosa dos Ventos"
+                    data-definicao="Instrumento de orientação em formato de estrela que organiza os pontos cardeais (Norte, Sul, Leste, Oeste) e colaterais (Nordeste, Noroeste, Sudeste, Sudoeste), historicamente usado na navegação."
+                    onclick="Aparecer('imagem8','citacao8')">Rosa-dos-Ventos</span>.
+                Inicialmente utilizada para a navegação, daí o seu nome e formato ligado ao vento. Ela concentra a
+                ideia do
+                plano cartesiano de Norte e Sul no eixo Y e de Leste e Oeste no
+                eixo X. Além de seus pontos colaterais: nordeste, noroeste, sudoeste e sudeste, além de outros. </p>
+
+            <img id="imagem8" src="tp2Foto8.png" alt="tp2Foto8" class="w3-mobile" style=display:none>
+
+            <span class="citacao" id="citacao8" style=display:none> Fonte: Organizado pelo autor.</span>
+
+
+            <p> Entretanto, essa navegação somente por orientação pelos astros, às vezes não é muito
+                precisa ou exata. Diante disso, os aparelhos foram <span
+                    onclick="Aparecer('imagem9','citacao9')"><mark>aperfeiçoados
+                    </mark></span>, tais como a bússola, inventada pelos chineses e com uma agulha imantada que
+                aponta para
+                o norte magnético da Terra; o Astrolábio, que determinava geometricamente a posição das estrelas,
+                mas era de
+                difícil manuseio e foi substituído pelo Sextante. Este utiliza o sistema de latitudes que veremos
+                adiante.</p>
+
+
+            <img id="imagem9" src="tp2Foto9.png" alt="tp2Foto9" class="w3-mobile " style=display:none>
+
+            <span class="citacao" id="citacao9" style=display:none> Fonte: Organizado pelo autor, Wikipedia. </span>
+
+            <br><br>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+
+
+
+
+        </div>
+
+
+
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <p class="w3-margin-top">Denominação do local onde vemos o nascimento aparente do sol?</p>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>a) Oeste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>b) Leste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>c) Sul</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3d" value="errado" class="radio-duvid">
+                    <label for="p3d" class="card-opcao"><span>d) Norte</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Muito bem, essa foi bem fácil!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="64" height="64">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+
+        </div>
+
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <p class="w3-margin-top">Denominação do local onde vemos o poente do sol?</p>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta4" id="p4a" value="correto" class="radio-duvid">
+                    <label for="p4a" class="card-opcao"><span>a) Oeste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta4" id="p4b" value="errado" class="radio-duvid">
+                    <label for="p4b" class="card-opcao"><span>b) Norte</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta4" id="p4c" value="errado" class="radio-duvid">
+                    <label for="p4c" class="card-opcao"><span>c) Leste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta4" id="p4d" value="errado" class="radio-duvid">
+                    <label for="p4d" class="card-opcao"><span>d) Sul</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Essa foi mamão com açúcar!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp4" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho4" style="display:none" width="64" height="64">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <p class="w3-margin-top">Denominação do local que fica a sua frente ao estender o braço esquerdo na
+                direção do surgimento do sol?</p>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta5" id="p5a" value="errado" class="radio-duvid">
+                    <label for="p5a" class="card-opcao"><span>a) Norte</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta5" id="p5b" value="errado" class="radio-duvid">
+                    <label for="p5b" class="card-opcao"><span>b) Leste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta5" id="p5c" value="errado" class="radio-duvid">
+                    <label for="p5c" class="card-opcao"><span>c) Oeste</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta5" id="p5d" value="correto" class="radio-duvid">
+                    <label for="p5d" class="card-opcao"><span>d) Sul</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Suave na nave essa questão!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp5" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho5" style="display:none" width="64" height="64">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">DESAFIO DE NAVEGAÇÃO</p>
+            <p class="w3-margin-top">Encontre as direções no mapa do tesouro:</p>
+
+            <div class="w3-center w3-margin-bottom">
+                <img src="tp2Foto10.png" alt="Mapa do Tesouro" class="w3-mobile w3-card-4">
+            </div>
+
+            <form id="quiz-mapa" class="w3-container w3-white w3-padding w3-round-large w3-border">
+                <div class="w3-margin-bottom">
+                    <label class="w3-text-green"><b><i class="fa fa-tree"></i> Direção do Coqueiro:</b></label>
+                    <input class="w3-input w3-border w3-round" type="text" id="q1a" placeholder="Ex: Norte">
+                    <p id="resp1a" class="w3-small"></p>
+                    <button type="button" class="btn-acao-duvid w3-small" id="btn1"
+                        onclick="validarAberta('q1a', 'noroeste', 'resp1a', this, 'globinho8')">Conferir</button>
+                </div>
+
+
+                <div class="area w3-center">
+                    <img src="/fotoIndex/globinhoPe.png" id="globinho8" style="display:none" width="64"
+                        height="64">
+
+                </div>
+
+
+
+                <div class="w3-margin-bottom">
+                    <label class="w3-text-amber"><b><i class="fa fa-suitcase"></i> Direção do Baú:</b></label>
+                    <input class="w3-input w3-border w3-round" type="text" id="q1c" placeholder="Ex: Sul">
+                    <p id="resp1c" class="w3-small"></p>
+                    <button type="button" class="btn-acao-duvid w3-small" id="btn2"
+                        onclick="validarAberta('q1c', 'sudeste', 'resp1c', this, 'globinho10')">Conferir</button>
+                </div>
+            </form>
+
+
+
+            <div class="area w3-center">
+
+                <img src="/fotoIndex/globinhoPe.png" id="globinho10" style="display:none" width="64"
+                    height="64">
+
+            </div>
+
+
+            <button class="btnShow" style="display:block"
+                onclick="MostrarProximo(this); this.style.display='block'">Próximo</button>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">ANÁLISE GEOGRÁFICA</p>
+
+            <div class="w3-panel w3-leftbar w3-sand w3-margin-bottom">
+                <p class="w3-sand">"É preciso lembrar que ninguém escolhe o ventre, a localização geográfica, a
+                    condição socioeconômica e a condição cultural para nascer. Nasce onde o acaso determinar. Por
+                    isso, temos que cuidar de todos aqueles que estão em todos os recantos deste planeta."
+                    <br><span class="w3-small"><b>(AB'SABER)</b></span>
+                </p>
+            </div>
+
+            <p class="w3-margin-top">Com base no pensamento de Ab'Saber, o que se pode concluir sobre o papel das
+                políticas públicas globais?</p>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta7" id="p7a" value="errado" class="radio-duvid">
+                    <label for="p7a" class="card-opcao">
+                        <span>a) A política territorial deve ser seletiva e focar apenas em áreas desenvolvidas.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta7" id="p7b" value="correto" class="radio-duvid">
+                    <label for="p7b" class="card-opcao">
+                        <span>b) A política e o cuidado devem abranger a todos, independentemente do local de
+                            nascimento.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta7" id="p7c" value="errado" class="radio-duvid">
+                    <label for="p7c" class="card-opcao">
+                        <span>c) A condição socioeconômica de um indivíduo é fruto exclusivo de suas escolhas
+                            pessoais.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta7" id="p7d" value="errado" class="radio-duvid">
+                    <label for="p7d" class="card-opcao">
+                        <span>d) Apenas quem nasce em grandes centros urbanos deve receber investimento público.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'Quase lá! Ab\'Saber defende uma visão humanista da Geografia, onde o acaso do nascimento não deve determinar o direito ao cuidado.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp7" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho7" style="display:none" width="64" height="64">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+
+
+        <!-- BLOCO: Instrumentalizacao (coordenadas geograficas) -->
+        <div class="topico">
+
+            <h2> As Coordenadas Geográficas</h2>
+
+
+            <p>Vimos que a localização através dos astros como o Sol, a lua ou as estrelas nem sempre
+                possuem a precisão necessária ou exata. </p>
+
+            <p>Para resolver esse problema, desde o tempo dos gregos, um sistema de linhas imaginárias
+                foram criados para obter uma localização exata de qualquer ponto na Terra, as chamadas coordenadas
+                geográficas.</p>
+
+            <p><span class="termo" data-palavra="Coordenadas Geográficas"
+                    data-definicao="Sistema de mapeamento baseado em linhas imaginárias sobre a superfície terrestre, formado por paralelos (linhas horizontais) e meridianos (linhas verticais), que permite localizar com precisão qualquer ponto da Terra."><strong>Coordenadas
+                        geográficas</strong></span> - Consiste em um sistema de
+                mapeamento global utilizado pela Cartografia e baseado em linhas imaginárias sobre a superfície
+                terrestre e
+                alinhadas ao eixo de rotação do planeta. É formado por linhas horizontais (<strong>paralelos</strong>) e
+                verticais
+                (<strong>meridianos</strong>). </p>
+
+            <img src="tp2Foto11.png" alt="tp2Foto11" class="w3-mobile">
+
+
+            <span class="citacao"> Fonte: (Freitas, 2005). </span>
+
+
+            <p><span class="termo" data-palavra="Paralelos"
+                    data-definicao="Linhas imaginárias horizontais que dividem o globo em hemisférios Norte e Sul, tendo o Equador (0°) como paralelo principal."><strong>Paralelos</strong></span>
+                - São linhas que dividem o globo
+                horizontalmente, sendo o Equador o paralelo zero grau. (0º). Este divide o globo em dois hemisférios:
+                <strong>Norte</strong> (Boreal ou setentrional) e <strong>Sul</strong> (Austral ou Meridional).
+            </p>
+
+
+
+            <img src="tp2Foto12.png" alt="tp2Foto12" class="w3-mobile">
+
+
+            <span class="citacao"> Fonte: (Freitas, 2005). </span>
+
+
+            <p id="Fundo1"><span class="termo" data-palavra="Meridianos"
+                    data-definicao="Linhas imaginárias verticais que dividem o globo em hemisférios Leste (oriental) e Oeste (ocidental), tendo o Meridiano de Greenwich (0°) como referência principal."><strong>Meridianos</strong></span>
+                - São linhas imaginárias que
+                dividem o globo verticalmente em: hemisfério oriental (<strong>Leste</strong>) e ocidental
+                (<strong>Oeste</strong>). O Meridiano
+                zero grau foi convencionado como o da cidade de Greenwich, nos arredores Londres, Inglaterra. </p>
+
+
+            <img src="tp2Foto14.png" alt="tp2Foto14" class="w3-mobile">
+
+
+            <span class="citacao"> Fonte: (Freitas, 2005). </span>
+
+            <p><span class="termo" data-palavra="Latitude"
+                    data-definicao="Ângulo formado entre o Equador e o paralelo do ponto que se quer localizar, variando de 0° a 90° Norte ou Sul."><strong>Latitude</strong></span>
+                - É o ângulo formado pelo paralelo principal,
+                Equador e o paralelo do lugar que se quer localizar, variando de 0º a 90º Sul ou Norte </p>
+
+
+            <p><span class="termo" data-palavra="Longitude"
+                    data-definicao="Ângulo formado entre o Meridiano de Greenwich e o meridiano do ponto que se quer localizar, variando de 0° a 180° Leste ou Oeste."><strong>Longitude</strong></span>
+                - É o ângulo formado entre o meridiano
+                inicial,
+                Greenwich, e o meridiano do lugar que queremos localizar. A longitude varia de 0º a 180 para Leste e
+                para
+                Oeste. </p>
+
+
+            <p> Juntos, Latitude e Longitude formam o sistema de referência para localização espacial
+                terrestre. </p>
+
+            <img src="tp2Foto15.png" alt="tp2Foto15" class="w3-mobile">
+
+
+
+            <p>Para facilitar a localização, as coordenadas são, frequentemente, dispostas em um
+                planisfério (assunto ligado as Projeções Cartográficas que veremos nas próximas aulas). </p>
+
+            <img src="tp2Foto16.png" alt="tp2Foto16" class="w3-mobile">
+
+            <span class="citacao"> Fonte: https://suportegeografico77.blogspot.com/ </span>
+
+
+            <p>Para localizarmos qualquer ponto na superfície da Terra, basta iniciarmos pela Latitude
+                (Norte ou Sul) e depois a Longitude (Oeste ou Leste). </p>
+
+
+            <p> Exemplo: Localização do ponto A acima: </p>
+            <p> <span class="w3-yellow">Ponto A:</span> Lat. 50ºS, Long. 100ºL ou 50ºS 100ºL. É comum aparecer a
+                nomenclatura em inglês
+                das localizações: North, South, East e West. </p>
+            <p> <span class="w3-yellow">Ponto B:</span> Lat. 30ºN, Long. 160ºL ou 30ºN 160ºL</p>
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+
+            <hr>
+
+        </div>
+
+        
+        <div class="topico">
+
+            <p class="caixa"> Agora é com você!</p>
+
+
+            <p class="divCaixa1 w3-large">Localize no planisfério acima os pontos C, D, E e escreva em seu
+                <strong>caderno</strong> corretamente:
+            </p>
+
+            <p class="divCaixa1 w3-large">Ponto C: Lat.: ___º__; Long.:___º___.</p>
+
+            <p class="divCaixa1 w3-large">Ponto D: Lat.: ___º __; Long.:___º___.</p>
+
+            <p class="divCaixa1 w3-large">Ponto E: Lat.: ___º __; Long.:___º___.</p>
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this);">Próximo</button>
+
+
+
+            <p id="resp12"></p>
+
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinho12" style="display:none" alt="globinho12"
+                        width="64" height="64"> </p>
+            </div>
+
+            <hr>
+
+
+
+
+        </div>
+
+
+        <!-- BLOCO: GPS e Cartografia Digital -->
+        <div class="topico">
+
+            <h2>Do papiro ao satélite: como o GPS encontra você</h2>
+
+            <p>A senhora Cartografia comentou, lá na entrevista, que hoje está "inteiramente conectada com os
+                satélites pela internet". Vale entender como isso funciona, já que você provavelmente usa esse
+                sistema todos os dias sem perceber, seja para chegar a um endereço novo, seja para saber o horário
+                de chegada do ônibus.</p>
+
+            <p>O <span class="termo" data-palavra="GPS / GNSS"
+                    data-definicao="Sistema de Posicionamento Global: rede de satélites que envia sinais de rádio à Terra, permitindo que um receptor calcule sua latitude, longitude e altitude com alta precisão. GNSS é o nome genérico para qualquer sistema desse tipo (GPS, GLONASS, Galileo, BeiDou)."><strong>GPS</strong></span>
+                (Global Positioning System, ou Sistema de Posicionamento Global) foi criado pelos Estados Unidos, a
+                princípio para uso militar, e se tornou disponível para uso civil nas décadas seguintes. Hoje ele é
+                apenas um entre vários sistemas do tipo <strong>GNSS</strong> (sigla em inglês para Sistema Global
+                de Navegação por Satélite): a Rússia opera o GLONASS, a União Europeia o Galileo e a China o BeiDou.
+                Juntos, esses quatro sistemas somam mais de 130 satélites ativos orbitando a Terra, o que garante
+                que, em praticamente qualquer ponto do planeta, um receptor consiga captar sinal de satélites
+                suficientes para calcular sua posição.</p>
+
+            <p>O princípio é, na essência, o mesmo das coordenadas geográficas que você acabou de aprender. Cada
+                satélite envia constantemente um sinal de rádio informando sua posição exata e o horário exato em
+                que o sinal foi enviado. O receptor no seu celular capta o sinal de pelo menos quatro satélites
+                diferentes e, calculando o tempo que cada sinal levou para chegar (multiplicado pela velocidade da
+                luz), consegue calcular a distância até cada um deles. Cruzando essas distâncias, o aparelho
+                converte tudo em uma latitude e uma longitude, exatamente o sistema de paralelos e meridianos que
+                a humanidade vem aperfeiçoando desde os gregos.</p>
+
+            <p>As aplicações vão muito além de aplicativos de trânsito como o Waze ou o Google Maps. A
+                agricultura de precisão usa GPS acoplado a tratores para plantar e colher com margem de erro de
+                centímetros, economizando sementes e combustível. Companhias aéreas e marítimas dependem do sistema
+                para traçar rotas seguras. Serviços de entrega e aplicativos de transporte calculam tempo de
+                chegada em tempo real. Até pesquisas científicas sobre o movimento das placas tectônicas usam
+                receptores de GPS fixos para medir, com precisão milimétrica, o quanto os continentes se deslocam
+                a cada ano. É a mesma pergunta que a humanidade tenta responder desde as pinturas nas cavernas,
+                "onde eu estou?", só que agora respondida em segundos e com margem de erro de poucos metros.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+
+
+
+        <!-- BLOCO: Mapas e Poder -->
+        <div class="topico">
+
+            <h2>Mapas e poder: a Cartografia não é neutra</h2>
+
+            <p>Existe uma ideia enganosa de que um mapa é só uma foto objetiva da realidade. Na prática, todo
+                mapa é uma escolha: quem o desenha decide o que aparece, o que fica de fora, qual ponto fica no
+                centro e, principalmente, qual sistema de <strong>projeção cartográfica</strong> usar para transformar a
+                superfície esférica da Terra em um desenho plano, algo matematicamente impossível de fazer sem
+                distorcer alguma coisa. Esse é um assunto que você vai aprofundar em aulas futuras, mas já vale
+                conhecer o problema que ele resolve.</p>
+
+            <p>O exemplo mais estudado é a projeção de Mercator, criada em 1569 pelo cartógrafo flamengo
+                Gerardus Mercator para facilitar a navegação marítima: como ela representa os meridianos como
+                linhas retas e paralelas (quando, na realidade, eles se encontram nos polos), o preço pago é o
+                exagero do tamanho das áreas mais distantes do Equador. O resultado é que a Groenlândia aparece
+                do mesmo tamanho que o continente africano nesse tipo de mapa, quando na realidade a África é cerca
+                de 14 vezes maior. Europa e América do Norte também aparecem desproporcionalmente grandes, enquanto
+                países próximos ao Equador, como o Brasil, ficam visualmente "encolhidos" em relação ao seu tamanho
+                real.</p>
+
+            <p>Esse tipo de distorção não é só um detalhe técnico. Movimentos como a campanha "Correct The Map",
+                apoiada pela organização Africa No Filter e pela Comissão da União Africana, argumentam que a
+                proporção com que um continente aparece no mapa mundial influencia, mesmo que de forma sutil, a
+                percepção de sua importância política e econômica, e defendem a adoção de projeções alternativas,
+                como a Equal Earth, que preservam a proporção real entre as áreas dos continentes.</p>
+
+            <p>O Brasil também tem sua própria tradição de questionar o mapa "padrão". Em 1943, o artista
+                uruguaio Joaquín Torres García desenhou a "América Invertida", um mapa da América do Sul de ponta-cabeça,
+                com o Sul no topo, acompanhado da frase "nuestro norte es el sur" ("nosso norte é o sul"). Repare, no
+                esboço original abaixo, que ele até anotou coordenadas geográficas reais no desenho, a latitude e a
+                longitude de Montevidéu (34°S, 56°O), como se estivesse assinando o mapa com o mesmo tipo de
+                informação que você aprendeu nesta aula.</p>
+
+            <div class="w3-center">
+                <img src="tp2f18.png" alt="América Invertida, esboço de Joaquín Torres García, 1943, mapa da América do Sul desenhado de ponta-cabeça"
+                    class="w3-mobile" style="max-width:280px">
+                <br><span class="citacao">Joaquín Torres García, esboço da "América Invertida", 1943. Obra em
+                    domínio público (o artista faleceu em 1949).</span>
+            </div>
+
+            <p>Não se
+                trata de uma projeção cartográfica tecnicamente nova, mas de uma obra artística e política: um
+                lembrete de que colocar o hemisfério Norte sempre no topo dos mapas também é uma convenção, a mesma
+                ideia de convenção que você viu na explicação sobre o Leste e o Oeste, e não uma verdade absoluta
+                da natureza. Nada, na física do planeta, obriga um mapa a ser desenhado com o Norte para cima:
+                essa é apenas a forma que se tornou costume ao longo da história europeia da Cartografia.</p>
+
+            <p>Entender isso não significa desconfiar de todo mapa, mas sim lê-lo de forma crítica: perguntar
+                quem o produziu, com qual objetivo e qual projeção foi escolhida. É exatamente esse tipo de leitura
+                crítica do espaço que a Geografia se propõe a ensinar, e que você vai aprofundar quando estudar,
+                nas próximas aulas, os fusos horários e outras formas de representar o tempo e o espaço na
+                superfície terrestre.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="inforesumotp2" src="inforesumotp2.webp" alt="Infográfico resumo cartografia"
+                    class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor.
+                </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+
+        </div>
+
+
+        <!-- BLOCO: Perguntas e Respostas -->
+        <div class="topico">
+
+
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!
+            </h2>
+
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Sempre que penso em Geografia já
+                    me lembro de mapas, isso é correto?</strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Sim, isso é normal devido à associação com a
+                linguagem cartográfica. Aliás, podemos dizer que a linguagem da Geografia é a Cartografia. Embora os
+                mapas
+                sejam usados em diversas áreas do conhecimento, é na Geografia que ele é mais evidente pelo fato de que
+                o
+                estudo do espaço geográfico se torna melhor representado pelos mapas.</p>
+
+
+
+            <p class="w3-border w3-round-large"><span class="primeiraLetra">P:</span> <strong>Qual a diferença entre mapas,
+                    cartas e
+                    plantas?</strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Trata-se, mais uma vez, de formas de representar o
+                espaço geográfico e do nível de detalhes que queremos revelar. Por exemplo, quero que um arquiteto faça
+                um
+                modelo de uma casa, ele usará uma planta com uma escala próxima da realidade (assunto que veremos nas
+                próximas aulas). Já o mapeamento de bairro inteiro exige outra escala. Quero representar o território
+                brasileiro, então usamos o mapa, pois o nível de detalhes não será muito grande.</p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Qual a circunferência da Terra e
+                    quanto vale 1º em km, já que a Terra é uma esfera de 360º?</strong> </p>
+
+            <p><span class="primeiraLetra">R:</span> Para saber quanto vale 1º grau devemos dividir a
+                circunferência da Terra no Equador, que é de 40.075 km por 360º. O resultado é de aproximadamente 111
+                km.
+                Isso no Equador, pois a longitude varia de acordo com a proximidade dos polos. Como o dia tem 24 horas e
+                uma
+                circunferência tem 360º, se dividirmos 360 por 24m obteremos 15º, que é o caminho percorrido pela Terra
+                em
+                apenas 1 hora. Calcular a longitude é fazer esse cálculo de tempo entre uma posição e outra. </p>
+
+          
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <br><br>
+
+
+            <hr>
+
+        </div>
+
+
+
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+            <h2>O que mudou no seu olhar</h2>
+
+            <p>Releia as três perguntas que você escreveu depois da entrevista com a Cartografia. Você já consegue respondê-las com o que aprendeu? Antes desta aula, "se localizar" provavelmente significava só olhar um mapa pronto. Agora você sabe que por trás de qualquer ponto marcado num mapa existe um sistema construído ao longo de milhares de anos: das pinturas em cavernas e do mapa de Eratóstenes até a grade de paralelos e meridianos que você usou para encontrar os pontos C, D e E no planisfério.</p>
+
+            <p>Pontos cardeais e coordenadas geográficas resolvem o mesmo problema em escalas diferentes: os pontos cardeais bastam para dizer "para que lado eu vou", mas só a latitude e a longitude conseguem apontar um único lugar entre os bilhões de pontos da superfície da Terra, a mesma lógica que faz o GPS do seu celular funcionar. E, como você viu no bloco sobre Mercator e sobre a América Invertida, nenhum mapa é neutro: toda escala e toda projeção carrega escolhas.</p>
+
+            <p>Falando em escolhas: se a latitude e a longitude localizam um ponto no espaço, ainda falta responder a uma pergunta que parece simples, mas não é: que horas são nesse ponto? Na próxima aula você vai descobrir como a longitude, a mesma linha imaginária que acabou de aprender a ler, também é usada para dividir o planeta em fusos horários, e por que o Brasil tem mais de um horário oficial ao mesmo tempo.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> pontos cardeais (Norte, Sul, Leste, Oeste, a partir da rotação da Terra); orientação e convenção (acordos que tornam a localização possível); rosa dos ventos (instrumento que organiza os pontos cardeais e colaterais); escala cartográfica (relação entre o mapa e o terreno real); coordenadas geográficas (paralelos e meridianos); latitude (ângulo Norte-Sul a partir do Equador); longitude (ângulo Leste-Oeste a partir de Greenwich); GPS/GNSS (localização por satélite); projeção cartográfica (a conversão da esfera terrestre em desenho plano, sempre com alguma distorção).</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
+        <div class="topico">
+            <h3>Já pode finalizar sua lição!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+
+    ProcessarResposta(this, {
+        correto: true, 
+        idFrase: 'respFinal', 
+        idGlobo: 'globinhorespFinal', 
+        classe: '', 
+        mensagem: 'o tema Coordenadas Geográficas é fundamental para todo o resto da Cartografia. Continue estudando!',
+        pontos: 40
+    });
+    
+    MostrarProximo(this);
+">Próximo</button>
+
+            <p id="respFinal"></p>
+
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64">
+                </p>
+            </div>
+            <hr>
+        </div>
+        <!-- TÓPICO 13: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- ===== SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS ===== -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <!-- Cards gerados automaticamente pelo JS -->
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+
+
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+
+                <!-- Cards gerados automaticamente pelo JS -->
+                <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+
+    </main>
+
+
+
+    <!-- Footer -->
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

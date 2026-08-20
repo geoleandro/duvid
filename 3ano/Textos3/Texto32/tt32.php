@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 32 - Rússia: Características Gerais</title>
 
@@ -115,7 +116,7 @@
 
             <h2>O problema que esta aula vai iluminar</h2>
 
-            <p><span class="primeiraLetra">C</span>omo um país com o maior território do mundo, com reservas colossais de petróleo, gás, diamantes e madeira, tem uma economia menor que a do Brasil? Por que um país que se autoproclama herdeiro de uma grande civilização investe em guerra enquanto sua população enfrece demograficamente e emigra? E como a história do Império Russo, da URSS e do colapso soviético de 1991 explica as ações da Rússia hoje?</p>
+            <p><span class="primeiraLetra">C</span>omo um país com o maior território do mundo, com reservas colossais de petróleo, gás, diamantes e madeira, tem uma economia menor que a do Brasil? Por que um país que se autoproclama herdeiro de uma grande civilização investe em guerra enquanto sua população encolhe demograficamente e emigra? E como a história do Império Russo, da URSS e do colapso soviético de 1991 explica as ações da Rússia hoje?</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -125,7 +126,7 @@
         <!-- BLOCO 4: TERRITÓRIO E RECURSOS -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>O maior território do mundo</h2>
 
             <p><span class="primeiraLetra">A</span> Rússia tem 17,1 milhões de km², o maior território do mundo, maior que o continente sul-americano inteiro. Atravessa 11 fusos horários, faz fronteira com 14 países e tem acesso a três oceanos. Com apenas 145 milhões de habitantes, tem uma densidade demográfica de 9 pessoas por km², uma das mais baixas do mundo.</p>
@@ -135,6 +136,8 @@
             <p>O <span class="termo" data-palavra="Permafrost" data-definicao="Solo permanentemente congelado que cobre cerca de 65% do território russo (principalmente a Sibéria).">permafrost</span> (solo permanentemente congelado) cobre dois terços do território russo. Com o aquecimento global, esse solo está derretendo, liberando metano acumulado por milênios e destruindo infraestrutura construída sobre o gelo. A Rússia, curiosamente, é um dos países mais afetados pelas mudanças climáticas que suas exportações de combustíveis fósseis ajudam a causar.</p>
 
             <p><strong>A economia russa</strong> é dominada pela exportação de petróleo e gás: em 2021, esses recursos representavam 40% das receitas do governo e 60% das exportações. Essa dependência extrema de commodities energéticas torna a Rússia vulnerável às oscilações do preço internacional do petróleo e impede a diversificação industrial. O PIB russo é inferior ao do Brasil, apesar do território e dos recursos naturais.</p>
+
+            <p>O aquecimento global, que derrete o permafrost e ameaça a infraestrutura russa, também abre uma nova fronteira econômica no Ártico: a <span class="termo" data-palavra="Rota do Mar do Norte" data-definicao="Rota marítima que liga a Europa à Ásia navegando ao longo da costa ártica russa, ao norte da Sibéria. Historicamente bloqueada pelo gelo na maior parte do ano, vem ficando navegável por períodos cada vez mais longos devido ao derretimento do gelo marinho causado pelo aquecimento global. A Rússia investe pesadamente nessa rota, que encurta drasticamente a viagem entre a Ásia e a Europa em comparação com o Canal de Suez, e reforça sua presença militar no Ártico para garantir o controle sobre essa nova via comercial.">Rota do Mar do Norte</span>, um caminho marítimo ao longo da costa ártica que, à medida que o gelo derrete, fica navegável por mais meses do ano e encurta drasticamente o trajeto entre a Ásia e a Europa comparado à rota tradicional pelo Canal de Suez. A Rússia investe pesadamente nessa rota e reforça sua presença militar no Ártico, revelando como a crise climática, que ameaça o território russo de um lado, também cria novas oportunidades geoeconômicas do outro.</p>
 
             </div>
 
@@ -159,7 +162,9 @@
 
             <p>Em 1991, a <span class="termo" data-palavra="Dissolução da URSS (1991)" data-definicao="Em dezembro de 1991, a União das Repúblicas Socialistas Soviéticas (URSS) se dissolveu em 15 países independentes após décadas de crise econômica, guerra no Afeganistão (1979-1989), revoltas nas repúblicas e as reformas de Gorbachev (glasnost e perestroika). Para a Rússia, foi o que Putin chamou de 'a maior catástrofe geopolítica do século XX': o país perdeu 5 milhões de km², 140 milhões de habitantes, acesso ao Mar Báltico e ao Mar Negro, e viu países que antes faziam parte do bloco soviético aderir à OTAN e à União Europeia. A crise econômica dos anos 1990 empobreceu a população e destruiu as estruturas do Estado, criando o contexto para a ascensão de Putin em 2000.">URSS se dissolveu</span> em 15 países independentes. Para a Rússia, foi o que o presidente Vladimir Putin chamou de "a maior catástrofe geopolítica do século XX": o país perdeu território, população, influência e prestígio. A crise econômica dos anos 1990 foi devastadora: o PIB russo caiu 50%, a expectativa de vida diminuiu, a criminalidade explorou. Nesse contexto de colapso, Putin chegou ao poder em 2000.</p>
 
-            <p><strong>Putin e o Estado russo contemporâneo:</strong> desde 2000, Putin concentrou poder progressivamente. A imprensa independente foi fechada ou comprada por oligarcas aliados do governo. Opositores foram presos, envenenados ou mortos. O sistema eleitoral existe formalmente, mas sem competição real. A Rússia de Putin é classificada por analistas como "autocracia eleitoral": as formas da democracia existem, mas o poder real é indivisível. O parlamento aprovou em 2020 uma reforma constitucional que permite a Putin governar até 2036.</p>
+            <p><strong>Putin e o Estado russo contemporâneo:</strong> desde 2000, Putin concentrou poder progressivamente. A imprensa independente foi fechada ou comprada por oligarcas aliados do governo. Opositores foram presos, envenenados ou mortos. O sistema eleitoral existe formalmente, mas sem competição real. A Rússia de Putin é classificada por analistas como "autocracia eleitoral": as formas da democracia existem, mas o poder real é indivisível. O parlamento aprovou em 2020 uma reforma constitucional que permite a Putin governar até 2036, e em março de 2024 ele foi "reeleito" para um quinto mandato com quase 90% dos votos, numa eleição sem oposição real e marcada pela mais dura repressão a candidatos críticos desde a era soviética.</p>
+
+            <p><strong>Fato interessante:</strong> mesmo esse controle quase absoluto foi diretamente desafiado em junho de 2023, quando Yevgeny Prigozhin, chefe do Grupo Wagner (a milícia mercenária que lutava ao lado do exército russo na Ucrânia), liderou um motim armado: suas tropas tomaram a cidade de Rostov-on-Don e avançaram rumo a Moscou antes de recuar, em menos de 24 horas, mediante acordo que previa seu exílio em Belarus. Exatamente dois meses depois, em agosto de 2023, o avião particular em que Prigozhin viajava caiu misteriosamente perto de Moscou, matando todos a bordo. O episódio, amplamente interpretado como uma vingança do Kremlin, mostra os limites reais da "autocracia eleitoral": Putin tolera pouquíssima dissidência, mas o motim revelou rachaduras dentro do próprio aparato de poder que sustenta a guerra na Ucrânia.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -175,7 +180,7 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>O pais não tem refinarias proprias</span></label>
+                    <label for="p1a" class="card-opcao"><span>O país não tem refinarias próprias</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
@@ -189,7 +194,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Quando o petróleo cai ou sanções bloqueiam vendas, a receita russa despenca — uma economia não diversificada fica refém do mercado internacional.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Quando o petróleo cai ou sanções bloqueiam vendas, a receita russa despenca: uma economia não diversificada fica refém do mercado internacional.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -204,7 +209,7 @@
         <!-- BLOCO 7: GUERRA NA UCRÂNIA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A guerra na Ucrânia e a geopolítica russa</h2>
 
             <p><span class="primeiraLetra">E</span>m fevereiro de 2022, a Rússia lançou uma invasão em larga escala da Ucrânia, o maior conflito armado na Europa desde a Segunda Guerra Mundial. Para entender por que, é preciso olhar para a geopolítica da região.</p>
@@ -213,7 +218,35 @@
 
             <p><strong>A perspectiva ucraniana e ocidental:</strong> países soberanos têm o direito de escolher suas alianças. A Ucrânia não é propriedade da Rússia. A invasão violou o direito internacional e a soberania ucraniana. O resultado foi a morte de dezenas de milhares de civis, a destruição de cidades inteiras e o deslocamento de mais de 6 milhões de ucranianos para outros países europeus.</p>
 
+            <p>Um dos motivos pelos quais a OTAN nunca enviou tropas próprias para lutar diretamente contra a Rússia
+                na Ucrânia é o <span class="termo" data-palavra="Dissuasão nuclear" data-definicao="Estratégia militar baseada na ideia de que um país com armas nucleares evita ser atacado diretamente por outras potências, já que qualquer confronto direto poderia escalar para uma guerra nuclear. A Rússia possui o maior arsenal nuclear do mundo, o que faz com que países da OTAN evitem confronto militar direto com ela, preferindo apoiar a Ucrânia com armas e dinheiro em vez de tropas próprias.">poder nuclear russo</span>.
+                A Rússia possui o maior arsenal nuclear do mundo, herdado em grande parte da URSS, com milhares de
+                ogivas espalhadas entre mísseis, submarinos e bombardeiros, muitas delas posicionadas em
+                <span class="termo" data-palavra="Kaliningrado" data-definicao="Exclave russo situado entre a Polônia e a Lituânia, sem fronteira terrestre com o restante da Rússia, herdado da anexação soviética de território alemão após a Segunda Guerra Mundial. Abriga uma importante base militar russa, incluindo armamento nuclear, e está cercado por países da OTAN, o que o torna um dos pontos mais sensíveis da tensão entre Rússia e o Ocidente.">Kaliningrado</span>,
+                um pequeno território russo isolado entre a Polônia e a Lituânia, hoje cercado por
+                países da OTAN por todos os lados. Em 2024, Putin assinou uma revisão da
+                doutrina nuclear russa que reduziu as condições para o uso dessas armas, e ao longo da guerra
+                utilizou repetidamente ameaças nucleares veladas como forma de desencorajar uma intervenção
+                ocidental mais direta. O principal tratado que limitava os arsenais nucleares russo e americano, o
+                New START, assinado ainda em 2010, expirou em fevereiro de 2026 sem ser renovado, deixando as duas
+                maiores potências nucleares do planeta sem limites formais sobre suas armas pela primeira vez em
+                décadas, algo que não acontecia desde o auge da Guerra Fria, o que preocupa especialistas em
+                segurança internacional e organizações que monitoram o risco de conflitos nucleares no mundo,
+                justamente num momento em que a confiança entre Rússia e Ocidente está no seu nível mais baixo
+                desde o fim da Guerra Fria.</p>
+
             <p>O conflito tem consequências globais: o bloqueio do trigo ucraniano e russo nos primeiros meses de guerra ameaçou a segurança alimentar de países africanos dependentes dessas importações; os preços de energia dispararam no mundo inteiro; e as sanções econômicas ao redor da Rússia aceleraram a reorganização do comércio global, com a Rússia se voltando mais para China, Índia e países do Sul Global.</p>
+
+            <p>Para driblar as sanções que proíbem países ocidentais de comprar petróleo russo por via marítima, a Rússia passou a depender de uma <span class="termo" data-palavra="Frota fantasma" data-definicao="Conjunto de mais de mil petroleiros antigos, sem seguro ocidental e de propriedade difícil de rastrear, usados pela Rússia para transportar petróleo driblando as sanções internacionais impostas após a invasão da Ucrânia em 2022. Vende o petróleo com desconto para compradores como China, Índia e, em menor escala, o Brasil, que passou a importar diesel russo transportado por essa frota.">frota fantasma</span>
+                de mais de mil navios sem seguro nem fiscalização adequada, que entrega petróleo com desconto para
+                compradores como China e Índia, hoje os maiores parceiros comerciais de Moscou. O Brasil também
+                entrou nessa rota: em 2025 e 2026 o país importou volumes crescentes de diesel russo transportado
+                por essa frota, driblando indiretamente as sanções ocidentais, o que mostra como um conflito do
+                outro lado do mundo acaba influenciando até o preço do combustível no posto brasileiro.</p>
+
+            <p>Em agosto de 2024, a guerra ganhou um capítulo inédito: a Ucrânia lançou uma incursão surpresa dentro do próprio território russo, ocupando parte da região de Kursk, a primeira vez que a integridade territorial da Rússia era violada desde a Segunda Guerra Mundial. O objetivo ucraniano era forçar a Rússia a desviar tropas das frentes de batalha em Donetsk e Lugansk. A resposta russa incluiu um reforço inesperado: milhares de soldados norte-coreanos enviados pela Coreia do Norte, aliada da Rússia, para ajudar a expulsar as forças ucranianas de Kursk, episódio que internacionalizou ainda mais o conflito e demonstrou como a guerra reorganizou alianças militares em escala global.</p>
+
+            <p>Até 2026, a guerra segue sem um fim definido. Rodadas de negociação direta entre Rússia e Ucrânia, mediadas por países como a Turquia, ocorreram ao longo de 2025 sem produzir avanços significativos: a Rússia exige que a Ucrânia se retire de territórios anexados que nunca controlou por completo e abandone qualquer perspectiva de entrar na OTAN; a Ucrânia insiste em garantias de segurança concretas, entre elas justamente a adesão à OTAN, para impedir que um cessar-fogo sirva apenas para a Rússia se reorganizar e invadir de novo mais tarde. Diferentes tentativas de mediação, incluindo propostas de trégua em datas simbólicas como o Natal e a Páscoa, não resultaram em uma paz duradoura. O impasse mostra como guerras que parecem "travadas" no noticiário continuam custando vidas e recursos todos os dias.</p>
 
             </div>
 
@@ -244,10 +277,28 @@
                 (nesse caso, o soviético) continuam gerando conflitos étnicos e territoriais muito tempo depois
                 do desaparecimento desse império.</p>
 
+            <p>A diversidade étnica não é só um problema de fronteira externa: ela também atravessa o próprio
+                território russo, organizado em repúblicas <span class="termo" data-palavra="Federalismo étnico russo" data-definicao="Estrutura administrativa herdada da URSS em que parte do território russo é dividida em repúblicas com base em grupos étnicos não eslavos, como Buriácia, Daguestão, Tchetchênia e Tartaristão. Essas repúblicas têm, em teoria, certa autonomia cultural e linguística, mas na prática estão sob forte controle do governo central de Moscou.">como Buriácia, Daguestão e Tartaristão</span>,
+                habitadas por povos não eslavos como buriatos, daguestaneses e tártaros. Desde a mobilização militar
+                de setembro de 2022, ficou claro que a guerra na Ucrânia não pesa igualmente sobre todos os russos:
+                levantamentos de veículos de imprensa independentes mostram que soldados dessas repúblicas
+                periféricas e mais pobres morreram em combate numa proporção muito maior do que moradores de Moscou
+                ou São Petersburgo. A Buriácia, por exemplo, teve uma taxa de mortos em combate por habitante
+                dezenas de vezes maior que a da capital russa, um padrão que expõe como o peso da guerra recai
+                de forma desigual sobre as regiões mais distantes do poder central.</p>
+
+            <p>A guerra também aprofundou uma crise demográfica que já vinha de antes: a Rússia registra mais
+                mortes do que nascimentos há anos, e a mobilização de 2022 provocou a saída de centenas de milhares
+                de russos, muitos deles jovens qualificados que temiam ser convocados para o front. Some-se a isso
+                as próprias baixas de guerra, e o resultado é um país que perde população justamente na faixa etária
+                que sustenta a economia e paga os impostos que financiam o Estado no futuro, uma contradição que
+                ajuda a explicar por que, apesar do imenso território e das riquezas naturais, a Rússia enfrenta
+                dificuldades crescentes para sustentar seu próprio desenvolvimento a longo prazo.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
-        
+
 
 
         <!-- BLOCO 8b: QUESTÃO PRÁTICA 2 -->
@@ -273,7 +324,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Rússia e Ucrânia produzem 30% do trigo mundial. A guerra bloqueou exportações e o preço subiu — o conflito na Europa afeta o pão no Brasil.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Rússia e Ucrânia produzem 30% do trigo mundial. A guerra bloqueou exportações e o preço subiu: o conflito na Europa afeta o pão no Brasil.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -291,12 +342,12 @@
             <div class="duvid-bloco-apoio w3-margin-top">
                 <p class="w3-small w3-text-grey">TEXTO DE APOIO</p>
                 <blockquote>
-                    <p>"A geopolitica da Rússia é, em grande medida, a geopolitica do medo: medo de ser cercada, medo de perder zonas de influência, medo de ser relegada a potência de segunda classe. Esse medo não justifica a invasão da Ucrânia, mas explica sua logica interna. Estados que se sentem acuados frequentemente agem de forma que piora sua situação, em vez de melhorá-la. É o que os historiadores chamam de 'dilema de segurança': quando um lado toma medidas defensivas, o outro interpreta como ameaça e responde com escalada."</p>
+                    <p>"A geopolítica da Rússia é, em grande medida, a geopolítica do medo: medo de ser cercada, medo de perder zonas de influência, medo de ser relegada a potência de segunda classe. Esse medo não justifica a invasão da Ucrânia, mas explica sua lógica interna. Estados que se sentem acuados frequentemente agem de forma que piora sua situação, em vez de melhorá-la. É o que os historiadores chamam de 'dilema de segurança': quando um lado toma medidas defensivas, o outro interpreta como ameaça e responde com escalada."</p>
                 </blockquote>
                 <p class="w3-small">MEARSHEIMER, John. <em>The Great Delusion: Liberal Dreams and International Realities.</em> Yale University Press, 2018, p. 91.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto e no que você estudou, responda:</strong></p>
 
@@ -314,13 +365,15 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
-            <p><span class="primeiraLetra">A</span>ntes parecia que a Rússia era simplesmente um "vilão" que invadiu um país vizinho sem motivo, ou pelo contrário, que estava apenas se defendendo de uma provocação ocidental. Agora você ve que a situação tem camadas historicas: a dissolução da URSS, a expansão da OTAN, a geopolitica dos recursos naturais e o autoritarismo interno de Putin formam um quadro complexo que não cabe em versão simples.</p>
+            <p><span class="primeiraLetra">A</span>ntes parecia que a Rússia era simplesmente um "vilão" que invadiu um país vizinho sem motivo, ou pelo contrário, que estava apenas se defendendo de uma provocação ocidental. Agora você vê que a situação tem camadas históricas: a dissolução da URSS, a expansão da OTAN, a geopolítica dos recursos naturais e o autoritarismo interno de Putin formam um quadro complexo que não cabe em versão simples.</p>
 
             <p>Entender a Rússia exige distinguir explicação de justificativa, e reconhecer que países, como pessoas, tomam decisões ruins por razões que fazem sentido dentro de uma lógica que pode estar errada.</p>
+
+            <p>Na próxima parada, você vai conhecer outra potência que também reivindica um lugar de destaque no mundo, mas por um caminho bem diferente do russo: a China, cuja economia hoje rivaliza com a dos Estados Unidos.</p>
 
             </div>
 
@@ -329,8 +382,12 @@
                 <li>Território e recursos naturais russos (taiga, permafrost)</li>
                 <li>Dissolução da URSS e consequências para a Rússia</li>
                 <li>Dependência do petróleo e gás na economia russa</li>
-                <li>Guerra na Ucrânia: perspectivas e consequências globais</li>
-                <li>O dilema de segurança na geopolítica</li>
+                <li>Putin: reeleição de 2024 e o motim de Prigozhin (2023)</li>
+                <li>Guerra na Ucrânia: perspectivas, incursão de Kursk e impasse nas negociações</li>
+                <li>Poder nuclear russo, doutrina militar e fim do tratado New START</li>
+                <li>Frota fantasma e a reorientação do comércio russo para China, Índia e Brasil</li>
+                <li>Conflitos do Cáucaso e o dilema de segurança na geopolítica</li>
+                <li>Federalismo étnico e crise demográfica na Rússia</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -357,6 +414,11 @@
                 <strong>Por que o permafrost derretendo é um problema tão grave?</strong>
             </p>
             <p>O permafrost siberiano contém quantidades enormes de metano acumuladas por milênios no solo congelado. Ao derreter, libera esse gás na atmosfera. O metano é um gás de efeito estufa cerca de 80 vezes mais potente que o CO2 em um horizonte de 20 anos. Isso cria um ciclo de retroalimentação: aquecimento global derrete o permafrost, que libera metano, que acelera o aquecimento. Além disso, o derretimento destrói estradas, prédios e oleodutos construídos sobre o solo congelado.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>O que foi o motim de Prigozhin e a incursão ucraniana em Kursk?</strong>
+            </p>
+            <p>São dois episódios que mostram rachaduras na aparente força do sistema de Putin. Em junho de 2023, Yevgeny Prigozhin, chefe do grupo mercenário Wagner, chegou a marchar com tropas rumo a Moscou antes de recuar; dois meses depois, morreu num acidente de avião amplamente atribuído a uma retaliação do Kremlin. Já em agosto de 2024, a Ucrânia invadiu a região russa de Kursk, a primeira violação do território russo desde a Segunda Guerra Mundial, forçando a Rússia a recorrer até a tropas norte-coreanas para expulsar os ucranianos. Ambos os episódios desafiam a imagem de controle total projetada pelo governo russo.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
@@ -414,13 +476,13 @@
 
             <h3>6. Explique a dependência da Rússia de exportações de petróleo e gás. Quais são os riscos dessa dependência?</h3>
 
-            <h3>7. (ANALÍTICA) Putin chamou a dissolução da URSS de "a maior catástrofe geopolítica do século XX". Você concorda com essa avaliação? Para quem foi uma catástrofe? Para quem foi uma libertação?</h3>
+            <h3>7. Putin chamou a dissolução da URSS de "a maior catástrofe geopolítica do século XX". Você concorda com essa avaliação? Para quem foi uma catástrofe? Para quem foi uma libertação?</h3>
 
-            <h3>8. (ANALÍTICA) A invasão da Ucrânia foi justificada pela Rússia como reação à expansão da OTAN. É possível entender a perspectiva russa sem justificar a invasão? Qual é a diferença entre explicar e justificar um ato de guerra?</h3>
+            <h3>8. A invasão da Ucrânia foi justificada pela Rússia como reação à expansão da OTAN. É possível entender a perspectiva russa sem justificar a invasão? Por que as negociações de paz entre os dois países seguem travadas até 2026?</h3>
 
             <h3>9. Como a guerra na Ucrânia afetou os preços de alimentos e energia no mundo? Por que um conflito na Europa afeta o preço do pão no Brasil?</h3>
 
-            <h3>10. (ANALÍTICA) A Rússia exporta quantidades enormes de combustíveis fósseis, mas ao mesmo tempo é um dos países mais afetados pelo aquecimento global (derretimento do permafrost). Como você analisa essa contradição? Que tipo de dilema isso representa para a Rússia?</h3>
+            <h3>10. A Rússia exporta quantidades enormes de combustíveis fósseis, mas ao mesmo tempo é um dos países mais afetados pelo aquecimento global (derretimento do permafrost). Como você analisa essa contradição? Que tipo de dilema isso representa para a Rússia?</h3>
 
             </div>
 
@@ -442,7 +504,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é essencial para entender as tensões geopolíticas que afetam o mundo em que você vive. Continue estudando!',
+        mensagem: 'o tema Rússia: Características Gerais é essencial para entender as tensões geopolíticas que afetam o mundo em que você vive. Continue estudando!',
         pontos: 40
     });
 
@@ -475,6 +537,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

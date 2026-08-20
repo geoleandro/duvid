@@ -80,11 +80,21 @@ main.texto-layout {
 }
 
 /* ── Body row: coluna esquerda + painel ──────────────────────────── */
+/* width:100% é necessário além do max-width: como .texto-body-row é filho
+   de main.texto-layout (flex-direction:column), o margin:0 auto do lado
+   cross-axis some override o align-items:stretch/normal (regra de auto-margin
+   do Flexbox), fazendo o grid encolher para o tamanho do conteúdo (shrink-to-fit)
+   em vez de esticar até o max-width. Isso fazia a tela de "Iniciar Aula"
+   (pouco texto) renderizar mais estreita que as demais telas da aula, alargando
+   de repente ao avançar para um tópico com mais texto. width:100% garante que
+   o box sempre reivindique a largura total disponível (até o cap do max-width)
+   já no primeiro paint, independente da quantidade de conteúdo visível. */
 .texto-body-row {
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 32px;
     align-items: start;
+    width: 100%;
     max-width: 1148px;
     margin: 0 auto;
     padding: 0 48px;
@@ -95,6 +105,7 @@ main.texto-layout {
 .texto-coluna {
     flex: 1;
     min-width: 0;
+    width: 100%;
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
@@ -2201,4 +2212,63 @@ body.dark-mode .texto-content-inner .w3-modal-content .w3-display-topright.w3-re
 body.dark-mode .texto-content-inner .w3-modal-content .w3-display-topright.w3-red:hover {
     background: #e53935 !important;
     color: #fff !important;
+}
+
+/* ════════════════════════════════════════════════════════════════════
+   @MEDIA PRINT — PDF limpo sem sidebar
+   ════════════════════════════════════════════════════════════════════ */
+@media print {
+    /* Ocultar tudo que não é conteúdo */
+    #sidebar-duvid,
+    nav, header, footer,
+    .texto-painel,
+    .texto-hero,
+    .texto-audio-player,
+    .btn-salvar-pdf-wrapper,
+    .btnShow,
+    #btn-topo,
+    .w3-modal,
+    .texto-badge,
+    .topico > button,
+    .topico > hr:last-child {
+        display: none !important;
+    }
+
+    /* Desfazer o grid de 3 colunas */
+    main.texto-layout {
+        display: block !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .texto-body-row {
+        display: block !important;
+    }
+    .texto-coluna {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    /* Mostrar todos os tópicos, mesmo os ocultos */
+    .topico {
+        display: block !important;
+        page-break-inside: avoid;
+    }
+
+    /* Tipografia limpa */
+    body {
+        font-size: 11pt !important;
+        background: #fff !important;
+        color: #000 !important;
+    }
+    .texto-content-inner {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    /* Links: mostrar URL ou suprimir decoração */
+    a { color: #000 !important; text-decoration: none !important; }
+
+    /* Evitar quebra de página no meio de parágrafo */
+    p, h2, h3, h4 { page-break-inside: avoid; orphans: 3; widows: 3; }
 }

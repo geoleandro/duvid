@@ -1293,6 +1293,10 @@ body.dark-mode img {
   filter: brightness(.6) contrast(1.2);
 }
 
+body.dark-mode #modal-img-globinho {
+  filter: none;
+}
+
 /* --- DARK MODE: TAGS --- */
 body.dark-mode .duvid-tag-assunto {
   background-color: #333 !important;

@@ -1,75 +1,75 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-10T17:36:14-03:00",
+    "gerado_em": "2026-08-20T18:44:50-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Ao menos 111 mortos após o 'maior terremoto da década' atingir a Colômbia",
-            "resumo": "O abalo foi sentido em praticamente todo o país e em partes do Panamá e do Equador, incluindo a região de Quito. No Brasil, moradores de Man…",
-            "link": "https://www.bbc.com/portuguese/articles/crmr1nzz84jo?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1786393118,
+            "titulo": "Caminhão movido 100% a biodiesel atinge 500 mil km sem falhas",
+            "resumo": "Iniciativa da JBS já evitou a emissão de cerca de 1.000 toneladas de carbono",
+            "link": "https://www.poder360.com.br/poder-infra/caminhao-movido-100-a-biodiesel-atinge-500-mil-km-sem-falhas/",
+            "origem": "Poder360",
+            "cor": "#6a1b9a",
+            "ts": 1787262090,
             "data_estimada": false,
             "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
             },
             "categoria_curada": false
         },
         {
-            "titulo": "Número de mortos nos terremotos da Venezuela chega a 6.301",
-            "resumo": "Terremotos na Venezuela completam um mês\nO número de mortos nos terremotos que atingiram a Venezuela em 24 de junho chegou a 6.301, segundo …",
-            "link": "https://g1.globo.com/mundo/noticia/2026/08/10/numero-de-mortos-no-terremoto-da-venezuela-chega-a-6301.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1786392490,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Terremoto na Colômbia: mais de 60 prédios desabaram; equipes de resgate buscam sobreviventes",
-            "resumo": "Terremoto na Colômbia: mais de 60 prédios desabaram; equipes de resgate buscam sobreviventes Tremor de magnitude 7,4 deixou 111 mortos e 87 …",
-            "link": "https://g1.globo.com/mundo/ao-vivo/ao-vivo-terremoto-colombia-destruicao.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1786392080,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Adesivo eleitoral pode levar à perda da cobertura de seguro",
-            "resumo": "Motoristas que pretendem adesivar veículos com propaganda eleitoral ou utilizá-los em atividades de campanha nas eleições 2026 devem informa…",
-            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/adesivo-eleitoral-pode-levar-perda-da-cobertura-de-seguro",
-            "origem": "Ag. Brasil Geral",
-            "cor": "#f9a825",
-            "ts": 1786382100,
+            "titulo": "Navio-plataforma da Petrobras atinge produção máxima no pré-sal",
+            "resumo": "O navio-plataforma Alexandre de Gusmão, instalado no Campo de Mero, no pré-sal da Bacia de Santos, atingiu seu patamar máximo de produção, c…",
+            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal",
+            "origem": "Ag. Brasil Economia",
+            "cor": "#1565c0",
+            "ts": 1787261100,
             "data_estimada": false,
             "categoria": {
                 "label": "Brasil",
                 "emoji": "🇧🇷",
                 "cor": "#f9a825"
             },
-            "categoria_curada": true
+            "categoria_curada": false
         },
         {
-            "titulo": "Expectativa do mercado para inflação de 2026 cai para 5,02%",
-            "resumo": "Pela sexta semana consecutiva, o mercado financeiro revê para baixo as expectativas que tem para a inflação em 2026. De acordo com o Boletim…",
-            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao-de-2026-cai-para-502",
+            "titulo": "SP: Enel apresenta alegações finais contra caducidade da concessão",
+            "resumo": "A Eletropaulo Metropolitana Eletricidade de São Paulo (Enel SP), concessionária de distribuição de energia elétrica de São Paulo, apresentou…",
+            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao",
             "origem": "Ag. Brasil Economia",
             "cor": "#1565c0",
-            "ts": 1786365720,
+            "ts": 1787260680,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Frente fria leva chuva e ventania à capital paulista e áreas do estado",
+            "resumo": "Uma frente fria que avança sobre o Sudeste vai provocar queda na temperatura já nesta noite de quinta-feira (20) e também na sexta na capita…",
+            "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/frente-fria-leva-chuva-e-ventania-capital-paulista-e-areas-do-estado",
+            "origem": "Ag. Brasil Clima",
+            "cor": "#1565c0",
+            "ts": 1787258760,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Clima",
+                "emoji": "🌱",
+                "cor": "#00838f"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Dólar sobe 0,32% e fecha a R$ 5,193; Bolsa fica estável",
+            "resumo": "Mercados acompanharam a escalada das tensões entre EUA e Irã, além da alta do petróleo e da dívida norte-americana",
+            "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-032-e-fecha-a-r-5193-bolsa-fica-estavel/",
+            "origem": "Poder360",
+            "cor": "#6a1b9a",
+            "ts": 1787257875,
             "data_estimada": false,
             "categoria": {
                 "label": "Economia",
@@ -79,12 +79,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "A volta por cima dos irmãos Batista: como donos da JBS saíram da Lava Jato e voltaram aos holofotes, com participação até na diplomacia mundial",
-            "resumo": "Wesley e Joesley Batista\nBBC/ Getty images\nÉ 2017. Um advogado está sentado em frente ao computador em um escritório digno de um consultor j…",
-            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/09/a-volta-por-cima-dos-irmaos-batista-como-donos-da-jbs-sairam-da-lava-jato-e-voltaram-aos-holofotes-com-participacao-ate-na-diplomacia-mundial.ghtml",
+            "titulo": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
+            "resumo": "As exportações brasileiras de carne bovina registraram queda de 26% no balanço parcial de agosto, segundo dados do Ministério do Desenvolvim…",
+            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
             "origem": "G1 Agronegócios",
             "cor": "#33691e",
-            "ts": 1786301296,
+            "ts": 1787156236,
             "data_estimada": false,
             "categoria": {
                 "label": "Espaço Rural",

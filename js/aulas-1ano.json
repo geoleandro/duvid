@@ -13,6 +13,11 @@
       "Souza",
       "Boniface",
       "BNCC"
+    ],
+    "livros": [
+      "AmadoCapitaesAreia",
+      "RamosVidasSecas",
+      "DefoeRobinsonCrusoe"
     ]
   },
   {
@@ -29,7 +34,13 @@
       "Freitas",
       "SeneMoreira",
       "BNCC"
-    ]
+    ],
+    "livros": [
+      "StevensonIlhaTesouro",
+      "VerneVinteMilLeguas",
+      "SwiftViagensGulliver"
+    ],
+      "mapaMental": "1ano/Textos1/Texto02/inforesumotp2.webp"
   },
   {
     "id": 103,
@@ -43,7 +54,13 @@
     "bibliografia": [
       "CarvalhoAraujo",
       "SantosGlobalizacao"
-    ]
+    ],
+    "livros": [
+      "VerneVoltaMundo80Dias",
+      "CarrollAliceMaravilhas",
+      "SaintExuperyPequenoPrincipe"
+    ],
+    "mapaMental": "1ano/Textos1/Texto03/inforesumotp3.webp"
   },
   {
     "id": 104,
@@ -59,7 +76,13 @@
       "BNCC"
     ],
     "objetivo": "Entender e aplicar o conceito de escala geográfica e cartográfica.",
-    "audio": null
+    "audio": null,
+    "livros": [
+      "BorgesRigorCiencia",
+      "CalvinoCidadesInvisiveis",
+      "SwiftGulliverEscala"
+    ],
+    "mapaMental": "1ano/Textos1/Texto04/inforesumotp4.webp"
   },
   {
     "id": 105,
@@ -82,6 +105,11 @@
       "ProjecoesCartograficasD3",
       "40MapasMundo",
       "BBCMapaMundoReal"
+    ],
+    "livros": [
+      "MarcoPoloLivroMaravilhas",
+      "EcoComoViajarComUmSalmao",
+      "OndaatjePacienteIngles"
     ]
   },
   {

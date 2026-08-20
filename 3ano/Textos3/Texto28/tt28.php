@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 28 - Conflitos no Oriente Médio</title>
 
@@ -127,7 +128,7 @@
         <!-- BLOCO 4: DIVERSIDADE CULTURAL -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Diversidade cultural do Oriente Médio</h2>
 
             <p><span class="primeiraLetra">O</span> termo "Oriente Médio" é em si uma designação europeia, criada pelos britânicos no século XIX para nomear a região entre a Europa e o "Oriente Extremo" (Ásia). Ele agrupa países muito diferentes em cultura, etnia, língua e religião.</p>
@@ -209,7 +210,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Yom Kippur (1973), árabes cortaram o petróleo para o Ocidente em represália ao apoio a Israel. O barril quadruplicou — maior crise energética do séc. XX.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Yom Kippur (1973), árabes cortaram o petróleo para o Ocidente em represália ao apoio a Israel. O barril quadruplicou: maior crise energética do séc. XX.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -224,7 +225,7 @@
         <!-- BLOCO 7: QUESTÃO PALESTINA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A questão palestina</h2>
 
             <p><span class="primeiraLetra">A</span> <span class="termo" data-palavra="Questão Palestina" data-definicao="Conflito territorial e político entre israelenses e palestinos pela posse da terra histórica da Palestina, região do Oriente Médio entre o Rio Jordão e o Mar Mediterrâneo. O conflito tem raízes no colonialismo britânico (Declaração Balfour de 1917, que prometeu um 'lar nacional para o povo judeu' em território habitado majoritariamente por árabes palestinos) e na criação do Estado de Israel em 1948, com o deslocamento forçado de cerca de 700 mil palestinos (a Nakba, 'catástrofe' em árabe). Desde 1967, Israel ocupa militarmente a Cisjordânia e Gaza, territórios que os palestinos reivindicam para seu Estado.">questão palestina</span> é um dos conflitos mais longos e documentados do mundo contemporâneo. Para entendê-la, é preciso começar pelo colonialismo britânico.</p>
@@ -235,9 +236,25 @@
 
             <p>Em maio de 1948, Israel declarou sua independência. Os países árabes vizinhos atacaram imediatamente. Israel venceu a guerra e expandiu seu território para 78% da Palestina histórica. Cerca de <strong>700 mil palestinos fugiram ou foram expulsos</strong> de suas casas, evento que os palestinos chamam de <span class="termo" data-palavra="Nakba" data-definicao="Palavra árabe que significa 'catástrofe'. Refere-se ao deslocamento forçado de cerca de 700 mil palestinos durante a guerra de 1948 que criou o Estado de Israel. Cerca de 400-600 aldeias palestinas foram destruídas. Os refugiados e seus descendentes, hoje estimados em 5-6 milhões de pessoas, vivem em campos de refugiados no Líbano, Jordânia, Síria, Cisjordânia e Gaza. O direito de retorno dos refugiados palestinos às suas terras originais é um dos pontos centrais do conflito ainda sem resolução.">Nakba</span> ("catástrofe" em árabe).</p>
 
-            <p>Em 1967, na Guerra dos Seis Dias, Israel ocupou militarmente a <strong>Cisjordânia</strong>, a <strong>Faixa de Gaza</strong>, o Sinai egípcio (devolvido em 1982) e as Colinas de Golã sírias. Desde então, Israel mantém ocupação militar na Cisjordânia e construiu assentamentos civis israelenses em território palestino, considerados ilegais pelo direito internacional. Gaza foi bloqueada por Israel e Egito desde 2007, quando o Hamas assumiu o controle.</p>
+            <p>Em 1967, na Guerra dos Seis Dias, Israel ocupou militarmente a <strong>Cisjordânia</strong>, a <strong>Faixa de Gaza</strong>, o Sinai egípcio (devolvido em 1982) e as Colinas de Golã sírias. Desde então, Israel mantém ocupação militar na Cisjordânia e construiu assentamentos civis israelenses em território palestino, considerados ilegais pelo direito internacional.</p>
+
+            <h3>A luta pela formação do Estado palestino</h3>
+
+            <p>Diante do domínio israelense sobre esses territórios, os palestinos se organizaram para reivindicar um Estado próprio. Em 1964, com apoio da Liga Árabe, foi fundada a <span class="termo" data-palavra="Organização para a Libertação da Palestina (OLP)" data-definicao="Movimento de libertação nacional palestino fundado em 1964, com apoio da Liga Árabe, para representar politicamente os palestinos e lutar pelo reconhecimento de um Estado independente. Seu braço principal é o Fatah, partido de Yasser Arafat que, no final dos anos 1980, reconheceu a existência de Israel e renunciou à luta armada, passando a negociar a paz. A OLP é reconhecida internacionalmente como representante do povo palestino, embora hoje controle efetivamente apenas parte da Cisjordânia através da Autoridade Nacional Palestina.">Organização para a Libertação da Palestina (OLP)</span>, cujo líder, Yasser Arafat, declarou em 1988, na Argélia, o estabelecimento de um Estado palestino independente, ainda sem território efetivo.</p>
+
+            <p>Em 1993, israelenses e palestinos assinaram os <strong>Acordos de Oslo</strong>, que garantiram autonomia parcial aos palestinos em Gaza e em partes da Cisjordânia e criaram, em 1994, a Autoridade Nacional Palestina (ANP) como governo de transição. Arafat presidiu a ANP até sua morte em 2004, quando foi sucedido por Mahmoud Abbas, que segue no cargo até hoje. Mas a paz prevista em Oslo nunca se concretizou plenamente, e o Estado palestino independente, com fronteiras reconhecidas, continua sem existir.</p>
+
+            <p>Um momento decisivo veio em 2006: em eleições legislativas, o Hamas (Movimento de Resistência Islâmica) derrotou o Fatah de Abbas. Sem acordo para um governo de coalizão, os dois grupos entraram em confronto armado, e o resultado foi uma divisão territorial que existe até hoje: o Hamas, que não reconhece o Estado de Israel e defende a luta armada, passou a controlar a Faixa de Gaza; a Autoridade Nacional Palestina, mais moderada, ficou restrita a partes da Cisjordânia. Ou seja: os palestinos não estão divididos apenas de Israel, mas também entre si.</p>
+
+            <p>Outro símbolo do conflito é o muro construído por Israel a partir de 2002, que separa a Cisjordânia de Israel. Com mais de 400 quilômetros de extensão, o muro não segue a fronteira de 1949: avança sobre terras palestinas, anexando áreas agrícolas, fontes de água e assentamentos israelenses, e isolando comunidades palestinas inteiras em enclaves. A Assembleia Geral da ONU considerou a construção ilegal em 2007. Em 2012, a Palestina conquistou o status de Estado observador não membro da ONU, um reconhecimento simbólico importante, mas insuficiente para resolver as questões territoriais de fundo.</p>
 
             <p>O conflito tem duas narrativas principais, ambas ancoradas em experiências reais de sofrimento: a israelense, marcada pelo antissemitismo histórico e pelo Holocausto; e a palestina, marcada pela Nakba, pela ocupação militar e pelo bloqueio. Compreender o conflito exige ouvir as duas.</p>
+
+            <h3>A guerra de 2023 e seus desdobramentos até 2026</h3>
+
+            <p>Em 7 de outubro de 2023, combatentes do Hamas invadiram o sul de Israel, matando cerca de 1.200 pessoas, a maioria civis, e levando mais de 200 reféns para Gaza. Foi o ataque mais mortal contra judeus desde o Holocausto. Israel respondeu declarando guerra ao Hamas, com bloqueio total de água, eletricidade e suprimentos, seguido de bombardeios massivos e uma invasão terrestre. Mais de 1 milhão de palestinos do norte de Gaza foram forçados a se deslocar para o sul. Até meados de 2024, o conflito já havia deixado mais de 38 mil mortos, cerca de 88 mil feridos e quase 1,9 milhão de deslocados, praticamente toda a população de Gaza, além do colapso completo do sistema de saúde da região.</p>
+
+            <p>Depois de mais de um ano de guerra, um primeiro cessar-fogo entrou em vigor em janeiro de 2025, com troca de reféns israelenses por prisioneiros palestinos, mas ele foi rompido em março daquele ano, com a retomada dos combates. Um novo processo de paz, mediado pelos Estados Unidos, Turquia, Catar e Egito, começou em outubro de 2025, com um plano de 20 pontos que previa um cessar-fogo definitivo, a devolução dos reféns restantes e o desarmamento do Hamas. Em meados de 2026, porém, o plano segue travado: Israel controla cerca de 54% do território de Gaza e o Hamas mantém controle sobre o restante, recusando-se a entregar suas armas enquanto Israel não encerrar por completo as operações militares e liberar toda a ajuda humanitária. Passados quase três anos do início da guerra, um Estado palestino independente continua tão distante quanto estava em 1948.</p>
 
             </div>
 
@@ -264,7 +281,7 @@
 
             <p>Em agosto de 2020, uma enorme explosão no porto de Beirute, causada pelo armazenamento negligente de 2.750 toneladas de nitrato de amônio, matou mais de 200 pessoas, feriu 6 mil e destruiu grande parte da capital. A explosão expôs a falência completa do Estado libanês: anos de corrupção, má gestão e captura política por elites sectárias deixaram o país sem capacidade de proteger sua própria população.</p>
 
-            <p>O Líbano é também palco dos desdobramentos da guerra entre Israel e Hamas iniciada em outubro de 2023, com o Hezbollah abrindo uma "frente norte" em apoio a Gaza, e Israel realizando ataques no território libanês.</p>
+            <p>O Líbano foi palco de um dos capítulos mais dramáticos dos desdobramentos da guerra de Gaza. O Hezbollah abriu uma "frente norte" em apoio ao Hamas logo em outubro de 2023, trocando ataques com Israel ao longo da fronteira. Em setembro de 2024, Israel promoveu uma operação sem precedentes: fez explodir remotamente milhares de pagers e rádios usados por membros do Hezbollah, ferindo milhares de pessoas em poucos minutos, e dias depois assassinou, num bombardeio em Beirute, o histórico líder do grupo, <span class="termo" data-palavra="Hassan Nasrallah" data-definicao="Líder do Hezbollah de 1992 até sua morte em um bombardeio israelense em Beirute, em 27 de setembro de 2024. Sob seu comando, o Hezbollah se tornou o grupo armado não estatal mais poderoso do mundo, com dezenas de milhares de combatentes e um arsenal de mísseis fornecido pelo Irã. Sua morte foi um golpe simbólico e estratégico profundo para o grupo e para o chamado 'Eixo da Resistência' liderado pelo Irã.">Hassan Nasrallah</span>, que comandava a organização havia mais de trinta anos. Um cessar-fogo entrou em vigor em novembro de 2024, mas Israel manteve tropas em pontos do território libanês e seguiu realizando ataques aéreos pontuais. O novo líder do Hezbollah, Naim Qassem, afirmou que o grupo não vai entregar suas armas, mesmo enfraquecido. Em junho de 2026, um amplo memorando de entendimento assinado após a guerra entre Israel e Irã (que você vai estudar a seguir) previu o "encerramento permanente das operações militares em todas as frentes", incluindo entre Israel e o Hezbollah, mas a desmilitarização efetiva do grupo segue incerta.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -317,7 +334,7 @@
                 <p class="w3-small">SAID, Edward W. <em>A questão da Palestina.</em> São Paulo: Unesp, 2012, p. 34.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Said e no que você estudou, responda:</strong></p>
 
@@ -332,16 +349,36 @@
         </div>
 
 
+        <!-- BLOCO 8.7: SÍRIA E A GUERRA IRÃ-ISRAEL -->
+        <div class="topico">
+
+            <h2>Duas rupturas recentes: a queda de Assad e a guerra com o Irã</h2>
+
+            <p><span class="primeiraLetra">A</span> Primavera Árabe de 2011, onda de protestos que derrubou governos autoritários no Norte da África, também chegou à <span class="termo" data-palavra="Guerra Civil Síria" data-definicao="Conflito armado iniciado em 2011, quando manifestantes que pediam reformas democráticas contra o presidente Bashar al-Assad foram reprimidos com violência, dando início a uma guerra civil. Os Estados Unidos e aliados apoiaram parte da oposição; Rússia e Irã apoiaram o governo de Assad; e o Estado Islâmico aproveitou o caos para conquistar território próprio. Entre 2011 e 2022, mais de 13 milhões de sírios, mais da metade da população do país, foram forçados a deixar suas casas. Em dezembro de 2024, uma ofensiva rebelde liderada pelo grupo HTS derrubou o governo de Assad em poucos dias, encerrando mais de 50 anos de domínio de sua família sobre o país.">Síria</span>. O presidente Bashar al-Assad, no poder desde 2000 (sucedendo seu pai, que governara por trinta anos), reagiu aos protestos tratando os manifestantes como terroristas, e o país mergulhou numa guerra civil longa e internacionalizada: Estados Unidos e aliados apoiaram parte da oposição, Rússia e Irã sustentaram o governo, e o Estado Islâmico aproveitou o vácuo de poder para conquistar território próprio. No auge do conflito, em 2015, o governo sírio controlava apenas 10% do país. Ao longo da década seguinte, Assad recuperou território e chegou a se declarar vitorioso, mas o país seguia isolado internacionalmente e em crise econômica profunda, com mais de 13 milhões de sírios (mais da metade da população) forçados a deixar suas casas ao longo do conflito, a maioria refugiada na Turquia, no Líbano e na Jordânia.</p>
+
+            <p>Em dezembro de 2024, tudo mudou em poucos dias: uma ofensiva rebelde liderada pelo grupo islamista HTS avançou sobre Damasco, e Assad fugiu para a Rússia, encerrando mais de cinquenta anos de domínio de sua família sobre a Síria. Um governo de transição assumiu o poder sob a liderança de Ahmed al-Sharaa, ex-comandante do HTS, que se tornou presidente interino em janeiro de 2025 e assinou, em março daquele ano, uma declaração constitucional que lhe garante amplos poderes por um período de transição de cinco anos. O futuro da Síria, um país fragmentado entre diferentes milícias, minorias religiosas e étnicas (incluindo os curdos do nordeste) e um novo governo de origem jihadista tentando se apresentar como moderado, segue incerto.</p>
+
+            <p>O evento mais dramático da região em 2025 e 2026, porém, envolveu diretamente o Irã. Em junho de 2025, Israel lançou uma campanha de bombardeios contra instalações nucleares, cientistas e lideranças militares iranianas, alegando que Teerã estava perto de construir uma bomba atômica. Os Estados Unidos entraram diretamente no conflito dias depois, bombardeando as principais instalações de enriquecimento de urânio do Irã. O confronto voltou a escalar de forma ainda mais grave em fevereiro de 2026: numa nova onda de ataques israelenses e americanos, foi morto o próprio <span class="termo" data-palavra="Ali Khamenei" data-definicao="Aiatolá e líder supremo do Irã de 1989 até sua morte em fevereiro de 2026, num ataque conjunto de Israel e Estados Unidos durante a escalada da guerra entre os dois países. Khamenei era a autoridade política e religiosa máxima do regime iraniano havia 37 anos. Sua morte, junto com a de vários comandantes militares do país, representou um golpe sem precedentes na estrutura de poder do Irã e reacendeu discussões sobre um possível colapso ou mudança de regime na República Islâmica.">líder supremo do Irã, aiatolá Ali Khamenei</span>, no poder havia 37 anos, junto com vários de seus principais comandantes militares. Foi a primeira vez na história que uma potência estrangeira eliminou o chefe de Estado de um país com esse peso geopolítico por meio de um ataque militar direto. Em junho de 2026, um memorando de entendimento entre as partes declarou o fim das operações militares em todas as frentes ligadas ao conflito, mas o Irã ficou com sua capacidade nuclear praticamente destruída e seu sistema político em situação de enorme incerteza.</p>
+
+            <p>Esses dois episódios, a queda de Assad e o enfraquecimento drástico do Irã, mudaram o mapa de poder do Oriente Médio: durante décadas, Irã, Síria e Hezbollah formaram o chamado "Eixo da Resistência" contra Israel e o Ocidente. Em pouco mais de um ano, esse eixo perdeu seu elo sírio, seu líder militar mais experiente no Líbano e a própria cúpula de comando em Teerã.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
             <p><span class="primeiraLetra">A</span>ntes parecia que os conflitos do Oriente Médio eram resultado de "ódio religioso entre muçulmanos e judeus que sempre existiu". Agora você vê que a região tem uma diversidade cultural e étnica enorme, que o petróleo atrai intervenções estrangeiras com consequências devastadoras, e que a questão palestina tem raízes concretas no colonialismo britânico do século XX.</p>
 
             <p>Isso não significa que as questões religiosas não existem, ou que não há responsabilidade de atores locais nos conflitos. Mas o mapa começa a ficar muito mais claro quando você sabe quem desenhou as fronteiras, quem prometeu as terras e quem financiou as guerras.</p>
+
+            <p>Você ainda ouviu falar de perto sobre o Irã, potência regional que acabou de perder seu líder supremo num ataque direto de Israel e dos Estados Unidos, e sobre os curdos, maior nação sem Estado do mundo. Na próxima parada, você vai se aprofundar exatamente nesses dois temas, além do Iraque e da Turquia, as outras grandes potências regionais do Oriente Médio.</p>
 
             </div>
 
@@ -350,8 +387,9 @@
                 <li>Islã: sunismo e xiismo</li>
                 <li>Curdos: povo sem Estado</li>
                 <li>OPEP e geopolítica do petróleo</li>
-                <li>Questão Palestina: Nakba, Declaração Balfour, ocupação</li>
-                <li>Líbano: confessionalismo e Hezbollah</li>
+                <li>Questão Palestina: OLP, Oslo, Nakba, Declaração Balfour, guerra de 2023-2026</li>
+                <li>Líbano: confessionalismo, Hezbollah e a morte de Nasrallah</li>
+                <li>Queda de Assad na Síria e a guerra Irã-Israel</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -435,13 +473,13 @@
 
             <h3>6. Explique o que foi a Nakba. Quantas pessoas foram deslocadas e onde vivem os refugiados palestinos e seus descendentes hoje?</h3>
 
-            <h3>7. (ANALÍTICA) Os EUA invadiram o Iraque em 2003 alegando existência de armas de destruição em massa que nunca foram encontradas. Com base no que estudamos sobre petróleo e geopolítica, quais outros fatores podem explicar essa decisão? Quem se beneficiou e quem pagou o custo?</h3>
+            <h3>7. Os EUA invadiram o Iraque em 2003 alegando existência de armas de destruição em massa que nunca foram encontradas. Com base no que estudamos sobre petróleo e geopolítica, quais outros fatores podem explicar essa decisão? Quem se beneficiou e quem pagou o custo?</h3>
 
-            <h3>8. (ANALÍTICA) Jerusalém é sagrada para judeus, cristãos e muçulmanos. Como a disputa por essa cidade reflete o problema mais amplo do conflito israelense-palestino? É possível uma solução que respeite os direitos de todos os grupos?</h3>
+            <h3>8. Jerusalém é sagrada para judeus, cristãos e muçulmanos. Como a disputa por essa cidade reflete o problema mais amplo do conflito israelense-palestino? É possível uma solução que respeite os direitos de todos os grupos?</h3>
 
             <h3>9. O que é o confessionalismo libanês? Por que esse sistema político é considerado uma fonte de instabilidade para o país?</h3>
 
-            <h3>10. (ANALÍTICA) Edward Said afirma que "a questão da Palestina é, em sua essência, uma questão de colonialismo". Você concorda? Escreva um argumento a favor e um contra essa afirmação, usando fatos históricos desta aula.</h3>
+            <h3>10. Edward Said afirma que "a questão da Palestina é, em sua essência, uma questão de colonialismo". Você concorda? Escreva um argumento a favor e um contra essa afirmação, usando fatos históricos desta aula.</h3>
 
             </div>
 
@@ -462,7 +500,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fundamental para entender o mundo em que vivemos. Continue estudando!',
+        mensagem: 'o tema Conflitos no Oriente Médio é fundamental para entender o mundo em que vivemos. Continue estudando!',
         pontos: 40
     });
 
@@ -495,6 +533,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

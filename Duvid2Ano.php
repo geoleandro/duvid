@@ -76,6 +76,22 @@ $fundoBanner  = '/fotoIndex/tileset/fundo-brasil.webp';
                 </div>
                 <div class="inventario-lista" id="inventario-lista"></div>
             </div>
+            <!-- Certificados -->
+            <div class="widget-card widget-certificados">
+                <div class="widget-cert-head">
+                    <span class="widget-cert-icone">🎖️</span>
+                    <span class="widget-cert-titulo">Certificados</span>
+                </div>
+                <p class="widget-cert-desc">
+                    Ao concluir todas as aulas de um bloco, incluindo a Revisão,
+                    o(a) discente recebe um certificado. Complete o módulo inteiro
+                    para o certificado especial de 100%.
+                </p>
+                <div class="widget-cert-rodape">
+                    <span class="widget-cert-selo">🏅 Reconhecimento Especial</span>
+                    <a href="/paginas/meus-certificados.php" class="widget-cert-btn">Ver Meus Certificados</a>
+                </div>
+            </div>
             <div class="widget-card widget-comunidade">
                 <div class="widget-head"><span>✏️ Contribua com o Duvid</span></div>
                 <p class="widget-desc">Tem uma questão, ideia ou pixel art para contribuir com o Duvid?</p>

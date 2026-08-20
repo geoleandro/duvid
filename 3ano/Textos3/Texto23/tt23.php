@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 23 - Conflitos e política na América</title>
 
@@ -103,7 +104,9 @@
                 <li>Por que você acha que países tão ricos em petróleo (Venezuela) ou em recursos naturais (Bolívia) ainda têm tanta pobreza?</li>
             </ul>
 
-            <p>Guarde suas respostas. No final desta aula, você vai ver que tem muito mais a dizer do que imaginava.</p>
+            <p>Guarde suas respostas. No final desta aula, você vai ver que tem muito mais a dizer do que imaginava,
+                e que muitas das explicações fáceis que circulam sobre esses temas escondem processos históricos e
+                econômicos bem mais complexos do que parecem à primeira vista.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -117,7 +120,7 @@
 
             <p><span class="primeiraLetra">P</span>or que jovens entram para guerrilhas ou para o tráfico em países como Colômbia, Peru e México? Por que a Venezuela, dona das maiores reservas de petróleo do mundo, virou o país de onde mais pessoas fogem na América Latina? E por que Cuba, que resistiu por mais de 60 anos ao bloqueio norte-americano, ainda divide tanto as opiniões no mundo?</p>
 
-            <p>Esses não são problemas de má sorte ou de mau caráter: são resultado de estruturas históricas de desigualdade, dependência econômica e interferência de potências externas. Esta aula vai ajudá-lo a enxergar essas raízes.</p>
+            <p>Esses não são problemas de má sorte ou de mau caráter: são resultado de estruturas históricas de desigualdade, dependência econômica e interferência de potências externas. Esta aula vai ajudá-lo a enxergar essas raízes, cruzando geografia, história e economia para entender fenômenos que costumam aparecer separados no noticiário do dia a dia, mas que na verdade estão profundamente conectados.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -127,7 +130,7 @@
         <!-- BLOCO 4: GUERRILHAS NA AMÉRICA LATINA -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Guerrilhas na América Latina</h2>
 
             <p><span class="primeiraLetra">O</span> termo <span class="termo" data-palavra="Guerrilha" data-definicao="Forma de combate irregular praticada por grupos armados que atuam fora das estruturas militares convencionais do Estado. O nome vem do espanhol 'guerra pequena'. Na América Latina, as guerrilhas tiveram seu auge nas décadas de 1960-1980, fortemente influenciadas pela Revolução Cubana de 1959 e pelo contexto da Guerra Fria.">guerrilha</span> designa uma forma de combate irregular praticada por grupos armados que atuam fora das estruturas militares convencionais do Estado. Na América Latina, os movimentos guerrilheiros tiveram seu auge nas décadas de 1960, 1970 e 1980, fortemente influenciados pela Revolução Cubana de 1959 e pelo contexto da Guerra Fria, quando Estados Unidos e União Soviética disputavam influência ideológica e geopolítica no continente.</p>
@@ -135,13 +138,22 @@
             <p>Entre os principais grupos guerrilheiros da história latino-americana:</p>
 
             <ul>
-                <li><strong>FARC (Forças Armadas Revolucionárias da Colômbia):</strong> fundada em 1964, foi o maior grupo guerrilheiro do hemisfério ocidental. Atuou por décadas financiada, em grande parte, pelo narcotráfico. Em 2016, assinou um acordo de paz com o governo colombiano, embora dissidências continuem ativas.</li>
-                <li><strong>ELN (Exército de Libertação Nacional, Colômbia):</strong> de inspiração marxista e influência da teologia da libertação, permanece ativo até os dias atuais e mantém negociações intermitentes com o Estado.</li>
+                <li><strong>FARC (Forças Armadas Revolucionárias da Colômbia):</strong> fundada em 1964, foi o maior grupo guerrilheiro do hemisfério ocidental. Atuou por décadas financiada, em grande parte, pelo narcotráfico. Em 2016, assinou um acordo de paz com o governo colombiano, mas parte dos combatentes rejeitou o acordo e formou dissidências. A maior delas, o Estado-Maior Central (EMC), liderado por Iván Mordisco, tornou-se uma das organizações armadas mais poderosas da Colômbia atual, disputando território com o Estado e com outros grupos irregulares.</li>
+                <li><strong>ELN (Exército de Libertação Nacional, Colômbia):</strong> de inspiração marxista e influência da teologia da libertação, permanece ativo até os dias atuais. As negociações de paz com o governo de Gustavo Petro, parte da política de "Paz Total", travaram após um episódio de violência em janeiro de 2025 que deixou dezenas de mortos na fronteira com a Venezuela; em 2026, o grupo sinalizou disposição para retomar o diálogo apenas com o governo seguinte, o do presidente eleito em maio de 2026, Abelardo de la Espriella, que assumiu em agosto.</li>
                 <li><strong>Sendero Luminoso (Peru):</strong> grupo maoísta surgido nos anos 1980, responsável por grave violência contra populações civis. Foi parcialmente desarticulado após a prisão de seu líder, Abimael Guzmán, em 1992.</li>
                 <li><strong>Tupamaros (Uruguai):</strong> movimento urbano dos anos 1960-1970, derrotado militarmente, mas cujos integrantes mais tarde participaram da vida política democrática do país.</li>
             </ul>
 
             <p>A maioria dos movimentos guerrilheiros surgiu em contextos de extrema desigualdade social, ausência de representação política e repressão de regimes autoritários. Com o fim das ditaduras e a redemocratização da região nos anos 1980-1990, muitos grupos se desmobilizaram ou se transformaram em partidos políticos.</p>
+
+            <p><strong>Fato Interessante:</strong> Para combater as guerrilhas e qualquer oposição de esquerda, as
+                ditaduras militares da América do Sul (Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil)
+                coordenaram, a partir de 1975, uma rede secreta de perseguição política conhecida como
+                <span class="termo" data-palavra="Operação Condor" data-definicao="Rede de cooperação secreta entre as ditaduras militares da América do Sul (Chile, Argentina, Uruguai, Paraguai, Bolívia e Brasil) a partir de 1975, com apoio de agências de inteligência dos Estados Unidos, para perseguir, sequestrar e assassinar opositores políticos de esquerda além das fronteiras nacionais.">Operação Condor</span>.
+                Com apoio de agências de inteligência dos Estados Unidos, os regimes trocavam informações e chegavam
+                a sequestrar e assassinar opositores que haviam fugido para países vizinhos, mostrando como a
+                repressão às guerrilhas latino-americanas também foi, ela própria, um fenômeno geopolítico
+                internacional, e não apenas um problema interno de cada país.</p>
 
             </div>
 
@@ -169,6 +181,24 @@
             <p>A relação entre narcotráfico e guerrilha é histórica: grupos como as FARC utilizaram a taxação do tráfico de drogas como forma de financiamento, prática conhecida como <span class="termo" data-palavra="Narcoguerrilha" data-definicao="Prática em que grupos armados irregulares (guerrilhas) se financiam por meio da taxação, proteção ou controle direto do comércio de drogas ilegais. As FARC colombianas são o exemplo mais estudado: cobravam pedágio dos produtores de coca em áreas sob seu controle, o que garantia recursos para manter a guerrilha ativa por décadas.">narcoguerrilha</span>. Em contrapartida, os cartéis também passaram a atuar politicamente, corrompendo funcionários e intimidando a sociedade civil.</p>
 
             <p>As consequências do narcotráfico são múltiplas: violência urbana e rural, enfraquecimento das instituições democráticas, deslocamento forçado de populações, impactos ambientais pelo desmatamento associado às plantações ilegais e a manutenção de ciclos de pobreza em comunidades dependentes do cultivo ilícito.</p>
+
+            <p>É importante notar que o narcotráfico não é um problema apenas dos países produtores. A cocaína só
+                é um negócio lucrativo porque existe demanda constante nos países consumidores, sobretudo Estados
+                Unidos e Europa. Ainda assim, o combate ao narcotráfico costuma se concentrar quase exclusivamente
+                do lado da oferta, com erradicação de plantações e repressão militar nos países andinos, enquanto as
+                políticas de redução da demanda e de tratamento de dependentes nos países ricos recebem muito menos
+                atenção e investimento. Essa assimetria ajuda a explicar por que, mesmo depois de décadas de "guerra
+                às drogas", a produção e o consumo de cocaína continuam em alta em escala global.</p>
+
+            <p><strong>O caso do Equador</strong><br>
+            O Equador mostra como essa geografia pode mudar rápido. Até meados dos anos 2010, o país não era um dos
+            grandes produtores nem um dos mais violentos da região, mas se tornou um corredor estratégico para o
+            escoamento de cocaína colombiana e peruana rumo à Europa, principalmente pelo porto de Guayaquil. Facções
+            locais como Los Choneros e Los Lobos passaram a disputar essas rotas, e a violência disparou: o país
+            fechou 2025 com um recorde histórico de cerca de 9,3 mil homicídios. O presidente Daniel Noboa respondeu
+            com uma política de "mão dura", incluindo operações internacionais que apreenderam toneladas de cocaína
+            em alto-mar, mas os índices de violência voltaram a subir mesmo assim, mostrando como é difícil conter o
+            narcotráfico apenas com repressão, sem enfrentar as rotas comerciais e a demanda dos países consumidores.</p>
 
             <div class="w3-margin w3-margin-top">
                 <img src="tt23f02.png" alt="Infográfico mostrando as rotas do narcotráfico da América Latina para os mercados consumidores"
@@ -220,7 +250,7 @@
         <!-- BLOCO 7: VENEZUELA, CUBA E BOLÍVIA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Venezuela, Cuba e Bolívia: três trajetórias políticas</h2>
 
             <h3>Venezuela</h3>
@@ -229,7 +259,10 @@
 
             <p>Com a chegada de Hugo Chávez ao poder em 1999, a Venezuela adotou o modelo do chamado <span class="termo" data-palavra="Socialismo do Século XXI" data-definicao="Modelo político-econômico proposto por Hugo Chávez que propõe superar o capitalismo por meios democráticos e eleitorais, distinto do socialismo soviético tradicional. Na prática, envolveu forte intervenção estatal, nacionalizações, programas sociais (as 'missões') financiados pelo petróleo e retórica antiimperialista. Críticos apontam o autoritarismo crescente e a insustentabilidade do modelo quando os preços do petróleo caíram.">socialismo do século XXI</span>, com ampla intervenção estatal na economia, nacionalização de empresas e redistribuição de renda por meio de programas sociais. A morte de Chávez em 2013 e a queda dos preços do petróleo a partir de 2014 aprofundaram a crise sob Nicolás Maduro.</p>
 
-            <p>Desde então, a Venezuela enfrenta hiperinflação, escassez de alimentos e medicamentos, e uma crise migratória com mais de 7 milhões de venezuelanos que deixaram o país até meados dos anos 2020.</p>
+            <p>Desde então, a Venezuela enfrenta hiperinflação, escassez de alimentos e medicamentos, e uma crise migratória que, segundo o Alto Comissariado das Nações Unidas para Refugiados (Acnur), já levou cerca de 6,9 milhões de venezuelanos a deixar o país até o final de 2025, a maioria acolhida por outros países da América Latina e do Caribe.</p>
+
+            <p><strong>A queda de Maduro (2026)</strong><br>
+            Na madrugada de 3 de janeiro de 2026, uma <span class="termo" data-palavra="Intervenção Militar dos EUA na Venezuela (2026)" data-definicao="Operação militar lançada pelos Estados Unidos em Caracas na madrugada de 3 de janeiro de 2026, que resultou na captura de Nicolás Maduro e de sua esposa, Cilia Flores, levados aos Estados Unidos para responder a acusações de narcoterrorismo e tráfico de drogas. O governo interino passou a Delcy Rodríguez, então vice-presidente.">operação militar dos Estados Unidos</span> capturou Nicolás Maduro e sua esposa, Cilia Flores, em Caracas, utilizando dezenas de aeronaves militares, incluindo caças stealth e bombardeiros. Maduro foi levado para os Estados Unidos e indiciado por conspiração de narcoterrorismo e tráfico de cocaína. Dois dias depois, a então vice-presidente Delcy Rodríguez assumiu como presidenta interina, dando início a um governo de transição cujo desfecho eleitoral ainda era incerto em meados de 2026.</p>
 
             <p>Parte significativa desses venezuelanos entrou pela fronteira norte do Brasil, principalmente por
                 Roraima, e foi posteriormente distribuída para outras regiões do país por meio de um programa federal
@@ -249,21 +282,57 @@
                 economicamente. Em 2023, o governo venezuelano promoveu um referendo interno sobre a anexação do
                 Essequibo e chegou a anunciar a criação de um estado venezuelano na área, o que elevou a tensão
                 militar na fronteira e levou a Guiana a recorrer à Corte Internacional de Justiça, em Haia, para
-                garantir seus limites territoriais atuais.</p>
+                garantir seus limites territoriais atuais. Em maio de 2026, a fase oral do julgamento na Corte foi
+                concluída após oito dias de audiências públicas, com a presidenta interina Delcy Rodríguez defendendo,
+                pessoalmente em Haia, que uma solução negociada diretamente entre os dois países era "inevitável e
+                indispensável", enquanto a Guiana insistia que o laudo arbitral de 1899 já havia fixado a fronteira
+                de forma definitiva. Uma decisão final da Corte ainda era aguardada.</p>
 
             <h3>Cuba</h3>
 
             <p>Cuba é o único país do continente americano com regime de partido único desde a Revolução de 1959, liderada por Fidel Castro. A ilha tornou-se símbolo da resistência ao imperialismo norte-americano durante a Guerra Fria e influenciou diretamente o surgimento de guerrilhas em toda a América Latina.</p>
 
-            <p>O regime cubano é reconhecido por conquistas em educação e saúde, mas também criticado pela restrição às liberdades civis e políticas. O <span class="termo" data-palavra="Embargo Econômico" data-definicao="Bloqueio econômico imposto pelos Estados Unidos a Cuba desde 1962, que proíbe empresas norte-americanas e de países aliados de comerciar com a ilha. É um dos embargos mais longos da história moderna e contribui, segundo o governo cubano e organismos internacionais, para as dificuldades econômicas da população. A ONU vota anualmente pela suspensão do embargo, sempre com aprovação esmagadora.">embargo econômico</span> norte-americano, vigente desde 1962, contribuiu para o isolamento da ilha e para as dificuldades econômicas da população.</p>
+            <p>O regime cubano é reconhecido por conquistas em educação e saúde, indicadores em que o país supera
+                muitos vizinhos latino-americanos apesar da renda per capita relativamente baixa, mas também
+                criticado pela restrição às liberdades civis e políticas, como a ausência de eleições multipartidárias
+                e o controle estatal sobre a imprensa. O <span class="termo" data-palavra="Embargo Econômico" data-definicao="Bloqueio econômico imposto pelos Estados Unidos a Cuba desde 1962, que proíbe empresas norte-americanas e de países aliados de comerciar com a ilha. É um dos embargos mais longos da história moderna e contribui, segundo o governo cubano e organismos internacionais, para as dificuldades econômicas da população. A ONU vota anualmente pela suspensão do embargo, sempre com aprovação esmagadora.">embargo econômico</span> norte-americano, vigente desde 1962, contribuiu para o isolamento da ilha e para as dificuldades econômicas da população.</p>
 
             <p>Após a morte de Fidel Castro em 2016 e a transição para Miguel Díaz-Canel em 2018, Cuba enfrenta novos desafios: escassez, apagões, êxodo e protestos populares inéditos, como os de julho de 2021.</p>
+
+            <p>Essa crise se aprofundou em 2026: em março, apagões que chegaram a durar mais de 15 horas por dia em
+                diversas regiões do país, somados à escassez de alimentos e remédios, provocaram uma nova onda de
+                protestos. Em janeiro, o governo Trump havia classificado Cuba como uma "ameaça incomum e
+                extraordinária" e ameaçado sancionar qualquer país que fornecesse petróleo à ilha, incluindo a
+                estatal mexicana Pemex, agravando ainda mais a crise de combustíveis. Diante da pressão, o discurso de
+                Díaz-Canel oscilou entre a retórica antiamericana tradicional (chegou a acusar Washington de
+                "genocídio político" em julho de 2026) e sinalizações de abertura ao diálogo "sem pré-requisitos".
+                Enquanto isso, a Assembleia Geral da ONU votou, pelo 33º ano consecutivo, pelo fim do embargo, sempre
+                com esmagadora maioria, uma posição que os Estados Unidos seguem rejeitando.</p>
 
             <h3>Bolívia</h3>
 
             <p>A Bolívia tem maioria de população indígena, e essa característica teve papel central na ascensão de Evo Morales, que em 2006 tornou-se o primeiro presidente indígena da história boliviana, eleito pelo <span class="termo" data-palavra="MAS (Movimento ao Socialismo)" data-definicao="Partido político boliviano fundado em 1995 por movimentos sociais, principalmente os cocaleiros (agricultores de coca). O MAS é o maior partido da esquerda boliviana. Sob Evo Morales (2006-2019) e Luis Arce (2020-), promoveu a nacionalização do gás natural, redução da pobreza e reconhecimento dos direitos indígenas na Constituição de 2009.">MAS (Movimento ao Socialismo)</span>. Seu governo promoveu a nacionalização do setor de hidrocarbonetos e implementou políticas que reduziram significativamente a pobreza no país.</p>
 
             <p>Em 2019, após eleição disputada e acusações de fraude, Morales renunciou sob pressão militar e deixou o país. Para uns, foi um golpe de Estado; para outros, resposta a irregularidades eleitorais. Luis Arce, também do MAS, venceu as eleições de 2020 e retomou o governo, consolidando o retorno da esquerda ao poder.</p>
+
+            <p>A relação entre Morales e Arce, no entanto, se rompeu nos anos seguintes, dividindo o MAS em duas
+                alas rivais. Em maio de 2025, o Tribunal Superior Eleitoral impediu Morales de se candidatar
+                novamente à presidência, e ele passou a viver isolado em sua base política na região do Chapare,
+                protegido por apoiadores, sob um mandado de prisão relacionado a acusações de exploração de uma
+                adolescente em 2015, que ele nega e classifica como perseguição política. Sem Morales na disputa e com
+                o MAS fragmentado, o caminho ficou livre para a vitória da oposição de centro-direita nas eleições
+                daquele ano.</p>
+
+            <p><strong>O fim de quase 20 anos de MAS (2025)</strong><br>
+            Esse ciclo se encerrou em outubro de 2025: em meio à pior crise econômica boliviana em quatro décadas,
+            com inflação anual superior a 20% e escassez crônica de combustível e de dólares, o senador de
+            centro-direita Rodrigo Paz, do Partido Demócrata Cristão, venceu o segundo turno das eleições
+            presidenciais com 54,5% dos votos, derrotando o conservador Jorge "Tuto" Quiroga. Paz tomou posse em 8 de
+            novembro de 2025, encerrando quase duas décadas de governos ligados ao MAS. Em seu discurso de posse, prometeu um
+            "capitalismo para todos", sinalizando a intenção de rever parte do modelo estatizante herdado da era
+            Morales-Arce, incluindo a forte presença do Estado no setor de hidrocarbonetos. Seu governo, no entanto,
+            também enfrenta forte resistência popular e protestos, o que mostra que a alternância de poder por si só
+            não resolve os desafios estruturais da economia boliviana.</p>
 
             </div>
 
@@ -302,7 +371,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Venezuela tem as maiores reservas de petróleo, mas quando o preço caiu em 2014 toda a economia colapsou — maldição dos recursos.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Venezuela tem as maiores reservas de petróleo, mas quando o preço caiu em 2014 toda a economia colapsou: é a chamada maldição dos recursos.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -325,7 +394,7 @@
                 <p class="w3-small">SADER, Emir. <em>A nova toupeira: os caminhos da esquerda latino-americana.</em> São Paulo: Boitempo, 2009, p. 23.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Sader e no que você estudou, responda:</strong></p>
 
@@ -343,13 +412,17 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
             <p><span class="primeiraLetra">A</span>ntes parecia que guerrilhas eram simplesmente terrorismo, que o narcotráfico era resultado do mau caráter de criminosos e que a Venezuela colapsou por má gestão de um governo populista. Agora você vê que esses fenômenos têm raízes em estruturas históricas: desigualdade social extrema, ausência de representação política, dependência de commodities e interferência de potências externas. Não são problemas de pessoas, são problemas de sistemas.</p>
 
             <p>Entender isso não significa aceitar a violência das guerrilhas ou do narcotráfico. Significa entender por que eles existem, para poder pensar em como superá-los de verdade.</p>
+
+            <p>Esta foi a última aula com conteúdo novo do módulo sobre as Américas. Na próxima parada, chega a hora
+                de revisar tudo o que você estudou entre os Textos 20 e 23: Estados Unidos, Canadá e México, América
+                Central e do Sul, e os conflitos e a política que acabamos de ver aqui.</p>
 
             </div>
 
@@ -445,13 +518,13 @@
 
             <h3>6. O que foi o bloqueio econômico imposto pelos Estados Unidos a Cuba? Quais foram suas consequências para a economia e para a população cubana?</h3>
 
-            <h3>7. (ANALÍTICA) O governo cubano garante saúde e educação para toda a população, mas restringe liberdades civis e políticas. Como você analisa essa contradição? O que um indicador como o IDH captura e o que ele deixa de fora nesse caso?</h3>
+            <h3>7. O governo cubano garante saúde e educação para toda a população, mas restringe liberdades civis e políticas. Como você analisa essa contradição? O que um indicador como o IDH captura e o que ele deixa de fora nesse caso?</h3>
 
-            <h3>8. (ANALÍTICA) A Venezuela é o país com as maiores reservas de petróleo do mundo e, ao mesmo tempo, um dos que mais gera refugiados. Quem se beneficiou da riqueza do petróleo venezuelano ao longo das décadas? E quem pagou o custo da crise? Use argumentos dos conteúdos estudados.</h3>
+            <h3>8. A Venezuela é o país com as maiores reservas de petróleo do mundo e, ao mesmo tempo, um dos que mais gera refugiados. Quem se beneficiou da riqueza do petróleo venezuelano ao longo das décadas? E quem pagou o custo da crise? Use argumentos dos conteúdos estudados.</h3>
 
             <h3>9. Explique a importância da folha de coca na cultura dos povos indígenas bolivianos e como esse tema se tornou um ponto de tensão nas relações entre a Bolívia e os Estados Unidos.</h3>
 
-            <h3>10. (ANALÍTICA) Compare os casos da Venezuela, Cuba e Bolívia: os três países adotaram modelos de esquerda e enfrentaram pressão dos Estados Unidos. Por que os resultados foram tão diferentes? O que explica o colapso venezuelano, a resistência cubana e a relativa estabilidade boliviana?</h3>
+            <h3>10. Compare os casos da Venezuela, Cuba e Bolívia: os três países adotaram, em algum momento, modelos de esquerda e enfrentaram pressão dos Estados Unidos, mas chegaram a 2026 por caminhos bem diferentes: intervenção militar externa na Venezuela, resistência de um regime de partido único sob embargo em Cuba, e alternância democrática de poder na Bolívia após uma crise econômica. O que explica cada um desses desfechos?</h3>
 
             </div>
 
@@ -472,7 +545,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fundamental para entender a geopolítica da América Latina. Continue estudando!',
+        mensagem: 'o tema Conflitos e política na América é fundamental para entender a geopolítica da América Latina. Continue estudando!',
         pontos: 40
     });
 
@@ -506,6 +579,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="África I: diversidade natural do continente africano — relevo, clima, vegetação, hidrografia e problemas ambientais">
+    <meta name="description" content="África I: diversidade natural do continente africano: relevo, clima, vegetação, hidrografia e problemas ambientais">
     <meta property="og:title" content="Texto 25 - África I: Diversidade natural">
     <meta property="og:description" content="A África vai muito além do deserto: conheça o continente mais diverso do planeta em clima, relevo e ecossistemas">
     <meta property="og:image" content="">
@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 25 - África I: Diversidade natural</title>
 
@@ -103,7 +104,7 @@
                 <li>Por que você acha que a maioria das imagens da África que chegam até nós mostram somente deserto e pobreza? Quem produz essas imagens e por quê?</li>
             </ul>
 
-            <p>Guarde essas respostas. Ao final da aula, você vai rever o que pensava com olhos bem diferentes.</p>
+            <p>Guarde essas respostas. Ao final da aula, você vai rever o que pensava com olhos bem diferentes, com dados concretos de relevo, clima, rios e biodiversidade que raramente aparecem nas notícias sobre o continente.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -127,12 +128,19 @@
         <!-- BLOCO 4: RELEVO -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Relevo</h2>
 
             <p><span class="primeiraLetra">A</span> África é, em grande parte, um continente de <strong>planaltos antigos</strong>. Diferentemente da América do Sul, onde os Andes formam uma barreira de montanhas jovens e elevadas na costa oeste, a África tem um interior planaltico originado em escudos cristalinos muito antigos, com altitudes médias entre 200 e 1.000 metros. As planícies costeiras são estreitas.</p>
 
             <p>O elemento de relevo mais singular da África é o <span class="termo" data-palavra="Rift Valley" data-definicao="Sistema de fossas tectônicas formado pela separação de placas tectônicas, que se estende por cerca de 6.000 km no leste da África, do Mar Vermelho ao Moçambique. O Rift Valley criou grandes lagos (Vitória, Tanganyika, Malawi), vulcões (Kilimanjaro, Monte Quênia) e vales profundos. É chamado de 'berço da humanidade' porque nessa região foram encontrados os mais antigos fósseis de hominídeos, incluindo a Australopithecus afarensis 'Lucy', com cerca de 3,2 milhões de anos.">Rift Valley</span> (ou Grande Vale do Rift), um sistema de fossas tectônicas que se estende por cerca de 6.000 km no leste do continente, do Mar Vermelho ao Moçambique. É resultado da separação de placas tectônicas e deu origem aos grandes lagos africanos orientais (Vitória, Tanganyika, Malawi) e aos principais vulcões do continente.</p>
+
+            <p><strong>Fato Interessante:</strong> o Rift Valley não é apenas uma cicatriz geológica do passado: ele
+                continua ativo. A separação entre a placa Africana (ou Núbia) e a placa Somali segue em curso, e
+                cientistas estimam que, daqui a cerca de 50 milhões de anos, esse processo pode dividir o continente
+                africano em duas massas de terra separadas, com um novo oceano se formando entre elas, exatamente
+                como aconteceu com a Cordilheira dos Andes e o Atlântico Sul há dezenas de milhões de anos no passado
+                geológico do planeta.</p>
 
             <p>O ponto mais alto da África é o <strong>Monte Kilimanjaro</strong>, no Tanzânia, com 5.895 metros. Apesar de estar próximo ao Equador, seu topo tem neve permanente, situação que, segundo os cientistas, está ameaçada pelas mudanças climáticas. Outros elementos de relevo importantes:</p>
 
@@ -168,11 +176,19 @@
 
             <ul>
                 <li><strong>Clima equatorial e floresta densa:</strong> concentrado na Bacia do Congo e no Golfo da Guiné. A <span class="termo" data-palavra="Bacia do Congo" data-definicao="Segunda maior bacia hidrográfica do mundo em volume d'água (depois da Amazônia), com cerca de 3,7 milhões de km². Abriga a segunda maior floresta tropical do planeta (depois da Amazônia), fundamental para a regulação climática global. O Rio Congo é o mais profundo do mundo (até 220 metros) e o segundo maior em volume, ficando atrás apenas do Amazonas.">Bacia do Congo</span> abriga a segunda maior floresta tropical do planeta, com biodiversidade comparável à Amazônia e papel fundamental na regulação climática global.</li>
-                <li><strong>Clima tropical e savana:</strong> a <span class="termo" data-palavra="Savana Africana" data-definicao="Bioma caracterizado por gramíneas altas e árvores esparsas, com duas estações bem definidas: a chuvosa e a seca. Cobre cerca de metade do território africano, principalmente ao norte e ao sul do bloco equatorial. É o lar da maior concentração de grandes mamíferos do mundo: elefantes, girafas, leões, hipopótamos, zebras, gnus e centenas de espécies de aves. A grande migração anual dos gnus no Serengeti (Tanzânia e Quênia) é o maior movimento de animais terrestres do planeta.">savana africana</span> cobre cerca de metade do continente, com uma estação chuvosa e uma seca bem definidas. É o bioma das grandes migrações de animais, do Serengeti e dos grandes parques nacionais africanos.</li>
+                <li><strong>Clima tropical e savana:</strong> a <span class="termo" data-palavra="Savana Africana" data-definicao="Bioma caracterizado por gramíneas altas e árvores esparsas, com duas estações bem definidas: a chuvosa e a seca. Cobre cerca de metade do território africano, principalmente ao norte e ao sul do bloco equatorial. É o lar da maior concentração de grandes mamíferos do mundo: elefantes, girafas, leões, hipopótamos, zebras, gnus e centenas de espécies de aves. A grande migração anual dos gnus no Serengeti (Tanzânia e Quênia) é o maior movimento de animais terrestres do planeta.">savana africana</span> cobre cerca de metade do continente, com uma estação chuvosa e uma seca bem definidas. É o bioma das grandes migrações de animais, do Serengeti e dos grandes parques nacionais africanos. Todos os anos, cerca de 1,5 milhão de gnus, acompanhados de centenas de milhares de zebras e gazelas, percorrem um circuito de mais de 800 km entre o Parque Nacional do Serengeti, na Tanzânia, e a Reserva Nacional do Masai Mara, no Quênia, em busca de pasto fresco e água, atravessando rios infestados de crocodilos. É considerado o maior espetáculo de migração de mamíferos terrestres do planeta e sustenta uma cadeia econômica de turismo de observação de vida selvagem fundamental para os dois países.</li>
                 <li><strong>Clima semiárido e Sahel:</strong> o <span class="termo" data-palavra="Sahel" data-definicao="Faixa semiárida de transição entre o Deserto do Saara (ao norte) e a savana africana (ao sul), com cerca de 5.400 km de extensão, passando pelo Senegal, Mauritânia, Mali, Burkina Faso, Niger, Nigéria, Chade, Sudão e Eritreia. Recebe chuvas irregulares (200-600 mm/ano) e sofre intensamente com a desertificação: o Saara avança para o sul, ameaçando comunidades agrícolas e pastoris que dependem da terra.">Sahel</span> é a faixa de transição entre o Saara e a savana, extremamente vulnerável à seca e à desertificação.</li>
                 <li><strong>Clima árido e desertos:</strong> o Saara ao norte (maior deserto quente do mundo) e os desertos do Namibe e Kalahari ao sul.</li>
                 <li><strong>Clima mediterrâneo:</strong> nos extremos norte (Marrocos, Tunísia) e sul (Cabo da Boa Esperança), com verões secos e invernos chuvosos.</li>
             </ul>
+
+            <p><strong>Madagascar</strong><br>
+            Fora do padrão de faixas simétricas do continente está a ilha de <span class="termo" data-palavra="Madagascar" data-definicao="Quarta maior ilha do mundo, situada no Oceano Índico ao largo da costa sudeste da África. Separou-se do continente africano há cerca de 160 milhões de anos e da Índia há cerca de 90 milhões de anos, o que permitiu que sua fauna e flora evoluíssem isoladamente. Mais de 90% dos mamíferos, répteis e anfíbios da ilha, incluindo os lêmures, não existem em nenhum outro lugar do planeta.">Madagascar</span>,
+            a quarta maior ilha do planeta, separada da África continental há cerca de 160 milhões de anos. Esse
+            isolamento geológico prolongado transformou a ilha em um dos maiores centros de biodiversidade endêmica
+            do mundo: mais de 90% das espécies de mamíferos, répteis e anfíbios de Madagascar, incluindo os
+            famosos lêmures, não existem em nenhum outro lugar do planeta. Boa parte dessas florestas únicas está
+            hoje ameaçada pelo desmatamento para agricultura de subsistência e produção de carvão vegetal.</p>
 
             <p>Essa sequência de faixas climáticas e suas respectivas vegetações, chamadas tecnicamente de
                 <span class="termo" data-palavra="Zonobioma" data-definicao="Classificação internacional de biomas feita em função da combinação entre clima e fitofisionomia (a fisionomia da vegetação), usada para comparar biomas de diferentes continentes que compartilham características climáticas semelhantes, mesmo estando muito distantes entre si.">zonobiomas</span>,
@@ -220,7 +236,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Rift Valley estão os fósseis mais antigos de hominídeos, como Lucy (3,2 mi anos) — maior acervo de evidências da nossa evolução.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Rift Valley estão os fósseis mais antigos de hominídeos, como Lucy (3,2 mi anos): é o maior acervo de evidências da nossa evolução.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -235,20 +251,31 @@
         <!-- BLOCO 7: HIDROGRAFIA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Hidrografia</h2>
 
             <p><span class="primeiraLetra">A</span> África tem quatro grandes sistemas hidrográficos que moldaram a história das civilizações do continente e seguem sendo fundamentais para a vida de centenas de milhões de pessoas.</p>
 
-            <p><strong>Rio Nilo:</strong> com 6.650 km, é considerado o rio mais extenso do mundo. Nasce na região dos Grandes Lagos (Lago Vitória) e percorre o nordeste africano até desaguar no Mar Mediterrâneo, no Egito. O Nilo foi a base da civilização egípcia: suas cheias anuais depositavam lama fértil nas margens, tornando o deserto agriculturável. Hoje, o Nilo é motivo de tensão geopolítica: a Etiópia construiu a Barragem do Renascimento, retendo água que o Egito considera vital para sua sobrevivência.</p>
+            <p><strong>Rio Nilo:</strong> com 6.650 km, é considerado o rio mais extenso do mundo. Nasce na região dos Grandes Lagos (Lago Vitória) e percorre o nordeste africano até desaguar no Mar Mediterrâneo, no Egito. O Nilo foi a base da civilização egípcia: suas cheias anuais depositavam lama fértil nas margens, tornando o deserto agriculturável. Hoje, o Nilo é motivo de tensão geopolítica: a Etiópia construiu a <span class="termo" data-palavra="Barragem do Renascimento (GERD)" data-definicao="Grande Barragem do Renascimento Etíope, construída no Nilo Azul e inaugurada oficialmente em setembro de 2025. Com 170 metros de altura e reservatório para 74 bilhões de m³ de água, é o maior projeto hidrelétrico da África, com capacidade instalada de 5,15 gigawatts. Egito e Sudão se opõem à obra, temendo redução no volume de água que recebem do rio.">Barragem do Renascimento</span> (GERD), retendo água que o Egito considera vital para sua sobrevivência.</p>
+
+            <p>A barragem foi oficialmente inaugurada em setembro de 2025 pelo primeiro-ministro etíope Abiy Ahmed,
+                apesar da forte oposição de Egito e Sudão. É o maior projeto hidrelétrico da África e um dos vinte
+                maiores do mundo: tem 170 metros de altura, se estende por quase 2 km no Nilo Azul e seu reservatório
+                pode armazenar 74 bilhões de metros cúbicos de água, quase o volume de um ano inteiro de vazão do rio.
+                Para a Etiópia, a obra é símbolo de soberania energética, capaz de levar eletricidade a 35 milhões de
+                pessoas e ainda exportar excedente aos países vizinhos. Para o Egito, que depende do Nilo para 97% de
+                sua água doce, a barragem é vista como uma ameaça existencial, já que qualquer redução na vazão do rio
+                afeta diretamente a agricultura e o abastecimento de uma população que já ultrapassa 110 milhões de
+                pessoas. É um exemplo claro de como um mesmo rio pode significar coisas completamente diferentes para
+                países que dependem dele.</p>
 
             <p><strong>Rio Congo:</strong> segundo maior em volume d'água do mundo (atrás apenas do Amazonas), com 4.700 km. É o rio mais profundo do planeta (até 220 metros) e drena a imensa Bacia do Congo. Tem enorme potencial hidrelétrico ainda pouco explorado.</p>
 
-            <p><strong>Rio Niger:</strong> com 4.180 km, percorre a África Ocidental passando por Guiné, Mali, Níger e Nigéria antes de desaguar no Atlântico. É fundamental para a agricultura e pesca no Sahel, onde a água é escassa.</p>
+            <p><strong>Rio Niger:</strong> com 4.180 km, é o principal rio da África Ocidental. Nasce nas montanhas da Guiné, a apenas 240 km do Oceano Atlântico, mas segue em direção oposta ao mar, adentrando o interior semiárido do Mali antes de fazer uma grande curva e finalmente desaguar no Golfo da Guiné, na Nigéria, formando um extenso delta. Esse trajeto incomum, batizado de "paradoxo do Niger" por exploradores europeus que não entendiam por que o rio se afastava da costa, é fundamental para a agricultura e a pesca de milhões de pessoas no Sahel, onde a água é escassa.</p>
 
-            <p><strong>Rio Zambeze:</strong> com 2.574 km, é o mais importante da África Austral. Em sua foz forma as <strong>Cataratas Vitória</strong>, uma das maiores quedas d'água do mundo, na fronteira entre Zâmbia e Zimbábue.</p>
+            <p><strong>Rio Zambeze:</strong> com 2.574 km, é o mais importante da África Austral. Ao longo de seu curso forma as <strong>Cataratas Vitória</strong>, na fronteira entre Zâmbia e Zimbábue, consideradas a maior cortina contínua de água em queda do mundo, com quase 1.700 metros de largura e até 108 metros de altura. Localmente chamadas de Mosi-oa-Tunya ("a fumaça que troveja"), em referência à névoa e ao barulho que a queda produz a quilômetros de distância, são Patrimônio Mundial da Unesco e um dos principais destinos turísticos da região.</p>
 
-            <p><strong>Grandes lagos:</strong> o Rift Valley criou os maiores lagos africanos: Vitória (segundo maior lago de água doce do mundo), Tanganyika (o mais profundo da África) e Malawi. Esses lagos abrigam uma biodiversidade de peixes sem paralelo no mundo.</p>
+            <p><strong>Grandes lagos:</strong> o Rift Valley criou os maiores lagos africanos: Vitória (segundo maior lago de água doce do mundo em área, compartilhado por Uganda, Quênia e Tanzânia, e um dos principais reservatórios que alimentam o Nilo), Tanganyika (o segundo lago mais profundo do mundo, atrás apenas do lago Baikal, na Rússia) e Malawi. Esses lagos abrigam uma biodiversidade de peixes sem paralelo no mundo: só o Lago Malawi tem centenas de espécies de ciclídeos, peixes que evoluíram de forma isolada em cada lago, de maneira parecida ao que Darwin observou com os tentilhões nas Ilhas Galápagos.</p>
 
             </div>
 
@@ -273,11 +300,31 @@
 
             <p><strong>Desertificação no Sahel:</strong> o <span class="termo" data-palavra="Desertificação" data-definicao="Processo de degradação das terras em regiões áridas, semiáridas e subúmidas, causado principalmente por atividades humanas (sobrepastoreio, desmatamento, agricultura inadequada) e pelas mudanças climáticas. No Sahel, o avanço do Saara para o sul ameaça a subsistência de centenas de milhões de pessoas. Em resposta, 11 países africanos iniciaram a 'Grande Muralha Verde', um projeto de reflorestamento de 8.000 km de extensão para conter o avanço do deserto.">avanço do deserto sobre o Sahel</span> é um dos problemas ambientais mais graves da África. A combinação de seca, sobrepastoreio e desmatamento degrada solos que comunidades inteiras dependem para sobreviver. Em resposta, países do Sahel iniciaram a "Grande Muralha Verde", projeto de reflorestamento de 8.000 km para conter o avanço do Saara.</p>
 
-            <p><strong>Desmatamento da floresta do Congo:</strong> a segunda maior floresta tropical do mundo perde área para a agricultura de subsistência, extração de madeira e mineração. Ao contrário da Amazônia, onde o desmatamento é fortemente mecanizado e empresarial, no Congo predomina o desmatamento por pequenos agricultores que precisam de terra para sobreviver.</p>
+            <p>Lançada em 2007 pela União Africana, a meta original da Grande Muralha Verde era restaurar 100 milhões
+                de hectares de terras degradadas até 2030, mas o projeto avança bem mais devagar do que o planejado:
+                em meados de 2024, estava apenas cerca de 30% completo. Ainda assim, os números acumulados não são
+                pequenos: somente entre 2021 e 2025, o programa "Acelerador" da iniciativa ajudou a colocar 1,66
+                milhão de hectares em processo de restauração no Sahel, gerando 4,6 milhões de empregos e beneficiando
+                cerca de 46 milhões de pessoas. O maior obstáculo é o financiamento: dos 19 bilhões de dólares
+                prometidos por doadores internacionais em 2021, pouco mais de 2,5 bilhões haviam sido efetivamente
+                entregues até o ano seguinte, e estima-se que ainda faltem cerca de 33 bilhões de dólares para que a
+                meta de 2030 seja alcançada.</p>
+
+            <p><strong>O Lago Chade que some:</strong> nenhum caso ilustra melhor o drama do Sahel do que o
+                <span class="termo" data-palavra="Lago Chade" data-definicao="Lago raso situado na fronteira entre Chade, Níger, Nigéria e Camarões, que já foi um dos maiores lagos da África. Perdeu entre 90% e 95% de sua área entre 1963 e a década de 1990, encolhendo de cerca de 25 mil km² para pouco mais de mil km², devido à combinação de mudanças climáticas, seca prolongada e desvio de água para irrigação. Milhões de pessoas que dependiam da pesca e da agricultura ao redor do lago perderam sua fonte de subsistência.">Lago Chade</span>.
+                Situado na fronteira entre Chade, Níger, Nigéria e Camarões, o lago perdeu entre 90% e 95% de sua área
+                em poucas décadas: de cerca de 25 mil km² no início dos anos 1960 para pouco mais de mil km² hoje,
+                com fortes variações sazonais. A combinação de seca prolongada, mudanças climáticas e grandes projetos
+                de irrigação que desviaram a água dos rios que alimentam o lago deixou milhões de pescadores e
+                agricultores sem sua principal fonte de subsistência, alimentando migrações forçadas e, segundo
+                pesquisadores, contribuindo para a instabilidade social que favoreceu o crescimento de grupos armados
+                na região, como o Boko Haram.</p>
+
+            <p><strong>Desmatamento da floresta do Congo:</strong> a segunda maior floresta tropical do mundo, com quase 200 milhões de hectares, perde área para a agricultura de subsistência, extração de madeira e mineração. Em 2024, a Bacia do Congo perdeu cerca de 780 mil hectares de floresta primária, um ritmo que vem crescendo ano a ano. Ao contrário da Amazônia, onde o desmatamento é fortemente mecanizado e empresarial, no Congo predomina o desmatamento por pequenos agricultores que precisam de terra para sobreviver, praticando o chamado cultivo itinerante com rotação de áreas, embora a agricultura permanente em maior escala também venha crescendo na região.</p>
 
             <p><strong>Conflitos por recursos hídricos:</strong> a disputa pelo Nilo entre Etiópia, Sudão e Egito é o exemplo mais crítico. Com o crescimento populacional e o aumento das temperaturas, a água torna-se cada vez mais escassa e politicamente disputada.</p>
 
-            <p><strong>Derretimento das neves do Kilimanjaro:</strong> o glaciar do Kilimanjaro perdeu mais de 80% de sua cobertura de gelo no século XX. As previsões indicam desaparecimento completo antes de 2050. Além do impacto simbólico, o derretimento afeta os rios e a disponibilidade de água na região.</p>
+            <p><strong>Derretimento das neves do Kilimanjaro:</strong> o glaciar do Kilimanjaro perdeu mais de 80% de sua cobertura de gelo no século XX. As previsões indicam desaparecimento completo antes de 2050. Além do impacto simbólico, o derretimento afeta os rios e a disponibilidade de água na região. O mesmo processo atinge outras montanhas africanas com neve permanente, como o Monte Quênia e as Montanhas Ruwenzori, na fronteira entre Uganda e a República Democrática do Congo, cujas geleiras também estão entre as que mais perdem massa no planeta, proporcionalmente ao seu tamanho original.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -330,7 +377,7 @@
                 <p class="w3-small">MAATHAI, Wangari. <em>Desafio à África: uma perspectiva africana sobre os problemas contemporâneos do continente.</em> São Paulo: Globo, 2010, p. 41.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Maathai e no que você estudou, responda:</strong></p>
 
@@ -348,13 +395,17 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
             <p><span class="primeiraLetra">A</span>ntes parecia que a África é um continente árido, uniforme e pobre porque a natureza assim determinou. Agora você vê que a África tem uma das maiores diversidades climáticas e ecológicas do planeta: florestas tropicais densas, a maior área de savana do mundo, desertos monumentais, montanhas com neve, rios imensos e lagos milenares. A imagem de um continente todo de deserto é uma distorção.</p>
 
             <p>E os problemas ambientais que a África enfrenta hoje, a desertificação, o desmatamento, a escassez de água, não são resultado da natureza: são resultado de como os recursos africanos foram e continuam sendo explorados. A natureza foi generosa com a África. O problema está em outro lugar.</p>
+
+            <p>Na próxima aula, vamos justamente seguir esse fio: como a colonização europeia moldou as fronteiras,
+                a economia e a política do continente, e como a exploração das riquezas minerais africanas continua,
+                até hoje, a gerar mais lucro para fora da África do que para dentro dela.</p>
 
             </div>
 
@@ -448,13 +499,13 @@
 
             <h3>6. O que é o Sahel? Explique o processo de desertificação que ameaça essa região e cite as causas humanas e climáticas desse fenômeno.</h3>
 
-            <h3>7. (ANALÍTICA) A África é responsável por menos de 4% das emissões globais de gases de efeito estufa, mas é o continente mais vulnerável às mudanças climáticas. Quem tem responsabilidade sobre esse problema? O que seria uma resposta justa da comunidade internacional?</h3>
+            <h3>7. A África é responsável por menos de 4% das emissões globais de gases de efeito estufa, mas é o continente mais vulnerável às mudanças climáticas. Quem tem responsabilidade sobre esse problema? O que seria uma resposta justa da comunidade internacional?</h3>
 
-            <h3>8. (ANALÍTICA) As neves do Kilimanjaro estão desaparecendo. Esse fenômeno é frequentemente usado como símbolo das mudanças climáticas. Por que você acha que a imagem de uma montanha africana com neve é tão impactante para pessoas que imaginam o continente como todo árido e quente? O que isso revela sobre nossos estereótipos?</h3>
+            <h3>8. As neves do Kilimanjaro estão desaparecendo. Esse fenômeno é frequentemente usado como símbolo das mudanças climáticas. Por que você acha que a imagem de uma montanha africana com neve é tão impactante para pessoas que imaginam o continente como todo árido e quente? O que isso revela sobre nossos estereótipos?</h3>
 
             <h3>9. Explique o projeto "Grande Muralha Verde". Quais países participam, qual é o objetivo e como ele se relaciona com os problemas de desertificação do Sahel?</h3>
 
-            <h3>10. (ANALÍTICA) Wangari Maathai diz que a África é rica em recursos naturais mas pobre em retornos para sua população. Relacione essa afirmação com a situação ambiental do continente: como a exploração dos recursos naturais africanos contribui para os problemas ambientais estudados nesta aula?</h3>
+            <h3>10. Wangari Maathai diz que a África é rica em recursos naturais mas pobre em retornos para sua população. Relacione essa afirmação com a situação ambiental do continente: como a exploração dos recursos naturais africanos contribui para os problemas ambientais estudados nesta aula?</h3>
 
             </div>
 
@@ -475,7 +526,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} vai te ajudar a entender a África com muito mais profundidade. Continue estudando!',
+        mensagem: 'o tema África I: Diversidade natural vai te ajudar a entender a África com muito mais profundidade. Continue estudando!',
         pontos: 40
     });
 
@@ -509,6 +560,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

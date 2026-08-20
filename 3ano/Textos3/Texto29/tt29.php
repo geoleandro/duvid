@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Golfo Pérsico e Turquia: petróleo, monarquias do Golfo, guerra do Iêmen e a posição geopolítica da Turquia">
-    <meta property="og:title" content="Texto 29 - Golfo Pérsico e Turquia">
+    <meta name="description" content="Irã, Turquia e as Potências Regionais: petróleo, monarquias do Golfo, guerra do Iêmen e a posição geopolítica da Turquia">
+    <meta property="og:title" content="Texto 29 - Irã, Turquia e as Potências Regionais">
     <meta property="og:description" content="Por que os países do Golfo são tão ricos e tão desiguais? E como a Turquia navega entre a Europa e o Oriente Médio?">
     <meta property="og:image" content="">
 
@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,8 +42,9 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 29 - Golfo Pérsico e Turquia</title>
+    <title>3º ano - Texto 29 - Irã, Turquia e as Potências Regionais</title>
 
 </head>
 
@@ -127,7 +128,7 @@
         <!-- BLOCO 4: O GOLFO PÉRSICO -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>As monarquias do Golfo Pérsico</h2>
 
             <p><span class="primeiraLetra">O</span> Golfo Pérsico banha seis países que juntos concentram cerca de 40% das reservas mundiais de petróleo: Arábia Saudita, Emirados Árabes Unidos, Kuwait, Qatar, Bahrein e Omã. Todos são <span class="termo" data-palavra="Monarquia absoluta do Golfo" data-definicao="Sistema de governo em que um rei ou emir detém todo o poder político sem limitações constitucionais significativas. Nos países do Golfo Pérsico, as famílias reais controlam as riquezas do petróleo, o aparato militar e o sistema judiciário. Partidos políticos são proibidos ou severamente limitados. A riqueza do petróleo permitiu a esses governos financiar serviços sociais (educação, saúde, moradia) sem precisar cobrar impostos dos cidadãos, criando um 'pacto' pelo qual a população aceita a falta de liberdades políticas em troca de bem-estar material. Esse modelo é chamado de 'autoritarismo rentista'.">monarquias absolutas</span> onde a família real controla o petróleo, o governo e o judiciário. Partidos políticos são proibidos ou inexpressivos. Eleições, quando existem, não mudam o poder real.</p>
@@ -136,7 +137,7 @@
 
             <p>Essa riqueza, porém, não é compartilhada com todos que vivem nesses países. Os <strong>trabalhadores migrantes</strong> são essenciais para a economia do Golfo: no Qatar, eles representam 90% da força de trabalho. Muitos vêm da Índia, Nepal, Bangladesh, Filipinas e países africanos, e vivem sob o sistema <em>kafala</em>: o empregador controla o visto do trabalhador, impedindo-o de mudar de emprego ou sair do país sem autorização. Violações dos direitos humanos são amplamente documentadas: salários não pagos, passaportes confiscados, moradia precária e jornadas de até 16 horas em calor extremo.</p>
 
-            <p>A Copa do Mundo de 2022 no Qatar colocou essa realidade em evidência internacional: estima-se que mais de 6.500 trabalhadores migrantes morreram durante a construção dos estádios e infraestrutura.</p>
+            <p>A Copa do Mundo de 2022 no Qatar colocou essa realidade em evidência internacional, embora os números sejam disputados: uma investigação do jornal britânico <em>The Guardian</em> contabilizou mais de 6.500 mortes de trabalhadores migrantes de cinco países do Sul da Ásia no Qatar entre 2010 (ano em que o país venceu a candidatura para sediar o torneio) e 2020, contagem que inclui todos os tipos de trabalho, não só obras da Copa. Já o Comitê Supremo organizador do evento reconheceu oficialmente entre 400 e 500 mortes ligadas a projetos conectados ao torneio. A distância entre os dois números mostra como é difícil (e politicamente conveniente) definir exatamente o que conta como "morte relacionada à Copa".</p>
 
             </div>
 
@@ -163,6 +164,8 @@
 
             <p>As consequências para a população iemenita são catastróficas. A ONU considera o Iêmen um dos maiores desastres humanitários do mundo: mais de 21 milhões de pessoas precisam de ajuda; o país enfrentou surtos de cólera que infectaram mais de 2 milhões de pessoas; crianças morrem de desnutrição. A cobertura da mídia internacional é limitada, em parte porque os países que bombardeiam o Iêmen (Saudita com aviões e bombas americanas e britânicas) são aliados estratégicos do Ocidente.</p>
 
+            <p>Desde o início da guerra em Gaza, em 2023, os Houthis abriram uma nova frente que colocou o Iêmen de volta às manchetes: passaram a atacar com mísseis e drones navios comerciais que cruzam o Mar Vermelho, em suposta solidariedade aos palestinos, ameaçando uma das rotas de comércio mais movimentadas do planeta (por onde passa boa parte do petróleo e das mercadorias entre a Ásia e a Europa). Grandes companhias de navegação passaram a evitar a região, desviando navios pelo caminho muito mais longo ao redor da África. Em julho de 2026, os Houthis declararam um bloqueio naval contra a Arábia Saudita, rompendo anos de trégua na guerra civil iemenita, alegando retaliação a um "cerco" saudita ao Iêmen. Semanas depois, em agosto de 2026, um ataque houthi a um navio cargueiro egípcio no Estreito de Bab el-Mandeb matou ao menos seis pessoas. O conflito no Iêmen mostra como uma guerra civil "esquecida" pode, de repente, afetar o preço de qualquer produto transportado por navio no mundo inteiro.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -171,7 +174,7 @@
         <!-- BLOCO 5b: O IRÃ -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>O Irã: revolução, bomba e guerra com Israel e EUA</h2>
 
             <p><span class="primeiraLetra">O</span> <span class="termo" data-palavra="Irã: República Islâmica" data-definicao="O Irã (90 milhões de habitantes, capital Teerã) é uma teocracia xiita desde a Revolução Islâmica de 1979, quando o aiatolá Khomeini derrubou o Xá Reza Pahlavi (reinstalado pelos EUA e Reino Unido em 1953, após o golpe contra Mosaddegh). O sistema político iraniano tem um presidente eleito, mas o poder real pertence ao Líder Supremo (atualmente o aiatolá Khamenei), autoridade religiosa e política máxima que controla o exército, o judiciário e a política exterior. O Irã é a principal potência xiita do mundo e rival direto da Arábia Saudita (sunita) pela hegemonia regional. O eixo de influência iraniana na região inclui: Hezbollah no Líbano, Hamas e Jihad Islâmica em Gaza, Houthis no Iêmen e milícias xiitas no Iraque e na Síria. Esse conjunto de grupos aliados é chamado pelo Irã de 'Eixo da Resistência'.">Irã</span> é uma república islâmica teocrática desde 1979, quando a Revolução Islâmica derrubou o Xá Reza Pahlavi. É o maior país da região em população e o principal representante do Islã xiita no mundo, rival direto da Arábia Saudita sunita. Sua influência se estende por um "Eixo da Resistência": o Hezbollah no Líbano, os Houthis no Iêmen, milícias xiitas no Iraque e Síria, e apoio ao Hamas em Gaza.</p>
@@ -194,9 +197,13 @@
 
             <p><strong>A guerra entre EUA e Irã (2025):</strong> as tensões entre Washington e Teerã têm raízes profundas. Em 1979, durante a Revolução Islâmica, estudantes invadiram a embaixada americana em Teerã e mantiveram 52 diplomatas reféns por 444 dias, rompimento que nunca cicatrizou. Desde então, os EUA impuseram sanções econômicas crescentes ao Irã, isolando-o do sistema financeiro global. Em janeiro de 2020, Donald Trump ordenou o assassinato do general Qasem Soleimani, comandante da Guarda Revolucionária e arquiteto do Eixo da Resistência, num ataque de drone no Iraque. O Irã prometeu "vingança severa" e bombardeou bases americanas no Iraque.</p>
 
-            <p>Em 2025, a escalada chegou a um novo patamar: Israel realizou ataques extensivos a instalações nucleares e militares iranianas, e os EUA participaram diretamente, bombardeando as principais usinas de enriquecimento de urânio do Irã — Fordow, Natanz e Isfahan — com bombas "bunker buster" (projetadas para destruir instalações subterrâneas profundas). Foi o primeiro ataque militar americano direto ao território iraniano. O objetivo declarado era destruir a capacidade do Irã de fabricar uma bomba nuclear. O Irã respondeu com mísseis e afirmou que o programa nuclear não havia sido destruído. A comunidade internacional se dividiu: parte dos países ocidentais apoiou os ataques como medida de não-proliferação; Rússia, China e boa parte do Sul Global condenaram como agressão unilateral contrária ao direito internacional.</p>
+            <p>Em 2025, a escalada chegou a um novo patamar: Israel realizou ataques extensivos a instalações nucleares e militares iranianas, e os EUA participaram diretamente, bombardeando as principais usinas de enriquecimento de urânio do Irã (Fordow, Natanz e Isfahan) com bombas "bunker buster" (projetadas para destruir instalações subterrâneas profundas). Foi o primeiro ataque militar americano direto ao território iraniano. O objetivo declarado era destruir a capacidade do Irã de fabricar uma bomba nuclear. O Irã respondeu com mísseis e afirmou que o programa nuclear não havia sido destruído. A comunidade internacional se dividiu: parte dos países ocidentais apoiou os ataques como medida de não-proliferação; Rússia, China e boa parte do Sul Global condenaram como agressão unilateral contrária ao direito internacional.</p>
 
             <p>O episódio levanta uma questão geopolítica central: quem tem o direito de decidir quais países podem ou não ter armas nucleares? Os EUA, Israel, Reino Unido, França, Rússia, China, Índia, Paquistão e Coreia do Norte possuem ogivas nucleares. O Irã não. Quem estabelece essa regra e com que autoridade?</p>
+
+            <p><strong>Fevereiro de 2026: a morte do líder supremo.</strong> O conflito voltou a escalar de forma ainda mais grave menos de um ano depois. Numa nova onda de ataques conjuntos de Israel e Estados Unidos contra alvos em Teerã, foi morto o próprio <span class="termo" data-palavra="Ali Khamenei" data-definicao="Aiatolá e líder supremo do Irã de 1989 até sua morte em 28 de fevereiro de 2026, num ataque conjunto de Israel e Estados Unidos. Era a autoridade política e religiosa máxima do regime iraniano havia 37 anos, com poder sobre as Forças Armadas, o Judiciário e a política externa do país. Sua morte foi a primeira vez na história em que uma potência estrangeira eliminou, por ataque militar direto, o chefe de Estado de um país com esse peso geopolítico.">aiatolá Ali Khamenei</span>, líder supremo havia 37 anos, junto com o comandante da Guarda Revolucionária, o ministro da Defesa e outros altos comandantes. Foi um golpe sem precedentes na cúpula do regime iraniano, e o governo decretou 40 dias de luto nacional. Como prevê a Constituição iraniana, um conselho provisório assumiu temporariamente as funções da liderança suprema até que a Assembleia de Peritos escolhesse um substituto definitivo: em 8 de março de 2026, o clérigo Mojtaba Khamenei, filho do falecido aiatolá, foi anunciado como o novo líder supremo, mantendo a liderança religiosa e política do país dentro da mesma família.</p>
+
+            <p>Em junho de 2026, um memorando de entendimento entre as partes envolvidas declarou o "encerramento permanente das operações militares em todas as frentes" ligadas ao conflito, incluindo entre Israel e o Hezbollah no Líbano. O Irã, porém, terminou a guerra com sua capacidade de enriquecimento de urânio praticamente destruída e o regime em situação de fragilidade que não se via desde a Revolução de 1979.</p>
 
             </div>
 
@@ -235,7 +242,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'O Estado distribui renda do petróleo em troca do poder absoluto da família real — sem impostos, sem eleições. Liberdade material, não política.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'O Estado distribui renda do petróleo em troca do poder absoluto da família real: sem impostos, sem eleições. Liberdade material, não política.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -250,7 +257,7 @@
         <!-- BLOCO 7: TURQUIA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A Turquia: entre dois mundos</h2>
 
             <p><span class="primeiraLetra">A</span> <span class="termo" data-palavra="Turquia: posição geopolítica" data-definicao="A Turquia (85 milhões de habitantes, capital Ancara) é um país único na geopolítica mundial por ser simultaneamente membro da OTAN (aliança militar ocidental) e candidato à União Europeia desde 1987, ao mesmo tempo em que faz fronteira com o Irã, o Iraque e a Síria e tem relações complexas com a Rússia. Essa posição permite à Turquia jogar diferentes lados contra si mesmos, vendendo sua cooperação estratégica ao maior ofertante. Em 2023, bloqueou por meses a entrada da Suécia e Finlândia na OTAN exigindo concessões sobre os curdos. O país também controla os Estreitos do Bósforo e Dardanelos, único acesso da Rússia ao Mar Mediterrâneo, o que lhe confere enorme poder de barganha.">Turquia</span> é o único país do mundo que ocupa territórios na Europa e na Ásia ao mesmo tempo, separados pelos Estreitos do Bósforo e Dardanelos. Com 85 milhões de habitantes e a 17ª maior economia do mundo, é uma potência regional com posição geopolítica singular.</p>
@@ -259,7 +266,9 @@
 
             <p><strong>Os Estreitos:</strong> o Bósforo e os Dardanelos são o único acesso da Rússia ao Mar Mediterrâneo. A Turquia controla esses estreitos por tratado internacional, o que lhe confere enorme poder sobre a logística militar e comercial russa. Durante a guerra na Ucrânia (2022), a Turquia usou esse controle para se posicionar como mediadora entre Rússia e Ucrânia, mantendo relações com os dois lados.</p>
 
-            <p><strong>Erdogan e a virada autoritária:</strong> entre 2002 e 2010, sob Recep Tayyip Erdogan, a Turquia viveu crescimento econômico e reformas democratizantes. A partir de 2013, o governo ficou cada vez mais autoritário: liberdade de imprensa foi restringida, juízes foram afastados, e após a tentativa de golpe de 2016, mais de 150 mil pessoas foram presas ou demitidas. Em 2017, um referendo deu a Erdogan poderes presidenciais ampliados, transformando o sistema parlamentarista em presidencialista.</p>
+            <p><strong>Erdogan e a virada autoritária:</strong> entre 2002 e 2010, sob Recep Tayyip Erdogan, a Turquia viveu crescimento econômico e reformas democratizantes. A partir de 2013, o governo ficou cada vez mais autoritário: liberdade de imprensa foi restringida, juízes foram afastados, e após a tentativa de golpe de 2016, mais de 150 mil pessoas foram presas ou demitidas. Em 2017, um referendo deu a Erdogan poderes presidenciais ampliados, transformando o sistema parlamentarista em presidencialista. Ele venceu a reeleição em 2023, chegando à sua terceira década no poder.</p>
+
+            <p>O episódio mais recente dessa virada autoritária aconteceu em março de 2025: Ekrem Imamoglu, prefeito de Istambul e principal opositor de Erdogan, foi preso dias antes de ser oficializado como candidato à presidência pelo maior partido de oposição do país. As acusações, de liderar organização criminosa a corrupção, são vistas por analistas e por parte da comunidade internacional como perseguição política: Imamoglu havia vencido Erdogan justamente na base eleitoral mais importante do país, Istambul, em 2019. Ele segue preso, condenado em processos adicionais, enquanto seu partido confirma sua candidatura para as eleições de 2028, um sinal de que a oposição turca aposta em disputar o poder mesmo com seu principal nome atrás das grades.</p>
 
             </div>
 
@@ -278,6 +287,10 @@
             <p>O conflito cria uma contradição geopolítica constante para a Turquia: os curdos sírios (YPG/YPJ) foram os principais aliados dos EUA na derrota do Estado Islâmico na Síria, mas a Turquia os considera uma extensão do PKK e realiza ataques militares contra eles. Isso coloca Turquia e EUA, ambos membros da OTAN, em lados opostos de um conflito dentro da Síria.</p>
 
             <p>Em 2023, a Turquia condicionou sua aprovação à entrada da Suécia na OTAN a que o país entregasse refugiados curdos e classificasse o PKK como terrorista. Essa "extorsão" bem-sucedida ilustra como a Turquia usa sua posição estratégica para obter concessões de seus aliados ocidentais.</p>
+
+            <p><strong>Uma virada histórica em 2025:</strong> depois de mais de quatro décadas de conflito armado e cerca de 40 mil mortos, o PKK anunciou sua própria dissolução em maio de 2025. A decisão veio de uma carta de <span class="termo" data-palavra="Abdullah Öcalan" data-definicao="Fundador e líder histórico do PKK (Partido dos Trabalhadores do Curdistão), preso na Turquia desde 1999 e cumprindo prisão perpétua numa ilha-presídio isolada. Em abril de 2025, escreveu uma carta pedindo o fim da luta armada e a dissolução do PKK, decisão que o grupo aceitou em seu 12º congresso no mês seguinte. Para muitos curdos, Öcalan segue sendo uma liderança política e simbólica, apesar de décadas na prisão.">Abdullah Öcalan</span>, líder histórico do PKK, preso desde 1999, que defendeu o fim da luta armada e a transição para uma atuação política dentro do sistema turco. Em seu 12º congresso, realizado na fronteira entre Iraque e Irã, o grupo aceitou a proposta e iniciou um processo de desarmamento supervisionado pelos serviços de inteligência turcos, com entrega de armas em pontos na Turquia, na Síria e no Iraque. Combatentes sem envolvimento em crimes graves podem se reintegrar à vida civil; lideranças podem buscar asilo em terceiros países.</p>
+
+            <p>É cedo para saber se essa paz vai durar. Décadas de tentativas anteriores de negociação fracassaram, e a Turquia segue restringindo direitos políticos e culturais dos curdos mesmo com o fim da luta armada do PKK. Mas o simples fato de o conflito armado mais longo do Oriente Médio ter chegado a um encerramento negociado, e não a uma vitória militar de um dos lados, já é, por si só, uma mudança geopolítica notável na região.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -307,7 +320,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Turquia controla o Bósforo, faz fronteira com Rússia e Oriente Médio e tem o 2º maior exército da OTAN — posição que gera poder de barganha imenso.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Turquia controla o Bósforo, faz fronteira com Rússia e Oriente Médio e tem o 2º maior exército da OTAN: posição que gera poder de barganha imenso.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -330,7 +343,7 @@
                 <p class="w3-small">AMNESTY INTERNATIONAL. <em>Qatar: exploração de trabalhadores migrantes.</em> Relatório 2023, p. 18.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto e no que você estudou, responda:</strong></p>
 
@@ -348,13 +361,15 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
-            <p><span class="primeiraLetra">A</span>ntes parecia que os países do Golfo eram simplesmente "ricos por causa do petróleo" e que os conflitos da região eram "ódios religiosos de sempre". Agora você ve que a riqueza do petroleo se sustenta sobre a ausência de direitos políticos e a exploração de trabalhadores migrantes invisíveis, que o Irã e a Arábia Saudita travam uma guerra por procuração que devasta países como o Iêmen, que a escalada direta Irã-Israel em 2024 colocou o mundo mais perto de uma guerra regional do que em décadas, e que a Turquia transforma sua localização geografica em poder político real.</p>
+            <p><span class="primeiraLetra">A</span>ntes parecia que os países do Golfo eram simplesmente "ricos por causa do petróleo" e que os conflitos da região eram "ódios religiosos de sempre". Agora você ve que a riqueza do petroleo se sustenta sobre a ausência de direitos políticos e a exploração de trabalhadores migrantes invisíveis, que o Irã e a Arábia Saudita travam uma guerra por procuração que devasta países como o Iêmen (e que voltou a ameaçar o comércio mundial pelo Mar Vermelho), que a escalada Irã-Israel-EUA entre 2024 e 2026 já custou ao Irã seu próprio líder supremo, e que a Turquia transforma sua localização geografica em poder político real, ao mesmo tempo em que prende opositores e, paradoxalmente, encerra por negociação seu conflito armado mais antigo.</p>
 
             <p>Petróleo, religião, colonialismo e geopolítica: são forças concretas, não abstratas, que determinam quem vive e quem morre nessa região.</p>
+
+            <p>Com esta aula, você completou o bloco de conflitos do Oriente Médio e da África. Na próxima parada, é hora de revisar tudo o que foi estudado desde a aula sobre a diversidade natural da África até aqui, antes de seguir para novos temas.</p>
 
             </div>
 
@@ -362,11 +377,11 @@
             <ul>
                 <li>Monarquias absolutas do Golfo e autoritarismo rentista</li>
                 <li>Sistema kafala e direitos dos trabalhadores migrantes</li>
-                <li>Guerra do Iêmen e crise humanitária</li>
+                <li>Guerra do Iêmen, crise humanitária e a crise dos Houthis no Mar Vermelho</li>
                 <li>Irã: Revolução Islâmica, programa nuclear e Eixo da Resistência</li>
-                <li>Escalada Irã-Israel (2024) e bombardeio americano às instalações nucleares (2025)</li>
-                <li>Turquia: posição geopolítica e Estreitos do Bósforo</li>
-                <li>Questão curda na Turquia e contradição com a OTAN</li>
+                <li>Escalada Irã-Israel-EUA (2024-2026) e a morte do aiatolá Khamenei</li>
+                <li>Turquia: posição geopolítica, virada autoritária e prisão de Imamoglu</li>
+                <li>Questão curda: do PKK à dissolução negociada em 2025</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -408,6 +423,16 @@
                 <strong>Por que a Turquia nunca entrou na União Europeia?</strong>
             </p>
             <p>Os motivos são variados: questões de direitos humanos (perseguição aos curdos, liberdade de imprensa), a ocupação militar do norte do Chipre (país membro da UE), o crescente autoritarismo de Erdogan, e também resistência de países como a França e a Alemanha que têm grandes comunidades turcas imigrantes e tensões com elas. Com o tempo, a própria Turquia perdeu o interesse na adesão, preferindo usar a candidatura como alavanca política.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>O que aconteceu com o líder supremo do Irã em 2026?</strong>
+            </p>
+            <p>Em fevereiro de 2026, numa nova onda de ataques de Israel e dos Estados Unidos contra o Irã, o aiatolá Ali Khamenei, líder supremo desde 1989, foi morto junto com vários de seus principais comandantes militares. Foi a primeira vez que uma potência estrangeira eliminou, por ataque militar direto, o chefe de Estado de um país com esse peso geopolítico. Em março, seu filho, Mojtaba Khamenei, foi escolhido pela Assembleia de Peritos como novo líder supremo, mantendo o comando político-religioso do país dentro da mesma família.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>O PKK realmente deixou de existir?</strong>
+            </p>
+            <p>Em maio de 2025, depois de mais de 40 anos de conflito armado, o PKK anunciou sua dissolução, atendendo a um pedido de seu fundador, Abdullah Öcalan, preso desde 1999. O grupo iniciou um processo de entrega de armas supervisionado pela inteligência turca. É um marco histórico, mas ainda cedo para saber se resolverá de fato as tensões entre o Estado turco e a população curda, já que os direitos políticos e culturais dos curdos continuam restritos mesmo com o fim da luta armada.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
@@ -463,15 +488,15 @@
 
             <h3>5. O que é o "Eixo da Resistência" iraniano? Quais grupos fazem parte e qual é o objetivo estratégico do Irã ao sustentá-los?</h3>
 
-            <h3>6. O que foi o ataque direto do Irã a Israel em 2024? Por que ele foi considerado um marco histórico no conflito regional?</h3>
+            <h3>6. O que foi o ataque direto do Irã a Israel em 2024, e como esse conflito escalou até a morte do aiatolá Khamenei em 2026? Por que esses eventos são considerados um marco histórico no conflito regional?</h3>
 
-            <h3>7. (ANALÍTICA) Em 2025, os EUA bombardearam as instalações nucleares do Irã. Quem tem autoridade para decidir quais países podem ou não ter armas nucleares? Os EUA, Rússia, China, França, Reino Unido, Índia, Paquistão e Coreia do Norte possuem ogivas. Por que o Irã não pode? Essa regra é justa ou é apenas o direito do mais forte?</h3>
+            <h3>7. Em 2025, os EUA bombardearam as instalações nucleares do Irã. Quem tem autoridade para decidir quais países podem ou não ter armas nucleares? Os EUA, Rússia, China, França, Reino Unido, Índia, Paquistão e Coreia do Norte possuem ogivas. Por que o Irã não pode? Essa regra é justa ou é apenas o direito do mais forte?</h3>
 
             <h3>8. Por que a localização geográfica da Turquia lhe confere tanto poder de barganha na política internacional?</h3>
 
-            <h3>9. (ANALÍTICA) A Turquia é membro da OTAN e ao mesmo tempo realiza operações militares contra grupos curdos que são aliados dos EUA na Síria. Como você explica essa contradição? O que ela revela sobre o funcionamento das alianças internacionais?</h3>
+            <h3>9. A Turquia é membro da OTAN e ao mesmo tempo realiza operações militares contra grupos curdos que são aliados dos EUA na Síria. Como você explica essa contradição? Em 2025, o PKK anunciou sua dissolução após mais de 40 anos de conflito armado: isso significa que a questão curda na Turquia está resolvida?</h3>
 
-            <h3>10. (ANALÍTICA) Os países do Golfo financiam com petrodólares infraestrutura e serviços para seus cidadãos nacionais, mas exploram trabalhadores migrantes que constroem essa infraestrutura. Ao mesmo tempo, a guerra do Iêmen devasta o país mais pobre da região. Que padrão você enxerga nessas duas situações? Quem paga o custo da riqueza do Golfo?</h3>
+            <h3>10. Os países do Golfo financiam com petrodólares infraestrutura e serviços para seus cidadãos nacionais, mas exploram trabalhadores migrantes que constroem essa infraestrutura. Ao mesmo tempo, a guerra do Iêmen devasta o país mais pobre da região. Que padrão você enxerga nessas duas situações? Quem paga o custo da riqueza do Golfo?</h3>
 
             </div>
 
@@ -492,7 +517,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é fundamental para entender como o petróleo molda o mundo em que vivemos. Continue estudando!',
+        mensagem: 'o tema Irã, Turquia e as Potências Regionais é fundamental para entender como o petróleo molda o mundo em que vivemos. Continue estudando!',
         pontos: 40
     });
 
@@ -525,6 +550,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

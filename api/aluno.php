@@ -81,6 +81,19 @@ function montarRespostaAluno(array $aluno, PDO $pdo): array {
     $stmt->execute([':id' => $id]);
     $conquistas = $stmt->fetchAll();
 
+    // Certificados (blocos de revisão + módulo completo)
+    $stmtCert = $pdo->prepare(
+        "SELECT tipo, referencia, conquistado_em FROM certificados_alunos WHERE aluno_id = :id"
+    );
+    $stmtCert->execute([':id' => $id]);
+    $certificados = [];
+    foreach ($stmtCert->fetchAll() as $row) {
+        $certificados[] = [
+            'tipo'       => $row['tipo'],
+            'referencia' => (int)$row['referencia'],
+        ];
+    }
+
     // Conclusoes individuais por aula (substitui leitura do localStorage)
     $stmtConc = $pdo->prepare(
         "SELECT aula_id, concluido_texto, concluido_questoes
@@ -120,6 +133,7 @@ function montarRespostaAluno(array $aluno, PDO $pdo): array {
         'progressoBarra' => $rpg['progressoBarra'],
         'progressoPorAno'=> $progressoPorAno,
         'conquistas'     => $conquistas,
+        'certificados'   => $certificados,
         'conclusoes'     => $conclusoes,
         'criado_em'      => $aluno['criado_em'] ?? null,
     ];

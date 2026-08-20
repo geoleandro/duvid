@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Subcontinente indiano: Índia, Paquistão, Bangladesh — diversidade, castas, conflito nuclear e crescimento">
+    <meta name="description" content="Subcontinente indiano: Índia, Paquistão, Bangladesh: diversidade, castas, conflito nuclear e crescimento">
     <meta property="og:title" content="Texto 31 - Subcontinente Indiano">
     <meta property="og:description" content="Como a Índia se tornou a maior democracia e economia emergente do mundo? E por que Índia e Paquistão têm ogivas nucleares apontadas uma para a outra?">
     <meta property="og:image" content="">
@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 31 - Subcontinente Indiano</title>
 
@@ -127,7 +128,7 @@
         <!-- BLOCO 4: GEOGRAFIA E DIVERSIDADE -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>O subcontinente: diversidade sem fim</h2>
 
             <p><span class="primeiraLetra">O</span> subcontinente indiano é uma península de 4,5 milhões de km² que abriga quatro países principais: Índia (1,4 bi de habitantes), Paquistão (230 mi), Bangladesh (170 mi) e Sri Lanka (22 mi). A região é delimitada ao norte pelo Himalaia, a maior cordilheira do mundo, que a separa do restante da Ásia e cria um clima de monções que alimenta os grandes rios Ganges, Brahmaputra e Indo.</p>
@@ -135,6 +136,8 @@
             <p>A diversidade interna da Índia é espantosa: 22 línguas oficiais reconhecidas (e mais de 700 dialetos), seis grandes religiões (hinduísmo, islamismo, budismo, sikhismo, jainismo, zoroastrismo), 4 mil subcomunidades com costumes distintos. Essa diversidade é um dos maiores desafios e ao mesmo tempo uma das maiores riquezas do país.</p>
 
             <p>O <span class="termo" data-palavra="Sistema de castas" data-definicao="Sistema de estratificação social de origem hindu que divide a sociedade em grupos hierárquicos hereditários. As quatro varnas principais são: Brâmanes (sacerdotes e intelectuais), Kshatriyas (guerreiros e governantes), Vaishyas (comerciantes e agricultores) e Shudras (servos). Abaixo de todos estão os Dalits (antes chamados 'intocáveis'), considerados impuros por executarem trabalhos como limpeza e curtimento de couro. A constituição indiana de 1950 proibiu a discriminação por casta e reservou cotas nas universidades e no serviço público para grupos historicamente marginalizados. Na prática, o sistema ainda determina oportunidades de casamento, emprego e moradia, especialmente nas zonas rurais.">sistema de castas</span> é central para entender a sociedade indiana. Originado no hinduísmo, ele divide a sociedade em grupos hereditários hierárquicos. Os <strong>Dalits</strong> (ex-"intocáveis"), na base da pirâmide, são cerca de 200 milhões de pessoas que historicamente realizavam os trabalhos considerados impuros (limpeza de esgotos, curtimento de couro, manipulação de cadáveres). A discriminação contra Dalits inclui assassinatos, estupros coletivos e exclusão econômica, mesmo sendo proibida pela constituição desde 1950.</p>
+
+            <p><strong>Fato interessante:</strong> mesmo entre indianos que migraram para outros países, incluindo profissionais de alta renda nos Estados Unidos e no Reino Unido, a casta continua pesando nas decisões de casamento: a maioria absoluta das uniões arranjadas e mesmo boa parte dos casamentos "por amor" ainda ocorre dentro da mesma casta. Anúncios matrimoniais em jornais e sites de casamento indianos costumam listar a casta do pretendente como informação relevante, ao lado de escolaridade e renda, prova de como uma hierarquia social de milhares de anos sobrevive mesmo em meio à modernização tecnológica e à vida no exterior.</p>
 
             </div>
 
@@ -160,6 +163,8 @@
             <p>A Partição foi implementada em 73 dias por um funcionário britânico que nunca havia pisado na Índia. O resultado foi catastrófico: 14 a 17 milhões de pessoas se deslocaram; entre 200 mil e 2 milhões morreram em massacres religiosos durante o êxodo. Famílias foram separadas por linhas desenhadas em mapas. Comunidades que haviam convivido por séculos se tornaram inimigas mortais em semanas.</p>
 
             <p>Desde então, Índia e Paquistão travaram quatro guerras (1947, 1965, 1971 e 1999) e mantêm disputa irresolvida sobre a região da Caxemira, reivindicada pelos dois países. Em 1998, ambos realizaram testes nucleares e anunciaram que possuíam bombas atômicas. Hoje, são dois dos países com armamentos nucleares que têm maior probabilidade de usar essas armas em conflito regional.</p>
+
+            <p>A tensão voltou a explodir em 2025. Em abril, um ataque a turistas na cidade de Pahalgam, na Caxemira administrada pela Índia, matou 26 pessoas, a maioria hindus, e a Índia atribuiu a autoria a um grupo ligado ao Paquistão. Em resposta, em 7 de maio de 2025, a Índia lançou a <span class="termo" data-palavra="Operação Sindoor (2025)" data-definicao="Ofensiva militar lançada pela Índia contra o Paquistão em 7 de maio de 2025, em resposta ao atentado de Pahalgam, que matou 26 turistas majoritariamente hindus na Caxemira administrada pela Índia. Durou cerca de 23 minutos e atingiu nove supostos campos de treinamento terrorista e onze instalações militares no Paquistão e na Caxemira paquistanesa. O Paquistão revidou, e os dois países trocaram ataques por três dias até um cessar-fogo em 10 de maio de 2025. Foi a mais grave escalada militar entre os dois países desde 1999.">Operação Sindoor</span>, uma série de ataques a mísseis contra supostos campos terroristas e instalações militares em território paquistanês e na Caxemira sob controle do Paquistão. O Paquistão revidou, e os dois países trocaram ataques por três dias, até um cessar-fogo ser fechado em 10 de maio de 2025. Foi a escalada militar mais grave entre os dois vizinhos nucleares desde 1999.</p>
 
             <p>Em 1971, a guerra entre os dois lados do Paquistão levou à independência de Bangladesh (antes "Paquistão Oriental"), com a intervenção da Índia do lado dos bengalis. O conflito custou entre 300 mil e 3 milhões de mortes.</p>
 
@@ -191,7 +196,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Um britânico traçou as fronteiras em 73 dias pelo critério religioso. Resultado: 15 milhões deslocados e até 2 milhões mortos — conflito que persiste até hoje.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Um britânico traçou as fronteiras em 73 dias pelo critério religioso. Resultado: 15 milhões deslocados e até 2 milhões mortos, conflito que persiste até hoje.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -206,7 +211,7 @@
         <!-- BLOCO 7: ÍNDIA EMERGENTE -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A Índia como potência emergente</h2>
 
             <p><span class="primeiraLetra">A</span> <span class="termo" data-palavra="Índia emergente" data-definicao="A Índia tornou-se a quinta maior economia do mundo em 2023 e deve ultrapassar os EUA em tamanho da economia (em PPC - paridade de poder de compra) até 2050. O país tem um setor de tecnologia de informação de classe mundial, com empresas como Infosys, Wipro e TCS e uma diáspora de engenheiros e executivos de alto nível no Vale do Silício. Também é potência espacial: em 2023, a Índia pousou a primeira sonda na lua sul lunar, região que nenhum país havia explorado. Ao mesmo tempo, o IDH indiano é médio-baixo (131º no ranking mundial) e 200 a 300 milhões de indianos ainda vivem em pobreza extrema. O crescimento econômico beneficia principalmente as classes médias e altas urbanas.">Índia emergente</span> é hoje a 5ª maior economia do mundo e deve se tornar a 3ª até 2030. Em 2023, a sonda Chandrayaan-3 pousou na face sul da Lua, feito inédito na história espacial. O país tem um setor de tecnologia de informação de classe mundial, com empresas como Infosys e Wipro, e exporta engenheiros, médicos e executivos para todo o mundo.</p>
@@ -214,6 +219,8 @@
             <p>Mas o crescimento econômico é profundamente desigual. Enquanto bilionários indianos acumulam fortunas entre as maiores do planeta, entre 200 e 300 milhões de pessoas ainda vivem em pobreza extrema. O IDH da Índia é médio-baixo (131º no ranking), com desigualdades enormes entre estados ricos (Maharashtra, Karnataka) e pobres (Bihar, Uttar Pradesh), entre homens e mulheres, entre castas altas e Dalits.</p>
 
             <p>A Índia adotou uma política de <strong>não alinhamento</strong> durante a Guerra Fria (criou o Movimento dos Países Não Alinhados em 1961) e hoje mantém relações pragmáticas com todos os polos de poder: compra armas da Rússia e dos EUA, tem conflitos fronteiriços com a China mas também comércio intenso, e participa do BRICS enquanto estreita laços com o Ocidente. Essa posição de "autonomia estratégica" é uma das marcas da política externa indiana.</p>
+
+            <p>A influência indiana também se espalha por meio de uma enorme diáspora: mais de 18 milhões de pessoas de origem indiana vivem fora do país, a maior diáspora do mundo em números absolutos. Ela inclui desde trabalhadores de baixa renda no Golfo Pérsico até executivos no comando de gigantes como Google e Microsoft, passando por políticos de alto escalão em outros países, caso do próprio primeiro-ministro britânico entre 2022 e 2024, Rishi Sunak, neto de imigrantes indianos vindos do antigo império ao qual a Índia pertenceu. É um símbolo e tanto: descendentes de colonizados hoje governam parte do antigo império colonizador.</p>
 
             </div>
 
@@ -231,7 +238,9 @@
 
             <p>Bangladesh também é um dos países mais vulneráveis às mudanças climáticas: grande parte do território está a menos de 5 metros acima do nível do mar. A previsão é que dezenas de milhões de pessoas precisem migrar nas próximas décadas por causa do aumento do nível do oceano e da intensificação das cheias.</p>
 
-            <p>Sri Lanka (ex-Ceilão) viveu uma guerra civil de 26 anos (1983-2009) entre o governo de maioria cingalesa-budista e o grupo Tamil Tigers (tamis hindus que reivindicavam um Estado independente). A guerra terminou com a derrota militar dos Tigers, mas as causas da marginalização dos tamis continuam não resolvidas. Em 2022, a ilha enfrentou a pior crise econômica de sua história, com falta de combustível, apagões e colapso do governo, que foi derrubado por manifestações populares.</p>
+            <p>O país também viveu uma ruptura política histórica: em agosto de 2024, depois de semanas de protestos estudantis contra um sistema de cotas em empregos públicos que se transformaram numa revolta popular mais ampla, a primeira-ministra <strong>Sheikh Hasina</strong>, no poder havia 15 anos, renunciou e fugiu do país. Um governo interino liderado pelo economista Muhammad Yunus, ganhador do Prêmio Nobel da Paz por seu trabalho com microcrédito, assumiu a transição. Novas eleições, as primeiras depois da queda de Hasina, foram realizadas em fevereiro de 2026, marcando a tentativa de Bangladesh de reconstruir sua democracia depois de mais de uma década de governo cada vez mais autoritário.</p>
+
+            <p>Sri Lanka (ex-Ceilão) viveu uma guerra civil de 26 anos (1983-2009) entre o governo de maioria cingalesa-budista e o grupo Tamil Tigers (tamis hindus que reivindicavam um Estado independente). A guerra terminou com a derrota militar dos Tigers, mas as causas da marginalização dos tamis continuam não resolvidas. Em 2022, a ilha enfrentou a pior crise econômica de sua história, com falta de combustível, apagões e colapso do governo, que foi derrubado por manifestações populares. Em setembro de 2024, os eleitores do Sri Lanka responderam a essa crise elegendo Anura Kumara Dissanayake, líder de um partido de esquerda marxista-leninista, como presidente, e dando ao seu partido uma maioria de dois terços no parlamento logo em seguida. Foi a primeira vez na história do país que um candidato fora dos dois grandes partidos tradicionais venceu a presidência, um sinal de que o colapso econômico de 2022 mudou profundamente a política do país.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -261,7 +270,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Marcas como Zara e H&M pressionam fornecedores por preços mínimos. Para sobreviver, as fábricas cortam segurança — o Rana Plaza mostrou o custo disso.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Marcas como Zara e H&M pressionam fornecedores por preços mínimos. Para sobreviver, as fábricas cortam segurança: o Rana Plaza mostrou o custo disso.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -270,6 +279,24 @@
             <div class="area w3-center">
                 <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
             </div>
+        </div>
+
+
+        <!-- BLOCO 8.7: AFEGANISTÃO -->
+        <div class="topico">
+
+            <h2>Afeganistão: o tabuleiro das grandes potências</h2>
+
+            <p><span class="primeiraLetra">N</span>a fronteira noroeste do subcontinente, o Afeganistão é um país sem litoral, montanhoso, que há mais de dois séculos serve de tabuleiro para disputas entre potências estrangeiras, um padrão que os historiadores chamam de <span class="termo" data-palavra="Grande Jogo" data-definicao="Termo cunhado no século 19 para descrever a disputa geopolítica entre o Império Britânico e o Império Russo pelo controle da Ásia Central, com o Afeganistão como principal zona de amortecimento entre os dois impérios. O conceito é usado até hoje para descrever como potências externas (Reino Unido, depois URSS, depois EUA) tentam controlar o Afeganistão por sua posição estratégica, sem nunca conseguir de fato dominá-lo por completo.">Grande Jogo</span>. Nem os britânicos no século 19, nem a União Soviética no século 20, nem os Estados Unidos no século 21 conseguiram, de fato, controlar o país por completo.</p>
+
+            <p>Em 1979, a URSS invadiu o Afeganistão para sustentar um governo comunista aliado, dando início a uma guerra de dez anos contra os <em>mujahidin</em> (guerrilheiros islâmicos), financiados e armados pelos Estados Unidos, pelo Paquistão e pela Arábia Saudita como parte da Guerra Fria. A retirada soviética em 1989 não trouxe paz: o país mergulhou numa guerra civil entre facções mujahidin rivais, da qual emergiu, em 1996, o <span class="termo" data-palavra="Talibã" data-definicao="Movimento político-religioso fundamentalista islâmico sunita que governou o Afeganistão de 1996 a 2001 e voltou ao poder em agosto de 2021, após a retirada das tropas dos EUA. O nome significa 'estudantes' em pastó. Impõe uma interpretação extremamente rígida da lei islâmica, com restrições severas aos direitos das mulheres: desde 2021, promulgou mais de 230 decretos retirando direitos de mulheres e meninas, incluindo a proibição de meninas frequentarem a escola após o 6º ano, o único caso do tipo no mundo.">Talibã</span>, grupo fundamentalista islâmico que impôs um regime extremamente rígido, incluindo a proibição de meninas frequentarem a escola.</p>
+
+            <p>Depois dos atentados de 11 de setembro de 2001, os Estados Unidos invadiram o Afeganistão para derrubar o Talibã, acusado de abrigar a Al-Qaeda. Seguiu-se a guerra mais longa da história americana: quase vinte anos de ocupação, mais de um trilhão de dólares gastos, dezenas de milhares de mortos, e um governo afegão apoiado pelo Ocidente que nunca conseguiu se sustentar sem tropas estrangeiras. Em agosto de 2021, quando os EUA completaram sua retirada, o Talibã retomou o país em poucos dias, praticamente sem resistência.</p>
+
+            <p>Desde então, o Afeganistão vive uma das piores crises de direitos humanos do mundo. Mais de 230 decretos do Talibã retiraram direitos básicos de mulheres e meninas: elas não podem frequentar a escola depois do 6º ano (o único país do mundo com essa proibição), têm acesso restrito a emprego e à livre circulação, e um decreto recente eliminou a idade mínima legal para o casamento, o que especialistas em direitos humanos apontam como um estímulo ao casamento infantil. Organizações internacionais chamam a situação de "apartheid de gênero". Some-se a isso uma crise humanitária profunda, com quase 22 milhões de pessoas precisando de ajuda em 2026 e recursos internacionais cada vez mais escassos, e disputas de fronteira com o Paquistão que voltaram a gerar confrontos armados em outubro de 2025. O Afeganistão mostra, de forma extrema, o que ficou registrado ao longo desta aula: fronteiras desenhadas ou disputadas por potências estrangeiras deixam consequências que duram gerações.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
 
@@ -284,7 +311,7 @@
                 <p class="w3-small">DREZE, Jean; SEN, Amartya. <em>An Uncertain Glory: India and its Contradictions.</em> Princeton University Press, 2013, p. 3.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Drèze e Sen e no que você estudou, responda:</strong></p>
 
@@ -302,23 +329,28 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
-            <p><span class="primeiraLetra">A</span>ntes parecia que a Índia era um país exótico com elefantes e templos coloridos, um lugar que esta "emergindo". Agora você ve que a "emergência" econômica indiana coexiste com um sistema de castas que hierarquiza o valor humano desde o nascimento, que a Partição de 1947 foi um crime do colonialismo que criou conflitos nucleares que duram até hoje, e que as roupas baratas que usamos podem ter sido costuradas por mãos que ganham centavos por hora em condições insalubres.</p>
+            <p><span class="primeiraLetra">A</span>ntes parecia que a Índia era um país exótico com elefantes e templos coloridos, um lugar que esta "emergindo". Agora você ve que a "emergência" econômica indiana coexiste com um sistema de castas que hierarquiza o valor humano desde o nascimento, que a Partição de 1947 foi um crime do colonialismo que criou conflitos nucleares que duram até hoje (e que voltaram a explodir em 2025), e que as roupas baratas que usamos podem ter sido costuradas por mãos que ganham centavos por hora em condições insalubres.</p>
+
+            <p>Você também viu como Bangladesh e Sri Lanka viraram a página de governos autoritários e de crises através de movimentos populares, e como o Afeganistão segue sendo, há mais de dois séculos, um tabuleiro onde potências estrangeiras jogam suas disputas, com o povo afegão pagando o preço.</p>
 
             <p>Crescimento econômico sem distribuição não é progresso para todos. É progresso para alguns, à custa de outros.</p>
+
+            <p>Na próxima parada, você vai atravessar a fronteira norte da Ásia para conhecer a Rússia: o maior país do mundo em extensão territorial, que também lida com o legado de um antigo império e segue redesenhando fronteiras à força no século 21.</p>
 
             </div>
 
             <p class="w3-margin-top"><strong>Conceitos estudados nesta aula:</strong></p>
             <ul>
                 <li>Sistema de castas e Dalits</li>
-                <li>Partição de 1947 e conflito Índia-Paquistão</li>
+                <li>Partição de 1947 e conflito Índia-Paquistão, incluindo a Operação Sindoor (2025)</li>
                 <li>A Índia como potência emergente e suas contradições</li>
-                <li>Bangladesh: indústria têxtil e vulnerabilidade climática</li>
-                <li>Sri Lanka: guerra civil e crise econômica</li>
+                <li>Bangladesh: indústria têxtil, vulnerabilidade climática e a queda de Sheikh Hasina</li>
+                <li>Sri Lanka: guerra civil, crise econômica e a virada de esquerda de 2024</li>
+                <li>Afeganistão: o "Grande Jogo", o Talibã e o apartheid de gênero</li>
             </ul>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -357,10 +389,7 @@
                 guerra", o que mostra como a posição geográfica de um país ao longo de um rio compartilhado pode se
                 transformar em uma arma geopolítica.</p>
 
-            <p class="w3-border w3-round-large w3-padding">
-                <strong>O que é o movimento de não alinhamento?</strong>
-            </p>
-            <p>Movimento criado em 1961, liderado por Índia (Nehru), Iugoslávia (Tito) e Egito (Nasser), que reuniu países que se recusavam a se alinhar com nenhum dos blocos da Guerra Fria (EUA ou URSS). O movimento expressa a aspiração dos países do "terceiro mundo" por soberania e independência de política externa. A Índia mantém até hoje uma política de "autonomia estratégica" que lhe permite comprar armas da Rússia, fazer acordos com os EUA e participar do BRICS ao mesmo tempo.</p>
+           
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
@@ -410,21 +439,21 @@
 
             <h3>2. O que foi a Partição da Índia em 1947? Por que ela foi tão violenta?</h3>
 
-            <h3>3. Por que Índia e Paquistão disputam a Caxemira? Qual é a situação atual da região?</h3>
+            <h3>3. Por que Índia e Paquistão disputam a Caxemira? O que foi a Operação Sindoor de 2025?</h3>
 
             <h3>4. O que é o "não alinhamento"? Como a Índia aplica essa política na atualidade?</h3>
 
             <h3>5. O que é o Rana Plaza? O que esse episódio revelou sobre a cadeia de produção global de roupas?</h3>
 
-            <h3>6. Por que Bangladesh é considerado um dos países mais vulneráveis às mudanças climáticas?</h3>
+            <h3>6. Por que Bangladesh é considerado um dos países mais vulneráveis às mudanças climáticas? O que mudou na política do país a partir de 2024?</h3>
 
-            <h3>7. (ANALÍTICA) A Índia tem uma constituição que proíbe a discriminação por casta e reserva cotas para Dalits nas universidades. Por que, apesar disso, a discriminação ainda persiste? Que outros tipos de mudança seriam necessários além das leis?</h3>
+            <h3>7. A Índia tem uma constituição que proíbe a discriminação por casta e reserva cotas para Dalits nas universidades. Por que, apesar disso, a discriminação ainda persiste? Que outros tipos de mudança seriam necessários além das leis?</h3>
 
-            <h3>8. (ANALÍTICA) Índia e Paquistão têm ogivas nucleares apontadas uma para a outra. Esse é o resultado de uma decisão racional de segurança ou de uma escalada histórica que saiu do controle? Que interesses cada país defende ao manter seu arsenal nuclear?</h3>
+            <h3>8. Índia e Paquistão têm ogivas nucleares apontadas uma para a outra. Esse é o resultado de uma decisão racional de segurança ou de uma escalada histórica que saiu do controle? Que interesses cada país defende ao manter seu arsenal nuclear?</h3>
 
             <h3>9. Como Bangladesh se tornou o maior exportador de roupas do mundo? Quais são as vantagens e os problemas desse modelo de desenvolvimento?</h3>
 
-            <h3>10. (ANALÍTICA) A Índia cresce economicamente de forma acelerada mas seu IDH ainda é médio-baixo. Como isso é possível? O que o PIB mede que o IDH não mede, e vice-versa? O que essa diferença revela sobre o modelo de desenvolvimento indiano?</h3>
+            <h3>10. A Índia cresce economicamente de forma acelerada mas seu IDH ainda é médio-baixo. Como isso é possível? O que o PIB mede que o IDH não mede, e vice-versa? O que essa diferença revela sobre o modelo de desenvolvimento indiano?</h3>
 
             </div>
 
@@ -445,7 +474,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} mostra como colonialismo, religião e desigualdade se entrelaçam na maior democracia do mundo. Continue estudando!',
+        mensagem: 'o tema Subcontinente Indiano mostra como colonialismo, religião e desigualdade se entrelaçam na maior democracia do mundo. Continue estudando!',
         pontos: 40
     });
 
@@ -478,6 +507,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

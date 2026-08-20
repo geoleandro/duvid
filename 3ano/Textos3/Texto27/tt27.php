@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 27 - África III: Conflitos</title>
 
@@ -127,7 +128,7 @@
         <!-- BLOCO 4: APARTHEID -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Apartheid</h2>
 
             <p><span class="primeiraLetra">O</span> <span class="termo" data-palavra="Apartheid" data-definicao="Sistema legal de segregação racial instituído na África do Sul pelo Partido Nacional (de maioria branca) em 1948 e vigente até 1994. A palavra é africâner e significa 'separação'. O apartheid dividia a população em grupos raciais (brancos, negros, mestiços e indianos) com direitos completamente diferentes: apenas os brancos podiam votar, ter propriedade em áreas urbanas, frequentar as mesmas escolas e hospitais. Negros eram confinados em áreas segregadas chamadas 'homelands' ou 'bantustões'. O regime foi condenado internacionalmente e a ONU impôs sanções econômicas à África do Sul em 1962.">apartheid</span> foi o sistema de segregação racial instituído na África do Sul em 1948, quando o Partido Nacional (de maioria branca) chegou ao poder. A palavra é africâner e significa "separação". Durante 46 anos, leis definiram onde cada grupo racial podia morar, trabalhar, estudar e se tratar.</p>
@@ -142,7 +143,11 @@
 
             <p>A resistência ao apartheid foi liderada pelo <strong>Congresso Nacional Africano (CNA)</strong>, organização fundada em 1912. Seu líder mais famoso, <strong>Nelson Mandela</strong>, foi preso em 1964 e permaneceu 27 anos na prisão, tornando-se símbolo mundial da luta contra o racismo. Sob pressão de sanções internacionais e da resistência interna, o regime de apartheid começou a desmoronar. Mandela foi libertado em 1990 e em 1994 a África do Sul realizou suas primeiras eleições democráticas e multirraciais, nas quais Mandela foi eleito presidente.</p>
 
-            <p>O fim legal do apartheid, porém, não eliminou suas consequências: a desigualdade racial na distribuição de terra, renda e acesso a serviços persiste até hoje na África do Sul, que ainda tem um dos índices de desigualdade (Gini) mais altos do mundo.</p>
+            <p>Para lidar com o passado sem mergulhar numa guerra civil, a nova África do Sul democrática criou a Comissão da Verdade e Reconciliação, presidida pelo arcebispo Desmond Tutu, ganhador do Nobel da Paz. Entre 1996 e 1998, a comissão ouviu publicamente milhares de depoimentos de vítimas e de agentes do regime, oferecendo anistia a quem confessasse integralmente os crimes cometidos por motivação política. A ideia era trocar punição por verdade e memória, inspirada no conceito africano de <em>ubuntu</em> (algo como "eu sou porque nós somos"). O modelo foi elogiado por evitar uma explosão de vingança, mas também criticado por deixar torturadores impunes e por não resolver a questão mais concreta: quem ficaria com a terra e a riqueza do país.</p>
+
+            <p>Essa questão da terra segue sem solução. Décadas depois do apartheid, a maior parte das terras agricultáveis da África do Sul ainda pertence à minoria branca, e propostas de reforma agrária, incluindo a polêmica desapropriação de terras sem indenização, dividem o país até hoje. Politicamente, o Congresso Nacional Africano, partido histórico de Mandela, perdeu a maioria absoluta pela primeira vez desde 1994 nas eleições de 2024, sendo forçado a formar um governo de coalizão com partidos rivais, sinal de que parte da população perdeu paciência com trinta anos de promessas não cumpridas.</p>
+
+            <p>O fim legal do apartheid, porém, não eliminou suas consequências: a África do Sul segue sendo, segundo o Banco Mundial, o país mais desigual do mundo, com um coeficiente de Gini em torno de 0,63. A população branca, hoje cerca de 8% dos sul-africanos, ainda concentra a maior parte da riqueza e da terra do país, enquanto boa parte da maioria negra convive com desemprego e pobreza muito acima da média. A desigualdade entre raças diminuiu um pouco desde 1994, mas a desigualdade dentro de cada grupo racial cresceu, o que mostra que acabar com uma lei injusta não desfaz, sozinho, décadas de exclusão econômica.</p>
 
             </div>
 
@@ -173,13 +178,25 @@
 
             <p>A comunidade internacional falhou em intervir a tempo. A ONU tinha tropas no país, mas o general canadense Roméo Dallaire, comandante da missão da ONU em Ruanda, pediu autorização para agir e foi negado. Seu livro "Abanei com o diabo" documenta essa tragédia diplomática.</p>
 
+            <p><strong>Fato interessante:</strong> depois do genocídio, Ruanda enfrentou um problema prático gigantesco: havia mais de 100 mil suspeitos de participação nos massacres e nenhum sistema de justiça capaz de julgar todos em tempo razoável, nos tribunais comuns isso levaria mais de um século. A solução encontrada foi reviver os <em>gacaca</em>, tribunais comunitários tradicionais, onde vizinhos julgavam vizinhos em praça pública, incentivando confissões em troca de penas reduzidas. Entre 2002 e 2012, os gacaca julgaram quase 2 milhões de casos. Ao mesmo tempo, o governo do presidente Paul Kagame proibiu por lei qualquer menção pública à etnia dos cidadãos, tornando ilegal se identificar como hutu ou tutsi, numa tentativa de apagar a divisão que levou ao genocídio. Ruanda também se tornou um caso de rápido crescimento econômico e organização urbana na África, mas seu governo é frequentemente acusado por organizações de direitos humanos de reprimir duramente qualquer oposição política, o que levanta uma pergunta incômoda: é possível reconstruir um país destruído por um genocídio sem abrir mão de liberdades democráticas básicas?</p>
+
             <h3>Outras guerras civis importantes</h3>
             <ul>
                 <li><strong>Angola (1975-2002):</strong> guerra civil de 27 anos que matou cerca de 500 mil pessoas, alimentada por petróleo e diamantes e com intervenção direta de Cuba, EUA e África do Sul durante a Guerra Fria.</li>
-                <li><strong>Serra Leoa (1991-2002):</strong> guerra civil financiada pelos "diamantes de sangue", marcada por amputações sistemáticas da população civil como forma de terror.</li>
-                <li><strong>República Democrática do Congo:</strong> conflito contínuo no leste do país desde 1996, com mais de 6 milhões de mortos, ligado ao controle do coltan e outros minerais.</li>
-                <li><strong>Sudão e Sudão do Sul:</strong> décadas de conflito entre norte islâmico e sul cristão/animista, culminando na independência do Sudão do Sul em 2011 e em novos conflitos internos.</li>
+                <li><strong>Serra Leoa (1991-2002):</strong> guerra civil financiada pelos <span class="termo" data-palavra="Diamante de Sangue" data-definicao="Também chamado de 'diamante de conflito': pedra extraída em zonas de guerra e vendida para financiar grupos armados, milícias ou senhores da guerra. O termo ficou mundialmente conhecido pela guerra civil de Serra Leoa (1991-2002), onde a Frente Revolucionária Unida controlava minas de diamante e usava amputações em massa como forma de terror contra a população civil. Em 2003, o Processo de Kimberley criou um sistema internacional de certificação para tentar impedir a venda desses diamantes, embora falhas no controle ainda permitam que parte do comércio escape da fiscalização.">"diamantes de sangue"</span>, marcada por amputações sistemáticas da população civil como forma de terror.</li>
             </ul>
+
+            <h3>A guerra do coltan: República Democrática do Congo</h3>
+
+            <p>No leste da República Democrática do Congo, um conflito armado se arrasta desde 1996 e já matou mais de 6 milhões de pessoas, direta ou indiretamente, o que faz dele o conflito mais mortal desde a Segunda Guerra Mundial. A causa central é o controle de minérios, sobretudo o coltan, usado na fabricação de celulares, computadores e baterias, além de ouro, estanho e cobalto. Dezenas de milícias armadas disputam essas minas, muitas vezes com apoio de países vizinhos.</p>
+
+            <p>O grupo <span class="termo" data-palavra="M23" data-definicao="Movimento 23 de Março: grupo rebelde congolês, majoritariamente formado por integrantes da etnia tutsi congolesa, que retomou a ofensiva armada em 2022 alegando defender essa minoria da perseguição de outras milícias. Diversos relatórios da ONU acusam o Ruanda de armar, treinar e apoiar diretamente o M23, acusação que o governo ruandês nega. Em 2025, o M23 tomou as cidades de Goma e Bukavu, as duas maiores do leste congolês.">M23</span> retomou o conflito com força a partir de 2022 e, em 2025, chegou a capturar Goma e Bukavu, as duas maiores cidades do leste do país, numa ofensiva que deslocou milhões de pessoas. Há uma ligação direta entre esse conflito e a vida de qualquer pessoa que usa celular: o coltan congolês é essencial para fabricar os capacitores que armazenam energia em smartphones, notebooks e carros elétricos, e boa parte da cadeia produtiva mundial de eletrônicos passa, em algum ponto, por minas controladas por grupos armados no leste do Congo. Iniciativas como a certificação de "minerais livres de conflito" tentam rastrear a origem desses materiais, mas fiscalizar milhares de minas informais numa região de floresta densa e governo fraco é extremamente difícil na prática. Em junho de 2025, Congo e Ruanda assinaram em Washington um acordo de paz mediado pelos Estados Unidos, prevendo a retirada de tropas ruandesas do território congolês. O M23, porém, não fez parte desse acordo e seguiu negociando separadamente com o governo congolês em Doha, no Catar. A implementação avançou de forma lenta e irregular: em dezembro de 2025 o grupo ainda ocupava posições no Kivu Sul, e só recuou de cidades como Uvira em janeiro de 2026, sob forte pressão diplomática dos EUA. Isso mostra algo comum aos conflitos africanos: acordos assinados em capitais estrangeiras nem sempre se traduzem em paz imediata no terreno.</p>
+
+            <h3>Guerra Civil no Sudão (2023-)</h3>
+
+            <p>Desde abril de 2023, o Sudão vive uma guerra entre as Forças Armadas Sudanesas (SAF), o exército oficial, e as <span class="termo" data-palavra="Forças de Apoio Rápido (RSF)" data-definicao="Milícia paramilitar sudanesa, sucessora dos janjaweed que atuaram no genocídio de Darfur nos anos 2000. Foi incorporada formalmente às forças de segurança do Sudão em 2013, mas rompeu com o exército oficial (SAF) em abril de 2023, dando início a uma guerra civil pelo controle do país. A RSF é comandada pelo general Mohamed Hamdan Dagalo, conhecido como 'Hemedti'.">Forças de Apoio Rápido (RSF)</span>, uma milícia paramilitar que disputa o controle do país. O conflito, que começou como uma disputa de poder entre dois generais, se transformou na maior crise de deslocamento forçado do mundo: a ONU estima que cerca de 14 milhões de pessoas foram forçadas a fugir de suas casas. Em 2025, organizações internacionais confirmaram fome (nível mais grave da escala de classificação da insegurança alimentar) em cidades como El Fasher e Kadugli, e estimativas de mortos já superam a casa das dezenas de milhares.</p>
+
+            <p>Geograficamente, o país ficou dividido: o exército controla Cartum (retomada em 2025) e boa parte do centro e leste, enquanto a RSF domina a maior parte de Darfur, incluindo El Fasher, e avançou sobre campos de petróleo estratégicos no Curdofão. Em 2026, potências como Estados Unidos, Arábia Saudita, Emirados Árabes Unidos e Egito tentam mediar um cessar-fogo, mas as negociações seguem travadas: o próprio governo sudanês boicotou uma rodada de conversas em Berlim, acusando os Emirados de apoiarem secretamente a RSF com armas.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -224,28 +241,30 @@
         <!-- BLOCO 7: REFUGIADOS E TERRORISMO -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Crise de refugiados e terrorismo</h2>
 
             <h3>Crise de refugiados</h3>
 
-            <p><span class="primeiraLetra">A</span> África concentra a maior população de <span class="termo" data-palavra="Refugiado" data-definicao="Pessoa que foi forçada a abandonar seu país de origem por fundado temor de perseguição por motivos de raça, religião, nacionalidade, grupo social ou opinião política, ou por conflitos armados e violência generalizada. O status de refugiado é definido pela Convenção de Genebra de 1951 e é concedido pelo ACNUR (Alto Comissariado da ONU para Refugiados). Diferente do migrante econômico, o refugiado não pode voltar para seu país com segurança.">refugiados</span> do mundo. Segundo o ACNUR, mais de 40% dos refugiados globais são africanos, fugindo principalmente de conflitos no Sudão, República Democrática do Congo, Somália, Etiópia e Burkina Faso.</p>
+            <p><span class="primeiraLetra">A</span> África concentra a maior população de <span class="termo" data-palavra="Refugiado" data-definicao="Pessoa que foi forçada a abandonar seu país de origem por fundado temor de perseguição por motivos de raça, religião, nacionalidade, grupo social ou opinião política, ou por conflitos armados e violência generalizada. O status de refugiado é definido pela Convenção de Genebra de 1951 e é concedido pelo ACNUR (Alto Comissariado da ONU para Refugiados). Diferente do migrante econômico, o refugiado não pode voltar para seu país com segurança.">refugiados</span> do mundo. No fim de 2025, havia 41,6 milhões de refugiados no planeta, e uma parcela enorme é africana: os países que mais empurram gente para fora de casa são justamente Sudão, República Democrática do Congo, Somália e Sudão do Sul, os mesmos que você acabou de estudar. A ONU estima que, somando refugiados e deslocados internos, o número total de pessoas forçadas a fugir de casa no mundo passa de 140 milhões.</p>
 
             <p>Esses refugiados seguem rotas perigosas:</p>
             <ul>
-                <li><strong>Rota do Mediterrâneo:</strong> de países do norte da África (Líbia, Tunísia, Marrocos) em direção à Europa, em embarcações precárias. O Mediterrâneo é chamado de "cemitério de migrantes": desde 2014, mais de 25 mil pessoas morreram tentando essa travessia.</li>
-                <li><strong>Deslocamento interno:</strong> a maioria dos refugiados africanos não chega à Europa — fica em campos de refugiados em países vizinhos, como o Quênia (campo de Dadaab, um dos maiores do mundo) e Uganda.</li>
+                <li><strong>Rota do Mediterrâneo:</strong> de países do norte da África (Líbia, Tunísia, Marrocos) em direção à Europa, em embarcações precárias. O Mediterrâneo é chamado de "cemitério de migrantes": desde 2014, mais de 30 mil pessoas morreram ou desapareceram tentando essa travessia, incluindo cerca de 2.100 só em 2025, um número que vem caindo por causa do controle mais rígido de fronteiras na Europa e da redução do fluxo de pessoas, não porque a rota ficou mais segura.</li>
+                <li><strong>Deslocamento interno:</strong> a maioria dos refugiados africanos não chega à Europa, e nem sequer sai do próprio país. Vira o que se chama de <span class="termo" data-palavra="Deslocado Interno" data-definicao="Pessoa forçada a fugir de casa por conflito, violência ou desastre, mas que permanece dentro das fronteiras do próprio país, sem cruzar para outro território. Diferente do refugiado, o deslocado interno não tem a proteção de tratados internacionais como a Convenção de Genebra, porque juridicamente continua sob a responsabilidade do próprio Estado, que muitas vezes é justamente quem falhou em protegê-lo. No Sudão, por exemplo, a maior parte das 14 milhões de pessoas deslocadas pela guerra desde 2023 são deslocados internos, não refugiados.">deslocado interno</span>, morando em campos improvisados dentro do próprio território, ou foge para países vizinhos, como o Quênia (campo de Dadaab, um dos maiores do mundo) e Uganda.</li>
             </ul>
+
+            <p>Vale notar um paradoxo importante: ao contrário do que a cobertura de jornal sobre barcos no Mediterrâneo faz parecer, a esmagadora maioria dos refugiados do mundo não está na Europa nem nos Estados Unidos. Ela está em países vizinhos aos conflitos, geralmente tão pobres quanto ou mais pobres do que os países de onde os refugiados fugiram. Uganda, um dos países mais pobres do planeta, hospeda cerca de 1,9 milhão de refugiados, a maior população refugiada da África e a sexta maior do mundo, a maioria vinda do Sudão do Sul e da RD Congo. Isso significa que o peso econômico e social de acolher quem foge da guerra recai desproporcionalmente sobre os países mais pobres do mundo, não sobre os mais ricos.</p>
 
             <h3>Terrorismo: Boko Haram e Al-Shabaab</h3>
 
             <p>Dois grupos terroristas de destaque no continente africano:</p>
 
-            <p><strong>Boko Haram</strong> ("a educação ocidental é proibida", em língua hauçá) surgiu na Nigéria em 2002 e hoje opera também em Níger, Chade e Camarões. O grupo ficou mundialmente conhecido em 2014 pelo sequestro de 276 meninas de uma escola em Chibok. Controla territórios no nordeste nigeriano e força casamentos e recrutamento de crianças.</p>
+            <p><strong>Boko Haram</strong> ("a educação ocidental é proibida", em língua hauçá) surgiu na Nigéria em 2002 e hoje opera também em Níger, Chade e Camarões. O grupo ficou mundialmente conhecido em 2014 pelo sequestro de 276 meninas de uma escola em Chibok. Depois de perder força por alguns anos, o grupo voltou a crescer a partir de 2025 na região do Lago Chade, chegando a derrotar em combate sua própria dissidência, o ISWAP (Província do Estado Islâmico na África Ocidental), e a capturar bases rivais nas ilhas do lago. Só em 2025, a violência do Boko Haram e do ISWAP juntos matou mais de 6 mil pessoas e fechou quase 1.800 escolas na região. Em maio de 2026, Estados Unidos e Nigéria lançaram uma operação militar conjunta contra os dois grupos no nordeste nigeriano.</p>
 
-            <p>O <span class="termo" data-palavra="Boko Haram" data-definicao="Grupo jihadista fundado na Nigéria em 2002 por Mohammed Yusuf. O nome em hauçá significa aproximadamente 'a educação ocidental é proibida' ou 'o ocidentalismo é pecado'. Opera principalmente no nordeste da Nigéria e em áreas da Bacia do Lago Chade. Em 2015, jurou lealdade ao Estado Islâmico. É responsável por mais de 36 mil mortes e pelo deslocamento de mais de 2 milhões de pessoas. O sequestro de 276 meninas em Chibok (2014) gerou a campanha global '#BringBackOurGirls'.">surgimento do Boko Haram</span> não é um fenômeno isolado: emerge em uma região com extrema pobreza, sem acesso a serviços básicos e onde o Estado nigeriano nunca investiu adequadamente. O extremismo religious preenche o vácuo deixado pela ausência do Estado.</p>
+            <p>O <span class="termo" data-palavra="Boko Haram" data-definicao="Grupo jihadista fundado na Nigéria em 2002 por Mohammed Yusuf. O nome em hauçá significa aproximadamente 'a educação ocidental é proibida' ou 'o ocidentalismo é pecado'. Opera principalmente no nordeste da Nigéria e em áreas da Bacia do Lago Chade. Em 2015, jurou lealdade ao Estado Islâmico, o que gerou uma dissidência rival, o ISWAP. É responsável por dezenas de milhares de mortes e pelo deslocamento de milhões de pessoas. O sequestro de 276 meninas em Chibok (2014) gerou a campanha global '#BringBackOurGirls'. Ressurgiu com força a partir de 2025.">surgimento do Boko Haram</span> não é um fenômeno isolado: emerge em uma região com extrema pobreza, sem acesso a serviços básicos e onde o Estado nigeriano nunca investiu adequadamente. O extremismo religioso preenche o vácuo deixado pela ausência do Estado.</p>
 
-            <p><strong>Al-Shabaab</strong> é o grupo jihadista que controla partes da Somália desde 2006, país que não tem governo estável desde 1991. A Somália é frequentemente citada como o exemplo mais extremo de <span class="termo" data-palavra="Estado Falido" data-definicao="Estado que perdeu a capacidade de exercer as funções básicas de governo: controlar o território, garantir a segurança da população, prestar serviços públicos e manter o monopólio legítimo da força. Em estados falidos, grupos armados, milícias ou organizações criminosas assumem o controle de partes do território. A Somália é o caso mais persistente: não tem governo central efetivo desde 1991. O conceito é criticado por alguns por culpabilizar o próprio país, sem reconhecer o papel da colonização e da interferência externa.">estado falido</span>: sem governo central efetivo desde 1991, o país é controlado por milícias, grupos jihadistas e "senhores da guerra" locais.</p>
+            <p><strong>Al-Shabaab</strong> é o grupo jihadista que controla partes da Somália desde 2006, país que não tem governo estável desde 1991. Em 2025, o grupo lançou uma ampla ofensiva que tomou dezenas de cidades e vilarejos ao redor de Mogadício, chegando a menos de 50 quilômetros da capital. Uma contraofensiva do governo somali, apoiada por forças especiais dos Estados Unidos, recuperou parte do território, mas o avanço perdeu força meses depois, e o Al-Shabaab retomou quase tudo o que havia perdido. Analistas apontam que a rivalidade entre o governo federal somali e os estados regionais do país enfraquece a resposta ao grupo. A Somália é frequentemente citada como o exemplo mais extremo de <span class="termo" data-palavra="Estado Falido" data-definicao="Estado que perdeu a capacidade de exercer as funções básicas de governo: controlar o território, garantir a segurança da população, prestar serviços públicos e manter o monopólio legítimo da força. Em estados falidos, grupos armados, milícias ou organizações criminosas assumem o controle de partes do território. A Somália é o caso mais persistente: não tem governo central efetivo desde 1991. O conceito é criticado por alguns por culpabilizar o próprio país, sem reconhecer o papel da colonização e da interferência externa.">estado falido</span>: sem governo central efetivo desde 1991, o país é controlado por milícias, grupos jihadistas e "senhores da guerra" locais.</p>
 
             </div>
 
@@ -307,7 +326,7 @@
                 <p class="w3-small">MAMDANI, Mahmood. <em>Quando a vítima se torna assassino: colonialismo, nativismo e o genocídio em Ruanda.</em> Maputo: PROMÉDIA, 2007, p. 45.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Mamdani e no que você estudou, responda:</strong></p>
 
@@ -325,13 +344,15 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
             <p><span class="primeiraLetra">A</span>ntes parecia que os conflitos africanos eram resultado do "jeito que os africanos são", de ódios tribais ancestrais ou de uma incapacidade cultural para a democracia e a paz. Agora você vê que cada um desses conflitos tem causas históricas concretas: fronteiras coloniais artificiais, divisões étnicas fabricadas pelos colonizadores, disputas por recursos naturais que enriquecem multinacionais externas, abandono das populações mais pobres por governos sem legitimidade.</p>
 
             <p>Isso não inocenta ninguém dos crimes cometidos. Mas explica por que eles acontecem, e essa explicação é o primeiro passo para que não se repitam.</p>
+
+            <p>A África concentra conflitos, mas não é a única região marcada por instabilidade, fronteiras contestadas e disputas por recursos estratégicos. Na próxima parada, você vai atravessar o Mar Vermelho até o Oriente Médio, região que combina uma diversidade cultural riquíssima com o controle de boa parte do petróleo mundial e um dos conflitos mais antigos e complexos da geopolítica atual: a questão palestina.</p>
 
             </div>
 
@@ -425,13 +446,13 @@
 
             <h3>6. O que é um estado falido? Por que a Somália é considerada o exemplo mais extremo desse fenômeno?</h3>
 
-            <h3>7. (ANALÍTICA) O apartheid terminou em 1994, mas a desigualdade racial na África do Sul persiste. Como você explica isso? Terminar uma lei é suficiente para terminar a desigualdade que ela produziu por décadas?</h3>
+            <h3>7. O apartheid terminou em 1994, mas a desigualdade racial na África do Sul persiste. Como você explica isso? Terminar uma lei é suficiente para terminar a desigualdade que ela produziu por décadas?</h3>
 
-            <h3>8. (ANALÍTICA) O Boko Haram usa a religião para justificar sua violência. No entanto, vimos que seu surgimento está ligado à pobreza e ao abandono do Estado. Isso significa que a religião não tem nada a ver com o problema? Como você equilibra essas duas explicações?</h3>
+            <h3>8. O Boko Haram usa a religião para justificar sua violência. No entanto, vimos que seu surgimento está ligado à pobreza e ao abandono do Estado. Isso significa que a religião não tem nada a ver com o problema? Como você equilibra essas duas explicações?</h3>
 
             <h3>9. Descreva as principais rotas que os refugiados africanos usam para tentar chegar à Europa. Quais são os riscos dessa travessia e por que as pessoas a fazem mesmo assim?</h3>
 
-            <h3>10. (ANALÍTICA) Mamdani afirma que o genocídio de Ruanda foi "produto de uma engenharia colonial de divisão". Se isso é verdade, os países colonizadores têm alguma responsabilidade pelo genocídio? O que uma resposta justa por parte dessas nações deveria incluir?</h3>
+            <h3>10. Mamdani afirma que o genocídio de Ruanda foi "produto de uma engenharia colonial de divisão". Se isso é verdade, os países colonizadores têm alguma responsabilidade pelo genocídio? O que uma resposta justa por parte dessas nações deveria incluir?</h3>
 
             </div>
 
@@ -452,7 +473,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é difícil, mas entendê-lo é essencial para ser um cidadão do mundo. Continue estudando!',
+        mensagem: 'o tema África III: Conflitos é difícil, mas entendê-lo é essencial para ser um cidadão do mundo. Continue estudando!',
         pontos: 40
     });
 
@@ -485,6 +506,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

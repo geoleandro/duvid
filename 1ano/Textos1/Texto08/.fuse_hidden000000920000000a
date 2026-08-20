@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Eras geológicas e estrutura interna da Terra: do Big Bang às camadas internas do Planeta">
+    <meta property="og:title" content="Texto 08 - Eras geológicas e estrutura interna da Terra">
+    <meta property="og:description" content="Crosta, manto e núcleo; Eras geológicas: Pré-Cambriano, Paleozoica, Mesozoica e Cenozoica">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+
+    <script src="/js/duvid-core.js" defer></script>
+
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+
+
+    <title>1º ano - Texto 08</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO: Abertura -->
+        <div class="topico">
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"></h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3" />
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Comparar a escala geológica do tempo (eras geológicas) com a temporalidade da história humana e entender como funcionam as camadas internas da Terra.</span></p>
+            </div>
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Pratica Social Inicial -->
+        <div class="topico">
+            <p class="caixa"> Agora é com você!</p>
+            <div class="w3-panel w3-pale-green">
+                <p class="w3-pale-green">Você já sentiu um tremor de terra, mesmo que pequeno, ou viu notícias sobre vulcões em erupção? Já parou para pensar no que existe embaixo dos seus pés, camada por camada, até chegar ao centro do Planeta?</p>
+                <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, do que é feito o interior da Terra? É todo sólido, como uma pedra gigante, ou existe algo diferente lá dentro? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Problematizacao -->
+        <div class="topico">
+            <h2> Introdução </h2>
+            <p><span class="primeiraLetra">N</span>a aula passada, vimos como o sensoriamento remoto, o GPS e a cartografia digital alteraram profundamente a maneira como conhecemos a superfície terrestre.</p>
+            <p>Na lição de hoje, vamos fazer o caminho inverso: em vez de olhar a Terra de cima, vamos mergulhar para dentro dela e conhecer sua formação e suas estruturas internas.</p>
+            <p><strong>Esta aula responde a uma pergunta que atravessa bilhões de anos: como o Planeta Terra se formou, que grandes transformações marcaram sua história, e o que existe abaixo da crosta que pisamos todos os dias.</strong></p>
+            <p>Ao final, com ajuda dos exercícios, você será capaz de distinguir as camadas internas da Terra e as eras geológicas que duraram milhões de anos.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (eras geologicas - introducao) -->
+        <div class="topico">
+
+            <h2> Eras geológicas: organizando bilhões de anos</h2>
+
+            <p>Segundo a teoria do <span class="termo" data-palavra="Big Bang"
+                    data-definicao="Teoria que explica a origem do universo a partir de uma grande explosão ocorrida há cerca de 14 bilhões de anos, marcando o início da expansão do espaço, da matéria e do tempo.">Big
+                    Bang</span>, o universo teria surgido há aproximadamente 14 bilhões de anos. Ela é responsável por explicar diversos fenômenos do universo, como sua expansão, a divisão e a formação de galáxias, entre outros fatores.</p>
+
+            <p>O nosso sistema solar, de acordo com o método de datação do carbono 14, entre outras técnicas, permitiu aos cientistas calcular a idade da Terra em cerca de 4,5 bilhões de anos e reconstituir seus principais eventos geológicos.</p>
+
+            <p>Nesses eventos ocorreram grandes transformações em nosso Planeta, da separação dos continentes à extinção dos dinossauros, apenas para citar alguns exemplos. Por se tratar de uma escala temporal de bilhões de anos, uma forma de organizar esse estudo é dividir o tempo em grandes compartimentos chamados de <span
+                    class="termo" data-palavra="Eras Geológicas"
+                    data-definicao="Grandes intervalos de tempo usados pelos cientistas para organizar a história de bilhões de anos da Terra, definidos a partir de mudanças importantes nas rochas, no clima e nos seres vivos.">eras
+                    geológicas</span>, conforme <span onclick="Aparecer('imagem1','citacao1')"><mark>a figura abaixo</mark></span>:</p>
+
+            <div class="area">
+                <img id="imagem1" src="tp8f1.png" alt="Escala do tempo geológico" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao1" style="display:block"> </p>
+
+            <div class="divCaixa1 w3-margin">
+                <h4 class="fontePixel">Ordem das eras geológicas (da mais antiga para a mais recente):</h4>
+                <ul class="lista">
+                    <li>Pré-Cambriano (Arqueano + Proterozoico) — cerca de 90% de toda a história da Terra;</li>
+                    <li>Era Paleozoica — vida antiga;</li>
+                    <li>Era Mesozoica — idade dos dinossauros;</li>
+                    <li>Era Cenozoica — vida nova, nossa era atual.</li>
+                </ul>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (entrevista) -->
+        <div class="topico">
+
+            <div class="w3-center">
+                <h2 class="fontePixel"><img alt="microfone" height="84" src="micro2.png" width="84" /> Duvid - Entrevista</h2>
+                <p><strong>Essa semana temos a honra de receber o Planeta Terra.</strong></p>
+            </div>
+
+            <p><strong>Duvid:</strong> Bem-vindo Planeta Terra. Nós estamos aqui para sabermos mais sobre sua história e sobre como podemos contribuir para seu funcionamento, já que nós, humanos, como podemos dizer, habitamos em sua superfície.</p>
+            <p><strong>Terra:</strong> Agradeço a todos pela preocupação com meu bem-estar. Sim, de fato os humanos, apesar de terem chegado recentemente, já ocupam uma parte considerável de minha superfície. Mas eu sou também a morada de uma infinidade de outros organismos vivos.</p>
+            <p><strong>Duvid:</strong> De início, acho que podemos chamá-lo de Terra, Globo Terrestre, Planeta, Astro, como prefere ser chamado?</p>
+            <p><strong>Terra:</strong> Creio que Terra é um bom nome. Apesar de minha superfície ter ¾ de água, meu interior é repleto de conteúdo rochoso, pastoso e sólido.</p>
+            <p><strong>Duvid:</strong> Bom, isso é muito interessante e é algo que sempre tivemos curiosidade, isto é, como é o interior da Terra, pois nós humanos só conseguimos escavar um buraco de, aproximadamente, 12 km de profundidade, próximo ao Círculo Polar Ártico na Rússia. Na realidade, como foi sua formação inicial, como nasceu a Terra?</p>
+            <p><strong>Terra:</strong> Eu confesso que tive um passado um pouco conturbado, apesar de hoje estar bem calmo. Eu tenho cerca de 4,5 bilhões de anos. Apesar de ser um Planeta, também tenho dúvidas sobre minha origem, pois desde a Grande Explosão há 14 bilhões de anos atrás, tem acontecido diversas transformações no Sistema Solar. Eu brinco com meu irmão mais velho, Júpiter, que ele é o maior de todos e deve saber como nós todos surgimos.</p>
+            <p><strong>Duvid:</strong> Na sua infância, se é que podemos falar assim, sua aparência mudou muito com o passar desses bilhões de anos?</p>
+            <p><strong>Terra:</strong> Mudou radicalmente. Eu era praticamente uma bola de fogo, não parava de soltar explosões por toda parte. Eu era muito agitado também. É que o universo estava muito movimentado naquela época e diversos corpos celestes se chocavam uns contra os outros. Era uma loucura mesmo. Todo esse choque me deu bastante energia, que acumulei em forma de calor. Como eu possuo muitos elementos radioativos em meu interior, já viu, eu era uma bomba ambulante.</p>
+            <p><strong>Duvid:</strong> E como essa fase de turbulência passou?</p>
+            <p><strong>Terra:</strong> Após grandes impactos que recebi, parte de mim se fundiu e era praticamente um oceano de lava em minha camada externa. Um pouco mais abaixo houve um aquecimento, vamos dizer, mais leve (menos denso), e alguns componentes puderam se mover de um lado para o outro. O material mais pesado que tenho está bem no interior e forma meu núcleo. Como eu formei uma crosta, mesmo assim continuava a expelir material muito quente. Por isso, eu acabei por me resfriar com o passar de alguns bilhões de anos. Vamos dizer que essa fase foi como a adolescência dos humanos, é conturbada, mas passa.</p>
+            <p><strong>Duvid:</strong> Fascinante essa história! Mas o que aconteceu depois, nos 4,5 bilhões de anos seguintes?</p>
+            <p><strong>Terra:</strong> É uma longa história e os humanos possuem apenas uma ideia geral sobre ela. Como disse, passei os primeiros 700 milhões de anos praticamente em um campo de guerra com os bombardeios de asteroides, lembro ainda quando a Lua nasceu, se desprendendo de mim, recordo do impacto que foi, do vulcanismo, pois estava formando meu interior. Depois disso, vivi muito tempo recluso para poder descansar até começar a criar a atmosfera, que era bem primitiva ainda, e os primeiros organismos vivos sem oxigênio.</p>
+            <p><strong>Duvid:</strong> Esse tempo todo foi necessário para criar a vida?</p>
+            <p><strong>Terra:</strong> De certa forma sim, pois eu tentei criar uma atmosfera com os elementos que possuía, vapor d'água, dióxido de carbono e dióxido de enxofre. Fiquei um pouco aquecido, criei uma estufa. Mas ainda precisava do oxigênio. E isso demorou porque só foi possível produzir mais oxigênio com a ajuda das plantas e da fotossíntese que elas fazem.</p>
+            <p><strong>Duvid:</strong> Nossa, quer dizer que você precisou de 4 bilhões de anos para se estruturar e criar a atmosfera, ou seja, cerca de 90% da história da Terra?</p>
+            <p><strong>Terra:</strong> Sim, foi só nos últimos 500 milhões de anos que a vida marinha começou a se diversificar. Porém, eu tive muitos problemas de adaptação da vida. Tive de passar por várias extinções em massa, uma porque fiquei muito frio, dessa forma produzi uma glaciação por todo meu corpo terrestre, outra pelo fato de algum asteroide ainda colidir comigo.</p>
+            <p><strong>Duvid:</strong> E a vida surgiu no oceano?</p>
+            <p><strong>Terra:</strong> Eu considero o oceano a parte mais importante da vida, o local onde tudo começou. Ver a evolução das células até os peixes, dos anfíbios, das aves e dos grandes mamíferos foi uma ocasião emocionante. Eu também resolvi separar minha massa continental, isso também foi bem interessante.</p>
+            <p><strong>Duvid:</strong> A separação dos continentes, você se refere?</p>
+            <p><strong>Terra:</strong> Sem dúvida, eu era composto por um único continente, mas preferi me dividir. Mas teve um custo muito alto, pois nessa separação tive que liberar vários gases tóxicos que desencadearam outra extinção em massa.</p>
+            <p><strong>Duvid:</strong> Tudo nos indica que se trata da extinção dos dinossauros?</p>
+            <p><strong>Terra:</strong> Creio que foi um período para se repensar, pois eles estavam há milhões de anos aqui comigo.</p>
+            <p><strong>Duvid:</strong> E para finalizar, gostaríamos de perguntar o que o Planeta Terra pensa dos humanos?</p>
+            <p><strong>Terra:</strong> É uma pergunta muito difícil, pois se compararmos minha história e a colocássemos no tempo de um ano humano, ou seja, 365 dias, os humanos só teriam surgido na última hora antes da meia-noite do dia 31 de dezembro. Os humanos são pequenos e frágeis, mas juntos podem construir grandes obras. Em relação ao tamanho, não ocupam muito do meu espaço, pois as cidades são pontos pequenos em comparação com minha superfície. Eu sempre digo que há espaço para todos, resta saber o que os humanos farão com toda essa potencialidade oferecida a eles.</p>
+            <p><strong>Duvid:</strong> Gostaríamos de agradecer por seu depoimento e nos vemos sempre, pois vivemos em sua superfície em permanente processo de transformação, mas não em nosso tempo humano, e sim no seu tempo, na dinâmica do Planeta Terra.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (Pre-Cambriano) -->
+        <div class="topico">
+
+            <h3>Eras Pré-Cambrianas</h3>
+
+            <p>Essa escala do tempo geológico (lida de baixo para cima) inicia no período Arqueano. A soma dos períodos Arqueano e Proterozoico é chamada de <span
+                    class="termo" data-palavra="Pré-Cambriano"
+                    data-definicao="Período que reúne as eras Arqueana e Proterozoica, correspondendo a cerca de 90% de toda a história da Terra. Nele ocorreram a formação da crosta terrestre e o surgimento das primeiras formas de vida.">Pré-Cambriano</span>,
+                referência a Cambria, nome antigo do país de Gales onde foram encontradas as primeiras rochas desse período. Somente eles somam cerca de 90% de toda a história da Terra!</p>
+
+            <p>É nesse período que ocorreu intenso vulcanismo e a formação da crosta terrestre (veremos em seguida esse assunto). Nele, da mesma forma, aconteceu o aumento dos gases primitivos da atmosfera (hidrogênio, amônia, sulfeto de hidrogênio) e as primeiras <span
+                    onclick="Aparecer('imagem2','citacao2')"><mark>formas de vida</mark></span> anaeróbias (que não dependiam de oxigênio), os procariotas (células sem núcleo e assexuadas).</p>
+
+            <div class="area">
+                <img id="imagem2" src="tp8f2.png" alt="Primeiras formas de vida" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao2" style="display:block"> Fonte: Wikipedia. </p>
+
+            <p>Já o período Proterozoico (com duração de cerca de 2 bilhões de anos) é marcado pela existência e acúmulo de oxigênio na atmosfera e pela formação dos primeiros vertebrados.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (Paleozoica) -->
+        <div class="topico">
+
+            <h2> Era Paleozoica</h2>
+
+            <p>As eras Pré-Cambrianas e Paleozoica são as maiores da história da Terra. Após o Pré-Cambriano, há 545 milhões de anos, inicia-se a era <strong>Paleozoica</strong> (vida antiga), com algumas subdivisões em períodos: Cambriano, Ordoviciano, Siluriano, Devoniano, Carbonífero e Permiano.</p>
+
+            <p>No primeiro período da era Paleozoica, o <strong>Cambriano</strong>, temos a diversificação da vida marinha. Os fósseis encontrados nas rochas desse período estão relacionados aos cnidários (animais aquáticos como águas-vivas e corais moles) e o mais famoso é o artrópode trilobita, conforme <span
+                    onclick="Aparecer('imagem3','citacao3')"><mark>as imagens abaixo:</mark></span></p>
+
+            <div class="area">
+                <img id="imagem3" src="tp8f3.png" alt="Trilobita" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao3" style="display:block"> Fonte: Wikipedia. </p>
+
+            <p><span onclick="Aparecer('imagem4','citacao4')"><mark>E os cnidários</mark></span>:</p>
+
+            <div class="area">
+                <img id="imagem4" src="tp8f4.png" alt="Cnidários" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao4" style="display:block"> Fonte: Wikipedia. </p>
+
+            <p>No período <strong>Ordoviciano</strong> surgiram os primeiros peixes sem mandíbulas, e o evento mais significativo foi uma intensa glaciação que extinguiu 60% da vida marinha do Planeta.</p>
+
+            <p>No período seguinte, <strong>Siluriano</strong>, os fatores mais importantes foram o surgimento das maxilas nos peixes e a presença massiva de artrópodes em ambiente terrestre.</p>
+
+            <p>O período <strong>Devoniano</strong> é conhecido como a idade dos peixes. O clima da Terra esquentou e ocorreram as primeiras <span
+                    onclick="Aparecer('imagem5','citacao5')"><mark>divisões dos continentes</mark></span> (assunto para as próximas aulas) em Euro-americano, Gondwana e Siberiano. Outra alteração climática diminuiu o nível dos oceanos e provocou a extinção de 80% das espécies nesse período.</p>
+
+            <div class="area">
+                <img id="imagem5" src="tp8f5.png" alt="Divisão dos continentes no Devoniano" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao5" style="display:block"> Fonte: https://devonianchics.weebly.com/conditions.html </p>
+
+            <p>Já o período <strong>Carbonífero</strong> (300 milhões de anos) leva esse nome devido às camadas de carvão que se originaram na Europa Central e no Reino Unido. É marcado pela evolução dos anfíbios e pela formação das grandes jazidas de carvão.</p>
+
+            <p>O <span onclick="Aparecer('imagem6','citacao6')"><mark>carvão mineral</mark></span> foi formado há milhões de anos por um processo de soterramento da matéria orgânica, como árvores, e possui vários estágios. É utilizado hoje como fonte de energia por termelétricas (veremos mais sobre esse tema nas próximas aulas).</p>
+
+            <div class="area">
+                <img id="imagem6" src="tp8f6.png" alt="Formação do carvão mineral" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao6" style="display:block"> </p>
+
+            <p>No último período da era Paleozoica, o <strong>Permiano</strong> (299-251 milhões de anos), ocorreu a formação do supercontinente <span
+                    onclick="Aparecer('imagem7','citacao7')"><mark>Pangeia</mark></span>, veja abaixo:</p>
+
+            <div class="area">
+                <img id="imagem7" src="tp8f7.gif" alt="Formação da Pangeia" class="w3-mobile" style="display:block" width="580">
+            </div>
+            <p class="citacao" id="citacao7" style="display:block"> Fonte: https://atlasescolar.ibge.gov.br/a-terra/formacao-dos-continentes. </p>
+
+            <p>Na história da Terra, os continentes se separaram e se juntaram diversas vezes. No final do Permiano ocorreu outra extinção em massa da vida no Planeta, de cerca de 70%. As causas para tal fato estão relacionadas a constantes erupções vulcânicas, que produziram muitos gases e cinzas, e à influência da glaciação no continente Gondwana, que seriam os fatos mais marcantes desse fenômeno.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (Mesozoica) -->
+        <div class="topico">
+
+            <h2> Era Mesozoica</h2>
+
+            <p>Chegamos ao fim da era Paleozoica com muitas transformações na estrutura da Terra. Agora começa outra era, chamada <strong>Mesozoica</strong> (248-65 milhões de anos), que duraria pouco mais de 180 milhões de anos. Ela é conhecida como a Idade dos <span
+                    onclick="Aparecer('imagem8a','citacao8a')"><mark>dinossauros</mark></span>, igualmente marcada por outra extinção em massa. Ela se divide nos períodos: Triássico, Jurássico e Cretáceo.</p>
+
+            <div class="area">
+                <img id="imagem8a" src="tp8f8a.png" alt="Idade dos dinossauros" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao8a" style="display:block"> Fonte: https://www.infoescola.com/geografia/era-mesozoica/. </p>
+
+            <p>O <strong>Triássico</strong> está ligado à formação das rochas sedimentares, aquelas que são formadas por sedimentos de outras rochas em camadas. Também é o início da fragmentação do supercontinente Pangeia. Nesse período há a adaptação dos grandes répteis e sua diversificação, e ocorreu outra extinção de aproximadamente 35% dos seres vivos.</p>
+
+            <p>No período seguinte, o <strong>Jurássico</strong>, são formadas as jazidas de petróleo e de gás natural, com grande diversificação da fauna marinha. O petróleo é formado pelo processo de decomposição de matéria orgânica, restos de vegetais, algas e restos de animais marinhos soterrados durante milhões de anos.</p>
+
+            <p>Essa matéria orgânica se decompõe por ação de bactérias anaeróbias e com alta pressão e temperatura no fundo do mar. Parte desse petróleo pode ir para a terra, de acordo com o movimento das placas tectônicas (esse assunto será visto adiante).</p>
+
+            <p>No último período da era Mesozoica, o <strong>Cretáceo</strong> (145-65 milhões de anos), destacam-se as atividades tectônicas e a formação da Cordilheira dos Andes, os mamíferos de pequeno porte que sobreviveram à extinção, e os mamíferos marsupiais. Houve uma proliferação dos insetos e a continuidade da separação dos continentes.</p>
+
+            <p>A teoria mais aceita é a de que um asteroide de grandes proporções se chocou com a Terra. Existe uma antiga <span
+                    onclick="Aparecer('imagem8','citacao8')"><mark>cratera</mark></span> de impacto soterrada abaixo da Península do Iucatã, no México. Seu centro está localizado próximo à localidade de Chicxulub, que deu origem ao nome da cratera. Esse imenso buraco tem mais de 180 km de diâmetro, tornando-a uma das maiores estruturas de impacto conhecidas no mundo.</p>
+
+            <div class="area">
+                <img id="imagem8" src="tp8f8.png" alt="Cratera de Chicxulub" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao8" style="display:block"> Fonte: https://ciberia.com.br. Localização da Cratera de Chicxulub, resultado do impacto que extinguiu os dinossauros há 66 milhões de anos. </p>
+
+            <p>O impacto desse asteroide teria provocado uma intensa nuvem de poeira em quantidade suficiente para encobrir toda a atmosfera, bloqueando a incidência da radiação solar na superfície terrestre por anos (DAMBRÓS, 2017).</p>
+
+            <p>Com a diminuição da vegetação, os dinossauros ficaram sem alimento, e o elevado grau de gases tóxicos na atmosfera, derivado também de atividade vulcânica, colaborou para a explicação do desaparecimento de uma espécie que habitou o Planeta por mais de 200 milhões de anos.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (Cenozoica) -->
+        <div class="topico">
+
+            <h2> Era Cenozoica</h2>
+
+            <p>A era mais recente denomina-se <strong>Cenozoica</strong> (vida nova). Ela é marcada pela difusão dos mamíferos, pelo clima e vegetação tropicais, além da evolução da fauna e flora — populações de espécies evoluindo para se tornarem outras espécies, enfim, toda a biodiversidade que conhecemos.</p>
+
+            <p>É nesse período que ocorre a separação da Antártica e da Austrália. Grandes glaciações ocorreram, cobrindo o Planeta de gelo no <strong>Oligoceno</strong> e no Mioceno. A evolução dos primatas no <strong>Plioceno</strong> é significativa, junto com o aparecimento dos primeiros hominídeos. Da mesma forma, houve extinção em massa da fauna e da flora.</p>
+
+            <p>O <strong>Holoceno</strong> é a nossa época, a mais recente. É nela que vivemos, é o período do surgimento do homem e da mudança do espaço geográfico através da ação humana em escala global.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Teste seu conhecimento</b></h4>
+            <p>O nome dessa era geológica significa "ausência de vida". É caracterizada pelo resfriamento da Terra, pela solidificação dos minerais e pela formação das primeiras rochas oriundas do interior da Terra (magma).</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'azoica', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Trata-se de uma era geológica mais recente. É subdividida em Terciário (cerca de 65 milhões de anos), quando apareceram os dobramentos modernos (Andes, Alpes, Himalaia), o desenvolvimento dos mamíferos e a vegetação com flores. E o Quaternário (cerca de 1,6 milhões de anos), com o aparecimento dos primeiros hominídeos.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1b" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1b"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1b', 'cenozoica', 'resp1b', this, 'globinho1b')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1b" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Corresponde à denominação dada pelos geólogos a uma fase da história da Terra. A história de nosso planeta, que tem cerca de 4,6 bilhões de anos, foi dividida pelos geólogos em escalas de tempo como forma de melhor organizar a compreensão sobre a evolução da Terra.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1c" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1c"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1c', 'eras geológicas', 'resp1c', this, 'globinho1c')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1c" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (Mesozoica) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Assinale verdadeiro ou falso para a afirmação a seguir: "A Era Mesozoica significa vida intermediária. É quando surgiram grande atividade vulcânica no planeta e ocorreu a formação das bacias sedimentares. Do mesmo modo, apareceram os primeiros mamíferos e aves, e répteis gigantescos, como os dinossauros, dentre outros".</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="correto" />
+                    <label class="card-opcao" for="p1a">
+                        <span>a) Verdadeiro</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1b">
+                        <span>b) Falso</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'essa foi bem tranquila', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp1"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (Paleozoica) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Paleozoica - Significa vida primitiva. É subdividida em era arqueozoica (vida arcaica, com o aparecimento dos primeiros organismos unicelulares - algas e bactérias, rochas magmáticas e metamórficas - há 4,5 bilhões de anos) e Proterozoica (vida em desenvolvimento, com a formação das rochas sedimentares e o aprimoramento da vida).</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2a">
+                        <span>a) Verdadeiro</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto" />
+                    <label class="card-opcao" for="p2b">
+                        <span>b) Falso</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'isso mesmo, a resposta certa é era Pré-Cambriana', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp2"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (camadas internas - introducao) -->
+        <div class="topico">
+
+            <h2> As camadas internas da Terra</h2>
+            <h3>Por dentro do Planeta</h3>
+
+            <p>Vimos como a história da Terra é fascinante. Todas as transformações que ocorreram na superfície do Planeta têm como origem, igualmente, o que se passa em seu interior, seja na atividade vulcânica, seja na dinâmica da separação dos continentes.</p>
+
+            <p>Como é o interior do Planeta e como está estruturado?</p>
+
+            <p>Por que sai um líquido pastoso do interior da Terra pelos vulcões? O que há lá dentro? Observe as <span
+                    onclick="Aparecer('imagem9','citacao9')"><mark>imagens abaixo</mark></span>:</p>
+
+            <div class="area">
+                <img id="imagem9" src="tp8f9.gif" alt="Interior da Terra" class="w3-mobile" style="display:block" width="580">
+            </div>
+            <p class="citacao" id="citacao9" style="display:block"> </p>
+
+            <p>Somente com base na descrição da imagem é possível obter o conhecimento do que se passa em seu interior? Ou é necessário algo mais? Esse algo mais é um conjunto de hipóteses chamado de teoria, testada na prática.</p>
+
+            <p>Na ciência, sabemos que o olho humano não é muito confiável, pode nos enganar na análise dos fenômenos. Por isso, a maioria dos estudos sobre a estrutura interna da Terra se baseia na Geofísica, destacando a Sismologia, que estuda as <span
+                    onclick="Aparecer('imagem10','citacao10')"><mark>ondas sísmicas</mark></span> e suas formas de propagação no interior do Planeta.</p>
+
+            <div class="area">
+                <img id="imagem10" src="tp8f10.png" alt="Ondas sísmicas" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao10" style="display:block"> Fonte: www.slideplayer.com.br/slide/10572117/ </p>
+
+            <p>O <span onclick="Aparecer('imagem11','citacao11')"><mark>modelo</mark></span> de estrutura interna dividido em Crosta, Manto e Núcleo foi proposto em 1936 pela sismóloga dinamarquesa Inge Lehmann e é utilizado até hoje:</p>
+
+            <div class="area">
+                <img id="imagem11" src="tp8f11.png" alt="Crosta, Manto e Núcleo" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao11" style="display:block"> Fonte: www.mundoeducacao.uol.com.br</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (crosta) -->
+        <div class="topico">
+
+            <h2> A crosta terrestre</h2>
+
+            <p>A <span class="termo" data-palavra="Crosta Terrestre"
+                    data-definicao="Camada mais externa e mais fina da Terra, dividida em crosta continental e oceânica, sobre a qual vivemos.">crosta</span> é
+                a parte externa da Terra e a mais fina, com aproximadamente 40 km de espessura embaixo dos continentes, podendo chegar a 70 km embaixo das montanhas. É dividida em crosta continental e oceânica.</p>
+
+            <p>Ela é composta por rochas graníticas e basálticas, com a presença de bastante sílica e alumínio, além de ferro, sódio, potássio e cálcio (mais leve e com menores temperaturas de fusão), por isso é conhecida como SIAL.</p>
+
+            <p>Na parte inferior, que inclui os oceanos, com espessura de cerca de 8 km, predominam os silicatos e o elemento magnésio (SIMA). A crosta oceânica, apesar de mais fina do que a crosta continental, é mais densa (peso maior).</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (manto e nucleo) -->
+        <div class="topico">
+
+            <h2> O Manto</h2>
+
+            <p>A próxima camada é o <span class="termo" data-palavra="Manto"
+                    data-definicao="Camada intermediária da Terra, situada entre a crosta e o núcleo, composta por rochas em estado pastoso que se tornam mais sólidas conforme aumenta a profundidade.">Manto</span>.
+                Também se divide em manto superior e inferior. O manto superior se estende até cerca de 400 km de profundidade. As ondas sísmicas indicam que quanto mais profundo, mais a densidade aumenta, ou seja, de pastoso, o manto adquire características mais sólidas.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
+
+            <h2> O núcleo</h2>
+
+            <p>A última camada é o <span class="termo" data-palavra="Núcleo"
+                    data-definicao="Camada mais interna da Terra, formada principalmente por ferro e níquel, dividida em núcleo externo (líquido) e núcleo interno (sólido).">núcleo</span>.
+                Ele é formado basicamente por ferro e níquel (NIFE). Em sua parte externa, com espessura de cerca de 1.700 km e temperatura de, aproximadamente, 4.000ºC, encontra-se uma porção líquida.</p>
+
+            <p>No núcleo interno é onde há a maior densidade e temperatura, em torno de 6.000ºC, formado por ferro e níquel em estado sólido, com espessura de cerca de 3.700 km.</p>
+
+            <div class="area margemAbaixo w3-padding-16">
+                <div class="postit-tp1 w3-margin-top w3-animate-zoom w3-pale-yellow">
+                    <h2 style='font-family: "Roboto", sans-serif; font-weight: bold;'>
+                        <mark><span class="w3-padding">💡 Anote aí!</span></mark>
+                    </h2>
+                    <h4 class="w3-margin-top">As camadas da Terra em números:</h4>
+                    <ul class="lista">
+                        <li>Crosta (<span class="mark2">SIAL</span>): até 40 km sob os continentes, até 70 km sob as montanhas;</li>
+                        <li>Crosta oceânica (<span class="mark2">SIMA</span>): cerca de 8 km, mais fina, porém mais densa;</li>
+                        <li>Manto superior: até cerca de 400 km de profundidade;</li>
+                        <li>Núcleo externo (<span class="mark2">NIFE</span> líquido): cerca de 1.700 km, ~4.000ºC;</li>
+                        <li>Núcleo interno (<span class="mark2">NIFE</span> sólido): cerca de 3.700 km, ~6.000ºC.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (descontinuidades) -->
+        <div class="topico">
+
+            <h2>Áreas de descontinuidade</h2>
+
+            <p>Antes de chegar ao limite com a próxima camada, que é o Manto, há uma descontinuidade denominada <span
+                    class="termo" data-palavra="Descontinuidade de Mohorovicic"
+                    data-definicao="Limite entre a crosta e o manto, identificado pela mudança brusca na velocidade das ondas sísmicas ao atravessá-lo.">Mohorovicic</span>,
+                em que as ondas sísmicas P e S passam por uma mudança brusca de velocidade abaixo dos oceanos (cerca de 10 km) e abaixo dos continentes (30 a 50 km), conforme <span
+                    onclick="Aparecer('imagem12','citacao12')"><mark>a imagem</mark></span>.</p>
+
+            <div class="area">
+                <img id="imagem12" src="tp8f12.png" alt="Descontinuidade de Mohorovicic" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao12" style="display:block"> Fonte: Press et al. (2006, p.532). </p>
+
+            <p>A crosta mais leve (menos densa) repousa sobre o manto mais denso, devido ao princípio de isostasia, ou seja, o equilíbrio gravitacional entre a litosfera e o manto. Um exemplo seria afundar uma cortiça na água e no melado e verificar a velocidade da subida da cortiça em cada um.</p>
+
+            <p>Já na transição entre o Manto e o Núcleo externo, entre 650 km e cerca de 2.800 km, há uma outra descontinuidade, chamada de Gutenberg.</p>
+
+            <p>Ela apresenta elementos químicos distintos, provocados pela pressão e temperatura, antes de chegar ao núcleo terrestre. Da mesma forma, as ondas P (longitudinais) diminuem sua velocidade, enquanto as ondas S (transversais) não conseguem atravessar essa camada. <span
+                    onclick="Aparecer('imagem13','citacao13')"><mark>Veja na imagem</mark></span>:</p>
+
+            <div class="area">
+                <img id="imagem13" src="tp8f13.png" alt="Descontinuidade de Gutenberg" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao13" style="display:block"> </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (convecção) -->
+        <div class="topico">
+
+            <h2> Movimento de convecção</h2>
+
+            <p>O fato de existirem altas temperaturas, pressão e rochas em estado pastoso no manto e no núcleo provoca os chamados <span
+                    class="termo" data-palavra="Movimento de Convecção"
+                    data-definicao="Deslocamento de material quente do interior da Terra em direção à crosta e de material mais frio de volta ao interior, formando um ciclo contínuo responsável, entre outros fenômenos, pela movimentação das placas tectônicas."><strong>movimentos
+                        de convecção</strong></span>. Como a região próxima ao núcleo é mais quente, o magma sobe em direção à crosta, que, por sua vez, possui material "mais frio", o qual desce para o interior, retomando o ciclo.</p>
+
+            <div class="area">
+                <img id="imagem14" src="tp8f14.png" alt="Movimento de convecção" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao14" style="display:block"> Fonte: www.conhecimentocientifico.r7.com </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (campo magnetico) -->
+        <div class="topico">
+
+            <h2> Campo magnético da Terra</h2>
+
+            <p>Outra consequência do fato de o núcleo da Terra ser formado por ferro e níquel é a formação do <span
+                    class="termo" data-palavra="Campo Magnético Terrestre"
+                    data-definicao="Camada invisível que envolve a Terra, gerada pelo movimento do núcleo rico em ferro e níquel, responsável por proteger o planeta da radiação solar.">campo
+                    magnético</span> da Terra.</p>
+
+            <p>Devido ao movimento de rotação terrestre, visto nas aulas anteriores, as partículas de ferro e níquel entram em atrito umas com as outras, energizando-se e criando um <span
+                    onclick="Aparecer('imagem15','citacao15')"><mark>campo magnético</mark></span> em volta da Terra, com o polo norte magnético localizado próximo ao nosso polo sul geográfico, conforme a figura abaixo.</p>
+
+            <div class="area">
+                <img id="imagem15" src="tp8f15.png" alt="Campo magnético da Terra" class="w3-mobile" style="display:block">
+            </div>
+            <p class="citacao" id="citacao15" style="display:block"> Fonte: www.infoescola.com/fisica/campo-magnetico-da-terra/ </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (campo magnetico) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual a importância do campo magnético para a Terra?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3a">
+                        <span>a) Fornece energia para a Terra.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto" />
+                    <label class="card-opcao" for="p3b">
+                        <span>b) Protege a Terra dos ventos solares.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3c">
+                        <span>c) Atrai outros astros para a Terra.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'essa foi um pouco complicada, mas se saiu bem', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp3"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (grau geotermico) -->
+        <div class="topico">
+
+            <h2> Grau geotérmico</h2>
+
+            <p>É evidente que o interior da Terra possui calor. Podemos visualizar esse fato através dos vulcões, das fontes quentes, das temperaturas elevadas em minas ou quando perfuramos o solo.</p>
+
+            <p>À medida que atingimos uma determinada profundidade em direção ao interior do Planeta, ocorre uma elevação de temperatura de 1º a cada 30 e 40 metros. Essa medida chama-se <span
+                    class="termo" data-palavra="Grau Geotérmico"
+                    data-definicao="Medida do aumento da temperatura conforme se avança em direção ao interior da Terra, correspondendo a cerca de 1°C a cada 30-40 metros de profundidade.">grau
+                    geotérmico</span>. De acordo com a composição das rochas que compõem a litosfera e de sua idade, o fluxo de calor oriundo do interior da Terra será mais ou menos elevado.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (final) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>A figura abaixo ilustra qual tipo de fenômeno?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4a" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4a">
+                        <span>a) O campo magnético da Terra.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4b" name="pergunta4" type="radio" value="correto" />
+                    <label class="card-opcao" for="p4b">
+                        <span>b) As ondas sísmicas P e S.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4c" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4c">
+                        <span>c) Movimento de convecção.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'identificou bem a dinâmica das ondas sísmicas, ganhou mais um globinho', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp4"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Perguntas e Respostas -->
+        <div class="topico">
+
+            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se o Pré-Cambriano e a era Paleozoica juntos somam quase 90% da história da Terra, por que a
+                    gente estuda tão pouco sobre eles na escola?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Ótima observação. Isso acontece porque, quanto mais antigo o período, menos rastros ele deixou.
+                A maior parte das rochas e fósseis desses bilhões de anos iniciais já foi destruída, reciclada
+                pelo próprio movimento de convecção do planeta ou soterrada por camadas mais recentes. Já os
+                períodos mais próximos de nós, como a era Cenozoica, deixaram muito mais evidências, fósseis mais
+                bem conservados e até registros que se ligam à história humana. Não é que o Pré-Cambriano seja
+                menos importante, é que sabemos bem menos detalhes sobre ele.
+            </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se o núcleo da Terra é tão quente quanto a superfície do Sol, por que a gente não sente esse
+                    calor andando na rua?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Porque o núcleo está muito, muito longe da superfície, a mais de 2.800 km de profundidade, e é
+                separado dela por uma camada gigantesca de manto rochoso, que é um péssimo condutor de calor.
+                Esse calor até chega até nós, mas de forma bem diluída, é o chamado grau geotérmico, cerca de 1°C
+                a cada 30 ou 40 metros de profundidade. Por isso sentimos calor em minas profundas ou perto de
+                vulcões, mas não no dia a dia na superfície.
+            </p>
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Como os cientistas sabem o que existe lá no fundo da Terra se ninguém nunca conseguiu chegar
+                    até lá?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Eles usam a Sismologia, que estuda como as ondas sísmicas se comportam ao atravessar o planeta.
+                Quando ocorre um terremoto, essas ondas viajam pelo interior da Terra e mudam de velocidade e de
+                direção conforme passam por materiais diferentes, sólidos, líquidos, mais densos ou menos densos.
+                Analisando esses padrões, como uma espécie de raio-x do planeta, os cientistas conseguiram propor
+                o modelo de crosta, manto e núcleo que usamos até hoje, mesmo sem nunca ter cavado além dos 12 km
+                de profundidade.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questoes para o caderno -->
+        <div class="topico">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2> Questões para responder no caderno:</h2>
+                <h3>1. Qual é a teoria que explica a origem do universo e há quantos anos ela teria ocorrido?</h3>
+                <h3>2. Qual é a idade estimada da Terra segundo os cientistas?</h3>
+                <h3>3. O que são eras geológicas e qual é a sua importância no estudo da Terra?</h3>
+                <h3>4. Quais são os períodos que compõem o Pré-Cambriano?</h3>
+                <h3>5. Quais foram os principais eventos que ocorreram durante o período Proterozoico?</h3>
+                <h3>6. Que mudanças significativas ocorreram na Era Paleozoica?</h3>
+                <h3>7. Qual foi o evento mais significativo no período Carbonífero?</h3>
+                <h3>8. O que causou a extinção em massa no final do período Permiano?</h3>
+                <h3>9. Por que o período Jurássico é significativo na Era Mesozoica?</h3>
+                <h3>10. Qual é a importância do campo magnético da Terra?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Catarse -->
+        <div class="topico">
+
+            <div class="w3-light-blue w3-padding">
+
+                <h2>O que mudou no seu olhar</h2>
+
+                <p>Releia o que você escreveu no início sobre o que existe embaixo dos seus pés. Agora você sabe: não é uma rocha maciça e uniforme, mas três camadas bem distintas, a crosta fina onde vivemos, o manto pastoso que se movimenta em ciclos de convecção, e um núcleo de ferro e níquel tão quente quanto a superfície do Sol, cujo movimento gera o campo magnético que nos protege dos ventos solares.</p>
+
+                <p>Essas camadas não são um dado estático: elas são resultado de bilhões de anos de eras geológicas, cada uma marcada por extinções, formações de continentes e transformações profundas. Entender essa escala de tempo geológico ajuda a colocar a própria história humana em perspectiva, afinal, somos uma fração de segundo na história do Planeta.</p>
+
+                <p><strong>Resumo dos conceitos:</strong> eras geológicas (Pré-Cambriano, Paleozoica, Mesozoica, Cenozoica); crosta terrestre (SIAL/SIMA); manto (movimento de convecção); núcleo (NIFE, campo magnético); descontinuidades de Mohorovicic e Gutenberg; grau geotérmico.</p>
+
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos" style="display:block">
+                <h3>Ficha de Conceitos</h3>
+                <p class="contador" id="gloss-contador">0 termos coletados</p>
+                <ul id="lista-glossario"></ul>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Transicao final -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos revisar o que aprendemos!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+      correto: true,
+      idFrase: 'respFinal',
+      idGlobo: 'globinhorespFinal',
+      classe: '',
+      mensagem: 'o tema Eras geológicas e estrutura interna da Terra é fascinante! Continue estudando!',
+      pontos: 40
+    });
+    MostrarProximo(this);
+  ">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+        <!-- ===== SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS ===== -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+
+</body>
+
+</html>

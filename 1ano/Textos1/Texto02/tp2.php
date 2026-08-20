@@ -22,11 +22,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -148,7 +147,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -168,7 +167,7 @@
             </div>
 
 
-            <p><strong>Duvid:</strong>. Bem-vinda Cartografia. Sabemos que a
+            <p><strong>Duvid:</strong> Bem-vinda Cartografia. Sabemos que a
                 senhora está bem ocupada cuidando da localização da Terra. Então, estamos felizes que tenha tido
                 tempo para
                 falar conosco. </p>
@@ -274,7 +273,7 @@
                 que sei. Obrigado e até mais.</p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -293,7 +292,7 @@
                     adiante.</p>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this);">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this);">Próximo</button>
 
 
 
@@ -312,16 +311,77 @@
 
 
 
+        <!-- BLOCO: Elementos do Mapa e Escala Cartografica -->
+        <div class="topico">
+
+            <h2>Os elementos de um mapa</h2>
+
+            <p>Antes de entrar nos pontos cardeais e nas coordenadas, vale entender o que faz de um desenho
+                um mapa de verdade, e não apenas um rabisco. Um mapa é uma redução da realidade, e toda redução
+                precisa de regras claras para que quem olha consiga confiar no que está vendo. Por isso, um mapa
+                bem construído carrega sempre um conjunto de elementos obrigatórios.</p>
+
+            <p>O <strong>título</strong> diz o que está sendo representado e, muitas vezes, o recorte temporal
+                da informação (por exemplo, "Densidade demográfica do Brasil, 2022"). A <strong>legenda</strong>
+                explica o significado de cada símbolo, cor ou padrão usado no mapa: sem ela, ninguém sabe se uma
+                área pintada de vermelho representa alta temperatura, alta pobreza ou alto desmatamento. A
+                <strong>orientação</strong>, quase sempre indicada por uma rosa dos ventos ou por uma seta apontando
+                para o Norte, informa qual direção corresponde ao topo do mapa. E existe ainda a fonte, que indica
+                quem produziu o mapa e quando, permitindo checar a confiabilidade da informação.</p>
+
+            <p>O elemento mais decisivo, no entanto, é a <span class="termo" data-palavra="Escala Cartográfica"
+                    data-definicao="Relação matemática entre uma distância medida no mapa e a distância real correspondente no terreno. Pode ser numérica (fração, ex: 1:100.000) ou gráfica (régua desenhada no próprio mapa).">escala
+                    cartográfica</span>. Ela é a relação entre o tamanho no papel (ou na tela) e o tamanho real no
+                terreno. Existem dois jeitos principais de representá-la. A escala numérica aparece como uma fração,
+                por exemplo 1:100.000, o que significa que 1 centímetro no mapa corresponde a 100.000 centímetros
+                (ou seja, 1 quilômetro) na realidade. Já a escala gráfica é uma régua desenhada dentro do próprio
+                mapa, com marcações que já convertem centímetros em quilômetros, sendo mais fácil de usar porque
+                continua correta mesmo se o mapa for impresso em um tamanho diferente do original.</p>
+
+            <p>Um erro comum de quem está aprendendo é confundir "escala grande" com "área grande". É o
+                contrário: quanto <strong>menor</strong> o segundo número da fração (por exemplo, 1:5.000 em vez de
+                1:1.000.000), <strong>maior</strong> é a escala, porque a fração 1/5.000 é matematicamente maior que
+                1/1.000.000. Mapas de grande escala mostram pouca área com muito detalhe, como a planta de um bairro
+                ou de uma escola. Mapas de pequena escala mostram muita área com pouco detalhe, como o planisfério
+                que você usou para localizar os pontos A e B nesta aula. Essa diferença de escala explica por que
+                um arquiteto usa uma planta para desenhar uma casa, enquanto um geógrafo usa um mapa para representar
+                o Brasil inteiro: o nível de detalhe necessário em cada caso é diferente, como você já viu na seção
+                de Perguntas e Respostas.</p>
+
+            <p>Vale lembrar, também, a diferença entre mapa, carta e planta, que costuma confundir quem está
+                começando. O <strong>mapa</strong> representa uma área extensa, como um país ou continente, em
+                pequena escala e sem grande riqueza de detalhes. A <strong>carta</strong> representa uma área
+                intermediária, geralmente dividida em folhas padronizadas (como as cartas topográficas do IBGE), com
+                escala média e mais detalhes, incluindo curvas de nível que mostram o relevo. Já a <strong>planta</strong>
+                representa uma área pequena, como um lote, uma casa ou uma praça, em grande escala e com riqueza
+                máxima de detalhes.</p>
+
+            <p>Além da escala, os mapas também variam pelo <strong>tipo de informação</strong> que carregam. O
+                mapa político mostra fronteiras entre países, estados ou municípios, com cada território
+                geralmente pintado de uma cor diferente. O mapa físico destaca o relevo, a hidrografia e a
+                vegetação, sem se importar com as divisões políticas. Já os mapas temáticos concentram uma única
+                informação específica sobre um recorte espacial, como densidade demográfica, distribuição de
+                chuvas, taxa de desemprego ou índice de desmatamento, quase sempre usando um recurso chamado
+                coropletia (regiões pintadas em tons mais fortes ou mais claros conforme o valor do dado
+                representado). É esse tipo de mapa temático que aparece com mais frequência em questões de
+                vestibular, justamente porque cruza um dado numérico com a distribuição espacial dele, cabendo ao
+                estudante interpretar por que aquele fenômeno se concentra em determinada região e não em outra.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO: Instrumentalizacao (pontos cardeais) -->
         <div class="topico">
 
 
             <h2> Por que aprender a se localizar?</h2>
 
-            <p> É comum representar o espaço geográfico para melhor conhecê-lo. Mas como fazer isso? É ai
-                que entre a Cartografia. Assim como aprender a ler e escrever é vital para nossa formação humana,
+            <p> É comum representar o espaço geográfico para melhor conhecê-lo. Mas como fazer isso? É aí
+                que entra a Cartografia. Assim como aprender a ler e escrever é vital para nossa formação humana,
                 “ler” o
-                espaço em que vivemos é fundamental para melhor organizarmos nosso bairro, cidade ou país.:</p>
+                espaço em que vivemos é fundamental para melhor organizarmos nosso bairro, cidade ou país.</p>
             <p> Veja o que diz um famoso geógrafo francês, Yves Lacoste:</p>
 
             <div class="w3-panel w3-leftbar w3-sand w3-margin">
@@ -342,7 +402,7 @@
                 espaço geográfico começou quando os homens estabeleceram referências simples para sua localização,
                 como
                 montanhas, rios, árvores ou outros elementos da paisagem para retornarem de maneira segura para
-                casa.:</p>
+                casa.</p>
             <p> Outra referência principal foi por meio dos astros, no caso o Sol, a lua e as estrelas.
                 Foi ai que foi desenvolvido pelos homens um sistema de referências chamado de <span class="termo"
                     data-palavra="Pontos Cardeais"
@@ -357,7 +417,7 @@
             <span class="citacao" id="citacao4" style=display:none> Fonte: Carpanelli (2015, p.7). Adaptado.</span>
 
             <p> Para se localizar por meio do Sol, temos que observar em que lado ele “nasce” ou surge
-                pela manhã. Esse fenômeno ocorre devido o movimento de rotação da Terra.</p>
+                pela manhã. Esse fenômeno ocorre devido ao movimento de rotação da Terra.</p>
 
             <p><span class="termo" data-palavra="Rotação"
                     data-definicao="Movimento que a Terra executa em torno do seu próprio eixo, com duração aproximada de 24 horas. É responsável pela sucessão dos dias e das noites e pelo nascer e pôr do sol em pontos opostos do horizonte."><strong>Rotação</strong></span>
@@ -396,10 +456,6 @@
 
 
             <p> À nossa frente está o Norte, e nas nossas costas o Sul. A mesma coisa acontece com a Lua.
-                Ela nasce no Leste e se põe no Oeste. </p>
-
-
-            <p> A nossa frente está o Norte, e nas nossas costas o Sul. A mesma coisa acontece com a Lua.
                 Ela nasce no Leste e se põe no Oeste. </p>
 
 
@@ -442,7 +498,7 @@
             <span class="citacao" id="citacao8" style=display:none> Fonte: Organizado pelo autor.</span>
 
 
-            <p> Entretanto, essa navegação somente por orientação pelos astros, as vezes não é muito
+            <p> Entretanto, essa navegação somente por orientação pelos astros, às vezes não é muito
                 precisa ou exata. Diante disso, os aparelhos foram <span
                     onclick="Aparecer('imagem9','citacao9')"><mark>aperfeiçoados
                     </mark></span>, tais como a bússola, inventada pelos chineses e com uma agulha imantada que
@@ -458,7 +514,7 @@
             <span class="citacao" id="citacao9" style=display:none> Fonte: Organizado pelo autor, Wikipedia. </span>
 
             <br><br>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
 
@@ -688,11 +744,18 @@
                             pessoais.</span>
                     </label>
                 </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta7" id="p7d" value="errado" class="radio-duvid">
+                    <label for="p7d" class="card-opcao">
+                        <span>d) Apenas quem nasce em grandes centros urbanos deve receber investimento público.</span>
+                    </label>
+                </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'quase lá! Aziz defende uma visão humanista da Geografia, onde o acaso do nascimento não deve determinar o direito ao cuidado.', '10')">
+                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'Quase lá! Ab\'Saber defende uma visão humanista da Geografia, onde o acaso do nascimento não deve determinar o direito ao cuidado.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -807,16 +870,13 @@
             <p> <span class="w3-yellow">Ponto B:</span> Lat. 30ºN, Long. 160ºL ou 30ºN 160ºL</p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
             <hr>
 
         </div>
 
-
-
-
-
+        
         <div class="topico">
 
             <p class="caixa"> Agora é com você!</p>
@@ -835,7 +895,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this);">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this);">Próximo</button>
 
 
 
@@ -854,6 +914,108 @@
         </div>
 
 
+        <!-- BLOCO: GPS e Cartografia Digital -->
+        <div class="topico">
+
+            <h2>Do papiro ao satélite: como o GPS encontra você</h2>
+
+            <p>A senhora Cartografia comentou, lá na entrevista, que hoje está "inteiramente conectada com os
+                satélites pela internet". Vale entender como isso funciona, já que você provavelmente usa esse
+                sistema todos os dias sem perceber, seja para chegar a um endereço novo, seja para saber o horário
+                de chegada do ônibus.</p>
+
+            <p>O <span class="termo" data-palavra="GPS / GNSS"
+                    data-definicao="Sistema de Posicionamento Global: rede de satélites que envia sinais de rádio à Terra, permitindo que um receptor calcule sua latitude, longitude e altitude com alta precisão. GNSS é o nome genérico para qualquer sistema desse tipo (GPS, GLONASS, Galileo, BeiDou)."><strong>GPS</strong></span>
+                (Global Positioning System, ou Sistema de Posicionamento Global) foi criado pelos Estados Unidos, a
+                princípio para uso militar, e se tornou disponível para uso civil nas décadas seguintes. Hoje ele é
+                apenas um entre vários sistemas do tipo <strong>GNSS</strong> (sigla em inglês para Sistema Global
+                de Navegação por Satélite): a Rússia opera o GLONASS, a União Europeia o Galileo e a China o BeiDou.
+                Juntos, esses quatro sistemas somam mais de 130 satélites ativos orbitando a Terra, o que garante
+                que, em praticamente qualquer ponto do planeta, um receptor consiga captar sinal de satélites
+                suficientes para calcular sua posição.</p>
+
+            <p>O princípio é, na essência, o mesmo das coordenadas geográficas que você acabou de aprender. Cada
+                satélite envia constantemente um sinal de rádio informando sua posição exata e o horário exato em
+                que o sinal foi enviado. O receptor no seu celular capta o sinal de pelo menos quatro satélites
+                diferentes e, calculando o tempo que cada sinal levou para chegar (multiplicado pela velocidade da
+                luz), consegue calcular a distância até cada um deles. Cruzando essas distâncias, o aparelho
+                converte tudo em uma latitude e uma longitude, exatamente o sistema de paralelos e meridianos que
+                a humanidade vem aperfeiçoando desde os gregos.</p>
+
+            <p>As aplicações vão muito além de aplicativos de trânsito como o Waze ou o Google Maps. A
+                agricultura de precisão usa GPS acoplado a tratores para plantar e colher com margem de erro de
+                centímetros, economizando sementes e combustível. Companhias aéreas e marítimas dependem do sistema
+                para traçar rotas seguras. Serviços de entrega e aplicativos de transporte calculam tempo de
+                chegada em tempo real. Até pesquisas científicas sobre o movimento das placas tectônicas usam
+                receptores de GPS fixos para medir, com precisão milimétrica, o quanto os continentes se deslocam
+                a cada ano. É a mesma pergunta que a humanidade tenta responder desde as pinturas nas cavernas,
+                "onde eu estou?", só que agora respondida em segundos e com margem de erro de poucos metros.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+
+
+
+        <!-- BLOCO: Mapas e Poder -->
+        <div class="topico">
+
+            <h2>Mapas e poder: a Cartografia não é neutra</h2>
+
+            <p>Existe uma ideia enganosa de que um mapa é só uma foto objetiva da realidade. Na prática, todo
+                mapa é uma escolha: quem o desenha decide o que aparece, o que fica de fora, qual ponto fica no
+                centro e, principalmente, qual sistema de <strong>projeção cartográfica</strong> usar para transformar a
+                superfície esférica da Terra em um desenho plano, algo matematicamente impossível de fazer sem
+                distorcer alguma coisa. Esse é um assunto que você vai aprofundar em aulas futuras, mas já vale
+                conhecer o problema que ele resolve.</p>
+
+            <p>O exemplo mais estudado é a projeção de Mercator, criada em 1569 pelo cartógrafo flamengo
+                Gerardus Mercator para facilitar a navegação marítima: como ela representa os meridianos como
+                linhas retas e paralelas (quando, na realidade, eles se encontram nos polos), o preço pago é o
+                exagero do tamanho das áreas mais distantes do Equador. O resultado é que a Groenlândia aparece
+                do mesmo tamanho que o continente africano nesse tipo de mapa, quando na realidade a África é cerca
+                de 14 vezes maior. Europa e América do Norte também aparecem desproporcionalmente grandes, enquanto
+                países próximos ao Equador, como o Brasil, ficam visualmente "encolhidos" em relação ao seu tamanho
+                real.</p>
+
+            <p>Esse tipo de distorção não é só um detalhe técnico. Movimentos como a campanha "Correct The Map",
+                apoiada pela organização Africa No Filter e pela Comissão da União Africana, argumentam que a
+                proporção com que um continente aparece no mapa mundial influencia, mesmo que de forma sutil, a
+                percepção de sua importância política e econômica, e defendem a adoção de projeções alternativas,
+                como a Equal Earth, que preservam a proporção real entre as áreas dos continentes.</p>
+
+            <p>O Brasil também tem sua própria tradição de questionar o mapa "padrão". Em 1943, o artista
+                uruguaio Joaquín Torres García desenhou a "América Invertida", um mapa da América do Sul de ponta-cabeça,
+                com o Sul no topo, acompanhado da frase "nuestro norte es el sur" ("nosso norte é o sul"). Repare, no
+                esboço original abaixo, que ele até anotou coordenadas geográficas reais no desenho, a latitude e a
+                longitude de Montevidéu (34°S, 56°O), como se estivesse assinando o mapa com o mesmo tipo de
+                informação que você aprendeu nesta aula.</p>
+
+            <div class="w3-center">
+                <img src="tp2f18.png" alt="América Invertida, esboço de Joaquín Torres García, 1943, mapa da América do Sul desenhado de ponta-cabeça"
+                    class="w3-mobile" style="max-width:280px">
+                <br><span class="citacao">Joaquín Torres García, esboço da "América Invertida", 1943. Obra em
+                    domínio público (o artista faleceu em 1949).</span>
+            </div>
+
+            <p>Não se
+                trata de uma projeção cartográfica tecnicamente nova, mas de uma obra artística e política: um
+                lembrete de que colocar o hemisfério Norte sempre no topo dos mapas também é uma convenção, a mesma
+                ideia de convenção que você viu na explicação sobre o Leste e o Oeste, e não uma verdade absoluta
+                da natureza. Nada, na física do planeta, obriga um mapa a ser desenhado com o Norte para cima:
+                essa é apenas a forma que se tornou costume ao longo da história europeia da Cartografia.</p>
+
+            <p>Entender isso não significa desconfiar de todo mapa, mas sim lê-lo de forma crítica: perguntar
+                quem o produziu, com qual objetivo e qual projeção foi escolhida. É exatamente esse tipo de leitura
+                crítica do espaço que a Geografia se propõe a ensinar, e que você vai aprofundar quando estudar,
+                nas próximas aulas, os fusos horários e outras formas de representar o tempo e o espaço na
+                superfície terrestre.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
 
 
         <div class="topico">
@@ -862,9 +1024,9 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumop2.png" alt="Infográfico resumo cartografia"
+            <div class="w3-margin"><img id="inforesumotp2" src="inforesumotp2.webp" alt="Infográfico resumo cartografia"
                     class="w3-mobile">
-                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor.
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor.
                 </span>
             </div>
 
@@ -872,7 +1034,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
 
@@ -922,6 +1084,8 @@
                 em
                 apenas 1 hora. Calcular a longitude é fazer esse cálculo de tempo entre uma posição e outra. </p>
 
+          
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
 
@@ -941,9 +1105,11 @@
 
             <p>Releia as três perguntas que você escreveu depois da entrevista com a Cartografia. Você já consegue respondê-las com o que aprendeu? Antes desta aula, "se localizar" provavelmente significava só olhar um mapa pronto. Agora você sabe que por trás de qualquer ponto marcado num mapa existe um sistema construído ao longo de milhares de anos: das pinturas em cavernas e do mapa de Eratóstenes até a grade de paralelos e meridianos que você usou para encontrar os pontos C, D e E no planisfério.</p>
 
-            <p>Pontos cardeais e coordenadas geográficas resolvem o mesmo problema em escalas diferentes: os pontos cardeais bastam para dizer "para que lado eu vou", mas só a latitude e a longitude conseguem apontar um único lugar entre os bilhões de pontos da superfície da Terra: a mesma lógica que faz o GPS do seu celular funcionar.</p>
+            <p>Pontos cardeais e coordenadas geográficas resolvem o mesmo problema em escalas diferentes: os pontos cardeais bastam para dizer "para que lado eu vou", mas só a latitude e a longitude conseguem apontar um único lugar entre os bilhões de pontos da superfície da Terra, a mesma lógica que faz o GPS do seu celular funcionar. E, como você viu no bloco sobre Mercator e sobre a América Invertida, nenhum mapa é neutro: toda escala e toda projeção carrega escolhas.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> pontos cardeais (Norte, Sul, Leste, Oeste, a partir da rotação da Terra); orientação e convenção (acordos que tornam a localização possível); rosa dos ventos (instrumento que organiza os pontos cardeais e colaterais); coordenadas geográficas (paralelos e meridianos); latitude (ângulo Norte-Sul a partir do Equador); longitude (ângulo Leste-Oeste a partir de Greenwich).</p>
+            <p>Falando em escolhas: se a latitude e a longitude localizam um ponto no espaço, ainda falta responder a uma pergunta que parece simples, mas não é: que horas são nesse ponto? Na próxima aula você vai descobrir como a longitude, a mesma linha imaginária que acabou de aprender a ler, também é usada para dividir o planeta em fusos horários, e por que o Brasil tem mais de um horário oficial ao mesmo tempo.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> pontos cardeais (Norte, Sul, Leste, Oeste, a partir da rotação da Terra); orientação e convenção (acordos que tornam a localização possível); rosa dos ventos (instrumento que organiza os pontos cardeais e colaterais); escala cartográfica (relação entre o mapa e o terreno real); coordenadas geográficas (paralelos e meridianos); latitude (ângulo Norte-Sul a partir do Equador); longitude (ângulo Leste-Oeste a partir de Greenwich); GPS/GNSS (localização por satélite); projeção cartográfica (a conversão da esfera terrestre em desenho plano, sempre com alguma distorção).</p>
 
             </div>
 
@@ -976,7 +1142,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Coordenadas Geográficas é fundamental para todo o resto da Cartografia. Continue estudando!',
         pontos: 40
     });
     
@@ -1016,6 +1182,14 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

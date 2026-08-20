@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="União Europeia: características geográficas da Europa, o processo de integração (CECA, MCE, UE) e o Tratado de Maastricht">
+    <meta property="og:title" content="Texto 17 - União Europeia I">
+    <meta property="og:description" content="Da Comunidade Europeia do Carvão e do Aço ao Tratado de Maastricht: entenda como a Europa se integrou até formar a União Europeia">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -40,8 +41,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 17 - União Europeia l: o processo de integração</title>
+    <title>3º ano - Texto 17 - União Europeia I</title>
 
 </head>
 
@@ -56,7 +59,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">União Europeia I</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -97,7 +100,14 @@
         <p> Na aula de hoje veremos a dinâmica da formação da União Europeia e seu processo histórico e geográfico de
             integração.</p>
 
-
+        <p>Tudo começou em 9 de maio de 1950, data hoje celebrada como o Dia da Europa, quando o ministro das
+            Relações Exteriores da França, <span class="termo" data-palavra="Declaração Schuman" data-definicao="Proposta apresentada pelo ministro francês Robert Schuman em 9 de maio de 1950, elaborada pelo diplomata Jean Monnet, que sugeriu colocar a produção de carvão e aço da França e da Alemanha sob uma autoridade comum, dando origem à CECA e ao processo de integração europeia.">Robert Schuman</span>, leu um discurso escrito pelo
+            diplomata e economista Jean Monnet propondo que França e Alemanha Ocidental colocassem toda a sua
+            produção de carvão e aço sob uma autoridade comum. A proposta, conhecida como Declaração Schuman, tinha
+            um objetivo estratégico claro: tornar uma nova guerra entre os dois países não apenas impensável, mas
+            materialmente impossível, já que o carvão e o aço eram justamente as matérias-primas usadas para
+            fabricar armamentos. Foi esse gesto de reconciliação franco-alemã, apenas cinco anos após o fim da
+            Segunda Guerra Mundial, que deu origem à CECA em 1951 e, décadas depois, à própria União Europeia.</p>
 
 
 
@@ -112,44 +122,61 @@
         <hr>
 
 
-    </div>
-<div class="topico">
-        <div class="w3-pale-yellow">
-            <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-            <h3>
-                1. O que é a União Europeia (UE)? <br>
-                2. Quais são as principais instituições da UE e suas funções? <br>
-                3. Qual é o objetivo da Política Agrícola Comum (PAC) da UE? <br>
-                4. O que visa a Política de Coesão da UE? <br>
-                5. Qual é o propósito do Mercado Único da UE? <br>
-                6. O que é uma organização supranacional? <br>
-                7. Quais são as vantagens da integração supranacional, como na UE? <br>
-                8. Quais são as desvantagens da integração supranacional? <br>
-                9. O que foi a Comunidade Europeia do Carvão e do Aço (CECA)? <br>
-                10. Qual foi o impacto do Mercado Comum Europeu (MCE) estabelecido pelo Tratado de Roma em 1957? <br>
-            </h3>
-
-        </div>
-
-        <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-        <hr>
     </div>
 <div class="topico">
 
             <h2>A importância da União Europeia no cenário mundial</h2>
 
-            <p>A União Europeia (UE) é uma das organizações supranacionais mais influentes do mundo, composta por 27
+            <p>A União Europeia (UE) é uma das <span class="termo" data-palavra="Organização Supranacional" data-definicao="Entidade formada por vários países que concordam em delegar parte de sua soberania a essa entidade para alcançar objetivos comuns, com autoridade para tomar decisões e impor leis aos seus membros.">organizações supranacionais</span> mais influentes do mundo, composta por 27
                 países membros. Ela surgiu como um esforço para promover a paz, a estabilidade e a prosperidade na
                 Europa após as devastadoras guerras mundiais.</p>
 
             <p>A UE tem um impacto significativo em várias áreas, incluindo economia, política, comércio, direitos
-                humanos, meio ambiente e legislação. Com uma população de cerca de 447 milhões de pessoas, a União
+                humanos, meio ambiente e legislação. Segundo o Eurostat, sua população chegou a 450,4 milhões de
+                pessoas em janeiro de 2025, com Alemanha, França e Itália somando quase metade desse total. A União
                 Europeia é uma das maiores economias do mundo, sendo um ator chave em acordos comerciais globais e na
-                promoção de políticas internacionais de sustentabilidade e direitos humanos.</p>
+                promoção de políticas internacionais de sustentabilidade e direitos humanos. Segundo projeções do
+                FMI para 2025, o PIB nominal somado da UE gira em torno de 20 trilhões de dólares, atrás apenas dos
+                Estados Unidos (cerca de 30,5 trilhões) e próximo do PIB chinês, o que coloca o bloco entre as três
+                maiores economias do planeta mesmo sendo formado por 27 países distintos, e não por uma única
+                nação.</p>
 
-            <p>A sua moeda, o euro, é a segunda moeda mais negociada no mundo. A UE também representa um modelo de
-                integração regional que inspira outras regiões do mundo.</p>
+            <p>A sua moeda, o <span class="termo" data-palavra="Zona do Euro" data-definicao="Grupo de países da União Europeia que adotou o euro como moeda oficial, atualmente 20 dos 27 Estados-membros, com política monetária definida pelo Banco Central Europeu.">euro</span>, é a segunda moeda mais negociada no mundo. A UE também representa um modelo de
+                integração regional que inspira outras regiões do mundo, como o próprio Mercosul, que vimos na aula
+                anterior. Aliás, os dois blocos negociam entre si: depois de 26 anos de negociações, UE e Mercosul
+                fecharam um acordo de livre-comércio assinado em janeiro de 2026, que passou a valer
+                provisoriamente a partir de 1º de maio de 2026, com redução de tarifas e cotas de exportação entre
+                os blocos, mesmo enquanto a ratificação completa ainda segue seu trâmite nos parlamentos de todos os
+                países europeus. É um exemplo direto de como blocos econômicos de diferentes continentes negociam
+                diretamente entre si.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+<div class="topico">
+
+            <h2>As Ampliações da União Europeia</h2>
+
+            <p>Os 27 países que hoje formam a UE não entraram todos de uma vez: o bloco cresceu em sucessivas ondas
+                de <span class="termo" data-palavra="Ampliação (Alargamento)" data-definicao="Processo pelo qual novos países passam a integrar a União Europeia, mediante negociação e cumprimento de critérios políticos, econômicos e jurídicos. Também chamado de alargamento.">ampliação</span>, cada uma refletindo um momento diferente da história europeia.</p>
+
+            <p>Os seis fundadores (França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo) formaram
+                a CECA em 1951 e o MCE em 1957. Em 1973, o bloco ganhou o Reino Unido, a Irlanda e a Dinamarca,
+                chegando a nove membros. A Grécia entrou em 1981, e Espanha e Portugal em 1986, já saindo de
+                ditaduras recentes, elevando o total para doze. Em 1995, Áustria, Finlândia e Suécia se juntaram ao
+                bloco, agora com quinze países.</p>
+
+            <p>A maior ampliação da história aconteceu em 2004, conhecida como o "Big Bang": dez países entraram de
+                uma só vez, a maioria do antigo bloco soviético (Polônia, Hungria, República Tcheca, Eslováquia,
+                Eslovênia, Estônia, Letônia, Lituânia, além de Chipre e Malta), elevando o total para vinte e cinco.
+                Bulgária e Romênia completaram a adesão em 2007, e a Croácia, em 2013, chegou a vinte e oito
+                membros. Em 2020, o Reino Unido deixou o bloco (o Brexit, que veremos em detalhe na próxima aula),
+                trazendo a UE aos atuais 27 países-membros.</p>
+
+            <p>Atualmente, países como Ucrânia, Moldávia, Sérvia, Montenegro, Macedônia do Norte, Albânia e a Bósnia
+                e Herzegovina são candidatos oficiais à adesão, em processos de negociação que podem levar anos ou
+                décadas, já que exigem reformas econômicas, jurídicas e institucionais profundas.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
@@ -213,7 +240,8 @@
                 atingir diretamente as economias de países desenvolvidos.</p>
             <p>Danúbio: O segundo maior rio da Europa, atravessa 10 países, incluindo Alemanha, Áustria, Hungria, e
                 Romênia, antes de desaguar no Mar Negro. O Danúbio é vital para a navegação e a economia das regiões que
-                atravessa.</p>
+                atravessa, e passa por quatro capitais europeias: Viena (Áustria), Bratislava (Eslováquia), Budapeste
+                (Hungria) e Belgrado (Sérvia), mais do que qualquer outro rio do mundo.</p>
 
             <p>4. Climas Variados</p>
 
@@ -249,6 +277,15 @@
                 melhor os desafios e as oportunidades que cada região enfrenta, assim como a riqueza cultural que essa
                 diversidade geográfica proporciona.</p>
 
+            <p>6. Uma Europa Urbana</p>
+            <p>Apesar de toda essa diversidade de paisagens naturais, a Europa é hoje um continente predominantemente
+                urbano: cerca de três em cada quatro europeus vivem em cidades. Diferente da urbanização acelerada e
+                muitas vezes desordenada de países em desenvolvimento, que estudamos em aulas anteriores, a
+                urbanização europeia é antiga, consolidada há séculos, com cidades médias bem distribuídas pelo
+                território e uma rede de trens de alta velocidade conectando as principais metrópoles, como Paris,
+                Berlim, Madri e Roma. Essa malha urbana densa e bem planejada é também parte do que sustenta o peso
+                econômico da UE no cenário mundial.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
 
@@ -256,21 +293,50 @@
 <div class="topico">
 
 
-            <div class="w3-panel w3-pale-yellow w3-leftbar w3-border-yellow w3-padding">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
             <h2>Processo de Integração na Europa</h2>
-        
+
+            <p>Antes mesmo da CECA, um primeiro passo rumo à integração já havia sido dado: em 1944, ainda durante a
+                Segunda Guerra Mundial, Bélgica, Países Baixos e Luxemburgo formaram o <span class="termo" data-palavra="Benelux" data-definicao="União aduaneira formada em 1944 por Bélgica, Países Baixos e Luxemburgo para eliminar as barreiras alfandegárias entre os três países, considerada o primeiro passo rumo à integração econômica europeia, anterior até mesmo à CECA.">Benelux</span>, uma união
+                aduaneira que eliminou as barreiras alfandegárias entre os três países. O Benelux não tinha o mesmo
+                peso político da CECA, mas foi o primeiro sinal de que um caminho de integração econômica era
+                possível na Europa, servindo de base para os passos seguintes.</p>
+
             <p>A. Comunidade Europeia do Carvão e do Aço (CECA)</p>
-            <p>A Comunidade Europeia do Carvão e do Aço (CECA) foi criada em 1951 pelo Tratado de Paris, marcando o início do processo de integração europeia. Este foi o primeiro esforço para criar uma instituição supranacional na Europa, com o objetivo de promover a cooperação econômica entre os países europeus. A CECA focava na administração conjunta dos recursos de carvão e aço, que eram essenciais para a indústria e a reconstrução pós-Segunda Guerra Mundial. O objetivo principal era garantir que esses recursos fossem utilizados de forma eficiente e pacífica, eliminando a competição que poderia levar a novos conflitos. Os países fundadores da CECA foram França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo. A criação da CECA resultou na redução de rivalidades econômicas e políticas, servindo de modelo para futuras integrações europeias.</p>
-        
+            <p>A <span class="termo" data-palavra="CECA" data-definicao="Comunidade Europeia do Carvão e do Aço, criada em 1951 pelo Tratado de Paris, primeira instituição supranacional da Europa, voltada à administração conjunta dos recursos de carvão e aço entre seus países-membros.">Comunidade Europeia do Carvão e do Aço (CECA)</span> foi criada em 1951 pelo Tratado de Paris, marcando o início do processo de integração europeia. Este foi o primeiro esforço para criar uma instituição supranacional na Europa, com o objetivo de promover a cooperação econômica entre os países europeus. A CECA focava na administração conjunta dos recursos de carvão e aço, que eram essenciais para a indústria e a reconstrução pós-Segunda Guerra Mundial. O objetivo principal era garantir que esses recursos fossem utilizados de forma eficiente e pacífica, eliminando a competição que poderia levar a novos conflitos. Os países fundadores da CECA foram França, Alemanha Ocidental, Itália, Bélgica, Países Baixos e Luxemburgo. A criação da CECA resultou na redução de rivalidades econômicas e políticas, servindo de modelo para futuras integrações europeias.</p>
+
             <p>B. Mercado Comum Europeu (MCE)</p>
-            <p>O Mercado Comum Europeu (MCE) foi estabelecido pelo Tratado de Roma em 1957, representando uma evolução da CECA para uma integração mais abrangente. O principal objetivo do MCE era criar um mercado comum que permitisse a livre circulação de bens, serviços, capital e pessoas entre os países membros. Isso foi feito para eliminar barreiras comerciais e promover uma economia mais integrada e competitiva. O impacto econômico do MCE foi significativo, com um aumento substancial no comércio intraeuropeu e um crescimento econômico notável. A criação do MCE também estimulou a cooperação política e social entre os países membros, gerando benefícios como maior eficiência econômica, redução de custos e preços para os consumidores.</p>
-        
+            <p>O <span class="termo" data-palavra="Mercado Comum Europeu (MCE)" data-definicao="Bloco criado pelo Tratado de Roma em 1957, que ampliou a CECA ao permitir a livre circulação de bens, serviços, capital e pessoas entre os países-membros, eliminando barreiras comerciais entre eles.">Mercado Comum Europeu (MCE)</span> foi estabelecido pelo Tratado de Roma em 1957, representando uma evolução da CECA para uma integração mais abrangente. O principal objetivo do MCE era criar um mercado comum que permitisse a livre circulação de bens, serviços, capital e pessoas entre os países membros. Isso foi feito para eliminar barreiras comerciais e promover uma economia mais integrada e competitiva. O impacto econômico do MCE foi significativo, com um aumento substancial no comércio intraeuropeu e um crescimento econômico notável. A criação do MCE também estimulou a cooperação política e social entre os países membros, gerando benefícios como maior eficiência econômica, redução de custos e preços para os consumidores.</p>
+
             <p>C. Tratado de Maastricht</p>
-            <p>O Tratado de Maastricht, assinado em 1992, foi um marco decisivo no processo de integração europeia. Seu principal objetivo era estabelecer a União Europeia (UE) e criar uma moeda única, o Euro. O tratado é sustentado por três pilares principais: a Política Externa e de Segurança Comum (PESC), a cooperação em assuntos de Justiça e Assuntos Internos (JAI), e a União Econômica e Monetária (UEM). A PESC visa coordenar a política externa e de defesa entre os países membros, enquanto a cooperação em JAI busca harmonizar as políticas de justiça e segurança. A UEM, por sua vez, promove a integração econômica e monetária, culminando na introdução do Euro como moeda única. O Tratado de Maastricht foi crucial para aprofundar a integração europeia e fortalecer a união entre os países membros, promovendo estabilidade econômica e política na região.</p>
+            <p>O <span class="termo" data-palavra="Tratado de Maastricht" data-definicao="Tratado assinado em 1992 que criou oficialmente a União Europeia e a moeda única (euro), sustentado em três pilares: Política Externa e de Segurança Comum, cooperação em Justiça e Assuntos Internos, e União Econômica e Monetária.">Tratado de Maastricht</span>, assinado em 1992, foi um marco decisivo no processo de integração europeia. Seu principal objetivo era estabelecer a União Europeia (UE) e criar uma moeda única, o Euro. O tratado é sustentado por três pilares principais: a Política Externa e de Segurança Comum (PESC), a cooperação em assuntos de Justiça e Assuntos Internos (JAI), e a União Econômica e Monetária (UEM). A PESC visa coordenar a política externa e de defesa entre os países membros, enquanto a cooperação em JAI busca harmonizar as políticas de justiça e segurança. A UEM, por sua vez, promove a integração econômica e monetária, culminando na introdução do Euro como moeda única. O Tratado de Maastricht foi crucial para aprofundar a integração europeia e fortalecer a união entre os países membros, promovendo estabilidade econômica e política na região.</p>
         
+            <p>D. Símbolos da União Europeia</p>
+            <p>Como a maioria das organizações supranacionais, a UE construiu símbolos próprios para reforçar um
+                senso de identidade comum entre povos de línguas, culturas e histórias tão diferentes. A bandeira,
+                com doze estrelas douradas dispostas em círculo sobre fundo azul, não representa o número de
+                países-membros (que já mudou várias vezes) e sim ideais de unidade, solidariedade e perfeição, já
+                que o círculo fechado com doze estrelas é um símbolo tradicional de completude. O hino oficial é o
+                "Ode à Alegria", trecho da Nona Sinfonia de Beethoven, e o lema do bloco, adotado em 2000, é "Unidos
+                na diversidade". Esses símbolos aparecem juntos em documentos oficiais, prédios públicos e placas de
+                carro de todos os Estados-Membros. Curiosamente, a bandeira das doze estrelas é mais antiga que a
+                própria União Europeia: foi adotada em 1955 pelo Conselho da Europa (aquela outra organização, de
+                Estrasburgo, que vimos mais adiante), e só depois passou a ser usada também pelas Comunidades
+                Europeias e, por fim, pela UE.</p>
+
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
+                <h3>Exemplo: Programa Erasmus</h3>
+                <p>Um dos símbolos mais conhecidos da integração europeia entre os próprios jovens é o Programa
+                    Erasmus, criado em 1987, que financia bolsas de intercâmbio para estudantes universitários
+                    fazerem parte da graduação em outro país da UE. Desde a criação, o programa já beneficiou mais
+                    de 10 milhões de participantes e é frequentemente citado como um símbolo concreto de como a
+                    integração europeia vai além de tratados e instituições, moldando também a experiência de vida
+                    de milhões de jovens que estudam, trabalham e criam laços afetivos em outros países do bloco.</p>
+            </div>
+
             <h2>União Europeia (UE)</h2>
-        
+
             <p>Estrutura e Funcionamento</p>
             <p>A União Europeia (UE) é uma organização supranacional complexa e única, composta por várias instituições que desempenham funções específicas para garantir o funcionamento eficiente e democrático da união. Aqui estão as principais instituições da UE:</p>
 
@@ -281,26 +347,45 @@
                 
                 </div>
         
-            <p>Parlamento Europeu: Este é o órgão legislativo diretamente eleito pelos cidadãos dos Estados-Membros. O Parlamento Europeu é responsável por aprovar leis, juntamente com o Conselho da União Europeia, e por supervisionar outras instituições da UE. Ele também adota o orçamento da UE.</p>
-        
-            <p>Comissão Europeia: A Comissão Europeia é o braço executivo da UE e é responsável por propor legislação, implementar decisões, manter os tratados e cuidar do dia-a-dia da União. É composta por um representante de cada país membro, conhecido como comissário.</p>
-        
+            <p><span class="termo" data-palavra="Parlamento Europeu" data-definicao="Órgão legislativo da UE diretamente eleito pelos cidadãos dos Estados-Membros, responsável por aprovar leis junto ao Conselho da União Europeia, supervisionar outras instituições e adotar o orçamento da UE.">Parlamento Europeu</span>: Este é o órgão legislativo diretamente eleito pelos cidadãos dos Estados-Membros. O Parlamento Europeu é responsável por aprovar leis, juntamente com o Conselho da União Europeia, e por supervisionar outras instituições da UE. Ele também adota o orçamento da UE.</p>
+
+            <p><span class="termo" data-palavra="Comissão Europeia" data-definicao="Braço executivo da União Europeia, responsável por propor legislação, implementar decisões e cuidar do dia a dia da União. Composta por um comissário indicado por cada país-membro.">Comissão Europeia</span>: A Comissão Europeia é o braço executivo da UE e é responsável por propor legislação, implementar decisões, manter os tratados e cuidar do dia-a-dia da União. É composta por um representante de cada país membro, conhecido como comissário.</p>
+
             <p>Conselho da União Europeia: Também conhecido como Conselho de Ministros, é composto por ministros de cada Estado-Membro, dependendo do assunto em discussão (por exemplo, agricultura, economia). Ele partilha o poder legislativo e orçamental com o Parlamento Europeu.</p>
-        
+
             <p>Conselho Europeu: Composto pelos Chefes de Estado ou de Governo dos países membros, o Conselho Europeu define a orientação política geral e as prioridades da União. É liderado por um Presidente, eleito pelos seus membros.</p>
-        
+
             <p>Tribunal de Justiça da União Europeia: Garante que a legislação da UE seja interpretada e aplicada da mesma forma em todos os Estados-Membros. Resolve disputas legais entre governos nacionais e instituições europeias e pode também, em algumas circunstâncias, ser acionado por indivíduos, empresas ou organizações.</p>
-        
-            <p>Banco Central Europeu (BCE): Responsável pela política monetária da Zona Euro, o BCE visa manter a estabilidade de preços e realizar políticas econômicas e monetárias na União.</p>
-        
+
+            <p>Vale registrar uma confusão comum: o Conselho Europeu e o Conselho da União Europeia, listados acima,
+                não devem ser confundidos com o Conselho da Europa, uma organização internacional diferente, criada
+                em 1949 e sediada em Estrasburgo, que reúne 46 países (bem mais do que os 27 da UE) e é responsável
+                por tratados como a Convenção Europeia dos Direitos Humanos. Ou seja: todo país da UE participa do
+                Conselho da Europa, mas nem todo país do Conselho da Europa (como a Turquia ou a própria Ucrânia)
+                integra a União Europeia.</p>
+
+            <p>Banco Central Europeu (BCE): Responsável pela política monetária da Zona do Euro, o BCE visa manter a estabilidade de preços e realizar políticas econômicas e monetárias na União. Para adotar o euro, um país precisa cumprir os chamados critérios de convergência de Maastricht, entre eles manter a inflação sob controle, o déficit orçamental abaixo de 3% do PIB e a dívida pública abaixo de 60% do PIB, o que explica por que nem todos os 27 países-membros já usam a moeda única. Além disso, entrar na zona do euro também dependia de consulta popular em cada país, o que permitiu que alguns optassem por ficar de fora mesmo cumprindo os critérios econômicos: a Suécia, por exemplo, rejeitou a adoção do euro em referendo realizado em 2003, e a Dinamarca negociou uma cláusula de exceção permanente no próprio Tratado de Maastricht.</p>
+
             <p>Principais Políticas da UE</p>
-        
-            <p>Política Agrícola Comum (PAC): Criada para apoiar os agricultores da UE, garantir um fornecimento estável de alimentos a preços acessíveis e promover o desenvolvimento rural. A PAC tem sido crucial para modernizar a agricultura europeia e assegurar a sustentabilidade ambiental.</p>
-        
-            <p>Política de Coesão: Visa reduzir as disparidades econômicas e sociais entre as regiões da UE. Financia projetos de infraestrutura, desenvolvimento urbano, educação, saúde e emprego, especialmente nas regiões menos desenvolvidas.</p>
-        
-            <p>Mercado Único: Permite a livre circulação de bens, serviços, pessoas e capitais entre os Estados-Membros. Visa criar um espaço sem fronteiras internas para aumentar a eficiência econômica e a competitividade global.</p>
-        
+
+            <p><span class="termo" data-palavra="Política Agrícola Comum (PAC)" data-definicao="Política criada para apoiar os agricultores da União Europeia, garantir um fornecimento estável de alimentos a preços acessíveis e promover o desenvolvimento rural nos países-membros.">Política Agrícola Comum (PAC)</span>: Criada para apoiar os agricultores da UE, garantir um fornecimento estável de alimentos a preços acessíveis e promover o desenvolvimento rural. A PAC tem sido crucial para modernizar a agricultura europeia e assegurar a sustentabilidade ambiental. É também a política mais cara do bloco: no orçamento de longo prazo 2021-2027, a PAC responde por cerca de um terço de todos os gastos da UE, quase 387 bilhões de euros, o que mostra o peso histórico e político da agricultura na integração europeia, mesmo em uma economia hoje dominada por serviços e indústria.</p>
+
+            <p><span class="termo" data-palavra="Política de Coesão" data-definicao="Política da UE que financia projetos de infraestrutura, desenvolvimento urbano, educação, saúde e emprego, com o objetivo de reduzir as disparidades econômicas e sociais entre as regiões, sobretudo as menos desenvolvidas.">Política de Coesão</span>: Visa reduzir as disparidades econômicas e sociais entre as regiões da UE. Financia projetos de infraestrutura, desenvolvimento urbano, educação, saúde e emprego, especialmente nas regiões menos desenvolvidas.</p>
+
+            <p><span class="termo" data-palavra="Mercado Único" data-definicao="Espaço econômico da UE sem fronteiras internas para bens, serviços, pessoas e capitais, criado para aumentar a eficiência econômica e a competitividade global do bloco.">Mercado Único</span>: Permite a livre circulação de bens, serviços, pessoas e capitais entre os Estados-Membros. Visa criar um espaço sem fronteiras internas para aumentar a eficiência econômica e a competitividade global.</p>
+
+            <p><span class="termo" data-palavra="Espaço Schengen" data-definicao="Área formada pela maioria dos países da UE, mais alguns países não-membros como Noruega, Islândia e Suíça, na qual os controles de fronteira interna foram abolidos, permitindo a livre circulação de pessoas sem passaporte entre os países participantes.">Espaço Schengen</span>: Criado pelo Acordo de Schengen, assinado em 1985 e efetivamente implementado a partir de 1995, é a área que aboliu os controles de fronteira entre a maioria dos países-membros, permitindo que qualquer pessoa atravesse essas fronteiras sem precisar apresentar passaporte. Nem todo país da UE faz parte do Espaço Schengen (a Irlanda optou por ficar de fora, por exemplo), e ele inclui alguns países que nem sequer são membros da UE, como Noruega, Islândia, Suíça e Liechtenstein: em 2023, o espaço reunia 27 países ao todo, sendo 23 deles membros da União Europeia.</p>
+
+            <p>A livre circulação de pessoas dentro da UE vai além do turismo: qualquer cidadão europeu pode se
+                mudar para outro país-membro para trabalhar, estudar ou morar, sem precisar de visto ou autorização
+                especial. Essa mobilidade trouxe um efeito colateral importante, sobretudo depois do "Big Bang" de
+                2004: milhões de trabalhadores da Europa Oriental, onde os salários eram bem mais baixos,
+                migraram para países da Europa Ocidental em busca de melhores oportunidades, fenômeno conhecido como
+                fuga de cérebros ou de mão de obra. Isso beneficiou economias como a alemã e a britânica, que
+                ganharam trabalhadores qualificados, mas gerou desafios para países como a Polônia e a Romênia, que
+                perderam parte da sua população economicamente ativa justamente no período em que mais precisavam
+                dela para se desenvolver.</p>
+
             <p>Política de Concorrência: Garantir que a competição no mercado interno não seja distorcida. Inclui a regulamentação contra práticas empresariais como monopólios, cartéis e fusões que podem prejudicar a livre concorrência.</p>
 
             </div>
@@ -311,31 +396,215 @@
         </div>
 <div class="topico">
 
-            <div class="w3-panel w3-pale-green w3-leftbar w3-border-green w3-padding">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
             <h2>Definição de Organização Supranacional</h2>
-        
+
             <p>Uma organização supranacional é uma entidade formada por vários países que concordam em delegar parte de sua soberania a esta entidade para alcançar objetivos comuns. Estas organizações têm autoridade para tomar decisões e impor leis aos seus membros. A União Europeia é um exemplo típico de uma organização supranacional porque seus Estados-Membros transferiram parte de sua soberania para instituições da UE, permitindo-lhes tomar decisões vinculativas sobre uma ampla gama de assuntos.</p>
-        
+
             <h2>Vantagens e Desvantagens da Integração Supranacional</h2>
-        
+
             <p>Vantagens:</p>
-        
+
             <p>Paz e Estabilidade: A integração europeia ajudou a promover a paz e a estabilidade no continente, especialmente após as duas Guerras Mundiais. A cooperação e a interdependência econômica reduzem a probabilidade de conflitos.</p>
             <p>Crescimento Econômico: O mercado único da UE criou uma área de comércio livre que impulsiona o crescimento econômico. As políticas comuns, como a PAC e os fundos de coesão, apoiam o desenvolvimento regional e setorial.</p>
             <p>Influência Global: A UE, como bloco, tem mais peso nas negociações internacionais e pode influenciar decisões globais sobre comércio, meio ambiente e segurança.</p>
-        
+
             <p>Desvantagens:</p>
-        
+
             <p>Perda de Soberania: Os Estados-Membros cedem parte de sua autoridade nacional, o que pode ser visto como uma perda de controle sobre assuntos internos. Decisões importantes são tomadas em Bruxelas, longe dos eleitores locais.</p>
             <p>Complexidade Burocrática: A estrutura da UE é complexa, com múltiplas instituições e procedimentos. Isso pode levar a uma tomada de decisão lenta e ineficaz.</p>
-            <p>Desafios Políticos: A diversidade de interesses e culturas entre os Estados-Membros pode levar a conflitos e dificuldades em alcançar consensos. Questões como migração e política fiscal são áreas onde a discordância pode ser significativa.</p>
+            <p>Desafios Políticos: A diversidade de interesses e culturas entre os Estados-Membros pode levar a conflitos e dificuldades em alcançar consensos. Questões como migração e política fiscal são áreas onde a discordância pode ser significativa, como veremos na próxima aula sobre a União Europeia II.</p>
 
             </div>
         
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
+
+        </div>
+
         
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    O Tratado de Roma (1957) criou o Mercado Comum Europeu com o objetivo principal de:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Impor uma moeda única imediatamente</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Permitir a livre circulação de bens, serviços, capital e pessoas</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) Extinguir a CECA</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'O MCE ampliou a CECA ao criar um mercado comum com livre circulação entre os países-membros!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    O Tratado de Maastricht (1992) é historicamente importante porque:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Criou a CECA</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Estabeleceu a União Europeia e o euro</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Encerrou o Mercado Comum Europeu</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Foi Maastricht que transformou o bloco econômico na União Europeia, com moeda única!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+
+        <div class="topico">
+            <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que a União Europeia começou justamente unindo carvão e aço, e não outra coisa qualquer?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque carvão e aço eram, na época, as matérias-primas
+                essenciais para fabricar armas e equipar exércitos. Ao colocar a produção desses dois recursos sob
+                uma autoridade comum entre França e Alemanha, a CECA tornava uma nova guerra entre os dois países
+                não só indesejável, mas materialmente muito mais difícil de acontecer, já que nenhum dos dois
+                conseguiria se armar sozinho às escondidas do outro.</p>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Se a União Europeia tira autonomia dos países-membros, por que tantos países quiseram e ainda
+                    querem entrar no bloco?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque, na prática, o que cada país cede em soberania costuma
+                ser compensado pelo acesso a um mercado gigantesco de mais de 450 milhões de consumidores, por
+                fundos de investimento em infraestrutura e desenvolvimento regional, e por mais peso político em
+                negociações internacionais do que qualquer país sozinho teria. É por isso que mesmo países fora da
+                UE, como Ucrânia e Sérvia, seguem processos de adesão que podem levar décadas.</p>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que alguns países da União Europeia, como a Suécia, não usam o euro?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque a entrada na zona do euro não é automática: além de
+                cumprir critérios econômicos rígidos, muitos países precisaram (ou escolheram) consultar a própria
+                população em referendo. A Suécia, por exemplo, rejeitou a adoção do euro em uma consulta popular,
+                preferindo manter sua moeda nacional, a coroa sueca, mesmo sendo membro pleno da UE desde 1995.</p>
+
+          
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
+            <br/><br/>
+            <hr/>
+        </div>
+
+        
+
+<div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot17" src="inforesumott17.webp"
+                    alt="Infográfico resumo Comércio Multilateral" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos como a Europa se integrou aos poucos: primeiro pela CECA, em 1951, unindo a
+                administração do carvão e do aço; depois pelo Mercado Comum Europeu, em 1957, ampliando a livre
+                circulação de bens, serviços, capital e pessoas; e por fim pelo Tratado de Maastricht, em 1992, que
+                criou a União Europeia e o euro. Vimos também a diversidade geográfica do continente, da rede de
+                instituições que administram o bloco às principais políticas comuns, como a PAC, a Política de
+                Coesão e o Mercado Único, e discutimos as vantagens e desvantagens de uma organização
+                supranacional.</p>
+            <p>Na próxima aula, vamos estudar a União Europeia II, e ver que a mesma integração que trouxe paz e
+                crescimento também enfrenta crises: os movimentos separatistas, a saída do Reino Unido do bloco (o
+                Brexit) e os desafios da imigração e da xenofobia na Europa atual.</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-pale-yellow">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. O que é a União Europeia (UE)?</h3>
+                <h3>2. Quais são as principais instituições da UE e suas funções?</h3>
+                <h3>3. Qual é o objetivo da Política Agrícola Comum (PAC) da UE?</h3>
+                <h3>4. O que visa a Política de Coesão da UE?</h3>
+                <h3>5. Qual é o propósito do Mercado Único da UE?</h3>
+                <h3>6. O que é uma organização supranacional?</h3>
+                <h3>7. Quais são as vantagens e desvantagens da integração supranacional, como na UE?</h3>
+                <h3>8. O que foi a Comunidade Europeia do Carvão e do Aço (CECA), e quais países a fundaram?</h3>
+                <h3>9. Qual foi o impacto do Mercado Comum Europeu (MCE) estabelecido pelo Tratado de Roma em 1957?</h3>
+                <h3>10. O que o Tratado de Maastricht estabeleceu, e em quais três pilares ele se sustenta?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
         </div>
 
         <div class="topico">
@@ -368,10 +637,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-            </div>
-
-        </div>
-
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
             <hr>
@@ -387,11 +652,20 @@
                 <div id="biblio-gerada"></div>
             </div>
 
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
+            </div>
+
         <br><br>
         <div class="w3-padding-48">
             <span id="numero"></span>
             <span id="txtBarra">0%</span>
             <progress value="0" max="100" id="progress"></progress>
+        </div>
         </div>
 
     </main>

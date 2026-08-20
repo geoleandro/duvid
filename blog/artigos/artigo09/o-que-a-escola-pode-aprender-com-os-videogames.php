@@ -34,7 +34,7 @@ $autor     = "Leandro Henrique da Silva";
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v18.0"></script>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
-    <div class="w3-row w3-content" style="max-width:1600px; margin-top:20px;">
+    <main class="w3-row w3-content" style="max-width:1600px; margin-top:20px;">
         <div class="w3-col l8 s12">
             <div class="w3-container artigo-texto w3-white w3-margin-bottom w3-padding-32">
                 <h2 class="w3-center">
@@ -167,7 +167,7 @@ $autor     = "Leandro Henrique da Silva";
             <div id="leia-tambem-container"></div>
             <div id="arquivo-blog-container"></div>
         </div>
-    </div>
+    </main>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
     <script>

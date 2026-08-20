@@ -22,11 +22,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -133,7 +132,7 @@
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, por que isso acontece? O mapa "cresce" quando você aproxima ou é outra coisa que está mudando? Guarde sua resposta, vamos retomá-la no final da aula.</p>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -158,7 +157,7 @@
             <p><strong>Esta aula responde a uma pergunta bem prática: como caber o mundo inteiro, ou a sua escola inteira, dentro de uma folha de papel sem perder a proporção real das coisas.</strong></p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr><br>
         </div>
 
@@ -200,7 +199,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -303,7 +302,7 @@
             <p>Já na escala de <span onclick="Aparecer('imagem4','citacao4')"><mark>
                         1:100.000</mark></span>, não conseguimos ver a escola com precisão, pois seu tamanho foi
                 dividido
-                100 mil centímetros, ou 1000 metros ou 1 quilômetro!. </p>
+                100 mil centímetros, ou 1000 metros, ou seja, 1 quilômetro! </p>
             <div class="area"><img id="imagem4" src="tp4f4.png" alt="tp4f4" class="w3-mobile" style=display:none>
             </div>
 
@@ -336,7 +335,7 @@
 
 
             <button class="btnShow w3-margin-top"
-                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -362,14 +361,132 @@
             <p>A vantagem da escala gráfica é que podemos saber diretamente a medida real no mapa, basta
                 medir com uma régua. </p>
 
+            <p>Repare que a escala gráfica tem uma vantagem prática sobre a numérica: se o mapa for
+                fotocopiado ou impresso em um tamanho diferente do original, a escala numérica (1:10.000, por exemplo)
+                fica incorreta, porque as distâncias no papel mudaram, mas o número não. Já a escala gráfica, por ser
+                um desenho, é ampliada ou reduzida junto com o mapa, continuando confiável mesmo depois da cópia.</p>
 
 
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
+        </div>
+
+
+        <!-- BLOCO: Escalimetro -->
+        <div class="topico">
+
+            <h2> <strong>O escalímetro: a régua de quem desenha mapas e plantas</strong></h2>
+
+            <p>Sabendo calcular a escala com a fórmula, você já consegue resolver qualquer questão de
+                prova. Mas quem trabalha todos os dias com desenho técnico, arquitetos, engenheiros civis,
+                topógrafos, urbanistas, não fica fazendo conta de cabeça a cada linha que traça. Existe um
+                instrumento criado exatamente para isso: o <span class="termo" data-palavra="Escalímetro"
+                    data-definicao="Régua de seção triangular com seis faces graduadas, cada uma correspondendo a uma escala diferente (como 1:20, 1:25, 1:50, 1:75, 1:100 e 1:125). Permite medir ou desenhar distâncias já convertidas para a escala do desenho, sem necessidade de cálculo manual."><strong>escalímetro</strong></span>.</p>
+
+            <p>É uma régua de seção triangular, ou seja, se você olhar a ponta dela, vai ver um
+                triângulo em vez de um retângulo achatado como nas réguas comuns. Essa forma não é só estética: ela
+                permite que a régua tenha seis faces graduadas em vez de duas, cada face correspondendo a uma escala
+                diferente, geralmente 1:20, 1:25, 1:50, 1:75, 1:100 e 1:125 (existem também escalímetros para escalas
+                maiores, como 1:250 até 1:1.250, usados em mapas de cidades e regiões).</p>
+
+            <p>Na prática, isso significa que quem desenha uma planta na escala 1:50 não precisa fazer a
+                conta d = D/E para cada parede, cada porta, cada móvel. Basta virar o escalímetro até a face marcada
+                "50" e medir direto, porque os números já graduados naquela face representam a distância real
+                convertida. Se a parede mede 4 metros na realidade, a régua já mostra o ponto exato onde ela termina
+                no papel, sem nenhuma divisão manual.</p>
+
+            <p>O mesmo princípio, converter automaticamente entre o real e o papel, é o que torna a escala
+                um dos temas mais cobrados em concursos e vestibulares para cursos técnicos: quem vai trabalhar com
+                mapas, projetos ou obras precisa dominar essa lógica de conversão antes mesmo de pegar em um
+                escalímetro pela primeira vez. Mesmo com o desenho técnico hoje sendo feito majoritariamente em
+                softwares como AutoCAD, o escalímetro continua em uso em canteiros de obra e visitas de campo,
+                justamente por não depender de tela, bateria ou tomada.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
+
+
+        <!-- BLOCO: Generalizacao Cartografica -->
+        <div class="topico">
+
+            <h2> <strong>Generalização cartográfica: o que some quando o mapa encolhe</strong></h2>
+
+            <p>Você já deve ter notado, nos mapas anteriores, que a escola foi ficando cada vez mais
+                "simples" conforme a escala diminuía: na escala grande dava para ver cada sala, cada corredor; na
+                escala pequena, a escola virou só uma manchinha, ou nem apareceu mais. Isso não é um defeito do
+                desenho, é um processo necessário chamado <span class="termo" data-palavra="Generalização Cartográfica"
+                    data-definicao="Conjunto de decisões tomadas pelo cartógrafo para simplificar a realidade ao reduzir a escala de um mapa, incluindo seleção (o que aparece), simplificação (menos detalhes na forma), exagero (destacar o que sumiria) e classificação (agrupar elementos parecidos em um só símbolo).">generalização
+                    cartográfica</span>.</p>
+
+            <p>Nenhum mapa consegue mostrar a realidade inteira, com todos os seus detalhes, exceto em uma
+                escala impossivelmente grande. Por isso, todo cartógrafo precisa tomar decisões sobre o que entra e o
+                que sai do desenho conforme a escala diminui. Esse processo costuma envolver quatro operações
+                principais.</p>
+
+            <p>A <strong>seleção</strong> decide o que aparece e o que é simplesmente descartado: um mapa
+                rodoviário do Brasil não mostra ruas de bairro, só rodovias; um mapa do bairro não mostra cada árvore
+                da calçada. A <strong>simplificação</strong> reduz a complexidade das formas sem descartá-las por
+                completo: um rio cheio de curvas na realidade vira uma linha bem mais reta no mapa de pequena escala,
+                e uma costa recortada em baías e enseadas vira um traço mais liso. O <strong>exagero</strong> faz o
+                oposto do que se espera, aumentando de propósito o tamanho de algo que, na escala real, seria fino
+                demais para aparecer: uma rodovia de poucos metros de largura é desenhada como uma linha grossa e
+                colorida, bem maior do que sua largura real proporcional ao mapa, senão ela simplesmente
+                desapareceria do desenho. E a <strong>classificação</strong> agrupa elementos parecidos sob um único
+                símbolo: em vez de desenhar cada prédio de uma cidade, o mapa usa uma mancha cinza para "área
+                urbana"; em vez de cada árvore, uma mancha verde para "vegetação".</p>
+
+            <p>É por isso que dois mapas do mesmo lugar, em escalas diferentes, não são versões "mais
+                zoom" ou "menos zoom" um do outro, como uma foto digital. São desenhos com informações genuinamente
+                diferentes: o mapa de escala pequena não é só uma versão reduzida do de escala grande, é um novo
+                desenho, com escolhas próprias sobre o que merece ser mostrado.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Escalas em mapas digitais -->
+        <div class="topico">
+
+            <h2> <strong>Do papel para a tela: escalas nos mapas que você já usa</strong></h2>
+
+            <p>Lembra da pergunta do começo da aula, sobre o Google Maps "crescer" quando você dá zoom?
+                Agora dá para responder com precisão: não é o mapa que cresce, é a escala cartográfica que muda, e o
+                processo de generalização cartográfica que você acabou de aprender acontece o tempo todo, de forma
+                automática, dentro do aplicativo.</p>
+
+            <p>Mapas digitais como Google Maps, Waze e OpenStreetMap não desenham o planeta inteiro em
+                tempo real cada vez que você mexe na tela. Eles funcionam com um sistema de <span class="termo"
+                    data-palavra="Níveis de Zoom"
+                    data-definicao="Sistema usado por mapas digitais (Google Maps, OpenStreetMap) para organizar o mundo em blocos de imagem pré-processados (tiles), um conjunto diferente para cada nível de aproximação, numerados geralmente de 0 (planeta inteiro) a cerca de 20 (quarteirão). Cada nível corresponde, na prática, a uma escala cartográfica diferente."><strong>níveis
+                        de zoom</strong></span>, numerados geralmente de 0 (o planeta inteiro cabendo na tela) até
+                cerca de 20 (dá para ver o contorno de uma casa). Cada um desses níveis é, na prática, uma escala
+                cartográfica diferente, com seu próprio conjunto de dados já processado e pronto para ser exibido:
+                blocos de imagem chamados de "tiles".</p>
+
+            <p>É por isso que, ao afastar o zoom, os nomes das ruas menores e das lojas somem primeiro, e só
+                depois somem os bairros, e só depois as cidades: cada nível de zoom passou por sua própria
+                generalização cartográfica, decidida com antecedência por quem programou o serviço, exatamente como
+                um cartógrafo decide o que aparece em um mapa impresso. A diferença é que, no papel, essa decisão é
+                tomada uma única vez para aquele mapa; no aplicativo, existem dezenas de versões prontas, uma para
+                cada nível de zoom, e o programa troca de uma para outra instantaneamente conforme você mexe os
+                dedos na tela.</p>
+
+            <p>Muitos desses aplicativos ainda mostram, discretamente em um canto da tela, uma barrinha com
+                uma medida (por exemplo, "50 m" ou "5 km"): é a escala gráfica que você aprendeu nesta aula,
+                atualizada automaticamente a cada nível de zoom. Da próxima vez que você usar um mapa no celular,
+                repare nela: é a mesma lógica da régua graduada, só que recalculada pelo próprio aplicativo a cada
+                toque na tela.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
 
@@ -426,7 +543,7 @@
             </p>
 
 
-            <p class="divCaixa1 w3-margin">E = representado a escala; </p>
+            <p class="divCaixa1 w3-margin">E = representa a escala (o número da razão); </p>
 
 
             <p class="divCaixa1 w3-margin">d = distância no mapa (ou papel); </p>
@@ -442,11 +559,11 @@
                 transformar cm em m ou em km. </p>
 
 
-            <p>A escala também pode ser o resultado da divisão da distância no papel e a distância real.
+            <p>A escala também pode ser o resultado da divisão da distância real pela distância no papel.
             </p>
 
 
-            <p class="divCaixa1 w3-margin"> E = d/D </p>
+            <p class="divCaixa1 w3-margin"> E = D/d </p>
 
 
             <p> Finalmente, para descobrir a distância no papel, dividimos a distância real pela escala.
@@ -456,7 +573,7 @@
             <p class="divCaixa1 w3-margin"> d = D/E </p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -492,13 +609,87 @@
 
 
 
-            <p> Isso quer dizer que conforme a escala vai se aproximando da realidade, ou seja, 1:1
-                – torna-se menor - ocorre um aumento da área representada e uma diminuição do grau de detalhamento
-                cartográficos. </p>
+            <p> Isso quer dizer que, conforme a escala vai se aproximando da realidade (ou seja, do 1:1), o número
+                da fração fica menor, a área representada diminui e o grau de detalhamento cartográfico aumenta. O
+                caminho inverso também vale: quanto mais a escala se afasta do 1:1, maior o número da fração, maior a
+                área representada e menor o detalhamento. </p>
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
+
+
+        <!-- BLOCO: Resolucao espacial e satelites -->
+        <div class="topico">
+
+            <h2> <strong>A mesma ideia vista do espaço: imagens de satélite</strong></h2>
+
+            <p>A lógica da escala também aparece, com outro nome, nas imagens de satélite que monitoram o
+                território brasileiro. Nesse caso, o conceito equivalente se chama <span class="termo"
+                    data-palavra="Resolução Espacial"
+                    data-definicao="Em sensoriamento remoto, é a menor área do terreno que cada pixel de uma imagem de satélite consegue distinguir. Quanto menor essa área (por exemplo, 5 metros em vez de 30 metros), maior a resolução espacial e mais detalhes a imagem revela, exatamente como uma escala cartográfica grande."><strong>resolução
+                        espacial</strong></span>: em vez de centímetros no papel para cada metro na realidade, o que
+                importa agora é quantos metros do terreno cabem dentro de um único pixel da imagem.</p>
+
+            <p>O satélite Landsat, usado desde os anos 1970 para observar a superfície terrestre, produz
+                imagens em que cada pixel corresponde a 30 metros por 30 metros na realidade: qualquer coisa menor
+                do que isso, uma casa, uma árvore isolada, simplesmente não aparece, ela se mistura com tudo que
+                estiver ao redor dentro daquele quadrado de 30 metros. Já satélites mais recentes, como os que
+                alimentam o Google Earth em algumas regiões, chegam a menos de 1 metro por pixel, quase no nível de
+                planta baixa.</p>
+
+            <p>O Instituto Nacional de Pesquisas Espaciais (INPE) usa exatamente esse princípio nos
+                programas PRODES e DETER, que monitoram o desmatamento da Amazônia: quanto maior a resolução das
+                imagens usadas, menores as clareiras de desmatamento que conseguem ser detectadas e denunciadas.
+                Uma imagem de baixa resolução espacial pode não flagrar um desmatamento pequeno, do mesmo jeito que
+                um mapa em escala pequena não mostra a rua onde você mora.</p>
+
+            <p>O Brasil tem participação direta nessa história: desde 1988 o país mantém, em parceria com
+                a China, o programa CBERS (China-Brazil Earth Resources Satellite), uma série de satélites de
+                sensoriamento remoto que reduziu a dependência brasileira de imagens compradas de outros países.
+                Os satélites CBERS também trabalham com diferentes resoluções espaciais conforme o objetivo da
+                missão: câmeras de resolução menor cobrem áreas maiores para monitoramento agrícola em larga escala,
+                enquanto câmeras de resolução maior detalham regiões específicas, o mesmo tipo de escolha entre área
+                coberta e nível de detalhe que você já viu valer para mapas em papel.</p>
+
+            <p>Ou seja: seja no papel, seja em uma tela de celular, seja em uma imagem tirada por um
+                satélite a 700 quilômetros de altura, a mesma pergunta se repete: quanto do real cabe representado em
+                cada unidade da imagem? Essa é a essência da escala, em qualquer um dos seus disfarces.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
+
+
+        <!-- BLOCO: O mapa do tamanho do territorio -->
+        <div class="topico">
+
+            <h2> <strong>O mapa do tamanho do território</strong></h2>
+
+            <p>Se escala pequena significa pouco detalhe, seria de imaginar que a escala perfeita, sem
+                nenhuma perda de informação, seria a escala 1:1: um mapa exatamente do mesmo tamanho da área
+                representada. O escritor argentino Jorge Luis Borges escreveu, em 1946, um conto de um único
+                parágrafo chamado "Sobre o Rigor da Ciência", sobre um império cuja arte da cartografia atingiu tal
+                perfeição que os cartógrafos construíram um mapa do tamanho exato do próprio Império, ponto por
+                ponto coincidente com ele.</p>
+
+            <p>O problema é óbvio: um mapa do tamanho do território não serve para nada. Ele não cabe em
+                lugar nenhum, não pode ser carregado, não ajuda ninguém a se localizar, porque para "ler" esse mapa
+                seria preciso já estar em cima do próprio território que ele representa. No conto de Borges, as
+                gerações seguintes, "menos afeitas ao estudo da Cartografia", concluem que o mapa é inútil e o
+                abandonam à própria sorte, entregando-o "às Inclemências do Sol e dos Invernos".</p>
+
+            <p>Esse pequeno conto resume, de um jeito literário, exatamente o que você aprendeu nesta aula:
+                a utilidade de um mapa não vem de reproduzir a realidade sem perdas, vem justamente do contrário, da
+                escolha inteligente do que reduzir, do que generalizar e do que deixar de fora. Um mapa perfeito, sem
+                nenhuma generalização cartográfica, seria tão grande e tão detalhado quanto o próprio mundo, e por
+                isso mesmo, completamente inútil.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
         </div>
@@ -543,7 +734,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: um mapa-múndi representa o mundo inteiro — isso exige uma escala muito reduzida, com pouco detalhamento!', '10')">
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: um mapa-múndi representa o mundo inteiro, isso exige uma escala muito reduzida, com pouco detalhamento!', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -813,7 +1004,7 @@
 
 
             <button class="btnShow w3-margin-top"
-                onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
 
@@ -915,13 +1106,36 @@
             </div>
         </div>
 
+        
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+
+
+            <div class="w3-margin"><img id="infograficotp4" src="inforesumotp4.webp"
+                    alt="Infográfico resumo escala cartográfica" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+
+
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+
+        </div>
+
+
 
 
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>Por que a escala grande tem um número
@@ -973,7 +1187,8 @@
                 propor a construção de um objeto como uma ponte em uma cidade. Portanto, também precisará conhecer
                 Geografia
                 muito bem para não dificultar a vida das pessoas, dependendo da intervenção realizada em escala local,
-                regional ou, até mesmo, nacional.</p>
+                regional ou, até mesmo, nacional. Áreas como urbanismo, engenharia civil e paisagismo trabalham lado
+                a lado com esse conhecimento praticamente todos os dias.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio!</button>
             <br><br>
@@ -1004,9 +1219,9 @@
 
             <div class="area">
                 <p class="divCaixa1 w3-margin">
-                    <strong>D = d/E</strong><br>
-                    100 = d/200<br>
-                    <strong>D = 0,5 cm.</strong> Cada metro na realidade terá 0,5 cm no papel.
+                    <strong>d = D/E</strong><br>
+                    d = 100/200<br>
+                    <strong>d = 0,5 cm.</strong> Cada metro na realidade terá 0,5 cm no papel.
                 </p>
             </div>
 
@@ -1025,7 +1240,7 @@
                 deixar a planta desenhada no caderno para receber o visto de confirmação.</p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
 
 
@@ -1043,7 +1258,9 @@
 
             <p>A mesma lógica que você usou para desenhar a planta da sua escola é a que geógrafos e cartógrafos usam para decidir qual instrumento cabe a cada situação: um globo para pensar o planeta inteiro, um mapa para uma região, uma carta para articular áreas vizinhas, uma planta para o detalhe de uma sala ou de um lote.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> escala geográfica (o recorte de espaço do fenômeno estudado); escala cartográfica (a proporção entre o real e o papel); globo (representação esférica, escala pequena); mapa (representação plana, escala pequena a média); carta (representação plana articulável, escala média a grande); planta (representação de área limitada, escala grande, muito detalhe).</p>
+            <p>Mas escolher a escala certa é só metade do problema. A outra metade é decidir qual sistema usar para "achatar" a Terra, que é redonda, em um desenho plano, que não é. Toda vez que isso acontece, alguma coisa se distorce: a forma dos continentes, a distância entre dois pontos ou o tamanho das áreas. Na próxima aula você vai conhecer as principais projeções cartográficas e entender por que, dependendo de qual delas o cartógrafo escolhe, o próprio mapa pode carregar uma mensagem, e nem sempre neutra.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> escala geográfica (o recorte de espaço do fenômeno estudado); escala cartográfica (a proporção entre o real e o papel); generalização cartográfica (seleção, simplificação, exagero e classificação ao reduzir a escala); globo (representação esférica, escala pequena); mapa (representação plana, escala pequena a média); carta (representação plana articulável, escala média a grande); planta (representação de área limitada, escala grande, muito detalhe); resolução espacial (a versão da escala usada em imagens de satélite).</p>
 
             </div>
 
@@ -1088,6 +1305,14 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

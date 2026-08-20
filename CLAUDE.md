@@ -105,10 +105,11 @@ Checklist aplicado a cada "Revisão completa" de aula (`/2ano/Textos2/TextoNN/`,
 - **Verificar se cabem os assuntos mais cobrados do ENEM no tema do texto** (ex: dados/conceitos clássicos de prova, comparações regionais, teorias recorrentes) — mesmo quando o gap-analysis do livro didático não cobre isso diretamente
 - Revisão gramatical completa (concordância, regência, crase, digitação)
 - Detectar bugs de funcionalidade (JS quebrado tipo `plusDivs`/`openCity` inexistentes) e de conteúdo (explicações de questões práticas copiadas/trocadas de outro texto)
-- **Tempo mínimo de leitura: 20 minutos** (regra a partir do Texto13, texto11 ficou em 16 min e não precisa ser refeito). Cálculo do site: `Math.max(1, Math.round(palavras / 180))` sobre o texto de `.texto-content-inner` (ver `js/texto-painel.js`). Ou seja, mínimo de ~3.510 palavras no conteúdo. Se o texto original for curto, expandir com conteúdo real e verificado (subtemas correlatos, dados atuais, comparações, exemplos) — nunca enrolação
+- **Tempo mínimo de leitura: 25 minutos** (atualizado; regra anterior de 20 min valia a partir do Texto13, texto11 do 3º ano ficou em 16 min e não precisa ser refeito). Cálculo do site: `Math.max(1, Math.round(palavras / 180))` sobre o texto de `.texto-content-inner` (ver `js/texto-painel.js`). Ou seja, mínimo de ~4.410 palavras no conteúdo. Se o texto original for curto, expandir com conteúdo real e verificado (subtemas correlatos, dados atuais, comparações, exemplos) — nunca enrolação
 - Validar balanço de divs (`grep -c '<div\b'` vs `</div>`) após cada edição
 - Verificar ao vivo no navegador (Claude in Chrome): revelar todos os `.topico`, checar modo claro e escuro, testar elementos interativos
 - **Sempre fazer o gancho com a aula seguinte**: no parágrafo de fechamento do conteúdo (antes da Ficha de Conceitos/Questões), incluir uma frase de transição citando o tema da próxima aula do módulo (conferir em `js/aulas-Nano.json` pelo id seguinte), para dar continuidade narrativa entre os textos
+- **Sugestões de Livros** (padrão a partir do Texto26): bloco "📚 Sugestões de Livros" logo depois de "Referências Bibliográficas" dentro de `#final-da-aula`, com 2-3 obras de literatura (romance, conto) que dialoguem com o tema da aula. Mecanismo: cadastrar os livros em `js/livros.json` (chave → autor, titulo, ano, cor, tag, relacao — o campo `relacao` explica em 1-2 frases por que aquele livro conversa com o conteúdo da aula) e referenciar as chaves no array `livros` da aula em `js/aulas-Nano.json`. JS (`carregarLivros`/`filtrarLivrosAula`/`renderizarCardLivro`/`injetarLivrosAula`) já implementado em `estilos/jstextos-padrao.js`, espelhando o padrão de bibliografias/links. HTML necessário no `#final-da-aula` de cada texto: `<div class="w3-container w3-padding-64 secao-livros-sugeridos"><h3>📚 Sugestões de Livros</h3><div id="livros-gerados"></div></div>` (a seção se auto-oculta via JS se a aula não tiver `livros` cadastrado)
 
 ## Notion
 Roadmap: https://app.notion.com/p/4773afa5a43947e2988d7bce25f6a2e6
@@ -124,6 +125,13 @@ Ao fazer a "Revisão completa" desta aula, consultar o livro Moderna Plus Geogra
 - Emigração de brasileiros desde os anos 1980 ("década perdida"): 2022 — 1,9 milhão nos EUA, 360 mil em Portugal, 254 mil no Paraguai, 220 mil no Reino Unido, 207 mil no Japão — inversão do fluxo migratório histórico
 - Fluxos sul-sul (Nepo Unicamp), imigrantes "trabalhadores do conhecimento", tendência de imigrantes se instalarem em cidades médias do interior de SP (não só metrópoles)
 - Tabela das 10 principais nacionalidades de imigrantes no Brasil 2011-2020 (Venezuela, Haiti, Bolívia, Colômbia, EUA, China, Argentina, Cuba, França, Peru)
+
+## Cards Pixel Art — Ideia de Visual
+Estilo aprovado: grade de cards pixel art (2×3 ou 3×2), fundo colorido por tema, título em fonte pixel bold, ilustração pixel no topo, bullet points com texto limpo e rodapé com fonte/crédito.
+Referência salva em: `/fotoIndex/` (card Política Externa EUA — Trump 2.0)
+Geração via IA (imagem) ou HTML/CSS puro pixel-art.
+
+Usos planejados no Duvid (ver detalhes na seção de ideias abaixo).
 
 ## Backlog — Features Futuras (adicionar ao Notion)
 

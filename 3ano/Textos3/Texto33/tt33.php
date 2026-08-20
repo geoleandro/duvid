@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 33 - O Dinamismo da China</title>
 
@@ -93,7 +94,7 @@
 
             <h2>Olhe ao seu redor: China está em tudo</h2>
 
-            <p><span class="primeiraLetra">P</span>egue qualquer objeto perto de você. Com grande probabilidade, está escrito "Made in China" ou tem peças fabricadas lá. O celular, as roupas, os eletrodomésticos, os brinquedos, os móveis. A China é a fábrica do mundo. Mas nos últimos anos, passou a ser também laboratório de inteligência artificial, potência espacial e investidora nos quatro cantos do planeta.</p>
+            <p><span class="primeiraLetra">P</span>egue qualquer objeto perto de você. Com grande probabilidade, está escrito "Made in China" ou tem peças fabricadas lá. O celular, as roupas, os eletrodomésticos, os brinquedos, os móveis. A China é a fábrica do mundo: sozinha, responde por cerca de 30% de toda a produção industrial do planeta, mais do que EUA, Japão e Alemanha somados. Mas nos últimos anos, passou a ser também laboratório de inteligência artificial, potência espacial e investidora nos quatro cantos do planeta, além de já ser, pelo critério de paridade de poder de compra, a maior economia do mundo, à frente dos próprios Estados Unidos.</p>
 
             <p>Antes de começar, responda no caderno:</p>
 
@@ -117,6 +118,8 @@
 
             <p><span class="primeiraLetra">C</span>omo a China conseguiu crescer a taxas de 8 a 10% ao ano por quatro décadas seguidas, tirar centenas de milhões de pessoas da pobreza e se tornar potência industrial, tecnológica e militar, mantendo ao mesmo tempo um sistema político de partido único com controle rígido da informação e da dissidência? O modelo chinês é um caso único na história, e entendê-lo exige abandonar as categorias simples de "capitalismo" e "socialismo".</p>
 
+            <p>Essa mesma pergunta divide economistas e cientistas políticos até hoje: uns veem no caso chinês a prova de que um Estado forte e centralizado é mais eficiente para tirar um país da pobreza do que a democracia liberal; outros apontam que o crescimento chinês teve um preço alto em direitos individuais, liberdade de expressão e vigilância da população, e que esse preço pode se tornar ainda mais visível conforme a economia desacelera e o país precisa administrar problemas como a crise imobiliária e o envelhecimento populacional sem abrir mão do controle político.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -125,7 +128,7 @@
         <!-- BLOCO 4: ASCENSÃO ECONÔMICA -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A ascensão econômica da China</h2>
 
             <p><span class="primeiraLetra">E</span>m 1978, a China era um país empobrecido, saindo do caos da Revolução Cultural de Mao Tsé-tung. O PIB per capita era inferior ao de países subsaarianos. Naquele ano, Deng Xiaoping assumiu o poder e implementou as "Reformas e Abertura": manteve o controle político do Partido Comunista, mas abriu a economia para o mercado e para o investimento estrangeiro. Criou as <span class="termo" data-palavra="Zonas Econômicas Especiais (ZEE)" data-definicao="Regiões designadas pelo governo chinês onde as regras econômicas são mais liberais que no restante do país: impostos reduzidos, facilidade para investimento estrangeiro, menos regulação trabalhista. As primeiras ZEE foram criadas em 1980 em Shenzhen (perto de Hong Kong), Zhuhai, Shantou e Xiamen. Shenzhen, que em 1979 era uma pequena cidade pesqueira de 30 mil habitantes, tornou-se uma metrópole de 17 milhões e o principal hub tecnológico da China, sede de empresas como Huawei, Tencent e BYD. O modelo foi gradualmente expandido para outras regiões do país.">Zonas Econômicas Especiais</span>, onde o investimento estrangeiro era bem-vindo com impostos reduzidos e trabalhadores baratos.</p>
@@ -134,7 +137,13 @@
 
             <p>O modelo é chamado de <span class="termo" data-palavra="Capitalismo de Estado chinês" data-definicao="Sistema econômico em que o Estado é o principal ator econômico, controlando diretamente empresas estratégicas (bancos, energia, telecomunicações) e dirigindo o investimento privado por meio de planos quinquenais e políticas industriais. Difere do socialismo tradicional porque permite propriedade privada e mercados, e difere do capitalismo liberal porque o Estado não é neutro: ele seleciona setores vencedores, protege empresas nacionais e usa o mercado como ferramenta de objetivos políticos. O Partido Comunista Chinês tem células internas nas principais empresas privadas, incluindo startups de tecnologia.">capitalismo de Estado</span>: o Estado controla os setores estratégicos (bancos, energia, telecomunicações, defesa) e dirige o investimento privado por meio de planos quinquenais. O Partido Comunista tem células em todas as grandes empresas, incluindo empresas privadas de tecnologia como Alibaba e Tencent. O mercado é real, mas o Estado define as regras do jogo e pode mudar essas regras a qualquer momento.</p>
 
+            <p>Esse arranjo político tem nome oficial: <span class="termo" data-palavra="Pensamento de Xi Jinping / Socialismo com características chinesas para uma nova era" data-definicao="Doutrina oficial do Partido Comunista Chinês, formulada por Xi Jinping e incorporada ao Estatuto do Partido no 19º Congresso, em outubro de 2017, e depois escrita na Constituição da China em março de 2018. Defende que o país constrói seu próprio caminho ao socialismo, unindo controle político do Partido, economia dirigida pelo Estado e tradição cultural chinesa, em vez de copiar o modelo soviético ou o capitalismo ocidental. Na mesma reforma constitucional de 2018, o Congresso Nacional do Povo aboliu o limite de dois mandatos para o cargo de presidente, o que permite que Xi Jinping permaneça no poder por tempo indeterminado.">"socialismo com características chinesas para uma nova era"</span>. A doutrina, também chamada de Pensamento de Xi Jinping, entrou no Estatuto do Partido em 2017 e foi escrita na Constituição chinesa em 2018, no mesmo momento em que o Congresso Nacional do Povo aboliu o limite de dois mandatos presidenciais que existia desde os anos 1980. Enquanto democracias liberais trocam de governo a cada quatro ou cinco anos, a China aposta na continuidade de um mesmo projeto político por décadas, o que garante planejamento de longo prazo para empresas e investidores, mas também concentra poder e reduz os mecanismos de controle sobre erros de quem governa.</p>
+
             </div>
+
+            <p>Mas o mesmo modelo que produziu décadas de crescimento acelerado também gerou distorções profundas. Desde 2021, a China enfrenta uma <span class="termo" data-palavra="Crise imobiliária chinesa" data-definicao="Crise no setor de construção civil chinês, que responde por cerca de um quarto do PIB do país e concentra cerca de 70% da riqueza das famílias chinesas, tradicionalmente investida em imóveis. Iniciada com o calote da incorporadora Evergrande em 2021 e espalhada para outras grandes construtoras (Country Garden, Sunac, Kaisa), a crise deixou dezenas de milhões de imóveis vazios pelo país e provocou queda contínua de preços, ameaçando a poupança de milhões de famílias que compraram apartamentos como investimento.">crise imobiliária</span> que já dura mais de meia década: incorporadoras gigantes como a Evergrande deram calote em suas dívidas, deixando o país com dezenas de milhões de imóveis vazios e os preços em queda na maioria das grandes cidades. Como o setor imobiliário concentra boa parte da riqueza das famílias chinesas, a crise corrói a confiança do consumidor e freia o consumo interno, um dos pilares que o governo tenta fortalecer para depender menos das exportações.</p>
+
+            <p>Ao mesmo tempo, a China enfrenta um <span class="termo" data-palavra="Envelhecimento populacional chinês" data-definicao="Fenômeno demográfico em que a população da China encolhe e envelhece rapidamente. A população total caiu pelo quarto ano seguido em 2025, e a taxa de natalidade atingiu o menor nível desde a fundação da República Popular em 1949. Hoje cerca de 23% dos chineses têm mais de 60 anos, proporção que deve chegar a 400 milhões de idosos até 2035. É consequência tardia da antiga política do filho único (1980-2015) somada à urbanização e ao alto custo de criar filhos nas cidades, e ameaça reduzir a força de trabalho disponível para sustentar o crescimento econômico nas próximas décadas.">envelhecimento populacional</span> acelerado: a população caiu pelo quarto ano seguido em 2025, com o menor número de nascimentos desde a fundação da República Popular, em 1949, resultado tardio da antiga política do filho único somada ao alto custo de vida nas cidades. Menos jovens entrando na força de trabalho e mais idosos para sustentar é uma equação que preocupa economistas: a China corre o risco de "envelhecer antes de enriquecer", ao contrário do que aconteceu com países como Japão e Coreia do Sul, que já eram ricos quando suas populações começaram a encolher.</p>
 
             <div class="w3-margin w3-margin-top">
                 <img src="tt33f01.png" alt="Gráfico de crescimento do PIB chinês de 1978 a 2023 e comparação com EUA e outros países"
@@ -157,7 +166,27 @@
 
             <p>O projeto tem dois objetivos principais: criar mercados para as exportações e empresas chinesas, e garantir acesso a recursos naturais que a China precisa (petróleo, minerais, alimentos) mas não tem em quantidade suficiente. Para os países receptores, os investimentos podem acelerar o desenvolvimento, mas os críticos alertam para o "ciclo da dívida": países pobres tomam empréstimos que não conseguem pagar e acabam cedendo concessões estratégicas à China.</p>
 
-            <p><strong>A China no Brasil:</strong> a China é o principal parceiro comercial do Brasil desde 2009. Compra soja, minério de ferro, petróleo e carne. Empresas chinesas controlam parte significativa da transmissão de energia elétrica e da distribuição de gás no Brasil. A BYD, montadora elétrica chinesa, inaugurou uma fábrica no interior da Bahia. Essa relação traz investimentos e mercado para commodities brasileiras, mas também reforça o perfil exportador de matéria-prima do Brasil, tornando a pauta comercial semelhante à do período colonial.</p>
+            <p><strong>A China no Brasil:</strong> a China é o principal parceiro comercial do Brasil desde 2009, absorvendo cerca de 30% de tudo o que o país exporta. Compra soja, minério de ferro, petróleo e carne. Empresas chinesas controlam parte significativa da transmissão de energia elétrica e da distribuição de gás no Brasil, incluindo redes antes operadas por estatais brasileiras privatizadas. A BYD, montadora elétrica chinesa, comprou a antiga fábrica da Ford em Camaçari, na Bahia, e a transformou em seu maior complexo industrial fora da China, produzindo carros elétricos e híbridos para o mercado sul-americano.</p>
+
+            <p>Essa relação traz investimentos, tecnologia e um mercado garantido para commodities brasileiras, mas também reforça um perfil exportador de matéria-prima que lembra o padrão colonial: o Brasil vende produtos primários de baixo valor agregado e importa manufaturados de maior valor, incluindo peças eletrônicas, máquinas e agora carros elétricos completos. É uma dependência que se parece, em estrutura, com a antiga relação entre colônia e metrópole, mesmo sem colonização política formal.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5B: HIDROGRAFIA -->
+        <div class="topico">
+
+            <h2>A hidrografia chinesa: dois rios, um país dividido em norte e sul</h2>
+
+            <p><span class="primeiraLetra">A</span> China dinâmica das fábricas e da Nova Rota da Seda depende, na base, de um problema físico antigo: a água do país está no lugar errado. Cerca de 80% dos recursos hídricos chineses ficam na bacia do <span class="termo" data-palavra="Rio Yangtzé (Chang Jiang)" data-definicao="O maior rio da China e da Ásia, com cerca de 6.300 km de extensão, nasce no planalto do Tibete e deságua no Mar da China Oriental, perto de Xangai. Corta o centro-sul do país e é a principal via de navegação interna chinesa, além de concentrar a maior parte da água doce disponível no território.">Rio Yangtzé</span>, no centro-sul do país, enquanto metade da população chinesa e dois terços das terras agricultáveis estão no norte, na bacia do <span class="termo" data-palavra="Rio Amarelo (Huang He)" data-definicao="Segundo maior rio da China, com cerca de 5.400 km, nasce no planalto do Tibete e deságua no Mar de Bohai, no norte do país. É considerado o berço da civilização chinesa, mas historicamente sofre com cheias violentas causadas pelo acúmulo de sedimentos amarelados (o 'lodo amarelo' que dá nome ao rio) no leito, o que já causou algumas das maiores enchentes da história humana. Por isso é apelidado de 'Tristeza da China'.">Rio Amarelo</span>, que tem vazão bem menor e sofre com secas recorrentes.</p>
+
+            <p>O Yangtzé nasce no planalto do Tibete e atravessa o país até Xangai, sendo a principal via navegável da China e o eixo da região mais industrializada do país. Nele foi construída a <span class="termo" data-palavra="Represa das Três Gargantas" data-definicao="Maior usina hidrelétrica do mundo em capacidade instalada, construída no Rio Yangtzé e concluída em 2012. Gera energia equivalente a mais de 20 usinas nucleares de médio porte e ajuda a controlar enchentes no baixo curso do rio, mas seu reservatório inundou cidades e terras agrícolas, deslocando cerca de 1,3 milhão de pessoas, e alterou o ecossistema do rio, ameaçando espécies como o golfinho-do-rio-chinês (considerado funcionalmente extinto).">Represa das Três Gargantas</span>, maior usina hidrelétrica do planeta, capaz de gerar tanta energia quanto mais de 20 usinas nucleares. A obra controla enchentes e abastece de eletricidade limpa boa parte do país, mas inundou vales inteiros, deslocou cerca de 1,3 milhão de pessoas e prejudicou espécies fluviais. É um símbolo perfeito do modelo chinês: resultado gigantesco, decidido de cima para baixo pelo Estado, com custo humano e ambiental que a população afetada não teve poder de negociar.</p>
+
+            <p>Já o Rio Amarelo, berço da civilização chinesa há mais de quatro mil anos, é apelidado de "Tristeza da China" pelas enchentes que historicamente devastaram vilarejos inteiros no norte do país. Hoje o problema se inverteu parcialmente: o crescimento das cidades e da agricultura irrigada no norte fez a demanda por água superar a oferta, e trechos do rio já ficaram secos por semanas em anos de seca severa.</p>
+
+            <p>Para resolver esse desequilíbrio, o governo chinês construiu o <span class="termo" data-palavra="Projeto de Transferência de Águas Sul-Norte" data-definicao="Megaobra de engenharia hídrica lançada em 2002 e parcialmente operacional desde 2014, que transporta água da bacia do Rio Yangtzé, no sul, até as regiões áridas do norte da China, por meio de três grandes canais (Leste, Central e Oeste). Já transferiu mais de 76 bilhões de metros cúbicos de água e beneficia mais de 185 milhões de pessoas, com meta de mover quase 45 bilhões de metros cúbicos por ano quando estiver totalmente concluído. É considerado um dos maiores projetos de engenharia civil da história.">Projeto de Transferência de Águas Sul-Norte</span>, uma rede de canais que já moveu mais de 76 bilhões de metros cúbicos de água do Yangtzé para o norte, beneficiando mais de 185 milhões de pessoas. A obra é dividida em três grandes rotas, a Leste, a Central e a Oeste, cada uma ligando trechos diferentes do Yangtzé a regiões do norte, incluindo Pequim e Tianjin, e quando estiver totalmente concluída deve mover quase 45 bilhões de metros cúbicos de água por ano. É outro exemplo do mesmo padrão: um Estado capaz de mobilizar recursos e mão de obra em escala continental para resolver, em décadas, um problema que a natureza levou milênios para criar.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -181,13 +210,13 @@
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>O mercado funciona sem interferencia do Estado</span></label>
+                    <label for="p1c" class="card-opcao"><span>O mercado funciona sem interferência do Estado</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'A China tem mercados e propriedade privada, mas o Partido define setores estratégicos e intervém quando quer — o Estado é o árbitro das regras.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'A China tem mercados e propriedade privada, mas o Partido define setores estratégicos e intervém quando quer: o Estado é o árbitro das regras.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -202,16 +231,18 @@
         <!-- BLOCO 7: POTÊNCIA TECNOLÓGICA -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>A China como potência tecnológica e geopolítica</h2>
 
             <p><span class="primeiraLetra">A</span> China não é mais apenas "a fábrica do mundo". Nas últimas duas décadas, tornou-se também uma potência de inovação tecnológica. Empresas como Huawei (telecomunicações e chips), BYD (carros elétricos), DJI (drones), Alibaba e Tencent (plataformas digitais) competem globalmente com empresas americanas e europeias, muitas vezes com vantagem.</p>
 
-            <p>Na corrida pela inteligência artificial, a China é o segundo maior investidor mundial, atrás apenas dos EUA. Em energia solar e carros elétricos, a China domina: produz mais de 80% dos painéis solares do mundo e exporta mais carros elétricos do que qualquer outro país. Isso coloca a China na vanguarda das tecnologias que vão definir a transição energética global.</p>
+            <p>Na corrida pela inteligência artificial, a China é o segundo maior investidor mundial, atrás apenas dos EUA. Em 2025, a startup chinesa DeepSeek lançou um modelo de IA que atingiu desempenho comparável ao dos líderes americanos usando muito menos poder computacional, provocando queda nas ações de empresas de tecnologia dos EUA e mostrando que as restrições americanas à venda de chips avançados para a China não impediram o país de inovar: apenas o forçaram a fazer mais com menos. Em energia solar e carros elétricos, a China domina: produz mais de 80% dos painéis solares do mundo e exporta mais carros elétricos do que qualquer outro país. Isso coloca a China na vanguarda das tecnologias que vão definir a transição energética global.</p>
 
             <p>Militarmente, a China tem o maior exército do mundo em número de soldados, o segundo maior orçamento de defesa e um programa espacial avançado: pousou sondas na Lua e em Marte, e tem sua própria estação espacial em órbita. A disputa com os EUA pelo domínio dos chips semicondutores (essenciais para IA, armas e eletrônicos) tornou-se um dos principais fronts da rivalidade sino-americana.</p>
 
-            <p><strong>A tensão com Taiwan:</strong> Taiwan (Formosa) é uma ilha de 23 milhões de habitantes que a China considera parte de seu território ("Uma China"). Governada desde 1949 por um governo separado após a guerra civil chinesa, Taiwan tem uma democracia vibrante e é o maior produtor mundial de chips semicondutores avançados (empresa TSMC). Uma invasão chinesa de Taiwan interromperia 60% do fornecimento mundial de chips. EUA e China estão em tensão crescente sobre o futuro da ilha.</p>
+            <p><strong>A tensão com Taiwan:</strong> Taiwan (Formosa) é uma ilha de 23 milhões de habitantes que a China considera parte de seu território ("Uma China"). Governada desde 1949 por um governo separado após a guerra civil chinesa, Taiwan tem uma democracia vibrante e é o maior produtor mundial de chips semicondutores avançados (empresa TSMC). Uma invasão chinesa de Taiwan interromperia 60% do fornecimento mundial de chips. EUA e China estão em tensão crescente sobre o futuro da ilha: incursões de aviões e navios chineses no estreito de Taiwan se tornaram quase diárias, e analistas internacionais já apontam uma possível invasão a partir de 2027 como cenário de risco real.</p>
+
+            <p>Ao mesmo tempo, EUA e China vivem um vaivém de guerra comercial e diplomacia direta. Em 2025 e 2026, os dois países aplicaram e depois recuaram tarifas pesadas um sobre o outro (chegaram a 145% sobre produtos chineses em abril de 2026, antes de uma trégua reduzir o percentual), assinaram uma trégua comercial de um ano na Coreia do Sul em outubro de 2025 e Xi Jinping recebeu Donald Trump em Pequim em maio de 2026, quando alertou que um desacordo sobre Taiwan poderia levar a um conflito direto. Em agosto de 2026, depois de nova visita de Trump a Pequim, os dois governos avançavam para reduzir ainda mais as tarifas por meio de um conselho de comércio bilateral, com a China retomando compras de aviões Boeing, sinal de que a rivalidade convive com dependência econômica mútua.</p>
 
             </div>
 
@@ -229,21 +260,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>Tem o maior porto do Pacifico</span></label>
+                    <label for="p2a" class="card-opcao"><span>Tem o maior porto do Pacífico</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
-                    <label for="p2b" class="card-opcao"><span>Produz 60% dos chips avancados mundiais</span></label>
+                    <label for="p2b" class="card-opcao"><span>Produz 60% dos chips avançados mundiais</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
-                    <label for="p2c" class="card-opcao"><span>E a maior economia da Asia</span></label>
+                    <label for="p2c" class="card-opcao"><span>É a maior economia da Ásia</span></label>
                 </div>
             </div>
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A TSMC produz os chips mais avançados do mundo — usados em smartphones, armas e IA. Uma interrupção seria catastrófica: Taiwan é linha vermelha dos EUA.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A TSMC produz os chips mais avançados do mundo, usados em smartphones, armas e IA. Uma interrupção seria catastrófica: Taiwan é linha vermelha dos EUA.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -261,16 +292,16 @@
             <div class="duvid-bloco-apoio w3-margin-top">
                 <p class="w3-small w3-text-grey">TEXTO DE APOIO</p>
                 <blockquote>
-                    <p>"A China não seguiu o receituário neoliberal que os países ocidentais e o FMI prescreveram para os países em desenvolvimento: não privatizou tudo, não abriu o mercado financeiro precipitadamente, não removeu os controles de capital. Em vez disso, usou o Estado como instrumento ativo de industrialização e desenvolvimento tecnológico. O resultado foi o maior crescimento econômico sustentado da historia humana. Isso não significa que o modelo é replicável nem que é justo, mas significa que o debate sobre desenvolvimento precisa ser muito mais aberto do que tem sido."</p>
+                    <p>"A China não seguiu o receituário neoliberal que os países ocidentais e o FMI prescreveram para os países em desenvolvimento: não privatizou tudo, não abriu o mercado financeiro precipitadamente, não removeu os controles de capital. Em vez disso, usou o Estado como instrumento ativo de industrialização e desenvolvimento tecnológico. O resultado foi o maior crescimento econômico sustentado da história humana. Isso não significa que o modelo é replicável nem que é justo, mas significa que o debate sobre desenvolvimento precisa ser muito mais aberto do que tem sido."</p>
                 </blockquote>
                 <p class="w3-small">CHANG, Ha-Joon. <em>Chutando a Escada: A Estratégia do Desenvolvimento em Perspectiva Histórica.</em> Unesp, 2004, p. 67.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto de Chang e no que você estudou, responda:</strong></p>
 
-                <p><strong>1.</strong> Chang compara o modelo chinês ao "receituário neoliberal" que o FMI prescreve. Quais são as principais diferenças entre os dois modelos? O que a China fez diferente que paises africanos e latino-americanos foram aconselhados a não fazer?</p>
+                <p><strong>1.</strong> Chang compara o modelo chinês ao "receituário neoliberal" que o FMI prescreve. Quais são as principais diferenças entre os dois modelos? O que a China fez diferente que países africanos e latino-americanos foram aconselhados a não fazer?</p>
 
                 <p><strong>2.</strong> O autor diz que o modelo chinês "não significa que é replicável nem que é justo". Quais aspectos do crescimento chinês têm custos humanos (direitos trabalhistas, controle político, desigualdade regional)? Seria possível ter o crescimento sem esses custos?</p>
 
@@ -284,13 +315,13 @@
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
-            <p><span class="primeiraLetra">A</span>ntes parecia que a China era apenas uma imensa fábrica de produtos baratos governada por comunistas. Agora você ve que ela e um modelo economico único no mundo, nem capitalismo liberal nem socialismo, que tirou 800 milhoes de pessoas da pobreza em 40 anos, que projeta poder global por meio de infraestrutura e tecnologia, e que a relação do Brasil com a China nos faz exportar matéria-prima como no tempo colonial.</p>
+            <p><span class="primeiraLetra">A</span>ntes parecia que a China era apenas uma imensa fábrica de produtos baratos governada por comunistas. Agora você vê que ela é um modelo econômico único no mundo, nem capitalismo liberal nem socialismo, que tirou 800 milhões de pessoas da pobreza em 40 anos, que projeta poder global por meio de infraestrutura e tecnologia, e que a relação do Brasil com a China nos faz exportar matéria-prima como no tempo colonial. Você também viu que esse mesmo Estado que planeja a economia em ciclos de cinco anos também redesenha rios inteiros, movendo água do sul para o norte em uma escala que nenhuma democracia jamais tentou.</p>
 
-            <p>A China nos desafia a pensar de forma mais complexa sobre desenvolvimento, democracia e poder global.</p>
+            <p>A China nos desafia a pensar de forma mais complexa sobre desenvolvimento, democracia e poder global. Mas o mesmo Estado forte que ergueu represas e tirou milhões da pobreza também sufoca minorias e regiões inteiras que resistem ao controle de Pequim: é isso que a próxima aula vai mostrar, ao tratar dos conflitos internos da China em Tibete e Xinjiang, da relação tensa com Taiwan e Hong Kong, das disputas no Mar do Sul da China e da questão da Coreia do Norte.</p>
 
             </div>
 
@@ -298,7 +329,9 @@
             <ul>
                 <li>As Reformas e Abertura de Deng Xiaoping (1978)</li>
                 <li>Capitalismo de Estado e Zonas Econômicas Especiais</li>
+                <li>Socialismo com características chinesas e o Pensamento de Xi Jinping</li>
                 <li>Nova Rota da Seda e a China no mundo</li>
+                <li>Hidrografia chinesa: Yangtzé, Rio Amarelo e a Transferência de Águas Sul-Norte</li>
                 <li>China como potência tecnológica (IA, energia solar, chips)</li>
                 <li>A questão de Taiwan e a rivalidade sino-americana</li>
             </ul>
@@ -327,6 +360,11 @@
                 <strong>O que é o conflito dos chips entre EUA e China?</strong>
             </p>
             <p>Chips semicondutores são a base de toda tecnologia moderna: smartphones, computadores, carros, aviões, armas e inteligência artificial. Os chips mais avançados são produzidos principalmente na Taiwan (TSMC) e dependem de equipamentos holandeses (ASML) e de softwares americanos. Os EUA, temendo que a China use chips avançados para fins militares e para ultrapassá-los na corrida pela IA, impôs restrições à venda de chips e de equipamentos para fabricação de chips para empresas chinesas desde 2022. A China está tentando construir sua própria cadeia de chips, mas ainda está anos atrás dos líderes.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>Por que a água é um problema geográfico tão grande na China?</strong>
+            </p>
+            <p>Porque a água chinesa está distribuída de forma muito desigual: cerca de 80% dos recursos hídricos do país ficam na bacia do Rio Yangtzé, no sul, enquanto metade da população e dois terços das terras agricultáveis estão no norte, na bacia do Rio Amarelo, região historicamente mais seca. Para corrigir esse desequilíbrio, o governo construiu represas como a das Três Gargantas e o Projeto de Transferência de Águas Sul-Norte, uma rede de canais que já moveu mais de 76 bilhões de metros cúbicos de água do sul para o norte. São obras que resolvem um problema real, mas que também deslocaram milhões de pessoas e mudaram ecossistemas inteiros, um custo que raramente aparece nas manchetes sobre o "milagre econômico" chinês.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
@@ -376,7 +414,7 @@
 
             <h3>2. O que são as Zonas Econômicas Especiais? Qual foi o papel de Shenzhen nesse processo?</h3>
 
-            <h3>3. O que é o "capitalismo de Estado" chinês? Como ele difere do capitalismo liberal e do socialismo tradicional?</h3>
+            <h3>3. O que é o "capitalismo de Estado" chinês? Como ele difere do capitalismo liberal e do socialismo tradicional? Esse mesmo padrão de controle estatal aparece também na gestão de recursos naturais: explique como o Projeto de Transferência de Águas Sul-Norte resolve o desequilíbrio hídrico entre o sul e o norte do país.</h3>
 
             <h3>4. O que é a Nova Rota da Seda? Quais são seus objetivos declarados e quais são as críticas ao projeto?</h3>
 
@@ -384,13 +422,13 @@
 
             <h3>6. Por que Taiwan é estrategicamente importante para a geopolítica mundial? O que é a TSMC?</h3>
 
-            <h3>7. (ANALÍTICA) A China tirou 800 milhões de pessoas da pobreza em 40 anos sem democracia liberal. O que isso revela sobre a relação entre sistema político e desenvolvimento econômico? Significa que a democracia é dispensável para o desenvolvimento?</h3>
+            <h3>7. A China tirou 800 milhões de pessoas da pobreza em 40 anos sem democracia liberal. O que isso revela sobre a relação entre sistema político e desenvolvimento econômico? Significa que a democracia é dispensável para o desenvolvimento?</h3>
 
-            <h3>8. (ANALÍTICA) O Brasil exporta soja e minério para a China e importa manufaturados. Qual é a semelhança dessa relação com o que o Brasil fazia com Portugal na época colonial? Quais são os riscos e os benefícios dessa relação para o Brasil?</h3>
+            <h3>8. O Brasil exporta soja e minério para a China e importa manufaturados. Qual é a semelhança dessa relação com o que o Brasil fazia com Portugal na época colonial? Quais são os riscos e os benefícios dessa relação para o Brasil?</h3>
 
             <h3>9. Por que os EUA impôs restrições à venda de chips semicondutores para a China? O que essa disputa revela sobre a rivalidade sino-americana?</h3>
 
-            <h3>10. (ANALÍTICA) O "ciclo da dívida" da Nova Rota da Seda é uma forma de neocolonialismo? Compare os investimentos chineses em países africanos e latino-americanos com os investimentos europeus durante o colonialismo clássico: quais são as semelhanças e as diferenças?</h3>
+            <h3>10. O "ciclo da dívida" da Nova Rota da Seda é uma forma de neocolonialismo? Compare os investimentos chineses em países africanos e latino-americanos com os investimentos europeus durante o colonialismo clássico: quais são as semelhanças e as diferenças?</h3>
 
             </div>
 
@@ -411,7 +449,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} é central para entender o mundo do século XXI. Continue estudando!',
+        mensagem: 'o tema O Dinamismo da China é central para entender o mundo do século XXI. Continue estudando!',
         pontos: 40
     });
 
@@ -444,6 +482,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

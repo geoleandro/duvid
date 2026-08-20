@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Questão ambiental I: impacto ambiental, conservacionismo, preservacionismo e ecossocialismo">
+    <meta property="og:title" content="Texto 32 - Questão Ambiental I">
+    <meta property="og:description" content="Impacto ambiental, conservacionismo vs preservacionismo e ecossocialismo">
+    <meta property="og:image" content="">
+
+    <link rel="stylesheet" href="/estilos/index-estilo.css">
+    <link rel="stylesheet" href="/estilos/w3.css">
+    <link rel="stylesheet" href="/estilos/navbar.css">
+    <link rel="stylesheet" href="/estilos/rpg-sistema.css">
+    <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216"
+        crossorigin="anonymous"></script>
+
+    <script src="/js/duvid-cache.js" defer></script>
+    <script src="/js/duvid-db.js" defer></script>
+    <script src="/js/duvid-audio.js" defer></script>
+    <script src="/js/duvid-ui.js" defer></script>
+    <script src="/js/duvid-core.js" defer></script>
+    <script src="/estilos/jstextos-padrao.js" defer></script>
+    <script src="/js/abrirmenu.js" defer></script>
+    <script src="/js/carregar.js" defer></script>
+    <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
+
+    <title>1º ano - Texto 32 - Questão Ambiental I</title>
+
+</head>
+
+<body>
+
+    <?php include __DIR__ . '/../../../includes/header.php'; ?>
+    <div id="aviso-status" class="w3-margin-top"></div>
+
+    <main class="w3-content w3-white w3-card-2 w3-padding-large w3-margin-bottom" style="max-width:750px">
+
+
+        <!-- BLOCO 1: Abertura -->
+        <div class="topico">
+
+            <div class="w3-padding-top-48"></div>
+
+            <h1 id="h1"> </h1>
+
+            <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
+                <div class="w3-row">
+                    <div class="w3-col s2 m1 w3-center">
+                        <i class="fa fa-headphones w3-xxlarge w3-text-green"></i>
+                    </div>
+                    <div class="w3-col s10 m11 w3-padding-small">
+                        <b class="fontePixel">OUVIR AULA</b>
+                        <p class="w3-small w3-margin-0">Aperte o play e acompanhe a leitura com narração exclusiva.</p>
+                    </div>
+                </div>
+                <audio controls style="width:100%; margin-top: 10px;">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+            </div>
+
+            <div class="w3-container w3-padding-16">
+                <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
+                <p><strong>Objetivo:</strong> <span id="objetivo-aula">Compreender o conceito de impacto ambiental e seus tipos; distinguir conservacionismo de preservacionismo; entender a dimensão social da crise ambiental por meio do ecossocialismo e da justiça ambiental; analisar quem produz e quem sofre os impactos da degradação ambiental.</span></p>
+            </div>
+
+            <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
+                <i class="fa fa-play"></i> Iniciar Aula
+            </button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 2: Abertura pela realidade do aluno -->
+        <div class="topico">
+
+            <h2>O rastro que você deixa sem perceber</h2>
+
+            <p><span class="primeiraLetra">P</span>egue o celular que você está usando agora. Para fabricá-lo foram necessários lítio extraído de salares no Chile e na Bolívia, cobalto retirado de minas no Congo, estanho do sudeste asiático, cobre do Peru, além de plástico derivado de petróleo. A montagem provavelmente aconteceu na China. O transporte marítimo que trouxe o aparelho até o Brasil consumiu combustível fóssil. Quando você descartar esse celular, se for para o lixo comum, os metais pesados vão contaminar o solo e o lençol freático da região onde o aterro estiver.</p>
+
+            <p>Você não escolheu nenhum desses processos. Mas você é parte deles. Cada produto que consumimos carrega uma história de extração, produção e descarte que transforma ambientes, gera resíduos e desloca comunidades. Isso é o que a geografia chama de <span class="termo" data-palavra="Impacto Ambiental" data-definicao="Qualquer alteração no meio ambiente causada por atividade humana, podendo ser positiva ou negativa, direta ou indireta, reversível ou irreversível, local ou global. O licenciamento ambiental exige a avaliação dos impactos antes do início de grandes obras ou atividades.">impacto ambiental</span>: a alteração que as atividades humanas causam no ambiente, seja no solo, na água, no ar, nos ecossistemas ou nas comunidades que dependem deles.</p>
+
+            <p>O que muda quando você entende isso não é necessariamente a sua vida pessoal. É a sua leitura da realidade: você passa a ver conexões que antes eram invisíveis entre um produto nas prateleiras, um rio contaminado a milhares de quilômetros e uma decisão política tomada num gabinete.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 3: O problema -->
+        <div class="topico">
+
+            <p class="caixa">Antes de continuar: um conflito real.</p>
+
+            <div class="w3-panel w3-pale-green">
+                <p>Em 2019, o governo do Pará recebeu um pedido de licenciamento para construir uma usina hidrelétrica num trecho do rio Tapajós. Do lado a favor: geração de energia elétrica para milhões de pessoas, empregos na construção e impostos para os municípios. Do lado contra: inundação de terras indígenas Sawré Muybu, destruição de corredores ecológicos, deslocamento de comunidades ribeirinhas sem consulta prévia.</p>
+
+                <p><strong>Como você decide?</strong> Quem tem autoridade para tomar essa decisão? As pessoas que ganham energia ou as que perdem suas terras? O governo eleito democraticamente ou os povos cujo território nunca foi reconhecido oficialmente?</p>
+
+                <p>Escreva sua posição antes de continuar.</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 4: Conteúdo 1 - Impacto ambiental -->
+        <div class="topico">
+
+            <h2>O que é um impacto ambiental e como classificá-lo</h2>
+
+            <p>Todo impacto ambiental começa com uma intervenção: uma obra, uma atividade industrial, uma mudança no uso do solo, um derramamento, uma queimada. O que transforma uma intervenção em impacto é a alteração que ela provoca num sistema que antes estava em equilíbrio dinâmico. Esse equilíbrio não é estático: florestas crescem, rios mudam de curso, populações de animais flutuam. O problema começa quando a velocidade da intervenção humana supera a capacidade do sistema de se regenerar.</p>
+
+            <p>Os impactos ambientais são classificados de várias formas. Quanto à natureza, podem ser positivos (recuperação de uma área degradada, reflorestamento, criação de uma unidade de conservação) ou negativos (desmatamento, contaminação, erosão). Quanto à abrangência, podem ser locais (um posto de gasolina que contamina o solo do bairro), regionais (a poluição de uma bacia hidrográfica por agrotóxicos) ou globais (as emissões de gases do efeito estufa que alteram o clima do planeta inteiro). Quanto à reversibilidade, alguns impactos podem ser corrigidos com tempo e investimento. Outros são irreversíveis: a extinção de uma espécie, o esgotamento de um aquífero fóssil, a destruição de formações geológicas únicas.</p>
+
+            <h3>A capacidade de suporte do planeta</h3>
+
+            <p>Um conceito central para entender os limites dos impactos é a <span class="termo" data-palavra="Capacidade de Suporte" data-definicao="Quantidade máxima de organismos que um ambiente pode sustentar sem degradação permanente de seus recursos. Quando uma população ultrapassa a capacidade de suporte do ambiente, os recursos se esgotam e o sistema entra em colapso. No caso humano, envolve solo arável, água, energia e absorção de resíduos.">capacidade de suporte</span>: o máximo de uso que um ecossistema consegue sustentar sem se degradar permanentemente. Uma floresta pode suportar alguma extração de madeira. Se a extração superar a taxa de regeneração, a floresta começa a encolher. Um rio pode processar certa quantidade de poluentes por meio da autodepuração natural. Se a carga de poluição superar essa capacidade, o rio morre.</p>
+
+            <p>A humanidade, em escala global, ultrapassou a capacidade de suporte do planeta em vários indicadores. O Dia da Sobrecarga da Terra, calculado anualmente pela Global Footprint Network, marca o dia do ano em que a humanidade consumiu todos os recursos que o planeta consegue regenerar em 12 meses. Em 2023, esse dia caiu em 2 de agosto. Isso significa que, nos quatro meses restantes do ano, a humanidade viveu no "crédito" do planeta, consumindo estoques que não se renovam na mesma velocidade. Em 1970, o Dia da Sobrecarga era em dezembro. A aceleração do consumo nas últimas décadas comprimiu esse limite em quase quatro meses.</p>
+
+            <h3>A pegada ecológica</h3>
+
+            <p>Para medir o impacto individual e coletivo sobre o planeta, a biogeografia e a economia ecológica desenvolveram o conceito de <span class="termo" data-palavra="Pegada Ecológica" data-definicao="Medida da área de terra e água biologicamente produtiva necessária para produzir os recursos que uma pessoa, cidade ou país consome e para absorver os resíduos que gera. Expressa em hectares globais. Se todos vivessem como um americano médio, precisaríamos de 5 planetas.">pegada ecológica</span>. Ela calcula quantos hectares de terra produtiva são necessários para sustentar o estilo de vida de uma pessoa ou de um país. A pegada ecológica média de um brasileiro em 2023 era de 2,9 hectares globais por pessoa. A da Terra disponível por pessoa é de 1,6 hectare. Se todos os humanos vivessem como um americano médio, precisaríamos de pouco mais de cinco planetas. Como só temos um, a distribuição desigual do consumo é, em si, um problema ambiental e político.</p>
+
+            <div class="w3-margin">
+                <img src="tp32F01.png" alt="Dia da Sobrecarga da Terra - evolução histórica de 1970 a 2023" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Gráfico em breve</div>'">
+                <span class="w3-small w3-margin-left">Dia da Sobrecarga da Terra: evolução histórica. Quanto mais cedo no ano, maior o déficit ecológico da humanidade. Fonte: Global Footprint Network, 2023.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 5: Questão prática 1 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Dia da Sobrecarga da Terra caiu em 2 de agosto em 2023, contra dezembro em 1970. Qual é a interpretação geográfica correta desse dado?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao"><span>O planeta está se tornando mais produtivo, por isso regenera mais recursos em menos tempo</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao"><span>A humanidade está consumindo recursos naturais muito mais rápido do que o planeta consegue regenerá-los, e esse desequilíbrio aumentou significativamente desde 1970</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao"><span>As estações do ano estão se antecipando por causa das mudanças climáticas, deslocando o calendário de produtividade ecológica</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o Dia da Sobrecarga marca o ponto em que o consumo anual humano supera a capacidade de regeneração do planeta. Quando ele cai mais cedo no ano, significa que estamos esgotando os recursos mais rápido. De dezembro para agosto representa um aumento de quase 50% no déficit ecológico em pouco mais de 50 anos.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 6: Conteúdo 2 - Conservacionismo vs Preservacionismo -->
+        <div class="topico">
+
+            <h2>Proteger a natureza: mas como e para quem?</h2>
+
+            <p>Desde que a industrialização começou a transformar paisagens inteiras no século XIX, surgiram dois grandes modos de pensar a relação entre seres humanos e natureza. Eles parecem próximos, mas têm premissas radicalmente diferentes. Confundi-los é um dos erros mais comuns nas questões de vestibular, porque as palavras se parecem e o senso comum tende a tratá-las como sinônimos.</p>
+
+            <p>O <span class="termo" data-palavra="Preservacionismo" data-definicao="Corrente ambiental que defende a proteção integral da natureza, sem interferência ou uso humano. Parte da ideia de que a natureza tem valor em si mesma, independentemente de qualquer utilidade para os seres humanos. Parques nacionais sem extração de recursos são exemplos de políticas preservacionistas.">preservacionismo</span> defende que certas áreas da natureza devem ser completamente protegidas da interferência humana. A natureza, nessa visão, tem valor próprio, independentemente de qualquer uso econômico ou benefício humano. O filósofo e naturalista americano John Muir, que no final do século XIX lutou para criar os primeiros parques nacionais dos Estados Unidos, é o fundador do pensamento preservacionista. Para Muir, uma floresta virgem deveria existir porque era bela e sagrada, não porque produzia madeira ou regulava o clima.</p>
+
+            <p>O <span class="termo" data-palavra="Conservacionismo" data-definicao="Corrente ambiental que defende o uso racional e sustentável dos recursos naturais, combinando proteção ambiental com desenvolvimento econômico. A natureza tem valor tanto intrínseco quanto instrumental. Manejo florestal sustentável, pesca regulamentada e ecoturismo são práticas conservacionistas.">conservacionismo</span> parte de uma premissa diferente: a natureza deve ser protegida porque é útil para os seres humanos, mas seu uso pode e deve ser controlado para garantir que os recursos continuem disponíveis no futuro. Gifford Pinchot, contemporâneo de Muir e primeiro chefe do Serviço Florestal dos Estados Unidos, defendia o uso racional dos recursos: nem desperdício nem proteção absoluta, mas gestão científica para garantir o máximo de benefício para o máximo de pessoas pelo máximo de tempo.</p>
+
+            <h3>O debate no Brasil</h3>
+
+            <p>No Brasil, esse debate se manifesta concretamente nos conflitos sobre unidades de conservação. A legislação brasileira criou duas grandes categorias: as Unidades de Proteção Integral (como Parques Nacionais e Reservas Biológicas), onde o uso humano é praticamente proibido, espelhando o pensamento preservacionista; e as Unidades de Uso Sustentável (como Florestas Nacionais e Reservas Extrativistas), onde comunidades locais podem usar os recursos de forma regulamentada, espelhando o conservacionismo. O debate entre essas duas abordagens é, em última análise, um debate sobre quem pode estar na floresta: apenas cientistas e turistas, ou também comunidades tradicionais que vivem dela há gerações.</p>
+
+            <p>As Reservas Extrativistas, criadas no Brasil no final dos anos 1980 por pressão do movimento seringueiro liderado por Chico Mendes, são o exemplo mais importante de política conservacionista brasileira com base na justiça social. A morte de Chico Mendes, assassinado em 1988 por fazendeiros que se opunham às reservas, tornou-se símbolo global da violência contra defensores ambientais e povos da floresta. O Brasil ainda lidera o ranking global de assassinatos de ativistas ambientais, segundo a ONG Global Witness.</p>
+
+            <div class="w3-margin">
+                <img src="tp32F02.png" alt="Unidades de conservação no Brasil - proteção integral vs uso sustentável" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Mapa das unidades de conservação federais no Brasil: proteção integral (verde escuro) e uso sustentável (verde claro). Fonte: MMA/ICMBio, 2023.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 7: Questão prática 2 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Uma Reserva Extrativista permite que comunidades de seringueiros extraiam borracha da floresta de forma regulamentada, sem derrubar árvores. Um Parque Nacional na mesma região proíbe qualquer extração e as comunidades que viviam lá foram relocadas. Do ponto de vista das correntes ambientais, qual é a distinção correta?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Ambas são preservacionistas, pois os dois modelos proíbem o desmatamento</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>A Reserva Extrativista é conservacionista (uso sustentável com presença humana); o Parque Nacional é preservacionista (proteção integral sem uso econômico)</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>A Reserva Extrativista é preservacionista por proteger espécies; o Parque Nacional é conservacionista por permitir pesquisa científica</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'a distinção fundamental: preservacionismo protege a natureza da interferência humana (Parque Nacional). Conservacionismo permite o uso humano, desde que sustentável (Reserva Extrativista). Nas provas do ENEM, esse par de conceitos aparece frequentemente com exemplos práticos exatamente como esse.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <!-- BLOCO 8: Conteúdo 3 - Ecossocialismo e justiça ambiental -->
+        <div class="topico">
+
+            <h2>Quem destrói, quem sofre: a dimensão social da crise ambiental</h2>
+
+            <p>Tanto o preservacionismo quanto o conservacionismo, nas suas versões tradicionais, deixam uma pergunta sem resposta: e as pessoas que dependem da natureza para sobreviver, mas que não foram consultadas sobre como ela será gerida? Um parque nacional que expulsa comunidades indígenas para "preservar" a natureza está resolvendo o problema ambiental ou criando outro problema: o da injustiça social?</p>
+
+            <p>O <span class="termo" data-palavra="Ecossocialismo" data-definicao="Corrente política e ambiental que afirma que a crise ecológica é inseparável da crise social. Para os ecossocialistas, o capitalismo, baseado no crescimento ilimitado e na exploração de recursos, é a causa estrutural tanto da degradação ambiental quanto da desigualdade social. A solução exige transformar o sistema econômico, não apenas regulá-lo.">ecossocialismo</span> é uma corrente de pensamento que parte da premissa de que a crise ambiental não pode ser separada da crise social. Para os ecossocialistas, o capitalismo, baseado no crescimento econômico sem limites e na exploração máxima de recursos, é a causa estrutural tanto da degradação do planeta quanto da desigualdade entre ricos e pobres. Não basta criar parques ou exigir tecnologia mais limpa: enquanto o lucro privado for o motor central da economia, os recursos naturais continuarão sendo tratados como mercadoria a ser extraída até o esgotamento.</p>
+
+            <h3>Justiça ambiental: quem paga a conta?</h3>
+
+            <p>Uma das descobertas mais importantes da geografia ambiental é que os impactos não são distribuídos de forma igualitária. Os países que mais emitiram gases do efeito estufa ao longo da história são os países ricos e industrializados: Estados Unidos, Europa e Japão. Os países que mais sofrem os impactos do aquecimento global são os países pobres das regiões tropicais e as nações insulares do Pacífico, que emitiram uma fração mínima do carbono que está na atmosfera. Dentro de cada país, essa lógica se repete: bairros periféricos e favelas são construídas em áreas de risco porque o solo em zonas de encosta e planícies de inundação é o mais barato. As populações mais pobres e negras são as que vivem ao lado de aterros sanitários, indústrias poluentes e refinarias.</p>
+
+            <p>Esse padrão sistemático de concentração dos impactos sobre as populações mais vulneráveis tem um nome: <span class="termo" data-palavra="Justiça Ambiental" data-definicao="Princípio que afirma que nenhum grupo social, seja por raça, etnia, classe social ou localização geográfica, deve suportar de forma desproporcional os impactos negativos de decisões ambientais. O movimento por justiça ambiental surgiu nos EUA na década de 1980 para denunciar o racismo ambiental.">justiça ambiental</span>. O movimento por justiça ambiental surgiu nos Estados Unidos na década de 1980, quando pesquisas mostraram que aterros de resíduos tóxicos eram construídos sistematicamente em bairros de maioria negra e latina, independentemente da classe social dos moradores. No Brasil, o Movimento por Justiça nas Américas documentou que comunidades quilombolas, indígenas e periféricas são as mais afetadas por grandes obras de infraestrutura, mineração e agrotóxico, e as que têm menos acesso aos processos de licenciamento ambiental para defender seus interesses.</p>
+
+            <h3>O debate sobre crescimento econômico e limites planetários</h3>
+
+            <p>Um ponto central do ecossocialismo e de outras correntes críticas é a ideia de <span class="termo" data-palavra="Decrescimento" data-definicao="Proposta política e econômica que defende a redução planejada da produção e do consumo nos países ricos como condição para a sustentabilidade do planeta. Parte da premissa de que crescimento econômico ilimitado é incompatível com os limites biofísicos da Terra.">decrescimento</span>: a proposta de que países ricos deveriam reduzir deliberadamente sua produção e consumo para que o planeta possa se recuperar e para que os países pobres possam ter acesso a recursos suficientes. Essa ideia contradiz frontalmente a premissa básica do desenvolvimento capitalista, que é o crescimento contínuo do PIB como medida de progresso. O debate entre crescimento sustentável (crescer de forma mais eficiente e limpa) e decrescimento (crescer menos) é uma das disputas centrais da política ambiental global no século XXI.</p>
+
+            <div class="w3-margin">
+                <img src="tp32F03.png" alt="Racismo ambiental: distribuição de impactos por raça e renda" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
+                <span class="w3-small w3-margin-left">Localização de empreendimentos poluentes por renda e raça da vizinhança. Fonte: IBGE/Mapa de Conflitos Ambientais, Fiocruz.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.5: Texto-fonte -->
+        <div class="topico">
+
+            <h2>Leia e analise</h2>
+
+            <div class="duvid-bloco-apoio">
+                <div class="duvid-texto-citacao">
+                    "As comunidades negras, indígenas e de baixa renda são desproporcionalmente expostas à poluição do ar, à água contaminada e à falta de saneamento. Nos Estados Unidos, bairros de maioria negra têm 75% mais chances de ficarem próximos a instalações industriais poluentes do que bairros de maioria branca. No Brasil, o Mapa de Conflitos Ambientais do Fiocruz registrou 764 conflitos entre 2010 e 2023, dos quais mais de 60% envolviam comunidades indígenas, quilombolas ou populações de pescadores artesanais. Em todos esses casos, as comunidades afetadas raramente participaram das decisões que geraram o conflito."
+                </div>
+                <div class="duvid-fonte-texto">Adaptado de EPA (Environmental Protection Agency, EUA) e Fiocruz, Mapa de Conflitos Ambientais no Brasil, 2023</div>
+            </div>
+
+            <div class="w3-panel w3-pale-yellow w3-margin-top">
+                <p><strong>Responda no caderno antes de continuar:</strong></p>
+                <p>1. O texto apresenta dados sobre racismo ambiental nos EUA e no Brasil. Qual é o padrão comum que aparece nos dois países? O que ele revela sobre a relação entre desigualdade social e degradação ambiental?</p>
+                <p>2. "As comunidades afetadas raramente participaram das decisões que geraram o conflito." O que isso diz sobre o processo democrático de licenciamento ambiental no Brasil? Como isso se relaciona com o debate entre conservacionismo e preservacionismo?</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9: Síntese crítica -->
+        <div class="topico">
+
+            <h2>Voltando ao conflito do início</h2>
+
+            <p>Lembra do problema da usina no Tapajós? Agora você tem ferramentas para analisar esse conflito com mais precisão. A usina geraria impactos ambientais negativos, irreversíveis e de abrangência regional. As comunidades Sawré Muybu teriam seus territórios inundados sem consulta prévia, o que viola o princípio da justiça ambiental e o direito internacional. O argumento da geração de energia para milhões favorece quem já tem acesso à eletricidade; o custo é pago por quem já está na margem.</p>
+
+            <p>Essa assimetria, quem decide e quem paga o preço, é o coração do debate ambiental contemporâneo. O preservacionismo diz: a floresta não pode ser tocada. O conservacionismo diz: pode ser usada, mas com critério. O ecossocialismo diz: nenhuma dessas respostas chega ao problema real, que é quem controla os recursos e para benefício de quem as decisões são tomadas.</p>
+
+            <p>A crise ambiental do século XXI não vai ser resolvida apenas com tecnologia mais limpa ou com mais parques nacionais. Vai exigir redistribuição de poder: que as comunidades que vivem nesses territórios tenham voz real nas decisões sobre eles. O Brasil tem na Constituição de 1988, no capítulo de meio ambiente, um dos textos ambientais mais avançados do mundo. O problema não é a lei. É quem consegue fazer a lei ser cumprida.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 10: Infográfico -->
+        <div class="topico">
+
+            <h2>Infográfico: resumo da aula</h2>
+
+            <div class="w3-margin">
+                <img src="inforesumot32.png" alt="Infográfico resumo Questão Ambiental I" class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11: Ficha de conceitos -->
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.5: Perguntas que qualquer aluno teria -->
+        <div class="topico">
+
+            <h2 id="centralizado">Perguntas que você provavelmente tinha</h2>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Sustentável e sustentabilidade são a mesma coisa que conservacionismo?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Têm parentesco, mas não são sinônimos. Conservacionismo é uma corrente de pensamento sobre como proteger a natureza. Sustentabilidade é um princípio mais amplo que apareceu na política internacional a partir do Relatório Brundtland (1987) e significa suprir as necessidades do presente sem comprometer a capacidade das gerações futuras de suprir as suas. É possível ser conservacionista sem usar a palavra sustentabilidade, e possível falar em sustentabilidade sem questionar o modelo econômico como faz o ecossocialismo. No ENEM, os dois conceitos aparecem frequentemente em conjunto, mas pedem atenção ao contexto específico da questão.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Impacto ambiental pode ser positivo?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Pode. A definição técnica de impacto ambiental inclui qualquer alteração, positiva ou negativa. Reflorestar uma área degradada é um impacto ambiental positivo. Recuperar uma mata ciliar é um impacto positivo. Criar uma unidade de conservação é um impacto positivo. No licenciamento ambiental, o Estudo de Impacto Ambiental (EIA) deve listar tanto os impactos negativos quanto as medidas mitigatórias e compensatórias, que são as ações que tentam transformar o balanço líquido do empreendimento em algo menos prejudicial. Na prática, os impactos negativos quase sempre superam os positivos em grandes obras de infraestrutura.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>O que é "greenwashing"?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> É a prática de empresas ou governos usarem discurso e marketing ambiental para parecerem mais sustentáveis do que são, sem mudanças reais nas suas práticas. Um exemplo clássico: uma empresa que vende água mineral em garrafa plástica e coloca na embalagem "comprometida com o meio ambiente" porque financiou o plantio de 1.000 árvores, enquanto produz milhões de garrafas descartáveis por mês. O greenwashing é um problema sério porque ocupa o espaço do debate ambiental com imagem em vez de ação, e dificulta que consumidores e governos distinguam práticas genuínas de marketing.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 12: Produção final -->
+        <div class="topico">
+
+            <p class="caixa">Hora de usar o que você aprendeu.</p>
+
+            <div class="w3-panel w3-pale-yellow">
+                <h3>Mapeando um conflito ambiental</h3>
+                <p><strong>Atividade individual ou em dupla</strong></p>
+
+                <p>Pesquise um conflito ambiental real no Brasil ou no mundo (pode ser local, na sua cidade ou estado). Escreva um texto de 20 a 25 linhas respondendo:</p>
+                <p><strong>1.</strong> Quem são os atores do conflito? Quem quer o quê e por quê?</p>
+                <p><strong>2.</strong> Qual tipo de impacto ambiental está em jogo (positivo/negativo, reversível/irreversível, local/regional/global)?</p>
+                <p><strong>3.</strong> O conflito pode ser analisado pela perspectiva do preservacionismo, do conservacionismo ou do ecossocialismo? Qual se aplica melhor e por quê?</p>
+                <p><strong>4.</strong> Há uma questão de justiça ambiental envolvida? Quem sofre os impactos tem poder real de decisão?</p>
+                <p class="w3-small w3-text-grey">Fontes sugeridas: Mapa de Conflitos Ambientais do Fiocruz (mapadeconflitos.fiocruz.br), ISA (socioambiental.org), Global Witness (globalwitness.org).</p>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 13: Questões para o caderno -->
+        <div class="topico">
+
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para responder no caderno:</h2>
+
+                <h3>1. O que é impacto ambiental? Explique as principais formas de classificar um impacto (natureza, abrangência, reversibilidade).</h3>
+                <h3>2. O que é capacidade de suporte? Dê um exemplo de ecossistema que pode ter sua capacidade de suporte ultrapassada por atividade humana.</h3>
+                <h3>3. O que é pegada ecológica? Por que ela é um instrumento útil para comparar o consumo entre países?</h3>
+                <h3>4. Qual a diferença entre preservacionismo e conservacionismo? Dê um exemplo de política pública associada a cada corrente.</h3>
+                <h3>5. Quem foi Chico Mendes e qual foi sua contribuição para o debate ambiental brasileiro?</h3>
+                <h3>6. O que é ecossocialismo? Por que essa corrente afirma que a crise ambiental não pode ser separada da crise social?</h3>
+                <h3>7. O que é justiça ambiental? Dê um exemplo de injustiça ambiental no Brasil ou no mundo.</h3>
+                <h3>8. O que é racismo ambiental? Como ele se manifesta na localização de empreendimentos poluentes?</h3>
+                <h3>9. O que é decrescimento e por que esse conceito é controverso na política econômica contemporânea?</h3>
+                <h3>10. O que é greenwashing? Como ele interfere no debate ambiental real?</h3>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: TRANSIÇÃO FINAL -->
+        <div class="topico">
+            <h3>Antes de finalizar, vamos fazer as questões!</h3>
+            <button class="btnShow" onclick="
+    if(this.disabled) return;
+    this.disabled = true;
+    ProcessarResposta(this, {
+        correto: true,
+        idFrase: 'respFinal',
+        idGlobo: 'globinhorespFinal',
+        classe: '',
+        mensagem: 'o tema Questão Ambiental I é fascinante! Continue estudando!',
+        pontos: 40
+    });
+    MostrarProximo(this);
+">Próximo</button>
+            <p id="respFinal"></p>
+            <div class="area">
+                <p><img src="/fotoIndex/globinhoPe.png" id="globinhorespFinal" style="display:none"
+                        alt="globinhorespFinal" width="64" height="64"></p>
+            </div>
+            <hr>
+        </div>
+
+
+        <!-- TÓPICO: FINALIZAR -->
+        <div class="topico">
+            <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
+        </div>
+
+
+        <!-- SEÇÃO FINAL: PARA SABER MAIS + REFERÊNCIAS -->
+        <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
+            <hr>
+            <h3 class="w3-center w3-text-green fontePixel"><strong>Para saber mais:</strong></h3>
+            <div class="w3-row-padding" id="links-gerados"></div>
+
+            <div class="w3-container w3-padding-64">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
+                </h3>
+                <div id="biblio-gerada"></div>
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="w3-padding-48">
+            <span id="numero"></span>
+            <span id="txtBarra">0%</span>
+            <progress value="0" max="100" id="progress"></progress>
+        </div>
+
+    </main>
+
+    <button onclick="voltarAoTopo()" id="btn-topo"
+        class="w3-button w3-pale-green w3-padding w3-round-large w3-margin-boottom"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;" title="Voltar ao topo">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <div class="w3-padding-top-48"></div>
+
+    <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-DPX55DSFZ0');
+    </script>
+
+</body>
+
+</html>

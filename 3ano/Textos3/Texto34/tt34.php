@@ -17,15 +17,15 @@
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -42,6 +42,7 @@
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
     <title>3º ano - Texto 34 - Conflitos Internos na China</title>
 
@@ -93,7 +94,7 @@
 
             <h2>O que acontece quando o mapa não conta a história toda?</h2>
 
-            <p><span class="primeiraLetra">O</span> mapa da China mostra um território unificado, com fronteiras sólidas e um único nome. Mas dentro dessas fronteiras vivem povos com línguas, religiões e identidades completamente diferentes dos chineses Han (o grupo majoritário): uigures muçulmanos em Xinjiang, tibetanos budistas no Tibet, e até 2020, cidadãos de Hong Kong que viviam sob um sistema jurídico diferente de todo o restante da China. Fora das fronteiras, Taiwan se governa como país independente há 75 anos.</p>
+            <p><span class="primeiraLetra">O</span> mapa da China mostra um território unificado, com fronteiras sólidas e um único nome. Mas dentro dessas fronteiras vivem povos com línguas, religiões e identidades completamente diferentes dos chineses Han (o grupo majoritário): uigures muçulmanos em Xinjiang, tibetanos budistas no Tibet, e até 2020, cidadãos de Hong Kong que viviam sob um sistema jurídico diferente de todo o restante da China. Fora das fronteiras, Taiwan se governa como país independente há 75 anos, e mais além ainda, no Mar do Sul da China e na fronteira com a Coreia do Norte, a China disputa espaço e influência com vizinhos que também não aparecem nesse desenho de unidade nacional.</p>
 
             <p>Antes de começar, responda no caderno:</p>
 
@@ -117,6 +118,8 @@
 
             <p><span class="primeiraLetra">C</span>omo um Estado que se proclama socialista justifica a supressão de minorias étnicas e religiosas? Como um país que cresceu tanto economicamente mantém um controle político tão rígido sobre sua população? E como o mundo reage (ou não reage) quando o país violador de direitos humanos é também o maior credor global e principal parceiro comercial de quase todos os países?</p>
 
+            <p>O mesmo padrão se repete além das fronteiras internas da China: em disputas marítimas com vizinhos menores no Mar do Sul da China e na relação de dependência que mantém com um aliado isolado como a Coreia do Norte, o país sempre prioriza o interesse estratégico de curto prazo sobre qualquer compromisso declarado com regras internacionais ou direitos humanos. Entender essa lógica ajuda a explicar decisões que, à primeira vista, parecem contraditórias.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -125,7 +128,7 @@
         <!-- BLOCO 4: XINJIANG E TIBET -->
         <div class="topico">
 
-            <div class="w3-pale-green">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Xinjiang e o Tibet: minorias sob pressão</h2>
 
             <p><span class="primeiraLetra">X</span>injiang, no noroeste da China, é habitado pelos <span class="termo" data-palavra="Uigures de Xinjiang" data-definicao="Povo de língua turca e religião muçulmana sunita que vive principalmente na Região Autônoma de Xinjiang, no noroeste da China. São cerca de 12 milhões de pessoas com cultura, língua e identidade distintas dos chineses Han. A partir de 2017, o governo chinês implementou uma campanha de 'reeducação' que, segundo documentos vazados e relatos de ex-detidos, resultou na internação de mais de 1 milhão de uigures em campos chamados pelo governo de 'centros de formação profissional'. Há relatos de trabalho forçado, esterilização compulsória, separação de filhos dos pais e apagamento cultural. Vários governos e organismos internacionais classificaram as ações como genocídio cultural ou crimes contra a humanidade. A China nega as acusações.">uigures</span>, povo turco-muçulmano com língua e cultura distintas dos chineses Han. Desde 2017, o governo chinês implementou uma campanha de "estabilização" que, de acordo com documentos vazados e testemunhos de ex-detidos, envolveu a internação de mais de 1 milhão de uigures em campos chamados pelo governo de "centros de formação profissional". Há relatos de trabalho forçado, esterilização compulsória de mulheres e apagamento cultural sistemático (destruição de mesquitas, proibição do árabe nas escolas, separação de crianças dos pais).</p>
@@ -157,6 +160,24 @@
         </div>
 
 
+        <!-- BLOCO 5B: MAR DO SUL DA CHINA -->
+        <div class="topico">
+
+            <h2>O Mar do Sul da China: uma rota disputada por meia dúzia de países</h2>
+
+            <p><span class="primeiraLetra">A</span>lém das fronteiras internas, a China também disputa fronteiras marítimas. O Mar do Sul da China é uma das rotas comerciais mais movimentadas do planeta: cerca de um terço de todo o comércio marítimo mundial passa por ali, além de reservas estimadas de petróleo e gás e uma das pescarias mais produtivas do mundo. A China reivindica soberania sobre quase toda essa área usando a <span class="termo" data-palavra="Linha dos Nove Traços" data-definicao="Demarcação usada pela China para reivindicar cerca de 90% do Mar do Sul da China, incluindo águas muito mais próximas das costas do Vietnã, das Filipinas, da Malásia e de Brunei do que da própria China. A linha remonta a um mapa chinês de 1947 e não corresponde a nenhuma regra reconhecida do direito internacional do mar, que normalmente define zonas econômicas exclusivas a partir da distância da costa de cada país.">Linha dos Nove Traços</span>, uma fronteira desenhada em mapas chineses desde 1947 que avança sobre águas muito mais próximas de outros países do que da própria China.</p>
+
+            <p>Para reforçar essa reivindicação, a China construiu <span class="termo" data-palavra="Ilhas Spratly" data-definicao="Arquipélago de mais de cem pequenas ilhas, recifes e bancos de areia no Mar do Sul da China, reivindicado total ou parcialmente por China, Taiwan, Vietnã, Filipinas, Malásia e Brunei. Desde meados dos anos 2010, a China transformou vários recifes submersos do arquipélago em ilhas artificiais, construindo pistas de pouso, radares e instalações militares, num processo que os países vizinhos e os EUA classificam como militarização de uma área internacional disputada.">ilhas artificiais</span> sobre recifes do arquipélago das Spratly, no meio do oceano, instalando pistas de pouso, radares e bases militares onde antes havia apenas rochas submersas. Em 2016, um tribunal de arbitragem internacional em Haia deu razão às Filipinas e declarou que a Linha dos Nove Traços não tem base legal segundo o direito internacional do mar. A China rejeitou a decisão e simplesmente ignorou o resultado, continuando a expandir sua presença na região.</p>
+
+            <p>O governo chinês justifica suas reivindicações afirmando que exerce soberania sobre essas águas "desde tempos imemoriais", citando mapas e registros de pesca de séculos passados, e recusa qualquer arbitragem internacional que considere o assunto uma questão de soberania nacional, não um litígio a ser resolvido por terceiros. Para os países vizinhos, o argumento soa como uma forma de transformar unilateralmente um mar internacional em um lago chinês: o mesmo Estado que exige respeito à sua soberania sobre Taiwan e Hong Kong aplica um padrão duplo quando se trata de território que, segundo o direito internacional, pertence a outros países.</p>
+
+            <p>O resultado são confrontos frequentes entre a guarda costeira chinesa e embarcações de pesca e patrulha de países vizinhos, sobretudo das Filipinas, incluindo o uso de canhões de água contra navios filipinos em áreas que a própria arbitragem de Haia reconheceu como zona econômica exclusiva filipina. Em 2026, as Filipinas assumiram a presidência rotativa da ASEAN (bloco dos países do Sudeste Asiático) com o objetivo declarado de finalmente fechar um Código de Conduta para a região, um acordo que a China discute há mais de duas décadas sem nunca assinar.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 6: QUESTÃO PRÁTICA 1 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
@@ -174,7 +195,7 @@
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>Preservacao da cultura uigur</span></label>
+                    <label for="p1c" class="card-opcao"><span>Preservação da cultura uigur</span></label>
                 </div>
             </div>
 
@@ -195,7 +216,7 @@
         <!-- BLOCO 7: TAIWAN -->
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
             <h2>Taiwan: democracia e tensão no Pacífico</h2>
 
             <p><span class="primeiraLetra">T</span>aiwan (oficialmente "República da China") é uma ilha de 23 milhões de habitantes que se governa de forma completamente independente desde 1949, quando o governo nacionalista de Chiang Kai-shek se refugiou lá após a derrota para os comunistas de Mao Tsé-tung na guerra civil. Taiwan tem sua própria constituição, exército, moeda, sistema eleitoral e governo democrático.</p>
@@ -211,6 +232,24 @@
         </div>
 
 
+        <!-- BLOCO 7B: COREIA DO NORTE -->
+        <div class="topico">
+
+            <h2>A questão da Coreia do Norte: o aliado que a China não abandona</h2>
+
+            <p><span class="primeiraLetra">N</span>o nordeste asiático, a China sustenta outra relação delicada: é a principal aliada e quase única sustentação econômica da Coreia do Norte, o país mais isolado do mundo. A aliança nasceu na <span class="termo" data-palavra="Guerra da Coreia (1950-1953)" data-definicao="Conflito entre a Coreia do Norte comunista (apoiada por China e URSS) e a Coreia do Sul (apoiada por uma força multinacional liderada pelos EUA sob bandeira da ONU), iniciado quando tropas norte-coreanas invadiram o sul em 1950. A China entrou na guerra em outubro de 1950, enviando centenas de milhares de soldados para impedir que forças americanas chegassem à sua fronteira. A guerra terminou em 1953 com um armistício, não um tratado de paz formal, e a península segue dividida até hoje na mesma linha aproximada de antes do conflito, ao longo do paralelo 38.">Guerra da Coreia</span>, quando a China enviou centenas de milhares de soldados para impedir que tropas americanas chegassem à sua fronteira. Desde então, os dois países mantêm um tratado de defesa mútua assinado em 1961, o único acordo militar formal que a China tem com qualquer país do mundo.</p>
+
+            <p>A relação é movida por um cálculo geopolítico frio: a China teme que o colapso do regime norte-coreano provoque uma onda de refugiados em sua fronteira e, pior, a reunificação da península sob o governo da Coreia do Sul, aliada dos EUA, o que colocaria tropas americanas literalmente na fronteira chinesa. Por isso a China funciona como <span class="termo" data-palavra="Estado-tampão (buffer state)" data-definicao="Conceito de geopolítica que descreve um país situado entre duas potências rivais, cuja existência independente serve para reduzir o contato direto (e o risco de conflito) entre essas potências. A China trata a Coreia do Norte como um Estado-tampão que a protege de ter tropas americanas posicionadas diretamente em sua fronteira, o que explica por que Pequim segue apoiando um regime isolado e imprevisível mesmo quando suas ações, como os testes nucleares, geram constrangimento internacional.">Estado-tampão</span>: sustenta a Coreia do Norte com comércio, petróleo e alimentos (mais de 90% do comércio exterior norte-coreano passa pela China) mesmo quando o país testa mísseis e bombas nucleares, porque um colapso do regime seria pior para os interesses chineses do que a irritação de manter um vizinho imprevisível.</p>
+
+            <p>A Coreia do Norte realizou seu primeiro teste nuclear em 2006 e hoje afirma que seu status de potência nuclear é irreversível, ignorando as sanções da ONU e recusando negociar a desnuclearização que EUA, China e outros países tentaram costurar entre 2003 e 2009 nas "conversas de seis partes" (as duas Coreias, EUA, China, Japão e Rússia), sediadas justamente em Pequim e encerradas sem acordo permanente. Em 2026, Xi Jinping visitou Pyongyang pela primeira vez em sete anos, num movimento que analistas leram como uma tentativa chinesa de recuperar influência sobre Kim Jong-un, que nos últimos anos aproximou a Coreia do Norte da Rússia, inclusive enviando tropas para apoiar a guerra russa na Ucrânia.</p>
+
+            <p>Por trás da geopolítica existe também uma crise humanitária pouco discutida: organizações de direitos humanos estimam que dezenas de milhares de norte-coreanos tentaram fugir do país nas últimas décadas, muitos atravessando clandestinamente a fronteira com a China, que os trata como imigrantes ilegais e costuma deportá-los de volta, mesmo sabendo que repatriados enfrentam prisão, trabalho forçado ou pena de morte. É outro ponto em que o interesse estratégico chinês (manter a estabilidade de um aliado incômodo) pesa mais do que qualquer compromisso declarado com direitos humanos, o mesmo padrão observado em Xinjiang e em Hong Kong.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 8b: QUESTÃO PRÁTICA 2 -->
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
@@ -220,7 +259,7 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>Taiwan não tem constituição propria</span></label>
+                    <label for="p2a" class="card-opcao"><span>Taiwan não tem constituição própria</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
@@ -252,12 +291,12 @@
             <div class="duvid-bloco-apoio w3-margin-top">
                 <p class="w3-small w3-text-grey">TEXTO DE APOIO</p>
                 <blockquote>
-                    <p>"A questão de Xinjiang revela um dilema fundamental da ordem internacional contemporânea: o que um Estado pode fazer dentro de suas próprias fronteiras? Quando o sofrimento de uma minoria étnica e religiosa alcança a escala que documentamos, o silêncio dos demais Estados não é neutralidade. É cumplicidade. E a cumplicidade tem nome: é o comercio."</p>
+                    <p>"A questão de Xinjiang revela um dilema fundamental da ordem internacional contemporânea: o que um Estado pode fazer dentro de suas próprias fronteiras? Quando o sofrimento de uma minoria étnica e religiosa alcança a escala que documentamos, o silêncio dos demais Estados não é neutralidade. É cumplicidade. E a cumplicidade tem nome: é o comércio."</p>
                 </blockquote>
                 <p class="w3-small">HUMAN RIGHTS WATCH. <em>Relatório Mundial 2023: China.</em> HRW, 2023, p. 112.</p>
             </div>
 
-            <div class="w3-pale-yellow w3-padding w3-margin-top w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-margin-top w3-round-large">
 
                 <p><strong>Com base no texto e no que você estudou, responda:</strong></p>
 
@@ -272,16 +311,32 @@
         </div>
 
 
+        <!-- BLOCO 8c: A RESPOSTA INTERNACIONAL -->
+        <div class="topico">
+
+            <h2>Como o mundo reagiu (e não reagiu)</h2>
+
+            <p><span class="primeiraLetra">D</span>iante de tantas denúncias, a reação internacional foi desigual. Em 2022, EUA, Reino Unido, Canadá e Austrália fizeram um <span class="termo" data-palavra="Boicote diplomático" data-definicao="Forma de protesto em que um país deixa de enviar autoridades e representantes oficiais a um evento internacional, mas ainda permite que seus atletas participem. Foi o formato adotado por EUA, Reino Unido, Canadá, Austrália e outros países nos Jogos Olímpicos de Inverno de Pequim, em fevereiro de 2022, como forma de protesto contra as violações de direitos humanos em Xinjiang, sem chegar a um boicote total que impedisse a participação dos atletas.">boicote diplomático</span> aos Jogos Olímpicos de Inverno de Pequim, em fevereiro de 2022: não enviaram autoridades aos eventos, mas deixaram seus atletas competir normalmente. Os EUA também aprovaram, em 2022, uma lei que proíbe a importação de produtos fabricados com trabalho forçado em Xinjiang, e vários governos aplicaram sanções pontuais a autoridades chinesas ligadas à repressão na região.</p>
+
+            <p>Mas essas medidas coexistem com a continuidade dos negócios: as mesmas potências que fizeram gestos simbólicos de protesto seguem sendo parceiras comerciais da China em escala muito maior do que qualquer sanção conseguiria afetar. Marcas internacionais de roupas, eletrônicos e painéis solares foram acusadas de manter cadeias de fornecimento ligadas a Xinjiang mesmo depois das denúncias, porque trocar de fornecedor custa caro e a região concentra parte relevante da produção mundial de algodão e de polissilício (matéria-prima dos painéis solares). O resultado é um protesto mais simbólico do que efetivo, o tipo de resposta que o texto de apoio desta aula chama de cumplicidade disfarçada de neutralidade.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 9: CATARSE -->
         <div class="topico">
 
-            <div class="w3-pale-green w3-padding w3-round-large">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
             <h2>O que mudou no seu olhar?</h2>
 
-            <p><span class="primeiraLetra">A</span>ntes parecia que a China era um bloco homogeneo e que suas tensões internas eram "assunto interno". Agora você ve que o mapa político não conta a historia de povos como os uigures e os tibetanos, que Hong Kong perdeu garantias contratuais de forma unilateral, e que Taiwan e uma democracia de 23 milhoes de pessoas que o mundo fingiu não ver por décadas por medo de desagradar a China.</p>
+            <p><span class="primeiraLetra">A</span>ntes parecia que a China era um bloco homogêneo e que suas tensões internas eram "assunto interno". Agora você vê que o mapa político não conta a história de povos como os uigures e os tibetanos, que Hong Kong perdeu garantias contratuais de forma unilateral, e que Taiwan é uma democracia de 23 milhões de pessoas que o mundo fingiu não ver por décadas por medo de desagradar a China.</p>
 
-            <p>A pergunta que fica é: quando os interesses econômicos e os direitos humanos entram em conflito, o que deve prevalecer? Não há resposta fácil, mas fazer a pergunta já é um passo importante.</p>
+            <p>A pergunta que fica é: quando os interesses econômicos e os direitos humanos entram em conflito, o que deve prevalecer? Não há resposta fácil, mas fazer a pergunta já é um passo importante. Essa mesma lógica de poder e interesse explica também por que a China ignora um tribunal internacional no Mar do Sul da China e por que sustenta, há mais de setenta anos, um vizinho imprevisível como a Coreia do Norte: em geopolítica, princípios e pragmatismo raramente vêm separados.</p>
+
+            <p>Vale notar que Taiwan e Hong Kong, tratadas aqui como pontos de tensão política, também são dois dos territórios mais ricos e desenvolvidos da Ásia. É esse outro lado da moeda, o do crescimento econômico acelerado que transformou economias pobres em potências industriais, que a próxima aula investiga, ao estudar o Japão e os chamados Tigres Asiáticos: Coreia do Sul, Taiwan, Cingapura e a própria Hong Kong.</p>
 
             </div>
 
@@ -291,6 +346,8 @@
                 <li>Tibet e o exílio do Dalai Lama</li>
                 <li>Hong Kong: de "dois sistemas" à Lei de Segurança Nacional</li>
                 <li>Taiwan: democracia, chips e tensão sino-americana</li>
+                <li>Mar do Sul da China e a Linha dos Nove Traços</li>
+                <li>Coreia do Norte como Estado-tampão chinês</li>
                 <li>O dilema entre comércio e direitos humanos</li>
             </ul>
 
@@ -319,6 +376,11 @@
             </p>
             <p>Sistema de pontuação implementado em várias cidades chinesas que usa câmeras de reconhecimento facial, dados financeiros e de comportamento online para atribuir uma "pontuação de confiança" a cidadãos e empresas. Pessoas com pontuação baixa (por dívidas, infrações, críticas ao governo) podem ser impedidas de comprar passagens de avião e trem, de acessar escolas e serviços públicos. Defensores dizem que é um sistema de responsabilização; críticos o comparam a uma vigilância estatal sem precedentes na história humana.</p>
 
+            <p class="w3-border w3-round-large w3-padding">
+                <strong>Por que a China não deixa o regime norte-coreano colapsar?</strong>
+            </p>
+            <p>Porque a Coreia do Norte funciona como um Estado-tampão para a China: um território que separa a fronteira chinesa das tropas americanas estacionadas na Coreia do Sul. Se o regime de Kim Jong-un caísse, a península provavelmente se reunificaria sob controle sul-coreano, aliado dos EUA, o que colocaria uma potência rival diretamente na fronteira chinesa, além de gerar uma onda de refugiados. Por isso a China sustenta o comércio, o petróleo e os alimentos que mantêm a economia norte-coreana funcionando, mesmo diante de testes nucleares e de mísseis que constrangem Pequim internacionalmente.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
             <hr>
@@ -342,7 +404,7 @@
 
             <h2>Produção</h2>
 
-            <p><span class="primeiraLetra">N</span>o início desta aula, você foi questionado sobre o que sabia dos uigures, de Hong Kong e de Taiwan. Agora você tem informações para enfrentar o dilema que o texto de apoio colocou: quando os interesses econômicos e os direitos humanos entram em conflito, o que deve prevalecer?</p>
+            <p><span class="primeiraLetra">N</span>o início desta aula, você foi questionado sobre o que sabia dos uigures, de Hong Kong e de Taiwan. Agora você tem informações para enfrentar o dilema que o texto de apoio colocou: quando os interesses econômicos e os direitos humanos entram em conflito, o que deve prevalecer? Você também viu que esse dilema não se limita às fronteiras internas da China: ele se repete nas águas disputadas do Mar do Sul da China e na aliança desconfortável que Pequim mantém com a Coreia do Norte, sempre com o mesmo cálculo de que a estabilidade e o interesse estratégico valem mais do que qualquer princípio declarado.</p>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding">
 
@@ -373,15 +435,15 @@
 
             <h3>5. Por que Hong Kong era especial em relação ao restante da China antes de 2020?</h3>
 
-            <h3>6. Por que Taiwan não é reconhecida como Estado pela maioria dos países do mundo?</h3>
+            <h3>6. Por que Taiwan não é reconhecida como Estado pela maioria dos países do mundo? Além de Taiwan, que outra disputa territorial marítima a China trava com vizinhos como Filipinas e Vietnã, e o que o tribunal de Haia decidiu sobre ela em 2016?</h3>
 
-            <h3>7. (ANALÍTICA) A China argumenta que as medidas em Xinjiang são necessárias para combater o terrorismo. Como você avalia esse argumento? Existe uma diferença entre segurança nacional e perseguição étnica? Quais evidências ajudariam a distinguir um do outro?</h3>
+            <h3>7. A China argumenta que as medidas em Xinjiang são necessárias para combater o terrorismo. Como você avalia esse argumento? Existe uma diferença entre segurança nacional e perseguição étnica? Quais evidências ajudariam a distinguir um do outro?</h3>
 
-            <h3>8. (ANALÍTICA) O caso de Hong Kong mostrou que a China pode descumprir acordos internacionais sem sofrer consequências graves. O que isso revela sobre a eficácia do direito internacional? Quem poderia ter forçado a China a cumprir o acordo, e por que não o fez?</h3>
+            <h3>8. O caso de Hong Kong mostrou que a China pode descumprir acordos internacionais sem sofrer consequências graves. O que isso revela sobre a eficácia do direito internacional? Quem poderia ter forçado a China a cumprir o acordo, e por que não o fez?</h3>
 
             <h3>9. Taiwan existe como democracia independente há 75 anos. Mas a maioria dos países não a reconhece. É possível um Estado existir sem reconhecimento internacional? O que define um Estado de fato?</h3>
 
-            <h3>10. (ANALÍTICA) Empresas ocidentais continuaram a usar fornecedores de Xinjiang mesmo após as denúncias sobre trabalho forçado uigur. O que isso revela sobre os limites da responsabilidade corporativa? Consumidores que compram produtos fabricados com trabalho forçado têm responsabilidade moral?</h3>
+            <h3>10. Empresas ocidentais continuaram a usar fornecedores de Xinjiang mesmo após as denúncias sobre trabalho forçado uigur. O que isso revela sobre os limites da responsabilidade corporativa? Consumidores que compram produtos fabricados com trabalho forçado têm responsabilidade moral? Compare com o boicote diplomático (não total) que países como os EUA fizeram aos Jogos Olímpicos de Pequim em 2022: esse tipo de protesto simbólico tem algum efeito real?</h3>
 
             </div>
 
@@ -402,7 +464,7 @@
         idFrase: 'respFinal',
         idGlobo: 'globinhorespFinal',
         classe: '',
-        mensagem: 'o tema {TITULO} levanta questões essenciais sobre poder, direitos humanos e cumplicidade. Continue estudando!',
+        mensagem: 'o tema Conflitos Internos na China levanta questões essenciais sobre poder, direitos humanos e cumplicidade. Continue estudando!',
         pontos: 40
     });
 
@@ -435,6 +497,14 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

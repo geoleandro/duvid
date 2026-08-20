@@ -43,6 +43,7 @@ const RECOMPENSA_QUESTOES = 20;
 // Por que copiar? Porque cada API é independente — não importa
 // -----------------------------------------------------------
 require_once __DIR__ . '/../includes/rpg.php';
+require_once __DIR__ . '/../includes/certificados.php';
 
 // -----------------------------------------------------------
 // Verifica e desbloqueia conquistas que o aluno ainda não tem.
@@ -204,14 +205,18 @@ try {
 // 4. Verifica conquistas desbloqueadas (fora da transação — não é crítico)
 $conquistasNovas = verificarConquistas($alunoId, $novoTotal, $pdo);
 
+// 5. Verifica certificados de bloco/módulo (mesmo motivo — fora da transação)
+$certificadosNovos = verificarCertificados($alunoId, $pdo);
+
 // Resposta final para o JS
 jsonResponse([
-    'ja_concluido'      => false,
-    'globinhos_ganhos'  => $quantidade,
-    'novo_total'        => $novoTotal,
-    'lvl_anterior'      => $lvlAnterior,
-    'lvl_novo'          => $rpg['lvl'],
-    'patente_nova'      => $rpg['patente'],
-    'subiu_nivel'       => $rpg['lvl'] > $lvlAnterior,
-    'conquistas_novas'  => $conquistasNovas,
+    'ja_concluido'        => false,
+    'globinhos_ganhos'    => $quantidade,
+    'novo_total'          => $novoTotal,
+    'lvl_anterior'        => $lvlAnterior,
+    'lvl_novo'            => $rpg['lvl'],
+    'patente_nova'        => $rpg['patente'],
+    'subiu_nivel'         => $rpg['lvl'] > $lvlAnterior,
+    'conquistas_novas'    => $conquistasNovas,
+    'certificados_novos'  => $certificadosNovos,
 ]);

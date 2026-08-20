@@ -24,11 +24,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -54,7 +53,7 @@
     <script src="/js/texto-painel.js" defer></script>
 
 
-    <title></title>
+    <title>1º ano - Texto 01 - O Espaço Geográfico e os Conceitos da Geografia</title>
 
 
 
@@ -154,13 +153,13 @@
 
 
 
-            <p> <span class="primeiraLetra">O</span>estudo da Geografia pode ser representado com o movimento de
+            <p> <span class="primeiraLetra">O</span> estudo da Geografia pode ser representado com o movimento de
                 transformação. No início uma superfície terrestre sem modificações pelo homem.
                 Com o passar do tempo, a capacidade de modificar a natureza se intensifica através do acréscimo de
                 objetos
                 fabricados pelos homens, como estradas, energia elétrica e indústrias. </p>
 
-            <p>Assim temos um novo mundo criado e organizado de maneira distinta, à depender do grau de
+            <p>Assim temos um novo mundo criado e organizado de maneira distinta, a depender do grau de
                 tecnologia e da influência dos objetos, naturais ou sociais em uma determinada porção da superfície
                 terrestre.</p>
 
@@ -196,10 +195,16 @@
             <p>Ao final, entenderemos como o espaço em que vivemos influencia na formação das sociedades,
                 dos países, das cidades ou do próprio bairro em que moramos. </p>
 
+            <p>Vale a pena adiantar que esses cinco conceitos não são exclusividade do Ensino Médio: eles acompanham
+                qualquer curso de graduação em Geografia, aparecem em provas de vestibular e concursos públicos, e
+                voltam a aparecer, de forma cada vez mais sofisticada, em praticamente todas as aulas que você vai
+                ter neste ano e nos próximos dois anos de Geografia. Dominar bem o significado de cada um agora evita
+                confusão lá na frente, quando eles forem usados sem serem explicados de novo.</p>
+
             <p>Como que a Geografia faz isso? Mas afinal de contas, o que é Geografia?</p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
 
 
@@ -218,28 +223,28 @@
             <p class="caixa"> Agora é com você!</p>
 
 
-            <div class="w3-panel w3-pale-green">
-                <p class="w3-pale-green"> Você estudou Geografia desde o ensino primário. Fez exercícios sobre o seu
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
+                <p> Você estudou Geografia desde o ensino primário. Fez exercícios sobre o seu
                     local de moradia (maquete de sua casa), desenhou um mapa do seu bairro e estudou seu município.
-                <p class="w3-pale-green">No ensino fundamental conheceu as diferentes paisagens e continentes em
+                <p>No ensino fundamental conheceu as diferentes paisagens e continentes em
                     direção a
                     um mundo
                     conectado, isto é, globalizado.</p>
-                <p class="w3-pale-green"> Agora no Ensino Médio, vai aprofundar essas relações no conhecimento do
+                <p> Agora no Ensino Médio, vai aprofundar essas relações no conhecimento do
                     mundo
                     natural, do Brasil e
                     do mundo na era da globalização.</p>
-                <p class="w3-pale-green">A partir disso, escreva em seu <strong>caderno</strong> 5 palavras (sem a
+                <p>A partir disso, escreva em seu <strong>caderno</strong> 5 palavras (sem a
                     preocupação com o
                     significado neste
                     momento) sobre o que acha que é Geografia.
                 </p>
-                <p class="w3-pale-green">Guarde essa lista: vamos retomá-la lá no final da aula, para ver o quanto sua
+                <p>Guarde essa lista: vamos retomá-la lá no final da aula, para ver o quanto sua
                     ideia de Geografia mudou.</p>
             </div>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -301,22 +306,22 @@
 
             <p class=" caixa"> Questione a realidade!</p>
 
-            <div class="w3-panel w3-pale-yellow ">
-                <p class="w3-pale-yellow"> Dentre as diversas palavras sobre o que a Geografia estuda anotadas no
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
+                <p> Dentre as diversas palavras sobre o que a Geografia estuda anotadas no
                     caderno,
                     temos:
                     <strong>espaço geográfico</strong>, climas, mapas, montanhas, <strong>lugar</strong>,
                     <strong>território</strong>, vegetação,
                     <strong>região</strong>, globalização, <strong>paisagens</strong> etc.
                 </p>
-                <p class="w3-pale-yellow"> Nesse exercício você vai treinar sua habilidade de fazer perguntas. A
+                <p> Nesse exercício você vai treinar sua habilidade de fazer perguntas. A
                     Geografia
                     estuda
                     tudo isso, mas não de forma desorganizada! </p>
-                <p class="w3-pale-yellow">Ela utiliza ferramentas chamadas <span class="termo" data-palavra="Conceito"
+                <p>Ela utiliza ferramentas chamadas <span class="termo" data-palavra="Conceito"
                         data-definicao="Uma ideia organizadora que a ciência usa para nomear e explicar um recorte da realidade. Na Geografia, conceitos como espaço, lugar, paisagem, território e região funcionam como ferramentas para investigar o mundo.">conceitos</span>.
                     Esses conceitos estão destacados acima.</p>
-                <p class="w3-pale-yellow">Elabore em seu caderno uma pergunta para cada um deles. Por exemplo:</p>
+                <p>Elabore em seu caderno uma pergunta para cada um deles. Por exemplo:</p>
                 <div>
                     <ul>
                         <li> Desde quando existe o território? </li>
@@ -331,7 +336,7 @@
 
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -409,10 +414,26 @@
                 <img id="imagem" src="tp1F01B.png" alt="Transformação do espaço geográfico" class="w3-mobile">
             </div>
 
+            <p>Repare que a técnica muda ao longo da história: o arado de madeira, a máquina a vapor e o satélite
+                de GPS são, cada um a seu tempo, exemplos de técnica transformando o espaço geográfico de formas
+                muito diferentes, e cada nova técnica que surge amplia (ou restringe, dependendo de quem tem acesso a
+                ela) as ações humanas possíveis sobre determinada porção do território.</p>
+
             <p class="w3-margin-top">Portanto, o Espaço Geográfico é um conjunto <span class="mark"
                     onclick="this.innerHTML='indissociável (que não pode ser separado)'">indissociável</span> de
                 <b>sistemas de objetos</b> e <b>sistemas de ações</b>.
             </p>
+
+            <p>Um exemplo bem atual desse conjunto indissociável é o acesso à internet. Uma fibra óptica ou uma
+                antena de celular são objetos técnicos que, uma vez instalados, permitem ações completamente novas:
+                trabalhar remotamente, estudar online, vender produtos para o mundo todo. Só que esses objetos não
+                são distribuídos de forma igual pelo espaço geográfico: bairros centrais e ricos costumam ter internet
+                de fibra óptica de alta velocidade, enquanto periferias e áreas rurais muitas vezes dependem de sinal
+                de celular instável ou nem têm acesso algum. Essa diferença na distribuição dos objetos técnicos
+                (o sistema de objetos) explica diretamente uma diferença nas ações possíveis para cada pessoa
+                (o sistema de ações): quem tem internet rápida pode estudar, trabalhar e empreender de formas que
+                quem não tem simplesmente não consegue. É o espaço geográfico determinando, na prática, oportunidades
+                de vida bem diferentes.</p>
 
             <div id="fundoQ" class="w3-margin-top w3-padding-large w3-round-large">
 
@@ -456,7 +477,13 @@
 
             <p>A paisagem é o ponto de partida do estudo do Espaço geográfico.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Uma mesma paisagem também revela camadas de tempo diferentes acumuladas em um único lugar: uma
+                cidade histórica pode ter uma igreja colonial ao lado de um prédio comercial de vidro construído há
+                cinco anos, e essa convivência entre o antigo e o novo é, ela mesma, uma pista sobre a história
+                econômica e social daquele espaço. Aprender a "ler" uma paisagem, prestando atenção nesses detalhes,
+                é uma das primeiras habilidades que um geógrafo desenvolve.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -483,7 +510,12 @@
             <p>Esse trabalho resulta em várias formas ou objetos que persistem no tempo e que podemos
                 identificar em diferentes paisagens pelo mundo.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Vale reforçar: nem toda paisagem antrópica é urbana. Uma plantação de soja, um pasto para gado ou uma
+                represa hidrelétrica também são paisagens transformadas pelo trabalho humano, mesmo estando longe de
+                qualquer cidade. O que define uma paisagem como antrópica não é a presença de prédios, e sim a marca
+                da intervenção humana sobre o que antes era natureza.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <br><br>
 
         </div>
@@ -545,7 +577,7 @@
             </p>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -621,13 +653,15 @@
             <p> A partir dessa configuração de poder são gerados conflitos para controlar um determinado
                 espaço e seus recursos, sejam eles naturais ou sociais. </p>
 
-            <p>Trata-se de uma porção do espaço geográfico onde relações hierárquicas se estabelecem. </p>
+            <p>Trata-se de uma porção do espaço geográfico onde relações hierárquicas se estabelecem, e essas
+                relações podem existir em qualquer escala: de um país inteiro até o quarto de uma casa dividida por
+                irmãos, cada um com sua "área" respeitada pelos demais.</p>
 
 
 
 
-            <p>Na foto abaixo temos o exemplo da disputa por território por décadas entre os país de
-                Israel e o povo da Palestina, este último ainda sem Estado reconhecido. </p>
+            <p>Na foto abaixo temos o exemplo da disputa por território por décadas entre Israel
+                e a Palestina. </p>
 
             <div class="area"><img src="tp1F03.png" alt="Área de tensão no globo" class="w3-mobile"> </div>
 
@@ -635,10 +669,15 @@
             <p>Ao longo do tempo o conflito entre distintas visões de mundo, religioso (Israel
                 representando o Judaísmo e a Palestina o Islamismo) e poder econômico e político alterou a
                 delimitação do
-                espaço em diversos territórios.</p>
+                espaço em diversos territórios. O caso mostra bem como território não é só uma linha no mapa: mais de
+                três quartos dos países-membros da ONU já reconhecem oficialmente o Estado da Palestina, mas ele ainda
+                não controla de fato boa parte do espaço que reivindica, e segue sem ser membro pleno da própria ONU.
+                Ou seja, o reconhecimento político de um território pode existir no papel, entre países, sem que isso
+                signifique controle efetivo daquele espaço no terreno.</p>
 
-            <p>O território, portanto, não é somente uma área delimitada por uma espécie animal, mas
-                também adquiriu contornos políticos.</p>
+            <p>O território, portanto, não é somente uma área delimitada por uma espécie animal, defendendo seu
+                espaço de caça por instinto, mas também adquiriu, no caso humano, contornos políticos, jurídicos e
+                simbólicos que vão muito além da simples sobrevivência.</p>
 
             <p>Quando um grupo de pessoas, instituições, empresas etc. <span class="termo"
                     data-palavra="Apropriação do Espaço"
@@ -647,7 +686,8 @@
                 aqueles
                 inseridos naquele espaço, elas definem um território.</p>
 
-            <p>Leia a citação abaixo:</p>
+            <p>Leia com atenção a citação abaixo e pense em exemplos concretos de "nós" e "eles" que você já
+                observou entre grupos ou territórios do seu próprio cotidiano:</p>
 
             <div class="w3-panel w3-leftbar w3-sand w3-margin">
 
@@ -667,6 +707,14 @@
                 domínio
                 de um povo sobre outro atualmente.</p>
 
+            <p>O Brasil tem seu próprio exemplo de disputa territorial em andamento: a demarcação de terras
+                indígenas. A Constituição de 1988 garante aos povos indígenas o direito originário sobre as terras que
+                tradicionalmente ocupam, mas o processo de demarcação é lento e enfrenta forte resistência de setores
+                do agronegócio e da mineração, que também reivindicam esses territórios para produção agrícola e
+                exploração de recursos. O resultado é um conflito clássico de território: dois grupos diferentes
+                disputando o controle da mesma porção do espaço, cada um com suas próprias regras, interesses e
+                argumentos sobre quem tem o direito legítimo de ocupá-la.</p>
+
             <div class="w3-margin">
                 <p class="divCaixa1 w3-large"> Em sua cidade, dê exemplos de territórios ocupados por grupos
                     sociais.
@@ -675,7 +723,12 @@
                     vivemos.</p>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Pense também em escalas menores: uma torcida organizada que reivindica um setor do estádio como "seu",
+                uma gangue que controla determinadas ruas de um bairro, ou até um grupo de skatistas que se apropria
+                de uma praça pública em horários específicos, todos esses são, em menor escala, exemplos do mesmo
+                mecanismo de apropriação e controle de um espaço que caracteriza o conceito de território.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
 
         </div>
@@ -698,6 +751,12 @@
             <p>O nosso quarto constitui um dos exemplos da porção do espaço geográfico em que temos
                 relações diretas de pertencimento, embora nem todos apresentem a mesma infraestrutura.</p>
 
+            <p>Pense também na escola onde você estuda, no campinho de futebol do bairro, na praça onde você
+                encontra os amigos ou na igreja, terreiro ou templo que sua família frequenta. Todos esses são
+                "lugares" no sentido geográfico da palavra: porções pequenas do espaço, carregadas de significado
+                pessoal e coletivo, que você reconheceria de olhos fechados só pelo cheiro, pelo som ou pela
+                disposição dos objetos, mesmo que um visitante de fora não enxergasse nada de especial ali.</p>
+
             <div class="area"><img src="tp1F06.png" alt="tp1F06" class="w3-mobile"></div>
 
             <span class="citacao">Fonte: Pinterest,2020.</span>
@@ -719,7 +778,17 @@
             <p>O lugar participa dessa relação entre a escala global e a local, e revela as transformações
                 desses eventos na sua infraestrutura, circulação, comércio, serviços etc.</p>
 
-            <p>O assunto sobre as escalas geográficas e cartográficas será visto nas próximas aulas.</p>
+            <p>Um processo que mostra bem essa tensão entre o global e o lugar é a <span class="termo"
+                    data-palavra="Gentrificação" data-definicao="Processo de transformação de um bairro popular ou degradado, geralmente central, que passa por valorização imobiliária e atrai moradores de renda mais alta, comércios sofisticados e investimentos, ao mesmo tempo em que expulsa, pelo aumento do custo de vida, os moradores originais de menor renda.">gentrificação</span>:
+                bairros populares e centrais, com identidade forte e vínculo histórico de seus moradores, atraem
+                investimentos, cafés e lojas voltados a um público de renda mais alta. O aluguel sobe, o comércio
+                tradicional fecha, e a população original, que ali construiu seu sentimento de pertencimento ao longo
+                de gerações, acaba expulsa para bairros mais distantes. O lugar muda de mãos, mas o vínculo afetivo
+                que os antigos moradores tinham com aquele espaço não se transfere junto com o imóvel.</p>
+
+            <p>O assunto sobre as escalas geográficas e cartográficas, fundamental para entender como representamos
+                distâncias reais em um mapa reduzido de papel ou tela, será visto com mais profundidade nas próximas
+                aulas deste curso.</p>
 
 
             <div class="w3-margin">
@@ -728,7 +797,7 @@
             </div>
 
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
         </div>
 
@@ -754,7 +823,12 @@
             <p> No período atual, pode ser entendida como o resultado da expansão da globalização que
                 fragmenta o espaço total em partes funcionais, isto é, áreas responsáveis por desempenhar um papel
                 específico, seja na produção, comercialização ou distribuição de mercadorias na atual dinâmica do
-                capitalismo. Ou como escreveu o grande geógrafo Milton Santos:</p>
+                capitalismo. É o caso, por exemplo, da região conhecida como "cinturão do agronegócio" no Centro-Oeste
+                brasileiro, especializada na produção de soja e milho para exportação, bem diferente do papel que o
+                Vale do Silício desempenha na economia global como região concentradora de empresas de tecnologia.
+                Ambas são "regiões" no sentido de que cada uma se especializou em uma função dentro da economia
+                mundial, mesmo estando em países e continentes diferentes. Ou como escreveu o grande geógrafo Milton
+                Santos:</p>
 
 
             <div class="w3-panel w3-leftbar w3-sand w3-margin">
@@ -779,10 +853,69 @@
 
             <p class="citacao"> Fonte: COSEMS/SP - Conselho de Secretarias Municipais de Saúde (Adaptado).
             </p>
+
+            <p>O IBGE também organiza o território brasileiro em diferentes divisões regionais, como as cinco
+                grandes regiões (Norte, Nordeste, Centro-Oeste, Sudeste e Sul), definidas originalmente por
+                critérios físicos e depois consolidadas por uso histórico e administrativo, e as regiões de saúde
+                do mapa acima, criadas por um critério bem diferente: a necessidade de organizar hospitais e postos
+                de saúde de forma que a população consiga ser atendida em uma distância razoável. Perceba como a
+                mesma cidade ou o mesmo Estado pode pertencer a "regiões" diferentes dependendo de qual critério
+                está sendo usado, prova de que região não é uma divisão natural e fixa do espaço, mas uma construção
+                que depende do problema que se quer resolver.</p>
             <br>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 
+        </div>
+
+
+        <!-- BLOCO: Desigualdades socioespaciais -->
+        <div class="topico">
+
+            <h2 style='font-family: "Roboto", sans-serif; font-weight: bold;'>
+                Desigualdades socioespaciais: por que o espaço nunca é neutro
+            </h2>
+
+            <p><span class="primeiraLetra">A</span>gora que você conhece os cinco conceitos (espaço geográfico,
+                paisagem, território, lugar e região), fica mais fácil entender uma ideia central da Geografia:
+                o espaço nunca é organizado de forma neutra ou aleatória. Ele reflete, e ao mesmo tempo reforça,
+                as desigualdades da sociedade que o produziu. Essa relação tem nome: <span class="termo"
+                    data-palavra="Desigualdade socioespacial" data-definicao="Diferença no acesso a recursos, infraestrutura, serviços públicos e qualidade de vida entre diferentes porções do espaço geográfico (bairros, regiões, países), resultado de processos históricos, econômicos e políticos, e não do acaso. Se manifesta em coisas concretas: saneamento básico, transporte, acesso à saúde e educação, exposição a enchentes ou violência.">desigualdade
+                    socioespacial</span>, e ela aparece em dados muito concretos.</p>
+
+            <p>Pegue o saneamento básico, por exemplo. Em 2025, o Ranking do Saneamento do Instituto Trata Brasil
+                mostrou que, das 27 capitais brasileiras, apenas 7 têm 99% ou mais de cobertura de abastecimento de
+                água. A média nacional está em torno de 94%, mas esse número esconde abismos regionais: capitais do
+                Norte como Rio Branco (53%) e Macapá (40%) ficam bem abaixo da média, enquanto a maioria das capitais
+                do Sul, Sudeste e Centro-Oeste está perto da universalização. Segundo o mesmo estudo, o Brasil ainda
+                precisaria investir mais de R$ 450 bilhões para levar saneamento a toda a população, e os municípios
+                com pior desempenho recebem, em média, menos de um terço do investimento por habitante necessário
+                para resolver o problema.</p>
+
+            <p>Repare que esse não é um problema "natural": é o resultado de décadas de decisões políticas e
+                econômicas sobre onde investir e onde não investir, ou seja, é um problema de <strong>território</strong>
+                (quem tem poder para decidir onde a rede de esgoto chega) e de <strong>lugar</strong> (a experiência
+                cotidiana de quem vive sem água tratada é radicalmente diferente da experiência de quem vive com ela).
+                A mesma lógica se repete dentro de uma única cidade: o bairro nobre e a periferia estão na mesma
+                <strong>região</strong> metropolitana, mas vivem em <strong>paisagens</strong> completamente
+                diferentes, com arborização, iluminação e coleta de lixo desiguais, moldadas ao longo do tempo pela
+                mesma <strong>técnica</strong> que constrói o espaço geográfico, só que distribuída de forma desigual
+                entre os dois lugares.</p>
+
+            <p>É por isso que a Geografia insiste tanto nesses cinco conceitos: eles não são só vocabulário para
+                decorar, são as ferramentas que permitem enxergar que a pobreza, a violência ou a falta de
+                infraestrutura não estão espalhadas aleatoriamente pelo mapa. Elas seguem um padrão que pode ser
+                identificado, explicado e, em tese, corrigido por políticas públicas mais justas.</p>
+
+            <p>Isso não significa que a desigualdade socioespacial seja exclusividade brasileira ou de países em
+                desenvolvimento. Cidades de países ricos como os EUA e o Reino Unido também têm bairros extremamente
+                desiguais entre si, muitas vezes a poucos quarteirões de distância um do outro, com diferenças
+                gritantes de expectativa de vida, segurança e acesso a serviços. O que muda de país para país não é
+                a existência da desigualdade socioespacial, mas sua intensidade e a capacidade do Estado de reduzi-la
+                por meio de políticas de habitação, transporte e infraestrutura urbana.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
 
@@ -864,6 +997,34 @@
             </p>
 
 
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Desigualdade socioespacial é a mesma coisa que desigualdade social?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                São parecidas, mas não idênticas. Desigualdade social se refere à distribuição desigual de renda,
+                emprego, educação e outros recursos entre pessoas e grupos, independente de onde elas estejam.
+                Desigualdade socioespacial acrescenta a dimensão do espaço: mostra como essa desigualdade social se
+                distribui de forma desigual pelo território, criando bairros, regiões e países com condições de vida
+                muito diferentes. É por isso que duas pessoas com a mesma renda podem ter qualidade de vida bem
+                diferente dependendo de onde moram: uma pode ter escola, hospital e transporte público por perto, e a
+                outra não.
+            </p>
+
+
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Os cinco conceitos (espaço, paisagem, território, lugar e região) competem entre si ou se
+                    complementam?
+                </strong> </p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Eles se complementam. Pense neles como cinco lentes diferentes apontadas para o mesmo objeto: o
+                espaço geográfico. A paisagem mostra o que os sentidos captam à primeira vista. O território revela
+                as relações de poder e fronteiras por trás daquilo que se vê. O lugar mostra a experiência afetiva e
+                cotidiana de quem vive ali. A região agrupa porções do espaço segundo um critério específico. Usar
+                apenas uma dessas lentes dá uma visão parcial; usar as cinco juntas é o que permite uma análise
+                geográfica completa de qualquer situação, desde o seu bairro até um conflito internacional.
+            </p>
 
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -881,7 +1042,7 @@
         <!-- BLOCO: Catarse -->
         <div class="topico">
 
-            <div class="w3-light-blue w3-padding">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding w3-round-large">
 
                 <h2>O que mudou no seu olhar</h2>
 
@@ -901,6 +1062,12 @@
                     paisagem (o que os sentidos captam, natural ou antrópica); território (espaço com fronteiras e
                     relações de poder); lugar (espaço de vivência e pertencimento); região (espaço recortado por um
                     critério); técnica (meios que alteram a natureza e constroem o espaço).</p>
+
+                <p>Uma última pergunta fica no ar: se todo esse espaço desigual existe sobre a superfície da Terra,
+                    como fazemos para localizar exatamente onde cada coisa está, comparar distâncias entre lugares
+                    tão diferentes ou representar esse espaço inteiro em um mapa? É exatamente esse o assunto da
+                    próxima aula: as coordenadas geográficas, a ferramenta que a Geografia usa para dar um endereço
+                    preciso a qualquer ponto do planeta.</p>
 
             </div>
 
@@ -933,7 +1100,7 @@
         idFrase: 'respFinal', 
         idGlobo: 'globinhorespFinal', 
         classe: '', 
-        mensagem: 'o tema {TITULO} é fantástico! Continue estudando!',
+        mensagem: 'o tema Conceitos Fundamentais da Geografia é a base de tudo que você vai estudar nos próximos três anos. Continue estudando!',
         pontos: 40
     });
     
@@ -975,6 +1142,14 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

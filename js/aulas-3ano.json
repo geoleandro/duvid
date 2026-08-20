@@ -373,6 +373,12 @@
     "links": [
       "AgenciaBrasilBRICS",
       "40MapasMundo"
+    ],
+    "mapaMental": "3ano/Textos3/Texto17/inforesumott17.webp",
+    "livros": [
+      "ZweigMundoDeOntem",
+      "RemarqueNadaDeNovo",
+      "JudtPosGuerra"
     ]
   },
   {
@@ -394,6 +400,12 @@
     "links": [
       "AgenciaBrasilBRICS",
       "40MapasMundo"
+    ],
+    "mapaMental": "3ano/Textos3/Texto18/inforesumott18.webp",
+    "livros": [
+      "McEwanBarata",
+      "SmithDentesBrancos",
+      "AramburuPatria"
     ]
   },
   {
@@ -425,6 +437,12 @@
     "links": [
       "40MapasMundo",
       "BBCMapaMundoReal"
+    ],
+    "mapaMental": "3ano/Textos3/Texto20/inforesumott20.webp",
+    "livros": [
+      "SteinbeckVinhasDaIra",
+      "VonnegutMatadouroCinco",
+      "SinclairSelva"
     ]
   },
   {
@@ -446,6 +464,11 @@
     "links": [
       "40MapasMundo",
       "UNODCNarcotrafico"
+    ],
+    "livros": [
+      "RulfoPedroParamo",
+      "CumminsTerraAmericana",
+      "MartelVidaDePi"
     ]
   },
   {
@@ -455,7 +478,7 @@
     "conteudo": "Aspectos gerais; Países Andinos; Economia; Mercosul; Embargo a Cuba.",
     "linkTexto": "3ano/Textos3/Texto22/tt22.php?id=322",
     "linkQuestoes": "questoes/modelo-questoes.php?id=322",
-    "objetivo": "Relacionar o bloco econômico USMCA (antigo NAFTA) e sua relação entre Canadá, EUA e México. Identificar aspectos físicos e humanos do Canadá e México. Caracterizar a questão do Quebec e a influência da questão indígena na política mexicana.",
+    "objetivo": "Identificar as características físicas e o processo de colonização e independência da América Central e do Sul. Relacionar a dependência de commodities e o papel do Mercosul na integração econômica regional. Caracterizar a questão do embargo dos Estados Unidos a Cuba.",
     "audio": null,
     "bibliografia": [
       "Boniface",
@@ -469,6 +492,11 @@
       "UNODCNarcotrafico",
       "ACNURVenezuela",
       "CNNBrasilCuba"
+    ],
+    "livros": [
+      "GarciaMarquezCemAnos",
+      "AllendeCasaDosEspiritos",
+      "McLeodQuantoCustouAcucar"
     ]
   },
   {
@@ -493,7 +521,12 @@
       "CNNBrasilCuba"
     ],
     "objetivo": "Compreender a relação entre guerrilhas e narcotráfico na América Latina. Identificar as principais crises políticas em Cuba, Venezuela e Bolívia, analisando seus contextos históricos e suas consequências sociais.",
-    "audio": null
+    "audio": null,
+    "livros": [
+      "FrancoRosarioTijeras",
+      "ArenasAntesQueAnoiteca",
+      "VargasLlosaFestaDoBode"
+    ]
   },
   {
     "id": 324,
@@ -527,6 +560,11 @@
     "links": [
       "UNEPAfrica",
       "GrandeMusalhVerde"
+    ],
+    "livros": [
+      "MartinezSudd",
+      "CamusOEstrangeiro",
+      "LessingErvaCanta"
     ]
   },
   {
@@ -552,6 +590,11 @@
     "links": [
       "BBCDiamantesSangue",
       "AgenciaBrasilAfCFTA"
+    ],
+    "livros": [
+      "ConradCoracaoTrevas",
+      "AchebeMundoDespedaca",
+      "CoutoTerraSonambula"
     ]
   },
   {
@@ -578,6 +621,11 @@
     "links": [
       "ACNURAfricaRefugiados",
       "BBCRuanda"
+    ],
+    "livros": [
+      "AdichieMeioSolAmarelo",
+      "BeahMuitoLongeDeCasa",
+      "CoetzeeDesonra"
     ]
   },
   {
@@ -587,7 +635,7 @@
     "conteudo": "Diversidade cultural; Importância do petróleo; Questão palestina e libanesa.",
     "linkTexto": "3ano/Textos3/Texto28/tt28.php?id=328",
     "linkQuestoes": "questoes/modelo-questoes.php?id=328",
-    "objetivo": "Compreender a diversidade cultural, étnica e religiosa do Oriente Médio. Analisar o papel do petróleo na geopolítica regional e nas intervenções militares estrangeiras. Entender as origens históricas e o desenvolvimento da questão palestina (Declaração Balfour, Nakba, ocupação desde 1967). Conhecer o caso libanês como exemplo de fragilidade política em contexto de diversidade religiosa.",
+    "objetivo": "Compreender a diversidade cultural, étnica e religiosa do Oriente Médio. Analisar o papel do petróleo na geopolítica regional e nas intervenções militares estrangeiras. Entender as origens históricas e o desenvolvimento da questão palestina (Declaração Balfour, Nakba, OLP, Oslo, ocupação desde 1967 e a guerra de 2023-2026). Conhecer o caso libanês como exemplo de fragilidade política em contexto de diversidade religiosa. Relacionar a queda do governo Assad na Síria e a guerra entre Irã e Israel às transformações recentes no equilíbrio de poder regional.",
     "audio": null,
     "bibliografia": [
       "Boniface",
@@ -602,16 +650,21 @@
     "links": [
       "ACNURPalestina",
       "BBCOrienteMedio"
+    ],
+    "livros": [
+      "SaccoPalestina",
+      "KhouryPortaDoSol",
+      "MaaloufRochedoTanios"
     ]
   },
   {
     "id": 329,
-    "titulo": "Golfo Pérsico e Turquia",
+    "titulo": "Irã, Turquia e as Potências Regionais",
     "imagem": "fotoIndex/3ano/aula29.webp",
     "conteudo": "Irã; Iraque; A questão dos Curdos; Turquia e conflitos estratégicos no Golfo.",
     "linkTexto": "3ano/Textos3/Texto29/tt29.php?id=329",
     "linkQuestoes": "questoes/modelo-questoes.php?id=329",
-    "objetivo": "Compreender a geopolitica do Golfo Pérsico, o autoritarismo rentista das monarquias do petróleo, a guerra do Iêmen e a posição estratégica da Turquia entre a Europa e o Oriente Médio.",
+    "objetivo": "Compreender a geopolitica do Golfo Pérsico, o autoritarismo rentista das monarquias do petróleo, a guerra do Iêmen e a crise dos Houthis no Mar Vermelho, o programa nuclear iraniano e a guerra Irã-Israel-EUA (2024-2026), e a posição estratégica da Turquia entre a Europa e o Oriente Médio, incluindo a dissolução do PKK em 2025.",
     "audio": null,
     "bibliografia": [
       "Saviani",
@@ -625,6 +678,11 @@
     "links": [
       "GolfoIemen",
       "TurquiaCurdos"
+    ],
+    "livros": [
+      "SatrapiPersepolis",
+      "PamukNeve",
+      "HedayatCorujaCega"
     ]
   },
   {
@@ -641,10 +699,10 @@
     "id": 331,
     "titulo": "Subcontinente indiano",
     "imagem": "fotoIndex/3ano/aula31.webp",
-    "conteudo": "Afeganistão; Guerras; Índia e sua diversidade étnica; Intervenções estrangeiras na Ásia Central.",
+    "conteudo": "Índia e sua diversidade étnica e religiosa; Partição e conflito Índia-Paquistão; Bangladesh e Sri Lanka; Afeganistão e intervenções estrangeiras na Ásia Central.",
     "linkTexto": "3ano/Textos3/Texto31/tt31.php?id=331",
     "linkQuestoes": "questoes/modelo-questoes.php?id=331",
-    "objetivo": "Analisar a diversidade do subcontinente indiano, o sistema de castas, a Partição de 1947, o conflito Índia-Paquistão e as contradições do desenvolvimento indiano.",
+    "objetivo": "Analisar a diversidade do subcontinente indiano, o sistema de castas, a Partição de 1947, o conflito Índia-Paquistão (incluindo a Operação Sindoor de 2025), as contradições do desenvolvimento indiano, as transições políticas em Bangladesh e Sri Lanka, e o Afeganistão como palco histórico de disputas entre potências estrangeiras.",
     "audio": null,
     "bibliografia": [
       "Saviani",
@@ -658,6 +716,11 @@
     "links": [
       "IndiaCastas",
       "BangladeshTextil"
+    ],
+    "livros": [
+      "AdigaOTigreBranco",
+      "HosseiniCacadorPipas",
+      "TrasiTodasCoresCeu"
     ]
   },
   {
@@ -667,7 +730,7 @@
     "conteudo": "Federação Russa: aspectos físicos, impactos do fim da URSS e conflitos no Cáucaso.",
     "linkTexto": "3ano/Textos3/Texto32/tt32.php?id=332",
     "linkQuestoes": "questoes/modelo-questoes.php?id=332",
-    "objetivo": "Compreender o território russo, seus recursos naturais, a dissolução da URSS, o modelo político de Putin e as consequências globais da guerra na Ucrânia.",
+    "objetivo": "Compreender o território russo, seus recursos naturais, a dissolução da URSS, o modelo político de Putin (incluindo o motim de Prigozhin e a reeleição de 2024) e as consequências globais da guerra na Ucrânia, incluindo a incursão de Kursk e o impasse nas negociações de paz até 2026.",
     "audio": null,
     "bibliografia": [
       "Saviani",
@@ -681,6 +744,11 @@
     "links": [
       "RussiaUcrania",
       "RussiaPermafrost"
+    ],
+    "livros": [
+      "AleksievitchFimHomemSovietico",
+      "SoljenitsinIvanDenissovitch",
+      "TchekhovAEstepe"
     ]
   },
   {
@@ -704,6 +772,10 @@
     "links": [
       "ChinaNovaRota",
       "ChinaBrasil"
+    ],
+    "livros": [
+      "DaiSijieBalzacCostureirinha",
+      "LuXunAhQ"
     ]
   },
   {
@@ -727,6 +799,10 @@
     "links": [
       "ChinaXinjiang",
       "HongKongLei"
+    ],
+    "livros": [
+      "HarrerSeteAnosTibet",
+      "MaJianPequimEmComa"
     ]
   },
   {
@@ -750,6 +826,10 @@
     "links": [
       "JapaoTigres",
       "OceaniaClima"
+    ],
+    "livros": [
+      "IshiguroPalidaVisaoColinas",
+      "IhimaeraEncantadoraBaleias"
     ]
   },
   {

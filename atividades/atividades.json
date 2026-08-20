@@ -1,5 +1,35 @@
 [
  {
+    "id": 9,
+    "titulo": "Desigualdades Urbanas ao Redor do Mundo",
+    "tema": "Urbanização",
+    "nivel": "3º ano EM",
+    "descricao": "Grupos comparam uma metrópole internacional com a própria cidade, listando diferenças de infraestrutura e cultura para discutir desigualdades urbanas globais.",
+    "bncc": "EM13CHS101, EM13CHS204, EM13CHS302",
+    "link": "atividade-desigualdades-urbanas.pdf",
+    "tag": "Atividade"
+},
+ {
+    "id": 8,
+    "titulo": "Descrição Fotográfica: Sistemas Agrícolas Mundiais",
+    "tema": "Agropecuária",
+    "nivel": "2º ano EM",
+    "descricao": "Duplas analisam fotos de sistemas agrícolas (Sertão, EUA e Senegal) e descrevem localização, tecnologia, condições socioterritoriais e clima usando terminologia geográfica.",
+    "bncc": "EM13CHS101, EM13CHS204, EM13CHS302",
+    "link": "atividade-descricao-fotografica-agropecuaria.pdf",
+    "tag": "Atividade"
+},
+ {
+    "id": 7,
+    "titulo": "Simulação de Negociações: Blocos Econômicos",
+    "tema": "Blocos Econômicos",
+    "nivel": "3º ano EM",
+    "descricao": "Países fictícios negociam a formação de um bloco econômico, defendendo seus interesses e fazendo concessões diplomáticas em rodadas de negociação.",
+    "bncc": "EM13CHS201, EM13CHS302, EM13CHS304",
+    "link": "atividade-blocos-economicos.pdf",
+    "tag": "Simulação"
+},
+ {
     "id": 6,
     "titulo": "A Grande Cúpula do Comércio Global",
     "tema": "Comércio Mundial",

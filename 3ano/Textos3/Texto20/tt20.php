@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Estados Unidos: poder militar e guerra comercial com a China, agricultura e industrialização, imigração e fronteiras, e a formação territorial da maior potência global após a Guerra Fria">
+    <meta property="og:title" content="Texto 20 - América do Norte: Estados Unidos">
+    <meta property="og:description" content="Do momento unipolar ao mundo multipolar: entenda o poder militar, econômico e territorial dos Estados Unidos">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -16,15 +16,16 @@
     <link rel="stylesheet" href="/estilos/navbar.css">
     <link rel="stylesheet" href="/estilos/rpg-sistema.css">
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
+    <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
+    <link rel="stylesheet" href="/estilos/texto-estilo.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Open+Sans&family=VT323&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 
@@ -40,8 +41,10 @@
     <script src="/js/abrirmenu.js" defer></script>
     <script src="/js/carregar.js" defer></script>
     <script src="/js/aulas-geral.js" defer></script>
+    <script src="/js/glossario.js" defer></script>
+    <script src="/js/texto-painel.js" defer></script>
 
-    <title>3º ano - Texto 20 - América do Norte: Estados Unidos.</title>
+    <title>3º ano - Texto 20 - América do Norte: Estados Unidos</title>
 
 </head>
 
@@ -56,7 +59,7 @@
 
             <div class="w3-padding-top-48"></div>
 
-            <h1 id="h1"> </h1>
+            <h1 id="h1">América do Norte: Estados Unidos</h1>
 
             <div class="w3-panel w3-light-grey w3-leftbar w3-border-green w3-round-large w3-padding-16 w3-margin-top">
                 <div class="w3-row">
@@ -91,50 +94,16 @@
 
 
             <p> <span class="primeiraLetra">A</span>nteriormente, vimos os desafios das desigualdades regionais
-                presentes na
-                União Europeia. </p>
+                presentes na União Europeia, da crise de 2008 aos movimentos separatistas e ao Brexit. </p>
 
-
-            <p>Na aula de hoje veremos a maior potência mundial: Os Estados Unidos, sua influência global, militar,
-                cultural
-                no período atual. </p>
-
-
-
-
-
-
-
-
-
+            <p>Na aula de hoje atravessamos o Atlântico para estudar a maior potência mundial: os Estados Unidos, sua
+                influência militar, econômica e cultural no cenário global, e como essa posição de poder se
+                relaciona com sua agricultura, sua indústria e sua história de formação territorial.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
 
 
-        </div>
-        <div class="topico">
-            <div class="w3-pale-yellow">
-                <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
-
-                <h3>1. Como o fim da Guerra Fria impactou a posição dos Estados Unidos no cenário global?</h3>
-                <h3>2. Quais são os principais componentes do poder militar dos EUA e como eles contribuem para sua
-                    influência global?</h3>
-                <h3>3. Qual é o papel das alianças e organizações internacionais, como a OTAN e as Nações Unidas, na
-                    manutenção da influência global dos EUA?</h3>
-                <h3>4. Como a agricultura nos EUA contribui para sua influência econômica global?</h3>
-                <h3>5. Quais são os desafios ambientais associados à agricultura intensiva nos EUA?</h3>
-                <h3>6. De que maneira a industrialização moldou a economia e a sociedade dos EUA?</h3>
-                <h3>7. O que caracteriza o fenômeno da gentrificação e como ele afeta as comunidades urbanas?</h3>
-                <h3>8. Quais são os principais desafios enfrentados pelos imigrantes nos EUA e como eles afetam a
-                    sociedade?</h3>
-                <h3>9. Como a imigração influenciou a diversidade cultural e social nos Estados Unidos?</h3>
-                <h3>10. De que maneira a ascensão de potências como a China representa um desafio para a hegemonia
-                    americana?</h3>
-            </div>
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
         </div>
         <div class="topico">
 
@@ -149,12 +118,16 @@
                 espacial, e a influência sobre países em desenvolvimento por meio de alianças políticas e econômicas.
             </p>
 
+            <div class="w3-margin"><img id="imagem1" src="tt20f01.png" alt="Mapa dos blocos da Guerra Fria: capitalista, liderado pelos Estados Unidos, e comunista, liderado pela União Soviética - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao1"> </span>
+            </div>
+
             <p>No entanto, com a queda do Muro de Berlim em 1989 e o subsequente colapso da União Soviética em 1991, a
                 Guerra Fria chegou ao fim. A dissolução da União Soviética marcou o fim do sistema bipolar de poder
                 global,
                 deixando os Estados Unidos como a única superpotência remanescente. Essa nova era, que começou no início
                 dos
-                anos 1990, ficou conhecida como o "momento unipolar", caracterizado pela hegemonia americana em diversas
+                anos 1990, ficou conhecida como o <span class="termo" data-palavra="Momento Unipolar" data-definicao="Período, iniciado com o fim da Guerra Fria em 1991, em que uma única potência, os Estados Unidos, exerce hegemonia incontestável nos planos econômico, político, militar e cultural, sem um rival capaz de equilibrar seu poder.">"momento unipolar"</span>, caracterizado pela hegemonia americana em diversas
                 esferas do poder internacional.</p>
 
             <p><strong>Poder Militar:</strong></p>
@@ -170,7 +143,13 @@
                 poder rapidamente em qualquer parte do mundo, respondendo a crises ou conflitos em tempo hábil. As bases
                 militares em regiões estratégicas, como Europa, Ásia-Pacífico e Oriente Médio, ajudam a proteger
                 interesses
-                americanos, garantir o acesso a rotas comerciais essenciais e apoiar aliados.</p>
+                americanos, garantir o acesso a rotas comerciais essenciais e apoiar aliados. Manter essa rede de
+                bases custa aos cofres estadunidenses mais de 70 bilhões de dólares por ano, um valor que, sozinho,
+                supera o orçamento de defesa de boa parte dos países do mundo.</p>
+
+            <div class="w3-margin"><img id="imagem2" src="tt20f02.png" alt="Mapa das bases militares dos Estados Unidos ao redor do mundo - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao2"> </span>
+            </div>
 
             <p><strong>Tecnologia Militar:</strong> A superioridade tecnológica é outro pilar do poder militar
                 americano. Os
@@ -179,7 +158,9 @@
                 defesa antimísseis, drones, aviões de combate stealth, e armas cibernéticas. A inovação contínua no
                 setor
                 militar garante que os EUA mantenham uma vantagem sobre potenciais adversários, tornando-se um fator
-                dissuasório para conflitos diretos com outras grandes potências.</p>
+                dissuasório para conflitos diretos com outras grandes potências. Esse orçamento é, de longe, o maior
+                do planeta: em 2026, os gastos militares estadunidenses ultrapassam 900 bilhões de dólares por ano,
+                mais do que a soma dos orçamentos de defesa da China, da Rússia, da Índia e do Reino Unido juntos.</p>
 
             <p><strong>Intervenções Militares:</strong> Desde o fim da Guerra Fria, os Estados Unidos intervieram em
                 vários
@@ -191,8 +172,23 @@
                 controversas, destacam a capacidade dos EUA de influenciar diretamente os resultados políticos em outras
                 nações.</p>
 
+            <p>Um marco importante dessa política intervencionista foi a
+                <span class="termo" data-palavra="Doutrina Bush" data-definicao="Estratégia de segurança nacional anunciada pelo presidente George W. Bush em 2002, após os atentados de 11 de setembro de 2001, que autorizava os Estados Unidos a realizar ataques preventivos contra países e grupos considerados ameaças terroristas, mesmo sem uma agressão direta prévia.">Doutrina Bush</span>,
+                formulada após os atentados de 11 de setembro de 2001 contra as torres gêmeas do World Trade Center e
+                o Pentágono. A doutrina justificou as invasões ao Afeganistão e ao Iraque com base na ideia de que os
+                EUA, como superpotência, tinham o direito de realizar ataques preventivos contra países considerados
+                ameaças. Governos seguintes alternaram entre essa postura mais coercitiva e uma diplomacia baseada no
+                soft power, como fez Barack Obama ao dialogar com Irã e Cuba entre 2014 e 2015, enquanto Donald Trump
+                e Joe Biden alternaram sanções econômicas, apoio militar a aliados (como a Ucrânia, invadida pela
+                Rússia em 2022) e novas intervenções diretas. Um exemplo recente é a guerra entre Estados Unidos,
+                Israel e Irã, iniciada em fevereiro de 2026 com ataques aéreos contra instalações militares e
+                nucleares iranianas, que segue com episódios de escalada ao longo do ano e voltou a interromper o
+                tráfego marítimo no Estreito de Hormuz.</p>
+
             <p><strong>Alianças e Organizações Internacionais:</strong> Além de seu poder militar direto, os EUA lideram
-                várias alianças militares, sendo a OTAN (Organização do Tratado do Atlântico Norte) a mais proeminente.
+                várias alianças militares, sendo a
+                <span class="termo" data-palavra="OTAN" data-definicao="Organização do Tratado do Atlântico Norte, aliança militar criada em 1949 por Estados Unidos, Canadá e países da Europa Ocidental para se defender coletivamente contra a ameaça soviética durante a Guerra Fria.">OTAN</span>
+                (Organização do Tratado do Atlântico Norte) a mais proeminente.
                 A
                 OTAN, que inclui muitos países europeus, foi criada durante a Guerra Fria como uma aliança defensiva
                 contra
@@ -203,9 +199,9 @@
                 globais em áreas como segurança, direitos humanos e desenvolvimento.</p>
 
             <p><strong>Influência Global:</strong> O poder militar dos Estados Unidos é complementado por sua influência
-                econômica, cultural e tecnológica. O "soft power" americano — a capacidade de influenciar outros países
-                por
-                meio de cultura, valores e diplomacia, em vez de força militar — também é uma ferramenta crucial de
+                econômica, cultural e tecnológica. O <span class="termo" data-palavra="Soft Power" data-definicao="Termo em inglês para 'poder suave': a capacidade de um país influenciar outros por meio de cultura, valores, diplomacia e atração, em vez de coerção militar ou econômica direta.">"soft power"</span> americano, isto é,
+                a capacidade de influenciar outros países por
+                meio de cultura, valores e diplomacia, em vez de força militar, também é uma ferramenta crucial de
                 hegemonia. A presença de empresas americanas em mercados globais, a disseminação da cultura pop
                 americana e
                 o domínio da tecnologia digital são exemplos de como os EUA moldam o cenário internacional. Além disso,
@@ -216,20 +212,41 @@
                 continua
                 a ser um motor vital da economia mundial.</p>
 
-            <p><strong>Desafios e Oportunidades:</strong> Apesar de sua posição dominante, os Estados Unidos enfrentam
-                desafios significativos. A ascensão de outras potências, como a China, que está expandindo sua
-                influência
-                econômica e militar, representa uma ameaça à hegemonia americana. Além disso, conflitos regionais,
-                terrorismo internacional, mudanças climáticas e crises econômicas globais também testam a capacidade dos
-                EUA
-                de manter sua liderança mundial. Ao mesmo tempo, a posição dos EUA oferece oportunidades para moldar o
+            <p><strong>Do Mundo Unipolar ao Mundo Multipolar:</strong> Apesar de sua posição dominante, os Estados
+                Unidos enfrentam desafios significativos que vêm corroendo, desde o início dos anos 2000, a ideia de
+                uma <span class="termo" data-palavra="Mundo Multipolar" data-definicao="Ordem internacional em que o poder econômico, político e militar está distribuído entre vários centros de influência (como Estados Unidos, China, União Europeia, Rússia e Índia), em vez de concentrado em uma única superpotência.">ordem unipolar</span>
+                incontestável. As invasões ao Afeganistão e ao Iraque, interpretadas por parte da comunidade
+                internacional como defesa unilateral de interesses próprios, abalaram a imagem dos EUA como líder
+                capaz de convencer aliados de que suas ações beneficiam todo o sistema internacional. Em seu lugar,
+                emergiu um mundo multipolar, no qual os Estados Unidos ainda ocupam papel de destaque, mas coexistem
+                com outros centros de poder, como a China, a União Europeia, a Rússia e a Índia.</p>
+
+            <p><strong>A Guerra Comercial com a China:</strong> O principal desafio à hegemonia estadunidense hoje é
+                econômico. Durante quase um século e meio, desde que ultrapassaram o PIB britânico em 1872, os Estados
+                Unidos foram a maior economia do mundo, mas em 2014 o PIB da China, ajustado pelo poder de compra,
+                ultrapassou o dos EUA. Entre o início dos anos 1990 e o final da década de 2010, a economia chinesa
+                cresceu, em média, cerca de 10% ao ano, contra 2,6% da economia estadunidense. Esse crescimento
+                explica, em boa parte, a
+                <span class="termo" data-palavra="Guerra Comercial EUA-China" data-definicao="Disputa econômica iniciada em 2018, quando os Estados Unidos passaram a impor tarifas e restrições à importação de produtos chineses para conter o avanço econômico e tecnológico da China, com retaliações do lado chinês.">guerra comercial</span>
+                que os Estados Unidos impõem à China desde 2018, na forma de tarifas e restrições à importação de
+                produtos chineses. Em 2025 e 2026, sob o segundo governo de Donald Trump, essa disputa se intensificou:
+                tarifas recíprocas chegaram a ser anunciadas em patamares de mais de 100% sobre produtos chineses,
+                antes de trégua parcial e novas negociações, deixando em vigor tarifas adicionais que somam cerca de
+                30% sobre boa parte das importações vindas da China. Paralelamente, a China consolidou blocos próprios
+                de influência, como o grupo dos BRICS (que você já estudou), e passou a investir pesadamente em
+                infraestrutura em outros países por meio de sua Iniciativa Cinturão e Rota.</p>
+
+            <p><strong>Outros Desafios:</strong> Além da concorrência chinesa, conflitos regionais, mudanças
+                climáticas e crises econômicas globais também testam a capacidade dos EUA de manter sua liderança
+                mundial. Ao mesmo tempo, a posição dos EUA oferece oportunidades para moldar o
                 futuro da ordem internacional de maneiras que promovam seus interesses e valores. A capacidade de formar
                 coalizões, liderar em áreas de inovação tecnológica e manter uma presença militar robusta são aspectos
                 que
-                continuarão a definir o papel dos Estados Unidos no cenário global.</p>
+                continuarão a definir o papel dos Estados Unidos no cenário global, ainda que já não sozinhos no topo.</p>
 
-            <p><strong>Discussão:</strong> Como os EUA utilizam seu poder militar para manter sua posição global? De que
-                maneiras essa presença militar impacta as relações internacionais e a geopolítica?</p>
+            <p><strong>Discussão:</strong> Como os EUA utilizam seu poder militar e econômico para manter sua posição
+                global? De que maneiras a ascensão da China e a guerra comercial entre os dois países impactam as
+                relações internacionais e a geopolítica atual?</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
@@ -237,7 +254,7 @@
         </div>
         <div class="topico">
 
-            <div class="w3-pale-blue">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
                 <h2>2. Agricultura nos EUA: Regiões e Produção</h2>
 
@@ -250,7 +267,12 @@
                     especializando-se em culturas específicas.</p>
 
                 <p><strong>Principais Regiões Agrícolas:</strong></p>
-                <p><strong>Cinturão de Milho (Corn Belt):</strong> O Cinturão de Milho é uma das regiões agrícolas mais
+
+                <div class="w3-margin"><img id="imagem3" src="tt20f03.png" alt="Mapa das regiões agrícolas dos Estados Unidos: Cinturão do Milho, Cinturão do Trigo, Vale Central da Califórnia e Cinturão do Algodão - Duvid Geografia" class="w3-mobile">
+                    <span class="w3-small w3-margin-left" id="citacao3"> </span>
+                </div>
+
+                <p><strong><span class="termo" data-palavra="Cinturão Agrícola" data-definicao="Nos Estados Unidos, região com forte especialização na produção de um determinado tipo de cultura ou atividade agropecuária, como o Cinturão de Milho, o Cinturão do Trigo e o Cinturão do Algodão. O conceito reflete a divisão regional do trabalho agrícola típica da geografia estadunidense.">Cinturão de Milho (Corn Belt)</span>:</strong> O Cinturão de Milho é uma das regiões agrícolas mais
                     importantes dos Estados Unidos, abarcando estados como Iowa, Illinois, Indiana, Ohio, Missouri, e
                     partes de
                     outros estados vizinhos. Esta região é dominada pela produção de milho e soja. O milho cultivado
@@ -359,6 +381,11 @@
                 enfrentando desafios significativos, como declínio industrial e desigualdades socioeconômicas.</p>
 
             <p><strong>Principais Regiões Industriais:</strong></p>
+
+            <div class="w3-margin"><img id="imagem4" src="tt20f04.png" alt="Mapa do Cinturão da Ferrugem (Rust Belt) e do Vale do Silício nos Estados Unidos - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao4"> </span>
+            </div>
+
             <p><strong>Cinturão da Ferrugem (Rust Belt):</strong> O Cinturão da Ferrugem é uma região que abrange
                 estados do
                 Nordeste e Centro-Oeste dos EUA, como Michigan, Ohio, Pensilvânia, Illinois e Indiana. Durante grande
@@ -394,7 +421,7 @@
                 tecnológico.</p>
 
             <p><strong>Gentrificação e Fronteiras Urbanas:</strong></p>
-            <p><strong>Gentrificação:</strong> A gentrificação é um fenômeno urbano que ocorre quando áreas urbanas
+            <p><strong><span class="termo" data-palavra="Gentrificação" data-definicao="Processo de renovação e valorização de áreas urbanas antes degradadas, geralmente impulsionado por investimentos privados, que eleva os preços dos imóveis e tende a deslocar moradores e comércios de baixa renda que ocupavam a região originalmente.">Gentrificação</span>:</strong> A gentrificação é um fenômeno urbano que ocorre quando áreas urbanas
                 previamente degradadas passam por processos de renovação e valorização, geralmente impulsionados por
                 investimentos privados. Esses investimentos levam ao aumento dos preços dos imóveis e ao surgimento de
                 novos
@@ -410,13 +437,20 @@
                 público mais abastado. Essa transformação alterou a demografia e a cultura do bairro, gerando debates
                 sobre
                 o impacto social da gentrificação.</p>
+
+            <div class="w3-margin"><img id="imagem5" src="tt20f05.png" alt="Bairro de Williamsburg, no Brooklyn, Nova York, exemplo de gentrificação urbana - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao5"> </span>
+            </div>
+
             <p><strong>Fronteiras Urbanas:</strong> As fronteiras urbanas referem-se às divisões físicas e sociais que
                 delimitam diferentes áreas dentro das cidades americanas, muitas vezes refletindo disparidades
                 econômicas,
                 sociais e raciais. Essas fronteiras podem ser visíveis em termos de infraestrutura, como estradas e
                 ferrovias que separam bairros, ou em termos mais sutis, como a segregação econômica e racial.</p>
             <p>Nos Estados Unidos, essas fronteiras urbanas são frequentemente resultado de políticas históricas de
-                segregação e desigualdade, como o redlining (prática de discriminação financeira) e a exclusão
+                segregação e desigualdade, como o
+                <span class="termo" data-palavra="Redlining" data-definicao="Prática de discriminação financeira, comum nos EUA entre as décadas de 1930 e 1960, em que bancos e seguradoras marcavam em mapas (em vermelho) bairros de maioria negra ou de baixa renda como 'de risco', negando crédito e financiamento imobiliário a seus moradores.">redlining</span>
+                (prática de discriminação financeira) e a exclusão
                 habitacional.
                 Em muitas cidades americanas, essas fronteiras ainda existem, criando divisões claras entre áreas
                 prósperas
@@ -453,7 +487,7 @@
 
 
 
-            <div class="w3-pale-red">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
                 <h2>4. Imigração nos EUA: História e Desafios Atuais</h2>
 
                 <p>A imigração tem sido uma força fundamental na formação dos Estados Unidos, trazendo diversas ondas de
@@ -464,6 +498,11 @@
                     especialmente em relação à integração e segurança.</p>
 
                 <p><strong>História da Imigração nos EUA:</strong></p>
+
+                <div class="w3-margin"><img id="imagem6" src="tt20f06.png" alt="Imigrantes europeus chegando aos Estados Unidos por Ellis Island, no início do século XX - Duvid Geografia" class="w3-mobile">
+                    <span class="w3-small w3-margin-left" id="citacao6"> </span>
+                </div>
+
                 <p><strong>Século XIX e XX: Fluxos de Imigrantes Europeus e Asiáticos:</strong> Nos séculos XIX e XX, os
                     Estados
                     Unidos foram o destino de milhões de imigrantes, principalmente europeus e asiáticos, em busca de
@@ -478,7 +517,9 @@
                     imigração
                     asiática, especialmente da China e do Japão. Esses imigrantes muitas vezes enfrentaram discriminação
                     e
-                    políticas de exclusão, como a Lei de Exclusão Chinesa de 1882, que proibiu a imigração de
+                    políticas de exclusão, como a
+                <span class="termo" data-palavra="Lei de Exclusão Chinesa" data-definicao="Lei federal aprovada pelos Estados Unidos em 1882, a primeira legislação estadunidense a proibir a imigração de um grupo nacional específico, barrando a entrada de trabalhadores chineses no país por várias décadas.">Lei de Exclusão Chinesa</span>
+                de 1882, que proibiu a imigração de
                     trabalhadores
                     chineses por várias décadas.</p>
                 <p>Os imigrantes dessa época foram fundamentais para a construção da infraestrutura dos Estados Unidos,
@@ -515,17 +556,28 @@
                     migratórias. Questões como a língua, o acesso a serviços públicos e a igualdade de oportunidades
                     continuam
                     sendo pontos de discussão na sociedade americana.</p>
+
+                <div class="w3-margin"><img id="imagem7" src="tt20f07.png" alt="Fronteira entre os Estados Unidos e o México - Duvid Geografia" class="w3-mobile">
+                    <span class="w3-small w3-margin-left" id="citacao7"> </span>
+                </div>
+
                 <p><strong>Fronteiras e Segurança:</strong> Um dos temas mais controversos em relação à imigração
                     contemporânea
                     é a segurança nas fronteiras, especialmente a fronteira entre os Estados Unidos e o México. A
                     questão da
                     segurança fronteiriça se tornou um ponto central na política americana, culminando no debate sobre a
-                    construção de um muro na fronteira sul, promovido durante o governo Trump. Esse debate polarizou a
+                    construção de um muro na fronteira sul, promovido a partir do primeiro governo Trump (2017-2021).
+                    Esse debate polarizou a
                     sociedade
                     americana, com argumentos que variam desde a necessidade de proteger o país contra imigração ilegal
                     e
                     tráfico de drogas, até as críticas de que tais medidas são desumanas e ineficazes.</p>
-                <p>O controle de imigração e as políticas de fronteira continuam sendo tópicos delicados, com
+                <p>Desde o início de seu segundo mandato, em janeiro de 2025, o governo Trump endureceu ainda mais a
+                    política de fronteira: suspendeu, na prática, o direito de solicitar asilo na fronteira sul,
+                    destinou cerca de 70 bilhões de dólares à agência de Imigração e Alfândega (ICE) e lançou novas
+                    operações de vigilância, como a Operação Rio Grande. Como resultado, as apreensões de imigrantes
+                    na fronteira caíram para os níveis mais baixos desde meados da década de 1960. O controle de
+                    imigração e as políticas de fronteira continuam sendo tópicos delicados, com
                     implicações tanto
                     para a segurança nacional quanto para os direitos humanos. Além disso, a questão da imigração
                     indocumentada,
@@ -575,6 +627,10 @@
                 original das treze colônias foi ampliado por meio de compras de terras negociadas com potências
                 europeias e de guerras contra vizinhos, até alcançar as dimensões continentais atuais.</p>
 
+            <div class="w3-margin"><img id="imagem8" src="tt20f08.png" alt="Mapa da expansão territorial dos Estados Unidos: Compra da Louisiana, Cessão Mexicana e Compra do Alasca - Duvid Geografia" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao8"> </span>
+            </div>
+
             <p><strong>Compra da Louisiana (1803):</strong> Negociada com a França de Napoleão Bonaparte, essa
                 aquisição praticamente dobrou o território americano, incorporando uma vasta área entre o rio
                 Mississippi e as Montanhas Rochosas.</p>
@@ -589,7 +645,7 @@
             <p><strong>Compra do Alasca (1867):</strong> Já no período pós-Guerra Civil, os Estados Unidos compraram
                 o Alasca da Rússia, ampliando ainda mais seus domínios territoriais no continente americano.</p>
 
-            <p>Essa expansão foi impulsionada pela ideologia do <strong>Destino Manifesto</strong>, a crença de que
+            <p>Essa expansão foi impulsionada pela ideologia do <strong><span class="termo" data-palavra="Destino Manifesto" data-definicao="Ideologia difundida nos Estados Unidos ao longo do século XIX segundo a qual o país teria o direito e o dever divino de se expandir por todo o continente norte-americano, usada para justificar guerras, compras de território e a remoção forçada de povos indígenas.">Destino Manifesto</span></strong>, a crença de que
                 os EUA tinham o direito e o dever de se expandir por todo o continente norte-americano. O processo
                 combinou negociações diplomáticas com potências europeias em declínio, como França, Espanha e
                 Rússia, e conflitos militares diretos, sobretudo com o México, consolidando as bases territoriais que
@@ -632,7 +688,7 @@
 
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-leftbar w3-sand w3-padding">
 
                 <h2>Atividade Final: Debate em Sala</h2>
 
@@ -669,6 +725,182 @@
         </div>
 
         <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="infograficot20" src="inforesumott20.webp"
+                    alt="Infográfico resumo América do Norte: Estados Unidos" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+        <div class="topico">
+            <h2 id="centralizado">Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Se os EUA têm o maior orçamento militar do mundo, por que ainda perdem influência para a China?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque poder militar e poder econômico são coisas diferentes.
+                A China não precisa vencer os EUA em uma guerra para ganhar influência: basta continuar crescendo
+                economicamente, financiando infraestrutura em outros países e ampliando blocos como o BRICS. A
+                disputa de hoje é, sobretudo, comercial e tecnológica, não apenas militar.</p>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Por que os Estados Unidos, um país tão rico, ainda têm bairros marcados por pobreza e segregação?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque riqueza nacional não se distribui automaticamente entre
+                todos os grupos sociais. Políticas históricas como o redlining negaram crédito a bairros inteiros por
+                décadas, e processos como a gentrificação e o declínio industrial do Cinturão da Ferrugem
+                aprofundaram desigualdades que continuam visíveis nas cidades americanas hoje.</p>
+
+            <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
+                    Se a imigração sempre foi parte da história dos EUA, por que ela é um tema tão polêmico hoje?
+                </strong> </p>
+            <p><span class="primeiraLetra">R:</span> Porque o perfil da imigração mudou (de majoritariamente europeia
+                para latino-americana e asiática) e porque, em momentos de insegurança econômica, é comum que parte
+                da população veja o imigrante como concorrente por empregos e recursos, mesmo quando os dados mostram
+                que a imigração tende a beneficiar a economia como um todo.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
+            <br/><br/>
+            <hr/>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    A guerra comercial entre Estados Unidos e China, iniciada em 2018, consiste principalmente em:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) Um confronto militar direto no Mar da China</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) Tarifas e restrições à importação de produtos chineses</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) O fim da adesão da China à ONU</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'A guerra comercial é sobretudo econômica: tarifas e barreiras à importação, não confronto militar!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    O Cinturão da Ferrugem (Rust Belt) é uma região dos EUA marcada por:
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="correto" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Declínio industrial após décadas como centro manufatureiro</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="errado" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Produção intensiva de trigo e milho</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Concentração de empresas de tecnologia</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Isso é o Vale do Silício! O Rust Belt é o antigo coração industrial que perdeu fábricas e empregos.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+        <div class="topico">
+            <h2>Resumindo</h2>
+            <p>Nesta aula, vimos como os Estados Unidos passaram do momento unipolar do pós-Guerra Fria a um mundo
+                cada vez mais multipolar, em que sua hegemonia militar e tecnológica convive com a ascensão econômica
+                da China e uma guerra comercial que já dura quase uma década. Vimos também como a agricultura e a
+                industrialização moldaram regiões inteiras do país, do Cinturão de Milho ao Cinturão da Ferrugem,
+                e como fenômenos como a gentrificação e o redlining deixaram marcas profundas nas cidades americanas.
+                Por fim, vimos como a imigração, historicamente essencial à formação dos EUA, e o processo de
+                expansão territorial guiado pelo Destino Manifesto ajudam a explicar o país que os Estados Unidos são
+                hoje.</p>
+            <p>Na próxima aula, seguimos na América do Norte para estudar os dois vizinhos dos Estados Unidos: o
+                Canadá, com seu multiculturalismo, e o México, com sua questão indígena e suas fronteiras, além do
+                bloco econômico que une os três países, o USMCA (antigo Nafta).</p>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div id="ficha-conceitos"></div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
+            <div class="w3-panel w3-pale-yellow w3-margin">
+                <h2>Questões para responder no caderno</h2>
+                <h3>1. O que caracteriza o "momento unipolar" dos Estados Unidos após o fim da Guerra Fria?</h3>
+                <h3>2. Quais são os principais componentes do poder militar dos EUA, e quanto custa mantê-los?</h3>
+                <h3>3. O que foi a Doutrina Bush, e como ela justificou as invasões ao Afeganistão e ao Iraque?</h3>
+                <h3>4. O que caracteriza a guerra comercial entre Estados Unidos e China, e desde quando ela ocorre?</h3>
+                <h3>5. Quais são as principais regiões agrícolas dos Estados Unidos, e o que cada uma produz?</h3>
+                <h3>6. O que foi o Cinturão da Ferrugem (Rust Belt), e por que ele entrou em declínio?</h3>
+                <h3>7. O que é gentrificação, e como o redlining contribuiu para a segregação urbana nos EUA?</h3>
+                <h3>8. Como mudou o perfil da imigração para os Estados Unidos entre os séculos XIX e XXI?</h3>
+                <h3>9. Quais medidas o governo dos EUA adotou na fronteira sul a partir de 2025?</h3>
+                <h3>10. O que foi o Destino Manifesto, e quais territórios os EUA incorporaram no século XIX?</h3>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+        </div>
+
+        <div class="topico">
             <h3>Antes de finalizar, vamos fazer as questões!</h3>
             <button class="btnShow" onclick="
     if(this.disabled) return;
@@ -699,9 +931,6 @@
         <div class="topico">
             <button class="btnShow" onclick="mostraCinza(); this.style='display:none'">Finalizar</button>
         </div>
-        </div>
-
-        </div>
 
 
         <div id="final-da-aula" class="bibliografias w3-content w3-padding-64" style="max-width:700px">
@@ -718,12 +947,21 @@
                 <div id="biblio-gerada"></div>
             </div>
 
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
+            </div>
+
             <br><br>
             <div class="w3-padding-48">
                 <span id="numero"></span>
                 <span id="txtBarra">0%</span>
                 <progress value="0" max="100" id="progress"></progress>
             </div>
+        </div>
 
     </main>
 
