@@ -103,7 +103,7 @@
                 <p class="w3-pale-green">Você já reparou que o contorno do litoral da América do Sul parece encaixar como uma peça de quebra-cabeça no litoral da África? Ou já sentiu falar de um terremoto acontecendo do outro lado do mundo?</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, os continentes sempre estiveram parados, exatamente onde estão hoje, ou será que eles se movem? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -115,7 +115,7 @@
             <p>Na aula de hoje, veremos a dinâmica da litosfera e como os continentes se movimentam através das placas tectônicas.</p>
             <p><strong>Esta aula responde a uma pergunta que intrigou cientistas por séculos: os continentes que conhecemos hoje sempre estiveram onde estão, ou eles se deslocam lentamente pela superfície da Terra, e como foi possível provar isso?</strong></p>
             <p>Ao final, você será capaz de reconhecer como funciona a defesa de uma hipótese científica, os tipos de falhas tectônicas e a influência do movimento de convecção do interior do Planeta na superfície terrestre.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -138,7 +138,7 @@
 
             <p>Mas quando começou a construção dessa teoria?</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -148,13 +148,13 @@
 
             <h2> Da observação do contorno dos continentes às primeiras hipóteses sobre o movimento das placas litosféricas</h2>
 
-            <p>Hoje sabemos que a litosfera é composta por cerca de doze placas tectônicas, que estão em movimento, deslocando-se, chocando-se ou deslizando umas sobre as outras na astenosfera, camada superior do Manto terrestre.</p>
+            <p>Hoje sabemos que a litosfera é fragmentada em dezenas de placas tectônicas (cerca de 50, entre grandes e pequenas), que estão em movimento, deslocando-se, chocando-se ou deslizando umas sobre as outras na astenosfera, camada superior do Manto terrestre.</p>
 
             <p>A confirmação da hipótese da <span class="termo" data-palavra="Deriva Continental"
                     data-definicao="Hipótese formulada por Alfred Wegener em 1912, segundo a qual os continentes atuais já estiveram unidos em um único supercontinente e foram se afastando lentamente ao longo de milhões de anos.">deriva
                     continental</span> demorou vários séculos. Provar que os continentes estão em movimento não é uma tarefa fácil.</p>
 
-            <p>No final do século XVI, o cartógrafo Abraham Ortelius publicou o <em>Theatrum Orbis Terrarum</em> (Teatro do Globo Terrestre), considerado o primeiro <span
+            <p>No final do século XVI, o cartógrafo flamengo Abraham Ortelius publicou o <em>Theatrum Orbis Terrarum</em> (Teatro do Globo Terrestre), em 1570, uma coletânea de cerca de 70 mapas reunidos de forma padronizada, considerada o primeiro <span
                     onclick="Aparecer('imagem1','citacao1')"><mark>atlas</mark></span> moderno.</p>
 
             <div class="area">
@@ -166,9 +166,9 @@
 
             <p>No século XVIII, Benjamim Franklin se intrigava com os fluidos abaixo da crosta terrestre e afirmava que a superfície da Terra seria como uma casca capaz de ser quebrada pelos movimentos desses fluidos sobre os quais repousa.</p>
 
-            <p>No século XIX, o geólogo austríaco Eduard Suess defendeu a hipótese de que os continentes da porção Sul do globo (meridional) já haviam formado um único continente, chamado de Gondwana.</p>
+            <p>No século XIX, o geólogo austríaco Eduard Suess defendeu a hipótese de que os continentes da porção Sul do globo (meridional) já haviam formado um único continente, chamado de Gondwana, em homenagem a uma região da Índia onde ele havia encontrado rochas e fósseis muito semelhantes aos da África e da América do Sul. O nome pegou: até hoje os geólogos usam Gondwana para se referir à metade sul da Pangeia (América do Sul, África, Índia, Austrália e Antártica), em oposição a Laurásia, a metade norte, formada por América do Norte, Europa e Ásia.</p>
 
-            <p>Somente no início do século XX um meteorologista alemão, Alfred Wegener, após ler um artigo sobre fósseis semelhantes encontrados na África e na América do Sul, decidiu retomar a hipótese da deriva continental. Ele publicou um livro chamado "A origem dos continentes e oceanos" em 1913, no qual defende seus argumentos com algumas <strong>evidências</strong>:</p>
+            <p>Somente no início do século XX um meteorologista alemão, Alfred Wegener, após ler um artigo sobre fósseis semelhantes encontrados na África e na América do Sul, decidiu retomar a hipótese da deriva continental. Ele apresentou a ideia pela primeira vez em uma conferência em 1912 e, em 1915, publicou o livro "A origem dos continentes e oceanos", no qual defende seus argumentos com algumas <strong>evidências</strong>:</p>
 
             <ul>
                 <li>O encaixe do litoral da África no contorno do litoral da América (Evidência Morfológica). Os continentes se encaixariam como em um quebra-cabeças, tanto na América do Sul e África quanto na América do Norte e Europa.</li>
@@ -182,7 +182,7 @@
 
             <ul>
                 <li>A ocorrência dos mesmos tipos de climas nos dois continentes (Evidência Paleoclimática). Depósitos relacionados a geleiras que existiam há 300 milhões de anos foram encontrados na América do Sul, África, Índia e Austrália. A existência de uma única geleira poderia explicar todos esses depósitos; até mesmo recifes de algas coralíneas, datados do Paleozoico, foram encontrados no Círculo Polar Ártico, sendo que esses corais são peculiares do Equador.</li>
-                <li>A existência de fósseis de animais nos dois continentes, África e América (Evidência Paleontológica). A foto abaixo destaca o réptil Mesossauro, encontrado no sul do Brasil (recentemente, na cidade de Três Lagoas, em Santa Catarina, foi descoberto um exemplar), também encontrado na África. Mesmo se o Mesossauro pudesse cruzar oceanos nadando, ele teria chegado a outros lugares, o que não ocorreu. Isso sugere que os continentes estavam unidos.</li>
+                <li>A existência de fósseis de animais nos dois continentes, África e América (Evidência Paleontológica). A foto abaixo destaca o réptil Mesossauro, encontrado no sul do Brasil, em rochas da Formação Irati que afloram em São Paulo, Paraná, Santa Catarina e Rio Grande do Sul (em 2020, durante uma forte estiagem, um exemplar foi descoberto às margens do Rio Negro, em Três Barras, Santa Catarina), também encontrado na África. Mesmo se o Mesossauro pudesse cruzar oceanos nadando, ele teria chegado a outros lugares, o que não ocorreu. Isso sugere que os continentes estavam unidos.</li>
             </ul>
 
             <div class="area">
@@ -190,7 +190,7 @@
             </div>
             <p class="citacao" id="citacao3" style="display:block"> Fonte: Press (2006, p.49). </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -207,7 +207,7 @@
 
             <p>Entretanto, o meteorologista alemão não conseguiu convencer os cientistas sobre quais forças empurravam os continentes. Após anos de debate, os físicos convenceram os geólogos de que as camadas da Terra eram muito pesadas para que a deriva continental acontecesse.</p>
 
-            <p>Wegener faleceu em uma expedição na Groenlândia em 1930, antes que pudesse provar sua descoberta. Devido à falta de tecnologia, ele não conseguiu explicar o que causava a fragmentação dos continentes. Ele chegou a afirmar que os continentes eram arrastados pelas marés e pela força gravitacional da Lua. Assim, sua hipótese foi esquecida por muitos anos.</p>
+            <p>Wegener faleceu em uma expedição na Groenlândia em 1930, poucos dias depois de completar 50 anos, provavelmente de exaustão e insuficiência cardíaca, enquanto retornava a pé de uma estação de pesquisa isolada no meio da calota de gelo, antes que pudesse provar sua descoberta. Devido à falta de tecnologia, ele não conseguiu explicar o que causava a fragmentação dos continentes. Ele chegou a afirmar que os continentes eram arrastados pelas marés e pela força gravitacional da Lua, hipótese que os físicos rapidamente desmentiram com cálculos, o que só ajudou a manchar ainda mais sua reputação entre os cientistas da época. Assim, sua hipótese foi esquecida por muitos anos.</p>
 
             <p>Um grande fato após a Segunda Guerra Mundial iria mudar essa história. Trabalhos com <span
                     class="termo" data-palavra="Sonar"
@@ -222,7 +222,7 @@
 
             <p>Dois cientistas americanos, Hess e Dietz, propuseram em 1962 que a crosta no meio do Atlântico era formada por fendas (rifts) e explicaram como os continentes poderiam se separar. Após outras pesquisas, descobriu-se que a crosta surgia em um local e era destruída ou fundida em outra parte do manto. As respostas só podiam estar nas diferenças de temperatura do Manto, ou seja, nas <strong>correntes de convecção</strong>. No final da década de 1960, as evidências eram tão robustas que foram aceitas por todos os geocientistas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -250,7 +250,12 @@
             </div>
             <p class="citacao" id="citacao6" style="display:block"> Fonte: Moreira e Sene (2016, p.115). </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Hoje, diferente da época de Wegener, não precisamos mais deduzir o movimento das placas apenas indiretamente, através do assoalho oceânico ou dos fósseis. Redes de antenas de <span
+                    class="termo" data-palavra="GPS Geodésico"
+                    data-definicao="Rede de estações de GPS de altíssima precisão, fixadas em pontos estáveis da crosta terrestre, capaz de medir deslocamentos de poucos milímetros por ano e confirmar diretamente a velocidade e a direção do movimento das placas tectônicas.">GPS
+                    geodésico</span> de altíssima precisão, espalhadas pelo mundo, conseguem medir diretamente, ano após ano, o quanto cada placa se deslocou, com margem de erro de poucos milímetros. Essas medições confirmam exatamente a mesma faixa de velocidade estimada indiretamente pelos geólogos décadas atrás: a Placa Sul-Americana, por exemplo, se afasta da Placa Africana a cerca de 3 cm por ano, quase a mesma velocidade em que crescem as unhas de uma pessoa.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -281,7 +286,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'isso mesmo, as hipóteses de Wegener foram comprovadas anos depois', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: Wegener seguiu o método científico e reuniu boas evidências, só faltava explicar o mecanismo que movia os continentes, isso só foi possível décadas depois.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -328,9 +333,16 @@
 
             <p>As maiores são as placas do Pacífico e a Norte-Americana. Há placas pequenas, como a de Juan de Fuca, encravada no noroeste dos Estados Unidos, e a Placa Anatoliana, que inclui a maior parte da Turquia.</p>
 
+            <p>Conhecer esse mapa não é só um exercício de memorização. Ele tem aplicação prática direta: países localizados sobre limites de placas, como Japão, Chile, Turquia e Indonésia, precisam investir pesado em normas de construção antissísmica, sistemas de alerta precoce de tsunâmis e planos de evacuação, justamente porque sabem, através da tectônica de placas, onde e por que os terremotos e vulcões mais fortes tendem a acontecer. O Brasil, por estar quase todo situado no meio da Placa Sul-Americana, longe dos limites mais ativos, tem uma sismicidade muito mais baixa, embora não seja totalmente livre de tremores.</p>
+
             <p>É nos limites entre as placas que ocorrem os principais fenômenos naturais da crosta, como terremotos, vulcões, formação de montanhas, rifts, entre outros, dependendo da interação entre os limites. Os limites podem ser: divergente, convergente e transformante.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Não é coincidência que boa parte dos vulcões e terremotos do Planeta se concentre justamente ao redor do oceano Pacífico, numa faixa conhecida como <span
+                    class="termo" data-palavra="Cinturão de Fogo do Pacífico"
+                    data-definicao="Faixa em forma de ferradura que contorna o oceano Pacífico, concentrando cerca de 75% dos vulcões ativos do Planeta e a maior parte dos terremotos mais fortes já registrados, resultado da série de zonas de subducção que margeiam a Placa do Pacífico.">Cinturão
+                    de Fogo do Pacífico</span>. Ali, a Placa do Pacífico encontra várias outras placas (Norte-Americana, Sul-Americana, Eurasiática, Indo-Australiana e Placa de Nazca, entre outras) formando uma sequência quase contínua de zonas de subducção, do Japão às Filipinas, da costa oeste dos Estados Unidos aos Andes sul-americanos. Cerca de 90% de todos os terremotos do Planeta e 80% dos terremotos de maior magnitude acontecem nessa faixa, que também concentra boa parte dos vulcões ativos do mundo.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -354,7 +366,7 @@
                 <label>A formação geológica e os tipos de rochas semelhantes também nesses dois continentes (Evidência Litológica).</label><br /><br />
             </form>
             <button class="btnShow" id="buttoncheck1"
-                onclick="confereBox('acertou, parabéns! Essas são as evidências clássicas reunidas por Wegener em 1913','resp40','globinho40',[1,3,5,6])">Conferir</button>
+                onclick="confereBox('acertou, parabéns! Essas são as evidências clássicas reunidas por Wegener em 1915','resp40','globinho40',[1,3,5,6])">Conferir</button>
             <p class="margemAcima" id="resp40"></p>
             <div class="area">
                 <p><img alt="globinho40" height="64" id="globinho40" src="/fotoIndex/globinhoPe.png"
@@ -362,7 +374,7 @@
                 </p>
             </div>
             <button class="btnHide" id="buttoncheck2"
-                onclick="MostrarProximo(this); this.style.display='none'" style="display:none">Proximo</button>
+                onclick="MostrarProximo(this); this.style.display='none'" style="display:none">Próximo</button>
             <hr>
         </div>
 
@@ -409,7 +421,7 @@
             </div>
             <p class="citacao" id="citacao13" style="display:block"> </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -437,7 +449,7 @@
 
             <p>Essa área é propensa a terremotos devido ao choque entre essas placas. A costa oeste da América do Sul, onde a placa Sul-Americana colide com a Placa de Nazca, é uma zona de subducção.</p>
 
-            <p>O resultado disso é a formação da <span onclick="Aparecer('imagem15','citacao15')"><mark>cordilheira dos Andes</mark></span>, uma grande cadeia de montanhas paralelas com vulcões ativos, como o Nevado del Ruiz, na Colômbia, que entrou em erupção em 1985 e deixou 25 mil mortos.</p>
+            <p>O resultado disso é a formação da <span onclick="Aparecer('imagem15','citacao15')"><mark>cordilheira dos Andes</mark></span>, uma grande cadeia de montanhas paralelas com vulcões ativos, como o Nevado del Ruiz, na Colômbia, que entrou em erupção em 1985 e deixou cerca de 23 mil mortos, a maioria na cidade de Armero, soterrada por lahares (fluxos de lama vulcânica) formados pelo derretimento repentino do gelo no topo do vulcão.</p>
 
             <div class="area">
                 <img alt="Cordilheira dos Andes" class="w3-mobile" id="imagem15" src="tp9f15.png" style="display:block" />
@@ -451,7 +463,27 @@
             </div>
             <p class="citacao" id="citacao16" style="display:block">Fonte: Press (2006, p.52).</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (isostasia) -->
+        <div class="topico">
+
+            <h3>Por que a crosta continental não afunda? A isostasia</h3>
+
+            <p>Reparou como, na colisão entre placas, a crosta continental quase nunca entra em subducção, enquanto a crosta oceânica é praticamente sempre a que mergulha e é reciclada no manto? Isso tem uma explicação chamada <span
+                    class="termo" data-palavra="Isostasia"
+                    data-definicao="Princípio do equilíbrio gravitacional entre a litosfera (mais leve) e a astenosfera (mais densa, sobre a qual a litosfera repousa e flutua), de forma parecida com um bloco de gelo flutuando na água.">isostasia</span>.</p>
+
+            <p>A ideia é parecida com a de um barco flutuando na água ou um cubo de gelo boiando em um copo: a crosta continental, menos densa que o manto sobre o qual repousa, "flutua" sobre a astenosfera, do mesmo jeito que a madeira flutua sobre a água por ser menos densa que ela. Quanto mais espessa e "pesada" for uma porção da crosta, como embaixo de uma grande cordilheira, mais fundo ela afunda no manto para se manter em equilíbrio, formando uma espécie de raiz profunda que sustenta a montanha por cima.</p>
+
+            <p>Esse equilíbrio isostático explica também um fenômeno curioso: regiões que foram cobertas por camadas espessas de gelo durante as últimas glaciações, como a Escandinávia, ficaram "afundadas" pelo peso do gelo durante milhares de anos. Com o degelo, no fim da última Era Glacial, há cerca de 11.700 anos, essas regiões começaram a se reerguer lentamente, processo que continua até hoje, a uma velocidade de aproximadamente 1 cm por ano em algumas áreas da Escandinávia.</p>
+
+            <p>É por isso que a crosta continental, mais leve, resiste ao afundamento e tende a se chocar e enrugar (formando cordilheiras) em vez de mergulhar no manto, enquanto a crosta oceânica, mais densa, cede lugar e entra em subducção quando encontra outra placa.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -474,7 +506,30 @@
 
             <p>Na realidade, os limites entre placas tectônicas podem combinar-se entre si. Por exemplo, a Placa Norte-Americana é limitada a Leste pela Dorsal Mesoatlântica, que é uma área de limite divergente; a Oeste pela falha de Santo André e outros limites transformantes; e, finalmente, a Noroeste, por zonas de subducção.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (falhas tectonicas) -->
+        <div class="topico">
+
+            <h3>Falhas tectônicas: quando as rochas se rompem</h3>
+
+            <p>A falha de San Andreas, vista há pouco, é apenas um exemplo de um fenômeno mais amplo: as <span
+                    class="termo" data-palavra="Falha Tectônica"
+                    data-definicao="Fratura na crosta terrestre ao longo da qual houve deslocamento relativo entre os blocos de rocha, causado por esforços de tensão, compressão ou cisalhamento originados pela movimentação das placas tectônicas.">falhas
+                    tectônicas</span>. Sempre que os esforços gerados pelo movimento das placas superam a resistência das rochas, elas se rompem ao longo de uma superfície, e os blocos de cada lado dessa fratura se deslocam um em relação ao outro. Os geólogos classificam as falhas em três tipos principais, de acordo com a direção desse deslocamento.</p>
+
+            <p>A <strong>falha normal</strong> (ou gravitacional) ocorre quando a crosta é esticada por forças de tensão, como acontece nos limites divergentes e nos riftes continentais, como o do Leste africano. Um bloco de rocha desliza para baixo em relação ao outro, ao longo de um plano inclinado, alargando a área afetada.</p>
+
+            <p>A <strong>falha inversa</strong> (ou de compressão) ocorre no sentido oposto: quando a crosta é comprimida, como nos limites convergentes, um bloco de rocha é empurrado para cima e sobre o outro, encurtando a área afetada. É esse tipo de falha, repetido muitas vezes, que ajuda a empilhar rochas e erguer cadeias de montanhas como os Andes e o Himalaia.</p>
+
+            <p>Já a <strong>falha transcorrente</strong> (ou de deslocamento horizontal) ocorre quando os blocos deslizam lateralmente, um ao lado do outro, sem que a crosta seja nem esticada nem comprimida verticalmente, exatamente o que acontece na falha de San Andreas, nos limites transformantes.</p>
+
+            <p>Essas três famílias de falhas explicam por que um mesmo evento, um terremoto, pode ter causas tão diferentes dependendo de onde ele acontece: um tremor no Chile costuma estar ligado a uma falha inversa por compressão, enquanto um tremor na Califórnia costuma estar ligado a uma falha transcorrente por deslizamento lateral.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -491,17 +546,30 @@
 
             <p>O arquipélago do Havaí é o exemplo mais conhecido desse fenômeno. As ilhas havaianas se formaram no meio da Placa do Pacífico, a milhares de quilômetros de qualquer limite divergente, convergente ou transformante. Como a placa se move lentamente sobre o ponto quente fixo no manto, uma sequência de ilhas vulcânicas foi se formando ao longo de milhões de anos, ficando mais antigas conforme se afastam do ponto ativo atual, onde hoje se localiza o vulcão Kilauea.</p>
 
+            <p>O Brasil, mesmo estando no meio da Placa Sul-Americana, longe de qualquer limite de placas, também guarda registros desse tipo de vulcanismo. O arquipélago de Fernando de Noronha, em Pernambuco, formou-se por episódios vulcânicos há cerca de 12 milhões de anos e 1,7 milhão de anos, provavelmente ligados à passagem da placa sobre uma zona de fraqueza na crosta oceânica associada a um ponto quente. Já a Ilha da Trindade, no Espírito Santo, é o registro mais recente de uma cadeia inteira de montanhas submersas, a Cadeia Vitória-Trindade, que se estende por centenas de quilômetros no fundo do Atlântico e que os geólogos associam a um hotspot que teria produzido vulcões ao longo do tempo, conforme a Placa Sul-Americana se deslocava por cima dele.</p>
+
             <p>Esse tipo de vulcanismo mostra que, embora a teoria das placas tectônicas explique a maior parte da atividade vulcânica e sísmica do planeta, o interior da Terra também produz fenômenos independentes da movimentação das bordas das placas, evidenciando que o manto tem uma dinâmica própria de convecção que ultrapassa os limites já estudados.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
+
+
+        <!-- <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp9" src="inforesumotp9.webp"
+                    alt="Infográfico resumo Deriva continental e tectônica de placas" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div> -->
 
 
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Se os continentes se movem tão devagar, apenas alguns centímetros por ano, como isso pode causar
@@ -544,7 +612,7 @@
                 do ponto quente. O vulcão ativo hoje, o Kilauea, é apenas o mais recente dessa sequência.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -562,9 +630,10 @@
                 <h3>7. O que ocorre nos limites divergentes das placas tectônicas?</h3>
                 <h3>8. Quais são os três tipos de limites entre placas tectônicas e o que ocorre em cada um deles?</h3>
                 <h3>9. O que são os pontos quentes (hotspots) e por que o arquipélago do Havaí é um exemplo desse fenômeno?</h3>
+                <h3>10. O que é isostasia e quais são os três tipos de falhas tectônicas?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -580,7 +649,9 @@
 
                 <p>A história de Wegener também mostra algo importante sobre a própria ciência: ter razão não basta, é preciso conseguir explicar o mecanismo por trás de uma ideia. Ele intuiu corretamente a deriva continental décadas antes de existir tecnologia para prová-la, e só foi reconhecido depois de sua morte.</p>
 
-                <p><strong>Resumo dos conceitos:</strong> deriva continental (hipótese de Wegener); Pangeia (supercontinente original); correntes de convecção (motor do movimento das placas); Dorsal Meso-oceânica (onde nasce nova crosta); subducção (onde a crosta é reciclada); limites divergente, convergente e transformante; pontos quentes (vulcanismo independente dos limites de placas).</p>
+                <p>Vimos aqui as forças que movem as placas por baixo, e as falhas que rompem as rochas nos seus limites. Na próxima aula, vamos olhar para cima: como esses mesmos processos internos, junto com o desgaste causado pelo vento, pela água e pelo tempo, esculpem o relevo que vemos na superfície da Terra.</p>
+
+                <p><strong>Resumo dos conceitos:</strong> deriva continental (hipótese de Wegener); Pangeia (supercontinente original); correntes de convecção (motor do movimento das placas); Dorsal Meso-oceânica (onde nasce nova crosta); subducção (onde a crosta é reciclada); isostasia (equilíbrio entre litosfera e astenosfera); limites divergente, convergente e transformante; falhas tectônicas (normal, inversa e transcorrente); pontos quentes (vulcanismo independente dos limites de placas).</p>
 
             </div>
 
@@ -641,6 +712,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

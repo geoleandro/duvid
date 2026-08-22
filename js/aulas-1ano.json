@@ -110,7 +110,8 @@
       "MarcoPoloLivroMaravilhas",
       "EcoComoViajarComUmSalmao",
       "OndaatjePacienteIngles"
-    ]
+    ],
+    "mapaMental": "1ano/Textos1/Texto05/inforesumotp5.webp"
   },
   {
     "id": 106,
@@ -135,12 +136,18 @@
       "BNCC",
       "Sausen",
       "MoreiraSene",
-      "STEFFEN",
+      "Steffen",
       "SeneMoreira"
     ],
     "links": [
       "GPSComoFunciona"
     ],
+    "livros": [
+      "Orwell1984",
+      "EggersOCirculo",
+      "VerneDaTerraALua"
+    ],
+    "mapaMental": "1ano/Textos1/Texto07/inforesumotp7.webp",
     "objetivo": "Compreender o papel estratégico da Cartografia diante das novas tecnologias de informações Geográficas (SIGs).",
     "audio": null
   },
@@ -153,6 +160,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=108",
     "objetivo": "Comparar a escala geológica do tempo (eras geológicas) com a temporalidade da história humana. Entender como funciona as camadas internas da Terra.",
     "audio": null,
+    "links": [
+      "SGBEstruturaInternaTerra",
+      "CNNAsteroideAntartica",
+      "MuseuPaleontoTempoGeologico"
+    ],
     "bibliografia": [
       "Dambros",
       "Press",
@@ -160,7 +172,9 @@
       "Teixeira",
       "Vesentini",
       "BNCC"
-    ]
+    ],
+    "livros": ["VerneViagemCentroTerra", "DoyleOMundoPerdido", "AuelClaDoUrsoDasCavernas"],
+    "mapaMental": "1ano/Textos1/Texto08/inforesumotp8.webp"
   },
   {
     "id": 109,
@@ -171,13 +185,19 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=109",
     "objetivo": "Entender os processos de separação dos continentes terrestres por meio da teoria da deriva continental e tectônica de placas.",
     "audio": null,
+    "links": [
+      "IBGEFormacaoContinentes",
+      "NatGeoTrindadeMartimVaz",
+      "CorreioBrazCinturaoDeFogo"
+    ],
     "bibliografia": [
       "Press",
       "SeneMoreira",
       "Teixeira",
       "Vesentini",
       "BNCC"
-    ]
+    ],
+    "livros": ["SaramagoJangadaDePedra", "KleistTerremotoNoChile", "BulwerLyttonUltimosDiasDePompeia"]
   },
   {
     "id": 110,
@@ -188,6 +208,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=110",
     "objetivo": "Entender o papel das forças internas na configuração das estruturas e formas do relevo terrestre.",
     "audio": null,
+    "links": [
+      "JornalUSPValeDoRift",
+      "SobreGeologiaBaciaReconcavo",
+      "CNNBrasilKilauea"
+    ],
     "bibliografia": [
       "Marshak",
       "Press",
@@ -196,7 +221,8 @@
       "Vesentini",
       "Wicander",
       "BNCC"
-    ]
+    ],
+    "livros": ["VoltaireCandido", "SontagAmanteDoVulcao", "MurakamiDepoisDoTerremoto"]
   },
   {
     "id": 111,

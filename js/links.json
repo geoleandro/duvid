@@ -562,5 +562,59 @@
     "corTexto": "w3-text-dark-grey",
     "texto": "Após cinco anos de aumento, desmatamento no Cerrado tem queda (Agência Brasil/INPE)",
     "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-11/apos-cinco-anos-de-aumento-desmatamento-no-cerrado-tem-queda"
+  },
+  "SGBEstruturaInternaTerra": {
+    "cor": "w3-teal",
+    "corTexto": "w3-text-white",
+    "texto": "Estrutura Interna da Terra, explicada em detalhes — Serviço Geológico do Brasil (SGB)",
+    "url": "https://www.sgb.gov.br/estrutura-interna-da-terra"
+  },
+  "CNNAsteroideAntartica": {
+    "cor": "w3-red",
+    "corTexto": "w3-text-white",
+    "texto": "Asteroide que matou os dinossauros teve efeito imediato até na Antártica, mostra pesquisa com brasileiro — CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/ciencia/asteroide-que-matou-dinossauros-teve-efeito-imediato-na-antartica/"
+  },
+  "MuseuPaleontoTempoGeologico": {
+    "cor": "w3-brown",
+    "corTexto": "w3-text-white",
+    "texto": "Tempo Geológico — Museu de Paleontologia Irajá Damiani Pinto (UFRGS)",
+    "url": "https://www.ufrgs.br/museupaleonto/?page_id=736"
+  },
+  "IBGEFormacaoContinentes": {
+    "cor": "w3-green",
+    "corTexto": "w3-text-white",
+    "texto": "A formação dos continentes: deriva continental e tectônica de placas — Atlas Geográfico Escolar (IBGE)",
+    "url": "https://atlasescolar.ibge.gov.br/introducao/21727-a-formacao-dos-continentes.html"
+  },
+  "NatGeoTrindadeMartimVaz": {
+    "cor": "w3-blue-grey",
+    "corTexto": "w3-text-white",
+    "texto": "Trindade e Martim Vaz: o arquipélago vulcânico brasileiro no meio do Atlântico — National Geographic Brasil",
+    "url": "https://www.nationalgeographicbrasil.com/meio-ambiente/2018/03/trindade-e-martim-vaz-um-paraiso-brasileiro-decretado-monumento-natural"
+  },
+  "CorreioBrazCinturaoDeFogo": {
+    "cor": "w3-red",
+    "corTexto": "w3-text-white",
+    "texto": "O que é o Cinturão de Fogo do Pacífico e por que 90% dos terremotos do mundo ocorrem nesta região — Correio Braziliense/BBC",
+    "url": "https://www.correiobraziliense.com.br/mundo/2026/08/7478384-o-que-e-o-cinturao-de-fogo-do-pacifico-em-que-esta-a-colombia-e-por-que-90-dos-terremotos-do-mundo-ocorrem-nesta-regiao.html"
+  },
+  "JornalUSPValeDoRift": {
+    "cor": "w3-teal",
+    "corTexto": "w3-text-white",
+    "texto": "O Vale do Rift africano: um divisor geológico e os movimentos tectônicos — Jornal da USP",
+    "url": "https://jornal.usp.br/radio-usp/o-vale-do-rift-africano-um-divisor-geologico-e-os-movimentos-tectonicos/"
+  },
+  "SobreGeologiaBaciaReconcavo": {
+    "cor": "w3-brown",
+    "corTexto": "w3-text-white",
+    "texto": "A Bacia do Recôncavo: história geológica e a origem do petróleo na Bahia — Sobre Geologia",
+    "url": "https://www.sobregeologia.com.br/2019/12/a-bacia-do-reconcavo.html"
+  },
+  "CNNBrasilKilauea": {
+    "cor": "w3-deep-orange",
+    "corTexto": "w3-text-white",
+    "texto": "Vulcão Kilauea entra em erupção e lança lava a mais de 300 metros no Havaí — CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/internacional/vulcao-kilauea-entra-em-erupcao-e-lanca-lava-a-mais-de-300-metros-no-havai/"
   }
 }

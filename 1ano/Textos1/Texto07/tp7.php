@@ -100,7 +100,7 @@
 			<p class="w3-pale-green">Você já usou o Waze ou o Google Maps para chegar a algum lugar? Já parou para pensar como o aplicativo sabe exatamente onde você está, em tempo real, em qualquer parte do mundo?</p>
 			<p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, como um aplicativo no seu celular consegue saber sua localização exata? Guarde sua resposta, vamos retomá-la no final da aula.</p>
 		</div>
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 	</div>
 
@@ -111,7 +111,7 @@
 		<p><span class="primeiraLetra">A</span>té a aula anterior, vimos que os mapas eram desenhados a partir de medições feitas no chão ou calculadas com fórmulas de escala e projeção. Mas hoje, boa parte da Cartografia não depende mais de ninguém andando pelo terreno com trena e bússola.</p>
 		<p>Satélites, radares e computadores passaram a fazer esse trabalho à distância e em tempo real, criando os chamados Sistemas de Informações Geográficas.</p>
 		<p><strong>Esta aula responde a uma pergunta bem atual: como é possível fotografar, medir e localizar qualquer ponto da Terra sem sair do lugar, e por que governos, empresas e exércitos disputam tanto essa tecnologia.</strong></p>
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 	</div>
 
@@ -155,7 +155,7 @@
 		</p>
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -245,7 +245,7 @@
 			qualidade.</p>
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -259,18 +259,44 @@
 
 		<p>Tanto as fotos tiradas por aviões como as dos satélites e radares são fundamentais para a
 			produção de mapas, cartas e plantas detalhados dos aspectos físicos e humanos da superfície terrestre,
-
-
-			<span onclick="Aparecer('imagem5','citacao5')"><mark>vejamos:</mark></span>
+			como resume o quadro abaixo:
 		</p>
 
-		<div class="area"><img id="imagem5" src="tp7f5.png" alt="tp7f5" class="w3-mobile" style=display:block>
-		</div>
+		<table>
+			<tr>
+				<th>Áreas</th>
+				<th>Aplicações</th>
+			</tr>
+			<tr>
+				<td>Meteorologia</td>
+				<td>Previsão do tempo, mapeamento climático</td>
+			</tr>
+			<tr>
+				<td>Geologia</td>
+				<td>Procura de jazidas, aproveitamento dos solos</td>
+			</tr>
+			<tr>
+				<td>Agricultura</td>
+				<td>Previsão de safras, estudo de contaminação por pragas</td>
+			</tr>
+			<tr>
+				<td>Infraestrutura</td>
+				<td>Tráfego aéreo, marítimo, ferroviário e rodoviário</td>
+			</tr>
+			<tr>
+				<td>Ecologia</td>
+				<td>Inventário de recursos hídricos, desmatamento, equilíbrio ecológico</td>
+			</tr>
+			<tr>
+				<td>Demografia</td>
+				<td>Inventário e planejamento urbanos, ocupação de encostas, áreas de risco</td>
+			</tr>
+		</table>
 
-		<p class="citacao" id="citacao5" style=display:block> </p>
+		<p class="citacao">Fonte: Organizado pelo autor.</p>
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -281,7 +307,7 @@
 	<div class="topico">
 
 
-		<h1> As imagens aéreas e de satélites </h1>
+		<h2> As imagens aéreas e de satélites </h2>
 
 		<h2> Imagens aéreas</h2>
 
@@ -327,7 +353,7 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -385,7 +411,7 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -435,9 +461,11 @@
 
 
 
-		<p>O projeto CBERS é o resultado de um sistema de cooperação entre o Brasil e a China.
-			Desenvolvido pelo Instituto Nacional de Pesquisas Espaciais – INPE e a CAST (Academia Chinesa de Tecnologia
-			Espacial) em 1999. Atualmente está em operação o CBERS-4. </p>
+		<p>O projeto CBERS é o resultado de um sistema de cooperação entre o Brasil e a China, com um
+			acordo assinado em 1988 entre o Instituto Nacional de Pesquisas Espaciais (INPE) e a CAST (Academia
+			Chinesa de Tecnologia Espacial). O primeiro satélite da parceria, o CBERS-1, só foi lançado onze anos
+			depois, em 1999, e reduziu bastante a dependência brasileira de imagens de satélite compradas de outros
+			países. Atualmente está em operação o CBERS-4. </p>
 
 		<p>Os satélites CBERS, se destinam a monitoração do clima, projetos de sistematização e uso da
 			terra, gerenciamento de recursos hídricos, arrecadação fiscal, imagens para licenciamento e monitoramento
@@ -465,7 +493,42 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+		<hr>
+
+	</div>
+
+
+	<!-- BLOCO: Drones -->
+	<div class="topico">
+
+
+		<h2> Drones: sensoriamento remoto ao alcance da mão</h2>
+
+		<p>Satélites e aviões continuam sendo essenciais, mas nos últimos anos surgiu uma terceira opção
+			bem mais barata e acessível para captar imagens da superfície: os <span class="termo"
+				data-palavra="VANT (Drone)"
+				data-definicao="Veículo Aéreo Não Tripulado, popularmente chamado de drone. Voa em baixa altitude, controlado remotamente ou de forma autônoma, e capta imagens de altíssima resolução por um custo muito menor do que satélites ou aviões, sendo usado hoje em agricultura, jornalismo, resposta a desastres e fiscalização."><strong>VANTs</strong></span>
+			(Veículos Aéreos Não Tripulados), mais conhecidos pelo nome popular de drones.</p>
+
+		<p>Um satélite de sensoriamento remoto custa centenas de milhões de dólares para ser construído e
+			lançado ao espaço, e um avião equipado para aerofotogrametria também exige investimento alto e uma
+			equipe especializada. Um drone comercial de boa qualidade, por outro lado, custa uma fração disso e pode
+			ser operado por uma única pessoa, o que democratizou o acesso ao sensoriamento remoto de baixa altitude
+			para pequenos produtores rurais, prefeituras, corretores de imóveis e até jornalistas cobrindo protestos
+			ou desastres naturais.</p>
+
+		<p>A grande vantagem do drone é a resolução: voando a poucos metros ou dezenas de metros do
+			solo, ele capta detalhes que nenhum satélite comercial consegue captar, cada folha de uma plantação,
+			uma rachadura em uma estrada, o contorno exato de uma área queimada. A desvantagem é o alcance: um
+			satélite cobre o planeta inteiro em poucos dias, enquanto um drone cobre, no máximo, alguns quilômetros
+			quadrados por voo, o que faz dele um instrumento de escala local, não global.</p>
+
+		<p>Na agricultura de precisão, drones sobrevoam plantações periodicamente para detectar áreas com
+			pragas, falhas de irrigação ou deficiência de nutrientes antes que o problema seja visível a olho nu do
+			chão, permitindo correções pontuais em vez de tratar a lavoura inteira do mesmo jeito.</p>
+
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -525,17 +588,10 @@
 
 
 
-
-
-
-
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
-
-
-
 
 
 
@@ -554,7 +610,7 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -586,7 +642,7 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -621,9 +677,82 @@
 
 
 
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+		<hr>
+
+	</div>
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+	<!-- BLOCO: A-GPS -->
+	<div class="topico">
+
+
+		<h2> Por que o Waze acha sua localização quase instantaneamente?</h2>
+
+		<p>Lembra da pergunta do início da aula? Chegou a hora de respondê-la com precisão técnica. Um
+			receptor de GPS "puro" pode demorar de trinta segundos a alguns minutos para calcular sua primeira
+			posição, tempo necessário para captar o sinal de satélites que, às vezes, estão a mais de 20 mil
+			quilômetros de distância, atravessando prédios, nuvens e interferências da cidade. Se fosse só isso, seu
+			aplicativo de mapa demoraria bastante para "achar" você toda vez que abrisse o app.</p>
+
+		<p>Só que os smartphones não dependem só dos satélites do GPS. Eles usam uma tecnologia chamada
+			<span class="termo" data-palavra="A-GPS"
+				data-definicao="Assisted GPS (GPS assistido): tecnologia que combina o sinal dos satélites de GPS com dados da rede de celular (torres próximas) e do Wi-Fi (redes ao redor) para calcular a localização muito mais rápido e com mais precisão, especialmente dentro de prédios ou em áreas urbanas densas, onde o sinal direto dos satélites é fraco."><strong>A-GPS</strong></span>
+			(GPS assistido), que combina três fontes de informação ao mesmo tempo: o sinal dos satélites, a
+			localização aproximada das torres de celular próximas (a operadora sabe, mais ou menos, onde cada torre
+			fica) e um banco de dados de redes Wi-Fi com localização conhecida. Cruzando essas três fontes, o
+			celular chega a uma localização inicial em poucos segundos, e só depois refina essa posição com o sinal
+			puro dos satélites.</p>
+
+		<p>É por isso que o GPS do carro (que às vezes não tem acesso à rede de celular ou Wi-Fi) demora
+			mais para "pegar" sua localização do que o aplicativo do seu celular, e também por isso que o GPS do
+			celular funciona relativamente bem mesmo dentro de um prédio ou de um túnel, onde o sinal direto dos
+			satélites praticamente não chega: nesses casos, quem está fazendo a maior parte do trabalho é o Wi-Fi e
+			a rede do celular, não os satélites, mesmo que o ícone do aplicativo continue mostrando o símbolo de
+			GPS na tela.</p>
+
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+		<hr>
+
+	</div>
+
+
+	<!-- BLOCO: Geoprocessamento -->
+	<div class="topico">
+
+
+		<h2> A terceira peça: o que é geoprocessamento?</h2>
+
+		<p>Você já viu como o sensoriamento remoto captura imagens da Terra e como o GPS localiza um
+			ponto exato na superfície. Falta a terceira tecnologia que forma um SIG, e é provavelmente a menos
+			conhecida das três: o <span class="termo" data-palavra="Geoprocessamento"
+				data-definicao="Conjunto de técnicas e programas usados para tratar, cruzar e analisar dados georreferenciados (ligados a um ponto do espaço), transformando informações soltas em mapas, análises e respostas para perguntas espaciais. É a etapa que processa o que o sensoriamento remoto captura e o GPS localiza."><strong>geoprocessamento</strong></span>.
+			Se o sensoriamento remoto é o olho que capta a imagem e o GPS é a régua que mede a posição, o
+			geoprocessamento é o cérebro que cruza essas informações e produz uma resposta útil.</p>
+
+		<p>Na prática, geoprocessamento significa usar um software para fazer perguntas espaciais que
+			seriam quase impossíveis de responder à mão. Algumas operações comuns:</p>
+
+		<p><strong>Sobreposição de camadas</strong> (overlay): imagine uma camada com todos os rios de
+			uma região, outra com a localização de fábricas, e uma terceira com a densidade populacional. Sobrepor
+			essas camadas permite perguntar, por exemplo, "quantas pessoas vivem a menos de 1 km de uma fábrica que
+			despeja resíduos em um rio?", uma pergunta que envolve três informações diferentes ao mesmo tempo.</p>
+
+		<p><strong>Análise de buffer</strong> (zona de influência): o programa desenha automaticamente um
+			círculo ou faixa de determinada distância ao redor de um elemento, como todas as escolas a menos de 500
+			metros de uma avenida movimentada, útil para planejar a segurança de pedestres, por exemplo.</p>
+
+		<p><strong>Geocodificação</strong>: transforma um endereço escrito ("Rua Tal, 123, Bairro Tal")
+			em coordenadas geográficas (latitude e longitude) que um mapa consegue posicionar, o mesmo processo que
+			acontece toda vez que você digita um endereço no Google Maps ou no Waze.</p>
+
+		<p>É esse cruzamento de camadas que transforma um simples conjunto de imagens e coordenadas em
+			uma ferramenta de decisão: onde abrir um novo hospital, que área desmatada precisa de fiscalização
+			urgente, qual bairro tem mais risco de enchente. Sem o geoprocessamento, sensoriamento remoto e GPS
+			seriam só dados soltos, sem cruzamento e sem resposta.</p>
+
+
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -648,8 +777,11 @@
 			rival GPS. </p>
 
 		<p> A corrida por ser líder nessa tecnologia ocorre, dentre outros aspectos, no potencial
-			bélico, ou seja, o seu uso para guerras, como as do Golfo (1991), ou mais recentes como no Afeganistão
-			(2001-2004) ou nos ataques ao Estado Islâmico buscando capturar Osama Bin Laden.</p>
+			bélico, ou seja, o seu uso para guerras, como na Guerra do Golfo (1991), considerada a primeira "guerra
+			do GPS" da história por causa do uso massivo de navegação por satélite pelas tropas americanas, e na
+			guerra do Afeganistão (iniciada em 2001). O exemplo mais conhecido de uso de geolocalização em uma
+			operação militar de alto perfil é a que localizou e matou o líder da Al-Qaeda, Osama Bin Laden, em um
+			complexo no Paquistão em 2011.</p>
 
 		<p> Os <span onclick="Aparecer('imagem14','citacao14')"><mark>aviões</mark></span> não
 			tripulados eram guiados por GPS e atingiam o alvo com bastante precisão. </p>
@@ -716,7 +848,7 @@
 
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -793,7 +925,7 @@
 		<p> - Localizar atividades turísticas etc.</p>
 
 
-		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+		<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
 		<hr>
 
 	</div>
@@ -806,25 +938,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
-                    <label for="p1a" class="card-opcao"><span>a) São sistemas exclusivamente utilizados por militares
-                            para fins de espionagem e reconhecimento territorial.</span></label>
+                    <label for="p1a" class="card-opcao"><span>a) Uso exclusivo militar.</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1b" value="errado" class="radio-duvid">
-                    <label for="p1b" class="card-opcao"><span>b) Permitem apenas visualizar mapas estáticos, sem
-                            capacidade de análise ou cruzamento de dados.</span></label>
+                    <label for="p1b" class="card-opcao"><span>b) Só mostra mapas estáticos.</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta1" id="p1c" value="correto" class="radio-duvid">
-                    <label for="p1c" class="card-opcao"><span>c) Integram hardware, software e dados geográficos para
-                            capturar, armazenar, analisar e exibir informações referenciadas espacialmente em camadas
-                            temáticas.</span></label>
+                    <label for="p1c" class="card-opcao"><span>c) Integra hardware, software e dados em camadas.</span></label>
                 </div>
 
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Os SIGs são plataformas multifuncionais que combinam diferentes componentes tecnológicos para organizar e analisar dados georreferenciados em camadas sobrepostas, permitindo cruzar informações de naturezas distintas sobre um mesmo território.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: um SIG combina equipamento, programa e dados georreferenciados em camadas sobrepostas, não é só um mapa para olhar.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -842,25 +970,21 @@
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
-                    <label for="p2a" class="card-opcao"><span>a) Medir a velocidade dos ventos em altitude por meio de
-                            ondas de rádio emitidas por satélites meteorológicos.</span></label>
+                    <label for="p2a" class="card-opcao"><span>a) Medir velocidade do vento.</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
-                    <label for="p2b" class="card-opcao"><span>b) Avaliar a saúde e o vigor da vegetação a partir da
-                            análise espectral das imagens de satélite, identificando áreas com estresse hídrico ou
-                            infestação de pragas.</span></label>
+                    <label for="p2b" class="card-opcao"><span>b) Avaliar a saúde da vegetação.</span></label>
                 </div>
                 <div class="item-resposta">
                     <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
-                    <label for="p2c" class="card-opcao"><span>c) Calcular a altitude do terreno para a confecção de
-                            mapas topográficos em três dimensões.</span></label>
+                    <label for="p2c" class="card-opcao"><span>c) Calcular a altitude do terreno.</span></label>
                 </div>
 
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'O NDVI é um índice calculado a partir da reflectância das bandas do infravermelho próximo e do vermelho. Plantas saudáveis refletem mais infravermelho e absorvem mais vermelho, resultando em valores mais altos de NDVI. Esse índice é amplamente utilizado na agricultura de precisão e no monitoramento ambiental.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: plantas saudáveis refletem mais infravermelho e absorvem mais vermelho, o que gera um NDVI mais alto.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -871,10 +995,24 @@
         </div>
 
 
+         <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumotp7" src="inforesumotp7.webp" alt="Infográfico resumo Sensoriamento remoto" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div> 
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Qual a diferença entre o GPS do meu celular e o GPS usado por um avião ou por um exército?
@@ -917,7 +1055,7 @@
                 território por baixo das nuvens que cobrem a região boa parte do ano.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -939,7 +1077,7 @@
                 <h3>10. Como os SIGs são utilizados no planejamento urbano e na administração pública?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -955,7 +1093,9 @@
 
             <p>O que parecia mágica de aplicativo é, na verdade, a mesma tecnologia usada para prever queimadas, planejar reforma agrária, guiar aviões não tripulados em guerras e monitorar o desmatamento da Amazônia. A diferença entre um uso e outro não está na tecnologia, está em quem a controla e para que a utiliza.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> SIG (equipamentos e sistemas para estudar o espaço terrestre); sensoriamento remoto (captação de imagens à distância, passivo ou ativo); reflectância e assinatura espectral (o que permite distinguir objetos nas imagens); aerofotogrametria (fotografia aérea sistemática); GPS (sistema de satélites para localização exata).</p>
+            <p>Depois de tantas aulas de Cartografia, sensoriamento remoto e GPS, é hora de sair do estudo do espaço propriamente dito e voltar para a estrutura física do planeta que esses instrumentos ajudam a mapear: como a Terra se formou, suas camadas internas e as eras geológicas que moldaram o relevo que conhecemos hoje.</p>
+
+            <p><strong>Resumo dos conceitos:</strong> SIG (equipamentos e sistemas para estudar o espaço terrestre); sensoriamento remoto (captação de imagens à distância, passivo ou ativo); reflectância e assinatura espectral (o que permite distinguir objetos nas imagens); aerofotogrametria (fotografia aérea sistemática); geoprocessamento (cruzamento e análise de dados georreferenciados); VANT/drone (sensoriamento remoto de baixa altitude e baixo custo); GPS e A-GPS (sistema de satélites para localização exata, combinado com rede de celular e Wi-Fi nos smartphones).</p>
 
             </div>
 
@@ -1022,6 +1162,14 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3 class="fontePixel w3-center w3-text-green">
+                    <strong>📚 Sugestões de Livros</strong>
+                </h3>
+                <p class="w3-center w3-small w3-text-grey" style="margin-top:-8px">Para quem quer ir além da aula, com literatura</p>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

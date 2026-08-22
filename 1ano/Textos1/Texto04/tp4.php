@@ -1113,9 +1113,9 @@
 
 
 
-            <div class="w3-margin"><img id="infograficotp4" src="inforesumotp4.webp"
+            <div class="w3-margin"><img id="inforesumotp4" src="inforesumotp4.webp"
                     alt="Infográfico resumo escala cartográfica" class="w3-mobile">
-                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
 

@@ -1002,15 +1002,15 @@
                 </div>
 
 
-                <!-- <div class="topico">
+                 <div class="topico">
 
             <h2> Infográfico - Resumo</h2>
 
 
 
-            <div class="w3-margin"><img id="infograficotp5" src="inforesumotp5.webp"
+            <div class="w3-margin"><img id="inforesumotp5" src="inforesumotp5.webp"
                     alt="Infográfico resumo Projeções cartográficas" class="w3-mobile">
-                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
 
@@ -1021,7 +1021,7 @@
             <hr>
 
 
-        </div> -->
+        </div> 
 
 
 

@@ -103,7 +103,7 @@
                 <p class="w3-pale-green">Você já viu na TV imagens de um vulcão em erupção ou de um terremoto destruindo casas e cidades? Já se perguntou por que algumas regiões do Planeta sofrem terremotos com frequência e outras quase nunca?</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, o que causa um terremoto ou faz um vulcão entrar em erupção? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -115,7 +115,7 @@
             <p>Nesta aula, vamos iniciar nossos estudos sobre as transformações do relevo terrestre e sobre quais forças estão envolvidas na modelagem de suas formas.</p>
             <p><strong>Esta aula responde a uma pergunta que qualquer pessoa que já sentiu um tremor de terra se fez: o que exatamente acontece no interior do Planeta para formar uma montanha, provocar um terremoto ou fazer um vulcão entrar em erupção?</strong></p>
             <p>Ao final, você será capaz de reconhecer o funcionamento dos agentes internos do relevo e ampliar seu conhecimento sobre o Planeta Terra.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -154,7 +154,7 @@
             </div>
             <p class="citacao" id="citacao2" style="display:block"> Fonte: geolibertaria2.blogspot.com </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -163,6 +163,8 @@
         <div class="topico">
 
             <h2> Tectonismo</h2>
+
+            <p>Por volta de 540 a.C., o filósofo grego Xenófanes de Cólofon encontrou conchas marinhas fossilizadas no alto de montanhas na Sicília, em Malta e na ilha grega de Paros. Ele concluiu que aquelas montanhas, um dia, deviam ter estado no fundo do mar, e que alguma força as havia soerguido até ali. Foi uma das primeiras vezes na história que um ser humano usou uma evidência concreta (o fóssil fora do lugar) para deduzir que a superfície da Terra não é fixa, ideia que só seria plenamente comprovada mais de dois mil anos depois.</p>
 
             <p>Vimos que as placas tectônicas são grandes porções sólidas da crosta terrestre em movimento e que ocorrem choques entre elas. Dessas colisões podem ocorrer deformações nas rochas e surgir cadeias de montanhas e diferentes feições do relevo.</p>
 
@@ -242,9 +244,13 @@
             </div>
             <p class="citacao" id="citacao8" style="display:block"> Fonte: SUERTEGARAY (2003, p.75, adaptado). </p>
 
+            <p>O Brasil, apesar de estar longe de qualquer limite de placas, tem um exemplo clássico de graben em seu próprio território: a Bacia do Recôncavo, na Bahia. Ela se formou durante a ruptura do Gondwana, quando o Atlântico Sul começou a se abrir, e é hoje uma das bacias sedimentares mais importantes do país para a produção de petróleo, justamente por causa dessa estrutura rebaixada e cheia de falhas que favoreceu o acúmulo de rochas sedimentares ricas em matéria orgânica.</p>
+
             <p>É importante ressaltar que os movimentos epirogenéticos e orogenéticos não podem ser entendidos e estudados de forma separada, uma vez que pertencem e são resultado da deriva continental e das colisões entre as placas tectônicas.</p>
 
             <p>O movimento vertical desencadeado pela epirogênese resulta em diversas falhas na crosta terrestre. Isso ocorre pelo acúmulo de energia nas bordas das placas e sua consequente liberação, geralmente em forma de abalos sísmicos (terremotos).</p>
+
+            <p>O maior exemplo de falha em formação no Planeta hoje é o Vale do Rift, no leste da África (já mencionado na aula passada como limite divergente entre placas continentais), com cerca de 5 mil quilômetros de extensão. Ali, o movimento epirogenético está literalmente rasgando o continente africano ao meio: enquanto o fundo do vale afunda formando um imenso graben, as bordas se elevam como horsts. Segundo os geólogos, se esse processo continuar no ritmo atual, a África poderá se dividir em dois continentes separados por um novo oceano daqui a cerca de 50 milhões de anos.</p>
 
             <p>Os principais <span onclick="Aparecer('imagem9','citacao9')"><mark>tipos de falhas</mark></span> dependem da estrutura geológica e da resistência das rochas; os principais estão apresentados na figura abaixo:</p>
 
@@ -257,7 +263,7 @@
 
             <p>Outro agente interno responsável pela modelagem do relevo é o vulcanismo. Vamos ver suas principais características.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -288,7 +294,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'muito bom, acertou sobre o afundamento da placa litosférica, ganhou seu primeiro globinho', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: quando uma placa oceânica mergulha sob outra, o processo se chama subducção, e ela é reciclada no manto.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -325,7 +331,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'bacana, o assoalho oceânico tem profunda relação com o movimento de convecção no manto, vamos continuar!', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: a crosta oceânica está sempre nascendo nas dorsais e sendo reciclada nas zonas de subducção, por isso é sempre mais jovem que a continental.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -381,8 +387,10 @@
 
             <p>Os vulcões podem estar ativos, adormecidos ou extintos. Entre os vulcões ativos destacam-se: Kilauea, na ilha do Havaí; o monte Fuji, no Japão; o Vesúvio, na Itália; o Santa Helena, nos Estados Unidos; o Pinatubo, nas Filipinas; e o Fagradalsfjall, na Islândia, dentre outros.</p>
 
+            <p>E o Brasil, tem vulcões? Como o território brasileiro está situado quase inteiramente no meio da Placa Sul-Americana, longe dos limites convergentes e divergentes que concentram a maior parte do vulcanismo do Planeta, não há vulcões ativos em solo continental brasileiro. Existem, porém, vulcões extintos há milhões de anos, como os que deram origem ao Arquipélago de Fernando de Noronha e à Ilha da Trindade, associados a pontos quentes que já estudamos na aula anterior, além de rochas vulcânicas antigas encontradas em algumas regiões do território, testemunhas de um vulcanismo que cessou há dezenas ou centenas de milhões de anos.</p>
+
             <p>A maioria dos vulcões está localizada nos limites ou perto dos limites de placas. Dois cinturões de vulcões são reconhecidos: o <span
-                    onclick="Aparecer('imagem11','citacao11')"><mark>cinturão do Pacífico</mark></span>, ou Círculo de Fogo, que contém cerca de 60% de todos os vulcões ativos; cerca de 20% estão no cinturão Mediterrâneo; e a maior parte dos restantes está localizada ao longo das cadeias mesoceânicas (WICANDER, 2009).</p>
+                    onclick="Aparecer('imagem11','citacao11')"><mark>cinturão do Pacífico</mark></span>, ou Círculo de Fogo, que contém cerca de 75% de todos os vulcões ativos; cerca de 20% estão no cinturão Mediterrâneo-Asiático; e a maior parte dos restantes está localizada ao longo das cadeias mesoceânicas (WICANDER, 2009, adaptado).</p>
 
             <div class="area">
                 <img alt="Cinturão de Fogo do Pacífico" class="w3-mobile" id="imagem11" src="tp10f11.png" style="display:block" />
@@ -433,7 +441,7 @@
             <p>As águas das chuvas penetram nas rochas porosas, tal como em uma esponja, formando um reservatório, um aquífero. Como o magma está abaixo dessa água, geralmente entre 5 e 7 km de profundidade, ele transfere calor e aquece o aquífero. Com o aumento da pressão, a água superaquece sem, no entanto, ferver, e torna-se mais leve (menos densa) do que a água fria que se infiltra no aquífero. Com o tempo, a temperatura aumenta pouco a pouco até que, em um dado momento, uma pequena porcentagem entra em ebulição. Com o aumento do volume devido à ebulição, a água não tem por onde escapar, a não ser pelos condutos dentro das rochas. Assim, ela rompe pela superfície em um violento jato de água. Após a redução da pressão, o processo é interrompido enquanto a recarga do aquífero continua, para que o processo possa ser reiniciado. <span
                     class="citacao">Fonte: TEIXEIRA (2009, p.358, adaptado).</span></p>
 
-            <p>O gêiser mais famoso é o <em><span onclick="Aparecer('imagem26','citacao26')"><mark>Old Faithful</mark></span></em>, localizado no parque de Yellowstone, nos Estados Unidos. Ele emite uma fonte de água quente, que jorra de forma intermitente, em um intervalo de aproximadamente 65 minutos, com grande força e com um barulho que se assemelha a um rugido trovejante.</p>
+            <p>O gêiser mais famoso é o <em><span onclick="Aparecer('imagem26','citacao26')"><mark>Old Faithful</mark></span></em>, localizado no parque de Yellowstone, nos Estados Unidos. Ele emite uma fonte de água quente, que jorra de forma intermitente, em intervalos que variam entre 60 e 110 minutos, com grande força e com um barulho que se assemelha a um rugido trovejante.</p>
 
             <div class="area">
                 <img alt="Gêiser Old Faithful" class="w3-mobile" id="imagem26" src="tp10f26.gif" style="display:block" />
@@ -442,7 +450,7 @@
 
             <p>O vapor e a água quente formados por essa atividade hidrotermal podem ser canalizados e gerar energia geotérmica. Outro aspecto importante desse processo envolve a deposição de minerais metálicos de grande valor econômico quando há o encontro de magma com a água.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -473,7 +481,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Parabéns, essa é uma área repleta de terremotos!', '10')">
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: cerca de 75% dos vulcões ativos do mundo ficam no Círculo de Fogo do Pacífico, uma sequência de limites de placas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -510,7 +518,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'certo, há erupções mais fluidas e outras mais explosivas!', '10')">
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: erupções mais fluidas ou mais explosivas moldam formatos de vulcão diferentes, mas não mudam o tipo de magma nem o local da erupção.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -559,7 +567,7 @@
 
             <p>Como medir os terremotos?</p>
 
-            <p>O estudo dos terremotos é realizado pela Sismologia através de um aparelho que registra, detecta e mede as vibrações produzidas por um terremoto, como as ondas P e S (vistas na aula 08).</p>
+            <p>O estudo dos terremotos é realizado pela Sismologia, ciência que também nos ajudou a mapear as camadas internas da Terra, através de um aparelho que registra, detecta e mede as vibrações produzidas por um terremoto, como as ondas P e S (vistas na aula 08).</p>
 
             <p>O <span class="termo" data-palavra="Sismógrafo"
                     data-definicao="Aparelho que registra, detecta e mede as vibrações do solo, tanto horizontais quanto verticais, produzidas por um terremoto.">sismógrafo</span> registra
@@ -589,7 +597,7 @@
             <p>A intensidade, por exemplo, é medida com a <span
                     class="termo" data-palavra="Escala Mercalli"
                     data-definicao="Escala qualitativa, de 1 a 12, que mede a intensidade de um terremoto a partir de seus efeitos observados sobre pessoas, objetos e construções, e não a partir das ondas sísmicas.">escala
-                    de Mercalli</span>. Ela não está baseada nas ondas sísmicas, como a escala de Richter. Trata-se de uma escala qualitativa, baseada nos efeitos sobre as pessoas e estruturas, variando de 1 a 12, com o grau 1 correspondendo a um tremor não sentido pelas pessoas e o grau 12 a uma alteração calamitosa do relevo da região afetada.</p>
+                    de Mercalli</span>. Ela não está baseada nas ondas sísmicas, como a escala de Richter. Trata-se de uma escala qualitativa, baseada nos efeitos sobre as pessoas e estruturas, variando de 1 a 12, com o grau 1 correspondendo a um tremor não sentido pelas pessoas e o grau 12 a uma alteração calamitosa do relevo da região afetada. Por isso, um mesmo terremoto pode receber diferentes graus de Mercalli dependendo da cidade avaliada: quanto mais perto do epicentro e mais frágeis as construções locais, maior tende a ser o grau atribuído àquela área específica.</p>
 
             <div class="divCaixa1 w3-margin">
                 <h4 class="fontePixel">Os terremotos podem causar efeitos destrutivos como:</h4>
@@ -606,7 +614,7 @@
 
             <p>Dependendo da duração do tremor, da distância do epicentro, da estrutura geológica da área afetada, da qualidade das construções etc., um terremoto pequeno pode causar mais estragos do que um de magnitude maior.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -637,7 +645,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'acertou, o tempo geológico é muito extenso para se obter alguma previsão ainda.', '10')">
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: mesmo vulcões adormecidos por séculos podem entrar em erupção sem aviso, como mostrou o Pinatubo em 1991.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -702,23 +710,34 @@
         </div>
 
 
+        <!-- <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp10" src="inforesumotp10.webp"
+                    alt="Infográfico resumo Dinâmica interna do relevo" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div> -->
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Qual a diferença entre o magma e a lava?
                 </strong> </p>
 
             <p><span class="primeiraLetra">R:</span>
-                A primeira diferença está relacionada à localização. O magma está situado abaixo da crosta, enquanto a lava é o material rochoso que extravasa até a superfície. A segunda distinção é em relação às propriedades químicas: a lava, ao sair do vulcão, entra em contato com o oxigênio e libera gases, o que modifica sua estrutura.
+                A primeira diferença está relacionada à localização. O magma está situado abaixo da crosta, enquanto a lava é o material rochoso que extravasa até a superfície. A segunda distinção é em relação às propriedades químicas: a lava, ao sair do vulcão, entra em contato com o oxigênio e libera gases, o que modifica sua estrutura. É por isso que rochas formadas pelo resfriamento da lava na superfície (rochas vulcânicas, como o basalto) costumam ter cristais bem pequenos, já que esfriam rápido, enquanto o magma que se solidifica lentamente lá embaixo, sem contato com o ar, forma rochas com cristais bem maiores, como o granito.
             </p>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong> Existe terremoto no oceano? </strong></p>
 
             <p><span class="primeiraLetra">R:</span>
-                Sim. Em dezembro de 2004, um gigantesco maremoto atingiu o Sudeste Asiático, particularmente a Indonésia, o Sri Lanka, a Índia e a Tailândia, provocando cerca de 220 mil mortes. Logo, a palavra japonesa <span
+                Sim. Em dezembro de 2004, um gigantesco maremoto atingiu o Sudeste Asiático, particularmente a Indonésia, o Sri Lanka, a Índia e a Tailândia, provocando mais de 225 mil mortes. Logo, a palavra japonesa <span
                     onclick="Aparecer('imagem24','citacao24')"><mark>tsunami</mark></span> [de <em>tsu</em>, "porto", "ancoradouro"; e <em>nami</em>, "onda", "mar"], muito usada na Ásia para se referir a esse fenômeno, tornou-se conhecida em todo o mundo.
             </p>
 
@@ -727,7 +746,7 @@
             </div>
             <p class="citacao" id="citacao24" style="display:block">Fonte: brasilescola.uol.com.br </p>
 
-            <p>Ela designa as ondas gigantescas formadas por um maremoto, que nada mais é que um terremoto no fundo do mar e resulta do choque de placas tectônicas. Em março de 2011, ocorreu um maremoto no oceano Pacífico perto do Japão, que deu origem a um tsunami no litoral daquele país, que destruiu construções e até provocou o vazamento radioativo de uma central nuclear. As ondas do tsunami, com mais de 10 metros de altura, penetraram cerca de 10 km na faixa litorânea a leste do Japão e deixaram, além do grave acidente nuclear e da destruição de edificações, quase 16 mil mortes e 27 mil pessoas feridas.</p>
+            <p>Ela designa as ondas gigantescas formadas por um maremoto, que nada mais é que um terremoto no fundo do mar e resulta do choque de placas tectônicas. Em março de 2011, ocorreu um maremoto no oceano Pacífico perto do Japão, que deu origem a um tsunami no litoral daquele país, que destruiu construções e até provocou o vazamento radioativo de uma central nuclear. As ondas do tsunami, com mais de 10 metros de altura, penetraram cerca de 10 km na faixa litorânea a leste do Japão e deixaram, além do grave acidente nuclear e da destruição de edificações, quase 20 mil mortos, mais de 2,5 mil desaparecidos e cerca de 6 mil pessoas feridas.</p>
 
             <p>Um tsunami não é uma única onda, mas uma série de ondas que podem viajar pelo oceano a velocidades de mais de 800 km/h. No maior maremoto registrado nos últimos 50 anos, o de dezembro de 2004, as enormes ondas caíam sobre as casas, a força da água levava tudo, e muitas praias viraram necrotérios a céu aberto. Muitas pessoas morreram durante os tsunamis depois de voltar para casa, porque acharam que as ondas tinham acabado.</p>
 
@@ -735,7 +754,7 @@
 
             <p>Quando o tsunami entra na linha costeira, sua velocidade diminui, mas a altura aumenta. Um tsunami de alguns centímetros ou metros de altura em alto mar pode atingir de 30 a 50 m de altura na costa, com força devastadora. Para quem está na praia, não há sinais evidentes da aproximação de um tsunami. O primeiro indício costuma ser uma elevação da água, mas não igual à das tempestades.</p>
 
-            <p>Em 1883, um tsunami formado depois da erupção do vulcão Cracatoa, entre as ilhas indonésias de Java e Sumatra, matou 36 mil pessoas. Em 1908, um terremoto provocou enchentes e inundações que mataram quase 100 mil pessoas na Sicília, Itália. Em julho de 1998, dois terremotos submarinos criaram tsunamis que mataram pelo menos 2,1 mil pessoas perto da cidade de Aitape, na costa norte de Papua-Nova Guiné. Moradores disseram que as grandes paredes de água, que avançaram 2 km, soavam como caças pousando. <span
+            <p>Em 1883, um tsunami formado depois da erupção do vulcão Cracatoa, entre as ilhas indonésias de Java e Sumatra, matou 36 mil pessoas. Em 1908, um terremoto seguido de tsunami destruiu as cidades de Messina, na Sicília, e Reggio Calábria, no continente italiano, matando cerca de 80 mil pessoas, um dos maiores desastres sísmicos já registrados na Europa. Em julho de 1998, dois terremotos submarinos criaram tsunamis que mataram pelo menos 2,1 mil pessoas perto da cidade de Aitape, na costa norte de Papua-Nova Guiné. Moradores disseram que as grandes paredes de água, que avançaram 2 km, soavam como caças pousando. <span
                     class="citacao">Fonte: VESENTINI (2013, p.217).</span></p>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
@@ -746,12 +765,12 @@
                 Os vulcões, apesar de seu poder destrutivo, possuem inúmeros benefícios. Durante a formação do Planeta, a própria atmosfera e os oceanos podem ter se originado a partir de atividades vulcânicas em um passado distante.
             </p>
 
-            <p>Os solos são extremamente férteis próximos aos vulcões, devido aos minerais distribuídos no solo. As rochas vulcânicas, os gases e o vapor são importantes fontes de materiais industriais e químicos, como a pedra-pomes, o ácido bórico, a amônia, o enxofre, o dióxido de carbono e alguns metais. A água do mar que circula nas fissuras do sistema vulcânico das dorsais oceânicas é um dos principais fatores na formação de minérios e na manutenção do balanço químico dos oceanos. A energia térmica do vulcanismo está sendo cada vez mais aproveitada: a maioria das casas de Reykjavík, na Islândia, é aquecida por água quente, encanada a partir de fontes quentes.</p>
+            <p>Os solos são extremamente férteis próximos aos vulcões, devido aos minerais distribuídos no solo. As rochas vulcânicas, os gases e o vapor são importantes fontes de materiais industriais e químicos, como a pedra-pomes, o ácido bórico, a amônia, o enxofre, o dióxido de carbono e alguns metais. A água do mar que circula nas fissuras do sistema vulcânico das dorsais oceânicas é um dos principais fatores na formação de minérios e na manutenção do balanço químico dos oceanos. A energia térmica do vulcanismo está sendo cada vez mais aproveitada: mais de 90% das residências de Reykjavík, capital da Islândia, são aquecidas por água quente encanada diretamente do subsolo vulcânico, um sistema público em funcionamento desde a década de 1930 que também derrete a neve das calçadas e ruas no inverno, evitando acidentes.</p>
 
             <p>O vapor geotérmico, originado da água aquecida em contato com rochas vulcânicas quentes abaixo da superfície, é explorado como fonte de energia para a produção de eletricidade na Itália, na Nova Zelândia, nos Estados Unidos, no México, no Japão, dentre outros. <span
                     class="citacao">Fonte: Press (2006, p.167).</span></p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -772,7 +791,7 @@
                 <h3>10. Descreva como os movimentos das placas tectônicas podem causar terremotos e quais são os pontos principais de um terremoto.</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -787,6 +806,8 @@
                 <p>Releia o que você escreveu no início sobre o que causa um terremoto ou uma erupção vulcânica. Agora você sabe que ambos nascem do mesmo processo: o acúmulo lento de energia nas bordas das placas tectônicas, seja pela compressão que dobra e quebra rochas (tectonismo), seja pelo calor interno que empurra magma até a superfície (vulcanismo). O que muda é apenas a forma como essa energia é liberada.</p>
 
                 <p>Você também viu que nem tudo se explica pelos limites de placas: os pontos quentes, como o do Havaí, mostram que o manto tem uma dinâmica própria, capaz de perfurar o meio de uma placa inteira ao longo de milhões de anos.</p>
+
+                <p>Tudo o que vimos até aqui, tectonismo, vulcanismo e terremotos, são forças que constroem o relevo de dentro para fora. Mas assim que uma montanha se ergue, ela já começa a ser desgastada por outro conjunto de forças, que vêm de fora: a chuva, o vento, os rios e o gelo. Essa é a dinâmica externa do relevo, tema da próxima aula.</p>
 
                 <p><strong>Resumo dos conceitos:</strong> tectonismo (forças internas lentas); orogênese e epirogênese (movimentos horizontais e verticais); anticlinal e sinclinal, horst e graben (formas de dobramento e falha); vulcanismo e materiais piroclásticos; hotspot (vulcanismo intraplaca); hipocentro e epicentro; escalas Richter e Mercalli; tsunami (maremoto).</p>
 
@@ -849,6 +870,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

@@ -20,6 +20,7 @@ $nav = [
     ['slug'=>'progresso-aluno', 'icone'=>'🎯', 'label'=>'Progresso por Aluno', 'href'=>'/admin/progresso-aluno.php'],
     ['slug'=>'mural',           'icone'=>'🖼️',  'label'=>'Mural (moderação)',    'href'=>'/admin/mural.php'],
     ['slug'=>'filmes',          'icone'=>'🎬', 'label'=>'Filmes (imagem/nota)', 'href'=>'/admin/filmes.php'],
+    ['slug'=>'livros',          'icone'=>'📚', 'label'=>'Livros (capas)',        'href'=>'/admin/livros.php'],
     // ['slug'=>'reportes', 'icone'=>'⚠️', 'label'=>'Reportes', 'href'=>'/admin/reportes.php'],
 ];
 ?>

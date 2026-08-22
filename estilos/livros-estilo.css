@@ -1,0 +1,147 @@
+/* =============================================================
+   livros-estilo.css
+   Estilos da página /paginas/livros-sugeridos.php
+   (Sugestões de Livros — cards, filtros e grid)
+============================================================= */
+
+/* ── Grid de livros ────────────────────────────────── */
+#grid-livros {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
+}
+@media (max-width: 1200px) { #grid-livros { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 900px)  { #grid-livros { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px)  { #grid-livros { grid-template-columns: repeat(2, 1fr); } }
+
+/* ── Card de livro ─────────────────────────────────── */
+.livro-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform .18s, box-shadow .18s;
+}
+.livro-card:hover { transform: translateY(-4px); box-shadow: 0 10px 28px rgba(0,0,0,.12); }
+body.dark-mode .livro-card { background: #1e1e1e; }
+
+/* ── Capa ──────────────────────────────────────────── */
+.livro-capa-wrap {
+    position: relative;
+    aspect-ratio: 2/3;
+    background: var(--capa-bg, #e8f5e9);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.livro-capa-wrap img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .3s;
+}
+.livro-card:hover .livro-capa-wrap img { transform: scale(1.04); }
+
+.livro-capa-placeholder {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 2.5rem;
+    color: var(--capa-cor, #2e7d32);
+    background: var(--capa-bg, #e8f5e9);
+}
+
+.livro-tag-badge {
+    position: absolute; top: 10px; left: 10px;
+    background: var(--capa-cor, #2e7d32);
+    color: #fff;
+    font-size: .62rem; font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 10px;
+    max-width: calc(100% - 20px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ── Body do card ──────────────────────────────────── */
+.livro-body {
+    padding: 12px 14px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.livro-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem; font-weight: 700;
+    color: #1b1b1b;
+    line-height: 1.3;
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+body.dark-mode .livro-titulo { color: #e0e0e0; }
+
+.livro-autor {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .72rem; color: #888;
+    margin: 0;
+}
+body.dark-mode .livro-autor { color: #777; }
+
+.livro-relacao {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .73rem; color: #555;
+    line-height: 1.45;
+    margin: 4px 0 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    flex: 1;
+}
+body.dark-mode .livro-relacao { color: #999; }
+
+.livro-rodape {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.livro-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    background: #f3f4f5;
+    color: #2e7d32;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .72rem; font-weight: 700;
+    padding: 5px 12px;
+    text-decoration: none;
+    transition: background .15s, color .15s;
+}
+.livro-link:hover { background: #e8f5e9; color: #1b5e20; }
+body.dark-mode .livro-link { background: #2a2a2a; color: #66bb6a; }
+body.dark-mode .livro-link:hover { background: #1b2e1b; }
+
+/* ── Aviso informativo ─────────────────────────────── */
+.livro-aviso {
+    display: flex; align-items: flex-start; gap: 12px;
+    background: #f8f9fa;
+    border-left: 4px solid #4caf50;
+    border-radius: 0 14px 14px 0;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .82rem; color: #555; line-height: 1.5;
+}
+body.dark-mode .livro-aviso { background: #1e1e1e; color: #999; border-color: #4caf50; }
+.livro-aviso i { color: #4caf50; font-size: 1rem; margin-top: 1px; flex-shrink: 0; }

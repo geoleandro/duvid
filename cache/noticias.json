@@ -1,15 +1,15 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-20T18:44:50-03:00",
+    "gerado_em": "2026-08-21T18:26:00-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Caminhão movido 100% a biodiesel atinge 500 mil km sem falhas",
-            "resumo": "Iniciativa da JBS já evitou a emissão de cerca de 1.000 toneladas de carbono",
-            "link": "https://www.poder360.com.br/poder-infra/caminhao-movido-100-a-biodiesel-atinge-500-mil-km-sem-falhas/",
+            "titulo": "Durigan rejeita desvincular salário mínimo de benefícios do INSS",
+            "resumo": "Ministro da Fazenda diz que governo trabalha para conter gastos obrigatórios e estabilizar dívida pública no longo prazo",
+            "link": "https://www.poder360.com.br/poder-economia/durigan-rejeita-desvincular-salario-minimo-de-beneficios-do-inss/",
             "origem": "Poder360",
             "cor": "#6a1b9a",
-            "ts": 1787262090,
+            "ts": 1787347051,
             "data_estimada": false,
             "categoria": {
                 "label": "Geografia",
@@ -19,12 +19,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Navio-plataforma da Petrobras atinge produção máxima no pré-sal",
-            "resumo": "O navio-plataforma Alexandre de Gusmão, instalado no Campo de Mero, no pré-sal da Bacia de Santos, atingiu seu patamar máximo de produção, c…",
-            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/navio-plataforma-da-petrobras-atinge-producao-maxima-no-pre-sal",
-            "origem": "Ag. Brasil Economia",
-            "cor": "#1565c0",
-            "ts": 1787261100,
+            "titulo": "Em ligação com Lula, Trump quis saber sobre eleições no Brasil e ouviu que processo corre bem e de forma confiável",
+            "resumo": "Lula e Trump conversam por mais de 1 hora por telefone\nO presidente dos Estados Unidos, Donald Trump, perguntou ao presidente Luiz Inácio Lu…",
+            "link": "https://g1.globo.com/politica/noticia/2026/08/21/em-ligacao-com-lula-trump-quis-saber-sobre-eleicoes-no-brasil-e-ouviu-que-processo-corre-bem-e-de-forma-confiavel.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1787346946,
             "data_estimada": false,
             "categoria": {
                 "label": "Brasil",
@@ -34,12 +34,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "SP: Enel apresenta alegações finais contra caducidade da concessão",
-            "resumo": "A Eletropaulo Metropolitana Eletricidade de São Paulo (Enel SP), concessionária de distribuição de energia elétrica de São Paulo, apresentou…",
-            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/sp-enel-apresenta-alegacoes-finais-contra-caducidade-da-concessao",
-            "origem": "Ag. Brasil Economia",
-            "cor": "#1565c0",
-            "ts": 1787260680,
+            "titulo": "Secretário do Exército dos EUA deve deixar o cargo até o fim do ano, diz jornal",
+            "resumo": "O Secretário do Exército, Dan Driscoll, presta depoimento durante uma audiência no Senado americano em maio de 2026.\nNathan Posner/Reuters\nO…",
+            "link": "https://g1.globo.com/mundo/noticia/2026/08/21/secretario-do-exercito-dos-eua-deve-deixar-o-cargo-ate-o-fim-do-ano-diz-jornal.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1787346178,
             "data_estimada": false,
             "categoria": {
                 "label": "Geografia",
@@ -49,27 +49,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Frente fria leva chuva e ventania à capital paulista e áreas do estado",
-            "resumo": "Uma frente fria que avança sobre o Sudeste vai provocar queda na temperatura já nesta noite de quinta-feira (20) e também na sexta na capita…",
-            "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/frente-fria-leva-chuva-e-ventania-capital-paulista-e-areas-do-estado",
-            "origem": "Ag. Brasil Clima",
-            "cor": "#1565c0",
-            "ts": 1787258760,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Dólar sobe 0,32% e fecha a R$ 5,193; Bolsa fica estável",
-            "resumo": "Mercados acompanharam a escalada das tensões entre EUA e Irã, além da alta do petróleo e da dívida norte-americana",
-            "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-032-e-fecha-a-r-5193-bolsa-fica-estavel/",
+            "titulo": "Com alívio do exterior, Bolsa sobe 1,85% e dólar fecha em R$ 5,144",
+            "resumo": "Também houve melhora do cenário local com investidores de olho nas eleições e novos cortes de juros",
+            "link": "https://www.poder360.com.br/poder-economia/com-alivio-do-exterior-bolsa-sobe-185-e-dolar-fecha-em-r-5144/",
             "origem": "Poder360",
             "cor": "#6a1b9a",
-            "ts": 1787257875,
+            "ts": 1787344857,
             "data_estimada": false,
             "categoria": {
                 "label": "Economia",
@@ -79,12 +64,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Exportações de carne bovina caem 26% em agosto com temor de tarifa maior na China",
-            "resumo": "As exportações brasileiras de carne bovina registraram queda de 26% no balanço parcial de agosto, segundo dados do Ministério do Desenvolvim…",
-            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/19/exportacoes-de-carne-bovina-caem-26percent-em-agosto-com-temor-de-tarifa-maior-na-china.ghtml",
+            "titulo": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
+            "resumo": "Joesley Batista foi à Venezuela pedir a renúncia de Maduro, diz agência\nA J&F, holding dos irmãos Joesley e Wesley Batista, comprou 100% da …",
+            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
             "origem": "G1 Agronegócios",
             "cor": "#33691e",
-            "ts": 1787156236,
+            "ts": 1787336450,
             "data_estimada": false,
             "categoria": {
                 "label": "Espaço Rural",
@@ -92,6 +77,21 @@
                 "cor": "#558b2f"
             },
             "categoria_curada": true
+        },
+        {
+            "titulo": "Terremoto no Peru: por que América do Sul está vendo tantos abalos sísmicos em sequência?",
+            "resumo": "Sequência recente de terremotos levantam questionamentos: mundo está passando por mais tremores ou nossa capacidade de registrá-los apenas m…",
+            "link": "https://www.bbc.com/portuguese/articles/c4gjn30x817o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1787330665,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Clima",
+                "emoji": "🌱",
+                "cor": "#00838f"
+            },
+            "categoria_curada": false
         }
     ],
     "categorias_ausentes": [

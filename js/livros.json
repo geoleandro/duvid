@@ -5,7 +5,9 @@
     "ano": "1873",
     "cor": "w3-amber",
     "tag": "Fusos horários",
-    "relacao": "Phileas Fogg aposta que dá a volta ao mundo em 80 dias e, ao final da viagem, descobre um detalhe que só faz sentido para quem entende fusos horários: viajando sempre para Leste, ele ganhou um dia inteiro sem perceber, a mesma lógica da Linha Internacional de Mudança de Data que você estudou nesta aula. É, literalmente, um romance construído em cima do assunto do dia."
+    "continente": "Global",
+    "relacao": "Phileas Fogg aposta que dá a volta ao mundo em 80 dias e, ao final da viagem, descobre um detalhe que só faz sentido para quem entende fusos horários: viajando sempre para Leste, ele ganhou um dia inteiro sem perceber, a mesma lógica da Linha Internacional de Mudança de Data que você estudou nesta aula. É, literalmente, um romance construído em cima do assunto do dia.",
+    "capa": "https://books.google.com/books/content?id=PFI8DwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "CarrollAliceMaravilhas": {
     "autor": "Lewis Carroll",
@@ -13,7 +15,9 @@
     "ano": "1865",
     "cor": "w3-pink",
     "tag": "Tempo e pontualidade",
-    "relacao": "O Coelho Branco corre sempre atrasado, olhando o relógio de bolso, e o Chapeleiro Maluco vive numa festa de chá presa para sempre às 6 horas, porque o Tempo (personificado no livro) parou de cooperar com ele. Um contraponto criativo ao rigor matemático dos fusos: o que aconteceria se o tempo simplesmente parasse de ser confiável?"
+    "continente": "Europa",
+    "relacao": "O Coelho Branco corre sempre atrasado, olhando o relógio de bolso, e o Chapeleiro Maluco vive numa festa de chá presa para sempre às 6 horas, porque o Tempo (personificado no livro) parou de cooperar com ele. Um contraponto criativo ao rigor matemático dos fusos: o que aconteceria se o tempo simplesmente parasse de ser confiável?",
+    "capa": "https://books.google.com/books/content?id=zsngDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SaintExuperyPequenoPrincipe": {
     "autor": "Antoine de Saint-Exupéry",
@@ -21,7 +25,9 @@
     "ano": "1943",
     "cor": "w3-light-blue",
     "tag": "Rotação e tempo",
-    "relacao": "No pequeno planeta do príncipe, basta puxar a cadeira alguns passos para assistir a um novo pôr do sol, ele chega a ver 44 num único dia. É uma forma poética de mostrar, para quem está começando a estudar rotação e fusos, como a experiência do tempo depende inteiramente da posição de quem observa."
+    "continente": "Global",
+    "relacao": "No pequeno planeta do príncipe, basta puxar a cadeira alguns passos para assistir a um novo pôr do sol, ele chega a ver 44 num único dia. É uma forma poética de mostrar, para quem está começando a estudar rotação e fusos, como a experiência do tempo depende inteiramente da posição de quem observa.",
+    "capa": "https://books.google.com/books/content?id=VkHoDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "StevensonIlhaTesouro": {
     "autor": "Robert Louis Stevenson",
@@ -29,7 +35,9 @@
     "ano": "1883",
     "cor": "w3-teal",
     "tag": "Cartografia e orientação",
-    "relacao": "O mapa do pirata Billy Bones, com um X marcando onde o tesouro está enterrado, é o ponto de partida de toda a aventura: sem saber ler orientação, distâncias e pontos de referência naquele desenho, Jim Hawkins e a tripulação jamais chegariam à ilha certa. Uma boa companhia de leitura para quem acabou de resolver o próprio desafio de navegação desta aula."
+    "continente": "América Central",
+    "relacao": "O mapa do pirata Billy Bones, com um X marcando onde o tesouro está enterrado, é o ponto de partida de toda a aventura: sem saber ler orientação, distâncias e pontos de referência naquele desenho, Jim Hawkins e a tripulação jamais chegariam à ilha certa. Uma boa companhia de leitura para quem acabou de resolver o próprio desafio de navegação desta aula.",
+    "capa": "https://books.google.com/books/content?id=3Mb1EAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "VerneVinteMilLeguas": {
     "autor": "Júlio Verne",
@@ -37,7 +45,9 @@
     "ano": "1870",
     "cor": "w3-blue",
     "tag": "Coordenadas geográficas",
-    "relacao": "A bordo do submarino Nautilus, o Capitão Nemo cruza todos os oceanos calculando a latitude e a longitude de cada parada, do Polo Sul aos recifes de coral, numa época em que se localizar em alto-mar exigia domínio real de astronomia e cartografia. Mostra, de forma ficcional, por que o sistema de coordenadas estudado nesta aula foi tão decisivo para a exploração do planeta."
+    "continente": "Global",
+    "relacao": "A bordo do submarino Nautilus, o Capitão Nemo cruza todos os oceanos calculando a latitude e a longitude de cada parada, do Polo Sul aos recifes de coral, numa época em que se localizar em alto-mar exigia domínio real de astronomia e cartografia. Mostra, de forma ficcional, por que o sistema de coordenadas estudado nesta aula foi tão decisivo para a exploração do planeta.",
+    "capa": "https://books.google.com/books/content?id=R7zQoZPhAOQC&printsec=frontcover&img=1&zoom=1"
   },
   "SwiftViagensGulliver": {
     "autor": "Jonathan Swift",
@@ -45,7 +55,9 @@
     "ano": "1726",
     "cor": "w3-indigo",
     "tag": "Cartografia e sátira",
-    "relacao": "Swift dá a Lilliput e às outras terras visitadas por Gulliver coordenadas geográficas precisas, como se fossem lugares reais documentados em mapa, numa sátira ao hábito da Cartografia europeia da época de desenhar fronteiras e 'descobrir' territórios distantes com uma confiança que a ciência ainda não tinha. Uma leitura que ajuda a enxergar, com humor, como mapas também contam histórias de poder, o mesmo assunto do bloco sobre Mercator e a América Invertida."
+    "continente": "Europa",
+    "relacao": "Swift dá a Lilliput e às outras terras visitadas por Gulliver coordenadas geográficas precisas, como se fossem lugares reais documentados em mapa, numa sátira ao hábito da Cartografia europeia da época de desenhar fronteiras e 'descobrir' territórios distantes com uma confiança que a ciência ainda não tinha. Uma leitura que ajuda a enxergar, com humor, como mapas também contam histórias de poder, o mesmo assunto do bloco sobre Mercator e a América Invertida.",
+    "capa": "https://books.google.com/books/content?id=TdfkDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "ConradCoracaoTrevas": {
     "autor": "Joseph Conrad",
@@ -53,7 +65,9 @@
     "ano": "1899",
     "cor": "w3-deep-orange",
     "tag": "Colonialismo",
-    "relacao": "Um marinheiro europeu sobe o Rio Congo em busca de um agente comercial marfim adentro, e encontra a face mais brutal do colonialismo belga. É um livro do próprio olhar europeu da época, e por isso mesmo revela, sem querer, como esse olhar enxergava (e desumanizava) a África."
+    "continente": "África",
+    "relacao": "Um marinheiro europeu sobe o Rio Congo em busca de um agente comercial marfim adentro, e encontra a face mais brutal do colonialismo belga. É um livro do próprio olhar europeu da época, e por isso mesmo revela, sem querer, como esse olhar enxergava (e desumanizava) a África.",
+    "capa": "https://books.google.com/books/content?id=e0h_EQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AchebeMundoDespedaca": {
     "autor": "Chinua Achebe",
@@ -61,7 +75,9 @@
     "ano": "1958",
     "cor": "w3-green",
     "tag": "Colonialismo",
-    "relacao": "Escrito por um autor nigeriano como resposta direta a romances como o de Conrad, mostra a chegada dos colonizadores europeus pela perspectiva de uma aldeia igbo, com sua própria organização social, religião e conflitos internos, sendo desmantelada de dentro para fora."
+    "continente": "África",
+    "relacao": "Escrito por um autor nigeriano como resposta direta a romances como o de Conrad, mostra a chegada dos colonizadores europeus pela perspectiva de uma aldeia igbo, com sua própria organização social, religião e conflitos internos, sendo desmantelada de dentro para fora.",
+    "capa": "https://books.google.com/books/content?id=W85lCgAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "CoutoTerraSonambula": {
     "autor": "Mia Couto",
@@ -69,7 +85,9 @@
     "ano": "1992",
     "cor": "w3-amber",
     "tag": "Pós-colonialismo",
-    "relacao": "Considerado o melhor romance africano do século XX por um júri de escritores e críticos africanos, acompanha um velho e um menino atravessando um Moçambique destruído pela guerra civil que se seguiu à independência, tema que dialoga direto com o neocolonialismo e a instabilidade estudados nesta aula."
+    "continente": "África",
+    "relacao": "Considerado o melhor romance africano do século XX por um júri de escritores e críticos africanos, acompanha um velho e um menino atravessando um Moçambique destruído pela guerra civil que se seguiu à independência, tema que dialoga direto com o neocolonialismo e a instabilidade estudados nesta aula.",
+    "capa": "https://books.google.com/books/content?id=9kXUbz0QLg0C&printsec=frontcover&img=1&zoom=1"
   },
   "ZweigMundoDeOntem": {
     "autor": "Stefan Zweig",
@@ -77,7 +95,9 @@
     "ano": "1942",
     "cor": "w3-indigo",
     "tag": "Memórias",
-    "relacao": "Memórias do autor austríaco sobre a Europa unificada que se destruiu em nacionalismo e guerra, o trauma histórico por trás do 'nunca mais' que motivou a integração europeia."
+    "continente": "Europa",
+    "relacao": "Memórias do autor austríaco sobre a Europa unificada que se destruiu em nacionalismo e guerra, o trauma histórico por trás do 'nunca mais' que motivou a integração europeia.",
+    "capa": "https://books.google.com/books/content?id=HXDTDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "JudtPosGuerra": {
     "autor": "Tony Judt",
@@ -85,7 +105,9 @@
     "ano": "2005",
     "cor": "w3-indigo",
     "tag": "História da Europa",
-    "relacao": "Panorama da reconstrução europeia após 1945, da Guerra Fria à formação das instituições que deram origem à União Europeia, contexto histórico direto do processo de integração estudado na aula."
+    "continente": "Europa",
+    "relacao": "Panorama da reconstrução europeia após 1945, da Guerra Fria à formação das instituições que deram origem à União Europeia, contexto histórico direto do processo de integração estudado na aula.",
+    "capa": "https://books.google.com/books/content?id=mDwqDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "RemarqueNadaDeNovo": {
     "autor": "Erich Maria Remarque",
@@ -93,7 +115,9 @@
     "ano": "1929",
     "cor": "w3-brown",
     "tag": "Guerra",
-    "relacao": "A Primeira Guerra Mundial pelos olhos de um soldado alemão: o horror concreto que o projeto de integração europeia tentou evitar que se repetisse."
+    "continente": "Europa",
+    "relacao": "A Primeira Guerra Mundial pelos olhos de um soldado alemão: o horror concreto que o projeto de integração europeia tentou evitar que se repetisse.",
+    "capa": "https://books.google.com/books/content?id=jDSZDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "McEwanBarata": {
     "autor": "Ian McEwan",
@@ -101,7 +125,9 @@
     "ano": "2019",
     "cor": "w3-blue",
     "tag": "Brexit",
-    "relacao": "Fábula satírica em que ministros britânicos acordam transformados em baratas às vésperas de uma decisão econômica desastrosa: sátira direta ao Brexit e à disfunção política do Reino Unido pós-referendo."
+    "continente": "Europa",
+    "relacao": "Fábula satírica em que ministros britânicos acordam transformados em baratas às vésperas de uma decisão econômica desastrosa: sátira direta ao Brexit e à disfunção política do Reino Unido pós-referendo.",
+    "capa": "https://books.google.com/books/content?id=RxCOEAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SmithDentesBrancos": {
     "autor": "Zadie Smith",
@@ -109,7 +135,9 @@
     "ano": "2000",
     "cor": "w3-teal",
     "tag": "Imigração",
-    "relacao": "Famílias imigrantes e multiculturalismo em Londres, tema direto da discussão sobre imigração e xenofobia na Europa contemporânea."
+    "continente": "Europa",
+    "relacao": "Famílias imigrantes e multiculturalismo em Londres, tema direto da discussão sobre imigração e xenofobia na Europa contemporânea.",
+    "capa": "https://books.google.com/books/content?id=o37ZEAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AramburuPatria": {
     "autor": "Fernando Aramburu",
@@ -117,7 +145,9 @@
     "ano": "2016",
     "cor": "w3-red",
     "tag": "Separatismo Basco",
-    "relacao": "Best-seller espanhol sobre como o terrorismo da ETA e o separatismo basco destroem a amizade entre duas famílias de um mesmo povoado, retrato humano do conflito separatista citado na aula."
+    "continente": "Europa",
+    "relacao": "Best-seller espanhol sobre como o terrorismo da ETA e o separatismo basco destroem a amizade entre duas famílias de um mesmo povoado, retrato humano do conflito separatista citado na aula.",
+    "capa": "https://books.google.com/books/content?id=R1mpDAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SteinbeckVinhasDaIra": {
     "autor": "John Steinbeck",
@@ -125,7 +155,9 @@
     "ano": "1939",
     "cor": "w3-deep-orange",
     "tag": "Crise Agrícola",
-    "relacao": "A crise agrícola americana e a migração interna em massa durante a Grande Depressão, retrato duro da agricultura e da economia dos EUA."
+    "continente": "América do Norte",
+    "relacao": "A crise agrícola americana e a migração interna em massa durante a Grande Depressão, retrato duro da agricultura e da economia dos EUA.",
+    "capa": "https://books.google.com/books/content?id=U86AEAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "VonnegutMatadouroCinco": {
     "autor": "Kurt Vonnegut",
@@ -133,7 +165,9 @@
     "ano": "1969",
     "cor": "w3-grey",
     "tag": "Poder Militar",
-    "relacao": "Crítica ao poder militar americano através do bombardeio de Dresden na Segunda Guerra, contraponto literário à geopolítica militar dos EUA."
+    "continente": "América do Norte",
+    "relacao": "Crítica ao poder militar americano através do bombardeio de Dresden na Segunda Guerra, contraponto literário à geopolítica militar dos EUA.",
+    "capa": "https://books.google.com/books/content?id=2RTFEQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SinclairSelva": {
     "autor": "Upton Sinclair",
@@ -141,7 +175,9 @@
     "ano": "1906",
     "cor": "w3-deep-orange",
     "tag": "Industrialização",
-    "relacao": "Denúncia das condições desumanas de imigrantes trabalhando nos frigoríficos de Chicago no início do século XX, retrato cru da industrialização e da imigração que moldaram a economia dos EUA."
+    "continente": "América do Norte",
+    "relacao": "Denúncia das condições desumanas de imigrantes trabalhando nos frigoríficos de Chicago no início do século XX, retrato cru da industrialização e da imigração que moldaram a economia dos EUA.",
+    "capa": "https://books.google.com/books/content?id=wYebDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "RulfoPedroParamo": {
     "autor": "Juan Rulfo",
@@ -149,7 +185,9 @@
     "ano": "1955",
     "cor": "w3-deep-purple",
     "tag": "México",
-    "relacao": "Clássico mexicano sobre terra, morte e memória rural, ambientado no interior árido do México retratado na aula."
+    "continente": "América do Norte",
+    "relacao": "Clássico mexicano sobre terra, morte e memória rural, ambientado no interior árido do México retratado na aula.",
+    "capa": "https://books.google.com/books/content?id=M28PYzMAeocC&printsec=frontcover&img=1&zoom=1"
   },
   "CumminsTerraAmericana": {
     "autor": "Jeanine Cummins",
@@ -157,7 +195,9 @@
     "ano": "2020",
     "cor": "w3-orange",
     "tag": "Fronteira",
-    "relacao": "A travessia de uma família mexicana rumo à fronteira dos Estados Unidos fugindo do narcotráfico, ligado diretamente à questão da fronteira México-EUA."
+    "continente": "América do Norte",
+    "relacao": "A travessia de uma família mexicana rumo à fronteira dos Estados Unidos fugindo do narcotráfico, ligado diretamente à questão da fronteira México-EUA.",
+    "capa": "https://books.google.com/books/content?id=mXHVDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "MartelVidaDePi": {
     "autor": "Yann Martel",
@@ -165,7 +205,9 @@
     "ano": "2001",
     "cor": "w3-teal",
     "tag": "Multiculturalismo",
-    "relacao": "Uma família indiana planeja migrar para o Canadá em busca de uma vida melhor, romance que dialoga com o multiculturalismo canadense e a experiência da imigração retratados na aula."
+    "continente": "América do Norte",
+    "relacao": "Uma família indiana planeja migrar para o Canadá em busca de uma vida melhor, romance que dialoga com o multiculturalismo canadense e a experiência da imigração retratados na aula.",
+    "capa": "https://books.google.com/books/content?id=RpsxAAAACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "GarciaMarquezCemAnos": {
     "autor": "Gabriel García Márquez",
@@ -173,7 +215,9 @@
     "ano": "1967",
     "cor": "w3-amber",
     "tag": "Realismo Mágico",
-    "relacao": "O clássico maior da literatura latino-americana: colonização, isolamento e história de uma região através do realismo mágico."
+    "continente": "América do Sul",
+    "relacao": "O clássico maior da literatura latino-americana: colonização, isolamento e história de uma região através do realismo mágico.",
+    "capa": "https://books.google.com/books/content?id=o37NAAAACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AllendeCasaDosEspiritos": {
     "autor": "Isabel Allende",
@@ -181,7 +225,9 @@
     "ano": "1982",
     "cor": "w3-red",
     "tag": "Chile",
-    "relacao": "Saga de uma família chilena atravessando décadas de turbulência política e social na América do Sul."
+    "continente": "América do Sul",
+    "relacao": "Saga de uma família chilena atravessando décadas de turbulência política e social na América do Sul.",
+    "capa": "https://books.google.com/books/content?id=LLnFQgAACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "McLeodQuantoCustouAcucar": {
     "autor": "Cynthia McLeod",
@@ -189,7 +235,9 @@
     "ano": "1987",
     "cor": "w3-brown",
     "tag": "Suriname",
-    "relacao": "Romance histórico da autora surinamesa sobre a escravidão nas plantações de cana-de-açúcar no Suriname colonial do século XVIII, ligado à colonização e à economia açucareira da América do Sul."
+    "continente": "América do Sul",
+    "relacao": "Romance histórico da autora surinamesa sobre a escravidão nas plantações de cana-de-açúcar no Suriname colonial do século XVIII, ligado à colonização e à economia açucareira da América do Sul.",
+    "capa": "https://books.google.com/books/content?id=nSR7AAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "FrancoRosarioTijeras": {
     "autor": "Jorge Franco",
@@ -197,7 +245,9 @@
     "ano": "1999",
     "cor": "w3-deep-orange",
     "tag": "Narcotráfico",
-    "relacao": "Narcotráfico e violência em Medellín nos anos 1980-1990, retrato literário direto do tema central desta aula."
+    "continente": "América do Sul",
+    "relacao": "Narcotráfico e violência em Medellín nos anos 1980-1990, retrato literário direto do tema central desta aula.",
+    "capa": "https://books.google.com/books/content?id=i1-96DWcEegC&printsec=frontcover&img=1&zoom=1"
   },
   "ArenasAntesQueAnoiteca": {
     "autor": "Reinaldo Arenas",
@@ -205,7 +255,9 @@
     "ano": "1992",
     "cor": "w3-blue",
     "tag": "Cuba",
-    "relacao": "Memórias de perseguição política e censura em Cuba sob o regime castrista, contraponto pessoal ao debate sobre a revolução cubana."
+    "continente": "América Central",
+    "relacao": "Memórias de perseguição política e censura em Cuba sob o regime castrista, contraponto pessoal ao debate sobre a revolução cubana.",
+    "capa": "https://books.google.com/books/content?id=jk_mAAAAMAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "VargasLlosaFestaDoBode": {
     "autor": "Mario Vargas Llosa",
@@ -213,7 +265,9 @@
     "ano": "2000",
     "cor": "w3-brown",
     "tag": "Ditadura",
-    "relacao": "Retrato de uma ditadura latino-americana (Trujillo, na República Dominicana), ecoa o padrão de autoritarismo discutido na aula sobre Venezuela, Cuba e Bolívia."
+    "continente": "América Central",
+    "relacao": "Retrato de uma ditadura latino-americana (Trujillo, na República Dominicana), ecoa o padrão de autoritarismo discutido na aula sobre Venezuela, Cuba e Bolívia.",
+    "capa": "https://books.google.com/books/content?id=8D4mtzP2gxgC&printsec=frontcover&img=1&zoom=1"
   },
   "MartinezSudd": {
     "autor": "Gabi Martínez",
@@ -221,7 +275,9 @@
     "ano": "2010",
     "cor": "w3-teal",
     "tag": "Hidrografia",
-    "relacao": "Crônica de viagem subindo o Nilo Branco até o pântano do Sudd, no Sudão do Sul, ligação direta com a seção de hidrografia (Rio Nilo) desta aula."
+    "continente": "África",
+    "relacao": "Crônica de viagem subindo o Nilo Branco até o pântano do Sudd, no Sudão do Sul, ligação direta com a seção de hidrografia (Rio Nilo) desta aula.",
+    "capa": "https://books.google.com/books/content?id=VeA4s8JnoGQC&printsec=frontcover&img=1&zoom=1"
   },
   "CamusOEstrangeiro": {
     "autor": "Albert Camus",
@@ -229,7 +285,9 @@
     "ano": "1942",
     "cor": "w3-amber",
     "tag": "Clima",
-    "relacao": "Clássico do autor argelino-francês, ganhador do Nobel de 1957. A cena de abertura, com o calor e o sol cegante numa praia argelina, evoca o clima árido e mediterrâneo do norte da África."
+    "continente": "África",
+    "relacao": "Clássico do autor argelino-francês, ganhador do Nobel de 1957. A cena de abertura, com o calor e o sol cegante numa praia argelina, evoca o clima árido e mediterrâneo do norte da África.",
+    "capa": "https://books.google.com/books/content?id=44CcDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "LessingErvaCanta": {
     "autor": "Doris Lessing",
@@ -237,7 +295,9 @@
     "ano": "1950",
     "cor": "w3-green",
     "tag": "Savana",
-    "relacao": "Terra, raça e savana na Rodésia colonial (atual Zimbábue), pela autora britânica ganhadora do Nobel de 2007."
+    "continente": "África",
+    "relacao": "Terra, raça e savana na Rodésia colonial (atual Zimbábue), pela autora britânica ganhadora do Nobel de 2007.",
+    "capa": "https://books.google.com/books/content?id=oIPcSAAACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AdichieMeioSolAmarelo": {
     "autor": "Chimamanda Ngozi Adichie",
@@ -245,7 +305,9 @@
     "ano": "2006",
     "cor": "w3-deep-orange",
     "tag": "Guerra Civil",
-    "relacao": "A guerra civil nigeriana e a tentativa fracassada de independência de Biafra (1967-1970), pela ótica de personagens que tentam preservar sonhos e dignidade em meio ao conflito étnico herdado das fronteiras coloniais."
+    "continente": "África",
+    "relacao": "A guerra civil nigeriana e a tentativa fracassada de independência de Biafra (1967-1970), pela ótica de personagens que tentam preservar sonhos e dignidade em meio ao conflito étnico herdado das fronteiras coloniais.",
+    "capa": "https://books.google.com/books/content?id=p-PUBQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "BeahMuitoLongeDeCasa": {
     "autor": "Ishmael Beah",
@@ -253,7 +315,9 @@
     "ano": "2007",
     "cor": "w3-brown",
     "tag": "Menino-Soldado",
-    "relacao": "Memórias reais do autor, recrutado à força como menino-soldado durante a guerra civil de Serra Leoa, a mesma guerra financiada pelos 'diamantes de sangue' estudada nesta aula."
+    "continente": "África",
+    "relacao": "Memórias reais do autor, recrutado à força como menino-soldado durante a guerra civil de Serra Leoa, a mesma guerra financiada pelos 'diamantes de sangue' estudada nesta aula.",
+    "capa": "https://books.google.com/books/content?id=lR6_CwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "CoetzeeDesonra": {
     "autor": "J. M. Coetzee",
@@ -261,7 +325,9 @@
     "ano": "1999",
     "cor": "w3-grey",
     "tag": "Pós-Apartheid",
-    "relacao": "Vencedor do Booker Prize, retrata as tensões raciais e de poder na África do Sul pós-apartheid, mostrando que o fim legal da segregação não apagou suas feridas, tema central desta aula."
+    "continente": "África",
+    "relacao": "Vencedor do Booker Prize, retrata as tensões raciais e de poder na África do Sul pós-apartheid, mostrando que o fim legal da segregação não apagou suas feridas, tema central desta aula.",
+    "capa": "https://books.google.com/books/content?id=MMDgJEskO_YC&printsec=frontcover&img=1&zoom=1"
   },
   "SaccoPalestina": {
     "autor": "Joe Sacco",
@@ -269,7 +335,9 @@
     "ano": "1996",
     "cor": "w3-blue",
     "tag": "Jornalismo Gráfico",
-    "relacao": "Obra fundadora do jornalismo em quadrinhos, com prefácio de Edward Said: o autor viaja pela Cisjordânia e Gaza entrevistando palestinos comuns, dando rosto e voz cotidiana a um conflito frequentemente reduzido a estatísticas."
+    "continente": "Ásia",
+    "relacao": "Obra fundadora do jornalismo em quadrinhos, com prefácio de Edward Said: o autor viaja pela Cisjordânia e Gaza entrevistando palestinos comuns, dando rosto e voz cotidiana a um conflito frequentemente reduzido a estatísticas.",
+    "capa": "https://books.google.com/books/content?id=0ZOeMR-K2rIC&printsec=frontcover&img=1&zoom=1"
   },
   "KhouryPortaDoSol": {
     "autor": "Elias Khoury",
@@ -277,7 +345,9 @@
     "ano": "1998",
     "cor": "w3-deep-orange",
     "tag": "Nakba",
-    "relacao": "Considerado o grande romance palestino sobre o exílio, narra décadas de deslocamento e memória num campo de refugiados em Beirute, dando forma humana e íntima ao que esta aula chama de Nakba."
+    "continente": "Ásia",
+    "relacao": "Considerado o grande romance palestino sobre o exílio, narra décadas de deslocamento e memória num campo de refugiados em Beirute, dando forma humana e íntima ao que esta aula chama de Nakba.",
+    "capa": "https://books.google.com/books/content?id=kJsGXYXrS2wC&printsec=frontcover&img=1&zoom=1"
   },
   "MaaloufRochedoTanios": {
     "autor": "Amin Maalouf",
@@ -285,7 +355,9 @@
     "ano": "1993",
     "cor": "w3-amber",
     "tag": "Líbano",
-    "relacao": "Vencedor do Prêmio Goncourt, pelo escritor libanês da Academia Francesa: uma vila cristã maronita nas montanhas do Líbano do século 19, retrato literário da mesma diversidade religiosa que explica o confessionalismo libanês de hoje."
+    "continente": "Ásia",
+    "relacao": "Vencedor do Prêmio Goncourt, pelo escritor libanês da Academia Francesa: uma vila cristã maronita nas montanhas do Líbano do século 19, retrato literário da mesma diversidade religiosa que explica o confessionalismo libanês de hoje.",
+    "capa": "https://books.google.com/books/content?id=9Yw9EQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SatrapiPersepolis": {
     "autor": "Marjane Satrapi",
@@ -293,7 +365,9 @@
     "ano": "2000",
     "cor": "w3-red",
     "tag": "Revolução Iraniana",
-    "relacao": "Autobiografia em quadrinhos da infância da autora durante a Revolução Islâmica de 1979 e a guerra Irã-Iraque, contando por dentro como foi viver a transição de um Irã mais aberto para a teocracia xiita estudada nesta aula."
+    "continente": "Ásia",
+    "relacao": "Autobiografia em quadrinhos da infância da autora durante a Revolução Islâmica de 1979 e a guerra Irã-Iraque, contando por dentro como foi viver a transição de um Irã mais aberto para a teocracia xiita estudada nesta aula.",
+    "capa": "https://books.google.com/books/content?id=g0s_DAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "PamukNeve": {
     "autor": "Orhan Pamuk",
@@ -301,7 +375,9 @@
     "ano": "2002",
     "cor": "w3-indigo",
     "tag": "Turquia",
-    "relacao": "Pelo Nobel de Literatura turco, o romance se passa na cidade de Kars, no leste da Turquia, e mergulha nas tensões entre laicismo, islã político e identidade que atravessam o país até hoje."
+    "continente": "Ásia",
+    "relacao": "Pelo Nobel de Literatura turco, o romance se passa na cidade de Kars, no leste da Turquia, e mergulha nas tensões entre laicismo, islã político e identidade que atravessam o país até hoje.",
+    "capa": "https://books.google.com/books/content?id=fxX8GT_a0EAC&printsec=frontcover&img=1&zoom=1"
   },
   "HedayatCorujaCega": {
     "autor": "Sadegh Hedayat",
@@ -309,7 +385,9 @@
     "ano": "1937",
     "cor": "w3-deep-purple",
     "tag": "Literatura Persa",
-    "relacao": "Considerado o texto mais importante já escrito em língua persa, romance surrealista de pesadelo escrito nos anos 1930, antes da revolução: mostra que existe um Irã literário e cultural muito mais antigo e profundo do que a teocracia formada em 1979."
+    "continente": "Ásia",
+    "relacao": "Considerado o texto mais importante já escrito em língua persa, romance surrealista de pesadelo escrito nos anos 1930, antes da revolução: mostra que existe um Irã literário e cultural muito mais antigo e profundo do que a teocracia formada em 1979.",
+    "capa": "https://books.google.com/books/content?id=I9Q7EAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AdigaOTigreBranco": {
     "autor": "Aravind Adiga",
@@ -317,7 +395,9 @@
     "ano": "2008",
     "cor": "w3-orange",
     "tag": "Índia",
-    "relacao": "Vencedor do Booker Prize, narrado por um motorista de origem humilde que sobe na vida driblando o sistema de castas e a corrupção indiana, retrato ácido das contradições entre a Índia que cresce e a Índia que fica para trás."
+    "continente": "Ásia",
+    "relacao": "Vencedor do Booker Prize, narrado por um motorista de origem humilde que sobe na vida driblando o sistema de castas e a corrupção indiana, retrato ácido das contradições entre a Índia que cresce e a Índia que fica para trás.",
+    "capa": "https://books.google.com/books/content?id=OxDyzwEACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "HosseiniCacadorPipas": {
     "autor": "Khaled Hosseini",
@@ -325,7 +405,9 @@
     "ano": "2003",
     "cor": "w3-teal",
     "tag": "Afeganistão",
-    "relacao": "Best-seller mundial sobre amizade, culpa e exílio, ambientado no Afeganistão antes e depois da invasão soviética e da ascensão do Talibã, humanizando o país que esta aula mostra sendo usado como tabuleiro de potências estrangeiras."
+    "continente": "Ásia",
+    "relacao": "Best-seller mundial sobre amizade, culpa e exílio, ambientado no Afeganistão antes e depois da invasão soviética e da ascensão do Talibã, humanizando o país que esta aula mostra sendo usado como tabuleiro de potências estrangeiras.",
+    "capa": "https://books.google.com/books/content?id=ehUthD1M9l8C&printsec=frontcover&img=1&zoom=1"
   },
   "TrasiTodasCoresCeu": {
     "autor": "Amita Trasi",
@@ -333,7 +415,9 @@
     "ano": "2015",
     "cor": "w3-pink",
     "tag": "Sistema de Castas",
-    "relacao": "Romance sobre a amizade entre duas meninas indianas de castas diferentes, uma delas forçada por um ritual de sua casta a um destino de exploração, mostrando por dentro como a hierarquia de castas ainda determina vidas na Índia contemporânea."
+    "continente": "Ásia",
+    "relacao": "Romance sobre a amizade entre duas meninas indianas de castas diferentes, uma delas forçada por um ritual de sua casta a um destino de exploração, mostrando por dentro como a hierarquia de castas ainda determina vidas na Índia contemporânea.",
+    "capa": "https://books.google.com/books/content?id=bVK7DAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AleksievitchFimHomemSovietico": {
     "autor": "Svetlana Aleksiévitch",
@@ -341,7 +425,9 @@
     "ano": "2013",
     "cor": "w3-red",
     "tag": "Colapso da URSS",
-    "relacao": "Pela Nobel de Literatura de 2015, um mosaico de depoimentos reais de pessoas comuns sobre a vida antes e depois do colapso da URSS, dando rosto humano ao trauma coletivo que Putin chamou de 'a maior catástrofe geopolítica do século 20'."
+    "continente": "Europa",
+    "relacao": "Pela Nobel de Literatura de 2015, um mosaico de depoimentos reais de pessoas comuns sobre a vida antes e depois do colapso da URSS, dando rosto humano ao trauma coletivo que Putin chamou de 'a maior catástrofe geopolítica do século 20'.",
+    "capa": "https://books.google.com/books/content?id=gE91DQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "SoljenitsinIvanDenissovitch": {
     "autor": "Aleksandr Soljenítsin",
@@ -349,7 +435,9 @@
     "ano": "1962",
     "cor": "w3-blue-grey",
     "tag": "Gulag",
-    "relacao": "Clássico que expôs ao mundo o sistema de campos de trabalhos forçados soviéticos na Sibéria, a mesma região gelada e riquíssima em recursos naturais estudada nesta aula, mostrando o custo humano por trás do território russo."
+    "continente": "Ásia",
+    "relacao": "Clássico que expôs ao mundo o sistema de campos de trabalhos forçados soviéticos na Sibéria, a mesma região gelada e riquíssima em recursos naturais estudada nesta aula, mostrando o custo humano por trás do território russo.",
+    "capa": "https://books.google.com/books/content?id=6yIg9n3XYXoC&printsec=frontcover&img=1&zoom=1"
   },
   "TchekhovAEstepe": {
     "autor": "Anton Tchékhov",
@@ -357,7 +445,9 @@
     "ano": "1888",
     "cor": "w3-teal",
     "tag": "Vastidão russa",
-    "relacao": "Novela que narra a viagem de um menino atravessando a imensidão da estepe russa, e transforma em literatura a mesma escala continental do território que torna a Rússia, ao mesmo tempo, tão rica em recursos naturais e tão difícil de administrar e povoar."
+    "continente": "Europa",
+    "relacao": "Novela que narra a viagem de um menino atravessando a imensidão da estepe russa, e transforma em literatura a mesma escala continental do território que torna a Rússia, ao mesmo tempo, tão rica em recursos naturais e tão difícil de administrar e povoar.",
+    "capa": "https://books.google.com/books/content?id=G7KBEAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "DaiSijieBalzacCostureirinha": {
     "autor": "Dai Sijie",
@@ -365,7 +455,9 @@
     "ano": "2000",
     "cor": "w3-red",
     "tag": "Revolução Cultural",
-    "relacao": "Dois jovens são enviados para 'reeducação' numa aldeia remota durante a Revolução Cultural de Mao e descobrem, escondidos, livros ocidentais proibidos. Mostra por dentro o custo humano do controle político que antecedeu as Reformas e Abertura de Deng Xiaoping estudadas nesta aula."
+    "continente": "Ásia",
+    "relacao": "Dois jovens são enviados para 'reeducação' numa aldeia remota durante a Revolução Cultural de Mao e descobrem, escondidos, livros ocidentais proibidos. Mostra por dentro o custo humano do controle político que antecedeu as Reformas e Abertura de Deng Xiaoping estudadas nesta aula.",
+    "capa": "https://books.google.com/books/content?id=Qj6tDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "LuXunAhQ": {
     "autor": "Lu Xun",
@@ -373,7 +465,9 @@
     "ano": "1921",
     "cor": "w3-brown",
     "tag": "China pré-revolucionária",
-    "relacao": "Novela satírica que retrata a China empobrecida e humilhada do início do século XX, antes da revolução comunista, por meio de um antiherói que se convence de vitórias imaginárias. Ajuda a medir a distância entre a China frágil desse período e a potência econômica que a aula descreve."
+    "continente": "Ásia",
+    "relacao": "Novela satírica que retrata a China empobrecida e humilhada do início do século XX, antes da revolução comunista, por meio de um antiherói que se convence de vitórias imaginárias. Ajuda a medir a distância entre a China frágil desse período e a potência econômica que a aula descreve.",
+    "capa": "https://books.google.com/books/content?id=C3GOr00uS8UC&printsec=frontcover&img=1&zoom=1"
   },
   "HarrerSeteAnosTibet": {
     "autor": "Heinrich Harrer",
@@ -381,7 +475,9 @@
     "ano": "1952",
     "cor": "w3-deep-purple",
     "tag": "Tibet e o Dalai Lama",
-    "relacao": "Relato autobiográfico de um alpinista austríaco que viveu em Lhasa entre 1944 e 1950 e se tornou tutor do jovem Dalai Lama, testemunhando o Tibet livre nos anos imediatamente anteriores à invasão chinesa. Dá rosto humano à região que a aula descreve como incorporada à força pela China em 1950."
+    "continente": "Ásia",
+    "relacao": "Relato autobiográfico de um alpinista austríaco que viveu em Lhasa entre 1944 e 1950 e se tornou tutor do jovem Dalai Lama, testemunhando o Tibet livre nos anos imediatamente anteriores à invasão chinesa. Dá rosto humano à região que a aula descreve como incorporada à força pela China em 1950.",
+    "capa": "https://books.google.com/books/content?id=P_-WzX_ZPCsC&printsec=frontcover&img=1&zoom=1"
   },
   "MaJianPequimEmComa": {
     "autor": "Ma Jian",
@@ -389,7 +485,9 @@
     "ano": "2008",
     "cor": "w3-red",
     "tag": "Massacre da Praça Tiananmen",
-    "relacao": "Romance de um dos maiores escritores dissidentes chineses, sobre um jovem que fica em coma após ser baleado durante a repressão aos protestos da Praça Tiananmen em 1989. Narra por dentro o episódio que a aula cita como um dos mais censurados na história recente da China."
+    "continente": "Ásia",
+    "relacao": "Romance de um dos maiores escritores dissidentes chineses, sobre um jovem que fica em coma após ser baleado durante a repressão aos protestos da Praça Tiananmen em 1989. Narra por dentro o episódio que a aula cita como um dos mais censurados na história recente da China.",
+    "capa": "https://books.google.com/books/content?id=iLnpUodr7iMC&printsec=frontcover&img=1&zoom=1"
   },
   "IshiguroPalidaVisaoColinas": {
     "autor": "Kazuo Ishiguro",
@@ -397,7 +495,9 @@
     "ano": "1982",
     "cor": "w3-blue-grey",
     "tag": "Japão pós-guerra",
-    "relacao": "Primeiro romance do escritor britânico nascido em Nagasaki e vencedor do Nobel de Literatura, sobre uma japonesa que revisita, décadas depois na Inglaterra, suas memórias de uma Nagasaki ainda marcada pela bomba atômica. Conecta o trauma da guerra ao Japão próspero e tecnológico que a aula descreve décadas depois."
+    "continente": "Ásia",
+    "relacao": "Primeiro romance do escritor britânico nascido em Nagasaki e vencedor do Nobel de Literatura, sobre uma japonesa que revisita, décadas depois na Inglaterra, suas memórias de uma Nagasaki ainda marcada pela bomba atômica. Conecta o trauma da guerra ao Japão próspero e tecnológico que a aula descreve décadas depois.",
+    "capa": "https://books.google.com/books/content?id=Aazzzj2fq8sC&printsec=frontcover&img=1&zoom=1"
   },
   "IhimaeraEncantadoraBaleias": {
     "autor": "Witi Ihimaera",
@@ -405,7 +505,9 @@
     "ano": "1987",
     "cor": "w3-teal",
     "tag": "Cultura maori",
-    "relacao": "Romance neozelandês sobre uma menina maori que luta para ser reconhecida como líder de sua comunidade, tradicionalmente reservada aos homens, revelando um dom ancestral de se comunicar com baleias. Dá rosto à cultura originária da Nova Zelândia que a aula cita como marginalizada pelo colonialismo britânico."
+    "continente": "Oceania",
+    "relacao": "Romance neozelandês sobre uma menina maori que luta para ser reconhecida como líder de sua comunidade, tradicionalmente reservada aos homens, revelando um dom ancestral de se comunicar com baleias. Dá rosto à cultura originária da Nova Zelândia que a aula cita como marginalizada pelo colonialismo britânico.",
+    "capa": "https://books.google.com/books/content?id=AdeXCgAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "AmadoCapitaesAreia": {
     "autor": "Jorge Amado",
@@ -413,7 +515,9 @@
     "ano": "1937",
     "cor": "w3-orange",
     "tag": "Território e desigualdade",
-    "relacao": "Um bando de meninos abandonados disputa e defende como seu um trapiche às margens do mar em Salvador: um exemplo literário exato do conceito de território (apropriação de um espaço, regras próprias, fronteiras que outros grupos não podem cruzar) e do quanto o lugar onde se nasce pesa sobre o tipo de vida possível."
+    "continente": "América do Sul",
+    "relacao": "Um bando de meninos abandonados disputa e defende como seu um trapiche às margens do mar em Salvador: um exemplo literário exato do conceito de território (apropriação de um espaço, regras próprias, fronteiras que outros grupos não podem cruzar) e do quanto o lugar onde se nasce pesa sobre o tipo de vida possível.",
+    "capa": "https://books.google.com/books/content?id=FDJ1_r4MCIEC&printsec=frontcover&img=1&zoom=1"
   },
   "RamosVidasSecas": {
     "autor": "Graciliano Ramos",
@@ -421,7 +525,9 @@
     "ano": "1938",
     "cor": "w3-brown",
     "tag": "Paisagem e espaço geográfico",
-    "relacao": "Uma família de retirantes atravessa o sertão nordestino fugindo da seca, numa paisagem árida que molda diretamente as ações e as poucas escolhas possíveis dos personagens. Mostra como paisagem, técnica (ou a falta dela) e desigualdade regional se entrelaçam na vida de quem vive à mercê do espaço geográfico."
+    "continente": "América do Sul",
+    "relacao": "Uma família de retirantes atravessa o sertão nordestino fugindo da seca, numa paisagem árida que molda diretamente as ações e as poucas escolhas possíveis dos personagens. Mostra como paisagem, técnica (ou a falta dela) e desigualdade regional se entrelaçam na vida de quem vive à mercê do espaço geográfico.",
+    "capa": "https://books.google.com/books/content?id=LOAVEQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "DefoeRobinsonCrusoe": {
     "autor": "Daniel Defoe",
@@ -429,7 +535,9 @@
     "ano": "1719",
     "cor": "w3-deep-purple",
     "tag": "Espaço geográfico",
-    "relacao": "Um náufrago sozinho numa ilha deserta precisa transformar, com as próprias mãos, uma natureza intocada em espaço geográfico: constrói abrigo, ferramentas, plantações, calendário, e só então aquele pedaço de terra passa a ter sistemas de objetos e sistemas de ações. É praticamente uma ilustração literária do conceito de espaço geográfico estudado nesta aula, construído do zero por um único homem e sua técnica."
+    "continente": "América do Sul",
+    "relacao": "Um náufrago sozinho numa ilha deserta precisa transformar, com as próprias mãos, uma natureza intocada em espaço geográfico: constrói abrigo, ferramentas, plantações, calendário, e só então aquele pedaço de terra passa a ter sistemas de objetos e sistemas de ações. É praticamente uma ilustração literária do conceito de espaço geográfico estudado nesta aula, construído do zero por um único homem e sua técnica.",
+    "capa": "https://books.google.com/books/content?id=GiRxEQAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "BorgesRigorCiencia": {
     "autor": "Jorge Luis Borges",
@@ -437,7 +545,9 @@
     "ano": "1946",
     "cor": "w3-deep-purple",
     "tag": "Escala 1:1",
-    "relacao": "Conto de um único parágrafo sobre um império cujos cartógrafos, obcecados por perfeição, constroem um mapa do tamanho exato do próprio território, ponto por ponto coincidente com ele, e por isso mesmo completamente inútil. Resume, em poucas linhas, a ideia central desta aula: mapa bom não é o mais fiel à realidade, é o que generaliza com inteligência."
+    "continente": "Global",
+    "relacao": "Conto de um único parágrafo sobre um império cujos cartógrafos, obcecados por perfeição, constroem um mapa do tamanho exato do próprio território, ponto por ponto coincidente com ele, e por isso mesmo completamente inútil. Resume, em poucas linhas, a ideia central desta aula: mapa bom não é o mais fiel à realidade, é o que generaliza com inteligência.",
+    "capa": "https://books.google.com/books/content?id=Tp7gDAAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "CalvinoCidadesInvisiveis": {
     "autor": "Ítalo Calvino",
@@ -445,7 +555,9 @@
     "ano": "1972",
     "cor": "w3-cyan",
     "tag": "Cidades imaginárias",
-    "relacao": "Marco Polo descreve a Kublai Khan dezenas de cidades fantásticas, cada uma reduzida a um punhado de imagens e símbolos que capturam sua essência, nunca ao mapa completo e literal de suas ruas. Um exercício constante do mesmo problema desta aula: o que escolher mostrar e o que deixar de fora ao representar um lugar."
+    "continente": "Ásia",
+    "relacao": "Marco Polo descreve a Kublai Khan dezenas de cidades fantásticas, cada uma reduzida a um punhado de imagens e símbolos que capturam sua essência, nunca ao mapa completo e literal de suas ruas. Um exercício constante do mesmo problema desta aula: o que escolher mostrar e o que deixar de fora ao representar um lugar.",
+    "capa": "https://books.google.com/books/content?id=XMn2sd5hA9IC&printsec=frontcover&img=1&zoom=1"
   },
   "SwiftGulliverEscala": {
     "autor": "Jonathan Swift",
@@ -453,7 +565,9 @@
     "ano": "1726",
     "cor": "w3-indigo",
     "tag": "Escala e proporção",
-    "relacao": "Em Lilliput, Gulliver é um gigante entre gente doze vezes menor que ele, cidade, móveis e exército incluídos; em Brobdingnag, os papéis se invertem e é ele quem vira brinquedo de gente doze vezes maior. Swift constrói as duas viagens literalmente em cima de uma razão de escala fixa (1:12), tornando concreto, de um jeito cômico, o que significa mudar a proporção entre o real e o representado."
+    "continente": "Europa",
+    "relacao": "Em Lilliput, Gulliver é um gigante entre gente doze vezes menor que ele, cidade, móveis e exército incluídos; em Brobdingnag, os papéis se invertem e é ele quem vira brinquedo de gente doze vezes maior. Swift constrói as duas viagens literalmente em cima de uma razão de escala fixa (1:12), tornando concreto, de um jeito cômico, o que significa mudar a proporção entre o real e o representado.",
+    "capa": "https://books.google.com/books/content?id=TdfkDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
   },
   "MarcoPoloLivroMaravilhas": {
     "autor": "Marco Polo",
@@ -461,7 +575,9 @@
     "ano": "1298",
     "cor": "w3-teal",
     "tag": "Relatos de viagem",
-    "relacao": "O relato de Marco Polo sobre suas viagens pela Ásia, ditado a um companheiro de prisão, foi por séculos uma das poucas fontes que os cartógrafos europeus tinham para desenhar terras distantes que nunca haviam visto. Mostra, na prática, como todo mapa do mundo depende de quem conta a história de um lugar, e de que ponto de vista essa história é contada."
+    "continente": "Ásia",
+    "relacao": "O relato de Marco Polo sobre suas viagens pela Ásia, ditado a um companheiro de prisão, foi por séculos uma das poucas fontes que os cartógrafos europeus tinham para desenhar terras distantes que nunca haviam visto. Mostra, na prática, como todo mapa do mundo depende de quem conta a história de um lugar, e de que ponto de vista essa história é contada.",
+    "capa": "https://books.google.com/books/content?id=GUN3AAAACAAJ&printsec=frontcover&img=1&zoom=1"
   },
   "EcoComoViajarComUmSalmao": {
     "autor": "Umberto Eco",
@@ -469,7 +585,9 @@
     "ano": "1992",
     "cor": "w3-orange",
     "tag": "Mapa 1:1",
-    "relacao": "Nessa coletânea de ensaios curtos e bem-humorados, Eco escreve um texto quase acadêmico sobre a impossibilidade prática de se construir um mapa de um império na escala exata de 1:1, a mesma ideia do conto de Borges, agora levada ao pé da letra com todo o rigor (e o humor) de um raciocínio científico."
+    "continente": "Global",
+    "relacao": "Nessa coletânea de ensaios curtos e bem-humorados, Eco escreve um texto quase acadêmico sobre a impossibilidade prática de se construir um mapa de um império na escala exata de 1:1, a mesma ideia do conto de Borges, agora levada ao pé da letra com todo o rigor (e o humor) de um raciocínio científico.",
+    "capa": "https://books.google.com/books/content?id=3bytC0aZs5IC&printsec=frontcover&img=1&zoom=1"
   },
   "OndaatjePacienteIngles": {
     "autor": "Michael Ondaatje",
@@ -477,6 +595,138 @@
     "ano": "1992",
     "cor": "w3-brown",
     "tag": "Cartografia colonial",
-    "relacao": "Vencedor do Booker Prize, o romance acompanha um cartógrafo que mapeou o deserto do Saara antes da Segunda Guerra Mundial, revelando como o ato de desenhar um mapa colonial também apaga nomes, histórias e povos que já estavam ali antes do desenho chegar."
+    "continente": "África",
+    "relacao": "Vencedor do Booker Prize, o romance acompanha um cartógrafo que mapeou o deserto do Saara antes da Segunda Guerra Mundial, revelando como o ato de desenhar um mapa colonial também apaga nomes, histórias e povos que já estavam ali antes do desenho chegar.",
+    "capa": "https://books.google.com/books/content?id=8BmMDQAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "Orwell1984": {
+    "autor": "George Orwell",
+    "titulo": "1984",
+    "ano": "1949",
+    "cor": "w3-grey",
+    "tag": "Vigilância",
+    "continente": "Europa",
+    "relacao": "A famosa teletela do Grande Irmão, que observa cada cidadão o tempo todo, virou sinônimo mundial de vigilância estatal. Um contraponto direto à pergunta desta aula sobre até onde satélites e GPS realmente conseguem observar alguém, e sobre quem controla essa tecnologia.",
+    "capa": "https://books.google.com/books/content?id=L-ErEAAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "EggersOCirculo": {
+    "autor": "Dave Eggers",
+    "titulo": "O Círculo",
+    "ano": "2013",
+    "cor": "w3-blue-grey",
+    "tag": "Vigilância digital",
+    "continente": "América do Norte",
+    "relacao": "Uma gigante de tecnologia convence seus usuários a compartilhar cada detalhe de suas vidas, incluindo localização em tempo real, em nome da transparência total. Uma crítica contemporânea e bem mais próxima da nossa realidade do que a de Orwell sobre geolocalização, dados e privacidade.",
+    "capa": "https://books.google.com/books/content?id=17-nBAAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "VerneDaTerraALua": {
+    "autor": "Júlio Verne",
+    "titulo": "Da Terra à Lua",
+    "ano": "1865",
+    "cor": "w3-indigo",
+    "tag": "Corrida espacial",
+    "continente": "América do Norte",
+    "relacao": "Mais de noventa anos antes do Sputnik e de Yuri Gagarin, Verne já imaginava, com detalhes técnicos surpreendentemente precisos, um projétil lançado da Terra rumo ao espaço. Uma boa companhia de leitura para quem acabou de conhecer a corrida espacial real que tornou os satélites de sensoriamento remoto possíveis.",
+    "capa": "https://books.google.com/books/content?id=gevsAQAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "VerneViagemCentroTerra": {
+    "autor": "Júlio Verne",
+    "titulo": "Viagem ao Centro da Terra",
+    "ano": "1864",
+    "cor": "w3-brown",
+    "tag": "Camadas internas",
+    "continente": "Global",
+    "relacao": "O professor Lidenbrock desce por uma cratera vulcânica na Islândia rumo ao centro do Planeta, e mesmo com a ciência de 1864 hoje ultrapassada (não existem oceanos nem monstros lá embaixo), o livro é uma boa porta de entrada imaginária para o mesmo lugar que esta aula explica de verdade: a crosta, o manto e o núcleo.",
+    "capa": "https://books.google.com/books/content?id=oHo1CgAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "DoyleOMundoPerdido": {
+    "autor": "Arthur Conan Doyle",
+    "titulo": "O Mundo Perdido",
+    "ano": "1912",
+    "cor": "w3-deep-orange",
+    "tag": "Dinossauros",
+    "continente": "América do Sul",
+    "relacao": "Uma expedição encontra um platô isolado na Amazônia onde dinossauros e outras criaturas da Era Mesozoica sobreviveram até os dias de hoje. Ficção, claro, mas que dialoga direto com a idade dos dinossauros e a extinção em massa vistas nesta aula.",
+    "capa": "https://books.google.com/books/content?id=ZJpWDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "AuelClaDoUrsoDasCavernas": {
+    "autor": "Jean M. Auel",
+    "titulo": "O Clã do Urso das Cavernas",
+    "ano": "1980",
+    "cor": "w3-sand",
+    "tag": "Pré-história",
+    "continente": "Europa",
+    "relacao": "Ayla, uma menina Cro-Magnon, é adotada por um clã de neandertais na Era Cenozoica, no período glacial. Uma reconstrução ficcional, mas bem pesquisada, da vida humana no finalzinho da escala geológica que esta aula percorre.",
+    "capa": "https://books.google.com/books/content?id=Ez1j620hJFgC&printsec=frontcover&img=1&zoom=1"
+  },
+  "SaramagoJangadaDePedra": {
+    "autor": "José Saramago",
+    "titulo": "A Jangada de Pedra",
+    "ano": "1986",
+    "cor": "w3-orange",
+    "tag": "Deriva continental",
+    "continente": "Europa",
+    "relacao": "A Península Ibérica racha nos Pirineus e se solta do resto da Europa, passando a flutuar pelo Atlântico como uma jangada de pedra. Fantasia literária, claro, mas que dramatiza de forma quase literal a mesma ideia de deriva continental que Wegener defendeu com base em evidências reais.",
+    "capa": "https://books.google.com/books/content?id=AdeD2mB032sC&printsec=frontcover&img=1&zoom=1"
+  },
+  "KleistTerremotoNoChile": {
+    "autor": "Heinrich von Kleist",
+    "titulo": "O Terremoto no Chile",
+    "ano": "1807",
+    "cor": "w3-deep-orange",
+    "tag": "Terremotos",
+    "continente": "América do Sul",
+    "relacao": "Conto ambientado no terremoto que atingiu Santiago do Chile em 1647, justamente na zona de subducção entre as placas Sul-Americana e de Nazca que esta aula explica. Mostra o lado humano de um fenômeno que, aqui, é tratado do ponto de vista geológico.",
+    "capa": "https://books.google.com/books/content?id=wnZ0DwAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "BulwerLyttonUltimosDiasDePompeia": {
+    "autor": "Edward Bulwer-Lytton",
+    "titulo": "Os Últimos Dias de Pompeia",
+    "ano": "1834",
+    "cor": "w3-red",
+    "tag": "Vulcanismo",
+    "continente": "Europa",
+    "relacao": "Romance histórico sobre a erupção do Vesúvio que soterrou Pompeia em 79 d.C. Um bom contraponto de leitura para pensar a força do vulcanismo, mesmo fora do contexto dos pontos quentes vistos nesta aula.",
+    "capa": "https://books.google.com/books/content?id=9ivRDwAAQBAJ&printsec=frontcover&img=1&zoom=1"
+  },
+  "VoltaireCandido": {
+    "autor": "Voltaire",
+    "titulo": "Cândido, ou o Otimismo",
+    "ano": "1759",
+    "cor": "w3-amber",
+    "tag": "Terremotos",
+    "continente": "Europa",
+    "relacao": "No capítulo mais famoso do livro, Cândido e seu mestre Pangloss chegam a Lisboa bem a tempo do terremoto real de 1755, que Voltaire usa para questionar a ideia de que vivemos 'no melhor dos mundos possíveis'. Uma boa ponte entre a ficção filosófica e o estudo real dos terremotos e seus efeitos.",
+    "capa": "https://books.google.com/books/content?id=D_SN2e_4iHkC&printsec=frontcover&img=1&zoom=1"
+  },
+  "SontagAmanteDoVulcao": {
+    "autor": "Susan Sontag",
+    "titulo": "O Amante do Vulcão",
+    "ano": "1992",
+    "cor": "w3-deep-orange",
+    "tag": "Vulcanismo",
+    "continente": "Europa",
+    "relacao": "Romance histórico ambientado em Nápoles, no século XVIII, sobre um diplomata britânico obcecado em estudar o Vesúvio, escalando o vulcão repetidas vezes para entender suas erupções. Uma ficção sobre a mesma curiosidade científica que move a vulcanologia até hoje.",
+    "capa": "https://books.google.com/books/content?id=DlD7HPoWPawC&printsec=frontcover&img=1&zoom=1"
+  },
+  "MurakamiDepoisDoTerremoto": {
+    "autor": "Haruki Murakami",
+    "titulo": "Depois do Terremoto",
+    "ano": "2000",
+    "cor": "w3-blue-grey",
+    "tag": "Terremotos",
+    "continente": "Ásia",
+    "relacao": "Coletânea de seis contos ambientados nos dias seguintes ao terremoto de Kobe, no Japão, em 1995, que matou mais de 6 mil pessoas. Murakami não narra a tragédia diretamente: mostra como um abalo sísmico distante ainda assim sacode a vida interior de personagens que nem sequer estavam na área atingida.",
+    "capa": "https://books.google.com/books/content?id=1rSI91gw9k4C&printsec=frontcover&img=1&zoom=1"
+  },
+  "DashPremioLongitude": {
+    "autor": "Joan Dash",
+    "titulo": "O Prêmio da Longitude",
+    "ano": "2000",
+    "cor": "w3-cyan",
+    "tag": "Cartografia",
+    "continente": "Europa",
+    "relacao": "A história real do relojoeiro John Harrison, que passou décadas obcecado em resolver o maior desafio científico do século XVIII: medir a longitude com precisão no meio do oceano. Uma aventura sobre a origem prática do sistema de coordenadas geográficas.",
+    "capa": "https://books.google.com/books/content?id=bX7hAAAAMAAJ&printsec=frontcover&img=1&zoom=1"
   }
 }

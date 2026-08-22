@@ -95,8 +95,17 @@ Checklist aplicado a cada "Revisão completa" de aula (`/2ano/Textos2/TextoNN/`,
 - Questão Prática (`pergunta-bloco`): manter **leve**. Alternativas com uma ou duas palavras/expressão curta (não frases completas), e o comentário/feedback do `validarRadio()` em **uma linha só** (não um parágrafo explicativo). Nota técnica: esse texto (5º argumento de `validarRadio()`) só aparece quando o aluno erra — quando acerta, o site mostra uma frase de sucesso aleatória de `getFraseSucesso()` (`js/duvid-ui.js`), então o argumento funciona como uma dica corretiva curta, não uma explicação geral
 - **Sem cara de IA**: evitar travessão (—) no texto da aula — trocar por vírgula, ponto ou dois-pontos conforme o caso. Evitar também outros vícios de escrita de IA: elegância forçada tipo "não é só X, é Y", advérbios de ênfase em excesso (fundamental, crucial, essencial), frases -ing/gerúndio coladas no fim só para parecer mais profundo, encerramentos genéricos motivacionais. Ler o texto em voz alta mentalmente: se soar como texto de robô, reescrever
 - Ficha de Conceitos: `<div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>`
-- **Infográfico - Resumo**: todo texto vai ganhar esse bloco (padrão confirmado a partir do Texto14/Texto15, checar se o arquivo `inforesumott{N}.webp` já existe na pasta do texto e se `mapaMental` já está preenchido em `js/aulas-Nano.json` antes de criar do zero). Posição: logo antes do P&R ("Sócrates"), depois do último tópico de conteúdo. Markup:
-  `<div class="topico"><h2> Infográfico - Resumo</h2><div class="w3-margin"><img id="infograficot{N}" src="inforesumott{N}.webp" alt="Infográfico resumo {Título da aula}" class="w3-mobile"><span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr></div>`
+- **Infográfico - Resumo**: **regra confirmada (21/08) — todos os textos, de todos os anos, ganham esse bloco daqui em diante**, sem exceção (não é mais só a partir do Texto14/15). Checar se o arquivo `inforesumot{sigla}{N}.webp` já existe na pasta do texto e se `mapaMental` já está preenchido em `js/aulas-Nano.json` antes de criar do zero — se a imagem existente tiver erros de conteúdo/geração, avisar antes de referenciar (não subir infográfico quebrado para produção). Posição: logo antes do P&R ("Sócrates"), depois do último tópico de conteúdo. Markup confirmado (exemplo real do Texto02, `{sigla}{N}` = ex. `tp2`, `ts5`, `tt14`):
+  ```html
+  <div class="topico">
+      <h2> Infográfico - Resumo</h2>
+      <div class="w3-margin"><img id="inforesumo{sigla}{N}" src="inforesumo{sigla}{N}.webp" alt="Infográfico resumo {tema da aula}" class="w3-mobile">
+          <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+      </div>
+      <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+      <hr>
+  </div>
+  ```
 - 7-12 termos `.termo` (glossário) com `data-palavra`/`data-definicao`
 - `class="borda"` → `class="w3-border w3-round-large w3-padding"` (padrão dark-mode-aware)
 - `w3-grayscale`/`w3-card-4` → `w3-panel`/`w3-sand`/`w3-pale-yellow` (paleta Clean Pixel). Isso vale também para qualquer `<div>` de fundo colorido fora da paleta (`w3-pale-blue`, `w3-pale-green`, `w3-light-blue`, etc.): remover o wrapper por completo (não recolorir), mantendo só o conteúdo dentro do `.topico`

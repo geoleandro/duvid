@@ -103,7 +103,7 @@
                 <p class="w3-pale-green">Você já sentiu um tremor de terra, mesmo que pequeno, ou viu notícias sobre vulcões em erupção? Já parou para pensar no que existe embaixo dos seus pés, camada por camada, até chegar ao centro do Planeta?</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, do que é feito o interior da Terra? É todo sólido, como uma pedra gigante, ou existe algo diferente lá dentro? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -115,7 +115,7 @@
             <p>Na lição de hoje, vamos fazer o caminho inverso: em vez de olhar a Terra de cima, vamos mergulhar para dentro dela e conhecer sua formação e suas estruturas internas.</p>
             <p><strong>Esta aula responde a uma pergunta que atravessa bilhões de anos: como o Planeta Terra se formou, que grandes transformações marcaram sua história, e o que existe abaixo da crosta que pisamos todos os dias.</strong></p>
             <p>Ao final, com ajuda dos exercícios, você será capaz de distinguir as camadas internas da Terra e as eras geológicas que duraram milhões de anos.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -129,7 +129,7 @@
                     data-definicao="Teoria que explica a origem do universo a partir de uma grande explosão ocorrida há cerca de 14 bilhões de anos, marcando o início da expansão do espaço, da matéria e do tempo.">Big
                     Bang</span>, o universo teria surgido há aproximadamente 14 bilhões de anos. Ela é responsável por explicar diversos fenômenos do universo, como sua expansão, a divisão e a formação de galáxias, entre outros fatores.</p>
 
-            <p>O nosso sistema solar, de acordo com o método de datação do carbono 14, entre outras técnicas, permitiu aos cientistas calcular a idade da Terra em cerca de 4,5 bilhões de anos e reconstituir seus principais eventos geológicos.</p>
+            <p>O nosso sistema solar teria se formado logo em seguida, e a datação radiométrica das rochas mais antigas, principalmente pelo método urânio-chumbo, permitiu aos cientistas calcular a idade da Terra em cerca de 4,5 bilhões de anos e reconstituir seus principais eventos geológicos. O carbono-14, ao contrário do que muita gente pensa, só serve para datar material orgânico com até cerca de 50 mil anos, muito pouco perto da escala de bilhões de anos da história geológica do Planeta.</p>
 
             <p>Nesses eventos ocorreram grandes transformações em nosso Planeta, da separação dos continentes à extinção dos dinossauros, apenas para citar alguns exemplos. Por se tratar de uma escala temporal de bilhões de anos, uma forma de organizar esse estudo é dividir o tempo em grandes compartimentos chamados de <span
                     class="termo" data-palavra="Eras Geológicas"
@@ -144,14 +144,34 @@
             <div class="divCaixa1 w3-margin">
                 <h4 class="fontePixel">Ordem das eras geológicas (da mais antiga para a mais recente):</h4>
                 <ul class="lista">
-                    <li>Pré-Cambriano (Arqueano + Proterozoico) — cerca de 90% de toda a história da Terra;</li>
-                    <li>Era Paleozoica — vida antiga;</li>
-                    <li>Era Mesozoica — idade dos dinossauros;</li>
-                    <li>Era Cenozoica — vida nova, nossa era atual.</li>
+                    <li>Era Azoica: sem vida, formação da crosta terrestre;</li>
+                    <li>Pré-Cambriano (Arqueano + Proterozoico): cerca de 90% de toda a história da Terra;</li>
+                    <li>Era Paleozoica: vida antiga;</li>
+                    <li>Era Mesozoica: idade dos dinossauros;</li>
+                    <li>Era Cenozoica: vida nova, nossa era atual.</li>
                 </ul>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (Era Azoica) -->
+        <div class="topico">
+
+            <h3>A primeira de todas: a Era Azoica</h3>
+
+            <p>Antes mesmo do Pré-Cambriano começar a acumular as primeiras formas de vida, existiu um período em que a Terra era, literalmente, inabitável. É a <span
+                    class="termo" data-palavra="Era Azoica"
+                    data-definicao="Do grego 'a' (negação) + 'zôion' (ser vivo): fase mais antiga da história da Terra, sem qualquer forma de vida, marcada pelo resfriamento do Planeta e pela formação das primeiras rochas da crosta.">Era
+                    Azoica</span>, palavra que vem do grego e significa justamente "sem vida".</p>
+
+            <p>Ela corresponde, em linhas gerais, ao período que os geólogos chamam de éon Hadeano, entre a formação da Terra, há cerca de 4,6 bilhões de anos, e o início do Arqueano, há cerca de 4 bilhões de anos. Nessa fase inicial, o Planeta ainda era uma esfera extremamente quente, bombardeada constantemente por asteroides e outros corpos do sistema solar recém-formado, quase uma bola de fogo, como a própria Terra descreveu na entrevista a seguir.</p>
+
+            <p>Foi só com o resfriamento gradual da superfície que os primeiros minerais puderam se solidificar, dando origem às rochas mais antigas já formadas e, aos poucos, a uma crosta terrestre primitiva. Não havia oceanos estáveis, atmosfera respirável ou qualquer organismo vivo, daí o nome da era. Por ser um período tão remoto e sem muitos registros geológicos preservados (a maior parte dessas rochas originais foi destruída ou reciclada ao longo de bilhões de anos), a Comissão Internacional de Estratigrafia nem sequer inclui oficialmente o Azoico na tabela de tempo geológico atual, tratando-o mais como uma referência didática do que como uma unidade formal.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -190,7 +210,7 @@
             <p><strong>Terra:</strong> É uma pergunta muito difícil, pois se compararmos minha história e a colocássemos no tempo de um ano humano, ou seja, 365 dias, os humanos só teriam surgido na última hora antes da meia-noite do dia 31 de dezembro. Os humanos são pequenos e frágeis, mas juntos podem construir grandes obras. Em relação ao tamanho, não ocupam muito do meu espaço, pois as cidades são pontos pequenos em comparação com minha superfície. Eu sempre digo que há espaço para todos, resta saber o que os humanos farão com toda essa potencialidade oferecida a eles.</p>
             <p><strong>Duvid:</strong> Gostaríamos de agradecer por seu depoimento e nos vemos sempre, pois vivemos em sua superfície em permanente processo de transformação, mas não em nosso tempo humano, e sim no seu tempo, na dinâmica do Planeta Terra.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -215,7 +235,7 @@
 
             <p>Já o período Proterozoico (com duração de cerca de 2 bilhões de anos) é marcado pela existência e acúmulo de oxigênio na atmosfera e pela formação dos primeiros vertebrados.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -273,7 +293,7 @@
 
             <p>Na história da Terra, os continentes se separaram e se juntaram diversas vezes. No final do Permiano ocorreu outra extinção em massa da vida no Planeta, de cerca de 70%. As causas para tal fato estão relacionadas a constantes erupções vulcânicas, que produziram muitos gases e cinzas, e à influência da glaciação no continente Gondwana, que seriam os fatos mais marcantes desse fenômeno.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -311,7 +331,7 @@
 
             <p>Com a diminuição da vegetação, os dinossauros ficaram sem alimento, e o elevado grau de gases tóxicos na atmosfera, derivado também de atividade vulcânica, colaborou para a explicação do desaparecimento de uma espécie que habitou o Planeta por mais de 200 milhões de anos.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -321,13 +341,13 @@
 
             <h2> Era Cenozoica</h2>
 
-            <p>A era mais recente denomina-se <strong>Cenozoica</strong> (vida nova). Ela é marcada pela difusão dos mamíferos, pelo clima e vegetação tropicais, além da evolução da fauna e flora — populações de espécies evoluindo para se tornarem outras espécies, enfim, toda a biodiversidade que conhecemos.</p>
+            <p>A era mais recente denomina-se <strong>Cenozoica</strong> (vida nova). Ela é marcada pela difusão dos mamíferos, pelo clima e vegetação tropicais, além da evolução da fauna e flora, com populações de espécies se transformando ao longo do tempo até originar toda a biodiversidade que conhecemos hoje.</p>
 
             <p>É nesse período que ocorre a separação da Antártica e da Austrália. Grandes glaciações ocorreram, cobrindo o Planeta de gelo no <strong>Oligoceno</strong> e no Mioceno. A evolução dos primatas no <strong>Plioceno</strong> é significativa, junto com o aparecimento dos primeiros hominídeos. Da mesma forma, houve extinção em massa da fauna e da flora.</p>
 
             <p>O <strong>Holoceno</strong> é a nossa época, a mais recente. É nela que vivemos, é o período do surgimento do homem e da mudança do espaço geográfico através da ação humana em escala global.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -406,7 +426,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'essa foi bem tranquila', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: a afirmação está correta, todos esses eventos (vulcanismo, bacias sedimentares, primeiros mamíferos e aves, dinossauros) realmente aconteceram na Mesozoica.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -437,7 +457,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'isso mesmo, a resposta certa é era Pré-Cambriana', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: essa divisão em Arqueano e Proterozoico é do Pré-Cambriano, não da Paleozoica.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -476,14 +496,14 @@
             </div>
             <p class="citacao" id="citacao10" style="display:block"> Fonte: www.slideplayer.com.br/slide/10572117/ </p>
 
-            <p>O <span onclick="Aparecer('imagem11','citacao11')"><mark>modelo</mark></span> de estrutura interna dividido em Crosta, Manto e Núcleo foi proposto em 1936 pela sismóloga dinamarquesa Inge Lehmann e é utilizado até hoje:</p>
+            <p>O <span onclick="Aparecer('imagem11','citacao11')"><mark>modelo</mark></span> de estrutura interna dividido em Crosta, Manto e Núcleo foi construído aos poucos, por diferentes cientistas: o croata Andrija Mohorovičić identificou o limite entre a crosta e o manto em 1909, o alemão Beno Gutenberg identificou o limite entre o manto e o núcleo em 1913, e só em 1936 a sismóloga dinamarquesa Inge Lehmann descobriu que o núcleo, que se pensava ser todo líquido, na verdade se divide em um núcleo externo líquido e um núcleo interno sólido. Esse modelo em camadas é utilizado até hoje:</p>
 
             <div class="area">
                 <img id="imagem11" src="tp8f11.png" alt="Crosta, Manto e Núcleo" class="w3-mobile" style="display:block">
             </div>
             <p class="citacao" id="citacao11" style="display:block"> Fonte: www.mundoeducacao.uol.com.br</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -501,7 +521,7 @@
 
             <p>Na parte inferior, que inclui os oceanos, com espessura de cerca de 8 km, predominam os silicatos e o elemento magnésio (SIMA). A crosta oceânica, apesar de mais fina do que a crosta continental, é mais densa (peso maior).</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -515,7 +535,7 @@
                     data-definicao="Camada intermediária da Terra, situada entre a crosta e o núcleo, composta por rochas em estado pastoso que se tornam mais sólidas conforme aumenta a profundidade.">Manto</span>.
                 Também se divide em manto superior e inferior. O manto superior se estende até cerca de 400 km de profundidade. As ondas sísmicas indicam que quanto mais profundo, mais a densidade aumenta, ou seja, de pastoso, o manto adquire características mais sólidas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -546,7 +566,7 @@
                 </div>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -559,7 +579,7 @@
             <p>Antes de chegar ao limite com a próxima camada, que é o Manto, há uma descontinuidade denominada <span
                     class="termo" data-palavra="Descontinuidade de Mohorovicic"
                     data-definicao="Limite entre a crosta e o manto, identificado pela mudança brusca na velocidade das ondas sísmicas ao atravessá-lo.">Mohorovicic</span>,
-                em que as ondas sísmicas P e S passam por uma mudança brusca de velocidade abaixo dos oceanos (cerca de 10 km) e abaixo dos continentes (30 a 50 km), conforme <span
+                identificada pelo sismólogo croata Andrija Mohorovičić em 1909, em que as ondas sísmicas P e S passam por uma mudança brusca de velocidade abaixo dos oceanos (cerca de 10 km) e abaixo dos continentes (30 a 50 km), conforme <span
                     onclick="Aparecer('imagem12','citacao12')"><mark>a imagem</mark></span>.</p>
 
             <div class="area">
@@ -569,7 +589,7 @@
 
             <p>A crosta mais leve (menos densa) repousa sobre o manto mais denso, devido ao princípio de isostasia, ou seja, o equilíbrio gravitacional entre a litosfera e o manto. Um exemplo seria afundar uma cortiça na água e no melado e verificar a velocidade da subida da cortiça em cada um.</p>
 
-            <p>Já na transição entre o Manto e o Núcleo externo, entre 650 km e cerca de 2.800 km, há uma outra descontinuidade, chamada de Gutenberg.</p>
+            <p>Já na transição entre o Manto e o Núcleo externo, entre 650 km e cerca de 2.800 km, há uma outra descontinuidade, chamada de Gutenberg, identificada pelo sismólogo alemão Beno Gutenberg em 1913.</p>
 
             <p>Ela apresenta elementos químicos distintos, provocados pela pressão e temperatura, antes de chegar ao núcleo terrestre. Da mesma forma, as ondas P (longitudinais) diminuem sua velocidade, enquanto as ondas S (transversais) não conseguem atravessar essa camada. <span
                     onclick="Aparecer('imagem13','citacao13')"><mark>Veja na imagem</mark></span>:</p>
@@ -579,7 +599,7 @@
             </div>
             <p class="citacao" id="citacao13" style="display:block"> </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -599,7 +619,7 @@
             </div>
             <p class="citacao" id="citacao14" style="display:block"> Fonte: www.conhecimentocientifico.r7.com </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -622,7 +642,7 @@
             </div>
             <p class="citacao" id="citacao15" style="display:block"> Fonte: www.infoescola.com/fisica/campo-magnetico-da-terra/ </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -653,7 +673,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'essa foi um pouco complicada, mas se saiu bem', '10')">
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: o campo magnético protege a Terra dos ventos solares, ele não gera energia nem atrai outros astros.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -676,7 +696,7 @@
                     data-definicao="Medida do aumento da temperatura conforme se avança em direção ao interior da Terra, correspondendo a cerca de 1°C a cada 30-40 metros de profundidade.">grau
                     geotérmico</span>. De acordo com a composição das rochas que compõem a litosfera e de sua idade, o fluxo de calor oriundo do interior da Terra será mais ou menos elevado.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -707,7 +727,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'identificou bem a dinâmica das ondas sísmicas, ganhou mais um globinho', '10')">
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: são as ondas sísmicas P e S que revelam a estrutura interna da Terra, não o magnetismo ou a convecção diretamente.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -718,10 +738,21 @@
         </div>
 
 
+         <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp8" src="inforesumotp8.webp"
+                    alt="Infográfico resumo Eras geológicas e estrutura interna da Terra" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div> 
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Se o Pré-Cambriano e a era Paleozoica juntos somam quase 90% da história da Terra, por que a
@@ -764,7 +795,7 @@
                 de profundidade.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -785,7 +816,7 @@
                 <h3>10. Qual é a importância do campo magnético da Terra?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -801,7 +832,9 @@
 
                 <p>Essas camadas não são um dado estático: elas são resultado de bilhões de anos de eras geológicas, cada uma marcada por extinções, formações de continentes e transformações profundas. Entender essa escala de tempo geológico ajuda a colocar a própria história humana em perspectiva, afinal, somos uma fração de segundo na história do Planeta.</p>
 
-                <p><strong>Resumo dos conceitos:</strong> eras geológicas (Pré-Cambriano, Paleozoica, Mesozoica, Cenozoica); crosta terrestre (SIAL/SIMA); manto (movimento de convecção); núcleo (NIFE, campo magnético); descontinuidades de Mohorovicic e Gutenberg; grau geotérmico.</p>
+                <p>E se o manto se movimenta em ciclos de convecção, o que isso provoca lá em cima, na crosta onde vivemos? Essa pergunta é o ponto de partida da próxima aula, sobre a deriva continental e a tectônica de placas, que explica por que os continentes que hoje parecem tão distantes um dia estiveram todos colados, formando a Pangeia.</p>
+
+                <p><strong>Resumo dos conceitos:</strong> eras geológicas (Azoica, Pré-Cambriano, Paleozoica, Mesozoica, Cenozoica); crosta terrestre (SIAL/SIMA); manto (movimento de convecção); núcleo (NIFE, campo magnético); descontinuidades de Mohorovicic e Gutenberg; grau geotérmico.</p>
 
             </div>
 
@@ -862,6 +895,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 
