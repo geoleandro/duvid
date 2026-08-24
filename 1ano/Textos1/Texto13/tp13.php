@@ -50,7 +50,7 @@
     <script src="/js/texto-painel.js" defer></script>
 
 
-    <title>1º ano - Texto 13</title>
+    <title>1º ano - Texto 13 - Ciclo das Rochas</title>
 
 </head>
 
@@ -103,7 +103,7 @@
                 <p class="w3-pale-green">Uma mesa de granito na cozinha, o giz que o professor usa na lousa e o mármore de um monumento são todos rochas, mas bem diferentes entre si.</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: na sua opinião, por que existem tantos tipos diferentes de rocha, se todas vêm do mesmo planeta? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -116,7 +116,7 @@
             <p><strong>Esta aula responde a uma pergunta que está literalmente debaixo dos seus pés: por que uma pedra de calçada, um giz e um diamante são todos, tecnicamente, minerais ou rochas, e como um mesmo material pode se transformar de um tipo em outro ao longo de milhões de anos?</strong></p>
             <p>Ao final, você será capaz de reconhecer, comparar e contrastar diferentes tipos de rochas, além de explicar como os minerais se combinam para formar a maior parte da superfície terrestre, juntamente com os agentes internos e externos do relevo.</p>
             <p>O estudo das rochas e dos minerais dos quais são constituídas envolve um conhecimento muito amplo, como química, física, geologia e geografia, dentre outros. A Ciência é única, embora dividida para facilitar o entendimento da complexidade do mundo. Vamos começar com os minerais e suas características.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -162,7 +162,7 @@
             <p>Alguns minerais menores e incomuns foram descobertos mais recentemente. Normalmente, esses minerais são mais conhecidos pelos geólogos que se especializam no estudo da mineralogia. Esses "novos" minerais recebem, frequentemente, o nome dos cientistas que os descobriram. Por exemplo, um sobrenome com sonoridade moderna seguido do sufixo "ita" denota um mineral que só recentemente se tornou conhecido da humanidade. Mas muitos nomes de minerais, e termos básicos de mineração como "veio", nos lembram, justificadamente, da herança cultural que temos do mundo antigo. <span
                     class="citacao">(Wicander, 2009, adaptado).</span></p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -202,7 +202,7 @@
             </div>
             <p class="citacao" style="display:block"> Mineradores encontraram cristal de ametista raro em forma de coração. Fonte: sonoticiaboa.com.br </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -242,7 +242,7 @@
             </div>
             <p class="citacao" style="display:block"> Fonte: Press (2006, p.105). </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -257,13 +257,13 @@
                     data-definicao="Rochas formadas pelo resfriamento e solidificação do magma, tanto no interior da crosta (intrusivas) quanto na superfície, através de erupções vulcânicas (extrusivas).">ígneas</span> (do
                 latim "ignis", que significa "fogo") e são formadas através do resfriamento do magma, tanto no interior da crosta quanto quando o magma extravasa para a superfície através de lavas.</p>
 
-            <p>Sabemos que o magma consiste em rocha derretida, gases dissolvidos e cristais de diversos minerais nas profundidades da crosta terrestre e próximo ao manto superior, onde as temperaturas atingem cerca de 700ºC, suficiente para fundir as rochas.</p>
+            <p>Sabemos que o magma consiste em rocha derretida, gases dissolvidos e cristais de diversos minerais nas profundidades da crosta terrestre e próximo ao manto superior, onde as temperaturas variam geralmente entre 700ºC e 1.300ºC, dependendo da composição do magma, o suficiente para fundir as rochas.</p>
 
             <p>Há momentos em que o magma se resfria antes de sair de um vulcão, no interior da própria crosta. Nesse caso, os minerais como quartzo, mica ou feldspato encontram-se separados na rocha derretida, e à medida que a temperatura diminui, os cristais tendem a se agrupar e a crescer alguns milímetros. A rocha, nesse caso, tem uma granulação grossa, isto é, podemos ver a olho nu os minerais que a formam.</p>
 
             <p>Já quando o magma extravasa para a superfície através de lava, ele resfria rapidamente e não resta tempo suficiente para os cristais dessas rochas crescerem. Essas rochas possuem, portanto, granulação fina, porque se formaram fora da crosta terrestre. As rochas formadas dentro da crosta são chamadas de intrusivas, e as formadas no exterior são denominadas extrusivas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -291,7 +291,7 @@
 
             <p>As diferenças entre a composição do magma afetam o modo como as rochas são cristalizadas. As rochas graníticas possuem coloração clara e contêm alta taxa de sílica em sua composição, além de minerais como quartzo, feldspato, mica e biotita, dentre outras variações.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -322,7 +322,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'isso aí, a textura é uma das formas de classificação das rochas em geral', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: o tamanho dos cristais (granulação grossa ou fina) é um dos critérios usados para classificar rochas ígneas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -365,7 +365,7 @@
 
             <p>O estudo das rochas ígneas, portanto, tem muita relação com as possibilidades de exploração de recursos minerais.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -386,7 +386,7 @@
             </div>
             <p class="citacao" style="display:block"> Ouro e quartzo são extraídos das minas juntos. Os dois são posteriormente separados. Fonte: Borrero (2008, p.121). </p>
 
-            <p>Na região da <mark>África do Sul</mark>, em Kimberly, foram identificadas pela primeira vez rochas com uma variedade de diamantes. Eles são formados no interior da crosta e no manto, em uma profundidade de aproximadamente 150 a 300 km, sob alta pressão.</p>
+            <p>Na região da <mark>África do Sul</mark>, em Kimberly, foram identificadas pela primeira vez rochas com uma variedade de diamantes. Eles são formados no manto, em uma profundidade de aproximadamente 150 a 200 km, sob altíssima pressão e temperatura; diamantes raros, chamados superprofundos, já foram encontrados com evidências de formação a mais de 400 km.</p>
 
             <div class="area">
                 <img alt="Formação de diamantes" class="w3-mobile" id="imagem13" src="tp13f13.png" style="display:block" />
@@ -395,7 +395,7 @@
 
             <p>A maioria das minas de diamante está localizada na África do Sul, no parque de Richtersveld, próximo à Cidade do Cabo, em uma paisagem desértica, com planícies arenosas e montanhas escarpadas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -426,7 +426,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'bacana, esse intemperismo não perdoa nada', '10')">
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: o intemperismo físico e químico expõe e desgasta rochas que se formaram nas profundezas da crosta.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -463,7 +463,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'opa, essa foi bem tranquila!', '10')">
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: composição mineral, tamanho dos cristais e textura são os três critérios usados para classificar essas rochas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -499,7 +499,7 @@
             </div>
             <p class="citacao" style="display:block"> Os sedimentos e as rochas sedimentares cobrem a maior parte da superfície dos continentes e do fundo dos oceanos. Fonte: Press (2006, p.108). </p>
 
-            <p>As rochas magmáticas e metamórficas formam mais de 70% da crosta terrestre. Entretanto, a maior parte dessas rochas está soterrada na crosta. As rochas sedimentares, por sua vez, cobrem as outras rochas por serem resultado do intemperismo. É como se as rochas sedimentares fossem uma capa para um sofá, ou seja, embora cubra toda a superfície, não constitui o seu volume total.</p>
+            <p>As rochas magmáticas e metamórficas formam mais de 90% do volume da crosta terrestre. Entretanto, a maior parte dessas rochas está soterrada, longe da superfície. As rochas sedimentares, por sua vez, cobrem as outras rochas por serem resultado do intemperismo. É como se as rochas sedimentares fossem uma capa para um sofá, ou seja, embora cubra toda a superfície, não constitui o seu volume total.</p>
 
             <p>As <span class="termo" data-palavra="Rochas Sedimentares"
                     data-definicao="Rochas formadas a partir da desagregação de outras rochas pelo intemperismo, transportadas pela erosão e depositadas em camadas, posteriormente convertidas em rocha sólida pela litificação.">rochas
@@ -515,13 +515,13 @@
             <div class="divCaixa1 w3-margin">
                 <h4 class="fontePixel">Como o intemperismo atua para formar as rochas sedimentares:</h4>
                 <ul class="lista">
-                    <li>1 — As partículas de rocha são geradas pelo intemperismo;</li>
-                    <li>2 — são transportadas morro abaixo pela erosão;</li>
-                    <li>3 — e depositadas como camadas de sedimento no solo ou na água;</li>
-                    <li>4 — onde elas formam camadas paralelas, ou estratificação;</li>
-                    <li>5 — os sedimentos soterrados litificam-se pela compactação e cimentação;</li>
-                    <li>6 — os sedimentos clásticos são compostos por partículas depositadas de areia, silte e cascalho;</li>
-                    <li>7 — os sedimentos químicos e bioquímicos são precipitados no mar ou compostos por recifes de corais e conchas.</li>
+                    <li>1: as partículas de rocha são geradas pelo intemperismo;</li>
+                    <li>2: são transportadas morro abaixo pela erosão;</li>
+                    <li>3: e depositadas como camadas de sedimento no solo ou na água;</li>
+                    <li>4: onde elas formam camadas paralelas, ou estratificação;</li>
+                    <li>5: os sedimentos soterrados litificam-se pela compactação e cimentação;</li>
+                    <li>6: os sedimentos clásticos são compostos por partículas depositadas de areia, silte e cascalho;</li>
+                    <li>7: os sedimentos químicos e bioquímicos são precipitados no mar ou compostos por recifes de corais e conchas.</li>
                 </ul>
             </div>
 
@@ -529,7 +529,7 @@
 
             <p>Os sedimentos "quebrados", como grãos de areia e partículas de granito, são chamados de <strong>clásticos</strong>. Outros sedimentos são derivados de intemperismo químico e são novas substâncias, como a calcita na formação de cavernas. E temos rochas de origem orgânica, formadas a partir de restos de animais e vegetais (será visto na aula sobre recursos minerais com mais detalhes). Após isso, temos a litificação.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -572,7 +572,7 @@
 
             <p>Mas o que acontece com uma rocha preexistente se for submetida a altas temperaturas e pressão? Ela mudará de forma?</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -614,7 +614,7 @@
                     data-definicao="Rochas formadas a partir da transformação de rochas preexistentes submetidas a altas temperaturas e pressão, sem atingir o ponto de fusão, alterando sua textura e composição mineral.">rochas
                     metamórficas</span> apresentam diferentes combinações de temperatura e pressão que resultam em distintos graus de metamorfismo. Um baixo grau de metamorfismo está associado a baixas temperaturas e pressão, e, logo, a uma textura particular. O mesmo ocorre com altas temperaturas e pressão.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -635,7 +635,7 @@
 
             <p>Já as rochas <strong>não foliadas</strong>, como o mármore e o quartzito, são formadas geralmente por um único mineral.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -669,7 +669,7 @@
 
             <p>Há também um outro tipo de metamorfismo, resultado do impacto de meteoritos na superfície rochosa. Os meteoritos são fragmentos de cometas ou asteroides que foram atraídos pela Terra por meio de seu campo gravitacional. Eles são mais raros, e as ondas de choque produzem calor e alteram as rochas em seu entorno.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -683,7 +683,7 @@
 
             <p>Outros minerais importantes para a área dos cosméticos são o talco; a grafita, para lápis e lubrificantes secos; o coríndon, usado como abrasivo em joalheria; e a andaluzita, usada em porcelanas de altas temperaturas, velas de ignição e revestimentos de fornalhas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -714,7 +714,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Legal, essa foi bem fácil, ganhou seu primeiro globinho', '10')">
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: o metamorfismo de contato é localizado, ocorre onde o magma toca diretamente uma rocha preexistente.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -751,7 +751,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'Legal, essa foi bem fácil, ganhou seu primeiro globinho', '10')">
+                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'Dica: o metamorfismo regional atinge grandes áreas, associado à formação de montanhas e ao choque de placas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -805,12 +805,9 @@
 
             <p>As rochas são recicladas permanentemente ao longo de milhares ou milhões de anos. Podemos observar na superfície sua manifestação e deduzir, por meio de evidências indiretas, seu comportamento no interior da Terra.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
-
-
-        <!-- BLOCO: Pergunta pratica (causas do metamorfismo removida - conteudo obsoleto de checkbox nao utilizado) -->
 
 
         <!-- BLOCO: Jogo interativo -->
@@ -1059,15 +1056,26 @@
                 btnIniciar.addEventListener("click", iniciarJogo);
 
             </script>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
+
+
+        <!-- <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp13" src="inforesumotp13.webp"
+                    alt="Infográfico resumo Ciclo das Rochas" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div> -->
 
 
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Como o conhecimento científico do ciclo das rochas contribui para entender melhor as paisagens terrestres?
@@ -1095,10 +1103,10 @@
                 </strong></p>
 
             <p><span class="primeiraLetra">R:</span>
-                Estima-se que apenas 5% das rochas do Planeta tenham origem sedimentar, cerca de 80% sejam formadas por rochas magmáticas e 15% por rochas metamórficas. Entretanto, na crosta terrestre essa proporção se altera: cerca de 75% são rochas sedimentares, e o restante, 25%, é formado por rochas magmáticas e metamórficas.
+                Em volume, estima-se que as rochas sedimentares representem apenas cerca de 5% da crosta terrestre, enquanto as rochas magmáticas somam cerca de 80% e as metamórficas, 15%. Só que essa proporção parece se inverter quando olhamos para a superfície: como as rochas sedimentares formam uma fina capa sobre as demais (lembra da capa de sofá?), elas cobrem cerca de 75% da área exposta dos continentes, mesmo representando uma fatia pequena do volume total da crosta.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -1119,7 +1127,7 @@
                 <h3>10. Explique o ciclo das rochas e por que ele é considerado um processo contínuo.</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -1136,6 +1144,8 @@
                 <p>Aquela mesa de granito, o giz de calcário e o mármore do monumento contam, cada um, uma história diferente de temperatura, pressão e tempo geológico, mas todos fazem parte do mesmo ciclo sem fim.</p>
 
                 <p><strong>Resumo dos conceitos:</strong> mineral e rocha; rochas ígneas intrusivas e extrusivas; rochas sedimentares e litificação; fossilização; rochas metamórficas e seus tipos de metamorfismo (de contato, regional e do assoalho oceânico); ciclo das rochas.</p>
+
+                <p>Agora que você sabe como as rochas se formam e se transformam, falta entender como elas se organizam em grande escala pelo Planeta. Na próxima aula, vamos conhecer a estrutura geológica dos continentes (crátons, escudos cristalinos e bacias sedimentares) e as grandes formas de relevo que ela ajuda a explicar, como planaltos, planícies, montanhas e depressões.</p>
 
             </div>
 
@@ -1196,6 +1206,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

@@ -279,7 +279,7 @@ if ($metodo === 'POST') {
     // Campos opcionais de localização (ranking nacional)
     $estado = strtoupper(trim($body['estado'] ?? ''));
     $cidade = trim($body['cidade'] ?? '');
-    $escola = trim($body['escola'] ?? '');
+    $escola = strtoupper(trim($body['escola'] ?? ''));
 
     if ($nome === '') jsonResponse(['erro' => 'Nome e obrigatorio.'], 400);
     if ($pin === '')  jsonResponse(['erro' => 'PIN e obrigatorio.', 'campo' => 'pin'], 400);
@@ -417,7 +417,7 @@ if ($metodo === 'PATCH') {
     $novoNome  = isset($body['nome'])   ? trim($body['nome'])           : null;
     $novoEst   = isset($body['estado']) ? strtoupper(trim($body['estado'])) : null;
     $novaCid   = isset($body['cidade']) ? trim($body['cidade'])         : null;
-    $novaEsc   = isset($body['escola']) ? trim($body['escola'])         : null;
+    $novaEsc   = isset($body['escola']) ? strtoupper(trim($body['escola'])) : null;
 
     // Valida nome novo se foi enviado
     if ($novoNome !== null) {

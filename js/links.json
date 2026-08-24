@@ -41,17 +41,29 @@
     "texto": "Atlas da Energia Elétrica do Brasil — ANEEL",
     "url": "http://www2.aneel.gov.br/arquivos/PDF/atlas3ed.pdf"
   },
+  "ANEELGeracaoDistribuida": {
+    "cor": "w3-amber",
+    "corTexto": "w3-text-black",
+    "texto": "Micro e Minigeração Distribuída — ANEEL",
+    "url": "https://www.gov.br/aneel/pt-br/assuntos/geracao-distribuida"
+  },
   "ANPAnuario2018": {
     "cor": "w3-blue",
     "corTexto": "w3-text-white",
-    "texto": "Anuário Estatístico da ANP — 2018",
-    "url": "http://www.anp.gov.br/images/central-de-conteudo/publicacoes/anuario-estatistico/2018/anuario-2018.pdf"
+    "texto": "Anuário Estatístico Brasileiro do Petróleo, Gás Natural e Biocombustíveis — ANP",
+    "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/anuario-estatistico/anuario-estatistico-brasileiro-do-petroleo-gas-natural-e-biocombustiveis-2026"
   },
   "ANPPetroleo": {
     "cor": "w3-blue",
     "corTexto": "w3-text-white",
     "texto": "Agência Nacional do Petróleo — ANP",
     "url": "http://www.anp.gov.br/"
+  },
+  "ANPRenovaBio": {
+    "cor": "w3-green",
+    "corTexto": "w3-text-white",
+    "texto": "RenovaBio: Política Nacional de Biocombustíveis — ANP",
+    "url": "https://www.gov.br/anp/pt-br/assuntos/renovabio"
   },
   "AgenciaBrasilAfCFTA": {
     "cor": "w3-teal",
@@ -110,8 +122,8 @@
   "AgenciaBrasilDesmatamento": {
     "cor": "w3-green",
     "corTexto": "w3-text-white",
-    "texto": "Desmatamento na Amazônia cai ao menor nível em anos — Agência Brasil",
-    "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2024-01/desmatamento-na-amazonia-cai-ao-menor-nivel-em-anos"
+    "texto": "Desmatamento na Amazônia cai 36,87% no último ano — Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-08/desmatamento-na-amazonia-cai-3687-no-ultimo-ano"
   },
   "AgenciaBrasilEnchentes": {
     "cor": "w3-blue-grey",
@@ -320,8 +332,8 @@
   "EPEBalancoEnergetico": {
     "cor": "w3-blue",
     "corTexto": "w3-text-white",
-    "texto": "Balanço energético nacional 2019 — EPE",
-    "url": "http://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-303/topico-419/BEN2019.pdf"
+    "texto": "Balanço Energético Nacional (BEN) — EPE",
+    "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben"
   },
   "FapespJurandyrRoss": {
     "cor": "w3-teal",
@@ -334,6 +346,24 @@
     "corTexto": "w3-text-white",
     "texto": "O relevo econômico do interior — Revista FAPESP",
     "url": "https://revistapesquisa.fapesp.br/wp-content/uploads/2012/07/Pesquisa_197-24.pdf"
+  },
+  "EmbrapaSiBCS": {
+    "cor": "w3-brown",
+    "corTexto": "w3-text-white",
+    "texto": "Tipos de solos do Sistema Brasileiro de Classificação de Solos — Agrolink",
+    "url": "https://www.agrolink.com.br/fertilizantes/aspectos-gerais/quais-sao-os-tipos-de-solos-do-sistema-brasileiro-de-classificacao-dos-solos-_495856.html"
+  },
+  "EmbrapaPlantioDireto": {
+    "cor": "w3-light-green",
+    "corTexto": "w3-text-dark-grey",
+    "texto": "História do Plantio Direto no Brasil — Sensix",
+    "url": "https://blog.sensix.ag/historia-do-plantio-direto-no-brasil/"
+  },
+  "INSADesertificacao": {
+    "cor": "w3-deep-orange",
+    "corTexto": "w3-text-white",
+    "texto": "Entendendo a Desertificação: conceitos, causas e soluções — INSA",
+    "url": "https://www.gov.br/insa/pt-br/assuntos/noticias/entendendo-sobre-desertificacao-conceitos-caracteristicas-causas-consequencias-e-solucoes"
   },
   "GPSComoFunciona": {
     "cor": "w3-blue",
@@ -482,8 +512,8 @@
   "ONUMudancaClimatica": {
     "cor": "w3-blue-grey",
     "corTexto": "w3-text-white",
-    "texto": "A ONU e a mudança climática — Nações Unidas",
-    "url": "https://nacoesunidas.org/acao/mudanca-climatica/"
+    "texto": "O que são as mudanças climáticas? — Nações Unidas Brasil",
+    "url": "https://brasil.un.org/pt-br/175180-o-que-sao-mudancas-climaticas"
   },
   "ONUPopulacaoMundial": {
     "cor": "w3-blue-grey",
@@ -506,8 +536,8 @@
   "PetrobrasPreSal": {
     "cor": "w3-blue",
     "corTexto": "w3-text-white",
-    "texto": "Tecnologias pioneiras do Pré-Sal — Petrobras",
-    "url": "https://presal.hotsitespetrobras.com.br/tecnologias-pioneiras/#5"
+    "texto": "Pré-sal: formação, campos e tecnologias — Petrobras",
+    "url": "https://petrobras.com.br/pre-sal"
   },
   "ProjecoesCartograficasD3": {
     "cor": "w3-teal",
@@ -616,5 +646,95 @@
     "corTexto": "w3-text-white",
     "texto": "Vulcão Kilauea entra em erupção e lança lava a mais de 300 metros no Havaí — CNN Brasil",
     "url": "https://www.cnnbrasil.com.br/internacional/vulcao-kilauea-entra-em-erupcao-e-lanca-lava-a-mais-de-300-metros-no-havai/"
+  },
+  "CNNBrasilIlhaCalorSP": {
+    "cor": "w3-red",
+    "corTexto": "w3-text-white",
+    "texto": "Temperatura em São Paulo superou média global no último século, diz estudo — CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/temperatura-em-sao-paulo-superou-media-global-no-ultimo-seculo-diz-estudo/"
+  },
+  "NatGeoDesastrePetropolis": {
+    "cor": "w3-blue-grey",
+    "corTexto": "w3-text-white",
+    "texto": "Desastre em Petrópolis: população vulnerável acentua impacto da crise climática — National Geographic Brasil",
+    "url": "https://www.nationalgeographicbrasil.com/meio-ambiente/2022/02/desastre-em-petropolis-populacao-vulneravel-acentua-impacto-da-crise-climatica"
+  },
+  "AgenciaBrasilVocorocasBuriticupu": {
+    "cor": "w3-orange",
+    "corTexto": "w3-text-white",
+    "texto": "Voçorocas ameaçam Buriticupu e especialista alerta para risco urbano — Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-03/vocorocas-ameacam-buriticupu-e-especialista-alerta-para-risco-urbano"
+  },
+  "SemeiaParqueVilaVelha": {
+    "cor": "w3-green",
+    "corTexto": "w3-text-white",
+    "texto": "Conheça o Parque Estadual Vila Velha: arenitos esculpidos pelo vento e pela água — Instituto Semeia",
+    "url": "https://semeia.org.br/conexao-semeia/parques-do-mes/conheca-o-parque-estadual-vila-velha/"
+  },
+  "SGBVarvitos": {
+    "cor": "w3-blue-grey",
+    "corTexto": "w3-text-white",
+    "texto": "Varvitos: um registro geológico ano a ano — Serviço Geológico do Brasil (SGB)",
+    "url": "https://www.sgb.gov.br/varvitos-um-registro-geologico-ano-a-ano"
+  },
+  "CartaCapitalDiamantina": {
+    "cor": "w3-amber",
+    "corTexto": "w3-text-white",
+    "texto": "Diamantina, o tesouro de Minas Gerais — CartaCapital",
+    "url": "https://www.cartacapital.com.br/educacao/diamantina-o-tesouro-de-minas-gerais/"
+  },
+  "AquiNoticiasCachoeiroMarmore": {
+    "cor": "w3-grey",
+    "corTexto": "w3-text-white",
+    "texto": "Cachoeiro de Itapemirim: a capital brasileira do mármore e do granito — Aqui Notícias",
+    "url": "https://aquinoticias.com/2025/03/cachoeiro-de-itapemirim-a-rocha-forte-da-economia-sul-capixaba/"
+  },
+  "FapespMontanhasBrasil": {
+    "cor": "w3-teal",
+    "corTexto": "w3-text-white",
+    "texto": "Geógrafos reconhecem que o Brasil tem, sim, montanhas — Revista Pesquisa FAPESP",
+    "url": "https://revistapesquisa.fapesp.br/geografos-reconhecem-as-montanhas-do-brasil/"
+  },
+  "AgenciaBrasilTupiPreSal": {
+    "cor": "w3-green",
+    "corTexto": "w3-text-white",
+    "texto": "Tupi, pioneiro do pré-sal, chega ao recorde de 4 bilhões de barris — Agência Brasil",
+    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tupi-pioneiro-do-pre-sal-chega-ao-recorde-de-4-bilhoes-de-barris"
+  },
+  "SIGEPGrutaLagoAzul": {
+    "cor": "w3-blue-grey",
+    "corTexto": "w3-text-white",
+    "texto": "Gruta do Lago Azul, Bonito, MS: onde a luz do sol se torna azul — SIGEP/CPRM",
+    "url": "https://www.sigep.eco.br/sitio107/sitio107.pdf"
+  },
+  "INMETSobreMeteorologia": {
+    "cor": "w3-blue",
+    "corTexto": "w3-text-white",
+    "texto": "Como é feita a previsão do tempo no Brasil — INMET",
+    "url": "https://portal.inmet.gov.br/sobre-meteorologia"
+  },
+  "TodaMateriaMassasDeAr": {
+    "cor": "w3-brown",
+    "corTexto": "w3-text-white",
+    "texto": "Massas de Ar: o que são e quais as características — Toda Matéria",
+    "url": "https://www.todamateria.com.br/massas-de-ar/"
+  },
+  "TodaMateriaFatoresClimaticos": {
+    "cor": "w3-green",
+    "corTexto": "w3-text-white",
+    "texto": "Elementos do clima e fatores climáticos: quais são — Toda Matéria",
+    "url": "https://www.todamateria.com.br/fatores-que-influenciam-o-clima/"
+  },
+  "TodaMateriaCorrentesMaritimas": {
+    "cor": "w3-blue",
+    "corTexto": "w3-text-white",
+    "texto": "Correntes Marítimas — Toda Matéria",
+    "url": "https://www.todamateria.com.br/correntes-maritimas/"
+  },
+  "TodaMateriaVentosAlisios": {
+    "cor": "w3-teal",
+    "corTexto": "w3-text-white",
+    "texto": "Ventos Alísios — Toda Matéria",
+    "url": "https://www.todamateria.com.br/ventos-alisios/"
   }
 }

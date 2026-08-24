@@ -555,7 +555,7 @@
         </div>
 
 
-        <!-- <div class="topico">
+        <div class="topico">
             <h2> Infográfico - Resumo</h2>
             <div class="w3-margin"><img id="inforesumotp9" src="inforesumotp9.webp"
                     alt="Infográfico resumo Deriva continental e tectônica de placas" class="w3-mobile">
@@ -563,7 +563,7 @@
             </div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
-        </div> -->
+        </div>
 
 
         <!-- BLOCO: Perguntas e Respostas -->

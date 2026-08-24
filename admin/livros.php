@@ -13,6 +13,7 @@ if (file_exists($jsonPath)) {
 }
 
 $totalComCapa = count(array_filter($livros, fn($l) => !empty($l['capa'])));
+$totalSemCapa = count($livros) - $totalComCapa;
 
 $PAGINA_ATUAL  = 'livros';
 $PAGINA_TITULO = 'Sugestões de Livros';
@@ -43,14 +44,9 @@ require_once __DIR__ . '/_layout.php';
             <div class="label">Com capa manual</div>
             <div class="icone-kpi">🖼️</div>
         </div>
-        <div class="kpi" style="--kpi-cor:var(--cinza)">
-            <div class="valor"><?= count($livros) - $totalComCapa ?></div>
-            <div class="label">Usando Open Library</div>
-            <div class="icone-kpi">🌐</div>
-        </div>
         <div class="kpi" style="--kpi-cor:var(--vermelho)">
-            <div class="valor" id="kpi-capas-faltando">0</div>
-            <div class="label">Capas faltando (nem a Open Library achou)</div>
+            <div class="valor" id="kpi-capas-faltando"><?= $totalSemCapa ?></div>
+            <div class="label">Sem capa manual — precisa inserir</div>
             <div class="icone-kpi">❌</div>
         </div>
     </div>
@@ -71,16 +67,17 @@ require_once __DIR__ . '/_layout.php';
     <div id="grid-livros-admin" class="grid-filmes-admin">
         <?php foreach ($livros as $id => $l):
             $capaAtual = $l['capa'] ?? '';
+            $temCapaManual = $capaAtual !== '';
             $capaFallback = 'https://covers.openlibrary.org/b/title/' . urlencode($l['titulo'] ?? '') . '-M.jpg';
             $capaExibida = $capaAtual ?: $capaFallback;
         ?>
-        <div class="filme-admin-card" data-titulo="<?= htmlspecialchars(mb_strtolower(($l['titulo'] ?? '') . ' ' . ($l['autor'] ?? ''))) ?>">
+        <div class="filme-admin-card<?= $temCapaManual ? '' : ' sem-capa' ?>" data-titulo="<?= htmlspecialchars(mb_strtolower(($l['titulo'] ?? '') . ' ' . ($l['autor'] ?? ''))) ?>">
             <div class="filme-admin-preview" style="aspect-ratio:2/3;background:#f0f0f0">
                 <img id="preview-<?= htmlspecialchars($id) ?>"
                      src="<?= htmlspecialchars($capaExibida) ?>"
                      alt="<?= htmlspecialchars($l['titulo'] ?? '') ?>"
-                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'; capaFalhou('<?= htmlspecialchars($id) ?>');"
-                     onload="capaCarregou('<?= htmlspecialchars($id) ?>')"
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                     onload="this.style.display=''; this.nextElementSibling.style.display='none';"
                      style="object-fit:cover;width:100%;height:100%">
                 <div class="filme-admin-placeholder" style="display:none">📚</div>
             </div>
@@ -189,31 +186,36 @@ require_once __DIR__ . '/_layout.php';
 
 <script>
 const cardsSujos = new Set();
-const capasFaltando = new Set();
 
-function atualizarKpiFaltando() {
+// "Sem capa" é decidido pelo dado real (existe URL manual salva ou não), não pelo
+// carregamento da imagem: o fallback da Open Library quase sempre "carrega" (às vezes
+// devolve um placeholder em branco), então não dá pra confiar em onload/onerror pra isso.
+function atualizarKpiFaltando(delta) {
     const el = document.getElementById('kpi-capas-faltando');
-    if (el) el.textContent = capasFaltando.size;
+    if (el) el.textContent = Math.max(0, parseInt(el.textContent || '0', 10) + delta);
 }
 
-function capaFalhou(id) {
-    capasFaltando.add(id);
-    atualizarKpiFaltando();
+function marcarSemCapa(id) {
     const card = document.getElementById('capa-' + id)?.closest('.filme-admin-card');
-    if (card) card.classList.add('sem-capa');
+    if (card && !card.classList.contains('sem-capa')) {
+        card.classList.add('sem-capa');
+        atualizarKpiFaltando(1);
+    }
     const aviso = document.getElementById('aviso-capa-' + id);
     if (aviso) {
-        aviso.textContent = '❌ Capa não encontrada — cole uma URL manual';
-        aviso.className = 'livro-admin-aviso aviso-erro';
+        aviso.textContent = '🌐 Usando Open Library automaticamente (ou cole uma URL da Amazon)';
+        aviso.className = 'livro-admin-aviso';
         aviso.style.display = '';
     }
     aplicarFiltros();
 }
 
-function capaCarregou(id) {
-    if (capasFaltando.delete(id)) atualizarKpiFaltando();
+function marcarComCapa(id) {
     const card = document.getElementById('capa-' + id)?.closest('.filme-admin-card');
-    if (card) card.classList.remove('sem-capa');
+    if (card && card.classList.contains('sem-capa')) {
+        card.classList.remove('sem-capa');
+        atualizarKpiFaltando(-1);
+    }
     const aviso = document.getElementById('aviso-capa-' + id);
     if (aviso) aviso.style.display = 'none';
     aplicarFiltros();
@@ -262,6 +264,7 @@ async function salvarLivro(id, opts) {
             return false;
         }
         marcarLimpo(id);
+        if (capa) marcarComCapa(id); else marcarSemCapa(id);
         if (!opts.silencioso) toast('Livro atualizado!', 'ok');
         return true;
     } catch (e) {

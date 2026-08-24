@@ -1,4 +1,51 @@
-<?php $loginRequired = !empty($_GET['login_required']); ?>
+<?php
+$loginRequired = !empty($_GET['login_required']);
+
+// ── Stats dinâmicas do Duvid (cache 1h) ──────────────────────────────────────
+function duvidStats(): array {
+    $cache = __DIR__ . '/api/stats-cache.json';
+    if (file_exists($cache) && time() - filemtime($cache) < 3600) {
+        return json_decode(file_get_contents($cache), true) ?: [];
+    }
+    // Textos (exclui revisões)
+    $textos = 0;
+    foreach (['aulas-1ano', 'aulas-2ano', 'aulas-3ano'] as $f) {
+        $d = @json_decode(@file_get_contents(__DIR__ . "/js/$f.json"), true);
+        if (!is_array($d)) continue;
+        foreach ($d as $aula) {
+            $titulo = strtolower(($aula['titulo'] ?? '') . ($aula['tipo'] ?? ''));
+            if (strpos($titulo, 'revis') === false) $textos++;
+        }
+    }
+    // Questões (parse todos os JSONs em questoes/*/)
+    $questoes = 0;
+    foreach (glob(__DIR__ . '/questoes/*/*.json') ?: [] as $f) {
+        $d = @json_decode(@file_get_contents($f), true);
+        if (is_array($d)) $questoes += count($d);
+    }
+    // Simulados (conta subpastas de vestibulares)
+    $simulados = count(glob(__DIR__ . '/simulados/enem*',    GLOB_ONLYDIR) ?: [])
+               + count(glob(__DIR__ . '/simulados/fuvest*',  GLOB_ONLYDIR) ?: [])
+               + count(glob(__DIR__ . '/simulados/unesp*',   GLOB_ONLYDIR) ?: [])
+               + count(glob(__DIR__ . '/simulados/unicamp*', GLOB_ONLYDIR) ?: []);
+    // Livros
+    $livros_json = @json_decode(@file_get_contents(__DIR__ . '/js/livros.json'), true);
+    $livros = is_array($livros_json) ? count($livros_json) : 0;
+    // Filmes e Séries
+    $filmes_json = @json_decode(@file_get_contents(__DIR__ . '/js/filmes-geografia.json'), true);
+    $filmes = 0; $series = 0;
+    if (is_array($filmes_json)) {
+        foreach ($filmes_json as $item) {
+            if (is_array($item) && ($item['tipo'] ?? '') === 'Série') $series++;
+            elseif (is_array($item)) $filmes++;
+        }
+    }
+    $stats = compact('textos', 'questoes', 'simulados', 'livros', 'filmes', 'series');
+    @file_put_contents($cache, json_encode($stats), LOCK_EX);
+    return $stats;
+}
+$stats = duvidStats();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -304,7 +351,7 @@
                                             <option value="TO">Tocantins</option>
                                         </select>
                                         <input class="w3-input w3-border w3-round-large" type="text" id="pq-cidade" placeholder="Cidade" autocomplete="address-level2" style="border-color:#e0e0e0;">
-                                        <input class="w3-input w3-border w3-round-large" type="text" id="pq-escola" placeholder="Nome da escola" autocomplete="organization" style="border-color:#e0e0e0;">
+                                        <input class="w3-input w3-border w3-round-large" type="text" id="pq-escola" placeholder="Nome da escola" autocomplete="organization" style="border-color:#e0e0e0;text-transform:uppercase;" oninput="this.value=this.value.toUpperCase()">
                                     </div>
                                 </details>
 
@@ -364,17 +411,17 @@
                                     <span id="turma-codigo-label" style="font-family:monospace; letter-spacing:1px;"></span>
                                 </p>
                             </div>
-                            <div style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
+                            <div id="globinhos-badge" style="background:#f0f7f0; border:1.5px solid #c8e6c9; border-radius:14px;
                                         padding:8px 14px; text-align:center; flex-shrink:0;">
-                                <div style="font-size:.55rem; color:#558b2f; text-transform:uppercase;
+                                <div id="globinhos-badge-label" style="font-size:.55rem; color:#558b2f; text-transform:uppercase;
                                             letter-spacing:.1em; font-weight:700; margin-bottom:2px;">Globinhos</div>
-                                <div style="font-size:1.3rem; font-weight:800; color:#2e7d32; line-height:1.1;">
+                                <div id="globinhos-badge-valor" style="font-size:1.3rem; font-weight:800; color:#2e7d32; line-height:1.1;">
                                     🌍 <span id="valor-total-central">0</span>
                                 </div>
                             </div>
                         </div>
                         <div style="margin-top:16px;">
-                            <div style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
+                            <div id="xp-bar-track" style="background:#f0f0f0; border-radius:8px; height:10px; overflow:hidden;">
                                 <div id="barra-xp-total"
                                      style="height:100%; width:0%; border-radius:8px;
                                             background:linear-gradient(90deg,#4caf50,#81c784);
@@ -429,7 +476,7 @@
 
                         <!-- Área para aluno já em turma: info + opção de trocar -->
                         <div id="turma-membro-info" style="display:none;">
-                            <div style="background:#f0f7f0; border-radius:12px; padding:12px 14px;
+                            <div id="turma-info-box" style="background:#f0f7f0; border-radius:12px; padding:12px 14px;
                                         display:flex; align-items:center; gap:10px; margin-bottom:12px;">
                                 <i class="fa fa-graduation-cap" style="color:#2e7d32; font-size:1.1rem;"></i>
                                 <div>
@@ -693,6 +740,144 @@
         </div>
 
 
+
+        <!-- ══ Coleção de Conteúdo ══ -->
+        <style>
+        .colecao-section {
+            background: #fff;
+            padding: 40px 0 36px;
+        }
+        body.dark-mode .colecao-section { background: #121212; }
+
+        .colecao-titulo {
+            text-align: center;
+            margin: 0 0 6px;
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #2e7d32;
+            letter-spacing: -.3px;
+        }
+        .colecao-sub {
+            text-align: center;
+            font-size: .85rem;
+            color: #888;
+            margin: 0 0 28px;
+        }
+        body.dark-mode .colecao-sub { color: #666; }
+
+        .colecao-grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 12px;
+        }
+        .colecao-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 20px 10px 16px;
+            background: #f8f9fa;
+            border: 1.5px solid #f0f0f0;
+            border-radius: 18px;
+            text-decoration: none;
+            transition: transform .15s, box-shadow .15s, border-color .15s;
+        }
+        .colecao-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(46,125,50,.12);
+            border-color: #4caf50;
+        }
+        body.dark-mode .colecao-card {
+            background: #1a1a1a;
+            border-color: rgba(255,255,255,.07);
+        }
+        body.dark-mode .colecao-card:hover { border-color: #4caf50; }
+
+        .colecao-icone {
+            font-size: 2rem;
+            line-height: 1;
+        }
+        .colecao-icone-img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            image-rendering: pixelated;
+        }
+        .colecao-num {
+            font-size: 1.55rem;
+            font-weight: 900;
+            color: #2e7d32;
+            line-height: 1;
+            letter-spacing: -.5px;
+        }
+        body.dark-mode .colecao-num { color: #66bb6a; }
+        .colecao-label {
+            font-size: .65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: .12em;
+            color: #888;
+        }
+        body.dark-mode .colecao-label { color: #666; }
+
+        @media (max-width: 640px) {
+            .colecao-grid { grid-template-columns: repeat(3, 1fr); gap: 9px; }
+            .colecao-card { padding: 14px 8px 12px; border-radius: 14px; }
+            .colecao-num  { font-size: 1.25rem; }
+            .colecao-icone { font-size: 1.6rem; }
+        }
+        @media (max-width: 380px) {
+            .colecao-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        </style>
+
+        <section class="colecao-section">
+        <div class="w3-content" style="max-width:900px; padding:0 16px;">
+            <h2 class="colecao-titulo">Coleção de Conteúdo</h2>
+            <p class="colecao-sub">Todo o conhecimento organizado e pronto para exploração</p>
+
+            <div class="colecao-grid">
+
+                <a href="/questoes/" class="colecao-card">
+                    <img src="/fotoIndex/icones/colecao-questoes.png" class="colecao-icone-img" alt="Questões">
+                    <span class="colecao-num"><?= number_format($stats['questoes'], 0, ',', '.') ?>+</span>
+                    <span class="colecao-label">Questões</span>
+                </a>
+
+                <a href="/paginas/aulas.php" class="colecao-card">
+                    <span class="colecao-icone">📖</span>
+                    <span class="colecao-num"><?= $stats['textos'] ?></span>
+                    <span class="colecao-label">Textos</span>
+                </a>
+
+                <a href="/simulados/capasimuladogeral.php" class="colecao-card">
+                    <span class="colecao-icone">🎯</span>
+                    <span class="colecao-num"><?= $stats['simulados'] ?>+</span>
+                    <span class="colecao-label">Simulados</span>
+                </a>
+
+                <a href="/paginas/livros-sugeridos.php" class="colecao-card">
+                    <span class="colecao-icone">📚</span>
+                    <span class="colecao-num"><?= $stats['livros'] ?></span>
+                    <span class="colecao-label">Livros</span>
+                </a>
+
+                <a href="/paginas/filmes-geografia.php" class="colecao-card">
+                    <span class="colecao-icone">🎬</span>
+                    <span class="colecao-num"><?= $stats['filmes'] ?></span>
+                    <span class="colecao-label">Filmes</span>
+                </a>
+
+                <a href="/paginas/filmes-geografia.php?tipo=serie" class="colecao-card">
+                    <span class="colecao-icone">📺</span>
+                    <span class="colecao-num"><?= $stats['series'] ?></span>
+                    <span class="colecao-label">Séries</span>
+                </a>
+
+            </div>
+        </div>
+        </section>
 
         <!-- ══ O Projeto + Conheça o Duvid ══ -->
         <style>
@@ -1442,8 +1627,9 @@
             <label style="font-size:.8rem; font-weight:700; color:#444; display:block; margin-bottom:4px;">
                 Escola <span style="font-weight:400; color:#aaa;">(opcional)</span>
             </label>
-            <input id="ep-escola" type="text" maxlength="150" placeholder="Ex: IFSuldeminas"
-                style="width:100%; padding:9px 11px; border:1.5px solid #ddd;
+            <input id="ep-escola" type="text" maxlength="150" placeholder="Ex: IFSULDEMINAS"
+                oninput="this.value=this.value.toUpperCase()"
+                style="width:100%; padding:9px 11px; border:1.5px solid #ddd; text-transform:uppercase;
                        border-radius:10px; font-size:.9rem; box-sizing:border-box;
                        margin-bottom:14px; font-family:inherit;">
 

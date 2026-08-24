@@ -105,19 +105,22 @@ require_once __DIR__ . '/_layout.php';
                 <input type="text" id="imagem-<?= htmlspecialchars($id) ?>"
                        value="<?= htmlspecialchars($f['imagem'] ?? '') ?>"
                        placeholder="https://... ou /fotoIndex/filmes/arquivo.jpg"
-                       oninput="atualizarPreview('<?= htmlspecialchars($id) ?>'); marcarSujo('<?= htmlspecialchars($id) ?>')">
+                       oninput="atualizarPreview('<?= htmlspecialchars($id) ?>'); marcarSujo('<?= htmlspecialchars($id) ?>')"
+                       onchange="salvarFilme('<?= htmlspecialchars($id) ?>', { silencioso: true })">
 
                 <label>Nota (0 a 10)</label>
                 <input type="number" id="nota-<?= htmlspecialchars($id) ?>"
                        value="<?= htmlspecialchars($f['nota'] ?? '') ?>"
                        min="0" max="10" step="0.1" placeholder="Ex: 9.3"
-                       oninput="marcarSujo('<?= htmlspecialchars($id) ?>')">
+                       oninput="marcarSujo('<?= htmlspecialchars($id) ?>')"
+                       onchange="salvarFilme('<?= htmlspecialchars($id) ?>', { silencioso: true })">
 
                 <label>Posição vertical da imagem (<span id="posicao-valor-<?= htmlspecialchars($id) ?>"><?= (int)($f['posicao'] ?? 50) ?></span>%)</label>
                 <input type="range" id="posicao-<?= htmlspecialchars($id) ?>"
                        value="<?= (int)($f['posicao'] ?? 50) ?>"
                        min="0" max="100" step="1"
-                       oninput="atualizarPosicao('<?= htmlspecialchars($id) ?>'); marcarSujo('<?= htmlspecialchars($id) ?>')">
+                       oninput="atualizarPosicao('<?= htmlspecialchars($id) ?>'); marcarSujo('<?= htmlspecialchars($id) ?>')"
+                       onchange="salvarFilme('<?= htmlspecialchars($id) ?>', { silencioso: true, autoSalvo: true })">
 
                 <button class="btn btn-verde" style="margin-top:10px;width:100%"
                         id="btn-salvar-<?= htmlspecialchars($id) ?>"
@@ -335,11 +338,15 @@ async function salvarFilme(id, opts) {
         });
         const data = await res.json();
         if (data.erro) {
-            if (!opts.silencioso) toast(data.erro, 'erro');
+            if (!opts.silencioso || opts.autoSalvo) toast(data.erro, 'erro');
             return false;
         }
         marcarLimpo(id);
-        if (!opts.silencioso) toast('Filme atualizado!', 'ok');
+        if (!opts.silencioso) {
+            toast('Filme atualizado!', 'ok');
+        } else if (opts.autoSalvo) {
+            toast('Posição salva automaticamente ✓', 'ok');
+        }
         return true;
     } catch (e) {
         if (!opts.silencioso) toast('Erro de conexão ao salvar.', 'erro');

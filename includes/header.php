@@ -176,6 +176,11 @@ $ehSimulados  = ($paginaAtual === 'capasimuladogeral.php');
         <i class="fa fa-film mob-nav-icon"></i> Filmes e séries
     </a>
 
+    <!-- ── Sugestões de livros ── -->
+    <a href="/paginas/livros-sugeridos.php" class="w3-bar-item w3-button mob-nav-item" onclick="AbrirNavBar()">
+        <i class="fa fa-book-open mob-nav-icon"></i> Sugestões de livros
+    </a>
+
     <div class="mob-separator"></div>
 
     <!-- ── Instruções ── -->

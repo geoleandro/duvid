@@ -100,6 +100,7 @@ let filtroContinenteAtivo = 'Todos';
 // ── Agrupamento de tags em categorias abrangentes ──────────────────────────
 const TAG_PARA_CATEGORIA = {
     // 🗺️ Cartografia
+    'Cartografia':                'Cartografia',
     'Cartografia colonial':       'Cartografia',
     'Cartografia e orientação':   'Cartografia',
     'Cartografia e sátira':       'Cartografia',
@@ -108,6 +109,7 @@ const TAG_PARA_CATEGORIA = {
     'Escala e proporção':         'Cartografia',
     'Mapa 1:1':                   'Cartografia',
     'Relatos de viagem':          'Cartografia',
+    'Ventos alísios e navegações':'Cartografia',
     // 🕐 Tempo e Espaço
     'Fusos horários':             'Tempo e Espaço',
     'Rotação e tempo':            'Tempo e Espaço',
@@ -148,19 +150,43 @@ const TAG_PARA_CATEGORIA = {
     'Suriname':                   'Colonialismo',
     'Multiculturalismo':          'Colonialismo',
     // 🌋 Natureza
+    'Altitude':                   'Natureza',
+    'Biomassa':                   'Natureza',
     'Camadas internas':           'Natureza',
-    'Clima':                      'Natureza',
+    'Carvão Mineral':             'Natureza',
+    'Depressões':                 'Natureza',
     'Deriva continental':         'Natureza',
+    'Desertificação':             'Natureza',
     'Dinossauros':                'Natureza',
+    'Empobrecimento do solo':     'Natureza',
+    'Energia Eólica':             'Natureza',
+    'Energia Hidráulica':         'Natureza',
+    'Energia Solar':              'Natureza',
+    'Erosão eólica':              'Natureza',
+    'Erosão fluvial':             'Natureza',
     'Hidrografia':                'Natureza',
+    'Minerais':                   'Natureza',
+    'Minérios':                   'Natureza',
+    'Montanhas':                  'Natureza',
+    'Petróleo':                   'Natureza',
     'Pré-história':               'Natureza',
+    'Rochas Sedimentares':        'Natureza',
     'Savana':                     'Natureza',
+    'Solo e fertilidade':         'Natureza',
     'Terremotos':                 'Natureza',
     'Vulcanismo':                 'Natureza',
+    // ☁️ Clima
+    'Aquecimento global':         'Clima',
+    'Atmosfera comparada':        'Clima',
+    'Clima':                      'Clima',
+    'Clima do Sul do Brasil':     'Clima',
+    'Marés e monções':            'Clima',
+    'Poluição atmosférica':       'Clima',
     // 🏙️ Sociedade
     'China pré-revolucionária':   'Sociedade',
     'Crise Agrícola':             'Sociedade',
     'Cultura maori':              'Sociedade',
+    'Favelas e desigualdade urbana': 'Sociedade',
     'Industrialização':           'Sociedade',
     'Japão pós-guerra':           'Sociedade',
     'Jornalismo Gráfico':         'Sociedade',
@@ -181,6 +207,7 @@ const CATEGORIA_CORES = {
     'Geopolítica':   { bg: '#ffebee', cor: '#c62828' },
     'Colonialismo':  { bg: '#fbe9e7', cor: '#bf360c' },
     'Natureza':      { bg: '#e8f5e9', cor: '#2e7d32' },
+    'Clima':         { bg: '#e1f5fe', cor: '#0277bd' },
     'Sociedade':     { bg: '#f3e5f5', cor: '#7b1fa2' },
 };
 
@@ -234,14 +261,14 @@ async function carregarLivros() {
         todosLivros = Object.entries(obj).map(([id, l]) => ({ id, ...l }));
         gerarBotoes();
         gerarBotoesContinente();
-        renderizar(todosLivros);
+        aplicarFiltros();
     } catch (e) {
         document.getElementById('grid-livros').innerHTML =
             '<p class="bib-vazio">Erro ao carregar os livros.</p>';
     }
 }
 
-const ORDEM_CATEGORIAS = ['Cartografia', 'Tempo e Espaço', 'Geopolítica', 'Colonialismo', 'Natureza', 'Sociedade'];
+const ORDEM_CATEGORIAS = ['Cartografia', 'Tempo e Espaço', 'Geopolítica', 'Colonialismo', 'Natureza', 'Clima', 'Sociedade'];
 
 function gerarBotoes() {
     const cats = ['Todos', ...ORDEM_CATEGORIAS];
@@ -316,6 +343,13 @@ function aplicarFiltros() {
             (l.relacao    || '').toLowerCase().includes(busca);
         return matchCat && matchContinente && matchBusca;
     });
+
+    // Sem nenhum filtro ativo (tema, continente ou busca): ordena por autor A-Z
+    const semFiltroNenhum = filtroAtivo === 'Todos' && filtroContinenteAtivo === 'Todos' && !busca;
+    if (semFiltroNenhum) {
+        resultado.sort((a, b) => (a.autor || '').localeCompare(b.autor || '', 'pt-BR', { sensitivity: 'base' }));
+    }
+
     renderizar(resultado);
 }
 

@@ -44,7 +44,7 @@
     <script src="/js/glossario.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
-    <title>1º ano - Texto 14 - Estrutura geológica e formas do relevo terrestre.</title>
+    <title>1º ano - Texto 14 - Estrutura geológica e formas do relevo terrestre</title>
 
 </head>
 
@@ -97,7 +97,7 @@
                 <p class="w3-pale-green">Pense em regiões do Brasil que você já viu, pessoalmente ou em fotos e vídeos: serras com terrenos acidentados, chapadas com paredões altos, planícies enormes e planas como o Pantanal.</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: por que o relevo varia tanto de um lugar para outro dentro do mesmo país, se todos fazem parte da mesma crosta terrestre? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -124,9 +124,11 @@
 
             <p>A geografia estuda como o espaço interfere nas atividades humanas e como essas atividades, por sua vez, transformam o espaço. Por exemplo, áreas de bacias sedimentares são frequentemente ocupadas por atividades de exploração de petróleo e gás, enquanto escudos cristalinos são focos de mineração.</p>
 
+            <p>Um dado ajuda a orientar essa investigação: o Brasil está situado na porção central da Placa Sul-Americana, bem afastado das bordas onde as placas tectônicas colidem, se afastam ou deslizam uma sobre a outra. É por isso que o país tem atividade sísmica e vulcânica muito baixa quando comparado a nações como o Chile, o Japão ou a Indonésia, situadas sobre zonas de subducção ativas, onde terremotos e erupções fazem parte do cotidiano. Essa posição geologicamente estável explica, em boa parte, por que o relevo brasileiro é dominado por estruturas antigas e já bastante desgastadas pela erosão, como os crátons e os dobramentos antigos, em vez de cadeias montanhosas jovens e instáveis como as que vamos encontrar em outros continentes.</p>
+
             <p>A partir dessas questões, investigaremos as estruturas geológicas que compõem e sustentam as diversas formas da superfície terrestre, compreendendo melhor a dinâmica da crosta e como esses fatores influenciam a ocupação e a utilização dos territórios.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -145,7 +147,9 @@
                     data-definicao="Grandes corpos rochosos que compõem a crosta terrestre, formados ao longo de bilhões de anos por processos tectônicos e de sedimentação, cada um com características, idades e processos formativos distintos.">estruturas
                     geológicas</span> são grandes corpos rochosos que compõem a crosta terrestre, formadas ao longo de bilhões de anos por processos tectônicos e de sedimentação. Cada tipo de estrutura tem características, idades e processos formativos distintos, moldando as paisagens e o relevo que conhecemos hoje. Vamos detalhar cada uma delas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Vale relembrar a conexão com o que vimos na aula sobre o ciclo das rochas: os crátons e seus escudos cristalinos são formados, sobretudo, por rochas ígneas e metamórficas muito antigas; as bacias sedimentares e as plataformas, como o próprio nome sugere, são construídas a partir do acúmulo de rochas sedimentares; e os dobramentos envolvem intenso metamorfismo regional, quando o choque de placas dobra e comprime camadas inteiras de rocha. Ou seja, cada estrutura geológica é, na prática, uma etapa diferente do mesmo ciclo das rochas, só que em uma escala continental.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -168,9 +172,9 @@
                         data-definicao="Área de um cráton onde rochas cristalinas (magmáticas e metamórficas) estão expostas diretamente na superfície, sem cobertura sedimentar, marcada por intensa erosão.">Escudos
                         cristalinos</span>:</strong> áreas onde as rochas cristalinas estão expostas na superfície, geralmente formadas por rochas metamórficas e magmáticas. São regiões antigas e estáveis que passaram por intensa erosão.</p>
 
-            <p><strong>Exemplos:</strong> o Escudo Brasileiro ocupa grande parte do território do Brasil e é subdividido em diferentes escudos regionais, como o Escudo Atlântico e o Escudo Guaporé. Já o Escudo Canadense cobre parte do Canadá e do norte dos Estados Unidos, e é conhecido por abrigar alguns dos minerais mais antigos do planeta.</p>
+            <p><strong>Exemplos:</strong> o Escudo Brasileiro ocupa cerca de 36% do território nacional e é subdividido em três grandes blocos: o Escudo das Guianas, no extremo norte; o Escudo do Brasil Central (ou Guaporé), a maior porção, em boa parte encoberta pela Floresta Amazônica; e o Escudo Atlântico, que se estende do sul da Bahia até Minas Gerais e o Espírito Santo. Já o Escudo Canadense cobre parte do Canadá e do norte dos Estados Unidos, e é conhecido por abrigar alguns dos minerais mais antigos do planeta.</p>
 
-            <p><strong>Características:</strong> em geral, esses escudos sustentam formações de relevo com média elevação e são ricos em minerais metálicos, como ouro, ferro e níquel.</p>
+            <p><strong>Características:</strong> em geral, esses escudos sustentam formações de relevo com média elevação e são ricos em minerais metálicos, como ouro, ferro e níquel. No Brasil, três províncias minerais concentradas em áreas de escudo se destacam pela importância econômica: o Quadrilátero Ferrífero, em Minas Gerais, uma das regiões com maiores reservas de minério de ferro do Planeta; a Serra dos Carajás, no Pará, hoje o maior complexo de mineração do país; e o Maciço do Urucum, em Mato Grosso do Sul, fonte de ferro e manganês.</p>
 
             <p><strong><span class="termo" data-palavra="Plataforma"
                         data-definicao="Superfície cratônica coberta por espessas camadas de rochas sedimentares acumuladas ao longo do tempo, geralmente plana, formando a base estrutural de muitos continentes.">Plataformas</span>:</strong> são
@@ -178,8 +182,47 @@
 
             <p><strong>Exemplo:</strong> a Plataforma Sul-Americana é uma das maiores do mundo e estende-se por boa parte da América do Sul. A Plataforma Siberiana é outra extensa região, localizada na Rússia, cobrindo uma vasta área de paisagem plana.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Uma forma simples de visualizar a diferença entre essas duas estruturas: no escudo cristalino, o <strong>embasamento cristalino</strong>, a rocha mais antiga da crosta, está exposto diretamente na superfície; já na plataforma, esse mesmo embasamento pode estar soterrado a milhares de metros de profundidade, sob sucessivas camadas de rocha sedimentar acumuladas ao longo de centenas de milhões de anos. É justamente essa profundidade que torna a perfuração de poços de petróleo em bacias sedimentares um processo caro e tecnicamente complexo, já que as sondas de perfuração precisam atravessar toda essa espessura de sedimento antes de alcançar as rochas onde o petróleo pode estar armazenado.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (escudo x plataforma) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>O que diferencia um escudo cristalino de uma plataforma, sendo os dois partes de um mesmo cráton?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="correto" />
+                    <label class="card-opcao" for="p1a">
+                        <span>a) o escudo tem rochas cristalinas expostas; a plataforma tem cobertura sedimentar.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1b">
+                        <span>b) o escudo é bem mais jovem que a plataforma.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1c">
+                        <span>c) a plataforma só existe no fundo dos oceanos.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: as duas vêm do mesmo cráton antigo, mas a plataforma acumulou camadas de sedimento por cima da rocha cristalina original.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp1"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -195,18 +238,55 @@
 
             <p>Os <span class="termo" data-palavra="Dobramento"
                     data-definicao="Formação de relevo resultante do choque entre placas tectônicas, que força as rochas a dobrarem e ondularem, dando origem a cadeias de montanhas. Podem ser modernos (jovens e elevados) ou antigos (desgastados pela erosão)."><strong>dobramentos</strong></span> são
-                formados quando placas tectônicas se chocam, forçando as rochas a dobrarem e ondularem em formações elevadas. Esses dobramentos são divididos entre modernos e antigos, sendo que os modernos formam as grandes cadeias montanhosas do planeta, caracterizadas por elevadas altitudes e alta instabilidade geológica.</p>
+                formados quando placas tectônicas se chocam, forçando as rochas a dobrarem e ondularem em formações elevadas. Esse choque pode ocorrer de duas formas principais: quando uma placa oceânica, mais densa, mergulha sob uma continental (subducção), como no caso dos Andes; ou quando duas placas continentais, de densidade parecida, colidem de frente sem que nenhuma consiga afundar sob a outra, empurrando as camadas de rocha para cima, como aconteceu na formação do Himalaia. Esses dobramentos são divididos entre modernos e antigos, sendo que os modernos formam as grandes cadeias montanhosas do planeta, caracterizadas por elevadas altitudes e alta instabilidade geológica.</p>
 
             <p><strong><span class="termo" data-palavra="Dobramento Moderno"
                         data-definicao="Cadeia de montanhas jovem, formada recentemente pela colisão de placas tectônicas, com altitudes elevadas e alta instabilidade geológica (ex: Andes, Himalaia).">Exemplos
-                        de dobramentos modernos</span>:</strong> a Cordilheira dos Andes, localizada ao longo da costa oeste da América do Sul, se formou a partir do choque entre as placas Sul-Americana e de Nazca e abriga o pico Aconcágua, com 6.962 metros de altitude, o ponto mais alto do continente. Outro exemplo é o Himalaia, formado pela colisão entre as placas Indiana e Eurasiática, o que originou o Monte Everest, o pico mais alto do mundo, com 8.848 metros.</p>
+                        de dobramentos modernos</span>:</strong> a Cordilheira dos Andes, localizada ao longo da costa oeste da América do Sul, se formou a partir do choque entre as placas Sul-Americana e de Nazca e abriga o pico Aconcágua, com 6.960,8 metros de altitude (medição oficial do Instituto Geográfico Nacional da Argentina), o ponto mais alto do continente americano. Outro exemplo é o Himalaia, formado pela colisão entre as placas Indiana e Eurasiática, o que originou o Monte Everest, o pico mais alto do mundo, com 8.848,86 metros, segundo a medição oficial mais recente, anunciada em conjunto pelo Nepal e pela China em 2020.</p>
 
             <p><strong><span class="termo" data-palavra="Dobramento Antigo"
                         data-definicao="Cadeia de montanhas formada há muito mais tempo que os dobramentos modernos, já bastante desgastada pela erosão, com altitudes menores (ex: Apalaches, Serra do Mar).">Exemplos
                         de dobramentos antigos</span>:</strong> montanhas como os Montes Apalaches (EUA) e a Serra do Mar (Brasil) são formadas por dobramentos antigos e, por isso, mais desgastadas e com altitudes menores, devido à ação de milhões de anos de erosão.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (dobramento moderno x antigo) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Por que os Andes são um dobramento moderno, enquanto a Serra do Mar é um dobramento antigo?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2a">
+                        <span>a) porque os Andes são mais bonitos e turísticos.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto" />
+                    <label class="card-opcao" for="p2b">
+                        <span>b) porque os Andes ainda estão em uma zona ativa de choque de placas; a Serra do Mar, não.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2c">
+                        <span>c) porque a Serra do Mar é mais alta que os Andes.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: onde as placas ainda colidem, a montanha continua subindo; onde a colisão parou, só resta a erosão desgastando o relevo.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp2"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -224,12 +304,52 @@
                     data-definicao="Depressão da crosta terrestre onde grandes quantidades de sedimentos se acumularam ao longo do tempo, transformando-se em rochas sedimentares; fonte importante de petróleo, gás natural e carvão mineral."><strong>bacias
                         sedimentares</strong></span> são áreas onde grandes quantidades de sedimentos se acumularam ao longo do tempo, sendo muitas vezes o resultado de antigos mares e lagos que, ao secarem, deixaram camadas de sedimentos que se transformaram em rochas sedimentares. Essas bacias são essenciais para a economia, pois abrigam recursos minerais importantes, como petróleo, gás natural e carvão mineral.</p>
 
-            <p><strong>Exemplo:</strong> a Bacia Sedimentar Amazônica é uma das maiores bacias sedimentares do mundo, cobrindo grande parte da Amazônia brasileira. Ela tem um papel fundamental na extração de recursos minerais, e recentemente, descobriu-se que pode conter reservas significativas de petróleo e gás natural. Outra bacia importante é a Bacia do Paraná, que cobre partes do Brasil, Paraguai, Uruguai e Argentina e abriga grandes reservas de carvão mineral.</p>
+            <p><strong>Exemplo:</strong> a Bacia Sedimentar Amazônica é uma das maiores bacias sedimentares do mundo, cobrindo grande parte da Amazônia brasileira. Ela tem um papel fundamental na extração de recursos minerais, e recentemente, descobriu-se que pode conter reservas significativas de petróleo e gás natural. Outra bacia importante é a Bacia do Paraná, com cerca de 1,5 milhão de km² no total (800 mil km² só em território brasileiro), que cobre partes do Brasil, Paraguai, Uruguai e Argentina e abriga grandes reservas de carvão mineral, além do varvito que vimos na aula anterior, formado justamente sobre essa bacia.</p>
 
             <p><strong>Características econômicas:</strong> essas áreas também são fontes de água subterrânea e de depósitos fósseis, sendo essenciais para a agricultura e para a extração de minerais energéticos.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Nos últimos anos, ganhou destaque a Bacia de Santos, uma bacia sedimentar marítima no litoral sudeste do Brasil, onde estão as reservas do <span class="termo" data-palavra="Pré-sal"
+                    data-definicao="Conjunto de reservas de petróleo e gás natural encontradas em rochas sedimentares formadas há mais de 100 milhões de anos, soterradas sob uma espessa camada de sal no fundo do mar, principalmente nas bacias de Santos e Campos.">pré-sal</span>: petróleo e gás armazenados em rochas formadas há mais de 100 milhões de anos, hoje soterrados sob uma espessa camada de sal, cerca de 300 km da costa fluminense e paulista. Ali, a distância entre a superfície do mar e o reservatório de petróleo soma aproximadamente 7 mil metros, somando os 2 mil metros de lâmina d'água, mais 1 mil de sedimentos e outros 2 mil de sal que precisam ser atravessados pela perfuração, um desafio de engenharia que só se tornou viável com o desenvolvimento de tecnologias específicas de exploração em águas ultraprofundas. Em 2026, só o campo de Tupi, pioneiro do pré-sal, já ultrapassou a marca de 4 bilhões de barris de óleo equivalente produzidos, com médias diárias acima de 1 milhão de barris em alguns períodos; já o campo de Mero, mais ao sul, também no pré-sal da Bacia de Santos, chegou à capacidade máxima de produção prevista em projeto, de 180 mil barris por dia. Esses números transformaram o Brasil em um dos maiores produtores mundiais de petróleo e ilustram bem como o conhecimento sobre estruturas geológicas orienta decisões econômicas e políticas de grande escala.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (bacias e petroleo) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Por que bacias sedimentares, como a do Paraná e a Amazônica, são tão importantes para a extração de petróleo e gás natural?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="correto" />
+                    <label class="card-opcao" for="p3a">
+                        <span>a) porque acumulam espessas camadas de rocha sedimentar, com matéria orgânica soterrada.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3b">
+                        <span>b) porque são áreas de vulcanismo ativo.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3c">
+                        <span>c) porque ficam sempre próximas ao litoral.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: petróleo e gás vêm da transformação de matéria orgânica soterrada sob camadas de sedimento, por isso só aparecem em bacias sedimentares.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp3"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -240,7 +360,13 @@
 
             <p>As estruturas geológicas têm impacto direto na configuração do relevo e na ocupação humana, além de serem fundamentais para a economia de vários países. Regiões de escudos cristalinos são ricas em recursos minerais metálicos, enquanto as bacias sedimentares são fontes de hidrocarbonetos e água subterrânea. Os dobramentos modernos, embora ricos em minerais, apresentam desafios logísticos para a ocupação humana devido ao relevo acidentado.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>É por isso que a geologia entra tão diretamente no planejamento territorial. Uma cidade construída sobre uma bacia sedimentar lida com um solo mais espesso, útil para poços de água subterrânea, mas também mais sujeito a recalques (afundamentos) em construções pesadas. Já uma cidade que se expande sobre encostas de um dobramento, como aconteceu em vários bairros da região serrana do Rio de Janeiro, convive com o risco constante de deslizamentos, especialmente quando a vegetação nativa é removida das encostas mais íngremes.</p>
+
+            <p>Saber identificar sobre qual estrutura geológica uma região está assentada, portanto, não é só um exercício acadêmico: é uma ferramenta prática de prevenção de desastres e de planejamento urbano e agrícola.</p>
+
+            <p>O valor econômico das estruturas geológicas vai além da mineração e da agropecuária. Desde 2006, o Brasil também conta com <strong>Geoparques</strong> reconhecidos pela UNESCO, áreas onde o patrimônio geológico se transforma em atração turística e educacional. É o caso do Geopark Araripe, no Ceará, erguido sobre uma bacia sedimentar famosa por seus fósseis do período Cretáceo, com idades entre 150 e 90 milhões de anos, e do Geoparque Caminhos dos Cânions do Sul, entre Santa Catarina e Rio Grande do Sul, esculpido sobre antigos derrames de rocha vulcânica. Esses espaços mostram como entender a estrutura geológica de uma região pode gerar renda de forma sustentável, sem esgotar o recurso, ao contrário do que costuma acontecer na mineração tradicional.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -255,9 +381,9 @@
             </div>
             <p class="citacao" style="display:block"> Formas de relevo sobre rochas magmáticas e sedimentares. Fonte: organizado pelo autor. </p>
 
-            <p>As formas de relevo da superfície terrestre são resultado das interações entre diferentes estruturas geológicas e processos erosivos e de sedimentação. A seguir, vamos explorar os principais tipos de relevo e alguns de seus exemplos marcantes.</p>
+            <p>As formas de relevo da superfície terrestre são resultado das interações entre diferentes estruturas geológicas e processos erosivos e de sedimentação. É importante não confundir os dois conceitos: a estrutura geológica é a base rochosa, o "esqueleto" da paisagem, formada ao longo de bilhões de anos; já a forma de relevo é o resultado visível dessa base depois de milhões de anos de desgaste pelo intemperismo, pela erosão e, em alguns casos, pelo acúmulo de novos sedimentos por cima dela. Um mesmo cráton, por exemplo, pode dar origem tanto a um planalto, onde a erosão predomina, quanto a áreas mais baixas nas suas bordas, onde os sedimentos removidos se acumulam. A seguir, vamos explorar os principais tipos de relevo e alguns de seus exemplos marcantes.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -274,16 +400,53 @@
 
             <p><strong><span class="termo" data-palavra="Planalto"
                         data-definicao="Forma de relevo caracterizada por áreas mais elevadas, onde o processo de erosão é mais intenso que o de sedimentação, desgastando as rochas ao longo do tempo.">Planaltos</span>:</strong> caracterizam-se
-                por áreas mais elevadas, onde o processo de erosão é mais intenso que o de sedimentação, desgastando as rochas ao longo do tempo.<br>
-                <strong>Exemplos:</strong> incluem as chapadas brasileiras, como a Chapada Diamantina, com seus altos paredões e vales, e as serras, como a Serra do Espinhaço, que apresentam terrenos acidentados e elevadas altitudes.</p>
+                por áreas mais elevadas, geralmente entre 200 e 2.000 metros de altitude, onde o processo de erosão é mais intenso que o de sedimentação, desgastando as rochas ao longo do tempo. Suas bordas mais íngremes formam <strong>escarpas</strong>; no Brasil, cadeias de morros e escarpas de planalto costumam ser chamadas popularmente de "serras", mesmo quando, tecnicamente, não se encaixam na definição atual de montanha.<br>
+                <strong>Exemplos:</strong> incluem as chapadas brasileiras, como a Chapada Diamantina, com seus altos paredões e vales, e áreas como a Serra do Espinhaço e a Serra da Mantiqueira, que apresentam terrenos acidentados e elevadas altitudes. A própria Serra do Espinhaço se estende por mais de 1.200 km, do Quadrilátero Ferrífero, em Minas Gerais, até a Chapada Diamantina, na Bahia, atravessando três biomas (Mata Atlântica, Cerrado e Caatinga), o que levou a UNESCO a reconhecê-la como Reserva da Biosfera em 2005.</p>
 
             <p><strong><span class="termo" data-palavra="Planície"
                         data-definicao="Forma de relevo caracterizada por áreas predominantemente planas, onde o processo de sedimentação supera o de erosão, acumulando sedimentos trazidos pelo vento, pelas águas ou pelo gelo.">Planícies</span>:</strong> são
-                áreas predominantemente planas, onde o processo de sedimentação supera o de erosão, acumulando sedimentos trazidos pelo vento, pelas águas ou pelo gelo.<br>
-                <strong>Exemplos:</strong> localizam-se em regiões próximas a corpos d'água, como as planícies litorâneas, e ao longo de grandes rios, como a planície do Pantanal no Brasil, que é alagada em períodos chuvosos, favorecendo a biodiversidade local.</p>
+                áreas predominantemente planas, geralmente até 100 metros de altitude, onde o processo de sedimentação supera o de erosão, acumulando sedimentos trazidos pelo vento, pelas águas ou pelo gelo. Podem ser classificadas conforme sua origem: <strong>fluviais</strong>, formadas por depósitos de rios; <strong>lacustres</strong>, originadas de antigos lagos ou de sedimentos depositados nas várzeas em períodos de cheia; e <strong>litorâneas</strong>, situadas junto a oceanos e mares.<br>
+                <strong>Exemplos:</strong> localizam-se em regiões próximas a corpos d'água, como as planícies litorâneas, e ao longo de grandes rios, como a planície do Pantanal no Brasil, considerada a maior planície alagável do mundo, com cerca de 210 mil km² no total (144 mil km² em território brasileiro, divididos entre Mato Grosso e Mato Grosso do Sul), que é alagada em períodos chuvosos, favorecendo a biodiversidade local.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (planalto x planicie) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual é a principal diferença entre um planalto e uma planície?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4a" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4a">
+                        <span>a) o planalto sempre tem clima mais frio que a planície.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4b" name="pergunta4" type="radio" value="correto" />
+                    <label class="card-opcao" for="p4b">
+                        <span>b) no planalto predomina a erosão; na planície, predomina a sedimentação.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4c" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4c">
+                        <span>c) planície é sempre litorânea, planalto nunca é.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: no planalto, o desgaste das rochas supera o acúmulo de sedimentos; na planície, é o contrário.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp4"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -292,11 +455,56 @@
 
             <h2>Montanhas</h2>
 
-            <p>Resultam de intensos processos tectônicos que dobram ou falham as rochas, formando grandes elevações. Estas áreas podem ultrapassar altitudes de 300 metros, abrigando algumas das paisagens mais espetaculares do planeta.<br>
-                <strong>Exemplos:</strong> o Monte Everest (Ásia), o ponto mais alto do mundo com 8.848 metros, e o Aconcágua (América do Sul), o pico mais alto das Américas com 6.960 metros, ambos formados por movimentos orogênicos.</p>
+            <p>Resultam de intensos processos tectônicos que dobram ou falham as rochas, formando grandes elevações. A definição oficial de montanha não depende só da altitude: é preciso que a forma de relevo tenha, no conjunto, pelo menos 300 metros de desnível em relação às áreas vizinhas, topos aguçados e encostas íngremes.<br>
+                <strong>Exemplos no mundo:</strong> o Monte Everest (Ásia), o ponto mais alto do mundo com 8.848,86 metros, e o Aconcágua (América do Sul), o pico mais alto das Américas com 6.960,8 metros, ambos formados por movimentos orogênicos recentes.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>E o Brasil, tem montanhas? Até pouco tempo atrás, essa era uma pergunta sem resposta única entre os próprios geógrafos. Em 2026, depois de seis anos de debates, mapeamentos e expedições de campo, um grupo de cerca de 70 geógrafos e geólogos coordenado pelo IBGE, dentro do novo Sistema Brasileiro de Classificação de Relevo (SBCR), chegou a um consenso: sim, o Brasil tem montanhas, e elas aparecem em pelo menos 14 estados, do Rio Grande do Norte a Santa Catarina.</p>
+
+            <p>As montanhas brasileiras são bem diferentes dos Andes ou do Himalaia: são <strong>dobramentos antigos</strong>, geologicamente muito mais velhos e já bastante desgastados pela erosão, resultado do soerguimento lento da crosta ao longo de dezenas de milhões de anos, e não de uma colisão de placas em curso. Exemplos incluem trechos elevados da Serra do Mar, da Serra da Mantiqueira e da Serra do Espinhaço, além de pontos famosos como o Dedo de Deus, na região serrana do Rio de Janeiro.</p>
+
+            <p>A nova classificação também deixou claro que altitude sozinha não define uma montanha: o formato do topo importa tanto quanto a altura. O Monte Roraima, por exemplo, tem 2.810 metros, mas como possui um topo plano e aplainado, é classificado como <strong>planalto</strong>, não como montanha. Já o Pão de Açúcar, no Rio de Janeiro, com 396 metros, não entra na classificação por ser um morro isolado, sem se agrupar a uma cadeia maior de relevo.</p>
+
+            <p>Esse reconhecimento não é só uma curiosidade acadêmica: ele ajuda a orientar políticas de prevenção a deslizamentos de terra, já que encostas íngremes de montanhas são naturalmente mais propensas a esse tipo de desastre quando ocupadas de forma desordenada, como já vimos no caso de Petrópolis (RJ).</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (Roraima nao e montanha) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>O Monte Roraima tem 2.810 metros de altitude, mas não é classificado como montanha pelo novo Sistema Brasileiro de Classificação de Relevo (SBCR). Por quê?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5a" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5a">
+                        <span>a) porque não chega a 300 metros de desnível em relação ao entorno.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5b" name="pergunta5" type="radio" value="correto" />
+                    <label class="card-opcao" for="p5b">
+                        <span>b) porque tem o topo plano e aplainado, sendo classificado como planalto.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5c" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5c">
+                        <span>c) porque fica dentro da Floresta Amazônica.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: altitude sozinha não define montanha. O formato do topo (aguçado ou plano) também entra no critério.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp5"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -308,9 +516,13 @@
             <p><span class="termo" data-palavra="Depressão"
                     data-definicao="Área rebaixada em relação ao entorno, formada principalmente por processos erosivos prolongados. Pode ser absoluta (abaixo do nível do mar) ou relativa (mais baixa que as regiões vizinhas, mas acima do nível do mar).">São
                     áreas rebaixadas</span> em relação ao entorno, formadas principalmente por processos erosivos prolongados. Podem estar abaixo do nível do mar (depressão absoluta) ou em áreas mais baixas que as regiões vizinhas (depressão relativa).<br>
-                <strong>Exemplos:</strong> o Mar Morto, com cerca de 430 metros abaixo do nível do mar, é uma das depressões absolutas mais conhecidas, e a depressão Sertaneja no nordeste brasileiro, uma depressão relativa que possui altitudes mais baixas em relação ao terreno ao seu redor.</p>
+                <strong>Exemplos:</strong> o Mar Morto, com cerca de 430 metros abaixo do nível do mar (e afundando ainda mais, cerca de 1 metro por ano, devido à redução do fluxo do rio Jordão e à exploração de minerais), é uma das depressões absolutas mais conhecidas, e a Depressão Sertaneja, que se estende por parte do interior do Nordeste brasileiro, é um exemplo de depressão relativa: um terreno rebaixado pela erosão ao longo de milhões de anos, hoje coberto majoritariamente pela vegetação da caatinga e marcado por um clima semiárido, com baixos índices pluviométricos e chuvas concentradas e irregulares.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>No Sudeste, outro exemplo conhecido é a <strong>Depressão Periférica Paulista</strong>, uma faixa rebaixada que contorna o planalto ocidental do estado de São Paulo, formada pelo desgaste diferencial de rochas sedimentares menos resistentes à erosão do que as rochas do planalto vizinho. É justamente sobre essa depressão que se desenvolveram importantes eixos rodoviários e agrícolas do interior paulista, o que reforça como o relevo herdado da geologia continua moldando, até hoje, os padrões de ocupação do território.</p>
+
+            <p>Vale registrar que o próprio termo "depressão" está em revisão pelos especialistas do SBCR: como esse tipo de relevo cobre cerca de 60% do território brasileiro e nem toda área mais baixa se encaixa exatamente na antiga definição, a proposta mais recente é usar o termo mais amplo <strong>superfícies rebaixadas</strong>. A lógica é simples: toda depressão é uma superfície rebaixada, mas nem toda superfície rebaixada é, tecnicamente, uma depressão.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -325,19 +537,101 @@
                 regiões com grande concentração de rochas calcárias no subsolo, por meio da ação do <strong>intemperismo químico</strong>: a água da chuva, levemente ácida, dissolve o calcário ao longo do tempo, criando cavernas, sumidouros e depressões circulares chamadas <span
                     class="termo" data-palavra="Dolina"
                     data-definicao="Depressão circular formada na superfície pela dissolução do calcário ou pelo desabamento do teto de cavidades cársticas subterrâneas.">dolinas</span>. Quando o teto dessas cavidades subterrâneas desaba, pode se formar uma cratera repentina na superfície, fenômeno comum em regiões como a Flórida (EUA), construída sobre extensas formações de calcário e argila.<br>
-                <strong>Exemplos:</strong> o Parque Nacional Cavernas do Peruaçu, em Minas Gerais, e a região cárstica de Bonito, no Mato Grosso do Sul, além das dolinas registradas com frequência no estado americano da Flórida.</p>
+                <strong>Exemplos:</strong> o Parque Nacional Cavernas do Peruaçu, em Minas Gerais, e a região cárstica de Bonito, no Mato Grosso do Sul, com cerca de 78 cavernas já mapeadas em rochas carbonáticas formadas há cerca de 530 milhões de anos, entre elas a famosa Gruta do Lago Azul, com seu lago subterrâneo de mais de 90 metros de profundidade e águas de um azul intenso, além das dolinas registradas com frequência no estado americano da Flórida.</p>
+
+            <p>O relevo cárstico também tem grande importância para a arqueologia brasileira. No Parque Nacional Serra da Capivara, no Piauí, tombado pela UNESCO como Patrimônio Mundial em 1991, abrigos e maciços de rocha calcária, como o sítio Tira-Peia, guardam parte dos mais de 800 sítios arqueológicos com pinturas rupestres já registrados na região, a maior concentração do gênero conhecida no planeta. Datações de alguns desses sítios, que chegam a 48 ou 50 mil anos, alimentam um debate científico intenso, já que desafiam a teoria mais tradicional, segundo a qual o ser humano teria chegado às Américas há cerca de 13 a 15 mil anos, vindo da Sibéria através do Estreito de Bering. Ao preservar vestígios por dezenas de milhares de anos, essas rochas cársticas funcionam como verdadeiras cápsulas do tempo geológicas.</p>
 
             <p>Essas formas de relevo, moldadas ao longo de milhões de anos, influenciam a ocupação humana, o desenvolvimento de ecossistemas e as atividades econômicas de cada região, oferecendo um panorama variado e dinâmico da superfície terrestre.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
+
+
+        <!-- BLOCO: Pergunta pratica (dolinas) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>O que causa o desabamento repentino de crateras (dolinas), como as registradas na Flórida (EUA)?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6a" name="pergunta6" type="radio" value="errado" />
+                    <label class="card-opcao" for="p6a">
+                        <span>a) terremotos frequentes na região.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6b" name="pergunta6" type="radio" value="correto" />
+                    <label class="card-opcao" for="p6b">
+                        <span>b) a dissolução química do calcário pela água da chuva, que enfraquece o teto de cavidades subterrâneas.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6c" name="pergunta6" type="radio" value="errado" />
+                    <label class="card-opcao" for="p6c">
+                        <span>c) erupções vulcânicas próximas à superfície.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'Dica: é o mesmo intemperismo químico que forma cavernas. Quando o teto da cavidade fica fino demais, ele desaba de repente.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp6"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho6" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+            <p>Escreva o nome da estrutura geológica mais antiga e estável da crosta continental, formada há bilhões de anos.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'cráton', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Escreva o nome da estrutura formada pelo acúmulo de sedimentos, onde geralmente são encontradas reservas de petróleo e gás natural.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1b" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1b"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1b', 'bacia sedimentar', 'resp1b', this, 'globinho1b')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1b" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
+        </div>
+
+
+        <!-- <div class="topico"><h2> Infográfico - Resumo</h2><div class="w3-margin"><img id="inforesumotp14" src="inforesumotp14.webp" alt="Infográfico resumo Estrutura geológica e formas do relevo terrestre" class="w3-mobile"><span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button><hr></div> -->
 
 
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Se o Brasil tem um território tão grande, por que não temos montanhas tão altas quanto os Andes ou o Himalaia?
@@ -361,7 +655,15 @@
                 O petróleo se forma a partir do soterramento e da transformação, ao longo de milhões de anos, de restos de organismos marinhos acumulados junto a sedimentos. Esse processo só ocorre em bacias sedimentares, onde há espessas camadas de rocha sedimentar. Os escudos cristalinos, ao contrário, são formados por rochas magmáticas e metamórficas muito antigas, sem essas camadas sedimentares, por isso não abrigam reservas de petróleo.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Se o Roraima tem quase 2.810 metros e não é considerado montanha, o que ele é, então?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Segundo a nova classificação do IBGE, o Roraima é um planalto, apesar da altitude elevada. Isso porque ele tem o topo aplainado, resultado de milhões de anos de erosão sobre uma antiga formação de rocha sedimentar. A classificação de montanha não depende só de estar alto: depende também do formato do relevo, com topos aguçados e encostas íngremes, características que o Roraima não tem.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -382,7 +684,7 @@
                 <h3>10. Como o texto explica a interação entre as atividades humanas e as estruturas geológicas?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -399,6 +701,8 @@
                 <p>A Chapada Diamantina, o Pantanal, os Andes e o Escudo Brasileiro contam, cada um, uma história geológica diferente, mas todos fazem parte da mesma dinâmica da crosta terrestre.</p>
 
                 <p><strong>Resumo dos conceitos:</strong> estruturas geológicas; crátons, escudos cristalinos e plataformas; dobramentos modernos e antigos; bacias sedimentares; planaltos, planícies, montanhas e depressões; relevo cárstico e dolinas.</p>
+
+                <p>Falamos bastante sobre bacias sedimentares e sobre como o pré-sal, soterrado sob quilômetros de sedimento e sal, virou uma das maiores riquezas econômicas do Brasil. Na próxima aula, vamos aprofundar justamente esse tema: as fontes de energia que movem o mundo hoje, começando pelos combustíveis fósseis, petróleo, gás natural e carvão mineral, e pelas questões econômicas, políticas e territoriais que envolvem sua produção e distribuição.</p>
 
             </div>
 
@@ -463,6 +767,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

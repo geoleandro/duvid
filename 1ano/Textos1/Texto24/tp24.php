@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content="Hidrografia: ciclo da água, bacias hidrográficas, aquíferos, transposição do São Francisco, ondas, marés, correntes oceânicas e El Niño/La Niña.">
+    <meta property="og:title" content="1º ano - Texto 24 - Hidrografia">
+    <meta property="og:description" content="Ciclo da água, bacias hidrográficas e movimentos oceânicos, com foco na crise hídrica e nos conflitos pelo uso da água no Brasil.">
     <meta property="og:image" content="">
 
     <link rel="stylesheet" href="/estilos/index-estilo.css">
@@ -177,7 +177,7 @@
 
             <p>Cada reservatório retém a água por um tempo diferente. Esse intervalo chama-se <strong>tempo de residência</strong>. Uma molécula de água na atmosfera fica em média 9 dias antes de cair como chuva. Nos rios, fica semanas a meses. Nos oceanos profundos, pode ficar mais de 3.000 anos. Nas geleiras polares, até 100.000 anos.</p>
 
-            <p>Isso explica por que a poluição dos lençóis freáticos é tão grave: a água que infiltra no solo e chega aos <strong>aquíferos</strong> (reservatórios subterrâneos de água doce) pode ficar ali por séculos. Se contaminarmos, levamos gerações para remediar. O <strong>Aquífero Guarani</strong>, que se estende por Brasil, Argentina, Paraguai e Uruguai com 1,2 milhão de km², abastece milhões de pessoas, mas está sob crescente pressão de exploração excessiva e contaminação agrícola.</p>
+            <p>Isso explica por que a poluição dos lençóis freáticos é tão grave: a água que infiltra no solo e chega aos <strong>aquíferos</strong> (reservatórios subterrâneos de água doce) pode ficar ali por séculos. Se contaminarmos, levamos gerações para remediar. O <span class="termo" data-palavra="Aquífero Guarani" data-definicao="Um dos maiores reservatórios subterrâneos de água doce do mundo, estendendo-se por Brasil, Argentina, Paraguai e Uruguai. Abastece cerca de 200 cidades brasileiras.">Aquífero Guarani</span>, que se estende por Brasil, Argentina, Paraguai e Uruguai com 1,2 milhão de km², abastece cerca de 200 cidades brasileiras e uma população estimada em 15 milhões de pessoas na região onde ocorre, mas está sob crescente pressão de exploração excessiva e contaminação agrícola.</p>
 
             <h3>A floresta que faz chover</h3>
 
@@ -186,6 +186,10 @@
             <p>No Brasil, os chamados <span class="termo" data-palavra="Rios Voadores" data-definicao="Grandes massas de vapor d'água transportadas pelos ventos a partir da Floresta Amazônica. São responsáveis pelas chuvas do Centro-Sul do Brasil.">rios voadores</span> são grandes correntes de vapor transportadas pela Floresta Amazônica para o interior do continente. São eles que carregam a umidade que abastece o Centro-Sul do país. Pesquisadores estimam que a Amazônia libera cerca de 20 bilhões de toneladas de vapor por dia, volume maior do que o Rio Amazonas lança no oceano. Cada hectare de floresta derrubado enfraquece esse sistema e afeta diretamente o abastecimento de cidades como São Paulo, Belo Horizonte e Brasília.</p>
 
             <p>As mudanças climáticas intensificam esse problema. Com o aquecimento global, a evaporação aumenta em algumas regiões e diminui em outras, alterando padrões de chuva que duraram milênios. Regiões que sempre foram úmidas ficam mais secas; regiões áridas recebem chuvas torrenciais imprevisíveis. O ciclo hidrológico não quebra. Ele se desequilibra.</p>
+
+            <h3>A água que você não vê usando</h3>
+
+            <p>Lembra da pergunta do início: quantas vezes você usou água hoje? A resposta real é bem maior do que parece, porque a maior parte da água que consumimos está escondida dentro dos produtos que compramos. Esse consumo indireto tem nome: <span class="termo" data-palavra="Pegada Hídrica" data-definicao="Volume total de água doce usado, direta e indiretamente, para produzir os bens e serviços que uma pessoa consome. Inclui a água usada na produção agrícola e industrial, não só a que sai da torneira.">pegada hídrica</span>. Um quilo de carne bovina consome, em média, 15,5 mil litros de água ao longo de toda a cadeia de produção, da pastagem ao abate. Um hambúrguer sozinho representa cerca de 2.400 litros. Uma camiseta de algodão, mais de 2.500 litros. Você não vê essa água saindo de nenhuma torneira, mas ela foi gasta em algum rio, em algum aquífero, em alguma bacia hidrográfica, muitas vezes bem longe de onde o produto chega até você.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -253,11 +257,15 @@
 
             <h3>A mata ciliar e a saúde dos rios</h3>
 
-            <p>A faixa de vegetação que margeia rios e lagos chama-se <strong>mata ciliar</strong>. Ela filtra os sedimentos e agrotóxicos que escoam das lavouras antes de chegarem ao rio, segura as margens contra erosão e regula a temperatura da água. Quando a mata ciliar é destruída para plantar até a beira do rio, o leito assore, a água esquenta, os peixes desaparecem e as enchentes ficam mais frequentes. O Código Florestal Brasileiro exige a manutenção de faixas mínimas de mata ciliar, mas o cumprimento é fraco em boa parte do território.</p>
+            <p>A faixa de vegetação que margeia rios e lagos chama-se <span class="termo" data-palavra="Mata Ciliar" data-definicao="Faixa de vegetação nativa que margeia rios, lagos e nascentes. Filtra sedimentos e agrotóxicos, segura as margens contra erosão e regula a temperatura da água.">mata ciliar</span>. Ela filtra os sedimentos e agrotóxicos que escoam das lavouras antes de chegarem ao rio, segura as margens contra erosão e regula a temperatura da água. Quando a mata ciliar é destruída para plantar até a beira do rio, o leito assore, a água esquenta, os peixes desaparecem e as enchentes ficam mais frequentes. O Código Florestal Brasileiro exige a manutenção de faixas mínimas de mata ciliar, mas o cumprimento é fraco em boa parte do território.</p>
+
+            <h3>Quando a torneira quase secou: a crise hídrica de São Paulo</h3>
+
+            <p>O exemplo mais lembrado de má gestão de bacia no Brasil recente aconteceu em São Paulo. O Sistema Cantareira, principal manancial da Região Metropolitana, abastecendo à época cerca de 9 milhões de pessoas, entrou em colapso entre 2014 e 2015 depois de um ano com chuvas muito abaixo da média. Em maio de 2014, o volume útil dos reservatórios zerou, e a Sabesp precisou recorrer ao chamado "volume morto", uma reserva de cerca de 480 bilhões de litros que fica abaixo do nível normal de captação e só deveria ser usada em emergências extremas. Em fevereiro de 2015, mesmo somando as duas cotas do volume morto, o sistema chegou a apenas 3,9% de sua capacidade. Faltou chuva, mas também faltou planejamento: os comitês de bacia haviam alertado sobre a fragilidade do sistema anos antes, sem que investimentos suficientes em novos mananciais fossem feitos a tempo.</p>
 
             <h3>A transposição do São Francisco: quem tem razão?</h3>
 
-            <p>Em 2017, o governo concluiu a maior obra hídrica da história do Brasil: a transposição do Rio São Francisco, que desvia parte de suas águas para rios intermitentes do semiárido através de 477 km de canais. O projeto foi defendido como solução para a seca. Foi criticado por não resolver o saneamento básico, por beneficiar mais a agricultura irrigada do que as comunidades pobres e por degradar o próprio São Francisco, já reduzido pela metade em sua vazão em comparação ao século passado. O debate continua: a água chegou, mas chegou para quem?</p>
+            <p>Em 2017, o governo entregou os primeiros trechos da maior obra hídrica da história do Brasil: a transposição do Rio São Francisco, que desvia parte de suas águas para rios intermitentes do semiárido por meio de mais de 700 km de canais, divididos nos eixos Leste e Norte. O projeto segue em fase de complementação até hoje, com obras acessórias ainda em andamento décadas depois de iniciado. Foi defendido como solução para a seca. Foi criticado por não resolver o saneamento básico, por beneficiar mais a agricultura irrigada do que as comunidades pobres e por degradar o próprio São Francisco, já reduzido pela metade em sua vazão em comparação ao século passado. O debate continua: a água chegou, mas chegou para quem?</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -311,6 +319,8 @@
             <p>As <strong>ondas</strong> são geradas pelo atrito do vento sobre a superfície da água. Elas transportam energia, não água. Por isso uma onda não leva objetos do Brasil até a África. Ela transfere a energia do vento até a praia e para por aí. Quanto mais forte o vento e mais extenso o trecho de mar percorrido, maiores as ondas.</p>
 
             <p>As <strong>marés</strong> são variações periódicas do nível do mar causadas pela atração gravitacional da Lua e do Sol. A Lua, por estar mais próxima, exerce o maior efeito. Quando ela está sobre um oceano, puxa a água para cima, formando a maré alta. No lado oposto da Terra, a inércia do planeta também provoca uma elevação. Entre os dois pontos de maré alta, há dois pontos de maré baixa. O ciclo completo dura cerca de 12 horas e 25 minutos.</p>
+
+            <p>Vale distinguir maré de <span class="termo" data-palavra="Tsunami" data-definicao="Série de ondas gigantes geradas por terremotos submarinos, erupções vulcânicas ou deslizamentos no fundo do oceano, e não por vento ou pela Lua. Podem viajar centenas de quilômetros por hora em mar aberto.">tsunami</span>, um erro comum. A maré é lenta, previsível e causada pela gravidade da Lua e do Sol. O tsunami é uma série de ondas violentas causadas por terremotos submarinos, erupções vulcânicas ou deslizamentos no fundo do oceano, não por vento nem por atração gravitacional. Em mar aberto, um tsunami pode viajar a mais de 700 km/h e passar quase despercebido, porque sua altura ali é pequena. O perigo aparece perto da costa, quando a água rasa faz a onda desacelerar e crescer em altura, às vezes ultrapassando 10 metros.</p>
 
             <div class="w3-margin">
                 <img src="tp24F04.png" alt="Mapa das correntes oceânicas do mundo" class="w3-mobile"

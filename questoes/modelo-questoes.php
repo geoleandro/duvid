@@ -230,7 +230,7 @@
                         </a></li>
                         <li><a id="recurso-mapa" href="#" class="qp-recurso-item qp-recurso--inativo" target="_blank">
                             <span class="qp-recurso-icon qp-recurso-icon--blue"><i class="fa fa-brain"></i></span>
-                            <span class="qp-recurso-label">Mapa Mental</span>
+                            <span class="qp-recurso-label">Infográfico</span>
                         </a></li>
                         <li><a id="recurso-glossario" href="#" class="qp-recurso-item qp-recurso--inativo" target="_blank">
                             <span class="qp-recurso-icon qp-recurso-icon--purple"><i class="fa fa-book"></i></span>
@@ -301,7 +301,7 @@
             <button onclick="document.getElementById('modal-mapa').style.display='none'"
                 style="position:fixed; top:12px; right:16px; z-index:9999; background:rgba(0,0,0,0.55); color:#fff; border:none; border-radius:50%; width:40px; height:40px; font-size:22px; cursor:pointer; line-height:1;">&times;</button>
             <div style="overflow:auto; max-height:92vh; text-align:center; padding:8px;">
-                <img id="modal-mapa-img" src="" alt="Mapa Mental"
+                <img id="modal-mapa-img" src="" alt="Infográfico"
                     style="max-width:100%; height:auto; border-radius:12px; box-shadow:0 4px 24px rgba(0,0,0,0.4);">
             </div>
         </div>

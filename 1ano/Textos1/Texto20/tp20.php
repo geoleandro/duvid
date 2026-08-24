@@ -97,7 +97,7 @@
                 <p class="w3-pale-green">Duas cidades podem estar na mesma latitude e ter climas completamente diferentes: uma litorânea e úmida, outra continental e seca, ou uma no nível do mar e outra em uma altitude elevada e fria.</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: além da distância até a linha do Equador, quais outros fatores você imagina que influenciam o clima de um lugar? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -146,7 +146,7 @@
         <!-- BLOCO: Instrumentalizacao (fatores do clima) -->
         <div class="topico">
 
-            <h2> 1. Os Fatores do Clima</h2>
+            <h2> Os Fatores do Clima</h2>
 
             <p>Os <strong>fatores climáticos</strong> são as condições naturais que
                 influenciam o clima de cada região do planeta. Eles ajudam a explicar por que alguns lugares são mais
@@ -156,6 +156,8 @@
                 elementos do clima, como temperatura, umidade, pressão atmosférica,
                 ventos e precipitação.
             </p>
+
+            <p>Vale separar esses fatores em dois grupos, para organizar melhor o raciocínio. Alguns são <strong>estáticos</strong>, ou seja, praticamente fixos para cada lugar: a latitude e a altitude de uma cidade não mudam de um ano para o outro. Outros são <strong>dinâmicos</strong>, isto é, se deslocam e mudam de posição com o tempo, como as massas de ar, as correntes marítimas, os ventos e as monções, que se movem pelo planeta e podem alterar o clima de uma região dependendo da estação do ano ou até do dia. Entender essa diferença ajuda a perceber por que o clima de um lugar tem uma "base" relativamente estável, dada pela latitude e pela altitude, mas também sofre variações sazonais, causadas pelos fatores que se movimentam ao seu redor.</p>
 
             <p> <span class="termo clima" data-palavra="Latitude"
                     data-definicao="Coordenada geográfica que indica a distância de um lugar até a Linha do Equador (0º). É o principal fator que define se o clima de um lugar será quente (perto de 0º) ou frio (perto de 90º).">Latitude</span><br>
@@ -173,6 +175,8 @@
                 escuridão ao longo do ano.
             </p>
 
+            <p>No Equador, o dia e a noite duram sempre cerca de 12 horas cada, o ano inteiro. Já em latitudes muito altas, esse equilíbrio desaparece por completo: em Tromsø, no norte da Noruega, o Sol fica acima do horizonte continuamente por cerca de dois meses no verão, o chamado "sol da meia-noite", e some completamente por quase dois meses no inverno, mergulhando a cidade em noite contínua. É a prova mais extrema de como a latitude também governa a luz, não só a temperatura.</p>
+
             <div class="area">
                 <img alt="Paralelos e latitude, do Equador (0°) aos polos (90°)" class="w3-mobile" id="imagem1" src="tp20f01.png" style="display:block" />
             </div>
@@ -188,6 +192,8 @@
                 nível do mar,
                 mesmo estando próximas aos trópicos.
             </p>
+
+            <p>Um exemplo direto: La Paz, capital administrativa da Bolívia, fica a cerca de 3.640 metros de altitude, o que a torna a capital mais alta do mundo. Mesmo estando bem próxima aos trópicos, sua temperatura média fica em torno de 10°C, muito mais fria do que se esperaria apenas olhando para sua latitude, justamente por causa do efeito da altitude.</p>
 
             <p>Em locais altos, o ar é rarefeito e retém menos calor e umidade.
                 Isso faz com que a variação entre o dia e a noite seja maior: durante o dia, a insolação é intensa e
@@ -208,10 +214,47 @@
         </div>
 
 
+        <!-- BLOCO: Pergunta pratica (latitude x altitude) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Duas cidades estão exatamente na mesma latitude, mas uma fica ao nível do mar e a outra a 3.600 metros de altitude, como La Paz. Qual delas costuma ser mais fria?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1a">
+                        <span>a) a cidade ao nível do mar, pois a pressão atmosférica é maior lá.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto" />
+                    <label class="card-opcao" for="p1b">
+                        <span>b) a cidade de altitude elevada, porque o ar rarefeito retém menos calor.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1c">
+                        <span>c) as duas têm a mesma temperatura, já que estão na mesma latitude.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: quanto maior a altitude, mais rarefeito o ar e menor sua capacidade de reter calor, mesmo perto da linha do Equador.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp1"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
         <!-- BLOCO: Instrumentalizacao (maritimidade e continentalidade) -->
         <div class="topico">
 
-            <h2> 2. Maritimidade e Continentalidade</h2>
+            <h2> Maritimidade e Continentalidade</h2>
 
             <p> Maritimidade</p>
 
@@ -227,6 +270,8 @@
                 um regulador térmico natural.
             </p>
 
+            <p>Isso acontece porque a água tem uma capacidade de armazenar calor muito maior do que o solo e as rochas: ela demora bem mais para esquentar sob o sol e, por isso mesmo, também demora bem mais para esfriar. Um oceano funciona quase como uma bateria térmica gigante, absorvendo calor durante o dia e o verão e liberando-o aos poucos durante a noite e o inverno, o que suaviza as variações de temperatura de tudo que está ao seu redor.</p>
+
             <p>
                 Os oceanos também distribuem <mark>energia</mark> pelo planeta através das
                 correntes marítimas.
@@ -235,6 +280,8 @@
                 Águas quentes aquecem o ar, favorecem a condensação e tornam o clima
                 <em>úmido e chuvoso</em>.
             </p>
+
+            <p>Essas correntes marítimas, que veremos em detalhe mais adiante nesta aula, se formam principalmente por dois motivos: o atrito constante dos ventos sobre a superfície do oceano, que empurra a água na mesma direção que o vento sopra, e as diferenças de temperatura e salinidade entre massas de água, que fazem a água mais densa (fria e salgada) afundar e a mais leve (quente) subir, criando uma lenta circulação que envolve todos os oceanos do planeta.</p>
 
             <div class="w3-panel w3-sand w3-leftbar w3-margin">
                 <p> Curiosidade: o oceano Atlântico Sul influencia diretamente o clima do Brasil.
@@ -273,6 +320,8 @@
                     rigorosamente frios, resultado da forte continentalidade.</p>
             </div>
 
+            <p>O Brasil também mostra esse contraste com clareza. O Rio de Janeiro, na costa, tem temperatura média em torno de 24°C o ano inteiro, com variações suaves entre verão e inverno. Já Cuiabá, no interior do Centro-Oeste, já registrou recordes de mais de 44°C durante o verão, mas nos episódios de friagem, quando uma massa polar atlântica avança forte pelo continente, sua temperatura pode despencar para perto de 13°C em poucas horas: uma amplitude de mais de 30°C que o litoral carioca jamais chega perto de sentir.</p>
+
             <div class="area">
                 <img alt="Amplitude térmica em áreas continentais" class="w3-mobile" id="imagem4" src="tp20f04.png" style="display:block" />
             </div>
@@ -283,10 +332,47 @@
         </div>
 
 
+        <!-- BLOCO: Pergunta pratica (maritimidade x continentalidade) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Por que uma cidade no litoral costuma ter amplitude térmica menor do que uma cidade no interior de um continente, na mesma latitude?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2a">
+                        <span>a) porque o litoral recebe mais chuva o ano todo.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto" />
+                    <label class="card-opcao" for="p2b">
+                        <span>b) porque a água do mar esquenta e esfria mais devagar que o solo, regulando a temperatura do litoral.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2c">
+                        <span>c) porque cidades litorâneas ficam sempre mais próximas do Equador.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: a água funciona como um regulador térmico, é justamente esse o mecanismo por trás da maritimidade.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp2"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
         <!-- BLOCO: Instrumentalizacao (mares) -->
         <div class="topico">
 
-            <h2> 3. Marés</h2>
+            <h2> Marés</h2>
 
             <p>As <span class="termo clima" data-palavra="Marés"
                     data-definicao="Movimentos periódicos de subida e descida do nível do mar, provocados principalmente pela atração gravitacional da Lua e do Sol.">marés</span>
@@ -295,6 +381,8 @@
                 Elas ocorrem principalmente devido à atração gravitacional da Lua
                 e, em menor escala, do Sol.
             </p>
+
+            <p>Um detalhe que costuma confundir: por que existem duas marés altas por dia, uma vez que a Lua está de um único lado da Terra? A resposta é que a atração da Lua gera dois "abaulamentos" de água ao mesmo tempo, um no lado da Terra mais próximo dela, puxado diretamente pela sua gravidade, e outro exatamente no lado oposto, formado porque a Terra inteira é puxada na direção da Lua com mais força do que a água do lado mais distante. Como o planeta gira em torno de seu próprio eixo em 24 horas, cada ponto da costa passa por essas duas saliências de água ao longo do dia, resultando nas duas marés altas e nas duas marés baixas diárias.</p>
 
             <p> Ciclo das Marés<br>
                 - A água sobe durante cerca de 6 horas →
@@ -331,15 +419,57 @@
                 <p class="citacao" style="display:block"> Fonte: Brasil Escola. </p>
             </div>
 
+            <div class="w3-panel w3-sand w3-border w3-round w3-margin">
+                <h4> Recordes de maré</h4>
+                <p>A maior amplitude de maré do mundo acontece na Baía de Fundy, no Canadá, onde a diferença entre a maré alta e a baixa pode chegar a 17 metros, o suficiente para expor quilômetros de fundo do mar duas vezes por dia. No Brasil, o recorde fica com a Baía de São Marcos, no Golfão Maranhense, onde a costa em forma de funil, o mesmo fator local citado acima, empurra a água e produz amplitudes de até 8 metros, entre as maiores do planeta.</p>
+            </div>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (sizigia x quadratura) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Em quais fases da Lua ocorre a maré de sizígia, com a maior amplitude entre maré alta e maré baixa?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="correto" />
+                    <label class="card-opcao" for="p3a">
+                        <span>a) Lua Nova e Lua Cheia.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3b">
+                        <span>b) Quarto Crescente e Quarto Minguante.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3c">
+                        <span>c) apenas na Lua Cheia.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: nessas duas fases, Sol, Terra e Lua ficam alinhados, somando suas forças gravitacionais e produzindo a maior amplitude de maré.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp3"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
         <!-- BLOCO: Instrumentalizacao (massas de ar) -->
         <div class="topico">
 
-            <h2> 4. Massas de Ar</h2>
+            <h2> Massas de Ar</h2>
 
             <p>As <span class="termo clima" data-palavra="Massas de Ar"
                     data-definicao="Grandes porções da atmosfera com características homogêneas de temperatura, pressão e umidade, capazes de se deslocar e alterar o clima de outras regiões.">massas
@@ -361,16 +491,22 @@
                 planícies continentais.
             </p>
 
+            <p>Esse processo de formação não é instantâneo: uma massa de ar pode levar dias ou até semanas parada sobre sua região de origem, absorvendo lentamente a temperatura e a umidade típicas daquele lugar, antes de finalmente se deslocar e influenciar o tempo de outras regiões distantes.</p>
+
             <div class="w3-sand w3-padding w3-round-large w3-margin-top">
-                <p> Classificação das Massas de Ar</p>
+                <p> Classificação das Massas de Ar (Classificação de Bergeron)</p>
                 <ul>
-                    <li>cP – Polar Continental → fria, seca e estável.</li>
-                    <li>mP – Polar Marítima → fria, úmida e instável.</li>
-                    <li>cT – Tropical Continental → quente, seca e instável.</li>
-                    <li>mT – Tropical Marítima → quente, úmida e instável.</li>
-                    <li>cA – Ártica/Antártica Continental → extremamente fria e seca.</li>
+                    <li>cE - Equatorial Continental: quente, úmida e instável.</li>
+                    <li>mE - Equatorial Marítima: quente, úmida e instável.</li>
+                    <li>cT - Tropical Continental: quente, seca e instável.</li>
+                    <li>mT - Tropical Marítima: quente, úmida e instável.</li>
+                    <li>cP - Polar Continental: fria, seca e estável.</li>
+                    <li>mP - Polar Marítima: fria, úmida e instável.</li>
+                    <li>cA - Ártica/Antártica Continental: extremamente fria e seca (uma cP levada ao extremo).</li>
                 </ul>
             </div>
+
+            <p>Repare que o nome de cada massa segue sempre a mesma lógica: primeiro a letra minúscula indica a superfície de origem (continental ou marítima) e depois a letra maiúscula indica a faixa de latitude (Equatorial, Tropical, Polar ou Ártica/Antártica). Foi essa mesma lógica de base que você já viu na aula anterior, ao conhecer as quatro massas de ar que atuam sobre o Brasil, só que ali com uma letra extra para detalhar melhor a origem exata dentro do continente ou do oceano: a mEc, que se forma na própria Amazônia, a mTa, que nasce sobre o Atlântico, a mTc, seca e originada no Chaco, e a mPa, fria e vinda da Patagônia.</p>
 
             <p> Locais de Formação<br>
                 - Oceanos e mares tropicais → massas de ar quentes e úmidas<br>
@@ -388,10 +524,47 @@
         </div>
 
 
+        <!-- BLOCO: Pergunta pratica (classificacao massas de ar) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Seguindo a Classificação de Bergeron, uma massa de ar identificada como "mT" deve apresentar quais características?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4a" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4a">
+                        <span>a) fria e seca.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4b" name="pergunta4" type="radio" value="correto" />
+                    <label class="card-opcao" for="p4b">
+                        <span>b) quente e úmida.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4c" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4c">
+                        <span>c) fria e úmida.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: o \'m\' minúsculo indica origem marítima (úmida) e o \'T\' maiúsculo indica origem tropical (quente).', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp4"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
         <!-- BLOCO: Instrumentalizacao (moncoes) -->
         <div class="topico">
 
-            <h2> 5. Monções</h2>
+            <h2> Monções</h2>
 
             <p>As <span class="termo clima" data-palavra="Monções"
                     data-definicao="Ventos sazonais que ocorrem especialmente no sul e sudeste da Ásia, responsáveis por alternar períodos de intensas chuvas no verão e estiagem no inverno.">monções</span>
@@ -404,7 +577,9 @@
 
             <p>O caso mais conhecido acontece na Índia e no Sudeste Asiático,
                 onde as monções determinam períodos de chuvas intensas no verão
-                e de estiagem no inverno.</p>
+                e de estiagem no inverno. A monção de verão, entre junho e setembro, é responsável por cerca de 70% a 75% de toda a chuva que cai na Índia ao longo do ano inteiro, e quase metade das terras agrícolas do país, sem qualquer sistema de irrigação, depende inteiramente dessas chuvas sazonais para produzir alimento.</p>
+
+            <p>Isso torna a Índia extremamente vulnerável à variação natural das monções de um ano para o outro: uma monção fraca ou atrasada pode significar quebra de safra e insegurança alimentar para uma fração enorme da população do país, enquanto uma monção forte demais pode causar enchentes destrutivas. Por isso, prever o comportamento da monção com antecedência é uma das tarefas mais importantes dos institutos de meteorologia indianos todos os anos.</p>
 
             <div class="w3-sand w3-padding w3-round-large w3-margin-top">
                 <p> Verão (Hemisfério Norte)</p>
@@ -452,7 +627,7 @@
         <!-- BLOCO: Instrumentalizacao (ventos alisios) -->
         <div class="topico">
 
-            <h2> 6. Ventos Alísios</h2>
+            <h2> Ventos Alísios</h2>
 
             <div class="area">
                 <img alt="Formação dos ventos alísios" class="w3-mobile" id="imagem8" src="tp20f08.png" style="display:block" />
@@ -492,9 +667,13 @@
                 bacia amazônica, fertilizando o solo da floresta com minerais africanos.
             </p>
 
+            <p>
+                Satélites da NASA calculam que mais de 27 milhões de toneladas de poeira saem do Saara rumo à Amazônia todos os anos, carregando cerca de 22 mil toneladas de fósforo, um nutriente essencial para as plantas que a floresta perde continuamente com as fortes chuvas. Essa quantidade de fósforo vindo da África é, segundo as estimativas, muito próxima da quantidade que a própria floresta perde por ano, o que sugere que a Amazônia depende dessa "adubação" transatlântica para se manter fértil.
+            </p>
+
             <div class="w3-panel w3-sand w3-leftbar w3-margin">
                 <p><em>Curiosidade: durante séculos, os ventos alísios foram usados por navios à vela como rotas seguras e
-                        rápidas de comércio.</em></p>
+                        rápidas de comércio. O próprio Cristóvão Colombo planejou sua viagem de 1492 em torno deles: partiu das Ilhas Canárias justamente para pegar o corredor dos ventos alísios que soprava rumo ao oeste, o que tornou a travessia até as Américas mais rápida e seus navios chegaram ao Caribe em cerca de dez semanas.</em></p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -502,10 +681,47 @@
         </div>
 
 
+        <!-- BLOCO: Pergunta pratica (efeito coriolis) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Para que lado o Efeito Coriolis desvia o movimento dos ventos no Hemisfério Sul?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5a" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5a">
+                        <span>a) para a direita.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5b" name="pergunta5" type="radio" value="correto" />
+                    <label class="card-opcao" for="p5b">
+                        <span>b) para a esquerda.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5c" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5c">
+                        <span>c) o efeito só existe no Hemisfério Norte.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: o texto diz que a rotação da Terra desvia os ventos para a direita no Hemisfério Norte e para a esquerda no Hemisfério Sul.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp5"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
         <!-- BLOCO: Instrumentalizacao (correntes maritimas) -->
         <div class="topico">
 
-            <h2> 7. Correntes Marítimas</h2>
+            <h2> Correntes Marítimas</h2>
 
             <p><img src="tp20f09.png" style="width:100%;cursor:zoom-in" alt="Correntes marítimas do mundo"
                     onclick="document.getElementById('tp20f09').style.display='block'">
@@ -542,12 +758,14 @@
                 <u>Atlântico</u>, podemos citar as correntes Equatoriais do Norte e do Sul, a Corrente das Guianas (quente)
                 e as correntes das Malvinas e da Guiné (frias). Já no <u>Pacífico</u>, temos a Corrente de Kuroshio, a
                 Corrente
-                do Pacífico Norte, a das Aleutas, a do Peru ou Humboldt e o fenômeno El Niño. Entre as mais importantes
+                do Pacífico Norte, a das Aleutas, a do Peru ou Humboldt e o fenômeno El Niño, um enfraquecimento periódico dessa corrente fria que aquece as águas do Pacífico e altera o clima em escala global, tema que veremos com calma na próxima aula. Entre as mais importantes
                 globalmente estão a Corrente do Golfo, extremamente poderosa e quente, e a
                 Corrente Circumpolar Antártica, uma das maiores do planeta. No Brasil, a
                 Corrente do Brasil transporta um volume de água maior do que o próprio rio Amazonas,
-                mostrando sua grandiosidade.
+                mostrando sua grandiosidade: enquanto a foz do Amazonas despeja cerca de 0,3 Sverdrup no oceano (a unidade usada para medir correntes, equivalente a um milhão de metros cúbicos de água por segundo), a Corrente do Brasil já transporta o equivalente a vários Sverdrups próximo à costa nordestina, um volume que só cresce conforme ela avança rumo ao sul do país.
             </p>
+
+            <p>A Corrente do Golfo, por sinal, é um ótimo exemplo de como a maritimidade e as correntes marítimas trabalham juntas. Lisboa, em Portugal, e Nova York, nos Estados Unidos, ficam em latitudes parecidas, dos dois lados do Atlântico Norte, mas têm invernos bem diferentes: enquanto Lisboa raramente vê a temperatura cair abaixo de 8°C, aquecida pela influência da Corrente do Golfo, Nova York enfrenta nevascas frequentes e temperaturas negativas, já que recebe a influência da fria Corrente do Labrador. Duas cidades quase na mesma latitude, mas com invernos completamente diferentes, tudo por causa da corrente marítima que banha cada litoral.</p>
 
             <p>
                 Essas correntes desempenham um papel essencial para a regulação climática
@@ -557,15 +775,76 @@
                 continentes inteiros.
             </p>
 
+            <p>A Corrente de Humboldt (ou do Peru) mostra bem esse impacto na biodiversidade. Suas águas frias e ricas em nutrientes sobem das profundezas do oceano em um processo chamado ressurgência, alimentando um verdadeiro banquete de plâncton que sustenta uma das maiores áreas pesqueiras do planeta: as costas do Peru e do Chile respondem sozinhas por cerca de 18% a 20% de toda a pesca mundial, boa parte dela de anchovas.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
+        <!-- BLOCO: Instrumentalizacao (sintese dos fatores) -->
+        <div class="topico">
+
+            <h2> Os Fatores Atuando Juntos</h2>
+
+            <p>Agora que você conheceu cada fator separadamente, vale reforçar a ideia central desta aula: nenhum deles atua sozinho. O clima real de um lugar é sempre resultado da combinação de vários fatores ao mesmo tempo, e é justamente essa combinação que explica por que lugares parecidos no mapa podem ter climas tão diferentes.</p>
+
+            <p>Pense em três exemplos que você já conhece: Manaus, próxima ao Equador e sob influência da massa equatorial continental, é quente e úmida o ano inteiro. La Paz, em latitude tropical, deveria ser quente como Manaus, mas sua altitude de mais de 3.600 metros a torna fria. Lisboa, em latitude bem mais alta e mais fria que as duas anteriores, tem invernos surpreendentemente amenos graças à maritimidade e ao calor trazido pela Corrente do Golfo. Latitude parecida, resultados completamente diferentes, tudo por causa dos outros fatores que entram na equação.</p>
+
+            <p>Esse é o tipo de raciocínio mais cobrado em provas como o ENEM: não decorar cada fator isoladamente, mas entender como eles se combinam para explicar uma situação climática real e específica, seja o clima de uma cidade, seja o de uma região inteira do planeta.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+            <p>Escreva o nome da baía, no Canadá, que tem a maior amplitude de maré do mundo, podendo chegar a 17 metros.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'fundy', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Escreva o nome do processo em que a Corrente de Humboldt traz água fria e rica em nutrientes das profundezas do oceano até a superfície, alimentando uma das maiores áreas de pesca do mundo.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1b" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1b"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1b', 'ressurgência', 'resp1b', this, 'globinho1b')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1b" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
+        </div>
+
+
+        <!-- <div class="topico"><h2> Infográfico - Resumo</h2><div class="w3-margin"><img id="inforesumotp20" src="inforesumotp20.webp" alt="Infográfico resumo Fundamentos de Climatologia II" class="w3-mobile"><span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button><hr></div> -->
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Duas cidades na mesma latitude podem ter climas bem diferentes?
@@ -589,7 +868,15 @@
                 Porque a força de maré depende não só da massa do corpo celeste, mas também da sua distância. A Lua está muito mais próxima da Terra do que o Sol, e essa proximidade faz sua atração gravitacional variar mais entre o lado da Terra voltado para ela e o lado oposto, o que é justamente o que gera o efeito de maré. Por isso a Lua tem cerca do dobro da influência do Sol sobre as marés, mesmo sendo imensamente menor.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
+                    Manaus e La Paz ficam praticamente na mesma faixa de latitude, mas uma é quente e a outra é fria. Isso não contradiz tudo que aprendemos sobre latitude?
+                </strong></p>
+
+            <p><span class="primeiraLetra">R:</span>
+                Não contradiz, na verdade confirma o ponto principal desta aula: a latitude é só o ponto de partida, não a explicação completa. Manaus está próxima do nível do mar e sob influência de uma massa de ar quente e úmida, então o efeito da latitude aparece "puro". Já La Paz está a mais de 3.600 metros de altitude, o que introduz um segundo fator, muito mais forte naquele contexto, que sobrepõe o efeito da latitude e derruba a temperatura. Sempre que um fator climático parecer "não bater" com a realidade, é sinal de que outro fator está atuando junto e precisa entrar na conta.
+            </p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -610,7 +897,7 @@
                 <h3>10. Explique como os ventos alísios conectam atmosfericamente a Amazônia e o continente africano, carregando poeira e fumaça entre os dois continentes.</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -627,6 +914,8 @@
                 <p>Você também viu como esses fatores conectam lugares distantes: os ventos alísios ligam a Amazônia à África, as correntes marítimas regulam o litoral brasileiro, e a Lua, mesmo pequena, comanda o ritmo das marés em todo o planeta.</p>
 
                 <p><strong>Resumo dos conceitos:</strong> latitude e altitude; maritimidade e continentalidade; amplitude térmica; marés; massas de ar; monções; ventos alísios e Efeito Coriolis; correntes marítimas.</p>
+
+                <p>Agora que você já sabe quais fatores moldam o clima de cada lugar, a próxima pergunta é: o que acontece quando esse equilíbrio todo começa a mudar? Na próxima aula vamos estudar as mudanças climáticas globais, o aquecimento do planeta, os fenômenos El Niño e La Niña, que alteram temporariamente as correntes marítimas que você acabou de conhecer, e o papel do efeito estufa nesse processo.</p>
 
             </div>
 
@@ -688,6 +977,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

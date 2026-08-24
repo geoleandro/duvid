@@ -36,6 +36,18 @@ body.dark-mode .monitor-brasil-card .mon-header-txt { color:#e0e0e0 !important; 
 /* Dark mode — Painel do aluno (3 cards) */
 body.dark-mode .painel-card { background:#1e2a1e !important; box-shadow:none !important; }
 
+/* Dark mode — elementos internos dos cards da home */
+body.dark-mode #globinhos-badge          { background:#162616 !important; border-color:#2e5e2e !important; }
+body.dark-mode #globinhos-badge-label    { color:#81c784 !important; }
+body.dark-mode #globinhos-badge-valor    { color:#a5d6a7 !important; }
+body.dark-mode #xp-bar-track            { background:#2a2a2a !important; }
+body.dark-mode #turma-info-box          { background:#162616 !important; }
+body.dark-mode #turma-membro-nome       { color:#81c784 !important; }
+body.dark-mode #turma-card-titulo       { color:#81c784 !important; }
+body.dark-mode #turma-card-desc         { color:#aaa !important; }
+body.dark-mode #nome-aluno-texto        { color:#81c784 !important; }
+body.dark-mode #turma-join-input        { background:#252525 !important; border-color:#444 !important; color:#ddd !important; }
+
 /* Dark mode — Cards de trilha (Natureza / Brasil / Mundo)
    Seletor estrutural: não depende de valor de atributo, imune à normalização do JS */
 body.dark-mode #cards-anos .w3-third > a > div,

@@ -44,7 +44,7 @@
     <script src="/js/glossario.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
-    <title>1º ano - Texto 15 - Fontes de energia I – combustíveis fósseis</title>
+    <title>1º ano - Texto 15 - Fontes de energia I - Combustíveis fósseis</title>
 
 </head>
 
@@ -97,7 +97,7 @@
                 <p class="w3-pale-green">Pense na sua casa: a energia elétrica que acende as lâmpadas, o gás do fogão, a gasolina ou o álcool do carro da família.</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: você sabe de onde vem, originalmente, cada uma dessas fontes de energia que você usa no seu dia a dia? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -107,7 +107,7 @@
             <h2>Introdução</h2>
             <p><span class="primeiraLetra">Q</span>uase tudo o que fazemos depende de energia: acender uma lâmpada, cozinhar um alimento, mover um carro ou carregar um celular. Mas de onde vem essa energia, e por que a humanidade ainda depende tanto de petróleo, gás natural e carvão mineral, mesmo sabendo dos danos ambientais que sua queima provoca?</p>
             <p>Nesta aula, vamos entender o que é energia, a diferença entre fontes renováveis e não renováveis, e estudar em detalhe os três principais combustíveis fósseis que movem a economia mundial: o petróleo, o gás natural e o carvão mineral.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -115,7 +115,7 @@
         <!-- BLOCO: Instrumentalizacao (energia o que e) -->
         <div class="topico">
 
-            <h2>Energia – O que é?</h2>
+            <h2>Energia: o que é?</h2>
 
             <div class="area">
                 <img alt="Representações do átomo, unidade fundamental de energia e matéria" class="w3-mobile" id="imagem1" src="tp15f01.png" style="display:block" />
@@ -176,8 +176,45 @@
                 <li><b>Radiação térmica:</b> todos os corpos emitem radiação infravermelha devido à sua temperatura.</li>
             </ul>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (lei da conservacao) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Segundo a Lei da Conservação da Energia, o que acontece quando queimamos um pedaço de carvão?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1a">
+                        <span>a) parte da energia do carvão é destruída no processo.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto" />
+                    <label class="card-opcao" for="p1b">
+                        <span>b) a energia química do carvão é convertida em energia térmica, não destruída.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado" />
+                    <label class="card-opcao" for="p1c">
+                        <span>c) uma nova energia é criada do zero pela reação química.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: energia nunca é criada nem destruída, só muda de forma, de química para térmica, por exemplo.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp1"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho1" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -205,7 +242,7 @@
 
             <p><strong>Ventos</strong><br>
                 A energia eólica é gerada a partir da força dos ventos. Turbinas eólicas capturam a energia do vento e a convertem em eletricidade. O vento é um recurso abundante e constante, principalmente em regiões litorâneas e áreas abertas. A energia eólica é considerada uma das fontes mais limpas e sustentáveis, pois não gera poluição nem resíduos.<br>
-                <em>Exemplo:</em> parques eólicos no nordeste do Brasil, como o Parque Eólico Lagoa do Barro, que geram eletricidade a partir da força dos ventos.</p>
+                <em>Exemplo:</em> parques eólicos no nordeste do Brasil, como o Complexo Eólico Lagoa do Barro, no Piauí, que já soma 277,8 MW de capacidade instalada, e o vizinho Complexo Eólico Lagoa dos Ventos, com 716 MW, o maior parque eólico em operação na América do Sul.</p>
 
             <p><strong>Biomassa</strong><br>
                 A biomassa refere-se à energia derivada de material orgânico, como madeira, resíduos agrícolas, lixo orgânico e até algas. Esse material pode ser queimado para gerar calor ou transformado em biocombustíveis, como o etanol e o biodiesel. A principal vantagem da biomassa é que ela pode ser gerada a partir de resíduos, ajudando a reduzir o desperdício e a poluição.<br>
@@ -213,7 +250,7 @@
 
             <p><strong>Energia Solar</strong><br>
                 A energia solar é gerada a partir da radiação solar. Ela pode ser captada por painéis fotovoltaicos, que convertem a luz solar diretamente em eletricidade, ou por coletor solar, que converte o calor solar em energia térmica. A energia solar é uma das fontes mais promissoras de energia renovável, pois o sol é uma fonte praticamente ilimitada e disponível em grande parte do planeta.<br>
-                <em>Exemplo:</em> painéis solares instalados em residências ou grandes usinas solares, como a Usina Solar de Curuá, no Brasil.</p>
+                <em>Exemplo:</em> painéis solares instalados em residências ou grandes usinas solares, como o Complexo Solar Janaúba, no norte de Minas Gerais, o maior parque fotovoltaico do Brasil, com capacidade de 1,2 GWp distribuída em 20 parques solares e capacidade para abastecer mais de 1,5 milhão de residências.</p>
 
             <p><strong><span class="termo" data-palavra="Energias Não Renováveis"
                         data-definicao="Fontes de energia com disponibilidade limitada, que não se renovam a uma taxa suficiente para acompanhar o ritmo de consumo. Geralmente associadas à queima de combustíveis fósseis.">Energias
@@ -238,15 +275,54 @@
                 O gás natural é uma fonte de energia composta principalmente por metano, sendo formado da mesma maneira que o petróleo, através da decomposição de matéria orgânica. Ele é considerado menos poluente do que o carvão e o petróleo, mas, ainda assim, a sua queima libera CO2. O gás natural é utilizado principalmente para gerar eletricidade, aquecer ambientes e como combustível para veículos. No entanto, a falta de infraestrutura necessária, como gasodutos, limita sua distribuição.<br>
                 <em>Exemplo:</em> usinas termelétricas que utilizam gás natural, como as localizadas no estado do Rio de Janeiro, ou sua utilização como combustível em carros e ônibus.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p><strong>E o Brasil, nessa conta?</strong> O país é uma exceção interessante no cenário mundial. Segundo o Balanço Energético Nacional de 2025, divulgado pela Empresa de Pesquisa Energética (EPE), 88,2% de toda a eletricidade gerada no Brasil em 2024 veio de fontes renováveis, com a energia hidráulica sozinha respondendo por 56,1% do total, e eólica e solar somadas já alcançando 23,7%. Quando se olha para a matriz energética completa, incluindo não só eletricidade mas também combustíveis usados em transporte e indústria, essa participação renovável cai para cerca de 50%, ainda assim, bem acima da média mundial, que gira em torno de 13% a 15%. Essa diferença explica por que o Brasil discute a transição energética a partir de um ponto de partida bem mais favorável do que a maioria dos países.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (renovavel x nao renovavel) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>O que define uma fonte de energia como "não renovável"?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2a">
+                        <span>a) ela sempre é mais poluente que qualquer fonte renovável.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto" />
+                    <label class="card-opcao" for="p2b">
+                        <span>b) ela não se renova em uma velocidade compatível com o ritmo de consumo humano.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado" />
+                    <label class="card-opcao" for="p2c">
+                        <span>c) ela só pode ser usada para gerar eletricidade.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: o carvão, o petróleo e o gás levam milhões de anos para se formar, um ritmo bem mais lento que o nosso consumo.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp2"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
         <!-- BLOCO: Instrumentalizacao (combustiveis o que sao) -->
         <div class="topico">
 
-            <h2>Combustíveis – O que são?</h2>
+            <h2>Combustíveis: o que são?</h2>
 
             <div class="area">
                 <img alt="Emissão de CO2 associada à queima de combustíveis" class="w3-mobile" id="imagem4" src="tp15f04.png" style="display:block" />
@@ -283,11 +359,13 @@
                 Os biocombustíveis são fontes de energia renováveis derivadas de matéria orgânica, como vegetais e resíduos orgânicos. O etanol (produzido a partir da cana-de-açúcar) e o biodiesel (feito a partir de óleos vegetais ou gordura animal) são os exemplos mais comuns. Os biocombustíveis têm a vantagem de serem mais sustentáveis em comparação com os combustíveis fósseis, pois podem ser produzidos de forma renovável. Contudo, sua produção também pode ter impactos ambientais, como desmatamento e uso excessivo de recursos naturais.<br>
                 <em>Exemplo:</em> etanol utilizado como combustível em veículos no Brasil.</p>
 
+            <p>O Brasil é pioneiro nesse tipo de combustível: em 1975, o governo lançou o Proálcool, programa criado em resposta às crises internacionais do petróleo da década de 1970, para estimular a produção de etanol a partir da cana-de-açúcar e reduzir a dependência do petróleo importado. O programa deu origem à frota de carros a álcool e, mais tarde, aos motores flex, capazes de rodar com qualquer proporção de gasolina e etanol. Hoje, toda a gasolina vendida no país é obrigatoriamente misturada com etanol anidro, mistura que o Conselho Nacional de Política Energética elevou para 32% em 2026, e o diesel comercializado leva uma mistura obrigatória de 15% de biodiesel (o chamado B15), com testes em andamento para elevar esse percentual ainda mais nos próximos anos.</p>
+
             <p><strong>Impactos Ambientais dos Combustíveis Fósseis</strong><br>
                 Embora os combustíveis fósseis, como o carvão, o petróleo e o gás natural, desempenhem um papel vital na geração de energia e no desenvolvimento industrial, sua queima libera grandes quantidades de dióxido de carbono (CO2), um dos principais gases do efeito estufa. Isso contribui para o aquecimento global, a mudança climática e outros problemas ambientais, como a poluição do ar e chuvas ácidas. Além disso, a extração desses combustíveis pode causar danos aos ecossistemas, como o desmatamento e a contaminação dos corpos d'água.<br>
                 Por esse motivo, muitos países estão tentando reduzir a dependência de combustíveis fósseis e adotar fontes de energia mais limpas e sustentáveis, como as energias renováveis. O objetivo é diminuir o impacto ambiental e garantir uma oferta de energia mais segura e sustentável para as gerações futuras.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -323,8 +401,45 @@
                 <li>A extração e o uso do petróleo geram impactos ambientais significativos, como o aumento da poluição do ar, o aquecimento global e mudanças climáticas, além de riscos de derramamentos e contaminação de ecossistemas.</li>
             </ul>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (destilacao fracionada) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Por que a destilação fracionada consegue separar o petróleo em gasolina, diesel, querosene e outros produtos diferentes?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3a">
+                        <span>a) porque cada produto tem uma cor diferente.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto" />
+                    <label class="card-opcao" for="p3b">
+                        <span>b) porque cada componente do petróleo evapora e se separa em uma temperatura diferente.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado" />
+                    <label class="card-opcao" for="p3c">
+                        <span>c) porque cada produto é extraído de um poço de petróleo diferente.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: a refinaria aquece o petróleo, e cada hidrocarboneto vira vapor e se separa num ponto de ebulição próprio.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp3"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -353,8 +468,45 @@
                 <li>A falta de infraestrutura necessária, como gasodutos, para distribuir o gás natural em algumas regiões dificulta seu acesso e uso em larga escala, especialmente em áreas mais afastadas ou rurais.</li>
             </ul>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO: Pergunta pratica (gas natural ponte) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Por que o gás natural costuma ser chamado de combustível "ponte" na transição energética?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4a" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4a">
+                        <span>a) porque é transportado principalmente por pontes e viadutos.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4b" name="pergunta4" type="radio" value="errado" />
+                    <label class="card-opcao" for="p4b">
+                        <span>b) porque é uma fonte renovável assim como o vento e o sol.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p4c" name="pergunta4" type="radio" value="correto" />
+                    <label class="card-opcao" for="p4c">
+                        <span>c) porque polui menos que carvão e petróleo, mas ainda é fóssil e finito.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: ele ajuda a reduzir emissões enquanto o mundo não troca de vez para fontes 100% renováveis, mas não é a solução final.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp4"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
         </div>
 
 
@@ -392,31 +544,156 @@
                 <li>É uma fonte de energia altamente poluente, provocando chuva ácida e problemas respiratórios, além de contribuir significativamente para as mudanças climáticas.</li>
             </ul>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
 
-        <!-- BLOCO: Instrumentalizacao (protocolo de cartagena) -->
+        <!-- BLOCO: Pergunta pratica (classificacao carvao) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual é a ordem correta de transformação do carvão mineral, do menor para o maior grau de transformação?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5a" name="pergunta5" type="radio" value="correto" />
+                    <label class="card-opcao" for="p5a">
+                        <span>a) turfa → linhito → hulha → antracito.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5b" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5b">
+                        <span>b) antracito → hulha → linhito → turfa.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p5c" name="pergunta5" type="radio" value="errado" />
+                    <label class="card-opcao" for="p5c">
+                        <span>c) hulha → turfa → antracito → linhito.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: quanto mais tempo, pressão e calor a matéria orgânica recebe, maior o grau de transformação, até chegar ao antracito.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp5"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (acordos climaticos internacionais) -->
         <div class="topico">
 
-            <h2> O Protocolo de Cartagena</h2>
+            <h2>Acordos Climáticos Internacionais</h2>
 
-            <p>O <span class="termo" data-palavra="Protocolo de Cartagena"
-                    data-definicao="Acordo internacional adotado em 2000, sob a Convenção sobre Diversidade Biológica, que busca proteger a biodiversidade e garantir segurança no comércio e uso de organismos geneticamente modificados (OGMs).">Protocolo
-                    de Cartagena</span> é um acordo internacional criado para proteger a biodiversidade e garantir a segurança no comércio e utilização de organismos geneticamente modificados (OGMs). Ele foi adotado em 2000, sob a Convenção sobre Diversidade Biológica, e tem como objetivo prevenir riscos à saúde humana e ao meio ambiente decorrentes da liberação de OGMs no meio ambiente.</p>
+            <p>Se a queima de combustíveis fósseis é o principal motor do aquecimento global, era de se esperar que a comunidade internacional tentasse fazer algo a respeito. E tentou, ao longo das últimas três décadas, por meio de uma série de acordos climáticos negociados dentro da ONU.</p>
 
-            <p>Embora o Protocolo de Cartagena não esteja diretamente relacionado aos combustíveis fósseis, ele é relevante quando falamos de sustentabilidade e políticas globais. O acordo reflete a crescente preocupação com as práticas que podem afetar a biodiversidade, incluindo a produção e o uso de energias, como a agricultura de biocombustíveis, que pode envolver o uso de organismos geneticamente modificados. Dessa forma, ele ajuda a entender como as políticas internacionais buscam equilibrar o desenvolvimento energético com a preservação ambiental.</p>
+            <p>O primeiro grande tratado foi o <span class="termo" data-palavra="Protocolo de Quioto"
+                    data-definicao="Acordo internacional adotado em 1997, na cidade japonesa de Quioto, que estabeleceu metas obrigatórias de redução de gases do efeito estufa para os países desenvolvidos, entrando em vigor em 2005.">Protocolo
+                    de Quioto</span>, adotado em 1997 na cidade japonesa que lhe dá o nome e em vigor a partir de 2005. Ele estabeleceu metas obrigatórias de redução de gases do efeito estufa, como o CO2 do carvão e do petróleo, mas apenas para os países desenvolvidos, responsáveis históricos pela maior parte das emissões acumuladas desde a Revolução Industrial. A meta do primeiro período de compromisso (2008-2012) era reduzir, em conjunto, pelo menos 5% das emissões em relação aos níveis de 1990.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <p>Em 2015, o Protocolo de Quioto foi substituído pelo <span class="termo" data-palavra="Acordo de Paris"
+                    data-definicao="Tratado climático assinado em 2015 por 195 países, com o objetivo de manter o aumento da temperatura média global abaixo de 2°C, e se possível abaixo de 1,5°C, em relação aos níveis pré-industriais.">Acordo
+                    de Paris</span>, assinado por 195 países durante a COP21. Diferente de seu antecessor, o Acordo de Paris não distingue apenas países ricos: todos os signatários, ricos ou pobres, se comprometem com metas próprias de redução de emissões, chamadas de Contribuições Nacionalmente Determinadas. O objetivo central é manter o aumento da temperatura média do planeta abaixo de 2°C em relação aos níveis pré-industriais, e, se possível, abaixo de 1,5°C, o que exigiria reduzir drasticamente a dependência global de petróleo, gás e carvão.</p>
+
+            <p>Em novembro de 2025, o Brasil sediou a COP30, em Belém, no Pará, a primeira conferência do clima da ONU realizada na Amazônia. O encontro terminou com um acordo que reforça o compromisso de triplicar o financiamento para adaptação climática até 2035, mas, apesar da pressão de dezenas de países e da União Europeia, o texto final não incluiu nenhuma menção explícita à eliminação gradual dos combustíveis fósseis, um resultado que decepcionou organizações ambientais e evidenciou como a resistência de grandes exportadores de petróleo ainda trava o avanço das negociações climáticas globais.</p>
+
+            <p>Esses acordos mostram um padrão importante: o mundo inteiro já reconhece, oficialmente, que os combustíveis fósseis precisam ser substituídos, mas o ritmo dessa transição segue sendo objeto de disputa entre países que dependem economicamente do petróleo, do gás e do carvão e países que sofrem os efeitos mais graves das mudanças climáticas.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
+
+
+        <!-- BLOCO: Pergunta pratica (quioto x paris) -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual a principal diferença entre o Protocolo de Quioto e o Acordo de Paris?</b></h4>
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6a" name="pergunta6" type="radio" value="errado" />
+                    <label class="card-opcao" for="p6a">
+                        <span>a) o Acordo de Paris não trata de combustíveis fósseis.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6b" name="pergunta6" type="radio" value="correto" />
+                    <label class="card-opcao" for="p6b">
+                        <span>b) Quioto só exigia metas dos países desenvolvidos; Paris envolve todos os países.</span>
+                    </label>
+                </div>
+                <div class="item-resposta">
+                    <input class="radio-duvid" id="p6c" name="pergunta6" type="radio" value="errado" />
+                    <label class="card-opcao" for="p6c">
+                        <span>c) o Protocolo de Quioto ainda está em vigor e substituiu o Acordo de Paris.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'Dica: Quioto dividia o mundo entre países ricos (com metas) e pobres (sem metas); Paris pede um esforço de todos.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+            <p class="w3-center w3-padding w3-large" id="resp6"></p>
+            <div class="area w3-center">
+                <img height="64" id="globinho6" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+        </div>
+
+
+        <!-- BLOCO: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+            <p>Escreva o nome da fonte de energia fóssil que se forma, sobretudo, a partir de restos de vegetais soterrados em pântanos.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'carvão', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Escreva o nome do tratado climático de 2015 que reúne 195 países em torno da meta de manter o aquecimento global abaixo de 2°C.</p>
+            <div class="w3-margin">
+                <input class="input" id="q1b" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1b"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1b', 'acordo de paris', 'resp1b', this, 'globinho1b')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1b" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
+        </div>
+
+
+        <!-- <div class="topico"><h2> Infográfico - Resumo</h2><div class="w3-margin"><img id="inforesumotp15" src="inforesumotp15.webp" alt="Infográfico resumo Fontes de energia I - combustíveis fósseis" class="w3-mobile"><span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button><hr></div> -->
 
 
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Se as energias renováveis são mais limpas e o vento e o sol são gratuitos, por que o mundo ainda depende tanto de petróleo, gás e carvão?
@@ -440,7 +717,7 @@
                 Não. O gás natural emite menos CO2 que o carvão e o petróleo ao ser queimado, mas continua sendo um combustível fóssil, finito e emissor de gases do efeito estufa. Além disso, vazamentos durante a extração e o transporte liberam metano diretamente na atmosfera, um gás com efeito estufa ainda mais potente que o CO2 em curtos períodos. Por isso o gás natural costuma ser tratado como uma "ponte" para fontes renováveis, e não como uma solução definitiva.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -461,7 +738,7 @@
                 <h3>10. Por que é importante buscar fontes de energia renováveis e o que pode ser feito para reduzir a dependência de combustíveis fósseis?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -477,7 +754,9 @@
 
                 <p>Petróleo, gás natural e carvão mineral movem a economia mundial, mas sua queima libera CO2 e outros poluentes que aceleram o aquecimento global, o que explica por que tantos países buscam, hoje, expandir as fontes renováveis, água, vento, biomassa e sol.</p>
 
-                <p><strong>Resumo dos conceitos:</strong> energia e suas formas (química, mecânica, térmica, elétrica); energias renováveis e não renováveis; combustíveis e biocombustíveis; petróleo, gás natural e carvão mineral; impactos ambientais dos combustíveis fósseis.</p>
+                <p><strong>Resumo dos conceitos:</strong> energia e suas formas (química, mecânica, térmica, elétrica); energias renováveis e não renováveis; combustíveis e biocombustíveis; petróleo, gás natural e carvão mineral; impactos ambientais dos combustíveis fósseis; Protocolo de Quioto e Acordo de Paris.</p>
+
+                <p>Vimos aqui o lado não renovável da matriz energética mundial. Mas e o outro lado, o das fontes que a natureza repõe sozinha? Na próxima aula, vamos conhecer em detalhe as energias renováveis que podem, aos poucos, substituir os combustíveis fósseis: biomassa, eólica, solar, hidráulica, geotérmica e maremotriz.</p>
 
             </div>
 
@@ -542,6 +821,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

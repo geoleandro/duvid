@@ -50,7 +50,7 @@
     <script src="/js/texto-painel.js" defer></script>
 
 
-    <title>1º ano - Texto 11</title>
+    <title>1º ano - Texto 11 - Dinâmica Externa do Relevo</title>
 
 </head>
 
@@ -103,7 +103,7 @@
                 <p class="w3-pale-green">Faça uma lista em seu caderno sobre o que já ouviu falar sobre esse assunto: intemperismo, erosão e seus tipos, deslizamentos de terra.</p>
                 <p class="w3-pale-green">Anote em seu <strong>caderno</strong>: o que você gostaria de saber mais sobre como o vento, a água e o gelo transformam as rochas e o relevo? Guarde sua resposta, vamos retomá-la ao final da aula.</p>
             </div>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -115,7 +115,7 @@
             <p>Nesta lição, veremos os agentes externos que moldam a superfície terrestre (água, vento, geleiras etc.), ao provocar alterações físicas e químicas nas rochas.</p>
             <p><strong>Esta aula responde a uma pergunta que explica desde o formato de um cânion até um simples buraco na estrada: se a crosta terrestre é feita de rocha sólida, o que consegue quebrá-la, dissolvê-la e transportá-la para formar as paisagens que vemos hoje?</strong></p>
             <p>Ao final, você compreenderá como funciona o intemperismo, o processo de erosão, transporte e sedimentação, e a importância do conhecimento do relevo para a sociedade.</p>
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -164,7 +164,7 @@
                 </ul>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -195,7 +195,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'boa, quando o ferro entra em contato com o ar, ele oxida, perde elétrons, ganhou seu primeiro globinho', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Dica: em contato com o ar e a umidade, o ferro oxida e perde elétrons, formando ferrugem.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -232,7 +232,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'certo, já vamos descobrir como a erosão eólica gerou essas formas de relevo', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Dica: o vento e as ondas desgastam a rocha aos poucos, esculpindo falésias e outros relevos costeiros.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -258,7 +258,7 @@
 
             <p>Os intemperismos físico e químico atuam juntos, reforçando um ao outro. Enquanto o físico quebra o material rochoso em pedaços menores, seu parceiro nesse processo, o químico, pode dissolvê-lo sem grandes problemas.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -272,7 +272,7 @@
 
             <p>O primeiro deles é o <strong>clima</strong>, representado pelas mudanças de temperatura e pela distribuição das chuvas. Depois temos o <strong>relevo</strong>, que, dependendo de sua inclinação, afeta diretamente a infiltração das águas pluviais (chuvas). O tipo de <strong>fauna</strong> e <strong>flora</strong> também interfere no grau de intemperismo, pois eles fornecem matéria orgânica para as relações químicas. O tipo de <strong>rocha matriz</strong> influencia devido a sua resistência aos processos intempéricos. E o <strong>tempo</strong> de exposição das rochas aos agentes externos também é determinante. (Fonte: Teixeira, 2009, adaptado).</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -330,7 +330,7 @@
 
             <p>Resumindo: o intemperismo físico abre o caminho e facilita o intemperismo químico.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -404,7 +404,7 @@
             </div>
             <p class="citacao" id="citacao7" style="display:block"> Paisagem típica de relevo cárstico. Fonte: Wikipedia. </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -448,7 +448,7 @@
             </div>
             <p class="citacao" id="citacao10" style="display:block"> Alteração nos blocos e ruínas de calcário nas colunas estilo grego de 2.500 anos, em Segesta, Itália. Fonte: Wikiwand. </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -479,7 +479,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'certo, o fóssil é, na realidade, um fenômeno que se contrapõe ao intemperismo', '10')">
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Dica: o fóssil se forma justamente quando o material fica protegido do intemperismo, não exposto a ele.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -516,7 +516,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'beleza, o intemperismo químico aumenta devido à quantidade de chuva', '10')">
+                    onclick="validarRadio(this, 'pergunta4', 'resp4', 'globinho4', 'Dica: calor e umidade aceleram as reações químicas que dissolvem os minerais das rochas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -540,7 +540,7 @@
 
             <p>A erosão, portanto, trabalha junto com o intemperismo: desgasta e transporta as rochas alteradas, e novas rochas que antes estavam escondidas são expostas, renovando o ciclo de alteração das paisagens.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -562,7 +562,7 @@
 
             <p>Quando vemos nossas calçadas repletas de lama vindas de um morro acima, por exemplo, temos aí o transporte e, após isso, a deposição.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -590,7 +590,7 @@
 
             <p>Com o tempo, essas curvas, desde a nascente até onde o rio deságua (foz), formam uma planície de inundação, isto é, um terreno plano entre penhascos íngremes. O rio atinge sua maturidade.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -622,7 +622,7 @@
 
             <p>Da mesma forma, temos a erosão marinha, realizada pelo movimento constante das ondas do mar, provocando a abrasão dos paredões rochosos no litoral, com a formação das falésias. Essa erosão forma as praias, as restingas e os tômbolos (veremos no capítulo sobre as formas do relevo marinho).</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -632,7 +632,7 @@
 
             <h2>Erosão Glacial</h2>
 
-            <p>O Planeta já registrou diversas eras do gelo, desde a Pangeia até o Quaternário, sendo que a última era glacial terminou há cerca de 12 mil anos.</p>
+            <p>O Planeta já registrou diversas eras glaciais ao longo de sua história, a mais antiga delas ainda na época do supercontinente Gondwana, centenas de milhões de anos atrás. A mais recente terminou há cerca de 11.700 anos, marcando o início do Holoceno, a época geológica atual, dentro do período Quaternário.</p>
 
             <p>O que é uma geleira?</p>
 
@@ -663,7 +663,7 @@
 
             <p>Após ter visto o processo erosivo da ação da água e das geleiras, veremos como a ação do vento molda as paisagens terrestres.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -722,7 +722,27 @@
 
             <p>Veremos com mais detalhes os impactos da atividade humana no meio geográfico no capítulo sobre a questão ambiental.</p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO: Instrumentalizacao (erosao antropica) -->
+        <div class="topico">
+
+            <h2>Erosão antrópica: quando o próprio ser humano esculpe o relevo</h2>
+
+            <p>Até aqui, vimos agentes naturais: água, vento e gelo. Mas existe um agente de erosão que age mais rápido do que qualquer um deles, e que também molda o relevo em uma escala impressionante: o próprio ser humano.</p>
+
+            <p>Chamamos de <span class="termo" data-palavra="Erosão Antrópica"
+                    data-definicao="Modificação do relevo causada pela ação humana, ao construir cidades e estradas, desviar rios, remover vegetação ou explorar minérios, acelerando e alterando o ciclo natural de erosão.">erosão
+                    antrópica</span> a modificação do relevo causada por atividades humanas: a construção de cidades e estradas, o desvio de cursos de rios, a retirada de material das rochas em mineração e a derrubada de florestas. Essas ações podem acelerar processos que, sem a interferência humana, levariam milhares ou milhões de anos.</p>
+
+            <p>Em áreas urbanas, é comum que morros inteiros sejam removidos da paisagem para dar lugar a bairros e avenidas, enquanto rios, lagos e mangues são aterrados para ganhar espaço construído. O resultado dessa ação é chamado de <strong>relevo tecnogênico</strong>: uma forma de relevo que não existiria sem a intervenção humana direta, seja para construir, seja para destruir uma estrutura natural preexistente.</p>
+
+            <p>No Brasil, um exemplo comum é o corte de encostas para a construção de estradas e bairros, que remove a vegetação e a camada de solo que protegiam a rocha, deixando-a exposta e mais vulnerável tanto ao intemperismo quanto à erosão hídrica. É por isso que encostas desmatadas apresentam risco maior de deslizamentos durante períodos de chuva intensa: a atividade humana já fragilizou o terreno antes mesmo de a chuva começar.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -753,7 +773,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'acertou, o tempo geológico é muito amplo em relação ao nosso tempo histórico', '10')">
+                    onclick="validarRadio(this, 'pergunta5', 'resp5', 'globinho5', 'Dica: quanto mais tempo de exposição, maior o efeito acumulado do intemperismo sobre a rocha.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -790,7 +810,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'boa, esse processo pode modelar diversas formas de relevo', '10')">
+                    onclick="validarRadio(this, 'pergunta6', 'resp6', 'globinho6', 'Dica: o vento arranca partículas de areia e as lança contra a rocha, esculpindo-a aos poucos.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -827,7 +847,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'beleza, essa foi tranquila', '10')">
+                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'Dica: ravinas são canais menores; quando aprofundam e se alargam, viram voçorocas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -864,7 +884,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta8', 'resp8', 'globinho8', 'opa, essa foi fácil!', '10')">
+                    onclick="validarRadio(this, 'pergunta8', 'resp8', 'globinho8', 'Dica: sedimentação é o depósito final do material transportado pela erosão, geralmente em áreas mais baixas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -895,7 +915,7 @@
             </div>
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta9', 'resp9', 'globinho9', 'ótimo, o intemperismo biológico está relacionado ao físico da mesma forma', '10')">
+                    onclick="validarRadio(this, 'pergunta9', 'resp9', 'globinho9', 'Dica: raízes, escavações de animais e ácidos de organismos também desgastam e alteram as rochas.', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -906,10 +926,21 @@
         </div>
 
 
+        <!-- <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp11" src="inforesumotp11.webp"
+                    alt="Infográfico resumo Dinâmica externa do relevo" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div> -->
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
-            <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
+            <h2 id="centralizado"> Não existe pergunta boba, existe pergunta que não foi feita!</h2>
 
             <p class="w3-border w3-round-large"> <span class="primeiraLetra">P:</span> <strong>
                     Qual a relação entre intemperismo e clima?
@@ -933,7 +964,7 @@
                 Uma vez que o intemperismo alterou e deixou "afrouxado" o solo, a gravidade se encarrega de empurrá-lo ladeira abaixo. Também estão relacionados aos problemas dos deslizamentos nas encostas o clima, a topografia (forma, inclinação e altitude do terreno), o tipo de rocha e solo, e a maneira de ocupação da área pela população do entorno.
             </p>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -954,7 +985,7 @@
                 <h3>10. Qual é o impacto da erosão no uso do solo para a agricultura?</h3>
             </div>
 
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -970,7 +1001,9 @@
 
                 <p>Você também viu que os mesmos processos que esculpem cavernas, dunas e fiordes ao longo de milhões de anos são os que, em escala humana, causam voçorocas e deslizamentos de encosta. Entender essa dinâmica é essencial para planejar cidades, estradas e áreas de cultivo sem degradar o meio em que vivemos.</p>
 
-                <p><strong>Resumo dos conceitos:</strong> intemperismo físico e químico; amplitude térmica e esfoliação; relevo cárstico; erosão (hídrica, glacial e eólica); ravinas e voçorocas; regolito e sedimentação.</p>
+                <p><strong>Resumo dos conceitos:</strong> intemperismo físico e químico; amplitude térmica e esfoliação; relevo cárstico; erosão (hídrica, glacial e eólica); ravinas e voçorocas; erosão antrópica e relevo tecnogênico; regolito e sedimentação.</p>
+
+                <p>Com a dinâmica interna e a dinâmica externa do relevo, você já reúne as ferramentas para entender como qualquer paisagem se forma. Na próxima etapa, vamos revisar tudo o que vimos nas Aulas 07 a 11 antes de seguir para o Ciclo das Rochas, quando descobriremos como as rochas magmáticas, sedimentares e metamórficas se transformam umas nas outras ao longo do tempo geológico.</p>
 
             </div>
 
@@ -1031,6 +1064,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

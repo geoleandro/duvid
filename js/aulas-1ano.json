@@ -18,7 +18,8 @@
       "AmadoCapitaesAreia",
       "RamosVidasSecas",
       "DefoeRobinsonCrusoe"
-    ]
+    ],
+    "mapaMental": "1ano/Textos1/Texto01/inforesumotp1.webp"
   },
   {
     "id": 102,
@@ -80,7 +81,7 @@
     "livros": [
       "BorgesRigorCiencia",
       "CalvinoCidadesInvisiveis",
-      "SwiftGulliverEscala"
+      "SwiftViagensGulliver"
     ],
     "mapaMental": "1ano/Textos1/Texto04/inforesumotp4.webp"
   },
@@ -197,7 +198,8 @@
       "Vesentini",
       "BNCC"
     ],
-    "livros": ["SaramagoJangadaDePedra", "KleistTerremotoNoChile", "BulwerLyttonUltimosDiasDePompeia"]
+    "livros": ["SaramagoJangadaDePedra", "KleistTerremotoNoChile", "BulwerLyttonUltimosDiasDePompeia"],
+    "mapaMental": "1ano/Textos1/Texto09/inforesumotp9.webp"
   },
   {
     "id": 110,
@@ -228,11 +230,16 @@
     "id": 111,
     "titulo": "Dinâmica externa do relevo",
     "imagem": "fotoIndex/1ano/aula11.webp",
-    "conteudo": "Agentes externos: água, gelo, vento; Intemperismo físico e químico; Erosão e sedimentação.",
+    "conteudo": "Agentes externos: água, gelo, vento; Intemperismo físico e químico; Erosão (hídrica, glacial, eólica e antrópica) e sedimentação.",
     "linkTexto": "1ano/Textos1/Texto11/tp11.php?id=111",
     "linkQuestoes": "questoes/modelo-questoes.php?id=111",
     "objetivo": "Entender o papel das forças externas na configuração das estruturas e formas do relevo terrestre. Distinguir entre intemperismo físico e químico e seus fatores. Identificar os fatores do intemperismo. Descrever os diferentes tipos de erosão.",
     "audio": null,
+    "links": [
+      "NatGeoDesastrePetropolis",
+      "AgenciaBrasilVocorocasBuriticupu",
+      "SemeiaParqueVilaVelha"
+    ],
     "bibliografia": [
       "Borrero",
       "Press",
@@ -241,7 +248,8 @@
       "Teixeira",
       "Wicander",
       "BNCC"
-    ]
+    ],
+    "livros": ["SteinbeckAsVinhasDaIra", "RamosVidasSecas", "TwainAsAventurasDeTomSawyer"]
   },
   {
     "id": 112,
@@ -262,6 +270,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=113",
     "objetivo": "Diferenciar os tipos de rochas com base em seu processo de formação. Classificar tipos e texturas das rochas ígneas. Compreender o processo de formação das rochas sedimentares. Analisar as rochas metamórficas e seu processo de formação. Entender o ciclo das rochas.",
     "audio": null,
+    "links": [
+      "SGBVarvitos",
+      "CartaCapitalDiamantina",
+      "AquiNoticiasCachoeiroMarmore"
+    ],
     "bibliografia": [
       "Borrero",
       "Fredette",
@@ -270,7 +283,8 @@
       "Teixeira",
       "Wicander",
       "BNCC"
-    ]
+    ],
+    "livros": ["HaggardAsMinasDoReiSalomao", "ZolaGerminal", "CoelhoOAlquimista"]
   },
   {
     "id": 114,
@@ -289,6 +303,16 @@
       "Vesentini",
       "Wicander",
       "BNCC"
+    ],
+    "links": [
+      "FapespMontanhasBrasil",
+      "AgenciaBrasilTupiPreSal",
+      "SIGEPGrutaLagoAzul"
+    ],
+    "livros": [
+      "MannAMontanhaMagica",
+      "SpyriHeidi",
+      "RosaGrandeSertaoVeredas"
     ]
   },
   {
@@ -310,6 +334,11 @@
       "SeneMoreira",
       "MoreiraSene",
       "BNCC"
+    ],
+    "livros": [
+      "SinclairOil",
+      "LlewellynComoEraVerdeMeuVale",
+      "McEwanSolar"
     ]
   },
   {
@@ -321,12 +350,14 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=116",
     "objetivo": "Identificar alternativas energéticas renováveis para uso no mundo atual.",
     "audio": null,
+    "links": ["ANEELGeracaoDistribuida", "ANPRenovaBio", "EPEBalancoEnergetico"],
     "bibliografia": [
       "Vesentini",
       "SeneMoreira",
       "MoreiraSene",
       "BNCC"
-    ]
+    ],
+    "livros": ["CervantesDomQuixote", "LinsDoRegoMeninoDeEngenho", "BrumBanzeiroOkoto"]
   },
   {
     "id": 117,
@@ -337,13 +368,15 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=117",
     "objetivo": "Entender como se formam os solos, seus tipos mais comuns e identificar as formas de uso que degradam ou conservam os solos.",
     "audio": null,
+    "links": ["EmbrapaSiBCS", "EmbrapaPlantioDireto", "INSADesertificacao"],
     "bibliografia": [
       "Teixeira",
       "Press",
       "Suertegaray",
       "Strahler",
       "BNCC"
-    ]
+    ],
+    "livros": ["AmadoTerrasDoSemFim", "QueirozOQuinze", "LobatoUrupes"]
   },
   {
     "id": 118,
@@ -370,6 +403,16 @@
       "Strahler",
       "Hess",
       "BNCC"
+    ],
+    "links": [
+      "INMETSobreMeteorologia",
+      "TodaMateriaMassasDeAr",
+      "IPCCRelatorio"
+    ],
+    "livros": [
+      "VerissimoTempoEVento",
+      "BradburyCronicasMarcianas",
+      "CarsonPrimaveraSilenciosa"
     ]
   },
   {
@@ -387,6 +430,16 @@
       "Strahler",
       "Hess",
       "BNCC"
+    ],
+    "links": [
+      "TodaMateriaFatoresClimaticos",
+      "TodaMateriaCorrentesMaritimas",
+      "TodaMateriaVentosAlisios"
+    ],
+    "livros": [
+      "CamoesOsLusiadas",
+      "GhoshMareVoraz",
+      "KrakauerNoArRarefeito"
     ]
   },
   {
@@ -399,7 +452,14 @@
     "objetivo": "Identificar as mudanças climáticas globais e entender os processos que as causam. Destacar as possíveis consequências dessas mudanças para a vida humana e de outros seres vivos do planeta",
     "audio": null,
     "links": [
-      "ONUMudancaClimatica"
+      "ONUMudancaClimatica",
+      "IPCCRelatorio",
+      "RussiaPermafrost"
+    ],
+    "livros": [
+      "ButlerParabolaSemeador",
+      "KolbertSextaExtincao",
+      "WallaceWellsTerraInabitavel"
     ],
     "bibliografia": [
       "Vesentini",
@@ -416,6 +476,17 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=122",
     "objetivo": "Identificar as mudanças climáticas locais, principalmente aquelas ligadas às áreas urbanas, e entender os processos que as causam e as consequências para as pessoas que vivem nessas áreas.",
     "audio": null,
+    "links": [
+      "AgenciaBrasilDesmatamento",
+      "BBCMarAral",
+      "INSADesertificacao",
+      "CNNBrasilIlhaCalorSP"
+    ],
+    "livros": [
+      "AzevedoOCortico",
+      "CunhaOsSertoes",
+      "HatoumOrfaosEldorado"
+    ],
     "bibliografia": [
       "Vesentini",
       "SeneMoreira",

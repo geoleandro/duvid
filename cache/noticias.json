@@ -1,60 +1,15 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-21T18:26:00-03:00",
+    "gerado_em": "2026-08-24T09:09:55-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Durigan rejeita desvincular salário mínimo de benefícios do INSS",
-            "resumo": "Ministro da Fazenda diz que governo trabalha para conter gastos obrigatórios e estabilizar dívida pública no longo prazo",
-            "link": "https://www.poder360.com.br/poder-economia/durigan-rejeita-desvincular-salario-minimo-de-beneficios-do-inss/",
+            "titulo": "Focus: Mercado mantém projeção da inflação em 5,02% para 2026",
+            "resumo": "Boletim Focus reduziu expectativa para o PIB; câmbio e taxa Selic mantiveram-se estáveis em relação à semana anterior",
+            "link": "https://www.poder360.com.br/poder-economia/focus-mercado-mantem-projecao-da-inflacao-em-502-para-2026/",
             "origem": "Poder360",
             "cor": "#6a1b9a",
-            "ts": 1787347051,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Em ligação com Lula, Trump quis saber sobre eleições no Brasil e ouviu que processo corre bem e de forma confiável",
-            "resumo": "Lula e Trump conversam por mais de 1 hora por telefone\nO presidente dos Estados Unidos, Donald Trump, perguntou ao presidente Luiz Inácio Lu…",
-            "link": "https://g1.globo.com/politica/noticia/2026/08/21/em-ligacao-com-lula-trump-quis-saber-sobre-eleicoes-no-brasil-e-ouviu-que-processo-corre-bem-e-de-forma-confiavel.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1787346946,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Brasil",
-                "emoji": "🇧🇷",
-                "cor": "#f9a825"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Secretário do Exército dos EUA deve deixar o cargo até o fim do ano, diz jornal",
-            "resumo": "O Secretário do Exército, Dan Driscoll, presta depoimento durante uma audiência no Senado americano em maio de 2026.\nNathan Posner/Reuters\nO…",
-            "link": "https://g1.globo.com/mundo/noticia/2026/08/21/secretario-do-exercito-dos-eua-deve-deixar-o-cargo-ate-o-fim-do-ano-diz-jornal.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1787346178,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Com alívio do exterior, Bolsa sobe 1,85% e dólar fecha em R$ 5,144",
-            "resumo": "Também houve melhora do cenário local com investidores de olho nas eleições e novos cortes de juros",
-            "link": "https://www.poder360.com.br/poder-economia/com-alivio-do-exterior-bolsa-sobe-185-e-dolar-fecha-em-r-5144/",
-            "origem": "Poder360",
-            "cor": "#6a1b9a",
-            "ts": 1787344857,
+            "ts": 1787572926,
             "data_estimada": false,
             "categoria": {
                 "label": "Economia",
@@ -64,12 +19,72 @@
             "categoria_curada": false
         },
         {
-            "titulo": "J&F, de Wesley e Joesley Batista, compra fabricante de armas de guerra Avibras",
-            "resumo": "Joesley Batista foi à Venezuela pedir a renúncia de Maduro, diz agência\nA J&F, holding dos irmãos Joesley e Wesley Batista, comprou 100% da …",
-            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/21/jandf-de-wesley-e-joesley-batista-compra-fabricante-de-armas-de-guerra-avibras.ghtml",
+            "titulo": "Líder religioso de Bashar al-Assad é condenado a prisão perpétua na Síria",
+            "resumo": "Quem é o Bashar al-Assad, condenado pela Síria à pena de morte\nA Justiça da Síria condenou à prisão perpétua o ex-grande mufti Ahmed Badredd…",
+            "link": "https://g1.globo.com/mundo/noticia/2026/08/24/lider-religioso-de-bashar-al-assad-e-condenado-a-prisao-perpetua-na-siria.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1787570709,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Saiba mais sobre acordo para facilitar comércio eletrônico no Mercosul",
+            "resumo": "O Brasil promulgou, nesta segunda-feira (24), o Acordo sobre Comércio Eletrônico do Mercosul, assinado em 2021 pelos países integrantes do b…",
+            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul",
+            "origem": "Ag. Brasil Economia",
+            "cor": "#1565c0",
+            "ts": 1787568780,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Como pesquisas militares dos EUA viraram base para os cães-robôs da China",
+            "resumo": "Cães-robôs sobem escadas em demonstração na China, em 21 de março de 2025\nREUTERS/Florence Lo\nA chinesa Unitree Robotics, uma das maiores fa…",
+            "link": "https://g1.globo.com/tecnologia/noticia/2026/08/24/como-pesquisas-militares-dos-eua-viraram-base-para-os-caes-robos-da-china.ghtml",
+            "origem": "G1 Tecnologia",
+            "cor": "#37474f",
+            "ts": 1787547615,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Tecnologia",
+                "emoji": "💻",
+                "cor": "#37474f"
+            },
+            "categoria_curada": true
+        },
+        {
+            "titulo": "Apostador de Blumenau (SC) leva prêmio de R$ 57 milhões da Mega-Sena",
+            "resumo": "Uma aposta simples de Blumenau (SC), feita pela internet, acertou as seis dezenas do Concurso 3.048 da Mega-Sena sorteadas neste domingo (23…",
+            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/apostador-de-blumenau-sc-leva-premio-de-r-57-milhoes-da-mega-sena",
+            "origem": "Ag. Brasil Geral",
+            "cor": "#f9a825",
+            "ts": 1787499360,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Brasil",
+                "emoji": "🇧🇷",
+                "cor": "#f9a825"
+            },
+            "categoria_curada": true
+        },
+        {
+            "titulo": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
+            "resumo": "Leide se tornou influenciadora e garota propaganda\nReprodução / TV TEM\nSem leilão ou competição, a Leide e o Xerife ganharam reconhecimento …",
+            "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/bovinos-influenciadores-conheca-a-vaca-leide-e-o-touro-xerife.ghtml",
             "origem": "G1 Agronegócios",
             "cor": "#33691e",
-            "ts": 1787336450,
+            "ts": 1787481022,
             "data_estimada": false,
             "categoria": {
                 "label": "Espaço Rural",
@@ -77,25 +92,9 @@
                 "cor": "#558b2f"
             },
             "categoria_curada": true
-        },
-        {
-            "titulo": "Terremoto no Peru: por que América do Sul está vendo tantos abalos sísmicos em sequência?",
-            "resumo": "Sequência recente de terremotos levantam questionamentos: mundo está passando por mais tremores ou nossa capacidade de registrá-los apenas m…",
-            "link": "https://www.bbc.com/portuguese/articles/c4gjn30x817o?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1787330665,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Clima",
-                "emoji": "🌱",
-                "cor": "#00838f"
-            },
-            "categoria_curada": false
         }
     ],
     "categorias_ausentes": [
-        "Geopolítica",
-        "Tecnologia"
+        "Clima"
     ]
 }

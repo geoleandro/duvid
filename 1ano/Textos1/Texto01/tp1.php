@@ -919,6 +919,18 @@
         </div>
 
 
+        
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumotp1" src="inforesumotp1.webp"
+                    alt="Infográfico resumo conceitos fundamentais" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO: Perguntas e Respostas -->
         <div class="topico">
 
