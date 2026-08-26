@@ -1,45 +1,15 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-24T09:09:55-03:00",
+    "gerado_em": "2026-08-26T18:40:18-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Focus: Mercado mantém projeção da inflação em 5,02% para 2026",
-            "resumo": "Boletim Focus reduziu expectativa para o PIB; câmbio e taxa Selic mantiveram-se estáveis em relação à semana anterior",
-            "link": "https://www.poder360.com.br/poder-economia/focus-mercado-mantem-projecao-da-inflacao-em-502-para-2026/",
-            "origem": "Poder360",
-            "cor": "#6a1b9a",
-            "ts": 1787572926,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Economia",
-                "emoji": "📈",
-                "cor": "#6a1b9a"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Líder religioso de Bashar al-Assad é condenado a prisão perpétua na Síria",
-            "resumo": "Quem é o Bashar al-Assad, condenado pela Síria à pena de morte\nA Justiça da Síria condenou à prisão perpétua o ex-grande mufti Ahmed Badredd…",
-            "link": "https://g1.globo.com/mundo/noticia/2026/08/24/lider-religioso-de-bashar-al-assad-e-condenado-a-prisao-perpetua-na-siria.ghtml",
-            "origem": "G1 Mundo",
-            "cor": "#e53935",
-            "ts": 1787570709,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Saiba mais sobre acordo para facilitar comércio eletrônico no Mercosul",
-            "resumo": "O Brasil promulgou, nesta segunda-feira (24), o Acordo sobre Comércio Eletrônico do Mercosul, assinado em 2021 pelos países integrantes do b…",
-            "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/saiba-mais-sobre-acordo-para-facilitar-comercio-eletronico-no-mercosul",
-            "origem": "Ag. Brasil Economia",
-            "cor": "#1565c0",
-            "ts": 1787568780,
+            "titulo": "Documentário BBC: O outro lado da guerra das facções em El Salvador",
+            "resumo": "Renan Santos, Ronaldo Caiado e Romeu Zema já fizeram elogios à política adotada por Nayib Bukele.",
+            "link": "https://www.bbc.com/portuguese/articles/cdx0lynj2qgo?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1787779622,
             "data_estimada": false,
             "categoria": {
                 "label": "Geopolítica",
@@ -49,27 +19,27 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Como pesquisas militares dos EUA viraram base para os cães-robôs da China",
-            "resumo": "Cães-robôs sobem escadas em demonstração na China, em 21 de março de 2025\nREUTERS/Florence Lo\nA chinesa Unitree Robotics, uma das maiores fa…",
-            "link": "https://g1.globo.com/tecnologia/noticia/2026/08/24/como-pesquisas-militares-dos-eua-viraram-base-para-os-caes-robos-da-china.ghtml",
-            "origem": "G1 Tecnologia",
-            "cor": "#37474f",
-            "ts": 1787547615,
+            "titulo": "'Minha casa desabou e minha irmã está desaparecida': o relato de sobreviventes da enxurrada no Nepal",
+            "resumo": "A BBC ouviu relatos de sobreviventes da enchente repentina, que matou ao menos 157 pessoas no país; centenas estão desaparecidas",
+            "link": "https://www.bbc.com/portuguese/articles/c14d8mj5ld6o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1787779318,
             "data_estimada": false,
             "categoria": {
-                "label": "Tecnologia",
-                "emoji": "💻",
-                "cor": "#37474f"
+                "label": "Geografia",
+                "emoji": "🌍",
+                "cor": "#2e7d32"
             },
-            "categoria_curada": true
+            "categoria_curada": false
         },
         {
-            "titulo": "Apostador de Blumenau (SC) leva prêmio de R$ 57 milhões da Mega-Sena",
-            "resumo": "Uma aposta simples de Blumenau (SC), feita pela internet, acertou as seis dezenas do Concurso 3.048 da Mega-Sena sorteadas neste domingo (23…",
-            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/apostador-de-blumenau-sc-leva-premio-de-r-57-milhoes-da-mega-sena",
+            "titulo": "Eclipse parcial da Lua nesta quinta-feira será visto em todo o Brasil",
+            "resumo": "A partir das 23h34, hora de Brasília, desta quinta-feira (27), um eclipse parcial da Lua poderá ser visto em todo o território brasileiro. O…",
+            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/eclipse-parcial-da-lua-nesta-quinta-feira-sera-visto-em-todo-o-brasil",
             "origem": "Ag. Brasil Geral",
             "cor": "#f9a825",
-            "ts": 1787499360,
+            "ts": 1787777880,
             "data_estimada": false,
             "categoria": {
                 "label": "Brasil",
@@ -79,12 +49,42 @@
             "categoria_curada": true
         },
         {
-            "titulo": "Bovinos influenciadores: conheça a vaca Leide e o touro Xerife",
-            "resumo": "Leide se tornou influenciadora e garota propaganda\nReprodução / TV TEM\nSem leilão ou competição, a Leide e o Xerife ganharam reconhecimento …",
-            "link": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/08/23/bovinos-influenciadores-conheca-a-vaca-leide-e-o-touro-xerife.ghtml",
+            "titulo": "Dólar sobe 0,22% e Bolsa fica estável",
+            "resumo": "Moeda norte-americana fechou cotada em R$ 5,151; Ibovespa chegou aos 174.586 pontos",
+            "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-022-e-bolsa-fica-estavel/",
+            "origem": "Poder360",
+            "cor": "#6a1b9a",
+            "ts": 1787777542,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Economia",
+                "emoji": "📈",
+                "cor": "#6a1b9a"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Enchentes no Nepal e no Tibete: o que se sabe sobre a tragédia que deixou mortos e centenas de desaparecidos",
+            "resumo": "Enchente repentina na fronteira entre Nepal e Tibete deixa ao menos 31 mortos e centenas de desaparecidos, incluindo quase 400 viajantes; au…",
+            "link": "https://www.bbc.com/portuguese/articles/ce3rz25qeqdo?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1787770859,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Clima",
+                "emoji": "🌱",
+                "cor": "#00838f"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Trump analisa regras da carne bovina enquanto produtores se opõem a tarifas; JBS e MBRF estão no setor",
+            "resumo": "Carne bovina não está incluída na nova tarifa de 25%\nEraldo Peres/AP Photo/picture alliance via DW\nO presidente dos EUA, Donald Trump, afirm…",
+            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/26/trump-analisa-regras-da-carne-bovina-enquanto-produtores-se-opoem-a-tarifas.ghtml",
             "origem": "G1 Agronegócios",
             "cor": "#33691e",
-            "ts": 1787481022,
+            "ts": 1787769285,
             "data_estimada": false,
             "categoria": {
                 "label": "Espaço Rural",
@@ -95,6 +95,6 @@
         }
     ],
     "categorias_ausentes": [
-        "Clima"
+        "Tecnologia"
     ]
 }

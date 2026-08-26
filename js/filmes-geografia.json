@@ -545,5 +545,19 @@
     "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/2cjQBLgHJuuwKwoXDRxHmb24Hbi.jpg",
     "nota": 7.7,
     "posicao": 50
+  },
+  "montanhas-da-lua": {
+    "titulo": "As Montanhas da Lua",
+    "tipo": "Filme",
+    "tema": "Povos e Culturas",
+    "direcao": "Bob Rafelson",
+    "pais": "EUA",
+    "ano": 1990,
+    "duracao": "136 min",
+    "classificacao": "16 anos",
+    "sinopse": "Baseado em fatos reais, acompanha os exploradores britânicos Richard Francis Burton e John Hanning Speke na expedição do século XIX que buscava descobrir a nascente do rio Nilo na África Central, passando pelos grandes lagos da região e pelas chamadas \"Montanhas da Lua\" citadas por geógrafos desde a Antiguidade como a suposta origem do rio.",
+    "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/5CjLq9TC5CalW2U5i085N7rRVYU.jpg",
+    "nota": 6.5,
+    "posicao": 50
   }
 }

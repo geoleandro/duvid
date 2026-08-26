@@ -125,6 +125,8 @@
                     data-definicao="Movimento contínuo da água entre os oceanos, a atmosfera, os rios e o solo. Garante a distribuição da água doce pelo planeta.">ciclo
                     hidrológico</span>.</p>
 
+            <p>Segundo o Sistema Nacional de Informações sobre Saneamento (SNIS), cada brasileiro consome, em média, cerca de 154 litros de água por dia, contando banho, descarga, cozinha e limpeza. Esse número esconde uma desigualdade regional grande: no Sudeste, o consumo médio passa de 180 litros por pessoa, enquanto no Nordeste fica perto de 110 litros. A Organização das Nações Unidas considera 50 litros diários o mínimo necessário para beber, cozinhar e manter a higiene básica. Guarde esses números. Eles vão ser importantes para responder à pergunta que você vai ler no próximo bloco.</p>
+
             <!-- <img id="imagem1" src="tp24F01.png" alt="Ciclo da água na natureza" class="w3-mobile" style="display:none" onerror="this.style.display='none'">
             <span class="citacao" id="citacao1" style="display:none">O ciclo hidrológico: o caminho da água entre os oceanos, a atmosfera, os rios e o solo. Fonte: ANA - Agência Nacional de Águas.</span> -->
 
@@ -145,6 +147,8 @@
                 <p>Mesmo assim, no semiárido nordestino, famílias passam meses sem água. Municípios inteiros dependem de
                     carros-pipa. Crianças caminham quilômetros para buscar água em açudes secos.</p>
 
+                <p>Não é exagero nem coisa do passado. Hoje, a Operação Carro-Pipa, mantida pelo Exército Brasileiro em parceria com o governo federal, abastece dezenas de milhares de cisternas coletivas todos os meses, levando água potável para mais de 1,5 milhão de pessoas em centenas de municípios de oito estados do Nordeste. É uma operação permanente, não emergencial: existe desde 2012 e continua funcionando neste exato momento, mais de uma década depois.</p>
+
                 <p><strong>Como você explica isso?</strong></p>
 
                 <p>No caderno, escreva pelo menos 5 linhas com sua hipótese. Não pesquise ainda. Use o que você já sabe.
@@ -162,6 +166,8 @@
             <h2>Como a água circula no planeta</h2>
 
             <p>A água na Terra não fica parada. Ela circula continuamente entre quatro grandes reservatórios: os oceanos, a atmosfera, as águas superficiais (rios e lagos) e as águas subterrâneas. Esse movimento é o <strong>ciclo hidrológico</strong> e é ele que garante a existência de água doce em continentes distantes do mar.</p>
+
+            <p>Antes de seguir, vale um número que costuma surpreender: dos quase 1,4 bilhão de km³ de água que existem no planeta, cerca de 97,5% é água salgada, dos oceanos. Da fatia de água doce que sobra, pouco menos de 2,5% do total, a maior parte está presa em geleiras e calotas polares, praticamente inacessível. O que realmente circula pelos rios, lagos e aquíferos que abastecem a vida humana é uma fração pequena desse total, algo perto de 1% de toda a água do planeta. É por isso que, mesmo num planeta coberto de água, a água doce disponível é um recurso escasso e mal distribuído entre os continentes e dentro de cada país.</p>
 
             <p>Tudo começa com a <strong>evaporação</strong>: o calor do sol transforma a água dos oceanos e rios em vapor, que sobe para a atmosfera. As plantas também liberam vapor pelo processo chamado <strong>transpiração</strong>. Juntos, os dois formam a evapotranspiração, a principal "bomba" que injeta umidade na atmosfera sobre os continentes.</p>
 
@@ -189,7 +195,7 @@
 
             <h3>A água que você não vê usando</h3>
 
-            <p>Lembra da pergunta do início: quantas vezes você usou água hoje? A resposta real é bem maior do que parece, porque a maior parte da água que consumimos está escondida dentro dos produtos que compramos. Esse consumo indireto tem nome: <span class="termo" data-palavra="Pegada Hídrica" data-definicao="Volume total de água doce usado, direta e indiretamente, para produzir os bens e serviços que uma pessoa consome. Inclui a água usada na produção agrícola e industrial, não só a que sai da torneira.">pegada hídrica</span>. Um quilo de carne bovina consome, em média, 15,5 mil litros de água ao longo de toda a cadeia de produção, da pastagem ao abate. Um hambúrguer sozinho representa cerca de 2.400 litros. Uma camiseta de algodão, mais de 2.500 litros. Você não vê essa água saindo de nenhuma torneira, mas ela foi gasta em algum rio, em algum aquífero, em alguma bacia hidrográfica, muitas vezes bem longe de onde o produto chega até você.</p>
+            <p>Lembra da pergunta do início: quantas vezes você usou água hoje? A resposta real é bem maior do que parece, porque a maior parte da água que consumimos está escondida dentro dos produtos que compramos. Esse consumo indireto tem nome: <span class="termo" data-palavra="Pegada Hídrica" data-definicao="Volume total de água doce usado, direta e indiretamente, para produzir os bens e serviços que uma pessoa consome. Inclui a água usada na produção agrícola e industrial, não só a que sai da torneira.">pegada hídrica</span>. Um quilo de carne bovina consome, em média, 15,5 mil litros de água ao longo de toda a cadeia de produção, da pastagem ao abate. Um hambúrguer sozinho representa cerca de 2.400 litros. Uma camiseta de algodão, mais de 2.500 litros. Você não vê essa água saindo de nenhuma torneira, mas ela foi gasta em algum rio, em algum aquífero, em alguma bacia hidrográfica, muitas vezes bem longe de onde o produto chega até você. Um país que exporta muita carne, soja ou algodão, como o Brasil, também está exportando água na forma invisível dos produtos que embarca, um fluxo que a geografia chama de comércio de água virtual e que raramente aparece nas discussões sobre exportação.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -247,25 +253,37 @@
 
             <p>A bacia não é só um conceito geográfico. Ela é uma <strong>unidade de gestão do território</strong>. Tudo que acontece dentro dela afeta os rios: o desmatamento nas nascentes, a agropecuária no médio curso, o crescimento das cidades na foz. Por isso a Lei das Águas (Lei Federal 9.433/1997) organizou o uso da água no Brasil por bacias, criando os Comitês de Bacia, colegiados onde governo, empresas e sociedade civil negociam o uso compartilhado da água. É um avanço real, mas os comitês têm pouco poder de fiscalização e frequentemente são dominados pelos maiores usuários.</p>
 
-            <h3>As grandes bacias brasileiras</h3>
+            <p>A mesma lei criou a <span class="termo" data-palavra="Outorga" data-definicao="Autorização concedida pelo poder público para que uma pessoa ou empresa use uma quantidade determinada de água de um rio ou aquífero, por prazo definido. Não transfere a propriedade da água, só o direito de uso.">outorga</span> de uso da água: uma autorização que o governo concede para que uma indústria, uma fazenda ou uma cidade capte uma quantidade específica de água de um rio, por um tempo determinado. Sem outorga, o uso é irregular, mesmo que a água pareça "de todo mundo". Na prática, é o instrumento que devia impedir que um grande irrigante retire tanta água de um rio a ponto de deixar as comunidades rio abaixo sem abastecimento, embora a fiscalização insuficiente signifique que muita captação clandestina passe despercebida.</p>
 
-            <p>A <strong>Bacia Amazônica</strong> é a maior do mundo em volume de água: 20% de toda a água doce superficial do planeta passa por ela. A <strong>Bacia do Paraná</strong> concentra o maior potencial hidrelétrico do país, abrigando Itaipu e Belo Monte, mas também os conflitos mais intensos entre energia, agricultura irrigada e populações ribeirinhas deslocadas. A <strong>Bacia do São Francisco</strong> é chamada de "rio da integração nacional": nasce em Minas Gerais, atravessa o semiárido e desemboca no mar entre Alagoas e Sergipe, sendo vital para milhões de nordestinos.</p>
+            <h3>As grandes bacias do mundo</h3>
+
+            <p>O Brasil concentra boa parte da água doce do planeta, mas está longe de ser o único palco de grandes bacias e de grandes conflitos por água. A <strong>Bacia do Nilo</strong>, na África, é hoje o exemplo mais tenso de disputa hídrica internacional: desde 2011, a Etiópia constrói a Grande Barragem do Renascimento (GERD), com capacidade para armazenar 74 bilhões de m³ de água e gerar mais de 6 mil megawatts. O Egito, quase totalmente dependente do Nilo para abastecer sua população, vê a obra como uma ameaça existencial, e as negociações entre os dois países, mais o Sudão, seguem travadas até hoje, sem acordo definitivo sobre como a barragem deve ser enchida e operada.</p>
+
+            <p>A <strong>Bacia do Congo</strong>, também na África, é a segunda maior do mundo em volume de água, atrás apenas da Amazônica, e concentra sozinha cerca de 13% de todo o potencial hidrelétrico do planeta. O projeto Grande Inga, ainda em fase de planejamento, pretende explorar esse potencial numa escala descomunal, gerando o dobro da energia da usina chinesa de Três Gargantas, mas enfrenta obstáculos de financiamento e de instabilidade política na região. Já a <strong>Bacia do Ganges-Brahmaputra</strong>, no sul da Ásia, é a mais populosa do planeta: mais de 600 milhões de pessoas vivem em seu território, distribuídas entre Índia, Bangladesh, Nepal, Butão e China, o que faz da gestão compartilhada dessa água um desafio diplomático permanente entre países vizinhos.</p>
+
+            <p>Na Europa, a <strong>Bacia do Danúbio</strong> é considerada a mais internacional do mundo: o rio atravessa diretamente 10 países, mas sua bacia hidrográfica completa, com mais de 800 mil km², se estende por 19 países e abriga cerca de 79 milhões de pessoas. Diferente do Nilo, o Danúbio é geralmente citado como exemplo de cooperação: os países da bacia mantêm uma comissão internacional permanente para negociar o uso compartilhado da água havia décadas, algo que o Brasil tenta reproduzir internamente com os próprios Comitês de Bacia.</p>
 
             <h3>Regime fluvial: nem todo rio é igual</h3>
 
             <p>Os rios não têm o mesmo comportamento ao longo do ano. O <strong>regime fluvial</strong> descreve como a vazão de um rio varia entre as estações. Rios de regime <strong>perene</strong> nunca secam. O Amazonas é um exemplo, alimentado pelas chuvas abundantes da floresta. Já os rios de regime <strong>intermitente</strong> secam completamente em épocas de estiagem, como os do semiárido nordestino, que existem por meses e somem por outros. Essa intermitência é natural, mas é agravada pelo desmatamento e pelo uso excessivo da água para irrigação.</p>
 
+            <p>Além de perene ou intermitente, o regime também é classificado pela origem da água que alimenta o rio. O regime <strong>pluvial</strong> depende diretamente das chuvas da região, é o padrão da maioria dos rios brasileiros, já que o país tem clima predominantemente tropical. O regime <strong>nival</strong> depende do degelo de neve e geleiras nas cabeceiras, comum em rios de regiões montanhosas de clima frio, como boa parte dos rios europeus e norte-americanos, mas praticamente ausente no Brasil. Existe ainda o regime <strong>misto</strong>, alimentado tanto por chuva quanto por degelo em trechos diferentes do curso. Essa classificação ajuda a explicar por que rios de países de clima temperado, como os europeus, têm cheias na primavera, quando a neve derrete, enquanto os rios brasileiros cheiam durante o verão chuvoso.</p>
+
             <h3>A mata ciliar e a saúde dos rios</h3>
 
-            <p>A faixa de vegetação que margeia rios e lagos chama-se <span class="termo" data-palavra="Mata Ciliar" data-definicao="Faixa de vegetação nativa que margeia rios, lagos e nascentes. Filtra sedimentos e agrotóxicos, segura as margens contra erosão e regula a temperatura da água.">mata ciliar</span>. Ela filtra os sedimentos e agrotóxicos que escoam das lavouras antes de chegarem ao rio, segura as margens contra erosão e regula a temperatura da água. Quando a mata ciliar é destruída para plantar até a beira do rio, o leito assore, a água esquenta, os peixes desaparecem e as enchentes ficam mais frequentes. O Código Florestal Brasileiro exige a manutenção de faixas mínimas de mata ciliar, mas o cumprimento é fraco em boa parte do território.</p>
+            <p>A faixa de vegetação que margeia rios e lagos chama-se <span class="termo" data-palavra="Mata Ciliar" data-definicao="Faixa de vegetação nativa que margeia rios, lagos e nascentes. Filtra sedimentos e agrotóxicos, segura as margens contra erosão e regula a temperatura da água.">mata ciliar</span>. Ela filtra os sedimentos e agrotóxicos que escoam das lavouras antes de chegarem ao rio, segura as margens contra erosão e regula a temperatura da água. Quando a mata ciliar é destruída para plantar até a beira do rio, o leito assore, processo em que sedimentos e terra se acumulam no fundo do rio, deixando-o mais raso e mais largo, a água esquenta, os peixes desaparecem e as enchentes ficam mais frequentes, já que um leito mais raso extravasa com mais facilidade. O Código Florestal Brasileiro exige a manutenção de faixas mínimas de mata ciliar, que variam conforme a largura do rio, mas o cumprimento é fraco em boa parte do território, especialmente em áreas de agricultura intensiva.</p>
 
             <h3>Quando a torneira quase secou: a crise hídrica de São Paulo</h3>
 
-            <p>O exemplo mais lembrado de má gestão de bacia no Brasil recente aconteceu em São Paulo. O Sistema Cantareira, principal manancial da Região Metropolitana, abastecendo à época cerca de 9 milhões de pessoas, entrou em colapso entre 2014 e 2015 depois de um ano com chuvas muito abaixo da média. Em maio de 2014, o volume útil dos reservatórios zerou, e a Sabesp precisou recorrer ao chamado "volume morto", uma reserva de cerca de 480 bilhões de litros que fica abaixo do nível normal de captação e só deveria ser usada em emergências extremas. Em fevereiro de 2015, mesmo somando as duas cotas do volume morto, o sistema chegou a apenas 3,9% de sua capacidade. Faltou chuva, mas também faltou planejamento: os comitês de bacia haviam alertado sobre a fragilidade do sistema anos antes, sem que investimentos suficientes em novos mananciais fossem feitos a tempo.</p>
+            <p>O exemplo mais lembrado de má gestão de bacia no Brasil recente aconteceu em São Paulo. O Sistema Cantareira, principal manancial da Região Metropolitana, abastecendo à época cerca de 9 milhões de pessoas, entrou em colapso entre 2014 e 2015 depois de um ano com chuvas muito abaixo da média. Em maio de 2014, o volume útil dos reservatórios zerou, e a Sabesp precisou recorrer ao chamado "volume morto", uma reserva de cerca de 480 bilhões de litros que fica abaixo do nível normal de captação e só deveria ser usada em emergências extremas. Em fevereiro de 2015, mesmo somando as duas cotas do volume morto, o sistema chegou a apenas 3,9% de sua capacidade. Faltou chuva, mas também faltou planejamento: os comitês de bacia haviam alertado sobre a fragilidade do sistema anos antes, sem que investimentos suficientes em novos mananciais fossem feitos a tempo. Pesquisadores da Unicamp já apontavam, ainda em 2020, que uma nova crise hídrica em São Paulo poderia se repetir entre 2025 e 2027, seguindo um padrão de secas que se repete a cada década. É um lembrete de que a gestão de uma bacia hidrográfica não é um problema resolvido de uma vez, é um trabalho constante.</p>
 
             <h3>A transposição do São Francisco: quem tem razão?</h3>
 
             <p>Em 2017, o governo entregou os primeiros trechos da maior obra hídrica da história do Brasil: a transposição do Rio São Francisco, que desvia parte de suas águas para rios intermitentes do semiárido por meio de mais de 700 km de canais, divididos nos eixos Leste e Norte. O projeto segue em fase de complementação até hoje, com obras acessórias ainda em andamento décadas depois de iniciado. Foi defendido como solução para a seca. Foi criticado por não resolver o saneamento básico, por beneficiar mais a agricultura irrigada do que as comunidades pobres e por degradar o próprio São Francisco, já reduzido pela metade em sua vazão em comparação ao século passado. O debate continua: a água chegou, mas chegou para quem?</p>
+
+            <h3>Uma solução pequena que funcionou</h3>
+
+            <p>Enquanto a transposição avançava lentamente entre polêmicas, uma solução bem mais simples e barata já vinha mudando a vida de famílias rurais no semiárido: a cisterna. O Programa Um Milhão de Cisternas, tocado por organizações da sociedade civil articuladas na ASA Brasil em parceria com o governo federal, já entregou centenas de milhares de cisternas de placas de cimento para captar água da chuva no telhado das casas, com capacidade de cerca de 16 mil litros cada, o suficiente para uma família passar boa parte do período de seca. Não substitui grandes obras de infraestrutura, mas resolve algo que nenhuma transposição resolve sozinha: garantir água potável dentro de casa, sem depender de carro-pipa, para quem vive espalhado pelo semiárido, longe de qualquer rede de abastecimento.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -332,14 +350,53 @@
 
             <h3>A correia transportadora global</h3>
 
-            <p>Além das correntes superficiais, existe uma circulação oceânica muito mais lenta e profunda chamada <strong>circulação termoalina</strong>. Ela funciona como uma enorme correia transportadora: a água fria e salgada dos polos é mais densa e afunda, empurrando a água quente superficial que vem dos trópicos. Esse ciclo demora entre 1.000 e 2.000 anos para dar uma volta completa no planeta, mas é responsável pela distribuição de calor, oxigênio e nutrientes entre os oceanos do mundo. O aquecimento global, ao derreter as geleiras e injetar água doce menos densa nos oceanos, ameaça desacelerar esse sistema, com consequências climáticas imprevisíveis para todo o planeta.</p>
+            <p>Além das correntes superficiais, existe uma circulação oceânica muito mais lenta e profunda chamada <span class="termo" data-palavra="Circulação Termoalina" data-definicao="Circulação oceânica profunda movida por diferenças de temperatura e salinidade da água. Funciona como uma correia transportadora global, distribuindo calor, oxigênio e nutrientes entre os oceanos.">circulação termoalina</span>. Ela funciona como uma enorme correia transportadora: a água fria e salgada dos polos é mais densa e afunda, empurrando a água quente superficial que vem dos trópicos. Esse ciclo demora entre 1.000 e 2.000 anos para dar uma volta completa no planeta, mas é responsável pela distribuição de calor, oxigênio e nutrientes entre os oceanos do mundo. O aquecimento global, ao derreter as geleiras e injetar água doce menos densa nos oceanos, ameaça desacelerar esse sistema, com consequências climáticas imprevisíveis para todo o planeta.</p>
 
             <h3>El Niño, La Niña e o Brasil</h3>
 
-            <p>A interação entre oceano e atmosfera gera fenômenos de longo alcance. O <strong>El Niño</strong> ocorre quando as águas do Pacífico equatorial ficam mais quentes que o normal. Isso altera os ventos e o regime de chuvas em todo o planeta: no Brasil, provoca secas severas no Norte e Nordeste e chuvas excessivas no Sul. Já o <strong>La Niña</strong>, o fenômeno inverso (águas mais frias no Pacífico), tende a aumentar as chuvas no Norte e agravar a seca no Sul. Esses fenômenos não são novos, mas têm se intensificado com as mudanças climáticas.</p>
+            <p>A interação entre oceano e atmosfera gera fenômenos de longo alcance. O <span class="termo" data-palavra="El Niño" data-definicao="Fenômeno climático em que as águas do oceano Pacífico equatorial ficam mais quentes que o normal, alterando ventos e chuvas em todo o planeta. No Brasil, costuma provocar secas no Norte e Nordeste e chuvas excessivas no Sul.">El Niño</span> ocorre quando as águas do Pacífico equatorial ficam mais quentes que o normal. Isso altera os ventos e o regime de chuvas em todo o planeta: no Brasil, provoca secas severas no Norte e Nordeste e chuvas excessivas no Sul. Já a <strong>La Niña</strong>, o fenômeno inverso (águas mais frias no Pacífico), tende a aumentar as chuvas no Norte e agravar a seca no Sul. Esses fenômenos não são novos, mas têm se intensificado com as mudanças climáticas, e influenciam diretamente o regime dos rios que você estudou nesta aula: um El Niño forte pode reduzir a vazão de bacias inteiras no Nordeste no mesmo ano em que enche os rios do Sul acima da média.</p>
+
+            <h3>O oceano também é território brasileiro</h3>
+
+            <p>Assim como uma bacia hidrográfica, o mar em frente à costa também tem limites definidos por lei internacional. A faixa que vai até 200 milhas náuticas (cerca de 370 km) a partir da costa é a Zona Econômica Exclusiva, dentro da qual o Brasil tem direito exclusivo de explorar recursos vivos e minerais. Somando essa faixa às áreas que o país reivindica junto à ONU, a chamada <strong>Amazônia Azul</strong> ocupa mais de 4,5 milhões de km² de oceano, uma área quase do tamanho da Amazônia terrestre. É nessa região que ficam os campos de pré-sal, responsáveis por cerca de 85% do petróleo produzido no Brasil, além de boa parte do pescado nacional. Entender os movimentos das águas que você acabou de estudar, correntes, marés e ondas, é essencial para explorar esse território com segurança, e para entender o relevo escondido sob essa imensidão de água.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.2: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Diferente da maré, o tsunami é causado por:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>atração da Lua</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>terremoto submarino</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>vento forte</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'é o terremoto submarino! A maré depende da Lua e do Sol; o tsunami, de abalos no fundo do oceano.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -388,6 +445,8 @@
                 R: As duas coisas. A região tem precipitação menor e irregular, isso é natural. Mas a falta de acesso à água é agravada pela ausência de políticas públicas, pelo desmatamento da Caatinga e pela concentração fundiária que priva pequenos agricultores das margens dos rios. O problema é real, mas parte dele tem solução, basta vontade política.
             </p>
 
+            <p>Você já entendeu como a água se move na superfície e no continente. Na próxima aula, vamos descer até o fundo do oceano e conhecer o relevo submerso: a plataforma continental, o talude e as fossas oceânicas que moldam a vida marinha e escondem boa parte do petróleo que move a economia brasileira.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -396,16 +455,57 @@
         <!-- BLOCO 10: Infográfico resumo -->
         <div class="topico">
 
-            <h2>Infográfico — resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
             <div class="w3-margin">
-                <img src="inforesumot24.png" alt="Infográfico resumo Hidrografia" class="w3-mobile"
+                <img id="inforesumotp24" src="inforesumotp24.webp" alt="Infográfico resumo Hidrografia" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 10.5: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Qual país abriga a Baía de Fundy, onde a diferença entre maré alta e maré baixa chega a 16 metros?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'canad', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Qual é o nome da corrente oceânica quente que aquece a Europa Ocidental, mencionada no texto?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'golfo', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
         </div>
 
 
@@ -418,19 +518,19 @@
                 <span class="primeiraLetra">P:</span>
                 <strong>Se a água do mar evapora e vira chuva, por que a chuva não é salgada?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Porque o sal não evapora junto. Quando a água vira vapor, ela deixa os minerais dissolvidos para trás. O que sobe para a atmosfera é água pura. O sal fica no oceano, por isso o mar é salgado enquanto a chuva é doce.</p>
+            <p><span class="primeiraLetra">R:</span> Porque o sal não evapora junto. Quando a água vira vapor, ela deixa os minerais dissolvidos para trás, do mesmo jeito que uma panela de água salgada fica com uma crosta de sal no fundo depois de fervida por completo. O que sobe para a atmosfera é água pura. O sal fica no oceano, por isso o mar é salgado enquanto a chuva é doce.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
                 <strong>O Brasil vai ficar sem água algum dia?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Não de uma vez. Mas várias regiões já estão sob pressão real. O aquífero Guarani, que abastece milhões de pessoas no Centro-Sul, não é infinito. O problema nunca foi a quantidade total de água no planeta. É o uso irresponsável, a poluição dos rios e a distribuição desigual entre quem pode pagar e quem não pode.</p>
+            <p><span class="primeiraLetra">R:</span> Não de uma vez. Mas várias regiões já estão sob pressão real. O aquífero Guarani, que abastece milhões de pessoas no Centro-Sul, não é infinito. O problema nunca foi a quantidade total de água no planeta. É o uso irresponsável, a poluição dos rios, o desperdício em redes antigas que vazam água tratada pelo caminho e a distribuição desigual entre quem pode pagar e quem não pode.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
                 <strong>A maré é igual em qualquer praia do mundo?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Não. A intensidade depende da forma da costa, da profundidade do fundo e da posição geográfica. Em praias do Brasil a diferença entre maré alta e baixa costuma ser de 1 a 3 metros. Na Baía de Fundy, no Canadá, essa diferença chega a 16 metros. Dá para caminhar onde tinha mar horas antes.</p>
+            <p><span class="primeiraLetra">R:</span> Não. A intensidade depende da forma da costa, da profundidade do fundo e da posição geográfica. Em praias do Brasil a diferença entre maré alta e baixa costuma ser de 1 a 3 metros. Na Baía de Fundy, no Canadá, essa diferença chega a 16 metros, o suficiente para deixar barcos inteiros encalhados na lama na maré baixa. Dá para caminhar por onde tinha mar algumas horas antes.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -533,6 +633,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

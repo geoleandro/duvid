@@ -101,6 +101,8 @@
 
             <p>Essas formas têm consequências diretas para quem vive perto dos rios. As planícies de inundação ao longo dos meandros são as terras mais férteis do planeta, e também as mais vulneráveis às cheias. Os deltas concentram populações inteiras. Os estuários abrigam ecossistemas únicos que filtram poluentes e criam berçários para a pesca. Entender como os rios funcionam é entender por que cidades afogam, por que agricultores brigam por terras ribeirinhas e por que o desmatamento agrava enchentes.</p>
 
+            <p>Nesta aula, você vai aprender a "ler" um rio como um geógrafo lê a paisagem: reconhecendo, numa simples curva ou numa faixa de terra mais baixa ao lado do canal, a marca de milhares de anos de trabalho da água. É esse mesmo conhecimento que explica por que algumas cidades convivem bem com seus rios havia séculos, enquanto outras, construídas exatamente sobre o caminho natural das águas, pagam um preço alto a cada temporada de chuvas.</p>
+
             <p>Clique para começar: <span class="termo" data-palavra="Sistema Fluvial" data-definicao="Conjunto formado pelo rio, sua bacia hidrográfica e todos os processos de erosão, transporte e deposição de sedimentos que moldam a paisagem ao longo do tempo.">sistema fluvial</span>.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -141,7 +143,9 @@
 
             <p>No <strong>curso médio</strong>, o terreno fica menos inclinado e a velocidade cai. O rio começa a erodir lateralmente, alargando o vale. Os sedimentos se acumulam nas curvas internas e o leito fica mais largo e raso. É onde se formam as planícies de inundação, terras que o rio deixou quando transbordou em épocas de cheia.</p>
 
-            <p>No <strong>curso inferior</strong>, próximo à foz, a inclinação é mínima e a velocidade, muito baixa. O rio carrega menos energia e deposita a maior parte dos seus sedimentos. É aqui que se formam os deltas e estuários. O vale fica amplo, as margens são baixas e as inundações são frequentes e previsíveis.</p>
+            <p>No <strong>curso inferior</strong>, próximo à foz, a inclinação é mínima e a velocidade, muito baixa. O rio carrega menos energia e deposita a maior parte dos seus sedimentos. É aqui que se formam os deltas e estuários. O vale fica amplo, as margens são baixas e as inundações são frequentes e previsíveis. Nesse trecho, as cheias sucessivas costumam depositar sedimentos mais grossos bem nas margens do canal, formando pequenas elevações alongadas chamadas <span class="termo" data-palavra="Diques Marginais" data-definicao="Pequenas elevações alongadas ao longo das margens de um rio, formadas pelo depósito de sedimentos mais grossos durante as cheias. Funcionam como barreiras naturais que retardam o retorno da água ao canal.">diques marginais</span>. Eles funcionam como muretas naturais e explicam por que, em muitas cheias, a água que invade a planície demora bem mais para escoar de volta ao rio do que levou para transbordar.</p>
+
+            <p>Todo esse trabalho de erosão, transporte e deposição tem um limite: o <span class="termo" data-palavra="Nível de Base" data-definicao="Altitude mínima até onde um rio consegue erodir seu leito, normalmente o nível do mar na foz. Represas e quedas d'água criam níveis de base locais e temporários ao longo do curso.">nível de base</span>, a altitude mínima até onde o rio consegue aprofundar seu leito. Para a maioria dos rios, o nível de base final é o mar, na foz. Mas existem níveis de base locais e temporários: um lago, uma represa ou até uma camada de rocha muito resistente podem funcionar como nível de base momentâneo, interrompendo a erosão vertical até que o obstáculo seja vencido ou contornado. É por isso que uma barragem, além de reter sedimentos, também muda a forma como o rio esculpe o terreno rio acima dela.</p>
 
             <div class="w3-margin">
                 <img src="tp26F01.png" alt="Perfil longitudinal de um rio: curso superior, médio e inferior" class="w3-mobile"
@@ -153,7 +157,19 @@
 
             <p>Qualquer pequena irregularidade no leito desvia o fluxo para um lado. A água que bate na margem exterior de uma curva erode mais. A margem interior, onde a água desacelera, recebe os sedimentos. A curva cresce. O meandro se forma. Com o tempo, o meandro pode crescer tanto que as duas curvas se tocam, e o rio abre um atalho reto, deixando para trás uma lagoa em forma de meia-lua chamada <strong>lagoa oxbow</strong>. O Pantanal e a planície amazônica estão cheios delas.</p>
 
-            <p>Os <span class="termo" data-palavra="Rios Meandrantes" data-definicao="Rios com curso sinuoso que serpenteiam pela planície em curvas largas, resultado do equilíbrio entre erosão nas margens externas e deposição nas internas. Característicos de regiões planas com baixa declividade.">rios meandrantes</span> são típicos de regiões planas, onde a baixa declividade força o rio a dissipar energia em curvas. O Rio Amazonas e seus afluentes são exemplos clássicos: vistos do satélite, parecem cobras gigantes desenhadas sobre a floresta.</p>
+            <p>Os <span class="termo" data-palavra="Rios Meandrantes" data-definicao="Rios com curso sinuoso que serpenteiam pela planície em curvas largas, resultado do equilíbrio entre erosão nas margens externas e deposição nas internas. Característicos de regiões planas com baixa declividade.">rios meandrantes</span> são típicos de regiões planas, onde a baixa declividade força o rio a dissipar energia em curvas. O Rio Amazonas e seus afluentes são exemplos clássicos: vistos do satélite, parecem cobras gigantes e sinuosas desenhadas lentamente sobre o verde da floresta.</p>
+
+            <p>Nem todo rio se organiza num canal único que serpenteia. Quando a quantidade de sedimentos que chega ao leito é maior do que a água consegue transportar de uma vez, o canal se divide em vários braços separados por bancos de areia e cascalho instáveis, que aparecem e somem conforme a vazão varia. Esse padrão é chamado de <span class="termo" data-palavra="Rio Entrelaçado" data-definicao="Padrão de canal em que o rio se divide em múltiplos braços separados por bancos de sedimento instáveis, típico de leitos com alta carga de sedimentos e vazão muito variável entre estações.">rio entrelaçado</span> (ou anastomosado, quando os canais múltiplos são mais estáveis e separados por ilhas vegetadas). O Rio Brahmaputra, no Himalaia, é o exemplo clássico mundial: carrega uma das maiores cargas de sedimentos por quilômetro quadrado do planeta e se espalha por dezenas de canais entrelaçados num vale de mais de 10 km de largura. No Brasil, esse tipo de leito largo, raso e temporariamente dividido em vários braços é comum nos riachos intermitentes do semiárido nordestino, que passam boa parte do ano secos e recebem, de uma só vez, uma carga enorme de sedimentos nas poucas chuvas fortes da estação.</p>
+
+            <h3>Padrões de drenagem: a rede vista de cima</h3>
+
+            <p>Se você olhar de cima não só o rio principal, mas toda a rede formada por ele e seus afluentes, vai perceber que essa rede também segue formas reconhecíveis, chamadas de <span class="termo" data-palavra="Padrão de Drenagem" data-definicao="Forma geométrica que a rede de um rio e seus afluentes desenha vista de cima, condicionada principalmente pela geologia e pela inclinação do terreno. Os principais tipos são dendrítico, em treliça, retangular e radial.">padrões de drenagem</span>. Eles não são aleatórios: nascem da estrutura geológica por baixo do relevo, como um raio-X do terreno.</p>
+
+            <p>O mais comum é o padrão <strong>dendrítico</strong>, parecido com os galhos de uma árvore: o rio principal é o tronco, os afluentes são os galhos, que se ramificam livremente em várias direções. Ele aparece onde a rocha por baixo é homogênea, sem falhas ou fraturas que imponham uma direção preferencial à água, como em grande parte da Bacia Amazônica.</p>
+
+            <p>Já o padrão em <strong>treliça</strong> mostra afluentes longos e retos, quase paralelos entre si, que se juntam ao rio principal em ângulos retos, como os ramos de uma videira presa a um caramanchão. Ele se forma onde há camadas de rochas de dureza alternada, dobradas pela tectônica, de modo que os rios secundários seguem as faixas de rocha mais fraca e mais fácil de erodir. O padrão <strong>retangular</strong> é parecido, mas os cotovelos em ângulo reto vêm de fraturas e falhas que cruzam a rocha em duas direções perpendiculares, como uma grade.</p>
+
+            <p>Por fim, o padrão <strong>radial</strong> se espalha para todos os lados a partir de um ponto alto central, como os raios de uma roda de bicicleta. É típico de vulcões e domos: os rios nascem no topo e escorrem morro abaixo em todas as direções. No Brasil, esse padrão aparece de forma clássica ao redor de estruturas dômicas como a Serra de Alto Paranaíba, em Minas Gerais. Reconhecer esses padrões numa carta topográfica ou numa imagem de satélite é, na prática, ler a geologia escondida por baixo da paisagem sem precisar cavar um único buraco.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -204,9 +220,11 @@
 
             <p>Quando um rio chega ao mar ou a um lago sem correntes fortes o suficiente para dispersar seus sedimentos, ele os deposita na foz, criando um <span class="termo" data-palavra="Delta" data-definicao="Forma de deposição sedimentar na foz de um rio, criada quando a corrente fluvial perde velocidade ao entrar no mar e deposita seus sedimentos em leques ou triângulos. O nome vem da letra grega delta, que tem forma triangular.">delta</span>. O nome vem da letra grega delta (triangular), que descreve bem o formato típico dessa feição.</p>
 
-            <p>O delta cresce para dentro do mar conforme o rio traz mais sedimentos. O Nilo tem um dos deltas mais famosos do mundo: formado ao longo de milênios, ele concentra 95% da população egípcia numa faixa estreita de terra fértil no meio do deserto. Esse solo extraordinariamente rico é produto dos sedimentos que o Nilo carregava desde a Etiópia. Com a construção da Barragem de Assuã, em 1970, o rio parou de depositar sedimentos no delta. Desde então, o delta do Nilo está sendo erodido pelo mar e perdendo área anualmente, ameaçando cidades e terras agrícolas.</p>
+            <p>O delta cresce para dentro do mar conforme o rio traz mais sedimentos, num processo lento que pode levar séculos até que um novo pedaço de terra firme se torne habitável e cultivável. O Nilo tem um dos deltas mais famosos do mundo: formado ao longo de milênios, ele concentra 95% da população egípcia numa faixa estreita de terra fértil no meio do deserto. Esse solo extraordinariamente rico é produto dos sedimentos que o Nilo carregava desde a Etiópia. Com a construção da Barragem de Assuã, em 1970, o rio parou de depositar sedimentos no delta. Desde então, o delta do Nilo está sendo erodido pelo mar e perdendo área anualmente, ameaçando cidades e terras agrícolas.</p>
 
             <p>O Rio São Francisco, que deságua entre Alagoas e Sergipe, também tem um delta em processo de erosão acelerada. A transposição e a redução de sua vazão diminuíram o volume de sedimentos que chegam à foz. Sem esse aporte, o mar avança sobre a terra, engolindo praias, manguezais e comunidades pesqueiras inteiras.</p>
+
+            <p>Não é coincidência que os deltas estejam no berço das primeiras grandes civilizações humanas. O Egito antigo se desenvolveu quase inteiramente dentro do delta e do vale do Nilo. A Mesopotâmia nasceu entre os deltas conjuntos do Tigre e do Eufrates, no atual Iraque. O Vale do Indo, na atual fronteira entre Paquistão e Índia, e o delta do Rio Amarelo, na China, seguem o mesmo padrão. Em todos os casos, a fertilidade do solo depositado pelas cheias permitiu excedentes agrícolas grandes o suficiente para sustentar cidades, e a necessidade de organizar coletivamente diques, canais de irrigação e calendários de cheia é apontada por muitos historiadores como um dos motores da própria formação do Estado.</p>
 
             <div class="w3-margin">
                 <img src="tp26F02.png" alt="Delta do Rio Amazonas visto do satélite" class="w3-mobile"
@@ -214,13 +232,21 @@
                 <span class="w3-small w3-margin-left">Delta do Rio Amazonas: o maior do mundo em volume de água, com mais de 500 km de largura na foz. Fonte: NASA.</span>
             </div>
 
+            <h3>Várzeas, igapós e o pulso de inundação</h3>
+
+            <p>Na Amazônia, nem toda água de rio é igual. Os limnólogos classificam os rios da bacia em três tipos, pela cor da água. Os <strong>rios de água branca</strong>, como o próprio Amazonas (chamado de Solimões no trecho brasileiro até encontrar o Rio Negro), nascem nos Andes e carregam grande quantidade de sedimentos em suspensão, o que dá à água uma cor barrenta e a torna rica em nutrientes. Os <strong>rios de água preta</strong>, como o Rio Negro, nascem em terrenos antigos e pobres em sedimentos, e a cor escura vem de matéria orgânica em decomposição na floresta, quase como um chá bem forte. Os <strong>rios de água clara</strong>, como o Rio Tapajós, nascem em planaltos cristalinos e carregam pouquíssimo sedimento e pouca matéria orgânica.</p>
+
+            <p>Essa diferença tem consequência direta na vida das margens. As planícies inundadas por rios de água branca são chamadas de <strong>várzeas</strong>: recebem sedimentos ricos em nutrientes e sustentam uma agricultura tradicional produtiva. As planícies alagadas por rios de água preta ou clara são os <strong>igapós</strong>, mais pobres em nutrientes, com solos ácidos e vegetação adaptada à escassez.</p>
+
+            <p>O que rege esse ciclo inteiro é o que o pesquisador alemão Wolfgang Junk chamou de <span class="termo" data-palavra="Pulso de Inundação" data-definicao="Ciclo anual e previsível de subida e descida do nível dos rios amazônicos, com amplitude média de 10 metros entre a cheia e a vazante. Determina uma fase aquática e uma fase terrestre nas várzeas e igapós, moldando toda a vida vegetal e animal da região.">pulso de inundação</span>: o ciclo anual e previsível de subida e descida do nível dos rios, com amplitude média de cerca de 10 metros entre a cheia e a vazante. Esse pulso cria uma fase aquática, quando peixes nadam entre as copas das árvores submersas e dispersam sementes, e uma fase terrestre, quando a mesma área vira solo firme. Praticamente toda a fauna e a flora da várzea evoluíram em sincronia com esse relógio hidrológico, o que torna barragens e outras obras que alteram o regime natural de cheias particularmente destrutivas para esses ecossistemas.</p>
+
             <h3>Estuários</h3>
 
             <p>Quando as correntes marinhas são fortes o suficiente para dispersar os sedimentos antes que se acumulem, a foz do rio forma um <span class="termo" data-palavra="Estuário" data-definicao="Zona de transição entre um rio e o mar, onde a água doce e a salgada se misturam. As correntes marinhas impedem a formação do delta dispersando os sedimentos. Abriga ecossistemas de altíssima biodiversidade.">estuário</span>: um braço de mar afunilado onde a água doce e a salgada se misturam. A salinidade varia conforme as marés, criando um ambiente de transição altamente produtivo.</p>
 
             <p>Os estuários são dos ecossistemas mais ricos do planeta. Essa mistura de águas favorece a concentração de nutrientes, tornando-os berçários naturais para peixes, crustáceos e aves migratórias. Manguezais se estabelecem nas margens, filtrando poluentes e protegendo a costa de erosão e tsunamis. A destruição dos manguezais para a construção de carciniculturas (criação de camarões em tanques) é um problema grave no litoral nordestino brasileiro: remove a proteção costeira, contamina os rios vizinhos e elimina o berçário de espécies que sustentam a pesca artesanal.</p>
 
-            <p>A Baía de Guanabara, no Rio de Janeiro, foi originalmente um grande estuário com manguezais exuberantes. Séculos de aterramento, industrialização e despejo de esgoto transformaram-na num dos ambientes mais poluídos do Brasil. O caso é estudado como exemplo de como o crescimento urbano desordenado pode destruir ecossistemas estuarinos que levaram milênios para se formar.</p>
+            <p>A Baía de Guanabara, no Rio de Janeiro, foi originalmente um grande estuário com manguezais exuberantes. Séculos de aterramento, industrialização e despejo de esgoto transformaram-na num dos ambientes mais poluídos do Brasil. O caso é estudado como exemplo de como o crescimento urbano desordenado pode destruir, em pouco mais de um século, ecossistemas estuarinos que levaram milênios de deposição de sedimentos e adaptação biológica para se formar.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -273,7 +299,11 @@
 
             <p>Sem raízes para segurar o solo, as margens desmoronam. O material cai no rio, aumentando a carga de sedimentos. Com mais sedimentos do que consegue transportar, o rio começa a depositá-los no próprio leito, elevando o fundo. Esse processo chama-se <span class="termo" data-palavra="Assoreamento" data-definicao="Acúmulo de sedimentos no leito de um rio, lago ou reservatório causado pelo excesso de erosão na bacia. Eleva o fundo, reduz a capacidade de transporte de água e aumenta o risco de enchentes.">assoreamento</span>. Um rio assoreado tem o leito mais raso, transborda com chuvas menores e perde capacidade de navegação.</p>
 
-            <p>O assoreamento é um problema grave em rios brasileiros. O Rio Tietê, que abastece São Paulo, tem perdido profundidade continuamente por décadas de ocupação irregular de suas margens. Reservatórios de hidrelétricas assoreiam e perdem capacidade de geração de energia antes do prazo previsto. A solução passa pela recuperação das matas ciliares e pelo controle da erosão na bacia, não apenas pelo dragagem pontual do leito.</p>
+            <p>O assoreamento é um problema grave em rios brasileiros. O Rio Tietê, que abastece São Paulo, tem perdido profundidade continuamente por décadas de ocupação irregular de suas margens. Reservatórios de hidrelétricas assoreiam com o tempo e perdem capacidade de geração de energia bem antes do prazo previsto em projeto. A solução passa pela recuperação das matas ciliares e pelo controle da erosão na bacia, não apenas pelo dragagem pontual do leito.</p>
+
+            <p>Outro processo ligado à erosão de longo prazo é a <span class="termo" data-palavra="Captura Fluvial" data-definicao="Processo pelo qual um rio, ao erodir sua nascente para trás (erosão remontante), invade e desvia para si o curso de um rio vizinho menos vigoroso, incorporando sua bacia.">captura fluvial</span>. Um rio com maior energia de erosão pode "roubar" a nascente de um rio vizinho menos vigoroso: à medida que sua cabeceira recua rio acima, num processo chamado erosão remontante, ele acaba interceptando e desviando para si as águas do outro curso, incorporando parte da bacia dele. O relevo guarda marcas desses eventos por milhões de anos, na forma de vales secos e cotovelos bruscos onde um rio antigo simplesmente parou de existir.</p>
+
+            <p>Ao longo do tempo geológico, um rio também pode entalhar um vale mais fundo do que tinha antes, por exemplo quando o nível do mar cai ou quando a terra se eleva. Quando isso acontece, a antiga planície de inundação fica "pendurada" acima do novo leito, formando degraus na paisagem chamados terraços fluviais, que registram, como anéis de uma árvore, as diferentes altitudes em que aquele rio já correu ao longo de sua história.</p>
 
             <div class="w3-margin">
                 <img src="tp26F03.png" alt="Comparação de rio com e sem mata ciliar" class="w3-mobile"
@@ -287,12 +317,49 @@
 
             <p>As enchentes fazem parte do funcionamento natural dos rios. O problema é quando populações se instalam na planície de inundação, geralmente por falta de alternativas de moradia em terras mais seguras. Quando a cheia vem, e sempre vem, a tragédia é tratada como "desastre natural", quando na verdade é o resultado de uma combinação de ocupação irregular, falta de planejamento urbano, desmatamento da bacia e ausência de políticas habitacionais.</p>
 
+            <p>O exemplo mais recente e mais grave dessa lógica no Brasil aconteceu em abril e maio de 2024, no Rio Grande do Sul. Chuvas excepcionais fizeram o Lago Guaíba, em Porto Alegre, atingir 5,25 metros em 14 de maio, o maior nível já registrado, inundando o centro histórico e bairros inteiros da capital. No total, cerca de 1,9 milhão de pessoas foram afetadas em 441 municípios, mais de 180 morreram e dezenas de milhares passaram semanas em abrigos. Parte da tragédia teve causa atmosférica, ligada ao fenômeno El Niño daquele ano, mas parte também repetiu o mesmo roteiro de 2011: décadas de ocupação de áreas de risco, impermeabilização do solo urbano e redução da capacidade natural das bacias de absorver e escoar tanta água de uma vez.</p>
+
             <h3>Rios e hidrelétricas</h3>
 
-            <p>O Brasil tem o maior potencial hidrelétrico do mundo e gera cerca de 65% da sua eletricidade com água. Isso tem um custo ambiental e social enorme: barragens inundam vales inteiros, deslocam comunidades ribeirinhas e indígenas, bloqueiam a passagem de peixes migratórios e alteram o regime fluvial a jusante. Belo Monte, no Rio Xingu, é o caso mais recente e polêmico: deslocou mais de 20.000 pessoas, impactou territórios indígenas e reduziu drasticamente a vazão de um trecho do rio em que comunidades pescavam há séculos. O debate entre energia limpa e impacto socioambiental ainda não tem resposta fácil.</p>
+            <p>O Brasil tem o maior potencial hidrelétrico do mundo e gera cerca de 65% da sua eletricidade com água. Isso tem um custo ambiental e social enorme: barragens inundam vales inteiros, deslocam comunidades ribeirinhas e indígenas, bloqueiam a passagem de peixes migratórios e alteram o regime fluvial a jusante. Belo Monte, no Rio Xingu, é o caso mais recente e polêmico: deslocou mais de 20.000 pessoas, impactou territórios indígenas e reduziu drasticamente a vazão de um trecho do rio em que comunidades pescavam há séculos. O debate entre energia limpa e impacto socioambiental ainda não tem resposta fácil: a hidrelétrica não emite gases de efeito estufa na operação, como uma usina a carvão emitiria, mas altera de forma irreversível o padrão de cheias, a migração de peixes e o modo de vida de quem depende diretamente daquele trecho específico do rio.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O padrão de drenagem em que o rio principal e os afluentes se ramificam livremente em várias direções, como os galhos de uma árvore, chama-se:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>radial</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>dendrítico</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>treliça</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'é o dendrítico! Ele se forma sobre rochas homogêneas, sem falhas que imponham uma direção aos afluentes, como boa parte da Bacia Amazônica.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -332,6 +399,8 @@
 
             <p>A resposta ao problema não é controlar o rio com obras de engenharia. É compreender sua dinâmica, respeitar suas planícies e garantir que as populações mais vulneráveis tenham onde morar que não seja dentro do leito maior do rio.</p>
 
+            <p>Mas conhecer a forma dos rios é só metade da história. Na próxima aula, você vai descobrir o que corre dentro deles: de onde vem a poluição que contamina as águas doces do planeta, por que a destruição das matas ciliares que você acabou de estudar também envenena o solo e os lençóis freáticos, e como o uso da água conecta tudo isso à vida das cidades rio abaixo.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -340,12 +409,12 @@
         <!-- BLOCO 10: Infográfico -->
         <div class="topico">
 
-            <h2>Infográfico: resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
             <div class="w3-margin">
-                <img src="inforesumot26.png" alt="Infográfico resumo Sistemas Fluviais" class="w3-mobile"
+                <img id="inforesumotp26" src="inforesumotp26.webp" alt="Infográfico resumo Sistemas Fluviais" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -358,6 +427,47 @@
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 11.2: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em que ano o Lago Guaíba, em Porto Alegre, atingiu seu maior nível histórico, 5,25 metros, na maior enchente já registrada no Rio Grande do Sul?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '2024', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Como se chama o processo pelo qual um rio mais vigoroso avança sua nascente rio acima (erosão remontante) até desviar para si as águas de um rio vizinho?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'captura', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
         </div>
 
 
@@ -382,7 +492,13 @@
                 <span class="primeiraLetra">P:</span>
                 <strong>O que é o "leito maior" de um rio?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Todo rio tem um leito menor, onde a água corre normalmente, e um leito maior, que é a planície de inundação inundada nas cheias excepcionais. O problema é que as pessoas constroem casas, ruas e até bairros inteiros no leito maior, achando que "o rio nunca chegou aqui". Chegou sim. Só não chegou nos últimos anos.</p>
+            <p><span class="primeiraLetra">R:</span> Todo rio tem um leito menor, onde a água corre normalmente, e um leito maior, que é a planície de inundação inundada nas cheias excepcionais. O problema é que as pessoas constroem casas, ruas e até bairros inteiros no leito maior, achando que "o rio nunca chegou aqui". Chegou sim, várias vezes. Só não chegou nos últimos anos.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que os rios da Amazônia têm cores tão diferentes entre si?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque nascem em terrenos diferentes e carregam materiais diferentes. O Solimões vem dos Andes, carregado de sedimentos jovens, e por isso é barrento. O Rio Negro atravessa terrenos antigos e pobres em minerais, e sua cor escura vem da decomposição da matéria orgânica da floresta, quase como um chá. Você pode ver esse contraste ao vivo no chamado "Encontro das Águas", perto de Manaus, onde as águas escura do Rio Negro e barrenta do Solimões correm lado a lado por quilômetros antes de se misturarem completamente, por causa de diferenças de temperatura, densidade e velocidade entre os dois rios.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -398,7 +514,7 @@
                 <h3>Diagnóstico fluvial da sua cidade</h3>
                 <p><strong>Atividade individual ou em dupla</strong></p>
 
-                <p>Pesquise sobre o principal rio que passa pela sua cidade ou região e responda no caderno:</p>
+                <p>Todos os conceitos desta aula (curso superior, médio e inferior, meandros, padrões de drenagem, assoreamento, planície de inundação) existem em algum grau no rio mais próximo de você, mesmo que ele seja pequeno e sem nome de destaque em mapas. Pesquise sobre o principal rio que passa pela sua cidade ou região e responda no caderno:</p>
 
                 <p><strong>1.</strong> Em que trecho do rio sua cidade está localizada (curso superior, médio ou inferior)? Como isso influencia o tipo de relevo e o risco de enchentes?</p>
                 <p><strong>2.</strong> Existem registros de enchentes históricas na sua cidade? Quando ocorreram e quais foram as causas apontadas?</p>
@@ -478,6 +594,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

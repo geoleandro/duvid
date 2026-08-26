@@ -710,7 +710,7 @@
         </div>
 
 
-        <!-- <div class="topico">
+        <div class="topico">
             <h2> Infográfico - Resumo</h2>
             <div class="w3-margin"><img id="inforesumotp10" src="inforesumotp10.webp"
                     alt="Infográfico resumo Dinâmica interna do relevo" class="w3-mobile">
@@ -718,7 +718,7 @@
             </div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
-        </div> -->
+        </div> 
 
 
         <!-- BLOCO: Perguntas e Respostas -->

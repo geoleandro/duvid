@@ -173,6 +173,10 @@
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
             <h4 class="fontePixel"><b>O que aconteceu com esse automóvel enferrujado sob o ponto de vista dos agentes externos do relevo?</b></h4>
+
+              <div class="area">
+                <img alt="Carro enferrujado" class="w3-mobile" id="imagem19" src="tp11f19.png" style="display:block" />
+            </div>
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado" />
@@ -210,6 +214,10 @@
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
             <h4 class="fontePixel"><b>Esse tipo de relevo, chamado de falésia, sempre apresentou esse formato? Quais agentes contribuíram para tal resultado?</b></h4>
+
+              <div class="area">
+                <img alt="Falésia na costa" class="w3-mobile" id="imagem20" src="tp11f20.png" style="display:block" />
+            </div>
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado" />
@@ -788,6 +796,11 @@
         <div class="topico pergunta-bloco w3-container w3-padding-24">
             <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
             <h4 class="fontePixel"><b>Que agente de erosão formou esta estrutura e qual processo ocorreu?</b></h4>
+
+            
+            <div class="area">
+                <img alt="Arco esculpido pelo vento" class="w3-mobile" id="imagem21" src="tp11f21.png" style="display:block" />
+            </div>
             <div class="grupo-respostas w3-margin-top">
                 <div class="item-resposta">
                     <input class="radio-duvid" id="p6a" name="pergunta6" type="radio" value="errado" />
@@ -821,109 +834,6 @@
         </div>
 
 
-        <!-- BLOCO: Pergunta pratica (ravina) -->
-        <div class="topico pergunta-bloco w3-container w3-padding-24">
-            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-            <h4 class="fontePixel"><b>Trata-se de uma erosão realizada pela ação de córregos e enxurradas. É normalmente classificada como de menor escala do que as voçorocas, vales e cânions.</b></h4>
-            <div class="grupo-respostas w3-margin-top">
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p7a" name="pergunta7" type="radio" value="errado" />
-                    <label class="card-opcao" for="p7a">
-                        <span>a) Erosão marinha.</span>
-                    </label>
-                </div>
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p7b" name="pergunta7" type="radio" value="correto" />
-                    <label class="card-opcao" for="p7b">
-                        <span>b) Ravina.</span>
-                    </label>
-                </div>
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p7c" name="pergunta7" type="radio" value="errado" />
-                    <label class="card-opcao" for="p7c">
-                        <span>c) Erosão hídrica.</span>
-                    </label>
-                </div>
-            </div>
-            <div class="w3-margin-top">
-                <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta7', 'resp7', 'globinho7', 'Dica: ravinas são canais menores; quando aprofundam e se alargam, viram voçorocas.', '10')">
-                    Confirmar Resposta
-                </button>
-            </div>
-            <p class="w3-center w3-padding w3-large" id="resp7"></p>
-            <div class="area w3-center">
-                <img height="64" id="globinho7" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
-            </div>
-        </div>
-
-
-        <!-- BLOCO: Pergunta pratica (sedimentacao) -->
-        <div class="topico pergunta-bloco w3-container w3-padding-24">
-            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-            <h4 class="fontePixel"><b>Sedimentação diz respeito:</b></h4>
-            <div class="grupo-respostas w3-margin-top">
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p8a" name="pergunta8" type="radio" value="errado" />
-                    <label class="card-opcao" for="p8a">
-                        <span>a) aos movimentos gravitacionais de massa, mobilizando sedimentos, solos e rochas, que ocorrem de modo brusco em morros ou encostas.</span>
-                    </label>
-                </div>
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p8b" name="pergunta8" type="radio" value="errado" />
-                    <label class="card-opcao" for="p8b">
-                        <span>b) ao conjunto de processos que provocam a alteração e a decomposição das rochas, também chamado de meteorização.</span>
-                    </label>
-                </div>
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p8c" name="pergunta8" type="radio" value="correto" />
-                    <label class="card-opcao" for="p8c">
-                        <span>c) ao acúmulo de deposição dos materiais fragmentados de rochas em áreas de baixa altitude.</span>
-                    </label>
-                </div>
-            </div>
-            <div class="w3-margin-top">
-                <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta8', 'resp8', 'globinho8', 'Dica: sedimentação é o depósito final do material transportado pela erosão, geralmente em áreas mais baixas.', '10')">
-                    Confirmar Resposta
-                </button>
-            </div>
-            <p class="w3-center w3-padding w3-large" id="resp8"></p>
-            <div class="area w3-center">
-                <img height="64" id="globinho8" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
-            </div>
-        </div>
-
-
-        <!-- BLOCO: Pergunta pratica (intemperismo biologico) -->
-        <div class="topico pergunta-bloco w3-container w3-padding-24">
-            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-            <h4 class="fontePixel"><b>O intemperismo biológico resulta da decomposição da rocha por processos mecânicos produzidos por vegetais através de suas raízes, escavação de roedores ou quimicamente por meio da ação de algas e bactérias que adentram nas fraturas das rochas.</b></h4>
-            <div class="grupo-respostas w3-margin-top">
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p9a" name="pergunta9" type="radio" value="correto" />
-                    <label class="card-opcao" for="p9a">
-                        <span>a) Verdadeiro.</span>
-                    </label>
-                </div>
-                <div class="item-resposta">
-                    <input class="radio-duvid" id="p9b" name="pergunta9" type="radio" value="errado" />
-                    <label class="card-opcao" for="p9b">
-                        <span>b) Falso.</span>
-                    </label>
-                </div>
-            </div>
-            <div class="w3-margin-top">
-                <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta9', 'resp9', 'globinho9', 'Dica: raízes, escavações de animais e ácidos de organismos também desgastam e alteram as rochas.', '10')">
-                    Confirmar Resposta
-                </button>
-            </div>
-            <p class="w3-center w3-padding w3-large" id="resp9"></p>
-            <div class="area w3-center">
-                <img height="64" id="globinho9" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
-            </div>
-        </div>
 
 
         <!-- <div class="topico">

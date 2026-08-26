@@ -82,38 +82,36 @@ body.dark-mode .btn-filtro-bib.ativo { background: #2e7d32; color: #fff; }
     margin-top: 14px;
 }
 
-/* ── Grid de filmes ────────────────────────────── */
+/* ── Grid de filmes (mesmo padrão de /paginas/livros-sugeridos.php) ── */
 #grid-filmes {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 18px;
 }
-@media (max-width: 1100px) { #grid-filmes { grid-template-columns: repeat(3, 1fr); } }
-@media (max-width: 760px)  { #grid-filmes { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 460px)  { #grid-filmes { grid-template-columns: 1fr; } }
+@media (max-width: 1200px) { #grid-filmes { grid-template-columns: repeat(4, 1fr); } }
+@media (max-width: 900px)  { #grid-filmes { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px)  { #grid-filmes { grid-template-columns: repeat(2, 1fr); } }
 
-/* ── Card (spec Clean Pixel, versão compacta p/ grid de 4) ── */
+/* ── Card (mesmo padrão visual do .livro-card) ── */
 .filme-card {
     background: #ffffff;
-    border-radius: 22px;
-    box-shadow: 0 4px 12px rgba(0,0,0,.05);
+    border-radius: 18px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.06);
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    transition: transform .15s, box-shadow .15s;
+    transition: transform .18s, box-shadow .18s;
 }
 .filme-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 24px rgba(0,0,0,.10);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,.12);
 }
-body.dark-mode .filme-card { background: #1e1e1e; box-shadow: 0 4px 12px rgba(0,0,0,.3); }
+body.dark-mode .filme-card { background: #1e1e1e; }
 
-/* ── Capa (pôster) — radius só em cima ──── */
+/* ── Capa (pôster) — proporção 2:3 com zoom no hover ──── */
 .filme-capa-wrap {
     position: relative;
-    width: 100%;
-    height: 130px;
-    border-radius: 18px 18px 0 0;
+    aspect-ratio: 2/3;
     background: linear-gradient(135deg, #2e7d32, #1b5e20);
     overflow: hidden;
     flex-shrink: 0;
@@ -122,134 +120,136 @@ body.dark-mode .filme-card { background: #1e1e1e; box-shadow: 0 4px 12px rgba(0,
     width: 100%; height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform .3s;
 }
+.filme-card:hover .filme-capa-wrap img { transform: scale(1.04); }
 .filme-capa-placeholder {
-    width: 100%; height: 100%;
+    position: absolute; inset: 0;
     display: flex; align-items: center; justify-content: center;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     color: rgba(255,255,255,.85);
 }
 
-/* Badge de categoria */
+/* Badge de categoria — mesmo estilo do .livro-tag-badge */
 .filme-capa-tema {
     position: absolute;
     top: 10px; left: 10px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 10px; font-weight: 700;
-    letter-spacing: .03em; text-transform: uppercase;
-    padding: 4px 10px;
-    border-radius: 20px;
+    font-size: .62rem; font-weight: 700;
+    letter-spacing: .05em; text-transform: uppercase;
+    padding: 3px 9px;
+    border-radius: 10px;
     background: var(--tema-cor, #2e7d32);
     color: #ffffff;
-    box-shadow: 0 2px 6px rgba(0,0,0,.18);
+    max-width: calc(100% - 20px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-/* ── Corpo ────────────────────────────────────── */
+/* ── Corpo (mesmo espaçamento do .livro-body) ────────── */
 .filme-body {
-    padding: 16px 18px 18px;
+    padding: 12px 14px 14px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 4px;
     flex: 1;
 }
 
 .filme-tipo {
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
-    font-size: .6rem; font-weight: 700;
+    font-size: .58rem; font-weight: 700;
     letter-spacing: .06em; text-transform: uppercase;
     color: #8a8f8a;
     width: fit-content;
 }
 
-/* Título: compacto, Forest Dark */
+/* Título — mesmo tamanho/peso do .livro-titulo */
 .filme-titulo {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
+    font-size: .85rem;
     font-weight: 700;
-    color: #1b5e20;
-    line-height: 1.25;
-    margin: 1px 0 0;
+    color: #1b1b1b;
+    line-height: 1.3;
+    margin: 0;
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-body.dark-mode .filme-titulo { color: #81c784; }
+body.dark-mode .filme-titulo { color: #e0e0e0; }
 
+/* Ficha (direção · país · ano) — mesmo estilo do .livro-autor */
 .filme-ficha {
     font-family: 'Montserrat', sans-serif;
-    font-size: 10.5px;
-    color: #9aa09a;
+    font-size: .72rem;
+    color: #888;
     line-height: 1.4;
     margin: 0;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
-body.dark-mode .filme-ficha { color: #888; }
+body.dark-mode .filme-ficha { color: #777; }
 
-/* Descrição */
+/* Sinopse — mesmo estilo do .livro-relacao */
 .filme-sinopse {
     font-family: 'Montserrat', sans-serif;
-    font-size: 12.5px;
+    font-size: .73rem;
     font-weight: 400;
-    color: #444746;
+    color: #555;
     line-height: 1.45;
-    margin: 3px 0 6px;
+    margin: 4px 0 0;
     flex: 1;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
-body.dark-mode .filme-sinopse { color: #bbb; }
+body.dark-mode .filme-sinopse { color: #999; }
 
 .filme-rodape {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 8px;
-    margin-top: 2px;
+    margin-top: 10px;
 }
 
 .filme-nota-wrap { display: flex; flex-direction: column; gap: 1px; }
 .filme-nota {
     display: flex; align-items: center; gap: 4px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 12.5px; font-weight: 700;
+    font-size: .72rem; font-weight: 700;
     color: #f9a825;
 }
-.filme-nota i { font-size: 11px; }
+.filme-nota i { font-size: 10px; }
 .filme-classificacao {
     font-family: 'Montserrat', sans-serif;
-    font-size: 9.5px;
+    font-size: .62rem;
     font-style: italic;
     color: #aaa;
 }
 
-/* Botão "Gamer Style" — sombra sólida retrô, compacto */
+/* Botão — mesmo estilo pill do .livro-link */
 .filme-link {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    color: #ffffff;
-    background: #4caf50;
+    gap: 5px;
+    background: #f3f4f5;
+    color: #2e7d32;
     border-radius: 10px;
-    padding: 8px 14px;
-    box-shadow: 0 3px 0 #1b5e20;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .72rem; font-weight: 700;
+    padding: 5px 12px;
     text-decoration: none;
     white-space: nowrap;
-    transition: transform .08s, box-shadow .08s, background .15s;
+    transition: background .15s, color .15s;
 }
-.filme-link:hover { background: #43a047; }
-.filme-link:active {
-    transform: translateY(3px);
-    box-shadow: 0 0 0 #1b5e20;
-}
+.filme-link:hover { background: #e8f5e9; color: #1b5e20; }
+body.dark-mode .filme-link { background: #2a2a2a; color: #66bb6a; }
+body.dark-mode .filme-link:hover { background: #1b2e1b; }
 
 /* ── Aviso de fonte ───────────────────────────── */
 .filme-aviso {

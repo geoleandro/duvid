@@ -224,7 +224,8 @@
       "Wicander",
       "BNCC"
     ],
-    "livros": ["VoltaireCandido", "SontagAmanteDoVulcao", "MurakamiDepoisDoTerremoto"]
+    "livros": ["VoltaireCandido", "SontagAmanteDoVulcao", "MurakamiDepoisDoTerremoto"],
+    "mapaMental": "1ano/Textos1/Texto10/inforesumotp10.webp"
   },
   {
     "id": 111,
@@ -519,6 +520,11 @@
       "AnaRiosBrasil",
       "BBCRiosVoadores"
     ],
+    "livros": [
+      "CabralMorteVidaSeverina",
+      "HemingwayVelhoEMar",
+      "VieiraJuniorTortoArado"
+    ],
     "bibliografia": [
       "Teixeira",
       "Press",
@@ -548,6 +554,11 @@
       "MarinhaAmazulBrasil",
       "NOAAOceano",
       "BBCFossaMarianas"
+    ],
+    "livros": [
+      "MelvilleMobyDick",
+      "VerneIlhaMisteriosa",
+      "HeyerdahlExpedicaoKonTiki"
     ]
   },
   {
@@ -569,6 +580,11 @@
       "CEMADENRisco",
       "BBCEnchentes",
       "AnaRiosBrasil"
+    ],
+    "livros": [
+      "TwainHuckleberryFinn",
+      "AlencarOGuarani",
+      "GarciaMarquezGeneralLabirinto"
     ]
   },
   {
@@ -589,6 +605,11 @@
       "Vesentini",
       "SeneMoreira",
       "BNCC"
+    ],
+    "livros": [
+      "KrenakIdeiasFimMundo",
+      "ArbexArrastados",
+      "BarlowClarkeOuroAzul"
     ]
   },
   {
