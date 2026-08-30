@@ -17,6 +17,11 @@
     "links": [
       "40MapasMundo",
       "AgenciaBrasilDesigualdadeRegional"
+    ],
+    "livros": [
+      "LinsDoRegoMeninoDeEngenho",
+      "RamosVidasSecas",
+      "BuarqueDeHolandaRaizesDoBrasil"
     ]
   },
   {
@@ -39,6 +44,11 @@
     "links": [
       "40MapasMundo",
       "MarinhaAmazulBrasil"
+    ],
+    "livros": [
+      "CunhaOsSertoes",
+      "CastroGeografiaDaFome",
+      "UbaldoRibeiroVivaOPovoBrasileiro"
     ]
   },
   {
@@ -60,6 +70,11 @@
       "ONUPopulacaoMundial",
       "AgenciaBrasilPopDiminuir",
       "AgenciaBrasilEnvelhecimento"
+    ],
+    "livros": [
+      "RibeiroOPovoBrasileiro",
+      "AmadoTendaDosMilagres",
+      "BarretoClaraDosAnjos"
     ]
   },
   {
@@ -81,6 +96,11 @@
     "links": [
       "AgenciaBrasilExportacoes",
       "FapespJurandyrRoss"
+    ],
+    "livros": [
+      "VieiraJuniorTortoArado",
+      "RosaGrandeSertaoVeredas",
+      "KrenakIdeiasFimMundo"
     ]
   },
   {
@@ -103,6 +123,11 @@
     "links": [
       "FapespJurandyrRoss",
       "FapespRelevoInterior"
+    ],
+    "livros": [
+      "SaramagoJangadaDePedra",
+      "ZolaGerminal",
+      "MannAMontanhaMagica"
     ]
   },
   {
@@ -135,6 +160,11 @@
     ],
     "links": [
       "FapespJurandyrRoss"
+    ],
+    "livros": [
+      "HemingwayVelhoEMar",
+      "GarciaMarquezGeneralLabirinto",
+      "AmadoCapitaesAreia"
     ]
   },
   {
@@ -160,6 +190,11 @@
       "PetrobrasPreSal",
       "ANPPetroleo",
       "ANPAnuario2018"
+    ],
+    "livros": [
+      "ArbexArrastados",
+      "GaleanoVeiasAbertas",
+      "CoelhoOAlquimista"
     ]
   },
   {
@@ -181,6 +216,11 @@
     "links": [
       "BrasilEscolaDIT",
       "AgenciaBrasilCarteira"
+    ],
+    "livros": [
+      "GalvaoParqueIndustrial",
+      "MachadoBrasBexigaBarraFunda",
+      "AmadoSuor"
     ]
   },
   {
@@ -201,6 +241,11 @@
       "Vogler",
       "BNCC"
     ],
+    "livros": [
+      "LispectorHoraDaEstrela",
+      "BrandaoZero",
+      "GuarnieriBlackTie"
+    ],
     "links": [
       "FapespRelevoInterior"
     ]
@@ -218,7 +263,15 @@
       "Vesentini",
       "Vogler",
       "Skolnick",
+      "Barat",
+      "FerreiraTransportes",
+      "Gordinho",
       "BNCC"
+    ],
+    "livros": [
+      "RegoPureza",
+      "TwainHuckleberryFinn",
+      "KerouacPeNaEstrada"
     ],
     "links": [
       "IBGECidades",
@@ -254,6 +307,11 @@
     ],
     "links": [
       "ANPPetroleo"
+    ],
+    "livros": [
+      "SinclairOil",
+      "LlewellynComoEraVerdeMeuVale",
+      "ButlerParabolaSemeador"
     ]
   },
   {
@@ -277,6 +335,11 @@
       "CEMADENRisco",
       "IPCCRelatorio",
       "ONUMudancaClimatica"
+    ],
+    "livros": [
+      "QueirozOQuinze",
+      "VerissimoTempoEVento",
+      "JurandirChoveCampos"
     ]
   },
   {
@@ -299,6 +362,11 @@
       "CEMADENRisco",
       "AgenciaBrasilEnchentes",
       "BBCEnchentes"
+    ],
+    "livros": [
+      "CabralMorteVidaSeverina",
+      "AlmeidaABagaceira",
+      "McKibbenFimDaNatureza"
     ]
   },
   {
@@ -319,6 +387,11 @@
       "NationalGeographic",
       "WWFBiomas",
       "MMANumeros"
+    ],
+    "livros": [
+      "HatoumOrfaosEldorado",
+      "WallaceViagensAmazonasRioNegro",
+      "CastroASelva"
     ]
   },
   {
@@ -343,6 +416,11 @@
       "AgenciaBrasilDesmatamento",
       "INPEDesmatamento",
       "WWFCerrado"
+    ],
+    "livros": [
+      "RosaGrandeSertaoVeredas",
+      "VieiraJuniorTortoArado",
+      "VerissimoTempoEVento"
     ]
   },
   {
@@ -364,6 +442,11 @@
     "links": [
       "AgenciaBrasilExportacoes",
       "UNFome"
+    ],
+    "livros": [
+      "RamosSaoBernardo",
+      "CastroGeografiaDaFome",
+      "LinsDoRegoMeninoDeEngenho"
     ]
   },
   {
@@ -396,6 +479,11 @@
       "AgenciaBrasilExportacoes",
       "UNFome",
       "ONUAgua"
+    ],
+    "livros": [
+      "CarsonPrimaveraSilenciosa",
+      "AmadoTerrasDoSemFim",
+      "VargasLlosaGuerraDoFimDoMundo"
     ]
   },
   {

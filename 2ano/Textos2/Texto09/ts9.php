@@ -83,10 +83,12 @@
 <h2>O que é uma indústria? </h2>
 <p> O nome indústria pode ser sinônimo de transformação. Ela modifica matérias-primas, como o minério de ferro,
             e o transforma em um produto comercializável e pronto para o uso, a exemplo do aço.</p>
-<p>No Brasil, o segmento industrial representa cerca de 20% do Produto Interno Bruto – PIB e representa quase
-            70% das exportações brasileiras de bens e serviços. É um setor que emprega 9,7 milhões de trabalhadores e
-            possui uma média salarial de cerca de 5.887 reais para ensino superior e 2.128 reais para nível médio (CNI,
-            2022). </p>
+<p>No Brasil, o segmento industrial representa cerca de 23% do Produto Interno Bruto (PIB) e responde por quase
+            71% das exportações brasileiras de bens e serviços. É um setor que emprega mais de 9 milhões de
+            trabalhadores diretamente e possui uma média salarial de cerca de 5.887 reais para ensino superior e 2.128
+            reais para nível médio (CNI). Vale notar também que, apesar de gerar "só" cerca de um quinto do PIB do
+            país, a indústria concentra a maior parte do investimento privado em pesquisa e desenvolvimento realizado
+            no Brasil, o que reforça seu papel como motor de inovação tecnológica para toda a economia. </p>
 <p> Qualquer mapa do Brasil nos induz a questão sobre qual a razão da distribuição das indústrias ser tão
             concentrada na região Sudeste?</p>
 <div class="w3-margin"><img alt="ts09f01" class="w3-mobile" id="imagem1" src="ts09f01.png"/>
@@ -107,6 +109,16 @@
             introdução de máquinas simples; até a fase <strong>moderna</strong> com a presença de tecnologia avançada
             como robotização e informática. O Brasil também teve seu histórico particular nesse processo de
             industrialização, que marcou e ainda marca seu território ainda hoje.</p>
+<p>Para entender onde o Brasil se encaixa nessa linha do tempo, vale relembrar rapidamente as grandes fases da
+            indústria mundial. A Primeira Revolução Industrial, já citada, usou o carvão e o vapor como fontes de
+            energia. A Segunda Revolução Industrial, a partir do fim do século XIX, trouxe a eletricidade, o petróleo
+            e a linha de produção em série, com destaque para os Estados Unidos e a Alemanha. A Terceira Revolução
+            Industrial, a partir da segunda metade do século XX, é marcada pela eletrônica, pela automação e pela
+            informática. Mais recentemente, fala-se ainda em uma Quarta Revolução Industrial, ligada à robótica
+            avançada, à inteligência artificial e à internet das coisas. O Brasil só começou a se industrializar de
+            fato durante a Segunda Revolução Industrial, décadas depois dos países pioneiros, o que ajuda a explicar
+            boa parte das dificuldades que o país teve, e ainda tem, para competir tecnologicamente no cenário
+            internacional.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -135,6 +147,17 @@
 <p> Como visto, o território foi organizado para ser um <span class="termo" data-palavra="arquipélago econômico" data-definicao="Metáfora usada para descrever um território com núcleos de produção isolados entre si, sem integração ou comunicação, como um conjunto de ilhas.">arquipélago econômico</span>. Arquipélago é um substantivo
             coletivo para um conjunto de ilhas. Nesse caso, o Brasil foi marcado por possuir algumas “ilhas” de
             produção sem comunicação entre si, com transporte deficiente, em benefício do colonizador europeu.</p>
+<p>Esse arquipélago econômico não é uma abstração: dá para visualizá-lo em três ciclos concretos que marcaram
+            regiões inteiras do país sem nunca se conectarem entre si. No Nordeste colonial, a economia açucareira
+            organizou engenhos ao longo do litoral, voltados exclusivamente para o mercado europeu, sem qualquer
+            ligação econômica com o interior do próprio Nordeste. Em Minas Gerais, o ciclo do ouro, no século XVIII,
+            criou vilas ricas e urbanizadas, mas voltadas para escoar metal precioso para Portugal, sem deixar uma
+            base industrial local depois que as jazidas se esgotaram. E, já no início do século XX, o ciclo da
+            borracha na Amazônia enriqueceu Belém e Manaus, a ponto de a capital amazonense construir um teatro de
+            ópera suntuoso, mas assim que a produção asiática de látex se tornou mais barata, a economia da região
+            entrou em colapso, sem ter desenvolvido nenhuma indústria de transformação própria. Cada uma dessas
+            "ilhas" viveu seu próprio ciclo de riqueza e decadência isolada das demais, exatamente o oposto do que
+            seria uma economia nacional integrada.</p>
 <p>A atividade industrial, portanto, só iria se iniciar no final do século XIX, com o surgimento de indústrias
             voltada para a produção de bens de consumo duráveis, como tecidos, roupas, calçados, alimentos e bebidas.
             Antes tudo isso era importado da metrópole portuguesa. </p>
@@ -148,6 +171,14 @@
 <p> Esse cenário que parecia imutável por séculos começou a se modificar com a vinda dos imigrantes a partir de
             1850 e com o fim da escravidão e o surgimento do trabalho assalariado, o qual gerou um mercado consumidor
             ainda pouco expressivo.</p>
+<p>Esses mesmos imigrantes, sobretudo italianos e espanhóis que vinham trabalhar nas fábricas paulistanas, também
+            trouxeram consigo ideias anarquistas e socialistas, e foram protagonistas de um episódio importante dessa
+            fase inicial da industrialização: a <span class="termo" data-palavra="Greve Geral de 1917" data-definicao="Primeira greve geral da história do Brasil, ocorrida em São Paulo em julho de 1917, liderada por operários imigrantes de inspiração anarquista, reivindicando melhores salários e condições de trabalho.">Greve Geral de 1917</span>, a primeira greve geral da história do país. Iniciada em São Paulo após a morte de um
+            grevista espanhol durante um protesto, ela durou cerca de um mês e reuniu operários têxteis, metalúrgicos
+            e de outros setores, reivindicando aumento de salário e melhores condições de trabalho num momento em que
+            o custo de vida havia disparado por causa da Primeira Guerra Mundial. O episódio mostra que, desde o
+            início, a industrialização brasileira trouxe junto conflitos entre capital e trabalho semelhantes aos que
+            já haviam ocorrido décadas antes na Europa industrializada.</p>
 <p>Por que a indústria ficou concentrada no Sudeste? </p>
 <p> Há vários fatores naturais, técnicos e políticos para o predomínio de São Paulo e Rio de Janeiro como
             regiões pioneiras do processo de industrialização. Sabemos que o Brasil era essencialmente agrário até o
@@ -207,18 +238,40 @@
 <p>Do ponto de vista econômico, o referencial teórico que fundamentava as decisões do governo estava ligado à
             intervenção do Estado na economia, aliado a um sentimento nacionalista. </p>
 <p>A partir disso, o governo criou grandes empresas públicas consideradas estratégicas para o avanço da
-            indústria: a Companhia Vale do Rio Doce – atual Vale –, criada em 1942, para atuar na exploração de minério
-            de ferro, em Minas Gerais, na área do Quadrilátero ferrífero; a Companhia Siderúrgica Nacional – CSN -,
+            indústria: a Companhia Vale do Rio Doce (atual Vale), criada em 1942, para atuar na exploração de minério
+            de ferro, em Minas Gerais, na área do Quadrilátero ferrífero; a Companhia Siderúrgica Nacional (CSN),
             inaugurada em 1946, no município de Volta Redonda, no Estado do Rio de Janeiro; e a Petrobrás, fundada em
             1953, uma empresa ligada à pesquisa e prospecção de petróleo, no segundo mandato do governo Vargas. E o
-            Banco Nacional de Desenvolvimento Econômico e Social – BNDES encarregado por financiar os investimentos a
+            Banco Nacional de Desenvolvimento Econômico e Social (BNDES), encarregado por financiar os investimentos a
             longo prazo dessas infraestruturas.</p>
+<p>O caso da CSN é um bom exemplo de como esses grandes projetos industriais transformavam também a geografia
+            humana ao seu redor. As obras da usina começaram em 1941, viabilizadas por um acordo com os Estados
+            Unidos durante a Segunda Guerra Mundial: em troca de financiamento e tecnologia para a siderúrgica, o
+            Brasil cedeu uma base militar em Natal para as forças aliadas. Como não havia praticamente nada na
+            região, a companhia teve que construir do zero uma cidade inteira para abrigar os operários, muitos deles
+            vindos de outras partes do país e apelidados de "arigós": casas, escolas, hospitais, igrejas e áreas de
+            lazer, tudo planejado junto com a fábrica. Assim nasceu Volta Redonda, uma das expressões mais claras de
+            como a industrialização por substituição de importações não construía só fábricas, mas cidades inteiras
+            ao seu redor. Quando o alto-forno foi finalmente aceso, em 1946, o aço produzido ali passou a abastecer
+            obras marcantes como a construção de Brasília e os metrôs do Rio de Janeiro e de São Paulo. Até hoje Volta Redonda
+            carrega o apelido de "Cidade do Aço", uma identidade urbana construída literalmente em torno de uma única
+            grande indústria, algo comum em vários outros municípios brasileiros que nasceram ou cresceram na sombra
+            de uma mineradora, siderúrgica ou montadora de automóveis, como São José dos Campos com a indústria
+            aeroespacial ou São Bernardo do Campo com as montadoras de veículos do ABC paulista.</p>
 <div class="w3-margin" style="transform:rotate(-5deg)"><img alt="ts09f03" class="w3-mobile" id="imagem3" src="ts09f03.png"/>
 </div>
 <span class="w3-small w3-margin-left" id="citacao3"> Fonte: Organizado pelo autor. </span>
 <p>Para criar as condições para que a indústria se expandisse no Brasil e pudesse atender à demanda interna, o
             Estado passou a facilitar a importação de máquinas e equipamentos, mas restringiu, por outro lado, a
             importação de produtos industrializados. </p>
+<p>Essa mesma fase do governo Vargas, conhecida como <span class="termo" data-palavra="Estado Novo" data-definicao="Regime autoritário instaurado por Getúlio Vargas entre 1937 e 1945, marcado pela centralização do poder no Executivo e pela criação de importantes leis trabalhistas.">Estado Novo</span> (1937-1945), regime autoritário com o Congresso fechado e amplos poderes concentrados no
+            Executivo, foi também quando o governo organizou toda a legislação trabalhista existente em um único
+            documento: a Consolidação das Leis do Trabalho (CLT), sancionada em 1943. A CLT unificou direitos como
+            carteira assinada, férias remuneradas, jornada de trabalho limitada e salário mínimo nacional, ao mesmo
+            tempo em que colocava os sindicatos sob forte controle do Estado. Não é coincidência que a organização da
+            mão de obra tenha andado junto com a construção da indústria de base: um operariado com direitos mínimos
+            garantidos, mas também disciplinado pelo Estado, era peça central do projeto de industrialização que
+            Vargas tentava construir.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -239,6 +292,14 @@
 <p>Dessa forma, o processo de industrialização do país ingressou em uma nova fase, marcada pela crescente
             presença de empresas multinacionais, voltadas principalmente para a produção de bens de consumo duráveis,
             como automóveis, eletrodomésticos, transportes, comunicações etc. </p>
+<p>Esse avanço industrial teve um efeito colateral direto sobre a distribuição da população pelo território: o
+            <span class="termo" data-palavra="êxodo rural" data-definicao="Deslocamento em massa da população do campo para as cidades, impulsionado pela mecanização da agricultura e pela busca de empregos nas indústrias urbanas.">êxodo rural</span>. À medida que as cidades ofereciam empregos nas fábricas e a agricultura foi se mecanizando e
+            exigindo cada vez menos trabalhadores, milhões de brasileiros deixaram o campo em direção às cidades ao
+            longo da segunda metade do século XX. Em 1950, cerca de 64% da população brasileira ainda vivia em áreas
+            rurais; em poucas décadas essa proporção se inverteu completamente, e hoje mais de 84% dos brasileiros
+            vivem em cidades. Esse movimento aconteceu de forma rápida demais para que a infraestrutura urbana
+            acompanhasse, o que ajuda a explicar o crescimento acelerado e desordenado de favelas e periferias nas
+            grandes metrópoles industriais, sobretudo em São Paulo e no Rio de Janeiro.</p>
 <p>O Brasil, diante desse cenário, é caracterizado como uma país de industrialização tardia, tendo em vista que
             seu processo de industrialização se concretizou após quase dois séculos do início da Revolução Industrial na
             Europa. </p>
@@ -261,13 +322,35 @@
 <p>O capital estrangeiro entrou em vários setores da economia, principalmente na extração de minerais metálicos
             em Carajás, Trombetas e Jari; nas indústrias químicas e farmacêuticas e na fabricação de bens de capital
             utilizados pelas indústrias de bens de consumo. </p>
+<p>Foi também nesse período, em 1967, que o governo militar criou a Zona Franca de Manaus, por meio do
+            Decreto-lei 288. A ideia era usar incentivos fiscais, isenções de impostos válidas por décadas, para atrair
+            indústrias para o meio da Amazônia, criando ali um polo industrial, comercial e agropecuário capaz de
+            ocupar e integrar uma região até então praticamente isolada do restante do território nacional. Hoje o
+            Polo Industrial de Manaus reúne centenas de fábricas, com destaque para os setores de eletrônicos,
+            informática e motocicletas, e segue sendo um dos poucos grandes exemplos de industrialização fora do eixo
+            Sudeste, mesmo tendo nascido de uma decisão política e não de vantagens naturais de localização.</p>
 <p>Esse período é conhecido pelos historiadores como “<span class="termo" data-palavra="Milagre Econômico" data-definicao="Período entre 1968 e 1973 de crescimento acelerado do PIB brasileiro (chegando a 14% ao ano), impulsionado por investimentos estatais e capital estrangeiro, mas acompanhado de forte concentração de renda.">Milagre Econômico</span>”, com crescimento elevado do PIB, mas
             também com a diminuição do poder de compra por parte dos trabalhadores. </p>
+<p>Os números do período impressionam: a economia brasileira cresceu, em média, mais de 11% ao ano entre 1968 e
+            1973, partindo de 9,8% em 1968 e chegando a 14% em 1973, contra um crescimento médio de apenas 4,2% ao ano
+            nos anos imediatamente anteriores ao golpe. Foi nesse contexto que o Brasil chegou a figurar entre as dez
+            maiores economias do mundo. O problema é que esse crescimento acelerado veio acompanhado de forte
+            concentração de renda: o chamado "bolo" cresceu, na famosa metáfora usada por ministros da época, mas
+            precisaria "crescer para depois ser dividido", o que na prática significou que boa parte da população
+            trabalhadora não sentiu os benefícios desse crescimento no seu dia a dia.</p>
 <p> Com a crise do petróleo, dentre outras, no final da década, os investimentos externos foram reduzidos e a
             economia brasileira teve de arcar com o pagamento dos juros da dívida externa.</p>
 <p> O lema era exportar a qualquer custo e na busca por <span class="w3-yellow" onclick="document.getElementById('superavit').style.display='block'">superávit</span>,
             o país aumentou os impostos de importação e, assim, reduziu a competitividade do parque industrial
             brasileiro diante do exterior ao longo dos anos 1980.</p>
+<p>Não à toa, os anos 1980 ficaram conhecidos na história econômica brasileira como a "década perdida". Enquanto
+            o país tentava pagar os juros da dívida externa herdada do período militar, a inflação foi saindo de
+            controle: em 1989 já passava de quase 2.000% ao ano. Sucessivos planos econômicos tentaram conter os
+            preços por meio de congelamentos, como o Plano Cruzado de 1986, mas todos fracassaram e a inflação voltou
+            a acelerar logo em seguida. O resultado foi uma década de estagnação para a indústria brasileira, com
+            baixo investimento em modernização tecnológica, justamente no momento em que outros países emergentes
+            asiáticos avançavam rapidamente em seus próprios processos de industrialização. Essa crise inflacionária
+            só seria efetivamente resolvida em 1994, com o Plano Real.</p>
 <div class="w3-modal w3-margin-top" id="superavit">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -281,24 +364,25 @@
 </div>
 </div>
 </div>
-<p> Na próxima aula vamos conhecer o que ocorreu com a indústria no Brasil no período de abertura econômica e
-            desconcentração industrial.</p>
-<div class="w3-panel w3-green">
+<p> Vimos aqui como o Brasil saiu de uma economia agroexportadora fragmentada em "ilhas" isoladas para construir,
+            em pouco mais de meio século, um parque industrial concentrado sobretudo no Sudeste. Na próxima aula
+            vamos entender a segunda parte dessa história: os fatores que explicam por que a indústria se instalou
+            onde se instalou, e como esse mapa começou a mudar nas últimas décadas, com a desconcentração industrial
+            levando fábricas para outras regiões do país.</p>
 <h3>Saiba mais!</h3>
 <h4>Depois da tempestade, vem o “milagre”</h4>
 <p>Do ponto de vista da industrialização brasileira propriamente dita, o golpe de 1964 não trouxe nenhuma
-                mudança nos rumos por ela tomada desde 1955. Muito pelo contrário, o papel da ditadura militar foi o de
-                consolidar o modelo econômico implantado nos anos 1950, aperfeiçoando-o. Logo, a primeira característica
-                da industrialização brasileira dessa época foi a permanência das diretrizes estabelecidas pelo Plano de
-                Metas, mantendo-se o tripé inaugurado nos anos 1950 a pleno vapor.</p>
+            mudança nos rumos por ela tomada desde 1955. Muito pelo contrário, o papel da ditadura militar foi o de
+            consolidar o modelo econômico implantado nos anos 1950, aperfeiçoando-o. Logo, a primeira característica
+            da industrialização brasileira dessa época foi a permanência das diretrizes estabelecidas pelo Plano de
+            Metas, mantendo-se o tripé inaugurado nos anos 1950 a pleno vapor.</p>
 <p>A história da economia e da industrialização brasileiras do pós-64 pode ser dividida em três períodos: a)
-                <strong>1962-1967</strong> – fase caracteriza como de crise e recessão; b) <strong>1968-1974</strong> –
-                fase de retomada do crescimento industrial, vulgarmente conhecida como “milagre econômico brasileiro”,
-                em virtude das elevadas taxas de crescimento de nossa economia; c) de <strong>1974 até o presente
-                    (1992)</strong> – fase em que o “milagre” entrou em total e completo declínio, sem que as várias
-                saídas tentadas tenham conseguido grande sucesso.
-            </p>
-</div>
+            <strong>1962-1967</strong>: fase caracteriza como de crise e recessão; b) <strong>1968-1974</strong>:
+            fase de retomada do crescimento industrial, vulgarmente conhecida como “milagre econômico brasileiro”,
+            em virtude das elevadas taxas de crescimento de nossa economia; c) de <strong>1974 até o presente
+                (1992)</strong>: fase em que o “milagre” entrou em total e completo declínio, sem que as várias
+            saídas tentadas tenham conseguido grande sucesso.
+        </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -440,15 +524,65 @@
             Até a década de 1960, a velha DIT se referia aos países do Norte como os responsáveis pelo fornecimento de produtos industrializados e os do Sul, pelos produtos primários, como minérios e produtos agrícolas. Com o passar do tempo, surgiram países, como o Brasil, México e Coréia do Sul, Hong Kong, Taiwan, Singapura, Índia, etc. que reorganizaram seu espaço produtivo e foram caracterizados de Países recentemente industrializados.<br/>
             
             Alguns desses países favorecem a entrada de multinacionais em seu território e melhoraram suas exportações. Outros investiram em bens de capital como o Brasil e em infraestrutura. O importante é lembrar que a análise sobre um país está intimamente ligada aos interesses do capitalismo mundial, dos governos locais, dos fatores naturais e das características próprias de cada povo com seu território, não se trata de simples comparação entre um país e outro, pois há história e geografias diferentes entre cada país no mundo.
-            
+
         </p>
+<p>Vale notar que, mesmo depois de décadas de industrialização, o Brasil continua sendo, na balança comercial,
+            um grande exportador de commodities: lembre-se da aula sobre recursos minerais, em que vimos que minério de
+            ferro, soja e petróleo seguem entre os principais produtos exportados pelo país. Isso mostra que a
+            industrialização não elimina de uma vez por todas o papel de fornecedor de matérias-primas que um país
+            ocupa na Divisão Internacional do Trabalho, ela apenas se soma a esse papel. O Brasil de hoje exporta ao
+            mesmo tempo minério de ferro bruto e aviões fabricados pela Embraer, o que o coloca numa posição híbrida e
+            complexa dentro da economia mundial: nem totalmente periférico, nem plenamente central.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
 <br/><br/>
 <hr/>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots9" src="inforesumots9.webp" alt="Infográfico resumo industrialização brasileira" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'"/>
+<span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr/>
+</div>
+<div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Que processo levou milhões de brasileiros a deixar o campo rumo às cidades ao longo da industrialização?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'êxodo rural', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que estratégia econômica levou o governo a facilitar a importação de máquinas, mas dificultar a importação de produtos industrializados já prontos?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'substituição de importações', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
 <hr/>
 </div>
 <div class="topico">
@@ -502,6 +636,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

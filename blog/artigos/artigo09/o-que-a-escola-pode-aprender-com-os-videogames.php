@@ -27,6 +27,10 @@ $autor     = "Leandro Henrique da Silva";
     <script src="/js/carregar.js"       defer></script>
     <script src="/js/abrirmenu.js"      defer></script>
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5408157966429216" crossorigin="anonymous"></script>
+    <style>
+        /* Offset da navbar fixa */
+        main.texto-layout { padding-top: 80px !important; }
+    </style>
     <title><?= htmlspecialchars($titulo) ?> — Duvid Blog</title>
 </head>
 <body class="w3-light-grey">
@@ -34,9 +38,11 @@ $autor     = "Leandro Henrique da Silva";
     <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v18.0"></script>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
-    <main class="w3-row w3-content" style="max-width:1600px; margin-top:20px;">
-        <div class="w3-col l8 s12">
-            <div class="w3-container artigo-texto w3-white w3-margin-bottom w3-padding-32">
+    <main class="texto-layout">
+<div class="blog-body-pad">
+    <div class="blog-grid-row">
+        <div class="blog-col-main">
+            <div class="artigo-texto blog-widget w3-margin-bottom" style="padding:32px;">
                 <h2 class="w3-center">
                     <strong id="artigo-titulo-principal"><?= htmlspecialchars($titulo) ?></strong>
                 </h2>
@@ -161,13 +167,15 @@ $autor     = "Leandro Henrique da Silva";
                 <div id="comentarios-fb"></div>
             </div>
         </div>
-        <div class="w3-col l4 s12">
+        <aside class="blog-col-aside">
             <div id="tags-container"></div>
             <div id="posts-recentes-container"></div>
             <div id="leia-tambem-container"></div>
             <div id="arquivo-blog-container"></div>
-        </div>
-    </main>
+        </aside>
+    </div><!-- /blog-grid-row -->
+</div><!-- /blog-body-pad -->
+</main>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
     <script>

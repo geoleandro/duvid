@@ -198,7 +198,9 @@
                 longo de todo o primeiro século. Somente no século XVII a escravidão negra viria a ultrapassá-la. Os
                 indígenas eram utilizados principalmente para produção de subsistência, como preparo de alimentos, caça e
                 pesca. A escravatura negra era preferível para a produção mercantil de exportação. Dessa mistura de brancos
-                e índios surgem os mamelucos, que foram fundamentais para o domínio português terra adentro.</p>
+                e índios surgem os
+                <span class="termo" data-palavra="Mameluco" data-definicao="Termo usado para descrever o descendente de branco (europeu) com indígena. Foi especialmente numeroso em São Paulo colonial, onde mamelucos formaram boa parte das bandeiras que avançaram para o interior do território.">mamelucos</span>,
+                que foram fundamentais para o domínio português terra adentro.</p>
 
             <p><strong>Duvid:</strong> E a maioria dos negros foi trazida de quais países?</p>
 
@@ -260,7 +262,7 @@
             </p>
 
             <button class="btnShow"
-                onclick="MostrarProximo(this);  MostrarFrase('resp1','globinho1', 'desativar1', 'essa entrevista foi sensacional!','3');this.style.display='none'">Proximo</button>
+                onclick="MostrarProximo(this); ProcessarResposta(this, {correto: true, idFrase: 'resp1', idGlobo: 'globinho1', mensagem: 'essa entrevista foi sensacional!', pontos: 3}); this.style.display='none'">Proximo</button>
             <hr>
 
             <p id="resp1"></p>
@@ -406,7 +408,9 @@
             <p>É interessante notar que a maioria da população brasileira é formada por pardos e pretos. Em 2019, essa
                 situação sofreu uma modificação: </p>
 
-            <p> O IBGE pesquisa a cor ou raça da população brasileira com base na declaração. Ou seja, as pessoas são
+            <p> O IBGE pesquisa a cor ou raça da população brasileira com base na
+                <span class="termo" data-palavra="Autodeclaração" data-definicao="Método usado pelo IBGE em que a própria pessoa entrevistada escolhe, entre as opções branca, preta, parda, amarela ou indígena, como se identifica. O recenseador não classifica ninguém pela aparência: ele apenas registra a resposta dada.">autodeclaração</span>.
+                Ou seja, as pessoas são
                 perguntadas sobre sua cor e podem se declarar como brancas, pretas, pardas, indígenas ou amarelas.</p>
 
             <p> Se fôssemos uma pequena comunidade de 100 pessoas, 43 brasileiros se declarariam como brancos, 47 como
@@ -430,7 +434,9 @@
                 localização dos indivíduos no território e também sobre seu vazio demográfico, isto é, as áreas onde não há
                 muitas pessoas concentradas.</p>
 
-            <p>Vamos falar de matriz étnica quando quisermos nos referir à formação da população brasileira baseada em
+            <p>Vamos falar de
+                <span class="termo" data-palavra="Matriz Étnica" data-definicao="Cada um dos três grandes grupos que, segundo a formação histórica clássica, deram origem ao povo brasileiro: a matriz indígena, a matriz africana e a matriz europeia (branca). O conceito é usado para explicar a miscigenação sem reduzir a população brasileira a uma única origem.">matriz
+                    étnica</span> quando quisermos nos referir à formação da população brasileira baseada em
                 brancos, negros africanos e povos indígenas. Nossa população formou-se tanto pela colonização como pela
                 vinda de imigrantes. É uma história de concentração relativa e de
                 <span class="termo" data-palavra="Miscigenação" data-definicao="Mistura biológica e cultural entre grupos étnicos distintos, como indígenas, africanos e europeus. No Brasil, é considerada uma das marcas centrais da formação do povo, embora tenha ocorrido em condições historicamente marcadas pela violência da colonização e da escravidão.">miscigenações</span>.</p>
@@ -451,7 +457,8 @@
             <p>Em 1500 havia, por volta, 5 milhões de índios no Brasil. Depois entraram cerca de 6 milhões de negros e,
                 aproximadamente, 4 milhões de brancos. O Nordeste foi a primeira região a ser colonizada, com mão de obra
                 escrava para a cultura da cana-de-açúcar. No Norte ocorreu ocupação tardia, com influência indígena, em
-                caboclos (brancos e índios) e cafuzos (negros e índios). No Sudeste, predomínio de brancos imigrantes que
+                <span class="termo" data-palavra="Caboclo" data-definicao="Termo usado para descrever o descendente de branco com indígena. É um dos tipos de miscigenação mais comuns na Amazônia e no interior do Brasil, associado historicamente ao extrativismo e à vida ribeirinha.">caboclos</span> (brancos e índios) e
+                <span class="termo" data-palavra="Cafuzo" data-definicao="Termo usado para descrever o descendente de negro com indígena, uma das combinações de miscigenação menos numerosas no Brasil, mas historicamente presente sobretudo em áreas de contato direto entre quilombolas e populações indígenas.">cafuzos</span> (negros e índios). No Sudeste, predomínio de brancos imigrantes que
                 vieram trabalhar na cultura do café, após o término da escravidão. No Sul, maioria branca, de imigrantes que
                 receberam propriedades para ocupar essa parcela do território. </p>
 
@@ -513,7 +520,9 @@
             <h2>A população indígena </h2>
 
             <p>De acordo com os dados do Censo 2010, no Brasil vivem 896.917 pessoas que se declaram indígenas. Desse
-                total, 57,7% vivem em terras indígenas oficialmente reconhecidas. </p>
+                total, 57,7% vivem em
+                <span class="termo" data-palavra="Terra Indígena" data-definicao="Porção do território nacional habitada por povos indígenas, com posse permanente garantida pela Constituição de 1988 e demarcação oficial feita pela FUNAI. É de propriedade da União, mas de usufruto exclusivo dos povos que a habitam.">terras
+                    indígenas</span> oficialmente reconhecidas. </p>
 
             <div class="w3-margin"><img id="imagem5" src="ts03f05.png" alt="ts03f05" class="w3-mobile">
 
@@ -632,11 +641,15 @@
                 maioria parda e negra ocupando um lugar inferior na hierarquia social, com salários mais baixos, vivendo
                 em piores condições e com os piores trabalhos, dentre outros aspectos.</p>
 
-            <p> Os dados recentes mostram que a média de rendimento mensal dos pardos corresponde a 80% da renda da
-                população branca, e a dos negros, a 74%. Por exemplo, se o rendimento mensal médio do branco é de 2.796
-                reais, o da população negra é de 1.608 reais. Os negros também compõem 63% dos pobres e 69% dos indigentes
-                totais do Brasil, sem falar na taxa de desemprego, que é maior nessa faixa da população, e no acesso à
-                educação, medido em anos de estudo, em média menor, dentre outras variáveis (Agência, 2022).</p>
+            <p> Os dados mais recentes da PNAD Contínua, do IBGE, mostram que em 2023 o rendimento médio da população
+                branca ocupada foi de 3.847 reais, enquanto o da população preta ou parda foi de 2.264 reais, uma
+                diferença de 41,1%, maior até do que a registrada no ano anterior. Olhando por hora trabalhada, a
+                distância é ainda mais evidente: 23 reais por hora para trabalhadores brancos contra 13,70 reais para
+                pretos e pardos. A população preta e parda também está mais exposta à informalidade: 45,8% dos
+                trabalhadores informais do país são pretos ou pardos, acima da média nacional de 40,7%, contra 34,3%
+                entre os brancos. Some-se a isso a maior taxa de desemprego e o menor número médio de anos de estudo
+                nessa faixa da população, e fica claro que a desigualdade racial no Brasil não é um resquício do
+                passado: ela se renova a cada nova pesquisa domiciliar (IBGE, PNAD Contínua, 2023).</p>
 
             <p>Se as desigualdades no Brasil são evidentes e muito fortes entre os grupos étnicos, a situação dos negros é
                 pior, com raras exceções. Veja o exemplo das mulheres negras: além do preconceito, ocupam posições
@@ -648,9 +661,9 @@
                 profissionais, aqui no Brasil é praticamente cultural, quase uma forma de escravidão, embora as conquistas
                 trabalhistas nas últimas décadas tenham reduzido os abusos contra esses profissionais.</p>
 
-            <p>A busca de direitos é um processo longo, mas o reconhecimento dos quilombos (comunidades formadas por
-                descendentes de africanos escravizados que fugiram ou foram libertados, historicamente despossuídas de
-                terras) e ações afirmativas, como cotas nos processos seletivos das universidades, estão na ordem do dia
+            <p>A busca de direitos é um processo longo, mas o reconhecimento dos
+                <span class="termo" data-palavra="Quilombo" data-definicao="Comunidade formada por descendentes de africanos escravizados que fugiram ou foram libertados, historicamente despossuída de terras. A Constituição de 1988 garante às comunidades quilombolas o direito à titulação definitiva de suas terras.">quilombos</span>
+                e ações afirmativas, como cotas nos processos seletivos das universidades, estão na ordem do dia
                 para reduzir essas desigualdades.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -659,9 +672,49 @@
 
         </div>
 
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A diferença de rendimento entre trabalhadores brancos e pretos/pardos no Brasil,
+                    mostrada pela PNAD Contínua, é explicada principalmente por:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao"><span>Diferenças biológicas de capacidade entre grupos raciais</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao"><span>Desigualdades estruturais herdadas da escravidão e do racismo</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao"><span>Escolha individual de profissões menos valorizadas</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp4', 'globinho4', 'isso mesmo: não existe base biológica para diferença de renda entre raças, o que existe é desigualdade estrutural que se arrasta desde a escravidão até o mercado de trabalho atual', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp4" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho4" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
         <div class="topico">
 
             <h2>O papel da imigração no Brasil </h2>
+
+            
+            <div class="w3-margin"><img id="imagem9" src="ts03f09.png" alt="Matriz étnica" class="w3-mobile">
+                <span class="w3-small w3-margin-left" id="citacao7">Fonte: organizada e revisada pelo autor. </span>
+            </div>
+
 
             <p>A matriz étnica branca no Brasil foi formada por diversos povos, mas sobretudo pela população europeia. </p>
 
@@ -711,10 +764,26 @@
             <p><strong>Coreanos</strong>: mais recente e em menor número (50 mil), a comunidade coreana está concentrada
                 na capital paulista, São Paulo.</p>
 
+            <p>Depois de percorrer índios, negros e imigrantes, fica mais fácil entender a frase de Darcy Ribeiro com a
+                qual abrimos esta aula: o povo brasileiro não é uma cópia mal feita do europeu, é um povo novo,
+                nascido do choque e da mistura entre esses três troncos. Na próxima aula vamos usar essa mesma
+                população, já formada, para entender um problema concreto e muito atual: como a terra brasileira está
+                distribuída entre essas pessoas, e por que a estrutura fundiária do país segue sendo motivo de
+                conflito.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
 
 
+        </div>
+
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumots3" src="inforesumots3.webp" alt="Infográfico resumo formação étnica do povo brasileiro" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
         <div class="topico">
@@ -820,6 +889,42 @@
 
         </div>
 
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em quantas diferentes etnias indígenas o Censo 2010 dividiu a população indígena do Brasil?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '305', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Em que ano a escravidão foi abolida no Brasil?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '1888', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
         <div class="topico">
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
@@ -875,6 +980,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

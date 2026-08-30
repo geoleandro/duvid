@@ -273,6 +273,40 @@
 
     </div>
 
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Qual subgrupo vegetacional da Floresta Amazônica ocorre em áreas de inundação sazonal e apresenta espécies com raízes aéreas e copas mais estreitas?</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p1a" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1a">
+<span>a) Mata de Terra Firme</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto"/>
+<label class="card-opcao" for="p1b">
+<span>b) Mata de Igapó</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p1c" name="pergunta1" type="radio" value="errado"/>
+<label class="card-opcao" for="p1c">
+<span>c) Ecótono</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'a Mata de Igapó fica em áreas permanentemente próximas a rios e igarapés, alagadas boa parte do ano', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp1"></p>
+<div class="area w3-center">
+<img height="64" id="globinho1" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
 <div class="topico">
 
         <h2> A degradação da vegetação</h2>
@@ -389,6 +423,40 @@
 
     </div>
 
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Por que o mercúrio usado no garimpo de ouro é tão perigoso para a saúde das populações amazônicas?</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2a">
+<span>a) Porque evapora rapidamente e não afeta a água ou o solo</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="correto"/>
+<label class="card-opcao" for="p2b">
+<span>b) Porque se acumula na cadeia alimentar, dos peixes até quem os consome</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="errado"/>
+<label class="card-opcao" for="p2c">
+<span>c) Porque só é usado em garimpos legalizados e fiscalizados</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'o mercúrio se bioacumula ao longo da cadeia alimentar, causando danos neurológicos em quem consome peixes contaminados', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp2"></p>
+<div class="area w3-center">
+<img height="64" id="globinho2" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
 <div class="topico">
 
         <h2>A destruição da Mata Atlântica </h2>
@@ -405,10 +473,10 @@
 
         <p>A Mata Atlântica é caracterizada por um clima tropical úmido, que se estende do Rio Grande do Sul ao Rio
             Grande do Norte. Originalmente, esse bioma ocupava uma área de aproximadamente 1,3 milhão de km². No entanto,
-            devido à intensa degradação, restam hoje cerca de 24% dessa cobertura original, segundo o Atlas mais
-            recente da SOS Mata Atlântica em parceria com o INPE (2023-2024) — mas a mata madura e bem conservada
-            representa uma fatia bem menor desse total, já que a maior parte dos remanescentes está fragmentada em
-            pedaços pequenos e pouco protegidos. A Mata Atlântica é composta por
+            devido à intensa degradação, restam hoje cerca de 24% dessa cobertura original, segundo o Atlas dos
+            Remanescentes Florestais da Mata Atlântica 2024-2025, elaborado pela Fundação SOS Mata Atlântica em
+            parceria com o INPE. Desse total, a mata madura e bem conservada representa uma fatia bem menor, cerca de
+            12,4%, já que a maior parte dos remanescentes está fragmentada em pedaços pequenos e pouco protegidos. A Mata Atlântica é composta por
             uma floresta densa e úmida, presente principalmente nas encostas da Serra do Mar. Os solos desse bioma estão
             sujeitos a altos níveis de umidade e intemperismo químico, o que resulta no desgaste da matéria orgânica e
             dos sais minerais. </p>
@@ -441,19 +509,20 @@
         <p>Apesar dos desafios enfrentados, esforços de conservação vêm sendo realizados para preservar e restaurar a
             Mata Atlântica. A criação de unidades de conservação, a implementação de políticas de proteção ambiental e o
             engajamento da sociedade civil têm sido fundamentais nesse processo. A Mata Atlântica é reconhecida como um
-            <span class="termo" data-palavra="Hotspot de biodiversidade" data-definicao="Região com altíssima concentração de espécies endêmicas (que não existem em nenhum outro lugar) e que, ao mesmo tempo, sofreu perda de mais de 70% de sua vegetação original — critério que classifica a Mata Atlântica entre os hotspots mais críticos do planeta.">hotspot de biodiversidade</span> e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
+            <span class="termo" data-palavra="Hotspot de biodiversidade" data-definicao="Região com altíssima concentração de espécies endêmicas (que não existem em nenhum outro lugar) e que, ao mesmo tempo, sofreu perda de mais de 70% de sua vegetação original, critério que classifica a Mata Atlântica entre os hotspots mais críticos do planeta.">hotspot de biodiversidade</span> e sua preservação é essencial para a manutenção dos serviços ecossistêmicos e para
             a qualidade de vida das populações que dependem desse bioma. </p>
 
         <p>Desde 2006, o bioma conta com uma legislação federal específica, a <span class="termo" data-palavra="Lei da Mata Atlântica" data-definicao="Lei federal nº 11.428, sancionada em dezembro de 2006, que estabelece regras mais rígidas para o desmatamento e a exploração da vegetação nativa da Mata Atlântica, dado seu avançado estado de fragmentação.">Lei da Mata Atlântica</span>
             (Lei nº 11.428), que impõe regras mais rígidas para o desmatamento e a exploração da vegetação nativa,
-            justamente por seu estado avançado de fragmentação. Fundada em 1986, a organização SOS Mata Atlântica produz
-            anualmente o Atlas da Mata Atlântica, que monitora por satélite a perda de florestas maduras dentro dos
-            limites de aplicação da lei. Os dados acumulados ao longo de quase quatro décadas mostram uma tendência
-            geral de queda no desmatamento: das taxas mais altas registradas nos anos 1980 e 1990 até o menor valor
-            da série histórica, observado no período de 2017 a 2018. Ainda assim, o desmatamento nunca cessou, e em
-            anos recentes a taxa voltou a subir para patamares acima desse mínimo histórico, o que mostra que a
-            redução ao longo do tempo, embora real, é lenta, e que o bioma segue vulnerável mesmo com a legislação de
-            proteção em vigor.</p>
+            justamente por seu estado avançado de fragmentação. Fundada em 1986, a organização SOS Mata Atlântica produz,
+            em parceria com o INPE, o Atlas da Mata Atlântica, que monitora por satélite a perda de florestas maduras
+            dentro dos limites de aplicação da lei. Os dados acumulados ao longo de quatro décadas mostram uma
+            tendência geral de queda no desmatamento: das taxas mais altas registradas nos anos 1980 e 1990 até o
+            resultado do período 2024-2025, quando a supressão de florestas maduras caiu 40% em relação ao
+            levantamento anterior, o menor índice já registrado desde o início do monitoramento. Ainda assim, o
+            desmatamento nunca cessou por completo, o que mostra que, embora a redução seja real e tenha se acelerado
+            nos últimos anos, o bioma segue vulnerável e depende da continuidade da fiscalização mesmo com a
+            legislação de proteção em vigor.</p>
 
 
 
@@ -519,6 +588,40 @@
 
     </div>
 
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Por que a Araucária, uma árvore de clima frio, ocorre hoje em áreas de clima subtropical no Sul e Sudeste do Brasil?</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3a">
+<span>a) Porque foi plantada por colonizadores europeus no século XIX</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3b">
+<span>b) Porque se adapta a qualquer tipo de clima</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3c">
+<span>c) Porque se estabeleceu em paleoclimas mais frios do passado geológico</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'a araucária se espalhou em condições de paleoclima mais frio e permaneceu nessas altitudes mesmo com o aquecimento posterior', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
 <div class="topico">
 
         <h2>A importância e fragilidade do manguezal </h2>
@@ -547,6 +650,12 @@
             berçário e refúgio para várias espécies de peixes, crustáceos e aves marinhas, contribuindo para a
             diversidade biológica e para a sustentabilidade dos recursos pesqueiros. </p>
 
+        <p>O manguezal também se destaca por outro motivo, menos visível: o chamado <span class="termo" data-palavra="Carbono azul" data-definicao="Carbono capturado e armazenado por ecossistemas costeiros, como manguezais, marismas e pradarias marinhas, geralmente no solo encharcado e pobre em oxigênio, onde a decomposição da matéria orgânica é muito mais lenta do que em ambientes terrestres.">carbono azul</span>. Estudos apontam que um hectare de manguezal brasileiro pode
+            armazenar de duas a quatro vezes mais carbono do que a mesma área de outros biomas, incluindo a própria
+            Floresta Amazônica, principalmente porque a matéria orgânica se acumula por séculos no solo lamoso, sem
+            se decompor por completo. Isso torna o desmatamento do mangue especialmente prejudicial: manguezais
+            degradados liberam de volta para a atmosfera boa parte do carbono que levaram tanto tempo para estocar,
+            agravando o efeito estufa e as mudanças climáticas.</p>
 
         <p>A fragilidade do mangue é evidente devido à sua sensibilidade a mudanças ambientais e à ação humana. A
             ocupação desordenada das áreas costeiras, o desmatamento para a expansão urbana e a poluição dos rios e
@@ -572,7 +681,7 @@
 
     </div>
 
-<div class="topico w3-light-gray">
+<div class="topico">
 
         <h2>Caminhos para um futuro ambientalmente equilibrado</h2>
 
@@ -641,7 +750,9 @@
             recursos adequados e a participação de todos os setores da sociedade para promover uma gestão ambiental
             sustentável e garantir a preservação desses importantes biomas. </p>
 
-
+        <p>Amazônia, Mata Atlântica, Araucárias e manguezal são só uma parte do painel vegetal brasileiro. Na próxima
+            aula, seguimos para outros domínios que também carregam desafios próprios: o Cerrado, a Caatinga, o
+            Pantanal, os Pampas e a Mata dos Cocais.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -650,7 +761,7 @@
 
     </div>
 
-    
+
 
         <div class="topico">
 
@@ -658,9 +769,9 @@
 
 
 
-            <div class="w3-margin"><img id="infograficot2" src="inforesumots16.png"
-                    alt="Infográfico resumo raio x da população" class="w3-mobile">
-                <span class="w3-small w3-margin-left" id="citacao6"> Fonte: Organizado e revisado pelo autor. </span>
+            <div class="w3-margin"><img id="inforesumots16" src="inforesumots16.webp"
+                    alt="Infográfico resumo Vegetação do Brasil - Domínios I" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
 
@@ -669,70 +780,6 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
-
-
-        </div>
-
-
-<div class="topico w3-pale-yellow ">
-
-            <p class="caixa">Agora é com você!</p>
-
-           
-
-            <h1>Atividade: O livro das perguntas</h1>
-
-            <p><strong>Instruções</strong>:</p>
-
-            <ul>
-
-                <li>Forme um grupo com 5-6 estudantes;</li>
-
-                <li> Cada grupo deve escolher um tópico abaixo e desenvolver três questões relacionadas a ele. </li>
-
-                <li> Reflita criticamente e a explore diferentes perspectivas.</li>
-
-                <li> Pense em processos, causas e consequências </li>
-
-                <li>Faça questões desafiadoras sobre a relação entre o ser humano e a vegetação.</li>
-
-                <li>Tempo da atividade: 15 minutos.</li>
-
-            </ul>
-
-
-            <h1>Exemplo de tópico</h1>
-
-            <p><strong>Motivações e Interesses</strong>:</p>
-
-            <p>- Como as ambições individuais e coletivas podem levar à degradação da vegetação?</p>
-
-            <p>- Em que medida a busca por recursos naturais afeta a preservação da vegetação?</p>
-
-            <p><strong>Lucro e Crescimento Econômico</strong>:</p>
-
-            <p><strong>Consciência Ecológica e Conexão com a Natureza</strong>:</p>
-
-
-            <p><strong>Educação Ambiental:</strong>:</p>
-
-
-            <p><strong>Influências Sociais, Culturais e Políticas</strong>:</p>
-
-
-            <p><strong>Tecnologia e Degradação da Vegetação</strong>:</p>
-
-
-            <p><strong>Responsabilidade Individual e Coletiva</strong>:</p>
-
-
-            <p><strong>Consequências da Degradação da Vegetação</strong>:</p>
-
-
-
-            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
-            <hr>
-
 
 
         </div>
@@ -842,6 +889,43 @@
         </div>
 
         <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Por que a Mata de Várzea tem solos mais férteis que a Mata de Terra Firme?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'sedimentos', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Como o mangue protege a costa contra a erosão e o avanço das marés?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'barreira', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr/>
+        </div>
+
         <div class="topico">
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para o caderno</h2>
@@ -897,6 +981,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

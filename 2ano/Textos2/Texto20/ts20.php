@@ -134,11 +134,20 @@
         <p>Os <span class="termo" data-palavra="transgênicos" data-definicao="Organismos geneticamente modificados (OGMs) cujo código genético foi alterado em laboratório para incorporar características de interesse, como resistência a pragas, a herbicidas ou maior produtividade.">transgênicos</span> são organismos geneticamente modificados (OGMs), cujos códigos genéticos foram alterados para melhorar características como resistência a pragas e produtividade. No Brasil, a soja transgênica é amplamente cultivada: segundo estudos da consultoria Céleres, ela já representa cerca de 92% de toda a área plantada de soja do país. Embora os transgênicos possam aumentar a produção e reduzir o uso de alguns pesticidas, eles também geram controvérsias sobre a segurança alimentar e o impacto ambiental a longo prazo.</p>
         <p><em>Exemplo Prático:</em> A soja RR (Roundup Ready) é um tipo de soja geneticamente modificada para ser resistente ao herbicida glifosato. Isso permite aos agricultores aplicar o herbicida diretamente nas lavouras, eliminando as ervas daninhas sem afetar a soja. No entanto, o uso intensivo de glifosato tem sido associado à resistência de ervas daninhas e à contaminação ambiental.</p>
 
+        <p>O próprio glifosato é hoje um dos agroquímicos mais debatidos do mundo. Em 2015, a Agência Internacional de Pesquisa sobre o Câncer (IARC), ligada à OMS, classificou a substância como "provavelmente cancerígena para humanos", uma avaliação de perigo, isto é, da possibilidade teórica de causar câncer, não necessariamente do risco real considerando a exposição cotidiana das pessoas. Essa conclusão contrariou análises de outras agências reguladoras, como a EFSA europeia e a Agência de Proteção Ambiental dos Estados Unidos, que não encontraram evidências suficientes para classificar o produto como cancerígeno nas condições autorizadas de uso. No Brasil, a Anvisa reavaliou a substância e, em parecer de 2019, também não identificou evidências conclusivas de carcinogenicidade. O episódio ilustra bem como a ciência regulatória lida com incertezas: diferentes metodologias podem levar instituições sérias a conclusões distintas sobre o mesmo produto.</p>
+
         <p>No Brasil, nenhuma semente transgênica pode ser comercializada sem passar antes pela avaliação da CTNBio
             (Comissão Técnica Nacional de Biossegurança), órgão vinculado ao governo federal responsável por analisar
             os riscos de cada evento transgênico antes da liberação comercial. Além da soja, o milho e o algodão
             transgênicos também são amplamente cultivados no país, o que faz do Brasil, ao lado dos Estados Unidos, um
             dos líderes mundiais em área plantada com culturas geneticamente modificadas.</p>
+
+        <p>A CTNBio foi criada pela Lei de Biossegurança (Lei 11.105/2005) e reúne 27 cidadãos brasileiros de
+            reconhecida competência técnica, com mandato de dois anos, renovável por mais dois períodos. Cada novo
+            evento transgênico, ou seja, cada combinação específica de planta e modificação genética, precisa passar
+            por uma avaliação própria antes de ser liberado, o que significa que aprovar a soja transgênica não libera
+            automaticamente, por exemplo, um milho geneticamente modificado diferente: cada caso é analisado
+            separadamente, considerando riscos à saúde humana, animal e ao meio ambiente.</p>
 
         <p>No debate científico internacional, órgãos como a Organização Mundial da Saúde (OMS) e a Autoridade
             Europeia para a Segurança Alimentar (EFSA) consideram que os transgênicos atualmente aprovados para
@@ -161,11 +170,16 @@
         <p>Um dos impactos mais graves do uso intensivo de agrotóxicos, sobretudo dos inseticidas, é a diminuição da diversidade de polinizadores naturais, como abelhas nativas, borboletas e outros insetos. Como esses produtos não distinguem pragas de espécies benéficas, a pulverização em larga escala das lavouras acaba expondo os polinizadores à toxicidade química e degradando os habitats de que dependem. Essa perda é preocupante porque boa parte das culturas agrícolas depende da polinização para se reproduzir, o que cria uma contradição: o mesmo pacote técnico que aumentou a produtividade agrícola a partir dos anos 1960 e 1970 também ameaça um dos serviços ambientais que sustentam essa produção a longo prazo.</p>
 
         <p>O Programa de Análise de Resíduos de Agrotóxicos em Alimentos (PARA), coordenado pela Anvisa, monitora
-            anualmente a presença desses produtos em itens da cesta básica, como arroz, feijão, tomate e alface. Os
-            relatórios do programa mostram que uma parcela significativa das amostras analisadas apresenta resíduos
-            acima do limite considerado seguro, ou até mesmo de agrotóxicos não autorizados para aquela cultura, um
-            indício de que o monitoramento e a fiscalização ainda precisam avançar para acompanhar o ritmo acelerado
-            de liberação de novos produtos no mercado.</p>
+            anualmente a presença desses produtos em itens da cesta básica, como arroz, feijão, tomate e alface. No
+            ciclo de 2024, foram analisadas 3.084 amostras de 14 alimentos, pesquisando até 338 agrotóxicos
+            diferentes em cada uma delas, e 20,6% das amostras apresentaram alguma irregularidade, seja resíduo acima
+            do limite máximo permitido, seja o uso de um ingrediente ativo não autorizado ou até proibido para
+            aquela cultura. Ainda assim, esse foi o menor índice de irregularidades registrado desde 2017, e a
+            avaliação de risco agudo à saúde, isto é, o risco imediato de intoxicação pelo consumo daquele alimento,
+            identificou potencial risco em apenas 0,39% das amostras, uma queda expressiva frente aos 1,11%
+            registrados entre 2013 e 2015. O quadro é, portanto, ambíguo: o país ainda convive com um patamar alto de
+            irregularidades, mas a tendência recente aponta para uma fiscalização mais eficaz do que a de uma
+            década atrás.</p>
 
 
         <div class="w3-margin"><img id="imagem3" src="ts20f03.png" alt="ts20f03" class="w3-mobile" >
@@ -177,6 +191,8 @@
     
         <p><strong>Soberania Alimentar</strong></p>
         <p><span class="termo" data-palavra="soberania alimentar" data-definicao="Direito dos povos de definirem suas próprias políticas e estratégias sustentáveis de produção, distribuição e consumo de alimentos, priorizando o acesso a alimentos nutritivos e culturalmente adequados acima da lógica exclusivamente comercial.">Soberania alimentar</span> refere-se ao direito dos povos de definirem suas próprias políticas e estratégias sustentáveis de produção, distribuição e consumo de alimentos, assegurando o acesso a alimentos nutritivos e culturalmente adequados.</p>
+
+        <p>O termo foi cunhado em 1996 pela La Vía Campesina, articulação internacional de organizações camponesas, durante um fórum paralelo à Cúpula Mundial da Alimentação da FAO, em Roma. Na época, o debate oficial girava quase exclusivamente em torno da segurança alimentar, e a Vía Campesina propôs a soberania alimentar como uma resposta ao modelo agroindustrial e às políticas de liberalização comercial promovidas por instituições como o Banco Mundial, defendendo que o direito de decidir o que, como e para quem produzir é tão importante quanto o direito de ter o que comer.</p>
 
         <p>Vale diferenciar esse conceito de outro que costuma ser confundido com ele: a segurança alimentar, que se
             refere apenas à garantia de que todas as pessoas tenham acesso regular a alimentos suficientes, sem
@@ -195,6 +211,12 @@
             alimentar à economia de milhares de famílias camponesas espalhadas pelo país, além de aproximar o alimento
             que chega à mesa das pessoas, e também às escolas das crianças, da região onde ele é efetivamente produzido,
             reduzindo a distância entre quem planta e quem consome.</p>
+
+        <p>Essa exigência não é apenas uma recomendação: a Lei 11.947/2009 tornou obrigatório que uma fatia mínima dos
+            recursos federais do PNAE fosse aplicada na compra direta de produtos da agricultura familiar, com
+            prioridade para assentamentos de reforma agrária, comunidades indígenas e quilombolas. Esse piso, que era
+            de 30%, foi ampliado pela Lei 15.226/2025 para 45% a partir de janeiro de 2026, um reforço direto à
+            soberania alimentar praticada dentro do próprio sistema educacional.</p>
         <p><em>Exemplo Prático:</em> No Brasil, movimentos como o <span class="termo" data-palavra="MST" data-definicao="Movimento dos Trabalhadores Rurais Sem Terra: movimento social brasileiro que luta pela reforma agrária e por um modelo de agricultura camponesa e agroecológica.">MST</span> (Movimento dos Trabalhadores Rurais Sem Terra) defendem a reforma agrária e a agroecologia como caminhos para garantir a soberania alimentar. Eles promovem a produção de alimentos sem o uso de agrotóxicos e a preservação das sementes crioulas.</p>
 
 
@@ -345,6 +367,13 @@
             têm como objetivo principal preservar a natureza, com uso indireto dos recursos naturais (como os
             parques nacionais), e as unidades de uso sustentável, que buscam conciliar a conservação com o uso direto
             dos recursos por comunidades locais (como as reservas extrativistas e as florestas nacionais).</p>
+
+        <p>Criado em 2000, o SNUC completou 25 anos em 2025 e hoje protege cerca de 20% do território terrestre
+            brasileiro e 26% da área marinha do país, num total de mais de 2,6 milhões de km² distribuídos por mais
+            de 3.185 unidades de conservação, um salto em relação aos cerca de 754 mil km² protegidos no ano 2000.
+            Esse crescimento mostra que a expansão da fronteira agrícola, discutida ao longo desta aula, não é o
+            único movimento em curso no território brasileiro: paralelamente a ela, o país também ampliou de forma
+            significativa a área formalmente protegida por lei.</p>
     
         <p><strong>Técnica de Controle Biológico</strong></p>
         <p>O <span class="termo" data-palavra="controle biológico" data-definicao="Técnica que utiliza organismos vivos (predadores, parasitoides ou patógenos naturais) para controlar pragas agrícolas, reduzindo a dependência de agrotóxicos.">controle biológico</span> é uma técnica que utiliza organismos vivos para controlar pragas agrícolas. Em vez de usar agrotóxicos, os agricultores introduzem predadores naturais das pragas nas lavouras.</p>
@@ -414,10 +443,100 @@
         agricultura camponesa mostram que é possível buscar caminhos mais sustentáveis sem, necessariamente,
         abrir mão da produtividade.</p>
 
+    <p>Um recurso natural voltou a aparecer várias vezes ao longo desta aula, seja na forma de irrigação para as
+        lavouras, seja na contaminação por agrotóxicos, seja na proteção das matas ciliares ao longo dos rios: a
+        água. Na próxima aula, vamos justamente mergulhar na hidrografia brasileira, conhecendo as principais bacias
+        do país (Amazônica, São Francisco e Platina) e entendendo como os aquíferos subterrâneos e o potencial
+        hidrelétrico brasileiro se conectam com tudo o que vimos até aqui sobre o uso da terra.</p>
+
     <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
     <hr>
 
 </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Marque a alternativa que descreve corretamente a ordem do padrão informal de grilagem conhecido como "a lei do fogo, do gado e da soja":</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3a">
+<span>a) Primeiro a área é queimada, depois ocupada com pecuária, e só por último entram lavouras rentáveis como a soja.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3b">
+<span>b) Primeiro a soja é plantada, e depois o gado e o fogo entram para expandir a área.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3c">
+<span>c) O fogo, o gado e a soja entram ao mesmo tempo, sem uma ordem definida.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'A vegetação é queimada primeiro, a pecuária extensiva ocupa a área para marcar presença, e só depois entram lavouras rentáveis como a soja, junto com a tentativa de regularizar a posse.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+    <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+    <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+    <p>Segundo o texto, o que a pulverização em larga escala de agrotóxicos reduz nas lavouras, e que boa parte das culturas agrícolas depende para se reproduzir?</p>
+    <div class="w3-margin">
+        <input class="input" id="q1a20" placeholder="sua resposta..." type="text">
+    </div>
+    <p class="w3-center w3-padding" id="resp1a20"></p>
+    <div class="w3-margin-top">
+        <button class="btn-acao-duvid" onclick="validarAberta('q1a20', 'poliniz', 'resp1a20', this, 'globinho1a20')">
+            Conferir
+        </button>
+    </div>
+    <div class="area w3-center">
+        <img height="64" id="globinho1a20" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+    </div>
+
+    <p>Segundo o texto, por que quanto menos área permeável existe na paisagem, mais rápido as enchentes acontecem nas cidades?</p>
+    <div class="w3-margin">
+        <input class="input" id="q2a20" placeholder="sua resposta..." type="text">
+    </div>
+    <p class="w3-center w3-padding" id="resp2a20"></p>
+    <div class="w3-margin-top">
+        <button class="btn-acao-duvid" onclick="validarAberta('q2a20', 'escoa', 'resp2a20', this, 'globinho2a20')">
+            Conferir
+        </button>
+    </div>
+    <div class="area w3-center">
+        <img height="64" id="globinho2a20" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+    </div>
+
+    <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+    <hr/>
+</div>
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots20" src="inforesumots20.webp"
+                    alt="Infográfico resumo Geografia Agrária III - transgênicos, agrotóxicos e soberania alimentar" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
 
     <div class="topico">
 
@@ -527,6 +646,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

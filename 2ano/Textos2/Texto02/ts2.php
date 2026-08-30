@@ -218,8 +218,13 @@
 
             <div class="w3-margin"><img id="imagem3" src="ts02f03.png" alt="ts02f03" class="w3-mobile"></div>
 
-            <p>Nessa proposta houve muita alteração, por exemplo na criação de diversos territórios federais, como o de
-                Fernando de Noronha, do Amapá, de Rio Branco, do Guaporé, de Ponta Porã e do Iguaçu. Mas as mudanças não
+            <p>Nessa proposta houve muita alteração, por exemplo na criação de diversos
+                <span class="termo" data-palavra="Território Federal" data-definicao="Unidade administrativa criada e mantida diretamente pela União, sem autonomia política plena como um Estado, geralmente em áreas de fronteira, baixa densidade populacional ou de interesse estratégico e militar para o governo federal.">territórios
+                    federais</span>, como o de
+                Fernando de Noronha, do Amapá, de Rio Branco, do Guaporé, de Ponta Porã e do Iguaçu. A lógica desses
+                territórios era estratégica: eram, em geral, áreas de fronteira internacional, pouco povoadas e de
+                interesse militar direto para a União, que preferia administrá-las sem passar pela autonomia política
+                de um Estado. Mas as mudanças não
                 pararam por aí. Veja você mesmo no mapa:</p>
 
             <h4 class="w3-center"><strong>Divisão regional do Brasil em 1960</strong></h4>
@@ -329,7 +334,9 @@
 
             <div class="w3-margin"><img id="imagem9" src="ts02f09.png" alt="ts02f09" class="w3-mobile"></div>
 
-            <p>Outra região que se enquadra nesse exemplo é a do Polígono das Secas, no sertão nordestino. Ela abrange não
+<p>Outra região que se enquadra nesse exemplo é a do
+                <span class="termo" data-palavra="Polígono das Secas" data-definicao="Área oficialmente delimitada pelo governo federal desde 1936, de clima semiárido e chuvas irregulares, que abrange a maior parte do sertão nordestino e se estende até o norte de Minas Gerais, ultrapassando os limites oficiais da região Nordeste do IBGE.">Polígono
+                    das Secas</span>, no sertão nordestino. Ela abrange não
                 somente a região Nordeste oficial, mas também o norte de Minas Gerais. O norte do Paraná, igualmente, tem
                 mais relação com São Paulo, tanto pela colonização quanto economicamente, do que com o restante dos
                 Estados do Sul do Brasil. Mato Grosso do Sul também possui essa ligação mais intensa com São Paulo e
@@ -337,7 +344,9 @@
 
             <p>Outra dificuldade da atual divisão regional é que o território nacional é muito extenso e pouco povoado no
                 seu interior. A realidade do movimento populacional, ou seja, das migrações, dificulta uma regionalização
-                muito ligada aos elementos naturais. Com a expansão das <strong>fronteiras agrícolas</strong>, quer dizer,
+                muito ligada aos elementos naturais. Com a expansão das
+                <span class="termo" data-palavra="Fronteira Agrícola" data-definicao="Limite móvel entre áreas já ocupadas pela produção agropecuária e áreas de vegetação nativa ainda não incorporadas à agricultura ou pecuária. No Brasil, avança historicamente sobre o Cerrado e a Amazônia, deslocando-se para Oeste e Norte ao longo das décadas.">fronteiras
+                    agrícolas</span>, quer dizer,
                 o avanço da produção agropecuária sobre o meio natural, com a derrubada de florestas e mudanças nas
                 paisagens naturais, tudo isso é bastante dinâmico. E o IBGE já não possui tanta infraestrutura para
                 acompanhar essas transformações, sendo um órgão mais ligado à coleta das informações do que ao
@@ -384,7 +393,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'a regionalização do IBGE usa médias estatísticas de dados naturais e sociais (clima, vegetação, renda, mortalidade) para definir regiões ditas homogêneas, mas seus limites seguem as fronteiras estaduais, que raramente coincidem com os limites reais dos fenômenos geográficos: um rio ou um bioma não respeita fronteira de Estado.', '10')">
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'isso mesmo: os limites das regiões do IBGE seguem fronteiras estaduais, mas um rio ou um bioma não respeita fronteira de Estado', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -503,6 +512,40 @@
 
         </div>
 
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A regionalização geoeconômica de Pedro Geiger se diferencia da regionalização do IBGE
+                    principalmente por:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Dividir o país em vinte e seis Estados</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Considerar a formação histórico-econômica do território</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Ser a divisão oficial usada em censos</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'exatamente: Geiger olhou para como cada região se formou economicamente, não para médias estatísticas atuais como o IBGE', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
         <div class="topico">
 
             <p class="caixa"> Teste seu conhecimento</p>
@@ -551,7 +594,7 @@
 
         <div class="topico">
 
-            <h2> A regionalização a partir do meio técnico-científico-informacional – Os "Quatro Brasis"</h2>
+            <h2> A regionalização a partir do meio técnico-científico-informacional: os "Quatro Brasis"</h2>
 
             <p> Essa divisão regional se baseia na difusão do
                 <span class="termo" data-palavra="Meio Técnico-Científico-Informacional" data-definicao="Conceito criado pelo geógrafo Milton Santos para descrever o período atual em que ciência, tecnologia e informação organizam o espaço geográfico de forma desigual, concentrando infraestrutura, capital e fluxos de informação em algumas regiões e deixando outras à margem.">meio
@@ -559,6 +602,19 @@
                 de outras coisas, da informação e das finanças e de como essas variáveis estão irradiadas de maneiras
                 desiguais e distintas pelo território brasileiro. É chamada de "quatro Brasis" e é dividida em: Região
                 Concentrada, formada pelo Sudeste e Sul, o Nordeste, o Centro-Oeste e a Amazônia.</p>
+
+            <p>Essa desigualdade na distribuição de tecnologia, capital e informação recebe um nome específico:
+                <span class="termo" data-palavra="Modernização Seletiva" data-definicao="Processo pelo qual os avanços técnicos, científicos e informacionais (fibra ótica, agricultura de precisão, logística de ponta) não se espalham igualmente pelo território, mas se concentram em pontos específicos escolhidos pelo mercado e pelo Estado, aprofundando as diferenças entre regiões e mesmo dentro de uma mesma região.">modernização
+                    seletiva</span>. O nome é preciso porque descreve exatamente o que ocorre: a modernização não chega
+                de uma vez para todo o território, ela escolhe onde chegar primeiro, geralmente onde já existe
+                infraestrutura, mercado consumidor e interesse do capital privado. O restante do território segue
+                dependendo de técnicas mais antigas, à espera da sua vez, que muitas vezes não chega. É por isso que
+                dentro de um mesmo Estado, ou até de uma mesma cidade, é possível encontrar bairros com internet de
+                fibra ótica ao lado de áreas sem saneamento básico, ou uma fazenda de soja pilotada por satélite a
+                poucos quilômetros de uma comunidade rural sem estrada asfaltada. A modernização seletiva explica,
+                portanto, por que crescer economicamente não significa automaticamente reduzir as desigualdades
+                internas de um território: às vezes, o crescimento aprofunda ainda mais a distância entre quem já
+                estava conectado e quem segue de fora dessa rede.</p>
 
             <div class="w3-margin"><img id="imagem8" src="ts02f08.png" alt="ts02f08" class="w3-mobile"></div>
 
@@ -626,8 +682,10 @@
                 Madeira-Amazonas, por exemplo, servem para o escoamento de soja do Mato Grosso e de Rondônia. </p>
 
             <p>A capital Manaus seria um ponto no território onde se concentra uma fluidez ligada à globalização, com
-                conexões mais dinâmicas devido à <span onclick="document.getElementById('manaus').style.display='block'"
-                    class="w3-yellow">Zona Franca de Manaus como polo industrial.</span> </p>
+                conexões mais dinâmicas devido à
+                <span class="termo" data-palavra="Zona Franca de Manaus" data-definicao="Área de livre comércio criada em 1967 no interior do Amazonas, com incentivos fiscais para atrair indústrias (sobretudo eletrônicos) apesar da distância dos grandes centros consumidores, tornando-se o principal polo industrial da Amazônia.">Zona
+                    Franca de Manaus</span> como <span onclick="document.getElementById('manaus').style.display='block'"
+                    class="w3-yellow">polo industrial.</span> </p>
 
 
             <div id="manaus" class="w3-modal w3-margin-top">
@@ -655,6 +713,17 @@
 
             <p>Ao final desse curso sobre a <strong>Geografia do Brasil</strong> retomaremos com mais profundidade as
                 características das regiões brasileiras, realizando uma síntese de suas dinâmicas. </p>
+
+            <p>Vimos até aqui três maneiras diferentes de recortar o mesmo país: uma pelas médias estatísticas do
+                IBGE, outra pela formação histórico-econômica de Geiger, e essa última pela velocidade desigual com
+                que a técnica e a informação chegam a cada canto do território. Repare que nenhuma delas está
+                "errada": cada uma escolhe um critério e, por isso, enxerga um recorte diferente do mesmo Brasil.
+                Um geógrafo que estuda solo e clima vai preferir a lógica mais próxima da natureza; um economista que
+                estuda investimentos vai preferir a lógica de Geiger; e quem estuda desigualdade digital ou acesso a
+                serviços vai preferir os "quatro Brasis" de Milton Santos. Mas nenhuma dessas regionalizações
+                explica por si só quem são as pessoas que vivem dentro dessas fronteiras: quantas são, de onde vieram
+                e como se distribuem pelo país. É exatamente essa pergunta, a da formação e da estrutura da população
+                brasileira, que vamos investigar na próxima aula.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
@@ -689,7 +758,7 @@
 
             <div class="w3-margin-top">
                 <button class="btn-acao-duvid"
-                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'a Região Concentrada reúne Sul e Sudeste porque tem a maior densidade do meio técnico-científico-informacional: urbanização intensa, forte presença de capital, serviços, indústria e agricultura mecanizada, com São Paulo funcionando como polo que comanda boa parte dessas decisões no território nacional.', '10')">
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'a Região Concentrada reúne Sul e Sudeste pela maior densidade técnica, urbana e de capital, com São Paulo como polo comandante', '10')">
                     Confirmar Resposta
                 </button>
             </div>
@@ -698,6 +767,15 @@
             <div class="area w3-center">
                 <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80" height="80">
             </div>
+        </div>
+
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumots2" src="inforesumots2.webp" alt="Infográfico resumo regionalização do território brasileiro" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
         </div>
 
         <div class="topico">
@@ -788,6 +866,42 @@
 
         </div>
 
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em que ano foi inaugurada Brasília, marcando a integração do Centro-Oeste ao restante do país?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '1960', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Em que ano o Mato Grosso foi dividido e se criou o Estado do Mato Grosso do Sul?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '1977', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
         <div class="topico">
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
@@ -843,6 +957,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

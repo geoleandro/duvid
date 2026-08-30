@@ -75,8 +75,9 @@
 <p>
             O desenvolvimento tecnológico é essencial para o crescimento dos setores de transportes. No Brasil, esse
             processo se intensificou a partir dos anos 1990.
-
-
+        </p>
+<p>
+            Pense por um instante em tudo que você usou hoje: a roupa que veste, o alimento que comeu no café da manhã, o celular na sua mão. Praticamente nada disso foi produzido no lugar onde você está agora. Alguém, em algum momento, precisou transportar cada um desses itens, muitas vezes por milhares de quilômetros, até chegar até você. Esse trabalho de deslocamento costuma passar despercebido, e só chama atenção quando algo dá errado: uma estrada esburacada, um porto congestionado, um rio raso demais para os barcos passarem. É justamente esse trabalho invisível que esta aula pretende tornar visível.
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -122,7 +123,7 @@
 <p>O transporte rodoviário no Brasil teve seu primeiro grande incentivo na época do presidente Washington Luís
             (1926-1930), que tinha como lema político “governar é abrir estradas”. Em seu governo foi inaugurada a
             ligação rodoviária entre o Rio de Janeiro e São Paulo, principais cidades do país. </p>
-<p> Em 1945, surgiu o <span class="termo" data-palavra="DNER" data-definicao="Departamento Nacional de Estradas de Rodagem: autarquia federal criada em 1945, responsável pela implantação, conservação e fiscalização da malha rodoviária até sua extinção em 2001.">Departamento Nacional de Estradas de Rodagem (DNER)</span>, autarquia encarregada da implantação,
+<p> Em 1945, surgiu o <strong>Departamento Nacional de Estradas de Rodagem (DNER)</strong>, autarquia encarregada da implantação,
             conservação e fiscalização da malha rodoviária. </p>
 <p> Na década seguinte, no governo Juscelino Kubitschek, enquanto muitas montadoras automobilísticas se
             instalaram no Brasil, o sistema rodoviário consolidou-se como principal meio de transporte. </p>
@@ -158,6 +159,9 @@
             aos 33% registrados em 2024. Ainda assim, 19,1% dos trechos pesquisados foram classificados como ruins ou
             péssimos, evidenciando que, apesar de concentrar mais de 60% do transporte de cargas do país, a malha
             rodoviária brasileira segue carente de investimentos.</p>
+<p>Uma forma de atrair investimento privado para essa manutenção é o pedágio cobrado em rodovias concedidas. Em dezembro de 2024, a malha rodoviária concedida à iniciativa privada somava 32.907 km, um crescimento de 14% em relação ao ano anterior, resultado de dez novos leilões (sete federais e três em São Paulo) que anunciaram R$ 102 bilhões em investimentos ao longo dos contratos. Ainda assim, essa malha concedida representa pouco mais de 5% do total de 607.845 km de rodovias federais e estaduais do país: a esmagadora maioria das estradas brasileiras continua sob gestão pública, com pedágio nenhum e manutenção dependendo diretamente de orçamento estatal.</p>
+<p>Um bom exemplo do gargalo rodoviário brasileiro é a BR-163, apelidada de "Estrada da Soja" por escoar mais de 60% da produção de grãos do Centro-Oeste até o Pará. Depois de décadas de atoleiros e trechos de terra, a rodovia foi finalmente pavimentada por completo entre Sinop (MT) e o Porto de Miritituba, em Itaituba (PA). Mesmo assim, nos picos da safra, é comum se formarem filas de até 40 km de caminhões carregados de soja esperando para descarregar em Miritituba, o mesmo gargalo logístico que o projeto da Ferrogrão pretende aliviar transferindo parte dessa carga para os trilhos.</p>
+<p>A dependência excessiva das rodovias também tem um custo humano direto: em 2024, segundo a Polícia Rodoviária Federal, foram registrados 73.156 acidentes nas rodovias federais brasileiras, com 6.160 mortes e mais de 84 mil feridos, o maior número de mortos em cinco anos e um crescimento de 10% em relação a 2023, o equivalente a mais de 16 vidas perdidas por dia nas estradas do país. As rodovias BR-101, BR-116 e BR-381 concentram boa parte desses acidentes. Esses números reforçam, mais uma vez, os riscos de uma matriz de transportes tão concentrada num único modal.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -170,7 +174,7 @@
 <p> Com a crise da cafeicultura, no final dos anos 1920, a malha ferroviária perdeu espaço para as rodovias. Com
             esse declínio e a falta de evolução tecnológica diante das indústrias automobilísticas, as ferrovias não
             integraram a regionalização brasileira, acelerada na segunda metade do século.</p>
-<p>Iniciativas como a criação da <span class="termo" data-palavra="RFFSA" data-definicao="Rede Ferroviária Federal S/A: empresa estatal criada em 1957 para administrar as ferrovias federais, extinta em 1999 após o processo de privatização.">Rede Ferroviária Federal S/A (RFFSA)</span> pelo Governo Federal em 1957, e da
+<p>Iniciativas como a criação da <strong>Rede Ferroviária Federal S/A (RFFSA)</strong> pelo Governo Federal em 1957, e da
             Ferrovia Paulista (Fepasa) pelo governo de São Paulo em 1971, não conseguiram reverter essa tendência. </p>
 <p>Entre 1996 e 1998 foi empreendida a privatização das ferrovias brasileiras. Em 1999, a RFFSA e a Fepasa foram
             extintas. Hoje, o DNIT é responsável por apenas 1% dos cerca de 30.000 km da malha ferroviária brasileira.
@@ -183,6 +187,7 @@
             Grande do Sul, ao longo de mais de 4 mil km. Suas obras começaram ainda nos anos 1980 e só foram
             concluídas décadas depois, ilustrando bem a lentidão dos investimentos em infraestrutura ferroviária no
             Brasil.</p>
+<p>Um projeto ferroviário que resume bem esses impasses é a <strong>Ferrogrão</strong> (EF-170), projetada para ligar Sinop, no Mato Grosso, a Miritituba, distrito de Itaituba, no Pará, ao longo de cerca de 940 km, encurtando bastante o caminho hoje feito de caminhão até os portos fluviais da Amazônia. Apesar de o traçado mais recente evitar terras indígenas demarcadas e o Parque Nacional do Jamanxim, o projeto segue travado: em análises de 2024 e 2025, o Tribunal de Contas da União apontou riscos institucionais, jurídicos e financeiros elevados, e organizações indígenas, ribeirinhas e ambientais continuam questionando os estudos de impacto, alegando falta de consulta prévia às comunidades da região. A expectativa mais recente é de que a licença ambiental só saia por volta de 2026, quase uma década depois do projeto ter sido lançado, o mesmo tipo de lentidão que já vitimou a Ferrovia Norte-Sul.</p>
 <div class="w3-margin"><img alt="ts11f02" class="w3-mobile" id="imagem2" src="ts11f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Estrada de ferro Santos-Jundiaí. Fonte:
                 https://www.cidadeecultura.com
@@ -204,6 +209,7 @@
             infraestrutura adequada e com boas condições de armazenamento e comercialização, acham-se integrados aos
             locais de origem dos produtos exportados. Os portos de Santos, Rio de Janeiro, Recife, Salvador, Paranaguá e
             Vitória, entre outros, já atuam como corredores de exportação. </p>
+<p>O Porto de Santos, em São Paulo, é o maior complexo portuário da América Latina e o principal do Brasil em valor de carga movimentada. Em 2024, bateu recorde histórico, movimentando 179,8 milhões de toneladas de carga, incluindo pela primeira vez mais de 5,4 milhões de TEU (a unidade padrão de um contêiner de 20 pés) em contêineres, um crescimento de quase 15% sobre o ano anterior. Por ali passam desde açúcar e soja até produtos industrializados, o que faz do porto um retrato em miniatura da própria matriz exportadora brasileira.</p>
 <p> A competência desses corredores e o avanço tecnológico evitam prejuízos, aumentam a competitividade e
             reduzem custos, contribuindo para ampliar os negócios e, consequentemente, aumentar o PIB brasileiro. </p>
 <p>Além da navegação marítima, o Brasil possui importantes <span class="termo" data-palavra="hidrovia" data-definicao="Via navegável natural ou artificial, em rios, lagos ou canais, utilizada para o transporte de cargas e passageiros.">hidrovias</span> interiores, em rios navegáveis.
@@ -212,12 +218,13 @@
             Porto Velho (RO) ao Porto de Itacoatiara (AM), com cerca de 1.450 km, sendo fundamental para o escoamento
             da soja do Centro-Oeste. Já a Hidrovia do São Francisco, com mais de 2,3 mil km, conecta o Nordeste ao
             Centro-Sul do país.</p>
-<p>Merece destaque, ainda, a <span class="termo" data-palavra="cabotagem" data-definicao="Navegação de cargas entre portos do mesmo país, por rota marítima, fluvial ou lacustre — modalidade mais barata que o transporte rodoviário e ferroviário.">cabotagem</span>, isto é, a navegação de cargas entre portos do próprio
+<p>No Amazonas, o rio não é só uma via de exportação: é, para boa parte da população ribeirinha, o único meio de transporte disponível, já que o Estado tem mais de 16 mil km de rios navegáveis e uma malha rodoviária muito reduzida diante do tamanho do território. Essa dependência ficou evidente nas secas recordes de 2023 e 2024, quando o Rio Negro chegou a apenas 12,68 metros de profundidade em outubro de 2024, o menor nível em 122 anos de medições em Manaus. Portos fluviais como o de Coari ficaram em terra seca, comunidades inteiras foram isoladas, e até urnas eleitorais precisaram ser levadas de helicóptero a localidades que só tinham acesso pelo rio. O episódio mostra como um sistema de transportes concentrado em um único modal pode se tornar extremamente vulnerável às mudanças no regime climático.</p>
+<p>Merece destaque, ainda, a <span class="termo" data-palavra="cabotagem" data-definicao="Navegação de cargas entre portos do mesmo país, por rota marítima, fluvial ou lacustre; modalidade mais barata que o transporte rodoviário e ferroviário.">cabotagem</span>, isto é, a navegação de cargas entre portos do próprio
             território nacional. Impulsionada pelo programa federal BR do Mar (Lei nº 14.301/2022), a cabotagem já
             responde por cerca de 11% das cargas movimentadas por via marítima no Brasil, com um frete até 60% mais
             barato que o rodoviário e 40% mais barato que o ferroviário. A expectativa dos planejadores do setor é
-            que, nos próximos anos, a cabotagem cresça ainda mais, aproveitando o extenso litoral brasileiro — mais de
-            7,4 mil km — para desafogar as rodovias e reduzir os custos logísticos do país.</p>
+            que, nos próximos anos, a cabotagem cresça ainda mais, aproveitando o extenso litoral brasileiro (mais de
+            7,4 mil km) para desafogar as rodovias e reduzir os custos logísticos do país.</p>
 <div class="w3-margin"><img alt="ts11f03" class="w3-mobile" id="imagem3" src="ts11f03.png"/>
 <span class="w3-small w3-margin-left" id="citacao3"> </span>
 </div>
@@ -227,7 +234,7 @@
 </div>
 <div class="topico">
 <h2>Transporte dutoviário </h2>
-<p> O transporte <span class="termo" data-palavra="dutovias" data-definicao="Tubulações (dutos) utilizadas para transportar líquidos e gases, como petróleo, seus derivados e gás natural, a longas distâncias, com baixo custo e alta segurança.">dutoviário</span> é feito por meio de tubulações — oleodutos, gasodutos e minerodutos — enterradas ou
+<p> O transporte <span class="termo" data-palavra="dutovias" data-definicao="Tubulações (dutos) utilizadas para transportar líquidos e gases, como petróleo, seus derivados e gás natural, a longas distâncias, com baixo custo e alta segurança.">dutoviário</span> é feito por meio de tubulações (oleodutos, gasodutos e minerodutos), enterradas ou
             submersas, usadas para transportar líquidos e gases a longas distâncias. É o modal com o menor custo por
             tonelada transportada e um dos mais seguros, embora exija um investimento inicial elevado na construção da
             rede de dutos. </p>
@@ -254,7 +261,7 @@
 <p> O transporte aéreo no Brasil é caracterizado pelos altos custos no deslocamento de cargas e de passageiros.
             No ano de 2018, as empresas aéreas brasileiras transportaram pouco mais de 103 milhões de passageiros pagos
             em voos domésticos e internacionais, em um total de 122 aeroportos com voos regulares no país. Os
-            principais aeroportos são administrados pela <span class="termo" data-palavra="Infraero" data-definicao="Empresa Brasileira de Infraestrutura Aeroportuária: estatal responsável historicamente pela administração dos principais aeroportos do país, embora muitos já tenham sido concedidos à iniciativa privada.">Empresa Brasileira de Infraestrutura Aeroportuária (Infraero)</span>,
+            principais aeroportos são administrados pela <strong>Empresa Brasileira de Infraestrutura Aeroportuária (Infraero)</strong>,
             estatal ligada à área de Defesa, embora boa parte dos maiores terminais tenha sido concedida à iniciativa
             privada nas últimas décadas. Já as companhias aéreas são empresas privadas, cabendo à <span class="termo" data-palavra="ANAC" data-definicao="Agência Nacional de Aviação Civil: órgão federal responsável por regular e fiscalizar os aeroportos e as empresas de aviação civil no Brasil.">Agência Nacional de
             Aviação Civil (ANAC)</span> regular e fiscalizar tanto os aeroportos quanto o transporte aéreo como um todo.</p>
@@ -270,6 +277,25 @@
             flores, que precisam chegar rapidamente ao destino. Por isso, mesmo respondendo por menos de 1% do peso
             total de cargas transportadas no país, o transporte aéreo concentra uma parcela desproporcionalmente alta
             do valor total das exportações e importações brasileiras.</p>
+<p>Na Amazônia, porém, o avião não é luxo nem carga de alto valor: é, junto com o barco, o único jeito de chegar a dezenas de municípios sem qualquer ligação rodoviária, como Amaturá, Anamã, Nova Olinda do Norte, Pauini e Jutaí, no Amazonas. Para viabilizar essas ligações, o governo federal mantém desde 2012 o Programa de Aviação Regional, que já investiu cerca de R$ 7,3 bilhões na construção e reforma de 270 aeroportos regionais pelo país, 67 deles só na região Norte, além de subsidiar assentos em rotas com pouca demanda. Sem esse tipo de política pública, boa parte da Amazônia simplesmente ficaria fora do alcance do restante do território nacional.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<h2>Transporte urbano: o desafio da mobilidade nas cidades</h2>
+<p>Até aqui, vimos como as pessoas e as mercadorias se deslocam entre cidades e regiões. Mas boa parte dos problemas de transporte que os brasileiros sentem no dia a dia acontece dentro das próprias cidades, já que mais de 85% da população do país vive em área urbana. O transporte coletivo urbano brasileiro sofreu décadas de baixo investimento público, o que resultou num descompasso entre a demanda e a oferta de ônibus, trens e metrôs, empurrando cada vez mais gente para o carro particular, para os congestionamentos e para o chamado transporte clandestino (as vans e peruas que cobrem rotas mal atendidas pelo transporte oficial).</p>
+<p>Nesse cenário, uma solução brasileira acabou virando referência mundial: o <span class="termo" data-palavra="BRT" data-definicao="Bus Rapid Transit: sistema de ônibus expresso que circula em corredores exclusivos, com estações de embarque rápido, funcionando como um metrô sobre rodas, mas com custo de implantação muito menor.">BRT</span> (Bus Rapid Transit), ônibus articulados circulando em corredores exclusivos, com estações de embarque rápido, funcionando quase como um metrô sobre rodas, mas muito mais barato de construir. O modelo nasceu em Curitiba, em 22 de setembro de 1974, quando a cidade inaugurou os primeiros 20 km de corredores exclusivos para ônibus, um projeto desenhado ainda em 1972. A ideia foi tão bem-sucedida que hoje mais de 190 cidades ao redor do mundo, incluindo Bogotá e Cidade do México, adaptaram versões do sistema criado na capital paranaense.</p>
+<p>Já os sistemas de metrô brasileiros, presentes em cidades como São Paulo, Rio de Janeiro, Belo Horizonte, Recife, Salvador, Fortaleza, Brasília e Teresina, seguem proporcionalmente pequenos diante do tamanho das metrópoles que atendem, se comparados às redes de outras grandes cidades do mundo. Isso faz da mobilidade urbana um dos temas mais sensíveis da geografia das cidades brasileiras: não basta ligar regiões distantes por rodovias e ferrovias se, dentro da própria cidade, o deslocamento diário para o trabalho ou a escola continua lento, caro e desigual entre bairros centrais e periferias.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<h2>Os impactos da matriz de transportes na logística nacional</h2>
+<p>Somando o custo de todos os modais, o Brasil gasta hoje um dos percentuais mais altos do PIB do mundo apenas para movimentar mercadorias dentro do próprio território. Em 2024, o chamado <span class="termo" data-palavra="custo logístico" data-definicao="Soma de todos os gastos envolvidos em transportar, estocar e administrar mercadorias dentro de um país, geralmente medida como percentual do PIB.">custo logístico</span> nacional (que soma transporte, estoque, armazenagem e administração) chegou a 15,6% do PIB brasileiro, e seguiu praticamente estável em 15,5% em 2025. Em 2014, uma década antes, esse percentual era de 10,4%, o que mostra que o problema tem piorado, não melhorado.</p>
+<p>Boa parte dessa conta vem justamente do desequilíbrio da matriz de transportes discutido nesta aula: como quase dois terços das cargas dependem de rodovias, e uma parte relevante dessas rodovias segue em condições ruins, o custo do frete rodoviário por tonelada é bem mais alto do que seria numa matriz mais equilibrada entre modais. Some-se a isso a lentidão dos portos: só em 2024, o país gastou cerca de US$ 2,3 bilhões (por volta de R$ 13 bilhões) com <span class="termo" data-palavra="demurrage" data-definicao="Taxa paga pelo tempo extra que um navio de carga fica parado num porto além do previsto, geralmente causada por gargalos de infraestrutura ou atrasos na logística.">demurrage</span>, a taxa cobrada quando um navio fica parado no porto além do tempo previsto, esperando para carregar ou descarregar.</p>
+<p>Esses custos não ficam só nas planilhas das empresas de logística: encarecem o preço final de tudo o que é produzido e transportado no Brasil, desde os grãos exportados até os produtos que chegam às prateleiras dos supermercados, e ajudam a explicar por que, apesar de ser um dos maiores produtores agrícolas do mundo, o país às vezes perde parte da safra por falta de capacidade de escoá-la a tempo. É esse conjunto de gargalos, mais do que a falta de tecnologia agrícola ou industrial, que compõe boa parte do que se costuma chamar de "Custo Brasil".</p>
+<p>Se você juntar tudo o que vimos nesta aula, um padrão fica claro: os problemas do sistema de transportes brasileiro raramente aparecem sozinhos, eles se encadeiam. O excesso de peso sobre as rodovias gera filas como as de Miritituba, na BR-163; a lentidão para resolver isso com ferrovias, como mostra a novela da Ferrogrão, empurra o país a continuar dependendo do modal mais caro e mais perigoso; e, quando um único modal concentra o transporte de uma região inteira, como o rio faz na Amazônia, um evento climático como a seca de 2023-2024 é suficiente para isolar milhares de pessoas de uma hora para outra. Entender a matriz de transportes brasileira, portanto, não é decorar siglas de órgãos públicos: é entender por que o Brasil, apesar do tamanho e da riqueza natural, ainda paga um preço tão alto só para se deslocar dentro de si mesmo.</p>
+<p>Chegamos ao fim de um bloco de cinco aulas que caminharam juntas: da industrialização brasileira à desconcentração industrial pelo território, até este sistema de transportes que conecta (ou deixa de conectar) fábricas, portos e regiões inteiras do país. Na próxima aula, vamos revisar tudo o que foi estudado desde a industrialização até os transportes, amarrando essas peças antes de seguirmos para um novo bloco de conteúdo.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -374,6 +400,14 @@
 </div>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots11" src="inforesumots11.webp" alt="Infográfico resumo Sistema de Transportes no Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+    <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr>
+</div>
+<div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
@@ -420,6 +454,41 @@
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Que crise econômica, ligada à queda do café, fez o transporte ferroviário perder espaço para as rodovias no início do século XX?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'crise da cafeicultura', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que taxa faz o Brasil gastar bilhões de reais todo ano com navios parados tempo demais esperando para carregar ou descarregar num porto?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'demurrage', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+<hr/>
+</div>
 <div class="topico">
 <div class="w3-panel w3-pale-yellow w3-margin">
 <h2>Questões para o caderno</h2>
@@ -430,8 +499,8 @@
 <h3>5. Como a privatização das ferrovias brasileiras entre 1996 e 1998 mudou a administração e operação desse meio de transporte?</h3>
 <h3>6. Quais são as características e funções dos corredores de exportação no sistema hidroviário brasileiro, e quais portos principais desempenham esse papel?</h3>
 <h3>7. De que maneira o transporte aéreo no Brasil contribui para o deslocamento de cargas e passageiros, e quais são os desafios enfrentados por esse setor?</h3>
-<h3>8. Como a mudança da capital federal para Brasília influenciou o desenvolvimento do sistema rodoviário brasileiro?</h3>
-<h3>9. Quais foram as razões para a extinção do Departamento Nacional de Estradas de Rodagem (DNER) e como suas funções foram redistribuídas?</h3>
+<h3>8. Como o sistema BRT, criado em Curitiba em 1974, se tornou referência mundial de transporte urbano?</h3>
+<h3>9. Que gargalo logístico na BR-163 o projeto da Ferrogrão pretende resolver, e por que essa ferrovia segue travada?</h3>
 <h3>10. Como a infraestrutura de transportes no Brasil se compara com a de países ricos, e quais são os principais desafios enfrentados pelos países emergentes e periféricos nessa área?</h3>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -471,6 +540,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

@@ -46,6 +46,10 @@ $autor     = "Leandro Henrique da Silva";
         crossorigin="anonymous"></script>
 
     <title><?= htmlspecialchars($titulo) ?> — Duvid Blog</title>
+    <style>
+        /* Offset da navbar fixa (56px) */
+        main.texto-layout { padding-top: 80px !important; }
+    </style>
 </head>
 
 <body class="w3-light-grey">
@@ -59,13 +63,15 @@ $autor     = "Leandro Henrique da Silva";
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php'; ?>
 
     <!-- ─── Conteúdo principal ─── -->
-    <main class="w3-row w3-content" style="max-width:1600px; margin-top:20px;">
+    <main class="texto-layout">
+    <div class="blog-body-pad">
+        <div class="blog-grid-row">
 
-        <!-- Coluna do artigo (8/12) -->
-        <div class="w3-col l8 s12">
-            <div class="w3-container artigo-texto w3-white w3-margin-bottom w3-padding-32">
+        <!-- Coluna do artigo -->
+        <div class="blog-col-main">
+            <div class="artigo-texto blog-widget w3-margin-bottom" style="padding:32px;">
 
-                <h2 class="w3-center">
+                <h2 class="w3-center" style="margin-top:0;">
                     <strong id="artigo-titulo-principal"><?= htmlspecialchars($titulo) ?></strong>
                 </h2>
 
@@ -95,7 +101,7 @@ $autor     = "Leandro Henrique da Silva";
                 <div class="corpo-artigo">
 
                     <p>
-                        Quando comecei a construir o Duvid, em 2019, eu tinha uma preocupação muito clara: não queria criar mais um lugar onde o aluno chegasse com medo e saísse mais ansioso do que entrou. Esse é o problema com boa parte do que chamamos de "estudo para o vestibular". A escola vira um torneio. Quem chega primeiro, quem tira mais, quem acerta mais rápido. E o estudante que tropeça no caminho aprende, acima de tudo, a se sentir inadequado.
+                       Quando comecei a construir o Duvid, em 2019, eu tinha uma preocupação muito clara: não queria criar mais um lugar onde o aluno chegasse com medo e saísse mais ansioso do que entrou. Esse é o problema com boa parte do que chamamos de "estudo para o vestibular". A escola vira um torneio. Quem chega primeiro, quem tira mais, quem acerta mais rápido. E o estudante que tropeça no caminho aprende, acima de tudo, a se sentir inadequado.
                     </p>
 
                     <p>Não quero isso aqui.</p>
@@ -103,7 +109,7 @@ $autor     = "Leandro Henrique da Silva";
                     <h5><strong>O que o Duvid não é</strong></h5>
 
                     <p>
-                        Preciso ser direto, porque esse equívoco aparece com frequência: o Duvid não é um cursinho gamificado. Não é o Duolingo de Geografia. Não é uma plataforma onde você compete individualmente contra seus colegas para ver quem acumula mais pontos.
+                        Vamos tentar esclarecer a proposta, porque esse equívoco aparece com frequência: o Duvid não é um cursinho gamificado. Não é o Duolingo de Geografia. Não é uma plataforma onde você compete individualmente contra seus colegas para ver quem acumula mais pontos.
                     </p>
 
                     <p>
@@ -122,21 +128,21 @@ $autor     = "Leandro Henrique da Silva";
                     <h5><strong>O erro não é fracasso</strong></h5>
 
                     <p>
-                        Nas questões do Duvid, quando o aluno erra, o feedback não diz "errou". Ele diz "pensa assim...". Essa distinção parece pequena, mas não é. A maioria dos estudantes que conheço não tem medo de não saber. Tem medo de <em>parecer</em> que não sabe. São coisas diferentes. Uma tem solução pedagógica. A outra tem solução emocional.
+                       Nas questões do Duvid, quando o aluno erra, o feedback não diz "errou". Ele diz "pensa assim...". Essa distinção parece pequena, mas não é. A maioria dos estudantes que conheço não tem medo de não saber. Tem medo de <em>parecer</em> que não sabe. Medo de ser ridicularizado em sala de aula; resultado: permanecem em silêncio e não participam da aula. A curiosidade existe, mas é ofuscada pela atual estrutura do ensino. Há uma questão emocional, além da solução pedagógica.
                     </p>
 
                     <p>
-                        O Globinho, nosso mascote, não aparece quando você erra para te cobrar. Ele aparece quando você aparece. Quando você está aqui, tentando, explorando, errando e tentando de novo. Esse é o comportamento que o site quer celebrar: a presença, não a perfeição.
+                       O Globinho, nosso mascote, não aparece quando você erra para te cobrar. Ele surge para te incentivar. E traduz o que os jogos já sabem há muitas décadas: você pode errar e tentar novamente. Analisar, perceber os padrões, revisar somente o que errou etc. Esse é o comportamento que o site quer celebrar. Essa ideia de tentativa, e não de perfeição.
                     </p>
 
                     <h5><strong>A turma aprende junto</strong></h5>
 
                     <p>
-                        Aqui está o coração do projeto. O ranking do Duvid é por escola e por turma, não por indivíduo isolado. Quando você estuda, sua turma avança. Quando vários alunos puxam juntos, a escola sobe no ranking. As conquistas mais significativas da plataforma são coletivas: a turma inteira desbloqueando um tema, um bloco de aulas concluído pela classe.
+                       Aqui está o coração do projeto. O ranking do Duvid é por escola e por turma, não por indivíduo isolado. Quando você estuda, sua turma avança. Quando vários alunos puxam juntos, a escola sobe no ranking. As conquistas mais significativas da plataforma são coletivas: a turma inteira desbloqueando um tema, um bloco de aulas concluído pela classe.
                     </p>
 
                     <p>
-                        Eu aprendi isso na sala de aula antes de aprender no código. Quando um aluno explica para o outro, ambos aprendem mais do que quando o professor explica para os dois. Quando a turma resolve um problema juntos, o conhecimento cola diferente. Tem contexto, tem história, tem rosto.
+                        Eu aprendi isso na sala de aula antes de aprender no código. Quando um aluno explica para o outro, ambos aprendem mais do que quando o professor explica para os dois. Quando a turma resolve um problema junta, o conhecimento é transmitido de forma diferente.
                     </p>
 
                     <p>É por isso que a frase que resume o Duvid não é "seja o melhor". É:</p>
@@ -148,15 +154,15 @@ $autor     = "Leandro Henrique da Silva";
                     <h5><strong>Por que isso importa agora</strong></h5>
 
                     <p>
-                        Vivemos um momento em que as plataformas de educação estão cada vez mais sofisticadas em capturar a atenção do aluno, mas cada vez menos preocupadas com o que fazem com essa atenção. Notificações de streak que criam culpa quando você para. Rankings que expõem quem está atrás. Sistemas de recompensa desenhados para criar dependência, não aprendizado.
+                       Vivemos um momento em que as plataformas de educação estão cada vez mais sofisticadas em capturar a atenção do aluno, mas cada vez menos preocupadas com o que fazem com essa atenção. Notificações de streak que criam culpa quando você para. Rankings que expõem quem está atrás. Sistemas de recompensa desenhados para criar dependência, não aprendizado.
                     </p>
 
                     <p>
-                        Não estou dizendo que toda gamificação é ruim. Estou dizendo que ela pode ser usada de formas muito diferentes. E o Duvid escolheu um caminho específico: celebrar a presença, não punir a ausência. Fortalecer o coletivo, não isolar o indivíduo. Tirar o medo, não ampliá-lo.
+                       Não estou dizendo que toda gamificação é ruim. Estou dizendo que ela pode ser usada de formas muito diferentes. E o Duvid escolheu um caminho específico: celebrar a presença, não punir a ausência. Fortalecer o coletivo, não isolar o indivíduo. Tirar o medo, não ampliá-lo.
                     </p>
 
                     <p>
-                        Antes de qualquer nova funcionalidade que eu adiciono ao site, eu faço três perguntas: isso tira o medo de aprender ou aumenta? Isso fortalece o coletivo ou isola o indivíduo? O Globinho estaria orgulhoso disso?
+                       Antes de qualquer nova funcionalidade que eu adiciono ao site, faço três perguntas: isso tira o medo de aprender ou o aumenta? Isso fortalece o coletivo ou isola o indivíduo? Isso estimula a criatividade?
                     </p>
 
                     <p>São perguntas simples. Mas elas mudam tudo.</p>
@@ -175,18 +181,20 @@ $autor     = "Leandro Henrique da Silva";
                 <!-- Comentários do Facebook (injetados pelo scripts-blog.js) -->
                 <div id="comentarios-fb"></div>
 
-            </div>
-        </div>
+            </div><!-- /blog-widget -->
+        </div><!-- /blog-col-main -->
 
-        <!-- Sidebar (4/12) — preenchida pelo scripts-blog.js -->
-        <div class="w3-col l4 s12">
+        <!-- Sidebar — preenchida pelo scripts-blog.js -->
+        <aside class="blog-col-aside">
             <div id="tags-container"></div>
             <div id="posts-recentes-container"></div>
             <div id="leia-tambem-container"></div>
             <div id="arquivo-blog-container"></div>
-        </div>
+        </aside>
 
-    </div>
+        </div><!-- /blog-grid-row -->
+    </div><!-- /blog-body-pad -->
+    </main>
 
     <!-- Rodapé do site -->
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

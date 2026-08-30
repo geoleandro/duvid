@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta content="As fontes de energia não renováveis do Brasil — petróleo, carvão mineral e gás natural — sua produção, história e os impactos ambientais da matriz energética brasileira" name="description"/>
+<meta content="As fontes de energia não renováveis do Brasil (petróleo, carvão mineral e gás natural): sua produção, história e os impactos ambientais da matriz energética brasileira" name="description"/>
 <meta content="Texto 13 - Fontes de Energia no Brasil" property="og:title"/>
 <meta content="Do pré-sal às usinas termelétricas: como o Brasil produz e consome petróleo, carvão mineral e gás natural" property="og:description"/>
 <meta content="" property="og:image"/>
@@ -76,8 +76,9 @@
 <p>
             Energia, transporte e telecomunicações são os pilares da infraestrutura econômica e industrial de um país.
             Eles são importantes para o progresso e também mostram o quão desenvolvido ele é ou pode vir a ser.
-
-
+        </p>
+<p>
+            Assim como no sistema de transportes que vimos na última aula, a energia também tem sua própria geografia: nem toda fonte está disponível em qualquer lugar, e a decisão de explorar petróleo no fundo do oceano, carvão nas encostas do Sul ou gás nas bacias litorâneas envolve custos, riscos e disputas que moldam o território brasileiro. Vamos entender de onde vem, afinal, a energia que movimenta o país.
         </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -108,22 +109,22 @@
 <h4>As principais fontes de energia do Brasil são: </h4>
 <ul>
 <li>
-                    Petróleo – fornece gasolina, óleo diesel, querosene, e gera eletricidade em algumas usinas
+                    Petróleo: fornece gasolina, óleo diesel, querosene, e gera eletricidade em algumas usinas
                     <span class="termo" data-palavra="Usina termelétrica" data-definicao="Instalação que gera eletricidade a partir da queima de combustíveis como petróleo, carvão ou gás natural, cujo calor produz vapor que movimenta turbinas ligadas a geradores elétricos.">termelétricas</span>;
                 </li>
 <li>
-                    Energia hidráulica – produz eletricidade por meio das usinas hidrelétricas;
+                    Energia hidráulica: produz eletricidade por meio das usinas hidrelétricas;
                 </li>
 <li>
-                    Carvão mineral – fornece calor para os altos-fornos das indústrias siderúrgicas e gera eletricidade
+                    Carvão mineral: fornece calor para os altos-fornos das indústrias siderúrgicas e gera eletricidade
                     em algumas usinas termelétricas;
                 </li>
 <li>
-                    Biocombustíveis – não podemos esquecer dos biocombustíveis, como o álcool, que é usado como
+                    Biocombustíveis: não podemos esquecer dos biocombustíveis, como o álcool, que é usado como
                     combustível para automóveis desde a década de 1970.
                 </li>
 <li>
-                    Outras – o gás natural, o átomo (energia nuclear), o xisto betuminoso, a lenha, o carvão vegetal e a
+                    Outras: o gás natural, o átomo (energia nuclear), o xisto betuminoso, a lenha, o carvão vegetal e a
                     energia solar também podem ser considerados fontes de energia importantes para o país.
                 </li>
 </ul>
@@ -196,8 +197,8 @@
             (Lei 9.478) abriu o setor à participação de outras empresas e criou a Agência Nacional do Petróleo (ANP)
             para regular as concessões de exploração e produção nas <span class="termo" data-palavra="Bacias sedimentares" data-definicao="Depressões da crosta terrestre onde se acumulam, ao longo de milhões de anos, camadas de sedimentos que podem se transformar em rochas geradoras e reservatórios de petróleo e gás natural.">bacias sedimentares</span> terrestres e
             marítimas do país. Hoje, a União continua sendo dona das reservas, mas a exploração é feita por diversas
-            empresas — entre elas a própria Petrobras, que segue como a maior operadora do país — mediante contratos de
-            concessão ou partilha de produção. </p>
+            empresas (entre elas a própria Petrobras, que segue como a maior operadora do país) mediante contratos de
+            concessão ou partilha de produção.</p>
 <p>O petróleo e seus derivados respondem por cerca de 35% da oferta de energia no Brasil (BEN, 2024). E adivinhem
             só, ele já é quase todo produzido aqui dentro! A produção diária gira em torno de 3,4 milhões de barris,
             volume que supera o consumo interno do país, de aproximadamente 2,5 a 3,3 milhões de barris por dia,
@@ -206,7 +207,7 @@
             produção desde o primeiro poço, perfurado na Bahia em 1938? Antes disso, o país importava boa parte do
             petróleo que consumia, principalmente do Oriente Médio, e por isso muitas refinarias brasileiras foram
             projetadas para processar petróleo mais pesado, diferente do que produzimos aqui. Mesmo autossuficiente em
-            petróleo bruto, o Brasil ainda importa parte dos derivados — como cerca de 30% do diesel consumido — porque
+            petróleo bruto, o Brasil ainda importa parte dos derivados (como cerca de 30% do diesel consumido) porque
             é mais vantajoso misturar (fazer o chamado blend) o petróleo nacional com variedades importadas para
             facilitar o refino. Olha a contradição, produzimos bastante petróleo, mas na hora de utilizá-lo ainda
             dependemos da tecnologia de fora.</p>
@@ -237,6 +238,7 @@
 <p>Imagine uma camada de sal com espessura de até 2 mil metros, escondendo reservas incríveis de petróleo e gás
             natural. Isso é o pré-sal, uma descoberta que, desde os primeiros poços exploratórios no fim dos anos 2000,
             colocou o Brasil em uma posição privilegiada como produtor e exportador de energia. </p>
+<p>Extrair petróleo dali não é tarefa simples: contando a lâmina d'água, a espessa camada de sal e as rochas até o reservatório, a distância entre a plataforma e o petróleo pode ultrapassar 7 mil metros, quase a altura do pico mais alto da Cordilheira dos Andes. Para dar conta disso, a Petrobras opera uma frota de plataformas flutuantes chamadas FPSO (sigla em inglês para unidade de produção, armazenamento e transferência), capazes de operar em águas com até 3 mil metros de profundidade. Some-se a isso a própria camada de sal, que pode ter entre 1,5 e 2 mil metros de espessura e se comporta de forma quase plástica sob a pressão e a temperatura do fundo do mar, "esmagando" lentamente os equipamentos de perfuração ao longo do tempo. O desafio tecnológico foi tão grande que o Brasil se tornou uma referência mundial em exploração de petróleo em águas ultraprofundas, exportando esse conhecimento para outros países produtores.</p>
 <p>Para garantir que a União, os estados e os municípios recebam parte da riqueza gerada por esse recurso não
             renovável, o governo cobra das empresas o chamado sistema de <em>royalties</em>. Mas o que são <em>royalties</em>?
         </p>
@@ -244,6 +246,7 @@
             aos estados e aos municípios produtores como compensação pela exploração de um recurso público e não
             renovável, calculados com base no volume produzido e no preço do petróleo. Parte importante desse dinheiro
             é destinada a áreas como Educação, Saúde e infraestrutura dos municípios produtores. </p>
+<p>Mas nem tudo relacionado ao petróleo é produção e royalties: o transporte marítimo desse recurso também carrega riscos ambientais graves. Em 2019, o Brasil enfrentou seu maior desastre desse tipo: mais de duas mil quilômetros de litoral, entre o Nordeste e o Sudeste, foram atingidos por um vazamento de óleo cru que sujou mais de 230 praias em 11 Estados. As investigações concluíram que o óleo veio de um navio petroleiro de bandeira grega que vazou a mais de 700 km da costa brasileira, no fim de julho daquele ano, mas os primeiros registros só apareceram nas praias semanas depois. Mais de mil toneladas de resíduos oleosos foram recolhidas, e o desastre afetou manguezais, recifes de coral, tartarugas e a pesca artesanal de centenas de comunidades litorâneas, mostrando que os riscos do petróleo não terminam quando ele sai do poço, e que um acidente a centenas de quilômetros da costa pode levar semanas para ser percebido e ainda assim afetar dezenas de milhares de pessoas que vivem da pesca e do turismo.</p>
 <p>Quais são as outras fontes de energia não renováveis mais significativas no Brasil? É o que vamos ver agora
             com o carvão mineral e o gás natural.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -305,8 +308,8 @@
             não renovável encontram-se no sul do país, remontando à era Paleozoica, há milhões de anos. Em
             comparação com o resto do mundo, o Brasil detém apenas cerca de 1% das reservas mundiais, ocupando a 10ª
             posição no ranking global, mas ainda assim quase 90% dessas reservas estão localizadas no estado do Rio
-            Grande do Sul — sobretudo na jazida de Candiota, que sozinha concentra cerca de 38% de todo o carvão
-            nacional. </p>
+            Grande do Sul, sobretudo na jazida de Candiota, que sozinha concentra cerca de 38% de todo o carvão
+            nacional.</p>
 <p>Porém, mesmo com esse grande potencial, o consumo nacional de carvão ainda é muito baixo perto do consumo
             mundial. Isso se deve a algumas restrições, como os altos teores de cinza e enxofre presentes na maioria do
             carvão brasileiro. </p>
@@ -332,6 +335,7 @@
             transportado por ferrovia até o porto de Imbituba e, em seguida, enviado para as indústrias siderúrgicas do
             sudeste do país. Já no Rio Grande do Sul, a jazida de Candiota e a região do Baixo Jacuí concentram as
             principais áreas produtoras de carvão do estado. </p>
+<p>Mais de um século de mineração deixou marcas profundas nessa região catarinense. Em 2000, a Justiça condenou as carboníferas e a União por crime ambiental cometido ao longo de gerações na bacia carbonífera de Criciúma, obrigando as empresas a recuperar minas abandonadas, reparar barragens de rejeitos e tratar os efluentes contaminados. Mesmo assim, quinze anos depois da condenação, apenas 35% da área degradada havia sido recuperada, e o passivo ambiental chegou a ser estimado em R$ 500 milhões. De olho no futuro, a Lei nº 14.299/2022 criou o Programa de Transição Energética Justa, com a meta de encerrar totalmente a geração de energia a partir do carvão mineral no Brasil até 2040, buscando ao mesmo tempo preparar economicamente os municípios que hoje dependem dessa atividade. É um exemplo de como uma fonte de energia pode continuar gerando custos ambientais e sociais décadas depois de suas minas terem sido abertas, muito depois de a energia já ter sido consumida.</p>
 <div class="w3-margin"><img alt="ts13f06" class="w3-mobile" id="imagem6" src="ts13f06.png"/>
 <span class="w3-small w3-margin-left" id="citacao6"> </span>
 </div>
@@ -415,6 +419,7 @@
 <p>Em resumo, o gasoduto Bolívia-Brasil é uma infraestrutura importante para o abastecimento de gás no
                 Brasil, mas também é uma fonte de conflitos políticos, econômicos e ambientais entre os dois países.</p>
 </div>
+<p>Petróleo, carvão mineral e gás natural têm algo em comum além de serem combustíveis fósseis: ao serem queimados, todos liberam CO2 e outros gases que se acumulam na atmosfera e intensificam o efeito estufa. Essa é uma das pontes entre a matriz energética que estudamos hoje e o próximo assunto do curso, os climas do Brasil, já que entender de onde vem a energia que movimenta o país também ajuda a entender por que o clima do planeta está mudando.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -450,6 +455,14 @@
 <div class="area w3-center">
 <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
 </div>
+</div>
+<div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots13" src="inforesumots13.webp" alt="Infográfico resumo Fontes de Energia no Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+    <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr>
 </div>
 <div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
@@ -548,6 +561,41 @@
 <hr/>
 </div>
 <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Sob que tipo de camada geológica, com até 2 mil metros de espessura, ficam escondidas as maiores reservas de petróleo e gás do Brasil?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'sal', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que medida tomada pelo governo boliviano em 2006, ocupando com tropas as refinarias da Petrobras em seu território, gerou fortes tensões em torno do gasoduto Bolívia-Brasil?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'nacionalização', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+<hr/>
+</div>
 <div class="topico">
 <div class="w3-panel w3-pale-yellow w3-margin">
 <h2>Questões para o caderno</h2>
@@ -557,10 +605,10 @@
 <h3>4. O que são royalties no setor petrolífero?</h3>
 <h3>5. Qual é a principal área produtora de petróleo no Brasil?</h3>
 <h3>6. Como o carvão mineral é formado?</h3>
-<h3>7. Quais são os impactos ambientais negativos da exploração do carvão mineral?</h3>
+<h3>7. Quais foram os impactos da mineração de carvão em Criciúma, e o que a Lei 14.299/2022 pretende fazer até 2040?</h3>
 <h3>8. O que é a camada pré-sal?</h3>
 <h3>9. Qual é a importância do gás natural para o Brasil?</h3>
-<h3>10. Quais são os principais produtos derivados do petróleo?</h3>
+<h3>10. O que causou o vazamento de óleo que atingiu o litoral do Nordeste em 2019, e quais foram suas consequências?</h3>
 </div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
@@ -599,6 +647,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

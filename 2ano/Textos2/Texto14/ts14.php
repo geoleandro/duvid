@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Os principais tipos de clima do Brasil — equatorial, tropical, tropical úmido, tropical de altitude, semiárido e subtropical — e os fatores que determinam a diversidade climática do país" name="description" />
+    <meta content="Os principais tipos de clima do Brasil: equatorial, tropical, tropical úmido, tropical de altitude, semiárido e subtropical, e os fatores que determinam a diversidade climática do país" name="description" />
     <meta content="Texto 14 - Climas do Brasil I: Tipos" property="og:title" />
     <meta content="Domínios climáticos do Brasil: Equatorial, Tropical (semiárido, altitude, úmido) e Subtropical" property="og:description" />
     <meta content="" property="og:image" />
@@ -629,7 +629,7 @@
 
                                 A média anual de temperatura em Belém do Pará é de aproximadamente 26°C, enquanto a
                                 média
-                                anual de precipitação é de cerca de 2100 mm.
+                                anual de precipitação é de cerca de 3.300 mm (INMET, normais climatológicas 1991-2020).
                             </p>
                         </div>
                     </div>
@@ -653,8 +653,8 @@
                                 valores
                                 abaixo de 70 mm por mês.<br />
 
-                                A média anual de temperatura em Salvador é de cerca de 25°C, enquanto a média anual de
-                                precipitação é de aproximadamente 1200 mm.
+                                A média anual de temperatura em Salvador é de cerca de 25,6°C, enquanto a média anual de
+                                precipitação é de aproximadamente 1.833 mm (INMET, normais climatológicas 1991-2020).
 
                             </p>
                         </div>
@@ -869,8 +869,8 @@
                 das outras regiões,
                 pois possui chuva intensa no inverno. Veja pelo climograma:</p>
             <!-- Inserir Climograma Salvador -->
-            <p>As temperaturas médias anuais em torno de 26°C e alta umidade relativa do ar e o volume de chuvas pode
-                superar em média os 2.000 mm. Entretanto, mesmo com toda essa chuva ele ainda é menos úmido do que o
+            <p>As temperaturas médias anuais em torno de 26°C e alta umidade relativa do ar e o volume de chuvas
+                ultrapassa a média de 1.800 mm por ano. Entretanto, mesmo com toda essa chuva ele ainda é menos úmido do que o
                 clima
                 Equatorial em Belém. Com todas essas características, o clima de Salvador é responsável por trazer muita
                 vida e animação para a cidade, com suas praias, festas populares e a alegria do povo baiano.</p>
@@ -963,9 +963,10 @@
             <p><strong>Duvid:</strong> Nossos ouvintes que agradecem. Foi fascinante explorar as diferenças entre os
                 climas
                 e descobrir o que
-                cada uma delas tem a oferecer. E a nossa expedição pelo Brasil ainda não acabou, pois na próxima semana
-                iremos explorar mais os problemas envolvendo o clima do Brasil. Então fique ligado e continue
-                acompanhando o
+                cada uma delas tem a oferecer. E a nossa expedição pelo Brasil ainda não acabou: na próxima semana vamos
+                entender de onde vêm essas massas de ar que passaram o programa inteiro sendo mencionadas, além de
+                conhecer as secas do Nordeste, o projeto de transposição do Rio São Francisco e como o fenômeno El Niño
+                interfere no clima brasileiro. Então fique ligado e continue acompanhando o
                 Duvid Podcast!</p>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr />
@@ -1094,6 +1095,14 @@
             </div>
         </div>
         <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+            <div class="w3-margin"><img id="inforesumots14" src="inforesumots14.webp" alt="Infográfico resumo Climas do Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+        <div class="topico">
             <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
             <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
@@ -1155,6 +1164,41 @@
         </div>
 
         <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>O que causa a queda da pressão atmosférica e a falta de oxigênio sentida pelos jogadores de futebol na altitude de La Paz?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'altitude', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Por que Recife tem um clima mais ameno e úmido do que Brasília, mesmo sem estarem tão distantes em latitude?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'maritimidade', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr/>
+        </div>
         <div class="topico">
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para o caderno</h2>
@@ -1170,7 +1214,7 @@
                 </h3>
                 <h3>8. O que são climogramas e como eles podem ser utilizados para estudar os climas no Brasil?</h3>
                 <h3>9. Identifique os fatores que influenciam a diversidade climática no Brasil.</h3>
-                <h3>10. Localize e descreva as principais áreas onde o clima tropical úmido é predominante no Brasil.
+                <h3>10. Explique como a maritimidade e a continentalidade influenciam o clima de uma região, usando Recife e Brasília como exemplo.
                 </h3>
             </div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -1215,6 +1259,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
             <br><br>
             <div class="w3-padding-48">

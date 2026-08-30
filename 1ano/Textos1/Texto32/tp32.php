@@ -139,6 +139,12 @@
 
             <p>A humanidade, em escala global, ultrapassou a capacidade de suporte do planeta em vários indicadores. O Dia da Sobrecarga da Terra, calculado anualmente pela Global Footprint Network, marca o dia do ano em que a humanidade consumiu todos os recursos que o planeta consegue regenerar em 12 meses. Em 2023, esse dia caiu em 2 de agosto. Isso significa que, nos quatro meses restantes do ano, a humanidade viveu no "crédito" do planeta, consumindo estoques que não se renovam na mesma velocidade. Em 1970, o Dia da Sobrecarga era em dezembro. A aceleração do consumo nas últimas décadas comprimiu esse limite em quase quatro meses.</p>
 
+            <h3>Vivemos no Antropoceno?</h3>
+
+            <p>Em 2000, o químico atmosférico Paul Crutzen propôs que a Terra havia entrado numa nova época geológica, batizada de <span class="termo" data-palavra="Antropoceno" data-definicao="Termo proposto em 2000 pelo químico Paul Crutzen para designar uma nova época geológica marcada pela ação humana como força capaz de alterar o sistema terrestre em escala planetária. Em 2024, a União Internacional de Ciências Geológicas rejeitou formalmente sua adoção como período oficial, mantendo o Holoceno como época vigente, mas o termo continua amplamente usado nas ciências ambientais e sociais para descrever a magnitude do impacto humano.">Antropoceno</span>: o "tempo dos humanos". A ideia é que a espécie humana se tornou uma força geológica comparável a erupções vulcânicas ou impactos de asteroides, deixando marcas permanentes nas rochas que estão se formando agora, como partículas radioativas de testes nucleares, microplásticos e concentrações de dióxido de carbono muito acima de qualquer período dos últimos milhões de anos.</p>
+
+            <p>Em março de 2024, porém, um comitê da União Internacional de Ciências Geológicas rejeitou formalmente o reconhecimento do Antropoceno como uma nova época oficial, concluindo que ainda vivemos tecnicamente no Holoceno, iniciado há 11,7 mil anos. A decisão gerou forte controvérsia entre cientistas, porque a rejeição foi por critérios técnicos de estratigrafia (a dificuldade de marcar um único ponto de início preciso e universal), e não porque alguém negue que o impacto humano sobre o planeta seja real e mensurável. Independentemente do nome oficial da época geológica, o conceito de Antropoceno continua amplamente usado nas ciências ambientais para descrever a escala sem precedentes da transformação humana do planeta.</p>
+
             <h3>A pegada ecológica</h3>
 
             <p>Para medir o impacto individual e coletivo sobre o planeta, a biogeografia e a economia ecológica desenvolveram o conceito de <span class="termo" data-palavra="Pegada Ecológica" data-definicao="Medida da área de terra e água biologicamente produtiva necessária para produzir os recursos que uma pessoa, cidade ou país consome e para absorver os resíduos que gera. Expressa em hectares globais. Se todos vivessem como um americano médio, precisaríamos de 5 planetas.">pegada ecológica</span>. Ela calcula quantos hectares de terra produtiva são necessários para sustentar o estilo de vida de uma pessoa ou de um país. A pegada ecológica média de um brasileiro em 2023 era de 2,9 hectares globais por pessoa. A da Terra disponível por pessoa é de 1,6 hectare. Se todos os humanos vivessem como um americano médio, precisaríamos de pouco mais de cinco planetas. Como só temos um, a distribuição desigual do consumo é, em si, um problema ambiental e político.</p>
@@ -148,6 +154,18 @@
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Gráfico em breve</div>'">
                 <span class="w3-small w3-margin-left">Dia da Sobrecarga da Terra: evolução histórica. Quanto mais cedo no ano, maior o déficit ecológico da humanidade. Fonte: Global Footprint Network, 2023.</span>
             </div>
+
+            <h3>O EIA-RIMA: como o impacto é avaliado antes da obra</h3>
+
+            <p>No Brasil, toda atividade com potencial de causar degradação significativa do meio ambiente (uma rodovia, uma usina, uma mineradora, um porto) precisa passar por um processo de avaliação antes de receber a licença para funcionar. Esse processo é regulado desde 1986 pela Resolução CONAMA nº 001, que tornou obrigatório o <span class="termo" data-palavra="EIA-RIMA" data-definicao="Estudo de Impacto Ambiental (EIA) e Relatório de Impacto Ambiental (RIMA), documentos técnicos exigidos por lei desde 1986 para o licenciamento de empreendimentos com potencial de degradação ambiental significativa. O EIA é o estudo técnico completo; o RIMA é sua versão resumida e acessível ao público, incluindo audiências públicas antes da aprovação.">EIA-RIMA</span>: o Estudo de Impacto Ambiental e o Relatório de Impacto Ambiental. O EIA é o documento técnico completo, produzido por uma equipe multidisciplinar de biólogos, geógrafos, engenheiros e antropólogos, que precisa identificar todos os impactos previstos, propor medidas para reduzi-los e apresentar alternativas ao projeto original, incluindo a alternativa de não realizar a obra. O RIMA é a versão resumida, escrita em linguagem acessível, porque a legislação exige que o conteúdo seja discutido em audiências públicas abertas à população afetada antes da aprovação.</p>
+
+            <p>Na prática, o processo nem sempre funciona como o texto da lei prevê. Prazos são reduzidos por pressão política, audiências públicas acontecem em cidades distantes das comunidades afetadas ou em horários que dificultam a participação, e as equipes que elaboram o EIA costumam ser contratadas e pagas pela própria empresa que quer construir o empreendimento, o que gera um conflito de interesse estrutural. Ainda assim, o EIA-RIMA continua sendo a principal ferramenta legal para que impactos sejam previstos, discutidos e, ao menos formalmente, mitigados antes de acontecerem.</p>
+
+            <h3>Mariana e Brumadinho: quando o rejeito de mineração vira desastre</h3>
+
+            <p>Dois dos piores desastres ambientais da história do Brasil aconteceram na mesma região mineradora de Minas Gerais, com menos de quatro anos de diferença, e os dois envolveram o rompimento de barragens de rejeitos de mineração de ferro. Em novembro de 2015, a barragem de Fundão, operada pela Samarco (controlada pela Vale e pela BHP Billiton), rompeu-se em Mariana e despejou 43,7 milhões de metros cúbicos de rejeitos no rio Doce. A lama percorreu 663 quilômetros até chegar ao mar no Espírito Santo, matou 19 pessoas e destruiu o distrito de Bento Rodrigues, contaminando a água de 230 municípios que dependem do rio Doce para abastecimento, pesca e irrigação.</p>
+
+            <p>Em janeiro de 2019, pouco mais de três anos depois, a barragem de Brumadinho, também operada pela Vale, rompeu-se e despejou 12 milhões de metros cúbicos de <span class="termo" data-palavra="Rejeito de Mineração" data-definicao="Material sólido ou líquido, sem valor econômico, que sobra do processo de extração e beneficiamento de minério. No caso do minério de ferro, o rejeito costuma ser armazenado em grandes barragens de terra. Quando essas barragens rompem, o rejeito se espalha como uma onda de lama tóxica, capaz de soterrar cidades inteiras e contaminar rios por centenas de quilômetros.">rejeito de mineração</span> diretamente sobre o refeitório dos funcionários e parte da própria sede administrativa da mina, matando 272 pessoas em poucos minutos, sem tempo de fuga. A lama seguiu pelo rio Paraopeba, afetando 18 municípios e cerca de 944 mil pessoas. Ao contrário de Mariana, onde havia sistema de alarme, em Brumadinho o alarme sonoro nem chegou a soar a tempo. As duas tragédias mudaram a legislação brasileira sobre segurança de barragens, mas ambas seguem, anos depois, com poucos responsáveis efetivamente condenados.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -199,6 +217,12 @@
             <p>O <span class="termo" data-palavra="Preservacionismo" data-definicao="Corrente ambiental que defende a proteção integral da natureza, sem interferência ou uso humano. Parte da ideia de que a natureza tem valor em si mesma, independentemente de qualquer utilidade para os seres humanos. Parques nacionais sem extração de recursos são exemplos de políticas preservacionistas.">preservacionismo</span> defende que certas áreas da natureza devem ser completamente protegidas da interferência humana. A natureza, nessa visão, tem valor próprio, independentemente de qualquer uso econômico ou benefício humano. O filósofo e naturalista americano John Muir, que no final do século XIX lutou para criar os primeiros parques nacionais dos Estados Unidos, é o fundador do pensamento preservacionista. Para Muir, uma floresta virgem deveria existir porque era bela e sagrada, não porque produzia madeira ou regulava o clima.</p>
 
             <p>O <span class="termo" data-palavra="Conservacionismo" data-definicao="Corrente ambiental que defende o uso racional e sustentável dos recursos naturais, combinando proteção ambiental com desenvolvimento econômico. A natureza tem valor tanto intrínseco quanto instrumental. Manejo florestal sustentável, pesca regulamentada e ecoturismo são práticas conservacionistas.">conservacionismo</span> parte de uma premissa diferente: a natureza deve ser protegida porque é útil para os seres humanos, mas seu uso pode e deve ser controlado para garantir que os recursos continuem disponíveis no futuro. Gifford Pinchot, contemporâneo de Muir e primeiro chefe do Serviço Florestal dos Estados Unidos, defendia o uso racional dos recursos: nem desperdício nem proteção absoluta, mas gestão científica para garantir o máximo de benefício para o máximo de pessoas pelo máximo de tempo.</p>
+
+            <h3>Yellowstone: o parque que inventou a ideia de parque nacional</h3>
+
+            <p>A primeira vez que um governo protegeu formalmente um território natural "para o benefício e prazer do povo", nas palavras da própria lei, foi em 1872, quando o presidente americano Ulysses Grant assinou a criação do Parque Nacional de Yellowstone, nos atuais estados de Wyoming, Montana e Idaho. Relatos de exploradores sobre gêiseres, cânions coloridos e fontes termais, reforçados por fotografias e pinturas que ajudaram a convencer o Congresso americano, levaram à proteção de uma área de quase nove mil quilômetros quadrados, maior do que muitos países europeus.</p>
+
+            <p>Yellowstone se tornou o modelo copiado por praticamente todo o mundo ao longo do século seguinte: a ideia de que um Estado pode e deve reservar territórios de excepcional valor natural, proibindo a exploração econômica direta. É o preservacionismo em sua forma mais pura, aplicado antes mesmo de o termo existir como corrente de pensamento organizada. O modelo teve um custo silenciado por décadas: para criar o parque, o governo americano expulsou os povos indígenas Shoshone, Bannock e Crow que viviam e caçavam naquele território havia gerações, um padrão que se repetiria na criação de parques nacionais em vários outros países, inclusive no Brasil.</p>
 
             <h3>O debate no Brasil</h3>
 
@@ -267,6 +291,12 @@
 
             <p>Esse padrão sistemático de concentração dos impactos sobre as populações mais vulneráveis tem um nome: <span class="termo" data-palavra="Justiça Ambiental" data-definicao="Princípio que afirma que nenhum grupo social, seja por raça, etnia, classe social ou localização geográfica, deve suportar de forma desproporcional os impactos negativos de decisões ambientais. O movimento por justiça ambiental surgiu nos EUA na década de 1980 para denunciar o racismo ambiental.">justiça ambiental</span>. O movimento por justiça ambiental surgiu nos Estados Unidos na década de 1980, quando pesquisas mostraram que aterros de resíduos tóxicos eram construídos sistematicamente em bairros de maioria negra e latina, independentemente da classe social dos moradores. No Brasil, o Movimento por Justiça nas Américas documentou que comunidades quilombolas, indígenas e periféricas são as mais afetadas por grandes obras de infraestrutura, mineração e agrotóxico, e as que têm menos acesso aos processos de licenciamento ambiental para defender seus interesses.</p>
 
+            <h3>Refugiados ambientais: fugir de um desastre que não causaram</h3>
+
+            <p>Uma das consequências mais concretas da crise ambiental é o deslocamento forçado de populações inteiras. Os <span class="termo" data-palavra="Refugiados Ambientais" data-definicao="Pessoas obrigadas a deixar sua região de origem por causa de desastres ambientais, degradação do solo, escassez de água ou eventos climáticos extremos. O termo não tem reconhecimento formal no direito internacional de refúgio, que ainda exige perseguição política, racial, religiosa ou social para conceder esse status, deixando essas pessoas numa espécie de vácuo jurídico.">refugiados ambientais</span>, também chamados de refugiados climáticos, são pessoas obrigadas a abandonar suas casas por secas prolongadas, enchentes, avanço do nível do mar ou desertificação, não por perseguição política, guerra ou religião, que são os motivos reconhecidos oficialmente pelo direito internacional de refúgio. Segundo a ACNUR, a agência da ONU para refugiados, uma média de 21,5 milhões de pessoas foram deslocadas à força todos os anos desde 2008 por eventos climáticos como tempestades, inundações e incêndios florestais. O Banco Mundial projeta que, até 2050, cerca de 216 milhões de pessoas poderão precisar deixar suas regiões de origem por causa de impactos ambientais, sendo a África Subsaariana a região mais afetada, com uma projeção de 86 milhões de deslocados.</p>
+
+            <p>O problema não é só humanitário, é também jurídico: como o termo "refugiado ambiental" não é reconhecido oficialmente por nenhuma convenção internacional, essas pessoas não têm os mesmos direitos garantidos a refugiados de guerra ou perseguição política, como acesso facilitado a asilo em outros países. Elas ficam numa espécie de limbo legal, deslocadas por um problema que os países ricos, historicamente os maiores emissores de gases do efeito estufa, ajudaram a criar, mas cujo custo humano recai quase inteiramente sobre países pobres que pouco contribuíram para o aquecimento global.</p>
+
             <h3>O debate sobre crescimento econômico e limites planetários</h3>
 
             <p>Um ponto central do ecossocialismo e de outras correntes críticas é a ideia de <span class="termo" data-palavra="Decrescimento" data-definicao="Proposta política e econômica que defende a redução planejada da produção e do consumo nos países ricos como condição para a sustentabilidade do planeta. Parte da premissa de que crescimento econômico ilimitado é incompatível com os limites biofísicos da Terra.">decrescimento</span>: a proposta de que países ricos deveriam reduzir deliberadamente sua produção e consumo para que o planeta possa se recuperar e para que os países pobres possam ter acesso a recursos suficientes. Essa ideia contradiz frontalmente a premissa básica do desenvolvimento capitalista, que é o crescimento contínuo do PIB como medida de progresso. O debate entre crescimento sustentável (crescer de forma mais eficiente e limpa) e decrescimento (crescer menos) é uma das disputas centrais da política ambiental global no século XXI.</p>
@@ -316,22 +346,57 @@
 
             <p>A crise ambiental do século XXI não vai ser resolvida apenas com tecnologia mais limpa ou com mais parques nacionais. Vai exigir redistribuição de poder: que as comunidades que vivem nesses territórios tenham voz real nas decisões sobre eles. O Brasil tem na Constituição de 1988, no capítulo de meio ambiente, um dos textos ambientais mais avançados do mundo. O problema não é a lei. É quem consegue fazer a lei ser cumprida.</p>
 
+            <p>Esses conceitos (impacto ambiental, conservacionismo, preservacionismo, ecossocialismo, justiça ambiental) explicam como cada país e cada comunidade lida com a natureza dentro das próprias fronteiras. Mas a crise ambiental não respeita fronteiras: o carbono emitido em uma fábrica na China aquece o Ártico, derrete geleiras na Groenlândia e eleva o nível do mar em Recife. Isso exige cooperação internacional. Na próxima aula, você vai conhecer as principais conferências e acordos globais que tentaram, com sucessos parciais e fracassos importantes, organizar uma resposta coletiva da humanidade à crise ambiental: da Eco-92 ao Acordo de Paris.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 9.5: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Os desastres de Mariana (2015) e Brumadinho (2019) tiveram causa técnica semelhante (rompimento de barragens de rejeitos) e ocorreram na mesma região mineradora. Do ponto de vista da classificação de impactos ambientais estudada nesta aula, o que esses dois casos têm em comum?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>São impactos positivos, pois geraram empregos temporários na reconstrução das cidades atingidas</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>São impactos negativos, de abrangência regional (bacias inteiras de rios) e amplamente irreversíveis, já que espécies, solos e modos de vida ribeirinhos destruídos não voltam ao estado anterior</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>São impactos locais e totalmente reversíveis, já que a lama de rejeitos se decompõe naturalmente em poucos meses sem deixar resíduos</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Mariana e Brumadinho são exemplos didáticos de impacto ambiental negativo, de abrangência regional (afetaram bacias hidrográficas inteiras, com centenas de municípios) e majoritariamente irreversível: espécies de peixes, nascentes e comunidades tradicionais atingidas não retornam à condição anterior, mesmo com décadas de reparação.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
         <!-- BLOCO 10: Infográfico -->
         <div class="topico">
 
-            <h2>Infográfico: resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
-            <div class="w3-margin">
-                <img src="inforesumot32.png" alt="Infográfico resumo Questão Ambiental I" class="w3-mobile"
+            <div class="w3-margin"><img id="inforesumotp32" src="inforesumotp32.webp" alt="Infográfico resumo Questão Ambiental I: impacto ambiental, conservacionismo, preservacionismo e ecossocialismo" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -341,6 +406,44 @@
         <div class="topico">
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.2: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em que ano foi criado o Parque Nacional de Yellowstone, o primeiro parque nacional do mundo?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '1872', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Em quantos municípios brasileiros a lama do rompimento da barragem de Mariana causou impacto ao longo do rio Doce, segundo o texto?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '230', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
             <hr>
         </div>
 
@@ -367,6 +470,12 @@
                 <strong>O que é "greenwashing"?</strong>
             </p>
             <p><span class="primeiraLetra">R:</span> É a prática de empresas ou governos usarem discurso e marketing ambiental para parecerem mais sustentáveis do que são, sem mudanças reais nas suas práticas. Um exemplo clássico: uma empresa que vende água mineral em garrafa plástica e coloca na embalagem "comprometida com o meio ambiente" porque financiou o plantio de 1.000 árvores, enquanto produz milhões de garrafas descartáveis por mês. O greenwashing é um problema sério porque ocupa o espaço do debate ambiental com imagem em vez de ação, e dificulta que consumidores e governos distinguam práticas genuínas de marketing.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Existe uma lei internacional que protege os refugiados ambientais?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Não, pelo menos não uma específica e amplamente aceita. A Convenção de Genebra de 1951, que é o principal tratado internacional sobre refúgio, define refugiado apenas como a pessoa perseguida por motivos de raça, religião, nacionalidade, opinião política ou pertencimento a um grupo social, sem mencionar desastres ambientais ou mudanças climáticas. Isso significa que uma pessoa deslocada por uma seca prolongada ou pelo avanço do nível do mar não tem, hoje, o mesmo amparo legal internacional de alguém que foge de uma guerra. Diversos países e organizações discutem propor uma convenção específica, mas até agora nenhuma teve força suficiente para ser aprovada globalmente.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -460,6 +569,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

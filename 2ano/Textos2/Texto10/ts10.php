@@ -81,6 +81,16 @@
 <hr/>
 </div>
 <div class="topico">
+<h2>A integração do território brasileiro</h2>
+<p>Antes de entender por que as indústrias se espalham hoje pelo país, é preciso entender um problema mais antigo: por muito tempo, o Brasil não formou um território de fato integrado. Durante o período colonial e boa parte do século XIX, a economia se organizava em torno de poucos produtos de exportação (açúcar no Nordeste, ouro em Minas Gerais, café no Sudeste), cada um voltado para o litoral e para os portos, com pouquíssima ligação entre si. Historiadores e geógrafos chamam essa formação de <span class="termo" data-palavra="arquipélago econômico" data-definicao="Metáfora usada para descrever a formação histórica do território brasileiro como um conjunto de regiões econômicas voltadas para o exterior, com pouca integração entre si.">arquipélago econômico</span>: um conjunto de “ilhas” produtivas, cada uma conectada ao mercado internacional, mas isoladas umas das outras pela falta de estradas e de comunicação.</p>
+<p>As primeiras tentativas de integração vieram com as estradas de ferro do café, no século XIX, ligando as fazendas do interior paulista ao porto de Santos. Mas foi só no século XX que o Estado brasileiro assumiu a integração do território como projeto de governo. Getúlio Vargas lançou a “Marcha para o Oeste”, incentivando a ocupação do interior. Juscelino Kubitschek, com o Plano de Metas (1956-1961) e o lema “cinquenta anos em cinco”, construiu Brasília no Planalto Central e abriu rodovias radiais a partir da nova capital, entre elas a Belém-Brasília, deslocando o eixo de decisões para dentro do continente. Durante o regime militar (1964-1985), a integração ganhou também um sentido geopolítico, resumido no lema “integrar para não entregar”: rodovias como a Transamazônica avançaram sobre a Amazônia, e o governo criou, em 1967, a Zona Franca de Manaus para atrair indústrias a uma região até então distante dos grandes centros consumidores.</p>
+<p>Paralelamente às estradas, o país também precisou se integrar por meio das comunicações. Em 1965 foi criada a Embratel, estatal responsável por montar uma rede nacional de micro-ondas e, depois, de satélites, encarregada de levar telefonia e transmissão de televisão a todo o território. Em 8 de fevereiro de 1985, o Brasil lançou o Brasilsat A1, seu primeiro satélite de telecomunicações, reduzindo a dependência de satélites estrangeiros alugados e ampliando o alcance das redes de comunicação até o interior do país.</p>
+<p>O geógrafo Milton Santos propôs uma forma de entender essa transformação por meio de uma periodização do território: primeiro existiria um <strong>meio natural</strong>, em que a vida das pessoas dependia quase diretamente das condições oferecidas pela natureza (solo, clima, relevo); depois um <strong>meio técnico</strong>, quando estradas, ferrovias e máquinas passaram a moldar o espaço segundo interesses econômicos; e, a partir da década de 1970, um <span class="termo" data-palavra="meio técnico-científico-informacional" data-definicao="Conceito de Milton Santos para a fase mais recente da organização do espaço, marcada pela presença de redes de ciência, tecnologia e informação (fibra óptica, satélites, softwares) que conectam determinados pontos do território de forma instantânea, enquanto outras áreas permanecem à margem dessas redes.">meio técnico-científico-informacional</span>, quando ciência, tecnologia e informação passam a comandar diretamente a produção e a circulação de mercadorias e dados. Esse novo meio, porém, não cobre o país de modo uniforme: ele aparece como uma mancha contínua nas grandes metrópoles e nas regiões agroexportadoras mais dinâmicas, e como pontos isolados no restante do território, o que ajuda a explicar por que a industrialização brasileira nunca se distribuiu de forma equilibrada pelo espaço nacional.</p>
+<p>Essa desigualdade levou o geógrafo Pedro Pinchas Geiger a propor, ainda no final da década de 1960, uma divisão do território que não seguisse os limites dos Estados, mas sim o grau de integração econômica de cada área: os chamados <span class="termo" data-palavra="complexos regionais" data-definicao="Divisão do território brasileiro proposta por Pedro Pinchas Geiger com base no processo histórico de industrialização e integração econômica, e não nos limites dos Estados, formada por Amazônia, Centro-Sul e Nordeste.">complexos regionais</span> (ou regiões geoeconômicas). Para Geiger, o país se organizava em três grandes complexos: Amazônia, Centro-Sul e Nordeste. Como o critério era econômico, e não político-administrativo, uma parte de Minas Gerais, por exemplo, ficava dentro do complexo Nordeste, enquanto o restante do Estado pertencia ao Centro-Sul. Essa proposta reforça a ideia central desta aula: o espaço industrial brasileiro nunca foi definido apenas pelas fronteiras estaduais, mas pela forma como cada região se conectou, ou deixou de se conectar, às redes de transporte, comunicação e capital que atravessam o território.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h2>A indústria brasileira e o cenário global </h2>
 <p>A dinâmica do espaço mundial é extremamente importante para o entendimento do que se passa no Brasil. Isso
             porque há um movimento de readequação da produção em escala internacional, onde as empresas (multinacionais)
@@ -93,6 +103,7 @@
         </p>
 <p>O Brasil precisou se adaptar e com isso aderiu ao processo de liberalização de sua economia, ou seja, reduziu
             o Estado em relação às medidas de proteção de seu mercado interno. </p>
+<p> Essa abertura ganhou forma concreta no governo Fernando Collor (1990-1992), com o Programa de Competitividade Industrial e Comércio Exterior (PICE), que reduziu progressivamente as tarifas de importação e extinguiu boa parte das barreiras não tarifárias que protegiam a indústria nacional. No mesmo período, o Tratado de Assunção (1991) criou o Mercosul, com redução automática e linear de tarifas entre Brasil, Argentina, Paraguai e Uruguai. Já o Plano Real, lançado em 1994, controlou a inflação crônica que corroía a economia havia décadas e, ao estabilizar a moeda, tornou o país mais atraente para o capital estrangeiro, consolidando a nova fase de abertura.</p>
 <p> A abertura da economia levou a uma onda de novos investimentos estrangeiros diretos, possibilitando a
             retomada do crescimento industrial dentro da nova lógica produtiva e não mais daquela de substituição de
             importações. As indústrias instaladas no país desde 1990 passaram a fazer parte das chamadas <span class="w3-yellow" onclick="document.getElementById('cadeias').style.display='block'">cadeias</span>
@@ -161,6 +172,29 @@
 <hr/>
 </div>
 <div class="topico">
+<h2>Fatores locacionais: a teoria da localização industrial</h2>
+<p>Toda indústria, ao decidir onde se instalar, avalia um conjunto de vantagens e desvantagens de cada local disponível. O estudo sistemático dessas escolhas é chamado de <span class="termo" data-palavra="teoria da localização industrial" data-definicao="Campo da geografia econômica que estuda os critérios usados pelas indústrias para escolher onde se instalar, buscando o local de menor custo de produção.">teoria da localização industrial</span>, cujo pioneiro foi o economista alemão Alfred Weber (1868-1958). Weber partiu de uma pergunta simples: qual é o local onde uma fábrica consegue produzir gastando o mínimo possível?</p>
+<p>Para responder, ele imaginou o chamado <strong>triângulo locacional</strong>: a indústria se posiciona entre três polos, a fonte de matéria-prima, a fonte de mão de obra e o mercado consumidor, buscando o ponto de menor custo total. Weber identificou três grupos de fatores que puxam a indústria para um lado ou outro desse triângulo:</p>
+<div class="w3-panel w3-pale-yellow w3-margin w3-padding">
+<p>Fatores locacionais de Weber: </p>
+<ul>
+<li>
+                    custo de transporte: indústrias que usam matéria-prima pesada ou perecível (como siderurgia ou laticínios) tendem a se instalar perto da fonte da matéria-prima; as que fabricam produtos mais leves e duráveis tendem a se aproximar do mercado consumidor;
+                </li>
+<li>
+                    custo da mão de obra: uma região com salários mais baixos pode compensar um custo de transporte maior, atraindo indústrias que dependem de bastante mão de obra;
+                </li>
+<li>
+                    forças de aglomeração e desaglomeração: instalar-se perto de outras indústrias e fornecedores reduz custos (economias de aglomeração), mas o excesso de empresas numa mesma área também eleva o preço da terra, o trânsito e a poluição, empurrando fábricas para outros lugares (deseconomias de aglomeração).
+                </li>
+</ul>
+</div>
+<p>Esses fatores clássicos continuam válidos, mas hoje se somam a outros: incentivos fiscais oferecidos por Estados e municípios, proximidade de universidades e centros de pesquisa (como se vê nos tecnopolos), qualidade da infraestrutura logística e, cada vez mais, a disponibilidade de redes de telecomunicação, já que a revolução técnico-científica reduziu a dependência de proximidade física entre fábrica, fornecedores e consumidores para diversos ramos da indústria.</p>
+<p>Um exemplo extremo de economia de aglomeração é a fábrica de caminhões e ônibus da Volkswagen em Resende (RJ), inaugurada em 1996. Ali, a montadora criou o chamado Consórcio Modular: oito fornecedores diferentes, responsáveis por peças como chassi, eixos, motor e pintura, foram instalados dentro do próprio complexo industrial, junto à linha de montagem. Essa proximidade radical reduziu custos de transporte interno e de estoque a praticamente zero, mostrando até que ponto os fatores locacionais clássicos de Weber ainda orientam decisões industriais no Brasil contemporâneo.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
 <h2>A desconcentração industrial e a guerra de lugares </h2>
 <p>Nesse cenário de desconcentração industrial com distribuição das indústrias pelo território, há algumas
             causas e consequências mais imediatas que podem ser analisadas. </p>
@@ -223,6 +257,15 @@
                 </li>
 </ul>
 </div>
+
+
+
+<div class="w3-margin"><img alt="ts10f06" class="w3-mobile" id="imagem6" src="ts10f06.png"/>
+<span class="w3-small w3-margin-left" id="citacao2"> Organizado e revisado pelo autor. </span>
+</div>
+
+
+<p>Um episódio conhecido ilustra bem essa guerra fiscal na prática: em 1999, o governo do Rio Grande do Sul rompeu o contrato que havia assinado com a montadora Ford para a instalação de uma fábrica no Estado, alegando que o acordo era prejudicial aos cofres públicos. A Bahia entrou então na disputa, oferecendo terreno nivelado, infraestrutura pronta e isenções fiscais ainda maiores, além de financiamento do BNDES, condições mais vantajosas do que as oferecidas pelos gaúchos. A Ford optou pela Bahia, e a fábrica foi inaugurada em Camaçari em 2001. O caso ficou conhecido como um dos exemplos mais claros de como a disputa entre Estados por uma única fábrica pode chegar a valer centenas de milhões de reais em incentivos.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -266,7 +309,7 @@
 <p> A partir do mapa, embora a atividade industrial nos últimos anos no Brasil tenha sofrido um processo de
             desconcentração industrial, vemos que ainda as regiões Sul e Sudeste concentram a maior parte das indústrias
             no país.</p>
-<p class="w3-center"><strong>Brasil: distribuição do valor industrial por município – 2009 </strong></p>
+<p class="w3-center"><strong>Brasil: distribuição do valor industrial por município - 2009 </strong></p>
 <div class="w3-margin"><img alt="ts10f02" class="w3-mobile" id="imagem2" src="ts10f02.png"/>
 <span class="w3-small w3-margin-left" id="citacao2"> Fonte: (ABDAL, 2020). </span>
 </div>
@@ -334,6 +377,7 @@
 </div>
 </div>
 <p> Na região metropolitana de Recife, por exemplo, destacam-se os municípios de Jaboatão dos Guararapes, Cabo de Santo Agostinho e Paulista. Entretanto, o maior distrito industrial está localizado no <span class="w3-yellow" onclick="document.getElementById('Baiano').style.display='block'">Recôncavo Baiano</span>, onde se localizam Salvador e as indústrias dos setores petroquímico, automotivo e de autopeças de Camaçari. Além disso, Campina Grande, na Paraíba, é um importante tecnopolo, com destaque nas áreas de eletroeletrônica, informática e telecomunicações.</p>
+<p>Outro exemplo marcante de desconcentração no Nordeste é o Polo Automotivo de Goiana, em Pernambuco, onde a Stellantis (então Fiat) inaugurou em 2015 uma fábrica de veículos das marcas Jeep, Fiat e Ram, atraída por incentivos fiscais estaduais e federais. O impacto local foi expressivo: o município saltou da 13ª posição no PIB estadual em 2010, com 0,83% de participação, para a 4ª posição em 2019, já com 5,17% do PIB de Pernambuco, um retrato direto de como a chegada de uma única grande indústria pode reorganizar a economia de uma região inteira.</p>
 <div class="w3-modal w3-margin-top" id="Baiano">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -346,7 +390,9 @@
 </div>
 </div>
 </div>
-<p> Por fim, na <strong>Região Norte </strong>do país temos uma área criada através de incentivos fiscais: a <span class="termo" data-palavra="Zona Franca de Manaus" data-definicao="Área de livre-comércio de importação e exportação criada por decreto em 1967, na região Norte, com incentivos fiscais que atraem indústrias e montadoras para a Amazônia.">Zona Franca de Manaus</span>. Ela foi criada por decreto em 1967, durante a ditadura militar, como uma área de livre-comércio de importações e exportações (sem cobrança de impostos de importação), em que grande parte das montadoras utiliza componentes estrangeiros em suas linhas de produção. As empresas instaladas nessa área recebem grandes subsídios.</p>
+<p> Por fim, na <strong>Região Norte </strong>do país temos uma área criada através de incentivos fiscais: a <span class="termo" data-palavra="Zona Franca de Manaus" data-definicao="Área de livre-comércio de importação e exportação criada por decreto em 1967, na região Norte, com incentivos fiscais que atraem indústrias e montadoras para a Amazônia.">Zona Franca de Manaus</span>. Ela foi criada por decreto em 1967, durante a ditadura militar, como uma área de livre-comércio de importações e exportações (sem cobrança de impostos de importação), em que grande parte das montadoras utiliza componentes estrangeiros em suas linhas de produção. As empresas instaladas nessa área recebem grandes subsídios. Hoje o Polo Industrial de Manaus reúne cerca de 600 empresas, empregou diretamente mais de 127 mil trabalhadores ao final de 2024 e faturou R$ 204,4 bilhões naquele ano, um recorde histórico, o que mostra como um incentivo fiscal bem direcionado pode sustentar, décadas depois, um polo industrial relevante no meio da Floresta Amazônica, bem longe do eixo tradicional Sul-Sudeste.</p>
+<p> Já na <strong>Região Centro-Oeste</strong>, historicamente ligada à pecuária e ao agronegócio, o principal polo industrial está em Anápolis, Goiás, no chamado Distrito Agroindustrial de Anápolis (DAIA). Favorecido pela localização central no país, por incentivos fiscais e pela proximidade do Porto Seco de Anápolis, o distrito se tornou o segundo maior polo farmoquímico do Brasil, respondendo por cerca de 20% dos medicamentos produzidos no país, com laboratórios como Teuto, Neo Química e Brainfarma, além de uma montadora de automóveis. Esse crescimento industrial no Centro-Oeste mostra como a desconcentração não beneficiou apenas o entorno de São Paulo, mas também regiões antes quase exclusivamente agrícolas, reforçando a tendência de interiorização discutida ao longo desta aula.</p>
+<p>Todo esse mosaico de polos industriais espalhados pelo território só funciona porque existe uma rede de transporte capaz de ligar fábricas, portos, fornecedores e consumidores a milhares de quilômetros de distância. Na próxima aula, vamos justamente estudar o sistema de transportes do Brasil, os modais rodoviário, ferroviário, hidroviário e aéreo, e entender por que a matriz brasileira, tão dependente das rodovias, ainda enfrenta tantos gargalos logísticos.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -450,6 +496,14 @@
 </div>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots10" src="inforesumots10.webp" alt="Infográfico resumo Desconcentração Industrial no Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+    <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr>
+</div>
+<div class="topico">
 <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
 <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
@@ -491,6 +545,41 @@
 <div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Segundo a teoria de Weber, que tipo de força faz com que várias indústrias queiram se instalar próximas umas das outras, mesmo isso aumentando o preço da terra e o trânsito na região?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'aglomeração', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que disputa entre Estados e municípios, feita por meio de isenção de impostos e outros benefícios, ajuda a explicar por que as fábricas passaram a se instalar longe do eixo tradicional de São Paulo?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'guerra fiscal', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
 <hr/>
 </div>
 <div class="topico">
@@ -544,6 +633,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

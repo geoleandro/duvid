@@ -129,9 +129,9 @@
 
             <h2>Onde a taiga termina e o gelo começa</h2>
 
-            <p>Na aula anterior, você conheceu a taiga, a floresta de coníferas que ocupa as altas latitudes do hemisfério norte. Acima dela, entre 60° e 75° de latitude, as árvores desaparecem completamente. O solo congelado do permafrost é profundo demais para que raízes penetrem, o verão é curto demais para que troncos cresçam, e o vento constante resseca qualquer broto que tente se erguer. Nessa faixa sem árvores começa a <span class="termo" data-palavra="Tundra" data-definicao="Bioma polar sem árvores que ocorre entre 60° e 75° de latitude norte, caracterizado por permafrost permanente, verão curtíssimo, vegetação rasteira de musgos, liquens e gramíneas e fauna adaptada ao frio extremo. Não existe tundra equivalente no hemisfério sul por falta de massa continental nessas latitudes.">tundra</span>.</p>
+            <p>Na aula anterior, você conheceu a taiga, a floresta de coníferas que ocupa as altas latitudes do hemisfério norte. Acima dela, entre 60° e 75° de latitude, as árvores desaparecem completamente. O solo congelado do <span class="termo" data-palavra="Permafrost" data-definicao="Camada de solo permanentemente congelada que existe sob a superfície em regiões de alta latitude. Só uma fina camada superficial, chamada camada ativa, descongela no verão. As raízes de árvores não conseguem atravessar o permafrost, o que impede o crescimento de florestas na tundra.">permafrost</span> é profundo demais para que raízes penetrem, o verão é curto demais para que troncos cresçam, e o vento constante resseca qualquer broto que tente se erguer. Nessa faixa sem árvores começa a <span class="termo" data-palavra="Tundra" data-definicao="Bioma polar sem árvores que ocorre entre 60° e 75° de latitude norte, caracterizado por permafrost permanente, verão curtíssimo, vegetação rasteira de musgos, liquens e gramíneas e fauna adaptada ao frio extremo. Não existe tundra equivalente no hemisfério sul por falta de massa continental nessas latitudes.">tundra</span>.</p>
 
-            <p>A tundra é dominada por plantas rasteiras: musgos, liquens, gramíneas baixas, juncos e alguns arbustos anões que nunca passam de alguns centímetros de altura. Durante os dois a três meses de verão, o solo superficial descongela e a vegetação cresce com rapidez surpreendente, aproveitando as longas horas de luz. Algumas regiões da tundra chegam a ter 20 horas de sol por dia no pico do verão, compensando parcialmente o inverno de escuridão quase total. No pico do verão, a tundra fica coberta de flores e o solo encharcado sustenta nuvens de mosquitos que servem de alimento para as aves migratórias.</p>
+            <p>A tundra é dominada por plantas rasteiras: musgos, liquens, gramíneas baixas, juncos e alguns arbustos anões que nunca passam de alguns centímetros de altura. Durante os dois a três meses de verão, apenas a camada ativa do permafrost, os primeiros centímetros ou poucos metros de solo mais próximos da superfície, descongela, e a vegetação cresce com rapidez surpreendente aproveitando as longas horas de luz. Algumas regiões da tundra chegam a ter 20 horas de sol por dia no pico do verão, compensando parcialmente o inverno de escuridão quase total. No pico do verão, a tundra fica coberta de flores e o solo encharcado sustenta nuvens de mosquitos que servem de alimento para as aves migratórias.</p>
 
             <h3>Ártico e Antártica: dois polos completamente diferentes</h3>
 
@@ -143,8 +143,14 @@
 
             <p>Um dos mecanismos mais importantes da física do gelo polar é o <span class="termo" data-palavra="Albedo" data-definicao="Capacidade de uma superfície de refletir a radiação solar. O gelo e a neve têm albedo alto (refletem até 90% da luz). O oceano e o solo descobertos têm albedo baixo (absorvem até 94% da luz). Quando o gelo derrete e expõe o oceano, a região absorve muito mais calor, acelerando o próprio derretimento.">albedo</span>. O gelo branco reflete até 90% da radiação solar de volta para o espaço. O oceano escuro que aparece quando o gelo derrete absorve até 94% dessa mesma radiação. Quando o gelo ártico derrete, o oceano que se expõe aquece muito mais rápido do que a região aquecia quando estava coberta de gelo. Esse calor adicional derrete mais gelo, que expõe mais oceano, que aquece mais. É um ciclo de retroalimentação que acelera o próprio derretimento e explica por que o Ártico está aquecendo quatro vezes mais rápido do que a média global.</p>
 
+            <h3>O dia que não escurece e a aurora que ilumina o inverno</h3>
+
+            <p>A inclinação do eixo da Terra, de aproximadamente 23,5 graus, produz nas regiões polares um efeito que não existe em nenhum outro lugar do planeta: dias e noites que duram semanas ou meses inteiros. Acima do Círculo Polar Ártico, no auge do verão, o sol não se põe: é o fenômeno do sol da meia-noite, quando o disco solar permanece visível no horizonte 24 horas por dia durante semanas seguidas. No inverno, o oposto acontece: em cidades como Tromsø, na Noruega, ou Utqiagvik, no Alasca, o sol simplesmente não nasce por dois meses seguidos, período conhecido como noite polar. Esse ciclo extremo de luz explica por que a vida na tundra se concentra tanto no verão: plantas e animais têm uma janela curtíssima de luz solar direta para crescer, se reproduzir e acumular reservas antes do inverno escuro voltar.</p>
+
+            <p>É justamente durante essas longas noites polares que aparece um dos espetáculos mais estudados da geografia física: a <span class="termo" data-palavra="Aurora Boreal" data-definicao="Fenômeno luminoso natural visível no céu noturno de regiões próximas aos polos, causado pela colisão de partículas carregadas do vento solar com átomos de oxigênio e nitrogênio na ionosfera terrestre. Chamada de aurora boreal no hemisfério norte e aurora austral no hemisfério sul.">aurora boreal</span>. Explosões na superfície do Sol lançam ao espaço partículas carregadas, principalmente elétrons e prótons, que viajam a mais de 1,6 milhão de quilômetros por hora. Ao chegar perto da Terra, essas partículas são capturadas pelo campo magnético do planeta e canalizadas em direção aos polos, onde colidem com átomos de oxigênio e nitrogênio na ionosfera, entre 100 e 300 quilômetros de altitude. Essa colisão libera energia na forma de luz: o oxigênio produz o brilho verde característico, o mais comum, enquanto o nitrogênio pode produzir tons de azul e roxo. No hemisfério sul, o mesmo fenômeno ocorre sobre a Antártica e recebe o nome de aurora austral, mas é observado por muito menos pessoas simplesmente porque quase ninguém vive tão perto do Polo Sul.</p>
+
             <div class="w3-margin">
-                <img src="tp31F01.png" alt="Comparação entre Ártico e Antártica — estrutura e extensão do gelo" class="w3-mobile"
+                <img src="tp31F01.png" alt="Comparação entre Ártico e Antártica: estrutura e extensão do gelo" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Mapa em breve</div>'">
                 <span class="w3-small w3-margin-left">Ártico: oceano com gelo flutuante. Antártica: continente sob calota de gelo com até 4,8 km de espessura. Fonte: NSIDC.</span>
             </div>
@@ -204,8 +210,14 @@
 
             <p>Para esses povos, o aquecimento global não é uma abstração estatística. É a transformação concreta do ambiente que sustenta sua cultura, sua alimentação e sua identidade. O gelo que antes era previsível e seguro agora racha de forma imprevisível. As estações chegam e vão de forma diferente das memórias transmitidas por gerações. Espécies que sempre foram abundantes estão migrando para latitudes mais altas ou sumindo. Os Inuit foram os primeiros povos do mundo a tentar responsabilizar legalmente um governo por violações de direitos humanos causadas pelas mudanças climáticas, numa petição apresentada à Comissão Interamericana de Direitos Humanos em 2005.</p>
 
+            <h3>O degelo do permafrost: metano, crateras e cidades que racham</h3>
+
+            <p>O aquecimento das altas latitudes não afeta só a superfície da tundra: ele está descongelando um estoque de carbono orgânico que ficou preso no permafrost por milhares de anos. Quando essa matéria orgânica descongela, micro-organismos voltam a decompô-la e liberam gases de efeito estufa, entre eles o metano, um gás com potencial de aquecimento muito maior que o do dióxido de carbono num período de 20 anos. Em algumas partes da Sibéria, especialmente na península de Yamal, esse metano se acumula em bolsões pressurizados sob a superfície congelada até que o solo não aguenta mais a pressão e explode, formando crateras gigantescas de até 30 metros de diâmetro e 70 metros de profundidade. A primeira dessas crateras foi registrada em 2014 e intrigou cientistas do mundo todo. Hoje o consenso é que o fenômeno combina aquecimento do permafrost, geologia local e água subterrânea salina, mas todos os estudos concordam que o degelo acelerado é o gatilho principal.</p>
+
+            <p>O permafrost derretendo também é um problema estrutural para quem vive sobre ele. Cidades siberianas inteiras, incluindo Yakutsk, foram construídas sobre estacas fincadas no solo congelado, que funcionava como uma fundação sólida e estável havia milênios. Com o degelo, esse solo perde firmeza, afunda de forma irregular e racha os prédios, estradas e dutos construídos sobre ele. Empresas de energia russas já registraram vazamentos de combustível causados pelo afundamento de tanques de armazenamento erguidos sobre permafrost que se acreditava permanentemente estável. É um lembrete de que o degelo polar não é apenas um número em um gráfico: ele desmancha, literalmente, o chão sob os pés de quem mora ali.</p>
+
             <div class="w3-margin">
-                <img src="tp31F02.png" alt="Tundra ártica no verão — vegetação, vida animal e comunidades Inuit" class="w3-mobile"
+                <img src="tp31F02.png" alt="Tundra ártica no verão: vegetação, vida animal e comunidades Inuit" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
                 <span class="w3-small w3-margin-left">Tundra ártica no verão: vegetação rasteira, solo encharcado, vida animal intensa durante os meses de luz. Fonte: USGS.</span>
             </div>
@@ -259,6 +271,12 @@
 
             <p>A única presença humana permanente na Antártica são as bases científicas de pesquisa, mantidas por 29 países signatários do <span class="termo" data-palavra="Tratado Antártico" data-definicao="Acordo internacional assinado em 1959 que congela as reivindicações territoriais sobre a Antártica e a reserva exclusivamente para fins pacíficos e científicos. Proíbe atividades militares e testes nucleares e protege o ambiente. Tem 54 países signatários. O Brasil aderiu em 1975 e mantém a Estação Antártica Comandante Ferraz.">Tratado Antártico</span>, assinado em 1959. Esse tratado foi um acordo notável para a época da Guerra Fria: países com reivindicações territoriais conflitantes, como Argentina, Chile, Reino Unido e Austrália, concordaram em congelar essas disputas e reservar o continente para a ciência. O Brasil aderiu em 1975 e mantém a Estação Antártica Comandante Ferraz, reconstruída após um incêndio em 2012, como plataforma de pesquisa sobre clima, biologia marinha e oceanografia do Atlântico Sul.</p>
 
+            <h3>Thwaites: a geleira do fim do mundo</h3>
+
+            <p>Na Antártica Ocidental existe uma geleira que sozinha preocupa mais os climatologistas do que qualquer outra do planeta: a geleira Thwaites, apelidada de "geleira do fim do mundo". Ela tem aproximadamente o tamanho do Reino Unido e representa cerca de 15% de toda a camada de gelo da Antártica Ocidental. Já hoje, ela contribui com 4% de todo o aumento do nível do mar registrado no mundo. Nos últimos vinte anos, sua borda tem recuado entre 600 metros e 1,2 quilômetro por ano, e ela despeja no oceano cerca de 50 bilhões de toneladas de gelo anualmente. Imagens de satélite mostram fraturas se abrindo na plataforma de gelo que sustenta a geleira no lugar.</p>
+
+            <p>O risco de Thwaites não está apenas no seu próprio volume de gelo. Ela funciona como uma rolha que segura outras geleiras da Antártica Ocidental atrás dela. Se Thwaites colapsar sozinha, a estimativa é de uma elevação de mais de meio metro no nível global do mar. Mas se seu colapso desestabilizar as geleiras vizinhas, num efeito dominó, a elevação pode passar de 3 metros, o suficiente para redesenhar o litoral de praticamente todos os países costeiros do planeta, Brasil incluído.</p>
+
             <h3>A geopolítica do Ártico: a corrida pelo gelo que some</h3>
 
             <p>O Ártico, ao contrário da Antártica, não tem um tratado equivalente. Está cercado por cinco países com litoral ártico (Rússia, Canadá, Estados Unidos, Noruega e Dinamarca) e não tem proteção legal comparable. Com o derretimento acelerado do gelo, surgem disputas concretas por recursos e rotas. O leito do Oceano Ártico contém estimativas de 13% das reservas mundiais de petróleo ainda não exploradas e 30% das reservas de gás natural. A Passagem do Noroeste, que corta o arquipélago canadense, está se tornando navegável no verão, criando uma rota marítima entre Europa e Ásia que encurta a distância em relação ao Canal de Suez em até 40%.</p>
@@ -267,7 +285,13 @@
 
             <h3>O buraco na camada de ozônio e a Antártica</h3>
 
-            <p>Um problema atmosférico específico das regiões polares é o buraco na camada de ozônio. A camada de ozônio na estratosfera filtra a radiação ultravioleta do sol. Sobre a Antártica, a combinação de temperaturas extremamente baixas no inverno polar e a presença de compostos químicos industriais, especialmente os clorofluorcarbonos (CFCs) usados em geladeiras e aerossóis antes de serem proibidos, criou uma reação que destrói o ozônio de forma acelerada. O resultado é um "buraco" que se abre todos os anos entre agosto e outubro no hemisfério sul, expondo a Antártica e partes da América do Sul e da Oceania a níveis elevados de radiação ultravioleta. O Protocolo de Montreal (1987), que proibiu os CFCs, é considerado o tratado ambiental de maior sucesso da história: o buraco está se recuperando lentamente e deve estar cicatrizado até meados do século XXI.</p>
+            <p>Um problema atmosférico específico das regiões polares é o <span class="termo" data-palavra="Buraco na Camada de Ozônio" data-definicao="Área da estratosfera sobre a Antártica onde a concentração de ozônio cai drasticamente todos os anos entre agosto e outubro, causada pela reação de compostos como os CFCs com o ozônio em condições de frio extremo. Não é um buraco físico, mas uma redução severa da camada que filtra a radiação ultravioleta. Está se recuperando desde a proibição dos CFCs pelo Protocolo de Montreal (1987).">buraco na camada de ozônio</span>. A camada de ozônio na estratosfera filtra a radiação ultravioleta do sol. Sobre a Antártica, a combinação de temperaturas extremamente baixas no inverno polar e a presença de compostos químicos industriais, especialmente os clorofluorcarbonos (CFCs) usados em geladeiras e aerossóis antes de serem proibidos, criou uma reação que destrói o ozônio de forma acelerada. O resultado é uma redução severa que se abre todos os anos entre agosto e outubro no hemisfério sul, expondo a Antártica e partes da América do Sul e da Oceania a níveis elevados de radiação ultravioleta. O Protocolo de Montreal (1987), que proibiu os CFCs, é considerado o tratado ambiental de maior sucesso da história: o buraco está se recuperando lentamente e deve estar cicatrizado até meados do século XXI.</p>
+
+            <h3>O krill: o pequeno crustáceo que sustenta toda a Antártica</h3>
+
+            <p>Debaixo da superfície gelada do oceano que cerca a Antártica vive o organismo mais importante de todo o ecossistema polar do hemisfério sul: o <span class="termo" data-palavra="Krill" data-definicao="Crustáceo marinho de poucos centímetros, semelhante a um camarão minúsculo, que forma enormes cardumes no oceano Austral. Alimenta-se de fitoplâncton e é a base da cadeia alimentar antártica, sustentando baleias, focas, pinguins, peixes e lulas. Sua pesca comercial é regulada pela CCAMLR desde 1980.">krill</span> antártico, um crustáceo parecido com um camarão minúsculo, de poucos centímetros de comprimento. Sozinho, o krill forma uma biomassa estimada em cerca de 379 milhões de toneladas no oceano Austral, mais peso do que toda a população humana do planeta somada. Ele se alimenta de fitoplâncton e, por sua vez, é o alimento principal de baleias, focas, lobos-marinhos, pinguins, peixes e lulas: mais da metade dessa biomassa é consumida todos os anos por outros animais, o que faz do krill a base literal da cadeia alimentar antártica.</p>
+
+            <p>Justamente por sustentar tantas espécies, o krill também é um recurso comercial disputado, usado na produção de ração para aquicultura e de suplementos de ômega-3. Para evitar que a pesca comercial colapse esse ecossistema, 27 países e a União Europeia mantêm desde 1980 a Convenção para a Conservação da Fauna e Flora Marinha Antártica, conhecida pela sigla CCAMLR, que define cotas de pesca e exige que pelo menos 75% da biomassa original de krill seja preservada. A criação da CCAMLR antecedeu o próprio boom da pesca industrial de krill, um raro exemplo de regulação ambiental pensada antes do problema se agravar, e não depois.</p>
 
             <div class="w3-margin">
                 <img src="tp31F03.png" alt="Antártica: calota glacial, base brasileira e geopolítica polar" class="w3-mobile"
@@ -277,6 +301,41 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A geleira Thwaites, na Antártica Ocidental, é chamada de "geleira do fim do mundo" porque:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Ela é a única geleira da Antártica que já derreteu completamente</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Ela funciona como uma rolha que segura outras geleiras vizinhas; seu colapso pode desencadear um efeito dominó com elevação do nível do mar acima de 3 metros</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Ela fica sobre o Polo Sul geográfico exato, onde a temperatura é sempre a mais baixa do planeta</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Thwaites não é ameaçadora só pelo seu próprio volume de gelo: ela contém e estabiliza geleiras vizinhas da Antártica Ocidental. Se colapsar sozinha, a elevação do nível do mar passaria de meio metro. Se desestabilizar as geleiras ao redor, a elevação pode ultrapassar 3 metros, redesenhando o litoral de países costeiros como o Brasil.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -310,9 +369,13 @@
 
             <p>Você começou esta sequência de três aulas aprendendo por que a floresta tropical é densa e úmida. Agora chegou ao outro extremo: os polos, onde a vida existe apesar das condições mais hostis do planeta. Nos três biomas polares, tundra, deserto polar e oceano ártico, a vida encontrou formas de prosperar que parecem impossíveis para quem olha de fora.</p>
 
-            <p>Mas a lição mais importante desta aula não é sobre a biologia dos ursos polares ou a espessura do gelo antártico. É sobre conexão. O planeta funciona como um sistema integrado de circulação de calor, água e ar. O que acontece nos polos não fica nos polos. O derretimento do gelo ártico altera a circulação termoalina dos oceanos, que redistribui calor e umidade pelo planeta. A calota antártica que derrete eleva o nível do mar que inunda Recife. O buraco no ozônio sobre a Antártica aumenta a radiação ultravioleta que chega ao sul do Brasil e à Argentina.</p>
+            <p>Mas a lição mais importante desta aula não é sobre a biologia dos ursos polares ou a espessura do gelo antártico. É sobre conexão. O planeta funciona como um sistema integrado de circulação de calor, água e ar. O que acontece nos polos não fica nos polos. O derretimento do gelo ártico despeja água doce fria no Atlântico Norte, alterando a <span class="termo" data-palavra="Circulação Termoalina" data-definicao="Sistema de correntes oceânicas profundas movido por diferenças de temperatura e salinidade da água, que transporta calor entre os polos e o equador funcionando como uma esteira rolante global. No Atlântico, essa circulação é chamada de AMOC (Circulação Meridional do Atlântico) e regula o clima da Europa, da África e das Américas.">circulação termoalina</span> dos oceanos, o sistema de correntes profundas que redistribui calor e umidade pelo planeta. A calota antártica que derrete eleva o nível do mar que inunda Recife. O buraco no ozônio sobre a Antártica aumenta a radiação ultravioleta que chega ao sul do Brasil e à Argentina.</p>
+
+            <p>No Atlântico, essa circulação termoalina é chamada de AMOC, e ela já está no seu ponto mais fraco em 1.600 anos. As projeções médias do IPCC apontam uma desaceleração de cerca de 32% até 2100 num cenário de emissões intermediárias, mas estudos recentes elevam a probabilidade de um colapso completo ainda neste século para acima de 50%, um risco que há poucos anos era estimado em apenas 5%. Um colapso da AMOC redistribuiria o calor do planeta de forma tão drástica que esfriaria partes da Europa mesmo em meio ao aquecimento global, enquanto intensificaria secas e alteraria o regime de chuvas na África e nas Américas, incluindo o Brasil. É outro exemplo de como o degelo polar não é um problema local: ele reprograma o termostato do planeta inteiro.</p>
 
             <p>A geopolítica também é global. A disputa pelo Ártico entre as grandes potências envolve petróleo, rotas marítimas e projeção militar, os mesmos recursos e interesses que moldam as relações internacionais em todas as outras regiões. A Antártica, com seu Tratado de 1959, é um dos raros exemplos em que a cooperação internacional prevaleceu sobre os interesses nacionais. Manter esse exemplo funcionando, e possivelmente estendê-lo para o Ártico, é um dos grandes desafios da diplomacia ambiental do século XXI.</p>
+
+            <p>Você fecha aqui a sequência de três aulas sobre biogeografia mundial, da floresta pluvial mais quente até o gelo mais frio do planeta. Na próxima aula, o foco muda de mapear onde a vida acontece para entender como a ação humana modifica esses biomas: você vai estudar o conceito de impacto ambiental, a diferença entre conservacionismo e preservacionismo, e por que a crise ambiental atinge de forma tão desigual quem menos contribuiu para causá-la.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -322,14 +385,12 @@
         <!-- BLOCO 10: Infográfico -->
         <div class="topico">
 
-            <h2>Infográfico: resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
-            <div class="w3-margin">
-                <img src="inforesumot31.png" alt="Infográfico resumo Biogeografia III — regiões polares" class="w3-mobile"
+            <div class="w3-margin"><img id="inforesumotp31" src="inforesumotp31.webp" alt="Infográfico resumo Biogeografia III: regiões polares" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -339,6 +400,44 @@
         <div class="topico">
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.2: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em que ano foi assinado o Tratado Antártico, que congela as reivindicações territoriais sobre o continente?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '1959', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Em quantos metros o nível do mar subiria se toda a calota glacial da Antártica derretesse?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '60', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
             <hr>
         </div>
 
@@ -365,6 +464,12 @@
                 <strong>Pinguins vivem no Ártico?</strong>
             </p>
             <p><span class="primeiraLetra">R:</span> Não. Pinguins existem exclusivamente no hemisfério sul: na Antártica, na Argentina, no Chile, na África do Sul, na Austrália e até nas Ilhas Galápagos (cruzando o equador ligeiramente). No Ártico vivem os tordos-mergulhões, aves que se parecem com os pinguins mas não têm parentesco direto: é um caso de evolução convergente, dois grupos distintos desenvolvendo adaptações similares para o mesmo tipo de vida aquática em águas frias. Ursos polares e pinguins nunca se encontraram na natureza. Esse é um encontro que só existe em propagandas e zoológicos.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que a Groenlândia, coberta de gelo, se chama "Terra Verde"?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> O nome vem do explorador nórdico Érico, o Vermelho, expulso da Islândia após um homicídio, que passou três anos explorando o litoral groenlandês por volta do ano 980. Ao voltar para recrutar colonos, batizou a ilha de Grœnland, "terra verde", justamente para soar convidativa, num dos primeiros casos registrados de propaganda enganosa da história. É a inversão exata da Islândia, cujo nome significa "terra do gelo" mas tem clima mais ameno. O nome pegou e ficou, mesmo com mais de 80% da Groenlândia coberta por gelo permanente até hoje.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -458,6 +563,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

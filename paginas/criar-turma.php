@@ -172,6 +172,36 @@
         display: none;
         margin-top: 6px;
     }
+
+    /* ── Dark Mode ── */
+    body.dark-mode .ct-card {
+        background: #1a1a1a;
+        box-shadow: 0 4px 20px rgba(0,0,0,.4);
+    }
+    body.dark-mode .ct-card h2 { color: #81c784; }
+    body.dark-mode .ct-card p.ct-sub { color: #888; }
+    body.dark-mode .ct-label { color: #aaa; }
+    body.dark-mode .ct-input {
+        background: #252525;
+        border-color: rgba(255,255,255,.12);
+        color: #ddd;
+    }
+    body.dark-mode .ct-input:focus { border-color: #4caf50; }
+    body.dark-mode .ct-erro { color: #ef9a9a; }
+    body.dark-mode .ct-codigo-box {
+        background: #162616;
+        border-color: #2e7d32;
+    }
+    body.dark-mode .ct-codigo-label { color: #888; }
+    body.dark-mode .ct-codigo { color: #a5d6a7; }
+    body.dark-mode .ct-nome-turma { color: #aaa; }
+    body.dark-mode .ct-instrucao { color: #888; }
+    body.dark-mode .ct-btn-sec {
+        background: transparent;
+        border-color: #4caf50;
+        color: #81c784;
+    }
+    body.dark-mode .ct-btn-sec:hover { background: #162616; }
     </style>
 </head>
 

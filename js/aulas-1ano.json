@@ -641,6 +641,11 @@
       "INPEDesmatamento",
       "WWFCerrado",
       "BBCRiosVoadores"
+    ],
+    "livros": [
+      "KiplingLivroDaSelva",
+      "SalernoAfricaContos",
+      "MeredithDestinoAfrica"
     ]
   },
   {
@@ -662,6 +667,11 @@
       "NationalGeographic",
       "IPCCRelatorio",
       "WWFBiomas"
+    ],
+    "livros": [
+      "WilderCasaNaPradaria",
+      "TchekhovAEstepe",
+      "PagnolJeanDeFlorette"
     ]
   },
   {
@@ -683,6 +693,11 @@
       "NSIDCArtico",
       "PRoantar",
       "IPCCRelatorio"
+    ],
+    "livros": [
+      "LondonCaninosBrancos",
+      "LansingEndurance",
+      "PullmanBussolaDourada"
     ]
   },
   {
@@ -703,6 +718,11 @@
       "OEcoRacismoAmbiental",
       "OEcoAtivistas",
       "AgenciaBrasilRacismo"
+    ],
+    "livros": [
+      "GaleanoVeiasAbertas",
+      "LeopoldAlmanaque",
+      "DiamondColapso"
     ]
   },
   {
@@ -723,6 +743,11 @@
       "AgenciaBrasilCOP28Fosseis",
       "AgenciaBrasilCOP30Belem",
       "OEcoODS"
+    ],
+    "livros": [
+      "GoreVerdadeInconveniente",
+      "RaworthEconomiaDonut",
+      "McKibbenFimDaNatureza"
     ]
   },
   {

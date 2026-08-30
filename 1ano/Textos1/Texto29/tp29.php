@@ -95,11 +95,13 @@
 
             <h2>Por que o mundo tem cores diferentes</h2>
 
-            <p><span class="primeiraLetra">A</span>bra um mapa-múndi da vegetação. Você vai ver manchas de verde escuro na faixa ao redor do equador, verde mais claro e amarelado nas regiões subtropicais, marrom nos desertos, cinza nas regiões polares. Esse padrão de cores não é aleatório. Cada cor representa um tipo de vegetação, e cada vegetação existe onde existe porque o clima daquele lugar a permite e a molda.</p>
+            <p><span class="primeiraLetra">A</span>bra um mapa-múndi da vegetação. Você vai ver manchas de verde escuro na faixa ao redor do equador, verde mais claro e amarelado nas regiões subtropicais, marrom nos desertos, cinza nas regiões polares. Esse padrão de cores não é aleatório. Cada cor representa um tipo de vegetação, e cada vegetação existe onde existe porque o clima daquele lugar, ao longo de milhares de anos, a permite e a molda.</p>
 
             <p>Se você já viajou de ônibus por regiões diferentes do Brasil, provavelmente percebeu que a paisagem muda: de árvores densas para campos abertos, de campos para cerrados, de cerrados para caatingas áridas. Isso acontece porque cada trecho do caminho tem temperatura, chuva e umidade diferentes. Agora imagine ampliar essa mesma lógica para o planeta inteiro. O resultado é o mapa dos <span class="termo" data-palavra="Bioma" data-definicao="Grande unidade geográfica caracterizada por um tipo predominante de vegetação, clima próprio, fauna associada e solo com características similares. Os biomas são definidos principalmente pelo regime de temperatura e precipitação.">biomas</span>.</p>
 
             <p>Nesta aula, você vai aprender a ler esse mapa. A entender por que floresta densa cresce perto do equador, por que savanas aparecem logo abaixo, por que desertos se formam em faixas específicas. Mais do que decorar nomes, você vai entender a lógica que organiza a vida no planeta.</p>
+
+            <p>Essa lógica não é só curiosidade geográfica. Ela explica por que a agricultura de um país depende do clima de outro, por que a fumaça de uma queimada na Amazônia pode alterar as chuvas de São Paulo, e por que proteger uma floresta do outro lado do mundo pode afetar diretamente a segurança alimentar do seu próprio país. Entender biomas é entender como o planeta inteiro funciona como um único sistema conectado.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -116,11 +118,11 @@
                 <p>a floresta amazônica, densa e úmida, no Brasil;</p>
                 <p>a savana seca de Angola e Zâmbia, na África;</p>
                 <p>o interior seco da Austrália.</p>
-                <p>Três continentes, a mesma distância do equador, vegetações completamente diferentes.</p>
+                <p>Três continentes, a mesma distância do equador, vegetações completamente diferentes: uma coberta por árvores gigantes o ano inteiro, outra dominada por gramíneas com chuva concentrada em poucos meses, e a terceira quase sem vegetação alguma na maior parte do ano.</p>
 
-                <p><strong>O que explica essa diferença?</strong> Se a latitude é a mesma, o ângulo de incidência solar é o mesmo. O que mais determina o tipo de vegetação de um lugar?</p>
+                <p><strong>O que explica essa diferença?</strong> Se a latitude é a mesma, o ângulo de incidência solar é o mesmo. Afinal, o que mais determina o tipo de vegetação de um lugar, além da própria latitude?</p>
 
-                <p>Escreva sua hipótese antes de continuar.</p>
+                <p>Escreva sua hipótese, com suas próprias palavras, antes de continuar.</p>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -143,6 +145,8 @@
 
             <p>Um vento que cruza um oceano aquecido chega cheio de umidade. Um vento que cruza um continente seco por centenas de quilômetros chega ressecado. Por isso o interior dos continentes tende a ser mais seco do que as costas, e por isso a mesma latitude produz vegetações tão diferentes entre Brasil, África e Austrália.</p>
 
+            <p>Cadeias de montanhas também entram nessa equação. Quando uma massa de ar úmido esbarra numa cordilheira, ela é forçada a subir, esfria e descarrega quase toda sua chuva no lado voltado para o mar. Do outro lado da montanha, o ar já chega seco, criando o que os climatologistas chamam de sombra de chuva. É por isso que, do lado ocidental dos Andes, no Chile e no Peru, existem alguns dos desertos mais secos do planeta a poucas centenas de quilômetros de florestas amazônicas exuberantes do lado oriental da mesma cordilheira.</p>
+
             <h3>Como ler o mapa da vegetação mundial</h3>
 
             <p>No mapa-múndi da vegetação, a faixa verde escura ao redor do equador (entre os trópicos de Câncer e Capricórnio, com concentração entre 10°N e 10°S) representa as <span class="termo" data-palavra="Floresta Pluvial Tropical" data-definicao="Floresta densa e úmida das regiões equatoriais, com precipitação acima de 2.000 mm/ano distribuída durante todo o ano, temperatura média acima de 25°C e altíssima biodiversidade. Também chamada de floresta equatorial ou hiléia.">florestas pluviais tropicais</span>. Logo acima e abaixo dessa faixa, entre 10° e 25° de latitude, o verde vai se tornando mais claro e fragmentado: são as <span class="termo" data-palavra="Savana Tropical" data-definicao="Bioma de campos com árvores esparsas que ocorre nas faixas subtropicais dos trópicos, onde existe uma estação chuvosa e uma seca prolongada. A vegetação é adaptada ao fogo e à falta de água periódica.">savanas tropicais</span>, onde há estação seca pronunciada. Mais afastado ainda do equador, entre 25° e 35° de latitude, surgem os desertos, onde a chuva é quase ausente. O padrão se repete nos dois hemisférios, com variações causadas pelos oceanos e pelas montanhas.</p>
@@ -150,7 +154,7 @@
             <p>Esse mapa é uma ferramenta poderosa. Com ele e com o conhecimento do clima de um lugar, você consegue prever o tipo de vegetação que existe ali, mesmo sem ter visitado. Mais ainda: consegue prever o que acontece com aquela vegetação se o clima mudar.</p>
 
             <div class="w3-margin">
-                <img src="tp29F01.png" alt="Mapa mundial da vegetação — biomas e zonalidade latitudinal" class="w3-mobile"
+                <img src="tp29F01.png" alt="Mapa mundial da vegetação: biomas e zonalidade latitudinal" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Mapa em breve</div>'">
                 <span class="w3-small w3-margin-left">Distribuição mundial dos biomas. Observe as faixas paralelas ao equador. Fonte: WWF Global.</span>
             </div>
@@ -202,17 +206,19 @@
 
             <p>Para entender a distribuição das florestas pluviais no planeta, é preciso entender o que acontece com o ar na faixa equatorial. O sol aquece o ar perto do equador com mais intensidade do que em qualquer outro lugar. Ar quente é menos denso e sobe. Ao subir, esfria, e o vapor d'água que carrega se condensa em nuvens e cai como chuva. Esse movimento de subida constante de ar úmido e quente na faixa equatorial é a principal causa das chuvas abundantes que sustentam as florestas tropicais.</p>
 
+            <p>Esse padrão de ar subindo no equador não fica isolado: depois de subir e perder a umidade em forma de chuva, o ar seco se desloca em altitude para norte e para sul, desce novamente por volta de 25° a 30° de latitude e retorna ao equador rente ao solo, fechando um circuito conhecido como célula de Hadley. É exatamente onde esse ar desce, já seco, que se formam as grandes faixas desérticas subtropicais do planeta, como o Saara e o deserto da Austrália central.</p>
+
             <p>Esse sistema de circulação tem um nome: <span class="termo" data-palavra="Zona de Convergência Intertropical (ZCIT)" data-definicao="Faixa ao redor do equador onde os ventos alísios dos dois hemisférios se encontram. O ar quente e úmido sobe, forma nuvens e gera chuvas intensas. A ZCIT se desloca sazonalmente para norte e sul, determinando as estações chuvosas nas regiões tropicais.">Zona de Convergência Intertropical (ZCIT)</span>. É ela que mantém as florestas equatoriais úmidas o ano todo. Quando a ZCIT se afasta de uma região, a estação seca começa. Quando volta, as chuvas retornam. As regiões que ficam sob influência da ZCIT por quase o ano inteiro são as que têm florestas pluviais densas. As que ficam sob sua influência só parte do ano são as que têm savanas ou florestas sazonais.</p>
 
             <h3>As três grandes florestas pluviais do mundo</h3>
 
             <p>Existem três grandes blocos de floresta pluvial tropical no planeta. O primeiro e maior é a bacia Amazônica, na América do Sul, com cerca de 5,5 milhões de km² no Brasil mais extensões na Colômbia, Peru, Equador, Bolívia e Venezuela. O segundo é a bacia do Congo, na África Central, cobrindo partes da República Democrática do Congo, Camarões, Gabão e República do Congo, com aproximadamente 3,3 milhões de km². O terceiro são as florestas do Sudeste Asiático, espalhadas pela Malásia, Indonésia, Papua-Nova Guiné e Filipinas. Juntos, esses três blocos abrigam mais da metade de todas as espécies de seres vivos do planeta.</p>
 
-            <p>Os três blocos ficam em regiões com características climáticas similares: temperatura média acima de 25°C, chuva superior a 2.000 mm por ano e distribuição relativamente uniforme das precipitações ao longo de todos os meses. Essa combinação permite que as árvores cresçam sem parar, sem a necessidade de perder folhas no inverno ou entrar em repouso. O resultado é uma biomassa vegetal enorme, com dosséis de 30 a 50 metros de altura e pelo menos cinco estratos de vegetação sobrepostos, do chão até o topo das árvores emergentes.</p>
+            <p>Os três blocos ficam em regiões com características climáticas similares: temperatura média acima de 25°C, chuva superior a 2.000 mm por ano e distribuição relativamente uniforme das precipitações ao longo de todos os meses. Essa combinação permite que as árvores cresçam sem parar, sem a necessidade de perder folhas no inverno ou entrar em repouso. O resultado é uma biomassa vegetal enorme, com dosséis de 30 a 50 metros de altura e pelo menos cinco estratos de vegetação sobrepostos, do chão até o topo das árvores emergentes, cada estrato abrigando espécies próprias de plantas e animais adaptados àquele nível específico de luz.</p>
 
             <h3>Por que a mesma latitude produz resultados tão diferentes</h3>
 
-            <p>Voltando ao problema do início: Brasil, Angola e Austrália estão todos a 10°S, mas têm vegetações diferentes. A resposta está na circulação atmosférica e na posição relativa ao oceano. O Brasil oriental fica sob influência direta do Atlântico e da ZCIT durante boa parte do ano. A costa angolana recebe a corrente fria de Benguela, que resfria o ar marítimo e impede a formação de chuvas abundantes. O interior australiano está bloqueado por cadeias de montanhas que interceptam a umidade vinda do leste. Mesma latitude, histórias climáticas completamente diferentes.</p>
+            <p>Voltando ao problema do início: Brasil, Angola e Austrália estão todos a 10°S, mas têm vegetações diferentes. A resposta está na circulação atmosférica e na posição relativa ao oceano. O Brasil oriental fica sob influência direta do Atlântico e da ZCIT durante boa parte do ano. A costa angolana recebe a corrente fria de Benguela, que resfria o ar marítimo e impede a formação de chuvas abundantes. O interior australiano está bloqueado por cadeias de montanhas que interceptam a umidade vinda do leste. Mesma latitude, mesma quantidade de energia solar recebida, mas três histórias climáticas completamente diferentes construídas ao longo de milhões de anos de circulação atmosférica e oceânica.</p>
 
             <div class="w3-margin">
                 <img src="tp29F02.png" alt="Zona de Convergência Intertropical e distribuição de chuvas" class="w3-mobile"
@@ -271,7 +277,7 @@
 
             <h3>As savanas de cada continente</h3>
 
-            <p>Na África, as savanas são as mais extensas do mundo. O Sahel, faixa ao sul do Saara, é uma savana seca que sofre com avanço da desertificação. Mais ao sul, o Miombo cobre partes da Tanzânia, Zâmbia, Moçambique e Zimbabwe, com uma flora dominada por árvores do gênero Brachystegia. A savana africana é mundialmente conhecida por sua fauna: leões, elefantes, girafas, zebras e gnus protagonizam as migrações sazonais mais espetaculares do planeta, seguindo as chuvas de um lado para o outro do continente.</p>
+            <p>Na África, as savanas são as mais extensas do mundo. O Sahel, faixa ao sul do Saara, é uma savana seca que sofre com avanço da desertificação. Mais ao sul, o Miombo cobre partes da Tanzânia, Zâmbia, Moçambique e Zimbabwe, com uma flora dominada por árvores do gênero Brachystegia. A savana africana é mundialmente conhecida por sua fauna: leões, elefantes, girafas, zebras e gnus protagonizam as migrações sazonais mais espetaculares do planeta, seguindo o rastro das chuvas de um lado para o outro do continente, num dos maiores espetáculos de vida selvagem do planeta.</p>
 
             <p>Na América do Sul, a savana tropical mais extensa é o Cerrado brasileiro, com 2 milhões de km² originais no Planalto Central. Mais ao norte, os Llanos da Venezuela e Colômbia e o Gran Chaco da Argentina e Paraguai são outras expressões sul-americanas das savanas tropicais. Na Austrália, as savanas cobrem as regiões norte e nordeste do continente, com uma estação das chuvas monções de novembro a março e seca intensa nos outros meses. Na Ásia, as savanas tropicais aparecem na Índia (Decão), no Sri Lanka e em partes do Sudeste Asiático continental.</p>
 
@@ -287,8 +293,59 @@
                 <span class="w3-small w3-margin-left">Gradiente latitudinal de biodiversidade: número de espécies por grau de latitude. Fonte: IUCN, 2022.</span>
             </div>
 
+            <h3>Amazônia e Cerrado: um sistema interdependente</h3>
+
+            <p>No Brasil, floresta pluvial e savana tropical não são vizinhas por acaso: elas trocam água entre si o tempo todo, numa relação que a geografia física só começou a mapear com clareza nas últimas décadas. Cada árvore grande da Amazônia bombeia cerca de 1.000 litros de água por dia do solo para a atmosfera, num processo chamado evapotranspiração. Somada, a floresta inteira libera para o ar um volume de vapor d'água maior do que a vazão do próprio Rio Amazonas. Metade dessa umidade cai de volta como chuva ainda dentro da própria bacia amazônica, reciclada floresta adentro. A outra metade é carregada por correntes de ar em baixa altitude, batizadas de <span class="termo" data-palavra="Rios Voadores" data-definicao="Correntes de vapor d'água na baixa atmosfera, originadas da evapotranspiração da floresta amazônica, que transportam umidade por até 3 mil km em direção ao Centro-Oeste, Sudeste e Sul do Brasil, alimentando as chuvas que sustentam a agropecuária e o abastecimento urbano dessas regiões.">rios voadores</span>, que seguem até 3 mil km rumo ao Centro-Oeste, Sudeste e Sul do país, alimentando boa parte das chuvas que caem sobre o Cerrado, sobre as lavouras do agronegócio e sobre as represas que abastecem cidades como São Paulo.</p>
+
+            <p>O Cerrado retribui o favor de outra forma. Apesar de não ter rios caudalosos, o bioma concentra um número imenso de nascentes que infiltram água no solo profundo e recarregam aquíferos como o Guarani, o Urucuia e o Bambuí. Por isso o Cerrado é chamado de "berço das águas do Brasil": suas nascentes alimentam seis das oito grandes regiões hidrográficas do país, incluindo quase 90% da vazão do Rio São Francisco. Amazônia e Cerrado formam, assim, dois lados do mesmo sistema hídrico continental: um produz e exporta umidade pelo ar, o outro capta e distribui essa água pelo subsolo. Destruir um afeta diretamente a capacidade do outro de funcionar.</p>
+
+            <h3>Como e por que o desmatamento avança</h3>
+
+            <p>O desmatamento na Amazônia se concentra historicamente numa faixa ao sul e leste da floresta, chamada de <span class="termo" data-palavra="Arco do Desmatamento" data-definicao="Faixa de fronteira agrícola que corta o sul e o leste da Amazônia brasileira, do Maranhão ao Acre, onde se concentra a maior parte do desmatamento, impulsionado pela expansão da pecuária, da soja e pela grilagem de terras públicas.">arco do desmatamento</span>, que corta estados como Maranhão, Pará, Mato Grosso, Rondônia e Acre. Ali, a floresta é derrubada principalmente para abrir pasto para gado e, mais recentemente, lavouras de soja, muitas vezes em terras públicas griladas (ocupadas ilegalmente e depois "legalizadas" com documentos falsos). A infraestrutura de estradas abertas para escoar essa produção funciona como um efeito espinha de peixe: cada nova rodovia abre dezenas de ramais que aceleram o desmatamento ao redor.</p>
+
+            <p>Os efeitos não ficam restritos à área desmatada. Cientistas como o pesquisador Antônio Nobre alertam que, se a perda de floresta ultrapassar um patamar entre 20% e 25% da cobertura original (a Amazônia já perdeu cerca de 18%), o próprio ciclo de reciclagem de umidade que sustenta as chuvas pode entrar em colapso numa reação em cadeia: menos árvore, menos evapotranspiração, menos chuva, mais incêndio, ainda menos árvore. Esse processo é chamado de <span class="termo" data-palavra="Savanização" data-definicao="Processo pelo qual partes da floresta amazônica perdem árvores e chuva de forma sucessiva até se transformarem num ecossistema mais seco e aberto, semelhante a uma savana degradada, num ciclo de retroalimentação difícil de reverter.">savanização</span>: partes da floresta amazônica, sobretudo no sul e leste, correndo o risco de se transformar num ecossistema mais seco e aberto, parecido com uma savana degradada, não a savana rica em biodiversidade que você estudou nesta aula, mas uma versão empobrecida dela.</p>
+
+            <p>Há também uma notícia mais animadora nos dados recentes. Em 2025, o desmatamento na Amazônia caiu 11% em relação ao ano anterior, atingindo a menor taxa em onze anos e acumulando queda de 50% desde 2022. O Cerrado teve queda semelhante no mesmo período. Isso mostra que o processo, embora grave, não é inevitável: políticas de fiscalização e comando e controle têm efeito mensurável sobre a velocidade do desmatamento, mesmo que o problema estrutural (a pressão econômica sobre a fronteira agrícola) continue existindo.</p>
+
+            <p>As consequências sociais acompanham as ambientais. A abertura de novas fronteiras agrícolas frequentemente invade terras indígenas e de comunidades tradicionais, gera conflitos fundiários violentos e concentra a posse da terra em poucas mãos, enquanto famílias que dependem da floresta em pé para caça, pesca e extrativismo perdem sua base de subsistência. O desmatamento, portanto, não é apenas uma mudança de cobertura vegetal vista do satélite: é uma reorganização completa de quem tem acesso à terra, à água e aos recursos de uma região inteira.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>As correntes de vapor d'água que a Amazônia libera pela evapotranspiração e que levam chuva para o Centro-Oeste, o Sudeste e o Sul do Brasil são chamadas de:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>ZCIT</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>rios voadores</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>gradiente latitudinal</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'são os rios voadores! Correntes de vapor d\'água que carregam a umidade produzida pela floresta amazônica por até 3 mil km continente adentro.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -326,6 +383,8 @@
 
             <p>O mapa da vegetação é, portanto, um retrato do passado projetado sobre o presente. Para entender o futuro dos biomas, é preciso combinar a lógica climática que você aprendeu hoje com os processos econômicos e políticos que determinam o uso do solo. Esses processos, você vai estudar em profundidade no segundo ano, quando os biomas brasileiros voltarão ao centro da análise.</p>
 
+            <p>Você conheceu hoje a metade quente do mapa dos biomas: florestas pluviais e savanas, moldadas pela ZCIT e pela zonalidade latitudinal tropical. Na próxima aula, o mesmo raciocínio vai levar você para a outra metade do planeta: as florestas de coníferas, as estepes geladas e a vegetação mediterrânea das zonas temperadas, onde o frio, e não mais o calor, é quem organiza a paisagem.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -334,12 +393,12 @@
         <!-- BLOCO 10: Infográfico -->
         <div class="topico">
 
-            <h2>Infográfico: resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
             <div class="w3-margin">
-                <img src="inforesumot29.png" alt="Infográfico resumo Biogeografia I — biomas mundiais" class="w3-mobile"
+                <img id="inforesumotp29" src="inforesumotp29.webp" alt="Infográfico resumo Biogeografia I: biomas mundiais" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -352,6 +411,47 @@
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 11.2: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Aproximadamente quantos litros de água por dia uma árvore grande da Amazônia bombeia do solo para a atmosfera, por evapotranspiração?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '1000', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <p>Qual é o percentual mínimo de perda florestal, segundo os cientistas, a partir do qual a Amazônia corre risco de entrar no processo de savanização (a floresta já perdeu cerca de 18%)?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text" />
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '20', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64" />
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btnHide" onclick="MostrarProximo(this)" style="display:none">
+                    Próximo ➜
+                </button>
+            </div>
         </div>
 
 
@@ -378,6 +478,12 @@
             </p>
             <p><span class="primeiraLetra">R:</span> É sim. Bioma não significa só floresta densa. Deserto é um bioma com suas próprias espécies adaptadas, seu próprio ciclo de matéria e energia e sua lógica climática específica. Os desertos quentes, como o Saara e o de Atacama, ficam nas faixas subtropicais onde o ar frio e seco desce da alta atmosfera após ter largado toda a sua umidade nas regiões equatoriais. Existem plantas, insetos, répteis e mamíferos que só vivem no deserto e não conseguiriam sobreviver na floresta ao lado. A biodiversidade do deserto é menor em número, mas não em originalidade evolutiva.</p>
 
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que as plantas do Cerrado parecem "torradas", com casca grossa e troncos retorcidos?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque evoluíram numa relação direta com o fogo. Ao contrário da floresta pluvial, onde incêndios naturais são raros, a savana tem uma estação seca longa o suficiente para que raios e calor acumulem combustível seco todos os anos, e queimadas naturais fazem parte do ciclo do bioma há milhões de anos. As árvores do Cerrado desenvolveram casca grossa que isola o tronco do calor, caules subterrâneos (xilopódios) que rebrotam rapidamente após o fogo, e folhas coriáceas que resistem à dessecação. Muitas sementes, inclusive, só germinam depois de passar pelo calor de uma queimada. É um bioma construído para pegar fogo e se recuperar, não para nunca queimar.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -392,7 +498,7 @@
                 <h3>Lendo o mapa com novos olhos</h3>
                 <p><strong>Atividade individual</strong></p>
 
-                <p>Escolha um dos três pares de cidades abaixo. Pesquise a latitude, o regime de chuvas e o bioma de cada uma. Depois escreva um texto de 15 a 20 linhas explicando:</p>
+                <p>Você aprendeu hoje que latitude sozinha não explica o mapa dos biomas: é preciso somar a ela a circulação atmosférica, a proximidade do oceano, as correntes marítimas e o relevo. Agora é sua vez de aplicar esse raciocínio a casos reais, indo além do que já foi mostrado em sala. Escolha um dos três pares de cidades abaixo. Pesquise a latitude, o regime de chuvas e o bioma de cada uma. Depois escreva um texto de 15 a 20 linhas explicando:</p>
 
                 <p><strong>Par A:</strong> Belém (Brasil) e Nairóbi (Quênia) (ambas próximas ao equador)</p>
                 <p><strong>Par B:</strong> Lagos (Nigéria) e Dubai (Emirados Árabes) (mesma latitude, lados opostos do continente)</p>
@@ -471,6 +577,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

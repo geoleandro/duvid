@@ -1,60 +1,15 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-26T18:40:18-03:00",
+    "gerado_em": "2026-08-29T18:18:37-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Documentário BBC: O outro lado da guerra das facções em El Salvador",
-            "resumo": "Renan Santos, Ronaldo Caiado e Romeu Zema já fizeram elogios à política adotada por Nayib Bukele.",
-            "link": "https://www.bbc.com/portuguese/articles/cdx0lynj2qgo?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1787779622,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geopolítica",
-                "emoji": "🌐",
-                "cor": "#1565c0"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "'Minha casa desabou e minha irmã está desaparecida': o relato de sobreviventes da enxurrada no Nepal",
-            "resumo": "A BBC ouviu relatos de sobreviventes da enchente repentina, que matou ao menos 157 pessoas no país; centenas estão desaparecidas",
-            "link": "https://www.bbc.com/portuguese/articles/c14d8mj5ld6o?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1787779318,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geografia",
-                "emoji": "🌍",
-                "cor": "#2e7d32"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Eclipse parcial da Lua nesta quinta-feira será visto em todo o Brasil",
-            "resumo": "A partir das 23h34, hora de Brasília, desta quinta-feira (27), um eclipse parcial da Lua poderá ser visto em todo o território brasileiro. O…",
-            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/eclipse-parcial-da-lua-nesta-quinta-feira-sera-visto-em-todo-o-brasil",
-            "origem": "Ag. Brasil Geral",
-            "cor": "#f9a825",
-            "ts": 1787777880,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Brasil",
-                "emoji": "🇧🇷",
-                "cor": "#f9a825"
-            },
-            "categoria_curada": true
-        },
-        {
-            "titulo": "Dólar sobe 0,22% e Bolsa fica estável",
-            "resumo": "Moeda norte-americana fechou cotada em R$ 5,151; Ibovespa chegou aos 174.586 pontos",
-            "link": "https://www.poder360.com.br/poder-economia/dolar-sobe-022-e-bolsa-fica-estavel/",
+            "titulo": "Venezuela confirma acordo com EUA sobre petróleo",
+            "resumo": "Delcy Rodriguez afirmou que a iniciativa é resultado do fortalecimento das relações bilaterais entre os países",
+            "link": "https://www.poder360.com.br/poder-internacional/venezuela-confirma-acordo-com-eua-sobre-petroleo/",
             "origem": "Poder360",
             "cor": "#6a1b9a",
-            "ts": 1787777542,
+            "ts": 1788037466,
             "data_estimada": false,
             "categoria": {
                 "label": "Economia",
@@ -64,12 +19,42 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Enchentes no Nepal e no Tibete: o que se sabe sobre a tragédia que deixou mortos e centenas de desaparecidos",
-            "resumo": "Enchente repentina na fronteira entre Nepal e Tibete deixa ao menos 31 mortos e centenas de desaparecidos, incluindo quase 400 viajantes; au…",
-            "link": "https://www.bbc.com/portuguese/articles/ce3rz25qeqdo?at_medium=RSS&at_campaign=rss",
+            "titulo": "Ataque de drone russo deixa 37 mortos em Kiev",
+            "resumo": "Explosão em depósito de munições provocou incêndios; Zelensky promete punição por \"negligência\"",
+            "link": "https://www.poder360.com.br/poder-internacional/ataque-de-drone-russo-deixa-37-mortos-em-kiev/",
+            "origem": "Poder360",
+            "cor": "#6a1b9a",
+            "ts": 1788034635,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Tecnologia",
+                "emoji": "💻",
+                "cor": "#37474f"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Como a guerra do Irã reacendeu a disputa pelo Canal do Panamá",
+            "resumo": "A hidrovia artificial que liga os oceanos Atlântico e Pacífico tornou-se o mais recente foco de disputa entre Estados Unidos e China.",
+            "link": "https://www.bbc.com/portuguese/articles/c74e88e9kpeo?at_medium=RSS&at_campaign=rss",
             "origem": "BBC Brasil",
             "cor": "#b71c1c",
-            "ts": 1787770859,
+            "ts": 1788029473,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Avalanche no Himalaia: por que resgate após deslizamento é muito mais complexo do que em terremotos?",
+            "resumo": "Por que resgate no Nepal e no Tibete é mais dificil do que em Brumadinho? Entenda\nDias após a avalanche que deixou centenas de mortos e desa…",
+            "link": "https://g1.globo.com/mundo/noticia/2026/08/29/72-horas-x-15-minutos-por-que-resgate-apos-deslizamento-e-muito-mais-complexo-do-que-em-terremotos.ghtml",
+            "origem": "G1 Mundo",
+            "cor": "#e53935",
+            "ts": 1788026711,
             "data_estimada": false,
             "categoria": {
                 "label": "Clima",
@@ -79,12 +64,27 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Trump analisa regras da carne bovina enquanto produtores se opõem a tarifas; JBS e MBRF estão no setor",
-            "resumo": "Carne bovina não está incluída na nova tarifa de 25%\nEraldo Peres/AP Photo/picture alliance via DW\nO presidente dos EUA, Donald Trump, afirm…",
-            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/26/trump-analisa-regras-da-carne-bovina-enquanto-produtores-se-opoem-a-tarifas.ghtml",
+            "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 30 milhões neste domingo",
+            "resumo": "A Mega-Sena sorteia neste domingo (30) prêmio estimado em R$ 30 milhões. As seis dezenas do concurso 3.051 serão sorteadas a partir das 11h …",
+            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/mega-sena-sorteia-premio-acumulado-de-r-30-milhoes-neste-domingo",
+            "origem": "Ag. Brasil Geral",
+            "cor": "#f9a825",
+            "ts": 1788017520,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Brasil",
+                "emoji": "🇧🇷",
+                "cor": "#f9a825"
+            },
+            "categoria_curada": true
+        },
+        {
+            "titulo": "Trump mira grandes frigoríficos em meio à alta de preços da carne nos EUA; JBS pode ser afetada",
+            "resumo": "Trump fala com a imprensa na Casa Branca após assinar ordem executiva renomeando o Lago Ontário como Lago América\nEvan Vucci/Reuters\nO presi…",
+            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/28/trump-promete-ordem-judicial-processamento-alimentos.ghtml",
             "origem": "G1 Agronegócios",
             "cor": "#33691e",
-            "ts": 1787769285,
+            "ts": 1787933648,
             "data_estimada": false,
             "categoria": {
                 "label": "Espaço Rural",
@@ -94,7 +94,5 @@
             "categoria_curada": true
         }
     ],
-    "categorias_ausentes": [
-        "Tecnologia"
-    ]
+    "categorias_ausentes": []
 }

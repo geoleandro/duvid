@@ -173,3 +173,47 @@ body:has(#sidebar-duvid) main.texto-layout {
     font-weight: bold;
 }
 
+/* ── Dark Mode ────────────────────────────────────────────────────── */
+body.dark-mode .atv-toolbar {
+    background: #1a1a1a;
+    border-color: rgba(255,255,255,.08);
+    box-shadow: none;
+}
+
+body.dark-mode .atv-busca-input {
+    background: #252525;
+    border-color: rgba(255,255,255,.12);
+    color: #ddd;
+}
+body.dark-mode .atv-busca-input:focus {
+    background: #2a2a2a;
+    border-color: #4caf50;
+}
+body.dark-mode .atv-busca-icon { color: #666; }
+
+body.dark-mode .btn-filtro {
+    background: #252525;
+    border-color: rgba(255,255,255,.15);
+    color: #bbb;
+}
+body.dark-mode .btn-filtro:hover,
+body.dark-mode .btn-filtro.active {
+    background: #2e7d32 !important;
+    border-color: #2e7d32 !important;
+    color: #fff !important;
+}
+
+body.dark-mode .card-rpg {
+    background: #1a1a1a;
+    border-left-color: rgba(255,255,255,.08);
+    border-right-color: rgba(255,255,255,.08);
+    border-bottom-color: rgba(255,255,255,.08);
+}
+body.dark-mode .card-rpg h3,
+body.dark-mode .card-rpg .titulo-atividade { color: #e0e0e0; }
+
+body.dark-mode .badge-nivel {
+    background: #1b3a1b;
+    color: #81c784;
+}
+

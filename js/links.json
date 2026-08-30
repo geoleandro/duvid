@@ -170,8 +170,8 @@
   "AgenciaBrasilMobilidadeUrbana": {
     "cor": "w3-blue",
     "corTexto": "w3-text-white",
-    "texto": "Periferia gasta mais tempo e dinheiro em transporte — Agência Brasil",
-    "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2023-09/mobilidade-urbana-periferia-gasta-mais-tempo-e-dinheiro"
+    "texto": "Periferia gasta mais tempo e dinheiro em transporte — CNN Brasil",
+    "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/pessoas-da-periferia-ficam-o-triplo-do-tempo-no-transporte-publico-em-sp/"
   },
   "AgenciaBrasilNordesteCresce": {
     "cor": "w3-deep-orange",
@@ -266,8 +266,8 @@
   "BBCRiosVoadores": {
     "cor": "w3-dark-grey",
     "corTexto": "w3-text-white",
-    "texto": "Os rios voadores que abastecem o Brasil — BBC Brasil",
-    "url": "https://www.bbc.com/portuguese/noticias/2015/01/150113_rios_voadores_amazonia_rb"
+    "texto": "O que são rios voadores e qual é a sua importância? — National Geographic Brasil",
+    "url": "https://www.nationalgeographicbrasil.com/meio-ambiente/2024/08/o-que-sao-rios-voadores-e-qual-e-a-sua-importancia"
   },
   "BBCRuanda": {
     "cor": "w3-deep-orange",
@@ -572,8 +572,8 @@
   "UNFome": {
     "cor": "w3-white",
     "corTexto": "w3-text-black",
-    "texto": "Fome cresce no mundo e atinge 9,8% da população — FAO/ONU",
-    "url": "https://news.un.org/pt/story/2024/07/1535846"
+    "texto": "Fome atinge 645 milhões de pessoas",
+    "url": "https://brasil.un.org/pt-br/319712-relat%C3%B3rio-da-onu-fome-atinge-645-milh%C3%B5es-de-pessoas"
   },
   "UNODCNarcotrafico": {
     "cor": "w3-blue",

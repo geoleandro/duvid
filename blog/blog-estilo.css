@@ -1243,6 +1243,38 @@ body.dark-mode .blog-arq-meses { background: #1a1a1a !important; }
 body.dark-mode .blog-pag-btn { background: #222 !important; border-color: #444 !important; color: #ccc !important; }
 body.dark-mode .blog-pag-btn.active { background: #2e7d32 !important; }
 
+/* ── Botão "Ler artigo completo" no destaque ── */
+body.dark-mode .blog-destaque-btn {
+    background: rgba(255,255,255,.1);
+    color: #a5d6a7;
+    border: 1.5px solid rgba(255,255,255,.15);
+}
+body.dark-mode .blog-destaque-btn:hover {
+    background: #4caf50;
+    color: #fff;
+    border-color: #4caf50;
+}
+
+/* ── Blockquote / citação nos artigos ── */
+body.dark-mode .artigo-texto blockquote {
+    background-color: #1a1a1a !important;
+    border-left-color: #4caf50 !important;
+    color: #ccc !important;
+}
+body.dark-mode .artigo-texto blockquote cite,
+body.dark-mode .artigo-texto blockquote small {
+    color: #888 !important;
+}
+
+/* ── Botões de compartilhar ── */
+body.dark-mode .share-container { background: transparent !important; }
+body.dark-mode .share-icons a,
+body.dark-mode .share-container a { opacity: .9; color: #fff !important; }
+body.dark-mode .share-icons a.whatsapp,
+body.dark-mode .share-container a.whatsapp { background-color: #1a9e4f !important; color: #fff !important; }
+body.dark-mode .share-icons a.facebook,
+body.dark-mode .share-container a.facebook { background-color: #1565c0 !important; color: #fff !important; }
+
 /* ── Responsive ──────────────────────────────────────────────── */
 @media (max-width: 900px) {
     .blog-grid-row  { grid-template-columns: 1fr; }

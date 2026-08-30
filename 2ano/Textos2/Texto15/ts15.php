@@ -267,9 +267,9 @@
 <button class="w3-button w3-block w3-light-green w3-left-align" onclick="myFunction('Demo3')">Massa Tropical
                 atlântica </button>
 <div class="w3-hide w3-container" id="Demo3">
-<p>Massa Equatorial atlântica - É quente, úmida (mEa) e originária do Atlântico Norte (próximo à ilha de
-                    Açores). Atua nas regiões litorâneas do Norte e do Nordeste, principalmente no verão e na primavera,
-                    sendo também formadora dos ventos alísios de Nordeste.</p>
+<p>Massa Tropical atlântica - É uma massa (mTa) quente e úmida, formada sobre o Oceano Atlântico Tropical, na
+                    região de altas pressões subtropicais. Atua principalmente no litoral do Sudeste e do Sul, sendo
+                    responsável por boa parte das chuvas dessas regiões ao longo do ano.</p>
 </div>
 <button class="w3-button w3-block w3-light-gray w3-left-align" onclick="myFunction('Demo4')">Massa polar
                 atlântica </button>
@@ -370,6 +370,9 @@
             "ciclone-bomba", por se intensificar muito rapidamente) atingiu Santa Catarina, o Rio Grande do Sul e o
             Paraná, com rajadas de vento superiores a 150 km/h. Esse evento causou estragos e deixou cerca de 1,9
             milhão de pessoas sem energia elétrica nos três estados. </p>
+<p><strong>Prof. Silva:</strong> E é justamente esse clima que estudamos hoje, junto com o relevo e os solos que
+            já vimos em aulas passadas, que molda os grandes domínios de vegetação do Brasil, como a Floresta Amazônica,
+            a Mata Atlântica e a Mata de Araucárias, o assunto da nossa próxima aula.</p>
 <p><strong>Duvid:</strong> Pessoal, vamos encerrar hoje, e aproveito para resumir os diversos tópicos
             relacionados aos problemas socioambientais ligados ao clima no Brasil discutimos. Abordamos a influência das
             massas de ar na formação do clima, a seca que afeta o Nordeste e a importância da transposição do Rio São
@@ -462,8 +465,8 @@
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
 <h4 class="fontePixel"><b>Leia os dois slogans a seguir, usados em lados opostos do debate sobre a transposição do Rio São Francisco, e assinale a alternativa correta:</b></h4>
 <div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
-<p><em>"Água para todos: a transposição leva desenvolvimento ao Nordeste."</em> — defensores do projeto</p>
-<p><em>"Transposição não, revitalização sim!"</em> — movimentos sociais e comitês de bacia contrários à obra</p>
+<p><em>"Água para todos: a transposição leva desenvolvimento ao Nordeste."</em> (defensores do projeto)</p>
+<p><em>"Transposição não, revitalização sim!"</em> (movimentos sociais e comitês de bacia contrários à obra)</p>
 </div>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
@@ -495,6 +498,14 @@
 <div class="area w3-center">
 <img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
 </div>
+</div>
+<div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots15" src="inforesumots15.webp" alt="Infográfico resumo Problemas Climáticos do Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+    <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr>
 </div>
 <div class="topico">
 <h2 id="centralizado"> Na Ciência, todas as perguntas têm seu valor e podem levar a avanços importantes em
@@ -569,6 +580,41 @@
 <hr/>
 </div>
 <div class="topico"><div id="ficha-conceitos"></div><button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button><hr/></div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Que obra de infraestrutura leva água do Rio São Francisco por canais e túneis até áreas do Nordeste afetadas pela seca?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'transposição', 'resp1a', this, 'globinho1a')">
+    Conferir
+</button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+</div>
+
+<p>Qual fenômeno climático do Oceano Pacífico costuma reduzir as chuvas no Nordeste e na Amazônia, mas aumentar as chuvas no Sul e no Sudeste?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'nino', 'resp2a', this, 'globinho2a')">
+    Conferir
+</button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+<hr/>
+</div>
 <div class="topico">
 <div class="w3-panel w3-pale-yellow w3-margin">
 <h2>Questões para o caderno</h2>
@@ -621,6 +667,10 @@
 </h3>
 <div id="biblio-gerada"></div>
 </div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
+</div>
 <br/><br/>
 <div class="w3-padding-48">
 <span id="numero"></span>
@@ -629,6 +679,16 @@
 </div>
 </div></main>
 <?php include __DIR__ . '/../../../includes/footer.php'; ?>
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DPX55DSFZ0"></script>
 </body>

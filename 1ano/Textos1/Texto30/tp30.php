@@ -139,8 +139,10 @@
 
             <p>Dentro das latitudes temperadas, a posição em relação ao oceano continua sendo decisiva. Regiões costeiras têm clima mais ameno, com invernos menos severos e verões mais frescos. O oceano funciona como regulador térmico, armazenando calor no verão e cedendo no inverno. Regiões continentais, afastadas do oceano, têm verões muito quentes e invernos muito frios. Esse contraste entre clima oceânico e clima continental dentro das mesmas latitudes explica por que a vegetação varia tanto de uma região para outra mesmo quando a latitude é similar.</p>
 
+            <p>O Brasil fica quase inteiro nos trópicos, mas o sul do país entra em contato direto com esse mundo de massas de ar polar. Em 18 de julho de 1975, uma massa de ar frio vinda da Antártida atingiu o Paraná e provocou a chamada geada negra: o congelamento rápido da seiva das plantas, que necrosa os tecidos vegetais por dentro sem formar os cristais visíveis da geada branca comum. O estado colhia, naquela safra, 10,2 milhões de sacas de café, quase metade de toda a produção nacional. Na safra seguinte, a colheita caiu para 3,8 mil sacas. A geada expulsou cerca de 2,6 milhões de pessoas do campo paranaense e empurrou o estado para a soja e o milho, que dominam sua economia agrícola até hoje. O episódio mostra como um fenômeno típico de biomas temperados, a friagem por massa polar, pode atravessar a fronteira dos trópicos e reorganizar a economia de uma região inteira.</p>
+
             <div class="w3-margin">
-                <img src="tp30F01.png" alt="Mapa mundial dos biomas temperados — distribuição latitudinal" class="w3-mobile"
+                <img src="tp30F01.png" alt="Mapa mundial dos biomas temperados: distribuição latitudinal" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Mapa em breve</div>'">
                 <span class="w3-small w3-margin-left">Distribuição dos biomas temperados no mundo. Observe a maior extensão no hemisfério norte. Fonte: WWF Global.</span>
             </div>
@@ -204,10 +206,16 @@
 
             <p>Sob grande parte da taiga existe o <span class="termo" data-palavra="Permafrost" data-definicao="Camada de solo permanentemente congelada que existe sob a superfície em regiões de alta latitude. Na taiga e na tundra, o permafrost pode ter dezenas de metros de espessura e armazena enormes quantidades de carbono orgânico. Seu derretimento pelo aquecimento global libera CO₂ e metano na atmosfera.">permafrost</span>: uma camada de solo permanentemente congelada que pode ter dezenas de metros de profundidade. As raízes das árvores não conseguem penetrar nessa camada, o que explica por que a taiga tem árvores relativamente baixas para uma floresta. O permafrost também impede a drenagem da água, criando um ambiente encharcado na superfície durante o curto verão. Isso dá à taiga seu aspecto característico: árvores densas, chão pantanoso e silêncio quase absoluto, interrompido apenas pelo vento e pelos pássaros migratórios que chegam no verão.</p>
 
-            <p>O permafrost é também um dos maiores estoques de carbono do planeta: estima-se que ele contenha o dobro de carbono que existe atualmente na atmosfera. Com o aquecimento global, o permafrost está derretendo em taxas preocupantes, liberando CO₂ e metano e criando um ciclo de retroalimentação que acelera ainda mais o aquecimento. O que acontece com a taiga nas próximas décadas é uma das maiores incógnitas da crise climática global.</p>
+            <p>O permafrost é também um dos maiores estoques de carbono do planeta: as estimativas mais recentes apontam entre 1.460 e 1.600 gigatoneladas de carbono orgânico armazenadas no solo congelado das altas latitudes do hemisfério norte, mais carbono do que existe hoje em toda a atmosfera da Terra. Cerca de dois terços desse total estão nos primeiros três metros de profundidade, exatamente a camada mais vulnerável ao degelo. Com o aquecimento global, o permafrost está derretendo em taxas preocupantes, liberando CO₂ e metano e criando um ciclo de retroalimentação que acelera ainda mais o aquecimento. O que acontece com a taiga nas próximas décadas é uma das maiores incógnitas da crise climática global.</p>
+
+            <p>É nessa mesma taiga siberiana que vivem os habitantes das cidades mais frias do planeta. Yakutsk, com mais de 355 mil habitantes, é construída sobre permafrost contínuo e já registrou -64,4°C, em 1891. A cerca de 20 horas de carro dali fica Oymyakon, uma vila de aproximadamente 500 pessoas que detém o recorde de menor temperatura já medida numa localidade habitada: -67,7°C, em 1933. Nesses lugares, carros ficam ligados o dia todo para o motor não congelar, e até o álcool pode virar gelo. Viver ali é a prova de que o ser humano se adapta a quase qualquer bioma, mesmo aos mais hostis, desde que tenha tecnologia e organização social para isso.</p>
+
+            <h3>2024: o ano em que a taiga pegou fogo como nunca</h3>
+
+            <p>Em 2024, a Rússia registrou a maior perda de cobertura florestal de sua história recente, quase inteiramente causada por incêndios no leste da Sibéria. Até meados de julho daquele ano, o fogo já havia consumido 8,8 milhões de hectares, uma área maior que Portugal, e liberado 6,8 megatoneladas de carbono somente até o início de julho, igualando em um único mês as emissões de junho e julho do ano anterior somados. Parte do combustível são as <span class="termo" data-palavra="Turfeira" data-definicao="Terreno encharcado onde matéria orgânica vegetal se acumula por milênios sem se decompor totalmente, formando turfa, um solo escuro e rico em carbono. As turfeiras siberianas são a maior reserva de turfa do planeta e, quando secam e pegam fogo, liberam carbono estocado há milhares de anos.">turfeiras</span> siberianas, a maior reserva de turfa do planeta: solos ricos em matéria orgânica parcialmente decomposta que, quando secam com o calor e pegam fogo, liberam carbono que ficou estocado ali por milênios. Verões mais quentes e secos, associados ao degelo do permafrost superficial, tornam a taiga cada vez mais inflamável, alimentando o mesmo ciclo de retroalimentação que também ameaça derreter o solo congelado por baixo dela.</p>
 
             <div class="w3-margin">
-                <img src="tp30F02.png" alt="Floresta boreal (taiga) no inverno — Sibéria" class="w3-mobile"
+                <img src="tp30F02.png" alt="Floresta boreal (taiga) no inverno, Sibéria" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📷 Imagem em breve</div>'">
                 <span class="w3-small w3-margin-left">Taiga siberiana no inverno. As coníferas mantêm suas agulhas o ano todo, ao contrário das folhosas caducifólias. Fonte: NASA Earth Observatory.</span>
             </div>
@@ -259,7 +267,11 @@
 
             <p>Nem toda região de latitude temperada tem floresta. Nas partes mais secas das latitudes médias, onde a chuva é insuficiente para sustentar árvores em quantidade, os campos abertos dominam. São as <span class="termo" data-palavra="Estepe e Pradaria" data-definicao="Biomas de campos com gramíneas que ocorrem nas latitudes temperadas com precipitação entre 250 e 700 mm/ano, insuficiente para sustentar florestas. As pradarias têm clima mais úmido e gramíneas mais altas; as estepes têm clima mais seco e vegetação mais rala. Exemplos: Great Plains (EUA), Pampas (América do Sul), estepe eurasiana.">estepes e pradarias</span>. Esses biomas aparecem no mapa como grandes extensões abertas, sem árvores ou com árvores muito esparsas, cobrindo partes dos continentes que ficam afastadas da influência oceânica ou protegidas por cadeias de montanhas que bloqueiam a umidade.</p>
 
-            <p>As maiores pradarias do mundo são os Great Plains norte-americanos, que se estendem do Texas até o sul do Canadá. São também os campos que alimentam os rebanhos bovinos e os campos de trigo e milho que fazem dos Estados Unidos o maior exportador agrícola do planeta. Na América do Sul, os pampas cobrem o sul do Brasil (Rio Grande do Sul), o Uruguai e o nordeste da Argentina, com um clima mais úmido e gramíneas mais altas. Na Eurásia, a estepe se estende da Ucrânia até a Mongólia em quase 8.000 km de campos abertos, a maior extensão de pradaria contínua do planeta. Na Ásia Central, essa estepe foi o corredor por onde se moveram os povos nômades que conectaram China e Europa ao longo de milênios.</p>
+            <p>As maiores pradarias do mundo são os Great Plains norte-americanos, que se estendem do Texas até o sul do Canadá. São também os campos que alimentam os rebanhos bovinos e os campos de trigo e milho que fazem dos Estados Unidos o maior exportador agrícola do planeta. Na América do Sul, os pampas cobrem o sul do Brasil (Rio Grande do Sul), o Uruguai e o nordeste da Argentina, com um clima mais úmido e gramíneas mais altas. Na Eurásia, a estepe se estende da Ucrânia até a Mongólia em quase 8.000 km de campos abertos, a maior extensão de pradaria contínua do planeta. Milhares de anos de gramíneas crescendo, morrendo e se decompondo no mesmo lugar formaram ali o <span class="termo" data-palavra="Chernozem" data-definicao="Solo escuro e extremamente fértil, formado ao longo de milhares de anos pela decomposição de gramíneas nas estepes temperadas. Pode ter até 1 metro de profundidade e até 15% de carbono orgânico. A Ucrânia concentra cerca de um terço do chernozem mundial, o que faz da região um dos grandes celeiros agrícolas do planeta.">chernozem</span>, um solo negro tão rico em matéria orgânica que é chamado de "ouro negro da agricultura": a Ucrânia sozinha concentra cerca de um terço de todo o chernozem do planeta, com camadas de até 1 metro de profundidade. Na Ásia Central, essa estepe foi o corredor por onde se moveram os povos nômades que conectaram China e Europa ao longo de milênios.</p>
+
+            <h3>O Dust Bowl: quando a pradaria virou poeira</h3>
+
+            <p>As gramíneas das pradarias não estão ali por acaso: suas raízes profundas e entrelaçadas seguram o solo mesmo sob ventos fortes e chuva irregular. Na década de 1930, os agricultores dos Great Plains americanos aprenderam essa lição da forma mais dura possível. Décadas de aração profunda para plantar trigo, somadas ao pastoreio excessivo de gado, haviam removido a cobertura natural de gramíneas de milhões de hectares. Quando uma seca severa atingiu a região, não havia mais raízes para prender o solo exposto. Ventos fortes levantaram nuvens de terra que escureciam o céu a centenas de quilômetros de distância, num evento que ficou conhecido como <span class="termo" data-palavra="Dust Bowl" data-definicao="Desastre ambiental ocorrido nos Estados Unidos na década de 1930, quando a combinação de seca severa com aração profunda e pastoreio excessivo nas pradarias dos Great Plains removeu a cobertura vegetal do solo, causando enormes tempestades de poeira e erosão. É um exemplo clássico de desertificação causada por uso agrícola inadequado do solo.">Dust Bowl</span>. Em 1934, mais de 35 milhões de acres de terra antes cultivável haviam se tornado inúteis para a agricultura, e outros 125 milhões de acres perdiam a camada fértil do solo rapidamente. O desastre expulsou centenas de milhares de famílias rurais, num dos maiores episódios de migração interna da história dos Estados Unidos. O Dust Bowl é hoje um caso de estudo clássico de desertificação: não é preciso estar num deserto tropical para destruir um solo, basta remover a vegetação que o protege num bioma naturalmente sujeito a secas.</p>
 
             <h3>A vegetação mediterrânea: verão seco, inverno chuvoso</h3>
 
@@ -269,7 +281,9 @@
 
             <h3>Por que o Mediterrâneo ficou famoso e os outros quatro não</h3>
 
-            <p>A resposta é histórica e cultural. O Mediterrâneo europeu foi o berço das civilizações grega e romana, que expandiram seu modelo agrícola, arquitetônico e político por toda a Europa. A oliveira, a videira e o trigo, culturas adaptadas ao clima mediterrâneo, se tornaram símbolos da cultura ocidental. As outras quatro regiões com o mesmo bioma, na Califórnia, no Chile, na África do Sul e na Austrália, foram colonizadas mais tarde e por isso ficaram à sombra da narrativa europeia. Mas em termos de biodiversidade, o fynbos sul-africano, por exemplo, tem mais espécies de plantas por km² do que qualquer região da bacia mediterrânea europeia.</p>
+            <p>A resposta é histórica e cultural. O Mediterrâneo europeu foi o berço das civilizações grega e romana, que expandiram seu modelo agrícola, arquitetônico e político por toda a Europa. A oliveira, a videira e o trigo, culturas adaptadas ao clima mediterrâneo, se tornaram símbolos da cultura ocidental. As outras quatro regiões com o mesmo bioma, na Califórnia, no Chile, na África do Sul e na Austrália, foram colonizadas mais tarde e por isso ficaram à sombra da narrativa europeia. Mas em termos de biodiversidade, o fynbos sul-africano é o mais rico dos cinco: numa área de cerca de 90.000 km², reúne mais de 9.000 espécies de plantas, quase 70% delas endêmicas, e concentra três vezes mais espécies por quilômetro quadrado do que uma floresta tropical. É por isso que a região do Cabo, apesar de ser o menor dos seis reinos florísticos reconhecidos no mundo, é considerada um dos 35 hotspots globais de biodiversidade, e mais de 1.700 dessas espécies estão hoje ameaçadas de extinção.</p>
+
+            <p>O fogo é parte natural do ciclo de vida da vegetação mediterrânea, mas a mudança climática está alterando esse equilíbrio. Em janeiro de 2025, uma sequência de 14 incêndios atingiu a região metropolitana de Los Angeles, na Califórnia, e queimou cerca de 23.300 hectares em poucas semanas, destruindo ou danificando mais de 18 mil construções e forçando a evacuação de cerca de 200 mil pessoas. O gatilho foi a combinação clássica do clima mediterrâneo levada ao extremo: o início da estação chuvosa mais seco já registrado na região, meses de vegetação completamente ressecada e os ventos quentes de Santa Ana soprando do deserto para o litoral. Plantas que evoluíram para rebrotar depois do fogo natural, esparso e sazonal, hoje enfrentam incêndios maiores, mais frequentes e mais próximos de áreas urbanas densamente povoadas.</p>
 
             <div class="w3-margin">
                 <img src="tp30F03.png" alt="Comparação: estepe eurasiana, pampas e vegetação mediterrânea" class="w3-mobile"
@@ -279,6 +293,41 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Dust Bowl, na década de 1930, transformou pradarias produtivas dos Estados Unidos em terras improdutivas cobertas de tempestades de poeira. A causa principal desse desastre foi:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Uma erupção vulcânica que cobriu a região de cinzas</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>A remoção da cobertura natural de gramíneas por aração profunda e pastoreio excessivo, somada a uma seca severa</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>O desvio de rios para irrigação, que ressecou o solo das pradarias</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'as raízes das gramíneas nativas seguram o solo das pradarias mesmo sob vento forte. Décadas de aração para plantio de trigo e pastoreio excessivo destruíram essa cobertura vegetal. Quando a seca chegou, não havia mais raízes para impedir que o vento levantasse o solo exposto em imensas tempestades de poeira.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -312,9 +361,13 @@
 
             <p>Você acabou de percorrer os principais biomas das latitudes médias. Floresta caducifólia, taiga, estepe, pradaria, vegetação mediterrânea: cinco biomas distintos, com vegetações, faunas e solos completamente diferentes. Mas todos eles respondem à mesma pergunta de formas diferentes: como viver onde o inverno existe?</p>
 
+            <p>Repare que essa mesma pergunta se repete em continentes que nunca tiveram contato direto entre si. Os pampas gaúchos e as Great Plains americanas, a floresta caducifólia europeia e a do leste dos Estados Unidos, o fynbos sul-africano e o chaparral californiano: são pares de <span class="termo" data-palavra="Biomas Análogos" data-definicao="Biomas que ocorrem em continentes diferentes, sem qualquer contato histórico entre si, mas que desenvolvem estrutura e fisionomia vegetal muito parecidas porque estão sob as mesmas condições climáticas. Têm a mesma lógica ecológica, mas espécies diferentes, evoluídas de forma independente.">biomas análogos</span>, regiões que desenvolveram soluções vegetais quase idênticas sob o mesmo tipo de clima, com espécies completamente diferentes evoluindo de forma independente. Esse padrão é uma das provas mais fortes de que o clima, mais do que a história evolutiva de cada continente, é o que organiza a distribuição da vida vegetal no planeta.</p>
+
             <p>A floresta caducifólia responde perdendo as folhas. A taiga responde com agulhas impermeáveis e crescimento acelerado no verão curto. A estepe responde abandonando as árvores e apostando nas gramíneas, que rebroram rápido depois do fogo e do frio. A vegetação mediterrânea responde com folhas coriáceas e raízes profundas que passam a seca do verão em dormência parcial. Cada estratégia é eficiente no ambiente que a selecionou. Nenhuma funcionaria fora dele.</p>
 
             <p>O problema central da crise climática nos biomas temperados não é o calor em si. É a velocidade da mudança. As espécies que vivem nesses biomas evoluíram para responder a um ritmo específico de variação sazonal. Quando as estações mudam de padrão mais rápido do que a evolução consegue acompanhar, as espécies ficam dessincronizadas: flores que abrem antes dos polinizadores chegarem, pássaros que migram antes das pragas de insetos que sustentam seus filhotes, árvores que brotam cedo e têm as folhas destruídas por geadas tardias. O aquecimento global não vai necessariamente destruir os biomas temperados de imediato. Mas vai desorganizar os ciclos que os mantêm funcionando.</p>
+
+            <p>Você viu hoje como a vida vegetal resolve o problema do frio moderado e das quatro estações. Na próxima aula, o mesmo raciocínio vai levar você ainda mais longe no mapa, para as regiões onde o frio deixa de ser sazonal e passa a ser praticamente permanente: a tundra e as calotas polares do Ártico e da Antártica, os biomas mais extremos do planeta.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -324,14 +377,12 @@
         <!-- BLOCO 10: Infográfico -->
         <div class="topico">
 
-            <h2>Infográfico: resumo da aula</h2>
+            <h2> Infográfico - Resumo</h2>
 
-            <div class="w3-margin">
-                <img src="inforesumot30.png" alt="Infográfico resumo Biogeografia II — biomas temperados" class="w3-mobile"
+            <div class="w3-margin"><img id="inforesumotp30" src="inforesumotp30.webp" alt="Infográfico resumo Biogeografia II: biomas temperados" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
-                <span class="w3-small w3-margin-left">Fonte: Organizado e revisado pelo autor.</span>
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
             </div>
-
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
@@ -341,6 +392,44 @@
         <div class="topico">
             <div id="ficha-conceitos"></div>
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11.2: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Em que década ocorreu o Dust Bowl, o desastre de erosão do solo nas pradarias dos Estados Unidos?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a', '1930', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Quantas vezes mais espécies de plantas por km² o fynbos, vegetação mediterrânea da África do Sul, tem em comparação com uma floresta tropical?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a', '3', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
             <hr>
         </div>
 
@@ -367,6 +456,12 @@
                 <strong>Por que a Califórnia tem o mesmo bioma que o sul da Europa se ficam em lados opostos do oceano?</strong>
             </p>
             <p><span class="primeiraLetra">R:</span> Porque a posição geográfica relativa ao oceano é a mesma. Tanto o Mediterrâneo europeu quanto a Califórnia estão na costa oeste de seus respectivos continentes, entre 30° e 45° de latitude. Nessa posição, a circulação geral da atmosfera traz ventos quentes e secos no verão (ventos descendentes subtropicais) e chuvas no inverno (frentes polares). O clima resultante é identico em caráter mesmo com oceanos diferentes. Isso é o que a biogeografia chama de convergência adaptativa: ambientes iguais produzem soluções vegetais similares em lugares completamente separados.</p>
+
+            <p class="w3-border w3-round-large w3-padding">
+                <span class="primeiraLetra">P:</span>
+                <strong>Por que a Ucrânia e a Argentina, tão distantes uma da outra, são as duas grandes celeiras de grãos do mundo?</strong>
+            </p>
+            <p><span class="primeiraLetra">R:</span> Porque as duas ficam sobre estepes e pradarias temperadas que desenvolveram solos parecidos: chernozem na Ucrânia, solos igualmente escuros e férteis nos pampas argentinos. Nos dois casos, milênios de gramíneas nativas morrendo e se decompondo no lugar acumularam camadas espessas de matéria orgânica, sem que chuva em excesso lavasse os nutrientes para longe, como acontece nos trópicos úmidos. O resultado é um solo que praticamente dispensa fertilizante para produzir trigo, milho e soja em larga escala. É por isso que guerras ou secas nessas duas regiões afetam o preço dos alimentos no mundo inteiro.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -460,6 +555,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

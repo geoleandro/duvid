@@ -1,4 +1,84 @@
 {
+  "LispectorHoraDaEstrela": {
+    "autor": "Clarice Lispector",
+    "titulo": "A Hora da Estrela",
+    "ano": "1977",
+    "cor": "w3-grey",
+    "tag": "Migração e desigualdade regional",
+    "continente": "América do Sul",
+    "relacao": "Acompanha Macabéa, órfã alagoana que migra para o Rio de Janeiro e sobrevive como datilógrafa mal paga, quase invisível numa cidade grande que não tem lugar para ela. O romance de Clarice Lispector, seu último antes de morrer, dá rosto e interioridade a exatamente o tipo de fluxo migratório do Nordeste para o Sudeste que esta aula usa como pano de fundo para entender por que o território industrial brasileiro nunca se distribuiu de forma equilibrada.",
+    "capa": "https://m.media-amazon.com/images/I/61TaHURu27L._AC_UL320_.jpg"
+  },
+  "BrandaoZero": {
+    "autor": "Ignácio de Loyola Brandão",
+    "titulo": "Zero",
+    "ano": "1975",
+    "cor": "w3-indigo",
+    "tag": "Ditadura e modernização urbana",
+    "continente": "América do Sul",
+    "relacao": "Romance experimental e fragmentado que retrata uma megacidade brasileira violenta e alienante sob um regime autoritário, escrito e ambientado no auge da ditadura militar, o mesmo período em que o Estado promoveu a Zona Franca de Manaus, a Transamazônica e outras obras de integração forçada do território discutidas nesta aula. Chegou a ser proibido pelo Ministério da Justiça em 1976 por “ofender a moral e os bons costumes”.",
+    "capa": "https://m.media-amazon.com/images/I/61VbfYOLoQL._AC_UL320_.jpg"
+  },
+  "GuarnieriBlackTie": {
+    "autor": "Gianfrancesco Guarnieri",
+    "titulo": "Eles Não Usam Black-Tie",
+    "ano": "1958",
+    "cor": "w3-red",
+    "tag": "Sindicalismo e guerra fiscal",
+    "continente": "América do Sul",
+    "relacao": "Peça teatral ambientada numa vila operária de São Paulo durante uma greve, com um pai sindicalista de um lado e o filho fura-greve do outro. Encena, décadas antes da guerra fiscal se tornar tema desta aula, o mesmo conflito de fundo que explica por que tantas indústrias buscaram “áreas com fraca organização sindical” ao se desconcentrar do eixo paulista: a força (ou fraqueza) dos trabalhadores organizados como fator locacional.",
+    "capa": "https://m.media-amazon.com/images/I/81Pp8Zed8IL._AC_UL320_.jpg"
+  },
+  "KerouacPeNaEstrada": {
+    "autor": "Jack Kerouac",
+    "titulo": "On the Road (Pé na Estrada)",
+    "ano": "1957",
+    "cor": "w3-blue-grey",
+    "tag": "Estrada e deslocamento",
+    "continente": "América do Norte",
+    "relacao": "Romance-manifesto da geração beat, narrado como uma sucessão de viagens de carona e carro por rodovias americanas, atravessando o país de costa a costa. Assim como a matriz de transportes brasileira, é uma história que só existe por causa da estrada: o deslocamento constante, o motor, o asfalto e a distância como parte essencial da narrativa.",
+    "capa": "https://m.media-amazon.com/images/I/91rDgonSiWL._AC_UL320_.jpg"
+  },
+  "RamosSaoBernardo": {
+    "autor": "Graciliano Ramos",
+    "titulo": "São Bernardo",
+    "ano": "1934",
+    "cor": "w3-brown",
+    "tag": "Latifúndio e capitalismo rural",
+    "continente": "América do Sul",
+    "relacao": "Narrado em primeira pessoa por Paulo Honório, homem pobre que ascende à força, na violência e na esperteza, até comprar a fazenda onde antes trabalhava como capataz. O romance expõe sem rodeios a lógica de acumulação por espoliação que molda o latifúndio brasileiro: terra como propriedade conquistada pela força, não herdada nem cultivada com afeto, e as pessoas ao redor tratadas como mais um insumo de produção.",
+    "capa": "https://m.media-amazon.com/images/I/81vFD4lJ6BL._AC_UL320_.jpg"
+  },
+  "GalvaoParqueIndustrial": {
+    "autor": "Patrícia Galvão (Pagu)",
+    "titulo": "Parque Industrial",
+    "ano": "1933",
+    "cor": "w3-deep-orange",
+    "tag": "Industrialização",
+    "continente": "América do Sul",
+    "relacao": "Considerado o primeiro romance proletário brasileiro, acompanha operárias de uma fábrica têxtil no bairro do Brás, em São Paulo, expondo a exploração do trabalho, o assédio e o racismo enfrentados por essas mulheres num tempo sem direitos trabalhistas. Escrito por Pagu, uma das figuras mais radicais do modernismo brasileiro, é literatura feita literalmente dentro do parque industrial paulista que esta aula estuda.",
+    "capa": "https://m.media-amazon.com/images/I/41Gq6Y7pFLL._AC_UL320_.jpg"
+  },
+  "AmadoSuor": {
+    "autor": "Jorge Amado",
+    "titulo": "Suor",
+    "ano": "1934",
+    "cor": "w3-orange",
+    "tag": "Industrialização",
+    "continente": "América do Sul",
+    "relacao": "Retrata o cotidiano de mais de 600 moradores amontoados num cortiço na Ladeira do Pelourinho, em Salvador: operários, estivadores, pescadores e imigrantes dividindo pouco mais de cem cômodos em condições insalubres. Um retrato urbano da exploração do trabalhador brasileiro na mesma época em que São Paulo se tornava o polo industrial do país, tão incômodo para o regime que chegou a ser queimado publicamente pelo Estado Novo em 1937.",
+    "capa": "https://m.media-amazon.com/images/I/81EoU-JL1lL._AC_UL320_.jpg"
+  },
+  "MachadoBrasBexigaBarraFunda": {
+    "autor": "Antônio de Alcântara Machado",
+    "titulo": "Brás, Bexiga e Barra Funda",
+    "ano": "1927",
+    "cor": "w3-deep-orange",
+    "tag": "Industrialização",
+    "continente": "América do Sul",
+    "relacao": "Coletânea de 11 contos modernistas ambientados nos bairros paulistanos onde se concentravam os imigrantes italianos nas primeiras décadas do século XX, justamente a mão de obra que abasteceu as fábricas nascentes de São Paulo. Retrata o choque cultural, a exploração do trabalho e o cotidiano operário da cidade que se tornaria o principal polo industrial do Brasil.",
+    "capa": "https://m.media-amazon.com/images/I/81LL1T2uffL._AC_UL320_.jpg"
+  },
   "VerneVoltaMundo80Dias": {
     "autor": "Júlio Verne",
     "titulo": "A Volta ao Mundo em 80 Dias",
@@ -509,6 +589,16 @@
     "relacao": "Um bando de meninos abandonados disputa e defende como seu um trapiche às margens do mar em Salvador: um exemplo literário exato do conceito de território (apropriação de um espaço, regras próprias, fronteiras que outros grupos não podem cruzar) e do quanto o lugar onde se nasce pesa sobre o tipo de vida possível.",
     "capa": "https://books.google.com/books/content?id=FDJ1_r4MCIEC&printsec=frontcover&img=1&zoom=1"
   },
+  "VargasLlosaGuerraDoFimDoMundo": {
+    "autor": "Mario Vargas Llosa",
+    "titulo": "A Guerra do Fim do Mundo",
+    "ano": "1981",
+    "cor": "w3-brown",
+    "tag": "Conflito fundiário",
+    "continente": "América do Sul",
+    "relacao": "Romance-reportagem inspirado na Guerra de Canudos, em que uma comunidade de sertanejos pobres, liderados por Antônio Conselheiro, ocupa terras no interior da Bahia e é dizimada pelo Exército, que a via como ameaça à ordem fundiária da República. Mostra como o acesso à terra no Brasil sempre foi também uma questão de poder e violência, tema que atravessa a discussão desta aula sobre grilagem e conflitos pelo uso do solo.",
+    "capa": "https://m.media-amazon.com/images/I/51iLqEn9jHL._SY445_SX342_ML2_.jpg"
+  },
   "AmadoTerrasDoSemFim": {
     "autor": "Jorge Amado",
     "titulo": "Terras do Sem-Fim",
@@ -739,6 +829,16 @@
     "relacao": "A história real do relojoeiro John Harrison, que passou décadas obcecado em resolver o maior desafio científico do século XVIII: medir a longitude com precisão no meio do oceano. Uma aventura sobre a origem prática do sistema de coordenadas geográficas.",
     "capa": "https://m.media-amazon.com/images/I/51QU5+LCXAL._SY445_SX342_ML2_.jpg"
   },
+  "AlmeidaABagaceira": {
+    "autor": "José Américo de Almeida",
+    "titulo": "A Bagaceira",
+    "ano": "1928",
+    "cor": "w3-deep-orange",
+    "tag": "Seca",
+    "continente": "América do Sul",
+    "relacao": "Considerado, junto com Macunaíma, o marco inicial do romance regionalista do Modernismo brasileiro. Ambientado entre a seca de 1898 e a de 1915 num engenho da Paraíba, acompanha Soledade e outros retirantes que fogem do sertão castigado pela estiagem, expondo o êxodo rural e a estrutura arcaica dos engenhos diante da mesma seca nordestina estudada nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/81qzwfObt3L._AC_UL320_.jpg"
+  },
   "SteinbeckAsVinhasDaIra": {
     "autor": "John Steinbeck",
     "titulo": "As Vinhas da Ira",
@@ -746,7 +846,7 @@
     "cor": "w3-deep-orange",
     "tag": "Erosão eólica",
     "continente": "América do Norte",
-    "relacao": "Acompanha uma família de agricultores expulsa de sua terra em Oklahoma durante o Dust Bowl, a tempestade de poeira dos anos 1930 causada por erosão eólica intensa sobre solos agrícolas mal manejados. Uma das maiores catástrofes de erosão da história, contada pela ficção.",
+    "relacao": "Acompanha uma família de agricultores expulsa de sua terra em Oklahoma durante o Dust Bowl, a tempestade de poeira dos anos 1930 causada por erosão eólica intensa sobre solos agrícolas mal manejados. Retrata também como a mecanização e a concentração de terras pelo agronegócio bancário empurraram pequenos agricultores para fora do campo, uma das maiores catástrofes de erosão e de êxodo rural da história, contada pela ficção.",
     "capa": "https://m.media-amazon.com/images/I/91SSdyNDxpL._AC_UL320_.jpg"
   },
   "TwainAsAventurasDeTomSawyer": {
@@ -916,7 +1016,7 @@
     "cor": "w3-green",
     "tag": "Poluição atmosférica",
     "continente": "América do Norte",
-    "relacao": "Obra fundadora do ambientalismo moderno, na qual a bióloga Rachel Carson denuncia os efeitos do uso indiscriminado de pesticidas químicos como o DDT sobre os ecossistemas. Ajuda a entender, na prática, como substâncias lançadas na atmosfera e no ambiente por atividades humanas podem se espalhar e alterar o equilíbrio de toda a cadeia da vida, tema que aparece nesta aula ao tratarmos do efeito estufa e do buraco na camada de ozônio.",
+    "relacao": "Obra fundadora do ambientalismo moderno, na qual a bióloga Rachel Carson denuncia os efeitos do uso indiscriminado de pesticidas químicos como o DDT sobre os ecossistemas e a saúde humana. Ajuda a entender, na prática, como substâncias lançadas no solo e na atmosfera por atividades humanas se espalham e alteram o equilíbrio de toda a cadeia da vida, tema central desta aula.",
     "capa": "https://m.media-amazon.com/images/I/81j8vrR2LPL._SY425_.jpg"
   },
   "CamoesOsLusiadas": {
@@ -1009,6 +1109,16 @@
     "relacao": "Romance ambientado em Manaus e na floresta amazônica ao final do ciclo da borracha, mergulhando na relação entre os moradores da região e a mata que os cerca, pano de fundo humano para pensar o desmatamento e os 'rios voadores' que você estudou nesta aula.",
     "capa": "https://m.media-amazon.com/images/I/71ih-p4fEpL._SY466_.jpg"
   },
+  "CastroASelva": {
+    "autor": "Ferreira de Castro",
+    "titulo": "A Selva",
+    "ano": "1930",
+    "cor": "w3-deep-orange",
+    "tag": "Floresta Amazônica",
+    "continente": "América do Sul",
+    "relacao": "Baseado na própria experiência do autor, acompanha o jovem Alberto na dura rotina de um seringal amazônico do início do século XX, expondo o trabalho quase escravo dos seringueiros e a relação de exploração entre o ser humano e a floresta, o mesmo domínio vegetacional estudado nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/71CJ7fKec5L._AC_UL320_.jpg"
+  },
   "CabralMorteVidaSeverina": {
     "autor": "João Cabral de Melo Neto",
     "titulo": "Morte e Vida Severina",
@@ -1079,6 +1189,16 @@
     "relacao": "Huck e o escravo fugitivo Jim descem o rio Mississippi numa jangada, atravessando meandros, bancos de areia e cheias que definem o próprio ritmo da viagem. O rio funciona como personagem e como caminho de liberdade, a mesma força que você acabou de estudar esculpindo curvas e planícies de inundação.",
     "capa": "https://m.media-amazon.com/images/I/61cIaLjI+PL._SY466_.jpg"
   },
+  "RegoPureza": {
+    "autor": "José Lins do Rego",
+    "titulo": "Pureza",
+    "ano": "1937",
+    "cor": "w3-deep-orange",
+    "tag": "Ferroviário",
+    "continente": "América do Sul",
+    "relacao": "Lourenço de Melo viaja para o interior do Nordeste em busca de si mesmo e se instala numa pequena estação de trem, onde conhece Margarida, filha do chefe da estação. É a própria ferrovia, com sua parada modesta no meio do sertão, que organiza o cenário e o ritmo bucólico do romance, o mesmo modal que liga regiões inteiras do Brasil estudado nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/91mn8vtvTuL._SY342_.jpg"
+  },
   "AlencarOGuarani": {
     "autor": "José de Alencar",
     "titulo": "O Guarani",
@@ -1128,5 +1248,235 @@
     "continente": "Global",
     "relacao": "Os autores canadenses documentam como corporações ao redor do mundo transformaram a água doce em mercadoria, engarrafando e vendendo a preços altos recursos que antes eram públicos. Lançado no Fórum Social Mundial de Porto Alegre, dialoga diretamente com o debate sobre privatização e a Guerra da Água de Cochabamba estudados nesta aula.",
     "capa": "https://m.media-amazon.com/images/I/71HCaUDL3xL._SY425_.jpg"
+  },
+  "WallaceViagensAmazonasRioNegro": {
+    "autor": "Alfred Russel Wallace",
+    "titulo": "Viagens pelo Amazonas e Rio Negro",
+    "ano": "1853",
+    "cor": "w3-green",
+    "tag": "Floresta Pluvial",
+    "continente": "América do Sul",
+    "relacao": "Relato de viagem do naturalista que, ao lado de Darwin, formulou a teoria da evolução por seleção natural, registrando quatro anos de expedição pela Amazônia catalogando plantas e animais. Mostra em primeira mão a exuberância da biodiversidade da floresta pluvial tropical estudada nesta aula, décadas antes de qualquer satélite.",
+    "capa": "https://m.media-amazon.com/images/I/613FRf+F4ML._SY342_.jpg"
+  },
+  "KiplingLivroDaSelva": {
+    "autor": "Rudyard Kipling",
+    "titulo": "O Livro da Selva",
+    "ano": "1894",
+    "cor": "w3-green",
+    "tag": "Floresta Pluvial",
+    "continente": "Ásia",
+    "relacao": "Clássico mundial ambientado na floresta tropical da Índia central, onde o menino Mowgli é criado por uma alcateia de lobos. Retrata em forma de fábula o ecossistema denso e as relações entre espécies de uma floresta pluvial tropical fora da Amazônia, a mesma estrutura de bioma estudada nesta aula em outra latitude do planeta.",
+    "capa": "https://m.media-amazon.com/images/I/71285JCyLHL._SY425_.jpg"
+  },
+  "SalernoAfricaContos": {
+    "autor": "Silvana Salerno",
+    "titulo": "África: Contos do Rio, da Selva e da Savana",
+    "ano": "2015",
+    "cor": "w3-amber",
+    "tag": "Savana Tropical",
+    "continente": "África",
+    "relacao": "Coletânea de histórias tradicionais contadas pelos griôs do Congo, da Guiné-Bissau, do Benin, da Nigéria, de Angola, de Moçambique e do Senegal, países de onde vieram os africanos escravizados trazidos ao Brasil. Cada conto se passa nas paisagens de rio, floresta e savana estudadas nesta aula, ligando a vegetação tropical africana à própria formação cultural brasileira.",
+    "capa": "https://m.media-amazon.com/images/I/51ONc+V0BML._SY445_SX342_ML2_.jpg"
+  },
+  "WilderCasaNaPradaria": {
+    "autor": "Laura Ingalls Wilder",
+    "titulo": "Uma Casa na Pradaria",
+    "ano": "1935",
+    "cor": "w3-amber",
+    "tag": "Estepe e Pradaria",
+    "continente": "América do Norte",
+    "relacao": "Terceiro livro da série que narra a infância de uma família de pioneiros nas pradarias americanas do século XIX, com a construção da casa, o plantio e as dificuldades de viver sobre o mesmo solo de campo aberto que décadas depois seria arrasado pelo Dust Bowl, a relação íntima entre agricultura e paisagem de pradaria estudada nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/41PvzUtveIL._SY445_SX342_ML2_.jpg"
+  },
+  "PagnolJeanDeFlorette": {
+    "autor": "Marcel Pagnol",
+    "titulo": "Jean de Florette",
+    "ano": "1963",
+    "cor": "w3-green",
+    "tag": "Vegetação Mediterrânea",
+    "continente": "Europa",
+    "relacao": "Romance ambientado numa fazenda da Provença francesa, região de clima mediterrâneo estudada nesta aula, em que o destino de uma família se decide pelo acesso à água numa terra de verões secos, solo pobre e vegetação de baixo porte adaptada à estiagem.",
+    "capa": "https://m.media-amazon.com/images/I/51gJOEBF4YL._SY445_SX342_ML2_.jpg"
+  },
+  "MeredithDestinoAfrica": {
+    "autor": "Martin Meredith",
+    "titulo": "O Destino da África: Cinco Mil Anos de Riquezas, Ganância e Desafios",
+    "ano": "2014",
+    "cor": "w3-brown",
+    "tag": "Savana Tropical",
+    "continente": "África",
+    "relacao": "Panorama histórico de cinco milênios do continente africano, do Egito Antigo à atualidade, mostrando como a geografia física do continente, incluindo suas savanas e florestas tropicais, moldou rotas de comércio, impérios, colonização e os desafios que a África enfrenta hoje.",
+    "capa": "https://m.media-amazon.com/images/I/A1YPs0BjldL._SY425_.jpg"
+  },
+  "JurandirChoveCampos": {
+    "autor": "Dalcídio Jurandir",
+    "titulo": "Chove nos Campos de Cachoeira",
+    "ano": "1941",
+    "cor": "w3-deep-orange",
+    "tag": "Clima Equatorial",
+    "continente": "América do Sul",
+    "relacao": "Primeiro romance do Ciclo do Extremo-Norte, ambientado na vila de Cachoeira do Arari, na ilha do Marajó. Acompanha o menino Alfredo e o desiludido Eutanázio num cotidiano marcado pelo ciclo das chuvas amazônicas, as idas e vindas a Belém e a dependência da vida ribeirinha em relação ao clima equatorial estudado nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/81LVbfpXYvL._AC_UL320_.jpg"
+  },
+  "VeigaHoraRuminantes": {
+    "autor": "José J. Veiga",
+    "titulo": "A Hora dos Ruminantes",
+    "ano": "1966",
+    "cor": "w3-amber",
+    "tag": "Savana Tropical",
+    "continente": "América do Sul",
+    "relacao": "Romance de realismo fantástico ambientado em Manarairema, vila fictícia do interior de Goiás cercada pela vegetação retorcida do Cerrado, a mesma savana tropical estudada nesta aula, lido como alegoria da opressão vivida durante a ditadura militar brasileira.",
+    "capa": "https://m.media-amazon.com/images/I/81m1-kFLHbL._SY466_.jpg"
+  },
+  "LondonCaninosBrancos": {
+    "autor": "Jack London",
+    "titulo": "Caninos Brancos",
+    "ano": "1906",
+    "cor": "w3-blue-grey",
+    "tag": "Tundra e Taiga",
+    "continente": "América do Norte",
+    "relacao": "Romance de aventura ambientado no Yukon canadense durante a corrida do ouro, narrando a sobrevivência de um lobo mestiço entre a natureza selvagem da taiga e da tundra e o contato com humanos, retratando o frio extremo e a paisagem polar estudados nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/31i9WvuqscL._SY445_SX342_ML2_.jpg"
+  },
+  "LansingEndurance": {
+    "autor": "Alfred Lansing",
+    "titulo": "Endurance: A Lendária Expedição de Shackleton à Antártida",
+    "ano": "1959",
+    "cor": "w3-indigo",
+    "tag": "Antártica",
+    "continente": "Antártica",
+    "relacao": "Relato histórico da expedição de Ernest Shackleton, cujo navio ficou preso e foi esmagado pelo gelo antártico em 1915, obrigando a tripulação a sobreviver por meses sobre placas de gelo flutuante, ilustrando na prática os riscos e a hostilidade do continente estudado nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/41PoUZnMg+L._SX342_SY445_ML2_.jpg"
+  },
+  "PullmanBussolaDourada": {
+    "autor": "Philip Pullman",
+    "titulo": "A Bússola Dourada",
+    "ano": "1995",
+    "cor": "w3-teal",
+    "tag": "Ártico",
+    "continente": "Ártico",
+    "relacao": "Primeiro livro da série Fronteiras do Universo, em que a protagonista viaja rumo ao Ártico em busca de crianças desaparecidas, cruzando com povos do gelo, ursos polares blindados e a aurora boreal, elementos da geografia física e cultural das regiões polares estudadas nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/51ycgPdwL7L._SY445_SX342_ML2_.jpg"
+  },
+  "GaleanoVeiasAbertas": {
+    "autor": "Eduardo Galeano",
+    "titulo": "As Veias Abertas da América Latina",
+    "ano": "1971",
+    "cor": "w3-red",
+    "tag": "Impacto Ambiental",
+    "continente": "América do Sul",
+    "relacao": "Ensaio clássico que narra cinco séculos de exploração dos recursos naturais latino-americanos (prata, açúcar, borracha, petróleo) por potências estrangeiras, mostrando como a lógica de extrair riqueza de um território sem se importar com quem paga o custo ambiental e social é anterior ao capitalismo industrial, um argumento histórico central para entender o ecossocialismo estudado nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/51-Mkkybv7L._SY445_SX342_ML2_.jpg"
+  },
+  "LeopoldAlmanaque": {
+    "autor": "Aldo Leopold",
+    "titulo": "Almanaque de um Condado Arenoso e Alguns Ensaios Sobre Outros Lugares",
+    "ano": "1949",
+    "cor": "w3-green",
+    "tag": "Conservacionismo",
+    "continente": "América do Norte",
+    "relacao": "Coletânea de ensaios do engenheiro florestal Aldo Leopold, contemporâneo dos debates entre John Muir e Gifford Pinchot estudados nesta aula, que propõe a ideia de uma \"ética da terra\": tratar o solo, a água, as plantas e os animais não como recursos a explorar, mas como membros de uma comunidade da qual o ser humano também faz parte.",
+    "capa": "https://m.media-amazon.com/images/I/51G-aW9keAL._SY342_.jpg"
+  },
+  "DiamondColapso": {
+    "autor": "Jared Diamond",
+    "titulo": "Colapso: Como as Sociedades Escolhem o Fracasso ou o Sucesso",
+    "ano": "2005",
+    "cor": "w3-deep-orange",
+    "tag": "Justiça Ambiental",
+    "continente": "América do Norte",
+    "relacao": "Ensaio que analisa por que sociedades históricas, da Ilha de Páscoa aos maias, entraram em colapso ao esgotar seus próprios recursos naturais sem se adaptar a tempo, e compara esses casos com os desafios ambientais do mundo contemporâneo, uma reflexão direta sobre os limites entre uso e destruição de recursos discutidos nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/410ZV0TFHqL._SY445_SX342_ML2_.jpg"
+  },
+  "GoreVerdadeInconveniente": {
+    "autor": "Al Gore",
+    "titulo": "Uma Verdade Inconveniente",
+    "ano": "2006",
+    "cor": "w3-blue",
+    "tag": "Diplomacia Ambiental",
+    "continente": "América do Norte",
+    "relacao": "Livro que acompanha o documentário homônimo do ex-vice-presidente americano Al Gore, um dos marcos que colocou o aquecimento global na agenda pública mundial na década de 2000, no mesmo período em que o Protocolo de Kyoto tentava, sem sucesso pleno, reduzir as emissões globais estudadas nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/41VnDFwMLzL._SX342_SY445_ML2_.jpg"
+  },
+  "RaworthEconomiaDonut": {
+    "autor": "Kate Raworth",
+    "titulo": "Economia Donut: Uma Alternativa ao Crescimento a Qualquer Custo",
+    "ano": "2017",
+    "cor": "w3-pink",
+    "tag": "Limites Planetários",
+    "continente": "Europa",
+    "relacao": "Proposta de um modelo econômico em forma de rosquinha, com um piso social mínimo (necessidades humanas básicas) e um teto ecológico máximo (os limites planetários), argumentando que o objetivo da economia do século XXI não deveria ser crescer para sempre, mas prosperar dentro dessa faixa segura entre os dois limites, ideia que dialoga diretamente com os Limites Planetários e o conceito de desenvolvimento sustentável estudados nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/41jyPEorNXL._SY445_SX342_ML2_.jpg"
+  },
+  "McKibbenFimDaNatureza": {
+    "autor": "Bill McKibben",
+    "titulo": "O Fim da Natureza",
+    "ano": "1989",
+    "cor": "w3-teal",
+    "tag": "Aquecimento Global",
+    "continente": "América do Norte",
+    "relacao": "Um dos primeiros livros escritos para o público geral sobre o aquecimento global, publicado ainda em 1989, quase três anos antes da Eco-92, argumentando que a ação humana já havia alterado permanentemente até os fenômenos naturais mais básicos do planeta, uma reflexão pioneira sobre a urgência que décadas de conferências climáticas tentariam depois traduzir em política internacional.",
+    "capa": "https://m.media-amazon.com/images/I/31IlwTXk8tL._ML2_.jpg"
+  },
+  "BuarqueDeHolandaRaizesDoBrasil": {
+    "autor": "Sérgio Buarque de Holanda",
+    "titulo": "Raízes do Brasil",
+    "ano": "1936",
+    "cor": "w3-indigo",
+    "tag": "Formação do Brasil",
+    "continente": "América do Sul",
+    "relacao": "Ensaio clássico que investiga como a herança da colonização ibérica, pessoal e avessa a regras impessoais, moldou as instituições e o modo de organizar o espaço no Brasil. Ajuda a entender por que o país que nasceu das capitanias hereditárias e das sesmarias carregou, desde o início, tanta dificuldade em integrar suas regiões e construir um Estado realmente unificado.",
+    "capa": "https://m.media-amazon.com/images/I/91xi4t07rTL._SY342_.jpg"
+  },
+  "CastroGeografiaDaFome": {
+    "autor": "Josué de Castro",
+    "titulo": "Geografia da Fome",
+    "ano": "1946",
+    "cor": "w3-deep-orange",
+    "tag": "Desigualdade Regional",
+    "continente": "América do Sul",
+    "relacao": "Ensaio pioneiro que mapeia a fome no Brasil como um fenômeno geográfico, e não apenas biológico, ligado diretamente à forma desigual como cada região historicamente organizou sua economia e sua terra. Um retrato duro das mesmas desigualdades regionais que a regionalização do IBGE tenta descrever com médias estatísticas.",
+    "capa": "https://m.media-amazon.com/images/I/510VM3NpgfL._SY342_.jpg"
+  },
+  "UbaldoRibeiroVivaOPovoBrasileiro": {
+    "autor": "João Ubaldo Ribeiro",
+    "titulo": "Viva o Povo Brasileiro",
+    "ano": "1984",
+    "cor": "w3-teal",
+    "tag": "Formação do Brasil",
+    "continente": "América do Sul",
+    "relacao": "Romance histórico que acompanha gerações de uma família baiana do período colonial até o século XX, tecendo em ficção a mesma mistura de etnias, regiões e desigualdades que moldou o mapa do Brasil que esta aula analisa através de estatísticas e mapas oficiais.",
+    "capa": "https://m.media-amazon.com/images/I/71b6k7h1bwL._SY342_.jpg"
+  },
+  "RibeiroOPovoBrasileiro": {
+    "autor": "Darcy Ribeiro",
+    "titulo": "O Povo Brasileiro: A Formação e o Sentido do Brasil",
+    "ano": "1995",
+    "cor": "w3-deep-purple",
+    "tag": "Formação Étnica",
+    "continente": "América do Sul",
+    "relacao": "A obra-síntese do antropólogo entrevistado nesta aula, na qual ele defende que o Brasil não é uma cópia malfeita da Europa, mas um povo novo, nascido do choque e da miscigenação entre indígenas, africanos e portugueses. Base direta da entrevista fictícia que abre o texto.",
+    "capa": "https://m.media-amazon.com/images/I/A1lPmAv2hEL._SY342_.jpg"
+  },
+  "AmadoTendaDosMilagres": {
+    "autor": "Jorge Amado",
+    "titulo": "Tenda dos Milagres",
+    "ano": "1969",
+    "cor": "w3-orange",
+    "tag": "Mestiçagem",
+    "continente": "América do Sul",
+    "relacao": "O mestiço baiano Pedro Arcanjo dedica a vida a defender a miscigenação e a cultura afro-brasileira contra teorias racistas de embranquecimento em voga no início do século XX, um contraponto literário direto ao debate desta aula sobre raça, etnia e a construção do povo brasileiro.",
+    "capa": "https://m.media-amazon.com/images/I/91BH11DCaDL._SY342_.jpg"
+  },
+  "BarretoClaraDosAnjos": {
+    "autor": "Lima Barreto",
+    "titulo": "Clara dos Anjos",
+    "ano": "1948",
+    "cor": "w3-blue-grey",
+    "tag": "Racismo",
+    "continente": "América do Sul",
+    "relacao": "Romance de um dos primeiros grandes escritores negros do Brasil, que narra o drama de uma jovem mulata pobre do subúrbio carioca vítima do racismo e da hipocrisia social do início do século XX, dando rosto literário aos dados de desigualdade racial apresentados nesta aula.",
+    "capa": "https://m.media-amazon.com/images/I/614cEKnRr2L._SY342_.jpg"
   }
 }

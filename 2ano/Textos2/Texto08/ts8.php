@@ -145,7 +145,7 @@
             pedras preciosas, a grafita, o fosfato e o potássio. </p>
 <p>Os minérios energéticos, por sua vez, são aqueles que podem ser aproveitados para a transformação de sua
             energia química em outras fontes de energia, como térmica ou a mecânica. Os principais são: o petróleo, o
-            carvão mineral, o gás natural e o urânio. (Ver aula Fontes de energia I – combustíveis fósseis). </p>
+            carvão mineral, o gás natural e o urânio. (Ver aula Fontes de energia I, sobre combustíveis fósseis). </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -171,10 +171,12 @@
 <span class="w3-small w3-margin-left" id="citacao4"> </span>
 </div>
 <p> A outra região com grande concentração de minérios do Brasil é a situada na <strong>Serra dos
-                Carajás</strong>, localizada no sudeste do Pará, entre os rios Tocantins e Xingu. Descoberta em
-            1976, a jazida é considerada a maior de minério de ferro de alto teor do mundo. Os direitos de exploração
-            pertencem à Vale (antiga companhia Vale do Rio Doce privatizada em 1997), que exporta quase toda a
-            produção para o Japão. O transporte da produção é feito pela estrada de ferro Carajás em direção ao
+                Carajás</strong>, localizada no sudeste do Pará, entre os rios Tocantins e Xingu. Descoberta por
+            acaso em 1967, quando geólogos que prospectavam manganês na região notaram um pó avermelhado de hematita
+            em um pouso de emergência de helicóptero, a jazida é considerada a maior de minério de ferro de alto teor
+            do mundo. Os direitos de exploração pertencem à Vale (antiga companhia Vale do Rio Doce privatizada em
+            1997), que hoje exporta a maior parte da produção para a China, seu principal cliente, além de Japão e
+            Coreia do Sul. O transporte da produção é feito pela estrada de ferro Carajás em direção ao
             Terminal de Ponta da Madeira, e escoada pelo porto de Itaqui (São Luís - MA). Também foi construída a
             hidrelétrica de Tucuruí (3ª maior do Brasil, atrás de Itaipu e Belo Monte) para o abastecimento
             energético.</p>
@@ -213,7 +215,7 @@
                 As maiores reservas geológicas de ouro do mundo estão concentradas na Rússia e na Austrália (cerca
                 de 12 mil toneladas cada), seguidas pela África do Sul; o Brasil está entre os dez países com
                 maiores reservas do metal.</p>
-<p><strong>Quartzo</strong> – Minério utilizado na indústria de informática e eletroeletrônica. O Brasil
+<p><strong>Quartzo</strong>: Minério utilizado na indústria de informática e eletroeletrônica. O Brasil
                 é um dos principais produtores do mundo e exporta esse produto para o Japão, China e Reino Unido. O
                 quartzo em cristal é produzido principalmente nos Estados da Bahia, também no Sudeste e Sul do país.
             </p>
@@ -233,6 +235,22 @@
                 por evaporação direta da água do mar. No Brasil, a grande maioria da produção é de origem marinha,
                 da qual cerca de 75% vêm do Rio Grande do Norte.</p>
 </div>
+<p>Além desses minérios já consolidados, dois deles vêm ganhando destaque crescente por causa da transição
+            energética mundial e da eletrônica de ponta: o lítio e as terras raras.</p>
+<p>O <span class="termo" data-palavra="lítio" data-definicao="Metal leve e muito reativo, essencial para a fabricação de baterias recarregáveis usadas em veículos elétricos, celulares e computadores.">lítio</span>, apelidado de "ouro branco" por causa de sua importância para as baterias de veículos elétricos,
+            celulares e computadores, é hoje extraído principalmente do Vale do Jequitinhonha, em Minas Gerais, região
+            que concentra cerca de 85% das reservas conhecidas do mineral no país. O Brasil já é o quinto maior
+            produtor mundial de lítio, e a produção cresceu de forma explosiva na última década: só entre 2021 e 2022,
+            a produção nacional aumentou mais de 400%. O governo de Minas Gerais batizou a região de "Vale do Lítio" e
+            tem atraído investimentos internacionais, já que a demanda por baterias tende a crescer junto com a frota
+            mundial de carros elétricos.</p>
+<p>Já as <span class="termo" data-palavra="terras raras" data-definicao="Grupo de 17 elementos químicos com propriedades magnéticas e eletrônicas essenciais para tecnologias de ponta, como turbinas eólicas, motores elétricos, celulares e equipamentos militares.">terras raras</span> são um grupo de 17 elementos químicos essenciais para ímãs de alta performance, motores
+            elétricos, turbinas eólicas, telas de celular e até equipamentos militares. Apesar do nome, não são
+            necessariamente raras na crosta terrestre, mas são difíceis e caras de extrair separadamente. O Brasil
+            possui a segunda maior reserva mundial de terras raras, atrás apenas da China, concentrada principalmente
+            em Araxá e Poços de Caldas (MG) e Catalão (GO). O problema é que o país ainda produz muito pouco desse
+            potencial: em 2024, a produção brasileira foi de apenas 20 toneladas, menos de 1% do total mundial, o que
+            mostra a distância entre ter a reserva no subsolo e efetivamente transformá-la em produção industrial.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -245,13 +263,20 @@
 <p> O Brasil exporta minério de ferro, nióbio, bauxita, manganês, cassiterita (estanho) e níquel, entre
             outros, pois os possui em grande quantidade. Entretanto, importa cobre, carvão mineral, zinco, prata,
             tungstênio, enxofre e potássio, pois não há em abundância no território.</p>
-<p>Em 2021, o Brasil teve um saldo de cerca de 48,9 bilhões de dólares e os principais minérios produzidos
-            foram: </p>
+<p>Em 2024, segundo o IBRAM (Instituto Brasileiro de Mineração), o setor mineral teve um saldo comercial de
+            cerca de 34,9 bilhões de dólares, equivalente a 47% de todo o saldo positivo da balança comercial
+            brasileira naquele ano, e os principais minérios produzidos foram: </p>
 <div class="w3-margin"><img alt="ts08f07" class="w3-mobile" id="imagem7" src="ts08f07.png"/>
 <span class="w3-small w3-margin-left" id="citacao7"> Fonte: IBRAM (2022). </span>
 </div>
-<p>O Brasil exportou mais de 370 milhões de toneladas de minérios dos mais variados tipos no ano de 2021.
-            (Voltaremos nesse tema na aula sobre o Brasil na era da Globalização). </p>
+<p>O Brasil exportou cerca de 400 milhões de toneladas de minérios em 2024, gerando uma receita de
+            aproximadamente 43,4 bilhões de dólares, dos quais o minério de ferro sozinho respondeu por 68,7% do
+            total exportado. Do lado das importações, o país trouxe 41,2 milhões de toneladas de outros minérios que
+            não produz em quantidade suficiente, ao custo de 8,5 bilhões de dólares. Esse número mostra o quanto a
+            mineração segue sendo estratégica para a economia brasileira: em anos de instabilidade em outros setores,
+            é frequentemente o saldo positivo gerado pela exportação de minérios que evita uma queda ainda mais
+            acentuada da balança comercial do país como um todo. (Voltaremos nesse tema na aula sobre o Brasil na era
+            da Globalização). </p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -288,6 +313,13 @@
 <p> Cerca de 12 milhões de metros cúbicos de rejeitos de minério de ferro foram liberados, contaminando o rio
             Paraopeba ao longo de mais de 300 quilômetros. Essas e outras são as grandes questões da interferência do
             homem no meio geográfico.</p>
+<p>Depois da tragédia de Brumadinho, Minas Gerais aprovou a chamada Lei Mar de Lama Nunca Mais (Lei Estadual
+            23.291/2019), proibindo em todo o território mineiro a construção ou o alteamento de barragens de rejeitos
+            pelo método "a montante": justamente o tipo de estrutura usado tanto em Brumadinho quanto na barragem da
+            Samarco que se rompeu em Mariana, em 2015. Na mesma linha, a Agência Nacional de Mineração (ANM) proibiu
+            esse método de construção em todo o país. As mineradoras tiveram até fevereiro de 2022 para desativar ou
+            descaracterizar as barragens desse tipo ainda em operação, um processo caro e demorado que ainda hoje
+            segue em andamento em diversos municípios mineiros.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -407,6 +439,13 @@
             de certos minerais como esmeralda, topázio, diamante, ouro, cassiterita, dentre outros.
 
         </p>
+<p>É importante diferenciar o garimpo legal, licenciado e fiscalizado, do garimpo ilegal, que representa um dos
+            problemas ambientais mais graves da Amazônia atual. O caso mais grave é o da Terra Indígena Yanomami, em
+            Roraima, onde milhares de garimpeiros ilegais chegaram a se instalar em busca de ouro, usando mercúrio
+            para separar o metal do sedimento e contaminando rios, peixes e as próprias comunidades indígenas. Um
+            esforço de fiscalização iniciado em 2024 conseguiu reduzir a abertura de novas áreas de garimpo na Terra
+            Yanomami em mais de 95%, com milhares de operações de retirada de invasores, mas a recuperação dos rios
+            contaminados e da saúde das comunidades afetadas pelo mercúrio ainda é um processo lento.</p>
 <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
 
                 Qual a relação entre mineração e impactos ambientais?
@@ -454,6 +493,13 @@
             o monopólio estatal do petróleo, pondo fim à exclusividade do Estado e do capital nacional sobre as
             atividades do setor. Desde essa época, a exploração mineral no Brasil é feita por capital estatal e
             empresas particulares nacionais e estrangeiras.</p>
+<p>Vale reparar como essa história da mineração está entrelaçada com outro processo que marcou o século XX
+            brasileiro: a industrialização. Não é coincidência que o Estado tenha se preocupado tanto em controlar e
+            nacionalizar a exploração mineral justamente no mesmo período em que o país tentava construir sua própria
+            indústria de base, como siderúrgicas e fábricas de aço, que dependem diretamente de minério de ferro,
+            manganês e carvão mineral como matéria-prima. Na próxima aula vamos justamente estudar esse processo: como
+            o Brasil deixou de ser apenas um exportador de matérias-primas, entre elas os minérios que vimos aqui, e
+            passou a desenvolver sua própria economia urbano-industrial ao longo do século XX.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Atividade</button>
 <br/><br/>
 <hr/>
@@ -554,8 +600,51 @@
 <hr/>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots8" src="inforesumots8.webp" alt="Infográfico resumo recursos minerais do Brasil" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'"/>
+<span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr/>
+</div>
+<div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Que método de construção de barragens de rejeitos, usado tanto em Mariana quanto em Brumadinho, foi proibido em todo o país?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'montante', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que substância usada no garimpo ilegal contamina os rios e as comunidades da Terra Indígena Yanomami?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'mercúrio', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
 <hr/>
 </div>
 <div class="topico">
@@ -609,6 +698,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

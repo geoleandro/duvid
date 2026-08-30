@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'o Feudalismo já estava em decadência como sistema dominante. Esse período de expansão comercial e acumulação de capital pela exploração colonial é chamado de Capitalismo Comercial, ganhou seu primeiro globinho nessa lição', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'esse período de expansão comercial e acumulação de capital pela exploração colonial é o Capitalismo Comercial, base do mercantilismo europeu', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -174,42 +174,6 @@
 <hr/>
 <br/>
 </div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O Brasil era considerado um <strong>arquipélago econômico</strong>, pois:</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="errado"/>
-<label class="card-opcao" for="p2a">
-<span>a) possuía um território articulado e uma economia integrada com relações voltadas para o interesse de sua
-            população.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p2b" name="pergunta2" type="radio" value="errado"/>
-<label class="card-opcao" for="p2b">
-<span>b) possuía uma relação orgânica com seus habitantes e produzia tudo de que necessitava sem recorrer a
-            exportações e importações de produtos primários.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p2c" name="pergunta2" type="radio" value="correto"/>
-<label class="card-opcao" for="p2c">
-<span>c) possuía um território com extrema dependência do mercado externo o que impossibilitava a existência de
-            uma economia integrada, formado como ilhas isoladas umas das outras.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'essa foi interessante: o Brasil colonial era um conjunto de núcleos econômicos isolados entre si, cada um ligado à metrópole, mas pouco integrados entre eles. Será que o Brasil de hoje é realmente integrado? Valeu', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp2"></p>
-<div class="area w3-center">
-<img height="64" id="globinho2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
-</div>
 <div class="topico">
 <h2>O sentido da ocupação do território brasileiro ao longo dos séculos </h2>
 <p>A forma de ocupação do território brasileiro herdada desde o período da colonização foi e ainda é centrada em
@@ -218,7 +182,9 @@
 <p>Não pensem que os portugueses iriam respeitar o Tratado de Tordesilhas para sempre e ficar confinados nos
             limites estabelecidos anteriormente. Já foi dito que a ganância humana não tem limites, e foi assim que esse
             ditado foi confirmado quando começaram as expedições em busca de mais terras e mais produtos para enviar
-            para fora. Tiveram que realizar outros acordos como o de Madrid (1750) e o de Santo Ildefonso em 1777, além
+            para fora. Tiveram que realizar outros acordos como o
+            <span class="termo" data-palavra="Tratado de Madri" data-definicao="Acordo assinado em 1750 entre Portugal e Espanha que substituiu a linha de Tordesilhas pelo princípio do utis possidetis, reconhecendo como legítima a posse efetiva das terras ocupadas por cada Coroa. Ampliou oficialmente o território português rumo ao interior da América do Sul.">Tratado de Madri (1750)</span>
+            e o de Santo Ildefonso em 1777, além
             de outros, para conter o avanço português em terras espanholas.</p>
 <p>Com a ocupação na Ásia apresentando sinais de decadência, e agora uma nova terra descoberta, estava tudo
             perfeito para que esse episódio se transformasse em uma metáfora de uma nova terra prometida com um futuro a
@@ -240,6 +206,19 @@
             no norte do Rio de Janeiro, para Salvador, na Bahia, ou de Santos para outras localidades no Rio de Janeiro.
             Havia portos também no Nordeste, voltados à exportação para Portugal e não ao abastecimento da população
             interna. Qualquer semelhança com o século XX não é mera coincidência.</p>
+<p>Essa engrenagem, exportar matéria-prima para a metrópole e importar dela os produtos manufaturados, é o mesmo
+            princípio que mais tarde os geógrafos chamariam de
+            <span class="termo" data-palavra="Divisão Internacional do Trabalho" data-definicao="Organização da economia mundial em que alguns países (geralmente os industrializados) se especializam na produção de bens manufaturados e outros (geralmente periféricos) na exportação de matérias-primas e produtos agrícolas, reproduzindo relações de dependência econômica.">Divisão Internacional do Trabalho</span>:
+            uma economia mundial dividida entre quem vende produto bruto barato e quem vende produto industrializado
+            caro. O Brasil colonial nasceu exatamente do lado de baixo dessa balança, e essa posição levou décadas para
+            começar a mudar.</p>
+<p>Historiadores e geógrafos descrevem o Brasil colonial com uma expressão precisa: um
+            <span class="termo" data-palavra="Arquipélago Econômico" data-definicao="Expressão usada para descrever o Brasil colonial como um conjunto de núcleos produtivos (zona canavieira, área mineradora, região pecuarista) ligados individualmente à metrópole portuguesa, mas praticamente isolados uns dos outros, sem integração interna nem mercado nacional unificado.">arquipélago econômico</span>.
+            Cada núcleo de produção, a zona do açúcar, a área da mineração, a faixa da pecuária, funcionava como uma
+            ilha ligada por um cabo direto a Portugal, mas sem pontes entre si. Não existiam estradas relevantes ligando
+            essas ilhas produtivas, nem interesse da Coroa em criar um mercado interno integrado: o objetivo era escoar
+            riqueza para fora, não fazer as regiões conversarem entre elas. Essa fragmentação territorial explica, em
+            parte, por que o Brasil de hoje ainda enfrenta tanta desigualdade entre suas regiões.</p>
 <p>Quem comandava tudo isso? Infelizmente não eram os povos originários do Brasil, ou seja, os indígenas. </p>
 <div class="w3-panel w3-pale-yellow w3-margin">
 <h2>Não confunda as coisas!</h2>
@@ -290,11 +269,24 @@
             favoráveis como o solo fértil e o clima quente e úmido, com chuvas abundantes distribuídas ao longo do ano.
             Veja o mapa abaixo:</p>
 <div class="w3-margin"><img alt="ts01f06" class="w3-mobile" id="imagem6" src="ts01f06.png"/></div>
-<p>As grandes lavouras ocuparam a área de Mata Atlântica, conhecida como Zona da Mata. Nesse período,
+<p>As grandes lavouras ocuparam a área de Mata Atlântica, conhecida como
+            <span class="termo" data-palavra="Zona da Mata" data-definicao="Faixa de terras férteis cobertas originalmente por Mata Atlântica ao longo do litoral nordestino, entre a Paraíba e a Bahia, onde se concentrou a lavoura canavieira colonial. Hoje é uma das regiões de povoamento mais antigo e denso do Nordeste.">Zona da Mata</span>.
+            Nesse período,
             paralelamente, foi utilizada a mão de obra indígena nos canaviais de forma complementar ao trabalho escravo
             realizado pelos africanos, que se tornaria um lucrativo comércio dominante nas colônias. Para viabilizar
             esse tráfico de escravos, os portugueses estabeleceram possessões na África de onde traziam essas pessoas
             para serem vendidas no Brasil, geralmente em condições desumanas no transporte, que duravam meses.</p>
+<p>Nem todos os escravizados aceitaram essa condição. Ao longo de todo o período colonial, milhares fugiram dos
+            engenhos e formaram
+            <span class="termo" data-palavra="Quilombos" data-definicao="Comunidades formadas por pessoas escravizadas fugidas, organizadas de forma autônoma, geralmente em áreas de difícil acesso como serras e matas fechadas. Representaram a principal forma de resistência coletiva à escravidão no Brasil colonial.">quilombos</span>,
+            comunidades autônomas escondidas em áreas de difícil acesso. O maior e mais duradouro deles foi o Quilombo
+            dos Palmares, formado ainda no início do século XVII na serra da Barriga, em terras que hoje pertencem a
+            Alagoas. Chegou a reunir milhares de pessoas e resistiu a sucessivas expedições militares portuguesas por
+            quase um século, até ser destruído em 1694. Seu último grande líder, Zumbi, foi morto em 1695, mas se
+            tornou um símbolo da resistência negra tão forte que sua data de morte, 20 de novembro, é hoje o Dia
+            Nacional de Zumbi e da Consciência Negra. Os quilombos deixaram uma marca territorial que persiste: o Censo 2022 do IBGE estimou mais de 5 mil comunidades
+            quilombolas espalhadas pelo país, reunindo cerca de 1,3 milhão de pessoas, muitas ainda lutando pelo
+            reconhecimento e titulação de suas terras.</p>
 <p>Com toda essa exploração da mão de obra foi possível fundar mais cidades. Além de São Vicente, os primeiros
             núcleos urbanos surgiram em Olinda (1537), Salvador (1549), Vitória (1551) e Rio de Janeiro (1565).</p>
 <p>O fracasso do cultivo da cana-de-açúcar em São Vicente gerou o povoamento das áreas do planalto paulista, onde
@@ -306,40 +298,6 @@
 <button class="btnShow margemAcima" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 <br/>
-</div>
-<div class="topico pergunta-bloco w3-container w3-padding-24">
-<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>O Brasil na condição de colônia portuguesa, consolidou-se como área exportadora de matérias-primas e
-            importadora de bens manufaturados. O trecho trata da(o):</b></h4>
-<div class="grupo-respostas w3-margin-top">
-<div class="item-resposta">
-<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="correto"/>
-<label class="card-opcao" for="p3a">
-<span>a) Divisão Internacional do Trabalho.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado"/>
-<label class="card-opcao" for="p3b">
-<span>b) Sistema de Plantation.</span>
-</label>
-</div>
-<div class="item-resposta">
-<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
-<label class="card-opcao" for="p3c">
-<span>c) Tratado de Madri.</span>
-</label>
-</div>
-</div>
-<div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'pois é, essa organização da economia mundial em que uns países exportam matéria-prima e outros exportam produtos manufaturados chama-se Divisão Internacional do Trabalho. Nessa divisão vemos quem é quem no mundo. Está indo bem', '10')">
-                    Confirmar Resposta
-                </button>
-</div>
-<p class="w3-center w3-padding w3-large" id="resp3"></p>
-<div class="area w3-center">
-<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
-</div>
 </div>
 <div class="topico">
 <h2>O povoamento no século XVII </h2>
@@ -388,7 +346,8 @@
                 lavouras de algodão e a produção de fumo na área do Recôncavo, nas proximidades de Salvador. O tabaco de
                 melhor qualidade era encaminhado a Portugal, enquanto o restante da produção servia como moeda de troca
                 na captura, transporte e comércio de escravos africanos.</p>
-<p>Na Amazônia, o foco foi a extração das "drogas do sertão". Eram produtos como urucum, cravo, baunilha,
+<p>Na Amazônia, o foco foi a extração das
+                <span class="termo" data-palavra="Drogas do Sertão" data-definicao="Conjunto de produtos extrativistas nativos da Amazônia (especiarias, corantes e plantas medicinais), coletados ao longo dos rios e comercializados com a Europa como substitutos mais baratos das especiarias asiáticas. Foram o principal motor da ocupação portuguesa do interior amazônico.">"drogas do sertão"</span>. Eram produtos como urucum, cravo, baunilha,
                 canela, cacau, guaraná, e também folhas e raízes, como a salsaparrilha, dotadas de propriedades
                 medicinais e utilizadas na culinária. Extraídos ao longo do rio Amazonas e seus afluentes pela população
                 local, composta de indígenas e mamelucos (mestiços de europeus e nativos), esses produtos eram
@@ -544,9 +503,22 @@
 </div>
 </div>
 <div class="w3-margin"><img alt="ts01f08" class="w3-mobile" id="imagem8" src="ts01f08.png"/></div>
+<p>Com as fronteiras praticamente fechadas no início do século XX, o desafio do Brasil deixou de ser apenas
+            ganhar território e passou a ser outro: integrar de fato esse território gigante, cheio de regiões que
+            cresceram de costas umas para as outras. É exatamente esse processo, como o país tentou (e ainda tenta)
+            costurar suas partes e organizar suas regiões, que vamos estudar na próxima aula, sobre a consolidação do
+            território brasileiro.</p>
 <button class="btnShow margemAcima" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 <br/>
+</div>
+<div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots1" src="inforesumots1.webp" alt="Infográfico resumo formação do território brasileiro" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+<span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr>
 </div>
 <div class="topico">
 <div id="ficha-conceitos"></div>
@@ -607,6 +579,41 @@
 <br/><br/>
 <hr/>
 </div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Em que ano foi assinado o Tratado de Tordesilhas?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', '1494', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+</div>
+
+<p>Em que ano o Brasil comprou o Acre da Bolívia, por meio do Tratado de Petrópolis?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', '1903', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+<hr>
+</div>
 <div class="topico">
 <div class="w3-pale-yellow">
 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
@@ -658,6 +665,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

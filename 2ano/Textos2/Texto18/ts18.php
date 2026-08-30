@@ -111,6 +111,11 @@
             exterior. Vamos explorar nesta aula como essa rede de produção e circulação funciona no território
             brasileiro. </p>
 
+        <p>Antes de entrar nos números, vale lembrar que "agropecuária" não é sinônimo de "desmatamento": é possível
+            produzir muito em pouco espaço, com tecnologia e manejo adequado, ou produzir pouco em um espaço enorme,
+            de forma predatória. Ao longo da aula, vamos ver os dois lados dessa moeda em ação no território
+            brasileiro.</p>
+
 
 
 
@@ -233,6 +238,13 @@
 
         <p> Lembre-se: 01 <span class="termo" data-palavra="hectare" data-definicao="Unidade de medida de área usada na agropecuária, equivalente a um quadrado de 100m x 100m, ou 10 mil m².">hectare</span> é a medida de um quadrado de 100m x 100m, totalizando 10 mil m². </p>
 
+        <p>Essa modernização agrícola tem um custo ambiental que também precisa entrar na conta. Segundo dados do
+            IBAMA, o Brasil comercializou, em 2023, um recorde de mais de 907 mil toneladas de ingredientes ativos de
+            <span class="termo" data-palavra="agrotóxicos" data-definicao="Produtos químicos (herbicidas, inseticidas, fungicidas) usados para combater pragas e plantas invasoras nas lavouras, aumentando a produtividade agrícola, mas com riscos à saúde humana e à contaminação de solos, rios e lençóis freáticos quando usados de forma inadequada.">agrotóxicos</span>, um salto de mais de 20% em relação ao ano anterior. O uso desses produtos ajuda a
+            explicar os recordes de produtividade que o Brasil vem batendo safra após safra, mas também levanta
+            preocupações sobre a contaminação de rios, solos e lençóis freáticos nas regiões de agricultura mais
+            intensiva.</p>
+
         <p> Veja na figura abaixo a distribuição de terras no Brasil:</p>
 
         <div class="w3-margin"><img id="imagem1" src="ts18f01.png" alt="tt18f01" class="w3-mobile">
@@ -280,7 +292,9 @@
         <p><strong>Principais Produtos e Áreas Produtoras</strong></p>
 
         <p><strong>Café:</strong> Cultivado principalmente em Minas Gerais e Espírito Santo, o Brasil é o maior produtor
-            e exportador mundial. Plantado inicialmente no Vale do Paraíba, no Rio de Janeiro, expandiu-se para São
+            e exportador mundial, respondendo por cerca de 37% de toda a produção global na safra 2024/25. Em 2024,
+            o país também bateu recorde de exportação, embarcando 50,5 milhões de sacas de 60 kg para o mercado
+            internacional. Plantado inicialmente no Vale do Paraíba, no Rio de Janeiro, expandiu-se para São
             Paulo e norte do Paraná no século XX.</p>
 
         <p><strong>Cana-de-açúcar:</strong> Introduzida no século XVI, é agora cultivada principalmente no interior de
@@ -292,8 +306,9 @@
 
         <p><strong>Soja:</strong> Inicialmente plantada no Rio Grande do Sul e Paraná, expandiu-se para Minas Gerais,
             Goiás, Mato Grosso do Sul, Mato Grosso e oeste da Bahia. Desde 2023, o Brasil é o maior produtor mundial
-            de soja, com uma safra recorde de cerca de 153 milhões de toneladas — mais de 40% de toda a soja produzida
-            no planeta, superando os Estados Unidos.</p>
+            de soja, e a produção só cresce ano a ano: a safra 2024/25 alcançou cerca de 171 milhões de toneladas,
+            novo recorde histórico e o equivalente a mais de 40% de toda a soja produzida no planeta, à frente dos
+            Estados Unidos.</p>
 
         <p><strong>Laranja:</strong> Principalmente produzida no oeste de São Paulo, com 75% da produção nacional, além
             de Minas Gerais, Espírito Santo e a Baixada Fluminense.</p>
@@ -342,7 +357,7 @@
 <div class="item-resposta">
 <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto"/>
 <label class="card-opcao" for="p1b">
-<span>b) Desde 2023, o Brasil é o maior produtor mundial de soja, com uma safra recorde de cerca de 153 milhões de toneladas.</span>
+<span>b) Desde 2023, o Brasil é o maior produtor mundial de soja, com uma safra recorde de mais de 170 milhões de toneladas na temporada 2024/25.</span>
 </label>
 </div>
 <div class="item-resposta">
@@ -353,7 +368,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Desde 2023, o Brasil é o maior produtor mundial de soja, com uma safra recorde de cerca de 153 milhões de toneladas — mais de 40% de toda a soja produzida no planeta, superando os Estados Unidos.', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Desde 2023, o Brasil é o maior produtor mundial de soja. A safra 2024/25 chegou a cerca de 171 milhões de toneladas, mais de 40% de toda a soja produzida no planeta, à frente dos Estados Unidos.', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -412,7 +427,15 @@
                 eficiência produtiva.</li>
         </ul>
 
-        <p><strong><span class="termo" data-palavra="zootecnia" data-definicao="Área dedicada ao estudo da reprodução, genética e nutrição de animais, com foco na produção comercial — diferente da veterinária, voltada à saúde animal.">Zootecnia</span></strong></p>
+        <p><strong>Pastagens Degradadas:</strong> Nem toda a área usada para pecuária no Brasil está em boas
+            condições. Levantamentos da Embrapa indicam que cerca de 60% das pastagens cultivadas do país apresentam
+            algum grau de degradação, entre médio e severo, o que reduz a capacidade de suporte de gado por hectare
+            e empurra parte dos pecuaristas a abrir novas áreas em vez de recuperar as antigas. Boa parte dessas
+            terras degradadas, sobretudo em Mato Grosso, Goiás e Minas Gerais, tem alto potencial para virar lavoura
+            ou voltar a ser uma pastagem produtiva, o que torna a recuperação de pastagens uma das principais
+            estratégias defendidas para conciliar produção e conservação, reduzindo a pressão por desmatamento.</p>
+
+        <p><strong><span class="termo" data-palavra="zootecnia" data-definicao="Área dedicada ao estudo da reprodução, genética e nutrição de animais, com foco na produção comercial, diferente da veterinária, voltada à saúde animal.">Zootecnia</span></strong></p>
 
         <p>Zootecnia é uma área dedicada ao estudo da reprodução, genética e nutrição de animais, com foco na criação
             comercial. Apesar de frequentemente associada à veterinária, sua ênfase está na produção animal para fins
@@ -428,8 +451,9 @@
 
         <h2>Bovinos</h2>
 
-        <p>O Brasil possui o segundo maior rebanho bovino do mundo, atingindo 238,6 milhões de cabeças em 2023 —
-            recorde da série histórica iniciada em 1974 — segundo dados do IBGE. A concentração desse rebanho é
+        <p>O Brasil possui o segundo maior rebanho bovino do mundo, atingindo 238,6 milhões de cabeças em 2023, o
+            recorde da série histórica iniciada em 1974, segundo dados do IBGE. Em 2024, o efetivo teve uma leve
+            queda (238,2 milhões de cabeças), mas segue como o segundo maior resultado já registrado. A concentração desse rebanho é
             significativa no Centro-Oeste do país, com destaque para o Mato Grosso, que sozinho responde por quase
             14% do efetivo nacional.</p>
 
@@ -552,8 +576,11 @@
 
         <p><strong>Padrões Sanitários:</strong> Devido aos avanços no setor e a rigorosos controles sanitários, o
             Brasil se consolidou como o terceiro maior exportador mundial de carne suína, atrás apenas da União
-            Europeia e dos Estados Unidos. As Filipinas ultrapassaram a China em 2024 e se tornaram o principal
-            destino das exportações, à frente do mercado chinês, que segue como o segundo maior comprador.</p>
+            Europeia e dos Estados Unidos. Em 2024, as exportações somaram 1,229 milhão de toneladas, 10% a mais do
+            que em 2023, gerando mais de US$ 3 bilhões em receita. Nesse mesmo ano, as Filipinas ultrapassaram a
+            China e se tornaram o principal destino das exportações brasileiras, com 254,3 mil toneladas, mais do
+            que o dobro do volume comprado em 2023, à frente do mercado chinês, que segue como o segundo maior
+            comprador.</p>
 
         <h3>Ovinos e Caprinos</h3>
 
@@ -618,8 +645,8 @@
                 vírus em aves silvestres, e, em 2024, também foram confirmados casos em mamíferos, como leões-marinhos
                 no litoral sul. Em maio de 2025, o Ministério da Agricultura e Pecuária confirmou o primeiro foco de
                 gripe aviária de alta patogenicidade em uma granja comercial, no Rio Grande do Sul, levando ao abate
-                de cerca de 17 mil aves. Em resposta, mais de 30 países — entre eles China, Japão e os integrantes da
-                União Europeia — chegaram a suspender temporariamente a importação de carne de frango brasileira, o
+                de cerca de 17 mil aves. Em resposta, mais de 30 países, entre eles China, Japão e os integrantes da
+                União Europeia, chegaram a suspender temporariamente a importação de carne de frango brasileira, o
                 que evidencia como um único foco pode afetar rapidamente as exportações de um país que é o maior
                 exportador mundial do produto.</p>
 
@@ -734,7 +761,41 @@
 
     </div>
 
-<div class="topico w3-pale-green">
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>De acordo com o exemplo da Bahia, o que caracteriza a seletividade espacial na modernização agrícola?</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3a">
+<span>a) Todo o território baiano foi modernizado de forma uniforme a partir dos anos 1970</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3b">
+<span>b) O investimento em tecnologia e capital se concentra em frações específicas do território, formando "ilhas" modernizadas cercadas por áreas que ficam de fora</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3c">
+<span>c) A modernização afeta exclusivamente a agricultura camponesa, nunca o agronegócio</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'a seletividade espacial forma enclaves modernizados, como o MATOPIBA, o Vale do São Francisco e a silvicultura no sul da Bahia, cercados por áreas que seguem fora desse processo', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
+<div class="topico">
 
         <h2>Elaboração de Carta ao Congresso</h2>
 
@@ -778,6 +839,20 @@
 
     </div>
 
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots18" src="inforesumots18.webp"
+                    alt="Infográfico resumo Geografia Agrária II - Produção agropecuária brasileira" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
+
     <div class="topico">
 
         <h2 id="centralizado"> Não existe pergunta boba! A Ciência é feita de perguntas!</h2>
@@ -791,7 +866,7 @@
             financiamento, voltados à produção em larga escala para o mercado externo. Já a agricultura camponesa (ou
             familiar) tem uma lógica não capitalista, ligada à subsistência e à venda em pequena escala, muitas vezes
             praticada em propriedades conquistadas por reforma agrária ou por formas antigas de posse da terra. A
-            disputa surge porque os dois modelos competem pelo mesmo espaço — a terra — e recebem tratamento bem
+            disputa surge porque os dois modelos competem pelo mesmo espaço, a terra, e recebem tratamento bem
             diferente em termos de crédito, tecnologia e visibilidade política, mesmo o Brasil sendo, ao mesmo tempo,
             uma potência do agronegócio e um país de agricultura camponesa numerosa.
         </p>
@@ -804,7 +879,7 @@
             Em São Félix do Xingu (PA), áreas equivalentes a quase 10 vezes o tamanho da cidade de São Paulo foram
             desmatadas para dar lugar a pastagens. O caso mostra que, apesar do discurso oficial de combate ao
             desmatamento, políticas de subsídio aos pecuaristas acabam tornando mais barato desmatar e formar novas
-            pastagens do que recuperar áreas já degradadas — o que perpetua o avanço da fronteira agropecuária sobre a
+            pastagens do que recuperar áreas já degradadas, o que perpetua o avanço da fronteira agropecuária sobre a
             floresta e compromete a fertilidade dos solos da região a longo prazo.
         </p>
 
@@ -817,9 +892,17 @@
             se concentra em frações específicas do território, formando "ilhas" modernizadas cercadas por áreas que
             ficam de fora desse processo. Na Bahia, isso aparece em três frentes distintas desde os anos 1970: a soja
             e os grãos do MATOPIBA ao norte, a fruticultura irrigada do Vale do São Francisco, e a silvicultura de
-            eucalipto mais ao sul — enquanto o restante do território estadual segue sem receber esse tipo de
+            eucalipto mais ao sul, enquanto o restante do território estadual segue sem receber esse tipo de
             investimento, gerando tensão com os mosaicos produtivos tradicionais do entorno.
         </p>
+
+        <p>Fechamos aqui a segunda parte da nossa jornada pela geografia agrária brasileira. Vimos como o mesmo país
+            que lidera rankings mundiais de soja, café e carne também abriga uma agricultura camponesa numerosa, e
+            como a modernização do campo, apesar de todos os recordes de produção, convive com desafios sérios de
+            sustentabilidade, do desmatamento na Amazônia ao uso intensivo de agrotóxicos. Na próxima aula vamos
+            revisar tudo o que estudamos desde a aula 13, e na sequência avançar para temas ainda mais atuais dessa
+            mesma discussão: transgênicos, soberania alimentar e agroecologia, e como essas escolhas produtivas
+            impactam o ambiente e a nossa própria mesa.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
         <br><br>
@@ -831,6 +914,44 @@
         <div id="ficha-conceitos"></div>
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
+    </div>
+
+    <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+        <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+        <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+        <p>Por que, segundo a aula, alguns produtores acham mais barato desmatar e formar novas pastagens em vez de
+            recuperar áreas já degradadas na Amazônia?</p>
+        <div class="w3-margin">
+            <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+        </div>
+        <p class="w3-center w3-padding" id="resp1a"></p>
+        <div class="w3-margin-top">
+            <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'subsíd', 'resp1a', this, 'globinho1a')">
+                Conferir
+            </button>
+        </div>
+        <div class="area w3-center">
+            <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+        </div>
+
+        <p>Por que a produção brasileira de commodities como soja, café e carne bovina consegue liderar rankings
+            mundiais mesmo o país tendo tanta agricultura camponesa?</p>
+        <div class="w3-margin">
+            <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+        </div>
+        <p class="w3-center w3-padding" id="resp2a"></p>
+        <div class="w3-margin-top">
+            <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'capital', 'resp2a', this, 'globinho2a')">
+                Conferir
+            </button>
+        </div>
+        <div class="area w3-center">
+            <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+        </div>
+
+        <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+        <hr/>
     </div>
 
     <div class="topico">
@@ -888,6 +1009,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

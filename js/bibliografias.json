@@ -1,4 +1,22 @@
 {
+  "Barat": {
+    "complemento": "Rio de Janeiro: IBGE/IPEA, 1978.",
+    "cor": "w3-teal",
+    "tag": "Transportes",
+    "texto": "BARAT, Josef. <strong>A Evolução dos Transportes no Brasil</strong>."
+  },
+  "FerreiraTransportes": {
+    "complemento": "São Paulo: Horizonte, 2011.",
+    "cor": "w3-brown",
+    "tag": "Transportes",
+    "texto": "FERREIRA, Mariana. <strong>A História dos Transportes no Brasil</strong>."
+  },
+  "Gordinho": {
+    "complemento": "São Paulo: Nobel, 2007.",
+    "cor": "w3-deep-orange",
+    "tag": "Transportes",
+    "texto": "GORDINHO, Margarida Cintra. <strong>Transportes no Brasil: a opção rodoviária</strong>."
+  },
   "Abdal": {
     "complemento": "São Paulo: Editora Fundação Perseu Abramo, 2011.",
     "cor": "w3-indigo",

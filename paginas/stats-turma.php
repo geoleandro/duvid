@@ -253,6 +253,56 @@
         margin-top: 8px;
         display: none;
     }
+
+    /* ── Dark Mode ── */
+    body.dark-mode .st-header p { color: #888; }
+
+    body.dark-mode .st-busca {
+        background: #1a1a1a;
+        box-shadow: 0 4px 20px rgba(0,0,0,.4);
+    }
+    body.dark-mode .st-busca h2 { color: #81c784; }
+    body.dark-mode .st-busca p  { color: #888; }
+
+    body.dark-mode .st-input {
+        background: #252525;
+        border-color: rgba(255,255,255,.12);
+        color: #ddd;
+    }
+    body.dark-mode .st-input:focus { border-color: #4caf50; }
+    body.dark-mode .st-erro-busca { color: #ef9a9a; }
+
+    body.dark-mode .st-select {
+        background: #252525;
+        border-color: rgba(255,255,255,.12);
+        color: #ddd;
+    }
+    body.dark-mode .st-select-wrap label { color: #aaa; }
+
+    body.dark-mode .st-card-num {
+        background: #1a1a1a;
+        box-shadow: none;
+    }
+    body.dark-mode .st-card-num .leg { color: #666; }
+
+    body.dark-mode .st-media-bar-wrap {
+        background: #1a1a1a;
+        box-shadow: none;
+    }
+    body.dark-mode .st-media-bar-wrap .label { color: #888; }
+    body.dark-mode .st-bar-track { background: #1b3a1b; }
+    body.dark-mode .st-bar-pct   { color: #81c784; }
+
+    body.dark-mode .st-hist-card {
+        background: #1a1a1a;
+        box-shadow: none;
+    }
+    body.dark-mode .st-hist-card h3   { color: #888; }
+    body.dark-mode .st-hist-label     { color: #aaa; }
+    body.dark-mode .st-hist-bar-track { background: #252525; }
+    body.dark-mode .st-hist-count     { color: #aaa; }
+
+    body.dark-mode .st-estado { color: #555; }
     </style>
 </head>
 

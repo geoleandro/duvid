@@ -103,14 +103,19 @@
 
         <p>Hoje, vamos continuar conhecendo o principal parceiro do clima: a vegetação do nosso país. Nessa segunda
             parte, vamos explorar mais cinco domínios: a Mata dos Cocais, o Pantanal, o Cerrado, a Caatinga e os
-            Pampas — cada um com suas próprias características e seus próprios problemas.</p>
+            Pampas, cada um com suas próprias características e seus próprios problemas.</p>
 
         <p>O Brasil é conhecido pela exuberância de sua vegetação, mas também pela sua ação predatória ao longo dos
             séculos. </p>
 
+        <p>Vale lembrar que esses cinco domínios, somados à Floresta Amazônica, à Mata Atlântica e ao Manguezal
+            estudados na aula anterior, formam o conjunto dos grandes biomas terrestres reconhecidos oficialmente no
+            Brasil. Cada um deles tem seus próprios limites, sua própria vegetação característica e sua própria
+            relação, muitas vezes conflituosa, com a ocupação humana do território.</p>
+
         <p>Diferente da Floresta Amazônica e da Mata Atlântica, que são formações florestais densas, os cinco domínios
             que veremos agora têm em comum uma característica marcante: são, em grande parte, paisagens abertas ou de
-            transição — savanas, campos, planícies alagáveis e florestas de palmeiras — moldadas por estações secas
+            transição (savanas, campos, planícies alagáveis e florestas de palmeiras), moldadas por estações secas
             bem definidas, solos particulares e, cada vez mais, pela expansão do agronegócio brasileiro.</p>
 
 
@@ -143,6 +148,11 @@
             Amazônia, da vegetação mais seca da Caatinga e da savana do Cerrado, o que resulta em uma paisagem única,
             dominada não por grandes árvores fechadas, mas por palmeiras que se destacam isoladas ou em grupos sobre
             um solo relativamente aberto.</p>
+
+        <p>Levantamentos da Embrapa estimam que os babaçuais, formação de palmeiras mais característica da região,
+            se espalhem por cerca de 14,5 milhões de hectares (o equivalente a 145 mil km²) distribuídos por sete
+            estados brasileiros, o que dá uma ideia da escala territorial dessa faixa de transição, ainda que ela
+            ocupe uma área bem menor do que os grandes biomas que a cercam.</p>
 
         <p><strong>Vegetação Predominante:</strong></p>
 
@@ -184,6 +194,12 @@
             crescente à medida que fazendas de gado e plantações de soja cercam babaçuais e restringem o acesso livre
             das quebradeiras às palmeiras, um conflito que já resultou em leis municipais e estaduais específicas de
             "livre acesso" ao babaçu em algumas regiões.</p>
+
+        <p>Hoje, o Brasil é o maior produtor mundial de coco babaçu, e o Maranhão concentra sozinho cerca de 94% dessa
+            produção nacional. Estima-se que mais de 300 mil mulheres vivam da atividade extrativista em toda a
+            região, a maior parte delas no próprio estado maranhense. Esses números ajudam a entender por que a
+            preservação dos babaçuais não é só uma questão ambiental: é também uma questão econômica e social de
+            grande escala para famílias do Nordeste e do Norte do país.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -234,21 +250,30 @@
 
         <p><strong>Queimadas e Desmatamento:</strong> Práticas de manejo inadequado e queimadas sazonais contribuem para
             a degradação do ecossistema. Em 2020, o Pantanal viveu o pior ano de incêndios de sua história recente:
-            os focos de fogo consumiram cerca de 45 mil km², ou pouco mais de 30% da porção brasileira do bioma —
-            140% a mais do que em 2019 — resultado de uma seca severa (chuvas até 50% abaixo da média entre janeiro e
+            os focos de fogo consumiram cerca de 45 mil km², ou pouco mais de 30% da porção brasileira do bioma,
+            140% a mais do que em 2019, resultado de uma seca severa (chuvas até 50% abaixo da média entre janeiro e
             maio) somada a queimadas de origem humana que fugiram de controle. Estima-se que quase 17 milhões de
             animais vertebrados tenham morrido nesses incêndios, entre eles antas, onças-pintadas e araras-azuis.</p>
         <p><strong>Biodiversidade:</strong> Apesar da pressão ambiental, o Pantanal continua sendo um dos ambientes
-            com maior concentração de vida selvagem visível da América do Sul, abrigando a maior população de
-            onças-pintadas do continente, além de capivaras, jacarés-do-pantanal, araras-azuis e centenas de espécies
-            de aves aquáticas — o que faz da região um destino de referência mundial para o ecoturismo de observação
+            com maior concentração de vida selvagem visível da América do Sul, abrigando a maior densidade de
+            onças-pintadas registrada em ambiente selvagem no planeta, com uma população estimada em cerca de 4 mil
+            indivíduos no bioma, além de capivaras, jacarés-do-pantanal, araras-azuis e centenas de espécies
+            de aves aquáticas, o que faz da região um destino de referência mundial para o ecoturismo de observação
             de fauna.</p>
         <p><strong>Turismo Sustentável:</strong> A promoção de turismo ecológico tem surgido como uma alternativa
             econômica e ambientalmente sustentável. Roteiros de observação de fauna, como os voltados para avistar
             onças-pintadas na região da Bacia do Rio Cuiabá, têm mostrado que um animal vivo, observado por turistas
-            ano após ano, pode gerar mais renda ao longo do tempo do que a pecuária ou o desmatamento pontual — um
+            ano após ano, pode gerar mais renda ao longo do tempo do que a pecuária ou o desmatamento pontual, um
             argumento econômico que vem ganhando força entre pesquisadores e comunidades locais como estratégia de
             conservação de longo prazo.</p>
+
+        <p><strong>Reconhecimento Internacional:</strong> Por sua importância ecológica, parte do Pantanal recebeu,
+            em 2000, o título de Patrimônio Natural da Humanidade pela UNESCO, e o bioma também é reconhecido como
+            Reserva da Biosfera e abriga sítios Ramsar, áreas úmidas de importância internacional protegidas por um
+            tratado em vigor desde 1993. Esses títulos, porém, cobrem apenas uma pequena fração do território
+            pantaneiro: a maior parte da planície permanece em propriedades privadas, o que faz da colaboração entre
+            pecuaristas, pesquisadores e órgãos ambientais uma peça central de qualquer estratégia de conservação de
+            longo prazo para o bioma.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -268,7 +293,7 @@
 <div class="item-resposta">
 <input class="radio-duvid" id="p1b" name="pergunta1" type="radio" value="correto"/>
 <label class="card-opcao" for="p1b">
-<span>b) As inundações são explicadas muito mais pela topografia plana da bacia do que pelo volume de chuvas — o Pantanal é, na verdade, o segundo bioma brasileiro mais seco.</span>
+<span>b) As inundações são explicadas muito mais pela topografia plana da bacia do que pelo volume de chuvas. O Pantanal é, na verdade, o segundo bioma brasileiro mais seco.</span>
 </label>
 </div>
 <div class="item-resposta">
@@ -279,7 +304,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Pantanal, os índices de pluviosidade são inferiores aos da maior parte do Centro-Oeste — é o segundo bioma mais seco do Brasil. As inundações são explicadas principalmente pela topografia praticamente plana da bacia do rio Paraguai, que faz a água se espalhar lentamente pela planície.', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'No Pantanal, os índices de pluviosidade são inferiores aos da maior parte do Centro-Oeste, o segundo bioma mais seco do Brasil. As inundações são explicadas principalmente pela topografia praticamente plana da bacia do rio Paraguai, que faz a água se espalhar lentamente pela planície.', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -301,7 +326,7 @@
         <p><strong>Localização e Características Gerais:</strong></p>
         <p>O <span class="termo" data-palavra="Cerrado" data-definicao="Segundo maior bioma brasileiro, savana tropical com árvores e arbustos retorcidos sobre um mar de gramíneas.">Cerrado</span>, o segundo maior bioma da América do Sul, cobre cerca de 23% do território brasileiro,
             incluindo Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, e partes de outros estados. Segundo dados
-            do IBGE e do MapBiomas, pouco mais da metade de sua vegetação nativa original ainda permanece de pé — o
+            do IBGE e do MapBiomas, pouco mais da metade de sua vegetação nativa original ainda permanece de pé. O
             restante já foi convertido em pastagens e lavouras.</p>
 
         <p><strong>Vegetação Predominante:</strong></p>
@@ -309,8 +334,17 @@
             sazonalmente seco. Na verdade, o Cerrado não é uma paisagem única e uniforme, mas um mosaico de
             fitofisionomias que vão desde o campo limpo (praticamente só gramíneas, sem árvores) até o cerradão (uma
             formação mais densa e florestal), passando por estágios intermediários como o campo sujo e o cerrado
-            sentido restrito, com árvores baixas, tortuosas e casca grossa — características que ajudam essas
+            sentido restrito, com árvores baixas, tortuosas e casca grossa, características que ajudam essas
             plantas a sobreviver às queimadas periódicas e à estação seca prolongada.</p>
+
+        <p><strong>Adaptações ao Fogo e à Seca:</strong> Boa parte dessa resistência do Cerrado ao fogo e à estação
+            seca vem de baixo do solo. Muitas espécies desenvolvem um <span class="termo" data-palavra="xilopódio" data-definicao="Estrutura subterrânea lenhosa, rica em gemas protegidas, que armazena reservas de água e nutrientes e permite que a planta rebrote rapidamente após incêndios ou longos períodos de seca.">xilopódio</span>, uma espécie de caule
+            subterrâneo lenhoso que guarda água, nutrientes e gemas protegidas do calor das queimadas, permitindo que
+            a planta rebrote rapidamente mesmo depois de perder toda a parte aérea no fogo. Outras árvores investem
+            em raízes pivotantes que descem de 15 a 20 metros de profundidade em busca do lençol freático, garantindo
+            acesso à água mesmo nos meses mais secos do ano. Isso explica por que, vista de fora, a vegetação do
+            Cerrado pode parecer pobre e seca, enquanto na verdade boa parte da sua biomassa está escondida debaixo
+            da terra.</p>
 
         <p><strong>Veredas:</strong> Uma formação típica e importante do Cerrado são as <span class="termo" data-palavra="veredas" data-definicao="Ambientes úmidos formados ao longo de cursos d'água e nascentes do Cerrado, onde predomina a palmeira buriti.">veredas</span>, ambientes úmidos que
             se formam ao longo de cursos d'água e nascentes, onde a palmeira buriti se destaca em meio a um campo
@@ -326,14 +360,15 @@
             mundo. Essa mesma vantagem produtiva, porém, é o que coloca o Cerrado, hoje, como o bioma brasileiro com
             a maior taxa de desmatamento anual, à frente inclusive da Amazônia.</p>
         <p><strong>Perda de Biodiversidade:</strong> A destruição do habitat natural ameaça inúmeras espécies endêmicas.
-            O Cerrado é considerado um hotspot mundial de biodiversidade — abriga cerca de 5% de todas as espécies
-            do planeta, muitas delas exclusivas do bioma, como o lobo-guará, o tamanduá-bandeira e o tatu-canastra —
-            justamente por isso, a conversão de suas savanas em monoculturas tem um impacto desproporcional sobre a
+            O Cerrado é considerado um hotspot mundial de biodiversidade: abriga cerca de 5% de todas as espécies
+            do planeta, muitas delas exclusivas do bioma, como o lobo-guará, o tamanduá-bandeira e o tatu-canastra.
+            Justamente por isso, a conversão de suas savanas em monoculturas tem um impacto desproporcional sobre a
             fauna e a flora globais quando comparado ao desmatamento de biomas com menos espécies endêmicas.
         </p>
         <p><strong>Baixa Proteção Legal:</strong> Apesar de sua extensão e importância, o Cerrado é um dos biomas
             brasileiros com menor percentual de área sob proteção integral, ficando muito atrás da Amazônia em termos
-            de unidades de conservação. Essa baixa cobertura de áreas protegidas facilita o avanço do desmatamento e
+            de unidades de conservação: apenas cerca de 8% do território do Cerrado está coberto por unidades de
+            conservação, quase três vezes menos do que os 27% registrados na Amazônia. Essa baixa cobertura de áreas protegidas facilita o avanço do desmatamento e
             coloca em risco espécies endêmicas que dependem exclusivamente desse ecossistema, incluindo as próprias
             veredas.</p>
         <p><strong>Iniciativas de Conservação:</strong> Programas de conservação e recuperação de áreas degradadas são
@@ -343,7 +378,7 @@
             hidrológico decisivo para o Brasil e para a América do Sul: é chamado de "berço das águas" porque
             concentra nascentes e áreas de recarga que alimentam 8 das 12 grandes regiões hidrográficas do país,
             incluindo trechos importantes das bacias do São Francisco, do Araguaia-Tocantins e do Paraná/Paraguai. O
-            bioma também abriga três grandes aquíferos subterrâneos — Guarani, Bambuí e Urucuia. Por isso, o
+            bioma também abriga três grandes aquíferos subterrâneos: Guarani, Bambuí e Urucuia. Por isso, o
             desmatamento do Cerrado não afeta apenas a vegetação e a fauna locais: compromete a disponibilidade de
             água para milhões de brasileiros que vivem bem fora dos limites do bioma.</p>
 
@@ -418,25 +453,63 @@
             enquanto árvores como o umbuzeiro desenvolvem raízes tuberosas capazes de reter água por longos períodos.
             Muitas plantas da Caatinga também são caducifólias: perdem completamente suas folhas na estiagem para
             reduzir a perda de água por transpiração e as recuperam rapidamente assim que as primeiras chuvas
-            chegam — por isso o bioma alterna, ao longo do ano, entre uma paisagem acinzentada e seca e uma explosão
+            chegam. Por isso, o bioma alterna, ao longo do ano, entre uma paisagem acinzentada e seca e uma explosão
             súbita de verde após as chuvas.</p>
 
         <p><strong>Interferência Humana e Impactos:</strong></p>
-        <p><strong>Agricultura de Subsistência:</strong> Práticas agrícolas inadequadas contribuem para a degradação do solo. O cultivo repetido nas mesmas áreas, sem tempo de pousio para o solo se recuperar, associado ao pastoreio excessivo de caprinos e ovinos — animais que arrancam a vegetação rente à raiz — é um dos principais fatores que aceleram a perda da já escassa cobertura vegetal em regiões mais vulneráveis do semiárido nordestino.</p>
+        <p><strong>Agricultura de Subsistência:</strong> Práticas agrícolas inadequadas contribuem para a degradação do solo. O cultivo repetido nas mesmas áreas, sem tempo de pousio para o solo se recuperar, associado ao pastoreio excessivo de caprinos e ovinos, animais que arrancam a vegetação rente à raiz, é um dos principais fatores que aceleram a perda da já escassa cobertura vegetal em regiões mais vulneráveis do semiárido nordestino.</p>
         <p><strong>Fauna Adaptada e Áreas Protegidas:</strong> A fauna da Caatinga também desenvolveu adaptações
             notáveis à escassez de água, como répteis subterrâneos e espécies capazes de reduzir seu metabolismo em
             períodos de seca extrema; o bioma abriga um número expressivo de espécies endêmicas de lagartos, cobras e
-            anfíbios que não existem em nenhum outro lugar do planeta. Apesar dessa riqueza, a Caatinga segue entre
+            anfíbios que não existem em nenhum outro lugar do planeta. Ao todo, já foram catalogadas quase 5 mil
+            espécies de plantas na Caatinga, das quais cerca de um terço são endêmicas, e estudos indicam mais de
+            300 espécies de animais exclusivas do bioma, entre elas lagartos, peixes de água doce e anfíbios
+            adaptados a viver boa parte do ano enterrados no solo seco, à espera das próximas chuvas. Apesar dessa
+            riqueza, a Caatinga segue entre
             os biomas brasileiros menos protegidos: estimativas recentes indicam que menos de 9% de seu território
             está coberto por unidades de conservação, e apenas uma pequena fração disso corresponde a áreas de
             proteção integral, o que preocupa pesquisadores diante do avanço da desertificação.</p>
         <p><strong><span class="termo" data-palavra="desertificação" data-definicao="Processo de degradação do solo em áreas secas, causado pela combinação de uso inadequado da terra com variações climáticas, que pode levar à perda definitiva da capacidade produtiva do solo.">Desertificação</span>:</strong> A exploração excessiva e as mudanças climáticas intensificam os processos de desertificação.</p>
-        <p><strong>Projetos de Sustentabilidade:</strong> Iniciativas de manejo sustentável e recuperação ambiental são vitais para a regeneração do bioma. Práticas como a caatinga em pé — que aproveita árvores e arbustos nativos para forragem animal sem derrubar a vegetação — e projetos de convivência com o semiárido, que ensinam técnicas de captação e armazenamento de água da chuva (como as cisternas rurais), têm mostrado que é possível produzir alimentos na região sem repetir o ciclo histórico de desmatamento seguido de desertificação.</p>
+        <p><strong>Projetos de Sustentabilidade:</strong> Iniciativas de manejo sustentável e recuperação ambiental são vitais para a regeneração do bioma. Práticas como a caatinga em pé, que aproveita árvores e arbustos nativos para forragem animal sem derrubar a vegetação, e projetos de convivência com o semiárido, que ensinam técnicas de captação e armazenamento de água da chuva (como as cisternas rurais), têm mostrado que é possível produzir alimentos na região sem repetir o ciclo histórico de desmatamento seguido de desertificação.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
-    
+
     </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Muitas plantas da Caatinga, como o umbuzeiro, perdem completamente as folhas durante a estiagem. Qual é a vantagem dessa estratégia?</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3a">
+<span>a) Reduz a perda de água por transpiração</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3b">
+<span>b) Aumenta a absorção de luz solar</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3c">
+<span>c) Facilita a polinização pelo vento</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'sem folhas, a planta reduz drasticamente a superfície exposta ao sol e ao vento, perdendo muito menos água por transpiração durante a estiagem', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
 
 <div class="topico">
 
@@ -452,24 +525,45 @@
         <p>Os Pampas estão localizados principalmente no Rio Grande do Sul, estendendo-se até o Uruguai e Argentina. Este bioma é caracterizado por vastas planícies cobertas por gramíneas.</p>
     
         <p><strong>Vegetação Predominante:</strong></p>
-        <p>A vegetação dos Pampas é composta principalmente por gramíneas e poucas árvores, adaptadas ao clima temperado com estações bem definidas. Essa formação de campos, sem a presença de uma cobertura florestal contínua, se estende para além da fronteira brasileira, formando um mesmo conjunto ecológico com as pradarias do Uruguai e da Argentina — por isso os Pampas são, entre os biomas do Brasil, o único cuja maior parte se encontra fora do território nacional. As árvores que aparecem no bioma costumam se concentrar junto a cursos d'água, nas chamadas matas ciliares, e não na paisagem aberta que dá identidade à região.</p>
+        <p>A vegetação dos Pampas é composta principalmente por gramíneas e poucas árvores, adaptadas ao clima temperado com estações bem definidas. Essa formação de campos, sem a presença de uma cobertura florestal contínua, se estende para além da fronteira brasileira, formando um mesmo conjunto ecológico com as pradarias do Uruguai e da Argentina. Por isso, os Pampas são, entre os biomas do Brasil, o único cuja maior parte se encontra fora do território nacional. As árvores que aparecem no bioma costumam se concentrar junto a cursos d'água, nas chamadas matas ciliares, e não na paisagem aberta que dá identidade à região.</p>
     
         <p><strong>Interferência Humana e Impactos:</strong></p>
         <p><strong>Pecuária e Agricultura:</strong> A principal atividade econômica, que impacta o solo e a vegetação. Historicamente, a pecuária extensiva sobre os campos nativos conviveu de forma relativamente equilibrada com a vegetação original dos Pampas, já que o gado se alimenta diretamente das pastagens naturais. Nas últimas décadas, porém, parte expressiva desses campos vem sendo convertida em lavouras de soja e em plantios de eucalipto e pinus para a silvicultura, processos que exigem a remoção completa da cobertura vegetal nativa e aceleram tanto a perda de biodiversidade quanto a arenização do solo.</p>
         <p><strong>Biodiversidade e Reconhecimento Tardio:</strong> Apesar da aparência uniforme, os Pampas
-            apresentam uma das maiores diversidades de plantas por metro quadrado entre os biomas brasileiros —
+            apresentam uma das maiores diversidades de plantas por metro quadrado entre os biomas brasileiros:
             pesquisas da UFRGS já registraram mais de 50 espécies vegetais diferentes em apenas 1 m² de campo nativo,
             e estima-se a existência de mais de 3 mil espécies vegetais no bioma. Ainda assim, os Pampas só foram
             reconhecidos oficialmente como um bioma brasileiro independente em 2004; antes disso, eram tratados como
             uma extensão dos "campos sulinos" vinculados à Mata Atlântica.</p>
 
+        <p><strong>Fauna dos Campos:</strong> A diversidade escondida dos Pampas também aparece na fauna: o bioma
+            abriga quase 500 espécies de aves e mais de 100 espécies de mamíferos terrestres, entre eles o
+            veado-campeiro, herbívoro típico das planícies abertas hoje ameaçado pela fragmentação do habitat, e
+            diferentes espécies de tuco-tucos, pequenos roedores subterrâneos que cavam túneis extensos e ajudam a
+            arejar o solo dos campos nativos. Muitas dessas espécies, adaptadas a viver rente ao chão em meio às
+            gramíneas, desaparecem justamente nas áreas convertidas em lavouras e monoculturas de árvores exóticas.</p>
+
         <p><strong>Erosão do Solo e <span class="termo" data-palavra="arenização" data-definicao="Processo de degradação em que o solo perde sua cobertura vegetal e camada fértil, expondo areia e formando manchas estéreis parecidas com pequenos desertos.">Arenização</span>:</strong> O manejo inadequado das pastagens pode levar à erosão, à arenização e à perda de fertilidade do solo. O fenômeno é especialmente visível na região da Campanha Gaúcha, no sudoeste do Rio Grande do Sul, onde manchas de areia expostas já cobrem milhares de hectares e continuam a se expandir, tornando praticamente impossível qualquer uso agrícola ou pecuário daquele solo por décadas.</p>
-        <p><strong>Conservação de Pastagens Naturais:</strong> Programas de manejo sustentável são necessários para manter a saúde ecológica do bioma. A tarefa é urgente: os Pampas têm hoje apenas cerca de 3% de sua área sob algum tipo de proteção formal, o menor percentual entre todos os biomas brasileiros, e perderam quase 3 milhões de hectares de vegetação nativa entre 1985 e 2022 — principalmente para o avanço da soja e da silvicultura —, o que faz do bioma, proporcionalmente, um dos mais degradados do país, à frente até da Amazônia e do Cerrado. Para reverter esse quadro, pesquisadores defendem o chamado pastoreio racional, uma técnica de manejo que divide o campo em piquetes e alterna períodos de pastejo e descanso, permitindo que a vegetação nativa se regenere sem que seja necessário substituí-la por espécies exóticas.</p>
+        <p><strong>Conservação de Pastagens Naturais:</strong> Programas de manejo sustentável são necessários para manter a saúde ecológica do bioma. A tarefa é urgente: os Pampas têm hoje apenas cerca de 3% de sua área sob algum tipo de proteção formal, o menor percentual entre todos os biomas brasileiros, e perderam quase 3 milhões de hectares de vegetação nativa entre 1985 e 2022, principalmente para o avanço da soja e da silvicultura, o que faz do bioma, proporcionalmente, um dos mais degradados do país, à frente até da Amazônia e do Cerrado. Para reverter esse quadro, pesquisadores defendem o chamado pastoreio racional, uma técnica de manejo que divide o campo em piquetes e alterna períodos de pastejo e descanso, permitindo que a vegetação nativa se regenere sem que seja necessário substituí-la por espécies exóticas.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
-    
+
     </div>
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots17" src="inforesumots17.webp"
+                    alt="Infográfico resumo Vegetação do Brasil - Domínios II" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
 
 <div class="topico">
 
@@ -482,8 +576,13 @@
             adaptado à seca extrema; e os Pampas são campos temperados que ultrapassam nossas fronteiras. Apesar
             dessas diferenças enormes, todos os cinco compartilham um mesmo destino: estão sob forte pressão do
             avanço agropecuário, e nenhum deles recebe, proporcionalmente, o mesmo nível de proteção legal e de
-            atenção pública que a Amazônia costuma receber — o que ajuda a explicar por que tanto o Cerrado quanto
+            atenção pública que a Amazônia costuma receber, o que ajuda a explicar por que tanto o Cerrado quanto
             os Pampas figuram, hoje, entre os biomas mais desmatados do Brasil.</p>
+
+        <p>Esse avanço da agropecuária sobre os biomas brasileiros é justamente o assunto da próxima aula: vamos
+            entender como se organiza a produção agrícola do país, a diferença entre agricultura familiar e
+            agronegócio, e de que forma a modernização do campo se relaciona com o desmatamento que acompanhamos
+            em cada um dos domínios vegetais estudados até aqui.</p>
 
         <p class="w3-border w3-round-large w3-padding"> <span class="primeiraLetra">P:</span> <strong>
                 Qual é a situação atual do Cerrado em relação à sua cobertura original e qual é o impacto do
@@ -503,7 +602,7 @@
             </strong></p>
         <p><span class="primeiraLetra">R:</span>
             No Pantanal, os índices de pluviosidade são, na verdade, inferiores aos verificados na maior parte da
-            região Centro-Oeste — é o segundo bioma brasileiro mais seco, atrás apenas da Caatinga. As inundações
+            região Centro-Oeste: é o segundo bioma brasileiro mais seco, atrás apenas da Caatinga. As inundações
             periódicas nessa região são explicadas muito mais pela topografia plana da Bacia do rio Paraguai do que
             pelo volume das chuvas. As chuvas, concentradas entre novembro e março (cerca de 70% do total anual),
             somadas a essa topografia praticamente plana, fazem a água se espalhar lentamente pela planície ao invés
@@ -535,6 +634,42 @@
         <div id="ficha-conceitos"></div>
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
+    </div>
+
+    <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+        <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+        <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+        <p>Por que a pecuária tradicional é considerada relativamente compatível com a conservação do Pantanal?</p>
+        <div class="w3-margin">
+            <input class="input" id="q1a" placeholder="sua resposta..." type="text">
+        </div>
+        <p class="w3-center w3-padding" id="resp1a"></p>
+        <div class="w3-margin-top">
+            <button class="btn-acao-duvid" onclick="validarAberta('q1a', 'pastagens naturais', 'resp1a', this, 'globinho1a')">
+                Conferir
+            </button>
+        </div>
+        <div class="area w3-center">
+            <img height="64" id="globinho1a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+        </div>
+
+        <p>Como funciona o pastoreio racional defendido para recuperar os campos nativos dos Pampas?</p>
+        <div class="w3-margin">
+            <input class="input" id="q2a" placeholder="sua resposta..." type="text">
+        </div>
+        <p class="w3-center w3-padding" id="resp2a"></p>
+        <div class="w3-margin-top">
+            <button class="btn-acao-duvid" onclick="validarAberta('q2a', 'piquetes', 'resp2a', this, 'globinho2a')">
+                Conferir
+            </button>
+        </div>
+        <div class="area w3-center">
+            <img height="64" id="globinho2a" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+        </div>
+
+        <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+        <hr/>
     </div>
 
     <div class="topico">
@@ -592,6 +727,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

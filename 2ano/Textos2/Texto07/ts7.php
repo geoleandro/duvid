@@ -101,6 +101,12 @@
             variedade geológica e de paisagens existentes no Brasil.</p>
 <p>Dentre os precursores geógrafos e geomorfólogos, destaca-se o professor Aroldo de Azevedo, na década de 1940.
         </p>
+<p>Formado originalmente em Direito, Aroldo de Azevedo optou por seguir a carreira de geógrafo e se licenciou em
+            Geografia e História pela Universidade de São Paulo em 1939, tornando-se um dos primeiros professores de
+            Geografia do Brasil daquela universidade, onde chegou a dirigir o Instituto de Geografia entre 1963 e
+            1967. Foi também o autor didático mais influente da área no país durante décadas, com mais de trinta
+            livros publicados, o que fez de sua classificação do relevo a referência adotada pela maioria dos livros
+            escolares do período.</p>
 <p>O professor Aroldo de Azevedo privilegiou uma abordagem geomorfológica e, por isso, adotou o critério de
             altitudes para lidar com o relevo brasileiro. Ele identificou oito unidades geomorfológicas, conforme o mapa
             abaixo: </p>
@@ -200,9 +206,9 @@
 <div class="w3-container">
 <h3>Clique para ver as descrições contidas no mapa:</h3>
 <div class="w3-row" style="display:flex; gap:8px; flex-wrap:wrap;">
-<button type="button" class="ts07-tab-btn ts07-tab-ativa" data-alvo="ts07-serra" onclick="ts07MostrarTab(this,'ts07-serra')" style="flex:1; min-width:140px; border:2px solid #2e7d32; background:#2e7d32; color:#fff; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">1 — Serra da Mantiqueira</button>
-<button type="button" class="ts07-tab-btn" data-alvo="ts07-patagonia" onclick="ts07MostrarTab(this,'ts07-patagonia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">2 — Deserto da Patagônia</button>
-<button type="button" class="ts07-tab-btn" data-alvo="ts07-ushuaia" onclick="ts07MostrarTab(this,'ts07-ushuaia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">3 — Extremo Sul</button>
+<button type="button" class="ts07-tab-btn ts07-tab-ativa" data-alvo="ts07-serra" onclick="ts07MostrarTab(this,'ts07-serra')" style="flex:1; min-width:140px; border:2px solid #2e7d32; background:#2e7d32; color:#fff; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">1. Serra da Mantiqueira</button>
+<button type="button" class="ts07-tab-btn" data-alvo="ts07-patagonia" onclick="ts07MostrarTab(this,'ts07-patagonia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">2. Deserto da Patagônia</button>
+<button type="button" class="ts07-tab-btn" data-alvo="ts07-ushuaia" onclick="ts07MostrarTab(this,'ts07-ushuaia')" style="flex:1; min-width:140px; border:2px solid #a5d6a7; background:#fff; color:#2e7d32; border-radius:100px; padding:10px 16px; font-family:'Montserrat',sans-serif; font-weight:700; font-size:.85rem; cursor:pointer;">3. Extremo Sul</button>
 </div>
 <div class="w3-container ts07-tab-painel" id="ts07-serra">
 <div class="w3-margin"><img alt="ts07f010" class="w3-mobile" id="imagem10" src="ts07f010.png"/>
@@ -279,6 +285,13 @@ function ts07MostrarTab(botao, alvoId) {
             parcialmente separada do mar devido a essas barreiras naturais, havendo, no entanto, aberturas que
             permitem a ligação com o mar. Esse tipo de relevo é comum no litoral brasileiro em Alagoas, Rio de Janeiro,
             Rio Grande do Sul, etc.</p>
+<p>Associadas às lagunas, aparecem com frequência as <span class="termo" data-palavra="restinga" data-definicao="Cordão arenoso alongado e paralelo à costa, formado pelo acúmulo de sedimentos transportados pelas correntes marítimas e pelo vento, que separa uma laguna ou lagoa do mar aberto.">restingas</span>: cordões arenosos alongados,
+            paralelos à linha de costa, formados pelo mesmo acúmulo de sedimentos que dá origem às lagunas. É a
+            restinga que funciona como barreira natural entre a água salgada do oceano e a água mais calma da laguna,
+            e por isso costuma abrigar uma vegetação própria, rasteira e resistente ao vento e à salinidade, adaptada
+            a solos arenosos e pobres em nutrientes. A restinga da Marambaia, no Rio de Janeiro, e as restingas do
+            litoral catarinense são bons exemplos desse tipo de formação, hoje protegidas por lei como Áreas de
+            Preservação Permanente devido ao papel que cumprem na contenção da erosão costeira.</p>
 <div class="w3-modal w3-margin-top" id="recifes">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -324,12 +337,27 @@ function ts07MostrarTab(botao, alvoId) {
             <span class="termo" data-palavra="manguezais" data-definicao="Ecossistemas costeiros de solo lodoso, encontrados em áreas de encontro entre rios e mar, com vegetação adaptada à salinidade e raízes aéreas.">manguezais</span>. O manguezal é um tipo de solo lodoso com plantas adaptadas à salinidade e com
             raízes aéreas, ricas em nutrientes e fundamental para o balanço do ecossistema fluvial e marinho.
         </p>
+<p>Além de proteger a costa contra a erosão e amortecer o impacto de ressacas e marés altas, o manguezal funciona
+            como berçário natural para peixes, camarões e caranguejos: é ali que boa parte das espécies marinhas
+            comercialmente importantes passa as primeiras fases da vida, protegida entre as raízes emersas. Por isso
+            os manguezais sustentam diretamente a pesca artesanal de milhares de famílias ao longo de toda a costa
+            brasileira. Eles também se destacam por armazenar grandes quantidades de carbono no solo lodoso, o que os
+            torna um dos ecossistemas mais eficientes do planeta na retenção de carbono, e justamente por isso são
+            considerados áreas de preservação permanente pela legislação ambiental brasileira, com corte e aterro
+            proibidos por lei.</p>
 <p> No trecho nordestino, a partir do Golfo do Maranhão até o Cabo de São Roque, o relevo é formado por dunas,
             com restingas e lagoas costeiras.</p>
 <div class="w3-margin"><img alt="ts07f015" class="w3-mobile" id="imagem15" src="ts07f015.png"/>
 </div>
 <p>É ai que se localizam as famosas dunas como os lençóis maranhenses. As dunas são formadas pela ação dos <span class="w3-yellow" onclick="document.getElementById('ventos').style.display='block'">ventos
                 alísios</span> que invadem o continente durante todo o ano. </p>
+<p>Nesse mesmo trecho do litoral, na divisa entre Piauí e Maranhão, encontra-se uma das formações mais raras do
+            litoral brasileiro: o <span class="termo" data-palavra="delta" data-definicao="Formação litorânea que ocorre quando um rio se ramifica em vários braços antes de desaguar no mar, depositando sedimentos numa área geralmente protegida por baías, golfos ou lagunas.">delta</span> do rio Parnaíba. A maioria dos grandes deltas do mundo, como o do Nilo ou o do Ganges, se forma em áreas
+            protegidas de baías, golfos ou lagunas, onde a força das ondas é menor. O delta do Parnaíba é diferente: o
+            rio se ramifica em cinco braços que deságuam diretamente em mar aberto, formando um arquipélago de mais de
+            70 ilhas espalhadas por uma área de cerca de 2.700 km², entre dunas, manguezais e lagoas. É considerado o
+            único delta em mar aberto de todas as Américas e um dos maiores do planeta, ao lado dos deltas do Nilo e
+            do Mekong.</p>
 <div class="w3-modal w3-margin-top" id="ventos">
 <div class="w3-modal-content">
 <div class="w3-container w3-padding">
@@ -356,7 +384,7 @@ function ts07MostrarTab(botao, alvoId) {
             largura. O recife que deu nome à capital de Pernambuco, Recife, possui pouco mais de 5 km de extensão.</p>
 <p>Já os recifes de corais ocorrem da acumulação de restos calcários, seja na forma de franjas perpendiculares à
             costa ou como barreiras paralelas. </p>
-<p> É nesse trecho que se encontra a Costa do Descobrimento – o trecho litorâneo atingido pelas caravelas de
+<p> É nesse trecho que se encontra a Costa do Descobrimento, o trecho litorâneo atingido pelas caravelas de
             Cabral e onde teve início à colonização portuguesa. Estão localizados a Baía de Todos os Santos (BA), Porto
             Seguro (BA), Cabo Branco, ilha de Itamaracá, dentre outros.</p>
 <h3>O litoral meridional ou subtropical</h3>
@@ -375,6 +403,16 @@ function ts07MostrarTab(botao, alvoId) {
 <p> Os principais acidentes geográficos são: Cabo Frio (RJ), ilhas de Paquetá, Governador, Cobras RJ); Ilhas de
             São Sebastião (SP), São Vicente (SP); Baía de Paranaguá (PR); Ilhas de São Francisco e Santa Catarina (SC),
             dentre outros.</p>
+<p>Vale explicar por que essa parte do litoral concentra tantas ilhas próximas do continente. Diferente das
+            ilhas vulcânicas oceânicas, como Fernando de Noronha, essas são chamadas de ilhas costeiras: porções de
+            terra que já foram parte do continente e se isolaram por causa das variações do nível do mar ao longo do
+            tempo geológico recente. Durante a última grande glaciação, o nível do mar era dezenas de metros mais
+            baixo do que hoje, porque grande parte da água do planeta estava presa em geleiras. Quando o gelo derreteu,
+            há cerca de onze mil anos, o mar avançou sobre o continente (um processo chamado de transgressão marinha)
+            e submergiu os vales entre os pontos mais altos da Serra do Mar, isolando picos e espigões que hoje
+            conhecemos como Ilha Grande, Ilhabela e a própria Ilha de Santa Catarina. Geologicamente, portanto, essas
+            ilhas são feitas do mesmo tipo de rocha cristalina antiga que forma a Serra do Mar no continente, apenas
+            separadas dele pela água.</p>
 <h3>O movimento das águas oceânicas no litoral brasileiro</h3>
 <p>Devemos mencionar os movimentos das águas que repercutem no litoral brasileiro, como aquele realizado pelas
             <span class="termo" data-palavra="correntes marítimas" data-definicao="Deslocamentos contínuos e organizados de grandes massas de água oceânica, causados principalmente pela ação dos ventos e por diferenças de temperatura e densidade da água.">correntes marítimas</span>. No caso do Brasil, o litoral sofre influência de três correntes: a das Malvinas ou
@@ -384,6 +422,30 @@ function ts07MostrarTab(botao, alvoId) {
             enormes massas de água, enquanto as alterações de temperatura e salinidade modificam a densidade da água,
             fazendo-a subir ou descer no fundo do oceano, criando assim correntes circulatórias.</p>
 <div class="w3-margin"><img alt="8" class="w3-mobile" id="imagem18" src="ts07f018.png"/></div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<h2>O litoral brasileiro diante das mudanças climáticas</h2>
+<p>Todas essas formas de relevo litorâneo que vimos até aqui, sejam elas praias, restingas, dunas ou falésias, não
+            são estáticas: estão em constante transformação por causa da dinâmica natural de erosão e sedimentação. O
+            problema é que, nas últimas décadas, essa dinâmica natural passou a sofrer a pressão extra de dois
+            fatores humanos: a ocupação desordenada da orla e as mudanças climáticas.</p>
+<p>A <span class="termo" data-palavra="erosão costeira" data-definicao="Processo de desgaste e recuo da linha de costa causado pela ação das ondas, correntes e marés, agravado pela ocupação urbana da orla e pela elevação do nível do mar.">erosão costeira</span> tem causas naturais, como a própria dinâmica das ondas, correntes e marés, mas
+            se torna crônica quando dunas frontais são destruídas para dar lugar a construções, quando calçadões e
+            espigões alteram o transporte natural de sedimentos ao longo da praia, ou quando o nível do mar sobe por
+            causa do aquecimento global. Projeções do IPCC indicam que o nível médio do mar pode subir entre 30 e 100
+            centímetros até o fim deste século, dependendo do volume de gases de efeito estufa que a humanidade ainda
+            emitir. Isso pode parecer pouco, mas é suficiente para acelerar o recuo de praias, inundar áreas baixas
+            do litoral e comprometer construções, estradas e bairros inteiros que hoje ficam próximos demais da
+            água.</p>
+<p>O tema é especialmente sensível no Brasil porque mais de 60% da população brasileira vive em cidades
+            costeiras, e oito das onze maiores regiões metropolitanas do país ficam a menos de 100 km do oceano. Isso
+            significa que qualquer avanço do mar sobre a costa afeta diretamente milhões de pessoas, não apenas
+            ecossistemas isolados. Justamente por isso, formações como as restingas e os manguezais, que vimos há
+            pouco, não são só curiosidades da paisagem: funcionam como barreiras naturais que amortecem o impacto das
+            ressacas e retardam o avanço do mar sobre áreas urbanizadas, o que reforça a importância de preservá-las
+            em vez de ocupá-las.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
 </div>
@@ -422,7 +484,7 @@ function ts07MostrarTab(botao, alvoId) {
 </div>
 <div class="topico pergunta-bloco w3-container w3-padding-24">
 <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
-<h4 class="fontePixel"><b>Forma de relevo plana e de baixa altitude, resultante do acúmulo de sedimentos, historicamente ocupada por civilizações ribeirinhas — do Nilo, no Egito, ao rio Pinheiros, em São Paulo. Essa descrição corresponde a:</b></h4>
+<h4 class="fontePixel"><b>Forma de relevo plana e de baixa altitude, resultante do acúmulo de sedimentos, historicamente ocupada por civilizações ribeirinhas, do Nilo, no Egito, ao rio Pinheiros, em São Paulo. Essa descrição corresponde a:</b></h4>
 <div class="grupo-respostas w3-margin-top">
 <div class="item-resposta">
 <input class="radio-duvid" id="p2a" name="pergunta2" type="radio" value="correto"/>
@@ -543,13 +605,62 @@ function ts07MostrarTab(botao, alvoId) {
 </div>
 <div class="w3-margin"><img alt="ts01f019" class="w3-mobile" id="imagem19" src="ts07f019.png"/>
 </div>
+<p>Percebemos, então, que conhecer com precisão onde ficam os planaltos, as depressões e as bacias sedimentares
+            não é só um exercício de classificação: é também um mapa de riquezas. Cada uma dessas unidades de relevo
+            está associada a um tipo diferente de rocha e, portanto, a diferentes recursos minerais escondidos no
+            subsolo brasileiro. Na próxima aula vamos justamente seguir esse fio: sair da classificação do relevo e
+            entrar nos recursos minerais do Brasil, para entender onde e por que se concentram as principais jazidas
+            de minério de ferro, ouro, bauxita e outros minerais que movimentam a economia do país.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Desafio</button>
 <br/><br/>
 <hr/>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots7" src="inforesumots7.webp" alt="Infográfico resumo classificação do relevo e litoral brasileiro" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'"/>
+<span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr/>
+</div>
+<div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>O que forma as dunas dos Lençóis Maranhenses, empurrando a areia continente adentro o ano todo?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', 'ventos alísios', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>Que processo, ligado à subida do mar após a última glaciação, isolou ilhas como Ilha Grande e Ilhabela do continente?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', 'transgressão marinha', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
 <hr/>
 </div>
 <div class="topico">
@@ -603,6 +714,10 @@ function ts07MostrarTab(botao, alvoId) {
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

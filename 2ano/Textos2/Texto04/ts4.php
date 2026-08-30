@@ -60,7 +60,7 @@
 </div>
 <div class="w3-container w3-padding-16">
 <p><strong>Conteúdo: </strong><span id="descricao-aula"></span></p>
-<p><strong>Objetivo:</strong> <span id="objetivo-aula"></span></p>
+<p><strong>Objetivo:</strong> <span id="objetivo-aula">Identificar e compreender os fatores ligados aos conflitos em torno da posse e do uso da terra no Brasil. Descrever as características da estrutura fundiária brasileira e da dinâmica da reforma agrária no país.</span></p>
 </div>
 <button class="btnShow" onclick="playSom('inicio'); MostrarProximo(this); this.style.display='none'">
 <i class="fa fa-play"></i> Iniciar Aula
@@ -109,6 +109,18 @@
 <p> Outra forma de analisar a estrutura fundiária no país é relacionar a área ocupada pelos estabelecimentos agropecuários com a quantidade de estabelecimentos, revelando a concentração em estratos fundiários mais elevados. </p>
 <div class="w3-margin"><img alt="ts04f01" class="w3-mobile" id="imagem1" src="ts04f01.png"/></div>
 <p> Dessa forma, o gráfico acima mostra que, em 2017, os estabelecimentos com menos de 50 hectares representavam 81,4% da quantidade total, mas ocupavam apenas 12,8% da área. Enquanto que os estabelecimentos com mais de 2 500 hectares representavam 0,3% do total de estabelecimentos e ocupavam 32,8% da área de estabelecimentos do País.</p>
+<p>Existe até uma régua numérica para medir esse tipo de desigualdade: o
+                <span class="termo" data-palavra="Índice de Gini" data-definicao="Indicador que mede a desigualdade na distribuição de algo, como renda ou terra, numa escala de 0 (tudo dividido igualmente) a 1 (tudo concentrado em uma única mão). Quanto mais perto de 1, maior a desigualdade.">Índice
+                    de Gini</span>, que vai de 0 (distribuição perfeitamente igual) a 1 (toda a terra nas mãos de um
+                único proprietário). O Censo Agropecuário de 2017 calculou o Gini da terra no Brasil em 0,867, o maior
+                valor já registrado na série histórica e um dos mais altos do mundo. Na prática, isso significa que
+                apenas 1% dos estabelecimentos agrícolas do país ocupa quase metade de toda a área rural brasileira,
+                enquanto os 92% menores, majoritariamente de agricultura familiar, dividem entre si apenas um quarto
+                dessa área. Para efeito de comparação, países como a Dinamarca ou a Coreia do Sul, que também têm
+                agricultura moderna e competitiva internacionalmente, apresentam índices de Gini fundiário
+                consideravelmente mais baixos, o que mostra que produtividade agrícola alta e distribuição de terra
+                mais equilibrada não são objetivos necessariamente incompatíveis, mesmo que no caso brasileiro
+                historicamente tenham caminhado em direções bastante opostas ao longo dos últimos séculos.</p>
 <p>A estrutura fundiária é sempre resultado do processo histórico de ocupação do território, incluindo a ação dos proprietários, as políticas públicas e a legislação que regulamentou tal ocupação. A concentração fundiária no Brasil está diretamente ligada aos seguintes fatos históricos: </p>
 <p>As <strong><span class="termo" data-palavra="Sesmarias" data-definicao="Sistema português de concessão de grandes lotes de terra a colonos, usado para organizar a ocupação do território brasileiro no período colonial. Deu origem aos latifúndios mais antigos do país.">sesmarias</span></strong>: foram criadas em Portugal, no século XIV, tendo como objetivo garantir a regulamentação do uso da terra no país. No caso do Brasil, as sesmarias foram utilizadas para organizar a ocupação do território durante a implementação do sistema de <em>plantation</em>, baseado na produção monocultora realizada em grandes extensões de terra, com uso de mão de obra escrava e voltada à exportação. Assim sendo, elas contribuíram diretamente para a criação dos mais antigos latifúndios do país. </p>
 <div class="w3-margin"><img alt="ts04f02" class="w3-mobile" id="imagem2" src="ts04f02.png"/>
@@ -166,7 +178,29 @@
 <hr/>
 </div>
 <div class="topico">
-<h2>Os limites à propriedade privada da terra no Brasil: reforma agrária 
+<h2>O outro lado da moeda: o peso do agronegócio na economia</h2>
+<p>É importante não simplificar demais essa história. A concentração fundiária tem custos sociais evidentes, mas o
+            modelo de grandes propriedades também sustenta boa parte da economia brasileira hoje. O
+            <span class="termo" data-palavra="Agronegócio" data-definicao="Conjunto de atividades ligadas à produção, industrialização e comercialização de produtos agropecuários, da fazenda até a mesa: inclui insumos, maquinário, produção no campo, processamento industrial e logística de exportação.">agronegócio</span>,
+            que soma as atividades agrícolas, pecuárias, agroindustriais e de serviços ligados ao campo, respondeu por
+            23,2% do PIB brasileiro em 2024, um total de 2,72 trilhões de reais. Suas exportações somaram 164,4
+            bilhões de dólares no mesmo ano, quase metade de tudo que o Brasil vendeu para o exterior.</p>
+<p>Esse desempenho depende diretamente das grandes propriedades mecanizadas: são elas que produzem a soja, o milho
+            e a carne bovina que garantem o superávit comercial do país e sustentam empregos em toda a cadeia
+            logística, dos portos aos caminhões. Ao mesmo tempo, como já vimos, é a pequena propriedade familiar,
+            numericamente majoritária mas dona de uma fração pequena da área total, que coloca a maior parte do
+            alimento na mesa do brasileiro. São dois Brasis agrícolas convivendo lado a lado: um voltado para fora,
+            de larga escala e alta tecnologia; outro voltado para dentro, de pequena escala e mão de obra familiar.
+            Entender essa convivência, e não escolher um lado como "o único correto", é essencial para discutir
+            políticas públicas para o campo brasileiro com mais precisão. Um exemplo prático dessa complexidade: uma
+            mesma política de crédito rural pode financiar tanto a compra de maquinário para uma grande fazenda
+            exportadora quanto o custeio da safra de uma família assentada pela reforma agrária, e as duas coisas
+            aparecem juntas nas estatísticas do "agro" divulgadas todos os anos.</p>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico">
+<h2>Os limites à propriedade privada da terra no Brasil: reforma agrária
 
         </h2>
 <p>A <strong><span class="termo" data-palavra="Reforma Agrária" data-definicao="Conjunto de políticas públicas para redistribuir terras improdutivas e promover melhor uso e acesso a elas, especialmente para famílias sem terra. Prevista na Constituição de 1988 como condição da propriedade cumprir sua função social.">reforma agrária</span></strong> em sua essência ou em uma definição genérica é a reorganização mais justa da terra. Em um país onde a estrutura fundiária teve uma formação concentrada, com grandes propriedades voltadas para a produção agroexportador, todas as possíveis mudanças são encaradas de forma negativa por alguma parcela da sociedade. Ainda hoje os grandes proprietários exercem influência sobre autoridades em níveis desde local, regional até nacional. </p>
@@ -216,21 +250,33 @@
 <h2>Os conflitos pela terra continuam... </h2>
 <p> Em junho de 2022, o jornalista britânico Dom Phillips e o indigenista brasileiro Bruno Pereira foram assassinados na região da Terra Indígena Vale do Javari, na Amazônia. Bruno trabalhava com a União dos Povos Indígenas do Vale do Javari (Univaja), monitorando e denunciando invasores da região.</p>
 <p>Esse exemplo ilustra o grande problema ainda desse grupo étnico: a terra. Ocupando o território desde os tempos ancestrais, antes mesmo de se tornar Brasil, com a chegada dos colonizadores, os indígenas perderam suas terras e viram suas tradições sendo despedaçadas. </p>
-<p>Segundo a FUNAI (Fundação Nacional do Índio), em 2010, havia 668 terras indígenas no Brasil. Veja o mapa abaixo: </p>
+<p>Segundo a FUNAI (Fundação Nacional dos Povos Indígenas), em 2010, havia 668 terras indígenas no Brasil. Esse número
+                cresceu nos anos seguintes: hoje já são cerca de 838 terras indígenas em diferentes etapas do processo
+                de demarcação, somando mais de 126,8 milhões de hectares. Veja o mapa abaixo: </p>
 <h4 class="w3-center"><strong>Terras indígenas</strong></h4>
 <div class="w3-margin"><img alt="ts04f06" class="w3-mobile" id="imagem6" src="ts04f06.png"/>
 </div>
-<p>Essas reservas correspondem a, aproximadamente, 1,1 milhão de km² ou 13% do território nacional. Entretanto, pouco mais da metade dessas reservas foi demarcada e regularizada adequadamente. </p>
+<p>Essas reservas correspondem a, aproximadamente, 13% do território nacional. Entretanto, pouco mais da metade dessas reservas foi demarcada e regularizada adequadamente. </p>
+<p>As comunidades quilombolas enfrentam um problema parecido, embora com números bem menores. O Censo 2022 do IBGE
+                identificou 8.441 localidades quilombolas no país, associadas a 7.666 comunidades, mais da metade
+                concentradas no Nordeste (63,8%), com destaque para o Maranhão. Mas ter uma comunidade reconhecida não
+                significa ter a terra titulada: no ritmo atual de expedição de títulos pelo INCRA, especialistas
+                calculam que levaria mais de dois mil anos para regularizar todos os territórios quilombolas com
+                processos abertos. Em 2024, um esforço de regularização resultou em 31 decretos de titulação, um
+                recorde histórico, mas que ainda cobriu uma fração pequena do total de comunidades à espera do
+                documento que garante o direito à terra. Sem esse título definitivo, uma comunidade quilombola pode
+                viver por gerações num território reconhecido no papel, mas sempre exposta ao risco jurídico de
+                despejo, venda ilegal ou invasão por terceiros que reivindicam a mesma terra.</p>
 <p>Um dos maiores problemas nessas terras é que cerca de 70% delas sofrem com invasões de grupos madeireiros, fazendeiros, posseiros, garimpeiros, grileiros, dentre outros. </p>
 <p>As terras indígenas são classificadas pela FUNAI dependendo do estágio de seu reconhecimento. Umas estão demarcadas, mas não regularizadas, outras estão identificadas mas não demarcadas e assim por diante.</p>
 <div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
 <p>
                 Os tipos mais comuns de invasores que os indígenas enfrentam são:
                 </p>
-<p><strong>Madeireiras</strong> – firmas que extraem a madeira das florestas e desrespeitam suas terras;</p>
-<p><strong>Fazendeiros e grandes empresas</strong> – A terra dos indígenas é vista como recurso a ser apropriado. Eles contratam jagunços ou pistoleiros para invadir e ocupar essas terras ou ocupam através de posseiros ou pequenos proprietários.</p>
-<p><strong>Camponeses ou posseiros</strong> expulsos de suas terras – Aqueles que invadem as terras indígenas em busca de novos solos para plantar a partir de base familiar.</p>
-<p><strong>Garimpeiros</strong> – Em geral, camponeses desempregados ou expulsos de suas terras atraídos pela oferta de lucro fácil no garimpo de ouro, pedras preciosas ou diversos minérios valiosos encontrados em terras indígenas. A área de ocorrência de garimpo é marcada por grande destruição ambiental através da retirada de detritos com uso de mercúrio, extremamente nocivo para a população local, peixes e contaminação da água potável dos rios.</p>
+<p><strong>Madeireiras</strong>: firmas que extraem a madeira das florestas e desrespeitam suas terras;</p>
+<p><strong>Fazendeiros e grandes empresas</strong>: a terra dos indígenas é vista como recurso a ser apropriado. Eles contratam jagunços ou pistoleiros para invadir e ocupar essas terras ou ocupam através de posseiros ou pequenos proprietários.</p>
+<p><strong>Camponeses ou posseiros</strong> expulsos de suas terras: aqueles que invadem as terras indígenas em busca de novos solos para plantar a partir de base familiar.</p>
+<p><strong>Garimpeiros</strong>: em geral, camponeses desempregados ou expulsos de suas terras atraídos pela oferta de lucro fácil no garimpo de ouro, pedras preciosas ou diversos minérios valiosos encontrados em terras indígenas. A área de ocorrência de garimpo é marcada por grande destruição ambiental através da retirada de detritos com uso de mercúrio, extremamente nocivo para a população local, peixes e contaminação da água potável dos rios.</p>
 </div>
 <p>Por isso, ocorrem conflitos frequentes por todo o país, muitos deles com mortes.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -280,8 +326,46 @@
 <p> O caso foi parar no STF (Supremo Tribunal Federal) com argumentos de ambas as partes. Os indígenas e com apoio da FUNAI defendiam uma área contínua, sem divisões; Entretanto, a maioria dos políticos da região, dos rizicultores (produtores de arroz) e os prefeitos das pequenas cidades queriam que fossem incluídas suas cidades e suas atividades econômicas. Para esses últimos, se a reserva for demarcada como querem os indígenas, Roraima perderá quase metade de seu território. Portanto, a população não indígena terá de ser removida. Ao contrário, os indígenas dizem que uma reserva em forma de ilhas descaracterizaria as terras deles. Eles também afirmam que a população não indígena ocupou a região depois da demarcação (o que configura ilegalidade).</p>
 <p>O resultado de diversos conflitos e tensões foi decidido em 2009, quando o STF confirmou, por 10 votos a 1, que a reserva deveria ser demarcada de forma contínua, obrigando os produtores de arroz a deixar a área. </p>
 <p>Em 2021, a reserva Raposa Serra do Sol possuía 28 mil habitantes exercendo atividades como a produção de arroz orgânico, feijão, milho, batata e frutas, além da criação de gado nas áreas de “lavrado”, como é conhecida a savana da região. </p>
+<p>Casos como esse mostram que a estrutura fundiária não é só uma questão de números e tabelas: é o pano de fundo de
+            conflitos concretos que se desenrolam sobre um relevo específico, um clima específico, um solo específico.
+            Antes de voltarmos aos temas humanos da geografia agrária, vale a pena revisar essa base física: na
+            próxima aula, vamos estudar a estrutura geológica e as principais formas de relevo do território
+            brasileiro, o "chão" sobre o qual todos esses conflitos por terra realmente acontecem.</p>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
 <hr/>
+</div>
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Sobre o caso da Raposa/Serra do Sol, o STF decidiu, em 2009, pela demarcação:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3a">
+<span>a) Descontínua, em forma de ilhas</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3b">
+<span>b) Contínua, sem divisões internas</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3c">
+<span>c) Adiada indefinidamente pelo STF</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'por 10 votos a 1, o STF decidiu pela demarcação contínua, retirando da área os produtores de arroz não indígenas', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
 </div>
 <div class="topico">
 <div class="w3-panel w3-sand w3-leftbar w3-margin w3-padding">
@@ -360,8 +444,51 @@
 <hr/>
 </div>
 <div class="topico">
+<h2> Infográfico - Resumo</h2>
+<div class="w3-margin"><img id="inforesumots4" src="inforesumots4.webp" alt="Infográfico resumo geografia agrária brasileira" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'"/>
+<span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+</div>
+<button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+<hr/>
+</div>
+<div class="topico">
 <div id="ficha-conceitos"></div>
 <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+<hr/>
+</div>
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+<h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+<p>Em que ano foi criado o Parque Indígena do Xingu?</p>
+<div class="w3-margin">
+<input class="input" id="q1a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp1a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q1a', '1961', 'resp1a', this, 'globinho1a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho1a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<p>De acordo com o artigo da Constituição de 1988, a propriedade da terra deve cumprir sua função social. Em que ano a Constituição foi promulgada?</p>
+<div class="w3-margin">
+<input class="input" id="q2a" placeholder="sua resposta..." type="text">
+</div>
+<p class="w3-center w3-padding" id="resp2a"></p>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarAberta('q2a', '1988', 'resp2a', this, 'globinho2a')">
+                    Conferir
+                </button>
+</div>
+<div class="area w3-center">
+<img height="64" id="globinho2a" src="\fotoIndex\globinhoPe.png" style="display:none" width="64"/>
+</div>
+
+<button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
 <hr/>
 </div>
 <div class="topico">
@@ -415,6 +542,10 @@
 <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
 </h3>
 <div id="biblio-gerada"></div>
+</div>
+<div class="w3-container w3-padding-64 secao-livros-sugeridos">
+<h3>📚 Sugestões de Livros</h3>
+<div id="livros-gerados"></div>
 </div>
 <br/><br/>
 <div class="w3-padding-48">

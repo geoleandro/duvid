@@ -977,6 +977,18 @@ body.dark-mode .aviso-vidas {
     color: #ef5350 !important;
 }
 
+/* ── GIF do personagem (dica/erro) ──────────────────────────────── */
+body.dark-mode .duvid-gif-duvida,
+body.dark-mode .duvid-gif-erro {
+    filter: brightness(1.5) drop-shadow(0 0 6px rgba(255,255,255,.15));
+}
+
+/* ── Corações (duvid-coracoes-container sobrescreve ModeloCss.css) ── */
+body.dark-mode .duvid-coracoes-container {
+    background: #2a1818 !important;
+    border-color: #4a2a2a !important;
+}
+
 /* ════════════════════════════════════════════════════════════════════
    TABLET (≤1024px) — painel vira faixa horizontal acima da questão
    ════════════════════════════════════════════════════════════════════ */
