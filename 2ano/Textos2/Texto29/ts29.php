@@ -111,7 +111,7 @@
 
             <h2>O problema que esta aula vai ajudar a entender</h2>
 
-            <p>Em São Paulo, quem mora em bairros centrais como o Itaim Bibi ou o Pari costuma chegar ao trabalho em menos de 45 minutos. Quem mora em Cidade Tiradentes, na periferia leste, leva em média 2 horas e 40 minutos no mesmo trajeto. Essa diferença não é geográfica: é social. Ela é resultado de décadas de investimento público concentrado em certas áreas e abandono de outras, já que empregos e serviços ficam concentrados no centro expandido, enquanto a periferia cresceu sem a infraestrutura de transporte para chegar até ele.</p>
+            <p>Em São Paulo, quem mora em bairros centrais como o Itaim Bibi ou o Pari costuma chegar ao trabalho em menos de 45 minutos. Quem mora em Cidade Tiradentes, na periferia leste, leva em média 2 horas e 45 minutos no mesmo trajeto, quase quatro vezes mais tempo para percorrer a mesma cidade. Essa diferença não é geográfica: é social. Ela é resultado de décadas de investimento público concentrado em certas áreas e abandono de outras, já que empregos e serviços ficam concentrados no centro expandido, enquanto a periferia cresceu sem a infraestrutura de transporte para chegar até ele.</p>
 
             <p>A pergunta desta aula não é "o que é periferia" mas <strong>por que as cidades são divididas da forma que são, quem decide onde cada grupo social pode morar e quem lucra com essa divisão.</strong> Porque a segregação das cidades não é acidente nem resultado de escolhas individuais: é produto de políticas de habitação, do mercado imobiliário, da distribuição de infraestrutura e do poder político que decide onde o Estado investe.</p>
 
@@ -137,6 +137,10 @@
 
             <p>O resultado é que a <strong>localização dentro da cidade vira um fator de reprodução da desigualdade</strong>. Não é apenas que os pobres moram longe porque ganham menos: é que morar longe faz com que seja mais difícil ganhar mais, porque se perde mais tempo no transporte, gasta-se mais em deslocamento, e acessa-se escolas e serviços piores.</p>
 
+            <h3>Redlining: quando a segregação vira política de Estado</h3>
+
+            <p>O Brasil não inventou a segregação socioespacial, e olhar para fora ajuda a enxergar o padrão. Nos Estados Unidos dos anos 1930, uma agência federal criada durante o New Deal desenhou mapas de centenas de cidades americanas dividindo os bairros em quatro categorias de "risco" para empréstimos, da mais segura à mais arriscada. Bairros com moradores negros eram quase sempre marcados de vermelho, a categoria de maior risco, prática que ficou conhecida como <span class="termo" data-palavra="Redlining" data-definicao="Prática, institucionalizada nos Estados Unidos a partir dos anos 1930, de negar ou dificultar empréstimos e financiamentos imobiliários em bairros marcados de vermelho em mapas oficiais, geralmente áreas de maioria negra, com base no argumento de que representavam maior 'risco' financeiro. O termo hoje é usado de forma mais ampla para descrever qualquer prática, oficial ou informal, que nega investimento e acesso a crédito a um território com base na composição racial ou social de seus moradores.">redlining</span> (do inglês "linha vermelha"). Bancos e o próprio governo passaram décadas negando financiamento para comprar ou reformar imóveis nesses bairros, o que impediu a valorização dos imóveis, drenou investimento público e privado da região e aprofundou a desigualdade racial no acesso à moradia e ao patrimônio ao longo de gerações. A prática foi proibida por lei em 1968, mas pesquisas mostram que os bairros marcados de vermelho há quase um século ainda têm, hoje, menos árvores, mais ilhas de calor e menor valorização imobiliária que o resto da cidade. É a mesma lógica da segregação socioespacial brasileira, só que com um mapa oficial e um carimbo do Estado por trás dela.</p>
+
             <div class="w3-margin">
                 <img src="ts29f01.png" alt="Mapa de São Paulo mostrando a distribuição de renda por bairro e a correlação com acesso a serviços públicos"
                     class="w3-mobile"
@@ -146,7 +150,7 @@
 
             <h3>Segregação e clima: as ilhas de calor</h3>
 
-            <p>A desigualdade socioespacial também aparece no clima da cidade. Pesquisas da USP mostram que bairros periféricos como a Vila Jacuí, com pouca arborização e alta densidade de construções, registram no verão temperaturas até 8,8°C mais altas que bairros como o Jardim Paulista, que tem mais áreas verdes e sombra. Isso acontece porque o concreto e o asfalto retêm calor, enquanto árvores e parques ajudam a resfriar o ar: um fenômeno chamado <span class="termo" data-palavra="Ilha de Calor Urbana" data-definicao="Fenômeno climático em que áreas urbanas com muita construção, asfalto e pouca vegetação registram temperaturas mais altas que áreas com mais áreas verdes. Nas grandes cidades brasileiras, as ilhas de calor mais intensas costumam coincidir com bairros periféricos densamente construídos e pouco arborizados, o que faz da temperatura mais um efeito da desigualdade socioespacial.">ilha de calor urbana</span>. Como a arborização também segue a lógica da segregação (bairros ricos plantam e mantêm mais árvores, a periferia recebe menos investimento em praças e parques), o calor extremo se soma à lista de desvantagens de quem já enfrenta mais tempo de deslocamento e menos acesso a serviços.</p>
+            <p>A desigualdade socioespacial também aparece no clima da cidade. Pesquisas da USP mostram que bairros periféricos como a Vila Jacuí, na zona leste, com pouca arborização e alta densidade de construções, registram no verão temperaturas até 8,8°C mais altas que bairros como o Jardim Paulista, na zona oeste, que tem mais áreas verdes e sombra; no inverno, a diferença ainda chega a 7,9°C. Não é coincidência que os dois bairros também estejam nos extremos opostos do IDHM da cidade: 0,942 no Jardim Paulista contra 0,736 na Vila Jacuí. Isso acontece porque o concreto e o asfalto retêm calor, enquanto árvores e parques ajudam a resfriar o ar: um fenômeno chamado <span class="termo" data-palavra="Ilha de Calor Urbana" data-definicao="Fenômeno climático em que áreas urbanas com muita construção, asfalto e pouca vegetação registram temperaturas mais altas que áreas com mais áreas verdes. Nas grandes cidades brasileiras, as ilhas de calor mais intensas costumam coincidir com bairros periféricos densamente construídos e pouco arborizados, o que faz da temperatura mais um efeito da desigualdade socioespacial.">ilha de calor urbana</span>. Como a arborização também segue a lógica da segregação (bairros ricos plantam e mantêm mais árvores, a periferia recebe menos investimento em praças e parques), o calor extremo se soma à lista de desvantagens de quem já enfrenta mais tempo de deslocamento e menos acesso a serviços.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -197,6 +201,8 @@
 
             <p>No Brasil, exemplos de gentrificação incluem o bairro da Lapa em São Paulo, a Zona Portuária do Rio de Janeiro (revitalizada para a Copa e as Olimpíadas) e o Centro Histórico de Salvador. Em todos os casos, o discurso era de revitalização e desenvolvimento. Na prática, os moradores originais foram deslocados, e os novos usuários dos espaços são de renda muito superior.</p>
 
+            <p>O caso da Zona Portuária carioca, batizado de Porto Maravilha, mostra o tamanho do impacto: a operação urbana ocupou uma área de 5 milhões de m², ao redor de comunidades como Morro da Providência, Pedra Lisa, Morro da Conceição, Livramento, Morro do Pinto e São Diogo, onde viviam cerca de 30 mil pessoas. No Morro da Providência, a favela mais antiga do Rio, casas foram demolidas e uma praça histórica de lazer deu lugar a um teleférico inaugurado em 2014 ao custo de R$ 75 milhões, que ficou anos sem funcionar. Só a mobilização dos próprios moradores conseguiu reduzir em 70% o número de casas que seriam derrubadas no morro. É um exemplo de como a revitalização anunciada para toda a cidade, na prática, teve um preço concentrado sobre quem já morava ali havia gerações.</p>
+
             <p>A <span class="termo" data-palavra="Especulação Imobiliária" data-definicao="Prática de comprar terrenos ou imóveis não para uso, mas para revenda futura a preços maiores, retendo-os enquanto espera pela valorização da área. No Brasil, a especulação imobiliária contribui para o encarecimento do solo urbano, o espraiamento das cidades (já que os pobres precisam ir mais longe para encontrar terra barata) e a existência de grandes áreas vazias dentro das cidades enquanto falta moradia acessível.">especulação imobiliária</span> é o mecanismo econômico que está por trás de grande parte desse processo. Proprietários de terrenos retêm a terra esperando que a área valorize, sem construir ou usar o espaço. Isso encarece o solo urbano, empurra os pobres para terrenos mais distantes e cria cidades espraiadas e desconexas. O Estatuto da Cidade (lei federal de 2001) criou instrumentos para combater isso, como o IPTU progressivo e a usucapião urbana, mas sua aplicação é inconsistente.</p>
 
             <div class="w3-margin">
@@ -208,9 +214,11 @@
 
             <h3>Mobilidade urbana: quem pode se mover</h3>
 
-            <p>A <span class="termo" data-palavra="Mobilidade Urbana" data-definicao="Capacidade das pessoas de se deslocarem dentro da cidade para acessar trabalho, educação, saúde, lazer e outros serviços. Engloba todos os modos de transporte: a pé, de bicicleta, transporte público (ônibus, metrô, trem) e transporte individual (carro, moto, aplicativos). No Brasil, a mobilidade urbana é profundamente desigual: quem mora na periferia gasta muito mais tempo e dinheiro nos deslocamentos do que quem mora em áreas centrais.">mobilidade urbana</span> é a capacidade de as pessoas se deslocarem pela cidade. No Brasil, ela é radicalmente desigual. Quem tem carro particular ou mora perto do metrô se move com facilidade. Quem depende de ônibus na periferia pode gastar de 3 a 5 horas por dia em deslocamentos, além de pagar uma parcela significativa do salário em passagens. Segundo o Ipea, entre os 10% mais pobres da população, o transporte urbano consome cerca de 21,8% da renda familiar. No Rio de Janeiro, o Mapa da Desigualdade mostra que em regiões periféricas como Santa Cruz e a Baixada Fluminense, mais de um terço da renda mensal vai para as passagens de ônibus, enquanto quem mora em bairros de renda mais alta gasta menos de 5% com o mesmo tipo de deslocamento.</p>
+            <p>A <span class="termo" data-palavra="Mobilidade Urbana" data-definicao="Capacidade das pessoas de se deslocarem dentro da cidade para acessar trabalho, educação, saúde, lazer e outros serviços. Engloba todos os modos de transporte: a pé, de bicicleta, transporte público (ônibus, metrô, trem) e transporte individual (carro, moto, aplicativos). No Brasil, a mobilidade urbana é profundamente desigual: quem mora na periferia gasta muito mais tempo e dinheiro nos deslocamentos do que quem mora em áreas centrais.">mobilidade urbana</span> é a capacidade de as pessoas se deslocarem pela cidade. No Brasil, ela é radicalmente desigual. Quem tem carro particular ou mora perto do metrô se move com facilidade. Quem depende de ônibus na periferia pode gastar de 3 a 5 horas por dia em deslocamentos, além de pagar uma parcela significativa do salário em passagens. Segundo estudos do Ipea sobre mobilidade urbana, o transporte público pode consumir até 15% do orçamento das famílias mais pobres, uma fatia da renda muito maior do que a média nacional das famílias de todas as faixas de renda. No Rio de Janeiro, o Mapa da Desigualdade, publicado pela Casa Fluminense, mostra que em regiões periféricas como Santa Cruz e a Baixada Fluminense, mais de um terço da renda mensal vai para as passagens de ônibus, enquanto quem mora em bairros de renda mais alta e usa dois ônibus por dia gasta menos de 5% com o mesmo tipo de deslocamento.</p>
 
             <p>Essa imobilidade tem consequências diretas para a vida das pessoas: menos tempo com a família, mais dificuldade de estudar depois do trabalho, mais cansaço acumulado. E tem consequência também para a cidade: o trânsito caótico das metrópoles brasileiras é em grande parte resultado de um modelo de mobilidade que privilegiou o carro particular (com investimento em vias e vagas) em detrimento do transporte público de qualidade.</p>
+
+            <p>Nem toda cidade seguiu esse caminho, e vale conhecer os contraexemplos. Curitiba criou, ainda nos anos 1970, o primeiro sistema de ônibus de trânsito rápido do mundo, o BRT (Bus Rapid Transit), com corredores exclusivos, estações tubulares e embarque no nível do ônibus para ganhar velocidade parecida com a de um metrô a um custo muito menor. O modelo foi copiado por centenas de cidades, entre elas Bogotá, na Colômbia, cujo TransMilenio se tornou referência mundial de mobilidade de baixo custo. Já Medellín, também na Colômbia, ficou conhecida por instalar escadas rolantes públicas na Comuna 13, um morro pobre historicamente isolado pela violência do narcotráfico: uma subida de 384 metros, equivalente a cerca de 350 degraus, que os moradores antes enfrentavam a pé em 35 minutos passou a levar 6 minutos. Esses exemplos mostram que a desigualdade de mobilidade não é um destino inevitável: é resultado de escolhas de investimento público que podem, na prática, ser revertidas.</p>
 
             <div class="w3-margin">
                 <img src="ts29f03.png" alt="Gráfico comparando o tempo médio de deslocamento casa-trabalho para moradores de diferentes bairros de São Paulo"
@@ -274,7 +282,7 @@
 
             <p>No Brasil, o Estatuto da Cidade (2001) incorporou parte dessa ideia ao criar instrumentos jurídicos para garantir que a propriedade urbana cumpra sua função social. O IPTU progressivo pode taxar mais pesado terrenos ociosos em áreas valorizadas. A usucapião urbana especial garante o direito de moradia para quem ocupa pacificamente, sem oposição do proprietário, uma área de até 250 m² por mais de 5 anos. As Zonas Especiais de Interesse Social (ZEIS) reservam partes do solo urbano para habitação popular.</p>
 
-            <p>Na prática, porém, a aplicação dessas ferramentas depende de vontade política. Pouquíssimas prefeituras aplicam o IPTU progressivo de forma efetiva. O Programa Minha Casa Minha Vida, criado em 2009, já contratou 7,7 milhões de moradias em 15 anos de existência, mas boa parte dos empreendimentos das faixas de renda mais baixa foi construída em regiões distantes dos centros, com pouca oferta de emprego, comércio e transporte por perto, reforçando a periferização ao invés de combatê-la.</p>
+            <p>Na prática, porém, a aplicação dessas ferramentas depende de vontade política. Pouquíssimas prefeituras aplicam o IPTU progressivo de forma efetiva. O Programa Minha Casa Minha Vida, criado em 2009, chegou a 15 anos de existência em 2024 com 7,7 milhões de moradias contratadas, e a fase relançada em 2023 já projeta ultrapassar 3 milhões de novas unidades até 2026, com investimentos recordes. O problema é que boa parte dos empreendimentos das faixas de renda mais baixa foi construída em regiões distantes dos centros, com pouca oferta de emprego, comércio e transporte por perto, reforçando a periferização ao invés de combatê-la: quantidade de moradias entregues não é a mesma coisa que direito à cidade garantido.</p>
 
             <div class="w3-margin">
                 <img src="ts29f04.png" alt="Mapa mostrando a localização dos empreendimentos do Minha Casa Minha Vida em relação aos centros urbanos das principais cidades brasileiras"
@@ -285,10 +293,45 @@
 
             <h3>Favelas e comunidades urbanas: o que dizem os números</h3>
 
-            <p>O Censo 2022 do IBGE identificou 12.348 <span class="termo" data-palavra="Favelas e Comunidades Urbanas" data-definicao="Nome adotado pelo IBGE a partir do Censo 2022 para os aglomerados urbanos marcados por ocupação irregular do solo, alta densidade de moradias e, em geral, ausência ou precariedade de serviços públicos essenciais. Substituiu o termo 'aglomerado subnormal' usado nos censos anteriores. Em 2022, o Brasil tinha 12.348 dessas áreas, com 16,4 milhões de moradores.">favelas e comunidades urbanas</span> no Brasil, onde vivem 16,4 milhões de pessoas, o equivalente a 8,1% da população do país. Em 2010, eram 11,4 milhões de pessoas em 6.329 áreas do tipo (então chamadas de "aglomerados subnormais"), ou 6% da população. Parte do crescimento reflete melhorias na metodologia de mapeamento do IBGE, mas os números mostram que a periferização e a moradia precária seguem sendo uma realidade em expansão, não um problema em vias de solução.</p>
+            <p>O Censo 2022 do IBGE identificou 12.348 <span class="termo" data-palavra="Favelas e Comunidades Urbanas" data-definicao="Nome adotado pelo IBGE a partir do Censo 2022 para os aglomerados urbanos marcados por ocupação irregular do solo, alta densidade de moradias e, em geral, ausência ou precariedade de serviços públicos essenciais. Substituiu o termo 'aglomerado subnormal' usado nos censos anteriores. Em 2022, o Brasil tinha 12.348 dessas áreas, com 16,4 milhões de moradores.">favelas e comunidades urbanas</span> no Brasil, onde vivem 16,4 milhões de pessoas, o equivalente a 8,1% da população do país. Em 2010, eram 11,4 milhões de pessoas em 6.329 áreas do tipo (então chamadas de "aglomerados subnormais"), ou 6% da população. Parte do crescimento reflete melhorias na metodologia de mapeamento do IBGE, mas os números mostram que a periferização e a moradia precária seguem sendo uma realidade em expansão, não um problema em vias de solução. A distribuição pelo território surpreende quem pensa em favela só como um problema do Rio de Janeiro ou de São Paulo: a região Sudeste concentra 48,7% das favelas do país, mas é o Amazonas que tem a maior proporção da própria população nessa condição, 34,7%, seguido do Amapá (24,4%) e do Pará (18,8%). Das vinte maiores favelas e comunidades urbanas do Brasil, oito ficam na região Norte, sete só em Manaus, o que mostra que a urbanização acelerada e desigual da Amazônia criou um padrão de segregação socioespacial tão grave quanto o das grandes metrópoles do Sudeste.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Uma prefeitura decide aplicar o IPTU progressivo no tempo sobre um grande terreno vazio, mantido sem uso havia 15 anos numa área central e valorizada, forçando o proprietário a construir, vender ou pagar um imposto cada vez maior. Essa medida do Estatuto da Cidade tem como objetivo direto combater qual fenômeno urbano?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Mobilidade urbana</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Especulação imobiliária</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Ilha de calor urbana</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'terreno parado esperando valorizar e exatamente o alvo do IPTU progressivo: forcar o uso do solo urbano.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -326,11 +369,60 @@
 
             <p>Mesmo o calor que se sente mais forte em certos bairros e os muros dos condomínios fechados fazem parte dessa mesma história. A cidade brasileira foi organizada, ao longo de décadas, para concentrar conforto, sombra e segurança onde já havia dinheiro, e para empurrar o resto (calor, distância, insegurança) para onde a renda é menor. Entender isso não resolve o problema, mas muda a pergunta: em vez de perguntar por que "a periferia é assim", passa a fazer sentido perguntar quem decidiu que ela seria assim, e o que pode ser feito para mudar essa decisão.</p>
 
+            <p>A ilha de calor foi só o primeiro sintoma ambiental dessa desigualdade que vamos estudar. Na próxima aula, "Problemas socioambientais urbanos", vamos ver como a mesma lógica de ocupação desigual do espaço explica por que enchentes, inversão térmica e o descarte inadequado de lixo também castigam muito mais forte quem já mora nas áreas mais vulneráveis da cidade.</p>
+
             <p><strong>Resumo dos conceitos:</strong> segregação socioespacial (separação dos grupos sociais no espaço urbano); gentrificação (valorização que expulsa moradores originais); especulação imobiliária (retenção de terra esperando valorização); mobilidade urbana (capacidade de deslocamento na cidade); ilha de calor urbana (temperaturas mais altas em áreas com pouca vegetação); enclave fortificado (isolamento voluntário dos mais ricos em espaços murados); favelas e comunidades urbanas (termo do Censo 2022 para áreas de ocupação irregular e serviços precários); direito à cidade (acesso equitativo ao espaço e aos serviços urbanos); Estatuto da Cidade (lei brasileira que regula o uso do solo urbano).</p>
 
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9B: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots29" src="inforesumots29.webp"
+                    alt="Infográfico resumo O espaço das cidades - segregação socioespacial, gentrificação e mobilidade urbana" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9C: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>1. A socióloga Ruth Glass cunhou, em 1964, o termo que descreve a valorização de um bairro popular seguida da expulsão gradual de seus moradores originais. Qual é esse termo?</b></h4>
+            <input type="text" id="aberta1" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta1', 'gentrifica', 'respAberta1', this, 'globinhoAberta1')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>2. A socióloga Teresa Caldeira usou o termo "enclave fortificado" para descrever qual tipo de espaço urbano murado e vigiado por segurança privada?</b></h4>
+            <input type="text" id="aberta2" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta2', 'condom', 'respAberta2', this, 'globinhoAberta2')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide w3-margin-top" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -382,7 +474,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>Mapeando a desigualdade da sua cidade</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -402,7 +494,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é segregação socioespacial? Por que ela não é apenas uma consequência da diferença de renda entre as pessoas?</h3>
@@ -473,6 +565,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

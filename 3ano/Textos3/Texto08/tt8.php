@@ -113,28 +113,19 @@
             <h2> Introdução </h2>
 
 
-            <p> <span class="primeiraLetra">N</span>aula passada vimos que a Revolução Industrial mudou o mundo.
-                Máquinas a
-                vapor, produção têxtil mecanizada e ferrovias - tudo isso transformou a produção e a sociedade no final
-                do
-                século XVIII. </p>
+            <p> <span class="primeiraLetra">N</span>a aula passada vimos como a Revolução Industrial mudou o mundo.
+                Máquinas a vapor, produção têxtil mecanizada e ferrovias transformaram a produção e a sociedade a
+                partir do final do século XVIII.</p>
 
-            <p> Mas o que aconteceu depois dessa revolução inicial? Como chegamos ao mundo atual de alta tecnologia e
-                globalização? É isso que vamos explorar hoje! </p>
+            <p>Mas essa revolução não parou por aí. Hoje vamos entender como o processo de industrialização continuou
+                avançando ao longo do século XX até chegar ao mundo interconectado e de alta tecnologia em que
+                vivemos.</p>
 
-            <p>
-                No período atual, vivemos em um mundo interconectado, onde a informação e a tecnologia moldam nossa
-                economia
-                e nossas vidas de maneiras inimagináveis na época da Revolução Industrial. </p>
-
-            <p>Nesta aula, vamos desvendar o meio técnico-científico-informacional, entender o Fordismo, o Keynesianismo
-                e
-                como as multinacionais se encaixam na Nova Divisão Internacional do Trabalho (NDIT).</p>
-
-            <p>Por que é tão importante estudar tudo isso? Bem, compreender esses conceitos nos ajuda a decifrar a
-                complexidade da economia global de hoje. Além disso, nos prepara para analisar criticamente o mundo ao
-                nosso
-                redor, entendendo seus impactos sociais, econômicos e ambientais. Vamos lá!</p>
+            <p>Nesta aula, vamos conhecer o meio técnico-científico-informacional, entender o Fordismo e o
+                Keynesianismo, e ver como as empresas multinacionais se encaixam na Nova Divisão Internacional do
+                Trabalho (NDIT). Compreender esses conceitos ajuda a explicar por que a economia global funciona do
+                jeito que funciona hoje, com fábricas, sedes e centros de pesquisa espalhados por dezenas de países
+                diferentes.</p>
 
 
 
@@ -163,9 +154,9 @@
 
 
 
-            <p> Você já parou para pensar como nossas vidas foram transformadas pela <strong>industrialização</strong>?
-                Imagine sair da era das pequenas produções artesanais para um mundo de fábricas gigantescas, máquinas
-                avançadas e produtos em larga escala. Isso é a industrialização!</p>
+            <p>A <strong>industrialização</strong> mudou profundamente a forma como vivemos. Ela representa a
+                transição da produção artesanal em pequena escala para um sistema de fábricas, máquinas avançadas e
+                produtos fabricados em massa.</p>
 
             <div class="w3-margin"><img id="imagem2" src="tt08f02.png" alt="ts01f02" class="w3-mobile">
 
@@ -234,38 +225,36 @@
                 do Sul (4%). Esses números ajudam a explicar por que China, Índia e Alemanha se tornaram exemplos tão
                 citados quando o assunto é industrialização e globalização.</p>
 
-            <p> China, Índia e Alemanha são exemplos claros desse fenômeno. A China, conhecida por suas fábricas que
-                produzem de tudo, desde eletrônicos até roupas, se tornou uma potência manufatureira global. Isso
-                impulsionou sua economia a níveis estratosféricos, tornando-a uma das principais exportadoras do mundo.
-            </p>
+            <p>China, Índia e Alemanha ilustram bem esse cenário, cada uma à sua maneira. A China se tornou a "fábrica
+                do mundo", produzindo desde eletrônicos até roupas em escala industrial. Em 2024, suas exportações
+                somaram cerca de US$ 3,6 trilhões, quase 15% de tudo o que é exportado no planeta, o oitavo ano
+                seguido em que o país aparece como o maior exportador de mercadorias do mundo.</p>
 
             <div class="w3-margin"><img id="imagem3" src="tt08f03.png" alt="tt08f03" class="w3-mobile">
 
-                <span class="w3-small w3-margin-left" id="citacao3"> Cidade de Shenzhen, o “Vale do Silício chinês”.
-                    Fonte:
-                    https://gauchazh.clicrbs.coml</span>
+                <span class="w3-small w3-margin-left" id="citacao3"> Cidade de Shenzhen, o "Vale do Silício chinês".
+                    Fonte: gauchazh.clicrbs.com</span>
             </div>
 
 
 
 
-            <p> A Índia não ficou para trás! Com sua indústria de tecnologia da informação em alta, cidades como
-                Bangalore e
-                Hyderabad se destacam como centros globais de serviços de software e outsourcing. Um verdadeiro boom
-                tecnológico!</p>
+            <p>A Índia seguiu um caminho diferente, apostando na indústria de tecnologia da informação. Bangalore
+                abriga a Electronic City, um dos maiores parques industriais de eletrônicos do mundo, enquanto
+                Hyderabad concentra a HITEC City, sede de operações de gigantes como Microsoft e Google. As duas
+                cidades se tornaram centros globais de serviços de software e terceirização.</p>
 
             <div class="w3-margin"><img id="imagem4" src="tt08f04.png" alt="tt08f04" class="w3-mobile">
 
-                <span class="w3-small w3-margin-left" id="citacao4"> Bangalore, ìndia. Fonte: pexel.com </span>
+                <span class="w3-small w3-margin-left" id="citacao4"> Bangalore, Índia. Fonte: pexel.com </span>
             </div>
 
 
 
 
-            <p> E que tal a Alemanha? Ah, a Alemanha! Conhecida por sua indústria automobilística de renome mundial,
-                como
-                Volkswagen, BMW e Mercedes-Benz, ela é líder na produção de veículos e tecnologia automotiva. Os carros
-                alemães são sinônimos de qualidade e estão em alta demanda em todo o mundo.</p>
+            <p>A Alemanha, por sua vez, é conhecida por sua indústria automobilística de renome mundial. Com marcas
+                como Volkswagen, BMW e Mercedes-Benz, o país é líder na produção de veículos e tecnologia automotiva,
+                e seus carros são sinônimos de qualidade em alta demanda no mundo todo.</p>
 
             <div class="w3-margin"><img id="imagem5" src="tt08f05.png" alt="tt08f05" class="w3-mobile">
 
@@ -276,15 +265,16 @@
 
 
 
-            <p> Os dados confirmam esse peso da Ásia na indústria mundial. Desde 2014, a China é a maior economia do
+            <p>Os dados confirmam esse peso da Ásia na indústria mundial. Desde 2014, a China é a maior economia do
                 mundo em termos de PIB em paridade de poder de compra, embora os Estados Unidos ainda liderem quando
-                o cálculo usa o câmbio de mercado. A Índia, por sua vez, é hoje a segunda maior produtora de aço do
-                mundo, atrás apenas da própria China, o que reflete seu crescimento industrial acelerado nas últimas
-                décadas. </p>
+                o cálculo usa o câmbio de mercado. A Índia, por sua vez, produziu 149,6 milhões de toneladas de aço
+                bruto em 2024, o que a mantém como a segunda maior produtora mundial, atrás apenas da própria China e
+                à frente do Japão, terceiro colocado, reflexo direto do crescimento industrial acelerado indiano nas
+                últimas décadas.</p>
 
-            <p>Mas nem tudo são flores. A industrialização também traz seus desafios. Como lidar com os impactos no meio
-                ambiente? E a migração das áreas rurais para as urbanas, quais os impactos sociais? E a desigualdade
-                econômica, como ela é afetada pela concentração de indústrias em determinadas regiões? </p>
+            <p>Esse avanço, no entanto, tem um preço. A industrialização também traz desafios importantes, como os
+                impactos ambientais da produção em larga escala, a migração acelerada do campo para as cidades e a
+                desigualdade econômica gerada pela concentração de indústrias em determinadas regiões.</p>
 
 
 
@@ -328,13 +318,13 @@
 
 
 
-            <p>Vamos agora adentrar o mundo do <span class="termo"
+            <p>O conceito de <span class="termo"
                     data-palavra="Meio Técnico-Científico-Informacional (MTCI)"
                     data-definicao="Conceito de Milton Santos para a fase atual do espaço geográfico, marcada pela
                     fusão entre técnica, ciência e informação a serviço da produção globalizada.">Meio
-                    Técnico-Científico-Informacional</span>, ou simplesmente MTCI. Esse conceito, cunhado pelo
-                geógrafo brasileiro Milton Santos, é essencial para compreendermos a era contemporânea e a forma como a
-                tecnologia e a informação moldam nossa sociedade. </p>
+                    Técnico-Científico-Informacional</span>, ou MTCI, foi cunhado pelo geógrafo brasileiro Milton
+                Santos para descrever a fase atual da produção do espaço geográfico, marcada pela fusão entre
+                técnica, ciência e informação a serviço da economia globalizada.</p>
 
             <div class="w3-margin"><img id="imagem6" src="tt08f06.png" alt="tt08f06" class="w3-mobile">
 
@@ -349,23 +339,22 @@
 
             <h3> Importância do MTCI na Era Contemporânea</h3>
 
-            <p> Para entendermos a importância do MTCI, basta olharmos ao nosso redor: smartphones que conectam pessoas
-                em
-                diferentes continentes, fábricas automatizadas que produzem em alta escala, algoritmos que guiam as
-                decisões
-                financeiras. Tudo isso faz parte do MTCI.</p>
+            <p>O MTCI aparece em praticamente tudo o que envolve produção hoje: smartphones que conectam pessoas em
+                diferentes continentes, fábricas automatizadas, algoritmos que orientam decisões financeiras. O grau
+                de automação, porém, varia muito de país para país.</p>
 
-            <p> Na era contemporânea, o MTCI se tornou um pilar fundamental da economia, impulsionando a inovação, a
-                produtividade e a competitividade das nações no cenário global.</p>
+            <h3>Como a Tecnologia e a Informação Moldam os Processos Industriais</h3>
 
-            <h3> Como a Tecnologia e a Informação Moldam os Processos Industriais e a Economia Global</h3>
+            <p>A densidade de robôs industriais, medida pelo número de robôs para cada 10 mil trabalhadores da
+                manufatura, ajuda a visualizar essa diferença. Em 2023, a Coreia do Sul liderava esse ranking com
+                1.012 robôs por 10 mil trabalhadores, mais de seis vezes a média mundial, puxada pelos setores
+                eletrônico e automobilístico de empresas como Samsung e Hyundai. Cingapura vinha em segundo lugar
+                (730), seguida por Alemanha (415) e Estados Unidos (285).</p>
 
-            <p> Vamos agora mergulhar um pouco mais fundo nesse universo. A tecnologia e a informação estão
-                intrinsecamente
-                ligadas aos processos industriais modernos.</p>
-
-            <p>Por exemplo, a automação nas fábricas permite uma produção mais eficiente e rápida, reduzindo custos e
-                aumentando a competitividade das empresas no mercado global.</p>
+            <p>Essa automação permite uma produção mais eficiente e rápida, reduzindo custos e aumentando a
+                competitividade das empresas no mercado global, mas também exige cada vez menos mão de obra por
+                unidade produzida, um fator que ajuda a explicar por que a industrialização de hoje gera
+                proporcionalmente menos empregos industriais do que gerava há um século.</p>
 
             <div class="w3-margin"><img id="imagem7" src="tt08f07.png" alt="tt08f07" class="w3-mobile">
                 <span class="w3-small w3-margin-left" id="citacao7"> Automação nas fábricas. Fonte: Pixalbay. </span>
@@ -410,19 +399,18 @@
 
             <p>Para entendermos melhor a aplicação do MTCI, podemos comparar diferentes países:</p>
 
-            <p><strong>Estados Unidos:</strong> Uma potência no uso do MTCI, os Estados Unidos são líderes em inovação
-                tecnológica. Empresas
-                como Google, Apple e Amazon são exemplos de como a tecnologia impulsiona a economia americana.</p>
+            <p><strong>Estados Unidos:</strong> lideram a pesquisa e o desenvolvimento tecnológico mundial. Empresas
+                como Google, Apple e Amazon concentram grande parte do investimento global em inovação e moldam
+                setores inteiros da economia digital.</p>
 
-            <p><strong>Japão</strong>: Conhecido pela sua eficiência e precisão, o Japão utiliza o MTCI em sua indústria
-                automotiva, na
-                robótica e em sistemas de transporte avançados.</p>
+            <p><strong>Japão:</strong> aplica o MTCI sobretudo na indústria automotiva e na robótica, área em que se
+                mantém entre os países mais avançados do mundo, em parte como resposta ao envelhecimento acelerado de
+                sua população e à consequente escassez de mão de obra.</p>
 
-
-            <p><strong>Brasil</strong>: O Brasil ainda está em processo de adoção plena do MTCI, mas já vemos avanços.
-                Startups de
-                tecnologia, aplicativos de serviços e automação industrial são alguns exemplos do uso crescente da
-                tecnologia no país.</p>
+            <p><strong>Brasil:</strong> ainda está em processo de adoção mais ampla do MTCI, mas os números já são
+                relevantes: o país reúne cerca de 20 mil startups ativas e entre 22 e 25 empresas com valor de mercado
+                superior a US$ 1 bilhão, o chamado status de unicórnio, o maior ecossistema desse tipo na América
+                Latina, hoje espalhado por cidades como São Paulo, Florianópolis, Recife e Belo Horizonte.</p>
 
 
 
@@ -542,27 +530,24 @@
 
             <h3> Keynesianismo: O Estado como Regulador da Economia</h3>
 
-            <p> Agora vamos falar do Keynesianismo, uma abordagem econômica que ganhou destaque após a Grande Depressão
-                nos
-                anos 1930. Imagina o caos econômico daquela época, com desemprego em alta e empresas fechando as portas.
-            </p>
+            <p>O Keynesianismo é uma abordagem econômica que ganhou destaque após a Grande Depressão dos anos 1930,
+                período de desemprego em massa e falências em cadeia nos Estados Unidos e na Europa.</p>
 
-            <p> Foi aí que John Maynard Keynes entrou em cena com uma ideia inovadora: o Estado precisava intervir na
-                economia para estimular o crescimento. Ele propôs aumentar os gastos públicos em momentos de crise,
-                investir
-                em obras públicas e reduzir impostos para incentivar o consumo.</p>
+            <p>Foi nesse contexto que o economista britânico John Maynard Keynes propôs uma ideia então considerada
+                radical: o Estado precisava intervir ativamente na economia para estimular o crescimento, em vez de
+                simplesmente deixar o mercado se ajustar sozinho. Ele defendia aumentar os gastos públicos em momentos
+                de crise, investir em obras públicas e reduzir impostos para incentivar o consumo.</p>
 
-            <p> E olha só que interessante, pessoal! O Brasil, lá nos anos 1950 e 1960, abraçou o Keynesianismo com o
-                governo de Juscelino Kubitschek. A construção de Brasília e a implementação de políticas de
-                industrialização
-                foram alguns dos resultados dessa abordagem.</p>
+            <p>O Brasil aplicou boa parte desses princípios nos anos 1950, no governo de Juscelino Kubitschek, sob o
+                lema "cinquenta anos em cinco". A construção de Brasília e o Plano de Metas, que priorizou energia,
+                transporte e indústria de base, foram exemplos diretos dessa política de investimento público pesado
+                para acelerar a industrialização do país.</p>
 
             <h4>Duas Ideias, um Impacto Global</h4>
 
-            <p>E assim, pessoal, vimos como o Fordismo revolucionou a produção em massa, tornando produtos acessíveis
-                para o
-                grande público. E o Keynesianismo trouxe a noção de que o Estado pode e deve intervir na economia para
-                promover o crescimento e estabilidade.</p>
+            <p>O Fordismo revolucionou a produção em massa, tornando produtos antes restritos a poucos acessíveis
+                para o grande público. O Keynesianismo, por sua vez, consolidou a ideia de que o Estado pode e deve
+                intervir na economia para promover crescimento e estabilidade.</p>
 
             <p>Essas ideias, que surgiram em contextos históricos diferentes, tiveram um impacto global. De carros nos
                 Estados Unidos à produção de tecnologia no Japão, do crescimento econômico no Brasil às políticas de
@@ -586,10 +571,9 @@
 
 
 
-            <p> Para começar, vamos entender o que são as empresas multinacionais. São aquelas grandes empresas que
-                operam
-                em diversos países ao redor do mundo, não se limitando às fronteiras nacionais. Elas têm uma presença
-                poderosa e influente na economia global, muitas vezes dominando setores inteiros.</p>
+            <p>Empresas multinacionais são grandes empresas que operam em diversos países ao redor do mundo, não se
+                limitando às fronteiras nacionais. Elas têm presença poderosa e influente na economia global, muitas
+                vezes dominando setores inteiros.</p>
 
             <p>As grandes empresas formadas desde o final do século XIX, a partir de trustes e oligopólios, tinham
                 suas sedes nos países do centro do espaço mundial, como Estados Unidos, países da Europa Ocidental e
@@ -617,11 +601,9 @@
                 fabricam mais seus produtos, apenas cuidam do projeto e da manutenção da marca, enquanto a produção
                 dos componentes fica a cargo de indústrias instaladas onde a mão de obra é mais barata.</p>
 
-            <p> Vamos pensar em exemplos concretos. A gigante do varejo, Walmart, é um exemplo clássico de
-                multinacional.
-                Com lojas em mais de 25 países e uma enorme cadeia de suprimentos, o Walmart é uma força a ser
-                considerada
-                no mundo do comércio global.</p>
+            <p>O Walmart é um exemplo clássico de transnacional do varejo. A rede opera mais de 10.750 lojas em 19
+                países, com uma cadeia de suprimentos tão grande que a torna a maior empregadora privada do mundo,
+                com mais de 2 milhões de funcionários.</p>
 
             <div class="w3-margin"><img id="imagem9" src="tt08f09.png" alt="tt08f09" class="w3-mobile">
 
@@ -757,8 +739,182 @@
         </div>
 
 
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    A Coreia do Sul lidera o ranking mundial de robôs industriais por 10 mil trabalhadores. O que
+                    esse indicador ajuda a mostrar sobre um país?
+                </b>
+            </h4>
 
-        
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) O tamanho total da população economicamente ativa do país.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) O grau de automação da indústria daquele país.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) O número total de empresas multinacionais instaladas no país.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'Quanto mais robôs por trabalhador, mais automatizada é a indústria daquele país!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    Qual alternativa resume corretamente a principal diferença entre o Fordismo e o Toyotismo?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) O Fordismo produzia sob demanda, e o Toyotismo produzia em série.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) O Fordismo padronizava a produção em massa, enquanto o Toyotismo priorizava a
+                            flexibilidade e a produção sob demanda (just in time).</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Os dois sistemas são idênticos, mudando apenas o país de origem.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'Fordismo é padronização em massa, Toyotismo é flexibilidade sob demanda!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <h4 class="fontePixel">
+                <b>
+                    O que caracteriza a Nova Divisão Internacional do Trabalho (NDIT)?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao">
+                        <span>a) A concentração de toda a produção de um bem em um único país.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao">
+                        <span>b) A fragmentação das etapas de produção de um mesmo bem entre diferentes países,
+                            coordenada por empresas transnacionais.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao">
+                        <span>c) O fim do comércio internacional entre países desenvolvidos e em desenvolvimento.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Um carro projetado nos EUA, com peças da China, montado no México: essa é a lógica da NDIT!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, qual é o nome do sistema toyotista em que os insumos chegam à linha de produção
+                exatamente no momento em que são necessários, eliminando a necessidade de grandes estoques?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a8t8" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a8t8"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a8t8', 'time', 'resp1a8t8', this, 'globinho1a8t8')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a8t8" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, complete o lema do governo de Juscelino Kubitschek: "cinquenta anos em ___"?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a8t8" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a8t8"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a8t8', 'cinco', 'resp2a8t8', this, 'globinho2a8t8')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a8t8" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
         <div class="topico">
 
             <h2> Infográfico - Resumo</h2>
@@ -848,7 +1004,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno</h2>
 
                 <h3>1. O que é a Terceira Revolução Industrial e por que ela também é chamada de Revolução
@@ -933,6 +1089,11 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

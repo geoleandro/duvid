@@ -30,11 +30,13 @@
         }
 
         const title = window.CAROUSEL_TITLE || '';
+        const fit = window.CAROUSEL_FIT || 'cover';
+        const ratio = window.CAROUSEL_RATIO || '4/3';
 
         root.innerHTML = `
         <div class="ic-wrap">
             ${title ? `<div class="ic-title">${_esc(title)}</div>` : ''}
-            <div class="ic-stage" id="ic-stage">
+            <div class="ic-stage" id="ic-stage" style="--ic-fit:${_esc(fit)};--ic-ratio:${_esc(ratio)};">
                 <div class="ic-track" id="ic-track">
                     ${images.map((img, i) => `
                         <div class="ic-slide" data-idx="${i}">

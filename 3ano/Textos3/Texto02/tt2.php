@@ -153,7 +153,11 @@
                 predominantemente agrícola e dependente de variáveis climáticas, o que restringia a capacidade de
                 suporte para um crescimento acelerado.</p>
 
-
+            <p>O exemplo mais dramático desse regime demográfico antigo é a Peste Negra, que entre 1347 e 1351
+                dizimou entre 30% e 50% da população europeia. Episódios como esse mostram como, nesse período,
+                natalidade e mortalidade caminhavam quase sempre juntas: mesmo com muitos nascimentos, uma única
+                epidemia, guerra ou colheita perdida podia apagar décadas de crescimento populacional em poucos
+                anos.</p>
 
             <div class="w3-margin"><img id="imagem1" src="tt02f01.png" alt="tt02f01" class="w3-mobile"><span
                     class="w3-small w3-margin-left" id="citacao1"> </span></div>
@@ -212,10 +216,10 @@
                 registrando queda populacional puxada por décadas de baixa fecundidade. Segundo a revisão de 2024 das
                 projeções da ONU, o planeta deve atingir seu pico populacional na década de 2080, com cerca de 10,3
                 bilhões de habitantes, para então iniciar um declínio gradual. Mais da metade desse crescimento
-                projetado entre 2026 e 2050 deve se concentrar em apenas oito países, quatro asiáticos (Índia,
-                Indonésia, Filipinas e Paquistão) e quatro africanos (Etiópia, República Democrática do Congo, Egito
-                e Tanzânia), reforçando que o centro de gravidade demográfico do planeta está se deslocando cada vez
-                mais para a Ásia e a África.</p>
+                projetado até 2050 deve se concentrar em apenas oito países: três asiáticos (Índia, Paquistão e
+                Filipinas) e cinco africanos (Etiópia, República Democrática do Congo, Egito, Nigéria e Tanzânia),
+                reforçando que o centro de gravidade demográfico do planeta está se deslocando cada vez mais para a
+                África.</p>
 
             <div class="w3-margin"><img id="imagem2" src="tt02f02.png" alt="tt02f02" class="w3-mobile"><span
                     class="w3-small w3-margin-left" id="citacao2"> Fonte:
@@ -232,7 +236,13 @@
                 sustentabilidade, planejamento urbano e integração de imigrantes, visando o equilíbrio entre os recursos
                 disponíveis e as necessidades das populações locais.</p>
 
-
+            <p>Uma ferramenta muito usada para visualizar essa heterogeneidade é a pirâmide etária, um gráfico de
+                barras horizontais que representa a população por sexo e faixa de idade. Países em fase de explosão
+                demográfica têm uma base larga (muitas crianças e jovens) e um topo estreito (poucos idosos), formando
+                um triângulo quase perfeito. Já países envelhecidos, como Japão e Alemanha, têm o formato inverso: base
+                estreita e topo alargado, lembrando mais um losango ou uma "ogiva" do que uma pirâmide. Comparar o
+                formato dessas pirâmides entre diferentes países é uma das formas mais diretas de identificar em que
+                fase da transição demográfica cada um se encontra.</p>
 
             <h3> Análise do Crescimento Populacional: Indicadores Demográficos</h3>
 
@@ -406,9 +416,74 @@
 
             </div>
 
+            <h3>Do controle à falta de natalidade: as políticas natalistas</h3>
+
+            <p>Hoje, boa parte dos países ricos enfrenta o problema inverso ao que preocupava os neomalthusianistas:
+                fecundidade baixa demais para repor a população, o que ameaça a força de trabalho e o financiamento da
+                previdência no longo prazo. Governos nessa situação recorrem a políticas natalistas, o oposto do
+                controle de natalidade: isenções fiscais, licença-maternidade estendida, creches gratuitas e
+                pagamentos diretos por filho nascido.</p>
+
+            <p>A Hungria oferece, desde 2020, isenção vitalícia do imposto de renda para mulheres que criam quatro
+                filhos ou mais. O caso mais extremo, porém, é o da Coreia do Sul: em 2023, a taxa de fecundidade caiu
+                para 0,72 filho por mulher, a mais baixa já registrada em qualquer país do mundo, mesmo após o governo
+                gastar bilhões de dólares em incentivos à natalidade ao longo de duas décadas. O resultado mostra que
+                o problema tem raízes culturais e econômicas mais profundas do que dinheiro sozinho consegue
+                resolver: custo de moradia, jornadas de trabalho exaustivas e desigualdade de gênero nas tarefas
+                domésticas pesam tanto quanto qualquer incentivo financeiro.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
 
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Qual a principal diferença entre o malthusianismo e o neomalthusianismo?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1b" id="p1ba" value="errado" class="radio-duvid">
+                    <label for="p1ba" class="card-opcao">
+                        <span>
+                            São a mesma teoria
+                        </span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1b" id="p1bb" value="correto" class="radio-duvid">
+                    <label for="p1bb" class="card-opcao">
+                        <span>
+                            Malthus via fome como freio natural; neomalthusianismo defende controle direto da
+                            natalidade
+                        </span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1b" id="p1bc" value="errado" class="radio-duvid">
+                    <label for="p1bc" class="card-opcao">
+                        <span>
+                            Neomalthusianismo nega o crescimento populacional
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1b', 'resp1b', 'globinho1b', 'Malthus apostava em fome e epidemias como freios naturais; os neomalthusianistas defendiam planejamento familiar e controle direto da natalidade.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1b" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1b" style="display:none" width="80" height="80"
+                    alt="globinho1b">
+            </div>
         </div>
 
 
@@ -450,7 +525,12 @@
                 extrema pobreza apresentam números consideravelmente inferiores, evidenciando o impacto do meio social
                 na biologia humana.</p>
 
-
+            <p>Os extremos globais ilustram bem essa distância. O Japão tem a maior expectativa de vida do mundo entre
+                os países grandes, cerca de 84 anos em 2023, resultado de um sistema de saúde universal, dieta
+                equilibrada e baixos índices de violência. No outro extremo está o Chade, no centro da África, onde a
+                expectativa de vida gira em torno de 55 anos, reflexo da combinação entre conflitos armados, acesso
+                precário a saneamento básico e escassez de infraestrutura médica. Uma diferença de quase 30 anos entre
+                dois países que existem no mesmo planeta e na mesma década.</p>
 
             <h3>Crescimento Vegetativo e Crescimento Real </h3>
 
@@ -593,6 +673,13 @@
                     demográfico moderno).</li>
             </ul>
 
+            <p>Exemplos atuais ajudam a fixar o modelo. O Níger, no oeste da África, ainda vive a fase 2: mortalidade
+                em queda, mas fecundidade entre as mais altas do planeta, o que resulta no crescimento populacional
+                mais rápido do mundo. O Brasil e a maior parte da América Latina estão na fase 3, com natalidade em
+                queda acelerada nas últimas décadas, mas ainda crescendo. Já países como Japão, Alemanha e Itália
+                estão na fase 4, com crescimento vegetativo próximo de zero ou negativo, situação que, décadas atrás,
+                nenhum modelo demográfico previa como possível em escala tão ampla.</p>
+
             <p>Os números recentes confirmam essa tendência em escala mundial: no final da década de 1960, a taxa
                 média global de fecundidade era mais do que o dobro da registrada em 2022, e em 2020 a taxa de
                 crescimento demográfico do mundo ficou abaixo de 1% ao ano pela primeira vez desde 1950. Em 2022,
@@ -630,6 +717,15 @@
                 e a população inativa (jovens e aposentados). O equilíbrio entre esses grupos é fundamental para a
                 manutenção do dinamismo econômico e do bem-estar social.</p>
 
+            <p>Esse equilíbrio é medido pela razão de dependência: quanto maior a proporção de crianças e idosos em
+                relação à PEA, mais pessoas cada trabalhador ativo precisa sustentar, seja diretamente, seja por meio
+                de impostos e contribuições previdenciárias. Países que envelhecem rápido, como o Brasil, vivem hoje
+                uma janela chamada bônus demográfico, com a PEA proporcionalmente maior do que nunca. Essa janela,
+                porém, tende a se fechar nas próximas décadas, à medida que a geração atual de adultos se aposenta e
+                é substituída por gerações cada vez menores. Planejar essa transição com antecedência, em vez de
+                reagir a ela quando o problema já estiver instalado, é um dos maiores desafios de política pública
+                que o Brasil enfrentará nas próximas décadas.</p>
+
             <h3>Fatores da Distribuição Populacional</h3>
 
             <p>A ocupação humana no espaço geográfico é influenciada por <strong>fatores naturais</strong> e
@@ -663,6 +759,91 @@
 
         </div>
 
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Em qual fase da transição demográfica o crescimento populacional é mais
+                    acelerado?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1c" id="p1ca" value="errado" class="radio-duvid">
+                    <label for="p1ca" class="card-opcao">
+                        <span>
+                            Fase 1
+                        </span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1c" id="p1cb" value="correto" class="radio-duvid">
+                    <label for="p1cb" class="card-opcao">
+                        <span>
+                            Fase 2
+                        </span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1c" id="p1cc" value="errado" class="radio-duvid">
+                    <label for="p1cc" class="card-opcao">
+                        <span>
+                            Fase 4
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1c', 'resp1c', 'globinho1c', 'Na fase 2 a mortalidade já caiu, mas a natalidade segue alta, gerando o maior descompasso e o crescimento mais rápido.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1c" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1c" style="display:none" width="80" height="80"
+                    alt="globinho1c">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o Censo 2022 do IBGE, que percentual da população brasileira tem 65 anos ou mais?</p>
+            <div class="w3-margin">
+                <input class="input" id="abertaP1t2" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="respAbertaP1t2"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('abertaP1t2', '10,9', 'respAbertaP1t2', this, 'globinhoAberta1t2')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinhoAberta1t2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Desde 2023, qual país ultrapassou a China e se tornou o mais populoso do mundo?</p>
+            <div class="w3-margin">
+                <input class="input" id="abertaP2t2" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="respAbertaP2t2"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('abertaP2t2', 'ndia', 'respAbertaP2t2', this, 'globinhoAberta2t2')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinhoAberta2t2" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
 
 
         <div class="topico">
@@ -782,7 +963,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
 
                 <h3>1. Explique o conceito de Revolução Demográfica e como ela impactou o crescimento populacional
@@ -870,6 +1051,11 @@
                 </h3>
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div><br><br>
 

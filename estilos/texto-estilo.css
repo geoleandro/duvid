@@ -2272,3 +2272,133 @@ body.dark-mode .texto-content-inner .w3-modal-content .w3-display-topright.w3-re
     /* Evitar quebra de página no meio de parágrafo */
     p, h2, h3, h4 { page-break-inside: avoid; orphans: 3; widows: 3; }
 }
+
+/* ══════════════════════════════════════════════════════════════════
+   Personagens automáticos nos textos (piloto: texto-modelo.php)
+   Jéssica pergunta / Globinho destaca — inseridos por JS a cada
+   tópico revelado que tenha conteúdo de leitura real
+   (ver fim de jstextos-padrao.js).
+   Sprites: /fotoIndex/jessica/jessica-spritesheet.png e
+            /fotoIndex/globinho/globinho-walk.png
+   (128px por quadro, sheet 1024x256 = 8 colunas x 2 linhas —
+   linha 1 = idle, 2 quadros)
+   ══════════════════════════════════════════════════════════════════ */
+
+.texto-personagem-callout {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 24px 0;
+    animation: texto-personagem-entra .5s cubic-bezier(.34,1.1,.64,1) both;
+}
+
+@keyframes texto-personagem-entra {
+    from { opacity: 0; transform: translateX(-60px); }
+    to   { opacity: 1; transform: translateX(0); }
+}
+
+.texto-personagem-callout--saindo {
+    animation: texto-personagem-sai .5s ease forwards !important;
+    pointer-events: none;
+}
+@keyframes texto-personagem-sai {
+    from { opacity: 1; transform: translateY(0); }
+    to   { opacity: 0; transform: translateY(-8px); }
+}
+
+.texto-personagem-sprite {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+}
+
+/* Balão no mesmo estilo do balão do Jéssica/Globinho andando na home
+   (jessica-walker.js) — fundo creme, borda preta, sombra dura, sem blur.
+   Aqui a seta aponta pra esquerda (pro personagem), em vez de pra baixo,
+   porque o layout é lado a lado, não personagem-em-pé-com-balão-em-cima. */
+.texto-personagem-balao {
+    position: relative;
+    max-width: 420px;
+    background: #fffde7;
+    color: #222;
+    border: 2px solid #333;
+    box-shadow: 3px 3px 0 #333;
+    padding: 13px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 1.5;
+}
+
+.texto-personagem-balao::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    transform: translateY(-50%);
+    border: 6px solid transparent;
+    border-right-color: #333;
+}
+
+.texto-personagem-balao p {
+    margin: 0;
+}
+
+body.dark-mode .texto-personagem-balao {
+    background: #1a2035;
+    color: #e0e0e0;
+    border-color: #90caf9;
+    box-shadow: 3px 3px 0 #90caf9;
+}
+body.dark-mode .texto-personagem-balao::after {
+    border-right-color: #90caf9;
+}
+
+.texto-personagem-callout--globinho .texto-personagem-sprite {
+    background-image: url('/fotoIndex/globinho/globinho-walk.png');
+    background-size: 512px 128px;
+    background-position: 0px -64px;
+    animation: texto-callout-idle-globinho .6s steps(2) infinite;
+}
+@keyframes texto-callout-idle-globinho {
+    from { background-position: 0px -64px; }
+    to   { background-position: -128px -64px; }
+}
+
+/* Jéssica — pergunta pra fixar o aprendizado */
+.texto-personagem-callout--jessica .texto-personagem-sprite {
+    background-image: url('/fotoIndex/jessica/jessica-spritesheet.png');
+    background-size: 512px 128px;
+    background-position: 0px -64px;
+    transform: scaleX(-1);
+    animation: texto-callout-idle-jessica .6s steps(2) infinite;
+}
+@keyframes texto-callout-idle-jessica {
+    from { background-position: 0px -64px; }
+    to   { background-position: -128px -64px; }
+}
+
+@media (max-width: 600px) {
+    .texto-personagem-sprite { width: 48px; height: 48px; }
+    .texto-personagem-callout--globinho .texto-personagem-sprite {
+        background-size: 384px 96px;
+        background-position: 0px -48px;
+        animation: texto-callout-idle-globinho-mob .6s steps(2) infinite;
+    }
+    .texto-personagem-callout--jessica .texto-personagem-sprite {
+        background-size: 384px 96px;
+        background-position: 0px -48px;
+        transform: scaleX(-1);
+        animation: texto-callout-idle-jessica-mob .6s steps(2) infinite;
+    }
+    @keyframes texto-callout-idle-globinho-mob {
+        from { background-position: 0px -48px; }
+        to   { background-position: -96px -48px; }
+    }
+    @keyframes texto-callout-idle-jessica-mob {
+        from { background-position: 0px -48px; }
+        to   { background-position: -96px -48px; }
+    }
+}

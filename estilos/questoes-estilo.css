@@ -897,7 +897,7 @@ body.dark-mode .option-badge {
 }
 
 body.dark-mode .radio-duvid:checked + .card-opcao {
-    background: #1a2e1a !important;
+    background: #252525 !important;
     border-color: #4caf50 !important;
 }
 
@@ -907,7 +907,7 @@ body.dark-mode .radio-duvid:checked + .card-opcao .option-badge {
 }
 
 body.dark-mode .card-opcao.correta-visual {
-    background: #1a2e1a !important;
+    background: #252525 !important;
     border-color: #4caf50 !important;
 }
 

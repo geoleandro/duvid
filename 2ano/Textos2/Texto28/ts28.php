@@ -137,9 +137,9 @@
 
             <p><strong>1. Metrópoles:</strong> são apenas 15 no país inteiro. São Paulo é a grande metrópole nacional, no topo de tudo; Rio de Janeiro e Brasília são metrópoles nacionais; e completam o grupo Belém, Belo Horizonte, Curitiba, Fortaleza, Goiânia, Manaus, Porto Alegre, Recife, Salvador, além de Campinas, Florianópolis e Vitória, incorporadas a esse nível na atualização do REGIC de 2018. Campinas chamou atenção por ser a única metrópole do país que não é capital de estado. Juntas, as 15 metrópoles concentram funções nacionais ou macrorregionais: sedes de governo, grandes hospitais universitários, bolsas de valores, universidades federais completas.</p>
 
-            <p><strong>2. Capitais regionais:</strong> são 97 no Brasil, cidades como Santos, Campo Grande, Teresina e São Luís. Servem como referência para uma região mais ampla, com serviços médios e alta complexidade, mas dependem das metrópoles vizinhas para o que é mais raro.</p>
+            <p><strong>2. Capitais regionais:</strong> são 97 no Brasil, subdivididas em três faixas conforme o tamanho da área de influência (A, B e C). Cidades como Teresina, São Luís e Campo Grande estão nesse nível, assim como Uberlândia e Ribeirão Preto, que apesar de não serem capitais de estado, cresceram o suficiente para virar referência regional. Servem como referência para uma região mais ampla, com serviços médios e alta complexidade, mas dependem das metrópoles vizinhas para o que é mais raro. É comum um aluno confundir capital regional com capital de estado: a classificação do REGIC não tem relação com o cargo político da cidade, e sim com o alcance real da sua área de influência.</p>
 
-            <p><strong>3. Centros sub-regionais:</strong> são 352, como Uberlândia, Sorocaba, Maringá e Ribeirão Preto. Atendem vários municípios menores ao redor com serviços de nível intermediário.</p>
+            <p><strong>3. Centros sub-regionais:</strong> são 352, atendendo vários municípios menores ao redor com serviços de nível intermediário, mas com área de influência bem mais restrita que uma capital regional. É o caso de Sertãozinho (SP), que atende parte da região canavieira ao redor de Ribeirão Preto, e de Cajazeiras e Patos, no interior da Paraíba, que funcionam como referência para um punhado de municípios vizinhos sem alcançar o peso regional de uma capital.</p>
 
             <p><strong>4. Centros de zona:</strong> somam 398 cidades de pequeno porte que servem como referência local para poucos municípios vizinhos.</p>
 
@@ -153,6 +153,12 @@
             </div>
 
             <p>Cada cidade de referência forma, ao seu redor, uma <span class="termo" data-palavra="Área de Influência" data-definicao="Território formado pelos municípios que recorrem a uma cidade de referência (polo) para acessar bens e serviços que não encontram localmente, como hospitais especializados, universidades, tribunais e grandes redes de comércio. É o critério central usado pelo REGIC para definir o nível hierárquico de cada cidade: quanto maior e mais distante a área de influência, mais alto o posto na hierarquia urbana.">área de influência</span>: o conjunto de municípios vizinhos que dependem dela para serviços mais complexos. É assim que o IBGE constrói o REGIC na prática: entrevista prefeituras e moradores perguntando para onde vão buscar o que falta na própria cidade, e desenha no mapa quem gravita em torno de quem. Uma capital regional pode ter uma área de influência de 20 ou 30 municípios menores; uma metrópole nacional como São Paulo tem influência sobre estados inteiros, às vezes sobre o país todo, chegando a polarizar municípios de regiões distantes da sua própria.</p>
+
+            <h3>Região metropolitana não é a mesma coisa que área de influência</h3>
+
+            <p>É fácil confundir dois conceitos parecidos. Área de influência é uma noção funcional: descreve para onde as pessoas efetivamente se deslocam em busca de serviços, sem nenhum limite jurídico definido. Já a <span class="termo" data-palavra="Região Metropolitana" data-definicao="Unidade político-administrativa criada por lei estadual que reúne um município-polo e os municípios vizinhos conurbados a ele, com o objetivo de planejar em conjunto funções públicas de interesse comum, como transporte coletivo, saneamento básico, uso do solo e destinação de resíduos. Diferente da área de influência do REGIC, que é apenas descritiva, a região metropolitana tem existência jurídica formal, criada por lei.">região metropolitana</span> é uma criação jurídica: um conjunto de municípios oficialmente reunidos por lei estadual para planejar em conjunto o que ultrapassa os limites de cada prefeitura, como transporte coletivo, coleta de lixo e abastecimento de água. A Região Metropolitana de São Paulo, por exemplo, reúne 39 municípios organizados em cinco sub-regiões (Norte, Leste, Sudeste, Sudoeste e Oeste), todos conurbados ou fortemente integrados à capital paulista, ainda que cada um mantenha sua própria prefeitura e câmara de vereadores.</p>
+
+            <p>Quando duas ou mais metrópoles crescem tanto que suas regiões metropolitanas praticamente se tocam, formando um corredor urbano quase contínuo, os geógrafos chamam esse conjunto de <span class="termo" data-palavra="Megalópole" data-definicao="Conjunto formado pela fusão ou forte integração de duas ou mais regiões metropolitanas vizinhas, criando um corredor urbano praticamente contínuo, com forte circulação de pessoas, mercadorias e capital entre os polos. O exemplo mundial mais citado é a megalópole BosWash, nos Estados Unidos, que liga Boston a Washington D.C. passando por Nova York e Filadélfia. No Brasil, o eixo Rio-São Paulo é o caso mais próximo desse conceito.">megalópole</span>. O exemplo mundial mais citado é a faixa urbana dos Estados Unidos que liga Boston a Washington D.C., passando por Nova York e Filadélfia, conhecida como BosWash. No Brasil, o caso mais próximo desse conceito é a chamada megalópole (ou megarregião) Rio-São Paulo: uma faixa de cerca de 82,6 mil km², apenas 0,97% do território nacional, que reúne 232 municípios de três estados (Rio de Janeiro, São Paulo e Minas Gerais), estendendo-se de Campos dos Goytacazes, no norte fluminense, até Campinas, no interior paulista, passando por Juiz de Fora, em Minas. Nessa faixa vivem cerca de 42 milhões de pessoas, o equivalente a 23% de toda a população brasileira, concentrada em menos de 1% do território do país, uma prova concreta de que a hierarquia urbana e a concentração de renda caminham juntas no espaço.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -204,6 +210,8 @@
             <p>Uma cidade global não se define pelo tamanho da população, mas pela concentração de funções de controle: sedes de corporações multinacionais, bolsas de valores conectadas globalmente, escritórios dos maiores bancos de investimento, centros de mídia e cultura com alcance internacional. Para medir esse poder, a rede de pesquisa <span class="termo" data-palavra="GaWC" data-definicao="Globalization and World Cities Research Network, rede de pesquisa ligada à Universidade de Loughborough, no Reino Unido, que mede a conectividade internacional das cidades a partir da presença de empresas de serviços avançados (bancos, consultorias, escritórios de advocacia, seguradoras). Classifica as cidades em níveis Alfa, Beta e Gama, do mais conectado ao menos conectado. É referência frequente em questões de vestibular e ENEM sobre cidades globais.">GaWC</span> (Globalization and World Cities Research Network) classifica as cidades globais em níveis Alfa, Beta e Gama, conforme sua conectividade internacional. Nova York e Londres ocupam o topo absoluto da categoria Alfa. São Paulo também é classificada como cidade Alfa pelo GaWC, a única da América do Sul nesse patamar, funcionando como o principal polo financeiro e de serviços avançados do continente. O levantamento de 2020, usado como referência atual, analisou a presença de mais de 170 grandes empresas de serviços avançados (bancos, consultorias, escritórios de advocacia, seguradoras) em mais de 700 cidades do mundo todo para chegar a essa classificação.</p>
 
             <p>Isso significa que uma decisão tomada numa reunião de diretores de multinacional em São Paulo pode fechar uma fábrica no interior do Piauí ou abrir um galpão logístico no Paraná. O poder das cidades globais não é só econômico: é territorial. Elas organizam o espaço do restante do país a partir de seus interesses.</p>
+
+            <p>Lembra da pergunta lá no início da aula sobre o aeroporto internacional? Ela não era só retórica. Em 2025, o Aeroporto Internacional de Guarulhos, em São Paulo, concentrou sozinho quase 70% de todos os voos internacionais do Brasil, movimentando mais de 47 milhões de passageiros no ano. Isso significa que a maior parte de quem entra ou sai do país de avião passa, de alguma forma, pela mesma cidade que concentra as sedes das multinacionais, a bolsa de valores e os grandes bancos. A hierarquia urbana também é uma hierarquia de conectividade: quanto mais alto o posto de uma cidade, mais fácil e direto é seu acesso ao resto do mundo.</p>
 
             <div class="w3-margin">
                 <img src="ts28f02.png" alt="Mapa das cidades globais do mundo com destaque para São Paulo como única cidade global da América do Sul"
@@ -305,8 +313,45 @@
 
             <p>O mesmo padrão se repete em outros serviços: varas da Justiça Federal, agências de bancos públicos, campi de universidades federais e até mesmo entregas rápidas de e-commerce seguem de perto a hierarquia urbana, concentrando-se nas metrópoles e capitais regionais e rareando conforme se desce em direção aos centros locais. Um morador de centro local muitas vezes precisa viajar a uma capital regional só para dar entrada num processo judicial simples ou para retirar um documento que, numa metrópole, sairia no mesmo dia. Por isso, entender a posição da sua cidade na hierarquia urbana também é entender quais direitos básicos estão, ou não, garantidos a poucos quilômetros de casa.</p>
 
+            <p>O mesmo desenho aparece na internet, mesmo com os cabos de fibra óptica citados no início desta aula. Em 2025, a internet já chegava a 95% dos domicílios brasileiros, praticamente igualando a diferença entre zona urbana e rural, que caiu de 41,5 pontos percentuais em 2016 para apenas 7,8 pontos hoje. Mas ter internet em casa não é o mesmo que ter uma conexão de qualidade: segundo o Cetic.br, apenas 22% das pessoas com 10 anos ou mais no país têm o que se considera conectividade satisfatória (levando em conta custo, velocidade e presença de banda larga fixa), proporção que cai para 11% no Nordeste. Ou seja, o cabo até chega perto de casa, mas a qualidade da conexão continua concentrada nas cidades do topo da hierarquia urbana, do mesmo jeito que os hospitais e as varas judiciais.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Um paciente de um centro local do interior do Norte precisa viajar centenas de quilômetros até a capital regional mais próxima para consultar um médico especialista, enquanto um morador de São Paulo tem dezenas de especialistas a poucos minutos de casa. Qual conceito explica melhor essa diferença de acesso?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Falta de vontade política local</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Deserto de serviços na hierarquia urbana</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Diferença cultural regional</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'servicos especializados se concentram no topo da hierarquia, deixando quem mora na base sem acesso proximo.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -340,9 +385,58 @@
 
             <p>Quando um jovem da sua cidade sai para estudar na capital, não é porque a capital é "melhor" em algum sentido abstrato. É porque a hierarquia urbana concentrou na capital as universidades, os hospitais, os empregos qualificados e as oportunidades que deveriam estar distribuídas por todo o território. A rede urbana é, também, uma rede de reprodução das desigualdades.</p>
 
+            <p>Essa desigualdade entre cidades tem uma versão em escala menor, dentro de cada cidade: bairros valorizados que concentram serviços e infraestrutura ao lado de periferias que esperam anos por uma linha de ônibus. Na próxima aula, "O espaço das cidades", vamos entender como esse processo de concentração se repete dentro do próprio tecido urbano, através da gentrificação, da segregação socioespacial e da especulação imobiliária.</p>
+
             <p><strong>Resumo dos conceitos:</strong> rede urbana (conjunto de cidades conectadas por fluxos); hierarquia urbana (classificação das cidades por função e área de influência, com 5 níveis no REGIC: metrópoles, capitais regionais, centros sub-regionais, centros de zona e centros locais); área de influência (municípios menores que dependem de uma cidade-polo); REGIC (mapa da hierarquia urbana brasileira do IBGE, com 15 metrópoles no topo); cidade global e GaWC (nó de comando da economia mundial, classificado em níveis Alfa, Beta e Gama; São Paulo é Alfa); primazia urbana (dominância desproporcional de uma cidade); desconcentração urbana (crescimento relativo das cidades médias a partir dos anos 2000); Centros de Gestão do Território (municípios que comandam a rede urbana pela gestão pública e empresarial); deserto de serviços (falta de serviços essenciais em municípios de baixa hierarquia).</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9B: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots28" src="inforesumots28.webp"
+                    alt="Infográfico resumo Redes e hierarquias urbanas - REGIC, metrópoles e cidades globais" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9C: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>1. No REGIC, qual é o nome do território formado pelos municípios menores que dependem de uma cidade-polo para acessar serviços mais complexos?</b></h4>
+            <input type="text" id="aberta1" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta1', 'influ', 'respAberta1', this, 'globinhoAberta1')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>2. Segundo a socióloga Saskia Sassen, qual termo descreve uma cidade que funciona como nó de comando da economia mundial, concentrando sedes de multinacionais e bancos de investimento?</b></h4>
+            <input type="text" id="aberta2" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta2', 'global', 'respAberta2', this, 'globinhoAberta2')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide w3-margin-top" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -394,7 +488,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>Onde sua cidade está na rede?</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -414,7 +508,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é rede urbana? Por que as cidades não existem de forma isolada?</h3>
@@ -486,6 +580,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

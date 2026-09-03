@@ -298,16 +298,22 @@
 
             <p>O <span class="termo" data-palavra="Mercosul" data-definicao="Mercado Comum do Sul: bloco de integração econômica criado em 1991 pelo Tratado de Assunção, entre Brasil, Argentina, Uruguai e Paraguai. Inicialmente um acordo de livre-comércio, tornou-se união aduaneira em 1995, com tarifa externa comum para importações de fora do bloco. A Venezuela aderiu como membro pleno em 2012, mas foi suspensa em 2016; Chile (1996), Peru (2003), Colômbia e Equador (2004), Guiana e Suriname (2013) são membros associados, e a Bolívia está em processo de adesão desde 2012. Reúne uma população superior a 299 milhões de pessoas (2022) e é o quinto maior bloco econômico do mundo em PIB, mas ainda enfrenta barreiras não tarifárias e falta de integração produtiva entre as cadeias industriais dos países-membros.">Mercosul</span> é o principal bloco econômico do Brasil, criado em 1991 pelo Tratado de Assunção e transformado em união aduaneira em 1995, com tarifa externa comum para importações de fora do bloco. Além dos quatro membros plenos (Brasil, Argentina, Uruguai e Paraguai), o bloco tem países associados, como Chile, Peru, Colômbia e Equador, e reúne uma população superior a 299 milhões de pessoas.</p>
 
-            <p>O acordo entre Mercosul e União Europeia foi negociado desde 2004 e assinado em junho de 2019, mas até
-                meados de 2024 ainda não tinha sido ratificado pelos parlamentos de todos os países envolvidos. Se
-                entrar em vigor, criará um mercado de mais de 780 milhões de pessoas, responsável por cerca de 25%
-                do PIB mundial e mais de US$ 100 bilhões em comércio entre os blocos. As vantagens para o Brasil
-                seriam concentradas nos exportadores de commodities, mas o acordo também expõe a indústria
-                brasileira e argentina à concorrência de produtos europeus mais tecnológicos, o que pode acelerar a
-                desindustrialização da região. Do lado europeu, o principal obstáculo à ratificação tem sido a
-                pressão de setores agrícolas do próprio bloco e as exigências ambientais: a União Europeia cobra
-                garantias sobre a preservação ambiental no Brasil e os direitos dos povos indígenas nas áreas de
-                expansão do agronegócio, o mesmo tipo de tensão discutido na aula sobre meio ambiente.</p>
+            <p>O acordo entre Mercosul e União Europeia foi negociado desde 2004 e teve seu texto político fechado em
+                2019, mas passou anos travado por resistências, sobretudo de setores agrícolas europeus e por
+                exigências ambientais da própria União Europeia sobre desmatamento e direitos de povos indígenas nas
+                áreas de expansão do agronegócio, o mesmo tipo de tensão discutido na aula sobre meio ambiente. O
+                impasse só começou a se resolver em janeiro de 2026: o Conselho da União Europeia autorizou a
+                assinatura em 9 de janeiro, e o acordo foi formalmente assinado em 17 de janeiro daquele ano. Brasil,
+                Argentina e Uruguai já ratificaram o texto em seus parlamentos até março de 2026, e a parte comercial
+                do acordo começou a valer provisoriamente a partir de 1º de maio, mesmo com a ratificação plena pelo
+                lado europeu ainda pendente: o Parlamento Europeu decidiu consultar o Tribunal de Justiça da União
+                Europeia antes de votar seu consentimento final, o que segue sendo o principal gargalo do processo. Se
+                entrar em vigor por completo, o acordo criará um mercado de mais de 780 milhões de pessoas,
+                responsável por cerca de 25% do PIB mundial e mais de US$ 100 bilhões em comércio entre os blocos. As
+                vantagens para o Brasil tendem a se concentrar nos exportadores de commodities, mas o acordo também
+                expõe a indústria brasileira e argentina à concorrência de produtos europeus mais tecnológicos, o que
+                pode acelerar a desindustrialização da região, mostrando que mesmo um acordo comercial "vitorioso"
+                reproduz, dentro de si, a mesma lógica de trocar matéria-prima por manufaturados de maior valor.</p>
 
             <p>O BRICS (Brasil, Rússia, Índia, China e África do Sul, com novos membros adicionados recentemente) é outra arena de cooperação. Criado em 2009 como fórum de países emergentes, busca aumentar o peso dessas nações nas instituições internacionais e desenvolver alternativas ao sistema financeiro centrado no dólar.</p>
 
@@ -339,8 +345,60 @@
                 funcionou como uma forma de reduzir a dependência de um único comprador, mas o episódio deixou claro
                 que a posição do Brasil na economia global continua vulnerável a decisões tomadas fora do país.</p>
 
+            <p>O capítulo seguinte dessa história mostrou o quanto essa vulnerabilidade pode mudar de forma rápida e
+                imprevisível. Em 20 de fevereiro de 2026, a Suprema Corte dos Estados Unidos derrubou por 6 votos a 3
+                a base legal usada por Trump para aplicar tarifas de emergência sem aprovação do Congresso, julgando
+                que a lei invocada (a IEEPA, uma lei pensada para emergências como sanções a países hostis, não para
+                política comercial de rotina) não autorizava esse tipo de tarifação unilateral. Na prática, isso
+                anulou a maior parte da tarifa de 50% sobre o Brasil. O alívio, porém, durou pouco: em 1º de junho de
+                2026, o governo americano concluiu uma nova investigação comercial, dessa vez usando outro
+                instrumento legal, e impôs uma tarifa de 25% sobre as importações brasileiras. A mira mudou de alvo:
+                enquanto a tarifa de 2025 pesava sobretudo sobre o agronegócio, a nova tarifa de 2026 foca na
+                indústria de transformação brasileira, poupando itens como carnes, café e minérios, que continuam
+                circulando com tarifas menores para não pressionar o abastecimento e os preços dentro dos próprios
+                Estados Unidos. O episódio completo, do tarifaço de 50% à sua queda na Justiça e ao retorno em nova
+                forma como tarifa de 25%, é uma aula prática sobre o que significa depender de decisões tomadas na
+                Casa Branca, no Congresso e nos tribunais de outro país: mesmo quando o Brasil vence uma batalha
+                jurídica, a próxima rodada de tarifas já pode estar sendo desenhada.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A tarifa de 50% de 2025 mirava sobretudo o agronegócio brasileiro. Depois que a
+                    Suprema Corte dos EUA a derrubou, a nova tarifa de 25% imposta em 2026 mudou o alvo para:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Alimentos e minérios</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Indústria de transformação</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Serviços financeiros</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'a nova tarifa poupou carnes, cafe e minerios para nao pressionar precos nos EUA, e mirou a industria de transformacao brasileira.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -365,6 +423,66 @@
         </div>
 
 
+        <!-- BLOCO 8.6: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots35" src="inforesumots35.webp"
+                    alt="Infográfico resumo Brasil na globalização - exportações, cadeias produtivas e soberania econômica"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Pergunta aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>Qual foi a sigla da lei usada pelo governo Trump para impor tarifas de
+                    emergência, que a Suprema Corte dos EUA considerou inválida para esse fim em fevereiro de
+                    2026?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta1" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta1', 'ieepa', 'respAberta1', this, 'globinhoAberta1')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>Em que mês e ano o acordo entre Mercosul e União Europeia foi finalmente
+                    assinado, depois de mais de vinte anos de negociação?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta2" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta2', 'janeiro', 'respAberta2', this, 'globinhoAberta2')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+        </div>
+
+
         <!-- BLOCO 9: Catarse -->
         <div class="topico">
 
@@ -376,7 +494,16 @@
 
             <p>Isso não é destino. O Brasil tem exemplos de como pode ser diferente: a Embraer, o etanol, a Petrobras, a WEG mostram que o país tem capacidade tecnológica e empresarial para competir em setores de alto valor. A questão é política: que tipo de inserção no mundo o Brasil quer construir, para quem esse crescimento vai servir e quem vai pagar os custos da transição. O episódio do tarifaço de 2025 reforça essa lição de outro ângulo: mesmo quando o Brasil consegue se adaptar a um choque externo, como fez ao bater recorde de exportações naquele ano, a vulnerabilidade a decisões tomadas por outros países continua sendo o preço de depender tanto de poucos parceiros e de poucos produtos.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> divisão internacional do trabalho (hierarquia entre quem cria, fabrica e extrai); globalização (integração econômica global com benefícios desiguais); cadeias produtivas globais (produção fragmentada entre países); reprimarização (volta à exportação de commodities); valor agregado (quanto mais processado, mais vende); balança comercial (exportações menos importações, superávit de US$ 74,5 bi em 2024); Mercosul e BRICS (blocos de integração do Brasil); soberania econômica (autonomia nas decisões estratégicas); tarifaço de Trump (tarifa de 50% em 2025 e a resposta via diversificação de mercados).</p>
+            <p><strong>Resumo dos conceitos:</strong> divisão internacional do trabalho (hierarquia entre quem cria, fabrica e extrai); globalização (integração econômica global com benefícios desiguais); cadeias produtivas globais (produção fragmentada entre países); reprimarização (volta à exportação de commodities); valor agregado (quanto mais processado, mais vende); balança comercial (exportações menos importações, superávit de US$ 74,5 bi em 2024); Mercosul e acordo com a União Europeia (assinado em 2026); BRICS (bloco de integração alternativo); soberania econômica (autonomia nas decisões estratégicas); tarifaço de Trump (da tarifa de 50% em 2025 à derrubada pela Suprema Corte e à nova tarifa de 25% em 2026).</p>
+
+                <p>Esta aula fecha o módulo Brasil. Ao longo dele, você caminhou da hierarquia urbana e da segregação
+                    das cidades até os biomas, o desmatamento, as regiões e, agora, o lugar do país no mundo: um só
+                    fio conecta todos esses temas, o de como o espaço geográfico brasileiro concentra riqueza e poder
+                    em certos lugares e mãos, e como essa concentração pode ser entendida, questionada e, com
+                    política pública e vontade coletiva, transformada. A próxima parada é a revisão das aulas 32 a
+                    35, para amarrar energia, meio ambiente, regiões e globalização num só quadro antes de seguir em
+                    frente, revisitando com calma cada um desses temas e as conexões entre eles antes da próxima
+                    etapa do seu percurso na Geografia.</p>
 
             </div>
 
@@ -441,7 +568,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>O Brasil que você quer ver no mundo</h3>
                 <p><strong>Atividade individual de encerramento do ano</strong></p>
 
@@ -461,7 +588,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é a divisão internacional do trabalho? Como ela se manifesta na relação comercial entre o Brasil e países desenvolvidos?</h3>
@@ -533,6 +660,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

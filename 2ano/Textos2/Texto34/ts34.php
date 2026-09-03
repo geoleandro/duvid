@@ -300,9 +300,10 @@
                     Contas Regionais.</span>
             </div>
 
-            <p>Os números de 2022 trazem um detalhe que costuma surpreender: o maior PIB per capita do país não é do
-                Sudeste, mas do Centro-Oeste, com R$ 71.201 por habitante, contra R$ 68.358 do Sudeste, R$ 61.275 do
-                Sul, R$ 36.679 do Norte e apenas R$ 27.682 do Nordeste. Isso acontece porque o Centro-Oeste tem
+            <p>Os números mais recentes do Sistema de Contas Regionais do IBGE (2023) trazem um detalhe que costuma
+                surpreender: o maior PIB per capita do país não é do Sudeste, mas do Centro-Oeste, com R$ 71.201 por
+                habitante, contra R$ 68.358 do Sudeste, R$ 61.275 do Sul, R$ 36.679 do Norte e apenas R$ 27.682 do
+                Nordeste. Isso acontece porque o Centro-Oeste tem
                 população pequena para o tamanho de sua economia, puxada pelo agronegócio de alta produtividade e
                 pelo funcionalismo público federal concentrado em Brasília. Mesmo assim, o Sudeste continua sendo o
                 centro econômico do país porque concentra 42% da população brasileira: seu PIB total é muito maior do
@@ -314,10 +315,21 @@
 
             <p>O Brasil do século XXI tem novas dinâmicas regionais que fogem ao padrão histórico Sudeste-centrista. O
                 agronegócio do Centro-Oeste e do Oeste da Bahia transformou municípios como Sorriso (MT), Lucas do Rio
-                Verde (MT) e Barreiras (BA) em polos dinâmicos. A energia eólica e solar criou uma nova fronteira de
-                investimento no Nordeste. O turismo fez do Litoral Nordestino um polo de crescimento. E o crescimento
-                das cidades médias redistribui parcialmente o dinamismo econômico para fora das metrópoles do Sudeste.
-            </p>
+                Verde (MT) e Barreiras (BA) em polos dinâmicos. O turismo fez do Litoral Nordestino um polo de
+                crescimento. E o crescimento das cidades médias redistribui parcialmente o dinamismo econômico para
+                fora das metrópoles do Sudeste.</p>
+
+            <p>A energia eólica e solar criou uma nova fronteira de investimento no Nordeste, e o próximo passo dessa
+                transformação já está em construção: o hidrogênio verde. O Complexo Industrial e Portuário do Pecém,
+                no Ceará, reúne pré-contratos de sete empresas, entre elas a francesa EDF e a australiana Fortescue,
+                somando cerca de US$ 24 bilhões em investimentos anunciados, com produção prevista a partir de 2030 e
+                promessa de 27 mil empregos durante a fase de construção. A lógica é usar os ventos fortes e
+                constantes do litoral cearense para gerar eletricidade limpa e barata o bastante para produzir
+                hidrogênio por eletrólise, um combustível que pode substituir combustíveis fósseis em siderurgia,
+                fertilizantes e transporte pesado. Se os projetos saírem do papel na escala anunciada, o Ceará se
+                tornaria um dos maiores polos de hidrogênio verde do mundo, repetindo, com um recurso novo, o que a
+                Zona Franca de Manaus fez décadas atrás: usar incentivos fiscais e vocação regional para atrair
+                indústria pesada para fora do eixo Sudeste.</p>
 
             <p>O exemplo mais claro dessa nova geografia é o <span class="termo" data-palavra="MATOPIBA"
                     data-definicao="Fronteira agrícola formada pelas áreas de Cerrado do Maranhão, Tocantins, Piauí e Bahia, delimitada por decreto presidencial em 2015 e que abrange cerca de 73 milhões de hectares. É a maior área de expansão do agronegócio brasileiro nas últimas décadas, dedicada principalmente à produção de soja, milho e algodão em larga escala e alta mecanização. Concentra também a maior parte do desmatamento recente do Cerrado: em 2024, respondeu por mais de 70% da supressão de vegetação nativa do bioma. O nome é um acrônimo formado pelas iniciais dos quatro estados.">MATOPIBA</span>,
@@ -331,6 +343,20 @@
                 nativa do bioma, segundo o MapBiomas. É também a área que mais emite dióxido de carbono dentro do
                 Cerrado, já que a conversão de vegetação nativa em lavoura mecanizada libera de uma só vez o carbono
                 acumulado por décadas no solo e na biomassa.</p>
+
+            <p>Enquanto o MATOPIBA mostra uma nova fronteira agrícola, o interior de Minas Gerais mostra uma nova
+                fronteira mineral, e num lugar simbólico: o próprio Vale do Jequitinhonha, um dos bolsões de pobreza
+                mais citados do país, que você vai reencontrar mais adiante nesta aula. A partir de 2023, o governo
+                mineiro lançou o programa Vale do Lítio, e a produção da região saltou de 263 mil toneladas em 2023
+                para mais de 944 mil toneladas em 2024, quase quatro vezes mais em um único ano. A região deve
+                concentrar 78% de todo o investimento em exploração de lítio do Brasil até 2029, e cidades como
+                Araçuaí e Itinga já mais do que dobraram o número de empregos formais na indústria entre 2020 e 2024.
+                Mas o boom chega com tensões conhecidas: reportagens e pesquisas universitárias têm documentado
+                rachaduras em casas de moradores próximos às minas, atribuídas às explosões de desmonte de rocha, e
+                promessas de desenvolvimento que nem sempre se cumprem no ritmo esperado pelas comunidades locais. É
+                um lembrete de que riqueza mineral recém-descoberta não resolve sozinha décadas de desigualdade
+                regional: repete, em escala menor, o mesmo padrão histórico do ouro, do café e do petróleo, em que a
+                extração de um recurso não garante, por si só, desenvolvimento amplo para quem vive ao redor dela.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -397,6 +423,17 @@
                     encobre, na verdade, uma discriminação de classe: o migrante nordestino é pobre num ambiente de
                     pessoas que se querem ricas, e a origem regional é usada como marcador de inferioridade.</p>
 
+                <p>Esse preconceito não fica só nas piadas do dia a dia: ele também aparece, de forma amplificada,
+                    nas redes sociais. Um estudo do grupo Interfaces, da Universidade Federal de São Carlos (UFSCar),
+                    analisou 282 milhões de postagens no Twitter (hoje X) durante a eleição presidencial de 2022 e
+                    identificou um crescimento de 821% no discurso de ódio contra nordestinos entre julho e dezembro
+                    daquele ano, concentrado sobretudo no mês da votação. A pesquisa mostrou um padrão de
+                    "essencialização": adjetivos negativos (preguiçoso, atrasado, ignorante) passaram a ser tratados
+                    como características supostamente inerentes a quem nasce no Nordeste, e não como estereótipos
+                    construídos historicamente. É a mesma lógica, adaptada à internet, que sustenta o preconceito de
+                    classe disfarçado de piada regional: uma imagem negativa fixada sobre um grupo inteiro de
+                    pessoas, usada para justificar tratamento desigual.</p>
+
                 <p>As desigualdades regionais também alimentam tensões políticas. O debate sobre o federalismo fiscal
                     (como os impostos são arrecadados e distribuídos entre a União, estados e municípios) é
                     frequentemente pautado por conflitos de interesse entre regiões: estados ricos arrecadam mais e
@@ -404,6 +441,19 @@
                     transferências federais. O Fundo de Participação dos Estados e dos Municípios (FPE e FPM) é o
                     principal instrumento de redistribuição, mas seu tamanho é insuficiente para equalizar as
                     diferenças.</p>
+
+                <p>A partir de 2023, esse debate ganhou um capítulo novo: a Reforma Tributária (Emenda Constitucional
+                    132/2023) começou a substituir gradualmente o ICMS estadual e o ISS municipal por um imposto
+                    único sobre bens e serviços, o IBS. Um dos efeitos colaterais dessa mudança é o fim gradual da
+                    chamada guerra fiscal, a prática de estados oferecerem isenções e descontos de ICMS para atrair
+                    fábricas e empresas, historicamente usada por estados menos desenvolvidos na tentativa de
+                    competir com a infraestrutura já pronta do Sudeste. Para substituir esse mecanismo, a reforma
+                    criou o Fundo Nacional de Desenvolvimento Regional (FNDR), que vai repassar recursos da União
+                    para financiar infraestrutura, inovação e fomento produtivo nos estados mais pobres: R$ 570
+                    bilhões previstos entre 2029 e 2042, e R$ 60 bilhões por ano a partir de 2043. A aposta é trocar
+                    um sistema de competição predatória entre estados por um sistema de compensação direta e
+                    planejada, mas o resultado só poderá ser avaliado daqui a alguns anos, quando o novo modelo
+                    tributário estiver totalmente implementado.</p>
 
                 <div class="w3-margin">
                     <img src="ts34f03.png"
@@ -416,6 +466,42 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>A Reforma Tributária de 2023 criou o FNDR para substituir gradualmente a
+                    chamada "guerra fiscal" entre estados. Essa guerra fiscal consistia em:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Disputas territoriais entre estados</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Isenções de ICMS para atrair empresas</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Aumento de impostos federais</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'estados ofereciam descontos de ICMS para atrair fabricas, o que gerava uma disputa predatoria entre eles.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -450,6 +536,66 @@
         </div>
 
 
+        <!-- BLOCO 8.6: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots34" src="inforesumots34.webp"
+                    alt="Infográfico resumo Síntese das regiões brasileiras - características, desigualdades e novas dinâmicas econômicas"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Pergunta aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>Qual é o nome do vale de Minas Gerais que se tornou um novo polo de mineração
+                    de lítio a partir de 2023, apesar de ser historicamente um dos bolsões de pobreza mais citados do
+                    país?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta1" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta1', 'jequitinhonha', 'respAberta1', this, 'globinhoAberta1')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>Em qual estado fica o Complexo do Pecém, um dos maiores polos de hidrogênio
+                    verde em construção no Brasil?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta2" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta2', 'cear', 'respAberta2', this, 'globinhoAberta2')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+        </div>
+
+
         <!-- BLOCO 9: Catarse -->
         <div class="topico">
 
@@ -480,11 +626,19 @@
 
                 <p><strong>Resumo dos conceitos:</strong> divisão regional do IBGE (1970) e a alternativa de Pedro
                     Geiger (Amazônia, Nordeste, Centro-Sul); cinco regiões (Norte, Nordeste, Centro-Oeste, Sudeste, Sul
-                    com suas características); MATOPIBA (nova fronteira agrícola entre regiões); desigualdades
-                    regionais (causas históricas: ciclos econômicos, industrialização concentrada) e intrarregionais
-                    (Vale do Jequitinhonha, litoral nordestino rico); convergência regional (Nordeste crescendo mais
-                    rápido 2003-2014); federalismo fiscal (FPE e FPM como redistribuição); preconceito regional
-                    (discriminação que encobre desigualdade de classe).</p>
+                    com suas características); MATOPIBA (nova fronteira agrícola entre regiões); Vale do Lítio e
+                    hidrogênio verde (novas fronteiras econômicas); desigualdades regionais (causas históricas:
+                    ciclos econômicos, industrialização concentrada) e intrarregionais (Vale do Jequitinhonha,
+                    litoral nordestino rico); convergência regional (Nordeste crescendo mais rápido 2003-2014);
+                    federalismo fiscal (FPE, FPM, Reforma Tributária e FNDR); preconceito regional (discriminação
+                    que encobre desigualdade de classe).</p>
+
+                <p>Você acabou de olhar para o Brasil de dentro para fora, região por região. A próxima aula inverte
+                    essa perspectiva: "Brasil na globalização" vai olhar para o país de fora para dentro, mostrando
+                    como essa mesma economia desigual entre regiões se conecta ao resto do mundo através da balança
+                    comercial, das exportações de commodities e da divisão internacional do trabalho, e por que
+                    entender as desigualdades internas do Brasil ajuda a entender também o lugar do país na economia
+                    global.</p>
 
             </div>
 
@@ -572,7 +726,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>Relendo a sua região</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -595,7 +749,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. Quais são as cinco regiões do Brasil segundo o IBGE? Cite a principal característica econômica
@@ -680,6 +834,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

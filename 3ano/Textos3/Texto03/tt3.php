@@ -189,9 +189,21 @@
                 colonização dirigida que o governo brasileiro promoveu para povoar regiões pouco habitadas do país
                 ao longo dos séculos XIX e XX.</p>
 
+            <h3>Como funciona: fatores de expulsão e atração</h3>
 
+            <p>Por trás de praticamente toda migração, seja ela voluntária ou forçada, existe uma combinação de dois
+                tipos de força que a Geografia chama de fatores de expulsão (ou repulsão) e fatores de atração. Os
+                fatores de expulsão empurram a pessoa para fora do lugar de origem: desemprego, salários baixos,
+                violência, perseguição política, falta de terra, seca, guerra. Os fatores de atração puxam a pessoa
+                para um destino específico: oferta de emprego, salários mais altos, segurança, direitos civis,
+                presença de parentes e amigos que já migraram antes.</p>
 
-
+            <p>Nenhuma migração depende de um fator isolado. Um trabalhador rural que deixa o interior do Nordeste
+                não migra só porque a seca destruiu sua colheita (expulsão), mas também porque ouviu falar de
+                empregos na construção civil de São Paulo (atração). Entender essa combinação ajuda a explicar por
+                que a maioria das pessoas migra para destinos onde já existe uma rede anterior de conterrâneos,
+                formando corredores migratórios que se mantêm ativos por décadas, como o fluxo histórico entre o
+                Nordeste brasileiro e a Grande São Paulo, ou o mais recente entre o Haiti e o Acre.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
             <hr>
@@ -205,10 +217,6 @@
 
             <h2> Por que as pessoas migram?</h2>
 
-            <p>Vamos ver alguns dados sobre migrantes pelo mundo.</p>
-
-
-
             <div class="w3-margin"><img id="imagem3" src="tt03f06.png" alt="tt03f06" class="w3-mobile">
 
                 <span class="w3-small w3-margin-left" id="citacao3"> Fonte:
@@ -216,22 +224,22 @@
 
             </div>
 
+            <p> As causas por trás dos fatores de expulsão e atração são diversas e multifacetadas, e costumam
+                aparecer combinadas. As causas econômicas são as mais comuns historicamente: diferenças salariais
+                entre países, desemprego estrutural na região de origem e a busca por melhores condições de trabalho
+                movem a maior parte dos fluxos migratórios voluntários do planeta.</p>
 
+            <p>As causas políticas envolvem perseguição por motivos de opinião, religião, etnia ou orientação sexual,
+                além de guerras civis e golpes de Estado, situações em que migrar deixa de ser uma escolha e passa a
+                ser uma questão de sobrevivência. É o caso, por exemplo, dos milhões de sírios que deixaram o país
+                durante a guerra civil, que você vai conhecer em detalhe mais adiante nesta aula.</p>
 
-
-
-
-
-            <p> Agora, o que leva as pessoas a fazerem essas jornadas? As causas são diversas e multifacetadas. As
-                causas
-                naturais envolvem eventos como desastres naturais, como terremotos ou furacões, que podem destruir casas
-                e
-                meios de subsistência, forçando as pessoas a se deslocarem. </p>
-
-            <p>Mudanças climáticas, como desertificação e elevação do nível do mar, também têm impulsionado a migração
-                de
-                comunidades inteiras. Por exemplo, na região do Sahel, na África, as mudanças climáticas têm causado a
-                desertificação de terras agrícolas, tornando impossível a sobrevivência para muitas comunidades locais.
+            <p>As causas naturais envolvem eventos como terremotos ou furacões, que podem destruir casas e meios de
+                subsistência de uma só vez, forçando as pessoas a se deslocarem. Mudanças climáticas, como
+                desertificação e elevação do nível do mar, também têm impulsionado a migração de comunidades
+                inteiras. Na região do Sahel, na África, por exemplo, as mudanças climáticas têm causado a
+                desertificação de terras agrícolas, tornando impossível a sobrevivência para muitas comunidades
+                locais.
             </p>
 
 
@@ -936,6 +944,91 @@
             <hr>
         </div>
 
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <h4 class="fontePixel"><b>O que são fatores de atração numa migração?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao">
+                        <span>Motivos que expulsam da origem</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao">
+                        <span>Condições que puxam para o destino</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao">
+                        <span>Leis que proíbem a migração</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Fatores de atração são condições do destino, como emprego e segurança, que puxam o migrante para lá. O oposto são os fatores de expulsão, que empurram para fora da origem.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, em que ano entrou em vigor a Lei da Migração brasileira, que substituiu o antigo
+                Estatuto do Estrangeiro?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a3t3" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a3t3"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a3t3', '2017', 'resp1a3t3', this, 'globinho1a3t3')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a3t3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, qual país foi a origem do maior grupo de imigrantes temporários que chegou ao Brasil
+                entre 2017 e 2022?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a3t3" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a3t3"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a3t3', 'venezuel', 'resp2a3t3', this, 'globinho2a3t3')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a3t3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
         <div class="topico">
 
 
@@ -1025,10 +1118,10 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
 
-                <h3>1. O que são movimentos migratórios e quais são suas principais causas?</h3>
+                <h3>1. O que são movimentos migratórios e o que são fatores de expulsão e de atração?</h3>
                 <h3>2. Qual é a diferença entre emigrantes e imigrantes?</h3>
                 <h3>3. Quais são os três tipos principais de movimentos populacionais (voluntário, forçado e
                     controlado)? Explique cada um com um exemplo.
@@ -1108,6 +1201,11 @@
                 </h3>
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div><br><br>
 

@@ -61,6 +61,7 @@ $fundoBanner  = '/fotoIndex/tileset/fundo-atividades.webp';
                     placeholder="Buscar por tema, ex: Clima, Escala...">
             </div>
             <div id="botoes-filtro-atv" class="atv-filtros"></div>
+            <p id="contador"></p>
         </div>
 
         <!-- Grid de atividades (preenchido pelo JS) -->

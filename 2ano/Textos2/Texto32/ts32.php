@@ -201,7 +201,7 @@
 
             <h3>Minerais críticos: a nova corrida</h3>
 
-            <p>As energias renováveis não são "gratuitas" em termos de materiais. Um painel solar precisa de silício, prata e outros minerais. Uma bateria de carro elétrico precisa de lítio, cobalto e manganês. Uma turbina eólica offshore usa quantidades enormes de aço e terras raras. Isso criou uma nova geopolítica dos minerais críticos, com disputas por reservas de lítio na América do Sul (triângulo do lítio: Argentina, Bolívia e Chile) e de cobalto no Congo.</p>
+            <p>As energias renováveis não são "gratuitas" em termos de materiais. Um painel solar precisa de silício, prata e outros minerais. Uma bateria de carro elétrico precisa de lítio, cobalto e manganês. Uma turbina eólica offshore usa quantidades enormes de aço e terras raras. Isso criou uma nova geopolítica dos minerais críticos, com disputas por reservas de lítio na América do Sul (triângulo do lítio: Argentina, Bolívia e Chile, que juntos concentram entre 60% e 85% das reservas de lítio mais fáceis de extrair no planeta, segundo a metodologia usada) e de cobalto no Congo: a República Democrática do Congo sozinha responde por cerca de 60% da produção mundial desse metal, essencial para baterias, e parte significativa da extração ainda ocorre de forma artesanal e informal, numa região onde organizações internacionais estimam existir cerca de 200 mil garimpeiros, dos quais até 40 mil seriam crianças.</p>
 
             <p>A China domina a cadeia de processamento de quase todos os minerais críticos: mesmo que o lítio seja extraído no Chile ou no Congo, é processado majoritariamente na China antes de virar bateria. Isso cria uma dependência geopolítica que preocupa Europa e Estados Unidos.</p>
 
@@ -214,7 +214,7 @@
 
             <h3>Por que a China domina os painéis solares</h3>
 
-            <p>A mesma lógica se repete na fabricação dos próprios painéis solares. A China concentra mais de 80% da capacidade mundial de fabricação de painéis fotovoltaicos, e nas etapas mais estratégicas dessa cadeia (o polissilício, matéria-prima das células solares) essa fatia passa de 95%. O país investiu pesado nessa indústria por décadas, construiu escala gigantesca de produção e derrubou os custos globais dos painéis, o que ajudou a barateá-los para o mundo todo, inclusive para o Brasil. Mas também significa que praticamente qualquer país que queira instalar energia solar hoje depende, direta ou indiretamente, de equipamentos fabricados na China.</p>
+            <p>A mesma lógica se repete na fabricação dos próprios painéis solares. A China concentra mais de 80% da capacidade mundial de fabricação de painéis fotovoltaicos, e nas etapas mais estratégicas dessa cadeia (o polissilício, matéria-prima das células solares) essa fatia passa de 95%. O país investiu pesado nessa indústria por décadas, construiu escala gigantesca de produção e derrubou os custos globais dos painéis, o que ajudou a barateá-los para o mundo todo, inclusive para o Brasil. Mas também significa que praticamente qualquer país que queira instalar energia solar hoje depende, direta ou indiretamente, de equipamentos fabricados na China. Preocupados com essa dependência, Estados Unidos e União Europeia passaram a reagir: a partir de janeiro de 2025, os americanos elevaram para 50% a tarifa sobre polissilício, wafers e outros insumos solares chineses, numa tentativa de reconstruir uma indústria solar própria, enquanto a Europa debate suas próprias barreiras comerciais diante de módulos chineses ainda bem mais baratos que os fabricados em solo europeu. É outro capítulo da mesma disputa geopolítica: o mundo quer a energia limpa que a China sabe produzir com mais eficiência, mas cada vez menos países querem depender dela para consegui-la. A resposta chinesa a essas tarifas mostra como a geopolítica da energia se move rápido: em vez de simplesmente pagar a taxa extra para vender aos americanos e europeus, empresas chinesas passaram a transferir parte da fabricação de painéis para países do Sudeste Asiático, como Vietnã, Malásia e Camboja, de onde os produtos chegam aos mercados ocidentais sem carregar o selo "made in China" nem a tarifa que vem junto dele. Para o Brasil, que não impõe barreiras equivalentes e depende quase inteiramente de equipamentos importados para sua expansão solar, esse jogo de tarifas entre as grandes potências tem um efeito indireto: pode significar acesso a painéis chineses mais baratos, desviados dos mercados que fecharam suas portas, mas também reforça a dependência externa numa cadeia produtiva que o país ainda não decidiu se quer, ou consegue, internalizar.</p>
 
             <h3>A guerra na Ucrânia e a crise de energia na Europa</h3>
 
@@ -222,7 +222,7 @@
 
             <h3>Carros elétricos: a transição chega às ruas</h3>
 
-            <p>A transição energética também aparece no transporte individual, com o crescimento dos <span class="termo" data-palavra="Veículo Eletrificado" data-definicao="Categoria que reúne carros elétricos puros (movidos só a bateria), híbridos (que combinam motor a combustão e elétrico) e híbridos plug-in (que recarregam a bateria na tomada). No Brasil, as vendas desses veículos cresceram rapidamente na primeira metade dos anos 2020, impulsionadas pela chegada de montadoras chinesas como BYD e pela queda no preço das baterias, mas ainda representam uma fatia pequena da frota total do país, que segue majoritariamente movida a gasolina, etanol e diesel.">veículos eletrificados</span>. Em 2025, o Brasil vendeu mais de 223 mil carros elétricos e híbridos, um crescimento de 26% sobre 2024, e esses modelos já respondem por 13% de todos os carros novos vendidos no país. A chegada de fábricas de montadoras chinesas, como BYD, e a produção nacional de modelos elétricos por marcas tradicionais devem acelerar ainda mais essa curva nos próximos anos. Ainda assim, a frota brasileira em circulação segue majoritariamente movida a gasolina, etanol e diesel: a eletrificação do transporte é uma tendência clara, mas está apenas começando.</p>
+            <p>A transição energética também aparece no transporte individual, com o crescimento dos <span class="termo" data-palavra="Veículo Eletrificado" data-definicao="Categoria que reúne carros elétricos puros (movidos só a bateria), híbridos (que combinam motor a combustão e elétrico) e híbridos plug-in (que recarregam a bateria na tomada). No Brasil, as vendas desses veículos cresceram rapidamente na primeira metade dos anos 2020, impulsionadas pela chegada de montadoras chinesas como BYD e pela queda no preço das baterias, mas ainda representam uma fatia pequena da frota total do país, que segue majoritariamente movida a gasolina, etanol e diesel.">veículos eletrificados</span>. Em 2025, o Brasil vendeu mais de 223,9 mil carros elétricos e híbridos, um crescimento de 26% sobre 2024, enquanto o mercado total de veículos leves cresceu apenas 2,6% no mesmo período; esses modelos já respondem por 9% de todos os carros novos vendidos no país, segundo a Associação Brasileira do Veículo Elétrico. A chegada de fábricas de montadoras chinesas, como BYD, e a produção nacional de modelos elétricos por marcas tradicionais aceleraram ainda mais essa curva: em abril de 2026, a participação de eletrificados nas vendas já havia saltado para 18,3%, e a Anfavea projetava entre 420 mil e 450 mil unidades vendidas no ano. Ainda assim, a frota brasileira em circulação segue majoritariamente movida a gasolina, etanol e diesel: a eletrificação do transporte é uma tendência clara e cada vez mais rápida, mas ainda está longe de dominar as ruas.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -289,6 +289,41 @@
         </div>
 
 
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>O Brasil extrai lítio em Minas Gerais e o exporta bruto para outros países, que o processam e fabricam baterias de alto valor agregado, revendidas depois ao mundo todo, inclusive ao Brasil. Do ponto de vista da geografia econômica, essa dinâmica repete qual padrão histórico?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Industrialização plena</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Reprimarização/neoextrativismo</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Transição energética justa</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'exportar materia-prima bruta e importar o produto acabado e o mesmo padrao historico do petroleo e do minerio de ferro.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
         <!-- BLOCO 8.5: Texto-fonte -->
         <div class="topico">
 
@@ -323,11 +358,60 @@
 
             <p>Você também deve ter percebido que "energia limpa" não significa "sem impacto nenhum". A hidrelétrica que ilumina sua casa pode ter deslocado famílias inteiras décadas atrás. O painel solar do seu telhado provavelmente foi fabricado com tecnologia e insumos concentrados numa cadeia de produção controlada majoritariamente por um único país. E o carro elétrico que promete zero emissão na rua depende de uma bateria feita com lítio extraído de algum lugar específico do planeta, processado em outro. Isso não significa que renováveis são ruins, muito pelo contrário: significa que toda fonte de energia tem uma geografia e uma história por trás, e entender essa geografia é entender quem realmente se beneficia da transição.</p>
 
+            <p>Essa geografia da energia é só uma parte de um quadro maior: a próxima aula, "Meio ambiente no Brasil", vai olhar para o restante desse quadro, o Código Florestal, as unidades de conservação e as políticas que decidem o que resta em pé das florestas e biomas brasileiros depois de séculos de exploração de seus recursos.</p>
+
             <p><strong>Resumo dos conceitos:</strong> energias renováveis (solar, eólica, biomassa, hidrogênio verde); biocombustíveis (combustíveis feitos de biomassa, como etanol e biodiesel); Proálcool (programa de 1975 que lançou o etanol brasileiro); biodiesel (mistura obrigatória ao diesel, hoje em expansão); matriz energética (conjunto de fontes usadas por um país); transição energética (substituição dos fósseis por renováveis); minerais críticos (lítio, cobalto, terras raras para as novas tecnologias); eólica offshore (turbinas instaladas no mar); veículos eletrificados (carros elétricos e híbridos); atingidos por barragens (populações deslocadas por hidrelétricas); responsabilidade diferenciada (países ricos emitiram mais e devem liderar a transição).</p>
 
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9B: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots32" src="inforesumots32.webp"
+                    alt="Infográfico resumo Fontes de energia III - renováveis, biocombustíveis e transição energética" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9C: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>1. Como se chama o programa criado pelo governo militar em 1975, em resposta ao primeiro choque do petróleo, para incentivar a produção de etanol e a fabricação de carros movidos a álcool no Brasil?</b></h4>
+            <input type="text" id="aberta1" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta1', 'lcool', 'respAberta1', this, 'globinhoAberta1')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>2. Como são chamados minerais como lítio, cobalto e terras raras, essenciais para baterias e painéis solares e por isso alvo de uma nova disputa geopolítica mundial?</b></h4>
+            <input type="text" id="aberta2" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta2', 'minerais', 'respAberta2', this, 'globinhoAberta2')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide w3-margin-top" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -379,7 +463,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>O Brasil na transição energética</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -399,7 +483,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é matriz energética? Como a matriz elétrica brasileira se diferencia da maioria dos países do mundo?</h3>
@@ -470,6 +554,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

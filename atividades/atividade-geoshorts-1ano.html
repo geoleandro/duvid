@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GeoShorts IA, Atividade 1º Ano | Duvid Geografia</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+  :root {
+    --verde: #2e7d32;
+    --verde-claro: #4caf50;
+    --verde-bg: #e8f5e9;
+    --verde-escuro: #1b5e20;
+    --amarelo: #f9a825;
+    --amarelo-bg: #fffde7;
+    --cinza: #f5f5f5;
+    --text: #212121;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    color: var(--text);
+    background: #fff;
+    padding: 28px;
+    max-width: 760px;
+    margin: auto;
+    line-height: 1.65;
+  }
+
+  .header {
+    background: var(--verde);
+    color: white;
+    border-radius: 12px;
+    padding: 22px 24px 18px;
+    margin-bottom: 10px;
+  }
+  .header h1 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+  .header p  { font-size: 12px; opacity: .88; }
+
+  .tags {
+    display: flex;
+    background: var(--verde-bg);
+    border: 1px solid var(--verde-claro);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 22px;
+  }
+  .tag {
+    flex: 1;
+    padding: 7px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--verde-escuro);
+    border-right: 1px solid var(--verde-claro);
+  }
+  .tag:last-child { border-right: none; }
+
+  h2 {
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--verde-escuro);
+    margin: 20px 0 4px;
+  }
+  hr { border: none; border-top: 2px solid var(--verde-claro); margin-bottom: 12px; }
+
+  p { margin-bottom: 10px; text-align: justify; }
+
+  /* Etapas */
+  .etapas { display: flex; flex-direction: column; gap: 6px; margin-bottom: 4px; }
+  .etapa  { display: flex; gap: 14px; align-items: flex-start; padding: 10px 12px; background: var(--cinza); border-radius: 10px; }
+  .etapa-num {
+    font-size: 20px; font-weight: 800; color: var(--verde-claro);
+    width: 26px; flex-shrink: 0; line-height: 1.1;
+  }
+  .etapa-titulo { font-weight: 700; font-size: 12px; color: var(--verde-escuro); margin-bottom: 3px; }
+  .etapa p { font-size: 12px; margin: 0; text-align: left; }
+
+  /* Roteiro */
+  table { width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 12px; }
+  thead th {
+    background: var(--verde); color: white;
+    font-size: 11px; font-weight: 700;
+    padding: 8px 10px; text-align: left;
+  }
+  tbody td { padding: 9px 10px; border: 1px solid #e0e0e0; vertical-align: top; }
+  tbody tr:nth-child(even) td { background: var(--cinza); }
+
+  .write-line {
+    border: none; border-bottom: 1px solid #ccc;
+    width: 100%; font-family: 'Montserrat', sans-serif;
+    font-size: 12px; padding: 1px 4px; outline: none; background: transparent;
+  }
+
+  /* Temas */
+  .temas-grid {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 1px; background: #c8e6c9;
+    border: 1px solid #c8e6c9; border-radius: 8px; overflow: hidden;
+    margin-bottom: 12px;
+  }
+  .tema-item {
+    background: var(--verde-bg); padding: 6px 10px;
+    font-size: 11.5px; display: flex; align-items: center; gap: 8px;
+  }
+  .tema-item input { width: 14px; height: 14px; accent-color: var(--verde); flex-shrink: 0; }
+
+  /* Aviso IA */
+  .ia-box {
+    background: var(--amarelo-bg); border: 2px solid var(--amarelo);
+    border-radius: 10px; padding: 12px 16px; margin-bottom: 12px;
+    font-size: 12px;
+  }
+  .ia-box strong { color: var(--verde-escuro); }
+
+  /* Globinhos */
+  .globinhos-box {
+    background: var(--verde-bg); border: 1px solid var(--verde-claro);
+    border-radius: 10px; padding: 12px 16px;
+    text-align: center; font-size: 12px; font-weight: 700;
+    color: var(--verde-escuro); margin: 14px 0;
+  }
+
+  /* Footer */
+  .footer {
+    margin-top: 16px; border-top: 1px solid #e0e0e0;
+    padding-top: 10px; text-align: center;
+    color: #999; font-size: 10px; line-height: 1.7;
+  }
+
+  @media print {
+    body { padding: 10px; }
+    .etapa { break-inside: avoid; }
+    table { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>🌿 GeoShorts IA, Cutscene de Geografia</h1>
+  <p>Criação de vídeo educativo curto com Inteligência Artificial para o site Duvid</p>
+</div>
+
+<div class="tags">
+  <div class="tag">🎬 Projeto</div>
+  <div class="tag">🌿 1º Ano, Natureza</div>
+  <div class="tag">👥 Grupos de 5</div>
+  <div class="tag">⏱️ 2 aulas</div>
+</div>
+
+<h2>Objetivo</h2><hr>
+<p>
+  O grupo vai criar um <strong>vídeo de 50 segundos</strong> sobre um tema do módulo Natureza.
+  Cada aluno usa uma ferramenta de IA para gerar um <strong>clipe de 10 segundos</strong>,
+  e os 5 clipes se encaixam em um roteiro com história, como uma cutscene de jogo.
+  O vídeo final pode entrar no site Duvid como material de estudo.
+</p>
+
+<h2>O que vocês vão fazer</h2><hr>
+<div class="etapas">
+
+  <div class="etapa">
+    <div class="etapa-num">1</div>
+    <div>
+      <div class="etapa-titulo">Escolham o tema</div>
+      <p>O grupo escolhe uma aula do módulo Natureza. Todos os 5 clipes devem falar sobre o mesmo tema, cada um mostrando um ângulo diferente, uma causa, um efeito, um exemplo, uma consequência, uma solução.</p>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-num">2</div>
+    <div>
+      <div class="etapa-titulo">Escrevam o roteiro</div>
+      <p>Antes de gerar qualquer vídeo, o grupo escreve o roteiro completo: o que cada clipe vai mostrar, em que ordem, e como um passa o assunto para o próximo. O roteiro conta uma história geográfica, não são 5 vídeos soltos.</p>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-num">3</div>
+    <div>
+      <div class="etapa-titulo">Gerem os clipes com IA</div>
+      <p>Cada aluno usa uma ferramenta de IA para gerar seu clipe de exatamente <strong>10 segundos</strong>.
+        Sugestões: <strong>Gemini</strong> (OpenAI), <strong>Runway</strong>, <strong>Google flow</strong>, <strong>Kling</strong>, <strong>InVideo AI</strong>. Se a IA não for acessível, pode gerar imagens e animar com PowerPoint ou Canva.</p>
+    </div>
+  </div>
+
+  <div class="etapa">
+    <div class="etapa-num">4</div>
+    <div>
+      <div class="etapa-titulo">Montem o vídeo final</div>
+      <p>Juntem os 5 clipes na ordem do roteiro. Adicionem <strong>narração ou texto</strong> para costurar a história. Exportem em formato vertical (9:16) ou horizontal (16:9), com até 50 segundos no total.</p>
+    </div>
+  </div>
+
+</div>
+
+<h2>Roteiro do Grupo</h2><hr>
+<p style="margin-bottom:10px;"><strong>Tema escolhido:</strong>&nbsp;
+  <input class="write-line" type="text" placeholder="Ex: Vulcanismo e dinâmica interna da Terra" style="width:68%">
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width:50px">Clipe</th>
+      <th style="width:90px">Aluno</th>
+      <th>O que o clipe vai mostrar</th>
+      <th style="width:130px">Como passa para o próximo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><input class="write-line" type="text"></td><td><input class="write-line" type="text" style="width:100%"></td><td><input class="write-line" type="text"></td></tr>
+    <tr><td>2</td><td><input class="write-line" type="text"></td><td><input class="write-line" type="text" style="width:100%"></td><td><input class="write-line" type="text"></td></tr>
+    <tr><td>3</td><td><input class="write-line" type="text"></td><td><input class="write-line" type="text" style="width:100%"></td><td><input class="write-line" type="text"></td></tr>
+    <tr><td>4</td><td><input class="write-line" type="text"></td><td><input class="write-line" type="text" style="width:100%"></td><td><input class="write-line" type="text"></td></tr>
+    <tr><td>5</td><td><input class="write-line" type="text"></td><td><input class="write-line" type="text" style="width:100%"></td><td style="color:#999; font-size:11px;">fim do vídeo</td></tr>
+  </tbody>
+</table>
+
+<h2>Aulas do Módulo Natureza, Escolha uma</h2><hr>
+<div class="temas-grid">
+  <label class="tema-item"><input type="checkbox"> Conceitos fundamentais da Geografia</label>
+  <label class="tema-item"><input type="checkbox"> Climatologia I, Elementos do clima</label>
+  <label class="tema-item"><input type="checkbox"> Sensoriamento remoto e GPS</label>
+  <label class="tema-item"><input type="checkbox"> Climatologia II, Fatores climáticos</label>
+  <label class="tema-item"><input type="checkbox"> Eras geológicas e estrutura da Terra</label>
+  <label class="tema-item"><input type="checkbox"> Mudanças climáticas globais</label>
+  <label class="tema-item"><input type="checkbox"> Deriva continental e tectônica</label>
+  <label class="tema-item"><input type="checkbox"> Mudanças climáticas locais</label>
+  <label class="tema-item"><input type="checkbox"> Dinâmica interna do relevo</label>
+  <label class="tema-item"><input type="checkbox"> Hidrografia e ciclo da água</label>
+  <label class="tema-item"><input type="checkbox"> Dinâmica externa do relevo</label>
+  <label class="tema-item"><input type="checkbox"> Relevo oceânico</label>
+  <label class="tema-item"><input type="checkbox"> Ciclo das Rochas</label>
+  <label class="tema-item"><input type="checkbox"> Sistemas fluviais</label>
+  <label class="tema-item"><input type="checkbox"> Estrutura geológica e relevo</label>
+  <label class="tema-item"><input type="checkbox"> Fontes de energia I, Combustíveis fósseis</label>
+  <label class="tema-item"><input type="checkbox"> Solos</label>
+  <label class="tema-item"><input type="checkbox"> Fontes de energia II, Renováveis</label>
+</div>
+
+<div class="ia-box">
+  🤖 <strong>Ferramentas de IA para gerar vídeo:</strong>
+  Gemini · Runway · Google flow · Kling · InVideo AI · HailuoAI<br>
+  Se não tiver acesso a nenhuma, use o <strong>Canva</strong> (animação de imagens) ou o <strong>PowerPoint</strong> com transições exportadas como vídeo.
+</div>
+
+<h2>Critérios de Avaliação</h2><hr>
+<table>
+  <thead>
+    <tr><th>Critério</th><th>Descrição</th><th style="width:60px; text-align:center">Pontos</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Roteiro</strong></td><td>Os clipes contam uma história coerente, com início, meio e fim.</td><td style="text-align:center">3,0</td></tr>
+    <tr><td><strong>Conteúdo geográfico</strong></td><td>O tema da aula está presente e correto em todos os clipes.</td><td style="text-align:center">3,0</td></tr>
+    <tr><td><strong>Uso da IA</strong></td><td>Os clipes gerados têm relação visual com o conteúdo (não são genéricos).</td><td style="text-align:center">2,0</td></tr>
+    <tr><td><strong>Montagem</strong></td><td>Os clipes se encaixam bem, com narração ou texto que conecta as partes.</td><td style="text-align:center">2,0</td></tr>
+    <tr style="background: var(--verde-bg)"><td colspan="2"><strong>TOTAL</strong></td><td style="text-align:center"><strong>10,0</strong></td></tr>
+  </tbody>
+</table>
+
+<div class="globinhos-box">
+  🌍 +20 globinhos por concluir &nbsp;|&nbsp; 🏆 O melhor vídeo entra no site Duvid como material de estudo
+</div>
+
+<div class="footer">
+  BNCC: EM13CHS106 · EM13CHS204 · EM13LGG104 · EM13LGG602<br>
+  Duvid Geografia, duvid.com.br · @duvidgeo
+</div>
+
+</body>
+</html>

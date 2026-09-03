@@ -44,7 +44,7 @@
     <script src="/js/glossario.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 24 - População III: Atividades Econômicas</title>
 
 </head>
 
@@ -95,9 +95,9 @@
 
             <h2>Introdução</h2>
 
-            <p><span class="primeiraLetra">E</span>m 2024, o Brasil registrou a menor taxa de desemprego da história: 6,2% no quarto trimestre, segundo o IBGE. Mas esse número sozinho não conta toda a história. Ao mesmo tempo, quase 39% dos trabalhadores brasileiros estavam na informalidade, sem carteira assinada, sem férias, sem previdência. Pretos e pardos tinham taxas de informalidade entre 42% e 44%, enquanto a média dos trabalhadores brancos era de 33%.</p>
+            <p><span class="primeiraLetra">N</span>o segundo trimestre de 2026, o Brasil registrou uma taxa de desemprego de 5,4%, a menor para o período desde o início da série histórica da PNAD Contínua em 2012, segundo o IBGE. Mas esse número sozinho não conta toda a história. No mesmo período, 37,4% dos trabalhadores ocupados estavam na informalidade: sem carteira assinada, sem férias remuneradas, sem contribuição previdenciária automática. E o desemprego também não atinge todo mundo da mesma forma: entre os homens, a taxa era de 4,6%; entre as mulheres, 6,4%. Entre trabalhadores brancos, 4,2%; entre pretos, 6,9%; entre pardos, 6,1%.</p>
 
-            <p>Para entender o mercado de trabalho brasileiro, é preciso saber como ele é medido, como a produção é organizada por setores, quais leis protegem o trabalhador formal e por que o desemprego e a informalidade persistem mesmo quando os números oficiais melhoram. Essa é a aula de hoje.</p>
+            <p>Para entender o mercado de trabalho brasileiro, é preciso saber como ele é medido, como a produção é organizada por setores, quais leis protegem o trabalhador formal e por que o desemprego e a informalidade persistem, com intensidades tão diferentes entre grupos sociais, mesmo quando os números oficiais melhoram. Essa é a aula de hoje.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -184,7 +184,7 @@
 
             <h3>Setor Primário</h3>
 
-            <p>O <span class="termo" data-palavra="Setor Primário" data-definicao="Conjunto de atividades econômicas que extraem ou coletam recursos da natureza diretamente. Inclui agricultura, pecuária, pesca, silvicultura (manejo de florestas) e extrativismo mineral e vegetal. É o ponto de partida de quase toda cadeia produtiva, fornecendo matéria-prima para a indústria e alimento para a população.">setor primário</span> compreende todas as atividades que extraem recursos diretamente da natureza: agricultura, pecuária, pesca, silvicultura e mineração. No Brasil, esse setor tem peso econômico muito expressivo. Na safra 2022/2023, a produção brasileira de grãos foi estimada em 322,8 milhões de toneladas, com destaque para a soja (154,6 milhões de toneladas) e o milho (131,9 milhões de toneladas). Apenas onze culturas (soja, milho, cana-de-açúcar, café, arroz, algodão, trigo, mandioca, laranja e feijão) responderam por quase 88,5% do valor gerado pela produção agrícola brasileira em 2022, com a soja isolada representando 41,6% desse valor.</p>
+            <p>O <span class="termo" data-palavra="Setor Primário" data-definicao="Conjunto de atividades econômicas que extraem ou coletam recursos da natureza diretamente. Inclui agricultura, pecuária, pesca, silvicultura (manejo de florestas) e extrativismo mineral e vegetal. É o ponto de partida de quase toda cadeia produtiva, fornecendo matéria-prima para a indústria e alimento para a população.">setor primário</span> compreende todas as atividades que extraem recursos diretamente da natureza: agricultura, pecuária, pesca, silvicultura e mineração. No Brasil, esse setor tem peso econômico muito expressivo. Em 2025, a safra brasileira de grãos (cereais, leguminosas e oleaginosas) atingiu 346,1 milhões de toneladas, recorde da série histórica do IBGE iniciada em 1975, puxada pela soja (166,1 milhões de toneladas, alta de 14,6% sobre o ano anterior) e pelo milho (141,7 milhões de toneladas). O salto foi ainda mais expressivo por vir logo depois de uma safra ruim: em 2024, problemas climáticos derrubaram a produção para 293,8 milhões de toneladas, quase 7% a menos que em 2023, mostrando como o setor primário brasileiro, apesar de toda a tecnologia empregada, continua exposto às variações do clima de uma safra para outra. Apenas onze culturas (soja, milho, cana-de-açúcar, café, arroz, algodão, trigo, mandioca, laranja e feijão) respondem por quase 88,5% do valor gerado pela produção agrícola brasileira, com a soja isolada representando cerca de 42% desse valor.</p>
 
             <div class="w3-margin">
                 <img src="ts24f03.png" alt="Mapa da producao agricola brasileira por regiao e principais culturas de exportacao" class="w3-mobile"
@@ -256,6 +256,8 @@
 
             <p>Um fenômeno recente que mistura o setor terciário com novas formas de trabalho é a <span class="termo" data-palavra="Uberização" data-definicao="Processo pelo qual plataformas digitais intermediam trabalho sem criar vínculo empregatício formal com os prestadores de serviço. O trabalhador é tratado como 'parceiro autônomo' ou 'empreendedor individual', mas na prática não tem as garantias do emprego formal (férias, FGTS, previdência). O nome vem da empresa Uber, mas o modelo se aplica a entregadores, motoristas, freelancers e muitos outros.">uberização</span>: plataformas digitais como Uber, iFood, Rappi e similares intermediam o trabalho de milhares de pessoas sem criar vínculo empregatício. O trabalhador é chamado de "parceiro" ou "autônomo", mas depende da plataforma para ter acesso a clientes e não tem férias, previdência ou FGTS garantidos. É uma forma nova de informalidade, mas com a aparência de empreendedorismo.</p>
 
+            <p>Esse debate está longe de ser só teórico: em 2025 e 2026, diferentes propostas de regulamentação do trabalho por aplicativo tramitavam simultaneamente no Congresso Nacional, sem consenso entre governo, empresas e categorias de motoristas e entregadores. Uma delas, apresentada pelo governo federal, propõe garantir um pacote de direitos trabalhistas e previdenciários aos motoristas sem eliminar sua autonomia para escolher horários, fixando uma remuneração mínima por hora efetivamente trabalhada em corrida. Já outra proposta, de origem parlamentar, reforça a classificação desses profissionais como "trabalhadores autônomos plataformizados", deixando explícito que não há vínculo empregatício nos moldes da CLT. A disputa mostra como a fronteira entre autonomia e proteção trabalhista, discutida ao longo desta aula, segue em aberto justamente nos setores que mais crescem na economia brasileira.</p>
+
             <div class="w3-margin">
                 <img src="ts24f08.png" alt="Entregadores de aplicativo: a uberizacao do trabalho e uma nova forma de informalidade no Brasil" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>Imagem da uberização em breve</div>'">
@@ -314,6 +316,8 @@
             <p>A reforma também reforçou a regra de <strong>igualdade salarial</strong>: para trabalho de igual valor, prestado ao mesmo empregador e no mesmo estabelecimento, deve haver igual salário, sem distinção de sexo, etnia, nacionalidade ou idade. Em caso de discriminação comprovada por motivo de sexo ou etnia, a lei prevê pagamento das diferenças salariais devidas mais multa em favor do trabalhador prejudicado.</p>
 
             <p>Outra mudança relevante de 2017 foi a criação do <strong>contrato de trabalho intermitente</strong>, no qual o trabalhador presta serviços de forma descontínua, sendo convocado e remunerado apenas pelas horas efetivamente trabalhadas. A modalidade foi criada para regularizar situações comuns em setores como bares, restaurantes e eventos, mas também gerou críticas: entidades de trabalhadores argumentam que ela pode reduzir a previsibilidade de renda e enfraquecer vínculos empregatícios mais estáveis, tornando a fronteira entre trabalho formal e informal ainda mais tênue.</p>
+
+            <p>Um caso à parte na história recente da legislação trabalhista brasileira é o do <strong>trabalho doméstico</strong>. Em 2013, a Emenda Constitucional 72, conhecida como <strong>PEC das Domésticas</strong>, equiparou boa parte dos direitos das trabalhadoras domésticas aos de outras categorias profissionais: jornada de 44 horas semanais, hora extra, FGTS obrigatório e seguro-desemprego, entre outros. Mais de uma década depois, porém, a formalização não avançou como se esperava: em 2013, havia 1,9 milhão de domésticas com carteira assinada, número que caiu para 1,5 milhão em 2022, enquanto as informais, que já eram 4 milhões em 2013, chegaram a 4,3 milhões. A categoria é composta majoritariamente por mulheres, 92% do total, das quais 65% são negras, o que faz do trabalho doméstico um dos pontos onde as desigualdades de gênero, raça e formalização discutidas nesta aula se cruzam de forma mais direta.</p>
 
             <div class="w3-panel w3-pale-blue w3-leftbar w3-border-blue w3-round-large w3-padding-16 w3-margin-top">
                 <p><strong>Atenção para o ENEM:</strong> a CLT protege quem tem carteira assinada (trabalho formal). Motoristas de aplicativo, entregadores e ambulantes, mesmo trabalhando legalmente, não têm as garantias da CLT porque não têm vínculo empregatício reconhecido. É justamente esse o ponto central do debate sobre a regulamentação do trabalho por plataformas digitais, hoje discutido inclusive na Organização Internacional do Trabalho.</p>
@@ -382,35 +386,41 @@
 
             <h3>Informalidade: o Trabalho sem Proteção</h3>
 
-            <p>O <span class="termo" data-palavra="Trabalho Informal" data-definicao="Trabalho realizado sem registro em carteira de trabalho e sem as garantias previstas na CLT (Consolidação das Leis do Trabalho): férias, 13º salário, FGTS, seguro-desemprego e previdência social. Pode ser trabalho por conta própria sem registro, emprego doméstico sem carteira, comércio ambulante ou qualquer atividade sem contrato formal. No Brasil, afeta quase 39% dos trabalhadores.">trabalho informal</span> é um dos traços mais persistentes do mercado de trabalho brasileiro. Em 2024, cerca de 39% dos trabalhadores brasileiros estavam na informalidade: sem carteira assinada, sem direito a férias, sem FGTS, sem seguro-desemprego, sem contribuição previdenciária automática, ou seja, fora de todas as garantias que a CLT oferece a quem tem vínculo formal.</p>
+            <p>O <span class="termo" data-palavra="Trabalho Informal" data-definicao="Trabalho realizado sem registro em carteira de trabalho e sem as garantias previstas na CLT (Consolidação das Leis do Trabalho): férias, 13º salário, FGTS, seguro-desemprego e previdência social. Pode ser trabalho por conta própria sem registro, emprego doméstico sem carteira, comércio ambulante ou qualquer atividade sem contrato formal. No Brasil, afeta mais de um terço dos trabalhadores.">trabalho informal</span> é um dos traços mais persistentes do mercado de trabalho brasileiro. No segundo trimestre de 2026, 37,4% dos trabalhadores ocupados estavam na informalidade: sem carteira assinada, sem direito a férias, sem FGTS, sem seguro-desemprego, sem contribuição previdenciária automática, ou seja, fora de todas as garantias que a CLT oferece a quem tem vínculo formal. O número vem caindo devagar nos últimos anos, mas segue afetando mais de um terço da força de trabalho ocupada do país.</p>
 
             <div class="w3-margin">
                 <img src="ts24f010.png" alt="Mapa da informalidade no Brasil por estado: regioes Norte e Nordeste tem as maiores taxas" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Mapa da informalidade em breve</div>'">
-                <span class="w3-small w3-margin-left">Taxa de informalidade por estado: Maranhão (55%), Piauí (57%) e Pará (58%) lideram; Sul e Sudeste apresentam as menores taxas. Fonte: PNAD Contínua, 2024.</span>
+                <span class="w3-small w3-margin-left">Taxa de informalidade por estado, 2º trimestre de 2026: Maranhão (56,9%), Pará (55,9%) e Amazonas (51,7%) lideram; Santa Catarina (25,4%) e Distrito Federal (28,7%) têm as menores taxas do país. Fonte: PNAD Contínua, IBGE.</span>
             </div>
 
-            <p>A informalidade no Brasil não é distribuída igualmente. Os dados do IBGE mostram desigualdades estruturais marcantes: trabalhadores pretos e pardos têm taxas de informalidade entre 42% e 44%, contra 33% entre brancos. Mulheres são mais afetadas que homens em determinados setores. Regiões Norte e Nordeste têm as maiores taxas do país.</p>
+            <p>A informalidade no Brasil não é distribuída igualmente. Os dados do IBGE mostram desigualdades estruturais marcantes: em levantamento recente, trabalhadores pardos tinham taxa de informalidade de 41,6% e pretos, de 40,8%, contra 32,2% entre brancos. O mesmo padrão racial aparece no desemprego, que no 2º trimestre de 2026 era de 6,9% entre pretos e 6,1% entre pardos, contra 4,2% entre brancos. Regiões Norte e Nordeste têm as maiores taxas de informalidade do país, refletindo tanto o peso do trabalho agrícola informal quanto a menor presença de grandes empresas formais nessas regiões.</p>
 
             <div class="w3-margin">
-                <img src="ts24f011.png" alt="Grafico de barras comparando taxa de informalidade por cor ou raca no Brasil 2024: pretos, pardos e brancos" class="w3-mobile"
+                <img src="ts24f011.png" alt="Grafico de barras comparando taxa de informalidade por cor ou raca no Brasil: pretos, pardos e brancos" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Grafico de informalidade por raca em breve</div>'">
-                <span class="w3-small w3-margin-left">Informalidade por cor ou raça no Brasil, 4º trimestre 2024: pretos (41,9%), pardos (43,5%), brancos (32,6%). Média nacional: 38,6%. Fonte: IBGE/PNAD Contínua.</span>
+                <span class="w3-small w3-margin-left">Informalidade por cor ou raça no Brasil: pardos (41,6%), pretos (40,8%), brancos (32,2%). Fonte: IBGE/PNAD Contínua.</span>
             </div>
+
+            <h3>Desemprego e Escolaridade</h3>
+
+            <p>A escolaridade também molda profundamente as chances de estar empregado no Brasil. No segundo trimestre de 2026, a taxa de desemprego entre pessoas com ensino médio incompleto chegou a 9,0%, mais que o dobro da taxa entre quem tem ensino superior completo, de apenas 3,0%. Já entre quem cursou o ensino superior mas não terminou, a taxa ficou em 5,6%, quase o dobro da verificada entre os formados. Esse padrão se repete ano após ano nas pesquisas do IBGE e ajuda a explicar por que a permanência na escola, sobretudo até o fim do ensino médio e, se possível, com continuidade em algum curso superior ou técnico, segue sendo um dos fatores mais associados a melhores condições de inserção no mercado de trabalho brasileiro.</p>
 
             <h3>Jovens Fora do Mercado de Trabalho</h3>
 
-            <p>Um problema particular do Brasil é o alto número de jovens que não estudam nem trabalham, chamados internacionalmente de NEET (Not in Education, Employment or Training). No Brasil, são cerca de 10 milhões de jovens entre 15 e 29 anos nessa situação, o que representa uma perda de capital humano e potencial produtivo enormes para o país. A maior parte é mulher, negra e moradora do Nordeste, um recorte que mostra como a exclusão do mercado de trabalho segue os mesmos eixos de desigualdade racial e regional discutidos ao longo desta aula.</p>
+            <p>Um problema particular do Brasil é o número de jovens que não estudam nem trabalham, chamados internacionalmente de NEET (Not in Education, Employment or Training). Esse número, porém, vem caindo de forma expressiva: em 2019, o grupo somava 11,9 milhões de jovens entre 15 e 29 anos; em 2022, ainda passava de 10,9 milhões (22,3% da faixa etária); e, em junho de 2026, o IBGE registrou 6,2 milhões de jovens nessa situação, equivalentes a 18,7% do grupo, o menor patamar da série. Mesmo com a queda acentuada, o fenômeno segue representando uma perda relevante de capital humano e potencial produtivo para o país, e historicamente atinge de forma desproporcional mulheres, jovens negros e moradores do Nordeste, um recorte que mostra como a exclusão do mercado de trabalho segue os mesmos eixos de desigualdade racial e regional discutidos ao longo desta aula.</p>
 
             <div class="w3-margin">
                 <img src="ts24f012.png" alt="Jovens brasileiros que nem estudam nem trabalham: o fenomeno NEET e suas causas" class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#f1f8e9;border:2px dashed #a5d6a7;border-radius:8px;text-align:center;color:#888>Grafico NEET em breve</div>'">
-                <span class="w3-small w3-margin-left">Jovens NEET no Brasil: quase 10 milhões de pessoas entre 15 e 29 anos que não estudam nem trabalham. A maioria é negra, do Nordeste e do sexo feminino. Fonte: IBGE, 2023.</span>
+                <span class="w3-small w3-margin-left">Jovens NEET no Brasil: de 11,9 milhões em 2019 para 6,2 milhões em 2026, uma queda expressiva, mas que ainda concentra desigualdades de gênero, raça e região. Fonte: IBGE/PNAD Contínua.</span>
             </div>
 
             <h3>MEI: uma Informalidade Parcialmente Formalizada</h3>
 
-            <p>Para reduzir a informalidade "pura", o governo federal criou em 2008 a figura do <span class="termo" data-palavra="MEI" data-definicao="Microempreendedor Individual, categoria criada em 2008 para formalizar trabalhadores autônomos com faturamento anual de até R$ 81 mil. Paga um valor fixo mensal reduzido de impostos e passa a ter acesso a aposentadoria, auxílio-doença e outros benefícios previdenciários, além de CNPJ próprio.">MEI (Microempreendedor Individual)</span>, voltada a trabalhadores autônomos como cabeleireiros, eletricistas, vendedores ambulantes e pequenos comerciantes. Com um valor fixo mensal reduzido, o MEI passa a ter CNPJ, emite nota fiscal e ganha acesso a benefícios previdenciários como aposentadoria e auxílio-doença. O Brasil já ultrapassou 15 milhões de MEIs cadastrados, o que mostra como parte da informalidade brasileira vem migrando para essa formalização intermediária: nem carteira assinada tradicional, nem completamente à margem da lei.</p>
+            <p>Para reduzir a informalidade "pura", o governo federal criou em 2008 a figura do <span class="termo" data-palavra="MEI" data-definicao="Microempreendedor Individual, categoria criada em 2008 para formalizar trabalhadores autônomos com faturamento anual de até R$ 81 mil. Paga um valor fixo mensal reduzido de impostos e passa a ter acesso a aposentadoria, auxílio-doença e outros benefícios previdenciários, além de CNPJ próprio.">MEI (Microempreendedor Individual)</span>, voltada a trabalhadores autônomos como cabeleireiros, eletricistas, vendedores ambulantes e pequenos comerciantes. Com um valor fixo mensal reduzido, o MEI passa a ter CNPJ, emite nota fiscal e ganha acesso a benefícios previdenciários como aposentadoria e auxílio-doença. O teto de faturamento permanece em R$ 81 mil por ano desde 2018, embora um projeto de lei em tramitação no Congresso proponha elevá-lo gradualmente para R$ 110 mil em 2027 e R$ 140 mil em 2028. Em 2026, o Brasil já ultrapassou 17 milhões de MEIs ativos, o que mostra como parte da informalidade brasileira vem migrando para essa formalização intermediária: nem carteira assinada tradicional, nem completamente à margem da lei.</p>
+
+            <p>Boa parte dessas desigualdades no mercado de trabalho, entre regiões, entre o campo e a cidade, entre quem sai e quem fica, também está ligada a um fenômeno que ainda não discutimos diretamente: as migrações internas. Foi justamente a modernização do campo, com menos gente empregada por hectare, que expulsou milhões de trabalhadores rurais em direção às cidades ao longo do século XX. Na próxima aula, vamos estudar exatamente esse processo: as migrações internas, pendulares e de retorno, o êxodo rural e a transumância no Brasil.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -426,9 +436,61 @@
 
             <p><strong>Setores:</strong> Primário (extração da natureza: agricultura, mineração; só 9% da PEA, mas com a agricultura familiar concentrando 67% do emprego rural contra 23% do valor produzido); secundário (transformação industrial); terciário (serviços, maior empregador do Brasil); quaternário (conhecimento e tecnologia). A uberização é uma nova forma de trabalho informal mediada por plataformas.</p>
 
-            <p><strong>Legislação trabalhista:</strong> A CLT (1943) garante salário mínimo, 13º, férias, FGTS, licenças e aposentadoria a quem tem vínculo formal. A Reforma Trabalhista de 2017 regulamentou o teletrabalho e reforçou a igualdade salarial.</p>
+            <p><strong>Legislação trabalhista:</strong> A CLT (1943) garante salário mínimo, 13º, férias, FGTS, licenças e aposentadoria a quem tem vínculo formal. A Reforma Trabalhista de 2017 regulamentou o teletrabalho e reforçou a igualdade salarial. A PEC das Domésticas (2013) estendeu direitos semelhantes às trabalhadoras domésticas, mas a formalização da categoria segue baixa.</p>
 
-            <p><strong>Desemprego:</strong> Friccional (transição natural entre empregos); estrutural (mudanças permanentes na economia); cíclico (crises conjunturais); tecnológico (substituição por máquinas). A informalidade afeta 39% dos trabalhadores brasileiros, com desigualdades marcantes por raça, gênero e região.</p>
+            <p><strong>Desemprego:</strong> Friccional (transição natural entre empregos); estrutural (mudanças permanentes na economia); cíclico (crises conjunturais); tecnológico (substituição por máquinas). A informalidade afeta mais de um terço dos trabalhadores brasileiros, com desigualdades marcantes por raça, gênero, região e escolaridade.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11B: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, por que o setor primário emprega apenas cerca de 9% da PEA brasileira mesmo produzindo tanto?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a24" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a24"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a24', 'quinas', 'resp1a24', this, 'globinho1a24')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a24" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, como as plataformas chamam os motoristas de aplicativo para evitar reconhecer um vínculo empregatício formal com eles?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a24" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a24"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a24', 'parceiro', 'resp2a24', this, 'globinho2a24')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a24" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11C: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots24" src="inforesumots24.webp"
+                    alt="Infográfico resumo População III - PEA, setores da economia e desemprego" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -452,13 +514,13 @@
                 <span class="primeiraLetra">P:</span>
                 <strong>O que é "desalento" e por que ele importa para entender o desemprego real?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Desalento é quando uma pessoa parou de procurar emprego porque não acredita que vai encontrar. Pela metodologia do IBGE, ela cai na categoria de inativa (PEI), e não aparece na taxa oficial de desemprego. Isso significa que a taxa oficial pode subestimar o problema real do mercado de trabalho. Por isso, o IBGE divulga também a <strong>taxa de subutilização</strong>, que inclui desocupados, desalentados e subocupados (quem trabalha menos horas do que gostaria). Em 2024, enquanto o desemprego oficial era de 6,2%, a subutilização era de cerca de 15%. Nas provas do ENEM, questões sobre desemprego frequentemente exploram essa diferença entre desemprego oficial e real.</p>
+            <p><span class="primeiraLetra">R:</span> Desalento é quando uma pessoa parou de procurar emprego porque não acredita que vai encontrar. Pela metodologia do IBGE, ela cai na categoria de inativa (PEI), e não aparece na taxa oficial de desemprego. Isso significa que a taxa oficial pode subestimar o problema real do mercado de trabalho. Por isso, o IBGE divulga também a <strong>taxa de subutilização</strong>, que inclui desocupados, desalentados e subocupados (quem trabalha menos horas do que gostaria). No segundo trimestre de 2026, enquanto o desemprego oficial era de 5,4%, a subutilização estava em 12,9%, mais que o dobro. Nas provas do ENEM, questões sobre desemprego frequentemente exploram essa diferença entre desemprego oficial e real.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
                 <strong>O Brasil está desindustrializando?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Sim, e é um debate importante. A participação da indústria no PIB brasileiro caiu de cerca de 35% nos anos 1980 para menos de 20% hoje. O problema é que nos países desenvolvidos isso ocorreu depois de terem atingido altos níveis de renda. O Brasil está reduzindo a indústria antes de ter completado seu desenvolvimento, voltando a ser exportador de commodities (matérias-primas) como soja e minérios. Economistas chamam isso de "desindustrialização precoce" e alertam para os riscos: o setor industrial gera empregos formais de maior qualidade e impulsiona a inovação tecnológica mais do que a exportação de matérias-primas brutas.</p>
+            <p><span class="primeiraLetra">R:</span> Sim, e é um debate importante. Em 1985, a indústria (incluindo transformação, construção, mineração e utilidades) respondia por 48% do PIB brasileiro; em 2024, essa participação havia caído para 24,7%, uma queda de mais de 23 pontos percentuais em quatro décadas. O recuo é ainda mais acentuado quando se olha só para a indústria de transformação (fábricas propriamente ditas), que caiu de cerca de 36% do PIB em 1985 para pouco mais de 11% recentemente. O problema é que nos países desenvolvidos esse tipo de queda ocorreu depois de terem atingido altos níveis de renda. O Brasil está reduzindo a indústria antes de ter completado seu desenvolvimento, voltando a ser exportador de commodities (matérias-primas) como soja e minérios. Economistas chamam isso de "desindustrialização precoce" e alertam para os riscos: o setor industrial gera empregos formais de maior qualidade e impulsiona a inovação tecnológica mais do que a exportação de matérias-primas brutas.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
@@ -504,27 +566,25 @@
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
-                <h3>1. O que é PEA? Qual é a diferença entre PEA, PEI e PIA?</h3>
+                <h3>1. O que é PEA? Qual é a diferença entre PEA, PEI e PIA? Como o IBGE classifica quem desistiu de procurar emprego?</h3>
 
-                <h3>2. Como o IBGE classifica uma pessoa que não trabalha e não procura emprego? Qual é o nome dado a quem desistiu de procurar?</h3>
+                <h3>2. Qual é a diferença entre a taxa de desemprego oficial e a taxa de subutilização?</h3>
 
-                <h3>3. Qual é a diferença entre a taxa de desemprego oficial e a taxa de subutilização?</h3>
+                <h3>3. Cite e explique as atividades que pertencem a cada um dos setores da economia (primário, secundário, terciário e quaternário).</h3>
 
-                <h3>4. Cite e explique as atividades que pertencem a cada um dos setores da economia (primário, secundário, terciário e quaternário).</h3>
+                <h3>4. Por que a agricultura familiar responde por apenas 23% do valor da produção agropecuária, mas emprega 67% do pessoal ocupado no campo? O que isso revela sobre o setor primário brasileiro?</h3>
 
-                <h3>5. Por que a agricultura familiar responde por apenas 23% do valor da produção agropecuária, mas emprega 67% do pessoal ocupado no campo? O que isso revela sobre o setor primário brasileiro?</h3>
+                <h3>5. O que é desindustrialização precoce e por que ela preocupa economistas que analisam o Brasil?</h3>
 
-                <h3>6. O que é desindustrialização precoce e por que ela preocupa economistas que analisam o Brasil?</h3>
+                <h3>6. Quais direitos a CLT garante ao trabalhador formal? O que mudou com a Reforma Trabalhista de 2017?</h3>
 
-                <h3>7. Quais direitos a CLT garante ao trabalhador formal? O que mudou com a Reforma Trabalhista de 2017?</h3>
+                <h3>7. O que é uberização? Por que motoristas e entregadores de aplicativo não são protegidos pela CLT?</h3>
 
-                <h3>8. O que é uberização? Por que motoristas e entregadores de aplicativo não são protegidos pela CLT?</h3>
+                <h3>8. Explique os tipos de desemprego: friccional, estrutural, cíclico e tecnológico. Dê um exemplo de cada.</h3>
 
-                <h3>9. Explique os tipos de desemprego: friccional, estrutural, cíclico e tecnológico. Dê um exemplo de cada.</h3>
+                <h3>9. Como a taxa de informalidade e a taxa de desemprego se distribuem desigualmente no Brasil segundo raça, região, gênero e escolaridade?</h3>
 
-                <h3>10. Como a taxa de informalidade se distribui desigualmente no Brasil segundo raça, região e gênero?</h3>
-
-                <h3>11. O que são jovens NEET e qual é o impacto social e econômico desse fenômeno para o Brasil?</h3>
+                <h3>10. O que são jovens NEET e qual é o impacto social e econômico desse fenômeno para o Brasil?</h3>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
@@ -574,6 +634,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

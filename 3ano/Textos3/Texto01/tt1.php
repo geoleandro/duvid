@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="/estilos/ModeloCss.css">
     <link rel="stylesheet" href="/estilos/explicacaoPalavra.css">
     <link rel="stylesheet" href="/estilos/texto-estilo.css">
+    <link rel="stylesheet" href="/estilos/image-carousel.css">
     <link rel="shortcut icon" type="image/x-icon" href="/fotoIndex/favicon.ico">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,6 +48,7 @@
 
     <script src="/js/aulas-geral.js" defer></script>
     <script src="/js/glossario.js" defer></script>
+    <script src="/js/image-carousel.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
 
@@ -197,92 +199,29 @@
 
             <div class="w3-content" style="max-width:900px">
 
-                <div class="w3-container w3-yellow w3-padding-small w3-margin-bottom">
-                    <h3 class="w3-center">PÁGINA 1: OS TRÊS MUNDOS</h3>
-                </div>
-
-                <div class="w3-row-padding">
-                    <div class="w3-col m6 w3-margin-bottom">
-                        <img src="hq/quadro1.jpg" alt="Duvid Podcast" class="w3-image w3-mobile w3-card-2">
-                    </div>
-                    <div class="w3-col m6 w3-margin-bottom">
-                        <img src="hq/quadro2.jpg" alt="Pergunta do Duvid" class="w3-image w3-mobile w3-card-2">
-                    </div>
-                </div>
-
-                <div class="w3-margin w3-center">
-                    <img src="hq/quadro3.jpg" alt="Três Mundos Coexistindo" class="w3-image w3-mobile w3-card-4">
-                    <p class="w3-small w3-text-grey">Milton Santos explica a coexistência dos três mundos.</p>
-                </div>
-
-                <div class="w3-container w3-yellow w3-padding-small w3-margin-top w3-margin-bottom">
-                    <h3 class="w3-center">PÁGINA 2: FÁBULA E PERVERSIDADE</h3>
-                </div>
-
-                <div class="w3-row-padding">
-                    <div class="w3-col  w3-margin-bottom">
-                        <img src="hq/quadro4.jpg" alt="Globalização como Fábula" class="w3-image w3-mobile w3-card-2">
-                    </div>
-                    <div class="w3-col  w3-margin-bottom">
-                        <img src="hq/quadro5.jpg" alt="Globalização Perversa" class="w3-image w3-mobile w3-card-2">
-                    </div>
-                </div>
-
-                <div class="w3-row-padding">
-                    <div class="w3-col m6 w3-margin-bottom">
-                        <img src="hq/quadro6.jpg" alt="Duvid Questionando" class="w3-image w3-mobile">
-                    </div>
-                    <div class="w3-col m6 w3-margin-bottom">
-                        <img src="hq/quadro7.jpg" alt="Técnica e Política" class="w3-image w3-mobile">
-                    </div>
-
-                </div>
-
-                <div class="w3-margin w3-center">
-
-                    <img src="hq/quadro8.jpg" alt="Complexo de Objetos" class="w3-image w3-mobile">
-
-                </div>
-
-                <div class="w3-row-padding w3-center">
-                    <img src="hq/quadro9.jpg" alt="Mapa Mundi Desigual" class="w3-image w3-mobile w3-card-4">
-                    <p class="w3-small">A velocidade e a informação são para poucos.</p>
-                </div>
-
-                <div class="w3-container w3-yellow w3-padding-small w3-margin-top w3-margin-bottom">
-                    <h3 class="w3-center">PÁGINA 3: RESISTÊNCIA E POSSIBILIDADE</h3>
-                </div>
-
-                <div class="w3-margin w3-center">
-
-                    <img src="hq/quadro11.jpg" alt="Espaço não é neutro" class="w3-image w3-mobile w3-card-2">
-
-
-                </div>
-
-                <div class="w3-col s12 w3-margin-bottom w3-center">
-                    <div style="max-width: 500px; margin: 0 auto;">
-                        <img src="hq/quadro12.jpg" alt="Resistência no Brasil" class="w3-image w3-card-2">
-                    </div>
-                </div>
-                <div class="w3-margin w3-center">
-                    <img src="hq/quadro13.jpg" alt="Território como Abrigo" class="w3-image w3-mobile w3-card-2">
-                    <span class="w3-small w3-margin-left" id="citacao2">Cena inspirada na solidariedade horizontal de
-                        Milton
-                        Santos.</span>
-                </div>
-
-                <div class="w3-row-padding">
-                    <div class="w3-col  w3-margin-bottom">
-                        <img src="hq/quadro14.jpg" alt="O Mundo que pode ser" class="w3-image w3-mobile">
-                    </div>
-                    <div class="w3-col  w3-margin-bottom">
-                        <img src="hq/quadro15.jpg" alt="Tecnologia Social" class="w3-image w3-mobile">
-                    </div>
-                    <div class="w3-col  w3-margin-bottom">
-                        <img src="hq/quadro16.jpg" alt="Final: Solidariedade" class="w3-image w3-mobile">
-                    </div>
-                </div>
+                <div id="image-carousel-root"></div>
+                <script>
+                    window.CAROUSEL_TITLE = 'Duvid: Entrevista Milton Santos (quadrinho)';
+                    window.CAROUSEL_FIT = 'contain';
+                    window.CAROUSEL_RATIO = '580/316';
+                    window.CAROUSEL_IMAGES = [
+                        { src: 'hq/quadro1.jpg', titulo: 'Os Três Mundos', legenda: 'Abertura do Duvid Podcast.' },
+                        { src: 'hq/quadro2.jpg', titulo: 'Os Três Mundos', legenda: 'Pergunta do Duvid.' },
+                        { src: 'hq/quadro3.jpg', titulo: 'Os Três Mundos', legenda: 'Milton Santos explica a coexistência dos três mundos.' },
+                        { src: 'hq/quadro4.jpg', titulo: 'Fábula e Perversidade', legenda: 'A globalização como fábula.' },
+                        { src: 'hq/quadro5.jpg', titulo: 'Fábula e Perversidade', legenda: 'A globalização perversa.' },
+                        { src: 'hq/quadro6.jpg', titulo: 'Fábula e Perversidade', legenda: 'Duvid questiona o professor.' },
+                        { src: 'hq/quadro7.jpg', titulo: 'Fábula e Perversidade', legenda: 'Técnica e política.' },
+                        { src: 'hq/quadro8.jpg', titulo: 'Fábula e Perversidade', legenda: 'O complexo de objetos técnicos.' },
+                        { src: 'hq/quadro9.jpg', titulo: 'Fábula e Perversidade', legenda: 'A velocidade e a informação são para poucos.' },
+                        { src: 'hq/quadro11.jpg', titulo: 'Resistência e Possibilidade', legenda: 'O espaço não é neutro.' },
+                        { src: 'hq/quadro12.jpg', titulo: 'Resistência e Possibilidade', legenda: 'Resistência no Brasil.' },
+                        { src: 'hq/quadro13.jpg', titulo: 'Resistência e Possibilidade', legenda: 'Cena inspirada na solidariedade horizontal de Milton Santos.' },
+                        { src: 'hq/quadro14.jpg', titulo: 'Resistência e Possibilidade', legenda: 'O mundo que pode ser.' },
+                        { src: 'hq/quadro15.jpg', titulo: 'Resistência e Possibilidade', legenda: 'Tecnologia a serviço da cidadania.' },
+                        { src: 'hq/quadro16.jpg', titulo: 'Resistência e Possibilidade', legenda: 'Final: solidariedade.' }
+                    ];
+                </script>
 
             </div>
 
@@ -657,6 +596,11 @@
                 embaralhando essas categorias, à medida que países antes considerados periféricos passam a exportar
                 produtos industrializados e a competir tecnologicamente com os centrais.</p>
 
+            <p>Essa divisão também aparece na conectividade digital: em 2024, 93% da população dos países de renda
+                alta usava internet, contra 27% nos de renda baixa, segundo a União Internacional de
+                Telecomunicações. A infraestrutura de fibra óptica e data centers, os fixos mais valiosos da economia
+                atual, também está concentrada nos países centrais.</p>
+
             <p>Um critério puramente monetário, porém, esconde muita coisa. Um país pode ter um PIB elevado e, ainda
                 assim, oferecer pouca qualidade de vida à maior parte da população, caso a riqueza esteja concentrada
                 em poucas mãos. Por isso a ONU criou o <span class="termo" data-palavra="IDH"
@@ -670,6 +614,16 @@
                 interna de cada país, o Brasil perde posições, prova de que ter uma renda média razoável não é o
                 mesmo que distribuir bem essa renda entre a população.</p>
 
+            <p>Em maio de 2026, um retrato mais recente trouxe uma notícia melhor, mas que exige atenção ao método:
+                o Radar IDHM, calculado pelo próprio escritório do PNUD no Brasil com dados nacionais mais atualizados
+                (2024) e metodologia ligeiramente diferente da usada no relatório global, mostrou o país alcançando,
+                pela primeira vez na história, a faixa de "muito alto desenvolvimento humano", com índice de 0,805.
+                Não é uma contradição em relação ao número de 0,786 visto no parágrafo anterior: são dois cálculos
+                diferentes, um comparando o Brasil ao resto do mundo com uma defasagem de dois anos nos dados, outro
+                acompanhando a evolução interna do país com informações mais recentes. Serve de lição prática sobre
+                como interpretar estatística: antes de comparar um número com outro, é preciso perguntar de onde ele
+                vem e o que exatamente está sendo medido.</p>
+
             <p>Depois da Segunda Guerra Mundial, ao mesmo tempo em que o sistema de Bretton Woods organizava as
                 finanças mundiais, os países também criaram regras para o comércio internacional: o Acordo Geral de
                 Tarifas e Comércio (GATT), de 1947, reduziu progressivamente as tarifas alfandegárias entre seus
@@ -682,56 +636,32 @@
                 enfrentam dificuldade para proteger suas indústrias nascentes com as mesmas tarifas que os países
                 ricos usaram no passado para proteger as suas.</p>
 
-            <p>
-                As desigualdades socioespaciais aparecem tanto entre países quanto dentro deles. Nas cidades, é comum a
-                convivência de áreas bem estruturadas com regiões marcadas pela precariedade. O lugar onde uma pessoa
-                vive influencia diretamente suas oportunidades de estudo, trabalho e acesso a serviços, mostrando que o
-                espaço geográfico é produzido de forma desigual.
-            </p>
+            <h3>Fixos, fluxos e as duas lógicas do espaço geográfico</h3>
 
-            <p>Os números do próprio Brasil ajudam a enxergar essa desigualdade de perto. Segundo o IBGE, o índice de
-                Gini (indicador que mede a concentração de renda de uma população, variando de 0, igualdade total, a
-                1, desigualdade total) do rendimento domiciliar per capita no Brasil caiu de 0,518 em 2023 para 0,506 em 2024, o menor nível
-                da série histórica da pesquisa, puxado por um mercado de trabalho aquecido e pela manutenção de
-                programas sociais. Ainda assim, em 2024 o 1% mais rico da população brasileira recebia o equivalente
-                a 36,2 vezes o rendimento dos 40% mais pobres, e o IBGE calcula que, sem os benefícios sociais, o
-                índice de Gini seria 7,5% maior. Ou seja: mesmo no melhor momento da série histórica, a distância
-                entre topo e base da distribuição de renda continua enorme, e as desigualdades caem de forma
-                desigual entre as regiões, tendo inclusive aumentado no Sul entre 2023 e 2024 enquanto recuava em
-                todas as outras regiões do país.</p>
+            <p>Milton Santos criou um par de conceitos para explicar como um mesmo território serve, ao mesmo tempo,
+                à economia global e à vida de quem mora nele: fixos e fluxos. Os fixos são os elementos parados no
+                espaço, como estradas, portos, cabos de fibra óptica e prédios. Os fluxos são os movimentos que
+                passam por esses fixos: mercadorias, capital, informação, pessoas.</p>
 
-            <p>
-                A globalização intensifica as relações entre países por meio do avanço das tecnologias, dos transportes,
-                do comércio e da circulação de capitais. Um dos aspectos mais importantes desse processo é a
-                financeirização da economia, isto é, a circulação cada vez mais rápida de capital especulativo (ações,
-                títulos, moedas) entre os países: hoje, o volume de capital especulativo que circula diariamente pelo mundo é muito maior
-                do que o valor de todo o comércio de mercadorias, e decisões tomadas em bolsas de valores de Nova
-                York, Londres ou Xangai afetam quase instantaneamente empregos e preços em países do outro lado do
-                planeta. Apesar de gerar avanços tecnológicos e maior circulação de informações, a globalização
-                também amplia desigualdades, beneficia grandes empresas e dificulta a vida de milhões de
-                trabalhadores, evidenciando seus contrastes e contradições. É esse mesmo padrão desigual que aparece,
-                em outra escala, nas cidades brasileiras: bairros com infraestrutura completa convivem, muitas vezes
-                a poucos quilômetros de distância, com regiões sem saneamento básico, transporte público adequado ou
-                equipamentos de saúde e educação, o que você vai estudar com mais profundidade nas próximas aulas
-                sobre urbanização e problemas socioambientais.
-            </p>
+            <p>Um porto só tem sentido econômico por causa dos navios e dos dados que circulam por ele. Quanto mais
+                fixos modernos um lugar concentra, mais fluxos ele consegue atrair e comandar.</p>
 
-            <p>
-                O mundo atual é marcado por fortes contrastes: grandes avanços convivem com pobreza e exclusão social. A
-                Geografia nos ajuda a compreender que essas desigualdades não são naturais, mas resultado de escolhas
-                políticas, econômicas e sociais, moldadas ao longo de séculos de colonialismo, industrialização e
-                reformas econômicas, e não de alguma característica fixa dos países ou dos povos. Entender essa
-                origem histórica é o primeiro passo para pensar modelos de desenvolvimento mais justos e humanos,
-                tema que vai atravessar todas as aulas deste ano. A entrevista com Milton Santos que você acabou de
-                acompanhar foi escrita justamente para dar um fio condutor a essa jornada: entender o espaço
-                geográfico como algo produzido por decisões humanas, e por isso mesmo, transformável. E são essas
-                mesmas decisões humanas que moldam outro tema central da Geografia: o tamanho, o ritmo de
-                crescimento e a distribuição da população pelo planeta. Na próxima aula você vai estudar demografia,
-                taxas de natalidade e mortalidade, transição demográfica e as diferentes teorias populacionais que
-                tentam explicar por que alguns países ainda crescem rápido enquanto outros já envelhecem, um
-                panorama que vai te ajudar a entender de onde vêm justamente os fluxos migratórios e os conflitos
-                por recursos que apareceram nesta aula.
-            </p>
+            <p>Santos também distinguiu verticalidades e horizontalidades. As verticalidades são relações de comando
+                que ligam um lugar a centros de decisão distantes, como uma fábrica no interior do Brasil que recebe
+                ordens de uma matriz nos Estados Unidos. As horizontalidades são as relações de vizinhança e
+                cooperação entre quem divide o mesmo espaço do dia a dia, como moradores de um bairro que se
+                organizam por uma escola.</p>
+
+            <p>Para Santos, a globalização tende a fortalecer as verticalidades às custas das horizontalidades. Por
+                isso ele defendia o território como abrigo: um espaço onde a solidariedade de perto ainda pode
+                resistir à pressão do comando de longe.</p>
+
+            <p>Essas ideias fazem parte de uma leitura maior: a passagem por diferentes períodos técnicos do espaço
+                geográfico. No meio natural, a paisagem era pouco transformada e dependia das condições do lugar,
+                como clima e relevo. Com a industrialização veio o meio técnico, de máquinas e fábricas ainda
+                concentradas em poucas regiões.</p>
+
+          
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">
                 Próximo
@@ -741,6 +671,82 @@
 
         </div>
 
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+            <h4 class="fontePixel"><b>Uma fábrica no interior do Brasil que só produz o que uma matriz nos Estados
+                    Unidos manda produzir, seguindo prazos e preços decididos de fora, é um exemplo do que Milton
+                    Santos chamava de:</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Horizontalidade</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Verticalidade</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Fixo</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'verticalidade e uma relacao de comando que liga um lugar a um centro de decisao distante, tipico da logica das cadeias produtivas globais.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>Milton Santos usava um par de palavras para descrever os elementos parados no
+                    espaço (estradas, portos, prédios) e os movimentos que passam por eles (mercadorias, capital,
+                    informação, pessoas). Qual é o termo para os elementos parados?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta1" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta1', 'fixo', 'respAberta1', this, 'globinhoAberta1')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>Segundo o relatório do PNUD divulgado em 2025, com dados de 2023, em que
+                    posição o Brasil aparece no ranking global do IDH entre 193 países?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta2" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta2', '84', 'respAberta2', this, 'globinhoAberta2')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+        </div>
 
 
         <div class="topico">
@@ -865,7 +871,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
 
                 <h3>1. Como o autor descreve os três mundos (primeiro, segundo e terceiro) e o que essa visão sugere
@@ -959,6 +965,11 @@
                 </h3>
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
         <br><br>

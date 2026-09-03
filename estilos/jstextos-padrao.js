@@ -1055,3 +1055,114 @@ async function enviarReporteTexto() {
         btn.textContent = 'Enviar';
     }
 }
+
+
+// ══════════════════════════════════════════════════════════════════
+// PILOTO: Jéssica pergunta / Globinho destaca — por tópico, sob controle do autor
+// Só roda nesta página por enquanto (lista PILOTO_PATHS abaixo).
+//
+// COMO USAR: em qualquer <div class="topico" ...> deste arquivo, adicione
+// um ou os dois atributos abaixo com o texto que você quiser (escrito por
+// você, não gerado automaticamente):
+//
+//   <div class="topico" data-fala-globinho="Fica ligado nesse ponto: ..."
+//                        data-fala-jessica="Pausa pra pensar: ...?">
+//
+// - Só data-fala-globinho  → aparece só o Globinho, logo após o título do tópico.
+// - Só data-fala-jessica   → aparece só a Jéssica, no fim do tópico (antes do botão Próximo).
+// - Os dois                → aparecem os dois.
+// - Nenhum dos dois        → o tópico fica sem personagens (comportamento padrão).
+//
+// Ou seja: você decide tópico a tópico se tem ou não, e escreve o texto
+// exato que quiser — nada é inventado automaticamente.
+// ══════════════════════════════════════════════════════════════════
+(function () {
+    var PILOTO_PATHS = ['/3ano/Textos3/Texto01/texto-modelo.php'];
+    if (PILOTO_PATHS.indexOf(window.location.pathname) === -1) return;
+
+    var ATRASO_ENTRADA_MS = 1000; // espera depois do clique antes dos personagens surgirem
+    var TEMPO_VISIVEL_MS  = 8000; // quanto tempo o balão fica na tela antes de sumir
+    var DURACAO_SAIDA_MS  = 500;  // duração da animação de saída (bate com o CSS)
+
+    function criarCallout(tipo, frase) {
+        var el = document.createElement('div');
+        el.className = 'texto-personagem-callout texto-personagem-callout--' + tipo;
+        var sprite = document.createElement('div');
+        sprite.className = 'texto-personagem-sprite';
+        var balao = document.createElement('div');
+        balao.className = 'texto-personagem-balao';
+        var p = document.createElement('p');
+        p.textContent = frase;
+        balao.appendChild(p);
+        el.appendChild(sprite);
+        el.appendChild(balao);
+        return el;
+    }
+
+    function agendarSumico(el) {
+        setTimeout(function () {
+            el.classList.add('texto-personagem-callout--saindo');
+            setTimeout(function () {
+                if (el.parentNode) el.parentNode.removeChild(el);
+            }, DURACAO_SAIDA_MS);
+        }, TEMPO_VISIVEL_MS);
+    }
+
+    function inserirPersonagens(topico) {
+        if (topico.dataset.personagensInseridos) return;
+
+        var falaGlobinho = topico.dataset.falaGlobinho;
+        var falaJessica  = topico.dataset.falaJessica;
+        if (!falaGlobinho && !falaJessica) return; // tópico sem os atributos = sem personagens
+
+        topico.dataset.personagensInseridos = '1';
+
+        setTimeout(function () {
+            if (typeof DuvidAudio !== 'undefined') DuvidAudio.tocar('suporte');
+
+            if (falaGlobinho) {
+                var globinhoEl = criarCallout('globinho', falaGlobinho);
+                var heading = topico.querySelector('h1, h2, h3');
+                if (heading) {
+                    heading.insertAdjacentElement('afterend', globinhoEl);
+                } else {
+                    topico.insertBefore(globinhoEl, topico.firstChild);
+                }
+                agendarSumico(globinhoEl);
+            }
+
+            if (falaJessica) {
+                var jessicaEl = criarCallout('jessica', falaJessica);
+                var botao = topico.querySelector('button.btnShow');
+                if (botao) {
+                    botao.parentNode.insertBefore(jessicaEl, botao);
+                } else {
+                    topico.appendChild(jessicaEl);
+                }
+                agendarSumico(jessicaEl);
+            }
+        }, ATRASO_ENTRADA_MS);
+    }
+
+    function ativarObservadorPersonagens() {
+        var topicos = document.querySelectorAll('.topico');
+        var observer = new MutationObserver(function (mutations) {
+            mutations.forEach(function (m) {
+                var alvo = m.target;
+                if (alvo.classList && alvo.classList.contains('topico') && alvo.classList.contains('mostrar')) {
+                    inserirPersonagens(alvo);
+                }
+            });
+        });
+        topicos.forEach(function (t) {
+            observer.observe(t, { attributes: true, attributeFilter: ['class'] });
+            if (t.classList.contains('mostrar')) inserirPersonagens(t);
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', ativarObservadorPersonagens);
+    } else {
+        ativarObservadorPersonagens();
+    }
+}());

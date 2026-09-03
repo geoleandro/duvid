@@ -238,17 +238,15 @@
 
 
 
-            <p> Nossa jornada começa pelos fatores do desenvolvimento, o que não deixa de ser um tema complexo. Comparar
-                nações
-                simplesmente com base em números econômicos não reflete a realidade da qualidade de vida das pessoas</p>
+            <p>Comparar países simplesmente com base em números econômicos, como o PIB, não reflete a realidade da
+                qualidade de vida das pessoas que vivem neles. Dois países com o mesmo PIB podem ter populações com
+                acesso muito diferente a educação, saúde e alimentação, exatamente os fatores que você vai estudar
+                nesta aula.</p>
 
-            <p>Para compreender verdadeiramente o desenvolvimento, devemos adotar uma abordagem holística (perceber o
-                todo)
-                que considere não apenas o crescimento econômico, mas também os fatores sociais, ambientais e culturais
-                que
-                moldam a vida das pessoas. </p>
-
-            <p>É possível promover um desenvolvimento genuíno e equitativo em todo o mundo? Já pensou sobre isso? </p>
+            <p>Entender o desenvolvimento exige olhar não só para o crescimento econômico, mas também para os fatores
+                sociais, ambientais e culturais que moldam a vida das pessoas. É esse olhar mais completo que a
+                Geografia usa para explicar por que, mesmo entre países vizinhos ou com renda parecida, a qualidade
+                de vida pode ser tão diferente.</p>
 
 
 
@@ -281,6 +279,11 @@
                 desemprego. A taxa de desemprego é um indicador-chave usado para medir o nível de desocupação na PEA.
             </p>
 
+            <p>O Brasil ilustra bem essas oscilações: em 2025, a taxa de desemprego caiu para 5,6% na média anual, a
+                menor desde o início da série histórica do IBGE em 2012, com a população ocupada batendo recorde de
+                103 milhões de pessoas. Números como esse mostram por que a PEA é acompanhada de perto por governos e
+                economistas: uma queda no desemprego costuma vir acompanhada de mais renda circulando na economia e,
+                consequentemente, de mais recursos disponíveis para investimento em educação e saúde.</p>
 
             <h3>Setores Econômicos</h3>
 
@@ -353,9 +356,28 @@
                 trabalho sem vínculo empregatício formal, um modelo que ganhou força com a expansão da internet
                 móvel e que segue no centro do debate sobre direitos trabalhistas no século XXI.</p>
 
+            <h3>Como a distribuição da PEA revela o desenvolvimento</h3>
 
+            <p>A forma como a PEA de um país se distribui entre os setores não é só uma estatística: é um retrato do
+                estágio de desenvolvimento daquele lugar. Em economias pouco industrializadas, a maior parte da mão
+                de obra costuma estar concentrada no setor primário, ocupações de baixa produtividade e baixa
+                remuneração média. À medida que um país se industrializa, parte dessa força de trabalho migra para o
+                setor secundário, e depois para o terciário e o quaternário, setores que agregam mais valor a cada
+                hora trabalhada.</p>
 
+            <p>Esse deslocamento gera um efeito em cadeia. Trabalhadores em setores mais produtivos recebem salários
+                maiores, pagam mais impostos e consomem mais serviços, o que financia mais investimento em educação e
+                saúde, que por sua vez forma trabalhadores ainda mais qualificados para setores de maior valor
+                agregado. É por isso que geógrafos e economistas usam a distribuição setorial da PEA como um
+                indicador indireto, mas bastante confiável, do nível de desenvolvimento de um país, mesmo sem olhar
+                diretamente para o PIB.</p>
 
+            <p>Esse deslocamento setorial também tem uma face espacial: o setor quaternário não se distribui de
+                forma homogênea pelo território de um país, mas se concentra em polos tecnológicos específicos, como
+                o Vale do Silício, nos Estados Unidos, ou Bangalore, na Índia, cidade que concentra boa parte da
+                indústria de tecnologia da informação indiana e é conhecida como o "Vale do Silício indiano". Essa
+                concentração cria ilhas de alta renda e alta qualificação dentro de países que, olhados como um todo,
+                ainda têm grandes parcelas da população em setores de baixa produtividade.</p>
 
 
 
@@ -434,13 +456,10 @@
                 relação a oportunidades de liderança e igualdade salarial.</p>
 
 
-            <p>Em resumo, a PEA é um conceito essencial para entender a economia e o mercado de trabalho de uma nação. A
-                evolução da inserção das mulheres no mercado de trabalho representa uma mudança significativa nas
-                últimas
-                décadas, embora desigualdades de gênero ainda persistam em muitos lugares. É fundamental continuar
-                promovendo políticas e práticas que incentivem a igualdade de oportunidades e a participação plena das
-                mulheres na força de trabalho, contribuindo assim para um desenvolvimento econômico mais inclusivo e
-                sustentável.</p>
+            <p>A distância entre Suécia e Japão mostra que a participação das mulheres no mercado de trabalho não
+                depende só do nível de renda de um país, já que os dois são desenvolvidos, mas também de decisões
+                concretas de política pública: licença parental, creches acessíveis e legislação de igualdade
+                salarial pesam tanto quanto o tamanho da economia.</p>
 
 
 
@@ -497,10 +516,9 @@
 
             <p><strong>Subnutrição no Mundo</strong>: Segundo a Organização das Nações Unidas para a Alimentação e a
                 Agricultura (FAO), em 2025 cerca de 645 milhões de pessoas, o equivalente a 7,8% da população
-                mundial, enfrentaram a fome, uma queda em relação aos 8,1% de 2024 e aos 8,6% de 2022, terceiro ano
-                seguido de redução. Apesar da melhora, a projeção é preocupante: se as tendências atuais continuarem,
-                cerca de 582 milhões de pessoas ainda estarão cronicamente subnutridas em 2030, metade delas na
-                África.</p>
+                mundial, enfrentaram a fome, terceiro ano seguido de redução. Apesar da melhora, a projeção segue
+                preocupante: se as tendências atuais continuarem, cerca de 520 milhões de pessoas ainda estarão
+                cronicamente subnutridas em 2030, quase 60% delas na África.</p>
 
 
             <div class="w3-margin"><img id="imagem6" src="tt04f06.png" alt="tt04f06" class="w3-mobile">
@@ -520,19 +538,21 @@
             <p><strong>Soberania Alimentar em Ação</strong>: Em alguns países da América Latina, como o Brasil,
                 políticas de
                 segurança alimentar e programas de agricultura familiar foram implementados com sucesso para promover a
-                soberania alimentar e melhorar o acesso da população a alimentos nutritivos.</p>
+                soberania alimentar e melhorar o acesso da população a alimentos nutritivos. Programas de
+                transferência de renda combinados com apoio à agricultura familiar, caso do Bolsa Família e de
+                iniciativas de compra pública de alimentos, ajudam a explicar por que a fome no Brasil segue em
+                queda nos últimos anos, mesmo com o país ainda enfrentando desigualdades regionais profundas.</p>
 
 
 
 
-            <h3>Desafios e Futuro:</h3>
+            <h3>Desafios e Futuro</h3>
 
-            <p>O desafio de garantir a nutrição adequada e a segurança alimentar para todas as pessoas continua sendo
-                uma
-                prioridade global. À medida que enfrentamos questões como o crescimento populacional, as mudanças
-                climáticas
-                e a degradação ambiental, é fundamental adotar abordagens sustentáveis para a produção e distribuição de
-                alimentos.</p>
+            <p>O crescimento populacional projetado para as próximas décadas, combinado com mudanças climáticas que já
+                afetam safras em regiões como o Chifre da África e o Sahel, torna a produção e a distribuição de
+                alimentos um desafio crescente, não decrescente. Expandir a fronteira agrícola tem custo ambiental
+                alto, o que reforça a importância de ganhos de produtividade nas terras já cultivadas e de políticas
+                de redistribuição, como as que reduziram a fome no Brasil na última década.</p>
 
 
 
@@ -561,8 +581,11 @@
                 produtiva. A alfabetização, em particular, é um indicador crítico, pois a capacidade de ler e escrever
                 desempenha um papel fundamental no acesso ao conhecimento e no sucesso no mercado de trabalho. Um
                 exemplo
-                notável é o caso da Finlândia, que investiu fortemente em educação e colheu benefícios significativos,
-                criando uma força de trabalho altamente educada e uma sociedade próspera.</p>
+                notável é o caso da Finlândia, onde praticamente 100% dos adultos são alfabetizados e todos os
+                professores do ensino fundamental precisam ter mestrado, exigência rara mesmo entre países ricos.
+                Essa seleção rigorosa dos professores é apontada como um dos principais motivos de o país aparecer
+                sistematicamente entre os melhores colocados do PISA, o exame internacional que compara o desempenho
+                de estudantes de 15 anos em leitura, matemática e ciências.</p>
 
 
             <div class="w3-margin"><img id="imagem11" src="tt04f011.png" alt="tt04f011" class="w3-mobile">
@@ -583,9 +606,15 @@
                 as pessoas levem vidas saudáveis e produtivas. Além disso, a nutrição adequada é essencial para o
                 crescimento e o desenvolvimento saudáveis, especialmente em crianças. Por exemplo, o sistema de saúde
                 eficaz
-                da Suécia, com atendimento médico acessível e de alta qualidade, contribui para uma população saudável e
-                uma
-                força de trabalho robusta.</p>
+                da Suécia, com cerca de 3,9 médicos para cada mil habitantes bem distribuídos pelo território, contribui
+                para uma população saudável e uma força de trabalho robusta.</p>
+
+            <p>O acesso à saúde também revela desigualdades dentro de um mesmo país. No Brasil, 55,3% dos médicos
+                estão concentrados na região Sudeste, que reúne 42% da população nacional, deixando o restante do
+                território com uma proporção de profissionais bem menor. Capitais e clínicas privadas concentram
+                ainda mais médicos do que o interior e a rede pública, o que significa que ter um sistema de saúde
+                nacional relativamente bom, como o Brasil tem no papel, não garante acesso equivalente para todos os
+                cidadãos.</p>
 
             <div class="w3-margin"><img id="imagem7" src="tt04f07.png" alt="tt04f07" class="w3-mobile">
 
@@ -613,20 +642,16 @@
                 <span class="w3-small w3-margin-left" id="citacao12"> Fonte: Simielli. </span>
             </div>
 
-            <p><strong>Desafios e Perspectivas Futuras</strong>: Abordar esses fatores do desenvolvimento é crucial para
-                melhorar a qualidade de vida das populações em todo o mundo. À medida que enfrentamos desafios como o
-                crescimento populacional, as mudanças climáticas e as disparidades econômicas, é fundamental adotar
-                políticas e práticas que garantam acesso à educação de qualidade, cuidados de saúde adequados e
-                alimentos
-                nutritivos. Promover a igualdade de oportunidades é uma parte essencial da busca por um desenvolvimento
-                sustentável e inclusivo. </p>
-
-
-            <p>Em resumo, educação, saúde e alimentação desempenham papéis interligados e fundamentais no
-                desenvolvimento de
-                indivíduos e na prosperidade das nações. Compreender esses fatores e trabalhar para melhorá-los é
-                essencial
-                para construir um mundo mais equitativo e próspero. </p>
+            <p><strong>Colocando os três fatores lado a lado</strong>: os casos de Finlândia e Suécia, já citados
+                nesta aula, e do Níger, que você conheceu na aula anterior como o país com o crescimento populacional
+                mais rápido do mundo, mostram como educação, saúde e alimentação andam juntas na prática. No Níger, a
+                taxa de alfabetização é de apenas 38% (46% entre homens, 30% entre mulheres), a expectativa de vida
+                gira em torno de 61 anos e cerca de metade da população não tem acesso regular a alimentação
+                suficiente. Não é coincidência que os três indicadores estejam baixos ao mesmo tempo: a falta de
+                escolaridade limita o acesso a empregos melhores, a renda mais baixa dificulta o acesso a alimentos e
+                saúde, e a insegurança alimentar, por sua vez, compromete o aprendizado das crianças na escola. É o
+                mesmo ciclo que funciona ao contrário na Finlândia e na Suécia, só que empurrando a qualidade de vida
+                para cima em vez de para baixo.</p>
 
 
 
@@ -689,14 +714,27 @@
                 assim enfrentar privações graves nesses três fatores ao mesmo tempo, o que a estatística de PIB per
                 capita, sozinha, jamais capturaria.</p>
 
-            <p>O Brasil ajuda a ilustrar essa complexidade. Segundo dados do IBGE analisados com o critério do Banco
-                Mundial, em 2021 cerca de 44,5 milhões de brasileiros, ou 29,4% da população, viviam abaixo da linha
-                de pobreza (renda inferior a US$ 5,50 por dia em paridade de poder de compra), e 17,9 milhões, ou
-                8,4% da população, estavam em situação de extrema pobreza (menos de US$ 1,90 por dia), os maiores
-                números da série histórica desde 2012. Esses números também variam muito entre as regiões do país: a
-                pobreza no Brasil não é só uma questão de renda, mas está diretamente ligada à falta de acesso a
-                educação de qualidade, serviços de saúde, moradia adequada e saneamento básico, exatamente as
-                dimensões que o IPM tenta capturar.</p>
+            <p>Em escala global, a mais recente edição do relatório de IPM da ONU, feita em parceria com a
+                Universidade de Oxford, identificou 1,1 bilhão de pessoas vivendo em pobreza multidimensional aguda
+                em todo o mundo. Os países com os piores índices estão concentrados na África Subsaariana, entre
+                eles justamente o Níger, que você conheceu há pouco: uma confirmação, em escala de pesquisa
+                internacional, de que baixa educação, má saúde e insegurança alimentar realmente costumam andar
+                juntas.</p>
+
+            <p>O Brasil ajuda a ilustrar essa complexidade. Segundo o IBGE, com o critério de pobreza do Banco
+                Mundial (renda domiciliar per capita abaixo de US$ 6,85 por dia em paridade de poder de compra), a
+                proporção de brasileiros pobres recuou de 27,3% em 2023 para 23,1% em 2024, cerca de 48,9 milhões de
+                pessoas, a terceira queda anual seguida depois do pico de 36,8% registrado em 2021, durante a
+                pandemia. A extrema pobreza (renda abaixo de US$ 2,15 por dia) também caiu, de 4,4% para 3,5%, o
+                menor patamar de toda a série histórica iniciada em 2012.</p>
+
+            <p>Essa pobreza, porém, não se distribui igualmente pelo território brasileiro. Em 2024, o Nordeste teve
+                39,4% de sua população na pobreza, o maior índice entre as regiões, ainda que em forte queda frente
+                aos 47,2% do ano anterior. Já a Região Sul teve a menor proporção de pobres do país, apenas 11,2%,
+                uma diferença de mais de três vezes em relação ao Nordeste dentro do mesmo país e no mesmo ano. Isso
+                mostra que a pobreza no Brasil não é só uma questão de renda individual, mas está diretamente ligada
+                à distribuição desigual de educação de qualidade, serviços de saúde, moradia adequada e saneamento
+                básico entre as regiões, exatamente as dimensões que o IPM tenta capturar.</p>
 
             <p>Além disso, o que significa desenvolvimento pode variar amplamente entre diferentes culturas e contextos.
                 Uma
@@ -718,20 +756,17 @@
                 de riqueza, acesso à educação, saúde e oportunidades econômicas.</p>
 
 
-            <p>Portanto, afirmar que um país é mais desenvolvido do que outro sem levar em consideração todos esses
-                fatores
-                pode ser enganoso e injusto. Em vez de comparações simplistas, é mais útil adotar uma abordagem
-                holística ao
-                avaliar o desenvolvimento, considerando múltiplos indicadores e compreendendo as nuances de cada
-                contexto.
-            </p>
+            <p>A Índia ilustra bem essa heterogeneidade interna. O estado de Kerala tem IDH de cerca de 0,80,
+                alfabetização de quase 94% e expectativa de vida próxima de 75 anos, patamares comparáveis aos de
+                países desenvolvidos, resultado de décadas de investimento público em saúde e educação. Já o estado
+                de Bihar, no norte do país, tem o menor IDH da Índia, cerca de 0,62, e expectativa de vida de 68
+                anos. Os dois fazem parte do mesmo país, com o mesmo governo federal e a mesma moeda, mas vivem
+                realidades de desenvolvimento tão diferentes quanto países de continentes distintos.</p>
 
 
-            <p>Em suma, o desenvolvimento é uma questão complexa e multifacetada, e a comparação entre países requer uma
-                análise cuidadosa e contextualizada. É fundamental reconhecer que nem sempre é válido classificar um
-                país
-                como mais desenvolvido do que outro sem considerar todas as variáveis que influenciam o bem-estar e o
-                progresso de uma sociedade.</p>
+            <p>No fim das contas, dizer que um país é "mais desenvolvido" do que outro sem olhar para PEA, setores
+                econômicos, educação, saúde e alimentação ao mesmo tempo é simplificar demais uma realidade que quase
+                nunca é simples.</p>
 
             <p>Se PIB per capita, IPM e os fatores que você estudou nesta aula ainda deixam brechas na hora de medir
                 o desenvolvimento, como comparar países de forma mais justa? Essa é exatamente a pergunta que vai
@@ -841,6 +876,91 @@
         </div>
 
 
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <h4 class="fontePixel"><b>Por que a distribuição da PEA entre os setores é usada como indicador indireto
+                    de desenvolvimento?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao">
+                        <span>Porque mede diretamente o PIB do país</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao">
+                        <span>Setores de maior valor agregado geram mais renda e investimento social</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao">
+                        <span>Porque todo país com muita indústria é automaticamente desenvolvido</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'O deslocamento da PEA para setores de maior valor agregado gera mais renda, mais impostos e mais investimento em educação e saúde, um ciclo que se retroalimenta.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80">
+            </div>
+
+            <button class="btnShow" style="display:none"
+                onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, qual estado indiano tem o maior IDH do país, com investimento público em saúde e
+                educação comparável a países desenvolvidos?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a4t4" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a4t4"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a4t4', 'kerala', 'resp1a4t4', this, 'globinho1a4t4')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a4t4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, qual sigla identifica o indicador criado pela ONU em 2010 que mede a pobreza para
+                além da renda, considerando educação, saúde e padrão de vida?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a4t4" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a4t4"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a4t4', 'ipm', 'resp2a4t4', this, 'globinho2a4t4')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a4t4" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
         <div class="topico">
 
             <h2> Infográfico - Resumo</h2>
@@ -871,7 +991,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
 
                 <h3>1. O que é a PEA (População Economicamente Ativa) e quais são suas duas categorias principais?</h3>
@@ -937,6 +1057,11 @@
                 </h3>
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div><br><br>
 

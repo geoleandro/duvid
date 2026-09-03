@@ -35,6 +35,105 @@ function calcularRPG(int $globinhos): array {
     ];
 }
 
+
+
+
+
+// Normaliza texto para comparação no filtro de conteúdo.
+// Acentos → base, símbolos → espaço, preserva word boundaries.
+function normalizarTextoFiltro(string $texto): string {
+    $texto = mb_strtolower(trim($texto), 'UTF-8');
+    $texto = strtr($texto, [
+        'á'=>'a','à'=>'a','ã'=>'a','â'=>'a','ä'=>'a',
+        'é'=>'e','è'=>'e','ê'=>'e','ë'=>'e',
+        'í'=>'i','ì'=>'i','î'=>'i','ï'=>'i',
+        'ó'=>'o','ò'=>'o','õ'=>'o','ô'=>'o','ö'=>'o',
+        'ú'=>'u','ù'=>'u','û'=>'u','ü'=>'u',
+        'ç'=>'c',
+    ]);
+    $texto = preg_replace('/[^a-z0-9]+/u', ' ', $texto);
+    return trim(preg_replace('/\s+/', ' ', $texto));
+}
+
+// Valida e normaliza o nome do aluno antes de salvar no banco.
+function validarNome(string $nome): array {
+    $nome = trim($nome);
+
+    // ── Verificações estruturais ──────────────────────────────────────
+    if ($nome === '') {
+        return ['valido' => false, 'erro' => 'Nome é obrigatório.'];
+    }
+    if (mb_strlen($nome, 'UTF-8') < 2) {
+        return ['valido' => false, 'erro' => 'Nome deve ter pelo menos 2 caracteres.'];
+    }
+    if (mb_strlen($nome, 'UTF-8') > 80) {
+        return ['valido' => false, 'erro' => 'Nome deve ter no máximo 80 caracteres.'];
+    }
+
+    // Remove espaços duplicados
+    $nomeNormalizado = preg_replace('/\s+/', ' ', $nome);
+
+    // Não permite apenas números
+    if (preg_match('/^\d+$/u', $nomeNormalizado)) {
+        return ['valido' => false, 'erro' => 'Digite um nome válido.'];
+    }
+
+    // Permite letras, acentos, espaços, apóstrofo e hífen
+    if (!preg_match("/^[\p{L}\p{M} .'-]+$/u", $nomeNormalizado)) {
+        return ['valido' => false, 'erro' => 'O nome contém caracteres não permitidos.'];
+    }
+
+    // ── Filtro de conteúdo (word-boundary) ───────────────────────────
+    $analise = normalizarTextoFiltro($nomeNormalizado);
+
+    $termosBloqueados = [
+        // palavrões / ofensas
+        'puta', 'puto', 'merda', 'porra', 'caralho', 'cacete',
+        'bosta', 'foda', 'foder', 'fodase', 'fodido', 'fodida',
+        'fudido', 'fudida', 'desgracado', 'desgracada',
+        'arrombado', 'arrombada', 'fdp', 'pqp', 'vsf', 'vtnc',
+        'tnc', 'tmnc', 'pnc', 'krl', 'crlh',
+        // ofensas gerais
+        'otario', 'otaria', 'idiota', 'imbecil', 'babaca',
+        'escroto', 'escrota', 'nojento', 'nojenta',
+        'retardado', 'retardada', 'mongol', 'mongoloide',
+        'corno', 'cornao', 'broxa','feio', 'feia', 'burro', 'burra','bundao', 'bunda', 'cuzão', 'cuzinho', 'cuzinho', 'cuzuda','bundinha', 'bunduda', 'boceta', 'buceta', 'piroca', 'pau no cú',
+        // conteúdo sexual
+        'viado', 'bicha', 'boiola', 'traveco','broxa','broxinha',
+        'buceta', 'boceta', 'piroca', 'punheta', 'boquete',
+        'siririca', 'xereca', 'xota', 'tesao', 'porno',
+        'piranha', 'vadia', 'prostituta',
+        'vagabunda', 'vagabundo', 'safado', 'safada',
+        // expressões compostas
+        'filho da puta', 'filha da puta',
+        'vai se foder', 'vai tomar no cu', 'puta que pariu',
+    ];
+
+    // Double-pass: "F.D.P" → normaliza → "f d p" → colapsa → "fdp" (pega abreviações com separadores)
+    $analiseColapsada = str_replace(' ', '', $analise);
+
+    foreach ($termosBloqueados as $termo) {
+        $termoNormalizado  = normalizarTextoFiltro($termo);
+        $termoColapsado    = str_replace(' ', '', $termoNormalizado);
+
+        // Pass 1 — com espaços (pega expressões compostas como "filho da puta")
+        $padrao = '/(?<![a-z0-9])' . preg_quote($termoNormalizado, '/') . '(?![a-z0-9])/i';
+        if (preg_match($padrao, $analise)) {
+            return ['valido' => false, 'erro' => 'Escolha um nome apropriado para usar no Duvid.'];
+        }
+
+        // Pass 2 — sem espaços (pega abreviações separadas: F.D.P → fdp, p.u.t.a → puta)
+        if ($termoColapsado !== $termoNormalizado) { // só re-testa se o termo tem espaços
+            $padrao2 = '/(?<![a-z0-9])' . preg_quote($termoColapsado, '/') . '(?![a-z0-9])/i';
+            if (preg_match($padrao2, $analiseColapsada)) {
+                return ['valido' => false, 'erro' => 'Escolha um nome apropriado para usar no Duvid.'];
+            }
+        }
+    }
+
+    return ['valido' => true, 'nome' => $nomeNormalizado];
+}
+
 // Resolve o código de turma digitado no cadastro para um turma_id.
 // - código vazio  → turma "Livre" (LIVRE)
 // - código válido → id da turma ativa
@@ -235,8 +334,10 @@ if ($metodo === 'POST') {
         $novoTurma  = isset($body['codigo_turma']) ? trim($body['codigo_turma'])              : null;
 
         if ($novoNome !== null) {
-            if (strlen($novoNome) < 2)
-                jsonResponse(['erro' => 'Nome deve ter pelo menos 2 caracteres.', 'campo' => 'nome'], 400);
+            $validacaoNome = validarNome($novoNome);
+            if (!$validacaoNome['valido'])
+                jsonResponse(['erro' => $validacaoNome['erro'], 'campo' => 'nome', 'codigo' => 'NOME_INVALIDO'], 400);
+            $novoNome = $validacaoNome['nome'];
             $chk = $pdo->prepare("SELECT id FROM alunos WHERE nome = :nome AND id != :id LIMIT 1");
             $chk->execute([':nome' => $novoNome, ':id' => $id]);
             if ($chk->fetch())
@@ -281,7 +382,12 @@ if ($metodo === 'POST') {
     $cidade = trim($body['cidade'] ?? '');
     $escola = strtoupper(trim($body['escola'] ?? ''));
 
-    if ($nome === '') jsonResponse(['erro' => 'Nome e obrigatorio.'], 400);
+    $validacaoNome = validarNome($nome);
+    if (!$validacaoNome['valido']) {
+        jsonResponse(['erro' => $validacaoNome['erro'], 'campo' => 'nome', 'codigo' => 'NOME_INVALIDO'], 400);
+    }
+    $nome = $validacaoNome['nome'];
+
     if ($pin === '')  jsonResponse(['erro' => 'PIN e obrigatorio.', 'campo' => 'pin'], 400);
     if (!preg_match('/^\d{4}$/', $pin))
         jsonResponse(['erro' => 'PIN deve ter exatamente 4 digitos.', 'campo' => 'pin'], 400);
@@ -421,9 +527,11 @@ if ($metodo === 'PATCH') {
 
     // Valida nome novo se foi enviado
     if ($novoNome !== null) {
-        if (strlen($novoNome) < 2) {
-            jsonResponse(['erro' => 'Nome deve ter pelo menos 2 caracteres.', 'campo' => 'nome'], 400);
+        $validacaoNome = validarNome($novoNome);
+        if (!$validacaoNome['valido']) {
+            jsonResponse(['erro' => $validacaoNome['erro'], 'campo' => 'nome', 'codigo' => 'NOME_INVALIDO'], 400);
         }
+        $novoNome = $validacaoNome['nome'];
         // Verifica unicidade (ignora o próprio id)
         $chk = $pdo->prepare("SELECT id FROM alunos WHERE nome = :nome AND id != :id LIMIT 1");
         $chk->execute([':nome' => $novoNome, ':id' => $id]);

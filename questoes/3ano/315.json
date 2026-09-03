@@ -9,7 +9,7 @@
       "configuração espacial",
       "mapa"
     ],
-    "texto_apoio": "“É de grande relevância aqui o fato de que uma grande proporção do trânsito de internet do mundo passa pelos Estados Unidos (...). Isso significa que a NSA (a agência de segurança nacional dos EUA) poderia acessar uma quantidade alarmante de ligações telefônicas simplesmente escolhendo as instalações certas. O que é ainda mais inacreditável:\n\nEssas instalações não passam de alguns prédios, conhecidos como “hotéis de telecomunicação”, que hospedam os principais centros de conexão de internet e telefonia do planeta todo.”",
+    "texto_apoio": "É de grande relevância aqui o fato de que uma grande proporção do trânsito de internet do mundo passa pelos Estados Unidos (...). Isso significa que a NSA (a agência de segurança nacional dos EUA) poderia acessar uma quantidade alarmante de ligações telefônicas simplesmente escolhendo as instalações certas. O que é ainda mais inacreditável:\n\nEssas instalações não passam de alguns prédios, conhecidos como “hotéis de telecomunicação”, que hospedam os principais centros de conexão de internet e telefonia do planeta todo.",
     "imagem_apoio": "3ano/img/315/t15q1.png",
     "pergunta": "A respeito da configuração espacial e geopolítica retratada no excerto e no mapa, é possível afirmar que",
     "alternativas": [
@@ -41,7 +41,7 @@
       "distribuição geográfica"
     ],
     "texto_apoio": "“Tem se tornado lugar comum dizer que o gigantesco volume de dados extraídos de nossa vida cotidiana está armazenado “na nuvem”. É quase como dizer: estão por toda a parte e em lugar nenhum. Flutuam. Se damos, contudo, um passo para além das metáforas, nos depararemos com a robusta infraestrutura do capitalismo digital, que está ancorada em territórios concretos e se inscreve numa geografia do poder. É assim que, segundo a UNCTAD (2021), de um total de 4.714 data centers existentes no mundo, quase 80% estão em países desenvolvidos, principalmente nos EUA e países da Europa ocidental”.",
-    "pergunta": "Sobre os data centers e sua distribuição, é correto afirmar que\n\nO objetivo da questão é tratar sobre a infraestrutura necessária ao capitalismo global, principalmente em relação aos datacenters e sua distribuição no mundo. O texto destaca que a maioria esmagadora dessas infraestruturas está localizada em países desenvolvidos, especialmente nos EUA e na Europa ocidental. Isso sugere uma concentração geográfica específica, o que pode ser relevante para entender como a infraestrutura do capitalismo digital está distribuída. Além disso, a metáfora inicial sobre os dados armazenados \"na nuvem\" e a posterior menção à sua ancoragem em territórios concretos são dicas valiosas para considerar essas infraestruturas e sua relação com o poder econômico. Tente resolver sem ver a resposta\n\nResposta: Letra C. sua rarefação (pouco numeroso) no Sul-Global indica que a coleta, a armazenagem e o tratamento dos dados levanta grave problema relativo à soberania dos Estados nacionais dessa parte do mundo.",
+    "pergunta": "Sobre os data centers e sua distribuição, é correto afirmar que",
     "alternativas": [
       "são infraestruturas concentradas no Norte Global que, por serem públicas, controladas pelo Estado, têm seu impacto minimizado em questões geopolíticas que perpassam essa parte do mundo.",
       "o processo de desenvolvimento geograficamente desigual pouco atua na distribuição da infraestrutura digital e na coleta, armazenagem e tratamento de dados entre as regiões do mundo.",
@@ -67,7 +67,8 @@
       "espaço geográfico",
       "revolução informacional"
     ],
-    "texto_apoio": "“A tecnologia não é apenas um canal para se comunicar, cuja comunicação traz o significado de ação recíproca que ocorre entre emissor e receptor da mensagem, mas sim faz parte do ato comunicativo, estando integrada a ele. É uma nova maneira de aprender e agir, é construir novos alicerces na forma de comunicar e conhecer. Com isso, a lógica da atual sociedade consolida-se para a lógica das redes”. FORESTI, A. A era digital: apropriação tecnológica e inclusão digital. Oficina da Net, ago. 2013. Disponível em: http://www.oficinadanet.com.br. Acesso em: 12 jun. 2015.",
+    "texto_apoio": "“A tecnologia não é apenas um canal para se comunicar, cuja comunicação traz o significado de ação recíproca que ocorre entre emissor e receptor da mensagem, mas sim faz parte do ato comunicativo, estando integrada a ele. É uma nova maneira de aprender e agir, é construir novos alicerces na forma de comunicar e conhecer. Com isso, a lógica da atual sociedade consolida-se para a lógica das redes.",
+    "fonte_apoio": "FORESTI, A. A era digital: apropriação tecnológica e inclusão digital. Oficina da Net, ago. 2013. Disponível em: http://www.oficinadanet.com.br. Acesso em: 12 jun. 2015.",
     "pergunta": "A integração da tecnologia com a construção das sociedades e do espaço geográfico, no momento atual da história, assinala o conceito de:",
     "alternativas": [
       "espaço digital.",
@@ -105,7 +106,7 @@
       "por meio do grau de desenvolvimento de um país."
     ],
     "correta": 2,
-    "comentario": "<p>As redes geográficas conectam pontos (lugares) por meio de linhas (fluxos). A definição correta enfatiza que as redes são caracterizadas pelos locais conectados entre si — seja por cabos de fibra ótica, rodovias, fluxos financeiros ou redes sociais. É essa conectividade que estrutura o espaço contemporâneo.</p>",
+    "comentario": "<p>As redes geográficas conectam pontos (lugares) por meio de linhas (fluxos). A definição correta enfatiza que as redes são caracterizadas pelos locais conectados entre si, seja por cabos de fibra ótica, rodovias, fluxos financeiros ou redes sociais. É essa conectividade que estrutura o espaço contemporâneo.</p>",
     "ajuda": "As redes geográficas conectam lugares, pessoas e fluxos de informação, capital e mercadorias. Elas definem a organização do espaço contemporâneo. Pense em qual definição captura melhor a essência das redes na estruturação do espaço.",
     "feedbacks": {
       "0": "A relacao do espaco com o poder do Estado aproxima-se do conceito de territorio, que e definido pela dimensao politica e pelo controle soberano do espaco. As redes geograficas sao definidas pelos fluxos e conexoes entre nos, e nao pela dimensao do poder estatal.",
@@ -194,7 +195,7 @@
       "A globalização permite que a inovação tecnológica seja difundida de forma equilibrada aos países menos desenvolvidos."
     ],
     "correta": 1,
-    "comentario": "<p>A globalização promove a abertura de mercados e integra economias, mas não inclui todos os lugares e grupos sociais. Ela exclui regiões, atividades e populações que não são interessantes para o capital global — criando o que Milton Santos chamou de 'globalização perversa': integração para os ricos, exclusão para os pobres.</p>",
+    "comentario": "<p>A globalização promove a abertura de mercados e integra economias, mas não inclui todos os lugares e grupos sociais. Ela exclui regiões, atividades e populações que não são interessantes para o capital global, criando o que Milton Santos chamou de 'globalização perversa': integração para os ricos, exclusão para os pobres.</p>",
     "ajuda": "A globalização não apenas integra economias, mas também uniformiza padrões culturais e de consumo. No entanto, ela gera reações de resistência cultural. Identifique qual afirmativa descreve corretamente os efeitos culturais da globalização.",
     "feedbacks": {
       "0": "A globalizacao aprofundou as desigualdades entre os paises e dentro deles, com transferencia de riqueza dos paises perifericos para os centrais e concentracao de renda nas elites globais. A ideia de que a globalizacao diminui progressivamente a desigualdade e desmentida pelos dados de distribuicao de renda mundial.",
@@ -263,35 +264,36 @@
       "4": "Os fluxos industriais e comerciais aumentaram intensamente com a globalizacao e com a formacao das redes de producao transnacionais. A formacao das redes geograficas pressupoe crescimento dos fluxos, e nao sua diminuicao."
     }
   },
-  {
-    "id": 10,
-    "instituicao": "UFTM",
-    "ano": "2012",
-    "dificuldade": "media",
-    "tags": [
-      "redes geográficas",
-      "contemporaneidade",
-      "globalização",
-      "conectividade"
-    ],
-    "texto_apoio": "“A organização do espaço geográfico por meio de redes eliminou a necessidade de fixar as atividades econômicas em um determinado lugar. Isso vale para o grande número de serviços, que podem ser prestados a partir de qualquer lugar do mundo para qualquer outro, bastando que esses locais estejam conectados”.",
-    "fonte_apoio": "LUCCI, E. A. et. al. Território e sociedade no mundo globalizado: Geografia Geral e do Brasil. Ensino Médio. Editora Saraiva, 2005. p.127).",
-    "pergunta": "A formação das redes geográficas na contemporaneidade, conforme indicado pelo trecho acima, expressa-se materialmente por meio:",
-    "alternativas": [
-      "da transição demográfica dos países desenvolvidos.",
-      "da expansão das multinacionais para o mundo subdesenvolvido.",
-      "da regionalização do espaço econômico mundial.",
-      "da dinamização informacional das cidades globais.",
-      "da diminuição dos fluxos industriais e comerciais."
-    ],
-    "correta": 3,
-    "comentario": "<p>As cidades globais são os nós mais importantes das redes geográficas contemporâneas: concentram tomada de decisões, serviços avançados, fluxos financeiros e conexões internacionais. Sua dinamização informacional — bolsas, bancos, consultorias — as torna centros de comando do capitalismo globalizado.</p>",
-    "ajuda": "As redes geográficas contemporâneas expressam-se através de múltiplas infraestruturas. Pense em qual tipo de rede material — de transporte, comunicação ou produção — melhor representa a expansão das conexões globais.",
-    "feedbacks": {
-      "0": "A transicao demografica e um processo de mudanca nas taxas vitais dos paises desenvolvidos e nao explica como as redes geograficas contemporaneas se materializam no espaco. As redes geograficas se expressam por fluxos produtivos e informacionais, e nao por fenomenos demograficos.",
-      "1": "A expansao das multinacionais para o mundo subdesenvolvido cria redes de producao e comercio, mas este trecho aponta especificamente a dinamizacao informacional das cidades globais como forma de expressao das redes geograficas. As duas expressoes sao distintas e este trecho remete a segunda.",
-      "2": "A regionalizacao do espaco economico descreve a formacao de blocos e zonas de integracao, que e um aspecto da globalizacao, mas nao a forma especifica de expressao das redes geograficas que este trecho indica. O texto aponta para a dimensao informacional das cidades globais.",
-      "4": "Os fluxos industriais e comerciais cresceram com a globalizacao e com a expansao das redes de producao transnacionais. Afirmar que as redes geograficas se expressam pela diminuicao dos fluxos contradiz diretamente o processo de intensificacao dos intercambios que caracteriza a globalizacao."
-    }
+{
+  "id": 10,
+  "instituicao": "ENEM",
+  "ano": "2020",
+  "dificuldade": "media",
+  "tags": [
+    "redes geográficas",
+    "meio técnico-científico-informacional",
+    "divisão territorial do trabalho",
+    "globalização",
+    "Milton Santos"
+  ],
+  "texto_apoio": "Num mundo como o nosso, por um lado marcado pela fluidez do espaço, as questões ligadas à circulação se tornam ainda mais relevantes. As redes virtuais e físicas articulam especializações territoriais e conectam etapas da produção que estão dispersas globalmente.",
+  "fonte_apoio": "SANTOS, Milton. Por uma outra globalização. Rio de Janeiro: Record, 2000.",
+  "pergunta": "A dinâmica espacial descrita no texto é viabilizada pelo avanço do meio técnico-científico-informacional, resultando na:",
+  "alternativas": [
+    "redução da dependência de infraestruturas de transporte para o escoamento de mercadorias físicas.",
+    "desconcentração das redes de decisão política em direção às áreas rurais e periféricas.",
+    "intensificação da divisão territorial do trabalho através da integração fluida entre diferentes regiões.",
+    "homogeneização completa dos níveis de acesso às tecnologias digitais entre os países centrais e periféricos.",
+    "fuga massiva de indústrias dos centros urbanos para regiões sem conectividade informacional."
+  ],
+  "correta": 2,
+  "comentario": "<p>O avanço do meio técnico-científico-informacional possibilita a fragmentação e a dispersão geográfica das etapas produtivas (cadeias globais de valor). Com o suporte das redes físicas e de informação, diferentes territórios passam a se especializar em funções específicas da produção (design, extração de matéria-prima, montagem, serviços), aprofundando a divisão territorial do trabalho através da integração fluida entre as regiões.</p>",
+  "ajuda": "Observe que o texto fala sobre conectar etapas da produção dispersas globalmente e especializações territoriais. Pense em qual conceito geográfico se refere a diferentes regiões especializadas em etapas distintas da produção global.",
+  "feedbacks": {
+    "0": "A fluidez e o escoamento de mercadorias físicas dependem ainda mais de infraestruturas de transporte eficientes (como portos, ferrovias e rodovias), e não menos.",
+    "1": "Os centros de decisão política e econômica continuam altamente concentrados nos grandes centros urbanos e nas cidades globais, e não nas áreas rurais.",
+    "3": "A globalização e o meio técnico-científico-informacional mantêm a desigualdade no acesso às tecnologias digitais entre países centrais e periféricos (abismo digital).",
+    "4": "As indústrias buscam locais com alta conectividade e infraestrutura técnica para se instalarem, e não regiões isoladas ou sem acesso informacional."
   }
+}
 ]

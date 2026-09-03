@@ -250,23 +250,37 @@
 
         <div class="topico">
 
-            <h2><strong>Desenvolvimento e Qualidade de Vida: Uma Visão Complexa</strong></h2>
+            <h2><strong>Como Surgiram os Indicadores de Desenvolvimento</strong></h2>
 
-            <p>Quando falamos em desenvolvimento e qualidade de vida, estamos explorando um território complexo e
-                multifacetado. Esses conceitos não podem ser resumidos a um único número ou métrica, pois abrangem uma
-                série
-                de dimensões que afetam diretamente a vida das pessoas. Nesta aula, vamos aprofundar essa discussão e
-                explorar várias métricas que nos ajudam a entender o desenvolvimento de uma nação.</p>
+            <p>Até meados do século XX, medir o progresso de um país era simples, ao menos na teoria: bastava somar o
+                valor de tudo que sua economia produzia em um ano, o PIB. Essa lógica dominou o período de
+                reconstrução após a Segunda Guerra Mundial, quando organismos como o Banco Mundial e o Fundo
+                Monetário Internacional passaram a comparar nações quase exclusivamente pelo tamanho de sua economia.
+                Quanto maior o PIB, mais "desenvolvido" o país era considerado.</p>
 
-            <p><strong>Significado de Desenvolvimento e Qualidade de Vida</strong></p>
+            <p>Esse consenso começou a ser contestado nas décadas de 1970 e 1980, quando economistas notaram que
+                países com PIB crescente nem sempre melhoravam a vida de sua população. Foi nesse contexto que o
+                economista paquistanês Mahbub ul Haq, com a colaboração do indiano Amartya Sen, ganhador do prêmio
+                Nobel de Economia de 1998, propôs à ONU um indicador que somasse à renda outras duas dimensões
+                básicas do bem-estar humano: a saúde e a educação. O resultado, lançado em 1990 pelo Programa das
+                Nações Unidas para o Desenvolvimento (PNUD), foi o IDH.</p>
 
-            <p>O termo "desenvolvimento" é muitas vezes erroneamente associado apenas ao crescimento econômico, mas é
-                muito
-                mais abrangente do que isso. Desenvolvimento não se trata apenas de gerar riqueza; trata-se de melhorar
-                a
-                qualidade de vida das pessoas. Isso envolve a promoção de acesso à educação de qualidade, assistência
-                médica
-                adequada, moradia, segurança, igualdade de gênero, sustentabilidade ambiental e muito mais.</p>
+            <p>Calcular um índice assim exige resolver um problema técnico: como somar variáveis medidas em unidades
+                completamente diferentes, anos de vida, anos de estudo e dólares de renda, em um único número entre 0
+                e 1? A solução do PNUD foi normalizar cada dimensão em uma escala própria e depois combiná-las não
+                pela média aritmética simples, mas pela média geométrica dos três índices parciais. Essa escolha
+                matemática tem uma consequência importante: um país não consegue mais compensar um desempenho muito
+                ruim em uma dimensão, a educação, por exemplo, apenas com um resultado excelente em outra, a renda.
+                As três dimensões precisam avançar juntas para que o IDH suba de forma consistente.</p>
+
+            <p>Outros organismos criaram indicadores multidimensionais próprios seguindo esse mesmo caminho. A
+                Organização para a Cooperação e Desenvolvimento Econômico (OCDE) mantém o Better Life Index, que
+                compara países ricos em onze dimensões, moradia, renda, emprego, comunidade, educação, meio
+                ambiente, governança, saúde, satisfação com a vida, segurança e equilíbrio entre trabalho e vida
+                pessoal, permitindo que o próprio usuário atribua um peso diferente a cada dimensão. Já o Social
+                Progress Index, elaborado por uma organização sem fins lucrativos americana, mede diretamente
+                resultados sociais e ambientais sem usar nenhum dado econômico, justamente para verificar se o
+                progresso social de um país acompanha, ou não, o crescimento do seu PIB.</p>
 
             <div class="w3-margin"><img id="imagem1" src="tt05f01.png" alt="tt05f01" class="w3-mobile">
 
@@ -307,7 +321,7 @@
                 país com mais de 1,4 bilhão de habitantes, era de 17,8 trilhões de dólares, enquanto o do Japão, com
                 menos de 125 milhões de habitantes, era de 4,2 trilhões. Ao dividir esses valores pela população de
                 cada país, chega-se ao PIB per capita: 12.720 dólares na China contra 33.815 dólares no Japão, no ano
-                de 2022. Ou seja, a riqueza gerada pela economia japonesa, quando repartida entre seus habitantes, era
+                de 2023. Ou seja, a riqueza gerada pela economia japonesa, quando repartida entre seus habitantes, era
                 proporcionalmente bem maior que a chinesa, mesmo com a China tendo um PIB total quatro vezes
                 maior.</p>
 
@@ -318,10 +332,11 @@
 
             <p>Os Estados Unidos têm consistentemente um dos maiores PIBs do mundo. No entanto, uma análise mais
                 profunda
-                mostra que essa riqueza não é distribuída igualmente. A desigualdade de renda tem aumentado nas últimas
-                décadas, e a falta de acesso universal a cuidados médicos é uma preocupação significativa. Portanto, o
-                alto
-                PIB dos EUA não reflete necessariamente um alto nível de qualidade de vida para todos os seus cidadãos.
+                mostra que essa riqueza não é distribuída igualmente. O Índice de Gini americano gira em torno de
+                0,40, um dos mais altos entre os países ricos, e cerca de 8% da população segue sem nenhum seguro de
+                saúde, o que resulta em disparidades significativas no acesso a tratamentos médicos. Portanto, o alto
+                PIB dos EUA não reflete necessariamente um alto nível de qualidade de vida para todos os seus
+                cidadãos.
             </p>
 
             <p><strong>Exemplo 2: Butão</strong></p>
@@ -337,7 +352,9 @@
                 mundo com balanço de carbono negativo: suas florestas absorvem mais dióxido de carbono do que todo o
                 país emite. O Butão coloca grande ênfase na cultura, espiritualidade, preservação ambiental e igualdade.
                 Embora o PIB seja modesto, a qualidade de vida de muitos butaneses é considerada alta devido a esses
-                valores.</p>
+                valores. A Felicidade Interna Bruta é calculada a partir de nove domínios, entre eles bem-estar
+                psicológico, uso do tempo, boa governança e vitalidade comunitária, cada um avaliado por pesquisas
+                periódicas com a população, e não apenas por estatísticas econômicas coletadas de cima para baixo.</p>
 
             <p><strong>Rankings e Dados Internacionais</strong></p>
 
@@ -350,14 +367,16 @@
 
             <p><strong>Exemplo 3: Noruega e Nigéria</strong></p>
 
-            <p>A Noruega, frequentemente classificada entre os países com os mais altos IDHs do mundo, se beneficia de
+            <p>A Noruega, com IDH de 0,970, empatada na segunda colocação mundial segundo o relatório do PNUD de
+                2025, se beneficia de
                 sua
                 riqueza de recursos naturais, especialmente o petróleo do Mar do Norte, administrado por um fundo
                 soberano que reinveste os lucros em educação, saúde e infraestrutura para as próximas gerações, em
                 vez de distribuí-los apenas no presente. Em contraste, a
                 Nigéria, embora seja uma das maiores economias da África em termos de PIB total, também exportadora
-                de petróleo, enfrenta desafios significativos em termos de
-                saúde, educação e desigualdade, o que impacta seu IDH. A comparação entre os dois países mostra que
+                de petróleo, tem IDH de apenas 0,560, a 161ª posição entre os países avaliados, refletindo desafios
+                significativos em termos de
+                saúde, educação e desigualdade. A comparação entre os dois países mostra que
                 não é a simples posse de recursos naturais valiosos que garante desenvolvimento, mas sim o modo como
                 a riqueza gerada por eles é gerida, investida e distribuída entre a população.</p>
 
@@ -401,7 +420,7 @@
                 Noruega e Suíça lideram com índices de desenvolvimento humano muito elevados, enquanto países
                 como
                 Dinamarca e Alemanha também exibem níveis significativos de desenvolvimento. O Brasil aparece
-                destacado na 84ª posição, com IDH de 0,786, quatro colocações acima do ranking anterior. Esses números
+                destacado na 84ª posição, com IDH de 0,786, cinco colocações acima do ranking anterior. Esses números
                 refletem a
                 qualidade de vida e o bem-estar das populações dessas nações.</p>
 
@@ -443,7 +462,9 @@
                 proporção em que a desigualdade interna de cada país é maior. Quanto mais desigual a distribuição de
                 saúde, educação e renda dentro de um país, maior é a diferença entre seu IDH tradicional e seu
                 IDHAD, uma forma de mostrar que a média nacional pode mascarar realidades bem diferentes entre
-                grupos sociais.</p>
+                grupos sociais. O próprio Brasil ilustra bem essa perda: o IDH de 0,786 despenca para cerca de 0,594
+                quando ajustado à desigualdade, uma queda de quase 28% que reflete o quanto a distância entre ricos
+                e pobres corrói, na prática, o desenvolvimento humano médio do país.</p>
 
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
@@ -460,7 +481,7 @@
 
 
 
-            <p><strong>Índice de Gini: Medindo a Desigualdade de Renda</strong></p>
+            <h2><strong>Índice de Gini: Medindo a Desigualdade de Renda</strong></h2>
 
             <p>A desigualdade é uma preocupação significativa no desenvolvimento. O <span class="termo"
                     data-palavra="Índice de Gini"
@@ -468,7 +489,11 @@
                     de Gini</span> é uma métrica usada
                 para
                 medir a desigualdade de renda em um país. Funciona em uma escala de 0 a 1, onde 0 representa igualdade
-                perfeita, e 1 representa desigualdade absoluta.</p>
+                perfeita, e 1 representa desigualdade absoluta. O índice foi criado em 1912 pelo estatístico
+                italiano Corrado Gini e, diferente do IDH, não tenta medir o desenvolvimento em si: mede apenas como
+                a renda de um país está repartida entre sua população, o que o torna um complemento importante para
+                indicadores como o PIB e o próprio IDH, que podem crescer mesmo com a riqueza cada vez mais
+                concentrada nas mãos de poucos.</p>
 
             <p>Um relatório de 2024 do Comitê de Oxford para o Alívio da Fome (Oxfam) ajuda a dimensionar essa
                 desigualdade em escala global: enquanto os cinco homens mais ricos do mundo mais que dobraram suas
@@ -495,10 +520,15 @@
                 parte da população enfrenta dificuldades econômicas substanciais, enquanto uma pequena parcela acumula
                 grande parte da riqueza.</p>
 
-            <p>Por outro lado, a Suécia, com um Índice de Gini mais baixo, reflete uma distribuição mais equitativa da
-                riqueza. A combinação de políticas de bem-estar social e tributação progressiva contribui para essa
-                menor
-                desigualdade.</p>
+            <p>Por outro lado, a Suécia, com um Índice de Gini em torno de 0,30, bem mais baixo que o sul-africano,
+                reflete uma distribuição mais equitativa da riqueza. A combinação de políticas de bem-estar social e
+                tributação progressiva contribui para essa menor desigualdade.</p>
+
+            <p>Essa diferença entre os dois países raramente nasce do acaso: ela costuma ter raízes históricas. A
+                concentração de terra e capital herdada de processos coloniais e escravistas, o acesso desigual à
+                educação de qualidade ao longo de gerações e a ausência de políticas de tributação progressiva
+                explicam boa parte da razão pela qual alguns países chegam ao século XXI com sociedades mais
+                equilibradas, enquanto outros carregam desigualdades que se acumulam havia séculos.</p>
 
             <p>O Brasil também aparece mal posicionado nesse tipo de ranking. Em 2021, segundo o Banco Mundial, o país
                 tinha o oitavo pior Índice de Gini do mundo, atrás apenas de África do Sul, Namíbia, Suriname, Zâmbia,
@@ -508,7 +538,21 @@
                 desigualdade de renda no país não é uma tendência garantida e pode reverter conforme mudam as
                 políticas econômicas e sociais.</p>
 
+            <p>Esse número nacional também esconde disparidades regionais. Em 2025, o IBGE registrou o Sul como a
+                região menos desigual do país, com Gini de 0,445, seguido por Sudeste (0,482), Centro-Oeste (0,485) e
+                Norte (0,491). O Nordeste fechou a lista como a região mais desigual, com 0,507, reflexo da mesma
+                concentração fundiária e baixa diversificação econômica que também explicam os índices de pobreza
+                mais altos da região.</p>
 
+
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
+            <hr>
+
+        </div>
+
+
+        <div class="topico">
 
             <h2><strong>Desigualdade de Acesso a Elementos Fundamentais</strong></h2>
 
@@ -523,16 +567,19 @@
 
 
             <p>O acesso desigual a elementos fundamentais, como educação, saúde e emprego, é um obstáculo significativo
-                para
-                o desenvolvimento. Em muitos países, a desigualdade é evidente no acesso a serviços de saúde de
-                qualidade.
-                Por exemplo, nos Estados Unidos, o acesso a cuidados de saúde pode ser limitado para aqueles que não têm
-                seguro de saúde, o que resulta em disparidades na saúde.</p>
+                para o desenvolvimento e ajuda a explicar por que a média nacional de um indicador raramente conta
+                a história completa de um país. A concentração de médicos é um exemplo direto: em muitos países em
+                desenvolvimento, hospitais e profissionais de saúde se concentram nas grandes cidades, deixando
+                zonas rurais e periferias com atendimento precário mesmo quando a média nacional de leitos ou
+                médicos por habitante parece razoável.</p>
 
-            <p>Da mesma forma, a desigualdade de acesso à educação é observada em todo o mundo. Em alguns países, as
-                oportunidades educacionais são desiguais com base no gênero, origem étnica ou geografia, o que restringe
-                o
-                potencial de desenvolvimento de muitos.</p>
+            <p>Da mesma forma, a desigualdade de acesso à educação é observada em todo o mundo. Segundo o Relatório
+                de Monitoramento Global da Educação, divulgado pela Unesco em 2026, 273 milhões de crianças em idade
+                escolar estavam fora da escola, o equivalente a uma em cada seis crianças no mundo, número que vem
+                crescendo há sete anos seguidos por causa do crescimento populacional, de conflitos armados e de
+                cortes de orçamento em educação. Essas oportunidades educacionais desiguais, distribuídas de forma
+                irregular entre gênero, origem étnica e região, restringem diretamente o potencial de desenvolvimento
+                futuro de cada país.</p>
 
             <p>Para medir especificamente as diferenças entre homens e mulheres, o Pnud calcula o <span class="termo"
                     data-palavra="Índice de Desigualdade de Gênero"
@@ -545,25 +592,27 @@
             <p>No Brasil, os indicadores municipais ajudam a enxergar essas desigualdades de perto por meio do <span
                     class="termo" data-palavra="IDHM"
                     data-definicao="Índice de Desenvolvimento Humano Municipal: adaptação do IDH que usa as mesmas três dimensões (saúde, educação e renda) para avaliar o desenvolvimento de municípios, unidades federativas e regiões metropolitanas brasileiras, permitindo comparações dentro do próprio país.">Índice
-                    de Desenvolvimento Humano Municipal (IDHM)</span>. Em 2021, o IDHM médio do Brasil era de 0,766,
-                classificado como alto desenvolvimento humano, mas o dado nacional escondia disparidades relevantes: o
-                IDHM da população branca era de 0,810, contra 0,721 entre pretos e pardos, e o das mulheres era de
-                0,791, contra 0,740 entre os homens. Regionalmente, o quadro também é desigual: em 2021, quase metade
-                (48,7%) da população brasileira abaixo da linha da pobreza vivia na Região Nordeste, herança de um
-                histórico econômico marcado pela concentração fundiária e pela baixa diversificação produtiva daquela
-                região.</p>
+                    de Desenvolvimento Humano Municipal (IDHM)</span>. Segundo o Radar IDHM 2024, divulgado pelo PNUD
+                em parceria com a Fundação João Pinheiro e o IBGE, o Brasil fechou 2024 com IDHM de 0,805, entrando
+                pela primeira vez na história no patamar de muito alto desenvolvimento humano. Mas o dado nacional
+                seguia escondendo disparidades relevantes: o IDHM da população branca era de 0,851, contra 0,774
+                entre a população negra. A diferença vem caindo, entre 2012 e 2024 o IDHM da população negra cresceu
+                10,3%, quase o dobro do ritmo da população branca (5,5%), reduzindo a distância entre os dois grupos
+                de 14% para 9% em pouco mais de uma década. Entre as unidades da federação, o Distrito Federal tinha
+                o maior IDHM do país (0,866), enquanto Maranhão (0,745) e Alagoas (0,746) fechavam a lista, ainda que
+                ambos também tenham avançado ao longo da série histórica. Regionalmente, o quadro segue desigual: em
+                2021, quase metade (48,7%) da população brasileira abaixo da linha da pobreza vivia na Região
+                Nordeste, herança de um histórico econômico marcado pela concentração fundiária e pela baixa
+                diversificação produtiva daquela região.</p>
 
-            <p>O tema de medir o desenvolvimento dos países, portanto, nos leva a refletir sobre a complexidade desse
-                processo e a importância de considerar múltiplas dimensões além dos indicadores econômicos. É uma
-                jornada
-                que nos desafia a olhar além dos números e a compreender o verdadeiro impacto nas vidas das pessoas. A
-                mensuração do desenvolvimento é uma tarefa multifacetada que envolve aspectos sociais, de saúde e
-                igualdade,
-                reforçando a necessidade de abordagens holísticas para promover uma qualidade de vida cada vez melhor em
-                todas as nações. Na próxima aula, vamos aplicar essa mesma lógica de olhar além dos números para
-                entender como a industrialização mundial reorganizou o espaço geográfico, criando a divisão
-                internacional do trabalho que ainda hoje explica por que alguns países produzem tecnologia e outros
-                exportam matéria-prima.</p>
+            <p>Medir o desenvolvimento de um país, portanto, exige olhar para além do PIB: o IDH, o Índice de Gini, o
+                IDHAD e o IDHM mostram, cada um a seu modo, que crescimento econômico e qualidade de vida não são a
+                mesma coisa, e que a média nacional de qualquer indicador pode esconder desigualdades profundas entre
+                regiões, gêneros e grupos raciais dentro de um mesmo país. Depois de revisarmos o bloco de aulas sobre
+                população e desenvolvimento, vamos aplicar essa mesma lógica de olhar além dos números para entender
+                como a industrialização mundial reorganizou o espaço geográfico, criando a divisão internacional do
+                trabalho que ainda hoje explica por que alguns países produzem tecnologia e outros exportam
+                matéria-prima.</p>
 
 
 
@@ -674,6 +723,91 @@
             </div>
         </div>
 
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <h4 class="fontePixel">
+                <b>
+                    Um país tem IDH elevado, mas quando o PNUD calcula seu IDHAD (IDH Ajustado à Desigualdade), o
+                    valor cai de forma bem visível. O que essa queda indica sobre esse país?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao">
+                        <span>a) Que os dados usados no cálculo do IDH original estavam incorretos.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao">
+                        <span>b) Que existe alta desigualdade interna na distribuição de saúde, educação e renda entre
+                            os grupos sociais do país.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao">
+                        <span>c) Que o país não possui dados suficientes para calcular o IDH.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'A média nacional do IDH pode esconder realidades bem diferentes entre grupos!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, qual sigla identifica o indicador que substituiu o PIB per capita como um dos
+                componentes usados no cálculo do IDH?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a5t5" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a5t5"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a5t5', 'rnb', 'resp1a5t5', this, 'globinho1a5t5')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a5t5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, que tipo de média o PNUD usa para combinar as três dimensões do IDH em um único
+                número?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a5t5" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a5t5"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a5t5', 'trica', 'resp2a5t5', this, 'globinho2a5t5')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a5t5" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
 
 
 
@@ -810,7 +944,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2> Questões para serem respondidas no caderno sobre o tema da aula de hoje:</h2>
 
                 <h3>1. Quais são as quatro dimensões usadas atualmente para calcular o IDH de um país?</h3>
@@ -890,6 +1024,11 @@
                 </h3>
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div><br><br>
 

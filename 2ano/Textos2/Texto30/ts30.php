@@ -111,7 +111,7 @@
 
             <h2>O problema que esta aula vai ajudar a entender</h2>
 
-            <p>Em fevereiro de 2022, as chuvas no Litoral Norte de São Paulo mataram mais de 60 pessoas, a maioria em deslizamentos de terra em bairros pobres construídos nas encostas de São Sebastião. Poucos dias depois, no mesmo mês, as enchentes e deslizamentos em Petrópolis, no Rio de Janeiro, mataram 241 pessoas, a maior tragédia da história da cidade. Em 2024, as cheias no Rio Grande do Sul deixaram 183 mortos e mais de 440 mil pessoas desalojadas ou em abrigos.</p>
+            <p>Em fevereiro de 2022, as enchentes e deslizamentos em Petrópolis, no Rio de Janeiro, mataram 241 pessoas, a maior tragédia da história da cidade, superando as de 1988 (171 mortos) e 2011 (73 mortos). Em apenas seis horas, choveu 260 mm, mais do que a média histórica para todo o mês de fevereiro (232 mm), provocando 775 deslizamentos de terra numa única noite. Um ano depois, quase na mesma época do calendário, em fevereiro de 2023, foi a vez do Litoral Norte de São Paulo: os deslizamentos de terra em São Sebastião mataram 64 pessoas, a maioria em bairros populares construídos nas encostas, depois de uma chuva de 680 mm em 24 horas na Vila Sahy, o maior volume de chuva num único dia já registrado no Brasil. Em 2024, as cheias no Rio Grande do Sul deixaram 184 mortos, atingiram 478 municípios (mais de 90% do estado), afetaram cerca de 2,4 milhões de pessoas e deixaram mais de 440 mil desalojadas ou em abrigos, na pior tragédia climática da história gaúcha.</p>
 
             <p>Esses desastres não são "naturais" no sentido de inevitáveis. São resultado de décadas de urbanização desordenada, ausência de planejamento, déficit de saneamento e da concentração dos riscos nas populações mais pobres, que moram exatamente nas áreas mais vulneráveis da cidade. A pergunta desta aula é: <strong>por que os problemas ambientais das cidades brasileiras são tão graves e por que eles sempre atingem mais duramente os mais pobres?</strong></p>
 
@@ -133,7 +133,7 @@
 
             <p>O problema é agravado por outros fatores: rios urbanos retificados (transformados em canais artificiais retos) perdem sua capacidade de amortecer as cheias; planícies de inundação (várzeas), que são as áreas naturalmente preparadas para receber a água dos rios em épocas de cheia, foram ocupadas por bairros populares e construções irregulares; e o lixo jogado nas ruas entope os bueiros e agrava os alagamentos.</p>
 
-            <p>E quem mora nas áreas mais sujeitas às enchentes? Geralmente, os mais pobres: nas várzeas dos rios, porque a terra era mais barata; nas encostas dos morros, porque era o único espaço disponível quando chegaram à cidade. O risco ambiental não é distribuído igualmente: ele se concentra exatamente onde já há mais pobreza. O Serviço Geológico do Brasil (CPRM) mapeou mais de 1.600 municípios com áreas de alto e altíssimo risco de deslizamento, enchente e outros desastres, estimando que mais de 4 milhões de pessoas vivem nessas áreas. Um levantamento anterior, feito em parceria entre o Cemaden e o IBGE, já havia identificado mais de 8 milhões de pessoas expostas a esse tipo de risco em pouco menos de 900 municípios avaliados, com o Sudeste concentrando a maior parte dos casos.</p>
+            <p>E quem mora nas áreas mais sujeitas às enchentes? Geralmente, os mais pobres: nas várzeas dos rios, porque a terra era mais barata; nas encostas dos morros, porque era o único espaço disponível quando chegaram à cidade. O risco ambiental não é distribuído igualmente: ele se concentra exatamente onde já há mais pobreza, reproduzindo no mapa das enchentes o mesmo mapa da desigualdade de renda da cidade. O Serviço Geológico do Brasil (CPRM) mapeou mais de 1.600 municípios com áreas de alto e altíssimo risco de deslizamento, enchente e outros desastres, estimando que mais de 4 milhões de pessoas vivem nessas áreas. Um levantamento anterior, feito em parceria entre o Cemaden e o IBGE, já havia identificado mais de 8 milhões de pessoas expostas a esse tipo de risco em pouco menos de 900 municípios avaliados, com o Sudeste concentrando a maior parte dos casos. A diferença entre os dois números não significa que o risco caiu: reflete metodologias e recortes territoriais diferentes, o que por si só já é um alerta, porque mostra como ainda falta um diagnóstico único e atualizado sobre quantos brasileiros realmente vivem em áreas de risco.</p>
 
             <div class="w3-margin">
                 <img src="ts30f01.png" alt="Diagrama comparando o escoamento da água em área natural versus área urbana impermeabilizada"
@@ -151,6 +151,8 @@
             <h3>Cidade esponja: um outro jeito de lidar com a chuva</h3>
 
             <p>Diante desse cenário, parte do planejamento urbano recente adota o conceito de <span class="termo" data-palavra="Cidade Esponja" data-definicao="Conceito de planejamento urbano que propõe aumentar a capacidade da cidade de absorver e reter água da chuva, em vez de apenas escoá-la o mais rápido possível. Usa pisos permeáveis, telhados verdes, jardins de chuva e parques nas planícies de inundação para reduzir o volume de água que chega de uma só vez ao sistema de drenagem. Reduz enchentes e ainda melhora a qualidade do ar e o microclima urbano.">cidade esponja</span>: em vez de só ampliar a capacidade dos bueiros e canalizar rios, a ideia é aumentar a capacidade da própria cidade de absorver água, com pisos permeáveis, telhados verdes, jardins de chuva e parques que funcionam como esponjas naturais nas planícies de inundação. Porto Alegre e São Paulo já têm projetos-piloto de cidade esponja, ainda em escala pequena diante do tamanho do problema.</p>
+
+            <p>Outros países optaram por uma solução mais cara e mais "de força bruta": Tóquio construiu, entre 1993 e 2006, ao custo de US$ 2,6 bilhões, o maior sistema subterrâneo de contenção de enchentes do mundo, uma rede de cinco silos de 65 metros de altura ligados por 6,4 km de túneis a 50 metros de profundidade, capaz de bombear até 200 toneladas de água por segundo para um rio próximo. O sistema já foi acionado mais de 70 vezes e reduziu em dois terços os estragos das enchentes na região metropolitana. É o oposto da cidade esponja: em vez de deixar a água se infiltrar, a solução japonesa é escoar rapidíssimo um volume gigantesco de água para longe das casas. Ambas as estratégias funcionam, mas custam de forma muito diferente e mostram que enfrentar enchentes é sempre uma escolha de investimento, não uma fatalidade.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -198,6 +200,8 @@
             <h2>Ilhas de calor e inversão térmica</h2>
 
             <p>As cidades são mais quentes que o campo ao redor. Esse fenômeno é chamado de <span class="termo" data-palavra="Ilha de Calor" data-definicao="Fenômeno em que as áreas urbanas apresentam temperaturas mais elevadas do que as zonas rurais ao redor, devido à substituição da vegetação por superfícies que absorvem e irradiam calor (asfalto, concreto, telhados), à geração de calor por veículos e ar-condicionados, e à redução da evapotranspiração pela falta de vegetação. Nas metrópoles brasileiras, a diferença pode chegar a 5 a 10 graus Celsius entre o centro e áreas verdes periféricas.">ilha de calor</span>. Nas metrópoles brasileiras, a diferença de temperatura entre o centro e áreas com vegetação pode chegar a 10 graus Celsius. As causas são múltiplas: o asfalto e o concreto absorvem calor durante o dia e o liberam à noite; a vegetação foi substituída por construções; os veículos e aparelhos de ar-condicionado geram calor; e a falta de vento nas ruas entre os prédios impede a dispersão do calor.</p>
+
+            <p>O calor extremo não é só desconforto: mata. Um estudo da Fiocruz em parceria com a UFBA estimou que as ondas de calor causaram mais de 120 mil mortes no Brasil entre 2000 e 2019, cerca de 0,6% de todos os óbitos registrados no país nesse período. O impacto varia muito pelo território: no Amapá, as mortes associadas a ondas de calor chegaram a 1,07% do total de óbitos, quase o dobro da média nacional. Segundo a mesma pesquisa, cada 1°C a mais de temperatura aumenta em 18% os casos de doenças ligadas ao calor e em 35% o risco de morte, com bebês, idosos e pessoas com doenças crônicas entre os grupos mais vulneráveis. Como as ilhas de calor concentram justamente nos bairros mais pobres as temperaturas mais altas, o calor extremo se soma à lista de riscos ambientais distribuídos de forma desigual pela cidade.</p>
 
             <p>A <span class="termo" data-palavra="Inversão Térmica" data-definicao="Fenômeno meteorológico em que uma camada de ar frio fica presa abaixo de uma camada de ar quente na atmosfera, impedindo a dispersão vertical dos poluentes. Nas cidades, isso faz com que fumaça, poeira e gases emitidos por veículos e indústrias fiquem concentrados próximos ao nível do solo, piorando a qualidade do ar e causando problemas respiratórios. É comum nas metrópoles brasileiras no outono e inverno.">inversão térmica</span> é um fenômeno relacionado: em condições normais, o ar quente (menos denso) sobe e carrega os poluentes para o alto, onde são dispersados. Na inversão, uma camada de ar quente fica presa acima de uma camada de ar frio, funcionando como uma tampa que impede a subida dos poluentes. Eles ficam concentrados próximos ao nível do solo, piorando dramaticamente a qualidade do ar. São Paulo e Belo Horizonte são exemplos de cidades que sofrem inversões térmicas frequentes no outono e inverno.</p>
 
@@ -261,15 +265,15 @@
 
             <h2>Lixo e saneamento: o que a cidade descarta</h2>
 
-            <p>O Brasil gera cerca de 81,6 milhões de toneladas de resíduos sólidos urbanos por ano. Cerca de 60% recebe destinação adequada em aterros sanitários. O restante (mais de 40%, cerca de 33 milhões de toneladas) vai para lixões a céu aberto, rios, terrenos baldios ou é queimado irregularmente. Os lixões são focos de doenças, contaminam o solo e os lençóis freáticos e produzem metano (um dos gases do efeito estufa).</p>
+            <p>O Brasil gera cerca de 81,6 milhões de toneladas de resíduos sólidos urbanos por ano, segundo o Panorama dos Resíduos Sólidos da Abrema. Cerca de 60% recebe destinação adequada em aterros sanitários. O restante (mais de 40%, cerca de 33 milhões de toneladas) vai para lixões a céu aberto, rios, terrenos baldios ou é queimado irregularmente. Os lixões são focos de doenças, contaminam o solo e os lençóis freáticos e produzem metano, um dos gases de efeito estufa mais potentes, ainda mais preocupante num período de aquecimento global acelerado. A geração de lixo também segue a lógica da concentração urbana: sozinha, a região Sudeste responde por cerca de 49% de todo o resíduo sólido urbano gerado no país, quase metade do total nacional, seguida de longe pelo Nordeste (25%), Sul (11%) e Centro-Oeste (8%).</p>
 
-            <p>O <span class="termo" data-palavra="Saneamento Básico" data-definicao="Conjunto de serviços essenciais para a saúde pública e qualidade de vida: abastecimento de água potável, coleta e tratamento de esgoto, coleta e disposição adequada de resíduos sólidos e drenagem de águas pluviais. No Brasil, o déficit de saneamento é enorme: segundo o Painel do Saneamento (2023), mais de 30 milhões de brasileiros não têm acesso à água tratada e mais de 90 milhões não têm acesso à coleta de esgoto. O novo Marco Legal do Saneamento (2020) prevê a universalização até 2033.">saneamento básico</span> inclui quatro componentes: abastecimento de água potável, coleta e tratamento de esgoto, destinação adequada do lixo e drenagem de águas pluviais. O Brasil tem avançado no abastecimento de água, mas o esgoto é o grande gargalo: em 2023, apenas cerca de 55% do esgoto gerado era coletado, e desse total, nem todo recebia tratamento adequado antes de ser lançado nos rios e no mar.</p>
+            <p>O <span class="termo" data-palavra="Saneamento Básico" data-definicao="Conjunto de serviços essenciais para a saúde pública e qualidade de vida: abastecimento de água potável, coleta e tratamento de esgoto, coleta e disposição adequada de resíduos sólidos e drenagem de águas pluviais. No Brasil, o déficit de saneamento é enorme: segundo dados do SINISA (2023), mais de 36 milhões de brasileiros não têm acesso à água tratada e quase 90 milhões não têm coleta de esgoto. O novo Marco Legal do Saneamento (2020) prevê a universalização até 2033.">saneamento básico</span> inclui quatro componentes: abastecimento de água potável, coleta e tratamento de esgoto, destinação adequada do lixo e drenagem de águas pluviais. O Brasil tem avançado no abastecimento de água, mas o esgoto é o grande gargalo: em 2023, cerca de 59,7% da população (111,3 milhões de pessoas) tinha coleta de esgoto, e desse volume coletado, ainda quase 22% era despejado sem tratamento na natureza. No total, isso significa que mais da metade de todo o esgoto gerado no Brasil, entre o que nunca é coletado e o que é coletado mas não tratado, volta para rios, lagos e o mar sem passar por nenhum processo de despoluição.</p>
 
             <p>Quem sofre mais com o déficit de saneamento? As populações de baixa renda, nas periferias e nas regiões Norte e Nordeste, onde a cobertura de coleta de esgoto é bem menor que a média nacional. Municípios da Amazônia, onde se concentra a maior biodiversidade do planeta, têm alguns dos piores índices de saneamento do Brasil. O paradoxo chama atenção: a região mais rica em água doce do mundo tem parte de sua população bebendo água sem tratamento adequado e convivendo com esgoto a céu aberto.</p>
 
             <h3>Catadores: o trabalho invisível na cadeia do lixo</h3>
 
-            <p>O Brasil tem entre 400 mil e 800 mil catadores de materiais recicláveis, responsáveis por recuperar grande parte do que é reciclado no país. Eles trabalham em condições precárias, frequentemente nos lixões, sem proteção trabalhista ou de saúde. A Política Nacional de Resíduos Sólidos (2010) reconheceu os catadores como atores fundamentais da cadeia de reciclagem e previu a eliminação dos lixões, mas a implementação foi lenta e incompleta.</p>
+            <p>O Brasil tem entre 400 mil e 800 mil catadores de materiais recicláveis, responsáveis por recuperar grande parte do que é reciclado no país. Eles trabalham em condições precárias, frequentemente nos lixões, sem proteção trabalhista ou de saúde. A Política Nacional de Resíduos Sólidos (2010) reconheceu os catadores como atores fundamentais da cadeia de reciclagem e previu a eliminação dos lixões, mas a implementação foi lenta e incompleta. Apenas cerca de 8% dos resíduos sólidos urbanos do Brasil são efetivamente reciclados, e cerca de 70% desse volume passa pelas mãos de catadores informais antes de chegar à indústria, o que mostra o quanto a reciclagem brasileira depende de um trabalho pouco reconhecido e mal remunerado: a renda média de um catador gira em torno de R$ 1.447 por mês no Sudeste e cai para R$ 1.033 no Nordeste, a mais baixa do país. Quando organizados em cooperativas, porém, a realidade muda: em 2024, cooperativas e associações de catadores atuaram em mais de 1,7 mil municípios brasileiros, destinaram cerca de 1,7 milhão de toneladas de material à reciclagem e movimentaram R$ 1,36 bilhão, prova de que reconhecer e organizar esse trabalho aumenta tanto a renda dos catadores quanto a eficiência da reciclagem.</p>
 
             <p>A coleta seletiva, que facilita o trabalho dos catadores e aumenta a reciclagem, também é desigual pelo país: segundo o IBGE, apenas 60,5% dos municípios brasileiros oferecem algum tipo de coleta seletiva. As regiões Sul (81,9%) e Sudeste (80,6%) lideram a cobertura, enquanto Nordeste (33,5%) e Norte (37%) ficam bem atrás, repetindo o mesmo padrão de desigualdade regional já visto no saneamento básico.</p>
 
@@ -282,6 +286,41 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Um pequeno município do interior fecha seu lixão a céu aberto e passa a enviar seus resíduos a um aterro sanitário regional, além de criar uma cooperativa de catadores para fazer a coleta seletiva. Do ponto de vista da Política Nacional de Resíduos Sólidos, essa mudança tem qual efeito principal?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Aumenta a inversão térmica</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Reduz contaminação e inclui catadores</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Resolve sozinho o déficit de esgoto</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'aterro sanitario reduz contaminacao do solo e da agua, e a cooperativa reconhece o trabalho dos catadores, dois objetivos centrais da lei.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -319,11 +358,60 @@
 
             <p>Mesmo os instrumentos que deveriam proteger todo mundo igualmente (o monitoramento de risco, a coleta de lixo, a rede de esgoto) chegam de forma desigual pela cidade. Os sensores do Cemaden avisam sobre deslizamentos, mas nem toda encosta ocupada tem sensor. A coleta seletiva existe em seis a cada dez municípios, mas é bem mais rara justamente onde a renda é menor. Entender essa aula não é decorar nomes de fenômenos naturais: é perceber que, atrás de cada palavra técnica (impermeabilização, ilha de calor, inversão térmica), existe uma escolha política sobre onde investir e quem protege.</p>
 
+            <p>Esta é a última aula antes de revisarmos tudo o que foi estudado desde a aula 27: o processo de urbanização, a rede e a hierarquia urbana, o espaço desigual das cidades e, agora, os problemas socioambientais que fecham esse ciclo sobre a cidade brasileira.</p>
+
             <p><strong>Resumo dos conceitos:</strong> impermeabilização do solo (concreto e asfalto que impedem a infiltração da água); alagamento e enchente (acúmulo de água por drenagem insuficiente ou transbordamento de rio); cidade esponja (planejamento que aumenta a absorção de água pela cidade); ilha de calor e ilha de frescor (temperaturas mais altas ou mais baixas conforme a vegetação); inversão térmica (camada de ar quente que retém poluentes próximos ao solo); material particulado (partículas que penetram nos pulmões); saneamento básico (água, esgoto, lixo e drenagem); vulnerabilidade socioambiental (coincidência entre pobreza e exposição a riscos ambientais).</p>
 
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9B: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots30" src="inforesumots30.webp"
+                    alt="Infográfico resumo Problemas socioambientais urbanos - enchentes, ilhas de calor, inversão térmica e saneamento" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9C: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>1. Qual é o nome do conceito de planejamento urbano que usa pisos permeáveis, telhados verdes e parques nas várzeas para aumentar a capacidade da cidade de absorver a água da chuva?</b></h4>
+            <input type="text" id="aberta1" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta1', 'esponja', 'respAberta1', this, 'globinhoAberta1')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>2. Qual é o nome do fenômeno meteorológico em que uma camada de ar quente prende os poluentes perto do solo, piorando a qualidade do ar respirado nas cidades?</b></h4>
+            <input type="text" id="aberta2" class="w3-input w3-border w3-margin-top" placeholder="Digite sua resposta...">
+            <button class="btn-acao-duvid w3-margin-top"
+                onclick="validarAberta('aberta2', 'invers', 'respAberta2', this, 'globinhoAberta2')">
+                Confirmar Resposta
+            </button>
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide w3-margin-top" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
         </div>
 
@@ -375,7 +463,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>Auditoria ambiental da sua cidade</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -395,7 +483,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é impermeabilização do solo? Como ela contribui para as enchentes urbanas?</h3>
@@ -466,6 +554,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

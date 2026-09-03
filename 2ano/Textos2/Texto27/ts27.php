@@ -111,7 +111,7 @@
 
             <h2>O problema que esta aula vai ajudar a entender</h2>
 
-            <p>Em 1940, 31% dos brasileiros moravam em cidades. Em 2022, eram 87,7%. Essa transformação levou 80 anos. No mesmo período, países europeus levaram 150 anos para atingir níveis semelhantes de urbanização. O Brasil comprimiu num piscar de olhos uma mudança que, em outros contextos, aconteceu em gerações.</p>
+            <p>Em 1940, 31% dos brasileiros moravam em cidades. Em 2022, eram 87,4%. Essa transformação levou 80 anos. No mesmo período, países europeus levaram 150 anos para atingir níveis semelhantes de urbanização. O Brasil comprimiu, em pouco menos de um século, numa espécie de piscar de olhos histórico, uma mudança que, em outros contextos, levou várias gerações inteiras para se completar. O único processo de urbanização comparável em velocidade e escala aconteceu na China, que saiu de uma taxa muito baixa em 1949 para 67% em 2024, um salto de mais de 55 pontos percentuais em 75 anos: dois países muito diferentes entre si, com histórias, culturas e sistemas políticos distintos, mas que compartilham a experiência de terem "pulado etapas" de um processo que, em outros lugares do mundo, se espalhou de forma bem mais lenta e gradual por séculos inteiros de história.</p>
 
             <p>A pergunta que esta aula responde não é "o que é urbanização" mas <strong>por que o Brasil urbanizou tão rápido, quem conduziu esse processo e quem ficou de fora.</strong> Porque a velocidade da urbanização brasileira não veio acompanhada de infraestrutura, planejamento ou distribuição justa dos benefícios da vida urbana. O resultado é o que você vê: metrópoles gigantescas com favelas, trânsito caótico, saneamento precário e desigualdade espacial profunda.</p>
 
@@ -127,7 +127,7 @@
 
             <p>A <span class="termo" data-palavra="Urbanização" data-definicao="Processo pelo qual a população de um país ou região se concentra progressivamente nas cidades, em detrimento das áreas rurais. Envolve crescimento demográfico urbano, expansão das atividades econômicas não agrícolas (indústria e serviços) e transformação cultural dos modos de vida. A taxa de urbanização mede a proporção da população vivendo em áreas urbanas.">urbanização</span> é o processo pelo qual a população de um país se concentra nas cidades. Mas não é só um deslocamento geográfico. É também uma mudança econômica (da agricultura para indústria e serviços), cultural (modos de vida, consumo, relações sociais) e política (poder concentrado nas cidades, decisões tomadas à distância do campo).</p>
 
-            <p>A <span class="termo" data-palavra="Taxa de Urbanização" data-definicao="Percentual da população total de um país ou região que vive em áreas classificadas como urbanas. No Brasil, a taxa de urbanização passou de 31% em 1940 para 87,7% em 2022, segundo o Censo do IBGE. É um dos indicadores mais usados para medir o grau de desenvolvimento e modernização de uma economia.">taxa de urbanização</span> é o percentual da população que vive em áreas urbanas. No Brasil, ela saltou de 31% em 1940 para 56% em 1970, para 81% em 2000, e para 87,7% em 2022. Cada década marcou um salto. O pico de velocidade foi entre 1950 e 1980, quando o país industrializou aceleradamente e as cidades puxaram um fluxo enorme de migrantes do campo.</p>
+            <p>A <span class="termo" data-palavra="Taxa de Urbanização" data-definicao="Percentual da população total de um país ou região que vive em áreas classificadas como urbanas. No Brasil, a taxa de urbanização passou de 31% em 1940 para 87,4% em 2022, segundo o Censo do IBGE. É um dos indicadores mais usados para medir o grau de desenvolvimento e modernização de uma economia.">taxa de urbanização</span> é o percentual da população que vive em áreas urbanas. No Brasil, ela saltou de 31% em 1940 para 56% em 1970, para 81% em 2000, e para 87,4% em 2022. Cada década marcou um salto. O pico de velocidade foi entre 1950 e 1980, quando o país industrializou aceleradamente e as cidades puxaram um fluxo enorme de migrantes do campo.</p>
 
             <h3>As fases da urbanização brasileira</h3>
 
@@ -141,7 +141,7 @@
                 <img src="ts27f01.png" alt="Gráfico da evolução da taxa de urbanização brasileira de 1940 a 2022"
                     class="w3-mobile"
                     onerror="this.outerHTML='<div style=padding:32px;background:#e8f4fd;border:2px dashed #90caf9;border-radius:8px;text-align:center;color:#888>Gráfico da urbanização brasileira em breve</div>'">
-                <span class="w3-small w3-margin-left">Evolução da taxa de urbanização no Brasil: de 31% em 1940 para 87,7% em 2022. Fonte: IBGE, Censos Demográficos.</span>
+                <span class="w3-small w3-margin-left">Evolução da taxa de urbanização no Brasil: de 31% em 1940 para 87,4% em 2022. Fonte: IBGE, Censos Demográficos.</span>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
@@ -193,7 +193,7 @@
 
             <p>Dentro dessa rede, as cidades se organizam segundo uma <span class="termo" data-palavra="Hierarquia Urbana" data-definicao="Classificação das cidades conforme seu tamanho demográfico, diversidade de funções econômicas e área de influência sobre outras cidades. No topo estão as metrópoles nacionais (São Paulo e Rio de Janeiro), seguidas por metrópoles regionais, capitais regionais, centros sub-regionais e centros locais. O IBGE usa essa classificação no estudo REGIC.">hierarquia urbana</span>: no topo ficam as metrópoles, que concentram as funções mais raras e de maior alcance; na base ficam as cidades locais, que atendem apenas seu entorno imediato.</p>
 
-            <p>O estudo <span class="termo" data-palavra="REGIC" data-definicao="Regiões de Influência das Cidades, estudo periódico do IBGE que classifica os municípios brasileiros conforme sua centralidade: o alcance da gestão pública e empresarial, a oferta de serviços especializados e até a presença de domínios na internet. A edição mais recente é de 2018.">REGIC</span> (Regiões de Influência das Cidades), do IBGE, organiza essa hierarquia em cinco níveis, do menor para o maior: <strong>centros locais</strong> (a base da pirâmide, mais de 4 mil municípios que atendem só a própria população), <strong>centros de zona</strong> (cidades pequenas, com atuação restrita ao próprio entorno), <strong>centros sub-regionais</strong> (sediam atividades de gestão pouco complexas), <strong>capitais regionais</strong> (têm área de influência regional e atraem gente para um grande número de atividades) e <strong>metrópoles</strong>, os quinze principais centros urbanos do país, cuja influência se estende por vastas áreas do território nacional. Segundo o REGIC 2018, a rede urbana brasileira tem 862 cidades que funcionam como centros de comando, com influência que extrapola os próprios limites, enquanto as demais 4.037 cidades do levantamento (os centros locais) atendem majoritariamente aos próprios moradores. A aula de Redes e Hierarquias Urbanas detalha essa classificação nível por nível.</p>
+            <p>O estudo <span class="termo" data-palavra="REGIC" data-definicao="Regiões de Influência das Cidades, estudo periódico do IBGE que classifica os municípios brasileiros conforme sua centralidade: o alcance da gestão pública e empresarial, a oferta de serviços especializados e até a presença de domínios na internet. A edição mais recente é de 2018.">REGIC</span> (Regiões de Influência das Cidades), do IBGE, organiza essa hierarquia em cinco níveis, do menor para o maior: <strong>centros locais</strong> (a base da pirâmide, 4.037 municípios, cerca de 82% de todos os municípios estudados, com população média de apenas 12,5 mil habitantes, que atendem só a própria população), <strong>centros de zona</strong> (398 cidades pequenas, com atuação restrita ao próprio entorno), <strong>centros sub-regionais</strong> (352 cidades que sediam atividades de gestão pouco complexas), <strong>capitais regionais</strong> (97 cidades com área de influência regional, que atraem gente para um grande número de atividades) e <strong>metrópoles</strong>, os quinze principais centros urbanos do país, cuja influência se estende por vastas áreas do território nacional. Somando os quatro primeiros níveis, chega-se às 862 cidades que funcionam como centros de comando, com influência que extrapola os próprios limites, enquanto os 4.037 centros locais atendem majoritariamente aos próprios moradores. Vale registrar que essa lista de metrópoles não é fixa: entre a edição anterior do REGIC e a de 2018, Campinas, Florianópolis e Vitória passaram a ser classificadas como metrópoles, sinal de que o crescimento econômico e populacional pode alterar, com o tempo, a posição de uma cidade na hierarquia urbana. Curiosamente, Campinas se tornou a primeira metrópole do país que não é capital de estado, o que mostra que o critério do REGIC não é o tamanho político do município, mas o alcance real de sua influência econômica e de serviços. As quinze metrópoles brasileiras de 2018 são: São Paulo (a única classificada como Grande Metrópole Nacional), Rio de Janeiro e Brasília (Metrópoles Nacionais), além de Belém, Belo Horizonte, Curitiba, Fortaleza, Goiânia, Porto Alegre, Recife, Salvador, Manaus, Campinas, Florianópolis e Vitória. A aula de Redes e Hierarquias Urbanas detalha essa classificação nível por nível.</p>
 
             <h3>Megacidades: as maiores do planeta</h3>
 
@@ -210,7 +210,7 @@
 
             <h3>Cidades globais: onde se tomam as decisões</h3>
 
-            <p>Dentro das megacidades, algumas têm um papel ainda mais específico: são os nós de comando da economia mundial. Londres, Nova York, Tóquio e São Paulo são exemplos de <strong>cidades globais</strong>: espaços onde se concentram sedes de corporações multinacionais, bolsas de valores, escritórios de grandes bancos e instituições financeiras internacionais. Uma decisão tomada em Wall Street afeta trabalhadores em São Paulo; uma queda na bolsa de Tóquio reverbera nos mercados de Frankfurt e Sidney.</p>
+            <p>Dentro das megacidades, algumas têm um papel ainda mais específico: são os nós de comando da economia mundial. Londres, Nova York, Tóquio e São Paulo são exemplos de <strong>cidades globais</strong>: espaços onde se concentram sedes de corporações multinacionais, bolsas de valores, escritórios de grandes bancos e instituições financeiras internacionais. Uma decisão tomada em Wall Street afeta trabalhadores em São Paulo; uma queda na bolsa de Tóquio reverbera nos mercados de Frankfurt e Sidney. Em São Paulo, esse papel de comando se concentra territorialmente num eixo bem específico, que vai da Avenida Paulista à região da Faria Lima e do Itaim Bibi: ali estão a B3 (a bolsa de valores brasileira), as sedes de grandes bancos e escritórios de multinacionais, um espaço de poucos quilômetros quadrados que concentra uma fração desproporcional de toda a riqueza gerada pela cidade.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -278,6 +278,8 @@
 
             <p>Nas metrópoles brasileiras, o crescimento urbano produziu um fenômeno específico: a <strong>periferização</strong>. As áreas centrais das cidades concentram emprego, comércio e serviços, mas são caras demais para os trabalhadores de menor renda. Estes são empurrados para a periferia, onde a terra é mais barata, mas o transporte é precário, o saneamento é escasso e os serviços públicos chegam com atraso. O resultado é que o trabalhador mora longe do emprego e gasta horas do dia em deslocamentos, como vimos na aula de migrações pendulares.</p>
 
+            <p>Essa forma de crescer, rápida e sem planejamento, também tem um preço ambiental que aparece com força nas notícias todo verão. A impermeabilização do solo, causada pelo asfalto e pelas construções que substituem áreas verdes, reduz a capacidade da terra de absorver água da chuva, o que aumenta o risco de enchentes mesmo em chuvas que antes seriam absorvidas sem grandes problemas. A ocupação de encostas e margens de rios, empurrada justamente pela falta de opções de moradia mais segura e barata, coloca famílias inteiras em áreas de risco de deslizamento. E a concentração de concreto e asfalto, associada à escassez de vegetação e de áreas permeáveis, cria as chamadas ilhas de calor: regiões da cidade onde a temperatura fica sensivelmente mais alta do que em áreas vizinhas com mais vegetação. Nenhum desses três problemas, enchente, deslizamento e ilha de calor, é fruto do acaso: todos derivam diretamente do modelo de urbanização acelerada e desigual estudado nesta aula. O caso de São Paulo dá a dimensão do problema em números: a cidade tem 749 pontos de alagamento mapeados, e cada um deles, quando ativado por uma chuva forte, chega a gerar mais de R$ 1 milhão em prejuízo por dia, resultando num impacto nacional estimado em mais de R$ 762 milhões por ano, considerando o efeito em cadeia sobre a produção e a renda de todo o país. A raiz do problema está sobretudo na ocupação e impermeabilização das várzeas de rios como o Tietê, que perderam a capacidade natural de absorver e escoar a água das chuvas.</p>
+
             <h3>Descentralização: cidades médias em crescimento</h3>
 
             <p>A partir dos anos 1990, e com mais intensidade nos anos 2000, um fenômeno novo começou a aparecer nos dados do IBGE: as cidades médias (entre 100 mil e 500 mil habitantes) passaram a crescer mais rápido que as metrópoles. Municípios como Uberlândia, Sorocaba, Joinville, Marília e Cascavel aceleraram seu crescimento com indústrias que fugiram do custo elevado das metrópoles, universidades federais expandidas e serviços regionais. Esse processo de <strong>desconcentração urbana</strong> não elimina as metrópoles, mas redistribui parte do crescimento pela rede urbana. Os números confirmam a mudança: entre 2010 e 2022, a fatia da população brasileira vivendo em cidades de 100 mil a 500 mil habitantes subiu de 25,4% para quase 28%, enquanto a fatia em cidades de 20 mil a 50 mil habitantes caiu de 16,6% para 15,75%. As grandes cidades, com mais de 500 mil habitantes, seguem concentrando quase 29% da população, mas já não crescem na mesma velocidade de antes.</p>
@@ -301,7 +303,7 @@
                 parcelas maiores de população rural.</p>
 
             <p>Para além dos números, pesquisadores como o professor Everaldo Melazzo apontam que as cidades
-                brasileiras estão ficando mais complexas, em um processo chamado de <span class="termo" data-palavra="Fragmentação Socioespacial" data-definicao="Processo pelo qual o espaço urbano se torna cada vez mais heterogêneo e desigual, combinando condomínios fechados, favelas, centros históricos esvaziados, periferias distantes e cidades médias em ascensão em um mesmo sistema urbano, sem um padrão único de organização espacial. É uma tendência identificada por pesquisadores a partir dos dados do Censo 2022 para caracterizar a urbanização brasileira contemporânea.">fragmentação socioespacial</span>:
+                brasileiras estão ficando mais complexas, em um processo chamado de <strong>fragmentação socioespacial</strong>:
                 a urbanização já não segue um padrão único de metrópole cercada por periferia, mas combina
                 simultaneamente o crescimento acelerado de cidades médias, a persistência da desigualdade nas
                 grandes metrópoles e formas cada vez mais diversas de ocupação do território urbano.</p>
@@ -347,7 +349,59 @@
 
             <p>A favela não surgiu porque as pessoas são desorganizadas. Surgiu porque a cidade cresceu rápido demais, sem planejamento e sem investimento público que acompanhasse o fluxo. A periferização não é acidente: é consequência de um mercado imobiliário que empurra os mais pobres para as margens. E a conurbação não é só curiosidade geográfica: é o registro de que as cidades cresceram sem limites pensados para o bem coletivo.</p>
 
-            <p><strong>Resumo dos conceitos:</strong> urbanização (concentração da população em cidades); taxa de urbanização (87,7% no Brasil em 2022); megacidade (mais de 10 milhões de habitantes; Brasil tem São Paulo e Rio); rede urbana (sistema hierárquico de cidades, organizado pelo REGIC em centros de zona, centros sub-regionais, capitais regionais e metrópoles); conurbação (fusão física de cidades vizinhas); metropolização (expansão da influência de uma metrópole); região metropolitana (conjunto de municípios integrados reconhecido por lei estadual desde a Lei Complementar de 1973); megalópole e macrometrópole (conexão entre metrópoles ao longo de eixos de circulação, como no corredor São Paulo-Rio de Janeiro).</p>
+            <p><strong>Resumo dos conceitos:</strong> urbanização (concentração da população em cidades); taxa de urbanização (87,4% no Brasil em 2022); megacidade (mais de 10 milhões de habitantes; Brasil tem São Paulo e Rio); rede urbana (sistema hierárquico de cidades, organizado pelo REGIC em centros de zona, centros sub-regionais, capitais regionais e metrópoles); conurbação (fusão física de cidades vizinhas); metropolização (expansão da influência de uma metrópole); região metropolitana (conjunto de municípios integrados reconhecido por lei estadual desde a Lei Complementar de 1973); megalópole e macrometrópole (conexão entre metrópoles ao longo de eixos de circulação, como no corredor São Paulo-Rio de Janeiro).</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9B: Questao aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, por que a periferização não é um problema de comportamento individual, mas consequência do modelo de urbanização brasileiro?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a27" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a27"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a27', 'imobili', 'resp1a27', this, 'globinho1a27')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a27" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, o que diferencia uma megacidade de uma cidade global?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a27" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a27"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a27', 'comando', 'resp2a27', this, 'globinho2a27')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a27" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 9C: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots27" src="inforesumots27.webp"
+                    alt="Infográfico resumo O processo de urbanização - megacidades, rede urbana e conurbação" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -436,15 +490,54 @@
                 socioespacial: viver perto do mar, com vista privilegiada, tornou-se um privilégio de quem pode pagar
                 por um apartamento em um desses edifícios.</p>
 
+            <p>É importante não confundir verticalização com adensamento populacional automático: um prédio alto de apartamentos de luxo, com poucas unidades grandes por andar, pode abrigar bem menos gente do que um bairro horizontal de casas populares no mesmo espaço. Por isso, geógrafos costumam analisar a verticalização junto com o valor do metro quadrado e o tamanho médio das unidades, não apenas pela altura dos prédios. Em cidades como São Paulo e Balneário Camboriú (SC), essa verticalização de luxo já mudou completamente a paisagem da orla e das áreas centrais, criando, lado a lado, bairros com torres de dezenas de andares e outros que mal têm construções de dois pavimentos, muitas vezes sem que a infraestrutura de água, esgoto e trânsito da região tenha sido ampliada na mesma proporção do crescimento vertical.</p>
+
+            <p>Falta agora entender melhor como essas cidades se conectam entre si e se organizam em rede: na próxima aula, vamos aprofundar exatamente os conceitos de metrópole, megalópole, região metropolitana e descentralização urbana que apenas introduzimos aqui.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 12.7: Questao pratica 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Um bairro litorâneo de uma capital nordestina passa por forte verticalização, com dezenas de edifícios altos surgindo na orla, enquanto o centro histórico próximo mantém casario baixo e vai perdendo moradores. O que melhor explica essa diferença de dinâmica dentro da mesma cidade?</b></h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>Falta de espaço na cidade</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Valorização imobiliária desigual</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>Decisão aleatória de construtoras</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'a verticalizacao segue o preco da terra: a orla valorizada atrai investimento em edificios altos, enquanto areas menos valorizadas do centro historico ficam de fora desse ciclo.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
         <!-- BLOCO 13: Questoes para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. O que é urbanização? Qual era a taxa de urbanização do Brasil em 1940 e qual é hoje?</h3>
@@ -515,6 +608,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

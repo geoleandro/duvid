@@ -101,8 +101,8 @@
 
         <p>Na aula de hoje vamos estudar as bacias hidrográficas do Brasil. Estudar a hidrografia brasileira nos permite compreender como a água influencia a distribuição da população, as atividades econômicas e os desafios ambientais que o país enfrenta.</p>
 
-        <p>Ao longo do texto, você vai conhecer as principais bacias hidrográficas brasileiras — da Amazônica à
-        Platina —, entender por que o Brasil depende tanto das hidrelétricas para gerar eletricidade e onde está o
+        <p>Ao longo do texto, você vai conhecer as principais bacias hidrográficas brasileiras, da Amazônica à
+        Platina, entender por que o Brasil depende tanto das hidrelétricas para gerar eletricidade e onde está o
         maior potencial hídrico ainda pouco aproveitado do país, além de descobrir como funcionam os aquíferos
         subterrâneos e por que mesmo regiões "ricas em água", como a Região Sudeste, já enfrentaram crises graves de
         abastecimento.</p>
@@ -136,6 +136,13 @@
         <p>A Importância das Bacias Hidrográficas<br>As bacias hidrográficas desempenham um papel fundamental na vida humana e no meio ambiente. Elas são fontes essenciais de recursos hídricos, fornecendo água para o consumo humano, a irrigação de culturas, a produção industrial e a geração de energia. Além disso, as bacias sustentam ecossistemas diversos e complexos, abrigando uma ampla variedade de flora e fauna.</p>
     
         <p>No aspecto econômico, muitas bacias hidrográficas são vitais para atividades como pesca, agricultura irrigada e transporte fluvial. No Brasil, grandes projetos de infraestrutura, como a transposição do Rio São Francisco, demonstram a importância estratégica dessas áreas para o desenvolvimento regional e nacional.</p>
+
+        <p>A pesca é um bom exemplo de como essa importância vai muito além dos grandes projetos de infraestrutura.
+        O país tem mais de um milhão de pescadores artesanais credenciados, responsáveis por cerca de 60% de toda a
+        pesca nacional, uma produção que passa de 500 mil toneladas por ano. Boa parte dessa atividade acontece
+        justamente nas grandes bacias continentais, como a Amazônica, a do Tocantins-Araguaia e a do São Francisco,
+        onde populações ribeirinhas tradicionais dependem diretamente da saúde dos rios não só para se alimentar,
+        mas também para sustentar sua renda e sua cultura.</p>
     
         <p>Divisores de Água e Rede Hidrográfica<br>Os <span class="termo" data-palavra="divisores de água" data-definicao="Também chamados de interflúvios: fronteiras naturais, geralmente em áreas elevadas, que separam uma bacia hidrográfica de outra e determinam para onde as águas escoam.">divisores de água</span>, também conhecidos como interflúvios, são as fronteiras naturais que separam uma bacia hidrográfica de outra. Eles estão geralmente localizados em áreas elevadas, como montanhas ou colinas, e desempenham um papel crucial na determinação de para onde as águas escoam.</p>
     
@@ -143,13 +150,20 @@
 
         <p>Para organizar a gestão desse território tão extenso, o poder público criou uma divisão oficial. Até 2003, o Brasil era dividido em sete grandes regiões hidrográficas; a partir da Resolução nº 32 do Conselho Nacional de Recursos Hídricos, esse número passou para doze: Amazônica, Tocantins-Araguaia, Atlântico Nordeste Ocidental, Atlântico Nordeste Oriental, São Francisco, Parnaíba, Atlântico Leste, Atlântico Sudeste, Atlântico Sul, Paraná, Paraguai e Uruguai. Cada região reúne uma ou mais bacias hidrográficas e serve de base para o planejamento de políticas de recursos hídricos em todo o país.</p>
 
-        <p>Essa gestão não é feita apenas pelo governo federal. A <span class="termo" data-palavra="Agência Nacional de Águas e Saneamento Básico (ANA)" data-definicao="Órgão federal responsável por regular o uso da água em rios de domínio da União, emitindo outorgas e fiscalizando o cumprimento da Política Nacional de Recursos Hídricos.">Agência Nacional de Águas e Saneamento Básico (ANA)</span>
-        é o órgão federal responsável por regular o uso da água nos rios de domínio da União, por meio da chamada
+        <p>Essa gestão não é feita apenas pelo governo federal. A <span class="termo" data-palavra="Agência Nacional de Águas e Saneamento Básico (ANA)" data-definicao="Órgão federal responsável por regular o uso da água em rios de domínio da União, emitindo outorgas e fiscalizando o cumprimento da Política Nacional de Recursos Hídricos.">Agência Nacional de Águas e Saneamento Básico (ANA)</span>,
+        que até 2020 se chamava apenas Agência Nacional de Águas e passou a incorporar também a regulação do
+        saneamento básico depois do novo marco legal do setor (Lei 14.026/2020), é o órgão federal responsável por
+        regular o uso da água nos rios de domínio da União, por meio da chamada
         outorga: uma autorização que define, por prazo determinado, quanto de água uma indústria, uma prefeitura ou
         um produtor rural pode captar de um rio ou represa. Em cada bacia, essas decisões também passam pelos
         Comitês de Bacia Hidrográfica, conhecidos como "parlamentos das águas", que reúnem representantes do poder
         público, dos usuários (como indústrias e irrigantes) e da sociedade civil para discutir prioridades de uso,
         mediar conflitos e definir critérios de cobrança pelo uso da água em cada região.</p>
+
+        <p>Esse modelo de gestão participativa já está bastante consolidado no país: atualmente existem cerca de 210
+        comitês de bacia em funcionamento no Brasil, sendo 200 estaduais e 10 interestaduais (que reúnem bacias
+        compartilhadas por mais de um estado). Minas Gerais é o estado com o maior número de comitês, com 35
+        colegiados distintos, reflexo da grande quantidade de pequenas e médias bacias que cortam seu território.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -168,9 +182,9 @@
     
         <p><strong>Energia:</strong> Muitos rios brasileiros, especialmente aqueles localizados em planaltos, são aproveitados para a geração de energia hidrelétrica. Isso ocorre devido aos desníveis topográficos e ao elevado índice pluviométrico nessas regiões. Um exemplo icônico é o Rio Paraná, que abriga a Usina Hidrelétrica de Itaipu, uma das maiores do mundo.</p>
     
-        <p><strong>Navegação:</strong> Rios de planície, como o Amazonas e o Paraguai, são amplamente utilizados para navegação, servindo como importantes vias de transporte para pessoas e mercadorias. Mesmo rios de planalto, mais adequados para a geração de energia, podem ser aproveitados para navegação quando ganham eclusas — estruturas que permitem às embarcações vencer o desnível criado pelas barragens das usinas. É o caso da Hidrovia Tietê-Paraná, que soma cerca de 2.400 km de extensão (1.600 km no Rio Paraná e 800 km no Rio Tietê, em São Paulo) e conecta cinco estados produtores de grãos — Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais e Paraná — ao transporte fluvial de soja, milho e outros produtos agrícolas, funcionando como alternativa mais barata e menos poluente ao transporte rodoviário nessas regiões.</p>
+        <p><strong>Navegação:</strong> Rios de planície, como o Amazonas e o Paraguai, são amplamente utilizados para navegação, servindo como importantes vias de transporte para pessoas e mercadorias. Mesmo rios de planalto, mais adequados para a geração de energia, podem ser aproveitados para navegação quando ganham eclusas: estruturas que permitem às embarcações vencer o desnível criado pelas barragens das usinas. É o caso da Hidrovia Tietê-Paraná, que soma cerca de 2.400 km de extensão (1.600 km no Rio Paraná e 800 km no Rio Tietê, em São Paulo) e conecta cinco estados produtores de grãos (Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais e Paraná) ao transporte fluvial de soja, milho e outros produtos agrícolas, funcionando como alternativa mais barata e menos poluente ao transporte rodoviário nessas regiões.</p>
     
-        <p><strong>Fozes:</strong> O Brasil possui exemplos de diferentes tipos de <span class="termo" data-palavra="foz" data-definicao="Local onde um rio desemboca em outro curso d'água, em um lago ou no mar. Pode ser em delta (vários braços separados por sedimentos) ou em estuário (canal único e alargado).">fozes</span>. O Rio Amazonas, por exemplo, possui uma foz mista, com delta e estuário. Já o Rio São Francisco tem uma foz em estuário.</p>
+        <p><strong>Fozes:</strong> O Brasil possui exemplos de diferentes tipos de <span class="termo" data-palavra="foz" data-definicao="Local onde um rio desemboca em outro curso d'água, em um lago ou no mar. Pode ser em delta (vários braços separados por sedimentos) ou em estuário (canal único e alargado).">fozes</span>. O Rio Amazonas, por exemplo, possui uma foz mista, com delta e estuário. Já o Rio São Francisco forma um delta, entre os estados de Alagoas e Sergipe, mas um delta em franca retração: como boa parte do sedimento que antes chegava até a foz fica hoje retido nos reservatórios das usinas ao longo do rio, a costa perdeu o reforço de areia e lama que recebia naturalmente, e o mar vem avançando sobre a linha da praia em alguns trechos a taxas de dezenas de metros por ano, um efeito colateral pouco lembrado da geração de energia hidrelétrica.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -207,11 +221,11 @@
 
         <p><strong>Rios voadores:</strong> A influência da Bacia Amazônica sobre o restante do país vai muito além dos
         seus próprios cursos d'água. Por meio da evapotranspiração, as árvores da floresta devolvem à atmosfera boa
-        parte da água que recebem das chuvas — uma árvore de grande porte pode liberar mais de mil litros de água
+        parte da água que recebem das chuvas. Uma árvore de grande porte pode liberar mais de mil litros de água
         por dia. Essa umidade forma correntes de ar carregadas de vapor, apelidadas de "rios voadores", que se
         deslocam a alturas entre 1,5 mil e 3 mil metros e, ao esbarrar na Cordilheira dos Andes, são desviadas em
         direção ao Centro-Oeste, ao Sudeste e ao Sul do Brasil. Essa umidade tem relação direta com a formação de
-        chuvas que abastecem represas como o próprio Sistema Cantareira, citado mais adiante neste texto — o que
+        chuvas que abastecem represas como o próprio Sistema Cantareira, citado mais adiante neste texto, o que
         significa que o desmatamento na Amazônia pode enfraquecer as chuvas em regiões muito distantes da floresta.</p>
 
         <h3>Bacia do Tocantins-Araguaia</h3>
@@ -280,7 +294,7 @@
         grande volume de água nos rios ao longo do ano. Some-se a isso os desníveis e cachoeiras dos extensos
         planaltos brasileiros, e o resultado é um dos maiores <span class="termo" data-palavra="potencial hidrelétrico" data-definicao="Capacidade de um rio ou bacia gerar energia elétrica a partir da força das quedas d'água, calculada a partir do volume de água disponível e do desnível do terreno.">potenciais hidrelétricos</span>
         do mundo. Em 2022, as usinas hidrelétricas responderam por 61,9% de toda a oferta de energia elétrica do
-        país — de longe a principal fonte da matriz elétrica brasileira, à frente de fontes como a eólica, o gás
+        país, de longe a principal fonte da matriz elétrica brasileira, à frente de fontes como a eólica, o gás
         natural e o bagaço de cana.</p>
 
         <p>Esse potencial, porém, não está distribuído nem aproveitado de forma igual entre as bacias. A Região
@@ -306,12 +320,19 @@
         <p><strong>O caso Belo Monte:</strong> A Usina Hidrelétrica de Belo Monte, no Rio Xingu, no Pará, é um exemplo
         concreto do dilema entre aproveitar o potencial hidrelétrico amazônico e preservar a floresta e os povos que
         nela vivem. Inaugurada em 2016, tornou-se uma das maiores hidrelétricas do mundo em capacidade instalada, com
-        potência de mais de 11 mil megawatts. Na prática, porém, sua geração média fica bem abaixo disso — em torno
-        de 4.500 MW — e pode cair para menos de 200 MW nos meses mais secos, porque o Rio Xingu tem vazão muito
+        potência de 11.233 megawatts. Na prática, porém, sua geração média fica bem abaixo disso (em torno
+        de 4.500 MW) e pode cair para menos de 200 MW nos meses mais secos, porque o Rio Xingu tem vazão muito
         irregular ao longo do ano. Para funcionar, a usina desvia cerca de 80% da água de um trecho do rio conhecido
         como Volta Grande do Xingu para um canal artificial, deixando essa área em situação de seca praticamente
         permanente. O caso é lembrado até hoje nos debates sobre licenciamento ambiental, pois afetou diretamente a
         pesca e o modo de vida de comunidades indígenas e ribeirinhas da região.</p>
+
+        <p>Para efeito de comparação, Belo Monte é hoje a segunda maior hidrelétrica em capacidade instalada do
+        Brasil, atrás apenas de Itaipu, que soma 14.000 MW (dos quais 7.000 MW cabem à parte brasileira do
+        empreendimento binacional com o Paraguai). A Usina de Tucuruí, no Rio Tocantins, completa o pódio nacional
+        com 8.370 MW, e desde que entrou em operação, em 1984, tornou-se peça-chave para viabilizar grandes projetos
+        de mineração e metalurgia no Norte do país. Não por acaso, essas três usinas estão também entre as dez
+        maiores hidrelétricas do planeta em capacidade instalada.</p>
 
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
@@ -342,7 +363,7 @@
 </div>
 </div>
 <div class="w3-margin-top">
-<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Amazônica é a região hidrográfica com maior potencial hidrelétrico do Brasil, mas a distância dos centros consumidores e as preocupações socioambientais fazem com que apenas uma pequena parcela desse potencial seja aproveitada — diferente da Região do Paraná, já bastante utilizada.', '10')">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A Amazônica é a região hidrográfica com maior potencial hidrelétrico do Brasil, mas a distância dos centros consumidores e as preocupações socioambientais fazem com que apenas uma pequena parcela desse potencial seja aproveitada, diferente da Região do Paraná, já bastante utilizada.', '10')">
                     Confirmar Resposta
                 </button>
 </div>
@@ -356,7 +377,7 @@
 
         <h2>Aquíferos Brasileiros</h2>
     
-        <p>Além dos rios e bacias hidrográficas, o Brasil também é rico em <span class="termo" data-palavra="aquífero" data-definicao="Formação geológica subterrânea, composta de rochas porosas e permeáveis, capaz de armazenar e transmitir água em quantidade explorável.">aquíferos</span>, que são reservatórios subterrâneos de água. O Aquífero Guarani é o maior e mais importante deles, estendendo-se por Brasil, Paraguai, Uruguai e Argentina.</p>
+        <p>Além dos rios e bacias hidrográficas, o Brasil também é rico em <span class="termo" data-palavra="aquífero" data-definicao="Formação geológica subterrânea, composta de rochas porosas e permeáveis, capaz de armazenar e transmitir água em quantidade explorável.">aquíferos</span>, que são reservatórios subterrâneos de água. O Aquífero Guarani é o mais conhecido e mais estudado deles, estendendo-se por Brasil, Paraguai, Uruguai e Argentina.</p>
     
         <h3>Aquífero Guarani</h3>
 
@@ -365,21 +386,33 @@
             <span class="w3-small w3-margin-left" id="citacao3" >  </span>
             
             </div>
-        <p>O Aquífero Guarani ocupa uma área de cerca de 1,2 milhões de km² e é considerado o maior reservatório de água subterrânea do mundo. No Brasil, ele está presente em estados como São Paulo, Paraná e Mato Grosso do Sul.</p>
+        <p>O Aquífero Guarani ocupa uma área de cerca de 1,2 milhões de km², o que faz dele o maior aquífero do mundo em extensão territorial e o mais estudado, inclusive por ser compartilhado entre quatro países, com um acordo internacional específico para sua gestão. No Brasil, ele está presente em estados como São Paulo, Paraná e Mato Grosso do Sul.</p>
         <p><strong>Importância:</strong> O Aquífero Guarani é uma reserva estratégica de água doce, essencial para o abastecimento futuro do país. Sua preservação é crucial, pois a contaminação ou a exploração excessiva poderiam comprometer a disponibilidade de água para as futuras gerações.</p>
         <p><strong>Curiosidade:</strong> Em algumas regiões, o Aquífero Guarani está a mais de 1.800 metros de profundidade, o que torna sua exploração um desafio técnico e econômico.</p>
 
-        <p>O Guarani não é o único aquífero relevante do país. No Norte, o Aquífero Alter do Chão, sob a região de
-        Manaus, também é um dos maiores reservatórios subterrâneos do mundo em volume, embora ainda seja pouco
-        estudado. Já o Aquífero Bambuí, que se estende por Minas Gerais, Bahia e Goiás, é formado por rochas
-        calcárias e está associado a importantes sistemas de cavernas. Assim como o Guarani, esses reservatórios só
+        <p>Um caso concreto ajuda a dimensionar essa dependência: Ribeirão Preto (SP) é o maior município do país
+        abastecido 100% por água subterrânea, captada por cerca de 120 poços profundos que chegam a mais de 200
+        metros, todos explorando o Aquífero Guarani. Estudos geológicos recentes já apontam queda no nível do
+        aquífero na região, o que levou a prefeitura a estudar fontes complementares de captação, um lembrete de que
+        mesmo uma reserva estratégica desse tamanho não é inesgotável quando explorada de forma intensa e
+        concentrada por décadas.</p>
+
+        <p>O Guarani não é o único aquífero relevante do país, nem é o maior em todos os sentidos. No Norte, o
+        Aquífero Alter do Chão, que se estende sob os estados do Amazonas, Pará e Amapá, ocupa uma área menor que a
+        do Guarani, mas armazena um volume de água ainda maior: estimativas apontam cerca de 86 mil km³, quase o
+        dobro dos aproximadamente 45 mil km³ do Guarani. Isso acontece porque o Alter do Chão é formado por
+        arenitos com porosidade muito alta, o que permite armazenar mais água por metro cúbico de rocha. Apesar
+        disso, o Alter do Chão ainda é pouco estudado e não conta com uma estrutura de gestão e monitoramento tão
+        consolidada quanto a do Guarani. Já o Aquífero Bambuí, que se estende por Minas Gerais, Bahia e Goiás, é
+        formado por rochas calcárias e está associado a importantes sistemas de cavernas, formadas ao longo de
+        milhões de anos pela dissolução lenta do calcário pela água. Assim como o Guarani, esses reservatórios só
         cumprem seu papel de reserva estratégica se forem protegidos contra a contaminação por esgoto, agrotóxicos e
         resíduos industriais, já que a água subterrânea, uma vez poluída, pode levar décadas para se recuperar.</p>
 
         <h3>Água abundante, mas não garantida: a crise hídrica de São Paulo</h3>
         <p>Ter grande volume de água no território não significa estar livre de crises de abastecimento. Entre 2014
         e 2016, a Região Metropolitana de São Paulo viveu sua pior crise hídrica desde 1953: o Sistema Cantareira, principal
-        conjunto de represas que abastece a região, chegou a operar com o chamado "volume morto" — a reserva técnica
+        conjunto de represas que abastece a região, chegou a operar com o chamado "volume morto": a reserva técnica
         que fica abaixo do nível normal de captação. Em fevereiro de 2015, o sistema operava com apenas 6% de sua
         capacidade útil, e o abastecimento de mais de 20 milhões de pessoas passou por rodízios e reduções de
         pressão. A crise foi provocada por uma estiagem prolongada combinada com o crescimento do consumo urbano e
@@ -387,14 +420,115 @@
         nordestino podem enfrentar crises graves quando a demanda por água cresce mais rápido do que a capacidade de
         planejamento dos recursos hídricos.</p>
 
+        <h3>O futuro da água no Brasil</h3>
+        <p>Um estudo da ANA divulgado em 2024 projeta que a disponibilidade hídrica pode cair até 40% em regiões
+        hidrográficas do Norte, do Nordeste, do Centro-Oeste e de parte do Sudeste até 2040, com aumento do número
+        de trechos de rios que passam a secar temporariamente, sobretudo no semiárido nordestino. Essa redução tende
+        a afetar diretamente a geração hidrelétrica, a agricultura irrigada e o abastecimento das cidades dessas
+        regiões. Já a Região Sul apresenta uma tendência oposta, de leve aumento na disponibilidade de água, mas
+        acompanhada de maior imprevisibilidade climática e de cheias mais frequentes. O alerta comum entre os
+        modelos científicos é que, nas próximas décadas, a água deve se tornar mais escassa em boa parte do
+        território brasileiro, o que reforça a importância de tudo que vimos nesta aula sobre gestão de bacias,
+        outorgas e comitês: não basta ter muita água no papel, é preciso planejar seu uso para as próximas gerações.</p>
+
         <h3>Considerações Finais</h3>
         <p>A hidrografia brasileira é um dos principais recursos naturais do país, e sua gestão sustentável é crucial para garantir o desenvolvimento econômico, social e ambiental. Compreender as características e a importância das bacias hidrográficas e aquíferos é essencial para a formação de cidadãos conscientes sobre a preservação e uso racional da água.</p>
         <p><strong>Curiosidade Final:</strong> O Brasil, apesar de toda sua abundância de água, enfrenta desafios relacionados à sua distribuição desigual. Enquanto a região Norte concentra a maior parte dos recursos hídricos, o Nordeste sofre com escassez e secas frequentes. Isso destaca a importância de políticas públicas eficientes para garantir o acesso à água em todo o território nacional.</p>
+
+        <p>A água que acabamos de estudar é também o combustível por trás de boa parte da eletricidade que chega às
+        casas brasileiras, através das usinas hidrelétricas que conhecemos ao longo desta aula. Na próxima aula,
+        vamos aprofundar justamente esse tema, conhecendo de perto usinas como Belo Monte, Itaipu e Tucuruí, e
+        entendendo como as termelétricas e a energia nuclear completam a matriz energética brasileira quando a força
+        das águas não é suficiente.</p>
     
         <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Proximo</button>
         <hr>
 
     </div>
+
+<div class="topico pergunta-bloco w3-container w3-padding-24">
+<p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+<h4 class="fontePixel"><b>Sobre a crise hídrica de São Paulo entre 2014 e 2016, marque a alternativa correta:</b></h4>
+<div class="grupo-respostas w3-margin-top">
+<div class="item-resposta">
+<input class="radio-duvid" id="p3a" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3a">
+<span>a) O Sistema Cantareira nunca operou abaixo de 50% de sua capacidade útil.</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3b" name="pergunta3" type="radio" value="correto"/>
+<label class="card-opcao" for="p3b">
+<span>b) Em fevereiro de 2015, o sistema chegou a operar com apenas 6% de sua capacidade útil, o chamado "volume morto".</span>
+</label>
+</div>
+<div class="item-resposta">
+<input class="radio-duvid" id="p3c" name="pergunta3" type="radio" value="errado"/>
+<label class="card-opcao" for="p3c">
+<span>c) A crise foi causada exclusivamente pelo crescimento populacional, sem nenhuma relação com o clima.</span>
+</label>
+</div>
+</div>
+<div class="w3-margin-top">
+<button class="btn-acao-duvid" onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Em fevereiro de 2015, o Sistema Cantareira operou com apenas 6% de sua capacidade útil, no chamado volume morto, resultado de uma estiagem prolongada combinada ao crescimento do consumo urbano e a problemas de gestão.', '10')">
+                    Confirmar Resposta
+                </button>
+</div>
+<p class="w3-center w3-padding w3-large" id="resp3"></p>
+<div class="area w3-center">
+<img height="64" id="globinho3" src="/fotoIndex/globinhoPe.png" style="display:none" width="64"/>
+</div>
+</div>
+
+<div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+    <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+    <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+    <p>Segundo o texto, o que ficou retido nos reservatórios das usinas ao longo do Rio São Francisco, e que antes chegava até a foz, provocando hoje o avanço do mar sobre a costa?</p>
+    <div class="w3-margin">
+        <input class="input" id="q1a21" placeholder="sua resposta..." type="text">
+    </div>
+    <p class="w3-center w3-padding" id="resp1a21"></p>
+    <div class="w3-margin-top">
+        <button class="btn-acao-duvid" onclick="validarAberta('q1a21', 'sediment', 'resp1a21', this, 'globinho1a21')">
+            Conferir
+        </button>
+    </div>
+    <div class="area w3-center">
+        <img height="64" id="globinho1a21" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+    </div>
+
+    <p>Segundo o texto, por que o Aquífero Alter do Chão consegue armazenar mais água que o Guarani, mesmo ocupando uma área menor?</p>
+    <div class="w3-margin">
+        <input class="input" id="q2a21" placeholder="sua resposta..." type="text">
+    </div>
+    <p class="w3-center w3-padding" id="resp2a21"></p>
+    <div class="w3-margin-top">
+        <button class="btn-acao-duvid" onclick="validarAberta('q2a21', 'poros', 'resp2a21', this, 'globinho2a21')">
+            Conferir
+        </button>
+    </div>
+    <div class="area w3-center">
+        <img height="64" id="globinho2a21" src="\fotoIndex\globinhoPe.png" style="display:none" width="64">
+    </div>
+
+    <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+    <hr/>
+</div>
+
+        <div class="topico">
+
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots21" src="inforesumots21.webp"
+                    alt="Infográfico resumo Hidrografia brasileira - bacias, aquíferos e potencial hidrelétrico" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+
+        </div>
 
     <div class="topico">
 
@@ -502,6 +636,10 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         <br><br>
         <div class="w3-padding-48">

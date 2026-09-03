@@ -1,5 +1,15 @@
 [
  {
+    "id": 10,
+    "titulo": "GeoShorts — Vídeo Curto de Geografia",
+    "tema": "Natureza",
+    "nivel": "1º ano EM",
+    "descricao": "Grupos de 5 alunos usam IA para gerar clipes de 10 segundos sobre um tema do módulo Natureza. Com um roteiro coletivo, montam um vídeo de 50 segundos estilo cutscene — que pode entrar no site Duvid como material de estudo.",
+    "bncc": "EM13CHS106, EM13CHS204, EM13LGG104, EM13LGG602",
+    "link": "atividade-geoshorts-1ano.html",
+    "tag": "Projeto"
+},
+ {
     "id": 9,
     "titulo": "Desigualdades Urbanas ao Redor do Mundo",
     "tema": "Urbanização",

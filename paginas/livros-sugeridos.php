@@ -108,6 +108,7 @@ const TAG_PARA_CATEGORIA = {
     'Escala 1:1':                 'Cartografia',
     'Escala e proporção':         'Cartografia',
     'Mapa 1:1':                   'Cartografia',
+    'Estrada e deslocamento':     'Cartografia',
     'Relatos de viagem':          'Cartografia',
     'Ventos alísios e navegações':'Cartografia',
     // 🕐 Tempo e Espaço
@@ -126,6 +127,7 @@ const TAG_PARA_CATEGORIA = {
     'Corrida espacial':           'Geopolítica',
     'Cuba':                       'Geopolítica',
     'Ditadura':                   'Geopolítica',
+    'Ditadura e modernização urbana': 'Geopolítica',
     'Guerra':                     'Geopolítica',
     'Guerra Civil':               'Geopolítica',
     'Gulag':                      'Geopolítica',
@@ -142,6 +144,7 @@ const TAG_PARA_CATEGORIA = {
     'Turquia':                    'Geopolítica',
     // 🌍 Colonialismo
     'Colonialismo':               'Colonialismo',
+    'Conquista espanhola':        'Colonialismo',
     'Pós-colonialismo':           'Colonialismo',
     'Pós-Apartheid':              'Colonialismo',
     'Índia':                      'Colonialismo',
@@ -150,9 +153,11 @@ const TAG_PARA_CATEGORIA = {
     // 🧳 Migração e Refugiados
     'Fronteira':                  'Migração e Refugiados',
     'Imigração':                  'Migração e Refugiados',
+    'Migração e desigualdade regional': 'Migração e Refugiados',
     // 🌐 Povos e Culturas
     'Multiculturalismo':          'Povos e Culturas',
     'China pré-revolucionária':   'Povos e Culturas',
+    'Cultura chinesa':            'Povos e Culturas',
     'Cultura maori':              'Povos e Culturas',
     'Formação do Brasil':         'Povos e Culturas',
     'Formação Étnica':            'Povos e Culturas',
@@ -161,13 +166,21 @@ const TAG_PARA_CATEGORIA = {
     'Mestiçagem':                 'Povos e Culturas',
     'Vastidão russa':             'Povos e Culturas',
     // ⚖️ Desigualdade Social
+    'Conflito fundiário':         'Desigualdade Social',
     'Desigualdade Regional':      'Desigualdade Social',
     'Favelas e desigualdade urbana': 'Desigualdade Social',
+    'Latifúndio e capitalismo rural': 'Desigualdade Social',
     'Menino-Soldado':             'Desigualdade Social',
     'Racismo':                    'Desigualdade Social',
     'Território e desigualdade':  'Desigualdade Social',
+    // 🧮 Demografia e População
+    'Colapso demográfico':        'Demografia e População',
+    'Controle populacional':      'Demografia e População',
+    'Fecundidade e controle reprodutivo': 'Demografia e População',
     // 🏭 Indústria e Trabalho
+    'Ferroviário':                'Indústria e Trabalho',
     'Industrialização':           'Indústria e Trabalho',
+    'Sindicalismo e guerra fiscal': 'Indústria e Trabalho',
     // 📰 Comunicação e Mídia
     'Jornalismo Gráfico':         'Comunicação e Mídia',
     // 💻 Tecnologia e Sociedade
@@ -198,7 +211,10 @@ const TAG_PARA_CATEGORIA = {
     'Erosão eólica':              'Biomas e Vegetação',
     'Erosão fluvial':             'Biomas e Vegetação',
     'Estepe e Pradaria':          'Biomas e Vegetação',
+    'Floresta Amazônica':         'Biomas e Vegetação',
     'Floresta Pluvial':           'Biomas e Vegetação',
+    'Região Centro-Oeste':        'Biomas e Vegetação',
+    'Região Norte':               'Biomas e Vegetação',
     'Savana':                     'Biomas e Vegetação',
     'Savana Tropical':            'Biomas e Vegetação',
     'Semiárido':                  'Biomas e Vegetação',
@@ -213,6 +229,7 @@ const TAG_PARA_CATEGORIA = {
     'Cadeias oceânicas':          'Hidrografia e Oceanos',
     'Curso de um rio':            'Hidrografia e Oceanos',
     'Deltas e estuários':         'Hidrografia e Oceanos',
+    'Exploração fluvial':         'Hidrografia e Oceanos',
     'Fossas oceânicas':           'Hidrografia e Oceanos',
     'Hidrografia':                'Hidrografia e Oceanos',
     'Movimentos oceânicos':       'Hidrografia e Oceanos',
@@ -223,9 +240,11 @@ const TAG_PARA_CATEGORIA = {
     'Atmosfera comparada':        'Clima',
     'Clima':                      'Clima',
     'Clima do Sul do Brasil':     'Clima',
+    'Clima Equatorial':           'Clima',
     'Ilhas de calor':             'Clima',
     'Marés e monções':            'Clima',
     'Poluição atmosférica':       'Clima',
+    'Seca':                       'Clima',
     // 🌱 Meio Ambiente
     'Conservacionismo':           'Meio Ambiente',
     'Desmatamento':                'Meio Ambiente',
@@ -235,8 +254,10 @@ const TAG_PARA_CATEGORIA = {
     'Limites Planetários':        'Meio Ambiente',
     'Poluição hídrica':           'Meio Ambiente',
     'Privatização da água':       'Meio Ambiente',
+    'Rios urbanos poluídos':      'Meio Ambiente',
     'Rompimento de barragens':    'Meio Ambiente',
     // 🏙️ Sociedade
+    'Colapso urbano':             'Sociedade',
     'Crise Agrícola':             'Sociedade',
     'Memórias':                   'Sociedade',
     'Narcotráfico':               'Sociedade',
@@ -256,6 +277,7 @@ const CATEGORIA_CORES = {
     'Colonialismo':          { bg: '#fbe9e7', cor: '#bf360c' },
     'Migração e Refugiados': { bg: '#e0f2f1', cor: '#00897b' },
     'Povos e Culturas':      { bg: '#e0f7fa', cor: '#00838f' },
+    'Demografia e População':{ bg: '#eceff1', cor: '#37474f' },
     'Desigualdade Social':   { bg: '#fce4ec', cor: '#ad1457' },
     'Indústria e Trabalho':  { bg: '#efebe9', cor: '#6d4c41' },
     'Comunicação e Mídia':   { bg: '#fff3e0', cor: '#ef6c00' },
@@ -320,7 +342,7 @@ async function carregarLivros() {
     }
 }
 
-const ORDEM_CATEGORIAS = ['Biomas e Vegetação', 'Cartografia', 'Clima', 'Colonialismo', 'Comunicação e Mídia', 'Desigualdade Social', 'Geopolítica', 'Globalização', 'Hidrografia e Oceanos', 'Indústria e Trabalho', 'Meio Ambiente', 'Migração e Refugiados', 'Natureza', 'Povos e Culturas', 'Sociedade', 'Tecnologia e Sociedade', 'Tempo e Espaço'];
+const ORDEM_CATEGORIAS = ['Biomas e Vegetação', 'Cartografia', 'Clima', 'Colonialismo', 'Comunicação e Mídia', 'Demografia e População', 'Desigualdade Social', 'Geopolítica', 'Globalização', 'Hidrografia e Oceanos', 'Indústria e Trabalho', 'Meio Ambiente', 'Migração e Refugiados', 'Natureza', 'Povos e Culturas', 'Sociedade', 'Tecnologia e Sociedade', 'Tempo e Espaço'];
 
 function gerarBotoes() {
     const cats = ['Todos', ...ORDEM_CATEGORIAS];

@@ -201,12 +201,18 @@
                 automobilística. Na Alemanha, a Segunda Revolução Industrial trouxe avanços significativos na indústria
                 química e na produção de aço, contribuindo para a ascensão do país como potência industrial.</p>
 
-            <p>Conectando com a última aula sobre globalização, podemos observar como a Revolução Industrial foi um
-                catalisador para o processo de globalização. O surgimento de novas tecnologias e métodos de produção
-                facilitou a integração econômica e a circulação de mercadorias em escala mundial. Além disso, a demanda
-                por recursos naturais e mão de obra barata impulsionou o colonialismo e o comércio internacional,
+            <p>A Revolução Industrial também foi a semente do processo de globalização que vamos estudar com mais
+                profundidade na próxima aula. O surgimento de novas tecnologias e métodos de produção facilitou a
+                integração econômica e a circulação de mercadorias em escala mundial. Além disso, a demanda por
+                recursos naturais e mão de obra barata impulsionou o colonialismo e o comércio internacional,
                 estabelecendo conexões cada vez mais complexas entre os países.</p>
 
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <div class="topico">
             <h2>As Revoluções Industriais: Mudando o Mundo</h2>
 
             <h3>Primeira Revolução Industrial</h3>
@@ -400,17 +406,17 @@
                     locacionais</span> como reservas de carvão mineral e de minério de ferro era decisiva: no Reino
                 Unido, o carvão abastecia tanto as indústrias de base, que produzem matérias-primas para outras
                 indústrias, quanto as indústrias de bens de consumo, o que fez as regiões carboníferas se tornarem
-                áreas de forte concentração fabril. O mesmo padrão se repetiu na Europa continental, no vale dos
-                rios Reno e Ruhr, na fronteira entre Alemanha, Bélgica e França, hoje um dos complexos industriais
-                mais importantes do continente.</p>
+                áreas de forte concentração fabril. O mesmo padrão se repetiu na Europa continental, na região do
+                Reno-Ruhr, no oeste da Alemanha, hoje um dos complexos industriais mais importantes do continente.</p>
 
             <p>Nem todo país seguiu esse padrão, no entanto. O Japão praticamente não possui reservas de carvão ou
                 de minério de ferro, então sua indústria siderúrgica se desenvolveu com um padrão portuário de
                 localização, concentrada em cidades costeiras como Tóquio, Yokohama e Osaka, para onde os insumos
                 chegavam por via marítima. Já a China se tornou uma potência industrial por um caminho mais recente:
-                a partir da liberalização econômica iniciada em 1978 e da criação, em 1984, das Zonas Econômicas
-                Especiais, distritos industriais com legislação própria, suspensão de impostos e forte atração de
-                investimento estrangeiro. O país passou de plataforma de exportação de bens de consumo baratos, nas
+                a partir da liberalização econômica iniciada em 1978 e da criação, em 1980, das primeiras Zonas
+                Econômicas Especiais, em Shenzhen, Zhuhai, Shantou e Xiamen, distritos industriais com legislação
+                própria, suspensão de impostos e forte atração de investimento estrangeiro, escolhidos por sua
+                proximidade com Hong Kong, Macau e Taiwan. O país passou de plataforma de exportação de bens de consumo baratos, nas
                 últimas décadas do século XX, a desenvolvedora de tecnologia própria já no século XXI, tornando-se a
                 maior economia industrial do planeta.</p>
 
@@ -439,31 +445,37 @@
                 produção industrial:</p>
 
             <h3>Capital</h3>
-            <p>O investimento de capital desempenha um papel crucial na produção industrial, fornecendo os recursos
-                financeiros necessários para construir fábricas, adquirir equipamentos modernos e tecnologicamente
-                avançados, além de financiar pesquisas e desenvolvimento de novos produtos. Países e regiões que possuem
-                acesso a um grande volume de capital tendem a ter indústrias mais desenvolvidas e competitivas no
-                cenário global.</p>
+            <p>Construir uma fábrica, comprar máquinas modernas e financiar pesquisa de novos produtos exige dinheiro
+                disponível para investir, e não apenas boa vontade. É por isso que a Coreia do Sul apostou, a partir
+                da década de 1960, em grandes conglomerados familiares chamados chaebols, como Samsung e Hyundai,
+                canalizando crédito estatal para que essas empresas pudessem crescer rápido o suficiente para
+                competir no mercado internacional. Países e regiões com acesso fácil a capital, seja estatal, privado
+                ou estrangeiro, tendem a ter indústrias mais modernas e competitivas.</p>
 
             <h3>Energia</h3>
-            <p>A energia é essencial para impulsionar os processos produtivos na indústria. Fontes tradicionais de
-                energia, como petróleo e carvão, são amplamente utilizadas em fábricas e indústrias ao redor do mundo.
-                No entanto, o aumento da conscientização ambiental tem impulsionado a busca por fontes de energia mais
-                limpas e renováveis, como a energia solar e eólica, que estão sendo cada vez mais adotadas pela
-                indústria.</p>
+            <p>Sem energia disponível, nenhuma fábrica funciona. Petróleo e carvão ainda respondem pela maior parte
+                da energia consumida pela indústria em boa parte do mundo, mas essa matriz vem mudando: a China, por
+                exemplo, é hoje o país que mais instala painéis solares e turbinas eólicas por ano, embora o carvão
+                ainda seja sua principal fonte de energia industrial. A transição para fontes renováveis tende a
+                pesar cada vez mais na hora de decidir onde instalar uma nova fábrica.</p>
 
             <h3>Matéria-Prima</h3>
-            <p>A disponibilidade e o acesso a matérias-primas desempenham um papel crucial na localização e no
-                desenvolvimento das indústrias. Regiões ricas em recursos naturais, como minerais, metais e produtos
-                agrícolas, tendem a atrair investimentos industriais devido à facilidade de acesso a matéria-prima. No
-                entanto, a dependência excessiva de recursos naturais pode levar à exploração descontrolada e à
-                degradação ambiental.</p>
+            <p>Regiões ricas em minerais, metais e produtos agrícolas costumam atrair investimentos industriais
+                justamente pela facilidade de acesso à matéria-prima. O Chile ilustra bem essa vantagem: o país
+                responde por cerca de 24% de toda a produção mundial de cobre, um metal indispensável para fios
+                elétricos, motores e, mais recentemente, carros elétricos e painéis solares. Mas a dependência
+                excessiva de recursos naturais tem um preço: pode levar à exploração descontrolada e à degradação
+                ambiental, além de deixar a economia de um país vulnerável às oscilações de preço desses produtos no
+                mercado internacional.</p>
 
             <h3>Mão de Obra</h3>
-            <p>Os trabalhadores são um dos pilares fundamentais da produção industrial. A disponibilidade de mão de obra
-                qualificada e produtiva influencia diretamente na eficiência e competitividade das indústrias.
-                Investimentos em educação e treinamento são essenciais para desenvolver uma força de trabalho capacitada
-                e adaptável às demandas do mercado.</p>
+            <p>A disponibilidade de mão de obra qualificada, e o custo dela, influencia diretamente onde as indústrias
+                decidem se instalar. Não é à toa que Vietnã e Bangladesh se tornaram destinos preferidos das
+                indústrias têxteis nas últimas décadas: o custo da mão de obra industrial vietnamita é cerca de
+                metade do praticado na China, e Bangladesh está entre os países com a mão de obra industrial mais
+                barata do planeta. Por outro lado, indústrias de alta tecnologia buscam o oposto: mão de obra
+                qualificada, ainda que mais cara, o que explica por que investimentos em educação e treinamento
+                técnico pesam tanto na competitividade de longo prazo de um país.</p>
 
             <h3>Um exemplo brasileiro de vantagem locacional</h3>
             <p>O Brasil ilustra bem como esses fatores de produção se combinam no espaço geográfico. No início do
@@ -479,8 +491,9 @@
                 e Centro-Oeste. O efeito dessas políticas ainda aparece nos dados mais recentes: entre 2010 e 2020,
                 São Paulo perdeu participação no PIB industrial nacional, mesmo continuando a concentrar cerca de
                 28% de toda a produção industrial do país. Um exemplo desse movimento de descentralização é o Porto
-                Digital, parque tecnológico criado em 2000 no Recife, que hoje reúne mais de 400 empresas e cerca de
-                18 mil profissionais de tecnologia, um contraponto à tradicional concentração dos investimentos em
+                Digital, parque tecnológico criado em 2000 no Recife, que fechou 2025 com 541 empresas, mais de 24
+                mil colaboradores e faturamento de R$ 7,4 bilhões, hoje o maior distrito de inovação da América
+                Latina e um contraponto à tradicional concentração dos investimentos em
                 alta tecnologia no eixo Sul-Sudeste do país.</p>
 
             <h3>Resumindo</h3>
@@ -503,6 +516,189 @@
             <hr>
         </div>
 
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 01</p>
+            <h4 class="fontePixel">
+                <b>
+                    Segundo o texto, o que caracteriza a transição do meio natural para o meio técnico?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1a" value="errado" class="radio-duvid">
+                    <label for="p1a" class="card-opcao">
+                        <span>a) O abandono total do uso de recursos naturais pela indústria.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1b" value="correto" class="radio-duvid">
+                    <label for="p1b" class="card-opcao">
+                        <span>b) A crescente substituição de objetos naturais por objetos técnicos e mecanizados no
+                            espaço geográfico.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta1" id="p1c" value="errado" class="radio-duvid">
+                    <label for="p1c" class="card-opcao">
+                        <span>c) A criação de reservas ambientais protegidas em todos os países industrializados.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta1', 'resp1', 'globinho1', 'O meio técnico substitui progressivamente o meio natural conforme a tecnologia avança!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho1" style="display:none" width="64" height="64">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 02</p>
+            <h4 class="fontePixel">
+                <b>
+                    Qual alternativa melhor resume o papel da Divisão Internacional do Trabalho (DIT) na explicação
+                    das diferenças de industrialização entre os países?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2a" value="errado" class="radio-duvid">
+                    <label for="p2a" class="card-opcao">
+                        <span>a) Ela mostra que todos os países se industrializaram ao mesmo tempo e da mesma
+                            forma.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2b" value="correto" class="radio-duvid">
+                    <label for="p2b" class="card-opcao">
+                        <span>b) Ela explica como o acúmulo de capital nas metrópoles coloniais e a permanência das
+                            ex-colônias como fornecedoras de matéria-prima ajudam a explicar a industrialização
+                            desigual pelo mundo.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta2" id="p2c" value="errado" class="radio-duvid">
+                    <label for="p2c" class="card-opcao">
+                        <span>c) Ela mede apenas o volume de comércio entre dois países vizinhos.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta2', 'resp2', 'globinho2', 'A posição de centro ou periferia herdada do período colonial ainda pesa sobre o mapa industrial!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho2" style="display:none" width="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-bloco w3-container w3-padding-24 ">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA 03</p>
+            <h4 class="fontePixel">
+                <b>
+                    Qual é a principal diferença entre a substituição de importações, usada por Brasil, México e
+                    Argentina, e a plataforma de exportação, usada pelos Tigres Asiáticos?
+                </b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="correto" class="radio-duvid">
+                    <label for="p3a" class="card-opcao">
+                        <span>a) A substituição de importações protegia o mercado interno para produzir o que antes
+                            era importado, enquanto a plataforma de exportação atraía empresas estrangeiras para
+                            produzir e exportar.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="errado" class="radio-duvid">
+                    <label for="p3b" class="card-opcao">
+                        <span>b) As duas estratégias são idênticas, mudando apenas o nome usado em cada
+                            continente.</span>
+                    </label>
+                </div>
+
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao">
+                        <span>c) A plataforma de exportação proibia qualquer investimento estrangeiro no país.</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'Duas estratégias diferentes para o mesmo objetivo: construir indústria própria!', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80">
+            </div>
+        </div>
+
+
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, qual estratégia de industrialização, baseada em atrair empresas estrangeiras para
+                produzir e exportar, foi usada pelos Tigres Asiáticos?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a7t7" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a7t7"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a7t7', 'plataforma', 'resp1a7t7', this, 'globinho1a7t7')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a7t7" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, qual política o Brasil, o México e a Argentina adotaram no século XX para proteger o
+                mercado interno e incentivar a produção industrial local?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a7t7" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a7t7"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a7t7', 'substitui', 'resp2a7t7', this, 'globinho2a7t7')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a7t7" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
 
 
         <div class="topico">
@@ -647,7 +843,7 @@
 
 
         <div class="topico">
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno</h2>
 
                 <h3>1. Como o ser humano modificou o meio natural para criar o meio técnico necessário ao
@@ -725,6 +921,11 @@
 
                 <!-- Cards gerados automaticamente pelo JS -->
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
         </div>
 

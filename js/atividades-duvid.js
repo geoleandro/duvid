@@ -23,9 +23,20 @@ function gerarBotoesAtividades() {
     ).join('');
 }
 
+function atualizarContagem(exibindo, total) {
+    const el = document.getElementById('contador');
+    if (!el) return;
+    if (exibindo === total) {
+        el.textContent = `${total} atividade${total !== 1 ? 's' : ''} encontrada${total !== 1 ? 's' : ''}`;
+    } else {
+        el.textContent = `${exibindo} de ${total} atividade${total !== 1 ? 's' : ''} encontrada${total !== 1 ? 's' : ''}`;
+    }
+}
+
 function renderizarCards(lista) {
     const container = document.getElementById('container-atividades');
     container.innerHTML = '';
+    atualizarContagem(lista.length, todasAtividades.length);
 
     if (lista.length === 0) {
         container.innerHTML = `<div class="w3-center w3-padding-64"><p class="w3-large w3-opacity">Nenhuma atividade encontrada.</p></div>`;

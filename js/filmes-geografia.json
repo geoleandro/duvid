@@ -559,5 +559,19 @@
     "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/5CjLq9TC5CalW2U5i085N7rRVYU.jpg",
     "nota": 6.5,
     "posicao": 50
+  },
+  "preco-da-verdade": {
+    "titulo": "O Preço da Verdade",
+    "tipo": "Filme",
+    "tema": "Meio Ambiente",
+    "direcao": "Todd Haynes",
+    "pais": "EUA",
+    "ano": 2019,
+    "duracao": "126 min",
+    "classificacao": "14 anos",
+    "sinopse": "Baseado em fatos reais, acompanha o advogado corporativo Robert Bilott, que processa a gigante química DuPont ao descobrir que a empresa contaminou por décadas o solo e a água de uma cidade do interior dos Estados Unidos com uma substância tóxica usada na fabricação de teflon, expondo os riscos da poluição industrial e o poder das grandes corporações sobre a regulação ambiental.",
+    "imagem": "https://media.themoviedb.org/t/p/w600_and_h900_face/tcld71a8mrMWzEHaX8N6cBwA4S1.jpg",
+    "nota": 7.5,
+    "posicao": 50
   }
 }

@@ -89,6 +89,16 @@ Guia completo em `/docs/GUIA-DE-ESTILO.md`
 
 ## Revisão Completa de Textos — Padrão
 Checklist aplicado a cada "Revisão completa" de aula (`/2ano/Textos2/TextoNN/`, `/1ano/`, `/3ano/`):
+- **Estrutura conceitual dos textos (regra confirmada 30/08)**: daqui em diante, a produção/revisão de conteúdo de cada aula deve seguir este roteiro de 8 perguntas, na ordem, como guia de organização das seções (não precisa virar `<h2>` literal com esse texto, é o fio condutor do conteúdo):
+  1. **O que é?** — definição conceitual do processo/fenômeno central da aula
+  2. **Como funciona?** — explicação do processo, mecanismo
+  3. **Por que acontece?** — causas, agentes e condições
+  4. **Como se manifesta no espaço?** — consequências territoriais
+  5. **Onde podemos observar?** — exemplos brasileiros e mundiais
+  6. **Comparando os casos** — semelhanças e diferenças entre os exemplos
+  7. **Por que isso importa?** — relação com outros processos geográficos
+  8. **Síntese** — retomar o conceito em linguagem simples
+  Usar como checklist ao planejar/revisar a sequência de `<h2>`/`<h3>` de um texto: se a aula pular direto de "o que é" para "exemplos" sem explicar o mecanismo/causas, ou não tiver comparação entre casos, é sinal de lacuna estrutural a preencher.
 - Head técnico: meta description/og tags preenchidas, `texto-estilo.css` + `explicacaoPalavra.css` + `glossario.js` + `texto-painel.js` no `<head>`, título expandido (`Nº ano - Texto NN - Nome do Tema`)
 - Corrigir `{TITULO}` literal na mensagem final de `ProcessarResposta`
 - Bloco "Questões para o caderno" (**máximo de 10 perguntas** em `<h3>`, dentro de `<div class="w3-panel w3-pale-yellow w3-margin">`) reposicionado para depois do P&R (botão "Desafio"/"Atividade") e antes da Transição Final — **nenhum tópico de conteúdo novo pode vir depois dele** (é o último bloco de conteúdo da aula, antes da transição final). Se a revisão adicionar conteúdo novo que mereça uma pergunta, mesclar com uma questão existente (nunca ultrapassar 10)
@@ -108,7 +118,7 @@ Checklist aplicado a cada "Revisão completa" de aula (`/2ano/Textos2/TextoNN/`,
       <hr>
   </div>
   ```
-- 7-12 termos `.termo` (glossário) com `data-palavra`/`data-definicao`
+- 7-12 termos `.termo` (glossário) com `data-palavra`/`data-definicao`. **Regra confirmada (30/08): `data-definicao` com no máximo 120 palavras.** Esse texto alimenta a Ficha de Conceitos (`js/duvid-core.js`, função que popula `#ficha-conceitos`/`#lista-glossario` a partir do próprio `data-definicao` do termo clicado), e as definições estavam saindo longas demais para esse uso. Definição deve ser direta: o essencial do conceito, sem parágrafo explicativo completo — se precisar de mais contexto, isso é conteúdo para o corpo do texto, não para o `data-definicao`
 - `class="borda"` → `class="w3-border w3-round-large w3-padding"` (padrão dark-mode-aware)
 - `w3-grayscale`/`w3-card-4` → `w3-panel`/`w3-sand`/`w3-pale-yellow` (paleta Clean Pixel). Isso vale também para qualquer `<div>` de fundo colorido fora da paleta (`w3-pale-blue`, `w3-pale-green`, `w3-light-blue`, etc.): remover o wrapper por completo (não recolorir), mantendo só o conteúdo dentro do `.topico`
 - Checagem factual de datas/números/nomes via WebSearch antes de confirmar
@@ -120,7 +130,7 @@ Checklist aplicado a cada "Revisão completa" de aula (`/2ano/Textos2/TextoNN/`,
 - Validar balanço de divs (`grep -c '<div\b'` vs `</div>`) após cada edição
 - Verificar ao vivo no navegador (Claude in Chrome): revelar todos os `.topico`, checar modo claro e escuro, testar elementos interativos
 - **Sempre fazer o gancho com a aula seguinte**: no parágrafo de fechamento do conteúdo (antes da Ficha de Conceitos/Questões), incluir uma frase de transição citando o tema da próxima aula do módulo (conferir em `js/aulas-Nano.json` pelo id seguinte), para dar continuidade narrativa entre os textos
-- **Sugestões de Livros** (padrão a partir do Texto26): bloco "📚 Sugestões de Livros" logo depois de "Referências Bibliográficas" dentro de `#final-da-aula`, com 2-3 obras de literatura (romance, conto) que dialoguem com o tema da aula. Mecanismo: cadastrar os livros em `js/livros.json` (chave → autor, titulo, ano, cor, tag, relacao — o campo `relacao` explica em 1-2 frases por que aquele livro conversa com o conteúdo da aula) e referenciar as chaves no array `livros` da aula em `js/aulas-Nano.json`. JS (`carregarLivros`/`filtrarLivrosAula`/`renderizarCardLivro`/`injetarLivrosAula`) já implementado em `estilos/jstextos-padrao.js`, espelhando o padrão de bibliografias/links. HTML necessário no `#final-da-aula` de cada texto: `<div class="w3-container w3-padding-64 secao-livros-sugeridos"><h3>📚 Sugestões de Livros</h3><div id="livros-gerados"></div></div>` (a seção se auto-oculta via JS se a aula não tiver `livros` cadastrado). **Regra importante: antes de criar uma nova entrada em `js/livros.json`, sempre checar se o livro (autor+título) já existe no arquivo** (`grep`/busca por autor ou título) — se já existir, reaproveitar a chave existente em vez de duplicar a entrada com uma chave nova. **Capa (campo `capa`)**: ao cadastrar um livro novo, sempre buscar a URL da imagem de capa na página do livro na Amazon (via Claude in Chrome: `navigate` até `amazon.com.br/dp/{ISBN}` e ler `document.getElementById('landingImage').src`) e salvar em `capa`. Nota: esse campo ainda não é renderizado no site (`renderizarCardLivro()` em `estilos/jstextos-padrao.js` não usa `capa` hoje, então nenhuma capa aparece nos cards de nenhum texto) — mesmo assim, continuar preenchendo em toda entrada nova para já deixar o dado pronto quando a exibição for implementada.
+- **Sugestões de Livros** (padrão a partir do Texto26): bloco "📚 Sugestões de Livros" logo depois de "Referências Bibliográficas" dentro de `#final-da-aula`, com **sempre 3 obras** de literatura (romance, conto) que dialoguem com o tema da aula (regra confirmada 02/09 — não 2, sempre 3). Mecanismo: cadastrar os livros em `js/livros.json` (chave → autor, titulo, ano, cor, tag, relacao — o campo `relacao` explica em 1-2 frases por que aquele livro conversa com o conteúdo da aula, **curto: mirar em 40-60 palavras, nunca passar de 120** — 120 é o teto absoluto, não a meta; regra confirmada 02/09, reforçada no mesmo dia depois de feedback de que mesmo textos dentro do limite de 120 ainda pareciam grandes demais nos cards) e referenciar as chaves no array `livros` da aula em `js/aulas-Nano.json`. JS (`carregarLivros`/`filtrarLivrosAula`/`renderizarCardLivro`/`injetarLivrosAula`) já implementado em `estilos/jstextos-padrao.js`, espelhando o padrão de bibliografias/links. HTML necessário no `#final-da-aula` de cada texto: `<div class="w3-container w3-padding-64 secao-livros-sugeridos"><h3>📚 Sugestões de Livros</h3><div id="livros-gerados"></div></div>` (a seção se auto-oculta via JS se a aula não tiver `livros` cadastrado). **Regra importante: antes de criar uma nova entrada em `js/livros.json`, sempre checar se o livro (autor+título) já existe no arquivo** (`grep`/busca por autor ou título) — se já existir, reaproveitar a chave existente em vez de duplicar a entrada com uma chave nova. **Capa (campo `capa`)**: ao cadastrar um livro novo, sempre buscar a URL da imagem de capa na página do livro na Amazon (via Claude in Chrome: `navigate` até `amazon.com.br/dp/{ISBN}` e ler `document.getElementById('landingImage').src`) e salvar em `capa`. Nota: esse campo ainda não é renderizado no site (`renderizarCardLivro()` em `estilos/jstextos-padrao.js` não usa `capa` hoje, então nenhuma capa aparece nos cards de nenhum texto) — mesmo assim, continuar preenchendo em toda entrada nova para já deixar o dado pronto quando a exibição for implementada.
 
 ## Notion
 Roadmap: https://app.notion.com/p/4773afa5a43947e2988d7bce25f6a2e6
@@ -145,6 +155,12 @@ Geração via IA (imagem) ou HTML/CSS puro pixel-art.
 Usos planejados no Duvid (ver detalhes na seção de ideias abaixo).
 
 ## Backlog — Features Futuras (adicionar ao Notion)
+
+### 💬 Personagem-fala ao clicar em palavra do glossário
+- Quando aluno clica num `.termo` no texto, além do tooltip de definição, aparece um balão de Jéssica ou Globinho com pergunta provocativa ou exemplo geográfico sobre aquele conceito
+- Base técnica já pronta: sistema `personagem-fala` (CSS + typewriter em `jstextos-padrao.js`)
+- Implementação: capturar clique no `.termo`, injetar dinamicamente `personagem-fala` com `data-text` vindo do `data-definicao` ou de um campo extra `data-personagem`
+- Pode ser Jéssica (pergunta) ou Globinho (exemplo) dependendo do tipo de conceito
 
 ### 🤝 Card de Ranking — versão colaborativa (mockup aprovado)
 - **Meta da Turma**: barra de progresso coletivo no topo do card

@@ -191,6 +191,16 @@ body.dark-mode .atv-busca-input:focus {
 }
 body.dark-mode .atv-busca-icon { color: #666; }
 
+/* ── Contador de resultados ─────────────────────────────────────── */
+#contador {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .75rem;
+    color: #aaa;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+body.dark-mode #contador { color: #666; }
+
 body.dark-mode .btn-filtro {
     background: #252525;
     border-color: rgba(255,255,255,.15);

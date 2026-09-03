@@ -1,15 +1,30 @@
 {
     "ok": true,
-    "gerado_em": "2026-08-29T18:18:37-03:00",
+    "gerado_em": "2026-09-02T08:15:32-03:00",
     "total": 6,
     "noticias": [
         {
-            "titulo": "Venezuela confirma acordo com EUA sobre petróleo",
-            "resumo": "Delcy Rodriguez afirmou que a iniciativa é resultado do fortalecimento das relações bilaterais entre os países",
-            "link": "https://www.poder360.com.br/poder-internacional/venezuela-confirma-acordo-com-eua-sobre-petroleo/",
+            "titulo": "Augusto Cury chega a 3º lugar: quem está à frente na intenção de voto para presidente no Agregador de Pesquisas da BBC",
+            "resumo": "Acompanhe as últimas estimativas de intenção de voto para Lula x Flávio na eleição presidencial de 2026 reunidas no agregador de pesquisas e…",
+            "link": "https://www.bbc.com/portuguese/articles/czd2prld130o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1788347596,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Espaço Rural",
+                "emoji": "🌾",
+                "cor": "#558b2f"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Bolsas asiáticas caem com petróleo perto de US$ 97",
+            "resumo": "Retomada das hostilidades entre EUA e Irã no domingo (30.ago) pressionou o preço da principal commodity do planeta",
+            "link": "https://www.poder360.com.br/poder-economia/bolsas-asiaticas-caem-com-petroleo-perto-de-us-97/",
             "origem": "Poder360",
             "cor": "#6a1b9a",
-            "ts": 1788037466,
+            "ts": 1788344638,
             "data_estimada": false,
             "categoria": {
                 "label": "Economia",
@@ -19,42 +34,12 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Ataque de drone russo deixa 37 mortos em Kiev",
-            "resumo": "Explosão em depósito de munições provocou incêndios; Zelensky promete punição por \"negligência\"",
-            "link": "https://www.poder360.com.br/poder-internacional/ataque-de-drone-russo-deixa-37-mortos-em-kiev/",
-            "origem": "Poder360",
-            "cor": "#6a1b9a",
-            "ts": 1788034635,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Tecnologia",
-                "emoji": "💻",
-                "cor": "#37474f"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Como a guerra do Irã reacendeu a disputa pelo Canal do Panamá",
-            "resumo": "A hidrovia artificial que liga os oceanos Atlântico e Pacífico tornou-se o mais recente foco de disputa entre Estados Unidos e China.",
-            "link": "https://www.bbc.com/portuguese/articles/c74e88e9kpeo?at_medium=RSS&at_campaign=rss",
-            "origem": "BBC Brasil",
-            "cor": "#b71c1c",
-            "ts": 1788029473,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Geopolítica",
-                "emoji": "🌐",
-                "cor": "#1565c0"
-            },
-            "categoria_curada": false
-        },
-        {
-            "titulo": "Avalanche no Himalaia: por que resgate após deslizamento é muito mais complexo do que em terremotos?",
-            "resumo": "Por que resgate no Nepal e no Tibete é mais dificil do que em Brumadinho? Entenda\nDias após a avalanche que deixou centenas de mortos e desa…",
-            "link": "https://g1.globo.com/mundo/noticia/2026/08/29/72-horas-x-15-minutos-por-que-resgate-apos-deslizamento-e-muito-mais-complexo-do-que-em-terremotos.ghtml",
+            "titulo": "Número de mortos em enchentes no Nepal passa de 1.100; turistas desaparecidos conseguem contato",
+            "resumo": "Passa de mil o nº de mortos pela avalanche no Nepal e no Tibete\nAlguns turistas que estavam desaparecidos após as enchentes que atingiram o …",
+            "link": "https://g1.globo.com/mundo/noticia/2026/09/02/numero-de-mortos-em-enchentes-no-nepal-passa-de-1100-turistas-desaparecidos-conseguem-contato.ghtml",
             "origem": "G1 Mundo",
             "cor": "#e53935",
-            "ts": 1788026711,
+            "ts": 1788343807,
             "data_estimada": false,
             "categoria": {
                 "label": "Clima",
@@ -64,32 +49,47 @@
             "categoria_curada": false
         },
         {
-            "titulo": "Mega-Sena sorteia prêmio acumulado de R$ 30 milhões neste domingo",
-            "resumo": "A Mega-Sena sorteia neste domingo (30) prêmio estimado em R$ 30 milhões. As seis dezenas do concurso 3.051 serão sorteadas a partir das 11h …",
-            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-08/mega-sena-sorteia-premio-acumulado-de-r-30-milhoes-neste-domingo",
+            "titulo": "Moraes x Mendonça: os bastidores da 'guerra civil' entre ministros do STF",
+            "resumo": "Decisão de Mendonça de retirar sigilo de relatório da PF sobre mensagens de banqueiro Daniel Vorcaro supostamente enviadas a Alexandre de Mo…",
+            "link": "https://www.bbc.com/portuguese/articles/c305mmn2318o?at_medium=RSS&at_campaign=rss",
+            "origem": "BBC Brasil",
+            "cor": "#b71c1c",
+            "ts": 1788341450,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Geopolítica",
+                "emoji": "🌐",
+                "cor": "#1565c0"
+            },
+            "categoria_curada": false
+        },
+        {
+            "titulo": "Celulares chineses com câmeras de elite e preço de até 20 mil, Jovi e Oppo valem a pena? g1 testou",
+            "resumo": "Jovi X300 Ultra (à esquerda) e Oppo Find X9 Pro (à direita)\nHenrique Martin/g1\nAs fabricantes chinesas Jovi e Oppo lançaram recentemente seu…",
+            "link": "https://g1.globo.com/guia/guia-de-compras/tecnologia/celulares/celulares-chineses-jovi-x300-ultra-oppo-find-x9-pro-cameras-g1-testou.ghtml",
+            "origem": "G1 Tecnologia",
+            "cor": "#37474f",
+            "ts": 1788328849,
+            "data_estimada": false,
+            "categoria": {
+                "label": "Tecnologia",
+                "emoji": "💻",
+                "cor": "#37474f"
+            },
+            "categoria_curada": true
+        },
+        {
+            "titulo": "Mega-Sena acumula para R$ 41 milhões; confira os números sorteados",
+            "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.052 da Mega-Sena, realizado nesta terça-feira (1º). O prêmio acumulou e está estimado…",
+            "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-09/mega-sena-acumula-para-r-41-milhoes-confira-os-numeros-sorteados",
             "origem": "Ag. Brasil Geral",
             "cor": "#f9a825",
-            "ts": 1788017520,
+            "ts": 1788309000,
             "data_estimada": false,
             "categoria": {
                 "label": "Brasil",
                 "emoji": "🇧🇷",
                 "cor": "#f9a825"
-            },
-            "categoria_curada": true
-        },
-        {
-            "titulo": "Trump mira grandes frigoríficos em meio à alta de preços da carne nos EUA; JBS pode ser afetada",
-            "resumo": "Trump fala com a imprensa na Casa Branca após assinar ordem executiva renomeando o Lago Ontário como Lago América\nEvan Vucci/Reuters\nO presi…",
-            "link": "https://g1.globo.com/economia/agronegocios/noticia/2026/08/28/trump-promete-ordem-judicial-processamento-alimentos.ghtml",
-            "origem": "G1 Agronegócios",
-            "cor": "#33691e",
-            "ts": 1787933648,
-            "data_estimada": false,
-            "categoria": {
-                "label": "Espaço Rural",
-                "emoji": "🌾",
-                "cor": "#558b2f"
             },
             "categoria_curada": true
         }

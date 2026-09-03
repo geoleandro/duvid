@@ -44,7 +44,7 @@
     <script src="/js/glossario.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 25 - População IV: Migrações</title>
 
 </head>
 
@@ -95,7 +95,7 @@
 
             <h2>Introdução</h2>
 
-            <p><span class="primeiraLetra">O</span> Brasil é um país de migrantes. Ao longo do século XX, dezenas de milhões de brasileiros deixaram o campo em direção às cidades. Só na década de 1950, mais de 7 milhões de pessoas saíram do campo. Entre 1960 e 2000, o país saiu de 45% de população urbana para mais de 80%. Hoje, segundo o Censo 2022 do IBGE, 87,7% dos brasileiros vivem em cidades.</p>
+            <p><span class="primeiraLetra">O</span> Brasil é um país de migrantes. Ao longo do século XX, dezenas de milhões de brasileiros deixaram o campo em direção às cidades. Só na década de 1950, mais de 7 milhões de pessoas saíram do campo. Entre 1960 e 2000, o país saiu de 45% de população urbana para mais de 80%. Hoje, segundo o Censo 2022 do IBGE, 87,4% dos brasileiros (177,5 milhões de pessoas, de um total de 203,1 milhões) vivem em cidades, embora essa urbanização não seja uniforme: chega a 94,4% no Sudeste, mas fica em 77,6% no Nordeste e 78,5% no Norte.</p>
 
             <p>Essa transformação não foi suave. Foi o êxodo rural em massa que criou as favelas de São Paulo e Rio de Janeiro, que encheu as periferias das metrópoles nordestinas e que esvaziou municípios inteiros do interior do Nordeste e do Sudeste. Entender a migração interna é entender a própria história do Brasil urbano. Essa história não parou: ela apenas mudou de direção e de ritmo nas últimas décadas.</p>
 
@@ -186,7 +186,7 @@
 
             <h3>Consequências nas cidades</h3>
 
-            <p>A chegada em massa de migrantes nas metrópoles não foi acompanhada de infraestrutura suficiente. O resultado foram as <strong>favelas</strong> e as <strong>periferias precárias</strong>: sem planejamento, sem saneamento, sem transporte de qualidade. A explosão demográfica das metrópoles gerou o que os geógrafos chamam de <span class="termo" data-palavra="Metropolização" data-definicao="Processo de crescimento acelerado das cidades que se tornam metrópoles: grandes aglomerações urbanas com população acima de 1 milhão de habitantes, economias complexas, áreas de influência regionais ou nacionais e grande atração de migrantes. O Brasil passou por uma metropolização intensa entre 1950 e 2000, com São Paulo e Rio de Janeiro tornando-se megacidades.">metropolização</span>: o crescimento acelerado das grandes cidades como polos de atração regional e nacional. Esse legado ainda pesa hoje: segundo a Fundação João Pinheiro, o déficit habitacional brasileiro chegou a cerca de 6 milhões de moradias em 2022, concentrado sobretudo nas famílias de baixa renda das regiões metropolitanas que mais receberam migrantes ao longo do século XX.</p>
+            <p>A chegada em massa de migrantes nas metrópoles não foi acompanhada de infraestrutura suficiente. O resultado foram as <strong>favelas</strong> e as <strong>periferias precárias</strong>: sem planejamento, sem saneamento, sem transporte de qualidade. A explosão demográfica das metrópoles gerou o que os geógrafos chamam de <span class="termo" data-palavra="Metropolização" data-definicao="Processo de crescimento acelerado das cidades que se tornam metrópoles: grandes aglomerações urbanas com população acima de 1 milhão de habitantes, economias complexas, áreas de influência regionais ou nacionais e grande atração de migrantes. O Brasil passou por uma metropolização intensa entre 1950 e 2000, com São Paulo e Rio de Janeiro tornando-se megacidades.">metropolização</span>: o crescimento acelerado das grandes cidades como polos de atração regional e nacional. Esse legado ainda pesa hoje: segundo a Fundação João Pinheiro, o déficit habitacional brasileiro chegou a 5,77 milhões de domicílios em 2024, o menor patamar da série histórica após dois anos seguidos de queda, mas ainda concentrado sobretudo nas famílias de baixa renda das regiões metropolitanas que mais receberam migrantes ao longo do século XX. A maior parte desse déficit hoje não é mais "falta de casas" no sentido literal, e sim o chamado ônus excessivo com aluguel: famílias urbanas de baixa renda que gastam mais de 30% do que ganham só para pagar aluguel.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -259,7 +259,7 @@
 
             <p>Por isso, para o Censo 2022, o IBGE passou a usar também os conceitos de <span class="termo" data-palavra="Arranjo Populacional" data-definicao="Conjunto de dois ou mais municípios brasileiros com forte integração populacional, decorrente do fluxo intenso de pessoas entre eles, sobretudo entre locais de moradia e de trabalho. É um dos conceitos usados pelo IBGE no Censo 2022 para entender a dinâmica urbana brasileira além da simples divisão entre população urbana e rural.">arranjo populacional</span> e <span class="termo" data-palavra="Concentração Urbana" data-definicao="Categoria usada pelo IBGE quando a população de um arranjo populacional ou de um município isolado ultrapassa 100 mil habitantes. Segundo o Censo 2022, as concentrações urbanas abrigavam 61% da população brasileira, mais de 124 milhões de pessoas, enquanto municípios com menos de 10 mil habitantes (45% do total de municípios do país) reuniam apenas 6,3% da população.">concentração urbana</span>, que ajudam a enxergar a dinâmica real da população sem depender só da divisão entre "urbano" e "rural" de cada município isolado. O resultado do Censo 2022 mostra um contraste grande: 45% dos municípios brasileiros têm menos de 10 mil habitantes, mas juntos reúnem apenas 6,3% da população do país. Do outro lado, as concentrações urbanas abrigam 61% da população brasileira, mais de 124 milhões de pessoas.</p>
 
-            <p>Essa hierarquia entre cidades também ajuda a explicar os próprios fluxos migratórios estudados nesta aula. Segundo o IBGE, o Brasil tem 862 cidades que funcionam como centros de comando regional, cuja influência extrapola os limites do próprio território, mas apenas 15 delas são classificadas como metrópoles: grandes centros urbanos cuja influência se estende por vastas áreas do país, caso de São Paulo, Rio de Janeiro e Brasília. É justamente por concentrarem empregos, serviços e oportunidades que essas metrópoles historicamente atraíram (e ainda atraem, embora com menos intensidade do que no século XX) os maiores fluxos migratórios internos do Brasil.</p>
+            <p>Essa hierarquia entre cidades também ajuda a explicar os próprios fluxos migratórios estudados nesta aula. Segundo o IBGE, o Brasil tem 862 cidades que funcionam como centros de comando regional, cuja influência extrapola os limites do próprio território, mas apenas 15 delas são classificadas como metrópoles: grandes centros urbanos cuja influência se estende por vastas áreas do país, caso de São Paulo, Rio de Janeiro e Brasília. É justamente por concentrarem empregos, serviços e oportunidades que essas metrópoles historicamente atraíram (e ainda atraem, embora com menos intensidade do que no século XX) os maiores fluxos migratórios internos do Brasil. Essa hierarquia urbana ajuda a explicar, por exemplo, por que uma cidade média como Ribeirão Preto (SP) exerce forte atração sobre os municípios ao seu redor, enquanto um centro de comando regional menor, como Juazeiro do Norte (CE), organiza os fluxos de uma área bem mais restrita: quanto maior o nível hierárquico de uma cidade, maior costuma ser o raio geográfico de sua influência sobre os fluxos migratórios, o comércio e os serviços de toda a região ao seu redor.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -308,15 +308,17 @@
 
             <p>O mapa da migração interna brasileira mudou bastante nas últimas décadas. O fluxo Nordeste-Sudeste ainda existe, mas não é mais dominante como nos anos 1970. Dados de 2013 do IBGE mostram que o Sudeste continua sendo o principal destino não só de nordestinos (67,5% dos que migram do Nordeste vão para lá), mas também da população que deixa o Centro-Oeste (quase metade) e da maioria das pessoas nascidas em outros países.</p>
 
-            <p>Mas há uma reviravolta importante: a própria Região Metropolitana de São Paulo, historicamente o maior destino migratório do Brasil, registrou <strong>êxodo migratório</strong> entre 2000 e 2010, ou seja, mais gente saiu de lá do que chegou. O custo de vida elevado, o trânsito, a violência urbana e a busca por qualidade de vida levaram parte da população a deixar a metrópole paulista rumo a cidades menores.</p>
+            <p>Mas há uma reviravolta importante, confirmada pelos dados do Censo 2022 divulgados em 2025: entre 2017 e 2022, os estados de São Paulo e do Rio de Janeiro tiveram <strong>saldo migratório negativo</strong> pela primeira vez desde que o IBGE começou a fazer esse tipo de comparação, em 1991, ou seja, mais gente saiu desses estados do que entrou neles. São Paulo recebeu 736,4 mil migrantes no período, mas 826 mil pessoas o deixaram, um saldo negativo de 89,6 mil. O Rio de Janeiro teve resultado parecido: 167,2 mil pessoas chegaram, contra 332,6 mil que saíram, saldo negativo de 165,4 mil. O custo de vida elevado, o trânsito, a violência urbana e a busca por qualidade de vida levaram parte da população a deixar essas duas grandes metrópoles rumo a cidades menores, sem que isso signifique que São Paulo ou o Rio estejam "esvaziando": o crescimento populacional segue positivo, só que puxado mais pelos nascimentos do que pela chegada de migrantes.</p>
 
-            <p>Esse movimento se conecta a outro fenômeno documentado entre 2000 e 2022: o crescimento das <strong>cidades médias</strong> (entre 100 mil e 500 mil habitantes), que passou a ser muito mais vigoroso do que o crescimento das grandes metrópoles e aglomerados metropolitanos. Esse fenômeno é particularmente intenso no Centro-Oeste e, em menor grau, em municípios do Matopiba, impulsionado pela expansão do agronegócio. Já perto das grandes metrópoles do Sudeste, o crescimento das cidades médias vizinhas está ligado ao aumento do preço dos imóveis e dos serviços nas capitais, que empurra parte da população para municípios próximos com boa infraestrutura urbana, mas custo de vida menor.</p>
+            <p>Esse movimento se conecta a outro fenômeno confirmado pelo Censo 2022: o crescimento das <strong>cidades médias</strong> (entre 100 mil e 500 mil habitantes). Dos mais de 12 milhões de novos habitantes que o Brasil ganhou entre 2010 e 2022, 8,3 milhões, ou seja, 67,5% do crescimento total, foram parar justamente em cidades dessa faixa de tamanho, que passaram de 25,4% para quase 28% da população brasileira no período. Já as cidades grandes, com mais de 500 mil habitantes, tiveram participação relativa estável, passando de 29,3% para 29% do total, mesmo tendo ganhado 3 milhões de habitantes em números absolutos: cresceram, mas num ritmo mais lento do que as cidades médias. Esse fenômeno é particularmente intenso no Centro-Oeste e, em menor grau, em municípios do Matopiba, impulsionado pela expansão do agronegócio. Já perto das grandes metrópoles do Sudeste, o crescimento das cidades médias vizinhas está ligado ao aumento do preço dos imóveis e dos serviços nas capitais, que empurra parte da população para municípios próximos com boa infraestrutura urbana, mas custo de vida menor.</p>
 
             <p>O <strong>Centro-Oeste</strong> se tornou um polo de atração importante desde os anos 1980, com a expansão do agronegócio no Cerrado. Estados como Mato Grosso, Goiás e o Distrito Federal absorveram fluxos significativos de migrantes do Sul, do Sudeste e do Nordeste.</p>
 
-            <p>A <strong>Amazônia Legal</strong>, especialmente o Pará e Rondônia, também foi destino de fluxos migratórios ligados à colonização agrícola, ao extrativismo e a grandes obras de infraestrutura como a Hidrelétrica de Belo Monte. Esses fluxos geraram conflitos fundiários e pressões sobre a floresta.</p>
+            <p>Vale registrar que a migração interna não é o único movimento populacional em curso no Brasil: o Censo 2022 mostrou que a imigração internacional também voltou a crescer, revertendo uma tendência de queda que vinha desde 1960. O número de estrangeiros e brasileiros naturalizados vivendo no país saltou de 592 mil em 2010 para 1 milhão em 2022, alta de 70,3%, puxado sobretudo pela chegada de venezuelanos (272 mil), que impulsionaram o crescimento da população latino-americana no Brasil de 183 mil para 646 mil pessoas no mesmo período. É um lembrete de que os fluxos internos estudados nesta aula fazem parte de um quadro migratório mais amplo, que inclui também quem chega de fora do país.</p>
 
-            <p>O fenômeno mais recente documentado pelo Censo 2022 é o <strong>retorno ao Nordeste</strong>. O Nordeste, historicamente exportador de migrantes, passou a receber de volta parte dessas populações: nordestinos aposentados que retornam com a renda da previdência, jovens que voltam após a pandemia, e um crescimento do setor de serviços em cidades nordestinas como Fortaleza, Recife e Salvador que absorve parte da população. O IBGE registrou que o Nordeste perdeu mais de 1 milhão de habitantes para outras regiões entre 2010 e 2022, mas também recebeu fluxos de retorno expressivos.</p>
+            <p>A <strong>Amazônia Legal</strong>, especialmente o Pará e Rondônia, também foi destino de fluxos migratórios ligados à colonização agrícola, ao extrativismo e a grandes obras de infraestrutura como a Hidrelétrica de Belo Monte. Rondônia foi o caso mais extremo: incentivada por políticas públicas de colonização a partir dos anos 1970, a migração para o estado teve seu maior pico nos anos 1980, com saldos migratórios líquidos de 100 mil a 300 mil pessoas por ano em alguns períodos. O resultado ainda é visível hoje: das pessoas que vivem em Rondônia, 648 mil nasceram em outro estado, sendo 25% vindas de outros estados da própria Amazônia e 23% do Paraná, reflexo direto das frentes pioneiras de colonização agrícola que também levaram paranaenses para o Centro-Oeste na mesma época. O Pará, por sua vez, é hoje o estado mais populoso da Amazônia Legal, com 7,5 milhões de habitantes, resultado tanto da migração quanto de taxas de fecundidade historicamente mais altas do que a média nacional. Esses fluxos geraram conflitos fundiários e pressões sobre a floresta que seguem entre os principais desafios ambientais do país.</p>
+
+            <p>O fenômeno mais recente documentado pelo Censo 2022 é o <strong>retorno ao Nordeste</strong>. O Nordeste, historicamente exportador de migrantes, continua tendo saldo migratório negativo: entre 2017 e 2022, a região recebeu cerca de 746 mil pessoas vindas de outras regiões, mas perdeu 995 mil para fora, um saldo negativo de aproximadamente 249 mil pessoas. O detalhe importante é a tendência: esse saldo negativo era de 701,1 mil pessoas entre 2005 e 2010, ou seja, caiu para menos de um terço do que era quinze anos antes, um sinal claro de que a saída de nordestinos perdeu força e o retorno ganhou peso. Ainda hoje, 54,2% dos 19,2 milhões de brasileiros que vivem fora da região onde nasceram são naturais do Nordeste, e 65,5% deles moram no Sudeste, mas o ritmo de saída, impulsionado por fatores como o aposentado que retorna com a renda da previdência, o jovem que volta após a pandemia e o crescimento do setor de serviços em cidades como Fortaleza, Recife e Salvador, vem diminuindo de forma consistente.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -336,7 +338,59 @@
 
             <p><strong>Transumância:</strong> Movimento sazonal e cíclico de pastores e rebanhos, praticado no Nordeste semiárido e no Sul. Difere do êxodo rural por não ser definitivo.</p>
 
-            <p><strong>Fluxos atuais:</strong> A Região Metropolitana de São Paulo já teve êxodo migratório (2000-2010); crescimento acelerado das cidades médias; migração para o Centro-Oeste (agronegócio) e Amazônia (colonização); e crescimento do retorno ao Nordeste documentado pelo Censo 2022.</p>
+            <p><strong>Fluxos atuais:</strong> São Paulo e Rio de Janeiro tiveram saldo migratório negativo entre 2017 e 2022, pela primeira vez desde 1991; crescimento acelerado das cidades médias; migração para o Centro-Oeste (agronegócio) e Amazônia (colonização); e queda acentuada no saldo negativo do Nordeste (de 701,1 mil para 249 mil entre os períodos 2005-2010 e 2017-2022), sinal do crescimento do retorno documentado pelo Censo 2022.</p>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11B: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, por que o critério brasileiro de "urbano" pode superestimar o tamanho real da população urbana do país?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a25" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a25"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a25', 'sede', 'resp1a25', this, 'globinho1a25')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a25" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, o que diferencia a transumância do êxodo rural?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a25" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a25"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a25', 'clica', 'resp2a25', this, 'globinho2a25')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a25" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 11C: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots25" src="inforesumots25.webp"
+                    alt="Infográfico resumo População IV - migrações internas, êxodo rural e transumância" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -366,13 +420,13 @@
                 <span class="primeiraLetra">P:</span>
                 <strong>Por que tanta gente volta para o Nordeste se ele era tão pobre?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> Vários fatores explicam esse retorno. Primeiro, o próprio Nordeste mudou: programas como o Bolsa Família, a expansão do crédito rural, a universalização da previdência rural e o crescimento de cidades médias como Campina Grande, Juazeiro do Norte e Petrolina melhoraram as condições locais. Segundo, o custo de vida em São Paulo se tornou proibitivo para aposentados que recebem o mínimo. Terceiro, após a pandemia de 2020, muitos perderam empregos informais nas metrópoles e retornaram sem perspectiva de recolocação rápida. O retorno ao Nordeste não é necessariamente sinal de fracasso: em muitos casos, é uma escolha racional de quem tem renda fixa e prefere viver onde o dinheiro rende mais.</p>
+            <p><span class="primeiraLetra">R:</span> Vários fatores explicam esse movimento. Primeiro, o próprio Nordeste mudou: programas como o Bolsa Família, a expansão do crédito rural, a universalização da previdência rural e o crescimento de cidades médias como Campina Grande, Juazeiro do Norte e Petrolina melhoraram as condições locais. Segundo, o custo de vida nas metrópoles do Sudeste se tornou proibitivo para aposentados que recebem o mínimo. Terceiro, após a pandemia de 2020, muitos perderam empregos informais nas metrópoles e retornaram sem perspectiva de recolocação rápida. É importante notar que o Nordeste, mesmo com esse retorno mais forte, ainda tem saldo migratório levemente negativo, cerca de 249 mil pessoas a menos entre 2017 e 2022, mas esse número é bem menor do que os 701 mil registrados entre 2005 e 2010, o que mostra a tendência: o Nordeste continua perdendo um pouco mais de gente do que ganha, mas cada vez menos. O retorno não é necessariamente sinal de fracasso: em muitos casos, é uma escolha racional de quem tem renda fixa e prefere viver onde o dinheiro rende mais.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
                 <strong>Como assim São Paulo "perdeu" população para outras cidades? Ela não é a maior metrópole do Brasil?</strong>
             </p>
-            <p><span class="primeiraLetra">R:</span> As duas coisas são verdadeiras ao mesmo tempo. São Paulo continua sendo a maior metrópole do Brasil em população absoluta, mas entre 2000 e 2010 mais gente saiu da Região Metropolitana de São Paulo do que entrou nela: um saldo migratório negativo, chamado de êxodo migratório. Isso não significa que São Paulo esteja "esvaziando": o crescimento populacional da cidade continua positivo, só que puxado mais pelos próprios nascimentos do que pela chegada de migrantes. Quem sai de São Paulo, em geral, vai para cidades médias vizinhas, fugindo do custo de vida alto, do trânsito e da violência urbana, mas sem se afastar demais da região metropolitana.</p>
+            <p><span class="primeiraLetra">R:</span> As duas coisas são verdadeiras ao mesmo tempo. São Paulo continua sendo o estado mais populoso do Brasil em números absolutos, mas entre 2017 e 2022 mais gente saiu do estado (826 mil pessoas) do que entrou nele (736,4 mil), um saldo migratório negativo de 89,6 mil pessoas, o primeiro desde que o IBGE passou a medir esse indicador, em 1991. Isso não significa que São Paulo esteja "esvaziando": o crescimento populacional do estado continua positivo, só que puxado mais pelos próprios nascimentos do que pela chegada de migrantes. Quem sai de São Paulo, em geral, vai para cidades médias vizinhas, fugindo do custo de vida alto, do trânsito e da violência urbana, mas sem se afastar demais da região metropolitana.</p>
 
             <p class="w3-border w3-round-large w3-padding">
                 <span class="primeiraLetra">P:</span>
@@ -415,7 +469,9 @@
 
             <p>Geógrafos apontam, porém, que esse fenômeno costuma ser exagerado pela mídia. Em muitos casos, o que se chama de êxodo urbano é, na verdade, a aquisição de uma segunda residência por uma pequena fração da elite econômica, ou a mudança de trabalhadores com renda elevada e estabilidade no emprego, muitas vezes em regime de trabalho remoto, para cidades do interior, onde reproduzem, em condomínios fechados e bairros planejados, o mesmo padrão de vida das metrópoles.</p>
 
-            <p>Essa dinâmica é bem diferente do êxodo rural do século XX, que foi um movimento de massa envolvendo milhões de trabalhadores pobres expulsos do campo pela seca, pela concentração fundiária e pela mecanização agrícola. O êxodo urbano contemporâneo, ao contrário, é um deslocamento seletivo e voluntário, possibilitado por privilégios econômicos: só migra quem tem renda suficiente para sustentar essa escolha, o que o torna um fenômeno de escala muito menor do que a expressão sugere. É bem diferente, inclusive, do êxodo migratório real e mensurável que a Região Metropolitana de São Paulo registrou entre 2000 e 2010, puxado majoritariamente pelo crescimento das cidades médias vizinhas, não por uma "fuga" romantizada da cidade grande.</p>
+            <p>Essa dinâmica é bem diferente do êxodo rural do século XX, que foi um movimento de massa envolvendo milhões de trabalhadores pobres expulsos do campo pela seca, pela concentração fundiária e pela mecanização agrícola. O êxodo urbano contemporâneo, ao contrário, é um deslocamento seletivo e voluntário, possibilitado por privilégios econômicos: só migra quem tem renda suficiente para sustentar essa escolha, o que o torna um fenômeno de escala muito menor do que a expressão sugere. É bem diferente, inclusive, do saldo migratório negativo real e mensurável que São Paulo e o Rio de Janeiro registraram entre 2017 e 2022, puxado majoritariamente pelo crescimento das cidades médias vizinhas, não por uma "fuga" romantizada da cidade grande.</p>
+
+            <p>Com isso, fechamos o bloco de aulas sobre população: taxas demográficas, transição demográfica, estrutura etária, atividades econômicas e, agora, migrações. Na próxima aula, vamos revisar tudo o que foi estudado desde o início deste módulo, reunindo os principais conceitos e dados das aulas 20 a 25 antes de seguirmos adiante.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -428,27 +484,25 @@
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
-                <h3>1. O que é migração interna? Cite dois exemplos típicos do Brasil.</h3>
+                <h3>1. O que é migração interna? Cite dois exemplos típicos do Brasil, incluindo a migração pendular.</h3>
 
-                <h3>2. Explique o conceito de migração pendular e dê um exemplo de como ela aparece nas regiões metropolitanas brasileiras.</h3>
+                <h3>2. O que é migração de retorno? Quais fatores estimularam o retorno ao Nordeste documentado pelo Censo 2022?</h3>
 
-                <h3>3. O que é migração de retorno? Quais fatores estimularam o retorno ao Nordeste documentado pelo Censo 2022?</h3>
+                <h3>3. Diferencie migração forçada de migração espontânea. O êxodo rural nordestino se encaixa em qual categoria, e por que a resposta é mais complexa do que parece?</h3>
 
-                <h3>4. Diferencie migração forçada de migração espontânea. O êxodo rural nordestino se encaixa em qual categoria, e por que a resposta é mais complexa do que parece?</h3>
+                <h3>4. O que são fatores de expulsão (push) e de atração (pull)? Aplique essa teoria para explicar o êxodo rural brasileiro do século XX.</h3>
 
-                <h3>5. O que são fatores de expulsão (push) e de atração (pull)? Aplique essa teoria para explicar o êxodo rural brasileiro do século XX.</h3>
+                <h3>5. Quais foram as principais causas históricas do êxodo rural no Brasil? Cite pelo menos três fatores.</h3>
 
-                <h3>6. Quais foram as principais causas históricas do êxodo rural no Brasil? Cite pelo menos três fatores.</h3>
+                <h3>6. Por que o critério brasileiro de classificação urbano/rural (sede de município) é diferente do usado por outros países? Que problema isso pode causar em comparações internacionais?</h3>
 
-                <h3>7. Por que o critério brasileiro de classificação urbano/rural (sede de município) é diferente do usado por outros países? Que problema isso pode causar em comparações internacionais?</h3>
+                <h3>7. O que são arranjo populacional e concentração urbana? O que os dados do Censo 2022 revelam sobre a distribuição da população brasileira entre municípios pequenos e grandes concentrações urbanas?</h3>
 
-                <h3>8. O que são arranjo populacional e concentração urbana? O que os dados do Censo 2022 revelam sobre a distribuição da população brasileira entre municípios pequenos e grandes concentrações urbanas?</h3>
+                <h3>8. O que é transumância? Por que ela é diferente do êxodo rural?</h3>
 
-                <h3>9. O que é transumância? Por que ela é diferente do êxodo rural?</h3>
+                <h3>9. Como São Paulo e o Rio de Janeiro podem ter tido saldo migratório negativo entre 2017 e 2022 mesmo sendo os estados mais populosos do país? O que isso tem a ver com o crescimento das cidades médias?</h3>
 
-                <h3>10. Como a Região Metropolitana de São Paulo pode ter tido êxodo migratório entre 2000 e 2010 mesmo sendo a maior metrópole do país? O que isso tem a ver com o crescimento das cidades médias?</h3>
-
-                <h3>11. O que é êxodo urbano e por que geógrafos consideram esse termo, muitas vezes, exagerado pela mídia?</h3>
+                <h3>10. O que é êxodo urbano e por que geógrafos consideram esse termo, muitas vezes, exagerado pela mídia?</h3>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
@@ -498,6 +552,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

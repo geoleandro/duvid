@@ -392,7 +392,8 @@
       "HatoumOrfaosEldorado",
       "WallaceViagensAmazonasRioNegro",
       "CastroASelva"
-    ]
+    ],
+    "mapaMental": "2ano/Textos2/Texto16/inforesumots16.webp"
   },
   {
     "id": 217,
@@ -507,6 +508,11 @@
       "ANAAtlasAgua",
       "BBCRiosVoadores",
       "MMAAgua"
+    ],
+    "livros": [
+      "MillardRioDaDuvida",
+      "CabralMeloNetoCaoSemPlumas",
+      "CastroASelva"
     ]
   },
   {
@@ -528,6 +534,11 @@
       "Vogler",
       "Skolnick",
       "BNCC"
+    ],
+    "livros": [
+      "McEwanSolar",
+      "CervantesDomQuixote",
+      "BrumBanzeiroOkoto"
     ]
   },
   {
@@ -552,6 +563,11 @@
       "BNCC",
       "Saviani",
       "Gasparin"
+    ],
+    "livros": [
+      "AtwoodContoDaAia",
+      "JamesFilhosDaEsperanca",
+      "HuxleyAdmiravelMundoNovo"
     ]
   },
   {
@@ -573,6 +589,7 @@
       "Saviani",
       "Gasparin"
     ],
+    "livros": ["AzevedoOCortico", "ZolaGerminal", "VieiraJuniorTortoArado"],
     "links": [
       "AgenciaBrasilDesemprego",
       "AgenciaBrasilCarteira"
@@ -597,6 +614,7 @@
       "Saviani",
       "Gasparin"
     ],
+    "livros": ["RamosVidasSecas", "JesusQuartoDeDespejo", "CabralMorteVidaSeverina"],
     "links": [
       "AgenciaBrasilUrbanizacao",
       "AgenciaBrasilNordestePerda"
@@ -632,6 +650,7 @@
       "Gasparin",
       "SantosTerritorioSociedade"
     ],
+    "livros": ["CalvinoCidadesInvisiveis", "BrandaoZero", "SaramagoEnsaioSobreACegueira"],
     "links": [
       "AgenciaBrasilSaoPaulo",
       "AgenciaBrasilMetropoles"
@@ -659,6 +678,11 @@
     "links": [
       "IBGERegioes",
       "AgenciaBrasilCidadesMedias"
+    ],
+    "livros": [
+      "CastroGeografiaDaFome",
+      "LispectorHoraDaEstrela",
+      "AmadoCapitaesAreia"
     ]
   },
   {
@@ -683,6 +707,11 @@
     "links": [
       "AgenciaBrasilGentrif",
       "AgenciaBrasilMobilidadeUrbana"
+    ],
+    "livros": [
+      "JesusQuartoDeDespejo",
+      "CoetzeeDesonra",
+      "AdigaOTigreBranco"
     ]
   },
   {
@@ -705,6 +734,11 @@
     "links": [
       "AgenciaBrasilEnchentes",
       "AgenciaBrasilSaneamento"
+    ],
+    "livros": [
+      "CabralMeloNetoCaoSemPlumas",
+      "BarlowClarkeOuroAzul",
+      "DiamondColapso"
     ]
   },
   {
@@ -737,6 +771,11 @@
     "links": [
       "AgenciaBrasilEnergiaSolar",
       "AgenciaBrasilHidrogenioVerde"
+    ],
+    "livros": [
+      "GaleanoVeiasAbertas",
+      "ConradCoracaoTrevas",
+      "ArbexArrastados"
     ]
   },
   {
@@ -748,6 +787,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=233",
     "objetivo": "Conhecer os seis biomas brasileiros e suas especificidades. Analisar as causas estruturais do desmatamento no Brasil (agronegócio, especulação fundiária, pressão sobre terras indígenas) e avaliar criticamente as políticas ambientais, incluindo o Código Florestal e as Unidades de Conservação.",
     "audio": null,
+    "livros": [
+      "KolbertSextaExtincao",
+      "LeopoldAlmanaque",
+      "GhoshMareVoraz"
+    ],
     "links": [
       "MMANumeros",
       "AgenciaBrasilDesmatamento",
@@ -773,6 +817,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=234",
     "objetivo": "Caracterizar as cinco regiões brasileiras em suas dinâmicas econômicas, demográficas e sociais, compreendendo as causas históricas das desigualdades regionais. Avaliar criticamente os mecanismos de redistribuição federativa (FPE, FPM, Sudene) e refletir sobre preconceito regional como forma de desigualdade.",
     "audio": null,
+    "livros": [
+      "HatoumDoisIrmaos",
+      "RamosVidasSecas",
+      "VerissimoTempoEVento"
+    ],
     "bibliografia": [
       "Mariano",
       "Vesentini",
@@ -797,6 +846,11 @@
     "linkQuestoes": "questoes/modelo-questoes.php?id=235",
     "objetivo": "Compreender a inserção do Brasil na economia globalizada, analisando criticamente a divisão internacional do trabalho, a pauta exportadora concentrada em commodities e o processo de reprimarização. Avaliar o papel do Mercosul e dos BRICS como alternativas à hegemonia norte-americana e refletir sobre soberania econômica.",
     "audio": null,
+    "livros": [
+      "SinclairSelva",
+      "McLeodQuantoCustouAcucar",
+      "RaworthEconomiaDonut"
+    ],
     "bibliografia": [
       "SantosGlobalizacao",
       "TerraGuimaraesAraujo",

@@ -211,7 +211,8 @@ const DuvidDB = {
         escola = escola || '';
         if (!nome || nome.trim() === "") return Promise.resolve(null);
         nome = nome.trim();
-        localStorage.setItem(NOME_CHAVE, nome);
+        // Não salva no localStorage antes do servidor aceitar o nome.
+        // Se o PHP rejeitar (nome inválido), o nome errado não fica gravado.
 
         const payload = { nome: nome, globinhos_iniciais: 0 };
         if (email)       payload.email        = email;
@@ -226,6 +227,8 @@ const DuvidDB = {
                 if (!dados || !dados.id) return dados;
                 DuvidDB._cache.alunoId    = dados.id;
                 DuvidDB._cache.sessaoAtiva = true; // login bem-sucedido = sessão ativa
+                // Só persiste o nome após confirmação do servidor (usa dados.nome = nome normalizado pelo PHP)
+                localStorage.setItem(NOME_CHAVE, dados.nome || nome);
                 localStorage.setItem(ALUNO_ID_CHAVE, dados.id);
                 // Persiste localização para preencher modal de edição depois
                 localStorage.setItem(ESTADO_CHAVE, dados.estado || '');

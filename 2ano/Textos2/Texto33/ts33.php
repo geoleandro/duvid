@@ -240,8 +240,7 @@
 
             <h2>Desmatamento: causas e políticas de controle</h2>
 
-            <p>O <span class="termo" data-palavra="Desmatamento"
-                    data-definicao="Remoção da cobertura vegetal nativa de uma área, geralmente para uso agropecuário, mineração, infraestrutura ou urbanização.">desmatamento</span>
+            <p>O desmatamento
                 no Brasil tem causas econômicas estruturais. Na Amazônia, cerca de 80% do desmatamento é para pecuária
                 extensiva: o boi precisa de pasto, e o pasto mais barato é o que foi aberto na floresta. A soja avança
                 principalmente no Cerrado e na faixa de transição Cerrado-Amazônia, o <span class="termo"
@@ -273,6 +272,16 @@
                 das políticas ambientais depende de vontade política e financiamento estatal, e que os ganhos
                 ambientais podem ser revertidos rapidamente.</p>
 
+            <p>A partir de 2023, com a retomada da fiscalização e o reforço do orçamento do IBAMA, a curva voltou a
+                cair. Segundo o PRODES/INPE, o desmatamento na Amazônia Legal no período de agosto de 2024 a julho de
+                2025 somou 5.796 km², uma queda de 11,08% em relação ao ano anterior e o menor patamar em onze anos.
+                Oito dos nove estados da Amazônia Legal registraram redução, com destaque para Tocantins (-62,5%),
+                Amapá (-48,15%) e Roraima (-37,39%); só o Mato Grosso teve alta, de 25,06%, puxada pela expansão da
+                soja no norte do estado. O caso mato-grossense é um lembrete de que a tendência nacional esconde
+                geografias muito diferentes: cada estado responde à fiscalização e ao mercado de commodities de um
+                jeito distinto, e um resultado positivo no agregado não significa que o problema foi resolvido em
+                toda parte.</p>
+
             <div class="w3-margin">
                 <img src="ts33f02.png"
                     alt="Gráfico do desmatamento anual na Amazônia Legal entre 2000 e 2023 mostrando a queda entre 2004-2012 e o aumento posterior"
@@ -303,10 +312,8 @@
 
             <h3>Conflitos socioambientais</h3>
 
-            <p>O desmatamento e o uso do território geram conflitos entre diferentes grupos. <span class="termo"
-                    data-palavra="Conflito Socioambiental"
-                    data-definicao="Disputas envolvendo o controle e uso de recursos naturais e o território, que opõem grupos com diferentes interesses e poder. No Brasil, incluem: conflitos entre fazendeiros/grileiros e povos indígenas ou quilombolas; disputas em torno de mineração em terras indígenas; resistência de comunidades tradicionais contra grandes projetos de infraestrutura (barragens, rodovias); e embates entre o agronegócio e ambientalistas sobre o uso do Cerrado e da Amazônia.">Conflitos
-                    socioambientais</span> no Brasil envolvem: povos indígenas e quilombolas que reivindicam terras
+            <p>O desmatamento e o uso do território geram conflitos entre diferentes grupos. Conflitos
+                    socioambientais no Brasil envolvem: povos indígenas e quilombolas que reivindicam terras
                 demarcadas invadidas por garimpeiros e fazendeiros; comunidades ribeirinhas deslocadas por grandes
                 barragens; pescadores artesanais que perdem o sustento com a poluição industrial dos rios; e populações
                 que vivem em áreas de mineração sofrendo os impactos dos rejeitos (como em Mariana, 2015, e Brumadinho,
@@ -320,6 +327,31 @@
                 famílias, um recorde histórico, mas ainda assim uma fração pequena da demanda represada. Enquanto o
                 título não sai, essas comunidades ficam mais vulneráveis a invasões, grilagem e pressão para vender ou
                 abandonar a terra.</p>
+
+            <h3>Marco temporal: até onde vai o direito à terra indígena?</h3>
+
+            <p>Um dos conflitos socioambientais mais decisivos dos últimos anos girou em torno de uma única data: 5
+                de outubro de 1988, o dia em que a Constituição foi promulgada. A tese do <span class="termo"
+                    data-palavra="Marco Temporal"
+                    data-definicao="Tese jurídica segundo a qual os povos indígenas só teriam direito a demarcar como terra tradicional aquela que já ocupavam fisicamente, ou disputavam judicialmente, no dia 5 de outubro de 1988, data da promulgação da Constituição Federal. Defendida por parte do agronegócio e de setores do Congresso, a tese ignora que muitos povos foram expulsos de seus territórios por violência antes dessa data, o que tornaria impossível provar 'ocupação' num momento em que já haviam sido removidos à força.">marco
+                    temporal</span> defendia que os povos indígenas só teriam direito a demarcar como sua a terra que
+                ocupavam fisicamente, ou já disputavam na Justiça, exatamente naquela data. Para quem defende a tese,
+                normalmente ligado ao agronegócio, ela traria segurança jurídica a quem comprou terra de boa-fé. Para
+                os povos indígenas e a maioria dos antropólogos, ela ignora um fato histórico básico: muitos povos
+                foram expulsos de seus territórios à força, por violência de fazendeiros, garimpeiros ou do próprio
+                Estado, muito antes de 1988, o que tornaria impossível provar "ocupação" num momento em que já
+                tinham sido removidos.</p>
+
+            <p>Em 2023, o Congresso Nacional aprovou a tese em forma de lei (Lei 14.701) mesmo depois de o Supremo
+                Tribunal Federal já ter votado, em setembro daquele ano, contra o marco temporal em um julgamento
+                anterior. O presidente Lula vetou o trecho principal da lei, mas o Congresso derrubou o veto em
+                dezembro de 2023. O impasse entre os Três Poderes só foi resolvido dois anos depois: em dezembro de
+                2025, o STF encerrou o julgamento conjunto das ações sobre a Lei 14.701 e, por 9 votos a 1, declarou
+                inconstitucional a tese do marco temporal. Ao mesmo tempo, a Corte manteve válidos outros pontos da
+                lei, como regras de indenização a proprietários de boa-fé afetados por demarcações. Foi uma vitória
+                para os povos indígenas quanto ao princípio central da disputa, mas não um fim definitivo do conflito:
+                a aplicação prática da decisão, caso a caso, em centenas de processos de demarcação parados nos
+                cartórios e nos tribunais, ainda vai se arrastar por anos.</p>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
@@ -451,8 +483,70 @@
                 Ecológico tenta corrigir essa distorção, transformando conservação em fonte de receita municipal, e
                 não apenas em custo de oportunidade.</p>
 
+            <h3>COP30 em Belém: a Amazônia no centro do debate climático global</h3>
+
+            <p>Em novembro de 2025, o Brasil sediou pela primeira vez uma Conferência
+                    das Nações Unidas sobre Mudanças Climáticas (COP) dentro da própria Amazônia: a COP30,
+                realizada em Belém, no Pará, entre 10 e 21 de novembro. O simbolismo era direto: discutir o futuro do
+                clima global na porta de entrada da maior floresta tropical do planeta, a mesma cujo desmatamento e
+                cujas queimadas você estudou nesta aula. O encontro terminou com a aprovação, por 195 países, do
+                chamado Pacote de Belém: 29 decisões sobre transição energética justa, financiamento para adaptação e
+                apoio a países vulneráveis. Organizações da sociedade civil criticaram o resultado por deixar de fora
+                metas explícitas de fim dos combustíveis fósseis e de combate ao desmatamento, os dois temas que mais
+                diretamente afetam o Brasil.</p>
+
+            <p>O destaque brasileiro na conferência foi o lançamento da <span class="termo"
+                    data-palavra="TFFF"
+                    data-definicao="Tropical Forests Forever Facility (Fundo Eterno das Florestas Tropicais), mecanismo de financiamento lançado pelo Brasil na COP30 (novembro de 2025) para pagar países que preservam suas florestas tropicais. Diferente do Fundo Amazônia, que depende de doações voluntárias de poucos países, o TFFF funciona como um fundo de investimento: capital de países ricos e investidores é aplicado no mercado financeiro, e o retorno dos investimentos é repassado a mais de 70 países tropicais elegíveis, proporcionalmente à floresta que cada um mantém em pé. 20% dos repasses são destinados diretamente a povos indígenas e comunidades tradicionais.">TFFF</span>,
+                o Fundo Eterno das Florestas Tropicais, uma proposta brasileira para resolver um problema antigo do
+                Fundo Amazônia: depender da boa vontade de poucos doadores. A meta é captar até US$ 125 bilhões e
+                aplicá-los no mercado financeiro, repassando o rendimento a mais de 70 países tropicais proporcionalmente
+                à floresta que cada um mantiver em pé, com 20% do dinheiro destinado diretamente a povos indígenas e
+                comunidades tradicionais. Na largada, o fundo garantiu US$ 6,7 bilhões em capital, menos de um quarto
+                dos US$ 25 bilhões considerados necessários para o fundo operar em escala plena. É uma ideia ambiciosa
+                e ainda incompleta: mostra tanto o protagonismo que o Brasil tenta assumir na diplomacia ambiental
+                quanto a dificuldade real de transformar promessas climáticas internacionais em dinheiro concreto na
+                conta.</p>
+
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8B: Questão prática 3 -->
+        <div class="topico pergunta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO PRÁTICA</p>
+
+            <h4 class="fontePixel"><b>Quem defendia a tese do marco temporal argumentava que ela dava "segurança
+                    jurídica" a quem já ocupava a terra. O principal contra-argumento dos povos indígenas era que:</b>
+            </h4>
+
+            <div class="grupo-respostas w3-margin-top">
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3a" value="errado" class="radio-duvid">
+                    <label for="p3a" class="card-opcao"><span>A data de 1988 é arbitrária demais</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3b" value="correto" class="radio-duvid">
+                    <label for="p3b" class="card-opcao"><span>Muitos já haviam sido expulsos antes de 1988</span></label>
+                </div>
+                <div class="item-resposta">
+                    <input type="radio" name="pergunta3" id="p3c" value="errado" class="radio-duvid">
+                    <label for="p3c" class="card-opcao"><span>O agronegócio não tem direito à terra</span></label>
+                </div>
+            </div>
+
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid"
+                    onclick="validarRadio(this, 'pergunta3', 'resp3', 'globinho3', 'exigir prova de ocupacao em 1988 ignora que muitos povos ja tinham sido removidos a forca antes dessa data.', '10')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="resp3" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinho3" style="display:none" width="80" height="80">
+            </div>
         </div>
 
 
@@ -484,6 +578,67 @@
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
             <hr>
+        </div>
+
+
+        <!-- BLOCO 8.6: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots33" src="inforesumots33.webp"
+                    alt="Infográfico resumo Meio ambiente no Brasil - biomas, desmatamento e políticas ambientais"
+                    class="w3-mobile"
+                    onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo
+                    autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 8.7: Pergunta aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">RESPONDA COM SUAS PALAVRAS</p>
+
+            <h4 class="fontePixel"><b>O desmatamento avança na Amazônia por um processo em cadeia: primeiro a
+                    grilagem, depois a pecuária, depois a agricultura. Qual é o nome dado à faixa de terra onde esse
+                    processo mais avança, concentrando os maiores conflitos por terra na fronteira da floresta?</b>
+            </h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta1" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta1', 'desmatamento', 'respAberta1', this, 'globinhoAberta1')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta1" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta1" style="display:none" width="80" height="80">
+            </div>
+
+            <hr class="w3-margin-top">
+
+            <h4 class="fontePixel"><b>Qual sigla identifica o fundo lançado pelo Brasil na COP30, em Belém, para
+                    pagar países tropicais que preservam suas florestas?</b></h4>
+
+            <div class="w3-margin-top">
+                <input type="text" id="aberta2" class="w3-input w3-border" placeholder="Digite sua resposta...">
+                <button class="btn-acao-duvid w3-margin-top"
+                    onclick="validarAberta('aberta2', 'tfff', 'respAberta2', this, 'globinhoAberta2')">
+                    Confirmar Resposta
+                </button>
+            </div>
+
+            <p id="respAberta2" class="w3-center w3-padding w3-large"></p>
+            <div class="area w3-center">
+                <img src="/fotoIndex/globinhoPe.png" id="globinhoAberta2" style="display:none" width="80" height="80">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
         </div>
 
 
@@ -520,8 +675,14 @@
                     Pampa); desmatamento (causas: pecuária, soja, grilagem, arco do desmatamento; políticas: PPCDAm,
                     PRODES, moratórias); queimadas e incêndios florestais; Código Florestal (Reserva Legal e APPs);
                     Unidades de Conservação (Proteção Integral e Uso Sustentável); ICMS Ecológico; Fundo Amazônia;
-                    conflitos socioambientais (indígenas, quilombolas, garimpeiros, barragens); terras indígenas e
-                    UCs como barreiras ao desmatamento.</p>
+                    marco temporal; COP30 e TFFF; conflitos socioambientais (indígenas, quilombolas, garimpeiros,
+                    barragens); terras indígenas e UCs como barreiras ao desmatamento.</p>
+
+                <p>Com essa fotografia dos biomas e das políticas ambientais brasileiras em mãos, a próxima aula muda
+                    de escala: "Síntese das regiões brasileiras" vai reunir Norte, Nordeste, Centro-Oeste, Sudeste e
+                    Sul num panorama único, mostrando como as desigualdades econômicas e sociais entre elas também
+                    têm raízes históricas e territoriais, assim como a distribuição desigual de floresta preservada
+                    que você acabou de estudar.</p>
 
            
 
@@ -604,7 +765,7 @@
 
             <p class="caixa">Hora de usar o novo olhar.</p>
 
-            <div class="w3-panel w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h3>O bioma que você habita</h3>
                 <p><strong>Atividade individual</strong></p>
 
@@ -631,7 +792,7 @@
         <!-- BLOCO 13: Questões para o caderno -->
         <div class="topico">
 
-            <div class="w3-pale-yellow">
+            <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
                 <h3>1. Quais são os seis biomas brasileiros? Cite a principal característica de cada um.</h3>
@@ -714,6 +875,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>

@@ -25,6 +25,11 @@
       "ACNURDeslocados",
       "UNFome"
     ],
+    "livros": [
+      "GaleanoVeiasAbertas",
+      "RaworthEconomiaDonut",
+      "ButlerParabolaSemeador"
+    ],
     "mapaMental": "3ano/Textos3/Texto01/inforesumott1.webp"
   },
   {
@@ -45,6 +50,11 @@
     ],
     "links": [
       "ONUPopulacaoMundial"
+    ],
+    "livros": [
+      "HuxleyAdmiravelMundoNovo",
+      "AtwoodContoDaAia",
+      "JamesFilhosDaEsperanca"
     ],
     "mapaMental": "3ano/Textos3/Texto02/inforesumott2.webp"
   },
@@ -70,6 +80,11 @@
       "ACNURVenezuela",
       "ACNURAfricaRefugiados"
     ],
+    "livros": [
+      "LispectorHoraDaEstrela",
+      "RamosVidasSecas",
+      "AlmeidaABagaceira"
+    ],
     "mapaMental": "3ano/Textos3/Texto03/inforesumott3.webp"
   },
   {
@@ -92,6 +107,11 @@
       "DWPobreza",
       "UNFome",
       "ONUPopulacaoMundial"
+    ],
+    "livros": [
+      "CastroGeografiaDaFome",
+      "AmadoCapitaesAreia",
+      "MeredithDestinoAfrica"
     ],
       "mapaMental": "3ano/Textos3/Texto04/inforesumott4.webp"
   },
@@ -116,7 +136,8 @@
       "IBGECidades",
       "ONUPopulacaoMundial"
     ],
-    "mapaMental": "3ano/Textos3/Texto05/inforesumott5.webp"
+    "mapaMental": "3ano/Textos3/Texto05/inforesumott5.webp",
+    "livros": ["RaworthEconomiaDonut", "GaleanoVeiasAbertas", "DiamondColapso"]
   },
   {
     "id": 306,
@@ -151,7 +172,8 @@
     ],
     "mapaMental": "3ano/Textos3/Texto07/inforesumott7.webp",
     "objetivo": "Estudar a formação do meio técnico e identificar suas características fundamentais. Relacionar tais características ao processo de industrialização.",
-    "audio": null
+    "audio": null,
+    "livros": ["ZolaGerminal", "LlewellynComoEraVerdeMeuVale", "GaleanoVeiasAbertas"]
   },
   {
     "id": 308,
@@ -177,7 +199,8 @@
     ],
     "mapaMental": "3ano/Textos3/Texto08/inforesumott8.webp",
     "objetivo": "Compreender a constituição do meio técnico-científico-informacional e sua relação com os processos industriais no período atual da globalização.",
-    "audio": null
+    "audio": null,
+    "livros": ["SinclairSelva", "EggersOCirculo", "GalvaoParqueIndustrial"]
   },
   {
     "id": 309,
@@ -201,7 +224,8 @@
       "NatGeoRevolucaoIndustrial",
       "BangladeshTextil"
     ],
-    "mapaMental": "3ano/Textos3/Texto09/inforesumott9.webp"
+    "mapaMental": "3ano/Textos3/Texto09/inforesumott9.webp",
+    "livros": ["SinclairOil", "AllendeCasaDosEspiritos", "GuarnieriBlackTie"]
   },
   {
     "id": 310,
@@ -441,7 +465,8 @@
     "mapaMental": "3ano/Textos3/Texto20/inforesumott20.webp",
     "livros": [
       "VonnegutMatadouroCinco",
-      "SinclairSelva"
+      "SinclairSelva",
+      "SinclairOil"
     ]
   },
   {
@@ -774,7 +799,8 @@
     ],
     "livros": [
       "DaiSijieBalzacCostureirinha",
-      "LuXunAhQ"
+      "LuXunAhQ",
+      "MarcoPoloLivroMaravilhas"
     ]
   },
   {
@@ -801,7 +827,8 @@
     ],
     "livros": [
       "HarrerSeteAnosTibet",
-      "MaJianPequimEmComa"
+      "MaJianPequimEmComa",
+      "KrakauerNoArRarefeito"
     ]
   },
   {
@@ -828,7 +855,8 @@
     ],
     "livros": [
       "IshiguroPalidaVisaoColinas",
-      "IhimaeraEncantadoraBaleias"
+      "IhimaeraEncantadoraBaleias",
+      "MurakamiDepoisDoTerremoto"
     ]
   },
   {

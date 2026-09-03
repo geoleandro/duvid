@@ -44,7 +44,7 @@
     <script src="/js/glossario.js" defer></script>
     <script src="/js/texto-painel.js" defer></script>
 
-    <title></title>
+    <title>2º ano - Texto 23 - População II: Dinâmica Demográfica</title>
 
 </head>
 
@@ -429,6 +429,58 @@
         </div>
 
 
+        <!-- BLOCO 14B: Questão aberta -->
+        <div class="topico pergunta-aberta-bloco w3-container w3-padding-24">
+            <p class="w3-text-grey w3-small">QUESTÃO ABERTA</p>
+            <h4 class="fontePixel"><b>Um exercício para reforçar alguns conceitos.</b></h4>
+
+            <p>Segundo o texto, o que acontece com o bônus demográfico brasileiro à medida que a população envelhece?</p>
+            <div class="w3-margin">
+                <input class="input" id="q1a23" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp1a23"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q1a23', 'encerr', 'resp1a23', this, 'globinho1a23')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho1a23" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <p>Segundo o texto, como se chama o preconceito baseado na idade, que atinge principalmente as pessoas idosas?</p>
+            <div class="w3-margin">
+                <input class="input" id="q2a23" placeholder="sua resposta..." type="text">
+            </div>
+            <p class="w3-center w3-padding" id="resp2a23"></p>
+            <div class="w3-margin-top">
+                <button class="btn-acao-duvid" onclick="validarAberta('q2a23', 'etaris', 'resp2a23', this, 'globinho2a23')">
+                    Conferir
+                </button>
+            </div>
+            <div class="area w3-center">
+                <img height="64" id="globinho2a23" src="/fotoIndex/globinhoPe.png" style="display:none" width="64">
+            </div>
+
+            <button class="btnHide" onclick="MostrarProximo(this); this.style.display='none'">Próximo ➜</button>
+            <hr>
+        </div>
+
+
+        <!-- BLOCO 14C: Infográfico - Resumo -->
+        <div class="topico">
+            <h2> Infográfico - Resumo</h2>
+
+            <div class="w3-margin"><img id="inforesumots23" src="inforesumots23.webp"
+                    alt="Infográfico resumo População II - transição demográfica e pirâmide etária" class="w3-mobile" onerror="this.outerHTML='<div style=padding:48px 0;background:#f0f4f0;border:2px dashed #aed6ae;border-radius:8px;text-align:center;color:#888>📊 Infográfico em breve</div>'">
+                <span class="w3-small w3-margin-left" id="citacaoInfografico"> Fonte: Organizado e revisado pelo autor. </span>
+            </div>
+
+            <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Próximo</button>
+            <hr>
+        </div>
+
+
         <!-- BLOCO 15: Ficha de conceitos -->
         <div class="topico">
             <div id="ficha-conceitos"></div>
@@ -498,7 +550,7 @@
             <div class="w3-panel w3-pale-yellow w3-margin">
                 <h2>Questões para responder no caderno:</h2>
 
-                <h3>1. Qual é a tendência da taxa de mortalidade no Brasil nas últimas décadas? Quais fatores explicam essa mudança?</h3>
+                <h3>1. Qual é a tendência da taxa de mortalidade no Brasil desde a década de 1940? Quais fatores explicam essa queda?</h3>
 
                 <h3>2. Como mudou o perfil epidemiológico das causas de morte no Brasil entre 1930 e 2019?</h3>
 
@@ -508,19 +560,15 @@
 
                 <h3>5. Descreva as quatro fases da transição demográfica. Em qual fase o Brasil se encontra atualmente?</h3>
 
-                <h3>6. Quais foram os principais fatores que explicam a queda da mortalidade no Brasil a partir da década de 1940?</h3>
+                <h3>6. Compare a transição demográfica da China e da África Subsaariana entre 1980 e 2020. O que explica a diferença?</h3>
 
-                <h3>7. Compare a transição demográfica da China e da África Subsaariana entre 1980 e 2020. O que explica a diferença?</h3>
+                <h3>7. O que é etarismo? De que forma o envelhecimento da população brasileira torna esse tema mais relevante?</h3>
 
-                <h3>8. O que é etarismo? De que forma o envelhecimento da população brasileira torna esse tema mais relevante?</h3>
+                <h3>8. Quais políticas públicas brasileiras foram criadas para proteger os direitos da população idosa, incluindo a Reforma da Previdência de 2019? Qual é a relação dessas políticas com a dinâmica demográfica?</h3>
 
-                <h3>9. Quais políticas públicas brasileiras foram criadas para proteger os direitos da população idosa?</h3>
+                <h3>9. Qual é a diferença entre a teoria neomalthusiana e a teoria reformista sobre o crescimento populacional?</h3>
 
-                <h3>10. Por que a Reforma da Previdência de 2019 elevou a idade mínima de aposentadoria? Qual é a relação com a dinâmica demográfica?</h3>
-
-                <h3>11. Qual é a diferença entre a teoria neomalthusiana e a teoria reformista sobre o crescimento populacional?</h3>
-
-                <h3>12. A população brasileira começará a diminuir a partir de 2042, segundo o IBGE. Quais desafios sociais e econômicos isso representa para o país?</h3>
+                <h3>10. A população brasileira começará a diminuir a partir de 2042, segundo o IBGE. Quais desafios sociais e econômicos isso representa para o país?</h3>
             </div>
 
             <button class="btnShow" onclick="MostrarProximo(this); this.style.display='none'">Concluir Aula</button>
@@ -570,6 +618,11 @@
                     <strong><i class="fa fa-book"></i> Referências Bibliográficas</strong>
                 </h3>
                 <div id="biblio-gerada"></div>
+            </div>
+
+            <div class="w3-container w3-padding-64 secao-livros-sugeridos">
+                <h3>📚 Sugestões de Livros</h3>
+                <div id="livros-gerados"></div>
             </div>
 
             <br><br>
